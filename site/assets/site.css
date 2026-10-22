@@ -318,6 +318,10 @@ details.svc-row[open] > summary .svc-x::before { content: '\2013'; }
 .svc-k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); }
 .svc-part { display: block; font-size: 14px; line-height: 20px; }
 .svc-part .sup { display: block; font-family: var(--mono); font-size: 11px; color: var(--stone); }
+.svc-part .sup a { color: var(--stone); }
+.svc-part .sup a:hover { color: var(--ink); }
+.buy-item { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; }
+.buy-item .amz { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; color: var(--stone); }
 @media (max-width: 760px) {
   .svc-hd { display: none; }
   .svc-row > summary, .svc-sum { grid-template-columns: 1fr 20px; gap: 4px 12px; }

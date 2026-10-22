@@ -98,6 +98,29 @@ def affiliate_rewrite(html, programs):
     return out, hit
 
 
+AMZ_SKIP_SUP = ('amazon', 'service centre', 'service center', 'dealer')
+AMZ_SKIP_NAME = ('catalog', 'diagram', 'parts list', 'service centre')
+
+
+def amz_q(pt, vehicle=''):
+    """Amazon search query for a listed part, or '' when it isn't a retail product."""
+    name = str(pt.get('name') or '')
+    sup = str(pt.get('supplier') or '').lower()
+    low = name.lower()
+    if any(k in sup for k in AMZ_SKIP_SUP) or any(k in low for k in AMZ_SKIP_NAME) or re.search(r'\bsearch\b', low + ' ' + sup):
+        return ''
+    q = re.split(r';| — listed| - listed|, listed| — confirm|, confirm', name)[0]
+    if q.count('(') > q.count(')'):
+        q = q[:q.rfind('(')]
+    q = re.sub(r'\b(genuine|oem|kit for)\b', '', q, flags=re.I)
+    q = q.replace('&', 'and').replace('—', ' ').replace('–', '-')
+    q = re.sub(r'\s+', ' ', q).strip(' ,·-')
+    has_pn = re.search(r'[A-Za-z]*\d[\w./-]{3,}', q)
+    if not has_pn and vehicle and vehicle.lower() not in q.lower():
+        q = f'{q} {vehicle}'
+    return q
+
+
 def mlabel(maker, title):
     return title if str(title).lower().startswith(maker.lower()) else f'{maker} {title}'
 
@@ -234,6 +257,7 @@ def main():
             return Markup(f'<svg viewBox="0 0 64 64" width="{w}" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="{color}" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="{color}"/><circle cx="40" cy="63" r="9.5" fill="{color}"/><circle cx="40" cy="63" r="3.5" fill="{bg}"/></svg>')
         env.globals['affiliates_on'] = any(p.get('template') or p.get('params') for p in AFFILIATES)
         env.globals['mlabel'] = mlabel
+        env.globals['amz_q'] = amz_q
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
