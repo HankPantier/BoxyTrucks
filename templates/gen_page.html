@@ -87,13 +87,14 @@
           </details>{% else %}</div></div>{% endif %}
           {% endfor %}
         </div>
+        <aside class="verify" role="note"><span class="verify-k">Verify before you pour</span><p>Fluid types, capacities, part numbers and intervals here are gathered from owner’s manuals, specialist shops and owner forums, and they can vary by year, market, engine and previous owners’ changes. Confirm every spec against your owner’s manual, the tags on the axles and transfer case, or a qualified mechanic before doing the work. BoxyTrucks provides this for general information only and accepts no responsibility for damage, injury or loss from its use. <a href="{{ root }}about/disclaimer.html">Full disclaimer</a>.</p></aside>
       </section>
       {% endif %}
 
       {% if p.repairs %}
       <section id="repairs" style="display:flex;flex-direction:column;gap:22px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">For the hands-on owner</span><h2 style="font-size:34px">Common repairs</h2></div>
-        <div class="prose"><p style="margin:0">The jobs owners actually end up doing, rated for a competent home mechanic with a decent tool kit. Always confirm torque figures and procedures against the factory service manual for your VIN.{% if affiliates_on %} Some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p></div>
+        <div class="prose"><p style="margin:0">The jobs owners actually end up doing, rated for a competent home mechanic with a decent tool kit. Always confirm torque figures, fluids and procedures against the factory service manual for your VIN, and work safely — support the truck on stands, never just a jack. You do this work at your own risk; see the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.{% if affiliates_on %} Some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p></div>
         <div class="stack">
         {% for r in p.repairs %}
           <article class="repair">

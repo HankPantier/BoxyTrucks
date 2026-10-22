@@ -10,6 +10,7 @@
 </section>
 <div class="wrap section">
 {% if hub.kind == 'repairs' %}
+  <aside class="verify" role="note" style="margin-bottom:48px;max-width:860px"><span class="verify-k">Verify before you wrench</span><p>These guides are general information from owners, shops and forums, not a factory manual. Confirm specs, fluids and procedures for your VIN, work safely, and do the work at your own risk. <a href="{{ root }}about/disclaimer.html">Full disclaimer</a>.</p></aside>
   {% for grp in hub.groups %}
   <section style="margin-bottom:56px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.model }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Full guide →</a></div>
