@@ -347,7 +347,24 @@
     "cost": "$250–450 labor",
     "symptoms": "Vibration at idle, a visibly wobbling crank pulley, rattle or chirp that changes with RPM, cracked or bulging rubber, belt squeal. Don’t keep driving it: if the outer ring lets go you lose power steering, charging and the water pump.",
     "fix": "Remove the belt and fan as needed, hold the crank with a counter-hold tool, and break the centre bolt loose. Fit the new balancer with a new centre bolt (it’s torque-to-yield) and a new front crank seal while you’re there. Torque to 200 Nm plus 90°.",
-    "tools": "Crank counter-hold tool (MB 112 589 00 40 00 or equivalent) · 27 mm socket · long breaker bar or high-torque impact · new centre bolt (MB 112 031 00 71) · front crank seal · balancer (avoid used units with the failure-prone part numbers)"
+    "tools": "Crank counter-hold tool (MB 112 589 00 40 00 or equivalent) · 27 mm socket · long breaker bar or high-torque impact · new centre bolt (MB 112 031 00 71) · front crank seal · balancer (avoid used units with the failure-prone part numbers)",
+    "parts": [
+     {
+      "name": "Corteco harmonic balancer / crank pulley 112 035 14 00 (M112/M113)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-crankshaft-pulley-corteco-1120351400"
+     },
+     {
+      "name": "Corteco front crankshaft seal 023 997 84 47",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-crankshaft-seal-front-corteco-20026532b"
+     },
+     {
+      "name": "CTA crank pulley counterhold tool 7270",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-crankshaft-counterhold-tool-cta-7270"
+     }
+    ]
    },
    {
     "title": "Oil filter housing gasket leak (M113)",
@@ -356,7 +373,24 @@
     "cost": "Parts cheap; most of the bill is labor",
     "symptoms": "Oil collecting at the top front of the engine in the V, running down the front of the block onto the belt, pulleys or harmonic balancer; a burning-oil smell once it reaches hot parts. Owners often get misdiagnosed first — on one M113 the first shop blamed the power steering pump.",
     "fix": "Confirm the source by degreasing the engine and checking again after a drive. Remove whatever sits over the housing (air intake ducting and covers), unbolt the housing, clean both mating faces completely and fit new seals. Use genuine Mercedes or Elring seals, torque to the factory figures, then degrease again so any remaining leak is easy to spot.",
-    "tools": "Metric sockets and Torx/E-Torx bits · torque wrench · gasket scraper (plastic) and brake cleaner · new oil filter housing seals (genuine or Elring) · fresh oil and filter while you’re in there"
+    "tools": "Metric sockets and Torx/E-Torx bits · torque wrench · gasket scraper (plastic) and brake cleaner · new oil filter housing seals (genuine or Elring) · fresh oil and filter while you’re in there",
+    "parts": [
+     {
+      "name": "Reinz oil cooler / filter-housing gasket, lower (112 184 03 61)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-oil-cooler-gasket-1121840361"
+     },
+     {
+      "name": "Elring oil cooler / filter-housing gasket (112 184 02 61)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-oil-cooler-gasket-elring-1121840261"
+     },
+     {
+      "name": "Mann oil filter kit HU 718/5 x (000 180 26 09)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-oil-filter-mann-hu718-5x"
+     }
+    ]
    },
    {
     "title": "Valve cover gaskets & breather hoses (M113)",
@@ -365,7 +399,29 @@
     "cost": "≈ $200 parts vs ≈ $2,000 shop quotes (owner report)",
     "symptoms": "Oil on the coil packs, plug leads and the top of the exhaust manifolds; a burning smell after a drive; in bad cases oil reaching the plugs and causing misfires. Breather hoses on the same engine family crack and leak too, so leaks around the covers aren’t always the gaskets.",
     "fix": "Remove the intake ducting, then the coil packs and plug leads (label them — the M113 runs two plugs per cylinder), then the cover bolts. Lift the covers, clean every trace of old gasket and sealant, and fit new gaskets plus the bolt grommets. Replace the crankcase breather hoses at the same time; where sealant is specified, owners report a continuous bead with no gaps and spotless surfaces is what stops repeat leaks. Torque the cover bolts evenly to the factory figure — overtightening distorts the covers.",
-    "tools": "Sockets and Torx bits · torque wrench (low range) · plastic scraper and brake cleaner · valve cover gaskets and bolt grommets (genuine or Elring — owners report aftermarket gaskets leaking) · breather hoses · Mercedes-approved sealant where called for"
+    "tools": "Sockets and Torx bits · torque wrench (low range) · plastic scraper and brake cleaner · valve cover gaskets and bolt grommets (genuine or Elring — owners report aftermarket gaskets leaking) · breather hoses · Mercedes-approved sealant where called for",
+    "parts": [
+     {
+      "name": "URO comprehensive M113 valve cover gasket kit",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-comprehensive-valve-cover-gasket-kit-oe-supplier-m113016"
+     },
+     {
+      "name": "Elring valve cover gasket, left (113 016 02 21)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-valve-cover-gasket-elring-1130160221"
+     },
+     {
+      "name": "Elring valve cover gasket, right (113 016 03 21)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-valve-cover-gasket-elring-1130160321"
+     },
+     {
+      "name": "M112/M113 breather cover reseal kit",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-breather-cover-reseal-kit-m112-m113-oem-m112bcvr"
+     }
+    ]
    },
    {
     "title": "Diff locks won’t engage",
@@ -374,7 +430,24 @@
     "cost": "Diagnosis-dependent",
     "symptoms": "One or all locks refuse to engage, or engage then drop out; sometimes paired with central-locking oddities. The fault is usually the vacuum system, not the differentials.",
     "fix": "Confirm vacuum at the transfer-case hose. Then work from the pump and reservoir (front-left wheel well) through the manifold and the switchover valve block on the firewall, teeing in a gauge at each segment. One owner’s 2005 G 500 fault was a split plastic connector inside a rubber Y fitting under the brake booster. Change transfer-case and diff fluids and bleed the hydraulic locker lines while you’re in there.",
-    "tools": "Hand vacuum pump with gauge · assorted vacuum tees and line · replacement connectors · diff and transfer-case fluid · bleeding kit"
+    "tools": "Hand vacuum pump with gauge · assorted vacuum tees and line · replacement connectors · diff and transfer-case fluid · bleeding kit",
+    "parts": [
+     {
+      "name": "Lisle 20300 vacuum gauge / pump tester",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/vacuum-gauge-and-fuel-pump-tester-20300"
+     },
+     {
+      "name": "Genuine Mercedes vacuum hose connector 117 078 03 81",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-vacuum-hose-connector-genuine-mercedes-mer-1170780381"
+     },
+     {
+      "name": "Genuine Mercedes vacuum hose 000 158 14 35",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-vacuum-hose-0001581435"
+     }
+    ]
    },
    {
     "title": "Front axle seal leak",
@@ -383,7 +456,19 @@
     "cost": "$600–1,500",
     "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling to one side.",
     "fix": "Replace both front axle seals, not just the leaking side, and inspect the shafts for scoring. If oil has reached the brakes, replace the pads and resurface or replace the rotors.",
-    "tools": "Axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated"
+    "tools": "Axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated",
+    "parts": [
+     {
+      "name": "Genuine Mercedes front axle shaft seal 009 997 28 47",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-axle-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0099972847"
+     },
+     {
+      "name": "Liqui Moly 75W-90 synthetic hypoid gear oil (1 L)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/gear-oil-liqui-moly-99991754600"
+     }
+    ]
    },
    {
     "title": "Steering damper & front-end wander",
@@ -392,7 +477,24 @@
     "cost": "$300–800",
     "symptoms": "Highway wander, wheel shake around 55–70 mph, vague on-centre feel, clunks over bumps.",
     "fix": "Swap the steering damper (OEM or an upgraded unit such as a Bilstein B6). Check the drag link and tie-rod ends for play while you’re under there, then get an alignment.",
-    "tools": "Steering damper · basic sockets and wrenches · tie-rod or drag-link ends if worn"
+    "tools": "Steering damper · basic sockets and wrenches · tie-rod or drag-link ends if worn",
+    "parts": [
+     {
+      "name": "Stabilus steering damper 463 463 00 32",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-steering-damper-stabilus-4634630032"
+     },
+     {
+      "name": "Febi drag link / tie-rod end",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-drag-link-end-febi-feb-12975"
+     },
+     {
+      "name": "Genuine Mercedes outer tie rod 002 460 16 48",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-steering-tie-rod-outer-g500-g55-amg-g550-g63-amg-mer-0024601648"
+     }
+    ]
    },
    {
     "title": "Cracked coil springs",
@@ -401,7 +503,19 @@
     "cost": "Parts plus labor",
     "symptoms": "A loud thump over bumps, uneven ride height, especially after cold weather.",
     "fix": "Replace springs in axle pairs. If you’re lifting the truck anyway, this is the moment to fit a lift spring kit (2-inch kits are common for the W463) with matched shocks.",
-    "tools": "Springs (pairs) · jack and stands · spring compressor if required by your setup · new shocks recommended"
+    "tools": "Springs (pairs) · jack and stands · spring compressor if required by your setup · new shocks recommended",
+    "parts": [
+     {
+      "name": "Mubea rear coil spring 460 324 07 04 (OE rate)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-benz-coil-spring-mubea-4603240704"
+     },
+     {
+      "name": "ARB/OME coil springs for 50 mm lift, W463",
+      "supplier": "GwagenParts.com",
+      "url": "https://www.gwagenparts.com/product/dtd-spec-arb-springs-for-50mm-lift-with-front-bar-fits-mercedes-g-class-w463/"
+     }
+    ]
    },
    {
     "title": "Sunroof drains & water ingress",
@@ -410,7 +524,14 @@
     "cost": "Cheap if caught early",
     "symptoms": "Damp or sagging headliner, wet carpets, electrical gremlins from a wet fuse box or climate actuators.",
     "fix": "Clear all four sunroof drains, then check the headliner, fuse box and blend-door actuators for water damage. Leaving it is what makes it expensive.",
-    "tools": "Trimmer line or drain-cleaning wire · low-pressure air · towels and patience"
+    "tools": "Trimmer line or drain-cleaning wire · low-pressure air · towels and patience",
+    "parts": [
+     {
+      "name": "Mercedes sunroof drain hoses & connectors (search; match W463 part by VIN)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products?keywords=mercedes+sunroof+drain+hose"
+     }
+    ]
    },
    {
     "title": "Propshaft judder",
@@ -419,7 +540,19 @@
     "cost": "Autocar: £1,500+ for a shaft",
     "symptoms": "Shake or judder under way, often worse under load.",
     "fix": "Inspect the joints and couplings for play before condemning the shaft. A worn shaft is a remove-and-replace job; mark the orientation so it goes back phased correctly.",
-    "tools": "Sockets and wrenches · paint marker · replacement shaft or joints"
+    "tools": "Sockets and wrenches · paint marker · replacement shaft or joints",
+    "parts": [
+     {
+      "name": "GKN front driveshaft P10017 (OE 463 410 13 02)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-benz-driveshaft-gkn-p10017"
+     },
+     {
+      "name": "Mercedes driveshaft flex discs (search; match by VIN)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products?keywords=mercedes+flex+disc"
+     }
+    ]
    },
    {
     "title": "Rust on the frame and body",
@@ -428,7 +561,19 @@
     "cost": "$400–8,000",
     "symptoms": "Bubbling at the tailgate’s lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.",
     "fix": "Catch it early: blast and treat, or weld in repair panels before it spreads. Cavity-wax the doors and underbody, rinse off road salt after winter, and keep drain holes clear. Severe frame rust can often be fixed in sections rather than with a whole new frame.",
-    "tools": "Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair"
+    "tools": "Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair",
+    "parts": [
+     {
+      "name": "Eastwood Internal Frame Coating (cavity wax for frame rails)",
+      "supplier": "Eastwood",
+      "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
+     },
+     {
+      "name": "Eastwood Rust Encapsulator + Internal Frame Coating Plus kit",
+      "supplier": "Eastwood",
+      "url": "https://www.eastwood.com/rust-encapsulator-internal-frame-coating-plus-combo-kit.html"
+     }
+    ]
    }
   ],
   "faq": [
@@ -795,7 +940,272 @@
    {
     "name": "MBClub UK — Rocker box gasket and oil filter housing leaks (Mercedes V6/V8)",
     "url": "https://forums.mbclub.co.uk/threads/spark-plugs-and-rocker-box-gasket-oil-leak.259023"
+   },
+   {
+    "name": "Toolsource — Baseline maintenance for a 1999–2004 G-Class W463 (M113 V8, 722.6)",
+    "url": "https://www.toolsource.com/blog/baseline-maintenance-for-a-1999-2004-mercedes-g-class-w463-with-m113-v8-and-722-6/"
+   },
+   {
+    "name": "500eboard — How-to: changing G-Wagen differential and transfer case fluids (1997 G320)",
+    "url": "https://www.500eboard.co/forums/threads/how-to-changing-g-wagen-differential-and-transfer-case-fluids.6642/latest"
+   },
+   {
+    "name": "FCP Euro — Mercedes-Benz G500 parts catalog (fitment-checked part pages)",
+    "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G500/"
+   },
+   {
+    "name": "AMSOIL — 2006 Mercedes-Benz G500 5.0L (113.96) capacities",
+    "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2006/mercedes-benz/g500/5-0l-8-cyl-engine-code-113-96-n/"
+   },
+   {
+    "name": "Bolidenforum — Technical data: 2011 Mercedes-Benz G55 (fluids & capacities)",
+    "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/mercedes-benz-2011-g55/?vd_lang=en"
+   },
+   {
+    "name": "GwagenParts.com — G-Class parts",
+    "url": "https://www.gwagenparts.com/"
+   },
+   {
+    "name": "Eastwood — Internal Frame Coating",
+    "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
    }
-  ]
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing was done and reset every fluid and filter in the first month: on a 15–25-year-old G 500 the expensive failures (722.6 shifts, diff locks, front axle seals) usually trace back to old fluid, perished vacuum lines or a skipped knuckle service. Read the tags on the transfer case and axles before buying fluid — W463 drivetrains changed through the years.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "MB 229.5 · 0W-40 or 5W-40 full synthetic · ≈8.0 L (8.5 qt) with filter",
+     "interval": "Then yearly or at the service indicator",
+     "note": "Cartridge filter in a housing on top of the engine — use a 74 mm, 14-flute cap wrench. While it's open, look for weeping at the filter-housing gaskets.",
+     "parts": [
+      {
+       "name": "Liqui Moly 5W-40 oil change kit, 8 L + filter (G 500 2002–08)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-oil-change-kit-5w-40-liqui-moly-molygen-0001802609-8l"
+      },
+      {
+       "name": "Mann oil filter kit HU 718/5 x (000 180 26 09)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-engine-oil-filter-mann-hu718-5x"
+      }
+     ]
+    },
+    {
+     "item": "Air filters",
+     "spec": "Paired elements, one per bank",
+     "interval": "Now, then with every second oil change or sooner on dirt roads",
+     "note": "Check the airbox for leaves and rodent nests on a truck that sat.",
+     "parts": [
+      {
+       "name": "Hengst air filter set 273 094 04 04 (M112/M113)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-air-filter-1120940604he"
+      }
+     ]
+    },
+    {
+     "item": "Cabin filter",
+     "spec": "Mahle/OE 463 830 00 18",
+     "interval": "Now, then yearly",
+     "note": "A clogged filter on a G is often wet too — check for sunroof-drain water while you're in there.",
+     "parts": [
+      {
+       "name": "Mahle cabin air filter 463 830 00 18",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-cabin-air-filter-mahle-4638300018"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs, wires & coils",
+     "spec": "16 plugs (M113 runs two per cylinder) · Bosch FR8DPP33",
+     "interval": "Now if no record; then per the maintenance booklet [CONFIRM IN MANUAL]",
+     "note": "Oil in the plug wells means valve-cover gaskets — fix those first, then fit plugs, wires and any oil-soaked coil boots.",
+     "parts": [
+      {
+       "name": "Bosch FR8DPP33 spark plugs, set of 16",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-spark-plugs-set-of-16-fr8dpp33x16"
+      },
+      {
+       "name": "Bremi ignition wire set 112 150 00",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-ignition-wire-service-kit-bremi-11215000"
+      },
+      {
+       "name": "Genuine Mercedes ignition coil 000 158 78 03",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-direct-ignition-coil-mer-0001587803"
+      }
+     ]
+    },
+    {
+     "item": "Coolant & thermostat",
+     "spec": "MB 325.0-approved coolant (blue) mixed 50/50 with distilled water · ≈12.7 L [CONFIRM IN MANUAL]",
+     "interval": "Now if history is unknown",
+     "note": "Bleed carefully; replace the thermostat and any soft or swollen hoses while the system is drained.",
+     "parts": [
+      {
+       "name": "M112/M113 thermostat kit (Borg Warner)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-thermostat-kit-m112-m113-m112113tk"
+      }
+     ]
+    },
+    {
+     "item": "Automatic transmission (722.6)",
+     "spec": "MB 236.14 ATF · ≈9 qt total fill (a pan drain replaces only part of it)",
+     "interval": "Service now if history is unknown; then every 40,000–60,000 mi (common technician practice)",
+     "note": "Drop the pan, fit a new filter and gasket, and replace the 13-pin connector sleeve — ATF wicking through it ruins harnesses. Set the level hot, on level ground, with the 722.6 dipstick tool.",
+     "parts": [
+      {
+       "name": "FUCHS 722.6 ATF service kit (fluid, filter, gasket)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-transmission-service-kit-722-6fck1"
+      },
+      {
+       "name": "FUCHS 722.6 13-pin connector service kit",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-722-6-transmission-connector-service-kit-722csk1"
+      }
+     ]
+    },
+    {
+     "item": "Transfer case",
+     "spec": "Check the tag: many W463 cases take MB 236.14 ATF; earlier cases ran GL-4 gear oil [CONFIRM IN MANUAL]",
+     "interval": "Now, then every 60,000 mi (MB interval quoted by owners)",
+     "note": "Fill plug on the front right, drain plug underneath with a small magnet; both are 14 mm hex. Inspect the propshaft flex discs (in pairs) and the centre support bearing while you're under it.",
+     "parts": [
+      {
+       "name": "FUCHS ATF 4134 (MB 236.14), 1 L",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-atf-fuchs-001989680313"
+      },
+      {
+       "name": "Genuine Mercedes transfer case input shaft seal 015 997 08 47",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-transfer-case-input-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0159970847"
+      }
+     ]
+    },
+    {
+     "item": "Front & rear differentials",
+     "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 is common) · front ≈1.4 L, rear ≈1.8 L",
+     "interval": "Now, then with the transfer case",
+     "note": "Crack the upper fill plug before you pull the drain (14 mm hex; owners torque the drain to 60 Nm). Afterwards test each lock one at a time on loose ground — the dash lamp should go from flashing to solid.",
+     "parts": [
+      {
+       "name": "Liqui Moly 75W-90 synthetic hypoid gear oil (1 L)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/gear-oil-liqui-moly-99991754600"
+      },
+      {
+       "name": "Genuine Mercedes differential drain plug 901 997 05 35",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-plug-genuine-mercedes-9019970535"
+      }
+     ]
+    },
+    {
+     "item": "Front knuckles, wheel bearings & CV boots",
+     "spec": "Repack knuckles and wheel bearings; replace torn boots",
+     "interval": "If there's no record; Europa's own interval was every 40,000 mi",
+     "note": "Bearing preload is set with a dial indicator — use the factory procedure or a G-experienced shop. Replace the front axle seals at the same time.",
+     "parts": [
+      {
+       "name": "Genuine Mercedes front wheel bearing, outer 009 981 48 05",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-wheel-bearing-front-outer-g500-g55-amg-g550-g63-amg-mer-0099814805"
+      },
+      {
+       "name": "Genuine Mercedes front wheel seal 463 334 01 59",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-wheel-seal-front-g500-g55-amg-g550-g63-amg-mer-4633340159"
+      },
+      {
+       "name": "Genuine Mercedes front CV joint boot 460 337 04 85 (2002–04)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-cv-joint-boot-front-g500-g55-amg-mer-4603370485"
+      },
+      {
+       "name": "Genuine Mercedes front axle shaft seal 009 997 28 47",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-axle-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0099972847"
+      }
+     ]
+    },
+    {
+     "item": "Power steering fluid",
+     "spec": "MB power-steering fluid · ≈1 L system",
+     "interval": "Now (suction-and-refill if you can't flush)",
+     "note": "Check the box and hoses for weeps while you're there; the steering damper is a 1-hour job if the front end wanders.",
+     "parts": [
+      {
+       "name": "Febi power steering fluid (MB 000 989 88 03)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/power-steering-fluid-0009898803"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid",
+     "spec": "DOT 4 Plus (MB sheet 331.0)",
+     "interval": "Now, then every 2 years",
+     "note": "Owners bleed the hydraulic diff-lock lines with the same fluid when they do the brakes [CONFIRM IN MANUAL].",
+     "parts": [
+      {
+       "name": "Genuine Mercedes DOT 4 Plus brake fluid, 1 L",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-dot-4-plus-motor-vehicle-brake-fluid-1l-genuine-mercedes-000989080701"
+      }
+     ]
+    },
+    {
+     "item": "Drive belt & tensioner",
+     "spec": "Single poly-V belt with automatic tensioner",
+     "interval": "Replace now if age unknown",
+     "note": "Spin the idlers and watch the crank pulley for wobble — a separating harmonic balancer takes the belt with it.",
+     "parts": [
+      {
+       "name": "Genuine Mercedes serpentine belt 014 997 71 92",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-serpentine-belt-genuine-mercedes-0149977192"
+      },
+      {
+       "name": "INA belt tensioner 112 200 09 70 (2002–04)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-drive-belt-tensioner-ina-1122000970"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter",
+     "spec": "Inline filter 002 477 30 01",
+     "interval": "Now if no record [CONFIRM IN MANUAL]",
+     "note": "Depressurise the system first and catch the fuel; fit new clamps.",
+     "parts": [
+      {
+       "name": "Mann fuel filter 002 477 30 01 (M112/M113)",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/mercedes-fuel-filter-mann-0024773001"
+      }
+     ]
+    },
+    {
+     "item": "Battery",
+     "spec": "Group 49 AGM",
+     "interval": "Test now; replace if over 4–5 years old",
+     "note": "Weak voltage on these trucks shows up as random electrical faults and lock-switch oddities before it shows up as slow cranking.",
+     "parts": [
+      {
+       "name": "Bosch S6 AGM Group 49 battery",
+       "supplier": "FCP Euro",
+       "url": "https://www.fcpeuro.com/products/group-49-battery-bosch-s6588b"
+      }
+     ]
+    }
+   ]
+  }
  }
 }
