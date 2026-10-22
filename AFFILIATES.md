@@ -2,7 +2,7 @@
 
 ## How it works on the site
 - `data/affiliates.json` lists every commercial domain the site links to. Paste a program's deep-link template into `template` once approved, run `python3 build.py`, and every link to that domain is rewritten automatically — on repairs, service tables, mods and the Mods & Builders page — and marked `rel="sponsored nofollow"`.
-- Template placeholders: `{url}` (URL-encoded destination, for networks like AvantLink/Impact/CJ) or `{raw}` (for parameter-style programs, e.g. Amazon `{raw}?tag=YOURTAG-20`).
+- Template placeholders: `{url}` (URL-encoded destination, for networks like AvantLink/Impact/CJ) or `{raw}`; parameter-style programs (Amazon) use `"params": {"tag": "…"}` instead, which appends safely to URLs that already have a query string.
 - When any program is active, repair sections show an "affiliate links" note, and the footer links to `/about/affiliate-disclosure.html` (FTC disclosure).
 
 ## Where the money is (outbound links per domain, current build)
@@ -20,7 +20,7 @@
 | 10 | Slee Off-Road | 83 | Ask |
 | — | ARB / Old Man Emu | 20+ | **Verified: AvantLink, 3–5%, 30-day cookie** |
 | — | Tire Rack | (to add) | **Verified: 6% commission** |
-| — | Amazon Associates | (to add) | Verified, standard program |
+| ✅ | Amazon Associates | `boxytrucks-20` (live 2026-10-22) | Every service item gets an Amazon search link; footer + disclosure carry the required Associates statement |
 | — | eBay Partner Network | (to add) | Verified, standard program |
 
 ## Placements
@@ -33,6 +33,6 @@
 7. **Not affiliate:** AutoTempest, Bring a Trailer, forums, YouTube, Instagram.
 
 ## Next steps
-1. Apply: ARB (AvantLink), Tire Rack, Amazon Associates, eBay Partner Network. Join AvantLink, Impact and ShareASale/Awin as a publisher — many parts brands live there; search each network for the "Ask" suppliers.
+1. Apply: ARB (AvantLink), Tire Rack, eBay Partner Network (Amazon is done). Join AvantLink, Impact and ShareASale/Awin as a publisher — many parts brands live there; search each network for the "Ask" suppliers.
 2. Email the top "Ask" suppliers (Cruiser Corps, Lucky8, FCP Euro, CruiserTeq, Expedition Imports, Slee, Rovers North) — small specialists often run in-house programs or will set one up for a site sending them traffic.
 3. Paste templates into `data/affiliates.json` and push.

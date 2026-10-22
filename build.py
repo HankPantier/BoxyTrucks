@@ -56,7 +56,8 @@ ALIASES = {('land-cruiser', '60-series'): ('land-cruiser', 'fj60')}
 LINK_RE = re.compile(r'\[\[([a-z0-9-]+)/([a-z0-9-]+)\|([^\]]+)\]\]')
 
 
-from urllib.parse import urlparse, quote
+from urllib.parse import urlparse, quote, parse_qsl, urlencode, urlunparse
+import html as _html
 AFFILIATES = []
 
 
@@ -68,18 +69,24 @@ def load_affiliates():
 
 
 def affiliate_rewrite(html, programs):
-    active = [p for p in programs if p.get('template')]
+    active = [p for p in programs if p.get('template') or p.get('params')]
     if not active:
         return html, False
     hit = False
     def rep(m):
         nonlocal hit
-        url = m.group(2)
+        url = _html.unescape(m.group(2))
         host = urlparse(url).netloc.lower().replace('www.', '')
         for p in active:
             if any(host == d or host.endswith('.' + d) for d in p['domains']):
                 hit = True
-                new = p['template'].replace('{url}', quote(url, safe='')).replace('{raw}', url)
+                if p.get('params'):
+                    pu = urlparse(url)
+                    q = [(k, v) for k, v in parse_qsl(pu.query, keep_blank_values=True) if k not in p['params']]
+                    new = urlunparse(pu._replace(query=urlencode(q + list(p['params'].items()))))
+                else:
+                    new = p['template'].replace('{url}', quote(url, safe='')).replace('{raw}', url)
+                new = new.replace('&', '&amp;')
                 tail = m.group(3)
                 if 'rel="' in tail:
                     tail = tail.replace('rel="', 'rel="sponsored nofollow ', 1)
@@ -225,7 +232,9 @@ def main():
         env.filters['striplk'] = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
         def mark(color, w=34, bg='#0E0F0E'):
             return Markup(f'<svg viewBox="0 0 64 64" width="{w}" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="{color}" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="{color}"/><circle cx="40" cy="63" r="9.5" fill="{color}"/><circle cx="40" cy="63" r="3.5" fill="{bg}"/></svg>')
-        env.globals['affiliates_on'] = any(p.get('template') for p in AFFILIATES)
+        env.globals['affiliates_on'] = any(p.get('template') or p.get('params') for p in AFFILIATES)
+        env.globals['mlabel'] = mlabel
+        env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
                            mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV)

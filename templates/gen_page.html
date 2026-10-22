@@ -79,11 +79,11 @@
         {% if p.baseline_service.intro %}<div class="prose"><p style="margin:0">{{ p.baseline_service.intro|lk }}</p></div>{% endif %}
         <div class="svc-list">
           <div class="svc-hd" aria-hidden="true"><span>Service</span><span>Spec &amp; capacity</span><span>Then</span><span></span></div>
-          {% for s in p.baseline_service['items'] %}{% set more = s.note or s.parts %}
+          {% for s in p.baseline_service['items'] %}{% set more = true %}
           {% if more %}<details class="svc-row"><summary>{% else %}<div class="svc-row"><div class="svc-sum">{% endif %}
             <span class="svc-t">{{ s.item }}</span><span class="svc-spec">{{ s.spec }}</span><span class="svc-then">{{ s.interval }}</span><span class="svc-x" aria-hidden="true"></span>
           {% if more %}</summary>
-            <div class="svc-more">{% if s.note %}<p class="svc-note">{{ s.note|lk }}</p>{% endif %}{% if s.parts %}<div class="svc-parts"><span class="svc-k">Parts</span>{% for pt in s.parts %}<a href="{{ pt.url }}" target="_blank" rel="noopener" class="svc-part">{{ pt.name }}{% if pt.supplier %}<span class="sup">{{ pt.supplier }} ↗</span>{% endif %}</a>{% endfor %}</div>{% endif %}</div>
+            <div class="svc-more">{% if s.note %}<p class="svc-note">{{ s.note|lk }}</p>{% endif %}<div class="svc-parts"><span class="svc-k">Parts</span>{% for pt in s.parts or [] %}<a href="{{ pt.url }}" target="_blank" rel="noopener" class="svc-part">{{ pt.name }}{% if pt.supplier %}<span class="sup">{{ pt.supplier }} ↗</span>{% endif %}</a>{% endfor %}<a href="https://www.amazon.com/s?k={{ (mlabel(fam.maker, p.title) ~ ' ' ~ s.item)|replace('&', 'and')|urlencode }}" target="_blank" rel="noopener" class="svc-part">Search {{ s.item|lower }} for the {{ p.title }}<span class="sup">Amazon ↗</span></a></div></div>
           </details>{% else %}</div></div>{% endif %}
           {% endfor %}
         </div>
