@@ -10,7 +10,7 @@
    "The result is a body-on-frame, beam-axle, permanent-4WD box built in a former Smart car factory in Hambach, France. BMW supplies the straight-six engines (B58 petrol, B57 diesel), ZF the eight-speed automatic, Tremec the two-speed transfer case and Italian tractor specialist Carraro the solid axles. Magna Steyr helped with the engineering.",
    "The Station Wagon arrived in late 2022, with US deliveries (petrol only) beginning for the 2024 model year. The Quartermaster double-cab pickup followed into production in late 2023 and reached US buyers for 2025. Both are new enough that the owner knowledge base is still being written, mostly on forums and in recall notices."
   ],
-  "hero_photo": "station-wagon-showroom.jpg",
+  "hero_photo": "station-wagon-trailmaster-overland.jpg",
   "generations": [
    {
     "slug": "station-wagon",
@@ -79,7 +79,7 @@
    "CARRARO BEAM AXLES",
    "3 LOCKERS AVAILABLE"
   ],
-  "hero_photo": "station-wagon-showroom.jpg",
+  "hero_photo": "station-wagon-goodwood-mud.jpg",
   "story": [
    {
     "heading": null,
@@ -630,20 +630,28 @@
   ],
   "photos": [
    {
-    "file": "station-wagon-showroom.jpg",
-    "alt": "A dark green Ineos Grenadier Station Wagon on a dealer showroom floor",
-    "caption": "STATION WAGON · SHOWROOM (PLACEHOLDER)",
+    "file": "station-wagon-goodwood-mud.jpg",
+    "alt": "A mud-splattered dark green Ineos Grenadier Station Wagon parked on grass",
+    "caption": "STATION WAGON · MUDDY AT GOODWOOD",
     "credit": "Calreyn88 · CC BY-SA 4.0",
     "source": "Wikimedia Commons",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ineos_Grenadier_1.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:2023_Ineos_Grenadier_3.jpg"
    },
    {
-    "file": "quartermaster-boblingen.jpg",
-    "alt": "A white Ineos Grenadier Quartermaster pickup with a canvas bed cover, rear three-quarter view",
-    "caption": "QUARTERMASTER · BÖBLINGEN (PLACEHOLDER)",
-    "credit": "Alexander-93 · CC BY-SA 4.0",
+    "file": "station-wagon-trailmaster-overland.jpg",
+    "alt": "A sand-coloured Ineos Grenadier Station Wagon Trailmaster Edition with snorkel, roof rack and rooftop tent on grass",
+    "caption": "TRAILMASTER EDITION · ROOFTOP TENT",
+    "credit": "Calreyn88 · CC BY-SA 4.0",
     "source": "Wikimedia Commons",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ineos_Grenadier_Quartermaster_IMG_9257.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:2024_Ineos_Grenadier_Trailmaster_Edition_Auto_Test_Vehicle_PT03-001.jpg"
+   },
+   {
+    "file": "station-wagon-trialmaster-lawn.jpg",
+    "alt": "A grey Ineos Grenadier Station Wagon Trialmaster Edition with roof box, rooftop tent and BFGoodrich all-terrain tyres on a lawn",
+    "caption": "TRIALMASTER EDITION · GREENWICH LAWN",
+    "credit": "Mr.choppers · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2024_Ineos_Grenadier_Station_Wagon_Trialmaster_Edition_in_Donny_Gray_Metallic,_front_left.jpg"
    }
   ],
   "sources": [
@@ -860,7 +868,6 @@
     "url": "https://www.fcpeuro.com/products/bmw-0w20-oil-change-kit-11427826799kt"
    }
   ],
-  "hero_note": "PLACEHOLDER PHOTO · [SWAP FOR AN OFF-ROAD GRENADIER]",
   "baseline_service": {
    "intro": "Assume nothing was done early: the factory schedule is long (12 months / 12,000 miles in the US), the full service manual isn't sold to owners, and only dealers can reset the service counter. Baseline every fluid once, keep receipts with OEM-spec fluids to protect the 5-year warranty, and note that much of the drivetrain is shared with BMW (B58/B57 engines, ZF 8-speed), so FCP Euro and other BMW specialists carry many of the consumables.",
    "items": [
@@ -1025,6 +1032,7 @@
      "parts": []
     }
    ]
-  }
+  },
+  "hero_focus": "52% 60%"
  }
 }
