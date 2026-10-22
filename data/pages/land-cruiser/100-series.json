@@ -10,7 +10,7 @@
   "FULL-TIME 4WD",
   "LEXUS LX 470 TWIN"
  ],
- "hero_photo": null,
+ "hero_photo": "lc100-wahiba-sands.jpg",
  "story": [
   {
    "heading": null,
@@ -629,20 +629,36 @@
  ],
  "photos": [
   {
-   "file": "lc80-hillside.jpg",
-   "alt": "A pre-1995 Toyota Land Cruiser 80 Series with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
-   "caption": "80 SERIES · THE 100'S PREDECESSOR (DIFFERENT GENERATION)",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   "file": "lc100-wahiba-sands.jpg",
+   "alt": "A silver Land Cruiser 100 Series with a roof rack cresting a dune in Oman's Wahiba Sands",
+   "caption": "100 SERIES · WAHIBA SANDS, OMAN",
+   "credit": "Andries Oudshoorn · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wahiba_Sands_(6).jpg"
   },
   {
-   "file": "lc200-dune-sunset.jpg",
-   "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
-   "caption": "200 SERIES · THE 100'S SUCCESSOR (DIFFERENT GENERATION)",
-   "credit": "Caspian Dahlström",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+   "file": "lc100-mongolia-steppe.jpg",
+   "alt": "A mud-spattered dark grey Land Cruiser 100 Series parked on the open Mongolian steppe",
+   "caption": "100 SERIES · MONGOLIAN STEPPE",
+   "credit": "Bernard Gagnon · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_in_Mongolia.jpg"
+  },
+  {
+   "file": "lc100-desert-sidehill.jpg",
+   "alt": "A silver Land Cruiser 100 Series side-hilling across a sand slope, rear-mounted spare wheel visible",
+   "caption": "100 SERIES · SAND SIDE-HILL",
+   "credit": "DXR · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_in_the_Desert_Side-Back_View_20120409_1.jpg"
+  },
+  {
+   "file": "lc100-dune-descent.jpg",
+   "alt": "A white Land Cruiser 100 Series running along the face of a tall dune in the Wahiba Sands, Oman",
+   "caption": "100 SERIES · DUNE FACE, OMAN",
+   "credit": "Andries Oudshoorn · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wahiba_Sands_(23).jpg"
   }
  ],
  "sources": [
@@ -985,5 +1001,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "75% 65%"
 }

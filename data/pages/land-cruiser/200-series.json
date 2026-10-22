@@ -10,7 +10,7 @@
   "CRAWL CONTROL",
   "US MODEL YEARS 2008–2021"
  ],
- "hero_photo": "lc200-dune-sunset.jpg",
+ "hero_photo": "lc200-dune-climb.jpg",
  "story": [
   {
    "heading": null,
@@ -674,7 +674,7 @@
  ],
  "photos": [
   {
-   "file": "lc200-dune-sunset.jpg",
+   "file": "lc200-dune-climb.jpg",
    "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
    "caption": "200 SERIES · DUNES",
    "credit": "Caspian Dahlström",
@@ -682,12 +682,20 @@
    "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
   },
   {
-   "file": "lc70-troopy-desert.jpg",
-   "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
-   "caption": "70 SERIES TROOPIES · THE 200'S DIESEL-V8 SIBLING (DIFFERENT GENERATION)",
-   "credit": "Kristina",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+   "file": "lc200-gobi-canyon.jpg",
+   "alt": "A dark grey Land Cruiser 200 Series driving a gravel track through the rock walls of Dungenee Canyon in Mongolia's Gobi",
+   "caption": "200 SERIES · GOBI CANYON, MONGOLIA",
+   "credit": "Bernard Gagnon · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Dungenee_Canyon_09.jpg"
+  },
+  {
+   "file": "lc200-qatar-desert-sunset.jpg",
+   "alt": "A white Land Cruiser 200 Series parked on rippled sand in the Qatari desert at sunset",
+   "caption": "200 SERIES · QATAR DESERT AT SUNSET",
+   "credit": "Matt Kieffer · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hot_desert_landscape_in_Qatar9.jpg"
   }
  ],
  "sources": [
@@ -1028,5 +1036,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "50% 65%"
 }

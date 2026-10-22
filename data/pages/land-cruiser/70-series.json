@@ -10,7 +10,7 @@
   "PART-TIME 4WD",
   "NEVER SOLD NEW IN THE US"
  ],
- "hero_photo": "lc70-troopy-desert.jpg",
+ "hero_photo": "lc70-bale-river-crossing.jpg",
  "story": [
   {
    "heading": null,
@@ -596,7 +596,15 @@
  ],
  "photos": [
   {
-   "file": "lc70-troopy-desert.jpg",
+   "file": "lc70-bale-river-crossing.jpg",
+   "alt": "A white Land Cruiser 76 Series wagon with a bull bar and roof rack splashing through a river in Ethiopia's Bale Mountains, horses grazing on the bank",
+   "caption": "76 SERIES · BALE MOUNTAINS RIVER CROSSING",
+   "credit": "Nina R · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bale_Mountains_National_Park_(49849649861).jpg"
+  },
+  {
+   "file": "lc70-troopies-desert.jpg",
    "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
    "caption": "70 SERIES TROOPIES · DESERT",
    "credit": "Kristina",
@@ -604,12 +612,12 @@
    "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
   },
   {
-   "file": "lc80-hillside.jpg",
-   "alt": "A pre-1995 Toyota Land Cruiser 80 Series with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
-   "caption": "80 SERIES · THE 70'S WAGON SIBLING (DIFFERENT GENERATION)",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   "file": "lc70-75-ute-mud.jpg",
+   "alt": "A Land Cruiser 75 Series ute ploughing through a deep mud hole at an Australian 4WD trials competition",
+   "caption": "75 SERIES UTE · 4WD TRIALS MUD HOLE",
+   "credit": "Cruiser-Aust · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Land_Cruiser_75-series_1.jpg"
   }
  ],
  "sources": [
@@ -834,5 +842,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "68% 60%"
 }

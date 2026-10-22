@@ -10,7 +10,7 @@
   "326 HP / 465 LB-FT",
   "CENTER + REAR LOCKERS STANDARD (US)"
  ],
- "hero_photo": "prado120-dune-descent.jpg",
+ "hero_photo": "lc250-grass-front.jpg",
  "story": [
   {
    "heading": null,
@@ -628,28 +628,28 @@
  ],
  "photos": [
   {
-   "file": "prado120-dune-descent.jpg",
-   "alt": "Black Land Cruiser Prado 120, an earlier generation of the Prado line the 250 belongs to, driving across a sand dune in Mongolia",
-   "caption": "PRADO 120 · MONGOLIA (EARLIER PRADO GENERATION)",
-   "credit": "Alexander Popovkin",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-suv-driving-through-the-desert-in-the-sand-3FakZejjSRw"
+   "file": "lc250-grass-front.jpg",
+   "alt": "A sand-coloured 250 Series Land Cruiser with round headlights parked on grass at an outdoor display",
+   "caption": "250 SERIES · ON THE GRASS AT A DISPLAY",
+   "credit": "Druusch · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:J25-Front.jpg"
   },
   {
-   "file": "prado120-dunes-mongolia.jpg",
-   "alt": "Black Land Cruiser Prado 120 parked among sand dunes at Khongoryn Els, Mongolia, under a stormy sunset sky",
-   "caption": "PRADO 120 · KHONGORYN ELS (EARLIER PRADO GENERATION)",
-   "credit": "Alexander Popovkin",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-vehicle-is-parked-in-the-middle-of-the-desert-wKhQhTRbBUs"
+   "file": "lc250-ploezal.jpg",
+   "alt": "A white-and-black 250 Series Land Cruiser parked on a gravel lot under trees in Ploëzal, Brittany",
+   "caption": "250 SERIES · GRAVEL LOT, BRITTANY",
+   "credit": "2538O · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_in_Ploëzal,_France_(1).jpg"
   },
   {
-   "file": "lc200-dune-sunset.jpg",
-   "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
-   "caption": "200 SERIES, THE TRUCK THE 250 REPLACED IN THE US (DIFFERENT GENERATION)",
-   "credit": "Caspian Dahlström",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+   "file": "lc250-trail-dust.jpg",
+   "alt": "A Trail Dust and black two-tone 250 Series Land Cruiser on a city street",
+   "caption": "250 SERIES · STREET (NO OFF-ROAD SHOT YET)",
+   "credit": "Ethan Llamas · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_TJA250_2.4_Turbo_Trail_Dust_+_Black_01.jpg"
   }
  ],
  "sources": [
@@ -963,5 +963,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "60% 60%"
 }
