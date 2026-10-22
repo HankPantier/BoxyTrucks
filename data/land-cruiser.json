@@ -207,7 +207,8 @@
    "g-class",
    "land-rover",
    "grenadier"
-  ]
+  ],
+  "hero_focus": "65% 60%"
  },
  "page": {
   "slug": "80-series",
@@ -862,20 +863,20 @@
     "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
    },
    {
-    "file": "lc70-troopy-desert.jpg",
-    "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
-    "caption": "70 SERIES TROOPIES · DESERT (DIFFERENT GENERATION)",
-    "credit": "Kristina",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+    "file": "lc80-algeria-dunes.jpg",
+    "alt": "Two white Land Cruiser 80 Series wagons with loaded roof racks parked on a sand dune crest in the Algerian Sahara",
+    "caption": "80 SERIES · SAHARA, ALGERIA",
+    "credit": "Patrick Gruban · CC BY-SA 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Algerien_4_0044_(137401113).jpg"
    },
    {
-    "file": "lc200-dune-sunset.jpg",
-    "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
-    "caption": "200 SERIES · DUNES (DIFFERENT GENERATION)",
-    "credit": "Caspian Dahlström",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+    "file": "lc80-toperi-mud.jpg",
+    "alt": "A green and orange competition Land Cruiser 80 Series throwing mud as it climbs out of a deep rutted bog",
+    "caption": "80 SERIES · MUD COMPETITION, AUSTRALIA",
+    "credit": "Cruiser-Aust · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Land_Cruiser_80-series_1.jpg"
    }
   ],
   "sources": [
@@ -1260,6 +1261,7 @@
      ]
     }
    ]
-  }
+  },
+  "hero_focus": "65% 60%"
  }
 }

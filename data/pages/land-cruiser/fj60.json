@@ -10,7 +10,7 @@
   "PART-TIME 4WD",
   "ROUND HEADLIGHTS"
  ],
- "hero_photo": "lc80-hillside.jpg",
+ "hero_photo": "fj60-ingeegoodbee.jpg",
  "story": [
   {
    "heading": null,
@@ -611,20 +611,28 @@
  ],
  "photos": [
   {
-   "file": "lc80-hillside.jpg",
-   "alt": "A pre-1995 Toyota Land Cruiser 80 Series with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
-   "caption": "80 SERIES · THE 60'S SUCCESSOR (DIFFERENT GENERATION)",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   "file": "fj60-ingeegoodbee.jpg",
+   "alt": "A beige round-headlight Land Cruiser 60 Series wagon parked at a dirt track junction in the Australian high country",
+   "caption": "60 SERIES · INGEEGOODBEE TRACK, AUSTRALIA",
+   "credit": "Leighblackall · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ingeegoodbee_Track.jpg"
   },
   {
-   "file": "lc70-troopy-desert.jpg",
-   "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
-   "caption": "70 SERIES TROOPIES · THE 40'S HEIRS (DIFFERENT GENERATION)",
-   "credit": "Kristina",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+   "file": "fj60-abbeyard-lunch.jpg",
+   "alt": "The same 60 Series wagon with doors open and a lunch table and umbrella set up on a ridge-top dirt track",
+   "caption": "60 SERIES · ABBEYARD TRACK, ALPINE NATIONAL PARK",
+   "credit": "Leighblackall · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lunch_on_Appeyard_Track.jpg"
+  },
+  {
+   "file": "fj60-white-desert.jpg",
+   "alt": "A white Land Cruiser 60 Series wagon with a loaded roof rack driving past a mushroom-shaped chalk formation in Egypt's White Desert",
+   "caption": "60 SERIES · WHITE DESERT, EGYPT",
+   "credit": "Ysjyd · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:White_desert.jpg"
   }
  ],
  "sources": [
@@ -991,5 +999,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "40% 55%"
 }

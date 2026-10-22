@@ -10,7 +10,7 @@
   "2-SPEED TRANSFER CASE",
   "FRONT DISCS FROM '76 (US)"
  ],
- "hero_photo": "lc70-troopy-desert.jpg",
+ "hero_photo": "fj40-deosai-bridge.jpg",
  "story": [
   {
    "heading": null,
@@ -660,20 +660,20 @@
  ],
  "photos": [
   {
-   "file": "lc70-troopy-desert.jpg",
-   "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
-   "caption": "70 SERIES TROOPIES · THE 40'S HEIRS (DIFFERENT GENERATION)",
-   "credit": "Kristina",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+   "file": "fj40-deosai-bridge.jpg",
+   "alt": "A red Toyota Land Cruiser FJ40 hardtop crossing a timber-and-cable suspension bridge over a river on the Deosai plateau",
+   "caption": "FJ40 · DEOSAI, PAKISTAN",
+   "credit": "Sadiqrizwan · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Deosai_Skardu_Pakistan2.jpg"
   },
   {
-   "file": "lc80-hillside.jpg",
-   "alt": "A pre-1995 Toyota Land Cruiser 80 Series with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
-   "caption": "80 SERIES · HIGH COUNTRY (DIFFERENT GENERATION)",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   "file": "fj40-wadi-rum.jpg",
+   "alt": "A white open-topped Land Cruiser FJ40 safari truck driving across red sand below sandstone cliffs in Wadi Rum",
+   "caption": "FJ40 · WADI RUM, JORDAN",
+   "credit": "Kerstin Rehmann · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jeepfahrt_durch_Wadi_Rum.JPG"
   }
  ],
  "sources": [
@@ -1056,5 +1056,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "45% 55%"
 }

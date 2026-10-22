@@ -10,7 +10,7 @@
   "FULLY BOXED FRAME (FJ55)",
   "POWER TAILGATE WINDOW"
  ],
- "hero_photo": "lc70-troopy-desert.jpg",
+ "hero_photo": "fj55-yemen-ford.jpg",
  "story": [
   {
    "heading": null,
@@ -573,20 +573,36 @@
  ],
  "photos": [
   {
-   "file": "lc70-troopy-desert.jpg",
-   "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
-   "caption": "70 SERIES TROOPIES · THE 40'S HEIRS (DIFFERENT GENERATION)",
-   "credit": "Kristina",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+   "file": "fj55-yemen-ford.jpg",
+   "alt": "Two white Land Cruiser FJ55 wagons with roof racks fording a shallow river in a Yemeni wadi",
+   "caption": "FJ55 · WADI FORD, YEMEN 1988",
+   "credit": "H. Grobe · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jemen1988-023_hg.jpg"
   },
   {
-   "file": "lc80-hillside.jpg",
-   "alt": "A pre-1995 Toyota Land Cruiser 80 Series with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
-   "caption": "80 SERIES · WAGON DESCENDANT (DIFFERENT GENERATION)",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   "file": "fj45-broghil-valley.jpg",
+   "alt": "A red long-wheelbase Land Cruiser FJ45 wagon loaded with passengers and luggage on its roof, on a boulder-strewn mountain track",
+   "caption": "FJ45 · BROGHIL VALLEY, PAKISTAN",
+   "credit": "Awa.jahan · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:King_of_mountains.jpg"
+  },
+  {
+   "file": "fj45-thorsmork-ford.jpg",
+   "alt": "A long-wheelbase Land Cruiser 40 Series camper fording a fast glacial river up to its bumper",
+   "caption": "FJ45 CAMPER · ÞÓRSMÖRK, ICELAND",
+   "credit": "Andreas Tille · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:LandCruiserInThorsmoerk.jpg"
+  },
+  {
+   "file": "fj55-trials.jpg",
+   "alt": "A lifted turquoise Land Cruiser FJ55 wagon flexing over a rock step at a 4WD trials event",
+   "caption": "FJ55 · 4WD TRIALS, AUSTRALIA",
+   "credit": "Cruiser-Aust · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Land_Cruiser_55-series_1.jpg"
   }
  ],
  "sources": [
@@ -949,5 +965,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "50% 45%"
 }
