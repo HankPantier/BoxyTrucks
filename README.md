@@ -4,7 +4,7 @@ An enthusiast resource for boxy 4x4s — G-Class, Land Cruiser, Lexus LX/GX, 4Ru
 
 ## To do
 
-- [ ] **Hook up Google Analytics.** Create a GA4 property for boxytrucks.com, then paste its measurement ID (`G-XXXXXXX`) into `GA_MEASUREMENT_ID` at the top of `build.py`. The tracking tag is already wired into every page and switches on as soon as the ID is set.
+- [x] **Google Analytics hooked up** — GA4 measurement ID `G-XHC493ES9X` is set in `GA_MEASUREMENT_ID` in `build.py`.
 - [ ] Activate the Show Us Your Rig form: send one test submission from the live site, then click the FormSubmit activation email sent to the inbox. Optionally swap the email in `SUBMIT_EMAIL` (build.py) for FormSubmit's random alias.
 - [ ] Submit `https://boxytrucks.com/sitemap.xml` in Google Search Console.
 - [ ] Replace placeholder / stand-in photos (pages captioned "different generation" or "placeholder"), especially the Grenadier and 1st-gen 4Runner.

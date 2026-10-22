@@ -17,7 +17,7 @@ SITE = ROOT / 'site'
 SITE_URL = 'https://boxytrucks.com/'
 SUBMIT_EMAIL = 'webhank@gmail.com'
 # TODO: Google Analytics — paste the GA4 measurement ID (G-XXXXXXX) here to enable tracking on every page.
-GA_MEASUREMENT_ID = ''
+GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
