@@ -10,7 +10,7 @@
   "2-SPEED TRANSFER",
   "TERRAIN RESPONSE 2007+"
  ],
- "hero_photo": "l405-trail.jpg",
+ "hero_photo": "l322-moorland-gravel.jpg",
  "story": [
   {
    "heading": null,
@@ -650,20 +650,28 @@
  ],
  "photos": [
   {
-   "file": "l405-trail.jpg",
-   "alt": "A fourth-generation Range Rover (L405) climbing a rutted dirt trail between bushes",
-   "caption": "L405 · THE L322'S SUCCESSOR ON A TRAIL",
-   "credit": "Zakaria Zayane",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
+   "file": "l322-moorland-gravel.jpg",
+   "alt": "A dark facelifted third-generation Range Rover (L322) on a gravel pull-off beside a moorland lane under storm clouds",
+   "caption": "L322 · MOORLAND GRAVEL, STORM LIGHT",
+   "credit": "txomcs",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/elegant-range-rover-on-scenic-rural-road-29082604/"
   },
   {
-   "file": "l460-forest-track.jpg",
-   "alt": "A fifth-generation Range Rover (L460) parked on a muddy gravel forest track",
-   "caption": "L460 · TWO GENERATIONS ON, SAME FORMULA",
-   "credit": "Sam Pearce-Warrilow",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-black-range-rover-parked-on-a-gravel-road-Ho98UeVC_nQ"
+   "file": "l322-autumn-gravel.jpg",
+   "alt": "A black facelifted L322 Range Rover in profile on a leaf-covered gravel clearing among autumn trees",
+   "caption": "L322 · AUTUMN GRAVEL, KAUNAS, LITHUANIA",
+   "credit": "Kipras Zabeliauskas",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/side-view-photography-of-a-black-range-rover-car-5704347/"
+  },
+  {
+   "file": "l322-mountain-road.jpg",
+   "alt": "A black L322 Range Rover Vogue seen from behind climbing a narrow hill road past a dry-stone wall",
+   "caption": "L322 VOGUE · HILL ROAD",
+   "credit": "txomcs",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/car-on-mountain-road-13512047/"
   }
  ],
  "sources": [
@@ -1111,5 +1119,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "60% 62%"
 }

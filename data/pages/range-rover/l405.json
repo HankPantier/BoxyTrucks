@@ -635,12 +635,20 @@
    "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
   },
   {
-   "file": "l460-forest-track.jpg",
-   "alt": "The L405's successor, a fifth-generation Range Rover (L460), parked on a muddy gravel forest track",
-   "caption": "SUCCESSOR · L460 ON A FOREST TRACK",
-   "credit": "Sam Pearce-Warrilow",
+   "file": "l405-forest-track.jpg",
+   "alt": "A dark facelifted fourth-generation Range Rover (L405) with lights on, heading down a dirt track through a pine forest",
+   "caption": "L405 FACELIFT · PINE FOREST TRACK",
+   "credit": "Michael Heuser",
    "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-black-range-rover-parked-on-a-gravel-road-Ho98UeVC_nQ"
+   "source_url": "https://unsplash.com/photos/green-land-rover-range-rover-suv-passing-on-dirt-road-between-green-trees-wuEs2P8VLGA"
+  },
+  {
+   "file": "l405-black-sands-beach.jpg",
+   "alt": "A black fourth-generation Range Rover (L405) driving across a sand beach with dunes and hills behind",
+   "caption": "L405 · BLACK SANDS BEACH, WALES",
+   "credit": "Samuel Thompson",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/black-range-rover-land-rover-suv-6XeVLIVbbpg"
   }
  ],
  "sources": [
@@ -1082,5 +1090,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "45% 50%"
 }
