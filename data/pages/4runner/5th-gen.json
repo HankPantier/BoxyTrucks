@@ -8,7 +8,7 @@
   "1GR-FE 4.0 V6",
   "KDSS · REAR LOCKER (TRAIL / TRD OFF-ROAD)"
  ],
- "hero_photo": "death-valley-trench.jpg",
+ "hero_photo": "gen5-desert-twilight.jpg",
  "story": [
   {
    "heading": null,
@@ -722,6 +722,14 @@
  ],
  "photos": [
   {
+   "file": "gen5-desert-twilight.jpg",
+   "alt": "Silver early fifth-generation 4Runner with a roof rack kicking up dust on a desert track among granite boulders at dusk",
+   "caption": "5TH GEN AT DUSK · DESERT TRAIL",
+   "credit": "Stephen Leonardi",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/silver-suv-off-roading-in-desert-at-twilight-28639118/"
+  },
+  {
    "file": "death-valley-trench.jpg",
    "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
    "caption": "5TH GEN IN THE ROCKS · DEATH VALLEY",
@@ -736,22 +744,6 @@
    "credit": "Jose Carbajal",
    "source": "Unsplash",
    "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
-  },
-  {
-   "file": "forest-camp.jpg",
-   "alt": "White fourth-generation 4Runner parked at a wooded campsite beside a picnic table",
-   "caption": "4TH GEN PREDECESSOR AT CAMP",
-   "credit": "Vincent Mutasa",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-white-suv-parked-in-the-woods-next-to-a-picnic-table-d18Qy-rMVcY"
-  },
-  {
-   "file": "red-rock-climb.jpg",
-   "alt": "Silver third-generation Toyota 4Runner climbing a steep tilted slab of red sandstone under a cloudy sky",
-   "caption": "3RD GEN ANCESTOR ON THE SLICKROCK · RED ROCK CANYON, NV",
-   "credit": "Quilia",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
   }
  ],
  "sources": [
@@ -1114,5 +1106,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "48% 55%"
 }

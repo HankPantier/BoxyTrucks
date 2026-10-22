@@ -8,7 +8,7 @@
   "3VZ-E 3.0 V6",
   "COIL REAR 4-LINK"
  ],
- "hero_photo": "asiago-splash.jpg",
+ "hero_photo": "gen2-hilux-surf-irkutsk.jpg",
  "story": [
   {
    "heading": null,
@@ -615,6 +615,14 @@
  ],
  "photos": [
   {
+   "file": "gen2-hilux-surf-irkutsk.jpg",
+   "alt": "Grey second-generation Toyota Hilux Surf, the Japanese-market 4Runner, parked on a gravel rise under a red sunset sky with hills behind",
+   "caption": "HILUX SURF (N130) · IRKUTSK, SIBERIA",
+   "credit": "Sergey Tarasov",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/a-car-parked-on-a-rocky-surface-AcYURo04rYc"
+  },
+  {
    "file": "asiago-splash.jpg",
    "alt": "Silver second-generation 4Runner throwing up a wall of muddy water crossing a puddle in a dark pine forest",
    "caption": "2ND GEN SPLASHDOWN · ASIAGO, ITALY",
@@ -631,12 +639,12 @@
    "source_url": "https://www.pexels.com/photo/off-road-adventure-in-veneto-forest-34511847/"
   },
   {
-   "file": "red-rock-climb.jpg",
-   "alt": "Silver third-generation Toyota 4Runner climbing a steep tilted slab of red sandstone",
-   "caption": "3RD GEN SUCCESSOR · RED ROCK CANYON, NV",
-   "credit": "Quilia",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
+   "file": "gen2-ashford-meadow.jpg",
+   "alt": "Red second-generation four-door 4Runner standing in a golden autumn meadow with ferns and evergreen forest behind",
+   "caption": "2ND GEN · AUTUMN MEADOW, ASHFORD, WA",
+   "credit": "Wildfire 1775",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/red-suv-in-autumn-forest-landscape-34613883/"
   }
  ],
  "sources": [
@@ -968,5 +976,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "62% 62%"
 }

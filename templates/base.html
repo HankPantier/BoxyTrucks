@@ -33,7 +33,10 @@
     <a class="brand" href="{{ root }}index.html">{{ mark('#B0915A') }}<span>BOXY TRUCKS</span></a>
     <form class="hsearch" role="search" action="{{ root }}search/index.html" method="get"><label for="hq" class="sr-only">Search BoxyTrucks</label><input id="hq" name="q" type="search" placeholder="Search guides, parts, repairs"></form>
     <nav class="nav" aria-label="Main">
-      {% for n in nav %}<a href="{{ root }}{{ n.href }}"{% if n.cta or n.key == active %} class="{% if n.cta %}cta{% endif %}{% if n.key == active %} active{% endif %}"{% endif %}>{{ n.label }}</a>{% endfor %}
+      {% for n in nav %}{% if n.key == 'models' and nav_fams %}<div class="nav-drop">
+        <a href="{{ root }}{{ n.href }}"{% if n.key == active %} class="active"{% endif %}>{{ n.label }}</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="models-menu" aria-label="Show model families"><svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <ul class="nav-menu" id="models-menu">{% for f in nav_fams %}<li><a href="{{ root }}models/index.html#{{ f.slug }}">{{ f.label }}</a></li>{% endfor %}<li class="all"><a href="{{ root }}models/index.html">All models →</a></li></ul>
+      </div>{% else %}<a href="{{ root }}{{ n.href }}"{% if n.cta or n.key == active %} class="{% if n.cta %}cta{% endif %}{% if n.key == active %} active{% endif %}"{% endif %}>{{ n.label }}</a>{% endif %}{% endfor %}
     </nav>
   </div>
 </header>
@@ -52,5 +55,13 @@
     <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>{% if amazon_on %}AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br>{% endif %}<a href="{{ root }}about/disclaimer.html" style="color:inherit">DISCLAIMER</a> · <a href="{{ root }}about/affiliate-disclosure.html" style="color:inherit">AFFILIATE DISCLOSURE</a></div>
   </div>
 </footer>
+<script>
+(function(){var d=document.querySelector('.nav-drop');if(!d)return;var b=d.querySelector('.nav-caret');
+function set(o){d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+b.addEventListener('click',function(e){e.stopPropagation();set(!d.classList.contains('open'));});
+document.addEventListener('click',function(e){if(!d.contains(e.target))set(false);});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){set(false);});});})();
+</script>
 </body>
 </html>

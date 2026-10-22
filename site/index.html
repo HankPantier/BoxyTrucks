@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#0E0F0E">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "BoxyTrucks", "url": "https://boxytrucks.com/", "description": "An enthusiast guide to boxy 4x4s."}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "BoxyTrucks", "url": "https://boxytrucks.com/", "logo": "https://boxytrucks.com/img/home/lc80-georgia.jpg"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is BoxyTrucks?", "acceptedAnswer": {"@type": "Answer", "text": "An independent guide to the square-shouldered 4x4s people actually take off-road: where each generation came from, how it's built, what to check before you buy, the repairs owners end up doing, and the suppliers, builders, forums and channels worth knowing. Think Wikipedia meets an overland magazine, written by enthusiasts for hands-on owners."}}, {"@type": "Question", "name": "Which trucks do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "Right now: 4Runner, G-Class, Grenadier, Land Cruiser, Land Rover, Lexus LX & GX, Range Rover, with a full guide for every generation. More are on the list at the bottom of the models page; if yours isn't there yet, tell us."}}, {"@type": "Question", "name": "Where does the information come from?", "acceptedAnswer": {"@type": "Answer", "text": "Owner's and factory service manuals, specialist shops, parts suppliers, long-running owner forums and reputable press. Every guide lists its sources at the bottom. Specs vary by year, market and engine, so always confirm fluids, torque figures and part numbers for your VIN before you start."}}, {"@type": "Question", "name": "How do I find the right parts for my truck?", "acceptedAnswer": {"@type": "Answer", "text": "Every repair and every item in each guide's “After you buy it” service list links to the parts you need at suppliers owners trust for that truck, plus an Amazon search. Use the part numbers, check fitment against your VIN, and when in doubt call the supplier."}}, {"@type": "Question", "name": "Can I buy a truck here?", "acceptedAnswer": {"@type": "Answer", "text": "No, we don't sell anything. Each guide links straight to live AutoTempest searches and Bring a Trailer listings for that generation, and the buying checks tell you what to look at before you hand over money."}}, {"@type": "Question", "name": "Can my truck be featured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Send your truck, the build list and your best off-pavement photos through Show Us Your Rig. The good ones become Featured Builds on the home page and their model page, always credited to you."}}, {"@type": "Question", "name": "How does BoxyTrucks pay for itself?", "acceptedAnswer": {"@type": "Answer", "text": "Some parts and gear links are affiliate links, including Amazon: if you buy through them we may earn a small commission at no cost to you. It never decides which parts or suppliers we recommend, and we're not affiliated with any manufacturer."}}, {"@type": "Question", "name": "I spotted a mistake. How do I tell you?", "acceptedAnswer": {"@type": "Answer", "text": "Use the Show Us Your Rig form and put the correction in the story box, with a source if you have one. Owners know these trucks better than anyone, and we fix errors fast."}}]}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHC493ES9X"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +35,10 @@
     <a class="brand" href="index.html"><svg viewBox="0 0 64 64" width="34" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="#B0915A" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="#B0915A"/><circle cx="40" cy="63" r="9.5" fill="#B0915A"/><circle cx="40" cy="63" r="3.5" fill="#0E0F0E"/></svg><span>BOXY TRUCKS</span></a>
     <form class="hsearch" role="search" action="search/index.html" method="get"><label for="hq" class="sr-only">Search BoxyTrucks</label><input id="hq" name="q" type="search" placeholder="Search guides, parts, repairs"></form>
     <nav class="nav" aria-label="Main">
-      <a href="models/index.html">MODELS</a><a href="repairs/index.html">REPAIRS</a><a href="mods/index.html">MODS &amp; BUILDERS</a><a href="resources/index.html">RESOURCES</a><a href="for-sale/index.html">FOR SALE</a><a href="submit/index.html" class="cta">SHOW US YOUR RIG</a>
+      <div class="nav-drop">
+        <a href="models/index.html">MODELS</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="models-menu" aria-label="Show model families"><svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <ul class="nav-menu" id="models-menu"><li><a href="models/index.html#4runner">4Runner</a></li><li><a href="models/index.html#g-class">G-Class</a></li><li><a href="models/index.html#grenadier">Grenadier</a></li><li><a href="models/index.html#land-cruiser">Land Cruiser</a></li><li><a href="models/index.html#land-rover">Land Rover</a></li><li><a href="models/index.html#lexus">Lexus LX &amp; GX</a></li><li><a href="models/index.html#range-rover">Range Rover</a></li><li class="all"><a href="models/index.html">All models →</a></li></ul>
+      </div><a href="repairs/index.html">REPAIRS</a><a href="mods/index.html">MODS &amp; BUILDERS</a><a href="resources/index.html">RESOURCES</a><a href="for-sale/index.html">FOR SALE</a><a href="submit/index.html" class="cta">SHOW US YOUR RIG</a>
     </nav>
   </div>
 </header>
@@ -59,12 +63,32 @@
   <div class="grid" style="--min:290px">
     
     <article class="card">
+      <a href="models/4runner/index.html" style="display:block"><img src="img/4runner/red-rock-climb.jpg" alt="Toyota 4Runner off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
+      <div class="body">
+        <span class="eyebrow">Toyota</span>
+        <h3><a href="models/4runner/index.html" style="color:var(--ink);text-decoration:none">4Runner</a></h3>
+        <p class="verdict">“Toyota&#39;s mid-size body-on-frame survivor — forty years of refusing to become a crossover while everything around it did.”</p>
+        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/4runner/1st-gen.html">1st Gen</a><a class="chip" href="models/4runner/2nd-gen.html">2nd Gen</a><a class="chip" href="models/4runner/3rd-gen.html">3rd Gen</a><a class="chip" href="models/4runner/4th-gen.html">4th Gen</a><a class="chip" href="models/4runner/5th-gen.html">5th Gen</a><a class="chip" href="models/4runner/6th-gen.html">6th Gen</a></div>
+      </div>
+    </article>
+    
+    <article class="card">
       <a href="models/g-class/index.html" style="display:block"><img src="img/g-class/hillside-mountains.jpg" alt="Mercedes-Benz G-Class off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
       <div class="body">
         <span class="eyebrow">Mercedes-Benz</span>
         <h3><a href="models/g-class/index.html" style="color:var(--ink);text-decoration:none">G-Class</a></h3>
         <p class="verdict">“A military box that became the world’s most expensive school-run accessory. Still devastating off-road — which most owners will never find out.”</p>
         <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/g-class/w460.html">W460</a><a class="chip" href="models/g-class/w461.html">W461</a><a class="chip" href="models/g-class/w463.html">W463</a><a class="chip" href="models/g-class/500ge.html">500 GE</a><a class="chip" href="models/g-class/europa.html">Europa International Gs</a><a class="chip" href="models/g-class/g500.html">G 500</a><a class="chip" href="models/g-class/g55-amg.html">G 55 AMG</a><a class="chip" href="models/g-class/g550.html">G 550</a><a class="chip" href="models/g-class/4x4-squared.html">G 500 4×4²</a><a class="chip" href="models/g-class/second-gen.html">Second generation</a></div>
+      </div>
+    </article>
+    
+    <article class="card">
+      <a href="models/grenadier/index.html" style="display:block"><img src="img/grenadier/station-wagon-trailmaster-overland.jpg" alt="Ineos Grenadier off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
+      <div class="body">
+        <span class="eyebrow">Ineos</span>
+        <h3><a href="models/grenadier/index.html" style="color:var(--ink);text-decoration:none">Grenadier</a></h3>
+        <p class="verdict">“A billionaire couldn&#39;t buy the old Defender, so he built his own from a pub table, a BMW engine and a pair of tractor axles. It is gloriously square, genuinely capable and steers like a canal boat (until 2026).”</p>
+        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/grenadier/station-wagon.html">Grenadier Station Wagon</a><a class="chip" href="models/grenadier/quartermaster.html">Grenadier Quartermaster</a></div>
       </div>
     </article>
     
@@ -79,26 +103,6 @@
     </article>
     
     <article class="card">
-      <a href="models/lexus/index.html" style="display:block"><img src="img/lexus/prado120-dunes-mongolia.jpg" alt="Lexus LX &amp; GX off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
-      <div class="body">
-        <span class="eyebrow">Lexus</span>
-        <h3><a href="models/lexus/index.html" style="color:var(--ink);text-decoration:none">LX &amp; GX</a></h3>
-        <p class="verdict">“Land Cruisers that went to finishing school and somehow kept their boots on. The badge says country club; the frame rails say Gobi Desert.”</p>
-        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/lexus/lx450.html">LX 450</a><a class="chip" href="models/lexus/lx470.html">LX 470</a><a class="chip" href="models/lexus/lx570.html">LX 570</a><a class="chip" href="models/lexus/lx600.html">LX 600</a><a class="chip" href="models/lexus/gx470.html">GX 470</a><a class="chip" href="models/lexus/gx460.html">GX 460</a><a class="chip" href="models/lexus/gx550.html">GX 550</a></div>
-      </div>
-    </article>
-    
-    <article class="card">
-      <a href="models/4runner/index.html" style="display:block"><img src="img/4runner/red-rock-climb.jpg" alt="Toyota 4Runner off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
-      <div class="body">
-        <span class="eyebrow">Toyota</span>
-        <h3><a href="models/4runner/index.html" style="color:var(--ink);text-decoration:none">4Runner</a></h3>
-        <p class="verdict">“Toyota&#39;s mid-size body-on-frame survivor — forty years of refusing to become a crossover while everything around it did.”</p>
-        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/4runner/1st-gen.html">1st Gen</a><a class="chip" href="models/4runner/2nd-gen.html">2nd Gen</a><a class="chip" href="models/4runner/3rd-gen.html">3rd Gen</a><a class="chip" href="models/4runner/4th-gen.html">4th Gen</a><a class="chip" href="models/4runner/5th-gen.html">5th Gen</a><a class="chip" href="models/4runner/6th-gen.html">6th Gen</a></div>
-      </div>
-    </article>
-    
-    <article class="card">
       <a href="models/land-rover/index.html" style="display:block"><img src="img/land-rover/defender-90-forest-track.jpg" alt="Land Rover Series &amp; Defender off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
       <div class="body">
         <span class="eyebrow">Land Rover</span>
@@ -109,22 +113,22 @@
     </article>
     
     <article class="card">
+      <a href="models/lexus/index.html" style="display:block"><img src="img/lexus/prado120-dunes-mongolia.jpg" alt="Lexus LX &amp; GX off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
+      <div class="body">
+        <span class="eyebrow">Lexus</span>
+        <h3><a href="models/lexus/index.html" style="color:var(--ink);text-decoration:none">LX &amp; GX</a></h3>
+        <p class="verdict">“Land Cruisers that went to finishing school and somehow kept their boots on. The badge says country club; the frame rails say Gobi Desert.”</p>
+        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/lexus/lx450.html">LX 450</a><a class="chip" href="models/lexus/lx470.html">LX 470</a><a class="chip" href="models/lexus/lx570.html">LX 570</a><a class="chip" href="models/lexus/lx600.html">LX 600</a><a class="chip" href="models/lexus/gx470.html">GX 470</a><a class="chip" href="models/lexus/gx460.html">GX 460</a><a class="chip" href="models/lexus/gx550.html">GX 550</a></div>
+      </div>
+    </article>
+    
+    <article class="card">
       <a href="models/range-rover/index.html" style="display:block"><img src="img/range-rover/l405-trail.jpg" alt="Land Rover Range Rover off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
       <div class="body">
         <span class="eyebrow">Land Rover</span>
         <h3><a href="models/range-rover/index.html" style="color:var(--ink);text-decoration:none">Range Rover</a></h3>
         <p class="verdict">“The truck that taught a farm tool to wear a suit — and, for its first quarter-century, never forgot where it parked its wellies.”</p>
         <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/range-rover/classic.html">Range Rover Classic</a><a class="chip" href="models/range-rover/p38.html">Range Rover P38A</a><a class="chip" href="models/range-rover/l322.html">Range Rover L322</a><a class="chip" href="models/range-rover/l405.html">Range Rover L405</a><a class="chip" href="models/range-rover/l460.html">Range Rover L460</a></div>
-      </div>
-    </article>
-    
-    <article class="card">
-      <a href="models/grenadier/index.html" style="display:block"><img src="img/grenadier/station-wagon-trailmaster-overland.jpg" alt="Ineos Grenadier off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)"></a>
-      <div class="body">
-        <span class="eyebrow">Ineos</span>
-        <h3><a href="models/grenadier/index.html" style="color:var(--ink);text-decoration:none">Grenadier</a></h3>
-        <p class="verdict">“A billionaire couldn&#39;t buy the old Defender, so he built his own from a pub table, a BMW engine and a pair of tractor axles. It is gloriously square, genuinely capable and steers like a canal boat (until 2026).”</p>
-        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)"><a class="chip" href="models/grenadier/station-wagon.html">Grenadier Station Wagon</a><a class="chip" href="models/grenadier/quartermaster.html">Grenadier Quartermaster</a></div>
       </div>
     </article>
     
@@ -149,27 +153,6 @@
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">From the garage</span><h2>Fix it yourself</h2></div><a class="label" href="repairs/index.html" style="color:var(--ink)">All repair guides →</a></div>
     <div class="grid" style="--min:300px">
       
-      <a class="card" href="models/g-class/g500.html#repairs"><div class="body">
-        <span class="eyebrow">MERCEDES-BENZ G 500</span>
-        <h3 style="font-size:22px">Harmonic balancer (M113)</h3>
-        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Vibration at idle, a visibly wobbling crank pulley, rattle or chirp that changes with RPM, cracked or bulging rubber, belt squeal. Don’t keep driving it: if the outer...</span>
-        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 2.5 hours</span>
-      </div></a>
-      
-      <a class="card" href="models/land-cruiser/80-series.html#repairs"><div class="body">
-        <span class="eyebrow">TOYOTA LAND CRUISER 80 SERIES</span>
-        <h3 style="font-size:22px">Front knuckle / Birfield rebuild</h3>
-        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Gear oil and grease caked on the outside of the knuckles, runny grease at the knuckle fill plug, wheel-bearing play or noise, or a seal that started weeping after the...</span>
-        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A full weekend for both sides</span>
-      </div></a>
-      
-      <a class="card" href="models/lexus/gx470.html#repairs"><div class="body">
-        <span class="eyebrow">LEXUS GX 470</span>
-        <h3 style="font-size:22px">Rear air spring replacement or coil conversion</h3>
-        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">The rear sits low or sags overnight, the ride turns harsh, the height-control light blinks, the compressor runs nonstop, and in the worst case the truck is sitting on...</span>
-        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2 hours (simple coil swap) to half a day (with new trailing arms)</span>
-      </div></a>
-      
       <a class="card" href="models/4runner/3rd-gen.html#repairs"><div class="body">
         <span class="eyebrow">TOYOTA 4RUNNER 3RD GEN</span>
         <h3 style="font-size:22px">Lower ball joint replacement</h3>
@@ -177,18 +160,11 @@
         <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 30–60 min per side</span>
       </div></a>
       
-      <a class="card" href="models/land-rover/defender-90-110.html#repairs"><div class="body">
-        <span class="eyebrow">LAND ROVER 90 / 110 / DEFENDER</span>
-        <h3 style="font-size:22px">Swivel housing rebuild and preload</h3>
-        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Grease or oil weeping from the swivel seal, pitted chrome ball, wobbly or vague steering.</span>
-        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1 hour both sides for a shim/preload adjustment; longer for a full rebuild</span>
-      </div></a>
-      
-      <a class="card" href="models/range-rover/classic.html#repairs"><div class="body">
-        <span class="eyebrow">LAND ROVER RANGE ROVER CLASSIC</span>
-        <h3 style="font-size:22px">Swivel ball seal replacement and regrease</h3>
-        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Oil weeping from the swivel housings onto the chrome balls and wheels; the truck rolling while in park can mean a CV joint ran dry and failed.</span>
-        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · [TO RESEARCH]</span>
+      <a class="card" href="models/g-class/g500.html#repairs"><div class="body">
+        <span class="eyebrow">MERCEDES-BENZ G 500</span>
+        <h3 style="font-size:22px">Harmonic balancer (M113)</h3>
+        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Vibration at idle, a visibly wobbling crank pulley, rattle or chirp that changes with RPM, cracked or bulging rubber, belt squeal. Don’t keep driving it: if the outer...</span>
+        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 2.5 hours</span>
       </div></a>
       
       <a class="card" href="models/grenadier/station-wagon.html#repairs"><div class="body">
@@ -198,14 +174,42 @@
         <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1 hour</span>
       </div></a>
       
+      <a class="card" href="models/land-cruiser/80-series.html#repairs"><div class="body">
+        <span class="eyebrow">TOYOTA LAND CRUISER 80 SERIES</span>
+        <h3 style="font-size:22px">Front knuckle / Birfield rebuild</h3>
+        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Gear oil and grease caked on the outside of the knuckles, runny grease at the knuckle fill plug, wheel-bearing play or noise, or a seal that started weeping after the...</span>
+        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A full weekend for both sides</span>
+      </div></a>
+      
+      <a class="card" href="models/land-rover/defender-90-110.html#repairs"><div class="body">
+        <span class="eyebrow">LAND ROVER 90 / 110 / DEFENDER</span>
+        <h3 style="font-size:22px">Swivel housing rebuild and preload</h3>
+        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Grease or oil weeping from the swivel seal, pitted chrome ball, wobbly or vague steering.</span>
+        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1 hour both sides for a shim/preload adjustment; longer for a full rebuild</span>
+      </div></a>
+      
+      <a class="card" href="models/lexus/gx470.html#repairs"><div class="body">
+        <span class="eyebrow">LEXUS GX 470</span>
+        <h3 style="font-size:22px">Rear air spring replacement or coil conversion</h3>
+        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">The rear sits low or sags overnight, the ride turns harsh, the height-control light blinks, the compressor runs nonstop, and in the worst case the truck is sitting on...</span>
+        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2 hours (simple coil swap) to half a day (with new trailing arms)</span>
+      </div></a>
+      
+      <a class="card" href="models/range-rover/classic.html#repairs"><div class="body">
+        <span class="eyebrow">LAND ROVER RANGE ROVER CLASSIC</span>
+        <h3 style="font-size:22px">Swivel ball seal replacement and regrease</h3>
+        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">Oil weeping from the swivel housings onto the chrome balls and wheels; the truck rolling while in park can mean a CV joint ran dry and failed.</span>
+        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · [TO RESEARCH]</span>
+      </div></a>
+      
     </div>
   </div>
 </section>
 
 <section class="wrap section">
-  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Asked on every forum</span><h2>The big questions, answered</h2></div></div>
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">About the site</span><h2>Questions, answered</h2></div></div>
   <div class="faq">
-    <details open><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">MERCEDES-BENZ G 500</span>What’s the biggest tire I can fit without a lift?</summary><div class="a"><p>A 275/70R18 — roughly a 33-inch tire — on the factory 18-inch wheels. Owners on Expedition Portal report it fits an unlifted G 500; one saw rubbing only on aftermarket ET63-offset wheels. A 285/65R18 can rub slightly at full left lock. Re-code the tire size with a Mercedes diagnostic tool so the speedometer and ESP stay accurate.</p><a class="src" href="models/g-class/g500.html#faq">MORE MERCEDES-BENZ G 500 QUESTIONS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">TOYOTA LAND CRUISER 80 SERIES</span>What&#39;s the biggest tire I can fit without a lift?</summary><div class="a"><p>The safe answer from IH8MUD is 285/75R16, about 33 inches, which fits a stock 80 without drama. Owners also report 305/70R16 and 295/75R16 fitting, though wheel width and offset matter as much as the tire size. 35s &#39;fit, but rub like mad&#39; on a stock truck. Christo Slee&#39;s advice is that 35s work with a 2-inch Old Man Emu lift, but you&#39;ll probably rub at full flex unless you lower the bump stops. Stock size is 275/70R16.</p><a class="src" href="models/land-cruiser/80-series.html#faq">MORE TOYOTA LAND CRUISER 80 SERIES QUESTIONS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">LEXUS GX 470</span>What&#39;s the biggest tire I can fit without a lift?</summary><div class="a"><p>The stock size is 265/65R17. On a stock or nearly stock GX 470, the safe consensus is about 31.5 inches. Owners report 265/70R17 working with little or no rubbing (one reports a slight rub at full lock in reverse), and 255/75R17 with zero rubbing. Going to 33 inches (285/70R17, or the narrower 255/80R17) generally means a 2–3 in lift and some liner trimming.</p><a class="src" href="models/lexus/gx470.html#faq">MORE LEXUS GX 470 QUESTIONS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">TOYOTA 4RUNNER 3RD GEN</span>What&#39;s the biggest tire I can fit without a lift?</summary><div class="a"><p>The Toyota-4Runner.org consensus is 265/75R16 (roughly a 31.6-inch tire) on stock suspension. Some owners see rubbing at full compression off-road with wide, aggressive tread or wheel spacers; if you want zero drama, 265/70R16 or 265/70R17 are the conservative picks. Anything bigger is lift territory.</p><a class="src" href="models/4runner/3rd-gen.html#faq">MORE TOYOTA 4RUNNER 3RD GEN QUESTIONS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">LAND ROVER 90 / 110 / DEFENDER</span>What&#39;s the biggest tire I can fit without a lift?</summary><div class="a"><p>235/85R16 is the classic factory size on 110s and the &#39;sweet spot&#39; most owners recommend; NAS D90s came on 265/75R16. 255/85R16 (about 33&#34;) is the popular upgrade and generally fits at stock height, but owners report rubbing on the front radius arms at full lock (fix by winding out the steering stops), against the 45 L auxiliary tank on 110s, and close to the spring brackets at full compression on 90s.</p><a class="src" href="models/land-rover/defender-90-110.html#faq">MORE LAND ROVER 90 / 110 / DEFENDER QUESTIONS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">LAND ROVER RANGE ROVER CLASSIC</span>What&#39;s the biggest tire I can fit without a lift?</summary><div class="a"><p>The usual forum answer is 245/75R16 (about 30.5 inches) on stock coils, with the steering stops adjusted to stop rubbing at full lock. Some owners run 265/75R16 with slight chassis rub fixed by the stops. 235/85R16 generally needs a lift or some trimming on these 100-inch trucks.</p><a class="src" href="models/range-rover/classic.html#faq">MORE LAND ROVER RANGE ROVER CLASSIC QUESTIONS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">INEOS GRENADIER STATION WAGON</span>What&#39;s the biggest tire I can fit without a lift?</summary><div class="a"><p>From the factory the Grenadier rides on LT265/70R17 or LT255/70R18 (about 32 in.). INEOS Forum owners report 285/70R17 fits with no problem. 285/75R17 (about 34 in.) is the popular sweet spot: owners report no rub on stock suspension, but you&#39;ll probably need a couple of washers under the spare carrier to clear the small rear door. Owners have also run 295/70R17, 255/85R17 and 35x11.5R17 (the 35s on aftermarket 17x8 +40 mm wheels) without a lift. Treat 35s as the outer limit.</p><a class="src" href="models/grenadier/station-wagon.html#faq">MORE INEOS GRENADIER STATION WAGON QUESTIONS →</a></div></details>
+    <details open><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">ABOUT</span>What is BoxyTrucks?</summary><div class="a"><p>An independent guide to the square-shouldered 4x4s people actually take off-road: where each generation came from, how it&#39;s built, what to check before you buy, the repairs owners end up doing, and the suppliers, builders, forums and channels worth knowing. Think Wikipedia meets an overland magazine, written by enthusiasts for hands-on owners.</p><a class="src" href="models/index.html">BROWSE THE MODELS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">COVERAGE</span>Which trucks do you cover?</summary><div class="a"><p>Right now: 4Runner, G-Class, Grenadier, Land Cruiser, Land Rover, Lexus LX &amp; GX, Range Rover, with a full guide for every generation. More are on the list at the bottom of the models page; if yours isn&#39;t there yet, tell us.</p><a class="src" href="models/index.html">SEE EVERY GENERATION →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">SOURCES</span>Where does the information come from?</summary><div class="a"><p>Owner&#39;s and factory service manuals, specialist shops, parts suppliers, long-running owner forums and reputable press. Every guide lists its sources at the bottom. Specs vary by year, market and engine, so always confirm fluids, torque figures and part numbers for your VIN before you start.</p><a class="src" href="about/disclaimer.html">READ THE DISCLAIMER →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">PARTS</span>How do I find the right parts for my truck?</summary><div class="a"><p>Every repair and every item in each guide&#39;s “After you buy it” service list links to the parts you need at suppliers owners trust for that truck, plus an Amazon search. Use the part numbers, check fitment against your VIN, and when in doubt call the supplier.</p><a class="src" href="repairs/index.html">BROWSE ALL REPAIRS →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">BUYING</span>Can I buy a truck here?</summary><div class="a"><p>No, we don&#39;t sell anything. Each guide links straight to live AutoTempest searches and Bring a Trailer listings for that generation, and the buying checks tell you what to look at before you hand over money.</p><a class="src" href="for-sale/index.html">SEE WHAT&#39;S FOR SALE →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">YOUR RIG</span>Can my truck be featured?</summary><div class="a"><p>Yes. Send your truck, the build list and your best off-pavement photos through Show Us Your Rig. The good ones become Featured Builds on the home page and their model page, always credited to you.</p><a class="src" href="submit/index.html">SHOW US YOUR RIG →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">MONEY</span>How does BoxyTrucks pay for itself?</summary><div class="a"><p>Some parts and gear links are affiliate links, including Amazon: if you buy through them we may earn a small commission at no cost to you. It never decides which parts or suppliers we recommend, and we&#39;re not affiliated with any manufacturer.</p><a class="src" href="about/affiliate-disclosure.html">AFFILIATE DISCLOSURE →</a></div></details><details><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">CORRECTIONS</span>I spotted a mistake. How do I tell you?</summary><div class="a"><p>Use the Show Us Your Rig form and put the correction in the story box, with a source if you have one. Owners know these trucks better than anyone, and we fix errors fast.</p><a class="src" href="submit/index.html">SEND A CORRECTION →</a></div></details>
   </div>
 </section>
 
@@ -244,7 +248,7 @@
     <a class="btn solid" href="mods/index.html" style="align-self:flex-start">Browse suppliers</a>
   </div>
   <div class="rows" style="flex:1 1 520px;align-self:flex-start">
-    <a class="row" href="https://jackwagonoverlanding.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Jackwagon Overlanding</span><span class="m">G-Class · overland builds</span></a><a class="row" href="https://www.expeditionmotorcompany.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Expedition Motor Company</span><span class="m">G-Class · W460 / Wolf restorations</span></a><a class="row" href="https://www.icon4x4.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">ICON 4x4</span><span class="m">Land Cruiser · restomods</span></a><a class="row" href="https://www.thefjcompany.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">The FJ Company</span><span class="m">Land Cruiser · restorations</span></a><a class="row" href="https://www.arkonik.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Arkonik</span><span class="m">Defender · restomods</span></a><a class="row" href="https://shop.eurowise.com/products/ew463ome" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Eurowise (OME kits)</span><span class="m">G-Class · lift &amp; shocks</span></a><a class="row" href="https://www.gwagenparts.com/heavy-duty-3-inch-lift-kit-for-mercedes-g-wagon-w463-with-king-2-5-racing-shocks/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">GwagenParts.com</span><span class="m">G-Class · lift &amp; shocks</span></a><a class="row" href="https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">LETECH (via GwagenParts)</span><span class="m">G-Class · roof racks &amp; ladders</span></a>
+    <a class="row" href="https://jackwagonoverlanding.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Jackwagon Overlanding</span><span class="m">G-Class · overland builds</span></a><a class="row" href="https://www.expeditionmotorcompany.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Expedition Motor Company</span><span class="m">G-Class · W460 / Wolf restorations</span></a><a class="row" href="https://www.icon4x4.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">ICON 4x4</span><span class="m">Land Cruiser · restomods</span></a><a class="row" href="https://www.thefjcompany.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">The FJ Company</span><span class="m">Land Cruiser · restorations</span></a><a class="row" href="https://www.arkonik.com/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Arkonik</span><span class="m">Defender · restomods</span></a><a class="row" href="https://www.lceperformance.com/old-man-emu-suspension-system-for-1996-2002-4runner/" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Old Man Emu (via LCE Performance)</span><span class="m">4Runner · suspension lift</span></a><a class="row" href="https://iconvehicledynamics.com/accessory/16009/icon%2Daccessories%2Dicon%2D1996%2D2002%2Dtoyota%2D4runner%2D1%2Dlift%2Drear%2Dcoil%2Dspring%2Dkit" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">ICON Vehicle Dynamics</span><span class="m">4Runner · suspension lift</span></a><a class="row" href="https://www.chaosfab.com/product/1996-2002-Toyota-4Runner-Upper-Control-Arms" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">Total Chaos Fabrication</span><span class="m">4Runner · control arms &amp; ball joints</span></a>
   </div>
 </section>
 
@@ -252,7 +256,7 @@
   <div class="wrap section">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow brass">Resources</span><h2>YouTube channels, Instagram accounts and forums worth your time</h2></div><a class="label" href="resources/index.html" style="color:var(--paper)">All resources →</a></div>
     <div class="grid" style="--min:260px">
-      <a class="soc" href="https://www.youtube.com/@Gluxetravel" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">@Gluxetravel</span><span class="fc" style="color:var(--brass)">YOUTUBE · G-CLASS</span></span></a><a class="soc" href="https://www.instagram.com/gzilla500/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@gzilla500</span><span class="fc" style="color:var(--brass)">INSTAGRAM · G-CLASS</span></span></a><a class="soc" href="https://www.youtube.com/@CorsettiCruisers" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">Corsetti Cruisers</span><span class="fc" style="color:var(--brass)">YOUTUBE · LAND CRUISER</span></span></a><a class="soc" href="https://www.instagram.com/blackhillsbuilds/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@blackhillsbuilds</span><span class="fc" style="color:var(--brass)">INSTAGRAM · LAND CRUISER</span></span></a><a class="soc" href="https://www.youtube.com/@OTRAMM" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">OTRAMM</span><span class="fc" style="color:var(--brass)">YOUTUBE · LX &amp; GX</span></span></a><a class="soc" href="https://www.instagram.com/ih8mud/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@ih8mud</span><span class="fc" style="color:var(--brass)">INSTAGRAM · LX &amp; GX</span></span></a><a class="soc" href="https://www.youtube.com/@TrailGear" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">Trail-Gear Inc.</span><span class="fc" style="color:var(--brass)">YOUTUBE · 4RUNNER</span></span></a><a class="soc" href="https://www.instagram.com/lc_engineering/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@lc_engineering</span><span class="fc" style="color:var(--brass)">INSTAGRAM · 4RUNNER</span></span></a>
+      <a class="soc" href="https://www.youtube.com/@TrailGear" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">Trail-Gear Inc.</span><span class="fc" style="color:var(--brass)">YOUTUBE · 4RUNNER</span></span></a><a class="soc" href="https://www.instagram.com/lc_engineering/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@lc_engineering</span><span class="fc" style="color:var(--brass)">INSTAGRAM · 4RUNNER</span></span></a><a class="soc" href="https://www.youtube.com/@Gluxetravel" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">@Gluxetravel</span><span class="fc" style="color:var(--brass)">YOUTUBE · G-CLASS</span></span></a><a class="soc" href="https://www.instagram.com/gzilla500/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@gzilla500</span><span class="fc" style="color:var(--brass)">INSTAGRAM · G-CLASS</span></span></a><a class="soc" href="https://www.youtube.com/@owloffroad" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">Owl</span><span class="fc" style="color:var(--brass)">YOUTUBE · GRENADIER</span></span></a><a class="soc" href="https://www.instagram.com/owl.outdoors/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@owl.outdoors</span><span class="fc" style="color:var(--brass)">INSTAGRAM · GRENADIER</span></span></a><a class="soc" href="https://www.youtube.com/@CorsettiCruisers" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">YT</span><span><span class="nm">Corsetti Cruisers</span><span class="fc" style="color:var(--brass)">YOUTUBE · LAND CRUISER</span></span></a><a class="soc" href="https://www.instagram.com/blackhillsbuilds/" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">IG</span><span><span class="nm">@blackhillsbuilds</span><span class="fc" style="color:var(--brass)">INSTAGRAM · LAND CRUISER</span></span></a>
     </div>
   </div>
 </section>
@@ -261,26 +265,26 @@
   <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">The one you’ll own someday</span><h2>For sale now</h2></div><a class="label" href="for-sale/index.html" style="color:var(--ink)">Every model →</a></div>
   <div class="grid" style="--min:240px">
     
+    <div class="sale"><span class="eyebrow brass">Toyota · 1984–1989</span><span class="l">4Runner 1st Gen</span>
+      <div class="links"><a href="https://www.autotempest.com/results?make=toyota&amp;model=4runner&amp;minyear=1984&amp;maxyear=1989" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/toyota/4runner-n60/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
+    </div>
     <div class="sale"><span class="eyebrow brass">Mercedes-Benz · 1979–1991</span><span class="l">G-Class W460</span>
       <div class="links"><a href="https://www.autotempest.com/results?make=mercedesbenz&amp;model=gclass&amp;minyear=1979&amp;maxyear=1991" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/mercedes-benz/w460-gelandewagen/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
+    </div>
+    <div class="sale"><span class="eyebrow brass">Ineos · 2022–present (US: 2024–present)</span><span class="l">Grenadier Grenadier Station Wagon</span>
+      <div class="links"><a href="https://www.autotempest.com/results?make=ineos&amp;model=grenadier&amp;minyear=2024&amp;maxyear=2026" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/ineos/grenadier/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
     </div>
     <div class="sale"><span class="eyebrow brass">Toyota · 1960–1984</span><span class="l">Land Cruiser FJ40</span>
       <div class="links"><a href="https://www.autotempest.com/results?make=toyota&amp;model=landcruiser&amp;minyear=1960&amp;maxyear=1984" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/toyota/fj40/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
     </div>
-    <div class="sale"><span class="eyebrow brass">Lexus · 1996–1997</span><span class="l">LX &amp; GX LX 450</span>
-      <div class="links"><a href="https://www.autotempest.com/results?make=lexus&amp;model=lx450&amp;minyear=1996&amp;maxyear=1997" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/lexus/lx450/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
-    </div>
-    <div class="sale"><span class="eyebrow brass">Toyota · 1984–1989</span><span class="l">4Runner 1st Gen</span>
-      <div class="links"><a href="https://www.autotempest.com/results?make=toyota&amp;model=4runner&amp;minyear=1984&amp;maxyear=1989" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/toyota/4runner-n60/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
-    </div>
     <div class="sale"><span class="eyebrow brass">Land Rover · 1948–1985</span><span class="l">Series &amp; Defender Series I–III</span>
       <div class="links"><a href="https://www.autotempest.com/results?make=landrover&amp;minyear=1948&amp;maxyear=1985" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/land-rover/series-88/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
     </div>
+    <div class="sale"><span class="eyebrow brass">Lexus · 1996–1997</span><span class="l">LX &amp; GX LX 450</span>
+      <div class="links"><a href="https://www.autotempest.com/results?make=lexus&amp;model=lx450&amp;minyear=1996&amp;maxyear=1997" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/lexus/lx450/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
+    </div>
     <div class="sale"><span class="eyebrow brass">Land Rover · 1970–1996</span><span class="l">Range Rover Range Rover Classic</span>
       <div class="links"><a href="https://www.autotempest.com/results?make=landrover&amp;model=rangerover&amp;minyear=1987&amp;maxyear=1995" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/land-rover/range-rover-classic/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
-    </div>
-    <div class="sale"><span class="eyebrow brass">Ineos · 2022–present (US: 2024–present)</span><span class="l">Grenadier Grenadier Station Wagon</span>
-      <div class="links"><a href="https://www.autotempest.com/results?make=ineos&amp;model=grenadier&amp;minyear=2024&amp;maxyear=2026" target="_blank" rel="noopener">AutoTempest ↗</a><a href="https://bringatrailer.com/ineos/grenadier/" target="_blank" rel="noopener">Bring a Trailer ↗</a></div>
     </div>
   </div>
 </section>
@@ -298,5 +302,13 @@
     <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br><a href="about/disclaimer.html" style="color:inherit">DISCLAIMER</a> · <a href="about/affiliate-disclosure.html" style="color:inherit">AFFILIATE DISCLOSURE</a></div>
   </div>
 </footer>
+<script>
+(function(){var d=document.querySelector('.nav-drop');if(!d)return;var b=d.querySelector('.nav-caret');
+function set(o){d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+b.addEventListener('click',function(e){e.stopPropagation();set(!d.classList.contains('open'));});
+document.addEventListener('click',function(e){if(!d.contains(e.target))set(false);});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){set(false);});});})();
+</script>
 </body>
 </html>

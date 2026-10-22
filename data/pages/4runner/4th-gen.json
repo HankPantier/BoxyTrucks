@@ -8,7 +8,7 @@
   "2UZ-FE 4.7 V8",
   "LOCKABLE TORSEN CENTRE"
  ],
- "hero_photo": "forest-camp.jpg",
+ "hero_photo": "gen4-vilano-beach.jpg",
  "story": [
   {
    "heading": null,
@@ -573,36 +573,20 @@
  ],
  "photos": [
   {
+   "file": "gen4-vilano-beach.jpg",
+   "alt": "White fourth-generation 4Runner built for overlanding with an ARB steel bumper, winch, driving lights and roof rack on beach sand",
+   "caption": "4TH GEN ON THE SAND · VILANO BEACH, FL",
+   "credit": "Lance Asper",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/white-suv-8a1FvEXkZwo"
+  },
+  {
    "file": "forest-camp.jpg",
    "alt": "White fourth-generation 4Runner parked at a wooded campsite beside a picnic table",
-   "caption": "4TH GEN AT CAMP",
+   "caption": "4TH GEN AT CAMP · WOODED CAMPSITE",
    "credit": "Vincent Mutasa",
    "source": "Unsplash",
    "source_url": "https://unsplash.com/photos/a-white-suv-parked-in-the-woods-next-to-a-picnic-table-d18Qy-rMVcY"
-  },
-  {
-   "file": "red-rock-climb.jpg",
-   "alt": "Silver third-generation Toyota 4Runner climbing a tilted slab of red sandstone",
-   "caption": "3RD GEN PREDECESSOR · RED ROCK CANYON, NV",
-   "credit": "Quilia",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
-  },
-  {
-   "file": "death-valley-trench.jpg",
-   "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
-   "caption": "5TH GEN SUCCESSOR · DEATH VALLEY",
-   "credit": "Robson Hatsukami Morgan",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/gray-toyota-suv-in-the-middle-of-trench-nVVrRgkQy6s"
-  },
-  {
-   "file": "dune-convoy.jpg",
-   "alt": "Line of lifted fifth-generation 4Runners on mud-terrain tires waiting on desert dunes",
-   "caption": "5TH GEN SUCCESSORS · PERU",
-   "credit": "Jose Carbajal",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
   }
  ],
  "sources": [
@@ -928,5 +912,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "50% 60%"
 }

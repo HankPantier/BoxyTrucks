@@ -61,9 +61,9 @@
 </section>
 
 <section class="wrap section">
-  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Asked on every forum</span><h2>The big questions, answered</h2></div></div>
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">About the site</span><h2>Questions, answered</h2></div></div>
   <div class="faq">
-    {% for f in faqs %}<details{% if loop.first %} open{% endif %}><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">{{ f.model }}</span>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p><a class="src" href="{{ f.href }}">MORE {{ f.model }} QUESTIONS →</a></div></details>{% endfor %}
+    {% for f in faqs %}<details{% if loop.first %} open{% endif %}><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">{{ f.model }}</span>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p><a class="src" href="{{ root }}{{ f.href }}">{{ f.cta }} →</a></div></details>{% endfor %}
   </div>
 </section>
 

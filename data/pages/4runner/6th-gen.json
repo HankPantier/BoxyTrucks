@@ -8,7 +8,7 @@
   "TNGA-F (GA-F)",
   "i-FORCE 2.4T · i-FORCE MAX HYBRID"
  ],
- "hero_photo": null,
+ "hero_photo": "gen6-mucubaji.jpg",
  "story": [
   {
    "heading": null,
@@ -612,20 +612,20 @@
  ],
  "photos": [
   {
-   "file": "dune-convoy.jpg",
-   "alt": "Line of lifted fifth-generation 4Runners on big mud-terrain tires waiting on desert sand dunes",
-   "caption": "5TH GEN PREDECESSORS ON THE DUNES · PERU",
-   "credit": "Jose Carbajal",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
+   "file": "gen6-mucubaji.jpg",
+   "alt": "Two light-blue sixth-generation 4Runner TRD Pros on a winding mountain road through high Andean paramo",
+   "caption": "6TH GEN TRD PRO · MUCUBAJÍ, VENEZUELAN ANDES",
+   "credit": "Tuusuario.wiki · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_4RUNNER_TRD_PRO_2026_WAVE_MAKER_en_la_laguna_de_mucuvaji.jpg"
   },
   {
-   "file": "death-valley-trench.jpg",
-   "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
-   "caption": "5TH GEN PREDECESSOR IN THE ROCKS · DEATH VALLEY",
-   "credit": "Robson Hatsukami Morgan",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/gray-toyota-suv-in-the-middle-of-trench-nVVrRgkQy6s"
+   "file": "gen6-trailhunter-sonoma.jpg",
+   "alt": "Green sixth-generation 4Runner Trailhunter with snorkel, roof rack and bronze wheels on display",
+   "caption": "6TH GEN TRAILHUNTER · SONOMA RACEWAY DISPLAY",
+   "credit": "TaurusEmerald · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_4Runner_Trailhunter_Sonoma_2025.jpg"
   }
  ],
  "sources": [
@@ -946,5 +946,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "30% 70%"
 }

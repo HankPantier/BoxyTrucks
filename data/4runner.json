@@ -118,7 +118,8 @@
   "related_families": [
    "land-cruiser",
    "lexus"
-  ]
+  ],
+  "hero_focus": "70% 55%"
  },
  "page": {
   "slug": "3rd-gen",
@@ -130,7 +131,7 @@
    "5VZ-FE 3.4 V6",
    "REAR E-LOCKER 1996–2000"
   ],
-  "hero_photo": "red-rock-climb.jpg",
+  "hero_photo": "gen3-mount-charleston.jpg",
   "story": [
    {
     "heading": null,
@@ -695,6 +696,14 @@
   ],
   "photos": [
    {
+    "file": "gen3-mount-charleston.jpg",
+    "alt": "Lifted silver third-generation 4Runner throwing dust on a dirt track among Joshua trees with snow-capped desert mountains behind",
+    "caption": "3RD GEN ON THE DIRT · MOUNT CHARLESTON, NV",
+    "credit": "NeONBRAND · CC0 1.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Charleston,_United_States_(Unsplash_eqU1oK3oxvY).jpg"
+   },
+   {
     "file": "red-rock-climb.jpg",
     "alt": "Silver third-generation Toyota 4Runner climbing a steep tilted slab of red sandstone under a cloudy sky",
     "caption": "3RD GEN ON THE SLICKROCK · RED ROCK CANYON, NV",
@@ -703,44 +712,20 @@
     "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
    },
    {
-    "file": "asiago-splash.jpg",
-    "alt": "Silver second-generation 4Runner throwing up a wall of muddy water crossing a puddle in a dark pine forest",
-    "caption": "2ND GEN PREDECESSOR · ASIAGO, ITALY",
-    "credit": "Gio Spigo",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/4x4-off-road-adventure-in-asiago-forest-34511849/"
+    "file": "gen3-high-desert-hills.jpg",
+    "alt": "Mud-spattered white facelifted third-generation 4Runner parked in dry grass on a high-desert ridge at sunset",
+    "caption": "3RD GEN (1999–2002) · HIGH-DESERT RIDGE",
+    "credit": "Zach Dischner · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Huntin'_Truck_(4002810192).jpg"
    },
    {
-    "file": "veneto-mud.jpg",
-    "alt": "Lifted second-generation 4Runner driving through mud on a forest trail lined with pines",
-    "caption": "2ND GEN IN THE MUD · VENETO, ITALY",
-    "credit": "Gio Spigo",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/off-road-adventure-in-veneto-forest-34511847/"
-   },
-   {
-    "file": "forest-camp.jpg",
-    "alt": "White fourth-generation 4Runner parked at a wooded campsite beside a picnic table",
-    "caption": "4TH GEN SUCCESSOR AT CAMP",
-    "credit": "Vincent Mutasa",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/a-white-suv-parked-in-the-woods-next-to-a-picnic-table-d18Qy-rMVcY"
-   },
-   {
-    "file": "death-valley-trench.jpg",
-    "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
-    "caption": "5TH GEN IN THE ROCKS · DEATH VALLEY",
-    "credit": "Robson Hatsukami Morgan",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/gray-toyota-suv-in-the-middle-of-trench-nVVrRgkQy6s"
-   },
-   {
-    "file": "dune-convoy.jpg",
-    "alt": "Line of lifted fifth-generation 4Runners on big mud-terrain tires waiting on desert sand dunes",
-    "caption": "5TH GEN DUNE CONVOY · PERU",
-    "credit": "Jose Carbajal",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
+    "file": "gen3-hood-river-overlook.jpg",
+    "alt": "Silver third-generation 4Runner with a mountain bike on its hitch rack parked on a grassy hilltop above the Columbia River at sunset",
+    "caption": "3RD GEN BASECAMP · HOOD RIVER, OR",
+    "credit": "Zach Dischner · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Endless_Possibilities_(11533326155).jpg"
    }
   ],
   "sources": [
@@ -1105,6 +1090,7 @@
      ]
     }
    ]
-  }
+  },
+  "hero_focus": "62% 70%"
  }
 }

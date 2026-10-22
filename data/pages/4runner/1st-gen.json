@@ -8,7 +8,7 @@
   "22R-E 2.4 I4",
   "SOLID AXLE 1984–85"
  ],
- "hero_photo": null,
+ "hero_photo": "gen1-baja-lights-meadow.jpg",
  "story": [
   {
    "heading": null,
@@ -604,28 +604,20 @@
  ],
  "photos": [
   {
-   "file": "veneto-mud.jpg",
-   "alt": "Lifted second-generation 4Runner driving through mud on a forest trail lined with pines",
-   "caption": "2ND GEN SUCCESSOR IN THE MUD · VENETO, ITALY",
-   "credit": "Gio Spigo",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/off-road-adventure-in-veneto-forest-34511847/"
+   "file": "gen1-baja-lights-meadow.jpg",
+   "alt": "Silver first-generation two-door 4Runner with a black brush guard and roof-mounted Baja lights parked in tall grass below autumn trees",
+   "caption": "1ST GEN · AUTUMN MEADOW",
+   "credit": "Michael Gil · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_4Runner_(5029407762).jpg"
   },
   {
-   "file": "asiago-splash.jpg",
-   "alt": "Silver second-generation 4Runner throwing up muddy water crossing a puddle in a pine forest",
-   "caption": "2ND GEN SUCCESSOR · ASIAGO, ITALY",
-   "credit": "Gio Spigo",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/4x4-off-road-adventure-in-asiago-forest-34511849/"
-  },
-  {
-   "file": "red-rock-climb.jpg",
-   "alt": "Silver third-generation Toyota 4Runner climbing a tilted slab of red sandstone",
-   "caption": "3RD GEN DESCENDANT · RED ROCK CANYON, NV",
-   "credit": "Quilia",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
+   "file": "gen1-rogue-campsite.jpg",
+   "alt": "Red first-generation 4Runner with its rear top removed parked at a forest campsite beside a tent, picnic table and a resting dog",
+   "caption": "1ST GEN TOP-OFF · VALLEY OF THE ROGUE, OR",
+   "credit": "Bobjgalindo · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Valley_of_the_Rogue_Campground.jpg"
   }
  ],
  "sources": [
@@ -949,5 +941,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "55% 60%"
 }

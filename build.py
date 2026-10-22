@@ -21,7 +21,12 @@ GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
-FAMILY_ORDER = ['g-class', 'land-cruiser', 'lexus', '4runner', 'land-rover', 'range-rover', 'grenadier']
+# Families are shown everywhere in alphabetical order of the name people use for them.
+SHORT_NAME = {'4runner': '4Runner', 'g-class': 'G-Class', 'grenadier': 'Grenadier', 'jeep': 'Jeep',
+              'land-cruiser': 'Land Cruiser', 'land-rover': 'Land Rover', 'lexus': 'Lexus LX & GX', 'range-rover': 'Range Rover',
+              'nissan-patrol': 'Nissan Patrol', 'scout': 'International Scout'}
+FAMILY_ORDER = sorted(SHORT_NAME, key=lambda k: SHORT_NAME[k].lower())
+NAV_FAMS = []
 NAV = [
     {'key': 'models', 'label': 'MODELS', 'href': 'models/index.html'},
     {'key': 'repairs', 'label': 'REPAIRS', 'href': 'repairs/index.html'},
@@ -32,10 +37,8 @@ NAV = [
 ]
 LATER = [
     {'name': 'Ford', 'models': ['Bronco 1966–77', 'Bronco (2021+)']},
-    {'name': 'International / Scout', 'models': ['Scout 80 / 800', 'Scout II', 'Scout Motors']},
-    {'name': 'Jeep', 'models': ['Grand Wagoneer SJ', 'Cherokee XJ']},
     {'name': 'Chevrolet / GMC', 'models': ['K5 Blazer', 'Square-body Suburban']},
-    {'name': 'Nissan · Mitsubishi · Isuzu', 'models': ['Patrol Y60', 'Patrol Y61', 'Pajero Gen 1–2', 'Trooper']},
+    {'name': 'Mitsubishi · Isuzu', 'models': ['Pajero Gen 1–2', 'Trooper']},
     {'name': 'Suzuki', 'models': ['Samurai', 'Jimny']},
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303', 'Hummer H1', 'FJ Cruiser']},
 ]
@@ -236,6 +239,7 @@ def main():
     AFFILIATES = load_affiliates()
     suppliers_cfg = jload(DATA / 'suppliers.json') or {}
     fam_list = [fams[s] for s in FAMILY_ORDER if s in fams]
+    NAV_FAMS[:] = [{'slug': f['slug'], 'label': SHORT_NAME.get(f['slug'], f['name'])} for f in fam_list]
     env = Environment(loader=FileSystemLoader(str(ROOT / 'templates')), autoescape=True)
 
     def gen_exists(fs, gs):
@@ -261,7 +265,7 @@ def main():
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
-                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV)
+                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS)
         path = out.replace('index.html', '') if out.endswith('index.html') else out
         canonical = SITE_URL + path
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
@@ -328,9 +332,34 @@ def main():
             if p.get('repairs'):
                 r = dict(p['repairs'][0]); r['model'] = label; r['href'] = href('', slug, p['slug']) + '#repairs'
                 garage.append(r)
-            tire = next((f for f in p.get('faq', []) if 'tire' in f['q'].lower() and 'lift' in f['q'].lower()), None)
-            if tire:
-                faqs.append({'q': tire['q'], 'a': tire['a'], 'model': label, 'href': href('', slug, p['slug']) + '#faq'})
+
+    covered = ', '.join(SHORT_NAME.get(f['slug'], f['name']) for f in fam_list)
+    faqs = [
+        {'model': 'ABOUT', 'q': 'What is BoxyTrucks?',
+         'a': 'An independent guide to the square-shouldered 4x4s people actually take off-road: where each generation came from, how it\'s built, what to check before you buy, the repairs owners end up doing, and the suppliers, builders, forums and channels worth knowing. Think Wikipedia meets an overland magazine, written by enthusiasts for hands-on owners.',
+         'href': 'models/index.html', 'cta': 'BROWSE THE MODELS'},
+        {'model': 'COVERAGE', 'q': 'Which trucks do you cover?',
+         'a': f'Right now: {covered}, with a full guide for every generation. More are on the list at the bottom of the models page; if yours isn\'t there yet, tell us.',
+         'href': 'models/index.html', 'cta': 'SEE EVERY GENERATION'},
+        {'model': 'SOURCES', 'q': 'Where does the information come from?',
+         'a': 'Owner\'s and factory service manuals, specialist shops, parts suppliers, long-running owner forums and reputable press. Every guide lists its sources at the bottom. Specs vary by year, market and engine, so always confirm fluids, torque figures and part numbers for your VIN before you start.',
+         'href': 'about/disclaimer.html', 'cta': 'READ THE DISCLAIMER'},
+        {'model': 'PARTS', 'q': 'How do I find the right parts for my truck?',
+         'a': 'Every repair and every item in each guide\'s “After you buy it” service list links to the parts you need at suppliers owners trust for that truck, plus an Amazon search. Use the part numbers, check fitment against your VIN, and when in doubt call the supplier.',
+         'href': 'repairs/index.html', 'cta': 'BROWSE ALL REPAIRS'},
+        {'model': 'BUYING', 'q': 'Can I buy a truck here?',
+         'a': 'No, we don\'t sell anything. Each guide links straight to live AutoTempest searches and Bring a Trailer listings for that generation, and the buying checks tell you what to look at before you hand over money.',
+         'href': 'for-sale/index.html', 'cta': 'SEE WHAT\'S FOR SALE'},
+        {'model': 'YOUR RIG', 'q': 'Can my truck be featured?',
+         'a': 'Yes. Send your truck, the build list and your best off-pavement photos through Show Us Your Rig. The good ones become Featured Builds on the home page and their model page, always credited to you.',
+         'href': 'submit/index.html', 'cta': 'SHOW US YOUR RIG'},
+        {'model': 'MONEY', 'q': 'How does BoxyTrucks pay for itself?',
+         'a': 'Some parts and gear links are affiliate links, including Amazon: if you buy through them we may earn a small commission at no cost to you. It never decides which parts or suppliers we recommend, and we\'re not affiliated with any manufacturer.',
+         'href': 'about/affiliate-disclosure.html', 'cta': 'AFFILIATE DISCLOSURE'},
+        {'model': 'CORRECTIONS', 'q': 'I spotted a mistake. How do I tell you?',
+         'a': 'Use the Show Us Your Rig form and put the correction in the story box, with a source if you have one. Owners know these trucks better than anyone, and we fix errors fast.',
+         'href': 'submit/index.html', 'cta': 'SEND A CORRECTION'},
+    ]
 
     suppliers, seen = list(BUILDERS), {b['name'].lower() for b in BUILDERS}
     for slug in FAMILY_ORDER:
@@ -351,7 +380,7 @@ def main():
                     it = r[kind][0]
                     home_res.append({'kind': lab, 'name': it['name'], 'url': it['url'], 'focus': fams[slug]['name'].upper()})
 
-    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s.'}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg'}], title='BoxyTrucks — For the love of right angles',
+    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s.'}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg'}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title='BoxyTrucks — For the love of right angles',
            description='An enthusiast guide to boxy 4x4s: G-Class, Land Cruiser, Defender, Range Rover, 4Runner, Lexus GX/LX and Grenadier.',
            garage=garage[:8], faqs=faqs, stories=STORIES, suppliers=suppliers, socials=home_res,
            credits=', '.join(HOME_CREDITS) + ' and others via Unsplash and Pexels')

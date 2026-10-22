@@ -34,7 +34,10 @@
     <a class="brand" href="../../index.html"><svg viewBox="0 0 64 64" width="34" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="#B0915A" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="#B0915A"/><circle cx="40" cy="63" r="9.5" fill="#B0915A"/><circle cx="40" cy="63" r="3.5" fill="#0E0F0E"/></svg><span>BOXY TRUCKS</span></a>
     <form class="hsearch" role="search" action="../../search/index.html" method="get"><label for="hq" class="sr-only">Search BoxyTrucks</label><input id="hq" name="q" type="search" placeholder="Search guides, parts, repairs"></form>
     <nav class="nav" aria-label="Main">
-      <a href="../../models/index.html" class=" active">MODELS</a><a href="../../repairs/index.html">REPAIRS</a><a href="../../mods/index.html">MODS &amp; BUILDERS</a><a href="../../resources/index.html">RESOURCES</a><a href="../../for-sale/index.html">FOR SALE</a><a href="../../submit/index.html" class="cta">SHOW US YOUR RIG</a>
+      <div class="nav-drop">
+        <a href="../../models/index.html" class="active">MODELS</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="models-menu" aria-label="Show model families"><svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <ul class="nav-menu" id="models-menu"><li><a href="../../models/index.html#4runner">4Runner</a></li><li><a href="../../models/index.html#g-class">G-Class</a></li><li><a href="../../models/index.html#grenadier">Grenadier</a></li><li><a href="../../models/index.html#land-cruiser">Land Cruiser</a></li><li><a href="../../models/index.html#land-rover">Land Rover</a></li><li><a href="../../models/index.html#lexus">Lexus LX &amp; GX</a></li><li><a href="../../models/index.html#range-rover">Range Rover</a></li><li class="all"><a href="../../models/index.html">All models →</a></li></ul>
+      </div><a href="../../repairs/index.html">REPAIRS</a><a href="../../mods/index.html">MODS &amp; BUILDERS</a><a href="../../resources/index.html">RESOURCES</a><a href="../../for-sale/index.html">FOR SALE</a><a href="../../submit/index.html" class="cta">SHOW US YOUR RIG</a>
     </nav>
   </div>
 </header>
@@ -42,7 +45,7 @@
 
 <section class="hero-stack">
   <div class="hs-img">
-    <img src="../../img/4runner/red-rock-climb.jpg" alt="Toyota 4Runner off road" fetchpriority="high">
+    <img src="../../img/4runner/red-rock-climb.jpg" alt="Toyota 4Runner off road" style="object-position:70% 55%" fetchpriority="high">
     <div class="wrap hs-top"><nav class="crumbs" aria-label="Breadcrumb"><a href="../../models/index.html">Models</a><span>/</span><span>Toyota 4Runner</span></nav></div>
   </div>
   <div class="hs-band"><div class="wrap">
@@ -144,7 +147,7 @@
       
       
       <a class="card" href="3rd-gen.html">
-        <img src="../../img/4runner/red-rock-climb.jpg" alt="" style="height:220px">
+        <img src="../../img/4runner/gen3-mount-charleston.jpg" alt="" style="height:220px">
         <div class="body"><span class="eyebrow">Start here · full guide</span><h3>3rd Gen</h3><span class="serif" style="font-size:17px;line-height:26px">The one that left the pickup behind: Prado-shared chassis, coils all round, optional rear E-locker — the cult classic.</span><span class="label" style="color:var(--green)">Read the guide →</span></div>
       </a>
       
@@ -167,7 +170,7 @@
   <div class="wrap">
     <div>
       <a class="brand" href="../../index.html"><svg viewBox="0 0 64 64" width="34" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="#B0915A" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="#B0915A"/><circle cx="40" cy="63" r="9.5" fill="#B0915A"/><circle cx="40" cy="63" r="3.5" fill="#0E0F0E"/></svg><span>BOXY TRUCKS</span></a>
-      <p class="credits">Photography: Quilia, Gio Spigo, Vincent Mutasa, Robson Hatsukami Morgan, Jose Carbajal via Unsplash, Pexels and Wikimedia Commons.</p>
+      <p class="credits">Photography: NeONBRAND · CC0 1.0, Quilia, Zach Dischner · CC BY 2.0, Michael Gil · CC BY 2.0, Bobjgalindo · CC BY-SA 4.0, Sergey Tarasov, Gio Spigo, Wildfire 1775, Lance Asper, Vincent Mutasa, Stephen Leonardi, Robson Hatsukami Morgan, Jose Carbajal, Tuusuario.wiki · CC BY-SA 3.0, TaurusEmerald · CC BY-SA 4.0 via Unsplash, Pexels and Wikimedia Commons.</p>
     </div>
     <nav aria-label="Footer">
       <a href="../../models/index.html">Models</a><a href="../../repairs/index.html">Repairs</a><a href="../../mods/index.html">Mods &amp; Builders</a><a href="../../resources/index.html">Resources</a><a href="../../for-sale/index.html">For Sale</a><a href="../../submit/index.html">Show Us Your Rig</a>
@@ -175,5 +178,13 @@
     <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br><a href="../../about/disclaimer.html" style="color:inherit">DISCLAIMER</a> · <a href="../../about/affiliate-disclosure.html" style="color:inherit">AFFILIATE DISCLOSURE</a></div>
   </div>
 </footer>
+<script>
+(function(){var d=document.querySelector('.nav-drop');if(!d)return;var b=d.querySelector('.nav-caret');
+function set(o){d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+b.addEventListener('click',function(e){e.stopPropagation();set(!d.classList.contains('open'));});
+document.addEventListener('click',function(e){if(!d.contains(e.target))set(false);});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){set(false);});});})();
+</script>
 </body>
 </html>

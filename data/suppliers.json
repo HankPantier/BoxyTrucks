@@ -38,5 +38,27 @@
    "search": "https://roversnorth.com/search?q={q}"
   }
  ],
- "grenadier": []
+ "grenadier": [],
+ "jeep": [
+  {
+   "name": "Quadratec",
+   "search": "https://www.quadratec.com/search?keys={q}"
+  },
+  {
+   "name": "Morris 4x4 Center",
+   "search": "https://www.morris4x4center.com/catalogsearch/result/?q={q}"
+  }
+ ],
+ "nissan-patrol": [
+  {
+   "name": "RockAuto",
+   "search": "https://www.rockauto.com/en/partsearch/?partnum={q}"
+  }
+ ],
+ "scout": [
+  {
+   "name": "Super Scout Specialists",
+   "search": "https://www.superscoutspecialists.com/search?q={q}"
+  }
+ ]
 }

@@ -11,7 +11,7 @@
 </section>
 <div class="wrap section" style="padding-top:24px">
   {% for f in fam_list %}
-  <section class="fam-block" data-fam>
+  <section class="fam-block" id="{{ f.slug }}" data-fam>
     <a href="{{ f.slug }}/index.html">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ f.maker }} {{ f.name }}" loading="lazy">{% else %}<div class="ph" style="height:220px">[PHOTO]</div>{% endif %}</a>
     <div style="display:flex;flex-direction:column;gap:12px">
       <span class="eyebrow">{{ f.maker }} · {{ f.years }}</span>
