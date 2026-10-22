@@ -2,18 +2,22 @@
 {% from "_res.html" import res_block, reading_block %}
 {% block content %}
 {% set p = page %}
-<section class="hero">
-  {% if p.hero_photo %}<img src="{{ img(fam.slug, p.hero_photo) }}" alt="{{ hero_alt }}">{% endif %}
-  <div class="wrap">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ p.title }}</span></nav>
-    <div class="hero-panel">
-      <div class="eyebrow brass">{{ p.eyebrow }}</div>
-      <h1>{{ p.title }}</h1>
-      <p class="verdict">“{{ p.verdict }}”</p>
-      <div class="chips">{% for c in p.codes %}<span class="chip brass">{{ c }}</span>{% endfor %}</div>
-    </div>
+<section class="hero-stack">
+  <div class="hs-img">
+    {% if p.hero_photo %}<img src="{{ img(fam.slug, p.hero_photo) }}" alt="{{ hero_alt }}"{% if p.hero_focus %} style="object-position:{{ p.hero_focus }}"{% endif %} fetchpriority="high">{% endif %}
+    <div class="wrap hs-top"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ p.title }}</span></nav></div>
+    {% if p.hero_note %}<div class="hero-tag">{{ p.hero_note }}</div>{% endif %}
   </div>
-  {% if p.hero_note %}<div class="hero-tag">{{ p.hero_note }}</div>{% endif %}
+  <div class="hs-band"><div class="wrap">
+    <div class="hero-panel hs-panel">
+      <div class="hs-title">
+        <div class="eyebrow brass">{{ p.eyebrow }}</div>
+        <h1>{{ p.title }}</h1>
+        <div class="chips">{% for c in p.codes %}<span class="chip brass">{{ c }}</span>{% endfor %}</div>
+      </div>
+      <p class="verdict">“{{ p.verdict }}”</p>
+    </div>
+  </div></div>
 </section>
 
 <div class="wrap section">
