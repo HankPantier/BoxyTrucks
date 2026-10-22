@@ -9,8 +9,7 @@
   "PART-TIME 4WD",
   "2 LOCKERS STD FROM 1985"
  ],
- "hero_photo": "high-pasture.jpg",
- "hero_note": "Photo shows a second-generation G-Class, not a W460.",
+ "hero_photo": "w460-alpine-pass.jpg",
  "story": [
   {
    "heading": null,
@@ -619,20 +618,28 @@
  ],
  "photos": [
   {
-   "file": "high-pasture.jpg",
-   "alt": "A second-generation G-Class on rough grass and rocks with hills behind",
-   "caption": "SECOND GEN, NOT THIS TRUCK · HIGH PASTURE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+   "file": "w460-alpine-pass.jpg",
+   "alt": "A two-tone W460 250 GD short-wheelbase parked on gravel above a hairpin road with snowy Alps behind",
+   "caption": "W460 250 GD · ALPINE PASS",
+   "credit": "Alexander Migl · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W460_250_GD_IMG_4625.jpg"
   },
   {
-   "file": "ridgeline.jpg",
-   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "SECOND GEN, NOT THIS TRUCK · RIDGELINE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+   "file": "w460-offroad-park.jpg",
+   "alt": "A beige 1982 W460 300 GD crawling down a rutted dirt track between scrubby banks",
+   "caption": "W460 300 GD · DIRT DESCENT",
+   "credit": "Felix Mühlhäuser · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:W460300GDfrontalOffroadParkBayern.jpg"
+  },
+  {
+   "file": "w460-timmelsjoch.jpg",
+   "alt": "A W460 250 GD beside banks of spring snow at the 2,509 m Timmelsjoch pass",
+   "caption": "W460 250 GD · TIMMELSJOCH SNOWBANKS",
+   "credit": "Alexander Migl · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W460_250_GD_IMG_4666.jpg"
   }
  ],
  "sources": [
@@ -995,5 +1002,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "72% 60%"
 }
