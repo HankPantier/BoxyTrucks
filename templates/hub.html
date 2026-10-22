@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% from "_res.html" import res_block %}
+{% block content %}
+<section class="band-night">
+  <div class="wrap" style="padding-top:64px;padding-bottom:56px;display:flex;flex-direction:column;gap:18px;max-width:var(--wrap)">
+    <span class="eyebrow brass">{{ hub.eyebrow }}</span>
+    <h1 style="font-size:clamp(44px,6vw,88px);line-height:0.95;letter-spacing:-0.03em">{{ hub.title }}</h1>
+    <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark);max-width:720px">{{ hub.lead }}</p>
+  </div>
+</section>
+<div class="wrap section">
+{% if hub.kind == 'repairs' %}
+  {% for grp in hub.groups %}
+  <section style="margin-bottom:56px">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.model }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Full guide →</a></div>
+    <div class="grid" style="--min:300px">{% for r in grp.repairs %}
+      <a class="card" href="{{ grp.href }}#repairs"><div class="body"><h3 style="font-size:21px">{{ r.title }}</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">{{ r.symptoms|striplk|truncate(160) }}</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY {{ r.diff }} · {{ r.time }}</span></div></a>{% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+{% elif hub.kind == 'mods' %}
+  <div class="filters" role="search">
+    <label for="m-q">Search<input id="m-q" type="search" placeholder="Supplier, part or category — OME, sliders, roof rack, air suspension"></label>
+    <label for="m-fam">Make &amp; family<select id="m-fam"><option value="">All families</option>{% for f in fam_list %}<option value="{{ f.slug }}">{{ f.maker }} {{ f.name }}</option>{% endfor %}</select></label>
+    <label for="m-model">Model<select id="m-model"><option value="">All models</option>{% for grp in hub.groups %}<option value="{{ grp.fam }}/{{ grp.gen }}" data-fam="{{ grp.fam }}">{{ grp.model }}</option>{% endfor %}</select></label>
+    <label for="m-sort">Sort<select id="m-sort"><option value="model">By model</option><option value="cat">By category</option><option value="az">Supplier A–Z</option></select></label>
+  </div>
+  <p id="m-count" class="mono" style="font-size:12px;letter-spacing:0.1em;color:var(--stone);margin:0 0 20px" aria-live="polite"></p>
+  <div id="m-grid" class="grid">
+    {% for grp in hub.groups %}{% for m in grp.mods %}
+    <div class="mod" data-fam="{{ grp.fam }}" data-model="{{ grp.fam }}/{{ grp.gen }}" data-order="{{ loop.index0 + grp.order * 100 }}" data-cat="{{ m.cat|lower }}" data-sup="{{ (m.who[0].name if m.who else 'zzz')|lower }}" data-text="{{ (grp.model ~ ' ' ~ grp.maker ~ ' ' ~ m.cat ~ ' ' ~ (m.why|striplk) ~ ' ' ~ (m.who|map(attribute='name')|join(' ')))|lower }}">
+      <a class="mono" href="{{ grp.href }}#mods" style="font-size:11px;letter-spacing:0.14em;color:var(--stone);text-decoration:none">{{ grp.maker|upper }} · {{ grp.model|upper }}</a>
+      <span class="label">{{ m.cat }}</span><span class="why">{{ m.why|lk }}</span>
+      <div class="who">{% for w in m.who %}{% if w.url and w.url != '#' %}<a href="{{ w.url }}" target="_blank" rel="noopener">{{ w.name }} ↗</a>{% else %}<span>{{ w.name }}</span>{% endif %}{% endfor %}</div>
+    </div>
+    {% endfor %}{% endfor %}
+  </div>
+  <p id="m-empty" class="stub-note" hidden>Nothing matches. Try a broader term or clear the filters.</p>
+  <section style="margin-top:72px">
+    <div class="sec-head"><h2>Builders &amp; restomod shops</h2></div>
+    <div class="rows">{% for s in hub.builders %}<a class="row" href="{{ s.url }}" target="_blank" rel="noopener"><span class="t" style="font-size:20px;font-weight:500">{{ s.name }} ↗</span><span class="m">{{ s.what }}</span></a>{% endfor %}</div>
+  </section>
+  <script>
+  (function(){
+    var q=document.getElementById('m-q'), fam=document.getElementById('m-fam'), model=document.getElementById('m-model'), sort=document.getElementById('m-sort');
+    var grid=document.getElementById('m-grid'), cards=[].slice.call(grid.children), count=document.getElementById('m-count'), empty=document.getElementById('m-empty');
+    var params=new URLSearchParams(location.search); if(params.get('model')){model.value=params.get('model'); fam.value=params.get('model').split('/')[0];} if(params.get('q')) q.value=params.get('q');
+    function syncModels(){ [].forEach.call(model.options,function(o){ if(!o.value) return; o.hidden = !!fam.value && o.getAttribute('data-fam')!==fam.value; }); if(model.value && model.selectedOptions[0].hidden) model.value=''; }
+    function apply(){
+      syncModels();
+      var terms=q.value.toLowerCase().split(/\s+/).filter(Boolean), n=0;
+      var key=sort.value;
+      cards.sort(function(a,b){ if(key==='cat') return a.dataset.cat.localeCompare(b.dataset.cat)||(a.dataset.order-b.dataset.order); if(key==='az') return a.dataset.sup.localeCompare(b.dataset.sup); return a.dataset.order-b.dataset.order; });
+      cards.forEach(function(c){
+        var ok=(!fam.value||c.dataset.fam===fam.value)&&(!model.value||c.dataset.model===model.value)&&terms.every(function(t){return c.dataset.text.indexOf(t)>-1;});
+        c.hidden=!ok; if(ok) n++; grid.appendChild(c);
+      });
+      count.textContent=n+' of '+cards.length+' modification categories'; empty.hidden=n>0;
+    }
+    [q,fam,model,sort].forEach(function(el){ el.addEventListener('input',apply); el.addEventListener('change',apply); });
+    apply();
+  })();
+  </script>
+{% elif hub.kind == 'resources' %}
+  <nav class="chips" aria-label="Jump to" style="margin-bottom:40px">{% for grp in hub.groups %}<a class="chip" href="#{{ grp.href.split('/')[2] }}">{{ grp.maker }} {{ grp.name }}</a>{% endfor %}</nav>
+  {% for grp in hub.groups %}
+  <section id="{{ grp.href.split('/')[2] }}" style="margin-bottom:64px;scroll-margin-top:90px">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.name }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Family page →</a></div>
+    {{ res_block(grp.res) }}
+  </section>
+  {% endfor %}
+{% elif hub.kind == 'sale' %}
+  {% for f in fam_list %}
+  <section style="margin-bottom:48px">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ f.maker }}</span><h2>{{ f.name }}</h2></div></div>
+    <div class="table-box"><table style="min-width:600px"><thead><tr><th>GENERATION</th><th>YEARS</th><th>AUTOTEMPEST</th><th>BRING A TRAILER</th></tr></thead><tbody>
+      {% for g in f.generations %}<tr><td><a href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a></td><td class="mono">{{ g.years }}</td><td>{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">Search ↗</a>{% endif %}</td><td>{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td></tr>{% endfor %}
+    </tbody></table></div>
+  </section>
+  {% endfor %}
+{% endif %}
+</div>
+{% endblock %}

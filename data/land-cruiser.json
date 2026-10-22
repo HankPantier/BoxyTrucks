@@ -1,0 +1,1265 @@
+{
+ "family": {
+  "slug": "land-cruiser",
+  "name": "Land Cruiser",
+  "maker": "Toyota",
+  "years": "1951–present",
+  "verdict": "The truck the rest of the world actually depends on — the one that turns up, fully loaded, in places where a breakdown isn't an inconvenience but a plot twist. Seven decades in, Toyota still hasn't figured out how to make it fragile.",
+  "intro": [
+   "It started as a 1951 prototype called the BJ, went into regular production in 1953, and picked up the name Land Cruiser in June 1954 — coined by Toyota's Hanji Umehara. What followed is one of the longest-running nameplates in the business and a lineage that splits, roughly, into two tribes: the utilitarian short- and long-wheelbase workhorses, and the station wagons that slowly learned to carry families in comfort without forgetting how to cross a riverbed.",
+   "The utility line runs from the [[land-cruiser/fj40|FJ40]] — built from 1960 into the mid-1980s and the truck that made the name in America — through the long-wheelbase [[land-cruiser/fj45-fj55|FJ45]] to the [[land-cruiser/70-series|70 Series]], introduced in 1984 and still in production for Africa, Australia, Latin America and the Middle East. The wagon line begins with the FJ55 'Iron Pig' (1967–1980), Toyota's first purpose-built Land Cruiser wagon, then the [[land-cruiser/fj60|60 Series]], the coil-sprung [[land-cruiser/80-series|80 Series]], the V8 [[land-cruiser/100-series|100]] and [[land-cruiser/200-series|200]], and today's [[land-cruiser/300-series|300 Series]].",
+   "America's relationship with the name has been complicated lately. Toyota confirmed in December 2020 that the big wagon would leave North America after 2021, and the 300 Series has never been sold here. The name came back for 2024 on the smaller, Prado-derived [[land-cruiser/250-series|250 Series]] — a hybrid with center and rear lockers standard. For hands-on owners, though, the heart of the family is still the older iron: solid axles, straight-sixes and a parts network that never really closed."
+  ],
+  "hero_photo": "lc80-hillside.jpg",
+  "generations": [
+   {
+    "slug": "fj40",
+    "name": "FJ40",
+    "years": "1960–1984",
+    "codes": [
+     "FJ40",
+     "BJ40"
+    ],
+    "summary": "The two-door, short-wheelbase icon on leaf springs and F/2F straight-sixes — the truck that made the Land Cruiser name in America.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1960&maxyear=1984",
+    "bat_url": "https://bringatrailer.com/toyota/fj40/",
+    "has_page": false
+   },
+   {
+    "slug": "fj45-fj55",
+    "name": "FJ45 / FJ55",
+    "years": "1960–1984 (FJ45) · 1967–1980 (FJ55)",
+    "codes": [
+     "FJ45",
+     "FJ55"
+    ],
+    "summary": "The long-wheelbase 40 Series pickups and wagons, and the FJ55 'Iron Pig' — Toyota's first Land Cruiser designed from the start as a wagon.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1960&maxyear=1984",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj55/",
+    "has_page": false
+   },
+   {
+    "slug": "fj60",
+    "name": "FJ60",
+    "years": "1980–1987",
+    "codes": [
+     "FJ60",
+     "2F 4.2 I6"
+    ],
+    "summary": "The first four-door wagon Land Cruiser for the US: carbureted 2F six, manual gearboxes, round headlights.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1980&maxyear=1987",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj60-fj62/",
+    "has_page": false
+   },
+   {
+    "slug": "fj62",
+    "name": "FJ62",
+    "years": "1988–1990",
+    "codes": [
+     "FJ62",
+     "3F-E 4.0 I6"
+    ],
+    "summary": "The 60 grows up: fuel-injected 3F-E, automatic gearbox, square headlights and the first push upmarket.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1988&maxyear=1990",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj60-fj62/",
+    "has_page": false
+   },
+   {
+    "slug": "70-series",
+    "name": "70 Series",
+    "years": "1984–present",
+    "codes": [
+     "J70",
+     "76",
+     "78",
+     "79"
+    ],
+    "summary": "The heavy-duty workhorse — wagons, troop carriers and pickups — still built for Africa, Australia, Latin America and the Middle East, and back on sale in Japan since 2023.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1984&maxyear=2001",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-70-series/",
+    "has_page": false
+   },
+   {
+    "slug": "80-series",
+    "name": "80 Series",
+    "years": "1990–1997",
+    "codes": [
+     "FJ80",
+     "FZJ80",
+     "HZJ80",
+     "HDJ80"
+    ],
+    "summary": "Coil springs, full-time 4WD, solid axles at both ends and optional triple lockers — for many owners, the last 'real' Land Cruiser.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1991&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj80-fzj80/",
+    "has_page": true
+   },
+   {
+    "slug": "100-series",
+    "name": "100 Series",
+    "years": "1998–2007",
+    "codes": [
+     "UZJ100",
+     "FZJ105",
+     "HZJ105",
+     "HDJ100"
+    ],
+    "summary": "The big wagon goes upmarket: V8 power (and, for the US, independent front suspension) and the basis for the Lexus LX 470.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1998&maxyear=2007",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-100-series/",
+    "has_page": false
+   },
+   {
+    "slug": "200-series",
+    "name": "200 Series",
+    "years": "2007–2021",
+    "codes": [
+     "UZJ200",
+     "VDJ200"
+    ],
+    "summary": "The V8 flagship and the last full-size Land Cruiser wagon sold in North America before Toyota pulled it after 2021.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=2008&maxyear=2021",
+    "bat_url": "https://bringatrailer.com/toyota/200-series-land-cruiser/",
+    "has_page": false
+   },
+   {
+    "slug": "250-series",
+    "name": "250 Series",
+    "years": "2024–present (US)",
+    "codes": [
+     "J250"
+    ],
+    "summary": "The Prado-based 'light-duty' Land Cruiser that brought the name back to the US: TNGA-F platform, 326-hp i-FORCE MAX hybrid, full-time 4WD with center and rear lockers standard.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=2024&maxyear=2026",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-j250/",
+    "has_page": false
+   },
+   {
+    "slug": "300-series",
+    "name": "300 Series",
+    "years": "2021–present",
+    "codes": [
+     "VJA300",
+     "FJA300",
+     "GRJ300"
+    ],
+    "summary": "The current global flagship, unveiled in June 2021 — and not sold in the US or Canada.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=2021&maxyear=2026",
+    "bat_url": "https://bringatrailer.com/toyota/",
+    "has_page": false
+   }
+  ],
+  "forums": [
+   {
+    "name": "IH8MUD — 40- / 55-Series Tech",
+    "url": "https://forum.ih8mud.com/forums/40-55-series-tech.8/",
+    "note": "Restoration and tech for FJ40s, FJ45s and Iron Pigs."
+   },
+   {
+    "name": "IH8MUD — FJ45 Owners Club",
+    "url": "https://forum.ih8mud.com/forums/fj45-owners-club.42/",
+    "note": "Long-wheelbase 40 Series pickups and wagons."
+   },
+   {
+    "name": "IH8MUD — FJ55 Iron Pig Preservation Society",
+    "url": "https://forum.ih8mud.com/forums/fj55-iron-pig-preservation-society.51/",
+    "note": "Everything FJ55."
+   },
+   {
+    "name": "IH8MUD — 60-Series Wagons",
+    "url": "https://forum.ih8mud.com/forums/60-series-wagons.27/",
+    "note": "FJ60/FJ62 tech and restoration."
+   },
+   {
+    "name": "IH8MUD — 70-Series Tech",
+    "url": "https://forum.ih8mud.com/forums/70-series-tech.86/",
+    "note": "Troopies, pickups and 76 wagons — including imports."
+   },
+   {
+    "name": "IH8MUD — 80-Series Tech",
+    "url": "https://forum.ih8mud.com/forums/80-series-tech.9/",
+    "note": "The deepest well of FJ80/FZJ80 knowledge anywhere."
+   },
+   {
+    "name": "IH8MUD — 100-Series Cruisers",
+    "url": "https://forum.ih8mud.com/forums/100-series-cruisers.26/",
+    "note": "100 Series and LX 470 tech."
+   },
+   {
+    "name": "IH8MUD — 200-Series Cruisers",
+    "url": "https://forum.ih8mud.com/forums/200-series-cruisers.136/",
+    "note": "200 Series and LX 570."
+   },
+   {
+    "name": "IH8MUD — Land Cruiser 250",
+    "url": "https://forum.ih8mud.com/forums/gx550-land-cruiser-250.342/",
+    "note": "The new US-market Land Cruiser and its GX 550 cousin."
+   },
+   {
+    "name": "IH8MUD — 300-Series / LC300 / LX600",
+    "url": "https://forum.ih8mud.com/forums/300-series-lc300-lx600-lx700h.393/",
+    "note": "Global-market 300 Series and its Lexus twins."
+   }
+  ],
+  "related_families": [
+   "lexus",
+   "4runner",
+   "g-class",
+   "land-rover",
+   "grenadier"
+  ]
+ },
+ "page": {
+  "slug": "80-series",
+  "title": "Land Cruiser 80 Series",
+  "eyebrow": "TOYOTA LAND CRUISER · J80 · 1990–1997",
+  "verdict": "The 80 is what happens when an engineering team is told to build a family wagon and quietly builds an expedition vehicle instead. Coil springs, solid axles, full-time four-wheel drive and, if you found the right one, three lockers — it is the last Land Cruiser that feels like it was designed by people who own winches.",
+  "codes": [
+   "FJ80",
+   "FZJ80",
+   "1FZ-FE 4.5 I6",
+   "FULL-TIME 4WD",
+   "3 LOCKERS OPTIONAL ('93–'97 US)"
+  ],
+  "hero_photo": "lc80-hillside.jpg",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "Toyota unveiled the 80 Series in October 1989 and put it on sale in early 1990, and it remains the Land Cruiser people argue about at campfires. It was the first Land Cruiser wagon on coil springs at all four corners, the first with full-time four-wheel drive, and — as Hagerty points out — the last with both a straight-six and a solid front axle. Toyota's own heritage team still calls its off-road performance the best any Land Cruiser has ever had, which is a strong claim from a company that also builds the [[land-cruiser/70-series|70 Series]]."
+    ]
+   },
+   {
+    "heading": "BORN TO REPLACE A LEGEND",
+    "paragraphs": [
+     "The 80 replaced the [[land-cruiser/fj60|60 Series]], and Slee Off-Road describes it as the first major wagon redesign since the 60 arrived in 1980. The 60 rode on leaf springs; the 80 threw them out for coils front and rear, stretched the wheelbase to 112.2 inches — a figure Hagerty notes every Land Cruiser has used since — and switched from part-time to full-time four-wheel drive with a lockable center differential for North America and Europe.",
+     "It didn't start with a clean-sheet engine, though. The first US trucks, sold as 1991 and 1992 models under the FJ80 code, carried over the 4.0-liter 3F-E straight-six and A440F automatic from the FJ62. They also had a semi-floating rear axle with drum brakes, no ABS, no airbags and no factory lockers — honest, slightly underpowered trucks that today are the cheapest way into an 80."
+    ]
+   },
+   {
+    "heading": "THE FZJ80 GROWS UP",
+    "paragraphs": [
+     "For 1993 the truck got the engine it deserved: the 4.5-liter, 24-valve, twin-cam 1FZ-FE, rated at 212 hp and 275 lb-ft against the old 3F-E's 155 hp. The code changed to FZJ80, 16-inch wheels arrived, ABS-equipped trucks got a full-floating rear axle with disc brakes and a viscous-coupling center diff, and US buyers could tick the option box for electric front and rear lockers. Combined with the center lock, that made it one of very few showroom SUVs you could buy with all three differentials locked.",
+     "The 1995 update brought the redesigned dash with airbags, the Toyota emblem in place of the TOYOTA lettering across the grille, a new A343F automatic and OBD-II compatibility that was complete by 1996. That's why enthusiasts treat 1994 as a sweet spot: last year of the lettered grille, first years of the big engine and lockers. In 1996 Lexus launched the [[lexus/lx450|LX 450]] on the same body, and 1997 closed the run with the 40th Anniversary and Collector's Edition trucks."
+    ]
+   },
+   {
+    "heading": "WHAT MADE IT SPECIAL",
+    "paragraphs": [
+     "Outside the US, the 80 was a different animal again. Depending on the market it came with the 1HZ 4.2-liter diesel, the 1HD-T turbo-diesel or the later 1HD-FT, and Japan, Africa and Australia kept part-time four-wheel drive as an option. That global spread is why parts and know-how flow so freely between American, Australian and Middle Eastern owners, and why an American owner's fix often comes from an Australian forum thread, or the other way around.",
+     "What hands-on owners love is that it is still a truck they can fix. The front axle is a closed-knuckle design with Birfield CV joints that you can strip, repack and reseal in a driveway; the drivetrain is overbuilt; and the aftermarket — from Old Man Emu and ARB to Slee Off-Road and Metal Tech 4x4 — has spent three decades refining it. One owner quoted in Slee's guide weighed his fully built FZJ80 at 6,640 pounds, split 3,200 front and 3,480 rear. That's a lot of truck, and a pretty even balance."
+    ]
+   },
+   {
+    "heading": "HOW IT ENDED — AND WHY IT'S WORTH SO MUCH NOW",
+    "paragraphs": [
+     "Japanese production ended in 1997, and in January 1998 the [[land-cruiser/100-series|100 Series]] took over with V8 power and, in the US, independent front suspension — more comfortable, less beloved in the dirt. The 100 also became the basis for the Lexus LX 470, the [[lexus/lx450|LX 450]]'s successor. The 80 didn't vanish all at once, though: Wikipedia records the last ones being assembled in Venezuela as late as 2007, a decade after Japan moved on, and the solid-axle, straight-six formula lived on in the [[land-cruiser/70-series|70 Series]].",
+     "For two decades the 80 was simply a cheap, thirsty old wagon. Then prices took off. In the Hagerty story that marked the turn, a 1,005-mile 1994 FZJ80 sold on Bring a Trailer for $141,000, nearly triple Hagerty's top-condition value at the time; the author called it 'the 993 of Land Cruisers.' Ordinary trucks haven't gone that far, but tired FZJ80s near 300,000 miles still change hands for more than $20,000, which says a lot about how few people want to let them go."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · THE TRADE-WAR TWIN",
+   "title": "How tariffs gave Lexus its first SUV",
+   "paragraphs": [
+    "The [[lexus/lx450|Lexus LX 450]] exists partly because of trade politics. In the mid-1990s the US threatened 100 percent tariffs on Japanese luxury cars, but SUVs weren't covered, so Lexus quickly rebadged the 80. Production started in November 1995 and it went on sale in the US in January 1996 as Lexus's first SUV.",
+    "Underneath it is pure FZJ80, the same 1FZ-FE and the same axles, with a plusher interior, softer suspension, body cladding and its own grille. The first allocation sold out, there was a two-month waiting list, and more than 9,000 found buyers in 1997. Today it's the clever-money 80: same truck, different badge, often a lower price."
+   ]
+  },
+  "engineering_intro": "Under the 1990s wagon body is a proper truck: a ladder frame, live axles on coil springs at both ends, and a full-time transfer case with a center differential you can lock. US trucks got the 4.5-liter 1FZ-FE from 1993, and the front axle uses Birfield CV joints inside sealed knuckles, a design owners have been rebuilding in their driveways for thirty years.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame, 112.2 in wheelbase",
+    "note": "Every Land Cruiser wagon since has used the same wheelbase figure."
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Solid axles, coil springs front and rear",
+    "note": "First Land Cruiser wagon on coils; radius arms up front, Panhard rods locate the axles."
+   },
+   {
+    "k": "4WD SYSTEM",
+    "v": "Full-time with center diff",
+    "note": "Open center diff on 1991–92, lockable in 4HI and auto-locked in 4LO; ABS trucks from 1993 add a viscous coupling (HF2AV transfer case)."
+   },
+   {
+    "k": "LOCKERS",
+    "v": "Optional electric front and rear",
+    "note": "Factory option on US trucks from 1993–1997; with the center lock, three lockers total."
+   },
+   {
+    "k": "ENGINE",
+    "v": "1FZ-FE 4.5 L DOHC 24-valve I6",
+    "note": "212 hp @ 4,600 rpm, 275 lb-ft @ 3,200 rpm (US). 1991–92 US trucks: 4.0 L 3F-E, 155 hp."
+   },
+   {
+    "k": "AXLES & BRAKES",
+    "v": "Full-float rear, four-wheel discs (ABS trucks '93+)",
+    "note": "1991–most '92 US trucks: semi-float rear with drums. Front: closed knuckles with Birfield joints."
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1990–1992",
+    "platform": "FJ80",
+    "engine": "3F-E 4.0 L I6 (petrol)",
+    "output": "155 hp",
+    "note": "US 1991–92: A440F auto, semi-float rear with drums, no lockers, no ABS or airbags."
+   },
+   {
+    "years": "1993–1997",
+    "platform": "FZJ80",
+    "engine": "1FZ-FE 4.5 L DOHC 24v I6 (petrol)",
+    "output": "212 hp / 275 lb-ft",
+    "note": "US mainstream. Full-float rear with discs (ABS trucks), optional front and rear lockers."
+   },
+   {
+    "years": "1990s (non-US)",
+    "platform": "FZJ80",
+    "engine": "1FZ-F 4.5 L I6 (carbureted)",
+    "output": "188 hp / 268 lb-ft",
+    "note": "Carbureted version for some export markets."
+   },
+   {
+    "years": "1990–1997",
+    "platform": "HZJ80",
+    "engine": "1HZ 4.2 L I6 diesel",
+    "output": "—",
+    "note": "Naturally aspirated diesel; not sold in the US."
+   },
+   {
+    "years": "1990–1997",
+    "platform": "HDJ80",
+    "engine": "1HD-T / 1HD-FT 4.2 L I6 turbo-diesel",
+    "output": "—",
+    "note": "Direct-injection turbo-diesels; 1HD-FT is the later, improved version. Not sold in the US."
+   },
+   {
+    "years": "1996–1997",
+    "platform": "Lexus LX 450",
+    "engine": "1FZ-FE 4.5 L I6",
+    "output": "215 hp / 275 lb-ft (Lexus rating)",
+    "note": "Rebadged FZJ80 with softer suspension and a plusher cabin."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Pull the knuckle fill plug",
+    "body": "Slee's inspection list says to look for oil and caked grease on the outside of the front knuckles, a sign the inner axle seals failed a long time ago. Remove the square fill plug and sample the grease: if it's runny, diff oil is getting into the knuckle."
+   },
+   {
+    "head": "Look for coolant at the head",
+    "body": "Check the head-to-block joint for antifreeze weeping, ask whether the radiator has been replaced (a possible sign of past overheating), and look for deposits in the overflow bottle. Head gaskets are on every 80 buyer's list of common problems."
+   },
+   {
+    "head": "Rust in the footwells and rear windows",
+    "body": "Get under it and check the front footwells on both sides and the body around the rear windows, especially on trucks from salted-road states."
+   },
+   {
+    "head": "Cracks around the steering box",
+    "body": "The frame around the steering box is a known weak point, more so on trucks that have run 33s or bigger. Look for cracks and ask whether a reinforcement plate has been fitted."
+   },
+   {
+    "head": "Test the lockers properly",
+    "body": "If it has factory lockers, engage them in low range on a loose surface and make sure they actually lock. Actuators that won't engage are a common fault, and an actuator rebuild usually fixes them."
+   },
+   {
+    "head": "Know which year you're looking at",
+    "body": "1991–92 FJ80s have the 4.0 L 3F-E, a semi-float rear with drums and no factory lockers. From 1993 you get the 4.5 L 1FZ-FE, optional lockers and a full-float rear with discs on ABS trucks. The automatic is printed on the driver's-door label (A442F or A343F on later trucks)."
+   },
+   {
+    "head": "Check for accident repairs",
+    "body": "Late 80s had VIN stickers on almost every body panel, so check they're on the doors, hood and tailgate. Look for overspray, weld marks on the inner fenders and core support, filler (use a magnet) and pulling marks on the frame."
+   },
+   {
+    "head": "Look behind the dash",
+    "body": "Built trucks often have a mess of accessory wiring. Pop the panel under the steering column, look for extra leads on the battery positive and check they're fused, and test every light and switch."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Front knuckle / Birfield rebuild",
+    "diff": "3 / 5",
+    "time": "≈ A full weekend for both sides",
+    "cost": "Kit about $125 (Cruiser Outfitters FA9097) plus bearings, grease and labor",
+    "symptoms": "Gear oil and grease caked on the outside of the knuckles, runny grease at the knuckle fill plug, wheel-bearing play or noise, or a seal that started weeping after the last service.",
+    "fix": "Remove the wheel, hang the caliper on wire, then pull the dust cap, snap ring, flange nuts and cone washers (a brass drift loosens the cone washers). Remove the lock nuts with a 54 mm hub socket and pull the hub and rotor. Unbolt the spindle, unplug the ABS sensor gently, then with the wheel straight ahead and the Birfield flats vertical, slide the axle out. Replace the inner axle seal, knuckle bearings and wiper seals, clean the Birfield and repack it and the knuckle with moly grease, then reassemble with new gaskets. IH8MUD's guide sets bearing preload by torquing the inner nut to 43 ft-lb, backing off, then 48 in-lb, with the lock nut at 47 ft-lb, and suggests checking the result with a spring scale.",
+    "tools": "54 mm (2-1/8\") hub socket · torque wrench to 100 ft-lb · brass drift · seal puller and driver · snap-ring pliers · 6–12 lb spring scale · Cruiser Outfitters FA9097 kit (Koyo knuckle bearings, NOK inner axle and hub seals, gaskets, wiper seals) · moly and high-temp grease. Note: drive flanges got thicker after April 1994 (43421-60040 vs. early 43421-60022), so check before you mix parts.",
+    "parts": [
+     {
+      "name": "80 Series knuckle rebuild kit FA9097",
+      "supplier": "CruiserTeq (Cruiser Outfitters)",
+      "url": "https://cruiserteq.com/80-series-knuckle-rebuild-kit-fits-1-1990-1-1998-80-81-series-lx450-land-cruiser-applications-fa9097/"
+     },
+     {
+      "name": "Knuckle rebuild kit (Japanese), FJ80/FZJ80 1990–98",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj80-fzj80-1990-1997"
+     },
+     {
+      "name": "Front hub dust seal, FJ80 1990–97",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/dust-seal-front-hub-80-series"
+     }
+    ]
+   },
+   {
+    "title": "Replace the 'PHH' (pesky heater hose)",
+    "diff": "2 / 5",
+    "time": "≈ 1–2 hours",
+    "cost": "About $20 in generic hose and clamps; bypass kits about $45",
+    "symptoms": "A coolant leak low on the driver's side of the engine, or an original-looking hose clamp on a high-mileage truck. Members warn a failure on the trail can leave you completely stranded, which is why many replace it before it fails.",
+    "fix": "The PHH is a short hose, roughly 3 inches long, low on the block. It joins the hard pipe that runs from the heater valve, behind the EGR, to the block near cylinders 5 and 6, and is easiest to see from the driver's front wheel well. Drain some coolant, work the old hose off, fit the new one with good clamps, refill and bleed. Replace the nearby bypass hose, just above and forward of it, at the same time.",
+    "tools": "Basic hand tools · hose pick · coolant · new hose (owners report using Gates heater hose) and clamps; aftermarket bypass kits are also available.",
+    "parts": [
+     {
+      "name": "Heater hose (1995 Land Cruiser 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,heat+&+air+conditioning,heater+hose,6892"
+     },
+     {
+      "name": "Water bypass hose, FJ62/FJ80 1988–92 (3F-E trucks)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/hose-fj62"
+     },
+     {
+      "name": "Coolant / antifreeze for the top-up (1995 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,cooling+system,coolant+/+antifreeze,11393"
+     }
+    ]
+   },
+   {
+    "title": "Starter contacts and plunger",
+    "diff": "2 / 5",
+    "time": "≈ 2–3 hours",
+    "cost": "Parts plus labor",
+    "symptoms": "Intermittent no-crank: you turn the key and get a click, or nothing, until the third or fourth try.",
+    "fix": "Disconnect the battery. Remove the starter-side front wheel and the rubber splash guard. Unbolt the automatic-transmission dipstick tube (one bolt on the intake manifold, one below the starter), move it aside without disconnecting its hoses, and plug the lower tube so nothing falls into the transmission. Disconnect the two starter leads, remove the two bell-housing bolts and slide the starter out through the wheel arch. Remove the three screws on the contact cover, fit new contacts in the same orientation, and replace the plunger as well since it wears too. Reassemble in reverse.",
+    "tools": "10, 12, 14, 17 and 19 mm spanners · 8 mm for the contact cover · starter contact set and plunger. The intake manifold does not need to come off.",
+    "parts": [
+     {
+      "name": "Starter solenoid repair kit (contacts & plunger), 1995 4.5L",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,electrical,starter+solenoid+repair+kit,4192"
+     },
+     {
+      "name": "Starter motor repair kit, 1995 4.5L",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,electrical,starter+motor+repair+kit,4184"
+     },
+     {
+      "name": "Starter (replacement unit), FJ40–FJ80 1958–92",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/starter-fj60-62-80"
+     }
+    ]
+   },
+   {
+    "title": "Power-steering leak? Check the reservoir first",
+    "diff": "2 / 5",
+    "time": "≈ 1–2 hours",
+    "cost": "Seals from a parts store",
+    "symptoms": "Power-steering fluid weeping around the top of the system. It's often blamed on hoses or the pump, but Unsealed 4X4 says the usual culprit is the rubber seals inside the reservoir.",
+    "fix": "Remove the reservoir, carefully pry open the crimped lip, replace the internal rubber seals and re-crimp the top. Refill with Toyota-spec fluid and bleed by turning lock to lock with the engine running. Only replace hoses or rebuild the pump if the leak comes back.",
+    "tools": "Basic hand tools · small pry tool and crimping pliers · replacement reservoir seals · power-steering fluid.",
+    "parts": [
+     {
+      "name": "Power steering fluid (1995 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,steering,power+steering+fluid,11395"
+     },
+     {
+      "name": "Power steering pump seal kit (1995 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,steering,power+steering+pump+seal+kit,7407"
+     },
+     {
+      "name": "Power steering gear seal kit, FJ80/FZJ80/LX450 1990–97",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/power-steering-gear-seal-kit-fj80-fzj80-lx450-1990-1997"
+     }
+    ]
+   },
+   {
+    "title": "Rear axle seals and bearings (1991–92 semi-float)",
+    "diff": "3 / 5",
+    "time": "≈ Half a day per side",
+    "cost": "One owner was quoted about $1,300 at a shop (seals, shoes, drums, fluid)",
+    "symptoms": "Gear oil soaking the rear drum brake, cracked or contaminated shoes, and grabby rear brakes at low speed.",
+    "fix": "Remove the diff cover, take out the pinion-shaft spacer and the C-clips, and slide the axle shafts out. Pull the old bearing and seal with a slide hammer or puller, seat the new ones with the correct driver, check the shaft for grooving, then refit. Because the shoes are oil-soaked, replace them along with the drum hardware and the wheel cylinder if it's weeping. Do both sides.",
+    "tools": "Slide hammer or bearing puller · seal and bearing drivers · bearing 90365-47013 and seal 90311-47001 (as listed in the IH8MUD thread) · rear shoes and hardware · gear oil. Later full-float trucks use a different hub-and-seal procedure.",
+    "parts": [
+     {
+      "name": "Rear outer axle shaft seal, 1973–92",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/seal-rear-outer-axle-shaft"
+     },
+     {
+      "name": "Rear wheel bearing kit, FJ40–FJ80 9/1973–1/1995",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/rear-wheel-bearing-kit-fj40-fj45-fj55-fj60-fj62-fj80-bj-1975-1997"
+     },
+     {
+      "name": "Rear drum brake shoes, FJ40/45/60/62/FJ80 1981–97",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/drum-brake-shoes-rear"
+     },
+     {
+      "name": "Rear wheel cylinder (1992 Land Cruiser 4.0L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1992,land+cruiser,4.0l+l6,1276657,brake+&+wheel+hub,wheel+cylinder,1952"
+     }
+    ]
+   },
+   {
+    "title": "Diagnose coolant in the oil before tearing down",
+    "diff": "4 / 5",
+    "time": "Testing ≈ 2–3 hours; a head job is far longer",
+    "cost": "Parts plus labor",
+    "symptoms": "Milky oil, a dropping coolant level, coolant weeping where the head meets the block, or a radiator that's already been replaced.",
+    "fix": "Test before you take anything apart. Do a compression test, a leak-down test and a cooling-system pressure test, and use a block tester to check the coolant for exhaust gas. On the 1FZ-FE the oil cooler can also leak coolant into the oil, so pressure-test or replace it before blaming the head gasket. If the head has to come off, have the head and block deck checked for flatness and cracks, and use new head bolts or studs torqued to spec.",
+    "tools": "Compression and leak-down testers · cooling-system pressure tester · combustion-leak (block) tester · if needed, an OEM head gasket set and the service manual.",
+    "parts": [
+     {
+      "name": "Engine gasket set, FZJ80/LX450 1993–97",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/engine-gasket-set-fzj80-lx450-1993-1997"
+     },
+     {
+      "name": "Engine gasket set, FJ62/FJ80 1987–92",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/engine-gasket-set-5"
+     },
+     {
+      "name": "Oil cooler mounting kit (1995 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,engine,oil+cooler+mounting+kit,10227"
+     },
+     {
+      "name": "Cylinder head bolts (1995 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,engine,cylinder+head+bolt,5308"
+     }
+    ]
+   },
+   {
+    "title": "Reinforce the frame at the steering box",
+    "diff": "4 / 5",
+    "time": "≈ A day, with welding",
+    "cost": "Parts plus labor",
+    "symptoms": "Cracks in the frame around the steering-box mounts, a loose-feeling steering box, or wandering steering on a truck with big tires.",
+    "fix": "Clean the frame around the steering box and inspect it closely. Have any cracks stopped and repaired, then weld on a fabricated reinforcement plate, which several 4x4 fabricators sell for the 80. While you're there, check the box mounting bolts and the upper Panhard-rod frame mount.",
+    "tools": "Welder and grinder (or a fab shop) · reinforcement plate · torque wrench.",
+    "parts": [
+     {
+      "name": "Metal elliptical frame scab plate",
+      "supplier": "Metal Tech 4x4",
+      "url": "https://www.metaltech4x4.com/products/metal-elliptical-frame-scab-plate"
+     },
+     {
+      "name": "Power steering gear seal kit, FJ80/FZJ80/LX450 1990–97 (while the box is out)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/power-steering-gear-seal-kit-fj80-fzj80-lx450-1990-1997"
+     }
+    ]
+   },
+   {
+    "title": "Re-set the rear brake proportioning valve after a lift",
+    "diff": "2 / 5",
+    "time": "≈ 1 hour",
+    "cost": "No parts needed",
+    "symptoms": "Weak rear braking or a changed pedal feel after lifting the truck, because the load-sensing proportioning valve (LSPV) now reads the truck as lightly loaded.",
+    "fix": "An owner's measurement in Slee's guide: the LSPV contact point sits 38 mm from the pivot on a rod about 600 mm long, so movement at the rod end is about 1/15.75 of the movement at the valve body. For a 75 mm lift, lower the LSPV body by about 4.8 mm, then fine-tune with the rod-end adjuster (about ±6 mm). Mark the original position before you move anything.",
+    "tools": "Wrenches · ruler or calipers · paint pen to mark the start point.",
+    "parts": [
+     {
+      "name": "80 Series extended brake lines for 3–6\" lifts",
+      "supplier": "Metal Tech 4x4",
+      "url": "https://www.metaltech4x4.com/products/metal-tech-80-series-land-cruiser-extended-brake-lines-for-3-to-6-lifts"
+     },
+     {
+      "name": "DOT 3 brake fluid for the post-adjustment bleed (1995 4.5L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,brake+&+wheel+hub,brake+fluid,11389"
+     }
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "The safe answer from IH8MUD is 285/75R16, about 33 inches, which fits a stock 80 without drama. Owners also report 305/70R16 and 295/75R16 fitting, though wheel width and offset matter as much as the tire size. 35s 'fit, but rub like mad' on a stock truck. Christo Slee's advice is that 35s work with a 2-inch Old Man Emu lift, but you'll probably rub at full flex unless you lower the bump stops. Stock size is 275/70R16.",
+    "src": "IH8MUD · SLEE"
+   },
+   {
+    "q": "FJ80 or FZJ80 — which should I buy?",
+    "a": "For most people, the 1993–1997 FZJ80. Its 4.5 L 1FZ-FE makes 212 hp against the 3F-E's 155, it could be ordered with front and rear lockers, and ABS trucks got a full-float rear with disc brakes. The 1991–92 FJ80 is simpler and cheaper but slower, with a semi-float rear and drum brakes. Collectors like 1994: big engine, lockers, and the last of the TOYOTA-lettered grilles.",
+    "src": "SLEE · HAGERTY"
+   },
+   {
+    "q": "Did it come with lockers?",
+    "a": "Factory electric front and rear lockers were an option on US trucks from 1993 to 1997; 1991–92 trucks didn't offer them. Every 80 has a center differential that can be locked. Retrofitting factory lockers means welding, the locker ECU, harnesses and new axle shafts, so Slee says ARB Air Lockers are usually the cheaper route.",
+    "src": "SLEE · IH8MUD"
+   },
+   {
+    "q": "Can I lock the center diff in high range on a 1993–97?",
+    "a": "The center diff lock switch was standard on 1991–92 trucks and dropped in 1993, but the wiring stayed in the harness. Slee says adding the switch lets you lock the center diff in 4HI again.",
+    "src": "SLEE"
+   },
+   {
+    "q": "How much can it tow?",
+    "a": "Kelley Blue Book lists a 5,000 lb maximum for the 1997 model. IH8MUD members quoting the owner's manual cite 3,000 lb normally and 5,000 lb with the tow package. Don't tow from the four bolt holes in the rear crossmember: Slee notes they aren't rated for towing in the US, so use a frame-mounted receiver.",
+    "src": "KBB · IH8MUD · SLEE"
+   },
+   {
+    "q": "What fuel economy should I expect?",
+    "a": "Not much. KBB lists the 1997 at 12 mpg city and 14 highway (13 combined) on a 25.1-gallon tank. Bigger tires, armor and a roof rack only make it worse.",
+    "src": "KBB"
+   },
+   {
+    "q": "Should I re-gear for bigger tires?",
+    "a": "1FZ-FE trucks came with 4.11 gears on stock 275/70R16 tires. Slee says to drop to 4.56, 4.88 or 5.29 if you go up in tire size, and suggests driving a truck with the setup you're considering first. Slee's own 4-inch, 35-inch-tire build uses 4.88s with ARB lockers.",
+    "src": "SLEE"
+   },
+   {
+    "q": "What are the lift options?",
+    "a": "The classic choice is an Old Man Emu kit of about 2 inches. Slee's own 4-inch kit, with coils, machined radius arms and an adjustable Panhard bar, is designed for up to 35-inch tires. Bigger lifts usually need extended brake lines (Metal Tech sells them for 3–6 inch lifts), adjustable rear links, and a proportioning-valve reset.",
+    "src": "SLEE · OFF-ROAD.COM · METAL TECH"
+   },
+   {
+    "q": "What fluids and capacities does it take?",
+    "a": "Rough Trax 4x4's FZJ80 data lists 7.4 L of engine oil with the filter, 13 L of coolant, 1.4 L in the transfer case, 2.7–2.8 L in the front diff, about 3.0–3.25 L in the rear diff, and 6.0 L for an automatic drain-and-fill. Check against your service manual, since figures vary by market and equipment.",
+    "src": "ROUGH TRAX 4X4"
+   },
+   {
+    "q": "Is it reliable? What actually breaks?",
+    "a": "It's a tough truck, but now it's a 30-year-old one. The usual list: head gaskets on the 1FZ-FE, leaking knuckle seals, wheel bearings, frame cracks around the steering box, worn starter contacts, the 'pesky heater hose,' power-steering leaks, power windows, fraying seat belts and cracked dashes. Pre-1993 brakes are notably weaker.",
+    "src": "FLEXMOTOR · SLEE · UNSEALED 4X4"
+   },
+   {
+    "q": "Is a Lexus LX 450 the same truck?",
+    "a": "Mechanically, yes. The [[lexus/lx450|LX 450]] (1996–97 US) is an FZJ80 with softer suspension, a plusher cabin, body cladding and its own grille and wheels, with the same 1FZ-FE engine.",
+    "src": "WIKIPEDIA · SLEE"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "A 2–3 inch lift with fresh coils and shocks restores ride height lost to sag and armor, and clears 33s. Bigger lifts need correction parts such as adjustable links and longer brake lines.",
+    "who": [
+     {
+      "name": "Old Man Emu (ARB)",
+      "url": "https://www.oldmanemu.com/en-us"
+     },
+     {
+      "name": "Slee Off-Road",
+      "url": "https://sleeoffroad.com/product-category/suspension/suspension-kits"
+     },
+     {
+      "name": "Metal Tech 4x4 — 80 Series rear links",
+      "url": "https://www.metaltech4x4.com/products/metal-tech-4x4-80-series-land-cruiser-lx450-rear-link-bundle-upper-and-lower-adjustable-links"
+     }
+    ]
+   },
+   {
+    "cat": "LOCKERS",
+    "why": "Only some 1993–97 trucks got factory lockers. Air lockers are the usual way to add selectable lockers to an open-diff truck, and are cheaper than retrofitting the factory ones.",
+    "who": [
+     {
+      "name": "ARB Air Locker",
+      "url": "https://arbusa.com/air-locker"
+     }
+    ]
+   },
+   {
+    "cat": "ARMOR: SLIDERS & BUMPERS",
+    "why": "The factory running boards dent on the first rock, and the long rear overhang drags. Sliders, a winch bumper and a swing-out rear bumper are the standard build.",
+    "who": [
+     {
+      "name": "Slee Off-Road — sliders",
+      "url": "https://sleeoffroad.com/product-category/body-armor/sliders"
+     },
+     {
+      "name": "Slee Off-Road — front bumpers",
+      "url": "https://sleeoffroad.com/product-category/body-armor/front-bumpers/"
+     },
+     {
+      "name": "Metal Tech 4x4",
+      "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-toyota-landcruiser"
+     }
+    ]
+   },
+   {
+    "cat": "SNORKEL",
+    "why": "The stock intake is in the passenger front fender. A snorkel moves it to the roofline for water crossings and dust.",
+    "who": [
+     {
+      "name": "Slee Off-Road — snorkels",
+      "url": "https://sleeoffroad.com/product-category/drivetrain/snorkels"
+     }
+    ]
+   },
+   {
+    "cat": "STORAGE & SLEEPING",
+    "why": "Many owners pull the third row and fit drawers with a fridge slide. Add a bed extension and Slee's guide says you get a flat bed of roughly 180 × 145 cm.",
+    "who": [
+     {
+      "name": "Slee Off-Road — drawer systems",
+      "url": "https://sleeoffroad.com/product-category/cargo-carrying/drawer-systems"
+     }
+    ]
+   },
+   {
+    "cat": "OEM & REBUILD PARTS",
+    "why": "Knuckle kits, seals, bearings, steering and driveline parts in OEM or OEM-supplier quality, which is what keeps a 30-year-old 80 on the trail.",
+    "who": [
+     {
+      "name": "Cruiser Outfitters (CruiserTeq)",
+      "url": "https://cruiserteq.com/80-series-lx450/"
+     },
+     {
+      "name": "Cruiser Corps",
+      "url": "https://cruisercorps.com/collections/80-series-shop-all"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1991–1992 · US",
+    "label": "FJ80 (3F-E)",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1991&maxyear=1992",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj80-fzj80/"
+   },
+   {
+    "years": "1993–1997 · US",
+    "label": "FZJ80 (1FZ-FE)",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1993&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj80-fzj80/"
+   },
+   {
+    "years": "1996–1997 · US",
+    "label": "Lexus LX 450 (80 twin)",
+    "at_url": "https://www.autotempest.com/results?make=lexus&model=lx450&minyear=1996&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/lexus/lx450/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "IG",
+    "name": "@blackhillsbuilds",
+    "focus": "80 SERIES BUILDS",
+    "url": "https://www.instagram.com/blackhillsbuilds/"
+   }
+  ],
+  "forums": [
+   {
+    "name": "IH8MUD — 80-Series Tech",
+    "url": "https://forum.ih8mud.com/forums/80-series-tech.9/",
+    "note": "The main 80 Series forum: DIY threads, part numbers and decades of archived fixes."
+   },
+   {
+    "name": "IH8MUD — Tire and Wheel Tech",
+    "url": "https://forum.ih8mud.com/forums/tire-and-wheel-tech.28/",
+    "note": "Fitment arguments, settled and unsettled."
+   },
+   {
+    "name": "IH8MUD — Expedition Builds",
+    "url": "https://forum.ih8mud.com/forums/expedition-builds.135/",
+    "note": "Long-range build threads, many on 80s."
+   },
+   {
+    "name": "Aus80 (Tapatalk)",
+    "url": "https://www.tapatalk.com/groups/aus80/",
+    "note": "Australian 80 Series community, strong on diesels (1HZ/1HD) and touring."
+   }
+  ],
+  "related": [
+   {
+    "rel": "PREDECESSOR",
+    "name": "60 Series (FJ60 / FJ62)",
+    "family": "land-cruiser",
+    "gen": "fj62"
+   },
+   {
+    "rel": "SUCCESSOR",
+    "name": "100 Series",
+    "family": "land-cruiser",
+    "gen": "100-series"
+   },
+   {
+    "rel": "LEXUS TWIN",
+    "name": "LX 450",
+    "family": "lexus",
+    "gen": "lx450"
+   },
+   {
+    "rel": "WORKHORSE SIBLING",
+    "name": "70 Series",
+    "family": "land-cruiser",
+    "gen": "70-series"
+   }
+  ],
+  "plate": [
+   {
+    "k": "CHASSIS",
+    "v": "J80 (FJ80 / FZJ80 / HZJ80 / HDJ80)"
+   },
+   {
+    "k": "PRODUCTION",
+    "v": "1990–1997 (Japan)"
+   },
+   {
+    "k": "US MODEL YEARS",
+    "v": "1991–1997"
+   },
+   {
+    "k": "ENGINE (US '93–'97)",
+    "v": "1FZ-FE 4,477 cc DOHC 24v I6"
+   },
+   {
+    "k": "OUTPUT",
+    "v": "212 hp @ 4,600 · 275 lb-ft @ 3,200"
+   },
+   {
+    "k": "TRANSMISSION (US)",
+    "v": "4-spd auto (A440F / A442F / A343F)"
+   },
+   {
+    "k": "DRIVE",
+    "v": "Full-time 4WD, lockable center diff"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "112.2 in"
+   },
+   {
+    "k": "LENGTH",
+    "v": "189.8 in ('97)"
+   },
+   {
+    "k": "CURB WEIGHT",
+    "v": "4,751 lb ('97)"
+   },
+   {
+    "k": "GROUND CLEARANCE",
+    "v": "10.8 in"
+   },
+   {
+    "k": "TOWING",
+    "v": "5,000 lb"
+   }
+  ],
+  "photos": [
+   {
+    "file": "lc80-hillside.jpg",
+    "alt": "A pre-1995 Toyota Land Cruiser 80 Series with TOYOTA grille lettering, a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
+    "caption": "80 SERIES · HIGH COUNTRY",
+    "credit": "Darina Rodionova",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   },
+   {
+    "file": "lc70-troopy-desert.jpg",
+    "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
+    "caption": "70 SERIES TROOPIES · DESERT (DIFFERENT GENERATION)",
+    "credit": "Kristina",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+   },
+   {
+    "file": "lc200-dune-sunset.jpg",
+    "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
+    "caption": "200 SERIES · DUNES (DIFFERENT GENERATION)",
+    "credit": "Caspian Dahlström",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Toyota Land Cruiser",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+   },
+   {
+    "name": "Wikipedia — Lexus LX",
+    "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+   },
+   {
+    "name": "Wikipedia — Toyota FZ engine",
+    "url": "https://en.wikipedia.org/wiki/Toyota_FZ_engine"
+   },
+   {
+    "name": "Hagerty — This could be the fuse that lights off the FJ80 market",
+    "url": "https://www.hagerty.com/media/?p=154421"
+   },
+   {
+    "name": "Hagerty — Your handy 1967–80 Toyota FJ55 buyer's guide",
+    "url": "https://hagerty.com/media/?p=158314"
+   },
+   {
+    "name": "Slee Off-Road — 80 Series Newbie Guide",
+    "url": "https://sleeoffroad.com/tech-zone/80-series-newbie-guide/"
+   },
+   {
+    "name": "Off-Road.com — Shop Build: Slee Off-Road Toyota 80 Series Land Cruiser",
+    "url": "https://www.off-road.com/trucks-4x4/project/shop-build-slee-offroad-toyota-80-series-land-cruiser-53486.html"
+   },
+   {
+    "name": "Toyota Gazoo Racing — GR Heritage: Land Cruiser 80",
+    "url": "https://toyotagazooracing.com/gr/heritage/landcruiser80/"
+   },
+   {
+    "name": "Unsealed 4X4 — Toyota LandCruiser 80 Series: common problems & solutions",
+    "url": "https://unsealed4x4.com.au/toyota-landcruiser-80-series-common-problems-solutions/"
+   },
+   {
+    "name": "Flexmotor — How to buy an 80 Series LandCruiser",
+    "url": "https://flexmotor.com/landcruiser-80/landcruiser-80-articles/how-to-buy-80-series-landcruiser"
+   },
+   {
+    "name": "IH8MUD — Birf repack (tech article)",
+    "url": "https://www.ih8mud.com/tech/birf-repack.php"
+   },
+   {
+    "name": "Cruiser Outfitters / CruiserTeq — 80 Series knuckle rebuild kit FA9097",
+    "url": "https://cruiserteq.com/80-series-knuckle-rebuild-kit-fits-1-1990-1-1998-80-81-series-lx450-land-cruiser-applications-fa9097/"
+   },
+   {
+    "name": "IH8MUD — Pesky heater hose",
+    "url": "https://forum.ih8mud.com/threads/pesky-heater-hose.792227"
+   },
+   {
+    "name": "IH8MUD — Starter motor contacts changed today",
+    "url": "https://forum.ih8mud.com/80-series-tech/44393-starter-motor-contacts-changed-today.html"
+   },
+   {
+    "name": "IH8MUD — Coolant in oil",
+    "url": "https://forum.ih8mud.com/threads/coolant-in-oil.1359465"
+   },
+   {
+    "name": "IH8MUD — Rear axle seal crisis / brake issue",
+    "url": "https://forum.ih8mud.com/threads/rear-axle-seal-crisis-brake-issue-how-do-i-fix.1382796/"
+   },
+   {
+    "name": "IH8MUD — 80 series axle rebuild problems",
+    "url": "https://forum.ih8mud.com/threads/80-series-axle-rebuild-problems.1382529/"
+   },
+   {
+    "name": "IH8MUD — Biggest tire size",
+    "url": "https://forum.ih8mud.com/threads/biggest-tire-size.95256"
+   },
+   {
+    "name": "IH8MUD — Stock 94 FJ80. Biggest tire?",
+    "url": "https://forum.ih8mud.com/threads/stock-94-fj80-biggest-tire.691459/"
+   },
+   {
+    "name": "IH8MUD — Towing capacity?",
+    "url": "https://forum.ih8mud.com/threads/towing-capacity.73675"
+   },
+   {
+    "name": "IH8MUD — FZJ 80 info",
+    "url": "https://forum.ih8mud.com/threads/fzj-80-info.604676"
+   },
+   {
+    "name": "Kelley Blue Book — 1997 Toyota Land Cruiser specs",
+    "url": "https://www.kbb.com/toyota/land-cruiser/1997/specs"
+   },
+   {
+    "name": "Rough Trax 4x4 — Land Cruiser FZJ80 1992–1998 vehicle specifications",
+    "url": "https://roughtrax4x4.com/blog/land-cruiser-fzj80-1992-1998-vehicle-specifications"
+   },
+   {
+    "name": "The Classic Valuer — Toyota Land Cruiser FZJ80",
+    "url": "https://www.theclassicvaluer.com/buyers-guide/toyota/land-cruiser-fzj80"
+   },
+   {
+    "name": "Toyota Pressroom — The Evolution of a Legend: The All-New 2024 Land Cruiser",
+    "url": "https://pressroom.toyota.com/?p=91892"
+   },
+   {
+    "name": "Truck Encyclopedia — Toyota FJ45",
+    "url": "https://truck-encyclopedia.com/coldwar/japan/Toyota-land-cruiser-J45.php"
+   },
+   {
+    "name": "Metal Tech 4x4 — 80 Series extended brake lines (3–6\" lifts)",
+    "url": "https://www.metaltech4x4.com/products/metal-tech-80-series-land-cruiser-extended-brake-lines-for-3-to-6-lifts"
+   },
+   {
+    "name": "IH8MUD — Service specifications & lubricants, Land Cruiser FJ/FZJ/HZJ/HDJ80 (from Toyota publications)",
+    "url": "https://forum.ih8mud.com/threads/service-specifications-lubricants-toyota-land-cruiser-fj-fzj-hzj-hdj-80.50281/"
+   },
+   {
+    "name": "IH8MUD — Transfer case capacity (1997 owner's manual figures)",
+    "url": "https://forum.ih8mud.com/threads/transfer-case.267857"
+   },
+   {
+    "name": "IH8MUD — Front differential oil capacity",
+    "url": "https://forum.ih8mud.com/threads/front-differential-oil-capacity.1110083/"
+   },
+   {
+    "name": "Timmy the Toolman — FZJ80 drivetrain fluid maintenance (torques & OEM part numbers)",
+    "url": "https://timmythetoolman.com/video/toyota-fzj80-land-cruiser-drivetrain-fluid-maintenance/"
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing was done: an 80 is now 30-plus years old, and IH8MUD's factory-sourced lubricant table plus Slee's buyer checklist make the knuckles, the 'PHH' and the diff/transfer oils the priorities. Specs below are from Toyota service publications as compiled on IH8MUD; US trucks are the 1991–92 FJ80 (3F-E) and 1993–97 FZJ80 (1FZ-FE).",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "1FZ-FE: API SH grade, 7.4 L (≈7.8 qt) with filter · 3F-E: 7.8 L (≈8.2 qt) with filter",
+     "interval": "Baseline now; then per your owner's-manual schedule",
+     "note": "Timmy the Toolman's FZJ80 service uses Toyota filter 90915-YZZD3 and drain-plug washer 90430-12031, with the drain plug at 20 ft-lb.",
+     "parts": [
+      {
+       "name": "Oil filter, OEM (FJ40/45/55/60/62/FJ80 1969–96)",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/oil-filter-oem-1"
+      },
+      {
+       "name": "Engine oil (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,engine,oil,12138"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "Paper panel element",
+     "interval": "Baseline now; check at every oil change on dusty trails",
+     "note": "Cheap insurance on a truck with unknown history — a dirty element is one of the 'owner neglect' signs Slee tells buyers to look for.",
+     "parts": [
+      {
+       "name": "Air filter, FJ40/45/55/60/62/FJ80 1969–98",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/air-filter-3-69-12-74-8-87-1-98"
+      },
+      {
+       "name": "Air filter (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,fuel+&+air,air+filter,6192"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs, cap, rotor & wires",
+     "spec": "FZJ80: Denso/OEM plugs · FJ80: NGK · gap [CONFIRM IN MANUAL]",
+     "interval": "Baseline now if no records",
+     "note": "Both engines are distributor-fired, so do cap, rotor and plug wires at the same time.",
+     "parts": [
+      {
+       "name": "Denso / OEM spark plugs, FZJ80/LX450 1993–97",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/denso-oem-spark-plugs-fzj80-lx450-1993-1997"
+      },
+      {
+       "name": "NGK spark plugs, FJ40/45/55/60/62/FJ80 1958–92",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/ngk-spark-plugs"
+      },
+      {
+       "name": "Spark plug wire set, FZJ80/LX450 9/1992–97",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/spark-plug-wire-set-fzj80-lx450-1993-1997"
+      },
+      {
+       "name": "Distributor cap, FJ40–FJ80 1980–92",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/distributor-cap-1980-1992"
+      }
+     ]
+    },
+    {
+     "item": "Coolant & thermostat",
+     "spec": "Ethylene-glycol Toyota coolant · FZJ80 13.4 L / FJ80 19.5 L (with front & rear heaters)",
+     "interval": "Baseline flush now",
+     "note": "Timmy the Toolman refills with Toyota Red and lists thermostat 90916-03117 and gasket 16346-66020 for the FZJ80. Slee says to check the overflow bottle for deposits and look for a replaced radiator as overheating clues. Inspect the PHH while it's drained.",
+     "parts": [
+      {
+       "name": "Coolant / antifreeze (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,cooling+system,coolant+/+antifreeze,11393"
+      },
+      {
+       "name": "Thermostat gasket, FZJ80/LX450 8/1992–97",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/thermostat-gasket-80-series-fzj80-lx450-8-1992-12-1997"
+      },
+      {
+       "name": "Thermostat, OEM/Aisin (F/2F/3F, 1958–92)",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/thermostat-fj40-fj45-fj55-fj60-fj62-fj80-1958-1992"
+      }
+     ]
+    },
+    {
+     "item": "Automatic transmission fluid",
+     "spec": "ATF Dexron II spec (Dexron III / Valvoline MaxLife used as backward-compatible substitutes) · FJ80: ≈6 L drain-and-refill, 15.4 L dry",
+     "interval": "Baseline now with 2–3 drain-and-fills or a cooler-line exchange",
+     "note": "A pan drain only replaces a fraction of the fluid. FZJ80 drain-and-refill quantity [CONFIRM IN MANUAL]; Timmy the Toolman buys three gallons for a full cooler-line flush and torques the drain plug (gasket 12157-10010) to 20 ft-lb. Avoid a pressure-machine flush on a high-mileage unit with unknown history.",
+     "parts": [
+      {
+       "name": "Automatic transmission fluid & filters (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,transmission-automatic"
+      }
+     ]
+    },
+    {
+     "item": "Transfer case (center diff)",
+     "spec": "API GL-4/GL-5 SAE 75W-90 · 1.7 L (HF2AV) / 1.3 L (HF2A)",
+     "interval": "Baseline now",
+     "note": "The fill plug is the 24 mm plug at about 8 o'clock looking from the rear (IH8MUD). Drain/fill plugs 27 ft-lb, gasket 90430-18008 (Timmy the Toolman).",
+     "parts": [
+      {
+       "name": "Transfer case fluid (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,drivetrain,transfer+case+fluid,14226"
+      },
+      {
+       "name": "75W-90 gear oil (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,drivetrain,gear+oil,11394"
+      }
+     ]
+    },
+    {
+     "item": "Front differential",
+     "spec": "API GL-5 hypoid 80W-90 · 2.8 L listed — fill to the bottom of the fill hole",
+     "interval": "Baseline now; with ARB Air Lockers Slee's guide suggests about every 20,000 km",
+     "note": "Owners on IH8MUD report a locking front diff drains close to 4 qt and takes about 3.75 qt, more than the book figure, so buy extra. Drain/fill plugs 36 ft-lb (Timmy the Toolman). Milky or very high oil can mean water or knuckle-seal trouble.",
+     "parts": [
+      {
+       "name": "80W-90 GL-5 gear oil (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,drivetrain,gear+oil,11394"
+      },
+      {
+       "name": "Differential fill / drain plug (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,drivetrain,differential+fill+/+drain+plug,12285"
+      }
+     ]
+    },
+    {
+     "item": "Rear differential",
+     "spec": "API GL-5 hypoid 80W-90 · 3.25 L (FZJ80); FJ80 table lists 2.8 L · LSD oil if limited-slip",
+     "interval": "Baseline now",
+     "note": "Factory-locker trucks: if the locker won't engage, Slee's guide points to an actuator rebuild rather than the diff itself. Semi-float 1991–92 axles leak gear oil onto the brakes when the outer seals go.",
+     "parts": [
+      {
+       "name": "80W-90 GL-5 gear oil (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,drivetrain,gear+oil,11394"
+      }
+     ]
+    },
+    {
+     "item": "Front knuckles / Birfields",
+     "spec": "Molybdenum-disulfide lithium-base grease, NLGI-2",
+     "interval": "Check now; repack whenever the inner axle seals are replaced",
+     "note": "Slee's check: pull the square knuckle fill plug and sample the grease. Runny grease means diff oil is getting past the inner axle seal, and caked grease outside the knuckle means the seals failed long ago — plan a full knuckle rebuild.",
+     "parts": [
+      {
+       "name": "80 Series knuckle rebuild kit FA9097",
+       "supplier": "CruiserTeq (Cruiser Outfitters)",
+       "url": "https://cruiserteq.com/80-series-knuckle-rebuild-kit-fits-1-1990-1-1998-80-81-series-lx450-land-cruiser-applications-fa9097/"
+      },
+      {
+       "name": "Knuckle rebuild kit (Japanese), FJ80/FZJ80 1990–98",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj80-fzj80-1990-1997"
+      }
+     ]
+    },
+    {
+     "item": "Power steering",
+     "spec": "ATF Dexron II · 0.75 L total (FJ80 table)",
+     "interval": "Baseline flush now",
+     "note": "If it's weeping at the top, Unsealed 4X4 says the reservoir's internal seals are the usual culprit before hoses or the pump.",
+     "parts": [
+      {
+       "name": "Power steering fluid (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,steering,power+steering+fluid,11395"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid",
+     "spec": "DOT 3 (SAE J1703 / FMVSS 116)",
+     "interval": "Baseline flush now",
+     "note": "Re-check the rear LSPV setting if the truck has been lifted (see the repair above).",
+     "parts": [
+      {
+       "name": "Brake fluid (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,brake+&+wheel+hub,brake+fluid,11389"
+      }
+     ]
+    },
+    {
+     "item": "Driveshafts & U-joints",
+     "spec": "Lithium-base multipurpose grease, NLGI-2",
+     "interval": "Grease now and at every oil change",
+     "note": "Grease the U-joints and slip yokes and check them for play.",
+     "parts": [
+      {
+       "name": "Front driveshaft universal joint, FJ80/FZJ80/LX 1991–2021",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/u-joint"
+      },
+      {
+       "name": "Universal joint (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,drivetrain,universal+joint,2392"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter",
+     "spec": "Toyota canister filter",
+     "interval": "Replace now if there's no record of it",
+     "note": "Different filters for 1991–92 FJ80 and 1993–97 FZJ80.",
+     "parts": [
+      {
+       "name": "Fuel filter, OEM, FZJ80/LX450 1993–97",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/fuel-filter-oem-fj80-fzj80-lx450-1993-1997"
+      },
+      {
+       "name": "Fuel filter, reproduction, FJ80 1991–92",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/fuel-filter-reproduction-80-series-fj80-1991-1992"
+      }
+     ]
+    },
+    {
+     "item": "Belts, hoses & the PHH",
+     "spec": "Accessory belts and coolant hoses · the 1FZ-FE uses a timing chain, not a belt",
+     "interval": "Inspect now; replace anything original",
+     "note": "Replace the PHH and the bypass hose next to it while you're there; IH8MUD notes the OEM replacement (99556-30100) is just cut-to-fit 16 mm heater hose, so use the best hose you can find.",
+     "parts": [
+      {
+       "name": "Heater hose (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,heat+&+air+conditioning,heater+hose,6892"
+      },
+      {
+       "name": "Accessory belt (1995 4.5L)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,belt+drive,belt,8900"
+      },
+      {
+       "name": "Alternator / water pump belt, FJ62/FJ80 1987–92",
+       "supplier": "Cruiser Corps",
+       "url": "https://www.cruisercorps.com/products/alternator-water-pump-crank-belt"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero" style="min-height:560px">
+  <img src="{{ root }}img/home/series-dune.jpg" alt="A vintage Land Rover Series on a desert dune at sunset">
+  <div class="wrap">
+    <div></div>
+    <div class="hero-panel">
+      <div class="eyebrow brass">Show us your rig</div>
+      <h1 style="font-size:clamp(40px,5.4vw,76px);line-height:1;letter-spacing:-0.02em">Built something square? We want to see it.</h1>
+      <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">Send us your truck, the build list and the best photos you have of it doing what it was made for. The good ones become Featured Builds on the home page and their model pages — always credited to you.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section">
+  <div class="split">
+    <div class="main" style="gap:40px">
+      <form id="rig-form" class="rig-form" action="https://formsubmit.co/{{ submit_email }}" method="POST" enctype="multipart/form-data" novalidate>
+        <input type="hidden" name="_subject" id="f-subject" value="New rig submission — BoxyTrucks">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="{{ site_url }}submit/thanks.html">
+        <input type="hidden" name="_replyto" id="f-replyto" value="">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <div id="photo-slots" hidden>{% for i in range(1, 11) %}<input type="file" name="photo_{{ i }}">{% endfor %}</div>
+        <fieldset>
+          <legend><span class="no">01</span>You</legend>
+          <div class="fields">
+            <label for="f-name">Name<input id="f-name" name="name" required autocomplete="name"></label>
+            <label for="f-email">Email<input id="f-email" name="email" type="email" required autocomplete="email"><small>Only used to contact you about a feature. Never shown.</small></label>
+            <label for="f-loc">Where you’re based<input id="f-loc" name="location" placeholder="Travelers Rest, SC"></label>
+            <label for="f-ig">Instagram<input id="f-ig" name="instagram" placeholder="@yourhandle"></label>
+            <label for="f-yt">YouTube<input id="f-yt" name="youtube" placeholder="@yourchannel"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="no">02</span>The truck</legend>
+          <div class="fields">
+            <label for="f-family">Family
+              <select id="f-family" name="family" required>
+                <option value="">Choose one</option>
+                {% for f in fam_list %}<option value="{{ f.slug }}">{{ f.maker }} {{ f.name }}</option>{% endfor %}
+                <option value="other">Something else boxy</option>
+              </select>
+            </label>
+            <label for="f-gen">Generation / model
+              <select id="f-gen" name="generation"><option value="">Choose a family first</option></select>
+            </label>
+            <label for="f-year">Year<input id="f-year" name="year" inputmode="numeric" placeholder="1997"></label>
+            <label for="f-nick">Does it have a name?<input id="f-nick" name="nickname" placeholder="The Biscuit"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="no">03</span>The build list</legend>
+          <div class="fields">
+            <label for="f-eng">Engine &amp; drivetrain<input id="f-eng" name="drivetrain" placeholder="1FZ-FE, factory lockers, 4.88 gears"></label>
+            <label for="f-susp">Suspension &amp; lift<input id="f-susp" name="suspension" placeholder="OME 2.5in, Bilstein 5100s"></label>
+            <label for="f-tires">Wheels &amp; tires<input id="f-tires" name="tires" placeholder="285/75R16 BFG KO2 on steelies"></label>
+            <label for="f-armor">Armor &amp; bumpers<input id="f-armor" name="armor" placeholder="Slee sliders, ARB front bumper"></label>
+            <label for="f-rack">Racks, storage &amp; sleeping<input id="f-rack" name="storage" placeholder="Front Runner rack, drawer system, RTT"></label>
+            <label for="f-shops">Shops or builders who worked on it<input id="f-shops" name="builders" placeholder="Who should get the credit?"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="no">04</span>The story</legend>
+          <div class="fields one">
+            <label for="f-story">How you found it, what you changed, where it’s been<textarea id="f-story" name="story" rows="7" required></textarea></label>
+            <label for="f-trip">Best trip or trail so far<input id="f-trip" name="best_trip" placeholder="White Rim, Moab — October 2025"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="no">05</span>Photos</legend>
+          <label for="f-photos" class="drop" id="drop">
+            <input id="f-photos" type="file" accept="image/jpeg,image/png,image/heic,image/webp" multiple>
+            <span class="label">Drop photos here or choose files</span>
+            <span class="serif">3 to 10 photos · JPG, PNG, HEIC or WebP · full resolution if you have it</span>
+          </label>
+          <div id="previews" class="previews" aria-live="polite"></div>
+          <div class="fields one" style="margin-top:18px"><label for="f-link">Link to full-resolution photos (optional)<input id="f-link" name="full_res_photo_link" type="url" placeholder="Google Drive, Dropbox or iCloud share link"><small>We resize photos so they fit in one email. If you want them featured big, share the originals here.</small></label></div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="no">06</span>The fine print</legend>
+          <div class="checks-list">
+            <label for="f-own"><input id="f-own" name="owns_photos" value="Yes" type="checkbox" required> I took these photos, or I have the photographer’s permission to share them.</label>
+            <label for="f-use"><input id="f-use" name="usage_ok" value="Yes" type="checkbox" required> BoxyTrucks may publish my truck, story and photos on the site and its social accounts, credited to me.</label>
+            <label for="f-contact"><input id="f-contact" name="contact_ok" value="Yes" type="checkbox"> You can contact me about a longer Featured Build interview.</label>
+          </div>
+        </fieldset>
+
+        <div id="form-error" class="form-error" hidden></div>
+        <button id="send" class="btn solid" type="submit" style="align-self:flex-start;cursor:pointer">Send my rig</button>
+        <p class="serif" style="margin:0;color:var(--stone);font-size:15px">You may be asked to tick a quick “I’m not a robot” box after sending.</p>
+      </form>
+
+
+    </div>
+
+    <aside class="side">
+      <div class="note-box">
+        <span class="label">What makes a feature</span>
+        <ol class="checks" style="margin-top:4px">
+          <li><span class="no">01</span><span class="b">Off pavement. Dirt, sand, snow, rock, a campsite — not a parking lot.</span></li>
+          <li><span class="no">02</span><span class="b">A three-quarter front shot in low sun, plus a clean side profile.</span></li>
+          <li><span class="no">03</span><span class="b">Details: the interior, the engine bay, the gear you actually use.</span></li>
+          <li><span class="no">04</span><span class="b">Horizontal photos work best for the home page.</span></li>
+          <li><span class="no">05</span><span class="b">Blur or remove plates if you’d rather we didn’t show them.</span></li>
+        </ol>
+      </div>
+      <div class="find">
+        <span class="eyebrow brass">Where it goes</span>
+        <span class="serif">Approved rigs appear as the home page Featured Build, in the gallery on their model page, and in our Instagram rotation.</span>
+      </div>
+    </aside>
+  </div>
+</div>
+<script>
+(function(){
+  var gens = {{ gens_json|safe }};
+  var fam = document.getElementById('f-family'), gen = document.getElementById('f-gen');
+  fam.addEventListener('change', function(){
+    gen.innerHTML = '';
+    var list = gens[fam.value] || [];
+    var o = document.createElement('option'); o.value=''; o.textContent = list.length ? 'Choose one' : (fam.value ? 'Type it in the story' : 'Choose a family first'); gen.appendChild(o);
+    list.forEach(function(g){ var op=document.createElement('option'); op.value=g.slug; op.textContent=g.name+' · '+g.years; gen.appendChild(op); });
+  });
+  var input = document.getElementById('f-photos'), prev = document.getElementById('previews'), drop = document.getElementById('drop');
+  var files = [];
+  function render(){
+    prev.innerHTML = '';
+    files.forEach(function(f, i){
+      var fig = document.createElement('figure');
+      var img = document.createElement('img'); img.alt = f.name; img.src = URL.createObjectURL(f);
+      var cap = document.createElement('figcaption'); cap.textContent = f.name;
+      var rm = document.createElement('button'); rm.type='button'; rm.textContent='Remove'; rm.setAttribute('aria-label','Remove '+f.name);
+      rm.addEventListener('click', function(){ files.splice(i,1); render(); });
+      fig.appendChild(img); fig.appendChild(cap); fig.appendChild(rm); prev.appendChild(fig);
+    });
+  }
+  function add(list){ Array.prototype.forEach.call(list, function(f){ if (/^image\//.test(f.type) || /\.heic$/i.test(f.name)) { if (files.length < 10) files.push(f); } }); render(); }
+  input.addEventListener('change', function(){ add(input.files); input.value=''; });
+  ['dragover','dragenter'].forEach(function(ev){ drop.addEventListener(ev, function(e){ e.preventDefault(); drop.classList.add('over'); }); });
+  ['dragleave','drop'].forEach(function(ev){ drop.addEventListener(ev, function(e){ e.preventDefault(); drop.classList.remove('over'); }); });
+  drop.addEventListener('drop', function(e){ add(e.dataTransfer.files); });
+  var form = document.getElementById('rig-form'), err = document.getElementById('form-error'), btn = document.getElementById('send');
+  var BUDGET = 9 * 1024 * 1024;
+  function shrink(f){
+    return new Promise(function(res){
+      if (!/^image\/(jpeg|png|webp)$/.test(f.type)) { res(f); return; }
+      var img = new Image(); img.onload = function(){
+        var s = Math.min(1, 1600 / Math.max(img.width, img.height)), c = document.createElement('canvas');
+        c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        c.toBlob(function(b){ res(b ? new File([b], f.name.replace(/\.[^.]+$/, '') + '.jpg', {type: 'image/jpeg'}) : f); }, 'image/jpeg', 0.82);
+      }; img.onerror = function(){ res(f); }; img.src = URL.createObjectURL(f);
+    });
+  }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var problems = [];
+    ['f-name','f-email','f-family','f-story'].forEach(function(id){ var el=document.getElementById(id); if(!el.value.trim()) problems.push(el.closest('label').firstChild.textContent.trim()); });
+    var em = document.getElementById('f-email').value; if (em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) problems.push('a valid email');
+    if (files.length < 3) problems.push('at least 3 photos');
+    if (!document.getElementById('f-own').checked || !document.getElementById('f-use').checked) problems.push('both photo permissions');
+    if (problems.length) { err.textContent = 'Almost there — add ' + problems.join(', ') + '.'; err.hidden = false; err.scrollIntoView({block:'center'}); return; }
+    err.hidden = true; btn.disabled = true; btn.textContent = 'Preparing photos…';
+    Promise.all(files.map(shrink)).then(function(small){
+      var total = 0, slots = document.querySelectorAll('#photo-slots input'), used = 0;
+      small.forEach(function(f){
+        if (used >= slots.length || total + f.size > BUDGET) return;
+        try { var dt = new DataTransfer(); dt.items.add(f); slots[used].files = dt.files; used++; total += f.size; } catch (x) {}
+      });
+      var fsel = fam.options[fam.selectedIndex].text, gsel = gen.value ? gen.options[gen.selectedIndex].text.split(' · ')[0] : '';
+      document.getElementById('f-subject').value = 'New rig: ' + (document.getElementById('f-year').value + ' ' + fsel + ' ' + gsel).replace(/\s+/g,' ').trim() + ' — ' + document.getElementById('f-name').value;
+      document.getElementById('f-replyto').value = em;
+      btn.textContent = 'Sending…';
+      HTMLFormElement.prototype.submit.call(form);
+    });
+  });
+})();
+</script>
+{% endblock %}

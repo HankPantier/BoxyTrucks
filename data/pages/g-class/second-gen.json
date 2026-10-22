@@ -1,0 +1,790 @@
+{
+ "slug": "second-gen",
+ "title": "G-Class (second generation)",
+ "eyebrow": "MERCEDES-BENZ G-CLASS · “W463A” · 2018–PRESENT",
+ "verdict": "Mercedes replaced almost everything except the silhouette and — astonishingly — the three locking differentials. Far better on the road, still serious off it, and now available with four electric motors that can spin it like a tank.",
+ "codes": [
+  "“W463A”",
+  "IFS + SOLID REAR",
+  "3 LOCKING DIFFS",
+  "G 550 · G 580 EV"
+ ],
+ "hero_photo": "hillside-mountains.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "On 14 January 2018, at the Detroit auto show, Mercedes revealed a G-Class that looked almost exactly like the old one and was almost entirely new. It was 121 mm wider, 53 mm longer and about 170 kg lighter, with a modern cabin and electric rack-and-pinion steering. The headline change was underneath: the solid front axle the G had used since 1979 gave way to independent double wishbones. The ladder frame, the low range and all three locking differentials stayed."
+   ]
+  },
+  {
+   "heading": "THE SAME SHAPE, A DIFFERENT TRUCK",
+   "paragraphs": [
+    "The new front suspension bolts straight to the ladder frame with no subframe, and its lower wishbone mounts sit as high as possible to protect clearance. Out back, a rigid axle is located by four links per side and a Panhard rod. Mercedes quoted 9.5 inches of clearance between the axles, 27.6 inches of wading depth (up almost 4 inches), 31° approach, 30° departure and 26° breakover angles — better on every count than the [[g-class/g550|solid-axle G 550]] it replaced.",
+    "Low range got shorter, too: 2.93:1 against the old truck’s roughly 2.1:1, engaged at up to 25 mph. Engage it, or any locker, and the truck drops into G-Mode, which retunes the dampers, steering and throttle and holds gears. Development included the Schöckl, the mountain test course outside Graz with gradients up to 60%. The US G 550 kept the 4.0-litre twin-turbo V8 — 416 hp and 450 lb-ft — now through a nine-speed automatic and a 40:60 torque split."
+   ]
+  },
+  {
+   "heading": "SIX CYLINDERS AND HALF A MILLION Gs",
+   "paragraphs": [
+    "The G kept selling as if nothing had changed. Graz built the 400,000th G-Class on 4 December 2020 and the 500,000th in April 2023 — a one-off in agave green with amber indicators, a tribute to a famous 1979 photo of a W460 240 GD in mid-air. The AMG G 63 carried on alongside with 577 hp, and later an AMG Offroad Package Pro that swaps anti-roll bars for hydraulic roll stabilization.",
+    "For the 2025 model year the US G 550 traded its V8 for a turbocharged 3.0-litre inline-six with mild-hybrid assistance: 443 hp and 413 lb-ft. Aero tweaks cut the drag coefficient from 0.55 to 0.48, the cabin got twin 12.3-inch MBUX screens, and the Offroad Cockpit added a “transparent bonnet” camera view. The off-road hardware didn’t move: triple lockers, 9.5 inches of clearance and 27.6 inches of wading."
+   ]
+  },
+  {
+   "heading": "THE ELECTRIC G",
+   "paragraphs": [
+    "Then came the one nobody expected to work. The G 580 with EQ Technology, revealed in April 2024, keeps the ladder frame, independent front and rigid rear axle, but drives each wheel with its own motor — 579 hp in total, fed by a 116 kWh battery with 200 kW DC charging. There are no mechanical lockers; torque vectoring provides ‘virtual’ ones. Each axle has a 2:1 low range, and it wades 33.5 inches — 5.9 more than the gas truck.",
+    "It also does tricks no [[land-cruiser/300-series|Land Cruiser]] or [[land-rover/defender-l663|Defender]] can: G-Turn spins the truck on the spot by driving the wheels on each side in opposite directions, and G-Steering pivots it around the inside rear wheel. The price is weight — about 7,716 lb — and a range rated up to 294 miles on the European WLTP cycle. For 2025 the US got it only as the loaded Edition One."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE 4×4² RETURNS",
+  "title": "Portal axles, take two",
+  "paragraphs": [
+   "In June 2022 Mercedes-AMG revived the [[g-class/4x4-squared|4×4²]] on the new truck: portal axles combined with independent front suspension, 585 hp from the twin-turbo V8, and 325/55R22 Pirelli tires. It went on sale for the 2023 model year at $350,050.",
+   "The numbers: 13.8 inches of ground clearance (4.3 more than a standard G), 35.8 inches of wading depth, and 41.3° approach and 36.8° departure angles. At 6,315 lb it weighs 379 lb less than the original G 500/G 550 4×4² — though it can’t match that truck’s 17.2 inches of clearance."
+  ]
+ },
+ "engineering_intro": "The second-generation G keeps the old truck’s architecture where it matters off-road and modernizes everything else. The body still sits on a ladder frame, the rear axle is still rigid, and the transfer case still has a proper low range. The front, though, is now independent, the steering is electric rack-and-pinion instead of a recirculating-ball box, and the nine-speed automatic sends 40% of the torque forward and 60% rearward.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame",
+   "note": "Retained for the gas trucks and, remarkably, the electric G 580."
+  },
+  {
+   "k": "FRONT",
+   "v": "Independent double wishbone",
+   "note": "Bolted directly to the frame with no subframe; mounts set high for clearance."
+  },
+  {
+   "k": "REAR",
+   "v": "Rigid axle",
+   "note": "Four trailing links per side plus a Panhard rod."
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Centre, rear, front",
+   "note": "Three 100% locks on gas models; the G 580 uses torque-vectoring ‘virtual’ locks instead."
+  },
+  {
+   "k": "LOW RANGE",
+   "v": "2.93:1",
+   "note": "Engages at up to 25 mph; shift back to high up to 43 mph. Old truck: about 2.1:1."
+  },
+  {
+   "k": "GEOMETRY",
+   "v": "31° / 30° / 26°",
+   "note": "Approach, departure, breakover. 9.5 in between axles, 27.6 in wading."
+  }
+ ],
+ "engineering_note": {
+  "title": "G-MODE",
+  "body": "Engage low range or any differential lock and G-Mode switches on automatically, whatever drive program is selected. It adjusts damping, steering and throttle response and suppresses unnecessary upshifts; a small ‘G’ lights up in the instrument cluster. The off-road screen shows gradient, inclination, compass, steering angle and locker status."
+ },
+ "generations_table": [
+  {
+   "years": "2018–2024",
+   "platform": "G 500 / G 550 (US)",
+   "engine": "M176 4.0 L twin-turbo V8",
+   "output": "416 hp · 450 lb-ft",
+   "note": "9G-TRONIC; launched at Detroit, January 2018"
+  },
+  {
+   "years": "2018–",
+   "platform": "AMG G 63",
+   "engine": "AMG 4.0 L twin-turbo V8",
+   "output": "577 hp · 627 lb-ft",
+   "note": "Unveiled at Geneva, March 2018"
+  },
+  {
+   "years": "2019–",
+   "platform": "G 350 d / G 400 d (not US)",
+   "engine": "OM656 2.9 L inline-six diesel",
+   "output": "282 hp / 326 hp",
+   "note": "Diesel sold in other markets"
+  },
+  {
+   "years": "2022–",
+   "platform": "G 63 4×4²",
+   "engine": "AMG 4.0 L twin-turbo V8",
+   "output": "585 hp",
+   "note": "Portal axles with independent front; $350,050"
+  },
+  {
+   "years": "2025–",
+   "platform": "G 550 (US)",
+   "engine": "3.0 L turbo inline-six, mild hybrid",
+   "output": "443 hp · 413 lb-ft",
+   "note": "Cd 0.48; transparent-bonnet camera view"
+  },
+  {
+   "years": "2025–",
+   "platform": "G 580 with EQ Technology",
+   "engine": "Four motors, 116 kWh battery",
+   "output": "579 hp",
+   "note": "G-Turn, virtual lockers, 33.5 in wading"
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Check recall 23V097",
+   "body": "26,116 US 2019–2021 G 550s and AMG G 63s were recalled because the front-axle wiring harness can chafe on the oil cooler, killing ABS and stability control. Confirm by VIN that the inspection and sleeve or harness were done."
+  },
+  {
+   "head": "Test lockers and low range",
+   "body": "Select low range and each lock on a loose surface. The ‘G’ icon should appear and every locker indicator should confirm. Most of these trucks have never been asked."
+  },
+  {
+   "head": "Look under the middle",
+   "body": "Owner reports point to transfer-case output-seal leaks on 2013–2023 trucks: oil spots under the centre, wet housing, whine. Check the driveshaft flanges for wear marks too."
+  },
+  {
+   "head": "Open every door",
+   "body": "The doors are heavy; owners report hinge sag. Check that each door closes cleanly with that famous bank-vault clack and lines up with its neighbors."
+  },
+  {
+   "head": "Drive it through a full shift cycle",
+   "body": "Harsh or jerky 9-speed shifts are often an adaptation issue fixable with a dealer tool — but get it documented before purchase."
+  },
+  {
+   "head": "Exercise the screens and cameras",
+   "body": "Infotainment freezes, reboots and blank camera feeds are reported; make sure software is current and the 360° camera works — you’ll want it on the trail."
+  },
+  {
+   "head": "Check the wheels and badges",
+   "body": "Many trucks wear 21- or 22-inch wheels and AMG bodywork. Factory G 550 sizes are 275/55R19 or 275/50R20; budget for an 18- or 20-inch all-terrain setup, and check the VIN before paying a G 63 premium."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Front-axle harness recall (23V097)",
+   "diff": "1 / 5",
+   "time": "Dealer visit",
+   "cost": "Free under recall",
+   "symptoms": "ABS and stability-control warnings; on affected 2019–2021 trucks the front-axle wiring harness can rub through against the auxiliary oil cooler.",
+   "fix": "Run the VIN through NHTSA or Mercedes (MBUSA campaign 2023030005). The dealer inspects the harness, sleeves it or replaces it. If you’re underneath anyway, look at the harness routing near the cooler for chafe marks.",
+   "tools": "VIN · flashlight for inspection · dealer appointment",
+   "parts": []
+  },
+  {
+   "title": "Transfer-case output seal leak",
+   "diff": "3 / 5",
+   "time": "Half a day",
+   "cost": "$500–1,200",
+   "symptoms": "Drips under the centre of the truck, a wet transfer-case housing, low fluid at service, whine from the transfer case.",
+   "fix": "Unbolt the affected driveshaft from the output flange (mark it for phasing), replace the output-shaft seal, inspect the flange for wear grooves and replace it if scored, then refill with Mercedes-approved transfer-case fluid. Clean the housing so you can spot any recurrence.",
+   "tools": "Output-shaft seal · seal puller and driver · flange holding tool · MB-approved transfer-case fluid · paint marker · torque wrench",
+   "parts": [
+    {
+     "name": "Corteco transfer case output shaft seal, front outer (G 550 2019–2021)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-axle-seal-corteco-0159977947"
+    }
+   ]
+  },
+  {
+   "title": "Door hinge sag",
+   "diff": "3 / 5",
+   "time": "≈ 2 hours per door",
+   "cost": "$400–1,200",
+   "symptoms": "Doors dropping at the striker, needing a lift or a slam to latch, uneven gaps.",
+   "fix": "Lubricate hinges with Mercedes-approved grease at every service. If worn, replace the hinges and check the door straps; alignment is fussy, which is why many owners leave it to a dealer.",
+   "tools": "Hinge set · door strap · door support/jack with padding · Torx sockets · grease",
+   "parts": []
+  },
+  {
+   "title": "Infotainment freeze or reboot",
+   "diff": "1 / 5",
+   "time": "≈ 10 minutes",
+   "cost": "Free (software) to warranty",
+   "symptoms": "Black screen, reboots while driving, frozen navigation, missing camera image, audio dropouts.",
+   "fix": "Soft-reset by holding the power/volume control for about 10 seconds. Then get the latest software and map updates; persistent faults may need a head unit under warranty.",
+   "tools": "Your thumb · dealer software update",
+   "parts": []
+  },
+  {
+   "title": "9-speed shift adaptation",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour",
+   "cost": "Diagnosis-dependent",
+   "symptoms": "Harsh, jerky or delayed shifts.",
+   "fix": "Note the gear, temperature, drive mode and load when it happens. A Mercedes XENTRY session can reset and relearn the transmission adaptations; rule out the transfer case before condemning the gearbox.",
+   "tools": "XENTRY-capable diagnostic tool · notes or video of the symptom",
+   "parts": [
+    {
+     "name": "Liqui Moly Top Tec ATF 1950, MB 236.17 (yellow)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/top-tec-atf-1950-1-liter-liqui-moly-22034"
+    },
+    {
+     "name": "Genuine Mercedes 9G-TRONIC oil pan with filter 725 270 31 14 (listed for 2019–2021 G 63)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-transmission-oil-pan-genuine-mercedes-7252703114"
+    }
+   ]
+  },
+  {
+   "title": "Fitting a 2-inch lift and 33s",
+   "diff": "3 / 5",
+   "time": "A day",
+   "cost": "Parts plus labor",
+   "symptoms": "Not a fault — the most common upgrade. Stock 20-inch tires are about 31 inches tall.",
+   "fix": "Install a lift kit (GwagenParts sells a 2-inch kit for the 2019-on G, including G 63s with AMG Ride Control) and fit up to 33-inch tires, depending on wheel offset. Above 33 inches the seller warns of wheel-speed-sensor faults and active brake assist, blind-spot and cruise-control warnings. Finish with an alignment that includes the adaptive cruise calibration.",
+   "tools": "Lift kit · spring compressor · jack and stands · torque wrench · alignment with ADAS calibration",
+   "parts": [
+    {
+     "name": "2-inch lift kit for 2019-on G 550 / G 63",
+     "supplier": "GwagenParts.com",
+     "url": "https://www.gwagenparts.com/?p=96362"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What’s the biggest tire I can fit without a lift?",
+   "a": "We couldn’t verify a firm owner consensus for the 2019-on truck. What is documented: factory G 550 sizes are 275/55R19 and 275/50R20 (about 31 in), Mercedes offered 18-inch all-terrain tires as an option, and a 2-inch lift kit is rated for up to 33-inch tires. On earlier Gs, about 32 inches is the commonly cited no-rub ceiling — treat it as a starting point and test-fit at full lock. [TO VERIFY FOR 2019+]",
+   "src": "TIRESIZE.COM · TFLTRUCK · GWAGENPARTS · EXPEDITION PORTAL"
+  },
+  {
+   "q": "Does it still have three locking differentials?",
+   "a": "Yes — centre, rear and front, 100% locks, on every gas model. The electric G 580 drops mechanical lockers in favor of per-wheel torque vectoring.",
+   "src": "THE SHOP · TFLCAR"
+  },
+  {
+   "q": "Is it still body-on-frame with a solid axle?",
+   "a": "It’s still on a ladder frame — even the EV. The rear axle is rigid; the front is now independent double wishbones, the first time a G has had independent front suspension.",
+   "src": "THE SHOP · TFLTRUCK"
+  },
+  {
+   "q": "What’s the low-range ratio?",
+   "a": "2.93:1, versus about 2.1:1 on the previous G. It engages at up to 25 mph with the transmission in neutral, and you can shift back to high range at up to 43 mph.",
+   "src": "THE SHOP"
+  },
+  {
+   "q": "How much ground clearance and wading depth?",
+   "a": "9.5 inches between the axles (10.6 inches to the front axle), 27.6 inches of wading depth, and 31° / 30° / 26° approach, departure and breakover angles. The G 580 EV has 9.8 inches and wades 33.5 inches.",
+   "src": "THE SHOP · SLASHGEAR · MOTOR AUTHORITY"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "The V8 G 550 is EPA-rated 14 mpg combined for 2019–2020; the mild-hybrid inline-six G 550 is rated 18 mpg combined for 2025–2026.",
+   "src": "EPA VIA MPG BUDDY"
+  },
+  {
+   "q": "V8 or inline-six?",
+   "a": "The 2019–2024 G 550’s 4.0-litre twin-turbo V8 makes 416 hp and 450 lb-ft; the 2025-on 3.0-litre mild-hybrid six makes 443 hp and 413 lb-ft and is rated about 4 mpg better combined. Same lockers, same clearance.",
+   "src": "TFLCAR · EPA"
+  },
+  {
+   "q": "What can the electric G 580 do off-road?",
+   "a": "Climb 100% grades on suitable surfaces, hold 35° side slopes, wade 33.5 inches, crawl in three settings, and turn on the spot with G-Turn. It has a 2:1 low range in each axle’s transmission.",
+   "src": "MOTOR AUTHORITY · TFLCAR"
+  },
+  {
+   "q": "What does “W463A” mean?",
+   "a": "It’s an enthusiast label for the 2018-on truck. Mercedes-Benz doesn’t use it officially.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Are there recalls I should know about?",
+   "a": "Recall 23V097 covers 26,116 2019–2021 G 550s and AMG G 63s whose front-axle harness can chafe on the oil cooler and disable ABS/ESC. Check any VIN with NHTSA.",
+   "src": "NHTSA VIA MOTORVERSO"
+  },
+  {
+   "q": "Can I use the diff locks on pavement?",
+   "a": "No. Locked diffs bind the driveline on high-grip surfaces. Use them on dirt, sand, snow or rock at low speed and unlock before tarmac.",
+   "src": "BOXYTRUCKS"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "LIFT & SUSPENSION",
+   "why": "A 2-inch lift clears 33-inch tires and keeps the factory adaptive dampers working.",
+   "who": [
+    {
+     "name": "GwagenParts.com (2019+ lift kit)",
+     "url": "https://www.gwagenparts.com/?p=96362"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACKS",
+   "why": "A platform rack for a tent, recovery boards and lights — without blocking the sunroof if you choose carefully.",
+   "who": [
+    {
+     "name": "Front Runner",
+     "url": "https://www.frontrunneroutfitters.com/"
+    }
+   ]
+  },
+  {
+   "cat": "OVERLAND BUILDS",
+   "why": "Specialist shops that turn a G into a travel truck — lift, armor, storage, power and lighting as a package.",
+   "who": [
+    {
+     "name": "Jackwagon Overlanding",
+     "url": "https://jackwagonoverlanding.com/"
+    }
+   ]
+  },
+  {
+   "cat": "WHEELS & TIRES",
+   "why": "Mercedes offered 18-inch all-terrains for a reason: smaller rims and taller sidewalls are the biggest off-road upgrade you can make. Check caliper clearance, especially on G 63s.",
+   "who": []
+  }
+ ],
+ "searches": [
+  {
+   "years": "2019–2024 · US",
+   "label": "G 550 (V8)",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2019&maxyear=2024",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-2019/"
+  },
+  {
+   "years": "2025 ON · US",
+   "label": "G 550 (inline-six) · G 580 EV",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2025",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-2019/"
+  },
+  {
+   "years": "2019 ON · US",
+   "label": "AMG G 63",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2019",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-2019/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "@Nothing-but-Gs",
+   "focus": "G-WAGEN BUILDS & OFF-ROAD UPGRADES",
+   "url": "https://www.youtube.com/@Nothing-but-Gs"
+  },
+  {
+   "kind": "YT",
+   "name": "@Gluxetravel",
+   "focus": "G-CLASS TRAVEL",
+   "url": "https://www.youtube.com/@Gluxetravel"
+  },
+  {
+   "kind": "YT",
+   "name": "@Littlehandegan",
+   "focus": "G-WAGENS",
+   "url": "https://www.youtube.com/@Littlehandegan"
+  },
+  {
+   "kind": "IG",
+   "name": "@gzilla500",
+   "focus": "W463 G 500 BUILD",
+   "url": "https://www.instagram.com/gzilla500/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "MBWorld — G-Class (W460 / W461 / W463)",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
+   "note": "Deepest technical archive; DIY threads on lockers, vacuum and cooling"
+  },
+  {
+   "name": "Club G-Wagen",
+   "url": "https://clubgwagen.com/forum/",
+   "note": "The original G community since 1998; rallies and classifieds"
+  },
+  {
+   "name": "BenzWorld — G-Class",
+   "url": "https://www.benzworld.org/forums/g-class.209/",
+   "note": "General ownership and maintenance"
+  },
+  {
+   "name": "Expedition Portal",
+   "url": "https://forum.expeditionportal.com/",
+   "note": "Gs as overland rigs — the long-running “2017 G550 – Tire Options” thread lives here"
+  },
+  {
+   "name": "r/gwagon",
+   "url": "https://www.reddit.com/r/gwagon/",
+   "note": "Quick answers and photos"
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "G 550 (W463)",
+   "family": "g-class",
+   "gen": "g550"
+  },
+  {
+   "rel": "PORTAL-AXLE ANCESTOR",
+   "name": "G 500 4×4²",
+   "family": "g-class",
+   "gen": "4x4-squared"
+  },
+  {
+   "rel": "THE ORIGINAL",
+   "name": "W460",
+   "family": "g-class",
+   "gen": "w460"
+  },
+  {
+   "rel": "RIVAL",
+   "name": "Land Rover Defender (L663)",
+   "family": "land-rover",
+   "gen": "defender-l663"
+  },
+  {
+   "rel": "RIVAL",
+   "name": "Land Cruiser 300 Series",
+   "family": "land-cruiser",
+   "gen": "300-series"
+  },
+  {
+   "rel": "RIVAL",
+   "name": "Lexus LX 600",
+   "family": "lexus",
+   "gen": "lx600"
+  },
+  {
+   "rel": "RIVAL",
+   "name": "Range Rover L460",
+   "family": "range-rover",
+   "gen": "l460"
+  },
+  {
+   "rel": "SOLID-AXLE ALTERNATIVE",
+   "name": "Ineos Grenadier",
+   "family": "grenadier",
+   "gen": "station-wagon"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "W463 (“W463A”)"
+  },
+  {
+   "k": "YEARS",
+   "v": "2018–present"
+  },
+  {
+   "k": "ENGINE (US G 550)",
+   "v": "4.0 TT V8 (to 2024) · 3.0 I6 mild hybrid (2025–)"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "416 hp → 443 hp"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "9G-TRONIC 9-speed"
+  },
+  {
+   "k": "DRIVE",
+   "v": "Permanent 4WD, 40:60, low range 2.93:1"
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Centre, rear, front"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Double-wishbone front · rigid rear"
+  },
+  {
+   "k": "CLEARANCE",
+   "v": "9.5 in"
+  },
+  {
+   "k": "WADING",
+   "v": "27.6 in (G 580: 33.5 in)"
+  },
+  {
+   "k": "ANGLES",
+   "v": "31° / 30° / 26°"
+  },
+  {
+   "k": "BUILT IN",
+   "v": "Graz, Austria"
+  }
+ ],
+ "photos": [
+  {
+   "file": "hillside-mountains.jpg",
+   "alt": "A second-generation G-Class parked on a rough grassy hillside below mountains under a heavy sky",
+   "caption": "SECOND GEN · FOOTHILLS",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
+  },
+  {
+   "file": "hillside-sunset.jpg",
+   "alt": "A second-generation G-Class climbing a grassy slope beside a bare tree at sunset",
+   "caption": "SECOND GEN · HILLSIDE",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
+  },
+  {
+   "file": "ridgeline.jpg",
+   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
+   "caption": "SECOND GEN · RIDGELINE",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+  },
+  {
+   "file": "high-pasture.jpg",
+   "alt": "A second-generation G-Class on rough grass and rocks with hills behind",
+   "caption": "SECOND GEN · HIGH PASTURE",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "The Shop — Mercedes-Benz debuts new G-Class",
+   "url": "https://theshopmag.com/features/mercedes-benz-debuts-new-g-class/"
+  },
+  {
+   "name": "SlashGear — 2019 Mercedes-Benz G550 official",
+   "url": "https://www.slashgear.com/2019-mercedes-benz-g550-official-iconic-luxury-suv-goes-high-tech-15515254"
+  },
+  {
+   "name": "TFLtruck — 2019 Mercedes G-Wagon specs and suspension design",
+   "url": "https://tfltruck.com/2018/01/2019-mercedes-g-wagon-specs-suspension-design"
+  },
+  {
+   "name": "TFLcar — 2025 Mercedes-Benz G-Class changes (G550, AMG G63)",
+   "url": "https://tflcar.com/2024/03/2025-mercedes-benz-g-class-changes-g550-amg-g63/"
+  },
+  {
+   "name": "TFLcar — The all-electric Mercedes-Benz G-Class debuts",
+   "url": "https://tflcar.com/2024/04/mercedes-benz-g580-ev-debut-news/"
+  },
+  {
+   "name": "Motor Authority — 2025 Mercedes-Benz G 580 with EQ Technology revealed",
+   "url": "https://www.motorauthority.com/news/1142960_2025-mercedes-benz-g-580-with-eq-technology-revealed"
+  },
+  {
+   "name": "MotorVerso — NHTSA recall 23V097000 (2019–2021 G550 / AMG G63)",
+   "url": "https://www.motorverso.com/recalls/mercedes-benz/23V097000/"
+  },
+  {
+   "name": "au7o — G-Class known issues (2020)",
+   "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2020"
+  },
+  {
+   "name": "GwagenParts — Lift kit for 2019+ G-Class (W463A)",
+   "url": "https://www.gwagenparts.com/?p=96362"
+  },
+  {
+   "name": "TireSize.com — 2020 Mercedes-Benz G550 OEM tire sizes",
+   "url": "https://tiresize.com/tires/Mercedes-Benz/G550/2020/"
+  },
+  {
+   "name": "MPG Buddy — Mercedes-Benz G550 EPA fuel economy by year",
+   "url": "https://mpgbuddy.com/cars/mercedes-benz/g550/2012"
+  },
+  {
+   "name": "Expedition Portal — 2017 G550 tire options thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2136416"
+  },
+  {
+   "name": "FCP Euro — M176 oil change kit (≈10 L service capacity; G 550 2019–2024 fitment)",
+   "url": "https://www.fcpeuro.com/products/mercedes-m176-oil-change-kit-liqui-moly-5w40-top-tec-4110"
+  },
+  {
+   "name": "FCP Euro — Liqui Moly Top Tec ATF 1950 (MB 236.17, 725.0 9-speed; G 550 2019–2021 fitment)",
+   "url": "https://www.fcpeuro.com/products/top-tec-atf-1950-1-liter-liqui-moly-22034"
+  },
+  {
+   "name": "FCP Euro — Genuine Mercedes coolant MB 325.6 (G 550 2015-on fitment)",
+   "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+  }
+ ],
+ "baseline_service": {
+  "intro": "The second-generation G is still young enough that many have only had dealer A/B services — which skip most driveline fluids. This list covers the 2019–2024 V8 trucks; the 2025-on inline-six G 550 and the electric G 580 have different service needs, so check their manuals.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "M176 4.0 twin-turbo · MB 229.5 or 229.52 · ≈10 L [CONFIRM IN MANUAL]",
+    "interval": "Now, then per the service indicator [CONFIRM IN MANUAL]",
+    "note": "FCP Euro lists its ≈10-litre M176 kit for the 2019–2024 G 550.",
+    "parts": [
+     {
+      "name": "Liqui Moly 5W-40 Top Tec 4110 M176 oil change kit (≈10 L)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-m176-oil-change-kit-liqui-moly-5w40-top-tec-4110"
+     },
+     {
+      "name": "Genuine Mercedes oil filter element 176 180 08 00",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-oil-filter-element-genuine-mercedes-1761800800"
+     }
+    ]
+   },
+   {
+    "item": "Air filters",
+    "spec": "M176 air filters",
+    "interval": "Now if undated",
+    "note": "",
+    "parts": [
+     {
+      "name": "Genuine Mercedes air filter 177 094 01 04 (G 550 2019–2024)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-air-filter-genuine-mercedes-1770940104"
+     }
+    ]
+   },
+   {
+    "item": "Cabin air filter",
+    "spec": "2019-on cabin filter",
+    "interval": "Now, then yearly",
+    "note": "",
+    "parts": [
+     {
+      "name": "Genuine Mercedes cabin air filter 463 835 28 00",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-cabin-air-filter-genuine-mercedes-4638352800"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs & coils",
+    "spec": "M176 spark plugs (Mercedes-spec)",
+    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "note": "",
+    "parts": [
+     {
+      "name": "Genuine Mercedes spark plug 000 159 05 00 (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-spark-plug-genuine-mercedes-0001590500"
+     },
+     {
+      "name": "Genuine Mercedes ignition coil 177 906 02 06 (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-ignition-coil-genuine-mercedes-1779064202"
+     }
+    ]
+   },
+   {
+    "item": "Coolant",
+    "spec": "MB 325.6 (pink) — FCP Euro lists it for the G 550 from 2015 on",
+    "interval": "Now if undated",
+    "note": "Mix 50/50 with distilled water.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes coolant, MB 325.6 (pink), 1 gal",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (9G-TRONIC 725.0)",
+    "spec": "MB 236.17 (yellow)",
+    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "note": "On the 9G-TRONIC the filter is part of the pan. Ask for a shift-adaptation reset with XENTRY after the service.",
+    "parts": [
+     {
+      "name": "Liqui Moly Top Tec ATF 1950, MB 236.17 (yellow)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/top-tec-atf-1950-1-liter-liqui-moly-22034"
+     },
+     {
+      "name": "Genuine Mercedes 9G-TRONIC oil pan with filter 725 270 31 14 (listed for 2019–2021 G 63)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-transmission-oil-pan-genuine-mercedes-7252703114"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
+    "interval": "Now if no record",
+    "note": "Check the output-shaft seals for weeps — a known leak point.",
+    "parts": [
+     {
+      "name": "Corteco transfer case output shaft seal, front outer",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-axle-seal-corteco-0159977947"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Gear oil type and capacity [CONFIRM IN MANUAL]",
+    "interval": "Now if no record",
+    "note": "Independent front, rigid rear, both locking. Engage low range and each lock on loose ground to confirm the ‘G’ icon and locker lights.",
+    "parts": []
+   },
+   {
+    "item": "Steering",
+    "spec": "Electric rack-and-pinion — no power steering fluid",
+    "interval": "At purchase",
+    "note": "Instead, check the tie-rod ends and boots, and the front-axle wiring harness routing near the oil cooler (recall 23V097).",
+    "parts": []
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 4 Plus (Genuine Mercedes)",
+    "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
+    "note": "",
+    "parts": [
+     {
+      "name": "Genuine Mercedes DOT 4 Plus brake fluid, 1 L",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-dot-4-plus-motor-vehicle-brake-fluid-1l-genuine-mercedes-000989080701"
+     }
+    ]
+   },
+   {
+    "item": "Drive belts",
+    "spec": "M176 accessory belt + A/C belt",
+    "interval": "Inspect now; replace if cracked",
+    "note": "",
+    "parts": [
+     {
+      "name": "Continental accessory drive belt (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-accessory-drive-belt-contitech-0039934196"
+     },
+     {
+      "name": "Contitech A/C belt 4K × 1038",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-belt-4k-x-1038-contitech-0039932896"
+     }
+    ]
+   },
+   {
+    "item": "Door hinges",
+    "spec": "Mercedes-approved grease",
+    "interval": "Every service",
+    "note": "Regular grease keeps the heavy doors from sagging at the striker.",
+    "parts": []
+   },
+   {
+    "item": "Recalls & software",
+    "spec": "NHTSA 23V097 (2019–2021) · head-unit software",
+    "interval": "At purchase",
+    "note": "Run the VIN through NHTSA and ask the dealer to load the latest software and maps.",
+    "parts": []
+   },
+   {
+    "item": "12-volt battery",
+    "spec": "Type [CONFIRM IN MANUAL]",
+    "interval": "Load-test now",
+    "note": "Load-test it, especially on a truck that has sat unused.",
+    "parts": []
+   }
+  ]
+ }
+}

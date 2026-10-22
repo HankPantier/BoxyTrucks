@@ -1,0 +1,1060 @@
+{
+ "slug": "fj40",
+ "title": "Land Cruiser FJ40",
+ "eyebrow": "TOYOTA LAND CRUISER · J40 · 1960–1984",
+ "verdict": "The FJ40 is a farm implement that accidentally became a fashion icon: leaf springs, a straight-six with the manners of a tractor and steering vague enough to count as a suggestion. It is also the reason anybody outside Japan cares what a Land Cruiser is.",
+ "codes": [
+  "FJ40",
+  "BJ40",
+  "F 3.9 / 2F 4.2 I6",
+  "2-SPEED TRANSFER CASE",
+  "FRONT DISCS FROM '76 (US)"
+ ],
+ "hero_photo": "lc70-troopy-desert.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Toyota launched the 40 Series in 1960 as a ground-up replacement for the 20 Series, and then barely changed it for nearly a quarter of a century. Toyota's own UK history notes the 1979 facelift was the first visual change in 19 years. Underneath sat solid axles on leaf springs at both ends and, for the first time in a Land Cruiser, a two-speed transfer case. The short-wheelbase FJ40 is the one on posters, but the J40 family also included the medium-wheelbase FJ43 and the long-wheelbase [[land-cruiser/fj45-fj55|FJ45]] pickups and wagons."
+   ]
+  },
+  {
+   "heading": "A JEEP RIVAL THAT OUTSOLD EVERYTHING",
+   "paragraphs": [
+    "In America the FJ40 was pitched against the Jeep and it worked. Toyota's pressroom says the Land Cruiser was the company's best-selling vehicle in the US until 1965, when the Corona passenger car took over; Wikipedia records global output passing 50,000 that year. Hagerty dates US imports from 1963, while Toyota's own history puts the first US trucks in 1960, so the start depends on whom you ask. Either way, a little Japanese 4x4 was carrying the brand in its biggest export market before most Americans had heard of Toyota.",
+    "The engine did a lot of the persuading. The 3.9-liter F straight-six made 125 hp in Toyota's US history, and Hagerty describes it as a reverse-engineered copy of Chevrolet's 235-cubic-inch 'Stovebolt' six and 'virtually indestructible.' It drove a three-speed column-shift manual at launch. Diesels came later for other markets, the H six in 1972 and the four-cylinder B in 1974, but Wikipedia notes diesel 40s were never sold to the general US public; a few arrived as mine trucks."
+   ]
+  },
+  {
+   "heading": "QUIET EVOLUTION",
+   "paragraphs": [
+    "Changes came mechanically rather than visually. US trucks got the 4.2-liter 2F and a four-speed in 1975, along with rear barn doors and, a year earlier, a standard roll bar. Front disc brakes arrived in 1976. In 1979 came the square headlight bezels, optional power steering and air conditioning on F-engine trucks, and a switch from 4.11 to 3.70 axle gears. IH8MUD members still steer first-time buyers to post-1976 trucks for the discs and the 2F, and warn that 1980-and-later bodies seem to rust more readily.",
+    "The truck stayed crude to the end. Retro Rides sums up the driving experience as vague steering, wayward handling, a harsh ride on heavy leaf springs and a cabin that gets very hot in summer. That's part of the appeal: almost everything on it can be reached with a 17 mm wrench and a bit of patience. Free-wheeling front hubs became standard in Australia from 1982, and a five-speed arrived later in the run, but US buyers never saw much luxury."
+   ]
+  },
+  {
+   "heading": "THE END, AND THE AFTERLIFE",
+   "paragraphs": [
+    "The 1983 model year was the last for US FJ40s; Wikipedia estimates only about 300 were imported that final year. Production ended in most markets in 1984, when the [[land-cruiser/70-series|70 Series]] took over the utility role, though Canada got a run of BJ42 diesels with a five-speed overdrive. Brazil kept going much longer: the Toyota Bandeirante used the 40's body with Mercedes-Benz and later Toyota diesels until 2001, giving the basic shape more than four decades of production.",
+    "Values climbed sharply in the 2010s, then settled. In 2019 Hagerty put the average #2-condition FJ40 at $47,375, down 7.6 percent since 2016, while Retro Rides tracks an Australian example rising from $4,400 in 1995 to $33,000 in 2024. Toyota noticed too: in 2021 it announced GR Heritage Parts reproductions for the 40 Series, starting with engine, driveline and exhaust components. The FJ40's legacy even includes the 2007 FJ Cruiser, which borrowed its white roof and round headlights."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE BRAZILIAN COUSIN",
+  "title": "The Bandeirante: a 40 that refused to die",
+  "paragraphs": [
+   "Toyota do Brasil began building Land Cruisers in 1962 and, from 1968, switched its Bandeirante to the FJ40 body. Instead of Toyota petrol sixes, it used Mercedes-Benz diesels: the OM324, then the OM314 and OM364, before Toyota's own 14B four-cylinder diesel arrived in 1994.",
+   "Brazil also got a five-speed in 1993, square headlights from 1989 and pickup and wagon versions on the long wheelbase. Production finally ended in November 2001, decades after Japan had moved on to the [[land-cruiser/70-series|70 Series]]."
+  ]
+ },
+ "engineering_intro": "The FJ40 is about as simple as a 4x4 gets: a ladder frame, live axles on leaf springs, drum brakes until 1976 and a big, slow-revving straight-six. The front axle uses closed knuckles with Birfield CV joints and tapered knuckle bearings set up with shims, the same basic design Toyota carried into the [[land-cruiser/fj60|FJ60]] and [[land-cruiser/fj62|FJ62]].",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame, 2,285 mm (90.0 in) wheelbase",
+   "note": "FJ43 used 2,430 mm; long-wheelbase FJ45s 2,650 or 2,950 mm."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Solid axles, leaf springs front and rear",
+   "note": "Lifted trucks are prone to shackle inversion, hence anti-inversion shackles and plates."
+  },
+  {
+   "k": "4WD SYSTEM",
+   "v": "Part-time, two-speed transfer case",
+   "note": "The first Land Cruiser with a two-speed transfer case. A split case arrived around 1980."
+  },
+  {
+   "k": "ENGINE",
+   "v": "F 3.9 L (to 1975) / 2F 4.2 L OHV I6",
+   "note": "F rated 125 hp in Toyota's US history; 2F 135 PS. Pushrod valvetrain needs periodic adjustment."
+  },
+  {
+   "k": "GEARBOX",
+   "v": "3-speed, then 4-speed (US 1975)",
+   "note": "Column-shift three-speed at launch; H55F five-speed swaps are a popular upgrade."
+  },
+  {
+   "k": "BRAKES & STEERING",
+   "v": "Drums to 1975; front discs from 1976 (US)",
+   "note": "Power steering optional on F-engine trucks from 1979; manual recirculating-ball box before that."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1960–1974",
+   "platform": "FJ40 (early)",
+   "engine": "F 3.9 L OHV I6 (petrol)",
+   "output": "125 hp (Toyota US)",
+   "note": "Three-speed manual, four-wheel drums, 4.11 gears in the US."
+  },
+  {
+   "years": "1975–1978",
+   "platform": "FJ40 (mid)",
+   "engine": "2F 4.2 L OHV I6 (petrol)",
+   "output": "135 PS / 210 lb-ft",
+   "note": "Four-speed manual in the US; barn doors from 1975; front discs from 1976."
+  },
+  {
+   "years": "1979–1984",
+   "platform": "FJ40 (late)",
+   "engine": "2F 4.2 L OHV I6 (petrol)",
+   "output": "135 PS / 210 lb-ft",
+   "note": "Square headlight bezels, optional power steering and A/C, 3.70 gears in the US. Last US model year 1983."
+  },
+  {
+   "years": "1974–1984",
+   "platform": "BJ40 / BJ42",
+   "engine": "B 3.0 L, later 3B 3.4 L I4 diesel",
+   "output": "80–90 hp",
+   "note": "Not sold to the US public; Canada got the BJ42 with a five-speed in 1984."
+  },
+  {
+   "years": "1972–1984",
+   "platform": "HJ45 / HJ47",
+   "engine": "H 3.6 L, later 2H 4.0 L I6 diesel",
+   "output": "94–105 hp",
+   "note": "Long-wheelbase diesels for export markets."
+  },
+  {
+   "years": "1968–2001",
+   "platform": "Bandeirante (Brazil)",
+   "engine": "Mercedes-Benz, then Toyota 14B diesel",
+   "output": "77–95 hp",
+   "note": "Brazilian-built 40 body; production ended in 2001."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Rust beats everything",
+   "body": "IH8MUD veterans rank rust above every mechanical issue combined. Check door bottoms, the rear sill, the body behind the under-seat fuel tank, wheel wells, the outer front fender brace, inside sills and windscreen pillars. Get underneath and look at all of the metal."
+  },
+  {
+   "head": "Body mounts and floors",
+   "body": "On 1979-and-later trucks, look hard at the body mounts. If they're heavily rusted, expect the floor pans and door pillars to be rotten too. Reproduction floor pans exist, but a badly rusted frame may not be worth saving."
+  },
+  {
+   "head": "Frame ends",
+   "body": "Check the rear frame horns and the body around them, a spot IH8MUD members flag as the biggest worry on many listings."
+  },
+  {
+   "head": "Signs of hard wheeling",
+   "body": "Heavily dented skid plates, gouged differential drain plugs and leaf springs with a slight S-shape all suggest a hard life. None is fatal, but they mean work ahead."
+  },
+  {
+   "head": "Driveline slop and leaks",
+   "body": "Check both driveshafts for play ('any slop is too much'), look for cracks or welds on the transfer case, and watch for leaks at the transmission, transfer case, axles and wheels. Oil between engine and gearbox often means a rear main seal."
+  },
+  {
+   "head": "Compression, not the odometer",
+   "body": "Mileage tells you little on a truck whose engine may have been rebuilt. A compression test does. Members put a full 2F rebuild at $2,000–3,000 in the mid-2000s, and expect $1,000–2,000 of catch-up work after purchase."
+  },
+  {
+   "head": "Brakes and fluids",
+   "body": "Four-wheel drums need constant adjustment. Black brake or clutch fluid suggests the previous owner skipped bleeding, and probably other maintenance too."
+  },
+  {
+   "head": "Smog and wiring",
+   "body": "In smog-check states, make sure the emissions equipment is all present and the truck passes. Messy wiring is a sign of future electrical gremlins."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Front knuckle and Birfield rebuild",
+   "diff": "3 / 5",
+   "time": "≈ Two days the first time; half a day once experienced",
+   "cost": "Knuckle kit about $160 (Cruiser Corps) plus seals and grease",
+   "symptoms": "Grease and gear oil oozing from the knuckle wiper seals, a mix of grease and 90-weight inside the knuckle, or play when you lift a front wheel and shove it.",
+   "fix": "Pull the hub and spindle, slide out the Birfield, then remove the steering-arm cones (they stick, so use penetrating oil and tap the arm from below) and the top and bottom knuckle caps. Clean everything, replace the inner axle seal, knuckle bearings and wiper seals, repack the Birfield and knuckle, and reassemble. Bottom shims center the knuckle and top shims set preload: if preload is low, remove shims from the top. One IH8MUD write-up set preload at 4–5 lb with shims; check your factory service manual for the exact figure and where to hook the spring scale.",
+   "tools": "Hub socket · brass drift · spring scale · seal driver · torque wrench · Cruiser Corps knuckle kit 514-108 (1958–9/1975) or 514-109 (9/1975–1/1990) · OEM knuckle wiper kit · moly grease",
+   "parts": [
+    {
+     "name": "Knuckle rebuild kit (Japanese), FJ40/45/55/60/62 1975–90",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj40-fj45-fj55-fj60-fj62-1975-1990"
+    },
+    {
+     "name": "Knuckle rebuild kit (Japanese), FJ40/45/55 1958–75",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj40-fj45-fj55-1958-1975"
+    },
+    {
+     "name": "Steering knuckle wiper kit, OEM (1958–90)",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/fj40-steering-knuckle-wiper-kit-oem"
+    },
+    {
+     "name": "Front axle Birfield (inner axle) seal, 1968–90",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/front-axle-birfield-seal"
+    }
+   ]
+  },
+  {
+   "title": "Valve adjustment on the F / 2F",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours",
+   "cost": "Valve cover gasket about $35 plus washers",
+   "symptoms": "Loud ticking from the top end (loose valves), or poor running and burned valves (tight valves, which are the ones to worry about).",
+   "fix": "Warm the engine. With it idling, use go/no-go feeler gauges to find the tight and loose valves. Shut down and adjust only those: turn the engine until a cylinder's intake valve has just closed, rotate a few degrees more, then set both valves for that cylinder. Valve layout front to back is E-I-I-E-E-I-I-E-E-I-I-E. Pulling the spark plugs makes turning the engine by hand easier, and a long screwdriver in the plug hole finds top dead center. Use the clearances in your service manual.",
+   "tools": "Feeler gauges (fresh ones; soft gauges bend) · 17 mm wrench (a 17/19 mm socket-ended flex wrench helps) · new valve cover gasket and acorn-nut washers",
+   "parts": [
+    {
+     "name": "Valve cover gasket, FJ40/45/55 1958–74",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/valve-cover-gasket-58-74"
+    },
+    {
+     "name": "Valve cover gasket, FJ40/45/55 1975–80",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/valve-cover-gasket-75-80"
+    },
+    {
+     "name": "Valve cover gasket, FJ40/45/60 1980–87",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/valve-cover-gasket-80-87"
+    }
+   ]
+  },
+  {
+   "title": "Carburetor rebuild",
+   "diff": "2 / 5",
+   "time": "≈ Half a day",
+   "cost": "Keyster kit about $35",
+   "symptoms": "Hesitation, stumbling, rough idle or stalling at low rpm on a truck with an original carburetor.",
+   "fix": "Read the carburetor number stamped on the body first: Cruiser Corps lists more than a dozen Keyster kits for FJ40, FJ45 and FJ55 carburetors from 1966 to 1984, matched by carb number and date range. Strip, clean and rebuild with the correct kit, set the float level, and check vacuum lines and choke operation while it's off.",
+   "tools": "Screwdrivers · carb cleaner · correct Keyster rebuild kit (by carb number, e.g. 21100-60280 for 9/1973–9/1975)",
+   "parts": [
+    {
+     "name": "Carburetor rebuild kit, FJ40/45/55/60 1975–87",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/carburetor-rebuild-kit"
+    },
+    {
+     "name": "Carburetor repair kits by year (1978 FJ40 4.2L)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,fuel+&+air,carburetor+repair+kit,5964"
+    }
+   ]
+  },
+  {
+   "title": "Front disc brake conversion (pre-1976 trucks)",
+   "diff": "3 / 5",
+   "time": "≈ 4 hours with a bolt-on kit",
+   "cost": "Kits about $550–700; a mini-truck parts swap about $800",
+   "symptoms": "Drum brakes that pull, fade or need constant adjustment on a 1960–1975 truck.",
+   "fix": "Bolt-on kits replace the front drums with bracketed calipers and rotors: remove the hub cover, snap ring, drum and hub, fit the bracket, test-fit the rotor (Off-Road.com's install had to grind the hub slightly, only to the casting mark), refit the hub, mount the caliper, fit new lines and bleed. The DIY route on IH8MUD swaps 1979–85 Hilux/4Runner knuckles with later Land Cruiser calipers and vented rotors, but means rebuilding the knuckles and sorting tie-rod geometry.",
+   "tools": "Hub tools · grinder · flare-nut wrenches · brake bleeder · Cruiser Corps kit A151 (front, 8/1970–9/1975) or similar",
+   "parts": [
+    {
+     "name": "Front disc brake conversion kit, FJ40/45/55 8/1970–8/1980",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/disc-brake-conversion-kit-fj40"
+    },
+    {
+     "name": "DOT 3 brake fluid (1978 4.2L)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,brake+&+wheel+hub,brake+fluid,11389"
+    }
+   ]
+  },
+  {
+   "title": "Lift and anti-inversion shackles",
+   "diff": "3 / 5",
+   "time": "≈ A day",
+   "cost": "Old Man Emu 2\" kits about $2,350 (Cruiser Corps)",
+   "symptoms": "Sagging springs, cracked leaves, or a rear shackle that flips over center on a lifted truck.",
+   "fix": "Old Man Emu's 2-inch FJ40 kits come with springs, Nitrocharger shocks, greaseable shackles and pins, bushings, U-bolts and a steering damper. Swap one axle at a time with the frame supported. If you reuse factory shackles with lifted springs, OME's FK08 anti-inversion plates weld to the frame to stop them binding over center. Note the spring-bushing size change around 7/1980: Cruiser Corps says two-bolt spring pins mean the early small bushings.",
+   "tools": "Jacks and stands · breaker bar · welder (anti-inversion plates) · ARB/OME kit (e.g. ARB-103 for 1975–8/1980) · urethane bushing kit A216",
+   "parts": [
+    {
+     "name": "ARB/OME 2\" light-load lift kit w/ shackles & pins, FJ40 1975–80",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/arb-ome-fj40-lift-kit-2-light-load-w-shackle-and-pins-1"
+    },
+    {
+     "name": "ARB/OME 2\" heavy-load lift kit w/ shackles & pins, FJ40 1980–84",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/arb-ome-fj40-lift-kit-2-heavy-load-w-shackle-and-pins-2"
+    },
+    {
+     "name": "OME FK08 anti-inversion plates",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/anti-inversion-kit-ome-fk08"
+    },
+    {
+     "name": "OME greaseable rear anti-inversion shackle kit OMEGS1 (1980–90)",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/rear-shackle-greasable-omegs1"
+    }
+   ]
+  },
+  {
+   "title": "Floor pan replacement",
+   "diff": "4 / 5",
+   "time": "≈ A weekend per side",
+   "cost": "OEM-reproduction pan about $195 each",
+   "symptoms": "Soft or holed floors, often found with rotten body mounts on 1979–84 trucks.",
+   "fix": "Pull the seats and floor mats, cut back to clean metal, fit and clamp the reproduction pan, and weld it in. IH8MUD's old-school advice: cut out the rust, weld in steel, and use filler only to smooth the surface. Seam-seal and paint underneath before refitting.",
+   "tools": "Cut-off wheel · MIG welder · clamps · seam sealer · Cruiser Corps 605-111L (left front, 1979–1984 FJ40/FJ45)",
+   "parts": [
+    {
+     "name": "Floor panel, driver side, FJ40 1965–9/1972",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/floor-panel-driver-left-side-fj40-1965-9-1972"
+    },
+    {
+     "name": "FJ40 floor panels (search, all years)",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/search?q=fj40+floor+panel"
+    },
+    {
+     "name": "Body mount set, FJ40 1958–78",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/body-mount-set-fj40"
+    }
+   ]
+  },
+  {
+   "title": "Tighten sloppy steering",
+   "diff": "3 / 5",
+   "time": "≈ Half a day for a seal job",
+   "cost": "Power-steering seal kit about $91; Saginaw conversion about $900",
+   "symptoms": "Excessive play or backlash at the wheel after tie rods and the center arm have been checked, or fluid weeping from a factory power-steering box.",
+   "fix": "On 1979–84 trucks with factory power steering, rebuild the box with fresh seals and O-rings, replacing any worn internals. Manual-steering trucks often get a GM Saginaw power-steering conversion. Cruiser Corps recommends reading the full procedure first and having a qualified technician install it.",
+   "tools": "Pitman arm puller · seal kit 520-139 (1979–10/1984 FJ40/45) or conversion kit 524-117",
+   "parts": [
+    {
+     "name": "Power steering gear seal kit, FJ40/45 1979–84",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/power-steering-gear-seal-kit-fj40-45"
+    },
+    {
+     "name": "Power steering conversion kit (GM Saginaw), FJ40/45 1958–84",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/power-steering-conversion-kit-fj40-gm-saginaw"
+    },
+    {
+     "name": "Center arm rebuild kit (Japanese), FJ40/45/55 1969–84",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/center-arm-rebuild-kit-japanese-fj40-fj43-fj45-fj55-fj56-bj40-bj41-bj42-bj43-bj44-bj46-hj45-hj47-1969-1984"
+    }
+   ]
+  },
+  {
+   "title": "Five-speed swap",
+   "diff": "4 / 5",
+   "time": "≈ A long weekend",
+   "cost": "Parts plus labor",
+   "symptoms": "Screaming highway rpm on 33s with a 1:1 top gear.",
+   "fix": "The H55F five-speed has a 0.845:1 fifth and a much deeper first. On 1975–80 FJ40s with a four-speed, the IH8MUD guide lists floor and transmission-cover changes, a custom crossmember, transfer-case shift linkage and boot, driveshaft length changes, speedometer cable and parking-brake work. Early three-speed trucks also need a bellhousing and frame-crossmember changes. Fit an oiler for fifth gear.",
+   "tools": "Transmission jack · H55F (input shaft to suit the engine) · oiler pipe · shifter · linkage kit · gaskets",
+   "parts": [
+    {
+     "name": "H55F 5-speed transmission, OEM (1985–87)",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/h55f-5-speed-transmission-oem"
+    },
+    {
+     "name": "H55F shift lever, OEM",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/h55f-5-speed-transmission-shifter"
+    },
+    {
+     "name": "Clutch kit, FJ40/45/55/60 1974–87",
+     "supplier": "Cruiser Corps",
+     "url": "https://www.cruisercorps.com/products/clutch-kit-1"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "The 'old tried and true' answer on IH8MUD is 31x10.50R15 on stock wheels and suspension. 33x9.50R15 is a popular size on stock 15-inch rims too, but owners report rubbing at the rear over bumps or at full flex. One fixed it with 1-inch spacers under the bump stops, and another had to adjust the front steering stops. One member said 33x10.50s looked 'pretty stuffed.'",
+   "src": "IH8MUD"
+  },
+  {
+   "q": "Which years should I look for?",
+   "a": "Most buyers prefer 1976-and-later trucks for front disc brakes and the 4.2 L 2F. 1979 added optional power steering and A/C and taller 3.70 gears in the US. IH8MUD veterans like the '78 and would consider 1979–83 at the right price, but note that 1980-and-later bodies seem to rust more readily.",
+   "src": "IH8MUD · WIKIPEDIA"
+  },
+  {
+   "q": "Three-speed or four-speed?",
+   "a": "The four-speed arrived with the 2F in 1975 in the US. Most owners prefer it, especially on 33-inch tires. If you want overdrive, the H55F five-speed swap is well documented, though it takes floor, crossmember, linkage and driveshaft work.",
+   "src": "TOYOTA · IH8MUD"
+  },
+  {
+   "q": "Did the US get diesel FJ40s?",
+   "a": "Not for the general public. Diesel 40s were never sold to US retail buyers, though some arrived as mine trucks. Canada was the exception in 1984, when it got the BJ42 diesel with an overdrive five-speed for about CA$14,000.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Does it have power steering?",
+   "a": "Only optionally, on F-engine trucks from 1979. Earlier trucks have manual steering, and many owners fit a GM Saginaw power-steering conversion. It isn't a casual bolt-on, and Cruiser Corps recommends professional installation.",
+   "src": "WIKIPEDIA · CRUISER CORPS"
+  },
+  {
+   "q": "Are the drum brakes OK?",
+   "a": "They work, but they need constant adjustment. Front discs came on US trucks in 1976. Bolt-on conversion kits exist for 1970–75 trucks, and IH8MUD has a write-up using mini-truck knuckles with later Land Cruiser calipers and rotors.",
+   "src": "IH8MUD · OFF-ROAD.COM"
+  },
+  {
+   "q": "What are the lift options?",
+   "a": "The common choice is an Old Man Emu 2-inch kit with greaseable anti-inversion shackles. For bigger lifts, some owners go spring-over-axle, which IH8MUD members say gives roughly 6 inches and is usually paired with power steering.",
+   "src": "CRUISER CORPS · IH8MUD"
+  },
+  {
+   "q": "Should I swap in a V8?",
+   "a": "Plenty of owners have. Hagerty notes many FJ40s got small-block Chevy V8s on the secondary market. The stock six is durable, though, and a healthy 2F with good compression will run a long time.",
+   "src": "HAGERTY · IH8MUD"
+  },
+  {
+   "q": "Can I still get parts?",
+   "a": "Yes. Toyota announced GR Heritage Parts reproductions for the 40 Series in 2021, starting with engine, driveline and exhaust parts. Specialists such as Cruiser Corps, CruiserTeq, Cool Cruisers of Texas and JT Outfitters stock everything from knuckle kits to floor pans.",
+   "src": "GOAUTO · CRUISER CORPS"
+  },
+  {
+   "q": "What's one worth?",
+   "a": "It depends heavily on condition and originality. In 2019 Hagerty put the average #2-condition FJ40 at $47,375, after a 7.6 percent drop since 2016, with a 1968 at $49,100 and a 1975 at $44,800. Retro Rides says tidy Australian examples run roughly AU$30,000–50,000 and that US prices are far higher.",
+   "src": "HAGERTY · RETRO RIDES"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "Fresh springs and shocks fix the sag and harsh ride of 40-year-old leaves, and 2 inches clears 33s more comfortably. Greaseable anti-inversion shackles stop the rear shackle flipping over center.",
+   "who": [
+    {
+     "name": "Old Man Emu 2\" kit (via Cruiser Corps)",
+     "url": "https://cruisercorps.com/products/arb-ome-fj40-lift-kit-2-light-load-w-shackle-and-pins-1"
+    },
+    {
+     "name": "OME FK08 anti-inversion plates",
+     "url": "https://cruisercorps.com/products/anti-inversion-kit-ome-fk08"
+    }
+   ]
+  },
+  {
+   "cat": "DISC BRAKES",
+   "why": "Pre-1976 trucks stop on four drums. A front disc conversion is the single biggest safety upgrade.",
+   "who": [
+    {
+     "name": "Cruiser Corps disc conversion kits",
+     "url": "https://cruisercorps.com/products/disc-brake-conversion-kit-fj40"
+    }
+   ]
+  },
+  {
+   "cat": "STEERING",
+   "why": "Factory steering boxes develop play, and manual steering is heavy on big tires. A Saginaw conversion is the common fix.",
+   "who": [
+    {
+     "name": "Cruiser Corps Saginaw conversion",
+     "url": "https://cruisercorps.com/products/power-steering-conversion-kit-fj40-gm-saginaw"
+    }
+   ]
+  },
+  {
+   "cat": "ROLL CAGE & ARMOR",
+   "why": "The factory roll bar is a start. Full cages, overhead bars and tube doors add protection for rock work.",
+   "who": [
+    {
+     "name": "Metal Tech 4x4 — FJ40 full roll cage",
+     "url": "https://www.metaltech4x4.com/products/metal-tech-fj40-land-cruiser-full-profile-roll-cage-kit"
+    },
+    {
+     "name": "Metal Tech 4x4 — Land Cruiser parts",
+     "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-toyota-landcruiser"
+    }
+   ]
+  },
+  {
+   "cat": "RESTORATION & OEM PARTS",
+   "why": "Body panels, seals, knuckle kits and trim keep a 40-plus-year-old truck original and on the trail.",
+   "who": [
+    {
+     "name": "Cruiser Corps — 40 Series",
+     "url": "https://cruisercorps.com/collections/40-series-shop-all"
+    },
+    {
+     "name": "CruiserTeq (Cruiser Outfitters) — 40 Series",
+     "url": "https://cruiserteq.com/40x/"
+    },
+    {
+     "name": "Cool Cruisers of Texas",
+     "url": "https://www.coolcruisers.com/"
+    },
+    {
+     "name": "JT Outfitters",
+     "url": "https://jtoutfitters.com/"
+    }
+   ]
+  },
+  {
+   "cat": "BUILDS & RESTOMODS",
+   "why": "For a full rebuild, specialist shops build everything from stock restorations to modern-drivetrain FJ40s.",
+   "who": [
+    {
+     "name": "ICON",
+     "url": "https://www.icon4x4.com/"
+    },
+    {
+     "name": "Valley Hybrids",
+     "url": "https://www.valleyhybrids.com/"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1960–1974",
+   "label": "FJ40 (F engine, drums)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1960&maxyear=1974",
+   "bat_url": "https://bringatrailer.com/toyota/fj40/"
+  },
+  {
+   "years": "1975–1984",
+   "label": "FJ40 (2F, four-speed)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1975&maxyear=1984",
+   "bat_url": "https://bringatrailer.com/toyota/fj40/"
+  },
+  {
+   "years": "1960s–1980s",
+   "label": "FJ43 (medium wheelbase)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1960&maxyear=1984",
+   "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj43/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "The FJ Company",
+   "focus": "FJ40 RESTOMODS",
+   "url": "https://www.youtube.com/@TheFJCompany"
+  },
+  {
+   "kind": "YT",
+   "name": "ICON",
+   "focus": "FJ40 BUILDS",
+   "url": "https://www.youtube.com/@ICON4x4Design"
+  },
+  {
+   "kind": "IG",
+   "name": "@icon4x4",
+   "focus": "FJ40 BUILDS",
+   "url": "https://www.instagram.com/icon4x4/"
+  },
+  {
+   "kind": "YT",
+   "name": "Metal Tech 4x4",
+   "focus": "CAGES & FAB",
+   "url": "https://www.youtube.com/@MetalTech4x4"
+  },
+  {
+   "kind": "IG",
+   "name": "@cruisercorps",
+   "focus": "40 & 60 PARTS",
+   "url": "https://www.instagram.com/cruisercorps/"
+  },
+  {
+   "kind": "IG",
+   "name": "@ih8mud",
+   "focus": "LAND CRUISER COMMUNITY",
+   "url": "https://www.instagram.com/ih8mud/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "IH8MUD — 40- / 55-Series Tech",
+   "url": "https://forum.ih8mud.com/forums/40-55-series-tech.8/",
+   "note": "The main FJ40 board: restoration, drivetrain swaps and decades of archived fixes."
+  },
+  {
+   "name": "LandCruiserClub.net — 40 Series",
+   "url": "https://www.landcruiserclub.net/community/forums/toyta_landcruiser_40_series/",
+   "note": "Australian forum, good for diesel BJ and HJ trucks."
+  },
+  {
+   "name": "CruiserFAQ",
+   "url": "https://www.cruiserfaq.com/",
+   "note": "Long-running Land Cruiser reference site."
+  }
+ ],
+ "related": [
+  {
+   "rel": "LONG-WHEELBASE SIBLING",
+   "name": "FJ45 / FJ55",
+   "family": "land-cruiser",
+   "gen": "fj45-fj55"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "70 Series",
+   "family": "land-cruiser",
+   "gen": "70-series"
+  },
+  {
+   "rel": "WAGON COUSIN",
+   "name": "FJ60",
+   "family": "land-cruiser",
+   "gen": "fj60"
+  },
+  {
+   "rel": "WAGON COUSIN",
+   "name": "FJ62",
+   "family": "land-cruiser",
+   "gen": "fj62"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "J40 (FJ40 / BJ40 / HJ40 family)"
+  },
+  {
+   "k": "PRODUCTION",
+   "v": "1960–1984 (Brazil to 2001)"
+  },
+  {
+   "k": "LAST US MODEL YEAR",
+   "v": "1983 (about 300 imported)"
+  },
+  {
+   "k": "ENGINE (US)",
+   "v": "F 3.9 L I6 to 1975 · 2F 4.2 L I6 from 1975"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "F 125 hp · 2F 135 PS / 210 lb-ft"
+  },
+  {
+   "k": "TRANSMISSION (US)",
+   "v": "3-spd manual · 4-spd from 1975"
+  },
+  {
+   "k": "DRIVE",
+   "v": "Part-time 4WD, two-speed transfer"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "2,285 mm (90.0 in)"
+  },
+  {
+   "k": "LENGTH",
+   "v": "3,840 mm (151 in)"
+  },
+  {
+   "k": "WEIGHT",
+   "v": "1,480 kg soft top · 1,554 kg hard top"
+  },
+  {
+   "k": "BRAKES",
+   "v": "Drums; front discs from 1976 (US)"
+  },
+  {
+   "k": "AXLE RATIO (US)",
+   "v": "4.11, then 3.70 from 1979"
+  }
+ ],
+ "photos": [
+  {
+   "file": "lc70-troopy-desert.jpg",
+   "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
+   "caption": "70 SERIES TROOPIES · THE 40'S HEIRS (DIFFERENT GENERATION)",
+   "credit": "Kristina",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+  },
+  {
+   "file": "lc80-hillside.jpg",
+   "alt": "A pre-1995 Toyota Land Cruiser 80 Series with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
+   "caption": "80 SERIES · HIGH COUNTRY (DIFFERENT GENERATION)",
+   "credit": "Darina Rodionova",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J40)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J40)"
+  },
+  {
+   "name": "Wikipedia — Toyota Land Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+   "name": "Toyota Pressroom — A Toyota global icon for nearly 70 years",
+   "url": "https://pressroom.toyota.com/?p=57730"
+  },
+  {
+   "name": "Toyota UK Magazine — Toyota Land Cruiser history: Station Wagon edition",
+   "url": "https://mag.toyota.co.uk/history-of-the-toyota-land-cruiser-station-wagon-models/"
+  },
+  {
+   "name": "Hagerty — As the Toyota FJ40 market settles, now might be the time to buy",
+   "url": "https://www.hagerty.com/media/buying-and-selling/now-is-the-time-to-buy-toyota-fj40/"
+  },
+  {
+   "name": "Retro Rides — Top tips for buying a Toyota LandCruiser FJ40 (1976–83)",
+   "url": "https://retrorides.com.au/buyers-guides/top-tips-for-buying-a-toyota-landcruiser-fj40-1976-83"
+  },
+  {
+   "name": "JDM Buy Sell — Land Cruiser J40 buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/toyota/land-cruiser/j40/"
+  },
+  {
+   "name": "GoAuto — Toyota to reproduce 40 Series LandCruiser parts",
+   "url": "https://www.goauto.com.au/news/toyota/toyota-to-reproduce-40-series-landcruiser-parts/2021-08-03/85629.html"
+  },
+  {
+   "name": "IH8MUD — Purchasing an FJ40: buyer's guide (FAQ)",
+   "url": "https://forum.ih8mud.com/threads/purchasing-an-fj-40-fj-40-b-u-y-e-r-s-g-u-i-d-e-f-a-q.118417/"
+  },
+  {
+   "name": "IH8MUD — What to look for when buying an FJ40?",
+   "url": "https://forum.ih8mud.com/threads/what-to-look-for-when-buying-an-fj40.21241/"
+  },
+  {
+   "name": "IH8MUD — FJ40 tire size",
+   "url": "https://forum.ih8mud.com/threads/fj-40-tire-size.1332352"
+  },
+  {
+   "name": "IH8MUD — 33x9.50 on stock 40?",
+   "url": "https://forum.ih8mud.com/threads/33x9-50-on-stock-40.1358071/"
+  },
+  {
+   "name": "IH8MUD — First valve adjustment on my '78 FJ40",
+   "url": "https://forum.ih8mud.com/40-55-series-tech/232126-first-valve-adjustment-my-78-fj40.html"
+  },
+  {
+   "name": "IH8MUD — Knuckle preload",
+   "url": "https://forum.ih8mud.com/threads/knuckle-preload.571621"
+  },
+  {
+   "name": "IH8MUD tech — Mini-truck disc brake conversion on a 1972 FJ40",
+   "url": "https://www.ih8mud.com/tech/minidisc1.php"
+  },
+  {
+   "name": "IH8MUD — So you want to swap an H55F 5-speed into your 40, 60 or 62?",
+   "url": "https://forum.ih8mud.com/threads/work-in-progress-so-you-want-to-swap-a-h55f-5-speed-transmission-into-your-40-60-or-62.1304300/"
+  },
+  {
+   "name": "Off-Road.com — Disc brakes for your Toyota 4x4 Land Cruiser",
+   "url": "https://off-road.com/trucks-4x4/disc-brakes-for-your-toyota-4x4-land-cruiser-20540.html"
+  },
+  {
+   "name": "Cruiser Corps — Knuckle rebuild kit, FJ40/45/55 1958–1975",
+   "url": "https://cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj40-fj45-fj55-1958-1975"
+  },
+  {
+   "name": "Cruiser Corps — Keyster carburetor rebuild kits",
+   "url": "https://cruisercorps.com/products/keyster-carburetor-rebuild-kits"
+  },
+  {
+   "name": "Cruiser Corps — ARB/OME 2\" lift kit, FJ40 1975–1980",
+   "url": "https://cruisercorps.com/products/arb-ome-fj40-lift-kit-2-light-load-w-shackle-and-pins-1"
+  },
+  {
+   "name": "Cruiser Corps — Leaf spring bushing kit, FJ40",
+   "url": "https://cruisercorps.com/products/leaf-spring-bushing-kit-fj40"
+  },
+  {
+   "name": "Cruiser Corps — Floor pan, FJ40/FJ45 1979–1984",
+   "url": "https://cruisercorps.com/products/floor-pan-left-front-fj40-fj45-1979-1984"
+  },
+  {
+   "name": "Cruiser Corps — Power steering gear seal kit",
+   "url": "https://cruisercorps.com/products/power-steering-gear-seal-kit-fj40-45"
+  },
+  {
+   "name": "Cruiser Corps — Saginaw power steering conversion",
+   "url": "https://cruisercorps.com/products/power-steering-conversion-kit-fj40-gm-saginaw"
+  },
+  {
+   "name": "IH8MUD — Service specifications & fluids, Land Cruiser FJ/BJ/HJ 40 & 55 series (from Toyota publications)",
+   "url": "https://forum.ih8mud.com/threads/service-specifications-fluids-land-cruiser-fj-bj-hj-40-55-series.50284/"
+  },
+  {
+   "name": "IH8MUD — Service specifications & lubricants, Land Cruiser 60 & 70 series",
+   "url": "https://forum.ih8mud.com/threads/service-specifications-lubricants-land-cruiser-fj-bj-hj-60-70-series.50283/"
+  },
+  {
+   "name": "IH8MUD — Oil capacity, '70 or '80 FJ40",
+   "url": "https://forum.ih8mud.com/threads/oil-capacity-70-or-80-fj40.1327647/"
+  },
+  {
+   "name": "Wikipedia — Toyota F engine",
+   "url": "https://en.wikipedia.org/wiki/Toyota_F_engine"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Every FJ40 is now 40 to 60 years old, so start from zero: change every fluid, grease every fitting and set the valves. Fluid types and capacities below are from Toyota publications as compiled on IH8MUD for the 40 and 55 series.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "2F: 7.8 L (≈8.2 qt) with filter · F: 7 L · factory spec API SC/SD (use a modern oil suited to a flat-tappet engine)",
+    "interval": "Baseline now; then per your owner's-manual schedule",
+    "note": "One IH8MUD owner warns the owner's manual figure led him to overfill; another always uses 8 qt in a 2F with a filter change. Fill to the dipstick, not the book. New drain-plug washer every time.",
+    "parts": [
+     {
+      "name": "Oil filter, OEM (FJ40/45/55/60/62/FJ80 1969–96)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/oil-filter-oem-1"
+     },
+     {
+      "name": "Oil drain plug gasket, 25 mm fiber, OEM (1958–82)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/oil-drain-plug-gasket-25mm-fiber-washer-oem"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "Paper element in the factory air cleaner",
+    "interval": "Baseline now",
+    "note": "Replace it before you judge how the carburetor runs.",
+    "parts": [
+     {
+      "name": "Air filter, FJ40/45/55/60/62/FJ80 1969–98",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/air-filter-3-69-12-74-8-87-1-98"
+     }
+    ]
+   },
+   {
+    "item": "Ignition tune-up",
+    "spec": "Plugs, points (where fitted), cap & rotor · gap and dwell [CONFIRM IN MANUAL]",
+    "interval": "Baseline now",
+    "note": "Check fuel and ignition basics before blaming the carburetor.",
+    "parts": [
+     {
+      "name": "NGK spark plugs, FJ40/45/55/60/62/FJ80 1958–92",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/ngk-spark-plugs"
+     },
+     {
+      "name": "Distributor points, FJ40/45/55 1973–86",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/ignition-breaker-points"
+     },
+     {
+      "name": "Distributor cap, FJ40/45/55 1974–77",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/distributor-cap-74-77"
+     },
+     {
+      "name": "Distributor rotor, FJ40/45/55 1974–80",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/distributor-rotor-1"
+     }
+    ]
+   },
+   {
+    "item": "Valve lash",
+    "spec": "Adjustable rockers · clearances [CONFIRM IN MANUAL]",
+    "interval": "Check now; then periodically",
+    "note": "Hagerty notes the F and 2F want periodic valve adjustments; tight valves are the ones that burn. Valve layout front to back is E-I-I-E-E-I-I-E-E-I-I-E.",
+    "parts": [
+     {
+      "name": "Valve cover gasket, FJ40/45/55 1958–74",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/valve-cover-gasket-58-74"
+     },
+     {
+      "name": "Valve cover gasket, FJ40/45/55 1975–80",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/valve-cover-gasket-75-80"
+     }
+    ]
+   },
+   {
+    "item": "Coolant & thermostat",
+    "spec": "Ethylene-glycol coolant · 2F: 16.5 L (the original F table lists 15.2 L)",
+    "interval": "Baseline flush now",
+    "note": "The early F-engine table even lists plain water; use proper ethylene-glycol coolant now, flush until it runs clear, fit a fresh thermostat and check the bypass hose.",
+    "parts": [
+     {
+      "name": "Thermostat, OEM/Aisin (F/2F/3F, 1958–92)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/thermostat-fj40-fj45-fj55-fj60-fj62-fj80-1958-1992"
+     },
+     {
+      "name": "Upper thermostat gasket, OEM (1958–92)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/upper-thermostat-gasket-oem"
+     },
+     {
+      "name": "Water bypass hose, OEM (FJ40/45/55/60 1958–87)",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/water-bypass-hose-oem"
+     }
+    ]
+   },
+   {
+    "item": "Manual transmission",
+    "spec": "API GL-4, SAE 90 · J30 3-speed 1.7 L · H41 4-speed 3.1 L",
+    "interval": "Baseline now",
+    "note": "A swapped-in H55F five-speed takes 4.9 L (60/70-series table) and needs its fifth-gear oiler.",
+    "parts": [
+     {
+      "name": "Gear oil (listed under 1985 Land Cruiser 4.2L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1985,land+cruiser,4.2l+l6,1276523,drivetrain,gear+oil,11394"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "API GL-4, SAE 90 · 1.7 L (2.1 L with PTO)",
+    "interval": "Baseline now",
+    "note": "A PTO winch also has its own gearbox: front winch GL-4 SAE 90, 600 cc.",
+    "parts": [
+     {
+      "name": "Gear oil (listed under 1985 Land Cruiser 4.2L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1985,land+cruiser,4.2l+l6,1276523,drivetrain,gear+oil,11394"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "API GL-5 hypoid 80W-90 · 2.5 L each · LSD oil for limited-slip",
+    "interval": "Baseline now",
+    "note": "Gear oil mixed into the knuckle grease points to failed inner axle seals.",
+    "parts": [
+     {
+      "name": "80W-90 GL-5 gear oil (listed under 1985 Land Cruiser 4.2L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1985,land+cruiser,4.2l+l6,1276523,drivetrain,gear+oil,11394"
+     },
+     {
+      "name": "Differential gasket, FJ40/45/55/60/62 1958–90",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/differential-gasket"
+     }
+    ]
+   },
+   {
+    "item": "Front knuckles & Birfields",
+    "spec": "Molybdenum-disulfide lithium-base grease, NLGI-2",
+    "interval": "Check now; repack with any seal job",
+    "note": "Weeping at the wiper seals or a mix of grease and 90-weight inside means a knuckle rebuild.",
+    "parts": [
+     {
+      "name": "Knuckle rebuild kit (Japanese), FJ40/45/55/60/62 1975–90",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj40-fj45-fj55-fj60-fj62-1975-1990"
+     },
+     {
+      "name": "Knuckle rebuild kit (Japanese), FJ40/45/55 1958–75",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/knuckle-rebuild-kit-japanese-fj40-fj45-fj55-1958-1975"
+     }
+    ]
+   },
+   {
+    "item": "Steering box & power steering",
+    "spec": "Manual box: API GL-4 SAE 90, 600 cc · power steering (1979–84): ATF Dexron, 0.8 L total",
+    "interval": "Check level now",
+    "note": "Top up the manual box through its fill plug; most play is in the box, center arm and tie-rod ends.",
+    "parts": [
+     {
+      "name": "Power steering fluid (1978 4.2L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,steering,power+steering+fluid,11395"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 3 (SAE J1703)",
+    "interval": "Baseline flush now",
+    "note": "Bleed every corner and look for weeping wheel cylinders on drum-brake axles.",
+    "parts": [
+     {
+      "name": "Brake fluid (1978 4.2L)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,brake+&+wheel+hub,brake+fluid,11389"
+     }
+    ]
+   },
+   {
+    "item": "Chassis grease, U-joints & wheel bearings",
+    "spec": "Chassis: moly lithium NLGI-2 · driveshafts & wheel bearings: lithium multipurpose NLGI-2",
+    "interval": "Grease now and at every oil change; repack wheel bearings now",
+    "note": "Grease the spring pins/shackles (greaseable pins if fitted), driveshaft U-joints and slip yokes.",
+    "parts": [
+     {
+      "name": "Driveshaft universal joints, FJ40/45/55/60/62 1974–90",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/universal-joints-for-driveshaft"
+     },
+     {
+      "name": "Driveshaft universal joints, FJ40/45 1958–73",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/universal-joints-for-driveshaft-58-73"
+     },
+     {
+      "name": "Front wheel bearing kit, 1958–9/1975",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/front-wheel-bearing-kit-fj40-fj45-fj55-fj60-fj62-fj80-bj-1975-1998"
+     },
+     {
+      "name": "Front wheel bearing seal, 1975–97",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/front-wheel-bearing-seal-fj40-fj45-fj55-fj60-fj62-fj80-bj-series-1975-1997"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter",
+    "spec": "Inline filter",
+    "interval": "Replace now",
+    "note": "Do it before or with any carburetor rebuild.",
+    "parts": [
+     {
+      "name": "Fuel filter, FJ40/45/55 1979–80",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/fuel-filter-japanese-fj40-fj45-fj55-1979-1980"
+     },
+     {
+      "name": "Fuel filter, FJ40/45/55/60 1980–87",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/fuel-filter-japanese-fj40-fj45-fj55-fj60-1980-1988"
+     },
+     {
+      "name": "Fuel filter, OEM, FJ40/45/55 1972–78",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/fuel-filter-oem-1"
+     }
+    ]
+   },
+   {
+    "item": "Belts & hoses",
+    "spec": "V-belts and radiator hoses · gear-driven camshaft, so no timing belt",
+    "interval": "Inspect now; replace anything cracked or original",
+    "note": "The F-series engine drives its camshaft by gears, so there's no timing belt or chain to schedule.",
+    "parts": [
+     {
+      "name": "Alternator/fan V-belt, OEM, FJ40/45/55 1975–84",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/alternator-fan-v-belt-75-84-oem"
+     },
+     {
+      "name": "Alternator/fan V-belt, OEM, FJ40/45/55 1968–74",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/alternator-fan-v-belt-68-74-oem"
+     },
+     {
+      "name": "Radiator inlet / upper hose, FJ40/45 1968–78",
+      "supplier": "Cruiser Corps",
+      "url": "https://www.cruisercorps.com/products/radiator-inlet-upper-hose"
+     }
+    ]
+   }
+  ]
+ }
+}

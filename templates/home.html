@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero" style="min-height:760px">
+  <img src="{{ root }}img/home/lc80-georgia.jpg" alt="A Toyota Land Cruiser 80 Series with a roof rack on a grassy hillside under a stormy sky">
+  <div class="wrap">
+    <div></div>
+    <div class="hero-panel" style="max-width:640px">
+      <div class="eyebrow brass">Built square · Est. 2026</div>
+      <h1 style="font-size:clamp(40px,5.4vw,72px);line-height:1.02;letter-spacing:-0.02em">For the love of right angles.</h1>
+      <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">The trucks that never chased the wind tunnel — their stories, their quirks, how to fix them, the builders who do them right, and the one you’ll own someday.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn light" href="{{ root }}models/index.html">Explore the models</a><a class="btn ghost-brass" href="{{ root }}repairs/index.html">Repair guides</a></div>
+    </div>
+  </div>
+  <div class="hero-tag">LAND CRUISER 80 SERIES · CAUCASUS, GEORGIA</div>
+</section>
+
+<section class="wrap section" style="padding-bottom:40px">
+  <div class="sec-head"><h2>The families, and our verdicts</h2><a class="label" href="{{ root }}models/index.html" style="color:var(--ink)">All models →</a></div>
+  <div class="grid" style="--min:290px">
+    {% for f in fam_list %}
+    <article class="card">
+      <a href="{{ root }}models/{{ f.slug }}/index.html" style="display:block">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ f.maker }} {{ f.name }} off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)">{% else %}<div class="ph" style="height:280px">[PHOTO]</div>{% endif %}</a>
+      <div class="body">
+        <span class="eyebrow">{{ f.maker }}</span>
+        <h3><a href="{{ root }}models/{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.name }}</a></h3>
+        <p class="verdict">“{{ f.verdict }}”</p>
+        <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)">{% for g in f.generations %}<a class="chip" href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a>{% endfor %}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section" style="padding-top:40px">
+  <div class="split" style="border:1px solid var(--ink);background:var(--night);color:var(--paper);gap:0">
+    <img src="{{ root }}img/home/series-dune.jpg" alt="A pale green vintage Land Rover Series on a desert dune at sunset" style="flex:3 1 560px;min-width:0;height:600px;object-fit:cover">
+    <div style="flex:2 1 380px;padding:48px 44px;display:flex;flex-direction:column;gap:20px">
+      <span class="eyebrow brass">Featured build · No. 01</span>
+      <h2 style="font-size:44px;line-height:1.05">[OWNER]’s Series IIA</h2>
+      <p class="serif" style="margin:0;font-size:19px;line-height:30px;color:var(--on-dark)">[ONE-PARAGRAPH STORY — how they found it, what they changed, where it’s been.]</p>
+      <div class="rows" style="border-color:var(--line-dark)">{% for k in ['ENGINE','SUSPENSION','BUILT BY','BASED'] %}<div class="row" style="color:var(--paper);border-color:var(--line-dark);padding:11px 0"><span class="m" style="color:var(--brass)">{{ k }}</span><span>[{{ k }}]</span></div>{% endfor %}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:auto"><a class="btn light" href="#">Read the build</a><a class="btn ghost-brass" href="{{ root }}submit/index.html">Submit your build</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="band-paper">
+  <div class="wrap section">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">From the garage</span><h2>Fix it yourself</h2></div><a class="label" href="{{ root }}repairs/index.html" style="color:var(--ink)">All repair guides →</a></div>
+    <div class="grid" style="--min:300px">
+      {% for r in garage %}
+      <a class="card" href="{{ r.href }}"><div class="body">
+        <span class="eyebrow">{{ r.model }}</span>
+        <h3 style="font-size:22px">{{ r.title }}</h3>
+        <span class="serif" style="font-size:17px;line-height:26px;color:var(--body);flex-grow:1">{{ r.symptoms|striplk|truncate(170) }}</span>
+        <span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY {{ r.diff }} · {{ r.time }}</span>
+      </div></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Asked on every forum</span><h2>The big questions, answered</h2></div></div>
+  <div class="faq">
+    {% for f in faqs %}<details{% if loop.first %} open{% endif %}><summary><span class="mono" style="font-size:12px;letter-spacing:0.12em;color:var(--stone);display:block;margin-bottom:4px">{{ f.model }}</span>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p><a class="src" href="{{ f.href }}">MORE {{ f.model }} QUESTIONS →</a></div></details>{% endfor %}
+  </div>
+</section>
+
+<section class="band-paper">
+  <div class="wrap section">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Life on the road</span><h2>Where these trucks were meant to go</h2></div></div>
+    <div class="grid" style="--min:320px">
+      {% for s in stories %}
+      <a href="{{ s.href or '#' }}"{% if s.href %} target="_blank" rel="noopener"{% endif %} style="display:flex;flex-direction:column;gap:16px;text-decoration:none;color:var(--ink)">
+        <img src="{{ root }}img/home/{{ s.img }}" alt="{{ s.alt }}" loading="lazy" style="width:100%;height:380px;object-fit:cover;border:1px solid var(--ink)">
+        <span class="eyebrow">{{ s.tag }}</span>
+        <span class="serif" style="font-size:27px;line-height:33px">{{ s.title }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" style="display:flex;flex-wrap:wrap;gap:56px">
+  <div style="flex:1 1 380px;display:flex;flex-direction:column;gap:20px">
+    <span class="eyebrow">Mods &amp; builders</span>
+    <h2 style="font-size:36px;line-height:1.1">The shops that turn old boxes into heirlooms</h2>
+    <p class="serif" style="margin:0;font-size:19px;line-height:30px;max-width:480px">Suspension, armor, racks and full builds — filed under the trucks each supplier knows best.</p>
+    <a class="btn solid" href="{{ root }}mods/index.html" style="align-self:flex-start">Browse suppliers</a>
+  </div>
+  <div class="rows" style="flex:1 1 520px;align-self:flex-start">
+    {% for s in suppliers[:8] %}<a class="row" href="{{ s.url if s.url and s.url != '#' else root ~ 'mods/index.html' }}"{% if s.url and s.url != '#' %} target="_blank" rel="noopener"{% endif %}><span class="t" style="font-size:20px;font-weight:500">{{ s.name }}</span><span class="m">{{ s.what }}</span></a>{% endfor %}
+  </div>
+</section>
+
+<section class="band-green">
+  <div class="wrap section">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow brass">Resources</span><h2>YouTube channels, Instagram accounts and forums worth your time</h2></div><a class="label" href="{{ root }}resources/index.html" style="color:var(--paper)">All resources →</a></div>
+    <div class="grid" style="--min:260px">
+      {% for s in socials[:8] %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">{{ s.kind }}</span><span><span class="nm">{{ s.name }}</span><span class="fc" style="color:var(--brass)">{{ "YOUTUBE" if s.kind == "YT" else "INSTAGRAM" }} · {{ s.focus }}</span></span></a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">The one you’ll own someday</span><h2>For sale now</h2></div><a class="label" href="{{ root }}for-sale/index.html" style="color:var(--ink)">Every model →</a></div>
+  <div class="grid" style="--min:240px">
+    {% for f in fam_list %}{% set full = f.generations|selectattr('has_page')|list %}{% set g = full[0] if full else f.generations[0] %}
+    <div class="sale"><span class="eyebrow brass">{{ f.maker }} · {{ g.years }}</span><span class="l">{{ f.name }} {{ g.name }}</span>
+      <div class="links">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
+    </div>{% endfor %}
+  </div>
+</section>
+{% endblock %}

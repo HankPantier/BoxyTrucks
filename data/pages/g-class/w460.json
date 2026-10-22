@@ -1,0 +1,999 @@
+{
+ "slug": "w460",
+ "title": "G-Class W460",
+ "eyebrow": "MERCEDES-BENZ G-CLASS · W460 · 1979–1991",
+ "verdict": "The original Geländewagen: built for a Shah, bought by armies, blessed by a Pope and slower up a motorway on-ramp than most tractors. It is the purest G there is, and it will happily outlive you if you keep the rust and the hydraulics in check.",
+ "codes": [
+  "W460",
+  "OM617 · M110 · M115",
+  "PART-TIME 4WD",
+  "2 LOCKERS STD FROM 1985"
+ ],
+ "hero_photo": "high-pasture.jpg",
+ "hero_note": "Photo shows a second-generation G-Class, not a W460.",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Every G-Class that has ever crushed a trail or a valet stand descends from this one. The W460 is a ladder frame, two coil-sprung rigid axles, a lever for the front axle and a choice of engines that ranged from leisurely to geological. Mercedes engineered it, Steyr-Daimler-Puch hand-built it in Graz, and for twelve years it was sold mainly to people who needed it: border guards, soldiers, farmers and the occasional explorer. Nothing about it was designed to impress the neighbours, which is exactly why off-roaders still want one."
+   ]
+  },
+  {
+   "heading": "A SHAH, A WOODEN MOCK-UP AND GRAZ",
+   "paragraphs": [
+    "Development began in 1972 under a cooperation agreement between Daimler-Benz and Steyr-Daimler-Puch, pushed along by the Shah of Iran — then a major Mercedes shareholder — who pre-ordered some 20,000 military vehicles. Design studies were built in wood in 1973, Erich Ledwinka led the design, and prototypes were tested everywhere from the Arctic Circle to the Sahara. The Shah lost his throne in 1979, the year production began, and the order never happened.",
+    "The W460 was launched at a press event on the off-road proving ground in Toulon, France, and went on sale in September 1979 with three engines and five body variants on two wheelbases: 2,400 mm and 2,850 mm. In Austria, Switzerland, Yugoslavia and the COMECON countries it was badged Puch G, and in France Peugeot built a licensed military version, the P4, with its own engine and gearbox. The French Army ordered 15,000, later cut to 13,500."
+   ]
+  },
+  {
+   "heading": "BORDER GUARDS, A POPE AND THE DAKAR",
+   "paragraphs": [
+    "Customers arrived quickly. In 1980 Germany's Federal Border Guard and riot police took delivery of short-wheelbase 230 Gs and long-wheelbase 280 GEs, and Mercedes built a Popemobile on a 230 G cabriolet for Pope John Paul II's first visit to Germany. The Argentine Army started using the military model in 1981, and in 1982 Mercedes won the Swiss Army tender.",
+    "Then it went racing. In 1983 Jacky Ickx and Claude Brasseur won the car category of the Paris–Dakar Rally in a 280 GE, which ended any argument about whether this was a real off-roader. In 1986 Porsche ran Gs as Dakar support trucks, and one, fitted with a Porsche V8, finished second overall."
+   ]
+  },
+  {
+   "heading": "SLOWLY GETTING CIVILISED",
+   "paragraphs": [
+    "The W460 picked up comforts gradually. In 1981 came an automatic gearbox, air conditioning, an auxiliary fuel tank, headlamp grilles and a cable winch. Fuel injection arrived with the 230 GE in 1982, along with better seats, wider tyres and fender flares. From 1985 front and rear differential locks, central locking and a tachometer were standard on every W460, and by 1986 more than 50,000 G Models had been built.",
+    "The engines barely changed. The 300 GD's five-cylinder OM617 diesel was the most popular, the 280 GE's straight-six was the most powerful, and although Mercedes put turbodiesels in its saloons, it never fitted one to a W460. Mercedes didn't sell the truck in America either. Grey-market importers federalised a few in the 1980s until the 1988 Motor Vehicle Safety Compliance Act made that much harder and more expensive."
+   ]
+  },
+  {
+   "heading": "HOW IT ENDED — AND DIDN'T",
+   "paragraphs": [
+    "At the 1989 Frankfurt show Mercedes revealed the G for the next era: permanent four-wheel drive, a wood-trimmed cabin and optional ABS. That truck became the [[g-class/w463|W463]], and it took the G-Class upmarket. The W460 ended production in 1991, but its job didn't. Its body and chassis carried on as the [[g-class/w461|W461]], a working G for armies and agencies built with W463 running gear.",
+    "That makes the W460 the last G built purely as a tool. Today it is a classic with a strong following, and Classic & Sports Car notes that a pre-1990 soft-top in show condition can make £75,000 or more. Rust-free W460s are rare, because most spent their lives in wet European winters."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · OTTO",
+  "title": "The 300 GD that drove around the world, for 26 years",
+  "paragraphs": [
+   "In 1989 Gunther Holtorf, a former Lufthansa manager, left his job to spend 18 months exploring Africa in his 1988 G-Wagen, a 300 GD he called Otto. He didn't come home for a quarter of a century. Holtorf and his partner Christine travelled through Africa, South America, North America, Australia and Asia, mostly sleeping in the truck with the rear seats removed, and Holtorf became the first Westerner to drive in North Korea.",
+   "By the time Otto came home in 2014 it had covered roughly 560,000 miles (about 900,000 km) across 215 countries and territories. In some of them Otto was the first private car a foreigner had been allowed to bring in. It now sits in the Mercedes-Benz Museum in Stuttgart, about as good a reference as any classic truck could have."
+  ]
+ },
+ "engineering_intro": "The W460 is about as simple as a serious 4×4 can be. A separate steel ladder frame carries the body, and coil springs hang a rigid axle at each corner, located by radius arms and a Panhard rod. Drive goes to the rear wheels until you engage the front axle through the VG 080 transfer case, which also has low range. The front and rear locks are mechanical-hydraulic: a dash control drives a dedicated master cylinder, and slave cylinders on each axle shift the locks.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame",
+   "note": "Separate steel frame with coil-sprung rigid axles, handmade in Graz from 1979."
+  },
+  {
+   "k": "DRIVETRAIN",
+   "v": "Part-time 4WD",
+   "note": "Front axle engaged by lever through the VG 080 transfer case, with high and low range. Permanent 4WD only arrived with the W463."
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Front & rear",
+   "note": "Standard on every W460 from 1985. Hydraulic actuation from their own master cylinder. Engagement can take a few wheel turns."
+  },
+  {
+   "k": "WHEELBASES",
+   "v": "2,400 / 2,850 mm",
+   "note": "SWB and LWB; cabrio, pickup, wagon and panel-van bodies."
+  },
+  {
+   "k": "STEERING",
+   "v": "LS2 steering box",
+   "note": "The same box family serves the W460, W461 and W463, so seals and bearings are still available."
+  },
+  {
+   "k": "ENGINES",
+   "v": "2.0–2.8 petrol, 2.4–3.0 diesel",
+   "note": "From 72 PS (240 GD) to 156 PS (280 GE). No factory turbodiesel."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1979–1982",
+   "platform": "230 G",
+   "engine": "M115 2.3 L I4 (carburettor)",
+   "output": "91 PS",
+   "note": "Early petrol; four-speed manual"
+  },
+  {
+   "years": "1982–1990",
+   "platform": "230 GE",
+   "engine": "2.3 L I4, fuel-injected",
+   "output": "≈125 PS",
+   "note": "Fuel injection arrived in 1982. Auto Bild rates it a top pick"
+  },
+  {
+   "years": "1979–1990",
+   "platform": "280 GE",
+   "engine": "M110 2.8 L I6 (K-Jetronic)",
+   "output": "≈150–156 PS",
+   "note": "The most powerful W460; Dakar winner in 1983"
+  },
+  {
+   "years": "1979–1987",
+   "platform": "240 GD",
+   "engine": "OM616 2.4 L I4 diesel",
+   "output": "72 PS",
+   "note": "0–100 km/h in 32 seconds, according to Mercedes"
+  },
+  {
+   "years": "1979–1991",
+   "platform": "300 GD",
+   "engine": "OM617 3.0 L I5 diesel",
+   "output": "88 PS",
+   "note": "The most popular W460, and the engine in Otto"
+  },
+  {
+   "years": "1987–1991",
+   "platform": "250 GD",
+   "engine": "OM602 2.5 L I5 diesel",
+   "output": "≈84–92 PS",
+   "note": "Later diesel with hydraulic valve lifters"
+  },
+  {
+   "years": "1986–1991",
+   "platform": "200 GE (Italy)",
+   "engine": "M102 2.0 L I4",
+   "output": "118 PS",
+   "note": "A tax special for Italy and other markets"
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Rust first, everything else second",
+   "body": "Classic & Sports Car says rust starts in the rear body corners. Check the inner wings, the bottom of the rear door and the shock top mounts visible in the wheel arch. Auto Bild adds the sills, the area under the windscreen, the spring mounts and the fuel tank. Most W460s lived in salty European winters, so a rot-free one costs more for good reason."
+  },
+  {
+   "head": "Work the front-axle lever and the lockers",
+   "body": "Engage 4WD and low range, then lock the rear and front diffs on a loose surface and listen for clean engagement. On a W460 the locks are hydraulic and can take a few wheel turns to bite. A lock that never engages usually points to a tired master cylinder, slave cylinders or flex lines."
+  },
+  {
+   "head": "Overheating history",
+   "body": "Classic & Sports Car warns that overheating and cylinder-head warping are common, and that an old radiator is probably clogged. Check the coolant for oil, look for weeps, and budget for a new radiator if the original is still fitted."
+  },
+  {
+   "head": "Steering box and springs",
+   "body": "Look for oil leaking from the bottom of the steering box, broken coil springs, leaking dampers and signs of hard off-road abuse. Excess play at the wheel usually means box, tie-rod or drag-link wear."
+  },
+  {
+   "head": "Water where it shouldn't be",
+   "body": "Wiper spindles, the heater plenum and the rear-door hinge seals all leak. Lift the mats and look for stains and soft metal under them."
+  },
+  {
+   "head": "Originality and paperwork",
+   "body": "Hagerty, quoting Club G-Wagen co-founder Mike Serpe, says buyers pay up to 30% more for an all-original G and that any grey-market truck needs an expert inspection. Mercedes keeps a data card for each truck listing how it left the factory, so ask for it."
+  },
+  {
+   "head": "Know what you're buying into",
+   "body": "A 300 GD makes 88 PS and tops out around 127 km/h (79 mph). An IH8MUD owner says even his mildly built OM617 ran out of breath around 70 mph. If you need it to keep up on the interstate, buy a different G."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Front axle rebuild (bearings, kingpins, swivel seals, CVs)",
+   "diff": "4 / 5",
+   "time": "A full weekend (estimate)",
+   "cost": "Kit $610 plus bronze bushing (Expedition Imports)",
+   "symptoms": "Oil or grease weeping from the steering ball (the big swivel housing behind the hub), play at the wheel, clicking on full lock, torn CV boots.",
+   "fix": "Do the whole corner at once, as specialists recommend, because bearings, kingpins and CVs wear together. Lift and support the axle and pull the wheel and brake caliper. Remove the hub nut and lock with the W460 hub-nut socket, then pull the hub and wheel bearings. Remove the kingpin caps and bearings, lift off the knuckle, and withdraw the axle shaft and CV. Replace the wheel bearings and seals, kingpin bearings and seals, steering-ball gasket and wipe seals, inner axle seal and bronze bushing, then repack and reassemble. Ask the supplier for written instructions, which Expedition Imports provides on request.",
+   "tools": "W460 front axle service kit (W460AXLEKIT) · bronze inner bushing 463 337 00 49 (sold separately) · kingpin bearing 000 981 59 05 ×4, seal 460 997 00 40, cap 460 332 00 33 · steering-ball wipe seal 460 331 01 80 · W460 hub-nut socket 460 589 02 07 00 · 1979–81 trucks use different inner axle seals",
+   "parts": [
+    {
+     "name": "Front Axle Service Kit — W460",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/front-axle-service-kit-w460axlekit/"
+    },
+    {
+     "name": "Axle shaft bushing, front 463 337 00 49",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/axle-shaft-bushing-front-4633370049/"
+    },
+    {
+     "name": "Kingpin bearing kit",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/kingpin-bearing-kit-0009815905kit/"
+    },
+    {
+     "name": "CV joint kit — W460",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/cv-joint-kit-w460-460cvkit/"
+    }
+   ]
+  },
+  {
+   "title": "Diff locks won't engage (hydraulic system)",
+   "diff": "3 / 5",
+   "time": "Half a day (estimate)",
+   "cost": "Rebuild kits ≈$142 each (Expedition Imports)",
+   "symptoms": "The dash control moves but the lock indicator never lights, locks engage then drop out, or fluid is low or weeping at an axle.",
+   "fix": "Check the reservoir and look for fluid at the slave cylinders on each axle and at the flex lines. On a W460 the rear locker line and front brake hose are a matched pair of flex lines, so replace aged ones together. Bleed the system, then test on loose ground. If it still won't hold, rebuild the dash master cylinder and the slave cylinders, and check the indicator switch and its rubber boot on the axle.",
+   "tools": "Locker master cylinder rebuild kit 000 353 24 55 (all W460) · late-style slave cylinder kit 460 350 07 84 (later W460s, by axle number) · front brake / rear locker flex line 460 420 50 48 · indicator switch 000 545 50 11 · brake bleeding kit",
+   "parts": [
+    {
+     "name": "Diff-lock master cylinder rebuild kit 000 353 24 55",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/differential-lock-master-cylinder-rebuild-kit-0003532455/"
+    },
+    {
+     "name": "Diff-lock slave cylinder rebuild kit (late style)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/differential-lock-slave-cylinder-rebuild-kit-late-style-4603500784kit/"
+    },
+    {
+     "name": "Front brake / rear locker hose 460 420 50 48",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/460-brake-hose-front-and-differential-lock-hose-rear-4604205048f/"
+    },
+    {
+     "name": "Diff-lock indicator switch 000 545 50 11",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/differential-lock-indicator-switch-0005455011/"
+    }
+   ]
+  },
+  {
+   "title": "Steering box leak",
+   "diff": "3 / 5",
+   "time": "Half a day (estimate)",
+   "cost": "Seal $12.50; bearing set $111 (Expedition Imports)",
+   "symptoms": "Power-steering fluid on the frame rail under the box, low reservoir, groaning on lock, or play in the steering.",
+   "fix": "Classic & Sports Car lists steering box leaks as a standard W460 check. A likely culprit is the inexpensive sector-shaft seal at the bottom of the LS2 box. Disconnect the drag link, remove the pitman arm and replace the seal. Bad play or notchiness calls for the three-bearing set, which means removing and opening the box. While you're under there, check the steering damper and tie-rod ends.",
+   "tools": "Sector-shaft seal 016 997 13 47 (Corteco) · steering box bearing set · pitman-arm puller · W460 steering damper 000 463 60 32 if worn",
+   "parts": [
+    {
+     "name": "Steering sector shaft seal 016 997 13 47",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/seal-steering-sector-shaft-0169971347/"
+    },
+    {
+     "name": "Steering box bearing set",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/steering-box-bearing-set-stbxst/"
+    },
+    {
+     "name": "Steering damper — W460 000 463 60 32",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/steering-shock-damper-w460-0004636032/"
+    }
+   ]
+  },
+  {
+   "title": "Cooling system refresh",
+   "diff": "2 / 5",
+   "time": "≈ 4 hours (estimate)",
+   "cost": "Parts plus labor",
+   "symptoms": "Temperature creeping up on climbs or in traffic, weeping radiator end tanks, coolant smelling of oil. These engines warp heads when they overheat.",
+   "fix": "Replace the radiator before it fails. An old one is likely clogged, and overheated iron-block, alloy-head engines warp their heads. Fit a new thermostat and hoses, check the fan and its shroud, and pressure-test the system. Aluminium W460 radiators are made in manual-gearbox and automatic versions; the automatic version has the transmission cooler.",
+   "tools": "Radiator 001 501 07 01 (aluminium versions for manual or automatic) · thermostat 110 200 05 15 · engine-specific hoses and fan shroud · 300 GD late water pump 616 200 07 20 if weeping · pressure tester",
+   "parts": [
+    {
+     "name": "Aluminium radiator — W460 (manual)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/aluminum-radiator-460-manual-transmission-0015010701b/"
+    },
+    {
+     "name": "Thermostat 87 °C 110 200 05 15",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/thermostat-87-1102000515/"
+    },
+    {
+     "name": "Water pump — 300 GD late 616 200 07 20",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/water-pump-300gd-late-style-w460-6162000720/"
+    },
+    {
+     "name": "Radiator cap 461 501 00 15",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/radiator-cap-460-461-4615010015/"
+    }
+   ]
+  },
+  {
+   "title": "Transfer case output seals",
+   "diff": "3 / 5",
+   "time": "≈ 3 hours (estimate)",
+   "cost": "≈$45 per outer seal (Expedition Imports)",
+   "symptoms": "Oil dripping from the transfer case flanges or slung around the propshaft ends, and a low transfer case oil level.",
+   "fix": "The VG 080 transfer case has three output flanges, each with an inner and an outer seal. Unbolt the propshaft, hold the flange and remove the nut, pull the flange, then replace both seals. Inspect the flange's sealing surface for a groove. Refill, and change the transfer case and axle oils while you're at it, because Classic & Sports Car recommends asking for their service history.",
+   "tools": "Outer seal 020 997 57 47 and inner seal 020 997 56 47 64 (one each per flange) · flange holding tool · front transfer-case flange nut 460 282 03 72 · seal driver",
+   "parts": [
+    {
+     "name": "Transfer case output flange seal, outer 020 997 57 47",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/transfer-case-output-flange-seal-outer-0209975747/"
+    },
+    {
+     "name": "Transfer case output flange seal, inner",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/transfer-case-output-flange-seal-inner-020997564764/"
+    },
+    {
+     "name": "Front transfer case flange nut 460 282 03 72",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/flange-nut-front-transfer-case-4602820372/"
+    }
+   ]
+  },
+  {
+   "title": "Sagging doors and rear-door leaks",
+   "diff": "2 / 5",
+   "time": "1–2 hours per door (estimate)",
+   "cost": "Hinge pin $8.50; rear hinge seal $22 (Expedition Imports)",
+   "symptoms": "Doors that drop when opened and have to be slammed, wind noise, or water and rust around the rear door hinges.",
+   "fix": "Support the door, drive out the worn hinge pins and fit new ones. Swap the rear-door hinge seals while the hinges are accessible, using the original recessed seals rather than the stick-on type. Clean and treat any rust you find under them.",
+   "tools": "Hinge pin 460 723 00 52 (front and rear doors) · rear single-door hinge seal 460 743 01 78 64 · barn-door hinge seal 460 743 00 78 · drift and hammer · rust converter and seam sealer",
+   "parts": [
+    {
+     "name": "Door hinge pin 460 723 00 52",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/hinge-pin-4607230052/"
+    },
+    {
+     "name": "Rear door hinge seal (single door)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/hinge-seal-single-rear-door-460743017864/"
+    },
+    {
+     "name": "Barn door hinge seal 460 743 00 78",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/hinge-seal-barn-doors-4607430078/"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "About a 32-inch 235/85R16 on the stock steel wheels. An Expedition Portal owner runs 235/85R16s on standard steel wheels on a short-wheelbase G. The original fitment was a skinny 205 R16, and many owners stay close to 215/85R16 because a naturally aspirated diesel struggles to turn a bigger tire up hills. For 33s and up, plan on lift springs.",
+   "src": "OWNER REPORTS · EXPEDITION PORTAL · LONGSTONE"
+  },
+  {
+   "q": "Is the W460 full-time four-wheel drive?",
+   "a": "No. It's part-time: you engage the front axle by lever through the transfer case, with high and low range. Permanent 4WD arrived with the 1989–90 [[g-class/w463|W463]]. Don't drive a W460 in 4WD on dry pavement.",
+   "src": "AWDWIKI · WIKIPEDIA"
+  },
+  {
+   "q": "Do all W460s have locking differentials?",
+   "a": "Not all of them. Mercedes made front and rear locks standard on every W460 from 1985, so earlier trucks may not have them. Look for the locker control on the dash and the slave cylinders on the axles. A W460 never had the W463's third (centre) lock.",
+   "src": "MERCEDES-BENZ G-CLASS MILESTONES"
+  },
+  {
+   "q": "Which engine should I buy?",
+   "a": "The 300 GD was the most popular W460 and the 280 GE the most powerful. Auto Bild names the 230 GE and the 300 GD, with their long-lived manual gearboxes, as the ones to have. The OM617 five-cylinder in the 300 GD has a reputation for reaching huge mileages, but it's slow and was never turbocharged in a W460.",
+   "src": "WIKIPEDIA · AUTO BILD"
+  },
+  {
+   "q": "How fast will it cruise?",
+   "a": "Not very. Factory figures for a 300 GD are 88 PS, 0–100 km/h in about 27 seconds and a 127 km/h (79 mph) top speed. An IH8MUD owner says his mildly modified OM617 ran out of power around 70 mph. A 280 GE is good for about 165 km/h.",
+   "src": "WIKIPEDIA · IH8MUD"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "Mercedes' cycle figures for the 300 GD run from 11.7 to 18.8 L/100 km, roughly 12.5–20 mpg US. The 280 GE is thirstier, at 14.0–22.4 L/100 km (about 10.5–17 mpg). Big tires, a roof rack and a lift make both worse.",
+   "src": "WIKIPEDIA (FACTORY FIGURES)"
+  },
+  {
+   "q": "Was the W460 sold in the US?",
+   "a": "Not by Mercedes. Grey-market specialists federalised some in the 1980s until the 1988 Motor Vehicle Safety Compliance Act made it much harder. Official US sales didn't begin until the 2002 model year, and before that [[g-class/europa|Europa International]] imported later W463s.",
+   "src": "WIKIPEDIA · HAGERTY"
+  },
+  {
+   "q": "W460, W461 or W463 — what's the difference?",
+   "a": "The W460 (1979–1991) is the original, with part-time 4WD and two lockers. The [[g-class/w461|W461]] kept the W460's body and chassis but used W463 running gear, and was built for armies, authorities and NGOs. The [[g-class/w463|W463]] is the civilian luxury G from 1990, with permanent 4WD, three lockers, ABS and wood trim.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Are parts hard to find?",
+   "a": "In the US they're scarce and expensive, according to IH8MUD owners. In Europe, Auto Bild says Mercedes dealers still stock most parts at high prices and used parts are plentiful. Specialists such as Expedition Imports stock W460 axle, locker, steering and cooling parts, and some components are shared with Mercedes cars and vans.",
+   "src": "IH8MUD · AUTO BILD · EXPEDITION IMPORTS"
+  },
+  {
+   "q": "What is a W460 worth?",
+   "a": "Classic & Sports Car's 2023 guide put a pre-1990 hardtop at £5,000 as a project, £14,000 average and £27,000+ for a show truck. Soft-tops run £12,000 / £30,000 / £75,000+. For a US example, a rusty, re-engined 1986 300 GD project sold for $13,000 on PCARMARKET in January 2022.",
+   "src": "CLASSIC & SPORTS CAR · PCARMARKET"
+  },
+  {
+   "q": "Can I use the diff locks on pavement?",
+   "a": "No. A locked diff stops the wheels turning at different speeds, so on grippy surfaces the driveline binds and the tires scrub. Lock on dirt, sand, snow or rock at low speed, and unlock before you're back on tarmac.",
+   "src": "BOXYTRUCKS"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "AXLE & LOCKER REBUILD KITS",
+   "why": "Most W460s are due a front-axle and locker-hydraulics refresh before any upgrades. Do this first.",
+   "who": [
+    {
+     "name": "Expedition Imports — front axle service kits",
+     "url": "https://expedition-imports.com/assorted-collections/g-wagon-front-axle-service-kits/"
+    },
+    {
+     "name": "Expedition Imports — W460 parts",
+     "url": "https://expedition-imports.com/g-wagon-parts/w460-g-class/"
+    }
+   ]
+  },
+  {
+   "cat": "MILD LIFT & SHOCKS",
+   "why": "A spacer lift and better dampers make room for slightly larger tires without upsetting the geometry.",
+   "who": [
+    {
+     "name": "Eurowise 1.5\" spacer lift (W460/W461/W463)",
+     "url": "https://shop.eurowise.com/products/w463liftkspacer"
+    },
+    {
+     "name": "Koni Raid shocks (W460/461/463), via Expedition Imports",
+     "url": "https://expedition-imports.com/shock-absorber-koni-raid-w460-461-463-front-905383/"
+    }
+   ]
+  },
+  {
+   "cat": "STEERING & SWAY BAR LINKS",
+   "why": "Stock sway-bar links bend off-road. Heavy-duty spherical links are a cheap insurance policy.",
+   "who": [
+    {
+     "name": "Eurowise HD sway bar links (W460/W463)",
+     "url": "https://shop.eurowise.com/products/gwagen-hd-sway-bar-links-w460-w463"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACKS",
+   "why": "A flat platform for a tent, spares and jerry cans. The long-wheelbase roof takes a big one.",
+   "who": [
+    {
+     "name": "LETECH LWB rack (W460/W461/W463), via GwagenParts",
+     "url": "https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/"
+    },
+    {
+     "name": "Front Runner",
+     "url": "https://www.frontrunneroutfitters.com/"
+    }
+   ]
+  },
+  {
+   "cat": "LIGHTING",
+   "why": "Ditch lights on the A-pillars light the trail edges without blinding your spotter.",
+   "who": [
+    {
+     "name": "Eurowise ditch-light brackets (W463/W461/W460)",
+     "url": "https://shop.eurowise.com/products/ewow463dlb"
+    }
+   ]
+  },
+  {
+   "cat": "COOLING",
+   "why": "A slow diesel working hard in low range needs every bit of radiator it can get.",
+   "who": [
+    {
+     "name": "Expedition Imports aluminium W460 radiators",
+     "url": "https://expedition-imports.com/aluminum-radiator-460-manual-transmission-0015010701b/"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1979–1991 · ALL W460",
+   "label": "W460 Geländewagen",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1979&maxyear=1991",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w460-gelandewagen/"
+  },
+  {
+   "years": "1985–1991 · LOCKERS STANDARD",
+   "label": "Late W460 (two lockers)",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1985&maxyear=1991",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w460-gelandewagen/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "@ExpedImports",
+   "focus": "G-WAGEN, UNIMOG & PINZGAUER PARTS",
+   "url": "https://www.youtube.com/@ExpedImports"
+  },
+  {
+   "kind": "YT",
+   "name": "@Nothing-but-Gs",
+   "focus": "G-WAGEN BUILDS & RESTORATION",
+   "url": "https://www.youtube.com/@Nothing-but-Gs"
+  },
+  {
+   "kind": "IG",
+   "name": "@nothingbutgs",
+   "focus": "G-WAGEN BUILDS",
+   "url": "https://www.instagram.com/nothingbutgs/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "Club G-Wagen",
+   "url": "https://clubgwagen.com/forum/",
+   "note": "The original G community, founded 1998; rallies, classifieds and old-timers who have seen every fault"
+  },
+  {
+   "name": "MBWorld — G-Class (W460 / W461 / W463)",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
+   "note": "Deepest technical archive; locker, axle and transfer-case DIY threads"
+  },
+  {
+   "name": "Expedition Portal",
+   "url": "https://forum.expeditionportal.com/",
+   "note": "G-Wagens as overland rigs: tires, springs, racks and long-distance builds"
+  },
+  {
+   "name": "IH8MUD — Diesel G-Wagen thread",
+   "url": "https://forum.ih8mud.com/threads/diesel-gwagen.1304478",
+   "note": "Land Cruiser forum, but a useful W460 300 GD ownership thread"
+  }
+ ],
+ "related": [
+  {
+   "rel": "CIVILIAN SUCCESSOR",
+   "name": "G-Class W463",
+   "family": "g-class",
+   "gen": "w463"
+  },
+  {
+   "rel": "WORKING SUCCESSOR",
+   "name": "G-Class W461",
+   "family": "g-class",
+   "gen": "w461"
+  },
+  {
+   "rel": "DESCENDANT",
+   "name": "G 500",
+   "family": "g-class",
+   "gen": "g500"
+  },
+  {
+   "rel": "CONTEMPORARY RIVAL",
+   "name": "Land Cruiser FJ60",
+   "family": "land-cruiser",
+   "gen": "fj60"
+  },
+  {
+   "rel": "CONTEMPORARY RIVAL",
+   "name": "Defender 90 / 110",
+   "family": "land-rover",
+   "gen": "defender-90-110"
+  },
+  {
+   "rel": "CONTEMPORARY RIVAL",
+   "name": "Range Rover Classic",
+   "family": "range-rover",
+   "gen": "classic"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "W460"
+  },
+  {
+   "k": "YEARS",
+   "v": "1979–1991"
+  },
+  {
+   "k": "BUILT BY",
+   "v": "Steyr-Daimler-Puch, Graz"
+  },
+  {
+   "k": "DESIGNER",
+   "v": "Erich Ledwinka"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "2,400 / 2,850 mm"
+  },
+  {
+   "k": "DRIVE",
+   "v": "Part-time 4WD, low range"
+  },
+  {
+   "k": "TRANSFER CASE",
+   "v": "VG 080"
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Front & rear (std from 1985)"
+  },
+  {
+   "k": "ENGINES",
+   "v": "2.0–2.8 L petrol, 2.4–3.0 L diesel"
+  },
+  {
+   "k": "ORIGINAL TIRE",
+   "v": "205 R16"
+  },
+  {
+   "k": "ALSO SOLD AS",
+   "v": "Puch G · Peugeot P4 (licence)"
+  },
+  {
+   "k": "SUCCEEDED BY",
+   "v": "W461 (work) · W463 (civilian)"
+  }
+ ],
+ "photos": [
+  {
+   "file": "high-pasture.jpg",
+   "alt": "A second-generation G-Class on rough grass and rocks with hills behind",
+   "caption": "SECOND GEN, NOT THIS TRUCK · HIGH PASTURE",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+  },
+  {
+   "file": "ridgeline.jpg",
+   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
+   "caption": "SECOND GEN, NOT THIS TRUCK · RIDGELINE",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Mercedes-Benz G-Class — Milestones of development",
+   "url": "https://ggb.mercedes-benz.com/en/success-stories/milestones-of-development"
+  },
+  {
+   "name": "Hagerty — Counter-evolutionary: The history of the G-wagen",
+   "url": "https://hagerty.com/media/?p=4183"
+  },
+  {
+   "name": "Classic & Sports Car — Buyer's guide: Mercedes-Benz G-Wagen",
+   "url": "https://classicandsportscar.com/node/55200"
+  },
+  {
+   "name": "Auto Bild — Mercedes 300 GD (W 460) gebraucht",
+   "url": "https://www.autobild.de/artikel/mercedes-300-gd-w-460-gebraucht-preis-kaufen-ebay-diesel-amg-19490777.html"
+  },
+  {
+   "name": "AWDwiki — Mercedes-Benz 4WD systems",
+   "url": "https://www.awdwiki.com/en/mercedes/"
+  },
+  {
+   "name": "Expedition Portal — Lockers: what type do the G-Wagens come with?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1291561"
+  },
+  {
+   "name": "Expedition Portal — Tires for 300GD",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1767327"
+  },
+  {
+   "name": "Longstone Tyres — Mercedes-Benz G-Wagen tyres",
+   "url": "https://www.longstonetyres.co.uk/classic-car-tyres/mercedes/g-wagen.html"
+  },
+  {
+   "name": "IH8MUD — Diesel G-Wagen",
+   "url": "https://forum.ih8mud.com/threads/diesel-gwagen.1304478"
+  },
+  {
+   "name": "PCARMARKET — 1986 Mercedes-Benz W460 300GD",
+   "url": "https://www.pcarmarket.com/auction/1986-mercedes-benz-g300d-1"
+  },
+  {
+   "name": "Wikipedia — Gunther Holtorf",
+   "url": "https://en.wikipedia.org/wiki/Gunther_Holtorf"
+  },
+  {
+   "name": "Wikipedia — Peugeot P4",
+   "url": "https://en.wikipedia.org/wiki/Peugeot_P4"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz OM617 engine",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_OM617_engine"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz M110 engine",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_M110_engine"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz OM602 engine",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_OM602_engine"
+  },
+  {
+   "name": "Expedition Imports — Front Axle Service Kit, W460",
+   "url": "https://expedition-imports.com/front-axle-service-kit-w460axlekit/"
+  },
+  {
+   "name": "Expedition Imports — Kingpin Bearing Kit",
+   "url": "https://expedition-imports.com/kingpin-bearing-kit-0009815905kit/"
+  },
+  {
+   "name": "Expedition Imports — Differential Lock Master Cylinder Rebuild Kit",
+   "url": "https://expedition-imports.com/differential-lock-master-cylinder-rebuild-kit-0003532455/"
+  },
+  {
+   "name": "Expedition Imports — Differential Lock Slave Cylinder Rebuild Kit",
+   "url": "https://expedition-imports.com/differential-lock-slave-cylinder-rebuild-kit-late-style-4603500784kit/"
+  },
+  {
+   "name": "Expedition Imports — Steering Sector Shaft Seal (LS2 box)",
+   "url": "https://expedition-imports.com/seal-steering-sector-shaft-0169971347/"
+  },
+  {
+   "name": "Expedition Imports — Transfer Case Output Flange Seal (VG 080)",
+   "url": "https://expedition-imports.com/transfer-case-output-flange-seal-outer-0209975747/"
+  },
+  {
+   "name": "Expedition Imports — Hinge Pin 460 723 00 52",
+   "url": "https://expedition-imports.com/hinge-pin-4607230052/"
+  },
+  {
+   "name": "Expedition Imports — W460 aluminium radiator",
+   "url": "https://expedition-imports.com/aluminum-radiator-460-manual-transmission-0015010701b/"
+  },
+  {
+   "name": "Expedition Imports — W460 filters",
+   "url": "https://expedition-imports.com/g-wagon-parts/w460-g-class/filters/"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Assume nothing was done. Classic & Sports Car tells buyers to ask about oil changes for the engine, gearbox, transfer box and diffs, and most W460s are now 35 to 45 years old. Change every fluid, fix the cooling system and get the locker hydraulics working before the first trail trip. Factory capacities vary by engine and gearbox, so check the manual for your truck's numbers.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "Oil grade per manual for your engine [CONFIRM IN MANUAL]",
+    "interval": "At purchase, then per manual",
+    "note": "Filters differ by engine: 300 GD/240 GD, 280 GE, 230 GE and 230 G (M115) each have their own part.",
+    "parts": [
+     {
+      "name": "Oil filter — 300 GD / 240 GD 617 180 00 09",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/oil-filter-300gd-and-240gd-6171800009/"
+     },
+     {
+      "name": "Oil filter — 280 GE 000 180 06 09",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/oil-filter-280ge-0001800609/"
+     },
+     {
+      "name": "Oil filter — 230 GE 000 180 24 09",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/engine-oil-filter-230ge-0001802409/"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "OE-type element",
+    "interval": "At purchase; more often in dust",
+    "note": "Two element types: 230 G/240 GD/300 GD and 280 GE/230 GE.",
+    "parts": [
+     {
+      "name": "Air filter — 230 G / 240 GD / 300 GD",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/air-filter-230g-240gd-300gd-0020942304/"
+     },
+     {
+      "name": "Air filter — 280 GE / 230 GE",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/air-filter-280ge-230ge-0020943504/"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter(s)",
+    "spec": "OE-type; diesels also have a pre-filter",
+    "interval": "At purchase",
+    "note": "Old fuel and rusty tanks block filters. Auto Bild lists the fuel tank as a rust spot.",
+    "parts": [
+     {
+      "name": "Diesel spin-on fuel filter 001 092 04 01",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/fuel-filter-diesel-spin-on-mahle-mann-0010920401/"
+     },
+     {
+      "name": "Inline diesel pre-filter 001 477 66 01",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/fuel-filter-inline-diesel-0014776601/"
+     },
+     {
+      "name": "Fuel filter (petrol) 002 477 45 01",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/fuel-filter-0024774501/"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs / ignition (petrol)",
+    "spec": "Engine-specific plug [CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Classic & Sports Car says poor running is often caused by vacuum leaks, so check the hoses while you're there.",
+    "parts": [
+     {
+      "name": "Spark plug — 280 GE",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/spark-plug-280ge-0031591103/"
+     },
+     {
+      "name": "Spark plug — 230 GE",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/230ge-spark-plug-0031590603/"
+     },
+     {
+      "name": "Ignition wire set — 280 GE (late)",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/ignition-wire-set-280ge-late-1101508118/"
+     }
+    ]
+   },
+   {
+    "item": "Coolant, radiator & thermostat",
+    "spec": "Mercedes-approved coolant [CONFIRM IN MANUAL]",
+    "interval": "At purchase; coolant every few years",
+    "note": "Classic & Sports Car warns of overheating and head warping, and says an old radiator is probably clogged. Pressure-test the system and replace a tired radiator.",
+    "parts": [
+     {
+      "name": "Thermostat 87 °C",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/thermostat-87-1102000515/"
+     },
+     {
+      "name": "Radiator cap 461 501 00 15",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/radiator-cap-460-461-4615010015/"
+     },
+     {
+      "name": "Aluminium radiator — W460",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/aluminum-radiator-460-manual-transmission-0015010701b/"
+     }
+    ]
+   },
+   {
+    "item": "Gearbox oil (manual) or ATF & filter (automatic)",
+    "spec": "Per manual [CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Automatics take a filter and O-ring. Check manual boxes for noise and clonks (Classic & Sports Car).",
+    "parts": [
+     {
+      "name": "Automatic transmission filter 720 277 00 95",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/automatic-transmission-filter-7202770095/"
+     },
+     {
+      "name": "Transmission filter O-ring",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/automatic-transmission-filter-o-ring-0069979948/"
+     },
+     {
+      "name": "Transmission drain plug",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/transmission-drain-plug-000000000884/"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case (VG 080) oil",
+    "spec": "Per manual [CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Look for leaks at the three output flanges while it drains.",
+    "parts": [
+     {
+      "name": "Output flange seal, outer",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/transfer-case-output-flange-seal-outer-0209975747/"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differential oil",
+    "spec": "Hypoid gear oil per manual [CONFIRM IN MANUAL]",
+    "interval": "At purchase; after deep water crossings",
+    "note": "Fit new drain/fill plugs and cover gaskets if they're weeping.",
+    "parts": [
+     {
+      "name": "Differential drain/fill plug",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/differential-drain-fill-plug-3529970032/"
+     },
+     {
+      "name": "Differential cover gasket",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/differential-cover-gasket-6013510080/"
+     }
+    ]
+   },
+   {
+    "item": "Locker hydraulics",
+    "spec": "Fluid per manual [CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Bleed the system and test both locks. Locker lines are paired with the brake hoses on a W460, so replace aged flex lines together.",
+    "parts": [
+     {
+      "name": "Front brake / rear locker hose",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/460-brake-hose-front-and-differential-lock-hose-rear-4604205048f/"
+     },
+     {
+      "name": "Rear brake / front locker hose",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/460-brake-hose-rear-and-differential-lock-hose-front-4604285135/"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid & hoses",
+    "spec": "DOT 4 [CONFIRM IN MANUAL]",
+    "interval": "At purchase, then every 2 years",
+    "note": "Check calipers, rotors and the rear drums on early trucks.",
+    "parts": [
+     {
+      "name": "Bleeder cap",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/bleeder-cap-for-brake-and-clutch-bleeder-valves-0004210887/"
+     },
+     {
+      "name": "Front brake pads",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/front-brake-pads-0014201420f/"
+     }
+    ]
+   },
+   {
+    "item": "Steering box & power steering",
+    "spec": "Fluid type marked on cap [CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Classic & Sports Car lists steering box leaks as a standard check. Replace the pump filter.",
+    "parts": [
+     {
+      "name": "Power steering pump filter 000 466 21 04",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/power-steering-pump-filter-0004662104/"
+     },
+     {
+      "name": "Sector shaft seal",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/seal-steering-sector-shaft-0169971347/"
+     }
+    ]
+   },
+   {
+    "item": "Front axle: kingpins, swivel seals, wheel bearings",
+    "spec": "Inspect and grease",
+    "interval": "At purchase",
+    "note": "A weeping steering ball or bearing play means doing the whole corner.",
+    "parts": [
+     {
+      "name": "Kingpin bearing kit",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/kingpin-bearing-kit-0009815905kit/"
+     },
+     {
+      "name": "Steering ball wipe seal",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/steering-ball-wipe-seal-4603310180/"
+     }
+    ]
+   },
+   {
+    "item": "V-belts",
+    "spec": "Engine-specific sizes",
+    "interval": "At purchase",
+    "note": "Older engines use several V-belts rather than one serpentine belt; match the sizes to your engine.",
+    "parts": [
+     {
+      "name": "V-belt 13 × 1030",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/v-belt-13-x-1030-0059976992/"
+     },
+     {
+      "name": "V-belt 10 × 960",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/v-belt-10-x-960-0049978092/"
+     }
+    ]
+   }
+  ]
+ }
+}

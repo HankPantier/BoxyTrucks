@@ -1,0 +1,42 @@
+{
+ "g-class": [
+  {
+   "name": "FCP Euro",
+   "search": "https://www.fcpeuro.com/products?keywords={q}"
+  }
+ ],
+ "land-cruiser": [
+  {
+   "name": "CruiserTeq",
+   "search": "https://cruiserteq.com/?s={q}&post_type=product"
+  }
+ ],
+ "lexus": [
+  {
+   "name": "CruiserTeq",
+   "search": "https://cruiserteq.com/?s={q}&post_type=product"
+  }
+ ],
+ "4runner": [],
+ "land-rover": [
+  {
+   "name": "Rovers North",
+   "search": "https://roversnorth.com/search?q={q}"
+  },
+  {
+   "name": "Atlantic British",
+   "search": "https://www.atlanticbritish.com/search?q={q}"
+  }
+ ],
+ "range-rover": [
+  {
+   "name": "Atlantic British",
+   "search": "https://www.atlanticbritish.com/search?q={q}"
+  },
+  {
+   "name": "Rovers North",
+   "search": "https://roversnorth.com/search?q={q}"
+  }
+ ],
+ "grenadier": []
+}

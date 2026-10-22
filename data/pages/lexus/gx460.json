@@ -1,0 +1,958 @@
+{
+ "slug": "gx460",
+ "title": "Lexus GX 460",
+ "eyebrow": "LEXUS GX 460 · J150 · 2010–2023",
+ "verdict": "Fourteen years, one V8, zero reinventions. The GX 460 was the luxury SUV your accountant approved of, and it turns out it was also a Prado 150 with a locking center diff.",
+ "codes": [
+  "URJ150",
+  "1UR-FE 4.6 V8",
+  "TORSEN LOCKING CENTER",
+  "KDSS STANDARD"
+ ],
+ "hero_photo": "prado120-dune-descent.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The Lexus GX 460 is the Land Cruiser Prado 150 in a tailored suit, and it wore that suit for fourteen model years. Underneath are a ladder frame, a solid rear axle, a 301-hp 4.6-liter 1UR-FE V8, a six-speed automatic and full-time four-wheel drive with a Torsen center differential that locks. Lexus sold it to people who liked heated seats. The second-hand market sells it to people who like the fact that it shares its bones with the [[4runner/5th-gen|5th-gen 4Runner]] and still has a V8."
+   ]
+  },
+  {
+   "heading": "A ROUGH FIRST MONTH",
+   "paragraphs": [
+    "The second-generation GX debuted at the Guangzhou auto show in November 2009 and kept the [[lexus/gx470|GX 470]]'s formula: body-on-frame construction and full-time four-wheel drive. Lexus made the Kinetic Dynamic Suspension System (KDSS) standard, swapped the floor-mounted transfer lever for a toggle switch and fitted a Torsen center differential that normally splits torque 40:60 front to rear, moving to 50:50 when it detects rear-wheel slip.",
+    "Then, on April 13, 2010, Consumer Reports gave the GX 460 its first 'Don't Buy: Safety Risk' label since 2001. In a lift-off oversteer test, the stability control reacted too slowly. Toyota suspended sales that day, confirmed the result itself three days later and recalled the trucks for a VSC software update on April 19. Sales resumed April 29, and Consumer Reports lifted the label on May 7."
+   ]
+  },
+  {
+   "heading": "SPINDLES, SCREENS AND SLOW EVOLUTION",
+   "paragraphs": [
+    "After that rocky start, Lexus left the hardware alone and changed the face. The 2014 refresh brought the spindle grille, LED headlights and a $4,750 price cut. It also reshuffled the trims, so the 2010–2013 Premium roughly equals the 2014-on Luxury, which is where you find the rear air suspension and adaptive dampers. For 2020 came a sharper grille, triple-beam LEDs and an Off-Road package with a 360-degree camera, a transmission cooler, a fuel-tank protector, Crawl Control and Multi-Terrain Select.",
+    "Apple CarPlay and Android Auto finally showed up in 2022, along with a new dashboard. Through all of it, the 1UR-FE and the six-speed stayed put. In China, Lexus sold a GX 400 with a 4.0-liter V6 from 2012 to 2017. Everywhere else, the GX 460 kept its V8 until the end. Toyota's habit of running a platform for a long time is usually a sign that the platform is good."
+   ]
+  },
+  {
+   "heading": "THE BUILDERS SHOW UP",
+   "paragraphs": [
+    "For years the GX 460 lived in the shadow of the GX 470, partly because early aftermarket support was thin. That changed. IH8MUD's GX 460 build guide now lists purpose-built bumpers, sliders, skids and roof racks from Metal Tech 4x4, Southern Style Offroad, RCI, CBI, Dobinsons, Ironman and ARB. Front and gas-tank skids from the 5th-gen 4Runner can often be swapped across, and forum regulars report fitting 35-inch tires with a 2–2.5 in lift, new upper control arms, a body mount chop and some fender work.",
+    "Owners also discovered that the factory electronics can be unlocked. Crawl Control and Multi-Terrain Select can be retrofitted to any 2010–2019 truck with factory switches and a zero-point calibration. That's the GX 460 in a nutshell: more capability was always there, and Lexus mostly didn't mention it."
+   ]
+  },
+  {
+   "heading": "HOW IT ENDED",
+   "paragraphs": [
+    "The GX 460 never really faded. US sales peaked at 32,509 in 2021, and it still found 31,910 buyers in its final year, 2023. It was replaced by the boxy [[lexus/gx550|GX 550]], which moves to the GA-F platform shared with the [[land-cruiser/250-series|250 Series]] Land Cruiser and swaps the V8 for a twin-turbo V6.",
+    "That leaves the 460 as the last V8 GX, and for some buyers that's the whole point. Its known weak spots are expensive leaks rather than catastrophic failures: water pumps, a coolant passage under the intake manifold called the coolant valley, timing covers, plus the secondary air pump on early trucks. None of them is a mystery, and all of them are documented step by step by owners who'd rather keep the V8 than trade for a newer engine."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · 24 DAYS IN 2010",
+  "title": "The 'Don't Buy' that didn't stick",
+  "paragraphs": [
+   "Consumer Reports had not slapped a 'Don't Buy' on anything since 2001 when it flagged the brand-new GX 460 on April 13, 2010. Its testers found that in a lift-off oversteer maneuver, the rear stepped out and the stability control took too long to catch it.",
+   "Toyota's response was unusually fast. It stopped sales the same day, reproduced the result on April 16, recalled the GX 460 and the left-hand-drive Land Cruiser Prado for reprogrammed VSC on April 19, and resumed sales on April 29. On May 7, Consumer Reports retested and dropped the label. Any truck you buy today should long since have the update, but confirm it on the Lexus owners' site with the VIN."
+  ]
+ },
+ "engineering_intro": "The GX 460 is a J150 Prado underneath, the same platform family as the 5th-gen 4Runner and the FJ Cruiser. A ladder frame carries independent front suspension and a solid rear axle. Full-time 4WD runs through an electronically shifted two-speed transfer case and a Torsen center differential that can be locked. Axle diffs stay open, with A-TRAC brake-based traction control filling in. KDSS, which hydraulically frees up the anti-roll bars for articulation, is standard. Higher trims add rear air springs with height control and adaptive dampers.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame, J150",
+   "note": "Shared with the Prado 150 and the 5th-gen 4Runner."
+  },
+  {
+   "k": "ENGINE",
+   "v": "1UR-FE 4.6 V8",
+   "note": "301 hp and 329 lb-ft in US trim. Timing chain, not a belt."
+  },
+  {
+   "k": "DRIVELINE",
+   "v": "Full-time 4WD",
+   "note": "Torsen center diff with a lock. Normally 40:60 front to rear, and up to 50:50 when the rear slips."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "KDSS standard",
+   "note": "Hydraulically linked anti-roll bars. Get KDSS-specific front skids."
+  },
+  {
+   "k": "REAR",
+   "v": "Solid axle",
+   "note": "Rear air springs with height control (RAHC) and AVS dampers on '10–'13 Premium and '14-on Luxury."
+  },
+  {
+   "k": "TRACTION",
+   "v": "A-TRAC, DAC, HAC",
+   "note": "Crawl Control on some trims and retrofittable to others. No factory axle lockers."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "2010–2013",
+   "platform": "URJ150",
+   "engine": "1UR-FE 4.6 V8",
+   "output": "301 hp / 329 lb-ft",
+   "note": "Launch. Base and Premium trims, with KDSS standard. 'Don't Buy' and VSC recall in spring 2010. Secondary air pump failures common."
+  },
+  {
+   "years": "2012–2017 (China)",
+   "platform": "J150",
+   "engine": "1GR-FE 4.0 V6",
+   "output": "271 hp / 281 lb-ft",
+   "note": "GX 400, sold in China only."
+  },
+  {
+   "years": "2014–2019",
+   "platform": "URJ150",
+   "engine": "1UR-FE 4.6 V8",
+   "output": "301 hp / 329 lb-ft",
+   "note": "Spindle grille and LED headlights. Base, Premium and Luxury trims. Turning circle grows from 38.1 to 41.4 ft."
+  },
+  {
+   "years": "2020–2021",
+   "platform": "URJ150",
+   "engine": "1UR-FE 4.6 V8",
+   "output": "301 hp / 329 lb-ft",
+   "note": "Second facelift. Off-Road package with Crawl Control, MTS, a transmission cooler and a fuel-tank protector. Safety System+ standard."
+  },
+  {
+   "years": "2022–2023",
+   "platform": "URJ150",
+   "engine": "1UR-FE 4.6 V8",
+   "output": "301 hp / 329 lb-ft",
+   "note": "New infotainment with CarPlay and Android Auto, plus a redesigned dash. 2022 Black Line edition."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Service history first",
+   "body": "GXOR's buying guide puts maintenance records ahead of mileage. A high-mileage truck with records beats a low-mileage one without. Pull the Lexus dealer history on the Lexus Drivers site before you go and look."
+  },
+  {
+   "head": "Coolant on the bell housing",
+   "body": "Crawl behind a front wheel and look up at the transmission bell housing. Pink crust there points to the coolant valley leak, which shows up around 100k miles. Also check the water pump weep hole at the front of the engine."
+  },
+  {
+   "head": "Oil around the filter",
+   "body": "Oil residue near the oil filter and lower engine can be the driver-side timing cover, not the filter. Dealers have quoted $2,600–3,500 because the engine has to come down. Price it in or walk."
+  },
+  {
+   "head": "Cold-start shifting",
+   "body": "Drive it from a cold start for 15 minutes. If it won't shift 3–4 and throws P2714/P0761 with VSC and 4LO lights, you've found the solenoid problem that has led some owners to $7–8k transmission replacements."
+  },
+  {
+   "head": "Secondary air pump (2010–2013)",
+   "body": "Failures of the pump and its air injection valves were common on early trucks and can put the truck in limp mode. Lexus extended coverage. Check whether the updated parts are already in."
+  },
+  {
+   "head": "Center diff lock and driveshaft",
+   "body": "Lock and unlock the center diff. A seized actuator can cost $1k+. Listen for driveshaft clunks. Grease is a temporary fix, and a Lexus TSB covers updated parts."
+  },
+  {
+   "head": "Rear air springs",
+   "body": "Premium ('10–'13) and Luxury ('14-on) trucks ride on rear air. Look for sag after sitting overnight and a busy compressor. ClubLexus regulars say failures are rarer than on the GX 470 and fixes are cheap, but check anyway."
+  },
+  {
+   "head": "Frame rust and radiator",
+   "body": "Frame rust is the dealbreaker on salt-belt trucks. GXOR also notes radiators often start leaking between 100k and 150k miles. It's an easy job, but factor it in."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Coolant valley leak",
+   "diff": "4 / 5",
+   "time": "≈ 6–8 hours shop labor, a long weekend DIY",
+   "cost": "About $1,500 at a dealer (≈ $200 parts + 6–8 h labor). About $110 minimum DIY.",
+   "symptoms": "The coolant level keeps dropping, with pink or red coolant running down the back of the engine and the transmission bell housing. It typically appears around 100k miles on 1UR-FE engines.",
+   "fix": "Disconnect the battery and remove the engine cover and intake. Unbolt the intake manifold (ten 10 mm fasteners), then the EGR cooler, bypass lines and PCV housing. Lift the front of the PCV housing before sliding it forward. Scrape and clean the valley plate flange, apply fresh FIPG, then reassemble to torque spec with new gaskets and O-rings. Refill with Toyota Super Long Life coolant and bleed. Many owners do the water pump and thermostat while they're in there.",
+   "tools": "E8 female Torx · 10–14 mm sockets and extensions · torque wrench (7–35 ft-lb) · plastic scrapers · brake cleaner · shop vac · FIPG 00295-00103 · coolant pipe O-rings 96761-35035 (×2) · intake gaskets 17171-0S030 (×2) · EGR gaskets 25685-38010 and 25629-38010 · PCV valve 12204-38010 (optional)",
+   "parts": [
+    {
+     "name": "Intake manifold gaskets, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,intake+manifold+gasket,5424"
+    },
+    {
+     "name": "EGR cooler gaskets, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,exhaust+%26+emission,egr+cooler+gasket,20110"
+    },
+    {
+     "name": "Coolant (Toyota Super Long Life or equivalent), 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,coolant+/+antifreeze,11393"
+    }
+   ]
+  },
+  {
+   "title": "Water pump",
+   "diff": "3 / 5",
+   "time": "Half a day DIY",
+   "cost": "One owner paid $688 labor at a dealer, plus about $125 for the pump",
+   "symptoms": "Seepage or crust at the water pump weep hole, often found at a routine service, and a coolant level that slowly drops. Owners have reported leaks from about 28k to 100k+ miles.",
+   "fix": "Drain the coolant from the radiator petcock (driver's side, underneath). Remove the fan and shroud, then the drive belt. Unbolt the pump, clean the mating surface and fit the new pump with its gasket. Replace the belt while it's off. Refill with pink Toyota Super Long Life coolant, not red, and bleed the system.",
+   "tools": "Basic metric sockets · slim 10 mm wrench for the fan nuts · water pump 16100-09525 · drive belt 90916-A2033 · about 2 gal Toyota SLLC (pink)",
+   "parts": [
+    {
+     "name": "Water pump, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,water+pump,2208"
+    },
+    {
+     "name": "Water pump gasket, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,water+pump+gasket,2148"
+    },
+    {
+     "name": "Thermostat, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,thermostat,2200"
+    },
+    {
+     "name": "Coolant, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,coolant+/+antifreeze,11393"
+    }
+   ]
+  },
+  {
+   "title": "Secondary air pump and valves (2010–2013)",
+   "diff": "3 / 5",
+   "time": "≈ half a day",
+   "cost": "Check dealer coverage first. Lexus extended the warranty on the '10–'13 pump and valves for 10 years from first service.",
+   "symptoms": "Check engine light with P2440, P2442, P2445 and/or P0418, sometimes with limp mode.",
+   "fix": "The pump's foam filter breaks down, and the pump shreds it and blows debris into the air injection valves. Replace the pump and both valves with Lexus's redesigned parts. The pump sits behind the front right headlight. GXOR describes a temporary way out of limp mode: unplug the pump and clear codes. The check engine light comes back, but limp mode stays off.",
+   "tools": "Basic hand tools · scan tool to clear codes · updated OEM pump and both air injection valves",
+   "parts": [
+    {
+     "name": "Secondary air injection pump, 2015 GX 460 (confirm year fitment)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,exhaust+%26+emission,air+/+smog+pump,4920"
+    },
+    {
+     "name": "Secondary air check/switching valves, 2015 GX 460 (confirm year fitment)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,exhaust+%26+emission,air+/+smog+pump+check+valve,4912"
+    }
+   ]
+  },
+  {
+   "title": "P2714 / P0761 cold-start shift problem",
+   "diff": "2 / 5 (fluid side) – 5 / 5 (transmission)",
+   "time": "1–2 hours for fluid and sensors",
+   "cost": "Owners cite $7–8k for a replacement transmission. Fluid and sensors cost far less.",
+   "symptoms": "On cold starts, especially below about 50°F, the truck won't shift 3–4 within the first 5–15 minutes. It sets P2714 and P0761 and turns on the check engine, VSC and 4LO lights.",
+   "fix": "IH8MUD's summary thread lists the usual escalation. Start with an ATF drain and fill, clean the MAF and throttle body, and clean and reseat the related connectors. Then replace both transmission speed sensors, then the solenoids. Some owners manually shift the first 15 minutes (upshifting around 2,200–2,600 rpm) as a workaround. Recent posts report success with a seal-conditioning ATF additive. Once reverse or 3–4 won't engage at all, the transmission is likely done.",
+   "tools": "Scan tool · ATF and fill tools · MAF and throttle-body cleaner · speed sensors 89413-0C011",
+   "parts": [
+    {
+     "name": "ATF WS, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,transmission-automatic,transmission+fluid,11387"
+    },
+    {
+     "name": "Speed sensors, 2015 GX 460 (match input/output position)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,electrical,speed+sensor,1002125"
+    },
+    {
+     "name": "Shift solenoids, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,transmission-automatic,shift+solenoid,8476"
+    },
+    {
+     "name": "Transmission pan gasket, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,transmission-automatic,fluid+pan+gasket,8612"
+    }
+   ]
+  },
+  {
+   "title": "Timing cover oil leak",
+   "diff": "5 / 5",
+   "time": "≈ 10 hours dealer labor",
+   "cost": "$2,600–3,500 quoted by dealers (owner reports)",
+   "symptoms": "Oil residue around the oil filter area and bottom of the engine, traced to the driver-side timing cover.",
+   "fix": "Dealers drop the engine to reseal or replace the cover. One IH8MUD owner documented doing the valve covers, cam towers, coolant valley and timing cover together at home on a 177k-mile truck, working from the factory service manual and labeling every fastener. It's a big job. Some owners just monitor slow seeps and check levels at each oil change.",
+   "tools": "Factory service manual · full metric socket set · FIPG · timing cover seal · head gasket set if doing cam towers · painter's tape and cups for fastener labeling",
+   "parts": [
+    {
+     "name": "Timing cover (front crank) seal, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,timing+cover+seal,5612"
+    },
+    {
+     "name": "Valve cover gaskets, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,valve+cover+gasket,10710"
+    },
+    {
+     "name": "Engine oil (SAE 0W-20), 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,oil,12138"
+    }
+   ]
+  },
+  {
+   "title": "Rear air spring replacement or coil conversion",
+   "diff": "2 / 5",
+   "time": "≈ 2–3 hours",
+   "cost": "\"A couple hundred\" dollars for aftermarket air springs (owner report). Coil kits cost more.",
+   "symptoms": "Rear sags after sitting, the compressor runs a lot, or the height-control warning appears. This applies only to trucks with rear air ('10–'13 Premium and '14-on Luxury).",
+   "fix": "Support the axle on stands, remove the wheels and release the air springs. Either fit new air springs or convert to coils with a bolt-on kit. Lifting a truck with rear air means converting first. Southern Style Offroad's kit adds adjustable spacers to correct KDSS lean. If you convert and plan to add Crawl Control later, you'll need the non-AVS crawl switch (84970-60090).",
+   "tools": "Floor jack · stands · basic metric sockets · coil conversion kit (e.g. Metal Tech 4x4 Stage 3 stock height, or Southern Style Offroad) or replacement air springs",
+   "parts": [
+    {
+     "name": "Rear air springs, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,suspension,air+spring,15005"
+    },
+    {
+     "name": "Rear coil springs (conversion), 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,suspension,coil+spring,7512"
+    },
+    {
+     "name": "Air suspension compressor, 2015 GX 460",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,suspension,air+compressor,12719"
+    }
+   ]
+  },
+  {
+   "title": "Add Crawl Control and Multi-Terrain Select",
+   "diff": "2 / 5",
+   "time": "≈ 2 hours",
+   "cost": "Parts only (factory switches)",
+   "symptoms": "Not a fault. Most 2010–2019 US trucks left the factory without Crawl Control or MTS.",
+   "fix": "Lift the center console trim and swap in the factory switch panels. Then run a yaw-rate sensor zero-point calibration (the OBD-wire method is covered in linked videos). Don't search parts by VIN, because you may be sent the wrong part.",
+   "tools": "Trim tools · MTS 859A1-60020 ('10–'13) or 859A1-60040 ('14–'19) · Crawl 84970-60070 (with AVS/RAHC) or 84970-60090 (without, or converted)",
+   "parts": [
+    {
+     "name": "Crawl Control switch for trucks without AVS (84970-60090)",
+     "supplier": "Lexus Genuine Parts",
+     "url": "https://parts.lexus.com/search?search_str=84970-60090"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "Stock is P265/60R18, about 30.5 in. One owner reports 255/70R18 (about 32.1 in) fitting a stock 460 with no rubbing. 265/70R18 tends to touch plastics at full lock. On 17s, GXOR's database has 275/65R17 on stock suspension with only a slight liner rub at full turn. Treat about 32 in as the no-lift limit. 33s want a lift, and 35s need a 2–2.5 in lift plus UCAs, a body mount chop, liner removal and pinch-weld work.",
+   "src": "IH8MUD · GXOR · ISEECARS"
+  },
+  {
+   "q": "Is it a timing belt or chain?",
+   "a": "Chain. Unlike the GX 470's 2UZ-FE, the 1UR-FE has no belt interval. You still need to watch the water pump, because it often leaks well before the engine is worn.",
+   "src": "GXOR"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "Up to 6,500 lb.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "Wikipedia lists the EPA estimate at 17 mpg combined. It's a 5,100-plus-lb truck with a V8, so bigger tires and roof racks pull that down.",
+   "src": "WIKIPEDIA · GXOR"
+  },
+  {
+   "q": "Which trims have rear air suspension?",
+   "a": "The 2010–2013 Premium, and the 2014-on Luxury, which is the equivalent trim after the reshuffle. Those trucks also get AVS adaptive dampers. Lifting one means converting the rear to coils first.",
+   "src": "GXOR · IH8MUD"
+  },
+  {
+   "q": "Can I add Crawl Control or Multi-Terrain Select?",
+   "a": "Yes, on 2010–2019 trucks of any trim, using factory switch panels and a zero-point calibration. Part numbers differ by year and by whether the truck still has AVS/RAHC. Retrofit details for 2020-on trucks are unknown.",
+   "src": "IH8MUD"
+  },
+  {
+   "q": "Does KDSS matter for mods?",
+   "a": "Yes. KDSS is standard, so buy KDSS-specific front skids (ARB and ASFIR both make versions). Expect some lean after a rear coil conversion. Southern Style Offroad's kit includes spacers to correct it.",
+   "src": "IH8MUD"
+  },
+  {
+   "q": "Which years should I buy or avoid?",
+   "a": "2010–2013 trucks have the air-pump issue (confirm the updated parts or warranty work) and the 38.1-ft turning circle. 2014-on trucks get the facelift but turn wider, at 41.4 ft. 2020-on Off-Road package trucks have Crawl Control, MTS and a transmission cooler from the factory. 2022–2023 trucks add CarPlay. Mechanically, Lexus changed little, so condition and records matter more than year.",
+   "src": "GXOR · WIKIPEDIA · IH8MUD"
+  },
+  {
+   "q": "What was the Consumer Reports 'Don't Buy' about?",
+   "a": "In April 2010, the stability control was slow to catch a lift-off oversteer slide. Toyota recalled the trucks for a VSC software update, and Consumer Reports lifted the label on May 7, 2010.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Is it reliable?",
+   "a": "The core drivetrain has a good reputation. The well-documented failures are leaks and accessories: water pumps, the coolant valley, the timing cover, early air pumps and, on some trucks, the cold-start P2714/P0761 shift fault. Budget for those, and a 200k-mile GX 460 is not unusual.",
+   "src": "CLUBLEXUS · IH8MUD"
+  },
+  {
+   "q": "Can I use 5th-gen 4Runner parts?",
+   "a": "Often, yes. IH8MUD's build guide notes that 5th-gen 4Runner KDSS-compatible front skids and gas-tank skids usually swap over, and some 4th-gen V8 4Runner transmission and transfer-case skids have been used. Bumpers and body parts are GX-specific.",
+   "src": "IH8MUD"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "A 2–3 in lift is the usual first step to 33s. Convert rear air to coils first, and plan for upper control arms if you go bigger.",
+   "who": [
+    {
+     "name": "Metal Tech 4x4",
+     "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-gx-series-gx460-2010-2023"
+    },
+    {
+     "name": "ToyTec Lifts",
+     "url": "https://toyteclifts.com/shop-by-vehicle/lexus-gx-series/lexus-gx460-2010-2023"
+    },
+    {
+     "name": "Total Chaos Fabrication",
+     "url": "https://www.chaosfab.com/2010+Lexus-GX-460-Off-Road-Suspension-Accessories"
+    }
+   ]
+  },
+  {
+   "cat": "REAR COIL CONVERSION",
+   "why": "Retires the aging rear air springs and makes a lift possible.",
+   "who": [
+    {
+     "name": "Metal Tech 4x4 (Stage 3 kit)",
+     "url": "https://www.metaltech4x4.com/products/metal-tech-4x4-gx460-rear-coil-conversion-stage-3-stock-height-w-key-cones"
+    },
+    {
+     "name": "Southern Style Offroad",
+     "url": "https://southernstyleoffroad.com/collections/lexus-gx-2010-2023"
+    }
+   ]
+  },
+  {
+   "cat": "SKID PLATES",
+   "why": "The factory plastic won't stop a rock. Front, transmission, transfer-case and gas-tank skids are now available for the 460.",
+   "who": [
+    {
+     "name": "C4 Fabrication",
+     "url": "https://www.c4fabrication.com/collections/gx460"
+    },
+    {
+     "name": "BudBuilt",
+     "url": "https://www.budbuilt.com/Lexus_c_451.html"
+    }
+   ]
+  },
+  {
+   "cat": "ROCK SLIDERS",
+   "why": "Protect the rockers, and the expensive doors above them, on ledges.",
+   "who": [
+    {
+     "name": "Metal Tech 4x4 (OPOR)",
+     "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-gx-series-gx460-2010-2023"
+    },
+    {
+     "name": "Southern Style Offroad",
+     "url": "https://southernstyleoffroad.com/collections/lexus-gx-2010-2023"
+    },
+    {
+     "name": "C4 Fabrication",
+     "url": "https://www.c4fabrication.com/collections/gx460"
+    }
+   ]
+  },
+  {
+   "cat": "BUMPERS & SWING-OUTS",
+   "why": "Better approach angles and winch mounting up front, plus a swing-out rear carrier for a full-size spare.",
+   "who": [
+    {
+     "name": "Dissent Off-Road",
+     "url": "https://dissentoffroad.com/collections/lexus-gx"
+    },
+    {
+     "name": "Metal Tech 4x4 (Tiger Shark / Lancer)",
+     "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-gx-series-gx460-2010-2023"
+    },
+    {
+     "name": "C4 Fabrication",
+     "url": "https://www.c4fabrication.com/collections/gx460"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACKS",
+   "why": "A low flat rack keeps the GX garageable and gives you room for a tent, Maxtrax and lights.",
+   "who": [
+    {
+     "name": "Prinsu",
+     "url": "https://prinsu.com/product/prinsu-pro-lexus-gx460-full-roof-rack-2010-2023/"
+    },
+    {
+     "name": "Sherpa Equipment Co.",
+     "url": "https://sherpaec.com/pages/lexus-gx460"
+    }
+   ]
+  },
+  {
+   "cat": "BODY MOUNT CHOP",
+   "why": "Needed for really big tires. It trims the front body mount so a 35 clears at full lock.",
+   "who": [
+    {
+     "name": "Total Chaos (weld-on plates)",
+     "url": "https://www.chaosfab.com/product/2010-2021-Lexus-GX460-Weld-On-Body-Mount-Chop-Plates-59850"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "2010–2013 · US",
+   "label": "GX 460 (pre-facelift)",
+   "at_url": "https://www.autotempest.com/results?make=lexus&model=gx460&minyear=2010&maxyear=2013",
+   "bat_url": "https://bringatrailer.com/lexus/gx/"
+  },
+  {
+   "years": "2014–2019 · US",
+   "label": "GX 460 (spindle facelift)",
+   "at_url": "https://www.autotempest.com/results?make=lexus&model=gx460&minyear=2014&maxyear=2019",
+   "bat_url": "https://bringatrailer.com/lexus/gx/"
+  },
+  {
+   "years": "2020–2023 · US",
+   "label": "GX 460 (late, Off-Road package era)",
+   "at_url": "https://www.autotempest.com/results?make=lexus&model=gx460&minyear=2020&maxyear=2023",
+   "bat_url": "https://bringatrailer.com/lexus/gx/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Metal Tech 4x4",
+   "focus": "GX ARMOR & SUSPENSION",
+   "url": "https://www.youtube.com/@MetalTech4x4"
+  },
+  {
+   "kind": "YT",
+   "name": "C4Fabrication",
+   "focus": "GX & 4RUNNER ARMOR",
+   "url": "https://www.youtube.com/@C4Fabrication"
+  }
+ ],
+ "forums": [
+  {
+   "name": "IH8MUD — GX460 / Prado150",
+   "url": "https://forum.ih8mud.com/forums/gx460-prado150.271/",
+   "note": "Has the build guide, OEM part-number thread, the P2714/P0761 summary and the coolant valley and timing cover DIYs."
+  },
+  {
+   "name": "IH8MUD — Lexus GX (GXOR)",
+   "url": "https://forum.ih8mud.com/forums/lexus-gx-gxor.277/",
+   "note": "Club section for GX owners who use their trucks off-road, with trail events."
+  },
+  {
+   "name": "ClubLexus — GX 2nd Gen (2010–2023)",
+   "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-2023/",
+   "note": "Big ownership archive with real dealer quotes for leaks and repairs."
+  },
+  {
+   "name": "GXOR knowledge base",
+   "url": "https://lexusgxor.com/general:purchasing",
+   "note": "Buying guide, trim and option decoder, and a wheel and tire database."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "GX 470",
+   "family": "lexus",
+   "gen": "gx470"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "GX 550",
+   "family": "lexus",
+   "gen": "gx550"
+  },
+  {
+   "rel": "PLATFORM COUSIN",
+   "name": "5th-gen 4Runner",
+   "family": "4runner",
+   "gen": "5th-gen"
+  },
+  {
+   "rel": "BIG BROTHER",
+   "name": "LX 570",
+   "family": "lexus",
+   "gen": "lx570"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "J150 (URJ150)"
+  },
+  {
+   "k": "YEARS",
+   "v": "2010–2023 MY"
+  },
+  {
+   "k": "ENGINE",
+   "v": "1UR-FE 4.6 L V8, timing chain"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "301 hp / 329 lb-ft (US)"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "6-speed automatic"
+  },
+  {
+   "k": "4WD",
+   "v": "Full-time, low range, Torsen locking center diff"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "KDSS standard; rear air (RAHC) on upper trims"
+  },
+  {
+   "k": "TOWING",
+   "v": "6,500 lb"
+  },
+  {
+   "k": "STOCK TIRE",
+   "v": "P265/60R18"
+  },
+  {
+   "k": "CURB WEIGHT",
+   "v": "5,128–5,199 lb"
+  },
+  {
+   "k": "TURNING CIRCLE",
+   "v": "38.1 ft ('10–'13) · 41.4 ft ('14+)"
+  },
+  {
+   "k": "US SALES PEAK",
+   "v": "32,509 (2021)"
+  }
+ ],
+ "photos": [
+  {
+   "file": "prado120-dune-descent.jpg",
+   "alt": "Black Land Cruiser Prado 120 driving across a sand dune in Mongolia with mountains behind",
+   "caption": "PRADO 120, THE GX 460'S PREDECESSOR LINEAGE · MONGOLIA",
+   "credit": "Alexander Popovkin",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/a-suv-driving-through-the-desert-in-the-sand-3FakZejjSRw"
+  },
+  {
+   "file": "4runner5-death-valley-trench.jpg",
+   "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
+   "caption": "5TH-GEN 4RUNNER, THE GX 460'S J150 PLATFORM COUSIN · DEATH VALLEY",
+   "credit": "Robson Hatsukami Morgan",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/gray-toyota-suv-in-the-middle-of-trench-nVVrRgkQy6s"
+  },
+  {
+   "file": "4runner5-dune-convoy-peru.jpg",
+   "alt": "Line of lifted fifth-generation 4Runners on big mud-terrain tires waiting on desert sand dunes",
+   "caption": "J150 COUSINS ON THE DUNES · 5TH-GEN 4RUNNERS, PERU",
+   "credit": "Jose Carbajal",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
+  },
+  {
+   "file": "prado120-grassland.jpg",
+   "alt": "Champagne Land Cruiser Prado 120 seen from the rear on rough dry grassland",
+   "caption": "PRADO 120 (GX 470 TWIN) ON ROUGH GRASSLAND · KRASNODAR",
+   "credit": "Ladimir Ladroid",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/white-suv-on-brown-grass-field-during-daytime-NJbCE9W9wcg"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Lexus GX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_GX"
+  },
+  {
+   "name": "GXOR — Buying a GX",
+   "url": "https://lexusgxor.com/general:purchasing"
+  },
+  {
+   "name": "GXOR — Wheel & tire database",
+   "url": "https://lexusgxor.com/wiki/mods/wheelstires"
+  },
+  {
+   "name": "IH8MUD — Tire question (GX460)",
+   "url": "https://forum.ih8mud.com/threads/tire-question.1155514/"
+  },
+  {
+   "name": "IH8MUD — GX 460 basics",
+   "url": "https://forum.ih8mud.com/threads/gx-460-basics.1054944/"
+  },
+  {
+   "name": "IH8MUD — Guide to GX 460 builds and aftermarket products",
+   "url": "https://forum.ih8mud.com/threads/guide-to-gx-460-builds-and-aftermarket-products.1168653/"
+  },
+  {
+   "name": "IH8MUD — DIY coolant valley leak repair",
+   "url": "https://forum.ih8mud.com/threads/diy-coolant-valley-leak-repair.1240395/"
+  },
+  {
+   "name": "IH8MUD — DIY GX460 valve covers, cam towers, coolant valley and timing cover",
+   "url": "https://forum.ih8mud.com/threads/diy-gx460-valve-covers-cam-towers-coolant-valley-and-timing-cover.1334342/"
+  },
+  {
+   "name": "IH8MUD — GX460 P2714 P0761 summary thread",
+   "url": "https://forum.ih8mud.com/threads/gx460-p2714-p0761-ultimate-summary-and-hope-for-a-fix-thread.1328266/"
+  },
+  {
+   "name": "IH8MUD — Add Crawl Control and MTS to 2010–2019 GX 460",
+   "url": "https://forum.ih8mud.com/threads/460-add-crawl-control-cc-and-multi-terrain-select-mts-to-2010-2019-models-all-trims.1040976/"
+  },
+  {
+   "name": "IH8MUD — '11 GX460 water pump seepage at 59k",
+   "url": "https://forum.ih8mud.com/threads/11-gx460-water-pump-seepage-at-59k.827782/"
+  },
+  {
+   "name": "ClubLexus — Known GX460 issues",
+   "url": "https://clublexus.com/forums/gx-2nd-gen-2010-2023/892605-known-gx460-issues-3.html"
+  },
+  {
+   "name": "ClubLexus — Timing cover oil leak",
+   "url": "https://clublexus.com/forums/gx-2nd-gen-2010-present/871224-timing-cover-oil-leak-6.html"
+  },
+  {
+   "name": "CarSpec — GX460 P2440/P2442/P2445/P0418",
+   "url": "https://carspecmn.com/gx460-check-engine-light-p2440-p2442-p2445-andor-p0418/"
+  },
+  {
+   "name": "iSeeCars — 2016 Lexus GX 460 tire size",
+   "url": "https://www.iseecars.com/car/2016-lexus-gx_460-tire-size"
+  },
+  {
+   "name": "Metal Tech 4x4 — GX460 rear coil conversion Stage 3",
+   "url": "https://www.metaltech4x4.com/products/metal-tech-4x4-gx460-rear-coil-conversion-stage-3-stock-height-w-key-cones"
+  },
+  {
+   "name": "Lexus — GX 460 owner's manual (OM60G24U), maintenance data",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60G24U/pdf/OM60G24U.pdf"
+  },
+  {
+   "name": "Lexus — 2016 GX 460 Warranty and Services Guide / maintenance schedule",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-16GX460/pdf/L-MMS-16GX460.pdf"
+  },
+  {
+   "name": "GXOR — Maintenance (GX 460 how-to index)",
+   "url": "https://lexusgxor.com/wiki/general/maintenance"
+  }
+ ],
+ "baseline_service": {
+  "intro": "The 1UR-FE has a timing chain, so a GX 460 baseline is all fluids plus the known leak points. Check the coolant valley, the water pump weep hole and the timing cover before you buy. Specs come from the Lexus GX 460 owner's manual (OM60G24U), and intervals from the 2016 Lexus maintenance schedule.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "SAE 0W-20 ILSAC (5W-20 only as a stopgap) · 8.2 US qt (7.8 L) with filter",
+    "interval": "At purchase, then every 10,000 mi / 12 months. Every 5,000 mi / 6 months for off-road, towing or dusty use.",
+    "note": "Cartridge filter under a plastic cap. GXOR's maintenance page links a ClubLexus thread on swapping the cap for a metal one.",
+    "parts": [
+     {
+      "name": "Oil filter, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,oil+filter,5340"
+     },
+     {
+      "name": "Oil drain plug gasket, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,oil+drain+plug+gasket,5428"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "1UR-FE panel element",
+    "interval": "Every 30,000 mi. Inspect more often off-road.",
+    "note": "",
+    "parts": [
+     {
+      "name": "Air filter, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,fuel+%26+air,air+filter,6192"
+     }
+    ]
+   },
+   {
+    "item": "Cabin filter",
+    "spec": "Cabin air filter element",
+    "interval": "Every 30,000 mi",
+    "note": "",
+    "parts": [
+     {
+      "name": "Cabin air filter, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,heat+%26+air+conditioning,cabin+air+filter,6832"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs",
+    "spec": "Denso SK20HR11 iridium · gap 1.1 mm. Do not adjust the gap.",
+    "interval": "Every 120,000 mi",
+    "note": "",
+    "parts": [
+     {
+      "name": "Spark plugs, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,ignition,spark+plug,7212"
+     }
+    ]
+   },
+   {
+    "item": "Coolant",
+    "spec": "Toyota Super Long Life (pink) · 16.3 US qt with rear heater, 14.5 US qt without",
+    "interval": "First at 100,000 mi / 120 months, then every 50,000 mi / 60 months",
+    "note": "Use pink Super Long Life, not the older red Long Life. While you're there, look for pink crust at the rear of the valley and at the water pump weep hole.",
+    "parts": [
+     {
+      "name": "Coolant, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,coolant+/+antifreeze,11393"
+     },
+     {
+      "name": "Thermostat, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,thermostat,2200"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (6-speed)",
+    "spec": "Toyota Genuine ATF WS only · 11.6–11.8 US qt total (reference)",
+    "interval": "Drain-and-fill at purchase. The schedule calls for a change every 60,000 mi when towing.",
+    "note": "A drain-and-fill is also the first step in the P2714/P0761 cold-shift fix. Repeat it rather than power-flushing.",
+    "parts": [
+     {
+      "name": "ATF WS, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,transmission-automatic,transmission+fluid,11387"
+     },
+     {
+      "name": "Transmission pan gasket, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,transmission-automatic,fluid+pan+gasket,8612"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "Toyota Genuine Transfer Gear Oil LF, SAE 75W · 1.5 US qt (1.4 L)",
+    "interval": "At purchase, then every 30,000 mi off-road or towing",
+    "note": "",
+    "parts": [
+     {
+      "name": "Gear oil, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,drivetrain,gear+oil,11394"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Toyota Genuine Differential Gear Oil LT 75W-85 GL-5 · front 1.48 US qt (1.40 L), rear 2.85 US qt (2.70 L)",
+    "interval": "At purchase, then every 15,000 mi if you tow",
+    "note": "Front diff service is easier with the skid plate off.",
+    "parts": [
+     {
+      "name": "Gear oil, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,drivetrain,gear+oil,11394"
+     },
+     {
+      "name": "Front diff drain plug with copper gasket, GX 460/470",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/front-differential-drain-plug-with-copper-gasket-fits-gx460-gx470-lx570-200-series-applications-op24014/"
+     },
+     {
+      "name": "Front diff drain plug gasket, GX 460/470",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/front-differential-drain-plug-gasket-fits-gx460-gx470-lx570-200-series-applications-opg24017/"
+     }
+    ]
+   },
+   {
+    "item": "Power steering fluid",
+    "spec": "ATF Dexron II or III",
+    "interval": "Check level and leaks at purchase",
+    "note": "",
+    "parts": [
+     {
+      "name": "Power steering fluid, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,steering,power+steering+fluid,11395"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "SAE J1703 or FMVSS No. 116 DOT 3",
+    "interval": "Every 30,000 mi",
+    "note": "GXOR links a ClubLexus thread on bleeding the brakes with Techstream.",
+    "parts": [
+     {
+      "name": "Brake fluid, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,brake+%26+wheel+hub,brake+fluid,11389"
+     }
+    ]
+   },
+   {
+    "item": "Propeller shaft grease",
+    "spec": "Spiders: lithium chassis grease NLGI No. 2 · slide yoke: moly lithium or lithium multipurpose NLGI No. 2",
+    "interval": "At purchase, then within 24 hours of any water crossing",
+    "note": "",
+    "parts": [
+     {
+      "name": "Red-i hi-temp and moly grease kit (6 tubes)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/red-i-hi-temp-moly-grease-kit-2-x-hi-temp-4-x-moly-grease-tubes-greasekit6pk/"
+     },
+     {
+      "name": "U-joint, 120/150 Series front shaft",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/u-joint-fits-1-90-1-98-7x-8x-front-8-02-100-120-150-200-lx470-gx460-gx470-570-front-98-100-200-lx470-570-rear-uj35031/"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter",
+    "spec": "North American trucks use the strainer sock on the in-tank pump (GXOR)",
+    "interval": "No scheduled change",
+    "note": "Replace it only if you have the pump out.",
+    "parts": [
+     {
+      "name": "Fuel pump strainer, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,fuel+%26+air,fuel+pump+strainer,6212"
+     }
+    ]
+   },
+   {
+    "item": "Rear air suspension & KDSS",
+    "spec": "Air springs, compressor/dryer and height sensors · KDSS cylinders and lines",
+    "interval": "Inspect at purchase",
+    "note": "Check that the truck holds height overnight, and look for weeping at the KDSS cylinders and lines.",
+    "parts": [
+     {
+      "name": "Rear air springs, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,suspension,air+spring,15005"
+     },
+     {
+      "name": "Air compressor dryer, 2015 GX 460",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,suspension,air+compressor+dryer,16633"
+     }
+    ]
+   }
+  ]
+ }
+}

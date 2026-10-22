@@ -1,0 +1,151 @@
+{
+  "slug": "500ge",
+  "title": "500 GE V8",
+  "eyebrow": "MERCEDES-BENZ G-CLASS · W463 · 1993–1994",
+  "verdict": "The first V8 G exists because Mercedes had a pile of old engines and nowhere better to put them. Only 446 were built, all in purple-ish blue, and it is the one G that ships without a front locker.",
+  "codes": ["W463", "M117 5.0 V8", "446 BUILT", "AMETHYST BLUE"],
+  "hero_photo": "ridgeline.jpg",
+  "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A 500 GE OFF ROAD]",
+  "story": [
+    {"heading": null, "paragraphs": [
+      "The 500 GE is the G-Class that answered a question nobody had asked yet: what if the army truck had a V8? Shown at the Geneva Motor Show in March 1993, it was the first eight-cylinder G, sold only as a long-wheelbase five-door. It came in one colour and with every comfort option fitted as standard, and the price was roughly double a G 320's. Mercedes planned 500. It built 446, and the reason has nothing to do with marketing."
+    ]},
+    {"heading": "A PILE OF ENGINES AND A SMALL ENGINE BAY", "paragraphs": [
+      "By 1993 the old two-valve M117 V8 was on its way out. Mercedes' newer four-valve M119 had replaced it in the saloons, but the M119 was too big for the G's engine bay. That left a limited supply of M117s, so the 500 GE's production run was set by the number of engines on hand. Mercedes' own anniversary history says the run stopped at 446, built over about two years. Wikipedia describes it as a leftover batch of 446 engines.",
+      "The engine is the 4,973 cc M117, rated by Mercedes at 177 kW (240 PS) and 375 Nm. That was enough for 0–100 km/h in 11.4 seconds and a 180 km/h top speed, which felt quick in a 2,370 kg brick in 1993. An automatic gearbox was standard; a surviving owner-documented example has the four-speed automatic. The body and chassis work was done with AMG, still an independent company that Mercedes was moving closer to."
+    ]},
+    {"heading": "WHAT DM 178,250 BOUGHT YOU", "paragraphs": [
+      "At launch the 500 GE cost DM 178,250. A six-cylinder G 320 cost DM 88,500, and even a 500 SE S-Class was DM 129,030. Standard equipment included air conditioning, cruise control, an electric sliding sunroof, heated seats and a leather steering wheel. The cabin was black leather with medium-grey contrast panels and walnut veneer on the console, handbrake and both selector levers. Outside, the Amethyst Blue Metallic paint ran onto the bumpers, wheel-arch flares and mirror housings, so not a single black plastic panel showed.",
+      "Off-roaders should note the compromises. Mercedes deleted the front differential lock, leaving the centre and rear locks. The suspension was softened for comfort, and fording depth is slightly less than a standard G's. The tyres were Bridgestone 265/70 R16 H on alloy wheels, which Mercedes says were the only off-road tyres then approved to 210 km/h. In other words, this is a G meant for the Autobahn that can still handle a dirt road."
+    ]},
+    {"heading": "AMG, PUCH AND A SAUDI PRINCE", "paragraphs": [
+      "The standard 500 GE was the tame version. Later in 1993 AMG offered the 500 GE 6.0, with the M117 bored and stroked to 5,959 cc and about 300 PS. It was a one-off customer order on top of an already expensive truck, and RM Sotheby's believes only around 13 were officially converted. The option code to look for is ZB6. Not every special 500 GE is a 6.0, though: one car built for Saudi Prince Sultan bin Abdulaziz has the 5.0 but was specified with a wider track, larger front wings and Avantgarde green paint. It sold at RM Sotheby's for $148,500.",
+      "Then there are the Puchs. In Austria and Switzerland the G was sold under the Puch name, and RM Sotheby's describes a Puch-badged 500 GE as the first of only three. Steyr-Daimler-Puch used it for homologation, testing and press drives. As for what replaced it, the V8 dropped out of the range until the [[g-class/g500|G 500]] arrived with the M113 in 1998. The [[g-class/g55-amg|G 55 AMG]] followed in 1999 and turned the 500 GE's limited-run idea into a regular model."
+    ]},
+    {"heading": "OWNING ONE NOW", "paragraphs": [
+      "Mercedes never sold the 500 GE in the US, and it was never part of the [[g-class/europa|Europa International]] programme. American examples arrived later through private importers. One car on the German Cars For Sale Blog went through Wallace test labs in 2005, after a costly and slow process, and has been registered in California ever since. Thirty years on, a well-kept 500 GE in Germany can qualify for historic H plates. Prices run from the twenties for a high-mileage import, as the blog judged one, to six figures for documented AMG and special-order cars at auction."
+    ]}
+  ],
+  "callout": {
+    "label": "SIDEBAR · THE PUCH 500 GE",
+    "title": "Same truck, different badge",
+    "paragraphs": [
+      "The G-Class was built in Graz by Steyr-Daimler-Puch from day one, and in Austria and Switzerland it carried the Puch name instead of the three-pointed star until late 1999. According to RM Sotheby's, only three 500 GEs got Puch badges. The one it offered at Essen has a VIN with \"VA\", showing it was built in Austria by Puch. Finished in Amethystblau Metallic (paint code DB3338) with two-tone leather, it was used for homologation, testing and press drives.",
+      "It didn't sell. RM's estimate was €60,000–90,000 and the lot ended unsold. That says something useful about this corner of the market: the badge story is great, but buyers pay most for originality, documentation and condition."
+    ]
+  },
+  "engineering_intro": "Under the paint and walnut, the 500 GE is a standard early [[g-class/w463|W463]]: a separate ladder frame, coil-sprung solid axles at both ends, and permanent four-wheel drive through a two-speed transfer case. The changes are in the details. It has a big two-valve V8 where a six-cylinder normally sat, comfort-tuned springing, speed-rated road tyres, and one fewer locking differential than any other W463.",
+  "engineering": [
+    {"k": "CHASSIS", "v": "Ladder frame", "note": "Separate steel frame, long wheelbase only (2,850 mm)."},
+    {"k": "AXLES", "v": "Solid, front & rear", "note": "Coil-sprung; tuned softer than other Gs for comfort."},
+    {"k": "DRIVETRAIN", "v": "Permanent 4WD", "note": "Unchanged W463 system with low range, apart from the deleted front lock."},
+    {"k": "LOCKERS", "v": "Centre & rear only", "note": "Mercedes deleted the front differential lock on this model."},
+    {"k": "ENGINE", "v": "M117 5.0 L V8", "note": "Two valves per cylinder, 4,973 cc, 240 PS, 375 Nm. The M119 didn't fit."},
+    {"k": "TYRES", "v": "265/70 R16 H", "note": "Bridgestone, on alloys. The only off-road tyre then approved to 210 km/h."}
+  ],
+  "engineering_note": {"title": "TWO LOCKERS, NOT THREE", "body": "If you're used to the three-button sequence on later Gs, the 500 GE will catch you out: it has centre and rear locks only. That's how Mercedes built it, not a fault. Engage the centre lock first, then the rear, at walking pace on loose ground, and unlock them before you're back on pavement."},
+  "generations_table": [
+    {"years": "1990–1994", "platform": "W463 300 GE", "engine": "M103 3.0 L I6", "output": "170 PS", "note": "The petrol W463 the 500 GE sat above"},
+    {"years": "1993–1994", "platform": "W463 500 GE", "engine": "M117 5.0 L V8", "output": "240 PS · 375 Nm", "note": "446 built; LWB only; Amethyst Blue; no front lock"},
+    {"years": "1993", "platform": "W463 AMG 500 GE 6.0", "engine": "M117 6.0 L V8 (5,959 cc)", "output": "≈300 PS", "note": "Individual AMG customer order; RM Sotheby's believes about 13 were converted"},
+    {"years": "1993–1994", "platform": "Puch 500 GE", "engine": "M117 5.0 L V8", "output": "240 PS", "note": "Puch-badged for Austria/Switzerland; RM Sotheby's says three exist"},
+    {"years": "1998–2008", "platform": "W463 G 500", "engine": "M113 5.0 L V8", "output": "296 PS · 456 Nm", "note": "The V8 returns as a regular-production model"},
+    {"years": "1999 on", "platform": "W463 G 55 AMG", "engine": "M113 5.4/5.5 L V8", "output": "354 PS at launch", "note": "AMG's V8 G becomes a series model"}
+  ],
+  "buying_checks": [
+    {"head": "Prove it's a real 500 GE", "body": "Check the VIN and the factory data card. Genuine trucks are W463 long-wheelbase V8s in Amethyst Blue Metallic with black/grey leather. Commenters on one US listing questioned whether an M117 was correct, so make sure the engine is original rather than a transplant."},
+    {"head": "AMG 6.0 claims need paperwork", "body": "RM Sotheby's points out that pre-merger AMG conversions are hard to verify and lookalikes exist. Look for option code ZB6 (\"500 GE (AMG)\") on the data card and factory documents before paying a 6.0 premium."},
+    {"head": "Don't panic about the front locker", "body": "There isn't one. The 500 GE was built with centre and rear locks only. Test that both engage and show on the dash."},
+    {"head": "Import and title paperwork", "body": "None were sold new in the US. American trucks came in privately: one documented example was cleared through Wallace test labs in 2005 at considerable cost. Make sure the title, import and compliance documents match the VIN."},
+    {"head": "Fuel delivery", "body": "Owner records on surviving trucks show fuel pumps, the fuel accumulator and filters being replaced. Ask when that was done, and expect to do it on a truck that has sat."},
+    {"head": "Front axle oil", "body": "Gear oil on the inside of the front wheels or on the brakes means axle seals. Even a low-mileage collector truck sold by RM Sotheby's needed a front-axle oil leak fixed during recommissioning."},
+    {"head": "Binding in tight turns", "body": "A truck that binds or hops in tight U-turns on pavement may simply have a lock engaged. If it's unlocked and still binds, suspect the CV joints or transfer case, as one seller did, and price the repair."},
+    {"head": "Rust in the usual places", "body": "Tailgate lower edge, door bottoms, sills, rear frame tubes and strut mounts. A rust-free original body matters more on a 446-unit truck than on any other G."}
+  ],
+  "repairs": [
+    {"title": "Front axle seal leak", "diff": "3 / 5", "time": "A day", "cost": "$600–1,500 (W463 typical)", "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, braking that pulls to one side.", "fix": "Replace both front axle seals, not just the leaking one, and check the shafts for scoring. If oil has reached the brakes, fit new pads and resurface or replace the rotors.", "tools": "Axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated"},
+    {"title": "Front axle repack (knuckle & wheel bearings)", "diff": "4 / 5", "time": "1–2 days", "cost": "$1,500–2,000 (owner estimate, 2002)", "symptoms": "Grease weeping from the steering knuckles, torn CV boots, play or noise from the front wheel bearings, or simply no record of the service.", "fix": "Strip the front hubs and knuckles, replace the CV boots and wheel bearings, and repack with fresh grease. Europa recommended doing it every 40,000 miles; one owner found it necessary by about 75,000. Bearing clearances are critical, so if you don't own a dial indicator and the factory procedure, use a G-experienced shop.", "tools": "Factory service procedure · hub nut socket · dial indicator · CV boots · wheel bearings · grease · seals"},
+    {"title": "Fuel pumps & accumulator", "diff": "2 / 5", "time": "Half a day", "cost": "Parts plus labor", "symptoms": "Weak or noisy pumps, hard starting, or a truck that's been stored for years.", "fix": "Replace the fuel pumps, the fuel accumulator and the filter together, then check the lines and tank for old-fuel varnish. Both documented 500 GEs cited here had this work done as part of their recommissioning.", "tools": "Line wrenches · fuel-safe catch pan · new pumps, accumulator and filter · new sealing washers"},
+    {"title": "Diff locks won't engage", "diff": "2 / 5", "time": "An afternoon", "cost": "Diagnosis-dependent", "symptoms": "The centre or rear lock won't engage, or engages and drops out. On W463s the fault is usually in the vacuum supply, not the differential.", "fix": "Check for vacuum where the lines meet the actuators, then work back through the reservoir, hoses and switchover valves, teeing in a gauge on each section. Owners regularly find split connectors or perished rubber fittings. Remember the 500 GE has no front lock, so there's nothing to fix there.", "tools": "Hand vacuum pump with gauge · vacuum tees and line · replacement connectors"},
+    {"title": "Steering damper & front-end wander", "diff": "1 / 5", "time": "≈ 1 hour", "cost": "$300–800 (W463 typical)", "symptoms": "Wander at highway speed, shake around 55–70 mph, vague on-centre feel, clunks over bumps.", "fix": "Replace the steering damper, check the drag link and tie-rod ends for play, then align. The 500 GE was sold on high-speed tyres, so it deserves a tight front end.", "tools": "Steering damper · basic sockets and wrenches · tie-rod or drag-link ends if worn"},
+    {"title": "Sunroof drains & water ingress", "diff": "1 / 5", "time": "≈ 30 minutes", "cost": "Cheap if caught early", "symptoms": "Damp headliner, wet carpets, odd electrical faults. Every 500 GE had an electric sunroof as standard.", "fix": "Clear all the sunroof drains, then check the carpets, fuse box and climate components for water damage. Leaving it is what makes it expensive.", "tools": "Trimmer line or drain wire · low-pressure air · towels"},
+    {"title": "Rust on the frame and body", "diff": "2–5 / 5", "time": "Ongoing", "cost": "$400–8,000 (W463 typical)", "symptoms": "Bubbling at the tailgate's lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.", "fix": "Catch it early: blast and treat, or weld in repair panels. Cavity-wax the doors and underbody and keep drain holes clear. On a car this rare, use original-spec panels and keep the paint code (DB3338) correct.", "tools": "Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair"}
+  ],
+  "faq": [
+    {"q": "How many 500 GEs were built?", "a": "446, against a planned 500. The run was limited by the supply of M117 V8s, since the newer M119 wouldn't fit the G-Class engine bay.", "src": "MERCEDES-BENZ G-CLASS · MOTOR1"},
+    {"q": "Does the 500 GE have three locking differentials?", "a": "No, only the centre and rear locks. Mercedes deleted the front lock and also gave the 500 GE softer suspension and a slightly lower fording depth than other Gs.", "src": "MERCEDES-BENZ G-CLASS"},
+    {"q": "What's the biggest tire I can fit without a lift?", "a": "The factory tire is 265/70R16, about 30.6 inches. On unlifted W463s, Expedition Portal owners run 33-inch tires (275/70R18 and 285/65R18 on 18-inch wheels), with a slight rub at full left lock on the 285s. One owner says up to about 32 inches should clear with no rubbing. On the 500 GE's 16-inch wheels, aim for a similar overall diameter (around 32 inches) and test full lock. Many owners keep these trucks on period-correct 16s.", "src": "MERCEDES · EXPEDITION PORTAL OWNERS"},
+    {"q": "How fast is it?", "a": "Mercedes quotes 0–100 km/h in 11.4 seconds and a 180 km/h (112 mph) top speed, from 240 PS and 375 Nm.", "src": "MERCEDES-BENZ G-CLASS"},
+    {"q": "What gearbox does it have?", "a": "An automatic was standard and no manual was offered. A documented US-imported example has the four-speed automatic.", "src": "MERCEDES · GERMAN CARS FOR SALE BLOG"},
+    {"q": "Is the 500 GE an AMG?", "a": "Partly. Wikipedia says AMG modified the body and chassis, and RM Sotheby's says the V8 was developed with AMG, but the standard car wears Mercedes badges. The true AMG version is the 500 GE 6.0, a 5,959 cc, roughly 300 PS customer-order upgrade (option code ZB6). RM Sotheby's believes about 13 were officially converted.", "src": "WIKIPEDIA · RM SOTHEBY'S"},
+    {"q": "What did it cost new?", "a": "DM 178,250 in 1993, about twice the DM 88,500 price of a G 320 and well above a 500 SE S-Class at DM 129,030.", "src": "MERCEDES-BENZ G-CLASS"},
+    {"q": "Was it sold in the US?", "a": "Not new. It isn't part of the [[g-class/europa|Europa International]] story either. US cars were imported privately later; one went through Wallace test labs in 2005 and is California-registered. Now that it's more than 25 years old, US import is much simpler.", "src": "GERMAN CARS FOR SALE BLOG"},
+    {"q": "What are they worth?", "a": "Prices vary a lot. German Cars For Sale Blog once put a high-mileage California import at $20,000–35,000. RM Sotheby's has sold a Saudi-delivered special-order car for $148,500 and an AMG 6.0 for $218,500, while a Puch-badged car estimated at €60,000–90,000 went unsold.", "src": "GCFSB · RM SOTHEBY'S"},
+    {"q": "How is it different from the later G 500?", "a": "The 1998-on [[g-class/g500|G 500]] uses the newer three-valve M113 V8 (296 PS), was a regular-production model, and has all three locking differentials. The 500 GE has the older two-valve M117, a front-lock delete, one colour scheme and a 446-unit production run.", "src": "WIKIPEDIA · MERCEDES"}
+  ],
+  "mods": [
+    {"cat": "RESTORATION", "why": "With only 446 built, restoring one to factory spec is worth more than modifying it. Use specialists who do sympathetic G restorations.", "who": [{"name": "Expedition Motor Company", "url": "https://www.expeditionmotorcompany.com/"}]},
+    {"cat": "SHOCKS & SPRINGS", "why": "Fresh dampers sort out most of the ride on a tired truck. One documented 500 GE runs Bilsteins. Keep the comfort-oriented ride height unless you need the clearance.", "who": [{"name": "Eurowise (OME kits)", "url": "https://shop.eurowise.com/products/ew463ome"}]},
+    {"cat": "W463 PARTS", "why": "Specialist suppliers carry service and chassis parts for early W463s, which saves you from hunting through general Mercedes catalogues.", "who": [{"name": "Eurowise", "url": "https://shop.eurowise.com/"}, {"name": "GwagenParts.com", "url": "https://www.gwagenparts.com/"}]},
+    {"cat": "ROOF RACKS", "why": "A removable platform rack carries gear without drilling a collector's car.", "who": [{"name": "LETECH (via GwagenParts)", "url": "https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/"}, {"name": "Front Runner", "url": "https://www.frontrunneroutfitters.com/"}]},
+    {"cat": "WHEELS & TIRES", "why": "Keep the factory 16-inch alloys and fit a quality all-terrain of about the same diameter. It's the most useful upgrade you can reverse later.", "who": []}
+  ],
+  "searches": [
+    {"years": "1993–1994 · ALL G-CLASS", "label": "500 GE era", "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1993&maxyear=1994", "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"},
+    {"years": "1993 · AMG 6.0", "label": "500 GE (AMG)", "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1993&maxyear=1993", "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"}
+  ],
+  "social": [
+    {"kind": "YT", "name": "Expedition Motor Company", "focus": "VINTAGE G RESTORATIONS", "url": "https://www.youtube.com/channel/UC5BCpP_a6AZES8X-v4RfkSg"},
+    {"kind": "YT", "name": "Nothing But G's", "focus": "G BUILDS & TECH", "url": "https://www.youtube.com/@Nothing-but-Gs"},
+    {"kind": "YT", "name": "Eurowise Inc.", "focus": "G-CLASS PARTS & UPGRADES", "url": "https://www.youtube.com/user/eurowiseinc"},
+    {"kind": "IG", "name": "@expeditionmotorcompany", "focus": "VINTAGE G RESTORATIONS", "url": "https://www.instagram.com/expeditionmotorcompany/"},
+    {"kind": "IG", "name": "@eurowise_performance", "focus": "G-CLASS PARTS", "url": "https://www.instagram.com/eurowise_performance/"}
+  ],
+  "forums": [
+    {"name": "MBWorld — G-Class (W460 / W461 / W463)", "url": "https://mbworld.org/forums/g-class-w460-w461-w463/", "note": "Deepest technical archive for early W463s"},
+    {"name": "Club G-Wagen", "url": "https://clubgwagen.com/forum/", "note": "The original G community; good for rare-variant knowledge"},
+    {"name": "BenzWorld — G-Class", "url": "https://www.benzworld.org/forums/g-class.209/", "note": "General ownership and maintenance"}
+  ],
+  "related": [
+    {"rel": "BASE TRUCK", "name": "G-Class W463", "family": "g-class", "gen": "w463"},
+    {"rel": "V8 SUCCESSOR", "name": "G 500", "family": "g-class", "gen": "g500"},
+    {"rel": "AMG SUCCESSOR", "name": "G 55 AMG", "family": "g-class", "gen": "g55-amg"},
+    {"rel": "US CONTEMPORARIES", "name": "Europa International Gs", "family": "g-class", "gen": "europa"},
+    {"rel": "MILITARY ANCESTOR", "name": "G-Class W460", "family": "g-class", "gen": "w460"}
+  ],
+  "plate": [
+    {"k": "CHASSIS", "v": "W463, long wheelbase"},
+    {"k": "YEARS", "v": "1993–1994"},
+    {"k": "BUILT", "v": "446"},
+    {"k": "ENGINE", "v": "M117 5.0 L V8, 2-valve"},
+    {"k": "OUTPUT", "v": "240 PS · 375 Nm"},
+    {"k": "GEARBOX", "v": "Automatic (4-speed)"},
+    {"k": "DRIVE", "v": "Permanent 4WD, low range"},
+    {"k": "LOCKERS", "v": "Centre & rear"},
+    {"k": "TYRES", "v": "265/70 R16 H"},
+    {"k": "0–100 KM/H", "v": "11.4 s"},
+    {"k": "PRICE NEW", "v": "DM 178,250"},
+    {"k": "BUILT IN", "v": "Graz, Austria"}
+  ],
+  "photos": [
+    {"file": "ridgeline.jpg", "alt": "A G-Class in profile on a rocky ridge under storm clouds", "caption": "SECOND GEN · RIDGELINE (NOT A 500 GE)", "credit": "Dextar Studio", "source": "Pexels", "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"},
+    {"file": "hillside-mountains.jpg", "alt": "A G-Class parked on a rough grassy hillside below mountains under a heavy sky", "caption": "SECOND GEN · FOOTHILLS (NOT A 500 GE)", "credit": "Dextar Studio", "source": "Pexels", "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"},
+    {"file": "high-pasture.jpg", "alt": "A G-Class on rough grass and rocks with hills behind", "caption": "SECOND GEN · HIGH PASTURE (NOT A 500 GE)", "credit": "Dextar Studio", "source": "Pexels", "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"}
+  ],
+  "sources": [
+    {"name": "Mercedes-Benz G-Class — Exclusive special model 30 years ago: the 500 GE V8", "url": "https://g-class.mercedes-benz.com/en/news/2023/exclusive-special-model-30-years-ago-the-mercedes-benz-500-ge-v8.html"},
+    {"name": "Motor1 — 30-year-old Mercedes G-Class V8 still looks box(y) fresh", "url": "https://www.motor1.com/news/655305/mercedes-g-class-with-v8-debuted-30-years-ago/"},
+    {"name": "Motor1 (DE) — Mercedes 500 GE V8 (1993): Der einstige Super-G wird 30", "url": "https://de.motor1.com/news/655292/mercedes-500-ge-1993-geburtstag/"},
+    {"name": "Wikipedia — Mercedes-Benz G-Class", "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"},
+    {"name": "Motor1 — Super-rare Puch 500 GE is for sale", "url": "https://www.motor1.com/news/408749/puch-500-ge-for-sale/"},
+    {"name": "RM Sotheby's — 1993 Puch 500 GE (Essen)", "url": "https://rmsothebys.com/auctions/es20/lots/r0016-1993-puch-500-ge/"},
+    {"name": "RM Sotheby's — 1993 Mercedes-Benz 500 GE 6.0 'AMG' (Dubai)", "url": "https://rmsothebys.com/auctions/ds24/lots/r0012-1993-mercedesbenz-500-ge-60-amg/"},
+    {"name": "RM Sotheby's — 1993 Mercedes GE500 V8 AMG (Abu Dhabi)", "url": "https://rmsothebys.com/auctions/0726/lots/r0001-1993-mercedes-ge500-v8-amg/"},
+    {"name": "Motor1 — Rare G-Class V8 AMG sells for $143,000", "url": "https://www.motor1.com/news/802691/saudi-prince-mercedes-g-class-v8-amg/"},
+    {"name": "German Cars For Sale Blog — 1993 Mercedes-Benz 500GE", "url": "https://germancarsforsaleblog.com/1993-mercedes-benz-500ge"},
+    {"name": "PeachParts — G-Wagen front axle repack (owner post, 2002)", "url": "https://www.peachparts.com/shopforum/274492-post2.html"},
+    {"name": "Expedition Portal — G550 tire options thread", "url": "https://forum.expeditionportal.com/goto/post?id=2200676"},
+    {"name": "au7o — G-Class known issues", "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2003"},
+    {"name": "MBWorld — Finally repaired my lockers (2005 G 500)", "url": "https://mbworld.org/forums/g-class-w460-w461-w463/818902-finally-repaired-my-lockers.html"}
+  ]
+}

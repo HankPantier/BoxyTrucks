@@ -1,0 +1,1010 @@
+{
+ "slug": "p38",
+ "title": "Range Rover P38A",
+ "eyebrow": "LAND ROVER RANGE ROVER · P38A (LP) · 1994–2002",
+ "verdict": "The last Range Rover with a ladder frame and beam axles, wrapped in a 1990s electronics experiment. Cheap to buy, cheap to fix yourself, and ruinously expensive to pay someone else to love.",
+ "codes": [
+  "LP / P38A",
+  "ROVER V8 4.0 · 4.6",
+  "BMW 2.5 TD (NON-US)",
+  "EAS AIR SUSPENSION",
+  "BORGWARNER 4462 HI/LO"
+ ],
+ "hero_photo": "discovery1-mud.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Following a 24-year-old legend is a thankless job, and the P38A did it in September 1994 with a straight face. Land Rover called it the New Range Rover; everyone else named it after the office block the engineers worked in. Underneath the squarer, plusher body it was still a proper Rover: a separate steel chassis, live axles front and rear, a two-speed transfer box and the faithful aluminium V8. On top it piled self-levelling air suspension, a body computer under the passenger seat and enough wiring to cable a small town. Thirty years on, that split personality is exactly why it is both the bargain and the booby trap of the [[range-rover/classic|Range Rover]] family."
+   ]
+  },
+  {
+   "heading": "PEGASUS, DISCOVERY AND BLOCK 38A",
+   "paragraphs": [
+    "The project started life as \"Pegasus\", then wore the cover name \"Discovery\" to confuse snooping journalists — awkward, since Land Rover had a real [[land-rover/discovery-1|Discovery]] on sale. When the team moved into Block 38A at Solihull, the building's name stuck, and P38A it has been ever since. Inside the company it was the LP. George Thomson is credited with the 1990 design, and production at Solihull began in 1994 with sales running to the 2002 model year in the US.",
+    "It could have been very different under the bonnet. During development a pair of prototypes was fitted with BMW's 5.4-litre M73 V12 from the 750i, but the idea was shelved and never reached production. Instead buyers got the Rover V8 in 4.0 and new 4.6-litre forms, plus — outside North America — a 2.5-litre BMW M51 straight-six turbodiesel with 136 hp. The petrol V8s could be had with an R380 five-speed manual or ZF automatics; the 4.6 was automatic-only."
+   ]
+  },
+  {
+   "heading": "AIR, ELECTRONS AND A SMARTER TRANSFER BOX",
+   "paragraphs": [
+    "The headline hardware was the Electronic Air Suspension, developed from the late Classic LSE system. It offers five heights — Access, Motorway, Standard, Off-Road and an Off-Road Extended setting the computer selects on its own when it senses the truck is beached. It lowers itself at speed and lifts for obstacles, which is lovely until a perished air spring or tired compressor leaves one corner kneeling in your driveway.",
+    "The drivetrain went electronic too. The BorgWarner 4462 transfer box shifts between high and low range with an electric actuator rather than a lever, selected through an H-gate on automatic trucks and a dash switch on manuals, and the truck has to be nearly stopped to change. Traction control started out rear-only on the 4.0 and diesel, with the 4.6 getting four-wheel control; from mid-1999 all V8s switched from Lucas GEMS to Bosch Motronic engine management and got four-wheel traction control across the board."
+   ]
+  },
+  {
+   "heading": "WHY IT'S STILL WORTH YOUR WEEKENDS",
+   "paragraphs": [
+    "Strip away the reputation and the P38 is a long-travel, beam-axle 4x4 with real low range, 3,500 kg of braked towing capacity and a 100-litre tank — a better overland base than its price suggests. The aftermarket agrees: Terrafirma makes sliders, winch bumpers, a snorkel and lift springs for it, and Lucky8 developed a 4-inch coil kit on its own P38 project truck. Converting to coils is a bolt-in job if you'd rather not carry an air compressor through the backcountry.",
+    "The flip side is that P38s are now cheap enough to be neglected. Classic magazines put good runners at a couple of thousand pounds and project cars at a few hundred, and plenty have had years of deferred maintenance. Ignore the cosmetics and buy on cooling-system health, a dry body computer and a working EAS; then budget for blend motors, heater O-rings and bushes. Do it yourself and the P38 is one of the best-value long-travel 4x4s on the road."
+   ]
+  },
+  {
+   "heading": "THE END OF THE LADDER",
+   "paragraphs": [
+    "The P38 was the last Range Rover with a separate chassis, live axles, a manual gearbox option and a classic two-speed transfer box. Its replacement, the [[range-rover/l322|L322]], was developed under BMW with a monocoque body and independent air suspension, and every Range Rover since has followed that path. For buyers who want the ladder frame, the P38 sits between the hand-tool simplicity of the [[range-rover/classic|Classic]] and the computer-dependent [[range-rover/l322|L322]]. It's the last one you can still fix with mostly analogue hardware, plus a diagnostic tool for the electronics."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · FUN FACT",
+  "title": "The BMW V12 Range Rover that never was",
+  "paragraphs": [
+   "Somebody at Land Rover clearly wanted to know what a Range Rover would be like with a German V12. Two P38 prototypes were built with the 5.4-litre M73 V12 from the BMW 750i before the project was shelved. None reached production.",
+   "BMW's influence did make it to showrooms in a quieter form: the diesel P38 used BMW's 2.5-litre M51 turbodiesel six, and from mid-1999 the V8s ran Bosch Motronic management closely related to the system in the E38 7 Series. The next Range Rover, the L322, went much further and shared its first engines and electronics with the 7 Series."
+  ]
+ },
+ "engineering_intro": "The P38 is a transitional truck: Classic-style bones with an electronic nervous system bolted on. A separate steel chassis carries two beam axles on air springs, permanent four-wheel drive runs through an electronically shifted BorgWarner two-speed transfer box, and power comes from the long-serving aluminium Rover V8 or a BMW diesel six. The mechanical parts are tough and well supported by the aftermarket. The weak spots are the systems controlling them: the EAS valve block and compressor, the climate-control blend motors and the body computer.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Separate steel frame",
+   "note": "Strengthened over the Classic with new welding methods for better corrosion resistance."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Beam axles on air springs",
+   "note": "EAS has five heights from Access to Off-Road Extended. Terrafirma sells bolt-in coil conversions."
+  },
+  {
+   "k": "PETROL ENGINES",
+   "v": "Rover V8 4.0 / 4.6",
+   "note": "GEMS management to mid-1999, Bosch Motronic after that. 4.0s tend to blow head gaskets; 4.6s tend to slip liners."
+  },
+  {
+   "k": "DIESEL",
+   "v": "BMW M51 2.5 TD six",
+   "note": "136 hp, 270 Nm. EGR and a plastic inlet manifold from 1997. Not sold in the US."
+  },
+  {
+   "k": "TRANSFER",
+   "v": "BorgWarner 4462, electric shift",
+   "note": "High and low range are selected electronically, and the truck has to be nearly stopped to change."
+  },
+  {
+   "k": "TRACTION",
+   "v": "ABS + traction control",
+   "note": "Rear-only traction control at first on the 4.0 and diesel. Four-wheel control on the 4.6 and on all V8s from mid-1999."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1994–1999",
+   "platform": "P38A, 108-in WB",
+   "engine": "4.0 V8 (GEMS)",
+   "output": "≈188–190 hp",
+   "note": "R380 5-speed manual or ZF 4HP22 auto. Rear-only traction control at first."
+  },
+  {
+   "years": "1994–1999",
+   "platform": "P38A, 108-in WB",
+   "engine": "4.6 V8 (GEMS)",
+   "output": "≈218–230 hp (market-dependent)",
+   "note": "ZF 4HP24 auto only. 4-pin rear diff and four-wheel traction control."
+  },
+  {
+   "years": "1994–2002",
+   "platform": "P38A, 108-in WB",
+   "engine": "2.5 BMW M51 TD6",
+   "output": "136 hp / 270 Nm",
+   "note": "Non-US. EGR, plastic intake and a MAF sensor from 1997."
+  },
+  {
+   "years": "1999–2002",
+   "platform": "P38A, 108-in WB",
+   "engine": "4.0 / 4.6 V8 (Bosch)",
+   "output": "As above",
+   "note": "Bosch Motronic replaces Lucas GEMS mid-1999. Four-wheel traction control. Revised mounts and structural sump."
+  },
+  {
+   "years": "2000–2002",
+   "platform": "Facelift",
+   "engine": "All",
+   "output": "—",
+   "note": "Clear front and rear indicators, new wheels and more standard kit. Special editions include the Holland & Holland, Westminster and Bordeaux."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Coolant history comes first",
+   "body": "The V8's big failure is coolant loss: 4.0s usually blow head gaskets and 4.6s slip cylinder liners. The system holds 11.3 litres. Check the level and condition, ask about overheating, and look up the hose and thermostat history. A properly rebuilt engine needs top-hat liners or a new block."
+  },
+  {
+   "head": "Look for a wet floor and a wet body computer",
+   "body": "Damp in the passenger or driver footwell often means leaking heater matrix O-rings. Water in the cargo area or spare-wheel well points to failed tailgate seals. Lift the passenger seat and check the Body Control Module (BECM) for water damage, because a drowned BECM is the expensive version of this problem."
+  },
+  {
+   "head": "Cycle the air suspension",
+   "body": "Raise the truck to its highest setting and look at all four air springs. Listen for the compressor running constantly or cycling often, which points to leaks. An EAS warning or a lean on one corner can mean a tired height sensor. Springs are cheap from aftermarket suppliers (under £100 each), so a leak is a negotiating point, not a deal-breaker."
+  },
+  {
+   "head": "Read the HVAC display",
+   "body": "A 'book' symbol on the climate-control LCD means a stored hard fault, commonly the blend motors, blower relays or A/C. Test full cold on recirculation and cycle every vent. Replacing blend motors properly means taking the dash apart, and a dealer quote can run close to $2,000."
+  },
+  {
+   "head": "Shift into low range",
+   "body": "With the truck almost stopped, select low and then high again a few times. Hesitation, 'Select Neutral' or gearbox-fault messages can come from the transfer-box motor, its harness, or a misaligned XYZ gear-position switch. Listen for centre-diff clonks on tight turns."
+  },
+  {
+   "head": "Check rust where it hides",
+   "body": "The panels are mostly aluminium, but rear arches are the worst cosmetic rust spot and the tailgate rusts under its plastic flap. Check the rear brake lines and look for chassis damage from off-road use."
+  },
+  {
+   "head": "Plug in a diagnostic tool",
+   "body": "Check that all warning lights come on with the ignition and go out (the ABS light should go out once you drive off). A P38-capable tool such as Blackbox Solutions' Nanocom will read the EAS, BECM and HVAC fault logs that a basic OBD reader can't."
+  },
+  {
+   "head": "Petrol V8, and buy on condition",
+   "body": "UK buyers' guides say choose the petrol V8 and pick on condition rather than 4.0 vs 4.6. Be wary of LPG conversions without documented professional fitting. The diesel is slow and has its own head-gasket and fuel-system issues."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Cooling hose and thermostat refresh (GEMS V8)",
+   "diff": "2 / 5",
+   "time": "Half a day",
+   "cost": "About $260 for a complete hose and thermostat kit, plus coolant",
+   "symptoms": "An ageing cooling system on a 4.0 or 4.6. Cracked or soft hoses, a high or overfilling expansion tank, or a heater that blows lukewarm. On these engines, overheating is what leads to slipped liners and blown head gaskets.",
+   "fix": "Remove the reservoir cap and drain the system from the radiator's bottom plug with a 12 mm Allen socket. Expect about 3.5 gallons. The thermostat is an external 'artificial heart' unit held by its hoses next to the radiator. Replace it with the lower hose from underneath, then do the top hose, heater hoses and bypass hoses. While the hoses are off, unbolt and check the metal down-tube for rust blockage. There is no bleed screw. Fill, warm the engine fully, let it cool completely, then top up again. Run the heater to confirm the core isn't air-locked.",
+   "tools": "12 mm Allen socket on a ½-in drive · hose-clamp pliers · 5-gallon drain pan · Atlantic British kit 9369SKA (1995–99 GEMS trucks)",
+   "parts": [
+    {
+     "name": "Radiator hose kit — thermostat/bypass hoses (P38 '95–'02)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/radiator-hose-kit"
+    },
+    {
+     "name": "Thermostat & housing (P38 4.0/4.6 V8)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/thermostat-and-housing"
+    },
+    {
+     "name": "P38 coolant hose & thermostat kit",
+     "supplier": "Atlantic British",
+     "url": "https://www.atlanticbritish.com/search?q=p38+coolant+hose+kit"
+    }
+   ]
+  },
+  {
+   "title": "EAS valve block reseal and compressor rebuild",
+   "diff": "3 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "O-ring and piston-seal kits are cheap. Most of the cost is your time",
+   "symptoms": "The truck sags overnight, the compressor runs for a long time or keeps cycling, the reservoir is slow to fill, or there's an audible hiss from the valve block or silencer.",
+   "fix": "Remove the valve block and compressor (the EAS box is on the left side of the engine bay). Spray soapy water over the solenoids and fittings while the system is under pressure to find the leaks. Replace the solenoid O-rings and the O-rings on the manual-inflation T-pieces and 8 mm lines. Check that each kit's O-ring sizes actually match. On the compressor, check the piston liner and seal, the reed valve and its shim, and the O-ring under the reed. Some owners also replace the thermal overload switch on the compressor board.",
+   "tools": "O-ring kit · compressor piston/seal kit · soapy water · basic hand tools · Nanocom or Faultmate to read and clear EAS faults",
+   "parts": [
+    {
+     "name": "P38 EAS valve block seal / O-ring kit",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=p38+valve+block+seal+kit"
+    },
+    {
+     "name": "P38 EAS compressor piston seal / rebuild kit",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=p38+compressor+rebuild+kit"
+    },
+    {
+     "name": "EAS air suspension pressure switch ANR3902 (P38)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/pressure-switch-pr2-allmakes-oe"
+    }
+   ]
+  },
+  {
+   "title": "Air spring replacement",
+   "diff": "2 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "Aftermarket springs under £100 each. About £350 genuine",
+   "symptoms": "One corner drops after parking, cracked or bulging bellows when the truck is at full height, or EAS faults that come back after you clear them.",
+   "fix": "Raise the truck and support the chassis securely on stands. Never leave it resting on a deflated spring. Depressurise the spring (the system runs at about 10 bar / 150 psi), clean around the fitting, and cap the line. Release the spring's retaining clips and fixings and swap in the new spring. Lower the chassis onto it and refit the clips. Reconnect the line, reinflate, and leak-test with soapy water. Off-roaders often choose uprated springs such as Arnott's Gen III.",
+   "tools": "Jack and axle stands · line caps · eye protection · soapy water · diagnostic tool if faults are logged",
+   "parts": [
+    {
+     "name": "Dunlop front air spring set REB101740 (P38)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/front-air-spring-suspension-strut-set-x2-dunlop"
+    },
+    {
+     "name": "ANR1220 air spring retaining clip set (P38)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/anr1220-spring-air-suspension-retaining-clip-set-of-2-fits-p38-rrs-series"
+    },
+    {
+     "name": "P38 rear air spring",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=p38+rear+air+spring"
+    }
+   ]
+  },
+  {
+   "title": "Heater matrix O-rings (wet footwell)",
+   "diff": "3 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "O-rings are pennies. A new matrix runs from about £60 (Bearmach) to about £400 (genuine Valeo)",
+   "symptoms": "Wet carpet beside the transmission tunnel that smells or tastes sweet, a misting windscreen, or a coolant level that keeps dropping.",
+   "fix": "Start with the O-rings at the matrix pipe connection, which go brittle after 15–20 years. Owners report the pipes come out without removing the dash. The retaining screw is often seized, so put grinding paste on the screwdriver tip, or drill the head off if you have to. Don't overtighten on reassembly, because the joint has to move with heat. If the matrix itself leaks, replacing it means pulling the dash and console. Pressure-test the old and new cores at about 20 psi, and test them hot. Clear the drain under the core while you're in there.",
+   "tools": "Screwdrivers · drill · grinding paste · new O-rings · Nissens 70220/70230 or equivalent matrix if replacing",
+   "parts": [
+    {
+     "name": "STC3261 heater matrix (P38)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/stc3261-heater-matrix-fits-range-rover-p38"
+    },
+    {
+     "name": "P38 heater matrix pipe O-rings",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=p38+heater+matrix+o-ring"
+    }
+   ]
+  },
+  {
+   "title": "Blend motor diagnosis",
+   "diff": "3 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "Motors come pre-wired in a three-pack. Owners quote dealer repairs close to $2,000",
+   "symptoms": "Hot air on one side and cold on the other, a 'book' symbol on the climate display, or temperature that doesn't change.",
+   "fix": "Do the cheap checks first: blower and blend-motor relays, clogged pollen filters, and coolant level and bleeding. If a motor runs on direct voltage but won't move its flap, the flap may be jammed by a warped plenum, or the motor's internal potentiometer may be worn. Owners use a Nanocom's 'calibrate flaps' function after fitting new motors. As a winter stopgap, one owner unplugged a dead motor and set its flap open by hand.",
+   "tools": "Multimeter · relays · pollen filters · Nanocom/Faultmate · replacement motors",
+   "parts": [
+    {
+     "name": "STC3259G heater blend motor (P38)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/stc3259g-heater-blend-blender-motor-servo-fits-p38"
+    },
+    {
+     "name": "Cabin pollen filter set LR030219 (P38)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/cabin-pollen-filter-set"
+    }
+   ]
+  },
+  {
+   "title": "XYZ gear-position switch alignment",
+   "diff": "2 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "About $100 for the alignment tool, plus a switch if yours has failed",
+   "symptoms": "'Select Neutral' or gearbox-fault messages during range changes, wrong gear indication, or the transfer box refusing to change range.",
+   "fix": "The transmission ECU reads the transfer-box motor position as a Gray code, so check the motor harness and its earth first. Then check the XYZ (inhibitor/gear-position) switch on the auto gearbox. Set it with the dealer alignment tool LRT-44-011 rather than by eye. Atlantic British has reissued that tool and published a video of the procedure.",
+   "tools": "XYZ switch alignment tool LRT-44-011 · multimeter · diagnostic tool",
+   "parts": [
+    {
+     "name": "LRT-44-011 XYZ switch alignment tool",
+     "supplier": "Atlantic British",
+     "url": "https://www.atlanticbritish.com/search?q=LRT-44-011"
+    },
+    {
+     "name": "P38 gear position (XYZ) switch",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=p38+xyz+switch"
+    }
+   ]
+  },
+  {
+   "title": "Front suspension bushes and ball joints",
+   "diff": "3 / 5",
+   "time": "4–6 hours for all four ball joints",
+   "cost": "Parts plus labor",
+   "symptoms": "Vague steering, wander, clonks over bumps, uneven tyre wear. The front usually wears out first.",
+   "fix": "Replace the radius arm bushes and the swivel ball joints, which need a special press tool. Polyurethane bush kits such as Polybush are popular. Use poly at both ends of the truck, and don't put poly in the Panhard rod. Check the dampers, drop links and ABS sensors while you're there.",
+   "tools": "Ball-joint press · breaker bar · bush kit (e.g. Polybush radius-arm-to-axle kit)",
+   "parts": [
+    {
+     "name": "Lemförder upper & lower ball joint set ×4 (FTC3570/FTC3571)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/upper-lower-ball-joint-set-x4-lemforder"
+    },
+    {
+     "name": "P38 front radius arm bush kit",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/front-suspension-arm-bush-bushing-set"
+    },
+    {
+     "name": "Polybush P38 front radius arm-to-axle kit (Comfort)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/polybush-range-rover-p38-front-radius-arm-to-axle-bushing-kit-comfort"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "Forum reports say 245/75R16 or 255/70R16, roughly 30 to 30.5 inches. One owner runs 255/70R16 on standard suspension with no rubbing. Another found 245/75R16 clears at full lock at standard and high ride heights, but rubs at the lowest height and can touch the back of the arch at full compression. 265/75R16 (about 31.6 in) rubs when the axles cross up unless you lift the truck and fit an adjustable Panhard rod.",
+   "src": "AULRO · DISCOWEB"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "Poor. The EPA rated a 2000 4.0 automatic at 12 mpg city, 16 highway and 13 combined, and the 4.6 at 11/14/12. The tank holds 100 litres (about 26 US gallons).",
+   "src": "FUELECONOMY.GOV · CARSALES"
+  },
+  {
+   "q": "How much can a P38 tow?",
+   "a": "3,500 kg (7,716 lb) braked and 750 kg unbraked, according to published spec sheets for the 4.6 HSE.",
+   "src": "CARSALES · CARS-DATA"
+  },
+  {
+   "q": "4.0 or 4.6 — which should I buy?",
+   "a": "Buy the better truck. Buyers' guides say choose on condition rather than displacement. The 4.0 is more likely to blow a head gasket and the 4.6 more likely to slip a liner, so cooling-system history matters more than size. The 4.6 has more power, a 4-pin rear diff and four-wheel traction control from new. It came only with the ZF automatic.",
+   "src": "CLASSICS WORLD · WIKIPEDIA"
+  },
+  {
+   "q": "Do I have a GEMS or a Bosch engine?",
+   "a": "Open the hood. A rectangular plenum with '4.0' or '4.6' embossed in the middle means GEMS, the earlier Lucas system. A cluster of intake tubes and no label means Bosch Motronic, which arrived mid-1999. The two use different parts, so check before ordering.",
+   "src": "ATLANTIC BRITISH · CLASSICS WORLD"
+  },
+  {
+   "q": "Does it have low range and locking diffs?",
+   "a": "It has full-time four-wheel drive with a two-speed BorgWarner 4462 transfer box, switched electrically. Slow almost to a stop before changing range. There are no factory locking diffs; traction control brakes a spinning wheel instead (rear-only on early 4.0 and diesel trucks, all four wheels on the 4.6 and on later trucks). For bigger tyres, Ashcroft makes heavy-duty 4.10 ring-and-pinion sets for the P38's diffs.",
+   "src": "WIKIPEDIA · LUCKY8"
+  },
+  {
+   "q": "Should I convert to coil springs?",
+   "a": "It's a common way to simplify the truck. Terrafirma's standard-height kit TF223 is a bolt-in swap. Before you do it, note that air springs are cheap now and leaks are often just perished seals that are easy to fix. UK guides say coil conversions are becoming less popular as EAS parts get cheaper, and a healthy EAS gives you the extra off-road height.",
+   "src": "TERRAFIRMA/LUCKY8 · CLASSICS WORLD"
+  },
+  {
+   "q": "What lift options exist?",
+   "a": "Lucky8's 4-inch kit (Terrafirma heavy-duty springs, +2-in Pro Sport shocks, mounting plates and an EAS override harness) was developed on its own P38 project truck. Lucky8 recommends tyres up to 32.5 in with it. Owners also report about 2 in of lift from Arnott Gen III air springs with Terrafirma shocks. Bigger lifts usually need double-cardan driveshafts (Tom Wood's) to cure vibration, and adjustable Panhard rods to re-centre the axles.",
+   "src": "LUCKY8 · EXPEDITION PORTAL"
+  },
+  {
+   "q": "Is the BMW diesel worth having?",
+   "a": "It's the economy choice outside the US: a 2.5-litre BMW M51 six with 136 hp and 270 Nm. UK buyers' guides still recommend the petrol V8 and warn about diesel head gaskets (especially on remapped trucks), glow plugs and fuel-system parts. It was never sold in North America.",
+   "src": "WIKIPEDIA · CLASSICS WORLD"
+  },
+  {
+   "q": "What maintenance gets skipped that I shouldn't skip?",
+   "a": "Coolant hoses and thermostat: Land Rover's schedule says every 90,000 miles. Automatic gearbox oil about every 70,000 miles. The V8's mass airflow sensor at about 90,000 miles. Ignition leads, which wear quickly on the V8. The EAS compressor filter.",
+   "src": "ATLANTIC BRITISH · CLASSICS WORLD"
+  },
+  {
+   "q": "Why does the driver's or passenger's footwell get wet?",
+   "a": "Usually the heater matrix O-rings, or a blocked drain under the heater box. Sometimes it's a leaking matrix. Clogged drains and failed seals can also let water reach the body computer under the seat, so fix wet carpets quickly.",
+   "src": "RANGEROVERS.PUB · AULRO · CLASSICS WORLD"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "Lucky8's Terrafirma-based 4-inch coil kit was proven on its P38 'Rhino' project truck and clears tyres up to about 32.5 in. Owners who want to keep air springs run Arnott Gen III springs with longer shocks.",
+   "who": [
+    {
+     "name": "Lucky8 — Terrafirma P38 4in kit",
+     "url": "https://lucky8llc.com/products/terrafirma-range-rover-p38-4in-kit"
+    },
+    {
+     "name": "Terrafirma",
+     "url": "https://terrafirma4x4.com/"
+    }
+   ]
+  },
+  {
+   "cat": "AIR-TO-COIL CONVERSION",
+   "why": "A bolt-in standard-height kit takes the compressor, valve block and air springs out of the equation for remote travel.",
+   "who": [
+    {
+     "name": "Terrafirma TF223 (via Lucky8)",
+     "url": "https://lucky8llc.com/products/terrafirma-p38-air-to-coil-conversion-kit"
+    }
+   ]
+  },
+  {
+   "cat": "DRIVESHAFTS",
+   "why": "Lifted P38s run steeper driveshaft angles, which causes vibration and wears out U-joints. Double-cardan shafts fix it.",
+   "who": [
+    {
+     "name": "Tom Wood's (via Lucky8)",
+     "url": "https://lucky8llc.com/products/tom-woods-p38-front-double-cardan-drive-shaft"
+    },
+    {
+     "name": "Tom Wood's",
+     "url": "https://tomwoods.com/"
+    }
+   ]
+  },
+  {
+   "cat": "ARMOR & RECOVERY",
+   "why": "Steel sliders with tree bars, a winch-ready front bumper and a heavy-duty rear bumper to replace the plastic one.",
+   "who": [
+    {
+     "name": "Terrafirma sliders TF816",
+     "url": "https://lucky8llc.com/products/terrafirma-range-rover-p38-rock-sliders-with-tree-bars-kit"
+    },
+    {
+     "name": "Terrafirma front winch bumper TF007A",
+     "url": "https://lucky8llc.com/products/terrafirma-range-rover-p38-front-winch-bumper"
+    },
+    {
+     "name": "Terrafirma rear bumper TF070A",
+     "url": "https://lucky8llc.com/products/terrafirma-range-rover-p38-rear-bumper"
+    }
+   ]
+  },
+  {
+   "cat": "GEARING & DIFFS",
+   "why": "Bigger tyres blunt the V8. Heavy-duty 4.10 ring-and-pinion sets restore acceleration and strengthen the diffs.",
+   "who": [
+    {
+     "name": "Ashcroft 4.10 R&P (via Lucky8)",
+     "url": "https://lucky8llc.com/products/ashcroft-4-10-ring-pinion-for-the-p38-type-diff"
+    }
+   ]
+  },
+  {
+   "cat": "WATER & COOLING",
+   "why": "A snorkel raises the air intake for wading and dust. An alloy radiator helps keep a hard-working V8 away from liner-slipping temperatures.",
+   "who": [
+    {
+     "name": "Terrafirma snorkel TF159",
+     "url": "https://lucky8llc.com/products/p38-snorkel"
+    },
+    {
+     "name": "Allisport AS75 alloy radiator",
+     "url": "https://www.allisport.com/shop/performance-products/alloy-radiators/range-rover-p38-v8-radiator/"
+    }
+   ]
+  },
+  {
+   "cat": "BUSHES & STEERING",
+   "why": "Fresh polyurethane radius-arm bushes and a Terrafirma steering damper tighten up a tired front end.",
+   "who": [
+    {
+     "name": "Polybush radius arm kit (via Lucky8)",
+     "url": "https://lucky8llc.com/products/polybush-range-rover-p38-front-radius-arm-to-axle-bushing-kit-comfort"
+    },
+    {
+     "name": "Terrafirma steering damper",
+     "url": "https://lucky8llc.com/products/terrafirma-range-p38-steering-damper"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1995–1998 · US",
+   "label": "GEMS-engined 4.0 / 4.6",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1995&maxyear=1998",
+   "bat_url": "https://bringatrailer.com/land-rover/range-rover-p38a/"
+  },
+  {
+   "years": "1999–2002 · US",
+   "label": "Bosch-engined + 2000 facelift",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1999&maxyear=2002",
+   "bat_url": "https://bringatrailer.com/land-rover/range-rover-p38a/"
+  },
+  {
+   "years": "1995–2002 · All",
+   "label": "Every P38A",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1995&maxyear=2002",
+   "bat_url": "https://bringatrailer.com/land-rover/range-rover-p38a/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Blackbox Solutions",
+   "focus": "NANOCOM DIAGNOSTICS (ORIGINALLY BBSP38)",
+   "url": "https://www.youtube.com/@BlackBoxSolutionsDiagnostics"
+  },
+  {
+   "kind": "YT",
+   "name": "Atlantic British",
+   "focus": "P38 SERVICE HOW-TOS, XYZ & GEMS FIXES",
+   "url": "https://www.youtube.com/@atlanticbritishrp"
+  },
+  {
+   "kind": "YT",
+   "name": "Lucky8 Off-Road",
+   "focus": "ROVER BUILDS & NEWS",
+   "url": "https://www.youtube.com/@Lucky8"
+  },
+  {
+   "kind": "YT",
+   "name": "Rovers North",
+   "focus": "LAND ROVER PARTS & INSTALLS",
+   "url": "https://www.youtube.com/@roversnorth"
+  },
+  {
+   "kind": "IG",
+   "name": "@blackbox_nanocom",
+   "focus": "LAND ROVER DIAGNOSTICS",
+   "url": "https://www.instagram.com/blackbox_nanocom/"
+  },
+  {
+   "kind": "IG",
+   "name": "@atlanticbritish",
+   "focus": "ROVER PARTS & TECH",
+   "url": "https://www.instagram.com/atlanticbritish/"
+  },
+  {
+   "kind": "IG",
+   "name": "@paddockspares",
+   "focus": "UK LAND ROVER PARTS",
+   "url": "https://www.instagram.com/paddockspares/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "rangerovers.pub",
+   "url": "https://rangerovers.pub/",
+   "note": "A small, very technical P38-only forum. Expect long threads on heater matrices and EAS."
+  },
+  {
+   "name": "AULRO — P38A Range Rover",
+   "url": "https://www.aulro.com/afvb/p38a-range-rover/",
+   "note": "Australian forum with a deep archive of EAS rebuilds, blend motors and transfer-box faults."
+  },
+  {
+   "name": "Rovers North Forums — Range Rover P38A",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/range-rover-p38a",
+   "note": "US tech threads from the parts supplier's community."
+  },
+  {
+   "name": "Full Fat RR — Range Rover P38",
+   "url": "https://www.fullfatrr.com/forum/range-rover-p38-vf46.html",
+   "note": "UK full-size Range Rover forum with a dedicated P38 section."
+  },
+  {
+   "name": "RangeRovers.net",
+   "url": "https://www.rangerovers.net/",
+   "note": "The big US Range Rover community, with a section for every generation."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "Range Rover Classic",
+   "family": "range-rover",
+   "gen": "classic"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "Range Rover L322",
+   "family": "range-rover",
+   "gen": "l322"
+  },
+  {
+   "rel": "COUSIN (SAME ROVER V8, GEMS ERA)",
+   "name": "Discovery 1",
+   "family": "land-rover",
+   "gen": "discovery-1"
+  }
+ ],
+ "plate": [
+  {
+   "k": "BUILT",
+   "v": "1994–2002 MY · Solihull, UK"
+  },
+  {
+   "k": "PRODUCTION",
+   "v": "≈167,000 (uncited Wikipedia figure)"
+  },
+  {
+   "k": "BODY",
+   "v": "5-door wagon"
+  },
+  {
+   "k": "CHASSIS",
+   "v": "Separate steel frame"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "2,746 mm (108.1 in)"
+  },
+  {
+   "k": "LENGTH",
+   "v": "4,712 mm (185.5 in)"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Beam axles · EAS, 5 heights"
+  },
+  {
+   "k": "ENGINES",
+   "v": "Rover V8 4.0 / 4.6 · BMW 2.5 TD6"
+  },
+  {
+   "k": "GEARBOXES",
+   "v": "ZF 4HP22 / 4HP24 auto · R380 5-spd"
+  },
+  {
+   "k": "TRANSFER",
+   "v": "BorgWarner 4462, electric hi/lo"
+  },
+  {
+   "k": "TOWING",
+   "v": "3,500 kg braked"
+  },
+  {
+   "k": "FUEL",
+   "v": "100 L"
+  }
+ ],
+ "photos": [
+  {
+   "file": "discovery1-mud.jpg",
+   "alt": "Red Discovery 1 with roof rack ploughing through a deep mud pit at an off-road event",
+   "caption": "DISCOVERY 1 · SAME ROVER V8 FAMILY, NOT A P38",
+   "credit": "Hobi Photography",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/a-red-land-rover-is-driving-through-mud-27555108/"
+  },
+  {
+   "file": "discovery1-lakeside.jpg",
+   "alt": "A Discovery 1 overlander with roof rack, bull bar and recovery boards parked on grass beside a lake",
+   "caption": "DISCOVERY 1 · THE P38'S GEMS-V8 COUSIN",
+   "credit": "Thomas Tucker",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/an-off-road-vehicle-parks-by-the-water-LaNwh5IIsjw"
+  },
+  {
+   "file": "l405-trail.jpg",
+   "alt": "A fourth-generation Range Rover (L405) climbing a rutted dirt trail between bushes",
+   "caption": "L405 · THE P38'S GRANDCHILD ON A TRAIL",
+   "credit": "Zakaria Zayane",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Range Rover (P38A)",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_(P38A)"
+  },
+  {
+   "name": "Classics World — Buying guide: Range Rover P38A",
+   "url": "https://classicsworld.co.uk/guides/buying-guide-range-rover-p38a/"
+  },
+  {
+   "name": "mez.co.uk — Range Rover P38 buyer's guide",
+   "url": "https://mez.co.uk/p38.html"
+  },
+  {
+   "name": "Atlantic British — Identifying GEMS vs Bosch engines",
+   "url": "https://www.roverparts.com/techtips/boschvsgems.cfm"
+  },
+  {
+   "name": "Atlantic British — Coolant hose & thermostat replacement, Range Rover P38",
+   "url": "https://www.roverparts.com/resources/videos/coolant-hose-thermostat-replacement-rover-p38/"
+  },
+  {
+   "name": "Atlantic British — XYZ switch alignment tool LRT-44-011 (Discovery II / P38)",
+   "url": "https://www.roverparts.com/resources/videos/discovery-2-rover-p38-adjust-park-neutral-position-switch-xyz-tool/"
+  },
+  {
+   "name": "AULRO — EAS valve block and compressor rebuild thread",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-219740.html"
+  },
+  {
+   "name": "AULRO — P38 blend motor thread",
+   "url": "https://www.aulro.com/afvb/p38a-range-rover/204928-blend-motor.html"
+  },
+  {
+   "name": "AULRO — 'Select Neutral' alert in low range",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-117661.html"
+  },
+  {
+   "name": "AULRO — New heater matrix issues",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-219639.html"
+  },
+  {
+   "name": "AULRO — All P38 tyre sizes",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-195144.html"
+  },
+  {
+   "name": "rangerovers.pub — Heater matrix O-ring thread",
+   "url": "https://rangerovers.pub/post/30206"
+  },
+  {
+   "name": "Rovers North Forums — P38 heat / blend motor thread",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/range-rover-p38a/7883-heat"
+  },
+  {
+   "name": "DiscoWeb archive — P38A with EAS and tyre sizes",
+   "url": "https://discoweb.org/oldsite/41704archive/DiscusArchive/messages/7/45109.html"
+  },
+  {
+   "name": "Expedition Portal — P38 tyres, lifts and builds thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1750548"
+  },
+  {
+   "name": "Arnott — Range Rover front air spring install sheet (via ManualsDir)",
+   "url": "https://www.manualsdir.com/manuals/304008/air-suspension-front-air-spring-range-rover.html"
+  },
+  {
+   "name": "FuelEconomy.gov — 2000 Range Rover 4.0",
+   "url": "https://www.fueleconomy.gov/feg/noframes/16364.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2000 Range Rover 4.6",
+   "url": "https://www.fueleconomy.gov/feg/noframes/16365.shtml"
+  },
+  {
+   "name": "carsales — 1999 Range Rover HSE specifications",
+   "url": "https://www.carsales.com.au/research/land-rover/range-rover/1999/hse/"
+  },
+  {
+   "name": "cars-data.com — Range Rover P38A 4.6 HSE specs",
+   "url": "https://cars-data.com/en/land-rover/range-rover/p38a/4-6-hse-16653--16653/specs"
+  },
+  {
+   "name": "Lucky8 — Terrafirma Range Rover P38 4in kit",
+   "url": "https://lucky8llc.com/products/terrafirma-range-rover-p38-4in-kit"
+  },
+  {
+   "name": "Lucky8 — Terrafirma P38 air-to-coil conversion TF223",
+   "url": "https://lucky8llc.com/products/terrafirma-p38-air-to-coil-conversion-kit"
+  },
+  {
+   "name": "Lucky8 — Tom Wood's P38 front double cardan shaft",
+   "url": "https://lucky8llc.com/products/tom-woods-p38-front-double-cardan-drive-shaft"
+  },
+  {
+   "name": "Lucky8 — Ashcroft 4.10 ring & pinion for P38 diff",
+   "url": "https://lucky8llc.com/products/ashcroft-4-10-ring-pinion-for-the-p38-type-diff"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover P38A",
+   "url": "https://bringatrailer.com/land-rover/range-rover-p38a/"
+  },
+  {
+   "name": "BolidenForum — 1999 Range Rover (P38) technical data (fluids and capacities)",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1999-range-rover-s/?vd_lang=en"
+  },
+  {
+   "name": "rangerovers.pub — P38 4.6 gearbox drain and refill (≈5 L)",
+   "url": "https://rangerovers.pub/topic/468?page=1"
+  },
+  {
+   "name": "Lucky8 — Mahle short oil filter (P38 fitment)",
+   "url": "https://lucky8llc.com/products/oil-filter-mahle"
+  },
+  {
+   "name": "Lucky8 — Cabin pollen filter set LR030219 (P38 fitment)",
+   "url": "https://lucky8llc.com/products/cabin-pollen-filter-set"
+  }
+ ],
+ "baseline_service": {
+  "intro": "The P38 rewards a full catch-up service more than almost any other Range Rover. Overheating causes the V8's slipped liners, and neglected EAS and gearbox fluid cause most of the expensive failures. Change every fluid, refresh the cooling system, and leak-test the air suspension before you trust it. Note whether the engine is a GEMS (1995–98) or Bosch (1999–2002) V8, because some parts differ.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "API SG/SH or ACEA A2:96, SAE 5W-40 or 5W-50 · ≈5.8 L drain & refill (6.6 L dry)",
+    "interval": "At purchase, then every 5,000–6,000 mi",
+    "note": "Check the dipstick for mayonnaise and the expansion tank for oil. Either one points to head-gasket or liner trouble.",
+    "parts": [
+     {
+      "name": "Mahle short oil filter (P38 4.0/4.6)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/oil-filter-mahle"
+     },
+     {
+      "name": "Sump drain plug washer (4.0 V8)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/washer-for-sump-drain-plug-4-0-v8-300tdi"
+     }
+    ]
+   },
+   {
+    "item": "Air & cabin filters",
+    "spec": "OE-type engine air element, plus the pollen/cabin filter pair",
+    "interval": "At purchase",
+    "note": "Clogged pollen filters affect the climate control and can look like a blend-motor fault (see repairs).",
+    "parts": [
+     {
+      "name": "P38 engine air filter",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+air+filter"
+     },
+     {
+      "name": "Cabin pollen filter set LR030219 (P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/cabin-pollen-filter-set"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs & leads",
+    "spec": "Plug type and gap per manual [CONFIRM IN MANUAL]",
+    "interval": "At purchase if there's no record",
+    "note": "Misfires on Bosch trucks often come from the leads and coils. Replace the plugs and leads as a set.",
+    "parts": [
+     {
+      "name": "NLP100320 spark plug (Discovery II / P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/spark-plug-1"
+     },
+     {
+      "name": "Magnecor ignition lead set, Bosch 4.0/4.6",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/magnacor-bosch-v8-4-0-4-6-wires"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter",
+    "spec": "V8: OE-type EFI filter [CONFIRM IN MANUAL]. 2.5 DSE diesel: STC2827",
+    "interval": "At purchase",
+    "note": "Do the diesel filter at purchase on non-US 2.5 DSE trucks.",
+    "parts": [
+     {
+      "name": "P38 V8 fuel filter",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+fuel+filter"
+     },
+     {
+      "name": "STC2827 diesel fuel filter (P38 2.5 DSE)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/stc2827-fuel-filter-diesel-fits-range-rover-p38"
+     }
+    ]
+   },
+   {
+    "item": "Coolant, hoses & thermostat",
+    "spec": "50/50 ethylene glycol antifreeze and water · ≈11.4 L",
+    "interval": "At purchase, then every 2 years",
+    "note": "Replace the hoses, thermostat and expansion-tank cap as a set (see repairs). There's no bleed screw. Warm the engine, let it cool, then top up.",
+    "parts": [
+     {
+      "name": "Radiator hose kit (P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/radiator-hose-kit"
+     },
+     {
+      "name": "Thermostat & housing (P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/thermostat-and-housing"
+     },
+     {
+      "name": "ERR4996 viscous fan clutch (P38 / D2)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/viscous-clutch-2"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (ZF 4HP24)",
+    "spec": "Dexron III ATF · ≈11 L total fill. A drain and refill takes about 5 L",
+    "interval": "Drain and refill at purchase. Repeat after a few hundred miles",
+    "note": "An owner on rangerovers.pub measured about 5 L from a drain and refill. Two drain-and-fills refresh most of the fluid without the risk of a flush.",
+    "parts": [
+     {
+      "name": "ZF 4HP24 pan filter and gasket",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+transmission+filter"
+     }
+    ]
+   },
+   {
+    "item": "Transfer box (Borg Warner 44-62 Hi/Lo)",
+    "spec": "Dexron III ATF · ≈2.0 L drain & refill (2.4 L dry)",
+    "interval": "At purchase",
+    "note": "Range-change faults ('Select Neutral') are usually electrical or an XYZ switch problem, not low oil. See repairs.",
+    "parts": [
+     {
+      "name": "P38 transfer box drain/fill plugs and seals",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+transfer+box+seal"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Hypoid gear oil, API GL-5 [CONFIRM grade IN MANUAL] · ≈1.6 L each drain & refill (1.7 L dry)",
+    "interval": "At purchase, then every 2 years",
+    "note": "Fill to the level plug on level ground. Check the pinion seals.",
+    "parts": [
+     {
+      "name": "P38 differential drain/fill plugs",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+differential+plug"
+     }
+    ]
+   },
+   {
+    "item": "Front ball joints (no oil-filled swivels)",
+    "spec": "Sealed ball joints. There's no swivel oil or grease to change",
+    "interval": "Inspect at purchase",
+    "note": "Unlike the Classic and Defender, the P38 front axle uses press-fit ball joints. Check them for play while the wheels are off.",
+    "parts": [
+     {
+      "name": "Lemförder ball joint set ×4 (P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/upper-lower-ball-joint-set-x4-lemforder"
+     }
+    ]
+   },
+   {
+    "item": "Power steering",
+    "spec": "Dexron III ATF (or Texamatic 9226) · ≈1.7 L",
+    "interval": "Check at purchase",
+    "note": "Check the steering box and the PAS cooler pipes for weeps.",
+    "parts": [
+     {
+      "name": "P38 power steering hoses",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+power+steering+hose"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 4",
+    "interval": "At purchase, then every 2 years",
+    "note": "An ABS pump that keeps running, or ABS warnings, need diagnosis with a Nanocom or a similar tool.",
+    "parts": [
+     {
+      "name": "P38 brake hoses",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+brake+hose"
+     }
+    ]
+   },
+   {
+    "item": "EAS air suspension",
+    "spec": "System runs at about 10 bar / 150 psi. No fluid",
+    "interval": "Leak-test at purchase. Drain any water from the reservoir and check the dryer",
+    "note": "Park overnight at normal height and check each corner in the morning. Spray soapy water on the springs and valve block to find leaks (see repairs). Never work under a truck resting on deflated springs.",
+    "parts": [
+     {
+      "name": "Dunlop front air spring set (P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/front-air-spring-suspension-strut-set-x2-dunlop"
+     },
+     {
+      "name": "P38 EAS air dryer and valve block seals",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+eas+air+dryer"
+     }
+    ]
+   },
+   {
+    "item": "Drive belt",
+    "spec": "Poly-V serpentine belt",
+    "interval": "At purchase",
+    "note": "Inspect the tensioner and idler pulleys while the belt is off.",
+    "parts": [
+     {
+      "name": "PQS101640 serpentine belt (P38)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/land-rover-range-rover-p38-alternator-fan-serpentine-belt-pqs101640d-new"
+     }
+    ]
+   },
+   {
+    "item": "Propshafts & UJs",
+    "spec": "Multipurpose lithium grease",
+    "interval": "At purchase",
+    "note": "Grease the UJs and sliding joints. Worn UJs feel like a clunk on take-up.",
+    "parts": [
+     {
+      "name": "P38 propshaft universal joints",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=p38+propshaft+universal+joint"
+     }
+    ]
+   }
+  ]
+ }
+}

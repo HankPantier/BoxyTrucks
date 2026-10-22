@@ -1,0 +1,180 @@
+{% extends "base.html" %}
+{% from "_res.html" import res_block, reading_block %}
+{% block content %}
+{% set p = page %}
+<section class="hero">
+  {% if p.hero_photo %}<img src="{{ img(fam.slug, p.hero_photo) }}" alt="{{ hero_alt }}">{% endif %}
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ p.title }}</span></nav>
+    <div class="hero-panel">
+      <div class="eyebrow brass">{{ p.eyebrow }}</div>
+      <h1>{{ p.title }}</h1>
+      <p class="verdict">“{{ p.verdict }}”</p>
+      <div class="chips">{% for c in p.codes %}<span class="chip brass">{{ c }}</span>{% endfor %}</div>
+    </div>
+  </div>
+  {% if p.hero_note %}<div class="hero-tag">{{ p.hero_note }}</div>{% endif %}
+</section>
+
+<div class="wrap section">
+  <div class="split">
+    <div class="main">
+
+      <section id="story" class="prose">
+        <div class="eyebrow" style="margin-bottom:20px">The story</div>
+        {% for s in p.story %}
+          {% if s.heading %}<h3 class="label" style="margin:32px 0 14px">{{ s.heading }}</h3>{% endif %}
+          {% for para in s.paragraphs %}<p{% if loop.first and loop.index0 == 0 and not s.heading %} class="lead"{% endif %}>{{ para|lk }}</p>{% endfor %}
+        {% endfor %}
+        {% if p.callout %}
+        <div class="callout" style="margin-top:28px">
+          <span class="eyebrow brass">{{ p.callout.label }}</span>
+          <h3>{{ p.callout.title }}</h3>
+          {% for para in p.callout.paragraphs %}<p>{{ para|lk }}</p>{% endfor %}
+        </div>
+        {% endif %}
+      </section>
+
+      {% if p.photos %}
+      <section class="gallery" aria-label="Photos">
+        {% for ph in p.photos[:4] %}
+        <figure><img src="{{ img(fam.slug, ph.file) }}" alt="{{ ph.alt }}" loading="lazy"><figcaption>{{ ph.caption }}</figcaption></figure>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if p.engineering %}
+      <section id="engineering" style="display:flex;flex-direction:column;gap:22px">
+        <h2 class="h-section">How it’s built</h2>
+        {% if p.engineering_intro %}<div class="prose"><p style="margin:0">{{ p.engineering_intro|lk }}</p></div>{% endif %}
+        <div class="cells">{% for e in p.engineering %}<div><span class="k">{{ e.k }}</span><span class="v">{{ e.v }}</span><span class="n">{{ e.note|lk }}</span></div>{% endfor %}</div>
+        {% if p.engineering_note %}<div class="note-box"><span class="label">{{ p.engineering_note.title }}</span><p>{{ p.engineering_note.body|lk }}</p></div>{% endif %}
+      </section>
+      {% endif %}
+
+      {% if p.generations_table %}
+      <section id="variants" style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">Variants &amp; years</h2>
+        <div class="table-box"><table>
+          <thead><tr><th>YEARS</th><th>PLATFORM</th><th>ENGINE</th><th>OUTPUT</th><th>WORTH KNOWING</th></tr></thead>
+          <tbody>{% for g in p.generations_table %}<tr><td class="mono">{{ g.years }}</td><td>{{ g.platform }}</td><td>{{ g.engine }}</td><td class="mono">{{ g.output }}</td><td class="note">{{ g.note|lk }}</td></tr>{% endfor %}</tbody>
+        </table></div>
+      </section>
+      {% endif %}
+
+      {% if p.buying_checks %}
+      <section id="buying" style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">Buying one: what to check</h2>
+        <ol class="checks">{% for n in p.buying_checks %}<li><span class="no">{{ '%02d' % loop.index }}</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>
+      </section>
+      {% endif %}
+
+      {% if p.baseline_service and p.baseline_service.get('items') %}
+      <section id="service" style="display:flex;flex-direction:column;gap:18px">
+        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Post-purchase baseline</span><h2 style="font-size:34px">After you buy it</h2></div>
+        {% if p.baseline_service.intro %}<div class="prose"><p style="margin:0">{{ p.baseline_service.intro|lk }}</p></div>{% endif %}
+        <div class="table-box"><table class="svc">
+          <thead><tr><th>SERVICE</th><th>SPEC &amp; CAPACITY</th><th>THEN</th><th>PARTS</th></tr></thead>
+          <tbody>{% for s in p.baseline_service['items'] %}<tr>
+            <td><strong>{{ s.item }}</strong>{% if s.note %}<span class="svc-note">{{ s.note|lk }}</span>{% endif %}</td>
+            <td>{{ s.spec }}</td><td class="note">{{ s.interval }}</td>
+            <td>{% for pt in s.parts or [] %}<a href="{{ pt.url }}" target="_blank" rel="noopener" class="svc-part">{{ pt.name }}{% if pt.supplier %} · {{ pt.supplier }}{% endif %} ↗</a>{% endfor %}</td>
+          </tr>{% endfor %}</tbody>
+        </table></div>
+      </section>
+      {% endif %}
+
+      {% if p.repairs %}
+      <section id="repairs" style="display:flex;flex-direction:column;gap:22px">
+        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">For the hands-on owner</span><h2 style="font-size:34px">Common repairs</h2></div>
+        <div class="prose"><p style="margin:0">The jobs owners actually end up doing, rated for a competent home mechanic with a decent tool kit. Always confirm torque figures and procedures against the factory service manual for your VIN.{% if affiliates_on %} Some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p></div>
+        <div class="stack">
+        {% for r in p.repairs %}
+          <article class="repair">
+            <div class="meta"><span class="t">{{ r.title }}</span><div class="s"><span>DIFFICULTY · {{ r.diff }}</span><span>TIME · {{ r.time }}</span><span>SHOP COST · {{ r.cost }}</span></div></div>
+            <div class="detail">
+              <div><span class="lbl">SYMPTOMS</span><span class="txt">{{ r.symptoms|lk }}</span></div>
+              <div><span class="lbl">THE FIX</span><span class="txt">{{ r.fix|lk }}</span></div>
+              <div><span class="lbl">TOOLS &amp; PARTS</span><span class="tools">{{ r.tools }}</span></div>
+              <div class="buy"><span class="lbl">WHERE TO BUY PARTS</span><span class="buy-links">{% for pt in r.parts or [] %}<a href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.name }}{% if pt.supplier %} · {{ pt.supplier }}{% endif %} ↗</a>{% endfor %}{% if not r.parts %}{% for s in part_search %}<a href="{{ s.search.replace('{q}', (r.title|striplk ~ ' ' ~ p.title)|replace(' ', '+')|urlencode|replace('%2B','+')) }}" target="_blank" rel="noopener">Search {{ s.name }} ↗</a>{% endfor %}{% if not part_search %}<span style="color:var(--stone)">Supplier links coming soon</span>{% endif %}{% endif %}</span></div>
+            </div>
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if p.faq %}
+      <section id="faq" style="display:flex;flex-direction:column;gap:18px">
+        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Asked on every forum</span><h2 style="font-size:34px">{{ p.title }} questions, answered</h2></div>
+        <div class="faq">{% for f in p.faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p><span class="src">SOURCE · {{ f.src }}</span></div></details>{% endfor %}</div>
+      </section>
+      {% endif %}
+
+      {% if p.mods %}
+      <section id="mods" style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">Common modifications &amp; who does them</h2>
+        <div class="grid">{% for m in p.mods %}
+          <div class="mod"><span class="label">{{ m.cat }}</span><span class="why">{{ m.why|lk }}</span>
+            <div class="who">{% for w in m.who %}{% if w.url and w.url != '#' %}<a href="{{ w.url }}" target="_blank" rel="noopener">{{ w.name }} ↗</a>{% else %}<span>{{ w.name }}</span>{% endif %}{% else %}<span style="color:var(--stone)">[Suppliers to add]</span>{% endfor %}</div>
+          </div>{% endfor %}</div>
+      </section>
+      {% endif %}
+
+      {% if p.searches %}
+      <section id="sale" style="display:flex;flex-direction:column;gap:18px">
+        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px"><span class="eyebrow">The one you’ll own someday</span><h2 style="font-size:34px">For sale now</h2></div>
+        <div class="grid" style="--min:240px">{% for s in p.searches %}
+          <div class="sale"><span class="eyebrow brass">{{ s.years }}</span><span class="l">{{ s.label }}</span>
+            <div class="links">{% if s.at_url %}<a href="{{ s.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if s.bat_url %}<a href="{{ s.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
+          </div>{% endfor %}</div>
+      </section>
+      {% endif %}
+
+      <section id="resources" style="display:flex;flex-direction:column;gap:22px">
+        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:10px"><div style="display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Resources</span><h2 style="font-size:34px">Channels, accounts &amp; forums</h2></div><a class="label" href="{{ root }}resources/index.html#{{ fam.slug }}" style="color:var(--ink)">All {{ fam.name }} resources →</a></div>
+        {% set pres = {'youtube': yt or res.youtube[:4], 'instagram': ig or res.instagram[:4], 'forums': page.forums or res.forums[:5], 'other': []} %}
+        {% if not (yt or ig) and (res.youtube or res.instagram) %}<p class="serif" style="margin:0;color:var(--stone);font-size:16px">From the wider {{ fam.name }} community:</p>{% endif %}
+        {% if pres.youtube or pres.instagram or pres.forums %}{{ res_block(pres) }}{% else %}<div class="stub-note">Channels, accounts and forums for the {{ page.title }} are being gathered.</div>{% endif %}
+        {{ reading_block(reading) }}
+      </section>
+
+      {% if p.related %}
+      <section id="related" style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">Related models</h2>
+        <div class="rel">{% for r in p.related %}{% set href = gen_href(r.family, r.gen) %}{% if href %}<a href="{{ href }}"><span class="r">{{ r.rel }}</span><span class="nm">{{ r.name }} →</span></a>{% else %}<span class="x"><span class="r">{{ r.rel }}</span><span class="nm">{{ r.name }}</span></span>{% endif %}{% endfor %}</div>
+      </section>
+      {% endif %}
+
+      {% if p.sources %}
+      <section class="sources"><span class="eyebrow">Sources</span>{% for s in p.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}</section>
+      {% endif %}
+    </div>
+
+    <aside class="side">
+      {% if p.plate %}
+      <div class="plate"><div>
+        <div class="head"><span>{{ p.title|upper }}</span>{{ mark2() }}</div>
+        {% for k in p.plate %}<div class="kv"><span>{{ k.k }}</span><span>{{ k.v }}</span></div>{% endfor %}
+      </div></div>
+      {% endif %}
+      <nav class="toc" aria-label="On this page">
+        <span class="eyebrow" style="padding-bottom:8px">On this page</span>
+        {% for t in toc %}<a href="#{{ t[0] }}">{{ t[1] }}</a>{% endfor %}
+      </nav>
+      {% if p.searches %}
+      <div class="find">
+        <span class="eyebrow brass">Find one</span>
+        <span class="serif">Every {{ p.title }} listed across the major marketplaces — plus Bring a Trailer auctions and results.</span>
+        {% if p.searches[0].at_url %}<a class="btn light" style="text-align:center" href="{{ p.searches[0].at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}
+        {% if p.searches[0].bat_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ p.searches[0].bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}
+      </div>
+      {% endif %}
+      <div class="rows" style="border-top:1px solid var(--ink)">
+        <span class="eyebrow" style="padding:12px 0 4px">More {{ fam.name }}</span>
+        {% for g in fam.generations %}{% if g.slug != p.slug %}<a class="row" href="{{ g.slug }}.html"><span class="t" style="font-size:16px">{{ g.name }}</span><span class="m">{{ g.years }}</span></a>{% endif %}{% endfor %}
+      </div>
+    </aside>
+  </div>
+</div>
+{% endblock %}

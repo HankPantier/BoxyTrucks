@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "_res.html" import reading_block %}
+{% block content %}
+<section class="band-night">
+  <div class="wrap" style="padding-top:28px;padding-bottom:56px;display:flex;flex-direction:column;gap:22px">
+    <nav class="crumbs" aria-label="Breadcrumb" style="padding:0"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ g.name }}</span></nav>
+    <div class="eyebrow brass">{{ fam.maker|upper }} {{ fam.name|upper }} · {{ g.years }}</div>
+    <h1 style="font-size:clamp(44px,6vw,88px);line-height:0.95;letter-spacing:-0.03em">{{ g.name }}</h1>
+    {% if g.codes %}<div class="chips">{% for c in g.codes %}<span class="chip brass">{{ c }}</span>{% endfor %}</div>{% endif %}
+  </div>
+</section>
+<div class="wrap section">
+  <div class="split">
+    <div class="main" style="gap:40px">
+      <div class="prose"><p class="lead">{{ g.summary|lk }}</p></div>
+      <div class="stub-note">The full {{ g.name }} guide — history, how it’s built, what to check, common repairs, owner questions and suppliers — is being written. In the meantime, start with the family overview or the {% set full = fam.generations|selectattr('has_page')|list %}{% if full %}<a href="{{ full[0].slug }}.html">{{ full[0].name }} guide</a>{% else %}family page{% endif %}.</div>
+      <section style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">For sale now</h2>
+        <div class="grid" style="--min:240px">
+          <div class="sale"><span class="eyebrow brass">{{ g.years }}</span><span class="l">{{ g.name }}</span>
+            <div class="links">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
+          </div>
+        </div>
+      </section>
+      {% if reading %}<section>{{ reading_block(reading) }}</section>{% endif %}
+      {% if fam.forums %}
+      <section><h2 class="h-section" style="margin-bottom:0">The message boards</h2>
+        <div class="rows" style="border-top:0">{% for b in fam.forums %}<a class="row" href="{{ b.url }}" target="_blank" rel="noopener"><span class="t">{{ b.name }} ↗</span><span class="n">{{ b.note }}</span></a>{% endfor %}</div>
+      </section>
+      {% endif %}
+    </div>
+    <aside class="side">
+      <div class="rows" style="border-top:1px solid var(--ink)">
+        <span class="eyebrow" style="padding:12px 0 4px">More {{ fam.name }}</span>
+        {% for o in fam.generations %}{% if o.slug != g.slug %}<a class="row" href="{{ o.slug }}.html"><span class="t" style="font-size:16px">{{ o.name }}{% if o.has_page %} · full guide{% endif %}</span><span class="m">{{ o.years }}</span></a>{% endif %}{% endfor %}
+      </div>
+    </aside>
+  </div>
+</div>
+{% endblock %}

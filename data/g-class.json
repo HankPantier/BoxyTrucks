@@ -1,0 +1,801 @@
+{
+ "family": {
+  "slug": "g-class",
+  "name": "G-Class",
+  "maker": "Mercedes-Benz",
+  "years": "1979–present",
+  "verdict": "A military box that became the world’s most expensive school-run accessory. Still devastating off-road — which most owners will never find out.",
+  "intro": [
+   "The Geländewagen began as a military truck, commissioned in the early 1970s after the Shah of Iran — then one of Mercedes-Benz’s largest shareholders — pre-ordered some 20,000 of them. Mercedes engineered it; Steyr-Daimler-Puch built it in Graz, Austria, and production began in 1979.",
+   "The utilitarian [[g-class/w460|W460]] and later [[g-class/w461|W461]] served armies, border police and farmers. In 1990 the civilian [[g-class/w463|W463]] moved upmarket with full-time four-wheel drive and three locking differentials — and slowly turned into a luxury icon without ever losing its ladder frame.",
+   "For off-roaders, the sweet spot is the solid-axle W463 era, from the [[g-class/europa|Europa International]] imports of the 1990s through the [[g-class/g500|G 500]] and [[g-class/g550|G 550]]. The second-generation truck of 2018 is better on the road, with independent front suspension, and still carries three lockers."
+  ],
+  "hero_photo": "hillside-mountains.jpg",
+  "generations": [
+   {
+    "slug": "w460",
+    "name": "W460",
+    "years": "1979–1991",
+    "codes": [
+     "W460",
+     "230 GE",
+     "280 GE",
+     "300 GD"
+    ],
+    "summary": "The original military-derived G, in short and long wheelbase, petrol and diesel.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1979&maxyear=1991",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w460-gelandewagen/",
+    "has_page": false
+   },
+   {
+    "slug": "w461",
+    "name": "W461",
+    "years": "1992 on",
+    "codes": [
+     "W461",
+     "G 290 GD",
+     "G 300 CDI Professional"
+    ],
+    "summary": "The no-frills working G for militaries and professionals, kept alongside the luxury W463.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w461-g-class/",
+    "has_page": false
+   },
+   {
+    "slug": "w463",
+    "name": "W463",
+    "years": "1990–2018",
+    "codes": [
+     "W463"
+    ],
+    "summary": "The civilian G: full-time 4WD, three lockers, ever-more luxury — and still solid axles.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1990&maxyear=2018",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
+    "has_page": false
+   },
+   {
+    "slug": "500ge",
+    "name": "500 GE",
+    "years": "1993",
+    "codes": [
+     "W463",
+     "M117 5.0 V8"
+    ],
+    "summary": "The limited-run first V8 G, sold quietly to existing Mercedes customers.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1993&maxyear=1993",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
+    "has_page": false
+   },
+   {
+    "slug": "europa",
+    "name": "Europa International Gs",
+    "years": "1990s–2001",
+    "codes": [
+     "300 GE",
+     "G 320",
+     "G 500"
+    ],
+    "summary": "Federalized, US-VIN trucks imported by Europa of Santa Fe before Mercedes sold the G in America.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1990&maxyear=2001",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
+    "has_page": false
+   },
+   {
+    "slug": "g500",
+    "name": "G 500",
+    "years": "1998–2008",
+    "codes": [
+     "W463",
+     "M113 5.0 V8"
+    ],
+    "summary": "The first regular-production V8 G and the first sold by Mercedes in the US.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2002&maxyear=2008",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
+    "has_page": true
+   },
+   {
+    "slug": "g55-amg",
+    "name": "G 55 AMG",
+    "years": "1999–2012",
+    "codes": [
+     "W463",
+     "AMG 5.4 V8"
+    ],
+    "summary": "The hand-built AMG V8 version — the G that taught the world Gs could be fast.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2002&maxyear=2012",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/",
+    "has_page": false
+   },
+   {
+    "slug": "g550",
+    "name": "G 550",
+    "years": "2009–2018 (US)",
+    "codes": [
+     "W463",
+     "M273 5.5 V8",
+     "M176 4.0 TT V8"
+    ],
+    "summary": "The G 500 renamed for the US, with a 5.5-litre V8 and seven-speed automatic.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2009&maxyear=2018",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
+    "has_page": false
+   },
+   {
+    "slug": "4x4-squared",
+    "name": "G 500 4×4²",
+    "years": "2015–2018",
+    "codes": [
+     "W463",
+     "Portal axles"
+    ],
+    "summary": "Portal axles, enormous ground clearance and absolutely no subtlety.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2015&maxyear=2018",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
+    "has_page": false
+   },
+   {
+    "slug": "second-gen",
+    "name": "Second generation",
+    "years": "2018–present",
+    "codes": [
+     "“W463A”",
+     "G 550",
+     "G 580"
+    ],
+    "summary": "Independent front suspension, a modern cabin and still three locking differentials.",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2019",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-2019/",
+    "has_page": false
+   }
+  ],
+  "forums": [
+   {
+    "name": "MBWorld — G-Class (W460 / W461 / W463)",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
+    "note": "Deepest technical archive; DIY threads on lockers and balancers"
+   },
+   {
+    "name": "Club G-Wagen",
+    "url": "https://clubgwagen.com/forum/",
+    "note": "The original G community since 1998; rallies and classifieds"
+   },
+   {
+    "name": "BenzWorld — G-Class",
+    "url": "https://www.benzworld.org/forums/g-class.209/",
+    "note": "General ownership and maintenance"
+   },
+   {
+    "name": "Expedition Portal",
+    "url": "https://forum.expeditionportal.com/",
+    "note": "G-Wagens as overland rigs: tires, racks, builds"
+   },
+   {
+    "name": "r/gwagon",
+    "url": "https://www.reddit.com/r/gwagon/",
+    "note": "Quick answers and photos"
+   }
+  ],
+  "related_families": [
+   "grenadier",
+   "land-rover",
+   "land-cruiser"
+  ]
+ },
+ "page": {
+  "slug": "g500",
+  "title": "G 500",
+  "eyebrow": "MERCEDES-BENZ G-CLASS · W463 · 1998–2008",
+  "verdict": "A Cold War military design with leather, a V8 and three locking differentials. Lock all three at least once, if only to justify owning it.",
+  "codes": [
+   "W463",
+   "M113 5.0 V8",
+   "3 LOCKING DIFFS",
+   "GRAZ, AUSTRIA"
+  ],
+  "hero_photo": "hillside-mountains.jpg",
+  "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A 2002–2008 G 500 OFF ROAD]",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "The G 500 is what happens when a military truck is asked to wear a suit and refuses to take its boots off. It was the first V8 G-Class built in regular production, the first one most Americans could buy from a Mercedes dealer, and — underneath the wood and leather — the same ladder-framed, triple-locked machine that armies bought by the thousand."
+    ]
+   },
+   {
+    "heading": "A SHAH, AN ARMY AND A FACTORY IN GRAZ",
+    "paragraphs": [
+     "The name goes back to Daimler-Benz’s six-wheeled G1 of 1926 — a Geländewagen, or cross-country vehicle — but the modern truck began in the early 1970s, when the Shah of Iran, then one of Mercedes-Benz’s largest shareholders, pre-ordered some 20,000 military vehicles. Mercedes engineered it; Austria’s Steyr-Daimler-Puch would build it in Graz. Design studies were carved in wood from 1973, and production began in 1979 — the same year the Shah fled Iran and his order evaporated.",
+     "It found other customers fast: border police, the Argentinian army and, in 1980, Pope John Paul II, who got one with a clear viewing platform. In 1983 a [[g-class/w460|280 GE]] driven by Jacky Ickx won the Paris–Dakar Rally, which settled any argument about whether it was a real off-roader."
+    ]
+   },
+   {
+    "heading": "THE W463 GOES UPMARKET",
+    "paragraphs": [
+     "In 1990 the civilian G was reworked as the [[g-class/w463|W463]]: a nicer cabin, full-time four-wheel drive and three fully locking differentials, while the utilitarian [[g-class/w460|W460]] and later [[g-class/w461|W461]] carried on separately. America still couldn’t buy one officially. New Mexico importer [[g-class/europa|Europa International]] converted European trucks to US spec — later persuading Mercedes to build them to DOT standards — and some sold for as much as $135,000.",
+     "The G 500 arrived in 1998 as the first regular-production V8 G — the hand-picked, limited-run [[g-class/500ge|500 GE]] of 1993 had come first — with the 5.0-litre M113, good for 292 hp. When Mercedes finally launched the G officially in the US for the 2002 model year, the G 500 and [[g-class/g55-amg|G 55 AMG]] were the two trucks in the showroom. The G 500 ran in America through 2008; for 2009 the same truck returned as the [[g-class/g550|G 550]] with a 5.5-litre V8 and a seven-speed automatic."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · THE EUROPA TRUCKS",
+   "title": "America’s G-Class before Mercedes sold one",
+   "paragraphs": [
+    "Before 2002, the way to buy a new G in the US was Europa International of Santa Fe, New Mexico. Europa did the expensive work of federalizing European trucks, became the exclusive US importer with Small Volume Manufacturer status, and sold [[g-class/europa|300 GEs, G 320s and early G 500s]] with proper US VINs — 50-state legal, not gray-market. In 2002 Mercedes-Benz bought the US distribution rights and Europa turned to service, parts and the models America still never got, like the three-door Cabriolet.",
+    "A Europa G 500 looks like a 2002 truck from outside. Inside it’s simpler: a steering wheel and gauge cluster from the pre-facelift W210 E-Class (yes, the sedan), no factory radio controls on the wheel, and a 5-speed automatic without the later tip-shift gate. Enthusiasts like them for exactly that — fewer US-specific electronics to fail — and prices track 2002-on trucks."
+   ]
+  },
+  "engineering_intro": "Strip the G 500 down and you find a 1970s off-roader that was never diluted. The body sits on a separate ladder frame. Both axles are solid, located by links and sprung on coils, so a twisted trail keeps the tires planted. Power goes through a two-speed transfer case to all four wheels all the time, and the three differential locks — centre, rear, front — let you turn it into something closer to a tractor when traction runs out.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame",
+    "note": "Separate steel frame under the body — the reason Gs survive decades of abuse."
+   },
+   {
+    "k": "AXLES",
+    "v": "Solid, front & rear",
+    "note": "Coil-sprung and link-located. Independent front suspension only arrived with the 2018 redesign."
+   },
+   {
+    "k": "DRIVETRAIN",
+    "v": "Full-time 4WD",
+    "note": "Two-speed transfer case with low range."
+   },
+   {
+    "k": "LOCKERS",
+    "v": "Centre, rear, front",
+    "note": "Three 100% locks, engaged from the dash."
+   },
+   {
+    "k": "ENGINE",
+    "v": "M113 5.0 L V8",
+    "note": "292 hp, 456 Nm. Shared with the era’s E-, S- and ML-Class — parts are plentiful."
+   },
+   {
+    "k": "GEOMETRY",
+    "v": "36° / 31°",
+    "note": "Approach and departure angles, per Hagerty. Track: 56 inches."
+   }
+  ],
+  "engineering_note": {
+   "title": "USING THE LOCKERS",
+   "body": "Lock the centre first, then the rear, then the front — and only on loose surfaces at walking pace. Unlock in reverse once you’re through. On owners’ reports from mid-2000s trucks, the centre lock is vacuum-operated while the axle locks are hydraulic, which is why a single split vacuum fitting can take out the whole sequence (see repairs below)."
+  },
+  "generations_table": [
+   {
+    "years": "1998–2008",
+    "platform": "W463",
+    "engine": "M113 5.0 L V8",
+    "output": "292 hp",
+    "note": "First regular-production V8 G. Pre-2002 US trucks came via Europa International; Mercedes sold it officially from MY2002; 2008 was the last US G 500"
+   },
+   {
+    "years": "2008–2015",
+    "platform": "W463",
+    "engine": "M273 5.5 L V8",
+    "output": "382 hp",
+    "note": "Badged G 550 in the US from MY2009; 7-speed automatic"
+   },
+   {
+    "years": "2015–2018",
+    "platform": "W463 (late)",
+    "engine": "M176 4.0 L twin-turbo V8",
+    "output": "416 hp",
+    "note": "Final years of the original body"
+   },
+   {
+    "years": "2015–2018",
+    "platform": "G 500 4×4²",
+    "engine": "M176 4.0 L twin-turbo V8",
+    "output": "416 hp",
+    "note": "Portal axles, raised chassis — the wild one"
+   },
+   {
+    "years": "2018–2024",
+    "platform": "Second generation (“W463A”)",
+    "engine": "M176 4.0 L twin-turbo V8",
+    "output": "416 hp",
+    "note": "Independent front suspension; G 550 in the US. “W463A” is a fan label, not Mercedes’ own"
+   },
+   {
+    "years": "2024–",
+    "platform": "Second generation, updated",
+    "engine": "3.0 L turbo inline-six, mild hybrid",
+    "output": "443 hp (US G 550)",
+    "note": "The V8 leaves the non-AMG G-Class"
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Test all three locking differentials",
+    "body": "Engage each lock on a loose surface and watch the indicators. Lockers that ‘were never used’ by the last owner often don’t work — budget for the vacuum diagnosis below."
+   },
+   {
+    "head": "Is it really an AMG?",
+    "body": "Plenty of standard Gs have been dressed as AMGs. Check the VIN and data card against the badges before paying an AMG premium."
+   },
+   {
+    "head": "Listen at idle",
+    "body": "Vibration or a chirp that changes with revs on an M113 points at the harmonic balancer — a known failure on early-2000s Mercedes V8s."
+   },
+   {
+    "head": "Look for oil on top of the engine",
+    "body": "Wetness at the front of the V points at the oil filter housing seals; oil on the coil packs and exhaust manifolds points at valve cover gaskets or breather hoses. Neither is serious if fixed early, and both are reasonable DIY jobs (see repairs)."
+   },
+   {
+    "head": "Look behind the front wheels",
+    "body": "Gear oil on the inside of the wheels or the brake calipers means leaking front axle seals — and possibly contaminated brakes."
+   },
+   {
+    "head": "Drive it at 55–70 mph",
+    "body": "Wander or steering shake at highway speed usually means a tired steering damper and worn linkage."
+   },
+   {
+    "head": "Rust where nobody cleans",
+    "body": "Check the tailgate’s lower edge, door bottoms, sills, rear frame tubes, inner wheel arches and around the rear bumper."
+   },
+   {
+    "head": "A sagging headliner means water",
+    "body": "Usually blocked sunroof drains. Water can reach the fuse box and climate actuators, so check those too."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Harmonic balancer (M113)",
+    "diff": "3 / 5",
+    "time": "≈ 2.5 hours",
+    "cost": "$250–450 labor",
+    "symptoms": "Vibration at idle, a visibly wobbling crank pulley, rattle or chirp that changes with RPM, cracked or bulging rubber, belt squeal. Don’t keep driving it: if the outer ring lets go you lose power steering, charging and the water pump.",
+    "fix": "Remove the belt and fan as needed, hold the crank with a counter-hold tool, and break the centre bolt loose. Fit the new balancer with a new centre bolt (it’s torque-to-yield) and a new front crank seal while you’re there. Torque to 200 Nm plus 90°.",
+    "tools": "Crank counter-hold tool (MB 112 589 00 40 00 or equivalent) · 27 mm socket · long breaker bar or high-torque impact · new centre bolt (MB 112 031 00 71) · front crank seal · balancer (avoid used units with the failure-prone part numbers)"
+   },
+   {
+    "title": "Oil filter housing gasket leak (M113)",
+    "diff": "2 / 5",
+    "time": "≈ 2–3 hours",
+    "cost": "Parts cheap; most of the bill is labor",
+    "symptoms": "Oil collecting at the top front of the engine in the V, running down the front of the block onto the belt, pulleys or harmonic balancer; a burning-oil smell once it reaches hot parts. Owners often get misdiagnosed first — on one M113 the first shop blamed the power steering pump.",
+    "fix": "Confirm the source by degreasing the engine and checking again after a drive. Remove whatever sits over the housing (air intake ducting and covers), unbolt the housing, clean both mating faces completely and fit new seals. Use genuine Mercedes or Elring seals, torque to the factory figures, then degrease again so any remaining leak is easy to spot.",
+    "tools": "Metric sockets and Torx/E-Torx bits · torque wrench · gasket scraper (plastic) and brake cleaner · new oil filter housing seals (genuine or Elring) · fresh oil and filter while you’re in there"
+   },
+   {
+    "title": "Valve cover gaskets & breather hoses (M113)",
+    "diff": "3 / 5",
+    "time": "A weekend morning",
+    "cost": "≈ $200 parts vs ≈ $2,000 shop quotes (owner report)",
+    "symptoms": "Oil on the coil packs, plug leads and the top of the exhaust manifolds; a burning smell after a drive; in bad cases oil reaching the plugs and causing misfires. Breather hoses on the same engine family crack and leak too, so leaks around the covers aren’t always the gaskets.",
+    "fix": "Remove the intake ducting, then the coil packs and plug leads (label them — the M113 runs two plugs per cylinder), then the cover bolts. Lift the covers, clean every trace of old gasket and sealant, and fit new gaskets plus the bolt grommets. Replace the crankcase breather hoses at the same time; where sealant is specified, owners report a continuous bead with no gaps and spotless surfaces is what stops repeat leaks. Torque the cover bolts evenly to the factory figure — overtightening distorts the covers.",
+    "tools": "Sockets and Torx bits · torque wrench (low range) · plastic scraper and brake cleaner · valve cover gaskets and bolt grommets (genuine or Elring — owners report aftermarket gaskets leaking) · breather hoses · Mercedes-approved sealant where called for"
+   },
+   {
+    "title": "Diff locks won’t engage",
+    "diff": "2 / 5",
+    "time": "An afternoon",
+    "cost": "Diagnosis-dependent",
+    "symptoms": "One or all locks refuse to engage, or engage then drop out; sometimes paired with central-locking oddities. The fault is usually the vacuum system, not the differentials.",
+    "fix": "Confirm vacuum at the transfer-case hose. Then work from the pump and reservoir (front-left wheel well) through the manifold and the switchover valve block on the firewall, teeing in a gauge at each segment. One owner’s 2005 G 500 fault was a split plastic connector inside a rubber Y fitting under the brake booster. Change transfer-case and diff fluids and bleed the hydraulic locker lines while you’re in there.",
+    "tools": "Hand vacuum pump with gauge · assorted vacuum tees and line · replacement connectors · diff and transfer-case fluid · bleeding kit"
+   },
+   {
+    "title": "Front axle seal leak",
+    "diff": "3 / 5",
+    "time": "A day",
+    "cost": "$600–1,500",
+    "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling to one side.",
+    "fix": "Replace both front axle seals, not just the leaking side, and inspect the shafts for scoring. If oil has reached the brakes, replace the pads and resurface or replace the rotors.",
+    "tools": "Axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated"
+   },
+   {
+    "title": "Steering damper & front-end wander",
+    "diff": "1 / 5",
+    "time": "≈ 1 hour",
+    "cost": "$300–800",
+    "symptoms": "Highway wander, wheel shake around 55–70 mph, vague on-centre feel, clunks over bumps.",
+    "fix": "Swap the steering damper (OEM or an upgraded unit such as a Bilstein B6). Check the drag link and tie-rod ends for play while you’re under there, then get an alignment.",
+    "tools": "Steering damper · basic sockets and wrenches · tie-rod or drag-link ends if worn"
+   },
+   {
+    "title": "Cracked coil springs",
+    "diff": "2 / 5",
+    "time": "Half a day",
+    "cost": "Parts plus labor",
+    "symptoms": "A loud thump over bumps, uneven ride height, especially after cold weather.",
+    "fix": "Replace springs in axle pairs. If you’re lifting the truck anyway, this is the moment to fit a lift spring kit (2-inch kits are common for the W463) with matched shocks.",
+    "tools": "Springs (pairs) · jack and stands · spring compressor if required by your setup · new shocks recommended"
+   },
+   {
+    "title": "Sunroof drains & water ingress",
+    "diff": "1 / 5",
+    "time": "≈ 30 minutes",
+    "cost": "Cheap if caught early",
+    "symptoms": "Damp or sagging headliner, wet carpets, electrical gremlins from a wet fuse box or climate actuators.",
+    "fix": "Clear all four sunroof drains, then check the headliner, fuse box and blend-door actuators for water damage. Leaving it is what makes it expensive.",
+    "tools": "Trimmer line or drain-cleaning wire · low-pressure air · towels and patience"
+   },
+   {
+    "title": "Propshaft judder",
+    "diff": "3 / 5",
+    "time": "Half a day",
+    "cost": "Autocar: £1,500+ for a shaft",
+    "symptoms": "Shake or judder under way, often worse under load.",
+    "fix": "Inspect the joints and couplings for play before condemning the shaft. A worn shaft is a remove-and-replace job; mark the orientation so it goes back phased correctly.",
+    "tools": "Sockets and wrenches · paint marker · replacement shaft or joints"
+   },
+   {
+    "title": "Rust on the frame and body",
+    "diff": "2–5 / 5",
+    "time": "Ongoing",
+    "cost": "$400–8,000",
+    "symptoms": "Bubbling at the tailgate’s lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.",
+    "fix": "Catch it early: blast and treat, or weld in repair panels before it spreads. Cavity-wax the doors and underbody, rinse off road salt after winter, and keep drain holes clear. Severe frame rust can often be fixed in sections rather than with a whole new frame.",
+    "tools": "Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What’s the biggest tire I can fit without a lift?",
+    "a": "A 275/70R18 — roughly a 33-inch tire — on the factory 18-inch wheels. Owners on Expedition Portal report it fits an unlifted G 500; one saw rubbing only on aftermarket ET63-offset wheels. A 285/65R18 can rub slightly at full left lock. Re-code the tire size with a Mercedes diagnostic tool so the speedometer and ESP stay accurate.",
+    "src": "OWNER CONSENSUS · EXPEDITION PORTAL"
+   },
+   {
+    "q": "What size are the factory tires?",
+    "a": "P265/60R18 on 18-inch wheels for 2002–2008 US G 500s — about 30.5 inches tall, which is why there’s room to go up.",
+    "src": "AUTOPADRE"
+   },
+   {
+    "q": "How much can it tow?",
+    "a": "7,000 lb with a braked trailer, across 2002–2008 G 500s. Unbraked limits are far lower — check your owner’s manual and local law.",
+    "src": "AUTOPADRE"
+   },
+   {
+    "q": "What kind of fuel economy should I expect?",
+    "a": "EPA figures for a 2003: 11 mpg city, 13 highway, 12 combined, on premium fuel. Bigger tires, a roof rack and a lift make it worse.",
+    "src": "EPA VIA MPG BUDDY"
+   },
+   {
+    "q": "Does it have low range?",
+    "a": "Yes. The two-speed transfer case gives you low range for crawling, alongside full-time four-wheel drive.",
+    "src": "BOXYTRUCKS"
+   },
+   {
+    "q": "Can I use the diff locks on pavement?",
+    "a": "No. Locked differentials stop the wheels turning at different speeds, so on grippy surfaces the driveline binds and tires scrub. Use them on dirt, sand, snow or rock at low speed, and unlock before you’re back on tarmac.",
+    "src": "BOXYTRUCKS"
+   },
+   {
+    "q": "What’s the difference between a G 500 and a G 550?",
+    "a": "Mostly the engine and the badge. In the US the 2002–2008 G 500 has the 5.0-litre M113 V8; from 2009 the same W463 truck became the [[g-class/g550|G 550]] with the 5.5-litre M273 V8 and a seven-speed automatic.",
+    "src": "WIKIPEDIA"
+   },
+   {
+    "q": "Will it fit in my garage?",
+    "a": "Plan on about 6.0 ft (1.84 m) tall for 2002–2003 trucks and 6.5 ft (1.98 m) for 2004–2008, with a 9.35 ft (2.85 m) wheelbase and roughly 15.5 ft of length. Add a roof rack and you’ll need to measure twice.",
+    "src": "AUTOPADRE"
+   },
+   {
+    "q": "Is the G 500 reliable?",
+    "a": "The frame, axles and V8 are tough; the age-related jobs are predictable — harmonic balancer, vacuum lines for the lockers, axle seals, steering damper, sunroof drains. A truck with records of these is a far safer buy than a low-mileage one that’s never been touched.",
+    "src": "AUTOCAR · AU7O · GO-PARTS"
+   },
+   {
+    "q": "How do I know if a G 500 is a real AMG?",
+    "a": "Check the VIN and the data card. Many standard Gs wear AMG bumpers, wheels and badges, so the badges alone tell you nothing.",
+    "src": "AUTOCAR"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "OVERLAND BUILDS",
+    "why": "Complete travel-ready builds: lift, armor, racks, lighting and storage, done as one coherent truck.",
+    "who": [
+     {
+      "name": "Jackwagon Overlanding",
+      "url": "https://jackwagonoverlanding.com/"
+     }
+    ]
+   },
+   {
+    "cat": "RESTORATION",
+    "why": "Sympathetic restorations of older Gs for owners who want factory-correct, not flashy.",
+    "who": [
+     {
+      "name": "Expedition Motor Company",
+      "url": "https://www.expeditionmotorcompany.com/"
+     }
+    ]
+   },
+   {
+    "cat": "LIFT & SHOCKS",
+    "why": "Lift springs and upgraded shocks to clear bigger all-terrains and carry weight.",
+    "who": [
+     {
+      "name": "Eurowise (OME kits)",
+      "url": "https://shop.eurowise.com/products/ew463ome"
+     },
+     {
+      "name": "GwagenParts.com",
+      "url": "https://www.gwagenparts.com/heavy-duty-3-inch-lift-kit-for-mercedes-g-wagon-w463-with-king-2-5-racing-shocks/"
+     }
+    ]
+   },
+   {
+    "cat": "ROOF RACKS & LADDERS",
+    "why": "Flat platform racks and rear ladders for tents, recovery gear and spares.",
+    "who": [
+     {
+      "name": "LETECH (via GwagenParts)",
+      "url": "https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/"
+     },
+     {
+      "name": "Front Runner",
+      "url": "https://www.frontrunneroutfitters.com/"
+     }
+    ]
+   },
+   {
+    "cat": "OFF-ROAD PACKAGES",
+    "why": "Kits that bring 4×4²-style capability and stance to a standard G.",
+    "who": [
+     {
+      "name": "Brabus Adventure package",
+      "url": "https://www.gwagenparts.com/brabus-adventure-4x4²-package-for-mercedes-g550-4x4²-complete-off-road-upgrade-kit-fits-g500-4x4²-w463"
+     }
+    ]
+   },
+   {
+    "cat": "WHEELS & TIRES",
+    "why": "Smaller wheels with taller all-terrain sidewalls — the single most transformative change.",
+    "who": []
+   }
+  ],
+  "searches": [
+   {
+    "years": "2002–2008 · US G 500",
+    "label": "G 500 (M113)",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2002&maxyear=2008",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+   },
+   {
+    "years": "2009–2018 · US G 550",
+    "label": "G 550 (W463)",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2009&maxyear=2018",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+   },
+   {
+    "years": "2019 ON",
+    "label": "Second-generation G",
+    "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2019",
+    "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-2019/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "IG",
+    "name": "@gzilla500",
+    "focus": "G 500 BUILD",
+    "url": "https://www.instagram.com/gzilla500/"
+   },
+   {
+    "kind": "YT",
+    "name": "@Gluxetravel",
+    "focus": "G-CLASS TRAVEL",
+    "url": "https://www.youtube.com/@Gluxetravel"
+   },
+   {
+    "kind": "YT",
+    "name": "@Littlehandegan",
+    "focus": "G-CLASS",
+    "url": "https://www.youtube.com/@Littlehandegan"
+   },
+   {
+    "kind": "YT",
+    "name": "@Nothing-but-Gs",
+    "focus": "ALL THINGS G-CLASS",
+    "url": "https://www.youtube.com/@Nothing-but-Gs"
+   }
+  ],
+  "forums": [],
+  "related": [
+   {
+    "rel": "PRE-2002 US TRUCKS",
+    "name": "Europa International Gs",
+    "family": "g-class",
+    "gen": "europa"
+   },
+   {
+    "rel": "THE FIRST V8 G",
+    "name": "500 GE (1993)",
+    "family": "g-class",
+    "gen": "500ge"
+   },
+   {
+    "rel": "MILITARY ANCESTOR",
+    "name": "G-Class W460",
+    "family": "g-class",
+    "gen": "w460"
+   },
+   {
+    "rel": "HOT SIBLING",
+    "name": "G 55 AMG",
+    "family": "g-class",
+    "gen": "g55-amg"
+   },
+   {
+    "rel": "SUCCESSOR (US)",
+    "name": "G 550",
+    "family": "g-class",
+    "gen": "g550"
+   },
+   {
+    "rel": "THE WILD ONE",
+    "name": "G 500 4×4²",
+    "family": "g-class",
+    "gen": "4x4-squared"
+   },
+   {
+    "rel": "CONTEMPORARY RIVAL",
+    "name": "Land Cruiser 100 Series",
+    "family": "land-cruiser",
+    "gen": "100-series"
+   },
+   {
+    "rel": "CONTEMPORARY RIVAL",
+    "name": "Range Rover L322",
+    "family": "range-rover",
+    "gen": "l322"
+   },
+   {
+    "rel": "SPIRITUAL RIVAL",
+    "name": "Ineos Grenadier",
+    "family": "grenadier",
+    "gen": "station-wagon"
+   }
+  ],
+  "plate": [
+   {
+    "k": "CHASSIS",
+    "v": "W463"
+   },
+   {
+    "k": "US YEARS",
+    "v": "2002–2008"
+   },
+   {
+    "k": "ENGINE",
+    "v": "M113 5.0 L V8"
+   },
+   {
+    "k": "OUTPUT",
+    "v": "292 hp · 456 Nm"
+   },
+   {
+    "k": "DRIVE",
+    "v": "Full-time 4WD, low range"
+   },
+   {
+    "k": "LOCKERS",
+    "v": "Centre, rear, front"
+   },
+   {
+    "k": "BUILD",
+    "v": "Body-on-frame"
+   },
+   {
+    "k": "AXLES",
+    "v": "Solid, front & rear"
+   },
+   {
+    "k": "APPROACH / DEP.",
+    "v": "36° / 31°"
+   },
+   {
+    "k": "BUILT IN",
+    "v": "Graz, Austria"
+   },
+   {
+    "k": "SUCCEEDED BY",
+    "v": "G 550 (US, 2009)"
+   }
+  ],
+  "photos": [
+   {
+    "file": "hillside-sunset.jpg",
+    "alt": "A G-Class climbing a grassy slope beside a bare tree at sunset",
+    "caption": "SECOND GEN · HILLSIDE",
+    "credit": "Dextar Studio",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
+   },
+   {
+    "file": "ridgeline.jpg",
+    "alt": "A G-Class in profile on a rocky ridge under storm clouds",
+    "caption": "SECOND GEN · RIDGELINE",
+    "credit": "Dextar Studio",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+   },
+   {
+    "file": "high-pasture.jpg",
+    "alt": "A G-Class on rough grass and rocks with hills behind",
+    "caption": "SECOND GEN · HIGH PASTURE",
+    "credit": "Dextar Studio",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+   },
+   {
+    "file": "hillside-mountains.jpg",
+    "alt": "A G-Class parked on a rough grassy hillside below mountains under a heavy sky",
+    "caption": "SECOND GEN · FOOTHILLS",
+    "credit": "Dextar Studio",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Hagerty — Counter-evolutionary: The history of the G-wagen",
+    "url": "https://hagerty.com/media/?p=4183"
+   },
+   {
+    "name": "Wikipedia — Mercedes-Benz G-Class",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+   },
+   {
+    "name": "Autocar — Used car buying guide: Mercedes-Benz G-Class W463",
+    "url": "https://www.autocar.co.uk/car-news/used-cars-used-car-buying-guides/used-car-buying-guide-mercedes-benz-g-class-w463"
+   },
+   {
+    "name": "Go-Parts — M112/M113 harmonic balancer failure",
+    "url": "https://www.go-parts.com/garage/engine-harmonic-balancer-mercedes-benz-slk230-mercedes-benz-slk350-mercedes-benz-cl550-1998-2006"
+   },
+   {
+    "name": "MBWorld — Finally repaired my lockers (2005 G 500)",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/818902-finally-repaired-my-lockers.html"
+   },
+   {
+    "name": "au7o — G-Class known issues",
+    "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2003"
+   },
+   {
+    "name": "Miami Benz — G-Wagon service",
+    "url": "https://www.miamibenz.com/?p=855"
+   },
+   {
+    "name": "TFLcar — 2025 Mercedes-Benz G-Class changes",
+    "url": "https://tflcar.com/2024/03/2025-mercedes-benz-g-class-changes-g550-amg-g63/"
+   },
+   {
+    "name": "German Cars For Sale Blog — 2000 G500 Europa",
+    "url": "https://germancarsforsaleblog.com/2000-mercedes-benz-g500-europa/"
+   },
+   {
+    "name": "German Cars For Sale Blog — 1998 G320 (Europa)",
+    "url": "https://germancarsforsaleblog.com/1998-mercedes-benz-g320/"
+   },
+   {
+    "name": "German Cars For Sale Blog — 1993 500GE",
+    "url": "https://germancarsforsaleblog.com/1993-mercedes-benz-500ge"
+   },
+   {
+    "name": "Expedition Portal — G550 tire options thread",
+    "url": "https://forum.expeditionportal.com/goto/post?id=2136416"
+   },
+   {
+    "name": "Autopadre — 2003 G 500 towing, tire and dimension specs",
+    "url": "https://www.autopadre.com/towing-capacity/mercedes-benz-g-500/2003-vehicle-4x4-37003"
+   },
+   {
+    "name": "MPG Buddy — 2003 G500 EPA fuel economy",
+    "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2003"
+   },
+   {
+    "name": "MBWorld — M113K oil leaks: oil filter housing, valve covers, breathers (E55 thread)",
+    "url": "https://mbworld.org/forums/w211-amg/778774-oil-leaks.html"
+   },
+   {
+    "name": "MBClub UK — Rocker box gasket and oil filter housing leaks (Mercedes V6/V8)",
+    "url": "https://forums.mbclub.co.uk/threads/spark-plugs-and-rocker-box-gasket-oil-leak.259023"
+   }
+  ]
+ }
+}

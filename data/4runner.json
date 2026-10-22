@@ -1,0 +1,1110 @@
+{
+ "family": {
+  "slug": "4runner",
+  "name": "4Runner",
+  "maker": "Toyota",
+  "years": "1984–present",
+  "verdict": "Toyota's mid-size body-on-frame survivor — forty years of refusing to become a crossover while everything around it did.",
+  "intro": [
+   "The 4Runner started life in 1983 as a Hilux pickup with a removable fibreglass top, sold in the US from the 1984½ model year. It has been body-on-frame ever since, through six generations, which in this segment makes it something close to a living fossil — and that is exactly why people buy it.",
+   "The pickup DNA faded generation by generation: a steel body in 1989, an all-new Prado-shared chassis with coils all round for 1996, Prado 120 underpinnings and an optional V8 for 2003, then the J150 platform it shared with the Lexus GX and FJ Cruiser for a marathon 2010–2024 run. The sixth generation, revealed in April 2024, moved to the TNGA-F frame shared with the Tacoma and swapped the long-serving V6 for turbo and hybrid fours.",
+   "For hands-on owners the appeal is simple: Toyota durability, a huge shared aftermarket with Tacoma and Prado cousins, and forums with a DIY write-up for nearly every bolt. The [[4runner/3rd-gen|third generation]] is the cult favourite, but every generation has its own following — and its own list of things to check before you hand over cash."
+  ],
+  "hero_photo": "red-rock-climb.jpg",
+  "generations": [
+   {
+    "slug": "1st-gen",
+    "name": "1st Gen",
+    "years": "1984–1989",
+    "codes": [
+     "N60"
+    ],
+    "summary": "A Hilux pickup with a removable fibreglass lid — solid front axle until the 1986 switch to independent front suspension.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=1984&maxyear=1989",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n60/",
+    "has_page": false
+   },
+   {
+    "slug": "2nd-gen",
+    "name": "2nd Gen",
+    "years": "1990–1995",
+    "codes": [
+     "N120",
+     "N130"
+    ],
+    "summary": "Still Hilux underneath, but with a one-piece steel body and a coil-sprung four-link rear axle.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=1990&maxyear=1995",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n120/",
+    "has_page": false
+   },
+   {
+    "slug": "3rd-gen",
+    "name": "3rd Gen",
+    "years": "1996–2002",
+    "codes": [
+     "N180",
+     "5VZ-FE",
+     "3RZ-FE"
+    ],
+    "summary": "The one that left the pickup behind: Prado-shared chassis, coils all round, optional rear E-locker — the cult classic.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=1996&maxyear=2002",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n180/",
+    "has_page": true
+   },
+   {
+    "slug": "4th-gen",
+    "name": "4th Gen",
+    "years": "2003–2009",
+    "codes": [
+     "N210",
+     "1GR-FE",
+     "2UZ-FE"
+    ],
+    "summary": "Prado 120-based and bigger, with the only V8 4Runner (the 2UZ-FE) and X-REAS suspension on some trims.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2003&maxyear=2009",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n210/",
+    "has_page": false
+   },
+   {
+    "slug": "5th-gen",
+    "name": "5th Gen",
+    "years": "2010–2024",
+    "codes": [
+     "N280",
+     "1GR-FE"
+    ],
+    "summary": "Fifteen model years on the J150 Prado/GX/FJ Cruiser platform with the 4.0 V6 — TRD Pro from 2015.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2010&maxyear=2024",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n280/",
+    "has_page": false
+   },
+   {
+    "slug": "6th-gen",
+    "name": "6th Gen",
+    "years": "2025–present",
+    "codes": [
+     "N500",
+     "i-FORCE",
+     "i-FORCE MAX"
+    ],
+    "summary": "Moves to the TNGA-F (GA-F) frame shared with the Tacoma; turbo 2.4 four or the i-FORCE MAX hybrid, eight-speed auto.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2025&maxyear=2026",
+    "bat_url": "https://bringatrailer.com/toyota/",
+    "has_page": false
+   }
+  ],
+  "forums": [
+   {
+    "name": "Toyota-4Runner.org",
+    "url": "https://www.toyota-4runner.org/",
+    "note": "The main 4Runner community, with subforums for every generation."
+   },
+   {
+    "name": "Toyota-4Runner.org — 3rd Gen T4Rs",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/",
+    "note": "Deep archive of 1996–2002 buying advice and DIY threads."
+   },
+   {
+    "name": "IH8MUD Forum",
+    "url": "https://forum.ih8mud.com/",
+    "note": "Toyota-wide off-road forum; strong crossover with Land Cruiser and Prado knowledge."
+   },
+   {
+    "name": "Expedition Portal",
+    "url": "https://forum.expeditionportal.com/",
+    "note": "Overland build threads and long-term ownership reports."
+   }
+  ],
+  "related_families": [
+   "land-cruiser",
+   "lexus"
+  ]
+ },
+ "page": {
+  "slug": "3rd-gen",
+  "title": "Toyota 4Runner 3rd Gen",
+  "eyebrow": "TOYOTA 4RUNNER · N180 · 1996–2002",
+  "verdict": "The 4Runner that finally stopped being a pickup with a roof and became a proper SUV — without going soft. Small, simple, stupidly durable, and now priced like everyone figured that out at once.",
+  "codes": [
+   "N180",
+   "5VZ-FE 3.4 V6",
+   "REAR E-LOCKER 1996–2000"
+  ],
+  "hero_photo": "red-rock-climb.jpg",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "For its first twelve years the 4Runner was, essentially, a Hilux pickup wearing a hat. The third generation, launched in late 1995 as a 1996 model, was the moment Toyota stopped bolting a lid onto a truck bed and built the thing as an SUV from the frame up. It got coil springs at all four corners, rack-and-pinion steering, a chassis shared with the Land Cruiser Prado (J90) and, for the first time on a 4Runner, an optional electric rear locker. Nearly three decades later it is the generation trail people lower their voices about — and the one sellers have noticed."
+    ]
+   },
+   {
+    "heading": "THE BREAK FROM THE HILUX",
+    "paragraphs": [
+     "The [[4runner/1st-gen|first 4Runner]] arrived in 1983 as a Hilux with a removable fibreglass top; the [[4runner/2nd-gen|second generation]] swapped that for a one-piece steel body but still rode on the pickup's bones. The N180 cut the cord. Wikipedia records an all-new body and chassis shared with the J90 Prado, a wheelbase 2.3 inches longer than before, coils all round, rack-and-pinion steering and dual airbags. MotorWeek's 1996 test noted towing jumping from 3,500 to 5,000 lb, and the 3.4-litre V6 rising to 183 hp and 217 lb-ft from the old 3.0's 150 hp.",
+     "It was not expensive, either. MotorWeek priced a two-wheel-drive four-cylinder base model at $19,908 and the 4WD SR5 V6 most people actually wanted at $25,568. Under the hood sat two engines borrowed from the brand-new Tacoma: the 150 hp 2.7-litre 3RZ-FE four and the 5VZ-FE V6. Gearboxes were a five-speed manual or four-speed automatic, and two-wheel drive was standard — so plenty of the 3rd gens for sale are not the trail trucks they look like. Check the badge, then check underneath."
+    ]
+   },
+   {
+    "heading": "FACELIFT, MULTI-MODE AND THE LOST LOCKER",
+    "paragraphs": [
+     "The 1999 refresh brought a new nose with revised bumper and headlights, a reorganised centre stack and — the bit that matters — an optional Multi-Mode transfer case that could run full-time 4WD on slippery roads. Owners on Toyota-4Runner.org also remember the '99 for its rear-locker option alongside cupholders that actually hold cups off-road, plus the hood-scooped Highlander and the 2000 Sport Edition. Forum veterans note the '99 sits roughly an inch taller on its springs than the trucks either side of it.",
+     "Then came 2001. The final two years gained Vehicle Skid Control, traction control and push-button Multi-Mode 4WD with a locking centre differential — but, per forum consensus and HotCars, they lost the rear E-locker that had been available from 1996 to 2000. By then the four-cylinder and the manual had also gone, leaving a V6-automatic-only line-up. For a lot of buyers that makes the 1999–2000 Limited or SR5 with a locker the sweet spot, while purists still argue for the simpler pre-facelift trucks."
+    ]
+   },
+   {
+    "heading": "WHY THE TRAIL CROWD WORSHIPS IT",
+    "paragraphs": [
+     "The electric rear locker was the headline. Toyota had already been fitting electric lockers to Land Cruisers for years — the [[land-cruiser/80-series|80 Series]] was the big brother in showrooms at the time — and the 3rd gen was the first 4Runner to get one. Combine that with a compact footprint, decent ground clearance and a 105.3-inch wheelbase, and you have a truck that fits trails a full-size SUV has to winch around.",
+     "Then there is the 5VZ-FE. It is not fast — MotorWeek clocked 9.5 seconds to 60 — but it is the sort of engine owners talk about in hundreds of thousands of miles. 8020 Automotive calls it non-interference, so a snapped timing belt usually means a tow rather than a rebuild, and SlashGear notes the 3rd gen consistently ranked among the SUVs most likely to pass 250,000 miles. Because it shares so much with the first-generation Tacoma, the aftermarket for suspension, armour and parts is enormous."
+    ]
+   },
+   {
+    "heading": "THE AFTERMATH",
+    "paragraphs": [
+     "Toyota replaced it in August 2002 with the [[4runner/4th-gen|fourth generation]], built on the bigger Prado 120 platform that also underpins the [[lexus/gx470|Lexus GX 470]]. It brought a V8 and more comfort, and a lot more mass. The N180, meanwhile, slid into the used market and became the default answer to 'what cheap 4x4 should I build?' — right up until it stopped being cheap. Its shared DNA with the first-generation Tacoma kept parts plentiful long after the dealer stopped caring.",
+     "Today the clean ones are collector items in all but name: Yahoo Autos reports unmodified examples under 100,000 miles mostly trading in the mid-to-upper $20,000s. The rest are rolling restoration projects held together by forum knowledge — lower ball joints, rear axle seals, frame rust and timing belts are the usual list. None of it is exotic, all of it is documented, and that, more than any spec sheet, is why the 3rd gen refuses to die."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · THE JAPANESE TWIN",
+   "title": "Hilux Surf: the diesel 3rd gen America never got",
+   "paragraphs": [
+    "In Japan the N180 was sold as the Hilux Surf, and it came with something US buyers never got: diesel. Yahoo Autos notes the diesel options were Japan-only, and BE FORWARD lists Surfs like the KZN185 with the 1KZ-TE, a 3.0-litre four-cylinder turbodiesel making roughly 130 hp but far more low-end torque than the petrol V6.",
+    "Much of the chassis, suspension and brakes is shared with the US 4Runner, so the parts problem is smaller than it looks. And because the US 25-year import rule frees vehicles from federal safety standards once they reach that age, a right-hand-drive Surf is now a legal, if quirky, way to own the diesel 3rd gen Toyota never sold here."
+   ]
+  },
+  "engineering_intro": "Underneath, the N180 is old-school Toyota done properly: a ladder frame shared with the J90 Prado, double-wishbone independent front suspension, a solid coil-sprung rear axle, and Tacoma-derived engines tuned for longevity rather than lap times. The clever bits are in the drivetrain — an optional electric rear locker in the early years, and the Multi-Mode transfer case that arrived with the 1999 facelift.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame",
+    "note": "Shared with the Land Cruiser Prado J90; 105.3 in wheelbase."
+   },
+   {
+    "k": "FRONT",
+    "v": "Double-wishbone IFS",
+    "note": "Coil springs and rack-and-pinion steering, both new to the 4Runner."
+   },
+   {
+    "k": "REAR",
+    "v": "Solid axle on coils",
+    "note": "Coil springs all round gave a better ride than you'd expect from a body-on-frame truck."
+   },
+   {
+    "k": "ENGINE",
+    "v": "5VZ-FE 3.4 V6",
+    "note": "183 hp / 217 lb-ft, DOHC 24-valve, timing belt; a 2.7 3RZ-FE four was also offered."
+   },
+   {
+    "k": "4WD",
+    "v": "Part-time → Multi-Mode",
+    "note": "Lever part-time case at launch; Multi-Mode optional from 1999; push-button Multi-Mode with centre diff lock for 2001–02."
+   },
+   {
+    "k": "LOCKER",
+    "v": "Electric rear (opt.)",
+    "note": "Factory option on 4WD trucks 1996–2000; dropped for 2001–02 in favour of VSC/TRAC."
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1996–2000",
+    "platform": "N180 · 2WD/4WD",
+    "engine": "3RZ-FE 2.7 I4",
+    "output": "150 hp / 177 lb-ft",
+    "note": "Base engine; five-speed manual or four-speed auto. Gone after 2000."
+   },
+   {
+    "years": "1996–1998",
+    "platform": "N180 · pre-facelift",
+    "engine": "5VZ-FE 3.4 V6",
+    "output": "183 hp / 217 lb-ft",
+    "note": "Lever part-time 4WD; rear E-locker optional on 4WD."
+   },
+   {
+    "years": "1999–2000",
+    "platform": "N180 · facelift",
+    "engine": "5VZ-FE 3.4 V6",
+    "output": "183 hp / 217 lb-ft",
+    "note": "New nose and dash; Multi-Mode t-case optional; E-locker still offered. Highlander ('99) and Sport Edition ('00) trims."
+   },
+   {
+    "years": "2001–2002",
+    "platform": "N180 · late",
+    "engine": "5VZ-FE 3.4 V6",
+    "output": "183 hp / 217 lb-ft",
+    "note": "Auto only; VSC, traction control, push-button Multi-Mode with centre diff lock. No rear locker."
+   },
+   {
+    "years": "N180 era · Japan",
+    "platform": "Hilux Surf KZN185",
+    "engine": "1KZ-TE 3.0 turbodiesel I4",
+    "output": "≈130 hp",
+    "note": "Japan-market only; now importable to the US under the 25-year rule."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Frame rust, properly",
+    "body": "Crawl under it. Forum members flag the crossmember-to-frame welds, the rear lower control arm mounts, the triangular trailing-arm brackets, the area behind the axle where the spare hangs, and the rocker ends. Probe with a screwdriver: a hole or two is fixable, a frame thin from end to end is not."
+   },
+   {
+    "head": "Lower ball joints",
+    "body": "The stock LBJ is the 3rd gen's famous weak link — if it lets go the control arm drops and the wheel folds under. 2001–02 trucks were covered by Toyota Special Service Campaign 50J; on any year, ask what was fitted. AdventureTaco's advice is OEM Toyota only."
+   },
+   {
+    "head": "Timing belt records",
+    "body": "The V6 wants a belt at roughly 90,000-mile intervals, ideally with the water pump and thermostat. It's a non-interference engine, so a failure is usually a tow, not a rebuild — but no paperwork means budget for the job."
+   },
+   {
+    "head": "Rear axle seals and brakes",
+    "body": "Blown rear axle seals are a known 3rd gen habit; gear oil then soaks the drum brake shoes and washes out the wheel bearing. Look for wet backing plates and listen for a bearing growl on the test drive."
+   },
+   {
+    "head": "Locker and 4WD function",
+    "body": "If it's a 1996–2000 4WD with the E-locker, make sure it actually engages (it's meant for 4Lo and low speed). On Multi-Mode trucks, cycle every mode. 2001–02 trucks have no factory rear locker regardless of what the ad says."
+   },
+   {
+    "head": "Steering slop",
+    "body": "Wandering or a clunk over bumps often points to worn steering rack bushings (common around 100k miles) or tie-rod ends. Both are cheap to fix but useful bargaining chips."
+   },
+   {
+    "head": "Recalls and readiness",
+    "body": "1996 to early-1998 trucks were subject to Safety Recall 20A for rear springs and bump stops. And plug in a scanner — IH8MUD members warn about sellers clearing codes to hide a dead catalytic converter, so check all readiness monitors are complete."
+   },
+   {
+    "head": "Who lifted it?",
+    "body": "A tidy lift with known parts is a bonus; a mystery spacer lift with no alignment records is a project. Forum veterans' advice is blunt: skip a lifted truck unless the lift was done properly."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Lower ball joint replacement",
+    "diff": "2 / 5",
+    "time": "≈ 30–60 min per side",
+    "cost": "Dealer did the 2001–02 campaign in about 3 hours; otherwise parts plus labor",
+    "symptoms": "Stiff steering, poor self-centering, front-end clunks or squeaks, a torn boot. Toyota's 50J letter warns a worn joint can separate from the knuckle.",
+    "fix": "Support the truck on stands and pull the wheel. Remove the four 14 mm bolts holding the LBJ to the knuckle, pull the cotter pin and loosen the 24 mm castle nut, then pop the stud from the lower control arm with a pitman-arm puller (repeat for the 19 mm tie-rod castle nut on a 4Runner). Swing the hub aside, fit the correct left/right joint, torque the knuckle bolts with blue Loctite (37 ft-lb black washer bolts or 59 ft-lb green flanged bolts), castle nuts to 103 ft-lb (LCA) and 67 ft-lb (tie rod), then new cotter pins.",
+    "tools": "14/19/24 mm sockets · OTC 6295 front end service set · torque wrench · blue Loctite 242 · new cotter pins · OEM 4Runner LBJs L 43340-39465 / R 43330-39585",
+    "parts": [
+     {
+      "name": "Lower ball joint, left (Toyota 43340-39465)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~joint~assy~lower~ball~front~lh~43340-39465.html"
+     },
+     {
+      "name": "Lower ball joint, right (Toyota 43330-39585)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~joint~assy~lower~ball~front~rh~43330-39585.html"
+     },
+     {
+      "name": "'Black' washer-head LBJ bolt (need 8) (Toyota 90119-10933)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~bolt~for~front~lower~ball~joint~lh~90119-10933.html"
+     },
+     {
+      "name": "Ball joints (aftermarket options)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,suspension,ball+joint,10070"
+     }
+    ]
+   },
+   {
+    "title": "Timing belt and water pump (5VZ-FE)",
+    "diff": "4 / 5",
+    "time": "≈ 8–14 hours (AdventureTaco's first attempt took about 14)",
+    "cost": "Parts ≈ $200–400 with water pump, labor ≈ $200–300 (8020 Automotive)",
+    "symptoms": "Due at around 90,000 miles or with unknown history; a cracked belt, misfires or rough running. It's non-interference, so failure usually strands you rather than wrecking the engine.",
+    "fix": "Drain coolant, remove the fan, radiator and drive belts, then the upper timing cover. Hold the crank pulley and break the bolt, pull the pulley, remove the lower cover and set #1 to TDC. Remove tensioner, belt and idlers; replace cam and crank seals, water pump and thermostat (AdventureTaco fits the thermostat jiggle valve at 6 o'clock). Fit idlers and belt, then the hydraulic tensioner, rotate two full turns to confirm marks, torque the crank bolt to 217 ft-lb, refill and bleed.",
+    "tools": "Harmonic damper holder · OTC 4518 puller · cam pulley holder · seal puller · Toyota belt 13568-69095 · tensioner 13540-62021 · Aisin water pump 16100-69398-83 · new crank bolt 90119-16006",
+    "parts": [
+     {
+      "name": "Timing belt (Toyota 13568-69095)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~belt~timing~13568-69095.html"
+     },
+     {
+      "name": "Water pump (Aisin OE) (Toyota 16100-69398-83)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~water~pump~assy~16100-69398-83.html"
+     },
+     {
+      "name": "Hydraulic belt tensioner (Toyota 13540-62021)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~tensioner~assy~chain~no~1~13540-62021.html"
+     },
+     {
+      "name": "Crankshaft pulley bolt (single-use) (Toyota 90119-16006)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~bolt~for~crankshaft~pulley~set~90119-16006.html"
+     }
+    ]
+   },
+   {
+    "title": "Rear axle seals and bearings",
+    "diff": "4 / 5",
+    "time": "≈ a full day for most (press work)",
+    "cost": "≈ $250 per side at a shop (IH8MUD owner estimate), more if the brakes are oil-soaked",
+    "symptoms": "Gear oil on the backing plate or inside the drum, oil-soaked shoes that won't stop the truck, a growling rear wheel bearing.",
+    "fix": "Lift and support the rear, pull wheels and drums, disconnect the e-brake cable, brake line and ABS sensor, and drain the diff. Remove the four backing-plate nuts and pull the axle. Press off the retainers and tone ring, press the old bearing out and the new one in with its dust seal, fit a new snap ring and retainers. Drive in a new inner seal square with a matched driver, reinstall the axle (backing-plate nuts 48 ft-lb), refill with 80W-90 and bleed the brakes. Do both sides.",
+    "tools": "20-ton press · axle bearing puller/installer · seal driver · slide hammer · inner seal 90310-50006 · bearing 90363-40020-77 ('96–'00) or 90363-40068 ('01–'02) · O-rings 90301-88077",
+    "parts": [
+     {
+      "name": "Rear axle bearing, 2001–02 (Toyota 90363-40068)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~bearing~for~rear~axle~shaft~90363-40068.html"
+     },
+     {
+      "name": "Rear axle bearing, 1996–2000 (Toyota 90363-40020-77)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~bearing~for~rear~axle~shaft~90363-40020-77.html"
+     },
+     {
+      "name": "Inner axle-housing seal (Toyota 90310-50006)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~seal~oil~for~rear~axle~shaft~rh~90310-50006.html"
+     },
+     {
+      "name": "Axle housing O-ring (Toyota 90301-88077)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~ring~o~for~rear~axle~bearing~case~90301-88077.html"
+     }
+    ]
+   },
+   {
+    "title": "Steering rack bushings",
+    "diff": "3 / 5",
+    "time": "≈ 3–4 hours",
+    "cost": "Parts plus labor; urethane kits are inexpensive",
+    "symptoms": "Vague steering, wander and clunks; rack visibly shifting in its mounts. AdventureTaco treats about 1/16 in of play as normal and 1/4 in or more as time for new bushings.",
+    "fix": "Support the front, remove wheels and the front sway bar, and separate the outer tie-rod ends from the knuckles. Unbolt the passenger bracket, centre bolt, driver bolt and power-steering line bracket, then wiggle the rack free (support it on a jack). Press out old bushings with a C-clamp and receiver cups, clean the seats, grease and press in urethane bushings with the matching sleeve. Reinstall: passenger bracket and centre bolt 123 ft-lb, driver nut 141 ft-lb, tie-rod castle nuts 67 ft-lb. Get an alignment.",
+    "tools": "12–22 mm sockets · OTC 6295 puller · OTC 7249 ball-joint press kit · torque wrench · Energy Suspension 8.10103 kit (4Runner, per AdventureTaco) or Total Chaos urethane rack bushing kit",
+    "parts": [
+     {
+      "name": "Energy Suspension 8.10103G urethane steering rack bushings (4Runner)",
+      "supplier": "Summit Racing",
+      "url": "https://www.summitracing.com/search?keyword=8.10103G"
+     },
+     {
+      "name": "Rack and pinion bushings",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,steering,rack+and+pinion+bushing,11363"
+     }
+    ]
+   },
+   {
+    "title": "Valve cover gaskets (5VZ-FE)",
+    "diff": "3 / 5",
+    "time": "≈ 3–5 hours (intake plenum access)",
+    "cost": "Gaskets under $40; shop labor ≈ $250–500 (8020 Automotive)",
+    "symptoms": "Oil seeping down the heads, a burning-oil smell after a drive, slowly falling oil level.",
+    "fix": "Heat cycles harden and crack the gaskets, so leaks only get worse. Access is the work: clear the intake plumbing to reach the covers, unbolt them, clean the sealing surfaces thoroughly, fit new gaskets and grommets, and torque the covers down evenly.",
+    "tools": "Metric sockets and extensions · torque wrench · gasket scraper · RTV · new valve cover gaskets",
+    "parts": [
+     {
+      "name": "Valve cover gasket sets (5VZ-FE)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,engine,valve+cover+gasket,10710"
+     },
+     {
+      "name": "Valve cover grommets",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,engine,valve+cover+grommet,5492"
+     }
+    ]
+   },
+   {
+    "title": "Spare-tire crossmember and frame rust repair",
+    "diff": "4 / 5",
+    "time": "≈ a weekend",
+    "cost": "Parts plus labor; welding required",
+    "symptoms": "Flaking scale where crossmembers meet the frame, holes behind the rear axle, a spare carrier that won't release or sags.",
+    "fix": "Salt and debris pack in between body and frame and rot the rear crossmember from the inside — often discovered when the spare won't come down. Cut out the rotten section and weld in a replacement such as the Rust Buster 11-gauge crossmember (replaces Toyota 51209-35171), then treat surrounding metal with rust converter and a yearly oil- or grease-based inhibitor.",
+    "tools": "Welder · angle grinder · Rust Buster crossmember · rust paint · inhibitor spray",
+    "parts": [
+     {
+      "name": "Rust Buster 11-gauge spare-tire crossmember, 1996–2002 4Runner",
+      "supplier": "LiftKits4Less",
+      "url": "https://liftkits4less.com/spare-tire-carrier-crossmember-for-1996-2002-toyota-4runner-rust-buster-frameworks"
+     },
+     {
+      "name": "Rear frame crossmember sub-assembly (Toyota 51209-35171)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~crossmember~sub~assy~frame~rear~51209-35171.html"
+     }
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "The Toyota-4Runner.org consensus is 265/75R16 (roughly a 31.6-inch tire) on stock suspension. Some owners see rubbing at full compression off-road with wide, aggressive tread or wheel spacers; if you want zero drama, 265/70R16 or 265/70R17 are the conservative picks. Anything bigger is lift territory.",
+    "src": "TOYOTA-4RUNNER.ORG"
+   },
+   {
+    "q": "Does my 4Runner have the factory rear locker?",
+    "a": "Only if it's a 1996–2000 4WD truck that was ordered with it — it was an option on Base, SR5 and Limited 4WD models, never standard, and it wasn't common. For 2001–02 the rear E-locker was dropped in favour of VSC, traction control and a centre diff lock.",
+    "src": "T4R.ORG / HOTCARS"
+   },
+   {
+    "q": "How should I use the E-locker?",
+    "a": "The owner's manual guidance quoted on the forums is to engage it only in 4Lo and keep speed below about 5 mph. It locks both rear wheels together, so it'll fight you in turns on high-traction surfaces — use it for the obstacle, then switch it off.",
+    "src": "TOYOTA-4RUNNER.ORG"
+   },
+   {
+    "q": "When does the timing belt need doing — and is the 3.4 an interference engine?",
+    "a": "Plan on about every 90,000 miles, and do the water pump, thermostat and seals while you're in there. The 5VZ-FE is non-interference, so a broken belt shouldn't destroy valves, but it will leave you stranded.",
+    "src": "8020 AUTOMOTIVE"
+   },
+   {
+    "q": "How much can it tow?",
+    "a": "Up to 5,000 lb when properly equipped — a big jump from the 3,500 lb of the previous generation. Owners on Expedition Portal report fuel economy dropping to roughly 11–13 mpg when towing.",
+    "src": "MOTORWEEK / AUTO CHANNEL"
+   },
+   {
+    "q": "What fuel economy should I expect?",
+    "a": "EPA ratings were around 17 city / 19 highway for the 1996 V6 and 16/19 for a 2002 SR5 4x4; owners typically report 16–18 mpg. The 18.5-gallon tank and a notoriously inaccurate fuel gauge mean range is modest, so carry a jerry can on long trips.",
+    "src": "MOTORWEEK / EXPEDITION PORTAL"
+   },
+   {
+    "q": "What are the fluid capacities?",
+    "a": "Per Toyota-Club's US-spec 180-series data: 5VZ-FE oil with filter 5.2 L (3RZ-FE 5.4 L); front diff 1.15 L of GL-5 80W-90; rear diff 2.45 L (2.75 L with diff lock) of GL-5 80W-90; transfer case 1.0–1.2 L of 75W-90; automatic transmission drain-and-fill about 2.0 L (4WD) of Dexron II/III.",
+    "src": "TOYOTA-CLUB.NET"
+   },
+   {
+    "q": "Which years should I buy or avoid?",
+    "a": "Forum favourites are 1999–2000 trucks, especially Limiteds or SR5s with the Multi-Mode case and E-locker. 1996–98 trucks are simpler and cheaper to fix. 2001–02 get VSC and traction control but lose the locker and manual, and owners grumble about the early VSC and the late automatic. Condition and rust matter far more than model year.",
+    "src": "TOYOTA-4RUNNER.ORG"
+   },
+   {
+    "q": "Is the four-cylinder worth considering?",
+    "a": "Most owners steer you toward the 3.4 V6: 183 hp and 217 lb-ft versus 150 hp and 177 lb-ft for the 2.7 four, for similar running costs. The four is a durable engine, but it'll struggle with big tires and a loaded roof rack.",
+    "src": "IH8MUD / SLASHGEAR"
+   },
+   {
+    "q": "What lift options are there?",
+    "a": "The classic is an Old Man Emu kit of about 2–3 in, with ICON, Total Chaos and others offering springs, coilovers and control arms. As a lift grows, aftermarket upper control arms help restore alignment range; Total Chaos makes both UCAs and a bolt-on lower ball joint conversion for this truck.",
+    "src": "LCE PERFORMANCE / OVR MAG"
+   },
+   {
+    "q": "How long will a 3rd gen last?",
+    "a": "With maintenance, a long time. SlashGear notes it consistently ranked among the SUVs most likely to pass 250,000 miles, and 8020 Automotive puts a well-maintained 5VZ-FE at 300,000–400,000 miles. Frame rust and neglected ball joints usually kill these trucks before the engine does.",
+    "src": "SLASHGEAR / 8020"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "A modest 2–3 in lift and fresh shocks transform a sagging, 25-year-old suspension and make room for 265/75R16s or slightly larger.",
+    "who": [
+     {
+      "name": "Old Man Emu (via LCE Performance)",
+      "url": "https://www.lceperformance.com/old-man-emu-suspension-system-for-1996-2002-4runner/"
+     },
+     {
+      "name": "ICON Vehicle Dynamics",
+      "url": "https://iconvehicledynamics.com/accessory/16009/icon%2Daccessories%2Dicon%2D1996%2D2002%2Dtoyota%2D4runner%2D1%2Dlift%2Drear%2Dcoil%2Dspring%2Dkit"
+     }
+    ]
+   },
+   {
+    "cat": "CONTROL ARMS & BALL JOINTS",
+    "why": "Lifted IFS runs out of alignment range, and the stock lower ball joint is the 3rd gen's weak link — fix both at once.",
+    "who": [
+     {
+      "name": "Total Chaos Fabrication",
+      "url": "https://www.chaosfab.com/product/1996-2002-Toyota-4Runner-Upper-Control-Arms"
+     }
+    ]
+   },
+   {
+    "cat": "ARMOR",
+    "why": "Rock sliders protect the rockers that rust and dent first; a steel bumper adds a winch mount and approach angle.",
+    "who": [
+     {
+      "name": "True North Fabrications (via Yota Mafia)",
+      "url": "https://yotamafia.com/products/1996-2002-3rd-gen-4runner-rock-sliders"
+     },
+     {
+      "name": "LCE Performance / Rock Defense",
+      "url": "https://www.lceperformance.com/rock-defense-rear-bumper-1996-2002-4runner/"
+     }
+    ]
+   },
+   {
+    "cat": "ROOF RACK",
+    "why": "The 3rd gen has no rain gutters or full-length rails, so a model-specific rack is the clean way to carry a tent or recovery gear.",
+    "who": [
+     {
+      "name": "Front Runner Slimline II",
+      "url": "https://www.dometic.com/en/product/toyota-4runner-3rd-gen-roofrack-slimline-ii-krtf058t"
+     }
+    ]
+   },
+   {
+    "cat": "STEERING",
+    "why": "Urethane rack bushings take the slop out of tired steering, especially on bigger tires.",
+    "who": [
+     {
+      "name": "Total Chaos urethane rack bushing kit",
+      "url": "https://www.chaosfab.com/product/1996-2002-Toyota-4Runner-Urethane-Rack-Bushing-Kit-96701"
+     }
+    ]
+   },
+   {
+    "cat": "FORCED INDUCTION",
+    "why": "183 hp feels thin with 32s and a loaded roof. Superchargers for the 5VZ-FE are the classic fix (premium fuel and extra upkeep included).",
+    "who": [
+     {
+      "name": "Magnuson (via LCE Performance)",
+      "url": "https://www.lceperformance.com/5vz-supercharger-kit-3-4l-v6"
+     }
+    ]
+   },
+   {
+    "cat": "MAINTENANCE PARTS",
+    "why": "A 3rd gen specialist with timing kits, bushings and OEM parts sorted by system saves hours of part-number hunting.",
+    "who": [
+     {
+      "name": "LCE Performance — 3rd gen 4Runner",
+      "url": "https://www.lceperformance.com/4runner/third-generation-1996-2002/"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1996–2002 · US",
+    "label": "All 3rd gen 4Runners",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=1996&maxyear=2002",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n180/"
+   },
+   {
+    "years": "1996–2000 · US",
+    "label": "E-locker years",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=1996&maxyear=2000",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n180/"
+   },
+   {
+    "years": "2001–2002 · US",
+    "label": "Late trucks (VSC, Multi-Mode)",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2001&maxyear=2002",
+    "bat_url": "https://bringatrailer.com/toyota/4runner-n180/"
+   }
+  ],
+  "social": [],
+  "forums": [
+   {
+    "name": "Toyota-4Runner.org — 3rd Gen T4Rs",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/",
+    "note": "The biggest 3rd gen board: buying advice, locker threads, the 3rd Gen FAQ and DIY index."
+   },
+   {
+    "name": "IH8MUD — The 3rd Gen 4Runner Picture Thread",
+    "url": "https://forum.ih8mud.com/threads/the-3rd-gen-4runner-picture-thread.1384278/",
+    "note": "Builds and inspiration; IH8MUD's wider Toyota crowd is strong on drivetrain questions."
+   },
+   {
+    "name": "Expedition Portal",
+    "url": "https://forum.expeditionportal.com/",
+    "note": "Overland build threads and long-distance ownership reports on 3rd gens."
+   },
+   {
+    "name": "AdventureTaco",
+    "url": "https://adventuretaco.com/",
+    "note": "Not a forum, but the best step-by-step DIY guides shared between the 1st gen Tacoma and 3rd gen 4Runner."
+   }
+  ],
+  "related": [
+   {
+    "rel": "PREDECESSOR",
+    "name": "4Runner 2nd Gen",
+    "family": "4runner",
+    "gen": "2nd-gen"
+   },
+   {
+    "rel": "SUCCESSOR",
+    "name": "4Runner 4th Gen",
+    "family": "4runner",
+    "gen": "4th-gen"
+   },
+   {
+    "rel": "CONTEMPORARY",
+    "name": "Land Cruiser 80 Series",
+    "family": "land-cruiser",
+    "gen": "80-series"
+   },
+   {
+    "rel": "PLATFORM KIN (NEXT GEN)",
+    "name": "Lexus GX 470",
+    "family": "lexus",
+    "gen": "gx470"
+   }
+  ],
+  "plate": [
+   {
+    "k": "CHASSIS",
+    "v": "N180 (Prado J90-based)"
+   },
+   {
+    "k": "YEARS",
+    "v": "1996–2002 (US model years)"
+   },
+   {
+    "k": "ENGINE",
+    "v": "5VZ-FE 3.4 V6 / 3RZ-FE 2.7 I4"
+   },
+   {
+    "k": "OUTPUT (V6)",
+    "v": "183 hp @ 4,800 · 217 lb-ft @ 3,600"
+   },
+   {
+    "k": "TRANSMISSION",
+    "v": "5-spd manual (early) / 4-spd auto"
+   },
+   {
+    "k": "4WD",
+    "v": "Part-time; Multi-Mode from 1999"
+   },
+   {
+    "k": "LOCKER",
+    "v": "Rear electric, optional 1996–2000"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "105.3 in"
+   },
+   {
+    "k": "LENGTH",
+    "v": "183.3 in (2002 SR5)"
+   },
+   {
+    "k": "CURB WEIGHT",
+    "v": "4,245 lb (2002 SR5 4x4)"
+   },
+   {
+    "k": "TOWING",
+    "v": "5,000 lb"
+   },
+   {
+    "k": "FUEL TANK",
+    "v": "18.5 gal"
+   }
+  ],
+  "photos": [
+   {
+    "file": "red-rock-climb.jpg",
+    "alt": "Silver third-generation Toyota 4Runner climbing a steep tilted slab of red sandstone under a cloudy sky",
+    "caption": "3RD GEN ON THE SLICKROCK · RED ROCK CANYON, NV",
+    "credit": "Quilia",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
+   },
+   {
+    "file": "asiago-splash.jpg",
+    "alt": "Silver second-generation 4Runner throwing up a wall of muddy water crossing a puddle in a dark pine forest",
+    "caption": "2ND GEN PREDECESSOR · ASIAGO, ITALY",
+    "credit": "Gio Spigo",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/4x4-off-road-adventure-in-asiago-forest-34511849/"
+   },
+   {
+    "file": "veneto-mud.jpg",
+    "alt": "Lifted second-generation 4Runner driving through mud on a forest trail lined with pines",
+    "caption": "2ND GEN IN THE MUD · VENETO, ITALY",
+    "credit": "Gio Spigo",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/off-road-adventure-in-veneto-forest-34511847/"
+   },
+   {
+    "file": "forest-camp.jpg",
+    "alt": "White fourth-generation 4Runner parked at a wooded campsite beside a picnic table",
+    "caption": "4TH GEN SUCCESSOR AT CAMP",
+    "credit": "Vincent Mutasa",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-white-suv-parked-in-the-woods-next-to-a-picnic-table-d18Qy-rMVcY"
+   },
+   {
+    "file": "death-valley-trench.jpg",
+    "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
+    "caption": "5TH GEN IN THE ROCKS · DEATH VALLEY",
+    "credit": "Robson Hatsukami Morgan",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/gray-toyota-suv-in-the-middle-of-trench-nVVrRgkQy6s"
+   },
+   {
+    "file": "dune-convoy.jpg",
+    "alt": "Line of lifted fifth-generation 4Runners on big mud-terrain tires waiting on desert sand dunes",
+    "caption": "5TH GEN DUNE CONVOY · PERU",
+    "credit": "Jose Carbajal",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Toyota 4Runner",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+   },
+   {
+    "name": "SlashGear — Here's What Made The 3rd Generation Toyota 4Runner So Great",
+    "url": "https://www.slashgear.com/1326585/what-made-3rd-gen-toyota-4runner-so-great/"
+   },
+   {
+    "name": "Yahoo Autos — Toyota 4Runner third-generation through the years",
+    "url": "https://autos.yahoo.com/toyota-4runner-third-generation-years-194700449.html"
+   },
+   {
+    "name": "Japanese Nostalgic Car — The third-generation Toyota 4Runner brought it into the modern age (MotorWeek 1996 review)",
+    "url": "https://japanesenostalgiccar.com/toyota-4runner-1996-motorweek/"
+   },
+   {
+    "name": "HotCars — 3rd gen Toyota 4Runner off-road",
+    "url": "https://www.hotcars.com/3rd-gen-toyota-4runner-best-off-road/"
+   },
+   {
+    "name": "The Auto Channel — 2002 Toyota 4Runner SR5 4x4 review & specs",
+    "url": "https://www2020.theautochannel.com/news/2002/02/24/036211.html"
+   },
+   {
+    "name": "NHTSA — Toyota Special Service Campaign 50J owner letter (2001–2002 4Runner lower ball joints)",
+    "url": "https://static.nhtsa.gov/odi/rcl/2005/RCONL-05V225-6542.pdf"
+   },
+   {
+    "name": "8020 Automotive — The 3 most common Toyota 5VZ-FE 3.4 V6 engine problems",
+    "url": "https://8020automotive.com/the-3-most-common-toyota-5vz-fe-3-4-v6-engine-problems/"
+   },
+   {
+    "name": "Toyota-4Runner.org — What is the biggest tire I can get on a stock suspension?",
+    "url": "https://www.toyota-4runner.org/820769-post8.html"
+   },
+   {
+    "name": "Toyota-4Runner.org — 1997 Limited: locking diff standard?",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/78154-1997-limited-locking-diff-standard.html"
+   },
+   {
+    "name": "Toyota-4Runner.org — Rear Locker (3rd gen)",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/51358-rear-locker.html"
+   },
+   {
+    "name": "Toyota-4Runner.org — What year to buy?",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/90519-what-year-buy-3.html"
+   },
+   {
+    "name": "Toyota-4Runner.org — 1996 Recall (Safety Recall 20A, rear suspension)",
+    "url": "https://www.toyota-4runner.org/threads/1996-recall.183664/"
+   },
+   {
+    "name": "Toyota-4Runner.org — Opinions on this rust",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/298606-opinions-rust.html"
+   },
+   {
+    "name": "Toyota-4Runner.org — Ball joint replacement writeups",
+    "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/113077-ball-joint-replacement-writeups.html"
+   },
+   {
+    "name": "IH8MUD — 3rd gen 4runner, any problems or issues?",
+    "url": "https://forum.ih8mud.com/threads/3rd-gen-4runner-any-problems-or-issues.453775/"
+   },
+   {
+    "name": "IH8MUD — 3rd Gen. 4Runner Info",
+    "url": "https://forum.ih8mud.com/threads/3rd-gen-4runner-info.240471"
+   },
+   {
+    "name": "Expedition Portal — What are the cons of a 3rd gen 4runner",
+    "url": "https://forum.expeditionportal.com/goto/post?id=1296533"
+   },
+   {
+    "name": "AdventureTaco — Lower ball joint replacement (1st gen Tacoma / 3rd gen 4Runner)",
+    "url": "https://adventuretaco.com/oh-its-time-new-tacoma-lbjs/"
+   },
+   {
+    "name": "AdventureTaco — 5VZ-FE timing belt & water pump",
+    "url": "https://adventuretaco.com/?p=1313"
+   },
+   {
+    "name": "AdventureTaco — Replacing rear axle seal & bearing (1st gen Tacoma / 3rd gen 4Runner)",
+    "url": "https://adventuretaco.com/step-by-step-replacing-rear-axle-seal-bearing-w-abs-1st-gen-tacoma-or-3rd-gen-4runner/"
+   },
+   {
+    "name": "AdventureTaco — Steering rack bushing replacement (1st gen Tacoma / 3rd gen 4Runner)",
+    "url": "https://adventuretaco.com/guide/step-by-step-steering-rack-bushing-replacement-on-a-1st-gen-tacoma-or-3rd-gen-4runner/"
+   },
+   {
+    "name": "OVR Magazine — Bolt-on lower ball joint conversion for 1st gen Tacoma and 3rd gen 4Runner by Total Chaos",
+    "url": "https://ovrmag.com/vehicle-upgrades/bolt-on-lower-ball-joint-conversion-for-1st-gen-tacoma-1996-2004-and-3rd-gen-4runner-1996-2002-by-total-chaos/124.article"
+   },
+   {
+    "name": "Toyota-Club.net — 4Runner (180, US) technical data: fluids & capacities",
+    "url": "https://toyota-club.net/files/techdata/ttx/4runner_180u.htm"
+   },
+   {
+    "name": "LiftKits4Less — Rust Buster spare tire carrier crossmember, 1996–2002 4Runner",
+    "url": "https://liftkits4less.com/spare-tire-carrier-crossmember-for-1996-2002-toyota-4runner-rust-buster-frameworks"
+   },
+   {
+    "name": "BE FORWARD — Toyota Hilux Surf N185: 1KZ-TE diesel & US legal specs",
+    "url": "https://blog.beforward.jp/uncategorized/toyota-hilux-surf-n185-1kz-te-diesel-us-legal-specs.html"
+   },
+   {
+    "name": "LCE Performance — Old Man Emu suspension system for 1996–2002 4Runner",
+    "url": "https://www.lceperformance.com/old-man-emu-suspension-system-for-1996-2002-4runner/"
+   },
+   {
+    "name": "Total Chaos Fabrication — 1996–2002 4Runner upper control arms",
+    "url": "https://www.chaosfab.com/product/1996-2002-Toyota-4Runner-Upper-Control-Arms"
+   },
+   {
+    "name": "Dometic — Front Runner 3rd Gen 4Runner Slimline II roof rack",
+    "url": "https://www.dometic.com/en/product/toyota-4runner-3rd-gen-roofrack-slimline-ii-krtf058t"
+   },
+   {
+    "name": "Bring a Trailer — Toyota 4Runner (N180)",
+    "url": "https://bringatrailer.com/toyota/4runner-n180/"
+   },
+   {
+    "name": "AdventureTaco — Replace the fuel filter in a 96–04 Tacoma or 96–02 4Runner",
+    "url": "https://adventuretaco.com/guide/how-to-replace-the-fuel-filter-in-a-96-04-tacoma-or-96-02-4runner/"
+   },
+   {
+    "name": "AdventureTaco — Replacing the PCV valve on a 5VZFE (Tacoma, 4Runner)",
+    "url": "https://adventuretaco.com/guide/replacing-the-pcv-valve-on-a-5vzfe-tacoma-4runner/"
+   },
+   {
+    "name": "AdventureTaco — Installing a cabin air filter (1st gen Tacoma / 3rd gen 4Runner)",
+    "url": "https://adventuretaco.com/guide/installing-a-cabin-air-filter-in-a-1st-gen-tacoma-tundra-sequoia-3rd-gen-4runner/"
+   },
+   {
+    "name": "AdventureTaco — Rear diff breather mod",
+    "url": "https://adventuretaco.com/guide/rear-diff-breather-mod-why-didnt-i-do-this-sooner/"
+   },
+   {
+    "name": "AdventureTaco — Timing belt replacement for 3.4L V6 5VZFE (parts list)",
+    "url": "https://adventuretaco.com/guide/step-by-step-toyota-tacoma-timing-belt-replacement-for-3-4l-v6-5vzfe-also-4runner-tundra-and-t100/"
+   },
+   {
+    "name": "Toyota-Club.net — Spark plug application table",
+    "url": "https://toyota-club.net/files/techdata/plugs/index_eng.htm"
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing on a 20-plus-year-old 4Runner: unless there are receipts, do the timing belt, every fluid and the cheap 5VZ-FE wear items in one go. The 5VZ-FE is non-interference, but a 90,000-mile belt interval means most trucks are on their third or fourth belt — or overdue on their second. Capacities below are Toyota owner's-manual figures compiled by Toyota-Club.net.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "API SJ or later · ≈5.2 L (5.5 US qt) with filter · viscosity [CONFIRM IN MANUAL]",
+     "interval": "Then every 5,000 mi or per the owner's manual",
+     "note": "Spin-on filter on the 5VZ-FE. Check for valve-cover seepage while you're there (see repairs).",
+     "parts": [
+      {
+       "name": "Oil filters for the 3.4 V6",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,engine,oil+filter,5340"
+      }
+     ]
+    },
+    {
+     "item": "Engine air filter",
+     "spec": "Panel filter in the airbox",
+     "interval": "Inspect at every oil change; replace when dirty",
+     "note": "Dusty-trail trucks clog these fast.",
+     "parts": [
+      {
+       "name": "Engine air filters",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,fuel+&+air,air+filter,6192"
+      }
+     ]
+    },
+    {
+     "item": "Cabin air filter (add-on)",
+     "spec": "None from the factory",
+     "interval": "Optional add-on",
+     "note": "AdventureTaco notes the 3rd gen 4Runner never had a cabin filter; their kit fits in the blower-motor housing under the glovebox (three T25/8 mm screws).",
+     "parts": [
+      {
+       "name": "AdventureTaco in-cabin air filter kit (3rd gen 4Runner)",
+       "supplier": "AdventureTaco",
+       "url": "https://adventuretaco.com/cabin-air-filter-kit/"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs",
+     "spec": "Denso K16TR11 (Toyota 90919-01192) · gap 1.1 mm (Toyota-Club plug table, 5VZ-FE 4Runner)",
+     "interval": "Replace now if history unknown",
+     "note": "Six plugs; Toyota-Club lists the same plug for the 5VZ-FE in the 1999–2003 Tundra and the Hilux Surf.",
+     "parts": [
+      {
+       "name": "Spark plug, Denso K16TR11 (Toyota 90919-01192)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~plug~spark~90919-01192.html"
+      },
+      {
+       "name": "Spark plugs (other brands)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,ignition,spark+plug,7212"
+      }
+     ]
+    },
+    {
+     "item": "Timing belt, water pump & thermostat",
+     "spec": "Belt 13568-69095 · Aisin pump · 82 °C thermostat 90916-03075",
+     "interval": "Every ≈90,000 mi (or now, if undocumented)",
+     "note": "Do the pump, idlers, hydraulic tensioner, cam/crank seals and thermostat with the belt — AdventureTaco's OEM kit list. See the repair card above for the procedure.",
+     "parts": [
+      {
+       "name": "Timing belt (Toyota 13568-69095)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~belt~timing~13568-69095.html"
+      },
+      {
+       "name": "Thermostat, 82 °C (Toyota 90916-03075)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~thermostat~90916-03075.html"
+      },
+      {
+       "name": "Timing belt & component kits",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,engine,timing+belt+&+component+kit,5759"
+      }
+     ]
+    },
+    {
+     "item": "Coolant",
+     "spec": "Toyota red Long Life Coolant (00272-1LLAC concentrate, mixed with distilled water) · 8.0 L (9.0 L with rear heater)",
+     "interval": "Drain and refill now; renew with every timing belt",
+     "note": "AdventureTaco refilled with two gallons of red concentrate plus distilled water after the belt job. Don't mix in green conventional coolant.",
+     "parts": [
+      {
+       "name": "Toyota Long Life Coolant, red concentrate (Toyota 00272-1LLAC)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~antifreeze~coolant~00272-1llac.html"
+      }
+     ]
+    },
+    {
+     "item": "Drive belts",
+     "spec": "A/C 99364-20870 · alternator 90080-91090 · power steering 90080-91126",
+     "interval": "Replace with the timing belt",
+     "note": "All three come off for the timing job anyway; part numbers from AdventureTaco's OEM kit.",
+     "parts": [
+      {
+       "name": "Drive belts",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,belt+drive,belt,8900"
+      }
+     ]
+    },
+    {
+     "item": "Automatic / manual transmission",
+     "spec": "Automatic: ATF Dexron II/III · ≈2.0 L per drain and refill (4WD). Manual: 75W-90 GL-4/5 · 2.2 L",
+     "interval": "Drain and refill now, then per the owner's manual",
+     "note": "A drain and refill replaces only part of the automatic's fluid, so on a truck with unknown history repeat it two or three times over a few hundred miles rather than one high-pressure flush.",
+     "parts": [
+      {
+       "name": "Automatic transmission fluid",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,transmission-automatic,transmission+fluid,11387"
+      }
+     ]
+    },
+    {
+     "item": "Transfer case",
+     "spec": "75W-90 GL-4/5 · 1.0 L (lever control) / 1.2 L (lever + button control)",
+     "interval": "Change now, then with the diffs",
+     "note": "Crack the fill plug before you drain.",
+     "parts": [
+      {
+       "name": "Transfer case fluid",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,drivetrain,transfer+case+fluid,14226"
+      }
+     ]
+    },
+    {
+     "item": "Front & rear differentials + rear breather",
+     "spec": "Hypoid 80W-90 GL-5 · front 1.15 L · rear 2.45 L (no locker) / 2.75 L (with E-locker)",
+     "interval": "Change now; after any deep water crossing",
+     "note": "The rear axle's breather sits on the housing and can suck in water when a hot diff is submerged. AdventureTaco's fix: a union plus hose run up to a breather plug behind the fuel door.",
+     "parts": [
+      {
+       "name": "Gear oil",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,drivetrain,gear+oil,11394"
+      },
+      {
+       "name": "Breather plug (Toyota 90930-03136)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~plug~breather~for~front~differential~90930-03136.html"
+      },
+      {
+       "name": "Breather union (Toyota 90404-51319)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~union~no~1~90404-51319.html"
+      }
+     ]
+    },
+    {
+     "item": "Power steering fluid",
+     "spec": "ATF Dexron II/III",
+     "interval": "Check; turkey-baster refresh if dark",
+     "note": "Same fluid as the automatic transmission.",
+     "parts": [
+      {
+       "name": "Power steering fluid",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,steering,power+steering+fluid,11395"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid",
+     "spec": "DOT 3 or DOT 4",
+     "interval": "Flush now if history unknown, then per the owner's manual",
+     "note": "Rear drums: inspect for gear oil on the shoes (see rear axle seals).",
+     "parts": [
+      {
+       "name": "Brake fluid",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/toyota,2001,4runner,3.4l+v6,1375163,brake+&+wheel+hub,brake+fluid,11389"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter",
+     "spec": "Toyota 23300-62030 (4Runner-specific bracket; Tacoma's differs)",
+     "interval": "With the timing belt (≈90,000 mi); every 30,000 mi in very dusty country",
+     "note": "Frame-mounted; 14 mm flare-nut wrench plus a 19 mm to hold the filter. AdventureTaco skips the FSM's fuel-pump-disconnect step and catches the spill.",
+     "parts": [
+      {
+       "name": "Fuel filter (Toyota 23300-62030)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~filter~fuel~for~efi~23300-62030.html"
+      }
+     ]
+    },
+    {
+     "item": "PCV valve & grommet",
+     "spec": "Valve 12204-62010 · grommet 90480-18001 · hose 12261-62041 (optional)",
+     "interval": "Replace now (cheap, 30 minutes)",
+     "note": "Old grommets harden and crumble into the engine on removal — pick out every piece.",
+     "parts": [
+      {
+       "name": "PCV valve (Toyota 12204-62010)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~valve~sub~assy~ventilation~12204-62010.html"
+      },
+      {
+       "name": "PCV grommet (Toyota 90480-18001)",
+       "supplier": "ToyotaPartsDeal (Toyota OEM)",
+       "url": "https://www.toyotapartsdeal.com/oem/toyota~grommet~for~ventilation~system~90480-18001.html"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

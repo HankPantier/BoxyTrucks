@@ -1,0 +1,14 @@
+{% macro res_list(items, kind) -%}
+{% if items %}<div class="grid" style="--min:240px">{% for s in items %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener"><span class="ico">{{ kind }}</span><span style="min-width:0"><span class="nm">{{ s.name }}</span><span class="fc">{{ s.focus }}</span></span></a>{% endfor %}</div>{% endif %}
+{%- endmacro %}
+{% macro res_block(res, title_prefix='', limit=99) -%}
+<div class="res">
+  {% if res.youtube %}<div class="res-group"><span class="label">YouTube channels</span>{{ res_list(res.youtube[:limit], 'YT') }}</div>{% endif %}
+  {% if res.instagram %}<div class="res-group"><span class="label">Instagram accounts</span>{{ res_list(res.instagram[:limit], 'IG') }}</div>{% endif %}
+  {% if res.forums %}<div class="res-group"><span class="label">Forums &amp; message boards</span><div class="rows">{% for b in res.forums[:limit] %}<a class="row" href="{{ b.url }}" target="_blank" rel="noopener"><span class="t">{{ b.name }} ↗</span><span class="n">{{ b.note }}</span></a>{% endfor %}</div></div>{% endif %}
+  {% if res.other %}<div class="res-group"><span class="label">Clubs, registries &amp; references</span><div class="rows">{% for b in res.other[:limit] %}<a class="row" href="{{ b.url }}" target="_blank" rel="noopener"><span class="t">{{ b.name }} ↗</span><span class="n">{{ b.note }}</span></a>{% endfor %}</div></div>{% endif %}
+</div>
+{%- endmacro %}
+{% macro reading_block(items, root='', fam=None) -%}
+{% if items %}<div class="res-group"><span class="label">Further reading</span><div class="rows">{% for a in items %}<a class="row" href="{{ a.url }}" target="_blank" rel="noopener" style="flex-direction:column;align-items:flex-start;gap:6px"><span class="m">{{ a.publisher }}{% if a.author %} · {{ a.author }}{% endif %}{% if a.date %} · {{ a.date }}{% endif %}</span><span class="t" style="font-family:var(--serif);font-weight:400;font-size:21px;line-height:28px">{{ a.title }} ↗</span>{% if a.note %}<span class="n">{{ a.note }}</span>{% endif %}</a>{% endfor %}</div></div>{% endif %}
+{%- endmacro %}

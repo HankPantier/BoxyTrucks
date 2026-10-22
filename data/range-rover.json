@@ -1,0 +1,1070 @@
+{
+ "family": {
+  "slug": "range-rover",
+  "name": "Range Rover",
+  "maker": "Land Rover",
+  "years": "1970–present",
+  "verdict": "The truck that taught a farm tool to wear a suit — and, for its first quarter-century, never forgot where it parked its wellies.",
+  "intro": [
+   "The Range Rover arrived in June 1970 as \"A Car For All Reasons\": a 100-inch-wheelbase, coil-sprung, permanently four-wheel-drive wagon with an all-alloy Rover V8 and aluminium panels hung on a steel frame. It was conceived as something a Land Rover owner could also drive to dinner, and it accidentally invented the luxury 4x4 in the process.",
+   "Five generations later, the name has drifted steadily up-market. The Classic (1970–1996) and the P38A (1994–2002) kept a separate ladder chassis and live axles; the L322 (2002–2012) went monocoque with all-independent air suspension and BMW-shared hardware; the L405 (2012–2021) went all-aluminium; and the L460, revealed in October 2021, added a seven-seat option, plug-in hybrids and a BMW-sourced 4.4 V8.",
+   "For BoxyTrucks readers, the sweet spot is the old stuff. The Classic is the one you can fix in a driveway with hand tools, a Rovers North catalogue and a forgiving spouse. The later trucks remain astonishingly capable off-road, but they are rolling networks of sensors and air springs — wonderful when right, ruinous when not."
+  ],
+  "hero_photo": "l405-trail.jpg",
+  "generations": [
+   {
+    "slug": "classic",
+    "name": "Range Rover Classic",
+    "years": "1970–1996",
+    "codes": [
+     "RRC",
+     "LSE / County LWB"
+    ],
+    "summary": "The original: two-door then four-door, coil springs, Rover V8, and a 24-year run that created the luxury 4x4.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1987&maxyear=1995",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-classic/",
+    "has_page": true
+   },
+   {
+    "slug": "p38",
+    "name": "Range Rover P38A",
+    "years": "1994–2002",
+    "codes": [
+     "P38A"
+    ],
+    "summary": "Last of the ladder-frame, live-axle Range Rovers — 4.0/4.6 Rover V8s, standard air suspension and a lot more electronics.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1995&maxyear=2002",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-p38a/",
+    "has_page": false
+   },
+   {
+    "slug": "l322",
+    "name": "Range Rover L322",
+    "years": "2002–2012",
+    "codes": [
+     "L322"
+    ],
+    "summary": "Monocoque body and all-independent air suspension; BMW-era engines at launch, Ford-era engines from 2005.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=2002&maxyear=2012",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-l322/",
+    "has_page": false
+   },
+   {
+    "slug": "l405",
+    "name": "Range Rover L405",
+    "years": "2012–2021",
+    "codes": [
+     "L405"
+    ],
+    "summary": "All-aluminium monocoque that shed more than 400 kg versus the steel L322.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=2013&maxyear=2021",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-l405/",
+    "has_page": false
+   },
+   {
+    "slug": "l460",
+    "name": "Range Rover L460",
+    "years": "2022–present",
+    "codes": [
+     "L460"
+    ],
+    "summary": "Fifth generation, revealed October 2021: seven-seat option, plug-in hybrids and a BMW-sourced 4.4 V8.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=2022&maxyear=2026",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-l460/",
+    "has_page": false
+   }
+  ],
+  "forums": [
+   {
+    "name": "RangeRovers.net",
+    "url": "https://www.rangerovers.net/",
+    "note": "The big US Range Rover community, with dedicated sections for every generation from the Classic onward."
+   },
+   {
+    "name": "Rovers North Forums — Range Rover Classic",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/range-rover-classic",
+    "note": "Hands-on Classic tech threads (swivels, heater cores, buying advice) from a parts supplier's community."
+   },
+   {
+    "name": "Full Fat RR",
+    "url": "https://fullfatrr.com/forum/",
+    "note": "UK owners' forum for full-size Range Rovers."
+   }
+  ],
+  "related_families": [
+   "land-rover",
+   "g-class",
+   "land-cruiser",
+   "grenadier"
+  ]
+ },
+ "page": {
+  "slug": "classic",
+  "title": "Range Rover Classic",
+  "eyebrow": "LAND ROVER RANGE ROVER · CLASSIC · 1970–1996",
+  "verdict": "The original luxury 4x4, with the soul of a farm truck. Buy the rust-free one and you'll forgive it everything — buy the shiny rusty one and it'll teach you to weld.",
+  "codes": [
+   "100-IN / 108-IN LWB",
+   "ROVER V8 3.5 · 3.9 · 4.2",
+   "PERMANENT 4WD",
+   "COIL OR AIR (1993+)"
+  ],
+  "hero_photo": "discovery1-lakeside.jpg",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "In June 1970, Rover launched a two-door wagon with a 100-inch wheelbase, long-travel coil springs, permanent four-wheel drive, disc brakes at every corner and an all-alloy 3.5-litre V8 — and called it \"A Car For All Reasons.\" Nobody had built anything quite like it. It would cross a ploughed field at lunchtime and the M1 at teatime, and it would go on doing so for 26 years and 326,070 examples. The Range Rover Classic is the reason \"luxury SUV\" is a phrase. Happily for us, under the walnut it is still a ladder frame, two beam axles and a V8 you can fix with spanners."
+    ]
+   },
+   {
+    "heading": "A WAGON IN DISGUISE",
+    "paragraphs": [
+     "The project began in 1967 as the \"100-inch Station Wagon\", led by Charles Spencer \"Spen\" King with Gordon Bashford, with David Bache shaping the body. Prototypes wore \"Velar\" badges — from the Latin for \"to veil\" — to keep the press guessing. The recipe was radical for a Land Rover: coil springs rather than leaf springs, a Buick-derived all-alloy V8, and aluminium body panels hung on a steel frame. It was so well resolved visually that in 1971 it became the first car exhibited at the Louvre in Paris, praised as an exemplary work of industrial design.",
+     "For its first 11 years the Range Rover was a two-door only, with a rubber-and-vinyl interior. The four-door finally arrived in July 1981, and two-door UK sales ended in 1984, although two-door production carried on until January 1994, mostly for France. Through the 1980s the truck crept upmarket: Lucas electronic fuel injection replaced carburettors in 1986, the ZF four-speed automatic joined the range, and the luxury Vogue badge became the template for everything that followed."
+    ]
+   },
+   {
+    "heading": "AMERICA, LONG WHEELBASES AND AIR",
+    "paragraphs": [
+     "A US launch was first pencilled in for mid-1971 at $5,300, but federal regulations and British Leyland's finances killed it. Grey-market importers (including Aston Martin's US arm) filled the gap until factory-built US trucks finally landed on 16 March 1987, officially introduced at the Los Angeles Auto Show. Only four-doors came over, through Baltimore and Long Beach, and in 1988 Playboy named it the \"Best 4x4\" — which tells you exactly which crowd the marketing department was chasing.",
+     "The engine grew with the image: 3.9 litres for 1989–90, and 4.2 litres in 1992 for the new long-wheelbase model, sold as the LSE in Britain and the County LWB in the US. That truck stretched the wheelbase to 108 inches and introduced electronic air suspension, which reached customers in late 1992 for the 1993 model year. The last big change was the \"soft dash\" of the 1995 model year, which replaced the original hard-plastic dashboard owners nicknamed the \"Airfix dash\" and borrowed its steering wheel from the [[land-rover/discovery-1|Discovery]]."
+    ]
+   },
+   {
+    "heading": "WHAT MADE IT SPECIAL",
+    "paragraphs": [
+     "The Classic's party trick was articulation with comfort. Long-travel coils on beam axles let it flex like a farm truck yet ride like a saloon, and the permanent 4WD with a dual-range transfer box meant there was no lever-pulling panic when the mud arrived. Early trucks used the LT95 four-speed with an integral transfer box; from 1983 the five-speed LT77 got a separate LT230 transfer case, and from 1989 a chain-driven Borg Warner unit with a viscous coupling replaced the manually locked centre differential. It won the 4WD class of the Paris–Dakar in 1979 and 1981, and in 1987 a Turbo D set speed and endurance records, including 24 hours at over 100 mph.",
+     "The engineering also trickled down. The coil-sprung, permanent-4WD layout was carried into the [[land-rover/defender-90-110|One Ten and Ninety]] — later the Defender 90/110 — which also borrowed the Range Rover's 3.5 V8 and, initially, its LT95 gearbox. And in 1989 Land Rover built the [[land-rover/discovery-1|Discovery]] on the Range Rover's 100-inch chassis with a cheaper interior and a smaller diesel. Every boxy Land Rover of the next three decades owes something to Spen King's wagon."
+    ]
+   },
+   {
+    "heading": "THE LONG GOODBYE",
+    "paragraphs": [
+     "The successor, internally P38A, was unveiled in September 1994 as the \"New Range Rover\" — and the old truck refused to leave. Renamed the \"Range Rover Classic\", it stayed in production alongside the [[range-rover/p38|P38A]] until 1996, with the 1995 County and County LWB marking the final US model year. Today the Classic sits in the odd spot of being both a collector car and a genuinely useful trail truck. Hagerty notes prices rose almost tenfold in the decade to 2020, with Velar prototypes and early two-doors at the top. But the bones that matter — frame, axles, coils, V8 — remain refreshingly agricultural, and that is exactly why it still belongs on a trail."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · 1971–72 EXPEDITION",
+   "title": "Two Range Rovers vs. the Darién Gap",
+   "paragraphs": [
+    "Barely a year after launch, Rover lent two Range Rovers to the British Trans-Americas Expedition, led by John Blashford-Snell, to drive the Pan-American Highway from Alaska to Tierra del Fuego — roughly 18,000 miles, including the roadless Darién Gap between Panama and Colombia. The trucks carried capstan winches, double front bumpers, roof racks and bridging ladders as long as the trucks themselves.",
+    "The jungle crossing alone took 96 days. Big swamp tyres kept breaking differentials, so a Rover engineer flew out, the axles and diffs were replaced, the trucks were lightened, and smaller cross-country tyres were fitted. The team used chainsaws and explosives to get through the Atrato Swamp. Both trucks survive: one at the British Motor Museum in Gaydon, the other (VXC 765K) in the Dunsfold Collection."
+   ]
+  },
+  "engineering_intro": "Underneath the Vogue badges, the Classic is pure Land Rover: a steel ladder frame, live axles front and rear on long-travel coil springs, permanent four-wheel drive through a two-speed transfer box, and an all-alloy V8. The body is unstressed aluminium panels on a steel frame — the panels don't rust, the steel under them does. That simplicity is why so many survive, and why the hard parts (frame, crossmembers, sills) are where your money goes.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Steel ladder frame",
+    "note": "100 in (2,540 mm) wheelbase; LSE / County LWB stretched to 108 in (2,743 mm) from 1992."
+   },
+   {
+    "k": "BODY",
+    "v": "Aluminium panels on a steel frame",
+    "note": "Unstressed alloy skins; the steel frame, sills and floors are the rust risk."
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Coil springs, live axles",
+    "note": "Long-travel coils from day one; electronic air suspension on 1993-on LWB and some upper trims."
+   },
+   {
+    "k": "DRIVETRAIN",
+    "v": "Permanent 4WD, two-speed",
+    "note": "LT95 with integral transfer; LT77 + LT230 from 1983; chain-drive Borg Warner with viscous coupling from 1989."
+   },
+   {
+    "k": "ENGINE",
+    "v": "Rover all-alloy V8",
+    "note": "3.5 (carb, then Lucas EFI from 1986), 3.9 from 1989, 4.2 for LWB from 1992. VM and Tdi diesels outside the US."
+   },
+   {
+    "k": "BRAKES",
+    "v": "Four-wheel discs",
+    "note": "Disc brakes at all four corners from launch; ventilated fronts and ABS added around 1990."
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1970–1985",
+    "platform": "100-in, 2-door (4-door from 1981)",
+    "engine": "3.5 V8, carburettors",
+    "output": "135 hp (101 kW) at launch",
+    "note": "LT95 4-speed with integral transfer box; power steering added 1973; 5-speed LT77 from 1983."
+   },
+   {
+    "years": "1986–1989",
+    "platform": "100-in, 2/4-door",
+    "engine": "3.5 V8, Lucas EFI",
+    "output": "110 kW (Australian spec)",
+    "note": "EFI and ZF 4-speed auto; US imports start March 1987 (4-door only)."
+   },
+   {
+    "years": "1986–1992",
+    "platform": "100-in, non-US",
+    "engine": "VM 2.4 then 2.5 turbo-diesel",
+    "output": "—",
+    "note": "VM Motori diesel; Turbo D set 24-hour records at over 100 mph in 1987."
+   },
+   {
+    "years": "1989–1995",
+    "platform": "100-in, 4-door",
+    "engine": "3.9 V8 EFI",
+    "output": "130 kW claimed (Australian spec)",
+    "note": "Borg Warner chain transfer with viscous coupling; ABS arrives."
+   },
+   {
+    "years": "1992–1995",
+    "platform": "108-in LSE / County LWB",
+    "engine": "4.2 V8 EFI",
+    "output": "Nearly 200 hp",
+    "note": "Electronic air suspension (1993 MY on); soft dash for 1995."
+   },
+   {
+    "years": "1992–1996",
+    "platform": "100-in, non-US",
+    "engine": "200Tdi, then 300Tdi (from late 1994)",
+    "output": "—",
+    "note": "Land Rover's own direct-injection diesels; keep the timing belt current."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Get under it before you look at the paint",
+    "body": "The aluminium skins hide a steel frame. Check body mounts, the rear crossmember, frame sides, inner rear wheel arches, inner front wings and both sills. Pre-1983 trucks are mostly bolted together and easier to repair."
+   },
+   {
+    "head": "Lift the carpets and open the boot",
+    "body": "Owners say to check under the front carpets for floor rot. Boot floors are suspect on post-1989 trucks, and the upper tailgate commonly rusts — a replacement runs around $800 or more."
+   },
+   {
+    "head": "Listen to the V8",
+    "body": "Listen for bottom-end knocks and timing-chain rattle. Look for weeping head gaskets — cheap if caught early — and be wary of anything that hints at a slipped liner, which means a rebuild."
+   },
+   {
+    "head": "Test the viscous coupling (1989-on)",
+    "body": "Tyres scrubbing or chirping on tight, slow turns means the centre viscous coupling may have seized, turning the truck into a permanently locked 4x4. With the transfer case in neutral and the handbrake on, a jacked front wheel should turn slowly with resistance — not stay locked solid."
+   },
+   {
+    "head": "Interrogate the air suspension",
+    "body": "On EAS trucks, pumps, height sensors and valve blocks fail and leak, and few parts are shared with the later P38A system. Many have been converted to coils — fine, as long as it was done with a proper kit."
+   },
+   {
+    "head": "Look for oily swivels",
+    "body": "Leaking swivel-ball seals are chronic. Check the chrome balls for pitting and wet seals, and confirm the swivel housing has its own lubricant; it is separate from the front diff."
+   },
+   {
+    "head": "Check the small electrics",
+    "body": "Window switches and seat controls often fail (usually cheap). On cars with electric seats, a leaking battery can kill the seat ECU and stop seats and mirrors moving."
+   },
+   {
+    "head": "Ask about LPG and the timing belt",
+    "body": "One UK specialist recommends removing LPG conversions because they are often poorly fitted and can harm the engine. On 200Tdi and 300Tdi diesels, get proof the timing belt was changed in the last five years."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Swivel ball seal replacement and regrease",
+    "diff": "2 / 5",
+    "time": "[TO RESEARCH]",
+    "cost": "Parts plus labor",
+    "symptoms": "Oil weeping from the swivel housings onto the chrome balls and wheels; the truck rolling while in park can mean a CV joint ran dry and failed.",
+    "fix": "Remove the bracket that retains the swivel seal on the back of the hub. Cut out the old seal (Dremel or heavy side cutters). Pull the spring from the new seal and cut the seal so it can be wrapped around the axle housing, then refit it with the cut at the top, rejoin the spring, and seal the cut with silicone. Let it cure for a day, drain the old oil, and refill the swivel with the correct Land Rover swivel grease. For peace of mind, strip and repack the CV joints too (owners estimate 3–4 hours).",
+    "tools": "Dremel or heavy side cutters · basic sockets · new swivel seals · silicone · swivel grease",
+    "parts": [
+     {
+      "name": "Front axle swivel ball oil seal LR059968 (fits RRC)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/front-axle-swivel-ball-oil-seal-1"
+     },
+     {
+      "name": "Swivel housing grease sachet STC3435 (RRC '87–'95)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/swivel-housing-grease-tube-sachet"
+     },
+     {
+      "name": "Range Rover Classic swivel seal kit",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=range+rover+classic+swivel+seal"
+     }
+    ]
+   },
+   {
+    "title": "Viscous coupling replacement (Borg Warner transfer case)",
+    "diff": "3 / 5",
+    "time": "≈ 3 hours",
+    "cost": "Exchange VC about £340 + VAT, plus a £75 core deposit (Ashcroft)",
+    "symptoms": "Tyres scrub or chirp on tight, slow turns; premature tyre wear on the edges; the truck needs a lot of throttle in slow, tight corners; driveline wind-up. A jacked-up wheel won't turn by hand.",
+    "fix": "Confirm the diagnosis: transfer case in neutral, handbrake on, jack one front wheel — it should turn slowly with resistance. If it is locked solid, replace the coupling before it damages the diffs or CV joints. One owner swapped it with the transfer box still in the truck in about three hours.",
+    "tools": "Jack and stands · basic hand tools · viscous coupling RTC6044 (same part on Classic and P38A)",
+    "parts": [
+     {
+      "name": "Borg Warner viscous coupling, Range Rover Classic",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=range+rover+classic+viscous+coupling"
+     },
+     {
+      "name": "Viscous coupling, Borg Warner transfer case",
+      "supplier": "Atlantic British",
+      "url": "https://www.atlanticbritish.com/search?q=viscous+coupling+borg+warner"
+     }
+    ]
+   },
+   {
+    "title": "Air suspension to coil conversion (1993–95)",
+    "diff": "3 / 5",
+    "time": "≈ 3.5 hours",
+    "cost": "Kit plus labor (replacing a failed air system can cost around $4,000)",
+    "symptoms": "Truck sagging at one corner overnight, the compressor running constantly, height-sensor or valve-block faults, or a truck that won't rise to off-road height.",
+    "fix": "Fit a purpose-built conversion kit, which replaces the air springs with coils and comes with the required hardware and instructions, and removes the compressor and valve block from the system. Atlantic British says its kit gives about 2 inches of lift on a short-wheelbase truck; one LWB owner reported 1.5–2 inches.",
+    "tools": "Spring compressor · jack and stands · Rovers North RNK5105 or Atlantic British RRC 93–95 coil conversion kit",
+    "parts": [
+     {
+      "name": "Range Rover Classic air-to-coil conversion kit",
+      "supplier": "Atlantic British",
+      "url": "https://www.atlanticbritish.com/search?q=range+rover+classic+coil+conversion"
+     },
+     {
+      "name": "Terrafirma Range Rover Classic coil springs",
+      "supplier": "Terrafirma",
+      "url": "https://terrafirma4x4.com/?s=range+rover+classic+coil+spring"
+     },
+     {
+      "name": "Range Rover Classic coil conversion",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=range+rover+classic+coil+conversion"
+     }
+    ]
+   },
+   {
+    "title": "Heater core / blower motor (dash out)",
+    "diff": "4 / 5",
+    "time": "≈ 9–10 hours (owners report about 12 book hours)",
+    "cost": "Core about $150 (as reported by owners); labor is the cost",
+    "symptoms": "No heat, a sweet smell or fogged windows (core), or a dead or noisy blower — Atlantic British suggests replacing the blower around 150,000 miles.",
+    "fix": "Disconnect the battery and note the radio code. Drain the coolant, remove both front doors, the left footwell panels, the dash fascia, the instrument panel, the radio surround and the dash top. Lower the A/C unit without discharging it. Disconnect the heater hoses at the firewall and remove the four heater-box bolts. Split the box, swap the core (owners recommend the all-metal type) and/or the blower, test before reassembly, then refill and bleed the cooling system.",
+    "tools": "Phillips and flat screwdrivers · 10 mm deep sockets · trim and radio tools · drill · soldering iron and heat-shrink · new hose clamps · Atlantic British kit #8844 for blower upgrade",
+    "parts": [
+     {
+      "name": "STC3135 heater core (Discovery I/II, Range Rover Classic)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/heater-core"
+     },
+     {
+      "name": "Range Rover Classic blower motor",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=range+rover+classic+blower+motor"
+     }
+    ]
+   },
+   {
+    "title": "Front radius arm bushes (chassis end)",
+    "diff": "2 / 5",
+    "time": "[TO RESEARCH]",
+    "cost": "Terrafirma poly kit about $66",
+    "symptoms": "Vague or wandering steering, clunks over bumps, and cracked or perished rubber where the radius arms meet the chassis.",
+    "fix": "Support the chassis on stands, take the weight off the front axle, unbolt the radius arm at the chassis mount and swap in the new bushes.",
+    "tools": "Jack and axle stands · large sockets · pry bar · Terrafirma TF1003 (replaces NRC4514; also fits Defender and Discovery 1)",
+    "parts": [
+     {
+      "name": "Terrafirma TF1003 front radius arm poly bush kit (chassis end)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/terrafirma-tf-front-radius-arm-bush-kit-chassis-end-nrc4514-tf1003-new"
+     },
+     {
+      "name": "Terrafirma radius arm bushes",
+      "supplier": "Terrafirma",
+      "url": "https://terrafirma4x4.com/?s=radius+arm+bush"
+     }
+    ]
+   },
+   {
+    "title": "Rear crossmember replacement",
+    "diff": "5 / 5",
+    "time": "≈ 1–2 full days",
+    "cost": "Parts plus labor",
+    "symptoms": "Rust holes in the boxed rear crossmember, a sagging or bulging rear floor, cracked welds, movement under load, or a tailgate that no longer lines up.",
+    "fix": "Strip the load floor, carpets and trim. Cut out the rotten section and clean back the mating edges. Trial-fit the new crossmember so it is square and level, then clamp and tack it, recheck it, and weld it out without overheating the frame. Dress the welds, then prime, seam-seal and paint. Refit the floor and check that the tailgate still aligns.",
+    "tools": "Angle grinder · spot-weld cutter · MIG welder · clamps · squares and straightedge · rust treatment, primer, seam sealer · replacement crossmember",
+    "parts": [
+     {
+      "name": "Range Rover Classic rear crossmember",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=range+rover+classic+rear+crossmember"
+     },
+     {
+      "name": "Range Rover Classic rear crossmember",
+      "supplier": "Atlantic British",
+      "url": "https://www.atlanticbritish.com/search?q=range+rover+classic+rear+crossmember"
+     }
+    ]
+   },
+   {
+    "title": "Cooling system refresh",
+    "diff": "2 / 5",
+    "time": "[TO RESEARCH]",
+    "cost": "Parts plus labor",
+    "symptoms": "Creeping temperature gauge, coolant weeps, or simply unknown history on an aluminium V8 that hates overheating.",
+    "fix": "Replace the radiator, viscous fan coupling, water pump, thermostat and hoses as a set, then refill with a 50/50 coolant mix and bleed the air out. The aluminium block and heads depend on the cooling system.",
+    "tools": "Basic sockets · drain pan · radiator, viscous fan, water pump, thermostat, hoses, clamps · antifreeze",
+    "parts": [
+     {
+      "name": "STC483 water pump (EFI V8 Defender / RRC)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/water-pump"
+     },
+     {
+      "name": "ETC4765 V8 thermostat",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/engine-coolant-thermostat-1"
+     },
+     {
+      "name": "ERR4996/ERR3443 Hayden severe-duty V8 fan clutch",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/err4996-err3443-hayden-severe-duty-fan-clutch-land-rover-v8"
+     },
+     {
+      "name": "Range Rover Classic radiator and hose set",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=range+rover+classic+radiator"
+     }
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "The usual forum answer is 245/75R16 (about 30.5 inches) on stock coils, with the steering stops adjusted to stop rubbing at full lock. Some owners run 265/75R16 with slight chassis rub fixed by the stops. 235/85R16 generally needs a lift or some trimming on these 100-inch trucks.",
+    "src": "LANDROVERWORLD · DISCOWEB"
+   },
+   {
+    "q": "What fuel economy should I expect?",
+    "a": "Bad. The EPA rated a 1990 3.9 automatic at 11 mpg city and 15 highway (13 combined), and the 1995 County LWB 4.2 at 11/15 (12 combined). Hagerty says careful driving helps.",
+    "src": "FUELECONOMY.GOV · HAGERTY"
+   },
+   {
+    "q": "How much can it tow?",
+    "a": "Towing capacity is quoted at 3.5 tons. Note that Hagerty says coil-sprung trucks are more reliable but less suited to towing than the air-suspension trucks.",
+    "src": "WIKIPEDIA · HAGERTY"
+   },
+   {
+    "q": "Air suspension or coils — and should I convert?",
+    "a": "Electronic air suspension arrived on late-1992 trucks for the 1993 model year, mainly the LWB. It rides beautifully but pumps, height sensors and valve blocks fail. Bolt-in coil conversion kits are widely available for 1993–95 trucks and take about 3.5 hours.",
+    "src": "WIKIPEDIA · HAGERTY · ATLANTIC BRITISH"
+   },
+   {
+    "q": "Does it have a centre diff lock?",
+    "a": "It depends on the year. Earlier trucks have a manually lockable centre differential. From 1989 a chain-driven Borg Warner transfer case with a viscous coupling locks automatically. On those trucks, check that the viscous coupling hasn't seized.",
+    "src": "4X4 AUSTRALIA · ASHCROFT"
+   },
+   {
+    "q": "Can I add lockers?",
+    "a": "Yes. ARB makes Air Lockers for Rover-type banjo differentials in both 10-spline (RD127) and 24-spline (RD128) versions. Check which axle shafts your truck has before ordering.",
+    "src": "ARB USA · ROVERS NORTH"
+   },
+   {
+    "q": "Which years or versions should I buy?",
+    "a": "Buy the most rust-free truck you can afford; condition matters more than the year. Values run from Velar prototypes to two-doors to four-doors, and fuel-injected and LSE four-doors are worth more than carburettor trucks. In the US, choose between 1987–92 coil-sprung SWB trucks and the 1993–95 County LWB with the 4.2 and air suspension. The 1995 trucks get the soft dash.",
+    "src": "HAGERTY · TFLCAR"
+   },
+   {
+    "q": "Is it reliable?",
+    "a": "It can be, if you look after it. Jalopnik's experts say rust is what kills Classics, not the engine. Refresh the whole cooling system, keep up with oil changes, and expect electrical gremlins. Treat it as a third car or a project rather than a daily driver unless it has been sorted.",
+    "src": "JALOPNIK"
+   },
+   {
+    "q": "What oil and how often?",
+    "a": "Hagerty's specialist recommends good-quality 20W-50, changed every 6,000 miles or 12 months. Some owners change it every 3,000 miles. Separately, check the oil in the swivel housings — it is not shared with the front diff.",
+    "src": "HAGERTY · JALOPNIK · ATLANTIC BRITISH"
+   },
+   {
+    "q": "Was there a diesel, and did the US get one?",
+    "a": "Yes, but not in the US. The VM Motori 2.4 turbo-diesel arrived in 1986 and grew to 2.5 in 1989. Land Rover's 200Tdi replaced it in 1992, followed by the 300Tdi at the end of 1994. US trucks were all petrol V8s.",
+    "src": "WIKIPEDIA"
+   },
+   {
+    "q": "Did the US get the two-door?",
+    "a": "Not officially. Factory US imports from March 1987 were four-door only. Earlier two-doors in America came through grey-market importers.",
+    "src": "WIKIPEDIA"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "Old Man Emu springs and shocks add about 1.5 inches of lift and support bumpers, a winch and bigger tyres on 1987–93 coil trucks.",
+    "who": [
+     {
+      "name": "Old Man Emu",
+      "url": "https://www.oldmanemu.com"
+     },
+     {
+      "name": "Rovers North (OME kit OMERRK1)",
+      "url": "https://www.roversnorth.com/parts/omerrk1_old_man_emu_suspension_kit_range_rover_classic&type=3"
+     }
+    ]
+   },
+   {
+    "cat": "AIR-TO-COIL CONVERSION",
+    "why": "Converting a tired 1993–95 EAS truck to coils makes it simpler and more reliable, and gives a modest lift.",
+    "who": [
+     {
+      "name": "Rovers North (RNK5105)",
+      "url": "https://www.roversnorth.com/parts/rnk5105_coil_spring_conversion_air_suspension_range_rover_classic&type=3"
+     },
+     {
+      "name": "Atlantic British",
+      "url": "https://www.roverparts.com/suspension/air-coil-suspension-kits/9269/"
+     }
+    ]
+   },
+   {
+    "cat": "LOCKERS",
+    "why": "Lockers make up for the open axles when the truck is crossed up and a wheel is in the air.",
+    "who": [
+     {
+      "name": "ARB Air Locker RD127 (10-spline)",
+      "url": "https://store.arbusa.com/air-locker-differential-land-rover-10-spl-banjo-rd127/"
+     },
+     {
+      "name": "ARB Air Locker RD128 (24-spline)",
+      "url": "https://store.arbusa.com/air-locker-differential-land-rover-24-spl-banjo-rd128/"
+     }
+    ]
+   },
+   {
+    "cat": "TRANSFER CASE",
+    "why": "Rebuilt viscous couplings for the Borg Warner case, so the truck stops scrubbing tyres in tight turns.",
+    "who": [
+     {
+      "name": "Ashcroft Transmissions",
+      "url": "https://ashcroft-transmissions.co.uk/product/range-rover-viscous-coupling/"
+     }
+    ]
+   },
+   {
+    "cat": "POLY BUSHES",
+    "why": "Polyurethane radius-arm and suspension bushes tighten up a wandering front end; the same parts fit the Defender and Discovery.",
+    "who": [
+     {
+      "name": "Terrafirma",
+      "url": "https://www.terrafirma4x4.com"
+     },
+     {
+      "name": "Terrafirma TF1003 radius arm bush kit",
+      "url": "https://lucky8llc.com/products/terrafirma-tf-front-radius-arm-bush-kit-chassis-end-nrc4514-tf1003-new"
+     }
+    ]
+   },
+   {
+    "cat": "ROOF RACK",
+    "why": "A Classic-specific full-length cargo rack for overland gear, a spare and a shovel.",
+    "who": [
+     {
+      "name": "Front Runner Slimline II (1970–1996)",
+      "url": "https://www.dometic.com/en-us/product/range-rover-roof-rack-pre-2002-full-cargo-rack-front-runner-slimline-ii"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1987–1992 · US",
+    "label": "Coil-sprung SWB (3.5 / 3.9)",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1987&maxyear=1992",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-classic/"
+   },
+   {
+    "years": "1993–1995 · US",
+    "label": "County / County LWB (4.2, air)",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1993&maxyear=1995",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-classic/"
+   },
+   {
+    "years": "1970–1996 · All",
+    "label": "Everything Classic incl. imports",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=1970&maxyear=1996",
+    "bat_url": "https://bringatrailer.com/land-rover/range-rover-classic/"
+   }
+  ],
+  "social": [],
+  "forums": [
+   {
+    "name": "RangeRovers.net — Range Rover Classic",
+    "url": "https://www.rangerovers.net/forum/8-range-rover-classic/",
+    "note": "The deepest US Classic forum, with model-year change threads, project builds and County LWB know-how."
+   },
+   {
+    "name": "Rovers North Forums — Range Rover Classic",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/range-rover-classic",
+    "note": "Practical tech threads, including the 'definitive swivel pin' thread and heater core advice."
+   },
+   {
+    "name": "LandRoverWorld",
+    "url": "https://www.landroverworld.org/",
+    "note": "Owner write-ups on viscous couplings, tyre fitment and lifts for Classics."
+   },
+   {
+    "name": "Full Fat RR",
+    "url": "https://fullfatrr.com/forum/",
+    "note": "UK-centric forum for full-size Range Rovers, useful for Tdi and LSE questions."
+   }
+  ],
+  "related": [
+   {
+    "rel": "SUCCESSOR",
+    "name": "Range Rover P38A",
+    "family": "range-rover",
+    "gen": "p38"
+   },
+   {
+    "rel": "SIBLING (SAME 100-IN CHASSIS)",
+    "name": "Discovery 1",
+    "family": "land-rover",
+    "gen": "discovery-1"
+   },
+   {
+    "rel": "COUSIN (COILS + V8)",
+    "name": "Defender 90/110",
+    "family": "land-rover",
+    "gen": "defender-90-110"
+   }
+  ],
+  "plate": [
+   {
+    "k": "BUILT",
+    "v": "1970–1996 · Solihull, UK"
+   },
+   {
+    "k": "PRODUCTION",
+    "v": "326,070"
+   },
+   {
+    "k": "BODY",
+    "v": "2-door (1970–94), 4-door (1981–96)"
+   },
+   {
+    "k": "CHASSIS",
+    "v": "Steel ladder frame, alloy panels"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "100 in · 108 in (LSE / County LWB)"
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Coil springs, live axles · EAS 1993+"
+   },
+   {
+    "k": "ENGINES",
+    "v": "Rover V8 3.5 / 3.9 / 4.2"
+   },
+   {
+    "k": "DIESELS",
+    "v": "VM 2.4/2.5 · 200Tdi · 300Tdi (non-US)"
+   },
+   {
+    "k": "GEARBOXES",
+    "v": "LT95 4-spd · LT77 5-spd · TorqueFlite 3-spd · ZF 4-spd auto"
+   },
+   {
+    "k": "TRANSFER",
+    "v": "LT95 integral · LT230 · Borg Warner w/ viscous (1989+)"
+   },
+   {
+    "k": "TOWING",
+    "v": "3.5 tons"
+   },
+   {
+    "k": "US SALES",
+    "v": "1987–1995, four-door only"
+   }
+  ],
+  "photos": [
+   {
+    "file": "discovery1-lakeside.jpg",
+    "alt": "A Discovery 1 overlander with roof rack, bull bar and recovery boards parked on grass beside a lake",
+    "caption": "DISCOVERY 1 · BUILT ON THE CLASSIC'S 100-IN CHASSIS",
+    "credit": "Thomas Tucker",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/an-off-road-vehicle-parks-by-the-water-LaNwh5IIsjw"
+   },
+   {
+    "file": "discovery1-grassland.jpg",
+    "alt": "White Land Rover Discovery 1 Tdi seen from the rear on wet grassland under storm clouds",
+    "caption": "DISCOVERY 1 TDI · DAYAGAMA, SRI LANKA",
+    "credit": "Channa Kaviraja",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/4x4-off-road-16735634/"
+   },
+   {
+    "file": "discovery1-mud.jpg",
+    "alt": "Red Discovery 1 with roof rack ploughing through a deep mud pit at an off-road event",
+    "caption": "DISCOVERY 1 · MUD-PIT DUTY",
+    "credit": "Hobi Photography",
+    "source": "Pexels",
+    "source_url": "https://www.pexels.com/photo/a-red-land-rover-is-driving-through-mud-27555108/"
+   },
+   {
+    "file": "l405-trail.jpg",
+    "alt": "A fourth-generation Range Rover (L405) climbing a rutted dirt trail between bushes",
+    "caption": "L405 · THE GREAT-GRANDCHILD STILL DOES DIRT",
+    "credit": "Zakaria Zayane",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
+   },
+   {
+    "file": "l460-forest-track.jpg",
+    "alt": "A fifth-generation Range Rover (L460) parked on a muddy gravel forest track",
+    "caption": "L460 · FOREST TRACK, CANNOCK, UK",
+    "credit": "Sam Pearce-Warrilow",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-black-range-rover-parked-on-a-gravel-road-Ho98UeVC_nQ"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Range Rover Classic",
+    "url": "https://en.wikipedia.org/wiki/Range_Rover_Classic"
+   },
+   {
+    "name": "Wikipedia — Range Rover (L322)",
+    "url": "https://en.wikipedia.org/wiki/Range_Rover_(L322)"
+   },
+   {
+    "name": "Wikipedia — Range Rover (L405)",
+    "url": "https://en.wikipedia.org/wiki/Range_Rover_(L405)"
+   },
+   {
+    "name": "Wikipedia — Range Rover (L460)",
+    "url": "https://en.wikipedia.org/wiki/Range_Rover_(L460)"
+   },
+   {
+    "name": "Wikipedia — Land Rover Defender",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender"
+   },
+   {
+    "name": "Motor1 — Range Rover P38 (1994–2002): the successor to the throne turns 30",
+    "url": "https://www.motor1.com/news/733781/range-rover-p38-1994-history/"
+   },
+   {
+    "name": "Top Gear — Here's every generation of Range Rover since 1970",
+    "url": "https://www.topgear.com/car-news/retro/heres-every-generation-range-rover-1970"
+   },
+   {
+    "name": "4X4 Australia — Evolution of the Range Rover Classic",
+    "url": "https://www.4x4australia.com.au/news/evolution-of-the-range-rover-classic"
+   },
+   {
+    "name": "Hagerty UK — Range Rover Classic buying guide (1970–1995)",
+    "url": "https://www.hagerty.co.uk/articles/range-rover-classic-buying-guide-1970-1995/"
+   },
+   {
+    "name": "TFLcar — 1995 Range Rover County LWB [Great Find]",
+    "url": "https://tflcar.com/2014/12/1995-range-rover-county-lwb-great-find/"
+   },
+   {
+    "name": "Rovers North Forums — RR Classic: what to look for?",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/range-rover-classic/2363-rr-classic-what-to-look-for"
+   },
+   {
+    "name": "Rovers North Forums — The definitive swivel pin thread",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/range-rover-classic/9009-the-definitive-swivel-pin-thread"
+   },
+   {
+    "name": "Rovers North Forums — Heater core / expert advice",
+    "url": "https://forums.roversnorth.com/archive/index.php/t-153.html"
+   },
+   {
+    "name": "Atlantic British — Range Rover Classic '87–'95 drivetrain tech tip (swivel ball)",
+    "url": "https://www.roverparts.com/TechTips/drive_train.cfm"
+   },
+   {
+    "name": "Atlantic British — Heater blower motor kit #8844 instructions (RRC 1990–94)",
+    "url": "https://www.roverparts.com:443/assets/img/InstructionPhotos/Instructions-HeaterBMK-8844.pdf"
+   },
+   {
+    "name": "Atlantic British — Range Rover Classic 93–95 air-to-coil conversion kit",
+    "url": "https://www.roverparts.com/suspension/air-coil-suspension-kits/9269/"
+   },
+   {
+    "name": "Rovers North — Coil spring conversion, air suspension, Range Rover Classic (RNK5105)",
+    "url": "https://www.roversnorth.com/parts/rnk5105_coil_spring_conversion_air_suspension_range_rover_classic&type=3"
+   },
+   {
+    "name": "Rovers North — Old Man Emu suspension kit, Range Rover Classic (OMERRK1)",
+    "url": "https://www.roversnorth.com/parts/omerrk1_old_man_emu_suspension_kit_range_rover_classic&type=3"
+   },
+   {
+    "name": "LandRoverWorld — RRC BW viscous coupling and latch spring replacement",
+    "url": "https://www.landroverworld.org/threads/rrc-bw-viscous-coupling-and-latch-spring-replacement.19315"
+   },
+   {
+    "name": "Ashcroft Transmissions — Range Rover viscous coupling (RTC6044)",
+    "url": "https://ashcroft-transmissions.co.uk/product/range-rover-viscous-coupling/"
+   },
+   {
+    "name": "LandRoverWorld — '88 Classic 2-inch lift, max tire clearance",
+    "url": "https://www.landroverworld.org/threads/88-classic-2-inch-lift-max-tire-clearance-question.226/post-1053"
+   },
+   {
+    "name": "DiscoWeb archive — 235/85-16 or 245/75-16 on stock suspension",
+    "url": "https://discoweb.org/oldsite/41704archive/DiscusArchive/messages/17/24690.html"
+   },
+   {
+    "name": "Jalopnik — Can you make an old Range Rover reliable?",
+    "url": "https://www.jalopnik.com/2249433/can-old-range-rover-be-reliable/"
+   },
+   {
+    "name": "YRM — Replace the rear cross member on an RRC",
+    "url": "https://yrmit.co.uk/replace-the-rear-cross-member-on-an-rrc-expert-guide/"
+   },
+   {
+    "name": "Lucky8 — Terrafirma front radius arm poly bush kit TF1003 (replaces NRC4514)",
+    "url": "https://lucky8llc.com/products/terrafirma-tf-front-radius-arm-bush-kit-chassis-end-nrc4514-tf1003-new"
+   },
+   {
+    "name": "ARB USA — Air Locker, Land Rover 10-spline banjo (RD127)",
+    "url": "https://store.arbusa.com/air-locker-differential-land-rover-10-spl-banjo-rd127/"
+   },
+   {
+    "name": "ARB USA — Air Locker, Land Rover 24-spline banjo (RD128)",
+    "url": "https://store.arbusa.com/air-locker-differential-land-rover-24-spl-banjo-rd128/"
+   },
+   {
+    "name": "Dometic / Front Runner — Range Rover (1970–1996) Slimline II roof rack kit",
+    "url": "https://www.dometic.com/en-us/product/range-rover-roof-rack-pre-2002-full-cargo-rack-front-runner-slimline-ii"
+   },
+   {
+    "name": "FuelEconomy.gov — 1990 Land Rover Range Rover 3.9L auto",
+    "url": "https://www.fueleconomy.gov/feg/noframes/7414.shtml"
+   },
+   {
+    "name": "FuelEconomy.gov — 1995 Land Rover Range Rover County LWB",
+    "url": "https://www.fueleconomy.gov/feg/noframes/12490.shtml"
+   },
+   {
+    "name": "Atlantic British Roverlog — 1972 Range Rover Darién Gap expedition",
+    "url": "https://roverparts.com/roverlog-news-blog/1972-range-rover-darien-gap-expedition"
+   },
+   {
+    "name": "Dunsfold Collection — One of the two Darién Gap Range Rovers (VXC 765K)",
+    "url": "https://dunsfoldcollection.co.uk/collection/range-rover/one-of-the-2-darien-gap-vehicles"
+   },
+   {
+    "name": "The Intercooler — Crossing the Darién Gap",
+    "url": "https://www.the-intercooler.com/library/features/crossing-the-darien-gap/"
+   },
+   {
+    "name": "Bring a Trailer — Land Rover Range Rover Classic",
+    "url": "https://bringatrailer.com/land-rover/range-rover-classic/"
+   },
+   {
+    "name": "BolidenForum — 1991 Range Rover (3.9 V8) technical data (fluids and capacities)",
+    "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1991-range-rover-hunter/?vd_lang=en"
+   },
+   {
+    "name": "Lucky8 — STC3435 swivel housing grease sachet (fitment)",
+    "url": "https://lucky8llc.com/products/swivel-housing-grease-tube-sachet"
+   },
+   {
+    "name": "Lucky8 — Genuine oil filter ERR3340 (fitment)",
+    "url": "https://lucky8llc.com/products/oil-filter-genuine"
+   },
+   {
+    "name": "Syncro Gearboxes — Land Rover LT230 transfer box oil change",
+    "url": "https://www.syncrogearboxes.com/?p=744"
+   }
+  ],
+  "baseline_service": {
+   "intro": "Most Classics are now 30 to 50 years old, and their records rarely cover the transfer box, swivels or ATF. Change every fluid and fix the cooling system before anything else, because the aluminium V8 doesn't tolerate overheating. Identify your transfer box before you buy oil: the chain-drive Borg Warner (with a viscous coupling) and the gear-drive LT230 take different fluids.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "API SG, SAE 10W-40 or 10W-50 · ≈6.7 L (1991 3.9 V8 data). Later 3.9/4.2: [CONFIRM IN MANUAL]",
+     "interval": "At purchase, then every 3,000–5,000 mi",
+     "note": "These engines aren't fussy about oil, but a fresh filter matters. The ERR3340 filter covers the RRC, P38 and Defender V8s.",
+     "parts": [
+      {
+       "name": "Genuine oil filter ERR3340 (RRC / P38 / Defender V8)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/oil-filter-genuine"
+      },
+      {
+       "name": "Sump drain plug washers (V8, set of 10)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/200tdi-v8-sump-drain-plug-sealing-washer-set-10"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "OE-type element",
+     "interval": "At purchase",
+     "note": "Check the airbox dump valve and the intake hoses for splits. Unmetered air upsets the Lucas/GEMS fuelling.",
+     "parts": [
+      {
+       "name": "RTC4683 Mahle air filter (RRC V8)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/rtc4683-air-filter-fits-defender-rrc"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter",
+     "spec": "OE-type EFI filter [CONFIRM IN MANUAL]",
+     "interval": "At purchase",
+     "note": "Old fuel lines and rusty tanks are common on trucks that have sat. Inspect the rubber lines while you're under there.",
+     "parts": [
+      {
+       "name": "Range Rover Classic EFI fuel filter",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+fuel+filter"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs & ignition",
+     "spec": "Plug type and gap per manual [CONFIRM IN MANUAL]",
+     "interval": "At purchase if there's no record",
+     "note": "Fit new plugs, leads, a distributor cap and rotor as a set. Tired leads cause a lot of rough running on these V8s.",
+     "parts": [
+      {
+       "name": "Range Rover Classic V8 spark plugs and leads",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+spark+plug"
+      }
+     ]
+    },
+    {
+     "item": "Coolant",
+     "spec": "50/50 ethylene glycol antifreeze and water · ≈11.4 L",
+     "interval": "At purchase, then every 2 years",
+     "note": "Replace the hoses and thermostat at the same time. Check the viscous fan and the radiator core. See the cooling refresh in the repairs above.",
+     "parts": [
+      {
+       "name": "ETC4765 V8 thermostat",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/engine-coolant-thermostat-1"
+      },
+      {
+       "name": "STC483 water pump (EFI V8 Defender / RRC)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/water-pump"
+      }
+     ]
+    },
+    {
+     "item": "Automatic transmission (ZF 4HP22 / 4HP24)",
+     "spec": "Dexron IID ATF · ≈9.5 L total fill (1991 data)",
+     "interval": "Drain and refill at purchase",
+     "note": "A pan drain only exchanges part of the fluid. Do two drain-and-fills and change the pan filter rather than pressure-flushing an unknown box.",
+     "parts": [
+      {
+       "name": "ZF 4HP22 / 4HP24 filter and pan gasket",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+transmission+filter"
+      }
+     ]
+    },
+    {
+     "item": "Transfer box",
+     "spec": "Borg Warner chain case: Dexron IID ATF (M2C33G / Texaco 4291 also listed) · ≈1.7 L. Gear-driven LT230 trucks: EP90 GL-4/5 · ≈2.3 L",
+     "interval": "At purchase",
+     "note": "Do the jacked-wheel viscous-coupling test while you're under the truck (see repairs). A seized coupling causes driveline wind-up on tight turns.",
+     "parts": [
+      {
+       "name": "Range Rover Classic transfer box drain/fill plugs and seals",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+transfer+case+seal"
+      }
+     ]
+    },
+    {
+     "item": "Front & rear axles",
+     "spec": "80W/90 EP gear oil, API GL-4 or GL-5 · ≈1.7 L each",
+     "interval": "At purchase, then every 2 years",
+     "note": "Fill to the level plug on level ground. Pinion seal weeps are common on old trucks.",
+     "parts": [
+      {
+       "name": "Range Rover Classic differential drain/fill plugs",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+differential+plug"
+      }
+     ]
+    },
+    {
+     "item": "Swivel housings",
+     "spec": "Gear oil 90 EP/80W EP · ≈0.33 L per side (1991 data), or one-shot swivel grease STC3435 on later trucks",
+     "interval": "Check at purchase and at every service",
+     "note": "Lucky8 lists the STC3435 sachet for the RRC ('87–'95). Owners regrease when they fit new seals (see repairs). Oil on the chrome ball means it's time for a seal.",
+     "parts": [
+      {
+       "name": "Swivel housing grease sachet STC3435",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/swivel-housing-grease-tube-sachet"
+      },
+      {
+       "name": "Front axle swivel ball oil seal LR059968",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/front-axle-swivel-ball-oil-seal-1"
+      }
+     ]
+    },
+    {
+     "item": "Power steering",
+     "spec": "Dexron IID ATF · ≈2.8 L system",
+     "interval": "Check at purchase",
+     "note": "Leaks from the steering box are common, so watch the reservoir level for a few weeks.",
+     "parts": [
+      {
+       "name": "Range Rover Classic power steering hoses and seals",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+power+steering"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid",
+     "spec": "DOT 4",
+     "interval": "At purchase, then every 2 years",
+     "note": "ABS trucks (late soft-dash) have a pump and accumulator. Bleed per the manual and check that the pump doesn't run constantly.",
+     "parts": [
+      {
+       "name": "Range Rover Classic brake hoses",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+brake+hose"
+      }
+     ]
+    },
+    {
+     "item": "Air suspension (1993–95 LWB / air trucks)",
+     "spec": "No fluid. Leak-check the springs, valve block, compressor and reservoir [CONFIRM IN MANUAL for dryer service]",
+     "interval": "At purchase",
+     "note": "An overnight sag at one corner or a compressor that runs constantly means there's a leak. Many owners convert to coils (see repairs).",
+     "parts": [
+      {
+       "name": "Range Rover Classic air suspension parts",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+air+suspension"
+      }
+     ]
+    },
+    {
+     "item": "Propshafts & UJs",
+     "spec": "Multipurpose lithium grease",
+     "interval": "At purchase, then at every service",
+     "note": "Grease the UJs and sliding joints. A clunk on take-up usually means a dry UJ.",
+     "parts": [
+      {
+       "name": "Range Rover Classic propshaft universal joints",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=range+rover+classic+propshaft+universal+joint"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

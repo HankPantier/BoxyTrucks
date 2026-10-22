@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night">
+  <div class="wrap" style="padding-top:56px;padding-bottom:40px;display:flex;flex-direction:column;gap:18px">
+    <span class="eyebrow brass">Search</span>
+    <h1 style="font-size:clamp(40px,5.4vw,72px);line-height:1;letter-spacing:-0.02em">Find anything</h1>
+    <form id="s-form" role="search" style="display:flex;flex-wrap:wrap;gap:10px;max-width:760px" onsubmit="return false">
+      <label for="s-q" class="sr-only">Search the site</label>
+      <input id="s-q" class="search" type="search" placeholder="Try: valve cover gasket, 285/75R16, FZJ80 knuckle, air suspension" autocomplete="off" style="flex:1 1 360px;background:transparent;color:var(--paper);border-color:var(--brass)">
+    </form>
+    <div id="s-kinds" class="chips" aria-label="Filter results"></div>
+  </div>
+</section>
+<div class="wrap section" style="padding-top:32px">
+  <p id="s-count" class="mono" style="font-size:12px;letter-spacing:0.1em;color:var(--stone);margin:0 0 16px" aria-live="polite">Loading the index…</p>
+  <div id="s-results" class="rows"></div>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('s-q'), out=document.getElementById('s-results'), count=document.getElementById('s-count'), kindsEl=document.getElementById('s-kinds');
+  var data=[], kind='';
+  var ROOT='{{ root }}';
+  try { var p=new URLSearchParams(location.search); if(p.get('q')) q.value=p.get('q'); } catch(e){}
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function render(){
+    var terms=q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    if(!terms.length){ out.innerHTML=''; count.textContent='Type to search '+data.length+' guides, repairs, questions, suppliers and resources.'; return; }
+    var hits=[];
+    data.forEach(function(d){
+      if(kind && d.k!==kind) return;
+      var t=d.t.toLowerCase(), all=(d.t+' '+d.m+' '+d.x).toLowerCase(), score=0;
+      for(var i=0;i<terms.length;i++){ if(all.indexOf(terms[i])<0) return; score+= t.indexOf(terms[i])>-1 ? 3 : 1; }
+      if(d.k==='Model guide') score+=2;
+      hits.push([score,d]);
+    });
+    hits.sort(function(a,b){return b[0]-a[0];});
+    count.textContent=hits.length+' result'+(hits.length===1?'':'s');
+    out.innerHTML=hits.slice(0,120).map(function(h){var d=h[1], ext=/^https?:/.test(d.u);
+      return '<a class="row" href="'+esc(ext?d.u:ROOT+d.u)+'"'+(ext?' target="_blank" rel="noopener"':'')+' style="flex-direction:column;align-items:flex-start;gap:4px"><span class="m">'+esc(d.k)+' · '+esc(d.m)+'</span><span class="t">'+esc(d.t)+(ext?' ↗':'')+'</span><span class="n">'+esc(d.x.slice(0,180))+(d.x.length>180?'…':'')+'</span></a>';}).join('');
+  }
+  fetch(ROOT+'search-index.json').then(function(r){return r.json();}).then(function(j){
+    data=j;
+    var kinds=['All'].concat(Array.from(new Set(j.map(function(d){return d.k;}))));
+    kindsEl.innerHTML=kinds.map(function(k){return '<button type="button" class="chip brass" data-k="'+(k==='All'?'':esc(k))+'" style="background:transparent;cursor:pointer">'+esc(k)+'</button>';}).join('');
+    kindsEl.addEventListener('click',function(e){var b=e.target.closest('button'); if(!b) return; kind=b.getAttribute('data-k'); [].forEach.call(kindsEl.children,function(c){c.style.background=c===b?'var(--brass)':'transparent'; c.style.color=c===b?'var(--night)':'';}); render();});
+    kindsEl.children[0].click();
+  }).catch(function(){ count.textContent='Search index could not be loaded.'; });
+  q.addEventListener('input',render); q.focus();
+})();
+</script>
+{% endblock %}

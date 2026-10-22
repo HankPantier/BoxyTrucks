@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description|striplk|truncate(300) }}">
+<link rel="canonical" href="{{ seo.canonical }}">
+{% if noindex %}<meta name="robots" content="noindex">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
+<meta property="og:site_name" content="{{ seo.site_name }}">
+<meta property="og:type" content="{{ seo.og_type }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description|striplk|truncate(300) }}">
+<meta property="og:url" content="{{ seo.canonical }}">
+<meta property="og:image" content="{{ seo.og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description|striplk|truncate(200) }}">
+<meta name="twitter:image" content="{{ seo.og_image }}">
+<meta name="theme-color" content="#0E0F0E">
+{% for j in seo.jsonld %}<script type="application/ld+json">{{ j }}</script>
+{% endfor %}{% if seo.ga %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ seo.ga }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ seo.ga }}');</script>{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="{{ root }}assets/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 72 72'%3E%3Crect x='-4' y='-4' width='72' height='72' fill='%230E0F0E'/%3E%3Cpath d='M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z' fill='none' stroke='%23B0915A' stroke-width='4'/%3E%3Crect x='1' y='32' width='62' height='4' fill='%23B0915A'/%3E%3Ccircle cx='40' cy='63' r='9.5' fill='%23B0915A'/%3E%3Ccircle cx='40' cy='63' r='3.5' fill='%230E0F0E'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ root }}index.html">{{ mark('#B0915A') }}<span>BOXY TRUCKS</span></a>
+    <form class="hsearch" role="search" action="{{ root }}search/index.html" method="get"><label for="hq" class="sr-only">Search BoxyTrucks</label><input id="hq" name="q" type="search" placeholder="Search guides, parts, repairs"></form>
+    <nav class="nav" aria-label="Main">
+      {% for n in nav %}<a href="{{ root }}{{ n.href }}"{% if n.cta or n.key == active %} class="{% if n.cta %}cta{% endif %}{% if n.key == active %} active{% endif %}"{% endif %}>{{ n.label }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="{{ root }}index.html">{{ mark('#B0915A') }}<span>BOXY TRUCKS</span></a>
+      {% if credits %}<p class="credits">Photography: {{ credits }}.</p>{% endif %}
+    </div>
+    <nav aria-label="Footer">
+      {% for n in nav %}<a href="{{ root }}{{ n.href }}">{{ n.label|title }}</a>{% endfor %}
+    </nav>
+    <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br><a href="{{ root }}about/affiliate-disclosure.html" style="color:inherit">AFFILIATE DISCLOSURE</a></div>
+  </div>
+</footer>
+</body>
+</html>

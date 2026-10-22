@@ -1,0 +1,1118 @@
+{
+ "slug": "5th-gen",
+ "title": "Toyota 4Runner 5th Gen",
+ "eyebrow": "TOYOTA 4RUNNER · N280 · 2010–2024",
+ "verdict": "Fifteen model years with the same V6, the same five-speed and roughly the same dashboard — and it sold better at the end than at the start. The most successful act of automotive stubbornness of the century.",
+ "codes": [
+  "N280",
+  "1GR-FE 4.0 V6",
+  "KDSS · REAR LOCKER (TRAIL / TRD OFF-ROAD)"
+ ],
+ "hero_photo": "death-valley-trench.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Toyota started building the fifth-generation 4Runner at Tahara, Japan, in August 2009, unveiled it at the State Fair of Texas on 24 September, and then essentially forgot to replace it. Production ran until August 2024. In between, the world got turbo fours, ten-speed gearboxes and touchscreens the size of tea trays; the 4Runner kept its 4.0-litre V6, its five-speed automatic and its roll-down rear window. Car and Driver called it \"basically made of bronze and granite.\" Buyers called it a bargain at any price: US sales climbed from 46,531 in 2010 to a peak of 144,696 in 2021."
+   ]
+  },
+  {
+   "heading": "A PRADO IN A COWBOY HAT",
+   "paragraphs": [
+    "Underneath, the N280 shares its platform with the J150 Land Cruiser Prado, the [[lexus/gx460|Lexus GX 460]] and the FJ Cruiser, and like them it is a proper ladder-frame truck with independent front suspension and a live rear axle. It was built only in left-hand drive and never sold in Japan. The [[4runner/4th-gen|4th gen]]'s 4.7 V8 did not survive the transition; instead, every truck that mattered got the 1GR-FE V6, now with Dual VVT-i. A 2.7-litre four-cylinder lingered on 2WD models for 2010 only.",
+    "Launch trims were SR5, Trail and Limited. SR5 and Trail 4x4s got a part-time system with a two-speed transfer case; the Limited went full-time. All had A-TRAC brake-based traction control, but the Trail was the one that mattered: Crawl Control, the Kinetic Dynamic Suspension System (KDSS) and an electric rear locker, kit that had previously been reserved for Toyota's posher off-roaders. Nobody was going to mistake it for a sports car — but nobody buying one wanted that."
+   ]
+  },
+  {
+   "heading": "THE LONG PLATEAU",
+   "paragraphs": [
+    "The 2014 facelift brought the pointier face with projector headlamps, LED tail-lamps, a revised dash with the Optitron cluster, better brake lines and Trailer Sway Control — and, notably, no driveline changes. For 2015 Toyota added the TRD Pro, with TRD Bilstein remote-reservoir shocks, TRD front springs and a front skid plate. For 2017 the Trail became the TRD Off-Road, mechanically the same truck with more badges. The Nightshade package arrived for 2019.",
+    "For 2020 every 4Runner finally got Toyota Safety Sense-P, plus a new head unit with Apple CarPlay and Android Auto. 2022 added push-button start, LED headlights and a TRD Sport trim that borrowed the Limited's X-REAS suspension and 20-inch wheels. 2023 brought a 40th Anniversary Special Edition limited to 4,040 units, and 2024 a TRD Pro-only paint called Terra. Car and Driver noted the truck hadn't had a major facelift in a decade; sales suggest nobody minded."
+   ]
+  },
+  {
+   "heading": "WHY THE TRAIL CROWD KEPT BUYING IT",
+   "paragraphs": [
+    "It certainly wasn't the numbers. Car and Driver's 2022 TRD Pro needed 7.7 seconds to reach 60 mph, averaged 15 mpg overall and wallowed on pavement with \"a huge amount of body roll and brake dive.\" What it had instead was a powertrain with no surprises: the 1GR-FE runs a timing chain with no scheduled replacement, the five-speed is old enough that every failure mode is documented, and the chassis is shared with enough Toyotas that the aftermarket is vast.",
+    "That aftermarket became the point. Trail4R alone has catalogued everything from transmission services to KDSS geometry correction, and suppliers sell lifts, control arms, sliders, bumpers, lockers and long-travel kits by the pallet. The KDSS debate became a 5th gen rite of passage: brilliant for a stock truck's flex and road manners, a headache once you lift it past about three inches. Owners argued about it for fifteen years, which is roughly how long Toyota left the truck alone."
+   ]
+  },
+  {
+   "heading": "THE AFTERMATH",
+   "paragraphs": [
+    "The [[4runner/6th-gen|6th gen]] arrived for 2025 on the TNGA-F frame shared with the Tacoma and [[land-cruiser/250-series|Land Cruiser 250]], swapping the V6 for a 2.4-litre turbo four and an optional hybrid. Even so, the old truck racked up 92,156 US sales in its final calendar year, according to Car and Driver. Its towing rating was 5,000 lb; the new one manages 6,000.",
+    "Used, the 5th gen is now the default 'buy once, build forever' SUV. TrueCar notes that 2010–2013 trucks under 150,000 miles can often be had for under $20,000, while Drivingline observed TRD Pros \"regularly selling for well above MSRP.\" The usual inspections are frame rust, KDSS leaks, front axle seals and torn CV boots on lifted trucks. None of it is exotic, which is precisely why these trucks keep getting bought, lifted and driven into places a crossover would never come back from."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE TRD PRO PAINT CALENDAR",
+  "title": "Ten years, ten colours",
+  "paragraphs": [
+   "From 2015 the 4Runner TRD Pro came in a model-year-exclusive colour alongside the usual two. Wikipedia's list reads like a paint chip archaeology dig: Inferno Orange (2015), Quicksand (2016), Cement (2017), Cavalry Blue (2018), Voodoo Blue (2019), Army Green (2020), Lunar Rock (2021), Lime Rush (2022), Solar Octane (2023) and Terra (2024).",
+   "It is a useful dating tool for buyers: a Lime Rush TRD Pro is a 2022, full stop. It also explains why some of those colours later trickled down to the TRD Sport and TRD Off-Road Premium, as Solar Octane did for 2024, once the TRD Pro had moved on."
+  ]
+ },
+ "engineering_intro": "The N280 is the J150 Prado recipe adapted for America: a ladder frame, double-wishbone front suspension, a coil-sprung live rear axle on links, and the 1GR-FE V6 bolted to a five-speed automatic. The interesting parts are electronic and hydraulic — A-TRAC on every truck, a rear locker and Crawl Control on the off-road trims, and KDSS, which hydraulically links the front and rear anti-roll bars so they can let go when the axle needs to droop.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame",
+   "note": "J150 Prado / GX 460 / FJ Cruiser platform; 109.8 in wheelbase."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "IFS + live rear axle",
+   "note": "Control arms up front; coil-sprung four-link rear with a panhard rod."
+  },
+  {
+   "k": "ENGINE",
+   "v": "1GR-FE 4.0 V6",
+   "note": "270 hp @ 5,600 / 278 lb-ft @ 4,400; Dual VVT-i; timing chain. 2.7 I4 on 2010 2WD only."
+  },
+  {
+   "k": "4WD",
+   "v": "Part-time or full-time",
+   "note": "Two-speed part-time on SR5 / Trail / TRD trims; full-time on the Limited. A-TRAC on all."
+  },
+  {
+   "k": "LOCKER",
+   "v": "Electric rear",
+   "note": "Trail (2010–16) and TRD Off-Road (2017–24), with Crawl Control and Multi-Terrain Select."
+  },
+  {
+   "k": "KDSS",
+   "v": "Hydraulic anti-roll bars",
+   "note": "Linked front/rear bars; Trail4R says the valves open below about 12 mph for articulation."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "2010",
+   "platform": "N280 · 2WD",
+   "engine": "2TR-FE 2.7 I4",
+   "output": "—",
+   "note": "Four-speed auto, 2WD only; dropped after one model year."
+  },
+  {
+   "years": "2010–2013",
+   "platform": "N280 · pre-facelift",
+   "engine": "1GR-FE 4.0 V6",
+   "output": "270 hp / 278 lb-ft",
+   "note": "SR5, Trail (KDSS, locker, Crawl), Limited (full-time 4WD, X-REAS)."
+  },
+  {
+   "years": "2014–2019",
+   "platform": "N280 · facelift",
+   "engine": "1GR-FE 4.0 V6",
+   "output": "270 hp / 278 lb-ft",
+   "note": "New face and dash; Trail renamed TRD Off-Road for 2017; Nightshade for 2019."
+  },
+  {
+   "years": "2015–2024",
+   "platform": "N280 · TRD Pro",
+   "engine": "1GR-FE 4.0 V6",
+   "output": "270 hp / 278 lb-ft",
+   "note": "TRD remote-reservoir shocks, front springs and skid plate; a new exclusive colour each year."
+  },
+  {
+   "years": "2020–2024",
+   "platform": "N280 · late",
+   "engine": "1GR-FE 4.0 V6",
+   "output": "270 hp / 278 lb-ft",
+   "note": "TSS-P standard, CarPlay/Android Auto; TRD Sport added for 2022; 40th Anniversary (4,040 units) for 2023."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Frame and underbody corrosion",
+   "body": "Salt-belt and coastal trucks need a proper crawl underneath: frame rails, crossmembers, suspension mounts and the KDSS hard lines along the frame. Surface scale can be cleaned and treated (Trail4R's corrosion guide walks through it); flaking, holed metal is a different conversation."
+  },
+  {
+   "head": "KDSS health",
+   "body": "On Trail and TRD Off-Road trucks, look for wet KDSS cylinders, weeping lines or a truck that leans. Owners on Expedition Portal describe leaking cylinders as difficult and expensive to fix. If it's lifted, ask how the KDSS was handled — Trail4R notes most lifts aren't designed around it."
+  },
+  {
+   "head": "Open recalls",
+   "body": "Run the VIN at NHTSA. The big ones are Takata passenger airbag inflator recalls covering 2010–2016 4Runners (19V-741, plus 19V-005 for 2014–2016) and Denso fuel pump recalls for 2018–2019 trucks (20V-012 / 20V-682)."
+  },
+  {
+   "head": "Lift quality and CV boots",
+   "body": "A lifted IFS truck runs steeper axle angles. Check for torn CV boots and grease slung around the wheel well, aftermarket upper control arms on bigger lifts, and an alignment record. Trail4R's writer tore CV boots repeatedly from excessive droop until fitting limit straps."
+  },
+  {
+   "head": "Front axle seals",
+   "body": "Gear oil where the CV axle enters the front differential means a leaking axle seal. It's a DIY job, but budget for it and check the diff level."
+  },
+  {
+   "head": "Driveline fluid history",
+   "body": "Ask for transmission (Toyota ATF WS only), differential and transfer case service records. Toyota's severe-service schedule changes diff oil every 15,000 miles when towing or loaded; many owners just do everything at about 30,000."
+  },
+  {
+   "head": "Rear window and liftgate",
+   "body": "Run the power rear glass all the way down and up. A window that bounces back as if obstructed often just needs re-initialising or its tracks cleaned (see repairs), but a dead motor or regulator is a bigger job."
+  },
+  {
+   "head": "Pick your year",
+   "body": "2014+ trucks get the facelift, better brake lines and Trailer Sway Control; 2020+ adds TSS-P and CarPlay. SlashGear flags 2013–2016 for higher complaint and recall counts. The 2.7 four was 2WD-only and 2010-only."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Automatic transmission drain and fill",
+   "diff": "3 / 5",
+   "time": "Trail4R's author budgeted about 6 hours including parts runs",
+   "cost": "≈ $174 in fluid and parts (Trail4R, Hawaii prices)",
+   "symptoms": "Due on mileage or unknown history; dark or burnt-smelling fluid. There is no dipstick — the level is set at temperature through a check plug.",
+   "fix": "With the truck level, remove the 24 mm refill plug first, then the 14 mm drain plug (about 5 qt comes out). Drop the pan (20 × 10 mm bolts), replace the filter and O-ring, clean the magnets and fit a new pan gasket; pan bolts 62 in-lb, filter bolts 7 ft-lb. Refill (Trail4R used 5.5 qt), then jumper OBD-II pins 4 and 13 to enter maintenance mode, cycle the shifter until the 'D' light stays solid, and check level through the 5 mm Allen check plug at 104–113 °F (solid D = in range, blinking = too hot). Let it drip to a dribble, refit the plug at 15 ft-lb.",
+   "tools": "10/12/14 mm and 24 mm sockets · 5 mm Allen · fluid pump · jumper wire · torque wrenches · Toyota ATF WS 00289-ATFWS · filter 35330-60050 · filter O-ring 90301-31014 · pan gasket 35168-60010 · plug gaskets (Trail4R and readers cite 35178-30010 for drain/check)",
+   "parts": [
+    {
+     "name": "Toyota ATF WS (need ≈6 qt for a drain and fill) (Toyota 00289-ATFWS)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~world~standard~autom~00289-atfws.html"
+    },
+    {
+     "name": "Transmission strainer/filter (Toyota 35330-60050)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~strainer~assy~valve~body~oil~35330-60050.html"
+    },
+    {
+     "name": "Oil pan gasket (Toyota 35168-60010)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~automatic~transmission~oil~pan~35168-60010.html"
+    },
+    {
+     "name": "Drain/check plug crush washer (Toyota 35178-30010)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~transfer~oil~pan~35178-30010.html"
+    }
+   ]
+  },
+  {
+   "title": "Front and rear differential + transfer case fluids",
+   "diff": "2 / 5",
+   "time": "A morning",
+   "cost": "Fluids and crush washers; Toyota transfer fluid runs $60–90 per litre (Trail4R)",
+   "symptoms": "Due at 15,000 miles under severe service (towing, roof loads) per Toyota, or at whatever interval you set — Trail4R's author does all driveline fluids every 30,000.",
+   "fix": "Warm the drivetrain with a 5–10 mile drive. Always crack the fill plug before the drain. Front diff: 10 mm hex plugs, about 1.6 qt (part-time) or 1.5 qt (full-time) of 75W-85 GL-5; drain 48 ft-lb, fill 29 ft-lb. Rear diff: 24 mm plugs, 36 ft-lb, about 2.9 qt with locker / 2.8 qt without. Transfer case: 24 mm plugs, 27 ft-lb, about 1.1 qt (part-time) or 1.5 qt (full-time) of Toyota Transfer Gear Oil LF 75W (Red Line MT-LV is the commonly cited alternative). Clean the magnetic drain plugs and use new crush washers.",
+   "tools": "10 mm hex bit · 24 mm socket · fluid pump · torque wrench · Toyota LT 75W-85 GL-5 · Toyota LF 75W transfer oil · washers: transfer case 90430-A0003, front drain 90430-24003, front fill 12157-10010",
+   "parts": [
+    {
+     "name": "Toyota Differential Gear Oil LT 75W-85 (qt) (Toyota 00279-DGOLT-01)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~diff~gear~oil~lt~qrt~00279-dgolt-01.html"
+    },
+    {
+     "name": "Toyota Transfer Gear Oil LF 75W (1 L) (Toyota 00279-DGOLF)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~diff~gear~oil~lf~gl~00279-dgolf.html"
+    },
+    {
+     "name": "Crush washer — front fill, rear drain & fill (Toyota 12157-10010)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~differential~filler~12157-10010.html"
+    },
+    {
+     "name": "Crush washer — front diff drain (supersedes 90430-24003) (Toyota 90430-24017)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~90430-24017.html"
+    }
+   ]
+  },
+  {
+   "title": "Front axle (differential-side) seal",
+   "diff": "3 / 5",
+   "time": "Half a day",
+   "cost": "Parts plus a refill of gear oil",
+   "symptoms": "Gear oil weeping where the CV axle enters the front differential; a puddle under the front of the truck.",
+   "fix": "Drain the front diff, support the truck and pull the wheel. Unplug and move the ABS sensor, separate the tie-rod end, remove the axle dust cap, retainer and 35 mm axle nut (4WD engaged and parking brake on to hold it). Remove the two lower control arm bolts, tap the axle out of the hub and pop the inner joint from the diff. Note the old seal's depth, pull it, clean the bore, oil the new seal and drive it in to the same depth (Trail4R used a 2 in PVC coupler). Reassemble: LCA bolts 118 ft-lb, axle nut 174 ft-lb, tie-rod castle nut 67 ft-lb, lugs 85 ft-lb, then refill.",
+   "tools": "19/21/35 mm sockets · breaker bar · seal puller · ball-joint separator · CV axle removal tool · seals: left 90311-47027; right 90311-47026 (2014+) or 90311-47013 (2010–13)",
+   "parts": [
+    {
+     "name": "Front diff side seal, right (2014+) (Toyota 90311-47026)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~seal~type~t~oil~90311-47026.html"
+    },
+    {
+     "name": "Front diff side seal, left (Toyota 90311-47027)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~seal~type~t~oil~90311-47027.html"
+    },
+    {
+     "name": "Front diff side seal, right (2010–13, larger) (Toyota 90311-47013)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~seal~oil~for~rear~differential~side~gear~shaft~90311-47013.html"
+    },
+    {
+     "name": "Crush washer, diff fill (Toyota 12157-10010)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~differential~filler~12157-10010.html"
+    }
+   ]
+  },
+  {
+   "title": "CV boot replacement (inner and outer)",
+   "diff": "4 / 5",
+   "time": "A day; Trail4R's first axle removal alone took 2 hours",
+   "cost": "OEM boot kit plus grease; a shop if the axle won't release",
+   "symptoms": "Grease flung around the wheel well, a split boot, clicking on turns once dirt gets in. Lifted trucks with excessive droop tear boots on the lower control arm.",
+   "fix": "Jack only the side you're working on (keeps diff oil in), pull the wheel, unbolt the brake-line bracket (10 mm) and ABS sensor (12 mm), free the tie-rod end (19 mm castle nut) and remove the 35 mm axle nut. Unbolt the LCA (2 × 19 mm), swing the hub away and release the axle from the diff by tapping the inner cup while rotating it until the internal clip lines up. Mark the tripod and rollers, remove the C-clip, swap both boots with the kit's yellow (inner) and black (outer) grease, crimp the clamps with proper pliers — over-tightening tore Trail4R's on the trail — and refit with red Loctite on the LCA bolts and anti-seize on the hub splines.",
+   "tools": "OEM CV boot kit 04427-60131 · optional dust cover 41336-35020 and axle nut 90178-28002 · 19/35 mm sockets · impact or breaker bar · CV clamp pliers · retaining-ring pliers · torque wrench (50–250 ft-lb)",
+   "parts": [
+    {
+     "name": "CV boot kit, inner + outer (Toyota 04427-60131)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~boot~kit~fr~drive~s~04427-60131.html"
+    },
+    {
+     "name": "CV dust cover (optional) (Toyota 41336-35020)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~cover~dust~for~front~drive~shaft~41336-35020.html"
+    },
+    {
+     "name": "Front axle nut (optional) (Toyota 90178-28002)",
+     "supplier": "ToyotaPartsDeal (Toyota OEM)",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~nut~for~front~axle~shaft~rh~90178-28002.html"
+    }
+   ]
+  },
+  {
+   "title": "Aftermarket upper control arms",
+   "diff": "3 / 5",
+   "time": "An afternoon with a helper",
+   "cost": "Arms plus a professional alignment",
+   "symptoms": "After a lift: out-of-spec caster/camber, upper ball joint at its angle limit, or you're installing coilovers anyway.",
+   "fix": "Grease the new arms' bushings and zerks first. Pull the wheel well splash shields, unbolt the ABS sensor brackets (10 mm) and brake-line bracket (12 mm), remove the cotter pin and 19 mm upper ball-joint nut, then the 19 mm pivot bolt (it's long; the inner fender may need bending). Fit the new arm with the correct spacers, pivot bolt front to back. Total Chaos's instructions, as followed by Trail4R: pivot bolt about 100 ft-lb, ball-joint 'king' nut about 82 ft-lb. Recheck after 100 miles and get it aligned before highway speeds.",
+   "tools": "10/12/14/19 mm sockets · torque wrench to 100 ft-lb · grease gun · jack stands · e.g. Total Chaos 2010–2024 4Runner UCAs",
+   "parts": [
+    {
+     "name": "Total Chaos 2010–2024 4Runner upper control arms",
+     "supplier": "Total Chaos Fabrication",
+     "url": "https://www.chaosfab.com/product/2010-2024-Toyota-4Runner-Upper-Control-Arms"
+    },
+    {
+     "name": "Upper control arms for the 5th gen 4Runner",
+     "supplier": "Metal Tech 4x4",
+     "url": "https://metaltech4x4.com/search?q=4runner+upper+control+arm"
+    },
+    {
+     "name": "Upper control arms (search)",
+     "supplier": "ToyTec",
+     "url": "https://www.toytec.com/search.php?search_query=4runner+upper+control+arms"
+    }
+   ]
+  },
+  {
+   "title": "Brake pads and rotors",
+   "diff": "2 / 5",
+   "time": "≈ 4–6 hours front and rear with two people (Trail4R)",
+   "cost": "Parts plus your Saturday",
+   "symptoms": "Steering-wheel shake under braking (warped rotors — Trail4R blamed cold water crossings), noise, thin pads.",
+   "fix": "Front: unbolt the brake-line bracket (12 mm) and the caliper bolts, hang the caliper, push the pistons back, swap pads, pins and anti-rattle spring, knock off and replace the rotor. Rear: remove the caliper bracket bolts, release the parking brake before pulling the rotor (it has a drum-in-hat parking brake), fit new rotor, bracket and pads. Pump the pedal before driving. Trail4R lists 17 mm front caliper bolts but a reader reports 19 mm at 91 lb-ft — confirm against the FSM.",
+   "tools": "12/17/19 mm sockets · piston compressor or clamp · mallet · brake grease · torque wrench · e.g. Powerstop kit (fits 2013+ per Trail4R)",
+   "parts": [
+    {
+     "name": "Brake pads (front & rear)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,brake+&+wheel+hub,brake+pad,1684"
+    },
+    {
+     "name": "Brake rotors",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,brake+&+wheel+hub,rotor,1896"
+    },
+    {
+     "name": "Rotor & pad kits",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,brake+&+wheel+hub,rotor+&+brake+pad+kit,13824"
+    }
+   ]
+  },
+  {
+   "title": "Rear hatch window won't close (re-initialise and clean)",
+   "diff": "1 / 5",
+   "time": "≈ 15 minutes",
+   "cost": "Free, unless the motor or regulator is actually dead",
+   "symptoms": "The rear glass bounces back down as if it found an obstruction, or stays down. Common after a battery disconnect or an obstruction event.",
+   "fix": "Initialise it: hold the switch down until the glass is fully open, then hold it up until it closes and keep holding about a second longer (Toyota TSB T-SB-0279-09 covers back-door window initialisation for early trucks). If it still balks, blow out the tracks with compressed air and wipe inside them with rubber cleaner on a doubled rag over a screwdriver. Check the hatch switch isn't physically stuck.",
+   "tools": "Compressed air · rubber cleaner · rags · flat screwdriver",
+   "parts": [
+    {
+     "name": "Power window switches (if the hatch switch is bad)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,electrical-switch+&+relay,power+window+switch,4624"
+    },
+    {
+     "name": "Liftgate seals",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,body+&+lamp+assembly,trunk+/+tailgate+seal,793"
+    }
+   ]
+  },
+  {
+   "title": "Propeller shaft greasing",
+   "diff": "1 / 5",
+   "time": "≈ 1 hour",
+   "cost": "A tube of grease",
+   "symptoms": "Due every 5,000 miles on dirt or dusty roads, or when towing/heavily loaded, per Toyota's schedule as quoted by Trail4R. Dry joints may pop when greased.",
+   "fix": "4x4 trucks have two shafts with six zerks total (two spider joints and a slip yoke on each). Clean each fitting, pump NLGI No. 2 lithium grease into the spider joints until fresh grease shows at all four caps, then wipe the excess. Go easy on the slip yokes — Trail4R uses about four pumps rear and two front, since over-packing stops the shaft extending properly. The front shaft is tight against the exhaust; rotate it by hand for access.",
+   "tools": "Grease gun (a locking coupler helps) · NLGI No. 2 lithium chassis grease · shop towels · wheel chocks",
+   "parts": [
+    {
+     "name": "Universal joints (if a joint won't take grease)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,drivetrain,universal+joint,2392"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "Trail4R's short answer is 32 inches. Stock is 265/70R17 (31.6 in). A 275/70R17 or 255/75R17 (about 32.1 in) shouldn't rub; a 285/70R17 (32.7 in) is 'questionable' and may need a body-mount chop; 255/80R17 (33 in) and anything bigger needs a lift and trimming. Tire brand and wheel offset change the outcome.",
+   "src": "TRAIL4R"
+  },
+  {
+   "q": "Which trims have the rear locker?",
+   "a": "The Trail (2010–2016) and its renamed successor, the TRD Off-Road (2017–2024), which pair the electric rear locker with Crawl Control and Multi-Terrain Select. SR5 and Limited owners who want one retrofit an aftermarket unit — Trail4R documents an Eaton E-Locker install in an SR5.",
+   "src": "WIKIPEDIA / TRUECAR / TRAIL4R"
+  },
+  {
+   "q": "Do I want KDSS?",
+   "a": "If you'll stay stock or near-stock, yes: owners praise the reduced body roll and slightly better articulation. If you plan a big lift or long travel, it's a complication — Trail4R puts the practical lift limit at about 3 inches and lists bracket, sway-bar and panhard fixes for lifted KDSS trucks. Leaking KDSS cylinders are an expensive repair.",
+   "src": "EXPEDITION PORTAL / TRAIL4R"
+  },
+  {
+   "q": "Part-time or full-time 4WD?",
+   "a": "SR5, Trail and TRD Off-Road 4x4s use a part-time two-speed transfer case with no centre differential, so 4H locks the front and rear driveshafts together. The Limited used full-time 4WD. All trucks have A-TRAC.",
+   "src": "WIKIPEDIA / TRUECAR"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "5,000 lb, per Car and Driver. The 6th gen raised that to 6,000.",
+   "src": "CAR AND DRIVER"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "EPA-rated 16 city / 19 highway (17 combined) in later years. Car and Driver's 2022 TRD Pro averaged 15 mpg overall and 17 mpg on its 75-mph highway test, good for about 390 miles of highway range.",
+   "src": "CAR AND DRIVER"
+  },
+  {
+   "q": "Does the 4.0 V6 have a timing belt?",
+   "a": "No — the 1GR-FE uses a timing chain with no scheduled replacement interval, meant to last the life of the engine. The serpentine belt is the wear item: Toyota calls for inspection at 63,000 miles and every 18,000 thereafter.",
+   "src": "TRAIL4R"
+  },
+  {
+   "q": "What are the fluid capacities?",
+   "a": "Per Toyota-Club's N280 data: engine oil with filter 6.2 L (Trail4R refills with about 6.6 qt of 0W-20); ATF WS 10.7 L total; front diff 1.55 L (part-time) / 1.40 L (full-time); rear diff 2.70 L without locker / 2.65 L with; transfer case 1.00 L (part-time) / 1.40 L (full-time); coolant 10.5 L. Diff oil is Toyota LT 75W-85 GL-5.",
+   "src": "TOYOTA-CLUB.NET / TRAIL4R"
+  },
+  {
+   "q": "Which years should I buy or avoid?",
+   "a": "There's no bad engine year, so buy on condition. 2014+ gets the facelift and upgraded brake lines; 2020+ adds TSS-P safety tech and CarPlay. SlashGear singles out 2013–2016 for higher complaint and recall counts. Whatever the year, confirm the Takata airbag (2010–2016) and fuel pump (2018–2019) recalls are closed.",
+   "src": "WIKIPEDIA / SLASHGEAR / NHTSA"
+  },
+  {
+   "q": "What lift options are there?",
+   "a": "Trail4R's shortlist runs from Old Man Emu (2.5–3 in) and Bilstein 6112/5160 to Eibach, Falcon, OME BP-51, Dobinsons MRR, ICON, Fox and King. Beyond about 2.5–3 in, plan on aftermarket upper control arms and, on KDSS trucks, sway-bar and panhard corrections.",
+   "src": "TRAIL4R"
+  },
+  {
+   "q": "Why does my truck lean to the driver's side?",
+   "a": "Toyota puts heavy items — battery, driveshafts, transfer case, fuel tank — on the driver's side, leaving that side typically ¼ to ¾ in lower. Trail4R fixed it with a thicker top spacer on the driver's-side coilover than on the passenger side.",
+   "src": "TRAIL4R"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "A 2–3 in lift with quality shocks makes room for 33s and fixes the stock nose-down rake.",
+   "who": [
+    {
+     "name": "Old Man Emu kit (via Mudify)",
+     "url": "https://mudify.com/pages/ome4r-4runner-5th-gen-10-21-lift-kit-v2"
+    },
+    {
+     "name": "Bilstein lift kits (via Mudify)",
+     "url": "https://mudify.com/products/4runner-2010-2024-bilstein-lift-kits"
+    },
+    {
+     "name": "Dobinsons lift kits (via Mudify)",
+     "url": "https://mudify.com/products/4runner-2010-2024-dobinsons-lift-kits"
+    }
+   ]
+  },
+  {
+   "cat": "UPPER CONTROL ARMS",
+   "why": "Restore alignment range and ball-joint angle once the front is lifted.",
+   "who": [
+    {
+     "name": "Total Chaos Fabrication",
+     "url": "https://www.chaosfab.com/product/2010-2024-Toyota-4Runner-Upper-Control-Arms"
+    },
+    {
+     "name": "JBA Offroad",
+     "url": "https://jbaoffroad.com/upper-control-arms/toyota/"
+    }
+   ]
+  },
+  {
+   "cat": "KDSS GEOMETRY",
+   "why": "Lifted KDSS trucks need the sway bars and panhard bar brought back into line.",
+   "who": [
+    {
+     "name": "Dr. KDSS rear drop kit (4RunnerMods)",
+     "url": "https://4runnermods.com/products/kdss-rear-sway-bar-drop-kit-upgraded-billet-fixed-link"
+    },
+    {
+     "name": "Dr. KDSS BOTCK track-bar kit (4RunnerMods)",
+     "url": "https://4runnermods.com/products/5th-gen-4runner-panhard-track-bar-relocation-bracket"
+    },
+    {
+     "name": "Sonoran Steel KDSS panhard bar",
+     "url": "https://www.sonoransteel.com/products/2010-2023-toyota-4runner-kdss-trac-panhard-bar-high-articulation"
+    }
+   ]
+  },
+  {
+   "cat": "REAR LOCKER (SR5 / LIMITED)",
+   "why": "A-TRAC gets you far; a locker gets you up the ledge without drama.",
+   "who": [
+    {
+     "name": "Eaton E-Locker (via SDHQ)",
+     "url": "https://sdhqoffroad.com/collections/toyota-4runner-drivetrain/products/e-locker-toyota-8-2-electrically-actuated-locking-rear-differential"
+    }
+   ]
+  },
+  {
+   "cat": "ARMOR",
+   "why": "Sliders, skids and a winch bumper protect the rockers, oil pan and transfer case.",
+   "who": [
+    {
+     "name": "C4 Fabrication lo-pro bumpers",
+     "url": "https://c4fabrication.com/collections/5th-gen-4runner-lo-pro-bumpers"
+    },
+    {
+     "name": "ARB Summit bumper (via 4Runner Lifestyle)",
+     "url": "https://4runnerlifestyle.com/products/arb-summit-bumper-5th-gen-4runner"
+    },
+    {
+     "name": "C4 Fabrication full skid plate (via 4Runner Lifestyle)",
+     "url": "https://4runnerlifestyle.com/products/c4-fabrication-full-skid-plate"
+    }
+   ]
+  },
+  {
+   "cat": "MID / LONG TRAVEL",
+   "why": "For desert running, wider arms and bigger shocks — and goodbye to KDSS.",
+   "who": [
+    {
+     "name": "Total Chaos mid/long travel",
+     "url": "https://www.chaosfab.com/2010-2024-Toyota-4Runner-Mid-Travel-Long-Travel"
+    },
+    {
+     "name": "Dirt King Fabrication",
+     "url": "https://dirtkingfabrication.com/collections/4runner"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACK",
+   "why": "Recovery boards, a tent or a spare fuel can need somewhere to live.",
+   "who": [
+    {
+     "name": "Cali Raised premium roof rack (via 4Runner Lifestyle)",
+     "url": "https://4runnerlifestyle.com/products/cali-raised-4runner-premium-roof-rack"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "2010–2024 · US",
+   "label": "All 5th gen 4Runners",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2010&maxyear=2024",
+   "bat_url": "https://bringatrailer.com/toyota/4runner-n280/"
+  },
+  {
+   "years": "2010–2013 · US",
+   "label": "Pre-facelift (cheapest way in)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2010&maxyear=2013",
+   "bat_url": "https://bringatrailer.com/toyota/4runner-n280/"
+  },
+  {
+   "years": "2014–2019 · US",
+   "label": "Facelift, TRD Pro from 2015",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2014&maxyear=2019",
+   "bat_url": "https://bringatrailer.com/toyota/4runner-n280/"
+  },
+  {
+   "years": "2020–2024 · US",
+   "label": "TSS-P and CarPlay years",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=4runner&minyear=2020&maxyear=2024",
+   "bat_url": "https://bringatrailer.com/toyota/4runner-n280/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "4Runner Lifestyle",
+   "focus": "5TH GEN INSTALLS & REVIEWS",
+   "url": "https://www.youtube.com/@4runnerlifestyle"
+  },
+  {
+   "kind": "YT",
+   "name": "TrailCo (Trail4R)",
+   "focus": "5TH GEN DIY & MODS",
+   "url": "https://www.youtube.com/@TrailCoMedia"
+  },
+  {
+   "kind": "YT",
+   "name": "TVO Ventures (Runnin4Tacos)",
+   "focus": "MODS & OFF-ROADING",
+   "url": "https://www.youtube.com/@TVOVentures"
+  },
+  {
+   "kind": "YT",
+   "name": "The Car Care Nut",
+   "focus": "TOYOTA MASTER-TECH MAINTENANCE",
+   "url": "https://www.youtube.com/@TheCarCareNut"
+  },
+  {
+   "kind": "YT",
+   "name": "lowrangeoffroad",
+   "focus": "ROCK CRAWLING & DIFF WORK",
+   "url": "https://www.youtube.com/@lowrangeoffroad1"
+  },
+  {
+   "kind": "IG",
+   "name": "@trail4r",
+   "focus": "5TH GEN BUILDS & GUIDES",
+   "url": "https://www.instagram.com/trail4r/"
+  },
+  {
+   "kind": "IG",
+   "name": "@4runnerlifestyle",
+   "focus": "4RUNNER PARTS & BUILDS",
+   "url": "https://www.instagram.com/4runnerlifestyle/"
+  },
+  {
+   "kind": "IG",
+   "name": "@runnin4tacos",
+   "focus": "TOYOTA PARTS & BUILDS",
+   "url": "https://www.instagram.com/runnin4tacos/"
+  },
+  {
+   "kind": "IG",
+   "name": "@4runnermods",
+   "focus": "KDSS & SUSPENSION PARTS",
+   "url": "https://instagram.com/4runnermods"
+  },
+  {
+   "kind": "IG",
+   "name": "@expo_t4r",
+   "focus": "5TH GEN OVERLAND BUILD",
+   "url": "https://www.instagram.com/expo_t4r/"
+  },
+  {
+   "kind": "IG",
+   "name": "@4xploration",
+   "focus": "5TH GEN OVERLAND BUILD",
+   "url": "https://www.instagram.com/4xploration/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "Toyota-4Runner.org — 5th Gen T4Rs",
+   "url": "https://www.toyota-4runner.org/5th-gen-t4rs/",
+   "note": "The biggest 5th gen board: KDSS threads, rear-window fixes, buying advice."
+  },
+  {
+   "name": "4Runners.com",
+   "url": "https://www.4runners.com/",
+   "note": "Second big 4Runner community with buying-advice and build threads."
+  },
+  {
+   "name": "Expedition Portal",
+   "url": "https://forum.expeditionportal.com/",
+   "note": "Overland builds and long-term KDSS-or-not debates."
+  },
+  {
+   "name": "Trail4R",
+   "url": "https://trail4runner.com/",
+   "note": "Not a forum, but the deepest 5th gen DIY library: fluids, torque specs, CV boots, KDSS mods."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "4Runner 4th Gen",
+   "family": "4runner",
+   "gen": "4th-gen"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "4Runner 6th Gen",
+   "family": "4runner",
+   "gen": "6th-gen"
+  },
+  {
+   "rel": "PLATFORM KIN",
+   "name": "Lexus GX 460",
+   "family": "lexus",
+   "gen": "gx460"
+  },
+  {
+   "rel": "KDSS COUSIN",
+   "name": "Land Cruiser 200 Series",
+   "family": "land-cruiser",
+   "gen": "200-series"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "N280 (J150 Prado platform)"
+  },
+  {
+   "k": "YEARS",
+   "v": "2010–2024 (built Aug 2009 – Aug 2024)"
+  },
+  {
+   "k": "BUILT",
+   "v": "Tahara, Japan · LHD only"
+  },
+  {
+   "k": "ENGINE",
+   "v": "1GR-FE 4.0 V6 (2.7 I4 2WD, 2010)"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "270 hp @ 5,600 · 278 lb-ft @ 4,400"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "5-spd auto (4-spd with the I4)"
+  },
+  {
+   "k": "4WD",
+   "v": "Part-time 2-speed / full-time (Limited)"
+  },
+  {
+   "k": "LOCKER",
+   "v": "Rear electric · Trail / TRD Off-Road"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "109.8 in"
+  },
+  {
+   "k": "LENGTH",
+   "v": "189.9–191.3 in"
+  },
+  {
+   "k": "CURB WEIGHT",
+   "v": "4,400–4,805 lb"
+  },
+  {
+   "k": "TOWING",
+   "v": "5,000 lb"
+  }
+ ],
+ "photos": [
+  {
+   "file": "death-valley-trench.jpg",
+   "alt": "Grey fifth-generation 4Runner crawling through a narrow rocky desert trench",
+   "caption": "5TH GEN IN THE ROCKS · DEATH VALLEY",
+   "credit": "Robson Hatsukami Morgan",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/gray-toyota-suv-in-the-middle-of-trench-nVVrRgkQy6s"
+  },
+  {
+   "file": "dune-convoy.jpg",
+   "alt": "Line of lifted fifth-generation 4Runners on big mud-terrain tires waiting on desert sand dunes",
+   "caption": "5TH GEN DUNE CONVOY · PERU",
+   "credit": "Jose Carbajal",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/black-suv-running-on-dune-san-bQnBIEPtico"
+  },
+  {
+   "file": "forest-camp.jpg",
+   "alt": "White fourth-generation 4Runner parked at a wooded campsite beside a picnic table",
+   "caption": "4TH GEN PREDECESSOR AT CAMP",
+   "credit": "Vincent Mutasa",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/a-white-suv-parked-in-the-woods-next-to-a-picnic-table-d18Qy-rMVcY"
+  },
+  {
+   "file": "red-rock-climb.jpg",
+   "alt": "Silver third-generation Toyota 4Runner climbing a steep tilted slab of red sandstone under a cloudy sky",
+   "caption": "3RD GEN ANCESTOR ON THE SLICKROCK · RED ROCK CANYON, NV",
+   "credit": "Quilia",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/silver-suv-5lkoseqWobM"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota 4Runner (fifth generation, N280; sales table)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+  },
+  {
+   "name": "Wikipedia — Kinetic Dynamic Suspension System",
+   "url": "https://en.wikipedia.org/wiki/Kinetic_Dynamic_Suspension_System"
+  },
+  {
+   "name": "Car and Driver — 2022 Toyota 4Runner TRD Pro by the numbers (test)",
+   "url": "https://www.caranddriver.com/reviews/a38696388/2022-toyota-4runner-trd-pro-by-the-numbers/"
+  },
+  {
+   "name": "Car and Driver — 2024 Toyota 4Runner review",
+   "url": "https://www.caranddriver.com/toyota/4runner-2024"
+  },
+  {
+   "name": "Car and Driver — 2025 Toyota 4Runner vs. 2024 4Runner: how they compare",
+   "url": "https://www.caranddriver.com/news/a60444485/2025-toyota-4runner-2024-toyota-4runner-compared/"
+  },
+  {
+   "name": "Car and Driver — 2025 Toyota 4Runner first drive",
+   "url": "https://www.caranddriver.com/reviews/a63560178/2025-toyota-4runner-drive/"
+  },
+  {
+   "name": "Car and Driver — 2025 4Runner Trailhunter hybrid test",
+   "url": "https://www.caranddriver.com/reviews/a64379558/2025-toyota-4runner-trailhunter-hybrid-test/"
+  },
+  {
+   "name": "TrueCar — 2010–24 Toyota 4Runner buying guide",
+   "url": "https://truecar.com/blog/5th-gen-toyota-4runner-buying-guide"
+  },
+  {
+   "name": "Drivingline — Fifth-gen 4Runner vs Lexus GX460",
+   "url": "https://drivingline.com/articles/fifth-gen-4runner-vs-lexus-gx460-which-of-these-toyota-cousins-is-the-better-buy-used-or-new"
+  },
+  {
+   "name": "SlashGear — 5 Toyota 4Runner years to never buy used",
+   "url": "https://www.slashgear.com/1956694/toyota-4runner-years-to-never-buy-used"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle (Toyota 4Runner 2010–2024)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2014"
+  },
+  {
+   "name": "Toyota-Club.net — 4Runner 280 (US) fluids & capacities",
+   "url": "https://toyota-club.net/files/techdata/ttx/4runner_280u.htm"
+  },
+  {
+   "name": "Trail4R — Largest tire size on 5th gen 4Runner",
+   "url": "https://trail4runner.com/2018/01/03/largest-tire-size-4runner/"
+  },
+  {
+   "name": "Trail4R — Fitting bigger tires: cutting & trimming guide",
+   "url": "https://trail4runner.com/2018/01/25/bigger-tires-4runner-cutting-trimming/"
+  },
+  {
+   "name": "Trail4R — Transmission fluid drain and fill, 5th gen",
+   "url": "https://trail4runner.com/2023/05/07/transmission-fluid-change-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — 4Runner driveline fluids: how and when to change them",
+   "url": "https://trail4runner.com/2018/12/24/4runner-driveline-fluids-how-and-when-to-change-them/"
+  },
+  {
+   "name": "Trail4R — 5th gen torque specs",
+   "url": "https://trail4runner.com/2020/06/17/5th-gen-4runner-torque-specs/"
+  },
+  {
+   "name": "Trail4R — Front axle seal replacement, 5th gen",
+   "url": "https://trail4runner.com/2020/08/03/replace-front-cv-axle-seal-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — CV boot replacement guide, 5th gen",
+   "url": "https://trail4runner.com/2023/08/30/cv-boot-replacement-guide-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — Total Chaos UCA install",
+   "url": "https://trail4runner.com/2019/02/14/total-chaos-uca-install-toyota-4runner/"
+  },
+  {
+   "name": "Trail4R — Replacing brake pads and rotors",
+   "url": "https://trail4runner.com/2018/03/26/replacing-brake-pads-rotors-4runner/"
+  },
+  {
+   "name": "Trail4R — Propeller shaft maintenance guide",
+   "url": "https://trail4runner.com/2021/03/03/propeller-shaft-maintenance-how-to-guide-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — What is Toyota KDSS",
+   "url": "https://trail4runner.com/2024/02/06/what-is-toyota-kdss-why-do-you-want-it/"
+  },
+  {
+   "name": "Trail4R — 7 KDSS mods for the 5th gen",
+   "url": "https://trail4runner.com/2024/04/09/kdss-mods-for-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — Top 10 5th gen suspension lift kits",
+   "url": "https://trail4runner.com/2020/12/18/top-10-5th-gen-4runner-suspension-lift-kits/"
+  },
+  {
+   "name": "Trail4R — Fixing driver-side lean",
+   "url": "https://trail4runner.com/2020/12/02/how-to-fix-driver-side-lean-on-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — Eaton rear E-Locker install on 5th gen",
+   "url": "https://trail4runner.com/2021/06/16/eaton-rear-e-locker-install-on-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — High-mileage preventative maintenance guide",
+   "url": "https://trail4runner.com/2024/06/14/high-mileage-preventative-maintenance-guide/"
+  },
+  {
+   "name": "Trail4R — 5th gen oil change",
+   "url": "https://trail4runner.com/2018/06/11/5th-gen-4runner-oil-change/"
+  },
+  {
+   "name": "Trail4R — Undercarriage cleaning & corrosion prevention",
+   "url": "https://trail4runner.com/2022/10/07/undercarriage-cleaning-corrosion-prevention-a-preventative-maintenance-guide/"
+  },
+  {
+   "name": "Expedition Portal — 5th Gen 4Runner KDSS thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1773336"
+  },
+  {
+   "name": "Toyota-4Runner.org — Rear window help (5th gen)",
+   "url": "https://www.toyota-4runner.org/5th-gen-t4rs/158128-rear-window-help.html"
+  },
+  {
+   "name": "Bring a Trailer — Toyota 4Runner (N280)",
+   "url": "https://bringatrailer.com/toyota/4runner-n280/"
+  },
+  {
+   "name": "Trail4R — Maintenance tips for the 5th gen 4Runner",
+   "url": "https://trail4runner.com/2023/07/19/maintenance-tips-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — Bleeding brake fluid on a 5th gen 4Runner",
+   "url": "https://trail4runner.com/2021/10/21/bleeding-brakes-fluid-5th-gen-4runner/"
+  },
+  {
+   "name": "Trail4R — PCV valve replacement, 5th gen 4Runner",
+   "url": "https://trail4runner.com/2024/04/17/pcv-valve-replacement-5th-gen-4runner/"
+  },
+  {
+   "name": "Total Chaos Fabrication — 2010–2024 4Runner upper control arms",
+   "url": "https://www.chaosfab.com/product/2010-2024-Toyota-4Runner-Upper-Control-Arms"
+  }
+ ],
+ "baseline_service": {
+  "intro": "The 1GR-FE and A750 drivetrain are durable but rarely serviced past oil changes: Toyota calls most driveline fluids 'inspect' unless you tow, carry roof loads or drive dusty roads — which describes most 4Runners. Baseline everything, including the transmission, then put the propshafts on a grease schedule.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "0W-20 full synthetic · ≈6.6 US qt with filter (Trail4R; Toyota-Club lists 6.2 L)",
+    "interval": "Toyota: 10,000 mi; Trail4R's authors run 5,000 mi",
+    "note": "Cartridge filter in a plastic housing behind the front skid: drain the housing with the plastic tool in the filter box, fresh O-rings, 64 mm cap wrench, and line the metal tab back up. Don't over-tighten; use genuine housings.",
+    "parts": [
+     {
+      "name": "Oil filters (1GR-FE cartridge)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,engine,oil+filter,5340"
+     },
+     {
+      "name": "Oil filter housing caps",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,engine,oil+filter+cover,5561"
+     }
+    ]
+   },
+   {
+    "item": "Engine air filter",
+    "spec": "Panel filter",
+    "interval": "Check at every oil change",
+    "note": "Replace when moderate dirt is visible (Trail4R).",
+    "parts": [
+     {
+      "name": "Engine air filters",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,fuel+&+air,air+filter,6192"
+     }
+    ]
+   },
+   {
+    "item": "Cabin air filter",
+    "spec": "Behind the glovebox",
+    "interval": "At least yearly",
+    "note": "First suspect for a musty interior smell.",
+    "parts": [
+     {
+      "name": "Cabin air filters",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,heat+&+air+conditioning,cabin+air+filter,6832"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs",
+    "spec": "Iridium long-life · part number and interval [CONFIRM IN MANUAL]",
+    "interval": "Replace if past the scheduled interval or undocumented",
+    "note": "Pull and read the old plugs — they tell you how the engine has been running.",
+    "parts": [
+     {
+      "name": "Spark plugs",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,ignition,spark+plug,7212"
+     }
+    ]
+   },
+   {
+    "item": "Coolant",
+    "spec": "Toyota Super Long Life Coolant (pink, pre-mixed) · 10.5 L (Toyota-Club)",
+    "interval": "Drain and refill if over 100,000 mi or undocumented; interval [CONFIRM IN MANUAL]",
+    "note": "Pre-mixed — don't dilute.",
+    "parts": [
+     {
+      "name": "Toyota Super Long Life Coolant, pre-mixed (Toyota 00272-SLLC2)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~super~long~life~cool~00272-sllc2.html"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (5-speed A750)",
+    "spec": "Toyota ATF WS · 10.7 L total; a drain and fill swaps ≈5 qt",
+    "interval": "Drain and fill now if undocumented",
+    "note": "No dipstick: the level is set through the 5 mm Allen check plug at 104–113 °F in maintenance mode (see the repair card). A filter-and-pan job is a good baseline on a truck with no records.",
+    "parts": [
+     {
+      "name": "Toyota ATF WS (Toyota 00289-ATFWS)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~world~standard~autom~00289-atfws.html"
+     },
+     {
+      "name": "Transmission strainer/filter (Toyota 35330-60050)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~strainer~assy~valve~body~oil~35330-60050.html"
+     },
+     {
+      "name": "Oil pan gasket (Toyota 35168-60010)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~automatic~transmission~oil~pan~35168-60010.html"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "Toyota Transfer Gear Oil LF 75W · ≈1.1 US qt (part-time) / 1.5 qt (full-time)",
+    "interval": "Toyota: 30,000 mi on dirty or dusty roads; Trail4R does all driveline fluids every 30,000",
+    "note": "24 mm plugs, 27 ft-lb. Don't swap with diff oil; Red Line MT-LV is the aftermarket alternative cited.",
+    "parts": [
+     {
+      "name": "Toyota Transfer Gear Oil LF (1 L) (Toyota 00279-DGOLF)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~diff~gear~oil~lf~gl~00279-dgolf.html"
+     },
+     {
+      "name": "Transfer case drain/fill gasket (superseded by 90430-18008) (Toyota 90430-A0003)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~transaxle~rear~cover~90430-a0003.html"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Toyota Differential Gear Oil LT 75W-85 GL-5 · front ≈1.6 qt (part-time) / 1.5 qt (full-time) · rear ≈2.9 qt (locker) / 2.8 qt (no locker)",
+    "interval": "Toyota: 15,000 mi when heavily loaded or with roof gear",
+    "note": "Fill plug first. Front uses 10 mm hex plugs (48/29 ft-lb); rear 24 mm (36 ft-lb).",
+    "parts": [
+     {
+      "name": "Toyota Differential Gear Oil LT 75W-85 (qt) (Toyota 00279-DGOLT-01)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~diff~gear~oil~lt~qrt~00279-dgolt-01.html"
+     },
+     {
+      "name": "Crush washer — front fill, rear drain & fill (Toyota 12157-10010)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~differential~filler~12157-10010.html"
+     },
+     {
+      "name": "Crush washer — front diff drain (Toyota 90430-24017)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~90430-24017.html"
+     }
+    ]
+   },
+   {
+    "item": "Power steering fluid",
+    "spec": "ATF Dexron II/III (Toyota-Club)",
+    "interval": "Check level and colour",
+    "note": "Hydraulic rack on the 5th gen.",
+    "parts": [
+     {
+      "name": "Power steering fluid",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,steering,power+steering+fluid,11395"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 3",
+    "interval": "Toyota: every 2 years or 60,000 mi (per Trail4R)",
+    "note": "Rear bleeds use the ABS pump with the ignition on and the pedal weighted — don't run it more than 100 seconds at a time. Bleeders 8 ft-lb.",
+    "parts": [
+     {
+      "name": "Brake fluid",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,brake+&+wheel+hub,brake+fluid,11389"
+     }
+    ]
+   },
+   {
+    "item": "Propshaft grease points",
+    "spec": "NLGI No. 2 lithium grease · six zerks on 4x4 trucks",
+    "interval": "Every 5,000 mi on dirt/dusty roads or when towing (Toyota schedule via Trail4R)",
+    "note": "Spider joints until fresh grease shows at all four caps; only a few pumps on the slip yokes.",
+    "parts": [
+     {
+      "name": "Universal joints",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,drivetrain,universal+joint,2392"
+     }
+    ]
+   },
+   {
+    "item": "Serpentine belt",
+    "spec": "Toyota 90916-A2015",
+    "interval": "Toyota: inspect at 63,000 mi, then every 18,000 mi",
+    "note": "Spin the idler and tensioner pulleys by hand while the belt is off. The 1GR-FE uses a timing chain with no service interval.",
+    "parts": [
+     {
+      "name": "Serpentine belt (Toyota 90916-A2015)",
+      "supplier": "ToyotaPartsDeal (Toyota OEM)",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~belt~v~ribbed~90916-a2015.html"
+     }
+    ]
+   },
+   {
+    "item": "PCV valve",
+    "spec": "Threads into the driver-side rear of the engine · 19 mm deep socket · Threebond 1324 · 20 ft-lb",
+    "interval": "No Toyota interval; Trail4R's author replaced his at 60,000 mi",
+    "note": "If the ball inside doesn't rattle, it's stuck.",
+    "parts": []
+   },
+   {
+    "item": "Battery",
+    "spec": "Group 34 fits (Trail4R used an Odyssey)",
+    "interval": "Load-test now",
+    "note": "Switch any accessory that doesn't need constant power to avoid parasitic drain.",
+    "parts": [
+     {
+      "name": "Batteries",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,4runner,4.0l+v6,3310139,electrical,battery,2476"
+     }
+    ]
+   }
+  ]
+ }
+}

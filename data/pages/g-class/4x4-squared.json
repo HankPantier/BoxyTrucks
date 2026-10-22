@@ -1,0 +1,776 @@
+{
+ "slug": "4x4-squared",
+ "title": "G 500 4×4²",
+ "eyebrow": "MERCEDES-BENZ G-CLASS · W463 · G 500 / G 550 4×4² · 2015–2018",
+ "verdict": "A G-Class on stilts: portal axles, two springs per corner and 22-inch wheels. Utterly unsubtle — but the 17 inches of ground clearance are entirely real.",
+ "codes": [
+  "W463",
+  "PORTAL AXLES",
+  "M176 4.0 TT V8",
+  "17.2 IN CLEARANCE"
+ ],
+ "hero_photo": "ridgeline.jpg",
+ "hero_note": "STANDARD SECOND-GENERATION G SHOWN, NOT A 4×4² · [SWAP FOR A 4×4² OFF ROAD]",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The 4×4² — say it “four-by-four squared” — is what happened when Mercedes took the running gear of its six-wheeled G 63 AMG 6×6, removed an entire axle and bolted the result under an ordinary long-wheelbase G. The result stands 88 inches tall, clears 17.2 inches of rock and wades through 39.4 inches of water. Mercedes-Benz USA called it the most capable G-Class ever, and charged $225,000 to prove it."
+   ]
+  },
+  {
+   "heading": "FROM SIX WHEELS TO FOUR",
+   "paragraphs": [
+    "It started as a show car. At the Geneva Motor Show in March 2015 Mercedes displayed the G 500 4×4² with no commitment to build it, saying production would depend on the reaction. The reaction was enthusiastic, and the truck went on sale in Europe in late 2015. Underneath it is the body of the five-door long-wheelbase W463 on a shortened version of the 6×6’s chassis.",
+    "The trick is the portal axle. A gear drop at each hub puts the wheel centre below the axle tube, so the diffs and axle housings ride far higher than on a normal G — 450 mm (17.7 in) of ground clearance in European spec, against 9.3 inches for a standard [[g-class/g550|G 550]]. The track grew too, by 299 mm, filled out with detachable carbon-fibre wheel-arch flares and 325/55R22 tires. For the 2017 model year the truck came to America as the G 550 4×4², at $225,000 plus destination."
+   ]
+  },
+  {
+   "heading": "TWO SPRINGS PER CORNER",
+   "paragraphs": [
+    "Each wheel gets two coil-over struts in parallel — one with fixed damping, one adjustable — and Mercedes claimed the switch between Comfort and Sport took 15 milliseconds. Two stabilizer bars help keep it upright, and the drivetrain is pure G: permanent four-wheel drive split 50:50, a low-range transfer case and three 100% differential locks. Power came from the 4.0-litre twin-turbo M176 V8, rated 416 hp and 450 lb-ft in the US, driving through a seven-speed automatic.",
+    "Mercedes-Benz USA’s numbers are absurd in the best way: 51.6° approach, 43.8° departure, a breakover of 44.6° at maximum load in the spec sheet (47.4° in the launch release), 69-inch-plus track widths, a 46.9-foot turning circle and a 6,694-lb curb weight. It returned 11 mpg city, highway and combined, according to the same sheet. Expedition Portal, not given to gushing about concept trucks, said Mercedes had knocked it “straight out of the park.”"
+   ]
+  },
+  {
+   "heading": "THE END, AND WHAT CAME NEXT",
+   "paragraphs": [
+    "With the [[g-class/second-gen|second-generation G]] due in 2018, Mercedes announced it would stop taking 4×4² orders at the end of October; in Germany it had cost €231,693. Its portal axles and raised suspension lived on in the Mercedes-Maybach G 650 Landaulet, and in 2022 the idea returned as the G 63 4×4² — now with independent front suspension, 585 hp and a $350,050 sticker, and 379 lb lighter than the old truck.",
+    "Today the original is a collector’s off-roader that people actually use. Bring a Trailer regularly lists them — one 2017 G 550 4×4² with 39k miles came on Pirelli Scorpion ATRs, with plugs, a coil and transmission service in its records — and shops now build lookalikes: Houston’s Banyan Motors converted a 2000 [[g-class/g500|G 500]] with a LeTech dual-suspension setup, portal axles and beadlocks. Rivals? Nothing from the factory, though the [[land-rover/defender-l663|new Defender]] and [[grenadier/station-wagon|Grenadier]] owners will happily argue."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · BY THE NUMBERS",
+  "title": "4×4² versus a 2016 G 550",
+  "paragraphs": [
+   "Ground clearance: 17.2 in vs 9.3 in. Wading depth: 39.4 in vs 23.6 in. Approach angle: 51.6° vs 30°. Departure: 43.8° vs 30°. Height: 88.0 in vs 76.9 in. Curb weight: 6,694 lb vs 5,724 lb. Price: $225,000 vs $119,900.",
+   "Same engine, same seven-speed, same three lockers and the same 112.2-inch wheelbase. Everything that changed is below the axle line — which is precisely where off-roaders want it to change. (All figures from Mercedes-Benz USA.)"
+  ]
+ },
+ "engineering_intro": "The 4×4² keeps the G-Class fundamentals — ladder frame, rigid axles front and rear, full-time four-wheel drive and three lockers — and changes the geometry around them. Portal hubs lift the axle housings; a wider track and dual-spring suspension keep the tall truck stable. Mercedes-Benz USA noted that the portal design let it leave suspension geometry, steering links and driveshafts essentially unchanged from other G-Class models while reducing driveshaft load.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame",
+   "note": "Shortened version of the G 63 AMG 6×6’s chassis under a long-wheelbase W463 body."
+  },
+  {
+   "k": "AXLES",
+   "v": "Portal, rigid",
+   "note": "Longitudinal and transverse links front and rear; hub reduction gears drop the wheel centre below the axle."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Dual springs, adjustable dampers",
+   "note": "Two struts per wheel; Comfort/Sport switching claimed at 15 ms. Two stabilizer bars."
+  },
+  {
+   "k": "DRIVETRAIN",
+   "v": "Permanent 4WD, 50:50",
+   "note": "Low-range transfer case; 7G-TRONIC PLUS seven-speed automatic."
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Centre, rear, front",
+   "note": "Three 100% locks, engaged on the move."
+  },
+  {
+   "k": "GEOMETRY",
+   "v": "51.6° / 43.8°",
+   "note": "Approach and departure. 17.24 in clearance at max load, 39.4 in fording (MBUSA)."
+  }
+ ],
+ "engineering_note": {
+  "title": "WHY PORTAL AXLES",
+  "body": "On a normal axle the differential sits level with the wheel centre, so the diff housing is the lowest thing under the truck. Portal hubs add a gear set at each wheel that moves the drive down to a lower hub, raising the whole axle — and buying ground clearance without a giant lift or ever-bigger tires. The cost is weight, complexity and more gears to service."
+ },
+ "generations_table": [
+  {
+   "years": "2013",
+   "platform": "G 63 AMG 6×6 (donor)",
+   "engine": "AMG biturbo V8",
+   "output": "—",
+   "note": "Six-wheeled limited edition whose running gear the 4×4² borrowed; never sold in the US"
+  },
+  {
+   "years": "2015",
+   "platform": "G 500 4×4² concept (Geneva)",
+   "engine": "4.0 L twin-turbo V8",
+   "output": "310 kW",
+   "note": "Shown with 325/55R22s; 37×12.5×18 mud-terrains mentioned as an option"
+  },
+  {
+   "years": "2015–2017",
+   "platform": "G 500 4×4² (Europe)",
+   "engine": "M176 4.0 L twin-turbo V8",
+   "output": "310 kW (422 PS)",
+   "note": "€231,693 in Germany; orders closed ahead of the 2018 second-generation G"
+  },
+  {
+   "years": "2017",
+   "platform": "G 550 4×4² (US)",
+   "engine": "M176 4.0 L twin-turbo V8",
+   "output": "416 hp · 450 lb-ft",
+   "note": "$225,000 MSRP plus $925 destination"
+  },
+  {
+   "years": "2017",
+   "platform": "Mercedes-Maybach G 650 Landaulet",
+   "engine": "V12",
+   "output": "—",
+   "note": "Inherited the 4×4²’s portal axles and raised suspension"
+  },
+  {
+   "years": "2022–",
+   "platform": "G 63 4×4² (second gen)",
+   "engine": "AMG 4.0 L twin-turbo V8",
+   "output": "585 hp",
+   "note": "Portal axles with independent front suspension; $350,050"
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Make sure it’s a real one",
+   "body": "Shops build 4×4² lookalikes from ordinary Gs — some, like Banyan Motors’ portal-axle G 500, are serious builds, but they aren’t factory trucks. Confirm the VIN, window sticker and data card."
+  },
+  {
+   "head": "Price the tires before the truck",
+   "body": "Factory fitment is 325/55R22 on 9.5×22 wheels — big, heavy and not cheap. Check tread depth and date codes, and whether the spare matches."
+  },
+  {
+   "head": "Test the adjustable dampers",
+   "body": "Switch between Comfort and Sport on the drive. You should feel the difference immediately; a fault light or no change means a damper or control problem."
+  },
+  {
+   "head": "Test all three lockers",
+   "body": "Engage centre, rear and front on a loose surface and watch the indicators. Trucks that never left pavement often have lazy lockers."
+  },
+  {
+   "head": "Inspect the carbon flares and roof",
+   "body": "The detachable carbon-fibre arch extensions and roof-mounted lights live high and wide — look for cracks, chips and scratches (one BaT example noted roof scratches)."
+  },
+  {
+   "head": "Ask for the service file",
+   "body": "Spark plugs, ignition coils, transmission fluid and filter, brake fluid — the BaT example’s history shows the kind of records to expect. Ask specifically about portal-hub and axle oil changes."
+  },
+  {
+   "head": "Measure your garage",
+   "body": "It’s 88 inches tall and 86.2 inches wide with mirrors. Parking structures and automatic car washes are now hostile territory."
+  },
+  {
+   "head": "Rust where nobody cleans",
+   "body": "It’s still a W463: check the tailgate lower edge, door bottoms, sills, rear frame tubes and strut mounts."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Spark plugs & ignition coils (M176)",
+   "diff": "2 / 5",
+   "time": "≈ 2–3 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Misfire codes, rough idle, hesitation under load. Plugs are a scheduled item; coils fail individually.",
+   "fix": "Remove the engine covers, unplug and pull each coil, and replace the plugs with the correct Mercedes-spec part, torqued to spec. Swap any coil that misfire data points to — or move coils between cylinders to confirm before buying.",
+   "tools": "Mercedes-spec spark plugs · ignition coil(s) as needed · thin-wall spark-plug socket and extensions · torque wrench · scan tool",
+   "parts": [
+    {
+     "name": "Genuine Mercedes spark plug 000 159 05 00 (M176)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-spark-plug-genuine-mercedes-0001590500"
+    },
+    {
+     "name": "Genuine Mercedes ignition coil 177 906 02 06 (M176)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-ignition-coil-genuine-mercedes-1779064202"
+    }
+   ]
+  },
+  {
+   "title": "Seven-speed fluid & filter service",
+   "diff": "3 / 5",
+   "time": "≈ 2–3 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Harsh or slurred shifts, or simply no record of a service. The 7G-TRONIC has no dipstick, so fluid level is set by temperature.",
+   "fix": "Drain the pan, replace the filter and pan gasket, refill with the Mercedes-approved fluid, then set the level at the specified temperature using a scan tool to read transmission temperature.",
+   "tools": "Filter and gasket kit · MB-approved ATF · fill adapter/pump · scan tool for fluid temperature · torque wrench",
+   "parts": [
+    {
+     "name": "Febi 722.9 transmission filter kit",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-transmission-filter-kit-febi-228600116"
+    },
+    {
+     "name": "Genuine Mercedes ATF, MB 236.15 (blue)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-auto-trans-fluid-001989780309"
+    }
+   ]
+  },
+  {
+   "title": "Diff locks won’t engage",
+   "diff": "2 / 5",
+   "time": "An afternoon",
+   "cost": "Diagnosis-dependent",
+   "symptoms": "A lock refuses to engage or drops out; indicator lights flash. On W463s the cause is usually actuation — vacuum or wiring — rather than the differential.",
+   "fix": "Work the system from the actuator back: confirm vacuum or signal at each lock, then trace lines and connectors toward the source with a gauge or meter. Fix the leak, then exercise the locks regularly.",
+   "tools": "Hand vacuum pump with gauge · multimeter · vacuum tees and line · replacement connectors",
+   "parts": [
+    {
+     "name": "Vacuum hoses listed for the G 550",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G550/Vacuum-Hose/"
+    }
+   ]
+  },
+  {
+   "title": "Steering damper & wander",
+   "diff": "1 / 5",
+   "time": "≈ 1 hour",
+   "cost": "$300–800",
+   "symptoms": "Wander, wheel shake at highway speed, vague on-centre feel, clunks — amplified by tall tires and a rigid front axle.",
+   "fix": "Replace the steering damper with an OEM or upgraded unit, check drag link and tie-rod ends for play, then align. The 4×4² keeps the G’s steering linkage, so the usual W463 diagnosis applies.",
+   "tools": "Steering damper · sockets and wrenches · tie-rod or drag-link ends if worn",
+   "parts": [
+    {
+     "name": "Stabilus steering damper 463 463 00 32",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-steering-damper-stabilus-4634630032"
+    }
+   ]
+  },
+  {
+   "title": "Sunroof drains & water ingress",
+   "diff": "1 / 5",
+   "time": "≈ 30 minutes",
+   "cost": "Cheap if caught early",
+   "symptoms": "Damp or sagging headliner, wet carpets, electrical gremlins.",
+   "fix": "Clear all four sunroof drains, then check the headliner, fuse box and climate actuators for water damage.",
+   "tools": "Trimmer line or drain-cleaning wire · low-pressure air · towels",
+   "parts": []
+  },
+  {
+   "title": "Frame & body rust treatment",
+   "diff": "3 / 5",
+   "time": "A weekend",
+   "cost": "$400–8,000 (severity-dependent)",
+   "symptoms": "Bubbling at the tailgate lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.",
+   "fix": "Wire-brush or blast back to sound metal, treat and paint, or cut in repair panels where needed. Inject cavity wax into doors and frame rails, keep drain paths clear and wash off road salt after winter.",
+   "tools": "Wire wheels or blaster · rust converter and primer · cavity wax with extension wand · welder for panel repairs",
+   "parts": [
+    {
+     "name": "Cavity wax (search)",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=cavity+wax"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What’s the biggest tire I can fit without a lift?",
+   "a": "It doesn’t need one — the portal axles are the lift. Stock tires are 325/55R22, about 36 inches tall. When Mercedes showed the truck, it said 37×12.5×18 mud-terrains would be available for production trucks, and the Geneva show car wore 37-inch mud-terrains on beadlocks. Check caliper clearance before going to 18-inch wheels, and re-code the tire size.",
+   "src": "PRACTICAL MOTORING · EXPEDITION PORTAL"
+  },
+  {
+   "q": "Was the 4×4² sold in the US?",
+   "a": "Yes, for the 2017 model year, as the G 550 4×4². Mercedes-Benz USA listed it at $225,000 plus a $925 destination charge, with deliveries from early 2017.",
+   "src": "MBUSA · TFLCAR"
+  },
+  {
+   "q": "How much ground clearance and wading depth?",
+   "a": "17.24 inches at maximum load and 39.4 inches of fording depth in US spec — up 7.9 and 15.8 inches respectively over a 2016 G 550. European figures are 450 mm and 1,000 mm.",
+   "src": "MBUSA · CAR MAGAZINE"
+  },
+  {
+   "q": "What are its approach and departure angles?",
+   "a": "51.6° approach and 43.8° departure. Mercedes quoted breakover as 47.4° in its launch release and 44.6° at maximum load in the spec sheet.",
+   "src": "MBUSA"
+  },
+  {
+   "q": "Is it just a G 63 6×6 with an axle missing?",
+   "a": "Partly. It uses a shortened version of the 6×6’s chassis and portal running gear, but with the five-door long-wheelbase body, the G 500/G 550’s 4.0-litre twin-turbo V8 and a seven-speed automatic.",
+   "src": "WIKIPEDIA · KBB"
+  },
+  {
+   "q": "What fuel economy does it get?",
+   "a": "Mercedes-Benz USA’s spec sheet lists 11 mpg city, 11 highway and 11 combined. The fuel tank holds 25.4 gallons.",
+   "src": "MBUSA"
+  },
+  {
+   "q": "Will it fit in my garage?",
+   "a": "Maybe not. It’s 88.0 inches tall, 86.2 inches wide including mirrors and 177.1 inches long, with a 46.9-foot turning circle.",
+   "src": "MBUSA"
+  },
+  {
+   "q": "How heavy is it?",
+   "a": "6,694 lb curb weight — almost a thousand pounds more than a regular G 550.",
+   "src": "MBUSA"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "Mercedes-Benz USA’s 2017 spec sheet listed towing as “TBA,” so check the owner’s manual and hitch rating for your specific truck rather than assuming the regular G 550’s figure.",
+   "src": "MBUSA"
+  },
+  {
+   "q": "Can I use the diff locks on pavement?",
+   "a": "No. Locked diffs bind the driveline on grippy surfaces. Lock up on loose ground at low speed and unlock before tarmac.",
+   "src": "BOXYTRUCKS"
+  },
+  {
+   "q": "How is it different from the newer G 63 4×4²?",
+   "a": "The 2022-on G 63 4×4² is built on the second-generation G with independent front suspension, makes 585 hp and costs $350,050. It has less clearance (13.8 in) and wading depth (35.8 in) than the original, and weighs 379 lb less.",
+   "src": "WIKIPEDIA"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "OFF-ROAD PACKAGES",
+   "why": "Brabus’ Adventure package is designed specifically for the 4×4² — bodywork, lighting and off-road upgrades.",
+   "who": [
+    {
+     "name": "Brabus Adventure 4×4² package (via GwagenParts)",
+     "url": "https://www.gwagenparts.com/brabus-adventure-4x4²-package-for-mercedes-g550-4x4²-complete-off-road-upgrade-kit-fits-g500-4x4²-w463"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACKS & LADDERS",
+   "why": "Long-wheelbase W463 racks fit the 4×4² body — though at 88 inches tall, loading the roof is a ladder job.",
+   "who": [
+    {
+     "name": "LETECH (via GwagenParts)",
+     "url": "https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/"
+    },
+    {
+     "name": "Front Runner",
+     "url": "https://www.frontrunneroutfitters.com/"
+    }
+   ]
+  },
+  {
+   "cat": "OVERLAND BUILDS",
+   "why": "Turning a show-pony 4×4² into a self-sufficient travel truck: storage, power, lighting, recovery.",
+   "who": [
+    {
+     "name": "Jackwagon Overlanding",
+     "url": "https://jackwagonoverlanding.com/"
+    }
+   ]
+  },
+  {
+   "cat": "PORTAL CONVERSIONS",
+   "why": "Can’t find a factory truck? Builders add portal axles and dual suspension to ordinary W463s — Banyan Motors’ LeTech-equipped G 500 is one example.",
+   "who": []
+  },
+  {
+   "cat": "WHEELS & TIRES",
+   "why": "Dropping from 22s to 18-inch beadlocks with 37-inch mud-terrains is the classic 4×4² move — verify caliper clearance and re-code the tire size.",
+   "who": []
+  }
+ ],
+ "searches": [
+  {
+   "years": "2017–2018 · US",
+   "label": "G 550 4×4² (keyword “4x4”)",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2017&maxyear=2018&keywords=4x4",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "years": "2022 ON",
+   "label": "G 63 4×4² (second gen)",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2022&keywords=4x4",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-2019/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "@Nothing-but-Gs",
+   "focus": "G-WAGEN BUILDS & OFF-ROAD UPGRADES",
+   "url": "https://www.youtube.com/@Nothing-but-Gs"
+  },
+  {
+   "kind": "YT",
+   "name": "@Gluxetravel",
+   "focus": "G-CLASS TRAVEL",
+   "url": "https://www.youtube.com/@Gluxetravel"
+  },
+  {
+   "kind": "YT",
+   "name": "@Littlehandegan",
+   "focus": "G-WAGENS",
+   "url": "https://www.youtube.com/@Littlehandegan"
+  },
+  {
+   "kind": "IG",
+   "name": "@gzilla500",
+   "focus": "W463 G 500 BUILD",
+   "url": "https://www.instagram.com/gzilla500/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "MBWorld — G-Class (W460 / W461 / W463)",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
+   "note": "Deepest technical archive; DIY threads on lockers, vacuum and cooling"
+  },
+  {
+   "name": "Club G-Wagen",
+   "url": "https://clubgwagen.com/forum/",
+   "note": "The original G community since 1998; rallies and classifieds"
+  },
+  {
+   "name": "BenzWorld — G-Class",
+   "url": "https://www.benzworld.org/forums/g-class.209/",
+   "note": "General ownership and maintenance"
+  },
+  {
+   "name": "Expedition Portal",
+   "url": "https://forum.expeditionportal.com/",
+   "note": "Gs as overland rigs — the long-running “2017 G550 – Tire Options” thread lives here"
+  },
+  {
+   "name": "r/gwagon",
+   "url": "https://www.reddit.com/r/gwagon/",
+   "note": "Quick answers and photos"
+  }
+ ],
+ "related": [
+  {
+   "rel": "BASE TRUCK",
+   "name": "G 550",
+   "family": "g-class",
+   "gen": "g550"
+  },
+  {
+   "rel": "EUROPEAN SIBLING",
+   "name": "G 500",
+   "family": "g-class",
+   "gen": "g500"
+  },
+  {
+   "rel": "PARENT PLATFORM",
+   "name": "W463",
+   "family": "g-class",
+   "gen": "w463"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "Second-generation G (incl. G 63 4×4²)",
+   "family": "g-class",
+   "gen": "second-gen"
+  },
+  {
+   "rel": "SPIRITUAL RIVAL",
+   "name": "Ineos Grenadier",
+   "family": "grenadier",
+   "gen": "station-wagon"
+  },
+  {
+   "rel": "SPIRITUAL RIVAL",
+   "name": "Land Rover Defender (L663)",
+   "family": "land-rover",
+   "gen": "defender-l663"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "W463 (4×4²)"
+  },
+  {
+   "k": "YEARS",
+   "v": "2015–2017 (US: 2017 MY)"
+  },
+  {
+   "k": "ENGINE",
+   "v": "M176 4.0 L twin-turbo V8"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "416 hp · 450 lb-ft (US)"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "7G-TRONIC PLUS 7-speed"
+  },
+  {
+   "k": "AXLES",
+   "v": "Portal, rigid front & rear"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Dual springs, adjustable dampers"
+  },
+  {
+   "k": "CLEARANCE",
+   "v": "17.24 in"
+  },
+  {
+   "k": "WADING",
+   "v": "39.4 in"
+  },
+  {
+   "k": "APPROACH / DEP.",
+   "v": "51.6° / 43.8°"
+  },
+  {
+   "k": "CURB WEIGHT",
+   "v": "6,694 lb"
+  },
+  {
+   "k": "US MSRP",
+   "v": "$225,000"
+  }
+ ],
+ "photos": [
+  {
+   "file": "ridgeline.jpg",
+   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
+   "caption": "STANDARD SECOND GEN, NOT A 4×4² · RIDGELINE",
+   "credit": "Dextar Studio",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Mercedes-Benz USA — The 2017 Mercedes-Benz G550 4x4²",
+   "url": "https://media.mbusa.com/releases/release-55766a69234744b79ccb54ae18a3b4d2-the-2017-mercedes-benz-g550-4x4"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2017 G550 4x4² specifications",
+   "url": "https://media.mbusa.com/releases/release-fc483f18cd5c416fb48fd55525c428bc-2017-mercedes-benz-g550-specifications"
+  },
+  {
+   "name": "Mercedes-Benz USA — Press release, 2017 G550 (PDF, with G550 comparison specs)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/Press-Release-2017-G550.pdf"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "CAR magazine (SA) — Say farewell: Mercedes-Benz calls time on G500 4×4²",
+   "url": "https://www.carmag.co.za/news_post/say-farewell-mercedes-benz-calls-time-on-g500-4x4%C2%B2/"
+  },
+  {
+   "name": "Practical Motoring — Mercedes-Benz G500 4×4² details revealed",
+   "url": "https://practicalmotoring.com.au/?p=12066"
+  },
+  {
+   "name": "Expedition Portal — Mercedes solves the equation with G500²",
+   "url": "https://expeditionportal.com/mercedes-solves-the-equation-with-g500%c2%b2/"
+  },
+  {
+   "name": "TFLcar — The Mercedes-Benz G550 4×4² will be available in the United States",
+   "url": "https://tflcar.com/2016/06/mercedes-benz-g550-4x4²-will-available-united-states/"
+  },
+  {
+   "name": "Kelley Blue Book — 2017 Mercedes-Benz G550 4x4² America-bound",
+   "url": "https://www.kbb.com/car-news/2017-mercedes-benz-g550-4x4-2-america-bound"
+  },
+  {
+   "name": "Bring a Trailer — 39k-mile 2017 Mercedes-Benz G550 4×4²",
+   "url": "https://bringatrailer.com/listing/2017-mercedes-benz-g550-4x4%c2%b2-40/"
+  },
+  {
+   "name": "Bring a Trailer — Modified 2000 Mercedes-Benz G500 (4×4²-style portal conversion)",
+   "url": "https://bringatrailer.com/listing/2000-mercedes-benz-g500-17/"
+  },
+  {
+   "name": "au7o — G-Class known issues (2012)",
+   "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2012"
+  },
+  {
+   "name": "FCP Euro — Liqui Moly Top Tec 229.52 oil change kit (G 550, G 550 4×4², 9 L)",
+   "url": "https://www.fcpeuro.com/products/mercedes-oil-change-kit-0w30-liqui-moly-top-tec-229-52-kit-22952dilm0m176"
+  },
+  {
+   "name": "FCP Euro — Genuine Mercedes ATF 236.15 (722.9 from 21/06/2010)",
+   "url": "https://www.fcpeuro.com/products/mercedes-auto-trans-fluid-001989780309"
+  },
+  {
+   "name": "FCP Euro — Genuine Mercedes coolant MB 325.6 (G 550 2015-on fitment)",
+   "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+  }
+ ],
+ "baseline_service": {
+  "intro": "The 4×4² shares its engine, gearbox and lockers with the 2016–2018 G 550, so the drivetrain basics are the same — but the portal axles add hub reduction gears that a regular G doesn’t have, and many shops have never serviced one. Baseline everything, and confirm portal-axle specs with a Mercedes dealer.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "M176 4.0 twin-turbo · MB 229.5 or 229.52 · ≈9 L [CONFIRM IN MANUAL]",
+    "interval": "Now, then per the service indicator [CONFIRM IN MANUAL]",
+    "note": "FCP Euro lists its 9-litre 229.52 kit and the Mann filter kit for the G 550 4×4².",
+    "parts": [
+     {
+      "name": "Liqui Moly Top Tec 0W-30 (MB 229.52) oil change kit, 9 L — listed for G 550 / G 550 4×4²",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-oil-change-kit-0w30-liqui-moly-top-tec-229-52-kit-22952dilm0m176"
+     },
+     {
+      "name": "Mann oil filter kit 176 180 08 00 (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-oil-filter-kit-mann-1761800800"
+     }
+    ]
+   },
+   {
+    "item": "Air filters",
+    "spec": "M176 air filter set",
+    "interval": "Now if undated",
+    "note": "Dusty trail use loads the filters quickly.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes air filter set 177 094 00 04 (M176, 2016–2021)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-air-filter-set-genuine-mercedes-1770940004"
+     }
+    ]
+   },
+   {
+    "item": "Cabin air filter",
+    "spec": "W463 cabin filter",
+    "interval": "Now, then yearly",
+    "note": "",
+    "parts": [
+     {
+      "name": "Mahle LAK120 cabin air filter",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-cabin-air-filter-mahle-lak120"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs & coils",
+    "spec": "M176 spark plugs (Mercedes-spec)",
+    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "note": "Pulling the coils means removing the engine covers; read the misfire counters first.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes spark plug 000 159 05 00 (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-spark-plug-genuine-mercedes-0001590500"
+     },
+     {
+      "name": "Genuine Mercedes ignition coil 177 906 02 06 (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-ignition-coil-genuine-mercedes-1779064202"
+     }
+    ]
+   },
+   {
+    "item": "Coolant",
+    "spec": "MB 325.6 (FCP Euro lists Genuine Mercedes for the 2015-on G 550)",
+    "interval": "Now if undated",
+    "note": "Check hoses and the expansion-tank cap while you’re there.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes coolant, MB 325.6 (pink), 1 gal",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (7G-TRONIC PLUS 722.9)",
+    "spec": "MB 236.15 (blue)",
+    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "note": "No dipstick: new filter and pan gasket, then set the level at temperature with a scan tool.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes ATF, MB 236.15 (blue)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-auto-trans-fluid-001989780309"
+     },
+     {
+      "name": "Febi 722.9 transmission filter kit",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-transmission-filter-kit-febi-228600116"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
+    "interval": "Now if no record",
+    "note": "Same two-speed case and centre lock as the G 550.",
+    "parts": []
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Gear oil type and capacity [CONFIRM IN MANUAL]",
+    "interval": "Now if no record",
+    "note": "The portal axles come from the G 63 AMG 6×6 — don’t assume standard G 550 capacities.",
+    "parts": []
+   },
+   {
+    "item": "Portal hub reduction gears",
+    "spec": "Oil type and capacity [CONFIRM IN MANUAL]",
+    "interval": "Now if no record",
+    "note": "Each wheel has its own gear set. Check every hub for weeps and compare the oil from each corner — a dealer that has done one before is worth finding.",
+    "parts": []
+   },
+   {
+    "item": "Diff locks",
+    "spec": "Inspection — engage centre, rear, front in order",
+    "interval": "Now, then monthly exercise",
+    "note": "Disuse kills lockers. If one won’t engage, trace vacuum or wiring before suspecting the differential.",
+    "parts": [
+     {
+      "name": "Vacuum hoses listed for the G 550",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G550/Vacuum-Hose/"
+     }
+    ]
+   },
+   {
+    "item": "Power steering fluid",
+    "spec": "Type [CONFIRM IN MANUAL] — MB 236.3 on earlier hydraulic W463s",
+    "interval": "Now if dark or no record",
+    "note": "Never mix power steering fluid with ATF.",
+    "parts": []
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 4 Plus (Genuine Mercedes)",
+    "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
+    "note": "At 6,694 lb on 22-inch wheels, the brakes work hard — start with fresh fluid.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes DOT 4 Plus brake fluid, 1 L",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-dot-4-plus-motor-vehicle-brake-fluid-1l-genuine-mercedes-000989080701"
+     }
+    ]
+   },
+   {
+    "item": "Drive belt",
+    "spec": "M176 accessory belt",
+    "interval": "Inspect now; replace if cracked or undated",
+    "note": "",
+    "parts": [
+     {
+      "name": "Continental accessory drive belt (M176)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-accessory-drive-belt-contitech-0039934196"
+     }
+    ]
+   },
+   {
+    "item": "Tires, dampers & battery",
+    "spec": "325/55R22 tires · dual springs with adjustable dampers · group 49 AGM battery",
+    "interval": "At purchase",
+    "note": "Check the tire date codes — replacements are big and expensive. Look for leaking dampers at all eight units. Load-test the battery: these trucks often sit for long periods.",
+    "parts": [
+     {
+      "name": "Bosch S6 AGM battery, group 49",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/group-49-battery-bosch-s6588b"
+     }
+    ]
+   }
+  ]
+ }
+}

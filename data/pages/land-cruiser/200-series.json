@@ -1,0 +1,1032 @@
+{
+ "slug": "200-series",
+ "title": "Land Cruiser 200 Series",
+ "eyebrow": "TOYOTA LAND CRUISER · J200 · 2007–2021",
+ "verdict": "The 200 is a nearly three-ton bank vault with a 5.7-liter V8 and a crawl-control button, and it is far better in the dirt than anything with a heated steering wheel has any right to be. It was also the last of its kind in America: when it left after 2021, the big V8 Land Cruiser went with it.",
+ "codes": [
+  "URJ200",
+  "3UR-FE 5.7 V8",
+  "KDSS",
+  "CRAWL CONTROL",
+  "US MODEL YEARS 2008–2021"
+ ],
+ "hero_photo": "lc200-dune-sunset.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Toyota launched the 200 Series in late 2007 with a new frame and platform, bigger brakes, a strengthened front suspension, skid plates and roof pillars redesigned for rollover protection. In the US it came with one engine, the 5.7-liter 3UR-FE V8 at 381 hp, in a single trim level. Sadayoshi Koyari, the lead engineer known as 'Mr Land Cruiser', called it 'the strongest Land Cruiser ever produced by Toyota.' Fourteen years later Toyota pulled the Land Cruiser from North America, and the 200 became the last full-size Land Cruiser wagon sold there."
+   ]
+  },
+  {
+   "heading": "A FIVE-YEAR PLAN",
+   "paragraphs": [
+    "Work on a successor to the [[land-cruiser/100-series|100 Series]] began in 2002 under Koyari and Tetsuya Tada. A production design was settled in 2004, ten years after the 100's, and prototypes were tested for more than two years, from 2004 to early 2007. Production started in September 2007 at Toyota's Yoshiwara and Tahara plants. In Venezuela it went on sale that November under the nickname 'Roraima', after Mount Roraima.",
+    "Underneath, it shared its platform with the [[lexus/lx570|Lexus LX 570]] and was related to the Tundra and Sequoia of the same era. The global range was huge: a 4.0 V6, three petrol V8s and the 4.5-liter 1VD-FTV twin-turbo diesel V8, a twin-turbo version of the engine in the [[land-cruiser/70-series|70 Series]]. Unsealed 4X4 says the diesel made up about 90 percent of 200 sales in Australia."
+   ]
+  },
+  {
+   "heading": "ELECTRONICS THAT EARN THEIR KEEP",
+   "paragraphs": [
+    "The 200 brought a set of off-road aids no previous Land Cruiser had. CRAWL works like off-road cruise control, holding a slow, steady speed with throttle and brakes. There was also Downhill Assist Control, a multi-terrain ABS calibration, and KDSS, the Kinetic Dynamic Suspension System, which frees up wheel articulation off-road while keeping body roll in check on the highway. US trucks used an AB60F six-speed automatic, a JF2A full-time transfer case and 3.90 gears.",
+    "There was no 2012 model year in the US. Slee notes that 2011 production ran late and the 2013s started early. The 2013 facelift added Multi-Terrain Select with five modes, Turn Assist for tight trails, and front, side and rear cameras. For 2016 came the biggest change: an AE80F eight-speed automatic, taller 3.30 gears, larger front brakes, Toyota Safety Sense and new styling front and rear."
+   ]
+  },
+  {
+   "heading": "HOW IT ENDED",
+   "paragraphs": [
+    "To mark 60 years since the [[land-cruiser/fj40|FJ40]], Toyota built the Heritage Edition for 2020 and 2021. It was a two-row truck in black or white with bronze BBS forged wheels, a Yakima MegaWarrior basket, no running boards and a vintage Land Cruiser badge on the rear pillars. Slee counts 1,202 built for 2020. In December 2020 Toyota told Road & Track the Land Cruiser would leave North America after 2021, and production ended in March 2021.",
+    "Elsewhere the [[land-cruiser/300-series|300 Series]] took over. Americans waited until 2024, when the name came back on the smaller, Prado-based [[land-cruiser/250-series|250 Series]]. The [[lexus/lx570|LX 570]] also ended in 2021, and Lexus replaced it with the [[lexus/lx600|LX 600]]. For American buyers who want a big V8 Land Cruiser wagon with a frame under it, the 200 is the last one."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · NINE IN A ROW",
+  "title": "The 200 Series at the Dakar Rally",
+  "paragraphs": [
+   "Team Land Cruiser Toyota Auto Body raced the 200 in the Dakar Rally's Group T2 production class from 2009 to 2022. T2 is for production-based vehicles, so these were recognizably showroom Land Cruisers, the diesel VDJ200 in recent years, not purpose-built prototypes.",
+   "From 2014 to 2022 the team won the class nine years in a row. For a truck that often ended up in suburban school lines, that's a remarkable record."
+  ]
+ },
+ "engineering_intro": "The 200 is built on a new, stronger frame with independent front suspension and a coil-sprung live rear axle. The clever part is KDSS, a system that frees up articulation off-road and stiffens the truck on the road. US trucks use the 5.7-liter 3UR-FE, a 32-valve DOHC, chain-driven V8 with dual VVT-i, and full-time four-wheel drive with a lockable center differential.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "New ladder frame, 112.2 in wheelbase",
+   "note": "Stronger front suspension, skid plates and reinforced roof pillars. Shares its platform with the LX 570."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "IFS front, coil-sprung live rear axle, KDSS",
+   "note": "KDSS has two lock valves (5 mm hex). They are opened during suspension work and must be closed again afterward."
+  },
+  {
+   "k": "4WD SYSTEM",
+   "v": "Full-time, JF2A transfer case",
+   "note": "Lockable center differential. Slee's US spec list includes no factory axle lockers."
+  },
+  {
+   "k": "OFF-ROAD AIDS",
+   "v": "CRAWL, Downhill Assist, multi-terrain ABS",
+   "note": "2013 added five-mode Multi-Terrain Select, Turn Assist and multi-terrain cameras."
+  },
+  {
+   "k": "ENGINE (US)",
+   "v": "3UR-FE 5.7 L DOHC 32v V8",
+   "note": "381 hp @ 5,600 rpm, 401 lb-ft @ 3,600 rpm. Chain-driven cams, dual VVT-i."
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "AB60F 6-speed (2008–15) / AE80F 8-speed (2016–21)",
+   "note": "Axle ratio went from 3.90 to 3.30 with the eight-speed."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "2008–2015 (US)",
+   "platform": "URJ200",
+   "engine": "3UR-FE 5.7 L V8",
+   "output": "381 hp / 401 lb-ft",
+   "note": "AB60F six-speed, 3.90 gears. No 2012 model year in the US; 2013 facelift added MTS and cameras."
+  },
+  {
+   "years": "2016–2021 (US)",
+   "platform": "URJ200",
+   "engine": "3UR-FE 5.7 L V8",
+   "output": "381 hp / 401 lb-ft",
+   "note": "AE80F eight-speed, 3.30 gears, bigger front brakes. Heritage Edition 2020–21."
+  },
+  {
+   "years": "2007–2012",
+   "platform": "UZJ200",
+   "engine": "2UZ-FE 4.7 L V8",
+   "output": "271 hp / 410 Nm",
+   "note": "Early petrol V8 in Australia and Hong Kong; also the Middle East and Japan at launch."
+  },
+  {
+   "years": "2009–2021",
+   "platform": "URJ202",
+   "engine": "1UR-FE 4.6 L V8",
+   "output": "313–318 hp / 460 Nm",
+   "note": "Replaced the 2UZ in Japan in 2009 and in several other markets later."
+  },
+  {
+   "years": "2007–2021",
+   "platform": "VDJ200",
+   "engine": "1VD-FTV 4.5 L twin-turbo diesel V8",
+   "output": "Up to 268 hp / 650 Nm",
+   "note": "The global favorite. Piezo injectors and a DPF arrived with the 2015 update. Never sold in the US."
+  },
+  {
+   "years": "2007–2021",
+   "platform": "GRJ200",
+   "engine": "1GR-FE 4.0 L V6",
+   "output": "—",
+   "note": "Entry engine in the Middle East and elsewhere. The only 200 offered with a five-speed manual."
+  },
+  {
+   "years": "2008–2021 (US)",
+   "platform": "Lexus LX 570",
+   "engine": "3UR-FE 5.7 L V8",
+   "output": "383 hp / 403 lb-ft (Lexus rating)",
+   "note": "AHC and adaptive damping standard; spindle grille from 2013."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Look for pink crust at the water pump",
+   "body": "Dried pink coolant running down the front of the engine from the water-pump weep hole is the classic 3UR sign. One owner's build thread notes the engine is known for water-pump weeps around 100,000 miles, and that the pump usually gives plenty of warning."
+  },
+  {
+   "head": "Scan for air-injection codes",
+   "body": "A check-engine light with VSC and traction-control lights on together often turns out to be the secondary air-injection system, such as code P2438 for the pressure sensor. It's emissions-related and the truck drives normally, but a seller who has cleared codes is hiding a repair."
+  },
+  {
+   "head": "If the suspension has been touched, check the KDSS valves",
+   "body": "After a lift or shock swap, the two KDSS valves must be closed again. One IH8MUD owner found a shop had left them fully open and the truck rolled alarmingly on uneven roads. Check them with a 5 mm hex key, and test-drive on a winding road."
+  },
+  {
+   "head": "Listen for a driveline clunk",
+   "body": "A thunk when stopping and pulling away usually isn't the transmission. Unsealed 4X4 traces it to dry universal joints, especially on trucks that cross water. Ask when the driveshafts were last greased."
+  },
+  {
+   "head": "Check the oil filter cap",
+   "body": "The 3UR has a plastic oil filter housing cap that wrenches round off and that can warp or crack with age. Look for leaks and chewed edges."
+  },
+  {
+   "head": "Know which phase you're buying",
+   "body": "2008–2011: six-speed, 3.90 gears. 2013–2015: facelift with Multi-Terrain Select, Turn Assist and cameras. 2016–2021: eight-speed, 3.30 gears, bigger brakes, Toyota Safety Sense. There's no 2012 in the US."
+  },
+  {
+   "head": "Ask about towing",
+   "body": "KBB lists 8,500 lb for 2008 and 8,100 lb for 2016–2021. A truck that pulled a heavy trailer for years deserves a closer look at the transmission fluid, the brakes and the rear springs."
+  },
+  {
+   "head": "Diesel (non-US) 200s: injectors, DPF and airbox",
+   "body": "On the 1VD-FTV, Unsealed's big three are injector problems (rough idle, smoke, poor economy), DPF and EGR trouble on 2015-on trucks, and dust getting past the airbox seal."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Replace a weeping water pump",
+   "diff": "3 / 5",
+   "time": "≈ A few hours",
+   "cost": "Pump and gasket plus coolant; one owner paid for 'a few hours of shop time'",
+   "symptoms": "Dried pink coolant trailing down the front of the engine from the water-pump weep hole, and a slowly dropping coolant level.",
+   "fix": "Following the factory manual, drain the coolant, remove the fan, drive belt and anything else in front of the pump, then fit the new pump with a new gasket. Refill and bleed the cooling system. The build-thread owner also replaced the fan bracket, because its bearing had been sitting in leaking coolant.",
+   "tools": "Basic metric sockets · belt tool · coolant catch tub · Aisin water pump and gasket · Toyota long-life coolant · fan bracket if contaminated.",
+   "parts": [
+    {
+     "name": "Water pump — 2015 Land Cruiser 5.7 (pick your year)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,cooling+system,water+pump,2208"
+    },
+    {
+     "name": "Water pump gasket",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,cooling+system,water+pump+gasket,2148"
+    },
+    {
+     "name": "Fan clutch bearing bracket",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,cooling+system,radiator+fan+clutch+bearing+bracket,11548"
+    },
+    {
+     "name": "OEM water pump diagram & part numbers (2015 URJ200)",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/engine_fuel_tool/water_pump.html"
+    }
+   ]
+  },
+  {
+   "title": "Diagnose secondary air-injection faults",
+   "diff": "3 / 5",
+   "time": "≈ 1–3 hours to diagnose",
+   "cost": "Parts plus labor; sensor first, pumps and valves cost more",
+   "symptoms": "A check-engine light, often with the slip light flashing and 'Check VSC' on, that may come and go, especially in cold or damp weather. Codes such as P2438 (pressure sensor circuit high, bank 2). Owners on Tundra sites also report P2440–P2443.",
+   "fix": "Read the code before you buy parts. IH8MUD members point to the factory description for P2438: pressure in the air-injection system is above its threshold, so suspects are the pressure sensor, its wiring or the ECM. If the light clears on its own, start with the sensor and wiring. Because the 3UR also powers the Tundra and Sequoia, their forums are a good source of fixes. Toyota extended warranty coverage on this system for 2007–2010 Tundras and 2008–2010 Sequoias; the Land Cruiser wasn't named.",
+   "tools": "OBD-II scanner with Toyota enhanced codes · multimeter · factory wiring diagram.",
+   "parts": [
+    {
+     "name": "Air / smog pump",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,exhaust+&+emission,air+/+smog+pump,4920"
+    },
+    {
+     "name": "Air pump check (switching) valve",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,exhaust+&+emission,air+/+smog+pump+check+valve,4912"
+    },
+    {
+     "name": "OEM air-injection system diagram (pumps, valves, sensor)",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/engine_fuel_tool/manifold_air_injection_system.html"
+    }
+   ]
+  },
+  {
+   "title": "Close the KDSS valves after suspension work",
+   "diff": "2 / 5",
+   "time": "≈ 15 minutes",
+   "cost": "Free",
+   "symptoms": "Alarming body roll on uneven roads, or a truck that feels wrong right after a lift or shock install.",
+   "fix": "Chock the wheels and get under the truck. The two KDSS valves are opened during suspension work and must be closed again afterward. Find both valves and confirm they're closed with a 5 mm hex key. If anyone has worked on the suspension, check them before your next drive.",
+   "tools": "5 mm hex key · wheel chocks · torch.",
+   "parts": [
+    {
+     "name": "OEM front spring & stabilizer diagram (KDSS control cylinder and lines)",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/front_spring_shock_absorber.html"
+    },
+    {
+     "name": "OEM rear stabilizer diagram (KDSS control tube)",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/rear_spring_shock_absorber.html"
+    },
+    {
+     "name": "5 mm hex bit socket (search)",
+     "supplier": "Summit Racing",
+     "url": "https://www.summitracing.com/search?keyword=5mm%20hex%20bit%20socket"
+    }
+   ]
+  },
+  {
+   "title": "Grease the driveshaft U-joints",
+   "diff": "1 / 5",
+   "time": "≈ 30 minutes",
+   "cost": "A tube of grease",
+   "symptoms": "A clunk when you come to a stop, as if you'd nudged the car ahead, and another clunk when you pull away.",
+   "fix": "Unsealed 4X4 says the clunk is usually dry universal joints, not the transmission or the differentials. Grease washes out in water crossings and breaks down under heavy crawling. Grease every U-joint and slip joint on both driveshafts about every six months, and again after deep water. If the clunk is still there, then start looking at the drivetrain.",
+   "tools": "Grease gun with a needle or angled coupler · quality chassis grease · creeper.",
+   "parts": [
+    {
+     "name": "Greaseable U-joint — fits 200 front and rear (UJ35031)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/u-joint-fits-1-90-1-98-7x-8x-front-8-02-100-120-150-200-lx470-gx460-gx470-570-front-98-100-200-lx470-570-rear-uj35031/"
+    },
+    {
+     "name": "Universal joints",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,drivetrain,universal+joint,2392"
+    },
+    {
+     "name": "OEM propeller shaft & U-joint diagram",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/propeller_shaft_universal_joint.html"
+    }
+   ]
+  },
+  {
+   "title": "Swap to an aluminum oil filter cap",
+   "diff": "1 / 5",
+   "time": "≈ 20 minutes at an oil change",
+   "cost": "About half the $60+ retail price of the plastic cap, per IH8MUD",
+   "symptoms": "A plastic cap that rounds off, lets the wrench slip, warps or cracks after many heat cycles.",
+   "fix": "An IH8MUD member found the aluminum cap from the Venza 3.5 V6 fits once you move over the internal parts. Bend up the two small tabs on the Land Cruiser cap's perforated support tube, push down, turn it about 45 degrees and lift it out. Watch for the spring and the drain-valve disc underneath. Fit the tube into the aluminum cap the same way and bend the tabs flat. Refill the oil, start the engine and check for weeps.",
+   "tools": "Flat screwdriver · cap-type filter wrench · aluminum cap 15620-31060 (as listed in the IH8MUD thread).",
+   "parts": [
+    {
+     "name": "Aluminum oil filter cap 15620-31060 (Venza 3.5 part, per IH8MUD)",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/oem/toyota~cap~assy~oil~filter~15620-31060.html"
+    },
+    {
+     "name": "Oil filter cartridge",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,engine,oil+filter,5340"
+    },
+    {
+     "name": "OEM oil filter diagram (cap, O-ring, element)",
+     "supplier": "ToyotaPartsDeal",
+     "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/engine_fuel_tool/oil_filter.html"
+    }
+   ]
+  },
+  {
+   "title": "Add rear air helper springs for towing",
+   "diff": "3 / 5",
+   "time": "≈ 2 hours on a lift",
+   "cost": "$200–250 for one IH8MUD owner",
+   "symptoms": "Almost 4 inches of sag at the hitch with a 5,000 lb trailer and about 600 lb of tongue weight, even with weight distribution set up.",
+   "fix": "Raise and support the rear, then disconnect the rear shocks so the axle can drop. Fit the air bags inside the rear coil springs, route the air lines away from heat, and add an onboard compressor with a union tee if you want to adjust them from the cab. Reconnect the shocks; the owner needed a long steel bar to compress the suspension enough to line them up. Run about 35 psi when towing.",
+   "tools": "Jack stands · long pry bar · Firestone 4164 air-bag kit · Air Lift 25804 compressor · Air Lift 21838 union tee · RTV · zip ties · marine grease.",
+   "parts": [
+    {
+     "name": "Firestone 4164 air helper spring kit (search)",
+     "supplier": "Summit Racing",
+     "url": "https://www.summitracing.com/search?keyword=firestone%204164"
+    },
+    {
+     "name": "Air Lift 25804 on-board compressor (search)",
+     "supplier": "Summit Racing",
+     "url": "https://www.summitracing.com/search?keyword=air%20lift%2025804"
+    },
+    {
+     "name": "Air Lift 21838 union tee (search)",
+     "supplier": "Air Lift Company",
+     "url": "https://www.airliftcompany.com/search?q=21838"
+    }
+   ]
+  },
+  {
+   "title": "Seal the airbox (1VD diesel)",
+   "diff": "1 / 5",
+   "time": "≈ 15 minutes to check",
+   "cost": "Free to check; an aftermarket airbox costs more",
+   "symptoms": "Red dust on the clean side of the filter, MAF faults, limp mode and, in bad cases, a failed right-hand turbo.",
+   "fix": "Pop the airbox lid and check under the filter. Some mechanics grease the filter's sealing surface, but Unsealed would fit an aftermarket airbox that seals properly. If dust has got in, clean the MAF and check the turbo for shaft play.",
+   "tools": "Screwdriver · torch · MAF cleaner · grease or an aftermarket airbox.",
+   "parts": [
+    {
+     "name": "Sterling air filter box — LandCruiser UZJ200/VDJ200 (petrol and diesel)",
+     "supplier": "Supercheap Auto (AU)",
+     "url": "https://www.supercheapauto.com.au/p/sterling-toyota-landcruiser--uzj200-vdj200--08-2007-%7E-onwards--air-filter-box--fitspetrolanddieselmodels./SPO4592632.html"
+    },
+    {
+     "name": "LandCruiser 200 air filters (search)",
+     "supplier": "Supercheap Auto (AU)",
+     "url": "https://www.supercheapauto.com.au/search?q=landcruiser%20200%20air%20filter"
+    },
+    {
+     "name": "CRC mass air flow sensor cleaner",
+     "supplier": "Supercheap Auto (AU)",
+     "url": "https://www.supercheapauto.com.au/p/crc-crc-mass-air-flow-sensor-cleaner-300g/157339.html"
+    }
+   ]
+  },
+  {
+   "title": "Replace leaking injectors (1VD diesel)",
+   "diff": "5 / 5",
+   "time": "≈ A long day or more",
+   "cost": "About A$4,000 in parts for a DIY job, plus a few thousand more for labor, per Unsealed",
+   "symptoms": "Rough idle, smoke, poor fuel economy, sludge in the intake and DPF trouble, often caused by leaking injector seat washers.",
+   "fix": "Unsealed's advice is to replace all eight injectors with updated seat washers rather than one at a time, because single replacements often failed again within months. Do it under warranty where possible. Out of warranty, many specialists will do it for less than a dealer.",
+   "tools": "Workshop manual · injector puller · new injectors and updated washers (all eight) · a diagnostic tool to code the injectors.",
+   "parts": [
+    {
+     "name": "1VD-FTV engine gaskets and seals (search)",
+     "supplier": "Supercheap Auto (AU)",
+     "url": "https://www.supercheapauto.com.au/search?q=1vd-ftv"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "On IH8MUD, 285/65R18 'will fit fine with zero rubbing' on a stock truck, and 285/70R18 'will rub a bit but should be manageable', One owner running 285/70R17s on aftermarket wheels reported light rubbing on the plastic liner, which he fixed with a heat gun. 275/70s are described as 'tried and true'. For anything bigger, check the forum's 200 Series Tire and Wheel Size Database.",
+   "src": "IH8MUD"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "KBB lists 8,500 lb for 2008, 8,200 lb for 2015 and 8,100 lb for 2016–2021. An IH8MUD owner with a 2013 quotes 8,500 lb with an 850 lb maximum tongue weight. Weight distribution helps the short 112-inch wheelbase, and rear air helpers fix sag.",
+   "src": "KBB · IH8MUD"
+  },
+  {
+   "q": "Six-speed or eight-speed?",
+   "a": "2008–2015 trucks have the AB60F six-speed with 3.90 gears. 2016–2021 trucks have the AE80F eight-speed with 3.30 gears and bigger front brakes. If you plan big tires on an eight-speed truck, re-gearing (Nitro's 4.88s are a common choice) restores the lost low-end response.",
+   "src": "SLEE · IH8MUD"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "KBB lists 13 mpg city and 18 highway (15 combined) for most years, and 13/17 for 2021, on a 24.6-gallon tank. It needs regular unleaded, not premium.",
+   "src": "KBB"
+  },
+  {
+   "q": "Does it have lockers?",
+   "a": "US trucks have full-time four-wheel drive with a lockable center differential, plus A-TRAC, CRAWL and (from 2013) Multi-Terrain Select. Front and rear lockers are aftermarket; ARB Air Lockers and Harrop E-lockers are both common in IH8MUD build signatures.",
+   "src": "SLEE · IH8MUD"
+  },
+  {
+   "q": "What is KDSS, and does it complicate a lift?",
+   "a": "The Kinetic Dynamic Suspension System lets the wheels articulate more off-road while controlling body roll on the road. It complicates lifts a little: the KDSS valves are opened during suspension work and must be closed afterward. IH8MUD has a warning thread from an owner whose shop left them open.",
+   "src": "WIKIPEDIA · IH8MUD"
+  },
+  {
+   "q": "Was there a diesel in the US?",
+   "a": "No. North America only ever got the 5.7-liter 3UR-FE petrol V8. The 4.5-liter twin-turbo 1VD-FTV diesel was sold in Australia, Europe, the Middle East and elsewhere.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "What breaks?",
+   "a": "On US 3UR trucks: water pumps around 100,000 miles, secondary air-injection faults, plastic oil filter caps and dry U-joints. On diesels: injectors, the DPF and EGR on 2015-on trucks, and dust past the airbox. Unsealed also notes some 200s have a vibration that owners argue about.",
+   "src": "EXPO · IH8MUD · UNSEALED 4X4"
+  },
+  {
+   "q": "What's special about the Heritage Edition?",
+   "a": "Built for 2020 and 2021 to mark 60 years since the FJ40: two rows of seats, black or white paint, bronze BBS forged wheels, a Yakima MegaWarrior basket, no running boards or side moldings, and a vintage Land Cruiser badge. Slee counts 1,202 for 2020.",
+   "src": "SLEE · WIKIPEDIA"
+  },
+  {
+   "q": "Why did Toyota stop selling it in the US?",
+   "a": "In December 2020 Toyota told Road & Track that the Land Cruiser would end in North America after 2021. The name came back in 2024 on the smaller [[land-cruiser/250-series|250 Series]], and the [[land-cruiser/300-series|300 Series]] flagship isn't sold in the US.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Is the Lexus LX 570 the same truck?",
+   "a": "It shares the platform and the 3UR-FE (Lexus rates it at 383 hp and 403 lb-ft), but the [[lexus/lx570|LX 570]] adds standard AHC height control and adaptive damping, 20-inch wheels and a lot more leather.",
+   "src": "SLEE"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "A two- to three-inch lift with better shocks clears 285/70s and bigger. On KDSS trucks, close the valves afterward. Many IH8MUD builds pair a lift with aftermarket upper control arms.",
+   "who": [
+    {
+     "name": "Old Man Emu (ARB)",
+     "url": "https://www.oldmanemu.com/en-us"
+    },
+    {
+     "name": "ICON Vehicle Dynamics",
+     "url": "https://www.icon4x4.com"
+    },
+    {
+     "name": "Slee Off-Road — suspension",
+     "url": "https://sleeoffroad.com/product-category/suspension/suspension-kits"
+    }
+   ]
+  },
+  {
+   "cat": "ROCK SLIDERS & SKIDS",
+   "why": "The running boards are decoration. Sliders protect the rockers, and a full skid set protects the IFS, engine and transmission.",
+   "who": [
+    {
+     "name": "Metal Tech 4x4 — 200 Series sliders",
+     "url": "https://www.metaltech4x4.com/products/metal-tech-200-series-toyota-land-cruiser-rock-sliders-2008-2021"
+    },
+    {
+     "name": "Slee Off-Road — sliders",
+     "url": "https://sleeoffroad.com/product-category/body-armor/sliders"
+    }
+   ]
+  },
+  {
+   "cat": "GEARS & LOCKERS",
+   "why": "Bigger tires dull the 3.30-geared eight-speed in particular. Re-gearing to 4.88 and adding selectable lockers is the classic 200 build.",
+   "who": [
+    {
+     "name": "Nitro Gear & Axle",
+     "url": "https://www.nitrogear.com"
+    },
+    {
+     "name": "ARB Air Locker",
+     "url": "https://arbusa.com/air-locker"
+    },
+    {
+     "name": "Harrop",
+     "url": "https://www.harrop.com.au"
+    }
+   ]
+  },
+  {
+   "cat": "BUMPERS & WINCH",
+   "why": "A winch-capable front bumper, plus a rear bumper with a tire carrier to free up cargo space.",
+   "who": [
+    {
+     "name": "Slee Off-Road — front bumpers",
+     "url": "https://sleeoffroad.com/product-category/body-armor/front-bumpers/"
+    }
+   ]
+  },
+  {
+   "cat": "SNORKEL",
+   "why": "Raises the intake for water crossings and dust; IH8MUD's technical FAQ includes a Safari snorkel install. On diesels, pair it with a properly sealed airbox.",
+   "who": [
+    {
+     "name": "Safari 4x4 Engineering",
+     "url": "https://safari4x4.com.au"
+    },
+    {
+     "name": "Slee Off-Road — snorkels",
+     "url": "https://sleeoffroad.com/product-category/drivetrain/snorkels"
+    }
+   ]
+  },
+  {
+   "cat": "OEM & REBUILD PARTS",
+   "why": "Water pumps, air-injection parts, filters and suspension in OEM or OEM-supplier quality.",
+   "who": [
+    {
+     "name": "Cruiser Outfitters (CruiserTeq) — 200 Series",
+     "url": "https://cruiserteq.com/200-series/"
+    },
+    {
+     "name": "Cruiser Corps — 200 Series",
+     "url": "https://cruisercorps.com/collections/200-series-shop-all"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "2008–2015 · US",
+   "label": "URJ200 (6-speed)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=2008&maxyear=2015",
+   "bat_url": "https://bringatrailer.com/toyota/200-series-land-cruiser/"
+  },
+  {
+   "years": "2016–2021 · US",
+   "label": "URJ200 (8-speed, incl. Heritage Edition)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=2016&maxyear=2021",
+   "bat_url": "https://bringatrailer.com/toyota/200-series-land-cruiser/"
+  },
+  {
+   "years": "2008–2021 · US",
+   "label": "Lexus LX 570 (200 twin)",
+   "at_url": "https://www.autotempest.com/results?make=lexus&model=lx570&minyear=2008&maxyear=2021",
+   "bat_url": "https://bringatrailer.com/lexus/lx570/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Metal Tech 4x4",
+   "focus": "200 / LX 570 SLIDER INSTALLS",
+   "url": "https://www.youtube.com/@MetalTech4x4"
+  },
+  {
+   "kind": "YT",
+   "name": "Cruiser Outfitters",
+   "focus": "URJ200 REPAIRS & LC EVENTS",
+   "url": "https://www.youtube.com/@cruiseroutfitters1846"
+  },
+  {
+   "kind": "IG",
+   "name": "@ih8mud",
+   "focus": "LAND CRUISER COMMUNITY",
+   "url": "https://www.instagram.com/ih8mud/"
+  },
+  {
+   "kind": "IG",
+   "name": "@metaltech4x4",
+   "focus": "SLIDERS, BUMPERS & BUILDS",
+   "url": "https://www.instagram.com/metaltech4x4/"
+  },
+  {
+   "kind": "IG",
+   "name": "@cruiseroutfitters",
+   "focus": "LAND CRUISER PARTS & BUILDS",
+   "url": "https://www.instagram.com/cruiseroutfitters"
+  }
+ ],
+ "forums": [
+  {
+   "name": "IH8MUD — 200-Series Cruisers",
+   "url": "https://forum.ih8mud.com/forums/200-series-cruisers.136/",
+   "note": "The main 200 Series and LX 570 forum."
+  },
+  {
+   "name": "IH8MUD — 200 Series Technical FAQ",
+   "url": "https://forum.ih8mud.com/threads/200-series-technical-faq-frequently-asked-questions-and-modifications.550588/",
+   "note": "An index of install, repair and build threads."
+  },
+  {
+   "name": "IH8MUD — 200 Series Tire and Wheel Size Database",
+   "url": "https://forum.ih8mud.com/threads/200-series-tire-and-wheel-size-database.818686/",
+   "note": "Owner-reported tire, wheel and lift combinations, including where they rub."
+  },
+  {
+   "name": "ExplorOz forum",
+   "url": "https://www.exploroz.com/forum",
+   "note": "Australian touring Q&A, strong on the diesel VDJ200."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "100 Series",
+   "family": "land-cruiser",
+   "gen": "100-series"
+  },
+  {
+   "rel": "SUCCESSOR (GLOBAL)",
+   "name": "300 Series",
+   "family": "land-cruiser",
+   "gen": "300-series"
+  },
+  {
+   "rel": "SUCCESSOR (US)",
+   "name": "250 Series",
+   "family": "land-cruiser",
+   "gen": "250-series"
+  },
+  {
+   "rel": "LEXUS TWIN",
+   "name": "LX 570",
+   "family": "lexus",
+   "gen": "lx570"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "J200 (URJ200 US · VDJ200 · UZJ200 · GRJ200)"
+  },
+  {
+   "k": "PRODUCTION",
+   "v": "September 2007 – March 2021"
+  },
+  {
+   "k": "US MODEL YEARS",
+   "v": "2008–2011, 2013–2021 (no 2012)"
+  },
+  {
+   "k": "ENGINE (US)",
+   "v": "3UR-FE 5,663 cc DOHC 32v V8"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "381 hp @ 5,600 · 401 lb-ft @ 3,600"
+  },
+  {
+   "k": "TRANSMISSION (US)",
+   "v": "6-spd AB60F; 8-spd AE80F from 2016"
+  },
+  {
+   "k": "DRIVE",
+   "v": "Full-time 4WD, lockable center diff (JF2A)"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "112.2 in (2,850 mm)"
+  },
+  {
+   "k": "LENGTH",
+   "v": "194.9 in ('21)"
+  },
+  {
+   "k": "CURB WEIGHT",
+   "v": "5,690–5,815 lb"
+  },
+  {
+   "k": "GROUND CLEARANCE",
+   "v": "8.9–9.1 in"
+  },
+  {
+   "k": "FUEL TANK",
+   "v": "24.6 gal"
+  },
+  {
+   "k": "TOWING",
+   "v": "8,100–8,500 lb"
+  }
+ ],
+ "photos": [
+  {
+   "file": "lc200-dune-sunset.jpg",
+   "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
+   "caption": "200 SERIES · DUNES",
+   "credit": "Caspian Dahlström",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+  },
+  {
+   "file": "lc70-troopy-desert.jpg",
+   "alt": "White Land Cruiser 70 Series troop carriers with roof racks parked among boulders in a rocky desert valley",
+   "caption": "70 SERIES TROOPIES · THE 200'S DIESEL-V8 SIBLING (DIFFERENT GENERATION)",
+   "credit": "Kristina",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/grey-toyota-land-cruiser-on-desert-during-daytime-YPzKIbxlFPY"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J200 section)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#J200"
+  },
+  {
+   "name": "Slee Off-Road — 200 Series Newbie Guide",
+   "url": "https://sleeoffroad.com/tech-zone/200-series-newbie-guide/"
+  },
+  {
+   "name": "Unsealed 4X4 — Common Toyota LandCruiser 200 Series problems and how to fix them",
+   "url": "https://unsealed4x4.com.au/toyota-landcruiser-200-series-problems/"
+  },
+  {
+   "name": "Expedition Portal — Project Fauxverlander 200 Series build thread (water pump)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1962383"
+  },
+  {
+   "name": "IH8MUD — P2438 error code",
+   "url": "https://forum.ih8mud.com/threads/p2438-error-code.1124277/"
+  },
+  {
+   "name": "Tundra Headquarters — Toyota warranties air injection pump system",
+   "url": "https://tundraheadquarters.com/?p=6287"
+  },
+  {
+   "name": "IH8MUD — A word of warning to all 200 series owners (KDSS valves)",
+   "url": "https://forum.ih8mud.com/200-series-cruisers/255479-word-warning-all-200-series-owners-please-read.html"
+  },
+  {
+   "name": "IH8MUD — Aluminum oil filter cap durability",
+   "url": "https://forum.ih8mud.com/threads/aluminum-oil-filter-cap-durability.411523/"
+  },
+  {
+   "name": "IH8MUD — Towing with a 200-series Toyota Land Cruiser",
+   "url": "https://forum.ih8mud.com/threads/towing-with-a-200-series-toyota-land-cruiser.932343/"
+  },
+  {
+   "name": "IH8MUD — LC tires",
+   "url": "https://forum.ih8mud.com/threads/lc-tires.1139672/"
+  },
+  {
+   "name": "IH8MUD — LC 200 tire size",
+   "url": "https://forum.ih8mud.com/threads/lc-200-tire-size.1281111"
+  },
+  {
+   "name": "IH8MUD — 200 Series Tire and Wheel Size Database",
+   "url": "https://forum.ih8mud.com/threads/200-series-tire-and-wheel-size-database.818686/"
+  },
+  {
+   "name": "IH8MUD — 200 Series technical FAQ",
+   "url": "https://forum.ih8mud.com/threads/200-series-technical-faq-frequently-asked-questions-and-modifications.550588/"
+  },
+  {
+   "name": "Kelley Blue Book — 2008 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2008/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 2015 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2015/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 2016 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2016/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 2021 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2021/specs/"
+  },
+  {
+   "name": "Toyota — 2021 Land Cruiser Warranty & Maintenance Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-21LandCruiser/pdf/T-MMS-21LandCruiser.pdf"
+  },
+  {
+   "name": "AMSOIL — 2020 Toyota Land Cruiser 5.7L 3UR-FE fluid lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2020/toyota/land-cruiser/5-7l-8-cyl-engine-code-3ur-fe-8/"
+  },
+  {
+   "name": "IH8MUD — Transfer case fluid changed, changed spec (LC200 owner notes on 75W LF)",
+   "url": "https://forum.ih8mud.com/threads/transfer-case-fluid-changed-changed-spec.1375042/"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Assume nothing was done. The 200 is easy to keep alive, but 'lifetime' fluids, dry U-joints and a weeping water pump are common on high-mileage trucks. Specs below are for the US 3UR-FE V8. Intervals come from Toyota's 2021 Warranty & Maintenance Guide; capacities come from AMSOIL's lookup for a 2020 truck (8-speed). Trucks from 2008–2015 have the 6-speed AB60F, and the 1VD diesel is different again, so check capacities against your manual.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "SAE 0W-20 · ≈7.9 qt with filter · drain plug 30 ft-lb",
+    "interval": "Then every 10,000 mi / 12 months (Toyota); 5,000 mi in dusty or towing use",
+    "note": "Cartridge filter under a plastic cap that's easy to round off. See the aluminum-cap swap above. Replace the cap O-ring with every change.",
+    "parts": [
+     {
+      "name": "Oil filter cartridge",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,engine,oil+filter,5340"
+     },
+     {
+      "name": "Aluminum oil filter cap 15620-31060",
+      "supplier": "ToyotaPartsDeal",
+      "url": "https://www.toyotapartsdeal.com/oem/toyota~cap~assy~oil~filter~15620-31060.html"
+     },
+     {
+      "name": "Oil drain plug gasket",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,engine,oil+drain+plug+gasket,5428"
+     }
+    ]
+   },
+   {
+    "item": "Engine air filter",
+    "spec": "OE-type panel filter",
+    "interval": "Every 30,000 mi (Toyota); inspect every 5,000 mi on dirt roads",
+    "note": "Check that the airbox lid seals and look for dust on the clean side.",
+    "parts": [
+     {
+      "name": "Air filter",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,fuel+&+air,air+filter,6192"
+     },
+     {
+      "name": "OEM air cleaner diagram",
+      "supplier": "ToyotaPartsDeal",
+      "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/engine_fuel_tool/air_cleaner.html"
+     }
+    ]
+   },
+   {
+    "item": "Cabin air filter",
+    "spec": "OE-type",
+    "interval": "Clean at 15,000 mi, replace every 30,000 mi (Toyota)",
+    "note": "",
+    "parts": [
+     {
+      "name": "Cabin air filter — 200 Series / Sequoia / Tundra (INTAF07010)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/cabin-air-filter-fits-200-series-lc-sequoia-tundra-applications-intaf07010/"
+     },
+     {
+      "name": "Cabin air filter",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,heat+&+air+conditioning,cabin+air+filter,6832"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs",
+    "spec": "8 × OE-type iridium (3UR-FE)",
+    "interval": "Every 120,000 mi (Toyota); replace at purchase if the history is unknown and the truck is near that mileage",
+    "note": "Check the spark-plug tube seals for oil while the coils are out.",
+    "parts": [
+     {
+      "name": "Spark plugs",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,ignition,spark+plug,7212"
+     },
+     {
+      "name": "Spark plug tube seal — 2UZ / 3UR",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/spark-plug-tube-seal-fits-2uz-3ur-applications-vcc70010oem/"
+     }
+    ]
+   },
+   {
+    "item": "Coolant",
+    "spec": "Toyota Super Long Life Coolant (pink, pre-mixed) or equivalent · ≈17.1 qt system",
+    "interval": "First at 100,000 mi / 120 months, then every 50,000 mi / 60 months (Toyota)",
+    "note": "Look for dried pink crust at the water-pump weep hole and fan bracket. See the water pump repair above.",
+    "parts": [
+     {
+      "name": "Coolant / antifreeze",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,cooling+system,coolant+/+antifreeze,11393"
+     },
+     {
+      "name": "Water pump",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,cooling+system,water+pump,2208"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission",
+    "spec": "Toyota Genuine ATF WS · 8-speed AE80F ≈10.7 qt total fill",
+    "interval": "Toyota specifies replacement at 60,000 mi only for towing or heavy loads, otherwise inspection only. Most owners drain-and-fill at purchase.",
+    "note": "There's no dipstick. The level is set at a specified fluid temperature through the overflow (check) plug. A drain-and-fill replaces only part of the fluid, so repeat it rather than pressure-flushing. 2008–2015 trucks use the 6-speed AB60F: [CONFIRM IN MANUAL] for capacity.",
+    "parts": [
+     {
+      "name": "ATF WS-type transmission fluid",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,transmission-automatic,transmission+fluid,11387"
+     },
+     {
+      "name": "Transmission drain plug gasket (OPG30010)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/transmission-drain-plug-gasket-fits-1995-2014-80-450-100-470-200-570-series-land-cruiser-lexus-applications-opg30010/"
+     },
+     {
+      "name": "OEM transmission case & oil pan diagram",
+      "supplier": "ToyotaPartsDeal",
+      "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/transmission_case_oil_pan_atm.html"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "Toyota Genuine Transfer Gear Oil LF, SAE 75W · capacity [CONFIRM IN MANUAL]",
+    "interval": "Every 30,000 mi if you drive on dirt or tow (Toyota); otherwise inspect. Change at purchase if there's no record.",
+    "note": "Use the 75W LF spec. One IH8MUD owner got a center-diff error after filling with 75W-90, and it went away when he went back to 75W. His first change at 60,000 mi came out almost black.",
+    "parts": [
+     {
+      "name": "Gear oil",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,drivetrain,gear+oil,11394"
+     },
+     {
+      "name": "OEM transfer case extension housing diagram (plugs & gaskets)",
+      "supplier": "ToyotaPartsDeal",
+      "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/transfer_case_extension_housing.html"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Toyota Genuine Differential Gear Oil LT 75W-85 GL-5 · front ≈4 pt, rear ≈8.9 pt",
+    "interval": "Front every 15,000 mi and both at 30,000 mi when towing or heavily loaded (Toyota); otherwise inspect",
+    "note": "Always crack the fill plug before draining. Fit new plug gaskets.",
+    "parts": [
+     {
+      "name": "Gear oil",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,drivetrain,gear+oil,11394"
+     },
+     {
+      "name": "Front diff drain plug with copper gasket (OP24014)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/front-differential-drain-plug-with-copper-gasket-fits-gx460-gx470-lx570-200-series-applications-op24014/"
+     },
+     {
+      "name": "Front diff drain plug gasket (OPG24017)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/front-differential-drain-plug-gasket-fits-gx460-gx470-lx570-200-series-applications-opg24017/"
+     }
+    ]
+   },
+   {
+    "item": "Driveshaft grease points",
+    "spec": "Lithium chassis grease at every U-joint and slip yoke",
+    "interval": "Every 15,000 mi, with a propeller-shaft bolt re-torque (Toyota). Also after deep water.",
+    "note": "Dry U-joints cause a clunk on stop and take-off. See the U-joint repair above.",
+    "parts": [
+     {
+      "name": "Greaseable U-joint (UJ35031)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/u-joint-fits-1-90-1-98-7x-8x-front-8-02-100-120-150-200-lx470-gx460-gx470-570-front-98-100-200-lx470-570-rear-uj35031/"
+     }
+    ]
+   },
+   {
+    "item": "KDSS",
+    "spec": "Sealed hydraulic system: no fluid service",
+    "interval": "At purchase and after any suspension work",
+    "note": "Make sure both KDSS valves are closed (5 mm hex) and check the cylinders and lines for weeping. See the KDSS repair above.",
+    "parts": [
+     {
+      "name": "OEM front stabilizer / KDSS diagram",
+      "supplier": "ToyotaPartsDeal",
+      "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/front_spring_shock_absorber.html"
+     }
+    ]
+   },
+   {
+    "item": "Power steering fluid",
+    "spec": "Dexron III-type ATF",
+    "interval": "Inspect the level and condition (Toyota); [CONFIRM IN MANUAL] for the exact fluid",
+    "note": "Look for wet hoses at the pump.",
+    "parts": [
+     {
+      "name": "Power steering fluid",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,steering,power+steering+fluid,11395"
+     },
+     {
+      "name": "Japanese aftermarket power steering pump (if leaking)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/japanese-aftermarket-power-steering-pump-with-pulley-fits-2008-2021-urj200-lx570-land-cruiser-applications-st60490jp/"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 3 (FMVSS 116)",
+    "interval": "Toyota lists inspection only. Flush at purchase if there's no record.",
+    "note": "",
+    "parts": [
+     {
+      "name": "Brake fluid",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,brake+&+wheel+hub,brake+fluid,11389"
+     }
+    ]
+   },
+   {
+    "item": "Drive belt & tensioner",
+    "spec": "Serpentine belt with automatic tensioner",
+    "interval": "Inspect at 60,000 mi, then every 15,000 mi (Toyota)",
+    "note": "Replace the belt if you're doing the water pump and the fan is already off.",
+    "parts": [
+     {
+      "name": "Drive belt — 2008–2019 URJ200 (BELTA2033)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/drive-belt-fits-2008-2019-urj200-applications-belta2033/"
+     },
+     {
+      "name": "Belt tensioner",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,belt+drive,belt+tensioner,11659"
+     }
+    ]
+   },
+   {
+    "item": "12 V battery",
+    "spec": "OE-size battery",
+    "interval": "Load-test at purchase",
+    "note": "Weak batteries cause odd electronic faults on these trucks.",
+    "parts": [
+     {
+      "name": "Battery",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,2015,land+cruiser,5.7l+v8,3310140,electrical,battery,2476"
+     },
+     {
+      "name": "Slee main battery tray upgrade",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/slee-offroad-main-battery-tray-upgrade-fits-2008-2021-200-series-lx570-applications-slee-sok0017/"
+     }
+    ]
+   }
+  ]
+ }
+}

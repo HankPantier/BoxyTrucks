@@ -1,0 +1,1178 @@
+{
+ "family": {
+  "slug": "land-rover",
+  "name": "Series & Defender",
+  "maker": "Land Rover",
+  "years": "1948–present",
+  "verdict": "The original farm-gate-to-Sahara tool: slow, leaky, drafty, and still the shape every other boxy 4x4 gets measured against.",
+  "intro": [
+   "Land Rover started in 1948 as a stopgap: Rover's chief designer Maurice Wilks proposed a light agricultural and utility vehicle, and the first prototype was skinned in Birmabright aluminium alloy because steel was rationed and aluminium wasn't. It was launched at the Amsterdam Motor Show that year, and the Series I, II, IIA and III that followed ran until 1985.",
+   "In 1983 the One Ten arrived with coil springs and permanent four-wheel drive borrowed from the [[range-rover/classic|Range Rover Classic]], followed by the Ninety in 1984. In 1990 they became the Defender 90, 110 and 130, and the line kept going until 29 January 2016, a 67-year run counted back to the 1948 original. The [[land-rover/discovery-1|Discovery]] (1989) took the same Range Rover chassis in a family-friendly direction.",
+   "Americans mostly know the classic Defender through a short official window: 525 NAS Defender 110s for 1993 (500 US, 25 Canada), then the NAS Defender 90 through 1997, before the 25-year import rule opened the gray-market floodgates. The badge returned in 2020 as the unibody [[land-rover/defender-l663|L663 Defender]], while the [[grenadier/station-wagon|Ineos Grenadier]] picked up the ladder-frame torch."
+  ],
+  "hero_photo": "defender-90-forest-track.jpg",
+  "generations": [
+   {
+    "slug": "series",
+    "name": "Series I–III",
+    "years": "1948–1985",
+    "codes": [
+     "Series I",
+     "Series II",
+     "Series IIA",
+     "Series III",
+     "88",
+     "109"
+    ],
+    "summary": "Leaf springs, aluminium panels, selectable 4WD: the agricultural original that put the world's backcountry on wheels.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&minyear=1948&maxyear=1985",
+    "bat_url": "https://bringatrailer.com/land-rover/series-88/",
+    "has_page": false
+   },
+   {
+    "slug": "defender-90-110",
+    "name": "90 / 110 / Defender (classic)",
+    "years": "1983–2016",
+    "codes": [
+     "One Ten",
+     "Ninety",
+     "127 / 130",
+     "NAS 110",
+     "NAS 90"
+    ],
+    "summary": "Coil springs and permanent 4WD from the Range Rover under a Series-shaped body; named Defender from 1990, built until January 2016.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=defender&minyear=1983&maxyear=2016",
+    "bat_url": "https://bringatrailer.com/land-rover/defender-90-nas/",
+    "has_page": true
+   },
+   {
+    "slug": "defender-l663",
+    "name": "Defender (L663)",
+    "years": "2020–present",
+    "codes": [
+     "L663",
+     "90",
+     "110",
+     "130"
+    ],
+    "summary": "The reboot: aluminium monocoque and independent suspension, unveiled September 2019 and launched as a 2020 model, officially sold in the US again.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=defender&minyear=2020&maxyear=2026",
+    "bat_url": "https://bringatrailer.com/land-rover/defender-l663/",
+    "has_page": false
+   },
+   {
+    "slug": "discovery-1",
+    "name": "Discovery Series I",
+    "years": "1989–1998",
+    "codes": [
+     "Discovery 1",
+     "200Tdi",
+     "300Tdi",
+     "3.9 / 4.0 V8"
+    ],
+    "summary": "Range Rover Classic chassis, suspension and 4WD under a cheaper family body; sold in the US from the 1994 model year.",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=discovery&minyear=1994&maxyear=1998",
+    "bat_url": "https://bringatrailer.com/land-rover/discovery-i/",
+    "has_page": false
+   }
+  ],
+  "forums": [
+   {
+    "name": "Defender Source — Pre-2016 Defender Technical Discussions",
+    "url": "https://www.defendersource.com/forums/pre-2016-defender-technical-discussions.6/",
+    "note": "The US NAS Defender hangout: registry-level detail on 1993 110s and 1994–97 90s."
+   },
+   {
+    "name": "Rovers North Forums — Series I, II, IIA, III",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii",
+    "note": "Leaf-sprung tech, swivel rebuilds and restoration help."
+   },
+   {
+    "name": "Rovers North Forums — Discovery I",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/discovery-i",
+    "note": "Disco 1 tech, mostly US-market V8 trucks."
+   },
+   {
+    "name": "Defender Source — 2020+ New Defender Technical Discussions",
+    "url": "https://www.defendersource.com/forums/2020-new-defender-technical-discussions.91/",
+    "note": "L663 ownership, software and accessories."
+   },
+   {
+    "name": "AULRO — 90/110/130 Defender",
+    "url": "https://www.aulro.com/afvb/90-110-130-defender-county/",
+    "note": "Australian forum, deep on Tdi/Td5 mechanicals and tyre fitment."
+   }
+  ],
+  "related_families": [
+   "range-rover",
+   "grenadier",
+   "g-class",
+   "land-cruiser"
+  ]
+ },
+ "page": {
+  "slug": "defender-90-110",
+  "title": "Land Rover 90 / 110 / Defender",
+  "eyebrow": "LAND ROVER · NINETY / ONE TEN / DEFENDER · 1983–2016",
+  "verdict": "A Series Land Rover that finally got coil springs, then refused to change anything else for 33 years. Americans got a few thousand officially; everyone else got a legend.",
+  "codes": [
+   "90 · 110 · 127/130",
+   "LT230 2-SPEED, LOCKABLE CENTRE DIFF",
+   "3.5/3.9 V8 · 200/300TDI · TD5 · PUMA"
+  ],
+  "hero_photo": "defender-mud-splash.jpg",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "The classic Defender is what happens when a company finds the right answer in 1948 and spends the next six decades only fixing the bits that hurt. Under the slab-sided aluminium skin sits a steel ladder frame, two beam axles and bolted-on panels. It is not quick, quiet or watertight. It is, however, the vehicle that taught several generations of overlanders that you can rebuild anything in a campsite if the thing was designed by people who expected you to."
+    ]
+   },
+   {
+    "heading": "FROM SERIES TO ONE TEN",
+    "paragraphs": [
+     "By the early 1980s the leaf-sprung [[land-rover/series|Series III]] was feeling its age. Land Rover's fix was to raid its own luxury shelf: the One Ten of 1983 got coil springs front and rear and permanent four-wheel drive with a centre differential, both lifted from the [[range-rover/classic|Range Rover Classic]]. The short-wheelbase Ninety followed in 1984 and the long One Two Seven in 1985.",
+     "Engines were a grab bag at first: 2.25-litre petrol and diesel carry-overs, a 2.5 diesel making a heroic 68 hp from 1984, and the Rover 3.5 V8 that turned the 90 into something approaching brisk. A Diesel Turbo arrived in 1986, and in 1990 the 200Tdi finally gave the truck a diesel worth having, with 107 hp and 195 lb-ft. It is still the engine many gray-market shoppers go looking for, because there is very little on it that a laptop needs to diagnose."
+    ]
+   },
+   {
+    "heading": "THE DEFENDER NAME, AND AMERICA",
+    "paragraphs": [
+     "When the [[land-rover/discovery-1|Discovery]] arrived in 1989, the plain-named Land Rover needed a name of its own. It became the Defender 90, 110 and 130, with badges changing for the 1991 model year. The 300Tdi replaced the 200Tdi in 1994, the five-cylinder Td5 came in 1998, and the Ford-sourced 2.4 'Puma' diesel with a six-speed arrived in 2007. Through all of it, the basic shape barely moved.",
+     "North America's official ration started with the 1993 NAS (North American Specification) Defender 110: 525 trucks, 500 for the US and 25 for Canada, all Alpine White, all 3.9-litre V8 with a five-speed manual, full external roll cage and a numbered badge. The NAS Defender 90 followed from 1994 as a soft-top and later hard-top, and the last 1997 trucks got a 4.0 V8 and a ZF four-speed automatic. ECD puts total NAS production at about 7,059."
+    ]
+   },
+   {
+    "heading": "WHAT MADE IT SPECIAL",
+    "paragraphs": [
+     "The genius is that almost nothing is precious. Body panels are aluminium bolted to a steel frame, the axles are solid, the transfer box is a two-speed LT230 with a centre diff you lock by hand when the going gets slippery, and the parts catalogue is still enormous decades later. Owners fix their own swivels, timing belts and outriggers because the job is genuinely within reach, and an aftermarket from Solihull to Vermont exists to help.",
+     "It also leaks, rattles, rusts at the steel bits and steers like a boat with opinions. That's the deal. In return you get short overhangs, a body you can see the corners of, a cabin you can hose out, and a silhouette so recognizable that Ineos built a whole company, and the [[grenadier/station-wagon|Grenadier]], around missing it. Love it or hate it, nobody has ever mistaken one for a crossover."
+    ]
+   },
+   {
+    "heading": "HOW IT ENDED, AND THE 25-YEAR AFTERLIFE",
+    "paragraphs": [
+     "US sales stopped after the 1997 model year; regulations arriving for 1998, including airbag and side-impact door requirements, made the old body uneconomic to certify. Production for everyone else ended on 29 January 2016, after a 67-year run counting the Series, and the name came back in 2020 on the unibody, independently sprung [[land-rover/defender-l663|L663 Defender]]. Whatever you think of the new one, it ended the era of the separate chassis and beam axles at Land Rover.",
+     "Meanwhile federal law did the rest. NHTSA lets a vehicle at least 25 years old, counted from its date of manufacture, be imported without meeting FMVSS, so every year another batch of Euro-market 90s and 110s becomes legal. That market has teeth: around 2014, Homeland Security agents seized dozens of Defenders over alleged VIN swaps to dodge the rule. Many came back after a legal fight; not every owner was so lucky. Buy the paperwork before you buy the truck."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · NAS DEFENDERS",
+   "title": "The 7,000-ish Defenders America got officially",
+   "paragraphs": [
+    "1993 NAS 110: 525 built over about a year in a special area at Solihull, 500 for the US and 25 for Canada, all Alpine White, with 3.9 V8, five-speed manual, full external cage, basket roof rack, deep-dish wheels and a sequence-numbered NAS badge. Clean ones now trade near $200,000, according to Atlantic British.",
+    "1994–1997 NAS 90: soft-tops first, then hard-tops after early fibreglass tops cracked. Colors later included Coniston Green, Portofino Red, Arles Blue, Beluga Black, Alpine White and AA Yellow. The 1997 run added a 4.0-litre V8 and ZF four-speed automatic, and the very last batch was 300 Willow Green D90s."
+   ]
+  },
+  "engineering_intro": "The 90/110 is a Series Land Rover rebuilt on Range Rover hardware: a boxed steel ladder frame carrying beam axles on coil springs, permanent four-wheel drive through a two-speed transfer box with a lockable centre differential, and aluminium body panels bolted to a steel bulkhead. That layout makes it tough and endlessly repairable, and also explains its two big weaknesses: steel parts rust where mud and water sit, and the drivetrain was built for a 1980s power level.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Steel ladder frame",
+    "note": "Mild steel; rear crossmember and outriggers rot first."
+   },
+   {
+    "k": "BODY",
+    "v": "Aluminium panels on steel bulkhead",
+    "note": "Panels oxidise and lift paint rather than rusting; the steel bulkhead and footwells do rust."
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Coil springs, beam axles",
+    "note": "Front and rear coils, lifted from the 1970 Range Rover."
+   },
+   {
+    "k": "4WD",
+    "v": "Permanent, lockable centre diff",
+    "note": "Lock it before prolonged wheelspin; the stock diff's small gears can fail."
+   },
+   {
+    "k": "TRANSFER",
+    "v": "LT230 two-speed",
+    "note": "Used in pre-Td5 Defenders, Discovery 1 and Range Rover Classic; early V8 110s used the LT95."
+   },
+   {
+    "k": "STEERING",
+    "v": "Swivel-ball front axle",
+    "note": "Chrome balls and seals need periodic attention; preload set with shims."
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1983–1990",
+    "platform": "One Ten / Ninety / One Two Seven",
+    "engine": "2.25 petrol & diesel, 2.5 D, 2.5 petrol, 3.5 V8, 2.5 Diesel Turbo",
+    "output": "68 hp (2.5 D) to 134 hp (V8, 1986)",
+    "note": "Coil springs and permanent 4WD arrive; Ninety from 1984."
+   },
+   {
+    "years": "1990–1994",
+    "platform": "Defender 90 / 110 / 130",
+    "engine": "2.5 200Tdi; 3.5 V8",
+    "output": "107 hp / 195 lb-ft (200Tdi)",
+    "note": "Defender name adopted; badges change for 1991 model year."
+   },
+   {
+    "years": "1993",
+    "platform": "NAS Defender 110",
+    "engine": "3.9 Rover V8, 5-speed manual",
+    "output": "—",
+    "note": "525 built (500 US, 25 Canada), Alpine White, external cage."
+   },
+   {
+    "years": "1994–1997",
+    "platform": "NAS Defender 90",
+    "engine": "3.9 V8 manual; 4.0 V8 + ZF 4-speed auto (1997)",
+    "output": "—",
+    "note": "Soft-top and hard-top; final 300 in Willow Green."
+   },
+   {
+    "years": "1994–1998",
+    "platform": "Defender 90 / 110 / 130",
+    "engine": "2.5 300Tdi",
+    "output": "111 bhp / 195 lb-ft",
+    "note": "Watch the timing-belt alignment issue."
+   },
+   {
+    "years": "1998–2007",
+    "platform": "Defender Td5",
+    "engine": "2.5 Td5 five-cylinder",
+    "output": "122 hp",
+    "note": "Electronically managed; injector-loom oil wicking is the known gremlin."
+   },
+   {
+    "years": "2007–2016",
+    "platform": "Defender 'Puma'",
+    "engine": "Ford 2.4 then 2.2 (2012) diesel, 6-speed",
+    "output": "122 hp / 265 lb-ft",
+    "note": "Production ended 29 January 2016."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Paperwork and VIN first",
+    "body": "Match the VIN plate on the brake servo with the number stamped on the front chassis rail. For gray-market imports, make sure the build date really is 25+ years old; federal agents have seized Defenders over alleged VIN swaps, and owners without paperwork lost them."
+   },
+   {
+    "head": "Rear crossmember",
+    "body": "It takes towing and winching loads and rots from the inside out. Fibreglass, fresh underseal or chunky checker plate can hide it, so get under with a light and ask for the underside to be cleaned."
+   },
+   {
+    "head": "Bulkhead, footwells and outriggers",
+    "body": "Check the bulkhead sides, bottom corners and the top under the vent flaps, plus the footwells and the outrigger behind the front wheel. Repair is real money; a new bulkhead runs about £1,600 in the UK."
+   },
+   {
+    "head": "Swivel balls and steering play",
+    "body": "Pitted chrome balls chew their seals and wear the swivel pins. Vague or wobbly steering with excess play points here; budget for rebuild kits if the balls are rusty or weeping."
+   },
+   {
+    "head": "Transfer box noise and leaks",
+    "body": "Listen for whine and clunks in low range. Oil leaking from the LT230 can coat the transmission handbrake shoes; check the rear output seal and intermediate shaft area."
+   },
+   {
+    "head": "300Tdi timing belt history",
+    "body": "Ask whether the revised timing kit (Land Rover STC4096L-type, with flanged crank pulley and spaced idler) has been fitted. Early setups could let the belt track off and wear."
+   },
+   {
+    "head": "Td5 oil in the loom",
+    "body": "Pull the barrel connector between the engine and injector harnesses. Oil there means it's wicking toward the ECU under the seat."
+   },
+   {
+    "head": "NAS authenticity",
+    "body": "A real 1993 NAS 110 or 1994–97 NAS 90 carries a numbered NAS badge and a US-market VIN. Plenty of Euro trucks have been dressed up as NAS; check against the registry discussions on Defender Source."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Swivel housing rebuild and preload",
+    "diff": "3 / 5",
+    "time": "≈ 1 hour both sides for a shim/preload adjustment; longer for a full rebuild",
+    "cost": "Parts plus labor",
+    "symptoms": "Grease or oil weeping from the swivel seal, pitted chrome ball, wobbly or vague steering.",
+    "fix": "Support the chassis on stands, pull the wheels and disconnect the track rod. Rebuild with new bearings, seals and gaskets, fit the swivel pins with shims, torque lower then upper bolts, and check turning effort with a spring balance at the track-rod bore before fitting the seal. Workshop-manual figure quoted on Defender2: 1.16–1.46 kg after breakaway. Add or remove top-pin shims to adjust, then refill with one-shot grease.",
+    "tools": "Axle stands, spring balance, vernier, torque wrench · Rovers North RNA3178 swivel rebuild kit with ball (1994–98 Defender, one side) · one-shot grease",
+    "parts": [
+     {
+      "name": "Britpart DA3167P swivel housing repair kit (bearings, seals, shims; no ball)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/swivel-repair-service-overhaul-kit"
+     },
+     {
+      "name": "Front axle swivel ball oil seal LR059968",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/front-axle-swivel-ball-oil-seal-1"
+     },
+     {
+      "name": "One-shot swivel housing grease STC3435 (2 sachets)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/shot-swivel-housing-grease-x2"
+     },
+     {
+      "name": "Defender swivel housing rebuild parts",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=defender+swivel+housing+kit"
+     }
+    ]
+   },
+   {
+    "title": "Top up a leaking swivel with one-shot grease",
+    "diff": "1 / 5",
+    "time": "Short job",
+    "cost": "Price of a grease pack",
+    "symptoms": "Grease smeared on the inside of the wheel and around the swivel seal retainer.",
+    "fix": "Remove the seal retaining ring (six 8 mm nuts on the Defender), clean the seal area, then turn the wheel to full lock away from the side you're filling so the housing doesn't overlap the ball, and fill through the filler plug. One pack per side is roughly right; the grease is runny.",
+    "tools": "8 mm socket, rags · one-shot swivel grease (Britpart and Land Rover packs)",
+    "parts": [
+     {
+      "name": "Swivel housing grease sachet STC3435",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/swivel-housing-grease-tube-sachet"
+     },
+     {
+      "name": "Front axle swivel ball oil seal LR059968",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/front-axle-swivel-ball-oil-seal-1"
+     },
+     {
+      "name": "Swivel seal retainer and bolts",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=defender+swivel+seal+retainer"
+     }
+    ]
+   },
+   {
+    "title": "300Tdi timing belt with revised kit",
+    "diff": "3 / 5",
+    "time": "Several hours",
+    "cost": "Parts plus labor",
+    "symptoms": "Due on the service interval, belt edge wear, or debris inside the timing cover; early-type kits can let the belt track off.",
+    "fix": "Lock the cam and crank with the timing tool, remove the front cover, fit the revised kit (flanged crank pulley, idler with integral spacer, tensioner, gasket). On early-type engines, remove the separate spacer washer because the new idler includes it. Members on AULRO note the tensioner bolt torque was reduced from 14 Nm to 11 Nm versus older manuals.",
+    "tools": "Timing tool DA3140, torque wrench · STC4096L modified timing belt kit",
+    "parts": [
+     {
+      "name": "DA1300G 300Tdi timing belt kit (OEM)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/land-rover-discovery-defender-300-tdi-timing-kit-da1300g-oem-new"
+     },
+     {
+      "name": "DA1300 300Tdi timing belt kit (Britpart)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/timing-kit-da1300-new"
+     },
+     {
+      "name": "300Tdi timing belt kit and front cover gasket",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=300tdi+timing+belt+kit"
+     }
+    ]
+   },
+   {
+    "title": "Td5 injector harness oil leak",
+    "diff": "2 / 5",
+    "time": "Short for the injector harness; much bigger if the main loom is contaminated",
+    "cost": "Parts plus labor",
+    "symptoms": "Oil and dust on the ECU plug under the driver's seat, misfires or running issues.",
+    "fix": "The injector harness lives inside the rocker cover; oil wicks out through the plug seal and along the main loom to the ECU. Remove the acoustic cover, unplug the barrel connector and check for oil. Replace the injector harness; if oil has reached the main engine loom, replace that too. Light contamination can be flushed with contact cleaner, but replacement is the real fix.",
+    "tools": "Basic hand tools, contact cleaner · genuine injector harness",
+    "parts": [
+     {
+      "name": "Td5 injector wiring harness AMR6103",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/fuel-injector-wiring-harness-engine-loom-amr6103"
+     },
+     {
+      "name": "Td5 injector harness and rocker cover gasket",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=td5+injector+harness"
+     }
+    ]
+   },
+   {
+    "title": "LT230 rear output seal and flange",
+    "diff": "2 / 5",
+    "time": "A few hours",
+    "cost": "Parts plus labor",
+    "symptoms": "Oil running down the back of the transfer box, contaminated transmission handbrake.",
+    "fix": "Confirm the source first: on an LT230 the intermediate shaft is a common leak. Drop the propshaft, remove the rear flange nut and flange (can be done in situ), tap off the dust cap, replace the rear seal and felt washer, then refit with a new M20 nyloc nut and fresh flange bolts torqued to spec.",
+    "tools": "Large socket for M20 nut, flange holding tool, seal driver · rear output seal, felt washer, nyloc nut",
+    "parts": [
+     {
+      "name": "LT230 output flange oil seal FRC7043",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/lt230-transfer-box-output-flange-oil-seal"
+     },
+     {
+      "name": "FTC4939SET transfer box output seal kit (2 pcs)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/transfer-box-output-seal-kit-set-x2"
+     },
+     {
+      "name": "LT230 output flange, nut and dust shield",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=lt230+output+flange"
+     }
+    ]
+   },
+   {
+    "title": "Chassis outrigger and rear crossmember repair",
+    "diff": "4 / 5",
+    "time": "A weekend or more",
+    "cost": "Outriggers about £30 each; galvanised replacement chassis about £2,000 supplied (UK)",
+    "symptoms": "Perforated outriggers, flaking rear crossmember, failed inspection.",
+    "fix": "Cut out rotten outriggers or crossmember sections and weld in new ones, then treat the inside of the frame. If the rot is widespread, a galvanised chassis swap is often the better answer.",
+    "tools": "Welder, grinder, cavity wax · replacement outriggers and crossmember",
+    "parts": [
+     {
+      "name": "STC8648 tubular outrigger, RH (Defender 90)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/stc8648-tubular-outrigger-drivers-side-rh-fits-defender-90"
+     },
+     {
+      "name": "STC8649 tubular outrigger, LH (Defender 90)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/stc8649-tubular-outrigger-drivers-side-lh-fits-defender-90"
+     },
+     {
+      "name": "STC8651 rear crossmember with extensions (Defender 110)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/rear-crossmember-with-extensions"
+     },
+     {
+      "name": "Defender chassis outriggers and crossmembers",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=defender+outrigger"
+     }
+    ]
+   },
+   {
+    "title": "Bulkhead footwell repair",
+    "diff": "4 / 5",
+    "time": "Weekend",
+    "cost": "Repair panels cheap; used bulkhead from about £650, new about £1,600 (UK)",
+    "symptoms": "Damp carpets, holes in the footwells or the bottom corners of the bulkhead.",
+    "fix": "Strip interior trim, cut back to clean steel, weld in repair panels, then seal and wax. Fix the leak source too (windscreen and vent seals) or it will happen again.",
+    "tools": "Welder, grinder, seam sealer · footwell repair panels",
+    "parts": [
+     {
+      "name": "Defender bulkhead footwell repair panels",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=defender+bulkhead+footwell"
+     },
+     {
+      "name": "Bulkhead repair panels (UK)",
+      "supplier": "Britpart",
+      "url": "https://www.britpart.com/search?q=bulkhead+footwell+repair+panel"
+     },
+     {
+      "name": "Bulkhead vent rubber seal set (leak source)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/auto-bulkhead-vent-rubber-seal-set-of-2"
+     }
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "235/85R16 is the classic factory size on 110s and the 'sweet spot' most owners recommend; NAS D90s came on 265/75R16. 255/85R16 (about 33\") is the popular upgrade and generally fits at stock height, but owners report rubbing on the front radius arms at full lock (fix by winding out the steering stops), against the 45 L auxiliary tank on 110s, and close to the spring brackets at full compression on 90s.",
+    "src": "AULRO / DISCOWEB"
+   },
+   {
+    "q": "Can I import a Defender into the US?",
+    "a": "Yes, if it's at least 25 years old counted from its date of manufacture: NHTSA lets those vehicles in without meeting FMVSS (declared under Box 1 on the HS-7). Newer trucks must comply, which a classic Defender can't. Check EPA and your state's emissions rules too, and make sure the VIN, chassis number and build date line up.",
+    "src": "NHTSA / CBP"
+   },
+   {
+    "q": "Which Defenders are 25-year-eligible right now?",
+    "a": "Everything built at least 25 years before the import date, so in late 2026 that's trucks built up to late 2001. That covers 200Tdi, 300Tdi, V8 and early Td5 Defenders (the Td5 arrived in 1998). The Ford 'Puma' Defenders from 2007 won't start qualifying until 2032.",
+    "src": "NHTSA / WIKIPEDIA"
+   },
+   {
+    "q": "What is a NAS Defender?",
+    "a": "North American Specification Defenders were the ones Land Rover sold new in the US and Canada: 525 1993 Defender 110s (500 US, 25 Canada) and Defender 90s from 1994 to 1997, all V8. About 7,059 were built in total.",
+    "src": "ATLANTIC BRITISH / ECD"
+   },
+   {
+    "q": "Why did Land Rover stop selling the Defender in the US after 1997?",
+    "a": "Regulations taking effect for 1998, including airbag and side-impact door requirements, made it too expensive to keep the old body compliant. The Defender name returned to US showrooms in 2020 on the all-new L663.",
+    "src": "ECD / RM SOTHEBY'S"
+   },
+   {
+    "q": "Which engine should I buy?",
+    "a": "For a gray-market truck, the 300Tdi is the simple, mechanical favourite; check the revised timing kit has been fitted. The 200Tdi is cruder but similar. The Td5 is more powerful (122 hp) but electronically managed, so check for oil in the injector loom. In the US, NAS trucks are all 3.9/4.0 V8, which is thirsty but easy to service.",
+    "src": "WIKIPEDIA / AULRO"
+   },
+   {
+    "q": "What fuel economy should I expect?",
+    "a": "ECD quotes 12–16 mpg for the factory V8 (12–14 in real-world use), 23–27 mpg for the 300Tdi, 22–26 mpg for the Td5 and 20–25 mpg for the Puma diesels. Roof racks, big tyres and a heavy right foot will take you well under those.",
+    "src": "ECD"
+   },
+   {
+    "q": "How much can a classic Defender tow?",
+    "a": "CarsGuide lists 3,500 kg (7,716 lb) braked for 2004 Defender 90, 110 and 130 variants. Unbraked trailers are limited to 750 kg. Check your own truck's plate and handbook; the rear crossmember condition matters more than the brochure number.",
+    "src": "CARSGUIDE"
+   },
+   {
+    "q": "When do I lock the centre diff?",
+    "a": "Whenever you expect prolonged wheelspin: mud, snow, ice, sand, steep loose climbs. The LT230's stock centre diff has small gears that can fail if a front wheel spins for long, and the diff lock removes that risk. Unlock it on grippy surfaces to avoid driveline wind-up.",
+    "src": "LR PARTS / ASHCROFT"
+   },
+   {
+    "q": "Does it rust?",
+    "a": "The aluminium panels don't rust, but they oxidise, lifting paint and eventually perforating. The steel parts rust: chassis rear crossmember, outriggers, bulkhead footwells and corners, door frames and hinge mounts. Budget for welding unless the truck already has a galvanised chassis.",
+    "src": "PISTONHEADS / YRMIT"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "Stock springs sag with age and accessories. Heavier springs and better shocks restore ride height and add an inch or two for 255/85 tyres.",
+    "who": [
+     {
+      "name": "Old Man Emu (ARB)",
+      "url": "https://www.oldmanemu.com/"
+     },
+     {
+      "name": "Terrafirma",
+      "url": "https://terrafirma4x4.com/"
+     }
+    ]
+   },
+   {
+    "cat": "LOCKERS & DIFFS",
+    "why": "Open diffs front and rear; an air locker or ATB limited-slip transforms progress on articulated ground.",
+    "who": [
+     {
+      "name": "Ashcroft Transmissions",
+      "url": "https://ashcroft-transmissions.co.uk/"
+     },
+     {
+      "name": "ARB",
+      "url": "https://www.arb.com.au/"
+     }
+    ]
+   },
+   {
+    "cat": "TRANSFER BOX & DRIVELINE",
+    "why": "Rebuilt or brand-new LT230s, taller ratios for big tyres, ATB centre diffs and heavy-duty 300M shafts.",
+    "who": [
+     {
+      "name": "Ashcroft Transmissions",
+      "url": "https://ashcroft-transmissions.co.uk/"
+     }
+    ]
+   },
+   {
+    "cat": "PARTS & RESTORATION",
+    "why": "Seals, swivel kits, panels, NAS-specific trim, timing kits: these are the US and UK catalogues the community actually uses.",
+    "who": [
+     {
+      "name": "Rovers North",
+      "url": "https://www.roversnorth.com/"
+     },
+     {
+      "name": "Atlantic British",
+      "url": "https://www.roverparts.com/"
+     },
+     {
+      "name": "Lucky8",
+      "url": "https://lucky8llc.com/"
+     },
+     {
+      "name": "Britpart",
+      "url": "https://www.britpart.com/"
+     }
+    ]
+   },
+   {
+    "cat": "GALVANISED CHASSIS",
+    "why": "When the frame is past welding, a hot-dip galvanised replacement chassis is the permanent fix.",
+    "who": [
+     {
+      "name": "Richards Chassis",
+      "url": "https://www.richardschassis.co.uk/"
+     }
+    ]
+   },
+   {
+    "cat": "ROLL CAGES & PROTECTION",
+    "why": "The NAS trucks wore cages from the factory; external and internal cages are a common addition for serious trail use.",
+    "who": [
+     {
+      "name": "Safety Devices",
+      "url": "https://www.safetydevices.com/"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1993 · US NAS",
+    "label": "NAS Defender 110",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=defender110&minyear=1993&maxyear=1993",
+    "bat_url": "https://bringatrailer.com/land-rover/defender-110-nas/"
+   },
+   {
+    "years": "1994–1997 · US NAS",
+    "label": "NAS Defender 90",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=defender90&minyear=1994&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/land-rover/defender-90-nas/"
+   },
+   {
+    "years": "1983–2001 · Imported 90",
+    "label": "Euro-spec 90",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=defender90&minyear=1983&maxyear=2001",
+    "bat_url": "https://bringatrailer.com/land-rover/90-and-defender-90-euro-spec/"
+   },
+   {
+    "years": "1983–2001 · Imported 110",
+    "label": "Euro-spec 110",
+    "at_url": "https://www.autotempest.com/results?make=landrover&model=defender110&minyear=1983&maxyear=2001",
+    "bat_url": "https://bringatrailer.com/land-rover/defender-110-euro/"
+   }
+  ],
+  "social": [],
+  "forums": [
+   {
+    "name": "Defender Source — Pre-2016 Defender Technical Discussions",
+    "url": "https://www.defendersource.com/forums/pre-2016-defender-technical-discussions.6/",
+    "note": "The main US board for NAS 90/110 owners."
+   },
+   {
+    "name": "Rovers North Forums — Defender 90/110/130",
+    "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/defender-90-110-130",
+    "note": "Vermont parts house's community; good for first-time buyer advice."
+   },
+   {
+    "name": "AULRO — 90/110/130 Defender",
+    "url": "https://www.aulro.com/afvb/90-110-130-defender-county/",
+    "note": "Deep Tdi/Td5 tech and tyre-fitment threads."
+   },
+   {
+    "name": "Defender2.net",
+    "url": "https://www.defender2.net/forum/",
+    "note": "UK board; swivel, Puma and Td5 workshop knowledge."
+   },
+   {
+    "name": "LandRoverForums.com — Defender",
+    "url": "https://landroverforums.com/forum/defender-32/",
+    "note": "General US-based Defender tech."
+   }
+  ],
+  "related": [
+   {
+    "rel": "PREDECESSOR",
+    "name": "Series I–III",
+    "family": "land-rover",
+    "gen": "series"
+   },
+   {
+    "rel": "SUCCESSOR",
+    "name": "Defender (L663)",
+    "family": "land-rover",
+    "gen": "defender-l663"
+   },
+   {
+    "rel": "SIBLING · SHARED V8 & COILS",
+    "name": "Range Rover Classic",
+    "family": "range-rover",
+    "gen": "classic"
+   },
+   {
+    "rel": "SIBLING · SAME 4WD HARDWARE",
+    "name": "Discovery Series I",
+    "family": "land-rover",
+    "gen": "discovery-1"
+   },
+   {
+    "rel": "SPIRITUAL SUCCESSOR",
+    "name": "Ineos Grenadier",
+    "family": "grenadier",
+    "gen": "station-wagon"
+   }
+  ],
+  "plate": [
+   {
+    "k": "PRODUCTION",
+    "v": "1983–29 Jan 2016"
+   },
+   {
+    "k": "NAMES",
+    "v": "One Ten (1983), Ninety (1984), Defender from 1990"
+   },
+   {
+    "k": "WHEELBASES",
+    "v": "90 · 110 · 127/130"
+   },
+   {
+    "k": "CHASSIS",
+    "v": "Steel ladder frame"
+   },
+   {
+    "k": "BODY",
+    "v": "Aluminium panels, steel bulkhead"
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Coil springs, beam axles"
+   },
+   {
+    "k": "4WD",
+    "v": "Permanent, lockable centre diff"
+   },
+   {
+    "k": "TRANSFER",
+    "v": "LT230 (LT95 on early V8)"
+   },
+   {
+    "k": "ENGINES",
+    "v": "3.5/3.9/4.0 V8 · 2.5 D/TD · 200Tdi · 300Tdi · Td5 · 2.4/2.2 Puma"
+   },
+   {
+    "k": "NAS 110 (1993)",
+    "v": "525 built (500 US, 25 CA)"
+   },
+   {
+    "k": "NAS TOTAL",
+    "v": "≈ 7,059 (ECD)"
+   },
+   {
+    "k": "US IMPORT",
+    "v": "25 years from date of manufacture"
+   }
+  ],
+  "photos": [
+   {
+    "file": "defender-mud-splash.jpg",
+    "alt": "A white classic Land Rover Defender with a roof rack splashing through a muddy forest puddle",
+    "caption": "CLASSIC DEFENDER · MUD BATH",
+    "credit": "Thomas Tucker",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/an-off-road-vehicle-splashes-through-muddy-water-ENfztxv33MM"
+   },
+   {
+    "file": "defender-90-mountain-trail.jpg",
+    "alt": "A blue classic Defender 90 with snorkel, roof rack and spotlights on a muddy moorland track below snow-capped mountains",
+    "caption": "DEFENDER 90 · MOORLAND TRACK",
+    "credit": "Thomas Tucker",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-land-rover-sits-against-a-mountainous-backdrop-vGErU_q5mEM"
+   },
+   {
+    "file": "defender-90-forest-track.jpg",
+    "alt": "Rear view of a grey-blue classic Defender 90 station wagon with a BFGoodrich spare driving into a pine forest",
+    "caption": "DEFENDER 90 · PINE FOREST",
+    "credit": "Sven W",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-suv-in-the-middle-of-the-forest-during-daytime-KRB-KhzJr7M"
+   },
+   {
+    "file": "defender-110-beach.jpg",
+    "alt": "A dark green classic Defender 110 with light bar and winch bumper on white sand dunes at Vejers Strand, Denmark",
+    "caption": "DEFENDER 110 · DANISH DUNES",
+    "credit": "Peter Schulz",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-black-land-rover-on-a-sandy-beach-YGaX6LkZU98"
+   },
+   {
+    "file": "defender-110-dirt-road.jpg",
+    "alt": "A dark classic Defender 110 with roof rack kicking up dust on a dirt road across open grassland",
+    "caption": "DEFENDER 110 · DUST ROAD",
+    "credit": "Mr Dibo",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-suv-on-dirt-road-during-daytime-eJ9c6OLzIX4"
+   },
+   {
+    "file": "series-desert-dune.jpg",
+    "alt": "A cream Land Rover Series (not a Defender) with bonnet-mounted spare parked on desert sand at golden hour",
+    "caption": "PREDECESSOR · SERIES ON THE DUNES",
+    "credit": "Hasse Lossius",
+    "source": "Unsplash",
+    "source_url": "https://unsplash.com/photos/vintage-land-rover-parked-on-a-sandy-desert-dune-QZ4gaM5R9oA"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Land Rover Defender",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender"
+   },
+   {
+    "name": "Wikipedia — Land Rover series",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_series"
+   },
+   {
+    "name": "Wikipedia — Land Rover Discovery",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+   },
+   {
+    "name": "Atlantic British — Special edition new Defender celebrates 1993 NAS Defender 110",
+    "url": "https://roverparts.com/roverlog-news-blog/special-edition-new-defender-celebrates-1993-nas-defender-110"
+   },
+   {
+    "name": "ECD Automotive Design — Land Rover Defender heritage: US launch NAS Defender 110 1993",
+    "url": "https://ecdautodesign.com/blog/land-rover-defender-heritage-us-launch-nas-defender-110-1993/"
+   },
+   {
+    "name": "ECD Automotive Design — NAS Defender history",
+    "url": "https://ecdautodesign.com/blog/nas-defender-history/"
+   },
+   {
+    "name": "ECD Automotive Design — The fuel economy of a Land Rover Defender",
+    "url": "https://ecdautodesign.com/blog/the-fuel-economy-of-a-land-rover-defender-what-to-expect-and-how-to-improve-it/"
+   },
+   {
+    "name": "RM Sotheby's — 1997 Land Rover NAS Defender 90",
+    "url": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90"
+   },
+   {
+    "name": "NHTSA — Importation and Certification FAQs",
+    "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+   },
+   {
+    "name": "U.S. CBP — Importing a Motor Vehicle",
+    "url": "https://www.cbp.gov/trade/basic-import-export/importing-car"
+   },
+   {
+    "name": "Motor Authority — Seized Land Rovers to head back to their owners",
+    "url": "https://www.motorauthority.com/news/1098579_seized-land-rovers-to-head-back-to-their-owners"
+   },
+   {
+    "name": "Hagerty — Losses and Lessons: Defender owner defenseless against EPA, DHS",
+    "url": "https://hagerty.com/media/?p=2167"
+   },
+   {
+    "name": "PistonHeads — Land Rover Defender used buying guide",
+    "url": "https://www.pistonheads.com/news/ph-buying-guides/land-rover-defender--ph-used-buying-guide/41057"
+   },
+   {
+    "name": "YRMIT — Most common Defender 90 repairs",
+    "url": "https://yrmit.co.uk/most-common-defender-90-repairs-in-2026/"
+   },
+   {
+    "name": "Defender2.net — Swivel rebuild / preload thread",
+    "url": "https://www.defender2.net/forum/topic8607.html"
+   },
+   {
+    "name": "AULRO — Leaking seals on the ball sockets",
+    "url": "https://www.aulro.com/afvb/archive/index.php/t-243149.html"
+   },
+   {
+    "name": "Rovers North — RNA3178 Swivel Ball Rebuild Kit, Defender 1994–98",
+    "url": "https://www.roversnorth.com/parts/rna3178_swivel_ball_rebuild_kit_with_swivel_ball_defender_1994_98"
+   },
+   {
+    "name": "AULRO — 300Tdi timing belt fix kit",
+    "url": "https://www.aulro.com/afvb/technical-chatter/42103-300tdi-timing-belt-fix-kit-3-print.html"
+   },
+   {
+    "name": "LR Direct — STC4096L modified timing belt kit",
+    "url": "https://www.lrdirect.com/stc4096l-modified-timing-belt-pulley-kit-3"
+   },
+   {
+    "name": "AULRO — Td5 harness",
+    "url": "https://www.aulro.com/afvb/technical-chatter/28941-td5-harness.html"
+   },
+   {
+    "name": "AULRO — Transfer rear output flange",
+    "url": "https://www.aulro.com/afvb/archive/index.php/t-227400.html"
+   },
+   {
+    "name": "AULRO — 255/85R16 on a Defender 90",
+    "url": "https://www.aulro.com/afvb/archive/index.php/t-237952.html"
+   },
+   {
+    "name": "AULRO — 235/85R16 vs 255/85R16",
+    "url": "https://www.aulro.com/afvb/90-110-130-defender-county/128504-235-85r16-vs-255-85r16-11-print.html"
+   },
+   {
+    "name": "DiscoWeb — Tire size for a stock Defender 90",
+    "url": "https://discoweb.org/oldsite/archive2001/messages/1774/5946.html"
+   },
+   {
+    "name": "CarsGuide — 2004 Land Rover Defender towing capacity",
+    "url": "https://www.carsguide.com.au/land-rover/defender/towing-capacity/2004"
+   },
+   {
+    "name": "LR Parts — Ashcroft ATB centre differential for LT230",
+    "url": "https://www.lrparts.net/da9009-automatic-torque-biasing-centre-differential-by-ashcroft-transmission-for-defender-pre-1998-discovery-1-range-rover-classic-lt230-transfer-box"
+   },
+   {
+    "name": "Ashcroft Transmissions — New LT230 transfer box",
+    "url": "https://ashcroft-transmissions.co.uk/?p=64161"
+   },
+   {
+    "name": "Bring a Trailer — Land Rover model pages",
+    "url": "https://bringatrailer.com/land-rover/"
+   },
+   {
+    "name": "Comma Oil — Land Rover Defender 90 Tdi (1994–98) lubricant and capacity data",
+    "url": "https://app.commaoil.com/products/results/91007440/print:true"
+   },
+   {
+    "name": "BolidenForum — 1997 Land Rover Defender 90 technical data (fluids and capacities)",
+    "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1997-defender-90-standard/?vd_lang=en"
+   },
+   {
+    "name": "AULRO — Gear oils for Defender 110 (handbook specs quoted)",
+    "url": "https://www.aulro.com/afvb/technical-chatter/139949-gear-oils-defender-110-epx80-90-a.html"
+   },
+   {
+    "name": "JC's British 4x4 — 1993 Defender 90/110 52,500 km service checklist",
+    "url": "https://jcsbritish4x4.kukui.com/Files/Documents/94-D90-93-D110.pdf"
+   },
+   {
+    "name": "Syncro Gearboxes — Land Rover LT230 transfer box oil change",
+    "url": "https://www.syncrogearboxes.com/?p=744"
+   },
+   {
+    "name": "Defender2 — Rear axle oil capacity thread",
+    "url": "https://www.defender2.net/forum/post926066.html"
+   },
+   {
+    "name": "Glencoyne — 300Tdi timing belt changes: useful tips",
+    "url": "https://www.glencoyne.co.uk/timing-belt-changes-some-useful-tips"
+   },
+   {
+    "name": "Lucky8 — DA1300G 300Tdi timing belt kit (interval note)",
+    "url": "https://lucky8llc.com/products/land-rover-discovery-defender-300-tdi-timing-kit-da1300g-oem-new"
+   },
+   {
+    "name": "Lucky8 — STC3435 swivel housing grease sachet (fitment)",
+    "url": "https://lucky8llc.com/products/swivel-housing-grease-tube-sachet"
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing has been done. Most of these trucks are 25 to 40 years old and have usually had several owners. Change every fluid, re-grease the swivels and propshafts, and confirm the timing-belt history on a Tdi. Specs differ between the US V8 (NAS) trucks and the 200/300Tdi, Td5 and Puma diesels, so identify the engine and gearbox first. Fill the axles, transfer box and swivels to their level plugs on level ground rather than trusting a book capacity.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "NAS 3.9 V8: API SG/SH, SAE 5W-30 or 5W-40 · ≈6.7 L with filter. 300Tdi: ≈6.65 L with filter (Comma lists 10W-40). Td5 / Puma: [CONFIRM IN MANUAL]",
+     "interval": "At purchase, then every 5,000–6,000 mi (Comma: 10,000 km / 6 months for the 300Tdi)",
+     "note": "The V8 and Tdi engines use the short spin-on filter. The Td5 also has a centrifugal oil-filter rotor that needs servicing.",
+     "parts": [
+      {
+       "name": "Mahle short oil filter (V8 / 200Tdi / 300Tdi)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/oil-filter-mahle"
+      },
+      {
+       "name": "DA6003P service kit, 300Tdi",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/da6003p-service-kit-fits-defender-300tdi"
+      },
+      {
+       "name": "Britpart DA6004 service kit, Td5",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/service-kit-britpart-da6004"
+      },
+      {
+       "name": "Td5 oil filter rotor ERR6299",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/discovery-defender-oil-filter-rotor-diesel-td5-err6299-new"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "OE-type element for your engine",
+     "interval": "At purchase; more often in dust",
+     "note": "Check that the dump valve at the bottom of the airbox isn't split, because it lets unfiltered air in.",
+     "parts": [
+      {
+       "name": "RTC4683 Mahle air filter (Defender / RRC V8)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/rtc4683-air-filter-fits-defender-rrc"
+      },
+      {
+       "name": "ESR2623 air cleaner element (Defender / Discovery / RRC)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/element-filter-air-cleaner"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter",
+     "spec": "Diesel: OE-type element (Tdi: AEU2147L). V8: inline EFI filter [CONFIRM IN MANUAL]",
+     "interval": "At purchase",
+     "note": "Diesel trucks that sat for a long time collect water and sludge, so drain the sedimenter as well.",
+     "parts": [
+      {
+       "name": "AEU2147L diesel fuel filter (Defender / Disco 1 / RRC Tdi)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/fuel-filter-diesel"
+      },
+      {
+       "name": "Td5 / V8 fuel filter",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=defender+fuel+filter"
+      }
+     ]
+    },
+    {
+     "item": "Glow plugs / spark plugs",
+     "spec": "Tdi: ETC8847 glow plugs ×4. V8: plugs and leads per manual [CONFIRM IN MANUAL]",
+     "interval": "At purchase if there's no record, or if cold starts are slow",
+     "note": "A cold start that smokes and stumbles on a Tdi usually means one or more glow plugs have failed.",
+     "parts": [
+      {
+       "name": "ETC8847 glow plug, 200Tdi / 300Tdi",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/heater-plug"
+      },
+      {
+       "name": "Rover V8 spark plugs and leads",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=defender+v8+spark+plug"
+      }
+     ]
+    },
+    {
+     "item": "Timing belt (300Tdi / 200Tdi)",
+     "spec": "Revised kit (flanged crank pulley, idler, tensioner). V8 and Td5 use timing chains, not belts",
+     "interval": "Every 60,000 mi or 5 years per Lucky8. Glencoyne says 60k or 72k depending on model. Do it at purchase if there's no record",
+     "note": "Land Rover revised the 300Tdi tensioner, idler and bottom pulley because belts were wearing early. A yellow paint square on the timing cover was meant to show the fix had been done, but it isn't reliable.",
+     "parts": [
+      {
+       "name": "DA1300G 300Tdi timing belt kit (OEM)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/land-rover-discovery-defender-300-tdi-timing-kit-da1300g-oem-new"
+      }
+     ]
+    },
+    {
+     "item": "Coolant",
+     "spec": "50/50 ethylene glycol antifreeze and water · NAS V8 ≈12.8 L. 300Tdi ≈11.1 L",
+     "interval": "At purchase, then every 2 years (Comma: 40,000 km / 24 months)",
+     "note": "The aluminium V8 can't take overheating. Check the radiator for blocked fins and the viscous fan for drag while the system is drained.",
+     "parts": [
+      {
+       "name": "ETC4765 thermostat (V8 Defender / Discovery / Range Rover)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/engine-coolant-thermostat-1"
+      },
+      {
+       "name": "ERR5911 Polyvee fan belt (2.5 Tdi)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/fan-drive-belt-new-err5911"
+      }
+     ]
+    },
+    {
+     "item": "Manual gearbox (R380 / LT77)",
+     "spec": "Handbook: ATF M2C33-F or G (as quoted on AULRO) · ≈2.4 L (Comma lists its 75W-80 MTF for the 300Tdi R380)",
+     "interval": "Drain and refill at purchase",
+     "note": "Check the level at the side filler with the truck level. A notchy second gear or third-gear synchro problem on an R380 isn't fixed by changing the oil.",
+     "parts": [
+      {
+       "name": "R380 gearbox oil and drain/fill plugs",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=r380+drain+plug"
+      }
+     ]
+    },
+    {
+     "item": "Automatic (1997 NAS D90 ZF 4HP22)",
+     "spec": "Dexron IID ATF · 9.1 L listed total fill",
+     "interval": "Drain and refill at purchase",
+     "note": "Draining the pan only replaces part of the 9.1 L. Do two drain-and-fills rather than a pressure flush on an old box, and change the pan filter.",
+     "parts": [
+      {
+       "name": "ZF 4HP22 pan filter and gasket",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=4hp22+filter"
+      }
+     ]
+    },
+    {
+     "item": "Transfer box (LT230)",
+     "spec": "EP90 / 80W-90 gear oil, API GL-4 or GL-5 · ≈2.3 L",
+     "interval": "At purchase (Comma: change every 40,000 km / 24 months)",
+     "note": "The filler at the back of the case is tapered, so it feels tight before it is fully seated. Don't overtighten it. Use a new copper washer on the drain plug. The intermediate shaft and rear output seals are the usual leaks.",
+     "parts": [
+      {
+       "name": "EP90 gear oil and LT230 drain/fill plugs",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=lt230+drain+plug"
+      },
+      {
+       "name": "LT230 output flange oil seal FRC7043",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/lt230-transfer-box-output-flange-oil-seal"
+      }
+     ]
+    },
+    {
+     "item": "Front & rear axles",
+     "spec": "EP80W-90 GL-4/GL-5 · front ≈1.7 L. Rear ≈1.7 L on the Rover axle (one data set lists 2.3 L for the NAS D90). Salisbury 110 rear [CONFIRM IN MANUAL]",
+     "interval": "At purchase, then every 2 years (Comma: 40,000 km / 24 months)",
+     "note": "Fill each axle to the level plug on level ground. Defender2 members found the 1.7 L book figure close. Use a new drain-plug washer.",
+     "parts": [
+      {
+       "name": "Differential drain plug washers and EP90",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=defender+differential+drain+plug"
+      }
+     ]
+    },
+    {
+     "item": "Swivel housings",
+     "spec": "Early trucks: EP90 · 0.35 L per side (handbook). From about 1994: one-shot swivel grease STC3435, one sachet per side",
+     "interval": "Check at purchase and every service. Comma says change every 40,000 km / 24 months",
+     "note": "Lucky8 lists the STC3435 sachet for the NAS Defender 90 ('94–'97) and the Defender 110 ('93). An AULRO owner's 1994 swivel took about 450 ml to reach the level plug, so fill until it just dribbles out. Weeping seals mean the chrome ball is pitted. See the repairs above.",
+     "parts": [
+      {
+       "name": "Swivel housing grease sachet STC3435",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/swivel-housing-grease-tube-sachet"
+      },
+      {
+       "name": "Front axle swivel ball oil seal LR059968",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/front-axle-swivel-ball-oil-seal-1"
+      }
+     ]
+    },
+    {
+     "item": "Power steering & steering box",
+     "spec": "Dexron IID ATF · 2.8 L system (the 1993 US service checklist says ATF Type F, so [CONFIRM IN MANUAL]). Steering box: EP80W-90",
+     "interval": "Check at purchase",
+     "note": "Leaks from the box's input seal or sector shaft are common. Top up and watch the level.",
+     "parts": [
+      {
+       "name": "Power steering box seals and hoses",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=defender+power+steering"
+      }
+     ]
+    },
+    {
+     "item": "Brake & clutch fluid",
+     "spec": "DOT 4",
+     "interval": "At purchase, then every 18 months (Comma: change every 30,000 km / 18 months)",
+     "note": "The hydraulic clutch shares the fluid type. A soft clutch pedal usually means the slave cylinder is failing.",
+     "parts": [
+      {
+       "name": "SJJ100351 brake fluid reservoir kit (Defender)",
+       "supplier": "Lucky8",
+       "url": "https://lucky8llc.com/products/brake-master-cylinder-repair-kit-fix"
+      }
+     ]
+    },
+    {
+     "item": "Propshaft grease points",
+     "spec": "Multipurpose lithium grease on the UJs and sliding joints",
+     "interval": "At purchase. Comma says check UJs every 12 months and sliding joints every 24 months",
+     "note": "A clunk on take-up usually means a dry UJ or a worn sliding spline. Grease them before chasing the gearbox.",
+     "parts": [
+      {
+       "name": "Propshaft universal joints",
+       "supplier": "Rovers North",
+       "url": "https://roversnorth.com/search?q=defender+propshaft+universal+joint"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,944 @@
+{
+ "slug": "lx450",
+ "title": "Lexus LX 450",
+ "eyebrow": "LEXUS LX 450 · J80 · 1996–1997",
+ "verdict": "An 80 Series Land Cruiser that went to the tailor and came back with cladding, softer springs and a $7,000 premium. Under the leather it still has solid axles at both ends, which is exactly why people want one.",
+ "codes": [
+  "FZJ80",
+  "1FZ-FE 4.5 I6",
+  "A343F 4-SPEED",
+  "LOCKERS OPTIONAL"
+ ],
+ "hero_photo": "lc80-twin-hillside.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The LX 450 was Lexus's first SUV, and it was barely disguised. Take a late [[land-cruiser/80-series|80 Series]] Land Cruiser, give it a new grille, body cladding, different wheels, softer suspension and extra sound insulation, and you have it. Underneath sit a ladder frame, coil-sprung solid axles front and rear, full-time four-wheel drive with a lockable center differential and Toyota's 4.5-liter 1FZ-FE straight-six. Electric front and rear lockers were optional. It was sold in the US for just two model years, 1996 and 1997, and it remains the only LX with a solid front axle."
+   ]
+  },
+  {
+   "heading": "A TRUCK BORN OF A TRADE WAR",
+   "paragraphs": [
+    "The LX 450 exists because of a tariff threat. In the mid-1990s trade fight between the US and Japan, Washington threatened 100 percent tariffs on Japanese luxury cars, but SUVs weren't on the list. A rebadged Land Cruiser gave Lexus a flagship that was exempt, and it needed very little development money. Production began in November 1995, the first truck came off the line that December, and US sales started in January 1996. The tariffs never happened, because the two governments reached a gentlemen's agreement.",
+    "Lexus aimed it squarely at the Land Rover crowd, meaning the [[range-rover/classic|Range Rover]] and the [[land-rover/discovery-1|Discovery]]. The ad line was \"It's everything a Lexus is, and everything a Lexus isn't.\" Canada got it from 1997. Toyota had pulled the Land Cruiser from Canada in 1996, so for a while the LX was the only way Canadians could buy an 80 Series new."
+   ]
+  },
+  {
+   "heading": "WHAT $7,000 BOUGHT YOU",
+   "paragraphs": [
+    "At launch the LX 450 listed at $47,995, about $7,000 more than a base Land Cruiser at $40,678. A Land Cruiser optioned to match cost $46,968, so the real premium was closer to a thousand dollars. Slee Off-Road's 80 Series guide lists the differences. The LX got a revised stereo with a subwoofer in the center console, an optional factory cell phone, softer suspension, cladding on the doors, fenders and tailgate, bigger rear bumper corners, a plastic cover over the rear crossmember, two-tone mud flaps, automatic climate control, softer leather and more sound deadening.",
+    "Mechanically it was the 1995–1997 FZJ80 drivetrain. That means the 24-valve 1FZ-FE (212 hp and 275 lb-ft by most period spec sheets, although Wikipedia gives 215 hp), the A343F four-speed automatic, 4.11 axle gears and 275/70R16 tires. The only factory options were a console CD changer, a moonroof and the electric lockers. Those lockers are the option to look for today. On an Expedition Portal thread, forum regulars valued them at about $2,500 on a used truck."
+   ]
+  },
+  {
+   "heading": "THE SLOW-SELLER THAT WASN'T",
+   "paragraphs": [
+    "Lexus expected to sell around 4,000 in 1996. It sold more than 5,000, sold out its first allocation and had a two-month waiting list. Sales passed 9,000 in 1997, and the truck topped J.D. Power's Initial Quality Survey among full-size SUVs. The weak spot was the engine. Critics thought 212 hp wasn't enough for a 5,000-lb truck, so the model cycle was cut short. For 1998 the [[land-cruiser/100-series|100 Series]]-based [[lexus/lx470|LX 470]] took over, with a V8, independent front suspension and hydraulic height control.",
+    "That changeover is the reason the LX 450 has a cult following now. It was the last LX with a live front axle, and the [[lexus/lx470|LX 470]] that replaced it dropped the factory lockers in the US. Every 80 Series part, lift and armor kit fits, and Metal Tech 4x4 sells sliders and rear links labeled for both the 80 Series and the LX 450. You pay a little more for the badge, and in return you usually get a truck that spent its first decade on a country-club driveway."
+   ]
+  },
+  {
+   "heading": "LIVING WITH ONE NOW",
+   "paragraphs": [
+    "The newest LX 450 is now nearly 30 years old, so condition matters far more than spec. The forums agree on the big three. The 1FZ-FE head gasket becomes a concern past about 150,000 miles. The front knuckles and birfields need a rebuild when their seals start weeping. And there's the PHH, short for \"pesky heater hose\": a 3-inch coolant hose under the intake that can strand you when it pops. None of these is exotic. Each one is documented on IH8MUD and Slee's site, and each is the kind of weekend job the owners' community has turned into a rite of passage."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · LOCKED OR NOT?",
+  "title": "Factory lockers and the hidden center-diff switch",
+  "paragraphs": [
+   "The factory lockers were electric, front and rear, and were the most valuable option on the LX 450. Slee's buying advice is to make sure they actually engage by turning them on in low range on a low-traction surface. Slee also says the usual cause of a locker that won't engage is the actuator, which can be rebuilt. Retrofitting factory lockers to an unlocked truck needs the locker ECU, harnesses and new or re-splined axle shafts, plus some welding, so it is rarely worth it. ARB Air Lockers are the usual alternative.",
+   "The center differential is a separate story. US trucks from 1993 on lock the center diff automatically in low range but had no switch for high range, even though the wiring is there. Slee's plug-in center-diff-lock switch for 1995–1997 trucks (TOY1002) cost $79 and took Off-Road.com's tester less than an hour to install."
+  ]
+ },
+ "engineering_intro": "The LX 450 is an FZJ80 underneath. It has a ladder frame, coil springs on solid axles at both ends and full-time four-wheel drive through a two-speed transfer case with a viscous-coupled center differential. US trucks lock the center diff automatically in low range, which also switches off the ABS. The 1995–1997 trucks got the A343F four-speed automatic, airbags, OBD-II diagnostics (fully compliant from 1996) and in-line catalytic converters. Electric front and rear lockers were a factory option.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame, J80",
+   "note": "Same frame and body as the FZJ80 Land Cruiser. The LX adds cladding and a covered rear crossmember."
+  },
+  {
+   "k": "ENGINE",
+   "v": "1FZ-FE 4.5 I6",
+   "note": "24-valve twin-cam straight-six with a timing chain. Head gaskets are the known weak point at high mileage."
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "A343F 4-speed auto",
+   "note": "Replaced the A442F during 1995. The transmission type is printed on the driver's door label."
+  },
+  {
+   "k": "4WD",
+   "v": "Full-time, 2-speed",
+   "note": "Viscous-coupled center diff that locks automatically in low range. A high-range switch can be added to the existing wiring."
+  },
+  {
+   "k": "AXLES",
+   "v": "Solid front & rear",
+   "note": "Birfield CV joints in the front knuckles. Since 1993, ABS-equipped 80s have a full-floating rear axle with disc brakes. Gears are 4.11:1."
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Front & rear optional",
+   "note": "Electric. The switch part number is 84725-60020."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1991–1992",
+   "platform": "FJ80 (Land Cruiser)",
+   "engine": "3F-E 4.0 I6",
+   "output": "150 hp / 214 lb-ft",
+   "note": "The 80 Series arrives in the US with full-time 4WD and coil springs. No lockers, ABS or airbags."
+  },
+  {
+   "years": "1993–1994",
+   "platform": "FZJ80 (Land Cruiser)",
+   "engine": "1FZ-FE 4.5 I6",
+   "output": "212 hp / 275 lb-ft",
+   "note": "New 4.5-liter engine. Optional factory lockers. Full-floating rear axle with disc brakes on ABS trucks."
+  },
+  {
+   "years": "1995",
+   "platform": "FZJ80 (Land Cruiser)",
+   "engine": "1FZ-FE 4.5 I6",
+   "output": "212 hp / 275 lb-ft",
+   "note": "New dash with airbags, a new grille badge, and the A343F transmission replacing the A442F."
+  },
+  {
+   "years": "1996",
+   "platform": "FZJ80 · LX 450",
+   "engine": "1FZ-FE 4.5 I6",
+   "output": "212 hp / 275 lb-ft",
+   "note": "LX 450 launch (US sales from January 1996). Fully OBD-II compliant. More than 5,000 sold."
+  },
+  {
+   "years": "1997",
+   "platform": "FZJ80 · LX 450",
+   "engine": "1FZ-FE 4.5 I6",
+   "output": "212 hp / 275 lb-ft",
+   "note": "Final year. More than 9,000 sold, and Canada gets the LX. Toyota sells 40th Anniversary Land Cruisers alongside it."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Head gasket history",
+   "body": "Look for coolant at the head-to-block joint and ask whether the gasket has been replaced. One Expedition Portal regular calls 1FZ-FEs past 150k miles prone to failure and those past 200k very prone. Others think the worry is overblown. Either way, receipts for a properly done head gasket job add real value."
+  },
+  {
+   "head": "Knuckle seals",
+   "body": "Caked grease and oil on the outside of the steering knuckles means the inner axle seals failed a while ago. Slee suggests pulling the square fill plug on the knuckle. If the grease inside is runny, diff oil is getting into the knuckle."
+  },
+  {
+   "head": "Lockers that work",
+   "body": "If the truck has the factory lockers, turn them on in low range on a loose surface and make sure they engage. A dead locker is often a seized actuator, which can be rebuilt."
+  },
+  {
+   "head": "Cooling system and PHH",
+   "body": "A replaced radiator or deposits in the overflow bottle can point to past overheating, which is bad news for the head gasket. Ask whether the PHH and the bypass hoses under the intake have been replaced. Use Toyota red coolant."
+  },
+  {
+   "head": "Accident and rust history",
+   "body": "Slee's checklist covers overspray, filler (check with a magnet), uneven panel gaps and missing VIN stickers. Late 80s had a sticker on every body panel. Get underneath and check the frame for pull marks and rust."
+  },
+  {
+   "head": "Records over miles",
+   "body": "Forum regulars put service records ahead of mileage. If the driveline, diffs, birfields and bearings haven't been serviced within 150k miles, one Expedition Portal member says to budget about $2,000."
+  },
+  {
+   "head": "Hidden wiring",
+   "body": "Look under the dash below the steering wheel and at extra wires on the battery terminal. A rat's nest of accessory wiring usually means the rest of the work wasn't done properly either."
+  },
+  {
+   "head": "Drive it",
+   "body": "Check that the transmission shifts smoothly, the brakes don't pull or pulse, the steering is free of noises from lock to lock, and there's no vibration at highway speed. Blue or white smoke on acceleration means walk away."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Front knuckle rebuild and birfield repack",
+   "diff": "3 / 5",
+   "time": "Varies. Allow a weekend for a first rebuild.",
+   "cost": "Rebuild kit about $126–$130 (Cruiser Corps, Low Range Off-Road). Wheel bearings are extra.",
+   "symptoms": "Grease and oil caked on the outside of the knuckle balls, runny grease at the knuckle fill plug, and diff oil migrating into the knuckles.",
+   "fix": "Following Jim Phillips's IH8MUD write-up: pull the wheel and caliper (hang it, don't let it dangle), then the dust cap, snap ring, flange nuts, cone washers and locknuts, and slide off the hub and rotor. Unbolt the spindle, unplug the plastic ABS sensor gently, set the steering straight ahead and pull the axle and birfield. Pull the spring out of the inner seal lip before prying the old seal out, so it can't drop into the axle tube. Clean, repack and reassemble with new gaskets and seals. Set wheel bearing preload to 43 ft-lb, rotate, back off, then 3 ft-lb, lock nut to 47 ft-lb, and check for 6–12 lb on a spring scale. Flange nuts take 26 ft-lb and caliper bolts 90 ft-lb. Trunnion bearings are worth doing at the same time.",
+   "tools": "Torque wrench · brass drift · 54 mm hub socket · seal puller · snap-ring pliers · spring scale · moly and MP grease · knuckle rebuild kit (Cruiser Corps SKU 595-106; bearings 595-184)",
+   "parts": [
+    {
+     "name": "80 Series knuckle rebuild kit (FA9097)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/80-series-knuckle-rebuild-kit-fits-1-1990-1-1998-80-81-series-lx450-land-cruiser-applications-fa9097/"
+    },
+    {
+     "name": "Knuckle (trunnion) bearings kit, 1° offset (FA88915)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/knuckle-bearings-kit-1-offset-fits-1990-1997-80-450-applications-fa88915/"
+    },
+    {
+     "name": "Front wheel bearing kit, Koyo (FAWB9097K)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/front-wheel-bearing-kit-fits-1990-1997-7x-80-81-series-lx450-koyo-fawb9097k/"
+    },
+    {
+     "name": "Birfield seal / knuckle rebuild kit, 80 Series",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/birfield-seal-knuckle-rebuild-kit-80-series"
+    }
+   ]
+  },
+  {
+   "title": "PHH (heater hose) replacement",
+   "diff": "2 / 5",
+   "time": "An afternoon. It's easier if the starter is already out.",
+   "cost": "About $20 in Gates hose and clamps, or a bypass kit for about $45 (owner reports)",
+   "symptoms": "A coolant leak low on the driver's side of the engine, or a sudden loss of coolant that leaves you stranded. Old original clamps are a warning sign on their own.",
+   "fix": "Follow the hard metal heater pipe from the heater valve down the driver's side of the engine. The PHH is the short rubber hose (about 3 in) joining that pipe to the block, below the intake manifold. The best view is from the driver's front wheel well. Replace it with quality hose and clamps. While you're there, do the bypass hose just above and forward of it and the formed hose under the intake. Slee's site has a photo write-up. Refill with Toyota red coolant and bleed the system.",
+   "tools": "Hose pliers · long extensions · drain pan · coolant · replacement hose and constant-tension clamps, or a PHH bypass kit",
+   "parts": [
+    {
+     "name": "Coolant bypass hose, FZJ80/LX450 (RAD16264)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/coolant-bypass-hose-fits-fxj80-lx450-applications-rad16264/"
+    },
+    {
+     "name": "Heater hoses and fittings (search)",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/search?q=heater+hose"
+    },
+    {
+     "name": "Heater control valve, FJ80/FZJ80",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/heater-control-valve-fj80-fzj80-hj-bj-1991-1997"
+    }
+   ]
+  },
+  {
+   "title": "Head gasket replacement",
+   "diff": "5 / 5",
+   "time": "Multi-day. The head has to go to a machine shop.",
+   "cost": "Head machining $185–$650 depending on the work. Gaskets and seals about $260 (2013). One Expedition Portal member put a full shop job at $2,000+.",
+   "symptoms": "Coolant loss, overheating, combustion gases in the coolant (confirm with a block test kit) and coolant weeping at the head-to-block joint.",
+   "fix": "Confirm with a combustion leak test first. Pull the head and have it checked for flatness, decked and pressure-tested. Shops also commonly do a valve job and new valve seals. Use a valve-grind gasket set, an EGR gasket, a water-return pipe gasket, a distributor O-ring and FIPG. OEM gaskets are the forum default. Cometic MLS gaskets need very flat, finely finished surfaces. Inspect the timing chain tensioner and the plastic guides while it's apart, because they can break, especially on 1993–early 1994 engines. Some owners wish they'd replaced the head studs too.",
+   "tools": "Full metric socket set · torque wrench · engine hoist (optional) · combustion leak tester · FSM · gasket set and FIPG",
+   "parts": [
+    {
+     "name": "Engine gasket sets and head gaskets (1997 LX450 catalog)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
+    },
+    {
+     "name": "Exhaust manifold-to-head gasket set, 1FZ (EGEX171FZSET)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/exhaust-manifold-to-head-gasket-set-2-pcs-fits-1fzf-1fze-engine-applications-egex171fzset/"
+    },
+    {
+     "name": "Valve cover gasket kit, 1993–1997 1FZ (VCC66020KIT)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/valve-cover-gasket-kit-fits-1993-1997-1fz-engine-applications-vcc66020kit/"
+    },
+    {
+     "name": "Thermostat gasket, FZJ80/LX450",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/thermostat-gasket-80-series-fzj80-lx450-8-1992-12-1997"
+    }
+   ]
+  },
+  {
+   "title": "Center diff lock (CDL) switch install",
+   "diff": "1 / 5",
+   "time": "Under 1 hour",
+   "cost": "$79 for the 1995–1997 Slee kit (TOY1002), per Off-Road.com",
+   "symptoms": "You want to lock the center differential in high range on snow, sand or washboard, but US trucks only lock it automatically in low range.",
+   "fix": "Take off the center dash face, mount the switch in a blank and plug it into the factory harness, which is already wired for it. Then put the dash back together. Lock the center diff only on loose surfaces.",
+   "tools": "Trim tools · screwdriver · CDL switch kit",
+   "parts": [
+    {
+     "name": "Switches (CDL switch kits)",
+     "supplier": "Slee Off-Road",
+     "url": "https://sleeoffroad.com/product-category/lighting-and-electrical/switches"
+    },
+    {
+     "name": "CDL switch (search)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/search.php?search_query=cdl+switch"
+    }
+   ]
+  },
+  {
+   "title": "Power-steering reservoir seal leak",
+   "diff": "1 / 5",
+   "time": "≈ 1 hour",
+   "cost": "A few dollars in seals",
+   "symptoms": "A steady power-steering fluid leak that has been blamed on the hoses or the steering box.",
+   "fix": "Unsealed 4X4 says the usual culprit is the reservoir itself. There is one seal under the cap and another under the top plate. Remove the reservoir, carefully pry open the crimps on the lip, replace both seals, re-crimp the top and refit it. Top up with DEXRON-type ATF.",
+   "tools": "Flat screwdriver · pliers · replacement seals · ATF",
+   "parts": [
+    {
+     "name": "Power steering reservoir/suction O-ring (ST11016OR)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/power-steering-reservoir-suction-o-ring-fits-08-92-12-97-80-series-01-98-07-02-100-series-applications-st11016or/"
+    },
+    {
+     "name": "Power steering reservoir-to-pump return hose, FZJ80/LX450 (ST44348FZ)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/power-steering-reservoir-to-pump-return-hose-fits-08-1992-12-1997-fzj80-lx450-land-cruiser-applications-st44348fz/"
+    }
+   ]
+  },
+  {
+   "title": "Rear axle stud and cone-washer repair",
+   "diff": "2 / 5",
+   "time": "≈ half a day",
+   "cost": "Parts plus machining",
+   "symptoms": "Snapped rear axle-flange studs.",
+   "fix": "The usual cause is a warped axle flange face from hammering on the shaft to free the cone washers. That loads one stud at a time until they break. Free the cone washers by tapping the stud ends with a brass drift, or use a small screwdriver in the washer slot. Have a warped flange refaced on a lathe so it sits square. Upgrading from 8 mm to 10 mm studs at the same time is a common choice.",
+   "tools": "Brass drift · small screwdriver · new studs and cone washers · machine shop for refacing",
+   "parts": [
+    {
+     "name": "Hub/drive flange cone washer, AISIN (HUB60010)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/aisin-hub-drive-flange-cone-washer-fits-1958-1-1998-40-55-6062-70-80-applications-hub60010/"
+    },
+    {
+     "name": "Axle studs and hardware (search)",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/search?q=axle+stud"
+    },
+    {
+     "name": "Rear axle parts (1997 LX450 catalog)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "The stock size is 275/70R16. On a stock-height 80 Series or LX 450 with healthy springs, the usual answer is 285/75R16, about 33 in. Owners report it works, with some rubbing possible at full flex or full lock. Anything bigger starts rubbing. Slee's guide notes that 35s are possible with a 2-in Old Man Emu lift, but expect to rub when crawling unless you lower the bump stops.",
+   "src": "IH8MUD · SLEE OFF-ROAD"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "A 1997 spec sheet lists a 2,268 kg (5,000 lb) maximum trailer weight. Slee warns that the four bolt holes in the black rear crossmember (covered by trim on the LX) aren't rated for towing in the US, so use a frame-mounted receiver hitch.",
+   "src": "AUTO123 SPEC SHEET · SLEE OFF-ROAD"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "The EPA rates both years at 12 mpg city, 14 highway and 13 combined on regular fuel. Bigger tires and a roof rack push that lower.",
+   "src": "EPA VIA MPGBUDDY"
+  },
+  {
+   "q": "What fluids and capacities does it take?",
+   "a": "According to AMSOIL's 1997 LX 450 lookup: engine oil 7.8 qt with filter (10W-30 above -18°C, 5W-30 below 10°C). Coolant 14.8 qt with the front heater only, or 15.9 qt with front and rear heaters. The A343F transmission takes 11.6 qt total. The transfer case takes 3.6 pt of GL-4 or GL-5 gear oil. The front diff takes 5.5 pt (with locker) or 5.9 pt (without) and the rear diff 7 pt, both GL-5 90-weight. Power steering uses DEXRON-III ATF.",
+   "src": "AMSOIL APPLICATION GUIDE"
+  },
+  {
+   "q": "Does it have lockers?",
+   "a": "Every LX 450 has a center differential that locks automatically in low range. Electric front and rear axle lockers were a factory option, and BaT listings describe triple-locked trucks. If yours has them there are locker controls on the dash. Test them in low range on a loose surface before you buy. For unlocked trucks Slee recommends ARB Air Lockers, which cost less than retrofitting the factory units.",
+   "src": "WIKIPEDIA · SLEE OFF-ROAD · BAT"
+  },
+  {
+   "q": "Can I lock the center diff in high range?",
+   "a": "Not from the factory. US trucks from 1993 on had the switch deleted but kept the wiring. A plug-in CDL switch (Slee TOY1002 for 1995–1997) adds high-range locking in under an hour.",
+   "src": "OFF-ROAD.COM · SLEE OFF-ROAD"
+  },
+  {
+   "q": "How worried should I be about the head gasket?",
+   "a": "Worried enough to budget for it, but not enough to panic. Expedition Portal regulars say 1995–1997 1FZ-FEs are the ones to watch, and that risk climbs past 150k and especially 200k miles, with overheating in hot climates as a trigger. A properly done gasket job with receipts adds about $1,500–$2,000 in value. Others note plenty of unreplaced gaskets go past 200k without trouble.",
+   "src": "EXPEDITION PORTAL FORUM"
+  },
+  {
+   "q": "Should I regear for bigger tires?",
+   "a": "The 1FZ-FE trucks come with 4.11 gears. Slee suggests regearing to 4.56, 4.88 or 5.29 when you go up in tire size. Opinions vary on the right ratio, so its advice is to drive a truck with the setup you're considering first.",
+   "src": "SLEE OFF-ROAD"
+  },
+  {
+   "q": "What's the difference between an LX 450 and a 1996–1997 Land Cruiser?",
+   "a": "Mechanically, very little. The LX has softer suspension, extra sound deadening, softer leather, auto climate control, a console subwoofer, body cladding, larger rear bumper corners and two-tone mud flaps. The LX mud flaps don't swap onto a Toyota. Parts and aftermarket kits for the FZJ80 fit both.",
+   "src": "SLEE OFF-ROAD · WIKIPEDIA"
+  },
+  {
+   "q": "What lift options are there?",
+   "a": "Old Man Emu coil-and-shock kits are the classic answer. Slee's guide mentions OME 2-in lifts with 35s, and owners run OME 850/864-series coils. Metal Tech 4x4 sells 1.5-in and 2-in front spacer plates, adjustable rear upper and offset lower links, sway-bar drop brackets and caster plates for the 80 Series and LX 450. If you lift the truck, readjust the load-sensing brake proportioning valve.",
+   "src": "SLEE OFF-ROAD · METAL TECH 4X4"
+  },
+  {
+   "q": "Which year should I buy?",
+   "a": "There are only two, and they're nearly the same. The 1996 and 1997 trucks both have the A343F, airbags and OBD-II. Buy the one with the best records, the healthiest knuckles and working lockers. Factory lockers add about $2,500 in value according to forum regulars, so a locked truck is worth the wait.",
+   "src": "SLEE OFF-ROAD · EXPEDITION PORTAL FORUM"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "A mild lift with better shocks gets you on 33s without rubbing. Adjustable rear links and caster plates keep the geometry right as you go taller.",
+   "who": [
+    {
+     "name": "Old Man Emu",
+     "url": "https://www.oldmanemu.com/"
+    },
+    {
+     "name": "Metal Tech 4x4 (spacers, links, caster plates)",
+     "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-lx450-1995-1997"
+    }
+   ]
+  },
+  {
+   "cat": "LOCKERS",
+   "why": "If the truck didn't come with factory lockers, air lockers are cheaper than retrofitting the electric ones, and the OEM switch and dash lights can be wired to run them.",
+   "who": [
+    {
+     "name": "ARB (Air Locker)",
+     "url": "https://www.arbusa.com/"
+    }
+   ]
+  },
+  {
+   "cat": "ROCK SLIDERS",
+   "why": "The cladding and running boards are fragile and the rocker panels are expensive. Frame-mounted sliders protect both and still work as a step.",
+   "who": [
+    {
+     "name": "Metal Tech 4x4 (80 Series / LX 450 sliders)",
+     "url": "https://www.metaltech4x4.com/products/metal-tech-4x4-80-series-land-cruiser-lx450-rock-sliders-1"
+    },
+    {
+     "name": "Slee Off-Road",
+     "url": "https://sleeoffroad.com/product-category/body-armor/sliders"
+    }
+   ]
+  },
+  {
+   "cat": "BUMPERS & SWING-OUTS",
+   "why": "A real front bumper carries a winch and protects the radiator. A rear bumper with a swing-out carrier lifts a full-size spare off the ground.",
+   "who": [
+    {
+     "name": "Dissent Off-Road (LC80)",
+     "url": "https://dissentoffroad.com/collections/lc80"
+    },
+    {
+     "name": "Slee Off-Road",
+     "url": "https://sleeoffroad.com/product-category/body-armor/front-bumpers/"
+    }
+   ]
+  },
+  {
+   "cat": "SNORKEL",
+   "why": "The stock air intake is in the passenger front fender. A snorkel moves it to roof height for water crossings. Slee says to fit one for wading, not for the debated performance gains.",
+   "who": [
+    {
+     "name": "Slee Off-Road",
+     "url": "https://sleeoffroad.com/product-category/drivetrain/snorkels"
+    }
+   ]
+  },
+  {
+   "cat": "MAINTENANCE PARTS",
+   "why": "At this age the knuckles, hoses and seals matter more than the accessories. Specialist shops stock kits by chassis.",
+   "who": [
+    {
+     "name": "Cruiser Corps (80 Series)",
+     "url": "https://cruisercorps.com/collections/80-series-shop-all"
+    },
+    {
+     "name": "Cruiser Outfitters / CruiserTeq (80 Series & LX 450)",
+     "url": "https://cruiserteq.com/80-series-lx450/"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1996–1997 · US",
+   "label": "LX 450",
+   "at_url": "https://www.autotempest.com/results?make=lexus&model=lx450&minyear=1996&maxyear=1997",
+   "bat_url": "https://bringatrailer.com/lexus/lx450/"
+  },
+  {
+   "years": "1995–1997 · US",
+   "label": "FZJ80 Land Cruiser (mechanical twin)",
+   "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1995&maxyear=1997",
+   "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj80-fzj80/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "OTRAMM",
+   "focus": "LAND CRUISER REPAIR HOW-TOS",
+   "url": "https://www.youtube.com/@OTRAMM"
+  },
+  {
+   "kind": "YT",
+   "name": "Metal Tech 4x4",
+   "focus": "80 SERIES ARMOR & SUSPENSION",
+   "url": "https://www.youtube.com/@Metaltech4x4"
+  },
+  {
+   "kind": "YT",
+   "name": "Dissent Off-road",
+   "focus": "LAND CRUISER BUMPERS & BUILDS",
+   "url": "https://www.youtube.com/@dissentoffroad"
+  },
+  {
+   "kind": "IG",
+   "name": "@cruisercorps",
+   "focus": "VINTAGE CRUISER PARTS & 80 SERIES",
+   "url": "https://www.instagram.com/cruisercorps/"
+  },
+  {
+   "kind": "IG",
+   "name": "@sleeoffroad",
+   "focus": "LAND CRUISER BUILDS",
+   "url": "https://www.instagram.com/sleeoffroad/"
+  },
+  {
+   "kind": "IG",
+   "name": "@ih8mud",
+   "focus": "LAND CRUISER COMMUNITY",
+   "url": "https://www.instagram.com/ih8mud/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "IH8MUD — 80-Series Tech",
+   "url": "https://forum.ih8mud.com/forums/80-series-tech.9/",
+   "note": "The deepest archive of FZJ80 and LX 450 knowledge anywhere. Start with the stickied 80-series FAQ."
+  },
+  {
+   "name": "ClubLexus — LX 1st & 2nd Gen (1996–2007)",
+   "url": "https://www.clublexus.com/forums/lx-1st-and-2nd-gen-1996-2007/",
+   "note": "Lexus-owner perspective on LX 450 ownership, trim and electrical quirks."
+  },
+  {
+   "name": "Expedition Portal Forum",
+   "url": "https://forum.expeditionportal.com/",
+   "note": "Good buying threads on 80 Series and LX 450 values, head gaskets and lockers."
+  }
+ ],
+ "related": [
+  {
+   "rel": "MECHANICAL TWIN",
+   "name": "80 Series",
+   "family": "land-cruiser",
+   "gen": "80-series"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "LX 470",
+   "family": "lexus",
+   "gen": "lx470"
+  },
+  {
+   "rel": "DESCENDANT",
+   "name": "LX 570",
+   "family": "lexus",
+   "gen": "lx570"
+  },
+  {
+   "rel": "TARGET RIVAL",
+   "name": "Range Rover Classic",
+   "family": "range-rover",
+   "gen": "classic"
+  },
+  {
+   "rel": "TARGET RIVAL",
+   "name": "Discovery Series I",
+   "family": "land-rover",
+   "gen": "discovery-1"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "J80 (FZJ80)"
+  },
+  {
+   "k": "YEARS",
+   "v": "1996–1997 MY (built Nov 1995–Dec 1997)"
+  },
+  {
+   "k": "ENGINE",
+   "v": "1FZ-FE 4.5 L I6, 24-valve DOHC"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "212 hp / 275 lb-ft (Wikipedia: 215 hp)"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "A343F 4-speed automatic"
+  },
+  {
+   "k": "4WD",
+   "v": "Full-time, 2-speed, locking center diff"
+  },
+  {
+   "k": "AXLES",
+   "v": "Solid front & rear, coil springs, 4.11 gears"
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Front & rear electric (optional)"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "112.2 in"
+  },
+  {
+   "k": "WEIGHT",
+   "v": "≈ 2,255 kg (4,970 lb)"
+  },
+  {
+   "k": "TOWING",
+   "v": "2,268 kg (5,000 lb)"
+  },
+  {
+   "k": "STOCK TIRE",
+   "v": "275/70R16"
+  }
+ ],
+ "photos": [
+  {
+   "file": "lc80-twin-hillside.jpg",
+   "alt": "A pre-1995 Toyota Land Cruiser 80 Series, the LX 450's mechanical twin, with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
+   "caption": "80 SERIES, THE LX 450'S TWIN · HIGH COUNTRY",
+   "credit": "Darina Rodionova",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+  },
+  {
+   "file": "lx470-sand.jpg",
+   "alt": "Tan Lexus LX 470, the LX 450's successor, parked head-on on packed sand by the water under a clear blue sky",
+   "caption": "THE SUCCESSOR: LX 470 ON THE SAND",
+   "credit": "Pareekshith Indeever",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/lexus-car-under-clear-sky-10697774/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Lexus LX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "Wikipedia — Toyota Land Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+   "name": "Slee Off-Road — 80 Series Newbie Guide",
+   "url": "https://sleeoffroad.com/tech-zone/80-series-newbie-guide/"
+  },
+  {
+   "name": "ClubLexus — How the Lexus LX Land Cruiser was born",
+   "url": "https://clublexus.com/articles/lexus-lx-land-cruiser-history"
+  },
+  {
+   "name": "DrivingLine — Off-Road History: How the Lexus LX Became the Luxury Land Cruiser",
+   "url": "https://www.drivingline.com/articles/off-road-history-how-the-lexus-lx-became-the-luxury-land-cruiser"
+  },
+  {
+   "name": "Auto123 — 1997 Lexus LX 450 technical specs",
+   "url": "https://www.auto123.com/en/new-cars/technical-specs/lexus/lx/1997/base/450/"
+  },
+  {
+   "name": "MPGBuddy — 1997 Lexus LX 450 EPA fuel economy",
+   "url": "https://mpgbuddy.com/cars/lexus/lx-450/1997"
+  },
+  {
+   "name": "AMSOIL — 1997 Lexus LX450 1FZ-FE fluid capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1997/lexus/lx450/4-5l-6-cyl-engine-code-j-1fz-fe-d/"
+  },
+  {
+   "name": "Off-Road.com — Toyota Land Cruiser CDL switch install review",
+   "url": "https://www.off-road.com/trucks-4x4/tech/toyota-land-cruiser-cdl-switch-install-review-53202.html"
+  },
+  {
+   "name": "IH8MUD — Birf repack (Jim Phillips)",
+   "url": "https://www.ih8mud.com/tech/birf-repack.php"
+  },
+  {
+   "name": "IH8MUD — 80-series FAQ for General Info, Modification and Repairs",
+   "url": "https://forum.ih8mud.com/threads/80-series-faq-for-general-info-modification-and-repairs.84888/"
+  },
+  {
+   "name": "IH8MUD — FZJ80 common problems?",
+   "url": "https://forum.ih8mud.com/threads/fzj80-common-problems.834224/"
+  },
+  {
+   "name": "IH8MUD — Pesky Heater hose ???",
+   "url": "https://forum.ih8mud.com/threads/pesky-heater-hose.792227"
+  },
+  {
+   "name": "IH8MUD — Head gasket questions",
+   "url": "https://forum.ih8mud.com/threads/head-gasket-questions.783567/"
+  },
+  {
+   "name": "IH8MUD — Head gasket",
+   "url": "https://forum.ih8mud.com/threads/head-gasket.1331397"
+  },
+  {
+   "name": "IH8MUD — Stock 94 FJ80, biggest tire?",
+   "url": "https://forum.ih8mud.com/threads/stock-94-fj80-biggest-tire.691459/"
+  },
+  {
+   "name": "IH8MUD — Tires with no lift",
+   "url": "https://forum.ih8mud.com/threads/tires-with-no-lift.674447/"
+  },
+  {
+   "name": "Expedition Portal Forum — Looking to buy a 1996 LC",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1853923"
+  },
+  {
+   "name": "Expedition Portal Forum — Looking for a FZJ80, $8,900 for LX450?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1627972"
+  },
+  {
+   "name": "Unsealed 4X4 — Toyota LandCruiser 80 Series: common problems & solutions",
+   "url": "https://unsealed4x4.com.au/toyota-landcruiser-80-series-common-problems-solutions/"
+  },
+  {
+   "name": "Cruiser Corps — Birfield seal knuckle rebuild kit, 80 Series",
+   "url": "https://cruisercorps.com/products/birfield-seal-knuckle-rebuild-kit-80-series"
+  },
+  {
+   "name": "Low Range Off-Road — Toyota FJ80 knuckle rebuild kit",
+   "url": "https://lowrangeoffroad.com/toyota-fj80-knuckle-rebuild-kit.html"
+  },
+  {
+   "name": "Bring a Trailer — 1996 Lexus LX450 (triple-locked example)",
+   "url": "https://bringatrailer.com/listing/1996-lexus-lx450-83/"
+  },
+  {
+   "name": "Bring a Trailer — 1997 Lexus LX450",
+   "url": "https://bringatrailer.com/listing/1997-lexus-lx450-192/"
+  },
+  {
+   "name": "Metal Tech 4x4 — Lexus LX450 (1995–1997) parts",
+   "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-lx450-1995-1997"
+  },
+  {
+   "name": "CruiserTeq — 80 Series / LX450 parts",
+   "url": "https://cruiserteq.com/80-series-lx450/"
+  },
+  {
+   "name": "IH8MUD — Drive Shaft / Propeller Shaft Service - Detailed",
+   "url": "https://forum.ih8mud.com/threads/drive-shaft-propeller-shaft-service-detailed.1148130/"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Assume nothing was done. A 1996–1997 LX 450 is at least 28 years old, and IH8MUD and Expedition Portal regulars rate service records above mileage. Change every fluid, repack the knuckles and inspect the cooling system in your first weekend. That gives you a known baseline and the best early warning of head-gasket or knuckle trouble.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "10W-30 (above −18°C) or 5W-30 (below 10°C) · 7.8 qt with filter",
+    "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "note": "Drain plug torque is 18 ft-lb. An oil analysis on the first drain gives a useful head-gasket baseline. Look for coolant in the oil.",
+    "parts": [
+     {
+      "name": "Oil filter 90915-YZZD3 (OILYZZD3)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/oil-filter-fits-3-1969-5-2005-f-2f-3fe-1fz-2uz-3b-13bt-engine-oilyzzd3/"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "1FZ-FE panel element",
+    "interval": "Inspect every oil change, more often on dirt roads",
+    "note": "Check the intake hose and boot for cracks. IH8MUD regulars list a worn intake hose as a common 80 Series fault.",
+    "parts": [
+     {
+      "name": "Air filter, FZJ80/LX450 1FZ-FE",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/air-filter-fits-9-1992-12-1997-fzj80-lx450-w-1fzfe-engine/"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs, wires & distributor",
+    "spec": "Denso OEM plugs [CONFIRM GAP IN MANUAL]",
+    "interval": "At purchase if no record",
+    "note": "The 1FZ-FE uses a distributor and plug wires, so replace the wires with the plugs on an unknown truck. Spark plug tube seals stop oil pooling in the plug wells.",
+    "parts": [
+     {
+      "name": "Denso OEM spark plugs, FZJ80/LX450",
+      "supplier": "Cruiser Corps",
+      "url": "https://cruisercorps.com/products/denso-oem-spark-plugs-fzj80-lx450-1993-1997"
+     },
+     {
+      "name": "Spark plug wire set, FZJ80/LX450",
+      "supplier": "Cruiser Corps",
+      "url": "https://cruisercorps.com/products/spark-plug-wire-set-fzj80-lx450-1993-1997"
+     },
+     {
+      "name": "Spark plug tube seal, 1FZ (VCC15010)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/spark-plug-tube-seal-fits-1fz-applications-vcc15010/"
+     }
+    ]
+   },
+   {
+    "item": "Coolant, thermostat & radiator cap",
+    "spec": "Toyota red coolant · 14.8 qt (front heater) / 15.9 qt (front + rear heaters)",
+    "interval": "Flush at purchase [CONFIRM INTERVAL IN MANUAL]",
+    "note": "Overheating is what kills 1FZ head gaskets. Expedition Portal regulars say to use Toyota red only and to check the water pump, fan clutch and thermostat. A replaced radiator or crud in the overflow bottle are clues to past overheating (Slee).",
+    "parts": [
+     {
+      "name": "Thermostat, 80/100 Series",
+      "supplier": "Cruiser Corps",
+      "url": "https://cruisercorps.com/products/thermostat-80-and-100-series-fzj80-lx450-uzj100-lx470-8-1992-2007"
+     },
+     {
+      "name": "Thermostat gasket, FZJ80/LX450",
+      "supplier": "Cruiser Corps",
+      "url": "https://cruisercorps.com/products/thermostat-gasket-80-series-fzj80-lx450-8-1992-12-1997"
+     }
+    ]
+   },
+   {
+    "item": "Heater and bypass hoses (PHH)",
+    "spec": "Rubber hoses under the intake, driver's side",
+    "interval": "Replace at purchase if original",
+    "note": "The PHH and the bypass hoses above it can strand you when they fail. Original clamps mean original hoses.",
+    "parts": [
+     {
+      "name": "Coolant bypass hose, FZJ80/LX450 (RAD16264)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/coolant-bypass-hose-fits-fxj80-lx450-applications-rad16264/"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission fluid (A343F)",
+    "spec": "ATF [CONFIRM TYPE IN MANUAL] · 11.6 qt total fill",
+    "interval": "Drain-and-fill at purchase",
+    "note": "A pan drain only replaces part of the 11.6 qt, so repeat the drain-and-fill a couple of times rather than pressure-flushing an old transmission.",
+    "parts": [
+     {
+      "name": "Drain & fill plug with gasket (OP18021)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/magnetic-drain-fill-plug-with-gasket-fits-1958-land-cruiser-applications-see-guide-below-op18021/"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "GL-4 or GL-5 gear oil · 3.6 pt",
+    "interval": "At purchase",
+    "note": "The center diff is viscous-coupled on these trucks. Note any binding or clunks in tight turns on pavement.",
+    "parts": [
+     {
+      "name": "Steel drain plug gasket (OPG10010)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/steel-drain-plug-gasket-fits-1958-land-cruiser-18-15mm-id-applications-see-guide-below-opg10010/"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "GL-5 90 (80W-90 below −18°C) · front 5.5 pt with locker / 5.9 pt without · rear 7 pt",
+    "interval": "At purchase, and after any deep water crossing",
+    "note": "If the truck has factory lockers, test them in low range on a loose surface (Slee). Water in the gear oil means bad breathers or seals.",
+    "parts": [
+     {
+      "name": "Magnetic drain & fill plug with gasket (OP18021)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/magnetic-drain-fill-plug-with-gasket-fits-1958-land-cruiser-applications-see-guide-below-op18021/"
+     }
+    ]
+   },
+   {
+    "item": "Front knuckles / birfields",
+    "spec": "Moly grease in the birfields, MP grease in the wheel bearings",
+    "interval": "Repack at purchase if there's no record",
+    "note": "Pull the square knuckle fill plug. Runny grease means diff oil is getting past the inner axle seals (Slee). See the knuckle rebuild above for preload specs.",
+    "parts": [
+     {
+      "name": "80 Series knuckle rebuild kit (FA9097)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/80-series-knuckle-rebuild-kit-fits-1-1990-1-1998-80-81-series-lx450-land-cruiser-applications-fa9097/"
+     },
+     {
+      "name": "Front axle birfield seal, 80 Series",
+      "supplier": "Cruiser Corps",
+      "url": "https://cruisercorps.com/products/front-axle-birfield-seal-80-series"
+     }
+    ]
+   },
+   {
+    "item": "Power steering fluid",
+    "spec": "DEXRON-III ATF",
+    "interval": "At purchase",
+    "note": "Persistent leaks are often the reservoir seals, not the box or the hoses (Unsealed 4X4).",
+    "parts": [
+     {
+      "name": "Power steering reservoir/suction O-ring (ST11016OR)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/power-steering-reservoir-suction-o-ring-fits-08-92-12-97-80-series-01-98-07-02-100-series-applications-st11016or/"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid & pads",
+    "spec": "Fluid type per reservoir cap [CONFIRM IN MANUAL]",
+    "interval": "Flush at purchase",
+    "note": "Slee reports front pads lasting about 10–15k miles (1997 pads last longer). If the truck has been lifted, the load-sensing proportioning valve needs readjusting.",
+    "parts": [
+     {
+      "name": "Brake parts (1997 LX450 catalog)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
+     }
+    ]
+   },
+   {
+    "item": "Drive belts",
+    "spec": "1FZ accessory belts",
+    "interval": "Replace at purchase if they're cracked or there's no record",
+    "note": "",
+    "parts": [
+     {
+      "name": "Accessory & drive belt kit, FZJ80/LX450 (BTKFZJ801FZOEM)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/accessory-drive-belt-kit-fits-08-1992-12-1997-fzj80-lx450-w-1fz-btkfzj801fzoem/"
+     }
+    ]
+   },
+   {
+    "item": "Driveshafts & U-joints",
+    "spec": "MP grease at every zerk, including the slip yokes",
+    "interval": "At purchase and every oil change",
+    "note": "Overland Tailor's IH8MUD write-up blames most 80 Series driveline vibrations and clunks on driveshafts that were never serviced.",
+    "parts": [
+     {
+      "name": "Driveline parts (1997 LX450 catalog)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter & PCV valve",
+    "spec": "OEM fuel filter · PCV valve",
+    "interval": "At purchase if there's no record [CONFIRM INTERVAL IN MANUAL]",
+    "note": "",
+    "parts": [
+     {
+      "name": "Fuel filter, OEM, FZJ80/LX450",
+      "supplier": "Cruiser Corps",
+      "url": "https://cruisercorps.com/products/fuel-filter-oem-fj80-fzj80-lx450-1993-1997"
+     },
+     {
+      "name": "PCV valve, FJ62/FJ80/FZJ80 (ENGPCV35040)",
+      "supplier": "CruiserTeq",
+      "url": "https://cruiserteq.com/pcv-valve-fits-08-1987-12-1997-fj62-fj80-fzj80-applications-engpcv35040/"
+     }
+    ]
+   }
+  ]
+ }
+}

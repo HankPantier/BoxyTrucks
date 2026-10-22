@@ -1,0 +1,157 @@
+{
+  "slug": "g55-amg",
+  "title": "G 55 AMG",
+  "eyebrow": "MERCEDES-BENZ G-CLASS · W463 · 1999–2012",
+  "verdict": "AMG gave a 1970s military truck up to 507 horsepower and changed almost nothing else. It's fast in a straight line, still has three lockers, and drinks fuel at a rate that makes a G 500 look economical.",
+  "codes": ["W463", "M113 5.4 V8", "SUPERCHARGED FROM 2004", "3 LOCKING DIFFS"],
+  "hero_photo": "hillside-sunset.jpg",
+  "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A G 55 AMG OFF ROAD]",
+  "story": [
+    {"heading": null, "paragraphs": [
+      "The G 55 AMG is the G that made speed part of the G-Wagen's reputation. AMG took the ladder-framed, solid-axle [[g-class/w463|W463]], fitted its own 5.4-litre V8 and later a supercharger, and sold it through the regular showroom from 1999 into 2012. It still has full-time four-wheel drive, low range and three locking differentials. It also has 700 Nm of torque and a top speed limited to 210 km/h, which is about as fast as anyone should drive something with this shape."
+    ]},
+    {"heading": "AMG'S SECOND TRY", "paragraphs": [
+      "AMG had tuned a G before. In 1993 it turned some of the 446 [[g-class/500ge|500 GEs]] into 6.0-litre specials for individual customers. The G 55 was different because anyone could order one. Introduced in 1999, it was the most powerful G yet: 354 PS (349 hp) and 525 Nm from AMG's naturally aspirated M113 V8, with 0–100 km/h in 7.4 seconds. That made it about four seconds quicker than the 500 GE to 100 km/h.",
+      "Mercedes treated it as a regular series model rather than a limited edition. When Mercedes-Benz USA took over G distribution from [[g-class/europa|Europa International]] for the 2002 model year, the G 55 AMG launched alongside the [[g-class/g500|G 500]] as the only other G-Class in American showrooms. Hagerty credits the AMG with pushing US G sales higher in the following years."
+    ]},
+    {"heading": "THE KOMPRESSOR YEARS", "paragraphs": [
+      "In 2004 (the 2005 model year in the US) AMG added a supercharger. The M113K, the same supercharged 5.4 used in the era's CL 55 and SL 55, made 476 PS (469 hp) and 700 Nm, cutting 0–100 km/h to about 5.6 seconds. From 2006 it was rated at 500 PS. For 2009 a new engine control unit raised it to 507 PS (500 hp), with torque unchanged.",
+      "The 2009 update also brought a three-bar grille, Kompressor lettering, polished 19-inch AMG wheels on 275/55 R19 tyres, an anthracite Alcantara headliner, designo leather, COMAND APS and a stronger ESP with hill-start assist. All G 55s used the five-speed 722.6 automatic. Some enthusiasts prefer that well-proven gearbox to the seven-speed fitted to later Gs."
+    ]},
+    {"heading": "HOW IT ENDED", "paragraphs": [
+      "The G 55's last US model year was 2011. For 2012 the US G-Class range was just the [[g-class/g550|G 550]]. In 2012 AMG replaced the supercharged 5.4 with a 5.5-litre biturbo V8 and renamed the truck G 63 AMG, arriving in the US for 2013. That made the G 55 the last AMG G with a supercharger and the five-speed automatic.",
+      "Values have settled well above ordinary G 500s. autoevolution's study of 2019–2022 auctions found average Kompressor prices around $60,000 in 2021–22, with low-mileage 2011 trucks reaching $72,500 and $94,000. High-mileage 2005 and 2007 trucks sold for $27,000–40,000. For an off-roader, those cheaper, well-serviced trucks are the interesting ones. You don't need perfect paint to use the lockers."
+    ]}
+  ],
+  "callout": {
+    "label": "SIDEBAR · NATURALLY ASPIRATED OR KOMPRESSOR?",
+    "title": "Two very different G 55s",
+    "paragraphs": [
+      "The early G 55 (2002–2004 model years in the US) uses AMG's naturally aspirated M113 5.4: 349 hp, about 400 lb-ft, 0–100 km/h in 7.4 seconds. The Kompressor (US 2005–2011) has a supercharger and an intercooler, with 469–500 hp and 516 lb-ft, and gets there in about 5.5 seconds.",
+      "For trail use the trade-off is simple. The naturally aspirated truck has fewer parts to fail: no supercharger, no intercooler pump, and less heat under the hood. The Kompressor is quicker and newer and has the later interior updates, but it needs its supplemental cooling system kept in good order. German Cars For Sale Blog found the naturally aspirated trucks commanding a big premium over a contemporary G 500 for low-mileage examples."
+    ]
+  },
+  "engineering_intro": "Beneath the side pipes, the G 55 is still a W463. The body sits on a separate ladder frame. Both axles are solid and coil-sprung. A two-speed transfer case drives all four wheels all the time, and there are three lockers on the dash. AMG changed the engine, the brakes, the wheels and arches, and the cabin. The driveline layout that wins off-road stayed the same.",
+  "engineering": [
+    {"k": "CHASSIS", "v": "Ladder frame", "note": "Long-wheelbase five-door for the US; AMG wide fenders and stainless running boards."},
+    {"k": "AXLES", "v": "Solid, front & rear", "note": "Coil-sprung and link-located; independent front suspension didn't arrive until 2018."},
+    {"k": "LOCKERS", "v": "Centre, rear, front", "note": "Three 100% locks plus low range, as on every W463."},
+    {"k": "ENGINE (2001–03)", "v": "M113 5.4 L V8", "note": "Naturally aspirated, 354 PS / 525 Nm. US 2002–2004."},
+    {"k": "ENGINE (2004–12)", "v": "M113K 5.4 L V8", "note": "Supercharged and intercooled, 476→507 PS, 700 Nm. US 2005–2011."},
+    {"k": "GEARBOX", "v": "722.6 5-speed auto", "note": "Used for the G 55's whole production run."}
+  ],
+  "engineering_note": {"title": "KEEP THE KOMPRESSOR COOL", "body": "The supercharged engine cools its intake charge through an intercooler fed by an electric circulation pump. When the pump fails the engine heat-soaks and loses power, which hurts most at low speed in hot weather — exactly how a G gets driven off-road. Treat the intercooler pump as a wear item."},
+  "generations_table": [
+    {"years": "1999/2001–2003", "platform": "W463 G 55 AMG", "engine": "M113 E55 5.4 L V8", "output": "354 PS · 525 Nm", "note": "Naturally aspirated; US MY2002–2004"},
+    {"years": "2004–2006", "platform": "W463 G 55 AMG Kompressor", "engine": "M113K 5.4 L SC V8", "output": "476 PS · 700 Nm", "note": "Supercharged; US from MY2005; 0–100 km/h ≈ 5.6 s"},
+    {"years": "2006–2008", "platform": "W463 G 55 AMG Kompressor", "engine": "M113K 5.4 L SC V8", "output": "500 PS · 700 Nm", "note": "Power bump; OE tires 285/55R18 in the US"},
+    {"years": "2008–2012", "platform": "W463 G 55 AMG Kompressor", "engine": "M113K 5.4 L SC V8", "output": "507 PS · 700 Nm", "note": "New ECU, three-bar grille, 19-inch wheels, COMAND APS; last US MY2011"},
+    {"years": "2012–2018", "platform": "W463 G 63 AMG", "engine": "5.5 L biturbo V8", "output": "544 PS", "note": "Replacement; US from MY2013"}
+  ],
+  "buying_checks": [
+    {"head": "Is it really an AMG?", "body": "Plenty of G 500s and G 550s have been dressed as AMGs, and autoevolution even describes one G 55 that was itself given a G 63 nose. Check the VIN and the data card, not the badges."},
+    {"head": "Naturally aspirated or supercharged?", "body": "US 2002–2004 trucks are naturally aspirated; 2005–2011 are Kompressors. Make sure the model year, VIN and engine all match the price."},
+    {"head": "Heat soak and the intercooler pump", "body": "On a Kompressor, ask when the intercooler pump was replaced. A truck that pulls hard when cold and goes flat when hot is the classic symptom."},
+    {"head": "Listen at idle", "body": "Vibration or an RPM-dependent chirp on the M113 points to the harmonic balancer. Don't drive far on a failing one."},
+    {"head": "Mounts and suspension", "body": "Commenters on German Cars For Sale Blog advise checking engine and transmission mounts and suspension wear. With 700 Nm going through them, mounts wear out faster."},
+    {"head": "Test all three lockers", "body": "Engage the centre, rear and front locks on loose ground. Lockers that 'were never used' by the last owner often don't work."},
+    {"head": "Rust, even on the fancy one", "body": "Owners warn G 55s rust like any G, especially near the coast. Check the tailgate's lower edge, door bottoms, sills and rear frame tubes."},
+    {"head": "Gear oil behind the front wheels", "body": "Oil on the inner wheels or the large AMG calipers means front axle seals, and possibly contaminated brakes."}
+  ],
+  "repairs": [
+    {"title": "Intercooler pump (Kompressor)", "diff": "2 / 5", "time": "1–2 hours", "cost": "Parts plus labor", "symptoms": "Power drops after heat soak, especially in traffic or at crawling speed; intake temperatures climb.", "fix": "Replace the electric intercooler circulation pump with the updated Bosch unit, then bleed the low-temperature circuit. Victory Road Performance recommends replacing it as routine maintenance because the original pump failed often. GwagenParts sells a higher-flow bolt-in pump for 2006–2010 G 55s.", "tools": "Updated Bosch intercooler pump or upgrade pump · coolant · hose clamps · bleeding funnel"},
+    {"title": "Harmonic balancer (M113)", "diff": "3 / 5", "time": "≈ 2.5 hours", "cost": "Parts plus labor", "symptoms": "Vibration at idle, a wobbling crank pulley, cracked or bulging rubber, chirp or rattle that changes with RPM. If the outer ring lets go you lose the belt drive.", "fix": "Remove the belt, lock the crank with a counter-hold tool, and replace the balancer with a new torque-to-yield centre bolt and a new front crank seal.", "tools": "Crank counter-hold tool · 27 mm socket · breaker bar or high-torque impact · new balancer, centre bolt and crank seal"},
+    {"title": "Engine & transmission mounts", "diff": "2 / 5", "time": "Half a day", "cost": "Parts plus labor", "symptoms": "Clunk on take-off or shifts, extra vibration in the cabin, engine movement when you blip the throttle.", "fix": "Replace the fluid-filled engine mounts (VRP notes they leak and collapse, and wear quickly in high-power cars) and the transmission mount together. Support the engine from below and lift each side in turn.", "tools": "Engine support or jack with wood block · sockets and extensions · new engine and transmission mounts"},
+    {"title": "Spark plugs, wires & coils", "diff": "2 / 5", "time": "2–3 hours", "cost": "Parts plus labor", "symptoms": "Misfire codes, rough idle, hesitation under boost. Many owners don't know when the plugs were last done.", "fix": "Replace all 16 plugs (the M113 has twin plugs per cylinder) and inspect the wires and coil packs. VRP suggests heavier-insulated wires if the originals are tired. Fix any misfire before adding power.", "tools": "Spark plug socket and extensions · dielectric grease · plugs · wires · coils if needed"},
+    {"title": "722.6 service & 13-pin connector", "diff": "2 / 5", "time": "2–3 hours", "cost": "Parts plus labor", "symptoms": "Harsh or delayed shifts, limp mode, or ATF wicking into the wiring at the gearbox connector.", "fix": "Drop the pan, replace the filter and fluid, and check the 13-pin connector (203-540-02-53) for leaks. VRP says to check the conductor plate too in many cases. Use the correct Mercedes-spec ATF and fill by temperature.", "tools": "ATF · filter and pan gasket · 13-pin connector (203-540-02-53) · dipstick tool"},
+    {"title": "Diff locks won't engage", "diff": "2 / 5", "time": "An afternoon", "cost": "Diagnosis-dependent", "symptoms": "One or all locks refuse to engage or drop out. On mid-2000s W463s the centre lock is vacuum-operated and the axle locks hydraulic, so one vacuum leak can disable the whole sequence.", "fix": "Confirm vacuum at the transfer-case hose, then work back through the pump, reservoir and switchover valve block with a tee-in gauge. One 2005 owner's fault was a split plastic connector inside a rubber Y-fitting under the brake booster. Bleed the hydraulic lines and change the fluids while you're there.", "tools": "Hand vacuum pump with gauge · vacuum tees and line · connectors · diff and transfer-case fluid · bleeding kit"},
+    {"title": "Front axle seal leak", "diff": "3 / 5", "time": "A day", "cost": "$600–1,500", "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling.", "fix": "Replace both front axle seals and inspect the shafts. Replace contaminated pads and resurface or replace the rotors. Oil on brakes this big is not something to leave.", "tools": "Axle seals (both sides) · seal driver · gear oil · pads and rotors if contaminated"},
+    {"title": "Steering damper & front-end wander", "diff": "1 / 5", "time": "≈ 1 hour", "cost": "$300–800", "symptoms": "Wander and wheel shake at 55–70 mph, vague on-centre feel, front-end clunks. On a 500 hp truck you'll notice it quickly.", "fix": "Swap the steering damper (OEM or an upgrade such as a Bilstein B6), check the drag link and tie-rod ends, then align.", "tools": "Steering damper · sockets and wrenches · tie-rod/drag-link ends if worn"}
+  ],
+  "faq": [
+    {"q": "What's the biggest tire I can fit without a lift?", "a": "About 33 inches on 18-inch wheels. Owners of unlifted W463s on Expedition Portal run 275/70R18 with no rubbing on sensible offsets, and 285/65R18 with a slight rub at full left lock. Fitment data lists 285/55R18 for 2004 and 2008 US G 55s, so 18s clear those brakes. One owner warns 18s won't clear G 63 brakes, so test-fit before buying 18s for a 19-inch 2009–2011 truck. Re-code the tire size so the speedometer and ESP stay accurate.", "src": "EXPEDITION PORTAL · GOODYEAR · TIRESIZE.COM"},
+    {"q": "What size are the factory tires?", "a": "285/55R18 on US trucks through 2008 (Goodyear and TireSize.com fitment data). The 2009 update moved to 275/55R19 on 9.5-inch-wide AMG wheels.", "src": "GOODYEAR · AUTOBLOG"},
+    {"q": "Which years are supercharged?", "a": "In the US, 2002–2004 G 55s are naturally aspirated (349 hp) and 2005–2011 are Kompressors (469 hp, later 493 and 500 hp). In Europe the supercharger arrived in 2004.", "src": "GCFSB · WIKIPEDIA"},
+    {"q": "Does it have low range and lockers?", "a": "Yes. It's a full W463 with permanent four-wheel drive, a two-speed transfer case and centre, rear and front locking differentials. AMG didn't take any of that out.", "src": "WIKIPEDIA · MBWORLD"},
+    {"q": "How much can it tow?", "a": "7,000 lb with a braked trailer, according to the spec data on a 2005 example. Check your owner's manual and trailer brakes.", "src": "GERMAN CARS FOR SALE BLOG"},
+    {"q": "What fuel economy should I expect?", "a": "About 12 mpg city and 14 highway for a 2005 Kompressor, according to the spec data on a German Cars For Sale Blog listing. Bigger tires and a rack will make it worse.", "src": "GERMAN CARS FOR SALE BLOG"},
+    {"q": "G 55 or G 550?", "a": "An MBWorld owner who drove both found the gap smaller than expected: the G 550's 382 hp feels quick, but the G 55 has power in reserve at any speed, feels tighter and is much louder. For trail use they're mechanically the same truck; the G 55 adds supercharger cooling to maintain.", "src": "MBWORLD"},
+    {"q": "When did the G 55 end?", "a": "The last US model year was 2011. The 2012 US range was only the G 550, and the 5.5-litre biturbo G 63 AMG replaced the G 55 in 2012 (the 2013 model year in the US).", "src": "CARVANA · WIKIPEDIA"},
+    {"q": "Is the G 55 reliable?", "a": "The frame, axles and V8 are strong. Common jobs are predictable: the intercooler pump on Kompressors, the harmonic balancer, mounts, front axle seals, the steering damper and locker vacuum lines. Owners also say the windshield behaves like a consumable. Buy on service records, not low mileage.", "src": "VRP · AU7O · GCFSB"},
+    {"q": "What are they worth?", "a": "autoevolution's 2019–2022 auction study found Kompressor averages around $60,000 in 2021–22, with high-mileage 2005–2007 trucks at $27,000–40,000 and low-mileage 2011s up to $94,000. Deep Black and Fire Opal Red cars sold best.", "src": "AUTOEVOLUTION"}
+  ],
+  "mods": [
+    {"cat": "COOLING", "why": "On a Kompressor, cooling is the first upgrade: a higher-flow intercooler pump and optionally a split cooling circuit so the supercharger's loop isn't heated by the engine's.", "who": [{"name": "GwagenParts — intercooler pump upgrade", "url": "https://gwagenparts.com/product/intercooler-pump-upgrade"}, {"name": "Victory Road Performance (M113K)", "url": "https://www.vrpspeed.com/"}]},
+    {"cat": "LIFT & SHOCKS", "why": "A modest spring lift and better dampers improve clearance and control the weight of a heavy V8 truck off-road.", "who": [{"name": "Eurowise (OME kits)", "url": "https://shop.eurowise.com/products/ew463ome"}, {"name": "GwagenParts.com", "url": "https://www.gwagenparts.com/heavy-duty-3-inch-lift-kit-for-mercedes-g-wagon-w463-with-king-2-5-racing-shocks/"}]},
+    {"cat": "OVERLAND BUILDS", "why": "G-specific builders can add armour, racks and lighting without making the AMG look like a costume.", "who": [{"name": "Jackwagon Overlanding", "url": "https://jackwagonoverlanding.com/"}]},
+    {"cat": "ROOF RACKS & LADDERS", "why": "Flat platform racks and rear ladders for tents and recovery gear.", "who": [{"name": "LETECH (via GwagenParts)", "url": "https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/"}, {"name": "Front Runner", "url": "https://www.frontrunneroutfitters.com/"}]},
+    {"cat": "OFF-ROAD PACKAGES", "why": "Brabus-style kits that bring 4×4²-inspired stance and capability to a standard W463.", "who": [{"name": "Brabus Adventure package (via GwagenParts)", "url": "https://www.gwagenparts.com/brabus-adventure-4x4²-package-for-mercedes-g550-4x4²-complete-off-road-upgrade-kit-fits-g500-4x4²-w463"}]},
+    {"cat": "WHEELS & TIRES", "why": "Swap the 19s for 18s (where the brakes allow) and fit taller all-terrains. It's the biggest improvement off-road.", "who": []}
+  ],
+  "searches": [
+    {"years": "2002–2004 · US NATURALLY ASPIRATED", "label": "G 55 AMG (M113)", "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2002&maxyear=2004", "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"},
+    {"years": "2005–2011 · US KOMPRESSOR", "label": "G 55 AMG Kompressor (M113K)", "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2005&maxyear=2011", "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"},
+    {"years": "2002–2012 · ALL", "label": "G 55 AMG", "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2002&maxyear=2012", "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"}
+  ],
+  "social": [
+    {"kind": "YT", "name": "Nothing But G's", "focus": "G BUILDS & TECH", "url": "https://www.youtube.com/@Nothing-but-Gs"},
+    {"kind": "YT", "name": "Jack Wagon Overlanding", "focus": "G-WAGEN OVERLAND BUILDS", "url": "https://www.youtube.com/@JackwagonOverlanding"},
+    {"kind": "YT", "name": "Handsome Motors", "focus": "W463 G-WAGENS", "url": "https://www.youtube.com/@Littlehandegan"},
+    {"kind": "YT", "name": "Eurowise Inc.", "focus": "G-CLASS PARTS & UPGRADES", "url": "https://www.youtube.com/user/eurowiseinc"},
+    {"kind": "IG", "name": "@alliancemotorworks", "focus": "G BUILDS (NOTHING BUT G'S)", "url": "https://www.instagram.com/alliancemotorworks/"},
+    {"kind": "IG", "name": "@jackwagonoverlanding", "focus": "G-WAGEN OVERLAND BUILDS", "url": "https://www.instagram.com/jackwagonoverlanding/"}
+  ],
+  "forums": [
+    {"name": "MBWorld — G-Class (W460 / W461 / W463)", "url": "https://mbworld.org/forums/g-class-w460-w461-w463/", "note": "The main G board; G 55 threads also live in MBWorld's G55 AMG section"},
+    {"name": "MBWorld — 550 vs 55 thread", "url": "https://mbworld.org/forums/g55-amg-w463/310372-550-vs-55-a.html", "note": "Owner comparison of G 550 and G 55 Kompressor"},
+    {"name": "Club G-Wagen", "url": "https://clubgwagen.com/forum/", "note": "The original G community; rallies and classifieds"},
+    {"name": "Expedition Portal", "url": "https://forum.expeditionportal.com/", "note": "Tire fitment and overland builds on W463s"}
+  ],
+  "related": [
+    {"rel": "NON-AMG SIBLING", "name": "G 500", "family": "g-class", "gen": "g500"},
+    {"rel": "AMG ANCESTOR", "name": "500 GE (1993)", "family": "g-class", "gen": "500ge"},
+    {"rel": "BASE TRUCK", "name": "G-Class W463", "family": "g-class", "gen": "w463"},
+    {"rel": "US CONTEMPORARY", "name": "G 550", "family": "g-class", "gen": "g550"},
+    {"rel": "THE WILD ONE", "name": "G 500 4×4²", "family": "g-class", "gen": "4x4-squared"},
+    {"rel": "CONTEMPORARY RIVAL", "name": "Range Rover L322", "family": "range-rover", "gen": "l322"}
+  ],
+  "plate": [
+    {"k": "CHASSIS", "v": "W463"},
+    {"k": "YEARS", "v": "1999–2012 (US MY2002–2011)"},
+    {"k": "ENGINE", "v": "M113 5.4 L V8 / M113K supercharged"},
+    {"k": "OUTPUT", "v": "354 PS → 507 PS"},
+    {"k": "TORQUE", "v": "525 Nm → 700 Nm"},
+    {"k": "GEARBOX", "v": "722.6 5-speed automatic"},
+    {"k": "DRIVE", "v": "Full-time 4WD, low range"},
+    {"k": "LOCKERS", "v": "Centre, rear, front"},
+    {"k": "AXLES", "v": "Solid, front & rear"},
+    {"k": "0–100 KM/H", "v": "7.4 s → 5.5 s"},
+    {"k": "TOP SPEED", "v": "210 km/h (limited)"},
+    {"k": "SUCCEEDED BY", "v": "G 63 AMG (2012)"}
+  ],
+  "photos": [
+    {"file": "hillside-sunset.jpg", "alt": "A G-Class climbing a grassy slope beside a bare tree at sunset", "caption": "SECOND GEN · HILLSIDE (NOT A G 55)", "credit": "Dextar Studio", "source": "Pexels", "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"},
+    {"file": "ridgeline.jpg", "alt": "A G-Class in profile on a rocky ridge under storm clouds", "caption": "SECOND GEN · RIDGELINE (NOT A G 55)", "credit": "Dextar Studio", "source": "Pexels", "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"},
+    {"file": "high-pasture.jpg", "alt": "A G-Class on rough grass and rocks with hills behind", "caption": "SECOND GEN · HIGH PASTURE (NOT A G 55)", "credit": "Dextar Studio", "source": "Pexels", "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"}
+  ],
+  "sources": [
+    {"name": "Wikipedia — Mercedes-Benz G-Class", "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"},
+    {"name": "Mercedes-Benz G-Class — 30 years ago: the 500 GE V8 (incl. G 55 AMG history)", "url": "https://g-class.mercedes-benz.com/en/news/2023/exclusive-special-model-30-years-ago-the-mercedes-benz-500-ge-v8.html"},
+    {"name": "Autoblog — Mercedes-Benz shows off 2009 G 55 AMG", "url": "https://www.autoblog.com/2008/06/06/mercedes-benz-shows-off-2009-g-55-amg/"},
+    {"name": "Hagerty — Counter-evolutionary: The history of the G-wagen", "url": "https://hagerty.com/media/?p=4183"},
+    {"name": "German Cars For Sale Blog — 2003 G55 AMG", "url": "https://germancarsforsaleblog.com/2003-mercedes-benz-g55-amg"},
+    {"name": "German Cars For Sale Blog — 2005 G55 AMG", "url": "https://germancarsforsaleblog.com/2005-mercedes-benz-g55-amg"},
+    {"name": "autoevolution — Mercedes-Benz G 55 AMG prices are going up", "url": "https://www.autoevolution.com/news/mercedes-benz-g-55-amg-prices-are-going-up-this-could-be-your-chance-208918.html"},
+    {"name": "Carvana — 2012 Mercedes-Benz G-Class: what's new", "url": "https://www.carvana.com/buy/2012-mercedes-benz-g-class/"},
+    {"name": "The Market — 2002 Mercedes-Benz G55 AMG", "url": "https://www.themarket.co.uk/listings/mercedes-benz/g55-amg/6183d06e-dae8-462c-bd61-7b6d64132895"},
+    {"name": "MBWorld — 550 vs 55", "url": "https://mbworld.org/forums/g55-amg-w463/310372-550-vs-55-a.html"},
+    {"name": "MBWorld — Finally repaired my lockers (2005 G 500)", "url": "https://mbworld.org/forums/g-class-w460-w461-w463/818902-finally-repaired-my-lockers.html"},
+    {"name": "Victory Road Performance — Chapter 2: Maintenance before modification (M113K)", "url": "https://www.vrpspeed.com/?p=75350"},
+    {"name": "GwagenParts — Intercooler pump upgrade (2006–2010 G55)", "url": "https://gwagenparts.com/product/intercooler-pump-upgrade"},
+    {"name": "Go-Parts — M112/M113 harmonic balancer failure", "url": "https://www.go-parts.com/garage/engine-harmonic-balancer-mercedes-benz-slk230-mercedes-benz-slk350-mercedes-benz-cl550-1998-2006"},
+    {"name": "au7o — G-Class known issues", "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2003"},
+    {"name": "Goodyear — 2004 G55 AMG tire fitment", "url": "https://www.goodyear.com/en-us/vehicles/Mercedes~-Benz/G55-AMG/2004"},
+    {"name": "TireSize.com — 2008 G55 AMG tire size", "url": "https://tiresize.com/tires/Mercedes-Benz/G55/2008/AMG/"},
+    {"name": "Expedition Portal — G550 tire options thread", "url": "https://forum.expeditionportal.com/goto/post?id=2200676"}
+  ]
+}

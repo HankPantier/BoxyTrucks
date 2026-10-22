@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% from "_res.html" import res_block, reading_block %}
+{% block content %}
+<section class="hero">
+  {% if fam.hero_photo %}<img src="{{ img(fam.slug, fam.hero_photo) }}" alt="{{ fam.maker }} {{ fam.name }} off road">{% endif %}
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><span>{{ fam.maker }} {{ fam.name }}</span></nav>
+    <div class="hero-panel">
+      <div class="eyebrow brass">{{ fam.maker }} · {{ fam.years }}</div>
+      <h1>{{ fam.name }}</h1>
+      <p class="verdict">“{{ fam.verdict }}”</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section">
+  <div class="split">
+    <div class="main" style="gap:64px">
+      <section class="prose">
+        <div class="eyebrow" style="margin-bottom:20px">The family</div>
+        {% for para in fam.intro %}<p{% if loop.first %} class="lead"{% endif %}>{{ para|lk }}</p>{% endfor %}
+      </section>
+
+      <section>
+        <h2 class="h-section">Every generation</h2>
+        {% for g in fam.generations %}
+        <div class="gen">
+          <span class="yrs">{{ g.years }}</span>
+          <div>
+            <a class="nm" href="{{ g.slug }}.html">{{ g.name }}</a>
+            <div class="sum">{{ g.summary|lk }}</div>
+            {% if g.codes %}<div class="chips" style="margin-top:10px">{% for c in g.codes %}<span class="chip">{{ c }}</span>{% endfor %}</div>{% endif %}
+          </div>
+          <span class="tag{% if g.has_page %} full{% endif %}">{% if g.has_page %}FULL GUIDE{% else %}OVERVIEW{% endif %}</span>
+        </div>
+        {% endfor %}
+      </section>
+
+      <section id="resources" style="display:flex;flex-direction:column;gap:22px">
+        <h2 class="h-section">Resources</h2>
+        {{ res_block(res) }}
+        {{ reading_block(reading) }}
+      </section>
+    </div>
+    <aside class="side">
+      {% set full = fam.generations|selectattr('slug','equalto',flagship.get(fam.slug))|list %}
+      {% if full %}
+      <a class="card" href="{{ full[0].slug }}.html">
+        {% if page and page.hero_photo %}<img src="{{ img(fam.slug, page.hero_photo) }}" alt="" style="height:220px">{% endif %}
+        <div class="body"><span class="eyebrow">Start here · full guide</span><h3>{{ full[0].name }}</h3><span class="serif" style="font-size:17px;line-height:26px">{{ full[0].summary|striplk }}</span><span class="label" style="color:var(--green)">Read the guide →</span></div>
+      </a>
+      {% endif %}
+      <div class="find">
+        <span class="eyebrow brass">Find one</span>
+        <span class="serif">Every {{ fam.name }} for sale, by generation.</span>
+        {% for g in fam.generations %}{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener" style="color:var(--paper);font-size:14px">{{ g.name }} · AutoTempest ↗</a>{% endif %}{% endfor %}
+      </div>
+      {% if fam.related_families %}
+      <div class="rows"><span class="eyebrow" style="padding:12px 0 4px">Related families</span>
+        {% for r in fam.related_families %}{% if r in families %}<a class="row" href="{{ root }}models/{{ r }}/index.html"><span class="t" style="font-size:16px">{{ families[r].maker }} {{ families[r].name }}</span><span class="m">{{ families[r].years }}</span></a>{% endif %}{% endfor %}
+      </div>
+      {% endif %}
+    </aside>
+  </div>
+</div>
+{% endblock %}

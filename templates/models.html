@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night">
+  <div class="wrap" style="padding-top:64px;padding-bottom:56px;display:flex;flex-direction:column;gap:20px">
+    <span class="eyebrow brass">The models</span>
+    <h1 style="font-size:clamp(44px,6vw,88px);line-height:0.95;letter-spacing:-0.03em">Every box, every generation</h1>
+    <label style="display:flex;flex-direction:column;gap:8px;max-width:640px;font-family:var(--mono);font-size:11px;letter-spacing:0.2em;color:var(--brass)">FIND YOUR TRUCK
+      <input id="q" class="search" type="search" placeholder="Model, nickname or chassis code — FJ80, W463, P38, GX 470" style="background:transparent;color:var(--paper);border-color:var(--brass)">
+    </label>
+  </div>
+</section>
+<div class="wrap section" style="padding-top:24px">
+  {% for f in fam_list %}
+  <section class="fam-block" data-fam>
+    <a href="{{ f.slug }}/index.html">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ f.maker }} {{ f.name }}" loading="lazy">{% else %}<div class="ph" style="height:220px">[PHOTO]</div>{% endif %}</a>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <span class="eyebrow">{{ f.maker }} · {{ f.years }}</span>
+      <h2 style="font-size:36px"><a href="{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.name }}</a></h2>
+      <p class="verdict" style="margin:0;font-size:18px;line-height:27px">“{{ f.verdict }}”</p>
+      <div class="rows">
+        {% for g in f.generations %}<a class="row" data-search="{{ (f.maker ~ ' ' ~ f.name ~ ' ' ~ g.name ~ ' ' ~ (g.codes|join(' ')))|lower }}" href="{{ f.slug }}/{{ g.slug }}.html" style="padding:11px 0"><span class="t" style="font-size:16px">{{ g.name }}{% if g.has_page %} <span class="chip" style="margin-left:8px;background:var(--ink);color:var(--paper);font-size:10px;padding:2px 6px">FULL GUIDE</span>{% endif %}</span><span class="m">{{ g.years }}{% if g.codes %} · {{ g.codes[:2]|join(', ') }}{% endif %}</span></a>{% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+
+  <section style="padding-top:56px">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Coming later</span><h2>On the list</h2></div></div>
+    <div class="grid later" style="--min:260px">
+      {% for grp in later %}<div style="display:flex;flex-direction:column;gap:10px"><span class="label">{{ grp.name }}</span><div class="chips">{% for m in grp.models %}<span class="chip">{{ m }}</span>{% endfor %}</div></div>{% endfor %}
+    </div>
+  </section>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('q'); if(!q) return;
+  q.addEventListener('input',function(){
+    var v=q.value.trim().toLowerCase();
+    document.querySelectorAll('[data-fam]').forEach(function(b){
+      var any=false;
+      b.querySelectorAll('[data-search]').forEach(function(r){var hit=!v||r.getAttribute('data-search').indexOf(v)>-1; r.style.display=hit?'':'none'; if(hit) any=true;});
+      b.style.display=any?'':'none';
+    });
+  });
+})();
+</script>
+{% endblock %}

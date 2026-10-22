@@ -1,0 +1,29 @@
+{
+  "_how": "Paste each program's deep-link template once you're approved. {url} = the destination URL (URL-encoded), {raw} = unencoded. Leave template empty to keep plain links. 'status' is just a note for you.",
+  "programs": [
+    {"name": "ARB / Old Man Emu (AvantLink)", "domains": ["arbusa.com", "oldmanemu.com"], "status": "verified program — apply via AvantLink (merchant 40329), 3–5%, 30-day cookie", "template": ""},
+    {"name": "Tire Rack", "domains": ["tirerack.com"], "status": "verified program — 6% commission; apply at tirerack.com/affiliate", "template": ""},
+    {"name": "Amazon Associates", "domains": ["amazon.com"], "status": "apply at affiliate-program.amazon.com; template example: {raw}?tag=YOURTAG-20", "template": ""},
+    {"name": "eBay Partner Network", "domains": ["ebay.com"], "status": "apply at partnernetwork.ebay.com; use their link generator for the template", "template": ""},
+    {"name": "FCP Euro", "domains": ["fcpeuro.com"], "status": "check — ask FCP Euro whether they run an affiliate/creator program (176 links on site)", "template": ""},
+    {"name": "Cruiser Corps", "domains": ["cruisercorps.com"], "status": "check — 241 links on site", "template": ""},
+    {"name": "Lucky8", "domains": ["lucky8llc.com"], "status": "check — 179 links on site", "template": ""},
+    {"name": "CruiserTeq", "domains": ["cruiserteq.com"], "status": "check — 160 links on site", "template": ""},
+    {"name": "Expedition Imports", "domains": ["expedition-imports.com"], "status": "check — 137 links on site", "template": ""},
+    {"name": "LC Engineering", "domains": ["lceperformance.com"], "status": "check — 116 links on site", "template": ""},
+    {"name": "Rovers North", "domains": ["roversnorth.com"], "status": "check — 94 links on site", "template": ""},
+    {"name": "LR Direct", "domains": ["lrdirect.com"], "status": "check — 88 links on site", "template": ""},
+    {"name": "Slee Off-Road", "domains": ["sleeoffroad.com"], "status": "check — 83 links on site", "template": ""},
+    {"name": "Metal Tech 4x4", "domains": ["metaltech4x4.com"], "status": "check — 58 links on site", "template": ""},
+    {"name": "GwagenParts.com", "domains": ["gwagenparts.com"], "status": "check — 46 links on site", "template": ""},
+    {"name": "Eurowise", "domains": ["shop.eurowise.com", "eurowise.com"], "status": "check — 45 links on site", "template": ""},
+    {"name": "Total Chaos", "domains": ["chaosfab.com"], "status": "check", "template": ""},
+    {"name": "Dissent Off-Road", "domains": ["dissentoffroad.com"], "status": "check", "template": ""},
+    {"name": "Owl Vans", "domains": ["owlvans.com"], "status": "check", "template": ""},
+    {"name": "Atlantic British", "domains": ["atlanticbritish.com", "roverparts.com"], "status": "check", "template": ""},
+    {"name": "Front Runner (Dometic)", "domains": ["frontrunneroutfitters.com", "dometic.com"], "status": "check — Dometic may run a program", "template": ""},
+    {"name": "Coastal Offroad", "domains": ["coastaloffroad.com"], "status": "check", "template": ""},
+    {"name": "Trail4R", "domains": ["trail4runner.com", "trail4r.com"], "status": "check", "template": ""},
+    {"name": "RockAuto", "domains": ["rockauto.com"], "status": "no known public affiliate program — leave plain", "template": ""}
+  ]
+}

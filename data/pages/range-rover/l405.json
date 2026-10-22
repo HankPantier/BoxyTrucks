@@ -1,0 +1,1086 @@
+{
+ "slug": "l405",
+ "title": "Range Rover L405",
+ "eyebrow": "LAND ROVER RANGE ROVER · L405 · 2012–2021",
+ "verdict": "An aluminium-bodied air-sprung limousine that will still claw up a rutted hillside if you ask nicely. Buy one with a service history thicker than its door cards, and a warranty for when it doesn't.",
+ "codes": [
+  "ALL-ALUMINIUM MONOCOQUE",
+  "CROSS-LINKED AIR SUSPENSION",
+  "TWO-SPEED DD295 TRANSFER",
+  "5.0 SC V8 · 3.0 V6 · 4.4 SDV8 · PHEV"
+ ],
+ "hero_photo": "l405-trail.jpg",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The fourth-generation Range Rover broke cover at the 2012 Paris Motor Show and did something no full-size 4x4 had done before: it threw away the steel. Land Rover calls the L405 the first production SUV with an all-aluminium monocoque, and the diet was dramatic — the body-in-white was 39 percent lighter and the whole truck shed about 420 kg (926 lb) against the steel [[range-rover/l322|L322]]. It still had a two-speed transfer box, cross-linked air springs and a 900 mm wading depth. It was simply built from the same stuff as a beer can, and it was benchmarked against a Rolls-Royce Ghost."
+   ]
+  },
+  {
+   "heading": "LIGHTER, STIFFER, POSHER",
+   "paragraphs": [
+    "Gerry McGovern's design team kept the floating roof, the clamshell bonnet and the upright glasshouse, then smoothed everything else. Underneath, the aluminium shell was built in a new all-aluminium facility at Solihull, using a high-strength alloy with up to 50 percent recycled content. The weight saving went straight into performance and economy: launch engines were a supercharged 5.0 V8, a 3.0 TDV6 and a 4.4 SDV8, all driving through a ZF eight-speed automatic and a Magna Steyr DD295 two-speed transfer case with a 50/50 torque split.",
+    "Off-road, the numbers moved the right way. In a UK road test of the launch TDV6, Land Rover quoted 303 mm of ground clearance (up 17 mm), a 900 mm wading depth (up 200 mm), and approach and departure angles of 34.7 and 29.6 degrees. Terrain Response 2 could now read the surface itself and choose between grass/gravel/snow, mud, sand and rock crawl. It would also back off the active anti-roll bars to let the wheels droop when it sensed the truck was off the tarmac."
+   ]
+  },
+  {
+   "heading": "STRETCHED, HYBRIDISED, FACELIFTED",
+   "paragraphs": [
+    "The range grew sideways for nine years. A long-wheelbase version, 200 mm longer between the axles at 3,122 mm, arrived at the 2013 Los Angeles show. A supercharged 3.0 V6 joined in 2014, an SDV6 diesel-electric hybrid followed, and Special Vehicle Operations turned the 5.0 V8 up to 550 PS, then 565 PS, for the SVAutobiography Dynamic. America finally got a diesel, the 254 hp Td6, for the 2016 model year. It was rated at 22 mpg city and 28 highway, against 14 and 19 for the supercharged V8.",
+    "The 2018 facelift brought a four-bar grille, new LED lights, thicker glass, and a second touchscreen in place of the climate knobs. The P400e plug-in hybrid followed, pairing a 2.0-litre Ingenium four with a 13.1 kWh battery and an 85 kW motor for 404 PS. Late trucks gained Ingenium straight-sixes, including a 3.0 mild-hybrid petrol for the 2020 model year. One planned derivative never made it: the three-door, 999-unit SV Coupé, shown at Geneva in 2018, was cancelled in January 2019 for financial reasons."
+   ]
+  },
+  {
+   "heading": "THE CATCH",
+   "paragraphs": [
+    "All that cleverness has a price, and second owners pay it. Specialist guides single out pre-2015 cars for the most electrical and body faults. The 3.0 TDV6 family is known for crankshaft and bearing failures, which a 2014 Land Rover bulletin blamed mainly on bearing shells being located wrongly or rotating. The supercharged 5.0 V8 eats timing-chain guides and cracks its plastic coolant pipes, and the air suspension wants compressors and struts. NHTSA lists keyless door-latch recalls for 2013–2016 trucks and front-knuckle cracking recalls for 2014–2017 trucks. None of that stops a sorted L405 being a superb, genuinely capable expedition limo — exactly why Lucky8 built a lifted, winched, rock-slidered 'Project L405' out of a supercharged one."
+   ]
+  },
+  {
+   "heading": "LEGACY",
+   "paragraphs": [
+    "The L405 ran from 2012 to 2021, which Top Gear noted is an age in motoring terms, and the Velar, named after the 1967 prototypes, was spun off during its lifetime. It was replaced by the [[range-rover/l460|L460]] in late 2021. For off-roaders it is now the newest full-size Range Rover with real aftermarket support: lift rods, rock sliders, hidden winch mounts and 285-section all-terrains. Treat it like the 2.3-tonne computer it is, and it will go most places a [[land-cruiser/200-series|Land Cruiser 200]] goes — just more quietly, and with more dashboard messages."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · 2015 ROYAL COMMISSION",
+  "title": "The topless Range Rover built for the Queen",
+  "paragraphs": [
+   "In June 2015 Land Rover delivered a one-off 'State Review' Range Rover for Queen Elizabeth II. It was based on the long-wheelbase L405 Hybrid, with a 3.0 SDV6 diesel and an electric motor making 335 hp and 700 Nm, and it could run in pure electric mode. The rear passenger compartment had no roof, so the monarch could stand and wave. Land Rover Design built it with engineering input from Special Vehicle Operations.",
+   "It made its royal debut in Cardiff, when the Queen presented new Colours to the Royal Welsh Regiment. It was the fourth State Review vehicle from Land Rover: the first was a 1953 Series I, and this one replaced the State Review Range Rover in service since 2002."
+  ]
+ },
+ "engineering_intro": "The L405 is a unibody truck with no separate frame. The structure is a riveted and bonded aluminium monocoque, sprung on cross-linked air springs at all four corners and driven full-time through a two-speed transfer case. It is light for its size, and it was properly engineered for off-road work. It is also completely dependent on its electronics: ride height, roll control, traction and even the transfer-case logic all go through modules that want a diagnostic tool, not a spanner.",
+ "engineering": [
+  {
+   "k": "BODY",
+   "v": "All-aluminium monocoque",
+   "note": "Body-shell 39% lighter; whole truck about 420 kg lighter than the steel L322."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Cross-linked air springs",
+   "note": "Access, normal and off-road heights plus automatic levelling; adaptive dampers and hydraulic anti-roll (Dynamic Response)."
+  },
+  {
+   "k": "TRANSFER",
+   "v": "Magna Steyr DD295 two-speed",
+   "note": "Permanent 4WD, 50/50 torque split, high and low range."
+  },
+  {
+   "k": "GEARBOX",
+   "v": "ZF 8HP eight-speed auto",
+   "note": "Fitted to every engine in the range."
+  },
+  {
+   "k": "TRACTION",
+   "v": "Terrain Response 2",
+   "note": "Auto-detects surface; grass/gravel/snow, mud, sand, rock crawl; hill descent control and hill start assist."
+  },
+  {
+   "k": "WADING",
+   "v": "900 mm",
+   "note": "Up 200 mm on the L322; 303 mm max ground clearance quoted at launch (TDV6)."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "2013–2021",
+   "platform": "SWB 2,922 mm · LWB 3,122 mm (from 2014)",
+   "engine": "5.0 supercharged V8",
+   "output": "510 PS (2013–16), 525 PS (2017–)",
+   "note": "US mainstay; 375 PS naturally aspirated 5.0 in some markets. Timing chain and coolant pipes are the watch items."
+  },
+  {
+   "years": "2014–2021",
+   "platform": "SWB / LWB",
+   "engine": "3.0 supercharged V6",
+   "output": "340 or 380 PS",
+   "note": "Shares the supercharger-isolator and plastic-coolant-pipe weaknesses of the V8 family."
+  },
+  {
+   "years": "2013–2021",
+   "platform": "SWB / LWB",
+   "engine": "3.0 TDV6 / SDV6 diesel",
+   "output": "258 PS (US Td6: 254 hp, 2016 MY on)",
+   "note": "The economical pick; crank and bearing failures are documented on the TDV6 family."
+  },
+  {
+   "years": "2013–2021",
+   "platform": "SWB / LWB (non-US)",
+   "engine": "4.4 SDV8 diesel",
+   "output": "340 PS",
+   "note": "Rated by specialists as good and reliable; watch EGR and turbo breather leaks."
+  },
+  {
+   "years": "2015– (UK)",
+   "platform": "SWB / LWB (non-US)",
+   "engine": "3.0 SDV6 Hybrid",
+   "output": "340 PS, 700 Nm",
+   "note": "35 kW motor in the gearbox; PistonHeads dates UK availability to 2015. Basis of the Queen's State Review car."
+  },
+  {
+   "years": "2019 MY–2021",
+   "platform": "Facelift, SWB / LWB",
+   "engine": "P400e 2.0 Ingenium PHEV",
+   "output": "404 PS, 640 Nm",
+   "note": "13.1 kWh battery and 85 kW motor; arrived with the four-bar-grille facelift."
+  },
+  {
+   "years": "2015–2021",
+   "platform": "SVAutobiography (Dynamic)",
+   "engine": "5.0 supercharged V8",
+   "output": "550 PS, then 565 PS",
+   "note": "SVO flagship; 565 PS cars quoted at 0–60 mph in 4.3 s."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Check every recall is closed",
+   "body": "NHTSA lists keyless door-latch recalls for 2013–2016 trucks (doors may unlatch) and front-suspension knuckle recalls for 2014–2017 trucks (the upper knuckle joint can crack). AutoTrader.ca counted at least 19 safety recalls on this generation in Canada. Trucks that left the dealer network early are the most likely to have open campaigns. Run the VIN."
+  },
+  {
+   "head": "Be extra careful with pre-2015 trucks",
+   "body": "PistonHeads' L405 guide says early cars had the most electrical and body problems. It advises a warranty, saying Land Rover's own cover for early cars costs around £1,400 a year after a free inspection. Panel fit on the rear doors, tailgate and bonnet is a known weak spot, and so are door seals."
+  },
+  {
+   "head": "Listen to the front end on a rough road",
+   "body": "Coast and brake moderately over broken tarmac. Clunks or pops point to worn front track control arms or rear lower arms (around £700 fitted as a pair, per PistonHeads) — or, on 2014–2017 trucks, to the knuckle recall. AutoTrader.ca says not to take delivery of one with unusual front-end noise."
+  },
+  {
+   "head": "Watch the ride height overnight",
+   "body": "Compressors fail and air springs split, and PistonHeads calls both 'known things.' Look for a corner that sags after standing, a compressor that runs constantly, or suspension faults on the dash. Check that every height mode works: access, normal and off-road."
+  },
+  {
+   "head": "Cold-start a 5.0 V8 yourself",
+   "body": "A rattle lasting a second or two on a cold start is the classic sign of tired timing-chain guides and tensioners, particularly on 2010–2014 engines. Fault codes P0016–P0019 come later. A metallic rattle at idle can instead be the supercharger coupler or isolator. Look for coolant loss too: the plastic crossover pipes crack."
+  },
+  {
+   "head": "Ask how the diesel was serviced",
+   "body": "TDV6/SDV6 crank-bearing failures are documented in Land Rover bulletin SSM71816 and in owner threads. Owners suspect oil sludging under long intervals and the wrong oil grade play a part. Ask for regular servicing with the correct oil. On the 4.4 SDV8, check for EGR faults and oily turbo breather pipes (up to £850 to replace)."
+  },
+  {
+   "head": "Test the screens and switches",
+   "body": "Infotainment freezes, dead cameras and Bluetooth faults are common and often fixed by software. If the head unit goes black or won't boot, assume an expensive repair until proved otherwise. Check the start/stop and steering-wheel buttons, the interior door releases, and the rotary gear selector, which can fail to rise."
+  },
+  {
+   "head": "Look at the wheels, and the transfer-case history",
+   "body": "PistonHeads says the 22-inch wheels are soft and buckle on potholes, so check them for bends. AutoTrader.ca advises that any non-factory wheels come from a reputable brand and be rated for the truck's weight. Transfer-box and differential oil should be changed at around 30,000 miles, so ask for proof."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Front air strut replacement",
+   "diff": "3 / 5",
+   "time": "≈ 1–2 hours per side (forum labour estimate for full-size Range Rover struts)",
+   "cost": "Front strut about $730–$830 (Lucky8 BWI/OE listings), plus labor",
+   "symptoms": "One front corner sitting low after standing, a hiss when the truck lowers to access height, the compressor working overtime, or air-suspension faults that come back after recalibration.",
+   "fix": "Relieve the system pressure (it runs up to 10 bar) and disconnect the battery. With the wheels straight, raise the truck, support it safely and remove the wheel. Unplug the strut's electrical connector, release the air line and remove its fitting, then remove the sensor-wire and brake-line bracket and the lower strut bolt. Unhook the anti-roll bar link from the strut clevis and separate the upper control arm ball joint from the knuckle. Remove the top mount nuts, swing the knuckle out and lift the strut out. To fit: leave the air fitting on the new strut, install the strut and lower bolt, reconnect the upper arm, clevis, sway-bar link and brackets, fit the top bolts, then remove the shipping pin and push the air line home until it locks. Plug in the connector, torque everything to factory spec, refit the wheel and recalibrate the ride heights.",
+   "tools": "Jack and stands · sockets and ball-joint separator · Arnott ASE-3756 (new electronic) or AS-3067 RH / AS-3068 LH (remanufactured, 2013–2018), or OE LR079515 RH · diagnostic tool with air-suspension calibration (e.g., GAP IID)",
+   "parts": [
+    {
+     "name": "Arnott ASE-3756 front electronic air strut (L405)",
+     "supplier": "Shock Warehouse (Arnott)",
+     "url": "https://shockwarehouse.com/products/arnott-ase-3756-front-electronic-air-strut-land-rover-range-rover-l405"
+    },
+    {
+     "name": "BWI OEM front strut LH LR087092 (L405 2013–21)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/bwi-oem-front-strut-lh"
+    },
+    {
+     "name": "Front right strut assembly LR079515 (L405)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/lr079515-strut-assembly-front-right-fits-land-rover-range-rover-l405"
+    }
+   ]
+  },
+  {
+   "title": "Air-suspension lift rods (height-sensor links)",
+   "diff": "1 / 5",
+   "time": "≈ 20–30 minutes",
+   "cost": "About $99 per set (Lucky8)",
+   "symptoms": "Not a fault — it's the cheapest lift on the planet. The truck sits too low for bigger tyres or rough tracks, or scrapes its sills in ruts.",
+   "fix": "Remove the factory ride-height sensor rods at each corner and fit the longer links in their place: short rods at the front, long rods at the rear. The links fool the sensors into reading the truck as lower than it is, so the air springs raise every height mode by 1, 1.5 or 2 inches depending on the kit. No coding is needed and Terrain Response keeps working. Get a wheel alignment afterwards.",
+   "tools": "Basic hand tools · Proud Rhino PR25DEF-1 (1 in), PR25DEF-1.5 (1.5 in) or PR25D5 (2 in) lift rods · alignment afterwards",
+   "parts": [
+    {
+     "name": "Proud Rhino PR25DEF-1 1-inch lift rods",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/1in-proud-rhino-lift-rods-1"
+    },
+    {
+     "name": "Proud Rhino PR25DEF-1.5 1.5-inch lift rods",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/1-5in-proud-rhino-lift-rods-1"
+    },
+    {
+     "name": "Proud Rhino PR25D5 2-inch lift rods",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/suspension-lift-kit-proud-rhino-lift-rods"
+    }
+   ]
+  },
+  {
+   "title": "Front lower control arms (clunk fix)",
+   "diff": "3 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "Around £700 fitted for the common arm pair (PistonHeads); arms from about $290 a pair aftermarket, $785 genuine, $489 polybushed",
+   "symptoms": "Knocks or clunks from the front over broken surfaces and under moderate braking; vague steering; uneven tyre wear.",
+   "fix": "First run the VIN for the 2014–2017 front-knuckle recall, because a cracking upper knuckle joint can also make noises and is fixed free by dealers. If the knuckles are clear, support the truck on stands, remove the wheel, unbolt the lower arm from the knuckle and the subframe, swap in the new arm, and do the final bush torque with the suspension at ride height. Recalibrate the ride height if a height sensor was disturbed, then align.",
+   "tools": "Jack and stands · large sockets and breaker bar · ball-joint separator · LR072469 (LH) / LR072471 (RH) arms, or Lucky8 polybushed kit NFLCKPB · alignment afterwards",
+   "parts": [
+    {
+     "name": "Front lower control arm kit LR072469/LR072471",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/front-lower-control-arm-kit-1"
+    },
+    {
+     "name": "Polybush front lower control arm kit",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/polybush-front-control-arm-kit-1"
+    },
+    {
+     "name": "Genuine front lower control arms (RH/LH)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/lower-control-arm-rh-lh-front-genuine"
+    }
+   ]
+  },
+  {
+   "title": "5.0 supercharged cooling-pipe and water-pump refresh",
+   "diff": "4 / 5",
+   "time": "[TO RESEARCH] — the rear crossover pipe sits under the supercharger",
+   "cost": "Shop price about CA$1,800–3,200 for the pipes (supercharger removal), plus CA$900–1,500 for a water pump; ARC050 aluminium pipe kit $199",
+   "symptoms": "Unexplained coolant loss, sweet smell, weeping at the back of the engine or around the thermostat housing. Plastic pipes typically go around 100,000 km and water pumps around 80,000–140,000 km.",
+   "fix": "Drain the coolant and remove the supercharger to reach the valley. Replace the factory plastic rear crossover pipe, front Y-tube, oil-cooler-to-water-pump adapter and front crossover bypass with aluminium parts. Do the water pump and thermostat housing while it's apart. Refit the supercharger with new gaskets, then refill and bleed the system. The supplier recommends professional installation.",
+   "tools": "Full socket set and torque wrench · coolant and drain pan · ARC050 kit (LR122709/LR109402 rear crossover, LR092992 Y-tube, LR028136 adapter, LR090630 bypass) or SCV85LAUCK kit with water pump and aluminium thermostat housing",
+   "parts": [
+    {
+     "name": "ARC050 5.0 supercharged aluminium coolant pipe kit",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/5-0l-v6-aluminum-cooling-kit-upgrade"
+    },
+    {
+     "name": "SCV85LAUCK cooling kit: alloy pipes + water pump + thermostat (5.0 SC)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/scv85lauck-upgraded-cooling-kit-for-5-0l-v8-supercharged"
+    },
+    {
+     "name": "L405 5.0 water pump (search)",
+     "supplier": "Atlantic British",
+     "url": "https://www.atlanticbritish.com/search?q=Range+Rover+L405+5.0+water+pump"
+    }
+   ]
+  },
+  {
+   "title": "5.0 V8 timing chains, guides and tensioners",
+   "diff": "5 / 5",
+   "time": "[TO RESEARCH] — a shop job",
+   "cost": "About CA$4,500–7,500 at a specialist; genuine 34-piece kit $1,599",
+   "symptoms": "A rattle for a second or two on a cold start, later joined by cam-timing codes P0016, P0017, P0018 or P0019.",
+   "fix": "Lock the engine at the correct position with the JLR timing tools before anything comes apart. Replace both cam chains, the tensioners and blades, both guides, the auxiliary drive chain with its tensioner and guide, and the cam lubricating jets, then refit with new rocker-cover gaskets and spark-plug seals. Don't reuse old tensioners or guides: reusing tired parts is the shortcut that brings the truck back on a hook.",
+   "tools": "JLR camshaft and crank locking tools · torque wrench · Lucky8 5LTCK genuine kit (chains LR032048, tensioners LR051008, blades LR051013, guides LR051011/LR051012, aux chain LR032087)",
+   "parts": [
+    {
+     "name": "5LTCK genuine 5.0 V8 timing chain kit, 34 pieces (L405)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/5-0l-v8-timing-kit"
+    },
+    {
+     "name": "5.0 V8 timing chain kit (search)",
+     "supplier": "Atlantic British",
+     "url": "https://www.atlanticbritish.com/search?q=Range+Rover+L405+5.0+timing+chain+kit"
+    }
+   ]
+  },
+  {
+   "title": "Supercharger coupler / isolator",
+   "diff": "4 / 5",
+   "time": "[TO RESEARCH] — the snout must come apart",
+   "cost": "About CA$900–1,500 for the isolator; CA$2,000–2,800 for a full snout rebuild",
+   "symptoms": "A metallic rattle or knock from the front of the engine at idle, often mistaken for timing chain; a louder-than-normal whine means dry snout bearings.",
+   "fix": "Rule out the timing chain first with a cold-start listen and a scan for cam-timing codes. Then remove the supercharger snout, replace the spring-type isolator or coupler and, if they're noisy, the snout bearings, and reassemble with a new gasket. One supercharger rebuilder says the stock spring-type isolator usually starts failing from around 50,000 miles. Note that aftermarket nylon couplers are listed for 2010–2013 5.0 trucks, so check fitment for your year.",
+   "tools": "Sockets and torque wrench · snout gasket · 5.0 supercharger repair kit (Lucky8 lists LR088564)",
+   "parts": [
+    {
+     "name": "Supercharger 5.0 repair kit LR088564",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/supercharger-5-0l-repair-kit"
+    },
+    {
+     "name": "5.0 supercharger isolator / coupler (search)",
+     "supplier": "Atlantic British",
+     "url": "https://www.atlanticbritish.com/search?q=Range+Rover+5.0+supercharger+isolator"
+    }
+   ]
+  },
+  {
+   "title": "Auxiliary stop/start battery",
+   "diff": "2 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "About $288 for the AGM auxiliary battery (Lucky8)",
+   "symptoms": "Stop/start that works only sometimes or not at all, rough or slow restarts, low-voltage warnings and odd infotainment behaviour.",
+   "fix": "Test the main battery first, since it is separate and a weak one also upsets stop/start. If the auxiliary battery is at fault, replace it with an AGM unit and register the new battery with a diagnostic tool so the battery-management system uses the right charging strategy. Check for any outstanding software updates.",
+   "tools": "Battery tester · basic sockets · LR047630 / LR176847 auxiliary battery · diagnostic tool for BMS registration",
+   "parts": [
+    {
+     "name": "AGM auxiliary stop/start battery LR047630 / LR176847",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/exide-battery"
+    },
+    {
+     "name": "GAP IIDTool BT G4 (battery registration / BMS reset)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/products/gap-diagnostics-iid-bluetooth-tool-g4-edition-1"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "On 20-inch wheels, the FullFatRR consensus is 285/50R20 (about 31.2 in). Two owners run them, one calls them probably the largest that won't rub in any height mode, and the spare still fits the well. 275/55R20 (about 31.9 in) is also fitted by 'quite a few' owners, though one member predicted it might just catch at full lock. Twenty inches is the smallest rim owners trust to clear the brakes, and 255/60R20 tyres on new-Defender wheels also fit. Want bigger? Lucky8 has a video on trimming the bumper for larger tyres on its lifted Project L405.",
+   "src": "FULLFATRR · LUCKY8"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "For the 2016 model year, the EPA rated the supercharged 5.0 V8 at 14 mpg city, 19 highway and 16 combined, the 3.0 supercharged V6 at 17/23/19, and the Td6 diesel at 22/28/24. PistonHeads reports about 30 mpg (UK) in real-world driving for the 4.4 SDV8.",
+   "src": "FUELECONOMY.GOV · PISTONHEADS"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "Australian-market figures give 3,500 kg (7,716 lb) braked for the V8s, petrol or diesel, and 3,000 kg for the 3.0 V6s. Check your owner's manual and plate; the figure varies by engine and market.",
+   "src": "CARSGUIDE"
+  },
+  {
+   "q": "Which engine should I buy?",
+   "a": "What Car? calls the 3.0 TDV6 the sensible choice. PistonHeads rates the 4.4 SDV8 as 'a good and reliable engine' without the TDV6's crank issues or timing belt. In the US, the choice is the 5.0 V8 (thirsty, chain and coolant-pipe risks), the 3.0 V6, the Td6 diesel from 2016, or the later hybrids. AutoTrader.ca recommends a 2020-or-newer truck with the straight-six if budget allows.",
+   "src": "WHAT CAR? · PISTONHEADS · AUTOTRADER.CA"
+  },
+  {
+   "q": "Is the TDV6 crankshaft failure real?",
+   "a": "Yes, but it isn't universal. Land Rover service bulletin SSM71816 (May 2014) blamed a 'low incidence' of crank failures mainly on wrongly located or rotating main-bearing shells. In a FullFatRR poll of L405 3.0 owners, 88% reported no issues. The usual advice is the correct oil, shorter oil-change intervals than the maximum, and a warranty that covers the engine.",
+   "src": "AULRO · FULLFATRR"
+  },
+  {
+   "q": "Does it have low range?",
+   "a": "Yes. Every L405 has permanent four-wheel drive with a Magna Steyr DD295 two-speed transfer case, a 50/50 split and a low range, managed by Terrain Response 2 with hill descent control. Change the transfer-box and diff oil at around 30,000 miles.",
+   "src": "WIKIPEDIA · PISTONHEADS"
+  },
+  {
+   "q": "How can I lift it?",
+   "a": "The easy way is height-sensor lift rods, which raise every air-suspension mode by 1, 1.5 or 2 inches with no electronics. Proud Rhino's rods take about 20–30 minutes to fit, and Lucky8 recommends an alignment afterwards.",
+   "src": "LUCKY8 / PROUD RHINO"
+  },
+  {
+   "q": "Can I work on the air suspension at home?",
+   "a": "Mostly, with the right scan tool. GAP's IID G4 tool lists air-suspension height adjustment and guided calibration for the L405. 2017–2022 trucks work with the standard tool, but 2013–2016 trucks need the optional adapter version. Struts and the compressor unbolt with hand tools, but the system runs at up to 10 bar, so depressurise it first, and the calibration afterwards needs the tool.",
+   "src": "LUCKY8 · ARNOTT"
+  },
+  {
+   "q": "Pre-facelift or facelift?",
+   "a": "The 2018 facelift added the four-bar grille, new LED lights, thicker glass, Touch Pro Duo screens and the P400e plug-in hybrid. More importantly, PistonHeads says pre-2015 trucks had the most electrical and body faults. If budget allows, later is better.",
+   "src": "WIKIPEDIA · PISTONHEADS"
+  },
+  {
+   "q": "How deep can it wade?",
+   "a": "Land Rover quoted 900 mm (35.4 in), 200 mm more than the L322, with up to 303 mm of ground clearance at off-road height.",
+   "src": "WHEELWORLD REVIEWS"
+  },
+  {
+   "q": "Was there a long-wheelbase version?",
+   "a": "Yes. Revealed at the 2013 LA Auto Show with deliveries from early 2014, it has a 3,122 mm (122.9 in) wheelbase and is 5,199 mm long — 200 mm more in each than the standard truck.",
+   "src": "WIKIPEDIA"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "Lift rods for the height sensors raise every air-suspension mode by 1–2 inches with no coding, and keep Terrain Response working.",
+   "who": [
+    {
+     "name": "Proud Rhino 1\" lift rods (Lucky8)",
+     "url": "https://lucky8llc.com/products/1in-proud-rhino-lift-rods-1"
+    },
+    {
+     "name": "Proud Rhino 2\" lift rods PR25D5 (Lucky8)",
+     "url": "https://lucky8llc.com/products/suspension-lift-kit-proud-rhino-lift-rods"
+    }
+   ]
+  },
+  {
+   "cat": "ARMOUR",
+   "why": "3/16-inch steel, frame-mounted rock sliders that also shield the vulnerable EAS compressor, plus a front bash plate for the sump and radiator.",
+   "who": [
+    {
+     "name": "Proud Rhino Rock Sliders PRRSL405K",
+     "url": "https://lucky8llc.com/products/proud-rhino-rock-sliders-range-rover-l405-2013-2022"
+    },
+    {
+     "name": "Proud Rhino Bash Plate PRL405FBP",
+     "url": "https://lucky8llc.com/products/proud-rhino-bash-plate-l405"
+    }
+   ]
+  },
+  {
+   "cat": "WINCH & BAR",
+   "why": "A hidden winch mount that tucks behind the factory bumper on the chassis and tow point, and a frame-mounted A-bar that fits standard and LWB trucks.",
+   "who": [
+    {
+     "name": "Proud Rhino Hidden Winch Mount PRL405HW",
+     "url": "https://lucky8llc.com/products/hidden-winch-tray-2"
+    },
+    {
+     "name": "Proud Rhino A-Bar PRL405AB",
+     "url": "https://lucky8llc.com/products/a-bar"
+    },
+    {
+     "name": "Proud Rhino L405 Off-Road Package",
+     "url": "https://lucky8llc.com/products/range-rover-l405-off-road-package-by-proud-rhino"
+    }
+   ]
+  },
+  {
+   "cat": "COOLING (5.0 SC)",
+   "why": "Swap the brittle plastic crossover pipes for aluminium before they strand you on a trail, ideally with the water pump and thermostat housing done at the same time.",
+   "who": [
+    {
+     "name": "ARC050 aluminium cooling kit (Lucky8)",
+     "url": "https://lucky8llc.com/products/5-0l-v6-aluminum-cooling-kit-upgrade"
+    },
+    {
+     "name": "SCV85LAUCK upgraded cooling kit (Lucky8)",
+     "url": "https://lucky8llc.com/products/scv85lauck-upgraded-cooling-kit-for-5-0l-v8-supercharged"
+    }
+   ]
+  },
+  {
+   "cat": "BUSHES & ARMS",
+   "why": "Polybushed front lower arms tighten up a clunky, wandering front end on trucks that see rough tracks.",
+   "who": [
+    {
+     "name": "Polybush front lower control arm kit NFLCKPB (Lucky8)",
+     "url": "https://lucky8llc.com/products/polybush-front-control-arm-kit-1"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACK",
+   "why": "A full-length 1,358 mm Slimline II tray that clamps onto the factory flush roof rails with no drilling.",
+   "who": [
+    {
+     "name": "Front Runner Slimline II kit KRRR009T (Lucky8)",
+     "url": "https://lucky8llc.com/products/land-rover-range-rover-2013-current-slimline-ii-roof-rail-rack-kit"
+    }
+   ]
+  },
+  {
+   "cat": "DIAGNOSTICS",
+   "why": "A dealer-level scan tool for air-suspension heights and calibration, service resets and CCF edits. You need it for any serious home wrenching on an L405.",
+   "who": [
+    {
+     "name": "GAP IID G4 tool (Lucky8)",
+     "url": "https://lucky8llc.com/products/gap-diagnostics-iid-bluetooth-tool-g4-edition-1"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "2013–2017 · US",
+   "label": "Pre-facelift (5.0 SC, 3.0 SC, Td6 from 2016)",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=2013&maxyear=2017",
+   "bat_url": "https://bringatrailer.com/land-rover/range-rover-l405/"
+  },
+  {
+   "years": "2018–2021 · US",
+   "label": "Facelift (P400e, P400 I6 MHEV, Td6)",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=2018&maxyear=2021",
+   "bat_url": "https://bringatrailer.com/land-rover/range-rover-l405/"
+  },
+  {
+   "years": "2013–2021 · All",
+   "label": "Every L405 incl. LWB and SVAutobiography",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=rangerover&minyear=2013&maxyear=2021",
+   "bat_url": "https://bringatrailer.com/land-rover/range-rover-l405/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Lucky8 Off-Road",
+   "focus": "PROJECT L405 BUILD & DIY",
+   "url": "https://www.youtube.com/@Lucky8"
+  }
+ ],
+ "forums": [
+  {
+   "name": "FullFatRR — Technical (L405)",
+   "url": "https://www.fullfatrr.com/forum/technical-l405-vf41.html",
+   "note": "The deepest L405 tech board: crank polls, air suspension and timing-chain threads."
+  },
+  {
+   "name": "FullFatRR — Maintenance & Mods (L405)",
+   "url": "https://www.fullfatrr.com/forum/maintenance-mods-l405-vf42.html",
+   "note": "DIY servicing and modifications."
+  },
+  {
+   "name": "FullFatRR — Wheels & Tyres",
+   "url": "https://www.fullfatrr.com/forum/wheels-tyres-vf27.html",
+   "note": "Where the 285/50R20 and Defender-wheel fitment reports live."
+  },
+  {
+   "name": "FullFatRR — Off Roading & Green Laning",
+   "url": "https://www.fullfatrr.com/forum/off-roading-green-laning-vf19.html",
+   "note": "UK green-laning routes and trip reports in full-size Range Rovers."
+  },
+  {
+   "name": "RangeRovers.net",
+   "url": "https://www.rangerovers.net/",
+   "note": "Big US Range Rover community with sections for every generation."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "Range Rover L322",
+   "family": "range-rover",
+   "gen": "l322"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "Range Rover L460",
+   "family": "range-rover",
+   "gen": "l460"
+  },
+  {
+   "rel": "GREAT-GRANDPARENT",
+   "name": "Range Rover Classic",
+   "family": "range-rover",
+   "gen": "classic"
+  },
+  {
+   "rel": "RIVAL",
+   "name": "Land Cruiser 200 Series",
+   "family": "land-cruiser",
+   "gen": "200-series"
+  },
+  {
+   "rel": "RIVAL",
+   "name": "Mercedes-Benz G-Class (W463)",
+   "family": "g-class",
+   "gen": "w463"
+  }
+ ],
+ "plate": [
+  {
+   "k": "BUILT",
+   "v": "2012–2021 · Solihull, UK"
+  },
+  {
+   "k": "MODEL YEARS",
+   "v": "2013–2021"
+  },
+  {
+   "k": "BODY",
+   "v": "All-aluminium monocoque, 5-door"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "2,922 mm · LWB 3,122 mm"
+  },
+  {
+   "k": "LENGTH",
+   "v": "4,999 mm · LWB 5,199 mm"
+  },
+  {
+   "k": "KERB WEIGHT",
+   "v": "2,160–2,360 kg"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Cross-linked air, adaptive dampers"
+  },
+  {
+   "k": "TRANSFER",
+   "v": "Magna Steyr DD295, two-speed"
+  },
+  {
+   "k": "GEARBOX",
+   "v": "ZF 8HP eight-speed auto"
+  },
+  {
+   "k": "ENGINES",
+   "v": "5.0 SC V8 · 3.0 SC V6 · 3.0 TDV6/SDV6 · 4.4 SDV8 · P400e · 3.0 I6 MHEV"
+  },
+  {
+   "k": "WADING",
+   "v": "900 mm"
+  },
+  {
+   "k": "TOWING",
+   "v": "Up to 3,500 kg (V8s)"
+  }
+ ],
+ "photos": [
+  {
+   "file": "l405-trail.jpg",
+   "alt": "A facelifted fourth-generation Range Rover (L405) climbing a rutted dirt trail between bushes",
+   "caption": "L405 FACELIFT · RUTTED TRAIL",
+   "credit": "Zakaria Zayane",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
+  },
+  {
+   "file": "l460-forest-track.jpg",
+   "alt": "The L405's successor, a fifth-generation Range Rover (L460), parked on a muddy gravel forest track",
+   "caption": "SUCCESSOR · L460 ON A FOREST TRACK",
+   "credit": "Sam Pearce-Warrilow",
+   "source": "Unsplash",
+   "source_url": "https://unsplash.com/photos/a-black-range-rover-parked-on-a-gravel-road-Ho98UeVC_nQ"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Range Rover (L405)",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_(L405)"
+  },
+  {
+   "name": "WheelWorld Reviews — New Range Rover road test on, off beaten track",
+   "url": "https://www.wheelworldreviews.co.uk/?p=9010"
+  },
+  {
+   "name": "PistonHeads — Range Rover (L405) PH used buying guide",
+   "url": "https://www.pistonheads.com/news/ph-buying-guides/range-rover-l405--ph-used-buying-guide/43549"
+  },
+  {
+   "name": "AutoTrader.ca — 2013–2021 Land Rover Range Rover used vehicle review",
+   "url": "https://www.autotrader.ca/editorial/expert-reviews/land-rover/range-rover/2013-2021-land-rover-range-rover-used-vehicle-review/"
+  },
+  {
+   "name": "What Car? — Used Land Rover Range Rover 2013–2022 advice",
+   "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n872/advice"
+  },
+  {
+   "name": "Top Gear — Here's every generation of Range Rover since 1970",
+   "url": "https://www.topgear.com/car-news/retro/heres-every-generation-range-rover-1970"
+  },
+  {
+   "name": "Top Gear Philippines — Royal ride: a Range Rover fit for the Queen",
+   "url": "https://www.topgear.com.ph/features/feature-articles/royal-ride-a-range-rover-fit-for-the-queen-of-england"
+  },
+  {
+   "name": "FuelEconomy.gov — 2016 Land Rover Range Rover",
+   "url": "https://fueleconomy.gov/feg/bymodel/2016_Land_Rover_Range_Rover.shtml"
+  },
+  {
+   "name": "Kelley Blue Book — 2016 Range Rover HSE Td6: diesel power for America",
+   "url": "https://www.kbb.com/car-news/2016-range-rover-hse-td6hse-sport-td6-diesel-power-for-america"
+  },
+  {
+   "name": "CarsGuide — Land Rover Range Rover 2013 towing capacity",
+   "url": "https://www.carsguide.com.au/land-rover/range-rover/towing-capacity/2013"
+  },
+  {
+   "name": "NHTSA recalls API — 2014 Land Rover Range Rover",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2014"
+  },
+  {
+   "name": "NHTSA recalls API — 2016 Land Rover Range Rover",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2016"
+  },
+  {
+   "name": "Foreign Automotive — Range Rover 5.0 supercharged V8 engine problems",
+   "url": "https://foreignautomotive.ca/blogs/news/range-rover-5-0-supercharged-engine-problems"
+  },
+  {
+   "name": "LandRoverWorld — Supercharger rattle? (isolator/coupler discussion)",
+   "url": "https://www.landroverworld.org/goto/post?id=208998"
+  },
+  {
+   "name": "ACM Technik — 5.0L V8 nylon supercharger coupler (2009–2013)",
+   "url": "https://acmtechnik.com/products/jaguar-xj-xf-f-type-land-rover-range-rover-5-0l-v8-nylon-supercharger-coupler-2009-2013"
+  },
+  {
+   "name": "AULRO — TDV6 crank and crank bearing failures",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-209763.html"
+  },
+  {
+   "name": "FullFatRR — L405 3.0 TDV6 crankshaft poll",
+   "url": "https://fullfatrr.com/forum/topic54027.html"
+  },
+  {
+   "name": "FullFatRR — Largest possible L405 tyres with smallest possible rims",
+   "url": "https://www.fullfatrr.com/forum/post689114.html"
+  },
+  {
+   "name": "FullFatRR — 275-55-20 tyres on L405?",
+   "url": "https://www.fullfatrr.com/forum/post570495.html"
+  },
+  {
+   "name": "Arnott — ASE-3756 front electronic air strut installation manual (L405)",
+   "url": "https://autoteile-store.at/download/1824d2bc-0bb0-043c-ec82-4272e8b72c7e/91cbdbcae09b8a7cd1fa8b5bb5a3e00f.pdf"
+  },
+  {
+   "name": "Tire Review — Arnott remanufactured air struts for the 2013–2018 Range Rover",
+   "url": "https://www.tirereview.com/arnott-introduces-remanufactured-air-struts-for-the-13-18-range-rover/"
+  },
+  {
+   "name": "FullFatRR — L322 air suspension compressor/strut thread (labour estimate)",
+   "url": "https://www.fullfatrr.com/forum/post598069.html"
+  },
+  {
+   "name": "Lucky8 — Proud Rhino 1\" lift rods",
+   "url": "https://lucky8llc.com/products/1in-proud-rhino-lift-rods-1"
+  },
+  {
+   "name": "Lucky8 — Proud Rhino PR25D5 2\" lift rods",
+   "url": "https://lucky8llc.com/products/suspension-lift-kit-proud-rhino-lift-rods"
+  },
+  {
+   "name": "Lucky8 — Proud Rhino rock sliders PRRSL405K",
+   "url": "https://lucky8llc.com/products/proud-rhino-rock-sliders-range-rover-l405-2013-2022"
+  },
+  {
+   "name": "Lucky8 — Proud Rhino L405 off-road package",
+   "url": "https://lucky8llc.com/products/range-rover-l405-off-road-package-by-proud-rhino"
+  },
+  {
+   "name": "Lucky8 — 5LTCK genuine 5.0 V8 timing chain kit",
+   "url": "https://lucky8llc.com/products/5-0l-v8-timing-kit"
+  },
+  {
+   "name": "Lucky8 — ARC050 5.0L supercharged aluminium cooling upgrade",
+   "url": "https://lucky8llc.com/products/5-0l-v6-aluminum-cooling-kit-upgrade"
+  },
+  {
+   "name": "Lucky8 — SCV85LAUCK upgraded cooling kit, 5.0 SC",
+   "url": "https://lucky8llc.com/products/scv85lauck-upgraded-cooling-kit-for-5-0l-v8-supercharged"
+  },
+  {
+   "name": "Lucky8 — Front lower control arm kit LR072469/LR072471",
+   "url": "https://lucky8llc.com/products/front-lower-control-arm-kit-1"
+  },
+  {
+   "name": "Lucky8 — Polybush front lower control arm kit",
+   "url": "https://lucky8llc.com/products/polybush-front-control-arm-kit-1"
+  },
+  {
+   "name": "Lucky8 — Genuine front lower control arm kit",
+   "url": "https://lucky8llc.com/products/lower-control-arm-rh-lh-front-genuine"
+  },
+  {
+   "name": "Lucky8 — Front strut assembly LR079515",
+   "url": "https://lucky8llc.com/products/lr079515-strut-assembly-front-right-fits-land-rover-range-rover-l405"
+  },
+  {
+   "name": "Lucky8 — BWI OEM front strut",
+   "url": "https://lucky8llc.com/products/bwi-oem-front-strut-lh"
+  },
+  {
+   "name": "Lucky8 — Supercharger 5.0L repair kit LR088564",
+   "url": "https://lucky8llc.com/products/supercharger-5-0l-repair-kit"
+  },
+  {
+   "name": "Lucky8 — Auxiliary stop/start battery LR047630/LR176847",
+   "url": "https://lucky8llc.com/products/exide-battery"
+  },
+  {
+   "name": "Lucky8 — GAP IID G4 diagnostic tool",
+   "url": "https://lucky8llc.com/products/gap-diagnostics-iid-bluetooth-tool-g4-edition-1"
+  },
+  {
+   "name": "Lucky8 — Front Runner Slimline II roof rack KRRR009T",
+   "url": "https://lucky8llc.com/products/land-rover-range-rover-2013-current-slimline-ii-roof-rail-rack-kit"
+  },
+  {
+   "name": "4x4 Sint Annaland — Front Runner Slimline II kit, Range Rover (2013–)",
+   "url": "https://www.4x4sintannaland.nl/?p=19597"
+  },
+  {
+   "name": "Lucky8 Off-Road (YouTube) — Project L405 videos",
+   "url": "https://www.youtube.com/@Lucky8"
+  },
+  {
+   "name": "FullFatRR forum index",
+   "url": "https://fullfatrr.com/forum/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Range Rover L405",
+   "url": "https://bringatrailer.com/land-rover/range-rover-l405/"
+  },
+  {
+   "name": "Land Rover TOPIx — L405 owner guide, technical specifications (V8 petrol, NAS)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/225542/PDF/7513231e-bb27-4af4-99e8-677da7314f6a/en_GB"
+  },
+  {
+   "name": "Land Rover TOPIx — L405 owner guide, technical specifications and capacities (all engines)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/225635/PDF/0a568407-2279-443a-90bd-adc21baa4ed1/en_GB"
+  },
+  {
+   "name": "Granville (British Parts UK) — L405 service oils: 0W-20 STJLR.51.5122 petrol",
+   "url": "https://britishparts.co.uk/granville/range-rover/range-rover-l405/service-parts"
+  },
+  {
+   "name": "FullFatRR — DIY guide: L405 TDV6 oil change",
+   "url": "https://www.fullfatrr.com/forum/post480102.html"
+  },
+  {
+   "name": "FullFatRR — L405 SDV8 engine oil level (9.4 L)",
+   "url": "https://www.fullfatrr.com/forum/post583936.html"
+  },
+  {
+   "name": "FullFatRR — SDV8 oil change: STJLR.03.5005 spec",
+   "url": "https://www.fullfatrr.com/forum/post666099.html"
+  },
+  {
+   "name": "FullFatRR — How to: transfer box fluid change",
+   "url": "https://www.fullfatrr.com/forum/topic67285.html"
+  },
+  {
+   "name": "Lucky8 — ZF 8-speed service kit DA3383 (interval guidance)",
+   "url": "https://lucky8llc.com/products/auto-gearbox-filter-and-oil-kit"
+  },
+  {
+   "name": "Shock Warehouse — Arnott air suspension parts for the L405",
+   "url": "https://shockwarehouse.com/products/arnott-p-3731-compressor-land-rover-range-rover-l405-range-rover-sport-l494"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Baseline everything, and before anything else run the VIN through Land Rover's recall lookup (the 2014–17 knuckle recall alone is worth it). Land Rover calls the ZF eight-speed 'filled for life' and gives the diffs and transfer box exact wet-fill volumes, so treat the official capacities below as the target and measure what goes in.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "Petrol 5.0 V8 / 3.0 V6 SC: 0W-20 to STJLR.51.5122 (the launch handbook listed 5W-20 to WSS-M2C925-A), 8.0 L for the V8 · TDV6/SDV6 (DPF): 5W-30 to STJLR.03.5005 / WSS-M2C934-B, 6.0 L · SDV8 (DPF): same spec, 9.4 L",
+    "interval": "Then every 10,000 mi or sooner (owner practice); [CONFIRM IN MANUAL] for the factory schedule",
+    "note": "The DPF diesels are fussy about oil, so only use oil approved to STJLR.03.5005. Don't overfill the SDV8: put in about 8.5 L, wait, then top up using the electronic level check.",
+    "parts": [
+     {
+      "name": "Genuine oil filter kit LR011279 (5.0 V8 / 3.0 V6 SC)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/rover-oil-filter-kit-genuine-rover-lr011279"
+     },
+     {
+      "name": "Oil change kit: filter + drain plug (5.0 V8 / 3.0 V6 SC)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/oil-change-kit-5-0-v8-v6-sc"
+     },
+     {
+      "name": "Genuine 3.0 V6 diesel oil filter LR013148 (the filter used in FullFatRR's L405 TDV6 guide)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/land-rover-discovery-range-rover-sport-3-0l-v6-diesel-oil-filter-genuine-new"
+     }
+    ]
+   },
+   {
+    "item": "Engine air filters",
+    "spec": "LR011593 (two elements on the V8)",
+    "interval": "Then every oil service if you run dirt roads; [CONFIRM IN MANUAL]",
+    "note": "Two elements on the V8. Replace both.",
+    "parts": [
+     {
+      "name": "Air filter set x2 LR011593",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/air-cleaner-element-filter-ac-a-c-set-x2"
+     },
+     {
+      "name": "Mann air filter LR011593",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/range-rover-sport-v8-5-0-lr4-mann-air-filter-element-lr011593"
+     }
+    ]
+   },
+   {
+    "item": "Cabin (pollen) filter",
+    "spec": "LR036369",
+    "interval": "Then annually",
+    "note": "",
+    "parts": [
+     {
+      "name": "Mahle pollen / cabin filter LR036369",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/odour-filter-pollen-mahle"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs (petrol)",
+    "spec": "5.0 V8: set of 8 (LR032080 in Britpart's kit DA6099)",
+    "interval": "[CONFIRM IN MANUAL]",
+    "note": "Supercharged V8s with no proof of plugs get them now. Check the coil packs and plug-well seals while you're there.",
+    "parts": [
+     {
+      "name": "Spark plug set of 8 (5.0 V8, L405)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/engine-spark-plugs-set-of-8"
+     },
+     {
+      "name": "Britpart 5.0 V8 service kit DA6099 (plugs, filters, drain plug)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/britpart-maintenance-service-kit-da6099"
+     }
+    ]
+   },
+   {
+    "item": "Coolant",
+    "spec": "1:1 Havoline XLC antifreeze and water · refill 6.83 L (5.0 NA), 8.83 L (5.0 SC), 8.93 L (V6 diesel), 7.13 L (V8 diesel)",
+    "interval": "Change if the history is unknown; then [CONFIRM IN MANUAL]",
+    "note": "On the 5.0 SC, unexplained coolant loss usually means the plastic pipes under the supercharger (see the repair above), not the radiator.",
+    "parts": [
+     {
+      "name": "ARC050 aluminium coolant pipe kit (5.0 SC)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/5-0l-v6-aluminum-cooling-kit-upgrade"
+     },
+     {
+      "name": "L405 coolant / antifreeze (search)",
+      "supplier": "Atlantic British",
+      "url": "https://www.atlanticbritish.com/search?q=Range+Rover+L405+coolant+antifreeze"
+     }
+    ]
+   },
+   {
+    "item": "ZF 8HP70 transmission",
+    "spec": "Shell ATF L12108 · Land Rover lists it as 'filled for life'",
+    "interval": "Lucky8 recommends fluid and filter every 50,000–75,000 mi, sooner if you tow",
+    "note": "The filter is built into the pan (LR065238), so a service means a new pan. Drain and refill, then level-check at the specified temperature with a scan tool. Don't flush.",
+    "parts": [
+     {
+      "name": "ZF 8-speed service kit DA3383 (LR065238 pan/filter + fluid + plugs)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/auto-gearbox-filter-and-oil-kit"
+     },
+     {
+      "name": "LR065238 transmission pan with integral filter and bolts",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/transmission-oil-pan-filter-2"
+     }
+    ]
+   },
+   {
+    "item": "Transfer box",
+    "spec": "Shell TF 0753 (TL 7300), 1.5 L",
+    "interval": "Then every 60,000 mi (owner practice)",
+    "note": "Use only TF 0753-spec fluid: the centre clutch depends on its friction modifiers. Put in a measured fill. Replace the M16 drain/fill washers (IYF500030).",
+    "parts": [
+     {
+      "name": "Rock Oil TF 0753-type transfer fluid IYK500010, 1 L",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/rock-oil-land-rover-tf-0870-full-synthetic-transfer-case-fluid-1-liter"
+     },
+     {
+      "name": "Transfer fluid set of 2 IYK500010",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/transfer-case-oil-fluid-set-of-2-iyk500010-rock"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Front: Castrol SAF-XO, 0.54 L wet fill · Rear non-locking: SAF-XO, 0.85 L · Rear electronic locker: Castrol BOT 720, 1.25 L",
+    "interval": "Then every 60,000 mi (owner practice)",
+    "note": "These are much smaller fills than the L322 figures you'll find on forums. Use the L405 numbers. The electronic locker takes its own fluid.",
+    "parts": [
+     {
+      "name": "Castrol SAF-XO-spec 75W-90 GL5, 1 qt (LRN7591)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/1-quart-genuine-land-rover-differential-axle-gear-oil-75w90r-gl5-lrn7591"
+     },
+     {
+      "name": "Castrol BOT 720 e-locker fluid (search)",
+      "supplier": "Atlantic British",
+      "url": "https://www.atlanticbritish.com/search?q=Castrol+BOT+720+differential"
+     }
+    ]
+   },
+   {
+    "item": "Dynamic Response hydraulic fluid",
+    "spec": "Texaco Cold Climate PAS fluid 33270 (V8 diesel and V8 SC with Dynamic Response)",
+    "interval": "Check level and look for leaks at purchase",
+    "note": "Trucks with Dynamic Response have hydraulic active anti-roll bars. Leaks at the bar actuators or valve block are expensive, so look for them before you buy.",
+    "parts": [
+     {
+      "name": "Dynamic Response / PAS fluid (search)",
+      "supplier": "Atlantic British",
+      "url": "https://www.atlanticbritish.com/search?q=Range+Rover+L405+Dynamic+Response+fluid"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid & pads",
+    "spec": "Shell DOT4 ESL, or low-viscosity DOT4 to ISO 4925 class 6 and LRES22BF03",
+    "interval": "Change at purchase if undated; then [CONFIRM IN MANUAL]",
+    "note": "Check pad and rotor thickness at all four corners. Heavy trucks with big wheels eat rear pads.",
+    "parts": [
+     {
+      "name": "Akebono rear brake pad set EUR1692B (Range Rover 2013–22)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/land-rover-brake-pad-set-akebono-eur1692b"
+     },
+     {
+      "name": "Brembo front brake pad kit LR138646BR",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/lr138646br-front-brake-pads-fits-l494-l405-d5-defender"
+     }
+    ]
+   },
+   {
+    "item": "Air suspension health check",
+    "spec": "Compressor, struts, height sensors",
+    "interval": "At purchase, then whenever a corner sits low after standing",
+    "note": "Measure each corner after the truck has stood overnight and listen for the compressor running too often. Front struts are the common failure (see the repair above).",
+    "parts": [
+     {
+      "name": "Arnott P-3731 air suspension compressor (L405 / L494)",
+      "supplier": "Shock Warehouse (Arnott)",
+      "url": "https://shockwarehouse.com/products/arnott-p-3731-compressor-land-rover-range-rover-l405-range-rover-sport-l494"
+     },
+     {
+      "name": "Arnott RH-5168 front ride height sensor (L405)",
+      "supplier": "Shock Warehouse (Arnott)",
+      "url": "https://shockwarehouse.com/products/arnott-rh-5168-front-ride-height-sensor-land-rover-rr-l405-chassis-rr-sport-l494-disc-v-l462-defender-l663"
+     },
+     {
+      "name": "Arnott A-3025 rear air spring (L405)",
+      "supplier": "Shock Warehouse (Arnott)",
+      "url": "https://shockwarehouse.com/products/arnott-a-3025-rear-air-spring-land-rover-range-rover-l405"
+     }
+    ]
+   },
+   {
+    "item": "Main & auxiliary batteries",
+    "spec": "Main battery plus an AGM auxiliary stop/start battery (LR047630 / LR176847)",
+    "interval": "Load-test both at purchase",
+    "note": "Weak batteries cause phantom faults on the L405. Register any new battery with a scan tool so the battery-management system uses the right charge strategy.",
+    "parts": [
+     {
+      "name": "AGM auxiliary stop/start battery LR047630 / LR176847",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/exide-battery"
+     },
+     {
+      "name": "GAP IIDTool BT G4 (BMS registration, service resets)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/gap-diagnostics-iid-bluetooth-tool-g4-edition-1"
+     }
+    ]
+   },
+   {
+    "item": "Supercharger isolator & timing-chain listen (5.0 SC)",
+    "spec": "Cold-start listen and a scan for P0016–P0019",
+    "interval": "At purchase",
+    "note": "A cold-start rattle or cam-timing codes point to the timing chains. A rattle at idle points to the supercharger isolator. Know which before you buy.",
+    "parts": [
+     {
+      "name": "Supercharger 5.0 repair kit LR088564",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/supercharger-5-0l-repair-kit"
+     }
+    ]
+   }
+  ]
+ }
+}
