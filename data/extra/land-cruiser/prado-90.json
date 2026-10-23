@@ -1,0 +1,342 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 on 7Jx16 ET15 (GXL/VX-type and 1KD-FTV trucks)",
+   "215/80R16 on 6Jx16 ET30 (base trims)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+15 mm (7Jx16) / +30 mm (6Jx16)",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "110 N·m (81 lb-ft) per Roughtrax; confirm with Toyota"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/75R16",
+    "note": "Doesn't rub unless the springs have sagged (IH8MUD). Needs the 7-inch rims: ExplorOz owners say it's too wide for the 6-inch base rims."
+   },
+   {
+    "lift": "Any",
+    "size": "285/75R16",
+    "note": "Rubs with or without a lift, on the upper control arm and a rear pinch weld that can be ground down (IH8MUD)."
+   },
+   {
+    "lift": "2–3 in",
+    "size": "255/85R16 (33 in)",
+    "note": "Taller and lighter than a 285/75 and easier on the front end, but it needs a lift. Above 2–3 in, plan on a diff drop to protect the CVs."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [
+   {
+    "title": "V6 fuel-tank solenoid valve (Australia)",
+    "years": "V6 petrol",
+    "ref": "PRA 1997/3426",
+    "url": "https://australiancar.reviews/recalls-faults-toyota-90-series-landcruiser-prado-1996-02/",
+    "summary": "December 1997: damage to the solenoid valve could break tubes and leak fuel, a fire risk."
+   },
+   {
+    "title": "Front lower ball joints (Australia)",
+    "years": "Five-door RZJ95, VZJ95, KZJ95 (VIN ranges listed)",
+    "ref": "PRA 2005/7749",
+    "url": "https://australiancar.reviews/recalls-faults-toyota-90-series-landcruiser-prado-1996-02/",
+    "summary": "May 2005: a scratched joint could wear and, in the worst case, separate from the knuckle."
+   },
+   {
+    "title": "Rear axle-shaft flange crack (Australia)",
+    "years": "Built 17 April 1996 – 6 January 1999",
+    "ref": "PRA 2006/8499",
+    "url": "https://australiancar.reviews/recalls-faults-toyota-90-series-landcruiser-prado-1996-02/",
+    "summary": "May 2006: repeated hard driving on winding roads could crack the flange neck and, eventually, let the wheel separate."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "May 1996",
+   "change": "J90 launched in Japan (8 May): three-door and five-door, 5VZ-FE V6 and 1KZ-TE diesel, full-time 4WD",
+   "flag": "note"
+  },
+  {
+   "year": "July 1996",
+   "change": "Australian launch, petrol engines only; Britain gets it as the Land Cruiser Colorado",
+   "flag": "note"
+  },
+  {
+   "year": "April 1997",
+   "change": "2.7 L 3RZ-FE four added (150 PS)",
+   "flag": "avoid"
+  },
+  {
+   "year": "June 1999",
+   "change": "Facelift: multi-reflector headlights, clear lenses, new grille and dash, Active TRC; VSC on main auto grades from August; TX Limited edition",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "Sofasa begins assembling the J90 in Colombia",
+   "flag": "note"
+  },
+  {
+   "year": "Oct 1999",
+   "change": "Factory 'Crawler' tracked snow version announced (TECS)",
+   "flag": "note"
+  },
+  {
+   "year": "March 2000",
+   "change": "Australia finally gets a diesel: 96 kW 1KZ-TE with a five-speed manual (automatic from October)",
+   "flag": "note"
+  },
+  {
+   "year": "July 2000",
+   "change": "1KD-FTV common-rail D-4D (170 PS, 352 Nm) replaces the 1KZ-TE in Japan, its first application",
+   "flag": "buy"
+  },
+  {
+   "year": "Oct 2002",
+   "change": "Replaced by the Prado 120 (Colombian production continues to 2009)",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "The first J90s turn 25 and become legal US imports",
+   "flag": "note"
+  },
+  {
+   "year": "2027",
+   "change": "The last 2002-built J90s reach 25 years",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every US J90 is a gray import, and the model code tells you what you're buying. Make sure the code on the paperwork matches the engine and body in front of you.",
+  "items": [
+   {
+    "head": "Model code = engine + body",
+    "body": "VZJ = 3.4 V6, RZJ = 2.7 four, KZJ = 1KZ-TE diesel, KDJ = 1KD-FTV diesel. 90 is the three-door, 95 the five-door. Japanese codes carry a 'W' suffix (e.g. VZJ95W)."
+   },
+   {
+    "head": "1KZ or 1KD?",
+    "body": "Toyota fitted the common-rail 1KD-FTV from July 2000 in Japan, so a KDJ95 should be a mid-2000-or-later truck. 4X4 Australia lists the Australian J90 diesel as the 1KZ-TE, from March 2000."
+   },
+   {
+    "head": "Pre- or post-facelift",
+    "body": "Trucks built after the June 1999 minor change have large multi-reflector headlights, clear-lens indicators and a revised grille and bumper. Five-doors grew from 4,675 mm to 4,690 mm."
+   },
+   {
+    "head": "Japanese grades",
+    "body": "Japanese three-door grades start with R (RZ, RX) and five-door grades with T (TZ, TX, TX Limited). Australian five-doors were sold as RV, RV6, GXL and VX Grande."
+   },
+   {
+    "head": "Lockers",
+    "body": "Every J90 has a center-diff lock. Australian trucks had no factory axle lockers, so an ad claiming 'factory lockers' needs proof."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Fuel tank",
+   "v": "90 L (23.8 US gal) UK KZJ95 · 159 L (42 US gal) total in Australian trucks",
+   "note": "Roughtrax; 4X4 Australia"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,740 kg (3,836 lb) 3-door V6 · 1,890 kg 5-door V6 · 1,960 kg (4,321 lb) 5-door 1KZ-TE",
+   "note": "Toyota, Japanese launch spec"
+  },
+  {
+   "k": "Gross vehicle mass",
+   "v": "2,540 kg (3-door) / 2,680 kg (5-door)",
+   "note": "Roughtrax, KZJ90/95"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "230 mm (9.1 in)",
+   "note": "5VZ-FE TZ donor for the Crawler, per Toyota's brochure"
+  },
+  {
+   "k": "Turning circle",
+   "v": "11.6 m",
+   "note": "4X4 Australia"
+  },
+  {
+   "k": "Dimensions",
+   "v": "4,675–4,690 × 1,820 × 1,880 mm (5-door)",
+   "note": "Toyota"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "A young US market: J90s only became legal in 2021, plenty are coming in, and prices are still low by Land Cruiser standards. Clean diesels with paperwork bring the most.",
+  "ranges": [
+   {
+    "cond": "Project / tired",
+    "range": "Under $10k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$10k–16k"
+   },
+   {
+    "cond": "Excellent / low-km",
+    "range": "$18k–20k (one outlier at $34.5k)"
+   }
+  ],
+  "note": "Based on 19 Bring a Trailer sales from December 2024 to October 2026, from $9,500 (1996 KZJ90) to $34,500 (1997 KZJ90). Most of the market is 1KZ-TE diesels; another five trucks were bid to $8,500–13,050 without selling."
+ },
+ "docs": [
+  {
+   "name": "Gregory's — Hi-Lux Prado: 1KZ-TE Turbo Diesel Engines (ISBN 978-0-85566-802-0)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_KZ_engine",
+   "note": "Reprint workshop manual for the 1KZ-TE, cited on Wikipedia; buy it from a bookseller."
+  },
+  {
+   "name": "Partsouq — genuine Toyota parts catalogue (search by frame number)",
+   "url": "https://partsouq.com/",
+   "note": "The EPC that IH8MUD's 90 Series FAQ recommends for JDM Prados."
+  },
+  {
+   "name": "Amayama — genuine Toyota parts and cross-references",
+   "url": "https://www.amayama.com/en",
+   "note": "Good for checking which 4Runner, Tacoma and 80 Series parts interchange."
+  },
+  {
+   "name": "ToyoDIY — Toyota parts catalogue",
+   "url": "https://www.toyodiy.com/parts/",
+   "note": "The cross-reference IH8MUD members use for 90 Series part numbers."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota never sold the J90 in the United States; America got its platform twin, the [[4runner/3rd-gen|3rd-gen 4Runner]], instead. Every US Prado 90 is a gray import. NHTSA says a vehicle at least 25 years old can be lawfully imported without regard to whether it meets US safety standards, and that the 25 years run from the date of manufacture. A manufacture label, a first-sale invoice or an old registration document can prove it.",
+   "J90 production began in May 1996, so the first trucks became eligible in May 2021, and the last 2002 builds qualify during 2027. On the EPA side, Form 3520-1 code E covers vehicles at least 21 years old in original, unmodified configuration (an engine swap only qualifies if it's the same engine model). That makes a J90 federally straightforward. State titling, inspection and emissions are separate, and California is the hardest, so check your state's rules before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Built by Toyota in Japan from 1996 to 2002, and assembled in Colombia for seven years after that.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "May 1996 – 2002 (Japan); 1999–2009 (Sofasa, Colombia)"
+   },
+   {
+    "k": "Plants",
+    "v": "Toyota Honsha and Tahara, Japan; Sofasa, Envigado, Colombia; UMW, Malaysia (manual only)"
+   },
+   {
+    "k": "Names",
+    "v": "Land Cruiser Prado; Land Cruiser Colorado (UK); Toyota Merú (Venezuela, three-door)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "TX Limited",
+    "years": "1999",
+    "note": "Launched with the June 1999 facelift: five-door eight-seat TX with roof rails, wood-grain trim, rear console and Optitron gauges"
+   },
+   {
+    "name": "Prado Crawler",
+    "years": "1999–",
+    "note": "TECS factory special on the 5VZ-FE TZ, with rubber crawler tracks in place of wheels; ¥5,240,000 before tax at launch"
+   },
+   {
+    "name": "Active Vacation",
+    "years": "1990s",
+    "note": "Japanese camper conversion registered as an 8-number special-purpose vehicle"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters and sanctioned trail events"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA's annual Land Cruiser trail event in Moab, Utah, each spring"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser Prado (second generation, J90)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado#J90"
+  },
+  {
+   "name": "Toyota — 75 Years of Toyota, Vehicle Lineage: Land Cruiser Prado (90)",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012615/index.html"
+  },
+  {
+   "name": "Wikipedia — Toyota KD engine (1KD-FTV first used in the J90 Prado, July 2000)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_KD_engine"
+  },
+  {
+   "name": "4X4 Australia — Toyota Prado Australian history and buyer's guide: 1996–2023",
+   "url": "https://www.4x4australia.com.au/reviews/toyota-prado-australian-history-and-buyers-guide-1996-2023"
+  },
+  {
+   "name": "AustralianCar.Reviews — Toyota 90-Series LandCruiser Prado (1996–02)",
+   "url": "https://www.australiancar.reviews/generation/90-1996-02/"
+  },
+  {
+   "name": "AustralianCar.Reviews — Recalls & faults: Toyota 90-Series LandCruiser Prado (1996–02)",
+   "url": "https://australiancar.reviews/recalls-faults-toyota-90-series-landcruiser-prado-1996-02/"
+  },
+  {
+   "name": "Roughtrax 4x4 — Land Cruiser KZJ90/KZJ95 1996–2002 vehicle specifications",
+   "url": "https://roughtrax4x4.com/blog/land-cruiser-kzj90-kzj95-1996-2002-vehicle-specifications"
+  },
+  {
+   "name": "Koleso.ee — Toyota Land Cruiser Prado 90 Series [1996–2002] wheel and tyre sizes",
+   "url": "https://koleso.ee/en/valuveljed/toyota/land-cruiser-prado/4381/90-series-1996-2002/8974"
+  },
+  {
+   "name": "IH8MUD — 90 Series FAQ (parts interchange, EPC sources)",
+   "url": "https://forum.ih8mud.com/threads/90-series-faq.1274870/"
+  },
+  {
+   "name": "IH8MUD — 4Runner suspension on a Prado?? (tyre and lift advice)",
+   "url": "https://forum.ih8mud.com/threads/4runner-suspention-on-a-prado.731474/"
+  },
+  {
+   "name": "ExplorOz — Prado rims and tyres? (90 series RV, 6-inch vs 7-inch rims)",
+   "url": "https://www.exploroz.com/forum/31155/prado-rims-and-tyres"
+  },
+  {
+   "name": "ExplorOz — Prado limited slip diff (90 and 120 series lockers)",
+   "url": "https://www.exploroz.com/forum/83182/prado-limited-slip-diff"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser Prado 90-Series auction results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-prado-90-series/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs (25-year exemption)",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "EPA — Form 3520-1 (code E: vehicles at least 21 years old, original configuration)",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "Bring a Trailer — individual Prado 90 listings (grades RX/RZ three-door, TX/TZ five-door)",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-prado-90-series/"
+  },
+  {
+   "name": "TLCA — Home",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/"
+  }
+ ]
+}
