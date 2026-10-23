@@ -1,0 +1,374 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R18 (Australian Ti; 2017 Armada SV)",
+   "275/60R20 (2017 Armada SL and Platinum)",
+   "275/50R22 (22-in wheel packages)",
+   "295/70R18 (2023 Patrol Warrior)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+40 mm (factory)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18",
+    "note": "Listed by 6061 Works as a mild upgrade, about 15 mm taller than stock. We couldn't verify an owner consensus for anything bigger."
+   },
+   {
+    "lift": "29 mm (Warrior)",
+    "size": "295/70R18",
+    "note": "Nissan Australia and Premcar's factory-backed combination, with re-valved HBMC."
+   },
+   {
+    "lift": "2 in",
+    "size": "295/70R18",
+    "note": "6061 Works' recommendation after a 2-in lift; offsets of +18 to +25 mm suit wider tyres."
+   },
+   {
+    "lift": "2 in + regear",
+    "size": "35 in",
+    "note": "Nissan sells front and rear crown-wheel-and-pinion sets for Y62s on 35s (Patrolapart)."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear-view camera image can be turned off",
+    "years": "2018–2019 Armada",
+    "ref": "NHTSA 19V-654",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V654000",
+    "summary": "Camera display settings could hide the rear-view image, failing FMVSS 111. Dealers updated the software."
+   },
+   {
+    "title": "Fuel pump impeller can swell and bind",
+    "years": "2020–2021 Armada (V8)",
+    "ref": "NHTSA 21V-373",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V373000",
+    "summary": "The fuel pump can fail and stall the engine. Dealers replace the fuel pump module (Nissan R21A2)."
+   },
+   {
+    "title": "Incorrect axle weight rating on certification label",
+    "years": "2020–2026 Armada with 22-in wheels",
+    "ref": "NHTSA 26V-455",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V455000",
+    "summary": "The label's gross axle weight rating is wrong, which could lead to overloading. Dealers fit new labels."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2010",
+   "change": "Y62 launched in Abu Dhabi on 13 February and on sale in the UAE from 1 April; Infiniti QX56 (Z62) brings the platform to North America",
+   "flag": "note"
+  },
+  {
+   "year": "2010–2012",
+   "change": "Early trucks: CarSwitch flags transmission valve-body issues and early fit-and-finish problems",
+   "flag": "avoid"
+  },
+  {
+   "year": "2013",
+   "change": "Patrol Y62 launched in Australia",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "First facelift (June): revised tail lights and LED headlights",
+   "flag": "note"
+  },
+  {
+   "year": "2015–2017",
+   "change": "CarSwitch's value sweet spot for used Y62s",
+   "flag": "buy"
+  },
+  {
+   "year": "2016",
+   "change": "Second-generation Armada (Y62) on sale in the US in August as a 2017 model; Series 3 Patrols get an electronic thermostat from February",
+   "flag": "note"
+  },
+  {
+   "year": "2017",
+   "change": "VQ40DE V6 for entry Middle East grades; seven-speed automatic standard across the range",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "Second Patrol facelift with a new front end and Nissan Intelligent Mobility driver aids",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Armada refresh (on sale January): new nose, 400 hp, premium fuel per EPA; Middle East 70th Anniversary edition in December",
+   "flag": "buy"
+  },
+  {
+   "year": "2023",
+   "change": "Patrol Warrior by Premcar in Australia: 50 mm lift, 295/70R18 tyres, re-valved HBMC",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Y63 unveiled in Abu Dhabi (3 September); third-generation Armada on sale in the US in December",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Patrols, Armadas, Nismos, Warriors and the Infiniti QX56/QX80 share a body and engine but differ in what they can do off-road. Check what's actually fitted.",
+  "items": [
+   {
+    "head": "Armada vs Patrol",
+    "body": "A US Armada has no locking differentials, no disconnecting sway bars and no HBMC (AutoGuide)."
+   },
+   {
+    "head": "HBMC or not",
+    "body": "HBMC trucks have hydraulic lines running to each damper. The Desert Edition used regular suspension (Wikipedia), and so did every Armada."
+   },
+   {
+    "head": "Series and parts",
+    "body": "Parts change by series. Patrolapart lists different thermostats for Series 1–2 and Series 3-on trucks (from February 2016) and two different timing chains for some 2016–2017 Series 3 trucks. Give your parts supplier the VIN."
+   },
+   {
+    "head": "Warrior",
+    "body": "Premcar's 2023 Warrior has 323 mm of ground clearance, 295/70R18 Yokohama all-terrains, a 2.5 mm steel front bash plate and a 3,620 kg GVM (4X4 Australia)."
+   },
+   {
+    "head": "Nismo",
+    "body": "The Gulf-market Nismo has a 319 kW (428 hp) V8, Bilstein dampers and 22-inch forged wheels (Wikipedia)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 kg (7,716 lb) Patrol · 8,500 lb (3,856 kg) Armada",
+   "note": "Braked; Cars.co.za, 4X4 Australia, AutoGuide"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "140 L (37 US gal)",
+   "note": "Patrol (Cars.co.za, 4X4 Australia)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "272–273 mm (10.7 in) Patrol · just over 9 in Armada · 323 mm Warrior",
+   "note": "Cars.co.za, 4X4 Australia, AutoGuide"
+  },
+  {
+   "k": "Approach / breakover / departure",
+   "v": "34.3° / 24.4° / 26.2°",
+   "note": "South African Patrol (Cars.co.za)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 13 city / 18 hwy / 15 combined (Armada 4WD) · 14.4 L/100 km ADR (Patrol)",
+   "note": "4X4 Australia averaged 15.2 L/100 km on test"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,884 kg (6,358 lb) Warrior",
+   "note": "72 kg more than the Ti it's based on (4X4 Australia)"
+  },
+  {
+   "k": "Payload",
+   "v": "736 kg (Warrior)",
+   "note": "4X4 Australia"
+  },
+  {
+   "k": "GVM",
+   "v": "3,620 kg (Warrior, +120 kg over standard)",
+   "note": "4X4 Australia"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The Y62 holds value best in the Gulf, where it's a cultural icon. We couldn't find a reliable published price guide for the US Armada, so these figures are UAE estimates.",
+  "ranges": [
+   {
+    "cond": "2010–2014 Y62 (pre-facelift)",
+    "range": "AED 55k–95k"
+   },
+   {
+    "cond": "2015–2019 Y62",
+    "range": "AED 100k–165k"
+   },
+   {
+    "cond": "2020–2022 Y62 (facelift)",
+    "range": "AED 155k–230k"
+   },
+   {
+    "cond": "2023–2025 Y62",
+    "range": "AED 220k–310k"
+   }
+  ],
+  "note": "CarSwitch's mid-2026 UAE estimates. Nismos run AED 140k–200k (2016–2019) and AED 230k+ (2020 on). Bring a Trailer has no Y62 or Armada sales to compare."
+ },
+ "docs": [
+  {
+   "name": "Nissan USA — owner's manuals and guides",
+   "url": "https://www.nissanusa.com/owners/manuals-guides.html",
+   "note": "Armada owner's manuals and maintenance guides through the owner portal."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The Y62 Patrol was never sold in the US. Its US version is the 2017–2024 Nissan Armada (and the Infiniti QX56/QX80). NHTSA's 25-year exemption counts from the date of manufacture, so the earliest 2010 Patrols become eligible around 2035, and a non-US Patrol can't be imported before then unless it meets US standards.",
+   "Japan is the reverse case: Wikipedia says the Y62 was export-only there, and most Y62s registered in Japan are reverse-imported left-hand-drive US Armadas."
+  ]
+ },
+ "production": {
+  "intro": "Nissan Shatai built the Y62 in Japan for export markets. Japan itself never got it new.",
+  "items": [
+   {
+    "k": "Built by",
+    "v": "Nissan Shatai, Japan; Armada in Kanda, Kyushu"
+   },
+   {
+    "k": "Gulf sales, FY2012",
+    "v": "More than 14,000 (up 66%), 22% of the Gulf SUV segment (The National)"
+   },
+   {
+    "k": "UAE ranking, 2024",
+    "v": "Best-selling vehicle in the UAE (Bestselling Cars Blog)"
+   },
+   {
+    "k": "US version",
+    "v": "Armada, 2017–2024 model years"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Black Special Edition",
+    "years": "2014 facelift era",
+    "note": "200 units, matte black paint, red seats and chrome details (Wikipedia)."
+   },
+   {
+    "name": "Patrol Nismo",
+    "years": "Middle East",
+    "note": "319 kW (428 hp), Bilstein dampers, 22-in forged wheels; facelifted in 2021."
+   },
+   {
+    "name": "Desert Edition",
+    "years": "Middle East",
+    "note": "400 hp V8, manually adjusted cloth seats and conventional suspension instead of HBMC."
+   },
+   {
+    "name": "70th Anniversary",
+    "years": "2021",
+    "note": "Middle East edition with a honeycomb grille and 12.3-in screen."
+   },
+   {
+    "name": "Warrior by Premcar",
+    "years": "2023",
+    "note": "Australian off-road conversion: 50 mm lift, 295/70R18 tyres, re-valved HBMC."
+   },
+   {
+    "name": "Armada Midnight Edition",
+    "years": "2021",
+    "note": "Blacked-out US Armada added with the 2021 refresh."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/",
+   "note": "Australian Patrol club with its own property, driver training and trips. All makes welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Nissan Patrol (Y62, Y63)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+   "name": "Wikipedia — Nissan Armada",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Armada"
+  },
+  {
+   "name": "4X4 Australia — Nissan Patrol Ti 2020 review",
+   "url": "https://www.4x4australia.com.au/reviews/nissan-patrol-ti-review"
+  },
+  {
+   "name": "4X4 Australia — 2023 Nissan Patrol Warrior off-road review",
+   "url": "https://www.4x4australia.com.au/reviews/2023-nissan-patrol-warrior-off-road-review"
+  },
+  {
+   "name": "Cars.co.za — Nissan Patrol (2017–2025) buyer's guide",
+   "url": "https://www.cars.co.za/motoring-news/Nissan-Patrol-2017-2025-Buyers-Guide/315827/"
+  },
+  {
+   "name": "CarSwitch — Nissan Patrol used car buyer's guide UAE 2026",
+   "url": "https://carswitch.com/newsroom/nissan-patrol-used-car-buyers-guide-uae-2026-best-model-years-price-ranges-desert-ready-checks/"
+  },
+  {
+   "name": "AutoGuide — 2017 Nissan Armada review",
+   "url": "https://www.autoguide.com/manufacturer/nissan/2017-nissan-armada-review"
+  },
+  {
+   "name": "6061 Works — Nissan Patrol Y62 wheel fitment guide",
+   "url": "https://6061works.com/blogs/wheel-guides/nissan-patrol-y62-wheel-fitment-guide"
+  },
+  {
+   "name": "SizeMyTires — 2017 Nissan Armada tire size",
+   "url": "https://www.sizemytires.com/vehicle/2017/nissan/armada"
+  },
+  {
+   "name": "Autosport Tyre World — Nissan Patrol Y62 tyre size guide",
+   "url": "https://autostw.com.au/blogs/news/nissan-patrol-y62-2013-2026-tyre-size-guide-adelaide"
+  },
+  {
+   "name": "NHTSA — Recall 19V654000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V654000"
+  },
+  {
+   "name": "NHTSA — Recall 21V373000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V373000"
+  },
+  {
+   "name": "NHTSA — Recall 26V455000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V455000"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "FuelEconomy.gov — Nissan Armada 4WD 2017–2024",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2017&year2=2024&make=Nissan&baseModel=Armada&srchtyp=ymm"
+  },
+  {
+   "name": "The National — With 66% growth, Patrol sets pace for Nissan sales in Middle East",
+   "url": "https://www.thenationalnews.com/business/with-66-growth-patrol-sets-pace-for-nissan-sales-in-middle-east-1.312906"
+  },
+  {
+   "name": "Bestselling Cars Blog — UAE full year 2024",
+   "url": "https://bestsellingcarsblog.com/2025/01/united-arab-emirates-full-year-2024-nissan-patrol-edges-past-sunny-to-sign-first-victory-in-4-years"
+  },
+  {
+   "name": "Patrolapart — Genuine Nissan thermostat 82°C, Y62 S1–2",
+   "url": "https://patrolapart.com.au/product/genuine-nissan-thermostat-82-degree-nissan-patrol-y62-s1-2"
+  },
+  {
+   "name": "Patrolapart — Genuine Nissan timing chain RH, Y62 VK56",
+   "url": "https://patrolapart.com.au/product/genuine-nissan-timing-chain-rh-nissan-patrol-y62-vk56"
+  },
+  {
+   "name": "Patrolapart — Genuine Nissan front diff gears for 35-in tyres, Y62",
+   "url": "https://patrolapart.com.au/product/genuine-nissan-front-diff-gears-cwp-suit-35-tyres-nissan-patrol-y62"
+  },
+  {
+   "name": "Nissan USA — owner's manuals and guides",
+   "url": "https://www.nissanusa.com/owners/manuals-guides.html"
+  },
+  {
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/"
+  }
+ ]
+}
