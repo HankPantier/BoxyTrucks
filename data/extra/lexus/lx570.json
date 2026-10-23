@@ -1,0 +1,338 @@
+{
+ "fitment": {
+  "stock": [
+   "285/50R20 112V on 20x8.5 alloys",
+   "275/50R21 113V XL on 21x8.5 alloys (2016+ option)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x150",
+   "lug_torque": "97 lb-ft (131 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock (AHC)",
+    "size": "≈33 in",
+    "note": "The practical limit. Even 33s meant moving the front fender liner forward about 1 in."
+   },
+   {
+    "lift": "Stock AHC + 1 in wheel spacers",
+    "size": "35x12.50R20",
+    "note": "One IH8MUD build: liner moved about 1.75 in, sidestep return trimmed, body mount reshaped. The builder recommends an effective offset of +30 to +35 mm. It's easier than on a Land Cruiser because the LX has no KDSS bar."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Seat-belt tension sensor harness",
+    "years": "2008–2019",
+    "ref": "NHTSA 18V-887",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V887",
+    "summary": "The harness can break and switch off the front passenger, knee and seat-mounted side airbags. Dealers modify or replace the belt assembly."
+   },
+   {
+    "title": "Incorrect airbag fitted",
+    "years": "2008–2013",
+    "ref": "NHTSA 17V-548",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V548",
+    "summary": "Some trucks may have the wrong driver or passenger airbag. Dealers replace the affected assemblies."
+   },
+   {
+    "title": "Accelerator pedal entrapment by floor mat",
+    "years": "2008–2011",
+    "ref": "NHTSA 11V-113",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=11V113",
+    "summary": "The pedal can stick wide open if trapped by an unsecured or incompatible mat. Dealers modify or replace the pedal and the mats."
+   },
+   {
+    "title": "Low-pressure fuel pump",
+    "years": "2014–2015",
+    "ref": "NHTSA 20V-012",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V012",
+    "summary": "The fuel pump may fail and stall the engine. Dealers replace it."
+   },
+   {
+    "title": "Low-pressure fuel pump (expansion)",
+    "years": "2018–2019",
+    "ref": "NHTSA 20V-682",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V682",
+    "summary": "Same pump failure on later trucks. Dealers fit an improved assembly."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2008",
+   "change": "Debuts in April 2007 at the New York show. 3UR-FE 5.7 V8 (383 hp), AB60F six-speed, Torsen center diff, double-wishbone front, six-height AHC, Crawl Control and a frame-integrated hitch rated to 8,500 lb.",
+   "flag": "note"
+  },
+  {
+   "year": "2008–2010",
+   "change": "Most of the radiator-crack reports come from these years, and owners say 2008s had water-pump issues.",
+   "flag": "avoid"
+  },
+  {
+   "year": "2011",
+   "change": "Mild facelift with a new front bumper. First year of the heated steering wheel.",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "No US model year. 2011 production ran late and 2013 started early.",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "First spindle-grille facelift. Five-speed Crawl Control, Multi-Terrain Select and Turn Assist.",
+   "flag": "buy"
+  },
+  {
+   "year": "2016",
+   "change": "Major refresh (only the doors and roof carry over). AE80F eight-speed, all-new interior, all-speed radar cruise and optional 21-in wheels.",
+   "flag": "buy"
+  },
+  {
+   "year": "2018",
+   "change": "Two-row, five-seat version available.",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "Inspiration Series: 500 trucks, all black.",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Sport package (three-row models only).",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Final year, with a second 500-unit Inspiration Series. Production ends in October 2021.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The LX 570 shares everything that matters with the 200 Series Land Cruiser, so check the facelift, the drivetrain generation and whether it's one of the limited Inspiration trucks.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JTJ and carry 7AX in positions 6–8 (e.g. JTJHY7AX). NHTSA's vPIC decoder reads the series as URJ201L with the 3UR-FE, built at Toyota Auto Body's Yoshiwara plant. The 10th character is the model year (8 = 2008 through M = 2021, with no C for 2012)."
+   },
+   {
+    "head": "Which facelift",
+    "body": "2008–2011: original nose. 2013–2015: first spindle grille. 2016–2021: big spindle, new sheet metal, eight-speed and a new interior."
+   },
+   {
+    "head": "Seating",
+    "body": "Two-row, five-seat trucks exist only from 2018 on."
+   },
+   {
+    "head": "Inspiration Series",
+    "body": "2019: 500 trucks in Black Onyx with a Moonlight white interior and blacked-out trim. 2021: 500 trucks in Eminent White Pearl or Black Onyx with black-and-Rioja-red leather."
+   },
+   {
+    "head": "No axle lockers",
+    "body": "US trucks have a lockable Torsen center diff, A-TRAC and Crawl Control, but no factory front or rear lockers. Any locker is aftermarket."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "8,500 lb (3,855 kg)",
+   "note": "frame-integrated hitch"
+  },
+  {
+   "k": "Roof load",
+   "v": "154 lb (70 kg)",
+   "note": "roof luggage carrier limit, owner's manual"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "24.5 US gal (93 L)",
+   "note": "premium fuel"
+  },
+  {
+   "k": "Ride height range",
+   "v": "AHC: about +3 in / −2 in from normal"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 18 hwy / 14 combined (2008)",
+   "note": "13 / 18 / 15 for 2016; 12 / 16 / 14 for 2020"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices split by facelift. Early trucks are bargain Land Cruisers, and low-mile 2016–2021 trucks still trade near their original sticker.",
+  "ranges": [
+   {
+    "cond": "2008–2011",
+    "range": "$15k–31k"
+   },
+   {
+    "cond": "2013–2015",
+    "range": "$32k–62k"
+   },
+   {
+    "cond": "2016–2021, low mileage",
+    "range": "$70k–83k"
+   },
+   {
+    "cond": "Inspiration Series",
+    "range": "≈$98k"
+   }
+  ],
+  "note": "Based on 17 Bring a Trailer LX 570 sales from May to October 2026, from $15,250 (2010) to $98,500 (a 5,000-mile 2019 Inspiration Series). Several 2013–2017 trucks were bid to $17k–49k without selling."
+ },
+ "docs": [
+  {
+   "name": "LX 570 owner's manual (OM60P32U, PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60P32U/pdf/OM60P32U.pdf",
+   "note": "Lexus-hosted, covers the 2016-on 20- and 21-in wheel trucks. Includes specifications and capacities"
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Toyota's official subscription site for Toyota and Lexus repair manuals, wiring diagrams and TSBs. Coverage varies by model year, so check yours"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Lexus's owner portal for manuals and warranty guides"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official online parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "Built at Toyota Auto Body's Yoshiwara plant from November 2007 to October 2021.",
+  "items": [
+   {
+    "k": "Built",
+    "v": "November 2007 – October 2021"
+   },
+   {
+    "k": "US sales",
+    "v": "≈65,500 (calendar 2008–2021)"
+   },
+   {
+    "k": "Best year",
+    "v": "7,915 (2008)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Inspiration Series",
+    "years": "2019",
+    "note": "500 trucks, all black"
+   },
+   {
+    "name": "Inspiration Series",
+    "years": "2021",
+    "note": "500 trucks, roughly half black and half Eminent White Pearl"
+   },
+   {
+    "name": "Sport package",
+    "years": "2020",
+    "note": "Sport grille and fascia; three-row models only"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus LX and GX owners, with regional chapters across the US"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA — Recall 18V-887",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V887"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus LX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "Slee Off-Road — 200 Series Newbie Guide (incl. LX570 year-by-year)",
+   "url": "https://sleeoffroad.com/tech-zone/200-series-newbie-guide/"
+  },
+  {
+   "name": "Lexus — LX 570 owner's manual (OM60P32U)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60P32U/pdf/OM60P32U.pdf"
+  },
+  {
+   "name": "wheel-size.com — Lexus LX [1998–2021] with 5x150 bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/5x150/lexus/lx/1998-2021/"
+  },
+  {
+   "name": "IH8MUD — Fitting Full Fat 35x12.5 on an LX",
+   "url": "https://forum.ih8mud.com/threads/fitting-full-fat-35x12-5-on-an-lx.1227030/"
+  },
+  {
+   "name": "FuelEconomy.gov — 2008 Lexus LX 570",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=25042"
+  },
+  {
+   "name": "FuelEconomy.gov — 2020 Lexus LX 570",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41976"
+  },
+  {
+   "name": "FuelEconomy.gov — 2016 Lexus LX",
+   "url": "https://www.fueleconomy.gov/feg/bymodel/2016_Lexus_LX.shtml"
+  },
+  {
+   "name": "IH8MUD — 2008–2018 Radiator Failure and Public Service Announcement",
+   "url": "https://forum.ih8mud.com/threads/2008-2018-radiator-failure-and-public-service-announcement.917447/"
+  },
+  {
+   "name": "Bring a Trailer — Lexus LX570 auction results",
+   "url": "https://bringatrailer.com/lexus/lx570/"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}

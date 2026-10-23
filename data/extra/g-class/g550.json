@@ -1,0 +1,385 @@
+{
+ "fitment": {
+  "stock": [
+   "265/60R18 (2012 base)",
+   "275/55R19 (2018)",
+   "275/50R20 (option)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 bolts",
+   "lug_torque": "96 lb-ft (130 N·m)",
+   "offset": "ET35–50 compatible range"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 (≈33 in)",
+    "note": "A 2014 G 550 owner on Expedition Portal ran KO2s in this size with no rubbing at full flex; 285/65R18 can rub slightly at full left lock. Later trucks' calipers may not clear every 18-inch wheel. Re-code the tire size"
+   },
+   {
+    "lift": "2.5 in (60 mm)",
+    "size": "33 in",
+    "note": "Eurowise's recommended maximum; minor wheel-well trimming on 2013–2018 G 550s"
+   },
+   {
+    "lift": "4 in (100 mm)",
+    "size": "35 in",
+    "note": "Eurowise's recommendation for its 100 mm kit (listed for 2009–2015 G 550). Above 4 in, extended brake lines are required; expect the speedometer to read 5–8 mph off until re-coded and DISTRONIC to be affected"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel line quick connectors",
+    "years": "2009",
+    "ref": "NHTSA 09V453",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=09V453000",
+    "summary": "Underbody fuel-line quick connectors may not be fully seated; dealers check them and fit a securing clamp. 352 trucks"
+   },
+   {
+    "title": "Front turn signals behind grille covers (FMVSS 108)",
+    "years": "2002–2010",
+    "ref": "NHTSA 10V366",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000",
+    "summary": "Grille covers can reduce turn-signal output over time; dealers fit improved turn-signal units"
+   },
+   {
+    "title": "Passenger airbag molding strip",
+    "years": "2011",
+    "ref": "NHTSA 12V380",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12V380000",
+    "summary": "On trucks built Sept 2010–Apr 2011, molding-strip parts can come loose when the passenger airbag deploys"
+   },
+   {
+    "title": "Steering coupling",
+    "years": "2013–2016",
+    "ref": "NHTSA 17V250",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V250000",
+    "summary": "Insufficiently tightened steering coupling can wear; dealers replace it. 10,832 G 550, G 63 and G 65s"
+   },
+   {
+    "title": "Inner door-handle release cable",
+    "years": "2016",
+    "ref": "NHTSA 17V178",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V178000",
+    "summary": "The cable that unlatches the door from inside may break if the door is hard to open, e.g. after a crash"
+   },
+   {
+    "title": "ESP with DISTRONIC PLUS",
+    "years": "2016–2017",
+    "ref": "NHTSA 17V713",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V713000",
+    "summary": "An ESP malfunction with DISTRONIC PLUS engaged may stop the engine reducing power; 8,043 trucks"
+   },
+   {
+    "title": "Brake booster vacuum hose",
+    "years": "2017",
+    "ref": "NHTSA 17V817",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V817000",
+    "summary": "Vacuum hose for the brake booster may collapse, increasing pedal effort; includes the G 550 4×4²"
+   },
+   {
+    "title": "Emergency-call date/time software",
+    "years": "2013–2017",
+    "ref": "NHTSA 19V787",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000",
+    "summary": "eCall software fault can send an inaccurate location"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2007",
+   "change": "US G 500 starts switching from the 722.6 five-speed to the 722.9 seven-speed; HID headlamps, reversing camera, new cluster and COMAND APS",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "G 550 replaces the G 500 in the US with the 5.5-litre M273 V8 (382 hp) and seven-speed automatic",
+   "flag": "note"
+  },
+  {
+   "year": "2009–2010",
+   "change": "No factory trailer hitch offered, the first G model years without native towing hardware. Avoid them if you plan to tow",
+   "flag": "avoid"
+  },
+  {
+   "year": "2013",
+   "change": "Biggest interior update in years: ML-Class-derived dashboard with COMAND moved up, LED daytime lamps, new mirrors, DISTRONIC and blind-spot assist (2012 update, MY2013 in the US)",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "4.0-litre M176 twin-turbo V8 (416 hp, 450 lb-ft) replaces the M273; 7G-TRONIC PLUS; $119,900 base",
+   "flag": "note"
+  },
+  {
+   "year": "2017",
+   "change": "G 550 4×4² joins the US range",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "Final model year of the original W463; the redesigned G arrives for MY2019",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Many G 550s wear AMG bumpers, badges and wheels, and the M273 and M176 trucks look much the same. The VIN separates them.",
+  "items": [
+   {
+    "head": "VIN characters 4–8",
+    "body": "Bring a Trailer examples decoded with NHTSA's vPIC tool: 2010–2014 G 550 (5.5 V8) = WDCYC3HF…, 2016 G 550 (4.0 twin-turbo) = WDCYC3KF…, 2018 G 550 = WDCYC3KH…. A 2015 G 63 AMG reads WDCYC7DF…, so a 'G 63' with a YC3 VIN is a dressed-up G 550."
+   },
+   {
+    "head": "4×4² versus regular G 550",
+    "body": "The 2017–2018 G 550 4×4² decodes as WDCYC5FF… / WDCYC5FH…, not YC3. A portal-axle truck without a YC5F VIN is an aftermarket conversion."
+   },
+   {
+    "head": "Model year (10th character)",
+    "body": "The 10th character gives the model year (A = 2010, C = 2012, E = 2014, G = 2016, J = 2018). 2009–2015 trucks have the M273 5.5; 2016–2018 have the M176 twin-turbo."
+   },
+   {
+    "head": "Engine bay",
+    "body": "The M273 is a naturally aspirated V8; the M176 has twin turbos inside the vee. A quick look settles which engine it is."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,000 lb (3,175 kg)",
+   "note": "braked; 2012 and 2018 G 550. 2009–2010 had no factory hitch"
+  },
+  {
+   "k": "Payload",
+   "v": "1,334 lb (605 kg)",
+   "note": "2018 G 550"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.4 US gal (96 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.3 in (236 mm)",
+   "note": "MBUSA 2017 press kit; the 2018 spec sheet lists 8.1 in at maximum load"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "30° / 30° / 24°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "23.6 in (600 mm)"
+  },
+  {
+   "k": "Max tilt angle",
+   "v": "28.4°"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 15 hwy / 13 comb (2012); 13 / 14 / 13 (2016)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,724 lb (2,596 kg)",
+   "note": "2016–2018"
+  },
+  {
+   "k": "Turning circle",
+   "v": "44.6 ft (13.6 m)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices depend mostly on mileage and condition. Model year and engine matter less, and 2016–2018 twin-turbo trucks don't consistently beat good 2013–2015 trucks.",
+  "ranges": [
+   {
+    "cond": "High mileage / needs work",
+    "range": "$26k–45k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$45k–65k"
+   },
+   {
+    "cond": "Excellent / under ~50k miles",
+    "range": "$65k–97k"
+   }
+  ],
+  "note": "Based on 70 Bring a Trailer sales of 2009–2018 G 550s (not 4×4²) from January 2025 to October 2026, median about $63,000. The lowest was a 2010 at $26,000 and the highest a 49k-mile 2014 at $96,550."
+ },
+ "docs": [
+  {
+   "name": "Owner's manuals (Mercedes-Benz USA)",
+   "url": "https://www.mbusa.com/en/owners/manuals",
+   "note": "Free owner's manuals from MBUSA; pick the G-Class and model year"
+  },
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "production": {
+  "intro": "Mercedes doesn't publish production figures by model, but its US press material gives some G-Class totals.",
+  "items": [
+   {
+    "k": "G-Class deliveries 1979–2016",
+    "v": "More than 250,000 (MBUSA)"
+   },
+   {
+    "k": "G-Class sales in 2014",
+    "v": "Over 14,000 worldwide"
+   },
+   {
+    "k": "Built",
+    "v": "Graz, Austria"
+   },
+   {
+    "k": "2016 G 550 base MSRP",
+    "v": "$119,900"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Edition Select",
+    "years": "2011–2012",
+    "note": "Final-edition-style trim applied to the five-door G 500 / G 550"
+   },
+   {
+    "name": "G 550 Night Edition",
+    "years": "2013–2015",
+    "note": "Japan only; 100 built in black with titanium-grey wheels"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl mountain near Graz, Austria, where the G is built and tested"
+  },
+  {
+   "kind": "event",
+   "name": "Overland Expo",
+   "url": "https://www.overlandexpo.com/",
+   "note": "Multi-brand overland show with training and trail sessions; plenty of Gs among the Land Cruisers"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recall flat files (FLAT_RCL), Office of Defects Investigation",
+   "url": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip"
+  },
+  {
+   "name": "NHTSA — recalls API (campaign lookup)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=23V097000"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "Limitless Tire — 2012 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2012/"
+  },
+  {
+   "name": "Limitless Tire — 2017 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2017/"
+  },
+  {
+   "name": "Eurowise — W463 2.5-inch (60 mm) lift kit",
+   "url": "https://shop.eurowise.com/products/w463liftkit60mm"
+  },
+  {
+   "name": "Eurowise — W463 2.5–5.5-inch lift kits (60/100 mm)",
+   "url": "https://shop.eurowise.com/products/w463100mm"
+  },
+  {
+   "name": "Expedition Portal — 2014 G 550 on 275/70R18",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2136416"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2017 G-Class press release (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/Press-Release-2017-G550.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA media — 2018 G550 specifications",
+   "url": "https://media.mbusa.com/releases/release-f64df5efcf40bb28fb4d418ddc1b54bf-specs-2018-g550"
+  },
+  {
+   "name": "autofiles — 2012 Mercedes-Benz G-Class",
+   "url": "https://autofiles.com/mercedes-benz/g-class/2012/"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G500 4×4²",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G500_4%C3%974%C2%B2"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class 1991–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "name": "Bring a Trailer — 2014 G550 (VIN)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g550-32/"
+  },
+  {
+   "name": "Bring a Trailer — 2016 G550 (VIN)",
+   "url": "https://bringatrailer.com/listing/2016-mercedes-benz-g550-45/"
+  },
+  {
+   "name": "Bring a Trailer — 2018 G550 (VIN)",
+   "url": "https://bringatrailer.com/listing/2018-mercedes-benz-g550-9/"
+  },
+  {
+   "name": "Bring a Trailer — 2015 G63 AMG (VIN)",
+   "url": "https://bringatrailer.com/listing/2015-mercedes-benz-g63-amg-25/"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Mercedes-Benz USA — Owner's manuals",
+   "url": "https://www.mbusa.com/en/owners/manuals"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "duPont Registry — Mercedes-Benz G-Class Experience",
+   "url": "https://news.dupontregistry.com/blogs/g-class/mercedes-benz-g-class-experience"
+  }
+ ]
+}

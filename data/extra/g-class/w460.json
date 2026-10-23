@@ -1,0 +1,265 @@
+{
+ "fitment": {
+  "stock": [
+   "205 R16 or 215/80R16 on 16x5.5 steel wheels, depending on model"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "offset": "ET63 or ET38 on the factory 16x5.5 fitments",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "235/85R16 (≈32 in)",
+    "note": "An Expedition Portal owner runs 235/85R16s on standard steel wheels on a short-wheelbase G. Many owners stay near 215/85R16 because the naturally aspirated diesels struggle with bigger tires. For 33s, plan on lift springs."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": []
+ },
+ "timeline": [
+  {
+   "year": "1979",
+   "change": "W460 goes on sale in September with petrol and diesel engines and short- and long-wheelbase bodies, hand-built in Graz",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Deliveries to the German riot police and Federal Border Guard; a 230 G Cabriolet becomes the Popemobile",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "Automatic gearbox, air conditioning, auxiliary fuel tank, headlamp guards and winch added to the options list",
+   "flag": "note"
+  },
+  {
+   "year": "1982",
+   "change": "Fuel-injected 230 GE replaces the carburetted 230 G; Swiss Army tender won",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "Jacky Ickx and Claude Brasseur win the Paris–Dakar car category in a 280 GE",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Front and rear differential locks, central locking and a tachometer become standard",
+   "flag": "buy"
+  },
+  {
+   "year": "1986",
+   "change": "More than 50,000 G models built; Italy-market 200 GE added",
+   "flag": "note"
+  },
+  {
+   "year": "1990",
+   "change": "The civilian W463 takes over; the military and commercial line continues as the W461",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "W460 production ends",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Many W460s have been re-engined, converted or federalised. Make sure the truck is the model, year and spec the seller says it is.",
+  "items": [
+   {
+    "head": "Chassis number",
+    "body": "Chassis numbers on Bring a Trailer-sold W460s start with the 460 model code: a 1986 300 GD is WDB460333…, a 1984 230 GE Cabriolet WDB460218…. Earlier trucks often show the number without the WDB prefix (e.g. 460333…)."
+   },
+   {
+    "head": "Lockers",
+    "body": "Mercedes made front and rear diff locks standard on every W460 from 1985, so earlier trucks may not have them. Look for the locker control on the dash and the slave cylinders on the axles. A W460 never has a centre lock."
+   },
+   {
+    "head": "Part-time 4WD",
+    "body": "The front axle is engaged by lever through the transfer case, with high and low range. Permanent 4WD means you're looking at a W463 or a W461 with W463 running gear."
+   },
+   {
+    "head": "Engine swaps",
+    "body": "Turbodiesel OM603/OM606 and even GM V8 swaps turn up regularly on Bring a Trailer. BaT has sold OM606-powered 300 GDs for $69,696 and $79,500. Check the engine number against the model badge and know what you're paying for."
+   },
+   {
+    "head": "Puch badging",
+    "body": "In Austria and some other markets the G was sold as a Puch. A Puch-badged truck is still a G, just with a different badge (and on Puch W461s, a VAG chassis prefix)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Top speed",
+   "v": "79 mph (127 km/h) 300 GD; 103 mph (165 km/h) 280 GE",
+   "note": "factory figures via Wikipedia"
+  },
+  {
+   "k": "0–100 km/h",
+   "v": "27 s (300 GD); 14 s (280 GE); 32 s (240 GD)"
+  },
+  {
+   "k": "Power / torque",
+   "v": "88 PS / 172 N·m (300 GD); 158 PS / 226 N·m (280 GE)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "11.7–18.8 L/100 km (12.5–20 mpg US) 300 GD; 14.0–22.4 L/100 km (10.5–16.8 mpg US) 280 GE",
+   "note": "Mercedes cycle figures"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm) long wheelbase"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Diesel W460s are now proper US collector trucks. Rust, records and engine swaps make a bigger difference to the price than which model it is.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$11k–25k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$25k–45k"
+   },
+   {
+    "cond": "Excellent, restored or OM606-swapped",
+    "range": "$45k–86k"
+   }
+  ],
+  "note": "Based on 34 sold Bring a Trailer auctions from January 2025 to October 2026 ($11,550–$86,000, median about $32,000). For UK reference, Classic & Sports Car's guide puts pre-1990 hardtops at £5,000 (restoration), £14,000 (average) and £27,000+ (show), and soft-tops at £12,000, £30,000 and £75,000+."
+ },
+ "docs": [
+  {
+   "name": "Mercedes-Benz XENTRY WIS / WIS Classic",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis",
+   "note": "Official Mercedes repair information via B2B Connect; WIS Classic holds older-series literature, so check coverage for your model before you buy access"
+  },
+  {
+   "name": "Mercedes-Benz Classic digital vehicle data card",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/",
+   "note": "Covers most cars built 1986–2010, so later W460s only; €130 through the Mercedes-Benz Classic Store"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Mercedes never sold the W460 new in the US. Grey-market specialists federalised some in the 1980s, until the 1988 Imported Vehicle Safety Compliance Act made that much harder. Every W460 is now more than 25 years old, and NHTSA lets any vehicle that old be imported, counted from its date of manufacture and declared under Box 1 of the HS-7 form. Check your state's titling and emissions rules before you buy one abroad."
+  ]
+ },
+ "production": {
+  "intro": "The W460 was built in Graz from 1979 to 1991, and more than 50,000 Gs were built in its first seven years.",
+  "items": [
+   {
+    "k": "G models built by 1986",
+    "v": "Over 50,000"
+   },
+   {
+    "k": "Built",
+    "v": "1979–1991, Graz, Austria"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Popemobile (230 G Cabriolet)",
+    "years": "1980",
+    "note": "Built for Pope John Paul II's first visit to Germany"
+   },
+   {
+    "name": "200 GE (Italy)",
+    "years": "1986–1991",
+    "note": "Tax-special 2.0-litre; Wikipedia records 64 Cabriolets"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Unimog meets G-Class",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
+   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, with historic G-Class displays, off-road demos and recovery courses; 2026 edition held 5–6 September"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Licensed G-Class centre near Graz; its G Base hosts a G-Class history exhibition"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Tire Wheel Guide — 1985 Mercedes-Benz G-Class tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/mercedes/g-class/1985/"
+  },
+  {
+   "name": "Expedition Portal — Tires for 300GD",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1767327"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Mercedes-Benz G-Class — Milestones of development",
+   "url": "https://ggb.mercedes-benz.com/en/success-stories/milestones-of-development"
+  },
+  {
+   "name": "Classic & Sports Car — Buyer's guide: Mercedes-Benz G-Wagen",
+   "url": "https://classicandsportscar.com/node/55200"
+  },
+  {
+   "name": "Bring a Trailer — W460 Geländewagen results",
+   "url": "https://bringatrailer.com/mercedes-benz/w460-gelandewagen/"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect — XENTRY WIS (incl. WIS Classic)",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis"
+  },
+  {
+   "name": "Driven Car Guide — Mercedes now sells digital 'birth certificates' for modern classics (Aug 2026)",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
+  },
+  {
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "Bring a Trailer — 1986 Mercedes-Benz 300GD (chassis number)",
+   "url": "https://bringatrailer.com/listing/1986-mercedes-benz-300gd-13/"
+  },
+  {
+   "name": "Bring a Trailer — 1984 Mercedes-Benz 230GE Cabriolet (chassis number)",
+   "url": "https://bringatrailer.com/listing/1984-mercedes-benz-230ge/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Mercedes-Benz 280GE (chassis number)",
+   "url": "https://bringatrailer.com/listing/1985-mercedes-benz-280ge-12/"
+  },
+  {
+   "name": "Bring a Trailer — 1993 Puch 230GE (chassis number)",
+   "url": "https://bringatrailer.com/listing/1993-puch-230ge-6/"
+  },
+  {
+   "name": "Expedition Portal — Lockers: what type do the G-Wagens come with?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1291561"
+  },
+  {
+   "name": "IH8MUD — Diesel G-Wagen",
+   "url": "https://forum.ih8mud.com/threads/diesel-gwagen.1304478"
+  }
+ ]
+}

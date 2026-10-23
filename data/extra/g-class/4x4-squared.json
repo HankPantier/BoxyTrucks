@@ -1,0 +1,309 @@
+{
+ "fitment": {
+  "stock": [
+   "325/55R22 on 9.5x22 wheels (≈36 in)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock (portal axles)",
+    "size": "37x12.5R18 mud-terrain",
+    "note": "Mercedes said 37x12.5x18 mud-terrains would be available for production trucks, and the Geneva show car ran 37-inch tires on beadlocks. Check caliper clearance before going to 18-inch wheels, and re-code the tire size"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Brake booster vacuum hose",
+    "years": "2017",
+    "ref": "NHTSA 17V817",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V817000",
+    "summary": "Vacuum hose for the brake booster may collapse, increasing braking effort; covers 2017 G 550 and G 550 4×4²"
+   },
+   {
+    "title": "Rear axle differential housing (G 63 4×4², second generation)",
+    "years": "2022",
+    "ref": "NHTSA 22V937",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V937000",
+    "summary": "Rear diff housing may crack and leak or break, causing loss of rear-wheel control; owners told not to drive until inspected"
+   },
+   {
+    "title": "Rear axle differential housing (G 63 4×4², second generation)",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V851",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V851000",
+    "summary": "Further rear diff housing cracking campaign for 2022–2023 G 63 4×4²; do not drive until repaired"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2013",
+   "change": "G 63 AMG 6×6 introduced. Its portal-axle running gear is the basis for the 4×4²; just over 100 sold, last delivery May 2015",
+   "flag": "note"
+  },
+  {
+   "year": "2015",
+   "change": "G 500 4×4² goes into production after a positive reaction to the concept car; four-litre twin-turbo V8, KW dual-spring suspension",
+   "flag": "note"
+  },
+  {
+   "year": "2017",
+   "change": "Sold in the US for MY2017 as the G 550 4×4² at $225,000 plus $925 destination; deliveries from early 2017",
+   "flag": "note"
+  },
+  {
+   "year": "2017",
+   "change": "Mercedes-Maybach G 650 Landaulet inherits the portal axles; 99 built",
+   "flag": "note"
+  },
+  {
+   "year": "Oct 2017",
+   "change": "Ordering closes ahead of the second-generation G; some US trucks are titled as 2018 models",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Mercedes-AMG G 63 4×4² revives the idea on the new G, with portal axles and independent front suspension",
+   "flag": "note"
+  },
+  {
+   "year": "2022–2023",
+   "change": "Rear differential housing recalls (22V937, 23V851) on the new G 63 4×4²; check the VIN",
+   "flag": "avoid"
+  }
+ ],
+ "identify": {
+  "intro": "Shops build 4×4² lookalikes from ordinary Gs, and some aftermarket portal-axle conversions are serious builds. Only a factory truck has the matching VIN.",
+  "items": [
+   {
+    "head": "VIN characters 4–8",
+    "body": "Bring a Trailer's US 4×4²s decode in NHTSA's vPIC as WDCYC5FF… (2017) and WDCYC5FH… (2018; vPIC series 'G550 4x4'). A regular 2016–2018 G 550 reads WDCYC3KF… / WDCYC3KH…."
+   },
+   {
+    "head": "Model year",
+    "body": "The 10th character is H for 2017 and J for 2018. US trucks were sold as 2017 models, and some were titled as 2018s."
+   },
+   {
+    "head": "Track and tires",
+    "body": "Factory trucks run 325/55R22 tires on 9.5x22 wheels, and the front track is about 9 in wider (rear about 10 in) than a standard G, with carbon-fibre arch extensions to cover it."
+   },
+   {
+    "head": "Suspension",
+    "body": "Factory trucks have KW-developed dual-spring struts with adjustable damping at each corner, and a Comfort/Sport damper switch inside. Portal hubs without that suspension point to a conversion."
+   },
+   {
+    "head": "Window sticker and data card",
+    "body": "Ask for the Monroney label and the Mercedes data card. The US MSRP was $225,000 before options."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Ground clearance",
+   "v": "17.24 in (438 mm)",
+   "note": "at maximum load, US spec; Europe quotes 450 mm"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "51.6° / 43.8° / 44.6°",
+   "note": "breakover at maximum load; launch release quoted 47.4°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "39.4 in (1,000 mm)"
+  },
+  {
+   "k": "Max tilt angle",
+   "v": "28.4°"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.4 US gal (96 L)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 11 city / 11 hwy / 11 comb"
+  },
+  {
+   "k": "Curb weight",
+   "v": "6,694 lb (3,036 kg)"
+  },
+  {
+   "k": "Turning circle",
+   "v": "46.9 ft (14.3 m)"
+  },
+  {
+   "k": "Height / width",
+   "v": "88.0 in / 86.2 in with mirrors"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "US 4×4² prices have come down from their 2023–24 levels, though they still cost about twice as much as a regular late G 550.",
+  "ranges": [
+   {
+    "cond": "Driver (25k–35k miles)",
+    "range": "$97k–135k"
+   },
+   {
+    "cond": "Low mileage",
+    "range": "$135k–155k"
+   },
+   {
+    "cond": "Second-gen G 63 4×4² (2022–23)",
+    "range": "$234k–300k"
+   }
+  ],
+  "note": "Based on seven Bring a Trailer sales of 2017–2018 G 550 4×4²s from January 2025 to October 2026 ($97,500–154,000). In 2023–24 the same trucks made $148,500–222,000, including a 47-mile 2018 at $222,000. The second-generation range comes from 12 G 63 4×4² sales in 2025–26."
+ },
+ "docs": [
+  {
+   "name": "Owner's manuals (Mercedes-Benz USA)",
+   "url": "https://www.mbusa.com/en/owners/manuals",
+   "note": "Free owner's manuals from MBUSA; pick the G-Class and model year"
+  },
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "production": {
+  "intro": "Mercedes never published a 4×4² production total. It was built from 2015 until orders closed in October 2017.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "2015–2017 (Graz)"
+   },
+   {
+    "k": "US MSRP",
+    "v": "$225,000 + $925 destination (MY2017)"
+   },
+   {
+    "k": "Germany price",
+    "v": "€231,693"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Mercedes-Maybach G 650 Landaulet",
+    "years": "2017",
+    "note": "V12 open-rear limousine on the 4×4²'s portal axles and raised suspension; 99 built at €749,700"
+   },
+   {
+    "name": "G 63 AMG 6×6",
+    "years": "2013–2015",
+    "note": "Six-wheeled donor of the portal running gear; just over 100 sold, never offered in the US"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl mountain near Graz, Austria, where the G is built and tested"
+  },
+  {
+   "kind": "event",
+   "name": "Overland Expo",
+   "url": "https://www.overlandexpo.com/",
+   "note": "Multi-brand overland show with training and trail sessions; plenty of Gs among the Land Cruisers"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recall flat files (FLAT_RCL), Office of Defects Investigation",
+   "url": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip"
+  },
+  {
+   "name": "NHTSA — recalls API (campaign lookup)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=23V097000"
+  },
+  {
+   "name": "Mercedes-Benz USA media — 2017 G550 4x4² specifications",
+   "url": "https://media.mbusa.com/releases/release-fc483f18cd5c416fb48fd55525c428bc-2017-mercedes-benz-g550-specifications"
+  },
+  {
+   "name": "Mercedes-Benz USA media — The 2017 Mercedes-Benz G550 4x4²",
+   "url": "https://media.mbusa.com/releases/release-55766a69234744b79ccb54ae18a3b4d2-the-2017-mercedes-benz-g550-4x4"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2017 G-Class press release (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/Press-Release-2017-G550.pdf"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G500 4×4²",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G500_4%C3%974%C2%B2"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "GwagenParts — Mercedes-Benz G550 4×4² production comes to an end",
+   "url": "https://www.gwagenparts.com/?p=8437"
+  },
+  {
+   "name": "Expedition Portal — Mercedes solves the equation with G500⁴×⁴²",
+   "url": "https://expeditionportal.com/mercedes-solves-the-equation-with-g500%c2%b2/"
+  },
+  {
+   "name": "CAR magazine (SA) — Mercedes-Benz calls time on G500 4x4²",
+   "url": "https://www.carmag.co.za/news_post/say-farewell-mercedes-benz-calls-time-on-g500-4x4%C2%B2/"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class 1991–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "name": "Bring a Trailer — G-Class AMG 2019-on (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-2019/"
+  },
+  {
+   "name": "Bring a Trailer — 2017 G550 4×4² (VIN)",
+   "url": "https://bringatrailer.com/listing/2017-mercedes-benz-g550-4x4%c2%b2-3/"
+  },
+  {
+   "name": "Bring a Trailer — 2018 G550 4×4² (VIN)",
+   "url": "https://bringatrailer.com/listing/2018-mercedes-benz-g550-4x4%c2%b2-3/"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Mercedes-Benz USA — Owner's manuals",
+   "url": "https://www.mbusa.com/en/owners/manuals"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  }
+ ]
+}

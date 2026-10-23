@@ -1,0 +1,227 @@
+{
+ "fitment": {
+  "stock": [
+   "P275/70R16"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R16 (≈33 in)",
+    "note": "The usual answer on healthy stock-height springs. Some rubbing is possible at full flex or full lock, and anything bigger starts rubbing."
+   },
+   {
+    "lift": "2 in (Old Man Emu)",
+    "size": "35 in",
+    "note": "Possible, but expect to rub when crawling unless you lower the bump stops. Plan to regear from the stock 4.11s to 4.56, 4.88 or 5.29."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": []
+ },
+ "timeline": [
+  {
+   "year": "Nov 1995",
+   "change": "Production starts in Toyota City. The LX 450 is essentially an FZJ80 Land Cruiser with a new grille, side cladding, wheels, a plusher interior and softer suspension.",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "US sales start in January 1996 at a $47,995 base price, about $7,000 over the Land Cruiser. Over 5,000 sold in the first year. Fully OBD-II compliant.",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "Final year. Over 9,000 sold, and Canada gets the LX in place of the Land Cruiser.",
+   "flag": "note"
+  },
+  {
+   "year": "Dec 1997",
+   "change": "Production ends. The V8 LX 470 debuts at the Los Angeles show the same month.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "An LX 450 is an 80 Series Land Cruiser in a suit, so the real questions are whether it's a genuine LX and what options it left the factory with.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JT6HJ88J. NHTSA's vPIC decoder reads the series as FZJ80L with the 1FZ-FE 4.5 I6, built in Toyota City. The 10th character is the model year (T = 1996, V = 1997)."
+   },
+   {
+    "head": "LX vs Land Cruiser",
+    "body": "From the outside, only the grille, the side body cladding and the wheels differ from an FZJ80. Inside, look for the LX's leather and extra sound insulation."
+   },
+   {
+    "head": "Factory lockers",
+    "body": "Electric front and rear lockers were one of only three factory options. Trucks that have them have locker controls on the dash. Test both in low range on a loose surface."
+   },
+   {
+    "head": "Center diff lock",
+    "body": "The center diff locks automatically in low range. US trucks from 1993 lost the high-range switch but kept the wiring, so a plug-in CDL switch can add it back."
+   },
+   {
+    "head": "Lug nuts",
+    "body": "From 1995 the 80 Series switched from conical to washer-type lug nuts, so make sure the nuts match the wheels on a truck with aftermarket rims."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,268 kg)",
+   "note": "use a frame-mounted receiver"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.1 US gal (95 L)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 14 hwy / 13 combined",
+   "note": "regular fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,970 lb (2,255 kg)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices follow the 80 Series Land Cruiser market. Locked, well-documented, unmodified trucks bring the most.",
+  "ranges": [
+   {
+    "cond": "Project / modified",
+    "range": "$8k–17k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$17k–30k"
+   },
+   {
+    "cond": "Excellent",
+    "range": "$35k–50k+"
+   }
+  ],
+  "note": "Based on the 23 most recent Bring a Trailer LX 450 sales (March–October 2026), which ranged from $8,300 to $67,500 with a median of about $26,000."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Toyota's official subscription site for Toyota and Lexus repair manuals, wiring diagrams and TSBs. Coverage varies by model year, so check yours"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Lexus's owner portal for manuals and warranty guides"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official online parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "A two-model-year rush job, prompted by the threat of US tariffs on Japanese luxury cars, that turned out to be Lexus's first SUV.",
+  "items": [
+   {
+    "k": "Built",
+    "v": "November 1995 – December 1997"
+   },
+   {
+    "k": "US sales",
+    "v": "5,000+ (1996) · 9,000+ (1997)"
+   },
+   {
+    "k": "Launch price",
+    "v": "$47,995 (US base, 1996)"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus LX and GX owners, with regional chapters across the US"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus LX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "Slee Off-Road — 80 Series Newbie Guide",
+   "url": "https://sleeoffroad.com/tech-zone/80-series-newbie-guide/"
+  },
+  {
+   "name": "Auto123 — 1997 Lexus LX 450 technical specs",
+   "url": "https://www.auto123.com/en/new-cars/technical-specs/lexus/lx/1997/base/450/"
+  },
+  {
+   "name": "FuelEconomy.gov — 1997 Lexus LX 450",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=13943"
+  },
+  {
+   "name": "Bring a Trailer — Lexus LX450 auction results",
+   "url": "https://bringatrailer.com/lexus/lx450/"
+  },
+  {
+   "name": "IH8MUD — Stock 94 FJ80, biggest tire?",
+   "url": "https://forum.ih8mud.com/threads/stock-94-fj80-biggest-tire.691459/"
+  },
+  {
+   "name": "IH8MUD — Tires with no lift",
+   "url": "https://forum.ih8mud.com/threads/tires-with-no-lift.674447/"
+  },
+  {
+   "name": "Off-Road.com — Toyota Land Cruiser CDL switch install review",
+   "url": "https://www.off-road.com/trucks-4x4/tech/toyota-land-cruiser-cdl-switch-install-review-53202.html"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Cruise Moab — vehicle requirements",
+   "url": "https://www.cruisemoab.com/vehicle-requirements/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}

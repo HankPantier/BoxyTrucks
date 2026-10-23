@@ -1,0 +1,300 @@
+{
+ "fitment": {
+  "stock": [
+   "P275/70R16 on 16x8 alloys (1998–2002)",
+   "275/60R18 (2003–2007)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x150",
+   "lug_thread": "M14x1.5 (22 mm nuts)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R16 or 285/65R18 (≈33 in)",
+    "note": "The IH8MUD 100 Series FAQ answer. One owner found 295/75R16 a tight fit on a stock '99 that might not clear at full bump and full lock."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering shaft snap ring",
+    "years": "2003–2007",
+    "ref": "NHTSA 10V-346",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V346",
+    "summary": "After a severe front-wheel impact the snap ring can disengage, and the steering shaft could eventually separate. Dealers fit a redesigned ring and a retainer."
+   },
+   {
+    "title": "Side curtain airbag control module",
+    "years": "2003–2006",
+    "ref": "NHTSA 16V-065",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V065",
+    "summary": "A misprogrammed module may deploy the side curtain-shield airbags without a crash. Dealers replace the module."
+   },
+   {
+    "title": "Incorrect airbag fitted",
+    "years": "2006",
+    "ref": "NHTSA 17V-548",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V548",
+    "summary": "Some trucks may have the wrong driver or passenger airbag installed. Dealers replace the affected assemblies."
+   },
+   {
+    "title": "Daytime running lights too bright",
+    "years": "1998–2005",
+    "ref": "NHTSA 04V-434",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V434",
+    "summary": "The DRLs exceed the FMVSS 108 intensity limit. Dealers add a resistor."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1998",
+   "change": "Debuts at the December 1997 LA show and goes on sale in Q2 1998. 2UZ-FE 4.7 V8 (230 hp), A343F four-speed, torsion-bar IFS, with AHC and AVS standard. Front and rear lockers dropped, except for a rear locker on Canadian 1998–1999 trucks.",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "VSC, brake assist and A-TRAC become standard, and the stronger 4-pinion front differential arrives.",
+   "flag": "buy"
+  },
+  {
+   "year": "2001",
+   "change": "DVD navigation and a standard Mark Levinson audio system.",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "Facelift. A750F five-speed automatic, 18-in wheels (275/60R18), VGRS steering, curtain airbags and ULEV-II certification at 235 hp.",
+   "flag": "buy"
+  },
+  {
+   "year": "2006",
+   "change": "VVT-i raises output to 275 hp. LED taillights.",
+   "flag": "buy"
+  },
+  {
+   "year": "2007",
+   "change": "Final year. 400 Limited Editions in Black Onyx. Production ends in October 2007.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The LX 470 shares its drivetrain with the 100 Series Land Cruiser, but some equipment differs, and Lexus fitted certain features earlier than the Land Cruiser got them.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JTJHT00W. NHTSA's vPIC decoder reads them as the LX 470 with the 2UZ-FE engine, built in Toyota City. The 10th character is the model year (W = 1998, X = 1999, Y = 2000, 1 = 2001 through 7 = 2007)."
+   },
+   {
+    "head": "LX vs Land Cruiser 100",
+    "body": "Quad multi-reflector/projector headlamps, body cladding on the doors and quarter panels, backlit gauges, different wheels, and AHC with AVS standard from 1998."
+   },
+   {
+    "head": "Front differential",
+    "body": "1998–1999 trucks have the weaker 2-pinion front diff. 2000-on trucks have the 4-pinion unit."
+   },
+   {
+    "head": "Steering-shaft recall",
+    "body": "On 2003–2007 trucks, confirm recall 10V-346 was done. Lexus's VIN lookup or a dealer can confirm it."
+   },
+   {
+    "head": "2007 Limited Edition",
+    "body": "400 built, all in Black Onyx with stone leather and special badging and scuff plates. Check for all three before paying a premium."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,500 lb (2,948 kg)",
+   "note": "with tow package"
+  },
+  {
+   "k": "GVWR",
+   "v": "6,856 lb (3,110 kg)",
+   "note": "2002 Canadian spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.4 US gal (96 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.66 in (220 mm)",
+   "note": "at the rear differential"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "30° / 23° (normal) · 32° / 27° (AHC high)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 16 hwy / 13 combined (2003)",
+   "note": "12 / 15 / 13 for 2007"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,401 lb (2,450 kg)",
+   "note": "2002"
+  },
+  {
+   "k": "Turning circle",
+   "v": "39.7 ft (12.1 m)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "There's plenty of supply, so prices hinge on the AHC, timing-belt records and miles. The 2007 Limited Edition sits in a class of its own.",
+  "ranges": [
+   {
+    "cond": "Project / high mileage",
+    "range": "$6k–15k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$16k–25k"
+   },
+   {
+    "cond": "Excellent",
+    "range": "$27k–35k"
+   },
+   {
+    "cond": "2007 Limited Edition",
+    "range": "≈$63k"
+   }
+  ],
+  "note": "Based on the 20 most recent Bring a Trailer LX 470 sales (August–October 2026), which ranged from $6,000 to $35,325, plus one 2007 Limited Edition at $63,500."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Toyota's official subscription site for Toyota and Lexus repair manuals, wiring diagrams and TSBs. Coverage varies by model year, so check yours"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Lexus's owner portal for manuals and warranty guides"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official online parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "Built from January 1998 to October 2007 alongside the 100 Series Land Cruiser, with styling shared with Japan's Land Cruiser Cygnus.",
+  "items": [
+   {
+    "k": "Built",
+    "v": "January 1998 – October 2007"
+   },
+   {
+    "k": "US sales",
+    "v": "68,940 (calendar 2000–2007)"
+   },
+   {
+    "k": "Best year",
+    "v": "14,732 (2000)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Limited Edition",
+    "years": "2007",
+    "note": "400 trucks in Black Onyx with stone leather and special badging and scuff plates"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus LX and GX owners, with regional chapters across the US"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA — Recall 10V-346",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V346"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus LX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "Slee Off-Road — 100 Series Newbie Guide",
+   "url": "https://sleeoffroad.com/tech-zone/100-series-newbie-guide/"
+  },
+  {
+   "name": "Lexus Canada — 2002 Lexus LX 470 specifications",
+   "url": "https://media.lexus.ca/en/specifications/2002/2002-lexus-lx-470-specifications.html"
+  },
+  {
+   "name": "wheel-size.com — Lexus LX [1998–2021] with 5x150 bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/5x150/lexus/lx/1998-2021/"
+  },
+  {
+   "name": "FuelEconomy.gov — 2003 Lexus LX 470",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=19201"
+  },
+  {
+   "name": "FuelEconomy.gov — 2007 Lexus LX 470",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=23819"
+  },
+  {
+   "name": "IH8MUD — 100-series FAQ",
+   "url": "https://forum.ih8mud.com/threads/100-series-faq.30754/"
+  },
+  {
+   "name": "IH8MUD — What is the largest tire I can fit with no lift?",
+   "url": "https://forum.ih8mud.com/threads/what-is-the-largest-tire-i-can-fit-with-no-lift.263259/"
+  },
+  {
+   "name": "Bring a Trailer — Lexus LX470 auction results",
+   "url": "https://bringatrailer.com/lexus/lx470/"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}

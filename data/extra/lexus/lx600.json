@@ -1,0 +1,327 @@
+{
+ "fitment": {
+  "stock": [
+   "265/50R22 112V on 22x8",
+   "265/55R20 113V on 20x8",
+   "265/65R18 114V on 18x7.5"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "lug_torque": "97 lb-ft (131 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/60R20 or 285/55R20 (≈33 in)",
+    "note": "Owners on aftermarket 20s report no rubbing, and 275/70R18 fits on Toyota TRD 18s. 285/50R22 on the factory 22s needed cutting and spacers."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "V35A engine main-bearing debris",
+    "years": "2022–2023",
+    "ref": "NHTSA 24V-381",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V381",
+    "summary": "Machining debris can cause main-bearing failure and a stall. Dealers replace the engine."
+   },
+   {
+    "title": "V35A engine main-bearing debris (expansion)",
+    "years": "2022–2024",
+    "ref": "NHTSA 25V-767",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V767",
+    "summary": "Expands 24V-381. Dealers inspect the #1 main bearing and replace the engine if needed (Lexus 25LA07)."
+   },
+   {
+    "title": "Unexpected movement in neutral",
+    "years": "2022–2024",
+    "ref": "NHTSA 24V-125",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V125",
+    "summary": "The vehicle may move in neutral with the brakes off. Dealers update the transmission ECU software."
+   },
+   {
+    "title": "Passenger seat occupant-classification sensor",
+    "years": "2022–2024",
+    "ref": "NHTSA 26V-180",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V180",
+    "summary": "Too little clearance at the seat frame stopper can confuse the OCS sensor. Dealers inspect and replace the seat frame as needed."
+   },
+   {
+    "title": "Transmission/engine ECU communication",
+    "years": "2025–2026",
+    "ref": "NHTSA 26V-094",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V094",
+    "summary": "If a transmission solenoid fails, the ECUs may stop communicating and the transmission can be damaged. Dealers update the transmission ECU software."
+   },
+   {
+    "title": "Panoramic View Monitor camera freeze",
+    "years": "2022–2025",
+    "ref": "NHTSA 25V-744",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V744",
+    "summary": "The rear camera image may freeze or go blank in reverse. Dealers update the software."
+   },
+   {
+    "title": "VSC may not re-enable on restart",
+    "years": "2022",
+    "ref": "NHTSA 22V-239",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V239",
+    "summary": "Skid Control ECU software may leave VSC off after a restart. Dealers update the software."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2022",
+   "change": "Revealed October 13, 2021 on the GA-F platform: V35A 3.4 twin-turbo V6 (409 hp, 479 lb-ft), 10-speed automatic, 441 lb lighter than the LX 570. Standard, Premium, Luxury, F Sport and four-seat Ultra Luxury grades.",
+   "flag": "note"
+  },
+  {
+   "year": "2022–2024",
+   "change": "Engine recalls 24V-381 and 25V-767 cover main-bearing debris. Owners also report a clunk into first on rolling stops.",
+   "flag": "avoid"
+  },
+  {
+   "year": "2024",
+   "change": "Lexus Safety System+ 2.5 standard. The F Sport Handling has 22-in forged wheels and a Torsen limited-slip rear differential.",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "LX 700h hybrid joins the range, including the Overtrail with front and rear lockers plus the center lock (revealed October 10, 2024).",
+   "flag": "buy"
+  },
+  {
+   "year": "2027",
+   "change": "Minor updates: darker 20-in wheels and a digital mirror on Premium, red calipers and Palomino leather on F Sport Handling, and power-folding rear seats on F Sport Handling and Overtrail.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every US LX 600 is built at the same plant on the same platform as the Land Cruiser 300, so the real differences are grade, AHC and recall status.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JTJ and carry 7CX in positions 6–8. NHTSA's vPIC decoder reads them as the 310 Series with the V35A-FTS, built at Toyota Auto Body's Yoshiwara plant. The 10th character is the model year (N = 2022, P = 2023, R = 2024, S = 2025)."
+   },
+   {
+    "head": "Lockers",
+    "body": "US LX 600s have a lockable center diff only. Triple locks came on Japan's LX Offroad grade and, in the US, on the LX 700h Overtrail, which is a different model."
+   },
+   {
+    "head": "F Sport Handling",
+    "body": "22-in forged wheels and a Torsen limited-slip rear differential."
+   },
+   {
+    "head": "AHC or not",
+    "body": "Most trucks have Active Height Control, but Slee Off-Road's build was a Premium custom-ordered without AHC so it could run Dobinsons suspension. Check before planning a lift."
+   },
+   {
+    "head": "Engine recall status",
+    "body": "2022–2024 trucks may be in 24V-381 or 25V-767 (Lexus 25LA07). Ask for paperwork showing the inspection or replacement engine."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wading depth",
+   "v": "27.5 in (700 mm)"
+  },
+  {
+   "k": "Roof load",
+   "v": "165 lb (75 kg)",
+   "note": "roof luggage carrier limit, owner's manual"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "21.1 US gal (80 L)",
+   "note": "premium fuel"
+  },
+  {
+   "k": "Approach / breakover / departure",
+   "v": "25° / 23° / 20°",
+   "note": "normal height"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 17 city / 22 hwy / 19 combined"
+  },
+  {
+   "k": "Climbing ability",
+   "v": "45°",
+   "note": "Lexus figure; max stable inclination 44°"
+  },
+  {
+   "k": "Suspension travel",
+   "v": "3.93 in bound / 5.7 in rebound (100 / 145 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "A current model, so the new-car window sticker sets the market. Used trucks are only just starting to show up at auction.",
+  "ranges": [
+   {
+    "cond": "2027 LX 600 (Premium – Luxury)",
+    "range": "$109,050–117,850"
+   },
+   {
+    "cond": "2027 LX 700h Overtrail",
+    "range": "$118,055"
+   },
+   {
+    "cond": "2027 LX 700h (F Sport Handling – Ultra Luxury)",
+    "range": "$120,910–143,350"
+   }
+  ],
+  "note": "MSRPs include the $1,550 destination fee. On Bring a Trailer, a 2024 LX 600 Premium sold for $87,500 in April 2026, and a 2023 Ultra Luxury was bid to $104,000 without selling."
+ },
+ "docs": [
+  {
+   "name": "LX 600 owner's manual (OM60V34U, PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60V34U/pdf/OM60V34U.pdf",
+   "note": "Lexus-hosted, with specifications, capacities and tire data"
+  },
+  {
+   "name": "2023 LX 600 Warranty and Services Guide (PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-23X600/pdf/L-MMS-23X600.pdf",
+   "note": "Lexus-hosted maintenance schedule"
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Toyota's official subscription site for Toyota and Lexus repair manuals, wiring diagrams and TSBs. Coverage varies by model year, so check yours"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Lexus's owner portal for manuals and warranty guides"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official online parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "Built at Toyota Auto Body's Yoshiwara plant on the GA-F platform shared with the Land Cruiser 300.",
+  "items": [
+   {
+    "k": "US sales",
+    "v": "3,642 (2022) · 6,959 (2023) · 6,830 (2024) · 7,464 (2025, incl. 2,883 LX 700h)"
+   },
+   {
+    "k": "LX sold worldwide",
+    "v": "500,000+ (all generations, by August 2021)"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus LX and GX owners, with regional chapters across the US"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA — Recall 25V-767",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V767"
+  },
+  {
+   "name": "NHTSA — Recall 24V-381",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V381"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus LX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "Lexus Pressroom — Introducing the all-new 2022 Lexus LX 600",
+   "url": "https://pressroom.lexus.com/a-flagship-suv-is-born-introducing-the-all-new-2022-lexus-lx-600/"
+  },
+  {
+   "name": "Lexus Pressroom — What's new: 2024 Lexus LX 600",
+   "url": "https://pressroom.lexus.com/whats-new-2024-lexus-lx-600/"
+  },
+  {
+   "name": "Cars.com — How much is the 2027 Lexus LX?",
+   "url": "https://www.cars.com/articles/how-much-is-the-2027-lexus-lx-529195/"
+  },
+  {
+   "name": "Kelley Blue Book — 2027 Lexus LX arrives with more standard features",
+   "url": "https://www.kbb.com/car-news/2027-lexus-lx-arrives-with-more-standard-features/"
+  },
+  {
+   "name": "Lexus — LX 600 owner's manual (OM60V34U)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60V34U/pdf/OM60V34U.pdf"
+  },
+  {
+   "name": "Lexus — 2023 LX 600 Warranty and Services Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-23X600/pdf/L-MMS-23X600.pdf"
+  },
+  {
+   "name": "wheel-size.com — Lexus LX [2021–2025] with 6x5.5 bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/6x5.5/lexus/lx/2021-2025/"
+  },
+  {
+   "name": "FuelEconomy.gov — 2025 Lexus LX 600",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48965"
+  },
+  {
+   "name": "Lexus — LX specifications",
+   "url": "https://www.lexus.com/models/LX/specifications"
+  },
+  {
+   "name": "IH8MUD — LX 600 aftermarket wheel choices",
+   "url": "https://forum.ih8mud.com/threads/lx-600-aftermarket-wheel-choices.1293281/"
+  },
+  {
+   "name": "IH8MUD — 300/600/700 issues, problems and solutions",
+   "url": "https://forum.ih8mud.com/threads/300-600-700-issues-problems-and-solutions.1366321/"
+  },
+  {
+   "name": "Slee Off-Road — SleeBUILT Lexus LX600 'The Marshmello'",
+   "url": "https://sleeoffroad.com/sleebuilt-lexus-lx600-the-marshmellow/"
+  },
+  {
+   "name": "Bring a Trailer — Lexus LX (J310) auction results",
+   "url": "https://bringatrailer.com/lexus/lx-j310/"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}

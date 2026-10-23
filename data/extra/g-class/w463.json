@@ -1,0 +1,528 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 on 7.5Jx16 ET63 (OE on the 2001–2006 G 270 CDI; also the 500 GE's factory size)",
+   "P265/60R18 (2002–2008 US G 500)",
+   "265/60R18 on 7.5Jx18 ET43 (2015 US G 550)",
+   "275/50R20 on 9.5Jx20 ET50 (2015 US G 63 AMG)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "offset": "ET63 on most pre-2009 factory sizes; ET43 (G 550) and ET50 (G 63) on 2015 US trucks",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 (lug bolts)",
+   "lug_torque": "96 lb-ft (130 N·m) — 2013–2015 US operator's manuals"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 (≈33 in)",
+    "note": "Fits unlifted G 500/G 550s on factory 18s per Expedition Portal owners; 285/65R18 rubs slightly at full left lock. One G 500 owner reports 315/75R16s with no lift, but 35s on stock springs usually rub somewhere."
+   },
+   {
+    "lift": "2–2.5 in",
+    "size": "33x11.00–33x12.50",
+    "note": "JWO 2-in and Eurowise 60 mm springs are sold as 33-in setups; wheel offset +30 or lower (or a ~30 mm spacer) and longer shocks."
+   },
+   {
+    "lift": "3 in",
+    "size": "35 in",
+    "note": "GwagenParts' ~75 mm front kit (2002–2018 G 500/G 55/G 550/G 63/G 65) claims room for 35s; spacers may be needed, caster bushings included."
+   },
+   {
+    "lift": "4 in",
+    "size": "35x11.00–35x12.50",
+    "note": "JWO 4-in springs: offset +20 or lower (typically 50 mm spacers on stock wheels) and caster-correction bushings; adjustable panhard bars recommended."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel return hose can crack and leak",
+    "years": "2004–2005 G 55 AMG",
+    "ref": "NHTSA 05V378000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V378000",
+    "summary": "Hoses between the tank and return line could develop microcracks and leak fuel; dealers replace them."
+   },
+   {
+    "title": "Incorrect SCN software coding",
+    "years": "2003 G-Class",
+    "ref": "NHTSA 08V303000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V303000",
+    "summary": "Wrong coding after a workshop visit could affect gauges, the check-engine light and the crash fuel-pump cutoff; dealers recode."
+   },
+   {
+    "title": "Fuel line quick connectors not fully seated",
+    "years": "2009 G 550",
+    "ref": "NHTSA 09V453000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=09V453000",
+    "summary": "Underbody fuel-line connectors may not have been fully connected on the assembly line."
+   },
+   {
+    "title": "Front turn signals behind grille cover",
+    "years": "2002–2010 G-Class",
+    "ref": "NHTSA 10V366000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000",
+    "summary": "Fails FMVSS 108 because the grille cover can reduce signal visibility; dealers fit improved turn-signal units."
+   },
+   {
+    "title": "Passenger airbag molding strip can come loose",
+    "years": "2011 G 550 and G 55 AMG",
+    "ref": "NHTSA 12V380000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12V380000",
+    "summary": "Built 20 September 2010–27 April 2011; part of the molding strip could become a projectile when the passenger airbag deploys."
+   },
+   {
+    "title": "Steering coupling may be under-tightened",
+    "years": "2013–2016 G 550 and G 63 AMG; 2016 G 65 AMG",
+    "ref": "NHTSA 17V250000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V250000",
+    "summary": "An insufficiently tightened steering coupling can wear the steering connection."
+   },
+   {
+    "title": "Inner door-release cable may break",
+    "years": "2016 G 550 and G 63 AMG",
+    "ref": "NHTSA 17V178000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V178000",
+    "summary": "The cable can snap if the door is hard to open, such as after a crash."
+   },
+   {
+    "title": "ESP fault with Distronic Plus engaged",
+    "years": "2016–2017 G 550, G 63 AMG and G 65 AMG",
+    "ref": "NHTSA 17V713000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V713000",
+    "summary": "An ESP malfunction while Distronic Plus is on may stop the engine reducing power."
+   },
+   {
+    "title": "eCall date/time software fault",
+    "years": "2013–2016 G 550 and G 63 AMG",
+    "ref": "NHTSA 19V787000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000",
+    "summary": "The emergency-call system could send an inaccurate location because its clock is wrong."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1990",
+   "change": "W463 launches: permanent 4WD, three electrically selected locking diffs and ABS, with carryover 230 GE, 300 GE, 250 GD and 300 GD engines",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "Cruise control, walnut trim and stainless spare-wheel cover added; the 100,000th G is built in Graz",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "500 GE V8 limited edition (446 built); Europa International begins US certification and sales",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Renamed G-Class; 200/230/300 GE dropped and the manual gearbox ends",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "Electronically controlled five-speed automatic, passenger airbag and headlamp washers",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "G 500 brings the M113 V8 into regular production",
+   "flag": "buy"
+  },
+  {
+   "year": "1999",
+   "change": "G 55 AMG launches",
+   "flag": "note"
+  },
+  {
+   "year": "2001–02",
+   "change": "ESP, Brake Assist and 4ETS traction control arrive; Mercedes-Benz USA starts official sales for MY2002",
+   "flag": "buy"
+  },
+  {
+   "year": "2007",
+   "change": "Seven-speed automatic in the US G 500, plus HID headlamps, reversing camera and TPMS",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "G 550 with the 5.5-litre M273 V8 replaces the US G 500; no factory towing hardware for 2009–2010",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "G 63 AMG (M157 biturbo V8) and G 65 AMG V12 arrive",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "M176 4.0-litre twin-turbo V8 replaces the M273 in the G 500/G 550; Handsome Motors rates 2016–18 trucks a good buy",
+   "flag": "buy"
+  },
+  {
+   "year": "2018",
+   "change": "Second-generation G-Class launched in Detroit in January, ending the original body",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Thirty years of W463 means four-cylinder diesels and V12 AMGs share one body, and badges, bumpers and flares swap in an afternoon. The VIN and data card are what count.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks from 2002 start WDC: a G 500 decodes as WDCYR49E and a 2003 G 55 AMG as WDCYR46E. Position 10 is the model year and position 11 is X for Graz. European-format chassis numbers carry the model code, such as WDB463228 on 500 GEs."
+   },
+   {
+    "head": "Europa International trucks",
+    "body": "Europa federalised W463s from 1993 and issued US VINs as a small-volume manufacturer; Mercedes-Benz USA took over for MY2002. One BaT-sold Europa G 500's VIN fails NHTSA's standard decode, so get the import paperwork."
+   },
+   {
+    "head": "Fake AMGs",
+    "body": "Autocar warns about Gs converted to look like AMGs. Check that the VIN and factory data card agree with the badges."
+   },
+   {
+    "head": "Factory data card",
+    "body": "Mercedes-Benz Classic sells a digital data card with original option codes, paint and trim for most cars built 1986–2010 (AMG models excluded), for €130 with proof of ownership."
+   },
+   {
+    "head": "Lockers and traction aids",
+    "body": "Every W463 has three locks, engaged in order: centre, rear, front. Trucks from the 2001–02 update also have ESP, Brake Assist and 4ETS; earlier ones rely on the lockers alone."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,000 lb (3,175 kg)",
+   "note": "braked; 1,653 lb (750 kg) unbraked — 2015 G 550/G 63 manual"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.4 US gal (96 L)",
+   "note": "about 3.7 gal (14 L) reserve; 2013–2015 US manuals"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.1 in (205 mm) G 550; 7.7 in (196 mm) G 63 AMG",
+   "note": "2015 US manual"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "34° / 29° (G 550); 27° / 27° (G 63 AMG)",
+   "note": "2015 US manual"
+  },
+  {
+   "k": "Wading depth",
+   "v": "24 in (60 cm)",
+   "note": "loaded and ready to drive; less in flowing water — 2015 US manual"
+  },
+  {
+   "k": "Roof load",
+   "v": "Not rated",
+   "note": "The 2013 and 2015 US manuals say the roof is not suited for transporting loads"
+  },
+  {
+   "k": "Low range",
+   "v": "2.16:1"
+  },
+  {
+   "k": "Turning circle",
+   "v": "44.6 ft (13.6 m)",
+   "note": "listed as turning radius, 2015 US manual"
+  },
+  {
+   "k": "GVWR",
+   "v": "7,055 lb (3,200 kg)",
+   "note": "2015 G 550/G 63"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm)",
+   "note": "long-wheelbase five-door"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The W463 runs from $20k high-mile V8s to six-figure Cabriolets; the G 550s from the last few years and the rare bodies command the money.",
+  "ranges": [
+   {
+    "cond": "1990–97 six-cylinder and diesel wagons",
+    "range": "$19k–71k"
+   },
+   {
+    "cond": "G 500 (2002–2008 US)",
+    "range": "$18k–80k"
+   },
+   {
+    "cond": "G 550 (2009–2018)",
+    "range": "$26k–97k"
+   },
+   {
+    "cond": "Cabriolets",
+    "range": "$80k–275k"
+   },
+   {
+    "cond": "G 550 4×4² (US)",
+    "range": "$97k–154k"
+   }
+  ],
+  "note": "Based on 180 sold Bring a Trailer auctions on the W463 (1991–2018) page from January 2025 to October 2026 (median $50,000). Low-mileage G 550s and Cabriolets set the top of the market. AMG trucks are listed on a separate BaT page and aren't included."
+ },
+ "docs": [
+  {
+   "name": "2013 G-Class Operator's Manual (US)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2013_G.pdf",
+   "note": "Official Mercedes-Benz USA PDF"
+  },
+  {
+   "name": "2014 G-Class Operator's Manual (US)",
+   "url": "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2014/operators/MY14_G-Class_Operator.pdf",
+   "note": "Official Mercedes-Benz USA PDF"
+  },
+  {
+   "name": "2015 G-Class Operator's Manual (US)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2015_G.pdf",
+   "note": "Official Mercedes-Benz USA PDF; G 550 and G 63 off-road, towing and tire data"
+  },
+  {
+   "name": "2018 G-Class Operator's Manual (US)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY18_G_Class_Operators_Manual.pdf",
+   "note": "Official Mercedes-Benz USA PDF"
+  },
+  {
+   "name": "Mercedes-Benz XENTRY WIS / WIS Classic",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis",
+   "note": "Factory repair procedures and wiring diagrams via B2B Connect; WIS Classic covers older series up to BR 463"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Mercedes-Benz USA didn't sell the W463 until the 2002 model year. Before that, Europa International of New Mexico federalised and sold them from 1993. Diesels, short-wheelbase trucks and most Cabriolets were never sold new in the US. NHTSA allows any vehicle at least 25 years old to be imported, counted from the date of manufacture, so those grey-market W463s built up to late 2001 are now eligible. Check state titling and emissions rules, particularly in California, before you commit."
+  ]
+ },
+ "production": {
+  "intro": "The W463 was built in Graz from 1990 to 2018, outliving the W460 it replaced by nearly three decades.",
+  "items": [
+   {
+    "k": "G-Class production, 1979–2018",
+    "v": "c. 400,000 (all series, per Classic & Sports Car)"
+   },
+   {
+    "k": "100,000th G",
+    "v": "1992"
+   }
+  ],
+  "editions": [
+   {
+    "name": "500 GE V8",
+    "years": "1993–1994",
+    "note": "446 built; Amethyst Blue"
+   },
+   {
+    "name": "G 43 AMG",
+    "years": "1997–1998",
+    "note": "38 built"
+   },
+   {
+    "name": "G 500 Classic",
+    "years": "1999",
+    "note": "500 built for the 20th anniversary"
+   },
+   {
+    "name": "Grand Edition",
+    "years": "2005",
+    "note": "500 G 500 and G 55 AMG trucks for the US"
+   },
+   {
+    "name": "Final Edition 200 Cabriolet",
+    "years": "2013",
+    "note": "200 built"
+   },
+   {
+    "name": "G 63 AMG 6×6",
+    "years": "2013–2015",
+    "note": "slightly over 100 built"
+   },
+   {
+    "name": "G 500 4×4²",
+    "years": "2015–2018",
+    "note": "portal axles and raised chassis"
+   },
+   {
+    "name": "G 650 Landaulet",
+    "years": "2017",
+    "note": "99 built, €749,700"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Licensed G-Class driving centre near Graz with off-road modules, Magna factory tours and Schöckl drives"
+  },
+  {
+   "kind": "event",
+   "name": "Unimog meets G-Class",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
+   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, with off-road demos and recovery courses; 2026 edition held 5–6 September"
+  }
+ ],
+ "sources": [
+  {
+   "name": "AWDwiki — Mercedes-Benz 4WD systems",
+   "url": "https://www.awdwiki.com/en/mercedes/"
+  },
+  {
+   "name": "NHTSA — Recalls API (G500/G55/G550/G63 by model year)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=MERCEDES%20BENZ&model=G500&modelYear=2003"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder (WDCYR49E02X128628, 2002 G500)",
+   "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/WDCYR49E02X128628?format=json"
+  },
+  {
+   "name": "Tire Wheel Guide — 2005 Mercedes-Benz G-Class tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/mercedes/g-class/2005/"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2013 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2013_G.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2014 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2014/operators/MY14_G-Class_Operator.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2015 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2015_G.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2018 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY18_G_Class_Operators_Manual.pdf"
+  },
+  {
+   "name": "Expedition Portal — G550 tire options thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Expedition Portal — Overland Journal: G-Wagen (tire fitment)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1868107"
+  },
+  {
+   "name": "Eurowise — JWO 2-inch (50 mm) coil lift springs, W463",
+   "url": "https://shop.eurowise.com/products/jwo-2-inch-50mm-coil-lift-springs"
+  },
+  {
+   "name": "Eurowise — JWO 4-inch coil lift springs, W463",
+   "url": "https://shop.eurowise.com/products/jwo-4-inch-4-inch-coil-lift-springs"
+  },
+  {
+   "name": "GwagenParts — 3\" lift kit for G-Class W463 with ROGUE 2.0 shocks",
+   "url": "https://www.gwagenparts.com/product/3-lift-kit-for-mercedes-g-class-w463-with-rogue-2-0-adjustable-shocks"
+  },
+  {
+   "name": "GwagenParts — Eurowise 60 mm / 100 mm coil springs (W463)",
+   "url": "https://gwagenparts.com/100mm-coil-springs-for-g-wagon-w463-w461-elevate-your-ride-with-eurowise"
+  },
+  {
+   "name": "Kelley Blue Book — 2002 Mercedes-Benz G-Class specs (G 500)",
+   "url": "https://www.kbb.com/mercedes-benz/g-class/2002/specs"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Classic & Sports Car — Buyer's guide: Mercedes-Benz G-Wagen",
+   "url": "https://classicandsportscar.com/node/55200"
+  },
+  {
+   "name": "Autocar — Used car buying guide: Mercedes-Benz G-Class W463",
+   "url": "https://zephr.autocar.co.uk/car-news/used-cars-used-car-buying-guides/used-car-buying-guide-mercedes-benz-g-class-w463"
+  },
+  {
+   "name": "Handsome Motors — G-Wagon buyer's guide",
+   "url": "https://handsomemotors.com/g-wagon-buyers-guide"
+  },
+  {
+   "name": "Expedition Portal — Lockers: what type do the G-Wagens come with?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1291561"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class (1991–2018) results",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect — XENTRY WIS (incl. WIS Classic)",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis"
+  },
+  {
+   "name": "Driven Car Guide — Mercedes now sells digital 'birth certificates' for modern classics (Aug 2026)",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
+  },
+  {
+   "name": "Wheel-Size — Mercedes-Benz G-Class W463 1990–2008",
+   "url": "https://www.wheel-size.com/size/mercedes/g-class/w463-1990-2008/"
+  },
+  {
+   "name": "RM Sotheby's — 1993 Mercedes-Benz 500 GE 6.0 'AMG' (chassis number)",
+   "url": "https://rmsothebys.com/auctions/ds24/lots/r0012-1993-mercedesbenz-500-ge-60-amg/"
+  },
+  {
+   "name": "NHTSA — Recall 05V378000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V378000"
+  },
+  {
+   "name": "NHTSA — Recall 08V303000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V303000"
+  },
+  {
+   "name": "NHTSA — Recall 09V453000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=09V453000"
+  },
+  {
+   "name": "NHTSA — Recall 10V366000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000"
+  },
+  {
+   "name": "NHTSA — Recall 12V380000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=12V380000"
+  },
+  {
+   "name": "NHTSA — Recall 17V250000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V250000"
+  },
+  {
+   "name": "NHTSA — Recall 17V178000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V178000"
+  },
+  {
+   "name": "NHTSA — Recall 17V713000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V713000"
+  },
+  {
+   "name": "NHTSA — Recall 19V787000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000"
+  }
+ ]
+}

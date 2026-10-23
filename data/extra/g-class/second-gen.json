@@ -1,0 +1,406 @@
+{
+ "fitment": {
+  "stock": [
+   "275/55R19 on 8.5x19 (2019 G 550)",
+   "275/50R20 (option)",
+   "265/60R18 all-terrain (optional 18-inch package)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 bolts",
+   "lug_torque": "96 lb-ft (130 N·m)",
+   "offset": "ET35–50 compatible range (2020 G 550)"
+  },
+  "max_tire": [
+   {
+    "lift": "2.5 in",
+    "size": "33 in",
+    "note": "Eurowise rates its W463A kit for 33-inch tires without rubbing, depending on wheel offset, and says it has tested 33.5 in. Bigger tires can set off driver-assist warnings (active brake assist, blind-spot, cruise)"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front-axle wiring harness chafe",
+    "years": "2019–2021",
+    "ref": "NHTSA 23V097",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V097000",
+    "summary": "Front-axle harness can chafe on the oil cooler, disabling ABS and ESC; dealers sleeve or replace it. 26,116 G 550s and G 63s"
+   },
+   {
+    "title": "Differential-lock module resistor",
+    "years": "2019–2020",
+    "ref": "NHTSA 20V090",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V090000",
+    "summary": "A resistor in the diff-lock module can fail and interrupt communication with the actuator, possibly switching off ESP and ABS; 6,300 trucks"
+   },
+   {
+    "title": "Rear door latch",
+    "years": "2019–2021",
+    "ref": "NHTSA 21V353",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V353000",
+    "summary": "Door-latch components may stop the rear doors latching or opening properly; 17,800 trucks"
+   },
+   {
+    "title": "Replacement rear door latch",
+    "years": "2019–2023",
+    "ref": "NHTSA 24V659",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V659000",
+    "summary": "Trucks that got a replacement latch in service or an earlier recall may have a faulty right-rear latch"
+   },
+   {
+    "title": "Front door wiring harness routing",
+    "years": "2019",
+    "ref": "NHTSA 19V820",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V820000",
+    "summary": "Misrouted front-door harnesses can be damaged by opening and closing the doors"
+   },
+   {
+    "title": "Fuel tank weld",
+    "years": "2019",
+    "ref": "NHTSA 21V564",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V564000",
+    "summary": "Fuel tank may not have been welded properly, risking a leak (3 trucks)"
+   },
+   {
+    "title": "Turbo oil feed line (AMG G 63)",
+    "years": "2019",
+    "ref": "NHTSA 20V048",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V048000",
+    "summary": "Oil feed line to the turbocharger may leak on 4.0 V8 AMG models"
+   },
+   {
+    "title": "Fuel pump shutdown",
+    "years": "2021–2023",
+    "ref": "NHTSA 23V445",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V445000",
+    "summary": "Fuel pump may shut down, causing loss of drive power"
+   },
+   {
+    "title": "ESP warning light (G 550, G 580, G 63)",
+    "years": "2025",
+    "ref": "NHTSA 25V254",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V254000",
+    "summary": "ESP may show the wrong warning light during a system failure (FMVSS 126/101)"
+   },
+   {
+    "title": "Wheel bolts (G 580)",
+    "years": "2025",
+    "ref": "NHTSA 26V198",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V198000",
+    "summary": "Incorrect wheel bolts may have been fitted at the factory; 3,734 G 580s"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2018",
+   "change": "New G unveiled at Detroit in January (G 550) and Geneva in March (AMG G 63). Independent front suspension, rack-and-pinion steering, 9G-TRONIC; about 170 kg lighter",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "US launch at $149,900 (G 550) and $188,050 (G 63); EPA 14 mpg combined for the V8 G 550",
+   "flag": "note"
+  },
+  {
+   "year": "2019–2021",
+   "change": "Early trucks carry several recalls, including the front-axle harness (23V097), diff-lock module (20V090) and rear door latch (21V353). Confirm by VIN that they were done",
+   "flag": "avoid"
+  },
+  {
+   "year": "2022",
+   "change": "AMG G 63 4×4² launched in June (MY2023 in the US, $350,050)",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "Final Edition G 500 V8 announced: 1,500 built, 500 in each of three colours",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Updated G (media designation W465) revealed in March; the G 580 with EQ Technology follows in April",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "US G 550 switches to a 3.0-litre mild-hybrid inline-six (443 hp, EPA 18 mpg combined); G 580 EV arrives with four motors and 33.5 in wading depth",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Many G 550s are dressed up as G 63s, and the 2019-on trucks look a lot like the old ones. The VIN shows what you're looking at.",
+  "items": [
+   {
+    "head": "VIN characters 4–8",
+    "body": "Bring a Trailer examples decoded with NHTSA's vPIC tool: 2019 G 550 = WDCYC6BJ…, 2019 AMG G 63 = WDCYC7HJ…, 2023 G 550 = W1NYC6BJ…, 2025 G 550 (inline-six) = W1NWH1AB…, 2025 G 580 = W1NWM0AB…. A 'G 63' with a YC6 VIN is a G 550 in AMG clothing."
+   },
+   {
+    "head": "WDC versus W1N",
+    "body": "The 2019 examples start WDC and the 2023–2025 examples start W1N. Both are Mercedes-Benz manufacturer prefixes, and vPIC decodes both as Graz-built G-Class."
+   },
+   {
+    "head": "Model year (10th character)",
+    "body": "K = 2019, L = 2020, P = 2023, S = 2025. The V8 G 550 runs through 2024; 2025-on G 550s are inline-six mild hybrids."
+   },
+   {
+    "head": "'W463A' isn't official",
+    "body": "'W463A' is an enthusiast and media label. Mercedes kept the W463 chassis code for the 2018-on truck, and the 2024 update has been reported as W465."
+   },
+   {
+    "head": "Electric G 580",
+    "body": "The G 580 has no mechanical lockers. It uses per-wheel torque vectoring with a 2:1 low range in each axle's transmission."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,700 lb (3,493 kg)",
+   "note": "2019 G 550, braked"
+  },
+  {
+   "k": "GVWR",
+   "v": "6,614 lb (3,000 kg)",
+   "note": "2019 G 550"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "26.4 US gal (100 L)",
+   "note": "2019 G 550"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.5 in (241 mm)",
+   "note": "maximum load; G 580: 9.8 in"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "30.9° / 29.9° / 23.5°",
+   "note": "MBUSA 2019 spec sheet, breakover at maximum load; launch press quoted 31° / 30° / 26°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "27.6 in (700 mm)",
+   "note": "G 580: 33.5 in"
+  },
+  {
+   "k": "Low range",
+   "v": "2.93:1"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 13 city / 17 hwy / 14 comb (2019 V8); 17 / 19 / 18 (2025 inline-six); G 580: 62 MPGe combined, 239-mile range"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,551 lb (2,518 kg)",
+   "note": "2019 G 550"
+  },
+  {
+   "k": "Turning circle",
+   "v": "44.6 ft (13.6 m)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Early 2019 G 550s are now the cheapest way into the new G. AMG G 63s keep a clear premium, and the electric G 580 is losing value quickly.",
+  "ranges": [
+   {
+    "cond": "2019 G 550, driver",
+    "range": "$72k–90k"
+   },
+   {
+    "cond": "2019–2023 G 550, low mileage",
+    "range": "$100k–156k"
+   },
+   {
+    "cond": "AMG G 63 (2019–2025)",
+    "range": "$105k–222k"
+   },
+   {
+    "cond": "G 580 Edition One (2025)",
+    "range": "$127k–189k"
+   }
+  ],
+  "note": "Based on Bring a Trailer sales from January 2025 to October 2026: 13 G 550 and G 580 sales ($72,000–188,500) and 26 standard AMG G 63s (median $146,500). New MY2019 prices were $149,900 for the G 550 and $188,050 for the G 63."
+ },
+ "docs": [
+  {
+   "name": "Owner's manuals (Mercedes-Benz USA)",
+   "url": "https://www.mbusa.com/en/owners/manuals",
+   "note": "Free owner's manuals from MBUSA; pick the G-Class and model year"
+  },
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "production": {
+  "intro": "Mercedes doesn't publish production by model, but it has announced some milestones and edition sizes.",
+  "items": [
+   {
+    "k": "400,000th G-Class built",
+    "v": "4 December 2020 (Graz)"
+   },
+   {
+    "k": "G 580 vs combustion sales",
+    "v": "1,450 G 580s against about 9,000 combustion Gs in one year"
+   },
+   {
+    "k": "Recall 23V097 population",
+    "v": "26,116 US 2019–2021 G 550s and G 63s"
+   }
+  ],
+  "editions": [
+   {
+    "name": "AMG G 63 Edition 1",
+    "years": "2018",
+    "note": "Launch edition in designo Night Black Magno with graphite stripes and red accents"
+   },
+   {
+    "name": "Stronger Than Time",
+    "years": "2019",
+    "note": "40th-anniversary edition for G 400 d, G 500 and G 63"
+   },
+   {
+    "name": "Final Edition G 500 V8",
+    "years": "2023",
+    "note": "1,500 built, 500 each in Obsidian Black, Opalith White Magno and Olive Magno"
+   },
+   {
+    "name": "G 580 Edition One",
+    "years": "2025",
+    "note": "Launch edition of the electric G"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl mountain near Graz, Austria, where the G is built and tested"
+  },
+  {
+   "kind": "event",
+   "name": "Overland Expo",
+   "url": "https://www.overlandexpo.com/",
+   "note": "Multi-brand overland show with training and trail sessions; plenty of Gs among the Land Cruisers"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recall flat files (FLAT_RCL), Office of Defects Investigation",
+   "url": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip"
+  },
+  {
+   "name": "NHTSA — recalls API (campaign lookup)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=23V097000"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "Limitless Tire — 2020 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2020/"
+  },
+  {
+   "name": "Limitless Tire — 2025 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2025/"
+  },
+  {
+   "name": "Eurowise — W463A 2.5-inch lift kit",
+   "url": "https://shop.eurowise.com/products/eww463a25il"
+  },
+  {
+   "name": "Mercedes-Benz USA media — 2019 G 550 specifications",
+   "url": "https://media.mbusa.com/releases/release-e38709a1cc517079cb36cfdf37108be5-2019-mercedes-benz-g550-specifications"
+  },
+  {
+   "name": "TFLtruck — 2019 Mercedes G-Wagon specs and suspension design",
+   "url": "https://tfltruck.com/2018/01/2019-mercedes-g-wagon-specs-suspension-design"
+  },
+  {
+   "name": "TFLcar — Mercedes-Benz G580 EV debut",
+   "url": "https://tflcar.com/2024/04/mercedes-benz-g580-ev-debut-news/"
+  },
+  {
+   "name": "TFLcar — 2025 Mercedes-Benz G-Class changes",
+   "url": "https://tflcar.com/2024/03/2025-mercedes-benz-g-class-changes-g550-amg-g63/"
+  },
+  {
+   "name": "Bring a Trailer — G-Class 2019-on (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-2019/"
+  },
+  {
+   "name": "Bring a Trailer — G-Class AMG 2019-on (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-2019/"
+  },
+  {
+   "name": "Bring a Trailer — 2019 G550 (VIN)",
+   "url": "https://bringatrailer.com/listing/2019-mercedes-benz-g550-28/"
+  },
+  {
+   "name": "Bring a Trailer — 2019 Mercedes-AMG G63 (VIN)",
+   "url": "https://bringatrailer.com/listing/2019-mercedes-amg-g63-7/"
+  },
+  {
+   "name": "Bring a Trailer — 2023 G550 (VIN)",
+   "url": "https://bringatrailer.com/listing/2023-mercedes-benz-g550-13/"
+  },
+  {
+   "name": "Bring a Trailer — 2025 G550 (VIN)",
+   "url": "https://bringatrailer.com/listing/2025-mercedes-benz-g550-2/"
+  },
+  {
+   "name": "Bring a Trailer — 2025 G580 Edition One (VIN)",
+   "url": "https://bringatrailer.com/listing/2025-mercedes-benz-g580-5-2/"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Mercedes-Benz USA — Owner's manuals",
+   "url": "https://www.mbusa.com/en/owners/manuals"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "duPont Registry — Mercedes-Benz G-Class Experience",
+   "url": "https://news.dupontregistry.com/blogs/g-class/mercedes-benz-g-class-experience"
+  }
+ ]
+}

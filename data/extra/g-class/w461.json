@@ -1,0 +1,295 @@
+{
+ "fitment": {
+  "stock": [
+   "215/80R16 or 255/75R15 (1993 230 GE / 290 GD listings)",
+   "265/75R16 (G 300 CDI Professional)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "235/85R16 (≈32 in)",
+    "note": "An Expedition Portal owner runs 235/85R16s on standard steel wheels on a narrow-body G, which is a sensible no-lift ceiling. Beyond that you need lift springs, and bigger tires can trigger ABS/ESP warnings on later trucks."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": []
+ },
+ "timeline": [
+  {
+   "year": "1990",
+   "change": "W460 becomes W461 (230 GE and 290 GD); 250 GD 'Wolf' built for the Bundeswehr",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "Series 461 formally introduced; the Bundeswehr receives 12,500 Wolfs",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "290 GD Turbodiesel with direct injection and a driver's airbag replaces the prechamber diesel; automatic only, 120 hp",
+   "flag": "buy"
+  },
+  {
+   "year": "2001",
+   "change": "G 270 CDI brings a common-rail five-cylinder",
+   "flag": "buy"
+  },
+  {
+   "year": "2006",
+   "change": "Bundeswehr renews its fleet with long-wheelbase G 270 CDI and G 300 'Greenliner' trucks",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "G 280 CDI with the OM642 3.0 V6 turbodiesel",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "Civilian sales return: G 280 CDI EDITION.30 PUR and G 280 CDI Professional",
+   "flag": "note"
+  },
+  {
+   "year": "2010",
+   "change": "G 300 CDI Professional launches; a 6×6 variant is added for an Australian tender",
+   "flag": "buy"
+  },
+  {
+   "year": "2016",
+   "change": "G 300 CDI Professional cab-chassis launches in Australia at A$119,900; the wagon follows in 2017",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "Civilian production ends",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Military production ends; the W464, announced on 1 October 2021, takes over",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Lots of W461s are ex-military trucks, and the line between a late W460 and an early W461 is blurry. Let the chassis number decide, not the seller's description.",
+  "items": [
+   {
+    "head": "Chassis number",
+    "body": "BaT-sold W461s carry the 461 model code: 1991–92 250 GD Wolfs are WDB461401…, 1993–94 290 GDs WDB46133…. Puch-badged 230 GEs use a VAG prefix (VAG461217…)."
+   },
+   {
+    "head": "Wolf or W460?",
+    "body": "Expedition Motor Company, which restores them, calls the 250 GD Wolf an ex-military W461, and Wikipedia lists the 1990–91 Wolf under the W461. Check the VIN and data card on the truck in front of you."
+   },
+   {
+    "head": "24-volt electrics",
+    "body": "Military W461s run 24-volt systems, and parts suppliers stock 24 V components such as blower motors. The Australian civilian Professional wagon is described as carrying two 12-volt batteries. Check before wiring in accessories."
+   },
+   {
+    "head": "Running gear",
+    "body": "Wikipedia describes the W461 as the narrow W460 body with the W463 powertrain. The G 300 CDI Professional has permanent 4WD with a 50:50 split, a two-speed transfer case and three diff locks you can select on the move."
+   },
+   {
+    "head": "Engine swaps",
+    "body": "OM606 and other turbodiesel conversions turn up often on Bring a Trailer, and several have sold for $45,000–70,000. Check the engine number against the model badge."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,210 kg (4,872 lb)",
+   "note": "G 300 CDI Professional cab-chassis, 4X4 Australia"
+  },
+  {
+   "k": "Payload",
+   "v": "about 2,080 kg (4,586 lb)",
+   "note": "cab-chassis, 4,490 kg GVM; 6,700 kg GCM"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "96–97 L (25.4–25.6 US gal)",
+   "note": "WhichCar (wagon) / 4X4 Australia (cab-chassis)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "245 mm (9.6 in)",
+   "note": "cab-chassis"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "38° / 35° / 22°",
+   "note": "cab-chassis"
+  },
+  {
+   "k": "Crawl ratio",
+   "v": "41.0:1"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,410 kg (5,313 lb)",
+   "note": "cab-chassis"
+  },
+  {
+   "k": "Engine",
+   "v": "135 kW / 400 N·m",
+   "note": "OM642 3.0 V6 turbodiesel, G 300 CDI Professional"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Ex-military Wolfs and Puch 230 GEs have become cult trucks in the US; clean, well-documented examples and sensible turbodiesel conversions sell for the most.",
+  "ranges": [
+   {
+    "cond": "Rough / needs work",
+    "range": "$20k–30k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$30k–60k"
+   },
+   {
+    "cond": "Excellent, restored or modified",
+    "range": "$60k–116k"
+   }
+  ],
+  "note": "Based on 31 sold Bring a Trailer auctions from January 2025 to October 2026 ($20,500–$116,000, median $54,500). Puch 230 GEs sold for $21,000–64,121 and 250 GD Wolfs for $20,500–116,000. Late Professional-series trucks almost never appear in the US."
+ },
+ "docs": [
+  {
+   "name": "Mercedes-Benz XENTRY WIS / WIS Classic",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis",
+   "note": "Official Mercedes repair information via B2B Connect; check coverage for your model before buying access"
+  },
+  {
+   "name": "Mercedes-Benz Classic digital vehicle data card",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/",
+   "note": "Covers most cars built 1986–2010; €130 via the Mercedes-Benz Classic Store, with proof of ownership"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The W461 was never sold new in the US, so every American example is a private import. NHTSA allows any vehicle at least 25 years old to be imported, counted from its date of manufacture and declared under Box 1 of the HS-7 form. In late 2026 that means trucks built up to late 2001: Wolfs, 230 GEs, 290 GDs and early 290 GD Turbodiesels. G 270 CDIs and later Professionals aren't eligible yet. Check your state's titling and emissions rules before you bid."
+  ]
+ },
+ "production": {
+  "intro": "The W461 was the G for armies, authorities and NGOs, built from 1990 until military production ended in 2022.",
+  "items": [
+   {
+    "k": "Bundeswehr 'Wolf' order",
+    "v": "12,500 vehicles (1992)"
+   },
+   {
+    "k": "Civilian production",
+    "v": "Ended 2019"
+   },
+   {
+    "k": "Military production",
+    "v": "Ended 2022"
+   }
+  ],
+  "editions": [
+   {
+    "name": "G 280 CDI EDITION.30 PUR",
+    "years": "2009",
+    "note": "30th-anniversary civilian edition"
+   },
+   {
+    "name": "G 300 CDI Professional",
+    "years": "2010–2019",
+    "note": "Civilian working G; wagon, van, cabrio and cab-chassis"
+   },
+   {
+    "name": "Greenliner",
+    "years": "2006",
+    "note": "Bundeswehr long-wheelbase G 270 CDI and G 300 fleet renewal"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Unimog meets G-Class",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
+   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, with off-road demos, recovery courses and historic Gs; 2026 edition held 5–6 September"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Tire Wheel Guide — 1993 Mercedes-Benz G-Class tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/mercedes/g-class/1993/"
+  },
+  {
+   "name": "Expedition Portal — Tires for 300GD",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1767327"
+  },
+  {
+   "name": "Mercedes-Benz G-Class — Milestones of development",
+   "url": "https://ggb.mercedes-benz.com/en/success-stories/milestones-of-development"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Bring a Trailer — W461 G-Class results",
+   "url": "https://bringatrailer.com/mercedes-benz/w461-g-class/"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect — XENTRY WIS (incl. WIS Classic)",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis"
+  },
+  {
+   "name": "Driven Car Guide — Mercedes now sells digital 'birth certificates' for modern classics (Aug 2026)",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
+  },
+  {
+   "name": "4X4 Australia — 2016 Mercedes-Benz W461 G300 CDI cab-chassis revealed",
+   "url": "https://www.4x4australia.com.au/reviews/road-tests/2016-mercedes-benz-w461-g300-cdi-cab-chassis-revealed"
+  },
+  {
+   "name": "WhichCar — 2017 Mercedes-Benz G300 CDI Professional wagon available in Australia",
+   "url": "https://whichcar.com.au/car-news/2017-mercedes-benz-g300-cdi-professional-wagon-available-in-australia"
+  },
+  {
+   "name": "Expedition Motor Company — FAQ",
+   "url": "https://www.expeditionmotorcompany.com/faq/"
+  },
+  {
+   "name": "GwagenParts — ROGUE lift spring set (ABS/ESP warning with larger tires)",
+   "url": "https://www.gwagenparts.com/?p=93970"
+  },
+  {
+   "name": "Expedition Imports — W460 heating & cooling parts (12 V / 24 V blowers)",
+   "url": "https://expedition-imports.com/g-wagon-parts/w460-g-class/heating-and-cooling/"
+  },
+  {
+   "name": "Bring a Trailer — 1992 Mercedes-Benz 250GD Wolf (chassis number)",
+   "url": "https://bringatrailer.com/listing/1992-mercedes-benz-250gd-9/"
+  },
+  {
+   "name": "Bring a Trailer — 1994 Mercedes-Benz 290GD (chassis number)",
+   "url": "https://bringatrailer.com/listing/1994-mercedes-benz-290gd-6/"
+  },
+  {
+   "name": "Bring a Trailer — 1993 Puch 230GE (chassis number)",
+   "url": "https://bringatrailer.com/listing/1993-puch-230ge-6/"
+  }
+ ]
+}
