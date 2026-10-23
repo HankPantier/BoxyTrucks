@@ -19,7 +19,7 @@
   <div class="grid" style="--min:290px">
     {% for f in fam_list %}
     <article class="card">
-      <a href="{{ root }}models/{{ f.slug }}/index.html" style="display:block">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ f.maker }} {{ f.name }} off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)">{% else %}<div class="ph" style="height:280px">[PHOTO]</div>{% endif %}</a>
+      <a href="{{ root }}models/{{ f.slug }}/index.html" style="display:block">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ mlabel(f.maker, f.name) }} off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)">{% else %}<div class="ph" style="height:280px">[PHOTO]</div>{% endif %}</a>
       <div class="body">
         <span class="eyebrow">{{ f.maker }}</span>
         <h3><a href="{{ root }}models/{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.name }}</a></h3>

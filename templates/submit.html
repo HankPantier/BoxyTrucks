@@ -39,7 +39,7 @@
             <label for="f-family">Family
               <select id="f-family" name="family" required>
                 <option value="">Choose one</option>
-                {% for f in fam_list %}<option value="{{ f.slug }}">{{ f.maker }} {{ f.name }}</option>{% endfor %}
+                {% for f in fam_list %}<option value="{{ f.slug }}">{{ mlabel(f.maker, f.name) }}</option>{% endfor %}
                 <option value="other">Something else boxy</option>
               </select>
             </label>

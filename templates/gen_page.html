@@ -5,7 +5,7 @@
 <section class="hero-stack">
   <div class="hs-img{% if not p.hero_photo %} no-photo{% endif %}">
     {% if p.hero_photo %}<img src="{{ img(fam.slug, p.hero_photo) }}" alt="{{ hero_alt }}"{% if p.hero_focus %} style="object-position:{{ p.hero_focus }}"{% endif %} fetchpriority="high">{% endif %}
-    <div class="wrap hs-top"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ p.title }}</span></nav></div>
+    <div class="wrap hs-top"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ mlabel(fam.maker, fam.name) }}</a><span>/</span><span>{{ p.title }}</span></nav></div>
     {% if p.hero_note and p.hero_photo %}<div class="hero-tag">{{ p.hero_note }}</div>{% endif %}
   </div>
   <div class="hs-band"><div class="wrap">
@@ -106,7 +106,7 @@
       <section id="production" class="sub">
         <h2 class="h-section">Production &amp; special editions</h2>
         {% if pr.intro %}<p class="sub-intro">{{ pr.intro|lk }}</p>{% endif %}
-        {% if pr['items'] %}<div class="kvgrid">{% for it in pr['items'] %}<div><span class="k">{{ it.k }}</span><span class="v">{{ it.v }}</span></div>{% endfor %}</div>{% endif %}
+        {% if pr.get('items') %}<div class="kvgrid">{% for it in pr.get('items') %}<div><span class="k">{{ it.k }}</span><span class="v">{{ it.v }}</span></div>{% endfor %}</div>{% endif %}
         {% if pr.editions %}<div class="rows editions">{% for e in pr.editions %}<div class="row"><span class="t">{{ e.name }}</span><span class="m">{{ e.years }}</span><span class="n">{{ e.note|lk }}</span></div>{% endfor %}</div>{% endif %}
         {% if pr.paint %}<p class="sub-note">{{ pr.paint|lk }}</p>{% endif %}
       </section>
@@ -117,7 +117,7 @@
       {% if 'Buying one' in groups %}
       <div class="part" id="part-3">
         <header class="part-head"><span class="no">PART 03</span><h2>Buying one</h2><p>What to pay, what to check, and how to tell a good one from a clone.</p></header>
-      {% if x['values'] %}{% set v = x['values'] %}
+      {% if x.get('values') %}{% set v = x.get('values') %}
       <section id="values" class="sub">
         <h2 class="h-section">What they cost</h2>
         {% if v.intro %}<p class="sub-intro">{{ v.intro|lk }}</p>{% endif %}
@@ -137,24 +137,24 @@
       <section id="identify" class="sub">
         <h2 class="h-section">Spotting the real thing</h2>
         {% if idf.intro %}<p class="sub-intro">{{ idf.intro|lk }}</p>{% endif %}
-        <ol class="checks">{% for n in idf['items'] %}<li><span class="no">ID</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>
+        <ol class="checks">{% for n in (idf.get('items') or []) %}<li><span class="no">ID</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>
       </section>
       {% endif %}
 
-      {% if x.recalls %}{% set rc = x.recalls %}{% if rc['items'] or rc.tsbs or rc.lookup in ('US', 'UK') %}
+      {% if x.recalls %}{% set rc = x.recalls %}{% if rc.get('items') or rc.tsbs or rc.lookup in ('US', 'UK') %}
       <section id="recalls" class="sub">
         <h2 class="h-section">Recalls &amp; service bulletins</h2>
         {% if rc.lookup == 'US' %}<div class="lookup"><p>Open recalls follow the VIN, not the model. Run yours through NHTSA before you buy, and ask the seller for dealer records showing recall work.</p><a class="btn solid" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check a VIN at NHTSA ↗</a></div>
         {% elif rc.lookup == 'UK' %}<div class="lookup"><p>For UK-registered trucks, check open recalls by registration with the DVSA.</p><a class="btn solid" href="https://www.check-vehicle-recalls.service.gov.uk/" target="_blank" rel="noopener">DVSA recall check ↗</a></div>{% endif %}
-        {% if rc['items'] %}<span class="label sub-label">Notable recalls</span><div class="rows recall-rows">{% for r in rc['items'] %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.years }}{% if r.ref %} · {{ r.ref }}{% endif %}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
+        {% if rc.get('items') %}<span class="label sub-label">Notable recalls</span><div class="rows recall-rows">{% for r in rc.get('items') %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.years }}{% if r.ref %} · {{ r.ref }}{% endif %}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
         {% if rc.tsbs %}<span class="label sub-label">Service bulletins &amp; known fixes</span><div class="rows recall-rows">{% for r in rc.tsbs %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.ref }}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
       </section>
       {% endif %}{% endif %}
 
-      {% if x['import'] %}
+      {% if x.get('import') %}
       <section id="import" class="sub">
         <h2 class="h-section">Importing &amp; legality</h2>
-        <div class="note-box">{% for para in x['import'].paragraphs %}<p>{{ para|lk }}</p>{% endfor %}<p class="sub-note" style="margin:0">Rules change and vary by state and country. Confirm with your DMV and a licensed importer before you buy.</p></div>
+        <div class="note-box">{% for para in x.get('import').paragraphs %}<p>{{ para|lk }}</p>{% endfor %}<p class="sub-note" style="margin:0">Rules change and vary by state and country. Confirm with your DMV and a licensed importer before you buy.</p></div>
       </section>
       {% endif %}
 

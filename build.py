@@ -226,13 +226,13 @@ def gen_ld(fam, g, page):
     img = [SITE_URL + f'img/{fam["slug"]}/{ph["file"]}' for ph in page.get('photos', [])][:4]
     strip = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
     lead = strip((page.get('story') or [{}])[0].get('paragraphs', [''])[0])
-    art = {'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{fam["maker"]} {page["title"]}: history, buying guide, repairs and FAQs',
+    art = {'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{mlabel(fam["maker"], page["title"])}: history, buying guide, repairs and FAQs',
            'description': strip(page.get('verdict', g['summary'])), 'abstract': lead[:500], 'image': img,
            'datePublished': '2026-10-22', 'dateModified': date.today().isoformat(),
            'author': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL},
            'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL},
            'mainEntityOfPage': SITE_URL + f'models/{fam["slug"]}/{g["slug"]}.html',
-           'about': {'@type': 'Car', 'name': f'{fam["maker"]} {page["title"]}', 'brand': {'@type': 'Brand', 'name': fam['maker'] if fam['maker'] != 'Lexus' else 'Lexus'}, 'model': page['title'], 'vehicleModelDate': g.get('years', '')}}
+           'about': {'@type': 'Car', 'name': mlabel(fam["maker"], page["title"]), 'brand': {'@type': 'Brand', 'name': fam['maker'] if fam['maker'] != 'Lexus' else 'Lexus'}, 'model': page['title'], 'vehicleModelDate': g.get('years', '')}}
     out = [art]
     if page.get('faq'):
         out.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
@@ -305,8 +305,8 @@ def main():
         fp = pages[slug]
         res = resources[slug]
         main_page = fp.get(flagship.get(slug)) if flagship.get(slug) else None
-        render('family.html', f'models/{slug}/index.html', '../../', fam=fam, page=main_page, res=res, og_image=(f'img/{slug}/{fam["hero_photo"]}' if fam.get('hero_photo') else None), crumbs=[('Models', 'models/'), (f'{fam["maker"]} {fam["name"]}', f'models/{slug}/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': f'{fam["maker"]} {fam["name"]}', 'description': fam['verdict'], 'url': SITE_URL + f'models/{slug}/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': f'{fam["maker"]} {fam["name"]} {g["name"]}', 'url': SITE_URL + f'models/{slug}/{g["slug"]}.html'} for i, g in enumerate(fam['generations'])]}}], reading=[dict(r, gen=k.split('/')[1]) for k, v in reading.items() if k.startswith(slug + '/') for r in v], active='models',
-               title=f'{fam["maker"]} {fam["name"]} — BoxyTrucks', description=fam['verdict'], credits=credits_of(fp.values()))
+        render('family.html', f'models/{slug}/index.html', '../../', fam=fam, page=main_page, res=res, og_image=(f'img/{slug}/{fam["hero_photo"]}' if fam.get('hero_photo') else None), crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': f'{mlabel(fam["maker"], fam["name"])}', 'description': fam['verdict'], 'url': SITE_URL + f'models/{slug}/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': f'{mlabel(fam["maker"], fam["name"])} {g["name"]}', 'url': SITE_URL + f'models/{slug}/{g["slug"]}.html'} for i, g in enumerate(fam['generations'])]}}], reading=[dict(r, gen=k.split('/')[1]) for k, v in reading.items() if k.startswith(slug + '/') for r in v], active='models',
+               title=f'{mlabel(fam["maker"], fam["name"])} — BoxyTrucks', description=fam['verdict'], credits=credits_of(fp.values()))
         for g in fam['generations']:
             page = fp.get(g['slug'])
             if page:
@@ -331,13 +331,13 @@ def main():
                 hero_alt = next((ph['alt'] for ph in page.get('photos', []) if ph['file'] == page.get('hero_photo')), f'{page.get("title", g["name"])} off road')
                 page.setdefault('title', g['name'])
                 render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt,
-                       og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{fam["maker"]} {fam["name"]}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
+                       og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
                        part_search=suppliers_cfg.get(slug, []),
-                       yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=f'{fam["maker"]} {page["title"]} — BoxyTrucks',
+                       yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=f'{mlabel(fam["maker"], page["title"])} — BoxyTrucks',
                        description=page.get('verdict', g['summary']), credits=credits_of([page]))
             else:
-                render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{fam["maker"]} {fam["name"]}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
-                       title=f'{fam["maker"]} {fam["name"]} {g["name"]} — BoxyTrucks', description=g['summary'], credits='')
+                render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
+                       title=f'{mlabel(fam["maker"], fam["name"])} {g["name"]} — BoxyTrucks', description=g['summary'], credits='')
 
     def href(root, slug, gen):
         return f'{root}models/{slug}/{gen}.html'
@@ -417,9 +417,9 @@ def main():
                 continue
             h = href('../', slug, gs)
             if p.get('repairs'):
-                rep_groups.append({'maker': f'{fam["maker"]} {fam["name"]}', 'model': p['title'], 'href': h, 'repairs': p['repairs']})
+                rep_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'repairs': p['repairs']})
             if p.get('mods'):
-                mod_groups.append({'maker': f'{fam["maker"]} {fam["name"]}', 'model': p['title'], 'href': h, 'mods': p['mods'], 'fam': slug, 'gen': gs, 'order': len(mod_groups)})
+                mod_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'mods': p['mods'], 'fam': slug, 'gen': gs, 'order': len(mod_groups)})
         res_groups.append({'maker': fam['maker'], 'name': fam['name'], 'href': f'../models/{slug}/index.html', 'res': resources[slug]})
 
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s.', credits='',
@@ -448,7 +448,7 @@ def main():
     for slug in FAMILY_ORDER:
         if slug not in fams: continue
         fam = fams[slug]
-        add('Family', f'{fam["maker"]} {fam["name"]}', f'models/{slug}/index.html', f'{fam["maker"]} {fam["name"]}', ' '.join(fam.get('intro', [])) + ' ' + fam['verdict'])
+        add('Family', f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/index.html', f'{mlabel(fam["maker"], fam["name"])}', ' '.join(fam.get('intro', [])) + ' ' + fam['verdict'])
         for g in fam['generations']:
             p = pages[slug].get(g['slug'])
             model = mlabel(fam['maker'], p['title'] if p else g['name'])
@@ -465,7 +465,7 @@ def main():
                 add('Service', s['item'], u + '#service', model, s.get('spec', '') + ' ' + s.get('note', ''))
         for kind, items in resources[slug].items():
             for it in items:
-                add('Resource', it['name'], it['url'], f'{fam["maker"]} {fam["name"]}', (it.get('focus') or it.get('note') or '') + ' ' + {'youtube': 'YouTube channel', 'instagram': 'Instagram account', 'forums': 'Forum', 'other': 'Reference'}[kind])
+                add('Resource', it['name'], it['url'], f'{mlabel(fam["maker"], fam["name"])}', (it.get('focus') or it.get('note') or '') + ' ' + {'youtube': 'YouTube channel', 'instagram': 'Instagram account', 'forums': 'Forum', 'other': 'Reference'}[kind])
     for s in suppliers:
         if s.get('url'):
             add('Supplier', s['name'], s['url'], s.get('what', ''), s.get('what', ''))

@@ -3,7 +3,7 @@
 {% block content %}
 <section class="band-night">
   <div class="wrap" style="padding-top:28px;padding-bottom:56px;display:flex;flex-direction:column;gap:22px">
-    <nav class="crumbs" aria-label="Breadcrumb" style="padding:0"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ g.name }}</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb" style="padding:0"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ mlabel(fam.maker, fam.name) }}</a><span>/</span><span>{{ g.name }}</span></nav>
     <div class="eyebrow brass">{{ fam.maker|upper }} {{ fam.name|upper }} · {{ g.years }}</div>
     <h1 style="font-size:clamp(44px,6vw,88px);line-height:0.95;letter-spacing:-0.03em">{{ g.name }}</h1>
     {% if g.codes %}<div class="chips">{% for c in g.codes %}<span class="chip brass">{{ c }}</span>{% endfor %}</div>{% endif %}
