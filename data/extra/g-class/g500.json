@@ -99,7 +99,7 @@
   "items": [
    {
     "head": "US VIN",
-    "body": "Mercedes-Benz USA G 500s (2002–2008) start WDCYR49E; NHTSA's decoder reads that as a G-Class G 500 with the 5.0-litre V8. Position 10 is the model year and position 11 is X for the Graz plant. A 2003 G 55 AMG reads WDCYR46E instead."
+    "body": "Mercedes-Benz USA G 500s (2002–2008) start WDCYR49E; NHTSA's decoder reads that as a G-Class with a 5.0-litre engine built in Graz. Position 10 is the model year and position 11 is X for the Graz plant. A 2003 G 55 AMG reads WDCYR46E instead."
    },
    {
     "head": "Europa trucks",
@@ -239,8 +239,8 @@
   {
    "kind": "event",
    "name": "Unimog meets G-Class",
-   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
-   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, with off-road demos and recovery courses; 2026 edition held 5–6 September"
+   "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/",
+   "note": "Unimog Museum weekend in Gaggenau, Germany, with off-road demonstrations and rides in nearby Ötigheim; the 2026 edition ran 5–6 September"
   }
  ],
  "sources": [
@@ -325,10 +325,6 @@
    "url": "https://g-class-experience.com/en/"
   },
   {
-   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
-   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
-  },
-  {
    "name": "NHTSA — Recall 10V366000 (G-Class front turn signals)",
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000"
   },
@@ -343,6 +339,10 @@
   {
    "name": "Bring a Trailer — 2003 Mercedes-Benz G55 AMG (VIN listing)",
    "url": "https://bringatrailer.com/listing/2003-mercedes-benz-g55-amg-21/"
+  },
+  {
+   "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
+   "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
   }
  ]
 }

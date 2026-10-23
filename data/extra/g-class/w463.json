@@ -101,6 +101,13 @@
     "ref": "NHTSA 19V787000",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000",
     "summary": "The emergency-call system could send an inaccurate location because its clock is wrong."
+   },
+   {
+    "title": "Incorrect software configuration after a service repair",
+    "years": "2014 G 550",
+    "ref": "NHTSA 22V168000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V168000",
+    "summary": "Control units may have been updated with the wrong software configuration during a repair, which can cause loss of drive power, reduced exterior lighting or loss of stability and traction control; dealers correct the software."
    }
   ]
  },
@@ -306,7 +313,7 @@
   "items": [
    {
     "k": "G-Class production, 1979–2018",
-    "v": "c. 400,000 (all series, per Classic & Sports Car)"
+    "v": "c. 400,000 (all series, per Classic & Sports Car) — but Mercedes only built the 400,000th G in December 2020 (Wikipedia), so the true 1979–2018 figure is lower"
    },
    {
     "k": "100,000th G",
@@ -366,8 +373,8 @@
   {
    "kind": "event",
    "name": "Unimog meets G-Class",
-   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
-   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, with off-road demos and recovery courses; 2026 edition held 5–6 September"
+   "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/",
+   "note": "Unimog Museum weekend in Gaggenau, Germany, with off-road demonstrations and rides in nearby Ötigheim; the 2026 edition ran 5–6 September"
   }
  ],
  "sources": [
@@ -472,10 +479,6 @@
    "url": "https://g-class-experience.com/en/"
   },
   {
-   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
-   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
-  },
-  {
    "name": "Wheel-Size — Mercedes-Benz G-Class W463 1990–2008",
    "url": "https://www.wheel-size.com/size/mercedes/g-class/w463-1990-2008/"
   },
@@ -518,6 +521,14 @@
   {
    "name": "NHTSA — Recall 19V787000",
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000"
+  },
+  {
+   "name": "NHTSA — Recall 22V168000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V168000"
+  },
+  {
+   "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
+   "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
   }
  ]
 }

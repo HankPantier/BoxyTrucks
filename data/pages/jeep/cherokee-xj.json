@@ -30,7 +30,7 @@
    "heading": "CHRYSLER KEEPS THE BOX",
    "paragraphs": [
     "Chrysler inherited the XJ when it bought AMC in 1987. The plan was to replace it with the bigger ZJ Grand Cherokee, but the XJ sold too well to kill, so both were built from 1993. The 1997 facelift brought a steel liftgate, a new dash with dual airbags, and a stiffer unibody for less noise and vibration. The 2000–01 trucks got coil-on-plug ignition and 193 hp, and also a cylinder head casting, '0331', that is known to crack between cylinders 3 and 4.",
-    "Underneath, XJs differ by year and option. The front axle is always a Dana 30: high-pinion until 1999, low-pinion for 2000–01. At the rear you'll find a Dana 35, a Chrysler 8.25 or, on some 1987–91 tow-package trucks, a Dana 44. The Up Country package added an inch of lift, skid plates and tow hooks. The XJ also spawned the Comanche MJ pickup (1986–92) and a woodgrain Wagoneer Limited that shared its name with the full-size [[jeep/grand-wagoneer|Grand Wagoneer]]."
+    "Underneath, XJs differ by year and option. The front axle is always a Dana 30: high-pinion until 1999, low-pinion for 2000–01. At the rear you'll find a Dana 35, a Chrysler 8.25 or, on some 1987–91 tow-package trucks, a Dana 44. The Up Country package added an inch of lift and, per Wikipedia, deleted the rear anti-roll bar. The XJ also spawned the Comanche MJ pickup (1986–92) and a woodgrain Wagoneer Limited that shared its name with the full-size [[jeep/grand-wagoneer|Grand Wagoneer]]."
    ]
   },
   {
@@ -167,11 +167,11 @@
    "time": "≈ A weekend",
    "cost": "Parts plus labor",
    "symptoms": "Unexplained coolant loss, brown or dirty coolant, milky residue under the oil cap, and often a recent overheat. Wikipedia says the crack sits between cylinders 3 and 4 and often shows as a tan line with the valve cover off.",
-   "fix": "Confirm with a cooling-system pressure test and by looking through the oil filler (no 'TUPY' mark means an original 0331). Drain the coolant and remove the intake and exhaust manifolds, the coil rail, the valve cover and the rocker assemblies, keeping pushrods in order. Remove the head bolts and lift the head off. Change the oil and filter, then flush the oil again after the first short run to get coolant out. Fit a revised or aftermarket head; never another 0331. Use a new gasket and head bolts, torque in sequence to the service-manual spec, then refill and bleed the cooling system. Fix the cooling problem that probably caused the crack.",
+   "fix": "Confirm with a cooling-system pressure test and by looking through the oil filler (no 'TUPY' mark means an original 0331). Drain the coolant and remove the intake and exhaust manifolds, the coil rail, the valve cover and the rocker assemblies, keeping pushrods in order. Remove the head bolts and lift the head off. Change the oil and filter, then flush the oil again after the first short run to get coolant out. Fit a revised or aftermarket head; never another 0331, and confirm the casting with the seller before you buy (Wikipedia notes even 'TUPY' heads occasionally crack). Use a new gasket and head bolts, torque in sequence to the service-manual spec, then refill and bleed the cooling system. Fix the cooling problem that probably caused the crack.",
    "tools": "Torque wrench · head bolt sequence and spec from FSM [CONFIRM IN MANUAL] · gasket scraper · pushrod organizer · coolant pressure tester",
    "parts": [
     {
-     "name": "Crown Automotive 53010334 cylinder head, 1999–2006 TJ/XJ 4.0L",
+     "name": "Crown Automotive 53010334 cylinder head, 1999–2006 TJ/XJ 4.0L (listing doesn't state the casting; confirm it isn't an 0331 before buying)",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/crown-automotive/cylinder-head-99-06-jeep-wrangler-tj-and-cherokee-xj-40l-engine"
     },
@@ -375,7 +375,7 @@
   }
  ],
  "baseline_service": {
-  "intro": "XJs are cheap, so most have been run on a budget. Assume nothing has been done. The figures below come from the 2001 owner's manual as quoted on NAXJA, with ExtremeTerrain's XJ service guide where noted. Where they disagree, as on AW4 fluid and coolant capacity, check the label on your truck or the manual for your year.",
+  "intro": "XJs are cheap, so most have been run on a budget. Assume nothing has been done. The figures below come from a NAXJA member's fluid-capacity summary (posted in a thread titled '2001 owner's manual fluids', though the post doesn't say which year each figure applies to), with ExtremeTerrain's XJ service guide where noted. The two disagree on AW4 fluid, coolant capacity, transfer-case fill and manual-gearbox oil grade, so check the label on your truck or the manual for your year.",
   "items": [
    {
     "item": "Engine oil & filter",
@@ -412,7 +412,7 @@
     "item": "Spark plugs & ignition",
     "spec": "Copper plugs, 0.035 in gap (4.0) · cap, rotor and wires through 1999 · coil rail on 2000–01",
     "interval": "Baseline now",
-    "note": "On 2000–01 coil-on-plug trucks, NAXJA warns the expensive coil rail sometimes gets blamed for misfires it didn't cause. Rule out heat soak and plugs first.",
+    "note": "On 2000–01 coil-on-plug trucks, a NAXJA member notes the coil rail is expensive to replace and gets blamed for misfire codes. Rule out plugs and wiring first.",
     "parts": [
      {
       "name": "OMIX 17256.06 tune-up kit, 1991–93 XJ 4.0L",
@@ -461,7 +461,7 @@
    },
    {
     "item": "Automatic transmission (AW4)",
-    "spec": "Dexron III/Mercon per the 2001 owner's manual quote (ExtremeTerrain lists ATF+4) · 4 qt drain-and-fill, 8 qt with filter",
+    "spec": "Dexron III/Mercon per the NAXJA summary (ExtremeTerrain lists ATF+4; a NAXJA reply says Chrysler approved ATF+4 for the AW4 from late 2007) · 4 qt drain-and-fill, 8 qt with filter [CONFIRM IN MANUAL]",
     "interval": "Baseline now",
     "note": "Do a pan drop and filter change, not a pressure flush. Check the throttle-valve cable adjustment if shifts are harsh or late.",
     "parts": [
@@ -479,7 +479,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "AX-15: 3.32 qt 75W-90 GL-3/GL-4 (not GL-5) · AX-5: 3.3 qt same · NV3550: 2.1 qt Mopar 04874464AA or equivalent",
+    "spec": "AX-15: 3.32 qt 75W-90 GL-3/GL-4 (not GL-5) · AX-5: 3.3 qt same · NV3550: 2.1 qt Mopar 04874464AA or equivalent · ExtremeTerrain lists GL-5 for the AX-15 and AX-5 [CONFIRM IN MANUAL]",
     "interval": "Baseline now",
     "note": "NAXJA notes some owner's manuals wrongly list GL-5 for the Aisin boxes.",
     "parts": [
@@ -492,7 +492,7 @@
    },
    {
     "item": "Transfer case (NP231 / NP242)",
-    "spec": "NP231: 2.2 pt (1.0 L) · NP242: 2.85 pt (1.3 L) · Dexron III/Mercon or ATF+3/ATF+4",
+    "spec": "NP231: 2.2 pt (1.0 L) · NP242: 2.85 pt (1.3 L) · Dexron III/Mercon or ATF+3/ATF+4 · ExtremeTerrain lists 1.6 qt ATF+4 for the NP231 [CONFIRM IN MANUAL]",
     "interval": "Baseline now",
     "note": "If it pops out of 4WD or is hard to shift back to 2WD, the case may be worn.",
     "parts": [
@@ -629,7 +629,7 @@
  "faq": [
   {
    "q": "What's the biggest tire I can fit without a lift?",
-   "a": "NAXJA's consensus is 235/75R15 (about 29 in) on the stock 15x7 wheels with 5.25 in backspacing, which fits fine. A 30x9.50R15 is the practical limit. One owner's '88 rubbed only the front control arms at full lock, which a steering-stop adjustment fixes at the cost of turning circle, and some later trucks have rubbed the rear fenders. A 255/70R16 (about 30 in) rubbed the rear on a loaded 2000. Less backspacing pushes the tire out toward the flares.",
+   "a": "In a NAXJA thread, members agree a 235/75R15 (about 29 in) on the stock 15x7 wheels with 5.25 in backspacing fits fine, and treat a 30x9.50R15 as the practical limit. One owner's '88 on 30x9.50s rubbed only the front control arms at full lock, which a steering-stop adjustment fixes at the cost of turning circle. A 255/70R16 (about 30 in) rubbed the rear fenders on a loaded 2000. Less backspacing pushes the tire out toward the flares.",
    "src": "NAXJA"
   },
   {
@@ -639,7 +639,7 @@
   },
   {
    "q": "What's the 0331 head problem?",
-   "a": "The 2000–01 4.0 got a head with casting number 0331 that can crack between cylinders 3 and 4, letting coolant into the oil. Look through the oil filler between the cylinder 3 and 4 exhaust rockers: a 'TUPY' mark means a revised head. Most failures follow an overheat, so keep the cooling system healthy, and never replace a cracked one with another 0331.",
+   "a": "The 2000–01 4.0 got a head with casting number 0331 that can crack between cylinders 3 and 4, letting coolant into the oil. Look through the oil filler between the cylinder 3 and 4 exhaust rockers: a 'TUPY' mark means a revised head, though Wikipedia says even those occasionally crack. Most failures follow an overheat, so keep the cooling system healthy, and never replace a cracked one with another 0331.",
    "src": "WIKIPEDIA · NAXJA"
   },
   {
@@ -654,7 +654,7 @@
   },
   {
    "q": "What fluids and capacities does it take?",
-   "a": "Per the 2001 owner's manual as quoted on NAXJA: 4.0 oil 6 qt with filter, coolant 10.5 qt, AW4 4 qt drain-and-fill (Dexron III/Mercon), NP231 2.2 pt, Dana 30 2.5 pt 75W-90, Dana 35 3.5 pt, 8.25 4.4 pt, plus friction modifier for Trac-Lok. ExtremeTerrain lists ATF+4 for the AW4 and 12 qt of coolant. Check your manual. See 'After you buy it' for the full list.",
+   "a": "Per a NAXJA member's capacity summary (year not stated): 4.0 oil 6 qt with filter, coolant 10.5 qt, AW4 4 qt drain-and-fill (Dexron III/Mercon), NP231 2.2 pt, Dana 30 2.5 pt 75W-90, Dana 35 3.5 pt, 8.25 4.4 pt, plus friction modifier for Trac-Lok. ExtremeTerrain lists ATF+4 for the AW4, 12 qt of coolant, 1.6 qt for the NP231 and GL-5 oil for the AX-15, so the sources conflict: check your manual [CONFIRM IN MANUAL]. See 'After you buy it' for the full list.",
    "src": "NAXJA · EXTREMETERRAIN"
   },
   {
@@ -780,7 +780,7 @@
     },
     {
      "name": "Rough Country",
-     "url": "https://www.rough-country.com/"
+     "url": "https://www.roughcountry.com/"
     }
    ]
   }
@@ -965,7 +965,7 @@
    "url": "https://naxja.org/threads/0331-cylinder-head-what-years.1076299"
   },
   {
-   "name": "NAXJA — 2001 owner's manual fluids",
+   "name": "NAXJA — '2001 owner's manual fluids' thread (member's capacity summary)",
    "url": "https://naxja.org/threads/2001-owners-manual-fluids.1042696/"
   },
   {

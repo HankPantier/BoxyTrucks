@@ -1,0 +1,359 @@
+{
+ "fitment": {
+  "stock": [
+   "255/60R18 on 8Jx18 (US SE)",
+   "255/55R19 on 8Jx19 (US HSE)",
+   "255/50R20 on 8.5Jx20 (option)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "offset": "ET53 (stock 18 and 19 in)",
+   "center_bore": "72.6 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "103 lb-ft (140 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/65R18 or 285/60R18 (≈31 in)",
+    "note": "Fit at factory height on 18-inch wheels. 275/65R18 (≈32 in) is about the limit: owners zip-tie the front-left height-sensor wire to the frame rail and reshape the right-rear liner near the third-row heater hoses."
+   },
+   {
+    "lift": "2–2.5 in (lift rods)",
+    "size": "275/65R18 (≈32 in)",
+    "note": "The common choice with Proud Rhino, Johnson or Terrafirma rods; may rub slightly at full lock, cured by heat-reshaping the liner. One owner advises staying under 32 in overall."
+   },
+   {
+    "lift": "+2 in coil conversion",
+    "size": "32–33 in",
+    "note": "Lucky8 says Terrafirma's HD coil conversion clears 32–33 in tyres with minor trimming, depending on wheels and offset."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Driver airbag clockspring wiring can fracture",
+    "years": "2005–2006",
+    "ref": "NHTSA 08V248000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V248000",
+    "summary": "Relative motion between the steering-wheel hub, column cowl and clockspring could fracture the airbag wiring; 37,142 LR3 and Range Rover Sport vehicles covered."
+   },
+   {
+    "title": "Fuel tank internal breather pipe",
+    "years": "2005",
+    "ref": "NHTSA 05V376000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V376000",
+    "summary": "A breather pipe grommet not made to specification can swell, crack and let the pipe detach, allowing fuel into the breather line."
+   },
+   {
+    "title": "Fuel tank breather pipe (follow-up)",
+    "years": "2005–2006",
+    "ref": "NHTSA 07V011000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=07V011000",
+    "summary": "A further campaign on the same internal breather pipe and grommet, which can let excess fuel be discharged."
+   },
+   {
+    "title": "Ignition key removable out of Park",
+    "years": "2005–2006",
+    "ref": "NHTSA 06V131000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=06V131000",
+    "summary": "After the ignition is switched off, the key could be removed with the shifter out of Park, failing FMVSS 114."
+   },
+   {
+    "title": "Automatic transmission parking pawl guide plate",
+    "years": "2006",
+    "ref": "NHTSA 05V502000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V502000",
+    "summary": "Some vehicles were built with an incorrectly manufactured parking pawl guide plate."
+   },
+   {
+    "title": "Seat belt buckle mountings",
+    "years": "2006",
+    "ref": "NHTSA 05V501000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V501000",
+    "summary": "Some vehicles may have incorrectly built seat belt buckle mountings."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "TDV6 crankshaft and crankshaft bearing concerns",
+    "ref": "SSM71816",
+    "summary": "Covers crank and main-bearing failures on the TDV6, caused mainly by incorrectly located bearing shells at assembly; symptoms include a seized engine, a holed block or sump, or a knock with the oil-pressure light.",
+    "url": "https://www.aulro.com/afvb/l319-discovery-3-and-4-a/209763-tdv6-crank-crank-bearing-failures-2-print.html"
+   },
+   {
+    "title": "AMK air suspension compressor upgrade",
+    "ref": "",
+    "summary": "The later AMK compressor (LR072537 kit) is a factory-approved replacement for the original Hitachi unit but needs a software update.",
+    "url": "https://lucky8llc.com/products/air-suspension-compressor-kit"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2004",
+   "change": "Discovery 3 revealed 2 April; British International Motor Show debut in May; UK sales from August with 2.7 TDV6 or 4.4 V8",
+   "flag": "note"
+  },
+  {
+   "year": "2005 MY",
+   "change": "LR3 launches in North America with the 4.4 V8 or the 216 hp 4.0 V6",
+   "flag": "note"
+  },
+  {
+   "year": "2005–06 MY",
+   "change": "Clockspring, fuel-breather and ignition-key recalls; check they were done",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "UK XS and GS trims replace the S (September); Discovery 3 runs the G4 Challenge",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "UK drops the 4.4 V8; US drops the base model and offers the V6 only in the SE",
+   "flag": "note"
+  },
+  {
+   "year": "2008 MY",
+   "change": "US V8 only; seven seats standard; facelift with body-colour bumpers, clear side indicators and Harman/Kardon upgrade",
+   "flag": "buy"
+  },
+  {
+   "year": "2009",
+   "change": "Final year; Discovery 4 / LR4 replaces it in September 2009",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "The same truck wears two names and several powertrains depending on market, and a few European trucks lack the air suspension and Terrain Response that define the model.",
+  "items": [
+   {
+    "head": "LR3 or Discovery 3",
+    "body": "LR3 is the North American and Middle Eastern badge; elsewhere it is the Discovery 3. US trucks are petrol only: 4.4 V8 throughout, 4.0 V6 for 2005–07."
+   },
+   {
+    "head": "Engine badges",
+    "body": "Tailgate badges such as 'V8 SE' show the engine and trim. A diesel in the US is a private import."
+   },
+   {
+    "head": "Coil-sprung base",
+    "body": "The UK/European base model has five seats, coil springs, the 2.7 TDV6 only and no Terrain Response. A missing Terrain Response dial on the console is the giveaway."
+   },
+   {
+    "head": "Facelift (2008–09)",
+    "body": "Body-colour bumpers and clear side indicator lights replace the early trucks' black plastic trim and earlier indicators."
+   },
+   {
+    "head": "Discovery 4 / LR4 lookalikes",
+    "body": "The 2009-on Discovery 4 shares the body structure but has restyled front and rear lights with LEDs, a new grille and smoother bumpers."
+   },
+   {
+    "head": "Compressor type",
+    "body": "Original trucks have a Hitachi air compressor; a later AMK unit means it has been replaced and the software updated."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "1,654 lb (750 kg) unbraked; US V8 launch spec"
+  },
+  {
+   "k": "Payload",
+   "v": "GVWR 7,121 lb (3,230 kg)",
+   "note": "Curb weight 5,426 lb, so roughly 1,700 lb payload"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "22.8 US gal (86.3 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "7.3 in (185 mm) standard · 9.4 in (240 mm) off-road height"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "37.2° / 29.6° / 27.9°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "700 mm (27.6 in)"
+  },
+  {
+   "k": "Wheel articulation",
+   "v": "255 mm front · 330 mm rear"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12–13 city / 17 hwy (4.4 V8)",
+   "note": "4.0 V6: 13/18 (2005). UK TDV6 auto: 27.2 mpg (imperial) per PistonHeads"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,426 lb (2,461 kg)",
+   "note": "US V8 launch spec"
+  },
+  {
+   "k": "Turning circle",
+   "v": "37.6 ft (11.45 m)",
+   "note": "Curb to curb"
+  },
+  {
+   "k": "Low range",
+   "v": "2.93:1",
+   "note": "Two-speed transfer box"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Cheap and flat: most LR3s sell for under $14,000, and clean, low-mileage or well-equipped trucks are the only ones that break $20,000.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$3k–6k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$7k–13k"
+   },
+   {
+    "cond": "Excellent / low mileage",
+    "range": "$15k–23k"
+   }
+  ],
+  "note": "Based on 24 Bring a Trailer LR3 sales from September 2025 to October 2026 ($3,250–23,000, median about $9,100). The top results were a 2007 HSE at $23,000 and a 2007 SE at $21,000; a 2008 'G4 Challenge Nevada Passage' truck sold for $16,600."
+ },
+ "docs": [
+  {
+   "name": "Land Rover TOPIx — workshop manuals and technical information",
+   "url": "https://topix.landrover.jlrext.com/",
+   "note": "Land Rover's official subscription portal for service procedures and owner information."
+  },
+  {
+   "name": "Gap Diagnostic IIDTool",
+   "url": "https://www.gap-diagnostic.com/products/iidtool/",
+   "note": "Not a manual, but the owner-level diagnostic tool that covers Discovery 3/LR3: fault codes, service resets, suspension calibration and height adjustment."
+  }
+ ],
+ "production": {
+  "intro": "The Discovery 3 ran from 2004 until the Discovery 4 replaced it in 2009, with market-specific engines and trims.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "2004–2009"
+   },
+   {
+    "k": "US model years",
+    "v": "2005–2009 (V6 2005–07, V8 throughout)"
+   },
+   {
+    "k": "Russian assembly",
+    "v": "Planned CKD assembly at Ford's Vsevolozhsk plant cancelled in 2007"
+   }
+  ],
+  "editions": []
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "DISCO3.CO.UK",
+   "url": "https://www.disco3.co.uk/forum/",
+   "note": "The specialist Discovery 3/4 owners' community, with regional meets and an IIDTool help forum."
+  },
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "National Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recalls by vehicle API, Land Rover LR3 2005–2009",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=LR3&modelYear=2005"
+  },
+  {
+   "name": "koleso.ee — Land Rover LR3 L319 2005–2009 wheel and tyre sizes",
+   "url": "https://koleso.ee/en/valuveljed/land-rover/lr3/2796/l319-2005-2009/5596"
+  },
+  {
+   "name": "wheel-sizes.com — Land Rover LR3 lug nut size and torque",
+   "url": "https://wheel-sizes.com/lugnuts/land-rover/lr3/"
+  },
+  {
+   "name": "The Auto Channel — 2005 Land Rover LR3 specifications",
+   "url": "https://theautochannel.com/news/2004/09/23/233791.html"
+  },
+  {
+   "name": "Expedition Portal — LR3 tire size to prevent rubbing",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2215551"
+  },
+  {
+   "name": "LandRoverForums — Biggest and best off-road tires for LR3",
+   "url": "https://landroverforums.com/forum/lr3-28/biggest-best-off-road-tires-lr3-44217/"
+  },
+  {
+   "name": "Lucky8 — Terrafirma LR3/LR4 HD +2 in coil conversion",
+   "url": "https://lucky8llc.com/products/terrafirma-lr3-lr4-hd-2-lifted-coil-spring-conversion-kit-1"
+  },
+  {
+   "name": "Lucky8 — LR072537 AMK-style compressor kit",
+   "url": "https://lucky8llc.com/products/air-suspension-compressor-kit"
+  },
+  {
+   "name": "AULRO — TDV6 crank / crank bearing failures (SSM71816)",
+   "url": "https://www.aulro.com/afvb/l319-discovery-3-and-4-a/209763-tdv6-crank-crank-bearing-failures-2-print.html"
+  },
+  {
+   "name": "Wikipedia — Land Rover Discovery",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+  },
+  {
+   "name": "Carbuyer — Used Land Rover Discovery buying guide (2004–2009 Mk3)",
+   "url": "https://www.carbuyer.co.uk/tips-and-advice/154266/used-land-rover-discovery-buying-guide-2004-2009-mk3"
+  },
+  {
+   "name": "J.D. Power — Land Rover LR3 model years and history",
+   "url": "https://www.jdpower.com/cars/history/land-rover/lr3"
+  },
+  {
+   "name": "PistonHeads — Shed buying guide: Land Rover Discovery 3",
+   "url": "https://www.pistonheads.com/news/ph-buying-guides/shed-buying-guide-land-rover-discovery-3/39797"
+  },
+  {
+   "name": "fueleconomy.gov — 2005 Land Rover LR3 4.4 V8",
+   "url": "https://www.fueleconomy.gov/feg/noframes/21430.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2009 Land Rover LR3 4.4 V8",
+   "url": "https://www.fueleconomy.gov/feg/noframes/25690.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover LR3",
+   "url": "https://bringatrailer.com/land-rover/lr3/"
+  },
+  {
+   "name": "Gap Diagnostic — IIDTool",
+   "url": "https://www.gap-diagnostic.com/products/iidtool/"
+  },
+  {
+   "name": "DISCO3.CO.UK — Hitachi compressor rebuild/replace",
+   "url": "https://www.disco3.co.uk/forum/hitachi-compressor-rebuild-replace-192973.html"
+  },
+  {
+   "name": "Rovers North blog — ANARC news, spring 2026",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  }
+ ]
+}

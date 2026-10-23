@@ -30,7 +30,7 @@
    {
     "slug": "w461",
     "name": "W461",
-    "years": "1992 on",
+    "years": "1992–2022",
     "codes": [
      "W461",
      "G 290 GD",
@@ -56,12 +56,12 @@
    {
     "slug": "500ge",
     "name": "500 GE",
-    "years": "1993",
+    "years": "1993–1994",
     "codes": [
      "W463",
      "M117 5.0 V8"
     ],
-    "summary": "The limited-run first V8 G, sold quietly to existing Mercedes customers.",
+    "summary": "The limited-run first V8 G: 446 built, almost all in Amethyst Blue, with no front locker.",
     "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=1993&maxyear=1993",
     "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/",
     "has_page": false
@@ -161,7 +161,7 @@
    },
    {
     "name": "BenzWorld — G-Class",
-    "url": "https://www.benzworld.org/forums/g-class.209/",
+    "url": "https://www.benzworld.org/forums/g-class.36/",
     "note": "General ownership and maintenance"
    },
    {
@@ -212,7 +212,7 @@
     "heading": "THE W463 GOES UPMARKET",
     "paragraphs": [
      "In 1990 the civilian G was reworked as the [[g-class/w463|W463]]: a nicer cabin, full-time four-wheel drive and three fully locking differentials, while the utilitarian [[g-class/w460|W460]] and later [[g-class/w461|W461]] carried on separately. America still couldn’t buy one officially. New Mexico importer [[g-class/europa|Europa International]] converted European trucks to US spec — later persuading Mercedes to build them to DOT standards — and some sold for as much as $135,000.",
-     "The G 500 arrived in 1998 as the first regular-production V8 G — the hand-picked, limited-run [[g-class/500ge|500 GE]] of 1993 had come first — with the 5.0-litre M113, good for 292 hp. When Mercedes finally launched the G officially in the US for the 2002 model year, the G 500 and [[g-class/g55-amg|G 55 AMG]] were the two trucks in the showroom. The G 500 ran in America through 2008; for 2009 the same truck returned as the [[g-class/g550|G 550]] with a 5.5-litre V8 and a seven-speed automatic."
+     "The G 500 arrived in 1998 as the first regular-production V8 G — the hand-picked, limited-run [[g-class/500ge|500 GE]] of 1993 had come first — with the 5.0-litre M113, good for 292 hp. When Mercedes finally launched the G officially in the US for the 2002 model year, the G 500 and [[g-class/g55-amg|G 55 AMG]] were the two trucks in the showroom. The G 500 ran in America through 2008; for 2009 the same truck returned as the [[g-class/g550|G 550]] with a 5.5-litre V8. The seven-speed automatic had already replaced the old five-speed in US G 500s during 2007."
     ]
    }
   ],
@@ -221,7 +221,7 @@
    "title": "America’s G-Class before Mercedes sold one",
    "paragraphs": [
     "Before 2002, the way to buy a new G in the US was Europa International of Santa Fe, New Mexico. Europa did the expensive work of federalizing European trucks, became the exclusive US importer with Small Volume Manufacturer status, and sold [[g-class/europa|300 GEs, G 320s and early G 500s]], federalized and certified for US sale — 50-state legal, not gray-market. In 2002 Mercedes-Benz bought the US distribution rights and Europa turned to service, parts and the models America still never got, like the three-door Cabriolet.",
-    "A Europa G 500 looks like a 2002 truck from outside. Inside it’s simpler: a steering wheel and gauge cluster from the pre-facelift W210 E-Class (yes, the sedan), no factory radio controls on the wheel, and a 5-speed automatic without the later tip-shift gate. Enthusiasts like them for exactly that — fewer US-specific electronics to fail — and prices track 2002-on trucks."
+    "A Europa G 500 looks like a 2002 truck from outside. Inside it’s simpler: a steering wheel and gauge cluster from the pre-facelift W210 E-Class (yes, the sedan), no factory radio controls on the wheel, and a 5-speed automatic without the later tip-shift gate. Some enthusiasts prefer them for exactly that: German Cars For Sale Blog quotes a seller who steers buyers away from the electrically troubled 2002–05 MB-USA trucks and towards Europa Gs."
    ]
   },
   "engineering_intro": "Strip the G 500 down and you find a 1970s off-roader that was never diluted. The body sits on a separate ladder frame. Both axles are solid, located by links and sprung on coils, so a twisted trail keeps the tires planted. Power goes through a two-speed transfer case to all four wheels all the time, and the three differential locks — centre, rear, front — let you turn it into something closer to a tractor when traction runs out.",
@@ -254,7 +254,7 @@
    {
     "k": "GEOMETRY",
     "v": "36° / 31°",
-    "note": "Approach and departure angles, per Hagerty. Track: 56 inches."
+    "note": "Approach and departure angles quoted by Hagerty for the G; Mercedes' 2015 G 550 manual lists 34° / 29°. Track: 56 inches."
    }
   ],
   "engineering_note": {
@@ -267,7 +267,7 @@
     "platform": "W463",
     "engine": "M113 5.0 L V8",
     "output": "292 hp",
-    "note": "First regular-production V8 G. Pre-2002 US trucks came via Europa International; Mercedes sold it officially from MY2002; 2008 was the last US G 500"
+    "note": "First regular-production V8 G. Pre-2002 US trucks came via Europa International; Mercedes sold it officially from MY2002; US trucks switched from the five-speed 722.6 to the seven-speed 722.9 during 2007; 2008 was the last US G 500"
    },
    {
     "years": "2008–2015",
@@ -346,8 +346,8 @@
     "time": "≈ 2.5 hours",
     "cost": "$250–450 labor",
     "symptoms": "Vibration at idle, a visibly wobbling crank pulley, rattle or chirp that changes with RPM, cracked or bulging rubber, belt squeal. Don’t keep driving it: if the outer ring lets go you lose power steering, charging and the water pump.",
-    "fix": "Remove the belt and fan as needed, hold the crank with a counter-hold tool, and break the centre bolt loose. Fit the new balancer with a new centre bolt (it’s torque-to-yield) and a new front crank seal while you’re there. Torque to 200 Nm plus 90°.",
-    "tools": "Crank counter-hold tool (MB 112 589 00 40 00 or equivalent) · 27 mm socket · long breaker bar or high-torque impact · new centre bolt (MB 112 031 00 71) · front crank seal · balancer (avoid used units with the failure-prone part numbers)",
+    "fix": "Remove the belt and fan as needed, hold the crank pulley with a counter-hold tool, and break the 27 mm centre bolt loose. Fit the new balancer with a new front crank seal while you're there; a new centre bolt (112 031 00 71, M16 × 1.5) is cheap insurance. MercedesMedic's M112/M113 guide gives the bolt torque as 200 Nm plus a further quarter turn (90°) — confirm against WIS for your engine.",
+    "tools": "Crank pulley counter-hold tool (e.g. CTA 7270) · 27 mm socket · long breaker bar or high-torque impact · centre bolt 112 031 00 71 · front crank seal · balancer (match the part number by VIN)",
     "parts": [
      {
       "name": "Corteco harmonic balancer / crank pulley 112 035 14 00 (M112/M113)",
@@ -476,7 +476,7 @@
     "time": "≈ 1 hour",
     "cost": "$300–800",
     "symptoms": "Highway wander, wheel shake around 55–70 mph, vague on-centre feel, clunks over bumps.",
-    "fix": "Swap the steering damper (OEM or an upgraded unit such as a Bilstein B6). Check the drag link and tie-rod ends for play while you’re under there, then get an alignment.",
+    "fix": "Swap the steering damper (OE Stabilus or an equivalent quality unit). Check the drag link and tie-rod ends for play while you’re under there, then get an alignment.",
     "tools": "Steering damper · basic sockets and wrenches · tie-rod or drag-link ends if worn",
     "parts": [
      {
@@ -485,7 +485,7 @@
       "url": "https://www.fcpeuro.com/products/mercedes-steering-damper-stabilus-4634630032"
      },
      {
-      "name": "Febi drag link / tie-rod end",
+      "name": "Febi outer tie-rod end 12975 (OE 002 460 16 48)",
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/products/mercedes-drag-link-end-febi-feb-12975"
      },
@@ -609,13 +609,13 @@
    },
    {
     "q": "What’s the difference between a G 500 and a G 550?",
-    "a": "Mostly the engine and the badge. In the US the 2002–2008 G 500 has the 5.0-litre M113 V8; from 2009 the same W463 truck became the [[g-class/g550|G 550]] with the 5.5-litre M273 V8 and a seven-speed automatic.",
+    "a": "Mostly the engine and the badge. In the US the 2002–2008 G 500 has the 5.0-litre M113 V8; from 2009 the same W463 truck became the [[g-class/g550|G 550]] with the 5.5-litre M273 V8. The seven-speed automatic isn't a G 550 exclusive: Wikipedia says US G 500s switched from the five-speed 722.6 to the seven-speed 722.9 during 2007.",
     "src": "WIKIPEDIA"
    },
    {
     "q": "Will it fit in my garage?",
-    "a": "Plan on about 6.0 ft (1.84 m) tall for 2002–2003 trucks and 6.5 ft (1.98 m) for 2004–2008, with a 9.35 ft (2.85 m) wheelbase and roughly 15.5 ft of length. Add a roof rack and you’ll need to measure twice.",
-    "src": "AUTOPADRE"
+    "a": "Kelley Blue Book lists a 2002 G 500 at 185.6 in (about 15.5 ft) long on a 112-inch wheelbase. Mercedes' 2015 G 550 manual gives a height of 76.8 in (1,951 mm), so plan on about 6 ft 5 in before you add a roof rack or a lift — and note that the same manual says the factory roof isn't rated for loads.",
+    "src": "KBB · MERCEDES-BENZ USA 2015 MANUAL"
    },
    {
     "q": "Is the G 500 reliable?",
@@ -845,7 +845,7 @@
   "photos": [
    {
     "file": "g500-grand-edition.jpg",
-    "alt": "A pale blue 2005 G 500 Grand Edition with chrome bull bar parked at a kerb in front of brick houses",
+    "alt": "A blue-grey W463 G 500 with chrome bull bar, identified on Wikimedia Commons as a 2005 Grand Edition, parked at a kerb in front of brick houses",
     "caption": "G 500 GRAND EDITION · STREET",
     "credit": "Fletcher6 · CC BY-SA 3.0",
     "source": "Wikimedia Commons",
@@ -861,8 +861,8 @@
    },
    {
     "file": "g500-2003-us-spec.jpg",
-    "alt": "A black 2003 US-spec G 500 parked on a gravel verge in front of hedges",
-    "caption": "G 500 (2003) · ROADSIDE",
+    "alt": "A black 2003 G 500 with Dutch number plates parked on a brick-paved street in front of hedges and an apartment block",
+    "caption": "G 500 (2003) · DUTCH STREET",
     "credit": "Rutger van der Maar · CC BY 2.0",
     "source": "Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:2003_Mercedes-Benz_G_500_(463)_(49143004662).jpg"
@@ -960,6 +960,18 @@
    {
     "name": "Eastwood — Internal Frame Coating",
     "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
+   },
+   {
+    "name": "MercedesMedic — Mercedes crankshaft pulley / harmonic balancer DIY (M112/M113 torque and bolt)",
+    "url": "https://www.mercedesmedic.com/mercedes-crankshaft-pulley-harmonic-balancer-diy/"
+   },
+   {
+    "name": "Kelley Blue Book — 2002 Mercedes-Benz G-Class specs (G 500)",
+    "url": "https://www.kbb.com/mercedes-benz/g-class/2002/specs/"
+   },
+   {
+    "name": "Mercedes-Benz USA — 2015 G-Class Operator's Manual (PDF)",
+    "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2015_G.pdf"
    }
   ],
   "baseline_service": {
@@ -990,7 +1002,7 @@
      "note": "Check the airbox for leaves and rodent nests on a truck that sat.",
      "parts": [
       {
-       "name": "Hengst air filter set 273 094 04 04 (M112/M113)",
+       "name": "Hengst air filter set 273 094 04 04 (supersedes 112 094 06 04; M112/M113)",
        "supplier": "FCP Euro",
        "url": "https://www.fcpeuro.com/products/mercedes-air-filter-1120940604he"
       }
@@ -1034,7 +1046,7 @@
     },
     {
      "item": "Coolant & thermostat",
-     "spec": "MB 325.0-approved coolant (blue) mixed 50/50 with distilled water · ≈12.7 L [CONFIRM IN MANUAL]",
+     "spec": "MB 325.0-approved coolant (blue) mixed 50/50 with distilled water · ≈12.7 US qt (≈12 L) per AMSOIL [CONFIRM IN MANUAL]",
      "interval": "Now if history is unknown",
      "note": "Bleed carefully; replace the thermostat and any soft or swollen hoses while the system is drained.",
      "parts": [
@@ -1047,9 +1059,9 @@
     },
     {
      "item": "Automatic transmission (722.6)",
-     "spec": "MB 236.14 ATF · ≈9 qt total fill (a pan drain replaces only part of it)",
+     "spec": "MB 236.14 ATF · ≈9 qt total fill per AMSOIL (a pan drain replaces only part of it)",
      "interval": "Service now if history is unknown; then every 40,000–60,000 mi (common technician practice)",
-     "note": "Drop the pan, fit a new filter and gasket, and replace the 13-pin connector sleeve — ATF wicking through it ruins harnesses. Set the level hot, on level ground, with the 722.6 dipstick tool.",
+     "note": "Drop the pan, fit a new filter and gasket, and replace the 13-pin connector sleeve — ATF wicking through it ruins harnesses. Set the level hot, on level ground, with the 722.6 dipstick tool. US trucks built from 2007 have the seven-speed 722.9 instead — check the tag and use the fluid and procedure for that gearbox.",
      "parts": [
       {
        "name": "FUCHS 722.6 ATF service kit (fluid, filter, gasket)",
@@ -1083,7 +1095,7 @@
     },
     {
      "item": "Front & rear differentials",
-     "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 is common) · front ≈1.4 L, rear ≈1.8 L",
+     "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 is common) · front ≈1.4 L (3 pt), rear ≈1.8 L (3.8 pt) per AMSOIL [CONFIRM IN MANUAL]",
      "interval": "Now, then with the transfer case",
      "note": "Crack the upper fill plug before you pull the drain (14 mm hex; owners torque the drain to 60 Nm). Afterwards test each lock one at a time on loose ground — the dash lamp should go from flashing to solid.",
      "parts": [
