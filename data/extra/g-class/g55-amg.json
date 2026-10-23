@@ -1,0 +1,324 @@
+{
+ "fitment": {
+  "stock": [
+   "285/55R18 (US trucks through 2008)",
+   "275/55R19 on 9.5-inch AMG wheels (2009 update)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 bolts",
+   "lug_torque": "96 lb-ft (130 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 (≈33 in)",
+    "note": "Expedition Portal owners of unlifted W463s report no rub on sensible offsets; 285/65R18 rubs slightly at full left lock. Check that 18s clear the AMG brakes and re-code the tire size"
+   },
+   {
+    "lift": "2.5 in (60 mm)",
+    "size": "33 in",
+    "note": "Eurowise's recommended maximum for its 60 mm W463 kit; light wheel-well trimming on G 55s"
+   },
+   {
+    "lift": "4 in (100 mm)",
+    "size": "35 in",
+    "note": "Eurowise's recommendation for 100 mm of lift; its kit lists 2011–2012 G 55 fitment. Above 4 in, extended brake lines are required"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel return hose permeation",
+    "years": "2004–2005",
+    "ref": "NHTSA 05V378",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V378000",
+    "summary": "Fuel return hose between tank and return line can develop microcracks and seep fuel; dealers replace the hoses. 487 G 55s"
+   },
+   {
+    "title": "Front turn signals behind grille covers (FMVSS 108)",
+    "years": "2002–2010",
+    "ref": "NHTSA 10V366",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000",
+    "summary": "Headlamp/turn-signal grille covers can reduce signal output over time; dealers fit improved turn-signal units"
+   },
+   {
+    "title": "Passenger airbag molding strip",
+    "years": "2011",
+    "ref": "NHTSA 12V380",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12V380000",
+    "summary": "On trucks built Sept 2010–Apr 2011, parts of the molding strip can come loose during passenger airbag deployment"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1999",
+   "change": "G 55 AMG debuts in Europe with the naturally aspirated 5.4-litre M113, 354 hp",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "US launch (MY2002) alongside the G 500 as Mercedes-Benz USA takes over from Europa; 349 hp, 722.6 five-speed",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "Supercharged M113K Kompressor (US MY2005), 469 hp; 500-unit G 500 / G 55 Grand Edition built for the US",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Power up to 500 PS; new C-Class-style cluster, COMAND APS, HID headlamps, reversing camera and TPMS. G 55 keeps the 722.6 five-speed",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "507 PS; three-fin grille, KOMPRESSOR lettering, titanium-grey wheels and 275/55R19 tires",
+   "flag": "note"
+  },
+  {
+   "year": "2011",
+   "change": "Last US model year for the G 55",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "Replaced by the biturbo G 63 AMG (MY2013 in the US)",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Plenty of G 500s and G 550s wear AMG badges, bumpers and side pipes. The VIN tells you what left Graz.",
+  "items": [
+   {
+    "head": "VIN characters 4–8",
+    "body": "Bring a Trailer examples decoded with NHTSA's vPIC tool: 2003 G 55 = WDCYR46E…, 2005–2008 G 55 Kompressor = WDCYR71E…, 2011 G 55 = WDCYC7BF…. A same-year G 500 reads WDCYR49E… and a 2010–2014 G 550 WDCYC3HF…, so a 'G 55' with a G 500/G 550 VIN is a dress-up."
+   },
+   {
+    "head": "Model year (10th character)",
+    "body": "The 10th character gives the model year (e.g. 3 = 2003, 5 = 2005, 8 = 2008, B = 2011). US G 55s from 2002–2004 are naturally aspirated; 2005–2011 are Kompressors."
+   },
+   {
+    "head": "Supercharger and intercooler",
+    "body": "A Kompressor has a supercharger on top of the V8 and an intercooler circuit with its own pump. No supercharger means a 2002–2004 truck or not a G 55."
+   },
+   {
+    "head": "2009-on visual cues",
+    "body": "From 2009, the G 55 has a three-fin grille, KOMPRESSOR lettering under the V8 badge on the front wings and titanium-grey wheels."
+   },
+   {
+    "head": "Grand Edition",
+    "body": "The 2005 Grand Edition has Allanite Grey Magno paint, brushed-aluminium trim strips with 'Grand Edition' lettering and illuminated Grand Edition door sills."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,000 lb (3,175 kg)",
+   "note": "braked; spec data for a 2005 G 55"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.1 US gal (95 L)",
+   "note": "2011 G 55"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 14 hwy (2003); 11 city / 13 hwy (2005 and 2011 Kompressor)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,540 lb (2,513 kg)",
+   "note": "2005 G 55 spec data"
+  },
+  {
+   "k": "0–100 km/h",
+   "v": "7.4 s (naturally aspirated) → 5.6 s (Kompressor)"
+  },
+  {
+   "k": "Top speed",
+   "v": "210 km/h (130 mph), limited"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices depend mostly on mileage. Low-mile Kompressors and Grand Editions sell for well over twice what a tired driver does.",
+  "ranges": [
+   {
+    "cond": "High mileage / needs work",
+    "range": "$23k–35k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$35k–55k"
+   },
+   {
+    "cond": "Excellent / under ~50k miles",
+    "range": "$60k–90k"
+   },
+   {
+    "cond": "Exceptional (very low miles, Grand Edition)",
+    "range": "$100k–150k"
+   }
+  ],
+  "note": "Based on 41 Bring a Trailer G 55 sales from January 2025 to October 2026 (median $50,000). The top results were a 1k-mile 2005 at $139,000 and a 2005 Grand Edition at $150,000."
+ },
+ "docs": [
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "production": {
+  "intro": "Mercedes doesn't publish G 55 production totals. Its special editions are better documented.",
+  "items": [
+   {
+    "k": "US model years",
+    "v": "2002–2011"
+   },
+   {
+    "k": "Built",
+    "v": "Graz, Austria"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Grand Edition",
+    "years": "2005",
+    "note": "500 G 500s and G 55s built for the US, in Allanite Grey Magno, when Mercedes planned to end US sales. The decision was later reversed"
+   },
+   {
+    "name": "G 55 AMG Kompressor 'Edition 79'",
+    "years": "2009",
+    "note": "Middle East-only edition in designo magno alanite grey"
+   },
+   {
+    "name": "G 55 AMG long 'mastermind' Limited",
+    "years": "2012",
+    "note": "Five built for Japan with mastermind JAPAN"
+   }
+  ],
+  "paint": "2009 update added Calcite White, Periclase Green and Teallite Blue; Deep Black and Fire Opal Red trucks sold best in autoevolution's 2019–22 auction study."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl mountain near Graz, Austria, where the G is built and tested"
+  },
+  {
+   "kind": "event",
+   "name": "Overland Expo",
+   "url": "https://www.overlandexpo.com/",
+   "note": "Multi-brand overland show with training and trail sessions; plenty of Gs among the Land Cruisers"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recall flat files (FLAT_RCL), Office of Defects Investigation",
+   "url": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip"
+  },
+  {
+   "name": "NHTSA — recalls API (campaign lookup)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=23V097000"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "Limitless Tire — 2005 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2005/"
+  },
+  {
+   "name": "Eurowise — W463 2.5-inch (60 mm) lift kit",
+   "url": "https://shop.eurowise.com/products/w463liftkit60mm"
+  },
+  {
+   "name": "Eurowise — W463 2.5–5.5-inch lift kits (60/100 mm)",
+   "url": "https://shop.eurowise.com/products/w463100mm"
+  },
+  {
+   "name": "Expedition Portal — W463 tire fitment posts",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Goodyear — 2004 Mercedes-Benz G55 AMG tire sizes",
+   "url": "https://www.goodyear.com/en-us/vehicles/Mercedes~-Benz/G55-AMG/2004"
+  },
+  {
+   "name": "Autoblog — Mercedes-Benz shows off 2009 G 55 AMG",
+   "url": "https://www.autoblog.com/2008/06/06/mercedes-benz-shows-off-2009-g-55-amg/"
+  },
+  {
+   "name": "German Cars For Sale Blog — 2005 Mercedes-Benz G55 AMG",
+   "url": "https://germancarsforsaleblog.com/2005-mercedes-benz-g55-amg"
+  },
+  {
+   "name": "Bolidenforum — 2011 Mercedes-Benz G55 vehicle data",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/mercedes-benz-2011-g55/?vd_lang=en"
+  },
+  {
+   "name": "autoevolution — Mercedes-Benz G 55 AMG prices are going up",
+   "url": "https://www.autoevolution.com/news/mercedes-benz-g-55-amg-prices-are-going-up-this-could-be-your-chance-208918.html"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class AMG 1991–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  },
+  {
+   "name": "Bring a Trailer — 2003 G55 AMG (VIN)",
+   "url": "https://bringatrailer.com/listing/2003-mercedes-benz-g55-amg-19/"
+  },
+  {
+   "name": "Bring a Trailer — 2008 G55 AMG (VIN)",
+   "url": "https://bringatrailer.com/listing/2008-mercedes-benz-g55-amg-8/"
+  },
+  {
+   "name": "Bring a Trailer — 2011 G55 AMG (VIN)",
+   "url": "https://bringatrailer.com/listing/2011-mercedes-benz-g55-amg-27/"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "duPont Registry — Mercedes-Benz G-Class Experience",
+   "url": "https://news.dupontregistry.com/blogs/g-class/mercedes-benz-g-class-experience"
+  }
+ ]
+}

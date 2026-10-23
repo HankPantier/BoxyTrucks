@@ -146,8 +146,8 @@
   },
   {
    "k": "Fuel economy",
-   "v": "EPA 11 city / 13 hwy / 12 combined",
-   "note": "2003, premium fuel"
+   "v": "11 city / 13 hwy / 12 combined mpg",
+   "note": "2002 G 500, KBB; premium fuel"
   },
   {
    "k": "Curb weight",
@@ -166,7 +166,7 @@
  ],
  "values": {
   "checked": "October 2026",
-  "intro": "Prices are flat-to-firm: the 2002–2008 G 500 is the cheapest way into a V8 W463, so condition and records matter far more than the year.",
+  "intro": "On Bring a Trailer, prices have barely moved since 2018: the 2002–2008 G 500 is the cheapest way into a V8 W463, so condition and records matter far more than the year.",
   "ranges": [
    {
     "cond": "Project / high mileage / needs work",
@@ -185,7 +185,7 @@
     "range": "$175k–275k"
    }
   ],
-  "note": "Based on 55 sold Bring a Trailer auctions of 2002–2008 US-market G 500 wagons from January 2025 to October 2026 ($18,500–$80,500, median about $38,000), plus four G 500 Cabriolet sales from 2024–26. Grand Editions and documented low-mileage trucks sit at the top."
+  "note": "Based on 55 sold Bring a Trailer auctions of 2002–2008 US-market G 500 wagons from January 2025 to October 2026 ($18,500–$80,500, median about $35,000), plus four G 500 Cabriolet sales from 2024–26. Documented low-mileage trucks sit at the top; 2005 Grand Editions have sold for $34,500–44,200 in that period."
  },
  "docs": [
   {
@@ -343,10 +343,6 @@
   {
    "name": "Bring a Trailer — 2003 Mercedes-Benz G55 AMG (VIN listing)",
    "url": "https://bringatrailer.com/listing/2003-mercedes-benz-g55-amg-21/"
-  },
-  {
-   "name": "MPGBuddy — 2003 Mercedes-Benz G500 fuel economy",
-   "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2003"
   }
  ]
 }
