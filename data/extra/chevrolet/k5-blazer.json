@@ -1,0 +1,324 @@
+{
+ "fitment": {
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\") on half-ton K5s; 8-lug on one-ton axle swaps"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "32 in (33 in with minor trimming)",
+    "note": "Hogback Fabrication on CK5: a stock K5 fits 32s without trimming and 33s with minor trimming. Other owners report 33s touching the inner fender at full lock and full bump. On 16-in wheels, 285/75R16 is reported not to rub. For 33x12.50s, one member suggests 15x8 wheels at about 3.5 in backspacing."
+   },
+   {
+    "lift": "3 in",
+    "size": "33x12.50R15",
+    "note": "Offroad Design's 1988 Suburban (same chassis) ran 33x12.50R15s on 15x8 steel wheels with 3 in of lift at the front and 4 in at the rear, plus a dropped pitman arm and 4.5-in bump stops."
+   },
+   {
+    "lift": "4 in",
+    "size": "33 in (35 in with trimming)",
+    "note": "CK5 members: 33s clear without rubbing on a 4-in lift, while 35s rub and need some trimming. Plenty of owners run 35s on 4 in with modest trimming."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear brake drum balance weights can loosen aluminum wheels",
+    "years": "1982",
+    "ref": "NHTSA 82V128000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V128000",
+    "summary": "On 1982 Blazer, Jimmy and C10/C15 trucks with aluminum wheels, the drum balance weights could contact the wheel, loosen the lug nuts and break the studs (1,633 vehicles)."
+   },
+   {
+    "title": "Composite front brake rotors can separate from corrosion",
+    "years": "1988–1991 (Blazer listed for 1988–92)",
+    "ref": "NHTSA 93V119000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V119000",
+    "summary": "Road-salt corrosion at the joint between the stamped steel center and cast outer section of the rotor could let them separate. The campaign covered Blazer, K10/K20, Suburban and GMC equivalents (341,364 vehicles)."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1973",
+   "change": "'Rounded Line' square body launches. The truck is 7 in longer overall on a 2.5-in longer wheelbase. The body is fully open behind the windshield, with a removable hardtop or convertible top. NP205 part-time or NP203 full-time 4WD; Dana 44 front, 12-bolt rear. Tilt wheel optional",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "400 V8 joins the K-series engine list. Chevrolet adds the Scottsdale and Silverado trims, and Silverado becomes the top trim. Catalytic converters on trucks under 6,000 lb GVWR",
+   "flag": "note"
+  },
+  {
+   "year": "1976",
+   "change": "Half-cab body with a fixed steel roof over the front seats and a removable rear top, through 1991. Blazer Chalet / Jimmy Casa Grande camper (1976–77, about 1,800 built)",
+   "flag": "note"
+  },
+  {
+   "year": "1977",
+   "change": "GM corporate 10-bolt front axle phased in alongside the Dana 44. Power windows and locks offered for the first time",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Full-time 4WD (NP203) dropped from K-series. NP205s get a slip-yoke rear output",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "Facelift with available stacked square headlamps and reduced weight. NP208 shift-on-the-fly transfer case and automatic locking hubs",
+   "flag": "note"
+  },
+  {
+   "year": "1982",
+   "change": "6.2 L diesel V8 (130 hp / 240 lb-ft at launch). 700R4 four-speed overdrive automatic available",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "S-10 Blazer arrives, so the big truck becomes the 'Full-Size Blazer' and the 'K-Jimmy'. M1009 CUCV production begins (1983–87). The 250 six, standard through 1982, is no longer the base engine",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "Throttle-body injection on all gas engines. The trucks become the R/V series (V10 Blazer, V-Jimmy) as GMT400 pickups take the C/K name. From here on the 350 is the standard engine",
+   "flag": "buy"
+  },
+  {
+   "year": "1988",
+   "change": "K5 emblems dropped; fender-mounted mast antenna replaces the windshield antenna; trip odometer",
+   "flag": "note"
+  },
+  {
+   "year": "1989",
+   "change": "GMT400-style grille; NP241 transfer case; 30-spline 10-bolt axle shafts; serpentine belt on the 5.7. Cheyenne returns as the base Chevrolet trim",
+   "flag": "buy"
+  },
+  {
+   "year": "1990",
+   "change": "Rear-wheel anti-lock brakes, electronic speedometer, double-sided galvanized exterior panels, rear three-point belts",
+   "flag": "buy"
+  },
+  {
+   "year": "1991",
+   "change": "Final year. 700R4 renamed 4L60; CS130 alternator. Replaced for 1992 by the GMT400 Blazer and GMC Yukon",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "After 35 to 50 years, many K5s have had engine, axle and transfer case swaps, and plenty of GMC Jimmys have been re-badged. These checks help you work out what a truck started out as.",
+  "items": [
+   {
+    "head": "Front axle",
+    "body": "Torque King says the GM 10-bolt front cover is an oval about 11 in high by 10-1/4 in wide with no flat sides, unlike the Dana 44 cover. GMSquareBody members also note the two small ears on the 10-bolt housing. Dana 44s are typical of 1973–76, either could be fitted in 1977–78, and the 10-bolt is typical from 1979. Dana 44 and 10-bolt shafts don't interchange."
+   },
+   {
+    "head": "Transfer case",
+    "body": "NP205: a one-piece cast-iron case with a small three-bolt idler cover on the back and an ID tag above the front output. NP203: about 22–23 in long, in four bolted sections with a range box on the front and its tag on the chain case. NP208 (1981–88) and NP241 (1989–91) are aluminum, chain-driven cases, and the NP241's tag is on the rear of the case."
+   },
+   {
+    "head": "305 or 350?",
+    "body": "CK5 members warn that 305s get sold as 350s. Wikipedia notes that 1981-on 305s used smaller 56 cc combustion chambers, against 76 cc. Check the casting numbers and the engine code before you pay a 350 price."
+   },
+   {
+    "head": "Year by the front end",
+    "body": "1973–80 trucks mostly have round headlamps (Silverado-trim C/K trucks got square ones for 1980). From 1981 there's a new front end with available stacked square headlamps. The 1988 trucks lose the K5 badge and get a fender-mounted antenna. The 1989–91 trucks have the flatter, GMT400-style grille."
+   },
+   {
+    "head": "A real M1009",
+    "body": "Genuine M1009s have the 6.2 diesel, a TH400 and an NP208, 10-bolt axles with 3.08 gears and an Eaton automatic rear locker, 10.00-15 tires, and a 24/12-volt system with two batteries, two alternators, a firewall glow-plug resistor pack and a NATO slave receptacle in the grille. Blackout lights, a brush guard and a rifle rack were standard."
+   },
+   {
+    "head": "Model naming",
+    "body": "Chevrolet badges read K5 until 1988. GM officially called it the Full-Size Blazer from 1983 and the V10 / V1500 Blazer from 1987. GMC's twin was the Jimmy, then the K-Jimmy, then from 1987 the V-Jimmy."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "≈106.5 in (2,705 mm)",
+   "note": "2.5 in longer than the 104-in 1969–72 truck (Wikipedia)"
+  },
+  {
+   "k": "Payload (M1009)",
+   "v": "1,200 lb (544 kg)",
+   "note": "Army rating"
+  },
+  {
+   "k": "Towing (M1009)",
+   "v": "3,000 lb (1,361 kg)",
+   "note": "Army towed-load rating; Wikipedia says six-cylinder Blazers weren't recommended for towing"
+  },
+  {
+   "k": "0–60 mph",
+   "v": "22.5 s",
+   "note": "Popular Science, 1973, 175 hp 350, automatic, full-time 4WD"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "9.6 mpg at 45 mph (350 V8) · 13.7 mpg at 45 mph (250 I6)",
+   "note": "Popular Science steady-speed tests, 1973 and 1974"
+  },
+  {
+   "k": "Top speed (M1009)",
+   "v": "55 mph (89 km/h)",
+   "note": "Governed, CUCV series"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices depend more on the build than the year. Clean stock trucks bring steady money, M1009s are the cheap way into a diesel K5, and LS-swapped restomods take the top results.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$4.5k–15k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$15k–30k"
+   },
+   {
+    "cond": "Excellent / original",
+    "range": "$35k–80k"
+   },
+   {
+    "cond": "Restomod (LS / Vortec)",
+    "range": "$22k–130k"
+   }
+  ],
+  "note": "Based on the 15 most recent Bring a Trailer sales of 1973–91 K5 Blazers (August–October 2026): $4,600 to $130,000, median $29,500. Stock trucks mostly sold for $15,000–38,500, a 1991 Silverado brought $80,000, a 1984 M1009 sold for $20,500, and an LSA-powered 1973 set the top at $130,000. Nine more trucks were bid to between $8,800 and $68,000 without selling."
+ },
+ "docs": [
+  {
+   "name": "Torque King — Chevy & GMC factory service manuals",
+   "url": "https://torqueking.com/collections/chevy-gmc-manuals",
+   "note": "Printed service manuals and transfer case and axle manuals for GM 4x4 trucks"
+  },
+  {
+   "name": "RockAuto — 1987 Blazer literature (repair manuals, wiring diagrams, brochures)",
+   "url": "https://www.rockauto.com/en/catalog/chevrolet,1987,blazer,5.7l+350cid+v8,1061491,literature",
+   "note": "Aftermarket and reprint manuals listed by year and engine"
+  },
+  {
+   "name": "Offroad Design — Tech Center & instructions",
+   "url": "https://www.offroaddesign.com/tech/",
+   "note": "Free transfer case, transmission, axle and steering tech for 1967–91 GM 4x4s"
+  },
+  {
+   "name": "Torque King — 1977–1991 GM 10-bolt front axle identification",
+   "url": "https://torqueking.com/products/sku-id-a-1977-1991-gm-10-bolt-front-axle-idn-101",
+   "note": "Axle identification guide"
+  }
+ ],
+ "production": {
+  "intro": "GM built the square-body K5 Blazer and GMC Jimmy for the 1973–1991 model years. In the last years, Flint Truck Assembly built the Blazer, Jimmy and Suburban.",
+  "items": [
+   {
+    "k": "Model years",
+    "v": "1973–1991"
+   },
+   {
+    "k": "Assembly (1990–91)",
+    "v": "Flint Truck Assembly, Michigan"
+   },
+   {
+    "k": "CUCV (all GM types)",
+    "v": "About 70,000 built 1983–86 (model years 1984–87), mostly 1984s; includes M1008 pickups, M1010 ambulances and M1028/M1031 variants as well as the M1009"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Blazer Chalet / Jimmy Casa Grande",
+    "years": "1976–1977",
+    "note": "Pop-up camper conversion built with Chinook Mobilodge. Headroom rises from 59 to 79.5 in with the top raised. About 1,800 built; base price $9,426 in 1977"
+   },
+   {
+    "name": "M1009 CUCV",
+    "years": "1983–1987",
+    "note": "Military K5 rated at 3/4 ton, with the 6.2 diesel, TH400, NP208, Eaton automatic rear locker and 24/12-volt electrics"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Chevrolet K5 Blazer",
+   "url": "https://en.wikipedia.org/wiki/Chevrolet_K5_Blazer"
+  },
+  {
+   "name": "Wikipedia — Chevrolet C/K (third generation)",
+   "url": "https://en.wikipedia.org/wiki/Chevrolet_C/K_(third_generation)"
+  },
+  {
+   "name": "Wikipedia — Commercial Utility Cargo Vehicle",
+   "url": "https://en.wikipedia.org/wiki/Commercial_Utility_Cargo_Vehicle"
+  },
+  {
+   "name": "Wikipedia — Detroit Diesel V8 engine",
+   "url": "https://en.wikipedia.org/wiki/Detroit_Diesel_V8_engine"
+  },
+  {
+   "name": "NHTSA — Recall 82V128000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V128000"
+  },
+  {
+   "name": "NHTSA — Recall 93V119000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V119000"
+  },
+  {
+   "name": "NHTSA recalls API (campaign details)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=93V119000"
+  },
+  {
+   "name": "Bring a Trailer — Chevrolet K5 Blazer 1973–1991",
+   "url": "https://bringatrailer.com/chevrolet/k5-blazer-1973-1991/"
+  },
+  {
+   "name": "CK5 forums — The best tire size for stock or 2, 3 and 4 in lift",
+   "url": "https://ck5.com/forums/threads/the-best-tire-size-for-stock-or-2-3-and-4-lift.162188/"
+  },
+  {
+   "name": "CK5 forums — What's the biggest tire you can put on a 1989 Blazer with no lift",
+   "url": "https://ck5.com/forums/threads/whats-the-biggest-tire-you-can-put-on-a-1989-blazer-with-no-lift.310448/"
+  },
+  {
+   "name": "CK5 forums — New wheel options, backspacing and offset",
+   "url": "https://ck5.com/forums/threads/new-wheel-options-backspacing-and-offset.213150/"
+  },
+  {
+   "name": "CK5 forums — K5 buyers guide",
+   "url": "https://ck5.com/forums/threads/k5-buyers-guide.264512/"
+  },
+  {
+   "name": "CK5 forums — Dana 44 / later 10-bolt difference",
+   "url": "https://ck5.com/forums/threads/dana-44-later-10-bolt-difference.257201/"
+  },
+  {
+   "name": "GMSquareBody — Front and rear axle usage by year",
+   "url": "https://www.gmsquarebody.com/goto/post?id=179380"
+  },
+  {
+   "name": "Torque King — 1977–1991 GM 10-bolt front axle identification",
+   "url": "https://torqueking.com/products/sku-id-a-1977-1991-gm-10-bolt-front-axle-idn-101"
+  },
+  {
+   "name": "Offroad Design — NP205 technical information",
+   "url": "https://www.offroaddesign.com/tech/offroad-design-transfer-cases-knowledge/offroad-design-np-205-technical-information"
+  },
+  {
+   "name": "Offroad Design — NP203 technical information",
+   "url": "https://www.offroaddesign.com/tech/offroad-design-transfer-cases-knowledge/offroad-design-np203-technical-information"
+  },
+  {
+   "name": "Offroad Design — Burly Burb build",
+   "url": "https://www.offroaddesign.com/tech/blog/burly-burb"
+  },
+  {
+   "name": "Diesel Hub — New Process NP241 specs",
+   "url": "https://www.dieselhub.com/drivetrain/np241.html"
+  }
+ ]
+}
