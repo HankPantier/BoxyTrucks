@@ -28,7 +28,8 @@ INDEXNOW_KEY = 'df5e9f5700c975efa4ebdb9e75a3fa77'  # public by design: IndexNow 
 # Families are shown everywhere in alphabetical order of the name people use for them.
 SHORT_NAME = {'4runner': '4Runner', 'g-class': 'G-Class', 'grenadier': 'Grenadier', 'jeep': 'Jeep',
               'land-cruiser': 'Land Cruiser', 'land-rover': 'Land Rover', 'lexus': 'Lexus LX & GX', 'range-rover': 'Range Rover',
-              'nissan-patrol': 'Nissan Patrol', 'scout': 'International Scout', 'bronco': 'Ford Bronco'}
+              'nissan-patrol': 'Nissan Patrol', 'scout': 'International Scout', 'bronco': 'Ford Bronco',
+              'chevrolet': 'Chevrolet / GMC', 'suzuki': 'Suzuki', 'pajero': 'Mitsubishi Pajero', 'trooper': 'Isuzu Trooper', 'hummer': 'Hummer H1'}
 FAMILY_ORDER = sorted(SHORT_NAME, key=lambda k: SHORT_NAME[k].lower())
 NAV_FAMS = []
 NAV = [
@@ -40,10 +41,8 @@ NAV = [
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
 LATER = [
-    {'name': 'Chevrolet / GMC', 'models': ['K5 Blazer', 'Square-body Suburban']},
-    {'name': 'Mitsubishi · Isuzu', 'models': ['Pajero Gen 1–2', 'Trooper']},
-    {'name': 'Suzuki', 'models': ['Samurai', 'Jimny']},
-    {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303', 'Hummer H1']},
+    {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
+    {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
 ]
 BUILDERS = [
     {'name': 'Jack Wagon Overlanding', 'what': 'G-Class · overland parts & builds', 'url': 'https://jackwagonoverlanding.com/'},
