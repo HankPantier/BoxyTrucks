@@ -1,0 +1,475 @@
+{
+ "fitment": {
+  "stock": [
+   "255/50R19 (8J and 9J x 19)",
+   "255/50R20 (8.5J x 20)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "offset": "+53 mm (stock 19x8)",
+   "center_bore": "72.6 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "98 lb-ft (133 N·m), per the 2016 owner's handbook"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/50R20 · 265/65R18 on aftermarket 18s",
+    "note": "LandRoverWorld owners run 265/50R20 with no rubbing; it's also the largest size that fits the spare well inflated. 285/50R20 rubs slightly at full lock and the spare must be deflated to fit. On 18-inch wheels, 265/65R18 doesn't rub at standard height and 285/60R18 brings only mild liner rub at full compression or lock."
+   },
+   {
+    "lift": "2.5 in (lift rods)",
+    "size": "275/65R18 – 265/70R18 (≈33 in)",
+    "note": "One owner ran 275/65R18 and moved to 265/70R18 with lift rods and strut spacers; he reports the 275s sit very close to the upper control arms, and that 12.5-inch-wide 33s are unlikely to fit without rubbing the arms or popping the arch trims."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel pump outlet flange may crack and leak",
+    "years": "2010–2016",
+    "ref": "NHTSA 21V635000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V635000",
+    "summary": "Covers 3.0 V6 and 5.0 V8 LR4s (and 2010–13 Range Rover Sports): the fuel outlet flange on the tank can crack and leak fuel."
+   },
+   {
+    "title": "Panoramic roof adhesive may not hold",
+    "years": "2012–2013",
+    "ref": "NHTSA 15V386000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V386000",
+    "summary": "Trucks built 15 August–18 September 2012 used the wrong primer, so the panoramic roof may not be adequately bonded."
+   },
+   {
+    "title": "ABS software can disable stability and descent control",
+    "years": "2015",
+    "ref": "NHTSA 15V214000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V214000",
+    "summary": "An ABS software error on trucks built 19 August 2014–9 February 2015 can disable DSC, Roll Stability Control, traction control and Hill Descent Control."
+   },
+   {
+    "title": "Wheel lug nuts may crack",
+    "years": "2015",
+    "ref": "NHTSA 15V092000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V092000",
+    "summary": "Lug nuts on trucks built 6–23 January 2015 may crack and detach from the hub studs."
+   },
+   {
+    "title": "TPMS may not learn sensor positions",
+    "years": "2013–2014",
+    "ref": "NHTSA 14V618000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=14V618000",
+    "summary": "On trucks built 16 September 2013–30 June 2014, the tire-pressure system may not learn sensor locations, so the low-pressure warning may not work properly."
+   },
+   {
+    "title": "Driver frontal airbag may not inflate properly",
+    "years": "2016",
+    "ref": "NHTSA 16V444000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V444000",
+    "summary": "A small batch of trucks built 3–10 May 2016."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "5.0 V8 rattle/click from front of engine: timing chain tensioners and levers",
+    "ref": "LTB00474NAS2",
+    "summary": "2010–2012 MY LR4, VIN AA513326–CA652214: replace both tensioners (LR051008) and tensioner levers (LR051013); 8.1 h labour allowed.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10068287-2280.pdf"
+   },
+   {
+    "title": "AJ133 chain tensioner repeat noise: fit complete revised sets",
+    "ref": "SSM71893",
+    "summary": "Repeat noise came from partial repairs. Fit both pairs of revised tensioners and steel-insert blades, and never mix old and new parts.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2015/SB-10057691-6425.pdf"
+   },
+   {
+    "title": "2014 MY engine oil cross-contamination (pre-sale update)",
+    "ref": "SGI14-07",
+    "summary": "Some 2014 LR4s (VIN EA705047–EA705560) had 5W-20 mixed with 0W-30 at the factory; the fix was an oil and filter change (LR011279).",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10071750-6903.pdf"
+   },
+   {
+    "title": "Rear brake squeal when reversing",
+    "ref": "",
+    "summary": "Owners report a warranty TSB with revised rear pads and clips on early trucks; replace the rotors too if they're lipped.",
+    "url": "https://www.landroverworld.org/threads/lr4-technical-service-bulletins-tsbs.23060/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2009",
+   "change": "Discovery 4 unveiled in the summer; UK sales from 1 September. Diesels: 2.7 TDV6 and new 3.0 twin-turbo V6; petrol 5.0 V8 in non-UK markets",
+   "flag": "note"
+  },
+  {
+   "year": "2010 MY",
+   "change": "LR4 launches in the US with the 375-hp 5.0 V8, ZF six-speed and two-speed transfer box",
+   "flag": "note"
+  },
+  {
+   "year": "2010–2012 MY",
+   "change": "5.0 V8s in VIN range AA513326–CA652214 covered by timing-chain tensioner bulletin LTB00474",
+   "flag": "avoid"
+  },
+  {
+   "year": "2011 MY",
+   "change": "Europe: 2.7 TDV6 dropped; 3.0 diesel offered as TDV6 and SDV6",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "Europe: diesels get the ZF eight-speed; HSE Luxury edition; one millionth Discovery built in March",
+   "flag": "note"
+  },
+  {
+   "year": "2013 MY",
+   "change": "Last US V8 year, with styling and audio updates; owners believe late-2012 and 2013 engines got revised chain parts",
+   "flag": "buy"
+  },
+  {
+   "year": "2014 MY",
+   "change": "3.0 supercharged V6 (340 hp), ZF 8HP70 and stop-start; single-speed transfer standard in the US, low range and active rear locker only in the $1,350 HD package",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "XXV special edition marks 25 years of the Discovery",
+   "flag": "note"
+  },
+  {
+   "year": "2015 MY",
+   "change": "ABS-software recall 15V214000 for early builds; smartphone app integration and side steps standard (US)",
+   "flag": "note"
+  },
+  {
+   "year": "2016 MY",
+   "change": "Final US year; owners report HSE Silver and Landmark trims replacing HSE and HSE Lux for 2016.5",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "Production ends; the 2017 Discovery (L462) replaces it with a unitary body",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "US LR4s are all petrol, but drivetrain content varies a lot by year and option, and the expensive engine fixes are VIN-specific. Know exactly what you're looking at.",
+  "items": [
+   {
+    "head": "Model year from the VIN",
+    "body": "Land Rover quotes VIN ranges by their last eight characters, which begin with the model-year letter: A = 2010, B = 2011, C = 2012, D = 2013, E = 2014, F = 2015, G = 2016. That's the 10th VIN character under US federal rules. Use it to check a 5.0 V8 against bulletin LTB00474's range AA513326–CA652214."
+   },
+   {
+    "head": "Engine",
+    "body": "2010–2013 US trucks have the 5.0 V8; 2014–2016 have the 3.0 supercharged V6. A diesel Discovery 4 in the US is not a factory US vehicle."
+   },
+   {
+    "head": "Low range and rear locker",
+    "body": "All 2010–2013 US trucks have the two-speed transfer box. On 2014–16 trucks, low range and the active rear locker came only with the Heavy Duty package. Owners check the 4x4 information screen (a single centre-lock icon means no HD package), the spare (HD added a full-size one) and the rear diff for the locker's actuator motor. Owners don't agree on whether every 2010–2013 truck has the rear locker, so check physically or with a VIN decode."
+   },
+   {
+    "head": "Late trims",
+    "body": "For 2016.5, owners report that the HSE Silver and HSE Landmark replaced the HSE and HSE Lux; Landmark trucks have Landmark badging, bright silver roof rails and 20-inch split-spoke wheels."
+   },
+   {
+    "head": "Armoured Sentinel",
+    "body": "Land Rover's factory-armoured Discovery 4 Sentinel (B6 protection) is described as almost indistinguishable from a standard truck, so a heavy, oddly specified D4 deserves a closer look."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "gross train weight 14,859 lb (6,740 kg)"
+  },
+  {
+   "k": "Gross vehicle weight",
+   "v": "7,143 lb (3,240 kg)"
+  },
+  {
+   "k": "Roof load",
+   "v": "165 lb (75 kg)",
+   "note": "including the rack"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23 US gal (86 L) usable",
+   "note": "petrol; diesels 82 L"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.4 in (240 mm) at off-road height",
+   "note": "7.3 in (185 mm) at standard height"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "36.2° / 28.1°",
+   "note": "off-road height; Land Rover quotes the ramp angle as 125.4°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "28 in (700 mm)",
+   "note": "off-road height; 24 in (600 mm) at standard height"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12–13 city / 17 hwy (V8); 15 / 19 (SC V6)",
+   "note": "14 and 16 mpg combined; premium fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,617 lb (2,548 kg) V8; 5,655 lb SC V6",
+   "note": "handbook (V8); 2014 HSE fact sheet (V6)"
+  },
+  {
+   "k": "Turning circle",
+   "v": "37.5 ft (11.45 m)",
+   "note": "curb to curb"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Cheap for what they are, because buyers price in cooling and chain work. Low-mileage 2015–16 trucks and Landmark editions bring the strongest money.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$4k–10k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$11k–24k"
+   },
+   {
+    "cond": "Excellent, low-mile or Landmark",
+    "range": "$25k–40k+"
+   }
+  ],
+  "note": "Based on 139 Bring a Trailer LR4 sales from January 2025 to October 2026: $4,000–69,000, median about $14,750, middle half $11,250–23,750. The top result was a 1,600-mile 2016 Landmark Edition at $69,000; 16 Landmarks had a median of about $20,000."
+ },
+ "docs": [
+  {
+   "name": "Discovery 4 owner guide, technical specifications (EURO) — Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/112868/PDF/acccaf91-c73a-4e44-a0c8-e5ccc1d61cfb/en_GB",
+   "note": "Fluids, capacities, weights, dimensions and wheel sizes for all engines."
+  },
+  {
+   "name": "Discovery 4 owner guide, 5.0 V8 technical specifications (US units) — Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/125739/PDF/8e8c159d-d8a8-421f-a570-f612f353d20f/en_US",
+   "note": "V8 fluid specs and capacities in US units."
+  },
+  {
+   "name": "LR4 owner guide (NAS) capacities and weights — Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/221158/PDF/79822e1a-350c-4381-91f5-4ddb183a5ae7/en_GB",
+   "note": "North American capacities, including locking rear diff."
+  },
+  {
+   "name": "Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/",
+   "note": "Official subscription access to workshop manuals, wiring and bulletins."
+  },
+  {
+   "name": "LTP3017 original technical publications, LR4 2009–2012 (USB)",
+   "url": "https://lucky8llc.com/products/land-rover-original-technical-service-publication-ltp3017-lr4",
+   "note": "Factory service manuals, wiring diagrams and owner's literature on USB, sold by Lucky8."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Land Rover sold only petrol LR4s in the US, so the TDV6 and SDV6 Discovery 4 diesels are gray-market. NHTSA's 25-year exemption is counted from the date of manufacture, and the first Discovery 4s were built in 2009, so the earliest diesels won't become eligible until 2034. Until then, a US-registered diesel D4 should be treated with suspicion."
+  ]
+ },
+ "production": {
+  "intro": "Built at Solihull from 2009 to 2016, the Discovery 4 overlapped the millionth Discovery and a run of special editions.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "2009–2016, Solihull (with assembly in Aqaba, Jordan)"
+   },
+   {
+    "k": "US model years",
+    "v": "2010–2016, petrol only"
+   },
+   {
+    "k": "Milestone",
+    "v": "One millionth Discovery built March 2012 (a Discovery 4)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "HSE Luxury",
+    "years": "2012",
+    "note": "Enhanced-trim edition announced for Europe and North America"
+   },
+   {
+    "name": "XXV",
+    "years": "2014",
+    "note": "25 years of the Discovery: XXV-embossed Windsor leather, special grille and most options fitted"
+   },
+   {
+    "name": "HSE Silver and HSE Landmark (US)",
+    "years": "2016.5",
+    "note": "Owners report they replaced the HSE and HSE Lux; Landmark adds badging, silver roof rails and 20-inch wheels"
+   },
+   {
+    "name": "Discovery 4 Sentinel",
+    "years": "2010 on",
+    "note": "Factory armoured version to B6 ballistic protection, almost indistinguishable from a standard truck"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "LandRoverWorld — LR4 forum",
+   "url": "https://www.landroverworld.org/forums/lr4.84/",
+   "note": "The largest active LR4 owner community online."
+  },
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs and their trail events."
+  },
+  {
+   "kind": "club",
+   "name": "DISCO3.CO.UK",
+   "url": "https://www.disco3.co.uk/forum/",
+   "note": "UK club and forum for Discovery 3 and 4 owners."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "National Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Land Rover TOPIx — Discovery 4 owner guide, technical specifications (EURO)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/112868/PDF/acccaf91-c73a-4e44-a0c8-e5ccc1d61cfb/en_GB"
+  },
+  {
+   "name": "Land Rover TOPIx — Discovery 4 owner guide, 5.0 V8 technical specifications (US units)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/125739/PDF/8e8c159d-d8a8-421f-a570-f612f353d20f/en_US"
+  },
+  {
+   "name": "Land Rover TOPIx — LR4 owner guide (NAS), capacities and weights",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/221158/PDF/79822e1a-350c-4381-91f5-4ddb183a5ae7/en_GB"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover LR4 2010–2016 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=LR4&modelYear=2015"
+  },
+  {
+   "name": "NHTSA — LTB00474NAS2 timing chain tensioner bulletin",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10068287-2280.pdf"
+  },
+  {
+   "name": "NHTSA — SSM71893 AJ133 chain tensioner repair",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2015/SB-10057691-6425.pdf"
+  },
+  {
+   "name": "NHTSA — SGI14-07 engine oil cross-contamination",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10071750-6903.pdf"
+  },
+  {
+   "name": "eCFR — 49 CFR Part 565, VIN requirements (model-year character)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-565"
+  },
+  {
+   "name": "NHTSA — Importation and Certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Wikipedia — Land Rover Discovery",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+  },
+  {
+   "name": "Jalopnik — Land Rover LR4: The Ultimate Buyer's Guide",
+   "url": "https://jalopnik.com/land-rover-lr4-the-ultimate-buyers-guide-1749736152"
+  },
+  {
+   "name": "Motor Authority — 2014 Land Rover LR4 priced from $50,595",
+   "url": "https://www.motorauthority.com/news/1087067_2014-land-rover-lr4-priced-from-50595"
+  },
+  {
+   "name": "WTOP — Fact sheet: 2014 Land Rover LR4 HSE",
+   "url": "https://wtop.com/news/2014/07/fact-sheet-2014-land-rover-lr4-hse"
+  },
+  {
+   "name": "fueleconomy.gov — 2010 Land Rover LR4",
+   "url": "https://www.fueleconomy.gov/feg/noframes/26490.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2013 Land Rover LR4",
+   "url": "https://www.fueleconomy.gov/feg/noframes/33357.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2014 Land Rover LR4",
+   "url": "https://www.fueleconomy.gov/feg/noframes/34570.shtml"
+  },
+  {
+   "name": "ThreePiece.us — 2015 Land Rover LR4 wheel fitment specs",
+   "url": "https://vehicles.threepiece.us/vehicles/land%20rover/lr4/2015/"
+  },
+  {
+   "name": "LandRoverWorld — Home setup for swapping wheels (handbook lug torque quoted)",
+   "url": "https://www.landroverworld.org/threads/home-setup-equipment-for-swapping-wheels-and-undercarriage-rinsing-etc.28815/"
+  },
+  {
+   "name": "LandRoverWorld — Largest tire with no lift",
+   "url": "https://www.landroverworld.org/threads/largest-tire-with-no-lift.29845/"
+  },
+  {
+   "name": "LandRoverWorld — Everything about tires for LR4/LR3 with 18\" wheels",
+   "url": "https://www.landroverworld.org/threads/everything-about-tires-for-lr4-lr3-with-18-wheels.24788/"
+  },
+  {
+   "name": "LandRoverWorld — LR4 on 33s",
+   "url": "https://www.landroverworld.org/threads/lr4-on-33s.31209/"
+  },
+  {
+   "name": "LandRoverWorld — LR4 Technical Service Bulletins (TSBs)",
+   "url": "https://www.landroverworld.org/threads/lr4-technical-service-bulletins-tsbs.23060/"
+  },
+  {
+   "name": "LandRoverWorld — Timing chain repair costs",
+   "url": "https://www.landroverworld.org/threads/timing-chain-repair-costs.30126/"
+  },
+  {
+   "name": "LandRoverWorld — HD vs non-HD package LR4",
+   "url": "https://www.landroverworld.org/threads/hd-vs-non-hd-package-lr4.42632/"
+  },
+  {
+   "name": "LandRoverWorld — Newbie question re Heavy Duty package",
+   "url": "https://www.landroverworld.org/threads/newbie-question-re-heavy-duty-package.26683/"
+  },
+  {
+   "name": "Land Rover Forums — Which LR4s came with rear lockers?",
+   "url": "https://landroverforums.com/forum/lr4-38/lr4s-came-rear-lockers-99873/"
+  },
+  {
+   "name": "LandRoverWorld — Difference between 2016 Landmark and 2016 HSE Lux",
+   "url": "https://www.landroverworld.org/threads/difference-between-2016-landmark-and-2016-hse-lux.27912/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover LR4 results",
+   "url": "https://bringatrailer.com/land-rover/lr4/"
+  },
+  {
+   "name": "Lucky8 — LTP3017 LR4 technical USB manual",
+   "url": "https://lucky8llc.com/products/land-rover-original-technical-service-publication-ltp3017-lr4"
+  },
+  {
+   "name": "ANARC — Association of North American Rover Clubs",
+   "url": "https://www.anarc.club/"
+  },
+  {
+   "name": "Rovers North blog — ANARC News, Spring 2026",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  }
+ ]
+}
