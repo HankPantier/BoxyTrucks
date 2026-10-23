@@ -23,7 +23,11 @@
 <div class="wrap section">
   <div class="split">
     <div class="main">
+      {% set x = page.x or {} %}{% set groups = toc|map(attribute=0)|list %}
 
+
+      <div class="part" id="part-1">
+        <header class="part-head"><span class="no">PART 01</span><h2>Overview</h2><p>Where it came from, why it matters, and how it changed year to year.</p></header>
       <section id="story" class="prose">
         <div class="eyebrow" style="margin-bottom:20px">The story</div>
         {% for s in p.story %}
@@ -47,6 +51,18 @@
       </section>
       {% endif %}
 
+      {% if x.timeline %}
+      <section id="timeline" class="sub">
+        <h2 class="h-section">Year by year</h2>
+        <p class="sub-intro">What changed, model year by model year. <span class="tl-key buy">Sweet spot</span> <span class="tl-key avoid">Beware</span></p>
+        <ol class="tl">{% for t in x.timeline %}<li class="tl-{{ t.flag or 'note' }}"><span class="y">{{ t.year }}</span><span class="c">{{ t.change|lk }}</span>{% if t.flag == 'buy' %}<span class="flag">Sweet spot</span>{% elif t.flag == 'avoid' %}<span class="flag">Beware</span>{% endif %}</li>{% endfor %}</ol>
+      </section>
+      {% endif %}
+      </div>
+
+      {% if 'Specs & capability' in groups %}
+      <div class="part" id="part-2">
+        <header class="part-head"><span class="no">PART 02</span><h2>Specs &amp; capability</h2><p>How it’s built, what it can do, and what fits under it.</p></header>
       {% if p.engineering %}
       <section id="engineering" style="display:flex;flex-direction:column;gap:22px">
         <h2 class="h-section">How it’s built</h2>
@@ -58,7 +74,7 @@
 
       {% if p.generations_table %}
       <section id="variants" style="display:flex;flex-direction:column;gap:18px">
-        <h2 class="h-section">Variants &amp; years</h2>
+        <h2 class="h-section">Variants &amp; engines</h2>
         <div class="table-box"><table>
           <thead><tr><th>YEARS</th><th>PLATFORM</th><th>ENGINE</th><th>OUTPUT</th><th>WORTH KNOWING</th></tr></thead>
           <tbody>{% for g in p.generations_table %}<tr><td class="mono">{{ g.years }}</td><td>{{ g.platform }}</td><td>{{ g.engine }}</td><td class="mono">{{ g.output }}</td><td class="note">{{ g.note|lk }}</td></tr>{% endfor %}</tbody>
@@ -66,13 +82,97 @@
       </section>
       {% endif %}
 
+      {% if x.capability %}
+      <section id="capability" class="sub">
+        <h2 class="h-section">Capability numbers</h2>
+        <div class="cells">{% for e in x.capability %}<div><span class="k">{{ e.k }}</span><span class="v">{{ e.v }}</span>{% if e.note %}<span class="n">{{ e.note|lk }}</span>{% endif %}</div>{% endfor %}</div>
+      </section>
+      {% endif %}
+
+      {% if x.fitment %}{% set ft = x.fitment %}
+      <section id="fitment" class="sub">
+        <h2 class="h-section">Wheels &amp; tires</h2>
+        {% if ft.stock %}<div class="kvrow"><span class="k">FACTORY TIRES</span><div class="chips">{% for t in ft.stock %}<span class="chip">{{ t }}</span>{% endfor %}</div></div>{% endif %}
+        {% if ft.wheel %}<div class="kvgrid">{% for k, lbl in [('bolt_pattern','Bolt pattern'),('offset','Offset'),('center_bore','Center bore'),('lug_thread','Lug thread'),('lug_torque','Lug-nut torque')] %}{% if ft.wheel[k] %}<div><span class="k">{{ lbl }}</span><span class="v">{{ ft.wheel[k] }}</span></div>{% endif %}{% endfor %}</div>{% endif %}
+        {% if ft.max_tire %}<div class="table-box"><table class="fit">
+          <thead><tr><th>LIFT</th><th>BIGGEST TIRE</th><th>WHAT IT TAKES</th></tr></thead>
+          <tbody>{% for m in ft.max_tire %}<tr><td class="mono">{{ m.lift }}</td><td class="mono"><strong>{{ m.size }}</strong></td><td class="note">{{ m.note|lk }}</td></tr>{% endfor %}</tbody>
+        </table></div>{% endif %}
+        <p class="sub-note">Forum consensus, not a guarantee: wheel offset, tire brand and suspension wear all change clearance. Confirm before you buy.</p>
+      </section>
+      {% endif %}
+
+      {% if x.production %}{% set pr = x.production %}
+      <section id="production" class="sub">
+        <h2 class="h-section">Production &amp; special editions</h2>
+        {% if pr.intro %}<p class="sub-intro">{{ pr.intro|lk }}</p>{% endif %}
+        {% if pr['items'] %}<div class="kvgrid">{% for it in pr['items'] %}<div><span class="k">{{ it.k }}</span><span class="v">{{ it.v }}</span></div>{% endfor %}</div>{% endif %}
+        {% if pr.editions %}<div class="rows editions">{% for e in pr.editions %}<div class="row"><span class="t">{{ e.name }}</span><span class="m">{{ e.years }}</span><span class="n">{{ e.note|lk }}</span></div>{% endfor %}</div>{% endif %}
+        {% if pr.paint %}<p class="sub-note">{{ pr.paint|lk }}</p>{% endif %}
+      </section>
+      {% endif %}
+      </div>
+      {% endif %}
+
+      {% if 'Buying one' in groups %}
+      <div class="part" id="part-3">
+        <header class="part-head"><span class="no">PART 03</span><h2>Buying one</h2><p>What to pay, what to check, and how to tell a good one from a clone.</p></header>
+      {% if x['values'] %}{% set v = x['values'] %}
+      <section id="values" class="sub">
+        <h2 class="h-section">What they cost</h2>
+        {% if v.intro %}<p class="sub-intro">{{ v.intro|lk }}</p>{% endif %}
+        {% if v.ranges %}<div class="cells values">{% for r in v.ranges %}<div><span class="k">{{ r.cond }}</span><span class="v">{{ r.range }}</span></div>{% endfor %}</div>{% endif %}
+        <p class="sub-note">{% if v.note %}{{ v.note|lk }} {% endif %}Prices move; checked {{ v.checked or 'recently' }}. See live listings below.</p>
+      </section>
+      {% endif %}
+
       {% if p.buying_checks %}
       <section id="buying" style="display:flex;flex-direction:column;gap:18px">
-        <h2 class="h-section">Buying one: what to check</h2>
+        <h2 class="h-section">What to check before you buy</h2>
         <ol class="checks">{% for n in p.buying_checks %}<li><span class="no">{{ '%02d' % loop.index }}</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>
       </section>
       {% endif %}
 
+      {% if x.identify %}{% set idf = x.identify %}
+      <section id="identify" class="sub">
+        <h2 class="h-section">Spotting the real thing</h2>
+        {% if idf.intro %}<p class="sub-intro">{{ idf.intro|lk }}</p>{% endif %}
+        <ol class="checks">{% for n in idf['items'] %}<li><span class="no">ID</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>
+      </section>
+      {% endif %}
+
+      {% if x.recalls %}{% set rc = x.recalls %}{% if rc['items'] or rc.tsbs or rc.lookup in ('US', 'UK') %}
+      <section id="recalls" class="sub">
+        <h2 class="h-section">Recalls &amp; service bulletins</h2>
+        {% if rc.lookup == 'US' %}<div class="lookup"><p>Open recalls follow the VIN, not the model. Run yours through NHTSA before you buy, and ask the seller for dealer records showing recall work.</p><a class="btn solid" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check a VIN at NHTSA ↗</a></div>
+        {% elif rc.lookup == 'UK' %}<div class="lookup"><p>For UK-registered trucks, check open recalls by registration with the DVSA.</p><a class="btn solid" href="https://www.check-vehicle-recalls.service.gov.uk/" target="_blank" rel="noopener">DVSA recall check ↗</a></div>{% endif %}
+        {% if rc['items'] %}<span class="label sub-label">Notable recalls</span><div class="rows recall-rows">{% for r in rc['items'] %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.years }}{% if r.ref %} · {{ r.ref }}{% endif %}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
+        {% if rc.tsbs %}<span class="label sub-label">Service bulletins &amp; known fixes</span><div class="rows recall-rows">{% for r in rc.tsbs %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.ref }}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
+      </section>
+      {% endif %}{% endif %}
+
+      {% if x['import'] %}
+      <section id="import" class="sub">
+        <h2 class="h-section">Importing &amp; legality</h2>
+        <div class="note-box">{% for para in x['import'].paragraphs %}<p>{{ para|lk }}</p>{% endfor %}<p class="sub-note" style="margin:0">Rules change and vary by state and country. Confirm with your DMV and a licensed importer before you buy.</p></div>
+      </section>
+      {% endif %}
+
+      {% if p.searches %}
+      <section id="sale" style="display:flex;flex-direction:column;gap:18px">
+        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px"><span class="eyebrow">The one you’ll own someday</span><h2 style="font-size:34px">For sale now</h2></div>
+        <div class="grid" style="--min:240px">{% for s in p.searches %}
+          <div class="sale"><span class="eyebrow brass">{{ s.years }}</span><span class="l">{{ s.label }}</span>
+            <div class="links">{% if s.at_url %}<a href="{{ s.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if s.bat_url %}<a href="{{ s.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
+          </div>{% endfor %}</div>
+      </section>
+      {% endif %}
+      </div>
+      {% endif %}
+
+      {% if 'Owning one' in groups %}
+      <div class="part" id="part-4">
+        <header class="part-head"><span class="no">PART 04</span><h2>Owning one</h2><p>Baseline service, the repairs you’ll actually do, and where the manuals live.</p></header>
       {% if p.baseline_service and p.baseline_service.get('items') %}
       <section id="service" style="display:flex;flex-direction:column;gap:18px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Post-purchase baseline</span><h2 style="font-size:34px">After you buy it</h2></div>
@@ -111,13 +211,25 @@
       </section>
       {% endif %}
 
+      {% if x.docs %}
+      <section id="docs" class="sub">
+        <h2 class="h-section">Manuals &amp; documentation</h2>
+        <div class="rows">{% for d in x.docs %}<a class="row" href="{{ d.url }}" target="_blank" rel="noopener"><span class="t">{{ d.name }} ↗</span><span class="n">{{ d.note }}</span></a>{% endfor %}</div>
+      </section>
+      {% endif %}
+
       {% if p.faq %}
       <section id="faq" style="display:flex;flex-direction:column;gap:18px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Asked on every forum</span><h2 style="font-size:34px">{{ p.title }} questions, answered</h2></div>
         <div class="faq">{% for f in p.faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p><span class="src">SOURCE · {{ f.src }}</span></div></details>{% endfor %}</div>
       </section>
       {% endif %}
+      </div>
+      {% endif %}
 
+      {% if 'Building one' in groups %}
+      <div class="part" id="part-5">
+        <header class="part-head"><span class="no">PART 05</span><h2>Building one</h2><p>Who makes the good stuff, where owners gather, and who to watch.</p></header>
       {% if p.mods %}
       <section id="mods" style="display:flex;flex-direction:column;gap:18px">
         <h2 class="h-section">Common modifications &amp; who does them</h2>
@@ -128,13 +240,10 @@
       </section>
       {% endif %}
 
-      {% if p.searches %}
-      <section id="sale" style="display:flex;flex-direction:column;gap:18px">
-        <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px"><span class="eyebrow">The one you’ll own someday</span><h2 style="font-size:34px">For sale now</h2></div>
-        <div class="grid" style="--min:240px">{% for s in p.searches %}
-          <div class="sale"><span class="eyebrow brass">{{ s.years }}</span><span class="l">{{ s.label }}</span>
-            <div class="links">{% if s.at_url %}<a href="{{ s.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if s.bat_url %}<a href="{{ s.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
-          </div>{% endfor %}</div>
+      {% if x.community %}
+      <section id="community" class="sub">
+        <h2 class="h-section">Clubs &amp; events</h2>
+        <div class="rows">{% for c in x.community %}<a class="row" href="{{ c.url }}" target="_blank" rel="noopener"><span class="t"><span class="chip kind">{{ (c.kind or 'club')|upper }}</span> {{ c.name }} ↗</span><span class="n">{{ c.note }}</span></a>{% endfor %}</div>
       </section>
       {% endif %}
 
@@ -145,6 +254,8 @@
         {% if pres.youtube or pres.instagram or pres.forums %}{{ res_block(pres) }}{% else %}<div class="stub-note">Channels, accounts and forums for the {{ page.title }} are being gathered.</div>{% endif %}
         {{ reading_block(reading) }}
       </section>
+      </div>
+      {% endif %}
 
       {% if p.related %}
       <section id="related" style="display:flex;flex-direction:column;gap:18px">
@@ -153,8 +264,9 @@
       </section>
       {% endif %}
 
-      {% if p.sources %}
-      <section class="sources"><span class="eyebrow">Sources</span>{% for s in p.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}</section>
+      {% set all_sources = (p.sources or []) + (x.sources or []) %}
+      {% if all_sources %}
+      <section class="sources"><span class="eyebrow">Sources</span>{% for s in all_sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}</section>
       {% endif %}
     </div>
 
@@ -167,7 +279,7 @@
       {% endif %}
       <nav class="toc" aria-label="On this page">
         <span class="eyebrow" style="padding-bottom:8px">On this page</span>
-        {% for t in toc %}<a href="#{{ t[0] }}">{{ t[1] }}</a>{% endfor %}
+        {% for grp, items in toc %}<span class="toc-grp">{{ grp }}</span>{% for t in items %}<a href="#{{ t[0] }}">{{ t[1] }}</a>{% endfor %}{% endfor %}
       </nav>
       {% if p.searches %}
       <div class="find">

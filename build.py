@@ -162,6 +162,8 @@ def load():
             p['photos'] = [ph for ph in p.get('photos', []) if (imgdir / ph.get('file', '')).exists()]
             if not p.get('hero_photo') and p['photos']:
                 p['hero_photo'] = p['photos'][0]['file']
+            xf = DATA / 'extra' / slug / f"{p['slug']}.json"
+            p['x'] = (jload(xf) or {}) if xf.exists() else {}
         apply_social_manual(pages)
         for g in fam['generations']:
             g['has_page'] = g['slug'] in pages[slug]
@@ -304,12 +306,22 @@ def main():
             if page:
                 yt = [s for s in page.get('social', []) if s.get('kind') == 'YT']
                 ig = [s for s in page.get('social', []) if s.get('kind') != 'YT']
-                toc = [(i, l) for i, l, k in [
-                    ('story', 'The story', 'story'), ('engineering', 'How it’s built', 'engineering'),
-                    ('variants', 'Variants & years', 'generations_table'), ('buying', 'Buying one: what to check', 'buying_checks'),
-                    ('service', 'After you buy it', 'baseline_service'), ('repairs', 'Common repairs', 'repairs'), ('faq', 'Questions, answered', 'faq'),
-                    ('mods', 'Modifications & who does them', 'mods'), ('sale', 'For sale now', 'searches'),
-                    ('resources', 'Resources', None), ('related', 'Related models', 'related')] if (k is None or page.get(k))]
+                x = page.get('x') or {}
+                has = lambda *ks: any(page.get(k) for k in ks)
+                hx = lambda k: bool(x.get(k)) and (k != 'recalls' or bool(x['recalls'].get('items') or x['recalls'].get('tsbs') or x['recalls'].get('lookup') in ('US', 'UK')))
+                toc = [(grp, [(i, l) for i, l, ok in items if ok]) for grp, items in [
+                    ('Overview', [('story', 'The story', has('story')), ('timeline', 'Year by year', hx('timeline'))]),
+                    ('Specs & capability', [('engineering', 'How it’s built', has('engineering')), ('variants', 'Variants & engines', has('generations_table')),
+                                            ('capability', 'Capability numbers', hx('capability')), ('fitment', 'Wheels & tires', hx('fitment')),
+                                            ('production', 'Production & editions', hx('production'))]),
+                    ('Buying one', [('values', 'What they cost', hx('values')), ('buying', 'What to check', has('buying_checks')),
+                                    ('identify', 'Spotting the real thing', hx('identify')), ('recalls', 'Recalls & bulletins', hx('recalls')),
+                                    ('import', 'Importing & legality', hx('import')), ('sale', 'For sale now', has('searches'))]),
+                    ('Owning one', [('service', 'After you buy it', bool((page.get('baseline_service') or {}).get('items'))), ('repairs', 'Common repairs', has('repairs')),
+                                    ('docs', 'Manuals & documentation', hx('docs')), ('faq', 'Questions, answered', has('faq'))]),
+                    ('Building one', [('mods', 'Modifications', has('mods')), ('community', 'Clubs & events', hx('community')), ('resources', 'Channels & forums', True)]),
+                ]]
+                toc = [(grp, items) for grp, items in toc if items]
                 hero_alt = next((ph['alt'] for ph in page.get('photos', []) if ph['file'] == page.get('hero_photo')), f'{page.get("title", g["name"])} off road')
                 page.setdefault('title', g['name'])
                 render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt,
