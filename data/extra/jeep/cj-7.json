@@ -1,0 +1,351 @@
+{
+ "fitment": {
+  "stock": [
+   "205/75R15",
+   "235/75R15"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "center_bore": "108 mm",
+   "lug_thread": "1/2\"-20"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "Jeep-CJ.com consensus on a 15x8 wheel; one owner reports 32x11.50s with 'very little rubbing', but 32s generally need tired springs. Stock gearing and brakes feel it"
+   },
+   {
+    "lift": "2.5 in",
+    "size": "33x12.50R15",
+    "note": "Fits for mild use; reset the steering stops or the tires hit the leaf springs at full lock, and expect contact when the suspension is stuffed"
+   },
+   {
+    "lift": "4 in",
+    "size": "33x12.50R15",
+    "note": "The comfortable trail setup for 33s (one 4 in owner still wanted more stuff room); regear from the stock 3.55 or 3.73 ratios"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering gear",
+    "years": "1976",
+    "ref": "NHTSA 76V-034",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=76V034000",
+    "summary": "Campaign on the steering gear box of 18,858 1976 CJ-5 and CJ-7s; NHTSA's online record names the component but carries no defect summary."
+   },
+   {
+    "title": "Electronic ignition wire connectors",
+    "years": "1976 (campaign covers 1975–76 Jeeps)",
+    "ref": "NHTSA 78V-065",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V065000",
+    "summary": "Connectors could not carry enough current for the electronic ignition control."
+   },
+   {
+    "title": "Transmission adapter-plate seal",
+    "years": "1976–1978",
+    "ref": "NHTSA 78V-039",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V039000",
+    "summary": "A mis-seated seal could let gear oil migrate from the manual transmission into the transfer case; 96,933 CJs covered."
+   },
+   {
+    "title": "Intermediate steering-shaft coupling",
+    "years": "1978",
+    "ref": "NHTSA 78V-049",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V049000",
+    "summary": "Oversized serrations could stop the coupling clamping properly to the steering-gear shaft, causing free play."
+   },
+   {
+    "title": "Tie-rod adjuster clamp bolts",
+    "years": "1979",
+    "ref": "NHTSA 78V-243",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V243000",
+    "summary": "Loose clamp bolts on the connecting-rod adjuster tube could shift the steering-wheel position and risk loss of steering."
+   },
+   {
+    "title": "Transmission-to-transfer-case gasket",
+    "years": "1979",
+    "ref": "NHTSA 79V-070",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=79V070000",
+    "summary": "Wrong gasket could block lubricant flow and damage the manual transmission."
+   },
+   {
+    "title": "Rear seat-belt buckles missing",
+    "years": "1981",
+    "ref": "NHTSA 80V-158",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=80V158000",
+    "summary": "Some Jeeps got two tongue-end rear belt halves and no buckle, so the rear belts could not be fastened."
+   },
+   {
+    "title": "Automatic throttle-control rod spring",
+    "years": "1981",
+    "ref": "NHTSA 81V-015",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=81V015000",
+    "summary": "Improperly installed spring could make the throttle close slowly."
+   },
+   {
+    "title": "Manual transmission first-gear lubrication",
+    "years": "1982",
+    "ref": "NHTSA 82V-125",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V125000",
+    "summary": "Factory-fill gear oil might not protect first gear; covered 1982 CJ-5, CJ-7, Cherokee, Wagoneer and J-trucks."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1976",
+   "change": "CJ-7 launches on a 93.5 in wheelbase with doors, optional molded hardtop and steel doors, and optional full-time Quadra-Trac (with the TH-400 automatic). Dana 20 transfer case, narrow-track Dana 30 / AMC 20 axles",
+   "flag": "note"
+  },
+  {
+   "year": "1976–1981",
+   "change": "AMC 304 V8 available (3.55 axles); it goes away after 1981, leaving the 258 six as the top engine",
+   "flag": "note"
+  },
+  {
+   "year": "1977",
+   "change": "Golden Eagle package (304 V8) arrives, running through 1980",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Dana 300 transfer case replaces the Dana 20 on every CJ-7; Laredo trim debuts; Golden Hawk sticker package for one year. Export-only Isuzu C240 diesel runs 1980–82",
+   "flag": "buy"
+  },
+  {
+   "year": "1982",
+   "change": "Wide-track Dana 30 front and AMC 20 rear replace the narrow-track axles; 630 numbered Jamboree Editions and the 1982–83 Limited (2,500 built)",
+   "flag": "buy"
+  },
+  {
+   "year": "1985",
+   "change": "Canadian Army takes 195 militarised CJ-7s as a stop-gap between the M38A1 and the Iltis",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "Final year; mid-year trucks get a Dana 44 rear in place of the two-piece AMC 20, and the last run wears the 'Last of a Great Breed' dash plaque",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "CJ-7s have been re-engined, re-axled and re-badged for 40 years, and plenty of 'Renegades' and 'Laredos' are sticker jobs, so trust the VIN, the axle tags and the body measurements over the decals.",
+  "items": [
+   {
+    "head": "Body and wheelbase",
+    "body": "93.5 in wheelbase, 55 in windshield, about 81 in from the door hinge to the rear of the tub, and a 'U'-shaped door opening rather than the CJ-5's inverted 'S'. A CJ-8 looks the same up front but has a 103.5 in wheelbase and a longer rear."
+   },
+   {
+    "head": "VIN format",
+    "body": "1976–80 trucks carry a 13-character Jeep VIN; 1981–86 use the 17-character federal format. On 1981–86 VINs the 4th character is the engine (B = 151 Iron Duke, C = 258 six, H = 304 V8, U = AMC 150 four, F = Isuzu diesel), the 5th the transmission/transfer case, characters 6–7 read 87 for a CJ-7, and the 10th is the model year (B = 1981 … G = 1986)."
+   },
+   {
+    "head": "VIN plate locations",
+    "body": "Main riveted tag on the driver's side firewall near the master cylinder; a partial VIN is stamped on the passenger-side frame rail above the rear wheel. Make sure the tag and the frame stamping agree: a mismatch can mean a swapped tub or a salvage rebuild."
+   },
+   {
+    "head": "Axles",
+    "body": "1976–81 narrow-track Dana 30 / AMC 20; 1982–86 wide-track versions; a factory Dana 44 rear only on mid-1986 trucks. A Dana 44 under an earlier CJ-7 is an aftermarket swap."
+   },
+   {
+    "head": "Special editions",
+    "body": "The 1982 Jamboree has a numbered dash plaque (630 built: 560 Topaz Gold Metallic, 70 Olympic White) and is the only numbered AMC Jeep. The Laredo added highback leather buckets, tilt wheel and chrome bumpers, grille cover and mirrors; Golden Eagles were 304 V8 trucks."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "93.5 in (2,375 mm)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,707 lb (1,228 kg)",
+   "note": "Wikipedia figure; varies with engine and top"
+  },
+  {
+   "k": "Axle ratios",
+   "v": "3.55 (304 V8) · 3.73 (258 six and 150 four) · 4.10 (diesel)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The busiest classic-Jeep market on Bring a Trailer. Original-engine Laredos and Renegades with the T-5 or T-18 and honest tubs set the pace, and swapped V8 and LS builds sell well if they're done right.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–12k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$13k–26k"
+   },
+   {
+    "cond": "Excellent / low-mile original or quality restomod",
+    "range": "$28k–58k"
+   }
+  ],
+  "note": "Based on 83 Bring a Trailer sales from October 2025 to October 2026 (median $19,000, middle half $13,500–26,500). Top sale: a 1980 Laredo five-speed at $58,000; 401-, 5.3L- and LS-powered builds cluster at $35k–43k."
+ },
+ "docs": [
+  {
+   "name": "1984–1986 Jeep CJ-7 & Scrambler repair shop manual (reprint, 2 vols, M.R. 252)",
+   "url": "https://www.faxonautoliterature.com/1984-1986-Jeep-CJ-7-Scrambler-Repair-Shop-Manual-Reprint-2-Vol-Set-MR252",
+   "note": "Page-for-page reprint of the dealer shop manual, from Faxon Auto Literature"
+  },
+  {
+   "name": "1977 Jeep repair shop manual (original, all models)",
+   "url": "https://www.faxonautoliterature.com/1977-Jeep-Repair-Shop-Manual-Original-All-models",
+   "note": "Factory-printed original covering early CJ-7s"
+  },
+  {
+   "name": "1978 Jeep repair shop manual (reprint, all models, 3 vols)",
+   "url": "https://www.faxonautoliterature.com/1978-Jeep-Repair-Shop-Manual-Reprint-All-models-3-Volume-Set"
+  },
+  {
+   "name": "Bishko factory-authorized technical service manuals, 1972–86 Jeep",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-model-years",
+   "note": "Licensed reproductions of the dealer FSMs, sold by Quadratec"
+  },
+  {
+   "name": "Jeep CJ Rebuilder's Manual 1972–86 (Moses Ludel, Bentley)",
+   "url": "https://www.quadratec.com/products/19009_007.htm",
+   "note": "612-page unit-repair and restoration guide covering CJ-5, CJ-6, CJ-7 and CJ-8"
+  }
+ ],
+ "production": {
+  "intro": "Eleven model years of production, ending with a dash plaque that called it the last of a great breed.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "379,299 (1976–1986)"
+   },
+   {
+    "k": "Military",
+    "v": "195 militarised CJ-7s for the Canadian Army, 1985 (Equipment Configuration Code 121526)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Golden Eagle",
+    "years": "1977–1980",
+    "note": "304 V8 package with eagle decals"
+   },
+   {
+    "name": "Golden Hawk",
+    "years": "1980",
+    "note": "One-year sticker package, shared with the CJ-5 and Cherokee"
+   },
+   {
+    "name": "Laredo",
+    "years": "1980–1986",
+    "note": "Highback leather buckets, tilt wheel, chrome bumpers, grille cover and mirrors; later trucks add a tachometer and clock"
+   },
+   {
+    "name": "Limited",
+    "years": "1982–1983",
+    "note": "Luxury model, 2,500 built; 258 six with T-5 or automatic"
+   },
+   {
+    "name": "Jamboree Commemorative Edition",
+    "years": "1982",
+    "note": "630 numbered trucks marking 30 years of the Rubicon Trail Jamboree: 560 Topaz Gold Metallic, 70 Olympic White"
+   },
+   {
+    "name": "Last of a Great Breed",
+    "years": "1986",
+    "note": "Final trucks carry a collector's dash plaque"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Jeep-CJ.com",
+   "url": "https://jeep-cj.com/community/",
+   "note": "Long-running owners' forum dedicated to CJ-2A through CJ-8; the place for tire-fitment, axle and restoration threads."
+  },
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail event in Moab, Utah; the club has run it for some 60 years. 2027 dates: March 20–28."
+  },
+  {
+   "kind": "event",
+   "name": "Jeepers Jamboree",
+   "url": "https://www.jeepersjamboree.com/",
+   "note": "Organised Rubicon Trail run in California's Sierra Nevada; the 1982 CJ-7 Jamboree Edition marked its 30th anniversary."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep CJ",
+   "url": "https://en.wikipedia.org/wiki/Jeep_CJ"
+  },
+  {
+   "name": "Quadratec — Jeep vehicle model identification",
+   "url": "https://www.quadratec.com/c/reference/jeep-vehicle-model-identification"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque specs",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep wheel specifications & size guide",
+   "url": "https://www.extremeterrain.com/jeep-wheel-specifications-tech-guide.html"
+  },
+  {
+   "name": "Offroaders.com — 1981–1986 CJ & J-Series VIN decoder",
+   "url": "https://offroaders.com/tech/jeep/vin_81-86.htm"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep CJ VIN decoder 1971–1986",
+   "url": "https://www.extremeterrain.com/vin-jeep-cj-1971-1986-tech-guide.html"
+  },
+  {
+   "name": "TireSize.com — 1985 Jeep CJ-7 original tire sizes",
+   "url": "https://tiresize.com/tires/Jeep/CJ-7/1985/"
+  },
+  {
+   "name": "Jeep-CJ.com — Question re: lift and tires",
+   "url": "https://jeep-cj.com/community/threads/question-re-lift-and-tires.40476"
+  },
+  {
+   "name": "Jeep-CJ.com — Optimal wheel/tire size for 1977 CJ7",
+   "url": "https://jeep-cj.com/community/threads/optimal-wheel-tire-size-for-1977-cj7.58662"
+  },
+  {
+   "name": "Jeep-CJ.com — Lift size for 33s",
+   "url": "https://jeep-cj.com/community/threads/lift-size-for-33s.61708"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CJ7 1976",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CJ7&modelYear=1976"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CJ7 1979",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CJ7&modelYear=1979"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CJ7 1982",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CJ7&modelYear=1982"
+  },
+  {
+   "name": "Bring a Trailer — Jeep CJ-7 sold results",
+   "url": "https://bringatrailer.com/jeep/cj-7/"
+  },
+  {
+   "name": "Faxon Auto Literature — 1984–1986 CJ-7 & Scrambler repair shop manual",
+   "url": "https://www.faxonautoliterature.com/1984-1986-Jeep-CJ-7-Scrambler-Repair-Shop-Manual-Reprint-2-Vol-Set-MR252"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

@@ -1,0 +1,474 @@
+{
+ "fitment": {
+  "stock": [
+   "235/85R16 (110, classic factory size)",
+   "265/75R16 (NAS Defender 90)",
+   "235/80R16 / 265/75R16 (later trucks, per Limitless Tire)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x165.1 (5x6.5\")",
+   "offset": "ET20–35 range by body (no single factory figure)",
+   "center_bore": "114.3 mm",
+   "lug_thread": "M16x1.5",
+   "lug_torque": "96 lb-ft (130 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "255/85R16 (≈33 in)",
+    "note": "The popular upgrade. Owners report rub on the front radius arms at full lock (wind out the steering stops), against the 45 L auxiliary tank on 110s, and close to the spring brackets at full compression."
+   },
+   {
+    "lift": "2 in",
+    "size": "285/75R16 (≈33 x 11.4 in)",
+    "note": "A 110 owner on 2 in, no spacers, reports light rub on the radius arms at full lock. 295/85R16 is a taller, narrower option with little tread choice."
+   },
+   {
+    "lift": "3 in",
+    "size": "315/75R16 (35x12.50R16)",
+    "note": "AULRO owners needed 2–3 in of lift plus extended flares or trimming, offset wheels (8–10 in wide), extended bump stops, castor correction, stronger halfshafts/CVs and lower gearing. A Tdi will feel gutless."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Driveshaft nuts replaced with wrong size at port of entry",
+    "years": "1995",
+    "ref": "NHTSA 95V099000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V099000",
+    "summary": "A port-of-entry pinion-torque check meant removing the driveshafts, and they went back on with the wrong nuts. 155 Defenders, Discoveries and County Classics were covered."
+   },
+   {
+    "title": "Battery hazardous-substance warning label missing",
+    "years": "1992–1995",
+    "ref": "NHTSA 96V108000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V108000",
+    "summary": "The required hazard label wasn't fitted to the battery; 4,254 Defenders covered."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "300Tdi timing-belt modification kit",
+    "ref": "",
+    "summary": "Early 300Tdi setups could let the belt track off. The revised kit (sold as STC4096L-type) adds a flanged crank pulley and spaced idler; ask for proof it's fitted.",
+    "url": "https://www.lrdirect.com/stc4096l-modified-timing-belt-pulley-kit-3"
+   },
+   {
+    "title": "Td5 oil wicking into the injector loom",
+    "ref": "",
+    "summary": "Oil migrates through the injector harness toward the ECU; check the barrel connector between engine and injector looms.",
+    "url": "https://www.aulro.com/afvb/technical-chatter/28941-td5-harness.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1983",
+   "change": "One Ten launches with coil springs and permanent 4WD; Series III engines carried over",
+   "flag": "note"
+  },
+  {
+   "year": "1984",
+   "change": "Ninety arrives; 2.5 diesel and wind-up windows",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "V8 offered in the Ninety with the LT85 five-speed; 2.5 petrol; One Two Seven launched",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "2.5 Diesel Turbo arrives (85 hp); V8 up to 134 hp",
+   "flag": "note"
+  },
+  {
+   "year": "1990",
+   "change": "200Tdi direct-injection diesel (107 hp); 127 becomes the Defender 130",
+   "flag": "buy"
+  },
+  {
+   "year": "1991 MY",
+   "change": "Ninety and One Ten renamed Defender 90 and 110",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "NAS Defender 110 for the US and Canada: 525 built, 3.9 V8, five-speed, external cage",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "300Tdi and R380 gearbox; NAS Defender 90 (3.9 V8, manual) goes on sale",
+   "flag": "buy"
+  },
+  {
+   "year": "1997",
+   "change": "Final NAS D90s get the 4.0 V8 and ZF four-speed auto; last 300 in Willow Green; US sales end",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Td5 five-cylinder replaces the Tdi; electronically managed",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Ford-sourced 2.4 'Puma' diesel, six-speed, new dash and forward-facing rear seats",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "Production ends 29 January at Solihull",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Defenders get cloned, re-dated and dressed up as NAS trucks, and a gray-market import with a mismatched VIN can be seized. Check the numbers before you check the paint.",
+  "items": [
+   {
+    "head": "VIN plate and chassis stamp",
+    "body": "The VIN plate sits on the bulkhead or brake servo under the bonnet; match it to the number stamped on the front chassis rail and the title. For an import, the build date must really be 25+ years old."
+   },
+   {
+    "head": "Rest-of-world VIN",
+    "body": "Ninety/One Ten VINs start SALLD. Position 6 is V for Ninety or H for One Ten; position 7 is body (A regular, B Ninety Station Wagon, H High Capacity Pickup, M One Ten Station Wagon); position 8 is engine (B 2.5 TD, C 2.5 D, D 2.5 petrol, F 2.5 Tdi, G 2.25 D, H 2.25 petrol, V V8)."
+   },
+   {
+    "head": "Genuine NAS trucks",
+    "body": "NAS Defenders carry a US-format 17-character VIN (RM Sotheby's examples: SALDV2285RA941249 for a 1994 D90, SALDV2246VA118787 for a 1997), a numbered NAS badge, a full external roll cage, larger side indicators and taillights, factory air and four-wheel discs. All have the 3.9 or 4.0 V8."
+   },
+   {
+    "head": "200Tdi or 300Tdi?",
+    "body": "The 200Tdi has two V-belts and a big aluminium block-to-sump strengthener; the 300Tdi has a single serpentine belt, no strengthener, a smaller water pump mounted higher and a piston-type vacuum pump."
+   },
+   {
+    "head": "Heritage certificate",
+    "body": "The British Motor Museum's Heritage Certificate copies the factory ledger entry (build and despatch dates, engine number, colour, equipment) and covers Land Rovers from 1948 on. Useful for proving a build date or NAS spec."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "750 kg unbraked; 2004 90/110/130 per CarsGuide"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "79.5 L (21 gal)",
+   "note": "1993 Defender 110 V8; a 2009 Defender 90 is listed at 60 L"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "47° / 47°",
+   "note": "2009 Defender 90 (Puma), per GoAuto"
+  },
+  {
+   "k": "Wading depth",
+   "v": "500 mm (19.7 in)",
+   "note": "2009 Defender 90, per GoAuto"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "12–16 mpg (V8), 23–27 mpg (300Tdi), 22–26 mpg (Td5), 20–25 mpg (Puma)",
+   "note": "ECD's real-world figures; V8 12–14 in practice"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "NAS trucks carry a big premium over gray-market imports, and original, documented 1993 110s are the top of the market; Tdi imports are the affordable way in.",
+  "ranges": [
+   {
+    "cond": "Gray-market 110, project or tired driver",
+    "range": "$17k–32k"
+   },
+   {
+    "cond": "Gray-market 90 or 110 Tdi, good driver",
+    "range": "$30k–56k"
+   },
+   {
+    "cond": "NAS Defender 90, driver",
+    "range": "$40k–60k"
+   },
+   {
+    "cond": "NAS Defender 90, excellent",
+    "range": "$65k–106k"
+   },
+   {
+    "cond": "NAS Defender 110 (1993)",
+    "range": "$62k–135k+"
+   }
+  ],
+  "note": "Based on Bring a Trailer sold results in 2025–26: 14 NAS D90s ($40,000–106,000, median about $59,000), three 1993 NAS 110s ($62,500–135,000), 10 Euro 90s and 9 Euro 110s ($17,250–69,000 for stock trucks). LS3-swapped restomods went higher (to $145,500). Atlantic British puts the very best NAS 110s near $200,000."
+ },
+ "docs": [
+  {
+   "name": "Shop Manual w/Binder, Defender 93–95 NAS (RWM905)",
+   "url": "https://www.roversnorth.com/parts/rwm905_shop_manual_w_binder_defender_93_95_nas&type=3",
+   "note": "Reproduction workshop manual for the 1993 NAS 110 and 1994–95 NAS 90 from Rovers North; R380 gearbox covered separately (LRL0097ENG)."
+  },
+  {
+   "name": "Workshop Manual w/Binder, Defender 90 1997 (RWM907)",
+   "url": "https://www.roversnorth.com/parts/rwm907_workshop_manual_w_binder_defender_90_1997&type=3",
+   "note": "For the 4.0 V8 / automatic 1997 NAS D90."
+  },
+  {
+   "name": "Rovers North — books and manuals",
+   "url": "https://www.roversnorth.com/category/565_books_manuals",
+   "note": "Workshop manuals, parts catalogues and handbooks for Defender."
+  },
+  {
+   "name": "British Motor Museum Heritage Certificate",
+   "url": "https://www.britishmotormuseum.co.uk/archive/heritage-certificates",
+   "note": "Factory build record for proving spec and build date."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Only the NAS trucks (1993 110, 1994–97 90) were sold new in the US, so every other classic Defender here is a gray-market import. NHTSA lets a vehicle in without meeting federal safety standards (FMVSS) once it is at least 25 years old, counted from its date of manufacture, declared under Box 1 on the HS-7. In October 2026 that means trucks built before October 2001: 200Tdi, 300Tdi, V8 and early Td5 Defenders. A newer Defender can't be made to comply, and Puma trucks (2007 on) won't start qualifying until 2032.",
+   "The EPA side is separate. On Form 3520-1, exemption code E covers vehicles at least 21 years old (calendar year of manufacture subtracted from year of import) in original, unmodified configuration. A truck with a replacement engine doesn't qualify unless it's the same engine model as original, so an engine-swapped Defender should be imported before the swap, not after.",
+   "Enforcement is real. In 2014 Homeland Security agents seized more than two dozen Defenders imported by one North Carolina owner on suspicion that VINs had been swapped to beat the 25-year rule; they were returned in 2015 once found correctly imported. Make sure the VIN plate, chassis stamp, title and build date agree before you pay, and a Heritage Certificate helps.",
+   "State rules come last and matter most in California. Its smog-check exemptions cover gasoline vehicles of the 1975 model year and older and diesels of the 1997 model year and older, but a direct import from 1975 on that was never certified for California is supposed to get a CARB Certificate of Conformance after a laboratory test, and ECD warns a classic Defender engine can keep the truck off California roads. Check with your DMV and, in California, with CARB before you buy."
+  ]
+ },
+ "production": {
+  "intro": "The Ninety/One Ten/Defender ran from 1983 to January 2016, and only a few thousand were sold new in North America.",
+  "items": [
+   {
+    "k": "Last truck built",
+    "v": "29 January 2016, the 2,016,933rd Land Rover (Series and Defender) since 1948"
+   },
+   {
+    "k": "NAS total",
+    "v": "About 7,059 (ECD)"
+   },
+   {
+    "k": "NAS Defender 110 (1993)",
+    "v": "525 (500 US, 25 Canada)"
+   },
+   {
+    "k": "South Africa 2.8i (BMW six)",
+    "v": "1,395 (656 Defender 90, 739 Defender 110)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "SV90",
+    "years": "1992",
+    "note": "UK special; 90 built"
+   },
+   {
+    "name": "NAS Limited Edition D90",
+    "years": "1997",
+    "note": "300 built for the US; the final NAS run, in Willow Green"
+   },
+   {
+    "name": "50th Anniversary",
+    "years": "1998",
+    "note": "1,071 built (385 for the UK)"
+   },
+   {
+    "name": "Defender Black",
+    "years": "2002",
+    "note": "92 Defender 90s and 144 Defender 110 double-cab pickups"
+   },
+   {
+    "name": "Works V8",
+    "years": "2018",
+    "note": "150 factory-restored trucks with the 5.0 V8"
+   }
+  ],
+  "paint": "NAS 90 colours included Coniston Green, Portofino Red, Arles Blue, Beluga Black, Alpine White and AA Yellow; the 1993 NAS 110 was Alpine White."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs; runs trail-steward training and partners on national rallies."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "Colorado-based Solihull Society's national Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (MAR)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "Rover Owners of Virginia's main event for 30 years; trails, vendors and classes, held in September."
+  },
+  {
+   "kind": "club",
+   "name": "Association of Land Rover Clubs (UK)",
+   "url": "https://www.alrc.co.uk/",
+   "note": "UK governing body for Land Rover clubs; runs the annual National Rally."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Land Rover Defender",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender"
+  },
+  {
+   "name": "Glencoyne Engineering — Land Rover chassis numbers",
+   "url": "https://www.glencoyne.co.uk/land-rover-chassis-numbers"
+  },
+  {
+   "name": "Glencoyne Engineering — The Tdi pages (200Tdi vs 300Tdi)",
+   "url": "https://www.glencoyne.co.uk/tdipage1"
+  },
+  {
+   "name": "British Motor Museum — Heritage Certificates",
+   "url": "https://www.britishmotormuseum.co.uk/archive/heritage-certificates"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Defender 1993–1997 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=DEFENDER&modelYear=1995"
+  },
+  {
+   "name": "NHTSA — Importation and Certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "U.S. CBP — Importing a Motor Vehicle",
+   "url": "https://www.cbp.gov/trade/basic-import-export/importing-car"
+  },
+  {
+   "name": "EPA — Form 3520-1 (Importation of Motor Vehicles), exemption code E",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "Motor Authority — Seized Land Rovers to head back to their owners",
+   "url": "https://www.motorauthority.com/news/1098579_seized-land-rovers-to-head-back-to-their-owners"
+  },
+  {
+   "name": "Hagerty — Losses and Lessons: Defender owner defenseless against EPA, DHS",
+   "url": "https://hagerty.com/media/?p=2167"
+  },
+  {
+   "name": "Import a Vehicle — Smog check exempted vehicles in California",
+   "url": "https://www.importavehicle.com/blog/smog-check-exempted-vehicles-in-california"
+  },
+  {
+   "name": "ECD Automotive Design — Are custom Defenders legal in all states?",
+   "url": "https://ecdautodesign.com/blog/are-custom-defenders-legal-in-all-states"
+  },
+  {
+   "name": "ECD Automotive Design — NAS Defender history",
+   "url": "https://ecdautodesign.com/blog/nas-defender-history/"
+  },
+  {
+   "name": "ECD Automotive Design — The fuel economy of a Land Rover Defender",
+   "url": "https://ecdautodesign.com/blog/the-fuel-economy-of-a-land-rover-defender-what-to-expect-and-how-to-improve-it/"
+  },
+  {
+   "name": "Atlantic British — Special edition new Defender celebrates 1993 NAS Defender 110",
+   "url": "https://roverparts.com/roverlog-news-blog/special-edition-new-defender-celebrates-1993-nas-defender-110"
+  },
+  {
+   "name": "RM Sotheby's — 1994 Land Rover NAS Defender 90 (lot 389, chassis SALDV2285RA941249)",
+   "url": "https://rmsothebys.com/auctions/dd24/lots/r0074-1994-land-rover-nas-defender-90"
+  },
+  {
+   "name": "RM Sotheby's — 1997 Land Rover NAS Defender 90",
+   "url": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90"
+  },
+  {
+   "name": "Limitless Tire — 1998 Land Rover Defender wheel and tire sizes",
+   "url": "https://limitlesstire.com/vehicles/land-rover/defender/1998/"
+  },
+  {
+   "name": "BolidenForum — 1993 Land Rover Defender 110 V8-3.9L technical data",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1993-defender-110-ld-v8-3-9l/?vd_lang=en"
+  },
+  {
+   "name": "AULRO — 255/85R16 on a Defender 90",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-237952.html"
+  },
+  {
+   "name": "AULRO — 235/85R16 vs 255/85R16",
+   "url": "https://www.aulro.com/afvb/90-110-130-defender-county/128504-235-85r16-vs-255-85r16-11-print.html"
+  },
+  {
+   "name": "LandRoverForums — Tallest tire (Defender)",
+   "url": "https://landroverforums.com/forum/defender-32/tallest-tire-111491-printthread/"
+  },
+  {
+   "name": "AULRO — 35s (315/75R16) on a Defender",
+   "url": "https://www.aulro.com/afvb/technical-chatter/29515-35s-315-75s-r16-fender-35x12-5r16.html"
+  },
+  {
+   "name": "CarsGuide — 2004 Land Rover Defender towing capacity",
+   "url": "https://www.carsguide.com.au/land-rover/defender/towing-capacity/2004"
+  },
+  {
+   "name": "GoAuto — Land Rover Defender 90 (2009) used-car research",
+   "url": "https://www.goauto.com.au/used-car-research/land-rover/defender-90/2009-11-01/4749.html"
+  },
+  {
+   "name": "LR Direct — STC4096L modified timing belt kit",
+   "url": "https://www.lrdirect.com/stc4096l-modified-timing-belt-pulley-kit-3"
+  },
+  {
+   "name": "AULRO — Td5 harness",
+   "url": "https://www.aulro.com/afvb/technical-chatter/28941-td5-harness.html"
+  },
+  {
+   "name": "Rovers North — RWM905 Shop Manual w/Binder, Defender 93–95 NAS",
+   "url": "https://www.roversnorth.com/parts/rwm905_shop_manual_w_binder_defender_93_95_nas&type=3"
+  },
+  {
+   "name": "Rovers North — RWM907 Workshop Manual w/Binder, Defender 90 1997",
+   "url": "https://www.roversnorth.com/parts/rwm907_workshop_manual_w_binder_defender_90_1997&type=3"
+  },
+  {
+   "name": "Rovers North — Books, Manuals and DVDs",
+   "url": "https://www.roversnorth.com/category/565_books_manuals"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Defender 90 NAS results",
+   "url": "https://bringatrailer.com/land-rover/defender-90-nas/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Defender 110 NAS results",
+   "url": "https://bringatrailer.com/land-rover/defender-110-nas/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover 90 and Defender 90 (Euro-spec) results",
+   "url": "https://bringatrailer.com/land-rover/90-and-defender-90-euro-spec/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Defender 110 (Euro) results",
+   "url": "https://bringatrailer.com/land-rover/defender-110-euro/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025 (Mid-Atlantic Rally, Rover Owners of Virginia)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  },
+  {
+   "name": "Rovers North blog — ANARC News, Spring 2026 (Solihull Society LRNR 2026)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  },
+  {
+   "name": "ANARC — Association of North American Rover Clubs",
+   "url": "https://www.anarc.club/"
+  },
+  {
+   "name": "Association of Land Rover Clubs (UK)",
+   "url": "https://www.alrc.co.uk/"
+  },
+  {
+   "name": "NHTSA — Recall 95V099000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V099000"
+  },
+  {
+   "name": "NHTSA — Recall 96V108000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V108000"
+  }
+ ]
+}
