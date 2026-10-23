@@ -21,14 +21,14 @@
   {
    "heading": "A JEEP RIVAL THAT OUTSOLD EVERYTHING",
    "paragraphs": [
-    "In America the FJ40 was pitched against the Jeep and it worked. Toyota's pressroom says the Land Cruiser was the company's best-selling vehicle in the US until 1965, when the Corona passenger car took over; Wikipedia records global output passing 50,000 that year. Hagerty dates US imports from 1963, while Toyota's own history puts the first US trucks in 1960, so the start depends on whom you ask. Either way, a little Japanese 4x4 was carrying the brand in its biggest export market before most Americans had heard of Toyota.",
-    "The engine did a lot of the persuading. The 3.9-liter F straight-six made 125 hp in Toyota's US history, and Hagerty describes it as a reverse-engineered copy of Chevrolet's 235-cubic-inch 'Stovebolt' six and 'virtually indestructible.' It drove a three-speed column-shift manual at launch. Diesels came later for other markets, the H six in 1972 and the four-cylinder B in 1974, but Wikipedia notes diesel 40s were never sold to the general US public; a few arrived as mine trucks."
+    "In America the FJ40 was pitched against the Jeep and it worked. Toyota's pressroom says the Land Cruiser was the company's best-selling vehicle in the US until 1965, when the Corona passenger car took over; Wikipedia records global output passing 50,000 that year. Toyota's US pressroom says the FJ40 came to America in 1960, two years after the first Land Cruiser was sold here; Hagerty dates FJ40 imports from 1963, so the exact start depends on whom you ask. Either way, a little Japanese 4x4 was carrying the brand in its biggest export market before most Americans had heard of Toyota.",
+    "The engine did a lot of the persuading. The 3.9-liter F straight-six made 125 hp in Toyota's US history, and Hagerty calls it 'virtually indestructible' and essentially a reverse-engineered Chevrolet 235 'Stovebolt' six (Wikipedia says the bottom end is closer to GMC's 236 six, so treat the family tree as folklore). It drove a three-speed column-shift manual at launch. Diesels came later for other markets, the H six in the long-wheelbase HJ45 from 1972 or 1973 (sources differ) and the four-cylinder B in 1974, but Wikipedia notes diesel 40s were never sold to the general US public; a few arrived as mine trucks."
    ]
   },
   {
    "heading": "QUIET EVOLUTION",
    "paragraphs": [
-    "Changes came mechanically rather than visually. US trucks got the 4.2-liter 2F and a four-speed in 1975, along with rear barn doors and, a year earlier, a standard roll bar. Front disc brakes arrived in 1976. In 1979 came the square headlight bezels, optional power steering and air conditioning on F-engine trucks, and a switch from 4.11 to 3.70 axle gears. IH8MUD members still steer first-time buyers to post-1976 trucks for the discs and the 2F, and warn that 1980-and-later bodies seem to rust more readily.",
+    "Changes came mechanically rather than visually. US trucks got the 4.2-liter 2F and a four-speed in 1975, along with rear barn doors and, a year earlier, a standard roll bar. Front disc brakes arrived in 1976. In 1979 came the square headlight bezels, optional power steering and air conditioning on petrol trucks, and a switch from 4.11 to 3.70 axle gears. IH8MUD members still steer first-time buyers to post-1976 trucks for the discs and the 2F, and warn that 1980-and-later bodies seem to rust more readily.",
     "The truck stayed crude to the end. Retro Rides sums up the driving experience as vague steering, wayward handling, a harsh ride on heavy leaf springs and a cabin that gets very hot in summer. That's part of the appeal: almost everything on it can be reached with a 17 mm wrench and a bit of patience. Free-wheeling front hubs became standard in Australia from 1982, and a five-speed arrived later in the run, but US buyers never saw much luxury."
    ]
   },
@@ -68,7 +68,7 @@
   {
    "k": "ENGINE",
    "v": "F 3.9 L (to 1975) / 2F 4.2 L OHV I6",
-   "note": "F rated 125 hp in Toyota's US history; 2F 135 PS. Pushrod valvetrain needs periodic adjustment."
+   "note": "F rated 125 hp in Toyota's US history; 2F 135 hp. Pushrod valvetrain needs periodic adjustment."
   },
   {
    "k": "GEARBOX",
@@ -78,7 +78,7 @@
   {
    "k": "BRAKES & STEERING",
    "v": "Drums to 1975; front discs from 1976 (US)",
-   "note": "Power steering optional on F-engine trucks from 1979; manual recirculating-ball box before that."
+   "note": "Power steering optional on petrol trucks from 1979; manual recirculating-ball box before that."
   }
  ],
  "generations_table": [
@@ -93,14 +93,14 @@
    "years": "1975–1978",
    "platform": "FJ40 (mid)",
    "engine": "2F 4.2 L OHV I6 (petrol)",
-   "output": "135 PS / 210 lb-ft",
+   "output": "135 hp / 200–210 lb-ft",
    "note": "Four-speed manual in the US; barn doors from 1975; front discs from 1976."
   },
   {
    "years": "1979–1984",
    "platform": "FJ40 (late)",
    "engine": "2F 4.2 L OHV I6 (petrol)",
-   "output": "135 PS / 210 lb-ft",
+   "output": "135 hp / 200–210 lb-ft",
    "note": "Square headlight bezels, optional power steering and A/C, 3.70 gears in the US. Last US model year 1983."
   },
   {
@@ -195,7 +195,7 @@
    "title": "Valve adjustment on the F / 2F",
    "diff": "2 / 5",
    "time": "≈ 1–2 hours",
-   "cost": "Valve cover gasket about $35 plus washers",
+   "cost": "Valve cover gasket about $17–22 (Cruiser Corps) plus washers",
    "symptoms": "Loud ticking from the top end (loose valves), or poor running and burned valves (tight valves, which are the ones to worry about).",
    "fix": "Warm the engine. With it idling, use go/no-go feeler gauges to find the tight and loose valves. Shut down and adjust only those: turn the engine until a cylinder's intake valve has just closed, rotate a few degrees more, then set both valves for that cylinder. Valve layout front to back is E-I-I-E-E-I-I-E-E-I-I-E. Pulling the spark plugs makes turning the engine by hand easier, and a long screwdriver in the plug hole finds top dead center. Use the clearances in your service manual.",
    "tools": "Feeler gauges (fresh ones; soft gauges bend) · 17 mm wrench (a 17/19 mm socket-ended flex wrench helps) · new valve cover gasket and acorn-nut washers",
@@ -226,6 +226,11 @@
    "fix": "Read the carburetor number stamped on the body first: Cruiser Corps lists more than a dozen Keyster kits for FJ40, FJ45 and FJ55 carburetors from 1966 to 1984, matched by carb number and date range. Strip, clean and rebuild with the correct kit, set the float level, and check vacuum lines and choke operation while it's off.",
    "tools": "Screwdrivers · carb cleaner · correct Keyster rebuild kit (by carb number, e.g. 21100-60280 for 9/1973–9/1975)",
    "parts": [
+    {
+     "name": "Keyster carburetor rebuild kits by carb number, FJ40/45/55 1966–84",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/keyster-carburetor-rebuild-kits"
+    },
     {
      "name": "Carburetor rebuild kit, FJ40/45/55/60 1975–87",
      "supplier": "Cruiser Corps",
@@ -287,6 +292,11 @@
      "name": "OME greaseable rear anti-inversion shackle kit OMEGS1 (1980–90)",
      "supplier": "Cruiser Corps",
      "url": "https://www.cruisercorps.com/products/rear-shackle-greasable-omegs1"
+    },
+    {
+     "name": "Urethane leaf-spring bushing kit A216, FJ40/45 1958–7/1980",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/leaf-spring-bushing-kit-fj40"
     }
    ]
   },
@@ -299,6 +309,11 @@
    "fix": "Pull the seats and floor mats, cut back to clean metal, fit and clamp the reproduction pan, and weld it in. IH8MUD's old-school advice: cut out the rust, weld in steel, and use filler only to smooth the surface. Seam-seal and paint underneath before refitting.",
    "tools": "Cut-off wheel · MIG welder · clamps · seam sealer · Cruiser Corps 605-111L (left front, 1979–1984 FJ40/FJ45)",
    "parts": [
+    {
+     "name": "Floor pan, left front, FJ40/FJ45 1979–84 (605-111L)",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/floor-pan-left-front-fj40-fj45-1979-1984"
+    },
     {
      "name": "Floor panel, driver side, FJ40 1965–9/1972",
      "supplier": "Cruiser Corps",
@@ -348,7 +363,7 @@
    "time": "≈ A long weekend",
    "cost": "Parts plus labor",
    "symptoms": "Screaming highway rpm on 33s with a 1:1 top gear.",
-   "fix": "The H55F five-speed has a 0.845:1 fifth and a much deeper first. On 1975–80 FJ40s with a four-speed, the IH8MUD guide lists floor and transmission-cover changes, a custom crossmember, transfer-case shift linkage and boot, driveshaft length changes, speedometer cable and parking-brake work. Early three-speed trucks also need a bellhousing and frame-crossmember changes. Fit an oiler for fifth gear.",
+   "fix": "The H55F five-speed has a 0.845:1 fifth and a much deeper first. On 1975–80 FJ40s with a four-speed, the IH8MUD guide lists floor and transmission-cover changes, a custom crossmember, transfer-case shift linkage and boot, driveshaft length changes, speedometer cable and parking-brake work. Early three-speed trucks also need a bellhousing and frame-crossmember changes. Fit an oiler for fifth gear: Cruiser Corps says the H55F needs a split transfer case built 10/1982 or later, which has the oiler provision.",
    "tools": "Transmission jack · H55F (input shaft to suit the engine) · oiler pipe · shifter · linkage kit · gaskets",
    "parts": [
     {
@@ -392,7 +407,7 @@
   },
   {
    "q": "Does it have power steering?",
-   "a": "Only optionally, on F-engine trucks from 1979. Earlier trucks have manual steering, and many owners fit a GM Saginaw power-steering conversion. It isn't a casual bolt-on, and Cruiser Corps recommends professional installation.",
+   "a": "Only as an option on petrol FJ40s from 1979. Earlier trucks have manual steering, and many owners fit a GM Saginaw power-steering conversion. It isn't a casual bolt-on, and Cruiser Corps recommends professional installation.",
    "src": "WIKIPEDIA · CRUISER CORPS"
   },
   {
@@ -627,7 +642,7 @@
   },
   {
    "k": "OUTPUT",
-   "v": "F 125 hp · 2F 135 PS / 210 lb-ft"
+   "v": "F 125 hp · 2F 135 hp / 200–210 lb-ft"
   },
   {
    "k": "TRANSMISSION (US)",
@@ -661,16 +676,16 @@
  "photos": [
   {
    "file": "fj40-deosai-bridge.jpg",
-   "alt": "A red Toyota Land Cruiser FJ40 hardtop crossing a timber-and-cable suspension bridge over a river on the Deosai plateau",
-   "caption": "FJ40 · DEOSAI, PAKISTAN",
+   "alt": "A red 40 Series Land Cruiser hardtop with a white roof and square headlight bezels crossing a timber-and-cable suspension bridge over a river on the Deosai plateau",
+   "caption": "40 SERIES · DEOSAI, PAKISTAN",
    "credit": "Sadiqrizwan · CC BY-SA 4.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Deosai_Skardu_Pakistan2.jpg"
   },
   {
    "file": "fj40-wadi-rum.jpg",
-   "alt": "A white open-topped Land Cruiser FJ40 safari truck driving across red sand below sandstone cliffs in Wadi Rum",
-   "caption": "FJ40 · WADI RUM, JORDAN",
+   "alt": "A cream round-headlight 40 Series Land Cruiser converted into an open safari truck, driving across red sand below sandstone cliffs in Wadi Rum",
+   "caption": "40 SERIES SAFARI TRUCK · WADI RUM, JORDAN",
    "credit": "Kerstin Rehmann · CC BY-SA 3.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Jeepfahrt_durch_Wadi_Rum.JPG"
@@ -727,7 +742,7 @@
   },
   {
    "name": "IH8MUD — First valve adjustment on my '78 FJ40",
-   "url": "https://forum.ih8mud.com/40-55-series-tech/232126-first-valve-adjustment-my-78-fj40.html"
+   "url": "https://forum.ih8mud.com/threads/first-valve-adjustment-on-my-78-fj40.232126/"
   },
   {
    "name": "IH8MUD — Knuckle preload",
@@ -788,6 +803,10 @@
   {
    "name": "Wikipedia — Toyota F engine",
    "url": "https://en.wikipedia.org/wiki/Toyota_F_engine"
+  },
+  {
+   "name": "Cruiser Corps — H55F 5-speed transmission, OEM (split-case/oiler requirement)",
+   "url": "https://cruisercorps.com/products/h55f-5-speed-transmission-oem"
   }
  ],
  "baseline_service": {
@@ -856,7 +875,7 @@
     "item": "Valve lash",
     "spec": "Adjustable rockers · clearances [CONFIRM IN MANUAL]",
     "interval": "Check now; then periodically",
-    "note": "Hagerty notes the F and 2F want periodic valve adjustments; tight valves are the ones that burn. Valve layout front to back is E-I-I-E-E-I-I-E-E-I-I-E.",
+    "note": "The F and 2F have adjustable rockers that need periodic checks; tight valves are the ones that burn. Valve layout front to back is E-I-I-E-E-I-I-E-E-I-I-E.",
     "parts": [
      {
       "name": "Valve cover gasket, FJ40/45/55 1958–74",

@@ -25,6 +25,20 @@
     "ref": "NHTSA 91V110000",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V110000",
     "summary": "Heat and loading can pressurize the tank and crack the internal separator welds, leaking fuel; the remedy was an improved tank. NHTSA files it under 1980–90 Land Cruisers, and Corsetti describes it as a 60 Series campaign, so confirm it applies to your truck."
+   },
+   {
+    "title": "Steering tie rod can fracture on rough roads at speed",
+    "years": "1981",
+    "ref": "NHTSA 81V117000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=81V117000",
+    "summary": "NHTSA lists this campaign for 1981 Land Cruisers without naming the body style: driven continuously above 50 mph on extremely rough roads, the tie rod can resonate, bend and eventually fracture. The remedy was a new tie rod and relay rod. Confirm with Toyota whether your 1981 FJ40 was covered."
+   },
+   {
+    "title": "Electrical wiring campaign",
+    "years": "1969",
+    "ref": "NHTSA 69V027000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=69V027000",
+    "summary": "NHTSA lists a 1969 Land Cruiser wiring recall but its database carries no defect summary or remedy text."
    }
   ]
  },
@@ -36,7 +50,7 @@
   },
   {
    "year": "1963",
-   "change": "US imports begin; within two years it's Toyota's best-selling vehicle in America",
+   "change": "Hagerty's date for the start of US FJ40 imports (Toyota's US pressroom says 1960); by 1965 the Land Cruiser is Toyota's best-selling vehicle in America",
    "flag": "note"
   },
   {
@@ -143,7 +157,7 @@
    },
    {
     "k": "US imports",
-    "v": "From 1963"
+    "v": "From 1960 (Toyota) or 1963 (Hagerty)"
    },
    {
     "k": "Wheelbases",
@@ -240,6 +254,14 @@
   {
    "name": "Visit Utah — Land Cruiser Heritage Museum",
    "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
+  },
+  {
+   "name": "NHTSA — Recall 81V117000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=81V117000"
+  },
+  {
+   "name": "Toyota Pressroom — A Toyota global icon for nearly 70 years",
+   "url": "https://pressroom.toyota.com/?p=57730"
   }
  ]
 }

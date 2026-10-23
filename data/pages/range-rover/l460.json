@@ -20,21 +20,21 @@
   {
    "heading": "MLA-FLEX AND THE BIG STRETCH",
    "paragraphs": [
-    "The L460 rides on JLR's MLA-Flex architecture, shared with the third-generation Range Rover Sport. It grew in every direction over the [[range-rover/l405|L405]]: 53 mm longer, 63 mm wider and 35 mm taller, on a wheelbase 22 mm longer at 2,997 mm. The long-wheelbase version adds another 200 mm between the axles, and it is the only body that offers seven seats. JLR claims torsional rigidity is up 50 percent to 50,000 Nm per degree, and a steel closed-section front bulkhead cuts road noise entering the cabin by about 24 percent.",
+    "The L460 rides on JLR's MLA-Flex architecture, shared with the third-generation Range Rover Sport. It grew in every direction over the [[range-rover/l405|L405]]: 53 mm longer, 63 mm wider and 35 mm taller, on a wheelbase 75 mm longer at 2,997 mm. The long-wheelbase version adds another 200 mm between the axles, and it is the only body that offers seven seats. JLR claims torsional rigidity is up 50 percent to 50,000 Nm per degree, and a steel closed-section front bulkhead cuts road noise entering the cabin by about 24 percent.",
     "Off-road hardware survived the luxury push. US-spec trucks still list a twin-speed transfer box with high and low range, Terrain Response 2, All Terrain Progress Control and hill descent control. Upper trims get an Electronic Active Differential with torque vectoring, while the SE makes do with an open rear diff and torque vectoring by braking. New tricks include all-wheel steering, the first on a Land Rover, which gives a 10.95 m turning circle. An intelligent AWD system can also disconnect the front axle between 35 and 160 km/h to cut drag losses by 30 percent."
    ]
   },
   {
    "heading": "SIX, EIGHT, PLUG, BATTERY",
    "paragraphs": [
-    "Engines are all electrified to some degree. The core is JLR's 3.0-litre Ingenium straight-six, as a 400 PS mild-hybrid petrol, as 249–350 PS mild-hybrid diesels outside the US, or as a plug-in hybrid with a 38.2 kWh battery and a 105 kW motor. The P440e and P510e launched the PHEVs, and the P550e replaced the P440e for the 2024 model year. The V8 is BMW's twin-turbo 4.4. Early P530s used the N63, and from the 2024 model year JLR switched to the newer S68, which also powers the 615 PS SV. In EPA testing a 2023 P530 managed 16 mpg city and 21 highway, the P400 18 and 26, and the P440e 51 MPGe on electricity.",
+    "Engines are all electrified to some degree. The core is JLR's 3.0-litre Ingenium straight-six, as a 400 PS mild-hybrid petrol, as 249–350 PS mild-hybrid diesels outside the US, or as a plug-in hybrid with a 38.2 kWh battery and a 105 kW motor (160 kW on the later P550e). The P440e and P510e launched the PHEVs, and the P550e replaced the P440e for the 2024 model year. The V8 is BMW's twin-turbo 4.4. Early P530s used the N63, and from the 2024 model year JLR switched to the newer S68, which also powers the 615 PS SV. In EPA testing a 2023 P530 managed 16 mpg city and 21 highway, the P400 18 and 26, and the P440e 51 MPGe on electricity.",
     "Then the big one. Range Rover Electric is available to order in the US as a 2027 model, with twin 260 kW motors, 660 lb-ft, an 800-volt battery architecture and an EPA range of 333 miles. Land Rover is careful to say it is still a Range Rover. It quotes a 35-inch wading depth and 5,511 lb of towing, and the battery sits behind a flat, re-engineered underbody meant to cope with sliding over obstacles."
    ]
   },
   {
    "heading": "GROWING PAINS",
    "paragraphs": [
-    "The launch was rough. Owners on FullFatRR report early cars delivered with downgraded audio and other options because JLR couldn't get the parts. Then came the recalls. NHTSA lists, among others, a blocked cam-carrier oil channel (2020–2023 trucks), badly welded second-row seat frames on 2022–2023 seven-seaters, damaged tail-light links, and 2024 trucks with body panels that may not have been bonded properly. UK owners also reported a rear-subframe cracking recall in 2023. The headline problem now is the 48-volt to 12-volt DC-DC converter on mild hybrids: when it fails, the 12-volt battery stops charging. NHTSA recall 26V248000 covers 2020–2024 Range Rovers with an interim software fix.",
+    "The launch was rough. Owners on FullFatRR report early cars delivered with downgraded audio and other options because JLR couldn't get the parts. Then came the recalls. NHTSA lists, among others, a blocked cam-carrier oil channel (2022–2023 L460s; the same campaign covers 2020–21 L405s), badly welded second-row seat frames on 2022–2023 seven-seaters, damaged tail-light links, and 2024 trucks with body panels that may not have been bonded properly. UK owners also reported a rear-subframe cracking recall in 2023. The headline problem now is the 48-volt to 12-volt DC-DC converter on mild hybrids: when it fails, the 12-volt battery stops charging. NHTSA recall 26V248000 covers 2020–2024 Range Rovers (including late L405 mild hybrids) with an interim central-software fix, and follow-up campaign 26V599000 adds a further software update, with a final remedy still to come.",
     "None of that changes what it is on a trail: a very wide, very heavy luxury car with low range, clever traction electronics and air suspension that does its job well. What it lacks is an aftermarket. A 2025 FullFatRR thread asking for sliders and underbody protection was told to budget €3,500–4,000 for a fabrication shop. Owners weighing one for African dirt roads were pointed at a [[land-rover/defender-l663|Defender]] or a [[land-cruiser/300-series|Land Cruiser 300]]. Treat the L460 as a superb gravel-and-green-lane machine, and keep it away from rock gardens."
    ]
   }
@@ -113,8 +113,8 @@
    "years": "2024–present",
    "platform": "SWB / LWB (not 7-seat)",
    "engine": "P550e 3.0 I6 PHEV",
-   "output": "560 PS, 800 Nm",
-   "note": "Replaced the P440e; Land Rover estimates about 50 miles of real-world EV range."
+   "output": "550 PS, 800 Nm",
+   "note": "Replaced the P440e; 160 kW motor; Land Rover estimates about 50 miles of real-world EV range."
   },
   {
    "years": "2022–present",
@@ -134,11 +134,11 @@
  "buying_checks": [
   {
    "head": "Run the VIN against every recall",
-   "body": "NHTSA lists a stack of campaigns: a cam-carrier oil channel (2020–2023), 7-seat second-row frame welds (2022–2023), tail-light links (2022–2023), rear-camera water ingress (2022–2023), body panels not bonded properly (2024), transmission oil pressure (2024), a cracking oil filter housing (2024), the driver's airbag clockspring connector (2022–2026), and the DC-DC converter (2020–2024). Get written confirmation that they're closed."
+   "body": "NHTSA lists a stack of campaigns: a cam-carrier oil channel (2022–2023), 7-seat second-row frame welds (2022–2023), tail-light links (2022–2023), rear-camera water ingress (2022–2023), body panels not bonded properly (2024), transmission oil pressure (2024), a cracking oil filter housing (2024), the driver's airbag clockspring connector (2022–2026), and the DC-DC converter (26V248000 and 26V599000, 2022–2024 L460s). Get written confirmation that they're closed."
   },
   {
    "head": "Ask about the DC-DC converter",
-   "body": "On mild hybrids, a failing 48-volt to 12-volt converter shows 'Stop – electrical fault' with a red battery light and stops charging the 12-volt battery. Owners say it may log no fault and clear itself, only to return. Dealers have had cars waiting weeks for back-ordered modules. NHTSA recall 26V248000 is an interim software update, with a final remedy to follow."
+   "body": "On mild hybrids, a failing 48-volt to 12-volt converter shows 'Stop – electrical fault' with a red battery light and stops charging the 12-volt battery. Owners say it may log no fault and clear itself, only to return. Dealers have had cars waiting weeks for back-ordered modules. NHTSA recalls 26V248000 and 26V599000 are interim software updates, with a final remedy to follow."
   },
   {
    "head": "Check that it goes to sleep",
@@ -224,7 +224,7 @@
    "time": "Varies",
    "cost": "Specialist roughly £700–800 for the part plus about £400 to fit and program; dealers quoted £1,800–2,000 (owner reports)",
    "symptoms": "'Stop – electrical fault detected' with a red battery light, the 12-volt battery not charging, and possibly loss of drive. Often no stored faults, and it may clear itself before coming back.",
-   "fix": "Check first whether NHTSA recall 26V248000 (US) has been done. It adds a central software update to stop the converter overloading, and it's free. If the converter has already failed, it has to be replaced and then programmed to the vehicle, so use a dealer or a JLR specialist with the right software. Parts have been back-ordered, so plan on the truck being off the road for a while.",
+   "fix": "Check first whether NHTSA recalls 26V248000 and 26V599000 (US) have been done. It adds a central software update to stop the converter overloading, and it's free. If the converter has already failed, it has to be replaced and then programmed to the vehicle, so use a dealer or a JLR specialist with the right software. Parts have been back-ordered, so plan on the truck being off the road for a while.",
    "tools": "JLR-capable diagnostic and programming tool · replacement DC-DC converter module",
    "parts": [
     {
@@ -275,7 +275,7 @@
      "url": "https://www.fcpeuro.com/products/land-rover-oil-filter-kit-hengst-lr133455"
     },
     {
-     "name": "Oil filter LR133455 with O-ring",
+     "name": "Oil filter LR133455 with O-ring (Lucky8 lists Ingenium 3.0 Defender/RR fitment — confirm L460 by VIN)",
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/oil-filter-with-o-ring-seal-cartridge-style"
     }
@@ -311,7 +311,7 @@
  "faq": [
   {
    "q": "What's the biggest tire I can fit without a lift?",
-   "a": "There is no forum consensus yet. Owners haven't published L460 all-terrain fitment the way L405 owners have, and the off-the-shelf sensor-link lift kits sold for the L405 don't list the L460. Factory wheels run from 21 to 23 inches, and one owner fitted L460 21s with 275/50R21 tyres to an L405. If you want sidewall, 20-inch wheels are the realistic floor: Lucky8 lists 20×9.5 ET30 wheels for the L460, and L405 20s fit with the correct flat-seat bolts. Test any oversize tyre at full lock and in every height mode before you trust it.",
+   "a": "There is no forum consensus yet. Owners haven't published L460 all-terrain fitment the way L405 owners have, and the off-the-shelf sensor-link lift kits sold for the L405 don't list the L460. Factory wheels run from 20 to 23 inches, and one owner fitted L460 21s with 275/50R21 tyres to an L405. If you want sidewall, 20-inch wheels are the realistic floor: Lucky8 lists 20×9.5 ET30 wheels for the L460, and L405 20s fit with the correct flat-seat bolts. Test any oversize tyre at full lock and in every height mode before you trust it.",
    "src": "FULLFATRR · LUCKY8"
   },
   {
@@ -336,7 +336,7 @@
   },
   {
    "q": "How far does the plug-in hybrid go on electricity?",
-   "a": "PHEVs use a 38.2 kWh battery (31.8 kWh usable) and a 105 kW motor. Land Rover estimates about 50 miles of real-world electric range. A 7 kW home charger fills it in about 5 hours, and a 50 kW DC charger gets it to 80% in under an hour.",
+   "a": "PHEVs use a 38.2 kWh battery (31.8 kWh usable) with a 105 kW motor on the P440e/P510e and a 160 kW motor on the P550e. Land Rover estimates about 50 miles of real-world electric range. A 7 kW home charger fills it in about 5 hours, and a 50 kW DC charger gets it to 80% in under an hour.",
    "src": "WIKIPEDIA · RANGEROVER.COM"
   },
   {
@@ -756,6 +756,14 @@
   {
    "name": "Lucky8 — LR153550 rear brake rotor (L460)",
    "url": "https://lucky8llc.com/products/genuine-disc-brake-rotor"
+  },
+  {
+   "name": "NHTSA — Recall 26V599000 (MHEV DC-DC converter, campaign API)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V599000"
+  },
+  {
+   "name": "NHTSA — Recall 26V248000 (MHEV DC-DC converter, campaign API)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V248000"
   }
  ],
  "baseline_service": {
@@ -765,7 +773,7 @@
     "item": "Recalls & software updates",
     "spec": "NHTSA recall lookup by VIN, plus dealer / over-the-air software status",
     "interval": "At purchase, then whenever a campaign is announced",
-    "note": "Recall 26V248000 (US) adds a central software update so the 48 V–12 V converter doesn't overload, and door-module and RFA updates have cured some battery drains. All are free and stop expensive failures.",
+    "note": "Recalls 26V248000 and 26V599000 (US) add central software updates so the 48 V–12 V converter doesn't overload, and door-module and RFA updates have cured some battery drains. All are free and stop expensive failures.",
     "parts": [
      {
       "name": "GAP IIDTool BT G4 (reads all modules on DoIP trucks)",
