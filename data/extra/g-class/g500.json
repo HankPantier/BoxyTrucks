@@ -79,8 +79,8 @@
    "flag": "note"
   },
   {
-   "year": "2007",
-   "change": "Seven-speed 722.9 automatic replaces the five-speed 722.6 in US trucks; HID headlamps, reversing camera and tire-pressure monitoring arrive",
+   "year": "2006–07",
+   "change": "June 2006 production: the seven-speed 7G-TRONIC (722.9) replaces the five-speed 722.6 (ADAC). In North America that is the 2007 model year, which also brings HID headlamps, a reversing camera and tire-pressure monitoring",
    "flag": "note"
   },
   {
@@ -115,7 +115,7 @@
    },
    {
     "head": "Gearbox",
-    "body": "US trucks through 2006 use the five-speed 722.6; 2007–2008 trucks have the seven-speed 722.9. That matters for fluid specs and service intervals."
+    "body": "The five-speed 722.6 ran until June 2006 production; the seven-speed 722.9 (7G-TRONIC) followed, which in the US means 2002–2006 model years are five-speeds and 2007–2008 are seven-speeds. Check the VIN model year, the build month on the door-jamb label, and the dipstick: the 722.6 has one, the 722.9 does not. That matters for fluid specs and service intervals."
    },
    {
     "head": "Three lockers",
@@ -343,6 +343,26 @@
   {
    "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
    "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
+  },
+  {
+   "name": "ADAC Autokatalog — Mercedes-Benz G 500 Station-Wagen kurz Automatik (10/00 – 06/06, 5 gears)",
+   "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/g-klasse/463-facelift/985576/"
+  },
+  {
+   "name": "ADAC Autokatalog — Mercedes-Benz G 500 Station-Wagen kurz 7G-TRONIC (06/06 – 04/07, 7 gears)",
+   "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/g-klasse/463-facelift/282625/"
+  },
+  {
+   "name": "Mercedes-Benz Canada — Mercedes-Benz G-Class forges on (2007 model year)",
+   "url": "https://media.mercedes-benz.ca/releases/release-70b4519d5c8af2fea32b55f7b702de99-mercedes-benz-g-class-forges-on"
+  },
+  {
+   "name": "MPG Buddy (EPA data) — 2006 G500: Automatic 5-spd",
+   "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2006"
+  },
+  {
+   "name": "MPG Buddy (EPA data) — 2007 G500: Automatic 7-spd",
+   "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2007"
   }
  ]
 }

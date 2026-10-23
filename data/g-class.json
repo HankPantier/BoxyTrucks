@@ -637,8 +637,13 @@
    },
    {
     "q": "What’s the difference between a G 500 and a G 550?",
-    "a": "Mostly the engine and the badge. In the US the 2002–2008 G 500 has the 5.0-litre M113 V8; from 2009 the same W463 truck became the [[g-class/g550|G 550]] with the 5.5-litre M273 V8. The seven-speed automatic isn't a G 550 exclusive: Wikipedia says US G 500s switched from the five-speed 722.6 to the seven-speed 722.9 during 2007.",
+    "a": "Mostly the engine and the badge. In the US the 2002–2008 G 500 has the 5.0-litre M113 V8; from 2009 the same W463 truck became the [[g-class/g550|G 550]] with the 5.5-litre M273 V8. The seven-speed automatic isn't a G 550 exclusive: US G 500s switched from the five-speed 722.6 to the seven-speed 722.9 for the 2007 model year (production from June 2006). See the next question for how to tell which one you have.",
     "src": "WIKIPEDIA"
+   },
+   {
+    "q": "How can I tell whether my G 500 has the five-speed or the seven-speed automatic?",
+    "a": "Go by the build date, then confirm on the truck. Mercedes switched the G 500 from the five-speed 722.6 to the seven-speed 7G-TRONIC (722.9) in June 2006 production: Germany's ADAC catalogue ends the five-speed G 500 at 06/06 and starts the 7G-TRONIC version the same month. In North America that lined up with the 2007 model year. The EPA lists the 2006 G 500 as a five-speed and the 2007 and 2008 as seven-speeds, and Mercedes-Benz Canada's 2007 release says the G 500 \"now gets\" 7G-TRONIC. To check yours: (1) the 10th character of the VIN is the model year, so 6 means a 2006 five-speed and 7 or 8 means a 2007–08 seven-speed; (2) the certification label on the driver's door jamb or B-pillar gives the month of manufacture, and anything built from June 2006 should be a seven-speed; (3) confirm on the truck: the 722.6 has a transmission dipstick tube with a locking cap, while the 722.9 has no dipstick and is checked at the fill and overflow plug on the pan. The type number on the gearbox's own ID plate, or a Mercedes-Benz Classic data card, settles it for good. Double-check trucks built right around the change, and European Grand Edition trucks, which ADAC lists through August 2006. The [[g-class/g55-amg|G 55 AMG]] kept the five-speed.",
+    "src": "ADAC · EPA · MERCEDES-BENZ CANADA"
    },
    {
     "q": "Will it fit in my garage?",
@@ -1000,6 +1005,38 @@
    {
     "name": "Mercedes-Benz USA — 2015 G-Class Operator's Manual (PDF)",
     "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2015_G.pdf"
+   },
+   {
+    "name": "ADAC Autokatalog — Mercedes-Benz G 500 Station-Wagen kurz Automatik (10/00 – 06/06, 5 gears)",
+    "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/g-klasse/463-facelift/985576/"
+   },
+   {
+    "name": "ADAC Autokatalog — Mercedes-Benz G 500 Station-Wagen kurz 7G-TRONIC (06/06 – 04/07, 7 gears)",
+    "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/g-klasse/463-facelift/282625/"
+   },
+   {
+    "name": "ADAC Autokatalog — G 500 Station-Wagen kurz Grand Edition Automatik (11/05 – 08/06)",
+    "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/g-klasse/463-facelift/275048/"
+   },
+   {
+    "name": "Mercedes-Benz Canada — Mercedes-Benz G-Class forges on (2007 model year)",
+    "url": "https://media.mercedes-benz.ca/releases/release-70b4519d5c8af2fea32b55f7b702de99-mercedes-benz-g-class-forges-on"
+   },
+   {
+    "name": "Auto Bild — Mercedes G-Klasse (2006), 23 June 2006",
+    "url": "https://www.autobild.de/artikel/mercedes-g-klasse-2006--56203.html"
+   },
+   {
+    "name": "MPG Buddy (EPA data) — 2006 G500: Automatic 5-spd",
+    "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2006"
+   },
+   {
+    "name": "MPG Buddy (EPA data) — 2007 G500: Automatic 7-spd",
+    "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2007"
+   },
+   {
+    "name": "FCP Euro — The definitive guide to the Mercedes 722.9 7G-Tronic (no dipstick)",
+    "url": "https://www.fcpeuro.com/blog/the-definitive-guide-to-the-mercedes-722-9-7g-tronic-transmission"
    }
   ],
   "baseline_service": {
