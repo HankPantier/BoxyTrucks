@@ -9,7 +9,7 @@
   "AHC HEIGHT CONTROL",
   "TORSION-BAR IFS"
  ],
- "hero_photo": "lx470-sand.jpg",
+ "hero_photo": "lx470-snorkel-build.jpg",
  "story": [
   {
    "heading": null,
@@ -627,28 +627,28 @@
  ],
  "photos": [
   {
+   "file": "lx470-snorkel-build.jpg",
+   "alt": "A beige Lexus LX 470 with a snorkel, steel bull bar and round driving lights",
+   "caption": "LX 470 · SNORKEL AND BULL BAR BUILD",
+   "credit": "Ethan Llamas · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus_LX_470_UZJ100_Cashmere_Beige_Metallic_01.jpg"
+  },
+  {
    "file": "lx470-sand.jpg",
    "alt": "Tan Lexus LX 470 parked head-on on packed sand by the water under a clear blue sky",
-   "caption": "LX 470 ON THE SAND",
+   "caption": "LX 470 · ON THE SAND",
    "credit": "Pareekshith Indeever",
    "source": "Pexels",
    "source_url": "https://www.pexels.com/photo/lexus-car-under-clear-sky-10697774/"
   },
   {
-   "file": "lc80-twin-hillside.jpg",
-   "alt": "A Toyota Land Cruiser 80 Series, platform of the LX 470's predecessor, on a grassy hillside under a stormy sky",
-   "caption": "WHERE IT CAME FROM: 80 SERIES (DIFFERENT GENERATION)",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
-  },
-  {
-   "file": "lc200-dune-sunset.jpg",
-   "alt": "A white Land Cruiser 200 Series, twin of the LX 470's successor, climbing a sand dune at sunset",
-   "caption": "WHERE IT WENT NEXT: 200 SERIES (DIFFERENT GENERATION)",
-   "credit": "Caspian Dahlström",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+   "file": "lx470-2005-facelift.jpg",
+   "alt": "A grey 2005 Lexus LX 470 parked on a grass verge",
+   "caption": "LX 470 · 2005 · GRASS VERGE, VICTORIA",
+   "credit": "OSX · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2005_Lexus_LX_470_%28UZJ100R_MY06%29_wagon_%282015-07-03%29_01.jpg"
   }
  ],
  "sources": [
@@ -988,5 +988,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "55% 52%"
 }

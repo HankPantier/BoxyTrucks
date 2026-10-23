@@ -10,7 +10,7 @@
    "The GX arrived for 2003 as the smaller sibling, built on the J120 Land Cruiser Prado that the rest of the world got and North America didn't. It was followed by the Prado 150-based GX 460 for 2010 and, for 2024, the GX 550, which shares the GA-F platform with the J250 Land Cruiser 250 / Prado.",
    "For the hands-on crowd the appeal is simple: Toyota's ladder frames, low-range transfer cases and famously long-lived engines, sold new to people who mostly never left the pavement. That means plenty of well-maintained, lightly abused trucks on the used market, along with the expensive suspension gadgets that luxury brought with them."
   ],
-  "hero_photo": "prado120-dunes-mongolia.jpg",
+  "hero_photo": "lx470-snorkel-build.jpg",
   "generations": [
    {
     "slug": "lx450",
@@ -147,7 +147,8 @@
    "4runner",
    "g-class",
    "range-rover"
-  ]
+  ],
+  "hero_focus": "55% 52%"
  },
  "page": {
   "slug": "gx470",
@@ -160,7 +161,7 @@
    "LOCKING CENTER DIFF",
    "REAR AIR SUSPENSION"
   ],
-  "hero_photo": "prado120-dunes-mongolia.jpg",
+  "hero_photo": "gx470-silver-2004.jpg",
   "story": [
    {
     "heading": null,
@@ -768,44 +769,28 @@
   ],
   "photos": [
    {
-    "file": "prado120-dunes-mongolia.jpg",
-    "alt": "Black Toyota Land Cruiser Prado 120, the GX 470's mechanical twin, parked among sand dunes at Khongoryn Els, Mongolia, under a stormy sunset sky",
-    "caption": "PRADO 120, THE GX 470'S TWIN · KHONGORYN ELS, MONGOLIA",
-    "credit": "Alexander Popovkin",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/a-vehicle-is-parked-in-the-middle-of-the-desert-wKhQhTRbBUs"
+    "file": "gx470-silver-2004.jpg",
+    "alt": "A silver 2004 Lexus GX 470 parked on a grassy verge in front of a house",
+    "caption": "GX 470 · PRE-FACELIFT 2004",
+    "credit": "Mr.choppers · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2004_Lexus_GX_470_in_Silver%2C_front_left_%28Valhalla%29.jpg"
    },
    {
-    "file": "prado120-dune-descent.jpg",
-    "alt": "Black Land Cruiser Prado 120 driving across a sand dune in Mongolia with mountains behind",
-    "caption": "J120 IN THE SAND · MONGOLIA",
-    "credit": "Alexander Popovkin",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/a-suv-driving-through-the-desert-in-the-sand-3FakZejjSRw"
+    "file": "gx470-white-2007.jpg",
+    "alt": "A pearl-white 2007 Lexus GX 470 parked at the kerb with a lawn behind",
+    "caption": "GX 470 · 2007 · STREET",
+    "credit": "Btotanes · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2007_Lexus_GX470.jpg"
    },
    {
-    "file": "prado120-gobi-camp.jpg",
-    "alt": "Dusty black Land Cruiser Prado 120 with a rear-mounted spare parked on gravel below tall dunes",
-    "caption": "PRADO 120 AT THE FOOT OF THE DUNES",
-    "credit": "Alexander Popovkin",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/a-suv-is-parked-in-the-middle-of-the-desert-k9510rGFsEs"
-   },
-   {
-    "file": "prado120-grassland.jpg",
-    "alt": "Champagne Land Cruiser Prado 120 seen from the rear on rough dry grassland",
-    "caption": "PRADO 120 ON ROUGH GRASSLAND · KRASNODAR, RUSSIA",
-    "credit": "Ladimir Ladroid",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/white-suv-on-brown-grass-field-during-daytime-NJbCE9W9wcg"
-   },
-   {
-    "file": "lx470-sand.jpg",
-    "alt": "Tan Lexus LX 470 parked head-on on packed sand by the water under a clear blue sky",
-    "caption": "BIG BROTHER: LEXUS LX 470 ON THE SAND",
-    "credit": "Pareekshith Indeever",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/lexus-car-under-clear-sky-10697774/"
+    "file": "gx470-white-2008.jpg",
+    "alt": "A white 2008–09 Lexus GX 470 in a car park in front of a grassy bank",
+    "caption": "GX 470 · 2008–09 FACELIFT · ANNAPOLIS",
+    "credit": "IFCAR · Public domain",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2008-2009_Lexus_GX470_--_01-13-2010.jpg"
    }
   ],
   "sources": [
@@ -1161,6 +1146,7 @@
      ]
     }
    ]
-  }
+  },
+  "hero_focus": "62% 60%"
  }
 }

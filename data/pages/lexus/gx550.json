@@ -9,7 +9,7 @@
   "TORSEN LOCKING CENTER",
   "OVERTRAIL REAR LOCKER"
  ],
- "hero_photo": "prado120-gobi-camp.jpg",
+ "hero_photo": "gx550-overtrail-beige-black.jpg",
  "story": [
   {
    "heading": null,
@@ -403,20 +403,28 @@
  ],
  "photos": [
   {
-   "file": "prado120-gobi-camp.jpg",
-   "alt": "Dusty black Land Cruiser Prado 120 with a rear-mounted spare parked on gravel below tall dunes",
-   "caption": "GX ANCESTRY: PRADO 120 (GX 470 TWIN) BELOW THE DUNES",
-   "credit": "Alexander Popovkin",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-suv-is-parked-in-the-middle-of-the-desert-k9510rGFsEs"
+   "file": "gx550-overtrail-beige-black.jpg",
+   "alt": "A Tactical Beige Lexus GX 550 Overtrail with black roof and all-terrain tyres on a city street",
+   "caption": "GX 550 OVERTRAIL · STREET, MANILA",
+   "credit": "Ethan Llamas · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus_GX_550_VJA252_Overtrail_Tactical_Beige_%2B_Black_03.jpg"
   },
   {
-   "file": "prado120-dunes-mongolia.jpg",
-   "alt": "Black Toyota Land Cruiser Prado 120 parked among sand dunes at Khongoryn Els, Mongolia, under a stormy sunset sky",
-   "caption": "TWO GENERATIONS BACK: PRADO 120 · KHONGORYN ELS, MONGOLIA",
-   "credit": "Alexander Popovkin",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-vehicle-is-parked-in-the-middle-of-the-desert-wKhQhTRbBUs"
+   "file": "gx550-overtrail-beige.jpg",
+   "alt": "Front three-quarter view of a Tactical Beige Lexus GX 550 Overtrail on all-terrain tyres",
+   "caption": "GX 550 OVERTRAIL · TACTICAL BEIGE",
+   "credit": "Ethan Llamas · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus_GX_550_VJA252_Overtrail_Tactical_Beige.jpg"
+  },
+  {
+   "file": "gx550-incognito.jpg",
+   "alt": "A grey 2025 Lexus GX 550 Premium+ parked in a car park",
+   "caption": "GX 550 PREMIUM+ · CAR PARK",
+   "credit": "Mr.choppers · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2025_Lexus_GX_550_Premium%2B_in_Incognito%2C_front_left.jpg"
   }
  ],
  "sources": [
@@ -622,5 +630,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "55% 58%"
 }

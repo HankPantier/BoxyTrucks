@@ -9,7 +9,7 @@
   "A343F 4-SPEED",
   "LOCKERS OPTIONAL"
  ],
- "hero_photo": "lc80-twin-hillside.jpg",
+ "hero_photo": "lx450-dirt-mound.jpg",
  "story": [
   {
    "heading": null,
@@ -603,20 +603,28 @@
  ],
  "photos": [
   {
-   "file": "lc80-twin-hillside.jpg",
-   "alt": "A pre-1995 Toyota Land Cruiser 80 Series, the LX 450's mechanical twin, with a roof rack and all-terrain tires on a grassy hillside under a stormy sky",
-   "caption": "80 SERIES, THE LX 450'S TWIN · HIGH COUNTRY",
-   "credit": "Darina Rodionova",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/toyota-suv-parked-on-hill-k90frwP4Xn4"
+   "file": "lx450-dirt-mound.jpg",
+   "alt": "A silver Lexus LX 450 with one front wheel up on a dirt mound",
+   "caption": "LX 450 · DIRT MOUND",
+   "credit": "loefflerw · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:1996-1997_Lexus_LX_450_02.jpg"
   },
   {
-   "file": "lx470-sand.jpg",
-   "alt": "Tan Lexus LX 470, the LX 450's successor, parked head-on on packed sand by the water under a clear blue sky",
-   "caption": "THE SUCCESSOR: LX 470 ON THE SAND",
-   "credit": "Pareekshith Indeever",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/lexus-car-under-clear-sky-10697774/"
+   "file": "lx450-modified.jpg",
+   "alt": "A black Lexus LX 450 modified for off-road use with a steel bull bar, winch and lift",
+   "caption": "LX 450 · BUILT FOR THE DIRT · SERBIA",
+   "credit": "KGC626 · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus_LX450.jpg"
+  },
+  {
+   "file": "lx450-white.jpg",
+   "alt": "A white and silver two-tone Lexus LX 450 parked on a suburban street",
+   "caption": "LX 450 · STOCK · STREET",
+   "credit": "IFCAR · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus-LX-450.jpg"
   }
  ],
  "sources": [
@@ -940,5 +948,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "60% 45%"
 }

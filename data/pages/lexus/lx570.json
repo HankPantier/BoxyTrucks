@@ -9,7 +9,7 @@
   "AHC + AVS",
   "CRAWL CONTROL"
  ],
- "hero_photo": "lc200-dune-sunset.jpg",
+ "hero_photo": "lx570-chile-dirt.jpg",
  "story": [
   {
    "heading": null,
@@ -600,20 +600,28 @@
  ],
  "photos": [
   {
-   "file": "lc200-dune-sunset.jpg",
-   "alt": "A white Toyota Land Cruiser 200 Series, the LX 570's mechanical twin, climbing a sand dune at sunset",
-   "caption": "200 SERIES, THE LX 570'S TWIN · DUNES AT SUNSET",
-   "credit": "Caspian Dahlström",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+   "file": "lx570-chile-dirt.jpg",
+   "alt": "A silver 2009 Lexus LX 570 parked on red dirt under palm trees in Chile",
+   "caption": "LX 570 · 2009 · RED DIRT, CHILE",
+   "credit": "order_242 · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus_LX_570_2009_%2815612195040%29.jpg"
   },
   {
-   "file": "lx470-sand.jpg",
-   "alt": "Tan Lexus LX 470, the LX 570's predecessor, parked head-on on packed sand by the water",
-   "caption": "THE PREDECESSOR: LX 470 ON THE SAND",
-   "credit": "Pareekshith Indeever",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/lexus-car-under-clear-sky-10697774/"
+   "file": "lx570-mountain-pass.jpg",
+   "alt": "A black early Lexus LX 570 towing a glider trailer on a snowy mountain pass",
+   "caption": "LX 570 · MOUNTAIN PASS, SLOVAKIA",
+   "credit": "Aleksandr Markin · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:On_the_pass._%288592147660%29.jpg"
+  },
+  {
+   "file": "lx570-2018-snow.jpg",
+   "alt": "Rear view of a black 2018 Lexus LX 570 on packed snow",
+   "caption": "LX 570 · 2016+ FACELIFT · SNOW",
+   "credit": "Throwawayacc222 · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2018_Lexus_LX_570_Superior_black_rear.jpg"
   }
  ],
  "sources": [
@@ -907,5 +915,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "66% 58%"
 }

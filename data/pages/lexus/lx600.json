@@ -9,7 +9,7 @@
   "GA-F",
   "AHC + AVS"
  ],
- "hero_photo": "lc200-dune-sunset.jpg",
+ "hero_photo": "lx600-sonic-quartz.jpg",
  "story": [
   {
    "heading": null,
@@ -469,20 +469,28 @@
  ],
  "photos": [
   {
-   "file": "lc200-dune-sunset.jpg",
-   "alt": "A white Land Cruiser 200 Series climbing a sand dune at sunset",
-   "caption": "LX 570'S TWIN, THE 200 SERIES, IN THE DUNES (PREVIOUS GENERATION)",
-   "credit": "Caspian Dahlström",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/silver-toyota-land-cruiser-climbing-desert-dune-during-sunset-7ChW7XZNcUM"
+   "file": "lx600-sonic-quartz.jpg",
+   "alt": "A white 2024 Lexus LX 600 parked with evergreen trees behind",
+   "caption": "LX 600 · DEALER LOT, OREGON",
+   "credit": "Wlb5V · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lexus_LX600_in_Sonic_Quartz.jpg"
   },
   {
-   "file": "lx470-sand.jpg",
-   "alt": "Tan Lexus LX 470 parked head-on on packed sand by the water under a clear blue sky",
-   "caption": "TWO GENERATIONS BACK: LEXUS LX 470 ON THE SAND",
-   "credit": "Pareekshith Indeever",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/lexus-car-under-clear-sky-10697774/"
+   "file": "lx600-oneness-overland.jpg",
+   "alt": "A white Lexus LX 600 built up with a roof rack, light bar and roof box on a show stand",
+   "caption": "LX 600 OVERLAND BUILD · OSAKA AUTO MESSE (SHOW)",
+   "credit": "Tokumeigakarinoaoshima · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2025_%2829%29_-_ONENESS_STYLE_LX600.jpg"
+  },
+  {
+   "file": "lx600-grass-event.jpg",
+   "alt": "A grey 2022 Lexus LX 600 on grass under a display tent",
+   "caption": "LX 600 · ON THE GRASS · EVENT TENT",
+   "credit": "Charles from Port Chester, New York · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lexus_LX_600_%282022%29_%2852129300534%29.jpg"
   }
  ],
  "sources": [
@@ -730,5 +738,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "62% 60%"
 }
