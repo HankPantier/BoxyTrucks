@@ -28,6 +28,7 @@
    "heading": "TWO SPRINGS PER CORNER",
    "paragraphs": [
     "Each wheel gets two spring struts in parallel — one with fixed damping, one adjustable — and Mercedes claimed the switch between Comfort and Sport took 15 milliseconds. Two stabilizer bars help keep it upright, and the drivetrain is pure G: permanent four-wheel drive split 50:50, a low-range transfer case and three 100% differential locks. Power came from the 4.0-litre twin-turbo M176 V8, rated 416 hp and 450 lb-ft in the US, driving through a seven-speed automatic.",
+    "Mercedes first showed the idea as a concept nicknamed “Extreme-G”. According to Car and Driver's prototype drive, cited by Wikipedia, the G-Class had sold more than 14,000 units in 2014, and that demand freed up budget for low-volume spin-offs like this one. KW developed the dual-strut suspension, and the truck could reach 60 mph in under six seconds. On paper it beat the Hummer H1 in almost every off-road measurement. The exception was side slope: it was limited to a 28.4° bank angle against the Humvee's 30°.",
     "Mercedes-Benz USA’s numbers are absurd in the best way: 51.6° approach, 43.8° departure, a breakover of 44.6° at maximum load in the spec sheet (47.4° in the launch release), 69-inch-plus track widths, a 46.9-foot turning circle and a 6,694-lb curb weight. It returned 11 mpg city, highway and combined, according to the same sheet. Expedition Portal, not given to gushing about concept trucks, said Mercedes had knocked it “straight out of the park.”"
    ]
   },
@@ -260,6 +261,47 @@
      "name": "Eastwood Internal Frame Coating (cavity wax for frame rails)",
      "supplier": "Eastwood",
      "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
+    }
+   ]
+  },
+  {
+   "title": "Brake booster vacuum hose recall (17V-817)",
+   "diff": "1 / 5",
+   "time": "Minutes to check. Dealer visit for the fix.",
+   "cost": "Free under recall",
+   "symptoms": "A hard brake pedal that needs more effort than usual to stop the truck. The booster's vacuum hose can collapse.",
+   "fix": "NHTSA recall 17V-817 covers 432 model-year 2017 G 550 and G 550 4×4² trucks. The brake-booster vacuum hose may collapse and raise braking effort, and dealers replace the hose as needed for free. Run the VIN at nhtsa.gov/recalls before you buy, and ask for the paperwork if it's been done. On a 6,694-lb truck, this is not one to put off.",
+   "tools": "VIN · Mercedes-Benz dealer",
+   "parts": []
+  },
+  {
+   "title": "Oil leaks from the crankcase vent oil separators (M176)",
+   "diff": "4 / 5",
+   "time": "Separators: a few hours. Rear main seal: transmission out (shop job).",
+   "cost": "Rear main seal: about $5 in parts but $3,000–5,000 in labor (Handsome Motors)",
+   "symptoms": "Oil seeping from the valve covers or from where the engine meets the transmission, a burning-oil smell, and oil consumption between changes.",
+   "fix": "Handsome Motors, which has owned more than 200 Gs, says the 2016–2018 G 550's M176 suffers rear main seal and valve cover gasket leaks triggered by a failed crankcase-vent oil separator. The 4×4² uses the same engine. Fix the cause first by replacing the left and right oil separators, which FCP Euro lists for the G 550 4×4², and then deal with any valve cover leaks. A rear main seal leak means removing the transmission. Handsome Motors also suggests 3,000–5,000-mile oil changes on these engines.",
+   "tools": "Socket set · torque wrench · trim tools for the engine covers · new seals and gaskets",
+   "parts": [
+    {
+     "name": "Genuine Mercedes crankcase vent valve / oil separator, left 177 010 79 03 (G 550 4×4²)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-engine-crankcase-vent-valve-genuine-mercedes-1770107903"
+    },
+    {
+     "name": "Genuine Mercedes crankcase vent valve / oil separator, right 177 010 80 03 (G 550 4×4²)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-engine-crankcase-vent-valve-genuine-mercedes-1770108003"
+    },
+    {
+     "name": "Genuine Mercedes rear crankshaft seal with flange 177 010 03 00 (G 550, G 550 4×4)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-engine-crankshaft-seal-genuine-mercedes-1770100300"
+    },
+    {
+     "name": "Valve cover gaskets listed for the G 550",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G550/Valve-Cover-Gasket/"
     }
    ]
   }
@@ -611,6 +653,22 @@
   {
    "name": "Eastwood — Internal Frame Coating",
    "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2018 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY18_G_Class_Operators_Manual.pdf"
+  },
+  {
+   "name": "Handsome Motors — G-Wagon buyer's guide",
+   "url": "https://handsomemotors.com/g-wagon-buyers-guide"
+  },
+  {
+   "name": "NHTSA — Recall 17V-817 record (brake booster vacuum hose)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=17V817000"
+  },
+  {
+   "name": "FCP Euro — Genuine Mercedes crankcase vent valve 177 010 79 03 (G 550 4×4² fitment)",
+   "url": "https://www.fcpeuro.com/products/mercedes-engine-crankcase-vent-valve-genuine-mercedes-1770107903"
   }
  ],
  "baseline_service": {
@@ -618,9 +676,9 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "M176 4.0 twin-turbo · MB 229.5 or 229.52 · ≈9 L [CONFIRM IN MANUAL]",
-    "interval": "Now, then per the service indicator [CONFIRM IN MANUAL]",
-    "note": "FCP Euro lists its 9-litre 229.52 kit and the Mann filter kit for the G 550 4×4².",
+    "spec": "M176 4.0 twin-turbo · MB 229.5 · 2.4 US gal (9.0 L) with filter (2018 G-Class manual, G 550)",
+    "interval": "Now, then when the ASSYST service interval display calls for it (owner's manual)",
+    "note": "The 2018 manual, which also covers the 4×4², lists MB 229.5 for all models. FCP Euro lists its 9-litre 229.52 kit and the Mann filter kit for the G 550 4×4². Check that whatever oil you use carries an approval your manual allows.",
     "parts": [
      {
       "name": "Liqui Moly Top Tec 0W-30 (MB 229.52) oil change kit, 9 L — listed for G 550 / G 550 4×4²",
@@ -680,7 +738,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "MB 325.6 (FCP Euro lists Genuine Mercedes for the 2015-on G 550)",
+    "spec": "MB 325.6 (FCP Euro lists Genuine Mercedes for the 2015-on G 550) · approx. 14.9 US qt (14.1 L) (2018 manual, G 550)",
     "interval": "Now if undated",
     "note": "Check hoses and the expansion-tank cap while you’re there.",
     "parts": [
@@ -727,7 +785,7 @@
     "item": "Portal hub reduction gears",
     "spec": "Oil type and capacity [CONFIRM IN MANUAL]",
     "interval": "Now if no record",
-    "note": "Each wheel has its own gear set. Check every hub for weeps and compare the oil from each corner — a dealer that has done one before is worth finding.",
+    "note": "Each wheel has its own gear set. The 2018 G-Class manual tells owners of the 4×4² to change the axle differential and portal transmission oil after a 2,000-mile (3,000 km) break-in period, so ask for proof it was done. Check every hub for weeps and compare the oil from each corner. A dealer that has done one before is worth finding.",
     "parts": []
    },
    {
@@ -752,7 +810,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "DOT 4 Plus (Genuine Mercedes)",
+    "spec": "DOT 4 Plus (Genuine Mercedes) · MB approval 331.0 (owner's manual)",
     "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
     "note": "At 6,694 lb on 22-inch wheels, the brakes work hard — start with fresh fluid.",
     "parts": [

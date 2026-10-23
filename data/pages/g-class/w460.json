@@ -339,6 +339,63 @@
      "url": "https://expedition-imports.com/hinge-seal-barn-doors-4607430078/"
     }
    ]
+  },
+  {
+   "title": "Springs and shocks",
+   "diff": "3 / 5",
+   "time": "≈ 1–2 hours per corner (estimate)",
+   "cost": "Parts plus labor",
+   "symptoms": "A thump over bumps (a broken coil), a truck sitting low or leaning, a wallowing or bouncy ride, oily shock bodies. Classic & Sports Car lists broken coil springs and leaking dampers among the things to look for.",
+   "fix": "Support the chassis on stands, take the axle's weight on a jack, then remove the shock and the sway-bar link. Lower the axle carefully until you can lift the spring out, without stretching the brake hoses and locker lines. Fit springs in matched pairs using the correct Mercedes colour code for your wheelbase and load. Then refit the shocks and torque everything at ride height.",
+   "tools": "Koni Raid shocks (W460/461/463) or OE dampers · colour-coded W460 springs for your wheelbase (e.g. front LWB 460 321 06 04, rear LWB 460 324 07 04; confirm fitment) · jack and stands · spring compressor if required",
+   "parts": [
+    {
+     "name": "Koni Raid shock, front (W460/461/463)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/shock-absorber-koni-raid-w460-461-463-front-905383/"
+    },
+    {
+     "name": "Koni Raid shock, rear (W460/461/463)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/shock-absorber-koni-raid-w460-461-463-rear-905384/"
+    },
+    {
+     "name": "Front spring LWB 460 321 06 04",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/spring-front-lwb-yellow-orange-4603210604/"
+    },
+    {
+     "name": "Rear spring LWB 460 324 07 04",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/spring-rear-lwb-yellow-orange-4603240704/"
+    }
+   ]
+  },
+  {
+   "title": "Water leaks (wiper spindles, windscreen, sunroof, heater plenum)",
+   "diff": "2 / 5",
+   "time": "1–2 hours for the wiper spindles. Most of a day for a windscreen reseal (estimate).",
+   "cost": "Wiper shaft washer kit $38.10; windscreen gasket $173.80 (Expedition Imports)",
+   "symptoms": "Wet carpets, damp footwells, a musty smell, rust under the mats. Classic & Sports Car flags leaks from the wiper spindles, sunroof and heater plenum.",
+   "fix": "Water-test with a hose and a helper inside to find the source. At the wiper spindles, replace the washers, nuts, seals and caps as a set. Clear the sunroof drains and check the plenum drains. A leak at the windscreen perimeter means taking the glass out to fit a new gasket. Inspect the frame for rust while it's out, because Handsome Motors lists the windshield gasket perimeter as a classic G rust spot. Dry the floor and replace missing body drain plugs.",
+   "tools": "Hose · trim tools · wiper shaft washer kit 000 824 35 72 · windscreen gasket 463 671 02 20 · body drain plug 460 997 11 81 · rust converter and seam sealer",
+   "parts": [
+    {
+     "name": "Wiper shaft washer kit",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/wiper-shaft-washer-kit-0008243572kit/"
+    },
+    {
+     "name": "Windscreen gasket / seal 463 671 02 20 (W460 and W463)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/windshield-gasket-seal-4636710220/"
+    },
+    {
+     "name": "Body drain plug 460 997 11 81",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/body-plug-drain-plug-4609971181/"
+    }
+   ]
   }
  ],
  "faq": [
@@ -760,6 +817,22 @@
   {
    "name": "Daily FT — Mercedes-Benz G-Class finishes world tour",
    "url": "https://ft.lk/motor/mercedes-benz-g-class-finishes-world-tour/55-361606"
+  },
+  {
+   "name": "Handsome Motors — G-Wagon buyer's guide",
+   "url": "https://handsomemotors.com/g-wagon-buyers-guide"
+  },
+  {
+   "name": "Expedition Imports — Wiper shaft washer kit",
+   "url": "https://expedition-imports.com/wiper-shaft-washer-kit-0008243572kit/"
+  },
+  {
+   "name": "Expedition Imports — Windshield gasket / seal (all W460 and W463)",
+   "url": "https://expedition-imports.com/windshield-gasket-seal-4636710220/"
+  },
+  {
+   "name": "Expedition Imports — W460 suspension parts (colour-coded springs)",
+   "url": "https://expedition-imports.com/g-wagon-parts/w460-g-class/suspension/"
   }
  ],
  "baseline_service": {

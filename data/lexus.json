@@ -486,6 +486,48 @@
       "url": "https://www.rockauto.com/en/catalog/lexus,2005,gx470,4.7l+v8,1431005,drivetrain,cv+axle,2288"
      }
     ]
+   },
+   {
+    "title": "Front differential support upgrade (2003–early 2005)",
+    "diff": "3 / 5",
+    "time": "≈ 2–3 hours (estimate)",
+    "cost": "Parts plus labor",
+    "symptoms": "Usually nothing until it breaks. GXOR warns that the original passenger-side front differential support can fail catastrophically, which can take out nearby parts, the oil pan included, and the engine with it.",
+    "fix": "Lexus revised the passenger-side front differential support for 2006, and some 2005s got the new part at the factory. On a 2003 to early-2005 truck, get under the passenger side of the front diff and read the number on the support. The revised part is ordered as 52380-60021 but stamped 52391-60021. If yours is the old one, take the diff's weight on a jack, unbolt the old support, fit the revised one and torque the bolts to factory spec.",
+    "tools": "Floor jack and stands · socket set · torque wrench · revised support 52380-60021 (stamped 52391-60021)",
+    "parts": [
+     {
+      "name": "Support, front differential No. 2 (52380-60021)",
+      "supplier": "Lexus Genuine Parts",
+      "url": "https://parts.lexus.com/search?search_str=52380-60021"
+     }
+    ]
+   },
+   {
+    "title": "Secondary air injection pump (2005–2009)",
+    "diff": "4 / 5",
+    "time": "A long day. The intake manifold has to come off (GXOR).",
+    "cost": "A mechanic quoted one ClubLexus owner about $2,000",
+    "symptoms": "A 'vacuum cleaner' whine for about 30 seconds after a cold start that gets rougher as the pump fails. Owners report codes including P2440, P2442, P2445 and P2432, and one reported random limp mode. GXOR says a failed system usually affects only cold-start emissions, not driveability.",
+    "fix": "Scan the codes first. The pump and its air switching valves sit under the intake manifold, so the manifold has to come off to reach them. GXOR lists two routes: repair with a Dorman OE-replacement pump, or delete with a Hewitt Technologies bypass kit. A delete may fail emissions inspection where you live. One ClubLexus owner's bypass worked for about a year before P2445 returned. Fit new intake gaskets on reassembly. One owner said the pump was covered by a 10-year/150,000-mile extension, which has long expired on most trucks.",
+    "tools": "Scan tool · socket set with extensions · torque wrench · intake manifold gaskets · air pump and switching valves",
+    "parts": [
+     {
+      "name": "Air (smog) pump, 2006 GX 470",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2006,gx470,4.7l+v8,1432805,exhaust+%26+emission,air+/+smog+pump,4920"
+     },
+     {
+      "name": "Air switching (diverter) valve, 2006 GX 470",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2006,gx470,4.7l+v8,1432805,exhaust+%26+emission,air+diverter+/+bypass+valve,10192"
+     },
+     {
+      "name": "Intake manifold gasket, 2006 GX 470",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2006,gx470,4.7l+v8,1432805,engine,intake+manifold+gasket,5424"
+     }
+    ]
    }
   ],
   "faq": [
@@ -922,8 +964,7 @@
     "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-gx-series-gx470-2003-2009"
    },
    {
-    "name": "GXOR — 2005 GX470 factory repair manual (RM1164U) PDF",
-    "url": "https://lexusgxor.com/media/import/general/2005_gx470_techinfo.pdf"
+    "name": "Lexus — 2005 GX 470 factory repair manual (RM1164U)"
    },
    {
     "name": "GXOR — Maintenance (GX470 timing belt parts, transmission, common problems)",
@@ -936,6 +977,10 @@
    {
     "name": "Lexus Canada — 2009 GX 470 specifications (PDF)",
     "url": "https://media.lexus.ca/en/specifications/2009/2009-lexus-gx-470-specifications.html"
+   },
+   {
+    "name": "ClubLexus — Secondary air pump (GX 470)",
+    "url": "https://clublexus.com/forums/gx-1st-gen-2004-2009/722769-secondary-air-pump-4.html"
    }
   ],
   "baseline_service": {
@@ -1029,7 +1074,7 @@
     {
      "item": "Cabin filter",
      "spec": "Air conditioner filter element",
-     "interval": "At purchase [CONFIRM INTERVAL IN MANUAL]",
+     "interval": "At purchase, then every 30,000 mi / 36 months (2008 Lexus schedule)",
      "note": "",
      "parts": [
       {

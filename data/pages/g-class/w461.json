@@ -307,6 +307,63 @@
      "url": "https://expedition-imports.com/blower-motor-12v-non-a-c-truck-0008301308/"
     }
    ]
+  },
+  {
+   "title": "Sagging doors and hinge rust",
+   "diff": "2 / 5",
+   "time": "1–2 hours per door (estimate)",
+   "cost": "Hinge pin $8.50; rear hinge seal $22.20; door seal $113.30 (Expedition Imports)",
+   "symptoms": "Doors that drop when opened and need a slam to latch, wind noise, and bubbling paint or rust around the hinges. Handsome Motors lists every door hinge as a G rust zone.",
+   "fix": "The W461 uses the W460 body, so W460 door parts apply. Support the door, drive out the worn hinge pins and fit new ones. Swap the rear-door hinge seals while the hinges are accessible, using the original recessed seals rather than stick-on replacements. Treat any rust under them. Replace hardened door seals if water or wind gets past them.",
+   "tools": "Hinge pin 460 723 00 52 · rear single-door hinge seal or barn-door hinge seal 460 743 00 78 · door seal 460 727 08 30 · drift and hammer · rust converter and seam sealer",
+   "parts": [
+    {
+     "name": "Door hinge pin 460 723 00 52",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/hinge-pin-4607230052/"
+    },
+    {
+     "name": "Rear door hinge seal (single door)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/hinge-seal-single-rear-door-460743017864/"
+    },
+    {
+     "name": "Barn door hinge seal 460 743 00 78",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/hinge-seal-barn-doors-4607430078/"
+    },
+    {
+     "name": "Door seal 460 727 08 30 (W460 body)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/door-seal-4607270830/"
+    }
+   ]
+  },
+  {
+   "title": "Windscreen gasket, wiper spindle and floor leaks",
+   "diff": "3 / 5",
+   "time": "Most of a day for a windscreen reseal (estimate)",
+   "cost": "Windscreen gasket $173.80; wiper shaft washer kit $38.10; floor drain kit $47.20 (Expedition Imports)",
+   "symptoms": "Wet footwells, rust bubbling around the windscreen frame, water tracking down the A-pillars. Handsome Motors names the windshield gasket perimeter as a classic G rust zone.",
+   "fix": "Water-test with a hose and a helper. Reseal the wiper spindles with a new washer kit. If the leak is at the windscreen, the glass has to come out to fit a new gasket. Treat the frame properly while it's exposed, because rust there only spreads. Expedition Imports sells the floor drain kit that's common on 461 trucks and can be retrofitted to a 460, so make sure the floor drains are clear and fitted.",
+   "tools": "Windscreen gasket 463 671 02 20 · wiper shaft washer kit 000 824 35 72 · floor drain kit · glass-removal cord and trim tools · rust converter and primer",
+   "parts": [
+    {
+     "name": "Windscreen gasket / seal 463 671 02 20",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/windshield-gasket-seal-4636710220/"
+    },
+    {
+     "name": "Wiper shaft washer kit",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/wiper-shaft-washer-kit-0008243572kit/"
+    },
+    {
+     "name": "Floor drain kit (461 trucks)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/floor-drain-kit-4616800311kit/"
+    }
+   ]
   }
  ],
  "faq": [
@@ -702,6 +759,18 @@
   {
    "name": "Expedition Imports — W460 filters",
    "url": "https://expedition-imports.com/g-wagon-parts/w460-g-class/filters/"
+  },
+  {
+   "name": "Expedition Imports — Hinge pin 460 723 00 52",
+   "url": "https://expedition-imports.com/hinge-pin-4607230052/"
+  },
+  {
+   "name": "Expedition Imports — Windshield gasket / seal",
+   "url": "https://expedition-imports.com/windshield-gasket-seal-4636710220/"
+  },
+  {
+   "name": "Expedition Imports — Floor drain kit (461 trucks)",
+   "url": "https://expedition-imports.com/floor-drain-kit-4616800311kit/"
   }
  ],
  "baseline_service": {

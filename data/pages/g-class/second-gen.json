@@ -156,6 +156,10 @@
   {
    "head": "Check the wheels and badges",
    "body": "Many trucks wear 21- or 22-inch wheels and AMG bodywork. Factory G 550 sizes are 275/55R19 or 275/50R20; budget for an 18- or 20-inch all-terrain setup, and check the VIN before paying a G 63 premium."
+  },
+  {
+   "head": "Rear door latches",
+   "body": "Open and close both rear doors from inside and outside, and make sure each one latches fully. Then confirm that latch recalls 21V-353 and, for trucks that got a replacement latch, 24V-659 have been completed."
   }
  ],
  "repairs": [
@@ -246,6 +250,26 @@
      "url": "https://www.gwagenparts.com/product/2-5-inch-lift-kit-for-2019-g63-g550-w463a/"
     }
    ]
+  },
+  {
+   "title": "Diff locks fail, ESP/ABS warnings (recall 20V-090)",
+   "diff": "1 / 5",
+   "time": "Minutes to check. Dealer visit for the fix.",
+   "cost": "Free under recall",
+   "symptoms": "A locker that won't engage or report its status, often with ESP and ABS switching off and warnings on the dash. On affected trucks, a resistor in the differential-locking module can interrupt communication between the control unit and the lock actuator.",
+   "fix": "NHTSA recall 20V-090 covers about 6,300 2019–2020 G 550s and AMG G 63s. Dealers inspect the differential-locking modules and replace them as needed for free. Check the VIN, then test every lock on loose ground after the repair. If a lock still misbehaves on a truck that's had the recall done, have it diagnosed with XENTRY before replacing anything.",
+   "tools": "VIN · Mercedes-Benz dealer · loose surface to test the locks",
+   "parts": []
+  },
+  {
+   "title": "Rear door won't latch or open (recalls 21V-353 and 24V-659)",
+   "diff": "1 / 5",
+   "time": "Dealer visit",
+   "cost": "Free under recall",
+   "symptoms": "A rear door that looks shut but isn't fully latched, or one that won't open from inside.",
+   "fix": "Recall 21V-353 replaced the rear door latches on about 17,800 2019–2021 G 550s and G 63s. Recall 24V-659 then covered 2019–2023 trucks that had received a replacement latch, either in service or under the first recall, and replaced the right-rear latch again. A truck fixed under 21V-353 may still need the 24V-659 remedy. Check the VIN for both, and work every rear door from inside and outside on the test drive.",
+   "tools": "VIN · Mercedes-Benz dealer",
+   "parts": []
   }
  ],
  "faq": [
@@ -620,6 +644,22 @@
   {
    "name": "US EPA / DOE — fueleconomy.gov",
    "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2019 G-Class Owner's Manual (PDF)",
+   "url": "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2019/operators/MY%202019%20G-Wagon_OwnersManuel.pdf"
+  },
+  {
+   "name": "NHTSA — Recall 20V-090 record (differential-locking module)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=20V090000"
+  },
+  {
+   "name": "NHTSA — Recall 21V-353 record (rear door latch)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=21V353000"
+  },
+  {
+   "name": "NHTSA — Recall 24V-659 record (replacement rear door latch)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=24V659000"
   }
  ],
  "baseline_service": {
@@ -627,9 +667,9 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "M176 4.0 twin-turbo · MB 229.5 or 229.52 · ≈10 L [CONFIRM IN MANUAL]",
-    "interval": "Now, then per the service indicator [CONFIRM IN MANUAL]",
-    "note": "FCP Euro lists its ≈10-litre M176 kit for the 2019–2024 G 550.",
+    "spec": "M176 4.0 twin-turbo · MB 229.52 or 229.61 · 10.0 US qt (9.5 L) with filter (2019 G 550 owner's manual)",
+    "interval": "Now, then when the ASSYST PLUS display calls for it. The manual says to service more often for arduous use, such as mountain driving and poor road surfaces.",
+    "note": "FCP Euro lists its ≈10-litre M176 kit for the 2019–2024 G 550. Check that the oil carries MB 229.52 or 229.61. These figures are for the V8; check the manual for the 2025-on inline-six.",
     "parts": [
      {
       "name": "Liqui Moly 5W-40 Top Tec 4110 M176 oil change kit (≈10 L)",
@@ -689,7 +729,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "MB 325.6 (pink) — FCP Euro lists it for the G 550 from 2015 on",
+    "spec": "MB 325.6 (pink), FCP Euro lists it for the G 550 from 2015 on · 14.9 US qt (14.1 L) (2019 G 550 manual)",
     "interval": "Now if undated",
     "note": "Mix 50/50 with distilled water.",
     "parts": [
@@ -747,7 +787,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "DOT 4 Plus (Genuine Mercedes)",
+    "spec": "DOT 4 Plus (Genuine Mercedes) · MB approval 331.0 (owner's manual)",
     "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
     "note": "",
     "parts": [
@@ -792,7 +832,7 @@
    },
    {
     "item": "12-volt battery",
-    "spec": "Type [CONFIRM IN MANUAL]",
+    "spec": "AGM (absorbent glass mat). The manual says full function is only guaranteed with an AGM battery.",
     "interval": "Load-test now",
     "note": "Load-test it, especially on a truck that has sat unused.",
     "parts": []
