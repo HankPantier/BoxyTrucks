@@ -1,0 +1,336 @@
+{
+ "fitment": {
+  "stock": [
+   "7.50x16 (factory option, tube-type rims)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x165.1 (5x6.5\"), shared with Defender steel wheels",
+   "offset": "Defender/NAS 110 steels fit but sit about 3 in wider overall",
+   "center_bore": "Defender alloys won't clear Series hubs"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "235/85R16",
+    "note": "Fits a stock 88 or 109 once the steering stops are adjusted so the tyre clears the chassis at full lock. 215/85R16 is the safer close fit; 265/75R16 on 5.5 in rims rubbed for one owner. Use rims at least 5.5 in wide, and tubeless tyres only on rims with safety humps."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": []
+ },
+ "timeline": [
+  {
+   "year": "1948",
+   "change": "Launched at the Amsterdam Motor Show: 80-inch wheelbase, 1.6 petrol",
+   "flag": "note"
+  },
+  {
+   "year": "c. 1950",
+   "change": "Freewheel 4WD dropped for selectable four-wheel drive",
+   "flag": "note"
+  },
+  {
+   "year": "1952",
+   "change": "2.0 petrol replaces the 1.6",
+   "flag": "note"
+  },
+  {
+   "year": "1954–56",
+   "change": "Wheelbases grow to 86/107, then 88/109 in 1956; 2.0 diesel follows in 1957",
+   "flag": "note"
+  },
+  {
+   "year": "1958",
+   "change": "Series II: wider 'barrel side' body and 2.25 petrol",
+   "flag": "note"
+  },
+  {
+   "year": "1961",
+   "change": "Series IIA: 2.25 diesel; 2.6 six in the 109 from 1967",
+   "flag": "note"
+  },
+  {
+   "year": "1969",
+   "change": "Headlamps move into the wings on home-market IIAs (February)",
+   "flag": "note"
+  },
+  {
+   "year": "1971",
+   "change": "Series III: all-synchro gearbox, plastic grille and new dash",
+   "flag": "buy"
+  },
+  {
+   "year": "1974",
+   "change": "Factory sales to North America end",
+   "flag": "note"
+  },
+  {
+   "year": "1979",
+   "change": "Stage 1 V8 (3.5 Rover V8, permanent 4WD), mostly 109s",
+   "flag": "note"
+  },
+  {
+   "year": "1980–82",
+   "change": "Axles and hubs strengthened (1980); half-shaft splines go from 10 to 24 (1982)",
+   "flag": "buy"
+  },
+  {
+   "year": "1985",
+   "change": "Series production ends; the coil-sprung One Ten and Ninety take over",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Series trucks were built for 37 years, in several countries, and plenty have been rebuilt from mixed parts. The chassis number tells you what you're actually buying.",
+  "items": [
+   {
+    "head": "Chassis number (pre-1979)",
+    "body": "Stamped on an aluminium plate, on the bulkhead inside the cab on earlier trucks and under the bonnet on later ones. The first three digits give model, body and engine: 241–245 is a IIA 88 petrol, 251–255 a IIA 109 petrol, 901–905 a Series III 88 petrol, 911–915 a Series III 109 petrol."
+   },
+   {
+    "head": "17-character VIN (late 1979 on)",
+    "body": "Land Rover switched to 17-character VINs at the end of 1979. Glencoyne's examples: LBCAH… is a Series III 109 petrol, LBAAG… a Series III 88 diesel."
+   },
+   {
+    "head": "Which Series is it?",
+    "body": "Series I (1948–58) has flat sides. Series II (1958–61) has the wider barrel-side body. IIA (1961–71) looks almost the same, and late home-market IIAs have headlamps in the wings. Series III (1971–85) has a plastic grille and a plastic dash with instruments in front of the driver."
+   },
+   {
+    "head": "NADA trucks and licence-builds",
+    "body": "Only 811 long-wheelbase 2.6 six IIAs were NADA (North American Dollar Area) trucks. Bring a Trailer also sells many Spanish-built Santana and Colombian 'Ensambladora Automotriz' 88s and 109s, so confirm the maker."
+   },
+   {
+    "head": "Heritage certificate",
+    "body": "The British Motor Museum's Heritage Certificates cover Land Rovers from 1948 on and copy the factory ledger: build and despatch dates, engine number, colour and equipment."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Fuel economy",
+   "v": "14–17 mpg (imperial), 2.25 petrol",
+   "note": "AULRO owners; best about 21 mpg at a steady 50 mph in a SWB"
+  },
+  {
+   "k": "Comfortable cruise",
+   "v": "55–60 mph (2.25 petrol)",
+   "note": "60–65 mph on the flat with a Fairey overdrive, per Rovers North forum members"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Series values have climbed steadily. Originality, a clean chassis and bulkhead, and US-legal NADA history add a premium. Petrol trucks and soft-tops command slightly more.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$11k–15k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$19k–34k"
+   },
+   {
+    "cond": "Excellent / restored",
+    "range": "$45k–56k"
+   }
+  ],
+  "note": "Based on Bring a Trailer sold results in 2025–26: 18 Series 88s ($11,000–56,000, median about $26,500) and 11 Series 109s ($15,000–56,000, median $25,500). Hagerty found petrol trucks worth about 6% more than diesels and soft-tops about 2% more than wagons."
+ },
+ "docs": [
+  {
+   "name": "Parts Manual, Series IIA (RTC9840CC)",
+   "url": "https://www.roversnorth.com/parts/rtc9840cc_parts_manual_series_iia",
+   "note": "Factory parts catalogue reprint from Rovers North."
+  },
+  {
+   "name": "Parts Manual, Series III (RTC9841CE)",
+   "url": "https://www.roversnorth.com/parts/rtc9841ce_parts_manual_series_iii",
+   "note": "Factory parts catalogue reprint from Rovers North."
+  },
+  {
+   "name": "Rovers North — books and manuals",
+   "url": "https://www.roversnorth.com/category/565_books_manuals",
+   "note": "Workshop manuals and handbooks for Series II/IIA/III."
+  },
+  {
+   "name": "British Motor Museum Heritage Certificate",
+   "url": "https://www.britishmotormuseum.co.uk/archive/heritage-certificates",
+   "note": "Factory build record from the original ledgers."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Factory sales to North America ended in 1974, so most Series trucks in the US today are private imports. Every Series truck is now well past NHTSA's 25-year line, so FMVSS isn't a barrier. On EPA Form 3520-1, code E exempts vehicles at least 21 years old in original configuration; a truck with a non-original engine can't use that exemption unless the replacement is the same engine model.",
+   "California is the catch. Gasoline vehicles of the 1975 model year and older are smog-exempt, but a non-California-certified direct import from 1975 on is supposed to pass a CARB laboratory test for a Certificate of Conformance. Rovers North forum members trying to register a 1978 Series III were told by ARB that the truck would need modifying and testing to 1978 California standards. Pre-1976 petrol trucks are the easy route there."
+  ]
+ },
+ "production": {
+  "intro": "The Series ran from 1948 to 1985 and was overwhelmingly an export product.",
+  "items": [
+   {
+    "k": "Built by February 1968",
+    "v": "Just under 600,000, more than 70% exported"
+   },
+   {
+    "k": "1,000,000th Land Rover",
+    "v": "1976"
+   },
+   {
+    "k": "Series III built",
+    "v": "About 440,000 (1971–85)"
+   },
+   {
+    "k": "NADA long-wheelbase IIA (2.6 six)",
+    "v": "811"
+   }
+  ],
+  "editions": [
+   {
+    "name": "One Ton 109",
+    "years": "1968–1977",
+    "note": "2.6 six, lower-ratio transfer box and 900x16 tyres; 170 IIA and 238 Series III One Tons for the home market"
+   },
+   {
+    "name": "Stage 1 V8 88",
+    "years": "1979–1985",
+    "note": "Only 24 Stage 1 V8s were built as 88s; most were 109s"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Land Rover Series 2 Club (UK)",
+   "url": "https://www.series2club.co.uk/",
+   "note": "Club for the appreciation, restoration and driving of Land Rovers built between 1958 and 1971."
+  },
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "National Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (MAR)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "Rover Owners of Virginia's main event, held each September for 30 years."
+  },
+  {
+   "kind": "club",
+   "name": "Association of Land Rover Clubs (UK)",
+   "url": "https://www.alrc.co.uk/",
+   "note": "UK governing body for Land Rover clubs; annual National Rally."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Land Rover series",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_series"
+  },
+  {
+   "name": "Hagerty — Values for the 1959–71 Land Rover Series II/Series IIA keep climbing",
+   "url": "https://hagerty.com/media/?p=5698"
+  },
+  {
+   "name": "Glencoyne Engineering — Land Rover chassis numbers",
+   "url": "https://www.glencoyne.co.uk/land-rover-chassis-numbers"
+  },
+  {
+   "name": "British Motor Museum — Heritage Certificates",
+   "url": "https://www.britishmotormuseum.co.uk/archive/heritage-certificates"
+  },
+  {
+   "name": "Rovers North Forums — Will Defender wheels fit my IIA?",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/1039-will-defender-wheels-fit-my-iia"
+  },
+  {
+   "name": "Limitless Tire — 1998 Land Rover Defender wheel and tire sizes (5x165.1)",
+   "url": "https://limitlesstire.com/vehicles/land-rover/defender/1998/"
+  },
+  {
+   "name": "Rovers North Forums — Fitting larger tires",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/86-fitting-larger-tires"
+  },
+  {
+   "name": "Rovers North Forums — Series 2A wheel and tire advice",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/15309-series-2a-wheel-and-tire-advice"
+  },
+  {
+   "name": "Rovers North Forums — Upgrade to 24 spline half shafts",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/12050-upgrade-to-24-spline-half-shafts-what-drive-hub"
+  },
+  {
+   "name": "Rovers North Forums — Top speed on your Rover",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/12943-top-speed-on-your-rover"
+  },
+  {
+   "name": "AULRO — MPG 2.25 petrol",
+   "url": "https://www.aulro.com/afvb/technical-chatter/36512-mpg-2-25-petrol.html"
+  },
+  {
+   "name": "Rovers North Forums — Registering a 1978 Series 3 in California",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/906-registering-a-1978-series-3-in-california"
+  },
+  {
+   "name": "Import a Vehicle — Smog check exempted vehicles in California",
+   "url": "https://www.importavehicle.com/blog/smog-check-exempted-vehicles-in-california"
+  },
+  {
+   "name": "EPA — Form 3520-1, exemption code E",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "NHTSA — Importation and Certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Rovers North — RTC9840CC Parts Manual Series IIA",
+   "url": "https://www.roversnorth.com/parts/rtc9840cc_parts_manual_series_iia"
+  },
+  {
+   "name": "Rovers North — RTC9841CE Parts Manual Series III",
+   "url": "https://www.roversnorth.com/parts/rtc9841ce_parts_manual_series_iii"
+  },
+  {
+   "name": "Rovers North — Books, Manuals and DVDs",
+   "url": "https://www.roversnorth.com/category/565_books_manuals"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Series 88 results",
+   "url": "https://bringatrailer.com/land-rover/series-88/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Series 109 results",
+   "url": "https://bringatrailer.com/land-rover/series-109/"
+  },
+  {
+   "name": "Land Rover Series 2 Club",
+   "url": "https://www.series2club.co.uk/"
+  },
+  {
+   "name": "ANARC — Association of North American Rover Clubs",
+   "url": "https://www.anarc.club/"
+  },
+  {
+   "name": "Rovers North blog — ANARC News, Spring 2026",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  },
+  {
+   "name": "Association of Land Rover Clubs (UK)",
+   "url": "https://www.alrc.co.uk/"
+  }
+ ]
+}

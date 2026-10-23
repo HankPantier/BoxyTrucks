@@ -9,8 +9,7 @@
   "M176 4.0 TT V8",
   "17.2 IN CLEARANCE"
  ],
- "hero_photo": "ridgeline.jpg",
- "hero_note": "STANDARD SECOND-GENERATION G SHOWN, NOT A 4×4² · [SWAP FOR A 4×4² OFF ROAD]",
+ "hero_photo": "4x4-squared-field.jpg",
  "story": [
   {
    "heading": null,
@@ -525,12 +524,28 @@
  ],
  "photos": [
   {
-   "file": "ridgeline.jpg",
-   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "STANDARD SECOND GEN, NOT A 4×4² · RIDGELINE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+   "file": "4x4-squared-field.jpg",
+   "alt": "A black G 500 4×4² with portal axles, winch and light bar parked on a grass field below wooded hills",
+   "caption": "G 500 4×4² · GRASS FIELD",
+   "credit": "Charles from Port Chester, New York · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G-Klasse_(W463)_G_500_4×4²_(2018)_(52229455839).jpg"
+  },
+  {
+   "file": "4x4-squared-black.jpg",
+   "alt": "A black G 500 4×4² showing its wide fender flares and portal-axle ride height",
+   "caption": "G 500 4×4² · STREET",
+   "credit": "Alexander-93 · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G_500_4×4²_1X7A7446.jpg"
+  },
+  {
+   "file": "4x4-squared-polar-white.jpg",
+   "alt": "A polar white G 500 4×4² in a parking lot",
+   "caption": "G 500 4×4² · PARKING LOT",
+   "credit": "Ethan Llamas · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W463_G500_4×4²_Polar_White_01.jpg"
   }
  ],
  "sources": [
@@ -772,5 +787,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "62% 55%"
 }

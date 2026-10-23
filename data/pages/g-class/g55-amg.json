@@ -9,8 +9,7 @@
   "SUPERCHARGED FROM 2004",
   "3 LOCKING DIFFS"
  ],
- "hero_photo": "hillside-sunset.jpg",
- "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A G 55 AMG OFF ROAD]",
+ "hero_photo": "g55-schockl-forest-track.jpg",
  "story": [
   {
    "heading": null,
@@ -657,28 +656,28 @@
  ],
  "photos": [
   {
-   "file": "hillside-sunset.jpg",
-   "alt": "A G-Class climbing a grassy slope beside a bare tree at sunset",
-   "caption": "SECOND GEN · HILLSIDE (NOT A G 55)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
+   "file": "g55-schockl-forest-track.jpg",
+   "alt": "A black G 55 AMG leading a second G-Class down a rocky forest track on the Schöckl",
+   "caption": "G 55 AMG · SCHÖCKL FOREST TRACK",
+   "credit": "Bahnfrend · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:G55_+_G_+_Schöckl,_2009.JPG"
   },
   {
-   "file": "ridgeline.jpg",
-   "alt": "A G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "SECOND GEN · RIDGELINE (NOT A G 55)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+   "file": "g55-maroon-profile.jpg",
+   "alt": "A maroon facelifted G 55 AMG in side profile",
+   "caption": "G 55 AMG · STREET",
+   "credit": "OlliFoolish · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G55_AMG_(01).jpg"
   },
   {
-   "file": "high-pasture.jpg",
-   "alt": "A G-Class on rough grass and rocks with hills behind",
-   "caption": "SECOND GEN · HIGH PASTURE (NOT A G 55)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+   "file": "g55-white-profile.jpg",
+   "alt": "A white G 55 AMG with V8 fender badge in side profile",
+   "caption": "G 55 AMG · STREET",
+   "credit": "Ed Callow · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes_Classe_G_V8_AMG.jpg"
   }
  ],
  "sources": [
@@ -1028,5 +1027,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "30% 60%"
 }

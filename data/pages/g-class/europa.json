@@ -9,8 +9,7 @@
   "G 500",
   "US VIN · 50-STATE LEGAL"
  ],
- "hero_photo": "hillside-mountains.jpg",
- "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A 1990s EUROPA G OFF ROAD]",
+ "hero_photo": "europa-w463-swb-grass.jpg",
  "story": [
   {
    "heading": null,
@@ -616,28 +615,20 @@
  ],
  "photos": [
   {
-   "file": "hillside-mountains.jpg",
-   "alt": "A G-Class parked on a rough grassy hillside below mountains under a heavy sky",
-   "caption": "SECOND GEN · FOOTHILLS (NOT A EUROPA TRUCK)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
+   "file": "europa-w463-swb-grass.jpg",
+   "alt": "A white 1990s short-wheelbase W463 G-Class with orange fender-top indicators parked on grass",
+   "caption": "1990s W463 · SHOW FIELD, STAFFORDSHIRE",
+   "credit": "Charles01 · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W463_in_Staffordshire.jpg"
   },
   {
-   "file": "hillside-sunset.jpg",
-   "alt": "A G-Class climbing a grassy slope beside a bare tree at sunset",
-   "caption": "SECOND GEN · HILLSIDE (NOT A EUROPA TRUCK)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
-  },
-  {
-   "file": "high-pasture.jpg",
-   "alt": "A G-Class on rough grass and rocks with hills behind",
-   "caption": "SECOND GEN · HIGH PASTURE (NOT A EUROPA TRUCK)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+   "file": "europa-300ge-import-rear.jpg",
+   "alt": "Rear of a dark 300 GE long-wheelbase W463 with an Europa International spare-wheel cover and badge",
+   "caption": "300 GE EUROPA IMPORT · VIRGINIA",
+   "credit": "Mr.choppers · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MB_300GE_Europa_import.jpg"
   }
  ],
  "sources": [
@@ -895,5 +886,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "58% 60%"
 }
