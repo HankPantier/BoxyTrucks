@@ -9,8 +9,7 @@
   "3 LOCKING DIFFS",
   "4 TO 12 CYLINDERS"
  ],
- "hero_photo": "hillside-sunset.jpg",
- "hero_note": "Photo shows the second-generation G-Class (2018 on), not a 1990–2018 W463.",
+ "hero_photo": "w463-schoeckl.jpg",
  "story": [
   {
    "heading": null,
@@ -760,36 +759,28 @@
  ],
  "photos": [
   {
-   "file": "hillside-sunset.jpg",
-   "alt": "A second-generation G-Class climbing a grassy slope beside a bare tree at sunset",
-   "caption": "SECOND GEN, NOT THIS TRUCK · HILLSIDE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
+   "file": "w463-schoeckl.jpg",
+   "alt": "Two W463 G-Class wagons climbing a gravel forest track on the Schöckl in Austria during the G-Class 30th-anniversary rally",
+   "caption": "W463 · SCHÖCKL TRAIL, AUSTRIA",
+   "credit": "Bahnfrend · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:G55_+_G_+_Schöckl,_2009.JPG"
   },
   {
-   "file": "hillside-mountains.jpg",
-   "alt": "A second-generation G-Class parked on a rough grassy hillside below mountains under a heavy sky",
-   "caption": "SECOND GEN, NOT THIS TRUCK · FOOTHILLS",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
+   "file": "w463-300gd-bridge.jpg",
+   "alt": "A dark green early-1990s W463 300 GD long-wheelbase on a wooden footbridge among trees",
+   "caption": "W463 300 GD · TIMBER BRIDGE",
+   "credit": "Ben - PTM11 · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:1990_Mercedes_300_GD.jpg"
   },
   {
-   "file": "ridgeline.jpg",
-   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "SECOND GEN, NOT THIS TRUCK · RIDGELINE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
-  },
-  {
-   "file": "high-pasture.jpg",
-   "alt": "A second-generation G-Class on rough grass and rocks with hills behind",
-   "caption": "SECOND GEN, NOT THIS TRUCK · HIGH PASTURE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+   "file": "w463-gersberg-alm.jpg",
+   "alt": "A dark blue W463 long-wheelbase with bull bar parked on grass-block paving with a car trailer, woods behind",
+   "caption": "W463 · ALPINE INN, TOWING",
+   "credit": "Bahnfrend · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W_463,_Romantik_Hotel_Die_Gersberg_Alm,_2006_(01).jpg"
   }
  ],
  "sources": [
@@ -1111,5 +1102,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "30% 62%"
 }

@@ -10,7 +10,7 @@
    "The utilitarian [[g-class/w460|W460]] and later [[g-class/w461|W461]] served armies, border police and farmers. In 1990 the civilian [[g-class/w463|W463]] moved upmarket with full-time four-wheel drive and three locking differentials — and slowly turned into a luxury icon without ever losing its ladder frame.",
    "For off-roaders, the sweet spot is the solid-axle W463 era, from the [[g-class/europa|Europa International]] imports of the 1990s through the [[g-class/g500|G 500]] and [[g-class/g550|G 550]]. The second-generation truck of 2018 is better on the road, with independent front suspension, and still carries three lockers."
   ],
-  "hero_photo": "hillside-mountains.jpg",
+  "hero_photo": "w460-alpine-pass.jpg",
   "generations": [
    {
     "slug": "w460",
@@ -192,8 +192,8 @@
    "3 LOCKING DIFFS",
    "GRAZ, AUSTRIA"
   ],
-  "hero_photo": "hillside-mountains.jpg",
-  "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A 2002–2008 G 500 OFF ROAD]",
+  "hero_photo": "g500-grand-edition.jpg",
+  "hero_note": "These are genuine 2002–08 G 500s, but on the street: we found no freely licensed off-road photo of this model year.",
   "story": [
    {
     "heading": null,
@@ -844,36 +844,28 @@
   ],
   "photos": [
    {
-    "file": "hillside-sunset.jpg",
-    "alt": "A G-Class climbing a grassy slope beside a bare tree at sunset",
-    "caption": "SECOND GEN · HILLSIDE",
-    "credit": "Dextar Studio",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
+    "file": "g500-grand-edition.jpg",
+    "alt": "A pale blue 2005 G 500 Grand Edition with chrome bull bar parked at a kerb in front of brick houses",
+    "caption": "G 500 GRAND EDITION · STREET",
+    "credit": "Fletcher6 · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G500_Grand_Edition_(W463).jpg"
    },
    {
-    "file": "ridgeline.jpg",
-    "alt": "A G-Class in profile on a rocky ridge under storm clouds",
-    "caption": "SECOND GEN · RIDGELINE",
-    "credit": "Dextar Studio",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+    "file": "g500-maryland.jpg",
+    "alt": "A black US-market W463 G 500 parked on a wet street in Maryland",
+    "caption": "G 500 · MARYLAND STREET",
+    "credit": "IFCAR · Public domain",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G500.jpg"
    },
    {
-    "file": "high-pasture.jpg",
-    "alt": "A G-Class on rough grass and rocks with hills behind",
-    "caption": "SECOND GEN · HIGH PASTURE",
-    "credit": "Dextar Studio",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
-   },
-   {
-    "file": "hillside-mountains.jpg",
-    "alt": "A G-Class parked on a rough grassy hillside below mountains under a heavy sky",
-    "caption": "SECOND GEN · FOOTHILLS",
-    "credit": "Dextar Studio",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
+    "file": "g500-2003-us-spec.jpg",
+    "alt": "A black 2003 US-spec G 500 parked on a gravel verge in front of hedges",
+    "caption": "G 500 (2003) · ROADSIDE",
+    "credit": "Rutger van der Maar · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2003_Mercedes-Benz_G_500_(463)_(49143004662).jpg"
    }
   ],
   "sources": [
@@ -1206,6 +1198,7 @@
      ]
     }
    ]
-  }
+  },
+  "hero_focus": "62% 60%"
  }
 }

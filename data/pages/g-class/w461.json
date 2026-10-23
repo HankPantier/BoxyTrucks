@@ -9,8 +9,7 @@
   "3 LOCKERS",
   "G 300 CDI PROFESSIONAL"
  ],
- "hero_photo": "ridgeline.jpg",
- "hero_note": "Photo shows a second-generation G-Class, not a W461.",
+ "hero_photo": "w461-wolf-afghanistan.jpg",
  "story": [
   {
    "heading": null,
@@ -587,20 +586,36 @@
  ],
  "photos": [
   {
-   "file": "ridgeline.jpg",
-   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "SECOND GEN, NOT THIS TRUCK · RIDGELINE",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+   "file": "w461-wolf-afghanistan.jpg",
+   "alt": "A German Army W461 \"Wolf\" military police wagon beside a Dingo armoured truck on a dusty plain below bare hills in Afghanistan",
+   "caption": "W461 WOLF · AFGHANISTAN",
+   "credit": "Enno Heidtmann · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ISAF_Feldjäger_(Dingo_I_+_Wolf)_2006.jpg"
   },
   {
-   "file": "hillside-mountains.jpg",
-   "alt": "A second-generation G-Class parked on a rough grassy hillside below mountains under a heavy sky",
-   "caption": "SECOND GEN, NOT THIS TRUCK · FOOTHILLS",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
+   "file": "w461-swiss-army-grass.jpg",
+   "alt": "A Swiss Army W461 G 300 CDI with roof rack and snorkel nosing over rough grass and gravel, headlights on",
+   "caption": "W461 G 300 CDI · SWISS ARMY",
+   "credit": "Fabien Tremoulinas · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G-Class_G300CDI_W461_Swiss_Army_1.png"
+  },
+  {
+   "file": "w461-swiss-army-forest.jpg",
+   "alt": "A brown Swiss Army W461 G 300 CDI long-wheelbase wagon with roof rack on a forest track",
+   "caption": "W461 G 300 CDI · FOREST TRACK",
+   "credit": "Fabien Tremoulinas · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G-Class_G300CDI_W461_Swiss_Army_3.png"
+  },
+  {
+   "file": "w461-dutch-army.jpg",
+   "alt": "An open Dutch Army W461 290 GD weapons carrier with crew, an armoured vehicle kicking up dust behind",
+   "caption": "W461 290 GD · DUTCH ARMY CONVOY",
+   "credit": "P.J.L Laurens · CC BY 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Dutch_Army_convoy.JPG"
   }
  ],
  "sources": [
@@ -870,5 +885,6 @@
     "parts": []
    }
   ]
- }
+ },
+ "hero_focus": "65% 62%"
 }

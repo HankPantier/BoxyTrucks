@@ -9,8 +9,8 @@
   "446 BUILT",
   "AMETHYST BLUE"
  ],
- "hero_photo": "ridgeline.jpg",
- "hero_note": "SECOND-GENERATION G SHOWN · [SWAP FOR A 500 GE OFF ROAD]",
+ "hero_photo": "500ge-techno-classica-side.jpg",
+ "hero_note": "The only freely licensed photos of a 500 GE we could find are from an indoor classic-car show display.",
  "story": [
   {
    "heading": null,
@@ -567,28 +567,20 @@
  ],
  "photos": [
   {
-   "file": "ridgeline.jpg",
-   "alt": "A G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "SECOND GEN · RIDGELINE (NOT A 500 GE)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
+   "file": "500ge-techno-classica-side.jpg",
+   "alt": "A dark purple 1993 500 GE long-wheelbase with chrome bull bar on a display stand",
+   "caption": "500 GE · TECHNO-CLASSICA DISPLAY",
+   "credit": "Matti Blume · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_500_GE,_Techno-Classica_2018,_Essen_(IMG_9846).jpg"
   },
   {
-   "file": "hillside-mountains.jpg",
-   "alt": "A G-Class parked on a rough grassy hillside below mountains under a heavy sky",
-   "caption": "SECOND GEN · FOOTHILLS (NOT A 500 GE)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
-  },
-  {
-   "file": "high-pasture.jpg",
-   "alt": "A G-Class on rough grass and rocks with hills behind",
-   "caption": "SECOND GEN · HIGH PASTURE (NOT A 500 GE)",
-   "credit": "Dextar Studio",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
+   "file": "500ge-techno-classica-front.jpg",
+   "alt": "Front three-quarter view of a dark purple 500 GE with chrome bull bar and headlamp guards",
+   "caption": "500 GE · TECHNO-CLASSICA DISPLAY",
+   "credit": "Thomas Vogt · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_500_GE_(40409756594).jpg"
   }
  ],
  "sources": [
@@ -803,5 +795,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "45% 60%"
 }
