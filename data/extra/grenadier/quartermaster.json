@@ -55,7 +55,7 @@
   },
   {
    "year": "MY2026",
-   "change": "Variable-ratio steering, about 5% tighter turning circle, better HVAC; US base trim dropped",
+   "change": "Variable-ratio steering, about 5% tighter turning circle, better HVAC; no base trim on US 2026 price lists",
    "flag": "buy"
   }
  ],
@@ -98,6 +98,11 @@
   {
    "k": "Fuel tank",
    "v": "90 L (23.8 gal)"
+  },
+  {
+   "k": "Roof load",
+   "v": "120 kg (265 lb) dynamic, 375 kg (827 lb) static",
+   "note": "Caravan World spec table (Australia); lower than the wagon's 150/420 kg"
   },
   {
    "k": "Ground clearance",
@@ -144,7 +149,7 @@
     "range": "$93,390"
    }
   ],
-  "note": "MSRPs as reported in October 2026, before destination. The only Bring a Trailer Quartermaster so far, a 2025 Trialmaster Edition, was bid to $81,000 in August 2025 without selling."
+  "note": "MSRPs as reported in October 2026, before destination. The only Bring a Trailer Quartermaster so far, a 2025 Trialmaster Edition, sold for $76,000 on July 31, 2025."
  },
  "docs": [
   {
@@ -325,6 +330,14 @@
   },
   {
    "name": "Bring a Trailer — INEOS Grenadier results",
+   "url": "https://bringatrailer.com/ineos/grenadier/"
+  },
+  {
+   "name": "Caravan World — Quartermaster vs 79 Series LandCruiser (spec table: roof load, GVM, GCM, towball)",
+   "url": "https://caravanworld.com.au/blogs/tow-vehicle-reviews/review-ineos-grenadier-quartermaster-does-it-beat-the-79-series-landcruiser"
+  },
+  {
+   "name": "Bring a Trailer — INEOS Grenadier results (incl. 2025 Quartermaster Trialmaster, sold $76,000, July 31, 2025)",
    "url": "https://bringatrailer.com/ineos/grenadier/"
   }
  ]
