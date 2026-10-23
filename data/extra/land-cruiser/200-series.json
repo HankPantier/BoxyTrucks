@@ -1,0 +1,309 @@
+{
+ "fitment": {
+  "stock": [
+   "285/60R18 (US)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x150",
+   "center_bore": "110 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/65R18",
+    "note": "IH8MUD: fits with zero rubbing. 285/70R18 rubs a bit but is manageable; 275/70s are the 'tried and true' size."
+   },
+   {
+    "lift": "2.5–3 in",
+    "size": "285/75R17 or LT285/70R18 (about 34 in)",
+    "note": "A common size on lifted trucks in the forum's 35-inch roll call, usually with aftermarket upper control arms and wheels."
+   },
+   {
+    "lift": "3 in",
+    "size": "35x12.50R17",
+    "note": "Owners report front mud flaps removed, a Slee KDSS relocation, light fender-liner trimming and aftermarket wheels. Without those, 35s rub on the stock upper control arms and KDSS arms. One set measured just over 34 inches mounted."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Seat-belt tension sensor harness can disable passenger airbags",
+    "years": "2008–2019",
+    "ref": "NHTSA 18V887000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V887000",
+    "summary": "The harness can break and switch off the front passenger, knee and seat-mounted side airbags."
+   },
+   {
+    "title": "Incorrect driver or passenger airbag fitted",
+    "years": "2008–2016",
+    "ref": "NHTSA 17V548000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V548000",
+    "summary": "Some trucks may have the wrong airbag assembly installed (FMVSS 208); dealers replace it."
+   },
+   {
+    "title": "Accelerator pedal floor-mat entrapment",
+    "years": "2008–2011",
+    "ref": "NHTSA 12V305000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12V305000",
+    "summary": "An unsecured or incompatible floor mat can trap the pedal wide open; dealers modify or replace the pedal and replace wrong mats."
+   },
+   {
+    "title": "TPMS non-compliance",
+    "years": "2008–2011",
+    "ref": "NHTSA 11V148000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=11V148000",
+    "summary": "Tire-pressure monitoring system failed FMVSS 138 requirements."
+   },
+   {
+    "title": "Denso low-pressure fuel pump",
+    "years": "2018–2019",
+    "ref": "NHTSA 20V682000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V682000",
+    "summary": "The fuel pump can fail and stall the engine while driving."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2008",
+   "change": "200 Series launches in the US (production from September 2007) with the 5.7 L 3UR-FE V8 and 6-speed automatic, KDSS, CRAWL control and a new, stronger frame",
+   "flag": "note"
+  },
+  {
+   "year": "2008–2011",
+   "change": "Model years covered by the floor-mat pedal and TPMS recalls",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "First facelift (released December 2011): previously optional kit made standard, and Multi-Terrain Select added",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "Second facelift: 8-speed automatic, larger front brakes, 3.30:1 axle ratio in place of 3.90:1, new nose and tail lights, bigger screens",
+   "flag": "buy"
+  },
+  {
+   "year": "2018–2019",
+   "change": "Model years covered by the Denso fuel-pump recall",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Heritage Edition for the FJ40's 60th anniversary: 1,200 built, five seats, US only",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Final US model year; the 300 Series is not sold in North America, and the nameplate returns on the smaller 250 for 2024",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The US truck is simple to identify: one engine and essentially one trim. The things to check are the Heritage Edition, the facelift year, and that the KDSS works.",
+  "items": [
+   {
+    "head": "Engine",
+    "body": "Every US 200 is a 5.7 L 3UR-FE V8 (URJ200). The 4.5 L 1VD-FTV twin-turbo diesel V8, the 4.6 1UR-FE, the 4.7 2UZ-FE and the 4.0 V6 were sold in other markets only."
+   },
+   {
+    "head": "Pre- vs post-2016",
+    "body": "2016-on trucks have the 8-speed automatic, a new front fascia and grille, and headlights with daytime running lamps. 2008–2015 trucks have the 6-speed."
+   },
+   {
+    "head": "Heritage Edition",
+    "body": "2020–2021 Heritage Editions are five-seat trucks; 1,200 were built for the 2020 model year. The badge is easy to copy, so check the window sticker or the dealer build sheet."
+   },
+   {
+    "head": "Lexus twin",
+    "body": "The Lexus LX 570 shares the platform and recalls. It's a different vehicle for parts and values, though its wheels and many suspension parts interchange."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "8,100 lb (3,674 kg)",
+   "note": "2016–2021 per KBB; 8,500 lb for 2008, 8,200 lb for 2015"
+  },
+  {
+   "k": "Payload",
+   "v": "1,320 lb (599 kg)",
+   "note": "2021, KBB"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "24.6 US gal (93 L)",
+   "note": "KBB"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.9 in (226 mm)",
+   "note": "2021, KBB"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 13 city / 17 hwy / 14 combined (2021)",
+   "note": "KBB; most earlier years 13/18/15"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,815 lb (2,638 kg); 5,715 lb Heritage Edition",
+   "note": "2021, KBB"
+  },
+  {
+   "k": "Turning circle",
+   "v": "38.7 ft (11.8 m) diameter",
+   "note": "2021, KBB"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Late, low-mileage 2021s and Heritage Editions trade at or above their original sticker. Earlier trucks are steadier, but a tidy 200 still costs real money.",
+  "ranges": [
+   {
+    "cond": "High-mile 2008–2015",
+    "range": "$20k–60k"
+   },
+   {
+    "cond": "Driver 2013–2018",
+    "range": "$55k–75k"
+   },
+   {
+    "cond": "Low-mile 2019–2021 / Heritage Edition",
+    "range": "$83k–126k"
+   }
+  ],
+  "note": "Based on 17 Bring a Trailer sales, September–October 2026: $20,300 for a 306,000-mile 2008 up to $126,000 for an 8,000-mile 2021 Heritage Edition. Most 2021s sold for $95k–117k."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official paid portal for factory repair manuals, wiring diagrams and TSBs; short-term subscriptions are available to owners"
+  },
+  {
+   "name": "Toyota Owners — manuals and warranties",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals",
+   "note": "Official owner's manuals and warranty booklets by model year"
+  },
+  {
+   "name": "Toyota — 2021 Land Cruiser Warranty & Maintenance Guide (PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-21LandCruiser/pdf/T-MMS-21LandCruiser.pdf",
+   "note": "Toyota-hosted maintenance schedule"
+  }
+ ],
+ "production": {
+  "intro": "The 200 was built from September 2007 to March 2021, spanning two facelifts, and its US run ended with the 2021 model year.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "September 2007 – March 2021"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Yoshiwara and Tahara plants); China (Sichuan FAW Toyota, 2008–2016)"
+   },
+   {
+    "k": "Motorsport",
+    "v": "Team Land Cruiser Toyota Auto Body won nine straight Dakar production-class (T2) titles, 2014–2022"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Heritage Edition",
+    "years": "2020–2021",
+    "note": "Built for the FJ40's 60th anniversary, five seats, US only; 1,200 built for the 2020 model year"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters, sanctioned events and land-use grants"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "Annual TLCA trail event around Moab, Utah, each April, hosted by the Rising Sun 4x4 Club of Colorado; registration has sold out in a day in recent years"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J200 section)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#J200"
+  },
+  {
+   "name": "NHTSA — Recalls API, 2010 Toyota Land Cruiser",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=2010"
+  },
+  {
+   "name": "NHTSA — Recalls API, 2019 Toyota Land Cruiser",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=2019"
+  },
+  {
+   "name": "IH8MUD — LC tires",
+   "url": "https://forum.ih8mud.com/threads/lc-tires.1139672/"
+  },
+  {
+   "name": "IH8MUD — LC 200 tire size",
+   "url": "https://forum.ih8mud.com/threads/lc-200-tire-size.1281111"
+  },
+  {
+   "name": "IH8MUD — 35\"+ tire roll-call (200s only)",
+   "url": "https://forum.ih8mud.com/threads/35-tire-roll-call-200s-only.977818/"
+  },
+  {
+   "name": "IH8MUD — 35s on 200",
+   "url": "https://forum.ih8mud.com/threads/35s-on-200.1295646"
+  },
+  {
+   "name": "Limitless Tire — 2010 Toyota Land Cruiser wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/land-cruiser/2010/"
+  },
+  {
+   "name": "Limitless Tire — 2020 Toyota Land Cruiser wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/land-cruiser/2020/"
+  },
+  {
+   "name": "ROH Wheels — Toyota LandCruiser 200 Series 2007–2021 fitment",
+   "url": "https://roh.com.au/vehicles/toyota-landcruiser-200-series-2007-2021"
+  },
+  {
+   "name": "Kelley Blue Book — 2021 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2021/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 2008 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2008/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 2015 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2015/specs/"
+  },
+  {
+   "name": "Bring a Trailer — 200-Series Land Cruiser auction results",
+   "url": "https://bringatrailer.com/toyota/200-series-land-cruiser/"
+  },
+  {
+   "name": "Toyota — 2021 Land Cruiser Warranty & Maintenance Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-21LandCruiser/pdf/T-MMS-21LandCruiser.pdf"
+  },
+  {
+   "name": "TLCA — Home",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "TLCA — Cruise Moab",
+   "url": "https://tlca.org/calendar/cruise-moab/"
+  }
+ ]
+}

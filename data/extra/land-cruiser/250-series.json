@@ -1,0 +1,294 @@
+{
+ "fitment": {
+  "stock": [
+   "245/70R18 on 18x7 (1958)",
+   "265/70R18 on 18x7.5 (Land Cruiser, First Edition)",
+   "265/60R20 on 20x7.5 (Premium Package)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+60 mm (Land Cruiser / First Edition 18x7.5)",
+   "center_bore": "95.1 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "97 lb-ft (131 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/70R18 (about 33.7 in)",
+    "note": "Owners report no rubbing on gentle trails on 18x9 +40 wheels. 275/70R18 (about 33 in) fits the stock 1958 wheels, and an LT275/70R18 KO3 just fits the spare well."
+   },
+   {
+    "lift": "1.5 in level",
+    "size": "285/70R17",
+    "note": "Fits with no rubbing on a First Edition with a 1.5-inch leveling kit and 17x9.5 −12 wheels (Threepiece)."
+   },
+   {
+    "lift": "Stock + trimming",
+    "size": "35x12.50R17",
+    "note": "Shown on a 1958 with 17x8 +25 wheels. Needs the mud flaps, crush brackets and front canards removed (they unbolt) and the fender liners reshaped with a heat gun."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel tube connection can leak",
+    "years": "2024–2027",
+    "ref": "NHTSA 26V673000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V673000",
+    "summary": "The fuel tube connection near the tank can come apart and leak fuel. Dealers add a supplemental clamp or replace the resin tube (Toyota 26TA23/26TB23)."
+   },
+   {
+    "title": "Combination meter may not show warnings",
+    "years": "2024–2025",
+    "ref": "NHTSA 26V341000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V341000",
+    "summary": "The instrument cluster may fail to display certain warnings or indicators (FMVSS 101)."
+   },
+   {
+    "title": "Panoramic View Monitor camera freeze",
+    "years": "2024–2025",
+    "ref": "NHTSA 25V744000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V744000",
+    "summary": "A software error can freeze or blank the rear camera image in reverse (FMVSS 111)."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Front brake squeal / moan at low speed and in reverse",
+    "ref": "T-SB-0006-26 (supersedes T-SB-0046-25)",
+    "summary": "New pads, shims and a revised anti-rattle spring on the front calipers; owners report rotors aren't replaced.",
+    "url": "https://www.landcruiserforum.com/threads/brake-squeal-tsb-replaced-with-new-one.8445/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2023",
+   "change": "J250 revealed on 2 August 2023: GA-F frame shared with the 300, electric power steering, full-time 4WD with lockable Torsen centre diff",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "US launch with the i-Force Max 2.4 L turbo hybrid only, in 1958, Land Cruiser and First Edition grades (First Edition limited to 5,000 for North America)",
+   "flag": "note"
+  },
+  {
+   "year": "2024–2025",
+   "change": "Model years covered by the combination-meter and camera recalls",
+   "flag": "note"
+  },
+  {
+   "year": "2027",
+   "change": "New Inked paint, optional high-mounted air intake, heated and ventilated second-row seats in the Premium Package. The 1958 rises to $57,880; the Land Cruiser grade drops to $62,725",
+   "flag": "note"
+  },
+  {
+   "year": "2024–2027",
+   "change": "All model years included in the fuel-tube leak recall (26V673000) announced October 2026, so check that it's been done",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Three US grades share one powertrain, and the differences are mostly in kit. The badge to check is First Edition, which is easy to copy.",
+  "items": [
+   {
+    "head": "1958",
+    "body": "Round headlights, unpainted plastic body panels, cloth seats and 245/70R18 tires on 18x7 wheels. Wikipedia lists the locking rear diff and front stabilizer disconnect among the Land Cruiser grade's additions, so confirm the lockers on a 1958's window sticker."
+   },
+   {
+    "head": "Land Cruiser grade",
+    "body": "Rectangular headlights, painted panels, heated and ventilated front seats, wider 265/70R18 tires, rear locker and stabilizer disconnect. The Premium Package brings 20-inch wheels."
+   },
+   {
+    "head": "First Edition",
+    "body": "2024 only. Limited to 5,000 for North America, it combines the round headlights with a factory roof rack, rock rails and front skid plate. Check the window sticker, because round-light conversions exist."
+   },
+   {
+    "head": "Name confusion",
+    "body": "In the US and much of Europe it's just 'Land Cruiser'. Japan calls it the Land Cruiser 250, and Australia and other markets keep the Prado name. The Lexus GX 550 is the same platform."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,000 lb (2,720 kg) braked / 1,650 lb (750 kg) unbraked",
+   "note": "Owner's manual"
+  },
+  {
+   "k": "Payload",
+   "v": "1,100–1,300 lb (500–590 kg)",
+   "note": "Owner's manual vehicle capacity weight, varies with seating, moonroof and stabilizer disconnect"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "17.9 US gal (68 L)",
+   "note": "Owner's manual; 91 octane or higher"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "221 mm (8.7 in)",
+   "note": "Wikipedia; KBB lists 8 in minimum for the US 2024"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "31° / 22° / 25°",
+   "note": "maximum figures, Wikipedia"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 22 city / 25 hwy / 23 combined",
+   "note": "Car and Driver averaged 20 mpg in testing"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,037 lb (2,285 kg)",
+   "note": "2024, KBB"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "It's still a current model, so MSRP sets the market. Used First Editions sold above sticker at first, and the premium has now gone.",
+  "ranges": [
+   {
+    "cond": "New 2027 Land Cruiser 1958 (MSRP)",
+    "range": "$57,880 + $1,495 destination"
+   },
+   {
+    "cond": "New 2027 Land Cruiser (MSRP)",
+    "range": "$62,725 + $1,495 destination"
+   },
+   {
+    "cond": "Used, Bring a Trailer 2024–26",
+    "range": "$56.5k–91k"
+   }
+  ],
+  "note": "MSRP from Toyota's 2027 pricing as reported by CarScoops. Used range from 10 Bring a Trailer sales: First Editions fell from $83,000 (May 2024) to $58,500 (May 2026), and the $91,000 truck was a SEMA-exhibited build."
+ },
+ "docs": [
+  {
+   "name": "Toyota — 2024 Land Cruiser Owner's Manual (OM60U35U, PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60U35U/pdf/OM60U35U.pdf",
+   "note": "Toyota-hosted owner's manual with specifications, fluids and tire data"
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official paid portal for factory repair manuals, wiring diagrams and TSBs; short-term subscriptions are available to owners"
+  },
+  {
+   "name": "Toyota Owners — manuals and warranties",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals",
+   "note": "Official owner's manuals and warranty booklets by model year"
+  }
+ ],
+ "production": {
+  "intro": "Built from October 2023 in Japan and China, the J250 replaced the 200 as the US Land Cruiser.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "October 2023 – present"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Tahara; Hino at Hamura); China (FAW Toyota, Chengdu)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "First Edition (North America)",
+    "years": "2024",
+    "note": "Round headlights, roof rack, rock rails and front skid plate; limited to 5,000 units"
+   },
+   {
+    "name": "First Edition (Japan)",
+    "years": "2024",
+    "note": "Launch special limited to 8,000 units"
+   }
+  ],
+  "paint": "'Inked' joins the palette for 2027."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters, sanctioned events and land-use grants"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "Annual TLCA trail event around Moab, Utah, each April, hosted by the Rising Sun 4x4 Club of Colorado; registration has sold out in a day in recent years"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser Prado (J250)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado"
+  },
+  {
+   "name": "Toyota — 2024 Land Cruiser Owner's Manual (OM60U35U)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60U35U/pdf/OM60U35U.pdf"
+  },
+  {
+   "name": "Toyota USA Newsroom — Five Things To Know About the All-New 2024 Toyota Land Cruiser",
+   "url": "https://pressroom.toyota.com/five-things-to-know-about-the-all-new-2024-toyota-land-cruiser/"
+  },
+  {
+   "name": "Threepiece — 2024+ Land Cruiser 250 and GX550 wheel & tire fitment guide",
+   "url": "https://threepiece.us/blog/2024-land-cruiser-250-and-gx550-wheel-tire-fitment-guide"
+  },
+  {
+   "name": "LandCruiserForum.com — Land Cruiser tire upgrades (p. 18)",
+   "url": "https://www.landcruiserforum.com/threads/land-cruiser-tire-upgrades.525/page-18"
+  },
+  {
+   "name": "LandCruiserForum.com — Land Cruiser tire upgrades (p. 34)",
+   "url": "https://www.landcruiserforum.com/threads/land-cruiser-tire-upgrades.525/page-34"
+  },
+  {
+   "name": "LandCruiserForum.com — Brake squeal TSB replaced with new one",
+   "url": "https://www.landcruiserforum.com/threads/brake-squeal-tsb-replaced-with-new-one.8445/"
+  },
+  {
+   "name": "NHTSA — Recalls API, 2025 Toyota Land Cruiser Hybrid",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER%20HYBRID&modelYear=2025"
+  },
+  {
+   "name": "NHTSA — Recalls API, 2027 Toyota Land Cruiser Hybrid",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER%20HYBRID&modelYear=2027"
+  },
+  {
+   "name": "Kelley Blue Book — 2024 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2024/specs"
+  },
+  {
+   "name": "Car and Driver (via Yahoo Autos) — 2024 Toyota Land Cruiser Tested",
+   "url": "https://autos.yahoo.com/2024-toyota-land-cruiser-tested-140000657.html"
+  },
+  {
+   "name": "CarScoops — 2027 Toyota Land Cruiser pricing",
+   "url": "https://www.carscoops.com/2026/04/2027-toyota-land-cruiser-pricing/"
+  },
+  {
+   "name": "Motor1 — The 2027 Toyota Land Cruiser gets one upgrade it was missing",
+   "url": "https://www.motor1.com/news/792633/2027-toyota-land-cruiser-air-intake/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser J250 auction results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-j250/"
+  },
+  {
+   "name": "TLCA — Home",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "TLCA — Cruise Moab",
+   "url": "https://tlca.org/calendar/cruise-moab/"
+  }
+ ]
+}

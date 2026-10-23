@@ -1,0 +1,365 @@
+{
+ "fitment": {
+  "stock": [
+   "P265/65R17 110S on 17x7.5 alloys"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "lug_torque": "83 lb-ft (112 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/70R17",
+    "note": "GXOR's limit with no modification at all; 255/75R17 also fits with no rubbing. One owner reports a slight rub at full lock in reverse on 265/70."
+   },
+   {
+    "lift": "Stock, trimmed",
+    "size": "285/70R17",
+    "note": "Fits without a lift only with a body mount chop and the fender liner reshaped with a heat gun (and maybe a knife)."
+   },
+   {
+    "lift": "2–3 in",
+    "size": "285/70R17 or 255/80R17 (33 in)",
+    "note": "The usual route to 33s. Expect some fender-liner trimming; owners on 285/70R17 with about 2.5–3 in of lift still cut a little liner."
+   },
+   {
+    "lift": "4.5 in (suspension + body lift)",
+    "size": "295/70R18",
+    "note": "One GXOR database entry, on 18x9 −12 wheels, with the body mounts cut back."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Side curtain airbag control module",
+    "years": "2004–2006",
+    "ref": "NHTSA 16V-065",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V065",
+    "summary": "The airbag control module may be misprogrammed and fire the side curtain-shield airbags without a crash. Dealers replace the module."
+   },
+   {
+    "title": "Second-row seat latch (Lexus Link trucks)",
+    "years": "2003",
+    "ref": "NHTSA 03V-088",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=03V088",
+    "summary": "On trucks with the Lexus Link case, one latch on the larger second-row seat section may not lock. Dealers trim the case panels."
+   },
+   {
+    "title": "Incorrect GVWR on certification label",
+    "years": "2003",
+    "ref": "NHTSA 03V-031",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=03V031",
+    "summary": "The label printed 6,100 lb instead of the correct 6,000 lb GVWR. Dealers supply a corrected, VIN-specific label."
+   },
+   {
+    "title": "Load and GVWR labels on accessorized trucks",
+    "years": "2009",
+    "ref": "NHTSA 09V-234",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=09V234",
+    "summary": "Accessories fitted at vehicle processing centers could push some trucks over the labelled GVWR. Dealers replace the labels."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Cracked, sticky or melting dashboard",
+    "ref": "Lexus WEP ZLD",
+    "summary": "Warranty Enhancement Program covering instrument-panel damage from heat and humidity on 2003–2008 GX 470s.",
+    "url": "https://m.carcomplaints.com/Lexus/GX470/2006/tsbs/tsb-zld-wep-region-l.shtml"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2003",
+   "change": "Launch at the 2002 Detroit show, on sale November 2002. 2UZ-FE 4.7 V8 at 235 hp, five-speed automatic, rear air suspension. Rated to tow 5,000 lb.",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "Sealed transmission (no dipstick), TPMS, roll-sensing curtain airbags and an optional backup camera. A mid-year hitch upgrade raised towing to 6,500 lb, and KDSS became optional late in the year.",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "VVT-i lifts output to 270 hp with ULEV II certification. Bluetooth and a new Sport model with KDSS standard.",
+   "flag": "buy"
+  },
+  {
+   "year": "2006",
+   "change": "Same engine, restated at 263 hp under revised SAE testing. Lexus Link telematics offered.",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "New-generation navigation, auxiliary input jack and a larger optional rear-seat screen.",
+   "flag": "note"
+  },
+  {
+   "year": "2008",
+   "change": "Facelift: dark metallic grille, liquid-graphite wheels, more chrome and revised turn signals.",
+   "flag": "buy"
+  },
+  {
+   "year": "2009",
+   "change": "Final year. Only 6,235 GXs were sold in calendar 2009 before the GX 460 took over.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every US GX 470 is a Tahara-built Land Cruiser Prado 120 underneath, so the questions are about options, not authenticity: KDSS, the hitch rating and whether the air suspension is still there.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JTJBT20X. NHTSA's vPIC decoder reads the series as UZJ120L, the engine as the 2UZ-FE and the plant as Tahara, Japan. The 10th character is the model year (3 = 2003 through 9 = 2009)."
+   },
+   {
+    "head": "KDSS",
+    "body": "Optional from late in the 2004 model year and standard on the 2005-on Sport. Look for a momentary KDSS light at key-on and the noticeably large front sway bar."
+   },
+   {
+    "head": "Hitch rating",
+    "body": "2003 trucks are rated for 5,000 lb. The stronger frame-bolted tubular hitch arrived during the 2004 model year with a 6,500 lb rating, so check what's actually bolted on."
+   },
+   {
+    "head": "Sport model",
+    "body": "From 2005: KDSS, smoked headlamp bezels, extra chrome trim and black birdseye maple wood."
+   },
+   {
+    "head": "Facelift trucks",
+    "body": "2008–2009 trucks have the dark metallic grille and liquid-graphite wheels."
+   },
+   {
+    "head": "Rear suspension",
+    "body": "Rear air suspension shares its layout with the air-sprung 4th-gen 4Runner. Many trucks have been converted to coils, which is worth knowing before you look for the height-control switch."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,500 lb (2,948 kg)",
+   "note": "2003 and early-2004 trucks: 5,000 lb"
+  },
+  {
+   "k": "GVWR",
+   "v": "6,150 lb (2,790 kg)",
+   "note": "2009 Canadian spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23 US gal (87 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.3 in (210 mm)"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "31° / 25°",
+   "note": "breakover not published"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 14 city / 18 hwy / 15 combined",
+   "note": "2007, premium fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,740 lb (2,150 kg)",
+   "note": "base, 2009 Canadian spec"
+  },
+  {
+   "k": "Turning circle",
+   "v": "38.4 ft (11.7 m)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "109.8 in (2,790 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The GX 470 has become the default budget overlander, and clean, low-mile trucks now sell for more than many GX 460s.",
+  "ranges": [
+   {
+    "cond": "Project / high mileage",
+    "range": "$4k–10k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$12k–25k"
+   },
+   {
+    "cond": "Excellent / low mileage",
+    "range": "$28k–42k"
+   }
+  ],
+  "note": "Based on 115 Bring a Trailer GX 470 sales from January 2025 to October 2026, which ranged from $4,400 to $41,750 with a median of $20,000. The top sales were trucks with under 40,000 miles."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Toyota's official subscription site for Toyota and Lexus repair manuals, wiring diagrams and TSBs, with short-term access available"
+  },
+  {
+   "name": "2008 GX 470 Warranty and Services Guide (PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-08GX470/pdf/L-MMS-08GX470.pdf",
+   "note": "Lexus-hosted maintenance schedule"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Lexus's owner portal for manuals and warranty guides"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official online parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "All GX production happened at Toyota's Tahara plant, alongside the Land Cruiser Prado and the 4Runner.",
+  "items": [
+   {
+    "k": "US sales",
+    "v": "≈174,500 (calendar 2002–2009)"
+   },
+   {
+    "k": "Best year",
+    "v": "35,420 (2004)"
+   },
+   {
+    "k": "Plant",
+    "v": "Tahara, Japan"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "GXOR (GX Offroad)",
+   "url": "https://lexusgxor.com/",
+   "note": "Community knowledgebase and Facebook group for off-road GXs, with a wheel and tire database built from owner reports"
+  },
+  {
+   "kind": "event",
+   "name": "GXOR Trail Takeover",
+   "url": "https://gxor.org/",
+   "note": "GXOR's first annual event, at Merus Adventure in Amarillo, Texas, November 12–15, 2026"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus GX and LX owners"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA — Recall 16V-065",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V065"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus GX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_GX"
+  },
+  {
+   "name": "Lexus Canada — 2009 Lexus GX 470 specifications",
+   "url": "https://media.lexus.ca/en/specifications/2009/2009-lexus-gx-470-specifications.html"
+  },
+  {
+   "name": "Lexus — 2005 GX 470 repair manual (RM1164U) torque specifications, via GXOR",
+   "url": "https://lexusgxor.com/media/import/general/2005_gx470_techinfo.pdf"
+  },
+  {
+   "name": "wheel-size.com — 2007 Lexus GX",
+   "url": "https://www.wheel-size.com/size/lexus/gx/2007/"
+  },
+  {
+   "name": "wheel-size.com — Lexus GX [2002–2024] with 6x5.5 (6x139.7) bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/6x5.5/lexus/gx/2002-2024/"
+  },
+  {
+   "name": "GXOR — Wheel & tire database (GX 470)",
+   "url": "https://lexusgxor.com/wiki/mods/wheelstires"
+  },
+  {
+   "name": "GX Offroad (GXOR) knowledgebase",
+   "url": "https://lexusgxor.com/"
+  },
+  {
+   "name": "GXOR — Trail Takeover 2026",
+   "url": "https://gxor.org/"
+  },
+  {
+   "name": "CarComplaints — Lexus ZLD Warranty Enhancement Program (GX 470 dashboards)",
+   "url": "https://m.carcomplaints.com/Lexus/GX470/2006/tsbs/tsb-zld-wep-region-l.shtml"
+  },
+  {
+   "name": "Lexus — 2008 GX 470 Warranty and Services Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-08GX470/pdf/L-MMS-08GX470.pdf"
+  },
+  {
+   "name": "FuelEconomy.gov — 2007 Lexus GX 470",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=23818"
+  },
+  {
+   "name": "Bring a Trailer — Lexus GX auction results",
+   "url": "https://bringatrailer.com/lexus/gx/"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Cruise Moab — vehicle requirements",
+   "url": "https://www.cruisemoab.com/vehicle-requirements/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "IH8MUD — My new GX-470: tires?",
+   "url": "https://forum.ih8mud.com/threads/my-new-gx-470-tires.814637/"
+  },
+  {
+   "name": "ClubLexus — Largest tires",
+   "url": "https://www.clublexus.com/forums/gx-1st-gen-2003-2009/147722-largest-tires.html"
+  },
+  {
+   "name": "Expedition Portal Forum — GX470: KDSS or not?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1919289"
+  }
+ ]
+}

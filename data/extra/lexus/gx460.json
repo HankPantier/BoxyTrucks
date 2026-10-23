@@ -1,0 +1,356 @@
+{
+ "fitment": {
+  "stock": [
+   "P265/60R18 109H on 18x7.5 alloys"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+25 mm (stock 18x7.5)",
+   "lug_torque": "83 lb-ft (112 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "255/70R18 (≈32 in)",
+    "note": "Reported to fit with no rubbing. 265/70R18 tends to touch plastics at full lock. On 17s, 275/65R17 shows only a slight liner rub at full turn."
+   },
+   {
+    "lift": "2–2.5 in",
+    "size": "35 in",
+    "note": "Needs new upper control arms, the right wheel offset, a body mount chop, fender liners removed, pinch welds hammered down and an aftermarket front bumper for extra caster."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Vehicle stability control too slow",
+    "years": "2010",
+    "ref": "NHTSA 10V-159",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V159",
+    "summary": "After Consumer Reports' 'Don't Buy' rating, trucks built Nov 16, 2009 to Apr 8, 2010 got a VSC reprogram to stop sideways skids in sharp, fast turns."
+   },
+   {
+    "title": "Takata front airbag inflators (replacement inflators)",
+    "years": "2010–2017",
+    "ref": "NHTSA 19V-741",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V741",
+    "summary": "Inflators fitted under an earlier Takata recall used the same design and may rupture. Dealers replace them again."
+   },
+   {
+    "title": "Takata front passenger airbag inflator",
+    "years": "2010–2017",
+    "ref": "NHTSA 19V-005",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V005",
+    "summary": "Zone-based Takata inflator replacement that covers GX 460s by state of registration."
+   },
+   {
+    "title": "Low-pressure fuel pump",
+    "years": "2014–2015",
+    "ref": "NHTSA 20V-012",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V012",
+    "summary": "The fuel pump may fail, causing a stall. Dealers fit a new pump."
+   },
+   {
+    "title": "Low-pressure fuel pump (expansion)",
+    "years": "2018–2019",
+    "ref": "NHTSA 20V-682",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V682",
+    "summary": "Same pump failure, on later trucks. Dealers fit an improved pump assembly."
+   },
+   {
+    "title": "Load-capacity modification label",
+    "years": "2018",
+    "ref": "NHTSA 17V-831",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V831",
+    "summary": "Incorrect load-carrying-capacity labels. Dealers supply corrected labels."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Air injection pump and air switching valve (check-engine light)",
+    "ref": "Lexus WEP ZLH",
+    "summary": "Covered moisture-damaged secondary-air parts on 2010–2013 trucks for 10 years from first use, regardless of mileage, so most coverage has now run out.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10143916-9999.pdf"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2010",
+   "change": "Launch with the 1UR-FE 4.6 V8 (301 hp), six-speed automatic and standard KDSS. In April 2010, Consumer Reports' 'Don't Buy' label led to a VSC software recall, and the label was lifted on May 7.",
+   "flag": "note"
+  },
+  {
+   "year": "2010–2013",
+   "change": "Secondary air-injection pump and valve failures are common. Confirm the parts were replaced under program ZLH.",
+   "flag": "avoid"
+  },
+  {
+   "year": "2014",
+   "change": "First facelift: spindle grille, LED headlamps and LED DRLs, with a US price cut of $4,750. The turning circle grows from 38.1 to 41.4 ft.",
+   "flag": "note"
+  },
+  {
+   "year": "2017",
+   "change": "Second-row captain's chairs with the Luxury package.",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Second facelift. New Off-Road package with Crawl Control, Multi-Terrain Select, a transmission cooler, a fuel-tank protector and Multi-Terrain Monitor. Safety System+ is standard.",
+   "flag": "buy"
+  },
+  {
+   "year": "2022",
+   "change": "New infotainment with Apple CarPlay and Android Auto plus a redesigned dash. Black Line edition.",
+   "flag": "buy"
+  },
+  {
+   "year": "2023",
+   "change": "Final year. Eminent White Pearl added.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Lexus changed the GX 460 very little mechanically over 14 years, so trim, package and facelift details matter more than the badge.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JTJ and carry 7FX in positions 6–8. NHTSA's vPIC decoder reads the series as URJ150L, the engine as the 1UR-FE and the plant as Tahara, Japan. The 10th character is the model year (A = 2010 through P = 2023)."
+   },
+   {
+    "head": "Off-Road package (2020+)",
+    "body": "Crawl Control and Multi-Terrain Select switches, a 360-degree camera, a transmission cooler and a fuel-tank protector. 2010–2019 trucks can be retrofitted with Crawl Control and MTS."
+   },
+   {
+    "head": "Rear air (RAHC) and AVS",
+    "body": "Upper trims have rear height control air suspension and Adaptive Variable Suspension. KDSS is standard on every US GX 460."
+   },
+   {
+    "head": "Facelift generation",
+    "body": "2010–2013: original grille. 2014–2019: first spindle grille and LED headlamps. 2020–2023: angular spindle and triple-beam LEDs."
+   },
+   {
+    "head": "Black Line",
+    "body": "A 2022 cosmetic package that couldn't be ordered with some luxury features such as Mark Levinson audio."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,500 lb (2,950 kg)"
+  },
+  {
+   "k": "Roof load",
+   "v": "176 lb (80 kg)",
+   "note": "roof luggage carrier limit, owner's manual"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23.0 US gal (87 L)",
+   "note": "premium fuel"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15 city / 20 hwy / 17 combined (2010)",
+   "note": "15 / 19 / 16 for 2020–2023"
+  },
+  {
+   "k": "Curb weight",
+   "v": "≈5,130–5,200 lb (2,325–2,360 kg)"
+  },
+  {
+   "k": "Turning circle",
+   "v": "38.1 ft (2010–2013) · 41.4 ft (2014+)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Early trucks are the GX bargain, and late low-mile trucks and Black Lines hold close to new-car money.",
+  "ranges": [
+   {
+    "cond": "Early / high mileage (2010–2013)",
+    "range": "$11k–20k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$20k–33k"
+   },
+   {
+    "cond": "Late or low mileage / Black Line",
+    "range": "$45k–64k"
+   }
+  ],
+  "note": "Based on 30 Bring a Trailer GX 460 sales from January 2025 to October 2026, which ranged from $10,750 to $64,000 with a median of about $26,000. The top results were 2022–2023 trucks and a 2,800-mile 2017."
+ },
+ "docs": [
+  {
+   "name": "GX 460 owner's manual (OM60G24U, PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60G24U/pdf/OM60G24U.pdf",
+   "note": "Lexus-hosted, includes capacities and specifications"
+  },
+  {
+   "name": "2016 GX 460 Warranty and Services Guide (PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-16GX460/pdf/L-MMS-16GX460.pdf",
+   "note": "Lexus-hosted maintenance schedule"
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Official subscription site for factory repair manuals, wiring diagrams and TSBs"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Owner's manuals and warranty guides by model year"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "Built at Tahara alongside the Prado 150 and 5th-gen 4Runner. China got a V6 GX 400 from 2012 to 2017 instead.",
+  "items": [
+   {
+    "k": "US sales",
+    "v": "300,000+ (calendar 2010–2023)"
+   },
+   {
+    "k": "Best year",
+    "v": "32,509 (2021)"
+   },
+   {
+    "k": "Plant",
+    "v": "Tahara, Japan"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Black Line",
+    "years": "2022",
+    "note": "Cosmetic special-edition package"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "GXOR (GX Offroad)",
+   "url": "https://lexusgxor.com/",
+   "note": "Community knowledgebase and Facebook group for off-road GXs, with a wheel and tire database built from owner reports"
+  },
+  {
+   "kind": "event",
+   "name": "GXOR Trail Takeover",
+   "url": "https://gxor.org/",
+   "note": "GXOR's first annual event, at Merus Adventure in Amarillo, Texas, November 12–15, 2026"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus GX and LX owners"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA — Recall 10V-159",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V159"
+  },
+  {
+   "name": "NHTSA — Lexus Warranty Enhancement Program ZLH dealer letter (updated July 2, 2018)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10143916-9999.pdf"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus GX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_GX"
+  },
+  {
+   "name": "Lexus — GX 460 owner's manual (OM60G24U)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60G24U/pdf/OM60G24U.pdf"
+  },
+  {
+   "name": "Lexus — 2016 GX 460 Warranty and Services Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-16GX460/pdf/L-MMS-16GX460.pdf"
+  },
+  {
+   "name": "wheel-size.com — 2018 Lexus GX",
+   "url": "https://www.wheel-size.com/size/lexus/gx/2018/"
+  },
+  {
+   "name": "wheel-size.com — Lexus GX [2002–2024] with 6x5.5 (6x139.7) bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/6x5.5/lexus/gx/2002-2024/"
+  },
+  {
+   "name": "FuelEconomy.gov — 2010 Lexus GX 460",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=29954"
+  },
+  {
+   "name": "FuelEconomy.gov — 2023 Lexus GX 460",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45852"
+  },
+  {
+   "name": "Bring a Trailer — Lexus GX auction results",
+   "url": "https://bringatrailer.com/lexus/gx/"
+  },
+  {
+   "name": "IH8MUD — Tire question (GX460)",
+   "url": "https://forum.ih8mud.com/threads/tire-question.1155514/"
+  },
+  {
+   "name": "IH8MUD — GX 460 basics",
+   "url": "https://forum.ih8mud.com/threads/gx-460-basics.1054944/"
+  },
+  {
+   "name": "IH8MUD — Add Crawl Control and MTS to 2010–2019 GX 460",
+   "url": "https://forum.ih8mud.com/threads/460-add-crawl-control-cc-and-multi-terrain-select-mts-to-2010-2019-models-all-trims.1040976/"
+  },
+  {
+   "name": "GX Offroad (GXOR) knowledgebase",
+   "url": "https://lexusgxor.com/"
+  },
+  {
+   "name": "GXOR — Trail Takeover 2026",
+   "url": "https://gxor.org/"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "fitment": {
+  "stock": [
+   "18-inch wheels on base grades; 20-inch on top grades (market-dependent)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x150"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 or 285/70R18 (about 33.3–33.7 in)",
+    "note": "IH8MUD owners report no rubbing on stock suspension. One LX owner on 275/70R18s had no rub at any AHC height or at full lock."
+   },
+   {
+    "lift": "Stock + wheels",
+    "size": "295/70R18 to 35 in",
+    "note": "295/70R18s on stock wheels have been reported on an LX 700h Overtrail. Dissent Off-Road told a member that 35s on a +40 mm offset wheel fit with minimal to zero trimming."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2021",
+   "change": "Unveiled 9 June 2021 on the GA-F frame, about 200 kg lighter than the 200. V8s are dropped for the 3.4 V35A-FTS twin-turbo petrol V6 and 3.3 F33A-FTV twin-turbo diesel V6 with a 10-speed automatic",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Japan sales from 2 August; GR Sport added, the first Land Cruiser grade with front and rear diff locks on top of the centre lock",
+   "flag": "buy"
+  },
+  {
+   "year": "2021",
+   "change": "Australian launch on 5 October in GX, GXL, VX, Sahara, GR Sport and Sahara ZX grades",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "The smaller J250 takes over the Land Cruiser name in North America; the 300 is never offered in the US or Canada",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "Hybrid powertrain introduced, debuting in the UAE with a redesigned front fascia",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Updated Japanese range from 1 October: hybrid in ZX and GR Sport; diesel in ZX, GR Sport and GX",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "No 300 was ever sold new in the US, so any 'Land Cruiser 300' advertised there is either a Lexus LX or an import with a registration problem.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "VJA300 = 3.4 V35A-FTS twin-turbo petrol V6. FJA300 = 3.3 F33A-FTV twin-turbo diesel V6. GRJ300 = 4.0 1GR-FE V6 with a 6-speed automatic. VJH300 = V35A hybrid."
+   },
+   {
+    "head": "GR Sport lockers",
+    "body": "The GR Sport has front and rear diff locks. Standard 300s lock only the centre diff, so check the switches if lockers matter to you."
+   },
+   {
+    "head": "US sibling",
+    "body": "The Lexus LX 600 / LX 700h (J310) is the 300's US-market twin, on the same frame and powertrains. It's the only legal way to own this platform new in the US."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 kg (7,716 lb) braked",
+   "note": "same as the 200"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "230 mm (9.1 in)",
+   "note": "Wikipedia; Toyota NZ's preliminary figure was 235 mm"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "32° / 25°",
+   "note": "Australian-market spec; Wikipedia gives up to 26.5° departure depending on version"
+  },
+  {
+   "k": "Wading depth",
+   "v": "700 mm (27.6 in)",
+   "note": "Toyota NZ preliminary figure, as reported by CarMag"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,310–2,645 kg (5,093–5,831 lb)",
+   "note": "Wikipedia, varies by market and grade"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota has never sold the J300 in the United States or Canada, citing slow 200 Series sales and limited production capacity. The Lexus LX is the US version of this platform.",
+   "Under the NHTSA 25-year exemption, the earliest 300s (production began in 2021) won't be eligible for US import until the mid-2040s. Until then the only route is a registered importer converting and certifying the vehicle, which in practice is almost never feasible."
+  ]
+ },
+ "production": {
+  "intro": "The 300 has been built in Japan since March 2021. Long order books early on meant wait times of years in some markets.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "March 2021 – present"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Yoshiwara and Tahara plants)"
+   },
+   {
+    "k": "Chief engineer",
+    "v": "Takami Yokoo"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J300 section)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#J300"
+  },
+  {
+   "name": "Wikipedia — Grey import vehicle (US 25-year rule)",
+   "url": "https://en.wikipedia.org/wiki/Grey_import_vehicle"
+  },
+  {
+   "name": "CarMag — Toyota Land Cruiser 300 off-road specs released",
+   "url": "https://www.carmag.co.za/news/toyota-land-cruiser-300-off-road-specs-released/"
+  },
+  {
+   "name": "CarExpert — 2021 Toyota LandCruiser towing & off-road capacity",
+   "url": "https://www.carexpert.com.au/toyota/landcruiser/2021/towing-and-off-road-capacity"
+  },
+  {
+   "name": "70 Series Store — 79 Series stud pattern (5x150 shared with 100/200/300 Series)",
+   "url": "https://us.70seriesstore.com/blogs/information/79-series-landcruiser-stud-pattern-what-you-need-to-know"
+  },
+  {
+   "name": "IH8MUD — 300 Series wheel and tire fitment database",
+   "url": "https://forum.ih8mud.com/threads/300-series-wheel-and-tire-fitment-database.1375524/"
+  },
+  {
+   "name": "IH8MUD — Largest tire size",
+   "url": "https://forum.ih8mud.com/threads/largest-tire-size.1364340/"
+  },
+  {
+   "name": "IH8MUD — Importing LC300 to USA",
+   "url": "https://forum.ih8mud.com/threads/importing-lc300-to-usa.1255175/"
+  },
+  {
+   "name": "Auto Bild — Toyota Land Cruiser J300 (2022): Vier Jahre Lieferzeit",
+   "url": "https://www.autobild.de/artikel/toyota-land-cruiser-j300-2022-vier-jahre-lieferzeit-21159673.html"
+  }
+ ]
+}

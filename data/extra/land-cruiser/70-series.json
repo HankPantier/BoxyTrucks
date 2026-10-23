@@ -1,0 +1,276 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 on 16x7 alloy (2024 79 GXL cab-chassis, Australia)",
+   "225/95R16 on 16x6 steel (2024 76 GXL wagon, Australia)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x150 (1999 facelift on); earlier trucks use 6-stud wheels",
+   "offset": "about +5 mm (factory 16x7 on the 79)",
+   "center_bore": "110.3 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "235/85R16",
+    "note": "IH8MUD consensus for a stock long-wheelbase 70. 285/75R16 goes on but rubs inside at full lock on factory steel wheels unless the wheel offset changes; sagging old springs make everything rub sooner."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1984",
+   "change": "70 Series replaces the 40 as the heavy-duty Land Cruiser: short, medium and long wheelbases, leaf springs front and rear",
+   "flag": "note"
+  },
+  {
+   "year": "1985–1987",
+   "change": "BJ70 sold in small numbers in Canada (3B, later 13B-T); diesels switch from 12 V to 24 V for the 1986 model year",
+   "flag": "note"
+  },
+  {
+   "year": "1990",
+   "change": "4.2 L 1HZ diesel straight-six arrives (HZJ7x) and stays in production for decades in less-regulated markets",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "4.5 L 1FZ petrol straight-six replaces the 3F (FZJ7x)",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "Second facelift: coil-sprung live front axle, longer rear leaf springs, 5-stud wheels; pickup becomes the 79, Troop Carrier the 78; short wheelbase dropped in most markets",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "Japanese sales end in June because the 70 can't meet Japan's NOx and particulate law",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Big facelift for the 4.5 L 1VD-FTV turbo-diesel V8: wider front track and chassis, flat front fenders gone, 76 four-door wagon and GXL grade added",
+   "flag": "buy"
+  },
+  {
+   "year": "2009",
+   "change": "4.0 L 1GR-FE V6 replaces the 1FZ in petrol markets",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "Double-cab HZJ79 pickup added on the long 3,180 mm wheelbase",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "Limited '30th Anniversary' GRJ76 wagon and GRJ79 double cab return to Japan for one year (V6, 5-speed manual)",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "From September, a diesel particulate filter is added for Euro 5. It's fine with regular highway running, but the DPF is the most-discussed fault on later V8s",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "2.8 L 1GD-FTV four-cylinder with 6-speed automatic added alongside the manuals; LED headlights, 40-Series-style gauges",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The '70' badge covers forty years of engines, wheelbases and body styles, and the US never sold one new. Every truck here is a gray import, so make sure the code on the paperwork matches the metal.",
+  "items": [
+   {
+    "head": "Model code = engine + wheelbase",
+    "body": "The prefix letters name the engine: FJ = 3F petrol, FZJ = 1FZ petrol, BJ = 3B diesel, HJ = 2H, HZJ = 1HZ, PZJ = 1PZ, LJ = 2L family, KZJ = 1KZ, VDJ = 1VD-FTV V8, GRJ = 1GR V6, GDJ = 1GD. The numbers give the body: 70/71 short wheelbase, 73/74 medium, 75/78/79 long (pickup and Troop Carrier), 76/77 four-door semi-long wagons."
+   },
+   {
+    "head": "Pre- or post-1999",
+    "body": "From the August 1999 facelift, trucks have a coil-sprung front axle and 5-stud wheels. Earlier trucks have leaf springs at the front and 6-stud wheels. The three-bar grille with upturned ends also dates from that facelift."
+   },
+   {
+    "head": "Not every '70' is a heavy-duty 70",
+    "body": "From 1985 to 1996, Toyota also sold lighter-duty models under the 70 designation, called Bundera, Land Cruiser II and later Prado. They grew into the separate 90-series Prado, so don't pay heavy-duty money for one."
+   },
+   {
+    "head": "V8 front clip",
+    "body": "2007-on V8 trucks lose the flat front fenders and get a wider front track and chassis. If a 'VDJ' still has the old flat-fender nose, look harder."
+   },
+   {
+    "head": "Lockers",
+    "body": "Selectable front and rear diff locks were factory options in some markets, not standard everywhere. Confirm working factory lockers rather than trusting the ad."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 kg (7,716 lb) braked / 750 kg (1,653 lb) unbraked",
+   "note": "2024 Australian-market 2.8 L 79 and 76"
+  },
+  {
+   "k": "Payload",
+   "v": "1,280–1,380 kg (79 GXL cab-chassis); 1,115–1,215 kg (76 GXL wagon)",
+   "note": "2024 Australian spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "130 L (34.3 US gal) on the 79 cab-chassis; 180 L total on the 76 wagon",
+   "note": "2024 Australian spec"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "302–330 mm (79); 290–317 mm (76)",
+   "note": "unladen, 2024 Australian spec"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "33–35° / 27–29° (79); 33–35° / 23–25° (76)",
+   "note": "2024 Australian spec"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "9.6 L/100 km combined (about 24.5 US mpg)",
+   "note": "Toyota claim, 2024 2.8 L automatic"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,395 kg (5,280 lb)",
+   "note": "2024 76 GXL wagon"
+  },
+  {
+   "k": "Turning circle",
+   "v": "14.4 m (79); 13.6 m (76)",
+   "note": "kerb to kerb"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "As 25-year-old trucks become legal to import, US prices stay steady rather than spiking. Diesel Troop Carriers and clean, low-kilometre 79 pickups bring the most.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$13k–20k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$20k–37k"
+   },
+   {
+    "cond": "Excellent / low-km",
+    "range": "$40k–56k"
+   }
+  ],
+  "note": "Based on 17 Bring a Trailer sales, April–October 2026, from a $13,250 1992 LJ77 to a $55,600 27,000-km 1999 HZJ79 double cab. HZJ75 Troopies sold for $29k–42k."
+ },
+ "docs": [
+  {
+   "name": "Toyota GR Heritage Parts — Land Cruiser 70",
+   "url": "https://toyotagazooracing.com/gr/heritage/landcruiser70/",
+   "note": "Toyota's own reproduction-parts program for the 70 Series, with US shipment timelines"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota never sold the 70 Series new in the United States. Canada got small numbers of BJ70s for the 1985–87 model years, and later trucks only through Toyota Industrial Sales for the mining industry. Every US 70 is a gray import.",
+   "Since 1989, NHTSA has exempted vehicles over 25 years old from its rules, so the window rolls forward each year. That's why US auction results are full of 1980s and 1990s FJ, BJ, LJ, HZJ and FZJ trucks, and why late-1990s and 2000-ish HZJ79s and HZJ76s now appear. California's smog rules make registering an overseas classic difficult there even when the federal 25-year rule is met, so check your state's titling and emissions rules before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Production began in 1984 and continues today: one of the longest runs of any Toyota.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "1984–present"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Toyota Auto Body, Yoshiwara), plus Colombia (SOFASA, 1993–2008), Portugal (Salvador Caetano, Ovar) and Venezuela (Cumaná)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Venezuela 50th Anniversary",
+    "years": "2007",
+    "note": "Venezuelan-built edition with bumper, winch and jerry can; 300 made"
+   },
+   {
+    "name": "30th Anniversary (Japan)",
+    "years": "2014–2015",
+    "note": "One-year return to Japan as a GRJ76 wagon or GRJ79 double cab, V6 and 5-speed manual"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters, sanctioned events and land-use grants"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "Annual TLCA trail event around Moab, Utah, each April, hosted by the Rising Sun 4x4 Club of Colorado; registration has sold out in a day in recent years"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J70)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J70)"
+  },
+  {
+   "name": "Wikipedia — Grey import vehicle (US 25-year rule)",
+   "url": "https://en.wikipedia.org/wiki/Grey_import_vehicle"
+  },
+  {
+   "name": "Unsealed 4X4 — Toyota LandCruiser 70 Series common problems (2007–2026)",
+   "url": "https://unsealed4x4.com.au/toyota-landcruiser-70-series-common-problems/"
+  },
+  {
+   "name": "70 Series Store — 79 Series LandCruiser stud pattern: what you need to know",
+   "url": "https://us.70seriesstore.com/blogs/information/79-series-landcruiser-stud-pattern-what-you-need-to-know"
+  },
+  {
+   "name": "CarExpert — 2024 Toyota LandCruiser 70 GXL 2.8L cab chassis price & specs",
+   "url": "https://www.carexpert.com.au/toyota/landcruiser-70-series/2024-gxl-2-8l-cab-chassis-4x4-diesel-automatic-jsfswswm20231013"
+  },
+  {
+   "name": "CarExpert — 2024 Toyota LandCruiser 70 GXL 2.8L wagon price & specs",
+   "url": "https://www.carexpert.com.au/toyota/landcruiser-70-series/2024-gxl-2-8l-suv-4x4-diesel-automatic-jsfswswg20231013"
+  },
+  {
+   "name": "IH8MUD — Tires for a 70lx",
+   "url": "https://forum.ih8mud.com/threads/tires-for-a-70lx.1140017"
+  },
+  {
+   "name": "IH8MUD — Tires with no lift",
+   "url": "https://forum.ih8mud.com/threads/tires-with-no-lift.674447/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser 70 Series auction results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-70-series/"
+  },
+  {
+   "name": "Toyota Gazoo Racing — GR Heritage Parts: Land Cruiser 70",
+   "url": "https://toyotagazooracing.com/gr/heritage/landcruiser70/"
+  },
+  {
+   "name": "TLCA — Home",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "TLCA — Cruise Moab",
+   "url": "https://tlca.org/calendar/cruise-moab/"
+  }
+ ]
+}

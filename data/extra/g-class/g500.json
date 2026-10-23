@@ -1,0 +1,352 @@
+{
+ "fitment": {
+  "stock": [
+   "P265/60R18 on 18-in alloys (2002–2008 US G 500)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "offset": "ET63 on the 18x7.5 fitment (later 2015 G 550 factory 18s are ET43)",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 (lug bolts)",
+   "lug_torque": "96 lb-ft (130 N·m) — figure from the 2013–2015 US G-Class operator's manuals"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 (≈33 in)",
+    "note": "Fits an unlifted G 500 on factory 18s per Expedition Portal owners; a 285/65R18 rubs slightly at full left lock, and an ET63 aftermarket wheel rubbed where ET43 G 550 wheels didn't. Re-code the tire size so the speedo and ESP agree."
+   },
+   {
+    "lift": "2–2.5 in",
+    "size": "33x11.00–33x12.50 (or metric equivalent)",
+    "note": "JWO 2-in and Eurowise 60 mm springs are sold as 33-in setups; JWO says keep wheel offset at +30 or lower (about a 30 mm spacer on most stock wheels) and fit longer shocks."
+   },
+   {
+    "lift": "3 in",
+    "size": "35 in",
+    "note": "GwagenParts' ~75 mm front kit claims room for 35s; spacers may be needed to stop rubbing, and the kit includes caster-correction bushings."
+   },
+   {
+    "lift": "4 in",
+    "size": "35x11.00–35x12.50",
+    "note": "JWO 4-in springs: offset no higher than +20 (typically a 50 mm spacer on stock wheels), caster-correction bushings required; adjustable panhard bars and a steering stabilizer recommended. Distronic likely won't work at this height."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front turn signals behind grille cover don't meet FMVSS 108",
+    "years": "2002–2008 (campaign covers 2002–2010 G-Class)",
+    "ref": "NHTSA 10V366000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000",
+    "summary": "The grille cover over the front indicators can cut their visibility over time; dealers fit improved turn-signal units."
+   },
+   {
+    "title": "Incorrect software calibration (SCN) coding after a workshop visit",
+    "years": "2003",
+    "ref": "NHTSA 08V303000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V303000",
+    "summary": "Wrong coding could affect fuel gauge, check-engine light and speedometer, and stop the fuel pump cutting off in a crash; dealers recode."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1998",
+   "change": "G 500 launches with the 5.0-litre M113 V8 — the first regular-production V8 G",
+   "flag": "note"
+  },
+  {
+   "year": "1998–2001",
+   "change": "Not sold by Mercedes in the US; Europa International federalised G 500s and sold them with US VINs",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "G 500 Classic special edition marks the G's 20th anniversary — 500 built",
+   "flag": "note"
+  },
+  {
+   "year": "2001–02",
+   "change": "Update brings ESP, Brake Assist and the 4ETS traction system; Mercedes-Benz USA starts official sales for the 2002 model year",
+   "flag": "buy"
+  },
+  {
+   "year": "2005",
+   "change": "Grand Edition: 500 G 500 and G 55 AMG trucks for the US",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Seven-speed 722.9 automatic replaces the five-speed 722.6 in US trucks; HID headlamps, reversing camera and tire-pressure monitoring arrive",
+   "flag": "note"
+  },
+  {
+   "year": "2008",
+   "change": "Three-bar grille; last US model year for the G 500 name",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "Replaced in the US by the G 550 with the 5.5-litre M273 V8",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "G 500s get dressed up as AMGs, and the early trucks came through three different doors — Europa International, grey imports and Mercedes-Benz USA — so check the paperwork, not the badges.",
+  "items": [
+   {
+    "head": "US VIN",
+    "body": "Mercedes-Benz USA G 500s (2002–2008) start WDCYR49E; NHTSA's decoder reads that as a G-Class G 500 with the 5.0-litre V8. Position 10 is the model year and position 11 is X for the Graz plant. A 2003 G 55 AMG reads WDCYR46E instead."
+   },
+   {
+    "head": "Europa trucks",
+    "body": "1998–2001 trucks sold by Europa International carry US VINs issued by Europa, not Mercedes. NHTSA's decoder flags one BaT-sold 2001 G 500 Europa VIN (WDBEG4213Z7122501) as non-standard, so expect the import paperwork to tell the story."
+   },
+   {
+    "head": "Fake AMGs",
+    "body": "Bumpers, flares, wheels and badges bolt straight on, and Autocar warns about Gs converted to look like AMGs. Check that the VIN and factory data card agree with what's on the tailgate."
+   },
+   {
+    "head": "Factory data card",
+    "body": "Mercedes-Benz Classic sells a digital vehicle data card for most passenger cars built 1986–2010 (AMG models excluded). It lists the model, original option codes, paint and trim, costs €130, and requires proof of ownership."
+   },
+   {
+    "head": "Gearbox",
+    "body": "US trucks through 2006 use the five-speed 722.6; 2007–2008 trucks have the seven-speed 722.9. That matters for fluid specs and service intervals."
+   },
+   {
+    "head": "Three lockers",
+    "body": "All three locks are worked from the dash buttons and engage in sequence: centre, then rear, then front. If a light won't go solid, suspect the vacuum side before the axle."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,000 lb (3,175 kg)",
+   "note": "braked; KBB lists 7,000 lb for the 2002 G 500"
+  },
+  {
+   "k": "Payload",
+   "v": "1,411 lb (640 kg)",
+   "note": "2002 G 500, KBB"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.4 US gal (96 L)",
+   "note": "KBB, 2002 G 500"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.3 in (211 mm)",
+   "note": "minimum, KBB, 2002 G 500"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 11 city / 13 hwy / 12 combined",
+   "note": "2003, premium fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,423 lb (2,460 kg)",
+   "note": "2002 G 500, KBB"
+  },
+  {
+   "k": "Turning circle",
+   "v": "43.5 ft (13.3 m)",
+   "note": "turning diameter, KBB"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are flat-to-firm: the 2002–2008 G 500 is the cheapest way into a V8 W463, so condition and records matter far more than the year.",
+  "ranges": [
+   {
+    "cond": "Project / high mileage / needs work",
+    "range": "$18k–25k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$25k–45k"
+   },
+   {
+    "cond": "Excellent / low mileage",
+    "range": "$50k–80k+"
+   },
+   {
+    "cond": "G 500 Cabriolet (Euro / Europa)",
+    "range": "$175k–275k"
+   }
+  ],
+  "note": "Based on 55 sold Bring a Trailer auctions of 2002–2008 US-market G 500 wagons from January 2025 to October 2026 ($18,500–$80,500, median about $38,000), plus four G 500 Cabriolet sales from 2024–26. Grand Editions and documented low-mileage trucks sit at the top."
+ },
+ "docs": [
+  {
+   "name": "Mercedes-Benz XENTRY WIS / WIS Classic (factory workshop information)",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis",
+   "note": "Mercedes' official repair procedures, wiring diagrams and technical data, sold through B2B Connect; WIS Classic covers older series up to BR 463"
+  },
+  {
+   "name": "Mercedes-Benz Classic digital vehicle data card",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/",
+   "note": "Factory build record with option codes for most 1986–2010 cars; ordered through the Mercedes-Benz Classic Store, €130"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Mercedes only sold the G 500 in the US from the 2002 model year. Earlier trucks either came through Europa International, which federalised them and issued US VINs, or arrived later as grey imports. NHTSA lets any vehicle at least 25 years old in, counted from its date of manufacture, so a European-market G 500 or G 500 Cabriolet built before late 2001 can now be imported under Box 1 of the HS-7 form. Check your state's titling and emissions rules before you buy one abroad."
+  ]
+ },
+ "production": {
+  "intro": "The G 500 was a regular-production model, so it's the special editions that carry the numbers.",
+  "items": [
+   {
+    "k": "US model years",
+    "v": "2002–2008 (Mercedes-Benz USA); 1998–2001 via Europa International"
+   },
+   {
+    "k": "Built at",
+    "v": "Graz, Austria"
+   }
+  ],
+  "editions": [
+   {
+    "name": "G 500 Classic",
+    "years": "1999",
+    "note": "20th-anniversary edition: 500 built (494 left-hand drive, 6 right-hand drive), including 12 Cabriolets"
+   },
+   {
+    "name": "Grand Edition",
+    "years": "2005",
+    "note": "500 G 500 and G 55 AMG trucks built for the US"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Licensed G-Class driving centre near Graz with off-road modules, factory tours and Schöckl drives"
+  },
+  {
+   "kind": "event",
+   "name": "Unimog meets G-Class",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
+   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, with off-road demos and recovery courses; 2026 edition held 5–6 September"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Kelley Blue Book — 2002 Mercedes-Benz G-Class specs (G 500)",
+   "url": "https://www.kbb.com/mercedes-benz/g-class/2002/specs"
+  },
+  {
+   "name": "NHTSA — Recalls API (G500/G55/G550/G63 by model year)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=MERCEDES%20BENZ&model=G500&modelYear=2003"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder (WDCYR49E02X128628, 2002 G500)",
+   "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/WDCYR49E02X128628?format=json"
+  },
+  {
+   "name": "Tire Wheel Guide — 2005 Mercedes-Benz G-Class tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/mercedes/g-class/2005/"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2013 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2013_G.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2015 G-Class Operator's Manual (PDF)",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/2015_G.pdf"
+  },
+  {
+   "name": "Expedition Portal — G550 tire options thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Expedition Portal — Overland Journal: G-Wagen (tire fitment)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1868107"
+  },
+  {
+   "name": "Eurowise — JWO 2-inch (50 mm) coil lift springs, W463",
+   "url": "https://shop.eurowise.com/products/jwo-2-inch-50mm-coil-lift-springs"
+  },
+  {
+   "name": "Eurowise — JWO 4-inch coil lift springs, W463",
+   "url": "https://shop.eurowise.com/products/jwo-4-inch-4-inch-coil-lift-springs"
+  },
+  {
+   "name": "GwagenParts — 3\" lift kit for G-Class W463 with ROGUE 2.0 shocks",
+   "url": "https://www.gwagenparts.com/product/3-lift-kit-for-mercedes-g-class-w463-with-rogue-2-0-adjustable-shocks"
+  },
+  {
+   "name": "GwagenParts — Eurowise 60 mm / 100 mm coil springs (W463)",
+   "url": "https://gwagenparts.com/100mm-coil-springs-for-g-wagon-w463-w461-elevate-your-ride-with-eurowise"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class (1991–2018) results",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect — XENTRY WIS (incl. WIS Classic)",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis"
+  },
+  {
+   "name": "Driven Car Guide — Mercedes now sells digital 'birth certificates' for modern classics (Aug 2026)",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/"
+  },
+  {
+   "name": "Autocar — Used car buying guide: Mercedes-Benz G-Class W463",
+   "url": "https://zephr.autocar.co.uk/car-news/used-cars-used-car-buying-guides/used-car-buying-guide-mercedes-benz-g-class-w463"
+  },
+  {
+   "name": "Expedition Portal — Lockers: what type do the G-Wagens come with?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1291561"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
+  },
+  {
+   "name": "NHTSA — Recall 10V366000 (G-Class front turn signals)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V366000"
+  },
+  {
+   "name": "NHTSA — Recall 08V303000 (SCN coding)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V303000"
+  },
+  {
+   "name": "Bring a Trailer — 2001 Mercedes-Benz G500 Europa (VIN listing)",
+   "url": "https://bringatrailer.com/listing/2001-mercedes-benz-g500-18-2/"
+  },
+  {
+   "name": "Bring a Trailer — 2003 Mercedes-Benz G55 AMG (VIN listing)",
+   "url": "https://bringatrailer.com/listing/2003-mercedes-benz-g55-amg-21/"
+  },
+  {
+   "name": "MPGBuddy — 2003 Mercedes-Benz G500 fuel economy",
+   "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2003"
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "fitment": {
+  "stock": [
+   "33-in all-terrains on 18-in wheels (Overtrail)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 (≈33.2 in)",
+    "note": "Many LC250/GX 550 owners run it without mods, and 265/70R18 fits with no problems. 285/70R18 is where rubbing starts."
+   },
+   {
+    "lift": "Level / small lift",
+    "size": "35 in",
+    "note": "35s generally need a leveling kit or a small lift."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "V35A engine main-bearing debris",
+    "years": "2024",
+    "ref": "NHTSA 25V-767",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V767",
+    "summary": "Machining debris can cause main-bearing failure, a stall and loss of power. Dealers inspect the #1 main bearing and replace the engine if needed (Lexus 25LA07)."
+   },
+   {
+    "title": "Panoramic View Monitor camera freeze",
+    "years": "2024–2025",
+    "ref": "NHTSA 25V-744",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V744",
+    "summary": "A software error can freeze the rear camera image or leave the screen blank in reverse. Dealers update the parking-assist software."
+   },
+   {
+    "title": "Instrument cluster warnings may not display",
+    "years": "2024",
+    "ref": "NHTSA 26V-341",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V341",
+    "summary": "The combination meter may fail to show some warnings or indicators. Fixed with an over-the-air software update."
+   },
+   {
+    "title": "Load-capacity modification label",
+    "years": "2024–2025",
+    "ref": "NHTSA 26V-179",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V179",
+    "summary": "The label may show the wrong added-weight values. Dealers replace the label."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2024",
+   "change": "Revealed June 8, 2023 on the GA-F platform with a 349 hp 3.4 twin-turbo V6 and a 10-speed. Six grades, including the new Overtrail and Overtrail+ with a rear e-locker and 33-in A/Ts. Production started in November 2023.",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "3,717 early US trucks (built May 2023 – April 2024) are in engine recall 25V-767. Check the VIN.",
+   "flag": "avoid"
+  },
+  {
+   "year": "2025",
+   "change": "Driver memory settings and a power steering column on every grade. The Overtrail and Overtrail+ gain a 1-in suspension lift.",
+   "flag": "buy"
+  },
+  {
+   "year": "2027",
+   "change": "Minor updates: ventilated rear outboard seats on Luxury, Luxury+ and Overtrail+, plus extended keyless entry. Powertrain unchanged.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The GX 550 shares its bones with the Land Cruiser 250, so the questions are which grade it is and whether it was built before the engine-recall fix.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US trucks start JTJ. NHTSA's vPIC decoder reads them as the 252 Series with the V35A-FTS engine, built at Tahara, Japan. The 10th character is the model year (R = 2024, S = 2025, T = 2026)."
+   },
+   {
+    "head": "Overtrail vs road grades",
+    "body": "Overtrail and Overtrail+ have the electronically locking rear differential, E-KDSS, 33-in A/T tires on 18s and a body 4.52 in wider than the GX 460. Seven seats are listed only on the non-Overtrail grades."
+   },
+   {
+    "head": "2025+ Overtrail lift",
+    "body": "From 2025 the Overtrail sits 1 in higher from the factory, which matters if you're comparing a used 2024 against a later truck."
+   },
+   {
+    "head": "Engine recall status",
+    "body": "2024 trucks built between May 31, 2023 and April 10, 2024 fall under 25V-767 (Lexus 25LA07). Ask for dealer paperwork showing the inspection or engine replacement."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,601–9,096 lb by grade",
+   "note": "2027 Lexus figures. Launch spec was 8,000 lb for Premium, Premium+ and Overtrail"
+  },
+  {
+   "k": "Approach / breakover / departure",
+   "v": "26° / 24° / 21°",
+   "note": "Lexus's best-case figures"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15 city / 21 hwy / 17 combined",
+   "note": "premium fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "≈5,470–5,710 lb (2,480–2,590 kg)",
+   "note": "2024, per NHTSA VIN data"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still a current model, so new prices set the market. Overtrails are the trucks people chase.",
+  "ranges": [
+   {
+    "cond": "2027 Premium / Premium+",
+    "range": "$69,085–73,400"
+   },
+   {
+    "cond": "2027 Overtrail / Overtrail+",
+    "range": "$76,730–85,010"
+   },
+   {
+    "cond": "2027 Luxury / Luxury+",
+    "range": "$81,600–85,600"
+   }
+  ],
+  "note": "MSRPs include the $1,550 destination charge. On Bring a Trailer, two 2024 GX 550 Overtrails sold for $70,524 and $72,000 in mid-2025."
+ },
+ "docs": [
+  {
+   "name": "2024 GX 550 Warranty and Services Guide (PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-24GX550/pdf/L-MMS-24GX550.pdf",
+   "note": "Lexus-hosted maintenance schedule"
+  },
+  {
+   "name": "My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources",
+   "note": "Owner's manuals and warranty guides by model year"
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com",
+   "note": "Official subscription site for factory repair manuals, wiring diagrams and TSBs"
+  },
+  {
+   "name": "Lexus genuine parts store",
+   "url": "https://parts.lexus.com/",
+   "note": "Official parts catalogue with VIN lookup"
+  }
+ ],
+ "production": {
+  "intro": "Assembled at Toyota's Tahara plant, and the first GX to be sold officially in Japan and Australia.",
+  "items": [
+   {
+    "k": "US sales",
+    "v": "30,914 (2024) · 37,180 (2025)"
+   },
+   {
+    "k": "Plant",
+    "v": "Tahara, Japan"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "GXOR (GX Offroad)",
+   "url": "https://lexusgxor.com/",
+   "note": "Community knowledgebase and Facebook group for off-road GXs, with a wheel and tire database built from owner reports"
+  },
+  {
+   "kind": "event",
+   "name": "GXOR Trail Takeover",
+   "url": "https://gxor.org/",
+   "note": "GXOR's first annual event, at Merus Adventure in Amarillo, Texas, November 12–15, 2026"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA-sanctioned Toyota 4x4 trail event run by the Rising Sun 4WD Club of Colorado. April 14–18, 2027; it usually sells out in a day"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "National club since 1976. Membership is open to Lexus GX and LX owners"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls by vehicle (api.nhtsa.gov)",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "NHTSA — Recall 25V-767",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V767"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Wikipedia — Lexus GX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_GX"
+  },
+  {
+   "name": "LandCruiserForum — Lexus releases specs and pricing on the 2024 GX550 (Lexus press release, Dec 13, 2023)",
+   "url": "https://www.landcruiserforum.com/threads/lexus-releases-specs-and-pricing-on-the-2024-gx550.255/"
+  },
+  {
+   "name": "Kelley Blue Book — 2025 Lexus GX sees price bump, new off-road kit",
+   "url": "https://www.kbb.com/car-news/2025-lexus-gx-sees-price-bump-new-off-road-kit"
+  },
+  {
+   "name": "Cars.com — How much is the 2027 Lexus GX 550?",
+   "url": "https://www.cars.com/articles/how-much-is-the-2027-lexus-gx-550-529100/"
+  },
+  {
+   "name": "Gear Patrol — 2027 Lexus GX minor updates",
+   "url": "https://www.gearpatrol.com/cars/2027-lexus-gx-minor-updates/"
+  },
+  {
+   "name": "Lexus — 2024 GX 550 Warranty and Services Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-24GX550/pdf/L-MMS-24GX550.pdf"
+  },
+  {
+   "name": "wheel-size.com — Lexus GX [2002–2024] with 6x5.5 (6x139.7) bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/6x5.5/lexus/gx/2002-2024/"
+  },
+  {
+   "name": "FuelEconomy.gov — 2025 Lexus GX 550",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48964"
+  },
+  {
+   "name": "Bring a Trailer — Lexus GX auction results",
+   "url": "https://bringatrailer.com/lexus/gx/"
+  },
+  {
+   "name": "IH8MUD — LC250 & GX550 tire thread",
+   "url": "https://forum.ih8mud.com/threads/lc250-gx550-tire-thread.1355538/"
+  },
+  {
+   "name": "Lexus — GX specifications",
+   "url": "https://www.lexus.com/models/GX/specifications"
+  },
+  {
+   "name": "GX Offroad (GXOR) knowledgebase",
+   "url": "https://lexusgxor.com/"
+  },
+  {
+   "name": "GXOR — Trail Takeover 2026",
+   "url": "https://gxor.org/"
+  },
+  {
+   "name": "Toyota — Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com"
+  },
+  {
+   "name": "Lexus — My Lexus manuals & resources",
+   "url": "https://www.lexus.com/My-Lexus/resources"
+  },
+  {
+   "name": "Lexus — Genuine Lexus parts online store",
+   "url": "https://parts.lexus.com/"
+  },
+  {
+   "name": "Cruise Moab — event home",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}

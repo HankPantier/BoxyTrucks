@@ -1,0 +1,313 @@
+{
+ "fitment": {
+  "stock": [
+   "275/70R16 (e.g. 2000)",
+   "275/65R17 (e.g. 2006)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x150",
+   "center_bore": "110 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R16 or 285/65R18 (about 33 in)",
+    "note": "IH8MUD FAQ answer. 295/75R16 fits with 1/2 to 1 inch of clearance at full lock, which is tight; one owner measured 3/4 inch to the rear plastic liner on 285/75s."
+   },
+   {
+    "lift": "2 in",
+    "size": "295/70R18 or 285/75R18 (Tundra 18s)",
+    "note": "Needs a little trimming and the pinch-weld fold. You may have to remove the washer-bottle cover or move the bottle, and owners add extended front bump stops."
+   },
+   {
+    "lift": "2–3 in",
+    "size": "315/75R16 / 35x12.50R16",
+    "note": "Fits, but rubs the plastic liner up front and the rear sheet metal at full compression. Owners adjust turn stops and bump stops, and some add a mild body lift to keep full travel."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Side curtain airbag inadvertent deployment",
+    "years": "2003–2006",
+    "ref": "NHTSA 16V065000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V065000",
+    "summary": "The airbag control module may be programmed wrong, so the side curtain airbags can deploy unexpectedly; shared with the LX 470, 4Runner, GX 470, Tundra and Sequoia."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Exhaust booming at idle",
+    "ref": "TSB 00304 (Feb 2004)",
+    "summary": "Booming after warm-up on 1998–2006 LC/LX; the fixes include a frame-mounted crossmember damper weight.",
+    "url": "https://forum.ih8mud.com/showthread.php?p=1867933"
+   },
+   {
+    "title": "Transfer case buzz",
+    "ref": "TSB NV00101 (Jan 2001)",
+    "summary": "Buzz under light or moderate acceleration; Toyota revised the high-speed output gear, shift linkage and centre diff case.",
+    "url": "https://forum.ih8mud.com/showthread.php?p=1867933"
+   },
+   {
+    "title": "Front brake vibration",
+    "ref": "TSB BR0101 (Nov 2001)",
+    "summary": "Bulletin for pulsing or vibrating front brakes on 1998-on trucks.",
+    "url": "https://forum.ih8mud.com/showthread.php?p=1867933"
+   },
+   {
+    "title": "Continuous alarm noise from the combination meter",
+    "ref": "TSB EL00202 (Feb 2002)",
+    "summary": "Loud constant buzzer from the gauge cluster.",
+    "url": "https://forum.ih8mud.com/showthread.php?p=1867933"
+   },
+   {
+    "title": "A/C expansion valve noise",
+    "ref": "TSB AC00199 (Feb 1999)",
+    "summary": "Groaning from the A/C expansion valve on early 1999 builds within a stated VIN range.",
+    "url": "https://forum.ih8mud.com/showthread.php?p=1867933"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1998",
+   "change": "UZJ100 launches in the US with the 4.7 L 2UZ-FE V8, the only US engine. It's the first Land Cruiser with independent front suspension and the first with a V8",
+   "flag": "note"
+  },
+  {
+   "year": "1998–1999",
+   "change": "Selectable rear diff locker offered as an option, and only in these two model years",
+   "flag": "buy"
+  },
+  {
+   "year": "1998–1999",
+   "change": "Two-pinion front differential. It's the most common source of front-diff failures when the truck is driven hard",
+   "flag": "avoid"
+  },
+  {
+   "year": "2000",
+   "change": "Four-pinion front diff fitted from late 1999 production (model year 2000) with fewer reported failures; 50th Anniversary commemorative models in several countries",
+   "flag": "buy"
+  },
+  {
+   "year": "2003–2006",
+   "change": "Model years covered by the side curtain airbag recall (16V065000)",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Last model year; production ends in August 2007",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "In the US, every 100 is a V8 UZJ100 or its Lexus LX 470 twin. The solid-axle 105 and the diesels were never sold here, but they're now arriving as 25-year imports.",
+  "items": [
+   {
+    "head": "100 vs 105",
+    "body": "The 105 kept the 80 Series' solid front axle and straight-six engines and was sold in Africa, Australia, Russia and South America. Tells: the IFS 100 often sits nose-low, and 100s wear almost flat-faced wheels where 105s have dished ones."
+   },
+   {
+    "head": "Model codes",
+    "body": "UZJ100 = 2UZ-FE 4.7 V8 (US). FZJ100/105 = 1FZ-FE 4.5 straight-six. HZJ105 = 1HZ diesel. HDJ100 = 1HD-T or 1HD-FTE turbo-diesel. Anything other than a UZJ100 in the US is an import."
+   },
+   {
+    "head": "Factory rear locker",
+    "body": "The selectable rear locker was an option on 1998–1999 trucks only. A later truck with a rear locker has an aftermarket one."
+   },
+   {
+    "head": "Front diff",
+    "body": "1998–1999 trucks (built mid-1997 to mid-1999) came with the weaker 2-pinion front diff; model year 2000 onward got the 4-pinion unit."
+   },
+   {
+    "head": "VIN",
+    "body": "Toyota's own bulletins quote US UZJ100 VIN ranges beginning JT3HT05J. As on any US VIN, the 10th character is the model year (X = 1999, Y = 2000)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,500 lb (2,948 kg)",
+   "note": "2002–2006 per KBB; 5,500 lb for a 1999"
+  },
+  {
+   "k": "Payload",
+   "v": "1,470 lb (667 kg)",
+   "note": "2005, KBB"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.4 US gal (96 L)",
+   "note": "2005, KBB"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.8 in (249 mm)",
+   "note": "2005, KBB"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "12 city / 16 hwy / 14 combined mpg",
+   "note": "2005, KBB"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,390 lb (2,445 kg)",
+   "note": "2005, KBB"
+  },
+  {
+   "k": "Turning circle",
+   "v": "39.7 ft (12.1 m) diameter",
+   "note": "2005, KBB"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Rough 100s are still cheap, but clean, low-mileage, well-documented trucks now sell for 80-Series money.",
+  "ranges": [
+   {
+    "cond": "Project / high miles",
+    "range": "$6k–13k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$15k–36k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$40k–65k"
+   }
+  ],
+  "note": "Based on 20 Bring a Trailer UZJ100 sales, August–October 2026: $6,350 for a 1999 up to $65,000 for a 37,000-mile 1999. Gray-import FZJ105s were bid to $32.5k–42.5k without selling."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official paid portal for factory repair manuals, wiring diagrams and TSBs; short-term subscriptions are available to owners"
+  },
+  {
+   "name": "Toyota Owners — manuals and warranties",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals",
+   "note": "Official owner's manuals and warranty booklets by model year"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The solid-axle 105 (FZJ105, HZJ105) and diesel 100s (HDJ100) were never sold in the US. Production started in January 1998, so these trucks are reaching the 25-year NHTSA exemption one build year at a time, and Australian-market 105s are already being sold at US auctions.",
+   "Federal eligibility doesn't settle registration everywhere. California's smog rules make registering an overseas classic difficult, so check your state's titling and emissions rules before you buy a 105 or a diesel."
+  ]
+ },
+ "production": {
+  "intro": "The 100 was built from January 1998 to August 2007, replacing the 80 and sharing its body with the Lexus LX 470.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "January 1998 – August 2007"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Araco, Toyota City); China (Sichuan FAW Toyota, 2003–2008)"
+   },
+   {
+    "k": "Development",
+    "v": "Code name 404T, started in 1991; design frozen in mid-1994"
+   }
+  ],
+  "editions": [
+   {
+    "name": "50th Anniversary",
+    "years": "2000",
+    "note": "Commemorative models offered in several countries for the Land Cruiser's 50th"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters, sanctioned events and land-use grants"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "Annual TLCA trail event around Moab, Utah, each April, hosted by the Rising Sun 4x4 Club of Colorado; registration has sold out in a day in recent years"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J100 section)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#J100"
+  },
+  {
+   "name": "Wikipedia — Grey import vehicle (US 25-year rule)",
+   "url": "https://en.wikipedia.org/wiki/Grey_import_vehicle"
+  },
+  {
+   "name": "NHTSA — Recalls API, 2003–2006 Toyota Land Cruiser",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=2004"
+  },
+  {
+   "name": "IH8MUD — 100-series FAQ",
+   "url": "https://forum.ih8mud.com/threads/100-series-faq.30754/"
+  },
+  {
+   "name": "IH8MUD — TSBs for the Toyota Land Cruiser UZJ100",
+   "url": "https://forum.ih8mud.com/showthread.php?p=1867933"
+  },
+  {
+   "name": "IH8MUD — What is the largest tire I can fit with no lift?",
+   "url": "https://forum.ih8mud.com/threads/what-is-the-largest-tire-i-can-fit-with-no-lift.263259/"
+  },
+  {
+   "name": "IH8MUD — Max tire size",
+   "url": "https://forum.ih8mud.com/threads/max-tire-size.1273416"
+  },
+  {
+   "name": "IH8MUD — Biggest tire size on 100 series",
+   "url": "https://forum.ih8mud.com/100-series-cruisers/7520-biggest-tire-size-100-series.html"
+  },
+  {
+   "name": "Limitless Tire — 2000 Toyota Land Cruiser wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/land-cruiser/2000/"
+  },
+  {
+   "name": "Limitless Tire — 2006 Toyota Land Cruiser wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/land-cruiser/2006/"
+  },
+  {
+   "name": "ThreePiece — 1999 Toyota Land Cruiser wheel & bolt pattern specs",
+   "url": "https://vehicles.threepiece.us/vehicles/toyota/land%20cruiser/1999/"
+  },
+  {
+   "name": "Kelley Blue Book — 2005 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2005/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 1999 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/1999/specs/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser 100 Series auction results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-100-series/"
+  },
+  {
+   "name": "Toyota TIS",
+   "url": "https://techinfo.toyota.com/"
+  },
+  {
+   "name": "TLCA — Home",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "TLCA — Cruise Moab",
+   "url": "https://tlca.org/calendar/cruise-moab/"
+  }
+ ]
+}
