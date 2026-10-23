@@ -1,0 +1,423 @@
+{
+ "fitment": {
+  "stock": [
+   "215/75R15",
+   "225/70R15",
+   "225/75R15"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\")",
+   "offset": "+10 to +25 mm (stock 15x7)",
+   "center_bore": "71.5 mm",
+   "lug_thread": "1/2\"-20"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "235/75R15",
+    "note": "NAXJA consensus on the stock 15x7 (5.25 in backspacing). 30x9.50R15 fits many trucks but rubs the rear fenders under load and the lower control arms at lock; 1997–2001 trucks have less room"
+   },
+   {
+    "lift": "3 in",
+    "size": "31x10.50R15",
+    "note": "Expect minor rubbing at full lock; trim the front bumper ends and fender corners and roll the rear quarter seam"
+   },
+   {
+    "lift": "4.5 in",
+    "size": "33x12.50R15",
+    "note": "Per ExtremeTerrain's fitment table, on 15x8–17x9 wheels with −12 to +6 mm offset; trimming still likely"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear axle assembly",
+    "years": "1984",
+    "ref": "NHTSA 84V-024",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V024000",
+    "summary": "Improper assembly could cause rear axle bearing failure and separation of an axle shaft and wheel."
+   },
+   {
+    "title": "Rear differential pinion shaft",
+    "years": "1984",
+    "ref": "NHTSA 84V-045",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V045000",
+    "summary": "A defective pinion shaft could contact the drive pinion gear and lock the rear wheels."
+   },
+   {
+    "title": "Steering linkage couplers",
+    "years": "1986–1987",
+    "ref": "NHTSA 86V-159",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=86V159000",
+    "summary": "Couplers left too long in an acid-etching bath during manufacture."
+   },
+   {
+    "title": "ABS hydraulic system",
+    "years": "1989–1990",
+    "ref": "NHTSA 91V-003",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V003000",
+    "summary": "Condensation could plug the ABS booster-pump filter, a leaking low-pressure hose could corrode the master-cylinder snap ring, and front hoses could contact the tires."
+   },
+   {
+    "title": "ABS hydraulic control unit wear",
+    "years": "1989–1991",
+    "ref": "NHTSA 96V-260",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V260000",
+    "summary": "Worn actuator piston seals could kill the ABS pump motor, leaving reduced power assist."
+   },
+   {
+    "title": "Salt-belt front rotor corrosion",
+    "years": "1990–1991",
+    "ref": "NHTSA 98V-005",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V005000",
+    "summary": "In salt-belt states the front rotor's cast-iron braking surface could corrode away from the hub."
+   },
+   {
+    "title": "Salt-belt front rotor corrosion",
+    "years": "1992–1995",
+    "ref": "NHTSA 99V-340",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=99V340000",
+    "summary": "Same rotor-separation risk for trucks sold or registered in salt-belt states."
+   },
+   {
+    "title": "Steering-gear frame weld omitted",
+    "years": "1993–1996",
+    "ref": "NHTSA 97V-069",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=97V069000",
+    "summary": "A fillet weld joining the steering-gear reinforcement to the frame rail was left off; gear bolts could break or the rail could crack. About 2,500 trucks."
+   },
+   {
+    "title": "Driver airbag missing arming lever",
+    "years": "1995",
+    "ref": "NHTSA 95V-057",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V057000",
+    "summary": "Some driver airbag modules were assembled without an arming lever and would not deploy; about 70,000 covered."
+   },
+   {
+    "title": "Salt-belt front rotor corrosion",
+    "years": "1996–1999",
+    "ref": "NHTSA 00V-136",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V136000",
+    "summary": "Same rotor-separation risk for later trucks in salt-belt states."
+   },
+   {
+    "title": "Fuel gauge sender accuracy",
+    "years": "1997",
+    "ref": "NHTSA 97V-194",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=97V194000",
+    "summary": "The tank sender could drift and show far more fuel than was left."
+   },
+   {
+    "title": "Airbag control module corrosion",
+    "years": "1997–1999",
+    "ref": "NHTSA 00V-105",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V105000",
+    "summary": "Water or road salt near the module could corrode it, lighting the airbag lamp or causing inadvertent deployment."
+   },
+   {
+    "title": "4.0 L manifold debris fire risk",
+    "years": "2000–2001",
+    "ref": "NHTSA 02V-104",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V104000",
+    "summary": "Intake and exhaust manifold design could let debris collect at the No. 3 cylinder and start a fire."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1984",
+   "change": "Launch: unibody 'Uniframe', Quadra-Link coil front and leaf rear on live axles; 2.5 L AMC four or 2.8 L GM V6; NP207 Command-Trac or NP228/229 Selec-Trac. 1,200 lb lighter and 31 in shorter than the SJ Cherokee",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Two-wheel-drive model added mid-year; 2.1 L Renault turbodiesel offered in North America 1985–87",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "4.0 L six (173 hp, Renix injection) replaces the V6; AW4 automatic and NP231/NP242 transfer cases arrive; Chrysler buys AMC. Dana 44 rear with the tow package through 1991",
+   "flag": "buy"
+  },
+  {
+   "year": "1989",
+   "change": "Late in the year the Aisin AX15 five-speed replaces the Peugeot BA-10/5 behind the 4.0; ABS-equipped trucks appear",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "4.0 L 'High Output' with Chrysler multi-point injection, 190 hp; Chrysler 8.25 in rear axle available on non-ABS trucks",
+   "flag": "buy"
+  },
+  {
+   "year": "1996",
+   "change": "OBD-II and Chrysler's JTEC engine computer",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "Facelift: steel liftgate replaces fibreglass, new interior and dash with dual airbags, stiffer unibody and quieter door seals",
+   "flag": "buy"
+  },
+  {
+   "year": "1999",
+   "change": "Revised intake manifold mid-year on the 4.0 to offset smaller exhaust ports on the new head casting",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "Coil-on-plug ignition on the 4.0 (193 hp); NV3550 replaces the AX15; front Dana 30 changes from high pinion to low pinion",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "Final year, 4.0 only; 60th Anniversary edition. Toledo production ends June 2001",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every XJ shares a body and bolt pattern, so what you're really identifying is engine, axles and transfer case, plus whether it's a right-hand-drive import.",
+  "items": [
+   {
+    "head": "VIN (1987–1990)",
+    "body": "The 4th character is the engine (M = 4.0 L six, E/H = 2.5 L four, B = 2.1 L turbodiesel); characters 6–7 are the body: 73/74 = 2WD two-/four-door, 77/78 = 4WD two-/four-door, 75 = Wagoneer. The 10th character is the year (H = 1987, J = 1988)."
+   },
+   {
+    "head": "Rear axle",
+    "body": "Dana 35 was standard throughout. A Chrysler 8.25 in came on non-ABS trucks from 1991 (27-spline, 29-spline from late 1996), and a 30-spline Dana 44 only on 1987–91 tow-package trucks. Read the axle tag or ring-gear size before you pay for 'the good axle'."
+   },
+   {
+    "head": "Transfer case",
+    "body": "NP231 Command-Trac is part-time only (2HI, 4HI, N, 4LO). NP242 Selec-Trac adds a full-time 4WD position, so a lever with both 'Part Time' and 'Full Time' marks means Selec-Trac."
+   },
+   {
+    "head": "Wagoneer badge",
+    "body": "The 1984–90 XJ Wagoneer and Wagoneer Limited are woodgrained Cherokees, unrelated to the full-size SJ Grand Wagoneer."
+   },
+   {
+    "head": "Right-hand-drive XJs",
+    "body": "Jeep built RHD Cherokees for the US Postal Service and for Japan and the UK, and many Japanese trucks have come back for rural mail routes. US Drive Right recalled imported 1994–98 RHD Cherokees for failing several federal safety standards, so check an imported truck's recall status."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,270 kg)",
+   "note": "2001 Sport 4.0 L"
+  },
+  {
+   "k": "Payload",
+   "v": "1,150 lb (522 kg)",
+   "note": "2001 Sport"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "20 US gal (76 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "10.6 in (269 mm)",
+   "note": "2001 Sport"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 14 city / 18 hwy",
+   "note": "2001 4.0 L 4WD, current EPA method"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,297 lb two-door / 3,355 lb four-door (1,496 / 1,522 kg)",
+   "note": "2001 Sport"
+  },
+  {
+   "k": "Turning circle",
+   "v": "35.7 ft (10.9 m)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "101.4 in (2,576 mm)",
+   "note": "same for two- and four-door"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still cheap by classic-4x4 standards, but clean, low-mile, unmodified 4.0 trucks, especially 1997–2001 Sports and Classics, now bring real money.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$2.5k–7k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–16k"
+   },
+   {
+    "cond": "Excellent / low-mile original",
+    "range": "$20k–38k"
+   }
+  ],
+  "note": "Based on 105 Bring a Trailer sales from October 2025 to October 2026 (median $11,500, middle half $8,250–15,250). Top: a one-family 1999 Sport at $38,000, a 2000 Classic at $35,000 and a 17k-mile 1998 Classic at $34,000."
+ },
+ "docs": [
+  {
+   "name": "Bishko factory-authorized owner's manuals, 1984–2001 Cherokee XJ",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-owners-manuals-jeep-cherokee-xj",
+   "note": "Licensed reproductions with operating instructions and fluid specs, sold by Quadratec"
+  },
+  {
+   "name": "Haynes 50010: Cherokee, Comanche & Wagoneer 1984–2001",
+   "url": "https://www.quadratec.com/products/79001_800.htm",
+   "note": "Sold by Quadratec"
+  },
+  {
+   "name": "Faxon Auto Literature — 1986 Jeep factory literature",
+   "url": "https://www.faxonautoliterature.com/1986-Jeep",
+   "note": "Original 1984–86 Cherokee/Wagoneer body and overhaul manuals"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "XJs were US-built, so the 25-year rule rarely matters, but right-hand-drive trucks are a special case. Jeep built RHD Cherokees for the US Postal Service and for export to the UK, Ireland and Japan, and Japan's strict shaken inspections pushed many used Japanese-market trucks back to the US for rural mail carriers.",
+   "Importer US Drive Right recalled 107 imported 1994–98 RHD 4WD Cherokees (NHTSA 08V-056) for failing nine federal standards, from controls and lighting to fuel-system integrity, and 1,126 1994–96 trucks imported between 2007 and 2011 (NHTSA 11V-279) for lacking the required third brake light. If you're buying one, run the VIN through NHTSA's lookup and check your state's titling rules for RHD vehicles."
+  ]
+ },
+ "production": {
+  "intro": "Toledo built the US trucks from 1983 to June 2001, and licensed versions carried on in China until 2014.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "About 3 million (1983–2001, all plants)"
+   },
+   {
+    "k": "Plants",
+    "v": "Toledo, Ohio; Beijing; Ferreyra, Argentina; Cairo, Egypt; Valencia, Venezuela"
+   },
+   {
+    "k": "Engines",
+    "v": "2.5 L four · 2.8 L V6 (1984–86) · 4.0 L six (1987–2001) · 2.1 L Renault and 2.5 L VM turbodiesels"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Pioneer Olympic Edition",
+    "years": "1988",
+    "note": "Pioneer with A/C and AM/FM"
+   },
+   {
+    "name": "Briarwood",
+    "years": "1991–1992",
+    "note": "Woodgrain successor to the Wagoneer: leather, lace-spoke wheels, Jensen audio"
+   },
+   {
+    "name": "Orvis",
+    "years": "1999–2000",
+    "note": "UK-only, with Orvis badging, ruffled leather and Infinity audio"
+   },
+   {
+    "name": "Freedom",
+    "years": "2000",
+    "note": "Sport-based, 16 in Ultrastar alloys"
+   },
+   {
+    "name": "60th Anniversary",
+    "years": "2001",
+    "note": "Sport-based, special badges and mats, 16 in alloys"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "NAXJA (North American XJ Association)",
+   "url": "https://naxja.org/",
+   "note": "The XJ and MJ Comanche owners' association and forum; deep archive on tire fitment, lifts and axle swaps"
+  },
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail event in Moab, Utah; the club has run it for some 60 years. 2027 dates: March 20–28."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Cherokee (XJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Cherokee_(XJ)"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep Cherokee XJ wheel bolt pattern guide",
+   "url": "https://www.extremeterrain.com/jeep-cherokiee-xj-wheel-bolt-pattern-guide-tech-guide.html"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep wheel specifications & size guide",
+   "url": "https://www.extremeterrain.com/jeep-wheel-specifications-tech-guide.html"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque specs",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "Quadratec — Jeep vehicle model identification",
+   "url": "https://www.quadratec.com/c/reference/jeep-vehicle-model-identification"
+  },
+  {
+   "name": "Offroaders.com — 1981–1986 CJ & J-Series VIN decoder",
+   "url": "https://offroaders.com/tech/jeep/vin_81-86.htm"
+  },
+  {
+   "name": "TireSize.com — 1995 Jeep Cherokee original tire sizes",
+   "url": "https://tiresize.com/tires/Jeep/Cherokee/1995/"
+  },
+  {
+   "name": "NAXJA — Biggest tire for stock 2001 Cherokee Sport",
+   "url": "https://naxja.org/threads/biggest-tire-for-stock-2001-cherokee-sport.67379"
+  },
+  {
+   "name": "NAXJA — Max tire 98 XJ",
+   "url": "https://naxja.org/threads/max-tire-98-xj.51044"
+  },
+  {
+   "name": "Kelley Blue Book — 2001 Jeep Cherokee specs",
+   "url": "https://www.kbb.com/jeep/cherokee/2001/specs"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CHEROKEE 1984",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CHEROKEE&modelYear=1984"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CHEROKEE 1990",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CHEROKEE&modelYear=1990"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CHEROKEE 1995",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CHEROKEE&modelYear=1995"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CHEROKEE 1998",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CHEROKEE&modelYear=1998"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep CHEROKEE 2001",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=CHEROKEE&modelYear=2001"
+  },
+  {
+   "name": "NHTSA — campaign 08V-056 (imported RHD Cherokees)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=08V056000"
+  },
+  {
+   "name": "NHTSA — campaign 11V-279 (imported RHD Cherokees)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=11V279000"
+  },
+  {
+   "name": "Bring a Trailer — Jeep XJ Cherokee sold results",
+   "url": "https://bringatrailer.com/jeep/cherokee/"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

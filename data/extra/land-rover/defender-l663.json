@@ -1,0 +1,422 @@
+{
+ "fitment": {
+  "stock": [
+   "255/70R18",
+   "255/65R19",
+   "255/60R20",
+   "275/45R22"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "offset": "ET20–45 range by trim",
+   "center_bore": "72.6 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "103 lb-ft (140 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/60R20 (≈33 in)",
+    "note": "A Defender2.net owner runs it on a coil 110 on stock 8.5 in 20s with no spacers and no rubbing; others warn it can touch on some setups. 275/55R20 clears on air at full articulation, and Australian owners run 275/65R18 LT on 18s. The OCTA fits 33s from the factory."
+   },
+   {
+    "lift": "2.5 in (lift rods, air)",
+    "size": "35x12.50R18",
+    "note": "Lucky8's 110 build: Proud Rhino lift rods keeping air suspension, 18 in wheels, some lower bumper trimming, custom fender brackets, smaller rear calipers to clear the 18s and relocated intercoolers."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "DC-DC converter overload can cut drive power (MHEV)",
+    "years": "2020–2024",
+    "ref": "NHTSA 26V248000 / 26V599000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V248000",
+    "summary": "Mild-hybrid DC-DC converters can fail under high electrical load, ending 12-volt charging and possibly drive power; software remedy, interim letters sent in 2026."
+   },
+   {
+    "title": "Driver airbag clockspring connector corrosion",
+    "years": "2020–2026",
+    "ref": "NHTSA 26V389000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V389000",
+    "summary": "The connector can corrode so the airbag doesn't deploy as intended; dealers apply protective gel (Land Rover D120)."
+   },
+   {
+    "title": "Engine cam carrier oil channel may be blocked",
+    "years": "2020–2023",
+    "ref": "NHTSA 23V044000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V044000",
+    "summary": "A blocked channel can cause an oil leak and fire risk; dealers inspect and replace the cam carrier (Land Rover N763)."
+   },
+   {
+    "title": "Oil filter housing can crack",
+    "years": "2023–2024",
+    "ref": "NHTSA 24V450000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V450000",
+    "summary": "Oil can leak into the engine bay; dealers replace the housing, filter and O-rings (Land Rover N908)."
+   },
+   {
+    "title": "PCM can switch off while driving (six-cylinder)",
+    "years": "2020–2021",
+    "ref": "NHTSA 21V424000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V424000",
+    "summary": "Engine stall without warning; remedy disables Connected Diagnostic Services and OTA diagnostics."
+   },
+   {
+    "title": "Smoked rear lights can fail (Defender X)",
+    "years": "2020–2022",
+    "ref": "NHTSA 21V435000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V435000",
+    "summary": "A voltage spike from bright light on the rear can kill turn, brake and tail lights; assemblies replaced (N598)."
+   },
+   {
+    "title": "Raised air intake accessory may detach",
+    "years": "2020–2025",
+    "ref": "NHTSA 24E102000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24E102000",
+    "summary": "Dealer-fitted raised air intake VPLEP0543 may not be secured; inspect and reinstall (N964)."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "E005 idler pulley campaign, 3.0 Ingenium diesel",
+    "ref": "E005",
+    "summary": "UK campaign for 3.0 I6 diesels built from 1 March 2024 (diesels weren't sold in the US); confirm it's closed on any diesel truck.",
+    "url": "https://www.defender2.net/forum/topic99369.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2019",
+   "change": "Revealed at Frankfurt on 10 September; built at Nitra, Slovakia",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "110 deliveries begin; the 90 follows, offered in the US as a 3.0 six First Edition",
+   "flag": "note"
+  },
+  {
+   "year": "2021 MY",
+   "change": "3.0 six-cylinder MHEV diesels replace the 2.0 diesels (outside the US); P525 V8 joins",
+   "flag": "note"
+  },
+  {
+   "year": "2023 MY",
+   "change": "Three-row 130 on sale in the US; 500-unit 30th Anniversary Edition for North America",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "D350 diesel and the BMW-engined OCTA (P635, 6D Dynamics, 33-in tyres) arrive",
+   "flag": "note"
+  },
+  {
+   "year": "2020–2024",
+   "change": "Mild-hybrid trucks covered by DC-DC converter recalls; check the remedy is done",
+   "flag": "note"
+  },
+  {
+   "year": "2026 MY",
+   "change": "First major update, unveiled 28 May 2025: flush lights, revised front and rear aprons",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The L663 has been sold in many engines, suspension setups and special editions, and the limited ones carry real premiums. Check what you're looking at.",
+  "items": [
+   {
+    "head": "Coil or air",
+    "body": "Every 110 and 130 is on air. A 90 can be coil or air; coil 90s have 225 mm clearance and no height modes, while air trucks reach 291 mm at off-road height."
+   },
+   {
+    "head": "Engine",
+    "body": "US trucks: P300 2.0 four, P400 3.0 mild-hybrid six, P525 5.0 supercharged V8 and the OCTA's 4.4 twin-turbo V8. D-badged diesels and the P400e plug-in weren't sold in the US."
+   },
+   {
+    "head": "30th Anniversary Edition",
+    "body": "500 North American 110 P300s in Fuji White on white steel wheels, with the Expedition roof rack and side ladder. Every one wears the same 1/500 badge, so the badge doesn't tell you which number it is."
+   },
+   {
+    "head": "TReK trucks",
+    "body": "Ex-competition Defenders from Land Rover's TReK event are sold through the participating retailers with their accessories; Wikipedia puts production at no more than 100 a year, with the number on the badging."
+   },
+   {
+    "head": "OCTA",
+    "body": "28 mm taller and 68 mm wider than a standard Defender, with octagon badging; Edition One trucks are Faroe Green."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "8,200 lb (3,500 kg) braked",
+   "note": "750 kg unbraked"
+  },
+  {
+   "k": "Roof load",
+   "v": "370 lb dynamic (110/130), 260 lb (90); 661 lb (300 kg) static",
+   "note": "with off-road tyres and Expedition Roof Rack; V8s have no dynamic rating"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "89–90 L usable (23.5–23.8 gal)",
+   "note": "Defender 90, by engine"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "Air 216 mm std / 291 mm off-road (11.5 in); coil 225 mm",
+   "note": "Defender 90"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "Air (off-road height) 37.5° / 40° / 31°; coil 31° / 37.9° / 25°",
+   "note": "Defender 90"
+  },
+  {
+   "k": "Wading depth",
+   "v": "900 mm (35.4 in) air, 850 mm coil",
+   "note": "OCTA quoted at 1 m"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 18 city / 22–23 hwy (3.0 MHEV six); 14–15 / 18–19 (5.0 V8)",
+   "note": "2026 model year"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,065–2,228 kg (4,553–4,912 lb) DIN",
+   "note": "Defender 90 five-seat, by engine"
+  },
+  {
+   "k": "Turning circle",
+   "v": "11.3 m (37.1 ft) kerb to kerb",
+   "note": "Defender 90"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Depreciation has made early trucks the bargains; low-mileage late 110s and special editions hold their money best.",
+  "ranges": [
+   {
+    "cond": "2020–22 90 or 110, driver",
+    "range": "$27k–42k"
+   },
+   {
+    "cond": "2023 trucks, low-mile First Editions",
+    "range": "$45k–58k"
+   },
+   {
+    "cond": "Low-mile 2024–25 110, Carpathian and similar",
+    "range": "$68k–89k"
+   }
+  ],
+  "note": "Based on 15 Bring a Trailer sales in 2025–26 ($27,250–89,000, median $45,000); the two Carpathian Editions sold for $85,000 and $89,000."
+ },
+ "docs": [
+  {
+   "name": "Land Rover iGuide Online (owner's handbooks)",
+   "url": "https://www.ownerinfo.landrover.com/",
+   "note": "Land Rover's official online owner information."
+  },
+  {
+   "name": "Land Rover Defender 90 technical data (21MY)",
+   "url": "https://cdn.uc.assets.prezly.com/52cbc8d2-d4a1-43e7-abc8-656afe1fbd18/-/inline/no/Land%20Rover%20Defender%2090_TECH%20DATA_21MY_090920.pdf",
+   "note": "Official media spec sheet: dimensions, angles, weights, gearing."
+  },
+  {
+   "name": "Land Rover USA — Defender 110 models and specifications",
+   "url": "https://www.landroverusa.com/defender/defender-110/models-and-specifications.html",
+   "note": "Current US trims and specs."
+  }
+ ],
+ "production": {
+  "intro": "Built at Nitra, Slovakia, in 90, 110 and 130 lengths, with a steady stream of limited editions.",
+  "items": [
+   {
+    "k": "Plant",
+    "v": "Nitra, Slovakia"
+   },
+   {
+    "k": "Bodies",
+    "v": "90 (3-door), 110 and 130 (5-door)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "First Edition",
+    "years": "2020",
+    "note": "Launch edition; the only way to buy a US 90 at first, with the 3.0 six"
+   },
+   {
+    "name": "Bond Edition",
+    "years": "2021",
+    "note": "300 all-black P525 V8s with 22 in black wheels, blue calipers and 'Defender 007' badging"
+   },
+   {
+    "name": "30th Anniversary Edition",
+    "years": "2023",
+    "note": "500 Fuji White 110 P300s for North America"
+   },
+   {
+    "name": "75th Anniversary Edition",
+    "years": "2023",
+    "note": "Grasmere Green, a nod to HUE 166"
+   },
+   {
+    "name": "Trophy Edition",
+    "years": "",
+    "note": "Camel Trophy homage in Deep Sandglow Yellow or Keswick Green; P400 in the US"
+   },
+   {
+    "name": "TReK editions",
+    "years": "Annual",
+    "note": "Ex-competition trucks; no more than 100 a year"
+   },
+   {
+    "name": "OCTA Edition One",
+    "years": "2024–",
+    "note": "Launch OCTA in Faroe Green"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Defender2.net",
+   "url": "https://www.defender2.net/forum/",
+   "note": "Big UK-based Defender forum with very active L663 sections."
+  },
+  {
+   "kind": "event",
+   "name": "Land Rover TReK",
+   "url": "https://www.landroverusa.com/experiences/events-and-sponsorships/trek-off-road-competition.html",
+   "note": "Land Rover USA's annual off-road competition for retailer teams."
+  },
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "National Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Land Rover — Defender 90 technical data, 21MY",
+   "url": "https://cdn.uc.assets.prezly.com/52cbc8d2-d4a1-43e7-abc8-656afe1fbd18/-/inline/no/Land%20Rover%20Defender%2090_TECH%20DATA_21MY_090920.pdf"
+  },
+  {
+   "name": "Wikipedia — Land Rover Defender (L663)",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)"
+  },
+  {
+   "name": "Land Rover USA — Defender 110 models and specifications",
+   "url": "https://www.landroverusa.com/defender/defender-110/models-and-specifications.html"
+  },
+  {
+   "name": "Land Rover USA — Defender",
+   "url": "https://www.landroverusa.com/vehicles/defender/index.html"
+  },
+  {
+   "name": "Land Rover USA — Defender 30th Anniversary Edition",
+   "url": "https://www.landroverusa.com/our-story/news/defender-30th-anniversary-edition.html"
+  },
+  {
+   "name": "Land Rover USA — TReK Off-Road Competition",
+   "url": "https://www.landroverusa.com/experiences/events-and-sponsorships/trek-off-road-competition.html"
+  },
+  {
+   "name": "Land Rover iGuide Online",
+   "url": "https://www.ownerinfo.landrover.com/"
+  },
+  {
+   "name": "Limitless Tire — 2022 Land Rover Defender wheel and tire sizes",
+   "url": "https://limitlesstire.com/vehicles/land-rover/defender/2022/"
+  },
+  {
+   "name": "wheel-sizes.com — Land Rover Defender lug nuts",
+   "url": "https://wheel-sizes.com/lugnuts/land-rover/defender/"
+  },
+  {
+   "name": "Defender2.net — Tyres in L663 275/60/20",
+   "url": "https://www.defender2.net/forum/topic94303.html"
+  },
+  {
+   "name": "Defender2.net — Ultimate L663 wheel and tyre combination thread",
+   "url": "https://www.defender2.net/forum/topic87820.html"
+  },
+  {
+   "name": "GearJunkie — Lucky8 Proud Rhino Land Rover Defender",
+   "url": "https://gearjunkie.com/motors/lucky8-proud-rhino-land-rover-defender-2-off-road"
+  },
+  {
+   "name": "Defender2.net — E005 Ingenium I6 3.0L diesel idler pulley clash recall",
+   "url": "https://www.defender2.net/forum/topic99369.html"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Defender 2020–2026 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=DEFENDER&modelYear=2022"
+  },
+  {
+   "name": "NHTSA — Recall 26V248000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V248000"
+  },
+  {
+   "name": "NHTSA — Recall 26V599000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V599000"
+  },
+  {
+   "name": "NHTSA — Recall 26V389000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V389000"
+  },
+  {
+   "name": "NHTSA — Recall 23V044000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V044000"
+  },
+  {
+   "name": "NHTSA — Recall 24V450000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V450000"
+  },
+  {
+   "name": "NHTSA — Recall 21V424000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V424000"
+  },
+  {
+   "name": "NHTSA — Recall 21V435000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V435000"
+  },
+  {
+   "name": "NHTSA — Recall 24E102000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=24E102000"
+  },
+  {
+   "name": "NHTSA — Recall 23V137000 (2023 Defender 130)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V137000"
+  },
+  {
+   "name": "FuelEconomy.gov — 2026 Land Rover vehicles",
+   "url": "https://www.fueleconomy.gov/feg/bymake/Land_Rover2026.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Defender L663 results",
+   "url": "https://bringatrailer.com/land-rover/defender-l663/"
+  },
+  {
+   "name": "ANARC — Association of North American Rover Clubs",
+   "url": "https://www.anarc.club/"
+  },
+  {
+   "name": "Rovers North blog — ANARC News, Spring 2026",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  }
+ ]
+}
