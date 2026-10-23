@@ -1,0 +1,249 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 on 16x8 alloy (1997 Australian ST)",
+   "31x10.50R15 (Japanese Safari Granroad, 1991)",
+   "215/80R16 or 6.50R16LT on 16x6 steel (base and work models)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "about +5 mm on factory 7x15 and 8x16 wheels; about +30 mm on 6x16 steel",
+   "center_bore": "110.1 mm",
+   "lug_thread": "M12x1.25"
+  },
+  "max_tire": [
+   {
+    "lift": "2 in",
+    "size": "33x12.50R15 or 285/75R16",
+    "note": "NissanPatrol.com.au consensus: 'just about everyone with a 2\" lifted GQ runs 33x12.5'. The front mud flaps (or their brackets) usually have to go, and 33x12.50s on -22 mm offset rims stick out past the factory flares. Narrower 33x10.50s avoid that. Expect some rubbing at full flex; some owners add radius-arm spacers."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": [
+   {
+    "title": "Front-end vibration",
+    "summary": "Wikipedia lists front-end vibration as a known Y60 weakness that was 'largely fixed under warranty'. Ask whether a truck had the fix, especially if it shimmies.",
+    "url": "https://en.wikipedia.org/wiki/Nissan_Patrol#Y60"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1987",
+   "change": "Y60 launches in Japan as the Safari (October/November). It's the first Patrol on coil springs: three-link live front axle, five-link rear on wagons. TD42 diesel and TB42 petrol 4.2 L sixes",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "Australian (GQ) launch. Spanish production begins in Barcelona for Europe, where it's sold as the Patrol GR. Ford sells a rebadged version in Australia as the Maverick until 1994. Four-speed automatic added",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "Japan gets the 7-seat Safari wagon, the TB42E and the turbo TD42T. In Australia the rear lamps move into the bumper to meet ADRs, but not on European trucks",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "Australian GQ Series 2: fuel injection for the TB42, oil cooler and EGR for the RD28T, bigger brakes and wheels, standard limited-slip diff and auto-free-wheeling hubs, side-intrusion bars",
+   "flag": "buy"
+  },
+  {
+   "year": "1993",
+   "change": "From August, the TD42 is lightened to save fuel and rev higher, which weakens it. Early 'Silvertop' engines are the ones to want; later ones have a black rocker cover. Wikipedia's engine article dates the colour change to around 1995",
+   "flag": "avoid"
+  },
+  {
+   "year": "1994",
+   "change": "Minor facelift with a new grille. Coil-sprung rear axle becomes an option on the utility, which previously had leaf springs",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "2.8 L RD28T turbo-diesel and the RX grade arrive in Australia. In Japan, Autech launches the Safari Adieu, a high-roof hearse conversion",
+   "flag": "note"
+  },
+  {
+   "year": "1996–1997",
+   "change": "Europe gets the LW, a lightweight-body version built for off-road championships. Wagons give way to the Y61 from late 1997; Australian UY60 cab-chassis sales run to 1999",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Nissan never sold a Y60 new in the US, so every American truck is a gray import from Japan, Australia, Europe or the Gulf. The badge, the steering side and the engine all depend on where the truck came from.",
+  "items": [
+   {
+    "head": "Four names, one truck",
+    "body": "Y60 is Nissan's series code. Australians call it the GQ, Europe calls it the Patrol GR, and Japan sold it as the Safari. Ford Australia sold a rebadged version as the Maverick from 1988 to 1994."
+   },
+   {
+    "head": "Japanese chassis codes",
+    "body": "Codes seen on Japanese catalogues and preserved trucks include VRY60 (short hardtop, 2,400 mm wheelbase), VRGY60 (long 'Extra Van' and Granroad, 2,970 mm), WGY60 (Kingsroad extra-high-roof wagon), WYY60 (RD28T short hardtop, e.g. Spirit Type II) and UY60 (Australian cab-chassis)."
+   },
+   {
+    "head": "Which TD42",
+    "body": "Early naturally aspirated TD42s have a silver rocker cover ('Silvertop'). Turbo engines and later lightened engines are black ('Blacktop'). Owners prefer the early engine, so check before you pay Silvertop money."
+   },
+   {
+    "head": "Lockers and winch",
+    "body": "Most Y60s have a rear limited-slip diff. Some have a vacuum- or electric-solenoid rear diff lock, and some have a PTO-driven front winch with a control lever to the right of the gear stick. Look for the switch and the lever rather than trusting the ad."
+   },
+   {
+    "head": "24-volt Safaris",
+    "body": "Japanese Safaris were available with a 24 V electrical system instead of 12 V. That matters for every bulb, starter and accessory you buy, so check which one you have."
+   },
+   {
+    "head": "Market tells",
+    "body": "Spanish-built European trucks are left-hand drive and kept their rear lamps in the body. Australian trucks moved them into the bumper from 1991, and from 1994 they gained extra indicators on the front quarter panels."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,800 kg (6,173 lb) braked / 750 kg (1,653 lb) unbraked",
+   "note": "1997 Australian ST, 4.2 L petrol manual"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "95 L (25.1 US gal)",
+   "note": "1997 ST per CarExpert. Wikipedia gives 100 L for wagons, plus an optional 100 L second tank on the utility."
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,100 kg (4,630 lb)",
+   "note": "1997 ST. A 1991 Japanese Granroad is 2,110 kg."
+  },
+  {
+   "k": "Turning circle",
+   "v": "13.4 m (44 ft)",
+   "note": "kerb to kerb, 1997 ST"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,400 mm (94.5 in) SWB / 2,970 mm (116.9 in) LWB"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Every US Y60 is a 25-year gray import, and prices are still far below an 80 Series Land Cruiser's. Clean, unmodified diesel wagons with paperwork bring the most, and so do well-built modified trucks.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–9k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$12k–20k"
+   },
+   {
+    "cond": "Excellent / well modified",
+    "range": "$21k–31k (modified builds to about $42k)"
+   }
+  ],
+  "note": "Based on 17 Y60 Bring a Trailer sales from May 2022 to October 2026. Prices ran from a $5,000 1988 Safari Granroad turbo-diesel to a $41,500 modified 1993 TD42 turbo wagon. A 1996 Patrol GR SLX turbo-diesel sold for $23,000, and swap trucks (a Barra six and a 6.0 L V8) went for $21k–22k. Fire-truck Safaris sell for $8.5k–26.5k."
+ },
+ "import": {
+  "paragraphs": [
+   "Nissan never sold the Patrol new in the United States; the closest relatives sold there are the much later Y62-based Infiniti QX56/QX80 and Armada. Every US Y60 is a gray import: right-hand-drive Japanese Safaris, Australian GQs, left-hand-drive Spanish-built European Patrol GRs and Gulf trucks.",
+   "Since 1989, NHTSA has exempted vehicles at least 25 years old (counted from the vehicle's own manufacture date) from its safety standards, so every Y60 now qualifies. The EPA has a separate exemption (Form 3520-1, code E) for vehicles at least 21 years old in original, unmodified configuration. Replacement engines don't qualify unless they're the same engine model as originally fitted, or an engine and aftertreatment from a certified vehicle no older than the one being imported. That matters for the TD42-swapped GR, Barra-swapped and V8-swapped Patrols that turn up at auction.",
+   "California's emissions rules make registering an overseas classic difficult there even when the federal rules are met, and other states vary. Canada uses a 15-year rule, so some Patrols reach the US by way of Canada. Check your state's titling, inspection and emissions rules before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Japanese Safari production ran from 1987 to 1997, and Spain built Patrols for Europe from 1988 to 1998.",
+  "items": [
+   {
+    "k": "Assembly",
+    "v": "Japan (Hiratsuka) and Spain (Barcelona)"
+   },
+   {
+    "k": "Australian sales",
+    "v": "52,461 Y60 wagons (1987–1997) and 18,248 UY60 cab-chassis (1988–1999), per Nissan Australia's figures"
+   },
+   {
+    "k": "Body styles",
+    "v": "3-door SWB wagon, 5-door wagon/van (standard, high and extra-high roof), 2-door cab-chassis and pickup"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Ford Maverick",
+    "years": "1988–1994",
+    "note": "Australian rebadge sold by Ford under the Button car plan"
+   },
+   {
+    "name": "Safari Kingsroad",
+    "years": "from August 1993",
+    "note": "Top Japanese grade: extra-high-roof wagon with leather seats (E-WGY60)"
+   },
+   {
+    "name": "Safari Autech Adieu",
+    "years": "1995",
+    "note": "Japan-only Autech conversion of high-roof Granroad/Kingsroad wagons for use as a hearse"
+   },
+   {
+    "name": "Patrol LW",
+    "years": "1996–1997",
+    "note": "European lightweight body, 50 kg lighter and 40 mm smaller, built for off-road championships"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/",
+   "note": "Founded in 1976. Owns a 94-hectare property near Windellama (Goulburn region) and runs driver training and tag-along trips. All makes welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Nissan Patrol",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+   "name": "Wikipedia — Nissan TD engine",
+   "url": "https://en.wikipedia.org/wiki/Nissan_TD_engine"
+  },
+  {
+   "name": "Wikipedia — Ford Maverick (Patrol Y60 rebadge, 1988–1994)",
+   "url": "https://en.wikipedia.org/wiki/Ford_Maverick"
+  },
+  {
+   "name": "JDM Buy Sell — Nissan Patrol Y60 buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y60/"
+  },
+  {
+   "name": "Koleso.ee — Nissan Patrol Y60 (1988–1998) wheel and tyre fitment",
+   "url": "https://koleso.ee/en/valuveljed/nissan/patrol/3463/y60-1988-1998/6903"
+  },
+  {
+   "name": "CarExpert — 1997 Nissan Patrol ST 4.2L petrol manual price & specs",
+   "url": "https://www.carexpert.com.au/nissan/patrol/1997-st-4-2l-suv-4x4-petrol-manual-jj8ks8ok19960820"
+  },
+  {
+   "name": "NissanPatrol.com.au forum — Mud tyre size for GQ",
+   "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-30409.html"
+  },
+  {
+   "name": "Bring a Trailer — Nissan Patrol auction results",
+   "url": "https://bringatrailer.com/nissan/patrol/"
+  },
+  {
+   "name": "Wikipedia — Grey import vehicle (US 25-year rule)",
+   "url": "https://en.wikipedia.org/wiki/Grey_import_vehicle"
+  },
+  {
+   "name": "US EPA — Form 3520-1 (2024-08), exemption code E for vehicles 21+ years old",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/"
+  }
+ ]
+}

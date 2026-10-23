@@ -188,7 +188,7 @@
   {
    "title": "EAS valve block reseal and compressor rebuild",
    "diff": "3 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "O-ring and piston-seal kits are cheap. Most of the cost is your time",
    "symptoms": "The truck sags overnight, the compressor runs for a long time or keeps cycling, the reservoir is slow to fill, or there's an audible hiss from the valve block or silencer.",
    "fix": "Remove the valve block and compressor (the EAS box is on the left side of the engine bay). Spray soapy water over the solenoids and fittings while the system is under pressure to find the leaks. Replace the solenoid O-rings and the O-rings on the manual-inflation T-pieces and 8 mm lines. Check that each kit's O-ring sizes actually match. On the compressor, check the piston liner and seal, the reed valve and its shim, and the O-ring under the reed. Some owners also replace the thermal overload switch on the compressor board.",
@@ -214,7 +214,7 @@
   {
    "title": "Air spring replacement",
    "diff": "2 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Aftermarket springs under £100 each. About £350 genuine",
    "symptoms": "One corner drops after parking, cracked or bulging bellows when the truck is at full height, or EAS faults that come back after you clear them.",
    "fix": "Raise the truck and support the chassis securely on stands. Never leave it resting on a deflated spring. Depressurise the spring (the system runs at about 10 bar / 150 psi), clean around the fitting, and cap the line. Release the spring's retaining clips and fixings and swap in the new spring. Lower the chassis onto it and refit the clips. Reconnect the line, reinflate, and leak-test with soapy water. Off-roaders often choose uprated springs such as Arnott's Gen III.",
@@ -240,7 +240,7 @@
   {
    "title": "Heater matrix O-rings (wet footwell)",
    "diff": "3 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "O-rings are pennies. A new matrix runs from about £60 (Bearmach) to about £400 (genuine Valeo)",
    "symptoms": "Wet carpet beside the transmission tunnel that smells or tastes sweet, a misting windscreen, or a coolant level that keeps dropping.",
    "fix": "Start with the O-rings at the matrix pipe connection, which go brittle after 15–20 years. Owners report the pipes come out without removing the dash. The retaining screw is often seized, so put grinding paste on the screwdriver tip, or drill the head off if you have to. Don't overtighten on reassembly, because the joint has to move with heat. If the matrix itself leaks, replacing it means pulling the dash and console. Pressure-test the old and new cores at about 20 psi, and test them hot. Clear the drain under the core while you're in there.",
@@ -261,7 +261,7 @@
   {
    "title": "Blend motor diagnosis",
    "diff": "3 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Motors come pre-wired in a three-pack. Owners quote dealer repairs close to $2,000",
    "symptoms": "Hot air on one side and cold on the other, a 'book' symbol on the climate display, or temperature that doesn't change.",
    "fix": "Do the cheap checks first: blower and blend-motor relays, clogged pollen filters, and coolant level and bleeding. If a motor runs on direct voltage but won't move its flap, the flap may be jammed by a warped plenum, or the motor's internal potentiometer may be worn. Owners use a Nanocom's 'calibrate flaps' function after fitting new motors. As a winter stopgap, one owner unplugged a dead motor and set its flap open by hand.",
@@ -282,7 +282,7 @@
   {
    "title": "XYZ gear-position switch alignment",
    "diff": "2 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "About $100 for the alignment tool, plus a switch if yours has failed",
    "symptoms": "'Select Neutral' or gearbox-fault messages during range changes, wrong gear indication, or the transfer box refusing to change range.",
    "fix": "The transmission ECU reads the transfer-box motor position as a Gray code, so check the motor harness and its earth first. Then check the XYZ (inhibitor/gear-position) switch on the auto gearbox. Set it with the dealer alignment tool LRT-44-011 rather than by eye. Atlantic British has reissued that tool and published a video of the procedure.",

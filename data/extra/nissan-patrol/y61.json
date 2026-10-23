@@ -1,0 +1,315 @@
+{
+ "fitment": {
+  "stock": [
+   "235/80R16 on 6x16 steel (base fitment)",
+   "275/70R16 on 16x8 alloy (2003 Australian ST)",
+   "275/65R17 on 17x8 alloy (2012 ST; 2016 Legend Edition)",
+   "265/75R16 (Australian cab-chassis)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "about +35 mm (6x16 steel); about +10 mm (8x16 and 8x17 alloy)",
+   "center_bore": "110.1 mm",
+   "lug_thread": "M12x1.25",
+   "lug_torque": "118–147 N·m (87–108 lb-ft)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/75R16 (popular); 285/75R16 fits",
+    "note": "ExplorOz owners call 265/75R16 the best size for a stock GU. Others run 285/75R16 (about 33 in) on stock height without trouble."
+   },
+   {
+    "lift": "2 in",
+    "size": "285/75R16 or 33-inch",
+    "note": "Expect to trim or remove the front mud flaps, and the rear-door spare may need a spacer to clear the bar. 315s and 35s scrub without more lift or offset wheels."
+   },
+   {
+    "lift": "3 in",
+    "size": "285/75R16",
+    "note": "Fits fine. 315s will scrub at full lock. At 4 in, owners run 315/75R16 on wheels with about 20 mm more offset."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": [
+   {
+    "title": "ZD30 oil capacity and dipstick change",
+    "summary": "After piston failures on the 3.0 L ZD30, Nissan raised the oil fill to 8.3 L and had dealers shorten and recalibrate the dipsticks (CarsGuide). Nissan Australia specifies 10W-40 ACEA B3 oil, changed every 10,000 km or 6 months at most.",
+    "url": "https://www.carsguide.com.au/nissan/patrol/problems"
+   },
+   {
+    "title": "Common-rail ZD30 injection components",
+    "summary": "Nissan's 2007 manual lists a warranty-repair bulletin for Bosch diesel-injection components on the common-rail engine.",
+    "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y61/"
+   },
+   {
+    "title": "Dashboard blistering (Japan)",
+    "summary": "Nissan Japan extended the warranty to seven years for blistering dashboards on specified wagons built August 2004 to June 2007.",
+    "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y61/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1997",
+   "change": "Y61 (GU) launches in late 1997. Widened diff housings around the same H233/H260 centres, bigger CVs, better seats and NVH. Engines: TB45 petrol, RD28ETi turbo-diesel and naturally aspirated TD42",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "TD42T turbo-diesel added (to the ST in Australia). It's mechanically injected with no electronic engine control",
+   "flag": "buy"
+  },
+  {
+   "year": "2000",
+   "change": "GU II (April): 3.0 L four-cylinder ZD30DDTi diesel arrives with an optional automatic, and the naturally aspirated TD42 is dropped from wagons. Early ZD30s are known for piston and bottom-end failures",
+   "flag": "avoid"
+  },
+  {
+   "year": "2001",
+   "change": "GU III (October): new nose and the 4.8 L DOHC TB48DE petrol six (185 kW / 420 N·m)",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "Factory-intercooled TD42Ti arrives, with electronic injection timing from February. ST-L grade added. The TD42Ti is the most sought-after TD42",
+   "flag": "buy"
+  },
+  {
+   "year": "2004",
+   "change": "GU IV facelift (October): new headlights, box flares and larger tail lights. Wikipedia credits this refresh with fixing the ZD30's variable-geometry-turbo trouble",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "Revised TB48 (180 kW / 400 N·m), automatic only for Euro III. ZD30 Ti added in September",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "GU VI (September; there was no GU V): the common-rail ZD30 becomes the only diesel and the TD42 is gone. CarsGuide still reports piston failures on 2008–09 ZD30s",
+   "flag": "note"
+  },
+  {
+   "year": "2010–2013",
+   "change": "GU VII from early 2010. In Australia the petrol models are replaced by the Y62 in February 2013, and the diesel GU carries on alongside it",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "Australian run ends with the ST-based Legend Edition, limited to 300 units. Production for the Middle East, Africa and fleet buyers continued into 2024",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The Y61 spans more than two decades, five engine families and several plants, and the US never sold one new. Pin down the series, the engine and the build date. The build date decides whether the truck can be imported at all.",
+  "items": [
+   {
+    "head": "Names and codes",
+    "body": "Y61 is Nissan's series code. Australia calls it the GU, Japan sold it as the Safari, and Europe called it the Patrol GR. Known codes include WRGY61 (1997 Japanese TD42T wagon) and UY61 (Australian cab-chassis)."
+   },
+   {
+    "head": "Which series",
+    "body": "GU I runs from 1997 and GU II from April 2000. GU III (October 2001) brought a new nose. GU IV (October 2004) is the easy one to spot, with new headlights, boxy wheel-arch flares and larger tail lights. Later series are GU VI (September 2007) and GU VII (2010)."
+   },
+   {
+    "head": "Which engine",
+    "body": "Petrol trucks have the 4.5 L TB45 (1997–2001) or 4.8 L TB48DE (late 2001 on). Diesels are the 2.8 L RD28ETi, the 4.2 L TD42 family (naturally aspirated, then TD42T from 1999, then intercooled TD42Ti from 2003) or the 3.0 L four-cylinder ZD30. Every ZD30 carries the ZD30DDTi name, but before 2007 it used a VP44 distributor pump and from 2007 it's common-rail, so check which one you're looking at."
+   },
+   {
+    "head": "Coil or leaf rear",
+    "body": "Wagons have coil springs at both ends. Cab-chassis utes were also sold with a leaf-spring rear axle, such as the 2011 'DX (Leaf Spring) Wide Wheel' in Australia."
+   },
+   {
+    "head": "Build date for US import",
+    "body": "US eligibility runs 25 years from the vehicle's own manufacture date, not its model year. Read the build plate before money changes hands. A late-2001 GU III with a TB48 may not be legal to import yet even though the model launched that year."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 kg (7,716 lb) braked (2003 ST 4.8 L manual); 3,200 kg (7,055 lb) braked / 750 kg unbraked (2012 ST 3.0 L manual)",
+   "note": "Australian spec. The 2016 Legend Edition is rated 3,200 kg (manual) or 2,500 kg (automatic)."
+  },
+  {
+   "k": "Payload",
+   "v": "about 480 kg (1,060 lb)",
+   "note": "GVM minus kerb weight: 3,060 − 2,581 kg (2012 ST 3.0) and 3,000 − 2,516 kg (2003 ST 4.8)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "95 L main plus 30–36 L sub-tank (25.1 + 7.9–9.5 US gal)",
+   "note": "2003 and 2012 Australian ST; the Middle East Super Safari has a 40 L sub-tank"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "210 mm (8.3 in)",
+   "note": "unladen, Australian ST"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "37° / 31°",
+   "note": "Australian ST"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "10.9 L/100 km combined (about 21.6 US mpg)",
+   "note": "ADR 81/02, 2012 ST 3.0 L diesel manual"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,516 kg (5,547 lb) for the 2003 ST 4.8; 2,581 kg (5,690 lb) for the 2012 ST 3.0"
+  },
+  {
+   "k": "Turning circle",
+   "v": "12.5 m (41 ft)",
+   "note": "kerb to kerb, LWB wagon"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The Y61 is only just becoming legal in the US, so there are very few American sales so far. The ones that have sold are late-1990s Japanese and Gulf trucks bringing driver money.",
+  "ranges": [
+   {
+    "cond": "Project / non-running",
+    "range": "about $5k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$13k–17k"
+   }
+  ],
+  "note": "Based on four 1998–99 Bring a Trailer sales from 2023 to 2026: $5,300 for a Gulf Super Safari whose automatic wouldn't engage forward gears, $12,900 for a Japanese TD42 turbo automatic, $14,250 for a TB45 Granroad and $16,600 for an ex-US-Embassy 1999 Safari 5-speed. A 1998 LHD TD42 manual and a 1998 European GR SE turbo-diesel failed to sell at $13.5k and $15.5k. There's too little data yet for an 'excellent' band."
+ },
+ "import": {
+  "paragraphs": [
+   "Nissan never sold the Y61 new in the US. Its successor platform reached Americans only as the Infiniti QX56/QX80 and, from 2017, the Armada. Every US Y61 is a gray import.",
+   "NHTSA's exemption covers vehicles at least 25 years old, counted from each truck's manufacture date. As of October 2026, that means trucks built up to about October 2001: GU I and GU II wagons with the TB45, RD28, TD42, TD42T and early VP44 ZD30. The first TB48s (late 2001) are only just becoming eligible. The intercooled TD42Ti (2003) won't qualify until 2028, and GU IV facelift trucks (October 2004) not until late 2029. The EPA's separate exemption (Form 3520-1, code E) requires the vehicle to be at least 21 years old and in original configuration; a replacement engine must be the same model as originally installed.",
+   "California's emissions rules make registering an overseas vehicle difficult there even when the federal rules are met, and other states vary. Canada's 15-year rule means newer Y61s are already legal north of the border, which doesn't make them legal to bring into the US. Check your state's titling and emissions rules before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Production started in October 1997, and the Y61 outlived its Y62 replacement in many markets. It was still being built for Middle East, African and fleet buyers in 2024.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "October 1997–2024 (Australia to 2016)"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Nissan Shatai), Spain (Barcelona, 1998–2009), South Africa (Rosslyn, 2001–2024), Philippines (Santa Rosa, 2000–2018), Pakistan (Karachi, 2005–2012), Morocco (Tangier, 2009–2024)"
+   },
+   {
+    "k": "Australian sales",
+    "v": "104,510 wagons and 37,112 UY61 cab-chassis to October 2016, per Nissan Australia's figures"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Legend Edition",
+    "years": "2016",
+    "note": "Australia's farewell edition: ST-based, limited to 300, with bull bar, winch, tow bar, roof rack and snorkel"
+   },
+   {
+    "name": "Super Safari",
+    "years": "Middle East",
+    "note": "Seven-seat TB48 wagon with rear diff lock, VDC, electric winch, sunroof and tan leather. Special editions included the Falcon, Gazelle and Al Ostoura."
+   },
+   {
+    "name": "Presidential and 4XPRO",
+    "years": "Philippines",
+    "note": "Regional special editions"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/",
+   "note": "Founded in 1976. Owns a 94-hectare property near Windellama (Goulburn region) and runs driver training and tag-along trips. All makes welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Nissan Patrol",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+   "name": "Wikipedia — Nissan TD engine",
+   "url": "https://en.wikipedia.org/wiki/Nissan_TD_engine"
+  },
+  {
+   "name": "Wikipedia — Nissan TB engine",
+   "url": "https://en.wikipedia.org/wiki/Nissan_TB_engine"
+  },
+  {
+   "name": "Wikipedia — Nissan ZD engine",
+   "url": "https://en.wikipedia.org/wiki/Nissan_ZD_engine"
+  },
+  {
+   "name": "JDM Buy Sell — Nissan Patrol Y61 buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y61/"
+  },
+  {
+   "name": "GoAuto — Nissan Patrol review (includes Y61 GU series history)",
+   "url": "https://web1.goauto.com.au/car-reviews/nissan/patrol/wagon/2013-02-05/5001.html"
+  },
+  {
+   "name": "CarsGuide — Nissan Patrol problems",
+   "url": "https://www.carsguide.com.au/nissan/patrol/problems"
+  },
+  {
+   "name": "Koleso.ee — Nissan Patrol Y61 (1997–2004) wheel and tyre fitment",
+   "url": "https://koleso.ee/en/valuveljed/nissan/patrol/3463/y61-1997-2004/6904"
+  },
+  {
+   "name": "CarExpert — 2003 Nissan Patrol ST 4.8L petrol manual price & specs",
+   "url": "https://www.carexpert.com.au/nissan/patrol/2003-st-4-8l-suv-4x4-petrol-manual-jj8ks8ok20040506"
+  },
+  {
+   "name": "CarExpert — 2012 Nissan Patrol ST 3.0L diesel manual price & specs",
+   "url": "https://www.carexpert.com.au/nissan/patrol/2012-st-3l-suv-4x4-diesel-manual-jj8kw8wg20120206"
+  },
+  {
+   "name": "ExplorOz forum — Nissan Patrol's tires",
+   "url": "https://www.exploroz.com/forum/3667/nissan-patrols-tires"
+  },
+  {
+   "name": "ExplorOz forum — Will 35's fit under a GU with 2\" lift??",
+   "url": "https://www.exploroz.com/forum/45108/will-35s-fit-under-a-gu-with-2-lift"
+  },
+  {
+   "name": "NissanPatrol.com.au forum — 31inch to 33inch",
+   "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-25484.html"
+  },
+  {
+   "name": "ExplorOz forum — Patrol steel wheel nut tension",
+   "url": "https://www.exploroz.com/forum/72073/patrol-steel-wheel-nut-tension"
+  },
+  {
+   "name": "NissanPatrol.com.au forum — Alloy rims and wheel nuts (GU Patrol)",
+   "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-5066.html"
+  },
+  {
+   "name": "Bring a Trailer — Nissan Patrol auction results",
+   "url": "https://bringatrailer.com/nissan/patrol/"
+  },
+  {
+   "name": "Wikipedia — Grey import vehicle (US 25-year rule)",
+   "url": "https://en.wikipedia.org/wiki/Grey_import_vehicle"
+  },
+  {
+   "name": "US EPA — Form 3520-1 (2024-08), exemption code E for vehicles 21+ years old",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/"
+  }
+ ]
+}

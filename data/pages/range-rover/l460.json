@@ -169,7 +169,7 @@
   {
    "title": "Rear brake pads (electric parking brake service mode)",
    "diff": "2 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Parts plus labor",
    "symptoms": "A pad-wear warning (one owner's P440e needed rear pads at 31,000 miles, another owner's at 16,000), or grinding at the rear.",
    "fix": "The rear calipers use an electric parking brake, so put the brake into service (maintenance) mode before you push the pistons back. Shops do this with a scan tool. With the truck supported and the wheels off, remove the caliper, swap the pads (one owner fitted genuine pads and found a single wear sensor), refit, then take the brake out of service mode and check it applies properly.",
@@ -195,7 +195,7 @@
   {
    "title": "12-volt battery replacement and BMS registration",
    "diff": "3 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Auxiliary stop/start battery about $288 (Lucky8); parts plus labor",
    "symptoms": "'Low battery, please start engine' messages, a truck that is electrically dead after a few days parked, or alarm and keyless-entry glitches.",
    "fix": "First rule out software (door-module and RFA updates have fixed some drains) and anything keeping the car awake. Then load-test the 12-volt battery. On a 2024 D350, one owner found the lithium-ion starter battery under the driver's seat, only removable with the truck on a ramp. A label under the bonnet says to jump-start at no more than 13.7 V, so don't use a random jump pack. Fit the correct battery type and register it with a diagnostic tool so the battery-management system charges it properly. Some trucks also carry an AGM auxiliary stop/start battery. Check fitment by VIN.",
@@ -221,7 +221,7 @@
   {
    "title": "48 V to 12 V DC-DC converter",
    "diff": "4 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Specialist roughly £700–800 for the part plus about £400 to fit and program; dealers quoted £1,800–2,000 (owner reports)",
    "symptoms": "'Stop – electrical fault detected' with a red battery light, the 12-volt battery not charging, and possibly loss of drive. Often no stored faults, and it may clear itself before coming back.",
    "fix": "Check first whether NHTSA recall 26V248000 (US) has been done. It adds a central software update to stop the converter overloading, and it's free. If the converter has already failed, it has to be replaced and then programmed to the vehicle, so use a dealer or a JLR specialist with the right software. Parts have been back-ordered, so plan on the truck being off the road for a while.",
@@ -237,7 +237,7 @@
   {
    "title": "Transfer box and driveline oil change",
    "diff": "2 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Genuine fluid about £106 + VAT for 2 litres (owner report), plus labor",
    "symptoms": "Preventive. Owners suggest doing the transfer box at around 60,000 miles, along with the ZF gearbox and both differentials.",
    "fix": "Drain and refill the transfer box with about 2 litres of the fluid Land Rover specifies. Owners argue about cheaper alternatives, and one experienced member insists a generic transfer fluid is the wrong oil for the L460, so check the handbook rather than forum advice. One owner notes the front-axle disconnect clutch uses the same fluid as the active rear differential.",
@@ -258,7 +258,7 @@
   {
    "title": "Engine oil and filter (shorter interval)",
    "diff": "2 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "Parts only if DIY",
    "symptoms": "None. Owners just don't trust a 20,000-mile interval, and the 2024 model-year D350 schedule dropped to 10,500 miles or 12 months.",
    "fix": "Drain the sump, replace the cartridge filter and refill with the specified oil, then reset the service counter with a scan tool. Lubricate both sealing rings on the filter's neck, because a dry filter can twist on installation. Many owners on FullFatRR change oil well ahead of the onboard reminder.",
@@ -284,7 +284,7 @@
   {
    "title": "Factory-style tow hitch and wiring",
    "diff": "3 / 5",
-   "time": "[TO RESEARCH]",
+   "time": "Varies",
    "cost": "About $1,288 (genuine NAS hitch) to $1,628 (Lucky8 receiver + wiring combo)",
    "symptoms": "No receiver, and you have a 7,716 lb-rated truck and a trailer.",
    "fix": "Fit the receiver to the rear structure, run the towing harness, install the towing module (ECU) and fit the bumper trim finisher. The Lucky8 combo fits SWB trucks only, and the supplier needs the VIN because trucks with and without a third row, and different trim colours, take different parts.",
