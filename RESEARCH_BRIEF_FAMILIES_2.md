@@ -31,3 +31,6 @@ Use `[[family/slug|text]]`. The existing families are `4runner`, `bronco`, `g-cl
 
 ## Final reply
 For each page, give the counts per section and anything you couldn't verify. For pages in existing families, include the generation entry JSON.
+
+## Manuals: what you may link
+Never link factory manuals hosted on archive.org or other user-uploaded scan sites; they are probably unauthorized copies. You may use their figures, but cite the manual by name in `sources` with no `url` key. Manufacturer-hosted owner manuals and legitimate sellers (Helm, Faxon, the manufacturer) are fine to link.

@@ -140,7 +140,7 @@
   },
   {
    "head": "ZD30: demand oil history and check the dipstick",
-   "body": "Look for regular oil changes and the right grade: a September 2004 Nissan bulletin, quoted by owners, calls for ACEA B3 or JASO DH-1 oil with 10W-40 strongly recommended [CONFIRM INTERVAL IN MANUAL]. Fuel in the oil is bad news. One forum veteran says heavy soot within 5,000 km points to an open EGR, and another warns that factory intercoolers eventually leak, so check for oil staining. Listen for knocks on a cold start."
+   "body": "Look for regular oil changes and the right grade: a September 2004 Nissan bulletin, quoted by owners, calls for ACEA B3 or JASO DH-1 oil with 10W-40 strongly recommended. Nissan Europe's Y61 service manual schedules ZD30 oil and filter every 15,000 km or 12 months, or every 7,500 km or 6 months in severe use such as towing, dust or short trips. Check your own market's service book; many owners change it more often. Fuel in the oil is bad news. One forum veteran says heavy soot within 5,000 km points to an open EGR, and another warns that factory intercoolers eventually leak, so check for oil staining. Listen for knocks on a cold start."
   },
   {
    "head": "Cooling under load",
@@ -205,7 +205,7 @@
    "time": "≈ 2–3 hours per side",
    "cost": "Parts plus labor",
    "symptoms": "Play in the wheel when rocked top to bottom, grinding, grease on the inside of the rim, or an auto hub that runs hot after a drive.",
-   "fix": "Put the axle on stands and remove the wheel. Set the auto-locking hub to LOCK, remove its six 8 mm Allen bolts and pull the hub. Undo the two 22 mm caliper (torque member) bolts and tie the caliper out of the way. Remove the snap ring, washer and thrust ring, the lock-washer screws and lock washer, then the bearing lock nut. Pull the hub, catching the outer bearing, then lever out the seal and remove the inner bearing. Clean and repack both bearings, and fit a new seal. On reassembly, the Gregory's manual quoted on ExplorOz says to torque the lock nut to 167–196 Nm while rotating the hub, back it off, retighten to 3–5 Nm, then check the preload with a spring gauge (0–18.6 N starting force). A Lonard's procedure gives different figures, so confirm the spec in a workshop manual.",
+   "fix": "Put the axle on stands and remove the wheel. Set the auto-locking hub to LOCK, remove its six 8 mm Allen bolts and pull the hub. Undo the two 22 mm caliper (torque member) bolts and tie the caliper out of the way. Remove the snap ring, washer and thrust ring, the lock-washer screws and lock washer, then the bearing lock nut. Pull the hub, catching the outer bearing, then lever out the seal and remove the inner bearing. Clean and repack both bearings, and fit a new seal. On reassembly, the Gregory's manual quoted on ExplorOz says to torque the lock nut to 167–196 Nm while rotating the hub, back it off, retighten to 3–5 Nm, then check the preload with a spring gauge (0–18.6 N starting force). Nissan's own Y61 service manual (FA section) gives the same figures, with zero axial end play. A Lonard's procedure gives different figures, so follow the Nissan ones.",
    "tools": "8 mm Allen key · 22 mm socket and breaker bar · GU hub-nut socket · circlip pliers · seal driver (the old seal flipped over works) · wheel-bearing grease · spring gauge",
    "parts": [
     {
@@ -293,7 +293,7 @@
    "time": "≈ Half a day per side",
    "cost": "Parts plus labor",
    "symptoms": "Wet backing plate or inner rim, oily brake shoes or pads, a falling diff oil level.",
-   "fix": "Rear axle oil seals are a known GU leak. Drain or lower the diff oil, remove the wheel and brake, and undo the axle retainer. Pull the axle with a slide hammer, then replace the inner oil seal in the housing. If the bearing is rough, have the bearing and collar pressed off and on at a shop. Clean contaminated brake parts or replace them, refit the axle and refill with LSD-rated gear oil if the diff is a limited-slip. An owner quoting the Nissan workshop manual on ExplorOz gives API GL-5 SAE 140 plus LSD friction modifier [CONFIRM IN MANUAL].",
+   "fix": "Rear axle oil seals are a known GU leak. Drain or lower the diff oil, remove the wheel and brake, and undo the axle retainer. Pull the axle with a slide hammer, then replace the inner oil seal in the housing. If the bearing is rough, have the bearing and collar pressed off and on at a shop. Clean contaminated brake parts or replace them, refit the axle and refill with LSD-rated gear oil if the diff is a limited-slip. Nissan's Y61 service manual specifies Nissan Hypoid LSD gear oil (KLD31-14002), or API GL-5 SAE 140 with 10% by volume of LSD friction modifier (38469-C6000), which matches what an owner quoted on ExplorOz. A non-LSD diff takes API GL-5, with 80W-90 preferred in cold and warm climates.",
    "tools": "Slide hammer · seal puller and driver · access to a press · brake cleaner",
    "parts": [
     {
@@ -679,12 +679,12 @@
   }
  ],
  "baseline_service": {
-  "intro": "Assume nothing has been done without receipts. On a GU, the job that matters most depends on the engine. A ZD30 needs proof of frequent oil changes and the revised oil level. A TD42 needs a cooling system that can cope with towing. Every GU needs the diff, transfer and hub servicing that bush trucks skip. Driveline capacities below are handbook figures quoted by an owner. Check them against your manual, since they vary by engine and body.",
+  "intro": "Assume nothing has been done without receipts. On a GU, the job that matters most depends on the engine. A ZD30 needs proof of frequent oil changes and the revised oil level. A TD42 needs a cooling system that can cope with towing. Every GU needs the diff, transfer and hub servicing that bush trucks skip. Fluids and capacities below come from Nissan's Y61 service manual unless marked. Its maintenance schedules are the European ones, so check your own market's service book, and fill to the plug rather than by volume.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "ZD30: ACEA B3 or JASO DH-1, 10W-40 strongly recommended (Nissan bulletin, Sept 2004), revised capacity 8.3 L. TB48: owner's manual says 5W-30. Other engines: [CONFIRM IN MANUAL]",
-    "interval": "[CONFIRM IN MANUAL]. Many owners change ZD30 oil more often when towing",
+    "spec": "ZD30: ACEA B3 or JASO DH-1, 10W-40 strongly recommended (Nissan bulletin, Sept 2004), revised capacity 8.3 L. TB48: owner's manual says 5W-30. Nissan's 2002 service manual: ZD30 outside Europe API CD, CE, CF, CF-4 or JASO DH-1 (in Europe API CF-4 or ACEA B3; never API CG-4), 8.2 L with filter. TD42/TD42T: API CC to CF-4 or JASO DH-1, 10.5 L with filter. TB45: 7.6 L, and TB48DE: 6.8 L with filter (petrol API SE to SL or ILSAC). Nissan Europe's 2004 supplement prefers 5W-30 for diesels there, so the grade depends on market and climate",
+    "interval": "Nissan Europe schedule: ZD30 and TB48 every 15,000 km or 12 months, RD28 every 10,000 km or 6 months, halved in severe use such as towing, dust or short trips. Other markets: [CONFIRM IN MANUAL]. Many owners change ZD30 oil more often when towing",
     "note": "On a ZD30, confirm the dipstick has been recalibrated to the revised capacity. Sludge or grit under a cold oil filler cap is a bad sign.",
     "parts": [
      {
@@ -729,8 +729,8 @@
    },
    {
     "item": "Diesel fuel filter",
-    "spec": "[CONFIRM IN MANUAL]",
-    "interval": "Replace at purchase, then per the schedule",
+    "spec": "ZD30: spin-on filter with water-drain cock. Screw it on until it seats, then turn a further 2/3 of a turn, and bleed the air afterwards (Nissan service manual)",
+    "interval": "Replace at purchase. Nissan Europe schedule: ZD30 every 45,000 km or 36 months (every 22,500 km in dusty or extreme conditions); RD28 every 40,000 km. Drain the water trap regularly",
     "note": "Early ZD30s are known for fuel-pump and fuel-system trouble (the Bosch VP44 pump), and clean fuel is cheap insurance.",
     "parts": [
      {
@@ -776,7 +776,7 @@
    {
     "item": "Timing drive",
     "spec": "RD28: belt. ZD30 and TB45/TB48: chain. TD42: gears",
-    "interval": "RD28 belt: [CONFIRM IN MANUAL]. Replace if there's no record",
+    "interval": "RD28 belt: Nissan Europe's schedule replaces it at 80,000 km or 48 months (90,000 km for high-mileage use). Replace it if there's no record",
     "note": "Only the 2.8 RD28 has a belt to budget for. Wikipedia warns the RD's crank/balancer bolt can work loose, so use thread-locker on reassembly.",
     "parts": [
      {
@@ -788,8 +788,8 @@
    },
    {
     "item": "Coolant, radiator & fan clutch",
-    "spec": "Nissan long-life coolant [CONFIRM IN MANUAL]",
-    "interval": "Flush and refill at purchase",
+    "spec": "Ethylene-glycol Nissan Genuine Engine Coolant or equivalent (L2N in Europe), at a 50% mix (Nissan's L2N comes premixed; 50% protects to −35 °C). Capacity with front heater ≈ 12.7–13.2 L (ZD30), 15.1 L (TD42), 12.0 L (TB45), 13.0–13.8 L (TB48) (Nissan service manual)",
+    "interval": "Flush and refill at purchase. Nissan Europe: first at 90,000 km or 60 months, then every 60,000 km or 48 months",
     "note": "Clean the core, refit the condenser foam seals and check the fan clutch (about half a turn when cold). This matters most on a TD42 that tows.",
     "parts": [
      {
@@ -816,7 +816,7 @@
    },
    {
     "item": "Manual gearbox oil",
-    "spec": "≈ 3.8 L (handbook figure quoted on ExplorOz). Grade: [CONFIRM IN MANUAL]",
+    "spec": "API GL-4. Nissan's service manual lists the FS5R30A at 5.1 L (75W-90), and the FS5R50B at 3.8 L in the 1998 edition (also the handbook figure quoted on ExplorOz) but 3.5 L in the 2001–02 supplements, which give 75W-90 and then 75W-85. Check which gearbox you have before filling",
     "interval": "Change at purchase",
     "note": "Check the fifth gear and the 2nd-to-3rd shift while you're under there. Both are known weak spots.",
     "parts": [
@@ -834,7 +834,7 @@
    },
    {
     "item": "Automatic transmission fluid",
-    "spec": "≈ 3–4 L drains from the pan, about 12 L total (2001 ZD30 owner). ATF type: [CONFIRM IN MANUAL]",
+    "spec": "≈ 3–4 L drains from the pan, about 12 L total (2001 ZD30 owner). Nissan service manual: 4-speed RE4R03A 11.8 L with converter, Genuine Nissan ATF or equivalent (Dexron III/Mercon); TB48 5-speed RE5R05A 10.4–10.7 L, Nissan Matic Fluid J only",
     "interval": "One owner cites Nissan at 40,000 km for ATF",
     "note": "A pan drain changes only about a third of the fluid. Do several drain-and-fills, or have a transmission shop exchange it through the cooler line (about 16 L).",
     "parts": [
@@ -847,9 +847,9 @@
    },
    {
     "item": "Transfer case",
-    "spec": "≈ 1.9 L (handbook figure, and also quoted by a 2001 ZD30 owner as Dexron III). [CONFIRM IN MANUAL] for your gearbox",
+    "spec": "≈ 1.9 L (handbook figure, and also quoted by a 2001 ZD30 owner as Dexron III). Nissan's service manual confirms the TX12A transfer at 1.9 L, Genuine Nissan ATF (Dexron III) or API GL-4 (75W-90 preferred)",
     "interval": "Change at purchase",
-    "note": "Fluid type differs by model, so check the manual or the tag before filling.",
+    "note": "Nissan schedules it with the LSD oil: replace every 60,000 km (30,000 km when towing or on rough roads). Don't mix ATF and gear oil; drain fully if you switch.",
     "parts": [
      {
       "name": "Dexron-type ATF",
@@ -860,7 +860,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Front axle ≈ 5.4 L, rear ≈ 2.1 L (handbook figures quoted on ExplorOz). The rear is commonly an LSD: an owner quoting the workshop manual gives API GL-5 SAE 140 plus LSD friction modifier, and owners use 85W-140 LSD oil [CONFIRM IN MANUAL]",
+    "spec": "Front ≈ 5.4 L (Nissan service manual; also the handbook figure on ExplorOz). Rear: 2.1 L with LSD (outside Europe); H233B 2.4 L open or 3.0 L with diff lock; H260 4.7 L open or 3.7 L with lock (Nissan service manual; the older ExplorOz handbook figure is also 2.1 L). Open diffs take API GL-5, with 80W-90 preferred in cold and warm climates. An LSD takes Nissan Hypoid LSD gear oil (KLD31-14002) or API GL-5 SAE 140 plus 10% LSD friction modifier (38469-C6000); owners also use 85W-140 LSD oil",
     "interval": "Change at purchase and after deep water crossings",
     "note": "CarsGuide says hard-used GUs need regular diff oil changes. Note whether your rear is an H233B or an H260.",
     "parts": [
@@ -883,8 +883,8 @@
    },
    {
     "item": "Front wheel bearings, hubs & swivels",
-    "spec": "Repack with wheel-bearing grease. Gregory's procedure quoted on ExplorOz: lock nut to 167–196 Nm while rotating, back off, retighten to 3–5 Nm, preload 0–18.6 N at the hub [CONFIRM IN MANUAL]",
-    "interval": "At purchase, then about every 40,000 km or after water crossings",
+    "spec": "Repack with wheel-bearing grease. Nissan's service manual (and Gregory's, quoted on ExplorOz): lock nut to 167–196 Nm while rotating, back off to zero, retighten to 3–5 Nm twice, preload 0–18.6 N at a hub bolt, zero end play. Repack the axle joint with NLGI No. 2 lithium grease",
+    "interval": "At purchase, then Nissan Europe replaces the grease every 30,000 km on the ZD30 schedule (40,000 km on the 1998 RD28 schedule), and after water crossings",
     "note": "CarsGuide also recommends lubricating the front swivel joints on hard-used trucks. Auto hubs should be warm, not hot, after a drive.",
     "parts": [
      {
@@ -901,8 +901,8 @@
    },
    {
     "item": "Brakes & brake fluid",
-    "spec": "Brake fluid: [CONFIRM IN MANUAL] DOT rating",
-    "interval": "Flush at purchase",
+    "spec": "DOT 3 (Nissan service manual, outside Europe); DOT 3 or DOT 4 in Europe. Never mix the two",
+    "interval": "Flush at purchase, then every 2 years (Nissan Europe schedule)",
     "note": "Check for gear oil on the rear brakes from leaking axle seals, and that the calipers clear your wheels. Caliper sizes vary by year.",
     "parts": [
      {
@@ -1075,6 +1075,9 @@
   {
    "name": "Patrolapart — GU panhard rods (Series 2-on vs GQ/GU1 fitment)",
    "url": "https://patrolapart.com.au/product/roadsafe-heavy-duty-adjustable-front-panhard-rod-suits-nissan-patrol-gu2"
+  },
+  {
+   "name": "Nissan Europe — Patrol GR Y61 Electronic Service Manual (1998 edition and Supplements I–IV: MA maintenance and FA front-axle sections)"
   }
  ]
 }

@@ -85,3 +85,6 @@ Content targets for `page` (the deep example page):
 - sources: everything you used.
 
 When done, reply with a short summary: file path, number of FAQs/repairs/photos, and anything you couldn't verify.
+
+## Manuals: what you may link
+Never link factory manuals hosted on archive.org or other user-uploaded scan sites; they are probably unauthorized copies. You may use their figures, but cite the manual by name in `sources` with no `url` key. Manufacturer-hosted owner manuals and legitimate sellers (Helm, Faxon, the manufacturer) are fine to link.

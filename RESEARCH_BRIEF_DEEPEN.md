@@ -29,3 +29,6 @@ If you confirm a figure, replace the marker and add the source to `sources`. If 
 
 ## Report
 Write `reports/deepen/<your-group>.md` with each page's before → after counts (markers, repairs, FAQs, service items), every spec you confirmed with its source, and what's still open. Your final reply is a short summary and the report path.
+
+## Manuals: what you may link
+Never link factory manuals hosted on archive.org or other user-uploaded scan sites; they are probably unauthorized copies. You may use their figures, but cite the manual by name in `sources` with no `url` key. Manufacturer-hosted owner manuals and legitimate sellers (Helm, Faxon, the manufacturer) are fine to link.

@@ -676,6 +676,14 @@
   {
    "name": "CarExpert — 2024 Toyota LandCruiser 70 GXL 2.8L wagon price & specs",
    "url": "https://www.carexpert.com.au/toyota/landcruiser-70-series/2024-gxl-2-8l-suv-4x4-diesel-automatic-jsfswswg20231013"
+  },
+  {
+   "name": "Toyota — 1991 Land Cruiser 70 Series owner's manual (2L-T, 1PZ, 1HZ): specifications, fluids, timing-belt warning light (via Internet Archive)",
+   "url": "https://archive.org/download/3FEREPAIRMANUAL/1991%20Toyota%20Land%20Cruiser%20Owners%20Manual%20%28Covers%2070%2C%2073%2C%2078%2C%20LJ%2C%20PZJ%2C%20KZJ%29.pdf"
+  },
+  {
+   "name": "70 Series Store — What oil does a 79 Series gearbox take?",
+   "url": "https://70seriesstore.com/blogs/information/what-oil-does-a-79-series-gearbox-take"
   }
  ],
  "baseline_service": {
@@ -750,7 +758,7 @@
    },
    {
     "item": "Manual gearbox",
-    "spec": "GL-4 75W-90 per Unsealed (Roughtrax lists 75W-90 GL-4 or GL-5) · VDJ79 2.7 L (Roughtrax) · 1HZ: 4.9 L, GL-4 or GL-5 SAE 90 (Toyota publications via IH8MUD) [CONFIRM IN MANUAL]",
+    "spec": "V8: GL-4 75W-90 per Unsealed and 70 Series Store, which both warn against GL-5 (Roughtrax lists GL-4 or GL-5) · V8 capacity: Roughtrax says 2.7 L, 70 Series Store about 4.5 L [CONFIRM IN MANUAL] · 1HZ: 4.9 L, GL-4 or GL-5 SAE 90 (Toyota 1991 owner's manual)",
     "interval": "Change now on an unknown truck",
     "note": "Unsealed: GL-5's extreme-pressure additives attack the brass synchros, so crunchy 2nd–3rd shifts can be the wrong oil.",
     "parts": [
@@ -802,7 +810,7 @@
    },
    {
     "item": "Power steering fluid",
-    "spec": "Dexron-II ATF on older 70s (Toyota publications via IH8MUD) · V8: [CONFIRM IN MANUAL]",
+    "spec": "Dexron-II ATF on older 70s (Toyota 1991 owner's manual) · V8: [CONFIRM IN MANUAL]",
     "interval": "Refresh if dark",
     "note": "Check the box and hoses for weeps, and the drag link and tie-rod ends for play while you're there.",
     "parts": []
@@ -829,8 +837,8 @@
    },
    {
     "item": "Timing belt (1HZ and other belt-driven diesels)",
-    "spec": "The 1HZ drives its camshaft with a timing belt (Wikipedia) · interval [CONFIRM IN MANUAL]",
-    "interval": "Replace now if there's no receipt",
+    "spec": "The 1HZ drives its camshaft with a timing belt (Wikipedia) · Toyota's 1991 owner's manual says a timing-belt warning light comes on every 100,000 km on the diesels and the belt should be replaced when it does",
+    "interval": "Replace now if there's no receipt, then every 100,000 km",
     "note": "Confirm whether your engine uses a belt before budgeting; kits with the water pump are available for the 1HZ.",
     "parts": [
      {

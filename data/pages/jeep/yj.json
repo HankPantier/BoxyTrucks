@@ -275,7 +275,7 @@
    "time": "≈ A day",
    "cost": "Seal kit and oil pan gasket; shops charge mostly for labor",
    "symptoms": "Oil dripping from where the engine meets the bellhousing, and an oily transmission and crossmember. Rule out the valve cover and oil pan gaskets first, because oil runs downhill.",
-   "fix": "The AMC six uses a two-piece rear main seal that is replaced from underneath without removing the transmission. Drain the oil, remove the starter and the oil pan, and mark the rear main bearing cap so it goes back the same way. Remove both seal halves, using a pick and a thin punch to work the upper half around the crank. Install the new halves with only a dab of RTV where they meet the cap, being careful not to nick the lip (one owner had to buy a second set). Torque the cap to the factory spec [CONFIRM IN MANUAL], refit the pan with a new gasket and refill. While the pan is off, check crank end play.",
+   "fix": "The AMC six uses a two-piece rear main seal that is replaced from underneath without removing the transmission. Drain the oil, remove the starter and the oil pan, and mark the rear main bearing cap so it goes back the same way. Remove both seal halves, using a pick and a thin punch to work the upper half around the crank. Install the new halves with only a dab of RTV where they meet the cap, being careful not to nick the lip (one owner had to buy a second set). Torque the cap bolts to 80 ft-lb, the rear main bearing cap figure for the 4.0 and 4.2 in ExtremeTerrain's YJ engine torque table, refit the pan with a new gasket and refill. While the pan is off, check crank end play.",
    "tools": "Pick · thin punch · torque wrench · RTV · oil pan gasket · new oil and filter.",
    "parts": [
     {
@@ -772,6 +772,14 @@
   {
    "name": "NHTSA vPIC — VIN pattern decodes (1J4FY19P / 1J4FY19E / 1J4FY19S)",
    "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "ExtremeTerrain — Wrangler YJ engine torque specs",
+   "url": "https://www.extremeterrain.com/wrangler-yj-engine-torque-specs.html"
+  },
+  {
+   "name": "ExtremeTerrain — Wrangler YJ drivetrain torque specs",
+   "url": "https://www.extremeterrain.com/wrangler-yj-drivetrain-torque-specs.html"
   }
  ],
  "baseline_service": {
@@ -810,7 +818,7 @@
    },
    {
     "item": "Spark plugs, cap & rotor",
-    "spec": "Plug torque [CONFIRM IN MANUAL]: ExtremeTerrain's 1997–2006 table gives 27 ft-lb for the 2.5 and 4.0; no YJ-specific figure verified",
+    "spec": "Plug torque 27 ft-lb for all YJ engines (ExtremeTerrain's YJ engine torque table, matching its 1997–2006 TJ table)",
     "interval": "Every 30,000 mi (Haynes)",
     "note": "Both the 4.2 and 4.0 in the YJ use a distributor. Haynes lists inspecting the plug wires, cap and rotor on 2003-and-earlier models, so do them with the plugs.",
     "parts": [
@@ -869,7 +877,7 @@
     "item": "Automatic transmission (999 / 32RH / 30RH)",
     "spec": "Mopar ATF of the type on the dipstick or in the manual [CONFIRM IN MANUAL] · total capacity 8.3 qt TF999, 17.1 pints 32RH, 7 qt 30RH (Quadratec chart); a pan drop takes much less",
     "interval": "Every 30,000 mi, or 12,000 mi in severe use (Haynes)",
-    "note": "Change the pan filter at the same time. ExtremeTerrain's TJ table gives 35 in-lb for the 30RH/32RH filter screws [CONFIRM IN MANUAL for YJ].",
+    "note": "Change the pan filter at the same time. ExtremeTerrain's YJ torque table gives 35 in-lb for the 30RH/32RH filter screws and 14 ft-lb for the pan bolts.",
     "parts": [
      {
       "name": "YJ driveline parts",
@@ -882,7 +890,7 @@
     "item": "Transfer case (NP207 / NP231)",
     "spec": "ATF (ExtremeTerrain lists ATF+3 or ATF+4 for the NP231) · NP231 2.2 pints, NP207 4.4 pints (Quadratec chart) · fill until it runs out of the fill hole",
     "interval": "Every 30,000 mi (Haynes)",
-    "note": "ExtremeTerrain's TJ table gives 15–25 ft-lb for NP231 drain and fill plugs [CONFIRM IN MANUAL]. Inspect the output seals: Quadratec lists them among common leaks.",
+    "note": "ExtremeTerrain's YJ torque table gives 15–25 ft-lb for the NP231 drain and fill plugs. Inspect the output seals: Quadratec lists them among common leaks.",
     "parts": [
      {
       "name": "Crown NP231 transfer case overhaul kit, 87–06 YJ & TJ",

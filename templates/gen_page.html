@@ -266,7 +266,7 @@
 
       {% set all_sources = (p.sources or []) + (x.sources or []) %}
       {% if all_sources %}
-      <section class="sources"><span class="eyebrow">Sources</span>{% for s in all_sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}</section>
+      <section class="sources"><span class="eyebrow">Sources</span>{% for s in all_sources %}{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}<span>{{ s.name }}</span>{% endif %}{% endfor %}</section>
       {% endif %}
     </div>
 

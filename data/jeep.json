@@ -579,7 +579,7 @@
     "time": "≈ 2–3 hours for both sides",
     "cost": "Bearings, races and seals [price not sourced]",
     "symptoms": "Play at the top and bottom of the tire, growling that changes when you turn, grease flung inside the rim, or hubs that won't engage. The stock five-bolt Warn hubs on 1981–86 CJs are weak, and Quadra-Trac trucks have drive plates rather than hubs.",
-    "fix": "Remove the hub, the outer nut, lock washer and inner nut, then pull the rotor and catch the outer bearing. Clean everything, replace bearings and races as pairs, and press the new races in square. Seals come in two sizes (2 1/8 in and 2 5/16 in), so measure the old one first. Pack the bearings fully and tighten the inner nut to 50 ft-lb while turning the rotor to seat them, as the manuals quoted in the Off-Road.com thread say. Then back it off (one owner backs off about 1/6 turn), fit the lock washer and torque the outer nut [outer-nut torque: CONFIRM IN MANUAL], and check end play: the manuals quoted there specify 0.001–0.005 in with a dial indicator. If the six spindle bolts come out, replace the needle bearing inside the spindle too.",
+    "fix": "Remove the hub, the outer nut, lock washer and inner nut, then pull the rotor and catch the outer bearing. Clean everything, replace bearings and races as pairs, and press the new races in square. Seals come in two sizes (2 1/8 in and 2 5/16 in), so measure the old one first. Pack the bearings fully and tighten the inner nut to 50 ft-lb while turning the rotor to seat them, as the manuals quoted in the Off-Road.com thread say. Then back it off (one owner backs off about 1/6 turn), fit the lock washer and torque the outer locknut to 50 ft-lb and bend the lock-washer lip over it (1981 Jeep factory service manual; the inner nut is set the same way there, 50 ft-lb then back off 1/6 turn), and check end play: the manuals quoted there specify 0.001–0.005 in with a dial indicator. If the six spindle bolts come out, replace the needle bearing inside the spindle too.",
     "tools": "Hub/spindle-nut socket · torque wrench · bearing packer (optional) · race driver or long bolt · brake cleaner · high-quality wheel-bearing grease.",
     "parts": [
      {
@@ -674,7 +674,7 @@
    },
    {
     "q": "What fluids does it take?",
-    "a": "ExtremeTerrain's CJ guide lists 80W-90 gear oil for the Dana 30 (1.25 qt), AMC 20 (2.4 qt; add 4 oz of limited-slip additive for Trac-Lok), Dana 300 (2 qt) and Dana 20 (1.6 qt). Quadra-Trac needs its own transfer case fluid (2.25 qt). The T-176, SR-4, T-150 and T-18 take 80W-90; ExtremeTerrain lists ATF+4 for the T-4 and T-5 and for the automatics (the TH400 is a GM unit, so check your manual before filling it) [CONFIRM IN MANUAL]. Brakes take DOT 3. The 258 takes about 6 quarts of oil including the filter, per ExtremeTerrain and a 1984 owner's manual quoted on JeepCJ.com, and about 10.5 qt of coolant (ExtremeTerrain).",
+    "a": "ExtremeTerrain's CJ guide lists 80W-90 gear oil for the Dana 30 (1.25 qt), AMC 20 (2.4 qt; add 4 oz of limited-slip additive for Trac-Lok), Dana 300 (2 qt) and Dana 20 (1.6 qt). Quadra-Trac needs its own transfer case fluid (2.25 qt). The T-176, SR-4, T-150 and T-18 take 80W-90; ExtremeTerrain lists ATF+4 for the T-4 and T-5 and for the automatics, while the 1981 Jeep factory manual calls for Dexron or Dexron II in the 999 and 904 automatics and SAE 85W-90 GL-5 in the axles, the manual gearboxes and the Dana 300. The T-4/T-5 and the TH400 (a GM unit) aren't covered there, so check your manual before filling them [CONFIRM IN MANUAL]. Brakes take DOT 3. The 258 takes about 6 quarts of oil including the filter, per ExtremeTerrain and a 1984 owner's manual quoted on JeepCJ.com, and about 10.5 qt of coolant (ExtremeTerrain).",
     "src": "EXTREMETERRAIN · JEEPCJ.COM"
    },
    {
@@ -1152,6 +1152,9 @@
    {
     "name": "Offroaders.com — AMC 150 I4",
     "url": "https://www.offroaders.com/tech/jeep/engine-factory-150i4.htm"
+   },
+   {
+    "name": "Jeep — 1981 Jeep Technical Service Manual (Chapter B maintenance schedules and lubricant chart; front hub service)"
    }
   ],
   "baseline_service": {
@@ -1160,7 +1163,7 @@
     {
      "item": "Engine oil & filter (258 I6)",
      "spec": "About 6 qt including the filter, per a 1984 CJ-7 owner's manual quoted on JeepCJ.com · ExtremeTerrain lists 5W-30 or 10W-30 for CJ engines",
-     "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+     "interval": "Then every 7,500 mi or 7.5 months after a first change at 5,000 (1981 Jeep factory schedule). Many owners use 3,000–5,000 mi on an old carbureted six",
      "note": "Owners report 5 to 5.5 qt reaching FULL depending on the pan and filter, so fill to 5, run it, then top up on the dipstick. The 304 V8 takes 5 qt and the 2.5 four takes 4 qt (ExtremeTerrain). The MFK16 and MFK18 kits below are for 304 and 2.5L trucks, not the 258.",
      "parts": [
       {
@@ -1196,7 +1199,7 @@
     {
      "item": "Fuel filter",
      "spec": "In-line filter, 4.2L",
-     "interval": "Replace now [CONFIRM IN MANUAL]",
+     "interval": "Replace now; the 1981 factory schedule replaces it at 12,500 mi, then every 15,000 mi",
      "note": "Rust from an old tank clogs the filter and the BBD's idle circuits, which is often the real cause of a 'carb problem'.",
      "parts": [
       {
@@ -1209,7 +1212,7 @@
     {
      "item": "Spark plugs, cap, rotor & wires",
      "spec": "Plug part numbers change by year: Crown 4318137 for 1978–80 4.2L, 4318138 for 1981–90",
-     "interval": "Replace now, then every 30,000 mi [CONFIRM IN MANUAL]",
+     "interval": "Replace now, then every 30,000 mi (1981 Jeep factory schedule)",
      "note": "Fresh ignition parts are the cheap first step before blaming the carb.",
      "parts": [
       {
@@ -1232,7 +1235,7 @@
     {
      "item": "Coolant, hoses & thermostat",
      "spec": "50/50 conventional (IAT) green coolant · 258 (4.2): 10.5 qt · 304 V8: 14.5 qt · 151 Iron Duke: 7.8 qt · AMC 150: 11 qt (ExtremeTerrain)",
-     "interval": "Flush now, then per the manual [CONFIRM IN MANUAL]",
+     "interval": "Flush now. The 1981 factory schedule changes coolant at 12,500 mi or 12.5 months, then at the start of each winter season, keeping a 50/50 mix",
      "note": "Old CJs run warm with partly blocked radiators. Flush the block, replace both radiator hoses and the thermostat, and pressure-test the cap.",
      "parts": [
       {
@@ -1280,8 +1283,8 @@
     },
     {
      "item": "Automatic transmission (if fitted)",
-     "spec": "ExtremeTerrain lists ATF+4 · TF999/TF904: 3 qt service fill · TH400 (Quadra-Trac trucks): 6 qt service fill · TH400 is a GM unit: confirm fluid type [CONFIRM IN MANUAL]",
-     "interval": "Pan drop, filter and refill now",
+     "spec": "ExtremeTerrain lists ATF+4; the 1981 Jeep factory manual specifies Dexron or Dexron II for the 999 and 904 · TF999/TF904: 3 qt service fill · TH400 (Quadra-Trac trucks): 6 qt service fill · TH400 is a GM unit: confirm fluid type [CONFIRM IN MANUAL]",
+     "interval": "Pan drop, filter and refill now, then every 25,000 mi (10,000 mi in heavy-duty use) per the 1981 factory schedule",
      "note": "A service fill replaces only part of the fluid, so do a second drain-and-fill if the old fluid is dark or burnt.",
      "parts": [
       {
@@ -1293,7 +1296,7 @@
     },
     {
      "item": "Transfer case",
-     "spec": "Dana 300: 80W-90, 2 qt · Dana 20: 80W-90, 1.6 qt · Quadra-Trac: Quadra-Trac formula fluid, 2.25 qt (ExtremeTerrain)",
+     "spec": "Dana 300: 80W-90, 2 qt · Dana 20: 80W-90, 1.6 qt · Quadra-Trac: Quadra-Trac formula fluid, 2.25 qt (ExtremeTerrain). The 1981 factory manual specifies SAE 85W-90 GL-5 for the Dana 300",
      "interval": "Drain and refill now",
      "note": "Quadra-Trac's chain stretches when the oil is low or old, so don't skip this one. Check the Dana 300's output seals while you're under there.",
      "parts": [
@@ -1311,7 +1314,7 @@
     },
     {
      "item": "Front axle (Dana 30)",
-     "spec": "80W-90 gear oil · 1.25 qt (ExtremeTerrain)",
+     "spec": "80W-90 gear oil (ExtremeTerrain; the 1981 factory manual specifies SAE 85W-90 GL-5) · 1.25 qt (ExtremeTerrain)",
      "interval": "Drain and refill now",
      "note": "Check the axle U-joints for play while you're at the knuckles.",
      "parts": [
@@ -1329,7 +1332,7 @@
     },
     {
      "item": "Rear axle (AMC 20)",
-     "spec": "80W-90 gear oil · 2.4 qt · add 4 oz of limited-slip additive for Trac-Lok (ExtremeTerrain). Late-1986 Dana 44: 2 qt",
+     "spec": "80W-90 gear oil (ExtremeTerrain; the 1981 factory manual specifies SAE 85W-90 GL-5) · 2.4 qt · add 4 oz of limited-slip additive for Trac-Lok (ExtremeTerrain). Late-1986 Dana 44: 2 qt",
      "interval": "Drain and refill now",
      "note": "Read the gear-ratio and Trac-Lok code stamped left of the cover while it's clean, and check that the hub nuts on two-piece shafts are tight.",
      "parts": [
@@ -1347,8 +1350,8 @@
     },
     {
      "item": "Front wheel bearings & hubs",
-     "spec": "Repack with high-quality wheel-bearing grease · inner nut to 50 ft-lb to seat, back off, then set 0.001–0.005 in end play (manual figures quoted in an Off-Road.com thread) · outer nut torque [CONFIRM IN MANUAL]",
-     "interval": "Repack now, and again after deep water [CONFIRM IN MANUAL]",
+     "spec": "Repack with high-quality wheel-bearing grease · inner nut to 50 ft-lb to seat, back off, then set 0.001–0.005 in end play (manual figures quoted in an Off-Road.com thread) · outer locknut 50 ft-lb with the lock-washer lip bent over (1981 Jeep factory service manual)",
+     "interval": "Repack now, then every 30,000 mi (15,000 mi in heavy-duty or off-road use) per the 1981 factory schedule, and after any water crossing deep enough to cover the hubs",
      "note": "Hubs are the weak five-bolt Warn type on 1981–86 trucks. Quadra-Trac trucks have drive plates instead, and hubs shouldn't be fitted unless the case has been converted to part-time.",
      "parts": [
       {

@@ -320,6 +320,53 @@
      "url": "https://www.sor.com/search?q=fj60+patch+panel"
     }
    ]
+  },
+  {
+   "title": "Push-button 4WD stuck on: vacuum solenoid and lines",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours",
+   "cost": "Vacuum hose, or a replacement solenoid valve; IH8MUD owners report paying anywhere from a $17.77 donor part to about $400 for a new Toyota one",
+   "symptoms": "The green 4WD light stays on after you switch 4WD off, the front driveshaft won't turn by hand with the switch off, or the truck won't shift in or out of 4WD.",
+   "fix": "On the FJ62's push-button system, vacuum solenoid valves (VSVs) on the passenger-side firewall send vacuum to the transfer-case actuator. With the switch off and the truck in neutral on the parking brake, check for vacuum at each side of the solenoid. IH8MUD owners trace most cases to a burnt-out solenoid, but others found a clogged vacuum line or one corroded at a bracket, so check the lines and the actuator diaphragm before buying parts. One owner's interim fix is to pull a vacuum line and apply vacuum to the correct port by hand to get it out of 4WD. Don't swap the two lines: one engages 4WD and the other releases it. Replace the solenoid, or follow the IH8MUD write-ups that adapt a junkyard Toyota VSV or a MAC valve.",
+   "tools": "12 mm wrench or socket · screwdriver · hand vacuum pump or gauge · vacuum hose · labels for the lines",
+   "parts": [
+    {
+     "name": "4WD solenoid for vacuum transfer case, OEM Toyota (ELEC89132) — confirm fitment by VIN",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/4wd-solenoid-for-vacuum-tc-oem-toyota-fits-elec89132/"
+    },
+    {
+     "name": "Vacuum hose assortment (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=3.5mm+vacuum+hose+assortment"
+    }
+   ]
+  },
+  {
+   "title": "Fuel tank leak and the 91V-110 recall",
+   "diff": "3 / 5",
+   "time": "≈ Half a day to drop and replace the tank",
+   "cost": "Free if the recall is still open and parts are available; otherwise a tank, filler hose and lines",
+   "symptoms": "Fuel smell, or fuel dripping near the rear axle, especially when filling. NHTSA owner complaints describe a tank split at a spot weld and a corroded fuel line in the left rear wheel well.",
+   "fix": "NHTSA campaign 91V-110 covers 1980–1990 Land Cruisers, including every FJ62 year: heat and load can pressurize the tank and crack the welds that hold its internal separator, and Toyota's remedy was a new, improved tank. Run the VIN through NHTSA's recall lookup and ask a Toyota dealer whether the work was ever done; several owners told NHTSA the parts weren't available when they tried. If you're replacing it yourself, drain the tank, support it on a jack, disconnect the filler hose, lines and sending unit, and drop it. While it's down, replace the rubber filler hose and grommets and inspect the steel fuel lines, which can corrode through.",
+   "tools": "Fuel-safe drain container · floor jack · sockets and extensions · line wrenches · new hose clamps",
+   "parts": [
+    {
+     "name": "Fuel tank assembly, OEM Toyota, 60 Series (GAS60241) — confirm fitment by VIN",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/fuel-tank-assembly-fits-60-series-land-cruiser-applications-gas60241/"
+    },
+    {
+     "name": "Fuel tank filler hose, 60/62 Series (EGF772136X)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/fuel-tank-filler-hose-fits-60-62-series-land-cruiser-applications-egf772136x/"
+    },
+    {
+     "name": "Gas tank filler tube grommet, OEM Toyota, 6x Series (INT92002)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/gas-tank-filler-tube-grommet-oem-toyota-fits-6x-series-int92002/"
+    }
+   ]
   }
  ],
  "faq": [
@@ -372,6 +419,11 @@
    "q": "What's one worth?",
    "a": "Hagerty's wagon-values piece (around 2020) put the median quote for FJ60s and FJ62s at $18,500, and called the FJ60 the pick for collectibility. Restomod FJ62s from specialist shops sell for far more.",
    "src": "HAGERTY"
+  },
+  {
+   "q": "What oil and fluids does it take?",
+   "a": "Toyota's 3F-E repair manual supplement lists 7.8 liters (8.2 quarts) of oil with a filter change, API SC–SF or better, with the viscosity chosen from a temperature chart that runs from 5W-30 to 20W-50. Coolant capacity is 17.5 liters, or 19.5 with the rear heater. An IH8MUD compilation of Toyota data lists Dexron II for the A440F (5 liters on a drain-and-refill), GL-4 or GL-5 SAE 90 for the transfer case, GL-5 80W-90 for both differentials, Dexron or Dexron II for the power steering and DOT 3 brake fluid. Fill the engine to the dipstick, though, because the oil cooler holds some oil.",
+   "src": "TOYOTA 3F-E MANUAL · IH8MUD"
   }
  ],
  "mods": [
@@ -687,6 +739,30 @@
   {
    "name": "Cruiser Corps — Toyota 15\" wheel rim, OEM (15x5.5, tire-width advice)",
    "url": "https://cruisercorps.com/products/15-wheel-rim-oem"
+  },
+  {
+   "name": "Toyota 3F-E Engine Repair Manual Supplement (FJ62) — oil and coolant capacities, oil grade and viscosity chart, spark plugs (via Internet Archive)",
+   "url": "https://archive.org/download/3FEREPAIRMANUAL/3FE%20REPAIR%20MANUAL.pdf"
+  },
+  {
+   "name": "IH8MUD — Writeup: 1988 FJ62 4WD solenoid fix",
+   "url": "https://forum.ih8mud.com/threads/writeup-1988-fj62-4wd-solenoid-fix-for-17-77.224061/"
+  },
+  {
+   "name": "IH8MUD — FJ62 4WD light stays on",
+   "url": "https://forum.ih8mud.com/threads/fj62-4wd-light.194669/"
+  },
+  {
+   "name": "IH8MUD — FJ62 transfer-case actuator solenoids",
+   "url": "https://forum.ih8mud.com/threads/fj-62-t-case-actuator-solenoids.106662/"
+  },
+  {
+   "name": "NHTSA — Recall 91V-110: Land Cruiser fuel tank weld cracks (1980–1990)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V110000"
+  },
+  {
+   "name": "NHTSA — Owner complaints, 1988–1990 Toyota Land Cruiser",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=1988"
   }
  ],
  "baseline_service": {
@@ -694,7 +770,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "3F-E: 7.8 L with filter change (Toyota publications via IH8MUD); IH8MUD owners quote 8.2 qt as the official figure · viscosity [CONFIRM IN MANUAL]",
+    "spec": "3F-E: 7.8 L (8.2 US qt) with filter change, 7.0 L without, 8.0 L dry (Toyota 3F-E repair manual supplement) · API SC–SF or better; Toyota's temperature chart runs from 5W-30 for cold climates to 20W-50 for hot ones, with 10W-30 and 15W-40 between",
     "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
     "note": "Fill to the dipstick, not a number: the oil cooler holds some oil, and IH8MUD owners report 7–8.5 qt depending on how fully it drained. Pre-filling the filter helps.",
     "parts": [
@@ -730,7 +806,7 @@
    },
    {
     "item": "Ignition tune-up & PCV",
-    "spec": "Plugs, wires, cap, rotor and PCV valve",
+    "spec": "Plugs, wires, cap, rotor and PCV valve · plugs ND W16EXR-U or NGK BPR5EY, gapped 0.8 mm (0.031 in) (Toyota 3F-E repair manual supplement)",
     "interval": "Now, then per the owner's manual [CONFIRM IN MANUAL]",
     "note": "The F-series is an OHV engine (Wikipedia), so there is no timing belt to budget for. IH8MUD members start rough-idle hunts with a tune-up and a full set of vacuum hoses.",
     "parts": [
@@ -758,7 +834,7 @@
    },
    {
     "item": "Coolant & hoses",
-    "spec": "Ethylene-glycol coolant · 16.5 L (Toyota publications via IH8MUD)",
+    "spec": "Ethylene-glycol coolant · 17.5 L with the front heater only, 19.5 L with front and rear heaters (Toyota 3F-E repair manual supplement); an IH8MUD compilation of Toyota data lists 16.5 L",
     "interval": "Flush now, then every 2 years [CONFIRM IN MANUAL]",
     "note": "Replace any hose that is hard or swollen, and check the upper thermostat housing and radiator for old repairs; overheating history matters on a big iron six.",
     "parts": [

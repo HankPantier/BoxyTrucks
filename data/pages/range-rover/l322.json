@@ -854,6 +854,18 @@
   {
    "name": "Lucky8 — ZF 6HP26 transmission service kit",
    "url": "https://lucky8llc.com/products/zf-6hp26-transmission-service-kit-pan-fluid-valve-body-sleeve"
+  },
+  {
+   "name": "Land Rover North America — 2006–2008 Range Rover maintenance schedule (LRNA, 7/26/2007), dealer-hosted PDF",
+   "url": "https://jcsbritish4x4.kukui.com/Files/Documents/06-08-range-rover.pdf"
+  },
+  {
+   "name": "Land Rover TOPIx owner guide — Maintenance: brake fluid and coolant replacement intervals by model (Range Rover with OIL SERVICE/INSPECTION indicator)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/66354/PDF/b9ff2387-7f12-4623-a059-e95e1c37b7be/en_GB"
+  },
+  {
+   "name": "Land Rover TOPIx owner guide — Routine services, 12 model year onwards (service interval plans, fluid replacement)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/162966/PDF/fc8ac85e-a478-4f63-b8cf-a832a121f299/en_GB"
   }
  ],
  "baseline_service": {
@@ -862,7 +874,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "BMW 4.4 (2002–05): fully synthetic to ACEA A3/B3, ≈8.5 L refill · Jaguar 4.4/4.2 SC (2006–09): 5W-30, ≈7.7 L with filter · 5.0 NA/SC (2010–12): 5W-20 to WSS-M2C925-A, 8.0 L · 3.6 TDV8: 5W-30 to WSS-M2C913-B/-D (STJLR.03.5003), ≈9.5 L service fill · 4.4 TDV8 (2011–12, DPF): 5W-30 to WSS-M2C934-B / STJLR.03.5005, 9.0 L",
-    "interval": "Then every 10,000 mi or sooner (owner practice); [CONFIRM IN MANUAL] for the factory schedule",
+    "interval": "Land Rover North America's 2006–08 schedule: every 7,500 mi or 6 months. Land Rover's 2012 UK/European plan: 15,000 mi or 12 months (4.4 TDV8: 16,000 mi). Trucks with the OIL SERVICE/INSPECTION indicator follow it, per the owner guide. Owner practice is every 10,000 mi or sooner",
     "note": "The DPF diesels must have low-SAPS oil to the exact spec. Owners warn against overfilling the Jaguar V8: put in 6–6.5 L, run it, then top up to the dipstick.",
     "parts": [
      {
@@ -890,7 +902,7 @@
    {
     "item": "Engine air filter",
     "spec": "BMW 4.4: PHE000050 (pair) · Jaguar 4.4/4.2 SC: PHE500021 · Td6: PHE000040",
-    "interval": "Then every oil service on dusty roads; [CONFIRM IN MANUAL]",
+    "interval": "LRNA 2006–08 schedule: every 60,000 mi or 48 months. Change it far sooner on dusty roads; Land Rover says arduous use needs more frequent service",
     "note": "Cheap insurance on a truck with unknown history. Check the airbox for leaves and mouse nests while it's open.",
     "parts": [
      {
@@ -913,7 +925,7 @@
    {
     "item": "Cabin (pollen) filter",
     "spec": "Correct filter by model year [CONFIRM BY VIN]",
-    "interval": "Then annually",
+    "interval": "Then every 15,000 mi or 12 months (LRNA 2006–08 schedule)",
     "note": "A clogged cabin filter makes the climate control work harder and can hide a damp footwell smell.",
     "parts": [
      {
@@ -926,7 +938,7 @@
    {
     "item": "Spark plugs",
     "spec": "Jaguar 4.4 (2006–09): Champion LR005253 x8 · 5.0 V8 (2010–12): genuine set of 8",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "At 105,000 mi on 2006–08 US trucks (LRNA schedule); other years [CONFIRM IN MANUAL]",
     "note": "If the history doesn't show plugs, do them. On the 5.0, inspect the coil packs and plug-well seals at the same time.",
     "parts": [
      {
@@ -944,7 +956,7 @@
    {
     "item": "Coolant",
     "spec": "2002–05: 50% extended-life coolant (Havoline XLC type), ≈13 L refill · 2010–12: 50% Castrol SF antifreeze, 15 L (5.0 NA) / 16 L (5.0 SC) / 14 L (diesel)",
-    "interval": "Change if the history is unknown; then [CONFIRM IN MANUAL]",
+    "interval": "Change if the history is unknown; then every 10 years on petrols (LRNA 2006–08 schedule, Land Rover owner guides). The older owner guide gives 4 years for diesels",
     "note": "Don't mix antifreeze types. On the 5.0, look for weeps at the plastic coolant pipes and the water-pump outlet; on the Jaguar V8s, check the heater and oil-cooler hoses.",
     "parts": [
      {
@@ -962,7 +974,7 @@
    {
     "item": "Automatic transmission fluid",
     "spec": "ZF 5HP24 (BMW 4.4): Esso LT71141, ≈6.0 L refill · GM 5L40-E (Td6): Texaco ETL-7045E · ZF 6HP26 (2006–09 and 2010–12): Shell ATF M1375.4 / ZF Lifeguard 6",
-    "interval": "Then every 60,000 mi (Atlantic British recommendation)",
+    "interval": "Then every 60,000 mi (Atlantic British recommendation). Land Rover's 2006–08 US schedule says fluid and filter at 10 years or 150,000 mi",
     "note": "A pan drop only renews part of the fluid: one owner drained about 4 qt from a 10-qt 6HP26. On the 6-speed the filter is built into the plastic pan, so a new filter means a new pan; replace the leak-prone valve-body sleeve while it's off. Fill and level at temperature per the workshop procedure. Drain-and-fill, don't pressure-flush.",
     "parts": [
      {
@@ -985,7 +997,7 @@
    {
     "item": "Transfer case",
     "spec": "NV225 (2002–05 petrol, Td6 to 2006): Castrol BOT 26 FMB 1 75W-90, ≈1.0 L · Magna Steyr DD295 (Jaguar/5.0/TDV8 trucks, 2006 onward per Lucky8 fitment — [CONFIRM BY VIN] on 2006 MY): Shell TF 0753, 1.5 L",
-    "interval": "Then every 60,000 mi (Atlantic British recommendation)",
+    "interval": "Then every 60,000 mi (Atlantic British recommendation). Land Rover's 2006–08 US schedule: at 75,000 and 150,000 mi",
     "note": "The DD295 has an electronically controlled multi-plate centre clutch, so only the friction-modified TF 0753 will do. Specialist Glenrands reports 1.1–1.2 L typically goes back in on a service, so buy 2 L. Replace the drain/fill washers (IYF500010 / IYF500030).",
     "parts": [
      {
@@ -1003,7 +1015,7 @@
    {
     "item": "Front & rear differentials",
     "spec": "Front: Castrol SAF-XO 75W-90, 0.75 L refill · Rear non-locking: SAF-XO, 1.14 L · Rear electronic locker: Castrol SAF Carbon Mod Plus 75W-90 (LR019727), 1.55 L",
-    "interval": "Then every 60,000 mi (Atlantic British recommendation)",
+    "interval": "Then every 60,000 mi (Atlantic British recommendation). Land Rover's 2006–08 US schedule: electronic rear diff at 75,000 and 150,000 mi; front and rear axle oil every 10 years",
     "note": "Identify the rear diff first: the electronic locker has a cylindrical motor on top with a cable. Pump in the exact quantity rather than filling to drips, which overfills and aerates the oil. Diff plugs often seize, so crack the fill plug before you drain anything.",
     "parts": [
      {
@@ -1021,7 +1033,7 @@
    {
     "item": "Power steering fluid",
     "spec": "Texaco Cold Climate PSF 14315 · reservoir ≈1.6 L",
-    "interval": "Check level and hoses at purchase; [CONFIRM IN MANUAL] for replacement",
+    "interval": "Check level and hoses at purchase. Land Rover's 2006–08 US schedule only checks and tops up the fluid, with no replacement interval",
     "note": "Look for weeping at the rack and pump hoses while the truck is up on stands.",
     "parts": [
      {
@@ -1034,7 +1046,7 @@
    {
     "item": "Brake fluid",
     "spec": "Shell DOT4 ESL, or a low-viscosity DOT4 meeting ISO 4925 class 6 (2011 handbook)",
-    "interval": "Change at purchase if undated; then [CONFIRM IN MANUAL]",
+    "interval": "Change at purchase if undated; then every 3 years regardless of distance (Land Rover owner guides, LRNA 2006–08 schedule)",
     "note": "The low-viscosity spec matters for the ABS and stability system. Standard DOT4 is for topping up only.",
     "parts": [
      {
@@ -1047,7 +1059,7 @@
    {
     "item": "Drive belts & tensioner",
     "spec": "BMW 4.4: primary LR051050 + A/C belt · 5.0: primary LR064185 + secondary belt",
-    "interval": "Replace at purchase if the age is unknown",
+    "interval": "Replace at purchase if the age is unknown. LRNA's 2006–08 schedule replaces the drive belts at 150,000 mi and the supercharger belt at 105,000 mi",
     "note": "Addicted Motors' 'must-do' L322 kit puts both belts on the list alongside the transmission service and front control arms.",
     "parts": [
      {
@@ -1098,7 +1110,7 @@
    {
     "item": "Fuel filter",
     "spec": "BMW 4.4: WFL000021 · 3.6 TDV8: WJI500030 · Td6: WFL000070",
-    "interval": "At purchase on diesels; [CONFIRM IN MANUAL]",
+    "interval": "At purchase on diesels [CONFIRM IN MANUAL for the diesel interval]; Land Rover's 2006–08 US petrol schedule replaces it at 150,000 mi",
     "note": "On the 2006–09 Jaguar petrols the filter is part of the in-tank sender assembly, so it isn't a routine item.",
     "parts": [
      {

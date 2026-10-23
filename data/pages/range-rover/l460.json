@@ -134,7 +134,7 @@
  "buying_checks": [
   {
    "head": "Run the VIN against every recall",
-   "body": "NHTSA lists a stack of campaigns: a cam-carrier oil channel (2022–2023), 7-seat second-row frame welds (2022–2023), tail-light links (2022–2023), rear-camera water ingress (2022–2023), body panels not bonded properly (2024), transmission oil pressure (2024), a cracking oil filter housing (2024), the driver's airbag clockspring connector (2022–2026), and the DC-DC converter (26V248000 and 26V599000, 2022–2024 L460s). Get written confirmation that they're closed."
+   "body": "NHTSA lists a stack of campaigns: a cam-carrier oil channel (2022–2023), 7-seat second-row frame welds (2022–2023), tail-light links (2022–2023), rear-camera water ingress (2022–2023) and tailgate camera drain holes (2022–2026), body panels not bonded properly (2024), transmission oil pressure (2024), a cracking oil filter housing (2024), the driver's airbag clockspring connector (2022–2026), and the DC-DC converter (26V248000 and 26V599000, 2022–2024 L460s). Get written confirmation that they're closed."
   },
   {
    "head": "Ask about the DC-DC converter",
@@ -171,7 +171,7 @@
    "diff": "2 / 5",
    "time": "Varies",
    "cost": "Parts plus labor",
-   "symptoms": "A pad-wear warning (one owner's P440e needed rear pads at 31,000 miles, another owner's at 16,000), or grinding at the rear.",
+   "symptoms": "A pad-wear warning (one owner's P440e needed rear pads at 31,000 miles, another owner's at 16,000), or grinding at the rear. NHTSA has several similar complaints from 2023–24 owners, with pads worn out at roughly 10,000–17,000 miles; one 2023 long-wheelbase owner says the dealer blamed the design and fitted a different pad.",
    "fix": "The rear calipers use an electric parking brake, so put the brake into service (maintenance) mode before you push the pistons back. Shops do this with a scan tool. With the truck supported and the wheels off, remove the caliper, swap the pads (one owner fitted genuine pads and found a single wear sensor), refit, then take the brake out of service mode and check it applies properly.",
    "tools": "Jack and stands · sockets · pad spreader · scan tool with EPB service mode (e.g., GAP IID, which lists 2022–2025 L460 support) · new pads",
    "parts": [
@@ -304,6 +304,53 @@
      "name": "Genuine towing module VPLYT0295",
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/towing-module-genuine"
+    }
+   ]
+  },
+  {
+   "title": "Cracked oil filter housing",
+   "diff": "3 / 5",
+   "time": "Varies",
+   "cost": "Free under recall 24V-450 (Land Rover N908); otherwise parts plus labor",
+   "symptoms": "Oil seeping around the oil filter housing, a hot-oil smell from the engine bay, or the oil level dropping between services. Land Rover recalled certain 2024 Range Rovers, plus some 2023–24 Defenders and 2024 Discoverys, Range Rover Sports and Velars, because the housing can crack and leak oil into the engine compartment, where it can catch fire on hot engine or exhaust parts.",
+   "fix": "Run the VIN first. The recall remedy is a new filter housing, oil filter and O-rings, fitted free by a dealer (owner letters went out in June 2024). On a truck outside the recall that's leaking from the same place, the repair is the same: replace the housing with new O-rings and a new filter, following the workshop procedure for your engine, top up the oil and check for leaks at temperature. Clean any oil off the exhaust and undertrays afterwards.",
+   "tools": "Sockets and torque wrench · drain pan · new O-rings lubricated with clean oil · brake cleaner and rags",
+   "parts": [
+    {
+     "name": "Oil filter housing, 2024 Range Rover (search)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products?keywords=range+rover+2024+oil+filter+housing"
+    },
+    {
+     "name": "Genuine oil filter kit LR133455 (3.0 Ingenium I6, Range Rover 2020–25)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/rover-oil-filter-kit-genuine-rover-lr133455"
+    },
+    {
+     "name": "L460 oil filter housing (search)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/search?q=L460+oil+filter+housing"
+    }
+   ]
+  },
+  {
+   "title": "Rear camera water damage",
+   "diff": "2 / 5",
+   "time": "Varies",
+   "cost": "Free under recalls 24V-947 and 26V-678; otherwise a camera plus labor",
+   "symptoms": "A blank, fogged or distorted rear-view image, or a camera fault message when you select reverse. Land Rover has recalled the L460's rear camera twice for water: 2022–23 trucks because water can get inside the camera (24V-947), and 2022–26 trucks because there aren't enough drain holes for water to escape the camera area (26V-678).",
+   "fix": "Run the VIN. Under 24V-947 dealers replace the camera; under 26V-678 they drill extra drain holes in the underside of the tailgate trim and replace the camera if it's damaged. Land Rover planned to mail interim owner letters for 26V-678 in December 2026. On a truck you wash often or take through water crossings, keep the area under the tailgate trim clear of mud so water can drain.",
+   "tools": "Trim-removal tools · scan tool to calibrate the surround cameras after a camera change (dealer or JLR specialist)",
+   "parts": [
+    {
+     "name": "L460 rear-view camera (search)",
+     "supplier": "Lucky8",
+     "url": "https://lucky8llc.com/search?q=L460+rear+view+camera"
+    },
+    {
+     "name": "Automotive trim-removal tool kit",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=automotive+trim+removal+tool+kit"
     }
    ]
   }
@@ -764,6 +811,26 @@
   {
    "name": "NHTSA — Recall 26V248000 (MHEV DC-DC converter, campaign API)",
    "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V248000"
+  },
+  {
+   "name": "NHTSA — recall 24V-450, oil filter housing",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V450000"
+  },
+  {
+   "name": "NHTSA — recall 24V-947, rear camera water ingress",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V947000"
+  },
+  {
+   "name": "NHTSA — recall 26V-678, rear camera drain holes",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V678000"
+  },
+  {
+   "name": "NHTSA — owner complaints, 2023 Land Rover Range Rover",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2023"
+  },
+  {
+   "name": "NHTSA — owner complaints, 2024 Land Rover Range Rover",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2024"
   }
  ],
  "baseline_service": {

@@ -640,6 +640,9 @@ def main():
     full = sum(len(v) for v in pages.values())
     stubs = sum(1 for f in fams.values() for g in f['generations'] if not g['has_page'])
     print(f'built {n} pages · full guides: {full} · overview-only: {stubs}')
+    for f in sorted(DATA.rglob('*.json')):
+        if re.search(r'archive\.org/(details|download)/', f.read_text()):
+            print(f'  ! archive.org manual link in {f.relative_to(DATA)} (cite by name, no url)')
     ph = re.compile(r'\[(TO RESEARCH|TBD|TODO|PHOTO|OWNER|STORY|ONE-PARAGRAPH)[^\]]*\]')
     for f in sorted(SITE.rglob('*.html')):
         for m in ph.finditer(f.read_text()):

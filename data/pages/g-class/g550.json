@@ -250,7 +250,7 @@
    "diff": "2 / 5",
    "time": "An afternoon",
    "cost": "Diagnosis-dependent",
-   "symptoms": "One or all locks refuse to engage or drop out, indicator lights flash or stay off. The fault is usually actuation, not the differential. On a 2005 G 500 an MBWorld owner found the centre lock vacuum-operated and the front and rear locks hydraulic, so check both circuits [CONFIRM IN MANUAL for your year].",
+   "symptoms": "One or all locks refuse to engage or drop out, indicator lights flash or stay off. The fault is usually actuation, not the differential. On a 2005 G 500 an MBWorld owner found the centre lock vacuum-operated and the front and rear locks hydraulic, so check both circuits. Mercedes' 2013 US and 2016 Canadian booklets confirm the G 550's lock mechanism runs on brake fluid from its own reservoir; whether your year's centre lock is vacuum-operated [CONFIRM IN MANUAL for your year].",
    "fix": "Follow the same path MBWorld owners use on earlier W463s: confirm vacuum at the transfer case, then work back through the reservoir, lines and switchover valves with a gauge teed into each segment until you find the split line or connector. Exercise the locks regularly once fixed — disuse is their enemy.",
    "tools": "Hand vacuum pump with gauge · vacuum tees and line · replacement connectors",
    "parts": [
@@ -716,6 +716,34 @@
   {
    "name": "US EPA / DOE — fueleconomy.gov",
    "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2013 G-Class Operator's Manual (PDF): engine oil approval and capacity, wheel-bolt torque",
+   "url": "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2013/operators/MY13_G-Class_Operator.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2014 G-Class Operator's Manual (PDF): engine oil approval by engine (273: MB 229.5)",
+   "url": "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2014/operators/MY14_G-Class_Operator.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2016 G-Class Operator's Manual (PDF): service products and filling capacities",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY16_G.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2018 G-Class Operator's Manual (PDF): service products and filling capacities",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY18_G_Class_Operators_Manual.pdf"
+  },
+  {
+   "name": "Mercedes-Benz USA — 2013 Maintenance Booklet (PDF), G-Class column",
+   "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/maintenancebooklets/MY13_Maintenance_Booklet.pdf"
+  },
+  {
+   "name": "Mercedes-Benz Canada — 2016 G-Class (463) Service Booklet (PDF)",
+   "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
+  },
+  {
+   "name": "Bolidenforum — vehicle data, Mercedes-Benz 2011 G 55 (WIS fluid tables BB00.40-P-0231)",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/mercedes-benz-2011-g55/?vd_lang=en"
   }
  ],
  "baseline_service": {
@@ -723,9 +751,9 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "M273: MB 229.5 (e.g. 5W-40) · ≈8.5–9 L with filter · M176: MB 229.5 or 229.52 · ≈9 L [CONFIRM IN MANUAL]",
-    "interval": "Now, then per the service indicator [CONFIRM IN MANUAL]",
-    "note": "Both engines use a cartridge filter in a housing on top of the engine — replace the cap O-ring and drain-plug washer every time.",
+    "spec": "MB 229.5 (e.g. 5W-40) · 9.0 L (2.4 US gal) with filter. That's the same for the M273 (2013 and 2014 operator's manuals) and the M176 (2016 and 2018 manuals; the 2016 manual also accepts MB 229.3)",
+    "interval": "Now, then per the service indicator. Mercedes' 2013 US booklet sets it at every 10,000 mi or 1 year",
+    "note": "Both engines use a cartridge filter in a housing on top of the engine — replace the cap O-ring and drain-plug washer every time. FCP Euro also sells a 229.52 kit for the M176, but the operator's manuals list 229.5.",
     "parts": [
      {
       "name": "Liqui Moly 5W-40 (MB 229.5) oil change kit, 9 L, with filter — M273",
@@ -742,7 +770,7 @@
    {
     "item": "Air filters",
     "spec": "M273: two filter elements in the air box",
-    "interval": "Now if undated [CONFIRM IN MANUAL]",
+    "interval": "Now if undated. Mercedes: every 40,000 mi or 4 years for the M273 (2013 US booklet); every 40,000 km or 2 years for the M176 (Canadian 2016 booklet); sooner in dust",
     "note": "FCP Euro notes the M273 air box holds two filters — replace both together. Dusty trail use shortens the interval.",
     "parts": [
      {
@@ -773,7 +801,7 @@
    {
     "item": "Spark plugs & coils",
     "spec": "M273 and M176 spark plugs (Mercedes-spec)",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record. Mercedes: every 60,000 mi or 6 years for the M273 (2013 US booklet); every 100,000 km or 5 years for the M176 (Canadian 2016 booklet)",
     "note": "FCP Euro suggests doing M273 plugs alongside the oxygen sensors (≈100,000 mi). Check misfire counters before buying coils.",
     "parts": [
      {
@@ -819,7 +847,7 @@
    {
     "item": "Automatic transmission (7G-TRONIC 722.9)",
     "spec": "MB 236.14 for gearboxes built before June 2010 · MB 236.15 (blue) from 21 June 2010 on",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record. Mercedes: oil and filter every 40,000 mi or 4 years on the M273 G 550 (2013 US booklet); every 120,000 km on the 2016 (Canadian booklet)",
     "note": "No dipstick: drain the pan, fit a new filter and gasket, then set the level at temperature with a scan tool. A drain-and-fill only swaps part of the fluid — a second change soon after improves the ratio. Check the build date before buying fluid.",
     "parts": [
      {
@@ -841,15 +869,15 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
-    "interval": "Now if no record",
+    "spec": "Gear oil, not ATF, if your truck has the VG 150 E case: Mercedes' WIS fluid table, as reproduced for a 2011 G 55 (W463), lists SAE 80, 80W or 80W-85 for it (SAE 90 or 85W-90 in hot climates) · capacity [CONFIRM IN MANUAL]",
+    "interval": "Now if no record. Mercedes: every 50,000 mi or 5 years (2013 US booklet); every 120,000 km (Canadian 2016 booklet)",
     "note": "Two-speed, 50:50 case with the centre lock. Check for weeps at the input and output seals while you’re underneath.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil — FCP Euro lists 75W-90 GL-5 for 2009–2014 G 550 · capacities [CONFIRM IN MANUAL]",
-    "interval": "Now if no record",
+    "spec": "Hypoid gear oil. FCP Euro lists 75W-90 GL-5 for 2009–2014 G 550s, and the WIS table (approval sheet 235.0) allows 75W-90, 80W-90, 85W-90 or 90 for hypoid axles · capacities [CONFIRM IN MANUAL]",
+    "interval": "Now if no record. Mercedes: every 50,000 mi or 5 years (2013 US booklet); every 80,000 km or 4 years (Canadian 2016 booklet)",
     "note": "Both axles carry 100% lockers. Look for gear oil on the inner front wheels and brakes — the front axle seals are a known leak point.",
     "parts": [
      {
@@ -863,7 +891,7 @@
     "item": "Diff locks & vacuum lines",
     "spec": "Inspection — engage centre, rear, front in order",
     "interval": "Now, then monthly exercise",
-    "note": "Disuse is what kills lockers. If one won’t engage, check for a split vacuum line or connector before suspecting the differential.",
+    "note": "Disuse is what kills lockers, and Mercedes' service booklets have you engage them at every service. The locking mechanism has its own reservoir filled with brake fluid, which is changed with the brakes (2013 US and 2016 Canadian booklets). If one won't engage, check the fluid level and look for a split vacuum line or connector before suspecting the differential.",
     "parts": [
      {
       "name": "Genuine Mercedes vacuum hose 007 997 61 82",
@@ -880,7 +908,7 @@
    {
     "item": "Power steering fluid",
     "spec": "MB 236.3 power steering fluid (recirculating-ball box)",
-    "interval": "Now if dark or no record [CONFIRM IN MANUAL]",
+    "interval": "Now if dark or no record. Mercedes' 2013 US booklet only checks the level at service and gives no replacement interval",
     "note": "Never mix with ATF. A turkey-baster swap of the reservoir, repeated a few times, refreshes most of it.",
     "parts": [
      {
@@ -892,8 +920,8 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "DOT 4 Plus (Genuine Mercedes)",
-    "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
+    "spec": "DOT 4 Plus (MB 331.0) · also fills the diff-lock mechanism",
+    "interval": "Now, then every 2 years / 20,000 mi (2013 US booklet). The Canadian 2016 booklet says every year",
     "note": "Brake fluid absorbs water. A heavy truck that tows or descends trails needs a fresh, high-boiling-point fluid.",
     "parts": [
      {

@@ -338,7 +338,7 @@
     "time": "≈ 1 hour both sides for a shim/preload adjustment; longer for a full rebuild",
     "cost": "Parts plus labor",
     "symptoms": "Grease or oil weeping from the swivel seal, pitted chrome ball, wobbly or vague steering.",
-    "fix": "Support the chassis on stands, pull the wheels and disconnect the track rod. Rebuild with new bearings, seals and gaskets, fit the swivel pins with shims, torque lower then upper bolts, and check turning effort with a spring balance at the track-rod bore before fitting the seal. Workshop-manual text quoted on Defender2: 1.16–1.46 kg once initial inertia is overcome, with the swivel bearing housing-to-axle bolts at 73 Nm, lower swivel pin bolts at 25 Nm and top pin bolts at 65 Nm (thread sealant STC50552 on the pin bolts). Confirm against your own manual [CONFIRM IN MANUAL]. Add or remove top-pin shims to adjust, then refill with one-shot grease.",
+    "fix": "Support the chassis on stands, pull the wheels and disconnect the track rod. Rebuild with new bearings, seals and gaskets, fit the swivel pins with shims, torque lower then upper bolts, and check turning effort with a spring balance at the track-rod bore before fitting the seal. Workshop-manual text quoted on Defender2: 1.16–1.46 kg once initial inertia is overcome, with the swivel bearing housing-to-axle bolts at 73 Nm, lower swivel pin bolts at 25 Nm and top pin bolts at 65 Nm (thread sealant STC50552 on the pin bolts). The manuals disagree, though: a RAVE table quoted on AULRO matches those bolt torques (65 Nm upper, 25 Nm lower, 73 Nm housing-to-axle), but a 05/99 workshop-manual table quoted in the same thread gives 78 Nm for both upper and lower pins, and a Defender2 owner reports the older manual's 22–28 Nm lower figure against 78 Nm in a newer one. The 1983–1995 workshop manual and Haynes give a turning effort of 3.6–4.5 kg rather than 1.16–1.46 kg. Use the manual for your exact axle [CONFIRM IN MANUAL]. Add or remove top-pin shims to adjust, then refill with one-shot grease.",
     "tools": "Axle stands, spring balance, vernier, torque wrench · Rovers North RNA3178 swivel rebuild kit with ball (1994–98 Defender, one side) · one-shot grease",
     "parts": [
      {
@@ -395,7 +395,7 @@
     "time": "Several hours",
     "cost": "Parts plus labor",
     "symptoms": "Due on the service interval, belt edge wear, or debris inside the timing cover; early-type kits can let the belt track off.",
-    "fix": "Lock the cam and crank with the timing tool, remove the front cover, fit the revised kit (flanged crank pulley, idler with integral spacer, tensioner, gasket). On early-type engines, remove the separate spacer washer because the new idler includes it. An AULRO member reports a factory direction reducing the torque used to tension the belt (applied to the tensioner before its bolt is tightened) from 14 Nm to 11 Nm, and notes older manuals still show 14 Nm. This is the belt-tension setting, not the bolt's clamping torque [CONFIRM IN MANUAL].",
+    "fix": "Lock the cam and crank with the timing tool, remove the front cover, fit the revised kit (flanged crank pulley, idler with integral spacer, tensioner, gasket). On early-type engines, remove the separate spacer washer because the new idler includes it. Land Rover later reduced the torque used to tension the belt (applied to the tensioner before its bolt is tightened) to 11 Nm, according to both Glencoyne and an AULRO member, and earlier manuals may not include the change: Glencoyne gives the old figure as 15 Nm, the AULRO member as 14 Nm. This is the belt-tension setting, not the bolt's clamping torque.",
     "tools": "Timing tool DA3140, torque wrench · STC4096L modified timing belt kit",
     "parts": [
      {
@@ -1007,6 +1007,34 @@
    {
     "name": "ARB USA — Old Man Emu",
     "url": "https://arbusa.com/old-man-emu"
+   },
+   {
+    "name": "Haynes — Land Rover 90/110/Defender routine maintenance guide, diesel engines 1983–2007 (lubricants, capacities, torques)",
+    "url": "https://haynes.com/en-gb/tips-tutorials/land-rover-90-110-defender-routine-maintenance-guide-diesel-engines-1983-2007"
+   },
+   {
+    "name": "Land Rover engine oil recommendations chart (Defender 2.4/2.2 TDCi pages), hosted on Defender2",
+    "url": "https://defender2.net/gallery/albums/userpics/11134/en_GB.pdf"
+   },
+   {
+    "name": "AULRO — Lower swivel pin bolt torque (RAVE and workshop-manual tables quoted)",
+    "url": "https://www.aulro.com/afvb/technical-chatter/80259-lower-swivel-pin-bolt-nm.html"
+   },
+   {
+    "name": "Defender2 — Swivel pin bolt torque and preload (older vs newer workshop manual, Haynes)",
+    "url": "https://www.defender2.net/forum/topic72141.html"
+   },
+   {
+    "name": "Rovers North — ESR4065 fuel filter, V8 threaded type (fitment)",
+    "url": "https://www.roversnorth.com/parts/esr4065_fuel_filter_v8_threaded_type"
+   },
+   {
+    "name": "Lucky8 — ESR4065 fuel filter (fitment)",
+    "url": "https://lucky8llc.com/products/fuel-filter"
+   },
+   {
+    "name": "Rovers North — ERR3799 spark plug, 3.5/3.9/4.0/4.2 V8",
+    "url": "https://www.roversnorth.com/parts/err3799_spark_plug_3_5_3_9_4_0_4_2_v8"
    }
   ],
   "baseline_service": {
@@ -1014,7 +1042,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "NAS 3.9 V8: API SG/SH, SAE 5W-30 or 5W-40 · ≈6.7 L with filter. 300Tdi: ≈6.65 L with filter (Comma lists 10W-40). Td5 / Puma: [CONFIRM IN MANUAL]",
+     "spec": "NAS 3.9 V8: API SG/SH, SAE 5W-30 or 5W-40 · ≈6.7 L with filter. 300Tdi: ≈6.65 L with filter (Comma lists 10W-40). Td5: 7.8 L with filter, 5W-40 or 5W-50 (Haynes). 2.4 Puma (2007–12 MY) and 2.2 (2012 MY on): 6.85 L service fill with filter, 5W-30 to WSS-M2C913-B or C, or WSS-M2C934-B for the 2.2 with DPF (Land Rover oil chart)",
      "interval": "At purchase, then every 5,000–6,000 mi (Comma: 10,000 km / 6 months for the 300Tdi)",
      "note": "The V8 and Tdi engines use the short spin-on filter. The Td5 also has a centrifugal oil-filter rotor that needs servicing.",
      "parts": [
@@ -1060,7 +1088,7 @@
     },
     {
      "item": "Fuel filter",
-     "spec": "Diesel: OE-type element (Tdi: AEU2147L). V8: inline EFI filter [CONFIRM IN MANUAL]",
+     "spec": "Diesel: OE-type element (Tdi: AEU2147L). V8: threaded inline EFI filter ESR4065 (Rovers North lists it for the NAS 90 and 110; Lucky8 for Defender '94–'97)",
      "interval": "At purchase",
      "note": "Diesel trucks that sat for a long time collect water and sludge, so drain the sedimenter as well.",
      "parts": [
@@ -1073,12 +1101,17 @@
        "name": "Td5 / V8 fuel filter",
        "supplier": "Rovers North",
        "url": "https://roversnorth.com/search?q=defender+fuel+filter"
+      },
+      {
+       "name": "ESR4065 V8 fuel filter (NAS 90/110)",
+       "supplier": "Rovers North",
+       "url": "https://www.roversnorth.com/parts/esr4065_fuel_filter_v8_threaded_type"
       }
      ]
     },
     {
      "item": "Glow plugs / spark plugs",
-     "spec": "Tdi: ETC8847 glow plugs ×4. V8: plugs and leads per manual [CONFIRM IN MANUAL]",
+     "spec": "Tdi: ETC8847 glow plugs ×4. V8: Rovers North lists ERR3799 for the 3.5/3.9/4.0/4.2 EFI V8; gap [CONFIRM IN MANUAL]",
      "interval": "At purchase if there's no record, or if cold starts are slow",
      "note": "A cold start that smokes and stumbles on a Tdi usually means one or more glow plugs have failed.",
      "parts": [
@@ -1088,9 +1121,9 @@
        "url": "https://lucky8llc.com/products/heater-plug"
       },
       {
-       "name": "Rover V8 spark plugs and leads",
+       "name": "ERR3799 spark plug, 3.5/3.9/4.0/4.2 EFI V8",
        "supplier": "Rovers North",
-       "url": "https://roversnorth.com/search?q=defender+v8+spark+plug"
+       "url": "https://www.roversnorth.com/parts/err3799_spark_plug_3_5_3_9_4_0_4_2_v8"
       }
      ]
     },
@@ -1171,7 +1204,7 @@
     },
     {
      "item": "Front & rear axles",
-     "spec": "EP80W-90 GL-4/GL-5 · front ≈1.7 L. Rear ≈1.7 L on the Rover axle (one data set lists 2.3 L for the NAS D90). Salisbury 110 rear [CONFIRM IN MANUAL]",
+     "spec": "EP80W-90 GL-4/GL-5 · front ≈1.7 L. Rear ≈1.7 L on the Rover axle (one data set lists 2.3 L for the NAS D90). 110/130 (Salisbury) rear 2.26 L, 90 rear 1.7 L (Haynes)",
      "interval": "At purchase, then every 2 years (Comma: 40,000 km / 24 months)",
      "note": "Fill each axle to the level plug on level ground. The Tdi manual figure is 1.7 L, but one Defender2 owner got nearly 2 L into a rear axle on level ground, so trust the level plug rather than the book. Use a new drain-plug washer.",
      "parts": [
@@ -1186,7 +1219,7 @@
      "item": "Swivel housings",
      "spec": "Early trucks: EP90 · 0.35 L per side (handbook). From about 1994: one-shot swivel grease STC3435, one sachet per side",
      "interval": "Check at purchase and every service. Comma says change every 40,000 km / 24 months",
-     "note": "Lucky8 lists the STC3435 sachet for the NAS Defender 90 ('94–'97) and the Defender 110 ('93), but a 1997 NAS D90 data set still lists 0.35 L of EP oil, so check what is actually in yours before topping up [CONFIRM IN MANUAL]. An AULRO owner's 1994 swivel took about 450 ml to reach the level plug, so fill until it just dribbles out. Weeping seals mean the chrome ball is pitted. See the repairs above.",
+     "note": "Lucky8 lists the STC3435 sachet for the NAS Defender 90 ('94–'97) and the Defender 110 ('93), but a 1997 NAS D90 data set still lists 0.35 L of EP oil, and JC's British 4x4's 52,500 km service checklist for the NAS 90 and 110 also calls for EP gear oil in the swivels, so check what is actually in yours before topping up [CONFIRM IN MANUAL]. An AULRO owner's 1994 swivel took about 450 ml to reach the level plug, so fill until it just dribbles out. Weeping seals mean the chrome ball is pitted. See the repairs above.",
      "parts": [
       {
        "name": "Swivel housing grease sachet STC3435",
@@ -1202,7 +1235,7 @@
     },
     {
      "item": "Power steering & steering box",
-     "spec": "Dexron IID ATF · 2.8 L system (the 1993 US service checklist says ATF Type F, so [CONFIRM IN MANUAL]). Steering box: EP80W-90",
+     "spec": "Dexron IID ATF (Haynes) · 2.8 L system. The 1993 US service checklist says ATF Type F instead, so check what's in yours before topping up. Steering box: EP80W-90",
      "interval": "Check at purchase",
      "note": "Leaks from the box's input seal or sector shaft are common. Top up and watch the level.",
      "parts": [
