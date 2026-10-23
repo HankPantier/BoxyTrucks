@@ -17,6 +17,9 @@ SITE = ROOT / 'site'
 SITE_URL = 'https://boxytrucks.com/'
 SUBMIT_EMAIL = 'webhank@gmail.com'
 # TODO: Google Analytics — paste the GA4 measurement ID (G-XXXXXXX) here to enable tracking on every page.
+# Newsletter: paste the provider's form action once an account exists, e.g. Buttondown
+# 'https://buttondown.com/api/emails/embed-subscribe/<username>' (field 'email'). Empty = sign-up hidden.
+NEWSLETTER = {'provider': '', 'action': '', 'field': 'email'}
 GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
@@ -249,7 +252,9 @@ def pretty_path(path):
     for sep in ('#', '?'):
         if sep in path:
             i = path.index(sep); path, frag = path[:i], path[i:] + frag
-    if path.endswith('/index.html'):
+    if path.endswith('404.html'):
+        pass
+    elif path.endswith('/index.html'):
         path = path[:-10]
     elif path == 'index.html':
         path = ''
@@ -258,7 +263,7 @@ def pretty_path(path):
     return path + frag
 
 def pretty_out(out):
-    if out.endswith('index.html'):
+    if out.endswith('index.html') or out == '404.html':
         return out
     return out[:-5] + '/index.html'
 
@@ -313,6 +318,7 @@ def main():
             return Markup(f'<svg viewBox="0 0 64 64" width="{w}" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="{color}" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="{color}"/><circle cx="40" cy="63" r="9.5" fill="{color}"/><circle cx="40" cy="63" r="3.5" fill="{bg}"/></svg>')
         env.globals['affiliates_on'] = any(p.get('template') or p.get('params') for p in AFFILIATES)
         env.globals['mlabel'] = mlabel
+        env.globals['newsletter'] = NEWSLETTER
         env.globals['amz_q'] = amz_q
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
@@ -488,7 +494,9 @@ def main():
     render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it: Google Analytics, the submission form, affiliate cookies and GitHub hosting.', credits='', crumbs=[('Privacy', 'about/privacy.html')])
     render('disclaimer.html', 'about/disclaimer.html', '../', active='', title='Disclaimer — BoxyTrucks', description='BoxyTrucks specs, fluids and repair guides are for general information: verify against your manual or a qualified mechanic.', credits='', crumbs=[('Disclaimer', 'about/disclaimer.html')])
     render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
-    render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
+    render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, track_event='rig_submission', hide_newsletter=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
+
+    render('404.html', '404.html', '', noindex=True, hide_newsletter=True, title='Not found — BoxyTrucks', description='That page took a wrong turn. Search the guides or pick a model family.', credits='')
 
     # site search index
     strip = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
