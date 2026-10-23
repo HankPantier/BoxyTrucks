@@ -1,0 +1,387 @@
+{
+ "fitment": {
+  "stock": [
+   "235/75R15 on 15x6 steel wheels (1996 NL GLX, Australia, per owner)",
+   "15-inch alloys on US Montero LS and SR (Bring a Trailer listings)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "lug_thread": "M12x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15 (≈265/75R16 on 16s)",
+    "note": "An Australian owner calls 31x10.5R15 'a good tyre size' for the NL. BaT's 1994 Montero SR runs 31x10.50R15s on factory 15-inch alloys, and a 1995 Pajero sold on 265/70R16. Expect some contact at full lock and full stuff; bigger tyres need a lift."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "NADI driver airbag inflator",
+    "years": "1998–2000",
+    "ref": "NHTSA 20V035000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V035000",
+    "summary": "Non-azide driver inflators can absorb moisture and rupture or under-inflate. In Australia, Mitsubishi offers to buy back affected NL Pajeros because no replacement inflator exists."
+   },
+   {
+    "title": "Crankshaft pulley bolt can loosen (3.0)",
+    "years": "1992–1996",
+    "ref": "NHTSA 00V311001",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V311001",
+    "summary": "On 3.0-litre Monteros the crank-pulley bolt can loosen and the pulley can fall off."
+   },
+   {
+    "title": "Front wheel-side brake hoses can crack",
+    "years": "1992–1994",
+    "ref": "NHTSA 96V143001",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V143001",
+    "summary": "At full lock and full suspension travel the front hoses can crack and leak fluid. 96V143002 covers Caribbean-market trucks."
+   },
+   {
+    "title": "Front lower brake hoses can crack",
+    "years": "1994",
+    "ref": "NHTSA 00V226001",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V226001",
+    "summary": "The front lower brake hoses can develop a crack, causing loss of brake fluid."
+   },
+   {
+    "title": "Front brake lines chafe through",
+    "years": "1997–1998",
+    "ref": "NHTSA 98V220000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V220000",
+    "summary": "Front brake lines can develop pinholes from chafing on the edge of the inner-fender pass-through hole."
+   },
+   {
+    "title": "Accessory cargo mat stops third-row seats latching",
+    "years": "1994–1998",
+    "ref": "NHTSA 98V205000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V205000",
+    "summary": "Accessory cargo mats in the third-row and cargo area can interfere with the folding third seats' latches."
+   },
+   {
+    "title": "Airbag warning labels too small",
+    "years": "1998–2000",
+    "ref": "NHTSA 04V428000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V428000",
+    "summary": "The bilingual removable airbag warning labels didn't meet FMVSS 208 size requirements (Caribbean-market trucks)."
+   },
+   {
+    "title": "Aftermarket Reese trailer hitch weld (equipment)",
+    "years": "1991–1992",
+    "ref": "NHTSA 93E023000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93E023000",
+    "summary": "The receiver weld on a Reese hitch can break. This is an equipment recall, not a Mitsubishi campaign."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Pitman-arm ball-joint inspection (Japan service notice)",
+    "ref": "Mitsubishi Japan notice (all V20 codes incl. V55W)",
+    "summary": "Inspection procedure for old, hard-used trucks with integral ball-nut steering: check the stud for wear, use moly chassis grease, torque relay-rod nuts to 44 N·m, and replace boots every 5 years.",
+    "url": "https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1991",
+   "change": "Second generation launched in Japan on 22 January 1991. Super Select 4WD, multi-mode ABS and optional electronic dampers. 6G72 3.0 SOHC 12v V6 and 4D56 2.5 intercooled turbo-diesel. Exports began later in the year",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "First US model year for the second-generation Montero (Active-Trac 4WD)",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "July: 6G74 3.5 DOHC 24v V6 (US SR: 215 hp) and 4M40 2.8 intercooled turbo-diesel arrive, with a larger transmission and transfer case. Slight restyle",
+   "flag": "buy"
+  },
+  {
+   "year": "1996",
+   "change": "3.0 V6 gains a 24-valve head and coil-pack ignition (US: 177 hp / 188 lb-ft). 2.4 four added for some SWB markets",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "May: Japanese 'Wide' models with wheel-arch flares and a 3.5 GDI V6. Australia's NL switches to a SOHC 3.5 (US 1998: 200 hp). Pajero Evolution (V55W) goes on sale in September/October",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Export and Gulf trucks get the 'blister' wide-fender facelift; airbags standard on 3.5 models in those markets. 1998–2000 US Monteros carry the NADI driver airbag (recall 20V035000)",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "The monocoque third-generation Pajero replaces it in Japan (August)",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "Final US model year for the second-generation Montero; the third generation arrives as a 2001 model",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Many second-generation Pajeros in the US are Japanese imports, and Evolutions get faked. The chassis code and build plate tell you what you're looking at.",
+  "items": [
+   {
+    "head": "Chassis codes",
+    "body": "Mitsubishi's own notice lists the second-generation codes: V14V, V21W, V23C, V23W, V24C, V24V, V24W, V25C, V25W, V26C, V26W, V34V, V43W, V44W, V45W, V46V, V46W and V55W. JDMBUYSELL advises confirming the complete code on the frame or VIN plate."
+   },
+   {
+    "head": "A real Evolution",
+    "body": "Check the plate for E-V55W, a 3,496 cc 6G74 MIVEC V6 rated at 280 PS, a three-door body and independent multi-link/double-wishbone rear suspension. Overfenders, twin rear fins and a bonnet scoop are easy to copy; the rear suspension isn't."
+   },
+   {
+    "head": "DOHC or SOHC 3.5",
+    "body": "Australian owners say NJ and NK trucks used the DOHC 3.5 and the NL a SOHC 3.5. In the US, the 1994 SR is rated at 215 hp (DOHC) and a 1998 Montero at 200 hp."
+   },
+   {
+    "head": "Locker and Super Select",
+    "body": "A factory rear locker shows up as a dash switch and air lines to the rear diff, and works only in 4HLc or 4LLc. Every second-generation truck has the Super Select gated lever; US trucks are badged Active-Trac."
+   },
+   {
+    "head": "Grey-import tells",
+    "body": "Australian owners say mirrors on the front mudguards and higher-spec interiors mark a Japanese import. In the US, right-hand drive and a km/h speedometer give it away."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "2,420 mm (95.3 in) SWB · 2,725 mm (107.3 in) LWB"
+  },
+  {
+   "k": "Length",
+   "v": "4,140 mm (163.0 in) SWB · 4,704–4,740 mm (185.2–186.6 in) LWB"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "≈11–16 L/100 km (≈15–21 mpg US) petrol",
+   "note": "Owner-reported; towing pushes the 3.5 to about 20 L/100 km"
+  },
+  {
+   "k": "Evolution fuel tank",
+   "v": "75 L (19.8 US gal), premium unleaded",
+   "note": "V55W manual, per Motor-Fan catalogue via JDMBUYSELL"
+  },
+  {
+   "k": "Evolution weight",
+   "v": "1,970 kg (4,343 lb)",
+   "note": "V55W manual"
+  },
+  {
+   "k": "Evolution dimensions",
+   "v": "4,075 × 1,875 × 1,915 mm (160.4 × 73.8 × 75.4 in)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Ordinary second-generation Pajeros and Monteros are still cheap. The Evolution is the collector's car, and it's climbing.",
+  "ranges": [
+   {
+    "cond": "Project / tired US Montero or import",
+    "range": "$3.5k–7.5k"
+   },
+   {
+    "cond": "Driver (US Montero or JDM import)",
+    "range": "$7.5k–13.5k"
+   },
+   {
+    "cond": "Excellent / low-mileage",
+    "range": "$15k–20k"
+   },
+   {
+    "cond": "Pajero Evolution",
+    "range": "$19.5k–50k (median ≈$32k)"
+   }
+  ],
+  "note": "Based on Bring a Trailer sold results. Second-generation Pajeros and Monteros sold from 2020 to October 2026 ran from $3,500 (a 1992 turbo-diesel) to $19,500 (a 1998 Exceed GLS turbo-diesel manual), with an 18k-mile 1998 Montero at $16,000; most went for $7,500–13,500. Eighteen sold Evolutions from October 2024 to October 2026 ranged from $19,500 to $49,997."
+ },
+ "docs": [
+  {
+   "name": "Mitsubishi Motors Japan — Pitman-arm ball-joint inspection notice (Japanese)",
+   "url": "https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html",
+   "note": "The factory inspection procedure and torque figure for the steering linkage on all second-generation codes."
+  },
+  {
+   "name": "AMSOIL — 1997 Montero 3.5 (6G74) capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1997/mitsubishi/montero/3-5l-6-cyl-engine-code-r-6g74-m/",
+   "note": "Third-party fluid capacities and specs for US trucks; confirm against the owner's manual."
+  },
+  {
+   "name": "AMSOIL — 1993 Montero 3.0 (6G72) capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1993/mitsubishi/montero/3-0l-6-cyl-engine-code-h-6g72-h/",
+   "note": "Includes V4AW2 and V4AW3 automatic and transfer-case capacities."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "NHTSA's import exemption covers vehicles at least 25 years old, counted from each vehicle's own manufacture date (49 CFR 591.5(i)). As of October 2026 that includes every first- and second-generation Pajero, so right-hand-drive Japanese-market trucks, the 2.5 and 2.8 turbo-diesels and the Pajero Evolution can all be imported. Bring a Trailer has sold dozens of them since 2016.",
+   "The EPA exemption is separate. It requires the vehicle to be at least 21 years old and in its original configuration, or fitted with an equivalent or newer EPA-certified engine and emissions system, so keep the import paperwork. State titling and emissions rules vary, and California is the hardest. Canada's threshold is 15 years, which doesn't make a truck legal to bring into the US."
+  ]
+ },
+ "production": {
+  "intro": "Built in Japan from January 1991 until the third generation arrived in 1999, and for years afterwards elsewhere under licence and in joint ventures.",
+  "items": [
+   {
+    "k": "Global sales",
+    "v": "≈1.15 million in 8 years and 7 months (Mitsubishi design team)"
+   },
+   {
+    "k": "Japanese domestic sales",
+    "v": "390,714 (Best Car, via JDMBUYSELL)"
+   },
+   {
+    "k": "Peak domestic sales",
+    "v": "7,000–8,000 a month (Mitsubishi Japan)"
+   },
+   {
+    "k": "Assembly",
+    "v": "Pajero Manufacturing Co., Sakahogi, Gifu; also assembled or built under licence in the Philippines, India, Colombia, Venezuela and China"
+   },
+   {
+    "k": "Iran",
+    "v": "1,080 facelifted trucks assembled by Bahman Group"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Pajero Evolution (V55W)",
+    "years": "1997–1999",
+    "note": "Dakar T2 homologation special with a MIVEC 3.5 V6, independent rear suspension and wide tracks. About 2,693 built."
+   },
+   {
+    "name": "Pajero Wide",
+    "years": "1997–1999",
+    "note": "Japanese-market wide-fender models, launched May 1997 with a 3.5 GDI V6."
+   },
+   {
+    "name": "Pajero Field Master",
+    "years": "1995–2008 (Philippines)",
+    "note": "Locally built 2.5 4D56 and 2.8 4M40 diesel versions, later also offered with 4x2."
+   },
+   {
+    "name": "Montero Dakar",
+    "years": "1996–2009 (Venezuela)",
+    "note": "Short-wheelbase 6G72 V6 with a five-speed manual."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Pajero 4WD Club of Victoria",
+   "url": "https://www.pajeroclub.com.au/",
+   "note": "Australian club of 300-plus families, running high-country trips, driver training and a biennial Easter muster; all 4WDs welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mitsubishi Pajero",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero"
+  },
+  {
+   "name": "Wikipedia — Mitsubishi Pajero Evolution",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero_Evolution"
+  },
+  {
+   "name": "Wikipedia — Mitsubishi 6G7 engine",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_6G7_engine"
+  },
+  {
+   "name": "Wikipedia — Mitsubishi 4M4 engine",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_4M4_engine"
+  },
+  {
+   "name": "Mitsubishi Car Design Trails — Pajero 2nd (1991)",
+   "url": "https://mit-cardesign-t.com/en/front/design-stories-en/de-pajero-2nd-en/"
+  },
+  {
+   "name": "Mitsubishi Motors Japan — Pajero history: 2nd generation (Japanese)",
+   "url": "https://www.mitsubishi-motors.co.jp/lineup/pajero/special/history/2nd-generation-pajero/"
+  },
+  {
+   "name": "Mitsubishi Motors Japan — Pitman-arm ball-joint inspection notice (Japanese)",
+   "url": "https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html"
+  },
+  {
+   "name": "JDMBUYSELL — Mitsubishi Pajero V20 buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/v20/"
+  },
+  {
+   "name": "Bring a Trailer — Mitsubishi Pajero & Montero results",
+   "url": "https://bringatrailer.com/mitsubishi/pajero-montero/"
+  },
+  {
+   "name": "Bring a Trailer — Mitsubishi Pajero Evolution results",
+   "url": "https://bringatrailer.com/mitsubishi/pajero-evolution/"
+  },
+  {
+   "name": "Bring a Trailer — 1994 Mitsubishi Montero SR (sold October 2024)",
+   "url": "https://bringatrailer.com/listing/1994-mitsubishi-montero/"
+  },
+  {
+   "name": "Bring a Trailer — 1995 Mitsubishi Montero LS (sold March 2026)",
+   "url": "https://bringatrailer.com/listing/1995-mitsubishi-montero-7/"
+  },
+  {
+   "name": "Bring a Trailer — 18k-mile 1998 Mitsubishi Montero (sold March 2024)",
+   "url": "https://bringatrailer.com/listing/1998-mitsubishi-pajero-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1995 Mitsubishi Pajero 3.5L V6 (sold September 2025)",
+   "url": "https://bringatrailer.com/listing/1995-mitsubishi-pajero-14/"
+  },
+  {
+   "name": "Unsealed 4X4 — 1996–2000 NL Pajero in new Takata airbag recall; Mitsubishi offers buy-back",
+   "url": "https://unsealed4x4.com.au/1996-2000-mitsubishi-pajero-nl-in-new-takata-airbag-recall-mitsubishi-offers-to-buy-back-vehicles/"
+  },
+  {
+   "name": "ExplorOz forum — Rims and tyres for NL Pajero",
+   "url": "https://www.exploroz.com/forum/47475/rims-and-tyres-for-nl-pajero"
+  },
+  {
+   "name": "ExplorOz forum — Pajero NL (I need to know)",
+   "url": "https://www.exploroz.com/forum/44769/pajero-nl-i-need-to-know"
+  },
+  {
+   "name": "ExplorOz forum — NL Pajero",
+   "url": "https://www.exploroz.com/forum/39150/nl-pajero"
+  },
+  {
+   "name": "ExplorOz forum — Pajero reliability & economy",
+   "url": "https://www.exploroz.com/forum/32526/pajero-reliability--economy"
+  },
+  {
+   "name": "AMSOIL — 1993 Mitsubishi Montero 3.0L (6G72) lubricant and capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1993/mitsubishi/montero/3-0l-6-cyl-engine-code-h-6g72-h/"
+  },
+  {
+   "name": "AMSOIL — 1997 Mitsubishi Montero 3.5L (6G74) lubricant and capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1997/mitsubishi/montero/3-5l-6-cyl-engine-code-r-6g74-m/"
+  },
+  {
+   "name": "Limitless Tire — 1998 Mitsubishi Montero wheel and tire specs",
+   "url": "https://limitlesstire.com/vehicles/mitsubishi/montero/1998/"
+  },
+  {
+   "name": "Pajero 4WD Club of Victoria",
+   "url": "https://www.pajeroclub.com.au/"
+  },
+  {
+   "name": "eCFR — 49 CFR 591.5 (import exemptions, including the 25-year rule)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-591/section-591.5"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle (Montero 1983–2000, Dodge Raider 1987–1989)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=MITSUBISHI&model=MONTERO&modelYear=1995"
+  }
+ ]
+}

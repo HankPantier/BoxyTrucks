@@ -1,0 +1,313 @@
+{
+ "fitment": {
+  "stock": [
+   "15-inch steel or optional alloy wheels on US Monteros and Raiders (BaT listings)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "[TO RESEARCH: owner consensus]",
+    "note": "One documented example: BaT's 1990 Montero LS on 285/70R17 tyres and aftermarket 17-inch wheels, with no lift mentioned in the listing. Measure clearance at full lock and full stuff."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front seat-belt buckle release buttons can break (Montero)",
+    "years": "1986–1991",
+    "ref": "NHTSA 95V103004",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V103004",
+    "summary": "Red 'PRESS' release buttons can break, and the pieces can stop the buckle working properly."
+   },
+   {
+    "title": "Front seat-belt buckle release buttons can break (Dodge Raider)",
+    "years": "1987–1989",
+    "ref": "NHTSA 95V103003",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V103003",
+    "summary": "Same buckle problem on the Raider, under Chrysler's campaign."
+   },
+   {
+    "title": "Throttle valve icing (Montero)",
+    "years": "1989",
+    "ref": "NHTSA 89V030000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V030000",
+    "summary": "The throttle valve can ice up under certain conditions."
+   },
+   {
+    "title": "Throttle blade icing (Dodge Raider)",
+    "years": "1989",
+    "ref": "NHTSA 89V027000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V027000",
+    "summary": "The throttle blade can ice during extended highway driving below 10 °F."
+   },
+   {
+    "title": "Oil-pressure sender can leak",
+    "years": "1984",
+    "ref": "NHTSA 84V098000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V098000",
+    "summary": "The oil-pressure sending unit on the right side of the engine can leak oil, risking engine damage."
+   },
+   {
+    "title": "Aftermarket Reese trailer hitch weld (equipment)",
+    "years": "1987–1989 Raider · 1991 Montero",
+    "ref": "NHTSA 93E023000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93E023000",
+    "summary": "The receiver weld on a Reese hitch can break. This is an equipment recall, not a Mitsubishi or Chrysler campaign."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Pitman-arm ball-joint inspection (Japan service notice)",
+    "ref": "Mitsubishi Japan notice (L041G–L149G)",
+    "summary": "Inspection procedure for trucks with integral ball-nut steering; relay-rod nuts 44 N·m; replace boots every 5 years.",
+    "url": "https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1982",
+   "change": "On sale in Japan in May: short-wheelbase three-door with a metal or canvas top. Petrol and diesel fours, part-time 4WD, torsion-bar IFS",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "Five-door long wheelbase arrives (February) and the high roof follows (July). Paris–Dakar debut in January: class win and 11th overall for Andrew Cowan",
+   "flag": "note"
+  },
+  {
+   "year": "1984",
+   "change": "Uprated turbo-diesels. Cowan third overall on the Dakar in a modified-class Pajero",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Four-speed automatic added (April). Zaniroli and Da Silva win the Paris–Dakar overall in a works prototype. LWB models get four-wheel discs and adjustable shocks",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "4D56 2.5 turbo-diesel replaces the 2.3",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "Exceed flagship (September). Dodge Raider (three-door) goes on sale in the US",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "3.0 6G72 V6 and an intercooled 2.5 turbo-diesel. LWB trucks switch to three-link coil rear suspension. Raider V6 (US)",
+   "flag": "buy"
+  },
+  {
+   "year": "1989",
+   "change": "Last Dodge Raider model year",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "Replaced by the second generation in January. Final US model year for the first-generation Montero (RS and LS)",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Short or long, leaf or coil, four or V6, Mitsubishi or Dodge: the first generation comes in many combinations, and grey-import diesels add more.",
+  "items": [
+   {
+    "head": "Chassis codes",
+    "body": "Mitsubishi's steering notice lists the first-generation codes: L041G, L043G, L044G, L046G, L048G, L049G, L141G, L144G, L146G and L149G."
+   },
+   {
+    "head": "Raider or Montero",
+    "body": "The Raider is a Dodge-badged three-door only. A 'V6' grille badge marks the 3.0 V6 Raider. Mechanically it's the same as a three-door Montero."
+   },
+   {
+    "head": "Engine",
+    "body": "US trucks have the 2.6 G54B SOHC four (109 hp) or the 3.0 6G72 V6 (143 hp). A diesel in the US is a later import."
+   },
+   {
+    "head": "Rear suspension",
+    "body": "Leaf springs until 1988; LWB trucks then got three-link coils. BaT's 1988 Montero Sport short wheelbase still runs leaves."
+   },
+   {
+    "head": "Camel Trophy Edition",
+    "body": "About 150 yellow short-wheelbase Camel Trophy Editions were built with the 4D56. Wikipedia says originals carry a yellow-and-black plaque and their own chassis code, and that replicas exist."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "2,350 mm (92.5 in) SWB · 2,695 mm (106.1 in) LWB"
+  },
+  {
+   "k": "Length",
+   "v": "3,995 mm (157.3 in) SWB · 4,650 mm (183.1 in) LWB"
+  },
+  {
+   "k": "Height",
+   "v": "1,849 mm (72.8 in) SWB · 1,890 mm (74.4 in) LWB"
+  },
+  {
+   "k": "Seats",
+   "v": "Up to 7 in the LWB with the folding third row"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "First-generation trucks are still cheap. Clean, original V6 LS Monteros and low-mileage Raiders are the ones that are going up.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$3.5k–6.5k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$6.5k–12k"
+   },
+   {
+    "cond": "Excellent / original",
+    "range": "$15k–24k"
+   }
+  ],
+  "note": "Based on Bring a Trailer sold results since 2020. US Monteros and Raiders sold for $3,850 (a 1988 Montero Sport) to $24,000 (a 1990 Montero LS in May 2024); Raiders since 2024 went for $5,100–11,300. Imported Pajeros sold for about $3,850–16,250, and a 36k-mile 1988 Paris-Dakar Special brought $22,750 in 2018."
+ },
+ "docs": [
+  {
+   "name": "Mitsubishi Motors Japan — Pitman-arm ball-joint inspection notice (Japanese)",
+   "url": "https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html",
+   "note": "The factory inspection procedure for all first-generation chassis codes."
+  },
+  {
+   "name": "AMSOIL — 1989 Montero 2.6 capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1989/mitsubishi/montero/2-6l-4-cyl-engine-code-e-e/",
+   "note": "Third-party fluid capacities and specs for the US 2.6; confirm against the owner's manual."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "NHTSA's import exemption covers vehicles at least 25 years old, counted from each vehicle's own manufacture date (49 CFR 591.5(i)). As of October 2026 that includes every first- and second-generation Pajero, so right-hand-drive Japanese-market trucks, the 2.5 and 2.8 turbo-diesels and the Pajero Evolution can all be imported. Bring a Trailer has sold dozens of them since 2016.",
+   "The EPA exemption is separate. It requires the vehicle to be at least 21 years old and in its original configuration, or fitted with an equivalent or newer EPA-certified engine and emissions system, so keep the import paperwork. State titling and emissions rules vary, and California is the hardest. Canada's threshold is 15 years, which doesn't make a truck legal to bring into the US."
+  ]
+ },
+ "production": {
+  "intro": "Built in Japan from 1982 to 1991, and then for another decade by Hyundai as the Galloper.",
+  "items": [
+   {
+    "k": "Japanese domestic sales",
+    "v": "164,466 (Best Car, via JDMBUYSELL)"
+   },
+   {
+    "k": "Monthly domestic sales",
+    "v": "670 at launch, rising to about 3,000 by the end (Kiyoshi Honda)"
+   },
+   {
+    "k": "Initial sales plan",
+    "v": "1,000 a month in Japan and 1,600 overseas"
+   },
+   {
+    "k": "Dodge Raider US sales",
+    "v": "4,768 (1986) · 19,539 (1987) · 7,861 (1988) · 9,450 (1989), calendar years (CarSalesBase)"
+   },
+   {
+    "k": "Assembly",
+    "v": "Pajero Manufacturing Co., Sakahogi, Gifu; under licence by Hyundai Precision (Galloper), Ulsan"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Exceed",
+    "years": "1987–1991",
+    "note": "Flagship with two-tone paint, alloys, heated seats and rear air conditioning; JDM Super Exceed added spotlights and a bull bar."
+   },
+   {
+    "name": "Camel Trophy Edition",
+    "years": "1980s",
+    "note": "About 150 yellow SWB trucks with the 4D56 and a five-speed, a PTO winch and a recovery kit."
+   },
+   {
+    "name": "Super Royal Exceed",
+    "years": "1990",
+    "note": "Japanese luxury limited edition with leather seats."
+   },
+   {
+    "name": "Dodge Raider",
+    "years": "1987–1989",
+    "note": "US three-door sold through Dodge dealers."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Pajero 4WD Club of Victoria",
+   "url": "https://www.pajeroclub.com.au/",
+   "note": "Founded when the first SWB Pajero arrived in Australia; trips, training and a members' forum. All 4WDs welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mitsubishi Pajero",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero"
+  },
+  {
+   "name": "JDMBUYSELL — Mitsubishi Pajero L040 buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/"
+  },
+  {
+   "name": "Mitsubishi Motors Japan — Pitman-arm ball-joint inspection notice (Japanese)",
+   "url": "https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html"
+  },
+  {
+   "name": "Mitsubishi Car Design Trails — Pajero (1982), by Kiyoshi Honda and Hiroshi Mizutani",
+   "url": "https://mit-cardesign-t.com/en/front/design-stories-en/pajero1982/"
+  },
+  {
+   "name": "The Truth About Cars — Abandoned History: Dodge's Dead Import Trucks (Part III)",
+   "url": "https://www.thetruthaboutcars.com/2022/05/abandoned-history-dodges-dead-import-trucks-part-iii/"
+  },
+  {
+   "name": "CarSalesBase — Dodge Raider US sales",
+   "url": "https://carsalesbase.com/us-dodge-raider/"
+  },
+  {
+   "name": "Bring a Trailer — Mitsubishi Pajero & Montero results",
+   "url": "https://bringatrailer.com/mitsubishi/pajero-montero/"
+  },
+  {
+   "name": "Bring a Trailer — 1988 Mitsubishi Montero Sport 5-Speed (sold May 2026)",
+   "url": "https://bringatrailer.com/listing/1988-mitsubishi-pajero-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1989 Dodge Raider V6 (sold January 2026)",
+   "url": "https://bringatrailer.com/listing/1989-dodge-raider-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1987 Dodge Raider (sold October 2026)",
+   "url": "https://bringatrailer.com/listing/1987-dodge-raider-6/"
+  },
+  {
+   "name": "Bring a Trailer — 1990 Mitsubishi Montero LS (sold May 2024)",
+   "url": "https://bringatrailer.com/listing/1990-mitsubishi-montero-9/"
+  },
+  {
+   "name": "AMSOIL — 1989 Mitsubishi Montero 2.6L lubricant and capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1989/mitsubishi/montero/2-6l-4-cyl-engine-code-e-e/"
+  },
+  {
+   "name": "Pajero 4WD Club of Victoria",
+   "url": "https://www.pajeroclub.com.au/"
+  },
+  {
+   "name": "eCFR — 49 CFR 591.5 (import exemptions, including the 25-year rule)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-591/section-591.5"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle (Montero 1983–2000, Dodge Raider 1987–1989)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=MITSUBISHI&model=MONTERO&modelYear=1995"
+  }
+ ]
+}
