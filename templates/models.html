@@ -14,8 +14,8 @@
   <section class="fam-block" id="{{ f.slug }}" data-fam>
     <a href="{{ f.slug }}/index.html">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ mlabel(f.maker, f.name) }}" loading="lazy">{% else %}<div class="ph" style="height:220px">[PHOTO]</div>{% endif %}</a>
     <div style="display:flex;flex-direction:column;gap:12px">
-      <span class="eyebrow">{{ f.maker }} · {{ f.years }}</span>
-      <h2 style="font-size:36px"><a href="{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.name }}</a></h2>
+      <span class="eyebrow">{{ mlabel(f.maker, f.name) }} · {{ f.years }}</span>
+      <h2 style="font-size:36px"><a href="{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.short }}</a></h2>
       <p class="verdict" style="margin:0;font-size:18px;line-height:27px">“{{ f.verdict }}”</p>
       <div class="rows">
         {% for g in f.generations %}<a class="row" data-search="{{ (f.maker ~ ' ' ~ f.name ~ ' ' ~ g.name ~ ' ' ~ (g.codes|join(' ')))|lower }}" href="{{ f.slug }}/{{ g.slug }}.html" style="padding:11px 0"><span class="t" style="font-size:16px">{{ g.name }}{% if g.has_page %} <span class="chip" style="margin-left:8px;background:var(--ink);color:var(--paper);font-size:10px;padding:2px 6px">FULL GUIDE</span>{% endif %}</span><span class="m">{{ g.years }}{% if g.codes %} · {{ g.codes[:2]|join(', ') }}{% endif %}</span></a>{% endfor %}

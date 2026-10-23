@@ -22,7 +22,7 @@
 {% elif hub.kind == 'mods' %}
   <div class="filters" role="search">
     <label for="m-q">Search<input id="m-q" type="search" placeholder="Supplier, part or category — OME, sliders, roof rack, air suspension"></label>
-    <label for="m-fam">Make &amp; family<select id="m-fam"><option value="">All families</option>{% for f in fam_list %}<option value="{{ f.slug }}">{{ mlabel(f.maker, f.name) }}</option>{% endfor %}</select></label>
+    <label for="m-fam">Make &amp; family<select id="m-fam"><option value="">All families</option>{% for f in fam_list %}<option value="{{ f.slug }}">{{ f.short }}</option>{% endfor %}</select></label>
     <label for="m-model">Model<select id="m-model"><option value="">All models</option>{% for grp in hub.groups %}<option value="{{ grp.fam }}/{{ grp.gen }}" data-fam="{{ grp.fam }}">{{ grp.model }}</option>{% endfor %}</select></label>
     <label for="m-sort">Sort<select id="m-sort"><option value="model">By model</option><option value="cat">By category</option><option value="az">Supplier A–Z</option></select></label>
   </div>
@@ -63,17 +63,17 @@
   })();
   </script>
 {% elif hub.kind == 'resources' %}
-  <nav class="chips" aria-label="Jump to" style="margin-bottom:40px">{% for grp in hub.groups %}<a class="chip" href="#{{ grp.href.split('/')[2] }}">{{ mlabel(grp.maker, grp.name) }}</a>{% endfor %}</nav>
+  <nav class="chips" aria-label="Jump to" style="margin-bottom:40px">{% for grp in hub.groups %}<a class="chip" href="#{{ grp.href.split('/')[2] }}">{{ grp.short }}</a>{% endfor %}</nav>
   {% for grp in hub.groups %}
   <section id="{{ grp.href.split('/')[2] }}" style="margin-bottom:64px;scroll-margin-top:90px">
-    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.name }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Family page →</a></div>
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ mlabel(grp.maker, grp.name) }}</span><h2>{{ grp.short }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Family page →</a></div>
     {{ res_block(grp.res) }}
   </section>
   {% endfor %}
 {% elif hub.kind == 'sale' %}
   {% for f in fam_list %}
   <section style="margin-bottom:48px">
-    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ f.maker }}</span><h2>{{ f.name }}</h2></div></div>
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ mlabel(f.maker, f.name) }}</span><h2>{{ f.short }}</h2></div></div>
     <div class="table-box"><table style="min-width:600px"><thead><tr><th>GENERATION</th><th>YEARS</th><th>AUTOTEMPEST</th><th>BRING A TRAILER</th></tr></thead><tbody>
       {% for g in f.generations %}<tr><td><a href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a></td><td class="mono">{{ g.years }}</td><td>{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">Search ↗</a>{% endif %}</td><td>{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td></tr>{% endfor %}
     </tbody></table></div>

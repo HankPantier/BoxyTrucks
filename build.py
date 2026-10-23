@@ -142,7 +142,7 @@ def load():
         d = jload(DATA / f'{slug}.json')
         if not d:
             continue
-        fam = d['family']; fam['slug'] = slug
+        fam = d['family']; fam['slug'] = slug; fam['short'] = SHORT_NAME.get(slug, fam['name'])
         fams[slug] = fam
         pages[slug] = {}
         if d.get('page'):
@@ -420,7 +420,7 @@ def main():
                 rep_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'repairs': p['repairs']})
             if p.get('mods'):
                 mod_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'mods': p['mods'], 'fam': slug, 'gen': gs, 'order': len(mod_groups)})
-        res_groups.append({'maker': fam['maker'], 'name': fam['name'], 'href': f'../models/{slug}/index.html', 'res': resources[slug]})
+        res_groups.append({'maker': fam['maker'], 'name': fam['name'], 'short': fam['short'], 'href': f'../models/{slug}/index.html', 'res': resources[slug]})
 
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})

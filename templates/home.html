@@ -22,7 +22,7 @@
       <a href="{{ root }}models/{{ f.slug }}/index.html" style="display:block">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ mlabel(f.maker, f.name) }} off road" loading="lazy" style="height:280px;width:100%;object-fit:cover;border-bottom:1px solid var(--ink)">{% else %}<div class="ph" style="height:280px">[PHOTO]</div>{% endif %}</a>
       <div class="body">
         <span class="eyebrow">{{ f.maker }}</span>
-        <h3><a href="{{ root }}models/{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.name }}</a></h3>
+        <h3><a href="{{ root }}models/{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.short }}</a></h3>
         <p class="verdict">“{{ f.verdict }}”</p>
         <div class="chips" style="padding-top:12px;border-top:1px solid var(--hair)">{% for g in f.generations %}<a class="chip" href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a>{% endfor %}</div>
       </div>
@@ -107,7 +107,7 @@
   <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">The one you’ll own someday</span><h2>For sale now</h2></div><a class="label" href="{{ root }}for-sale/index.html" style="color:var(--ink)">Every model →</a></div>
   <div class="grid" style="--min:240px">
     {% for f in fam_list %}{% set full = f.generations|selectattr('has_page')|list %}{% set g = full[0] if full else f.generations[0] %}
-    <div class="sale"><span class="eyebrow brass">{{ f.maker }} · {{ g.years }}</span><span class="l">{{ f.name }} {{ g.name }}</span>
+    <div class="sale"><span class="eyebrow brass">{{ f.maker }} · {{ g.years }}</span><span class="l">{{ mlabel(f.maker, g.name) }}</span>
       <div class="links">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
     </div>{% endfor %}
   </div>
