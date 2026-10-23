@@ -8,7 +8,7 @@
   "LEAF SPRINGS, SELECTABLE 4WD",
   "1.6 · 2.0 · 2.25 · 2.6 SIX · 3.5 V8"
  ],
- "hero_photo": "series-desert-dune.jpg",
+ "hero_photo": "series3-tiras-mountains.jpg",
  "story": [
   {
    "heading": null,
@@ -635,20 +635,36 @@
  ],
  "photos": [
   {
+   "file": "series3-tiras-mountains.jpg",
+   "alt": "An orange Series III Land Rover 109 pickup with a cage-sided bed in tall golden grass below the Tiras Mountains, Namibia",
+   "caption": "SERIES III 109 · NAMIBIAN GRASSLAND",
+   "credit": "Hp.Baumeler · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Land_Rover_Tiras_Mountains_(2009).jpg"
+  },
+  {
+   "file": "series1-camm-high-road.jpg",
+   "alt": "A weathered green Series I 80-inch Land Rover with a battered white hardtop on the Camm High Road moorland track, Ribblehead Viaduct in the valley below",
+   "caption": "SERIES I 80\" · CAMM HIGH ROAD",
+   "credit": "Kognos · CC BY 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Series_1_80_inch_Land_Rover_on_Camm_High_Road.jpg"
+  },
+  {
    "file": "series-desert-dune.jpg",
-   "alt": "A cream Series Land Rover with a bonnet-mounted spare wheel parked on desert sand at golden hour",
-   "caption": "SERIES · ON THE DUNES",
+   "alt": "A sage-green Series II/IIA Land Rover with a bonnet-mounted spare wheel parked on desert sand at golden hour",
+   "caption": "SERIES II/IIA · DESERT DUNES",
    "credit": "Hasse Lossius",
    "source": "Unsplash",
    "source_url": "https://unsplash.com/photos/vintage-land-rover-parked-on-a-sandy-desert-dune-QZ4gaM5R9oA"
   },
   {
-   "file": "defender-90-mountain-trail.jpg",
-   "alt": "A blue classic Defender 90 (the Series' successor, not a Series) with snorkel and roof rack on a muddy moorland track below snowy mountains",
-   "caption": "SUCCESSOR · CLASSIC DEFENDER 90",
-   "credit": "Thomas Tucker",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-blue-land-rover-sits-against-a-mountainous-backdrop-vGErU_q5mEM"
+   "file": "series3-mud-bogging.jpg",
+   "alt": "A green Series III Land Rover station wagon ploughing through a muddy rutted track in a field",
+   "caption": "SERIES III · MUD RUTS",
+   "credit": "AndrewH · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Land_Rover_Series_III_mud_bogging.jpg"
   }
  ],
  "sources": [
@@ -928,5 +944,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "65% 65%"
 }

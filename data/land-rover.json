@@ -760,14 +760,6 @@
     "source_url": "https://unsplash.com/photos/a-blue-land-rover-sits-against-a-mountainous-backdrop-vGErU_q5mEM"
    },
    {
-    "file": "defender-90-forest-track.jpg",
-    "alt": "Rear view of a grey-blue classic Defender 90 station wagon with a BFGoodrich spare driving into a pine forest",
-    "caption": "DEFENDER 90 · PINE FOREST",
-    "credit": "Sven W",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/black-suv-in-the-middle-of-the-forest-during-daytime-KRB-KhzJr7M"
-   },
-   {
     "file": "defender-110-beach.jpg",
     "alt": "A dark green classic Defender 110 with light bar and winch bumper on white sand dunes at Vejers Strand, Denmark",
     "caption": "DEFENDER 110 · DANISH DUNES",
@@ -782,14 +774,6 @@
     "credit": "Mr Dibo",
     "source": "Unsplash",
     "source_url": "https://unsplash.com/photos/black-suv-on-dirt-road-during-daytime-eJ9c6OLzIX4"
-   },
-   {
-    "file": "series-desert-dune.jpg",
-    "alt": "A cream Land Rover Series (not a Defender) with bonnet-mounted spare parked on desert sand at golden hour",
-    "caption": "PREDECESSOR · SERIES ON THE DUNES",
-    "credit": "Hasse Lossius",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/vintage-land-rover-parked-on-a-sandy-desert-dune-QZ4gaM5R9oA"
    }
   ],
   "sources": [
@@ -1173,6 +1157,7 @@
      ]
     }
    ]
-  }
+  },
+  "hero_focus": "45% 55%"
  }
 }

@@ -8,7 +8,7 @@
   "RANGE ROVER CHASSIS, COILS, LT230",
   "200TDI · 300TDI · 3.5/3.9 V8"
  ],
- "hero_photo": null,
+ "hero_photo": "disco1-coromandel-ford.jpg",
  "story": [
   {
    "heading": null,
@@ -594,12 +594,20 @@
  ],
  "photos": [
   {
-   "file": "defender-110-dirt-road.jpg",
-   "alt": "A dark classic Defender 110 (a Discovery sibling, not a Discovery) kicking up dust on a dirt road across open grassland",
-   "caption": "SIBLING · CLASSIC DEFENDER 110",
-   "credit": "Mr Dibo",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/black-suv-on-dirt-road-during-daytime-eJ9c6OLzIX4"
+   "file": "disco1-coromandel-ford.jpg",
+   "alt": "A pale-green facelifted Land Rover Discovery Series I with a nudge bar splashing through a shallow ford on a gravel road, Coromandel, New Zealand",
+   "caption": "DISCOVERY I · COROMANDEL FORD",
+   "credit": "Jude from New Zealand · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Coromandel,_New_Zealand_-Land_Rover_Discovery_crossing_a_ford-24Feb2011.jpg"
+  },
+  {
+   "file": "disco1-200tdi-offroad.jpg",
+   "alt": "A muddy blue Discovery Series I 200Tdi with winch, rock sliders and mud tyres cross-axled on a steep off-road course",
+   "caption": "DISCOVERY 200TDI · OFF-ROAD CENTRE",
+   "credit": "Martin Spamer · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Off-Road-Prepared-Land-Rover-Discovery-200TDi.JPG"
   }
  ],
  "sources": [
@@ -957,5 +965,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "50% 50%"
 }

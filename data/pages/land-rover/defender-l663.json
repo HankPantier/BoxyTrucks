@@ -8,7 +8,7 @@
   "ALUMINIUM MONOCOQUE, INDEPENDENT SUSPENSION",
   "P300 · P400 · D250/D300 · P525 V8 · OCTA"
  ],
- "hero_photo": null,
+ "hero_photo": "l663-vestrahorn.jpg",
  "story": [
   {
    "heading": null,
@@ -588,20 +588,28 @@
  ],
  "photos": [
   {
-   "file": "defender-90-mountain-trail.jpg",
-   "alt": "A blue classic Defender 90 (the L663's predecessor, not an L663) with snorkel and roof rack on a moorland track below snowy mountains",
-   "caption": "PREDECESSOR · CLASSIC DEFENDER 90",
-   "credit": "Thomas Tucker",
+   "file": "l663-vestrahorn.jpg",
+   "alt": "A blue-grey Land Rover Defender 110 (L663) on black volcanic sand below the cloud-capped Vestrahorn, Stokksnes, Iceland",
+   "caption": "DEFENDER 110 · STOKKSNES, ICELAND",
+   "credit": "Karsten Winegeart",
    "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-blue-land-rover-sits-against-a-mountainous-backdrop-vGErU_q5mEM"
+   "source_url": "https://unsplash.com/photos/a-blue-land-rover-parked-in-front-of-a-mountain-C-we3byAFyg"
   },
   {
-   "file": "defender-110-beach.jpg",
-   "alt": "A dark green classic Defender 110 (not an L663) with light bar and winch bumper on white sand dunes in Denmark",
-   "caption": "PREDECESSOR · CLASSIC 110 ON THE DUNES",
-   "credit": "Peter Schulz",
+   "file": "l663-dust.jpg",
+   "alt": "A silver Land Rover Defender (L663) driving head-on out of a cloud of dust on a dirt road at sunset",
+   "caption": "DEFENDER (L663) · DUST ROAD",
+   "credit": "Vo Huy",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/a-white-land-rover-defender-on-dirt-road-14901782/"
+  },
+  {
+   "file": "l663-fog.jpg",
+   "alt": "A dark Land Rover Defender (L663) with headlights and fog lamps on, on a red-earth forest track in mist, Idukki, Kerala",
+   "caption": "DEFENDER (L663) · MISTY FOREST TRACK",
+   "credit": "Abhinand Venugopal",
    "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/a-black-land-rover-on-a-sandy-beach-YGaX6LkZU98"
+   "source_url": "https://unsplash.com/photos/a-truck-driving-down-a-dirt-road-in-the-dark-dxezrUJk0Y4"
   }
  ],
  "sources": [
@@ -888,5 +896,6 @@
     "parts": []
    }
   ]
- }
+ },
+ "hero_focus": "50% 60%"
 }
