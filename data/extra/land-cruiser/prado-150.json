@@ -1,0 +1,254 @@
+{
+ "fitment": {
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "≈32 in (e.g. 255/70R18; 275/65R17 with a slight liner rub)",
+    "note": "Consensus from owners of the twin Lexus GX 460, which shares the body and suspension. Test-fit on a Prado, whose bumpers differ by grade."
+   },
+   {
+    "lift": "2–2.5 in",
+    "size": "35 in",
+    "note": "GX 460 owners report it needs upper control arms, the right offset, a body-mount chop, liner removal and pinch-weld work."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "UK",
+  "items": [],
+  "tsbs": [
+   {
+    "title": "Manual DPF regeneration switch",
+    "ref": "Running change, June 2018",
+    "summary": "Standard across the 1GD/2GD Prado, HiLux and Fortuner range from June 2018 as a DPF countermeasure.",
+    "url": "https://www.4x4australia.com.au/news/toyota-dpf-class-action-settlement"
+   },
+   {
+    "title": "DPF exhaust hardware and software remedy",
+    "ref": "Available since May 2020",
+    "summary": "Toyota's free-of-charge repair for affected 2.8 and 2.4 diesels, combining revised exhaust hardware and software.",
+    "url": "https://www.4x4australia.com.au/news/toyota-dpf-class-action-settlement"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2009",
+   "change": "J150 launches in Japan on 14 September and in Australia on 16 November. Debut of KDSS with an electric accumulator, Crawl Control, Multi-Terrain Select and the Multi-Terrain Monitor",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "Unsealed 4X4 flags launch-year trucks for airbag recalls and electrical gremlins",
+   "flag": "avoid"
+  },
+  {
+   "year": "2010",
+   "change": "April: left-hand-drive Prados included in Toyota's VSC software recall after the Lexus GX 460 'Don't Buy' episode",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "Australian Altitude grade added between GXL and VX",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "First facelift (Japan 10 Sept, Australia October): new grille, bumpers and lamps, LED low beams, retuned suspension, five-mode MTS. Three-door dropped in Australia",
+   "flag": "buy"
+  },
+  {
+   "year": "2015",
+   "change": "June: 1GD-FTV 2.8 diesel (130 kW / 450 Nm) replaces the 1KD-FTV 3.0. AC60F six-speed auto. DPF arrives. V6 dropped in Japan",
+   "flag": "note"
+  },
+  {
+   "year": "2015–2020",
+   "change": "Diesels sold October 2015 to April 2020 covered by the Australian DPF class action",
+   "flag": "avoid"
+  },
+  {
+   "year": "2017",
+   "change": "Second facelift on 12 September. V6 dropped in Australia. Unsealed 4X4 flags 2017 trucks for head-unit, ESC-light and shift glitches",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "June: manual DPF regeneration switch standard",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "August update: 150 kW / 500 Nm, 3,000 kg braked towing, auto only, 9-inch screen with CarPlay and Android Auto",
+   "flag": "buy"
+  },
+  {
+   "year": "2023",
+   "change": "Production ends in October; replaced by the J250",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The 150 was sold under several names and with several engines, and its US twin wears a Lexus badge. The model code tells you what you're looking at.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "KDJ150/155 = 1KD-FTV 3.0 diesel. GDJ150 = 1GD-FTV 2.8 diesel. TRJ150/152 = 2TR-FE 2.7 petrol. GRJ150 = 1GR-FE 4.0 V6. GRJ152 = 3.5 V6 (China). URJ150 = Lexus GX 460. A 155 suffix is the short three-door."
+   },
+   {
+    "head": "Market names",
+    "body": "In the UK the J150 was sold as the Land Cruiser LC3, LC4 and LC5 by equipment level. Australian grades were GX, GXL, Altitude (from 2012), VX and Kakadu, plus the three-door SX and ZR until 2013."
+   },
+   {
+    "head": "Facelift tells",
+    "body": "2013-on trucks have the larger grille and new lamps. 2017-on trucks have the second face with the vertical-bar grille. 2020-on Australian trucks have the 9-inch CarPlay screen."
+   },
+   {
+    "head": "DPF countermeasures",
+    "body": "On a 2015–2020 diesel, look for the manual DPF regeneration switch (standard from June 2018) and ask a Toyota dealer whether the 2020 remedy is recorded against the VIN."
+   },
+   {
+    "head": "Spare and sub-tank",
+    "body": "Trucks with the spare on the tailgate keep the 63-litre sub-tank. Under-floor spare versions give it up."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,000 kg (6,614 lb) braked",
+   "note": "August 2020 update, Toyota Australia. Earlier trucks are rated at 2,500 kg (5,512 lb)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "150 L (39.6 US gal): 87 L main + 63 L sub",
+   "note": "Toyota Australia, 2020"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "7.9 L/100 km (ADR combined)",
+   "note": "2020 2.8 auto. Carsales measured 13.4 L/100 km towing a 2,300 kg caravan"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,790 mm (109.8 in) five-door / 2,450 mm (96.5 in) three-door"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,230–2,455 kg (4,916–5,412 lb)",
+   "note": "Range across versions, Wikipedia"
+  }
+ ],
+ "docs": [
+  {
+   "name": "Toyota Europe TechDoc",
+   "url": "https://www.toyota-tech.eu/",
+   "note": "Toyota's official paid repair-information portal for European-market vehicles, including the Land Cruiser J150"
+  },
+  {
+   "name": "Toyota Australia — owner's manuals",
+   "url": "https://www.toyota.com.au/owners/owners-manuals",
+   "note": "Official owner's manuals for Australian-market Prados (the site was offline when we checked in October 2026)"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota never sold the Prado 150 in the US. Americans got the Lexus GX 460 instead. NHTSA lets vehicles at least 25 years old be imported without meeting federal standards, and the first 150s were built in late 2009, so they don't become eligible until late 2034.",
+   "Until then, a US buyer who wants a J150 should buy a GX 460. Many Prado-specific parts, from the front end to bumpers, have been fitted to GXs by owners on IH8MUD."
+  ]
+ },
+ "production": {
+  "intro": "The 150 ran for fourteen years and was built in Japan, China and Russia.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "October 2009 – October 2023"
+   },
+   {
+    "k": "Assembly",
+    "v": "Tahara and Hamura (Hino), Japan; Chengdu (Sichuan FAW Toyota), China, 2013–2020; Vladivostok, Russia, 2013–2015"
+   },
+   {
+    "k": "Japanese sales target",
+    "v": "1,000 a month (2009 and 2013 releases)"
+   },
+   {
+    "k": "Australian context",
+    "v": "More than 320,000 Prados sold in Australia since 1996 (Toyota, 2020)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Altitude",
+    "years": "2012",
+    "note": "Australian grade between GXL and VX, with sat-nav, a moonroof and leather-accented trim"
+   },
+   {
+    "name": "Kakadu",
+    "years": "2009–2023",
+    "note": "Australian flagship with adaptive dampers, rear air suspension, Crawl Control and Multi-Terrain Select"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser Prado (J150)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado#J150"
+  },
+  {
+   "name": "Wikipedia — Lexus GX (2010 VSC recall)",
+   "url": "https://en.wikipedia.org/wiki/Lexus_GX"
+  },
+  {
+   "name": "Toyota (Japan) — Prado full model change, 14 Sept 2009",
+   "url": "https://global.toyota/jp/newsroom/toyota/21781842.html"
+  },
+  {
+   "name": "Toyota (Japan) — Prado minor change, 10 Sept 2013",
+   "url": "https://global.toyota/jp/newsroom/toyota/21785589.html"
+  },
+  {
+   "name": "Toyota (Japan) — Prado minor change, 12 Sept 2017",
+   "url": "https://global.toyota/jp/newsroom/toyota/21825066.html"
+  },
+  {
+   "name": "Toyota Australia — LandCruiser Prado update (24 Aug 2020)",
+   "url": "https://www.toyota.com.au/news/power-safety-and-equipment-boost-for-landcruiser-prado"
+  },
+  {
+   "name": "Carsales — 2020 Toyota Prado tow test",
+   "url": "https://www.carsales.com.au/editorial/details/toyota-prado-2020-tow-test-127924"
+  },
+  {
+   "name": "4X4 Australia — $750 million DPF settlement (13 Oct 2026)",
+   "url": "https://www.4x4australia.com.au/news/toyota-dpf-class-action-settlement"
+  },
+  {
+   "name": "Unsealed 4X4 — Toyota Prado 150 problems",
+   "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+  },
+  {
+   "name": "IH8MUD — Tire question (GX460)",
+   "url": "https://forum.ih8mud.com/threads/tire-question.1155514/"
+  },
+  {
+   "name": "GXOR — Wheel & tire database",
+   "url": "https://lexusgxor.com/wiki/mods/wheelstires"
+  },
+  {
+   "name": "wheel-size.com — Lexus GX 6x139.7 bolt pattern",
+   "url": "https://www.wheel-size.com/pcd/6x5.5/lexus/gx/2002-2024/"
+  },
+  {
+   "name": "IH8MUD — My GX460 -> Prado 150 build and travel thread",
+   "url": "https://forum.ih8mud.com/threads/my-gx460-prado-150-build-and-travel-thread.1344951/"
+  },
+  {
+   "name": "The Drive — 25-year import rule (Dec 2019)",
+   "url": "https://www.thedrive.com/news/31247/the-1995-toyota-mega-cruiser-king-of-off-roaders-is-legal-to-import-in-2020"
+  }
+ ]
+}

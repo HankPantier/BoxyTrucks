@@ -1,0 +1,464 @@
+{
+ "fitment": {
+  "stock": [
+   "37x12.50R16.5 LT load range D Goodyear Wrangler MT radial on 16.5-in wheels (1999 brochure)",
+   "37x12.5R17 on 17-in aluminum wheels (offered from 2000; 16.5-in aluminum wheels discontinued by 2002)"
+  ],
+  "wheel": {
+   "bolt_pattern": "8x165.1 (8x6.5\")",
+   "offset": "7-in backset on all factory wheels; a GT/Cepek 17x9 is +50 mm",
+   "center_bore": "About 4-3/4 in on the hub-centric factory one-piece steel wheel",
+   "lug_thread": "9/16-18 (7/8-in hex nut; a 22 mm socket fits)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "38x15.5",
+    "note": "Flash Off-Road calls this the largest tire for stock wheels without a lift. Watch for contact with the suspension in tight turns. Load ratings on 38s are lower than on most 37s."
+   },
+   {
+    "lift": "1 in (body)",
+    "size": "40 in (MT/R)",
+    "note": "Flash Off-Road saw a 40-in MTR on a turbo diesel with a 1-in body lift, but notes the 40s were load range C against E for the 37s."
+   },
+   {
+    "lift": "2 in (body)",
+    "size": "39.5 in",
+    "note": "Owners quoted by Flash Off-Road ran 39.5s with a 2-in body lift and no rubbing. Flash estimates 42s need about 3 in and slight trimming."
+   },
+   {
+    "lift": "4 in (2 in suspension + 2 in body)",
+    "size": "Up to 42 in",
+    "note": "Predator Inc's recommendation for its combined 4-in kit."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Engine-cover insulation chafing fuel return hose and wiring",
+    "years": "1992–1993",
+    "ref": "NHTSA 94V-162",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=94V162000",
+    "summary": "Insulation in the engine cover can wear through the fuel return hose and a wiring harness; dealers fitted steel lines and rerouted the wiring."
+   },
+   {
+    "title": "Fuel-pump oil pressure switch missing seal",
+    "years": "1992–1994",
+    "ref": "NHTSA 94V-164",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=94V164000",
+    "summary": "A missing seal lets contaminants into the switch that powers the fuel pump, so it can fail open or closed."
+   },
+   {
+    "title": "Cruise control cable can freeze",
+    "years": "1994–1995",
+    "ref": "NHTSA 95V-023",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V023000",
+    "summary": "Water in the cable can freeze and stop the cruise control releasing; dealers replaced and rerouted the actuator and cable."
+   },
+   {
+    "title": "Fuel tank can expand into the propshaft",
+    "years": "1995",
+    "ref": "NHTSA 95V-161",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V161000",
+    "summary": "In heat above 95°F the tank can swell against its shield and be holed by the propeller shaft; dealers added a supplemental vent system."
+   },
+   {
+    "title": "Accelerator pedal shaft corrosion",
+    "years": "1992–1996",
+    "ref": "NHTSA 96V-049",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V049000",
+    "summary": "The pedal shaft's coating reacts with its bronze bushing and can corrode, raising friction; dealers fitted a revised pedal and shaft."
+   },
+   {
+    "title": "Master cylinder fastened with metric nuts",
+    "years": "1999",
+    "ref": "NHTSA 99V-059",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=99V059000",
+    "summary": "The master cylinder was attached to the Hydroboost with metric nuts instead of the required inch-thread nuts."
+   },
+   {
+    "title": "Brake lines chafing between master cylinder and ABS modulator",
+    "years": "1999–2000",
+    "ref": "NHTSA 00V-005",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V005000",
+    "summary": "The flexible lines can chafe and leak; dealers replaced them."
+   },
+   {
+    "title": "Turn signals fail to cancel",
+    "years": "1998–2000",
+    "ref": "NHTSA 01V-336",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=01V336000",
+    "summary": "The plastic cancelling pin in the switch can wear; dealers fitted a switch with a metal pin."
+   },
+   {
+    "title": "Wrong steering-gear mounting hardware",
+    "years": "2006",
+    "ref": "NHTSA 06V-377",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=06V377000",
+    "summary": "Some Alphas were assembled with an incorrect combination of steering-gear-to-frame hardware; dealers inspected and corrected it."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Transfer case cooler loop leak ('the vampire')",
+    "ref": "AM General Customer Satisfaction Campaign R0101 (September 2001)",
+    "summary": "Cracks at the cooler loop's welded fittings let transmission fluid flow into the transfer case, draining the transmission. The revised loop has a bracing angle and tab, and a light-blue band on one hose connection.",
+    "url": "http://www.flashoffroad.com/features/Tcase/Vampire/vampire.htm"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1992",
+   "change": "Civilian Hummer launches: mechanical 6.2 diesel (150 hp), 3L80 three-speed, 25-gal tank, batteries under the passenger seat, non-adjustable seats. Sold factory-direct at first. 316 built",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Electronic 6.5 diesel (170 hp, 290 lb-ft) and 4L80-E four-speed; batteries move under the hood; new HVAC, adjustable seats, catalytic converter",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "5.7 gas V8 option (23-gal tank, 24-in fording); extended-cab pickup and full-door open top added; wagon gets barn doors. From VIN 163985, stronger steering arms, center link and ball joints",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "6.5 turbo diesel arrives (190 hp, 385 lb-ft) with a second fuel tank on every truck; new CTIS with solenoid valves; body raised 3/4 in; gas engine dropped mid-year. Start of the No. 8-cylinder crack risk period",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "Turbo diesel to 195 hp and 430 lb-ft with oil-cooled pistons; sound insulation; Detroit Locker optional. From VIN 176477 ('97.5') a much better redesigned HVAC system",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Axle ratio changes from 2.73 to 2.56; eccentric camber adjustment; quieter geared hubs. The last year of Torsen I and no ABS; Flash Off-Road calls it the quintessential pre-Alpha H1",
+   "flag": "buy"
+  },
+  {
+   "year": "1999",
+   "change": "ABS, TorqTrac4 traction control and Torsen II differentials; naturally aspirated diesel dropped. AM General starts fitting improved 6.5 blocks from May. GM buys the Hummer brand in December",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "Slant-back body offered (39 built, per Flash Off-Road); 16.5-in and 17-in aluminum wheel options; redesigned cabin. Later 2000 trucks (after VIN 137ZA9037YE188469) not at risk of the No. 8 crack",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "First AM General-built 6.5 engines ('F' in the fourth VIN digit); redesigned gauges and heated mirrors",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "Higher torque-bias differentials; H1 badging; 10th Anniversary edition of 65 orange wagons; two- and four-door hardtops dropped except for fleets",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "Optional Eaton electric rear locker; factory leather and heated seats",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "'Optimizer' 6.5 turbo diesel with Caterpillar-built ECM (205 hp, 440 lb-ft); all-new interior; optional front and rear Eaton lockers. No 2005 model year follows",
+   "flag": "buy"
+  },
+  {
+   "year": "2006",
+   "change": "H1 Alpha: 6.6 Duramax (300 hp, 520 lb-ft), Allison five-speed, 2-in body lift, helical-gear hubs, 12-in brakes, 51 gal of fuel. 729 built; production ends June 2006",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "H1s were updated mid-year, re-engined by owners and sometimes built from military parts, so the VIN and the hardware tell you more than the title's model year.",
+  "items": [
+   {
+    "head": "VIN engine and transmission codes",
+    "body": "Fourth digit is the engine: X = 6.2 diesel, Y = 6.5 non-turbo diesel, Z = GM 6.5 turbo diesel, F = 6.5 turbo diesel with Caterpillar ECM, D/L = 5.7 L05 gas, W = 350 gas. Fifth digit: E = 3L80 three-speed, A = 4L80-E four-speed. On the 2006 Alpha the fourth digit is P (Duramax) and the fifth H (Allison)."
+   },
+   {
+    "head": "VIN body and year codes",
+    "body": "Digits 6–7 give the body: 82 VLC2 two-door truck, 83 HMC4 four-door truck, 84 HMCS wagon, 85 VLCO open top, 86 HMCF fleet, 87/88 Recruit, 89 XLC2 extended cab, 90 HMCO open top with full hard doors. Digit 10 is the model year (N = 1992 … 4 = 2004, 6 = 2006) and digit 11 is the plant (E = Mishawaka)."
+   },
+   {
+    "head": "Spotting an Alpha",
+    "body": "A square intake cap in place of the round 'mushroom', a Duramax badge on the hood, a hood hinged at the bottom center, a brush guard without its top bar, and a black block-off strip above the rear bumper filling the 2-in body-lift gap. Wave 2 trucks (from September 2005, first VIN 6E226861) have an all-black interior."
+   },
+   {
+    "head": "Torsen type and axle ratio",
+    "body": "Differential covers normally carry a tag with the ratio and Torsen type. Otherwise read the ring-gear tooth count: 41/15 is 2.73:1, 41/16 is 2.56:1. All trucks through 1998 have Torsen I; 1998 is the only Torsen I truck with 2.56 gears."
+   },
+   {
+    "head": "Old or upgraded HVAC",
+    "body": "Pre-'97.5 control heads have extra recirculate and A/C buttons and an electric heater valve. The upgraded system uses a vacuum-controlled heater valve, with small colored vacuum tubes behind the control head."
+   },
+   {
+    "head": "6.5 block casting",
+    "body": "The definitive check for the improved No. 8-cylinder block is the casting number, readable only with the engine cover off: C-159 (March 15, 1999) and later are the revised design."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,710 lb (3,497 kg) wagon · 8,050 lb (3,651 kg) open top",
+   "note": "1999 turbo diesel, 10,300/10,800-lb GVWR (brochure); Edmunds gives 9,300 lb for an Alpha open top"
+  },
+  {
+   "k": "GVWR",
+   "v": "10,300 or 10,800 lb",
+   "note": "1999 brochure"
+  },
+  {
+   "k": "Payload",
+   "v": "3,210 lb (1,456 kg) wagon · 3,550 lb (1,610 kg) open top",
+   "note": "10,300-lb GVWR, 1999 brochure"
+  },
+  {
+   "k": "Curb weight",
+   "v": "7,090 lb (3,216 kg) wagon · 6,750 lb (3,061 kg) open top",
+   "note": "1999 turbo diesel"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25 gal (95 L) + 17 gal (64 L) reserve",
+   "note": "1996 on; 25 gal only before 1996 (23 gal on gas trucks); 51 gal on the Alpha"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "16 in (406 mm)"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "72° / 37.5°",
+   "note": "47° approach with a winch (1999 brochure)"
+  },
+  {
+   "k": "Grade / side slope",
+   "v": "60% / 40%"
+  },
+  {
+   "k": "Wading depth",
+   "v": "30 in (762 mm)",
+   "note": "24 in for the 1995–96 gas trucks (Flash Off-Road)"
+  },
+  {
+   "k": "Turning radius",
+   "v": "26.5 ft (8.1 m)"
+  },
+  {
+   "k": "Width / wheelbase / track",
+   "v": "86.5 in / 130 in / 71.6 in"
+  },
+  {
+   "k": "Runflat range",
+   "v": "20 miles at 30 mph",
+   "note": "With the optional runflat inserts (1999 brochure)"
+  },
+  {
+   "k": "0–60 mph",
+   "v": "18.0 s (1999 turbo diesel) · 13.5 s (2006 Alpha)",
+   "note": "Brochure; Edmunds"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "About 11.5 mpg city / 15 highway",
+   "note": "Real-world 1996 turbo diesel driven under 67 mph (Flash Off-Road); the gas trucks returned 7–11"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "H1 prices are well off the new-truck sticker but strong for clean, documented trucks. The Alpha and Duramax conversions sit in a different bracket.",
+  "ranges": [
+   {
+    "cond": "Driver, 1992–2003 6.2 / 6.5",
+    "range": "$30k–60k"
+   },
+   {
+    "cond": "Low-mileage or excellent pre-Alpha",
+    "range": "$60k–100k"
+   },
+   {
+    "cond": "2006 H1 Alpha",
+    "range": "$120k–146k"
+   },
+   {
+    "cond": "Duramax-converted pre-Alpha",
+    "range": "$73k–212k"
+   }
+  ],
+  "note": "Based on about 50 Bring a Trailer H1 sales from January 2025 to October 2026. Drivers sold for $30,500–60,255. Low-mileage trucks and a 2002 10th Anniversary reached $62,000–101,500. Stock Alphas sold for $120,000–146,000, and Duramax conversions for $73,000–212,500."
+ },
+ "docs": [
+  {
+   "name": "HUMMER Recommended Maintenance Schedule (#0574480), summarized",
+   "url": "http://www.flashoffroad.com/Maintenance/Scheduled/scheduledMaint.htm",
+   "note": "Flash Off-Road's transcription of the factory schedule and its A/B/C inspection groups"
+  },
+  {
+   "name": "AM General service manual CD notes",
+   "url": "http://www.flashoffroad.com/features/AMGservice_CD/amgServiceCD.html",
+   "note": "How to use the 1995–2003 factory service manual CDs on a modern computer"
+  },
+  {
+   "name": "1999 Hummer H1 brochure (specifications)",
+   "url": "http://oldcarbrochures.org/United%20States/Hummer/1999-Hummer/1999-Hummer-H1-Brochure/index.html",
+   "note": "Factory dimensions, weights, towing and component specs"
+  },
+  {
+   "name": "U.S. Army HMMWV maintenance manual (PDF)",
+   "url": "http://www.flashoffroad.com/hmmwv/ArmyTM.pdf",
+   "note": "Military manual hosted by Flash Off-Road; covers the shared HMMWV driveline (military trucks are 24-volt)"
+  },
+  {
+   "name": "Hummer VIN chart",
+   "url": "http://www.flashoffroad.com/Maintenance/Specs/VIN.htm",
+   "note": "Every VIN position decoded, including the Alpha"
+  }
+ ],
+ "production": {
+  "intro": "AM General built 11,818 civilian H1s in Mishawaka, Indiana, between 1992 and June 2006 (Wikipedia).",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "11,818"
+   },
+   {
+    "k": "Peak year",
+    "v": "1995: 1,432"
+   },
+   {
+    "k": "By year",
+    "v": "1992 316 · 1993 612 · 1994 718 · 1995 1,432 · 1996 1,374 · 1997 1,209 · 1998 945 · 1999 831 · 2000 1,333 · 2001 869 · 2002 704 · 2003 494 · 2004 252 · 2005 0 · 2006 729"
+   },
+   {
+    "k": "H1 Alpha",
+    "v": "729: 448 built January–May 2005, 281 from September 2005 to May 2006"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Limited Edition",
+    "years": "1992",
+    "note": "Launch trucks; 1993 models carried the same features, so the 'LE' badges were dropped (Flash Off-Road)"
+   },
+   {
+    "name": "Slant-back",
+    "years": "2000",
+    "note": "Military-style sloping rear body; 39 built, per Flash Off-Road"
+   },
+   {
+    "name": "10th Anniversary",
+    "years": "2002",
+    "note": "65 burnt-orange wagons with tan interiors (Flash Off-Road)"
+   },
+   {
+    "name": "H1 Alpha Wave 1 / Wave 2",
+    "years": "2006",
+    "note": "Wave 2 trucks, built from September 2005, have an all-black interior"
+   }
+  ],
+  "paint": "Factory colors ran from the 1992 CARC Green and semi-gloss Tan to gloss shades such as Fly Yellow (1997) and Competition Yellow (1998). The Alpha added Flame Red Metallic (R35) and Mystic Green Metallic (G38)."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "The Hummer Club Inc.",
+   "url": "https://www.thehummerclubinc.com/Default.aspx",
+   "note": "National Hummer owners' organization, with its Azimuth magazine, tech articles and off-road events"
+  },
+  {
+   "kind": "event",
+   "name": "Hummer Club — Uwharrie Winter 2026",
+   "url": "https://www.thehummerclubinc.com/Events/Events.aspx?M=U",
+   "note": "Club off-road event in Uwharrie, North Carolina, December 4–5, 2026"
+  },
+  {
+   "kind": "club",
+   "name": "Hummer4x4Offroad",
+   "url": "https://www.hummer4x4offroad.com/forum/forums/hummer-h1-1992-2006.15/",
+   "note": "Owners' forum with H1, regional and trip-report boards; posts the Hummer Club's event lists"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Hummer H1 (production table, Alpha details)",
+   "url": "https://en.wikipedia.org/wiki/Hummer_H1"
+  },
+  {
+   "name": "1999 Hummer H1 brochure — specifications (oldcarbrochures.org)",
+   "url": "http://oldcarbrochures.org/United%20States/Hummer/1999-Hummer/1999-Hummer-H1-Brochure/slides/1999-Hummer_H1-18-19.html"
+  },
+  {
+   "name": "Flash Off-Road — Year-by-Year Differences",
+   "url": "http://www.flashoffroad.com/features/ChangesByYear/Year-by-YearDifferences.htm"
+  },
+  {
+   "name": "Flash Off-Road — Buying a Used Hummer",
+   "url": "http://www.flashoffroad.com/features/buyingTrucks/buyingUsed.html"
+  },
+  {
+   "name": "Flash Off-Road — Hummer VIN Chart",
+   "url": "http://www.flashoffroad.com/Maintenance/Specs/VIN.htm"
+  },
+  {
+   "name": "Flash Off-Road — Cracked Block Problems in GM Turbo Diesels",
+   "url": "http://www.flashoffroad.com/Diesel/No8Cyl/CrackedBlock.htm"
+  },
+  {
+   "name": "Flash Off-Road — The Hummer H1 Alpha Duramax",
+   "url": "http://www.flashoffroad.com/Alpha/h1_alpha.htm"
+  },
+  {
+   "name": "Flash Off-Road — Differentials: Torsen and lockers",
+   "url": "http://www.flashoffroad.com/Maintenance/Differential/Diff_doityourself.htm"
+  },
+  {
+   "name": "Flash Off-Road — The Transfer Case Vampire",
+   "url": "http://www.flashoffroad.com/features/Tcase/Vampire/vampire.htm"
+  },
+  {
+   "name": "Flash Off-Road — Tires",
+   "url": "http://www.flashoffroad.com/features/Tires/tires.htm"
+  },
+  {
+   "name": "Flash Off-Road — What Kind of Wheel Can I Use",
+   "url": "http://www.flashoffroad.com/features/Wheels/wheel_use.htm"
+  },
+  {
+   "name": "Flash Off-Road — Lug Nuts",
+   "url": "http://www.flashoffroad.com/Maintenance/LugNuts/lugnut.htm"
+  },
+  {
+   "name": "Flash Off-Road — What It Takes to Install 42-in Tires",
+   "url": "http://www.flashoffroad.com/Improvements/BodyLift/largeTires.htm"
+  },
+  {
+   "name": "Predator Inc — 4-in Suspension / Body Lift Kit",
+   "url": "https://predatorinc.com/shop/4-lift-kit/"
+  },
+  {
+   "name": "Edmunds — 2006 Hummer H1 Alpha review",
+   "url": "https://edmunds.com/hummer/h1-alpha/2006/review"
+  },
+  {
+   "name": "NHTSA recalls API — AM General Hummer and Hummer H1, 1992–2006",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=AM%20GENERAL&model=HUMMER&modelYear=1995"
+  },
+  {
+   "name": "Bring a Trailer — Hummer H1 sold results",
+   "url": "https://bringatrailer.com/hummer/h1/"
+  },
+  {
+   "name": "The Hummer Club Inc. — upcoming events",
+   "url": "https://www.thehummerclubinc.com/Events/Events.aspx?M=U"
+  }
+ ]
+}

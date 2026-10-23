@@ -1,0 +1,268 @@
+{
+ "fitment": {
+  "stock": [
+   "37x12.50R17.5 LT 8PR (Japanese sources)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "37x12.50 (factory)",
+    "note": "It leaves the factory on 37s with 420 mm of clearance. We found no owner reports of fitting bigger tires."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1993",
+   "change": "JGSDF begins trials of the High Mobility Vehicle. A civilian prototype is shown at the 30th Tokyo Motor Show in October",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "Regular HMV deliveries begin with the 1st Infantry Regiment in spring. Civilian production starts late in the year",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "9 January: civilian Mega Cruiser (BXD20V) goes on sale at Toyota Store dealers. 15B-FT, 155 PS, ¥9.62 million",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "May: civilian truck switches to the electronically injected 15B-FTE (170 PS, 43.0 kgm); price ¥9.8 million. The HMV gets the same engine from FY1999",
+   "flag": "buy"
+  },
+  {
+   "year": "2001",
+   "change": "Civilian production ends in August and sales in December, after 133 registrations",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "HMV moves to Hino's N04C engine as the XCD10. Later military trucks are not BXD10s",
+   "flag": "note"
+  },
+  {
+   "year": "2020–21",
+   "change": "The earliest trucks pass 25 years old and become legal to import into the US",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Japan delivers 30 HMVs to Ukraine as part of a vehicle donation",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "With 133 civilian trucks and thousands of military ones, knowing exactly which Mega Cruiser you're looking at decides what it's worth.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "BXD20V (full type KC-BXD20V-RRPEW) is the civilian five-door wagon. BXD10 is the 15B-engined JGSDF High Mobility Vehicle. XCD10 is the later HMV with a Hino N04C engine, built from FY2004."
+   },
+   {
+    "head": "Civilian vs military",
+    "body": "Civilian trucks have a hard roof, six seats, air conditioning, a right-hinged side-opening tailgate with a retractable step, and a chain hoist for the high-mounted spare. Military BXD10s typically have canvas tops, inward-facing rear benches, a folding windscreen and run-flat inserts in the tires."
+   },
+   {
+    "head": "High roof",
+    "body": "Some civilian trucks had a high roof that wasn't in the catalogue. BaT's 2025 high-roof truck had a fiberglass roof with hatches and safari windows."
+   },
+   {
+    "head": "Engine",
+    "body": "15B-FT (mechanical injection) on 1996 to April 1999 civilian trucks, and 15B-FTE (electronic injection) from May 1999."
+   },
+   {
+    "head": "Drive side",
+    "body": "Toyota built the Mega Cruiser in right-hand drive. Carscoops put the left-hand-drive count at around twelve in 2020, and one BaT seller claimed seven."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Payload",
+   "v": "600 kg (1,323 lb)",
+   "note": "Toyota, 1996"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "420 mm (16.5 in)",
+   "note": "Toyota"
+  },
+  {
+   "k": "Turning radius",
+   "v": "5.6 m (18.4 ft)",
+   "note": "Reverse-phase 4WS, Toyota"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,850 kg (6,283 lb)",
+   "note": "1996. 2,900 kg for 1999 trucks"
+  },
+  {
+   "k": "Gross vehicle weight",
+   "v": "3,780 kg (8,333 lb)",
+   "note": "Cargo-registered six-seater, Japanese sources"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "28.5 US gal (108 L)",
+   "note": "The Drive. The JGSDF lists 108 L for the HMV"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "≈22 mpg at a constant 37 mph",
+   "note": "Toyota claim reported by The Drive"
+  },
+  {
+   "k": "Dimensions",
+   "v": "5,090 × 2,170 × 2,075 mm (200.4 × 85.4 × 81.7 in)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Very thin market. Civilian wagons fetch six figures, while ex-military soft-tops have struggled to meet their reserves.",
+  "ranges": [
+   {
+    "cond": "Ex-military BXD10",
+    "range": "$32k–44k (high bids, unsold)"
+   },
+   {
+    "cond": "Civilian driver",
+    "range": "$82k–85k"
+   },
+   {
+    "cond": "Best / rare spec",
+    "range": "$144k–167.5k"
+   }
+  ],
+  "note": "Based on seven Bring a Trailer listings, January 2024 – June 2025: sold for $167,500 (Jan 2024) and $84,000 (high roof, June 2025). Bid without selling: $144,000 (LHD), $85,300, $82,000, $43,999 and $32,025."
+ },
+ "docs": [
+  {
+   "name": "Toyota — Mega Cruiser launch release (9 Jan 1996)",
+   "url": "https://global.toyota/en/detail/7882359",
+   "note": "Official specs and feature list"
+  },
+  {
+   "name": "Toyota — 75 Years of Toyota: Mega Cruiser",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012597/index.html",
+   "note": "Official model type, dimensions and production history"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota sold the Mega Cruiser new only in Japan. Some reached Australia, Russia, Kenya and the Philippines as gray imports. NHTSA's 25-year exemption made the first trucks legal to import into the US from 2020–21, and BaT trucks have carried Florida, New Hampshire, Georgia and Maryland titles.",
+   "Ex-military BXD10s come out through third countries, so check the paperwork carefully: one BaT truck was repainted in Dubai and titled in Maryland as a 1990 model. Check your state's emissions and titling rules before you buy. In Japan, the truck's 3,780 kg gross weight puts it beyond the standard car licence for drivers licensed after March 2017."
+  ]
+ },
+ "production": {
+  "intro": "Civilian production was tiny. The military HMV, in later forms, is still being built.",
+  "items": [
+   {
+    "k": "Civilian registrations",
+    "v": "133 (1996–2001)"
+   },
+   {
+    "k": "Military HMV",
+    "v": "More than 3,000 including derivatives (BXD10 and later XCD10), still in procurement"
+   },
+   {
+    "k": "Civilian assembly",
+    "v": "Gifu Auto Body, Kakamigahara"
+   },
+   {
+    "k": "HMV unit cost",
+    "v": "About ¥7.7 million (FY2015 procurement)"
+   },
+   {
+    "k": "Civilian price",
+    "v": "¥9.62 million (1996), ¥9.8 million (from 1999)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "High roof",
+    "years": "1996–2001",
+    "note": "Off-catalogue civilian high-roof trucks, included in the 133 registrations"
+   },
+   {
+    "name": "Type 93 SAM carrier",
+    "years": "—",
+    "note": "BXD10-based launcher vehicle for the Type 93 short-range surface-to-air missile"
+   }
+  ],
+  "paint": "Standard civilian colours were white and navy, with a grey vinyl semi-trim interior (Japanese sources)."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters and sanctioned trail events"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Toyota — Toyota introduces the Mega Cruiser (9 Jan 1996)",
+   "url": "https://global.toyota/en/detail/7882359"
+  },
+  {
+   "name": "Toyota — 75 Years of Toyota: Mega Cruiser",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012597/index.html"
+  },
+  {
+   "name": "Wikipedia — Toyota Mega Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Mega_Cruiser"
+  },
+  {
+   "name": "Wikipedia (Japanese) — トヨタ・メガクルーザー",
+   "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BB%E3%83%A1%E3%82%AC%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B6%E3%83%BC"
+  },
+  {
+   "name": "Wikipedia (Japanese) — 高機動車",
+   "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%9F%E5%8B%95%E8%BB%8A"
+  },
+  {
+   "name": "The Drive — Mega Cruiser legal to import in 2020",
+   "url": "https://www.thedrive.com/news/31247/the-1995-toyota-mega-cruiser-king-of-off-roaders-is-legal-to-import-in-2020"
+  },
+  {
+   "name": "Jalopnik — The Toyota Mega Cruiser is 25 years old",
+   "url": "https://jalopnik.com/the-toyota-mega-cruiser-is-25-years-old-you-know-what-1844031085"
+  },
+  {
+   "name": "Carscoops — Toyota Mega Cruiser import (Jan 2020)",
+   "url": "https://www.carscoops.com/2020/01/toyota-mega-cruiser-is-the-coolest-off-road-dinosaur-you-can-now-import-in-the-us/"
+  },
+  {
+   "name": "The Defense Post — HMVs delivered to Ukraine (Jan 2026)",
+   "url": "https://thedefensepost.com/2026/01/15/ukraine-toyota-vehicles-japan/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Mega Cruiser results",
+   "url": "https://bringatrailer.com/toyota/mega-cruiser/"
+  },
+  {
+   "name": "Bring a Trailer — 1996 Mega Cruiser High Roof",
+   "url": "https://bringatrailer.com/listing/1996-toyota-mega-cruiser-7/"
+  },
+  {
+   "name": "Bring a Trailer — 1996 Mega Cruiser BXD10",
+   "url": "https://bringatrailer.com/listing/1996-toyota-mega-cruiser-4/"
+  },
+  {
+   "name": "Bring a Trailer — Left-hand-drive 1996 Mega Cruiser",
+   "url": "https://bringatrailer.com/listing/1996-toyota-mega-cruiser-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1996 Mega Cruiser (sold $167,500)",
+   "url": "https://bringatrailer.com/listing/1996-toyota-mega-cruiser-2/"
+  }
+ ]
+}

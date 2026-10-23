@@ -1,0 +1,356 @@
+{
+ "fitment": {
+  "stock": [
+   "205/70R15 on 15x5.5 alloy (JB43 Jimny Sierra, e.g. 2017 New Zealand market)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "offset": "ET5 (+5 mm) on the factory 15x5.5",
+   "center_bore": "108.1 mm",
+   "lug_thread": "M12x1.25"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "215/75R15",
+    "note": "BigJimny consensus for an unmodified Wide/Sierra, about 27.7 in. Bigger than this and owners advise regearing to protect the clutch or the automatic's fluid."
+   },
+   {
+    "lift": "2 in",
+    "size": "235/75R15",
+    "note": "About 28.8 in. Forum regulars say a gen 3 still needs some trimming at 2 in, though some owners accept minor rubbing at full flex instead."
+   },
+   {
+    "lift": "3 in",
+    "size": "265/75R15 (≈31 in)",
+    "note": "Trimming required, per BigJimny's tire-size notes; plan on lower transfer gearing."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "UK",
+  "items": [
+   {
+    "title": "Lateral (panhard) rod bolts may loosen",
+    "years": "Built 9 May 2012 – 24 March 2014",
+    "ref": "UK defect notice (2018)",
+    "url": "https://car-recalls.eu/common-problems/suzuki/jimny/",
+    "summary": "A bolt securing the lateral rods to the front and rear axles may come loose and cause vibration through the steering; check it has been done on a UK-market truck."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Kingpin preload shims",
+    "ref": "",
+    "summary": "Suzuki released shims for the kingpins to add preload to the bearings, a fix for 'death wobble'; on a Jimny the shims go on the pin itself, unlike the SJ.",
+    "url": "https://bigjimny.com/forum/7-jimny-technical/51883-the-death-wobble-thread"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1997",
+   "change": "Third-generation Jimny revealed at the Tokyo Motor Show",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "January: 1.3 G13BB Jimny Wide (JB33) on sale in Japan. October: kei JB23 with the K6A turbo and the Mazda AZ-Offroad twin arrive. Europe launch at the Paris show",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "Santana's Canvas Top revealed at the Barcelona show in May; GM Colmotores starts building the 'Chevrolet Jimny' in Colombia",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "January: M13A DOHC engine replaces the G13BB in Japan (JB43); other markets follow by 2002. JB23 gets standard ABS and airbag from October 1999",
+   "flag": "buy"
+  },
+  {
+   "year": "2002",
+   "change": "Japan revives the 'Jimny Sierra' name for the 1.3 in January; JB23 grille separates from the hood",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "European JB53 diesel arrives with Renault's 65 PS K9K 700, whose fuel pump failures can ruin the engine",
+   "flag": "avoid"
+  },
+  {
+   "year": "2005",
+   "change": "Push-button electric transfer case, new interior and the R72 manual gearbox; early R72s (about 2005–2008) are prone to bearing failure",
+   "flag": "note"
+  },
+  {
+   "year": "2005–2006",
+   "change": "M13A gains VVT (63 kW / 110 Nm); diesel moves to the 86 PS intercooled K9K 266; deeper front bumper hurts approach angle",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "Santana ends its agreement with Suzuki; the Canvas Top is discontinued",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "Facelift: squarer grille, hood scoop, shallower bumper and ISOFIX",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "ESP, low-range traction control and TPMS added where required; new instrument panel and steering wheel",
+   "flag": "buy"
+  },
+  {
+   "year": "2018",
+   "change": "Production ends everywhere except Brazil as Suzuki retools for the JB64/JB74; Brazil follows in 2022",
+   "flag": "note"
+  },
+  {
+   "year": "2023–2026",
+   "change": "First JB33s, then JB23s (late 2023) and M13A JB43s (2025) reach 25 years old and become importable to the US",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "None of these were sold new in the US, so every American truck is an import, and the code on the paperwork should match the metal.",
+  "items": [
+   {
+    "head": "Model code and VIN",
+    "body": "BigJimny's manual guide notes the model is coded in the VIN: JB23 (Japanese kei), JB33 (G13BB Wide), JB43 (M13A Wide/Sierra) and JB53 (diesel). The VIN is in the engine bay below the windscreen, on top of the dash and stamped in the chassis rail behind a rear wheel. The Mazda version is coded JM23."
+   },
+   {
+    "head": "Kei or Wide",
+    "body": "A JB23 has no fender flares and small bumpers to stay within Japan's kei-car size limits (3,395 x 1,475 mm). The Wide/Sierra has flares, larger bumpers and is 1,600 mm wide."
+   },
+   {
+    "head": "Lever or buttons",
+    "body": "A transfer-case lever between the gearshift and handbrake means a pre-2005 truck. Three dash buttons (2WD, 4WD, 4WD-L) mean the later electric transfer case, used on every M13A VVT Jimny."
+   },
+   {
+    "head": "Bumper generations",
+    "body": "BigJimny dates the fronts: first bumper 1998–2005, a deeper second bumper 2006–2012, and a shallower third bumper with a hood scoop and new grille from 2012."
+   },
+   {
+    "head": "Diesel and 2WD oddities",
+    "body": "A JB53 diesel has a prominent fake intake bulge on the hood. Rare 2WD-only Jimnys exist, including the export JB33 2WD (1998–2000) and the Japanese Jimny L / J2 (JB23, 2000–2002); no transfer lever on an early-interior truck is the giveaway."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "1,300 kg (2,866 lb) braked / 500 kg (1,102 lb) unbraked",
+   "note": "2017 Jimny Sierra, New Zealand spec"
+  },
+  {
+   "k": "Gross vehicle mass",
+   "v": "1,420 kg (3,131 lb)",
+   "note": "2017 Sierra"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "40 L (10.6 US gal)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "190 mm (7.5 in)",
+   "note": "unladen"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "34° / 46°",
+   "note": "2017 Sierra"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "7.1 L/100 km combined (about 33 US mpg)",
+   "note": "Suzuki claim, 2017 manual"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,062 kg (2,341 lb)",
+   "note": "2017 Sierra manual; kei JB23 930–1,000 kg"
+  },
+  {
+   "k": "Turning circle",
+   "v": "9.8 m (32.2 ft)"
+  },
+  {
+   "k": "Engine output",
+   "v": "63 kW (86 PS) / 110 Nm at 4,100 rpm",
+   "note": "M13A VVT"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "US prices are set by imports: mostly right-hand-drive kei JB23 turbos from 1998–2000, with clean, low-kilometer and special-edition trucks at the top. Rust history matters more than mileage.",
+  "ranges": [
+   {
+    "cond": "Driver / needs work",
+    "range": "$5k–7k"
+   },
+   {
+    "cond": "Good driver",
+    "range": "$7k–11k"
+   },
+   {
+    "cond": "Excellent / special edition",
+    "range": "$11k–17k"
+   }
+  ],
+  "note": "Based on Bring a Trailer results from April 2025 to October 2026 for 1998–2000 JB23-generation trucks: a 1999 Wild Wind at $5,500, several 1999 'Kansai' editions from $6,400 to $16,750, a 1998 JB23 turbo at $10,500 and a 2000 Mazda AZ-Offroad at $9,401. A 1998 JB33 Wide was bid to $5,200 without selling."
+ },
+ "docs": [
+  {
+   "name": "Suzuki workshop manual numbers (BigJimny list)",
+   "url": "https://bigjimny.com/mediawiki/index.php/Workshop_manuals",
+   "note": "Early G13BB manual 99500-81A02-01E, M13AA manual 99500-81A10-01E, 2004 supplement 99501-81A10-01E and late-2005 supplement 99501-81A20-01E. Order genuine copies through Suzuki parts channels."
+  },
+  {
+   "name": "BigJimny Wiki — Manuals and owner's guides",
+   "url": "https://bigjimny.com/mediawiki/index.php/Manuals_and_Owners_Guides",
+   "note": "Matches a VIN to Suzuki's production 'type' and the correct owner's and service manuals; later trucks are covered by Suzuki's online service portal."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Suzuki never sold the third-generation Jimny new in the United States, and it stopped selling cars here altogether in 2012. Every US example is a private import. Under NHTSA's rule (49 CFR 591.5(i)), a vehicle that is 25 or more years old can be imported without meeting the federal safety standards. In the 2022 Puerto Rico seizure of a newer Jimny, DOT said age is counted 'from the date of manufacture,' so check the build date, not the model year.",
+   "As of October 2026, that means trucks built up to about October 2001. The JB33 Wide (on sale from January 1998) became eligible around the start of 2023, the kei JB23 (from October 1998) in late 2023, and the first M13A JB43s (Japan, January 2000) in 2025. The window rolls forward a month at a time, so 2002 builds qualify through 2027. The last Japanese-built trucks, from 2018, won't qualify until 2043, and Brazil's, built until 2022, not until 2047.",
+   "EPA has a separate age-based exemption in 40 CFR 85.1511 for vehicles more than 20 years past their original production year. A 25-year-old Jimny clears that age too, but the EPA declaration still has to be filed alongside NHTSA's HS-7. Most US imports are right-hand-drive Japanese kei JB23s with the 658 cc turbo, plus some European left-hand-drive JB33s and Spanish-built soft tops. Titling, inspection and emissions rules are set by each state, so check yours before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Twenty years of production across Japan, Spain, Colombia and Brazil; Suzuki counted 2.85 million Jimnys of all generations sold in 194 countries by 2018.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "1998–2018 (Brazil until 2022)"
+   },
+   {
+    "k": "Assembly",
+    "v": "Iwata, Japan; Santana Motor, Linares, Spain (1999–2009); GM Colmotores, Bogotá, Colombia; MMC Automotores, Brazil"
+   },
+   {
+    "k": "Europe sales peak",
+    "v": "28,388 in 2006"
+   },
+   {
+    "k": "Japan sales",
+    "v": "About 11,000–17,000 a year from 2001 to 2017"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Canvas Top",
+    "years": "1999–2009",
+    "note": "Built only by Santana in Spain; most kept the G13BB until 2005"
+   },
+   {
+    "name": "Jimny L / J2",
+    "years": "2000–2002",
+    "note": "Two-wheel-drive kei JB23 marketed in Japan; the J2 ran from February 2001 to January 2002"
+   },
+   {
+    "name": "Mazda AZ-Offroad",
+    "years": "1998–2014",
+    "note": "Rebadged kei JB23 (JM23) with the 64 PS K6A turbo"
+   },
+   {
+    "name": "Kansai edition",
+    "years": "1999",
+    "note": "JB23 turbo with 'by Kansai Yamamoto' side graphics, seen in several US Bring a Trailer sales"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "BigJimny Forum & Wiki",
+   "url": "https://www.bigjimny.com/forum",
+   "note": "UK-based owners' community with the most complete gen 3 Jimny wiki in English"
+  },
+  {
+   "kind": "event",
+   "name": "BigJimny Meet",
+   "url": "https://bigjimny.com/store/events/big-jimny-meet-2026",
+   "note": "BigJimny's annual owners' event; the 2026 meet was on 14 June at Parkwood 4x4, between Leeds and Bradford, with camping"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Suzuki Jimny",
+   "url": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
+  },
+  {
+   "name": "Wikipedia — Suzuki",
+   "url": "https://en.wikipedia.org/wiki/Suzuki"
+  },
+  {
+   "name": "Cornell LII — 49 CFR 591.5",
+   "url": "https://www.law.cornell.edu/cfr/text/49/591.5"
+  },
+  {
+   "name": "Cornell LII — 40 CFR 85.1511",
+   "url": "https://www.law.cornell.edu/cfr/text/40/85.1511"
+  },
+  {
+   "name": "U.S. CBP — CBP seizes vehicle smuggled from Mexico into Puerto Rico (29 Sep 2022)",
+   "url": "https://cbp.gov/newsroom/local-media-release/cbp-seizes-vehicle-smuggled-mexico-puerto-rico"
+  },
+  {
+   "name": "Global Suzuki — Suzuki launches the all-new Jimny 4WD vehicles in Japan (2.85 million sales figure)",
+   "url": "https://www.globalsuzuki.com/globalnews/2018/0705.html"
+  },
+  {
+   "name": "BigJimny Wiki — Buying a Jimny",
+   "url": "https://bigjimny.com/mediawiki/index.php/Buying_a_Jimny"
+  },
+  {
+   "name": "BigJimny Wiki — Manuals and owner's guides",
+   "url": "https://bigjimny.com/mediawiki/index.php/Manuals_and_Owners_Guides"
+  },
+  {
+   "name": "BigJimny Wiki — Workshop manuals",
+   "url": "https://bigjimny.com/mediawiki/index.php/Workshop_manuals"
+  },
+  {
+   "name": "BigJimny Blog — What tyre size",
+   "url": "https://bigjimny.com/index.php/entry/38-230608-what-tyre-size-v15-80"
+  },
+  {
+   "name": "BigJimny Forum — 31in tyres, 2in lift, standard bumpers?",
+   "url": "https://www.bigjimny.com/forum/6-jimny-chat/69426-31-tyres-2-lift-standard-bumpers"
+  },
+  {
+   "name": "BigJimny Forum — The death wobble thread",
+   "url": "https://bigjimny.com/forum/7-jimny-technical/51883-the-death-wobble-thread"
+  },
+  {
+   "name": "TireWheelGuide — 2007 Suzuki Jimny Sierra tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/suzuki/jimny-sierra/2007/"
+  },
+  {
+   "name": "CarExpert NZ — 2017 Suzuki Jimny Sierra 1.3 manual specs",
+   "url": "https://www.carexpert.co.nz/suzuki/jimny/2017-sierra-1-3l-sport-utility-vehicle-4x4-petrol-manual-jjo88faf20160201"
+  },
+  {
+   "name": "Car-Recalls.eu — Suzuki Jimny common problems and UK recalls",
+   "url": "https://car-recalls.eu/common-problems/suzuki/jimny/"
+  },
+  {
+   "name": "Bring a Trailer — Suzuki Jimny auction results",
+   "url": "https://bringatrailer.com/suzuki/jimny/"
+  },
+  {
+   "name": "Bring a Trailer — 1999 Suzuki Jimny Turbo Kansai (JB23W)",
+   "url": "https://bringatrailer.com/listing/1999-suzuki-jimny-6/"
+  },
+  {
+   "name": "BigJimny — BigJimny Event 2026 tickets",
+   "url": "https://bigjimny.com/store/events/big-jimny-meet-2026"
+  }
+ ]
+}
