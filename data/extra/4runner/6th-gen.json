@@ -1,0 +1,264 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R18 (33 in; TRD Pro, Trailhunter)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "center_bore": "95.1 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "97 lb-ft (131 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/70R17 (≈33 in)",
+    "note": "4Runner6G SR5 owners report no rubbing at stock height; some say the stock 17x7 wheel is too narrow for it"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Instrument panel software",
+    "years": "2025",
+    "ref": "NHTSA 25V-595",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V595000",
+    "summary": "At startup the cluster may fail to show speed, brake and tire-pressure warnings."
+   },
+   {
+    "title": "Load-capacity modification label (Gulf States Toyota)",
+    "years": "2026",
+    "ref": "NHTSA 26V-282",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V282000",
+    "summary": "Distributor-fitted label states the wrong load capacity."
+   },
+   {
+    "title": "Load-capacity modification label",
+    "years": "2026 (incl. i-Force Max)",
+    "ref": "NHTSA 26V-571",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V571000",
+    "summary": "Label may show inaccurate added-weight values."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Front brake squeal",
+    "ref": "T-SB-0046-25, updated by T-SB-0006-26",
+    "summary": "Toyota bulletin for front brake squeal; 4Runner6G owners report the 2026 update.",
+    "url": "https://www.4runner6g.com/forum/threads/front-brake-squeal-noise-t-sb-0006-26-may-19-2026-rev1-update.10909/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2024",
+   "change": "Revealed 9 April on the TNGA-F (GA-F) frame shared with the Tacoma; production delayed to December by parts shortages",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "Launch: 2.4 turbo i-Force (278 hp) or i-Force Max hybrid (326 hp), eight-speed auto, nine trims including new Trailhunter and Platinum; towing up to 6,000 lb",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "No major changes reported by Car and Driver",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Nine trims share a body, so drivetrain and off-road hardware are what separate a $44k truck from a $70k one.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "TZNA50/55 for the gas 2.4 turbo i-Force; TZNH55 for the i-Force Max hybrid (4WD only)."
+   },
+   {
+    "head": "Hybrid or not",
+    "body": "i-Force Max is standard on Platinum, TRD Pro and Trailhunter, and optional on TRD Off-Road, TRD Off-Road Premium and Limited. The hybrid battery sits under the load floor, so hybrids are expected to lose the third-row option."
+   },
+   {
+    "head": "Trailhunter",
+    "body": "Old Man Emu 2.5 in forged shocks with rear remote reservoirs, ARB-designed roof rack, high-mounted intake, steel skids, about 2 in more front and 1.5 in more rear clearance, heritage grille with bronze TOYOTA letters, and a 20 in LED light bar."
+   },
+   {
+    "head": "4WD system",
+    "body": "Part-time 4WD with low range on most trims; full-time 4WD with a locking centre diff on Platinum and some Limiteds."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,000 lb (2,720 kg)",
+   "note": "gas and hybrid"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "19 gal (72 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.2 in (234 mm)"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "32° / 24°"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 20 city / 24 hwy / 21 combined (Limited 4WD) · hybrid 23 / 24 / 23",
+   "note": "C&D observed 18 mpg (Limited 4WD) and 17 mpg (hybrid)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,456–5,454 lb (2,021–2,474 kg)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "New-car pricing. The hybrid-only TRD Pro and Trailhunter sit at the top, and there's no meaningful used market yet.",
+  "ranges": [
+   {
+    "cond": "2026 i-Force (gas), SR5 to top trim",
+    "range": "$43,865–60,495"
+   },
+   {
+    "cond": "2026 i-Force Max hybrid",
+    "range": "$55,085–70,195"
+   }
+  ],
+  "note": "MSRP ranges from Car and Driver's 2026 4Runner and 4Runner Hybrid pages, excluding destination and options."
+ },
+ "docs": [
+  {
+   "name": "Toyota owner's manuals and warranty guides",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals/",
+   "note": "Free official download from Toyota's owner portal; pick the model year."
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official subscription site for repair manuals, TSBs and wiring diagrams; short-term subscriptions available."
+  },
+  {
+   "name": "Toyota Parts Online (OEM parts catalogue)",
+   "url": "https://parts.toyota.com/",
+   "note": "Toyota's official parts site, with diagrams and part numbers by VIN."
+  }
+ ],
+ "production": {
+  "intro": "Built at Tahara, Japan, in left-hand drive only, from December 2024.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "December 2024 – present (Tahara, LHD only)"
+   },
+   {
+    "k": "US sales",
+    "v": "98,805 (2025)"
+   },
+   {
+    "k": "Trims",
+    "v": "SR5, TRD Sport, TRD Sport Premium, TRD Off-Road, TRD Off-Road Premium, Limited, Platinum, TRD Pro, Trailhunter"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Trailhunter",
+    "years": "2025–",
+    "note": "Overland-focused hybrid with ARB/OME hardware"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/",
+   "note": "Denver/Front Range Toyota 4x4 club founded in 1981; any Toyota 4x4 welcome, 4Runners included. Has run Cruise Moab each spring since 1997."
+  },
+  {
+   "kind": "event",
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/",
+   "note": "Four days of Toyota-only wheeling at Barnwell Mountain Recreation Area, Gilmer TX; 700+ Toyota 4x4s. 2027 dates: April 29 – May 2."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota 4Runner",
+   "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2025",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2025"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2026",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2026"
+  },
+  {
+   "name": "4Runner6G — OEM wheel specs thread",
+   "url": "https://www.4runner6g.com/forum/threads/2024-4rrunner-oem-wheels-specs-same-for-all-toyota-bof-vehicles.2549/latest"
+  },
+  {
+   "name": "4Runner6G — Suspension torque values list (6th gen)",
+   "url": "https://www.4runner6g.com/suspension-torque-values-specs-list-for-4runner-6th-gen/"
+  },
+  {
+   "name": "4Runner6G — 285/70R17 on stock SR5, no lift",
+   "url": "https://www.4runner6g.com/forum/threads/285-70-17-tires-33s-biggest-tires-that-fit-on-stock-sr5-no-lift-no-rub-photos.2859/latest"
+  },
+  {
+   "name": "4Runner6G — Front brake squeal T-SB-0006-26 update",
+   "url": "https://www.4runner6g.com/forum/threads/front-brake-squeal-noise-t-sb-0006-26-may-19-2026-rev1-update.10909/"
+  },
+  {
+   "name": "4Runner6G — Front brake squeal TSB 0046-25",
+   "url": "https://www.4runner6g.com/forum/threads/front-brake-squeal-noise-fix-official-tsb-brakes-fix-tsb-0046-25.5534/"
+  },
+  {
+   "name": "Toyota-Club.net — 4Runner 500 fluids & capacities",
+   "url": "https://toyota-club.net/files/techdata/ttx/4runner_500u.htm"
+  },
+  {
+   "name": "Car and Driver — 2025 4Runner vs 2024 4Runner compared",
+   "url": "https://www.caranddriver.com/news/a60444485/2025-toyota-4runner-2024-toyota-4runner-compared/"
+  },
+  {
+   "name": "Car and Driver — 2025 Toyota 4Runner revealed",
+   "url": "https://www.caranddriver.com/news/a60441721/2025-toyota-4runner-revealed/"
+  },
+  {
+   "name": "Car and Driver — 2025 Toyota 4Runner",
+   "url": "https://www.caranddriver.com/toyota/4runner-2025"
+  },
+  {
+   "name": "Car and Driver — 2026 Toyota 4Runner",
+   "url": "https://www.caranddriver.com/toyota/4runner-2026"
+  },
+  {
+   "name": "Car and Driver — 2026 Toyota 4Runner Hybrid",
+   "url": "https://www.caranddriver.com/toyota/4runner-hybrid-2026"
+  },
+  {
+   "name": "Toyota owner's manuals",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals/"
+  },
+  {
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/"
+  },
+  {
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/"
+  },
+  {
+   "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
+   "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  }
+ ]
+}

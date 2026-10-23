@@ -1,0 +1,317 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R17",
+   "245/60R20 (Limited)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+15 mm",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "76–83 lb-ft (103–112 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R17 or 255/75R17 (≈32 in)",
+    "note": "Trail4R: true 32s shouldn't rub; 285/70R17 is 'questionable' and may need a body-mount chop"
+   },
+   {
+    "lift": "≈2 in (leveling)",
+    "size": "285/70R17",
+    "note": "Needs the fender liner pushed back; Trail4R says 33s on a 2 in level will need a body-mount chop"
+   },
+   {
+    "lift": "3 in+",
+    "size": "285/70R17",
+    "note": "Expect mild liner rubbing and probably a BMC. 285/75R17 (33.8 in) means trimming, chopping and removing mud flaps"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Takata passenger airbag inflator",
+    "years": "2010–2011",
+    "ref": "NHTSA 16V-340",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V340000",
+    "summary": "Inflator can rupture after long-term heat and humidity exposure; rolled out by region."
+   },
+   {
+    "title": "Takata passenger airbag inflator",
+    "years": "2012",
+    "ref": "NHTSA 17V-006",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V006000",
+    "summary": "Same inflator issue, 2012 model year."
+   },
+   {
+    "title": "Takata passenger airbag inflator",
+    "years": "2010, 2013",
+    "ref": "NHTSA 18V-024",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V024000",
+    "summary": "Same inflator issue, further zones and years."
+   },
+   {
+    "title": "Takata passenger airbag inflator",
+    "years": "2011–2016",
+    "ref": "NHTSA 19V-005",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V005000",
+    "summary": "Same inflator issue, 2014–2016 trucks first, then 2011–2016."
+   },
+   {
+    "title": "Takata replacement inflators (re-recall)",
+    "years": "2010–2016",
+    "ref": "NHTSA 19V-741",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V741000",
+    "summary": "Trucks that got same-design replacement inflators under earlier recalls need them replaced again."
+   },
+   {
+    "title": "Denso low-pressure fuel pump",
+    "years": "2018–2019 (expanded to 2014–2015)",
+    "ref": "NHTSA 20V-012",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V012000",
+    "summary": "Fuel pump may fail, causing a stall."
+   },
+   {
+    "title": "Denso low-pressure fuel pump (expansion)",
+    "years": "2018–2019",
+    "ref": "NHTSA 20V-682",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V682000",
+    "summary": "Fuel pump may fail, causing a stall."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2010",
+   "change": "J150 Prado-platform launch: 4.0 1GR-FE V6 (270 hp), Trail Edition with KDSS, rear locker and Crawl Control; 2.7 four on 2WD only, 2010 only",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "Facelift: projector headlamps, LED tail lamps, Optitron cluster, upgraded brake lines, Trailer Sway Control",
+   "flag": "buy"
+  },
+  {
+   "year": "2015",
+   "change": "TRD Pro added: TRD Bilstein remote-reservoir shocks, TRD front springs, front skid plate",
+   "flag": "note"
+  },
+  {
+   "year": "2017",
+   "change": "Trail and Trail Premium renamed TRD Off-Road and TRD Off-Road Premium; same hardware",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "Nightshade package on the Limited",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Toyota Safety Sense-P standard; Entune 3.0 with Apple CarPlay and Android Auto",
+   "flag": "buy"
+  },
+  {
+   "year": "2022",
+   "change": "Push-button start and LED lighting standard; TRD Sport trim with X-REAS; TRD Pro gets Multi-Terrain Monitor",
+   "flag": "buy"
+  },
+  {
+   "year": "2023",
+   "change": "40th Anniversary Special Edition (4,040 units); heated wheel on upper trims",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Final year; TRD Pro in exclusive Terra paint",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Fifteen years of nearly identical bodies means the trim and hardware decide the price, and plenty of trucks wear TRD Pro badges they weren't born with.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "GRN280/285 for the 4.0 1GR-FE V6; TRN280 is the 2010-only 2.7 four on 2WD trucks."
+   },
+   {
+    "head": "Rear locker and KDSS",
+    "body": "The factory e-locker and Crawl Control come on the Trail (2010–16) and TRD Off-Road (2017–24). KDSS was offered with the Trail; look for the hydraulic cylinders and lines on the sway bars."
+   },
+   {
+    "head": "Real TRD Pro",
+    "body": "Introduced for 2015 with TRD Bilstein remote-reservoir shocks, TRD front springs and a TRD skid plate. Each year had an exclusive colour: Inferno Orange (2015), Quicksand (2016), Cement (2017), Cavalry Blue (2018), Voodoo Blue (2019), Army Green (2020), Lunar Rock (2021), Lime Rush (2022), Solar Octane (2023), Terra (2024)."
+   },
+   {
+    "head": "Limited and TRD Sport",
+    "body": "The Limited has full-time 4WD and X-REAS; the 2022-on TRD Sport also has X-REAS and 20 in wheels but only 2WD or part-time 4WD."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,268 kg)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23 gal (87 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.6 in (244 mm)",
+   "note": "2022 TRD Pro"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 16 city / 19 hwy / 17 combined",
+   "note": "C&D observed 15 mpg overall, 17 mpg at 75 mph (2022 TRD Pro)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,400–4,805 lb (1,996–2,180 kg)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are firm. Late low-mile TRD Pros still change hands near or above their original sticker, while early high-mile SR5s are the entry point.",
+  "ranges": [
+   {
+    "cond": "High-mile / early",
+    "range": "$15k–25k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$25k–46k"
+   },
+   {
+    "cond": "Excellent / low-mile TRD Pro",
+    "range": "$50k–58.5k"
+   }
+  ],
+  "note": "Based on 22 Bring a Trailer sales from October 2025 to October 2026 (median about $38,000). The top sales were low-mile 2022–24 TRD Pros at $53,500–58,500."
+ },
+ "docs": [
+  {
+   "name": "Toyota owner's manuals and warranty guides",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals/",
+   "note": "Free official download from Toyota's owner portal; pick the model year."
+  },
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official subscription site for repair manuals, TSBs and wiring diagrams; short-term subscriptions available."
+  },
+  {
+   "name": "Toyota Parts Online (OEM parts catalogue)",
+   "url": "https://parts.toyota.com/",
+   "note": "Toyota's official parts site, with diagrams and part numbers by VIN."
+  }
+ ],
+ "production": {
+  "intro": "Built only at Tahara, Japan, in left-hand drive from August 2009 to August 2024, and the best-selling 4Runner generation.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "August 2009 – August 2024 (Tahara, LHD only)"
+   },
+   {
+    "k": "US sales peak",
+    "v": "144,696 (2021)"
+   },
+   {
+    "k": "US sales low",
+    "v": "44,316 (2011)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "TRD Pro",
+    "years": "2015–2024",
+    "note": "Bilstein remote-reservoir shocks, TRD springs and skid plate, a new exclusive colour each year"
+   },
+   {
+    "name": "Nightshade",
+    "years": "2019–",
+    "note": "Blacked-out Limited"
+   },
+   {
+    "name": "40th Anniversary Special Edition",
+    "years": "2023",
+    "note": "4,040 built for North America, three colours, 4WD only"
+   }
+  ],
+  "paint": "TRD Pro exclusives: Inferno Orange (2015), Quicksand (2016), Cement (2017), Cavalry Blue (2018), Voodoo Blue (2019), Army Green (2020), Lunar Rock (2021), Lime Rush (2022), Solar Octane (2023), Terra (2024)."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/",
+   "note": "Denver/Front Range Toyota 4x4 club founded in 1981; any Toyota 4x4 welcome, 4Runners included. Has run Cruise Moab each spring since 1997."
+  },
+  {
+   "kind": "event",
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/",
+   "note": "Four days of Toyota-only wheeling at Barnwell Mountain Recreation Area, Gilmer TX; 700+ Toyota 4x4s. 2027 dates: April 29 – May 2."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota 4Runner",
+   "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2014",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2014"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2019",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2019"
+  },
+  {
+   "name": "Wheel-Size.com — 2016 Toyota 4Runner wheel & tire sizes",
+   "url": "https://www.wheel-size.com/size/toyota/4runner/2016/"
+  },
+  {
+   "name": "Limitless Tire — 2018 Toyota 4Runner wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/4runner/2018/"
+  },
+  {
+   "name": "Trail4R — Largest tire size for the 4Runner",
+   "url": "https://trail4runner.com/2018/01/03/largest-tire-size-4runner/"
+  },
+  {
+   "name": "Toyota-Club.net — 4Runner 280 fluids & capacities",
+   "url": "https://toyota-club.net/files/techdata/ttx/4runner_280u.htm"
+  },
+  {
+   "name": "Car and Driver — 2022 Toyota 4Runner TRD Pro by the numbers",
+   "url": "https://www.caranddriver.com/reviews/a38696388/2022-toyota-4runner-trd-pro-by-the-numbers/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota 4Runner N280 sold results (22 sales, Oct 2025–Oct 2026)",
+   "url": "https://bringatrailer.com/toyota/4runner-n280/"
+  },
+  {
+   "name": "Toyota owner's manuals",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals/"
+  },
+  {
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/"
+  },
+  {
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/"
+  },
+  {
+   "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
+   "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  }
+ ]
+}

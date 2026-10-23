@@ -1,0 +1,206 @@
+{
+ "fitment": {
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "IH8MUD and Toyota-4Runner.org agree 31s fit with no lift or regear"
+   },
+   {
+    "lift": "Stock (squeeze)",
+    "size": "33x10.50R15",
+    "note": "Possible with pounding/trimming; expect rubbing at the valance and rear pinch weld"
+   },
+   {
+    "lift": "≈1.5–2 in",
+    "size": "33x10.50R15 / 33x12.50R15",
+    "note": "'About an inch and a half' of lift is the usual recommendation for 33s; narrower 10.50s rub less than 12.50s"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering relay rod fatigue crack",
+    "years": "1989–1995",
+    "ref": "NHTSA 05V-389",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V389000",
+    "summary": "Repeated full-lock steering under high effort can crack the steering relay rod."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "3VZ-E V6 head gasket — Special Service Campaign V06",
+    "ref": "V06 (NHTSA TSB 10145756)",
+    "summary": "Head gasket replacement for 3VZ-E trucks built 1/90–10/94; replaced a 1996 policy adjustment and expired 24 September 2018.",
+    "url": "https://www.carcomplaints.com/Toyota/T100/1995/tsb/tsb-v06-dealer-packa.shtml"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1990",
+   "change": "All-new steel body on the Hilux frame; coil-sprung four-link rear axle; 22R-E or 3VZ-E; rear-wheel ABS standard on SR5 V6",
+   "flag": "note"
+  },
+  {
+   "year": "1990–94",
+   "change": "V6 trucks built 1/90–10/94 fall in Toyota's head-gasket campaign window; ask for proof of the gasket job",
+   "flag": "avoid"
+  },
+  {
+   "year": "1992",
+   "change": "Facelift: one-piece front bumper, modular headlamps, new interior trim; US two-door sales end August 1992",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "Two-door production ends May 1993; Japan's Hilux Surf gains the 1KZ-TE 3.0 turbo-diesel (August)",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Side-impact door beams added for the US",
+   "flag": "buy"
+  },
+  {
+   "year": "1995",
+   "change": "Final year; keeps door beams; replaced by the Prado-based 1996 4Runner",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "The 2nd gen shares its nose, front suspension and engines with the 1989–95 Hilux, and rare two-doors and Japanese Surfs muddy the water.",
+  "items": [
+   {
+    "head": "Two-door",
+    "body": "Built from launch to May 1993 (US sales ended August 1992, Canada through 1993). Toyota priced them above the four-door because of the chicken tax, so they are genuinely rare."
+   },
+   {
+    "head": "Pre- or post-facelift",
+    "body": "1990–91 trucks have rectangular sealed-beam headlamps; the 1992-on facelift brought one-piece bumpers and modular headlamps."
+   },
+   {
+    "head": "Engine and transfer case",
+    "body": "V6 (3VZ-E) trucks got a chain-driven transfer case; four-cylinder (22R-E) trucks kept the older gear-driven case."
+   },
+   {
+    "head": "Model codes",
+    "body": "Toyota coded V6 trucks VZN130 and diesel trucks LN130/KZN130; the diesel, wide-body and limited-slip versions were Japanese or European, not US-market 4Runners."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 lb (1,590 kg)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,760 lb (1,705 kg)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15 mpg city (V6 automatic)",
+   "note": "14.3 mpg observed in period testing"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still the cheapest way into an old 4Runner, but clean V6 five-speed SR5s now pull well above the pack.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$3.5k–9k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$9k–18k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$20k–36k"
+   }
+  ],
+  "note": "Based on 22 Bring a Trailer sales from May to October 2026 (median about $11,750). The top sale was a 1993 SR5 V6 five-speed at $36,250."
+ },
+ "import": {
+  "paragraphs": [
+   "Japan's Hilux Surf (N120/N130) came with diesels the US never got: the 2L-TE, 3L and, from August 1993, the 3.0 1KZ-TE turbo-diesel, plus wide-body trims. All are now older than 25 years, so they can be imported without meeting US federal safety standards, but they are right-hand drive and state titling and emissions rules still apply."
+  ]
+ },
+ "production": {
+  "intro": "Built at Tahara, Japan (and by a joint venture in China), from 1989 to August 1995.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "1989 – August 1995"
+   },
+   {
+    "k": "US sales (calendar year)",
+    "v": "48,295 (1990) · 44,879 (1991) · 39,917 (1992) · 46,652 (1993) · 74,109 (1994) · 75,962 (1995)"
+   },
+   {
+    "k": "Two-door",
+    "v": "Built 1989 – May 1993"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/",
+   "note": "Denver/Front Range Toyota 4x4 club founded in 1981; any Toyota 4x4 welcome, 4Runners included. Has run Cruise Moab each spring since 1997."
+  },
+  {
+   "kind": "event",
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/",
+   "note": "Four days of Toyota-only wheeling at Barnwell Mountain Recreation Area, Gilmer TX; 700+ Toyota 4x4s. 2027 dates: April 29 – May 2."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota 4Runner",
+   "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 1990",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1990"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 1995",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1995"
+  },
+  {
+   "name": "CarComplaints — Toyota TSB V06 (3VZ-E head gasket campaign)",
+   "url": "https://www.carcomplaints.com/Toyota/T100/1995/tsb/tsb-v06-dealer-packa.shtml"
+  },
+  {
+   "name": "IH8MUD — 33\" tires too big?",
+   "url": "https://forum.ih8mud.com/threads/33-tires-too-big.841656/"
+  },
+  {
+   "name": "Toyota-4Runner.org — Tire question (Classic T4Rs)",
+   "url": "https://www.toyota-4runner.org/classic-t4rs/184426-tire-question.html"
+  },
+  {
+   "name": "Bring a Trailer — Toyota 4Runner N120 sold results (22 sales, May–Oct 2026)",
+   "url": "https://bringatrailer.com/toyota/4runner-n120/"
+  },
+  {
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/"
+  },
+  {
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/"
+  },
+  {
+   "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
+   "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  }
+ ]
+}

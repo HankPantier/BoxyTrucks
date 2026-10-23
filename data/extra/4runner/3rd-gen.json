@@ -1,0 +1,263 @@
+{
+ "fitment": {
+  "stock": [
+   "225/75R15 (base)",
+   "265/70R16"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+15 mm (stock 7 in wheels)",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "81 lb-ft (110 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/75R16",
+    "note": "Toyota-4Runner.org consensus (about 31.6 in); wide aggressive treads or spacers can rub at full compression"
+   },
+   {
+    "lift": "≈2 in",
+    "size": "285/75R16",
+    "note": "One owner reports no rub on 16x8 wheels with 4.5 in backspacing and about 2 in of front lift (not yet wheeled)"
+   },
+   {
+    "lift": "3 in",
+    "size": "285/75R16",
+    "note": "Common 33-in setup; expect to fold the pinch weld and trim the fender liner, and keep backspacing around 4–4.5 in. Spacers make it worse"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Missing utility-vehicle warning label",
+    "years": "1996",
+    "ref": "NHTSA 96V-098",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V098000",
+    "summary": "The required rollover warning sticker was not fitted to the driver's sun visor."
+   },
+   {
+    "title": "Stability under heavy load and severe steering",
+    "years": "1996–1998",
+    "ref": "NHTSA 02V-021",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V021000",
+    "summary": "Loading to both rear axle rating and GVWR plus a severe manoeuvre could cause the 2WD 4Runner to lose directional stability."
+   },
+   {
+    "title": "Front lower ball joints",
+    "years": "2001–2002",
+    "ref": "NHTSA 05V-225",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V225000",
+    "summary": "Scratched ball surface can cause excessive wear and looseness in the lower ball joint."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1996",
+   "change": "All-new Prado-based chassis: coils all round, rack-and-pinion, dual airbags, 3RZ-FE four or 5VZ-FE V6, optional rear e-locker",
+   "flag": "buy"
+  },
+  {
+   "year": "1997",
+   "change": "Minor updates, colour-keyed cargo cover",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "New switch panels and four-spoke steering wheel with redesigned airbag",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "Facelift ('fat lip' bumper, multi-parabola headlights), new dash; optional Multi-Mode transfer case",
+   "flag": "buy"
+  },
+  {
+   "year": "2000",
+   "change": "Manual gearbox dropped (last manual 4Runner); rear e-locker still optional",
+   "flag": "buy"
+  },
+  {
+   "year": "2001",
+   "change": "Four-cylinder dropped; VSC and Multi-Mode standard on 4WD; rear e-locker replaced by traction control",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "Chrome liftgate trim; final year",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Plenty of 3rd gens for sale are two-wheel-drive, four-cylinder or locker-less, and the locker is the option that sets prices.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "US trucks are RZN180/185 (2.7 3RZ-FE four) or VZN180/185 (3.4 5VZ-FE V6). KZN185 and KDN185 are Japanese diesel Hilux Surfs."
+   },
+   {
+    "head": "Rear e-locker",
+    "body": "Optional on 4WD trucks from 1996 to 2000, never standard on any trim per a 1997 brochure cited by owners, and gone for 2001–02. Look for the dash switch, the actuator and wiring on the rear diff, and the factory locker placard. A locked rear diff also takes more oil: 2.75 L vs 2.45 L."
+   },
+   {
+    "head": "Facelift tells",
+    "body": "1999–2000 trucks have the 'fat lip' bumper and multi-parabola headlamps; 2001–02 add clear tail lamps, a new grille and five-spoke wheels; 2002 adds chrome liftgate trim."
+   },
+   {
+    "head": "Transfer case",
+    "body": "1996–98 4WD trucks use a part-time lever (Limiteds use a pushbutton for H4); Multi-Mode was optional from 1999 and standard on 4WD from 2001."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,270 kg)",
+   "note": "V6"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "18.5 gal (70 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.5 in (216 mm)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,616–3,902 lb (1,640–1,770 kg)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are strong and rising; low-mile, unmodified SR5s and Limiteds, especially lockered 1996–2000 trucks, sit at the top.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$7k–13k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$13k–22k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$30k–38k+"
+   }
+  ],
+  "note": "Based on 24 Bring a Trailer sales from August to October 2026 (median about $18,750). The top sale was a 41k-mile 1997 SR5 4WD at $38,250."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official subscription site for repair manuals, TSBs and wiring diagrams; short-term subscriptions available."
+  },
+  {
+   "name": "Toyota Parts Online (OEM parts catalogue)",
+   "url": "https://parts.toyota.com/",
+   "note": "Toyota's official parts site, with diagrams and part numbers by VIN."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Japan's Hilux Surf (N185) came with diesels never sold in the US: the 3.0 1KZ-TE turbo-diesel (1995–2000) and the common-rail 1KD-FTV (2000–02). Once a Surf is 25 years old it can be imported without meeting US federal safety standards. Per BE FORWARD, the first 2001 models crossed that line in 2026, so late 1KD-FTV trucks are only now becoming eligible. They are right-hand drive, and state titling and emissions rules still apply."
+  ]
+ },
+ "production": {
+  "intro": "Built at Tahara and at Hino's Hamura plant from August 1995 to August 2002; the best-selling 4Runner until the 4th gen.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "August 1995 – August 2002"
+   },
+   {
+    "k": "US sales (calendar year)",
+    "v": "99,597 (1996) · 128,496 (1997) · 118,484 (1998) · 124,221 (1999) · 111,797 (2000) · 90,250 (2001) · 77,026 (2002)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Highlander / Sport Edition",
+    "years": "1999–2002",
+    "note": "Colour-keyed running boards, bumpers, flares and mud flaps; the Highlander name became Sport Edition"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/",
+   "note": "Denver/Front Range Toyota 4x4 club founded in 1981; any Toyota 4x4 welcome, 4Runners included. Has run Cruise Moab each spring since 1997."
+  },
+  {
+   "kind": "event",
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/",
+   "note": "Four days of Toyota-only wheeling at Barnwell Mountain Recreation Area, Gilmer TX; 700+ Toyota 4x4s. 2027 dates: April 29 – May 2."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota 4Runner",
+   "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 1996",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1996"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2001",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2001"
+  },
+  {
+   "name": "Toyota-Club.net — 4Runner 180 fluids & capacities",
+   "url": "https://toyota-club.net/files/techdata/ttx/4runner_180u.htm"
+  },
+  {
+   "name": "Limitless Tire — 1999 Toyota 4Runner wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/4runner/1999/"
+  },
+  {
+   "name": "Toyota-4Runner.org — 33's on 16s",
+   "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/97131-33s-16s.html"
+  },
+  {
+   "name": "Toyota-4Runner.org — Rear locker",
+   "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/51358-rear-locker.html"
+  },
+  {
+   "name": "Toyota-4Runner.org — 1997 Limited: locking diff standard?",
+   "url": "https://www.toyota-4runner.org/3rd-gen-t4rs/78154-1997-limited-locking-diff-standard.html"
+  },
+  {
+   "name": "Bring a Trailer — Toyota 4Runner N180 sold results (24 sales, Aug–Oct 2026)",
+   "url": "https://bringatrailer.com/toyota/4runner-n180/"
+  },
+  {
+   "name": "BE FORWARD — Hilux Surf N185 1KZ-TE: US-legal specs",
+   "url": "https://blog.beforward.jp/uncategorized/toyota-hilux-surf-n185-1kz-te-diesel-us-legal-specs.html"
+  },
+  {
+   "name": "Toyota TIS",
+   "url": "https://techinfo.toyota.com/"
+  },
+  {
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/"
+  },
+  {
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/"
+  },
+  {
+   "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
+   "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  }
+ ]
+}

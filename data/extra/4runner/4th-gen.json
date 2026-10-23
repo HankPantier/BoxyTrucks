@@ -1,0 +1,278 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16",
+   "265/65R17",
+   "265/60R18 (2006+ Limited)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+30 mm (16/17 in), +25 mm (18 in)",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "81 lb-ft (110 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/70R17",
+    "note": "Largest with no modification per the LexusGXOR wiki (same chassis); 255/75R17 needs the front fender-liner bolt moved"
+   },
+   {
+    "lift": "≈2 in",
+    "size": "285/70R17",
+    "note": "Reported on a 2 in OME lift with 17x9 −6 wheels; 275/70R17 fits without rubbing. At stock height 285s need a body-mount chop"
+   },
+   {
+    "lift": "≈3 in",
+    "size": "285/70R17",
+    "note": "Expect fender-liner trimming and a body-mount chop; can still rub under heavy compression or at full lock"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel pulsation damper leak (V6)",
+    "years": "2003",
+    "ref": "NHTSA 03V-146",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=03V146000",
+    "summary": "Improperly assembled damper on the fuel rail can tear its diaphragm and leak fuel."
+   },
+   {
+    "title": "Port-installed alloy wheel upgrade",
+    "years": "2003",
+    "ref": "NHTSA 02V-339",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V339000",
+    "summary": "Some trucks fitted with a four-wheel alloy upgrade at the Jacksonville, FL port."
+   },
+   {
+    "title": "Floor mat pedal entrapment",
+    "years": "2003–2009",
+    "ref": "NHTSA 11V-113",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=11V113000",
+    "summary": "An unsecured or incompatible driver's mat can trap the accelerator pedal wide open."
+   },
+   {
+    "title": "Side curtain airbag inadvertent deployment",
+    "years": "2004–2006",
+    "ref": "NHTSA 16V-065",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V065000",
+    "summary": "Airbag control module may be programmed so curtain airbags deploy unexpectedly."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Cracked, sticky or melted dashboard — warranty enhancement",
+    "ref": "ZE6",
+    "summary": "Covered certain 2003–2005 4Runners for 10 years from first delivery; long expired.",
+    "url": "https://carspecmn.com/toyota-and-lexus-cracked-sticky-or-melted-dash-and-door-panels-new-warranty"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2003",
+   "change": "Prado 120-based launch: 4.0 1GR-FE V6 (245 hp) or first-ever 4.7 2UZ-FE V8 (235 hp); X-REAS optional; HAC and DAC on 4WD",
+   "flag": "note"
+  },
+  {
+   "year": "2003–05",
+   "change": "Early 1GR-FE V6s are prone to head-gasket failure; Toyota revised the design late in the 2006 model year",
+   "flag": "avoid"
+  },
+  {
+   "year": "2004",
+   "change": "TPMS standard; optional third-row seat (first seven-seat 4Runner)",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "V8 gains VVT-i (268 hp / 315 lb-ft); five-speed auto standard on the V6",
+   "flag": "buy"
+  },
+  {
+   "year": "2006",
+   "change": "Mid-cycle refresh: new bumpers and grille, projector headlamps, LED tail lamps; 18 in wheels on Limited",
+   "flag": "buy"
+  },
+  {
+   "year": "2008",
+   "change": "Curtain and front side airbags standard; VSC-off switch; Urban Runner package on Sport V6 4x4",
+   "flag": "buy"
+  },
+  {
+   "year": "2009",
+   "change": "Trail Edition: factory rear e-locker, A-TRAC switch and Bilstein dampers",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "The V6/V8 split changes the whole drivetrain, and the only factory-lockered 4th gen is a one-year package.",
+  "items": [
+   {
+    "head": "Model codes",
+    "body": "US trucks are GRN210/215 (4.0 1GR-FE V6) or UZN210/215 (4.7 2UZ-FE V8)."
+   },
+   {
+    "head": "4WD system",
+    "body": "V8 4WD trucks are full-time; V6 trucks are part-time or Multi-Mode. Both use a lockable Torsen centre diff."
+   },
+   {
+    "head": "Trail Edition (2009)",
+    "body": "The only 4th gen with a factory rear e-locker, plus an A-TRAC switch and Bilstein dampers. Check for the locker switch before paying a Trail premium."
+   },
+   {
+    "head": "X-REAS and rear air",
+    "body": "X-REAS cross-linked dampers were standard on the Sport Edition and optional elsewhere; some Limiteds also have rear height-adjustable air suspension. Both are costly to replace like-for-like."
+   },
+   {
+    "head": "Pre- or post-facelift",
+    "body": "2006-on trucks have round fog lamps with the turn signals in the headlamps, projector headlamps and LED tail lamps."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (V6) · 7,300 lb (V8 2WD) · 7,000 lb (V8 4WD)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23 gal (87 L)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 17 city / 20 hwy (V6) · 15 / 19 (V8)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,280 lb (1,941 kg)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Mostly still cheap, but low-mile V8s and clean late trucks have broken away from the pack.",
+  "ranges": [
+   {
+    "cond": "High-mile / needs work",
+    "range": "$5k–8k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–23k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$27k–39k"
+   }
+  ],
+  "note": "Based on 23 Bring a Trailer sales from November 2025 to October 2026 (median about $13,750). The top two were low-mile 2006–07 V8 4WD trucks at $35,000–39,000."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official subscription site for repair manuals, TSBs and wiring diagrams; short-term subscriptions available."
+  },
+  {
+   "name": "Toyota Parts Online (OEM parts catalogue)",
+   "url": "https://parts.toyota.com/",
+   "note": "Toyota's official parts site, with diagrams and part numbers by VIN."
+  }
+ ],
+ "production": {
+  "intro": "Built at Tahara and Hino's Hamura plant from August 2002 to August 2009.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "August 2002 – August 2009"
+   },
+   {
+    "k": "US sales (calendar year)",
+    "v": "109,308 (2003) · 114,212 (2004) · 103,830 (2005) · 103,086 (2006) · 87,718 (2007) · 47,878 (2008) · 19,675 (2009)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Urban Runner Package",
+    "years": "2008",
+    "note": "Sport Edition V6 4x4: in-dash TomTom navigation, Alcantara seat inserts, 18 in Limited wheels"
+   },
+   {
+    "name": "Trail Edition",
+    "years": "2009",
+    "note": "Rear e-locker, A-TRAC switch, Bilstein dampers"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/",
+   "note": "Denver/Front Range Toyota 4x4 club founded in 1981; any Toyota 4x4 welcome, 4Runners included. Has run Cruise Moab each spring since 1997."
+  },
+  {
+   "kind": "event",
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/",
+   "note": "Four days of Toyota-only wheeling at Barnwell Mountain Recreation Area, Gilmer TX; 700+ Toyota 4x4s. 2027 dates: April 29 – May 2."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota 4Runner",
+   "url": "https://en.wikipedia.org/wiki/Toyota_4Runner"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2003",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2003"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota 4Runner 2006",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2006"
+  },
+  {
+   "name": "Wheel-Size.com — 2006 Toyota 4Runner wheel & tire sizes",
+   "url": "https://www.wheel-size.com/size/toyota/4runner/2006/"
+  },
+  {
+   "name": "Limitless Tire — 2005 Toyota 4Runner wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/4runner/2005/"
+  },
+  {
+   "name": "LexusGXOR wiki — wheels & tires",
+   "url": "https://lexusgxor.com/mods:wheelstires"
+  },
+  {
+   "name": "Toyota-Club.net — 4Runner 210 fluids & capacities",
+   "url": "https://toyota-club.net/files/techdata/ttx/4runner_210u.htm"
+  },
+  {
+   "name": "CarSpec — Toyota/Lexus cracked dash warranty (ZE6)",
+   "url": "https://carspecmn.com/toyota-and-lexus-cracked-sticky-or-melted-dash-and-door-panels-new-warranty"
+  },
+  {
+   "name": "Bring a Trailer — Toyota 4Runner N210 sold results (23 sales, Nov 2025–Oct 2026)",
+   "url": "https://bringatrailer.com/toyota/4runner-n210/"
+  },
+  {
+   "name": "Toyota TIS",
+   "url": "https://techinfo.toyota.com/"
+  },
+  {
+   "name": "Rising Sun 4WD Club of Colorado",
+   "url": "https://risingsun4x4club.org/"
+  },
+  {
+   "name": "Toyota Jamboree",
+   "url": "https://toyotajamboree.com/"
+  },
+  {
+   "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
+   "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  }
+ ]
+}
