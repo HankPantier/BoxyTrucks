@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px"><span class="eyebrow brass">About</span><h1 style="font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-0.02em">Cookies</h1></div></section>
+<div class="wrap section"><div class="prose" style="max-width:760px">
+<p class="lead">BoxyTrucks sets one kind of cookie: Google Analytics, and only to count which guides get read. No advertising cookies, no tracking across other sites, nothing sold.</p>
+
+<h2>What we set</h2>
+<div class="table-scroll"><table class="cookie-table">
+<thead><tr><th>Name</th><th>Set by</th><th>Purpose</th><th>Lasts</th></tr></thead>
+<tbody>
+<tr><td><code>_ga</code></td><td>Google Analytics</td><td>Tells one visit from another, so we can count visitors rather than page loads</td><td>2 years</td></tr>
+<tr><td><code>_ga_XHC493ES9X</code></td><td>Google Analytics</td><td>Keeps track of the current session (which pages you read in one sitting)</td><td>2 years</td></tr>
+<tr><td><code>bt_consent</code></td><td>BoxyTrucks</td><td>Remembers your cookie choice so we don’t ask on every page. Stored in your browser’s local storage, not sent to anyone</td><td>We ask again after 12 months</td></tr>
+</tbody></table></div>
+<p>Google Analytics cookie names and durations are set by Google; see <a href="https://support.google.com/analytics/answer/11397207" target="_blank" rel="noopener">Google Analytics cookie usage on websites</a>.</p>
+
+<h2>Your choice</h2>
+<p>When you first visit, a banner asks whether you accept analytics cookies.</p>
+<ul>
+<li><strong>In the UK, the EU, the EEA and Switzerland,</strong> analytics cookies stay off until you click <em>Accept analytics</em>.</li>
+<li><strong>Everywhere else,</strong> analytics cookies are on unless you click <em>No thanks</em>.</li>
+</ul>
+<p>Choosing <em>No thanks</em> turns analytics storage off and deletes any <code>_ga</code> cookies already set on this site. With storage off, Google’s <a href="https://support.google.com/analytics/answer/10000067" target="_blank" rel="noopener">consent mode</a> still sends basic cookieless pings: no cookies are read or set.</p>
+<p>You can change your mind at any time: <a href="#" data-cookie-settings>open cookie settings</a>, or use the <em>Cookie settings</em> link in the footer of every page. You can also block or delete cookies in your browser, or install Google’s <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Analytics opt-out add-on</a>.</p>
+
+<h2>What we don’t set</h2>
+<ul>
+<li><strong>No advertising cookies.</strong> Advertising and ad-personalisation storage is switched off for every visitor.</li>
+<li><strong>No social widgets or embedded videos.</strong> We link to YouTube and Instagram rather than embedding them, so those sites can’t set cookies here.</li>
+<li><strong>Fonts.</strong> Our typefaces load from Google Fonts. That request sends your IP address to Google but doesn’t set cookies; see the <a href="https://developers.google.com/fonts/faq/privacy" target="_blank" rel="noopener">Google Fonts privacy FAQ</a>.</li>
+<li><strong>Hosting.</strong> GitHub Pages serves the site and doesn’t set cookies on it.</li>
+</ul>
+
+<h2>Other sites</h2>
+<p>When you follow a link off BoxyTrucks, the site you land on sets its own cookies under its own policy. That includes affiliate links, such as Amazon, where the retailer or affiliate network uses a cookie to credit the sale. Those cookies belong to the site you visit, not to us. See the <a href="{{ root }}about/affiliate-disclosure.html">affiliate disclosure</a>.</p>
+
+<h2>More</h2>
+<p>The <a href="{{ root }}about/privacy.html">privacy policy</a> covers everything else we collect, including Show Us Your Rig submissions. If we change how we use cookies, we’ll update this page and ask for your choice again.</p>
+<p style="color:var(--stone);font-size:16px">Last updated October 2026.</p>
+</div></div>
+{% endblock %}

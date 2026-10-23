@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHC493ES9X"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
+gtag('consent','default',{analytics_storage:'denied',wait_for_update:500,region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});
+(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v&&Date.now()-c.t<31536000000){gtag('consent','update',{analytics_storage:c.v});}}catch(e){}})();
+gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 <meta charset="utf-8">
 <meta name="msvalidate.01" content="48A1CF8262922DC4351644871DD307EF">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,12 +55,12 @@
 <section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px"><span class="eyebrow brass">About</span><h1 style="font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-0.02em">Privacy</h1></div></section>
 <div class="wrap section"><div class="prose" style="max-width:720px">
 <p class="lead">BoxyTrucks is a small enthusiast site. We collect as little as we can, and we don’t sell personal information.</p>
-<p><strong>Analytics.</strong> We use Google Analytics 4 to see which pages people read and which links they follow, so we know what to improve. Google Analytics sets cookies and collects data such as pages visited, approximate location, device and browser. We don’t receive your name or email from it. You can opt out with Google’s <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">browser add-on</a> or by blocking cookies; see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses data from sites that use its services</a>.</p>
+<p><strong>Analytics.</strong> We use Google Analytics 4 to see which pages people read and which links they follow, so we know what to improve. Google Analytics sets cookies and collects data such as pages visited, approximate location, device and browser. We don’t receive your name or email from it. Visitors in the UK, EU, EEA and Switzerland are asked before analytics cookies are set; everyone else can switch them off with the cookie banner or the <em>Cookie settings</em> link in the footer. See the <a href="/about/cookies/">cookie policy</a> for the full list. You can also opt out with Google’s <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">browser add-on</a> or by blocking cookies; see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses data from sites that use its services</a>.</p>
 <p><strong>Show Us Your Rig.</strong> If you submit a truck, the form sends your name, email, location and social handles if given, your build details, story and photos to us by email through <a href="https://formsubmit.co/" target="_blank" rel="noopener">FormSubmit</a>. We use your email only to reply about your submission and never publish it. If you gave permission, we may publish your truck, story, photos and the name or handle you supplied, credited to you. Ask us to remove a submission at any time and we will.</p>
 <p><strong>Affiliate links.</strong> Some links to parts and gear are affiliate links, including Amazon. When you click one, the retailer or affiliate network may set its own cookies to credit the sale; their privacy policies apply on their sites. See the <a href="/about/affiliate-disclosure/">affiliate disclosure</a>.</p>
 <p><strong>Other sites.</strong> We link to forums, suppliers, YouTube, Instagram, marketplaces and other sites we don’t control. Their privacy practices are their own.</p>
 <p><strong>Hosting.</strong> The site is hosted on GitHub Pages, which may log basic technical data such as IP address for security and operations.</p>
-<p><strong>Your choices.</strong> To ask what we hold about you or to have a submission deleted, use the <a href="/submit/">Show Us Your Rig</a> form and say so in the story box. We’ll reply by email.</p>
+<p><strong>Your choices.</strong> Change your cookie choice at any time with <a href="#" data-cookie-settings>cookie settings</a>. To ask what we hold about you or to have a submission deleted, use the <a href="/submit/">Show Us Your Rig</a> form and say so in the story box. We’ll reply by email.</p>
 <p style="color:var(--stone);font-size:16px">Last updated October 2026.</p>
 </div></div>
 
@@ -71,7 +75,7 @@
     <nav aria-label="Footer">
       <a href="/models/">Models</a><a href="/repairs/">Repairs</a><a href="/mods/">Mods &amp; Builders</a><a href="/resources/">Resources</a><a href="/for-sale/">For Sale</a><a href="/submit/">Show Us Your Rig</a>
     </nav>
-    <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br><a href="/about/disclaimer/" style="color:inherit">DISCLAIMER</a> · <a href="/about/privacy/" style="color:inherit">PRIVACY</a> · <a href="/about/affiliate-disclosure/" style="color:inherit">AFFILIATE DISCLOSURE</a></div>
+    <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br><a href="/about/disclaimer/" style="color:inherit">DISCLAIMER</a> · <a href="/about/privacy/" style="color:inherit">PRIVACY</a> · <a href="/about/affiliate-disclosure/" style="color:inherit">AFFILIATE DISCLOSURE</a> · <a href="/about/cookies/" style="color:inherit">COOKIES</a> · <a href="#" data-cookie-settings style="color:inherit">COOKIE SETTINGS</a></div>
   </div>
 </footer>
 <script>
@@ -89,6 +93,21 @@ var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
 gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
 document.querySelectorAll('form[data-nl]').forEach(function(f){f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
+</script>
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-labelledby="cb-title" hidden>
+  <div class="cb-text"><strong id="cb-title">Cookies, briefly.</strong> We use Google Analytics cookies to see which guides people read, so we know what to fix and write next. No ads, no selling your data. Your call. <a href="/about/cookies/">Cookie policy</a></div>
+  <div class="cb-btns"><button type="button" class="btn ghost-brass" data-consent="denied">No thanks</button><button type="button" class="btn light" data-consent="granted">Accept analytics</button></div>
+</div>
+<script>
+(function(){var b=document.getElementById('cookie-banner');if(!b)return;
+function get(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v&&Date.now()-c.t<31536000000)return c.v;}catch(e){}return null;}
+function set(v){try{localStorage.setItem('bt_consent',JSON.stringify({v:v,t:Date.now()}));}catch(e){}
+  if(typeof gtag==='function'){gtag('consent','update',{analytics_storage:v});}
+  if(v==='denied'){document.cookie.split(';').forEach(function(c){var n=c.split('=')[0].trim();if(/^_ga/.test(n)){['','.boxytrucks.com','boxytrucks.com'].forEach(function(d){document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');});}});}
+  b.hidden=true;}
+b.querySelectorAll('[data-consent]').forEach(function(x){x.addEventListener('click',function(){set(x.getAttribute('data-consent'));});});
+document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEventListener('click',function(e){e.preventDefault();b.hidden=false;var f=b.querySelector('button');if(f)f.focus();});});
+if(!get())b.hidden=false;})();
 </script>
 </body>
 </html>
