@@ -395,8 +395,8 @@
   },
   {
    "q": "What oil and fluids does it take?",
-   "a": "The 1996 shop manual, quoted on Bronco Zone, prefers 5W-30 in all climates. AMSOIL's capacity lookup for a 1992 5.8 lists 6 quarts with the filter. The E4OD and BW1356 transfer case take Mercon V; AMSOIL lists 16.2 quarts total (about 8.5 on a pan drop) for a 4WD E4OD, and 4 pints for the 1356. The 8.8 rear takes 80W-90 (Ford XY-80W90-QL), about 5.5 pints, plus 4 oz of Ford friction modifier in a Traction-Lok. Coolant is a 50/50 ethylene-glycol mix.",
-   "src": "FSM VIA BRONCO ZONE · AMSOIL"
+   "a": "The 1996 shop manual, quoted on Bronco Zone, prefers 5W-30 in all climates. AMSOIL's capacity lookup for a 1992 5.8 lists 6 quarts with the filter. The E4OD and BW1356 transfer case take Mercon V; AMSOIL lists 16.2 quarts total (about 8.5 on a pan drop) for a 4WD E4OD, and 4 pints for the 1356. The 8.8 rear takes 80W-90 (Ford XY-80W90-QL), about 5.5 pints, plus 4 oz of Ford friction modifier in a Traction-Lok. Coolant is a 50/50 ethylene-glycol mix. The 1996 workshop manual adds Mercon ATF for the Mazda five-speed (3.8 quarts), Ford 4x4 gear oil for the Dana 44 front (3.6 pints) and Ford Premium Power Steering Fluid for the pump.",
+   "src": "FSM VIA BRONCO ZONE AND DIESEL-DAVE · AMSOIL"
   },
   {
    "q": "9-inch or 8.8 rear axle?",
@@ -694,7 +694,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "SAE 5W-30 preferred in all climates (Ford ESE-M2C153-E); 10W-30 acceptable in hot weather · 6 qt with filter (1992 5.8)",
-    "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "interval": "Then every 5,000 mi, or every 3,000 mi on Ford's severe-duty schedule (1996 workshop manual)",
     "note": "Drain-plug torque 15–25 ft-lb (AMSOIL lookup). Owners of tired, high-mileage engines often move to thicker oils.",
     "parts": [
      {
@@ -712,7 +712,7 @@
    {
     "item": "Engine air filter",
     "spec": "Panel element [CONFIRM IN MANUAL]",
-    "interval": "Check every oil change; replace sooner in dust",
+    "interval": "Check every oil change; Ford's 1996 schedule replaces it every 30,000 mi or 30 months, sooner in dust",
     "note": "Check the airbox seal and the intake tube after any trail trip.",
     "parts": [
      {
@@ -724,8 +724,8 @@
    },
    {
     "item": "Ignition: plugs, cap, rotor, wires, TFI",
-    "spec": "[CONFIRM IN MANUAL] for plug type and gap",
-    "interval": "Baseline once, then per the manual",
+    "spec": "1996 workshop manual: 5.8 Motorcraft ASF-32C, gap 0.042–0.046 in · 5.0 ASF-42P, gap 0.052–0.056 in · 4.9 BSF-44C, gap 0.042–0.046 in. Check the VECI decal on earlier trucks",
+    "interval": "Baseline once; Ford's 1996 schedule replaces plugs at 60,000 mi",
     "note": "On 1985–91 EFI trucks, inspect the distributor-mounted TFI module and fit any replacement with dielectric grease as a heat sink.",
     "parts": [
      {
@@ -748,7 +748,7 @@
    {
     "item": "Coolant & hoses",
     "spec": "Ethylene glycol, 50/50 premix · 14.8–15.9 qt (1992 5.8, by transmission and A/C)",
-    "interval": "Flush at purchase, then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Flush at purchase, then every 30,000 mi or 36 months (Ford 1996 schedule; first change from new at 50,000 mi/48 months)",
     "note": "Check the plastic side seams of the radiator, which tend to leak after the engine cools overnight.",
     "parts": [
      {
@@ -778,8 +778,8 @@
    },
    {
     "item": "Manual transmission (M5OD-R2)",
-    "spec": "≈ 6.8–7.6 pints (AMSOIL lookup) · fluid type [CONFIRM IN MANUAL]",
-    "interval": "Drain and refill at purchase",
+    "spec": "Motorcraft MERCON ATF · 3.8 qt (7.6 pints) for the Mazda R2 five-speed (1996 workshop manual); AMSOIL lists 6.8–7.6 pints",
+    "interval": "Drain and refill at purchase; Ford changes it every 60,000 mi",
     "note": "Owners recommend resealing the rubber plugs in the M5OD shift cover, which shrink and leak. Check the slave cylinder for leaks.",
     "parts": [
      {
@@ -809,7 +809,7 @@
    },
    {
     "item": "Front differential (Dana 44, solid or TTB)",
-    "spec": "Hypoid gear oil, 80W-90 [CONFIRM IN MANUAL]",
+    "spec": "Ford 4x4 Gear Oil F1TZ-19580-A (WSL-M2C191-A) · 3.6 pints for the Dana 44 IFS (1996 workshop manual, F-150/Bronco). The manual's table doesn't state a viscosity, so match the Ford spec",
     "interval": "Change at purchase and after deep water",
     "note": "Check the axle vent tube, and look for gear oil weeping from the slip-yoke seal on the long side of a TTB.",
     "parts": [
@@ -840,7 +840,7 @@
    },
    {
     "item": "Front wheel bearings, spindle bearings & hubs",
-    "spec": "Wheel-bearing grease [CONFIRM IN MANUAL]",
+    "spec": "Ford High Temperature 4x4 Front Axle and Wheel Bearing Grease E8TZ-19590-A (ESA-M1C198-A), which the 1996 manual also specifies for the spindle needle bearings and axle U-joints",
     "interval": "Repack at purchase",
     "note": "On a TTB truck, do the spindle needle bearings and seals and the axle U-joints while the hub is apart.",
     "parts": [
@@ -876,8 +876,8 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "DOT 3",
-    "interval": "Flush at purchase, then every 2 years [CONFIRM IN MANUAL]",
+    "spec": "DOT 3 (Ford C6AZ-19542-AA/BA, ESA-M6C25-A)",
+    "interval": "Flush at purchase. Ford's 1996 schedule sets no fluid-change interval, only hose and line inspections every 15,000 mi",
     "note": "On manual trucks the hydraulic clutch shares the same fluid type.",
     "parts": [
      {
@@ -889,7 +889,7 @@
    },
    {
     "item": "Power steering",
-    "spec": "[CONFIRM IN MANUAL] — owners variously cite Mercon V and standard power-steering fluid",
+    "spec": "Ford Premium Power Steering Fluid E4AZ-19582-C or E6AZ-19582-AA (ESW-M2C33-F), per the 1996 workshop manual. Some owners use Mercon V instead",
     "interval": "Check level and hoses at purchase",
     "note": "A leaking box can be resealed rather than replaced; seal kits are available.",
     "parts": [
@@ -978,6 +978,26 @@
   {
    "name": "Bring a Trailer — Coyote-powered 1979 Ford Bronco Ranger XLT",
    "url": "https://bringatrailer.com/listing/1979-ford-bronco-267/"
+  },
+  {
+   "name": "1996 F-Series/Bronco Workshop Manual (Ford), Section 00-03 — lubricant specifications and refill capacities (via diesel-dave.com)",
+   "url": "https://www.diesel-dave.com/vehic/manual/stj/stj03017.htm"
+  },
+  {
+   "name": "1996 F-Series/Bronco Workshop Manual (Ford), Section 00-03 — normal maintenance schedule (via diesel-dave.com)",
+   "url": "https://www.diesel-dave.com/vehic/manual/stj/stj03011.htm"
+  },
+  {
+   "name": "1996 F-Series/Bronco Workshop Manual (Ford), Section 00-03 — severe-duty maintenance schedule (via diesel-dave.com)",
+   "url": "https://www.diesel-dave.com/vehic/manual/stj/stj03012.htm"
+  },
+  {
+   "name": "1996 F-Series/Bronco Workshop Manual (Ford), Section 03-07A — ignition specifications (plug type and gap)",
+   "url": "https://www.diesel-dave.com/vehic/manual/stj/stj37a23.htm"
+  },
+  {
+   "name": "1996 F-Series/Bronco Workshop Manual (Ford), Section 11-02A — power steering fluid specification",
+   "url": "https://www.diesel-dave.com/vehic/manual/stj/stjb2a10.htm"
   }
  ]
 }

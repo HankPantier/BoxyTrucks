@@ -12,7 +12,7 @@
    "offset": "+55 mm (factory wheels) · +30 mm (Sasquatch)",
    "center_bore": "93.1 mm",
    "lug_thread": "M12x1.5 (tire-retailer listing)",
-   "lug_torque": "[CONFIRM IN MANUAL]"
+   "lug_torque": "100 lb-ft (135 Nm), M12x1.5; retighten within 100 mi after any wheel removal (2021 owner's manual)"
   },
   "max_tire": [
    {
@@ -277,6 +277,11 @@
  },
  "docs": [
   {
+   "name": "Ford — 2021 Bronco Owner's Manual (PDF)",
+   "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2021-Ford-Bronco-Owners-Manual-version-1B_om_EN-US_03_2021.pdf",
+   "note": "Ford-hosted. Capacities and specifications, wheel-nut torque and the maintenance schedule."
+  },
+  {
    "name": "NHTSA recall and service-bulletin lookup",
    "url": "https://www.nhtsa.gov/recalls",
    "note": "Free VIN recall check; manufacturer bulletins are posted under each model year."
@@ -395,6 +400,10 @@
   {
    "name": "Bring a Trailer — Ford Bronco U725 results",
    "url": "https://bringatrailer.com/ford/u725-bronco/"
+  },
+  {
+   "name": "Ford — 2021 Bronco Owner's Manual (PDF)",
+   "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2021-Ford-Bronco-Owners-Manual-version-1B_om_EN-US_03_2021.pdf"
   }
  ]
 }

@@ -655,7 +655,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "SAE 5W-30 synthetic blend (WSS-M2C961-A1); 0W-30 (WSS-M2C963-A1) for extreme cold · 2.3: 6.2 qt with filter · 2.7: 7 qt listed (≈ 6 qt drain-and-fill per a later Ford bulletin, as reported by owners)",
-    "interval": "Then per the oil-life monitor [CONFIRM IN MANUAL]",
+    "interval": "Then per the oil-life monitor: Ford expects 7,500–10,000 mi in normal use, 5,000–7,500 with towing, mountains or off-road, 3,000–5,000 at maximum load; off-road operation schedule says every 5,000 mi or six months. Never more than 1 year or 10,000 mi (2021 owner's manual)",
     "note": "Filters: Motorcraft FL-910-S (2.3) and FL-2062-A (2.7). On the 2.7, fill to the dipstick rather than to a number.",
     "parts": [
      {
@@ -678,7 +678,7 @@
    {
     "item": "Engine air filter",
     "spec": "Motorcraft FA-2022",
-    "interval": "Inspect after every dusty trip [CONFIRM IN MANUAL]",
+    "interval": "Ford: replace every 30,000 mi; on dusty or off-road use, inspect frequently and replace as required (2021 owner's manual)",
     "note": "Desert and trail dust load it fast.",
     "parts": [
      {
@@ -691,7 +691,7 @@
    {
     "item": "Cabin air filter",
     "spec": "Motorcraft FP-93",
-    "interval": "Yearly or as needed",
+    "interval": "Ford: every 20,000 mi (2021 owner's manual)",
     "note": "Doors-off driving fills it quickly.",
     "parts": [
      {
@@ -704,7 +704,7 @@
    {
     "item": "Spark plugs",
     "spec": "Motorcraft SP-594 (2.3 and 2.7)",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "Ford: every 100,000 mi; every 60,000 mi if you tow or idle for long periods (2021 owner's manual)",
     "note": "Turbo engines are hard on plugs; replace on schedule.",
     "parts": [
      {
@@ -722,7 +722,7 @@
    {
     "item": "Coolant",
     "spec": "Motorcraft Yellow prediluted (WSS-M97B57-A2) · 2.3 auto 10.5 qt · 2.3 manual 9.6 qt · 2.7 12.4 qt",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "Ford: first change at 10 years or 200,000 mi, then every 5 years or 100,000 mi (2021 owner's manual)",
     "note": "Don't mix with other coolant types.",
     "parts": [
      {
@@ -735,7 +735,7 @@
    {
     "item": "10-speed automatic (10R60)",
     "spec": "Motorcraft Mercon ULV (WSS-M2C949-A) · ≈ 13.1 qt dry fill · filter FT-202",
-    "interval": "Severe-service schedule if you tow or wheel often [CONFIRM IN MANUAL]",
+    "interval": "Ford: change fluid and filter every 100,000 mi; the 2021 manual's towing and off-road schedules don't shorten it, so an earlier change is owner's choice",
     "note": "Drain-and-fill replaces only part of the fluid. Check for the 23V-070 (loose bolt) and 25V-164 (valve body) recalls on affected years.",
     "parts": [
      {
@@ -747,9 +747,9 @@
    },
    {
     "item": "7-speed manual",
-    "spec": "≈ 2.4 qt dry fill · fluid listed as Motorcraft dual-clutch transmission fluid (WSS-M2C200-D2) [CONFIRM IN MANUAL]",
+    "spec": "≈ 2.4 qt dry fill · Motorcraft Dual Clutch Transmission Fluid XT-11-QDC (WSS-M2C200-D2), per the 2021 owner's manual",
     "interval": "Change at purchase on a hard-used truck",
-    "note": "Bronco6G's table lists the dual-clutch fluid spec for the manual; check the manual before buying fluid. Grinding in neutral, first or second on 2021–23 trucks is covered by a service bulletin.",
+    "note": "Yes, the manual really specifies Ford's dual-clutch fluid for this Getrag manual; Ford schedules a change every 100,000 mi. Grinding in neutral, first or second on 2021–23 trucks is covered by a service bulletin.",
     "parts": [
      {
       "name": "ExtremeTerrain — Bronco clutch parts",
@@ -761,7 +761,7 @@
    {
     "item": "Transfer case",
     "spec": "Motorcraft Mercon LV (WSS-M2C938-A) · 1.3 qt (part-time) · 1.6 qt (advanced 4A)",
-    "interval": "Change at purchase",
+    "interval": "Change at purchase; Ford: every 150,000 mi, or sooner if leaking or submerged",
     "note": "If the truck has had transmission or transfer-case work, check that recall 26V-236 (misaligned joint after a previous repair) doesn't apply.",
     "parts": [
      {
@@ -773,9 +773,9 @@
    },
    {
     "item": "Front axle",
-    "spec": "26.2 fl oz with locker · 29.2–30.4 fl oz without · gear oil per manual (Ford lists 80W-90 WSP-M2C197-A and 75W-85 synthetic WSS-M2C942-A for the axles) [CONFIRM WHICH AXLE TAKES WHICH]",
-    "interval": "Change at purchase and after deep water crossings",
-    "note": "The table doesn't say which oil goes front and which rear.",
+    "spec": "Motorcraft SAE 80W-90 (WSP-M2C197-A) · 26.2 fl oz with electronic locker · 29.2 fl oz without locker or disconnect · 30.4 fl oz without locker, with front-axle disconnect",
+    "interval": "Ford: every 150,000 mi, or sooner if leaking or submerged. Change at purchase and after deep water crossings",
+    "note": "The front axle takes conventional 80W-90; the rear takes synthetic 75W-85. Don't mix them up.",
     "parts": [
      {
       "name": "ExtremeTerrain — Bronco oils and fluids",
@@ -786,8 +786,8 @@
    },
    {
     "item": "Rear axle",
-    "spec": "63.6 fl oz with locker · 65.3 fl oz without · gear oil per manual [CONFIRM IN MANUAL]",
-    "interval": "Change at purchase; more often if towing or on 35s",
+    "spec": "Motorcraft SAE 75W-85 synthetic hypoid (WSS-M2C942-A) · 63.6 fl oz with electronic locker · 65.3 fl oz without",
+    "interval": "Ford: every 150,000 mi, or sooner if leaking or submerged. Change at purchase; more often if towing or on 35s",
     "note": "Check the axle vent after water crossings.",
     "parts": [
      {
@@ -800,7 +800,7 @@
    {
     "item": "Brake & clutch fluid",
     "spec": "Motorcraft DOT 4 LV (WSS-M6C65-A2)",
-    "interval": "Flush at purchase, then per manual [CONFIRM IN MANUAL]",
+    "interval": "Flush at purchase, then every 3 years (2021 owner's manual)",
     "note": "The manual's clutch shares the brake reservoir fluid.",
     "parts": [
      {
@@ -891,6 +891,10 @@
   {
    "name": "Bring a Trailer — Ford Bronco U725 results",
    "url": "https://bringatrailer.com/ford/u725-bronco/"
+  },
+  {
+   "name": "Ford — 2021 Bronco Owner's Manual (PDF): capacities and specifications, wheel-nut torque, scheduled maintenance",
+   "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2021-Ford-Bronco-Owners-Manual-version-1B_om_EN-US_03_2021.pdf"
   }
  ]
 }
