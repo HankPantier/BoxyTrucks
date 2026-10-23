@@ -1,0 +1,262 @@
+{
+ "fitment": {
+  "stock": [
+   "15-inch factory wheels, 6 or 7 in wide"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "3.25 in backspacing (OEM 15x5.5 steel)",
+   "note": "Cruiser Corps lists the same 15x5.5 OEM steel wheel for 1958–1990 FJ40, FJ45, FJ55, FJ60, FJ62 and BJ trucks, and advises against tires wider than 10.5 in on it."
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "33x9.50R15",
+    "note": "An IH8MUD owner runs them with no problems. 31x10.50R15 is the common choice and looks right at stock height; 33x12.50s won't fit without a lift."
+   },
+   {
+    "lift": "2.5 in (OME)",
+    "size": "33x10.50R15",
+    "note": "Corsetti's FJ62 setup with an OME steering damper. Corsetti says don't go wider than 10.5 in or taller than 33 in on a factory rim."
+   },
+   {
+    "lift": "2.5 in + 2 in body lift",
+    "size": "35 in",
+    "note": "35s rub on a 2.5-inch OME kit alone. Owners say the A440F auto and stock gears struggle with 35s."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear lap belt may not retract",
+    "years": "1982–1988",
+    "ref": "NHTSA 89V155000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V155000",
+    "summary": "The rear lap belt can stay partly extended and lock; the fix was a belt guide or sheath. 1988 is the only FJ62 year covered."
+   },
+   {
+    "title": "Fuel tank separator welds can crack",
+    "years": "1980–1990",
+    "ref": "NHTSA 91V110000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V110000",
+    "summary": "Heat and load can pressurize the tank and crack its internal welds, leaking fuel; the remedy was an improved tank."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1987",
+   "change": "3F-E fuel-injected 4.0 L introduced; the FJ62G VX lets Toyota sell the Land Cruiser in Japan as a passenger vehicle",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "US FJ62 replaces the FJ60: 155 hp 3F-E, A440F four-speed automatic, square headlights, plusher cabin",
+   "flag": "buy"
+  },
+  {
+   "year": "1990",
+   "change": "Japanese production ends; the 80 Series replaces it for the 1991 US model year, keeping the 3F-E and A440F",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "Last FJ62s built in Venezuela, with a carbureted 3F",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The FJ62 is the easy 60 to live with, but carbureted Venezuelan trucks and imported HJ61s share its body.",
+  "items": [
+   {
+    "head": "Engine",
+    "body": "US FJ62s have the fuel-injected 3F-E (155 hp), which was also used in the 1991–92 FJ80. Venezuelan FJ62s built to 1992 used a carbureted 3F."
+   },
+   {
+    "head": "Transmission",
+    "body": "US trucks came only with the A440F four-speed automatic. A manual FJ62 has been converted, usually to an H55F."
+   },
+   {
+    "head": "Looks",
+    "body": "Square headlights and the facelifted front end set it apart from the round-headlight FJ60."
+   },
+   {
+    "head": "JDM VX",
+    "body": "The Japanese-market FJ62G VX launched in 1987. Right-hand-drive VX imports are gray-market, not US trucks."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 lb (1,590 kg)",
+   "note": "Corsetti"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23.8 US gal (90 L)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "12 city / 19 hwy mpg",
+   "note": "Corsetti"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,480 lb (2,032 kg)"
+  },
+  {
+   "k": "Dimensions",
+   "v": "184 x 70.9 x 68.9 in (L x W x H)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "FJ62s trade at roughly FJ60 money, with restomods and LS or LT swaps at the top.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$6k–15k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$21k–44k"
+   },
+   {
+    "cond": "Excellent / restomod",
+    "range": "$58k–98k"
+   }
+  ],
+  "note": "Based on 90 Bring a Trailer sales from January 2025 to October 2026 (median about $30,000). Engine-swapped trucks sold for a median of about $44,000; a TLC 4x4-modified 1990 FJ62 made $98,000."
+ },
+ "docs": [
+  {
+   "name": "Toyota TIS (Technical Information System)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's subscription service portal for most 1990-and-later North American models. Check whether it includes your FJ62's model year before you pay."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Every US FJ62 is a 1988–90 gasoline automatic. HJ61 turbodiesels, right-hand-drive FJ62G VXs and Venezuelan carbureted FJ62s (built to 1992) are gray-market but now more than 25 years old, measured from the date of manufacture. Corsetti Cruisers warns that California may refuse to register an import without a 50-state-compliant emissions system."
+  ]
+ },
+ "production": {
+  "intro": "The FJ62 was built in Japan from 1987 to 1990, and in Venezuela until 1992.",
+  "items": [
+   {
+    "k": "US model years",
+    "v": "1988–1990"
+   },
+   {
+    "k": "Production end",
+    "v": "1990 (Japan) · 1992 (Venezuela)"
+   }
+  ],
+  "paint": "60 Series colors were Alpine White, Brown, Desert Beige, Freeborn Red and Royal Blue, plus metallic Charcoal Gray, Cognac, Gray-Blue, Rootbeer, Sky Blue and Stardust Silver."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US club since 1976 with regional chapters and the bimonthly Toyota Trails magazine; open to every Toyota 4x4 generation"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA's annual week of guided Land Cruiser trail runs in Moab, Utah, held each April"
+  },
+  {
+   "kind": "event",
+   "name": "Land Cruiser Heritage Museum",
+   "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum",
+   "note": "Salt Lake City museum with more than 100 Land Cruisers, aiming to show one of every model; open Monday–Saturday"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+   "name": "Corsetti Cruisers — FJ60 vs FJ62 Land Cruiser",
+   "url": "https://www.corsetticruisers.com/post/fj60-vs-fj62-land-cruiser"
+  },
+  {
+   "name": "Corsetti Cruisers — Toyota Land Cruiser FJ60 factory recalls (1981–1987)",
+   "url": "https://www.corsetticruisers.com/post/toyota-landcruiser-fj60-recalls"
+  },
+  {
+   "name": "Corsetti Cruisers — Tire sizes for a factory rim on a 1981–1990 FJ60 or FJ62",
+   "url": "https://www.corsetticruisers.com/post/tire-sizes-for-a-factory-rim-on-a-1981-1990-fj60-or-fj62-land-cruiser"
+  },
+  {
+   "name": "Corsetti Cruisers — Stock suspension or a 2.5\" lift on the FJ60/FJ62",
+   "url": "https://www.corsetticruisers.com/post/stock-suspension-or-a-2-5-lift-fj60-vs-fj62-land-cruiser"
+  },
+  {
+   "name": "IH8MUD — 33\" tires",
+   "url": "https://forum.ih8mud.com/threads/33-tires.22176"
+  },
+  {
+   "name": "IH8MUD — Tire size for FJ62",
+   "url": "https://forum.ih8mud.com/threads/tire-size-for-fj62.942907/"
+  },
+  {
+   "name": "IH8MUD — 35s on a FJ62",
+   "url": "https://forum.ih8mud.com/threads/35s-on-a-fj62.1230791"
+  },
+  {
+   "name": "Cruiser Corps — 15\" wheel rim, OEM",
+   "url": "https://cruisercorps.com/products/15-wheel-rim-oem"
+  },
+  {
+   "name": "Cruiser Corps — ARB/OME 2\" lift kit, FJ60/FJ62 4/1985–1/1990",
+   "url": "https://cruisercorps.com/products/arb-ome-fj60-fj62-lift-kit-2-medium-load-w-shackle-and-pins"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota Land Cruiser by model year",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=1985"
+  },
+  {
+   "name": "NHTSA — Recall 89V155000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V155000"
+  },
+  {
+   "name": "NHTSA — Recall 91V110000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V110000"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser 60-Series results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj60-fj62/"
+  },
+  {
+   "name": "Toyota TIS — Technical Information System",
+   "url": "https://techinfo.toyota.com/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Corsetti Cruisers — The new LENO Law in California",
+   "url": "https://www.corsetticruisers.com/post/the-new-leno-law-in-california"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "IH8MUD — TLCA Cruise Moab 2025",
+   "url": "https://forum.ih8mud.com/threads/cruise-moab-2025.1348289/"
+  },
+  {
+   "name": "Visit Utah — Land Cruiser Heritage Museum",
+   "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
+  }
+ ]
+}

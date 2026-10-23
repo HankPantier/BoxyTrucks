@@ -1,0 +1,248 @@
+{
+ "fitment": {
+  "stock": [
+   "H78-15 (≈205/75R15) on 15x5.5 steel wheels"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "3.25 in backspacing (OEM 15x5.5 steel)",
+   "note": "Cruiser Corps lists the same 15x5.5 OEM steel wheel for 1958–1990 FJ40, FJ45, FJ55, FJ60, FJ62 and BJ trucks, and advises against tires wider than 10.5 in on it."
+  }
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [
+   {
+    "title": "Door scuff plates can chafe the wiring harness",
+    "years": "1968–1969",
+    "ref": "NHTSA 69V027000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=69V027000",
+    "summary": "Left front and rear door scuff plates may have been fitted wrongly, risking a short in the harness underneath; dealers inspected and refitted them. NHTSA doesn't name the body, but the rear-door reference points to the four-door wagon."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1960",
+   "change": "FJ45V four-door wagon (2,650 mm) launched alongside the short-wheelbase 40",
+   "flag": "note"
+  },
+  {
+   "year": "1963",
+   "change": "2,950 mm long-wheelbase FJ45 pickup and cab-chassis added",
+   "flag": "note"
+  },
+  {
+   "year": "1967",
+   "change": "FJ55 wagon launched in August with Toyota's first fully boxed frame, replacing the FJ45 wagon",
+   "flag": "note"
+  },
+  {
+   "year": "1972",
+   "change": "HJ45 launched with the 3.6 L H diesel six; FJ55 gets revised side markers",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "4.2 L 2F and a four-speed replace the 3.9 L F and three-speed; FJ55 gets a domed hood (sold as the FJ56 in Japan)",
+   "flag": "buy"
+  },
+  {
+   "year": "1978",
+   "change": "FJ55 rear lamps move lower with integrated turn signals and reverse lights",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "FJ55 production ends in July; HJ47 and BJ45 arrive",
+   "flag": "note"
+  },
+  {
+   "year": "1984",
+   "change": "End of J40-family production in Japan; Venezuela built long-chassis trucks until 8/1985",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Long-wheelbase 40s came in a confusing spread of body and engine codes, and Brazilian Bandeirantes sometimes get sold as FJ45s or FJ55s.",
+  "items": [
+   {
+    "head": "FJ55 frame numbers",
+    "body": "Owners date FJ55s from the frame number using Toyota production microfiche, for example frames 76441–77572 for July 1977. Some California titles carry an extra leading zero that isn't on the frame, so check that the numbers match."
+   },
+   {
+    "head": "FJ55 year tells",
+    "body": "A center-domed hood means a 1975-or-later 2F truck; lower rear lamps with integrated turn signals mean 1978 or later. Two-tone paint and grille-set headlights are original."
+   },
+   {
+    "head": "FJ45 body codes",
+    "body": "IH8MUD's J45 chart lists codes by body: FJ45V/FJ45L wagons (1961–67), FJ45P-B long-bed pickups (8/64–1/75), FJ45RP and FJ45LP pickups from 1975, and FJ45V/LV Troopies from 6/77. HJ45 and HJ47 are diesel sixes; BJ45 is the four-cylinder diesel."
+   },
+   {
+    "head": "Bandeirante isn't a 55",
+    "body": "Brazilian Toyota Bandeirantes (OJ50/OJ55, later BJ50/BJ55) are 40-series derivatives with Mercedes-Benz or Toyota 14B diesels. An 'OJ55' is a Brazilian pickup or wagon, not an FJ55."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "2,700 mm (106.3 in) FJ55 · 2,650 mm wagon / 2,950 mm pickup FJ45"
+  },
+  {
+   "k": "Length (FJ55)",
+   "v": "4,675 mm (184 in)"
+  },
+  {
+   "k": "Curb weight (FJ45V)",
+   "v": "1,850 kg (4,079 lb)",
+   "note": "Japanese-market figure"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Long-bed FJ45 pickups and Troopies have overtaken FJ55s at auction, while stock FJ55s stay surprisingly affordable and LS-swapped restomods fetch big money.",
+  "ranges": [
+   {
+    "cond": "FJ55 project",
+    "range": "Under $5k"
+   },
+   {
+    "cond": "FJ55 stock driver",
+    "range": "$11k–21k"
+   },
+   {
+    "cond": "FJ55 restored or restomod",
+    "range": "$33k–106k"
+   },
+   {
+    "cond": "FJ45 pickup / Troopy, driver",
+    "range": "$14k–41k"
+   },
+   {
+    "cond": "FJ45, excellent or rare",
+    "range": "$69k–152k"
+   }
+  ],
+  "note": "Based on Bring a Trailer sales from January 2025 to October 2026: 18 FJ55s (median about $19,100, with LS3 and Vortec swaps at $42,500–$106,000) and 54 FJ45s, excluding Bandeirantes (median about $28,400; a 1965 SWB pickup made $122,000). Hagerty's FJ55 guide put the 2023 median at $34,500 and #2 condition at $46,300."
+ },
+ "import": {
+  "paragraphs": [
+   "The US got gasoline FJ45s and FJ55s. HJ45, HJ47 and BJ45 diesels, right-hand-drive Troopies and Brazilian Bandeirantes are gray-market. A vehicle at least 25 years old, measured from its date of manufacture, can be imported into the US without meeting FMVSS, so every J40-family truck now qualifies. JDMBUYSELL notes that EPA still expects the original-design engine or an EPA-certified replacement. Corsetti Cruisers warns that California may refuse to register an import without a 50-state-compliant emissions system, so plan for that before buying a BJ or HJ."
+  ]
+ },
+ "production": {
+  "intro": "The FJ55 ran for 13 years as Toyota's first purpose-built station wagon, while the long-wheelbase 45 outlived it as a pickup and Troopy.",
+  "items": [
+   {
+    "k": "FJ55 production",
+    "v": "August 1967 – July 1980"
+   },
+   {
+    "k": "J45/J47 production",
+    "v": "1960–1984 (Venezuela to 8/1985)"
+   },
+   {
+    "k": "FJ45 built",
+    "v": "412,383",
+    "note": "IH8MUD member compilation, subject to correction"
+   },
+   {
+    "k": "HJ47 built",
+    "v": "39,593",
+    "note": "IH8MUD member compilation"
+   },
+   {
+    "k": "BJ45 built",
+    "v": "9,488",
+    "note": "IH8MUD member compilation"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US club since 1976 with regional chapters and the bimonthly Toyota Trails magazine; open to every Toyota 4x4 generation"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA's annual week of guided Land Cruiser trail runs in Moab, Utah, held each April"
+  },
+  {
+   "kind": "event",
+   "name": "Land Cruiser Heritage Museum",
+   "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum",
+   "note": "Salt Lake City museum with more than 100 Land Cruisers, aiming to show one of every model; open Monday–Saturday"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J40)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J40)"
+  },
+  {
+   "name": "Wikipedia — Toyota Land Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+   "name": "Hagerty — Toyota Land Cruiser FJ55 buyer's guide",
+   "url": "https://hagerty.com/media/?p=158314"
+  },
+  {
+   "name": "JDMBUYSELL — Toyota Land Cruiser J40 guide",
+   "url": "https://www.jdmbuysell.com/learn/toyota/land-cruiser/j40/"
+  },
+  {
+   "name": "Cruiser Corps — 15\" wheel rim, OEM",
+   "url": "https://cruisercorps.com/products/15-wheel-rim-oem"
+  },
+  {
+   "name": "IH8MUD — FJ55 VIN decoding",
+   "url": "https://forum.ih8mud.com/threads/fj55-vin-decoding.1001128/"
+  },
+  {
+   "name": "IH8MUD — J45/47 body style, frame dates and production numbers (revised)",
+   "url": "https://forum.ih8mud.com/threads/j45-47-body-style-frame-dates-and-production-numbers-revised.1236003/"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota Land Cruiser by model year",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=1985"
+  },
+  {
+   "name": "NHTSA — Recall 69V027000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=69V027000"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser FJ45 results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj45/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser FJ55 results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj55/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Corsetti Cruisers — The new LENO Law in California",
+   "url": "https://www.corsetticruisers.com/post/the-new-leno-law-in-california"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "IH8MUD — TLCA Cruise Moab 2025",
+   "url": "https://forum.ih8mud.com/threads/cruise-moab-2025.1348289/"
+  },
+  {
+   "name": "Visit Utah — Land Cruiser Heritage Museum",
+   "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
+  }
+ ]
+}

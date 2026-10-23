@@ -1,0 +1,291 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 (16-inch wheels)",
+   "265/60R18 (18-inch wheels)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 bolts",
+   "lug_torque": "96 lb-ft (130 N·m)",
+   "offset": "ET35–63 compatible range (2001 G 500)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/70R18 (≈33 in)",
+    "note": "Expedition Portal owners report no rub on sensible offsets; 285/65R18 rubs slightly at full left lock, and ET63 aftermarket wheels rubbed. Re-code the tire size afterwards"
+   },
+   {
+    "lift": "2.5 in (60 mm)",
+    "size": "33 in",
+    "note": "Eurowise's recommended maximum for its 60 mm W463 kit; light wheel-well trimming on 2012-and-older trucks"
+   },
+   {
+    "lift": "4 in (100 mm)",
+    "size": "35 in",
+    "note": "Eurowise's recommendation for 100 mm of lift; its 100 mm kit is listed for 2002-on trucks, so confirm parts fit a 1990s Europa G. Above 4 in, extended brake lines are required"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Transmission shifter console labelling",
+    "years": "1992–2001",
+    "ref": "NHTSA 01V064",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=01V064000",
+    "summary": "Europa trucks built with incorrect labelling on the shifter console; 473 vehicles covered"
+   },
+   {
+    "title": "Fuel rollover valve seating",
+    "years": "1999–2000",
+    "ref": "NHTSA 00V188",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V188000",
+    "summary": "Improperly seated rollover valve can let fuel leak; 220 Europa G-Wagens covered"
+   },
+   {
+    "title": "Front seat-belt reel housing (LWB G 500)",
+    "years": "1999",
+    "ref": "NHTSA 00V070",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V070000",
+    "summary": "Wrongly shaped body housing lets the right-front belt reel rub; 22 long-wheelbase G 500s"
+   },
+   {
+    "title": "Passenger airbag labelling (G 320)",
+    "years": "1997–1998",
+    "ref": "NHTSA 01V237",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=01V237000",
+    "summary": "G 320 and G 320 Cabriolet built without the required airbag label on the passenger airbag cover (FMVSS 208); 42 vehicles"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1993",
+   "change": "Europa International finishes US certification (October 1993) and starts selling the 300 GE",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "G 320 with the 3.2-litre M104 inline-six replaces the 300 GE; manual gearbox dropped from the W463; driver's airbag added",
+   "flag": "note"
+  },
+  {
+   "year": "1994–1998",
+   "change": "M104 G 320s are the ones with the known head-gasket seep; German Cars For Sale Blog prefers the 300 GE or G 500",
+   "flag": "avoid"
+  },
+  {
+   "year": "1997",
+   "change": "Dual front airbags; six-cylinder petrol engines move from inline to V-form",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "G 500 V8 arrives once Europa gains Small Volume Manufacturer status; G 320 changes over from M104 inline-six to M112 V6 during the year",
+   "flag": "buy"
+  },
+  {
+   "year": "1999",
+   "change": "20th-anniversary G 500 Classic special edition (500 built worldwide); Neiman Marcus Christmas Book G 500 at $160,000, six sold",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "Final Europa model year",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "Mercedes-Benz USA takes over with the G 500 and G 55 AMG (MY2002)",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Europa trucks were certified for the US when new, which is what separates them from gray-market Gs imported later. Paperwork and the VIN do most of the work.",
+  "items": [
+   {
+    "head": "VIN format",
+    "body": "Bring a Trailer's 2000–2001 Europa G 500s carry 17-character US-format VINs beginning WDBEG42, with the 10th character as the model-year code (Y = 2000, 1 = 2001). The 1998 Europa G 320s listed there show VINs in the European style, beginning WDB463231 (W463 model code). Neither decodes fully in NHTSA's vPIC tool, so lean on paperwork as well."
+   },
+   {
+    "head": "Compliance label and invoices",
+    "body": "A real Europa truck has a federal compliance label and Europa sales paperwork, not a foreign VIN cleared later by an independent lab. Match the VIN on the label, the chassis and the invoices."
+   },
+   {
+    "head": "Recall records",
+    "body": "Europa filed its own NHTSA recalls under the make 'EUROPA' (e.g. 01V064, covering 1992–2001 trucks). A completed Europa recall in the service file is good evidence of a factory-certified truck."
+   },
+   {
+    "head": "G 320 engine",
+    "body": "1998 was the changeover year, so a G 320 can have the M104 inline-six or the M112 V6. Read the engine code rather than trusting the model year."
+   },
+   {
+    "head": "Europa versus 2002 MBUSA G 500",
+    "body": "A Europa G 500 has black-painted bumpers, the pre-facelift W210 E-Class steering wheel and cluster, no wheel-mounted radio buttons, older climate controls and a 722.6 automatic without the tip-shift gate."
+   }
+  ]
+ },
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are broad because BaT lumps Europa trucks in with gray-market W463s. Short-wheelbase and Cabriolet versions sell for far more than five-door wagons.",
+  "ranges": [
+   {
+    "cond": "Project / high mileage",
+    "range": "$19k–30k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$30k–55k"
+   },
+   {
+    "cond": "Excellent / well documented",
+    "range": "$55k–75k"
+   },
+   {
+    "cond": "SWB or Cabriolet",
+    "range": "$80k–235k"
+   }
+  ],
+  "note": "Based on about 35 Bring a Trailer sales of 1993–2001 petrol W463 wagons, SWBs and Cabriolets from January 2025 to October 2026, nine of them titled 'Europa'. The Europa-titled sales ran from $19,250 (2001 G 500) to $114,000 (2000 G 500 SWB), and a 2000 G 500 Cabriolet Europa made $230,000."
+ },
+ "docs": [
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "A Europa G doesn't need to be imported: Europa International certified these trucks to US safety and emissions standards when they were new. That's the difference from gray-market W463s brought in privately, one at a time, and it's why Europa paperwork matters when you buy.",
+   "NHTSA lets a vehicle that is at least 25 years old be imported without meeting the FMVSS, counting from its date of manufacture. That now covers every 1990s W463, so European-market versions Europa never sold can come in legally. That's one reason so many 1990s Gs on the US market today were never Europa trucks. Check state titling and emissions rules before buying one."
+  ]
+ },
+ "production": {
+  "intro": "Europa never published a total, but its own NHTSA recalls give an idea of how many trucks it sold.",
+  "items": [
+   {
+    "k": "US importer",
+    "v": "Europa International, Inc., Santa Fe, New Mexico"
+   },
+   {
+    "k": "Recall 01V064 population",
+    "v": "473 trucks (1992–2001 model years)"
+   },
+   {
+    "k": "US-certified SWB Cabriolets",
+    "v": "Fewer than ten (Ferraris Online)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Neiman Marcus G 500",
+    "years": "1999",
+    "note": "Christmas Book special at $160,000 with two-tone interior and birch trim; six sold"
+   },
+   {
+    "name": "G 500 Classic Special Edition",
+    "years": "1999",
+    "note": "20th-anniversary edition in Almandine Black (182); 500 built worldwide, 12 of them Cabriolets"
+   }
+  ],
+  "paint": "G 500 Classic: Almandinschwarz-Metallic (182), which can look black or dark aubergine depending on the light."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl mountain near Graz, Austria, where the G is built and tested"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recall flat files (FLAT_RCL), Office of Defects Investigation",
+   "url": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip"
+  },
+  {
+   "name": "NHTSA — recalls API (campaign lookup)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=23V097000"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Limitless Tire — 2001 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2001/"
+  },
+  {
+   "name": "Eurowise — W463 2.5-inch (60 mm) lift kit",
+   "url": "https://shop.eurowise.com/products/w463liftkit60mm"
+  },
+  {
+   "name": "Eurowise — W463 2.5–5.5-inch lift kits (60/100 mm)",
+   "url": "https://shop.eurowise.com/products/w463100mm"
+  },
+  {
+   "name": "Expedition Portal — W463 tire fitment posts",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class 1991–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "name": "Bring a Trailer — 2000 Mercedes-Benz Europa G500 (VIN)",
+   "url": "https://bringatrailer.com/listing/2000-mercedes-benz-europa-g500/"
+  },
+  {
+   "name": "Bring a Trailer — 1998 Mercedes-Benz G320 Europa (VIN)",
+   "url": "https://bringatrailer.com/listing/1998-mercedes-benz-g320-10/"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "Ferraris Online — 1991 Mercedes 300 GE SWB",
+   "url": "https://ferraris-online.com/cars/1991-mercedes-300-ge-swb-g-wagen-072843/"
+  },
+  {
+   "name": "German Cars For Sale Blog — 2000 Mercedes-Benz G500 Europa",
+   "url": "https://germancarsforsaleblog.com/2000-mercedes-benz-g500-europa/"
+  },
+  {
+   "name": "German Cars For Sale Blog — 1998 Mercedes-Benz G320",
+   "url": "https://germancarsforsaleblog.com/1998-mercedes-benz-g320/"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  }
+ ]
+}
