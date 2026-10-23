@@ -1,0 +1,435 @@
+{
+ "fitment": {
+  "stock": [
+   "205/75R15 (≈ 27.1 in tall), the factory size per The Ranger Station"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\")",
+   "center_bore": "70.5 mm",
+   "lug_thread": "1/2\"-20 UNF",
+   "offset": "Listed fitments 6Jx15 and 7Jx15, ET12"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "Shown on The Ranger Station with no lift and trimmed fenders. Its rule of thumb pairs 31s with about 1.5 in of lift plus trimming. The Dana 28 front axle is rated for about 31 in tires."
+   },
+   {
+    "lift": "1.5 in",
+    "size": "32x11.50R15",
+    "note": "Fits with the bottom rear corner of the front fender trimmed."
+   },
+   {
+    "lift": "4 in",
+    "size": "31–32 in (33 in with cut-out flares or a 3 in body lift)",
+    "note": "The Ranger Station's chart: 31s fit, 32s need trimming, and 33s need cut-out flares or a 3 in body lift."
+   },
+   {
+    "lift": "6 in",
+    "size": "33 in (35 in with a 2–3 in body lift and cut-out flares)",
+    "note": "35s also show up on 3–5.5 in lifts with body lifts and cut-out flares, and on solid-axle swaps. At this size, plan for a Dana 35 or a solid axle, an 8.8 rear and regearing."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Shoulder-belt D-ring anchorage too weak",
+    "years": "1984",
+    "ref": "NHTSA 83V-134",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=83V134000",
+    "summary": "The D-ring mounting didn't meet FMVSS 210; dealers installed stronger attaching hardware."
+   },
+   {
+    "title": "Automatic locking-hub cams may crack",
+    "years": "1984",
+    "ref": "NHTSA 84V-023",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V023000",
+    "summary": "Improperly heat-treated hub components could fracture when the front axle engaged; cam assemblies were replaced."
+   },
+   {
+    "title": "EEC wiring harness short can open fuel injectors",
+    "years": "1986",
+    "ref": "NHTSA 85V-116",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=85V116000",
+    "summary": "Welding spikes could damage harness insulation and short the fuel-pump circuit, discharging fuel into the engine; the harness was repaired and the engine and catalyst checked."
+   },
+   {
+    "title": "Nylon fuel-return lines may crack",
+    "years": "1986",
+    "ref": "NHTSA 85V-130",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=85V130000",
+    "summary": "Lines on the return side of the pressure regulator could crack and leak; they were replaced with rubber hoses."
+   },
+   {
+    "title": "Spring-lock fuel couplings may not be engaged",
+    "years": "1986–1987",
+    "ref": "NHTSA 87V-139",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=87V139000",
+    "summary": "Dealers installed retainer clips over the couplings to prevent separation and fuel leaks."
+   },
+   {
+    "title": "Wrong lug nuts on aluminum wheels",
+    "years": "1987",
+    "ref": "NHTSA 87V-039",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=87V039000",
+    "summary": "Tapered lug nuts were replaced with the correct short-shank type."
+   },
+   {
+    "title": "Handling-warning sticker on the sun visor won't stay on",
+    "years": "1987",
+    "ref": "NHTSA 87V-070",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=87V070000",
+    "summary": "The handling and maneuverability decal didn't meet the permanent-adhesion requirement; owners were mailed new visor sleeves with the warning printed on."
+   },
+   {
+    "title": "Power lumbar seat wiring can chafe",
+    "years": "1986",
+    "ref": "NHTSA 88V-145",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=88V145000",
+    "summary": "Wiring routed under the seat springs could be abraded; a fuse was added to the circuit."
+   },
+   {
+    "title": "Front wheel-bearing nut retaining keys missing",
+    "years": "1989",
+    "ref": "NHTSA 89V-109",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V109000",
+    "summary": "Without the keys the adjusting nut could loosen; dealers installed them where missing."
+   },
+   {
+    "title": "Automatic transmission park pawl may not engage",
+    "years": "1990",
+    "ref": "NHTSA 91V-189",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V189000",
+    "summary": "The park pawl didn't always engage the park gear; transmissions were repaired with a new pawl."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1983",
+   "change": "Production begins at Louisville in January and the Bronco II is introduced in March as a 1984 model. Four-wheel drive only, carbureted 2.8 Cologne V6 (115 hp), TK4 four-speed or C5 automatic, Dana 28 TTB, 7.5 rear.",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Five-speed manuals (TK5, FM145); the A4LD four-speed automatic replaces the C5 from November 1984 builds; power window and lock group; side glass changes from glued to bolted-in late in the year. Last year of the XLS.",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "Fuel-injected 2.9 Cologne V6 (140 hp); Mitsubishi 2.3 turbodiesel offered; Touch-Drive electric-shift transfer case late in the year. Ford records show the first 2WD trucks.",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "Rear-wheel ABS standard; 2WD sales begin in earnest (22,286 sold per NHTSA). 1985–87 A4LDs are the least reliable.",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "Sequential fuel injection; FM146 and Mazda M5OD five-speeds; dual-solenoid A4LD from mid-year; XL Sport arrives. Last year of the front-door vent windows and the early body.",
+   "flag": "buy"
+  },
+  {
+   "year": "1989",
+   "change": "Facelift to match the Ranger: new hood, fenders, bumper and dashboard, 161.9 in long. Improved 89TM 2.9 heads cure most head cracking. Ball joints move from the TTB beam to the knuckle. XLT Plus package.",
+   "flag": "buy"
+  },
+  {
+   "year": "1990",
+   "change": "Final year. BW1354 on electric-shift trucks; Dana 35 TTB on 4x4s built from November 1989; some 2WD trucks get a true 2WD transmission. Production ends in early 1990 and the Explorer replaces it for 1991.",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Nearly every Bronco II has been modified or had parts swapped from Rangers and Explorers, so identification is mostly about which drivetrain is fitted now and which it left the factory with.",
+  "items": [
+   {
+    "head": "Door-post label codes",
+    "body": "The Federal Safety Compliance Certification label on the driver's door post lists the axle code (ratio and limited slip) and the TRANS code. Ranger Station manual-transmission codes include X (TK4), 5 (TK5), D (FM145/FM146) and M (M5OD); automatics are W (C5) and T (A4LD)."
+   },
+   {
+    "head": "Front axle",
+    "body": "A Dana 28 TTB has a 12-bolt cover, 23-spline shafts and a date code beginning with E. A Dana 35 has a 10-bolt cover, 27-spline shafts and an F code. Only 1990 trucks built from November 1989 came with a Dana 35, so on anything earlier it's a swap."
+   },
+   {
+    "head": "2WD or 4WD",
+    "body": "A 2WD truck usually still has a transfer-case-shaped BW1359 behind a 4WD-style transmission, but no front driveshaft or front differential. Late 1990 2WD trucks may have a true 2WD transmission with a bolt-on flange adapter instead."
+   },
+   {
+    "head": "Engine and heads",
+    "body": "The 2.8 (1984–85) is carbureted with a gear-driven cam. The 2.9 (1986–90) has an upper intake reading \"2.9L Electronic Fuel Injection\". Improved heads have rectangular rocker pedestals and 89TM castings; early heads have oval pedestals."
+   },
+   {
+    "head": "Eddie Bauer",
+    "body": "1984–88 trucks are two-tone over Light Desert Tan with Eddie Bauer fender badges, a logo on the passenger side of the dash and a tan interior with pine-tree stitching. 1989–90 trucks are two-tone over Light Sandalwood and have a signature decal instead of a badge, plus striped seats with Eddie Bauer and duck headrest graphics."
+   },
+   {
+    "head": "Early-build clues",
+    "body": "Removable flip-out quarter windows appeared only on early 1983.5 production. Glued-in side glass with metal trim means a 1984 to early-1985 build. Front-door vent windows ended in 1988. A 1984 fuel tank has a smaller sending-unit opening than 1985–90 tanks."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "94.0 in (2,388 mm)"
+  },
+  {
+   "k": "Length",
+   "v": "158.3 in (1984–88) · 161.9 in (1989–90)"
+  },
+  {
+   "k": "Width",
+   "v": "68.0 in (1,727 mm)"
+  },
+  {
+   "k": "Height",
+   "v": "68.2 in (1984–88) · 69.9 in (1989–90)",
+   "note": "Wikipedia infobox figures"
+  },
+  {
+   "k": "Track",
+   "v": "56.9 in front and rear",
+   "note": "NHTSA petition analysis, 1999"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23 US gal (87 L)"
+  },
+  {
+   "k": "Seating",
+   "v": "4"
+  },
+  {
+   "k": "Cargo volume",
+   "v": "23.8 cu ft behind the rear seat · 57 cu ft maximum"
+  },
+  {
+   "k": "Low range",
+   "v": "2.48:1 (BW1350 and BW1354)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15–17 city / 17–22 hwy",
+   "note": "Factory-era ratings: a 1984 4x4 with the 2.8 and C5 automatic was 15/17; the best was a 1986–88 2WD five-speed 2.9 at 17/22"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Bronco IIs are still cheap. Clean, original Eddie Bauers and XLT 4x4 five-speeds bring the most, and very-low-mileage survivors bring far more.",
+  "ranges": [
+   {
+    "cond": "Tired or engine-swapped driver",
+    "range": "$5k–9k"
+   },
+   {
+    "cond": "Good original XLT or Eddie Bauer 4x4",
+    "range": "$9k–16k"
+   },
+   {
+    "cond": "Exceptional low-mileage survivor",
+    "range": "$28.5k+"
+   }
+  ],
+  "note": "Based on 24 recent Bring a Trailer results (August 2024 to October 2026): sold prices ran from $5,000 (a 302-swapped 1989 XLT) to $15,750 for most trucks, with a 9,000-mile 1989 Eddie Bauer at $28,550. BaT lists 69 Bronco II auctions in all."
+ },
+ "docs": [
+  {
+   "name": "The Ranger Station — Ford Bronco II sales brochures (1984–1990)",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-brochures/",
+   "note": "Scans of Ford's original brochures, the best source for factory trims, packages and colors."
+  },
+  {
+   "name": "The Ranger Station — Bronco II wiring diagrams",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-wiring-diagrams/",
+   "note": "Wiring references collected by the Bronco II Corral."
+  },
+  {
+   "name": "The Ranger Station — 1983 Bronco II press kit (PDF)",
+   "url": "https://www.therangerstation.com/resources/pdf_documents/1983-Bronco-II-Press-Kit.pdf",
+   "note": "Ford's launch press material."
+  },
+  {
+   "name": "The Ranger Station — technical service bulletins",
+   "url": "https://www.therangerstation.com/tsb/",
+   "note": "Ranger-family TSB index."
+  },
+  {
+   "name": "Helm Incorporated",
+   "url": "https://www.helminc.com/",
+   "note": "Publisher of Ford printed owner and service manuals and wiring diagrams; check availability by year."
+  },
+  {
+   "name": "NHTSA recall lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Check a VIN or model year for open campaigns."
+  }
+ ],
+ "production": {
+  "intro": "All Bronco IIs were built at Louisville Assembly in Kentucky. Ford's own production records are patchy, so the cleanest figures are NHTSA's US sales by model year.",
+  "items": [
+   {
+    "k": "1984",
+    "v": "144,061 (4x4 only)"
+   },
+   {
+    "k": "1985",
+    "v": "98,153 (4x4 only)"
+   },
+   {
+    "k": "1986",
+    "v": "109,846 (4x4 only)"
+   },
+   {
+    "k": "1987",
+    "v": "111,104 (88,818 4x4 · 22,286 4x2)"
+   },
+   {
+    "k": "1988",
+    "v": "147,725 (109,524 4x4 · 38,201 4x2)"
+   },
+   {
+    "k": "1989",
+    "v": "97,191 (67,356 4x4 · 29,835 4x2)"
+   },
+   {
+    "k": "1990",
+    "v": "54,896 (38,451 4x4 · 16,445 4x2)"
+   },
+   {
+    "k": "Total US sales",
+    "v": "762,976",
+    "note": "NHTSA, Federal Register, May 19, 1999. The Ranger Station's production table records 25 2WD trucks built for 1986 and notes that Ford's 1984 production data is missing."
+   }
+  ],
+  "editions": [
+   {
+    "name": "XLS",
+    "years": "1984–1985",
+    "note": "Blacked-out trim, tri-color lower-body tape stripes, sport steering wheel; optional reclining rear bucket seats"
+   },
+   {
+    "name": "Eddie Bauer",
+    "years": "1984–1990",
+    "note": "Two-tone paint, tan interior, captain's chairs, Eddie Bauer luggage package on early trucks"
+   },
+   {
+    "name": "XL Sport",
+    "years": "1988–1990",
+    "note": "Brush guard, fog lamps, black tubular rear bumper, body spats and graphics"
+   },
+   {
+    "name": "XLT Plus",
+    "years": "1989–1990",
+    "note": "A fully loaded XLT package with deluxe two-tone paint, luggage rack and outside spare carrier"
+   },
+   {
+    "name": "Sherrod convertible and Bronco II Plus",
+    "years": "—",
+    "note": "Rare outside conversions, not factory trims, documented by The Ranger Station"
+   }
+  ],
+  "paint": "1984–88 Eddie Bauer colors were Dark Canyon Red, Dark Shadow Blue, Dark Walnut or Dark Spruce over Light Desert Tan; 1989–90 trucks paired Raven Black, Scarlet Red, Cabernet Red, Hunter Green, Twilight Blue or Sandalwood with Light Sandalwood."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "The Ranger Station — Bronco II Corral",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/",
+   "note": "The main online home for Bronco II owners, with a forum, tech library and build features"
+  },
+  {
+   "kind": "event",
+   "name": "The Ranger Station events",
+   "url": "https://www.therangerstation.com/trs-events/",
+   "note": "Trail rides, round-ups and campouts for Ranger-based vehicles, Bronco IIs included"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Ranger Station — Ford Bronco II specifications & facts",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/bronco-ii-specifications-facts/"
+  },
+  {
+   "name": "The Ranger Station — Ford Bronco II production numbers",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-production-numbers/"
+  },
+  {
+   "name": "The Ranger Station — Ford Bronco II history",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-history/"
+  },
+  {
+   "name": "The Ranger Station — Bronco II trim levels & packages",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/bronco-ii-trim-levels-packages/"
+  },
+  {
+   "name": "The Ranger Station — Eddie Bauer Ford Bronco II",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/eddie-bauer-ford-bronco-ii/"
+  },
+  {
+   "name": "The Ranger Station — Bronco II lift and tire guide",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/bronco-ii-lift-and-tire-guide/"
+  },
+  {
+   "name": "The Ranger Station — Ford Bronco II common upgrades",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-common-upgrades/"
+  },
+  {
+   "name": "The Ranger Station — Ford Ranger 4x4 front axles 1983–1997",
+   "url": "https://www.therangerstation.com/tech/ford-ranger-4x4-front-axles-1983-1997/"
+  },
+  {
+   "name": "The Ranger Station — Ford Ranger & Bronco II manual transmissions",
+   "url": "https://www.therangerstation.com/tech/ford-ranger-manual-transmissions/"
+  },
+  {
+   "name": "The Ranger Station — Ranger & Bronco II transfer cases",
+   "url": "https://www.therangerstation.com/tech/1983-2011-ford-ranger-transfer-cases/"
+  },
+  {
+   "name": "The Ranger Station — BW1359 dummy transfer case",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/bw1359-dummy-transfer-case/"
+  },
+  {
+   "name": "The Ranger Station — Ford 2.9L V6 engines",
+   "url": "https://www.therangerstation.com/tech/ford-ranger-2-9l-v-6-engines/"
+  },
+  {
+   "name": "The Ranger Station — Ford Bronco II fuel economy ratings",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-fuel-mileage-ratings/"
+  },
+  {
+   "name": "The Ranger Station — Ford Bronco II fuel tank",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/ford-bronco-ii-fuel-tank/"
+  },
+  {
+   "name": "The Ranger Station — Bronco II: a guide to Ford's smaller SUV (Four Wheeler repost)",
+   "url": "https://www.therangerstation.com/bronco-ii-corral/fords-smaller-suv/"
+  },
+  {
+   "name": "Wikipedia — Ford Bronco II",
+   "url": "https://en.wikipedia.org/wiki/Ford_Bronco_II"
+  },
+  {
+   "name": "Federal Register 64 FR 27343 (May 19, 1999) — NHTSA DP97-006 petition analysis (sales by model year, track width)",
+   "url": "https://www.govinfo.gov/content/pkg/FR-1999-05-19/html/99-12579.htm"
+  },
+  {
+   "name": "NHTSA — recalls API, Ford Bronco II 1984–1990",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=FORD&model=BRONCO%20II&modelYear=1986"
+  },
+  {
+   "name": "Koleso.ee — Ford Bronco II 1984–1988 wheel specifications",
+   "url": "https://koleso.ee/en/valuveljed/ford/bronco-ii/1515/1984-1988/2974"
+  },
+  {
+   "name": "Bring a Trailer — Ford Bronco II results",
+   "url": "https://bringatrailer.com/ford/bronco-ii/"
+  }
+ ]
+}
