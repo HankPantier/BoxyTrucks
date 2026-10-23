@@ -482,6 +482,11 @@ def main():
     full = sum(len(v) for v in pages.values())
     stubs = sum(1 for f in fams.values() for g in f['generations'] if not g['has_page'])
     print(f'built {n} pages · full guides: {full} · overview-only: {stubs}')
+    ph = re.compile(r'\[(TO RESEARCH|TBD|TODO|PHOTO|OWNER|STORY|ONE-PARAGRAPH)[^\]]*\]')
+    for f in sorted(SITE.rglob('*.html')):
+        for m in ph.finditer(f.read_text()):
+            print(f'  ! placeholder left in {f.relative_to(SITE)}: {m.group(0)[:60]}')
+            break
 
 
 if __name__ == '__main__':
