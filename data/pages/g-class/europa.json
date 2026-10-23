@@ -20,14 +20,14 @@
   {
    "heading": "AMERICA SAYS NO",
    "paragraphs": [
-    "The G was never planned for the US. In the 1980s gray-market specialists brought [[g-class/w460|W460s]] in anyway, but tighter import rules in 1987 and the 1988 Imported Vehicle Safety Compliance Act largely ended that. Hagerty notes that gray-market buyers had always paid a steep premium, and Mike Serpe of Club G-Wagen warns that some of those dealers weren't entirely trustworthy. Anyone who wanted a G legally needed someone to do the certification properly.",
-    "According to the German Cars For Sale Blog, that was Dave Holland's idea. His Santa Fe company, Europa, decided to certify the truck to federal emissions and safety standards, crash tests included. Dealer Ferraris Online's account says the programme took five years, finished in October 1993 and cost $500,000. Wikipedia says Europa started selling Gs that year."
+    "The G was never planned for the US. In the 1980s gray-market specialists brought [[g-class/w460|W460s]] in anyway, but the Imported Vehicle Safety Compliance Act of 1988 largely ended that trade. Hagerty notes that gray-market buyers had always paid through the nose for the privilege. Anyone who wanted a G legally needed someone to do the certification properly.",
+    "A Motor Trend feature quoted by German Cars For Sale Blog credits Santa Fe's Dave Holland with the idea. His company, Europa, decided to certify the truck to federal emissions and safety standards, crash tests included. Dealer Ferraris Online's account says the programme took five years, finished in October 1993 and cost $500,000. Wikipedia says Europa started selling Gs that year."
    ]
   },
   {
    "heading": "FROM CONVERTER TO MANUFACTURER",
    "paragraphs": [
-    "The early trucks were European Gs modified to US specification. Hagerty says Europa later persuaded Mercedes to build them to DOT standards at the factory. Then came the bigger step. Ferraris Online says that after almost two years and more than $1 million, Europa gained US Small Volume Manufacturer status, making the trucks legal in all 50 states. Wikipedia ties that status to the arrival of the V8 G 500 in 1998 and says it made Europa the exclusive US importer and distributor.",
+    "The early trucks were European Gs modified to US specification. Hagerty says Europa later persuaded Mercedes to build them to DOT standards at the factory. Then came the bigger step. Ferraris Online says that after almost two years and more than $1 million, Europa gained US Small Volume Manufacturer status, making the trucks legal in all 50 states. Wikipedia ties that status to the arrival of the V8 G 500 in 1998 (Ferraris Online dates it to 1999) and says it made Europa the exclusive US importer and distributor.",
     "The line-up followed Europe's. It started with the 3.0-litre inline-six 300 GE, then the 3.2-litre inline-six G 320. In 1998 the G 320 switched to a V6, so both engines exist for that year. The 5.0-litre V8 G 500 joined at the top, and Europa also certified a handful of short-wheelbase Cabriolets. Volumes were small and margins were large. Hagerty reports that some trucks sold for as much as $135,000."
    ]
   },
@@ -41,7 +41,7 @@
   {
    "heading": "THE HANDOVER",
    "paragraphs": [
-    "Europa's success was what ended its import business. Mercedes-Benz bought the US distribution rights and launched the G officially for the 2002 model year, with the G 500 and [[g-class/g55-amg|G 55 AMG]]. Europa moved into service, parts and accessories, and kept importing a few models America never got officially, such as the three-door Cabriolet. A related company, Europa G-Wagen LLC of Santa Fe, still appears in title histories as late as 2013. The importer itself is a footnote now, but its trucks are not: a Europa G is the sweet spot for anyone who wants a 1990s G with proper US paperwork."
+    "Europa's success was what ended its import business. Mercedes-Benz bought the US distribution rights and launched the G officially for the 2002 model year, with the G 500 and [[g-class/g55-amg|G 55 AMG]]. Europa moved into service, parts and accessories, and kept importing a few models America never got officially, such as the three-door Cabriolet. Jalopnik reports that Europa is still in business, selling parts, service and modifications to the G community. The importer itself is a footnote now, but its trucks are not: a Europa G is the sweet spot for anyone who wants a 1990s G with proper US paperwork."
    ]
   }
  ],
@@ -53,7 +53,7 @@
    "It also shows who Europa was selling to. These weren't farm trucks. The trucks were expensive and luxurious, and they were still capable off-road."
   ]
  },
- "engineering_intro": "Mechanically, Europa trucks are civilian W463s from the 1990s: a ladder frame, coil-sprung solid axles front and rear, permanent four-wheel drive with a two-speed transfer case, and three differential locks on the dash. The differences are in the engines and the amount of electronics. The sixes and the M113 V8 run without the COMAND and smart-key systems that came with Mercedes-Benz USA's 2002 trucks.",
+ "engineering_intro": "Mechanically, Europa trucks are civilian W463s from the 1990s: a ladder frame, coil-sprung solid axles front and rear, permanent four-wheel drive with a two-speed transfer case, and three differential locks on the dash. The differences are in the engines and the amount of electronics. They also predate the COMAND system of Mercedes-Benz USA's 2002 trucks, though late Europa G 500s already have the electronic ignition (EIS) and smart key.",
  "engineering": [
   {
    "k": "CHASSIS",
@@ -157,7 +157,7 @@
   },
   {
    "head": "Ignition and key system",
-   "body": "German Cars For Sale Blog warns that the EIS and smart-key system on later trucks can strand you without warning, and one Europa G 320 needed a new ignition tumbler. Make sure every key starts the truck."
+   "body": "German Cars For Sale Blog warns that the electronic ignition (EIS) and smart key fitted to late Europa trucks (around 2000, possibly a year or two earlier) can strand you without warning and are expensive to replace. Make sure every key starts the truck."
   },
   {
    "head": "Rust from snowy states",
@@ -196,7 +196,7 @@
    "time": "2–3 days",
    "cost": "≈ $2,000 at a dealer (2002)",
    "symptoms": "Oil seeping at the right rear of the cylinder head, visible from underneath; oil smell after a run.",
-   "fix": "Replace the head gasket and resurface the head if needed, with new head bolts and seals. Owners report the leak doesn't return after a proper repair. A later Europa seller still recommended the G 300 or G 500 over the inline-six G 320 for this reason.",
+   "fix": "Replace the head gasket and resurface the head if needed, with new head bolts and seals. Owners report the leak doesn't return after a proper repair. The same PeachParts owner still recommended a G 500 for long-term ownership.",
    "tools": "Head gasket set · head bolts · torque wrench and angle gauge · access to a machine shop",
    "parts": [
     {
@@ -268,9 +268,9 @@
    "diff": "2 / 5",
    "time": "An afternoon",
    "cost": "Diagnosis-dependent",
-   "symptoms": "One or all locks won't engage, or drop out. It's usually the vacuum system, not the differentials.",
-   "fix": "Confirm vacuum at the actuators, then trace back through the reservoir, hoses and switchover valves with a tee-in gauge. Split connectors and perished rubber fittings are common. Change the diff and transfer-case fluids while you're in there.",
-   "tools": "Hand vacuum pump with gauge · vacuum tees and line · connectors · gear oil",
+   "symptoms": "One or all locks won't engage, or drop out. It's usually the actuation, not the differentials. On a 2005 G 500 an MBWorld owner found the centre lock vacuum-operated and the front and rear locks hydraulic, and a 1997 G 320 owner notes the locker circuit uses brake fluid; confirm your truck's system in the factory manual.",
+   "fix": "Check vacuum at the centre-lock hose on the transfer case, then trace back through the reservoir, hoses and switchover valves with a tee-in gauge. Split connectors and perished rubber fittings are common. For the axle locks, check the hydraulic lines and fluid. Change the diff and transfer-case fluids while you're in there.",
+   "tools": "Hand vacuum pump with gauge · vacuum tees and line · connectors · brake-bleeding kit · gear oil",
    "parts": [
     {
      "name": "Lisle 20300 vacuum gauge / pump tester",
@@ -278,7 +278,7 @@
      "url": "https://www.fcpeuro.com/products/vacuum-gauge-and-fuel-pump-tester-20300"
     },
     {
-     "name": "Genuine Mercedes vacuum hose 000 158 14 35",
+     "name": "Genuine Mercedes vacuum hose 000 158 14 35 (generic bulk hose; FCP Euro does not list it specifically for the G)",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-vacuum-hose-0001581435"
     },
@@ -345,7 +345,7 @@
   },
   {
    "q": "Which Europa G should I buy?",
-   "a": "Forum regulars usually prefer the G 500 for its much greater power at similar mileage. German Cars For Sale Blog prefers the 300 GE or G 500 to the inline-six G 320 because of its head-gasket issue. One owner found the V6 G 320 more economical than a G 500, though the gap narrows when towing.",
+   "a": "Forum regulars usually prefer the G 500 for its much greater power at similar mileage. German Cars For Sale Blog says the head gasket is the inline-six G 320's only real drawback against the 300 GE and G 500. One Expedition Portal owner says his V6 G 320 gets several more mpg than a 2002 G 500, though the gap narrows when towing large trailers.",
    "src": "PEACHPARTS · GCFSB · EXPEDITION PORTAL"
   },
   {
@@ -355,7 +355,7 @@
   },
   {
    "q": "How is a Europa G 500 different from a 2002 Mercedes-Benz USA G 500?",
-   "a": "It looks nearly the same outside, apart from black-painted bumpers. Inside it has a pre-facelift W210 E-Class steering wheel and cluster, no wheel-mounted radio controls, older climate control, and a 722.6 automatic without the tip-shift gate. It also avoids the COMAND electronics that German Cars For Sale Blog blames for early MBUSA trucks' electrical problems.",
+   "a": "It looks nearly the same outside, apart from black-painted bumpers. Inside it has a pre-facelift W210 E-Class steering wheel and cluster, no wheel-mounted radio controls, older climate control, and a 722.6 automatic without the tip-shift gate. German Cars For Sale Blog also warns about electrical problems on 2002–2005 Mercedes-Benz USA trucks.",
    "src": "GCFSB · JALOPNIK"
   },
   {
@@ -496,12 +496,6 @@
   },
   {
    "kind": "IG",
-   "name": "@gzilla500",
-   "focus": "G 500 BUILD",
-   "url": "https://www.instagram.com/gzilla500/"
-  },
-  {
-   "kind": "IG",
    "name": "@jackwagonoverlanding",
    "focus": "G-WAGEN OVERLAND BUILDS",
    "url": "https://www.instagram.com/jackwagonoverlanding/"
@@ -512,11 +506,6 @@
    "name": "MBWorld — G-Class (W460 / W461 / W463)",
    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
    "note": "Technical archive covering the 1990s sixes and the M113"
-  },
-  {
-   "name": "Club G-Wagen",
-   "url": "https://clubgwagen.com/forum/",
-   "note": "Founded in 1998, during the Europa years; deep early-W463 knowledge"
   },
   {
    "name": "Expedition Portal",
@@ -616,8 +605,8 @@
  "photos": [
   {
    "file": "europa-w463-swb-grass.jpg",
-   "alt": "A white 1990s short-wheelbase W463 G-Class with orange fender-top indicators parked on grass",
-   "caption": "1990s W463 · SHOW FIELD, STAFFORDSHIRE",
+   "alt": "A white UK-registered 1990s short-wheelbase W463 G-Class with orange fender-top indicators parked on grass at a show (a European-market truck, not a Europa import)",
+   "caption": "1990s UK-MARKET W463 · SHOW FIELD, STAFFORDSHIRE (NOT A EUROPA TRUCK)",
    "credit": "Charles01 · CC BY-SA 3.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W463_in_Staffordshire.jpg"
@@ -658,7 +647,7 @@
   },
   {
    "name": "Jalopnik — At $32,000, is this 2000 Mercedes G500 'Europa' a boxy bargain?",
-   "url": "https://jalopnik.com/1851584299"
+   "url": "https://www.jalopnik.com/at-32-000-is-this-2000-mercedes-g500-a-boxy-bargain-1851582344/"
   },
   {
    "name": "Expedition Portal — Overland Journal G-Wagen (Scott Brady)",
@@ -710,7 +699,7 @@
   }
  ],
  "baseline_service": {
-  "intro": "Start by confirming exactly what you bought: a Europa truck can have the M103, M104 or M112 six or the M113 V8, a 4- or 5-speed automatic, and drivetrain fluids that changed through the 1990s. Then reset everything — these are 25-plus-year-old grey-market imports, and service records rarely made the trip.",
+  "intro": "Start by confirming exactly what you bought: a Europa truck can have the M103, M104 or M112 six or the M113 V8, a 4- or 5-speed automatic, and drivetrain fluids that changed through the 1990s. Then reset everything — these are trucks more than 25 years old, and service records rarely made the trip.",
   "items": [
    {
     "item": "Engine oil & filter",
@@ -784,14 +773,14 @@
    },
    {
     "item": "Transfer case",
-    "spec": "GL-4 gear oil · ≈3 qt (1997 G 320) — some later W463 cases take ATF; check the tag",
+    "spec": "GL-4 gear oil · ≈3 qt (1997 G 320) — later cases may differ; check the tag [CONFIRM IN MANUAL]",
     "interval": "Now, then every 60,000 mi (MB interval quoted by owners)",
     "note": "Owners find these filled with diff oil by mistake. Fill on the front right, drain underneath, 14 mm hex.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 common) · front ≈1.4 L, rear ≈1.8 L",
+    "spec": "GL-5 hypoid gear oil (a 1997 G 320 owner used Red Line 75W-90) · front ≈1.4 L, rear ≈1.8 L (owner and AMSOIL figures) [CONFIRM IN MANUAL]",
     "interval": "Now",
     "note": "Loosen the fill plug before draining; drain plug to ≈60 Nm (owner figure). Test each lock afterwards.",
     "parts": [

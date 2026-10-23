@@ -27,7 +27,7 @@
   {
    "heading": "SIX CYLINDERS AND HALF A MILLION Gs",
    "paragraphs": [
-    "The G kept selling as if nothing had changed. Graz built the 400,000th G-Class on 4 December 2020 and the 500,000th in April 2023 — a one-off in agave green with amber indicators, a tribute to a famous 1979 photo of a W460 240 GD in mid-air. The AMG G 63 carried on alongside with 577 hp, and later an AMG Offroad Package Pro that swaps anti-roll bars for hydraulic roll stabilization.",
+    "The G kept selling as if nothing had changed. Graz built the 400,000th G-Class on 4 December 2020 and the 500,000th in April 2023 — a one-off in agave green with amber indicators, a tribute to a famous 1979 photo of a W460 240 GD in mid-air. The AMG G 63 carried on alongside with 577 hp.",
     "For the 2025 model year the US G 550 traded its V8 for a turbocharged 3.0-litre inline-six with mild-hybrid assistance: 443 hp and 413 lb-ft. Aero tweaks cut the drag coefficient from 0.55 to 0.48, the cabin got twin 12.3-inch MBUX screens, and the Offroad Cockpit added a “transparent bonnet” camera view. The off-road hardware didn’t move: triple lockers, 9.5 inches of clearance and 27.6 inches of wading."
    ]
   },
@@ -35,7 +35,7 @@
    "heading": "THE ELECTRIC G",
    "paragraphs": [
     "Then came the one nobody expected to work. The G 580 with EQ Technology, revealed in April 2024, keeps the ladder frame, independent front and rigid rear axle, but drives each wheel with its own motor — 579 hp in total, fed by a 116 kWh battery with 200 kW DC charging. There are no mechanical lockers; torque vectoring provides ‘virtual’ ones. Each axle has a 2:1 low range, and it wades 33.5 inches — 5.9 more than the gas truck.",
-    "It also does tricks no [[land-cruiser/300-series|Land Cruiser]] or [[land-rover/defender-l663|Defender]] can: G-Turn spins the truck on the spot by driving the wheels on each side in opposite directions, and G-Steering pivots it around the inside rear wheel. The price is weight — about 7,716 lb — and a range rated up to 294 miles on the European WLTP cycle. For 2025 the US got it only as the loaded Edition One."
+    "It also does tricks no [[land-cruiser/300-series|Land Cruiser]] or [[land-rover/defender-l663|Defender]] can: G-Turn spins the truck on the spot by driving the wheels on each side in opposite directions, and G-Steering pivots it around the inside rear wheel. The price is weight — more than three tonnes (Wikipedia quotes 3,085 kg) — and range: up to 294 miles on the European WLTP cycle, 239 miles on the EPA cycle. For 2025 the US got it only as the loaded Edition One."
    ]
   }
  ],
@@ -227,18 +227,23 @@
    ]
   },
   {
-   "title": "Fitting a 2-inch lift and 33s",
+   "title": "Fitting a 2.5-inch lift and 33s",
    "diff": "3 / 5",
    "time": "A day",
    "cost": "Parts plus labor",
    "symptoms": "Not a fault — the most common upgrade. Stock 20-inch tires are about 31 inches tall.",
-   "fix": "Install a lift kit (GwagenParts sells a 2-inch kit for the 2019-on G, including G 63s with AMG Ride Control) and fit up to 33-inch tires, depending on wheel offset. Above 33 inches the seller warns of wheel-speed-sensor faults and active brake assist, blind-spot and cruise-control warnings. Finish with an alignment that includes the adaptive cruise calibration.",
+   "fix": "Install a lift kit (Eurowise's 2.5-inch kit for the 2019-on G, also sold by GwagenParts, works with AMG Ride Control or adaptive suspension) and fit up to 33-inch tires, depending on wheel offset. Above 33 inches Eurowise warns of wheel-speed-sensor faults and active brake assist, blind-spot and cruise-control warnings. Finish with an alignment that includes the adaptive cruise calibration.",
    "tools": "Lift kit · spring compressor · jack and stands · torque wrench · alignment with ADAS calibration",
    "parts": [
     {
-     "name": "2-inch lift kit for 2019-on G 550 / G 63",
+     "name": "Eurowise 2.5-inch lift kit for 2019-on G 550 / G 63",
+     "supplier": "Eurowise",
+     "url": "https://shop.eurowise.com/products/eww463a25il"
+    },
+    {
+     "name": "2.5-inch lift kit for 2019-on G 550 / G 63 (Eurowise kit)",
      "supplier": "GwagenParts.com",
-     "url": "https://www.gwagenparts.com/?p=96362"
+     "url": "https://www.gwagenparts.com/product/2-5-inch-lift-kit-for-2019-g63-g550-w463a/"
     }
    ]
   }
@@ -246,8 +251,8 @@
  "faq": [
   {
    "q": "What’s the biggest tire I can fit without a lift?",
-   "a": "We couldn’t verify a firm owner consensus for the 2019-on truck. What is documented: factory G 550 sizes are 275/55R19 and 275/50R20 (about 31 in), Mercedes offered 18-inch all-terrain tires as an option, and a 2-inch lift kit is rated for up to 33-inch tires. On earlier Gs, about 32 inches is the commonly cited no-rub ceiling — treat it as a starting point and test-fit at full lock. [TO VERIFY FOR 2019+]",
-   "src": "TIRESIZE.COM · TFLTRUCK · GWAGENPARTS · EXPEDITION PORTAL"
+   "a": "We couldn’t verify a firm owner consensus for the 2019-on truck. What is documented: factory G 550 sizes are 275/55R19 and 275/50R20 (about 31 in), Mercedes offered 18-inch all-terrain tires as an option, and a 2.5-inch lift kit is rated for up to 33-inch tires. On earlier Gs, about 32 inches is the commonly cited no-rub ceiling — treat it as a starting point and test-fit at full lock. [TO VERIFY FOR 2019+]",
+   "src": "TIRESIZE.COM · TFLTRUCK · EUROWISE · EXPEDITION PORTAL"
   },
   {
    "q": "Does it still have three locking differentials?",
@@ -281,7 +286,7 @@
   },
   {
    "q": "What can the electric G 580 do off-road?",
-   "a": "Climb 100% grades on suitable surfaces, hold 35° side slopes, wade 33.5 inches, crawl in three settings, and turn on the spot with G-Turn. It has a 2:1 low range in each axle’s transmission.",
+   "a": "Climb 100% grades on suitable surfaces, wade 33.5 inches, crawl in three settings, and turn on the spot with G-Turn. It has a 2:1 low range in each axle’s transmission.",
    "src": "MOTOR AUTHORITY · TFLCAR"
   },
   {
@@ -303,11 +308,15 @@
  "mods": [
   {
    "cat": "LIFT & SUSPENSION",
-   "why": "A 2-inch lift clears 33-inch tires and keeps the factory adaptive dampers working.",
+   "why": "A 2.5-inch kit clears 33-inch tires, depending on wheel offset, and Eurowise says it works with AMG Ride Control or adaptive suspension.",
    "who": [
     {
+     "name": "Eurowise (W463A 2.5-inch kit)",
+     "url": "https://shop.eurowise.com/products/eww463a25il"
+    },
+    {
      "name": "GwagenParts.com (2019+ lift kit)",
-     "url": "https://www.gwagenparts.com/?p=96362"
+     "url": "https://www.gwagenparts.com/product/2-5-inch-lift-kit-for-2019-g63-g550-w463a/"
     }
    ]
   },
@@ -375,12 +384,6 @@
    "name": "@Littlehandegan",
    "focus": "G-WAGENS",
    "url": "https://www.youtube.com/@Littlehandegan"
-  },
-  {
-   "kind": "IG",
-   "name": "@gzilla500",
-   "focus": "W463 G 500 BUILD",
-   "url": "https://www.instagram.com/gzilla500/"
   }
  ],
  "forums": [
@@ -388,11 +391,6 @@
    "name": "MBWorld — G-Class (W460 / W461 / W463)",
    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
    "note": "Deepest technical archive; DIY threads on lockers, vacuum and cooling"
-  },
-  {
-   "name": "Club G-Wagen",
-   "url": "https://clubgwagen.com/forum/",
-   "note": "The original G community since 1998; rallies and classifieds"
   },
   {
    "name": "BenzWorld — G-Class",
@@ -513,32 +511,32 @@
  "photos": [
   {
    "file": "hillside-mountains.jpg",
-   "alt": "A second-generation G-Class parked on a rough grassy hillside below mountains under a heavy sky",
-   "caption": "SECOND GEN · FOOTHILLS",
+   "alt": "A blue second-generation Mercedes-AMG G 63, seen from the rear, on a steep grassy hillside under storm clouds",
+   "caption": "SECOND-GEN AMG G 63 · HILLSIDE",
    "credit": "Dextar Studio",
    "source": "Pexels",
    "source_url": "https://www.pexels.com/photo/blue-suv-on-rugged-landscape-under-dramatic-sky-36782670/"
   },
   {
    "file": "hillside-sunset.jpg",
-   "alt": "A second-generation G-Class climbing a grassy slope beside a bare tree at sunset",
-   "caption": "SECOND GEN · HILLSIDE",
+   "alt": "A blue second-generation Mercedes-AMG G 63 in profile on a stony ridge track at sunset",
+   "caption": "SECOND-GEN AMG G 63 · RIDGE TRACK",
    "credit": "Dextar Studio",
    "source": "Pexels",
    "source_url": "https://www.pexels.com/photo/stunning-mercedes-g-wagon-in-scenic-landscape-36782665/"
   },
   {
    "file": "ridgeline.jpg",
-   "alt": "A second-generation G-Class in profile on a rocky ridge under storm clouds",
-   "caption": "SECOND GEN · RIDGELINE",
+   "alt": "A blue second-generation Mercedes-AMG G 63 on rough grass and rocks with mountains behind",
+   "caption": "SECOND-GEN AMG G 63 · HIGH PASTURE",
    "credit": "Dextar Studio",
    "source": "Pexels",
    "source_url": "https://www.pexels.com/photo/mercedes-g-wagon-in-scenic-mountain-landscape-36782663/"
   },
   {
    "file": "high-pasture.jpg",
-   "alt": "A second-generation G-Class on rough grass and rocks with hills behind",
-   "caption": "SECOND GEN · HIGH PASTURE",
+   "alt": "A blue second-generation Mercedes-AMG G 63 on a grassy slope beside a bare tree at sunset",
+   "caption": "SECOND-GEN AMG G 63 · HILLSIDE",
    "credit": "Dextar Studio",
    "source": "Pexels",
    "source_url": "https://www.pexels.com/photo/luxurious-mercedes-g-wagon-on-scenic-hilltop-36782662/"
@@ -582,8 +580,8 @@
    "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2020"
   },
   {
-   "name": "GwagenParts — Lift kit for 2019+ G-Class (W463A)",
-   "url": "https://www.gwagenparts.com/?p=96362"
+   "name": "GwagenParts — 2.5-inch lift kit for 2019+ G-Class (W463A)",
+   "url": "https://www.gwagenparts.com/product/2-5-inch-lift-kit-for-2019-g63-g550-w463a/"
   },
   {
    "name": "TireSize.com — 2020 Mercedes-Benz G550 OEM tire sizes",
@@ -608,6 +606,14 @@
   {
    "name": "FCP Euro — Genuine Mercedes coolant MB 325.6 (G 550 2015-on fitment)",
    "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+  },
+  {
+   "name": "Eurowise — W463A 2.5-inch lift kit",
+   "url": "https://shop.eurowise.com/products/eww463a25il"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
   }
  ],
  "baseline_service": {

@@ -21,7 +21,7 @@
    {
     "lift": "2.5 in (60 mm)",
     "size": "33 in",
-    "note": "Eurowise's recommended maximum; minor wheel-well trimming on 2013–2018 G 550s"
+    "note": "Eurowise's recommended maximum; with its King shock option Eurowise says 2013–2018 G 550s need only minor wheel-well trimming"
    },
    {
     "lift": "4 in (100 mm)",
@@ -84,7 +84,7 @@
    },
    {
     "title": "Emergency-call date/time software",
-    "years": "2013–2017",
+    "years": "2013–2016",
     "ref": "NHTSA 19V787",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000",
     "summary": "eCall software fault can send an inaccurate location"
@@ -94,18 +94,13 @@
  "timeline": [
   {
    "year": "2007",
-   "change": "US G 500 starts switching from the 722.6 five-speed to the 722.9 seven-speed; HID headlamps, reversing camera, new cluster and COMAND APS",
+   "change": "US G 500 starts switching from the 722.6 five-speed to the 722.9 seven-speed; HID headlamps, reversing camera and TPMS arrive",
    "flag": "note"
   },
   {
    "year": "2009",
    "change": "G 550 replaces the G 500 in the US with the 5.5-litre M273 V8 (382 hp) and seven-speed automatic",
    "flag": "note"
-  },
-  {
-   "year": "2009–2010",
-   "change": "No factory trailer hitch offered, the first G model years without native towing hardware. Avoid them if you plan to tow",
-   "flag": "avoid"
   },
   {
    "year": "2013",
@@ -153,7 +148,7 @@
   {
    "k": "Towing",
    "v": "7,000 lb (3,175 kg)",
-   "note": "braked; 2012 and 2018 G 550. 2009–2010 had no factory hitch"
+   "note": "braked; 2012 and 2018 G 550"
   },
   {
    "k": "Payload",
@@ -254,8 +249,8 @@
   "editions": [
    {
     "name": "Edition Select",
-    "years": "2011–2012",
-    "note": "Final-edition-style trim applied to the five-door G 500 / G 550"
+    "years": "2011",
+    "note": "Special-edition trim (Wikipedia calls it 'Edition Selection') for the five-door G 500 / G 550, offered alongside the 2011 BA3 Final Edition"
    },
    {
     "name": "G 550 Night Edition",
@@ -318,8 +313,8 @@
    "url": "https://shop.eurowise.com/products/w463100mm"
   },
   {
-   "name": "Expedition Portal — 2014 G 550 on 275/70R18",
-   "url": "https://forum.expeditionportal.com/goto/post?id=2136416"
+   "name": "Expedition Portal — 2014 G550 build/mods (275/70R18 KO2s)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2232303"
   },
   {
    "name": "Mercedes-Benz USA — 2017 G-Class press release (PDF)",

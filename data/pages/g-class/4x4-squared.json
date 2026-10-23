@@ -20,14 +20,14 @@
   {
    "heading": "FROM SIX WHEELS TO FOUR",
    "paragraphs": [
-    "It started as a show car. At the Geneva Motor Show in March 2015 Mercedes displayed the G 500 4×4² with no commitment to build it, saying production would depend on the reaction. The reaction was enthusiastic, and the truck went on sale in Europe in late 2015. Underneath it is the body of the five-door long-wheelbase W463 on a shortened version of the 6×6’s chassis.",
+    "It started as a show car. At the Geneva Motor Show in March 2015 Mercedes displayed the G 500 4×4² with no commitment to build it, saying production would depend on the reaction. The reaction was enthusiastic, and Mercedes put it into production in 2015. Underneath it is the body of the five-door long-wheelbase W463 on a shortened version of the 6×6’s chassis.",
     "The trick is the portal axle. A gear drop at each hub puts the wheel centre below the axle tube, so the diffs and axle housings ride far higher than on a normal G — 450 mm (17.7 in) of ground clearance in European spec, against 9.3 inches for a standard [[g-class/g550|G 550]]. The track grew too, by 299 mm, filled out with detachable carbon-fibre wheel-arch flares and 325/55R22 tires. For the 2017 model year the truck came to America as the G 550 4×4², at $225,000 plus destination."
    ]
   },
   {
    "heading": "TWO SPRINGS PER CORNER",
    "paragraphs": [
-    "Each wheel gets two coil-over struts in parallel — one with fixed damping, one adjustable — and Mercedes claimed the switch between Comfort and Sport took 15 milliseconds. Two stabilizer bars help keep it upright, and the drivetrain is pure G: permanent four-wheel drive split 50:50, a low-range transfer case and three 100% differential locks. Power came from the 4.0-litre twin-turbo M176 V8, rated 416 hp and 450 lb-ft in the US, driving through a seven-speed automatic.",
+    "Each wheel gets two spring struts in parallel — one with fixed damping, one adjustable — and Mercedes claimed the switch between Comfort and Sport took 15 milliseconds. Two stabilizer bars help keep it upright, and the drivetrain is pure G: permanent four-wheel drive split 50:50, a low-range transfer case and three 100% differential locks. Power came from the 4.0-litre twin-turbo M176 V8, rated 416 hp and 450 lb-ft in the US, driving through a seven-speed automatic.",
     "Mercedes-Benz USA’s numbers are absurd in the best way: 51.6° approach, 43.8° departure, a breakover of 44.6° at maximum load in the spec sheet (47.4° in the launch release), 69-inch-plus track widths, a 46.9-foot turning circle and a 6,694-lb curb weight. It returned 11 mpg city, highway and combined, according to the same sheet. Expedition Portal, not given to gushing about concept trucks, said Mercedes had knocked it “straight out of the park.”"
    ]
   },
@@ -44,7 +44,7 @@
   "title": "4×4² versus a 2016 G 550",
   "paragraphs": [
    "Ground clearance: 17.2 in vs 9.3 in. Wading depth: 39.4 in vs 23.6 in. Approach angle: 51.6° vs 30°. Departure: 43.8° vs 30°. Height: 88.0 in vs 76.9 in. Curb weight: 6,694 lb vs 5,724 lb. Price: $225,000 vs $119,900.",
-   "Same engine, same seven-speed, same three lockers and the same 112.2-inch wheelbase. Everything that changed is below the axle line — which is precisely where off-roaders want it to change. (All figures from Mercedes-Benz USA.)"
+   "Same engine, same seven-speed, same three lockers and the same 112.2-inch wheelbase. Almost everything that changed is in the running gear — which is precisely where off-roaders want it to change. (All figures from Mercedes-Benz USA.)"
   ]
  },
  "engineering_intro": "The 4×4² keeps the G-Class fundamentals — ladder frame, rigid axles front and rear, full-time four-wheel drive and three lockers — and changes the geometry around them. Portal hubs lift the axle housings; a wider track and dual-spring suspension keep the tall truck stable. Mercedes-Benz USA noted that the portal design let it leave suspension geometry, steering links and driveshafts essentially unchanged from other G-Class models while reducing driveshaft load.",
@@ -90,7 +90,7 @@
    "platform": "G 63 AMG 6×6 (donor)",
    "engine": "AMG biturbo V8",
    "output": "—",
-   "note": "Six-wheeled limited edition whose running gear the 4×4² borrowed; never sold in the US"
+   "note": "Six-wheeled limited edition (2013–2015, just over 100 built) whose portal running gear the 4×4² borrowed"
   },
   {
    "years": "2015",
@@ -257,9 +257,9 @@
    "tools": "Wire wheels or blaster · rust converter and primer · cavity wax with extension wand · welder for panel repairs",
    "parts": [
     {
-     "name": "Cavity wax (search)",
-     "supplier": "Rovers North",
-     "url": "https://roversnorth.com/search?q=cavity+wax"
+     "name": "Eastwood Internal Frame Coating (cavity wax for frame rails)",
+     "supplier": "Eastwood",
+     "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
     }
    ]
   }
@@ -267,8 +267,8 @@
  "faq": [
   {
    "q": "What’s the biggest tire I can fit without a lift?",
-   "a": "It doesn’t need one — the portal axles are the lift. Stock tires are 325/55R22, about 36 inches tall. When Mercedes showed the truck, it said 37×12.5×18 mud-terrains would be available for production trucks, and the Geneva show car wore 37-inch mud-terrains on beadlocks. Check caliper clearance before going to 18-inch wheels, and re-code the tire size.",
-   "src": "PRACTICAL MOTORING · EXPEDITION PORTAL"
+   "a": "It doesn't need one — the portal axles are the lift. Stock tires are 325/55R22, about 36 inches tall. When Mercedes showed the truck, it said 37×12.5×18 mud-terrains would be available for production trucks, and its concept photos showed 37-inch mud-terrains on beadlocks. Mercedes-Benz USA says larger off-road tires can be fitted without recalibrating the speedometer, because it reads from the axles. Check caliper clearance before going to 18-inch wheels.",
+   "src": "PRACTICAL MOTORING · EXPEDITION PORTAL · MBUSA"
   },
   {
    "q": "Was the 4×4² sold in the US?",
@@ -363,7 +363,7 @@
   },
   {
    "cat": "WHEELS & TIRES",
-   "why": "Dropping from 22s to 18-inch beadlocks with 37-inch mud-terrains is the classic 4×4² move — verify caliper clearance and re-code the tire size.",
+   "why": "Dropping from 22s to 18-inch beadlocks with 37-inch mud-terrains is the classic 4×4² move — verify caliper clearance first.",
    "who": []
   }
  ],
@@ -399,12 +399,6 @@
    "name": "@Littlehandegan",
    "focus": "G-WAGENS",
    "url": "https://www.youtube.com/@Littlehandegan"
-  },
-  {
-   "kind": "IG",
-   "name": "@gzilla500",
-   "focus": "W463 G 500 BUILD",
-   "url": "https://www.instagram.com/gzilla500/"
   }
  ],
  "forums": [
@@ -412,11 +406,6 @@
    "name": "MBWorld — G-Class (W460 / W461 / W463)",
    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
    "note": "Deepest technical archive; DIY threads on lockers, vacuum and cooling"
-  },
-  {
-   "name": "Club G-Wagen",
-   "url": "https://clubgwagen.com/forum/",
-   "note": "The original G community since 1998; rallies and classifieds"
   },
   {
    "name": "BenzWorld — G-Class",
@@ -525,8 +514,8 @@
  "photos": [
   {
    "file": "4x4-squared-field.jpg",
-   "alt": "A black G 500 4×4² with portal axles, winch and light bar parked on a grass field below wooded hills",
-   "caption": "G 500 4×4² · GRASS FIELD",
+   "alt": "A black G 500 4×4² with an aftermarket Warn winch bumper, roof lights and all-terrain tires on black wheels, parked on a car-show field below wooded hills",
+   "caption": "G 500 4×4² · CAR-SHOW FIELD",
    "credit": "Charles from Port Chester, New York · CC BY 2.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G-Klasse_(W463)_G_500_4×4²_(2018)_(52229455839).jpg"
@@ -608,6 +597,14 @@
   {
    "name": "FCP Euro — Genuine Mercedes coolant MB 325.6 (G 550 2015-on fitment)",
    "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G500 4×4²",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G500_4%C3%974%C2%B2"
+  },
+  {
+   "name": "Eastwood — Internal Frame Coating",
+   "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
   }
  ],
  "baseline_service": {

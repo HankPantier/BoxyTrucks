@@ -9,7 +9,7 @@
    "offset": "+15 mm",
    "center_bore": "106.1 mm",
    "lug_thread": "M12x1.5",
-   "lug_torque": "76–83 lb-ft (103–112 N·m)"
+   "lug_torque": "76–83 lb-ft (103–112 N·m) per Limitless Tire [CONFIRM IN MANUAL]"
   },
   "max_tire": [
    {
@@ -69,10 +69,10 @@
    },
    {
     "title": "Denso low-pressure fuel pump",
-    "years": "2018–2019 (expanded to 2014–2015)",
+    "years": "2014–2015",
     "ref": "NHTSA 20V-012",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V012000",
-    "summary": "Fuel pump may fail, causing a stall."
+    "summary": "Low-pressure fuel pump may fail, causing a stall. Toyota moved 2018–2019 4Runners out of this campaign into 20V-682."
    },
    {
     "title": "Denso low-pressure fuel pump (expansion)",
@@ -96,7 +96,7 @@
   },
   {
    "year": "2015",
-   "change": "TRD Pro added: TRD Bilstein remote-reservoir shocks, TRD front springs, front skid plate",
+   "change": "TRD Pro added: TRD-tuned Bilstein remote-reservoir shocks (Fox on later trucks), TRD front springs, front skid plate",
    "flag": "note"
   },
   {
@@ -143,7 +143,7 @@
    },
    {
     "head": "Real TRD Pro",
-    "body": "Introduced for 2015 with TRD Bilstein remote-reservoir shocks, TRD front springs and a TRD skid plate. Each year had an exclusive colour: Inferno Orange (2015), Quicksand (2016), Cement (2017), Cavalry Blue (2018), Voodoo Blue (2019), Army Green (2020), Lunar Rock (2021), Lime Rush (2022), Solar Octane (2023), Terra (2024)."
+    "body": "Introduced for 2015 with TRD-tuned Bilstein remote-reservoir shocks (Fox dampers on later trucks), TRD front springs and a TRD skid plate. Each year had an exclusive colour: Inferno Orange (2015), Quicksand (2016), Cement (2017), Cavalry Blue (2018), Voodoo Blue (2019), Army Green (2020), Lunar Rock (2021), Lime Rush (2022), Solar Octane (2023), Terra (2024)."
    },
    {
     "head": "Limited and TRD Sport",
@@ -231,7 +231,7 @@
    {
     "name": "TRD Pro",
     "years": "2015–2024",
-    "note": "Bilstein remote-reservoir shocks, TRD springs and skid plate, a new exclusive colour each year"
+    "note": "TRD-tuned remote-reservoir shocks (Bilstein at launch, Fox later), TRD springs and skid plate, a new exclusive colour each year"
    },
    {
     "name": "Nightshade",
@@ -312,6 +312,10 @@
   {
    "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
    "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  },
+  {
+   "name": "Wikipedia — Kinetic Dynamic Suspension System",
+   "url": "https://en.wikipedia.org/wiki/Kinetic_Dynamic_Suspension_System"
   }
  ]
 }

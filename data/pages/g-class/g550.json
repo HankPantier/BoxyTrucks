@@ -20,7 +20,7 @@
   {
    "heading": "A NEW NAME, A BIGGER V8",
    "paragraphs": [
-    "For 2009 the US-market [[g-class/g500|G 500]] became the G 550, swapping the 5.0-litre M113 for the 5.5-litre M273 V8: 382 hp and 391 lb-ft. The 722.9 seven-speed automatic had already replaced the old five-speed on the 2007 US G 500, so the G 550 arrived with seven ratios from the start. The 2008 update had also brought a new grille with three thicker horizontal fins and a COMAND APS system with its own off-road menu.",
+    "For 2009 the US-market [[g-class/g500|G 500]] became the G 550, swapping the 5.0-litre M113 for the 5.5-litre M273 V8: 382 hp and 391 lb-ft. Mercedes had begun phasing the 722.9 seven-speed automatic into the US G 500 during 2007, so the G 550 arrived with seven ratios from the start. The 2008 update had also brought a new grille with three thicker horizontal fins and a COMAND APS system with its own off-road menu.",
     "A later update lifted the dashboard and centre console from the ML-Class and added LED daytime running lamps, new mirrors, DISTRONIC cruise and blind-spot monitoring. Along the way came special editions — the 2011 Edition Select, a Japan-only G 550 Night Edition of 100 trucks, and a 30th-anniversary G 500/G 550 with designo leather — none of which changed the hardware underneath."
    ]
   },
@@ -82,7 +82,7 @@
  ],
  "engineering_note": {
   "title": "BIGGER TIRES, RECODE THE TRUCK",
-  "body": "Owners on Expedition Portal report that taller tires confuse the ESP and throw the speedometer off unless the tire size is re-coded with a Mercedes STAR/XENTRY diagnostic tool. One 2014 G 550 owner on 275/70R18s found the ESP stepping in noticeably earlier in quick corners and hard launches until it was addressed."
+  "body": "Owners on Expedition Portal report that taller tires confuse the ESP and throw the speedometer off unless the tire size is re-coded with a Mercedes STAR/XENTRY diagnostic tool. One 2014 G 550 owner on 275/70R18s found the ESP stepping in noticeably earlier in quick corners and hard launches."
  },
  "generations_table": [
   {
@@ -152,7 +152,7 @@
   },
   {
    "head": "Check the headliner and the badges",
-   "body": "A sagging headliner means water (usually blocked sunroof drains). And plenty of G 550s wear AMG bumpers and badges — check the VIN before paying a G 63 premium."
+   "body": "Autocar warns that a sagging headliner can mean water has got in, so check the sunroof drains and seals. And plenty of G 550s wear AMG bumpers and badges — check the VIN before paying a G 63 premium."
   }
  ],
  "repairs": [
@@ -250,7 +250,7 @@
    "diff": "2 / 5",
    "time": "An afternoon",
    "cost": "Diagnosis-dependent",
-   "symptoms": "One or all locks refuse to engage or drop out, indicator lights flash or stay off. On trucks with vacuum-actuated locking, the fault is usually a leak, not the differential.",
+   "symptoms": "One or all locks refuse to engage or drop out, indicator lights flash or stay off. The fault is usually actuation, not the differential. On a 2005 G 500 an MBWorld owner found the centre lock vacuum-operated and the front and rear locks hydraulic, so check both circuits [CONFIRM IN MANUAL for your year].",
    "fix": "Follow the same path MBWorld owners use on earlier W463s: confirm vacuum at the transfer case, then work back through the reservoir, lines and switchover valves with a gauge teed into each segment until you find the split line or connector. Exercise the locks regularly once fixed — disuse is their enemy.",
    "tools": "Hand vacuum pump with gauge · vacuum tees and line · replacement connectors",
    "parts": [
@@ -363,7 +363,7 @@
   },
   {
    "q": "Does the M273 balance-shaft/idler-gear problem affect the G 550?",
-   "a": "It’s associated with early-production 2004–2008 M272 and M273 engines, which largely predates the 2009 G 550. If you see codes such as P0059, P0060, P0064 or P0272–P0276, or Mercedes codes 1200/1208, have it checked anyway.",
+   "a": "It’s associated with early-production 2004–2008 M272 and M273 engines, which largely predates the 2009 G 550. If you see codes such as P0059, P0060, P0064, P0272, P0275 or P0276, or Mercedes codes 1200/1208, have it checked anyway.",
    "src": "FCP EURO"
   },
   {
@@ -484,12 +484,6 @@
    "name": "@Littlehandegan",
    "focus": "G-WAGENS",
    "url": "https://www.youtube.com/@Littlehandegan"
-  },
-  {
-   "kind": "IG",
-   "name": "@gzilla500",
-   "focus": "W463 G 500 BUILD",
-   "url": "https://www.instagram.com/gzilla500/"
   }
  ],
  "forums": [
@@ -497,11 +491,6 @@
    "name": "MBWorld — G-Class (W460 / W461 / W463)",
    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
    "note": "Deepest technical archive; DIY threads on lockers, vacuum and cooling"
-  },
-  {
-   "name": "Club G-Wagen",
-   "url": "https://clubgwagen.com/forum/",
-   "note": "The original G community since 1998; rallies and classifieds"
   },
   {
    "name": "BenzWorld — G-Class",
@@ -630,8 +619,8 @@
   },
   {
    "file": "g550-black-bullbar.jpg",
-   "alt": "A black W463 G 550 with a chrome brush guard parked at a kerb",
-   "caption": "G 550 · STREET",
+   "alt": "A black W463 G-Class with V8 badge, bi-xenon headlamps and a chrome brush guard parked at a kerb; no LED running lamps, so a pre-2013 truck",
+   "caption": "W463 V8 (PRE-2013) · STREET",
    "credit": "Alekc2m · CC BY-SA 3.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_G550_(1).jpg"
@@ -713,6 +702,14 @@
   {
    "name": "FCP Euro — Red Line 75W-90 GL-5 gear oil (G 550 2009–2014 differential fitment)",
    "url": "https://www.fcpeuro.com/products/75w90-gear-oil-quart-oil-57904"
+  },
+  {
+   "name": "MBWorld — Finally repaired my lockers (2005 G 500)",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/818902-finally-repaired-my-lockers.html"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
   }
  ],
  "baseline_service": {

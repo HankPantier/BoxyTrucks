@@ -2,7 +2,7 @@
  "slug": "g55-amg",
  "title": "G 55 AMG",
  "eyebrow": "MERCEDES-BENZ G-CLASS · W463 · 1999–2012",
- "verdict": "AMG gave a 1970s military truck up to 507 horsepower and changed almost nothing else. It's fast in a straight line, still has three lockers, and drinks fuel at a rate that makes a G 500 look economical.",
+ "verdict": "AMG gave a 1970s military truck up to 507 PS (500 hp) and changed almost nothing else. It's fast in a straight line, still has three lockers, and drinks fuel at a rate that makes a G 500 look economical.",
  "codes": [
   "W463",
   "M113 5.4 V8",
@@ -20,8 +20,8 @@
   {
    "heading": "AMG'S SECOND TRY",
    "paragraphs": [
-    "AMG had tuned a G before. In 1993 it turned some of the 446 [[g-class/500ge|500 GEs]] into 6.0-litre specials for individual customers. The G 55 was different because anyone could order one. Introduced in 1999, it was the most powerful G yet: 354 PS (349 hp) and 525 Nm from AMG's naturally aspirated M113 V8, with 0–100 km/h in 7.4 seconds. That made it about four seconds quicker than the 500 GE to 100 km/h.",
-    "Mercedes treated it as a regular series model rather than a limited edition. When Mercedes-Benz USA took over G distribution from [[g-class/europa|Europa International]] for the 2002 model year, the G 55 AMG launched alongside the [[g-class/g500|G 500]] as the only other G-Class in American showrooms. Hagerty credits the AMG with pushing US G sales higher in the following years."
+    "AMG had tuned a G before. In 1993, 13 of the 446 [[g-class/500ge|500 GEs]] got AMG's 6.0-litre upgrade kit. The G 55 was different because anyone could order one. Introduced in 1999, it was the most powerful G yet: 354 PS (349 hp) and 525 Nm from AMG's naturally aspirated M113 V8, with 0–100 km/h in 7.4 seconds. That made it about four seconds quicker than the 500 GE to 100 km/h.",
+    "When Mercedes-Benz USA took over G distribution from [[g-class/europa|Europa International]] for the 2002 model year, the G 55 AMG launched alongside the [[g-class/g500|G 500]] as the only other G-Class in American showrooms. Hagerty credits the AMG with pushing US G sales higher in the following years."
    ]
   },
   {
@@ -65,7 +65,7 @@
    "note": "Three 100% locks plus low range, as on every W463."
   },
   {
-   "k": "ENGINE (2001–03)",
+   "k": "ENGINE (1999–2004)",
    "v": "M113 5.4 L V8",
    "note": "Naturally aspirated, 354 PS / 525 Nm. US 2002–2004."
   },
@@ -86,7 +86,7 @@
  },
  "generations_table": [
   {
-   "years": "1999/2001–2003",
+   "years": "1999–2004",
    "platform": "W463 G 55 AMG",
    "engine": "M113 E55 5.4 L V8",
    "output": "354 PS · 525 Nm",
@@ -124,7 +124,7 @@
  "buying_checks": [
   {
    "head": "Is it really an AMG?",
-   "body": "Plenty of G 500s and G 550s have been dressed as AMGs, and autoevolution even describes one G 55 that was itself given a G 63 nose. Check the VIN and the data card, not the badges."
+   "body": "Plenty of G 500s and G 550s have been dressed as AMGs. Check the VIN and the data card, not the badges."
   },
   {
    "head": "Naturally aspirated or supercharged?",
@@ -393,8 +393,8 @@
   },
   {
    "q": "What fuel economy should I expect?",
-   "a": "About 12 mpg city and 14 highway for a 2005 Kompressor, according to the spec data on a German Cars For Sale Blog listing. Bigger tires and a rack will make it worse.",
-   "src": "GERMAN CARS FOR SALE BLOG"
+   "a": "EPA figures are 12 mpg city, 14 highway and 13 combined for the 2003 naturally aspirated truck, and 11 city, 13 highway and 12 combined for Kompressors such as the 2005 and 2011. Bigger tires and a rack will make it worse.",
+   "src": "EPA (FUELECONOMY.GOV)"
   },
   {
    "q": "G 55 or G 550?",
@@ -408,7 +408,7 @@
   },
   {
    "q": "Is the G 55 reliable?",
-   "a": "The frame, axles and V8 are strong. Common jobs are predictable: the intercooler pump on Kompressors, the harmonic balancer, mounts, front axle seals, the steering damper and locker vacuum lines. Owners also say the windshield behaves like a consumable. Buy on service records, not low mileage.",
+   "a": "The frame, axles and V8 are strong. Common jobs are predictable: the intercooler pump on Kompressors, the harmonic balancer, mounts, front axle seals, the steering damper and locker vacuum lines. One owner commenting on German Cars For Sale Blog calls the windshield a consumable. Buy on service records, not low mileage.",
    "src": "VRP · AU7O · GCFSB"
   },
   {
@@ -556,11 +556,6 @@
    "note": "Owner comparison of G 550 and G 55 Kompressor"
   },
   {
-   "name": "Club G-Wagen",
-   "url": "https://clubgwagen.com/forum/",
-   "note": "The original G community; rallies and classifieds"
-  },
-  {
    "name": "Expedition Portal",
    "url": "https://forum.expeditionportal.com/",
    "note": "Tire fitment and overland builds on W463s"
@@ -665,7 +660,7 @@
   },
   {
    "file": "g55-maroon-profile.jpg",
-   "alt": "A maroon facelifted G 55 AMG in side profile",
+   "alt": "A maroon G 55 AMG Kompressor (V8 Kompressor wing badge) in side profile parked on a city street",
    "caption": "G 55 AMG · STREET",
    "credit": "OlliFoolish · CC BY-SA 3.0",
    "source": "Wikimedia Commons",
@@ -673,7 +668,7 @@
   },
   {
    "file": "g55-white-profile.jpg",
-   "alt": "A white G 55 AMG with V8 fender badge in side profile",
+   "alt": "A white G 55 AMG Kompressor with V8 Kompressor wing badge and aftermarket multi-spoke wheels in side profile on a city street",
    "caption": "G 55 AMG · STREET",
    "credit": "Ed Callow · CC BY 2.0",
    "source": "Wikimedia Commons",
@@ -726,8 +721,8 @@
    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/818902-finally-repaired-my-lockers.html"
   },
   {
-   "name": "Victory Road Performance — Chapter 2: Maintenance before modification (M113K)",
-   "url": "https://www.vrpspeed.com/?p=75350"
+   "name": "Victory Road Performance — The Complete E55 Bible, Chapter 2: Maintenance before modification (M113K)",
+   "url": "https://www.vrpspeed.com/the-complete-e55-bible/"
   },
   {
    "name": "GwagenParts — Intercooler pump upgrade (2006–2010 G55)",
@@ -784,6 +779,14 @@
   {
    "name": "GwagenParts.com — G-Class parts",
    "url": "https://www.gwagenparts.com/"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "AMSOIL — 2006 Mercedes-Benz G500 5.0L (113.96) capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2006/mercedes-benz/g500/5-0l-8-cyl-engine-code-113-96-n/"
   }
  ],
  "baseline_service": {
@@ -925,7 +928,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 common) · front ≈1.4 L, rear ≈1.8 L (W463 G 500 data)",
+    "spec": "GL-5 hypoid gear oil (synthetic 75W-90 commonly used) · front ≈1.4 L, rear ≈1.8 L (AMSOIL 2006 G 500 data) [CONFIRM IN MANUAL]",
     "interval": "Now, then with the transfer case",
     "note": "Loosen the fill plug before draining. On mid-2000s trucks the centre lock is vacuum and the axle locks hydraulic — test each lock separately afterwards.",
     "parts": [
