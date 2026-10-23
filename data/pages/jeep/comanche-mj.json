@@ -737,7 +737,26 @@
    "bat_url": "https://bringatrailer.com/jeep/comanche/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "BoxyJeep",
+   "focus": "MJ PARTS, FIXES & BUYER'S GUIDE",
+   "url": "https://www.youtube.com/@boxyjeep"
+  },
+  {
+   "kind": "YT",
+   "name": "Major Weakness YouTube",
+   "focus": "MJ & XJ REPAIRS",
+   "url": "https://www.youtube.com/@MajorWeakness"
+  },
+  {
+   "kind": "YT",
+   "name": "WAEMID IV",
+   "focus": "MJ/XJ TUTORIALS",
+   "url": "https://www.youtube.com/@WAEMIDIV"
+  }
+ ],
  "forums": [
   {
    "name": "Comanche Club Forums",

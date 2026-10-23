@@ -567,7 +567,32 @@
    "bat_url": "https://bringatrailer.com/land-rover/lr4/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Torr Overland",
+   "focus": "DISCO 4 / LR4 OWNERSHIP & SERVICING",
+   "url": "https://www.youtube.com/@torroverland"
+  },
+  {
+   "kind": "YT",
+   "name": "DiagnosticDad",
+   "focus": "LR4 DIAGNOSTICS & REPAIRS",
+   "url": "https://www.youtube.com/@DiagnosticDad"
+  },
+  {
+   "kind": "YT",
+   "name": "Lost Cause Ranch",
+   "focus": "LR4 TRUCK BUILD",
+   "url": "https://www.youtube.com/@LostCauseRanch"
+  },
+  {
+   "kind": "YT",
+   "name": "LR TIME",
+   "focus": "DISCO 3/4 REBUILDS",
+   "url": "https://www.youtube.com/@Vera_and_Christian"
+  }
+ ],
  "forums": [
   {
    "name": "LandRoverWorld — LR4",

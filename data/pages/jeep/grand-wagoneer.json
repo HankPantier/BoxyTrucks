@@ -819,7 +819,26 @@
    "bat_url": "https://bringatrailer.com/jeep/sj-wagoneer/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Vigilante",
+   "focus": "GRAND WAGONEER RESTOMODS",
+   "url": "https://www.youtube.com/@vigilante4x4"
+  },
+  {
+   "kind": "YT",
+   "name": "JEEPHERITAGE",
+   "focus": "GRAND WAGONEER PARTS & INSTALLS",
+   "url": "https://www.youtube.com/@jeepheritage"
+  },
+  {
+   "kind": "YT",
+   "name": "The Jeep Farm LLC",
+   "focus": "GRAND WAGONEER RESTORATIONS",
+   "url": "https://www.youtube.com/@thejeepfarmllc6871"
+  }
+ ],
  "forums": [
   {
    "name": "International Full Size Jeep Association (IFSJA)",

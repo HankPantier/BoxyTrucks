@@ -526,7 +526,26 @@
    "bat_url": "https://bringatrailer.com/nissan/patrol/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Patrolapart & Navarapart",
+   "focus": "GU PARTS & DIY INSTALLS",
+   "url": "https://www.youtube.com/@patrolapart_navarapart"
+  },
+  {
+   "kind": "YT",
+   "name": "Shane'os Creations and Restorations",
+   "focus": "GU ZD30 SERVICE & REPAIRS",
+   "url": "https://www.youtube.com/@Shaneosrestorations"
+  },
+  {
+   "kind": "YT",
+   "name": "Mick Fares",
+   "focus": "TB48 GU BUILD",
+   "url": "https://www.youtube.com/@mickfares"
+  }
+ ],
  "forums": [
   {
    "name": "NissanPatrol.com.au forums",

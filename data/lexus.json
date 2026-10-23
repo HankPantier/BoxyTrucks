@@ -657,7 +657,26 @@
     "bat_url": "https://bringatrailer.com/lexus/gx/"
    }
   ],
-  "social": [],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "Jack Foster",
+    "focus": "GX 470 OVERLAND BUILD",
+    "url": "https://www.youtube.com/@Jack.Foster"
+   },
+   {
+    "kind": "YT",
+    "name": "Lexus Off-Road Adventures",
+    "focus": "GX 470 BUILD SERIES & TECH",
+    "url": "https://www.youtube.com/@lexus_offroad_adventures"
+   },
+   {
+    "kind": "YT",
+    "name": "adventure_rig",
+    "focus": "DIY GX 470 BUILD",
+    "url": "https://www.youtube.com/@Adventure_Rig"
+   }
+  ],
   "forums": [
    {
     "name": "IH8MUD — GX470 / Prado 120",

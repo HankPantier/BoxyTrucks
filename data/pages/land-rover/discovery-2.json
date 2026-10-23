@@ -540,7 +540,20 @@
    "bat_url": "https://bringatrailer.com/land-rover/discovery-ii/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Lady V",
+   "focus": "D2 TD5 DRIVEWAY DIY",
+   "url": "https://www.youtube.com/@Lady_Piston"
+  },
+  {
+   "kind": "YT",
+   "name": "Rust, Roots & Rovers",
+   "focus": "D2 REBUILD SERIES",
+   "url": "https://www.youtube.com/@Rustrootsrovers"
+  }
+ ],
  "forums": [
   {
    "name": "LandyZone — Land Rover Discovery (Disco 2 threads)",

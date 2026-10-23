@@ -680,7 +680,26 @@
     "bat_url": "https://bringatrailer.com/land-rover/defender-110-euro/"
    }
   ],
-  "social": [],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "LR Workshop & Expedition",
+    "focus": "TD5 & 300TDI DEFENDER DIY",
+    "url": "https://www.youtube.com/@LRWorkshop"
+   },
+   {
+    "kind": "YT",
+    "name": "powerfulukltd",
+    "focus": "CLASSIC DEFENDER PARTS & WORKSHOP",
+    "url": "https://www.youtube.com/@L663"
+   },
+   {
+    "kind": "YT",
+    "name": "Jammy Gits",
+    "focus": "DEFENDER 110 OVERLANDING",
+    "url": "https://www.youtube.com/@TheJammyGits"
+   }
+  ],
   "forums": [
    {
     "name": "Defender Source — Pre-2016 Defender Technical Discussions",

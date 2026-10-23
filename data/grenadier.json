@@ -535,7 +535,32 @@
     "bat_url": "https://bringatrailer.com/ineos/grenadier/"
    }
   ],
-  "social": [],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "DVA Mechanics",
+    "focus": "GRENADIER ACCESSORY INSTALLS",
+    "url": "https://www.youtube.com/@DVAMechanics"
+   },
+   {
+    "kind": "YT",
+    "name": "Agile Offroad",
+    "focus": "GRENADIER DIAGNOSTICS & BUILDS",
+    "url": "https://www.youtube.com/@AgileOffroad"
+   },
+   {
+    "kind": "YT",
+    "name": "Owl",
+    "focus": "GRENADIER INSTALLS & LIFT TECH",
+    "url": "https://www.youtube.com/@owloffroad"
+   },
+   {
+    "kind": "YT",
+    "name": "DANS WORLD",
+    "focus": "LONG-TERM OWNERSHIP · UK",
+    "url": "https://www.youtube.com/@Dansworld_7"
+   }
+  ],
   "forums": [
    {
     "name": "The INEOS Forum",

@@ -727,7 +727,26 @@
    "bat_url": "https://bringatrailer.com/jeep/jt-gladiator/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Sarge502Jeep",
+   "focus": "GLADIATOR OVERLAND BUILD",
+   "url": "https://www.youtube.com/@sarge502jeep"
+  },
+  {
+   "kind": "YT",
+   "name": "Gears & Groans",
+   "focus": "GLADIATOR DIY MAINTENANCE",
+   "url": "https://www.youtube.com/@GearsAndGroans"
+  },
+  {
+   "kind": "YT",
+   "name": "Sherburn Outdoors",
+   "focus": "GLADIATOR OVERLAND CAMPING",
+   "url": "https://www.youtube.com/@sherburnoutdoors"
+  }
+ ],
  "forums": [
   {
    "name": "JeepGladiatorForum",

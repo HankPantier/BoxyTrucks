@@ -595,7 +595,32 @@
     "bat_url": "https://bringatrailer.com/toyota/4runner-n180/"
    }
   ],
-  "social": [],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "RustBucketProductions",
+    "focus": "3RD GEN DIY REPAIRS",
+    "url": "https://www.youtube.com/@rustbucketproductions"
+   },
+   {
+    "kind": "YT",
+    "name": "Team4Runner",
+    "focus": "$5K 3RD GEN PROJECT & MAINTENANCE",
+    "url": "https://www.youtube.com/@Team4runner"
+   },
+   {
+    "kind": "YT",
+    "name": "DLCR Media",
+    "focus": "HIGH-MILE 3RD GEN OWNERSHIP",
+    "url": "https://www.youtube.com/@DLCRMedia"
+   },
+   {
+    "kind": "YT",
+    "name": "Adventures with Smitty",
+    "focus": "3RD GEN MODS & 10-YEAR REVIEW",
+    "url": "https://www.youtube.com/@AdventuresWithSmitty"
+   }
+  ],
   "forums": [
    {
     "name": "Toyota-4Runner.org — 3rd Gen T4Rs",

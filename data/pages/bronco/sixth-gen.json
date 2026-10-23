@@ -494,7 +494,26 @@
    "bat_url": "https://bringatrailer.com/ford/u725-bronco/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "The Bronco Nation",
+   "focus": "SIXTH-GEN INSTALLS & EVENTS",
+   "url": "https://www.youtube.com/@TheBroncoNation"
+  },
+  {
+   "kind": "YT",
+   "name": "Buckle Up Buttercup",
+   "focus": "OWNER DIY & BUILDS",
+   "url": "https://www.youtube.com/@BuckleUpButtercupTV"
+  },
+  {
+   "kind": "YT",
+   "name": "Budget Bronco",
+   "focus": "2021+ DIY MAINTENANCE",
+   "url": "https://www.youtube.com/@BudgetBronco"
+  }
+ ],
  "forums": [
   {
    "name": "Bronco6G",

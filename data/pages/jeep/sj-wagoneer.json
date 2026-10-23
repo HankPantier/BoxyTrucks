@@ -854,7 +854,26 @@
    "bat_url": "https://bringatrailer.com/jeep/sj-cherokee/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Vigilante",
+   "focus": "SJ WAGONEER & CHEROKEE RESTOMODS",
+   "url": "https://www.youtube.com/@vigilante4x4"
+  },
+  {
+   "kind": "YT",
+   "name": "The Jeep Farm LLC",
+   "focus": "SJ CHEROKEE RESTORATIONS",
+   "url": "https://www.youtube.com/@thejeepfarmllc6871"
+  },
+  {
+   "kind": "YT",
+   "name": "JEEPHERITAGE",
+   "focus": "FULL-SIZE JEEP PARTS & INSTALLS",
+   "url": "https://www.youtube.com/@jeepheritage"
+  }
+ ],
  "forums": [
   {
    "name": "International Full Size Jeep Association (IFSJA)",
