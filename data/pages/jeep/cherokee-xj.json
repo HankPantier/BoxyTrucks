@@ -1,0 +1,996 @@
+{
+ "slug": "cherokee-xj",
+ "title": "Jeep Cherokee XJ",
+ "eyebrow": "JEEP CHEROKEE · XJ · 1984–2001",
+ "verdict": "A small box designed by AMC with help from Renault, given one of the best straight-sixes ever bolted into a 4x4 and two solid axles, then sold to suburbia for 18 years. Now it's the budget wheeler everyone recommends. Check the rockers, the floors, the head casting on 2000–01 trucks, and every drop of coolant.",
+ "codes": [
+  "UNIBODY 'UNIFRAME'",
+  "4.0 I6 (1987–2001)",
+  "DANA 30 · DANA 35 / 8.25",
+  "AW4 · AX15 · NV3550",
+  "COMMAND-TRAC / SELEC-TRAC"
+ ],
+ "hero_photo": "xj-shotgun-creek-climb.jpg",
+ "hero_focus": "62% 55%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The 1984 Cherokee XJ was Jeep's first all-new design since the 1963 [[jeep/grand-wagoneer|Wagoneer]], and the first American off-roader with a unibody, which AMC called 'Uniframe'. It was 1,200 lb lighter, 31 in shorter, 6 in narrower and 4 in lower than the full-size SJ Cherokee it replaced, yet kept 90% of the interior space. It also had better articulation, ground clearance and approach, departure and breakover angles. AMC sold it as a 'Sportwagon'. About 3 million were built through 2001, and it is still the default answer to 'what's a cheap, capable 4x4?'"
+   ]
+  },
+  {
+   "heading": "AMC, RENAULT AND A $250 MILLION BET",
+   "paragraphs": [
+    "Work began in the late 1970s, when AMC needed something smaller than the SJ and Renault had just bought a 22% stake. Renault pushed for less size and weight and better economy. Styling came from AMC's team under design vice-president Dick Teague. Engineering VP Roy Lunn designed the 'Quadra-Link' coil-sprung front suspension, which locates a solid axle with four control arms and a track bar. Renault's François Castaing planned a light drivetrain around a much smaller engine than 4x4s usually carried. AMC spent $250 million and offered four doors as well as two, which GM's new S-10 Blazer didn't.",
+    "Early engines were weak: AMC's 2.5-liter four, a GM 2.8 V6 and a Renault 2.1 turbodiesel. Everything changed for 1987, when AMC introduced its 4.0-liter straight-six with Renix multipoint injection, rated at 173 hp and 220 lb-ft. Wikipedia calls it one of the best 4x4 and off-road engines. It brought the Aisin AW4 four-speed automatic and the NP231 Command-Trac and NP242 Selec-Trac transfer cases. The 1991 'High Output' version made 190 hp with Chrysler's fuel injection and became the engine every XJ shopper looks for."
+   ]
+  },
+  {
+   "heading": "CHRYSLER KEEPS THE BOX",
+   "paragraphs": [
+    "Chrysler inherited the XJ when it bought AMC in 1987. The plan was to replace it with the bigger ZJ Grand Cherokee, but the XJ sold too well to kill, so both were built from 1993. The 1997 facelift brought a steel liftgate, a new dash with dual airbags, and a stiffer unibody for less noise and vibration. The 2000–01 trucks got coil-on-plug ignition and 193 hp, and also a cylinder head casting, '0331', that is known to crack between cylinders 3 and 4.",
+    "Underneath, XJs differ by year and option. The front axle is always a Dana 30: high-pinion until 1999, low-pinion for 2000–01. At the rear you'll find a Dana 35, a Chrysler 8.25 or, on some 1987–91 tow-package trucks, a Dana 44. The Up Country package added an inch of lift, skid plates and tow hooks. The XJ also spawned the Comanche MJ pickup (1986–92) and a woodgrain Wagoneer Limited that shared its name with the full-size [[jeep/grand-wagoneer|Grand Wagoneer]]."
+   ]
+  },
+  {
+   "heading": "WHY THE CULT EXISTS",
+   "paragraphs": [
+    "Production in Toledo ended in June 2001, and the Liberty took over. Its reputation has grown since. Automobile's Robert Cumberford named it one of the 20 greatest cars of all time and called it 'possibly the best SUV shape of all time'. Kiplinger listed it among 'cars that refuse to die', and NAXJA members routinely report 250,000–300,000 miles on factory drivetrains.",
+    "The appeal on the trail is simple. You get a solid axle at both ends, a torquey six, a body roughly the size of a [[jeep/yj|Wrangler YJ]], and an aftermarket that sells everything from a 1.5-inch Budget Boost to 6.5-inch long-arm kits. It's the budget alternative to a [[jeep/cj-7|CJ-7]] or an [[land-cruiser/fj60|FJ60]] for people who want doors, a heater and room for a dog. Just remember that the unibody is the frame: a rusted rail is not a bodywork problem."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE XJ THAT NEVER DIED",
+  "title": "Beijing Jeep and two decades of Chinese XJs",
+  "paragraphs": [
+   "In 1984 AMC set up Beijing Jeep, the first automotive joint venture in the People's Republic of China, to assemble the four-door Cherokee. Chinese BJ2021 (4WD) and BJ7250 (RWD) versions had a raised rear roof for chauffeured passengers. A facelifted 'Jeep 2500' ran until 2005.",
+   "After 2009, Beijing Auto Works kept building it as the BAW Qishi ('Knight') with old Nissan-designed four-cylinders, until 2014. That's 30 years for AMC's original design. XJs were also assembled in Argentina, Egypt and Venezuela."
+  ]
+ },
+ "engineering_intro": "The XJ's body and frame are one welded structure with box-section rails built in. A finished body has about 3,200 welds. Both axles are solid: coil springs and four control arms with a track bar at the front, four-leaf springs and compression shackles at the rear. The wheelbase is 101.4 in on both two- and four-door bodies. All 4WD transfer cases are chain-driven two-speeds in aluminum housings.",
+ "engineering": [
+  {
+   "k": "STRUCTURE",
+   "v": "Unibody 'Uniframe', 101.4 in wheelbase",
+   "note": "About 3,200 welds. Stiffened for 1997. Rails rot from inside, so inspect them like a frame."
+  },
+  {
+   "k": "FRONT SUSPENSION",
+   "v": "Quadra-Link: coils, 4 control arms, track bar",
+   "note": "Designed by Roy Lunn. Worn track-bar parts are the usual cause of 'death wobble'."
+  },
+  {
+   "k": "REAR SUSPENSION",
+   "v": "Four-leaf packs, compression shackles",
+   "note": "The Up Country package dropped the rear sway bar and added an inch of lift."
+  },
+  {
+   "k": "ENGINE",
+   "v": "AMC 4.0 L (242 cu in) I6",
+   "note": "173–177 hp Renix (1987–90), 190 hp HO (1991–99), 193 hp / 231 lb-ft coil-on-plug (2000–01)."
+  },
+  {
+   "k": "AXLES",
+   "v": "Dana 30 front · Dana 35, Chrysler 8.25 or Dana 44 rear",
+   "note": "Dana 30 low-pinion for 2000–01. The 8.25 went from 27 to 29 splines in late 1996. Dana 44 rear on some 1987–91 tow-package trucks."
+  },
+  {
+   "k": "4WD",
+   "v": "NP231 Command-Trac / NP242 Selec-Trac",
+   "note": "Both 2.72:1 low range (1987–2001). The NP242 adds a full-time 4WD mode. Early trucks used the NP207 or NP228/229."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1984–1986",
+   "platform": "XJ (AMC)",
+   "engine": "2.5 I4 · 2.8 GM V6 · 2.1 Renault TD",
+   "output": "105–117 hp / 110–115 hp / 85 hp",
+   "note": "No 4.0. NP207 or NP228/229. T4, T5, AX4, AX5 or A904 gearboxes."
+  },
+  {
+   "years": "1987–1990",
+   "platform": "XJ (Renix)",
+   "engine": "4.0 I6, Renix MPI",
+   "output": "173 hp (1987) · 177 hp / 224 lb-ft",
+   "note": "AW4 auto or Peugeot BA-10/5 then AX-15 manual. NP231/NP242 arrive. No stored codes."
+  },
+  {
+   "years": "1991–1996",
+   "platform": "XJ (HO)",
+   "engine": "4.0 I6 HO, Chrysler MPI",
+   "output": "190 hp / 225 lb-ft",
+   "note": "Chrysler 8.25 rear from 1991. OBD-II and JTEC engine computer for 1996."
+  },
+  {
+   "years": "1997–1999",
+   "platform": "XJ facelift",
+   "engine": "4.0 I6 HO",
+   "output": "190 hp / 225 lb-ft",
+   "note": "Steel liftgate, new dash, stiffer body. NAXJA's favorite: non-ABS 1998–99."
+  },
+  {
+   "years": "2000–2001",
+   "platform": "XJ final",
+   "engine": "4.0 I6 HO, coil-on-plug",
+   "output": "193 hp / 231 lb-ft",
+   "note": "0331 head (crack-prone), NV3550 manual, low-pinion Dana 30. Six-cylinder only for 2001."
+  },
+  {
+   "years": "1984–1990",
+   "platform": "Wagoneer (XJ)",
+   "engine": "As Cherokee",
+   "output": "—",
+   "note": "Compact luxury trim with woodgrain decals. Not the full-size Grand Wagoneer."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "The unibody rails come first",
+   "body": "Avoid trucks with rust on the unibody frame rails, especially near suspension mounts. If rust reaches the suspension bolts, you may have to cut and repair the rails before a lift. Check the steering-box and track-bar mounts for cracks as well."
+  },
+  {
+   "head": "Rockers, floors and lower quarters",
+   "body": "Rocker panels under the doors and the lower rear quarters are the usual rust spots. Floors are relatively easy to replace; patch panels are cheap. Rust is much less common on Southwest trucks."
+  },
+  {
+   "head": "2000–01? Check the head",
+   "body": "All 2000–01 XJs have the 0331 head. With the oil cap off, shine a light between the cylinder 3 and 4 exhaust rockers: a 'TUPY' mark means a revised head. Unexplained coolant loss, brown coolant or milky oil means a likely crack."
+  },
+  {
+   "head": "Idle it until the fan comes on",
+   "body": "XJs are known for running hot. Idle for 5–10 minutes, make sure the electric fan kicks in, and watch the gauge on a hill. Bent pulleys suggest an overtightened belt and tired bearings."
+  },
+  {
+   "head": "Find the leak before you blame the rear main",
+   "body": "Common leaks are the rear main seal, oil pan gasket, valve cover gasket and oil-filter-adapter O-rings. Oil runs down to the bellhousing, so check the top of the engine first."
+  },
+  {
+   "head": "Test drive for wobble and wander",
+   "body": "Death wobble is usually the track bar. Wandering at speed means worn suspension or steering parts. A transfer case that pops out of 4WD may be worn."
+  },
+  {
+   "head": "Know the electronics era",
+   "body": "1987–90 Renix trucks store no fault codes and are diagnosed with a multimeter, so buy one only if you're comfortable chasing sensors. The 1991 HO trucks and later are easier. Avoid 1984–86 unless you plan an engine swap."
+  },
+  {
+   "head": "Read the axle tags",
+   "body": "ABS trucks have the Dana 35 rear, which is fine stock but weak with big tires. The Chrysler 8.25 is the common, decent rear axle, and a tow-package Dana 44 is worth extra."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Replace a cracked 0331 cylinder head (2000–01)",
+   "diff": "4 / 5",
+   "time": "≈ A weekend",
+   "cost": "Parts plus labor",
+   "symptoms": "Unexplained coolant loss, brown or dirty coolant, milky residue under the oil cap, and often a recent overheat. Wikipedia says the crack sits between cylinders 3 and 4 and often shows as a tan line with the valve cover off.",
+   "fix": "Confirm with a cooling-system pressure test and by looking through the oil filler (no 'TUPY' mark means an original 0331). Drain the coolant and remove the intake and exhaust manifolds, the coil rail, the valve cover and the rocker assemblies, keeping pushrods in order. Remove the head bolts and lift the head off. Change the oil and filter, then flush the oil again after the first short run to get coolant out. Fit a revised or aftermarket head; never another 0331. Use a new gasket and head bolts, torque in sequence to the service-manual spec, then refill and bleed the cooling system. Fix the cooling problem that probably caused the crack.",
+   "tools": "Torque wrench · head bolt sequence and spec from FSM [CONFIRM IN MANUAL] · gasket scraper · pushrod organizer · coolant pressure tester",
+   "parts": [
+    {
+     "name": "Crown Automotive 53010334 cylinder head, 1999–2006 TJ/XJ 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/cylinder-head-99-06-jeep-wrangler-tj-and-cherokee-xj-40l-engine"
+    },
+    {
+     "name": "ProMaxx CHR640NB bare cylinder head, 1991–2004 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51108_0002_07.htm"
+    },
+    {
+     "name": "Head gasket set, 1999–2001 4.0L Cherokee XJ (SGA11362)",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/jeep-cherokee-head-gasket-set-sga11362.html"
+    },
+    {
+     "name": "Cylinder head bolt, 1987–2001 2.5L/4.0L Cherokee XJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/jeep-cherokee-cylinder-head-bolt-6035514.html"
+    }
+   ]
+  },
+  {
+   "title": "Replace the rear main seal (4.0 two-piece)",
+   "diff": "3 / 5",
+   "time": "≈ A day",
+   "cost": "Parts plus labor",
+   "symptoms": "Oil dripping from the joint between engine and transmission. Rule out the valve cover gasket, oil-pressure sender, oil-filter-adapter O-rings and (on distributor engines) the distributor gasket first.",
+   "fix": "The 4.0 uses a two-piece seal, so it can be done with the engine in the truck and the transmission in place. Raise the Jeep high and support it, drain the oil and drop the pan. Remove the rear main bearing cap, pull the lower seal half, then work the upper half out by pushing one end around the crank. Clean everything, oil the new seal lips, install the upper half and then the lower half in the cap, fit the cap and torque it to spec. One NAXJA member quotes 80 ft-lb for a 1999 [CONFIRM IN MANUAL]. Refit the pan with a new gasket, which is where most comebacks happen.",
+   "tools": "Jack and stands · torque wrench · seal pick · RTV per seal instructions · new pan gasket",
+   "parts": [
+    {
+     "name": "Crown 4778126 rear main seal kit, 1987–99 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51002_0703.htm"
+    },
+    {
+     "name": "Crown 5018594 rear main seal, 2000–06 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51002_0704.htm"
+    },
+    {
+     "name": "Crown 4713221 lower gasket set (pan), 1992–2000 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51002_51.htm"
+    },
+    {
+     "name": "Crown 5017432AC lower gasket set, 2001–06 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51002_0007.htm"
+    }
+   ]
+  },
+  {
+   "title": "Reseal the oil filter adapter",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours",
+   "cost": "Under $20 in O-rings",
+   "symptoms": "Oil on the driver's side of the block and dripping onto the exhaust or crossmember, which is often mistaken for a rear main leak.",
+   "fix": "Drain the oil and remove the filter. Unbolt the adapter (on 1991 and later engines it sits next to the starter), clean both faces, fit new O-rings and refit the adapter. Use the correct O-ring set for your year: the adapter changed for 1991.",
+   "tools": "Sockets and extensions · filter wrench · drain pan · clean rags",
+   "parts": [
+    {
+     "name": "Crown 4720363 oil filter adapter O-ring kit, 1993–2001 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/oil-filter-adapter-o-ring-kit-jeep-cherokee-xj-and-grand-cherokee-zj-40l"
+    },
+    {
+     "name": "Crown 33002970 oil filter adapter O-ring, 1987–92 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/oil-filter-adapter-o-ring-jeep-cherokee-xj-and-comanche-mj-40l-engine"
+    },
+    {
+     "name": "Crown 33002971 oil filter adapter O-ring, 1987–92 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/oil-filter-adapter-o-ring-jeep-cherokee-xj-and-comanche-mj-40l-engine-0"
+    }
+   ]
+  },
+  {
+   "title": "Fix the overheating: radiator, fan clutch, pump and mounts",
+   "diff": "2 / 5",
+   "time": "≈ Half a day",
+   "cost": "Parts plus labor",
+   "symptoms": "The gauge climbs on hills or in traffic, the electric fan doesn't come on, or the radiator's plastic tanks seep. OffroadXtreme found factory radiators cracking from frame twist on the trail.",
+   "fix": "Start with the cheap checks: the electric fan and its relay and sensor, the fan clutch (it should resist turning when hot), the thermostat and the cap. Check the engine mounts; a worn mount let one author's fan clutch push into the radiator and close up its fins. Then replace the radiator (a thicker all-aluminum core is the usual upgrade; on 1990–95 trucks the core-support tabs may need grinding), the water pump and the hoses. Refill and bleed thoroughly.",
+   "tools": "Coolant drain pan · fan-clutch wrench · sockets · infrared thermometer · funnel kit for bleeding",
+   "parts": [
+    {
+     "name": "CSF 2670 copper/brass OE replacement radiator, 1991–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/csf/copper-brass-oe-replacement-radiator-cherokee-xj-2670"
+    },
+    {
+     "name": "Cold Case MOJ994A aluminum performance radiator, 1991–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/cold-case/aluminum-performance-radiator-jeep-cherokee-xj-0"
+    },
+    {
+     "name": "Crown 83503407 water pump, 1987–2001 XJ 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51212_16.htm"
+    },
+    {
+     "name": "Crown J3241858 fan drive clutch, 1984–2000 XJ with serpentine belt",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51202_03.htm"
+    }
+   ]
+  },
+  {
+   "title": "Replace the crankshaft position sensor (hot stalls)",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour",
+   "cost": "Sensor plus your time",
+   "symptoms": "The engine dies when hot and restarts after cooling. No spark, and fuel pressure checks out but fuel doesn't reach the injectors. Sometimes the gauges go dead or 'no bus' shows on the odometer. NAXJA members call thermal failure 'pretty common'.",
+   "fix": "Test it hot, right after it fails, because a bad sensor often tests fine cold. On 1991–2001 4.0 HO engines, unplug the sensor pigtail near the rear of the intake manifold and measure across terminals B and C on the 1K–10K ohm scale. It should read open (infinite). Low resistance means replace it. Fit the sensor for your exact year: the part changed several times.",
+   "tools": "Multimeter · long extensions and swivel · flashlight",
+   "parts": [
+    {
+     "name": "Crown T0739789 crankshaft position sensor, 1987–90 XJ (Renix)",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/55125_00.htm"
+    },
+    {
+     "name": "Crown 56026882 crankshaft position sensor, 1993–96 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/55125_02.htm"
+    },
+    {
+     "name": "OMIX 17220.13 crankshaft position sensor, 1997–04 TJ & 1999–2000 XJ (check fitment)",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/917220_13.htm"
+    },
+    {
+     "name": "Crown 56027866AE crankshaft position sensor, 2000–01 XJ 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/crankshaft-position-sensor-cherokee-xj-4.0l-56027866AE"
+    }
+   ]
+  },
+  {
+   "title": "Cure death wobble: track bar, steering linkage and box mount",
+   "diff": "3 / 5",
+   "time": "≈ Half a day",
+   "cost": "Parts plus alignment",
+   "symptoms": "Violent front-end shake after a bump at speed, wandering, clunks. OffroadXtreme says the track bar is the usual cause.",
+   "fix": "With the engine running and a helper turning the wheel back and forth, watch the track bar ends, the frame-side bracket, the tie-rod and drag-link ends and the steering box for movement. Replace worn bushings or the whole track bar (an adjustable one recenters a lifted axle), tighten the bracket bolts, and replace worn linkage. Inspect the unibody around the steering box and track-bar mount for cracks, which NAXJA members warn about. A steering stabilizer hides wobble; it doesn't cure it.",
+   "tools": "Helper · pry bar · tie-rod puller · torque wrench · alignment afterward",
+   "parts": [
+    {
+     "name": "Rancho RS62109 front adjustable track bar, 1984–2006 TJ/XJ/MJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/rancho/front-adjustable-track-bar-jeep-wrangler-tj-cherokee-xj-comanche-mj"
+    },
+    {
+     "name": "Crown 52003918 front track bar, 1984–90 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/56013_01.htm"
+    },
+    {
+     "name": "Crown RT21004 heavy-duty steering kit, 1991–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/56118_1102_07.htm"
+    },
+    {
+     "name": "Old Man Emu OMESD40 steering stabilizer, 1984–2006 XJ/ZJ/YJ/TJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/old-man-emu/nitrocharger-steering-stabilizer-84-06-jeep-cherokee-xj-grand-cherokee-zj-wrangler-yj"
+    }
+   ]
+  },
+  {
+   "title": "Replace rusted floor pans and rockers",
+   "diff": "4 / 5",
+   "time": "≈ A weekend per side",
+   "cost": "Parts plus welding",
+   "symptoms": "Wet carpet, holes under the mats, rockers that crumble under a screwdriver, rusted lower rear quarters.",
+   "fix": "Strip the interior, cut out the rot back to solid metal, and treat rust you can't cut out. Trial-fit the patch panels, then weld them in with plug or stitch welds. NAXJA members point out that on a unibody almost every panel is structural, so don't rely on screwed-in tin. Seam-seal and coat inside and out, and spray cavity wax into the rockers. If the main rails are rotten, that's a much bigger job; walk away or budget accordingly.",
+   "tools": "MIG welder · cut-off wheel · spot-weld drill · clamps · weld-through primer · seam sealer · cavity wax",
+   "parts": [
+    {
+     "name": "Key Parts front floor pan, 1984–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/key-parts/front-floor-pan-cherokee-xj"
+    },
+    {
+     "name": "Key Parts rear floor pan, 1984–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/key-parts/rear-floor-pan-cherokee-xj"
+    },
+    {
+     "name": "Key Parts rocker panel, 1984–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/key-parts/rocker-panel-cherokee-xj"
+    },
+    {
+     "name": "Key Parts rocker panel backing plate, 1984–2001 XJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/key-parts/rocker-panel-backing-plate-cherokee-xj"
+    }
+   ]
+  }
+ ],
+ "baseline_service": {
+  "intro": "XJs are cheap, so most have been run on a budget. Assume nothing has been done. The figures below come from the 2001 owner's manual as quoted on NAXJA, with ExtremeTerrain's XJ service guide where noted. Where they disagree, as on AW4 fluid and coolant capacity, check the label on your truck or the manual for your year.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "4.0: 6.0 qt (5.7 L) with filter · 5W-30 (ExtremeTerrain) · 2.5: 4.0 qt",
+    "interval": "Baseline now; then per your owner's manual",
+    "note": "Check the oil-filter-adapter O-rings while you're under there. They're a common leak that gets blamed on the rear main.",
+    "parts": [
+     {
+      "name": "Crown MFK9 master filter kit, 1997–2001 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/master-filter-kit-cherokee-xj-mfk9"
+     },
+     {
+      "name": "Crown MFK8 master filter kit, 1991–96 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/master-filter-kit-cherokee-xj-comanche-mj-mfk8"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "Panel element, 1987–2001",
+    "interval": "Baseline now; inspect every oil change",
+    "note": "Crown's master filter kits (MFK8 / MFK9) bundle the oil, air and fuel filters.",
+    "parts": [
+     {
+      "name": "Crown 53004383 air filter, 1987–2001 XJ 2.5/4.0",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/51301_06.htm"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs & ignition",
+    "spec": "Copper plugs, 0.035 in gap (4.0) · cap, rotor and wires through 1999 · coil rail on 2000–01",
+    "interval": "Baseline now",
+    "note": "On 2000–01 coil-on-plug trucks, NAXJA warns the expensive coil rail sometimes gets blamed for misfires it didn't cause. Rule out heat soak and plugs first.",
+    "parts": [
+     {
+      "name": "OMIX 17256.06 tune-up kit, 1991–93 XJ 4.0L",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/917256_06.htm"
+     },
+     {
+      "name": "OMIX 17256.07 tune-up kit, 1994–96 XJ 4.0L",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/917256_07.htm"
+     },
+     {
+      "name": "Crown TK-8 tune-up kit, 1997–98 XJ 4.0L",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/55126_019_07.htm"
+     },
+     {
+      "name": "Crown TK-50 tune-up kit, 2000–01 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/55126_0033.htm"
+     }
+    ]
+   },
+   {
+    "item": "Coolant & thermostat",
+    "spec": "4.0: 10.5 qt (9.9 L) per the 2001 manual quote; ExtremeTerrain lists 12 qt · IAT through 2000, HOAT for 2001 (ExtremeTerrain)",
+    "interval": "Flush and refill now",
+    "note": "Flush completely when changing coolant types. On 2000–01 trucks, a healthy cooling system is your best protection against a cracked 0331 head.",
+    "parts": [
+     {
+      "name": "Mopar 52028186AC thermostat (fits 2001 XJ)",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/mopar/thermostat-wrangler-tj-cherokee-xj-grand-cherokee-wj-zj-52028186AC"
+     },
+     {
+      "name": "Crown 52027984 coolant bottle & cap, 1991–2001 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/coolant-bottle-jeep-cherokee-xj-and-comanche-mj"
+     },
+     {
+      "name": "OMIX 17116.53 heater return hose, 1997–2001 XJ 4.0L",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/917116_53.htm"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (AW4)",
+    "spec": "Dexron III/Mercon per the 2001 owner's manual quote (ExtremeTerrain lists ATF+4) · 4 qt drain-and-fill, 8 qt with filter",
+    "interval": "Baseline now",
+    "note": "Do a pan drop and filter change, not a pressure flush. Check the throttle-valve cable adjustment if shifts are harsh or late.",
+    "parts": [
+     {
+      "name": "AW4 filter and pan gasket search",
+      "supplier": "ExtremeTerrain",
+      "url": "https://www.extremeterrain.com/search?q=cherokee+aw4+transmission+filter"
+     },
+     {
+      "name": "Crown 52077578 throttle valve cable, 1991–2001 XJ AW4",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/throttle-valve-cable-jeep-cherokee-xj-and-comanche-mj-aw4-transmission"
+     }
+    ]
+   },
+   {
+    "item": "Manual transmission",
+    "spec": "AX-15: 3.32 qt 75W-90 GL-3/GL-4 (not GL-5) · AX-5: 3.3 qt same · NV3550: 2.1 qt Mopar 04874464AA or equivalent",
+    "interval": "Baseline now",
+    "note": "NAXJA notes some owner's manuals wrongly list GL-5 for the Aisin boxes.",
+    "parts": [
+     {
+      "name": "XJ manual transmission parts",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/jeep,1999,cherokee"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case (NP231 / NP242)",
+    "spec": "NP231: 2.2 pt (1.0 L) · NP242: 2.85 pt (1.3 L) · Dexron III/Mercon or ATF+3/ATF+4",
+    "interval": "Baseline now",
+    "note": "If it pops out of 4WD or is hard to shift back to 2WD, the case may be worn.",
+    "parts": [
+     {
+      "name": "XJ transfer case seals and parts",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/jeep,1999,cherokee"
+     }
+    ]
+   },
+   {
+    "item": "Front axle (Dana 30)",
+    "spec": "2.5 pt (1.2 L) SAE 75W-90",
+    "interval": "Baseline now",
+    "note": "Low-pinion on 2000–01 trucks, high-pinion before that. Check the inner axle seals if the knuckles are wet with gear oil.",
+    "parts": [
+     {
+      "name": "Yukon YCGD30 Dana 30 diff cover gasket",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/yukon-gear-axle/differential-cover-gasket-dana-30-axle"
+     },
+     {
+      "name": "Crown 4797769 inner axle shaft slinger, 1990–96 XJ Dana 30",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/52449_0027.htm"
+     }
+    ]
+   },
+   {
+    "item": "Rear axle (Dana 35 / Chrysler 8.25)",
+    "spec": "Dana 35: 3.5 pt (1.66 L) · 8.25: 4.4 pt (2.0 L) · SAE 75W-90 (75W-140 synthetic suggested for towing) · add 4 oz friction modifier with Trac-Lok",
+    "interval": "Baseline now",
+    "note": "Read the tag. ABS trucks have the Dana 35.",
+    "parts": [
+     {
+      "name": "Yukon YCGM35 Dana 35 diff cover gasket",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/yukon-gear-axle/differential-cover-gasket-dana-35-axle"
+     },
+     {
+      "name": "Eaton KC8.25-76R Chrysler 8.25 master install kit",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/eaton/chrysler-825-master-install-kit-cherokee-xj-chrysler-825-rear-axle-K-C8.25-76R"
+     }
+    ]
+   },
+   {
+    "item": "Front axle U-joints",
+    "spec": "297x/760 series (1996 and later; check earlier ABS/non-ABS sizes)",
+    "interval": "Inspect now; replace if notchy",
+    "note": "Turn each front wheel to full lock and check the axle-shaft U-joints for play or rust bleeding from the caps.",
+    "parts": [
+     {
+      "name": "Spicer 5-760X 297x/760x U-joint",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/52302_102.htm"
+     },
+     {
+      "name": "Crown 8126638SP heavy-duty front axle U-joint",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/heavy-duty-front-axle-u-joint-wrangler-yj-tj-jk-cherokee-xj-8126638SP"
+     }
+    ]
+   },
+   {
+    "item": "Serpentine belt & pulleys",
+    "spec": "Belt by year and accessory layout",
+    "interval": "Baseline now",
+    "note": "OffroadXtreme says to check pulley alignment: bent pulleys suggest an overtightened belt and tired bearings.",
+    "parts": [
+     {
+      "name": "Crown 53011035 serpentine belt, 1996–2001 XJ with A/C & P/S",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/51213_09.htm"
+     },
+     {
+      "name": "Crown 53010257 serpentine belt, 1996–2000 XJ with P/S, no A/C",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/51213_07.htm"
+     }
+    ]
+   },
+   {
+    "item": "Electric cooling fan",
+    "spec": "Confirm it switches on at idle",
+    "interval": "Check now",
+    "note": "Idle for 5–10 minutes and confirm the fan runs. The assemblies differ for 1987–96 and 1997–2001.",
+    "parts": [
+     {
+      "name": "Crown 52005748 electric fan assembly, 1987–96 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/51203_03.htm"
+     },
+     {
+      "name": "Crown 52028337AC electric fan assembly, 1997–2001 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/51203_04.htm"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid & rear brakes",
+    "spec": "Brake fluid per the master-cylinder cap [CONFIRM IN MANUAL]",
+    "interval": "Flush now; then every 2 years",
+    "note": "Larger tires may need more brake-pedal effort. Rear drums on most XJs need adjusting and fresh hardware.",
+    "parts": [
+     {
+      "name": "Crown 52005350KE rear drum brake service kit",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/rear-drum-brake-service-kit-wrangler-yj-tj-cherokee-xj-comanche-mj-52005350KE"
+     }
+    ]
+   },
+   {
+    "item": "Steering box & power steering",
+    "spec": "Power-steering fluid [CONFIRM TYPE IN MANUAL]",
+    "interval": "Inspect now",
+    "note": "Check the box for seepage, and check the unibody around the box mount for cracks.",
+    "parts": [
+     {
+      "name": "Crown J8125039 steering box seal kit, 1984–2001 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/steering-box-seal-kit-jeep-cj-wrangler-yj-cherokee-xj-comanche-mj-and"
+     },
+     {
+      "name": "Crown 52038002 power steering box, 1984–2001 XJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/56112_06.htm"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "NAXJA's consensus is 235/75R15 (about 29 in) on the stock 15x7 wheels with 5.25 in backspacing, which fits fine. A 30x9.50R15 is the practical limit. One owner's '88 rubbed only the front control arms at full lock, which a steering-stop adjustment fixes at the cost of turning circle, and some later trucks have rubbed the rear fenders. A 255/70R16 (about 30 in) rubbed the rear on a loaded 2000. Less backspacing pushes the tire out toward the flares.",
+   "src": "NAXJA"
+  },
+  {
+   "q": "Which years and engines should I buy?",
+   "a": "Buy a 4.0. OffroadXtreme recommends the 1991-and-later HO, says 1987–90 Renix trucks suit owners who like diagnosing sensors, and says to avoid 1984–86 (no 4.0). NAXJA members single out non-ABS 1998–99 trucks with the 4.0, AW4, NP231 and 29-spline 8.25 as about the most solid combination. The 2000–01 trucks are good if the head has been checked or replaced.",
+   "src": "OFFROADXTREME · NAXJA"
+  },
+  {
+   "q": "What's the 0331 head problem?",
+   "a": "The 2000–01 4.0 got a head with casting number 0331 that can crack between cylinders 3 and 4, letting coolant into the oil. Look through the oil filler between the cylinder 3 and 4 exhaust rockers: a 'TUPY' mark means a revised head. Most failures follow an overheat, so keep the cooling system healthy, and never replace a cracked one with another 0331.",
+   "src": "WIKIPEDIA · NAXJA"
+  },
+  {
+   "q": "Which rear axle do I have, and is it any good?",
+   "a": "There are three possibilities. The Dana 35 was used on early trucks and on ABS-equipped trucks throughout; it's fine stock but weak with bigger tires. The Chrysler 8.25 is common on non-ABS 1991–2001 trucks and went from 27 to 29 splines in late 1996. The Dana 44 came on some 1987–91 tow-package trucks. The axle tag or the cover shape will tell you.",
+   "src": "WIKIPEDIA · OFFROADXTREME"
+  },
+  {
+   "q": "Command-Trac or Selec-Trac?",
+   "a": "From 1987 both have 2.72:1 low range. The NP231 Command-Trac is part-time (2H, 4H, N, 4L) and NAXJA calls it better for heavy off-road use. The NP242 Selec-Trac adds a full-time 4WD mode for slippery pavement.",
+   "src": "WIKIPEDIA · NAXJA"
+  },
+  {
+   "q": "What fluids and capacities does it take?",
+   "a": "Per the 2001 owner's manual as quoted on NAXJA: 4.0 oil 6 qt with filter, coolant 10.5 qt, AW4 4 qt drain-and-fill (Dexron III/Mercon), NP231 2.2 pt, Dana 30 2.5 pt 75W-90, Dana 35 3.5 pt, 8.25 4.4 pt, plus friction modifier for Trac-Lok. ExtremeTerrain lists ATF+4 for the AW4 and 12 qt of coolant. Check your manual. See 'After you buy it' for the full list.",
+   "src": "NAXJA · EXTREMETERRAIN"
+  },
+  {
+   "q": "Why does my XJ overheat?",
+   "a": "The usual suspects are a clogged or cracked radiator (the factory plastic tanks can split under frame twist), a weak fan clutch, a dead electric fan or relay, an old water pump, and worn motor mounts that let the fan get too close to the radiator. On Renix trucks, check whether someone has converted the cooling system.",
+   "src": "OFFROADXTREME"
+  },
+  {
+   "q": "What causes death wobble, and how do I fix it?",
+   "a": "Usually the track bar: worn bushings, a loose bracket or a bent bar. Worn tie-rod ends, the drag link or ball joints can also cause it. Find the loose part with a helper turning the wheel, replace it, and check the unibody around the track-bar and steering-box mounts for cracks. A new steering stabilizer only hides the problem.",
+   "src": "OFFROADXTREME · NAXJA"
+  },
+  {
+   "q": "How long do they last?",
+   "a": "NAXJA members report XJs commonly running 250,000–300,000 miles or more on factory drivetrains if they're maintained. The original poster in NAXJA's beginner thread called anything under 100,000 miles hard to find and probably overpriced.",
+   "src": "NAXJA"
+  },
+  {
+   "q": "Why is my Renix XJ so hard to diagnose?",
+   "a": "The 1987–90 Renix computer doesn't store fault codes, so you diagnose sensors with a multimeter. It's well documented, but it's more work than the 1991-and-later Chrysler system, which became OBD-II with the JTEC computer in 1996.",
+   "src": "NAXJA · WIKIPEDIA"
+  },
+  {
+   "q": "How much lift do I need?",
+   "a": "It depends on the tires and the trail. The factory Up Country package added an inch. Kits run from TeraFlex's 1.5-inch Budget Boost, through 3-inch leaf-and-coil systems from Zone and Rough Country, to 4.5–6.5-inch long-arm kits. Bigger lifts usually need an adjustable track bar and driveline work.",
+   "src": "WIKIPEDIA · QUADRATEC"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "The XJ responds well to a modest lift. Coils and add-a-leafs or new packs clear 30–31 in tires, and long-arm kits are for serious rock work.",
+   "who": [
+    {
+     "name": "TeraFlex 1.5\" Budget Boost (Quadratec)",
+     "url": "https://www.quadratec.com/p/teraflex/budget-boost-jeep-cherokee-xj"
+    },
+    {
+     "name": "Zone Offroad 3\" XJ system (Quadratec)",
+     "url": "https://www.quadratec.com/p/zone-offroad-products/3-suspension-system-84-01-jeep-cherokee-xj"
+    },
+    {
+     "name": "Rough Country 3\" Series II XJ kit (Quadratec)",
+     "url": "https://www.quadratec.com/p/rough-country/3in-series-ii-lift-kit-cherokee-xj"
+    },
+    {
+     "name": "Old Man Emu (ARB)",
+     "url": "https://www.oldmanemu.com/en-us"
+    }
+   ]
+  },
+  {
+   "cat": "TRACK BAR & STEERING",
+   "why": "Lift moves the axle sideways and loads the steering. An adjustable track bar and heavier linkage keep it straight and wobble-free.",
+   "who": [
+    {
+     "name": "JKS Manufacturing OGS126 adjustable track bar (Quadratec)",
+     "url": "https://www.quadratec.com/products/16007_002_07.htm"
+    },
+    {
+     "name": "Rough Country forged adjustable track bar (Quadratec)",
+     "url": "https://www.quadratec.com/p/rough-country/front-forged-adjustable-track-bar-cherokee-xj"
+    },
+    {
+     "name": "Crown RT21004 HD steering kit (Quadratec)",
+     "url": "https://www.quadratec.com/products/56118_1102_07.htm"
+    }
+   ]
+  },
+  {
+   "cat": "ROCKER ARMOR",
+   "why": "Unibody rockers are part of the structure. Protect them before the first rock hits.",
+   "who": [
+    {
+     "name": "Rock Hard 4x4 RH1014 rocker sliders (Quadratec)",
+     "url": "https://www.quadratec.com/products/72067_8000.htm"
+    },
+    {
+     "name": "Warrior Products under-door sideplates (Quadratec)",
+     "url": "https://www.quadratec.com/products/72538_201X_PG.htm"
+    },
+    {
+     "name": "Rock Hard 4x4",
+     "url": "https://www.rockhard4x4.com/"
+    }
+   ]
+  },
+  {
+   "cat": "COOLING",
+   "why": "The XJ's weak spot, especially in hot climates or with a 2000–01 head you'd like to keep.",
+   "who": [
+    {
+     "name": "Cold Case aluminum radiator (Quadratec)",
+     "url": "https://www.quadratec.com/p/cold-case/aluminum-performance-radiator-jeep-cherokee-xj-0"
+    },
+    {
+     "name": "CSF copper/brass radiator (Quadratec)",
+     "url": "https://www.quadratec.com/p/csf/copper-brass-oe-replacement-radiator-cherokee-xj-2670"
+    }
+   ]
+  },
+  {
+   "cat": "AXLES & LOCKERS",
+   "why": "Regearing for bigger tires and adding lockers. The 8.25 and Dana 30 are worth building, while many owners replace a Dana 35.",
+   "who": [
+    {
+     "name": "Yukon Gear & Axle",
+     "url": "https://www.yukongear.com/"
+    },
+    {
+     "name": "ARB (Air Lockers)",
+     "url": "https://www.arbusa.com/"
+    }
+   ]
+  },
+  {
+   "cat": "BUMPERS & RECOVERY",
+   "why": "Stock plastic bumpers don't hold a winch or survive a stump. Steel bumpers add recovery points and approach angle.",
+   "who": [
+    {
+     "name": "Rock Hard 4x4",
+     "url": "https://www.rockhard4x4.com/"
+    },
+    {
+     "name": "Rough Country",
+     "url": "https://www.rough-country.com/"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1987–1996 · US",
+   "label": "XJ 4.0 (Renix and early HO)",
+   "at_url": "https://www.autotempest.com/results?make=jeep&model=cherokee&minyear=1987&maxyear=1996",
+   "bat_url": "https://bringatrailer.com/jeep/cherokee/"
+  },
+  {
+   "years": "1997–2001 · US",
+   "label": "XJ facelift",
+   "at_url": "https://www.autotempest.com/results?make=jeep&model=cherokee&minyear=1997&maxyear=2001",
+   "bat_url": "https://bringatrailer.com/jeep/cherokee/"
+  },
+  {
+   "years": "1984–1990 · US",
+   "label": "Wagoneer Limited (XJ)",
+   "at_url": "https://www.autotempest.com/results?make=jeep&model=wagoneer&minyear=1984&maxyear=1990",
+   "bat_url": "https://bringatrailer.com/jeep/xj-wagoneer/"
+  }
+ ],
+ "social": [],
+ "forums": [
+  {
+   "name": "NAXJA — North American XJ Association",
+   "url": "https://naxja.org/forums/",
+   "note": "The main XJ and MJ forum: buying advice, 0331 heads, axles, fluids and decades of DIY threads."
+  },
+  {
+   "name": "Cherokee Forum",
+   "url": "https://www.cherokeeforum.com/",
+   "note": "General Cherokee forum with active XJ sections."
+  },
+  {
+   "name": "JeepForum",
+   "url": "https://www.jeepforum.com/",
+   "note": "Big multi-model Jeep forum with Cherokee XJ boards."
+  }
+ ],
+ "related": [
+  {
+   "rel": "FULL-SIZE PREDECESSOR",
+   "name": "Grand Wagoneer (SJ)",
+   "family": "jeep",
+   "gen": "grand-wagoneer"
+  },
+  {
+   "rel": "SHARES THE 4.0",
+   "name": "Wrangler YJ",
+   "family": "jeep",
+   "gen": "yj"
+  },
+  {
+   "rel": "SAME-ERA JEEP",
+   "name": "CJ-7",
+   "family": "jeep",
+   "gen": "cj-7"
+  },
+  {
+   "rel": "BUDGET-WHEELER RIVAL",
+   "name": "Land Cruiser FJ60",
+   "family": "land-cruiser",
+   "gen": "fj60"
+  },
+  {
+   "rel": "ERA RIVAL",
+   "name": "Range Rover Classic",
+   "family": "range-rover",
+   "gen": "classic"
+  }
+ ],
+ "plate": [
+  {
+   "k": "PLATFORM",
+   "v": "XJ unibody ('Uniframe')"
+  },
+  {
+   "k": "PRODUCTION (US)",
+   "v": "1983 (MY1984) – June 2001, Toledo, Ohio"
+  },
+  {
+   "k": "TOTAL BUILT",
+   "v": "≈ 3 million (1983–2001)"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "101.4 in (2- and 4-door)"
+  },
+  {
+   "k": "LENGTH",
+   "v": "165.3–168.8 in depending on year"
+  },
+  {
+   "k": "ENGINE",
+   "v": "4.0 L AMC I6 · 173–193 hp"
+  },
+  {
+   "k": "OTHER ENGINES",
+   "v": "2.5 I4 · 2.8 V6 · 2.1 and 2.5 turbodiesels"
+  },
+  {
+   "k": "TRANSMISSIONS",
+   "v": "AW4 auto · BA-10/5, AX-15, NV3550 manuals (4.0)"
+  },
+  {
+   "k": "TRANSFER CASE",
+   "v": "NP231 Command-Trac / NP242 Selec-Trac, 2.72:1"
+  },
+  {
+   "k": "FRONT AXLE",
+   "v": "Dana 30 (high-pinion to 1999, low-pinion 2000–01)"
+  },
+  {
+   "k": "REAR AXLE",
+   "v": "Dana 35 · Chrysler 8.25 · Dana 44 (some 1987–91)"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Quadra-Link coils front · leaf springs rear"
+  }
+ ],
+ "photos": [
+  {
+   "file": "xj-shotgun-creek-climb.jpg",
+   "alt": "A lifted maroon 1997–2001 Jeep Cherokee XJ with a roof rack climbing a pile of boulders in a misty Oregon forest",
+   "caption": "CHEROKEE XJ · SHOTGUN CREEK, OREGON",
+   "credit": "BLM Oregon & Washington · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shotgun_Creek_OHV_Trails_17_(16794408000).jpg"
+  },
+  {
+   "file": "xj-shotgun-creek-rocks.jpg",
+   "alt": "The same lifted maroon Cherokee XJ with a winch bumper crawling over rocks among ferns on a forest trail",
+   "caption": "CHEROKEE XJ · ROCK GARDEN, OREGON",
+   "credit": "BLM Oregon & Washington · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shotgun_Creek_OHV_Trails_03_(16980948841).jpg"
+  },
+  {
+   "file": "xj-texas-mud-flex.jpg",
+   "alt": "A lifted silver Cherokee XJ on mud tires flexing its front axle in red clay",
+   "caption": "CHEROKEE XJ · RED-CLAY FLEX, TEXAS",
+   "credit": "Rafi B. · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jeep_Cherokee_offroad_1.jpg"
+  },
+  {
+   "file": "xj-morocco-rally.jpg",
+   "alt": "A mud-caked Cherokee XJ with rally number decals on a dirt track in the Moroccan desert",
+   "caption": "CHEROKEE XJ · BUDAPEST–BAMAKO RALLY, MOROCCO",
+   "credit": "bob rayner · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Muddy_jeep_morocco.jpg"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Cherokee (XJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Cherokee_(XJ)"
+  },
+  {
+   "name": "Wikipedia — AMC straight-6 engine (4.0 and 0331 head)",
+   "url": "https://en.wikipedia.org/wiki/AMC_straight-6_engine"
+  },
+  {
+   "name": "OffroadXtreme — Buyer's guide: how to buy the perfect Jeep Cherokee XJ",
+   "url": "https://www.offroadxtreme.com/?p=7758"
+  },
+  {
+   "name": "OffroadXtreme — A cooler solution: Jeep XJ 4.0L cooling problems and cures",
+   "url": "https://www.offroadxtreme.com/?p=6327"
+  },
+  {
+   "name": "NAXJA — XJnewb crash course",
+   "url": "https://naxja.org/threads/xjnewb-crash-course.1106233"
+  },
+  {
+   "name": "NAXJA — 0331 cylinder head: what years?",
+   "url": "https://naxja.org/threads/0331-cylinder-head-what-years.1076299"
+  },
+  {
+   "name": "NAXJA — 2001 owner's manual fluids",
+   "url": "https://naxja.org/threads/2001-owners-manual-fluids.1042696/"
+  },
+  {
+   "name": "NAXJA — Biggest tire for stock 2001 Cherokee Sport",
+   "url": "https://naxja.org/threads/biggest-tire-for-stock-2001-cherokee-sport.67379"
+  },
+  {
+   "name": "NAXJA — Rear main seal help",
+   "url": "https://naxja.org/threads/rear-main-seal-help.1096504"
+  },
+  {
+   "name": "NAXJA archive — crank position sensor testing",
+   "url": "https://www.naxja.org/forum/archive/index.php/t-976893.html"
+  },
+  {
+   "name": "NAXJA — Rusty XJ, what to do?",
+   "url": "https://naxja.org/threads/rusty-xj-what-to-do.62050/post-519884"
+  },
+  {
+   "name": "ExtremeTerrain — Cherokee XJ service information tech guide",
+   "url": "https://www.extremeterrain.com/cherokee-xj-service-information-tech-guide.html"
+  },
+  {
+   "name": "Quadratec — 1984–2001 Cherokee XJ parts catalog",
+   "url": "https://www.quadratec.com/vehicle/1984-2001-cherokee-xj"
+  }
+ ]
+}
