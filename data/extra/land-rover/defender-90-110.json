@@ -3,14 +3,14 @@
   "stock": [
    "235/85R16 (110, classic factory size)",
    "265/75R16 (NAS Defender 90)",
-   "235/80R16 / 265/75R16 (later trucks, per Limitless Tire)"
+   "235/80R16 / 265/75R16 (1998 data, per Limitless Tire)"
   ],
   "wheel": {
    "bolt_pattern": "5x165.1 (5x6.5\")",
    "offset": "ET20–35 range by body (no single factory figure)",
    "center_bore": "114.3 mm",
    "lug_thread": "M16x1.5",
-   "lug_torque": "96 lb-ft (130 N·m)"
+   "lug_torque": "96 lb-ft (130 N·m) commonly listed; one data set also gives 170 N·m [CONFIRM IN MANUAL for your wheel type]"
   },
   "max_tire": [
    {
@@ -154,7 +154,7 @@
   {
    "k": "Towing",
    "v": "7,716 lb (3,500 kg) braked",
-   "note": "750 kg unbraked; 2004 90/110/130 per CarsGuide"
+   "note": "750 kg unbraked; 2004 90/110/130 per CarsGuide, same figures for a 2009 90 per GoAuto"
   },
   {
    "k": "Fuel tank",
@@ -174,7 +174,7 @@
   {
    "k": "Fuel economy",
    "v": "12–16 mpg (V8), 23–27 mpg (300Tdi), 22–26 mpg (Td5), 20–25 mpg (Puma)",
-   "note": "ECD's real-world figures; V8 12–14 in practice"
+   "note": "ECD's estimates (method not stated); V8 12–14 in real-world use"
   }
  ],
  "values": {
@@ -230,7 +230,7 @@
   "paragraphs": [
    "Only the NAS trucks (1993 110, 1994–97 90) were sold new in the US, so every other classic Defender here is a gray-market import. NHTSA lets a vehicle in without meeting federal safety standards (FMVSS) once it is at least 25 years old, counted from its date of manufacture, declared under Box 1 on the HS-7. In October 2026 that means trucks built before October 2001: 200Tdi, 300Tdi, V8 and early Td5 Defenders. A newer Defender can't be made to comply, and Puma trucks (2007 on) won't start qualifying until 2032.",
    "The EPA side is separate. On Form 3520-1, exemption code E covers vehicles at least 21 years old (calendar year of manufacture subtracted from year of import) in original, unmodified configuration. A truck with a replacement engine doesn't qualify unless it's the same engine model as original, so an engine-swapped Defender should be imported before the swap, not after.",
-   "Enforcement is real. In 2014 Homeland Security agents seized more than two dozen Defenders imported by one North Carolina owner on suspicion that VINs had been swapped to beat the 25-year rule; they were returned in 2015 once found correctly imported. Make sure the VIN plate, chassis stamp, title and build date agree before you pay, and a Heritage Certificate helps.",
+   "Enforcement is real. In 2014 Homeland Security agents seized more than two dozen Defenders imported by one North Carolina owner on suspicion that VINs had been swapped to beat the 25-year rule; in 2015 they were found to have been correctly imported and ordered returned, after a pro bono legal challenge. Make sure the VIN plate, chassis stamp, title and build date agree before you pay, and a Heritage Certificate helps.",
    "State rules come last and matter most in California. Its smog-check exemptions cover gasoline vehicles of the 1975 model year and older and diesels of the 1997 model year and older, but a direct import from 1975 on that was never certified for California is supposed to get a CARB Certificate of Conformance after a laboratory test, and ECD warns a classic Defender engine can keep the truck off California roads. Check with your DMV and, in California, with CARB before you buy."
   ]
  },
@@ -263,7 +263,7 @@
    {
     "name": "NAS Limited Edition D90",
     "years": "1997",
-    "note": "300 built for the US; the final NAS run, in Willow Green"
+    "note": "300 station wagons for the US in Willow Green with a white roof, each with a numbered placard; the final NAS run"
    },
    {
     "name": "50th Anniversary",
@@ -469,6 +469,10 @@
   {
    "name": "NHTSA — Recall 96V108000",
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V108000"
+  },
+  {
+   "name": "BolidenForum — 1997 Land Rover Defender 90 technical data",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1997-defender-90-standard/?vd_lang=en"
   }
  ]
 }
