@@ -1,0 +1,461 @@
+{
+ "fitment": {
+  "stock": [
+   "275/65R18 all-terrain (Advanced All-Terrain Group, 18-in off-road wheels)",
+   "275/55R20 (9x20, ET19)",
+   "285/45R22 (9x22, ET19)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "ET19 (factory 20 in and 22 in, per Wheel-Size)",
+   "center_bore": "77.8 mm",
+   "lug_thread": "M14x1.5"
+  }
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Airbag control module software",
+    "years": "2022",
+    "ref": "NHTSA 21V-873",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V873000",
+    "summary": "The occupant restraint controller could have software that disables the driver, passenger and knee airbags without warning."
+   },
+   {
+    "title": "Second-row center-seat recliner strap",
+    "years": "2022",
+    "ref": "NHTSA 21V-919",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V919000",
+    "summary": "The strap can bind on the trim so the seat back doesn't lock upright (FMVSS 207)."
+   },
+   {
+    "title": "B-pillar trim and curtain airbag",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V-545",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V545000",
+    "summary": "Upper B-pillar trim may not be fully seated and could interfere with side-curtain airbag deployment."
+   },
+   {
+    "title": "Rear camera (CVPAM software)",
+    "years": "2022–2024",
+    "ref": "NHTSA 23V-577",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V577000",
+    "summary": "Park-assist module software may stop the rearview image displaying in reverse."
+   },
+   {
+    "title": "Third-row seat belt buckles",
+    "years": "2022–2024",
+    "ref": "NHTSA 23V-716",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V716000",
+    "summary": "Third-row occupants may not be able to reach or fasten the buckle."
+   },
+   {
+    "title": "Steering column control module weld",
+    "years": "2023–2024",
+    "ref": "NHTSA 24V-199",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V199000",
+    "summary": "A poorly welded clockspring/column module can stop the driver's airbag deploying. Part of a multi-model Stellantis campaign."
+   },
+   {
+    "title": "Rear camera (radio software)",
+    "years": "2022–2023",
+    "ref": "NHTSA 24V-436",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V436000",
+    "summary": "Radio software may prevent the rearview image from displaying."
+   },
+   {
+    "title": "Rear camera module software",
+    "years": "2024",
+    "ref": "NHTSA 24V-944",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V944000",
+    "summary": "Incorrect camera-module software may stop the rearview image displaying."
+   },
+   {
+    "title": "Door trim may detach",
+    "years": "2022–2025",
+    "ref": "NHTSA 25V-593",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V593000",
+    "summary": "Driver and passenger door trim may not have been installed properly and can come off on the road."
+   },
+   {
+    "title": "Window quarter trim may detach",
+    "years": "2022–2024",
+    "ref": "NHTSA 25V-642",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V642000",
+    "summary": "Quarter trim on the door windows may not be secured and can come off."
+   },
+   {
+    "title": "Camera harness (2026 Grand Wagoneer)",
+    "years": "2026",
+    "ref": "NHTSA 26V-326",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V326000",
+    "summary": "The front camera harness may not be connected, which can blank the rearview image."
+   },
+   {
+    "title": "Gear-position indicator software",
+    "years": "2023 Wagoneer · 2024 Wagoneer L",
+    "ref": "NHTSA 26V-413",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V413000",
+    "summary": "The gear selection indicator may not display, which risks a rollaway."
+   },
+   {
+    "title": "ESC and brake-assist software (2026)",
+    "years": "2026",
+    "ref": "NHTSA 26V-414",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V414000",
+    "summary": "Brake control module software may cause a loss of stability control and electronic brake assist."
+   },
+   {
+    "title": "Rear camera image (2026, multi-model)",
+    "years": "2026",
+    "ref": "NHTSA 26V-531",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V531000",
+    "summary": "The rearview image may fail to display in reverse."
+   },
+   {
+    "title": "Tire pressure monitoring software",
+    "years": "2024–2026",
+    "ref": "NHTSA 26V-559",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V559000",
+    "summary": "TPMS may fail to detect low pressure or light the warning lamp."
+   },
+   {
+    "title": "Roof rack crossbar pivot bolts",
+    "years": "2022–2026 (all WS models incl. L)",
+    "ref": "NHTSA 26V-584",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V584000",
+    "summary": "Pivot bolts may not have been tightened, so the crossbars can detach."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Air suspension inoperable (early 2022 builds)",
+    "ref": "TSB 02-001-22 Rev. A · RSU 22-083",
+    "summary": "For 2022 WS trucks with Quadra-Lift (sales code SER) built on or before Feb 15, 2022: check for unseated air lines, unplugged ASCM or height sensors, and shipping caps left on the vent hose. DTC C15AE-00.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10228041-9999.pdf"
+   },
+   {
+    "title": "Blank or unresponsive 10.1 in / 12 in center display",
+    "ref": "TSB 08-039-22 Rev. B",
+    "summary": "Radio (R1 head unit) software update to perform before replacing the display.",
+    "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/tsbs/"
+   },
+   {
+    "title": "Electric power steering module update",
+    "ref": "TSB 08-202-22 Rev. B",
+    "summary": "EPS module flash for MIL or EPS warning messages.",
+    "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/tsbs/"
+   },
+   {
+    "title": "Telematics box module update",
+    "ref": "TSB 08-173-21 Rev. A",
+    "summary": "TBM reflash for inoperative remote functions or Wi-Fi.",
+    "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/tsbs/"
+   },
+   {
+    "title": "NHTSA investigation: engine stall with intermittent restart",
+    "ref": "NHTSA preliminary evaluation (2024)",
+    "summary": "Opened in 2024 into 2022 Ram 1500 and Wagoneer engines shutting off at low speed.",
+    "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/investigations/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2011",
+   "change": "Sergio Marchionne announces the Grand Wagoneer name will return (Detroit auto show, January)",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Grand Wagoneer Concept shown September 3 with no Jeep badging",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Launch model year (revealed March 11, 2021): Wagoneer 5.7 eTorque (392 hp) and Grand Wagoneer 6.4 (471 hp). Early builds hit by air-suspension TSB 02-001-22 and several software recalls",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "Wagoneer L and Grand Wagoneer L (130 in wheelbase) debut with the 3.0 Hurricane twin-turbo six: 420 hp, or 510 hp high-output in Grand Wagoneers",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Hemi V8s dropped, all trucks Hurricane-powered. February: Jeep says Wagoneer will stop being a sub-brand. IIHS 2024 Top Safety Pick (Wagoneer)",
+   "flag": "buy"
+  },
+  {
+   "year": "2025",
+   "change": "High-output Hurricane rises to 540 hp and 521 lb-ft. Last year of the standalone Wagoneer nameplate",
+   "flag": "buy"
+  },
+  {
+   "year": "2026",
+   "change": "Facelift revealed October 14, 2025: every truck is a Grand Wagoneer, Jeep badges, no chrome, new trims including the short-wheelbase Upland. Standard-output 420-hp Hurricane only. Starts at $64,740",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Wagoneer, Grand Wagoneer, their L versions and three engines all share one body, and the badges changed in 2026. Here's how to tell what you're looking at.",
+  "items": [
+   {
+    "head": "Wagoneer vs Grand Wagoneer (2022–2025)",
+    "body": "Same body and size. Grand Wagoneers have a two-tone black roof, fender flares, power retractable side steps, a 12.3-inch cluster and a different grille, and air suspension is standard. Wagoneers have a standard side step and a 10.25-inch cluster, and air suspension was optional. From 2026 everything is badged Grand Wagoneer, with Jeep logos front and rear."
+   },
+   {
+    "head": "Short vs L",
+    "body": "L models ride on a 130.0-inch wheelbase (123.0 standard) and are 226.7 inches long (214.7 standard). Look for a longer rear door-to-D-pillar section and quarter glass."
+   },
+   {
+    "head": "Which engine",
+    "body": "AMSOIL's lookups list engine code T for the 5.7 Hemi (sales code EZL), J for the 6.4 Hemi (ESG) and P for the 3.0 Hurricane, split into EFH (standard output) and EFC (high output). The window sticker or a VIN decoder confirms which one you have, and that decides the oil grade."
+   },
+   {
+    "head": "Air or coil suspension",
+    "body": "Quadra-Lift trucks carry sales code SER, show ride-height controls next to the Selec-Terrain toggle and offer Tire Jack mode in the Suspension menu. Coil trucks can't be raised from the cabin."
+   },
+   {
+    "head": "4x4 system and off-road package",
+    "body": "Quadra-Trac I has no low range. Two-speed trucks (Quadra-Trac II, Quadra-Drive II) have a low-range selection. The Advanced All-Terrain Group adds 18-inch all-terrain tires, front tow hooks, skid plates, a 3.92 axle and the rear electronic LSD, so check under the front for the skid plate."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "Up to 10,000 lb (4,536 kg)",
+   "note": "Properly equipped Wagoneer. Motor1 reported 9,860 lb for the 2023 Grand Wagoneer."
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.0 in (203 mm) normal · 10.0 in (254 mm) Off-Road 2",
+   "note": "Quadra-Lift air suspension"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "25° / 24° / 22°",
+   "note": "At maximum air-suspension height"
+  },
+  {
+   "k": "Wading depth",
+   "v": "24 in (610 mm)"
+  },
+  {
+   "k": "Crawl ratio",
+   "v": "48:1",
+   "note": "Advanced All-Terrain Group, 2.64:1 low range, 3.92 axle"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 16 city / 26 hwy / 19 combined",
+   "note": "2023 Wagoneer 4x4, 420-hp Hurricane, per MotorTrend. MotorTrend averaged 16.4 mpg over 20,672 miles."
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,960–6,420 lb (2,703–2,912 kg) · L: 6,068–6,704 lb (2,752–3,041 kg)"
+  },
+  {
+   "k": "Wheelbase / length",
+   "v": "123.0 / 214.7 in · L: 130.0 / 226.7 in"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still in production, so used prices follow new-truck pricing more than enthusiast demand. The 2026 relaunch cut the starting price below the old Wagoneer's.",
+  "ranges": [
+   {
+    "cond": "New 2026 Grand Wagoneer (starting prices as reported)",
+    "range": "$64,740 (RWD base) to about $96k–99k (Summit Obsidian)"
+   },
+   {
+    "cond": "Launch-era 2022 Grand Wagoneer, top trim new",
+    "range": "Above $111,000 (CNBC, 2021)"
+   },
+   {
+    "cond": "Bring a Trailer (one sale so far)",
+    "range": "$78,500: 2025 Grand Wagoneer L Series III, January 2026"
+   }
+  ],
+  "note": "Car and Driver gives $95,985 for the Summit Obsidian; MotorTrend gives $98,985. Bring a Trailer's WS page shows only one completed sale, so we haven't set condition-based used ranges. Check AutoTempest for current asking prices."
+ },
+ "docs": [
+  {
+   "name": "Stellantis TechAuthority",
+   "url": "https://www.techauthority.com/",
+   "note": "Official Stellantis service information, wiring diagrams and TSBs, by subscription"
+  },
+  {
+   "name": "2022 Wagoneer and Grand Wagoneer launch release (Stellantis media)",
+   "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=22577&mid=1",
+   "note": "Factory engine outputs, 4x4 systems, air-suspension heights, angles and towing"
+  },
+  {
+   "name": "TSB 02-001-22 Rev. A, Air Suspension Inoperable (NHTSA copy)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10228041-9999.pdf",
+   "note": "FCA's own inspection list for early Quadra-Lift faults"
+  },
+  {
+   "name": "NHTSA recall lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Check open recalls by VIN"
+  }
+ ],
+ "production": {
+  "intro": "Built at Warren Truck Assembly in Michigan, which FCA retooled with an investment that grew from $1 billion to $1.5 billion.",
+  "items": [
+   {
+    "k": "US sales 2022",
+    "v": "47,995 Wagoneer and Grand Wagoneer combined"
+   },
+   {
+    "k": "US sales 2024",
+    "v": "Wagoneer up 48% and Grand Wagoneer up 13% on 2023 (Stellantis did not give unit totals in the release)"
+   },
+   {
+    "k": "Plant",
+    "v": "Warren Truck Assembly, on the same line as the Ram 1500 Classic at launch"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Grand Wagoneer Obsidian",
+    "years": "2022–",
+    "note": "Launched summer 2021: 22-inch black wheels, black grille and badging, body-color flares, McIntosh 1,375-watt audio"
+   },
+   {
+    "name": "Grand Wagoneer Upland",
+    "years": "2026–",
+    "note": "Off-road-themed trim with tow hooks, 20-inch wheels, a roof rack, air suspension and skid plates. Short wheelbase only."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "WagoneerForums.org",
+   "url": "https://wagoneerforums.org/",
+   "note": "WS owners' forum run by Mopar Insiders since 2020"
+  },
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail event in Moab, Utah. 2027 dates: March 20–28."
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Beach",
+   "url": "https://www.jeepbeach.com/",
+   "note": "Nonprofit Jeep-only event in Daytona Beach, Florida; 2027 dates April 16–25."
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA recalls API — Jeep Wagoneer, Grand Wagoneer, Wagoneer L, Grand Wagoneer L, 2022–2026",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WAGONEER&modelYear=2022"
+  },
+  {
+   "name": "FCA US TSB 02-001-22 Rev. A — Air Suspension Inoperable, 2022 WS (via NHTSA)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10228041-9999.pdf"
+  },
+  {
+   "name": "CarComplaints.com — 2022 Jeep Wagoneer TSB list",
+   "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/tsbs/"
+  },
+  {
+   "name": "CarComplaints.com — 2022 Jeep Wagoneer NHTSA investigations",
+   "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/investigations/"
+  },
+  {
+   "name": "Stellantis North America — All-new 2022 Wagoneer and Grand Wagoneer (launch release, March 11, 2021)",
+   "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=22577&mid=1"
+  },
+  {
+   "name": "MotorTrend — Jeep Wagoneer and Grand Wagoneer 4x4 systems explained (March 11, 2021)",
+   "url": "https://www.motortrend.com/reviews/jeep-wagoneer-4wd"
+  },
+  {
+   "name": "MotorTrend — 2023 Jeep Wagoneer yearlong review verdict (January 31, 2025)",
+   "url": "https://www.motortrend.com/reviews/2023-jeep-wagoneer-yearlong-review-verdict"
+  },
+  {
+   "name": "Motor1 — Jeep drops the V8 from Wagoneer, Grand Wagoneer for 2024 (November 16, 2023)",
+   "url": "https://www.motor1.com/news/696670/jeep-grand-wagoneer-v8-dropped/"
+  },
+  {
+   "name": "Jalopnik — Jeep's killing the Wagoneer sub-brand (February 29, 2024)",
+   "url": "https://jalopnik.com/whats-next-for-jeeps-wagoneer-premium-ambitions-1851294531"
+  },
+  {
+   "name": "MotorTrend — 2026 Jeep Grand Wagoneer first look (October 14, 2025)",
+   "url": "https://www.motortrend.com/news/2026-jeep-grand-wagoneer-first-look-review"
+  },
+  {
+   "name": "Car and Driver — 2026 Jeep Grand Wagoneer revealed (October 14, 2025)",
+   "url": "https://www.caranddriver.com/news/a69020106/2026-jeep-grand-wagoneer-revealed/"
+  },
+  {
+   "name": "CNBC — Jeep unveils long-awaited Grand Wagoneer SUV topping $111,000 (March 11, 2021)",
+   "url": "https://www.cnbc.com/2021/03/11/jeep-unveils-long-awaited-grand-wagoneer-suv-topping-111000.html"
+  },
+  {
+   "name": "Stellantis — FCA US fourth-quarter and full-year 2022 sales",
+   "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=24538&mid=1"
+  },
+  {
+   "name": "Stellantis — FCA US fourth-quarter and full-year 2024 sales",
+   "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=26525&mid=1"
+  },
+  {
+   "name": "Wikipedia — Jeep Grand Wagoneer (WS)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Wagoneer_(WS)"
+  },
+  {
+   "name": "AMSOIL — 2022 Jeep Wagoneer 5.7L (EZL) lubricant lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2022/jeep/wagoneer/5-7l-8-cyl-engine-code-t-ezl-2/"
+  },
+  {
+   "name": "AMSOIL — 2022 Jeep Grand Wagoneer 6.4L (ESG) lubricant lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2022/jeep/grand-wagoneer/6-4l-8-cyl-engine-code-j-esg-j/"
+  },
+  {
+   "name": "AMSOIL — 2024 Jeep Wagoneer 3.0L Hurricane (EFH) lubricant lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2024/jeep/wagoneer/3-0l-6-cyl-engine-code-p-efh-4-turbo/"
+  },
+  {
+   "name": "AMSOIL — 2023 Jeep Grand Wagoneer 3.0L Hurricane HO (EFC) lubricant lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2023/jeep/grand-wagoneer/3-0l-6-cyl-engine-code-p-efc-p-turbo/"
+  },
+  {
+   "name": "Limitless Tire — 2024 Jeep Wagoneer wheel and tire sizes",
+   "url": "https://limitlesstire.com/vehicles/jeep/wagoneer/2024/"
+  },
+  {
+   "name": "Wheel-Size.com — 2022 Jeep Grand Wagoneer fitment",
+   "url": "https://wheel-size.com/size/jeep/grand-wagoneer/2022/"
+  },
+  {
+   "name": "Bring a Trailer — Jeep WS Grand Wagoneer",
+   "url": "https://bringatrailer.com/jeep/ws-grand-wagoneer/"
+  },
+  {
+   "name": "Mopar Insiders — We are launching an all-new forum dedicated to the Wagoneer (September 9, 2020)",
+   "url": "https://moparinsiders.com/we-are-launching-an-all-new-forum-dedicated-to-the-wagoneer"
+  },
+  {
+   "name": "IIHS — Jeep Wagoneer excels as other large SUVs falter",
+   "url": "https://www.iihs.org/news/detail/jeep-wagoneer-excels-as-other-large-suvs-falter-in-iihs-tests"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  },
+  {
+   "name": "Jeep Beach",
+   "url": "https://www.jeepbeach.com/"
+  }
+ ]
+}
