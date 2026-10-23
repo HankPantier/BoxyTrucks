@@ -1,0 +1,360 @@
+{
+ "fitment": {
+  "stock": [
+   "275/50R20 on 9.5 × 20 AMG wheels (2013–2018 US)",
+   "21-inch wheels with the Edition 463 package"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5 bolts",
+   "lug_torque": "96 lb-ft (130 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "275/55R20 (≈32 in)",
+    "note": "Run by Expedition Portal G 63 owners; one Expedition Portal member says 18-inch wheels will not clear the G 63's front brakes, so test-fit smaller wheels first. Recode the tyre size"
+   },
+   {
+    "lift": "2.5 in (60 mm)",
+    "size": "33 in",
+    "note": "Eurowise's recommended maximum for its 60 mm W463 kit; light wheel-well trimming possible"
+   },
+   {
+    "lift": "4 in (100 mm)",
+    "size": "35 in",
+    "note": "Eurowise's recommendation for 100 mm of lift on a W463; above 4 in, extended brake lines are required"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering coupling may be under-tightened",
+    "years": "2013–2016",
+    "ref": "NHTSA 17V250",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V250000",
+    "summary": "Insufficiently tightened steering coupling can wear the steering connection; 10,832 G 550, G 63 and G 65s"
+   },
+   {
+    "title": "Inner door-release cable may break",
+    "years": "2016",
+    "ref": "NHTSA 17V178",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V178000",
+    "summary": "Cable can snap if the door is hard to open, e.g. after a crash (FMVSS 206)"
+   },
+   {
+    "title": "ESP fault with DISTRONIC PLUS engaged",
+    "years": "2016–2017",
+    "ref": "NHTSA 17V713",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V713000",
+    "summary": "An ESP malfunction while DISTRONIC PLUS is on may stop the engine reducing power; 8,043 trucks"
+   },
+   {
+    "title": "eCall date/time software fault",
+    "years": "2013–2017",
+    "ref": "NHTSA 19V787",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V787000",
+    "summary": "Emergency-call clock error can relay an inaccurate vehicle location"
+   },
+   {
+    "title": "Communication-module software (eCall location)",
+    "years": "2017–2018",
+    "ref": "NHTSA 21V058",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V058000",
+    "summary": "Communication module may fail to send the correct vehicle location in an emergency call"
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2012",
+   "change": "G 63 AMG and G 65 AMG revealed in April with the 2012 interior update; M157 5.5 biturbo V8 (544 PS, 760 Nm) and 7G-TRONIC replace the G 55's supercharged V8 and five-speed",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "US launch (MY2013, on sale August 2012) at $134,300; EPA 12/14 mpg",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "G 63 AMG 6×6 goes into limited production at Magna Steyr in Graz",
+   "flag": "note"
+  },
+  {
+   "year": "2015",
+   "change": "Last pre-facelift model year; cheapest entry point on today's market",
+   "flag": "buy"
+  },
+  {
+   "year": "2016",
+   "change": "Renamed Mercedes-AMG G 63; 571 PS (563 hp), new shock absorbers, revised ASR/ABS and instruments; Edition 463 and colour packages",
+   "flag": "buy"
+  },
+  {
+   "year": "2016",
+   "change": "Recalls 17V178 (door cable) and 17V713 (ESP with DISTRONIC PLUS) cover 2016 trucks; 17V250 (steering coupling) covers 2013–2016",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "Last model year of this body; EPA highway rating rises to 15 mpg",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "Replaced by the second-generation G 63 with the M177 4.0 V8 and independent front suspension",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Dressing up G 550s as AMGs is common, and so are aftermarket 'G 63 conversions'. The VIN and the engine tell you what left Graz.",
+  "items": [
+   {
+    "head": "VIN characters 4–8",
+    "body": "US G 63s sold on Bring a Trailer read WDCYC7DF… (2013–2016 examples) and WDCYC7DH… (2018). A 2011 G 55 reads WDCYC7BF… and a same-era G 550 WDCYC3HF…."
+   },
+   {
+    "head": "Model year (10th character)",
+    "body": "D = 2013, E = 2014, F = 2015, G = 2016, H = 2017, J = 2018."
+   },
+   {
+    "head": "Engine",
+    "body": "A G 63 has the M157 5.5-litre biturbo V8: two turbochargers and AMG engine covers, and no supercharger on top. A G 550 has either the naturally aspirated M273 (to 2015) or the 4.0-litre M176."
+   },
+   {
+    "head": "Brakes and wheels",
+    "body": "Factory G 63s have six-piston front calipers from the ML 63 on 14.8-inch discs, and 20-inch AMG wheels."
+   },
+   {
+    "head": "Power by year",
+    "body": "2013–2015 trucks are 544 PS; 2016–2018 trucks, badged Mercedes-AMG G 63, are 571 PS (563 hp)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg)",
+   "note": "KBB, 2013 G 63"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "36° / 27° / 21°",
+   "note": "KBB and MotorTrend"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "≈8 in (≈210 mm)",
+   "note": "MotorTrend"
+  },
+  {
+   "k": "Wading depth",
+   "v": "24 in (600 mm)",
+   "note": "MotorTrend; Mercedes quotes 600 mm for the production G"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 14 hwy / 13 comb (2013–2017); 12 / 15 / 13 (2018)",
+   "note": "premium fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "≈5,876 lb (2,665 kg)",
+   "note": "MotorTrend test truck; KBB says 'well over 5,600 pounds'"
+  },
+  {
+   "k": "0–60 mph",
+   "v": "5.3 s (2013, Mercedes)",
+   "note": "0–100 km/h 5.4 s from 2016"
+  },
+  {
+   "k": "Top speed",
+   "v": "130 mph (210 km/h), limited"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Values are flat to soft. The truck's age and the M157's reputation keep prices well below a second-generation G 63, and mileage and service history set the price more than the year does.",
+  "ranges": [
+   {
+    "cond": "High mileage / needs work",
+    "range": "$31k–45k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$48k–68k"
+   },
+   {
+    "cond": "Excellent / low miles, 2016–2018",
+    "range": "$75k–99k"
+   }
+  ],
+  "note": "Based on 57 Bring a Trailer sales of stock W463 G 63s from January 2025 to October 2026 (median $65,500; 2013–15 median $61,000, 2016–18 median $76,750). 6×6, Brabus, armoured and converted trucks are excluded."
+ },
+ "docs": [
+  {
+   "name": "Mercedes-Benz USA — owner's manuals",
+   "url": "https://www.mbusa.com/en/owners/manuals",
+   "note": "Official owner's manual library from Mercedes-Benz USA"
+  },
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "production": {
+  "intro": "Mercedes doesn't publish separate G 63 production totals. MotorTrend reported in 2013 that about half of US G-Class sales that year were G 63s and that it had become the best-selling AMG in the US.",
+  "items": [
+   {
+    "k": "US model years",
+    "v": "2013–2018"
+   },
+   {
+    "k": "Built",
+    "v": "Magna Steyr, Graz, Austria"
+   },
+   {
+    "k": "US launch price (2013)",
+    "v": "$134,300"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Edition 463",
+    "years": "2016",
+    "note": "G 63 / G 65 package with exclusive 21-inch wheels, stainless underguard, black side-strip inserts, two-tone dashboard and designo leather"
+   },
+   {
+    "name": "Colour package",
+    "years": "2016",
+    "note": "Solar beam, tomato red, alien green, sunset beam and galactic beam paint with black exterior trim"
+   }
+  ],
+  "paint": "Colour-package paints from 2016: solar beam, tomato red, alien green, sunset beam and galactic beam."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl near Graz, Austria, where the G is built and tested"
+  },
+  {
+   "kind": "event",
+   "name": "Overland Expo",
+   "url": "https://www.overlandexpo.com/",
+   "note": "Multi-brand overland show with training and trail sessions"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recalls API (campaign lookup)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=17V250000"
+  },
+  {
+   "name": "Limitless Tire — 2015 Mercedes-Benz G-Class wheel & tire sizes, bolt pattern",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2015/"
+  },
+  {
+   "name": "TireSize.com — 2015/2016/2018 Mercedes-Benz G63 tire size",
+   "url": "https://tiresize.com/tires/Mercedes-Benz/G63/2016/"
+  },
+  {
+   "name": "Expedition Portal — 2017 G550 tire options thread (G 63 posts)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2207603"
+  },
+  {
+   "name": "Expedition Portal — W463 tire fitment posts",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Eurowise — W463 2.5-inch (60 mm) lift kit",
+   "url": "https://shop.eurowise.com/products/w463liftkit60mm"
+  },
+  {
+   "name": "Eurowise — W463 2.5–5.5-inch lift kits (60/100 mm)",
+   "url": "https://shop.eurowise.com/products/w463100mm"
+  },
+  {
+   "name": "Autoblog — Mercedes reveals G63 and G65 AMG ahead of Beijing",
+   "url": "https://www.autoblog.com/2012/04/19/mercedes-reveals-g63-and-g65-amg-ahead-of-beijing/"
+  },
+  {
+   "name": "AutoGuide — Five-Point Inspection: 2013 Mercedes-Benz G63 AMG",
+   "url": "https://www.autoguide.com/auto-news/2012/11/2013-mercedes-benz-g63-amg-review.html"
+  },
+  {
+   "name": "Kelley Blue Book — 10 things to know about the 2013 Mercedes-Benz G63 AMG",
+   "url": "https://www.kbb.com/car-news/all-the-latest/10-things-to-know-about-the-2013-mercedes_benz-g63-amg/2000008914"
+  },
+  {
+   "name": "MotorTrend — 2014 Mercedes-Benz G63 AMG 6x6 First Drive",
+   "url": "https://www.motortrend.com/reviews/2014-mercedes-benz-g63-amg-6x6-first-drive"
+  },
+  {
+   "name": "New Atlas — Mercedes G 63 AMG 6x6 (production G wading depth)",
+   "url": "https://newatlas.com/mercedes-g-63-amg-6x6/26675/"
+  },
+  {
+   "name": "Carscoops — 2016 Mercedes-Benz G-Class gets new engines",
+   "url": "https://www.carscoops.com/2015/05/2016-mercedes-benz-g-class-gets-new/"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class AMG 1990–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  },
+  {
+   "name": "Bring a Trailer — 2013 G63 AMG (VIN)",
+   "url": "https://bringatrailer.com/listing/2013-mercedes-benz-g63-amg-39/"
+  },
+  {
+   "name": "Bring a Trailer — 2016 G63 (VIN)",
+   "url": "https://bringatrailer.com/listing/2016-mercedes-amg-g63-39/"
+  },
+  {
+   "name": "Bring a Trailer — 2018 G63 (VIN)",
+   "url": "https://bringatrailer.com/listing/2018-mercedes-amg-g63-26/"
+  },
+  {
+   "name": "Mercedes-Benz USA — owner's manuals",
+   "url": "https://www.mbusa.com/en/owners/manuals"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  }
+ ]
+}

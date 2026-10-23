@@ -1,0 +1,281 @@
+{
+ "fitment": {
+  "stock": [
+   "37-inch tyres on 18-inch two-piece beadlock wheels (37×12.50R18 seen on Bring a Trailer trucks)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "37×12.50R18",
+    "note": "Factory size; portal axles already provide 460 mm of clearance"
+   },
+   {
+    "lift": "KW coilovers (aftermarket)",
+    "size": "38×13.50R18",
+    "note": "One Bring a Trailer truck runs 38×13.50R18 Toyo Open Country M/Ts on LeTech-developed KW coilovers"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "UK",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2007",
+   "change": "Mercedes-Benz becomes preferred tenderer for Australia's Land 121 Overlander project, which includes a 6×6 G-Wagen",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "G 63 AMG 6×6 shown and driven by press in Dubai; limited production begins at Magna Steyr, Graz",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "Customer deliveries; MotorTrend reports nearly 60 built by late 2013",
+   "flag": "note"
+  },
+  {
+   "year": "2015",
+   "change": "Declared sold out in February; last customer truck leaves Graz in May; Jurassic World appearance",
+   "flag": "note"
+  },
+  {
+   "year": "2015",
+   "change": "The G 500 4×4² follows, using a shortened 6×6 chassis with portal axles",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "8k-mile Brabus B63S-700 6×6 sells for $1.17 million on Bring a Trailer",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Aftermarket six-wheel conversions of ordinary W463s exist and have sold publicly, so prove a truck is a factory 6×6 before paying factory-6×6 money.",
+  "items": [
+   {
+    "head": "Chassis number",
+    "body": "Factory trucks on Bring a Trailer carry chassis numbers such as WDB4632721X…. Ask for Mercedes build paperwork, and treat a standard G 550/G 63/G 65 VIN on a six-wheeler as a conversion."
+   },
+   {
+    "head": "Overhead console",
+    "body": "Factory trucks have tyre-pressure switches, twin air-pressure gauges and an auxiliary fuel gauge in the overhead console."
+   },
+   {
+    "head": "Running gear",
+    "body": "Three portal axles, 18-inch two-piece beadlocks, carbon-fibre arch extensions, a stainless roll bar in the bed and compressor tanks in the rear arches."
+   },
+   {
+    "head": "Lockers",
+    "body": "Three locker switches that operate five differential locks in stages; MotorTrend notes they engage even in high range."
+   },
+   {
+    "head": "US import paperwork",
+    "body": "US trucks should carry an EPA conversion label (G&K Automotive Conversion) and an NHTSA Show or Display exemption letter."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Ground clearance",
+   "v": "460 mm (18.1 in)",
+   "note": "Mercedes"
+  },
+  {
+   "k": "Wading depth",
+   "v": "1,000 mm (39.4 in)",
+   "note": "Mercedes"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "50° / 45°",
+   "note": "Mercedes display board and MotorTrend; Autocar quoted 52° / 54°"
+  },
+  {
+   "k": "Breakover",
+   "v": "22°",
+   "note": "Autocar"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "96 L + 63 L auxiliary (159 L / 42 US gal)",
+   "note": "New Atlas; MotorTrend says 38.6 gal total"
+  },
+  {
+   "k": "Curb weight",
+   "v": "≈3,850 kg (8,488 lb)",
+   "note": "Mercedes; other sources quote 3,775–4,083 kg"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "15.6 L/100 km (≈15 mpg US)",
+   "note": "European cycle, per Wikipedia"
+  },
+  {
+   "k": "Top speed",
+   "v": "160 km/h (100 mph), limited"
+  },
+  {
+   "k": "Length / width / height",
+   "v": "5,875 / 2,110 / 2,210 mm",
+   "note": "Autocar"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "These are collector prices with a small market. Brabus trucks and very low mileage add the most, and the restrictions on US Show or Display trucks hold some bids down.",
+  "ranges": [
+   {
+    "cond": "Driver / higher miles",
+    "range": "$500k–620k"
+   },
+   {
+    "cond": "Low miles or tuned (e.g. Weistec)",
+    "range": "$750k–900k"
+   },
+   {
+    "cond": "Brabus B63S-700 6×6",
+    "range": "$900k–1.2M"
+   }
+  ],
+  "note": "Based on six Bring a Trailer sales from 2020 to 2026: $901,337 (2020), $1,170,000 (Brabus, 2022), $778,000 (Weistec, 2024), $616,000 (2025), $915,000 (Brabus, January 2026) and $500,000 (May 2026). Bids of $803,633–831,000 did not meet reserve in 2023 and 2026."
+ },
+ "docs": [
+  {
+   "name": "STAR TekInfo (WIS service information, EPC parts catalogue)",
+   "url": "https://www.startekinfo.com/",
+   "note": "Mercedes-Benz USA's paid, subscription-based service-information site for independent shops and owners"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/",
+   "note": "Mercedes-Benz's official portal for repair and maintenance information outside the US (paid access)"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Mercedes never sold the G 63 AMG 6×6 in the United States, and MotorTrend said so at launch. Trucks in the US were imported and modified for EPA compliance by G&K Automotive Conversion of Santa Ana, California, and run under NHTSA's Show or Display exemption.",
+   "Bring a Trailer listings spell out the conditions: NHTSA must approve every change of ownership, the buyer must apply for a new Show or Display approval with current photos, mileage is limited to 2,500 a year, and the truck must be available for NHTSA inspection until it is at least 25 years old. The earliest 2013 trucks reach 25 years in 2038."
+  ]
+ },
+ "production": {
+  "intro": "A limited series built to order after the show car drew more customer interest than Mercedes expected.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "Slightly more than 100 (2013–2015)"
+   },
+   {
+    "k": "Built",
+    "v": "Magna Steyr, Graz, Austria"
+   },
+   {
+    "k": "Sold out",
+    "v": "February 2015; last delivery May 2015"
+   },
+   {
+    "k": "UK price new",
+    "v": "£370,000"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Right-hand-drive conversions (South Africa)",
+    "years": "c. 2014–2015",
+    "note": "Ten trucks converted to RHD for a South African buyer, per Wikipedia citing CAR magazine"
+   },
+   {
+    "name": "Brabus B63S-700 6×6",
+    "years": "2014–2015",
+    "note": "Brabus-modified factory 6×6s; the most valuable at auction"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Mercedes-Benz Club of America (MBCA)",
+   "url": "https://www.mbca.org/",
+   "note": "US owners' club for all Mercedes models, with regional sections and events"
+  },
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Mercedes-Benz's off-road driving programme on the Schöckl near Graz, Austria, where the G is built and tested"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mercedes-AMG G 63 6x6",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-AMG_G_63_6x6"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class (military operators)",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Mercedes-Benz G-Class — Way ahead of the others",
+   "url": "https://g-class.mercedes-benz.com/en/stories/spotlight-g/Way-ahead-of-the-others.html"
+  },
+  {
+   "name": "New Atlas — Mercedes G 63 AMG 6x6",
+   "url": "https://newatlas.com/mercedes-g-63-amg-6x6/26675/"
+  },
+  {
+   "name": "Autocar — Mercedes-AMG G 63 6x6 2013–2015 review",
+   "url": "https://www.autocar.co.uk/car-review/mercedes-amg/g-63-6x6-2013-2015"
+  },
+  {
+   "name": "MotorTrend — 2014 Mercedes-Benz G63 AMG 6x6 First Drive",
+   "url": "https://www.motortrend.com/reviews/2014-mercedes-benz-g63-amg-6x6-first-drive"
+  },
+  {
+   "name": "Autoblog — Mercedes G63 AMG 6x6 is sold out",
+   "url": "https://www.autoblog.com/2015/02/19/mercedes-g63-amg-6x6-is-sold-out/"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class AMG 1990–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  },
+  {
+   "name": "Bring a Trailer — 2014 G63 AMG 6×6 (May 2026)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g63-amg-43/"
+  },
+  {
+   "name": "Bring a Trailer — 2014 G63 AMG 6×6 (June 2025)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g63-amg-30/"
+  },
+  {
+   "name": "Bring a Trailer — 2014 G63 AMG 6×6 Weistec (June 2024)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g63-amg-13/"
+  },
+  {
+   "name": "Bring a Trailer — 8k-mile 2014 G63 AMG 6×6 Brabus B63S-700 (May 2022)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g63-amg-6x6-3/"
+  },
+  {
+   "name": "Bring a Trailer — 2014 G63 AMG 6×6 Brabus B63S-700 (January 2026)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g63-amg-36/"
+  },
+  {
+   "name": "Bring a Trailer — 2014 G63 AMG 6×6 (November 2020)",
+   "url": "https://bringatrailer.com/listing/2014-mercedes-benz-g63-amg-6x6/"
+  },
+  {
+   "name": "Mercedes-Benz USA — STAR TekInfo",
+   "url": "https://www.startekinfo.com/"
+  },
+  {
+   "name": "Mercedes-Benz — B2B Connect",
+   "url": "https://b2bconnect.mercedes-benz.com/"
+  },
+  {
+   "name": "g-class-experience.com — G-Class Experience",
+   "url": "https://g-class-experience.com/en/"
+  }
+ ]
+}
