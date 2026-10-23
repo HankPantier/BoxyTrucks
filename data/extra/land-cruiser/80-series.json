@@ -1,0 +1,301 @@
+{
+ "fitment": {
+  "stock": [
+   "275/70R16 on 16-inch wheels (1993–97)",
+   "15x7 alloys (1991–92, unique to those years)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "≈76 lb-ft (103 N·m) alloy · ≈116 lb-ft (157 N·m) steel",
+   "note": "Lug nuts changed from conical to washer type in 1995, so match nuts to the wheel. Torque figures are Rough Trax's Australian data (it says to confirm with Toyota); US owners quote about 75 lb-ft for alloys from the 1995-on owner's manual."
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R16 (≈33 in)",
+    "note": "IH8MUD's safe answer. Owners also report 305/70R16 and 295/75R16 fitting, depending on wheel width and offset; 35s rub badly on a stock truck."
+   },
+   {
+    "lift": "2 in (OME)",
+    "size": "35 in, e.g. 315/75R16",
+    "note": "Christo Slee: 35s work on a 2-inch Old Man Emu lift but will probably rub at full flex unless you lower the bump stops. Re-gear (4.56/4.88/5.29) is advised over the stock 4.11s."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Reese Class II trailer hitch (aftermarket equipment)",
+    "years": "1991–1993",
+    "ref": "NHTSA 93E023000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93E023000",
+    "summary": "The receiver weld on Reese hitch part no. 06070 can break and let a trailer separate; the remedy was a replacement hitch. NHTSA's database shows no Toyota-issued vehicle recalls for 1991–97 US Land Cruisers."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1990",
+   "change": "80 Series launched (shown at the October 1989 Tokyo Motor Show); full-time 4WD and all-coil suspension for North America and Europe",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "First US model year (FJ80): 3F-E 4.0 L carried over from the FJ62, A440F auto, front disc / rear drum brakes, semi-float rear axle, no ABS, airbags or factory lockers; center-diff lock switch standard",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "FZJ80 arrives: 4.5 L 24-valve 1FZ-FE, A442F auto, 16-inch wheels; ABS trucks get a full-floating rear axle with discs and a viscous-coupling transfer case; factory front and rear lockers become optional; center-diff switch dropped (wiring stays); A/C switches from R12 to R134a mid-year",
+   "flag": "buy"
+  },
+  {
+   "year": "1994",
+   "change": "Thicker front drive flanges from April 1994 build (43421-60040 replaces 43421-60022); last year of the TOYOTA-lettered grille",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "Redesigned dash with dual airbags, new Toyota oval logo, mass-air-flow emissions and voluntary OBD-II compatibility, A343F automatic (some '95s kept the A442F), washer-type lug nuts",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "Fully OBD-II; ABS and airbags standard; Lexus LX 450 twin launched; in-line catalytic converters",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "Final US year: 40th Anniversary Limited Edition (4,744 sold) and Collector's Edition; last year of the electric front locker; revised rear sway-bar brackets and aluminum radiator",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Lockers, engine and build date change what an 80 is worth, and Lexus twins, re-badged imports and late Venezuelan builds muddy the water. Check the hardware, not the listing.",
+  "items": [
+   {
+    "head": "FJ80 vs FZJ80",
+    "body": "1991–92 FJ80s have the 4.0 L 3F-E pushrod six and 15-inch wheels; 1993–97 FZJ80s have the 4.5 L DOHC 1FZ-FE and 16-inch wheels. A center-diff lock switch on the dash is standard on 1991–92 trucks only."
+   },
+   {
+    "head": "Factory lockers",
+    "body": "Optional 1993–97 (Toyota option code K294). Locked trucks have the front/rear locker rotary switch on the dash (switch 84725-60020). Test them: engage in low range on a loose surface and make sure the dash lights and the axle respond."
+   },
+   {
+    "head": "Transmission and build date",
+    "body": "The transmission type (A442F or A343F on 1995 trucks) is printed on the label in the driver's door jamb. The A/C changed from R12 to R134a around VIN JT3DJ81xxxxx38947; R12 trucks have the dryer in front of the battery, R134a trucks behind the bumper."
+   },
+   {
+    "head": "Body-panel VIN stickers",
+    "body": "Late 80s carry VIN stickers on most body panels. Missing stickers, overspray or filler on a panel point to accident repair."
+   },
+   {
+    "head": "Special editions and LX 450",
+    "body": "The 1997 40th Anniversary has a serialized console badge, two-tone leather, black-chrome badges and sage or green paint. The LX 450 (1996–97) adds body cladding, softer suspension and a center-console subwoofer on the same FZJ80 running gear."
+   },
+   {
+    "head": "Chassis codes",
+    "body": "Market codes add a suffix (for example FZJ80R); R means right-hand drive outside Japan. HDJ80 and HZJ80 diesels were never sold new in the US."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,270 kg)",
+   "note": "KBB maximum for 1997; don't tow from the four holes in the rear crossmember, which aren't rated for towing in the US"
+  },
+  {
+   "k": "Payload",
+   "v": "1,719 lb (780 kg)",
+   "note": "1997"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "25.1 US gal (95 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "10.8 in (274 mm)",
+   "note": "1997"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "12 city / 14 hwy mpg",
+   "note": "KBB, 1997"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,751 lb (2,155 kg)",
+   "note": "1997 US; GVWR 6,470 lb"
+  },
+  {
+   "k": "Turning circle",
+   "v": "40.4 ft (12.3 m)",
+   "note": "turning diameter, 1997"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Clean 1993–97 FZJ80s with lockers have become collector trucks, while tired FJ80s and high-mile drivers are still cheap enough to wheel.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–13k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$18k–34k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$45k–90k+"
+   }
+  ],
+  "note": "Based on 250 Bring a Trailer sales from January 2025 to October 2026 (median about $25,500). 1991–92 FJ80s sold for a median of about $15,750. 40th Anniversary and Collector's Edition trucks sold for a median of about $30,000, with the best near $90,000. An ICON-built 1995 FZJ80 made $124,500 and an imported HDJ80 turbodiesel $75,000."
+ },
+ "docs": [
+  {
+   "name": "Toyota TIS (Technical Information System)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's subscription service portal for most 1990-and-later North American models, including repair manuals, wiring diagrams and service bulletins."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The US only got gasoline 80s (the FJ80 and FZJ80). The HDJ80 turbodiesel and HZJ80 diesel, plus right-hand-drive and part-time-4WD trucks from Japan and Australia, are gray-market. NHTSA lets a vehicle be imported without meeting FMVSS once it is at least 25 years old, measured from its date of manufacture. Japanese 80 Series production ended in 1997, so every Japan-built 80 now qualifies.",
+   "Venezuela kept building 80s until 2007, so check the build date on any late Latin American truck. California is the hard state: Corsetti Cruisers warns that an import without a 50-state-compliant emissions system may be refused registration altogether. Check your state's DMV and emissions rules before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Japanese production ran from 1990 to 1997, with Venezuelan assembly continuing to 2007. The US got the 1991–97 model years.",
+  "items": [
+   {
+    "k": "Production (Japan)",
+    "v": "January 1990 – 1997"
+   },
+   {
+    "k": "Final builds",
+    "v": "Venezuela (Cumaná), 2007"
+   },
+   {
+    "k": "US model years",
+    "v": "1991–1997"
+   },
+   {
+    "k": "Twins",
+    "v": "Lexus LX 450 (US 1996–97)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "40th Anniversary Limited Edition",
+    "years": "1997",
+    "note": "4,744 sold in the US: Antique Sage Pearl or Emerald Green, two-tone leather, serialized console badge, black-pearl badges; many were optioned with lockers"
+   },
+   {
+    "name": "Collector's Edition",
+    "years": "1997",
+    "note": "Badging, embroidered mats, automatic climate control, gray-windowed wheels and gray side moldings; available on many colors"
+   },
+   {
+    "name": "Blue Marlin",
+    "years": "1994",
+    "note": "Australian-market FZJ80 special: 500 built"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US club since 1976 with regional chapters and the bimonthly Toyota Trails magazine; open to every Toyota 4x4 generation"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA's annual week of guided Land Cruiser trail runs in Moab, Utah, held each April"
+  },
+  {
+   "kind": "event",
+   "name": "Land Cruiser Heritage Museum",
+   "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum",
+   "note": "Salt Lake City museum with more than 100 Land Cruisers, aiming to show one of every model; open Monday–Saturday"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+   "name": "Slee Off-Road — 80 Series Newbie Guide",
+   "url": "https://sleeoffroad.com/tech-zone/80-series-newbie-guide/"
+  },
+  {
+   "name": "Kelley Blue Book — 1997 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/1997/specs"
+  },
+  {
+   "name": "Rough Trax 4x4 — Land Cruiser FZJ80 vehicle specifications",
+   "url": "https://roughtrax4x4.com/blog/land-cruiser-fzj80-1992-1998-vehicle-specifications"
+  },
+  {
+   "name": "Koleso.ee — Toyota Land Cruiser 80 Series wheel and tyre data",
+   "url": "https://koleso.ee/en/valuveljed/toyota/land-cruiser/4380/80-series-1989-1997/8958"
+  },
+  {
+   "name": "IH8MUD — Lug nuts too tight (owner's-manual torque)",
+   "url": "https://forum.ih8mud.com/threads/lug-nuts-too-tight.79325"
+  },
+  {
+   "name": "IH8MUD — Biggest tire size",
+   "url": "https://forum.ih8mud.com/threads/biggest-tire-size.95256"
+  },
+  {
+   "name": "IH8MUD — Stock '94 FJ80 biggest tire",
+   "url": "https://forum.ih8mud.com/threads/stock-94-fj80-biggest-tire.691459/"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota Land Cruiser by model year",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=1993"
+  },
+  {
+   "name": "NHTSA — Recall 93E023000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=93E023000"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser 80-Series results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj80-fzj80/"
+  },
+  {
+   "name": "Toyota TIS — Technical Information System",
+   "url": "https://techinfo.toyota.com/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Corsetti Cruisers — The new LENO Law in California",
+   "url": "https://www.corsetticruisers.com/post/the-new-leno-law-in-california"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "IH8MUD — TLCA Cruise Moab 2025",
+   "url": "https://forum.ih8mud.com/threads/cruise-moab-2025.1348289/"
+  },
+  {
+   "name": "Visit Utah — Land Cruiser Heritage Museum",
+   "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
+  }
+ ]
+}
