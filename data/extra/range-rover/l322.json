@@ -1,0 +1,379 @@
+{
+ "fitment": {
+  "stock": [
+   "255/55R19 on 8J x 19 (2011 MY US)",
+   "255/50R20 on 8.5J x 20 (2011 MY US)",
+   "Earlier trucks: 235/65R18, 255/60R18; 21–22 in options"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "center_bore": "72.6 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "103 lb-ft (140 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/60R18 (on 18s) / 275/55R20 (on 20s)",
+    "note": "265/60R18 (about 30.5 in) fits with no problems, including off-road. Owners warn against 265/65R18, which can rub when the air suspension drops. 275/55R20 clears the bump stops but rubs the liners at full lock. Check that a taller spare still fits the well."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front differential coupling / propshaft spline wear",
+    "years": "2003–2005",
+    "ref": "NHTSA 08V-635",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V635000",
+    "summary": "The front diff coupling sleeve and propshaft may be misaligned and wear the splines, causing noise and vibration. Land Rover recalled 19,168 trucks."
+   },
+   {
+    "title": "Transmission parking pawl guide plate",
+    "years": "2006",
+    "ref": "NHTSA 05V-502",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V502000",
+    "summary": "Some trucks were built with an incorrectly made parking-pawl guide plate."
+   },
+   {
+    "title": "Front brake hose rupture",
+    "years": "2006–2012",
+    "ref": "NHTSA 15V-039",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V039000",
+    "summary": "One or both flexible front brake hoses may rupture and lose brake fluid (built 15 April 2005 to 4 September 2012)."
+   },
+   {
+    "title": "Takata passenger airbag inflator (Zone A)",
+    "years": "2007–2011",
+    "ref": "NHTSA 16V-374",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V374000",
+    "summary": "Passenger frontal airbag inflator replacement, prioritised by state of registration."
+   },
+   {
+    "title": "Takata passenger airbag inflator (expansion)",
+    "years": "2009–2012",
+    "ref": "NHTSA 17V-015",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=17V015000",
+    "summary": "Further Takata inflator replacements by zone; see also 18V-011 and 18V-015."
+   },
+   {
+    "title": "Occupant classification system",
+    "years": "2010",
+    "ref": "NHTSA 09V-467",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=09V467000",
+    "summary": "An OCS fault can light the airbag warning and disable the passenger airbag."
+   },
+   {
+    "title": "Windshield installation",
+    "years": "2012",
+    "ref": "NHTSA 12V-485",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12V485000",
+    "summary": "Windshields may have been installed incorrectly at the factory."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2002",
+   "change": "Launched in early 2002 as a 2003 model in North America. First monocoque Range Rover, with four-corner independent air suspension, BMW M62 4.4 V8 (and M57 Td6 diesel elsewhere), and a ZF five-speed auto.",
+   "flag": "note"
+  },
+  {
+   "year": "2003–05",
+   "change": "BMW-engined trucks. The nylon timing-chain guides go brittle, so buy only with receipts or plan to replace them. The 2003–05 front-diff coupling recall also applies.",
+   "flag": "avoid"
+  },
+  {
+   "year": "2006",
+   "change": "Facelift. Jaguar AJ-V8 4.4 (305 PS) and 4.2 supercharged (400 PS) replace the BMW V8, with ZF six-speed autos and a new touchscreen infotainment system.",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Terrain Response, a locking centre diff, an electronic rear diff (standard on Supercharged, optional elsewhere), Brembo brakes and an electronic handbrake. The 3.6 TDV8 replaces the Td6 outside the US, and the switchblade key arrives mid-year.",
+   "flag": "buy"
+  },
+  {
+   "year": "2010",
+   "change": "Facelift. 5.0 V8 (375 PS) and 5.0 supercharged (510 PS), LED-accented headlights, and a 12-in TFT virtual instrument panel. Check that the chain tensioners and guides have been updated.",
+   "flag": "note"
+  },
+  {
+   "year": "2011",
+   "change": "4.4 TDV8 with ZF 8HP70 eight-speed (non-US); reclining rear seats.",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "Final year. The L405 is unveiled at the Paris show.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Over 10 years the L322 changed engines twice and its 4x4 hardware once, and those changes decide what the truck needs and what it's worth.",
+  "items": [
+   {
+    "head": "Engine era",
+    "body": "2003–05 US trucks have BMW's M62 4.4. For 2006–09 it's Jaguar's AJ-V8, as a 4.4 or a 4.2 supercharged. 2010–12 trucks have the 5.0 or 5.0 supercharged. The diesels (Td6, 3.6 TDV8, 4.4 TDV8) were never sold in the US."
+   },
+   {
+    "head": "4x4 hardware",
+    "body": "Before 2007 the truck has a Torsen centre diff and no Terrain Response. From 2007 it has Terrain Response, a locking centre diff and an electronic rear diff (standard on Supercharged, optional on others)."
+   },
+   {
+    "head": "2010 facelift tells",
+    "body": "LED-accented bi-xenon headlights, LED tail lights with a three-bar design, fog lights moved lower in the bumper, and a 12-in TFT virtual instrument panel instead of analogue gauges."
+   },
+   {
+    "head": "Key",
+    "body": "Around January 2007 production the BMW-style key gave way to Land Rover's sealed 'switchblade' key, which recharges from a coil in the ignition switch."
+   },
+   {
+    "head": "Holland & Holland",
+    "body": "Not an official Land Rover limited edition. Overfinch built them from standard trucks, on the 4.4 TDV8 or 5.0 supercharged, with a gun box, a drinks cabinet and the 'Aero 3' body kit."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "750 kg unbraked; 2011 MY GTW 6,700 kg"
+  },
+  {
+   "k": "Payload",
+   "v": "1,345 lb (610 kg)",
+   "note": "GVW 3,200 kg minus 2,590 kg vehicle weight with full tank (2011 MY NAS)"
+  },
+  {
+   "k": "Roof load",
+   "v": "220 lb (100 kg)",
+   "note": "110 lb (50 kg) off-road; includes the Land Rover roof rack"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "26.7 US gal (101 L) usable"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "11.1 in (283 mm)",
+   "note": "minimum, at off-road height"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "29° / 24.2° (standard); 34° / 26.6° (off-road height)",
+   "note": "at curb weight, no tow hitch; 2011 MY"
+  },
+  {
+   "k": "Wading depth",
+   "v": "27.6 in (700 mm)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 19 hwy / 15 combined",
+   "note": "2011 5.0; 2004 BMW 4.4 rated 11/15/12, 2008 4.4 and 4.2 SC 12/18/14"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,710 lb (2,590 kg)",
+   "note": "2011 MY 5.0, including full fuel"
+  },
+  {
+   "k": "Turning circle",
+   "v": "39.4 ft (12 m)",
+   "note": "curb to curb"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "This is where cheap Range Rovers live. Most sell for less than a set of air struts and a timing job together, and only very low-mile, well-documented trucks earn more.",
+  "ranges": [
+   {
+    "cond": "Project / higher mileage",
+    "range": "$7.5k–12.5k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$13k–20k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$22k–26k"
+   }
+  ],
+  "note": "Based on 22 Bring a Trailer sales from late August to October 2026 ($7,500–$45,000, median about $14,600). Sub-50k-mile trucks dominate the top band; one exceptional 2011 HSE at $45,000 was an outlier."
+ },
+ "docs": [
+  {
+   "name": "Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/",
+   "note": "Land Rover's official technical information site, with workshop procedures, wiring and owner guides. Paid access is available, including short passes."
+  },
+  {
+   "name": "Range Rover 2011MY owner guide — technical specifications (NAS)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/157099/PDF/05408f5f-d4c0-4dd6-9723-b41064102494/en_GB",
+   "note": "Factory fluids, capacities, weights, angles and tyre sizes, hosted on TOPIx."
+  },
+  {
+   "name": "Range Rover 2011MY owner guide — technical specifications (EURO, incl. diesels)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/157098/PDF/e985fb4c-a5b6-4831-b641-6e683677bf96/en_GB",
+   "note": "The same factory data for non-US trucks."
+  }
+ ],
+ "production": {
+  "intro": "Built at Solihull from 2001 to 2012. It was developed as the 'L30' under BMW and renamed L322 after Ford bought Land Rover.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "293,494",
+    "note": "Wikipedia infobox figure"
+   }
+  ],
+  "editions": [
+   {
+    "name": "20th Anniversary Edition (North America)",
+    "years": "Late L322",
+    "note": "40 built, all Supercharged, in a special pearl white with 20-in 'Diamond' wheels; one per dealer, allocated by lottery."
+   },
+   {
+    "name": "35th Anniversary Edition (UK)",
+    "years": "Late L322",
+    "note": "30 built in Claret with a two-tone interior, on the 4.2 supercharged."
+   },
+   {
+    "name": "40th Anniversary Autobiography Black",
+    "years": "2010",
+    "note": "700 built in Barolo Black, with a different grille."
+   },
+   {
+    "name": "Autobiography Ultimate Edition",
+    "years": "Run-out",
+    "note": "500 built, with rear-seat iPads, a refrigerator and electric reclining climate-controlled rear seats."
+   },
+   {
+    "name": "Armoured Vogue",
+    "years": "2007",
+    "note": "Land Rover Special Vehicles with Armour Holdings; certified to European B6 ballistic protection, with run-flat tyres."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Range Rover Register (UK)",
+   "url": "https://rrr.co.uk/?p=17",
+   "note": "UK club founded in 1985 that welcomes every Range Rover generation, Classic to current."
+  },
+  {
+   "kind": "club",
+   "name": "Association of North American Rover Clubs (ANARC)",
+   "url": "https://www.anarc.club",
+   "note": "Umbrella group for 24 North American Land Rover clubs, with member-club event listings and trail-leader training."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (Rover Owners of Virginia)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "ROAV's principal event for 30 years: a late-September trail weekend in Virginia."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Land Rover TOPIx — Range Rover 2011MY owner guide, technical specifications (NAS)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/157099/PDF/05408f5f-d4c0-4dd6-9723-b41064102494/en_GB"
+  },
+  {
+   "name": "Land Rover TOPIx — Range Rover 2011MY owner guide, technical specifications (EURO)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/157098/PDF/e985fb4c-a5b6-4831-b641-6e683677bf96/en_GB"
+  },
+  {
+   "name": "Limitless Tire — 2004 Land Rover Range Rover wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/land-rover/range-rover/2004/"
+  },
+  {
+   "name": "Wheel-Sizes.com — Range Rover lug nut size, torque & thread",
+   "url": "https://wheel-sizes.com/lugnuts/land-rover/range-rover/"
+  },
+  {
+   "name": "Wheel-Sizes.com — Range Rover hub bore",
+   "url": "https://wheel-sizes.com/hubbore/land-rover/range-rover/"
+  },
+  {
+   "name": "BolidenForum — 2012 Range Rover (LM) 5.0 V8 technical data",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-2012-range-rover-lm-v8-5-0l/?vd_lang=en"
+  },
+  {
+   "name": "Lucky8 — 20\" Gotham wheels (5x120, fits L322/L405/L460)",
+   "url": "https://lucky8llc.com/products/gotham-wheels"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2003",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2003"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2006",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2006"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2007",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2007"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2010",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2010"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2012",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2012"
+  },
+  {
+   "name": "Wikipedia — Range Rover (L322)",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_(L322)"
+  },
+  {
+   "name": "FuelEconomy.gov — 2004 Range Rover 4.4",
+   "url": "https://www.fueleconomy.gov/feg/noframes/20325.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2008 Range Rover 4.4",
+   "url": "https://www.fueleconomy.gov/feg/noframes/24120.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2008 Range Rover 4.2 Supercharged",
+   "url": "https://www.fueleconomy.gov/feg/noframes/24119.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2011 Range Rover 5.0",
+   "url": "https://www.fueleconomy.gov/feg/noframes/30788.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2011 Range Rover 5.0 Supercharged",
+   "url": "https://www.fueleconomy.gov/feg/noframes/30787.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover L322 (completed auctions)",
+   "url": "https://bringatrailer.com/land-rover/range-rover-l322/"
+  },
+  {
+   "name": "Land Rover TOPIx — official technical information portal",
+   "url": "https://topix.landrover.jlrext.com/"
+  },
+  {
+   "name": "Range Rover Register — About the club",
+   "url": "https://rrr.co.uk/?p=17"
+  },
+  {
+   "name": "Rovers North blog — ANARC news (Association of North American Rover Clubs)",
+   "url": "https://blog.roversnorth.com/2025/10/anarc-news-2/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025 (Rover Owners of Virginia Mid-Atlantic Rally)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  },
+  {
+   "name": "FullFatRR forum (L322 tyre-size discussions cited on the BoxyTrucks L322 page)",
+   "url": "https://fullfatrr.com/forum/"
+  }
+ ]
+}
