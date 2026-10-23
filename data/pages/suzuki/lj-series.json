@@ -1,0 +1,772 @@
+{
+ "slug": "lj-series",
+ "title": "Suzuki Jimny LJ series",
+ "eyebrow": "SUZUKI JIMNY 1ST GEN · LJ10 / LJ20 / LJ50 / LJ80 · 1970–1981",
+ "verdict": "A kei-car 4x4 with a 359 cc two-stroke, built as a work tool for Japanese surveyors and foresters, that accidentally made Suzuki a global car company. It's tiny, crude and slow, and it will go almost anywhere a person can walk.",
+ "codes": [
+  "LJ10 · LJ20 · LJ50 · LJ80",
+  "359–797 CC",
+  "LEAF SPRINGS · SOLID AXLES",
+  "2-SPEED TRANSFER CASE",
+  "1,930 MM WHEELBASE"
+ ],
+ "hero_photo": "lj20-folzalm-hut-track.jpg",
+ "hero_focus": "55% 60%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "In April 1970 Suzuki launched the Jimny LJ10, the first four-wheel-drive kei car to go into series production. It had a ladder frame, leaf springs on rigid axles, 16-inch wheels and a two-speed transfer case, all powered by a 359 cc air-cooled two-stroke twin making 25 PS. Suzuki pitched it as a 'professional's tool' for surveyors, foresters and anyone hauling goods up mountain roads. Nearly 5,000 sold in Japan in the first year, outselling the Mitsubishi Jeep, and the line that runs through the [[suzuki/samurai|Samurai]] to today's [[suzuki/jimny-jb74|Jimny]] started here."
+   ]
+  },
+  {
+   "heading": "A HOPE AND A KEI LOOPHOLE",
+   "paragraphs": [
+    "The design wasn't originally Suzuki's. Hope Motor Company built the HopeStar ON360, a doorless two-seater with a Mitsubishi two-stroke, a Mitsubishi Colt rear axle and Mitsubishi Jeep wheels. It went on sale in April 1968, but Hope sold only a handful, about 15 in Japan and 30 for export by Wikipedia's count, before passing the design to Suzuki that year.",
+    "Suzuki fitted its own engine and a new body, and it put the spare wheel inside the truck to keep the length under the 3-metre kei limit, which made the first Jimny a three-seater. As a kei car it got Japan's tax and registration breaks. Early trucks were largely hand-built by a subcontractor, but demand forced Suzuki to set up its own assembly line, and more than 6,000 sold in 1971."
+   ]
+  },
+  {
+   "heading": "WATER COOLING, THEN THREE CYLINDERS",
+   "paragraphs": [
+    "The May 1972 LJ20 switched to the water-cooled L50 twin with 28 PS, a vertical-slat grille and a steel-roofed van body. Suzuki says it would climb a 35-degree slope, and that it finished the Mexican 1000 race against 3- to 7-litre foreign rivals after 34 hours without an accident. Left-hand drive signalled export plans. In the US, an importer called International Equipment Co. sold it as the Suzuki Brute.",
+    "Kei rules changed in 1976, so the home-market Jimny 55 (SJ10) got the 539 cc LJ50 two-stroke triple. That engine was first used in export trucks from September 1975 with 33 PS, and the export LJ50 went to Australia and, from late 1976, was assembled in New Zealand. Suzuki says the SJ10 could climb 39.7 degrees."
+   ]
+  },
+  {
+   "heading": "LJ80: FOUR STROKES AND THE WORLD",
+   "paragraphs": [
+    "The 1977 Jimny 8, the LJ80 abroad, was Suzuki's first car with a four-stroke engine. Its 797 cc F8A four made 41 PS, which allowed taller gearing, and the track was about 100 mm wider. It was also the first Jimny registered in Japan as a small car rather than a kei car, and only 1,799 sold there, because it was really built for export. In Germany it was meant to be called the Eljot until Disney's Pete's Dragon got in the way. Australia called it the Stockman.",
+    "Metal doors arrived in 1979, along with the LJ81 pickup on a 2,200 mm wheelbase. The LJ80 was also assembled in New Zealand and Indonesia. Suzuki says it made the Suzuki name known around the world as a four-wheel-drive maker. It was replaced in 1981 by the SJ410, the first of the [[suzuki/samurai|SJ and Samurai]] generation."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE FIRST JIMNY'S STORY",
+  "title": "HopeStar ON360: the 4x4 before the Jimny",
+  "paragraphs": [
+   "Hope Motor Company had built three-wheeled trucks before its ON360. The ON360 used a 359 cc Mitsubishi ME24 air-cooled two-stroke with 21 PS, Daihatsu brakes, a Mitsubishi Colt 1000 rear axle and Mitsubishi Jeep wheels. Top speed was 70 km/h, or 30 km/h in four-wheel drive.",
+   "Hope bought 100 engines from Mitsubishi but built very few trucks. When Mitsubishi declined to take over production, Hope sold the design to Suzuki in 1968. Two years later it became the LJ10."
+  ]
+ },
+ "engineering_intro": "Every LJ uses the same basic truck. A ladder frame carries the body, and rigid axles hang on semi-elliptic leaf springs at both ends. A four-speed manual feeds a separate two-speed transfer case, and the brakes are drums all round. What changed was the engine: an air-cooled two-stroke twin, then water cooling, then a two-stroke triple, and finally a four-stroke four.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame",
+   "note": "1,930 mm wheelbase; 2,200 mm on the LJ81 pickup"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Leaf springs, rigid axles",
+   "note": "Semi-elliptic leaves front and rear on every LJ"
+  },
+  {
+   "k": "ENGINES",
+   "v": "359 cc twin → 797 cc four",
+   "note": "FB air-cooled and L50 water-cooled two-stroke twins, LJ50 triple, F8A four-stroke"
+  },
+  {
+   "k": "GEARBOX",
+   "v": "4-speed manual",
+   "note": "Plus a 2-speed transfer case; ratios varied by year"
+  },
+  {
+   "k": "WHEELS",
+   "v": "16-in (LJ10)",
+   "note": "The LJ20 van had 15-in wheels"
+  },
+  {
+   "k": "WEIGHT",
+   "v": "600–715 kg",
+   "note": "LJ10 600 kg to SJ20/LJ80 715 kg (Suzuki figures)"
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1970–1972",
+   "platform": "LJ10",
+   "engine": "FB 359 cc air-cooled 2-stroke I2",
+   "output": "25 PS / 6,000 rpm",
+   "note": "First series-production kei 4x4; spare inside, three seats; 600 kg."
+  },
+  {
+   "years": "1972–1976",
+   "platform": "LJ20",
+   "engine": "L50 359 cc water-cooled 2-stroke I2",
+   "output": "28 PS / 6,000 rpm",
+   "note": "Vertical-slat grille, van body; LJ20F with outside spare for four seats; sold in the US as the Brute."
+  },
+  {
+   "years": "1975–1981",
+   "platform": "LJ50 / SJ10 Jimny 55",
+   "engine": "LJ50 539 cc water-cooled 2-stroke I3",
+   "output": "33 PS export · 26 PS Japan",
+   "note": "Export from September 1975, Japan from June 1976; LJ51P long-wheelbase pickup for some markets."
+  },
+  {
+   "years": "1977–1981",
+   "platform": "LJ80 / SJ20 Jimny 8",
+   "engine": "F8A 797 cc 4-stroke SOHC I4",
+   "output": "41 PS / 5,500 rpm",
+   "note": "First four-stroke Suzuki car; wider track, taller gearing; metal doors and LJ81 pickup from 1979."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Rust in sills, corner posts and floors",
+   "body": "These are 45- to 55-year-old steel bodies. LJ80 specialist LJ80.de stocks repair panels for the corner posts, sills, side panels and footwell floors, which hints at where they rot. Probe those areas and the frame before anything else. On one BaT 1972 LJ20, the battery tray had a patch panel and rust."
+  },
+  {
+   "head": "Which LJ is it really?",
+   "body": "Engines were swapped and bodies updated. The LJ10 has an air-cooled twin and a horizontal-slat grille. The LJ20 has a water-cooled twin and a vertical grille. The LJ50 has a three-cylinder two-stroke, and the LJ80 has a four-stroke four. Count the cylinders and check the cooling system."
+  },
+  {
+   "head": "Two-stroke health",
+   "body": "On LJ10, LJ20 and LJ50 trucks, a two-stroke that won't idle or smokes heavily may need a full rebuild, and engine parts are scarcer than for the LJ80. Ask what has been done and how the engine is lubricated [CONFIRM IN MANUAL]."
+  },
+  {
+   "head": "Leaf springs and bushings",
+   "body": "Sagging springs and perished bushings are normal at this age. LJ80.de still sells complete front and rear LJ80 spring sets, bushing kits and shackle plates, so it's fixable."
+  },
+  {
+   "head": "Brakes are drums all round",
+   "body": "Every LJ has four-wheel drum brakes. Check for seized wheel cylinders, a leaking master cylinder and contaminated shoes before driving one anywhere."
+  },
+  {
+   "head": "Title and import paperwork",
+   "body": "Suzuki didn't sell the LJ in the US itself; LJ20s came in through an independent importer as the Brute. Most US trucks are later imports, like the LJ20 on BaT that was sold new in Australia. Make sure the title and import paperwork match the chassis."
+  },
+  {
+   "head": "Originality affects value",
+   "body": "Original LJ10 and LJ20 trucks are rare. BaT results show restored LJ20s and early Jimnys selling at about $10,000–11,500, ahead of rougher examples."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Sill, corner-post and floor rust repair",
+   "diff": "4 / 5",
+   "time": "≈ Several weekends",
+   "cost": "Parts plus welding",
+   "symptoms": "Bubbling paint at the bottom of the corner posts and sills, holed footwells and soft spots around the body mounts.",
+   "fix": "Remove the seats and trim, then probe everything. Brace the door openings before cutting, cut back to clean metal and weld in the repair panels. Seam-seal and protect the new metal, and renew the frame-to-body rubbers while the body is loose.",
+   "tools": "MIG welder · cut-off wheel · spot-weld drill · clamps · seam sealer",
+   "parts": [
+    {
+     "name": "Sill panel, left (Schwellerblech)",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p17_schwellerblech-links.html"
+    },
+    {
+     "name": "Corner post, left (Eckpfosten)",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p15_eckpfosten-links.html"
+    },
+    {
+     "name": "Footwell floor panel, left",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p566_fussraumbodenblech-links.html"
+    },
+    {
+     "name": "Frame rubber set, 16 pieces",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p1046_gummisatz-rahmen-16-teilig.html"
+    }
+   ]
+  },
+  {
+   "title": "Leaf spring bushings and shackles",
+   "diff": "2 / 5",
+   "time": "≈ 1 day",
+   "cost": "Parts plus labor",
+   "symptoms": "Clunks over bumps, the axle shifting under braking, cracked rubber at the spring eyes and shackles, and wandering steering.",
+   "fix": "Support the frame and take the weight off one spring. Remove the shackle and spring-eye bolts, press out the old bushings and fit new rubber or polyurethane ones. Replace worn shackle plates and bolts, then torque everything with the truck on its wheels.",
+   "tools": "Jack and stands · socket set · bushing press or vise · torque wrench",
+   "parts": [
+    {
+     "name": "Polyurethane spring-eye bushing kit",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p192_pu-buchsen-satz---blattfederaugenkit.html"
+    },
+    {
+     "name": "Shackle plate set",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p208_federgehaengeplatten-satz.html"
+    },
+    {
+     "name": "Front leaf spring set",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p155_blattfeder-satz-vorderachse.html"
+    },
+    {
+     "name": "Rear leaf spring set",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p197_blattfeder-satz-hinterachse.html"
+    }
+   ]
+  },
+  {
+   "title": "Front wheel bearings and hub seals",
+   "diff": "3 / 5",
+   "time": "≈ Half a day",
+   "cost": "Parts plus labor",
+   "symptoms": "Play at the wheel, a rumble that changes with speed, and grease or gear oil on the brake drum.",
+   "fix": "Remove the wheel, hub and drum. Pull the old bearings and seals, clean and inspect the spindle, and pack and fit new bearings with a new hub seal set. Adjust the preload and secure the castle nut with a new split pin.",
+   "tools": "Socket set · bearing packer · seal driver · drift",
+   "parts": [
+    {
+     "name": "Front wheel bearing set, LJ80",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p101_radlagersatz-vorderachse-lj80.html"
+    },
+    {
+     "name": "Front hub seal set",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p899_nachbendichtsatz-vorderachse---neu.html"
+    },
+    {
+     "name": "Castle nut (original)",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p86_kronenmutter-orig-.html"
+    }
+   ]
+  },
+  {
+   "title": "Drum brake overhaul",
+   "diff": "2 / 5",
+   "time": "≈ 1 day",
+   "cost": "Parts plus labor",
+   "symptoms": "Pulling under braking, a low or spongy pedal, fluid behind a drum, or a weak handbrake.",
+   "fix": "Remove the drums, replace the shoes, springs and wheel cylinders (or rebuild them), clean and adjust the adjusters and renew the handbrake shoes. Rebuild or replace the master cylinder and bleed the system with fresh fluid.",
+   "tools": "Brake spring tool · flare-nut wrenches · brake bleeder",
+   "parts": [
+    {
+     "name": "Brake shoe set, LJ80",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p14_bremsbackensatz-lj80.html"
+    },
+    {
+     "name": "Front wheel cylinder repair kit",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p506_radbremszylinder-rep--satz-va.html"
+    },
+    {
+     "name": "Master cylinder, LJ80",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p510_hauptbremszylinder-lj80.html"
+    },
+    {
+     "name": "DOT 4 brake fluid",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p123_bremsfluessigkeit-dot4.html"
+    }
+   ]
+  },
+  {
+   "title": "Transfer case reseal and mounts",
+   "diff": "3 / 5",
+   "time": "≈ 1 day",
+   "cost": "Parts plus labor",
+   "symptoms": "Gear oil weeping from the transfer case, noisy bearings, a clunk from worn mounts, and a split shifter boot letting in water.",
+   "fix": "Drain and remove the transfer case. Replace the bearings and gaskets with the rebuild sets, fit new rubber mounts and a new shifter boot, and refill with gear oil to the manual's spec.",
+   "tools": "Transmission jack · puller · seal driver · gasket scraper",
+   "parts": [
+    {
+     "name": "Transfer case bearing set",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p432_lagersatz-untersetzungsgetriebe.html"
+    },
+    {
+     "name": "Transfer case gasket set",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p433_dichtungssatz-untersetzungsgetriebe.html"
+    },
+    {
+     "name": "Transfer case mount",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p431_silentblock-zwischengetriebe.html"
+    },
+    {
+     "name": "Transfer case shifter boot",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p1110_schalthebelmanschette-zwischengetriebe.html"
+    }
+   ]
+  },
+  {
+   "title": "Ignition tune-up (LJ80 points)",
+   "diff": "2 / 5",
+   "time": "≈ 2 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Hard starting, misfires and poor idle on the F8A four-stroke.",
+   "fix": "Replace the points and condenser, distributor cap, rotor and plugs, then set the points gap and ignition timing to the manual's figures. Replace the air and fuel filters at the same time.",
+   "tools": "Feeler gauges · timing light · dwell meter · plug socket",
+   "parts": [
+    {
+     "name": "Ignition points",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p364_unterbrecherkontakt.html"
+    },
+    {
+     "name": "Condenser",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p365_kondensator.html"
+    },
+    {
+     "name": "Distributor cap, LJ80",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p360_verteilerkappe-lj80.html"
+    },
+    {
+     "name": "Rotor",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p361_verteilerlaeufer.html"
+    }
+   ]
+  }
+ ],
+ "baseline_service": {
+  "intro": "These trucks are 45-plus years old, so rebuild the basics before you trust one. Factory capacities and specs weren't available in our sources; confirm them in a service manual. LJ80.de sells a complete LJ80 inspection kit.",
+  "items": [
+   {
+    "item": "Inspection kit (LJ80)",
+    "spec": "Filters and service parts for the F8A",
+    "interval": "At purchase",
+    "note": "There's also a kit for the SJ410.",
+    "parts": [
+     {
+      "name": "LJ80 inspection kit",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p171_inspektionsset-lj80.html"
+     }
+    ]
+   },
+   {
+    "item": "Engine oil & filter (LJ80)",
+    "spec": "[CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Use a new drain-plug washer.",
+    "parts": [
+     {
+      "name": "Oil filter (long)",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p158_oelfilter-lang.html"
+     },
+     {
+      "name": "Drain plug washer",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p160_dichtung-f--oelablassschraube.html"
+     }
+    ]
+   },
+   {
+    "item": "Two-stroke lubrication (LJ10/20/50)",
+    "spec": "[CONFIRM IN MANUAL]",
+    "interval": "At purchase",
+    "note": "Find out how your engine gets its two-stroke oil before running it.",
+    "parts": []
+   },
+   {
+    "item": "Air filter",
+    "spec": "LJ80 element",
+    "interval": "At purchase",
+    "note": "Check the rubber boot between the filter and the carburetor.",
+    "parts": [
+     {
+      "name": "Air filter, LJ80",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p161_luftfilter-lj80.html"
+     },
+     {
+      "name": "Air filter to carburetor rubber",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p163_gummi-luftfilter---vergaser.html"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter",
+    "spec": "Inline",
+    "interval": "At purchase",
+    "note": "Old tanks shed rust, so check the filter again after a few tanks.",
+    "parts": [
+     {
+      "name": "Fuel filter",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p167_benzinfilter.html"
+     }
+    ]
+   },
+   {
+    "item": "Ignition",
+    "spec": "Points, condenser, cap, rotor, plugs, leads",
+    "interval": "At purchase",
+    "note": "",
+    "parts": [
+     {
+      "name": "Points",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p364_unterbrecherkontakt.html"
+     },
+     {
+      "name": "Ignition lead set",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p359_zuendkabelsatz.html"
+     },
+     {
+      "name": "Spark plug",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p473_zuendkerze.html"
+     }
+    ]
+   },
+   {
+    "item": "Coolant & hoses (LJ20 onward)",
+    "spec": "[CONFIRM IN MANUAL]",
+    "interval": "Flush at purchase",
+    "note": "The LJ10 is air-cooled.",
+    "parts": []
+   },
+   {
+    "item": "Gearbox, transfer case & differentials",
+    "spec": "Gear oil [CONFIRM IN MANUAL]",
+    "interval": "Drain and fill at purchase",
+    "note": "Replace the drain-plug seals.",
+    "parts": [
+     {
+      "name": "Transfer case drain plug",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p434_schraube-oelablass-zw-getriebe.html"
+     },
+     {
+      "name": "Drain plug seal",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p435_dichtung-oelablass-schraube.html"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 4 (as sold by LJ80.de) [CONFIRM IN MANUAL]",
+    "interval": "Flush at purchase",
+    "note": "Four-wheel drums; check the wheel cylinders.",
+    "parts": [
+     {
+      "name": "Brake fluid DOT 4",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p123_bremsfluessigkeit-dot4.html"
+     }
+    ]
+   },
+   {
+    "item": "Wheel bearings",
+    "spec": "Repack with fresh grease",
+    "interval": "At purchase",
+    "note": "",
+    "parts": [
+     {
+      "name": "Front wheel bearing set",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p101_radlagersatz-vorderachse-lj80.html"
+     }
+    ]
+   },
+   {
+    "item": "Spring and frame rubbers",
+    "spec": "",
+    "interval": "Inspect at purchase",
+    "note": "",
+    "parts": [
+     {
+      "name": "Spring bushing set",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p196_gummilagersatz-serie---angebot--.html"
+     },
+     {
+      "name": "Frame rubber set",
+      "supplier": "LJ80.de",
+      "url": "https://www.lj80.de/product_info.php?info=p1046_gummisatz-rahmen-16-teilig.html"
+     }
+    ]
+   }
+  ]
+ },
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "We couldn't find a reliable owner consensus. Suzuki fitted 16-inch wheels to the LJ10 and 15-inch wheels to the LJ20 van. With kei-sized wheel arches and tracks around 1,100–1,200 mm, staying close to the stock size is the safe choice.",
+   "src": "SUZUKI · WIKIPEDIA"
+  },
+  {
+   "q": "What do the LJ codes mean?",
+   "a": "LJ stands for 'Light Jeep'. In Japan the trucks were also known by chassis codes: SJ10 (Jimny 55) and SJ20 (Jimny 8). Export markets mostly used the LJ names.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Which LJ is easiest to own?",
+   "a": "The LJ80. It has a four-stroke engine, it was the most widely exported, and specialists such as LJ80.de still stock much of it. Two-stroke LJ10, LJ20 and LJ50 trucks are rarer and more of a collector's project.",
+   "src": "SUZUKI · LJ80.DE"
+  },
+  {
+   "q": "How fast is it?",
+   "a": "Not very. Wikipedia gives the LJ10's top speed as 75 km/h, and about 97 km/h (60 mph) for the 539 cc Jimny 55.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Was the LJ sold in the United States?",
+   "a": "Not by Suzuki. An importer, International Equipment Co., brought in LJ20s and sold them as the Suzuki Brute. The [[suzuki/samurai|Samurai]] of late 1985 was the first four-wheeled vehicle Suzuki itself sold in the US.",
+   "src": "WIKIPEDIA · MOTORTREND"
+  },
+  {
+   "q": "How capable is it off road?",
+   "a": "Suzuki says the LJ20 would climb a 35-degree slope and the SJ10 39.7 degrees, and that an LJ20 finished the Mexican 1000 race after 34 hours. It's light, narrow and has low range, which counts for a lot.",
+   "src": "SUZUKI"
+  },
+  {
+   "q": "What gear ratios did it have?",
+   "a": "Wikipedia lists transfer case ratios of 2.57 low / 1.56 high or 3.01 low / 1.71 high depending on the year, and axle ratios of 4.55, 4.87 or 5.66 for the later trucks.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Where do I get parts?",
+   "a": "For the LJ80, LJ80.de in Germany stocks body repair panels, springs, bearings, brakes and service parts, and publishes a parts catalogue. Some parts are shared with the SJ410. Two-stroke engine parts are harder to find.",
+   "src": "LJ80.DE"
+  },
+  {
+   "q": "What is an LJ worth?",
+   "a": "Bring a Trailer sales have mostly run from about $4,300 to $11,500, with restored LJ20s and early Jimnys at the top. An LJ80 bid to $18,003 in 2023 without selling.",
+   "src": "BRING A TRAILER"
+  },
+  {
+   "q": "Is it a kei car?",
+   "a": "The 359 cc and 539 cc trucks were. The 797 cc Jimny 8 (SJ20/LJ80) was the first Jimny registered as a small car rather than a kei car in Japan.",
+   "src": "SUZUKI"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION REFRESH",
+   "why": "New springs, polyurethane bushings and shocks restore ride height and stop the axle walking around.",
+   "who": [
+    {
+     "name": "LJ80.de — front spring set",
+     "url": "https://www.lj80.de/product_info.php?info=p155_blattfeder-satz-vorderachse.html"
+    },
+    {
+     "name": "LJ80.de — polyurethane bushing kit",
+     "url": "https://www.lj80.de/product_info.php?info=p192_pu-buchsen-satz---blattfederaugenkit.html"
+    },
+    {
+     "name": "LJ80.de — LJ80 shock set, front and rear",
+     "url": "https://www.lj80.de/product_info.php?info=p201_stossdaempfersatz-lj80-va-ha-angebot.html"
+    }
+   ]
+  },
+  {
+   "cat": "BODY & FIBERGLASS",
+   "why": "Fiberglass fenders and front panels are a rust-free way to save a rotten LJ80.",
+   "who": [
+    {
+     "name": "LJ80.de — fiberglass front panel",
+     "url": "https://www.lj80.de/product_info.php?info=p27_gfk-frontteil.html"
+    },
+    {
+     "name": "LJ80.de — fiberglass fender, left",
+     "url": "https://www.lj80.de/product_info.php?info=p72_gfk-kotfluegel-links.html"
+    }
+   ]
+  },
+  {
+   "cat": "AIR INTAKE",
+   "why": "A washable performance filter for the LJ80.",
+   "who": [
+    {
+     "name": "LJ80.de — K&N filter for LJ80",
+     "url": "https://www.lj80.de/product_info.php?info=p619_k-n-sportluftfilter-lj80.html"
+    }
+   ]
+  },
+  {
+   "cat": "SOFT TOP",
+   "why": "Fresh canvas and seals make an open LJ usable again.",
+   "who": [
+    {
+     "name": "LJ80.de — soft top section",
+     "url": "https://www.lj80.de/?cat=c75_Verdeck-Verdeck.html"
+    }
+   ]
+  },
+  {
+   "cat": "BRAKES",
+   "why": "A full drum rebuild is the most important safety upgrade.",
+   "who": [
+    {
+     "name": "LJ80.de — brake shoe set",
+     "url": "https://www.lj80.de/product_info.php?info=p14_bremsbackensatz-lj80.html"
+    },
+    {
+     "name": "LJ80.de — master cylinder",
+     "url": "https://www.lj80.de/product_info.php?info=p510_hauptbremszylinder-lj80.html"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1970–1981",
+   "label": "Jimny LJ series (all)",
+   "at_url": "https://www.autotempest.com/results?make=suzuki&model=jimny&minyear=1970&maxyear=1981",
+   "bat_url": "https://bringatrailer.com/suzuki/jimny/"
+  },
+  {
+   "years": "1977–1981",
+   "label": "LJ80 / Jimny 8",
+   "at_url": "https://www.autotempest.com/results?make=suzuki&model=jimny&minyear=1977&maxyear=1981",
+   "bat_url": "https://bringatrailer.com/suzuki/jimny/"
+  }
+ ],
+ "social": [],
+ "forums": [
+  {
+   "name": "Zukiworld — General Suzuki Forum",
+   "url": "https://www.zukiworld.com/forum/general-suzuki-forum/",
+   "note": "The long-running US Suzuki 4x4 community; deep Samurai axle, tire and lift threads"
+  }
+ ],
+ "related": [
+  {
+   "rel": "SUCCESSOR",
+   "name": "SJ / Samurai",
+   "family": "suzuki",
+   "gen": "samurai"
+  },
+  {
+   "rel": "DESCENDANT",
+   "name": "Jimny JB74",
+   "family": "suzuki",
+   "gen": "jimny-jb74"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CODES",
+   "v": "LJ10 · LJ20 · LJ50 (SJ10) · LJ80 (SJ20) · LJ81"
+  },
+  {
+   "k": "BUILT",
+   "v": "Iwata, Japan · assembled in New Zealand, Indonesia, Kenya"
+  },
+  {
+   "k": "YEARS",
+   "v": "April 1970 – 1981"
+  },
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame, leaf springs front & rear"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "1,930 mm · 2,200 mm (LJ81 pickup)"
+  },
+  {
+   "k": "LJ10 ENGINE",
+   "v": "FB 359 cc air-cooled 2-stroke I2 · 25 PS"
+  },
+  {
+   "k": "LJ20 ENGINE",
+   "v": "L50 359 cc water-cooled 2-stroke I2 · 28 PS"
+  },
+  {
+   "k": "LJ50 ENGINE",
+   "v": "539 cc 2-stroke I3 · 33 PS (export)"
+  },
+  {
+   "k": "LJ80 ENGINE",
+   "v": "F8A 797 cc SOHC I4 · 41 PS · 6.1 kg·m"
+  },
+  {
+   "k": "GEARBOX",
+   "v": "4-speed manual + 2-speed transfer case"
+  },
+  {
+   "k": "BRAKES",
+   "v": "Drums all round"
+  },
+  {
+   "k": "WEIGHT",
+   "v": "600 kg (LJ10) – 715 kg (SJ20)"
+  }
+ ],
+ "photos": [
+  {
+   "file": "lj20-folzalm-hut-track.jpg",
+   "alt": "An olive-green 1973 Suzuki Jimny LJ20 on a gravel mountain track among larch trees, still used to supply an Austrian mountain hut",
+   "caption": "1973 JIMNY LJ20 · FÖLZALM HUT TRACK, AUSTRIA",
+   "credit": "Schreckgespenst · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:1973_Suzuki_Jimny_F%C3%B6lzalm_1.jpg"
+  },
+  {
+   "file": "lj80-tuscany-gravel.jpg",
+   "alt": "A white 1981 Suzuki LJ80 soft top parked on gravel under trees in rural Tuscany",
+   "caption": "1981 LJ80 · GRONDOLA, TUSCANY",
+   "credit": "Rutger van der Maar · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:1981_Suzuki_LJ80.jpg"
+  },
+  {
+   "file": "lj80-beach-yogyakarta.jpg",
+   "alt": "A yellow open Suzuki LJ80 carrying a family along a black-sand beach near Yogyakarta, Indonesia",
+   "caption": "LJ80 · BLACK-SAND BEACH, YOGYAKARTA",
+   "credit": "Andreanrama · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Suzuki_lj80.jpg"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Suzuki Jimny",
+   "url": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
+  },
+  {
+   "name": "Wikipedia — Hope Motor Company",
+   "url": "https://en.wikipedia.org/wiki/Hope_Motor_Company"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: LJ10",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/lj10.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: LJ20",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/lj20.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: SJ10 (Jimny 55)",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/sj10.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: SJ20 (Jimny 8)",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/sj20.html"
+  },
+  {
+   "name": "MotorTrend — The Suzuki Samurai: History, Generations, Models (Aaron Gold)",
+   "url": "https://www.motortrend.com/features/suzuki-samurai-history-generations-models-differences"
+  },
+  {
+   "name": "Bring a Trailer — Suzuki Jimny auction results",
+   "url": "https://bringatrailer.com/suzuki/jimny/"
+  },
+  {
+   "name": "Bring a Trailer — 1972 Suzuki Jimny (LJ20)",
+   "url": "https://bringatrailer.com/listing/1972-suzuki-jimny-22/"
+  },
+  {
+   "name": "LJ80.de — Suzuki LJ80 parts shop and catalogue",
+   "url": "https://www.lj80.de/"
+  }
+ ]
+}

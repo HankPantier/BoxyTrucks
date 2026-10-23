@@ -1,0 +1,1173 @@
+{
+ "family": {
+  "slug": "suzuki",
+  "name": "Samurai & Jimny",
+  "maker": "Suzuki",
+  "years": "1970–present",
+  "verdict": "The smallest proper 4x4 you can buy: ladder frame, two solid axles, low range and almost nothing else. It has been out-climbing trucks three times its size for more than half a century.",
+  "intro": [
+   "Suzuki's off-road line began with a purchase. In 1968 it bought the rights to the HopeStar ON360, a tiny 4x4 from the struggling Hope Motor Company, and in April 1970 it launched the result as the Jimny LJ10, the first four-wheel-drive kei car to reach series production. The [[suzuki/lj-series|LJ series]] grew from a 359 cc two-stroke twin to the 797 cc four-stroke LJ80, and it took the Suzuki name to export markets for the first time.",
+   "In 1981 the second generation arrived. Export markets knew it as the SJ410 and SJ413, Australians as the Sierra, and Americans, from late 1985, as the [[suzuki/samurai|Samurai]]. A 1988 Consumer Reports test, and the libel suit that followed, nearly buried it in the US, but off-roaders adopted it anyway. Spain's Santana and India's Maruti (as the Gypsy) built it for decades.",
+   "The [[suzuki/jimny-jb23|third-generation Jimny]] of 1998 swapped the leaf springs for coils and stayed in production for 20 years. The boxy [[suzuki/jimny-jb74|fourth generation]] followed in 2018. Every generation keeps the same recipe: a separate ladder frame, solid axles front and rear, a part-time transfer case with low range, and very little weight."
+  ],
+  "hero_photo": "samurai-rax-alpine-meadow.jpg",
+  "generations": [
+   {
+    "slug": "lj-series",
+    "name": "LJ series",
+    "years": "1970–1981",
+    "codes": [
+     "LJ10",
+     "LJ20",
+     "LJ50",
+     "LJ80"
+    ],
+    "summary": "The original Jimny, a kei-class 4x4 that grew from a 359 cc air-cooled two-stroke to the 797 cc four-stroke LJ80.",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=jimny&minyear=1970&maxyear=1981",
+    "bat_url": "https://bringatrailer.com/suzuki/jimny/",
+    "has_page": true
+   },
+   {
+    "slug": "samurai",
+    "name": "SJ / Samurai",
+    "years": "1981–1998",
+    "codes": [
+     "SJ410",
+     "SJ413",
+     "Samurai",
+     "JA51",
+     "JB31"
+    ],
+    "summary": "Leaf springs, a 1.3-litre G13 four and a 2,000-lb curb weight: the cult rock crawler that survived Consumer Reports.",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=samurai&minyear=1986&maxyear=1995",
+    "bat_url": "https://bringatrailer.com/suzuki/samurai/",
+    "has_page": true
+   },
+   {
+    "slug": "jimny-jb23",
+    "name": "Jimny JB23",
+    "years": "1998–2018",
+    "codes": [
+     "JB23",
+     "JB33",
+     "JB43"
+    ],
+    "summary": "Coil springs and solid axles: the kei JB23 and the 1.3-litre JB33/JB43 Jimny ran for two decades worldwide.",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=jimny&minyear=1998&maxyear=2018",
+    "bat_url": "https://bringatrailer.com/suzuki/jimny/",
+    "has_page": true
+   },
+   {
+    "slug": "jimny-jb74",
+    "name": "Jimny JB74",
+    "years": "2018–present",
+    "codes": [
+     "JB74",
+     "JB64"
+    ],
+    "summary": "The square-cut 1.5-litre fourth generation, still ladder-framed with solid axles, now with a five-door version too.",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=jimny&minyear=2018",
+    "bat_url": "https://bringatrailer.com/suzuki/jimny/",
+    "has_page": true
+   }
+  ],
+  "forums": [
+   {
+    "name": "Zukiworld — General Suzuki Forum",
+    "url": "https://www.zukiworld.com/forum/general-suzuki-forum/",
+    "note": "The long-running US Suzuki 4x4 community; deep Samurai axle, tire and lift threads"
+   },
+   {
+    "name": "Zukiworld — Technical discussion (beginner and repair)",
+    "url": "https://www.zukiworld.com/forum/technical-discussion-beginner-repair/",
+    "note": "Repair questions on Samurais, Sidekicks and SJs"
+   },
+   {
+    "name": "Zukiworld — Technical discussion (performance and modification)",
+    "url": "https://www.zukiworld.com/forum/technical-discussion-performance-modify/",
+    "note": "Engine swaps, axle swaps and builds"
+   }
+  ],
+  "related_families": [
+   "jeep",
+   "land-cruiser",
+   "4runner"
+  ]
+ },
+ "page": {
+  "slug": "samurai",
+  "title": "Suzuki SJ / Samurai",
+  "eyebrow": "SUZUKI JIMNY 2ND GEN · SJ410 / SJ413 / SAMURAI · 1981–1998",
+  "verdict": "A 2,000-lb ladder-frame 4x4 that Consumer Reports said tipped over and the trail crowd says goes everywhere. Both had a point. Give it some lift, a locker and lower gears and it climbs things that embarrass trucks three times its size.",
+  "codes": [
+   "G13A 1.3 SOHC I4",
+   "LEAF SPRINGS · SOLID AXLES",
+   "2-SPEED TRANSFER CASE",
+   "80-IN WHEELBASE",
+   "SANTANA · MARUTI GYPSY"
+  ],
+  "hero_photo": "samurai-chappie-shasta-trail.jpg",
+  "hero_focus": "40% 45%",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "The second-generation Jimny arrived in 1981 as the export SJ410, a little 1.0-litre box on a ladder frame with leaf springs and solid axles at both ends. In November 1984 Suzuki added the 1.3-litre SJ413, and in late 1985 it brought that truck to the United States as the Samurai, the first four-wheeled vehicle Suzuki sold there. It cost about two-thirds as much as a new [[jeep/yj|Jeep Wrangler]] and weighed roughly 2,100 lb. Americans bought 47,000 in the first year. Then Consumer Reports rolled one."
+    ]
+   },
+   {
+    "heading": "FROM SJ410 TO SAMURAI",
+    "paragraphs": [
+     "The SJ410 replaced the [[suzuki/lj-series|LJ80]] in 1981 and was sold as a soft top, a hardtop and a long-wheelbase pickup. Australia called it the Sierra, and Holden sold it as the Drover. The SJ413 that followed in 1984 brought the 1,324 cc G13A four, a five-speed gearbox, front disc brakes, an anti-roll bar and a new dashboard. In Japan it was the Jimny 1300 (JA51), at the time the biggest engine Suzuki sold.",
+     "The US Samurai launched in California in November 1985 as a 1986 model, already on the wider track that Suzuki later used for the Samurai worldwide. Suzuki's 1986 brochure lists 1,300 mm front and 1,310 mm rear, against about 1,210 mm on the narrow SJ. It quoted 64 hp, 74 lb-ft, 8.1 inches of ground clearance and 43/38-degree approach and departure angles. MotorTrend timed it at 16.9 seconds to 60 mph. Nobody bought one for the acceleration, and by mid-1988 Americans were buying 8,000 a month."
+    ]
+   },
+   {
+    "heading": "THE CONSUMER REPORTS AFFAIR",
+    "paragraphs": [
+     "The July 1988 issue of Consumer Reports rated the Samurai 'Not Acceptable', the first time the magazine had used that rating, saying it tipped up in its short-course accident-avoidance maneuver. According to evidence Suzuki cited in court, the Samurai went through more than three dozen runs on CU's established course with no tip-up. CU then modified the course, and a test driver tipped it onto its outriggers. In June 1988 CU showed reporters video of the tip-ups and asked for a recall. NHTSA denied two 1988 petitions for a defect investigation, saying the evidence didn't show that a vehicle defect, rather than the driver or the environment, caused the rollovers.",
+     "The damage was done anyway. Reuters reported that Samurai sales fell about 70 percent. In 1996 Suzuki sued Consumers Union for $60 million over CU's renewed claim that the Samurai 'easily rolls over in turns'. A district judge threw the case out, and in 2003 the Ninth Circuit revived it. In July 2004 the two sides settled with no money paid. CU said it never meant that the Samurai easily rolls over in routine driving, but it stood by its tests, while Suzuki disputed them. NHTSA's Michigan crash data for 1986–90 put the Samurai's single-vehicle rollover rate (29 percent) next to the Wrangler's (28 percent) and below the CJ-7's (46–48 percent). It is still a short, narrow, tall truck, though, and MotorTrend's verdict is that it tips more readily in sudden swerves than most 4x4s."
+    ]
+   },
+   {
+    "heading": "THE ROCK-CRAWLING CULT",
+    "paragraphs": [
+     "What sank the Samurai as a commuter made it a legend on the trail. It weighs little, it's narrow, and it has a real transfer case with low range. Lifted on a spring-over, it can be geared down with transfer-case gear sets as low as 6.4:1 and wedged into lines that big trucks can't fit. Trail Tough, a shop started by Samurai enthusiasts in the 1980s, still sells spring-over kits, Sumo gear sets, knuckle-over steering and 1.6- to 2.3-litre Suzuki engine conversions. In 2007 two Chileans drove a modified SJ413 to 6,688 m on Ojos del Salado, a Guinness-certified altitude record for a four-wheeled vehicle at the time.",
+     "The other big upgrade is an axle swap. Trail-Gear and Low Range Off-Road sell kits that put 1979–85 Toyota truck axles under a Samurai. On Zukiworld, one builder wrote in 2006 that the Toyota swap had 'become as common as a SPOA lift.' The Toyota axles are about 5 inches wider, take the same brake-line fittings and have a huge aftermarket, but Samurai steering won't fit them. Some builders prefer Dana 44s instead."
+    ]
+   },
+   {
+    "heading": "SANTANA, GYPSY AND HOW IT ENDED",
+    "paragraphs": [
+     "Spain's Santana built SJs in Linares from 1985, and because they were more than 60 percent local content they got around Europe's quotas on Japanese imports. Santana built Samurais with Peugeot and later Renault diesels until about 2003–04. In India, Maruti launched the long-wheelbase Gypsy in December 1985. In 1993 it got the 90 mm wider track and became the MG410W, then became the 1.3-litre Gypsy King in 1996. It stayed in production until 2018, a staple of the Indian Army and police.",
+     "In the US the Samurai lost its rear seat for 1994 and 1995, because adding the required rear shoulder belts would have meant re-engineering it. It was gone after 1995, replaced in spirit by the Sidekick. Japan got a coil-sprung version (JB32) in 1995, and the line ended there in 1998, when the [[suzuki/jimny-jb23|JB23 Jimny]] took over."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · 6,688 METRES",
+   "title": "The Samurai that topped the Jeep",
+   "paragraphs": [
+    "On April 21, 2007, Chileans Gonzalo Bravo and Eduardo Canales drove a modified 1986 SJ413 Samurai to 6,688 m (21,942 ft) on Ojos del Salado. That beat the record for the highest altitude reached by a four-wheeled vehicle, set by a team in a Jeep Wrangler. It was their third attempt, after bad weather and then an engine fire, and the truck ran a supercharged Suzuki G16A engine.",
+    "The Jeep team had left a sign at the top: 'Jeep Parking Only: All others don't make it up here anyway.' The Chileans brought it home. Guinness certified the record that July, and a Unimog later beat it."
+   ]
+  },
+  "engineering_intro": "The SJ is a scaled-down 1950s truck, and that's the point. A separate ladder frame carries a steel body. Both axles are solid and hang on semi-elliptic leaf springs. A gear-driven two-speed transfer case sits behind a five-speed manual, and the front hubs are manual Aisin lockers. There's no center differential, so 4WD is only for loose surfaces. Steering is recirculating ball, and the US truck had power front discs and rear drums.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame",
+    "note": "2,030 mm (79.9 in) wheelbase; 2,375 mm on long-wheelbase SJ and Gypsy"
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Leaf springs, live axles",
+    "note": "Front and rear; softened for the US '1988½' update"
+   },
+   {
+    "k": "ENGINE",
+    "v": "G13A 1,324 cc SOHC 8V",
+    "note": "Carbureted, 64 hp (1986 brochure); throttle-body G13BA from 1990"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "2-speed, 2.268 low",
+    "note": "Part-time, no center diff; the transfer case mounts on the frame are known to crack"
+   },
+   {
+    "k": "TRACK",
+    "v": "1,300 / 1,310 mm",
+    "note": "US Samurai wide track; narrow SJ410/413 about 1,210 / 1,220 mm"
+   },
+   {
+    "k": "WEIGHT",
+    "v": "950–965 kg",
+    "note": "About 2,094–2,127 lb, convertible and hardtop (1986 US)"
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1981–1984",
+    "platform": "SJ410 / Jimny 1000 (SJ40)",
+    "engine": "F10A 970 cc I4",
+    "output": "45 PS net (export)",
+    "note": "Four-speed, drum brakes, narrow track; soft top, hardtop and long-wheelbase pickup."
+   },
+   {
+    "years": "1984–1988",
+    "platform": "SJ413 / Jimny 1300 (JA51)",
+    "engine": "G13A 1,324 cc I4",
+    "output": "70 PS gross (JA51)",
+    "note": "Five-speed, front discs, anti-roll bar, new dash and grille."
+   },
+   {
+    "years": "1986–1989 US",
+    "platform": "Samurai (carbureted)",
+    "engine": "G13A 1,324 cc I4",
+    "output": "64 hp / 74 lb-ft",
+    "note": "Wide track from launch; '1988½' softer springs, thicker front anti-roll bar, 0.865 fifth gear."
+   },
+   {
+    "years": "1990–1995 US",
+    "platform": "Samurai (TBI)",
+    "engine": "1.3 I4, throttle-body injection",
+    "output": "66–68 hp (sources differ)",
+    "note": "2WD version 1991–93; rear seat deleted for 1994–95."
+   },
+   {
+    "years": "1985–2004",
+    "platform": "Santana SJ / Samurai (Spain)",
+    "engine": "F10A, G13 petrol; Peugeot XUD9 TD and Renault F8Q diesels",
+    "output": "63–64 PS (diesels)",
+    "note": "Softer springs and plusher trim; Samurai chassis from 1990."
+   },
+   {
+    "years": "1985–2018",
+    "platform": "Maruti Gypsy (India)",
+    "engine": "F10A, then G13BA and G13BB",
+    "output": "Up to 80 PS (Gypsy King MPFI)",
+    "note": "Long wheelbase only; wide-track MG410W from 1993."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Rust and hidden trail damage",
+    "body": "MotorTrend's advice is to check the underbody carefully, for rust and also for dents, scrapes and dried mud in hard-to-reach places, which all point to a hard off-road life. If you want a stock truck, an unmodified Samurai is less likely to have been abused."
+   },
+   {
+    "head": "Transfer case mounts and frame hangers",
+    "body": "Trail Tough calls cracked transfer case mounts and a wallowed-out, bent rear frame hanger common Samurai stress failures, and lower gearing makes them worse. Look at the rubber mounts and the frame brackets on both sides of the case."
+   },
+   {
+    "head": "Transfer case that won't shift or sticks in neutral",
+    "body": "MotorTrend lists bad transfer-case bushings that can lock the case in neutral. The usual culprit is the plastic 'shift sheet' under the lever. It's a cheap OEM or Delrin part, but check that 4WD and low range both engage."
+   },
+   {
+    "head": "Oil leaks and carburetor manners",
+    "body": "MotorTrend's known trouble spots include oil leaks at the distributor, leaking brake master cylinders, fiddly carburetors on 1986–89 trucks and failing ECMs on fuel-injected ones. A clean cold start and a steady idle are worth a lot."
+   },
+   {
+    "head": "Quality of past modifications",
+    "body": "Most Samurais have been modified. A well-built spring-over or engine swap saves you money; a bad one costs you. Check the steering geometry, brake lines at full droop, driveshaft angles and welds. Swapped engines may not pass emissions in some states, and Trail Tough notes that 1996-and-later 1.6 donors are OBD-II and won't be smog-legal in California."
+   },
+   {
+    "head": "Is it an automatic? It's a swap",
+    "body": "Every US Samurai had a manual gearbox, so an automatic means someone swapped it in. Ask what was done and look for the paperwork."
+   },
+   {
+    "head": "Front knuckles weeping gear oil",
+    "body": "Oil-soaked knuckles, loose steering and a vague front end point to worn kingpin bearings and inner axle seals. Trail Tough's rebuild kit covers both sides, and it's a common catch-up job."
+   },
+   {
+    "head": "Know which Samurai you're buying",
+    "body": "For the US, 1986–89 trucks are carbureted (AMSOIL's lookup lists engine code 5) and 1990–95 are injected (code 3). The '1988½' update changed the ride, the gearing and the transfer case drain plugs. Santana and Gypsy trucks use the same basic design, but many parts differ."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Rebuild the front knuckles (kingpins, seals, wheel bearings)",
+    "diff": "3 / 5",
+    "time": "≈ 1 day for both sides",
+    "cost": "Kit $269 (Trail Tough) plus gear oil",
+    "symptoms": "Gear oil weeping from the knuckle balls, loose or wandering steering, play when you rock the top of the tire, and grease or oil inside the brake parts.",
+    "fix": "Lock out the hubs, lift the front and remove the wheel, caliper, rotor and Aisin hub. Remove the knuckle seal and the upper and lower kingpin caps, separate the knuckle and pull the axle shaft. Replace the inner axle seal, kingpin bearings, wheel bearings, knuckle seal and gaskets, then set kingpin preload as the service manual specifies. Refill the front differential and the knuckles to the levels in the manual.",
+    "tools": "Socket set · seal driver · bearing packer · torque wrench · spring scale for kingpin preload · service manual",
+    "parts": [
+     {
+      "name": "Suzuki Samurai front knuckle rebuild kit (Koyo bearings, seals, gaskets)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/front-end-rebuild-kit/"
+     },
+     {
+      "name": "OEM front inner axle seal, 1986–95 Samurai",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/oem-front-inner-axle-seal-samurai/"
+     },
+     {
+      "name": "Koyo front wheel bearing",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/front-wheel-bearing/"
+     }
+    ]
+   },
+   {
+    "title": "Reinforce cracked transfer case mounts",
+    "diff": "3 / 5",
+    "time": "≈ Half a day, plus welding",
+    "cost": "Repair kit $45; solid mounts $61.68 a set; Mighty Kong II cradle $335",
+    "symptoms": "A clunk when you shift on and off the throttle, a transfer case that sags or rocks, a cracked mounting boss or a frame bracket starting to tear. Lower transfer-case gears make it worse.",
+    "fix": "Support the transfer case, unbolt the mounts and inspect the frame hangers. Trail Tough's repair kit restores the wallowed-out hole and bent rear hanger, and you can fit it before or after the frame is damaged. Replace the rubber mounts with OEM or solid ones, or fit a cradle that supports the case on three axes. Trail Tough also points out that gearing down only at the transfer case overloads these mounts, so regear the axles too.",
+    "tools": "Jack and stands · welder and grinder · drill · socket set",
+    "parts": [
+     {
+      "name": "Transfer case / frame mount repair kit",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/transfer-case-frame-mount-repair-kit/"
+     },
+     {
+      "name": "OEM Suzuki rubber transfer case mount",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/transfer-case-mounts-oem-suzuki/"
+     },
+     {
+      "name": "Solid transfer case mounts (set of 3)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/solid-transfer-case-mounts/"
+     },
+     {
+      "name": "Mighty Kong II transfer case mount / skid plate",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/mighty-kong-ii-transfer-case-mountskid-plate/"
+     }
+    ]
+   },
+   {
+    "title": "Replace the transfer case shift sheet and seals",
+    "diff": "2 / 5",
+    "time": "≈ 2–3 hours",
+    "cost": "$14 OEM sheet, $21 Delrin; seal kit $35–40",
+    "symptoms": "Sloppy or stiff transfer case lever, trouble finding 4WD or low, a case that pops out of gear, and leaks at the output seals.",
+    "fix": "Drain the case. Remove the shifter boot and the top cover, replace the worn plastic shift sheet, check the shift-rail springs and detents, then reseal the cover and output seals with the seal kit. Refill with gear oil (Trail Tough recommends non-synthetic 80W-90 GL-5 in its rebuilt cases) and check that 2H, 4H and 4L all engage.",
+    "tools": "Socket set · seal puller and driver · gasket scraper · fluid pump",
+    "parts": [
+     {
+      "name": "OEM shift sheet",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/shift-sheets-stock-oem/"
+     },
+     {
+      "name": "Lifetime Delrin shift sheet",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/lifetime-shift-sheet-delrin/"
+     },
+     {
+      "name": "Samurai transfer case seal kit",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/t-case-seal-kit/"
+     },
+     {
+      "name": "Factory transfer case vent",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/samurai-transfer-case-vent/"
+     }
+    ]
+   },
+   {
+    "title": "Rear wheel bearing and axle seal",
+    "diff": "3 / 5",
+    "time": "≈ 2–3 hours per side",
+    "cost": "$56 per side (kit)",
+    "symptoms": "Gear oil on the inside of the rear wheel or the brake shoes, a growl that changes with speed, or play in the rear wheel.",
+    "fix": "Remove the wheel and drum, disconnect the brake line and remove the backing-plate bolts, then pull the axle. The bearing and retainer are pressed on, so cut the old retainer off carefully and press on the new bearing, retainer and seal. Reinstall, bleed the rear brakes and top up the differential. Trail Tough's SJ410 backing-plate mod lets future axle changes skip opening the brake lines.",
+    "tools": "Slide hammer · press or bearing shop · die grinder · brake bleeding kit",
+    "parts": [
+     {
+      "name": "Samurai rear wheel bearing kit (Koyo bearing, OEM retainer and seal)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/rear-wheel-bearing-kit/"
+     },
+     {
+      "name": "SJ410 backing plates",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/sj410-backing-plates/"
+     },
+     {
+      "name": "Chromoly rear axles, 1986–95 Samurai (pair)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/samurai-longfield-chromoly-rear-axles/"
+     }
+    ]
+   },
+   {
+    "title": "Timing belt and tensioner (G13A)",
+    "diff": "3 / 5",
+    "time": "≈ 3 hours",
+    "cost": "Belt $24.95; tensioner $55",
+    "symptoms": "Unknown belt history, a cracked or glazed belt, or a noisy tensioner. The G13A is a non-interference engine, so a snapped belt strands you but shouldn't bend valves.",
+    "fix": "Remove the fan, fan belt, crank pulley and timing cover. Line up the cam and crank timing marks, release the tensioner and change the belt and tensioner. Turn the engine by hand twice and recheck the marks. Replace the cam and crank seals if they're leaking, and check ignition timing afterwards. Use the factory service manual for the interval and torque values.",
+    "tools": "Socket set · crank pulley holder · torque wrench · timing light",
+    "parts": [
+     {
+      "name": "Timing belt, 1986–89 G13A",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/timing-belt-1-3/"
+     },
+     {
+      "name": "Timing belt tensioner, 1986–89 G13A",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/timing-belt-tensioner-1-3/"
+     },
+     {
+      "name": "Top-end gasket set, G13A (cam seal, valve cover)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/head-gasket-set-1-3/"
+     }
+    ]
+   },
+   {
+    "title": "Clutch replacement",
+    "diff": "3 / 5",
+    "time": "≈ 1 day",
+    "cost": "Deluxe kit $166",
+    "symptoms": "Slipping under load in low range, chatter, or a pedal that engages right at the top of its travel.",
+    "fix": "Remove the driveshafts, intermediate shaft and transfer case (or drop the transmission with the case attached), then pull the transmission back. Replace the disc, pressure plate, release bearing and pilot bearing, and check the flywheel and rear main seal. Use an alignment tool to install, and adjust the clutch cable.",
+    "tools": "Transmission jack · socket set · clutch alignment tool · torque wrench",
+    "parts": [
+     {
+      "name": "Deluxe stock clutch set (Japanese)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/deluxe-clutch-set/"
+     },
+     {
+      "name": "OEM rear main seal, 1.3/1.6",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/oem-suzuki-rear-main-seal-for-1-3-and-1-6-engines/"
+     },
+     {
+      "name": "1.3 clutch cable",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/1-3-clutch-cable-japanese-aftermarket/"
+     }
+    ]
+   },
+   {
+    "title": "Brake master cylinder and front brake refresh",
+    "diff": "2 / 5",
+    "time": "≈ 3 hours",
+    "cost": "Master cylinder $120; pads $33; rotors $56 each",
+    "symptoms": "A sinking pedal, fluid around the master cylinder or booster, and pulsing or noisy front brakes.",
+    "fix": "Bench-bleed the new master cylinder, swap it in and bleed the whole system with DOT 3. While you're there, replace the front pads and rotors, inspect the rear drums and wheel cylinders, and fit extended lines if the truck is lifted.",
+    "tools": "Flare-nut wrenches · bench-bleed kit · brake bleeder · C-clamp",
+    "parts": [
+     {
+      "name": "Master cylinder, 1986–89 Samurai",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/master-cylinder-samurai/"
+     },
+     {
+      "name": "Semi-metallic front brake pads",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/brake-pads/"
+     },
+     {
+      "name": "Front brake rotor",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/brake-rotor/"
+     },
+     {
+      "name": "Extended front brake lines (lifted trucks)",
+      "supplier": "Trail Tough",
+      "url": "https://trailtough.com/product/extended-brake-lines-front-20/"
+     }
+    ]
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing has been done. These trucks are 30-plus years old, and most have been wheeled. US specs below come from AMSOIL's capacity lookups for 1988 and 1992 Samurais; confirm them in the factory service manual, especially on Santana, Gypsy or swapped trucks.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "3.9 qt with filter · 10W-30 or 10W-40 depending on temperature",
+     "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+     "note": "AMSOIL lists WIX 51348 as the matching filter.",
+     "parts": [
+      {
+       "name": "RockAuto catalog — 1988 Suzuki Samurai",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/suzuki,1988,samurai"
+      }
+     ]
+    },
+    {
+     "item": "Timing belt & tensioner",
+     "spec": "G13A (1986–89) belt and tensioner",
+     "interval": "At purchase unless documented, then per manual [CONFIRM IN MANUAL]",
+     "note": "The G13A is a non-interference engine (Wikipedia), so a failure shouldn't bend valves, but it will strand you.",
+     "parts": [
+      {
+       "name": "Timing belt 1.3",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/timing-belt-1-3/"
+      },
+      {
+       "name": "Timing belt tensioner 1.3",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/timing-belt-tensioner-1-3/"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs, wires, cap & rotor",
+     "spec": "1.3 8V plug wire set",
+     "interval": "At purchase",
+     "note": "MotorTrend lists oil leaks at the distributor as a known trouble spot, so check the distributor O-ring while you're there.",
+     "parts": [
+      {
+       "name": "Spark plug wires, 1.3/1.6 8V",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/spark-plug-wires-1-38v/"
+      },
+      {
+       "name": "RockAuto catalog — 1988 Suzuki Samurai",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/suzuki,1988,samurai"
+      }
+     ]
+    },
+    {
+     "item": "Air & fuel filters",
+     "spec": "Carbureted 1986–89; throttle-body injected 1990–95",
+     "interval": "At purchase",
+     "note": "A carburetor rebuild kit is available if the idle won't settle.",
+     "parts": [
+      {
+       "name": "RockAuto catalog — 1988 Suzuki Samurai",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/suzuki,1988,samurai"
+      },
+      {
+       "name": "Carburetor rebuild kit",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/carburetor-rebuild-kit/"
+      }
+     ]
+    },
+    {
+     "item": "Coolant",
+     "spec": "5.3 qt · coolant type [CONFIRM IN MANUAL]",
+     "interval": "Flush at purchase, then every 2 years",
+     "note": "Check the radiator, hoses and the 1.3 water inlet pipe.",
+     "parts": [
+      {
+       "name": "Samurai 1.3 water inlet pipe",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/samurai-1-3-water-inlet-pipe/"
+      },
+      {
+       "name": "RockAuto catalog — 1988 Suzuki Samurai",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/suzuki,1988,samurai"
+      }
+     ]
+    },
+    {
+     "item": "Manual transmission",
+     "spec": "2.7 pt · 75W-90 GL-4",
+     "interval": "Drain and fill at purchase",
+     "note": "Drain and fill plugs differ between 1986–88 and 1988.5–95 trucks.",
+     "parts": [
+      {
+       "name": "Drain and fill plugs, 1986–88 transmission / transfer case",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/drain-plug-transmission-transfer-case-86-88-samurai/"
+      }
+     ]
+    },
+    {
+     "item": "Transfer case",
+     "spec": "1.7 pt · GL-4 per AMSOIL; Trail Tough fills its rebuilt cases with non-synthetic 80W-90 GL-5",
+     "interval": "Drain and fill at purchase",
+     "note": "While it's drained, check the case mounts and the shift sheet.",
+     "parts": [
+      {
+       "name": "Transfer case fill and drain plugs, 1988.5–95",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/factory-samurai-transfer-case-fill-and-drain-plugs-88-5-95/"
+      },
+      {
+       "name": "Transfer case vent",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/samurai-transfer-case-vent/"
+      }
+     ]
+    },
+    {
+     "item": "Front differential & knuckles",
+     "spec": "3.6 pt (1988) / 4.2 pt (1992) · 75W-90 or 80W-90 GL-5",
+     "interval": "Drain and fill at purchase",
+     "note": "Weeping knuckles mean seals and kingpin bearings are due.",
+     "parts": [
+      {
+       "name": "Front knuckle rebuild kit",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/front-end-rebuild-kit/"
+      },
+      {
+       "name": "OEM pinion seal, front/rear",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/oem-pinion-seal-front-rear/"
+      }
+     ]
+    },
+    {
+     "item": "Rear differential",
+     "spec": "3.2 pt · GL-5 90 (1988) or 75W-90 (1992)",
+     "interval": "Drain and fill at purchase",
+     "note": "With an automatic locker or spool, use the oil the locker maker specifies.",
+     "parts": [
+      {
+       "name": "OEM pinion seal, front/rear",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/oem-pinion-seal-front-rear/"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid",
+     "spec": "DOT 3",
+     "interval": "Flush at purchase, then every 2 years",
+     "note": "1986–89 trucks use their own master cylinder.",
+     "parts": [
+      {
+       "name": "Master cylinder, 1986–89",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/master-cylinder-samurai/"
+      }
+     ]
+    },
+    {
+     "item": "Power steering fluid (if fitted)",
+     "spec": "Dexron-III ATF (AMSOIL, 1988)",
+     "interval": "Check at purchase",
+     "note": "Only applies if your truck has power steering.",
+     "parts": [
+      {
+       "name": "Swepco 715 power steering fluid",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/swepco-715-power-steering-fluid/"
+      }
+     ]
+    },
+    {
+     "item": "U-joints, steering joint & spring bushings",
+     "spec": "Grease points [CONFIRM IN MANUAL]",
+     "interval": "At purchase, then every oil change",
+     "note": "A seized steering joint and crumbling spring or body bushings are normal at this age.",
+     "parts": [
+      {
+       "name": "Japanese U-joint",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/u-joints-japanese/"
+      },
+      {
+       "name": "Samurai steering joint (OE 48230-80100)",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/samurai-steering-joint/"
+      },
+      {
+       "name": "Urethane spring bushing kit, stock shackles",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/urethane-bushing-kit-stock/"
+      }
+     ]
+    },
+    {
+     "item": "Front locking hubs",
+     "spec": "Aisin manual hubs",
+     "interval": "Inspect at purchase",
+     "note": "Lock and unlock both hubs. They must be locked for 4WD to work.",
+     "parts": [
+      {
+       "name": "Samurai Aisin locking hub",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/samurai-aisin-locking-hub/"
+      },
+      {
+       "name": "Hub bolt kit",
+       "supplier": "Trail Tough",
+       "url": "https://trailtough.com/product/hub-bolt-kit/"
+      }
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "About a 215/75R15. On Zukiworld, owners say a 215/75R15 fits a stock Samurai with no modifications and 225s fit with a little effort. A 235/75R15 (about 29 inches) needs trimming and flattened inner fender seams, a 1.5–2 inch lift, or both. Stock tires were P205/70R15 according to the 1986 brochure.",
+    "src": "ZUKIWORLD · 1986 BROCHURE"
+   },
+   {
+    "q": "Does the Samurai really roll over easily?",
+    "a": "It depends who you ask. CU's 1988 'Not Acceptable' rating came from tip-ups in a severe, modified avoidance maneuver, and NHTSA denied petitions to investigate a defect. In the 2004 settlement CU said it never meant the Samurai easily rolls over in routine driving. NHTSA's Michigan data put its rollover rate close to the Wrangler's, but it's still short and narrow, so drive it like one.",
+    "src": "CU/SUZUKI JOINT STATEMENT · NHTSA"
+   },
+   {
+    "q": "Which years should I buy?",
+    "a": "1986–early 1988 trucks have the firmest ride and the tallest fifth gear (0.795). The '1988½' update brought softer springs, a thicker front anti-roll bar and a 0.865 fifth gear. 1990–95 trucks have throttle-body injection. Condition and the quality of past modifications matter more than the year.",
+    "src": "MOTORTREND · 1986 BROCHURE"
+   },
+   {
+    "q": "What engine does it have, and what's the common swap?",
+    "a": "The 1,324 cc SOHC eight-valve G13A (64 hp), then the injected G13BA. The common upgrade is a 1.6-litre Sidekick or Tracker engine, which bolts to the same mounts. Trail Tough sells kits for 1.6 and 2.0/2.3 Suzuki conversions. Check your state's emissions rules first.",
+    "src": "WIKIPEDIA · TRAIL TOUGH"
+   },
+   {
+    "q": "Should I re-gear the transfer case or the axles?",
+    "a": "Trail Tough's advice is to do both, in that order of importance: choose ring-and-pinion gears to suit the tire size, then pick transfer case gears for crawling. Doing all the reduction in the transfer case overloads the U-joints, the transfer case mounts and the frame brackets.",
+    "src": "TRAIL TOUGH"
+   },
+   {
+    "q": "How much lift do I need for 29s, 31s or bigger?",
+    "a": "Trail Tough rates the 2-inch Old Man Emu spring kit as 'just right for a 29-inch tire'. Its spring-over kit gives about 4.5 inches of lift for up to 31-inch tires. Bigger than that usually means a body lift, longer shackles, or a Toyota axle swap with custom steering.",
+    "src": "TRAIL TOUGH"
+   },
+   {
+    "q": "Can I put Toyota axles under a Samurai?",
+    "a": "Yes, and it's a very common swap. 1979–85 Toyota truck axles are about 5 inches wider than the Samurai's and take the same brake fittings. You need a way to deal with the different front spring perch width, flange adapters or redrilled flanges for the driveshafts, and aftermarket steering, because Samurai steering won't fit. Trail-Gear and Low Range Off-Road sell conversion kits.",
+    "src": "ZUKIWORLD · TRAIL-GEAR"
+   },
+   {
+    "q": "Why does it grind or vibrate in 4WD high when it's lifted?",
+    "a": "According to Trail Tough, the transfer case tilts down 7 degrees at the back while the front pinion points up about 9 degrees, so the front driveshaft's U-joint angles work against each other. Lift makes it worse. Tipping the pinion won't fix it, though a CV front driveshaft helps.",
+    "src": "TRAIL TOUGH"
+   },
+   {
+    "q": "What fuel economy and tank range should I expect?",
+    "a": "Suzuki's 1986 brochure quoted 27 mpg city and 29 highway (1986 EPA estimates) and a 40-litre (10.6 US gallon) tank. Real-world numbers fall with big tires and lift.",
+    "src": "1986 BROCHURE"
+   },
+   {
+    "q": "What lockers fit?",
+    "a": "Trail Tough's Spartan automatic locker fits the rear of every Samurai and the front of 1986–89 trucks. ARB Air Lockers and spools are also available. Even an open front diff with a rear locker makes a big difference on the trail.",
+    "src": "TRAIL TOUGH"
+   },
+   {
+    "q": "Are there any recalls?",
+    "a": "NHTSA lists one US campaign: 95V103008 for 1988–1991 Samurais, which covers front seat belt buckles whose red release buttons can break.",
+    "src": "NHTSA"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "An Old Man Emu spring-under kit adds about 2 inches for 29-inch tires. A spring-over (SPOA) conversion gives about 4.5 inches for 31s and is the classic Samurai trail build.",
+    "who": [
+     {
+      "name": "Trail Tough — Old Man Emu Samurai lift",
+      "url": "https://trailtough.com/product/old-man-emu-samurai-lift/"
+     },
+     {
+      "name": "Trail Tough — SPOA suspension system",
+      "url": "https://trailtough.com/product/spoa-suspension-system-deluxe/"
+     },
+     {
+      "name": "Low Range Off-Road — spring over axle kit",
+      "url": "https://lowrangeoffroad.com/samurai-spring-over-axle-conversion-kit.html"
+     }
+    ]
+   },
+   {
+    "cat": "TRANSFER CASE GEARS",
+    "why": "Lower transfer case gears are the Samurai's signature crawling mod. Sumo 4.16:1 gears give 84 percent more low-range reduction, and 6.4:1 gears give 181 percent. Brace the case mounts when you fit them.",
+    "who": [
+     {
+      "name": "Trail Tough — 4.16 Sumo crawler gears",
+      "url": "https://trailtough.com/product/4-161-suzuki-samurai-crawler-gear-kit/"
+     },
+     {
+      "name": "Trail Tough — 6.4 Sumo gears",
+      "url": "https://trailtough.com/product/6-41-suzuki-samurai-rockmonster-gears/"
+     },
+     {
+      "name": "Trail Tough — Mighty Kong II mount",
+      "url": "https://trailtough.com/product/mighty-kong-ii-transfer-case-mountskid-plate/"
+     }
+    ]
+   },
+   {
+    "cat": "AXLE GEARS & LOCKERS",
+    "why": "Regear the 6 7/8-inch Suzuki differentials for bigger tires, then lock them.",
+    "who": [
+     {
+      "name": "Trail Tough — Revolution Gear 4.57 / 5.38",
+      "url": "https://trailtough.com/product/revolution-gear-4-57-5-38/"
+     },
+     {
+      "name": "Trail Tough — Spartan automatic locker",
+      "url": "https://trailtough.com/product/automatic-locker-spartan/"
+     },
+     {
+      "name": "Trail Tough — ARB Air Locker",
+      "url": "https://trailtough.com/product/arb-air-lockers/"
+     }
+    ]
+   },
+   {
+    "cat": "AXLE SWAP",
+    "why": "Toyota axles are wider and stronger and have a deep aftermarket, which is why they're the standard upgrade for big tires.",
+    "who": [
+     {
+      "name": "Trail-Gear — Toyota leaf spring swap kit for Samurai (front)",
+      "url": "https://trail-gear.com/toyota-leaf-spring-swap-kit-with-missing-link-shackles-for-suzuki-samurai-front-kit.html"
+     },
+     {
+      "name": "Trail Tough — Toyota to Samurai high-steer kit",
+      "url": "https://trailtough.com/product/toyota-to-samurai-hysteer-kit/"
+     }
+    ]
+   },
+   {
+    "cat": "ENGINE SWAP",
+    "why": "A 1.6 from a Sidekick or Tracker bolts to the same mounts. 2.0 and 2.3 conversions go further.",
+    "who": [
+     {
+      "name": "Trail Tough — 1.6 litre conversion kit",
+      "url": "https://trailtough.com/product/1-6-liter-suzuki-engine-conversion-kit/"
+     },
+     {
+      "name": "Trail Tough — 2.0/2.3 litre conversion kit",
+      "url": "https://trailtough.com/product/2-0-2-3-liter-suzuki-engine-conversion-kit/"
+     }
+    ]
+   },
+   {
+    "cat": "STEERING",
+    "why": "Knuckle-over steering puts the drag link above the springs and cures bump steer on spring-over trucks.",
+    "who": [
+     {
+      "name": "Trail Tough — knuckle-over steering",
+      "url": "https://trailtough.com/product/trail-tough-knuckle-over-steering/"
+     },
+     {
+      "name": "Trail Tough — rag joint eliminator",
+      "url": "https://trailtough.com/product/rag-joint-eliminator/"
+     }
+    ]
+   },
+   {
+    "cat": "ARMOR & BUMPERS",
+    "why": "Skid plates, sliders and tight-fitting bumpers protect a truck that spends its life on rocks.",
+    "who": [
+     {
+      "name": "Trail Tough — full skid plate",
+      "url": "https://trailtough.com/product/suzuki-samurai-full-skid-plate/"
+     },
+     {
+      "name": "Trail Tough — front winch bumper",
+      "url": "https://trailtough.com/product/front-universal-winch-mount-bumper/"
+     },
+     {
+      "name": "Trail Tough — sport cage",
+      "url": "https://trailtough.com/product/family-style-sport-cage-front-kit/"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1986–1995 · US",
+    "label": "Samurai (all)",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=samurai&minyear=1986&maxyear=1995",
+    "bat_url": "https://bringatrailer.com/suzuki/samurai/"
+   },
+   {
+    "years": "1986–1989 · US",
+    "label": "Samurai, carbureted",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=samurai&minyear=1986&maxyear=1989",
+    "bat_url": "https://bringatrailer.com/suzuki/samurai/"
+   },
+   {
+    "years": "1990–1995 · US",
+    "label": "Samurai, fuel-injected",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=samurai&minyear=1990&maxyear=1995",
+    "bat_url": "https://bringatrailer.com/suzuki/samurai/"
+   },
+   {
+    "years": "1981–1998 · import",
+    "label": "SJ / Jimny 1000 & 1300",
+    "at_url": "https://www.autotempest.com/results?make=suzuki&model=jimny&minyear=1981&maxyear=1998",
+    "bat_url": "https://bringatrailer.com/suzuki/jimny/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "Trail Tough (Linda Bradshaw)",
+    "focus": "SAMURAI PARTS & BUILDS",
+    "url": "https://www.youtube.com/@TrailTough"
+   },
+   {
+    "kind": "YT",
+    "name": "ZUKIWORLD",
+    "focus": "SUZUKI TRAIL EVENTS",
+    "url": "https://www.youtube.com/@ZUKIWORLD"
+   }
+  ],
+  "forums": [
+   {
+    "name": "Zukiworld — General Suzuki Forum",
+    "url": "https://www.zukiworld.com/forum/general-suzuki-forum/",
+    "note": "The long-running US Suzuki 4x4 community; deep Samurai axle, tire and lift threads"
+   },
+   {
+    "name": "Zukiworld — Technical discussion (beginner and repair)",
+    "url": "https://www.zukiworld.com/forum/technical-discussion-beginner-repair/",
+    "note": "Repair questions on Samurais, Sidekicks and SJs"
+   },
+   {
+    "name": "Zukiworld — Technical discussion (performance and modification)",
+    "url": "https://www.zukiworld.com/forum/technical-discussion-performance-modify/",
+    "note": "Engine swaps, axle swaps and builds"
+   }
+  ],
+  "related": [
+   {
+    "rel": "PREDECESSOR",
+    "name": "LJ series",
+    "family": "suzuki",
+    "gen": "lj-series"
+   },
+   {
+    "rel": "SUCCESSOR",
+    "name": "Jimny JB23",
+    "family": "suzuki",
+    "gen": "jimny-jb23"
+   },
+   {
+    "rel": "PRICE RIVAL",
+    "name": "Jeep Wrangler YJ",
+    "family": "jeep",
+    "gen": "yj"
+   }
+  ],
+  "plate": [
+   {
+    "k": "CODES",
+    "v": "SJ410 · SJ413 · Samurai · JA51 · JB31/JB32"
+   },
+   {
+    "k": "BUILT",
+    "v": "Iwata, Japan, 1981–98 · Santana (Spain), Maruti (India), Pakistan, Indonesia, Thailand, Colombia"
+   },
+   {
+    "k": "US SALES",
+    "v": "Late 1985 (1986 MY) – 1995"
+   },
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame, leaf springs front & rear"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "2,030 mm (79.9 in) · LWB 2,375 mm"
+   },
+   {
+    "k": "TRACK",
+    "v": "1,300 / 1,310 mm (US Samurai)"
+   },
+   {
+    "k": "ENGINE",
+    "v": "G13A 1,324 cc SOHC I4 · 74 × 77 mm · 8.9:1"
+   },
+   {
+    "k": "OUTPUT",
+    "v": "64 hp @ 5,500 · 74 lb-ft @ 3,500 (1986 US)"
+   },
+   {
+    "k": "GEARBOX",
+    "v": "5-speed manual · 3.652 / 1.947 / 1.423 / 1.000 / 0.795"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "2-speed · 2.268 low / 1.409 high"
+   },
+   {
+    "k": "TIRES",
+    "v": "P205/70R15 (1986 US)"
+   },
+   {
+    "k": "CURB WEIGHT",
+    "v": "950 kg (2,094 lb) convertible"
+   }
+  ],
+  "photos": [
+   {
+    "file": "samurai-chappie-shasta-trail.jpg",
+    "alt": "A lifted white Suzuki Samurai with a roll cage and large tires crawling up a rutted red-dirt trail between pines",
+    "caption": "BUILT SAMURAI · CHAPPIE-SHASTA OHV AREA, CALIFORNIA",
+    "credit": "Bureau of Land Management California · Public domain",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:4x4_Club_at_Chappie-Shasta_OHV_Area_(52225054298).jpg"
+   },
+   {
+    "file": "samurai-rax-alpine-meadow.jpg",
+    "alt": "A green Suzuki Samurai hardtop parked on a snowy alpine meadow below the Schneeberg peak",
+    "caption": "SAMURAI · RAX, AUSTRIA",
+    "credit": "GT1976 · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2017-11-02_(406)_Suzuki_Samurai_at_Rax,_Austria.jpg"
+   },
+   {
+    "file": "samurai-snow-ridge.jpg",
+    "alt": "A dark blue Suzuki Samurai with a winch parked in fresh snow on a mountain ridge overlooking forested valleys",
+    "caption": "SAMURAI · SNOW WHEELING, MOUNTAIN RIDGE",
+    "credit": "MrLundy · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SnowWheeling_2012-01-14.jpg"
+   },
+   {
+    "file": "samurai-santana-pyrenees.jpg",
+    "alt": "A red Santana-built Suzuki Samurai 1.9 turbodiesel hardtop on a grassy mountain track in the Pyrenees",
+    "caption": "SANTANA SAMURAI 1.9 TD · PYRENEES, FRANCE",
+    "credit": "JLPC · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bar%C3%A8ges_4WD_2012.jpg"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Suzuki Jimny",
+    "url": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
+   },
+   {
+    "name": "Wikipedia — Suzuki G engine",
+    "url": "https://en.wikipedia.org/wiki/Suzuki_G_engine"
+   },
+   {
+    "name": "Wikipedia — Suzuki Motor Corp. v. Consumers Union of the U.S., Inc.",
+    "url": "https://en.wikipedia.org/wiki/Suzuki_Motor_Corp._v._Consumers_Union_of_the_U.S.,_Inc."
+   },
+   {
+    "name": "Wikipedia — Maruti Suzuki Gypsy",
+    "url": "https://en.wikipedia.org/wiki/Maruti_Suzuki_Gypsy"
+   },
+   {
+    "name": "Wikipedia — Santana Motor",
+    "url": "https://en.wikipedia.org/wiki/Santana_Motor"
+   },
+   {
+    "name": "MotorTrend — The Suzuki Samurai: History, Generations, Models (Aaron Gold)",
+    "url": "https://www.motortrend.com/features/suzuki-samurai-history-generations-models-differences"
+   },
+   {
+    "name": "Suzuki — 1986 US Samurai brochure (auto-brochures.com scan)",
+    "url": "http://www.auto-brochures.com/makes/Suzuki/Samurai/Suzuki_US%20Samurai_1986.pdf"
+   },
+   {
+    "name": "New York Times — Consumer group asks recall of Suzuki Samurai as unsafe (June 3, 1988)",
+    "url": "https://www.nytimes.com/1988/06/03/business/consumer-group-asks-recall-of-suzuki-samurai-as-unsafe.html"
+   },
+   {
+    "name": "U.S. District Court, C.D. Cal. — Suzuki Motor Corp. v. Consumers Union, SA CV 96-340 (order)",
+    "url": "https://www.cacd.uscourts.gov/sites/default/files/SACV96-340.PDF"
+   },
+   {
+    "name": "vLex — Suzuki Motor Corp. v. Consumers Union, 330 F.3d 1110 (9th Cir. 2003)",
+    "url": "https://case-law.vlex.com/vid/suzuki-motor-corp-v-884983793"
+   },
+   {
+    "name": "Consumers Union — Reply brief, petition for certiorari No. 03-281 (U.S. Supreme Court)",
+    "url": "https://advocacy.consumerreports.org/wp-content/uploads/2013/04/SuzukiFinalReply.pdf"
+   },
+   {
+    "name": "Consumers Union — Suzuki and Consumers Union agree to settle lawsuit (joint statement, July 8, 2004)",
+    "url": "https://advocacy.consumerreports.org/press_release/suzuki-and-consumers-union-agree-to-settle-lawsuit"
+   },
+   {
+    "name": "Consumer Reports — Suzuki and Consumers Union agree on dismissal of lawsuit",
+    "url": "https://www.consumerreports.org/lawsuits-settlements/suzuki-and-consumers-union-agree-on-dismissal-of-lawsuit"
+   },
+   {
+    "name": "NBC News / Reuters — Suzuki drops suit against Consumer Reports (July 8, 2004)",
+    "url": "https://www.nbcnews.com/id/wbna5396775"
+   },
+   {
+    "name": "Federal Register 64 FR 27344 (May 19, 1999) — NHTSA denial of defect petition DP97-006, history of rollover petitions incl. DP88-011 and DP88-019",
+    "url": "https://www.govinfo.gov/content/pkg/FR-1999-05-19/html/99-12579.htm"
+   },
+   {
+    "name": "NHTSA recalls API — Suzuki Samurai 1988–1991, campaign 95V103008",
+    "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=suzuki&model=samurai&modelYear=1988"
+   },
+   {
+    "name": "Zukiworld forum — Yota axles under a Sami?? (2006)",
+    "url": "https://www.zukiworld.com/forum/general-suzuki-forum/yota-axles-under-a-sami/"
+   },
+   {
+    "name": "Zukiworld forum — How tall can you go on tires with stock suspension (87 Zuk)",
+    "url": "https://zukiworld.com/forum/general-suzuki-forum/how-tall-can-you-go-on-tires-with-stock-suspension-87-zuk"
+   },
+   {
+    "name": "Zukiworld forum — Samurai larger tires but no lift",
+    "url": "https://www.zukiworld.com/forum/general-suzuki-forum/samurai-larger-tires-but-no-lift"
+   },
+   {
+    "name": "Trail-Gear / Low Range Off-Road — Toyota leaf spring swap kit for Suzuki Samurai (front)",
+    "url": "https://trail-gear.com/toyota-leaf-spring-swap-kit-with-missing-link-shackles-for-suzuki-samurai-front-kit.html"
+   },
+   {
+    "name": "Low Range Off-Road — Samurai spring over axle conversion kit",
+    "url": "https://lowrangeoffroad.com/samurai-spring-over-axle-conversion-kit.html"
+   },
+   {
+    "name": "Trail Tough — About us",
+    "url": "https://trailtough.com/about-us/"
+   },
+   {
+    "name": "Trail Tough — Bad grinding noise when in 4WD high range",
+    "url": "https://trailtough.com/bad-grinding-noise-when-in-4wd-high-range/"
+   },
+   {
+    "name": "Trail Tough — Question: transfer case gears or axle gears?",
+    "url": "https://trailtough.com/question-transfer-case-gears-or-axle-gears/"
+   },
+   {
+    "name": "Trail Tough — SJ410 backing plate modification",
+    "url": "https://trailtough.com/sj410-backing-plate-modification/"
+   },
+   {
+    "name": "Trail Tough — Donor parts list for 1600 8V or 16V conversion",
+    "url": "https://trailtough.com/donor-parts-list-for-1600-8v-or-16v-conversion/"
+   },
+   {
+    "name": "Trail Tough — Transfer case / frame mount repair kit",
+    "url": "https://trailtough.com/product/transfer-case-frame-mount-repair-kit/"
+   },
+   {
+    "name": "Trail Tough — Rebuilt 4.16 transfer case (gear oil recommendation)",
+    "url": "https://trailtough.com/product/rebuilt-4-16-transfer-case/"
+   },
+   {
+    "name": "Trail Tough — Old Man Emu Samurai and SJ410 lift",
+    "url": "https://trailtough.com/product/old-man-emu-samurai-lift/"
+   },
+   {
+    "name": "Trail Tough — SPOA suspension system, deluxe",
+    "url": "https://trailtough.com/product/spoa-suspension-system-deluxe/"
+   },
+   {
+    "name": "Trail Tough — Suzuki Samurai front knuckle rebuild kit",
+    "url": "https://trailtough.com/product/front-end-rebuild-kit/"
+   },
+   {
+    "name": "Trail Tough — Spartan automatic locker",
+    "url": "https://trailtough.com/product/automatic-locker-spartan/"
+   },
+   {
+    "name": "AMSOIL — 1988 Suzuki Samurai 1.3L (engine code 5) capacities",
+    "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1988/suzuki/samurai/1-3l-4-cyl-engine-code-5-5/"
+   },
+   {
+    "name": "AMSOIL — 1992 Suzuki Samurai 1.3L (engine code 3) capacities",
+    "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1992/suzuki/samurai/1-3l-4-cyl-engine-code-3-8-valve-f/"
+   },
+   {
+    "name": "Suzuki Motor Corporation (Japan) — Jimny history: SJ40 (Jimny 1000)",
+    "url": "https://www.suzuki.co.jp/car/jimny/special/history/sj40.html"
+   },
+   {
+    "name": "Suzuki Motor Corporation (Japan) — Jimny history: JA51 (Jimny 1300)",
+    "url": "https://www.suzuki.co.jp/car/jimny/special/history/ja51.html"
+   },
+   {
+    "name": "PowerNation (Xtreme 4x4) — '85 Suzuki Samurai build",
+    "url": "https://powernationtv.com/build/27/85-suzuki-samurai"
+   },
+   {
+    "name": "Bring a Trailer — Suzuki Samurai auction results",
+    "url": "https://bringatrailer.com/suzuki/samurai/"
+   }
+  ]
+ }
+}

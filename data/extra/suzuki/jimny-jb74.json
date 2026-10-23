@@ -1,0 +1,377 @@
+{
+ "fitment": {
+  "stock": [
+   "195/80R15 on 15-inch steel or alloy wheels (all Australian grades, 3-door and XL)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "offset": "ET5 (+5 mm) on 15x5.5",
+   "center_bore": "108.1 mm",
+   "lug_thread": "M12x1.25"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "215/75R15",
+    "note": "BigJimny consensus for the largest size suited to the stock rims; it's only slightly taller than stock. Some Australian owners fit 235/75R15s on stock rims, beyond the rims' recommended limits."
+   },
+   {
+    "lift": "2 in",
+    "size": "235/75R15",
+    "note": "Fits a gen 4 with a little trimming of the front bumper, per BigJimny owners; regearing advised."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "UK",
+  "items": [
+   {
+    "title": "Fuel pump impeller may swell and stall the engine",
+    "years": "Built 9 May – 22 November 2018",
+    "ref": "EU Safety Gate A12/00956/21",
+    "url": "https://car-recalls.eu/recall/suzuki-jimny-2018-fuel-pump/",
+    "summary": "The resin impeller in the fuel pump can deform and interfere with the housing; the engine could stop while driving. 7,052 vehicles worldwide."
+   },
+   {
+    "title": "Fuel pump failure (second campaign)",
+    "years": "Built 12 November 2018 – 7 September 2019",
+    "ref": "EU Safety Gate A12/00885/24",
+    "url": "https://car-recalls.eu/recall/suzuki-jimny-2018-2019-fuel-pump-failure/",
+    "summary": "Insufficiently dense resin in the pump can deform and cause failure and stalling. 21,353 vehicles worldwide."
+   },
+   {
+    "title": "Door harness wires may break (side and curtain airbags)",
+    "years": "Built from start of production to 2 December 2020",
+    "ref": "EU Safety Gate A12/00955/21",
+    "url": "https://car-recalls.eu/recall/suzuki-jimny-2018-door-harness-airbag/",
+    "summary": "Repeated door opening can damage the harness so the side and curtain airbags may not deploy correctly. 32,800 vehicles worldwide."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2018",
+   "change": "Production starts at Suzuki's Kosai plant on 29 May; Japanese launch of the JB64 Jimny and JB74 Jimny Sierra on 5 July; European debut in Germany in October; South Africa in November",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "Fuel-pump recall covers cars built 9 May to 22 November 2018",
+   "flag": "avoid"
+  },
+  {
+   "year": "2018–2019",
+   "change": "UK's 1,200-car 2019 allocation sells out by December 2018, with waits of up to a year. Australia launches in January 2019",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Passenger Jimny withdrawn from the UK in July over CO2; two-seat Jimny Commercial arrives from September. Door-harness airbag recall covers cars built up to 2 December 2020",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "Mexico launch in November; the first 1,000 reserved units sell out in three days",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Maruti Suzuki starts Indian assembly for export in January. Australia adds the Lite grade in June, with the queue at up to 12 months",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "5-door JC74 revealed in India in January; Indian launch on 7 June; Australian Jimny XL from 5 December",
+   "flag": "buy"
+  },
+  {
+   "year": "2025",
+   "change": "Japan's 5-door Jimny Nomade launches on 30 January and orders are suspended after about 50,000 in four days. Australia pauses 3-door supply for new ADR rules in February. Jimny Commercial withdrawn from European sale",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "Australian Jimny XL stop-delivery from late July; sales resume 27 August after Suzuki confirms no safety or compliance issue",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Nomade orders reopen in Japan on 30 January. Updated Australian 3-door adds adaptive cruise, lane-keep assist and front and rear parking sensors",
+   "flag": "note"
+  },
+  {
+   "year": "2043",
+   "change": "The earliest JB74s (built from May 2018) turn 25 and become eligible for US import under NHTSA's 25-year exemption",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The JB74 is still new and everywhere outside North America, so identification is mostly about kei versus Sierra, 3-door versus 5-door, and the European two-seat van.",
+  "items": [
+   {
+    "head": "JB64 or JB74",
+    "body": "The Japanese kei JB64 has no wheel-arch extensions and tucked-in bumpers, is 1,475 mm wide and uses the 658 cc R06A turbo three. The JB74 has bolt-on flares, is 1,645 mm wide and uses the 1.5 K15B."
+   },
+   {
+    "head": "Model code",
+    "body": "The model codes are JB64W for the kei car, JB74W for the Jimny Sierra and global 3-door, and JC74W for the 5-door."
+   },
+   {
+    "head": "3-door or 5-door",
+    "body": "The 5-door (Jimny XL in Australia, Nomade in Japan) has a 2,590 mm wheelbase versus 2,250 mm and is built only in India; the 3-door is built in Japan, and in India for some export markets."
+   },
+   {
+    "head": "Commercial version",
+    "body": "UK and European Jimny Commercial vans have no rear seats and a partition behind the front seats. They were homologated as light commercial vehicles."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "1,300 kg (2,866 lb) braked / 350 kg (772 lb) unbraked",
+   "note": "Suzuki Australia, 3-door and XL"
+  },
+  {
+   "k": "Payload",
+   "v": "About 340 kg (750 lb)",
+   "note": "3-door, per Unsealed 4X4; Ironman's GVM kit raises it to 690 kg"
+  },
+  {
+   "k": "Gross vehicle mass",
+   "v": "1,450 kg (3-door) / 1,545 kg (XL)",
+   "note": "Suzuki Australia"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "40 L (10.6 US gal)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "210 mm (8.3 in)",
+   "note": "unladen"
+  },
+  {
+   "k": "Approach / breakover / departure",
+   "v": "36° / 27° / 47° (3-door) · 36° / 24° / 47° (XL)",
+   "note": "Suzuki Australia"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "6.4 L/100 km manual · 6.9 L/100 km auto",
+   "note": "Australian ADR 81/02 combined"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,095–1,110 kg (3-door) · 1,185–1,200 kg (XL)",
+   "note": "minimum, manual–auto"
+  },
+  {
+   "k": "Turning",
+   "v": "4.9 m (3-door) · 5.7 m (XL)",
+   "note": "Suzuki Australia lists these as the kerb-to-kerb turning circle"
+  },
+  {
+   "k": "Cargo",
+   "v": "85 / 377 L (3-door) · 211 / 332 L (XL), seats up / folded"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "A new truck everywhere it's sold, often at or above list price because of waiting lists. There's no legal US market until 2043, so these are manufacturer prices abroad.",
+  "ranges": [
+   {
+    "cond": "Australia, 3-door (Lite to Heritage), drive-away",
+    "range": "A$36,490–42,490"
+   },
+   {
+    "cond": "Australia, Jimny XL 5-door, drive-away",
+    "range": "From A$40,490"
+   },
+   {
+    "cond": "Japan, Jimny Nomade 5-door at launch",
+    "range": "From ¥2,651,000"
+   },
+   {
+    "cond": "UK, Jimny Commercial at 2020 launch",
+    "range": "From £16,796 + VAT"
+   }
+  ],
+  "note": "Australian prices from Suzuki Australia in October 2026; Japanese Nomade launch price as reported in January 2025; UK Commercial price from Fleet News in September 2020."
+ },
+ "docs": [
+  {
+   "name": "Suzuki UK — Owner's handbooks",
+   "url": "https://cars.suzuki.co.uk/owners/using-your-car/owners-handbooks/",
+   "note": "Suzuki's official handbook locator, with fluid specs, capacities and service intervals for UK-market Jimnys"
+  },
+  {
+   "name": "Suzuki Australia — Jimny specifications",
+   "url": "https://www.suzuki.com.au/vehicles/4x4/jimny/specifications/",
+   "note": "Full current spec sheet for the 3-door and XL: gear ratios, weights, angles and towing"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The fourth-generation Jimny has never been sold in the United States, and Suzuki hasn't sold cars here since American Suzuki's 2012 bankruptcy. It isn't certified to US safety or emissions standards, so it can't be imported as a new or late-model car.",
+   "The way in for older foreign cars, NHTSA's exemption for vehicles 25 or more years old (49 CFR 591.5(i)), runs from the date of manufacture. JB74 production began on 29 May 2018, so the earliest trucks become eligible in mid-2043, 2023-on 5-doors from 2048, and each truck on its own 25th birthday.",
+   "CBP's September 2022 Puerto Rico case shows what happens if you try sooner. A US citizen bought a 2022 Jimny in Mexico, where it has been sold new since November 2020, drove it across the border and shipped it to Puerto Rico. CBP seized it: DOT ruled it ineligible because it was 'less than 25 years old from the date of manufacture,' and EPA said it couldn't be certified because the Jimny isn't sold in the US. CBP said such vehicles 'must be brought into compliance, exported, or destroyed.' Until 2043, the legal small Suzuki for an American is a 25-year-old third-generation JB23 or JB43."
+  ]
+ },
+ "production": {
+  "intro": "Built in Japan from May 2018 and in India from January 2021; demand has outstripped supply in most markets since launch.",
+  "items": [
+   {
+    "k": "Assembly",
+    "v": "Suzuki Kosai plant, Japan · Maruti Suzuki, Gurugram, India (5-door, export 3-door)"
+   },
+   {
+    "k": "Japan sales",
+    "v": "30,281 (2019) · 38,056 (2020) · 39,422 (2021) · 41,405 (2022) · 39,910 (2023)"
+   },
+   {
+    "k": "Nomade orders (Japan)",
+    "v": "About 50,000 in four days after the 30 January 2025 launch"
+   },
+   {
+    "k": "Nomade output for Japan",
+    "v": "About 1,200 a month at launch, about 3,300 a month by July 2025"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Jimny Commercial",
+    "years": "2020–2025",
+    "note": "Two-seat UK/European light commercial van, created to cut Suzuki's fleet CO2"
+   },
+   {
+    "name": "Jimny Lite",
+    "years": "2021–",
+    "note": "Australian entry grade with steel wheels, halogen headlights and a simpler head unit"
+   },
+   {
+    "name": "Rhino Edition",
+    "years": "2024–",
+    "note": "Accessory and decal special for the 3-door and 5-door in Southeast Asian markets; an Australian Jimny XL Rhino is limited to 250 cars"
+   },
+   {
+    "name": "Jimny Heritage",
+    "years": "Current",
+    "note": "Australian automatic-only grade with Heritage decals, mud flaps and cargo tray"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "BigJimny Forum",
+   "url": "https://www.bigjimny.com/forum",
+   "note": "UK-based owners' forum and parts shop covering every Jimny generation, including gen 4 and Nomade"
+  },
+  {
+   "kind": "event",
+   "name": "BigJimny Meet",
+   "url": "https://bigjimny.com/store/events/big-jimny-meet-2026",
+   "note": "Annual UK meet open to every generation, including JDM Sierras and Nomades; the 2026 event was on 14 June at Parkwood 4x4, between Leeds and Bradford"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Global Suzuki — Suzuki launches the all-new Jimny 4WD vehicles in Japan (5 July 2018)",
+   "url": "https://www.globalsuzuki.com/globalnews/2018/0705.html"
+  },
+  {
+   "name": "Wikipedia — Suzuki Jimny",
+   "url": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
+  },
+  {
+   "name": "Wikipedia — Suzuki",
+   "url": "https://en.wikipedia.org/wiki/Suzuki"
+  },
+  {
+   "name": "Suzuki Australia — Jimny specifications",
+   "url": "https://www.suzuki.com.au/vehicles/4x4/jimny/specifications/"
+  },
+  {
+   "name": "Suzuki Australia — Jimny range and pricing",
+   "url": "https://www.suzuki.com.au/vehicles/4x4/jimny"
+  },
+  {
+   "name": "TireWheelGuide — 2020 Suzuki Jimny tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/suzuki/jimny/2020/"
+  },
+  {
+   "name": "BigJimny Forum — Re: New gen Jimny tyre size",
+   "url": "https://www.bigjimny.com/forum/6-jimny-chat/65297-re-new-gen-jimny-tyre-size"
+  },
+  {
+   "name": "BigJimny Forum — 31in tyres, 2in lift, standard bumpers?",
+   "url": "https://www.bigjimny.com/forum/6-jimny-chat/69426-31-tyres-2-lift-standard-bumpers"
+  },
+  {
+   "name": "Car-Recalls.eu — Suzuki Jimny 2018 fuel pump recall",
+   "url": "https://car-recalls.eu/recall/suzuki-jimny-2018-fuel-pump/"
+  },
+  {
+   "name": "Car-Recalls.eu — Suzuki Jimny 2018–2019 fuel pump failure recall",
+   "url": "https://car-recalls.eu/recall/suzuki-jimny-2018-2019-fuel-pump-failure/"
+  },
+  {
+   "name": "Car-Recalls.eu — Suzuki Jimny 2018 door harness / airbag recall",
+   "url": "https://car-recalls.eu/recall/suzuki-jimny-2018-door-harness-airbag/"
+  },
+  {
+   "name": "Unsealed 4X4 — Ironman 4X4 Jimny GVM upgrade",
+   "url": "https://unsealed4x4.com.au/jimny-gvm-upgrade/"
+  },
+  {
+   "name": "Unsealed 4X4 — Jimny XL orders cancelled",
+   "url": "https://unsealed4x4.com.au/suzuki-jimny-xl-orders-cancelled/"
+  },
+  {
+   "name": "Unsealed 4X4 — Jimny XL sales back on after stop-delivery pause",
+   "url": "https://unsealed4x4.com.au/suzuki-jimny-xl-sales-back-on-after-stop-delivery-pause/"
+  },
+  {
+   "name": "Carscoops — Suzuki Jimny's demand is so strong some UK dealers have stopped taking deposits",
+   "url": "https://www.carscoops.com/2018/12/suzuki-jimnys-demand-strong-uk-dealers-stopped-taking-deposits/"
+  },
+  {
+   "name": "Carscoops — Suzuki drops Jimny from the UK",
+   "url": "https://www.carscoops.com/2020/07/suzuki-drops-jimny-from-the-uk-will-only-fulfill-existing-orders/"
+  },
+  {
+   "name": "Fleet News — Suzuki Jimny re-born as a commercial vehicle",
+   "url": "https://www.fleetnews.co.uk/news/van-news/2020/09/09/suzuki-jimny-re-born-as-a-commercial-vehicle"
+  },
+  {
+   "name": "CarsGuide — Suzuki Jimny wait time blows out to 12 months",
+   "url": "https://carsguide.com.au/car-news/suzuki-jimny-wait-time-blows-out-to-12-months-but-vitara-ignis-and-s-cross-availability"
+  },
+  {
+   "name": "Carscoops — Suzuki suspends orders for the Jimny Nomade",
+   "url": "https://www.carscoops.com/2025/02/suzuki-suspends-orders-for-the-jimny-nomade-due-to-its-extreme-popularity/"
+  },
+  {
+   "name": "Rushlane — Suzuki Jimny Nomade bookings reopen",
+   "url": "https://www.rushlane.com/suzuki-jimny-nomade-bookings-reopen-announced-4-year-waiting-period-12532839.html"
+  },
+  {
+   "name": "U.S. CBP — CBP seizes vehicle smuggled from Mexico into Puerto Rico (29 Sep 2022)",
+   "url": "https://cbp.gov/newsroom/local-media-release/cbp-seizes-vehicle-smuggled-mexico-puerto-rico"
+  },
+  {
+   "name": "Cornell LII — 49 CFR 591.5",
+   "url": "https://www.law.cornell.edu/cfr/text/49/591.5"
+  },
+  {
+   "name": "Suzuki UK — Owner's handbooks",
+   "url": "https://cars.suzuki.co.uk/owners/using-your-car/owners-handbooks/"
+  },
+  {
+   "name": "BigJimny — BigJimny Event 2026 tickets",
+   "url": "https://bigjimny.com/store/events/big-jimny-meet-2026"
+  }
+ ]
+}

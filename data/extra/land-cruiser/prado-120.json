@@ -1,0 +1,340 @@
+{
+ "fitment": {
+  "stock": [
+   "265/65R17 on 7.5Jx17 ET30"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+30 mm (stock 7.5Jx17)",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "113 N·m (83 lb-ft) per Koleso; Roughtrax lists 112 N·m"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "265/70R17",
+    "note": "ExplorOz owners report 'no rubbing issues', matching the GX 470 consensus on the same chassis."
+   },
+   {
+    "lift": "Stock (16-in wheels)",
+    "size": "265/70R16",
+    "note": "A common upsize 'without bother' (ExplorOz), but one owner says 16-inch rims may need caliper grinding to clear on a 120."
+   },
+   {
+    "lift": "2 in (50 mm)",
+    "size": "285/70R17 (≈33 in)",
+    "note": "Needs at least 50 mm of lift and +50 offset wheels (stock is +30), or trimming of the body mount behind the mud flap."
+   },
+   {
+    "lift": "Lifted",
+    "size": "285/75R16",
+    "note": "Fitted to lifted Prados 'with a little rubbing' (ExplorOz)."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [
+   {
+    "title": "Fuel pulsation damper assembly (Australia)",
+    "years": "GRJ120 built 29 October 2002 – 22 March 2003",
+    "ref": "PRA 2003/6123",
+    "url": "https://australiancar.reviews/?p=47885",
+    "summary": "April 2003: the pulsation damper, which smooths fuel-pressure pulses from the injectors, may have been assembled incorrectly."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "1KD-FTV injector seats changed from copper to aluminum",
+    "ref": "",
+    "summary": "Production change from August 2007 to stop blow-by leaking past the injector seats (AustralianCar.Reviews).",
+    "url": "https://australiancar.reviews/?p=47885"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1997",
+   "change": "Development begins; design work follows in 1998, and Lance Scott's ED² (France) proposal is picked in late 1999",
+   "flag": "note"
+  },
+  {
+   "year": "Oct 2002",
+   "change": "Launched in Japan on 7 October; production began in September. Lexus starts US sales of the GX 470 twin in November",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "Australian launch with the new 4.0 L 1GR-FE V6 (179 kW), the 1KZ-TE diesel and the 2.7; 4-star ANCAP. 14,639 sold in Australia that year",
+   "flag": "note"
+  },
+  {
+   "year": "April 2003",
+   "change": "Australian recall PRA 2003/6123 for the fuel pulsation damper on early GRJ120s",
+   "flag": "note"
+  },
+  {
+   "year": "July/Aug 2004",
+   "change": "Japan: 1GR-FE replaces the 5VZ-FE, and the 2TR-FE replaces the 3RZ-FE",
+   "flag": "note"
+  },
+  {
+   "year": "Late 2005",
+   "change": "Five-speed automatic arrives for the V6",
+   "flag": "buy"
+  },
+  {
+   "year": "May 2006",
+   "change": "Toyota Auto Body joins production",
+   "flag": "note"
+  },
+  {
+   "year": "Late 2006",
+   "change": "Euro IV 1KD-FTV (127 kW, 410 Nm) with 5AT and 6MT; Australia's diesel switches from the 1KZ-TE",
+   "flag": "note"
+  },
+  {
+   "year": "Aug 2007",
+   "change": "Aluminum injector seats replace copper on the 1KD-FTV; equipment and safety upgrades",
+   "flag": "buy"
+  },
+  {
+   "year": "Aug 2009",
+   "change": "Production ends; the J150 Prado replaces it in September",
+   "flag": "note"
+  },
+  {
+   "year": "Aug 2024",
+   "change": "Every J120 is now at least 15 years old, the threshold for Canadian import",
+   "flag": "note"
+  },
+  {
+   "year": "Sept 2027",
+   "change": "The first J120s turn 25 and become eligible for US import",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The Prado 120 looks a lot like a Lexus GX 470 and shares its platform with the 4Runner and FJ Cruiser. Read the model code and the engine bay, not the badges.",
+  "items": [
+   {
+    "head": "Model code = engine + body",
+    "body": "GRJ = 1GR-FE 4.0 V6, KDJ = 1KD-FTV diesel, KZJ = 1KZ-TE diesel, VZJ = 5VZ-FE 3.4 V6, RZJ = 3RZ-FE and TRJ = 2TR-FE 2.7 fours. Toyota's own list shows 120/121 as five-door codes and 125 as the three-door."
+   },
+   {
+    "head": "Copper or aluminum injector seats",
+    "body": "On a 1KD-FTV, trucks built from August 2007 have aluminum injector seats; earlier trucks have copper ones. Ask for receipts if the copper seats have been replaced."
+   },
+   {
+    "head": "Air or coils at the rear",
+    "body": "Electronically controlled rear air suspension came on the Australian Grande and top Japanese grades (TZ G Selection). Look for the air springs and compressor before you price a lift."
+   },
+   {
+    "head": "Rear diff",
+    "body": "ExplorOz owners say Australian GX/GXL trucks have a rear LSD, while VX and Grande have an open rear diff with traction control. Some markets list a rear diff lock, so check for the switch and confirm it works."
+   },
+   {
+    "head": "Prado or rebadged GX?",
+    "body": "IH8MUD has threads on rebadging GX 470s as Prados. A 2UZ-FE V8 and a US VIN mean it's a Lexus GX 470, whatever the tailgate says."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,500 kg (5,512 lb) braked",
+   "note": "Australian 2006–08 trucks, per 4X4 Australia"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "87 L + 93 L sub tank = 180 L (47.6 US gal)",
+   "note": "Australian five-door; three-door 87 L only; UK five-door 95 L (Roughtrax)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "9.3 L/100 km diesel · 13.6 L/100 km V6 (official); owners report up to 18 L/100 km for the V6",
+   "note": "CarsGuide"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,830 kg (4,034 lb) 3-door V6 – 1,970 kg (4,343 lb) 5-door V6",
+   "note": "Toyota, Japanese spec"
+  },
+  {
+   "k": "Gross vehicle mass",
+   "v": "2,800 kg",
+   "note": "Roughtrax, KDJ120"
+  },
+  {
+   "k": "Dimensions",
+   "v": "4,715 × 1,875 × 1,855–1,870 mm (5-door)",
+   "note": "Toyota, Japanese spec"
+  },
+  {
+   "k": "Safety",
+   "v": "4-star ANCAP (2003)",
+   "note": "GXL and VX/Grande variants"
+  }
+ ],
+ "docs": [
+  {
+   "name": "Gregory's — Hi-Lux Prado: 1KZ-TE Turbo Diesel Engines (ISBN 978-0-85566-802-0)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_KZ_engine",
+   "note": "Reprint workshop manual covering the 1KZ-TE (Wikipedia lists the KZJ120 among its applications)."
+  },
+  {
+   "name": "Partsouq — genuine Toyota parts catalogue (search by frame number)",
+   "url": "https://partsouq.com/",
+   "note": "Look up genuine part numbers for a JDM or Australian Prado by its frame number."
+  },
+  {
+   "name": "Amayama — genuine Toyota parts and cross-references",
+   "url": "https://www.amayama.com/en",
+   "note": "Useful for checking GX 470, 4Runner and FJ Cruiser interchange."
+  },
+  {
+   "name": "CruiserTeq — 120 Series/GX470 parts",
+   "url": "https://cruiserteq.com/120-series-gx470/",
+   "note": "US stockist of 120/GX front-end parts"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota never sold the Prado 120 in the United States. North America got the same truck as the [[lexus/gx470|Lexus GX 470]], with a V8. NHTSA allows vehicles at least 25 years old to be imported without meeting US safety standards, and counts the 25 years from the date of manufacture. Production began in September 2002 (Japanese sales on 7 October 2002), so the earliest J120s become eligible from September 2027. The last, built in August 2009, follow in 2034. EPA's separate exemption (Form 3520-1, code E) needs the vehicle to be at least 21 calendar years old and in original configuration, so from 2027 the NHTSA rule is the one that matters.",
+   "Canada is more relaxed. Transport Canada lets in vehicles from outside the US and Mexico once they're 15 years old by month and year of manufacture, so every J120 has qualified since August 2024. That doesn't help Americans: a Canadian-registered Prado 120 still has to reach 25 before it can be brought into the US. When the time comes, check your state's titling and emissions rules (California especially) before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Built for seven years on three continents' worth of demand, and sold in the US only as a Lexus.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "September 2002 – August 2009"
+   },
+   {
+    "k": "Plants",
+    "v": "Toyota Honsha and Tahara, Japan; Toyota Auto Body (from May 2006); FAW Toyota, Chengdu, China"
+   },
+   {
+    "k": "Australian sales, 2003",
+    "v": "14,639, nearly double the previous year (4X4 Australia)"
+   },
+   {
+    "k": "Designer",
+    "v": "Lance Scott, Toyota ED² (France)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "TZ 'G Selection' (Japan)",
+    "years": "Japanese market",
+    "note": "Top Japanese grade, with heated seats and mirrors, adjustable air suspension, hill-start and downhill assist and a center-diff lock"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with local chapters and sanctioned trail events; GX 470 owners welcome"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "TLCA's annual Land Cruiser trail event in Moab, Utah, each spring"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota Land Cruiser Prado (third generation, J120)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado#J120"
+  },
+  {
+   "name": "Toyota — 75 Years of Toyota, Vehicle Lineage: Land Cruiser Prado (120)",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60014203/index.html"
+  },
+  {
+   "name": "Toyota — 75 Years of Toyota, Vehicle Lineage: Land Cruiser Prado (150)",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60001931/index.html"
+  },
+  {
+   "name": "4X4 Australia — Toyota Prado Australian history and buyer's guide: 1996–2023",
+   "url": "https://www.4x4australia.com.au/reviews/toyota-prado-australian-history-and-buyers-guide-1996-2023"
+  },
+  {
+   "name": "AustralianCar.Reviews — Recalls & faults: Toyota 120-Series LandCruiser Prado",
+   "url": "https://australiancar.reviews/?p=47885"
+  },
+  {
+   "name": "CarsGuide — Used Toyota LandCruiser Prado review: 2003–2009 (Graham Smith, 2012)",
+   "url": "https://carsguide.com.au/car-reviews/toyota-landcruiser-prado-used-review-2003-2009-13605"
+  },
+  {
+   "name": "Unsealed 4X4 — D4D Toyota HiLux common problems and solutions (1KD-FTV)",
+   "url": "https://unsealed4x4.com.au/d4d-hilux-common-problems-and-solutions/"
+  },
+  {
+   "name": "Roughtrax 4x4 — Land Cruiser 120 Series vehicle specifications (1KD-FTV)",
+   "url": "https://roughtrax4x4.com/blog/land-cruiser-120-series-vehicle-specifications"
+  },
+  {
+   "name": "Koleso.ee — Toyota Land Cruiser Prado 120 Series [2002–2009] wheel and tyre sizes",
+   "url": "https://koleso.ee/en/valuveljed/toyota/land-cruiser-prado/4381/120-series-2002-2009/8975"
+  },
+  {
+   "name": "Wikipedia — Toyota KZ engine (1KZ-TE, KZJ120)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_KZ_engine"
+  },
+  {
+   "name": "ExplorOz — Prado 120 tyres & suspension",
+   "url": "https://www.exploroz.com/forum/11296/prado-120-tyres--suspension"
+  },
+  {
+   "name": "ExplorOz — 285/70/17 BFG A/T on Prado 120 series",
+   "url": "https://www.exploroz.com/forum/53943/2857017-bfg-at-on-prado-120-series"
+  },
+  {
+   "name": "ExplorOz — Tyres for the Prado (120 series)",
+   "url": "https://www.exploroz.com/forum/16923/tyres-for-the-prado"
+  },
+  {
+   "name": "ExplorOz — Prado limited slip diff (120 series rear diffs by grade)",
+   "url": "https://www.exploroz.com/forum/83182/prado-limited-slip-diff"
+  },
+  {
+   "name": "IH8MUD — GX470 / Prado120 forum",
+   "url": "https://forum.ih8mud.com/forums/gx470-prado120.237/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs (25-year exemption)",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "EPA — Form 3520-1 (code E: vehicles at least 21 years old, original configuration)",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "Transport Canada — Importing a vehicle from countries other than the United States or Mexico (15-year rule)",
+   "url": "https://tc.canada.ca/en/road-transportation/importing-vehicle/importing-vehicle-countries-other-united-states-mexico"
+  },
+  {
+   "name": "Wikipedia — Lexus GX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_GX"
+  },
+  {
+   "name": "TLCA — Home",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/"
+  },
+  {
+   "name": "IH8MUD — GX470 Prado Rebadge",
+   "url": "https://forum.ih8mud.com/threads/gx470-prado-rebadge.1358905/"
+  }
+ ]
+}

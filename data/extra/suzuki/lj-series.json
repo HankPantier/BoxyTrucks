@@ -1,0 +1,198 @@
+{
+ "fitment": {
+  "stock": [
+   "16-in wheels (LJ10, Suzuki/Wikipedia)",
+   "15-in wheels (LJ20 van)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "Stock size",
+    "note": "We couldn't find a sourced owner consensus; stay close to the original size."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1968",
+   "change": "Suzuki buys the HopeStar ON360 design from Hope Motor Company",
+   "flag": "note"
+  },
+  {
+   "year": "1970",
+   "change": "April: Jimny LJ10 launches, 359 cc air-cooled two-stroke twin, 25 PS; first series-production kei 4x4",
+   "flag": "note"
+  },
+  {
+   "year": "1972",
+   "change": "May: LJ20 with water-cooled L50 twin (28 PS), vertical grille, steel-roof van",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "September: LJ50 539 cc three-cylinder two-stroke for export (33 PS)",
+   "flag": "note"
+  },
+  {
+   "year": "1976",
+   "change": "June: Jimny 55 (SJ10) in Japan; NZ assembly of the LJ50 begins late in the year",
+   "flag": "note"
+  },
+  {
+   "year": "1977",
+   "change": "Jimny 8 / LJ80: 797 cc F8A four-stroke, 41 PS, wider track, taller gearing",
+   "flag": "buy"
+  },
+  {
+   "year": "1979",
+   "change": "Metal doors available; LJ81 pickup on a 2,200 mm wheelbase",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "Replaced by the SJ410",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Engines, grilles and bodies were swapped over five decades, so check what you're actually looking at.",
+  "items": [
+   {
+    "head": "Engine",
+    "body": "LJ10: air-cooled 359 cc twin. LJ20: water-cooled 359 cc twin. LJ50/SJ10: 539 cc three-cylinder two-stroke. LJ80/SJ20: 797 cc four-stroke four."
+   },
+   {
+    "head": "Grille",
+    "body": "The LJ10 has horizontal slots; Suzuki says the LJ20's vertical eight-slot grille became the Jimny's signature face."
+   },
+   {
+    "head": "Spare wheel",
+    "body": "Japanese kei trucks kept the spare inside to stay under 3 m; export trucks and the LJ20F carried it outside."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Gradeability",
+   "v": "35° (LJ20) · 39.7° (SJ10)",
+   "note": "Suzuki figures"
+  },
+  {
+   "k": "Curb weight",
+   "v": "600 kg (LJ10) · 625 kg (LJ20) · 675 kg (SJ10) · 715 kg (SJ20)",
+   "note": "Suzuki figures"
+  },
+  {
+   "k": "Top speed",
+   "v": "75 km/h (LJ10) · ≈97 km/h (Jimny 55)",
+   "note": "Wikipedia"
+  },
+  {
+   "k": "Payload",
+   "v": "250 kg (200 kg van), late LJ20",
+   "note": "Wikipedia"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "LJs are rare in the US; restored LJ20s and early Jimnys bring the most.",
+  "ranges": [
+   {
+    "cond": "Driver / older restoration",
+    "range": "$4k–8k"
+   },
+   {
+    "cond": "Good, restored",
+    "range": "$10k–12k"
+   }
+  ],
+  "note": "Based on Bring a Trailer results 2018–2025: LJ10 $4,300 (2018) and $6,000 (2023); LJ20 $10,000–10,250; a 1972 Jimny $11,500 (2025); an LJ50 $11,050 (2018); SJ10s $7,700–10,500. Two LJ80s were bid to $10,250 and $18,003 without selling."
+ },
+ "docs": [
+  {
+   "name": "Suzuki Japan — LJ10 catalogue",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/catalog/LJ10.pdf",
+   "note": "Original Japanese brochure, hosted by Suzuki"
+  },
+  {
+   "name": "Suzuki Japan — LJ20 catalogue",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/catalog/LJ20.pdf",
+   "note": "Original Japanese brochure"
+  },
+  {
+   "name": "Suzuki Japan — SJ10 catalogue",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/catalog/SJ10.pdf",
+   "note": "Jimny 55"
+  },
+  {
+   "name": "Suzuki Japan — SJ20 catalogue",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/catalog/SJ20.pdf",
+   "note": "Jimny 8"
+  },
+  {
+   "name": "LJ80.de — LJ80 parts catalogue (PDF)",
+   "url": "https://www.lj80.de/katalog/LJ80-26_komplett_Feb.pdf",
+   "note": "Specialist's parts catalogue"
+  }
+ ],
+ "production": {
+  "intro": "A domestic hit that became Suzuki's first global car.",
+  "items": [
+   {
+    "k": "First-year sales (Japan)",
+    "v": "Nearly 5,000"
+   },
+   {
+    "k": "1971 sales",
+    "v": "More than 6,000"
+   },
+   {
+    "k": "LJ20 production rate",
+    "v": "2,000 a month"
+   },
+   {
+    "k": "SJ20 (Jimny 8) Japan sales",
+    "v": "1,799"
+   },
+   {
+    "k": "Assembly",
+    "v": "Iwata, Japan; New Zealand; Indonesia; Kenya"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Suzuki Jimny",
+   "url": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: LJ10",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/lj10.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: LJ20",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/lj20.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: SJ10 (Jimny 55)",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/sj10.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: SJ20 (Jimny 8)",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/sj20.html"
+  },
+  {
+   "name": "Bring a Trailer — Suzuki Jimny auction results",
+   "url": "https://bringatrailer.com/suzuki/jimny/"
+  },
+  {
+   "name": "LJ80.de — Suzuki LJ80 parts shop and catalogue",
+   "url": "https://www.lj80.de/"
+  }
+ ]
+}

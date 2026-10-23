@@ -1,0 +1,285 @@
+{
+ "fitment": {
+  "stock": [
+   "P205/70R15 (1986 US brochure)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "note": "Japan-market Jimny 1000/1300 used 6 bolts on the same 139.7 mm circle"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "215/75R15",
+    "note": "Zukiworld owners: 215/75R15 fits with no modifications; 225s with a little effort."
+   },
+   {
+    "lift": "1.5–2 in",
+    "size": "235/75R15 (≈29 in)",
+    "note": "Needs trimming or a 1.5–2 in lift; flatten the inner fender seams. Trail Tough rates its 2 in Old Man Emu kit as right for 29 in tires."
+   },
+   {
+    "lift": "4.5 in spring-over",
+    "size": "31 in",
+    "note": "Trail Tough's deluxe SPOA kit is rated for up to 31 in tires, with knuckle-over steering."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front seat belt buckle release buttons can break",
+    "years": "1988–1991",
+    "ref": "NHTSA 95V103008",
+    "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=suzuki&model=samurai&modelYear=1988",
+    "summary": "The red 'PRESS' release buttons can break and jam the buckle; dealers replaced or repaired buckles free of charge."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1981",
+   "change": "SJ410 (Jimny 1000 in Japan from 1982) replaces the LJ80: F10A 1.0 four, four-speed, drum brakes",
+   "flag": "note"
+  },
+  {
+   "year": "1984",
+   "change": "SJ413 / Jimny 1300 (JA51): G13A 1.3, five-speed, front discs, anti-roll bar, new dash and grille",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Santana starts building SJs in Spain (March); Maruti Gypsy launches in India (December); US Samurai goes on sale in California in November as a 1986 model",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "'1988½' US update: softer springs, revised shocks, thicker front anti-roll bar, 0.865 fifth gear, new grille, gauges and seats. In July, Consumer Reports rates it 'Not Acceptable'",
+   "flag": "buy"
+  },
+  {
+   "year": "1990",
+   "change": "US Samurai gets throttle-body fuel injection (MotorTrend)",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "2WD Samurai added in the US (to 1993)",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "US rear seat deleted for 1994–95 rather than add rear shoulder belts",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "Last US model year; coil-sprung JB32 launched in Japan in November",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Japanese production ends; replaced by the JB23 Jimny. Santana and Maruti carry on",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Samurais are widely modified, and Santana, Maruti and Japanese versions share the basic design with many detail differences. Confirm what you're looking at.",
+  "items": [
+   {
+    "head": "Carbureted or injected",
+    "body": "AMSOIL's capacity lookups list 1986–89 US Samurais with engine code 5 and 1990–95 with engine code 3. A US truck with an automatic gearbox is a swap."
+   },
+   {
+    "head": "Early or '1988½'",
+    "body": "The 1988½ update brought a new grille and wheels, new gauges and seats. Transfer case fill and drain plugs differ between 1986–88 and 1988.5–95 trucks, and the 1986–89 master cylinder is specific."
+   },
+   {
+    "head": "Narrow or wide track",
+    "body": "The wide-track Samurai measures 1,300 mm front and 1,310 mm rear (1986 US brochure). Narrow SJ410/413 trucks are about 1,210 / 1,220 mm."
+   },
+   {
+    "head": "Indian-built trucks",
+    "body": "Australian Sierra Stockman utes sourced from India in the 1990s carry an MG410 badge on the front fenders and a VIN starting with MA (Wikipedia)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Ground clearance",
+   "v": "205 mm (8.1 in)",
+   "note": "1986 US brochure"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "43° / 38°",
+   "note": "1986 US brochure"
+  },
+  {
+   "k": "Turning circle",
+   "v": "5.1 m (16.7 ft) minimum turning radius"
+  },
+  {
+   "k": "Curb weight",
+   "v": "950 kg (2,094 lb) convertible · 965 kg hardtop"
+  },
+  {
+   "k": "GVWR",
+   "v": "1,330 kg (2,932 lb)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "40 L (10.6 US gal)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 27 city / 29 hwy",
+   "note": "1986 estimates quoted in Suzuki's brochure"
+  },
+  {
+   "k": "0–60 mph",
+   "v": "16.9 s",
+   "note": "MotorTrend test"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Samurai prices have climbed from throwaway to collectible. Low-mileage stock trucks and well-built engine-swapped trucks bring the most.",
+  "ranges": [
+   {
+    "cond": "Project / tired driver",
+    "range": "$5k–9k"
+   },
+   {
+    "cond": "Good driver or modified",
+    "range": "$8k–17k"
+   },
+   {
+    "cond": "Exceptional low-mile or high-end build",
+    "range": "$20k–25k"
+   }
+  ],
+  "note": "Based on 22 Bring a Trailer sales from September 2025 to October 2026: $5,500 to $25,000, median about $9,400. A 7k-mile 1987 sold for $24,000 and a 1.6 16V-powered 1987 for $25,000."
+ },
+ "docs": [
+  {
+   "name": "Factory Repair Manuals — Suzuki service manuals",
+   "url": "https://www.factoryrepairmanuals.com/suzuki-service-manuals/",
+   "note": "Seller of original and reprint Suzuki factory manuals"
+  },
+  {
+   "name": "Suzuki Japan — Jimny 1300 (JA51) catalogue",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/catalog/JA51.pdf",
+   "note": "Original Japanese brochure, hosted by Suzuki"
+  },
+  {
+   "name": "Suzuki Japan — Jimny 1000 (SJ40) catalogue",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/catalog/SJ40.pdf",
+   "note": "Original Japanese brochure, hosted by Suzuki"
+  }
+ ],
+ "production": {
+  "intro": "In the US the Samurai sold fast, then collapsed after 1988; outside Japan it was built under licence for decades.",
+  "items": [
+   {
+    "k": "US first-year sales",
+    "v": "47,000 (MotorTrend)"
+   },
+   {
+    "k": "US sales peak",
+    "v": "≈ 8,000 a month by mid-1988"
+   },
+   {
+    "k": "Sales after the CR report",
+    "v": "Down about 70% (Reuters)"
+   },
+   {
+    "k": "Licensed production",
+    "v": "Santana, Spain 1985–2004; Maruti Gypsy, India 1985–2018; Pakistan 1984–2006; Indonesia to 2007; Thailand to 2006"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Samurai S (Special Edition package)",
+    "years": "1987",
+    "note": "Color-matched bumpers, model-specific stripes and graphics, deluxe seats and white 15-inch wheels (per a BaT listing)"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Suzuki — 1986 US Samurai brochure (auto-brochures.com scan)",
+   "url": "http://www.auto-brochures.com/makes/Suzuki/Samurai/Suzuki_US%20Samurai_1986.pdf"
+  },
+  {
+   "name": "Zukiworld forum — How tall can you go on tires with stock suspension (87 Zuk)",
+   "url": "https://zukiworld.com/forum/general-suzuki-forum/how-tall-can-you-go-on-tires-with-stock-suspension-87-zuk"
+  },
+  {
+   "name": "Zukiworld forum — Samurai larger tires but no lift",
+   "url": "https://www.zukiworld.com/forum/general-suzuki-forum/samurai-larger-tires-but-no-lift"
+  },
+  {
+   "name": "Trail Tough — Old Man Emu Samurai and SJ410 lift",
+   "url": "https://trailtough.com/product/old-man-emu-samurai-lift/"
+  },
+  {
+   "name": "Trail Tough — SPOA suspension system, deluxe",
+   "url": "https://trailtough.com/product/spoa-suspension-system-deluxe/"
+  },
+  {
+   "name": "NHTSA recalls API — Suzuki Samurai 1988–1991, campaign 95V103008",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=suzuki&model=samurai&modelYear=1988"
+  },
+  {
+   "name": "MotorTrend — The Suzuki Samurai: History, Generations, Models (Aaron Gold)",
+   "url": "https://www.motortrend.com/features/suzuki-samurai-history-generations-models-differences"
+  },
+  {
+   "name": "Wikipedia — Suzuki Jimny",
+   "url": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
+  },
+  {
+   "name": "AMSOIL — 1988 Suzuki Samurai 1.3L (engine code 5) capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1988/suzuki/samurai/1-3l-4-cyl-engine-code-5-5/"
+  },
+  {
+   "name": "AMSOIL — 1992 Suzuki Samurai 1.3L (engine code 3) capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1992/suzuki/samurai/1-3l-4-cyl-engine-code-3-8-valve-f/"
+  },
+  {
+   "name": "Bring a Trailer — Suzuki Samurai auction results",
+   "url": "https://bringatrailer.com/suzuki/samurai/"
+  },
+  {
+   "name": "Bring a Trailer — 7k-mile 1987 Suzuki Samurai 5-speed",
+   "url": "https://bringatrailer.com/listing/1987-suzuki-samurai-32/"
+  },
+  {
+   "name": "Bring a Trailer — 50k-mile 1987 Suzuki Samurai S",
+   "url": "https://bringatrailer.com/listing/1987-suzuki-samurai-38/"
+  },
+  {
+   "name": "NBC News / Reuters — Suzuki drops suit against Consumer Reports (July 8, 2004)",
+   "url": "https://www.nbcnews.com/id/wbna5396775"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: JA51 (Jimny 1300)",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/ja51.html"
+  },
+  {
+   "name": "Suzuki Motor Corporation (Japan) — Jimny history: SJ40 (Jimny 1000)",
+   "url": "https://www.suzuki.co.jp/car/jimny/special/history/sj40.html"
+  },
+  {
+   "name": "Trail Tough — transfer case fill and drain plugs 88.5–95",
+   "url": "https://trailtough.com/product/factory-samurai-transfer-case-fill-and-drain-plugs-88-5-95/"
+  },
+  {
+   "name": "Factory Repair Manuals — Suzuki",
+   "url": "https://www.factoryrepairmanuals.com/suzuki-service-manuals/"
+  }
+ ]
+}
