@@ -330,6 +330,58 @@
      "url": "https://www.bfgoodrichtires.com/"
     }
    ]
+  },
+  {
+   "title": "Steering relay: free it, reseal it, refill it",
+   "diff": "3 / 5",
+   "time": "A day; the radiator has to come out",
+   "cost": "One owner's rebuild cost about $8; a replacement relay was about $100 plus shipping (Rovers North forum)",
+   "symptoms": "Steering that is very heavy or tight, especially on a truck that has stood outside for years, or oil weeping from the bottom of the relay.",
+   "fix": "The relay is the box-shaped unit in the chassis crossmember ahead of the radiator. It isn't the steering box at the foot of the column. Rule out dry ball joints and the steering damper first. Rovers North forum members say the radiator has to come out to reach the relay bracket bolts. A stubborn relay can be rebuilt without pulling it from the chassis, and one owner freed a seized unit with a 3 ft pipe over the arm. Inside, the bushes need lubrication. One owner found his 'bone dry' and could turn the shaft by hand with pliers after the rebuild. For a leak, members say you can remove the retaining ring and bottom plate and fit a new seal without stripping the whole relay. Refill with 90-weight gear oil.",
+   "tools": "Spanners and sockets · ball-joint splitter · 3 ft pipe for leverage · relay seals · 90-weight gear oil",
+   "parts": [
+    {
+     "name": "230294 steering relay retainer plate, Series 1948–84",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/230294-retainer"
+    },
+    {
+     "name": "Series steering relay parts (search)",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=series+steering+relay"
+    },
+    {
+     "name": "EP90 gear oil, 1 L",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/da6265-ep90-1l"
+    }
+   ]
+  },
+  {
+   "title": "Gearbox jumping out of gear: find the cause",
+   "diff": "3 / 5",
+   "time": "An hour for the external checks; a weekend or more if the gearbox comes out",
+   "cost": "Detent springs and adjustments are cheap; internal repairs are parts plus a lot of labor",
+   "symptoms": "The lever pops out of gear, often second or fourth, on the overrun or over bumps. Some owners resort to holding it in, or to a bungee cord on long trips.",
+   "fix": "Start with the cheap checks that Rovers North forum members suggest. Look for play in the gear lever and its mounting: one owner tightened it and it 'totally' stopped jumping out of second. The same owner also found a dragging, bent clutch disc. Next, take off the top PTO cover and check the mainshaft nut for free play; an overdrive has to come off to reach it. With the cover off, inspect the selector forks and detent springs. Worn forks, a loose circlip on the gear cluster or worn synchros mean the box comes out. If the speedo also wanders and transfer-box oil leaks between the handbrake drum and its backing plate, one member says the rear output shaft nut has backed off. It gets 90 ft-lb.",
+   "tools": "Spanners and sockets · torque wrench · top cover gasket · transmission jack if the box has to come out",
+   "parts": [
+    {
+     "name": "3649 gear selector detent spring (1st/2nd, 3rd/4th), Series 1948–84",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/3649-spring-selector-1-2nd3-4th"
+    },
+    {
+     "name": "56102 reverse selector detent spring, Series 1948–84",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/56102-spring-selector-reverse"
+    },
+    {
+     "name": "Series gearbox rebuild parts (search)",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=series+gearbox"
+    }
+   ]
   }
  ],
  "faq": [
@@ -711,6 +763,34 @@
   {
    "name": "LandyZone — Oily transmission drum brake, transfer case drain mod",
    "url": "https://www.landyzone.co.uk/land-rover/oily-transmission-drum-brake-transfer-case-drain-mod.393970/"
+  },
+  {
+   "name": "Rovers North Forums — Steering relay column",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/13806-steering-relay-column"
+  },
+  {
+   "name": "Rovers North Forums — Steering relay oil leak, bad seal?",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/13150-steering-relay-oil-leak-bad-seal"
+  },
+  {
+   "name": "Rovers North Forums — Pops out of second gear",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/11791-pops-out-of-second-gear"
+  },
+  {
+   "name": "Rovers North Forums — Jumping out of gear",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/1194-jumping-out-of-gear"
+  },
+  {
+   "name": "Series123 — Series 2/2A basic specifications (capacities)",
+   "url": "https://www.series123.com/USAhomepages/index113/index.html"
+  },
+  {
+   "name": "Rovers North Forums — Gearbox and transfer box fluid volume",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/10741-gearbox-and-transfer-box-fluid-volume"
+  },
+  {
+   "name": "Rovers North Forums — 2.5L vs 2.25L oil amount",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/7843-2-5l-vs-2-25l-oil-amount"
   }
  ],
  "baseline_service": {
@@ -718,7 +798,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "20W-50 mineral oil (the period handbook specified a 20W grade) · capacity [CONFIRM IN MANUAL]",
+    "spec": "20W-50 mineral oil (the period handbook specified a 20W grade) · 2.25: about 1.9 US gal (≈7.2 L) including the filter (Series123); one owner's shop manual gives 13 pints plus 1.8 pints for the filter, which he works out as 7.4 US qt (≈7 L)",
     "interval": "Then per manual [CONFIRM IN MANUAL]",
     "note": "Owners stick with mineral oil; one warns that semi-synthetics can loosen old deposits in a worn engine. Petrol and diesel 2.25s use element-type or spin-on filters depending on year.",
     "parts": [
@@ -802,7 +882,7 @@
    },
    {
     "item": "Gearbox & transfer box",
-    "spec": "EP90 gear oil · capacity [CONFIRM IN MANUAL]",
+    "spec": "EP90 gear oil · Series II/IIA: gearbox 2.5 imp pt (3 US pt, ≈1.4 L), transfer box 4.5 imp pt (≈5.5 US pt, ≈2.6 L), per Series123 and the workshop manual quoted on the Rovers North forum · Series III [CONFIRM IN MANUAL]",
     "interval": "Drain and refill now; then per manual",
     "note": "Check the transfer box output seal: oil leaking past it soaks the transmission handbrake shoes. Owners buy EP90 in 20 L drums because a Series uses a lot of it.",
     "parts": [

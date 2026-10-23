@@ -21,7 +21,29 @@
  },
  "recalls": {
   "lookup": "none",
-  "items": [],
+  "items": [
+   {
+    "title": "10-speed transmission can over-rev (Australia)",
+    "years": "Built Feb–Dec 2025",
+    "ref": "Toyota Australia recall, Feb 2026",
+    "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-300-series-recalled-due-to-fire-risk",
+    "summary": "If a linear solenoid fails, the transmission ECU may not tell the engine ECU, so the transmission can over-rev in some gears. That risks transmission damage, loss of power, and fluid leaking onto hot exhaust parts. Dealers reprogram the transmission ECU in about 30 minutes; 11,020 vehicles."
+   },
+   {
+    "title": "Can creep forward in neutral (Australia)",
+    "years": "Built Jul 2021–Jan 2024",
+    "ref": "Toyota Australia recall, Feb 2024",
+    "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-tundra-recalled",
+    "summary": "A brake clutch disc in the 10-speed may not disengage in neutral, so the vehicle can creep at up to about 6 km/h on flat ground without the brake applied. Free software update; about 28,400 LandCruiser 300s and Tundras."
+   },
+   {
+    "title": "Stability control may not default to on (Australia)",
+    "years": "Built Mar 2021–Apr 2022",
+    "ref": "Toyota Australia recall, Apr 2022",
+    "url": "https://www.carexpert.com.au/car-news/multiple-toyota-models-recalled",
+    "summary": "A software error can stop VSC defaulting to on at the next start if it was switched off and the brake was held between shutdown and restart (non-compliant with ADR 88/00). Free software update of about an hour; shared with the Kluger, RAV4 Hybrid and Mirai."
+   }
+  ],
   "tsbs": []
  },
  "timeline": [
@@ -42,6 +64,11 @@
   },
   {
    "year": "2024",
+   "change": "February: Toyota pauses shipments of the F33A-FTV diesel and the 300s and LXs that use it after Toyota Industries finds irregularities in engine certification testing",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
    "change": "The smaller J250 takes over the Land Cruiser name in North America; the 300 is never offered in the US or Canada",
    "flag": "note"
   },
@@ -53,6 +80,11 @@
   {
    "year": "2026",
    "change": "Updated Japanese range from 1 October: hybrid in ZX and GR Sport; diesel in ZX, GR Sport and GX",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Performance Hybrid reaches Australia in GR Sport and Sahara ZX grades: 3.4 twin-turbo V6 plus a 36 kW motor, 341 kW/790 Nm combined, 3,500 kg towing",
    "flag": "note"
   }
  ],
@@ -163,6 +195,53 @@
   {
    "name": "Wikipedia — Lexus LX (J310 US sales, LX 700h Overtrail)",
    "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "CarExpert — Toyota LandCruiser 300 Series recalled due to fire risk (Feb 2026)",
+   "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-300-series-recalled-due-to-fire-risk"
+  },
+  {
+   "name": "CarExpert — Toyota LandCruiser, Tundra recalled (Feb 2024)",
+   "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-tundra-recalled"
+  },
+  {
+   "name": "CarExpert — Multiple Toyota models recalled (Apr 2022)",
+   "url": "https://www.carexpert.com.au/car-news/multiple-toyota-models-recalled"
+  },
+  {
+   "name": "CarExpert — LandCruiser, HiAce, Lexus LX production stopped over engine scandal (Feb 2024)",
+   "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-hiace-lexus-lx-production-stopped-over-engine-scandal-report"
+  },
+  {
+   "name": "CarExpert — 2026 Toyota LandCruiser 300 Performance Hybrid review (pricing)",
+   "url": "https://www.carexpert.com.au/car-reviews/2026-toyota-landcruiser-300-performance-hybrid-review-quick-drive-1"
   }
- ]
+ ],
+ "values": {
+  "checked": "July 2026",
+  "intro": "The 300 has never been sold new in the US, so these are Australian list prices before on-road costs. Diesel grades run from GX to Sahara ZX, and the Performance Hybrid comes in GR Sport and Sahara ZX.",
+  "ranges": [
+   {
+    "cond": "GX diesel",
+    "range": "A$99,340"
+   },
+   {
+    "cond": "VX diesel",
+    "range": "A$123,510"
+   },
+   {
+    "cond": "GR Sport diesel",
+    "range": "A$147,160"
+   },
+   {
+    "cond": "Sahara ZX diesel",
+    "range": "A$147,910"
+   },
+   {
+    "cond": "Performance Hybrid GR Sport / Sahara ZX",
+    "range": "A$156,060 / A$156,810"
+   }
+  ],
+  "note": "2026 range pricing from CarExpert (15 July 2026), which also lists the GXL at A$111,820 and the Sahara at A$140,310. Used values aren't tracked here."
+ }
 }

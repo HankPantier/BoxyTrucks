@@ -214,7 +214,7 @@
       {% if x.docs %}
       <section id="docs" class="sub">
         <h2 class="h-section">Manuals &amp; documentation</h2>
-        <div class="rows">{% for d in x.docs %}<a class="row" href="{{ d.url }}" target="_blank" rel="noopener"><span class="t">{{ d.name }} ↗</span><span class="n">{{ d.note }}</span></a>{% endfor %}</div>
+        <div class="rows">{% for d in x.docs %}{% if d.url %}<a class="row" href="{{ d.url }}" target="_blank" rel="noopener"><span class="t">{{ d.name }} ↗</span><span class="n">{{ d.note }}</span></a>{% else %}<div class="row"><span class="t">{{ d.name }}</span><span class="n">{{ d.note }}</span></div>{% endif %}{% endfor %}</div>
       </section>
       {% endif %}
 

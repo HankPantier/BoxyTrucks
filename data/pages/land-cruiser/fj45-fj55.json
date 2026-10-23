@@ -144,7 +144,7 @@
   },
   {
    "head": "Test the tailgate window",
-   "body": "The FJ55's power tailgate window works from a dash switch or the key. Make sure it does."
+   "body": "The FJ55's power tailgate window works from a dash switch or the key. Make sure it does, with the tailgate both up and down. A dead window is often a stuck safety switch or a corroded power strip, but it can also be a stripped regulator (see the repair below)."
   },
   {
    "head": "Brakes",
@@ -313,6 +313,53 @@
      "name": "OME greaseable rear anti-inversion shackle kit OMEGS9 (1958–80)",
      "supplier": "Cruiser Corps",
      "url": "https://www.cruisercorps.com/products/greasable-shackle-rear-1958-1980-omegs9"
+    }
+   ]
+  },
+  {
+   "title": "Clutch master and slave cylinders",
+   "diff": "2 / 5",
+   "time": "≈ Half a day including bleeding",
+   "cost": "Aisin master about $115 and slave about $35 (Cruiser Corps); OEM master rebuild kit about $51",
+   "symptoms": "A clutch that slowly loses pressure, has to be double-pumped to shift without grinding, or a pedal that sinks. Look for fluid under the dash or around the slave on the bellhousing.",
+   "fix": "Off-Road.com's FJ40 project, which shares the early clutch hydraulics with the FJ45, replaced the master, the slave and the hose. Pump the old fluid out. Unbolt the slave (two bolts), fit the new one with thread-locker and set the fork pushrod with its locknut. Free the old line with penetrating oil and flare-nut wrenches. Under the dash, pull the cotter pin and spring at the pedal, then remove the three 12 mm master bolts. Fit the new master with a new cotter pin, connect the line and don't overtighten the banjo bolt. Fill with DOT 3, bleed at the slave with a helper, then adjust the pedal rod and slave pushrod. Bench-bleed the new master, and keep the pedal down until the bleeder is closed. Check fitment by build date: Cruiser Corps lists this master for 1970–75 trucks and the slave for 1974–80.",
+   "tools": "12 mm socket and wrench · 12 mm and 16 mm flare-nut wrenches · needle-nose pliers · bleeder hose and bottle · thread-locker · DOT 3 fluid",
+   "parts": [
+    {
+     "name": "Aisin clutch master cylinder, FJ40/FJ45/FJ55 1970–75",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/aisin-clutch-master"
+    },
+    {
+     "name": "Clutch release (slave) cylinder, FJ40/FJ45/FJ55 1974–80",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/aisin-clutch-release-slave-cylinder"
+    },
+    {
+     "name": "OEM clutch master cylinder rebuild kit",
+     "supplier": "Cruiser Corps",
+     "url": "https://cruisercorps.com/products/clutch-master-cylinder-rebuild-kit-oem"
+    }
+   ]
+  },
+  {
+   "title": "FJ55 power tailgate window won't move",
+   "diff": "3 / 5",
+   "time": "An afternoon to a weekend",
+   "cost": "Often only cleaning, wiring and a power strip; a used motor or regulator if the gear is stripped",
+   "symptoms": "The rear glass won't go up or down from the dash switch or the key. It may work only with the tailgate down. Or you hear the motor clunk while the glass stays put.",
+   "fix": "IH8MUD members work from the simple stuff inwards. The tailgate has a safety switch: the motor won't run unless its plunger is pushed in. Slop in the gate or a broken plastic actuator can leave the switch open. Next, check the power strip and the harness where it flexes at the hinge; one owner found his strip 'rotten' and replaced it. A meter will tell you whether power reaches the motor when you press the dash switch. If the motor runs on direct battery power but the glass doesn't move, suspect a stripped regulator gear. Members say the glass tray has to be separated from the regulator by driving out two clips, and that the mechanism is often packed with old grime. Be gentle with the glass: one owner broke a donor truck's window getting it down.",
+   "tools": "Screwdrivers · multimeter · jumper leads and a 12 V battery · drift and hammer for the tray clips · grease",
+   "parts": [
+    {
+     "name": "Electrical contact cleaner (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=electrical+contact+cleaner"
+    },
+    {
+     "name": "White lithium grease (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=white+lithium+grease"
     }
    ]
   }
@@ -707,6 +754,30 @@
   {
    "name": "Cruiser Corps — Outer rocker panel, left, FJ55 1968–79",
    "url": "https://cruisercorps.com/products/fj55-left-rocker"
+  },
+  {
+   "name": "Off-Road.com — Project FJ40 Cruiser: clutch system upgrade",
+   "url": "https://off-road.com/trucks-4x4/project/project-fj40-cruiser-clutch-system-upgrade-52652.html"
+  },
+  {
+   "name": "IH8MUD — Clutch won't bleed",
+   "url": "https://forum.ih8mud.com/threads/clutch-wont-bleed.533320"
+  },
+  {
+   "name": "Cruiser Corps — Aisin clutch master, FJ40/45/55 1970–75",
+   "url": "https://cruisercorps.com/products/aisin-clutch-master"
+  },
+  {
+   "name": "Cruiser Corps — Clutch release/slave cylinder, FJ40/45/55 1974–80",
+   "url": "https://cruisercorps.com/products/aisin-clutch-release-slave-cylinder"
+  },
+  {
+   "name": "IH8MUD — Rear window issue (FJ55)",
+   "url": "https://forum.ih8mud.com/threads/rear-window-issue.340347/"
+  },
+  {
+   "name": "IH8MUD — Rear window (FJ55 regulator)",
+   "url": "https://forum.ih8mud.com/threads/rear-window.820363/"
   }
  ],
  "baseline_service": {

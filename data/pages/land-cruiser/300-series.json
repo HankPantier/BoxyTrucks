@@ -143,7 +143,7 @@
   },
   {
    "head": "Check the transmission software recall",
-   "body": "NHTSA 26V094000 (Lexus 26LA01) covers about 4,400 2025–26 LX 600s: if a transmission solenoid fails, the transmission and engine ECUs can lose communication and the transmission can damage itself. Dealers update the transmission ECU software for free."
+   "body": "NHTSA 26V094000 (Lexus 26LA01) covers about 4,400 2025–26 LX 600s: if a transmission solenoid fails, the transmission and engine ECUs can lose communication and the transmission can damage itself. Dealers update the transmission ECU software for free. In Australia, Toyota recalled 11,020 300s built from February to December 2025 for the same kind of fault. A failed solenoid can let the transmission over-rev, damaging it or leaking fluid onto the hot exhaust; dealers reprogram the transmission ECU (CarExpert, February 2026)."
   },
   {
    "head": "Test-drive in traffic, not just on the highway",
@@ -160,6 +160,10 @@
   {
    "head": "Ask about fluid changes",
    "body": "Owners on IH8MUD do early differential and transfer-case changes (around 20,000–30,000 miles) after reports of debris in Tundra differential oil. Records of early oil and gear-oil changes, or oil-analysis reports, are a good sign."
+  },
+  {
+   "head": "Diesel: how was it driven?",
+   "body": "Ask whether a diesel 300 lived in town or towed heavy. Short trips are hard on the DPF and EGR, and heat soak from heavy towing or sand work is linked to bearing wear (Unsealed 4X4). Check the oil level, ask how much it uses between services, and confirm software updates and recall work are done. Look at the fuel-filter area for damage or a guard."
   }
  ],
  "repairs": [
@@ -298,6 +302,43 @@
      "url": "https://carista.com/products/carista-evo-obd-scanner"
     }
    ]
+  },
+  {
+   "title": "Diesel: keep the DPF and EGR healthy",
+   "diff": "2 / 5",
+   "time": "A weekly highway run; an intake clean is a workshop job",
+   "cost": "Workshop labor for the intake clean",
+   "symptoms": "Loss of power, a check-engine light or limp mode on an F33A diesel, sometimes with extra smoke and fuel use.",
+   "fix": "Unsealed 4X4 puts most of it down to town driving: repeated stop-start trips can stop the DPF from finishing a regeneration, and the EGR slowly chokes the intake manifold. Its advice is a highway run at least weekly and an intake clean, chemical or manual, at least once a year. The same article reports failures of the 'seventh injector', which sprays diesel into the exhaust to help regeneration. They bring limp mode, smoke and a fault code the dealer has to clear. A Toyota technician told Unsealed it happens to most trucks at around 20,000 km, which the author says he can't verify. Toyota can reportedly tune the problem out, though some owners say it comes back. Make sure all software updates are done.",
+   "tools": "OBD-II scanner to read codes · workshop for the intake clean",
+   "parts": [
+    {
+     "name": "OBD-II scanner (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=obd2+scanner"
+    },
+    {
+     "name": "Diesel intake cleaner (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=diesel+intake+cleaner"
+    }
+   ]
+  },
+  {
+   "title": "Diesel: guard the exposed fuel filter",
+   "diff": "1 / 5",
+   "time": "≈ 5 minutes for a bolt-on guard (maker's claim)",
+   "cost": "GMF4x4 FG-2014 guard A$160 (Frankies Auto Electrics, 2026)",
+   "symptoms": "The engine cuts out off-road and there's a pool of diesel near the right rear wheel.",
+   "fix": "Unsealed 4X4 says the diesel's plastic fuel filter sits by the rear wheel arch, where rocks and sticks can hit it, and recommends an aftermarket protection plate. GMF4x4's FG-2014 is 3 mm powder-coated steel. It bolts on with the supplied hardware and needs no drilling or cutting. If the filter or housing is already cracked, replace it and follow the workshop manual's fuel-priming procedure before you try to restart.",
+   "tools": "Basic socket set",
+   "parts": [
+    {
+     "name": "GMF4x4 FG-2014 fuel filter guard, LC300",
+     "supplier": "Frankies Auto Electrics",
+     "url": "https://frankiesautoelectrics.com.au/products/gmf4x4-fg-2014-fuel-filter-guard-toyota-landcruiser-lc300"
+    }
+   ]
   }
  ],
  "faq": [
@@ -355,6 +396,11 @@
    "q": "What fluids and capacities does it take?",
    "a": "From service data posted by an IH8MUD owner: transfer case 1.89 qt of Toyota LF 75W, front diff 1.23 qt. Owners also report using 0W-20 engine oil. Check your own service manual, since markets and drivetrains differ.",
    "src": "IH8MUD"
+  },
+  {
+   "q": "Is the V6 diesel reliable?",
+   "a": "Mostly, but it has known issues. Unsealed 4X4's 2026 round-up of owner reports lists DPF and EGR trouble in town driving, oil consumption of up to 1.7 L between services, seventh-injector faults, and a torque dip at about 2,200–2,500 rpm when towing over 3 t, which a Toyota ECU update fixes or at least minimises. It also reports bearing failures linked to heat soak in the hot-vee layout under hard work such as sand driving and heavy towing, though it calls their incidence 'statistically low'. In February 2024 Toyota paused F33A-FTV engine shipments after Toyota Industries found irregularities in certification testing.",
+   "src": "UNSEALED 4X4 · CAREXPERT"
   }
  ],
  "mods": [
@@ -703,6 +749,26 @@
   {
    "name": "NHTSA — Recall 24V381000 (V35A main bearings), campaign lookup",
    "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=24V381000"
+  },
+  {
+   "name": "Unsealed 4X4 — Toyota LandCruiser 300 problems: the faults, fixes and what to look for",
+   "url": "https://unsealed4x4.com.au/toyota-landcruiser-300-common-problems/"
+  },
+  {
+   "name": "Frankies Auto Electrics — GMF4x4 FG-2014 LandCruiser LC300 fuel filter guard",
+   "url": "https://frankiesautoelectrics.com.au/products/gmf4x4-fg-2014-fuel-filter-guard-toyota-landcruiser-lc300"
+  },
+  {
+   "name": "CarExpert — Toyota LandCruiser 300 Series recalled due to fire risk",
+   "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-300-series-recalled-due-to-fire-risk"
+  },
+  {
+   "name": "CarExpert — Toyota LandCruiser, HiAce, Lexus LX production stopped over engine scandal",
+   "url": "https://www.carexpert.com.au/car-news/toyota-landcruiser-hiace-lexus-lx-production-stopped-over-engine-scandal-report"
+  },
+  {
+   "name": "CarExpert — 2026 Toyota LandCruiser 300 Performance Hybrid review",
+   "url": "https://www.carexpert.com.au/car-reviews/2026-toyota-landcruiser-300-performance-hybrid-review-quick-drive-1"
   }
  ],
  "baseline_service": {
@@ -711,7 +777,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "SAE 0W-20 · ≈7.7 qt with filter · drain plug 30 ft-lb, new plug and gasket",
-    "interval": "At purchase, then per your market's schedule [CONFIRM IN MANUAL]. Many owners shorten it and send samples for oil analysis.",
+    "interval": "At purchase. Toyota Australia's schedule is every 6 months or 10,000 km (CarExpert, 2026); for a US LX and other markets [CONFIRM IN MANUAL]. Many owners shorten it and send samples for oil analysis.",
     "note": "On a US LX 600, check that engine recall 25LA07/25LB07 has been done. Repeat oil analysis every few changes and keep the reports.",
     "parts": [
      {

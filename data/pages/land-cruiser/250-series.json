@@ -302,6 +302,38 @@
      "url": "https://www.threepiece.us/blog/2024-land-cruiser-250-and-gx550-wheel-tire-fitment-guide/"
     }
    ]
+  },
+  {
+   "title": "Sunroof leak and a damp headliner",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour to clean the drains; a dealer visit if the seal is at fault",
+   "cost": "Free to clean; seal work under warranty",
+   "symptoms": "Water dripping through the overhead console with the roof shut, a damp headliner or passenger footwell, or a musty smell after rain. NHTSA complaints include a rear section of the sunroof that doesn't seal and a cabin that smells of mildew every time it rains.",
+   "fix": "Open the roof and clean out the housing, especially the corners where the drains are. One LandCruiserForum owner found his corner drains plugged with leaves and plant matter, so water overflowed into the headliner. He cleared it with rags, a shop vac and compressed air. Keep the seals clean and the drains clear. If water still gets in once the drains are clear, it's a warranty job: UK owners report dealers removing the glass and fitting a new seal under Toyota's instructions, and one says his dealer found a TSB involving new sealant (no number was given). Some trucks needed more than one visit.",
+   "tools": "Shop vac · compressed air · rags · flashlight",
+   "parts": [
+    {
+     "name": "Sunroof drain cleaning tool (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=sunroof+drain+cleaning+tool"
+    }
+   ]
+  },
+  {
+   "title": "Quiet a vibrating driver's mirror",
+   "diff": "1 / 5",
+   "time": "≈ 30 minutes",
+   "cost": "A few dollars in thin plastic and felt",
+   "symptoms": "At highway speed the driver's mirror glass shakes enough to blur the view. Owners say the passenger side is solid. One NHTSA complainant says the dealer confirmed it and called it common to all Land Cruisers.",
+   "fix": "Report it to the dealer first, while it's under warranty. On LandCruiserForum, dealers have tightened the mirror or replaced the whole assembly, sometimes twice, without curing it. Owners think the driver-side assembly simply has too much play, and their fix is a shim. One member cut a C-shaped piece of thin plastic lid with peel-and-stick felt on both faces and reported about a 90% reduction, with a little shake left on rough roads. Another used a roughly 1.6 mm Rubbermaid lid and says pivoting the mirror forward makes it easier to fit. A bare plastic shim rubbed the paint when the mirror folded, so use the felt.",
+   "tools": "Scissors or a craft knife · thin plastic lid · adhesive felt",
+   "parts": [
+    {
+     "name": "Adhesive felt pads (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=adhesive+felt+pads"
+    }
+   ]
   }
  ],
  "faq": [
@@ -784,6 +816,18 @@
   {
    "name": "NHTSA — Recall 26V673000 (fuel tube connection), campaign lookup",
    "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V673000"
+  },
+  {
+   "name": "LandCruiserForum — Land Cruiser 250 First Edition sunroof leak",
+   "url": "https://www.landcruiserforum.com/threads/land-cruiser-250-first-edition-sunroof-leak.7444/page-2"
+  },
+  {
+   "name": "LandCruiserForum — Side mirror vibration anyone?",
+   "url": "https://www.landcruiserforum.com/threads/side-mirror-vibration-anyone.669/page-3"
+  },
+  {
+   "name": "NHTSA — Complaints API, 2025 Toyota Land Cruiser",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=toyota&model=land%20cruiser&modelYear=2025"
   }
  ],
  "baseline_service": {

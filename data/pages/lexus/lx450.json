@@ -313,6 +313,53 @@
      "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
     }
    ]
+  },
+  {
+   "title": "Parking brake that won't hold",
+   "diff": "2 / 5",
+   "time": "≈ An hour to adjust; half a day for shoes and hardware",
+   "cost": "Free to adjust; shoes, struts and hardware if worn",
+   "symptoms": "The handbrake won't hold the truck on a slope, or the lever comes up a long way before it bites.",
+   "fix": "Unsealed 4X4 blames four things: poor adjustment, poor maintenance, worn 'dog bones' (the shoe struts) and the lever design. Check the lining on the small shoes inside the rear disc hats before you adjust anything. Adjust the shoes at the drum first, then the cable at the lever. Upgrades include longer dog bones for more shoe contact, and lever kits that move the pivot point to pull more cable. Unsealed admits no fix lasts forever, so chock the wheels on steep camp sites anyway.",
+   "tools": "Jack and stands · wheel-off sockets · brake adjusting tool · flashlight",
+   "parts": [
+    {
+     "name": "Park brake shoe set, OEM Toyota, 8x/10x (PB8X10XOEM)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/park-brake-shoe-set-one-vehicle-oem-toyota-fits-8x-10x-pb8x10xoem/"
+    },
+    {
+     "name": "Park brake hardware kit, 8/1992–2007 8x/10x with rear disc",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/park-brake-hardware-kit-fits-1-1990-7x-series-8-1992-2007-8x-10x-series-w-rear-disc/"
+    },
+    {
+     "name": "Rear parking brake shoe strut, LH & RH, 8x/10x (PB476138X)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/rear-parking-brake-shoe-strut-lh-rh-fits-8x-10x-series-land-cruiser-applications-pb476138x/"
+    }
+   ]
+  },
+  {
+   "title": "Driveline clunk: grease the slip yokes",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours to pull and grease both shafts",
+   "cost": "A tube of grease",
+   "symptoms": "A clunk or a 'grabbing' feel when you take up drive, shift into gear or get on and off the throttle.",
+   "fix": "IH8MUD's long-running clunk thread usually blames dry driveshaft splines. Members pulled the shafts, marked both halves so the phasing goes back the same, and hand-greased the splines. For some, doing just the front shaft cured it. To prevent it, give the slip-yoke zerks a couple of shots at the first sign of clunking, then look for fresh grease on the shaft after a few miles. Don't keep pumping until you're sure the shaft passes grease: over-greasing can hydrolock it, though that's rare. An Australian owner was told by a Toyota mechanic that too much grease can stop the slider moving and to stop at two squirts. Members used Mobil 1 red and Schaeffer's #229 Ultra Red Moly. If it still clunks, check front diff backlash, which contributed for one member.",
+   "tools": "Grease gun · paint pen to mark phasing · sockets and wrenches for the flange bolts",
+   "parts": [
+    {
+     "name": "Moly chassis grease (search)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=moly+chassis+grease"
+    },
+    {
+     "name": "Driveshaft and U-joint parts (1997 LX450 catalog)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
+    }
+   ]
   }
  ],
  "faq": [
@@ -735,6 +782,18 @@
   {
    "name": "IH8MUD — Drive Shaft / Propeller Shaft Service - Detailed",
    "url": "https://forum.ih8mud.com/threads/drive-shaft-propeller-shaft-service-detailed.1148130/"
+  },
+  {
+   "name": "IH8MUD — Clunk is gone",
+   "url": "https://forum.ih8mud.com/threads/clunk-is-gone.61521"
+  },
+  {
+   "name": "ExplorOz — The saga of the 80 series clunk",
+   "url": "https://www.exploroz.com/forum/97546/the-saga-of-the-80-series-clunk"
+  },
+  {
+   "name": "CruiserTeq — Park brake shoe set, OEM Toyota, 8x/10x",
+   "url": "https://cruiserteq.com/park-brake-shoe-set-one-vehicle-oem-toyota-fits-8x-10x-pb8x10xoem/"
   }
  ],
  "baseline_service": {
