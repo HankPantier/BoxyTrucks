@@ -84,7 +84,7 @@
   },
   {
    "year": "2024",
-   "change": "Lexus Safety System+ 2.5 standard. The F Sport Handling has 22-in forged wheels and a Torsen limited-slip rear differential.",
+   "change": "Largely a carryover. Lexus's 2024 release lists Lexus Safety System+ 2.5 as standard and an F Sport Handling grade with 22-in forged wheels and a Torsen limited-slip rear differential.",
    "flag": "note"
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "identify": {
-  "intro": "Every US LX 600 is built at the same plant on the same platform as the Land Cruiser 300, so the real differences are grade, AHC and recall status.",
+  "intro": "Every US LX 600 sits on the same GA-F platform as the Land Cruiser 300, so the real differences are grade, AHC and recall status.",
   "items": [
    {
     "head": "VIN",
@@ -204,7 +204,7 @@
   }
  ],
  "production": {
-  "intro": "Built at Toyota Auto Body's Yoshiwara plant on the GA-F platform shared with the Land Cruiser 300.",
+  "intro": "Built at Toyota Auto Body's Yoshiwara plant (per NHTSA VIN data) on the GA-F platform shared with the Land Cruiser 300.",
   "items": [
    {
     "k": "US sales",

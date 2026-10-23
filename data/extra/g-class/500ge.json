@@ -1,0 +1,257 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 H (Bridgestone, factory) on 16-in alloys"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "≈32 in overall diameter",
+    "note": "There's no 500 GE-specific consensus. On unlifted W463s, Expedition Portal owners say up to about 32 in clears without rubbing; 33s fit on 18-in wheels with a slight rub at full lock. Most owners keep these trucks on period-correct 16s."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": []
+ },
+ "timeline": [
+  {
+   "year": "1990",
+   "change": "W463 launches with permanent 4WD and three locking diffs, setting the base the 500 GE is built on",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "500 GE V8 launches at DM 178,250 with the 240 PS M117 V8, developed with AMG; planned run of 500",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "AMG offers the 500 GE 6.0 (5,959 cc) as an individual customer upgrade; RM Sotheby's believes about 13 were officially converted",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "Puch-badged 500 GEs sold in Austria; RM Sotheby's says three exist",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Production ends at 446 units, limited by M117 supply because the newer M119 wouldn't fit the G's engine bay",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "The V8 returns in regular production as the G 500, with the M113 and all three locking diffs",
+   "flag": "note"
+  },
+  {
+   "year": "2018–19",
+   "change": "The first 500 GEs pass 25 years old and become legal to import to the US",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "30th anniversary; well-kept examples now qualify for Germany's H (historic) plate after appraisal",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "With 446 built and plenty of later Gs wearing V8 badges and blue trim, the paperwork and chassis number are what prove a real 500 GE.",
+  "items": [
+   {
+    "head": "Chassis number",
+    "body": "Documented 500 GEs share the model code 463.228 in the chassis number: WDB463228… on Mercedes-badged trucks (two RM Sotheby's cars and an armoured BaT car), VAG463228… on the Puch."
+   },
+   {
+    "head": "Two lockers, not three",
+    "body": "Mercedes didn't offer a front differential lock on the 500 GE, so it has only the centre and rear locks. A front-lock switch suggests a later G or a conversion."
+   },
+   {
+    "head": "Body and colour",
+    "body": "Long-wheelbase station wagon only. Standard trucks are Amethyst Blue metallic (DB 3338) with the bumpers, wheel-arch flares and mirror housings in the same colour. Special-request paint exists: RM Sotheby's sold one in Avantgarde Verde."
+   },
+   {
+    "head": "Interior",
+    "body": "Black leather with medium-grey seat centres and door panels, and walnut on the centre console, handbrake, selector levers and door trim. Automatic, air conditioning, cruise control, sunroof and heated seats were standard."
+   },
+   {
+    "head": "AMG 6.0",
+    "body": "The genuine AMG 500 GE 6.0 has a 5,959 cc M117. RM Sotheby's cites option code ZB6, '500 GE (AMG)', checked on the data card. Badges alone prove nothing."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Power / torque",
+   "v": "240 PS (177 kW) / 375 N·m",
+   "note": "M117 4,973 cc V8"
+  },
+  {
+   "k": "0–100 km/h",
+   "v": "11.4 s"
+  },
+  {
+   "k": "Top speed",
+   "v": "112 mph (180 km/h)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "112.2 in (2,850 mm)",
+   "note": "long wheelbase only"
+  },
+  {
+   "k": "Wading depth",
+   "v": "Slightly less than other Gs",
+   "note": "Mercedes doesn't publish the figure in its 30th-anniversary story"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The 500 GE is a rarity whose value depends on provenance, so auction results are scattered rather than tracing a clear trend.",
+  "ranges": [
+   {
+    "cond": "Armoured 500 GE (Bring a Trailer, sold December 2023)",
+    "range": "$38,000"
+   },
+   {
+    "cond": "Standard 500 GE (RM Sotheby's, Saudi-delivered special order)",
+    "range": "$148,500"
+   },
+   {
+    "cond": "AMG 500 GE 6.0 (RM Sotheby's)",
+    "range": "$218,500"
+   }
+  ],
+  "note": "Too few public sales for condition bands. Figures: armoured 500 GEs sold for $38,000 on BaT in December 2023 and were bid to $33,300 (unsold) in September 2024; RM Sotheby's sold a special-order car for $148,500 and an AMG 6.0 for $218,500; a Puch 500 GE estimated at €60,000–90,000 went unsold."
+ },
+ "docs": [
+  {
+   "name": "Mercedes-Benz XENTRY WIS / WIS Classic",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis",
+   "note": "Official repair information via B2B Connect; WIS Classic covers older series up to BR 463"
+  },
+  {
+   "name": "Mercedes-Benz Classic digital vehicle data card",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/",
+   "note": "Proves original spec and option codes; covers most cars built 1986–2010 but excludes Mercedes-AMG models, so check eligibility for an AMG 6.0"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The 500 GE was never sold new in the US, and it isn't part of the Europa International story. US examples are private imports; German Cars For Sale Blog documents one that went through Wallace test labs in 2005 and is California-registered. NHTSA allows any vehicle at least 25 years old to be imported, counted from its date of manufacture, so every 500 GE now qualifies under Box 1 of the HS-7 form. Check your state's titling and emissions rules."
+  ]
+ },
+ "production": {
+  "intro": "Mercedes planned 500 and built 446, because the supply of M117 V8s ran out.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "446 (planned: 500)"
+   },
+   {
+    "k": "Price new",
+    "v": "DM 178,250 (1993)"
+   },
+   {
+    "k": "Body",
+    "v": "Long-wheelbase station wagon only"
+   }
+  ],
+  "editions": [
+   {
+    "name": "AMG 500 GE 6.0",
+    "years": "1993",
+    "note": "5,959 cc M117; customer-order upgrade, about 13 believed converted (RM Sotheby's)"
+   },
+   {
+    "name": "Puch 500 GE",
+    "years": "1993",
+    "note": "Puch-badged for Austria; RM Sotheby's says three exist"
+   }
+  ],
+  "paint": "Amethyst Blue metallic (Amethystblau, DB 3338) as standard; special-request colours exist"
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "G-Class Experience Center",
+   "url": "https://g-class-experience.com/en/",
+   "note": "Licensed G-Class centre near Graz with a G-Class history exhibition and Schöckl drives"
+  },
+  {
+   "kind": "event",
+   "name": "Unimog meets G-Class",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026",
+   "note": "Unimog Museum gathering in Gaggenau/Ötigheim, Germany, featuring historic G-Class displays; 2026 edition held 5–6 September"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Mercedes-Benz G-Class — Exclusive special model 30 years ago: the 500 GE V8",
+   "url": "https://g-class.mercedes-benz.com/en/news/2023/exclusive-special-model-30-years-ago-the-mercedes-benz-500-ge-v8.html"
+  },
+  {
+   "name": "RM Sotheby's — 1993 Mercedes-Benz 500 GE 6.0 'AMG' (Dubai)",
+   "url": "https://rmsothebys.com/auctions/ds24/lots/r0012-1993-mercedesbenz-500-ge-60-amg/"
+  },
+  {
+   "name": "RM Sotheby's — 1993 Mercedes GE500 V8 AMG (Abu Dhabi)",
+   "url": "https://rmsothebys.com/auctions/0726/lots/r0001-1993-mercedes-ge500-v8-amg/"
+  },
+  {
+   "name": "RM Sotheby's — 1993 Puch 500 GE (Essen)",
+   "url": "https://rmsothebys.com/auctions/es20/lots/r0016-1993-puch-500-ge/"
+  },
+  {
+   "name": "Bring a Trailer — Armored 1993 Mercedes-Benz 500GE",
+   "url": "https://bringatrailer.com/listing/1993-mercedes-benz-500ge-2/"
+  },
+  {
+   "name": "German Cars For Sale Blog — 1993 Mercedes-Benz 500GE",
+   "url": "https://germancarsforsaleblog.com/1993-mercedes-benz-500ge"
+  },
+  {
+   "name": "Expedition Portal — G550 tire options thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Tire Wheel Guide — 1993 Mercedes-Benz G-Class tire and wheel sizes",
+   "url": "https://tirewheelguide.com/sizes/mercedes/g-class/1993/"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class (1991–2018) results",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-1991-2018/"
+  },
+  {
+   "name": "Mercedes-Benz B2B Connect — XENTRY WIS (incl. WIS Classic)",
+   "url": "https://b2bconnect.mercedes-benz.com/ee/shop/workshop-solutions/xentry-wis"
+  },
+  {
+   "name": "Driven Car Guide — Mercedes now sells digital 'birth certificates' for modern classics (Aug 2026)",
+   "url": "https://www.drivencarguide.co.nz/news/mercedes-now-sells-digital-birth-certificates-for-modern-classics/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "G-Class Experience Center, Graz",
+   "url": "https://g-class-experience.com/en/"
+  },
+  {
+   "name": "Museums-PASS-Musées — Unimog meets G-Class 2.0, 5–6 September 2026",
+   "url": "https://www.museumspass.com/en/event/unimog-meets-g-class-20-event-september-5-2026-september-6-2026"
+  }
+ ]
+}

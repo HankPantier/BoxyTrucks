@@ -10,7 +10,7 @@
    "Five generations later, the name has drifted steadily up-market. The Classic (1970–1996) and the P38A (1994–2002) kept a separate ladder chassis and live axles; the L322 (2002–2012) went monocoque with all-independent air suspension and BMW-shared hardware; the L405 (2012–2021) went all-aluminium; and the L460, revealed in October 2021, added a seven-seat option, plug-in hybrids and a BMW-sourced 4.4 V8.",
    "For BoxyTrucks readers, the sweet spot is the old stuff. The Classic is the one you can fix in a driveway with hand tools, a Rovers North catalogue and a forgiving spouse. The later trucks remain astonishingly capable off-road, but they are rolling networks of sensors and air springs — wonderful when right, ruinous when not."
   ],
-  "hero_photo": "l405-trail.jpg",
+  "hero_photo": "range-rover-classic-muddy-lane.jpg",
   "generations": [
    {
     "slug": "classic",
@@ -109,7 +109,7 @@
    "PERMANENT 4WD",
    "COIL OR AIR (1993+)"
   ],
-  "hero_photo": "discovery1-lakeside.jpg",
+  "hero_photo": "range-rover-classic-carasa-marsh.jpg",
   "story": [
    {
     "heading": null,
@@ -683,44 +683,36 @@
   ],
   "photos": [
    {
-    "file": "discovery1-lakeside.jpg",
-    "alt": "A Discovery 1 overlander with roof rack, bull bar and recovery boards parked on grass beside a lake",
-    "caption": "DISCOVERY 1 · BUILT ON THE CLASSIC'S 100-IN CHASSIS",
-    "credit": "Thomas Tucker",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/an-off-road-vehicle-parks-by-the-water-LaNwh5IIsjw"
+    "file": "range-rover-classic-carasa-marsh.jpg",
+    "alt": "A white two-door Range Rover Classic on a waterlogged track beside a ruined mill in the Carasa marshes, Cantabria",
+    "caption": "CLASSIC 2-DOOR · CARASA MARSH, SPAIN",
+    "credit": "LBM1948 · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carasa_(2013).jpg"
    },
    {
-    "file": "discovery1-grassland.jpg",
-    "alt": "White Land Rover Discovery 1 Tdi seen from the rear on wet grassland under storm clouds",
-    "caption": "DISCOVERY 1 TDI · DAYAGAMA, SRI LANKA",
-    "credit": "Channa Kaviraja",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/4x4-off-road-16735634/"
+    "file": "range-rover-classic-muddy-lane.jpg",
+    "alt": "A mud-caked, lifted four-door Range Rover Classic with a winch, light bar and snorkel parked on a grassy lane",
+    "caption": "CLASSIC 4-DOOR · MUD-CAKED EXPEDITION BUILD",
+    "credit": "Lewis Collard · Public domain",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Muddy_Range_Rover.JPG"
    },
    {
-    "file": "discovery1-mud.jpg",
-    "alt": "Red Discovery 1 with roof rack ploughing through a deep mud pit at an off-road event",
-    "caption": "DISCOVERY 1 · MUD-PIT DUTY",
-    "credit": "Hobi Photography",
-    "source": "Pexels",
-    "source_url": "https://www.pexels.com/photo/a-red-land-rover-is-driving-through-mud-27555108/"
+    "file": "range-rover-classic-in-guezzam-dunes.jpg",
+    "alt": "A two-door Range Rover Classic Turbo D rally car on the Sahara dunes at In Guezzam on the Algeria–Niger border in 1989",
+    "caption": "CLASSIC 2-DOOR · TRANS-SAHARA, IN GUEZZAM 1989",
+    "credit": "Fastestkid · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gianni_Lora_Lamia_Range_Rover_Non_Stop_1989_in_Guezzam_Algerie.jpg"
    },
    {
-    "file": "l405-trail.jpg",
-    "alt": "A fourth-generation Range Rover (L405) climbing a rutted dirt trail between bushes",
-    "caption": "L405 · THE GREAT-GRANDCHILD STILL DOES DIRT",
-    "credit": "Zakaria Zayane",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
-   },
-   {
-    "file": "l460-forest-track.jpg",
-    "alt": "A fifth-generation Range Rover (L460) parked on a muddy gravel forest track",
-    "caption": "L460 · FOREST TRACK, CANNOCK, UK",
-    "credit": "Sam Pearce-Warrilow",
-    "source": "Unsplash",
-    "source_url": "https://unsplash.com/photos/a-black-range-rover-parked-on-a-gravel-road-Ho98UeVC_nQ"
+    "file": "range-rover-classic-rally-mud.jpg",
+    "alt": "A modified two-door Range Rover Classic rally car in a muddy forest section with other competitors behind",
+    "caption": "CLASSIC 2-DOOR · RALLY BRESLAU MUD",
+    "credit": "Abenteuer-Fabrik · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:STrange_Rover_im_Schlamm.jpg"
    }
   ],
   "sources": [
@@ -1065,6 +1057,7 @@
      ]
     }
    ]
-  }
+  },
+  "hero_focus": "68% 65%"
  }
 }

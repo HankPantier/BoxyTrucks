@@ -10,7 +10,7 @@
   "EAS AIR SUSPENSION",
   "BORGWARNER 4462 HI/LO"
  ],
- "hero_photo": "discovery1-mud.jpg",
+ "hero_photo": "p38-rejviz-rescue-rally.jpg",
  "story": [
   {
    "heading": null,
@@ -643,28 +643,28 @@
  ],
  "photos": [
   {
-   "file": "discovery1-mud.jpg",
-   "alt": "Red Discovery 1 with roof rack ploughing through a deep mud pit at an off-road event",
-   "caption": "DISCOVERY 1 · SAME ROVER V8 FAMILY, NOT A P38",
-   "credit": "Hobi Photography",
-   "source": "Pexels",
-   "source_url": "https://www.pexels.com/photo/a-red-land-rover-is-driving-through-mud-27555108/"
+   "file": "p38-rejviz-rescue-rally.jpg",
+   "alt": "A yellow second-generation Range Rover (P38A) ambulance parked on a wet mountain track among spruce trees",
+   "caption": "P38A · REJVÍZ RESCUE RALLY, CZECHIA",
+   "credit": "Radim Holiš · CC BY-SA 3.0 CZ",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rallye_Rejvíz_2012,_ÚSZS_SČK,_Land_Rover_Range_Rover_II_(01).jpg"
   },
   {
-   "file": "discovery1-lakeside.jpg",
-   "alt": "A Discovery 1 overlander with roof rack, bull bar and recovery boards parked on grass beside a lake",
-   "caption": "DISCOVERY 1 · THE P38'S GEMS-V8 COUSIN",
-   "credit": "Thomas Tucker",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/an-off-road-vehicle-parks-by-the-water-LaNwh5IIsjw"
+   "file": "p38-harvest-field.jpg",
+   "alt": "A red P38A Range Rover parked in a stubble field next to a grain trailer and combine harvester",
+   "caption": "P38A · HARVEST FIELD, SHEEPHOUSE HEIGHTS",
+   "credit": "Wendy North · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Harvest_Time_Sheephouse_Heights_-_geograph.org.uk_-_922527.jpg"
   },
   {
-   "file": "l405-trail.jpg",
-   "alt": "A fourth-generation Range Rover (L405) climbing a rutted dirt trail between bushes",
-   "caption": "L405 · THE P38'S GRANDCHILD ON A TRAIL",
-   "credit": "Zakaria Zayane",
-   "source": "Unsplash",
-   "source_url": "https://unsplash.com/photos/gray-land-rover-range-rover-running-on-trails-1LWa03KmAjE"
+   "file": "p38-papa-westray-ferry.jpg",
+   "alt": "Crew untying a dark P38A Range Rover after winching it aboard the Papa Westray ferry in Orkney",
+   "caption": "P38A · WINCHED ABOARD, PAPA WESTRAY",
+   "credit": "Dumgoyach · CC BY-SA 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:A_4x4_being_untied_after_being_winched_aboard_-_geograph.org.uk_-_286067.jpg"
   }
  ],
  "sources": [
@@ -1006,5 +1006,6 @@
     ]
    }
   ]
- }
+ },
+ "hero_focus": "55% 60%"
 }
