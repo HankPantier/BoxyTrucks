@@ -1,0 +1,344 @@
+{
+ "fitment": {
+  "stock": [
+   "205/75R15 or 215/75R15 (base models)",
+   "225/75R15 (some trims)",
+   "30x9.50R15 LT on 15x8 alloys (Renegade)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\")",
+   "center_bore": "71.5 mm",
+   "lug_thread": "1/2\"-20",
+   "note": "Factory torque not confirmed from a YJ owner's manual. Quadratec's generic chart gives 75–85 lb-ft for 1/2 in studs and says to check the owner's manual."
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "30x9.50R15",
+    "note": "Jeep's own Renegade size, so it fits an unmodified YJ; bigger tires on stock springs depend on wheel backspacing and flares."
+   },
+   {
+    "lift": "2.5 in",
+    "size": "31x10.50R15",
+    "note": "Rough Country's 2.5 in YJ kit lists clearance for 31s on 15x8 wheels; test-fit the wheel and tire before you commit."
+   },
+   {
+    "lift": "4 in",
+    "size": "33x12.50R17",
+    "note": "Rough Country's 4 in YJ kit lists 33x12.50 on 17-, 18- and 20-inch wheels; the 20-inch combos need minor trimming. Plan a re-gear from the factory ratio."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Windshield frame cracks at wiper pivots",
+    "years": "1987–1988",
+    "ref": "NHTSA 88V155000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=88V155000",
+    "summary": "The frame can crack at the wiper-arm pivots; the fix was a reinforcement and redesigned wiper linkage. A follow-up campaign (93V150000) covered 1989 trucks."
+   },
+   {
+    "title": "Front brake hoses rub on splash shields",
+    "years": "1987–1992",
+    "ref": "NHTSA 92V148000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=92V148000",
+    "summary": "Hoses can wear through on the wheel-opening splash shields; the fix was new shields or fasteners and new hoses where needed."
+   },
+   {
+    "title": "Fuel tank skid plate misbuilt",
+    "years": "1989",
+    "ref": "NHTSA 90V168000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=90V168000",
+    "summary": "In a rear impact the tank could leak more fuel than FMVSS 301 allows because of a misbuilt skid plate."
+   },
+   {
+    "title": "Starter can engage without the key",
+    "years": "1991–1993",
+    "ref": "NHTSA 93V083000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V083000",
+    "summary": "Salt corrosion in the bulkhead connector can short the starter wire to battery feed; the fix relocates the wire in the connector."
+   },
+   {
+    "title": "Fuel sender gasket cracks",
+    "years": "1987–1994",
+    "ref": "NHTSA 94V106000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=94V106000",
+    "summary": "On trucks with plastic tanks the sending-unit gasket can crack and leak fuel and vapor; the fix is a new gasket."
+   },
+   {
+    "title": "Parking brake can self-release (manual trans)",
+    "years": "1990–1995",
+    "ref": "NHTSA 02V041000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V041000",
+    "summary": "Dealers fitted a parking-brake assembly with a stronger pawl return spring."
+   },
+   {
+    "title": "Front rotor corrosion (salt-belt states)",
+    "years": "1990–1991",
+    "ref": "NHTSA 98V005000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V005000",
+    "summary": "For trucks sold or registered in listed salt-belt states, the stamped-steel rotor hub can rust through; replaced with coated rotors."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1987",
+   "change": "YJ launches (unveiled February 1986, on sale May 1986) with the 2.5 L four or carbureted 4.2 L six and the NP207 transfer case, used only this year",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "NP231 transfer case replaces the NP207; Sahara trim debuts; Islander package runs 1988–93",
+   "flag": "note"
+  },
+  {
+   "year": "1989",
+   "change": "Aisin AX-15 five-speed replaces the Peugeot BA-10 behind the 4.2 L six",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "Fuel-injected 4.0 L six replaces the carbureted 4.2; Renegade Decor Group arrives (built from October 1990)",
+   "flag": "buy"
+  },
+  {
+   "year": "1992",
+   "change": "Brampton plant closes in April and production moves to Toledo; roll cage extended for rear shoulder belts; electronic speedometer",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "Anti-lock brakes become optional",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Automatic offered with the four; center high-mounted stop lamp; clutch slave cylinder moved outside the bellhousing for easier replacement",
+   "flag": "buy"
+  },
+  {
+   "year": "1995",
+   "change": "Larger Dana 30 U-joints (297x) and 1330 rear pinion joint; Rio Grande package; last YJs (there is no 1996 Wrangler)",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Sixes, trim packages and build plant all change what a YJ is worth, and a lot of 30-year-old Jeeps have had engines, axles and decals swapped. Let the VIN and the hardware tell the story.",
+  "items": [
+   {
+    "head": "VIN, 1989–95",
+    "body": "The 5th character is Y (Wrangler). The 6th is the trim: 4 is Sahara, 5 Laredo, 6 Renegade. The 8th is the engine: E is the 2.5 L four, S the 4.0 L six (1991–95), and M (1989) or T (1990) the 4.2 L six."
+   },
+   {
+    "head": "VIN, 1987–88",
+    "body": "Early trucks use the older AMC-style VIN, starting 2BC on the Brampton-built examples we decoded. The 4th character is the engine (C is the 4.2 L six; H the 2.5 L TBI four) and characters 6–7 read 81 for Wrangler."
+   },
+   {
+    "head": "Brampton or Toledo",
+    "body": "In the NHTSA decoder, VINs starting with 2 decode to Brampton, Ontario, and VINs starting with 1J4 to Toledo, Ohio. Brampton built YJs until April 1992."
+   },
+   {
+    "head": "Renegade",
+    "body": "Real Renegades were finished by Autostyle near Detroit and carry a small Autostyle sticker on the driver's door jamb above the latch. They came with the 4.0 six, 8-inch alloys, 30x9.50 tires, fender-mounted fog lights and the 20-gallon tank."
+   },
+   {
+    "head": "Engine and transfer case",
+    "body": "A 4.0 L six means 1991 or later; a 4.2 means 1990 or earlier. The NP207 transfer case is 1987 only; everything after uses the NP231."
+   },
+   {
+    "head": "Late YJ details",
+    "body": "1994–95 manual trucks have the external clutch slave cylinder. Some last-build 1995s got TJ-style hood bump stops, reinforced tailgate hinges and TJ rear bumpers."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,000 lb (907 kg) six · 1,000 lb (454 kg) four",
+   "note": "Quadratec's 1990 and 1995 spec sheets"
+  },
+  {
+   "k": "Payload",
+   "v": "800 lb (363 kg)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "15 US gal (57 L) standard; 20 US gal (76 L) optional",
+   "note": "Quadratec lists 20 gal for 1995"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.2 in (208 mm)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "93.4 in (2,372 mm)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,855–3,241 lb (1,295–1,470 kg)",
+   "note": "varies with engine and equipment"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15 city / 20 hwy (1991 4.0, manual) · 14 / 17 (1995 4.0, manual)",
+   "note": "fueleconomy.gov's revised figures"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "YJs are still the cheap way into a Wrangler, but nicer ones keep climbing. Low miles, the 4.0 six, a five-speed and Sahara, Renegade or Jurassic Park-style specs bring the money.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$4k–8k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–17k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$20k–35k"
+   },
+   {
+    "cond": "Time-capsule outliers",
+    "range": "up to ≈$50k"
+   }
+  ],
+  "note": "Based on 71 Bring a Trailer sales from January 2025 to October 2026: median ≈$9,800, middle half ≈$7,300–17,000. The top results were a 460-mile 1995 Sahara ($47,250, February 2025) and a 6k-mile 1995 Sahara ($49,750, September 2024)."
+ },
+ "docs": [
+  {
+   "name": "Factory service manuals 1987–95 (Bishko reprints)",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-wrangler-yj",
+   "note": "Factory-authorized reproductions, sold by year (1987–88, then 1989 through 1995)"
+  },
+  {
+   "name": "NHTSA vPIC VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/",
+   "note": "Free decoder for 1989–95 VINs (17-character format)"
+  }
+ ],
+ "production": {
+  "intro": "Built in Brampton, Ontario, until April 1992 and in Toledo, Ohio, after that.",
+  "items": [
+   {
+    "k": "Built, 1987–95 model years",
+    "v": "632,231"
+   },
+   {
+    "k": "Including YJs sold into mid-1996",
+    "v": "685,071"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Islander",
+    "years": "1988–1993",
+    "note": "Sunset graphics, body-color flares and steps, optional 20-gallon tank"
+   },
+   {
+    "name": "Renegade Decor Group",
+    "years": "1991–1994",
+    "note": "Finished by Autostyle; 4.0 six, 8-inch alloys, 30x9.50 tires, exclusive flares. A $4,266 option over a base Wrangler in 1991."
+   },
+   {
+    "name": "Rio Grande",
+    "years": "1995",
+    "note": "Pueblo-theme trim package for the base four-cylinder S"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari (Red Rock 4-Wheelers)",
+   "url": "https://www.rr4w.com/",
+   "note": "Nine-day trail event around Easter in Moab, Utah; started in 1967 and now run by Red Rock 4-Wheelers"
+  },
+  {
+   "kind": "event",
+   "name": "Jeepers Jamboree",
+   "url": "https://www.jeepersjamboree.com/",
+   "note": "Guided Rubicon Trail trips in the Sierra Nevada, California; the trail the TJ Rubicon is named after"
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Jamboree USA",
+   "url": "https://www.jeepjamboreeusa.com/",
+   "note": "Guided Jeep-only trail weekends at venues across the US"
+  },
+  {
+   "kind": "event",
+   "name": "Bantam Jeep Heritage Festival",
+   "url": "https://www.bantamjeepfestival.com/",
+   "note": "Annual Jeep festival in Butler, Pennsylvania, where the first Jeep prototype was built"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Wrangler (YJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(YJ)"
+  },
+  {
+   "name": "NHTSA — recalls API, Jeep Wrangler 1987–2006",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=1995"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder (used on VINs from BaT listings)",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "fueleconomy.gov — Jeep Wrangler 4WD EPA ratings by year",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1987&year2=2006&make=Jeep&baseModel=Wrangler"
+  },
+  {
+   "name": "Quadratec — Wheel bolt patterns & typical lug nut torque specifications",
+   "url": "https://quadratec.com/c/reference/wheel-bolt-patterns-typical-lug-nut-torque-specifications"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep Wrangler tire size guide",
+   "url": "https://www.extremeterrain.com/jeep-wrangler-tire-size-guide.html"
+  },
+  {
+   "name": "ExtremeTerrain — VIN decoder, 1987–1995 Jeep Wrangler YJ",
+   "url": "https://www.extremeterrain.com/vin-jeep-wrangler-yj-1987-1995-tech-guide.html"
+  },
+  {
+   "name": "Quadratec — 1990 Jeep Wrangler YJ specs",
+   "url": "https://www.quadratec.com/c/reference/1990-jeep-wrangler-yj-specs"
+  },
+  {
+   "name": "Quadratec — 1995 Jeep Wrangler YJ specs",
+   "url": "https://www.quadratec.com/c/reference/1995-jeep-wrangler-yj-specs"
+  },
+  {
+   "name": "Rough Country — 2.5 in lift kit, Wrangler YJ 1987–1995",
+   "url": "https://www.roughcountry.com/product/configurable/jeep-suspension-lift-kit-615c"
+  },
+  {
+   "name": "Rough Country — 4 in lift kit, Wrangler YJ 1987–1995",
+   "url": "https://www.roughcountry.com/product/configurable/jeep-suspension-lift-kit-620-c"
+  },
+  {
+   "name": "Quadratec — Everything Jeep Wrangler Buyer's Guide (PDF)",
+   "url": "https://www.quadratec.com/sites/default/files/JeepWranglerBuyersGuide.pdf"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler YJ (1987–1995) results",
+   "url": "https://bringatrailer.com/jeep/wrangler-yj/"
+  },
+  {
+   "name": "Quadratec — Bishko factory-authorized technical service manuals, 87–04 Wrangler YJ & TJ",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-wrangler-yj"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

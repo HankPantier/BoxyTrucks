@@ -1,0 +1,362 @@
+{
+ "fitment": {
+  "stock": [
+   "205/75R15, 215/75R15 or 225/75R15 (SE, X, Sport, depending on year)",
+   "30x9.50R15 LT (optional on some trims)",
+   "LT245/75R16 (≈31 in) on 16x8 alloys (Rubicon)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\")",
+   "center_bore": "71.5 mm",
+   "lug_thread": "1/2\"-20 (60° cone seat)",
+   "lug_torque": "85–115 lb-ft (115–156 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31 in (e.g. 31x10.50R15)",
+    "note": "Jeep put 31-inch LT245/75R16s on the Rubicon from the factory. Use wheels with at least 4.5 in of backspacing so the tires don't stick out past the flares."
+   },
+   {
+    "lift": "2 in",
+    "size": "≈31 in",
+    "note": "Quadratec's guide: about 31 in on a 2 in spacer lift."
+   },
+   {
+    "lift": "3 in",
+    "size": "33 in",
+    "note": "Quadratec's guide: 33 in on a 3 in suspension lift, 35 in with a long-arm lift. Regear from the stock 3.07 (Quadratec suggests 4.10, or 4.88 for bigger tires)."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Airbag control module software",
+    "years": "1997",
+    "ref": "NHTSA 96V060000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V060000",
+    "summary": "A software error could delay airbag deployment in some crashes."
+   },
+   {
+    "title": "Inadvertent airbag deployment at shut-off",
+    "years": "1997",
+    "ref": "NHTSA 97V080000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=97V080000",
+    "summary": "The circuit design could fire the airbag when the ignition is switched off."
+   },
+   {
+    "title": "Driver airbag clockspring",
+    "years": "1997",
+    "ref": "NHTSA 98V046000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V046000",
+    "summary": "The clockspring harness can break when the wheel is turned to full lock."
+   },
+   {
+    "title": "Front seat-belt turning loops",
+    "years": "1998",
+    "ref": "NHTSA 98V048000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V048000",
+    "summary": "Shoulder-belt turning-loop anchors were not properly heat-treated."
+   },
+   {
+    "title": "Ignition switch water intrusion",
+    "years": "2001–2002",
+    "ref": "NHTSA 02V075000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V075000",
+    "summary": "Water can get into the ignition switch and short it; dealers fitted a redesigned switch."
+   },
+   {
+    "title": "4.0 L manifold debris at cylinder 3",
+    "years": "2000–2002",
+    "ref": "NHTSA 02V104000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V104000",
+    "summary": "Debris could collect between the manifolds at cylinder 3; dealers fitted a manifold shield."
+   },
+   {
+    "title": "42RLE park pawl anchor shaft",
+    "years": "2005–2006",
+    "ref": "NHTSA 05V460000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V460000",
+    "summary": "An improperly installed cup plug can let the shaft move so the transmission won't go into Park; dealers added a retaining bracket."
+   },
+   {
+    "title": "Six-speed clutch master cylinder rod",
+    "years": "2006",
+    "ref": "NHTSA 06V147000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=06V147000",
+    "summary": "The linkage rod can break so the clutch won't disengage; replaced free."
+   },
+   {
+    "title": "Clutch pedal interlock switch",
+    "years": "2006",
+    "ref": "NHTSA 15V222000 (Chrysler R13)",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V222000",
+    "summary": "Switch springs can break, letting the engine start in gear without the clutch pressed; switch replaced free."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1997",
+   "change": "TJ launches (shown January 1996, in showrooms April 1996) with coil springs at all four corners and round headlights; 2.5 L four or 4.0 L six with the AX-5/AX-15 manuals or 3-speed automatics",
+   "flag": "note"
+  },
+  {
+   "year": "1997–99",
+   "change": "Quadratec flags rust-prone or leaking 4.0 L exhaust manifolds on 1997–99 trucks and a windshield cowl that leaks water on 1997 to early-1998 trucks",
+   "flag": "avoid"
+  },
+  {
+   "year": "1999",
+   "change": "19-gallon fuel tank becomes standard",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "NV3550 five-speed replaces the AX-15 behind the 4.0",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "Thicker, more durable factory soft-top fabric; 60th Anniversary Edition",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "Mid-cycle update: 42RLE four-speed automatic replaces the 3-speed, 2.4 L replaces the 2.5 L four, revised interior. Rubicon arrives with Dana 44s front and rear, air lockers and the 4:1 NV241OR",
+   "flag": "buy"
+  },
+  {
+   "year": "2004",
+   "change": "Long-wheelbase Wrangler Unlimited (LJ) joins the range",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "NSG370 six-speed manual replaces the five-speeds",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "Final year: 65th Anniversary and Golden Eagle editions; production ends July 2006",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Rubicon badges, decals and axles are easy to bolt onto a Sport, so check the VIN and the hardware before paying a Rubicon price.",
+  "items": [
+   {
+    "head": "VIN trim code",
+    "body": "All TJ VINs start 1J4FA. In the VINs we decoded with NHTSA's tool, the 6th character marks the trim: 2 SE, 4 Sport, 5 Sahara, 6 Rubicon. The 7th is 9 on the short wheelbase and 4 on the Unlimited. A Rubicon reads 1J4FA69…"
+   },
+   {
+    "head": "VIN engine code",
+    "body": "The 8th character is the engine: S is the 4.0 L six and P the 2.5 L four (for example 1J4FA29P… is a 2.5 L SE)."
+   },
+   {
+    "head": "Real Rubicon hardware",
+    "body": "Front and rear Dana 44s with air-actuated lockers and dash switches, the Rock-Trac NV241OR transfer case with a 4:1 low range, diamond-plate rocker guards and 16-inch alloys on LT245/75R16 tires."
+   },
+   {
+    "head": "Rear axle",
+    "body": "Sport, SE and X trucks normally have the weaker Dana 35. A Dana 44 rear was optional on Sport and Sahara, sometimes with a Trac-Lok limited slip. The axle tag and cover shape tell you which one you have."
+   },
+   {
+    "head": "Transmission by year",
+    "body": "Manual 4.0 trucks used the AX-15 (1997–99), the NV3550 (2000–04) and the NSG370 six-speed (2005–06). Automatics are the 32RH 3-speed (1997–2002) and the 42RLE 4-speed (2003–06)."
+   },
+   {
+    "head": "Special editions",
+    "body": "The 2003 Tomb Raider Rubicon has a serial-numbered badge, red seat belts and Bright Silver paint. The 2001 60th Anniversary came only in black or Silverstone."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,000 lb (907 kg) 4.0 L · 1,000 lb (454 kg) 2.4 L",
+   "note": "2005–06"
+  },
+  {
+   "k": "Payload",
+   "v": "800 lb (363 kg)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "19 US gal (72 L)",
+   "note": "standard from 1999"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.6–9.1 in (218–231 mm) at the rear axle",
+   "note": "2005–06, varies with tires"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "42.2° / 31.5°",
+   "note": "2005–06"
+  },
+  {
+   "k": "Turning circle",
+   "v": "36.7 ft (11.2 m)",
+   "note": "curb to curb, 30x9.5 tires"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,200 lb (SE) – 3,832 lb (Rubicon)",
+   "note": "2005–06"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "93.4 in (2,372 mm)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15 city / 18 hwy (1997 4.0, manual) · 13 / 17 (2005–06 4.0, six-speed)",
+   "note": "fueleconomy.gov's revised figures"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Tidy TJs are now firmly collectible. Rubicons, low-mile originals and 2005–06 six-speed trucks bring the strongest money, and heavily modified ones vary wildly.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–10k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$10k–20k"
+   },
+   {
+    "cond": "Excellent / low-mile / Rubicon",
+    "range": "$20k–39k"
+   }
+  ],
+  "note": "Based on 256 short-wheelbase TJ sales on Bring a Trailer from April 2025 to October 2026: median ≈$15,500, middle half ≈$11,000–20,500. Rubicons had a median of ≈$20,000. The best stock result was a 21k-mile 2006 Rubicon six-speed at $39,000; engine-swapped builds sold for up to $57,000."
+ },
+ "docs": [
+  {
+   "name": "Factory service manuals 1997–2004 (Bishko reprints)",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-wrangler-yj",
+   "note": "Factory-authorized reproductions sold by year; the listing doesn't cover 2005–06"
+  },
+  {
+   "name": "TJ torque specifications",
+   "url": "https://www.extremeterrain.com/tj-wrangler-torque-specs.html",
+   "note": "Retailer table of factory torque values (lug nuts, axle nuts, 4.0 L head and mains)"
+  }
+ ],
+ "production": {
+  "intro": "Every TJ was built at the Toledo complex in Ohio (a right-hand-drive version was also sold to US rural mail carriers), from January 1996 to July 2006.",
+  "editions": [
+   {
+    "name": "60th Anniversary Edition",
+    "years": "2001",
+    "note": "4,067 built: 1,862 black and 2,205 Silverstone"
+   },
+   {
+    "name": "Tomb Raider Rubicon",
+    "years": "2003",
+    "note": "About 1,001 serial-numbered Bright Silver Rubicons with Mopar accessories"
+   },
+   {
+    "name": "Willys Edition",
+    "years": "2004–2005",
+    "note": "Moss green, camouflage seats; about 1,000 sold in 2004"
+   },
+   {
+    "name": "65th Anniversary Edition",
+    "years": "2006",
+    "note": "About 1,600 built"
+   },
+   {
+    "name": "Golden Eagle",
+    "years": "2006",
+    "note": "Heritage decal package with the 30-inch tire group and Dana 44 rear"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari (Red Rock 4-Wheelers)",
+   "url": "https://www.rr4w.com/",
+   "note": "Nine-day trail event around Easter in Moab, Utah; started in 1967 and now run by Red Rock 4-Wheelers"
+  },
+  {
+   "kind": "event",
+   "name": "Jeepers Jamboree",
+   "url": "https://www.jeepersjamboree.com/",
+   "note": "Guided Rubicon Trail trips in the Sierra Nevada, California; the trail the TJ Rubicon is named after"
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Jamboree USA",
+   "url": "https://www.jeepjamboreeusa.com/",
+   "note": "Guided Jeep-only trail weekends at venues across the US"
+  },
+  {
+   "kind": "event",
+   "name": "Bantam Jeep Heritage Festival",
+   "url": "https://www.bantamjeepfestival.com/",
+   "note": "Annual Jeep festival in Butler, Pennsylvania, where the first Jeep prototype was built"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Wrangler (TJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(TJ)"
+  },
+  {
+   "name": "NHTSA — recalls API, Jeep Wrangler 1987–2006",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=1995"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder (used on VINs from BaT listings)",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "fueleconomy.gov — Jeep Wrangler 4WD EPA ratings by year",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1987&year2=2006&make=Jeep&baseModel=Wrangler"
+  },
+  {
+   "name": "Quadratec — Wheel bolt patterns & typical lug nut torque specifications",
+   "url": "https://quadratec.com/c/reference/wheel-bolt-patterns-typical-lug-nut-torque-specifications"
+  },
+  {
+   "name": "ExtremeTerrain — TJ Wrangler torque specs",
+   "url": "https://www.extremeterrain.com/tj-wrangler-torque-specs.html"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep Wrangler tire size guide",
+   "url": "https://www.extremeterrain.com/jeep-wrangler-tire-size-guide.html"
+  },
+  {
+   "name": "Quadratec — Everything Jeep Wrangler Buyer's Guide (PDF)",
+   "url": "https://www.quadratec.com/sites/default/files/JeepWranglerBuyersGuide.pdf"
+  },
+  {
+   "name": "JeepFan — What size tires for a TJ?",
+   "url": "https://jeepfan.com/blog/what-size-tires-for-a-tj/"
+  },
+  {
+   "name": "Quadratec — Jeep Wrangler 2005–2006 TJ specifications",
+   "url": "https://quadratec.com/c/reference/jeep-wrangler-2005-2006-tj-specifications"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler TJ (1997–2006) results",
+   "url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  },
+  {
+   "name": "Quadratec — Bishko factory-authorized technical service manuals, 87–04 Wrangler YJ & TJ",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-wrangler-yj"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

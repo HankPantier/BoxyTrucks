@@ -1,0 +1,278 @@
+{
+ "fitment": {
+  "stock": [
+   "30x9.5R15 LT on 15x8 cast-aluminum wheels (Unlimited)",
+   "245/75R16 Goodyear MT/R (Unlimited Rubicon)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\")",
+   "center_bore": "71.5 mm",
+   "lug_thread": "1/2\"-20 (60° cone seat)",
+   "lug_torque": "85–115 lb-ft (115–156 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31 in",
+    "note": "The Unlimited Rubicon came with ≈31-inch 245/75R16s from the factory. Use wheels with at least 4.5 in of backspacing."
+   },
+   {
+    "lift": "2 in",
+    "size": "≈31 in",
+    "note": "Quadratec's guide for TJ/LJ: about 31 in on a 2 in spacer lift."
+   },
+   {
+    "lift": "3 in",
+    "size": "33 in",
+    "note": "Quadratec's guide: 33 in on a 3 in suspension lift, 35 in with a long-arm lift. The low-hanging fuel tank is worth a skid plate."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "42RLE park pawl anchor shaft",
+    "years": "2005–2006",
+    "ref": "NHTSA 05V460000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V460000",
+    "summary": "An improperly installed cup plug can let the shaft move so the transmission won't go into Park; dealers added a retaining bracket."
+   },
+   {
+    "title": "Six-speed clutch master cylinder rod",
+    "years": "2006",
+    "ref": "NHTSA 06V147000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=06V147000",
+    "summary": "The linkage rod can break so the clutch won't disengage; replaced free."
+   },
+   {
+    "title": "Clutch pedal interlock switch",
+    "years": "2006",
+    "ref": "NHTSA 15V222000 (Chrysler R13)",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V222000",
+    "summary": "Switch springs can break, letting the engine start in gear without the clutch pressed; switch replaced free."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2004",
+   "change": "Wrangler Unlimited launches in April 2004 (the 2004½ model): 103.4-inch wheelbase (10 in longer than a TJ), one extra frame crossmember, standard Dana 44 rear with 3.73 gears, NV231 transfer case and 3,500 lb towing",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "Unlimited Rubicon arrives with front and rear locking Dana 44s, the Rock-Trac NV241OR and 245/75R16 MT/Rs; NSG370 six-speed replaces the five-speed manual",
+   "flag": "buy"
+  },
+  {
+   "year": "2005",
+   "change": "Sahara Edition Unlimited Rubicon: 1,000 numbered trucks, all Light Khaki",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "Final year; production ends in July 2006 and the four-door JK Unlimited takes over for 2007",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "\"LJ\" is an unofficial nickname. Jeep sold it as the Wrangler Unlimited, so the VIN, the wheelbase and the axles are how you tell one apart, and how you spot a stretched TJ or a Sport wearing Rubicon parts.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "In the VINs we decoded with NHTSA's tool, an Unlimited reads 1J4FA44S… and an Unlimited Rubicon 1J4FA64S…. Short-wheelbase trucks have a 9 as the 7th character (1J4FA49S Sport, 1J4FA69S Rubicon)."
+   },
+   {
+    "head": "Wheelbase and length",
+    "body": "103.4 in wheelbase against 93.4 in for a TJ, and about 167 in long to the bumper. The rear doors aren't there, but the long rear quarters and cargo area are hard to miss."
+   },
+   {
+    "head": "Rubicon hardware",
+    "body": "Unlimited Rubicons have front and rear Dana 44s with lockers, the NV241OR (4:1 low range), diamond-plate rocker guards and 245/75R16 tires. Base Unlimiteds have a Dana 30 front, Dana 44 rear and the NV231 (2.72:1 low)."
+   },
+   {
+    "head": "Sahara Edition",
+    "body": "The 2005 Sahara Edition Unlimited Rubicon is Light Khaki with a numbered dash badge, chrome grille and Sahara spare-tire cover."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 lb (1,588 kg)",
+   "note": "against 2,000 lb for a short-wheelbase 4.0 TJ"
+  },
+  {
+   "k": "Payload",
+   "v": "800 lb (363 kg)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "19 US gal (72 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.3 in (212 mm) rear axle · 9.2 in (235 mm) running",
+   "note": "2004½ Unlimited"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "43.1° / 27.7° / 21.4°",
+   "note": "2004½ Unlimited"
+  },
+  {
+   "k": "Turning circle",
+   "v": "36 ft (11.2 m)",
+   "note": "curb to curb"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,721 lb (1,689 kg) Unlimited · 3,977 lb (1,804 kg) Unlimited Rubicon"
+  },
+  {
+   "k": "Cargo volume",
+   "v": "28.5 cu ft (0.807 m³)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 13 city / 16 hwy (auto) · 13 / 17 (six-speed)",
+   "note": "2005–06 Wrangler 4.0 ratings; EPA has no separate Unlimited listing"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The LJ sells for more than a comparable TJ: a one-generation long-wheelbase body plus the Rubicon spec make clean ones scarce, and good Unlimited Rubicons are near the top of the TJ market.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$10k–16k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$16k–27k"
+   },
+   {
+    "cond": "Excellent / low-mile Rubicon",
+    "range": "$27k–38k"
+   }
+  ],
+  "note": "Based on 55 Unlimited sales on Bring a Trailer from April 2025 to October 2026: median ≈$20,500, middle half ≈$16,000–27,250. Unlimited Rubicons had a median of ≈$25,250, topping out around $37,000–38,000 (a 33k-mile 2005 Rubicon and a Vortec-swapped 2005 Rubicon)."
+ },
+ "docs": [
+  {
+   "name": "Factory service manuals (Bishko reprints)",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-wrangler-yj",
+   "note": "Factory-authorized reproductions; the listing runs through 2004 and doesn't mention the Unlimited or 2005–06 by name"
+  },
+  {
+   "name": "TJ/LJ torque specifications",
+   "url": "https://www.extremeterrain.com/tj-wrangler-torque-specs.html",
+   "note": "Retailer table of factory torque values for 1997–2006"
+  }
+ ],
+ "production": {
+  "intro": "The LJ was a three-model-year run, built in Toledo from 2004 until July 2006 before the four-door JK Unlimited replaced it.",
+  "items": [
+   {
+    "k": "Total built (2004–06)",
+    "v": "A little over 46,000 (Driving Line)"
+   },
+   {
+    "k": "Of which Rubicons",
+    "v": "Fewer than 13,000 (Driving Line)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Sahara Edition Unlimited Rubicon",
+    "years": "2005",
+    "note": "1,000 numbered trucks in Light Khaki, tied to the film Sahara"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari (Red Rock 4-Wheelers)",
+   "url": "https://www.rr4w.com/",
+   "note": "Nine-day trail event around Easter in Moab, Utah; started in 1967 and now run by Red Rock 4-Wheelers"
+  },
+  {
+   "kind": "event",
+   "name": "Jeepers Jamboree",
+   "url": "https://www.jeepersjamboree.com/",
+   "note": "Guided Rubicon Trail trips in the Sierra Nevada, California; the trail the TJ Rubicon is named after"
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Jamboree USA",
+   "url": "https://www.jeepjamboreeusa.com/",
+   "note": "Guided Jeep-only trail weekends at venues across the US"
+  },
+  {
+   "kind": "event",
+   "name": "Bantam Jeep Heritage Festival",
+   "url": "https://www.bantamjeepfestival.com/",
+   "note": "Annual Jeep festival in Butler, Pennsylvania, where the first Jeep prototype was built"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Wrangler (TJ): Wrangler Unlimited",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(TJ)"
+  },
+  {
+   "name": "Rockcrawler.com — 2004½ Jeep Wrangler Unlimited specifications",
+   "url": "https://rockcrawler.com/reviews/jeep/wrangler_2004_unlimited/information/specifications.asp"
+  },
+  {
+   "name": "Quadratec — 2006 Jeep Wrangler TJ specs (incl. Unlimited)",
+   "url": "https://www.quadratec.com/c/reference/2006-jeep-wrangler-tj-specs"
+  },
+  {
+   "name": "Driving Line — Long live the LJ: is this the perfect Wrangler?",
+   "url": "https://www.drivingline.com/articles/long-live-the-lj-is-this-the-perfect-wrangler/"
+  },
+  {
+   "name": "Offroaders.com — Jeep Wrangler TJ Unlimited",
+   "url": "https://offroaders.com/tech/jeep/Jeep-Wrangler-TJ-Unlimited.htm"
+  },
+  {
+   "name": "NHTSA — recalls API, Jeep Wrangler 1987–2006",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=1995"
+  },
+  {
+   "name": "NHTSA vPIC — VIN decoder (used on VINs from BaT listings)",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "fueleconomy.gov — Jeep Wrangler 4WD EPA ratings by year",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1987&year2=2006&make=Jeep&baseModel=Wrangler"
+  },
+  {
+   "name": "Quadratec — Wheel bolt patterns & typical lug nut torque specifications",
+   "url": "https://quadratec.com/c/reference/wheel-bolt-patterns-typical-lug-nut-torque-specifications"
+  },
+  {
+   "name": "ExtremeTerrain — TJ Wrangler torque specs",
+   "url": "https://www.extremeterrain.com/tj-wrangler-torque-specs.html"
+  },
+  {
+   "name": "Quadratec — Everything Jeep Wrangler Buyer's Guide (PDF)",
+   "url": "https://www.quadratec.com/sites/default/files/JeepWranglerBuyersGuide.pdf"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler TJ (1997–2006) results (Unlimited sales)",
+   "url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  },
+  {
+   "name": "Quadratec — Bishko factory-authorized technical service manuals, 87–04 Wrangler YJ & TJ",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-wrangler-yj"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

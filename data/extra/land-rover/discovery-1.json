@@ -1,0 +1,405 @@
+{
+ "fitment": {
+  "stock": [
+   "205/80R16 (6Jx16)",
+   "235/70R16 (7Jx16)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x165.1 (5x6.5\")",
+   "offset": "ET33 (stock)",
+   "center_bore": "114.3 mm",
+   "lug_thread": "M16x1.5",
+   "lug_torque": "96 lb-ft (130 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "245/75R16 (≈30.5 in)",
+    "note": "LandyZone owners recommend going no bigger on a stock-height, stock-geared truck. The factory 205/80 and 235/70 are almost the same height."
+   },
+   {
+    "lift": "2 in",
+    "size": "33 in",
+    "note": "Owners run 33s on lifted trucks. Fit longer springs and extended shocks and lower the bump stops so the body isn't hit at full compression; one owner going from 31 to 33 in still planned a 4.1 ring-and-pinion to restore gearing."
+   },
+   {
+    "lift": "3 in+",
+    "size": "35 in",
+    "note": "Needs offset wheels to keep a usable turning circle, caster-corrected arms and wide-angle props on bigger lifts, and at least a 4.1 (ideally 4.37) ring-and-pinion."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Driver airbag can deploy from overheating rotary coupler",
+    "years": "1994–1998",
+    "ref": "NHTSA 98V040000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V040000",
+    "summary": "A chafed cruise-control wire can overheat the steering-wheel rotary coupler and fire the driver's airbag; 54,488 Discoveries and Range Rovers covered."
+   },
+   {
+    "title": "Plastic fuel tank stress cracks",
+    "years": "1994–1997",
+    "ref": "NHTSA 04V203000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V203000",
+    "summary": "Stress cracks can develop in the plastic fuel tank; 45,267 Discovery I and Range Rover Classic trucks covered."
+   },
+   {
+    "title": "Right front door may not latch fully",
+    "years": "1995–1996",
+    "ref": "NHTSA 96V247000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V247000",
+    "summary": "The right front door can bounce back off its seals instead of latching; 20,889 trucks covered."
+   },
+   {
+    "title": "Driveshaft nuts replaced with wrong size at port",
+    "years": "1995",
+    "ref": "NHTSA 95V099000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V099000",
+    "summary": "After a port-of-entry pinion-torque check, driveshafts were refitted with the wrong nuts; 155 vehicles covered."
+   },
+   {
+    "title": "Replacement rear driveshaft coupling (service part)",
+    "years": "1995–1998",
+    "ref": "NHTSA 12E010000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12E010000",
+    "summary": "Land Rover service part TVF100010 couplings made April–November 2011 were recalled; check any recently replaced rear coupler."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "300Tdi timing-belt modification kit",
+    "ref": "",
+    "summary": "Like the Defender, the 300Tdi should have the revised timing kit (STC4096L-type) with a flanged crank pulley and spaced idler. Ask for proof.",
+    "url": "https://www.lrdirect.com/stc4096l-modified-timing-belt-pulley-kit-3"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1989",
+   "change": "Unveiled at Frankfurt; UK sales from October, three-door only; 200Tdi and 3.5 V8",
+   "flag": "note"
+  },
+  {
+   "year": "1990",
+   "change": "Five-door added; V8i with Lucas 14CUX injection",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "Automatic offered with the 200Tdi; SE pack introduced",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Facelift: 300Tdi, 3.9 V8, stronger R380 manual, new dash with airbags",
+   "flag": "buy"
+  },
+  {
+   "year": "1994 MY",
+   "change": "US sales begin, V8 only (3.9 with 14CUX)",
+   "flag": "note"
+  },
+  {
+   "year": "1996 MY",
+   "change": "US trucks switch to the GEMS-managed '4.0' V8 (same 3,946 cc) for OBD-II",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "US XD special: 250 built in AA Yellow",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Series I ends in the autumn as the Discovery Series II arrives",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "US Discoveries were all V8s, so a diesel Disco 1 in the US is a private import, and Japanese-market re-imports are common too. Know which engine and market you're buying.",
+  "items": [
+   {
+    "head": "200Tdi or 300Tdi?",
+    "body": "The 200Tdi has two V-belts and an aluminium strengthener between block and sump; on the 200Tdi Discovery the injection pump sits high on the right and the turbo low on the left. The 300Tdi has one serpentine belt, no strengthener and a piston-type vacuum pump."
+   },
+   {
+    "head": "14CUX or GEMS V8",
+    "body": "US 1994–95 trucks have the 3.9 V8 with Lucas 14CUX injection; 1996–98 trucks have the GEMS-managed '4.0' (still 3,946 cc) with OBD-II."
+   },
+   {
+    "head": "Japanese imports",
+    "body": "Popular because they rot less, but LandyZone members note they're generally automatics with sunroofs. Honda also sold a badge-engineered Disco 1 in Japan as the Crossroad."
+   },
+   {
+    "head": "Special editions",
+    "body": "Camel Trophy trucks, the US XD (250 in AA Yellow) and UK Safari, Goodwood and Horse and Hound editions all exist; check trim and paint against the build record."
+   },
+   {
+    "head": "Heritage certificate",
+    "body": "The British Motor Museum's Heritage Certificates cover Land Rovers from 1948 on and record build date, engine number, colour and equipment."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "750 kg unbraked; 1996 Tdi auto, NZ spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "89 L (23.5 gal)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "206 mm (8.1 in)",
+   "note": "unladen"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,080 kg (4,586 lb)",
+   "note": "1996 Tdi auto five-door; GVM 2,720 kg"
+  },
+  {
+   "k": "Turning circle",
+   "v": "11.9 m (39 ft)",
+   "note": "kerb to kerb"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "About 10.5 mpg (imperial) at 100–120 km/h",
+   "note": "one 3.9 V8 owner on LandyZone; Tdis do far better"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still cheap: most sell for around $10,000, 300Tdi manuals bring a little more, and rare special editions sit well above the rest.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–7k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$9k–15k"
+   },
+   {
+    "cond": "Excellent or special edition",
+    "range": "$20k–38k"
+   }
+  ],
+  "note": "Based on 20 Bring a Trailer sales of Discovery I trucks in 2025–26 ($5,900–38,000, median about $10,000). Three 300Tdi manuals sold for $12,750–14,250; the top result was a 1996 XD TReK 5-speed at $38,000."
+ },
+ "docs": [
+  {
+   "name": "Land Rover Discovery Workshop Manual, Owners Edition, 1990–1998 (Brooklands Books, ISBN 9781855207660)",
+   "url": "https://www.abebooks.com/9781855207660/Land-Rover-Discovery-Workshop-Manual-1855207664/plp",
+   "note": "Reprint bundling workshop manuals SJR900ENWN and LRL0079Eng, parts catalogue RTC9947CF and handbook SJR 820 ENHB90."
+  },
+  {
+   "name": "Rovers North — books and manuals",
+   "url": "https://www.roversnorth.com/category/565_books_manuals",
+   "note": "Workshop manuals and parts catalogues for Discovery I."
+  },
+  {
+   "name": "British Motor Museum Heritage Certificate",
+   "url": "https://www.britishmotormuseum.co.uk/archive/heritage-certificates",
+   "note": "Factory build record."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Land Rover only sold V8 Discoveries in the US (1994–98 model years), so a 200Tdi or 300Tdi Disco 1 is a gray-market import. Every Series I was built by 1998, so all are now past NHTSA's 25-year line (counted from the date of manufacture). EPA Form 3520-1 code E covers vehicles at least 21 years old in original configuration. Make sure the VIN, chassis number and build date line up.",
+   "In California, diesels of the 1997 model year and older are on the smog-check exemption list, but a non-California-certified direct import from 1975 on is supposed to get a CARB Certificate of Conformance after a laboratory test. Confirm with your DMV and CARB before buying a diesel to register there."
+  ]
+ },
+ "production": {
+  "intro": "The Discovery Series I ran from 1989 to 1998 and spawned a long list of market-specific special editions.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "1989–1998, Solihull"
+   },
+   {
+    "k": "US model years",
+    "v": "1994–1998, V8 only"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Country Life (Switzerland)",
+    "years": "1991",
+    "note": "50 built, with wood trim, a Nardi wheel and a picnic basket"
+   },
+   {
+    "name": "Orienteer (Australia)",
+    "years": "1992",
+    "note": "75 built"
+   },
+   {
+    "name": "Goodwood (UK)",
+    "years": "1997",
+    "note": "500 planned in British Racing Green; only the show car wore the badge, and the other 499 were sold unnamed"
+   },
+   {
+    "name": "Horse and Hound (UK)",
+    "years": "1997",
+    "note": "20 built"
+   },
+   {
+    "name": "XD (US)",
+    "years": "1997",
+    "note": "250 built in AA Yellow"
+   },
+   {
+    "name": "Safari (UK)",
+    "years": "1998",
+    "note": "1,100 built in Epsom Green, with rear ladder and extra lamps"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "DiscoWeb",
+   "url": "https://www.discoweb.org/",
+   "note": "Land Rover owners' forum with a deep archive of Discovery threads."
+  },
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "National Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (MAR)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "Rover Owners of Virginia's main event, held each September."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Land Rover Discovery",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Discovery 1994–1998 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=DISCOVERY&modelYear=1996"
+  },
+  {
+   "name": "NHTSA — Recall 98V040000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V040000"
+  },
+  {
+   "name": "NHTSA — Recall 04V203000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V203000"
+  },
+  {
+   "name": "NHTSA — Recall 96V247000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V247000"
+  },
+  {
+   "name": "NHTSA — Recall 95V099000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V099000"
+  },
+  {
+   "name": "NHTSA — Recall 12E010000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=12E010000"
+  },
+  {
+   "name": "koleso.ee — Land Rover Discovery 1 (LJ, 1989–1998) wheel specs",
+   "url": "https://koleso.ee/en/valuveljed/land-rover/discovery-1/2789/lj-1989-1998/5585"
+  },
+  {
+   "name": "ThreePiece.us — 1997 Land Rover Discovery wheels",
+   "url": "https://vehicles.threepiece.us/vehicles/land%20rover/discovery/1997/"
+  },
+  {
+   "name": "LandyZone — Disco 1 wheel and tire options",
+   "url": "https://www.landyzone.co.uk/land-rover/disco-1-wheel-and-tire-options.358096/"
+  },
+  {
+   "name": "LandyZone — Discovery 1 tyres",
+   "url": "https://www.landyzone.co.uk/land-rover/discovery-1-tyres.358122/"
+  },
+  {
+   "name": "LandyZone — D1 biggest tyres you've fitted",
+   "url": "https://www.landyzone.co.uk/land-rover/d1-biggest-tyres-youve-fitted.341342/"
+  },
+  {
+   "name": "LandyZone — Disco 1 buying guide?",
+   "url": "https://www.landyzone.co.uk/land-rover/buying-guide.378992/"
+  },
+  {
+   "name": "LandyZone — Disco 1 fuel consumption issue",
+   "url": "https://www.landyzone.co.uk/land-rover/disco-1-fuel-consumption-issue.403114/"
+  },
+  {
+   "name": "CarExpert NZ — Land Rover Discovery TDI (1996) price and specs",
+   "url": "https://www.carexpert.co.nz/land-rover/discovery/1996-tdi-jjo88gg819960701"
+  },
+  {
+   "name": "Glencoyne Engineering — The Tdi pages",
+   "url": "https://www.glencoyne.co.uk/tdipage1"
+  },
+  {
+   "name": "LR Direct — STC4096L modified timing belt kit",
+   "url": "https://www.lrdirect.com/stc4096l-modified-timing-belt-pulley-kit-3"
+  },
+  {
+   "name": "AbeBooks — Land Rover Discovery Workshop Manual 1990–1998 (Brooklands)",
+   "url": "https://www.abebooks.com/9781855207660/Land-Rover-Discovery-Workshop-Manual-1855207664/plp"
+  },
+  {
+   "name": "Rovers North — Books, Manuals and DVDs",
+   "url": "https://www.roversnorth.com/category/565_books_manuals"
+  },
+  {
+   "name": "British Motor Museum — Heritage Certificates",
+   "url": "https://www.britishmotormuseum.co.uk/archive/heritage-certificates"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Discovery I results",
+   "url": "https://bringatrailer.com/land-rover/discovery-i/"
+  },
+  {
+   "name": "NHTSA — Importation and Certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "EPA — Form 3520-1, exemption code E",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "Import a Vehicle — Smog check exempted vehicles in California",
+   "url": "https://www.importavehicle.com/blog/smog-check-exempted-vehicles-in-california"
+  },
+  {
+   "name": "DiscoWeb",
+   "url": "https://www.discoweb.org/"
+  },
+  {
+   "name": "ANARC — Association of North American Rover Clubs",
+   "url": "https://www.anarc.club/"
+  },
+  {
+   "name": "Rovers North blog — ANARC News, Spring 2026",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "fitment": {
+  "stock": [
+   "P235/75R15 (Michelin Tru Seal self-sealing radial standard from 1987)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "center_bore": "108 mm"
+  }
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front wheel bearing lubrication",
+    "years": "1984",
+    "ref": "NHTSA 84V-009",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V009000",
+    "summary": "Front wheel bearings might not have enough grease; covered 10,504 1984 Grand Wagoneers and J-trucks."
+   },
+   {
+    "title": "Contaminated brake fluid",
+    "years": "1986",
+    "ref": "NHTSA 85V-140",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=85V140000",
+    "summary": "Some 1986 Grand Wagoneers and J-trucks (230 vehicles) were filled with contaminated brake fluid, which can affect the whole braking system."
+   },
+   {
+    "title": "Cruise-control module",
+    "years": "1987",
+    "ref": "NHTSA 87V-022",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=87V022000",
+    "summary": "Cruise-control module could operate inconsistently."
+   },
+   {
+    "title": "Key-operated tailgate window",
+    "years": "1984–1988",
+    "ref": "NHTSA 87V-178",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=87V178000",
+    "summary": "The power tailgate glass could keep closing if the spring-loaded key switch failed to return to off; part of a 180,000-vehicle campaign back to 1970 Wagoneers."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1984",
+   "change": "The SJ Wagoneer Limited becomes the Grand Wagoneer as the compact XJ takes the Wagoneer name; Brougham dropped; a no-woodgrain Wagoneer Custom lasts only this year. 258 six standard, 360 V8 optional",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Handling package: revised front anti-roll bar, gas shocks and lower-friction rear springs",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "New four-part grille and stand-up hood ornament; fully revamped interior with square gauges and improved climate control; Selec-Trac gains a Trac-Lok limited-slip; factory power sunroof option",
+   "flag": "buy"
+  },
+  {
+   "year": "1987",
+   "change": "25th anniversary: the 360 V8 becomes the only engine; 'marine teak' woodgrain, Michelin self-sealing P235/75R15s. Chrysler buys AMC in March",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "First full Chrysler year; carbureted 360 retained; 14,117 built",
+   "flag": "note"
+  },
+  {
+   "year": "1989",
+   "change": "Start of the 'best of the breed' run: more reliable A/C compressor, rear wiper/washer, minivan-sourced overhead console with compass and thermometer, keyless entry, electrocoat primer and base/clear paint, gunmetal wheel inlays",
+   "flag": "buy"
+  },
+  {
+   "year": "1991",
+   "change": "Final year; buyers after the February 27 discontinuation announcement could add a gold 'Final Edition' dash badge. Last truck built June 21, 1991",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Three different Jeeps wore 'Wagoneer' in the 1980s, woodgrain is easy to stick on, and restomod shops trade on 'Final Edition' badges, so the VIN and the year-specific details matter.",
+  "items": [
+   {
+    "head": "SJ Grand Wagoneer vs XJ Wagoneer",
+    "body": "The 1984–90 XJ Wagoneer and Wagoneer Limited are compact unibody Cherokees with woodgrain; the Grand Wagoneer is the body-on-frame SJ on a 108.7 in wheelbase with a 6-lug 15x7 wheel. The 1993 Grand Wagoneer is a ZJ Grand Cherokee."
+   },
+   {
+    "head": "VIN",
+    "body": "Characters 6–7 read 15 on a Grand Wagoneer. On 1984–86 VINs the 4th character is the engine (C = 258 six, N = 360 V8); on 1987–90 VINs N = 5.9 V8, the only engine offered. The 10th character is the model year."
+   },
+   {
+    "head": "1989–91 tells",
+    "body": "Rear wiper/washer, overhead console with compass and outside temperature, infrared keyless entry, and alloy wheels with gunmetal-grey inlays instead of the earlier gold."
+   },
+   {
+    "head": "1986-on interior",
+    "body": "Square-gauge dash, two-spoke steering wheel, plastic woodgrain glovebox door and adjustable front head restraints mark a 1986 or later truck; earlier trucks have the old dash and metal glovebox door."
+   },
+   {
+    "head": "Final Edition badge",
+    "body": "The gold 'Final Edition' dash badge was a 1991-only option for trucks sold after February 27, 1991, so one on any earlier year was added later."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,270 kg)",
+   "note": "Trailer Package B (Class III), 750 lb tongue; Package A is rated 3,500 lb (1989 spec)"
+  },
+  {
+   "k": "GVWR",
+   "v": "6,200 lb (2,812 kg)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "20.3 US gal (77 L)",
+   "note": "with skid plate"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "10.1 in (257 mm)",
+   "note": "minimum running clearance"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,514 lb (2,048 kg)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "About 11 mpg combined",
+   "note": "5.9 L V8"
+  },
+  {
+   "k": "Drivetrain",
+   "v": "360 V8, 727 three-speed automatic, Selec-Trac NP229 with 2.6:1 low range, Dana 44 front, 2.73:1 axles",
+   "note": "1989 spec"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Hagerty reported values rising through most of the 2010s, and the market is still deep: original low-mile 1989–91 trucks and Final Editions lead, while fuel-injected and LS-swapped restomods sell for whatever the build cost.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$7k–14k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$17k–36k"
+   },
+   {
+    "cond": "Excellent / low-mile or restomod",
+    "range": "$42k–92k"
+   }
+  ],
+  "note": "Based on 76 Bring a Trailer sales from October 2025 to October 2026 (median about $27,400, middle half $17,900–42,500). Top results: a 1991 at $92,000, a 1987 at $91,000 and a Cummins R2.8-powered 1988 at $87,500; Final Editions made $32,000–78,000."
+ },
+ "docs": [
+  {
+   "name": "Haynes repair manual: Cherokee & Wagoneer 1972–83, Grand Wagoneer 1984–91",
+   "url": "https://www.quadratec.com/p/haynes-manuals/repair-manual-jeep-wagoneer-grand-wagoneer",
+   "note": "Sold by Quadratec"
+  },
+  {
+   "name": "Faxon Auto Literature — 1986 Jeep factory literature",
+   "url": "https://www.faxonautoliterature.com/1986-Jeep",
+   "note": "Original and reprint shop, body and overhaul manuals for the full-size Jeeps"
+  }
+ ],
+ "production": {
+  "intro": "Built at Toledo's Stickney plant; the SJ ran 29 model years in all, and Grand Wagoneer output fell steadily after 1984.",
+  "items": [
+   {
+    "k": "Built by year",
+    "v": "20,019 (1984) · 17,814 (1985) · 17,254 (1986) · 14,265 (1987) · 14,117 (1988) · 4,253 (1991)"
+   },
+   {
+    "k": "Sales",
+    "v": "Over 10,000 in 1989, falling to 6,449 in 1990"
+   },
+   {
+    "k": "Plant",
+    "v": "Stickney Plant, Toledo, Ohio"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Wagoneer Custom",
+    "years": "1984",
+    "note": "Cheaper SJ without woodgrain, steel wheels and part-time 4WD, about $3,000 under the Grand; dropped after one year"
+   },
+   {
+    "name": "Final Edition",
+    "years": "1991",
+    "note": "Gold dash badge offered to buyers after the February 27, 1991 announcement"
+   }
+  ],
+  "paint": "Hunter green metallic was offered only for 1991 and is the colour of the very last Grand Wagoneer built."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "International Full Size Jeep Association (IFSJA)",
+   "url": "https://www.ifsja.org/",
+   "note": "Forum and tech library for 1962–1991 full-size Jeeps: Wagoneers, Grand Wagoneers, SJ Cherokees and J-trucks"
+  },
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail event in Moab, Utah; the club has run it for some 60 years. 2027 dates: March 20–28."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Wagoneer (SJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_(SJ)"
+  },
+  {
+   "name": "WagoneerWorld — technical specs (1989 Grand Wagoneer)",
+   "url": "https://www.wagoneerworld.com/specs.php"
+  },
+  {
+   "name": "Wagoneers.com — SJ engines by year",
+   "url": "https://wagoneers.com/tech/SJ-engines-years.html"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque specs",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "Offroaders.com — 1981–1986 CJ & J-Series VIN decoder",
+   "url": "https://offroaders.com/tech/jeep/vin_81-86.htm"
+  },
+  {
+   "name": "TireSize.com — 1988 Jeep Grand Wagoneer original tire size",
+   "url": "https://tiresize.com/tires/Jeep/Grand-Wagoneer/1988/"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep GRAND WAGONEER 1984",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=GRAND%20WAGONEER&modelYear=1984"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep GRAND WAGONEER 1986",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=GRAND%20WAGONEER&modelYear=1986"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep GRAND WAGONEER 1987",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=GRAND%20WAGONEER&modelYear=1987"
+  },
+  {
+   "name": "Bring a Trailer — Jeep SJ Grand Wagoneer sold results",
+   "url": "https://bringatrailer.com/jeep/grand-wagoneer/"
+  },
+  {
+   "name": "Quadratec — Haynes manual for 84–91 Wagoneer & Grand Wagoneer",
+   "url": "https://www.quadratec.com/p/haynes-manuals/repair-manual-jeep-wagoneer-grand-wagoneer"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}
