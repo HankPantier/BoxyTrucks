@@ -1,0 +1,400 @@
+{
+ "fitment": {
+  "stock": [
+   "255/70R16 (Base, steel wheels)",
+   "255/75R17 · 265/70R17 · 255/70R18 · 285/70R18 (trim and wheel options)",
+   "LT285/70R17 (Badlands)",
+   "315/70R17, 35 in (Sasquatch package, First Edition)",
+   "37 in (Bronco Raptor)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+55 mm (factory wheels) · +30 mm (Sasquatch)",
+   "center_bore": "93.1 mm",
+   "lug_thread": "M12x1.5 (tire-retailer listing)",
+   "lug_torque": "[CONFIRM IN MANUAL]"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R17 (≈ 33.8 in)",
+    "note": "Runs on factory wheels and suspension with no rubbing reported."
+   },
+   {
+    "lift": "1.25–1.5 in level",
+    "size": "35x10.50R17 or 35x11.50R17",
+    "note": "Narrow 35s fit factory 17-inch wheels once the front crash bars are removed."
+   },
+   {
+    "lift": "1.5–2 in",
+    "size": "35x12.50R17",
+    "note": "Full-width 35s need about +30 mm offset wheels and high-clearance flares. Recalibrate the speedometer (about 7% slow) and consider 4.46 or 4.7 gears."
+   },
+   {
+    "lift": "Factory",
+    "size": "315/70R17 (Sasquatch) · 37 in (Raptor)",
+    "note": "The factory options for big tires."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "2.7/3.0 Nano EcoBoost intake valves may break",
+    "years": "2021–2022",
+    "ref": "NHTSA 24V-635",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V635000",
+    "summary": "Broken intake valves can cause engine failure; dealers run an engine cycle test and replace the engine as needed (Ford 24S55)."
+   },
+   {
+    "title": "Rear shock reservoirs can corrode and detach",
+    "years": "2021–2024",
+    "ref": "NHTSA 25V-025",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V025000",
+    "summary": "Dealers replace the rear shocks (Ford 25S01); owner letters mailed August 2025."
+   },
+   {
+    "title": "Molded-in-color hardtop roof panels can separate",
+    "years": "2021–2022",
+    "ref": "NHTSA 26V-299",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V299000",
+    "summary": "Sections of the outer roof panel can detach; dealers will inspect and replace tops, with the remedy expected November 2026 (Ford 26S32)."
+   },
+   {
+    "title": "Engine-compartment wiring harness can short",
+    "years": "2021–2026",
+    "ref": "NHTSA 26V-468",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V468000",
+    "summary": "Dealers add protective sheathing; phased campaign, Raptors first, then all other Broncos from about September 2026."
+   },
+   {
+    "title": "Steering gear internal damage",
+    "years": "2022 Raptor · 2023 Wildtrak",
+    "ref": "NHTSA 23V-155",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V155000",
+    "summary": "Increased steering effort or wheel lock-up possible; owners told not to drive until the steering gear is replaced."
+   },
+   {
+    "title": "Transmission-to-transfer-case joint misaligned after a previous repair",
+    "years": "2021–2025",
+    "ref": "NHTSA 26V-236",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V236000",
+    "summary": "Can wear the output and input splines; dealers inspect and replace the transmission and transfer case as needed."
+   },
+   {
+    "title": "Front upper control-arm ball-joint nut loose or missing",
+    "years": "2024–2025",
+    "ref": "NHTSA 24V-770 · 25V-260 · 25V-310",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V260000",
+    "summary": "The upper arm can separate from the knuckle; dealers inspect and tighten, or replace the ball joint and knuckle."
+   },
+   {
+    "title": "Front lower control-arm fasteners not tightened",
+    "years": "2024–2025",
+    "ref": "NHTSA 25V-308",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V308000",
+    "summary": "The arm can detach from the frame; owners told not to drive until it has been inspected."
+   },
+   {
+    "title": "Fender flares may detach",
+    "years": "2022–2026",
+    "ref": "NHTSA 26V-403",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V403000",
+    "summary": "Dealers inspect and repair or replace the flares."
+   },
+   {
+    "title": "Windshield not properly bonded",
+    "years": "2022 (and 2025, 25V-683)",
+    "ref": "NHTSA 22V-451",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V451000",
+    "summary": "The windshield could detach in a crash; dealers remove and reinstall it."
+   },
+   {
+    "title": "Transmission park pawl damaged in assembly",
+    "years": "2023",
+    "ref": "NHTSA 23V-546",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V546000",
+    "summary": "Rollaway risk; dealers replace the transmission."
+   },
+   {
+    "title": "Low-pressure fuel pump may fail",
+    "years": "2021–2023",
+    "ref": "NHTSA 25V-455",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V455000",
+    "summary": "Can stall the engine; PCM software update on the Bronco."
+   },
+   {
+    "title": "Passenger airbag vent may open early",
+    "years": "2021",
+    "ref": "NHTSA 21V-770",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V770000",
+    "summary": "Dealers replace the passenger airbag."
+   },
+   {
+    "title": "Engine may fail (2025–26)",
+    "years": "2025–2026",
+    "ref": "NHTSA 26V-343",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V343000",
+    "summary": "Dealers will replace the long block; remedy expected November 2026."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Seven-speed manual scraping noise in neutral, 1st and 2nd",
+    "ref": "MC-10237783-0001",
+    "summary": "Covers some 2021–23 manual trucks.",
+    "url": ""
+   },
+   {
+    "title": "Soft-top adhesive issues",
+    "ref": "MC-10230778-0001",
+    "summary": "Covers some 2021–23 soft tops.",
+    "url": ""
+   },
+   {
+    "title": "Molded-in-color hardtop replacement (customer-satisfaction program)",
+    "ref": "",
+    "summary": "Announced August 2021; crazed or delaminated tops replaced with 'MIC 2.0' tops.",
+    "url": ""
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2021",
+   "change": "Production starts June 14, 2021 at Michigan Assembly. 2.3 (manual or auto) and 2.7 (auto) EcoBoost; Base, Big Bend, Black Diamond, Outer Banks, Badlands, Wildtrak and First Edition; Sasquatch package. The year with the most recalls, including 2.7 valves, hardtop and airbag.",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Bronco Raptor (four-door, 3.0 twin-turbo V6, 37s) and the four-door-only Everglades edition arrive. 2021–22 molded-in-color roof panels are recalled in 2026.",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "Heritage Edition and Heritage Limited Edition arrive, both with a painted top instead of the molded-in-color one.",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Badlands and Sasquatch trucks get the Wildtrak's HOSS 3.0 steering gear. Chinese-market Broncos go on sale (2.3, four-door). Last year of the Wildtrak trim.",
+   "flag": "buy"
+  },
+  {
+   "year": "2025",
+   "change": "Full HOSS 3.0 (Fox 2.5 internal-bypass shocks, Raptor steering rack, stronger tie rods) optional on Badlands. Painted hardtops in Oxford White, Shadow Black or body color. Two-door Stroppe Edition ($77,665). Front control-arm fastener recalls on early builds.",
+   "flag": "buy"
+  },
+  {
+   "year": "2026",
+   "change": "The Stroppe Edition moves to the four-door, at $69,995.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Sixth-gen trims are mostly about suspension, tires and tops. Aftermarket 35s and badges are easy to add, so check what you're actually buying.",
+  "items": [
+   {
+    "head": "Real Sasquatch",
+    "body": "315/70R17 tires on 17x8.5, +30 mm wheels and 4.7 axle gears. Standard wheels are +55 mm. Confirm with the window sticker or build data."
+   },
+   {
+    "head": "Bronco Raptor",
+    "body": "Four-door only. 'FORD' spelled across the grille (other trims say BRONCO), an 85.7-inch-wide body with extra marker lights, 37-inch tires, Fox suspension and a 3.0 V6 with 418 hp."
+   },
+   {
+    "head": "Suspension level",
+    "body": "Badlands (and Sasquatch) trucks have position-sensitive Bilstein dampers (HOSS 2.0) and a hydraulic front sway-bar disconnect. Wildtrak trucks have Fox dampers (HOSS 3.0). From 2025, Badlands buyers could add the full HOSS 3.0 package."
+   },
+   {
+    "head": "First Edition",
+    "body": "2021 only: Badlands mechanicals with Wildtrak exterior styling and the Outer Banks interior, and 35s standard."
+   },
+   {
+    "head": "Which top",
+    "body": "Original molded-in-color, replacement 'MIC 2.0', or painted (2023 Heritage editions, then optional from 2025). A crazed or delaminated MIC top is a recall and program candidate."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3,500 lb (1,588 kg)",
+   "note": "4,500 lb (2,041 kg) for the Bronco Raptor"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.4–11.6 in (213–295 mm)",
+   "note": "Base tires to 35s; 13.1 in (333 mm) for the Raptor"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "43.2° / 37.2° / 29.0° (2-door) · 43.2° / 37.0° / 26.3° (4-door)",
+   "note": "On 35-inch tires; 35.5° / 29.8° / 21.1° (2-door) on base tires"
+  },
+  {
+   "k": "Crawl ratio",
+   "v": "Up to 95:1",
+   "note": "7-speed manual crawler gear with the advanced transfer case (Ford figure)"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "17.4 gal (2-door) · 21.1 gal (4-door)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 20 city / 22 hwy / 21 combined",
+   "note": "2021 2.3; 2.7 is 18/20/19; Sasquatch 17–18 combined; 2023 Raptor 15/16/15"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,294–4,699 lb (2-door) · 4,466–5,109 lb (4-door)"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "100.4 in (2,550 mm) 2-door · 116.1 in (2,949 mm) 4-door"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Plenty of 2021–23 trucks are on the used market. Raptors and low-mileage special editions hold the most value, and heavily customized builds sell far above stock trucks.",
+  "ranges": [
+   {
+    "cond": "Stock or lightly modified 2021–23 Outer Banks / Wildtrak / First Edition",
+    "range": "$38k–56k"
+   },
+   {
+    "cond": "Bronco Raptor",
+    "range": "$60k–105k"
+   },
+   {
+    "cond": "Custom builds (Vintage Broncos, Vintage Modern)",
+    "range": "$141k–205k"
+   }
+  ],
+  "note": "Based on recent Bring a Trailer sold results for the U725 Bronco (24 most recent auctions, July–October 2026). Several two-door seven-speed trucks were bid to only $23,000–29,500 without selling. The first production 2022 Raptor sold for $105,000."
+ },
+ "docs": [
+  {
+   "name": "NHTSA recall and service-bulletin lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Free VIN recall check; manufacturer bulletins are posted under each model year."
+  },
+  {
+   "name": "Bronco6G — fluids, filters and capacities table (from the owner's manual)",
+   "url": "https://www.bronco6g.com/recommended-oils-fluids-coolants-filters-components-for-2021-ford-bronco/",
+   "note": "A forum-hosted copy; confirm against your own owner's manual."
+  }
+ ],
+ "production": {
+  "intro": "Built at Michigan Assembly in Wayne, Michigan, home of every Bronco generation, since June 14, 2021, and for China by Jiangling Ford in Nanchang.",
+  "items": [
+   {
+    "k": "US sales 2021",
+    "v": "35,023"
+   },
+   {
+    "k": "US sales 2022",
+    "v": "117,057"
+   },
+   {
+    "k": "US sales 2023",
+    "v": "105,665"
+   },
+   {
+    "k": "US sales 2024",
+    "v": "109,172"
+   },
+   {
+    "k": "US sales 2025",
+    "v": "146,007"
+   },
+   {
+    "k": "China sales 2024 / 2025",
+    "v": "8,814 / 6,784"
+   },
+   {
+    "k": "Manual take rate",
+    "v": "About 15% of initial orders"
+   }
+  ],
+  "editions": [
+   {
+    "name": "First Edition",
+    "years": "2021",
+    "note": "Announced at 3,500 units; Badlands hardware with Wildtrak styling. The first production example sold for $1,075,000 at Barrett-Jackson for charity."
+   },
+   {
+    "name": "Everglades",
+    "years": "2022",
+    "note": "Four-door, Black Diamond-based, with a heavy-duty modular bumper and fender graphics that double as a fording-depth gauge."
+   },
+   {
+    "name": "Bronco Raptor",
+    "years": "2022–",
+    "note": "Four-door, 3.0 V6, 37s, Fox suspension"
+   },
+   {
+    "name": "Heritage / Heritage Limited",
+    "years": "2023",
+    "note": "Heritage-styled editions with painted hardtops"
+   },
+   {
+    "name": "Stroppe Edition",
+    "years": "2025–2026",
+    "note": "Tribute to Bill Stroppe's Baja Broncos in Code Orange, Oxford White and Atlas Blue. Two-door for 2025 ($77,665), four-door for 2026 ($69,995)."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Bronco Off-Roadeo",
+   "url": "https://www.broncooffroadeo.com/",
+   "note": "Ford's own off-road adventure and driving program for Bronco owners."
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recalls API, Ford Bronco 2021–2026",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=FORD&model=BRONCO&modelYear=2022"
+  },
+  {
+   "name": "Wikipedia — Ford Bronco (sixth generation)",
+   "url": "https://en.wikipedia.org/wiki/Ford_Bronco"
+  },
+  {
+   "name": "MotorTrend — 2021 Ford Bronco first look",
+   "url": "https://www.motortrend.com/cars/ford/bronco/2021/2021-ford-bronco-first-look/"
+  },
+  {
+   "name": "Performance Plus Tire — 35s on a Bronco without Sasquatch",
+   "url": "https://www.performanceplustire.com/Blog/35s-bronco-without-sasquatch"
+  },
+  {
+   "name": "Limitless Tire — 2021 Ford Bronco wheel and tire sizes",
+   "url": "https://limitlesstire.com/vehicles/ford/bronco/2021/"
+  },
+  {
+   "name": "Bronco Nation — Is the Ford Bronco reliable?",
+   "url": "https://thebronconation.com/news/is-the-ford-bronco-reliable-t.22096/"
+  },
+  {
+   "name": "Jalopnik — common problems with the 2021 Ford Bronco",
+   "url": "https://www.jalopnik.com/2260270/how-much-routine-maintenance-cost-2021-ford-bronco/"
+  },
+  {
+   "name": "EPA — fueleconomy.gov web services, Ford Bronco 2021 and 2023",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2021&year2=2021&make=Ford&baseModel=Bronco"
+  },
+  {
+   "name": "Bronco6G — recommended fluids and capacities",
+   "url": "https://www.bronco6g.com/recommended-oils-fluids-coolants-filters-components-for-2021-ford-bronco/"
+  },
+  {
+   "name": "Bring a Trailer — Ford Bronco U725 results",
+   "url": "https://bringatrailer.com/ford/u725-bronco/"
+  }
+ ]
+}
