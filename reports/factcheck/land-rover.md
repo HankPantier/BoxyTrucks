@@ -84,7 +84,7 @@ I opened all 14 photos. Cross-links (`[[...]]` and `related`) all resolve.
 - **STC3945 brake shoes (fitment, High).** LR Direct lists this part for Series LWB six-cylinder and V8 trucks and the 101 FC only. It was labelled as a generic Series part. The label is now corrected.
 
 ### Removed or softened
-- **Instagram handles removed:** @lrsoclub, @lrseries2club, @lr_series_i_ii_iii_club and @series1landrover. I couldn't confirm they exist: Instagram serves a login wall, and a web search found nothing. @series3.restoration is kept because its page title confirms it. The YouTube channels are kept because all four resolve to the named channels.
+- **Instagram handles removed:** @lrsoclub, @lrseries2club, @lr_series_i_ii_iii_club and @series1landrover. I couldn't confirm they exist: Instagram serves a login wall, and a web search found nothing. @series3.restoration is kept because its page title confirms it. Under the coordinator's rule that owner-supplied social accounts must never be dropped, I checked `data/resources_manual.json` and `data/social_manual.json`. None of the four removed handles appear in either file. The only owner-supplied land-rover account, @straydogclassics, lives in `resources_manual.json`, and I didn't touch it. The YouTube channels are kept because all four resolve to the named channels.
 
 ### Verified as correct (selected)
 - Wilks, Anglesey and the Jeep. Centre steer, Birmabright and the cockpit-green paint.

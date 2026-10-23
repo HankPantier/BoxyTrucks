@@ -45,7 +45,7 @@
     "years": "2024–2025",
     "ref": "NHTSA 26V341000",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V341000",
-    "summary": "The instrument cluster may fail to display certain warnings or indicators (FMVSS 101)."
+    "summary": "Parts of the 12.3-inch combination meter can go blank at start-up and fail to show some warnings or indicators (FMVSS 101). Toyota put the US total at about 82,000 Toyota and Lexus vehicles (May 2026)."
    },
    {
     "title": "Panoramic View Monitor camera freeze",
@@ -53,6 +53,13 @@
     "ref": "NHTSA 25V744000",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V744000",
     "summary": "A software error can freeze or blank the rear camera image in reverse (FMVSS 111)."
+   },
+   {
+    "title": "Load-capacity modification label (distributor accessories)",
+    "years": "2024",
+    "ref": "NHTSA 24V548000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V548000",
+    "summary": "Gulf States Toyota recall of certain accessorized vehicles, including 2024 Land Cruisers, whose load-capacity labels were missing or wrong (FMVSS 110)."
    }
   ],
   "tsbs": [
@@ -82,7 +89,7 @@
   },
   {
    "year": "2027",
-   "change": "New Inked paint, optional high-mounted air intake, heated and ventilated second-row seats in the Premium Package. The 1958 rises to $57,880; the Land Cruiser grade drops to $62,725",
+   "change": "New Inked paint, optional raised air intake (not a sealed snorkel), heated and ventilated second-row seats in the Premium Package. Toyota.com lists base MSRPs of $58,180 (1958) and $64,255 (Land Cruiser)",
    "flag": "note"
   },
   {
@@ -96,7 +103,7 @@
   "items": [
    {
     "head": "1958",
-    "body": "Round headlights, unpainted plastic body panels, cloth seats and 245/70R18 tires on 18x7 wheels. Wikipedia lists the locking rear diff and front stabilizer disconnect among the Land Cruiser grade's additions, so confirm the lockers on a 1958's window sticker."
+    "body": "Round headlights, unpainted plastic body panels, cloth seats and 245/70R18 tires on 18x7 wheels. Toyota lists rear and center locking differentials as standard on the 1958; the Stabilizer Disconnect Mechanism is a Land Cruiser-grade item."
    },
    {
     "head": "Land Cruiser grade",
@@ -154,19 +161,19 @@
   "intro": "It's still a current model, so MSRP sets the market. Used First Editions sold above sticker at first, and the premium has now gone.",
   "ranges": [
    {
-    "cond": "New 2027 Land Cruiser 1958 (MSRP)",
-    "range": "$57,880 + $1,495 destination"
+    "cond": "New 2027 Land Cruiser 1958 (base MSRP)",
+    "range": "$58,180 + $1,495 destination"
    },
    {
-    "cond": "New 2027 Land Cruiser (MSRP)",
-    "range": "$62,725 + $1,495 destination"
+    "cond": "New 2027 Land Cruiser (base MSRP)",
+    "range": "$64,255 + $1,495 destination"
    },
    {
     "cond": "Used, Bring a Trailer 2024–26",
     "range": "$56.5k–91k"
    }
   ],
-  "note": "MSRP from Toyota's 2027 pricing as reported by CarScoops. Used range from 10 Bring a Trailer sales: First Editions fell from $83,000 (May 2024) to $58,500 (May 2026), and the $91,000 truck was a SEMA-exhibited build."
+  "note": "Base MSRP from Toyota.com (October 2026); CarScoops reported $57,880 for the 1958 when 2027 pricing was announced, and the $1,495 destination charge. Used range from 10 Bring a Trailer sales: First Editions fell from $83,000 (May 2024) to $58,500 (May 2026), and the $91,000 truck was a SEMA-exhibited build."
  },
  "docs": [
   {
@@ -240,7 +247,7 @@
   },
   {
    "name": "Threepiece — 2024+ Land Cruiser 250 and GX550 wheel & tire fitment guide",
-   "url": "https://threepiece.us/blog/2024-land-cruiser-250-and-gx550-wheel-tire-fitment-guide"
+   "url": "https://www.threepiece.us/blog/2024-land-cruiser-250-and-gx550-wheel-tire-fitment-guide/"
   },
   {
    "name": "LandCruiserForum.com — Land Cruiser tire upgrades (p. 18)",
@@ -289,6 +296,14 @@
   {
    "name": "TLCA — Cruise Moab",
    "url": "https://tlca.org/calendar/cruise-moab/"
+  },
+  {
+   "name": "Toyota.com — 2027 Land Cruiser",
+   "url": "https://www.toyota.com/vehicles/landcruiser/2027"
+  },
+  {
+   "name": "Toyota USA Newsroom — Recall of certain 2024–2025 Land Cruiser, Mirai, Lexus UX and GX (combination meter)",
+   "url": "https://pressroom.toyota.com/toyota-recalls-certain-model-year2024-2025-toyota-land-cruiser-mirai-lexus-ux-and-gx-vehicles/"
   }
  ]
 }
