@@ -22,8 +22,8 @@
   {
    "heading": "THE SCRAMBLER'S WHEELBASE, RETURNED",
    "paragraphs": [
-    "Wikipedia puts the LJ's 103.4-inch wheelbase at almost exactly the 103.5 inches of the [[jeep/cj-8|CJ-8]] and CJ-6 it was reviving. The longer frame gets one extra crossmember, and the body grows behind the rear wheels. That stretch is why the rear overhang is the LJ's one real off-road compromise: Jalopnik's David Tracy lists a 27.7-degree departure angle, and the low transfer-case skid makes the belly the next thing to touch.",
-    "Mechanically it is a late TJ. The engine is the 4.0-liter AMC-derived straight six, rated at 190 hp and 235 lb-ft. Standard LJs got a Dana 44 rear axle with a 3.73 limited-slip and the Command-Trac NV231 transfer case with a 2.72:1 low range. The standard short-wheelbase TJ made do with a Dana 35 unless you ticked the right option boxes. Automatics used the 42RLE four-speed. For 2005, manual Wranglers moved from the NV3550 five-speed to the six-speed NSG370."
+    "The LJ's 103.4-inch wheelbase is almost exactly the 103.5 inches of the [[jeep/cj-8|CJ-8 Scrambler]] it was reviving. The longer frame gets one extra crossmember, and the body grows behind the rear wheels. That stretch is why the rear overhang is the LJ's one real off-road compromise: Jalopnik's David Tracy lists a 27.7-degree departure angle, and the low transfer-case skid makes the belly the next thing to touch.",
+    "Mechanically it is a late TJ. The engine is the 4.0-liter AMC-derived straight six, rated at 190 hp and 235 lb-ft. Standard LJs got a Dana 44 rear axle with a 3.73 limited-slip and the Command-Trac NV231 transfer case with a 2.72:1 low range. The standard short-wheelbase TJ made do with a Dana 35 unless you ticked the right option boxes. Automatics used the 42RLE four-speed, and Jeep's 2004½ spec sheet lists only that automatic for the first LJs. For 2005, manual Wranglers moved from the NV3550 five-speed to the six-speed NSG370."
    ]
   },
   {
@@ -43,7 +43,7 @@
   {
    "heading": "HOW IT ENDED",
    "paragraphs": [
-    "The TJ family finished with the 2006 model year, when the 4.0 became standard across the Wrangler line. Its replacements debuted at the January 2006 Detroit show. The [[jeep/jk|JK]] two-door kept a short wheelbase, and the [[jeep/jk-unlimited|JK Unlimited]] replaced the LJ with four doors and a 20-inch stretch. By mid-2017, Autotrader found three-quarters of new Wranglers listed for sale were four-doors. The long two-door was never offered again, and the LJ was also the end of the AMC straight six in a Wrangler."
+    "The TJ family finished with the 2006 model year. Its replacements debuted at the January 2006 Detroit show. The [[jeep/jk|JK]] two-door kept a short wheelbase, and the [[jeep/jk-unlimited|JK Unlimited]] replaced the LJ with four doors and a wheelbase about 13 inches longer again. The long two-door Wrangler was never offered again, and the TJ and LJ were the last Wranglers with the AMC-derived 4.0 straight six."
    ]
   }
  ],
@@ -55,7 +55,7 @@
    "The Storm II stretched the wheelbase to 2,931 mm, almost exactly the 116 inches Jeep would later use for the four-door [[jeep/jk-unlimited|JK Unlimited]]. In other words, the military answer to 'what comes after the LJ' arrived before Jeep's own."
   ]
  },
- "engineering_intro": "Underneath, the LJ is a TJ with a longer fully boxed ladder frame and one extra crossmember. It has coil springs and live axles at both ends, located by four links and a track bar at each end, and recirculating-ball steering. Every LJ got the stronger Dana 44 rear axle. Rubicon Unlimiteds add a Dana 44 front axle, air lockers and a 4:1 transfer case.",
+ "engineering_intro": "Underneath, the LJ is a TJ with a longer ladder frame (fully boxed, according to the Jeep engineer Jalopnik interviewed) and one extra crossmember. It has coil springs and live axles at both ends, located by four links and a track bar at each end, and recirculating-ball steering. Every LJ got the stronger Dana 44 rear axle. Rubicon Unlimiteds add a Dana 44 front axle, air lockers and a 4:1 transfer case.",
  "engineering": [
   {
    "k": "CHASSIS",
@@ -65,7 +65,7 @@
   {
    "k": "SUSPENSION",
    "v": "Coil springs on live axles",
-   "note": "Leading arms and a track bar in front, trailing arms and a track bar at the rear. Sway bars at both ends; Rubicons get monotube shocks."
+   "note": "Leading arms and a track bar in front, trailing arms and a track bar at the rear, with stabilizer bars and gas-charged shocks at both ends (Jeep's 2004½ spec sheet)."
   },
   {
    "k": "ENGINE",
@@ -94,7 +94,7 @@
    "platform": "LJ (Unlimited)",
    "engine": "4.0 L I6",
    "output": "190 hp / 235 lb-ft",
-   "note": "Launched April 2004 at $24,995. Dana 44 limited-slip rear (3.73), NV231 transfer case, 42RLE automatic."
+   "note": "Launched April 2004 at $24,995. Dana 44 limited-slip rear (3.73), NV231 transfer case; Jeep's 2004½ spec sheet lists the 42RLE automatic."
   },
   {
    "years": "2005–2006",
@@ -367,8 +367,8 @@
  "faq": [
   {
    "q": "What's the biggest tire I can fit without a lift?",
-   "a": "Jeep answered this itself: the Rubicon Unlimited left Toledo on LT245/75R16 tires, about 31 x 9.5 inches, on the stock-height suspension. A 31-inch tire of similar width on the right backspacing is the realistic unlifted ceiling. Going wider or taller usually means rubbing at full flex, and RealTruck's general Wrangler advice is that anything beyond stock-height comfort 'may cause rubbing during turns or during suspension articulation.' For 33s, plan on a lift. We couldn't open a TJ-specific forum consensus thread to confirm more than this.",
-   "src": "QUADRATEC SPECS · REALTRUCK"
+   "a": "The LJ uses the TJ's axles, flares and suspension, so the TJ answer applies: Four Wheel Trends puts the stock-suspension limit at about a 31x10.50, which may still rub at full flex until you add a washer or two to the steering stops. Jeep itself sent the Rubicon Unlimited out on LT245/75R16 (about 31-inch) tires at stock height. For 33s, plan on a lift; Quadratec's buyer's guide pairs 33s with a 3-inch-class suspension lift.",
+   "src": "FOUR WHEEL TRENDS · QUADRATEC"
   },
   {
    "q": "What's the difference between an LJ and a TJ?",
@@ -377,8 +377,8 @@
   },
   {
    "q": "How many LJs were built?",
-   "a": "About 47,000 across 2004–2006, roughly 20 percent of Wrangler sales in that period, per Jalopnik's tally from forum and sales data. The 2005 Sahara Edition Unlimited Rubicon was a numbered run of 1,000.",
-   "src": "JALOPNIK · WIKIPEDIA"
+   "a": "Jalopnik's tally from forum and sales data puts it at about 47,000 across 2004–2006, roughly 20 percent of Wrangler sales in that period. Driving Line says a little over 46,000, fewer than 13,000 of them Rubicons. The 2005 Sahara Edition Unlimited Rubicon was a numbered run of 1,000.",
+   "src": "JALOPNIK · DRIVING LINE · WIKIPEDIA"
   },
   {
    "q": "Why are LJs so expensive now?",
@@ -393,7 +393,7 @@
   {
    "q": "How much can it tow?",
    "a": "Jeep rated the LJ at 3,500 lb, against 2,000 lb for the short-wheelbase TJ.",
-   "src": "WIKIPEDIA · FOUR WHEELER"
+   "src": "WIKIPEDIA · JALOPNIK · ROCKCRAWLER (JEEP SPECS)"
   },
   {
    "q": "What fluids does it take?",
@@ -407,8 +407,8 @@
   },
   {
    "q": "What fuel economy and range should I expect?",
-   "a": "Jeep's 2005–06 TJ spec sheet lists 16/20 mpg (city/highway) for the 4.0 with either transmission, on the short-wheelbase truck. The LJ carries the same 19-gallon tank, according to owners on RME4x4. Bigger tires, a lift and a roof load cost several mpg.",
-   "src": "QUADRATEC SPECS · RME4X4"
+   "a": "Jeep's 2005–06 TJ spec sheet originally listed 16/20 mpg (city/highway) for the 4.0 with either transmission, on the short-wheelbase truck. EPA's revised figures on fueleconomy.gov are lower: 13/16 for the automatic and 13/17 for the six-speed. The LJ carries a 19-gallon tank (Jeep's 2004½ spec sheet). Bigger tires, a lift and a roof load cost several mpg.",
+   "src": "QUADRATEC SPECS · FUELECONOMY.GOV · ROCKCRAWLER"
   },
   {
    "q": "What about the low belly and the rear overhang?",
@@ -638,7 +638,7 @@
   },
   {
    "k": "PRODUCTION",
-   "v": "≈ 47,000"
+   "v": "≈46,000–47,000 (Driving Line, Jalopnik)"
   }
  ],
  "photos": [
@@ -944,12 +944,28 @@
    "url": "https://www.extremeterrain.com/jeep-wrangler-tire-size-guide.html"
   },
   {
-   "name": "RealTruck — Jeep Wrangler tire size guide",
-   "url": "https://realtruck.com/blog/jeep-wrangler-tire-size-guide/"
-  },
-  {
    "name": "Wikimedia Commons — Category: Jeep Wrangler Unlimited Rubicon (TJ)",
    "url": "https://commons.wikimedia.org/wiki/Category:Jeep_Wrangler_Unlimited_Rubicon_(TJ)"
+  },
+  {
+   "name": "Four Wheel Trends — Largest tire on a stock Jeep Wrangler",
+   "url": "https://fourwheeltrends.com/what-is-the-largest-tire-you-can-fit-on-a-stock-jeep-wrangler/"
+  },
+  {
+   "name": "Rockcrawler.com — 2004½ Jeep Wrangler Unlimited specifications",
+   "url": "https://rockcrawler.com/reviews/jeep/wrangler_2004_unlimited/information/specifications.asp"
+  },
+  {
+   "name": "Driving Line — Long live the LJ: is this the perfect Wrangler?",
+   "url": "https://www.drivingline.com/articles/long-live-the-lj-is-this-the-perfect-wrangler/"
+  },
+  {
+   "name": "Quadratec — Everything Jeep Wrangler Buyer's Guide (PDF)",
+   "url": "https://www.quadratec.com/sites/default/files/JeepWranglerBuyersGuide.pdf"
+  },
+  {
+   "name": "fueleconomy.gov — Jeep Wrangler/TJ 4WD EPA ratings",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1987&year2=2006&make=Jeep&baseModel=Wrangler"
   }
  ]
 }

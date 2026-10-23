@@ -14,17 +14,17 @@
    {
     "lift": "Stock",
     "size": "31 in",
-    "note": "The Unlimited Rubicon came with ≈31-inch 245/75R16s from the factory. Use wheels with at least 4.5 in of backspacing."
+    "note": "The Unlimited Rubicon came with ≈31-inch LT245/75R16s from the factory; Four Wheel Trends puts the stock-suspension limit at about 31x10.50. Check wheel backspacing so the tires stay inside the flares."
    },
    {
     "lift": "2 in",
     "size": "≈31 in",
-    "note": "Quadratec's guide for TJ/LJ: about 31 in on a 2 in spacer lift."
+    "note": "Quadratec's buyer's guide (TJ): a 2 in spacer lift typically accommodates up to 31 in tires."
    },
    {
     "lift": "3 in",
     "size": "33 in",
-    "note": "Quadratec's guide: 33 in on a 3 in suspension lift, 35 in with a long-arm lift. The low-hanging fuel tank is worth a skid plate."
+    "note": "Quadratec's buyer's guide (TJ): up to 33 in on its stage-2 suspension lift, 35 in on a long-arm setup. The low-hanging fuel tank is worth a skid plate (Driving Line)."
    }
   ]
  },
@@ -81,7 +81,7 @@
   "items": [
    {
     "head": "VIN",
-    "body": "In the VINs we decoded with NHTSA's tool, an Unlimited reads 1J4FA44S… and an Unlimited Rubicon 1J4FA64S…. Short-wheelbase trucks have a 9 as the 7th character (1J4FA49S Sport, 1J4FA69S Rubicon)."
+    "body": "In BaT-listed VINs we checked, an Unlimited reads 1J4FA44S… and an Unlimited Rubicon 1J4FA64S…, while short-wheelbase trucks have a 9 as the 7th character (1J4FA49S Sport, 1J4FA69S Rubicon). NHTSA's decoder doesn't reliably separate Unlimiteds from short-wheelbase trucks, so confirm with a tape measure: 103.4 in between the axle centers."
    },
    {
     "head": "Wheelbase and length",
@@ -128,7 +128,8 @@
   },
   {
    "k": "Curb weight",
-   "v": "3,721 lb (1,689 kg) Unlimited · 3,977 lb (1,804 kg) Unlimited Rubicon"
+   "v": "3,721 lb (1,689 kg) Unlimited · 3,977 lb (1,804 kg) Unlimited Rubicon",
+   "note": "Unlimited figure from Jeep's 2004½ spec sheet (Rockcrawler); Rubicon Unlimited figure [CONFIRM] against a 2005–06 spec sheet"
   },
   {
    "k": "Cargo volume",
@@ -176,7 +177,7 @@
   "items": [
    {
     "k": "Total built (2004–06)",
-    "v": "A little over 46,000 (Driving Line)"
+    "v": "A little over 46,000 (Driving Line); about 47,000 per Jalopnik"
    },
    {
     "k": "Of which Rubicons",
@@ -227,7 +228,7 @@
    "url": "https://rockcrawler.com/reviews/jeep/wrangler_2004_unlimited/information/specifications.asp"
   },
   {
-   "name": "Quadratec — 2006 Jeep Wrangler TJ specs (incl. Unlimited)",
+   "name": "Quadratec — 2006 Jeep Wrangler TJ specs (contains errors; used only for cross-checks)",
    "url": "https://www.quadratec.com/c/reference/2006-jeep-wrangler-tj-specs"
   },
   {
@@ -273,6 +274,14 @@
   {
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
+  },
+  {
+   "name": "Jalopnik — Why the 2004 to 2006 Jeep Wrangler Unlimited LJ is the holy grail of Jeeps",
+   "url": "https://jalopnik.com/why-the-2004-to-2006-jeep-wrangler-unlimited-lj-is-the-1837831885"
+  },
+  {
+   "name": "Four Wheel Trends — Largest tire on a stock Jeep Wrangler",
+   "url": "https://fourwheeltrends.com/what-is-the-largest-tire-you-can-fit-on-a-stock-jeep-wrangler/"
   }
  ]
 }
