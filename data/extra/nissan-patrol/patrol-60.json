@@ -1,0 +1,283 @@
+{
+ "fitment": {
+  "stock": [
+   "7.00-16 or 7.50x16 bias-ply on 16-in steel wheels (US trucks; IH8MUD, BaT)",
+   "Some later and Colombian trucks on 15-in wheels (BaT)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "30x9.50R15 (on 15-in wheels)",
+    "note": "What a 1969 on Bring a Trailer runs. We couldn't find a forum consensus for the 60."
+   },
+   {
+    "lift": "Longer rear shackles",
+    "size": "33x12.50R15",
+    "note": "A 1982 Colombian LG-61 on BaT with Mickey Thompson tyres and longer rear shackles."
+   },
+   {
+    "lift": "2 in (springs)",
+    "size": "7.50x16",
+    "note": "A restorer's choice with a 2-in Alcan spring lift (IH8MUD). Narrow and tall, to keep the period look."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1960",
+   "change": "60 Series launched in October: soft-top 60 (2,200 mm) and G60 (2,500 mm) with the P 4.0 L OHV six",
+   "flag": "note"
+  },
+  {
+   "year": "1962",
+   "change": "US and Canadian sales begin through Datsun dealers; Nissan Australia claims the first Simpson Desert crossing",
+   "flag": "note"
+  },
+  {
+   "year": "1963",
+   "change": "KG60 hardtop added; Datsun's first US TV commercial is shot for the Patrol",
+   "flag": "note"
+  },
+  {
+   "year": "1965",
+   "change": "P engine uprated to 145 PS",
+   "flag": "buy"
+  },
+  {
+   "year": "c. 1966",
+   "change": "Speedometer drive redesigned with a splined pinion behind the 4WD flange (restorer SNLC)",
+   "flag": "note"
+  },
+  {
+   "year": "c. 1968",
+   "change": "Birfield front-axle joints replace Tracta joints (SNLC)",
+   "flag": "note"
+  },
+  {
+   "year": "1969",
+   "change": "Last US year; Indian assembly as the Jonga begins",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Replaced in Japan by the 160 Series; Colombian 'LG-61' trucks with the 60 body and a four-speed are titled into the 1980s",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "US-delivered trucks, Colombian imports, Japanese fire trucks and Indian Jongas all look alike, and many US 60s for sale today are recent imports. Know which one you're looking at.",
+  "items": [
+   {
+    "head": "US-market trucks",
+    "body": "Restorer SNLC says the US got short-wheelbase L60 soft-tops and KL60 hardtops, all with a three-speed and a C216 rear axle. A BaT US-market 1965 had chassis 4-L60-02697 and an 80-mph speedometer."
+   },
+   {
+    "head": "Imports",
+    "body": "Colombian trucks on BaT show km/h speedometers and chassis numbers such as L60…, KL60… and, on 1980–82 LG-61 trucks, G61…, with four-speed gearboxes. Ask for the import paperwork."
+   },
+   {
+    "head": "Front axle joints",
+    "body": "SNLC says early front axles (before about 1968) use Tracta joints and later ones Birfields."
+   },
+   {
+    "head": "Speedometer drive",
+    "body": "Pre-1966 trucks drive the speedometer from the front of the transfer case; later trucks have a splined pinion behind the 4WD flange."
+   },
+   {
+    "head": "Fire Patrols",
+    "body": "Wikipedia says the two-wheel-drive Fire Patrol lacks the 4x4 badge, transfer lever and front differential, but every Fire Patrol has a PTO lever for the pump."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Engine output",
+   "v": "125 PS → 145 PS (1965)",
+   "note": "P 3,956 cc OHV I6 (Wikipedia); 93 kW in Australian tune (GoAuto)"
+  },
+  {
+   "k": "Torque",
+   "v": "285 Nm (210 lb-ft)",
+   "note": "Truck Encyclopedia; BaT quotes 217 lb-ft for 1980–82 trucks"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,200 mm (86.6 in) · 2,500 mm (98.4 in) G60"
+  },
+  {
+   "k": "Low range",
+   "v": "2.264:1",
+   "note": "Truck Encyclopedia"
+  },
+  {
+   "k": "Seating",
+   "v": "Up to eight in the extra-long H60"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Refurbished Colombian imports bring the most money in the US. The original US-delivered trucks that come up tend to be rougher and cheaper.",
+  "ranges": [
+   {
+    "cond": "Project / rusty driver",
+    "range": "$6k–10k"
+   },
+   {
+    "cond": "Sorted driver",
+    "range": "$13k–18k"
+   },
+   {
+    "cond": "Refurbished",
+    "range": "$18k–23k"
+   }
+  ],
+  "note": "Based on 10 Bring a Trailer sales of 60-series trucks (including 1980–82 Colombian LG-61s) from February 2025 to July 2026. Top sale: a refurbished ex-Colombia 1965 at $23,000 (2026)."
+ },
+ "import": {
+  "paragraphs": [
+   "Nissan sold the 60 new in the US only from 1962 to 1969, so many trucks for sale today are imports, especially from Colombia. Every 60 is well past the 25-year mark, so NHTSA's exemption from federal safety standards applies, counted from the date of manufacture.",
+   "State titling and emissions rules still apply. Several recent BaT imports were titled in Florida. Make sure the chassis number matches the import documents."
+  ]
+ },
+ "production": {
+  "intro": "Nissan built the 60 in Japan for twenty years, and it was assembled or derived in India and kept alive in Colombia.",
+  "items": [
+   {
+    "k": "Japan",
+    "v": "October 1960–1980"
+   },
+   {
+    "k": "US sales",
+    "v": "1962–1969 (Datsun dealers)"
+   },
+   {
+    "k": "US total",
+    "v": "Not published by Nissan; a restorer cites 2,616 (about 950 soft-tops)"
+   },
+   {
+    "k": "India (Jonga)",
+    "v": "From about 1969; Army service until the late 1990s"
+   },
+   {
+    "k": "Engine",
+    "v": "P series, 1959–2003 across Nissan trucks and Patrols"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Fire Patrol",
+    "years": "1960s–1970s",
+    "note": "Japanese fire truck with an A2-class pump; also built in two-wheel drive."
+   },
+   {
+    "name": "Jonga",
+    "years": "1969 on",
+    "note": "Indian Army Patrol built by Vehicle Factory Jabalpur; a 1996 civilian diesel sold fewer than 200."
+   },
+   {
+    "name": "H60 extra-long wheelbase",
+    "years": "1960s",
+    "note": "Eight-passenger long-wheelbase version."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/",
+   "note": "Long-running Australian Patrol club with its own property, driver training and trips. All makes welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Nissan Patrol (60 Series, Jonga)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+   "name": "Wikipedia — Nissan P engine",
+   "url": "https://en.wikipedia.org/wiki/Nissan_P_engine"
+  },
+  {
+   "name": "GoAuto — Nissan 60 Series Patrol (1965)",
+   "url": "https://www.goauto.com.au/used-car-research/nissan/60-series-patrol/1965-05-01/1596.html"
+  },
+  {
+   "name": "Truck Encyclopedia — The Nissan/Datsun Patrol",
+   "url": "https://truck-encyclopedia.com/coldwar/japan/nissan-patrol.php"
+  },
+  {
+   "name": "IH8MUD — 1964 Nissan Patrol soft-top frame-off restoration (SNLC)",
+   "url": "https://forum.ih8mud.com/threads/1964-nissan-patrol-soft-top-frame-off-restoration.605217/"
+  },
+  {
+   "name": "Curbside Classic — 1960s Nissan Patrol 60, a US-market Patrol",
+   "url": "https://www.curbsideclassic.com/blog/cc-capsule/curbside-capsule-1960s-nissan-patrol-60-a-us-market-patrol"
+  },
+  {
+   "name": "Datsun Forums — Datsun discovered America, part 3",
+   "url": "https://datsunforum.com/datsun-discovered-america-part-3/"
+  },
+  {
+   "name": "Bring a Trailer — Nissan Patrol results",
+   "url": "https://bringatrailer.com/nissan/patrol/"
+  },
+  {
+   "name": "Bring a Trailer — 1965 Nissan Patrol (US-market)",
+   "url": "https://bringatrailer.com/listing/1965-nissan-patrol-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1965 Nissan Patrol (ex-Colombia)",
+   "url": "https://bringatrailer.com/listing/1965-nissan-patrol-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1967 Nissan Patrol",
+   "url": "https://bringatrailer.com/listing/1967-nissan-patrol-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1967 Nissan Patrol (ex-Colombia)",
+   "url": "https://bringatrailer.com/listing/1967-nissan-patrol-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1969 Nissan Patrol",
+   "url": "https://bringatrailer.com/listing/1969-nissan-patrol-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1971 Nissan Patrol (Colombia)",
+   "url": "https://bringatrailer.com/listing/1971-nissan-patrol/"
+  },
+  {
+   "name": "Bring a Trailer — 1971 Nissan Patrol (ex-Colombia)",
+   "url": "https://bringatrailer.com/listing/1971-nissan-patrol-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1980 Nissan Patrol LG-61",
+   "url": "https://bringatrailer.com/listing/1980-nissan-patrol-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1980 Nissan Patrol LG-61 (no reserve)",
+   "url": "https://bringatrailer.com/listing/1980-nissan-patrol-lg-61/"
+  },
+  {
+   "name": "Bring a Trailer — 1982 Nissan Patrol LG-61",
+   "url": "https://bringatrailer.com/listing/1982-nissan-patrol-4/"
+  },
+  {
+   "name": "NHTSA — Recalls API (no campaigns for 1966–69 Nissan Patrol)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=NISSAN&model=PATROL&modelYear=1967"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/"
+  }
+ ]
+}

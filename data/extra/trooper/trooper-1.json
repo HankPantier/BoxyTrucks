@@ -1,0 +1,293 @@
+{
+ "fitment": {
+  "stock": [
+   "P235/75R15 on 6.0 x 15 (Deluxe) or 6.5 x 15 (LS) wheels, 1987 US",
+   "15 x 7 alloy 'snowflake' wheels on the 1989 Trooper RS"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+3 mm (stock 15 x 6.5, per ThreePiece.us)",
+   "center_bore": "100 mm",
+   "lug_thread": "M12x1.5"
+  }
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear-door hinge corrosion and false latching",
+    "years": "1984–1987",
+    "ref": "NHTSA 92V093",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=92V093000",
+    "summary": "In salt-belt states corrosion in the rear-door hinges, combined with misaligned latches, could let the doors close in a 'false latch' condition."
+   },
+   {
+    "title": "Heater bolt can rupture the fuel pipe",
+    "years": "1987–1988",
+    "ref": "NHTSA 89V001",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V001000",
+    "summary": "Too little clearance between a heater mounting bolt and a fuel delivery pipe (and a rear heater hose clip) could rupture the pipe and leak fuel."
+   },
+   {
+    "title": "Oil-cooler hose can melt on the exhaust manifold",
+    "years": "1990–1991",
+    "ref": "NHTSA 90V166",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=90V166000",
+    "summary": "An improperly installed oil-cooler hose could touch the exhaust manifold and melt."
+   },
+   {
+    "title": "Overfilled automatic transmission can spill fluid on the exhaust",
+    "years": "1990–1991",
+    "ref": "NHTSA 90V167",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=90V167000",
+    "summary": "Overfilled ATF could bleed through an air groove onto the exhaust manifold as the oil warmed up."
+   },
+   {
+    "title": "Reese trailer-hitch receiver weld",
+    "years": "1986–1991",
+    "ref": "NHTSA 93E023",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93E023000",
+    "summary": "Equipment recall by Reese Products: the weld on the hitch receiver could break."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1981",
+   "change": "September: Isuzu announces the Rodeo Bighorn in Japan, a compact 4WD wagon on its pickup chassis",
+   "flag": "note"
+  },
+  {
+   "year": "1984",
+   "change": "US launch as the Trooper II two-door: 1.95 L gas four (82 hp) or 2.2 L diesel, four-speed manual, rear seat optional",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Four-door body, 2.3 L gas four, 2.2 L turbo-diesel (not in California), five-speed, auto-locking hubs and a 21.9 gal tank",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "Facelift with flush rectangular headlights and a new grille, wider track, P235/75R15 tires and a four-door LS",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "Fuel-injected 2.6 L 4ZE1 with 120 hp arrives",
+   "flag": "buy"
+  },
+  {
+   "year": "1989",
+   "change": "Optional 2.8 L GM V6; one-year-only short-wheelbase Trooper RS two-door",
+   "flag": "buy"
+  },
+  {
+   "year": "1990–1991",
+   "change": "Recalls for the oil-cooler hose (90V166) and automatic transmission overfill (90V167); NHTSA's owner complaints include under-hood fires and stripped wheel studs",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "December: replaced by the second-generation Trooper",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "First-generation Troopers were sold under many names and with engines the US never got, so check what you're looking at, especially with right-hand-drive Japanese or Australian imports.",
+  "items": [
+   {
+    "head": "Chassis codes by engine",
+    "body": "Wikipedia lists UBS13 (1.95 L G200Z), UBS16 (2.3 L 4ZD1), UBS17 (2.6 L 4ZE1), UBS52 (2.2 L C223 / C223T diesel) and UBS55 (2.8 L 4JB1 diesel). The US V6 trucks use GM's 2.8 L pushrod engine."
+   },
+   {
+    "head": "Facelift",
+    "body": "1984–86 trucks have the original front end; from 1987 the Trooper II has flush rectangular headlights and a new grille."
+   },
+   {
+    "head": "Trooper RS",
+    "body": "The 1989-only US short-wheelbase two-door has a wheelbase of about 90 inches instead of 104, a 2.6 L four, 4.77:1 gears and 15 x 7 'snowflake' alloys."
+   },
+   {
+    "head": "Re-badges",
+    "body": "Holden Jackaroo (Australia and New Zealand), Isuzu Bighorn and Subaru Bighorn (Japan), Chevrolet Trooper (Indonesia and South America) and Caribe 442 (Venezuela) are the same truck. SsangYong's Korando Family is licence-built with its own bodywork."
+   },
+   {
+    "head": "Bighorn Irmscher R",
+    "body": "A limited run of 100 Japanese-market Bighorns with Irmscher graphics, a hood scoop, fender flares, Recaro seats and an Irmscher wheel, all cosmetic, with the 2.8 L intercooled turbo-diesel."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Payload",
+   "v": "1,374 lb (2-door) / 1,319 lb (4-door)",
+   "note": "1987 gas trucks, Isuzu brochure; 1,222 lb for the 1984 two-door tested by Car and Driver"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "21.9 US gal (83 L)",
+   "note": "From 1985; 13.2 gal on the 1984 two-door"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.3 in (211 mm)",
+   "note": "Minimum, at the rear differential (Isuzu brochures)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 21 city / 27 hwy (1984 1.95); 17 / 20 (1987 2.3 five-speed)",
+   "note": "Car and Driver averaged 21 mpg in 1984"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,366 lb (2-door) / 3,421 lb (4-door)",
+   "note": "1987 gas trucks"
+  },
+  {
+   "k": "Turning circle",
+   "v": "38.8 ft (11.8 m) curb to curb",
+   "note": "1987"
+  },
+  {
+   "k": "Cargo volume",
+   "v": "79.0 cu ft without the rear seat",
+   "note": "45.5 cu ft with the seat up"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "First-generation Troopers are still cheap, but tidy, rust-free two-doors and rare diesels are starting to pull ahead.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$3.5k–5.5k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$7k–9.5k"
+   },
+   {
+    "cond": "Excellent / rare spec",
+    "range": "$14k–25k"
+   }
+  ],
+  "note": "Based on 13 Bring a Trailer first-generation sales, October 2024 – July 2026: $3,500 (a 2.6-powered 1986) to $14,250 (a 1986 Trooper II LS two-door five-speed). A 1991 Bighorn Irmscher turbo-diesel sold for $25,000."
+ },
+ "docs": [
+  {
+   "name": "Isuzu 1985 Trooper II brochure, USA",
+   "url": "https://archive.org/details/1_20260509_20260509_1554",
+   "note": "Period brochure scan on the Internet Archive: specifications, equipment and capacities"
+  },
+  {
+   "name": "Isuzu 1987 Trooper II brochure, USA",
+   "url": "https://archive.org/details/Trooper87",
+   "note": "Specifications, tire sizes, weights and payloads for the facelifted truck"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1990",
+   "note": "Official recall data; change the model year in the link"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Every first-generation Bighorn, Jackaroo and export Trooper is now well past 25 years old, so it can be imported to the US under the 25-year exemption from federal safety and emissions standards. That's the route to the 2.8-liter 4JB1 diesels and the Japanese special editions the US never got. Car and Driver reported that the Irmscher R Bighorn sold in 2019 had arrived in the US in 2015.",
+   "Federal eligibility doesn't guarantee registration everywhere, and California is the hardest state for imported diesels, so check your state's titling and emissions rules before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Built from September 1981 to 1991 in Japan, and assembled or licence-built in several other countries.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "September 1981 – 1991 (Japan)"
+   },
+   {
+    "k": "Assembly",
+    "v": "Fujisawa, Japan; also Colombia (GM Colmotores), Indonesia (Garmak), Philippines (Pilipinas GM), Venezuela (Mack de Venezuela)"
+   },
+   {
+    "k": "Licence-built",
+    "v": "SsangYong Korando Family, South Korea, November 1988 – 1996"
+   },
+   {
+    "k": "US model years",
+    "v": "1984–1991"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Bighorn Irmscher R",
+    "years": "Japan, late 1980s",
+    "note": "Limited run of 100 with Irmscher cosmetic and interior upgrades"
+   },
+   {
+    "name": "Subaru Bighorn",
+    "years": "November 1988 – February 1992",
+    "note": "Irmscher trim only, 2.8 L turbo-diesel"
+   },
+   {
+    "name": "Trooper RS",
+    "years": "1989 (US)",
+    "note": "Short-wheelbase two-door, 2.6 L, 4.77 gears, snowflake alloys"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Isuzu Trooper",
+   "url": "https://en.wikipedia.org/wiki/Isuzu_Trooper"
+  },
+  {
+   "name": "Isuzu Motors — Heritage (company history timeline)",
+   "url": "https://www.isuzu.co.jp/world/company/history.html"
+  },
+  {
+   "name": "Car and Driver — From the Archive: 1984 Isuzu Trooper II Tested (May 1984)",
+   "url": "https://www.caranddriver.com/reviews/a43339389/1984-isuzu-trooper-ii-by-the-numbers/"
+  },
+  {
+   "name": "Car and Driver — Irmscher-R Tuned 1989 Isuzu Trooper Bighorn (2019)",
+   "url": "https://www.caranddriver.com/news/a27091853/isuzu-trooper-bighorn-irmscher-r-auction/"
+  },
+  {
+   "name": "Isuzu — 1985 Trooper II Two Door & Four Door brochure, USA (Internet Archive scan)",
+   "url": "https://archive.org/details/1_20260509_20260509_1554"
+  },
+  {
+   "name": "Isuzu — 1987 Trooper II brochure, USA (Internet Archive scan)",
+   "url": "https://archive.org/details/Trooper87"
+  },
+  {
+   "name": "Bring a Trailer — Isuzu Trooper sold results",
+   "url": "https://bringatrailer.com/isuzu/trooper/"
+  },
+  {
+   "name": "ThreePiece.us — 1987 Isuzu Trooper wheel fitment specs",
+   "url": "https://vehicles.threepiece.us/vehicles/isuzu/trooper/1987/"
+  },
+  {
+   "name": "NHTSA — recalls, 1986 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1986"
+  },
+  {
+   "name": "NHTSA — recalls, 1987 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1987"
+  },
+  {
+   "name": "NHTSA — recalls, 1990 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1990"
+  },
+  {
+   "name": "NHTSA — owner complaints, 1990 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1990"
+  },
+  {
+   "name": "NHTSA — owner complaints, 1991 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1991"
+  }
+ ]
+}

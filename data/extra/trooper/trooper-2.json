@@ -1,0 +1,400 @@
+{
+ "fitment": {
+  "stock": [
+   "P245/70R16 on 16 x 7 alloys (1996–98 Acura SLX)",
+   "235/75R15 on 15 x 6 wheels (1998 Trooper S, per ThreePiece.us)",
+   "OEM sizes listed for 1998 include 225/75R16 and 245/70R16"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+38 mm (1998 Trooper S 15 x 6, per ThreePiece.us)",
+   "center_bore": "100 mm",
+   "lug_thread": "M12x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R16 (about 33 in)",
+    "note": "An Overland Bound owner says 33s fit before a lift is needed, citing a Planet Isuzoo chart; an Expedition Portal member reports 285/75R16 fits with no lift."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Accelerator cable can stick",
+    "years": "1992–1995",
+    "ref": "NHTSA 04V199",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V199000",
+    "summary": "The accelerator cable can stick, so engine speed doesn't drop immediately when you lift off the pedal."
+   },
+   {
+    "title": "Camshaft seal end plug can dislodge",
+    "years": "1992–1994",
+    "ref": "NHTSA 94V132",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=94V132000",
+    "summary": "Expansion and contraction of the cylinder head can push out the camshaft seal end plug and let oil leak from the camshaft."
+   },
+   {
+    "title": "Rear center seat-belt buckle",
+    "years": "1996",
+    "ref": "NHTSA 96V248",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V248001",
+    "summary": "Some trucks were built with a rear center buckle meant for another market."
+   },
+   {
+    "title": "Front hub missing lock washer or screws",
+    "years": "1997",
+    "ref": "NHTSA 97V035",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=97V035001",
+    "summary": "Some trucks were built without a lock washer and/or screws in the front hub."
+   },
+   {
+    "title": "Left front brake line clearance",
+    "years": "1996–1997",
+    "ref": "NHTSA 97V092",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=97V092001",
+    "summary": "The left front brake lines were installed with too little clearance to the upper control arm."
+   },
+   {
+    "title": "Transfer case flange nuts",
+    "years": "1998",
+    "ref": "NHTSA 98V180",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V180000",
+    "summary": "Transfer-case flange nuts weren't installed properly and could loosen."
+   },
+   {
+    "title": "TOD trucks: fuel leak in a frontal crash",
+    "years": "2000–2001",
+    "ref": "NHTSA 00V253 / 00V376",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V376000",
+    "summary": "On 4WD automatic trucks with Torque On Demand, a high-speed frontal crash could separate an interior fuel line and hose or move engine-bay parts, risking a fuel leak."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Intake manifold gaskets (1998)",
+    "ref": "",
+    "summary": "Owners writing to NHTSA mention a 1998 service bulletin for faulty intake gaskets, and Edmunds owners call the 3.5's intake gasket a common warranty repair. Bulletin number not confirmed.",
+    "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1998"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1991",
+   "change": "December: all-new Trooper (Bighorn) launched as a 1992 model; 3.2 L V6 in SOHC (175 hp) and DOHC (190 hp) forms, auto hubs, four-wheel discs",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "Bighorn receives the 1992/93 Japan Car of the Year Special Award",
+   "flag": "note"
+  },
+  {
+   "year": "1993–1995",
+   "change": "Three-door RS sold in the US",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "Revised 190 hp SOHC 3.2; shift-on-the-fly on some trucks; Acura SLX twin launched (November 1995)",
+   "flag": "buy"
+  },
+  {
+   "year": "1996–1997",
+   "change": "Consumer Reports rates the 1995–96 Trooper and SLX 'Not Acceptable' (August 1996); NHTSA denies a defect petition (July 1997)",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Facelift, 3.5 L 6VE1 (215 hp / 230 lb-ft) and Borg-Warner Torque On Demand on some trims",
+   "flag": "note"
+  },
+  {
+   "year": "1998–2000",
+   "change": "Peak years for NHTSA complaints about 3.5 oil consumption, engines running dry and stalling; check any 3.5 carefully",
+   "flag": "avoid"
+  },
+  {
+   "year": "1999",
+   "change": "Last Acura SLX (6,590 sold in the US in total)",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "New grille; Grade Logic downshift control on automatics (2000–02)",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "Last US model year; the final Japanese Bighorn is built in September 2002",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The UBS was sold under at least nine badges, and the US got only the V6s, so it pays to know which truck and which drivetrain you're looking at.",
+  "items": [
+   {
+    "head": "Chassis codes",
+    "body": "UBS25 = 3.2 L 6VD1 V6, UBS26 = 3.5 L 6VE1 V6, UBS69 = 3.1 L 4JG2 turbo-diesel, UBS73 = 3.0 L 4JX1 turbo-diesel. Japanese model codes add a prefix and suffix, for example E-UBS25GW or KD-UBS69GW."
+   },
+   {
+    "head": "3.2 or 3.5",
+    "body": "1992–97 US trucks have the 3.2 (SOHC on the S, DOHC on the 1992–95 LS); 1998–2002 trucks have the 3.5 DOHC. The 1998 facelift, with new lamps and fenders and a body-colored hard spare cover, is the easy visual tell."
+   },
+   {
+    "head": "Torque On Demand",
+    "body": "TOD trucks (1998 on, S Performance and S Luxury at first) have a '4WD Auto' mode and a TOD indicator. Part-time trucks don't."
+   },
+   {
+    "head": "Acura SLX",
+    "body": "Sold for the 1996–99 model years, automatic only, with the 3.2 and then (from 1998) the 3.5 and TOD. Mechanically a Trooper with Acura trim."
+   },
+   {
+    "head": "Re-badges and imports",
+    "body": "Holden Jackaroo and Monterey, Opel and Vauxhall Monterey, Honda Horizon, Subaru Bighorn, Chevrolet Trooper and HSV Jackaroo are all UBS. Diesels and right-hand drive mean an import."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,268 kg)",
+   "note": "Braked trailer; Isuzu 1992 brochure and Acura 1998 SLX specs"
+  },
+  {
+   "k": "Payload",
+   "v": "895 lb (406 kg)",
+   "note": "1998 Acura SLX, gross payload; GVWR 5,510 lb"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "22.5 US gal (85 L)",
+   "note": "Acura SLX"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.3 in (210 mm) at the rear axle",
+   "note": "1998 SLX; 8.5 in (215 mm) at the differential quoted for 1996"
+  },
+  {
+   "k": "Wheel travel",
+   "v": "7.5 in front and rear",
+   "note": "Acura SLX specs"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "15 city / 18 hwy (1996 3.2); 15 / 19 (1998 3.5)",
+   "note": "Factory estimates, Acura SLX"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,315–4,640 lb (1996 SLX); 4,615 lb (1998 SLX)"
+  },
+  {
+   "k": "Turning circle",
+   "v": "38.1 ft (11.6 m) curb to curb",
+   "note": "Acura SLX"
+  },
+  {
+   "k": "Cargo volume",
+   "v": "90.2 cu ft with the rear seat folded",
+   "note": "Acura SLX; Isuzu's 1992 brochure quotes 90 cu ft"
+  },
+  {
+   "k": "Climbing ability",
+   "v": "Up to 39°",
+   "note": "Isuzu 1992 brochure claim"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Second-generation Troopers are cheap; low mileage and documented engine work bring the premiums.",
+  "ranges": [
+   {
+    "cond": "Driver",
+    "range": "$6k–11k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$12k–14.5k"
+   }
+  ],
+  "note": "Based on 10 Bring a Trailer Trooper sales, October 2024 – July 2026: $6,000 (a 2000 Limited) to $14,250 (a 50,000-mile 2001 LS). A 1996 Acura SLX sold for $11,250 in November 2024."
+ },
+ "docs": [
+  {
+   "name": "Acura — 1998 SLX specifications",
+   "url": "https://hondanews.com/en-US/releases/release-a5377968e8f2897bc43b55004c34c966-1998-acura-slx-specifications",
+   "note": "Manufacturer-hosted factory specs for the 3.5 V6 twin: capacities, ratios, dimensions"
+  },
+  {
+   "name": "Acura — 1996 SLX specifications",
+   "url": "https://hondanews.com/en-US/releases/release-fca5672643f189d994de02004c34c9d6-1996-acura-slx-specifications",
+   "note": "Factory specs for the 3.2 V6 twin"
+  },
+  {
+   "name": "Isuzu 1992 Trooper brochure, USA",
+   "url": "https://archive.org/details/101_20260402_202604",
+   "note": "Period brochure scan on the Internet Archive"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The UBS diesels (the 3.1-liter 4JG2 and, from 1998, the 3.0-liter 4JX1) were never sold in the US, nor were the Holden, Opel, Vauxhall, Honda and Subaru versions. Trucks built at least 25 years ago can be imported under the US 25-year exemption, so in 2026 that covers UBS production from 2001 and earlier, one build month at a time.",
+   "Check your state's titling and emissions rules before buying an imported diesel. California is the most difficult."
+  ]
+ },
+ "production": {
+  "intro": "Built in Japan from December 1991 to September 2002, and assembled in several Asian markets.",
+  "items": [
+   {
+    "k": "Production (Japan)",
+    "v": "December 1991 – September 2002, Fujisawa"
+   },
+   {
+    "k": "Other assembly",
+    "v": "China (Zhanjiang), Malaysia (Isuzu HICOM, Pekan), Philippines (Biñan), Taiwan"
+   },
+   {
+    "k": "Acura SLX US sales",
+    "v": "6,590 (1996–99 model years)"
+   },
+   {
+    "k": "Vauxhall Monterey UK sales",
+    "v": "Little more than 4,000 (1994–99)"
+   },
+   {
+    "k": "US Trooper sales, H1 1997",
+    "v": "4,313, down from 9,290 a year earlier"
+   }
+  ],
+  "editions": [
+   {
+    "name": "HSV Jackaroo",
+    "years": "1993 (Australia)",
+    "note": "79 built by Holden Special Vehicles; cosmetic upgrades, 3.2 SOHC V6"
+   },
+   {
+    "name": "HSV Jackaroo SE",
+    "years": "After 1993 (Australia)",
+    "note": "234 built; HSV badging optional"
+   },
+   {
+    "name": "Bighorn Handling by Lotus",
+    "years": "1990s (Japan)",
+    "note": "Lotus-tuned suspension; also the only Subaru Bighorn model in 1992–94"
+   },
+   {
+    "name": "Trooper Skyroof Edition",
+    "years": "2002–2005 (Philippines)",
+    "note": "Rear-wheel-drive 3.0 4JX1 diesel with a large power moonroof and limited-slip differential"
+   },
+   {
+    "name": "Holden Jack8 concept",
+    "years": "2001",
+    "note": "Roofless Jackaroo show truck with a 5.7 L Gen III V8, built for the Jackaroo's 20th anniversary in Australia"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Isuzu Trooper",
+   "url": "https://en.wikipedia.org/wiki/Isuzu_Trooper"
+  },
+  {
+   "name": "Isuzu Motors — Heritage (company history timeline)",
+   "url": "https://www.isuzu.co.jp/world/company/history.html"
+  },
+  {
+   "name": "Acura (Honda newsroom) — 1996 Acura SLX specifications",
+   "url": "https://hondanews.com/en-US/releases/release-fca5672643f189d994de02004c34c9d6-1996-acura-slx-specifications"
+  },
+  {
+   "name": "Acura (Honda newsroom) — 1998 Acura SLX specifications",
+   "url": "https://hondanews.com/en-US/releases/release-a5377968e8f2897bc43b55004c34c966-1998-acura-slx-specifications"
+  },
+  {
+   "name": "Acura (Honda newsroom) — Acura model chronology",
+   "url": "https://hondanews.com/en-US/releases/release-6cd08e1213f4f2aca52228004c34c087-acura-model-chronology"
+  },
+  {
+   "name": "MotorTrend — 1998 Isuzu Trooper first drive",
+   "url": "https://www.motortrend.com/reviews/1998-isuzu-trooper/"
+  },
+  {
+   "name": "Isuzu — 1992 Trooper brochure, USA (Internet Archive scan)",
+   "url": "https://archive.org/details/101_20260402_202604"
+  },
+  {
+   "name": "Los Angeles Times (Reuters) — Agency Finds Isuzu Trooper Defect-Free (July 26, 1997)",
+   "url": "https://www.latimes.com/archives/la-xpm-1997-jul-26-mn-16538-story.html"
+  },
+  {
+   "name": "CNN transcript — Both sides claim victory in Consumer Reports, Isuzu trial (April 7, 2000)",
+   "url": "https://www.cnn.com/TRANSCRIPTS/0004/07/mn.09.html"
+  },
+  {
+   "name": "Hagerty UK — Cars That Time Forgot: Vauxhall Monterey (2022)",
+   "url": "https://www.hagerty.co.uk/articles/automotive-history/cars-that-time-forgot-vauxhall-monterey/"
+  },
+  {
+   "name": "Bring a Trailer — Isuzu Trooper sold results",
+   "url": "https://bringatrailer.com/isuzu/trooper/"
+  },
+  {
+   "name": "ThreePiece.us — 1998 Isuzu Trooper wheel fitment specs",
+   "url": "https://vehicles.threepiece.us/vehicles/isuzu/trooper/1998/"
+  },
+  {
+   "name": "Limitless Tire — 1998 Isuzu Trooper wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/isuzu/trooper/1998/"
+  },
+  {
+   "name": "Overland Bound — Isuzu Trooper owners poll (thread)",
+   "url": "https://www.overlandbound.com/forums/threads/isuzu-trooper-owners-poll.34771/"
+  },
+  {
+   "name": "Edmunds Car Forums — Isuzu Trooper discussion (page 129, 2002–03)",
+   "url": "https://forums.edmunds.com/discussion/726/isuzu/trooper/isuzu-trooper/p129"
+  },
+  {
+   "name": "Expedition Portal — Let's See Your Isuzu! (owner thread)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1069146"
+  },
+  {
+   "name": "NHTSA — recalls, 1992 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1992"
+  },
+  {
+   "name": "NHTSA — recalls, 1996 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1996"
+  },
+  {
+   "name": "NHTSA — recalls, 1997 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1997"
+  },
+  {
+   "name": "NHTSA — recalls, 1998 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=1998"
+  },
+  {
+   "name": "NHTSA — recalls, 2000 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=isuzu&model=trooper&modelYear=2000"
+  },
+  {
+   "name": "NHTSA — owner complaints, 1998 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1998"
+  },
+  {
+   "name": "NHTSA — owner complaints, 1999 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1999"
+  },
+  {
+   "name": "NHTSA — owner complaints, 2000 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=2000"
+  }
+ ]
+}

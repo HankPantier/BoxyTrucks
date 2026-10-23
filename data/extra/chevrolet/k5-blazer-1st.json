@@ -1,0 +1,270 @@
+{
+ "fitment": {
+  "stock": [
+   "7.35-15 (1969 standard)",
+   "E78-15B (1971 standard, 4x4)",
+   "Options to 10.00-16.5 (1969–71 spec sheets)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "33x12.50R15",
+    "note": "On 15x8 wheels with healthy springs. Owners say 32x11.50 is the limit on sagging springs, and 33x14.50s rubbed the springs on one truck. Expect contact off-road at full stuff."
+   },
+   {
+    "lift": "4 in",
+    "size": "35 in",
+    "note": "One CK5 owner ran 35s on a 4 in lift on the highway, but warns that 4 in isn't enough off-road once the axle articulates."
+   },
+   {
+    "lift": "5 in",
+    "size": "33 in",
+    "note": "A 5 in Tuff Country lift runs 33s with no rubbing. The owner thought 35s would fit but would need gears deeper than the stock 3.73s."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1969",
+   "change": "K5 Blazer launches as a 4x4 only. 250 six, 307 and 350 V8s; four-wheel drum brakes; hardtop, soft top and passenger seat all optional. Aluminum grille center embossed CHEVROLET, bowtie on the hood. 4,935 built",
+   "flag": "note"
+  },
+  {
+   "year": "1970",
+   "change": "Two-wheel-drive Blazer with coil-spring IFS (fewer than 1,000 built that year per CK5). GMC Jimmy introduced. 292 six optional. New grille with six groups of 'dashes'",
+   "flag": "note"
+  },
+  {
+   "year": "1971",
+   "change": "Power front disc brakes standard across GM light trucks. Egg-crate grille, length grows to 180 in",
+   "flag": "buy"
+  },
+  {
+   "year": "1972",
+   "change": "292 six dropped; 350 rated at 175 net hp. Grille surround no longer black. Production jumps to 44,266",
+   "flag": "buy"
+  },
+  {
+   "year": "1973",
+   "change": "Replaced by the square-body K5 on the new Rounded Line chassis, which kept a fully removable top until 1975",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Four model years, a GMC twin and decades of engine swaps and reproduction parts mean the details matter, especially on high-dollar 'original' trucks.",
+  "items": [
+   {
+    "head": "First gen vs square body",
+    "body": "1969–72 trucks use the Action Line pickup front end and body on a 104 in wheelbase. 1973–75 square bodies also have a full removable top, but sit on a 106.5 in wheelbase with the new 1973 sheet metal."
+   },
+   {
+    "head": "Year by grille",
+    "body": "Per CK5: 1969 has an aluminum center piece embossed CHEVROLET with built-in rectangular parking lamps; 1970 has six groups of silver 'dashes'; 1971 has an egg-crate grille; on 1972 the grille surround is no longer black. Grilles are easy to swap, so cross-check the title year and VIN."
+   },
+   {
+    "head": "SPID decal",
+    "body": "The Service Parts Identification decal inside the glovebox lists factory options and paint (BaT 1969 listing). Use it to check CST trim, Positraction and engine claims."
+   },
+   {
+    "head": "GMC Jimmy series codes",
+    "body": "GMC's 1971 brochure lists the Jimmy as CE-1550 and CS-1550 (two-wheel drive) and KE-1550 and KS-1550 (4x4)."
+   },
+   {
+    "head": "Transfer case and brakes",
+    "body": "Manual trucks may have a Dana 20 or an NP205; automatics have the NP205 (one-piece iron case, three-bolt idler cover, tag above the front output). Front discs are original only on 1971–72 trucks."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "104 in (2,642 mm)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8 in (203 mm)",
+   "note": "1969 spec sheet"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "35° / 25°",
+   "note": "1969 spec sheet"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23.5 gal (89 L)",
+   "note": "1969 spec sheet; the 1971 sheet lists 21 gal"
+  },
+  {
+   "k": "Max GVW",
+   "v": "5,000 lb (2,268 kg)"
+  },
+  {
+   "k": "Front axle capacity",
+   "v": "3,300 lb",
+   "note": "1969 and 1971 spec sheets"
+  },
+  {
+   "k": "Turning circle",
+   "v": "36.66 ft (11.2 m) curb to curb",
+   "note": "1971 brochure, 4x4"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,875 lb (1,758 kg)",
+   "note": "Wikipedia, citing Popular Science (May 1969)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are firm and rising. Unrusted original trucks, CST and Cheyenne trim, the V8 and four-speed command the most, and resto-mods with modern engines sell for more again.",
+  "ranges": [
+   {
+    "cond": "Driver / older restoration",
+    "range": "$24k–45k"
+   },
+   {
+    "cond": "Excellent original or restored",
+    "range": "$50k–100k"
+   },
+   {
+    "cond": "High-end resto-mod",
+    "range": "$100k–170k"
+   }
+  ],
+  "note": "Based on 34 Bring a Trailer sales of 1969–72 Blazers and 1970–72 Jimmys, March 2025 to October 2026. The 18 unmodified trucks sold for $23,750–100,000, median about $47,000. GMC Jimmys usually sell for less than equivalent Chevrolets."
+ },
+ "docs": [
+  {
+   "name": "1969 Chevrolet Blazer brochure and spec sheet",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1969_Trucks_and_Vans/1969_Chevrolet_Blazer_Brochure/1969%20Chevrolet%20Blazer-06.html",
+   "note": "Dimensions, axle ratings, tire and option lists (OldCarBrochures archive)"
+  },
+  {
+   "name": "1971 Chevrolet Blazer brochure and spec sheet",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1971_Trucks-Vans/1971_Chevrolet_Blazer_Brochure/1971%20Chevy%20Blazer-08.html",
+   "note": "Gross and net engine ratings, gearing and capacities"
+  },
+  {
+   "name": "1971 GMC Jimmy brochure",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1971_Trucks-Vans/1971_GMC_Jimmy_Brochure/1971%20GMC%20Jimmy-08.html",
+   "note": "Series codes and specs for the GMC version"
+  },
+  {
+   "name": "GM Heritage Center",
+   "url": "https://www.gm.com/heritage",
+   "note": "GM's official heritage archive"
+  }
+ ],
+ "production": {
+  "intro": "Production grew roughly tenfold in four years as the Blazer overtook its rivals.",
+  "items": [
+   {
+    "k": "1969",
+    "v": "4,935"
+   },
+   {
+    "k": "1970",
+    "v": "11,527"
+   },
+   {
+    "k": "1971",
+    "v": "17,220"
+   },
+   {
+    "k": "1972",
+    "v": "44,266"
+   },
+   {
+    "k": "Total (Chevrolet K5, 1969–72)",
+    "v": "77,948",
+    "note": "Sum of CK5's model-year figures; Wikipedia gives the same numbers but flags them as uncited"
+   }
+  ],
+  "editions": [
+   {
+    "name": "CST package",
+    "years": "1970–72",
+    "note": "Listed in the 1971 and 1972 brochures, and BaT has sold 1970 CST trucks. Bucket seats, console, chrome bumpers, extra insulation and undercoating, bright moldings, and deep-twist carpet with the auxiliary top (Chevrolet brochures)"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Chevy Truck Legends",
+   "url": "https://www.chevrolet.com/truck-legends",
+   "note": "Chevrolet's official community for owners of Chevy trucks, old and new."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Chevrolet K5 Blazer",
+   "url": "https://en.wikipedia.org/wiki/Chevrolet_K5_Blazer"
+  },
+  {
+   "name": "CK5 — K5 Blazer specifications 1969–1979",
+   "url": "https://ck5.com/forums/resources/k5-blazer-specifications-1969-1979.9/updates"
+  },
+  {
+   "name": "Chevrolet — 1969 Blazer specifications (brochure)",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1969_Trucks_and_Vans/1969_Chevrolet_Blazer_Brochure/1969%20Chevrolet%20Blazer-06.html"
+  },
+  {
+   "name": "Chevrolet — 1971 Blazer specifications (brochure)",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1971_Trucks-Vans/1971_Chevrolet_Blazer_Brochure/1971%20Chevy%20Blazer-08.html"
+  },
+  {
+   "name": "Chevrolet — 1971 Blazer brochure, chassis page",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1971_Trucks-Vans/1971_Chevrolet_Blazer_Brochure/1971%20Chevy%20Blazer-04.html"
+  },
+  {
+   "name": "Chevrolet — 1971 Blazer brochure, CST package",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1971_Trucks-Vans/1971_Chevrolet_Blazer_Brochure/1971%20Chevy%20Blazer-06.html"
+  },
+  {
+   "name": "GMC — 1971 Jimmy specifications (brochure)",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1971_Trucks-Vans/1971_GMC_Jimmy_Brochure/1971%20GMC%20Jimmy-08.html"
+  },
+  {
+   "name": "Bring a Trailer — Chevrolet K5 Blazer 1969–1972 results",
+   "url": "https://bringatrailer.com/chevrolet/k5-blazer-1969-1972/"
+  },
+  {
+   "name": "Bring a Trailer — GMC Jimmy 1970–1972 results",
+   "url": "https://bringatrailer.com/gmc/jimmy-1970-1972/"
+  },
+  {
+   "name": "Bring a Trailer — 1969 Chevrolet K5 Blazer 4x4 3-speed (SPID decal, axles)",
+   "url": "https://bringatrailer.com/listing/1969-chevrolet-k5-blazer-20/"
+  },
+  {
+   "name": "Offroad Design — NP205 technical information",
+   "url": "https://www.offroaddesign.com/tech/offroad-design-transfer-cases-knowledge/offroad-design-np-205-technical-information"
+  },
+  {
+   "name": "67-72 Chevy Trucks — How big wheels/tires, Blazer 1972 4x4 without lifting",
+   "url": "https://67-72chevytrucks.com/vboard/showthread.php?p=7459005"
+  },
+  {
+   "name": "CK5 — Wheel, tire and lift question",
+   "url": "https://ck5.com/forums/threads/wheel-tire-and-lift-question.192050/"
+  },
+  {
+   "name": "Crawlpedia — Most common bolt patterns",
+   "url": "https://crawlpedia.com/bolt_patterns.htm"
+  },
+  {
+   "name": "MotorTrend — Chevy K5 Blazer history",
+   "url": "https://www.motortrend.com/vehicle-genres/chevy-k5-blazer-4x4-suv-history/"
+  }
+ ]
+}
