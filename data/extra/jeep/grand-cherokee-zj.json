@@ -1,0 +1,347 @@
+{
+ "fitment": {
+  "stock": [
+   "215/75R15 (base/SE, Laredo, TSi)",
+   "225/75R15 (most Laredos and early Limiteds)",
+   "235/75R15 (1993 Laredo and Limited option)",
+   "245/70R15 (1996–98 Laredo option)",
+   "225/70R16 (1996–98 Limited, Orvis, 5.9 Limited)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\")",
+   "center_bore": "71.5 mm",
+   "lug_thread": "1/2\"-20",
+   "lug_torque": "75–85 lb-ft is Quadratec's typical range for 1/2\" lugs [CONFIRM IN MANUAL]"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "30x9.50R15",
+    "note": "One owner ran 30x9.50 BFGoodrich all-terrains on a stock '93 and said they came close to rubbing but didn't (Off-Road.com forum)"
+   },
+   {
+    "lift": "1.5–2 in",
+    "size": "30x9.50R15 (31x10.50R15 with trimming)",
+    "note": "Rough Country and Zone rate their spacer lifts for 30x9.50s; one Quadratec reviewer fit 31x10.50R15s on the Zone 2 in kit after trimming the front bumper"
+   },
+   {
+    "lift": "3.5 in",
+    "size": "31x10.50R15",
+    "note": "Rough Country's 3.5 in kit, with transfer-case drop and fixed lower arms, is rated for 31x10.50s"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel tank leak risk in rear impacts",
+    "years": "1993–1998",
+    "ref": "NHTSA 13V-252",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=13V252000",
+    "summary": "About 1.56 million ZJs and 2002–07 Libertys; dealers inspected the rear structure and fitted a Chrysler-designed tow hitch."
+   },
+   {
+    "title": "Shifter can rest out of Park",
+    "years": "1993–1998",
+    "ref": "NHTSA 02V-053",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V053000",
+    "summary": "If not fully in Park the vehicle could roll backward; dealers added a secondary detent to the floor shifter."
+   },
+   {
+    "title": "Front axle overheating on the temporary spare",
+    "years": "1996",
+    "ref": "NHTSA 98V-006",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V006000",
+    "summary": "Quadra-Trac trucks on 225/70R16, 225/75R16 or 245/70R15 tires; dealers replaced the space-saver with a full-size spare."
+   },
+   {
+    "title": "Front lower control arm cam bolts",
+    "years": "1993",
+    "ref": "NHTSA 93V-051",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V051000",
+    "summary": "Eccentric cam adjuster bolts at the front lower arm-to-axle brackets could fail due to assembly misalignment."
+   },
+   {
+    "title": "Liftgate latch bumpers swell",
+    "years": "1993",
+    "ref": "NHTSA 93V-055",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V055000",
+    "summary": "Assembly grease swelled the latch bumpers, so the liftgate might not latch or might be hard to open."
+   },
+   {
+    "title": "Steering column shaft pin",
+    "years": "1993",
+    "ref": "NHTSA 93V-210",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V210000",
+    "summary": "A sheared plastic pin could let the upper and lower steering shafts separate."
+   },
+   {
+    "title": "Inadvertent airbag deployment",
+    "years": "1997",
+    "ref": "NHTSA 97V-080",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=97V080000",
+    "summary": "The circuit design could allow an airbag to deploy when the ignition was switched off."
+   },
+   {
+    "title": "Brake booster vacuum reservoir diaphragm",
+    "years": "1998",
+    "ref": "NHTSA 98V-023",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V023000",
+    "summary": "The vacuum reservoir diaphragm could split or tear."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1992",
+   "change": "Revealed at the January Detroit show; 1993-model trucks on sale in April with the 4.0 six only",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "5.2 Magnum V8, Quadra-Trac (NV249) and the one-year woodgrain Grand Wagoneer arrive early in the year; AW4 replaced by the 42RE mid-year",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "Base model renamed SE; Infinity Gold audio; Grand Wagoneer dropped; last year of the AX15 manual in North America",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "Orvis Edition (10,020 built); SE gains standard power windows, ABS and A/C",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "Facelift and new interior with dual airbags, OBD-II, revised NV249 with a true 50/50 low range; Command-Trac and SE dropped; 4.0 rerated to 185 hp",
+   "flag": "buy"
+  },
+  {
+   "year": "1997",
+   "change": "TSi and Laredo Special Edition; 5.2 V8 available with 2WD; last Orvis year",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "One-year 5.9 Limited (245 hp, 14,286 built); production ends mid-1998 as the WJ takes over",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "The ZJ came with three transfer cases, three rear axles and several special editions, so identify what's actually under the truck before you pay a premium.",
+  "items": [
+   {
+    "head": "5.9 Limited",
+    "body": "1998 only. Look for working hood louvers, a mesh grille, unique five-spoke 16 in wheels, unique rocker moldings, a chrome exhaust tip and a 46RE with 3.73 gears and a rear Trac-Lok. US colors were Deep Slate, Stone White and Bright Platinum only."
+   },
+   {
+    "head": "1993–95 vs 1996–98",
+    "body": "1996-on trucks have new bumpers and side cladding, a larger grille, a passenger airbag, an OBD-II port under the dash, a three-spoke wheel with cruise buttons, and raised metal 4x4 badges instead of decals."
+   },
+   {
+    "head": "Transfer case",
+    "body": "Command-Trac (NP231, part-time, 1993–95), Selec-Trac (NP242, part-time or full-time) or Quadra-Trac (NV249, full-time). All three use a lever beside the gear selector; read the tag on the case to be sure."
+   },
+   {
+    "head": "Rear axle",
+    "body": "Dana 35, Dana 44 or Chrysler 8.25 depending on year, engine and package. Read the tag on the cover or housing before buying gears, lockers or shafts."
+   },
+   {
+    "head": "Grand Wagoneer (1993)",
+    "body": "A Limited with standard 5.2 V8 and Quadra-Trac, woodgrain vinyl on the fenders, doors and tailgate, chrome Grand Wagoneer badges, no lower cladding and a beige interior; 6,378 built."
+   },
+   {
+    "head": "Orvis and Up Country",
+    "body": "Orvis Limiteds (1995–97) are Moss Green (or Light Driftwood in 1997) with roan red accents and green-and-tan leather. The Up Country package (1993–97) has taller springs, longer bump stops and heavier German gas shocks mounted upside down, for about 1 in more height."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,270 kg)",
+   "note": "5.2 V8 at launch and 4.0 by 1995, per Wikipedia"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "23 US gal (87 L)",
+   "note": "87 octane; the 5.9 needs premium"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 14/19 mpg (4.0) · 12/17 (5.2) · 11/16 (5.9)",
+   "note": "city/highway, 4WD automatic, current EPA method"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,574 lb (1,621 kg) I6 · 3,901 lb (1,769 kg) V8"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "105.9 in (2,690 mm)"
+  },
+  {
+   "k": "Length",
+   "v": "178.7 in (1993–95) · 181.2 in (1996–98)"
+  },
+  {
+   "k": "0–60 mph",
+   "v": "8.3 s (5.2, Motor Trend 1995) · 6.8 s (5.9 Limited, Motor Trend 1998)"
+  },
+  {
+   "k": "Crash rating",
+   "v": "IIHS Marginal (moderate overlap, 1996–98)",
+   "note": "NHTSA frontal driver 4 stars (1993–95), 3 stars (1996–98)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are flat and low. Only very low-mileage originals, V8 Limiteds and the 5.9 Limited sell for more than an ordinary used SUV.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "Under $5k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$6k–12k"
+   },
+   {
+    "cond": "Excellent / low-mile",
+    "range": "$13k–18.5k"
+   }
+  ],
+  "note": "Based on 19 Bring a Trailer sales from October 2025 to October 2026 (median about $9,700, middle half $7,000–12,250). The top result was an 11,000-mile 1998 Limited at $18,500. 5.9 Limiteds have sold on BaT for $6,500–25,500 since 2019, most recently $9,750 in March 2026."
+ },
+ "docs": [
+  {
+   "name": "Factory-authorized reproduction owner's manuals, 1993–2004 Grand Cherokee",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-owners-manuals-jeep-grand-cherokee-zj-wj",
+   "note": "Bishko reprints, sold by Quadratec"
+  },
+  {
+   "name": "Factory-authorized parts catalog, 1997–2000 Wrangler, Cherokee & Grand Cherokee",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-parts-catalog-for-97-00-jeep-wrangler-tj-cherokee-xj-grand-cherokee-zj",
+   "note": "Bishko reprint covering 1997–98 ZJs"
+  },
+  {
+   "name": "ExtremeTerrain — Grand Cherokee ZJ capacities and specifications",
+   "url": "https://extremeterrain.com/grand-cherokee-zj-service-information-tech-guide.html",
+   "note": "Free fluid, capacity and spark-plug reference"
+  }
+ ],
+ "production": {
+  "intro": "Built at Jefferson North Assembly in Detroit, with export ZGs from Graz, Austria; production ran from January 1992 to mid-1998.",
+  "items": [
+   {
+    "k": "1998 production",
+    "v": "247,372 Grand Cherokees, of which 14,286 were 5.9 Limiteds (10,051 federal, 4,235 California emissions)"
+   },
+   {
+    "k": "Grand Wagoneer (1993)",
+    "v": "6,378"
+   },
+   {
+    "k": "Orvis Edition",
+    "v": "10,020 (1995) · 2,341 (1996) · 2,733 (1997)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Grand Wagoneer",
+    "years": "1993",
+    "note": "Woodgrain flagship with standard 5.2 V8 and Quadra-Trac"
+   },
+   {
+    "name": "Up Country",
+    "years": "1993–1997",
+    "note": "4WD and 4.0 six, taller springs and heavier shocks for about 1 in of lift"
+   },
+   {
+    "name": "Orvis Edition",
+    "years": "1995–1997",
+    "note": "Limited with Moss Green paint, roan red accents and two-tone leather"
+   },
+   {
+    "name": "Laredo Special Edition",
+    "years": "1997–1998",
+    "note": "Laredo with Infinity Gold audio, power seats and color-keyed trim"
+   },
+   {
+    "name": "TSi",
+    "years": "1997–1998",
+    "note": "Sporty trim with 16 in wheels, 225/70R16 Goodyear Eagle GAs and Quadra-Trac standard"
+   },
+   {
+    "name": "5.9 Limited",
+    "years": "1998",
+    "note": "245 hp 5.9 Magnum V8; 14,286 built"
+   }
+  ],
+  "paint": "The 5.9 Limited came only in Deep Slate, Stone White and Bright Platinum in the US; Europe also got Forest Green and Deep Amethyst."
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' annual Easter-week trail event in Moab, Utah, where Jeep showed the ZJ-based 'Grand One' concept in 2017"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Grand Cherokee (ZJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(ZJ)"
+  },
+  {
+   "name": "TireSize.com — 1993, 1996 and 1998 Grand Cherokee original tire sizes",
+   "url": "https://tiresize.com/tires/Jeep/Grand-Cherokee/1996/"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque specs",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "Off-Road.com forums — stock '93 Grand Cherokee on 30x9.50s",
+   "url": "https://forums.off-road.com/posts/181915"
+  },
+  {
+   "name": "Quadratec — Zone Offroad 2\" ZJ coil spacer lift (rating and customer review)",
+   "url": "https://www.quadratec.com/p/zone-offroad-products/2-coil-spacer-lift-93-98-jeep-grand-cherokee-zj"
+  },
+  {
+   "name": "Quadratec — Rough Country 1.5\" and 3.5\" ZJ lifts",
+   "url": "https://www.quadratec.com/p/rough-country/3.5in-lift-kit-grand-cherokee-zj"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep Grand Cherokee 1993–1998",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=GRAND%20CHEROKEE&modelYear=1993"
+  },
+  {
+   "name": "FuelEconomy.gov — 1994, 1996 and 1998 Grand Cherokee 4WD",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1993&year2=1998&make=Jeep&baseModel=Grand%20Cherokee"
+  },
+  {
+   "name": "Kevin's Offroad — 1998 ZJ 5.9 Limited pricing and facts",
+   "url": "https://kevinsoffroad.com/blogs/kevinsoffroad-com-death-wobble-experts-upgraded-factory-parts-20-years-of-experience-info-and-knowledge/1998-zj-grand-cherokee-limited-5-9-limited-pricing-and-facts"
+  },
+  {
+   "name": "Bring a Trailer — Jeep ZJ Grand Cherokee results",
+   "url": "https://bringatrailer.com/jeep/grand-cherokee/"
+  },
+  {
+   "name": "Quadratec — Bishko manuals and parts catalogs",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-owners-manuals-jeep-grand-cherokee-zj-wj"
+  },
+  {
+   "name": "ExtremeTerrain — Grand Cherokee ZJ service information",
+   "url": "https://extremeterrain.com/grand-cherokee-zj-service-information-tech-guide.html"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "fitment": {
+  "stock": [
+   "225/75R15 (1976–83 Wagoneer, per TireSize.com)",
+   "235/70R15 (alternative listed for the 1976 Wagoneer)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\") from 1974 · 5x139.7 (5x5.5\") on 1962–73 trucks",
+   "center_bore": "108 mm",
+   "lug_thread": "7/16\" (Quadratec, 1974–91 full-size)",
+   "lug_torque": "55–65 lb-ft is Quadratec's typical range for 7/16\" lugs [CONFIRM IN MANUAL]"
+  }
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Key-operated tailgate window keeps closing",
+    "years": "1970–1983",
+    "ref": "NHTSA 87V-178",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=87V178000",
+    "summary": "If the spring-loaded key switch didn't return to off, the power tailgate glass kept closing; covers Wagoneers and Cherokees."
+   },
+   {
+    "title": "Ignition wiring connectors",
+    "years": "1975–1976",
+    "ref": "NHTSA 78V-065",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V065000",
+    "summary": "Connectors could not carry enough current for the electronic ignition."
+   },
+   {
+    "title": "Rear wheel bearings",
+    "years": "1979–1980",
+    "ref": "NHTSA 80V-023",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=80V023000",
+    "summary": "Rear wheel bearings could be damaged during assembly, risking axle and wheel separation."
+   },
+   {
+    "title": "Throttle linkage return spring",
+    "years": "1978 (Cherokee)",
+    "ref": "NHTSA 78V-003",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V003000",
+    "summary": "The throttle linkage spring might not close the throttle quickly enough when the pedal is released."
+   },
+   {
+    "title": "Transmission throttle-rod spring",
+    "years": "1981",
+    "ref": "NHTSA 81V-015",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=81V015000",
+    "summary": "An improperly installed spring could make the engine return to idle slowly."
+   },
+   {
+    "title": "Manual transmission lubricant",
+    "years": "1982",
+    "ref": "NHTSA 82V-125",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V125000",
+    "summary": "Factory-fill lubricant might not protect first gear in the manual gearbox."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Transfer case shift sleeve (1982–83)",
+    "ref": "000849",
+    "summary": "Listed among dealer service bulletins for 1980–83 full-size Jeeps by FSJ mechanic Jim Basile.",
+    "url": "https://wagoneers.com/tech/service-info.html"
+   },
+   {
+    "title": "Engine sag or hesitation on acceleration (1981)",
+    "ref": "185491",
+    "summary": "1981-only drivability bulletin from the same list.",
+    "url": "https://wagoneers.com/tech/service-info.html"
+   },
+   {
+    "title": "EGR revision for improved acceleration (1980–83)",
+    "ref": "8006",
+    "summary": "From the same list of 1980–83 bulletins.",
+    "url": "https://wagoneers.com/tech/service-info.html"
+   },
+   {
+    "title": "Recycled engine coolant can cause water-pump seal wear (1980–83)",
+    "ref": "075190",
+    "summary": "From the same list of 1980–83 bulletins.",
+    "url": "https://wagoneers.com/tech/service-info.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1963",
+   "change": "Wagoneer launched (November 1962) with the 230 OHC Tornado six; two- and four-door wagons and a panel delivery; IFS optional on 4x4s",
+   "flag": "note"
+  },
+  {
+   "year": "1965",
+   "change": "AMC 327 V8 and 232 six arrive; IFS dropped from 4WD models; standard safety package with dual brakes",
+   "flag": "note"
+  },
+  {
+   "year": "1966",
+   "change": "Super Wagoneer: 270 hp 327, TH400, tilt wheel, A/C; about 3,989 built by 1969",
+   "flag": "note"
+  },
+  {
+   "year": "1968",
+   "change": "Buick 350 Dauntless V8 (to 1971); two-door Wagoneer dropped at year-end; solid axles and leaf springs only from 1969",
+   "flag": "note"
+  },
+  {
+   "year": "1973",
+   "change": "Quadra-Trac full-time 4WD introduced, three years after AMC bought Kaiser Jeep",
+   "flag": "note"
+  },
+  {
+   "year": "1974",
+   "change": "Two-door Cherokee launched (base and S); 401 V8 offered; front discs standard on the Wagoneer",
+   "flag": "note"
+  },
+  {
+   "year": "1976",
+   "change": "Boxed frame rails and stronger crossmembers; wide-track Cherokee Chief arrives",
+   "flag": "buy"
+  },
+  {
+   "year": "1977",
+   "change": "Four-door Cherokee added",
+   "flag": "note"
+  },
+  {
+   "year": "1978",
+   "change": "Wagoneer Limited arrives mid-year; last year of the 401",
+   "flag": "note"
+  },
+  {
+   "year": "1979",
+   "change": "'Pig nose' grille, square headlights, aluminum bumpers; last year of the TH400 and the Borg-Warner Quadra-Trac",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "TorqueFlite 727 automatic; NP219 'Quadra-Trac' and part-time NP208; Wagoneer output falls to 10,481 after the fuel crisis",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "Selec-Trac standard on the Wagoneer; Pioneer package; last year of the SJ Cherokee. For 1984 the Wagoneer Limited becomes the Grand Wagoneer",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Three Jeeps called themselves Cherokee or Wagoneer in the 1980s, the Chief package is easy to fake with stickers, and the drivetrain changed almost every year, so check the VIN, the axles and the transfer case.",
+  "items": [
+   {
+    "head": "SJ vs XJ",
+    "body": "The SJ is body-on-frame on a 108.7 in wheelbase with six-lug wheels (from 1974). The 1984-on Cherokee and the 1984–90 Wagoneer Limited are compact unibody XJs."
+   },
+   {
+    "head": "Real wide-track Chief",
+    "body": "Chiefs from 1976 have wider axles and larger fender flares, and were never built as four-doors. Golden Eagles add denim seats, gold-painted steel wheels and a big gold hood eagle."
+   },
+   {
+    "head": "VIN, 1981–83",
+    "body": "Character 4 is the engine (C = 258 six, N = 360 V8); 5 is the transmission and transfer case; 6–7 are the body (15 = Wagoneer, 16/17 = two-door Cherokee, 18 = four-door Cherokee); 10 is the year (B = 1981, C = 1982, D = 1983); 11 is the plant (T = Toledo, B = Brampton). The VIN is also stamped on a tag on the upper-left firewall."
+   },
+   {
+    "head": "Early VINs",
+    "body": "Pre-1981 VINs use an older, shorter format. Wikipedia lists the first-year 1974 Cherokees as Model 16 (base) and Model 17 (S)."
+   },
+   {
+    "head": "Transfer case",
+    "body": "1974–79 automatics with a single floor lever have the Borg-Warner Quadra-Trac; 1974–79 manuals have a Dana 20. From 1980 look for a tag reading NP208, NP219 or NP229; Selec-Trac trucks have a 2WD/4WD switch."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "108.7 in (2,761 mm)"
+  },
+  {
+   "k": "Length",
+   "v": "186.4 in (4,735 mm)"
+  },
+  {
+   "k": "Width",
+   "v": "74.8–78.7 in (1,900–1,999 mm)",
+   "note": "wide-track Chief at the top of the range"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,514 lb (2,048 kg)",
+   "note": "Wikipedia infobox figure"
+  },
+  {
+   "k": "Low range",
+   "v": "2.03:1 (Dana 20) · 2.57:1 (optional Quadra-Trac low-range unit)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 18 city / 25 hwy",
+   "note": "1983 Wagoneer, 258 six, automatic and Selec-Trac, per Wikipedia; V8s are far thirstier"
+  },
+  {
+   "k": "Top speed",
+   "v": "Over 100 mph (161 km/h)",
+   "note": "401-powered Cherokee with 3.07:1 gearing, per Wikipedia"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "SJ Wagoneers and Cherokees sell for less than the woodgrain Grand Wagoneer. Low-mileage originals and V8 restomods bring the big money, and the two-door Cherokee carries a premium over the Wagoneer.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$1k–12k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$12k–28k"
+   },
+   {
+    "cond": "Excellent original or restomod",
+    "range": "$40k–80k+"
+   }
+  ],
+  "note": "Based on 31 Bring a Trailer sales of SJ Wagoneers and Cherokees from October 2025 to October 2026 (median about $19,000, middle half $11,600–28,000). Top originals: a 1975 Cherokee S at $80,000 and a 29,000-mile 1983 Wagoneer Limited at $51,000. A Viper-powered 1979 Cherokee Chief restomod made $315,000. Hagerty puts a good-condition 1976 Cherokee Chief at about $14,100."
+ },
+ "docs": [
+  {
+   "name": "Haynes repair manual (Wagoneer & Grand Wagoneer)",
+   "url": "https://www.quadratec.com/p/haynes-manuals/repair-manual-jeep-wagoneer-grand-wagoneer",
+   "note": "Sold by Quadratec; its fitment list includes the 1975–83 SJ Cherokee Chief"
+  },
+  {
+   "name": "Factory-authorized reproduction owner's manuals, 1966–91 Wagoneer & J-Series",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-owners-manuals-jeep-wagoneer-grand-wagoneer-j-series-pickup-truck",
+   "note": "Bishko reprints, sold by Quadratec"
+  },
+  {
+   "name": "Factory-authorized owner's manual, 1974 CJ / Cherokee / Wagoneer / truck",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-owners-manuals-cj-jeep-vehicles/1974-jeep-cj5-cj6-cherokee-wagoneer-truck-323",
+   "note": "Bishko reprint; Quadratec also lists 1975–79 editions"
+  },
+  {
+   "name": "IFSJA technical library",
+   "url": "https://www.ifsja.org/tech/index.html",
+   "note": "Owner-written tech on axles, transfer cases, steering and tailgates"
+  }
+ ],
+ "production": {
+  "intro": "All US trucks were built in Toledo, Ohio; Wikipedia gives yearly Wagoneer figures but no separate Cherokee totals.",
+  "items": [
+   {
+    "k": "Development",
+    "v": "Three years and about $20 million (Wagoneer)"
+   },
+   {
+    "k": "Wagoneer built",
+    "v": "28,871 (1978) · 27,437 (1979) · 10,481 (1980) · 13,741 (1981) · 18,709 (1982) · 18,478 (1983)"
+   },
+   {
+    "k": "Plants",
+    "v": "Toledo, Ohio · Brampton, Ontario · Rocklea, Australia (from 1981) · Córdoba, Argentina · Mexico City (VAM)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Super Wagoneer",
+    "years": "1966–1969",
+    "note": "270 hp 327, TH400, tilt wheel and A/C; about 3,989 built"
+   },
+   {
+    "name": "1971 'X-coded' Wagoneer",
+    "years": "1971",
+    "note": "Golden lime paint with unique woodgrain side panels, $1,000 over the Custom"
+   },
+   {
+    "name": "Cherokee Chief",
+    "years": "1976–1983",
+    "note": "Wide-track axles and flares, two-door only"
+   },
+   {
+    "name": "Golden Eagle",
+    "years": "1978–1979",
+    "note": "Chief with denim seats, gold steel wheels and a large hood eagle"
+   },
+   {
+    "name": "Wagoneer Limited",
+    "years": "1978–1983",
+    "note": "Leather, power seats, cruise, forged aluminum wheels; $10,500 at launch"
+   },
+   {
+    "name": "Cherokee Laredo",
+    "years": "1980–1983",
+    "note": "Mostly an upholstery package"
+   },
+   {
+    "name": "Cherokee Pioneer",
+    "years": "1983",
+    "note": "Standard on the four-door, optional on the two-door"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "International Full Size Jeep Association (IFSJA)",
+   "url": "https://www.ifsja.org/",
+   "note": "Club and tech community for 1962–1991 full-size Jeeps"
+  },
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' annual Easter-week trail event in Moab, Utah"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Wagoneer (SJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_(SJ)"
+  },
+  {
+   "name": "Wikipedia — Jeep Cherokee (SJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Cherokee_(SJ)"
+  },
+  {
+   "name": "TireSize.com — 1976, 1979 and 1983 Jeep Wagoneer original tire sizes",
+   "url": "https://tiresize.com/tires/Jeep/Wagoneer/1979/"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque specs",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep Wagoneer and Cherokee, 1966–1983",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=WAGONEER&modelYear=1979"
+  },
+  {
+   "name": "Wagoneers.com — 1980–83 service bulletin list (Jim Basile)",
+   "url": "https://wagoneers.com/tech/service-info.html"
+  },
+  {
+   "name": "Wagoneers.com — SJ engines by year",
+   "url": "https://wagoneers.com/tech/SJ-engines-years.html"
+  },
+  {
+   "name": "Offroaders.com — 1981–1986 Jeep VIN decoder",
+   "url": "https://www.offroaders.com/tech/jeep/vin_81-86.htm"
+  },
+  {
+   "name": "Offroaders.com — Factory Jeep transfer cases",
+   "url": "https://www.offroaders.com/tech/jeep/transfer-cases-factory.htm"
+  },
+  {
+   "name": "Bring a Trailer — Jeep SJ Wagoneer results",
+   "url": "https://bringatrailer.com/jeep/sj-wagoneer/"
+  },
+  {
+   "name": "Bring a Trailer — Jeep SJ Cherokee results",
+   "url": "https://bringatrailer.com/jeep/sj-cherokee/"
+  },
+  {
+   "name": "Hagerty — 1976 Jeep Cherokee Chief valuation",
+   "url": "https://hagerty.com/apps/valuationtools/1976-Jeep-Cherokee-Chief?id=153162"
+  },
+  {
+   "name": "Quadratec — Haynes and Bishko manuals for full-size Jeeps",
+   "url": "https://www.quadratec.com/p/haynes-manuals/repair-manual-jeep-wagoneer-grand-wagoneer"
+  },
+  {
+   "name": "IFSJA — technical library",
+   "url": "https://www.ifsja.org/tech/index.html"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}
