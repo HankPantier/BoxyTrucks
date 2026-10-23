@@ -1,0 +1,278 @@
+{
+ "fitment": {
+  "stock": [
+   "205/80R16 (1985 Safari hardtop, Nissan heritage data)",
+   "16-in steel wheels"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50",
+    "note": "What an ExplorOz owner ran on stock, sagged springs; 32x11.5 may fit once tired springs are replaced."
+   },
+   {
+    "lift": "2 in",
+    "size": "33 in",
+    "note": "2-in lift springs and shocks; guard clearance is tight, but MQs don't have much wheel travel (ExplorOz)."
+   },
+   {
+    "lift": "2 in + 2 in body lift",
+    "size": "35 in",
+    "note": "One owner's recipe; 38s took a 3-in body lift plus 1.5-in longer shackles. Avoid a spring-over (too much sway, he says)."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1980",
+   "change": "160 Series replaces the 60; Australian MQ launches with the SD33 diesel (GoAuto); Japan renames it Safari",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "L28 petrol six arrives in April; three-speed automatic option for the LWB Deluxe wagon late in the year",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "161 'MK' facelift: rectangular headlights, upgraded front suspension, five-speed on most models, SD33T turbo-diesel, high roof; Spanish production begins in Barcelona",
+   "flag": "buy"
+  },
+  {
+   "year": "1984",
+   "change": "Datsun badge dropped in most markets; Iranian production starts at Pars Khodro",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "21 Australian variants; power steering standard and an updated P40 listed (GoAuto)",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "Coil-sprung Y60 arrives; a Patrol (car 211, Prieto/Termens) finishes ninth overall and wins the Paris–Dakar diesel class",
+   "flag": "note"
+  },
+  {
+   "year": "1989",
+   "change": "End of the 160 run, according to Wikipedia's production dates; Spain's derivative continues as the 260",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "MQs, MKs, Japanese Safaris and Spanish-built trucks look alike but differ in electrics, engines and parts, so identify the truck before you order parts.",
+  "items": [
+   {
+    "head": "MQ vs MK",
+    "body": "MQ: round headlights, two-spoke wheel, flat radio pod, four holes in the stone tray. MK: rectangular headlights, three-spoke wheel, tapered pod with clock, six slots in the stone tray, rear indicators in the bumper, extra inner-guard bracing (NissanPatrol.com.au)."
+   },
+   {
+    "head": "VIN and model code",
+    "body": "A Japanese-built truck's VIN carries the model code; one owner's reads JN10KR160U0… Parts sellers list codes such as KR160 (SD33), KM160/WMG160 (L28), VG160 (P40) and URG/VRG/WRG160 (SD33 and SD33T). Spanish-built trucks may show 260."
+   },
+   {
+    "head": "Turbo or not",
+    "body": "An SD33T has a turbocharger on the exhaust side and 'Turbo' on the rocker cover, but owners warn that turbo covers turn up on non-turbo engines."
+   },
+   {
+    "head": "Diff plate",
+    "body": "A tin plate at the front of the driver's-side inner guard gives the rear axle code and ratio, e.g. HG43 for an H233 at 4.3:1. Crown wheels are also stamped with tooth counts, such as 37:8 (4.625)."
+   },
+   {
+    "head": "24 vs 12 volts",
+    "body": "MQ SD33 diesels are 24-volt, with batteries on both sides of the engine bay; MKs are 12-volt with one battery on the passenger side. The engine number won't tell you."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Curb weight",
+   "v": "1,880 kg (4,145 lb)",
+   "note": "1985 Safari hardtop AD (KR161), Nissan"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,350 mm SWB · 2,970 mm LWB"
+  },
+  {
+   "k": "Length",
+   "v": "4,105 mm SWB · 4,690 mm LWB",
+   "note": "Wikipedia; the 1985 Safari hardtop is 4,230 mm (Nissan)"
+  },
+  {
+   "k": "Track (front / rear)",
+   "v": "1,415 / 1,405 mm",
+   "note": "1985 Safari hardtop, Nissan"
+  },
+  {
+   "k": "Engine output",
+   "v": "SD33 70 kW / 215 Nm · SD33T 81 kW / 255 Nm · L28 88 kW / 201 Nm · P40 90 kW / 280 Nm",
+   "note": "Australian ratings (GoAuto, 4X4 Australia)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "160 Patrols are still cheap in the US, where they're gray-market curiosities. Japanese fire trucks and imported Latin American and South African wagons make up most of the sales.",
+  "ranges": [
+   {
+    "cond": "Ex-fire-truck Safari",
+    "range": "$7.5k–9.5k"
+   },
+   {
+    "cond": "Imported wagon or hardtop, driver",
+    "range": "$12k–13k"
+   }
+  ],
+  "note": "Based on 6 Bring a Trailer sales of 160-series trucks from 2021 to 2026. A Spanish-built 1986 was bid to $15,650 in 2026 without selling."
+ },
+ "import": {
+  "paragraphs": [
+   "Nissan never sold the 160 Patrol new in the US. US examples are gray imports: right-hand-drive Japanese Safaris (often ex-fire trucks), Australian MQs and MKs, South African trucks, and left-hand-drive examples from Spain and Latin America.",
+   "Every 160 is past the 25-year mark, so NHTSA's exemption from federal safety standards applies, counted from the vehicle's date of manufacture. Titling, inspection and emissions rules vary by state, and California is the hardest. Check them before you buy, and make sure the chassis number matches the import paperwork."
+  ]
+ },
+ "production": {
+  "intro": "The 160 was built in Japan and assembled or licence-built on three other continents. Spain's version outlived the original by more than a decade.",
+  "items": [
+   {
+    "k": "Japan",
+    "v": "1980–1987 (Hiratsuka, Kanda, Zama)"
+   },
+   {
+    "k": "Spain (Nissan Motor Ibérica)",
+    "v": "1983–1988, then the 260"
+   },
+   {
+    "k": "South Africa",
+    "v": "1983–1991 (Rosslyn)"
+   },
+   {
+    "k": "Iran (Pars Khodro)",
+    "v": "1984–2003"
+   },
+   {
+    "k": "Philippines",
+    "v": "1983–1990"
+   },
+   {
+    "k": "Australian variants",
+    "v": "21 by 1985 (GoAuto)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Safari fire trucks (FG160 / FG161)",
+    "years": "1980s",
+    "note": "Japanese fire-engine cab-chassis with PF40 petrol engines; several have reached the US via Bring a Trailer."
+   },
+   {
+    "name": "Paris–Dakar diesel class winner",
+    "years": "1987",
+    "note": "Car 211 (Prieto/Termens) finished ninth overall and won the diesel class; Nissan restored it in 2016."
+   }
+  ],
+  "paint": "4X4 Australia remembers the MQ in bright colours with 'loud' graphics."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/",
+   "note": "Long-running Patrol club with its own property near Goulburn, driver training and trips. All makes welcome"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Nissan Patrol (160)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+   "name": "GoAuto — Nissan MQ Patrol (1980)",
+   "url": "https://www.goauto.com.au/used-car-research/nissan/mq-patrol/1980-06-01/2189.html"
+  },
+  {
+   "name": "4X4 Australia — Nissan Patrol history",
+   "url": "https://www.4x4australia.com.au/reviews/nissan-patrol-history"
+  },
+  {
+   "name": "Nissan Heritage Collection — Nissan Safari 4WD Hardtop AD (1985)",
+   "url": "https://www.nissan.co.jp/HERITAGE/DETAIL/148.html"
+  },
+  {
+   "name": "Nissan — 1987 Paris–Dakar Patrol rides again",
+   "url": "https://global.nissannews.com/en/releases/30-years-on-nissan-s-iconic-1987-paris-dakar-rally-car-rides-again"
+  },
+  {
+   "name": "ExplorOz — Biggest tyre size on MQ Patrol?",
+   "url": "https://www.exploroz.com/forum/9214/biggest-tyre-size-on-mq-patrol"
+  },
+  {
+   "name": "NissanPatrol.com.au — MQ / MK differences",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?5441"
+  },
+  {
+   "name": "NissanPatrol.com.au — MK buying advice",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?11735"
+  },
+  {
+   "name": "NissanPatrol.com.au — Is my MK a Spanish model?",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?8697"
+  },
+  {
+   "name": "NissanPatrol.com.au — Diff ratio question",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?6063"
+  },
+  {
+   "name": "NissanPatrol.com.au — What diff, what locker?",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?5847"
+  },
+  {
+   "name": "NissanPatrol.com.au — Can you tell a 24v from an engine number?",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?56173"
+  },
+  {
+   "name": "Bunnings Marketplace — MQ 160 swivel hub kit fitment list",
+   "url": "https://www.bunnings.com.au/swivel-hub-wheel-bearing-and-seal-kit-for-nissan-patrol-mq-160-series-1980-1987_p0902866"
+  },
+  {
+   "name": "Bring a Trailer — Nissan Patrol results",
+   "url": "https://bringatrailer.com/nissan/patrol/"
+  },
+  {
+   "name": "Bring a Trailer — 1981 Nissan Patrol fire truck",
+   "url": "https://bringatrailer.com/listing/1981-nissan-patrol-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1982 Nissan Patrol 2-door",
+   "url": "https://bringatrailer.com/listing/1982-nissan-patrol-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1984 Nissan Patrol 4-speed",
+   "url": "https://bringatrailer.com/listing/1984-nissan-patrol/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Nissan Safari fire truck (2026)",
+   "url": "https://bringatrailer.com/listing/1985-nissan-safari-fire-truck/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Nissan Safari fire truck (2025)",
+   "url": "https://bringatrailer.com/listing/1985-nissan-safari-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1986 Nissan Safari Patrol fire truck",
+   "url": "https://bringatrailer.com/listing/1986-nissan-patrol-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1986 Nissan Patrol 4-speed (Spain, bid to $15,650)",
+   "url": "https://bringatrailer.com/listing/1986-nissan-patrol-4/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
+   "url": "https://nissanpatrolclub.org/"
+  }
+ ]
+}

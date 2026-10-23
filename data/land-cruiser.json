@@ -13,6 +13,20 @@
   "hero_photo": "lc80-hillside.jpg",
   "generations": [
    {
+    "slug": "fj25",
+    "name": "J20 / J25 (FJ25)",
+    "years": "1955–1960",
+    "codes": [
+     "FJ25",
+     "FJ28",
+     "F 3.9 I6"
+    ],
+    "summary": "The first Land Cruiser built for export and the first sold in America (one FJ25 in 1958): F 3.9 six, four-speed, single-speed transfer case and drums all round.",
+    "at_url": "https://www.autotempest.com/results?make=toyota&model=landcruiser&minyear=1955&maxyear=1960",
+    "bat_url": "https://bringatrailer.com/toyota/land-cruiser-fj25/",
+    "has_page": true
+   },
+   {
     "slug": "fj40",
     "name": "FJ40",
     "years": "1960–1984",

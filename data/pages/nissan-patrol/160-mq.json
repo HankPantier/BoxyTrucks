@@ -1,0 +1,832 @@
+{
+ "slug": "160-mq",
+ "title": "Patrol 160 / MQ",
+ "eyebrow": "NISSAN PATROL · 160 'MQ' / 161 'MK' · 1980–1989",
+ "verdict": "The MQ is the Patrol that went soft, though only by 1980 standards: carpets, colours and graphics on top, and leaf springs, a C200 front diff and a slow, tough diesel six underneath. Few people treat it gently now, which is why the survivors are usually rusty, re-sprung and still running.",
+ "codes": [
+  "160 / 161",
+  "SD33 · SD33T · L28 · P40",
+  "LEAF SPRINGS BOTH ENDS",
+  "C200 FRONT · H233 REAR",
+  "SWB · LWB · UTE"
+ ],
+ "hero_photo": "patrol160-rocky-trail.jpg",
+ "hero_focus": "68% 55%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "In 1980 Nissan replaced the long-running 60 Series Patrol with the 160, sold in Australia and New Zealand as the MQ and, after a 1983 update, unofficially called the MK. In Japan it became the Safari. Underneath it was still a 1960s recipe: a separate chassis, live axles and leaf springs at both ends, and a two-speed offset transfer case. GoAuto called it 'a decisive step towards civility': more space, a less truck-like cabin, better ride and braking, and a long list of variants aimed at Toyota's [[land-cruiser/fj40|40 Series]] and [[land-cruiser/fj60|60 Series]] Land Cruisers."
+   ]
+  },
+  {
+   "heading": "FOUR ENGINES AND A 24-VOLT DIESEL",
+   "paragraphs": [
+    "GoAuto says Australia's MQ launched with the 3.2-litre (3,246 cc) SD33 diesel six, rated at 70 kW and 215 Nm, with the 2.8-litre L28 petrol six (88 kW, 201 Nm) arriving in April 1981 and a short-lived 4.0-litre P40 petrol rated at 90 kW and 280 Nm. Owners describe the P40 as rare and very torquey, and the L28 as the one that will rev all day. A four-speed manual was standard. From late 1981 the seven-seat Deluxe wagon could have a three-speed automatic, which Wikipedia says was limited to long-wheelbase L28 trucks.",
+    "The SD33 is the engine with a story. It's a slow overhead-valve diesel six built for trucks and forklifts. Wikipedia notes the same engine powered [[scout/scout-ii|International Scout II]] diesels in the late 1970s, and a turbo version went into 6,400 Scouts in 1980. In the MQ it ran 24-volt electrics with twin batteries, one on each side of the engine bay. 4X4 Australia notes the later switch to 12 volts made the truck much easier to fit with accessories."
+   ]
+  },
+  {
+   "heading": "THE MK UPDATE",
+   "paragraphs": [
+    "The 1983 facelift turned the 160 into the 161. Wikipedia says the Australian 'MK' label never appeared in Nissan literature or parts catalogues. Rectangular headlights replaced round ones, the front suspension was upgraded and most models got a fifth gear. A high-roof wagon arrived, along with the SD33T turbo-diesel, which 4X4 Australia lists at 81 kW and 255 Nm. Wikipedia says the turbo engines got a larger clutch and oil cooler, and that the naturally aspirated SD33 switched to three-ring pistons, oil squirters and a spin-on oil filter. The Datsun badge disappeared in 1984 in most markets.",
+    "By 1985, GoAuto counts 21 Australian variants, from a two-seat rural hardtop to a seven-seat Deluxe wagon. Power steering and a limited-slip rear differential were standard by then. 4X4 Australia remembers the bright colours and 'loud' graphics of the era. GoAuto also lists an updated P40 petrol rated at 84 kW and 270 Nm by 1985. Owners also list the MK's extra inner-guard bracing, stepped rear shackles and bigger front shackle bolts among the differences."
+   ]
+  },
+  {
+   "heading": "SPAIN, IRAN AND THE LONG TAIL",
+   "paragraphs": [
+    "Nissan bought into Spain's Motor Ibérica in 1980, and the first Spanish-built Patrol left the Zona Franca plant near Barcelona in early 1983, according to Wikipedia. To meet local-content rules it used a Spanish Perkins MD27 four-cylinder diesel, later replaced by the Nissan-built 2.8-litre A428 and its turbocharged version. Spain's facelifted version became the 260, built into the 2000s. Wikipedia also lists 160 production in Iran by Pars Khodro (1984–2003), South Africa (1983–1991) and the Philippines.",
+    "The coil-sprung [[nissan-patrol/y60|Y60 'GQ']] replaced the 160 from 1987, and forum regulars still tell would-be MQ buyers to 'buy a GQ' instead. Owners on NissanPatrol.com.au report MKs passing 780,000 and even 900,000 km on their original engines, along with rust bad enough that the trucks can't be driven without serious welding. Both stories are typical of the 160. Today it's the cheapest way into an old-school leaf-sprung Patrol, and the parts that matter most (swivel-hub kits, springs and bearings) are still sold for it in Australia."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · PARIS–DAKAR 1987",
+  "title": "Car 211 and the diesel class win",
+  "paragraphs": [
+   "Nissan says its 1987 Paris–Dakar Patrol, car 211, driven by Miguel Prieto with Ramon Termens, finished ninth overall and won the diesel category. It was the first diesel to finish the event inside the top ten. The sister car, 212, crewed by Jorge and Hansi Babler, retired after rolling down a dune.",
+   "Nissan's restoration release lists a 2,800 cc four-cylinder turbodiesel making 146 hp in a 1,600 kg truck. Nissan doesn't name the engine. A 2.8-litre four matches the Perkins-derived A428T that Wikipedia says Spanish-built Patrols used, rather than the Japanese and Australian SD33 sixes. The car was later restored at Nissan's technical centre in Barcelona."
+  ]
+ },
+ "engineering_intro": "The 160 is a leaf-sprung, live-axle Patrol of the old school: a ladder frame, semi-elliptic leaf springs at both ends, kingpin swivel hubs, a two-speed transfer case and a choice of engines that all trade speed for torque. Underneath the MQ and MK are much the same truck. The differences are in the front suspension, shackles, electrics and gearbox.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame · 2,350 mm SWB / 2,970 mm LWB",
+   "note": "Hardtops, soft-tops, wagons, vans, utes, cab-chassis and fire trucks."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Live axles on leaf springs, front and rear",
+   "note": "Owners report MQs used straight shackles and MKs stepped ones, and that diesel and petrol spring packs differ."
+  },
+  {
+   "k": "4WD SYSTEM",
+   "v": "Part-time, two-speed offset transfer case",
+   "note": "1:1 high and a low range (Wikipedia)."
+  },
+  {
+   "k": "AXLES",
+   "v": "C200 front · H233 rear (H260 on some utes)",
+   "note": "Some European trucks used a C200 rear; LSD was standard in Australia by 1985 (GoAuto)."
+  },
+  {
+   "k": "ENGINES",
+   "v": "SD33 3.2 L diesel · SD33T · L28 2.8 L · P40 4.0 L",
+   "note": "SD33 70 kW / 215 Nm and SD33T 81 kW / 255 Nm in Australian tune."
+  },
+  {
+   "k": "BRAKES",
+   "v": "Ventilated front discs, rear drums",
+   "note": "Per Nissan's heritage data for a 1985 Safari (KR161)."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1980–1983",
+   "platform": "MQ (160) diesel",
+   "engine": "SD33 3.2 L OHV I6 diesel",
+   "output": "70 kW / 215 Nm",
+   "note": "Launch engine in Australia; 24-volt electrics with twin batteries; four-speed manual."
+  },
+  {
+   "years": "1981–1983",
+   "platform": "MQ (160) petrol",
+   "engine": "L28 2.8 L SOHC I6",
+   "output": "88 kW / 201 Nm",
+   "note": "From April 1981; three-speed auto optional on the LWB Deluxe from late 1981."
+  },
+  {
+   "years": "1980s",
+   "platform": "MQ / MK P40",
+   "engine": "P40 4.0 L OHV I6",
+   "output": "90 kW / 280 Nm",
+   "note": "GoAuto calls the first version short-lived; an updated 84 kW / 270 Nm P40 was listed by 1985."
+  },
+  {
+   "years": "1983–1987",
+   "platform": "MK (161) turbo-diesel",
+   "engine": "SD33T 3.2 L turbo-diesel I6",
+   "output": "81 kW / 255 Nm",
+   "note": "12-volt, larger clutch and oil cooler; five-speed manual on most models."
+  },
+  {
+   "years": "1980–1987",
+   "platform": "Safari (Japan)",
+   "engine": "SD33 / SD33T; PF40 in fire trucks",
+   "output": "95 PS / 120 PS (Japanese ratings)",
+   "note": "Hardtop, high-roof hardtop, Extra Van and fire-truck chassis. High-roof van and SD33T from 1983."
+  },
+  {
+   "years": "1983–1988",
+   "platform": "Spanish-built (Nissan Motor Ibérica)",
+   "engine": "Perkins MD27, then A428 / A428T 2.8 L I4 diesel",
+   "output": "—",
+   "note": "Local-content engines. The facelifted Spanish truck became the 260."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Rust: where to look",
+   "body": "NissanPatrol.com.au members list roof gutters, the plenum under the windscreen (a leak there rots the floor and the low-set body mounts), front floor pans, the radiator support, the inner guard under the battery tray, door bottoms, rear lower quarter panels and the top of the rear wheel arch. Chassis-to-body mount points are where the worst rust lives."
+  },
+  {
+   "head": "Turbo or not?",
+   "body": "A turbo SD33T has 'Turbo' on the rocker cover and a turbocharger on the exhaust side. Owners warn that some non-turbo engines wear turbo rocker covers, so look for the turbo itself."
+  },
+  {
+   "head": "24 or 12 volts",
+   "body": "MQ SD33 diesels ran 24-volt electrics with twin batteries; MKs are 12-volt. The engine number won't tell you. Owners say the starter, injection-pump solenoid and glow plugs are the voltage-sensitive parts, so a half-converted truck can be a headache."
+  },
+  {
+   "head": "Which diff is under it",
+   "body": "Rear axles were C200, H233 or H260 (utes) depending on market and model. The ratio is stamped on a tin plate at the front of the driver's-side inner guard (for example HG43 means H233, 4.3:1). Members warn that MQ H233 parts and lockers aren't interchangeable with the later H233B in GQs and GUs."
+  },
+  {
+   "head": "Can you undo the plugs and grease it?",
+   "body": "One member's advice: make sure you can crack the drain and fill plugs on both diffs, the gearbox and the transfer case, and buy a good grease gun. The leaf-sprung Patrol has far more grease nipples than a coil-sprung GQ, including greasable shackles."
+  },
+  {
+   "head": "Suspension history",
+   "body": "Original springs are 40 years old and usually sagged. Ask what's been replaced. Owners say a rebuild with new leaves, U-bolts, shocks and shackles quickly costs more than an MQ is worth, and shackle extensions can invert."
+  },
+  {
+   "head": "Overheating and the head gasket",
+   "body": "An SD33T that keeps losing coolant isn't automatically a head-gasket job. Forum diagnosis starts with the radiator, cap, hoses, thermostat and fan clutch. If the head does come off, the SD33T needs its own head gasket; the non-turbo SD33 gasket doesn't fit it correctly."
+  },
+  {
+   "head": "Import paperwork (US)",
+   "body": "Nissan never sold the 160 Patrol new in the US. US examples on Bring a Trailer came from Japan (Safari fire trucks), South Africa and Colombia. Check the title, the import documents and that the chassis number matches."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Swivel hub (kingpin) and front wheel bearing rebuild",
+   "diff": "3 / 5",
+   "time": "≈ A day for both sides",
+   "cost": "Full swivel kit about A$223; wheel-bearing kit about A$54",
+   "symptoms": "Grease and oil weeping from the swivel seals, play at the top and bottom of the wheel, or a rumbling front wheel bearing.",
+   "fix": "The 160 uses kingpin swivel hubs. A complete rebuild kit for MQ 160s (Basco Wholesale, via Bunnings Marketplace) contains four wheel bearings, four kingpin bearings, two needle-roller bearings, two 65-88-11/16.5 oil seals and a swivel gasket and seal kit. Jack and support the axle, remove the hub cap or free-wheeling hub (if fitted), the wheel bearings and the stub axle, and draw out the axle shaft. Unbolt the kingpin caps, keeping each shim pack with its cap, and drop the swivel housing off the kingpin bearings. Replace the bearings, inner seal and swivel wiper seal, then refit with the original shims. Set kingpin preload and wheel-bearing preload to your workshop manual, then refill or regrease as the manual specifies.",
+   "tools": "Hub nut socket · bearing driver and seal driver · spring balance for preload · torque wrench · new shims if preload is out",
+   "parts": [
+    {
+     "name": "Swivel hub, wheel bearing and seal kit, Patrol MQ 160 1980–87",
+     "supplier": "Bunnings Marketplace (Basco Wholesale)",
+     "url": "https://www.bunnings.com.au/swivel-hub-wheel-bearing-and-seal-kit-for-nissan-patrol-mq-160-series-1980-1987_p0902866"
+    },
+    {
+     "name": "Swivel hub bearing and seal kit, Patrol MQ 160 1980–87",
+     "supplier": "Bunnings Marketplace (Basco Wholesale)",
+     "url": "https://www.bunnings.com.au/swivel-hub-bearing-and-seal-kit-for-nissan-patrol-mq-160-series-1980-1987_p0902874"
+    },
+    {
+     "name": "Front wheel bearing kit, Patrol MK & MQ (Japanese bearings)",
+     "supplier": "Patrolapart",
+     "url": "https://patrolapart.com.au/product/front-wheel-bearing-kit-suits-nissan-patrol-mk-mq-japanese-bearings"
+    }
+   ]
+  },
+  {
+   "title": "Leaf springs, shackles and bushes",
+   "diff": "3 / 5",
+   "time": "≈ A day per axle",
+   "cost": "A$1,250–1,800 for springs, shocks and shackles in owners' 2003–04 reports",
+   "symptoms": "A truck that sits low or leans, harsh ride, cracked leaves, or shackles worn at the pins.",
+   "fix": "Support the chassis and replace one axle at a time: unbolt the shock, loosen the U-bolts, remove the shackle and front pin, swap the spring pack and fit new bushes, U-bolts and shackles. Members point out that MQs use straight shackles and MKs stepped ones, that MK front shackle bolts are larger, and that diesel and petrol spring packs differ because of engine weight. Order springs to suit your engine and load. Avoid shackle extensions on road trucks, which can invert. A 2-in lift spring set with matching shocks is the usual upgrade.",
+   "tools": "Jacks and stands · breaker bar · penetrating oil · grease gun",
+   "parts": [
+    {
+     "name": "Front Roadsafe leaf springs and shackles, Patrol MQ 160 1980–87",
+     "supplier": "SuperSpares",
+     "url": "https://superspares.com.au/front-roadsafe-leaf-springs-shackles-for-nissan-pa"
+    },
+    {
+     "name": "Nissan Patrol MQ suspension parts (search)",
+     "supplier": "Supercheap Auto",
+     "url": "https://www.supercheapauto.com.au/search?q=nissan+patrol+mq"
+    }
+   ]
+  },
+  {
+   "title": "SD33/SD33T overheating: cooling system before the head",
+   "diff": "3 / 5",
+   "time": "≈ Half a day for the cooling system; two days for a head job",
+   "cost": "Parts plus labor",
+   "symptoms": "Coolant disappearing with no visible leak, pressurised hoses after hard work, or temperature that climbs when a thermostat is fitted.",
+   "fix": "Members' advice on an SD33T that kept boiling after a pressure-tested, rebuilt head: start with the radiator. Have it properly cleaned or replaced, then fit a new cap, top and bottom hoses and the correct thermostat, and check the fan clutch hub. Never run it without a thermostat. If temperature rises with one fitted, there's a flow restriction. Use real coolant: owners report water pumps wearing out on engines run on plain water. If the head must come off, buy an SD33T-specific head gasket, as the non-turbo gasket doesn't fit the turbo engine correctly.",
+   "tools": "Cooling-system pressure tester · infrared thermometer · torque wrench (head) · workshop manual",
+   "parts": [
+    {
+     "name": "Nissan Patrol MQ radiator, hoses and thermostat (search)",
+     "supplier": "Supercheap Auto",
+     "url": "https://www.supercheapauto.com.au/search?q=patrol+mq+radiator"
+    }
+   ]
+  },
+  {
+   "title": "Extend the axle, gearbox and transfer breathers",
+   "diff": "1 / 5",
+   "time": "≈ 1–2 hours",
+   "cost": "About the price of a breather kit",
+   "symptoms": "Water in the diff or gearbox oil after crossings, or snagged and split breather lines.",
+   "fix": "Owners found a clear tube linking the MQ's gearbox and transfer case breathers, with only the front diff breather running up to the inner guard; the front axle also has an equaliser tube between the diff and axle housing. The common fix is to fit new seals and separate breather lines run high into the engine bay, terminated with small filters. One member uses 6 mm Teflon tube with push-in fittings and Ryco fuel filters as caps.",
+   "tools": "Spanners · hose · cable ties · push-in fittings",
+   "parts": [
+    {
+     "name": "ARB differential breather kit, 2-point",
+     "supplier": "Patrolapart",
+     "url": "https://patrolapart.com.au/product/arb-differential-breather-kit-2-point"
+    },
+    {
+     "name": "Diff breathers kit, 4-point (universal 4x4)",
+     "supplier": "Patrolapart",
+     "url": "https://patrolapart.com.au/product/diff-breathers-kit-4-point-suit-nissan-patrol-gq-gu-toyota-4x4-4wd"
+    }
+   ]
+  },
+  {
+   "title": "Steering: drag link and joints",
+   "diff": "2 / 5",
+   "time": "≈ 2 hours",
+   "cost": "MQ drag link about A$111 (Patrolapart)",
+   "symptoms": "Wandering, clunks over bumps or play at the wheel. Owners rebuilding tired MQs report worn ball joints throughout.",
+   "fix": "With the wheels straight, check each steering joint for play while a helper rocks the wheel. Split the tapers with a puller or fork, fit the new drag link and set its length to centre the steering box. Torque the castle nuts and fit new split pins, then get the alignment checked.",
+   "tools": "Ball-joint separator · torque wrench · split pins",
+   "parts": [
+    {
+     "name": "Leaf-sprung short drag link, Patrol MQ",
+     "supplier": "Patrolapart",
+     "url": "https://patrolapart.com.au/product/leaf-sprung-short-drag-link-suit-nissan-patrol-mq"
+    }
+   ]
+  },
+  {
+   "title": "SD33 slow cranking or no-start",
+   "diff": "2 / 5",
+   "time": "≈ 1–3 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Clicking relays, a starter that barely turns the engine, or a truck that needs several key cycles to start.",
+   "fix": "Forum diagnosis: clean and tighten every battery terminal, the starter connections and the body earth. Measure battery voltage while cranking; below 10 V means the battery is finished. Feel the heavy cables after a start attempt, since heat shows the bad connection. Owners say the SD33 needs a strong battery to turn over. On 24-volt MQs, both batteries must be healthy and matched, and the starter, injection-pump solenoid and glow plugs are 24-volt parts.",
+   "tools": "Multimeter · wire brush · terminal protectant · heavy-gauge jumper leads",
+   "parts": [
+    {
+     "name": "Batteries, cables and terminals (search)",
+     "supplier": "Supercheap Auto",
+     "url": "https://www.supercheapauto.com.au/search?q=battery+terminal"
+    }
+   ]
+  },
+  {
+   "title": "Fit a rear locker",
+   "diff": "4 / 5",
+   "time": "≈ A day",
+   "cost": "Parts plus labor",
+   "symptoms": "Lifting a rear wheel on cross-axle ruts and losing drive, even with the LSD.",
+   "fix": "Identify the diff first. Members say the MQ wagon's bolt-in-centre H233 (plate code HG) isn't the GQ/GU H233B, and that lockers made for the H233B (ARB RD135/RD136) don't fit it. One member gives the ARB Air Locker for the MQ H233 as RD04; confirm it against ARB's current application chart. Utes with the H260 need a different unit. Have the carrier set up by a diff shop if you aren't equipped to set backlash and preload.",
+   "tools": "Diff shop or bearing puller, dial indicator, torque wrench · air compressor and lines for an Air Locker",
+   "parts": [
+    {
+     "name": "ARB Air Locker (check application chart for MQ H233)",
+     "supplier": "ARB",
+     "url": "https://www.arb.com.au/air-locker/"
+    },
+    {
+     "name": "ARB Air Locker H233B 33-spline RD135 (GQ/GU; not MQ H233)",
+     "supplier": "ARB USA",
+     "url": "https://store.arbusa.com/air-locker-differential-nissan-h233b-33-spl-rd135/"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "About 31x10.50. In an ExplorOz thread, an owner on stock, saggy springs was running 31x10.5s, and another suggested 32x11.5s might fit once springs were reset. The consensus for 33s is a 2-inch spring lift. For 35s, owners add a 2-inch body lift, and 38s took a 3-inch body lift with longer shackles. MQs don't have much wheel travel, so guard clearance is tight but workable.",
+   "src": "EXPLOROZ"
+  },
+  {
+   "q": "MQ or MK: how do I tell them apart?",
+   "a": "MQs have round headlights, a two-spoke wheel and a flat radio pod. MKs have rectangular headlights, a three-spoke wheel, a tapered pod with a clock, separate rear indicators in the bumper and extra inner-guard bracing. Owners add that MQs use straight shackles and MKs stepped ones, MQ diesels are 24-volt, and MK petrols could have a factory five-speed.",
+   "src": "NISSANPATROL.COM.AU"
+  },
+  {
+   "q": "Which engine should I buy?",
+   "a": "For touring, most owners want the SD33T turbo-diesel. The non-turbo SD33 is slow but long-lived: members report MKs past 780,000 and 900,000 km on original engines. The L28 petrol revs freely but has less torque, and the P40 4.0 is rare and the torque king. On a steep riverbed, one owner says the L28 'has to scream' where the turbo diesel is just above idle.",
+   "src": "NISSANPATROL.COM.AU · GOAUTO"
+  },
+  {
+   "q": "Is my SD33 24-volt?",
+   "a": "If it's an MQ diesel with batteries on both sides of the engine bay, almost certainly. MKs are 12-volt. You can't tell from the engine number. Owners say the starter, injection-pump solenoid and glow plugs are the parts that differ by voltage.",
+   "src": "NISSANPATROL.COM.AU · 4X4 AUSTRALIA"
+  },
+  {
+   "q": "Can I bolt a turbo onto a non-turbo SD33?",
+   "a": "People have, but owners advise against it for a remote-area truck. The SD33T differs in its head gasket, pistons and rings, piston oil squirters, injection-pump delivery valves and injectors. Using an SD33 head gasket on a turbo engine can block water and oil passages.",
+   "src": "NISSANPATROL.COM.AU · WIKIPEDIA"
+  },
+  {
+   "q": "What diff ratio do I have?",
+   "a": "Read the tin plate at the front of the driver's-side inner guard (HG43 means H233, 4.3:1) or the tooth count stamped on the crown wheel. Owners list roughly 4.625 for MQ L28/SD33, 4.11 for the P40, 4.33 for MK and 4.88 for H260 utes, and say all except the H260 centres interchange.",
+   "src": "NISSANPATROL.COM.AU"
+  },
+  {
+   "q": "Can I fit a locker?",
+   "a": "Yes, but buy for the right diff. Members say the MQ's H233 isn't the GQ/GU's H233B, so H233B lockers such as ARB's RD135/RD136 won't fit. One member gives ARB's MQ H233 part as RD04. Check ARB's current application chart before ordering.",
+   "src": "NISSANPATROL.COM.AU · ARB"
+  },
+  {
+   "q": "Should I convert it to coil springs?",
+   "a": "Forum regulars mostly say no: Nissan already did the conversion, and it's called the GQ. If you love the MQ/MK body, one member suggests putting it on a GQ rolling chassis rather than engineering coils into a leaf-spring frame.",
+   "src": "NISSANPATROL.COM.AU"
+  },
+  {
+   "q": "Was it sold in the US, and can I import one?",
+   "a": "Not new. Every 160 is past the 25-year mark, so NHTSA's safety-standard exemption applies. Bring a Trailer has sold Japanese Safari fire trucks, a South African L28 wagon and a Colombian P40 hardtop in the US. State titling and emissions rules still apply.",
+   "src": "BRING A TRAILER · NHTSA"
+  },
+  {
+   "q": "What's one worth?",
+   "a": "Not much, by classic-4x4 standards. Bring a Trailer sales of 160-series trucks from 2021 to 2026 ran from $7,500 (a 1981 Safari fire truck) to $12,750 (a 1982 P40 two-door from Colombia), with a South African L28 wagon at $12,000.",
+   "src": "BRING A TRAILER"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "Fresh 2-inch springs and shocks fix sag and clear 33s. Owners recommend lift springs over resetting tired originals, and over shackle extensions on road trucks.",
+   "who": [
+    {
+     "name": "SuperSpares — Roadsafe MQ leaf springs & shackles",
+     "url": "https://superspares.com.au/front-roadsafe-leaf-springs-shackles-for-nissan-pa"
+    },
+    {
+     "name": "Old Man Emu (ARB)",
+     "url": "https://www.oldmanemu.com/en-au"
+    },
+    {
+     "name": "Terrain Tamer",
+     "url": "https://www.terraintamer.com/"
+    }
+   ]
+  },
+  {
+   "cat": "LOCKERS",
+   "why": "A rear locker is the biggest traction upgrade, but the MQ's H233 isn't the GQ's H233B, so check the application.",
+   "who": [
+    {
+     "name": "ARB Air Locker",
+     "url": "https://www.arb.com.au/air-locker/"
+    }
+   ]
+  },
+  {
+   "cat": "BREATHERS",
+   "why": "Factory breathers end low and the gearbox and transfer share a tube. Running separate lines high is cheap insurance against water in the oil.",
+   "who": [
+    {
+     "name": "ARB diff breather kit (Patrolapart)",
+     "url": "https://patrolapart.com.au/product/arb-differential-breather-kit-2-point"
+    }
+   ]
+  },
+  {
+   "cat": "DUAL BATTERY & CHARGING",
+   "why": "One MK owner's truck had a 50-amp alternator. Owners upgrading for a second battery fit a higher-output alternator and a smart isolator such as REDARC.",
+   "who": [
+    {
+     "name": "REDARC",
+     "url": "https://www.redarc.com.au/"
+    }
+   ]
+  },
+  {
+   "cat": "SWIVEL HUBS & BEARINGS",
+   "why": "Fresh kingpin bearings and seals are the cure for weeping, wandering front ends.",
+   "who": [
+    {
+     "name": "Patrolapart — MK & MQ wheel bearing kit",
+     "url": "https://patrolapart.com.au/product/front-wheel-bearing-kit-suits-nissan-patrol-mk-mq-japanese-bearings"
+    },
+    {
+     "name": "Bunnings Marketplace (Basco) — MQ swivel hub kit",
+     "url": "https://www.bunnings.com.au/swivel-hub-wheel-bearing-and-seal-kit-for-nissan-patrol-mq-160-series-1980-1987_p0902866"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1980–1989",
+   "label": "Patrol 160 / MQ / MK / Safari",
+   "at_url": "https://www.autotempest.com/results?make=nissan&model=patrol&minyear=1980&maxyear=1989",
+   "bat_url": "https://bringatrailer.com/nissan/patrol/"
+  }
+ ],
+ "social": [],
+ "forums": [
+  {
+   "name": "NissanPatrol.com.au — MQ / MK Nissan Patrol",
+   "url": "https://www.nissanpatrol.com.au/forums/forumdisplay.php?14-MQ-MK-Nissan-Patrol",
+   "note": "The dedicated 160-series board: MQ/MK differences, buying advice, diffs, springs and SD33 threads."
+  },
+  {
+   "name": "ExplorOz forum",
+   "url": "https://www.exploroz.com/forum",
+   "note": "Australian touring forum with long-running MQ tyre and turbo-diesel threads."
+  },
+  {
+   "name": "NissanDiesel Forums — SD3x vehicles",
+   "url": "https://nissandiesel.dyndns.org/viewforum.php?f=11",
+   "note": "SD33 and SD33T engine tech, shared with Scout and other SD-powered owners."
+  }
+ ],
+ "related": [
+  {
+   "rel": "SUCCESSOR",
+   "name": "Patrol Y60 (GQ)",
+   "family": "nissan-patrol",
+   "gen": "y60"
+  },
+  {
+   "rel": "TOYOTA RIVAL",
+   "name": "FJ60",
+   "family": "land-cruiser",
+   "gen": "fj60"
+  },
+  {
+   "rel": "TOYOTA RIVAL",
+   "name": "FJ40",
+   "family": "land-cruiser",
+   "gen": "fj40"
+  },
+  {
+   "rel": "SHARES THE SD33 DIESEL",
+   "name": "Scout II",
+   "family": "scout",
+   "gen": "scout-ii"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "160 (1980–83) · 161 (1983-on)"
+  },
+  {
+   "k": "MARKET NAMES",
+   "v": "MQ / MK (Australia) · Safari (Japan) · Datsun Patrol to 1984"
+  },
+  {
+   "k": "PRODUCTION",
+   "v": "1980–1989 (Wikipedia); Japan to 1987"
+  },
+  {
+   "k": "ENGINES",
+   "v": "SD33 · SD33T · L28 · P40 (Australia)"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "SD33 70 kW · SD33T 81 kW · L28 88 kW · P40 90 kW"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "4-spd manual (MQ) · 5-spd (most MK) · 3-spd auto (LWB L28)"
+  },
+  {
+   "k": "TRANSFER CASE",
+   "v": "Two-speed, offset"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "2,350 mm SWB · 2,970 mm LWB"
+  },
+  {
+   "k": "LENGTH",
+   "v": "4,105 mm SWB · 4,690 mm LWB"
+  },
+  {
+   "k": "WIDTH",
+   "v": "1,690 mm"
+  },
+  {
+   "k": "AXLES",
+   "v": "C200 front · H233 rear (H260 utes)"
+  },
+  {
+   "k": "WEIGHT",
+   "v": "1,880 kg (1985 Safari hardtop, KR161)"
+  }
+ ],
+ "photos": [
+  {
+   "file": "patrol160-rocky-trail.jpg",
+   "alt": "A silver short-wheelbase leaf-sprung Nissan Patrol with rectangular headlights, a bull bar and roof rack, climbing a rocky track between bushes",
+   "caption": "PATROL SWB · ROCKY TRACK",
+   "credit": "Quique251 · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nissan_Patrol_offroad_2.jpg"
+  },
+  {
+   "file": "patrol160-trail-climb.jpg",
+   "alt": "The same silver short-wheelbase Patrol hardtop side-on, crossing loose rock below a sandy bank and pine trees",
+   "caption": "PATROL SWB · LOOSE ROCK",
+   "credit": "Quique251 · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nissan_Patrol_offroad_3.jpg"
+  },
+  {
+   "file": "patrol160-ute-paddock.jpg",
+   "alt": "A weathered white 1984 Nissan Patrol cab-chassis ute with a flat tray, parked in long grass in a New Zealand paddock",
+   "caption": "PATROL 160 UTE · NEW ZEALAND PADDOCK",
+   "credit": "NZ Car Freak (Riley) · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:1984_Nissan_Patrol_Utility_(7596049526).jpg"
+  },
+  {
+   "file": "patrol160-hababa-yemen.jpg",
+   "alt": "A white Nissan Patrol with red stripes and PATROL lettering parked inside a stone archway in the village of Hababa, Yemen, in 1987",
+   "caption": "PATROL 160 · HABABA, YEMEN, 1987",
+   "credit": "LBM1948 · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hababa_1987_06.jpg"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Nissan Patrol (160 / Safari / Spanish production / 260)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+   "name": "Wikipedia — Nissan SD engine (SD33, SD33T)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_SD_engine"
+  },
+  {
+   "name": "Wikipedia — Nissan L engine (L28)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_L_engine"
+  },
+  {
+   "name": "Wikipedia — Nissan P engine (P40)",
+   "url": "https://en.wikipedia.org/wiki/Nissan_P_engine"
+  },
+  {
+   "name": "GoAuto — Nissan MQ Patrol (1980) used-car research",
+   "url": "https://www.goauto.com.au/used-car-research/nissan/mq-patrol/1980-06-01/2189.html"
+  },
+  {
+   "name": "4X4 Australia — Nissan Patrol history",
+   "url": "https://www.4x4australia.com.au/reviews/nissan-patrol-history"
+  },
+  {
+   "name": "Nissan Heritage Collection — Nissan Safari 4WD Hardtop AD (1985, KR161)",
+   "url": "https://www.nissan.co.jp/HERITAGE/DETAIL/148.html"
+  },
+  {
+   "name": "Nissan — 30 years on, Nissan's iconic 1987 Paris–Dakar rally car rides again",
+   "url": "https://global.nissannews.com/en/releases/30-years-on-nissan-s-iconic-1987-paris-dakar-rally-car-rides-again"
+  },
+  {
+   "name": "Practical Motoring — 1987 Paris–Dakar winning Nissan Patrol brought back to life",
+   "url": "https://practicalmotoring.com.au/car-news/1987-paris-dakar-winning-nissan-patrol-brought-back-life/"
+  },
+  {
+   "name": "NissanPatrol.com.au — MQ / MK differences",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?5441"
+  },
+  {
+   "name": "NissanPatrol.com.au — MK buying advice",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?11735"
+  },
+  {
+   "name": "NissanPatrol.com.au — What diff, what locker?",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?5847"
+  },
+  {
+   "name": "NissanPatrol.com.au — Diff ratio question",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?6063"
+  },
+  {
+   "name": "NissanPatrol.com.au — SD33T head/gasket unsolved problems",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?7608"
+  },
+  {
+   "name": "NissanPatrol.com.au — Converting an SD33 to SD33T",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?1211"
+  },
+  {
+   "name": "NissanPatrol.com.au — Gearbox/transfer case breathers",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?20888"
+  },
+  {
+   "name": "NissanPatrol.com.au — Springs ain't just springs",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?12554"
+  },
+  {
+   "name": "NissanPatrol.com.au — MQ leaf spring conversion",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?23233"
+  },
+  {
+   "name": "NissanPatrol.com.au — 900,000 km Patrol MK",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?8098"
+  },
+  {
+   "name": "NissanPatrol.com.au — P40 engine info",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?10601"
+  },
+  {
+   "name": "NissanPatrol.com.au — SD33T MK won't start",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?27040"
+  },
+  {
+   "name": "NissanPatrol.com.au — Can you tell a 24v from an engine number?",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?56173"
+  },
+  {
+   "name": "NissanPatrol.com.au — MK alternator upgrade",
+   "url": "https://www.nissanpatrol.com.au/forums/showthread.php?12466"
+  },
+  {
+   "name": "ExplorOz — Biggest tyre size on MQ Patrol?",
+   "url": "https://www.exploroz.com/forum/9214/biggest-tyre-size-on-mq-patrol"
+  },
+  {
+   "name": "Bunnings Marketplace — Swivel hub, wheel bearing and seal kit, Patrol MQ 160",
+   "url": "https://www.bunnings.com.au/swivel-hub-wheel-bearing-and-seal-kit-for-nissan-patrol-mq-160-series-1980-1987_p0902866"
+  },
+  {
+   "name": "ARB USA — Air Locker Nissan H233B 33-spline RD135",
+   "url": "https://store.arbusa.com/air-locker-differential-nissan-h233b-33-spl-rd135/"
+  },
+  {
+   "name": "Bring a Trailer — Nissan Patrol results",
+   "url": "https://bringatrailer.com/nissan/patrol/"
+  },
+  {
+   "name": "Bring a Trailer — 1982 Nissan Patrol 2-door (sold $12,750, 2023)",
+   "url": "https://bringatrailer.com/listing/1982-nissan-patrol-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1984 Nissan Patrol 4-speed (sold $12,000, 2021)",
+   "url": "https://bringatrailer.com/listing/1984-nissan-patrol/"
+  },
+  {
+   "name": "Bring a Trailer — 1981 Nissan Patrol fire truck (sold $7,500, 2024)",
+   "url": "https://bringatrailer.com/listing/1981-nissan-patrol-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Nissan Safari fire truck (sold $8,100, 2026)",
+   "url": "https://bringatrailer.com/listing/1985-nissan-safari-fire-truck/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Every 160 is at least 37 years old and most have worked hard, so assume every oil is old and every grease point is dry. We couldn't find factory capacities published for the 160 online. Treat the specs below as types, and check quantities in the Nissan 160/61-series workshop manual.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "Diesel-rated oil [CONFIRM GRADE & CAPACITY IN MANUAL] · SD33 changed from a paper cartridge to a spin-on filter at the 1983 update (Wikipedia)",
+    "interval": "Baseline now",
+    "note": "Check which filter your engine takes before you go shopping. Turbo SD33Ts have piston oil squirters and a bigger oil cooler, which makes clean oil even more important.",
+    "parts": [
+     {
+      "name": "Nissan Patrol MQ oil filters (search)",
+      "supplier": "Supercheap Auto",
+      "url": "https://www.supercheapauto.com.au/search?q=nissan+patrol+mq+oil+filter"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter & water trap (diesel)",
+    "spec": "Engine-bay fuel filter [CONFIRM PART BY ENGINE]",
+    "interval": "Replace now",
+    "note": "Old diesel and water kill injection pumps. Drain the trap and replace the element before chasing poor running.",
+    "parts": [
+     {
+      "name": "Nissan Patrol MQ fuel filters (search)",
+      "supplier": "Supercheap Auto",
+      "url": "https://www.supercheapauto.com.au/search?q=nissan+patrol+mq+fuel+filter"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "Engine-specific element",
+    "interval": "Replace now",
+    "note": "Check the airbox seals and the intake hose for splits, especially on turbo engines.",
+    "parts": [
+     {
+      "name": "Nissan Patrol MQ air filters (search)",
+      "supplier": "Supercheap Auto",
+      "url": "https://www.supercheapauto.com.au/search?q=nissan+patrol+mq+air+filter"
+     }
+    ]
+   },
+   {
+    "item": "Coolant, thermostat, hoses & cap",
+    "spec": "Anti-corrosion coolant, never plain water · correct thermostat fitted",
+    "interval": "Flush now",
+    "note": "Owners trace SD33 overheating to blocked radiators and missing thermostats, and water-pump wear to plain water.",
+    "parts": [
+     {
+      "name": "Nissan Patrol MQ cooling parts (search)",
+      "supplier": "Supercheap Auto",
+      "url": "https://www.supercheapauto.com.au/search?q=patrol+mq+radiator"
+     }
+    ]
+   },
+   {
+    "item": "Glow plugs & batteries (diesel)",
+    "spec": "24-volt system on MQ SD33s, 12-volt on MKs",
+    "interval": "Test now",
+    "note": "Test each glow plug and both batteries under load. A weak battery on a 24-volt pair drags the other down.",
+    "parts": [
+     {
+      "name": "Battery terminals and cables (search)",
+      "supplier": "Supercheap Auto",
+      "url": "https://www.supercheapauto.com.au/search?q=battery+terminal"
+     }
+    ]
+   },
+   {
+    "item": "Manual gearbox & transfer case",
+    "spec": "Gear oil [CONFIRM GRADE & CAPACITY IN MANUAL]",
+    "interval": "Baseline now",
+    "note": "Crack the fill plug before the drain plug. Members warn seized plugs are common. The gearbox and transfer case breathers are linked by a tube on some MQs.",
+    "parts": [
+     {
+      "name": "ARB differential breather kit, 2-point",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/arb-differential-breather-kit-2-point"
+     }
+    ]
+   },
+   {
+    "item": "Front differential (C200) & rear (H233 / H260)",
+    "spec": "Hypoid gear oil; LSD-rated oil if the rear has a limited-slip diff [CONFIRM IN MANUAL]",
+    "interval": "Baseline now",
+    "note": "LSD was standard in Australia by 1985. Note the ratio plate on the driver's-side inner guard while you're there.",
+    "parts": [
+     {
+      "name": "Diff breathers kit, 4-point",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/diff-breathers-kit-4-point-suit-nissan-patrol-gq-gu-toyota-4x4-4wd"
+     }
+    ]
+   },
+   {
+    "item": "Swivel hubs & front wheel bearings",
+    "spec": "Kingpin swivels with wiper seals; repack wheel bearings",
+    "interval": "Inspect now; rebuild if weeping or loose",
+    "note": "Full rebuild kits for the MQ 160 include kingpin bearings, needle rollers and swivel seals.",
+    "parts": [
+     {
+      "name": "Front wheel bearing kit, Patrol MK & MQ",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/front-wheel-bearing-kit-suits-nissan-patrol-mk-mq-japanese-bearings"
+     }
+    ]
+   },
+   {
+    "item": "Chassis grease: shackles, spring pins, driveshafts",
+    "spec": "Grease every nipple",
+    "interval": "Grease now and at every oil change",
+    "note": "A leaf-sprung Patrol has many more grease nipples than a GQ, including greasable shackles.",
+    "parts": [
+     {
+      "name": "Front Roadsafe leaf springs & shackles, MQ 160",
+      "supplier": "SuperSpares",
+      "url": "https://superspares.com.au/front-roadsafe-leaf-springs-shackles-for-nissan-pa"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid & hydraulics",
+    "spec": "Fluid per the master-cylinder cap [CONFIRM IN MANUAL]",
+    "interval": "Flush now",
+    "note": "Front ventilated discs and rear drums. Check the flexible hoses and rear wheel cylinders on a truck that has sat.",
+    "parts": [
+     {
+      "name": "Nissan Patrol MQ brake parts (search)",
+      "supplier": "Supercheap Auto",
+      "url": "https://www.supercheapauto.com.au/search?q=nissan+patrol+mq+brake"
+     }
+    ]
+   },
+   {
+    "item": "Steering joints & drag link",
+    "spec": "Check for play",
+    "interval": "Inspect now",
+    "note": "Tired MQs usually need several joints at once.",
+    "parts": [
+     {
+      "name": "Leaf-sprung short drag link, Patrol MQ",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/leaf-sprung-short-drag-link-suit-nissan-patrol-mq"
+     }
+    ]
+   }
+  ]
+ }
+}

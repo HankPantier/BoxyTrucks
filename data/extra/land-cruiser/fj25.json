@@ -1,0 +1,337 @@
+{
+ "fitment": {
+  "stock": [
+   "16-in six-lug steel wheels",
+   "6.00-16 military-style tires (restored 1960 FJ25L on BaT)"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "No forum consensus",
+    "note": "Restored trucks run period 6.00-16s; one 1959 on Bring a Trailer wore 265/75R16 all-terrains on its 16-in steel wheels. IH8MUD members warn that 15-in disc-brake wheels hit the FJ25's tie-rod ends, 15-in drum wheels won't clear the drum rivets, and most other 16-in wheels have too small a center bore."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": [
+   {
+    "title": "Toyota FJ Technical Service Bulletins 1959–1962",
+    "ref": "",
+    "summary": "IH8MUD's FJ25 Owners Group hosts a converted PDF of Toyota's early FJ service bulletins covering FJ25s and the first FJ40s. A member describes it as including the first recall on the Land Cruiser. NHTSA's database lists no campaigns for 1958–60 Land Cruisers.",
+    "url": "https://forum.ih8mud.com/threads/manuals-factory-lit-etc.42244/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1951",
+   "change": "Toyota 'Jeep' BJ prototype with the 3.4 L B six; civilian series production from 1953",
+   "flag": "note"
+  },
+  {
+   "year": "1954",
+   "change": "Renamed Land Cruiser in June because 'Jeep' was a Willys-Overland trademark; Toyota UK says the first export shipment went to Pakistan",
+   "flag": "note"
+  },
+  {
+   "year": "1955",
+   "change": "20 Series launched (November per Toyota global, August per Toyota UK) on 2,285 and 2,430 mm wheelbases with B and F sixes",
+   "flag": "note"
+  },
+  {
+   "year": "1956",
+   "change": "Range cut to the 3.9 L F engine alone in mid-year; exports reach Venezuela and Burma",
+   "flag": "buy"
+  },
+  {
+   "year": "1957",
+   "change": "Land Cruiser exports jump to 2,502 (Toyota); first dozen shipped to Australia in August",
+   "flag": "note"
+  },
+  {
+   "year": "1958",
+   "change": "First Land Cruiser sold in the US, a single FJ25 through Rose Toyota",
+   "flag": "note"
+  },
+  {
+   "year": "1959",
+   "change": "2,650 mm chassis added; Toyota do Brasil begins FJ25L production in May; owners report the 'Thunderbird' emblem on 1959s",
+   "flag": "note"
+  },
+  {
+   "year": "1960",
+   "change": "Last J20s; the four-door FJ35V van is built for nine months; the 40 Series takes over in August",
+   "flag": "note"
+  },
+  {
+   "year": "1962",
+   "change": "Brazil's 25-based Bandeirante switches to a Mercedes-Benz OM324 diesel; built until August 1968",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "FJ25s are rare and valuable enough that FJ40s get dressed up as them. IH8MUD's FJ25 Owners Group keeps a VIN registry, so check against it.",
+  "items": [
+   {
+    "head": "VIN plate format",
+    "body": "Owners' plates read like 9FJ25-12645L or 0-FJ25-21848: a year digit, the model code, a serial number and an L suffix for left-hand drive. The plate also lists the engine number."
+   },
+   {
+    "head": "Frame and chassis tells",
+    "body": "IH8MUD members point to the under-seat fuel tank, a flat floor with no hump for an offset transfer case, round rear wheel cut-outs, a centered rear differential, FJ25-specific rear spring hangers and an FJ25 steering center link."
+   },
+   {
+    "head": "Engine numbers",
+    "body": "The registry shows F engines weren't fitted in strict numerical order, but the block number should fall in the right range for the frame. A 2F head or valve cover on an F-numbered block means parts have been mixed."
+   },
+   {
+    "head": "Year details",
+    "body": "Owners report three-bolt front-fender mounting on 1958-and-earlier trucks (and some 1959s), the 'Thunderbird' emblem on 1959s, and a toolbox lid with diagonal ribs and five catches that changed around 1960, about when the cradle front engine mount was dropped."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Curb weight",
+   "v": "1,425 kg (3,142 lb)",
+   "note": "FJ25, Toyota figure"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,285 mm (90.0 in)",
+   "note": "FJ25; FJ28 2,430 mm"
+  },
+  {
+   "k": "Length × width × height",
+   "v": "3,838 × 1,665 × 1,855 mm",
+   "note": "FJ25, Toyota figure"
+  },
+  {
+   "k": "Engine output",
+   "v": "105 PS net @ 3,200 rpm",
+   "note": "F 3,878 cc, Toyota figure"
+  },
+  {
+   "k": "Low range",
+   "v": "None",
+   "note": "Single-speed transfer case (Toyota)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "FJ25s trade as collector pieces. Originality, the correct F engine and restoration quality decide the price, and FJ40-based fakes trade at a discount.",
+  "ranges": [
+   {
+    "cond": "Swapped or tired",
+    "range": "$14k–16k"
+   },
+   {
+    "cond": "Refurbished driver",
+    "range": "$33k–39k"
+   },
+   {
+    "cond": "Concours / matching numbers",
+    "range": "$70k+"
+   }
+  ],
+  "note": "Based on 5 Bring a Trailer sales from 2019 to 2026 ($14,001–$39,000), two 2026 sales of 1957 FJ25s at Mecum and Barrett-Jackson ($33,000 each, via CLASSIC.com) and RM Sotheby's $70,000 sale of a restored 1960 soft-top in 2019."
+ },
+ "docs": [
+  {
+   "name": "IH8MUD — Manuals, factory literature and 1960 owner's manual (FJ25)",
+   "url": "https://forum.ih8mud.com/threads/manuals-factory-lit-etc.42244/",
+   "note": "Owner-shared scans of the 1960 owner's manual, brochures and Toyota's 1959–62 FJ service bulletins."
+  },
+  {
+   "name": "IH8MUD — FJ25 (and some early 40) part numbers",
+   "url": "https://forum.ih8mud.com/threads/fj25-and-some-early-40-part-numbers.48045/",
+   "note": "Toyota and Specter part numbers plus bearing and seal cross-references compiled by owners."
+  },
+  {
+   "name": "Toyota 75-Year History — Land Cruiser (20)",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012610/",
+   "note": "Toyota's official specification summary for the FJ25."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Toyota sold a small number of FJ25s new in the US: one in 1958, then 61 Land Cruisers in 1959 and 162 in 1960, by the IH8MUD registry's count. Most FJ25s sold in the US since then have come in from Latin America, often after restoration in Colombia or Costa Rica.",
+   "Every J20 is far past the 25-year mark, so NHTSA's exemption from federal safety standards applies, counted from the date of manufacture. State rules still vary on titling, VIN inspection and emissions. California is the hardest, so check before you buy, and make sure the import paperwork matches the frame number rather than a loose VIN plate."
+  ]
+ },
+ "production": {
+  "intro": "The J20 was built in small numbers in Japan from 1955 to 1960 and assembled under licence abroad. Brazil kept a 25-based truck in production until 1968.",
+  "items": [
+   {
+    "k": "Production (Japan)",
+    "v": "1955–1960"
+   },
+   {
+    "k": "Land Cruiser exports",
+    "v": "98 (1955) · 518 (1956) · 2,502 (1957) · 2,815 (1958) · 2,689 (1959) · 2,403 (1960)"
+   },
+   {
+    "k": "US imports",
+    "v": "1 (1958) · 61 (1959) · 162 (1960), IH8MUD registry"
+   },
+   {
+    "k": "Brazil",
+    "v": "FJ25L from May 1959; Bandeirante to August 1968"
+   },
+   {
+    "k": "Mexico",
+    "v": "FJ25L CKD assembly with Planta REO from August 1960"
+   },
+   {
+    "k": "Brazil output, 1965",
+    "v": "961 vehicles (Wikipedia)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "FJ35V (J30)",
+    "years": "1960",
+    "note": "Four-door Gifu-bodied van on the 2,650 mm J20 chassis. Wikipedia says about 60 were built and none are publicly known to survive."
+   },
+   {
+    "name": "FJ28L",
+    "years": "1955–1960",
+    "note": "Longer-wheelbase version; surviving examples are rare enough that an IH8MUD buyer knew of only a couple of others."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "IH8MUD FJ25 Owners Group",
+   "url": "https://forum.ih8mud.com/forums/fj25-owners-group.49/",
+   "note": "The worldwide FJ25 registry, the 'Count the FJ25s' census of survivors, and parts trading among owners"
+  },
+  {
+   "kind": "event",
+   "name": "Land Cruiser Heritage Museum",
+   "url": "https://landcruiserhm.com/",
+   "note": "Salt Lake City; home of the 1958 FJ25 that was the first Land Cruiser sold in the US. Open Monday–Saturday, 8am–5pm"
+  },
+  {
+   "kind": "event",
+   "name": "Toyota Automobile Museum",
+   "url": "https://toyota-automobile-museum.jp/en/",
+   "note": "Nagakute, near Nagoya; displays a 1957 FJ25L"
+  },
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US Land Cruiser club with regional chapters, open to every generation"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Toyota 75-Year History — Land Cruiser (20)",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012610/"
+  },
+  {
+   "name": "Toyota — Land Cruiser history: Heavy Duty",
+   "url": "https://global.toyota/en/mobility/toyota-brand/features/landcruiser/history/evolution/heavy-duty.html"
+  },
+  {
+   "name": "Toyota UK Magazine — Land Cruiser history: Heavy and Light Duty edition",
+   "url": "https://mag.toyota.co.uk/history-of-the-toyota-land-cruiser-heavy-and-light-duty-models-2/"
+  },
+  {
+   "name": "Toyota 75-Year History — Automobile exports (Table 1-47)",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/text/taking_on_the_automotive_business/chapter2/section9/item2.html"
+  },
+  {
+   "name": "Toyota 75-Year History — Expansion into Latin America",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/text/taking_on_the_automotive_business/chapter2/section9/item3.html"
+  },
+  {
+   "name": "Toyota 75-Year History — Toyota do Brasil",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/text/taking_on_the_automotive_business/chapter2/section9/item3_a.html"
+  },
+  {
+   "name": "Toyota 75-Year History — Asia and Australia in the 1950s",
+   "url": "https://www.toyota-global.com/company/history_of_toyota/75years/text/taking_on_the_automotive_business/chapter2/section9/item4.html"
+  },
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J20, J30)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+   "name": "Autoblog — Land Cruiser Heritage Museum",
+   "url": "https://www.autoblog.com/2020/01/13/toyota-land-cruiser-museum-utah"
+  },
+  {
+   "name": "Land Cruiser Heritage Museum",
+   "url": "https://landcruiserhm.com/"
+  },
+  {
+   "name": "IH8MUD — FJ2X Registry",
+   "url": "https://forum.ih8mud.com/threads/fj2x-registry.438862/"
+  },
+  {
+   "name": "IH8MUD — FJ25 information",
+   "url": "https://forum.ih8mud.com/threads/fj25-information.1366164/"
+  },
+  {
+   "name": "IH8MUD — Anyone FJ25 onto FJ40?",
+   "url": "https://forum.ih8mud.com/threads/anyone-fj25-onto-fj40.126453/"
+  },
+  {
+   "name": "IH8MUD — Bought my first FJ25 yesterday",
+   "url": "https://forum.ih8mud.com/threads/bought-my-first-fj25-yesterday.48244/"
+  },
+  {
+   "name": "IH8MUD — 16\" split rims on 25",
+   "url": "https://forum.ih8mud.com/threads/16-split-rims-on-25.181240/"
+  },
+  {
+   "name": "IH8MUD — 1960 FJ28L Project Lara",
+   "url": "https://forum.ih8mud.com/threads/1960-fj28l-project-lara.1185713/"
+  },
+  {
+   "name": "IH8MUD — Manuals, factory lit, etc.",
+   "url": "https://forum.ih8mud.com/threads/manuals-factory-lit-etc.42244/"
+  },
+  {
+   "name": "NHTSA recalls API — Toyota Land Cruiser 1958–1960",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=LAND%20CRUISER&modelYear=1959"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser FJ25 results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj25/"
+  },
+  {
+   "name": "Bring a Trailer — 1960 FJ25L (6.00-16 tires)",
+   "url": "https://bringatrailer.com/listing/1960-toyota-land-cruiser-fj25-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1959 FJ25 (265/75R16 tires)",
+   "url": "https://bringatrailer.com/listing/1959-toyota-land-cruiser-fj25-6/"
+  },
+  {
+   "name": "CLASSIC.com — Toyota Land Cruiser FJ25 market",
+   "url": "https://www.classic.com/m/toyota/land-cruiser/20-series/fj25?page=2"
+  },
+  {
+   "name": "RM Sotheby's — 1960 Toyota FJ25 Land Cruiser Soft-Top",
+   "url": "https://rmsothebys.com/auctions/az19/lots/r0105-1960-toyota-fj25-land-cruiser-softtop"
+  },
+  {
+   "name": "Toyota Automobile Museum",
+   "url": "https://toyota-automobile-museum.jp/en/"
+  },
+  {
+   "name": "Toyota Land Cruiser Association",
+   "url": "https://tlca.org/"
+  }
+ ]
+}
