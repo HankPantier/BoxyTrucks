@@ -2,7 +2,7 @@
  "slug": "lr4",
  "title": "Land Rover LR4 / Discovery 4",
  "eyebrow": "LAND ROVER LR4 / DISCOVERY 4 · L319 · 2009–2016",
- "verdict": "The last Discovery with a ladder frame under it, air springs that cross-link like beam axles, and low range at the twist of a dial. It's a brilliant expedition wagon wrapped round a cooling system made of plastic that's slowly giving up, so budget for that before you budget for the roof tent.",
+ "verdict": "The last Discovery with a ladder frame under it, air springs that cross-link like beam axles, and Terrain Response at the twist of a dial. It's a brilliant expedition wagon wrapped round a cooling system made of plastic that's slowly giving up, so budget for that before you budget for the roof tent.",
  "codes": [
   "L319 · INTEGRATED BODY FRAME",
   "5.0 V8 (2010–13) · 3.0 SC V6 (2014–16) US",
@@ -586,6 +586,12 @@
   }
  ],
  "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "LR3 / Discovery 3",
+   "family": "land-rover",
+   "gen": "lr3"
+  },
   {
    "rel": "ANCESTOR",
    "name": "Discovery Series I",
