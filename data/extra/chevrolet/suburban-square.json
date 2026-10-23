@@ -1,0 +1,364 @@
+{
+ "fitment": {
+  "stock": [
+   "P215/75R15 (K10/V10, 1982 and 1987)",
+   "LT235/85R16 (K20/V20, 1982 and 1987)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\") on half-ton 4x4s"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "Owners report no rubbing on half-tons, even aired down. 33x10.50s fit on factory rims. 33x12.50s fit a stock three-quarter-ton, but a half-ton will almost certainly need trimming (GMSquarebody)."
+   },
+   {
+    "lift": "3 in F / 4 in R",
+    "size": "33x12.50R15",
+    "note": "Offroad Design's '88 Suburban ran these on 15x8 steel wheels with a 3 in front and 4 in rear lift, including Moab's slickrock trails."
+   },
+   {
+    "lift": "6 in",
+    "size": "35x12.50",
+    "note": "BaT's Chinook Trail Boss V1500 runs 35x12.50 BFGoodrich tires on a 6 in Rough Country lift with ORD shackles. Plan on gears, steering bracing and brakes."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Brake pedal push-rod retainer clip may be missing",
+    "years": "1981",
+    "ref": "NHTSA 80V150000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=80V150000",
+    "summary": "Without the clip the brake pedal could disengage from the master-cylinder push rod. Dealers inspected and fitted the clip."
+   },
+   {
+    "title": "Platform trailer-hitch bolts under-torqued",
+    "years": "1982",
+    "ref": "NHTSA 82V028000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V028000",
+    "summary": "Hitch attachment bolts could loosen and break. Dealers repositioned the hitch, re-torqued it and replaced the hitch-to-frame bolts."
+   },
+   {
+    "title": "Driver's seat belt may not lock",
+    "years": "1988",
+    "ref": "NHTSA 89V010000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V010000",
+    "summary": "A new driver's seat-belt assembly was installed."
+   },
+   {
+    "title": "Transmission fluid forced out of the vent",
+    "years": "1988–1991",
+    "ref": "NHTSA 93V016000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V016000",
+    "summary": "Heat could push fluid out of the vent tube. The fix was a longer vent hose routed to the left side of the engine bay."
+   },
+   {
+    "title": "Front brake rotor separation from road-salt corrosion",
+    "years": "1988–1991 (Chevrolet)",
+    "ref": "NHTSA 93V119000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V119000",
+    "summary": "Corrosion at the joint between the stamped center and cast outer section could separate the rotor. Rotors were replaced with coated parts."
+   },
+   {
+    "title": "Seat recliner bolts may loosen",
+    "years": "1989–1990",
+    "ref": "NHTSA 93V187000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=93V187000",
+    "summary": "Foam or vinyl trapped in the recliner joint lowered bolt torque, leading to bolt fatigue. Dealers cleaned the joint and replaced the bolts."
+   },
+   {
+    "title": "Seat recliner bolts may loosen",
+    "years": "1991",
+    "ref": "NHTSA 96V226000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=96V226000",
+    "summary": "Same condition and remedy as 93V187000."
+   },
+   {
+    "title": "Certain FRAM G3727 replacement fuel filters",
+    "years": "1987–1991 (fitment)",
+    "ref": "NHTSA 06E043000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=06E043000",
+    "summary": "An equipment recall of aftermarket filters with 2005–06 date codes and Mexico origin marking. Check any spare filter of that type."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1973",
+   "change": "Rounded Line Suburban launches with four side doors, standard double rear doors and an optional tailgate with a wind-down window. K10/K20 4x4s use the NP205 or the full-time NP203. 307 V8 offered this year only",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "400 V8 added for K-series trucks. Trims become Custom Deluxe, Scottsdale and Silverado (GMC: Sierra Classic replaces Super Custom)",
+   "flag": "note"
+  },
+  {
+   "year": "1978",
+   "change": "Front bucket seats offered",
+   "flag": "note"
+  },
+  {
+   "year": "1979",
+   "change": "Quick-release third-row seat. Last year for the Estate woodgrain package",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Full-time 4WD dropped; K-series go part-time. Last year of the 400 V8",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "Major facelift. NP208 transfer case with automatic locking hubs and shift-on-the-fly up to 25 mph. 700R4 overdrive automatic available",
+   "flag": "note"
+  },
+  {
+   "year": "1982",
+   "change": "6.2 L Detroit Diesel V8 option. Three-quarter-ton trucks switch from 16.5 to 16 in wheels",
+   "flag": "buy"
+  },
+  {
+   "year": "1987",
+   "change": "Throttle-body fuel injection on all gasoline engines. C/K renamed R/V (R = 2WD, V = 4x4)",
+   "flag": "buy"
+  },
+  {
+   "year": "1989",
+   "change": "Largest facelift since 1973: flush, mostly black grille and a new steering wheel",
+   "flag": "buy"
+  },
+  {
+   "year": "1990",
+   "change": "Power mirrors; rear-wheel ABS optional",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "Final year. Wikipedia says the 4L80-E replaced the 700R4; check the transmission on any given truck",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Nineteen years, two brands, three transfer cases, half- and three-quarter-ton versions, and plenty of 2WD-to-4WD conversions: work out exactly what you're looking at before you price it.",
+  "items": [
+   {
+    "head": "Year by front end",
+    "body": "Per Hagerty: 1973–80 trucks have round headlamps, a styled hood and vertical side markers; 1981–88 trucks have rectangular lamps, a flat hood and horizontal markers; 1989–91 trucks have four small rectangular headlamps (two on economy trims, per Wikipedia)."
+   },
+   {
+    "head": "Model codes",
+    "body": "C = 2WD and K = 4x4, with 10/20 for Chevrolet half- and three-quarter-ton and 15/25 for GMC until 1980. For 1987–91 the trucks are R (2WD) and V (4x4), badged 1500/2500."
+   },
+   {
+    "head": "True 4x4 or conversion?",
+    "body": "Check for a factory front axle, transfer case and K/V designation. BaT has sold a C2500 Suburban with a 4x4 swap. Also, no factory 4x4 Suburban had a 454 per Chevrolet's 1982 and 1987 spec sheets."
+   },
+   {
+    "head": "Transfer case",
+    "body": "NP203 (full-time, 1973–79): about 22–23 in long, four bolted sections, with a lock position. NP205: one-piece iron case, three-bolt idler cover, tag above the front output. NP208 (1981+): aluminum, chain-drive (Offroad Design, Wikipedia)."
+   },
+   {
+    "head": "Diesel trucks",
+    "body": "From 1982, 6.2 diesel trucks got their own fender and tailgate badging (Wikipedia). Diesels needed the B3J diesel equipment package per the 1982 spec sheet."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "11,000 lb GCWR (K10) · 12,000 lb GCWR (K20)",
+   "note": "1982, gasoline 350 with trailering package. The 1973 brochure claims up to 14,000 lb combined for a Series 20"
+  },
+  {
+   "k": "GVW",
+   "v": "5,400–8,200 lb (1973) · 6,100–6,800 lb K10, 8,600 lb K20 (1982)"
+  },
+  {
+   "k": "Payload",
+   "v": "Up to 3,325 lb",
+   "note": "1973 brochure"
+  },
+  {
+   "k": "Cargo space",
+   "v": "Up to 144 cu ft",
+   "note": "1973 brochure"
+  },
+  {
+   "k": "Seating",
+   "v": "Up to 9"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "129.5 in (3,289 mm)"
+  },
+  {
+   "k": "Length",
+   "v": "219.1 in (5,565 mm)"
+  },
+  {
+   "k": "Height",
+   "v": "73.8 in (V10) · 76.1 in (V20)"
+  },
+  {
+   "k": "Rear door opening",
+   "v": "40 in high × 59.6 in wide",
+   "note": "1973 brochure, panel doors"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,837 lb (2,648 kg)",
+   "note": "Wikipedia infobox figure; varies by series and equipment"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still the cheapest way into a square-body 4x4. Prices are steady rather than rising, and a clean, rust-free original V1500 or an early K-series truck brings the most.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "Under $8k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–16k"
+   },
+   {
+    "cond": "Excellent",
+    "range": "$16k–30k"
+   },
+   {
+    "cond": "Exceptional / rare trim",
+    "range": "$35k–70k"
+   }
+  ],
+  "note": "Based on 17 Bring a Trailer sales of mostly original 4x4 Chevrolet and GMC Suburbans, 2024–26 (median about $15,750; a 1973 Cheyenne Super Estate 4x4 reached $70,000), and Hagerty's guide (usable under $10,000, excellent $25,000–30,000)."
+ },
+ "docs": [
+  {
+   "name": "1973 Chevrolet Suburban brochure",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1973_Trucks_and_Vans/1973%20Chevrolet%20Suburban/1973%20Chevy%20Suburban-03.html",
+   "note": "Body, doors, tailgate and engine lineup (OldCarBrochures archive)"
+  },
+  {
+   "name": "1982 Chevrolet Suburban specifications",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1982_Trucks_and_Vans/1982%20Chevy%20Suburban/1982%20Chevy%20Suburban-12.html",
+   "note": "Axle ratings, tires, transfer case and trailering by series"
+  },
+  {
+   "name": "1987 Chevrolet Suburban specifications",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1987_Trucks_and_Vans/1987%20Chevy%20Suburban/1987%20Chevy%20Suburban-08.html",
+   "note": "R/V-series specs and TBI engine ratings"
+  },
+  {
+   "name": "GMSquarebody — The SquareBody Reference Library",
+   "url": "https://www.gmsquarebody.com/forums/the-squarebody-reference-library.52/",
+   "note": "Owner-compiled reference threads for 1973–91 trucks"
+  },
+  {
+   "name": "GM Heritage Center",
+   "url": "https://www.gm.com/heritage",
+   "note": "GM's official heritage archive"
+  }
+ ],
+ "production": {
+  "intro": "We couldn't find a sourced production total for the 1973–91 Suburban, so these are the factory trim and option packages instead.",
+  "items": [],
+  "editions": [
+   {
+    "name": "Estate package",
+    "years": "1973–1979",
+    "note": "Woodgrain exterior trim, offered by both Chevrolet and GMC (Wikipedia)"
+   },
+   {
+    "name": "Cheyenne Super / Silverado / Sierra Grande / Sierra Classic",
+    "years": "1973–1991",
+    "note": "Top trims, with better sound deadening, power accessories and front and rear air (Hagerty)"
+   },
+   {
+    "name": "Chinook Trail Boss (dealer conversion)",
+    "years": "c. 1990",
+    "note": "Trail Wagons of Yakima, Washington, converted V1500 Suburbans when new (BaT)"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Chevy Truck Legends",
+   "url": "https://www.chevrolet.com/truck-legends",
+   "note": "Chevrolet's official community for owners of Chevy trucks, old and new."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Chevrolet Suburban (seventh generation)",
+   "url": "https://en.wikipedia.org/wiki/Chevrolet_Suburban#Seventh_generation_(1973)"
+  },
+  {
+   "name": "Wikipedia — Chevrolet C/K (third generation)",
+   "url": "https://en.wikipedia.org/wiki/Chevrolet_C/K_(third_generation)"
+  },
+  {
+   "name": "Hagerty — 1973–91 Suburbans are the affordable way to square-body ownership",
+   "url": "https://hagerty.com/media/?p=396657"
+  },
+  {
+   "name": "Chevrolet — 1973 Suburban brochure, page 3",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1973_Trucks_and_Vans/1973%20Chevrolet%20Suburban/1973%20Chevy%20Suburban-03.html"
+  },
+  {
+   "name": "Chevrolet — 1973 Suburban brochure, page 6",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1973_Trucks_and_Vans/1973%20Chevrolet%20Suburban/1973%20Chevy%20Suburban-06.html"
+  },
+  {
+   "name": "Chevrolet — 1982 Suburban specifications",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1982_Trucks_and_Vans/1982%20Chevy%20Suburban/1982%20Chevy%20Suburban-12.html"
+  },
+  {
+   "name": "Chevrolet — 1987 Suburban specifications",
+   "url": "https://www.oldcarbrochures.com/static/NA/GM%20Trucks%20and%20Vans/1987_Trucks_and_Vans/1987%20Chevy%20Suburban/1987%20Chevy%20Suburban-08.html"
+  },
+  {
+   "name": "NHTSA — Recalls API, Chevrolet and GMC Suburban 1973–1991",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=GMC&model=SUBURBAN&modelYear=1989"
+  },
+  {
+   "name": "Bring a Trailer — Chevrolet Suburban 1973–1991 results",
+   "url": "https://bringatrailer.com/chevrolet/suburban-1973-1991/"
+  },
+  {
+   "name": "Bring a Trailer — GMC Suburban 1973–1991 results",
+   "url": "https://bringatrailer.com/gmc/suburban-1973-1991/"
+  },
+  {
+   "name": "Bring a Trailer — 1990 GMC V1500 Suburban Chinook Trail Boss",
+   "url": "https://bringatrailer.com/listing/1990-gmc-suburban-chinook-trail-boss/"
+  },
+  {
+   "name": "Offroad Design — Burly Burb",
+   "url": "https://www.offroaddesign.com/tech/blog/burly-burb"
+  },
+  {
+   "name": "Offroad Design — NP203 technical information",
+   "url": "https://www.offroaddesign.com/tech/offroad-design-transfer-cases-knowledge/offroad-design-np203-technical-information"
+  },
+  {
+   "name": "Offroad Design — NP205 technical information",
+   "url": "https://www.offroaddesign.com/tech/offroad-design-transfer-cases-knowledge/offroad-design-np-205-technical-information"
+  },
+  {
+   "name": "GMSquarebody — Bigger tires on stock suspension",
+   "url": "https://www.gmsquarebody.com/goto/post?id=549266"
+  },
+  {
+   "name": "Crawlpedia — Most common bolt patterns",
+   "url": "https://crawlpedia.com/bolt_patterns.htm"
+  }
+ ]
+}
