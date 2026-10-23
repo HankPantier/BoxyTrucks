@@ -1,0 +1,994 @@
+{
+ "slug": "g63-amg",
+ "title": "G 63 AMG",
+ "eyebrow": "MERCEDES-AMG G-CLASS · W463 · G 63 · 2012–2018 (US 2013–2018)",
+ "verdict": "The last G 63 built on the old W463 body: a 5.5-litre biturbo V8, three lockers and solid axles. It's the quickest way to make a 1979 truck feel modern. Hard-used examples are cheaper than you'd expect, and an M157 that has missed its maintenance costs more than you'd expect.",
+ "codes": [
+  "W463",
+  "M157 5.5 BITURBO V8",
+  "7G-TRONIC",
+  "3 LOCKING DIFFS"
+ ],
+ "hero_photo": "g63-amg-fort-campbell-trail.jpg",
+ "hero_focus": "42% 62%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The G 63 AMG replaced the supercharged [[g-class/g55-amg|G 55 AMG]] in 2012 and reached American showrooms that August as a 2013 model. It ran until the 2018 model year, the last before the redesigned [[g-class/second-gen|second-generation G]]. It uses AMG's 5.5-litre biturbo V8 and a seven-speed automatic, and it was the first AMG G with neither a supercharger nor a five-speed. The [[g-class/w463|W463]] underneath is unchanged: ladder frame, solid axles on coils, a two-speed transfer case and three locking differentials. AMG gave the truck a much bigger engine and left the off-road hardware alone."
+   ]
+  },
+  {
+   "heading": "TURBOS REPLACE THE SUPERCHARGER",
+   "paragraphs": [
+    "Mercedes revealed the G 63 and the V12 G 65 in April 2012, ahead of the Beijing show. The M157 V8 displaces 5,461 cc and makes 544 PS with 760 Nm (560 lb-ft) from 2,000 rpm. Mercedes quoted 0–60 mph in 5.3 seconds and a 130 mph limiter, and claimed 13 per cent lower fuel consumption on the European cycle than the G 55. The engine drives an AMG SPEEDSHIFT PLUS 7G-TRONIC with three modes, automatic throttle blips on downshifts and ECO start/stop.",
+    "The rest of the update came from the 2012 G-Class refresh. The dashboard and centre console came from the ML, and the truck gained a colour TFT instrument cluster, a tablet-style COMAND screen, DISTRONIC PLUS, Blind Spot Assist and LED daytime running lights. AMG added a twin-blade grille, a bumper with three large intakes, six-piston front calipers from the ML 63 on 14.8-inch discs, and 20-inch wheels on 275/50 R20 tyres. AutoGuide priced a 2013 US truck at $134,300, about $20,000 more than a [[g-class/g550|G 550]]."
+   ]
+  },
+  {
+   "heading": "WHY OFF-ROADERS SHOULD CARE",
+   "paragraphs": [
+    "In the bodywork that matters off-road, a G 63 is the same truck as a G 550. Kelley Blue Book listed a 36-degree approach angle and a 7,716 lb tow rating. MotorTrend gave 27 degrees of departure, 21 degrees of breakover, about 8 inches of ground clearance and 24 inches of wading depth. It still has a low-range transfer case and centre, rear and front locks controlled by dashboard buttons. The off-road weak points are AMG's own choices: low-profile 20s, a side exhaust that exits ahead of the rear wheels, and huge front brakes that limit which wheels will fit.",
+    "Buyers liked it. MotorTrend reported in late 2013 that the G 63 had become the best-selling AMG product in the US. That's why so many are on the used market. Most owners drove them on pavement, so the lockers on a typical used truck have rarely been used."
+   ]
+  },
+  {
+   "heading": "2016 UPDATE AND THE END",
+   "paragraphs": [
+    "For the 2016 model year the truck was renamed Mercedes-AMG G 63. Output rose by 27 PS to 571 PS (563 hp), with torque unchanged at 760 Nm and 0–100 km/h in 5.4 seconds. All G-Class models got new shock absorbers, revised ASR and ABS calibration, new bumpers and new instrument dials. AMG also offered an Edition 463 package with 21-inch wheels and a stainless underguard, and a colour package with bright paints such as alien green and sunset beam. The G 550 switched to the 4.0-litre twin-turbo M176 at the same time, and the [[g-class/4x4-squared|4×4²]] followed in 2015 on a shortened chassis from the [[g-class/g63-6x6|G 63 AMG 6×6]].",
+    "The 2018 model year was the last for this body in the US. Its successor kept the G 63 name but moved to the twin-turbo 4.0-litre M177 and independent front suspension. That makes the 2013–2018 truck the last AMG G with a solid front axle. On Bring a Trailer it has also become the cheapest way into a biturbo AMG G: from 2025 to October 2026, the median sale was about $65,500."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · 2013–15 OR 2016–18?",
+  "title": "Pre- and post-facelift G 63s",
+  "paragraphs": [
+   "The 2013–2015 trucks have 544 PS (Mercedes USA quoted 544 hp) and the original dampers. The 2016–2018 trucks have 571 PS (563 hp), new shocks, updated ESP and ABS calibration and revised gauges. Torque, the seven-speed and the three lockers are the same throughout. EPA ratings barely change: 12 mpg city and 14 highway every year, with 2018 rated 15 highway.",
+   "In 2025–26 Bring a Trailer sales, 2013–15 G 63s had a median of about $61,000 and 2016–18 trucks about $76,750. A buyer who plans to lift the truck and fit tyres gets little extra off-road from the newer trucks. The extra money mostly buys lower mileage, newer electronics and recall work that's more likely to have been done."
+  ]
+ },
+ "engineering_intro": "Under the AMG trim, the G 63 is still a W463. The body sits on a separate ladder frame, both axles are solid and coil-sprung, a two-speed transfer case drives all four wheels permanently, and three dashboard switches lock the centre, rear and front differentials. AMG changed the engine, gearbox, brakes, exhaust, wheels and damper settings.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame",
+   "note": "Long-wheelbase five-door body; AMG flares, running boards and side-exit exhaust."
+  },
+  {
+   "k": "AXLES",
+   "v": "Solid, front & rear",
+   "note": "Coil springs on link-located beam axles. This is the last AMG G before the 2019 switch to independent front suspension."
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Centre, rear, front",
+   "note": "Three 100% locks and low range, as on every W463."
+  },
+  {
+   "k": "ENGINE",
+   "v": "M157 5.5 L biturbo V8",
+   "note": "5,461 cc, direct injection; 544 PS / 760 Nm, 571 PS from 2016."
+  },
+  {
+   "k": "GEARBOX",
+   "v": "7G-TRONIC (722.9)",
+   "note": "AMG SPEEDSHIFT PLUS calibration, three modes, ECO start/stop."
+  },
+  {
+   "k": "BRAKES",
+   "v": "6-piston front",
+   "note": "ML 63 calipers on 14.8 × 1.42 in front discs; they rule out most 18-inch wheels."
+  }
+ ],
+ "engineering_note": {
+  "title": "TWO COOLING CIRCUITS",
+  "body": "The M157 has a main engine circuit and a separate low-temperature charge-air circuit. AMSOIL lists capacities of 14.6 qt and 3.1 qt. Both circuits rely on plastic fittings and hoses next to very hot turbos. FCP Euro sells a turbo coolant-line kit for this engine because those lines are a common failure, and a split line can empty the system quickly. Check both reservoirs before every trail run."
+ },
+ "generations_table": [
+  {
+   "years": "1999–2012",
+   "platform": "W463 G 55 AMG",
+   "engine": "M113 / M113K 5.4 V8",
+   "output": "354 → 507 PS",
+   "note": "Predecessor; five-speed 722.6, supercharged from 2004"
+  },
+  {
+   "years": "2012–2015",
+   "platform": "W463 G 63 AMG",
+   "engine": "M157 5.5 L biturbo V8",
+   "output": "544 PS · 760 Nm",
+   "note": "US MY2013–2015; 2012 interior update, 7G-TRONIC"
+  },
+  {
+   "years": "2012–2018",
+   "platform": "W463 G 65 AMG",
+   "engine": "M279 6.0 L biturbo V12",
+   "output": "612 → 630 PS · 1,000 Nm",
+   "note": "V12 sibling, same chassis"
+  },
+  {
+   "years": "2013–2015",
+   "platform": "W463 G 63 AMG 6×6",
+   "engine": "M157 5.5 L biturbo V8",
+   "output": "544 PS · 760 Nm",
+   "note": "Three portal axles, five lockers; about 100 built"
+  },
+  {
+   "years": "2015–2018",
+   "platform": "W463 Mercedes-AMG G 63",
+   "engine": "M157 5.5 L biturbo V8",
+   "output": "571 PS (563 hp) · 760 Nm",
+   "note": "US MY2016–2018; new dampers, revised ASR/ABS"
+  },
+  {
+   "years": "2018–",
+   "platform": "Second-generation G 63",
+   "engine": "M177 4.0 L biturbo V8",
+   "output": "577 hp · 627 lb-ft",
+   "note": "Successor; independent front suspension"
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Is it really a G 63?",
+   "body": "Many G 550s have been fitted with AMG bumpers, grilles and badges. US G 63 VINs from Bring a Trailer listings begin WDCYC7DF (2013–2016) and WDCYC7DH (2018). A same-era G 550 reads WDCYC3HF. Check the VIN and data card, not the bodywork."
+  },
+  {
+   "head": "Recall paperwork",
+   "body": "Make sure NHTSA 17V250 (steering coupling, 2013–2016) has been done. On 2016–17 trucks, also check 17V713 (ESP with DISTRONIC PLUS). Run the VIN through NHTSA's recall lookup before you hand over money."
+  },
+  {
+   "head": "Oil consumption and misfires",
+   "body": "Ask how much oil it uses between services and scan for stored codes. The M157 can suffer cylinder scoring at higher mileage. Misfires are often plugs, coils or oil-soaked cam-magnet connectors, but persistent misfires or consumption justify a borescope before purchase."
+  },
+  {
+   "head": "Coolant around the turbos",
+   "body": "Look for coolant crust or a sweet smell around the turbos and the lines that feed them, and check both coolant reservoirs. MBWorld owners report cracked turbo coolant lines, and a pressure test is cheap."
+  },
+  {
+   "head": "Oil at the cam magnets",
+   "body": "Unplug a camshaft-adjuster magnet connector. If there's oil inside, it is wicking into the harness, and the magnets need replacing with sacrificial pigtails fitted."
+  },
+  {
+   "head": "Seals under the truck",
+   "body": "Check for gear oil on the inside of the front wheels and on the big AMG calipers (front axle seals), at the transfer-case outputs and at the pinion seals. An MBWorld member says pinion seal leaks are 'very common around 60k–80k'."
+  },
+  {
+   "head": "Test all three lockers",
+   "body": "Engage centre, rear and front in order on loose ground and watch the indicators. A truck that has only ever been driven on pavement can have lockers that don't engage."
+  },
+  {
+   "head": "Rust and drains",
+   "body": "Check the tailgate's lower edge, door bottoms, sills, rear frame tubes and spring mounts. A G 63 rusts like any other G, and 20-inch wheels don't stop road salt."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Spark plugs & ignition coils (M157)",
+   "diff": "2 / 5",
+   "time": "2–3 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Misfire codes (P0300-series), rough idle, hesitation under boost. Often the plugs' age is simply unknown.",
+   "fix": "Remove the engine covers and intake trim, pull each coil, and replace all eight plugs with Mercedes-spec plugs torqued to the service manual figure. Euro Premium Parts' M157 guide recommends inspecting or replacing the coils at the same time, at about 40,000–50,000 miles. Before replacing a coil, check its connector and boot for oil.",
+   "tools": "Thin-wall spark plug socket · extensions and swivel · torque wrench · dielectric grease",
+   "parts": [
+    {
+     "name": "Genuine Mercedes spark plug kit 004 159 81 03 (×8, listed 2013–18 G63)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-spark-plug-kit-genuine-mercedes-0041598103-kit-iskm278b"
+    },
+    {
+     "name": "Bosch ignition coil kit 276 906 05 01 (×8, listed 2013–18 G63)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-ignition-coil-kit-bosch-2769060501-kit-iskm278e"
+    }
+   ]
+  },
+  {
+   "title": "Camshaft-adjuster magnets leaking oil",
+   "diff": "2 / 5",
+   "time": "1–2 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Oil inside the four camshaft-adjuster magnet connectors at the front of the heads. Possible cam-timing codes. On neglected engines, oil wicks along the harness toward the engine computer.",
+   "fix": "Replace all four magnets. Fit sacrificial wiring pigtails so any future leak stops at a cheap connector. Clean the harness plugs with electronic cleaner and check the far end of the harness for oil. FCP Euro's kit is built for this job on the M157, M278 and related engines.",
+   "tools": "Torx bits · electrical contact cleaner · rags · magnets and pigtails",
+   "parts": [
+    {
+     "name": "Camshaft adjuster magnet kit 276 156 07 90 (×4, listed 2013–18 G63)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-camshaft-solenoid-kit-genuine-mercedes-2761560790-kit-2761560790kt"
+    },
+    {
+     "name": "Cam magnet + sacrificial pigtail harness-protection kit (M157/M278)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-camshaft-solenoid-kit-genuine-mercedes-2761560790kt1"
+    }
+   ]
+  },
+  {
+   "title": "Turbo coolant lines & water pump",
+   "diff": "4 / 5",
+   "time": "A day or more",
+   "cost": "Parts plus labor",
+   "symptoms": "Coolant loss with no obvious puddle, coolant crust or a sweet smell near the turbos, low-coolant warning, overheating. An MBWorld owner of a 2014 G 63 found a cracked coolant line at the driver-side turbo.",
+   "fix": "Pressure-test the system to find the leak. Replace the turbo coolant feed and return lines as a set, and on a high-mileage engine do the water pump and thermostat housing at the same time. FCP Euro calls the lines 'a common failure item that can lead to coolant loss and engine overheating.' Access is tight. MBWorld owners disagree on whether it's a sensible DIY, so plan to remove intake parts.",
+   "tools": "Cooling-system pressure tester · hose-clamp pliers · flare and line wrenches · MB 325.6 coolant · vacuum fill tool helpful",
+   "parts": [
+    {
+     "name": "Rein M278/M157 turbocharger coolant line repair kit",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-m278-m157-turbocharger-coolant-line-repair-kit-rein"
+    },
+    {
+     "name": "Genuine Mercedes M157 water pump, thermostat housing & turbo coolant line kit",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-m157-amg-water-pump-and-turbocharger-coolant-line-repair-kit-genuine-mercedes"
+    },
+    {
+     "name": "Genuine Mercedes coolant, MB 325.6, 1 gal",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+    }
+   ]
+  },
+  {
+   "title": "7G-TRONIC fluid & filter service",
+   "diff": "2 / 5",
+   "time": "2–3 hours",
+   "cost": "Parts plus labor",
+   "symptoms": "Harsh or delayed shifts, flare between gears, or just no service record. FCP Euro notes that the 722.9's most common failures are electronic.",
+   "fix": "Drain the pan and the torque converter, replace the filter and pan gasket, refill with MB 236.15 ATF and set the level at the specified fluid temperature with a scan tool. AMSOIL lists the 722.9 total fill as 9.5 qt, and a drain-and-fill replaces only part of it. If shifts are erratic, have a scan tool read the gearbox fault codes before replacing parts.",
+   "tools": "Scan tool for ATF temperature · fluid pump · torque wrench · new filter, gasket and plugs",
+   "parts": [
+    {
+     "name": "FUCHS 722.9 transmission service kit (filter, pan gasket, 2×5 L ATF)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-722-9-transmission-service-kit-pentosin-7229late"
+    },
+    {
+     "name": "FUCHS ATF 7134 FE (MB 236.15), 1 L",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-atf-fuchs-001989770309"
+    }
+   ]
+  },
+  {
+   "title": "Front axle seal leak",
+   "diff": "3 / 5",
+   "time": "A day",
+   "cost": "$600–1,500",
+   "symptoms": "Gear oil on the inner front wheels or the six-piston calipers, a gear-oil smell, brakes pulling.",
+   "fix": "Replace both front axle seals and inspect the shafts for scoring. Replace contaminated pads and resurface or replace the rotors. au7o lists this leak for G 63s and rates it critical because the oil ends up on the brakes.",
+   "tools": "Seal puller and driver · hub tools · GL-5 gear oil · brake parts if oil-soaked",
+   "parts": [
+    {
+     "name": "Genuine Mercedes front axle shaft seal 009 997 28 47",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-axle-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0099972847"
+    },
+    {
+     "name": "Genuine Mercedes front wheel seal 463 334 01 59",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-wheel-seal-front-g500-g55-amg-g550-g63-amg-mer-4633340159"
+    },
+    {
+     "name": "Red Line 75W-90 GL-5 gear oil (1 qt)",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/75w90-gear-oil-quart-oil-57904"
+    }
+   ]
+  },
+  {
+   "title": "Pinion & transfer-case seal leaks",
+   "diff": "3 / 5",
+   "time": "Half a day per seal",
+   "cost": "$500–1,200 (transfer-case output seal, au7o)",
+   "symptoms": "Oil drips at the front of either differential or at the transfer-case outputs; oil spray on the driveshafts.",
+   "fix": "First make sure the axle breather tube isn't kinked or blocked, because pressure pushes oil past seals. Pinion seals need care: an MBWorld member notes the pinion bearing preload is set by a crush sleeve, so mark and measure before removing the nut. For transfer-case output seals, refill with Mercedes-approved fluid and check the flanges for wear.",
+   "tools": "Flange holding tool · seal puller · inch-pound torque wrench · fluids",
+   "parts": [
+    {
+     "name": "Genuine Mercedes transfer case input shaft seal 015 997 08 47",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-transfer-case-input-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0159970847"
+    },
+    {
+     "name": "Genuine Mercedes differential drain plug 901 997 05 35",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-plug-genuine-mercedes-9019970535"
+    },
+    {
+     "name": "GwagenParts.com search: g63 seal",
+     "supplier": "GwagenParts.com",
+     "url": "https://www.gwagenparts.com/?s=g63+seal&post_type=product"
+    }
+   ]
+  },
+  {
+   "title": "Steering damper & front-end wander",
+   "diff": "1 / 5",
+   "time": "≈ 1 hour",
+   "cost": "$300–800",
+   "symptoms": "Wander, wheel shake at 55–70 mph, vague on-centre feel. au7o reports this as the most common W463 complaint.",
+   "fix": "Replace the damper with an OEM or upgraded unit. Check the drag link and tie-rod ends for play and align afterwards. Ask whether recall 17V250 (steering coupling) has been done.",
+   "tools": "Sockets and wrenches · tie-rod end puller · alignment afterwards",
+   "parts": [
+    {
+     "name": "Stabilus steering damper 463 463 00 32",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-steering-damper-stabilus-4634630032"
+    },
+    {
+     "name": "Lemförder tie rod end 002 460 16 48",
+     "supplier": "FCP Euro",
+     "url": "https://www.fcpeuro.com/products/mercedes-outer-tie-rod-end-right-0024601648"
+    },
+    {
+     "name": "King steering stabilizer kit for W463",
+     "supplier": "Eurowise",
+     "url": "https://shop.eurowise.com/products/ew463kss"
+    }
+   ]
+  },
+  {
+   "title": "Frame & body rust treatment",
+   "diff": "3 / 5",
+   "time": "A weekend",
+   "cost": "$400–8,000 (au7o, depending on depth)",
+   "symptoms": "Bubbling at the tailgate lower edge, door bottoms and sills; scale on the rear frame tubes and spring mounts.",
+   "fix": "Remove loose scale, treat with a converter, then apply cavity wax inside the frame and doors and an underbody coating. Keep the drain holes clear. Cut out and weld anything perforated.",
+   "tools": "Wire wheels · rust converter · cavity-wax wand · underbody coating",
+   "parts": [
+    {
+     "name": "GwagenParts.com search: rust repair",
+     "supplier": "GwagenParts.com",
+     "url": "https://www.gwagenparts.com/?s=rust+repair&post_type=product"
+    },
+    {
+     "name": "GwagenParts.com search: tailgate",
+     "supplier": "GwagenParts.com",
+     "url": "https://www.gwagenparts.com/?s=tailgate&post_type=product"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "About 32 inches, on 20-inch wheels. An Expedition Portal owner runs 275/55R20 (about 32 in) on an unlifted G 63, and another 2017 G 63 owner was told by his dealer the size 'will work fine'. Most unlifted W463s fit 33-inch 275/70R18s, but one Expedition Portal member says 18-inch wheels 'will not fit on the G63' over its big front calipers, so try a wheel on the hub before you buy a set. Recode the tyre size so the speedometer and ESP stay accurate.",
+   "src": "EXPEDITION PORTAL"
+  },
+  {
+   "q": "What size are the factory tires?",
+   "a": "275/50R20, according to TireSize.com's fitment data for the 2015, 2016 and 2018 G 63. The launch press material lists 9.5 × 20 AMG wheels. The Edition 463 package offered 21-inch wheels.",
+   "src": "TIRESIZE.COM · AUTOBLOG · CARSCOOPS"
+  },
+  {
+   "q": "Does it have low range and lockers?",
+   "a": "Yes. It is a full W463 with permanent four-wheel drive, a low-range transfer case and centre, rear and front locking differentials.",
+   "src": "WIKIPEDIA · KBB"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "7,716 lb, according to Kelley Blue Book's 2013 G 63 guide. Check your own truck's manual and hitch.",
+   "src": "KBB"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "EPA: 12 mpg city, 14 highway, 13 combined on premium for every model year from 2013 to 2017, with 2018 rated 15 highway. Bigger tyres and a roof rack lower it.",
+   "src": "FUELECONOMY.GOV"
+  },
+  {
+   "q": "What oil does it take, and how much?",
+   "a": "AMSOIL lists 9 qt with the filter, in 0W-40 or 5W-40 full synthetic meeting Mercedes approval. Euro Premium Parts cites MB 229.5/229.51 and recommends changing it every 10,000 miles or yearly. FCP Euro's G 63 oil kit comes with 9 litres.",
+   "src": "AMSOIL · EURO PREMIUM PARTS · FCP EURO"
+  },
+  {
+   "q": "Is the M157 reliable?",
+   "a": "It's strong when maintained, but neglect gets expensive. The well-documented jobs are spark plugs and coils, oil-leaking cam magnets, turbo coolant lines, and turbo oil feed lines on older engines. Cylinder scoring is the serious risk at higher mileage. Buy on service history and a borescope inspection, not on mileage alone.",
+   "src": "FCP EURO · EURO PREMIUM PARTS · AU7O"
+  },
+  {
+   "q": "G 63 or G 550?",
+   "a": "Off-road they are the same truck: same frame, axles, transfer case and lockers. The G 63 adds roughly 150 hp, bigger brakes that rule out 18-inch wheels, and a more complicated twin-turbo engine. If you'll mostly drive trails, a G 550 is cheaper to buy and fit with tyres. If you'll mostly drive pavement, the G 63's engine is the reason to buy it.",
+   "src": "MBUSA · EXPEDITION PORTAL"
+  },
+  {
+   "q": "Which years are best?",
+   "a": "2016–2018 trucks have 563 hp, new dampers and recalibrated ESP and ABS, and they sell for roughly $15,000 more on Bring a Trailer. 2013–2015 trucks are the bargain. On either, make sure the steering-coupling recall (17V250, 2013–2016) is done.",
+   "src": "CARSCOOPS · NHTSA · BRING A TRAILER"
+  },
+  {
+   "q": "Can I use the diff locks on pavement?",
+   "a": "No. Locked differentials stop the wheels turning at different speeds, so on grippy surfaces the driveline binds and the tyres scrub. Lock them on loose ground at low speed and unlock before you're back on tarmac.",
+   "src": "BOXYTRUCKS"
+  },
+  {
+   "q": "What replaced it?",
+   "a": "The second-generation G 63 for the 2019 model year. It has a 4.0-litre twin-turbo M177 with 577 hp, a 40:60 torque split and independent front suspension, and it still has three lockers.",
+   "src": "WIKIPEDIA · MBUSA"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "WHEELS & TIRES",
+   "why": "Taller, narrower all-terrains on 20s, or smaller wheels that have been test-fitted over the brakes. This is the biggest off-road improvement for a G 63.",
+   "who": [
+    {
+     "name": "GwagenParts.com — G 55 / G 63 wheels",
+     "url": "https://www.gwagenparts.com/?s=g63&post_type=product"
+    }
+   ]
+  },
+  {
+   "cat": "LIFT & SHOCKS",
+   "why": "A 60–100 mm spring lift with matched dampers makes room for 33–35-inch tyres and controls a heavy V8 nose.",
+   "who": [
+    {
+     "name": "Eurowise (OME 50 mm springs)",
+     "url": "https://shop.eurowise.com/products/ew463ome"
+    },
+    {
+     "name": "GwagenParts — 4-inch lift kit for 2012–2018 G 63",
+     "url": "https://www.gwagenparts.com/product/g-wagon-lift-kit-4-inch-with-steering-stabilizer-for-mercedes-benz-g63-amg-2012-2018/"
+    },
+    {
+     "name": "GwagenParts — ARB 50 mm springs (1990–2018 W463)",
+     "url": "https://www.gwagenparts.com/product/arb-50mm-lift-springs-for-my-90-18-mercedes-g-class-w463/"
+    }
+   ]
+  },
+  {
+   "cat": "PORTAL AXLES",
+   "why": "Bolt-on portal conversions that give a pre-2019 W463 4×4²-style clearance without using the factory truck's parts.",
+   "who": [
+    {
+     "name": "GwagenParts — portal axle conversion for W463 (6-inch lift)",
+     "url": "https://www.gwagenparts.com/product/portal-axle-conversion-6-inches-lift-for-2014-2019-g63-g550-g65-w463/"
+    },
+    {
+     "name": "GwagenParts — OEM-style 4×4 portal conversion (W463)",
+     "url": "https://www.gwagenparts.com/product/mercedes-g-class-4x4-oem-style-portal-axle-conversion-for-g550-g63-w463/"
+    }
+   ]
+  },
+  {
+   "cat": "STEERING",
+   "why": "A heavier steering damper and new ends to stop the wander that bigger tyres make worse.",
+   "who": [
+    {
+     "name": "Eurowise — King steering stabilizer kit",
+     "url": "https://shop.eurowise.com/products/ew463kss"
+    }
+   ]
+  },
+  {
+   "cat": "ROOF RACKS & LADDERS",
+   "why": "Flat platform racks for tents, recovery boards and fuel.",
+   "who": [
+    {
+     "name": "LETECH long-wheelbase rack (via GwagenParts)",
+     "url": "https://www.gwagenparts.com/mercedes-benz-g-class-long-wheelbase-roof-rack-by-letech-w460-w461-w463/"
+    },
+    {
+     "name": "Front Runner",
+     "url": "https://www.frontrunneroutfitters.com/"
+    }
+   ]
+  },
+  {
+   "cat": "OVERLAND BUILDS",
+   "why": "G-specific builders who add armour, lighting and storage.",
+   "who": [
+    {
+     "name": "Jackwagon Overlanding",
+     "url": "https://jackwagonoverlanding.com/"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "2013–2015 · US",
+   "label": "G 63 AMG (pre-facelift)",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2013&maxyear=2015&keywords=g63",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  },
+  {
+   "years": "2016–2018 · US",
+   "label": "Mercedes-AMG G 63 (571 PS)",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2016&maxyear=2018&keywords=g63",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  },
+  {
+   "years": "2013–2018 · ALL",
+   "label": "G 63 AMG",
+   "at_url": "https://www.autotempest.com/results?make=mercedesbenz&model=gclass&minyear=2013&maxyear=2018&keywords=g63",
+   "bat_url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Nothing But G's",
+   "focus": "G BUILDS & TECH",
+   "url": "https://www.youtube.com/@Nothing-but-Gs"
+  },
+  {
+   "kind": "YT",
+   "name": "Jack Wagon Overlanding",
+   "focus": "G-WAGEN OVERLAND BUILDS",
+   "url": "https://www.youtube.com/@JackwagonOverlanding"
+  },
+  {
+   "kind": "YT",
+   "name": "Eurowise Inc.",
+   "focus": "G-CLASS PARTS & UPGRADES",
+   "url": "https://www.youtube.com/user/eurowiseinc"
+  },
+  {
+   "kind": "IG",
+   "name": "@jackwagonoverlanding",
+   "focus": "G-WAGEN OVERLAND BUILDS",
+   "url": "https://www.instagram.com/jackwagonoverlanding/"
+  }
+ ],
+ "forums": [
+  {
+   "name": "MBWorld — G-Class (W460 / W461 / W463)",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/",
+   "note": "Most G 63 ownership threads: turbo coolant lines, seals, lockers"
+  },
+  {
+   "name": "Club G-Wagen",
+   "url": "https://clubgwagen.com/forum/",
+   "note": "The original G community; rallies and classifieds"
+  },
+  {
+   "name": "BenzWorld — G-Class",
+   "url": "https://www.benzworld.org/forums/g-class.209/",
+   "note": "General ownership and maintenance"
+  },
+  {
+   "name": "Expedition Portal",
+   "url": "https://forum.expeditionportal.com/",
+   "note": "Tyre fitment on G 63s and W463 overland builds"
+  },
+  {
+   "name": "r/gwagon",
+   "url": "https://www.reddit.com/r/gwagon/",
+   "note": "Quick answers and photos"
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "G 55 AMG",
+   "family": "g-class",
+   "gen": "g55-amg"
+  },
+  {
+   "rel": "SIX-WHEELED SIBLING",
+   "name": "G 63 AMG 6×6",
+   "family": "g-class",
+   "gen": "g63-6x6"
+  },
+  {
+   "rel": "NON-AMG SIBLING",
+   "name": "G 550",
+   "family": "g-class",
+   "gen": "g550"
+  },
+  {
+   "rel": "PORTAL-AXLE SIBLING",
+   "name": "G 500 4×4²",
+   "family": "g-class",
+   "gen": "4x4-squared"
+  },
+  {
+   "rel": "BASE TRUCK",
+   "name": "G-Class W463",
+   "family": "g-class",
+   "gen": "w463"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "Second-generation G (incl. G 63)",
+   "family": "g-class",
+   "gen": "second-gen"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "W463"
+  },
+  {
+   "k": "YEARS",
+   "v": "2012–2018 (US MY2013–2018)"
+  },
+  {
+   "k": "ENGINE",
+   "v": "M157 5.5 L biturbo V8"
+  },
+  {
+   "k": "OUTPUT",
+   "v": "544 PS → 571 PS (2016)"
+  },
+  {
+   "k": "TORQUE",
+   "v": "760 Nm (560 lb-ft)"
+  },
+  {
+   "k": "GEARBOX",
+   "v": "7G-TRONIC 7-speed automatic"
+  },
+  {
+   "k": "DRIVE",
+   "v": "Full-time 4WD, low range"
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Centre, rear, front"
+  },
+  {
+   "k": "AXLES",
+   "v": "Solid, front & rear"
+  },
+  {
+   "k": "0–60 MPH",
+   "v": "5.3 s (2013)"
+  },
+  {
+   "k": "TOP SPEED",
+   "v": "130 mph (limited)"
+  },
+  {
+   "k": "EPA",
+   "v": "12 city / 14 hwy / 13 comb."
+  }
+ ],
+ "photos": [
+  {
+   "file": "g63-amg-fort-campbell-trail.jpg",
+   "alt": "A white 2012-on G 63 AMG with LED running lights and the AMG three-intake bumper stopped on a gravel track in smoke, surrounded by soldiers during a Top Gear USA shoot at Fort Campbell",
+   "caption": "G 63 AMG · FORT CAMPBELL TRAINING AREA",
+   "credit": "Sgt. Joe Padula, US Army · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:%22Top_Gear%22_Fort_Campbell_episode_to_air_Feb._5_120926-A-PY395-003.jpg"
+  },
+  {
+   "file": "g63-amg-legendy-grass.jpg",
+   "alt": "A dark grey G 63 AMG with V8 Biturbo fender badges parked on grass at an outdoor show",
+   "caption": "G 63 AMG · GRASS FIELD, LEGENDY 2014",
+   "credit": "Jiří Sedláček · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W463_G_63_AMG_at_Legendy_2014.JPG"
+  },
+  {
+   "file": "g63-amg-roof-rack-rear.jpg",
+   "alt": "A sand-coloured 2013 G 63 AMG with a roof rack, ladder and surfboards, seen from the rear on a gravel lot",
+   "caption": "G 63 AMG · ROOF RACK BUILD",
+   "credit": "Mr.choppers · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2013_Mercedes-Benz_G63_AMG_in_%22Desert_Storm_Gloss%22_wrap,_rear_right.jpg"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "Autoblog — Mercedes reveals G63 and G65 AMG ahead of Beijing",
+   "url": "https://www.autoblog.com/2012/04/19/mercedes-reveals-g63-and-g65-amg-ahead-of-beijing/"
+  },
+  {
+   "name": "Automotive Fleet — Mercedes-Benz 2013 G63 AMG improves fuel efficiency",
+   "url": "https://www.automotive-fleet.com/81146/mercedes-benz-2013-g63-amg-improves-fuel-efficiency"
+  },
+  {
+   "name": "AutoGuide — Five-Point Inspection: 2013 Mercedes-Benz G63 AMG",
+   "url": "https://www.autoguide.com/auto-news/2012/11/2013-mercedes-benz-g63-amg-review.html"
+  },
+  {
+   "name": "Kelley Blue Book — 10 things to know about the 2013 Mercedes-Benz G63 AMG",
+   "url": "https://www.kbb.com/car-news/all-the-latest/10-things-to-know-about-the-2013-mercedes_benz-g63-amg/2000008914"
+  },
+  {
+   "name": "MotorTrend — 2014 Mercedes-Benz G63 AMG 6x6 First Drive (G 63 comparison figures)",
+   "url": "https://www.motortrend.com/reviews/2014-mercedes-benz-g63-amg-6x6-first-drive"
+  },
+  {
+   "name": "Carscoops — 2016 Mercedes-Benz G-Class gets new engines",
+   "url": "https://www.carscoops.com/2015/05/2016-mercedes-benz-g-class-gets-new/"
+  },
+  {
+   "name": "GTspirit — Official: 2016 Mercedes-Benz G-Class",
+   "url": "https://gtspirit.com/2015/05/05/official-2016-mercedes-benz-g-class/"
+  },
+  {
+   "name": "US EPA / DOE — fueleconomy.gov (2013–2018 G63)",
+   "url": "https://www.fueleconomy.gov/"
+  },
+  {
+   "name": "NHTSA — recalls API",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=17V250000"
+  },
+  {
+   "name": "au7o — Mercedes-Benz G-Class known issues (2014)",
+   "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2014"
+  },
+  {
+   "name": "Euro Premium Parts — Mercedes-Benz M157 engine guide",
+   "url": "https://europremiumparts.com/en-ca/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
+  },
+  {
+   "name": "MBWorld — Help needed: '14 G63 turbo coolant leak",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/833508-help-needed-14-g63-turbo-coolant-leak.html"
+  },
+  {
+   "name": "MBWorld — G63 leaking oil under car (pinion seal)",
+   "url": "https://mbworld.org/forums/g-class-w460-w461-w463/780188-g63-leaking-oil-under-car-what-called.html"
+  },
+  {
+   "name": "FCP Euro — Mercedes-Benz G63 AMG parts catalog",
+   "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G63-AMG/"
+  },
+  {
+   "name": "FCP Euro — M278/M157 turbocharger coolant line repair kit",
+   "url": "https://www.fcpeuro.com/products/mercedes-m278-m157-turbocharger-coolant-line-repair-kit-rein"
+  },
+  {
+   "name": "FCP Euro — camshaft solenoid wiring harness protection kit",
+   "url": "https://www.fcpeuro.com/products/mercedes-camshaft-solenoid-kit-genuine-mercedes-2761560790kt1"
+  },
+  {
+   "name": "FCP Euro — 722.9 transmission service kit",
+   "url": "https://www.fcpeuro.com/products/mercedes-722-9-transmission-service-kit-pentosin-7229late"
+  },
+  {
+   "name": "AMSOIL — 2014 Mercedes-Benz G63 AMG (157.984) capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2014/mercedes-benz/g63-amg/5-5l-8-cyl-engine-code-157-984-8-turbo/"
+  },
+  {
+   "name": "AMSOIL — 2017 Mercedes-Benz G63 AMG capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2017/mercedes-benz/g63-amg/5-5l-8-cyl-engine-code-157-984-6-turbo/"
+  },
+  {
+   "name": "TireSize.com — 2015 Mercedes-Benz G63 tire size",
+   "url": "https://tiresize.com/tires/Mercedes-Benz/G63/2015/"
+  },
+  {
+   "name": "Expedition Portal — 2017 G550 tire options thread (G 63 posts)",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2207603"
+  },
+  {
+   "name": "Expedition Portal — W463 tire fitment posts",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2200676"
+  },
+  {
+   "name": "Bring a Trailer — W463 G-Class AMG 1990–2018 (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-1991-2018/"
+  },
+  {
+   "name": "GwagenParts.com — G-Class parts",
+   "url": "https://www.gwagenparts.com/"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Baseline everything the week you buy it. On top of the usual W463 knuckle, axle and diff-lock care, the G 63 has a twin-turbo direct-injection V8 with two coolant circuits and a seven-speed whose fluid is easy to neglect. Assume nothing was done unless there's a receipt.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "0W-40 or 5W-40 full synthetic to MB 229.5 · 9 qt with filter (AMSOIL)",
+    "interval": "Then every 10,000 mi or yearly (Euro Premium Parts' M157 guidance)",
+    "note": "Shorter intervals protect the cam adjusters and turbos. Check the level again after the refill, as AMSOIL advises.",
+    "parts": [
+     {
+      "name": "Liqui Moly 0W-40 oil change kit, 9 L + Hengst filter (listed 2013–18 G63)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-oil-change-kit-0w-40-liqui-moly-2781800009-9l-v1"
+     }
+    ]
+   },
+   {
+    "item": "Air filters",
+    "spec": "278 094 00 04 elements",
+    "interval": "Now, then about every 20,000 mi; sooner on dusty trails",
+    "note": "Twin turbos draw a lot of air, and a clogged filter shows up as lost boost.",
+    "parts": [
+     {
+      "name": "Mann air filter 278 094 00 04 (listed 2013–18 G63)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-air-filter-mann-c3397"
+     }
+    ]
+   },
+   {
+    "item": "Cabin filter",
+    "spec": "W463 cabin filter",
+    "interval": "Now, then yearly",
+    "note": "",
+    "parts": [
+     {
+      "name": "Mahle LAK120 cabin air filter",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-cabin-air-filter-mahle-lak120"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs & coils",
+    "spec": "8 plugs (Mercedes 004 159 81 03) · coils checked or replaced together",
+    "interval": "Now if no record; about every 40,000–50,000 mi",
+    "note": "Check coil boots and the cam-magnet plugs for oil while you're there.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes spark plug kit 004 159 81 03 (×8, listed 2013–18 G63)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-spark-plug-kit-genuine-mercedes-0041598103-kit-iskm278b"
+     },
+     {
+      "name": "Bosch ignition coil kit 276 906 05 01 (×8, listed 2013–18 G63)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-ignition-coil-kit-bosch-2769060501-kit-iskm278e"
+     }
+    ]
+   },
+   {
+    "item": "Engine coolant (high-temperature circuit)",
+    "spec": "MB 325.6-approved coolant, 50/50 · ≈14.6 qt (AMSOIL)",
+    "interval": "Now if history is unknown; then about every 4 years",
+    "note": "Pressure-test and inspect the turbo coolant lines and the plastic expansion tank.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes coolant, MB 325.6, 1 gal",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-coolant-antifreeze-genuine-mercedes-mer-q1030005"
+     },
+     {
+      "name": "Mahle/Behr coolant expansion tank 204 500 09 49",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-coolant-expansion-tank-mahle-behr-2045000949"
+     }
+    ]
+   },
+   {
+    "item": "Charge-air cooling (low-temperature circuit)",
+    "spec": "Separate circuit · ≈3.1 qt (AMSOIL)",
+    "interval": "Check the level now; bleed after any work",
+    "note": "Low-speed heat soak on the trail is when this circuit works hardest. FCP Euro lists a Pierburg auxiliary water pump for 2013–16 G 63s.",
+    "parts": [
+     {
+      "name": "Pierburg auxiliary water pump 000 500 04 86 (listed 2013–16 G63)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-engine-auxiliary-water-pump-sls-amg-sl63-amg-g63-amg-sl65-amg-mer-0005000486"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (7G-TRONIC 722.9)",
+    "spec": "MB 236.15 ATF · 9.5 qt total fill (AMSOIL)",
+    "interval": "Now if no record; Euro Premium Parts suggests every 40,000 mi",
+    "note": "Drain the pan and converter, fit a new filter, and set the level at temperature with a scan tool.",
+    "parts": [
+     {
+      "name": "FUCHS 722.9 transmission service kit (filter, pan gasket, 2×5 L ATF)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-722-9-transmission-service-kit-pentosin-7229late"
+     },
+     {
+      "name": "FUCHS ATF 7134 FE (MB 236.15), 1 L",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-atf-fuchs-001989770309"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case",
+    "spec": "[CONFIRM IN MANUAL]: AMSOIL lists no recommendation",
+    "interval": "Now, if no record",
+    "note": "Look for leaks at the output seals (a common G 63 job, according to au7o).",
+    "parts": [
+     {
+      "name": "Genuine Mercedes transfer case input shaft seal 015 997 08 47",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-transfer-case-input-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0159970847"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "Hypoid gear oil, GL-5 · front ≈3 pt, rear ≈3.8 pt (AMSOIL)",
+    "interval": "Now, then with the transfer case",
+    "note": "Loosen the fill plug before draining, check the breathers, and test each locker afterwards.",
+    "parts": [
+     {
+      "name": "Red Line 75W-90 GL-5 gear oil (1 qt)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/75w90-gear-oil-quart-oil-57904"
+     },
+     {
+      "name": "Genuine Mercedes differential drain plug 901 997 05 35",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-plug-genuine-mercedes-9019970535"
+     },
+     {
+      "name": "Genuine Mercedes differential cover gasket 601 351 00 80",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-differential-cover-gasket-genuine-mercedes-6013510080"
+     }
+    ]
+   },
+   {
+    "item": "Front knuckles, wheel bearings & seals",
+    "spec": "Inspect bearings and axle seals; repack",
+    "interval": "If no record",
+    "note": "Oil on brakes this large needs fixing right away.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes front wheel bearing, outer 009 981 48 05",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-wheel-bearing-front-outer-g500-g55-amg-g550-g63-amg-mer-0099814805"
+     },
+     {
+      "name": "Genuine Mercedes front wheel seal 463 334 01 59",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-wheel-seal-front-g500-g55-amg-g550-g63-amg-mer-4633340159"
+     },
+     {
+      "name": "Genuine Mercedes front axle shaft seal 009 997 28 47",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-axle-shaft-seal-front-g500-g55-amg-g550-g63-amg-mer-0099972847"
+     }
+    ]
+   },
+   {
+    "item": "Power steering fluid",
+    "spec": "MB 236.3 power-steering fluid",
+    "interval": "Now",
+    "note": "Recirculating-ball box; check the damper and tie-rod ends at the same time.",
+    "parts": [
+     {
+      "name": "Febi power steering fluid (MB 236.3)",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/power-steering-fluid-0009898803"
+     },
+     {
+      "name": "Stabilus steering damper 463 463 00 32",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-steering-damper-stabilus-4634630032"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "DOT 4 Plus (MB sheet 331.0, per AMSOIL)",
+    "interval": "Now, then every 2 years",
+    "note": "The six-piston front calipers hold a lot of fluid, so flush until it runs clean.",
+    "parts": [
+     {
+      "name": "Genuine Mercedes DOT 4 Plus brake fluid, 1 L",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/mercedes-dot-4-plus-motor-vehicle-brake-fluid-1l-genuine-mercedes-000989080701"
+     }
+    ]
+   },
+   {
+    "item": "Battery",
+    "spec": "Group 49 AGM",
+    "interval": "Test now",
+    "note": "Start/stop, COMAND and the locker electronics all react badly to low voltage.",
+    "parts": [
+     {
+      "name": "Bosch S6 AGM battery, group 49",
+      "supplier": "FCP Euro",
+      "url": "https://www.fcpeuro.com/products/group-49-battery-bosch-s6588b"
+     }
+    ]
+   }
+  ]
+ }
+}

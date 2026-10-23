@@ -1,0 +1,460 @@
+{
+ "fitment": {
+  "stock": [
+   "245/75R17 (Sport, Sport S)",
+   "255/70R18 (Overland)",
+   "LT285/70R17C (Rubicon, Mojave)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x127 (5x5\")",
+   "center_bore": "71.5 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "33 in (285/70R17) on Sport; 35x11.50R17 on Rubicon/Mojave",
+    "note": "Drivingline says a stock Rubicon runs 35x11.50R17 on the factory 17x7.5 wheel. JeepGladiatorForum owners report 33s on stock Sports without rubbing; opinions differ on 35s, which may touch the flares at full flex."
+   },
+   {
+    "lift": "1 in front spacer + bump stops",
+    "size": "37 in (Rubicon)",
+    "note": "Drivingline's minimum for 37s on a Rubicon; expect some rubbing off-road. Wheel backspacing is critical, and 4.88 or 5.13 gears are recommended."
+   },
+   {
+    "lift": "2 in (AEV Upcountry, 2024+)",
+    "size": "35 in BFGoodrich KO2",
+    "note": "AEV package offered with the 2024 refresh on Sport, Willys, Mojave and Rubicon. AEV's Rubicon-only Level II package uses 37s."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear driveshaft monoblock assembled without grease",
+    "years": "2020",
+    "ref": "NHTSA 19V-636",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V636000",
+    "summary": "Rear driveshaft could fracture and cut drive power; trucks built Dec 15, 2018 – Jun 25, 2019 get a new driveshaft."
+   },
+   {
+    "title": "Manual clutch pressure plate",
+    "years": "2020",
+    "ref": "NHTSA 20V-124",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V124000",
+    "summary": "Pressure plate may overheat and fracture."
+   },
+   {
+    "title": "Manual clutch pressure plate (software)",
+    "years": "2020–2021",
+    "ref": "NHTSA 21V-028",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V028000",
+    "summary": "Further remedy for clutch overheating on manual trucks."
+   },
+   {
+    "title": "Manual clutch assembly replacement",
+    "years": "2020–2023",
+    "ref": "NHTSA 23V-116",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V116000",
+    "summary": "Clutch pressure plate may overheat and fracture; dealers replace the clutch assembly."
+   },
+   {
+    "title": "PCM software after clutch remedy",
+    "years": "2021",
+    "ref": "NHTSA 24V-572",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V572000",
+    "summary": "Trucks fixed under 23V-116 could stall from PCM software; needs a further update."
+   },
+   {
+    "title": "Front seat belt retractor",
+    "years": "2020",
+    "ref": "NHTSA 20V-580",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V580000",
+    "summary": "Retractor may not properly limit occupant movement in a crash."
+   },
+   {
+    "title": "Rear camera image",
+    "years": "2020–2021",
+    "ref": "NHTSA 20V-191 / 22V-638",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V638000",
+    "summary": "Radio software may fail to show the rear camera image."
+   },
+   {
+    "title": "Automatic transmission park pawl",
+    "years": "2022",
+    "ref": "NHTSA 22V-639",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V639000",
+    "summary": "Parking wheel may not engage the park mechanism, so the truck could roll."
+   },
+   {
+    "title": "Seat belt pretensioner gas generator",
+    "years": "2022",
+    "ref": "NHTSA 22V-766",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V766000",
+    "summary": "Improperly welded micro gas generator may cause pretensioner failure."
+   },
+   {
+    "title": "3.0 EcoDiesel high-pressure fuel pump",
+    "years": "2021–2022",
+    "ref": "NHTSA 22V-767",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V767000",
+    "summary": "Pump may fail and stall the engine."
+   },
+   {
+    "title": "3.0 EcoDiesel high-pressure fuel pump (expansion)",
+    "years": "2021–2023",
+    "ref": "NHTSA 23V-263",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V263000",
+    "summary": "Same pump failure on later diesels."
+   },
+   {
+    "title": "Manual-transmission reverse camera and lights",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V-641",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V641000",
+    "summary": "Rear camera and reverse lights may not work in reverse."
+   },
+   {
+    "title": "Driver airbag clockspring",
+    "years": "2023",
+    "ref": "NHTSA 24V-199",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V199000",
+    "summary": "Clockspring fault in a multi-model Stellantis campaign."
+   },
+   {
+    "title": "Instrument cluster short circuit",
+    "years": "2020–2024",
+    "ref": "NHTSA 24V-652",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V652000",
+    "summary": "Cluster may short internally and fail."
+   },
+   {
+    "title": "Electro-hydraulic power steering pump wiring fire",
+    "years": "2021–2025",
+    "ref": "NHTSA 26V-363",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V363000",
+    "summary": "Pump wiring may overheat and start a fire, even when parked; reported June 2026."
+   },
+   {
+    "title": "Steel wheel walls too thin",
+    "years": "2026",
+    "ref": "NHTSA 26V-456",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V456000",
+    "summary": "Steel wheels may crack or detach."
+   },
+   {
+    "title": "Rear camera",
+    "years": "2026",
+    "ref": "NHTSA 26V-531",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V531000",
+    "summary": "Rear camera issue in a multi-model Stellantis campaign."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "2018",
+   "change": "Revealed November 28 at the Los Angeles Auto Show: JL-based crew-cab pickup, 137.3 in wheelbase, five-foot steel bed, Dana 44 axles",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "Production starts in Toledo in April. 4,190 Rubicon Launch Editions offered for preorder on April 4 (Jeep 4x4 Day)",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "First model year: 3.6 Pentastar with 6-speed manual or 8-speed auto; Sport, Sport S, Overland, Rubicon; Max Tow 7,650 lb. Mojave ('Desert Rated') and High Altitude shown at Chicago. Rear driveshaft recall 19V-636 on early builds",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "3.0 EcoDiesel V6 (260 hp, 442 lb-ft, auto only) on all trims except Mojave; Willys and Willys Sport added; Texas Trail edition",
+   "flag": "buy"
+  },
+  {
+   "year": "2022",
+   "change": "Uconnect 4 7.0 standard on base trims; Alpine audio standard on Overland, Mojave and Rubicon",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "Last EcoDiesel year: 1,000 Rubicon FarOut editions. High Altitude returns",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Refresh: seven-slot grille, windshield antenna, 12.3 in Uconnect 5, standard curtain airbags, Mojave X and Rubicon X, rear locker standard on Willys, AEV Upcountry and Level II packages",
+   "flag": "buy"
+  },
+  {
+   "year": "2025",
+   "change": "Six-speed manual dropped. 4xe plug-in hybrid announced, then cancelled in September 2025",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Sahara trim added; all trucks 3.6 V6 with 8-speed auto. Steel-wheel recall 26V-456; power-steering pump wiring recall 26V-363 covers 2021–2025",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every Gladiator looks much the same, but the trim decides the axles, gearing, transfer case and lockers. The difference between a Sport and a Rubicon is far more than badges.",
+  "items": [
+   {
+    "head": "Rubicon",
+    "body": "Rock-Trac transfer case with 4:1 low range, front and rear Tru-Lok lockers, 4.10 gears, electronic sway-bar disconnect, LT285/70R17 tires and wide-track axles (64.4 in). Look for the locker and sway-bar switches on the dash."
+   },
+   {
+    "head": "Mojave",
+    "body": "FOX 2.5 in internal-bypass shocks with external reservoirs, FOX hydraulic front jounce bumpers, 'Desert Rated' fender badges, orange tow hooks, 65.0 in track, rear locker that works at speed in 4-High. Command-Trac 2.72:1 low range, not Rock-Trac."
+   },
+   {
+    "head": "Max Tow (Sport, Sport S)",
+    "body": "4.10 gears, wider 64.4 in track and the 7,650 lb rating (8-speed only, 2020 spec). Without it, Sports have 3.73 gears and a 62.9 in track."
+   },
+   {
+    "head": "EcoDiesel",
+    "body": "2021–2023 only, automatic only and never on a Mojave. The 2023 Rubicon FarOut has a 'Diesel 3.0L' hood graphic; 1,000 were built."
+   },
+   {
+    "head": "Pre- or post-2024",
+    "body": "2024-on trucks have a seven-slot grille with narrower slots, no mast antenna (it's in the windshield), the 12.3 in Uconnect 5 screen and standard curtain airbags."
+   },
+   {
+    "head": "Rubicon Launch Edition",
+    "body": "2020 only, 4,190 built (a nod to Toledo's 419 area code), with special badges and wheels and a leather-wrapped dash with red stitching."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "Up to 7,650 lb (3,470 kg)",
+   "note": "2020 Sport Max Tow, automatic; Rubicon auto 7,000 lb; manuals 4,000–4,500 lb; EcoDiesel 6,500 lb (Rubicon 6,000 lb)"
+  },
+  {
+   "k": "Payload",
+   "v": "1,105–1,700 lb (501–771 kg)",
+   "note": "2020 spec sheet, by trim and gearbox; up to 1,720 lb quoted for 2026"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "22 US gal (83 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "10.0 in (253 mm) Sport · 11.1 in (283 mm) Rubicon · 11.6 in Mojave"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "43.4° / 26° / 20.3° (Rubicon)",
+   "note": "Sport 40.8° / 25° / 18.4°; Mojave 44.7° / 25.5° / 20.9°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "30 in (762 mm)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 17 city / 22 hwy (3.6 auto)",
+   "note": "16/23 manual; EcoDiesel 22/28 (Rubicon 21/27)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,650–5,072 lb (2,109–2,301 kg)",
+   "note": "2020 gas trucks; EcoDiesel about 300 lb heavier"
+  },
+  {
+   "k": "Turning circle",
+   "v": "44.5–45.0 ft (13.6–13.7 m)",
+   "note": "curb to curb"
+  },
+  {
+   "k": "Bed",
+   "v": "60.3 in long (81.3 in tailgate down), 44.8 in between wheelhouses"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still in production, so used prices follow new ones. Bring a Trailer results are dominated by engine-swapped builds, while stock trucks sell for well under the original sticker.",
+  "ranges": [
+   {
+    "cond": "Stock driver (2020–21 gas)",
+    "range": "$22k–35k"
+   },
+   {
+    "cond": "Low-mile Rubicon / EcoDiesel",
+    "range": "$37k–48k"
+   },
+   {
+    "cond": "V8-swapped or 6x6 builds",
+    "range": "$45k–141k"
+   },
+   {
+    "cond": "New, 2026 MSRP (before destination)",
+    "range": "$38,830–59,995"
+   }
+  ],
+  "note": "Based on 16 Bring a Trailer sales from October 2025 to October 2026 (median $46,750, skewed by AMW Hellcat/Demon conversions; stock trucks sold for $21,750–45,000), plus Mopar Insiders' 2026 trim pricing from Sport to Rubicon X and Mojave X."
+ },
+ "docs": [
+  {
+   "name": "Stellantis TechAuthority",
+   "url": "https://www.techauthority.com/",
+   "note": "Official Stellantis service information and wiring diagrams, by subscription"
+  },
+  {
+   "name": "2020 Jeep Gladiator specifications (Stellantis media PDF)",
+   "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2020_JP_Gladiator_SPamknhgr3g718bnft6e2lii6rla.pdf",
+   "note": "Factory dimensions, axle ratios, capacities and the full towing and payload table"
+  },
+  {
+   "name": "NHTSA recall lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Check open recalls by VIN"
+  }
+ ],
+ "production": {
+  "intro": "Built at the Toledo Assembly Complex in Ohio since April 2019, alongside the Wrangler.",
+  "items": [
+   {
+    "k": "Plant",
+    "v": "Toledo, Ohio (Toledo Supplier Park / Toledo Complex)"
+   },
+   {
+    "k": "Engine plant (3.6)",
+    "v": "Saltillo South Engine Plant, Coahuila, Mexico"
+   },
+   {
+    "k": "Markets",
+    "v": "North America, plus Australia, New Zealand, China, Japan, South Korea, South Africa, the Middle East, parts of South America and Southeast Asia; Europe 2021–23 (diesel only)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Rubicon Launch Edition",
+    "years": "2020",
+    "note": "4,190 built, preorder on April 4, 2019; MSRP $62,310"
+   },
+   {
+    "name": "North Edition",
+    "years": "2020",
+    "note": "Overland-based cold-weather edition"
+   },
+   {
+    "name": "Mojave",
+    "years": "2020–present",
+    "note": "Jeep's first 'Desert Rated' model; sold as Sandrunner in the Middle East"
+   },
+   {
+    "name": "Texas Trail",
+    "years": "2021",
+    "note": "Texas-only Sport S-based edition"
+   },
+   {
+    "name": "80th Anniversary",
+    "years": "2021",
+    "note": "Anniversary edition"
+   },
+   {
+    "name": "Rubicon FarOut",
+    "years": "2023",
+    "note": "1,000 built; the final EcoDiesel Gladiators"
+   },
+   {
+    "name": "Mojave X / Rubicon X",
+    "years": "2024–present",
+    "note": "Steel bumpers, full-time transfer case, off-road camera, power seats"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail event in Moab, Utah. 2027 dates: March 20–28."
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Beach",
+   "url": "https://www.jeepbeach.com/",
+   "note": "Nonprofit Jeep-only event in Daytona Beach, Florida; 2027 dates April 16–25."
+  },
+  {
+   "kind": "club",
+   "name": "JeepGladiatorForum",
+   "url": "https://www.jeepgladiatorforum.com/",
+   "note": "The main JT owners' forum"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Stellantis/FCA — 2020 Jeep Gladiator specifications (PDF)",
+   "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2020_JP_Gladiator_SPamknhgr3g718bnft6e2lii6rla.pdf"
+  },
+  {
+   "name": "Wikipedia — Jeep Gladiator (JT)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Gladiator_(JT)"
+  },
+  {
+   "name": "Pickup Truck + SUV Talk — 2020 Jeep Gladiator revealed",
+   "url": "https://pickuptrucktalk.com/2018/11/2020-jeep-gladiator-revealed/"
+  },
+  {
+   "name": "Motor1 — 2024 Jeep Gladiator debuts with new grille, AEV packs",
+   "url": "https://www.motor1.com/news/686402/2024-jeep-gladiator-debuts-grille-aev-pack/"
+  },
+  {
+   "name": "Motor1 — 2021 Jeep Gladiator EcoDiesel first drive",
+   "url": "https://www.motor1.com/reviews/444696/2021-jeep-gladiator-ecodiesel-first-drive-review/"
+  },
+  {
+   "name": "Mopar Insiders — 2026 Jeep Gladiator buyer's guide",
+   "url": "https://moparinsiders.com/2026-jeep-gladiator-buyers-guide/"
+  },
+  {
+   "name": "Drivingline — 35-inch vs 37-inch tires for the Gladiator Rubicon",
+   "url": "https://drivingline.com/articles/35-inch-vs-37-inch-tires-for-the-jeep-gladiator-rubicon/"
+  },
+  {
+   "name": "JeepGladiatorForum — 33s on stock suspension (Sport)",
+   "url": "https://www.jeepgladiatorforum.com/forum/threads/33s-on-stock-suspension-sport.68858/"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep Gladiator 2020",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=gladiator&modelYear=2020"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep Gladiator 2023",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=gladiator&modelYear=2023"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep Gladiator 2025",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=gladiator&modelYear=2025"
+  },
+  {
+   "name": "NHTSA recalls API — Jeep Gladiator 2026",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=gladiator&modelYear=2026"
+  },
+  {
+   "name": "Bring a Trailer — Jeep JT Gladiator sold results",
+   "url": "https://bringatrailer.com/jeep/jt-gladiator/"
+  },
+  {
+   "name": "Jeep Beach",
+   "url": "https://www.jeepbeach.com/"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}

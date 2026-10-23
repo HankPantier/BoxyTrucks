@@ -21,6 +21,7 @@ GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
+INDEXNOW_KEY = 'df5e9f5700c975efa4ebdb9e75a3fa77'  # public by design: IndexNow verifies ownership by fetching /<key>.txt
 # Families are shown everywhere in alphabetical order of the name people use for them.
 SHORT_NAME = {'4runner': '4Runner', 'g-class': 'G-Class', 'grenadier': 'Grenadier', 'jeep': 'Jeep',
               'land-cruiser': 'Land Cruiser', 'land-rover': 'Land Rover', 'lexus': 'Lexus LX & GX', 'range-rover': 'Range Rover',
@@ -239,6 +240,50 @@ def gen_ld(fam, g, page):
     return out
 
 
+
+# ---- pretty URLs: every page is built as <name>/index.html and linked as <name>/ ----
+from urllib.parse import urljoin as _urljoin
+def pretty_path(path):
+    """'/models/jeep/tj.html#faq' -> '/models/jeep/tj/#faq'; '/x/index.html' -> '/x/'."""
+    frag = ''
+    for sep in ('#', '?'):
+        if sep in path:
+            i = path.index(sep); path, frag = path[:i], path[i:] + frag
+    if path.endswith('/index.html'):
+        path = path[:-10]
+    elif path == 'index.html':
+        path = ''
+    elif path.endswith('.html'):
+        path = path[:-5] + '/'
+    return path + frag
+
+def pretty_out(out):
+    if out.endswith('index.html'):
+        return out
+    return out[:-5] + '/index.html'
+
+_ATTR_RE = re.compile(r'\b(href|src|action)="([^"]*)"')
+_SKIP = ('http:', 'https:', '//', 'mailto:', 'tel:', 'data:', 'javascript:', '#', 'sms:')
+def prettify_html(html, old_out):
+    base = '/' + old_out
+    def fix(m):
+        attr, url = m.group(1), m.group(2)
+        if not url or url.startswith(_SKIP) or '{{' in url or "'" in url:
+            return m.group(0)
+        u = _urljoin(base, url.replace('&amp;', '&')).replace('&', '&amp;')
+        return f'{attr}="{pretty_path(u)}"'
+    html = _ATTR_RE.sub(fix, html)
+    # absolute site URLs (canonical, og:url, JSON-LD, form redirects)
+    html = re.sub(re.escape(SITE_URL) + r'([^"\s<>]*?\.html)', lambda m: SITE_URL + pretty_path(m.group(1)).lstrip('/'), html)
+    return html
+
+def redirect_stub(target_url):
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved — BoxyTrucks</title>'
+            f'<link rel="canonical" href="{SITE_URL}{target_url.lstrip("/")}"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0; url={target_url}">'
+            f'<script>location.replace("{target_url}"+location.hash)</script></head>'
+            f'<body><a href="{target_url}">This page has moved.</a></body></html>')
+
 def main():
     fams, flagship, pages, resources = load()
     reading = jload(DATA / 'reading.json') or {}
@@ -273,7 +318,7 @@ def main():
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
                            mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS)
-        path = out.replace('index.html', '') if out.endswith('index.html') else out
+        path = pretty_path(out)
         canonical = SITE_URL + path
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
         ld = ctx.pop('jsonld', [])
@@ -287,9 +332,14 @@ def main():
             SITEMAP.append(canonical)
         html = env.get_template(tpl).render(root=root, families=fams, fam_list=fam_list, flagship=flagship, seo=seo, **ctx)
         html, _ = affiliate_rewrite(html, AFFILIATES)
-        out = SITE / out
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(html)
+        html = prettify_html(html, out)
+        new_out = pretty_out(out)
+        if new_out != out:  # keep the old .html address working
+            (SITE / out).parent.mkdir(parents=True, exist_ok=True)
+            (SITE / out).write_text(redirect_stub('/' + pretty_path(out)))
+        dest = SITE / new_out
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(html)
 
     def credits_of(plist):
         names = []
@@ -397,11 +447,11 @@ def main():
                     it = r[kind][0]
                     home_res.append({'kind': lab, 'name': it['name'], 'url': it['url'], 'focus': fams[slug]['name'].upper()})
 
-    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s.'}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg'}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title='BoxyTrucks — For the love of right angles',
+    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg'}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title='BoxyTrucks — For the love of right angles',
            description='An enthusiast guide to boxy 4x4s: ' + ', '.join(SHORT_NAME.get(f['slug'], f['name']) for f in fam_list) + '. History, buying checks, repairs, parts, mods and where to find one.',
            garage=garage[:8], faqs=faqs, stories=STORIES, suppliers=suppliers, socials=home_res,
            credits=', '.join(HOME_CREDITS) + ' and others via Unsplash and Pexels')
-    render('models.html', 'models/index.html', '../', active='models', crumbs=[('Models', 'models/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Models', 'url': SITE_URL + 'models/'}], title='Models — BoxyTrucks', description='Every boxy truck, every generation.', later=LATER, credits='')
+    render('models.html', 'models/index.html', '../', active='models', crumbs=[('Models', 'models/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Models', 'url': SITE_URL + 'models/'}], title='Models — BoxyTrucks', description='Every boxy 4x4 we cover, family by family and generation by generation: Land Cruiser, G-Class, Defender, Jeep, Bronco, Patrol, Scout and more.', later=LATER, credits='')
 
     def gen_order(slug):
         return [g['slug'] for g in fams[slug]['generations']]
@@ -421,29 +471,30 @@ def main():
                 mod_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'mods': p['mods'], 'fam': slug, 'gen': gs, 'order': len(mod_groups)})
         res_groups.append({'maker': fam['maker'], 'name': fam['name'], 'short': fam['short'], 'href': f'../models/{slug}/index.html', 'res': resources[slug]})
 
-    render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s.', credits='',
+    render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s by model: symptoms, tools, steps and the parts you need, from Land Cruisers to Defenders and Jeeps.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})
-    render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Suppliers and builders by model.', credits='',
+    render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Who makes the parts and who builds the trucks: suspension, armor, lockers and full builds for every boxy 4x4 we cover, sorted by model.', credits='',
            hub={'kind': 'mods', 'eyebrow': 'Mods & builders', 'title': 'Who builds them right', 'lead': 'Suspension, armor, racks, restorations and full builds — the suppliers and shops each platform’s owners actually trust.', 'groups': mod_groups, 'suppliers': suppliers, 'builders': BUILDERS})
-    render('hub.html', 'resources/index.html', '../', crumbs=[('Resources', 'resources/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Resources', 'url': SITE_URL + 'resources/'}], active='resources', title='Resources — BoxyTrucks', description='YouTube channels, Instagram accounts, forums and references by model.', credits='',
+    render('hub.html', 'resources/index.html', '../', crumbs=[('Resources', 'resources/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Resources', 'url': SITE_URL + 'resources/'}], active='resources', title='Resources — BoxyTrucks', description='The best YouTube channels, Instagram accounts, owner forums and reference sites for every boxy 4x4 we cover, sorted by model.', credits='',
            hub={'kind': 'resources', 'eyebrow': 'Resources', 'title': 'Channels, accounts, forums & references', 'lead': 'The YouTube channels, Instagram accounts, message boards and reference sources worth your time, filed by truck. Suggestions welcome.', 'groups': res_groups})
-    render('hub.html', 'for-sale/index.html', '../', crumbs=[('For sale', 'for-sale/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'For sale', 'url': SITE_URL + 'for-sale/'}], active='sale', title='For sale — BoxyTrucks', description='AutoTempest and Bring a Trailer searches for every generation.', credits='',
+    render('hub.html', 'for-sale/index.html', '../', crumbs=[('For sale', 'for-sale/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'For sale', 'url': SITE_URL + 'for-sale/'}], active='sale', title='For sale — BoxyTrucks', description='Find a boxy 4x4 for sale: ready-made AutoTempest and Bring a Trailer searches for every generation, from FJ40s to Grenadiers.', credits='',
            hub={'kind': 'sale', 'eyebrow': 'The one you’ll own someday', 'title': 'For sale now', 'lead': 'Live AutoTempest searches across the major marketplaces, plus Bring a Trailer auctions and results, for every generation we cover.'})
     # keep old /watch/ URL working
     (SITE / 'watch').mkdir(exist_ok=True)
-    (SITE / 'watch' / 'index.html').write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=../resources/index.html"><title>Resources — BoxyTrucks</title><a href="../resources/index.html">Resources</a>')
+    (SITE / 'watch' / 'index.html').write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/resources/"><title>Resources — BoxyTrucks</title><a href="/resources/">Resources</a>')
 
     gens_json = json.dumps({s: [{'slug': g['slug'], 'name': g['name'], 'years': g['years']} for g in fams[s]['generations']] for s in fams})
-    render('submit.html', 'submit/index.html', '../', active='submit', crumbs=[('Show Us Your Rig', 'submit/')], title='Show Us Your Rig — BoxyTrucks', description='Submit your boxy truck build for a feature.', credits='Hasse Lossius via Unsplash', gens_json=gens_json, submit_email=SUBMIT_EMAIL, site_url=SITE_URL)
-    render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it.', credits='', crumbs=[('Privacy', 'about/privacy.html')])
+    render('submit.html', 'submit/index.html', '../', active='submit', crumbs=[('Show Us Your Rig', 'submit/')], title='Show Us Your Rig — BoxyTrucks', description='Show Us Your Rig: send photos and the story of your boxy 4x4 build for a feature on BoxyTrucks. Off-road shots preferred.', credits='Hasse Lossius via Unsplash', gens_json=gens_json, submit_email=SUBMIT_EMAIL, site_url=SITE_URL)
+    render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it: Google Analytics, the submission form, affiliate cookies and GitHub hosting.', credits='', crumbs=[('Privacy', 'about/privacy.html')])
     render('disclaimer.html', 'about/disclaimer.html', '../', active='', title='Disclaimer — BoxyTrucks', description='BoxyTrucks specs, fluids and repair guides are for general information: verify against your manual or a qualified mechanic.', credits='', crumbs=[('Disclaimer', 'about/disclaimer.html')])
-    render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
-    render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, title='Thanks — BoxyTrucks', description='Submission received.', credits='')
+    render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
+    render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
 
     # site search index
     strip = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
     idx = []
     def add(kind, title, url, model, text):
+        if not url.startswith('http'): url = pretty_path(url)
         idx.append({'k': kind, 't': title, 'u': url, 'm': model, 'x': strip(text)[:400]})
     for slug in FAMILY_ORDER:
         if slug not in fams: continue
@@ -476,7 +527,106 @@ def main():
     today = date.today().isoformat()
     urls = sorted(set(SITEMAP))
     (SITE / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n' for u in urls) + '</urlset>\n')
-    (SITE / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /submit/thanks.html\n\nSitemap: {SITE_URL}sitemap.xml\n')
+    (SITE / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /submit/thanks/\n\nSitemap: {SITE_URL}sitemap.xml\n')
+
+    # ---- llms.txt / llms-full.txt (regenerated from the data on every build, so CI keeps them current) ----
+    def _t(x):
+        return re.sub(r'\s+', ' ', LINK_RE.sub(lambda m: m.group(3), str(x or ''))).strip()
+    def _txt(x):
+        if isinstance(x, (list, tuple)):
+            return ' '.join(_txt(i) for i in x)
+        if isinstance(x, dict):
+            return ' '.join(_txt(v) for v in x.values())
+        return _t(x)
+    gurl = lambda slug, g: SITE_URL + f'models/{slug}/{g}/'
+    L = [f'# {SITE_NAME}', '',
+         '> An enthusiast guide to boxy, body-on-frame 4x4s for hands-on owners: history, buying checks, '
+         'DIY repairs with parts, service baselines, wheel and tire fitment, recalls, values and mods, '
+         'one guide per generation. Facts are sourced on each page.', '',
+         'Fluid specs, capacities and torque figures are general guidance: always verify against the factory '
+         f'manual for the exact vehicle (see {SITE_URL}about/disclaimer/). Parts links may be affiliate links.', '',
+         f'Full text of every model guide: {SITE_URL}llms-full.txt', '']
+    for slug in FAMILY_ORDER:
+        if slug not in fams: continue
+        fam = fams[slug]
+        L += [f'## {mlabel(fam["maker"], fam["name"])}', '',
+              f'- [{mlabel(fam["maker"], fam["name"])} overview]({SITE_URL}models/{slug}/): {_t(fam["verdict"])}']
+        for g in fam['generations']:
+            p = pages[slug].get(g['slug'])
+            if not p: continue
+            L.append(f'- [{mlabel(fam["maker"], p["title"])} ({g.get("years", "")})]({gurl(slug, g["slug"])}): {_t(g["summary"])}')
+        L.append('')
+    L += ['## Site', '',
+          f'- [Repair guides]({SITE_URL}repairs/): every DIY repair, by model',
+          f'- [Mods & builders]({SITE_URL}mods/): suppliers and builders, by model',
+          f'- [Resources]({SITE_URL}resources/): YouTube, Instagram, forums and references, by model',
+          f'- [For sale]({SITE_URL}for-sale/): AutoTempest and Bring a Trailer searches for every generation',
+          f'- [Disclaimer]({SITE_URL}about/disclaimer/)', f'- [Privacy]({SITE_URL}about/privacy/)',
+          f'- [Affiliate disclosure]({SITE_URL}about/affiliate-disclosure/)', '']
+    (SITE / 'llms.txt').write_text('\n'.join(L))
+
+    F = [f'# {SITE_NAME}: full model guides', '', f'Source: {SITE_URL} · generated {today}', '',
+         'Verify every fluid, capacity and torque figure against the factory manual for the exact vehicle. '
+         f'Disclaimer: {SITE_URL}about/disclaimer/', '']
+    for slug in FAMILY_ORDER:
+        if slug not in fams: continue
+        fam = fams[slug]
+        F += ['', f'# {mlabel(fam["maker"], fam["name"])} ({fam.get("years", "")})', f'URL: {SITE_URL}models/{slug}/', '',
+              _txt(fam.get('intro', [])), '', f'Verdict: {_t(fam["verdict"])}']
+        for g in fam['generations']:
+            p = pages[slug].get(g['slug'])
+            if not p: continue
+            x = p.get('x') or {}
+            F += ['', f'## {mlabel(fam["maker"], p["title"])} ({g.get("years", "")})', f'URL: {gurl(slug, g["slug"])}',
+                  f'Codes: {", ".join(g.get("codes", []))}', '', f'Verdict: {_t(p.get("verdict"))}', '']
+            for st in p.get('story', []):
+                if st.get('heading'): F.append(f'### {_t(st["heading"])}')
+                F += [_t(par) for par in st.get('paragraphs', [])] + ['']
+            if p.get('plate'):
+                F += ['### Data plate'] + [f'- {_t(i["k"]).title()}: {_t(i["v"])}' for i in p['plate']] + ['']
+            if p.get('engineering'):
+                F += ['### Engineering', _t(p.get('engineering_intro'))] + [f'- {_t(i["k"]).title()}: {_t(i["v"])}' + (f' ({_t(i["note"])})' if i.get('note') else '') for i in p['engineering']] + ['']
+            if p.get('generations_table'):
+                F += ['### Versions'] + ['- ' + ' · '.join(_t(v) for v in r.values() if v) for r in p['generations_table']] + ['']
+            if x.get('timeline'):
+                F += ['### Year-by-year'] + [f'- {_t(r["year"])}: {_t(r["change"])}' + (f' [{r["flag"]}]' if r.get('flag') in ('buy', 'avoid') else '') for r in x['timeline']] + ['']
+            if x.get('capability'):
+                F += ['### Capability'] + [f'- {_t(r["k"])}: {_t(r["v"])}' + (f' ({_t(r["note"])})' if r.get('note') else '') for r in x['capability']] + ['']
+            fit = x.get('fitment') or {}
+            if fit:
+                F.append('### Wheels and tires')
+                if fit.get('stock'): F.append(f'- Stock tires: {", ".join(fit["stock"])}')
+                for k, v in (fit.get('wheel') or {}).items(): F.append(f'- {k.replace("_", " ").title()}: {_t(v)}')
+                for r in fit.get('max_tire', []): F.append(f'- Biggest tire, {_t(r.get("lift"))} lift: {_t(r.get("size"))}' + (f' ({_t(r["note"])})' if r.get('note') else ''))
+                F.append('')
+            if p.get('buying_checks'):
+                F += ['### Buying checks'] + [f'- {_t(c["head"])}: {_t(c["body"])}' for c in p['buying_checks']] + ['']
+            if p.get('repairs'):
+                F.append('### Common repairs')
+                for r in p['repairs']:
+                    F += [f'#### {_t(r["title"])}', f'Difficulty {_t(r.get("diff"))} · time {_t(r.get("time"))} · cost {_t(r.get("cost"))}',
+                          f'Symptoms: {_t(r.get("symptoms"))}', f'Fix: {_txt(r.get("fix"))}', f'Tools: {_t(r.get("tools"))}', '']
+            bs = p.get('baseline_service') or {}
+            if bs.get('items'):
+                F += ['### Baseline service', _t(bs.get('intro'))] + [f'- {_t(i["item"])}: {_t(i.get("spec"))}' + (f' · {_t(i["interval"])}' if i.get('interval') else '') + (f' ({_t(i["note"])})' if i.get('note') else '') for i in bs['items']] + ['']
+            if p.get('faq'):
+                F.append('### FAQ')
+                for q in p['faq']: F += [f'Q: {_t(q["q"])}', f'A: {_t(q["a"])}', '']
+            srcs = list(p.get('sources', [])) + list(x.get('sources', []))
+            if srcs:
+                F += ['### Sources'] + [f'- {_t(s_["name"])}: {s_["url"]}' for s_ in srcs if s_.get('url')] + ['']
+    (SITE / 'llms-full.txt').write_text(re.sub(r'\n{3,}', '\n\n', '\n'.join(F)))
+
+    # IndexNow key file + per-page content hashes (CI compares them with the live site to ping only changed pages)
+    import hashlib
+    (SITE / f'{INDEXNOW_KEY}.txt').write_text(INDEXNOW_KEY)
+    hashes = {}
+    for u in sorted(set(SITEMAP)):
+        f = SITE / (u[len(SITE_URL):] + 'index.html')
+        if f.exists():
+            body = re.sub(r'"dateModified": "[^"]*"', '', f.read_text())
+            hashes[u] = hashlib.sha1(body.encode()).hexdigest()[:16]
+    (SITE / 'page-hashes.json').write_text(json.dumps(hashes, indent=0))
 
     n = sum(1 for _ in SITE.rglob('*.html'))
     full = sum(len(v) for v in pages.values())

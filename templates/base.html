@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
-<meta name="description" content="{{ description|striplk|truncate(300) }}">
+<meta name="description" content="{{ description|striplk|truncate(158, False, '…', 0) }}">
 <link rel="canonical" href="{{ seo.canonical }}">
 {% if noindex %}<meta name="robots" content="noindex">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
 <meta property="og:site_name" content="{{ seo.site_name }}">
 <meta property="og:type" content="{{ seo.og_type }}">
 <meta property="og:title" content="{{ title }}">
-<meta property="og:description" content="{{ description|striplk|truncate(300) }}">
+<meta property="og:description" content="{{ description|striplk|truncate(158, False, '…', 0) }}">
 <meta property="og:url" content="{{ seo.canonical }}">
 <meta property="og:image" content="{{ seo.og_image }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title }}">
-<meta name="twitter:description" content="{{ description|striplk|truncate(200) }}">
+<meta name="twitter:description" content="{{ description|striplk|truncate(158, False, '…', 0) }}">
 <meta name="twitter:image" content="{{ seo.og_image }}">
 <meta name="theme-color" content="#0E0F0E">
 {% for j in seo.jsonld %}<script type="application/ld+json">{{ j }}</script>
