@@ -24,7 +24,7 @@ SITEMAP = []
 # Families are shown everywhere in alphabetical order of the name people use for them.
 SHORT_NAME = {'4runner': '4Runner', 'g-class': 'G-Class', 'grenadier': 'Grenadier', 'jeep': 'Jeep',
               'land-cruiser': 'Land Cruiser', 'land-rover': 'Land Rover', 'lexus': 'Lexus LX & GX', 'range-rover': 'Range Rover',
-              'nissan-patrol': 'Nissan Patrol', 'scout': 'International Scout'}
+              'nissan-patrol': 'Nissan Patrol', 'scout': 'International Scout', 'bronco': 'Ford Bronco'}
 FAMILY_ORDER = sorted(SHORT_NAME, key=lambda k: SHORT_NAME[k].lower())
 NAV_FAMS = []
 NAV = [

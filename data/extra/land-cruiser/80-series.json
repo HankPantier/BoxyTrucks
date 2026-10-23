@@ -8,8 +8,8 @@
    "bolt_pattern": "6x139.7 (6x5.5\")",
    "center_bore": "106.1 mm",
    "lug_thread": "M12x1.5",
-   "lug_torque": "≈76 lb-ft (103 N·m) alloy · ≈116 lb-ft (157 N·m) steel",
-   "note": "Lug nuts changed from conical to washer type in 1995, so match nuts to the wheel. Torque figures are Rough Trax's Australian data (it says to confirm with Toyota); US owners quote about 75 lb-ft for alloys from the 1995-on owner's manual."
+   "lug_torque": "≈76 lb-ft (103 N·m) alloy · ≈109–116 lb-ft (148–157 N·m) steel [CONFIRM IN MANUAL]",
+   "note": "Lug nuts changed from conical to washer type in 1995, so match nuts to the wheel. IH8MUD's birf-repack guide gives 76 ft-lb for alloys and 109 ft-lb for steel wheels; Rough Trax's Australian data gives 103 N·m and 157 N·m and says to confirm with Toyota. US owners quote about 75 lb-ft for alloys from the 1995-on owner's manual."
   },
   "max_tire": [
    {
@@ -49,7 +49,7 @@
   },
   {
    "year": "1993",
-   "change": "FZJ80 arrives: 4.5 L 24-valve 1FZ-FE, A442F auto, 16-inch wheels; ABS trucks get a full-floating rear axle with discs and a viscous-coupling transfer case; factory front and rear lockers become optional; center-diff switch dropped (wiring stays); A/C switches from R12 to R134a mid-year",
+   "change": "FZJ80 arrives: 4.5 L 24-valve 1FZ-FE, A442F auto, 16-inch wheels, larger brakes (from October 1992 production); ABS trucks get a full-floating rear axle with discs and the viscous-coupling HF2AV transfer case; factory front and rear lockers (option K294) become optional; center-diff switch dropped (wiring stays); A/C switches from R12 to R134a in May 1993",
    "flag": "buy"
   },
   {
@@ -59,7 +59,7 @@
   },
   {
    "year": "1995",
-   "change": "Redesigned dash with dual airbags, new Toyota oval logo, mass-air-flow emissions and voluntary OBD-II compatibility, A343F automatic (some '95s kept the A442F), washer-type lug nuts",
+   "change": "Redesigned dash with dual airbags, new Toyota oval logo, mass-air-flow meter and voluntary OBD-II compatibility, A343F automatic (some '95s kept the A442F), washer-type lug nuts, in-line catalytic converters, 2-row aluminum radiator replaces the 3-row brass core",
    "flag": "note"
   },
   {
@@ -69,7 +69,7 @@
   },
   {
    "year": "1997",
-   "change": "Final US year: 40th Anniversary Limited Edition (4,744 sold) and Collector's Edition; last year of the electric front locker; revised rear sway-bar brackets and aluminum radiator",
+   "change": "Final US year: 40th Anniversary Limited Edition (4,744 sold) and Collector's Edition; last year of the electric front locker; rear sway-bar frame brackets changed to a bottom-mount style",
    "flag": "buy"
   }
  ],
@@ -82,11 +82,11 @@
    },
    {
     "head": "Factory lockers",
-    "body": "Optional 1993–97 (Toyota option code K294). Locked trucks have the front/rear locker rotary switch on the dash (switch 84725-60020). Test them: engage in low range on a loose surface and make sure the dash lights and the axle respond."
+    "body": "Optional 1993–97 (Toyota option code K294). Locked trucks have a rotary front/rear locker switch on the dash. Test them: engage in low range on a loose surface and make sure the dash lights come on and the axle actually locks."
    },
    {
     "head": "Transmission and build date",
-    "body": "The transmission type (A442F or A343F on 1995 trucks) is printed on the label in the driver's door jamb. The A/C changed from R12 to R134a around VIN JT3DJ81xxxxx38947; R12 trucks have the dryer in front of the battery, R134a trucks behind the bumper."
+    "body": "The transmission type (A442F on 1993–94, A343F on most 1995–97 trucks) is printed on the label in the driver's door jamb. The A/C changed from R12 to R134a in May 1993, around VIN JT3DJ81xxxxx38947; R12 trucks have the dryer in front of the battery, R134a trucks behind the bumper."
    },
    {
     "head": "Body-panel VIN stickers",
@@ -94,7 +94,7 @@
    },
    {
     "head": "Special editions and LX 450",
-    "body": "The 1997 40th Anniversary has a serialized console badge, two-tone leather, black-chrome badges and sage or green paint. The LX 450 (1996–97) adds body cladding, softer suspension and a center-console subwoofer on the same FZJ80 running gear."
+    "body": "The 1997 40th Anniversary has a serialized console badge, two-tone leather, black-chrome badges and Antique Sage Pearl or Emerald Green paint. The LX 450 (1996–97) adds body cladding, its own grille and wheels and extra sound insulation on the same FZJ80 running gear."
    },
    {
     "head": "Chassis codes",
@@ -239,7 +239,7 @@
   },
   {
    "name": "Kelley Blue Book — 1997 Toyota Land Cruiser specs",
-   "url": "https://www.kbb.com/toyota/land-cruiser/1997/specs"
+   "url": "https://www.kbb.com/toyota/land-cruiser/1997/"
   },
   {
    "name": "Rough Trax 4x4 — Land Cruiser FZJ80 vehicle specifications",
@@ -296,6 +296,10 @@
   {
    "name": "Visit Utah — Land Cruiser Heritage Museum",
    "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
+  },
+  {
+   "name": "IH8MUD — Birf repack (tech article, torque values)",
+   "url": "https://www.ih8mud.com/tech/birf-repack.php"
   }
  ]
 }
