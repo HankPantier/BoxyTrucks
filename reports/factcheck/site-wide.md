@@ -65,7 +65,28 @@ Method:
 - **@gwagonrally.** I couldn't find what this account is from outside Instagram.
 
 ## Instagram
-INSTAGRAM_PLACEHOLDER
+Instagram allows only a handful of unauthenticated profile lookups per hour. The public `web_profile_info` endpoint returns 404 for a handle that doesn't exist, and 200 (or a 400 "business category asset deleted" error, which only comes back for live business accounts) for one that does. I got through about 25 of the 80 unique handles before the rate limit shut me out.
+
+- **Confirmed to exist (200):**
+  - `@4wheelpartsofficial` (4 Wheel Parts, 262k followers)
+  - `@4x4australiamag` (4X4 Australia)
+  - `@advanceadapters` (Advance Adapters, about 23.7k)
+  - `@quadratec` (bio: Jeep parts and accessories)
+  - `@ruggedridge`, `@toyteclifts`, `@lrseries2club`
+  - owner-supplied: `@thatbrown80`, `@tomahawk.cruiser`, `@blackhillsbuilds`
+- **Very likely exist** (400 business-account response):
+  - `@alliancemotorworks`, `@anythingscout`, `@4runnerlifestyle`, `@arb4x4`, `@corsetticruisers`, `@cruiseroutfitters`, `@customscouts`
+  - `@expeditionmotorcompany`, `@extremeterrain`, `@land_rover_monthly`, `@patrolapart_navarapart`, `@scout_motors`
+  - owner-supplied: `@range_rover_classic_around`, `@straydogclassics`
+- **`@gluxetravel_g500`** is confirmed indirectly: the G-luxe Travel YouTube channel description names it.
+- **Not found (404 on both endpoints, twice):** `@crossroadsoverland` (lexus.json, described as "Leonard the Lexus" LX 570 build). **Removed** from `data/resources/lexus.json`; it is not referenced in the manual files.
+- **Unverified (rate-limited), about 55 handles.** All other Instagram entries in `data/resources/*.json` and the owner-supplied `@gzilla500` and `@gwagonrally` are unverified. The resource-file handles here are mostly the official accounts of companies whose YouTube channels and websites I did verify, which is lower risk. The **higher-risk ones** to check by hand while logged in to Instagram, because they are small, generic or hobby-run:
+  - `@gq_patrol` and `@nissanpatrolclub` (the "Arabic-language Gulf club" description is unverified)
+  - `@ihscoutfitters`, `@internationalscoutii` and `@international.scouts.nz`
+  - `@lr_series_i_ii_iii_club` and `@lrsoclub`
+  - `@hulk_4x4`, `@eurowise_performance`, `@owl.outdoors` and `@dva.mechanics`
+  - `@blackbox_nanocom`, `@nothingbutgs` and `@handsomemotors`
+- **Focus text.** Because the API was blocked, focus descriptions for Instagram accounts are unchecked beyond the bios shown above.
 
 ---
 
@@ -166,5 +187,5 @@ Each pattern was tested with "oil filter" and a repair-style query.
 1. **High. No privacy policy or cookie consent** while running Google Analytics and collecting personal data through the submit form. Legal review is needed.
 2. **Med. Supplier search links send whole repair titles as the query** (for example "Front-axle harness recall (23V097) Second Gen"). Even with the patterns fixed, these long free-text queries mostly return zero results on FCP Euro, CruiserTeq and Super Scout. This only affects repairs without parts (10 sitewide), but those are mostly recall checks where a parts search makes no sense. Consider hiding the supplier search when a repair has no parts, which is a template change.
 3. **Med. Morris 4x4 Center's site is down (503).** It is removed from suppliers.json, but `data/jeep.json` still links it. The Jeep page owners should check and replace those links.
-4. **Med. Instagram verification is incomplete.** INSTAGRAM_TOP5
+4. **Med. Instagram verification is incomplete.** About 55 of the 80 handles could not be checked because Instagram rate-limits unauthenticated lookups. One fake handle was found and removed (`@crossroadsoverland`). Someone logged in to Instagram should click through the list in the Instagram section, starting with `@gq_patrol`, `@nissanpatrolclub`, `@ihscoutfitters`, `@internationalscoutii`, `@lr_series_i_ii_iii_club` and `@hulk_4x4`.
 5. **Low. The home meta description omits Jeep, Patrol and Scout.** There is also no Featured Build section on model pages yet, despite the home page and FAQ promising one. And the lc-dune and Georgia hero images are illustrative, not the trucks or places the captions might imply.

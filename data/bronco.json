@@ -1,0 +1,1201 @@
+{
+ "family": {
+  "slug": "bronco",
+  "name": "Bronco",
+  "maker": "Ford",
+  "years": "1966–present",
+  "verdict": "Ford's first SUV started as a 92-inch tin box with flat glass and a Dana 20, grew into an F-Series with a lift-off roof, vanished for 25 years and came back to fight the Jeep again. The first one is still the one everybody wants.",
+  "intro": [
+   "Ford announced the Bronco in August 1965 as a 1966 model, its first SUV and its answer to the [[jeep/cj-5|Jeep CJ-5]] and the [[scout/scout-80-800|International Scout]]. The idea came from product manager Donald Frey, who had also conceived the Mustang. The [[bronco/early-bronco|early Bronco]] rode on its own short frame with coil springs up front and four-wheel drive as standard, and Ford offered it as a roadster, a half-cab pickup and a wagon before building the last one for 1977.",
+   "For 1978 the Bronco became the [[bronco/full-size|full-size Bronco]], a short-wheelbase F-Series with a lift-off fiberglass rear top that outsold the Chevrolet K5 Blazer and Dodge Ramcharger. It stayed on F-Series underpinnings through five generations, switching to Twin Traction Beam front suspension in 1980, until the last one left Michigan Truck in Wayne on June 12, 1996, and the four-door Expedition took its place. Along the way Ford used the name on the smaller, Ranger-based Bronco II (1984–1990), which is a different truck altogether.",
+   "After a 25-year gap the [[bronco/sixth-gen|sixth-generation Bronco]] arrived for 2021, built in Wayne again and aimed squarely at the [[jeep/jl|Wrangler]]: body-on-frame, two or four doors, removable doors and roof, and locking front and rear differentials. Its styling borrows from the first truck, and the designers scanned their design chief's 1976 Bronco for reference. The Bronco Sport crossover and a China-only Bronco New Energy share the name but not the hardware."
+  ],
+  "hero_photo": "eb-stampede-arizona.jpg",
+  "hero_focus": "60% 60%",
+  "generations": [
+   {
+    "slug": "early-bronco",
+    "name": "Early Bronco",
+    "years": "1966–1977",
+    "codes": [
+     "U13",
+     "U14",
+     "U15"
+    ],
+    "summary": "The original: a 92-inch-wheelbase roadster, half-cab or wagon with coil-sprung Dana 30/44 front, Ford 9-inch rear, Dana 20 and a six or a 289/302 V8.",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=1966&maxyear=1977",
+    "bat_url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/",
+    "has_page": true
+   },
+   {
+    "slug": "full-size",
+    "name": "Full-size Bronco",
+    "years": "1978–1996",
+    "codes": [
+     "1978–79",
+     "1980–86",
+     "1987–91",
+     "1992–96"
+    ],
+    "summary": "Short-wheelbase F-Series with a lift-off rear top: solid front axle and 351M/400 V8s in 1978–79, Twin Traction Beam and the 300 six, 302 and 351W after that.",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=1978&maxyear=1996",
+    "bat_url": "https://bringatrailer.com/ford/bronco-4-5th-generations-1987-1997/",
+    "has_page": true
+   },
+   {
+    "slug": "sixth-gen",
+    "name": "Bronco (sixth generation)",
+    "years": "2021–present",
+    "codes": [
+     "U725",
+     "2-DOOR",
+     "4-DOOR",
+     "RAPTOR"
+    ],
+    "summary": "The revival: body-on-frame, independent front and solid rear axle, 2.3 and 2.7 EcoBoost engines, a seven-speed manual option, 35-inch Sasquatch package and the Bronco Raptor.",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=2021",
+    "bat_url": "https://bringatrailer.com/ford/u725-bronco/",
+    "has_page": true
+   }
+  ],
+  "forums": [
+   {
+    "name": "ClassicBroncos.com forums",
+    "url": "https://classicbroncos.com/forums/",
+    "note": "The big early-Bronco board: decades of 1966–77 tech, tire-fit and parts threads"
+   },
+   {
+    "name": "Bronco Zone",
+    "url": "https://www.broncozone.com/",
+    "note": "All generations, with separate early, 1978–79, 1980–96 and sixth-gen sections"
+   },
+   {
+    "name": "FullSizeBronco.com",
+    "url": "https://www.fullsizebronco.com/",
+    "note": "The main board for 1978–1996 full-size Broncos"
+   },
+   {
+    "name": "Bronco6G",
+    "url": "https://www.bronco6g.com/",
+    "note": "Owner forum for the 2021-on sixth generation"
+   }
+  ],
+  "related_families": [
+   "jeep",
+   "scout",
+   "land-cruiser"
+  ]
+ },
+ "page": {
+  "slug": "early-bronco",
+  "title": "Ford Bronco (1966–1977)",
+  "eyebrow": "FORD BRONCO · U13 / U14 / U15 · 1966–1977",
+  "verdict": "A 92-inch tin box with flat glass, a column shifter and a coil-sprung front axle that the Jeep didn't have. It rusts, it wanders if the caster is off, and a good one costs what a new truck does. Nobody who owns one cares.",
+  "codes": [
+   "U13 ROADSTER · U14 HALF-CAB · U15 WAGON",
+   "170 / 200 I6 · 289 / 302 V8",
+   "DANA 30 → DANA 44 FRONT (1971)",
+   "FORD 9-INCH REAR",
+   "DANA 20 TRANSFER CASE"
+  ],
+  "hero_photo": "eb-liberty-camp-washington.jpg",
+  "hero_focus": "72% 62%",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "In August 1965 Ford announced a truck that owed almost nothing to its pickups. The Bronco got its own box-section frame, a 92-inch wheelbase, flat glass all round and door skins that were the same left and right until the hardware went on. It came only with four-wheel drive and was aimed straight at the [[jeep/cj-5|Jeep CJ-5]] and the [[scout/scout-80-800|International Scout]]. Twelve model years and roughly 225,600 trucks later, it had lost the sales war. Fifty years after that, it is the Bronco collectors want most."
+    ]
+   },
+   {
+    "heading": "THE MUSTANG MAN'S OTHER IDEA",
+    "paragraphs": [
+     "The Bronco began with Ford product manager Donald Frey, who had also conceived the Mustang. Paul Axelrad engineered it, clay models were built in mid-1963, and Lee Iacocca approved it for production in February 1964. Its targets were the CJ-5, the Scout and Toyota's [[land-cruiser/fj40|Land Cruiser]]. The wheelbase sat between the Jeep's 83 inches and the Scout's 100. Up front, instead of the Twin I-Beam of Ford's bigger trucks, the Bronco used a solid axle on coil springs, located by radius arms and a track bar. Ford quoted a 34-foot turning circle.",
+     "Launch power was the Falcon's 170-cubic-inch six, rated at 105 hp and toughened with solid lifters, a six-quart oil pan, an oil-bath air cleaner and a carburetor float that coped with steep angles. A 289 V8 followed in March 1966. Every truck had a column-shifted three-speed and a Dana 20 two-speed transfer case. You could have a wagon, a half-cab pickup or an open roadster, and the dealer could add a snowplow, a winch, a power take-off or a posthole digger."
+    ]
+   },
+   {
+    "heading": "GROWING UP, SLOWLY",
+    "paragraphs": [
+     "The Bronco changed in small steps. A Sport package arrived for 1967, along with a dual master cylinder. The roadster, which never sold, was dropped after 1968. The 302 replaced the 289 for 1969, and electric wipers took over from vacuum ones that year. In 1970 the Sport became its own model. Midway through 1971 the Dana 30 front axle gave way to a stronger Dana 44, and 1972 brought the plush Ranger trim and the end of the half-cab.",
+     "For 1973 Ford finally offered a C4 three-speed automatic and power steering, and the 200-cubic-inch six replaced the 170. The transfer-case lever changed from a T-handle to a J-shaped pattern. Sales peaked at 25,824 in 1974. The last big update came for 1976, with power front disc brakes, a front anti-roll bar and a new Y-type steering linkage that owners still argue about. The 1977 trucks got a heavier-duty 9-inch rear housing and fuel doors in place of exposed caps."
+    ]
+   },
+   {
+    "heading": "BAJA, AND THE RACE TRUCKS",
+    "paragraphs": [
+     "In 1965 race-car builder Bill Stroppe put together a team of Broncos for long-distance off-road racing, partnering with Holman-Moody. The Stroppe/Holman/Moody trucks ran the Mint 400, the Baja 500 and the Mexican 1000, the race that became the Baja 1000, and in 1969 SHM entered six Broncos in the Baja 1000. The most famous Stroppe-shop Bronco of all, Parnelli Jones's Big Oly, won the Baja 1000 in 1971 and 1972.",
+     "Ford cashed in. From 1971 dealers sold a Baja Bronco package designed by Bill Stroppe, with an automatic, quick-ratio power steering, fender flares over Gates Commando tires, a roll bar, reinforced bumpers and red, white, blue and black paint. It cost $5,566 when a regular V8 Bronco was $3,665, and only 650 were sold over the next four years. Genuine ones now sell for serious money: Bring a Trailer results from 2025–26 run from $72,500 to $178,315."
+    ]
+   },
+   {
+    "heading": "HOW IT ENDED, AND WHY IT NEVER DID",
+    "paragraphs": [
+     "By the early 1970s buyers wanted more room and more comfort, and the Chevrolet Blazer and the [[scout/scout-ii|Scout II]] had both. Ford planned a bigger F-100-based Bronco for 1974, but the fuel crisis pushed it back to 1978. When the [[bronco/full-size|full-size Bronco]] arrived it was a foot longer in wheelbase and up to 1,600 pounds heavier. The little Bronco was done.",
+     "The afterlife has been something else. Hagerty says values nearly doubled between 2016 and 2019, and the restomod business took off. On Bring a Trailer, 306 complete early Broncos sold between August 2025 and October 2026. The middle half of the Coyote-swapped and shop-built restomods went for about $122,000–166,500, and the top sale reached $325,000. Ford noticed: its designers scanned the design chief's 1976 Bronco while shaping the [[bronco/sixth-gen|2021 Bronco]]. Hagerty did record a 12 percent drop in the second quarter of 2026, but a driver still costs $50,000 or more."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · BIG OLY",
+   "title": "The Bronco that won Baja on a borrowed tank of gas",
+   "paragraphs": [
+    "Parnelli Jones took a mostly stock Bronco to the 1968 Baja 1000, and it went badly. With Stroppe mechanic Dick Russell he built something else: a 1969 Bronco on a chrome-moly space frame, with aluminum and fiberglass panels, a 351 Windsor, a C6 automatic, a spooled rear axle and a sprint-car wing for a roof. Olympia Brewing sponsored it, hence the name and the gold paint. It broke an axle on its 1970 debut, then won the Baja 1000 in 1971 in 14 hours 59 minutes, and again in 1972.",
+    "That second win nearly didn't happen. At the last checkpoint helpers filled the water jugs with gasoline, and the truck ran dry 15 miles from the finish. Jones traded $20 and a bottle of tequila for fuel siphoned from a Volkswagen. It lived at Vel's Parnelli Jones's race shop for decades until Mecum sold it in Indianapolis in May 2021 for $1.87 million."
+   ]
+  },
+  "engineering_intro": "The early Bronco is a body-on-frame 4x4 built on a box-section ladder frame of its own, shared with no other Ford. A solid front axle rides on coil springs, located by two forged radius arms and a track bar, while the Ford 9-inch rear axle sits on leaf springs. Every Bronco had four-wheel drive through a gear-driven Dana 20 transfer case, with locking hubs at the front. The factory data plate on the glovebox door records the body series, engine, transmission and axle codes.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Box-section ladder frame",
+    "note": "92-in wheelbase, 151.5 in long; frame unique to the Bronco"
+   },
+   {
+    "k": "FRONT SUSPENSION",
+    "v": "Coils, radius arms, track bar",
+    "note": "Caster is set by the C-bushings; Ford quoted a 34-ft turning circle"
+   },
+   {
+    "k": "AXLES",
+    "v": "Dana 30 → Dana 44 · Ford 9-inch",
+    "note": "Dana 44 front from mid-1971; king pins on the Dana 30, ball joints on the Dana 44"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "Dana 20, gear-driven",
+    "note": "2.46:1 low with T-handle (1966–72); 2.34:1 with J-shift (1973–77)"
+   },
+   {
+    "k": "ENGINES",
+    "v": "170 / 200 I6 · 289 / 302 V8",
+    "note": "289 from March 1966; 302 from 1969; 200 six from 1973"
+   },
+   {
+    "k": "BRAKES",
+    "v": "Drums → power front discs (1976)",
+    "note": "Dual master cylinder from 1967; disc conversion kits for 1966–75"
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1966–1968",
+    "platform": "U13 roadster · U14 half-cab · U15 wagon",
+    "engine": "170 I6 · 289 V8 (from March 1966)",
+    "output": "170: 105 hp · 289: 200 hp",
+    "note": "Column-shift three-speed only. Sport package from 1967. The roadster was dropped after 1968."
+   },
+   {
+    "years": "1969–1972",
+    "platform": "U14 half-cab · U15 wagon",
+    "engine": "170 I6 · 302 V8",
+    "output": "—",
+    "note": "302 replaces the 289; electric wipers from mid-1969. Sport a separate model from 1970. Dana 44 front from mid-1971. Half-cab ends in 1972; Ranger trim arrives."
+   },
+   {
+    "years": "1971 on (≈ 4 years)",
+    "platform": "Baja Bronco (Stroppe)",
+    "engine": "302 V8, automatic",
+    "output": "—",
+    "note": "Quick-ratio power steering, flares, Gates Commando tires, roll bar, tricolor paint. $5,566 new; 650 sold."
+   },
+   {
+    "years": "1973–1975",
+    "platform": "U15 wagon",
+    "engine": "200 I6 · 302 V8",
+    "output": "302 (1975): 125 hp net",
+    "note": "C4 automatic and power steering optional from 1973; J-shift Dana 20 with 2.34:1 low."
+   },
+   {
+    "years": "1976–1977",
+    "platform": "U15 wagon",
+    "engine": "200 I6 · 302 V8",
+    "output": "—",
+    "note": "Power front disc brakes, front anti-roll bar and Y-type steering linkage. 1977: heavy-duty 9-inch housing, fuel doors, plastic tanks."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Rust, everywhere, even in dry states",
+    "body": "Autotrader Classics calls rust the biggest concern and warns that surface rust can hide serious rot. Check the rocker panels and the floor pans they join, the cargo floor (especially where it meets the half-cab wall), the door posts around the hinges, the firewall and inner fenders, the tailgate and the frame rails. Velocity Restorations notes that structural rust can cost more than it's worth to fix."
+   },
+   {
+    "head": "Cut or uncut rear fenders",
+    "body": "Many early Broncos had their rear fenders cut to fit flares and bigger tires. Uncut trucks are rarer and worth more, and flared trucks sell for less. Look closely at the quarter panels for filler or patched-in arches."
+   },
+   {
+    "head": "Frame at the steering box",
+    "body": "Wild Horses points out that the frame takes a lot of load where the steering box bolts on, and that area can weaken or crack. With the engine running, have someone turn the wheel and watch the box. If it moves on the frame, check for cracks before you buy."
+   },
+   {
+    "head": "Does it drive straight?",
+    "body": "A wandering early Bronco usually has the wrong caster, according to Wild Horses, especially after a lift with the wrong C-bushings. Lean of 2 inches or more is common after a suspension change. Neither is expensive to fix, but both tell you how carefully the truck was built."
+   },
+   {
+    "head": "VIN and data plate",
+    "body": "The VIN is stamped on the frame rail, just ahead of the firewall under the engine, and the full data plate is inside the glovebox door. Check that they match the title. The first three characters give the series (U13, U14 or U15) and the fourth the engine code; a mismatch is common after decades of swaps, which matters most on a claimed original."
+   },
+   {
+    "head": "Baja, Sport and Ranger claims",
+    "body": "Only 650 Baja Broncos were sold, and they now bring far more than a standard truck, so clones exist. Ask for documentation of any special edition. The data plate and VIN won't prove a Baja by themselves, so lean on build records and a marque specialist."
+   },
+   {
+    "head": "Who built it?",
+    "body": "Most early Broncos for sale are modified, and many are full restomods. Velocity Restorations suggests asking what was done and by whom, whether there is documentation, whether the frame has been repaired or replaced, and how it drives at highway speed. A cheap build can cost more over time than a good one."
+   },
+   {
+    "head": "Hard-to-find parts",
+    "body": "Mechanical parts are easy because the trucks use common Ford engines and Dana axles. Autotrader notes that thin steel grilles dent easily and are often cut for plows or PTO gear, and good tailgates are also scarce. Price those in if they're bad."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Floor pan, rocker and door-post rust repair",
+    "diff": "4 / 5",
+    "time": "≈ Several weekends, depending on how far it goes",
+    "cost": "Parts plus welding labor; full floor and platform sets cost several hundred dollars",
+    "symptoms": "Holes or soft spots in the floor, bubbling along the rockers, sagging doors that won't latch cleanly, rust around the door-post hinges and water on the floor after rain.",
+    "fix": "Strip the interior and probe every seam with a pick. Brace the door openings before cutting anything structural, then cut back to clean metal. Reproduction floor pans come with the grooves and body-mount recesses, and the floor channel support rails underneath are sold separately; replace them if they've gone. Fit inner and outer rockers and front door posts as needed, check door gaps before final welding, then seam-seal and coat the new metal. If the firewall, inner fenders or frame rails are also rotten, Autotrader and Velocity both warn that the bill can outrun the truck's value.",
+    "tools": "MIG welder · cut-off wheel and spot-weld drill · door-opening braces and clamps · seam sealer and weld-through primer",
+    "parts": [
+     {
+      "name": "1966–77 Bronco floor pans with grooves and body-mount recess (pair)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-L-R-Floor-Pans-with-Grooves-Body-Mount-Recess/productinfo/14071P/"
+     },
+     {
+      "name": "1966–77 Bronco OEM steel rocker panel",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-OEM-Steel-Rocker-Panel/productinfo/14060/"
+     },
+     {
+      "name": "1968–77 Bronco left inner rocker panel",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/68-77-Ford-Bronco-Left-Inner-Rocker-Panel/productinfo/14065/"
+     },
+     {
+      "name": "1966–77 Bronco front door posts (pair)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Pair-of-Left-Right-Front-Door-Post/productinfo/14040P/"
+     }
+    ]
+   },
+   {
+    "title": "Front disc brake conversion (1966–75)",
+    "diff": "3 / 5",
+    "time": "≈ A day",
+    "cost": "Kits $675 (Bronco Graveyard, with proportioning valve and bracket) to $849.99 (Wild Horses)",
+    "symptoms": "Fading, pulling or long stops from the original four-wheel drums, especially on bigger tires. 1976–77 trucks already have factory power front discs.",
+    "fix": "Jack up the front and remove the wheels, locking hubs, drums and the drum-brake spindles. Wild Horses' kit fits 1966–early 1971 Dana 30 and 1971–75 Dana 44 axles with six-bolt drum knuckles, and includes disc spindles, caliper brackets, calipers and pads, hub-and-rotor assemblies and new wheel bearings. Bolt on the new spindles and brackets, pack and fit the bearings in the new hubs, and set the bearing preload. Fit new caliper hoses and a proportioning valve for disc-front, drum-rear brakes, then bleed the system. Wild Horses recommends aftermarket locking hubs such as Warn or Mile Marker, and buyers suggest doing the outer axle seals and U-joints and adding a brake booster at the same time.",
+    "tools": "Spindle-nut socket · bearing packer and seal driver · flare-nut wrenches · brake bleeder",
+    "parts": [
+     {
+      "name": "Front disc brake conversion kit, Dana 30 & Dana 44, 1966–75 Bronco",
+      "supplier": "Wild Horses 4x4",
+      "url": "https://wildhorses4x4.com/product/Front_Disc_Kit/Early_Bronco_Brakes"
+     },
+     {
+      "name": "1966–75 Bronco front disc brake conversion kit with proportioning-valve bracket",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1975-Ford-Bronco-Front-Disc-Brake-Conversion-Kit-with-Pro-Valve-Bracket/productinfo/121152/"
+     },
+     {
+      "name": "1966–77 Bronco proportioning valve, disc front / drum rear",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-77-Bronco-Proportioning-Valve-for-Disc-Front-Drum-Rear-Brakes/productinfo/12564/"
+     },
+     {
+      "name": "1966–77 Bronco power brake booster",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-77-Bronco-Power-Booster/productinfo/12502A/"
+     }
+    ]
+   },
+   {
+    "title": "Fix wandering and lean: caster, C-bushings and track-bar bushings",
+    "diff": "3 / 5",
+    "time": "≈ Half a day to a day",
+    "cost": "Parts about $100–150 (C-bushing kit plus track-bar bushings)",
+    "symptoms": "The truck darts and wanders on the highway, needs constant correction, shimmies after bumps, or sits visibly lower on one side at the front.",
+    "fix": "Wild Horses says about 90 percent of wandering early Broncos have incorrect caster, and its spec is +4 to +9 degrees. Lifting the truck moves caster negative, which is why offset C-bushings exist; 7 degrees is the standard. Support the frame on stands (not the axle), unbolt the radius-arm caps and fit the new C-bushings the right way up, following the 'front bottom' and 'rear bottom' markings. A bushing installed upside down changes caster and can make the truck lean. If it still leans, Brian Cooke's fix is to check that both radius arms touch a level floor at the same time and reseat the C-bushings by retightening the cap bolts in a different order. For shimmy and death wobble, Wild Horses names worn upper track-bar bushings as the number one culprit.",
+    "tools": "Jack stands under the frame · floor jack · socket set and torque wrench · angle finder for caster",
+    "parts": [
+     {
+      "name": "C-bushing kit, 7°, 1966–75, 14 pieces",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/C-Bushing-Kit-7-66-75-Black-14-Piece/productinfo/13008/"
+     },
+     {
+      "name": "C-bushing kit, 7°, 1976–77, 14 pieces",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/C-Bushing-Kit-7-76-77-Black-14-Piece/productinfo/13020/"
+     },
+     {
+      "name": "Track-bar bushings, 1966–75",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/Trac-Arm-Bushings-Black-66-75/productinfo/13045/"
+     },
+     {
+      "name": "Track-bar bushings, 1976–77",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/Trac-Bar-Bushings-Black-1976-77-Bronco/productinfo/13050/"
+     }
+    ]
+   },
+   {
+    "title": "Front-end rebuild: ball joints (or king pins), wheel bearings and spindle seals",
+    "diff": "3 / 5",
+    "time": "≈ A day for both sides",
+    "cost": "Ball joints $38.99 per side (Wild Horses); bearing and seal kits extra",
+    "symptoms": "Loose or sloppy steering, wander and uneven tire wear. With the front jacked up, the wheel rocks when you grip it at the top and bottom.",
+    "fix": "Dana 44 axles (mid-1971 on) use upper and lower ball joints; earlier Dana 30s use king pins with tapered bearings instead. On a Dana 44, remove the hub, bearings and spindle and slide out the axle shaft. Owners on ClassicBroncos remove the castle nut, unscrew the upper ball joint's adjusting bushing with a spanner tool, then separate the knuckle with a pickle fork, alternating taps top and bottom. Press out the old joints and press in the new ones, keeping the upper grease fitting accessible. While it's apart, replace the spindle bearing and seal and the axle-stub slinger and seal, fit new hub seals with the inner bearings, and consider new axle U-joints. Pack the wheel bearings and set the preload.",
+    "tools": "Ball-joint press (rentable) · Dana 44 ball-joint spanner · pickle fork · brass drift · spindle-nut socket",
+    "parts": [
+     {
+      "name": "Dana 44 upper and lower ball joints (one side), 1971–77 Bronco",
+      "supplier": "Wild Horses 4x4",
+      "url": "https://www.wildhorses4x4.com/71-77-ford-bronco-dana-44-upper-and-lower-ball-joints"
+     },
+     {
+      "name": "Dana 30 king-pin bearing and race (Timken)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/D30-King-Pin-Bearing-Race-TIMKEN/productinfo/12066/"
+     },
+     {
+      "name": "1966–71½ wheel bearing and hub seal kit",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-715-Wheel-Bearing-Hub-Seal-Kit/productinfo/120850/"
+     },
+     {
+      "name": "RockAuto catalog, 1972 Bronco 302 — ball joints",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,suspension,ball+joint,10070"
+     }
+    ]
+   },
+   {
+    "title": "Steering box mount, play adjustment and power-steering conversion",
+    "diff": "3 / 5",
+    "time": "≈ A day for a conversion; more if the frame needs welding",
+    "cost": "Bronco Graveyard's complete Delphi conversion is $1,199",
+    "symptoms": "Steering play, a box that shifts on the frame when the wheel is turned, cracks in the frame around the box, or heavy manual steering (manual was standard through 1972).",
+    "fix": "Check the box is tight to the frame first: a loose box moves and makes the steering feel vague. Inspect the frame rail around the mounting bolts and, as Wild Horses suggests, weld in extra support if it's cracked or thin. Never turn the play-adjusting screw on top of the box more than one turn in, or the sector shaft jams against the piston. To add power steering, you need double-groove crank and water-pump pulleys, a pump bracket and a pump. On trucks with vacuum wipers fed from the fuel pump, the pump can't go in its normal place, so convert to electric wipers first. Bronco Graveyard's Delphi kit has a 3.75-turn box that bolts on with the three stock bolts (a fourth hole can be drilled), plus the pump, hoses, pulleys and a collapsible lower shaft for a 3/4-inch 36-spline aftermarket column.",
+    "tools": "Pitman-arm puller · socket set and torque wrench · welder and grinder (if the frame is cracked) · drill",
+    "parts": [
+     {
+      "name": "1966–77 Bronco Delphi power-steering conversion, 3.1:1 ratio (V8)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Delphi-Power-Steering-Conversion-311-Ratio/productinfo/128932/"
+     },
+     {
+      "name": "Delphi power-steering box, 1966–77 Bronco",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/Delphi-Power-Steering-Box-66-77-Bronco/productinfo/12826/"
+     },
+     {
+      "name": "Early Bronco tie rods and drag links",
+      "supplier": "Wild Horses 4x4",
+      "url": "https://www.wildhorses4x4.com/early-bronco-tie-rods-drag-links"
+     },
+     {
+      "name": "RockAuto catalog, 1972 Bronco 302 — tie rod ends",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,steering,tie+rod+end,7428"
+     }
+    ]
+   },
+   {
+    "title": "Dana 20 transfer case leaks and rebuild",
+    "diff": "4 / 5",
+    "time": "≈ A weekend",
+    "cost": "Master bearing and seal kits $109–125 (Bronco Graveyard)",
+    "symptoms": "Oil weeping from the case or the joint with the transmission's intermediate housing, gear whine, jumping out of range, or a stiff shift.",
+    "fix": "Work out which case you have before ordering. Wild Horses notes that 1966–72 cases use a T-handle with a 2.46:1 low range and 1973–77 cases a J-shift with 2.34:1, and the front output, bearings, shift rails and detents differ. Drain the case, disconnect both driveshafts, the speedometer cable and the shift linkage, and unbolt the case from the intermediate housing. Replace the bearings, seals and gaskets; a deluxe kit adds a new cluster shaft, thrust washers and shims. Fit a new intermediate seal and gasket, reinstall, and fill to the plug. ClassicBroncos regulars say Ford specified 50-weight motor oil for the Dana 20, and some warn that GL-5 additives can harm its brass and bronze parts.",
+    "tools": "Drain pan · snap-ring pliers · bearing puller and press · seal drivers · torque wrench",
+    "parts": [
+     {
+      "name": "Dana 20 master bearing and seal kit, 1966–72 (T-handle)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/D20-Master-Bearing-Seal-Rebuild-Kit-66-72/productinfo/11615/"
+     },
+     {
+      "name": "Dana 20 master bearing and seal kit, 1973–77 (J-shift)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/D20-Master-Bearing-Seal-Rebuild-Kit-73-77/productinfo/11616/"
+     },
+     {
+      "name": "Dana 20 intermediate oil seal",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/Dana-20-Intermedaite-Oil-Seal/productinfo/11667/"
+     },
+     {
+      "name": "Intermediate housing to Dana 20 gasket, 1966–77",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/Intermediate-House-to-Dana-20-Gasket-66-77/productinfo/11026/"
+     }
+    ]
+   },
+   {
+    "title": "Vacuum wipers to electric (1966–69)",
+    "diff": "2 / 5",
+    "time": "≈ Half a day",
+    "cost": "Parts plus your time",
+    "symptoms": "Wipers that slow down or stop when you accelerate uphill, the classic vacuum-wiper failure, or a vacuum-wiper fuel pump blocking a power-steering pump.",
+    "fix": "Ford switched from vacuum to electric wipers in mid-1969, and on the early trucks the vacuum supply runs through the fuel pump. Remove the vacuum motor and its lines, fit the electric motor and bracket on the windshield frame, connect the motor arm to the existing linkage and run the wiper harness to a switch. An electric-wiper cover finishes the job. Replace the fuel pump with a non-vacuum V8 pump while you're there, which also frees up the spot a power-steering pump needs.",
+    "tools": "Screwdrivers and sockets · drill · wire strippers and crimpers · test light",
+    "parts": [
+     {
+      "name": "1966–77 Bronco electric wiper motor",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Wiper-Motor-Electric/productinfo/15214/"
+     },
+     {
+      "name": "1969–77 Bronco wiper motor wiring harness",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/Wiper-Motor-Wiring-Harness-69-77/productinfo/18029/"
+     },
+     {
+      "name": "Wiper linkage motor arm for electric wipers, 1966–77",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Wiper-Linkage-Motor-Arm-for-Electric-Wipers-With-Spring-Clip/productinfo/15212/"
+     },
+     {
+      "name": "1966–77 Bronco V8 fuel pump (289/302/351W)",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-V8-Fuel-Pump-289302351W/productinfo/10284/"
+     }
+    ]
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing has been done, and assume plenty has been changed: most early Broncos have been modified, so check what engine, axles and transfer case you actually have before buying parts. The data plate on the glovebox door gives the factory engine, transmission and axle codes.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "302 V8 capacity [CONFIRM IN MANUAL] · the 1966 170 six has a 6-quart oil pan (Ford press release)",
+     "interval": "At purchase, then per manual",
+     "note": "Swapped engines are common. Check what's actually in the truck before ordering a filter.",
+     "parts": [
+      {
+       "name": "RockAuto catalog, 1972 Bronco 302 — oil filters",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,engine,oil+filter,5340"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "Paper element on most trucks · early sixes had an oil-bath air cleaner",
+     "interval": "Inspect at every oil change",
+     "note": "An oil-bath cleaner needs its reservoir cleaned and refilled with oil, not a new element.",
+     "parts": [
+      {
+       "name": "RockAuto catalog, 1972 Bronco 302 — air filters",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,fuel+&+air,air+filter,6192"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs, cap, rotor & wires",
+     "spec": "Plug type and gap [CONFIRM IN MANUAL]",
+     "interval": "At purchase",
+     "note": "Points-type ignition is still common on unmodified trucks. Set dwell and timing afterward.",
+     "parts": [
+      {
+       "name": "RockAuto catalog, 1972 Bronco 302 — spark plugs",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,ignition,spark+plug,7212"
+      },
+      {
+       "name": "RockAuto catalog, 1972 Bronco 302 — distributor caps",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,ignition,distributor+cap,7120"
+      },
+      {
+       "name": "1966–73 289/302 8 mm spark plug wires",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-73-289-302-8mm-Ford-Logo-Spark-Plug-Ignition-Wires/productinfo/185950/"
+      }
+     ]
+    },
+    {
+     "item": "Coolant, thermostat, hoses & water pump",
+     "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+     "interval": "Flush at purchase, then every 2 years",
+     "note": "The stock Bronco V8 water pump has its inlet on the passenger side, which matters for pump and bracket fitment.",
+     "parts": [
+      {
+       "name": "1966–77 Bronco thermostat housing kit, V8",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-77-Bronco-Thermostat-Housing-Kit-For-V8-Engine/productinfo/106352/"
+      },
+      {
+       "name": "1966–77 Bronco V8 radiator hose kit",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-77-Ford-Bronco-V8-Radiator-Hose-Kit/productinfo/10642K/"
+      },
+      {
+       "name": "Water pump, V8 (passenger-side outlet), 1966–77",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/Water-Pump-V8-Passenger-Dump-66-77/productinfo/10775/"
+      }
+     ]
+    },
+    {
+     "item": "Belts",
+     "spec": "Fan and alternator belt; extra belt with power steering",
+     "interval": "At purchase",
+     "note": "Carry a spare on the trail.",
+     "parts": [
+      {
+       "name": "1966–77 289/302 fan and alternator belt",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/66-77-289302-Fan-Alt-Belt/productinfo/10472/"
+      }
+     ]
+    },
+    {
+     "item": "Manual transmission (three-speed)",
+     "spec": "Gear oil; ClassicBroncos owners use 75W-90 · grade and capacity [CONFIRM IN MANUAL]",
+     "interval": "Change at purchase",
+     "note": "Many trucks now have floor shifters or swapped four- and five-speeds. Identify the gearbox first.",
+     "parts": [
+      {
+       "name": "Bronco three-speed manual transmission gasket kit",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/Bronco-Tremec-Transmission-Gasket-Kit-3-Speed-Manual/productinfo/11012/"
+      }
+     ]
+    },
+    {
+     "item": "Automatic transmission (C4, 1973–77)",
+     "spec": "ATF · type and capacity [CONFIRM IN MANUAL]",
+     "interval": "Pan drop and new filter at purchase",
+     "note": "Check the cable shift linkage for wear while you're under there.",
+     "parts": [
+      {
+       "name": "1966–77 Bronco C4 cable shift linkage",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-77-Ford-Bronco-C-4-Cable-Shift-Linkage/productinfo/11108/"
+      }
+     ]
+    },
+    {
+     "item": "Dana 20 transfer case",
+     "spec": "Factory spec was 50-weight motor oil (ClassicBroncos) · fill to the plug",
+     "interval": "Change at purchase",
+     "note": "Some owners avoid GL-5 gear oil because of its effect on brass and bronze parts. Look for leaks at the intermediate housing.",
+     "parts": [
+      {
+       "name": "Dana 20 intermediate oil seal",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/Dana-20-Intermedaite-Oil-Seal/productinfo/11667/"
+      },
+      {
+       "name": "Intermediate housing to Dana 20 gasket",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/Intermediate-House-to-Dana-20-Gasket-66-77/productinfo/11026/"
+      }
+     ]
+    },
+    {
+     "item": "Front & rear differentials (Dana 30/44, Ford 9-inch)",
+     "spec": "Hypoid gear oil around 90 weight (75W-90/80W-90) · friction modifier for limited-slip · capacities [CONFIRM IN MANUAL]",
+     "interval": "Change at purchase and after deep water",
+     "note": "Factory ratios were 3.50, 4.11 and 4.57, some with limited-slip; the axle code on the data plate tells you which.",
+     "parts": [
+      {
+       "name": "RockAuto catalog, 1972 Bronco 302 — drivetrain",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,drivetrain"
+      }
+     ]
+    },
+    {
+     "item": "Front wheel bearings, hub seals & locking hubs",
+     "spec": "Repack with wheel-bearing grease; new seals",
+     "interval": "At purchase",
+     "note": "Replace the hub seals whenever the inner bearing comes out. Check the locking-hub O-rings too.",
+     "parts": [
+      {
+       "name": "1966–71½ wheel bearing and hub seal kit",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-715-Wheel-Bearing-Hub-Seal-Kit/productinfo/120850/"
+      },
+      {
+       "name": "Dana 44 locking hub O-rings, 1966–78 (set of 4)",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/D44-Bronco-Locking-Hub-O-Rings-66-78-Set-of-4/productinfo/18285/"
+      }
+     ]
+    },
+    {
+     "item": "C-bushings, radius-arm & track-bar bushings",
+     "spec": "Caster +4° to +9° (Wild Horses)",
+     "interval": "Inspect at purchase",
+     "note": "Worn upper track-bar bushings are the top cause of shimmy. Make sure the C-bushings are the right way up.",
+     "parts": [
+      {
+       "name": "C-bushing kit, 7°, 1966–75",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/C-Bushing-Kit-7-66-75-Black-14-Piece/productinfo/13008/"
+      },
+      {
+       "name": "Radius-arm bushing washer set, 1966–79",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-1979-Radius-Arm-Bushing-Washer-Set/productinfo/13222/"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid, hoses & lines",
+     "spec": "Fluid type [CONFIRM IN MANUAL]",
+     "interval": "Flush at purchase, then every 2 years",
+     "note": "Replace old rubber hoses and rusty rear axle lines.",
+     "parts": [
+      {
+       "name": "1967–75 Bronco front brake hose kit (set of 4)",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1967-75-Bronco-Front-Stock-Brake-Hose-Kit-Set-of-4/productinfo/12540+KIT+1967%2D75/"
+      },
+      {
+       "name": "1966–77 Bronco rear axle brake lines, stainless (pair)",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/66-77-Bronco-Rear-Axle-Brake-Lines-Pair-Stainless-Steel/productinfo/12516S/"
+      }
+     ]
+    },
+    {
+     "item": "Fuel pump, filter & sending unit",
+     "spec": "Mechanical pump; in-tank sending-unit filter",
+     "interval": "At purchase",
+     "note": "On vacuum-wiper trucks the wiper vacuum comes through the fuel pump. Replace cracked rubber fuel hose.",
+     "parts": [
+      {
+       "name": "1966–77 Bronco V8 fuel pump (289/302/351W)",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-V8-Fuel-Pump-289302351W/productinfo/10284/"
+      },
+      {
+       "name": "1966–77 Bronco sending-unit filter",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Sending-Unit-Filter/productinfo/10220/"
+      },
+      {
+       "name": "RockAuto catalog, 1972 Bronco 302 — fuel filters",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/ford,1972,bronco,5.0l+302cid+v8,1105490,fuel+&+air,fuel+filter,6200"
+      }
+     ]
+    },
+    {
+     "item": "Factory shop manual",
+     "spec": "Ford truck shop manuals on CD (1966 and 1977 editions listed)",
+     "interval": "Once",
+     "note": "Worth having for torque specs, capacities and adjustment procedures.",
+     "parts": [
+      {
+       "name": "1966 Ford Bronco & truck shop manual (CD)",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1966-Ford-Bronco-Truck-Shop-Manual-CD/productinfo/19920/"
+      },
+      {
+       "name": "1977 Ford truck shop manual, 3 volumes (CD)",
+       "supplier": "Bronco Graveyard",
+       "url": "https://shop.broncograveyard.com/1977-Ford-Truck-Shop-Manual-3-Volume-on-CD/productinfo/19931/"
+      }
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "On an uncut truck at stock height, Performance Plus Tire calls 30x9.50R15 the safe choice and says 31x10.50R15 may lightly rub at full stuff or full lock. ClassicBroncos owners agree: 235/75R15 bolts on, and a few squeeze 33x9.50s on with fender trimming and some rubbing. For 31–32-inch tires on uncut fenders, plan on a 2–3-inch lift and 3.75–4.25 inches of wheel backspacing; 33x12.50s generally mean cut fenders.",
+    "src": "PERFORMANCE PLUS TIRE · CLASSICBRONCOS"
+   },
+   {
+    "q": "Does mine have a Dana 30 or a Dana 44 front axle?",
+    "a": "Ford switched from the Dana 30 to the stronger Dana 44 partway through the 1971 model year. A quick tell is the knuckle: Wild Horses notes the Dana 30 uses king pins, while the Dana 44 uses ball joints. Every first-generation Bronco has a Ford 9-inch rear axle.",
+    "src": "AUTOTRADER CLASSICS · WILD HORSES"
+   },
+   {
+    "q": "Which engine should I look for?",
+    "a": "Most buyers want a V8. The 289 arrived in March 1966 and was replaced by the 302 for 1969, which ran to 1977; CJ Pony Parts lists the 1975 302 at 125 hp net. The sixes are the 170 (105 hp at launch) and, from 1973, the 200. Plenty of trucks now have swapped engines, from 351 Windsors to modern Coyote V8s.",
+    "src": "WIKIPEDIA · CJ PONY PARTS"
+   },
+   {
+    "q": "How do I read the VIN?",
+    "a": "An early Bronco VIN is 11 characters, such as U15GLxxxxxx. U13 is the roadster, U14 the half-cab pickup and U15 the wagon. The fourth character is the engine (F for the 170 six, N for the 289, G for the 302) and the fifth the plant (L for Michigan Truck). The VIN is stamped on the frame rail ahead of the firewall, and the data plate is inside the glovebox door.",
+    "src": "CJ PONY PARTS · BRONCOZONE"
+   },
+   {
+    "q": "Why does my Bronco wander?",
+    "a": "Wild Horses says about 90 percent of wandering early Broncos have incorrect caster. The spec is +4 to +9 degrees, and lifting the truck moves it negative. Offset C-bushings (7 degrees is standard) bring it back, and taller lifts may need drop brackets or long radius arms. For shimmy and death wobble, check the upper track-bar bushings first.",
+    "src": "WILD HORSES"
+   },
+   {
+    "q": "Does it have front disc brakes?",
+    "a": "Only 1976–77 Broncos came with power front disc brakes from the factory. Earlier trucks have drums all round, and conversion kits for 1966–75 Dana 30 and Dana 44 axles are widely available. Wild Horses' kit uses new spindles, brackets, calipers and hub-and-rotor assemblies.",
+    "src": "AUTOTRADER CLASSICS · WILD HORSES"
+   },
+   {
+    "q": "Did it come with power steering?",
+    "a": "Manual steering was standard through 1972, and power steering was optional from 1973. According to Wild Horses, 1973–75 power boxes take about six turns lock to lock and 1976–77 boxes about four. Many owners convert to a modern Delphi box; Bronco Graveyard's kit has 3.75 turns lock to lock.",
+    "src": "WILD HORSES · BRONCO GRAVEYARD"
+   },
+   {
+    "q": "What oil goes in the Dana 20?",
+    "a": "ClassicBroncos regulars say Ford specified 50-weight motor oil for the Bronco's Dana 20, filled until it runs out of the fill plug. Some owners use synthetic manual-transmission fluid or 75W-90 gear oil instead, and some warn that GL-5 additives can harm the case's brass and bronze parts.",
+    "src": "CLASSICBRONCOS"
+   },
+   {
+    "q": "What's a Baja Bronco?",
+    "a": "A package designed by Bill Stroppe and sold through Ford dealers from 1971, with an automatic, quick-ratio power steering, fender flares over Gates Commando tires, a roll bar, reinforced bumpers and red, white, blue and black paint. It cost $5,566 against $3,665 for a standard V8 Bronco, and only 650 were sold in four years. Insist on documentation.",
+    "src": "WIKIPEDIA"
+   },
+   {
+    "q": "Are uncut fenders worth paying for?",
+    "a": "Yes, if originality matters to you. Many trucks had their rear fenders cut for flares and bigger tires, so uncut ones are rarer and bring more money, and flared trucks sell for less. If you plan to run 33s or bigger anyway, a well-done cut truck can save you money.",
+    "src": "AUTOTRADER CLASSICS"
+   },
+   {
+    "q": "What are they worth?",
+    "a": "A lot, and it depends on who built it. Of 306 complete early Broncos sold on Bring a Trailer between August 2025 and October 2026, the middle half of stock and mildly modified trucks sold for about $41,500–70,000, with a median near $55,500. Projects mostly went for $9,600–37,000, and Coyote-swapped and shop-built restomods for about $122,000–166,500, topping out at $325,000. Hagerty recorded a 12 percent drop in the second quarter of 2026, but says a driver still costs $50,000 or more.",
+    "src": "BRING A TRAILER · HAGERTY"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "New coils and leaf springs undo decades of sag, and a 2.5–3.5-inch lift clears 31–33-inch tires. Match the C-bushings to the lift height so caster stays positive.",
+    "who": [
+     {
+      "name": "Wild Horses — early Bronco 4-inch suspension lift kit",
+      "url": "https://www.wildhorses4x4.com/early-bronco-4-inch-suspension-lift-kit"
+     },
+     {
+      "name": "Bronco Graveyard — 2.5-inch standard lift kit (1966–75)",
+      "url": "https://shop.broncograveyard.com/25-Standard-Lift-Kit-1966-75/productinfo/13700/"
+     },
+     {
+      "name": "James Duff — Bronco suspension catalog",
+      "url": "https://dufftuff.com/catalog"
+     }
+    ]
+   },
+   {
+    "cat": "STEERING",
+    "why": "Bigger tires overwhelm the stock linkage, and the 1976–77 Y-link bends. Heavier adjustable tie rods and a modern power box make it track straight.",
+    "who": [
+     {
+      "name": "Wild Horses — custom tie rods and drag links",
+      "url": "https://www.wildhorses4x4.com/early-bronco-custom-tie-rods-drag-links"
+     },
+     {
+      "name": "Bronco Graveyard — Delphi power-steering conversion",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Delphi-Power-Steering-Conversion-311-Ratio/productinfo/128932/"
+     }
+    ]
+   },
+   {
+    "cat": "BRAKES",
+    "why": "Four-wheel drums on a truck with 33s is optimistic. Disc conversions and a better booster are the first real-world upgrade on 1966–75 trucks.",
+    "who": [
+     {
+      "name": "Wild Horses — front disc brake conversion kits",
+      "url": "https://www.wildhorses4x4.com/early-bronco-front-disc-brake-conversion-kits"
+     },
+     {
+      "name": "Bronco Graveyard — Extreme power brake booster setup",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Extreme-Power-Brake-Booster-Set-Up/productinfo/12501/"
+     }
+    ]
+   },
+   {
+    "cat": "AXLES & LOCKERS",
+    "why": "The Dana 44 and 9-inch are strong, but bigger tires break axle shafts and an open diff stalls on rocks. Chromoly shafts and a locked 9-inch third member are the usual fixes.",
+    "who": [
+     {
+      "name": "Bronco Graveyard — Yukon chromoly Dana 44 axle set with U-joints",
+      "url": "https://shop.broncograveyard.com/D44-Bronco-Yukon-Chrome-Moly-4340-Axle-Set-With-U-Joints/productinfo/121600/"
+     },
+     {
+      "name": "Bronco Graveyard — Ford 9-inch third member with Grizzly locker",
+      "url": "https://shop.broncograveyard.com/Ford-9-Inch-Third-Member-Nodular-Iron-Complete-GRIZZLY-Locker-28-Spline/productinfo/12266/"
+     }
+    ]
+   },
+   {
+    "cat": "DRIVETRAIN SWAPS & COOLING",
+    "why": "Five-speed manuals and modern V8s are the restomod staples. An aluminum radiator helps any V8 survive slow trails.",
+    "who": [
+     {
+      "name": "Bronco Graveyard — AX15 five-speed swap kit",
+      "url": "https://shop.broncograveyard.com/Ford-Bronco-AX15-Complete-Manual-Transmission-Swap-Kit/productinfo/11355/"
+     },
+     {
+      "name": "Ford Performance Parts — crate engines",
+      "url": "https://performanceparts.ford.com/"
+     },
+     {
+      "name": "Bronco Graveyard — aluminum high-efficiency radiator, V8",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Aluminum-High-Efficiency-Radiator-V8/productinfo/10605/"
+     }
+    ]
+   },
+   {
+    "cat": "RESTOMOD BUILDERS",
+    "why": "If you'd rather write a check than weld, these shops build turn-key early Broncos, and their trucks dominate the top of the auction results.",
+    "who": [
+     {
+      "name": "ICON 4x4 — BR",
+      "url": "https://www.icon4x4.com/br"
+     },
+     {
+      "name": "Gateway Bronco",
+      "url": "https://www.gatewaybronco.com/"
+     },
+     {
+      "name": "Velocity Restorations",
+      "url": "https://www.velocityrestorations.com/"
+     },
+     {
+      "name": "Maxlider Brothers Customs",
+      "url": "https://www.maxliderbros.com/"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1966–1977 · US",
+    "label": "Early Bronco (all)",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=1966&maxyear=1977",
+    "bat_url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/"
+   },
+   {
+    "years": "1966–1968 · US",
+    "label": "Roadster era (170 / 289)",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=1966&maxyear=1968",
+    "bat_url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/"
+   },
+   {
+    "years": "1969–1975 · US",
+    "label": "302 V8 years (incl. Baja Bronco)",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=1969&maxyear=1975",
+    "bat_url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/"
+   },
+   {
+    "years": "1976–1977 · US",
+    "label": "Factory front discs",
+    "at_url": "https://www.autotempest.com/results?make=ford&model=bronco&minyear=1976&maxyear=1977",
+    "bat_url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "Wild Horses Off-Road",
+    "focus": "1966–77 BRONCO TECH & TRAIL",
+    "url": "https://www.youtube.com/@WildHorses4x4"
+   },
+   {
+    "kind": "YT",
+    "name": "TheBroncoGraveyard",
+    "focus": "BRONCO PARTS & INSTALLS",
+    "url": "https://www.youtube.com/channel/UC8RSZdbII6xQ-XH2uEst3-g"
+   },
+   {
+    "kind": "YT",
+    "name": "JamesDuffInc",
+    "focus": "BRONCO SUSPENSION SINCE 1967",
+    "url": "https://www.youtube.com/@jamesduffinc"
+   },
+   {
+    "kind": "YT",
+    "name": "Gateway Bronco",
+    "focus": "CLASSIC BRONCO RESTOMODS",
+    "url": "https://www.youtube.com/@GatewayBronco"
+   },
+   {
+    "kind": "YT",
+    "name": "Maxlider Bros.",
+    "focus": "EARLY BRONCO BUILDS",
+    "url": "https://www.youtube.com/@MaxliderBrothersCustoms"
+   },
+   {
+    "kind": "YT",
+    "name": "Velocity Restorations",
+    "focus": "RESTOMOD BUILDS",
+    "url": "https://www.youtube.com/@VelocityRestorations"
+   },
+   {
+    "kind": "IG",
+    "name": "@wildhorsesbroncos",
+    "focus": "EARLY BRONCO PARTS & BUILDS",
+    "url": "https://www.instagram.com/wildhorsesbroncos/"
+   },
+   {
+    "kind": "IG",
+    "name": "@gatewaybronco",
+    "focus": "CLASSIC BRONCO BUILDS",
+    "url": "https://www.instagram.com/gatewaybronco/"
+   },
+   {
+    "kind": "IG",
+    "name": "@icon4x4",
+    "focus": "ICON BR BUILDS",
+    "url": "https://www.instagram.com/icon4x4/"
+   },
+   {
+    "kind": "IG",
+    "name": "@maxlidermotors",
+    "focus": "EARLY BRONCO RESTOMODS",
+    "url": "https://www.instagram.com/maxlidermotors/"
+   },
+   {
+    "kind": "IG",
+    "name": "@velocityrestorations",
+    "focus": "RESTOMOD BUILDS",
+    "url": "https://www.instagram.com/velocityrestorations/"
+   }
+  ],
+  "forums": [
+   {
+    "name": "ClassicBroncos.com forums",
+    "url": "https://classicbroncos.com/forums/",
+    "note": "The deepest 1966–77 tech archive: tire fitment, steering, Dana 20, rust repair"
+   },
+   {
+    "name": "Bronco Zone — 1st Gen: 1966–1977 Early Bronco",
+    "url": "https://www.broncozone.com/forums/1st-gen-1966-1977-early-bronco.1/",
+    "note": "General early-Bronco discussion"
+   },
+   {
+    "name": "Bronco Zone — 66–77 Early Bronco Tech Support",
+    "url": "https://www.broncozone.com/forums/66-77-early-bronco-tech-support.9/",
+    "note": "Tech questions, including VIN and data-plate decoding"
+   }
+  ],
+  "related": [
+   {
+    "rel": "SUCCESSOR",
+    "name": "Full-size Bronco",
+    "family": "bronco",
+    "gen": "full-size"
+   },
+   {
+    "rel": "REVIVAL",
+    "name": "Bronco (sixth generation)",
+    "family": "bronco",
+    "gen": "sixth-gen"
+   },
+   {
+    "rel": "TARGET",
+    "name": "Jeep CJ-5",
+    "family": "jeep",
+    "gen": "cj-5"
+   },
+   {
+    "rel": "RIVAL",
+    "name": "Scout 80 / 800",
+    "family": "scout",
+    "gen": "scout-80-800"
+   },
+   {
+    "rel": "RIVAL",
+    "name": "Land Cruiser FJ40",
+    "family": "land-cruiser",
+    "gen": "fj40"
+   }
+  ],
+  "plate": [
+   {
+    "k": "BUILT",
+    "v": "Michigan Truck Plant, Wayne, Michigan · 1965–1977"
+   },
+   {
+    "k": "PRODUCTION",
+    "v": "≈ 225,600 (Autotrader Classics)"
+   },
+   {
+    "k": "BODIES",
+    "v": "U13 roadster (to 1968) · U14 half-cab (to 1972) · U15 wagon"
+   },
+   {
+    "k": "CHASSIS",
+    "v": "Box-section ladder frame, unique to the Bronco"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "92 in · length 151.5 in"
+   },
+   {
+    "k": "ENGINES",
+    "v": "170 & 200 I6 · 289 & 302 V8"
+   },
+   {
+    "k": "TRANSMISSIONS",
+    "v": "3-speed manual (column shift) · C4 3-speed auto from 1973"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "Dana 20 · 2.46:1 low (T-handle) / 2.34:1 (J-shift)"
+   },
+   {
+    "k": "FRONT AXLE",
+    "v": "Dana 30 to mid-1971 · Dana 44 after; coil springs, radius arms"
+   },
+   {
+    "k": "REAR AXLE",
+    "v": "Ford 9-inch on leaf springs"
+   },
+   {
+    "k": "BRAKES",
+    "v": "Drums · power front discs 1976–77"
+   },
+   {
+    "k": "TURNING CIRCLE",
+    "v": "34 ft curb to curb (Ford, 1965)"
+   }
+  ],
+  "photos": [
+   {
+    "file": "eb-liberty-camp-washington.jpg",
+    "alt": "A mud-covered, lifted early Ford Bronco with cut fenders parked at a forest campsite beside a tent",
+    "caption": "EARLY BRONCO · LIBERTY RECREATION SITE, WASHINGTON",
+    "credit": "BLM Oregon & Washington · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liberty_Recreation_Site_(32313506854).jpg"
+   },
+   {
+    "file": "eb-moon-rocks-nevada.jpg",
+    "alt": "A blue early Ford Bronco with a red tube bumper climbing a sandstone ledge at Moon Rocks OHV Area",
+    "caption": "EARLY BRONCO · MOON ROCKS OHV AREA, NEVADA",
+    "credit": "BLM Nevada · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Off-roading_at_Moon_Rocks_OHV_Area_(54378724291).jpg"
+   },
+   {
+    "file": "eb-stampede-arizona.jpg",
+    "alt": "Two lifted early Ford Broncos, one blue and one stripped white roadster-style truck, on a gravel lot below desert mountains",
+    "caption": "EARLY BRONCOS · CLASSIC BRONCO STAMPEDE, ARIZONA",
+    "credit": "Chris English · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2013_Arizona_Classic_Bronco_Stampede_-_panoramio.jpg"
+   },
+   {
+    "file": "eb-adirondack-hunting-camp.jpg",
+    "alt": "A blue early Ford Bronco with auxiliary lights beside a pickup camper at a hunters' camp on the Moose River Plains, Adirondack Forest Preserve, in the 1970s",
+    "caption": "EARLY BRONCO · MOOSE RIVER PLAINS, ADIRONDACKS",
+    "credit": "Anne LaBastille, Documerica (NARA) · Public domain",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:EQUIPMENT_USED_BY_HUNTERS_IN_THE_ADIRONDACK_FOREST_PRESERVE_FOR_BIG_GAME_INCLUDES_FOUR_WHEEL_DRIVE_VEHICLES_AND..._-_NARA_-_554681.jpg"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Ford Bronco",
+    "url": "https://en.wikipedia.org/wiki/Ford_Bronco"
+   },
+   {
+    "name": "Autotrader Classics — 1966–77 Ford Bronco collector's guide",
+    "url": "https://classics.autotrader.com/articles/1966-77-ford-bronco-collectors-guide"
+   },
+   {
+    "name": "Wild Horses 4x4 — 1966 Ford Bronco announcement publicity releases",
+    "url": "https://www.wildhorses4x4.com/1966-ford-bronco-announcement-publicity-releases"
+   },
+   {
+    "name": "Velocity Restorations — Ultimate guide to buying a classic Ford Bronco",
+    "url": "https://www.velocityrestorations.com/blog/ultimate-guide-buying-classic-ford-bronco-1969-1977/"
+   },
+   {
+    "name": "Hagerty — Vintage Ford Bronco values: a breakdown by generation",
+    "url": "https://hagerty.com/media/?p=70634"
+   },
+   {
+    "name": "Ford Authority — First-gen Ford Bronco values may finally be heading back down to earth (July 2026)",
+    "url": "https://fordauthority.com/2026/07/first-gen-ford-bronco-values-may-finally-be-heading-back-down-to-earth/"
+   },
+   {
+    "name": "Bring a Trailer — Ford Bronco U13/U14/U15 1966–1977 auction results",
+    "url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/"
+   },
+   {
+    "name": "Motor Authority — Parnelli Jones' Big Oly Bronco sells for $1.87M",
+    "url": "https://www.motorauthority.com/news/1132373_parnelli-jones-baja-raced-big-oly-ford-bronco-sold-for-1-87m"
+   },
+   {
+    "name": "Sports Car Digest — Big Oly Ford Bronco",
+    "url": "https://sportscardigest.com/big-oly-ford-bronco/"
+   },
+   {
+    "name": "Wild Horses 4x4 — Early Bronco Dana 20 transfer case",
+    "url": "https://www.wildhorses4x4.com/early-bronco-dana-20-transfer-case"
+   },
+   {
+    "name": "Wild Horses 4x4 — How to stop your early Bronco from wandering",
+    "url": "https://www.wildhorses4x4.com/how-to-stop-your-early-bronco-from-wandering"
+   },
+   {
+    "name": "Wild Horses 4x4 — How to fix early Bronco lean",
+    "url": "https://wildhorses4x4.com/how-to-fix-early-bronco-lean"
+   },
+   {
+    "name": "Wild Horses 4x4 — Steering tech",
+    "url": "https://www.wildhorses4x4.com/steering-tech"
+   },
+   {
+    "name": "Wild Horses 4x4 — Early Bronco custom steering linkage upgrades",
+    "url": "https://www.wildhorses4x4.com/early-bronco-custom-steering-linkage-upgrades"
+   },
+   {
+    "name": "Wild Horses 4x4 — Front disc brake conversion kit, 1966–75 Bronco",
+    "url": "https://wildhorses4x4.com/product/Front_Disc_Kit/Early_Bronco_Brakes"
+   },
+   {
+    "name": "Wild Horses 4x4 — Dana 44 upper and lower ball joints, 1971–77 Bronco",
+    "url": "https://www.wildhorses4x4.com/71-77-ford-bronco-dana-44-upper-and-lower-ball-joints"
+   },
+   {
+    "name": "Bronco Graveyard — 1966–77 Bronco Delphi power-steering conversion",
+    "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Delphi-Power-Steering-Conversion-311-Ratio/productinfo/128932/"
+   },
+   {
+    "name": "CJ Pony Parts — 1968 Bronco VIN decoder",
+    "url": "https://www.cjponyparts.com/resources/1968-bronco-vin-decoder"
+   },
+   {
+    "name": "CJ Pony Parts — 1975 Bronco VIN decoder",
+    "url": "https://www.cjponyparts.com/resources/1975-bronco-vin-decoder"
+   },
+   {
+    "name": "Bronco Zone — VIN number / warranty plate decode information",
+    "url": "https://broncozone.com/threads/vin-number-warranty-plate-decode-information.27179"
+   },
+   {
+    "name": "Performance Plus Tire — Early Bronco wheels and tires: the 1966–1977 fitment guide",
+    "url": "https://www.performanceplustire.com/Blog/early-bronco-wheels-tires"
+   },
+   {
+    "name": "ClassicBroncos — What's the largest tire you can run on an uncut stocker?",
+    "url": "https://classicbroncos.com/forums/threads/whats-the-largest-tire-you-can-run-on-a-uncut-stocker.184683"
+   },
+   {
+    "name": "ClassicBroncos — Transfer case oil change",
+    "url": "https://classicbroncos.com/forums/threads/transfer-case-oil-change.287393"
+   },
+   {
+    "name": "ClassicBroncos — Transfer case and axle fluid recommendations",
+    "url": "https://classicbroncos.com/forums/threads/help-transfer-case-and-axle-fluid-recommendations.268334"
+   },
+   {
+    "name": "ClassicBroncos — Replacing ball joints, bearings and seals",
+    "url": "https://classicbroncos.com/forums/threads/replacing-ball-joints-bearings-and-seals-this-weekend-have-any-tips-for-me.243714/post-2572538"
+   }
+  ]
+ }
+}

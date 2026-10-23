@@ -1,0 +1,1119 @@
+{
+ "slug": "discovery-2",
+ "title": "Land Rover Discovery Series II",
+ "eyebrow": "LAND ROVER DISCOVERY · SERIES II · L318 · 1998–2004",
+ "verdict": "The last Discovery with a proper ladder frame and two live axles, smothered in BMW-era electronics that range from clever (ACE) to cursed (an injector loom that pipes engine oil into the ECU). Buy the chassis, not the options list, and keep a Nanocom in the glovebox.",
+ "codes": [
+  "L318 · 100-IN WHEELBASE · 5-DOOR",
+  "TD5 · 4.0 / 4.6 ROVER V8",
+  "ACE · SLS · LT230"
+ ],
+ "hero_photo": "disco2-td5-roof-tent-camp.jpg",
+ "hero_focus": "65% 60%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Land Rover said the Series II had 720 differences from the [[land-rover/discovery-1|Discovery 1]], and every one of them seems to have a wire attached. Underneath it is still the old recipe: a steel ladder frame on a 100-inch wheelbase, a beam axle at each end, permanent four-wheel drive and a two-speed LT230 transfer box. On top sits a longer body, seven forward-facing seats, a new five-cylinder diesel and a stack of systems with acronyms. It was the last Land Rover SUV built on the bones of the 1970 Range Rover, and it is now one of the cheapest ways into a properly capable coil-and-axle Land Rover."
+   ]
+  },
+  {
+   "heading": "720 DIFFERENCES",
+   "paragraphs": [
+    "The Series II arrived in autumn 1998, four years after BMW bought Rover Group. Every body panel changed except the outer skin of the rear door. The tail grew to make room for adults in all seven seats on the SE7, at the cost of a longer rear overhang and a slightly worse departure angle. The rear lights moved up above the window line, the paddle door handles went, and the wheel pattern changed from the Discovery 1's 5x6.5 in to 5x120 mm, the same as the [[range-rover/p38|Range Rover P38]].",
+    "Under the skin the front axle swapped the old chrome swivel balls for upper and lower ball joints, again shared with the P38, and the rear axle was located by a Watts linkage. Some trucks got self-levelling rear air springs (SLS), and European type approval for the seven-seat version was only granted to air-sprung examples. Production ran at Solihull, with assembly also in Jordan and Malaysia."
+   ]
+  },
+  {
+   "heading": "TD5, THOR AND A LOT OF SENSORS",
+   "paragraphs": [
+    "Diesel buyers got the Td5, a 2.5-litre five-cylinder with electronic unit injectors, a chain-driven camshaft and two oil filters, one of them centrifugal. It came from the Rover 'Storm' project, not from BMW, and made 136 hp in Discovery tune. Wikipedia records two early mechanical faults, a failing oil-pump drive and 'head shuffle' from weak studs, both fixed within two years. Owners will tell you about the third: oil wicking down the injector harness and into the ECU.",
+    "Petrol trucks got the 4.0-litre 'Thor' V8 from the P38, the same 3,946 cc as before but with a different crank, cross-bolted mains, new rods and pistons and Bosch management. American buyers only ever got V8 automatics, and from the 2003 model year the US truck switched to the 4.6. Then there was ACE, Active Cornering Enhancement: hydraulic rams on the anti-roll bars that can counter up to 1 g of lateral force. It made a tall truck corner flat, and it gave owners a whole new set of pipes to corrode."
+   ]
+  },
+  {
+   "heading": "THE MISSING LEVER AND THE 2003 FACELIFT",
+   "paragraphs": [
+    "Early Series IIs still had a lockable centre differential in the transfer box, but Land Rover left out the linkage to work it, believing traction control and the new Hill Descent Control made it redundant. Owners disagreed. Fitting a Discovery 1 lever, or a kit such as Ashcroft's, became one of the classic Disco 2 upgrades, and the facelift brought the lever back as an option, standard on high-spec trucks.",
+    "The facelift (owners call it the D2a) arrived for 2003 with pocketed headlamps like the new Range Rover's, revised rear lamps with the indicators moved up out of the bumper, and the 4.6 V8 for North America. The Td5 had gone to Euro 3 spec in 2002, with an EGR system and smoother low-speed throttle. In 2003, Land Rover prepared 62 Discovery 2s for the first G4 Challenge, where competitors drove them through Las Vegas and Moab. The final trucks left Solihull in late May 2004 to make way for the Discovery 3."
+   ]
+  },
+  {
+   "heading": "WHY BUY ONE NOW",
+   "paragraphs": [
+    "Because the hard parts are simple. Live axles, coil springs (or air springs that convert to coils in an afternoon), an LT230 that is shared with the [[land-rover/defender-90-110|Defender]], and a chassis that takes 285/75R16s with about three inches of lift. The Td5 is slow in stock form but responds well to tuning, though Famous Four warns it is 'not quite a DIY Land Rover'; you need a diagnostic tool for some jobs. The V8 sounds lovely and drinks accordingly.",
+    "The catch is rust. The rear of the frame, around the fuel tank and the rear crossmember, rots from the inside out, and LandyZone members price a replacement chassis and the work at close to £10,000. Fresh under-seal can hide it, so get underneath with a hammer. A rust-free Disco 2 with documented head gaskets or injector loom work is a better buy than a shiny one with every option still fitted."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · G4 CHALLENGE",
+  "title": "Sixty-two Discoverys and a trip to Moab",
+  "paragraphs": [
+   "When Camel Trophy ended, Land Rover launched its own adventure contest. The first G4 Challenge, in 2003, sent competitors from 16 nations across the US, South Africa and Australia over 28 days. Land Rover prepared 62 Discovery 2s for the event, 60 of them used on the main challenge, for the final stage through Las Vegas and the Moab desert.",
+   "Belgian fighter pilot Rudi Thoelen won. Offered a new Range Rover as the prize, he asked for two Defenders instead. It was a fitting send-off: the Discovery 2 was the last Discovery built on a separate ladder frame with a live axle at each end."
+  ]
+ },
+ "engineering_intro": "The Discovery Series II keeps the Range Rover Classic formula of a steel ladder frame on a 100-inch wheelbase, beam axles on coil springs and permanent four-wheel drive through an LT230 transfer box, but changes almost everything bolted to it. The front axle uses ball joints instead of swivel housings, the rear axle is located by a Watts linkage and can carry self-levelling air springs, and optional ACE fights body roll hydraulically. Engines, ABS, traction control, Hill Descent Control and suspension are all managed electronically, so a diagnostic tool such as a Nanocom or Hawkeye is part of the toolkit.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Steel ladder frame, 100-in wheelbase",
+   "note": "Rear section and crossmember rot from the inside."
+  },
+  {
+   "k": "FRONT AXLE",
+   "v": "Beam axle, coil springs, ball joints",
+   "note": "No chrome swivels; ball joints shared with the P38."
+  },
+  {
+   "k": "REAR AXLE",
+   "v": "Beam axle, Watts linkage",
+   "note": "Coils, or optional self-levelling air springs (SLS)."
+  },
+  {
+   "k": "4WD",
+   "v": "Permanent, LT230 two-speed",
+   "note": "Centre diff lock fitted, but no lever until the facelift."
+  },
+  {
+   "k": "ACE",
+   "v": "Hydraulic active anti-roll bars",
+   "note": "Counters up to 1 g of lateral force; pipes corrode."
+  },
+  {
+   "k": "ENGINES",
+   "v": "Td5 2.5 I5 diesel; 4.0/4.6 V8",
+   "note": "US trucks: V8 automatic only."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1998–2002",
+   "platform": "L318, pre-facelift",
+   "engine": "Td5 2.5 I5 (10P)",
+   "output": "136 hp; 221 lb-ft manual, 232 lb-ft auto",
+   "note": "Early oil-pump bolt and head-stud fixes; no CDL lever."
+  },
+  {
+   "years": "1998–2002",
+   "platform": "L318, pre-facelift",
+   "engine": "4.0 Thor V8",
+   "output": "188 hp / 250 lb-ft (final 4.0 spec)",
+   "note": "From the P38; 1999–2002 MY in the US."
+  },
+  {
+   "years": "2002–2004",
+   "platform": "Td5 Euro 3",
+   "engine": "Td5 2.5 I5 (15P)",
+   "output": "136 hp",
+   "note": "EGR and revised low-speed throttle response."
+  },
+  {
+   "years": "2002–2004",
+   "platform": "L318 facelift (D2a)",
+   "engine": "4.0 V8 (UK and others)",
+   "output": "188 hp / 250 lb-ft",
+   "note": "Pocketed headlamps; CDL lever back as an option."
+  },
+  {
+   "years": "2003–2004 MY",
+   "platform": "US facelift",
+   "engine": "4.6 V8, 4-speed auto",
+   "output": "218 hp / 300 lb-ft (final 4.6 spec)",
+   "note": "S, SE and HSE, plus seven-seat S7, SE7 and HSE7."
+  },
+  {
+   "years": "2003–2004",
+   "platform": "UK run-out",
+   "engine": "Td5 or 4.0 V8",
+   "output": "—",
+   "note": "Pursuit, Landmark and ES Premium 'Definitive Editions'."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Rear chassis and crossmember",
+   "body": "The back of the frame, around the fuel tank and the rear crossmember, rots from the inside out where mud and water collect. Look closely at the rear chassis legs, the crossmember and the suspension hangers, because owners report hangers collapsing. Replacement rear quarter and half chassis sections exist, and so do whole galvanised frames, which tells you how common this is."
+  },
+  {
+   "head": "Sills, arches, boot floor and body mounts",
+   "body": "One LandyZone member's under-seal inspection turned up rotten footwells, inner and outer sills, all four arches, the boot floor and both rear body mounts, with a £5,040 repair quote. Expect to find at least twice the rust you can see once you start cutting."
+  },
+  {
+   "head": "Td5 head, fuel in the oil",
+   "body": "Famous Four says Td5 cylinder-head failure is now quite common and expensive. Check the dipstick: a level that is too high suggests diesel in the oil. Failed injector sealing washers cause the same symptom and are much cheaper to fix, so diagnose before you condemn the head."
+  },
+  {
+   "head": "Oil in the ECU plug",
+   "body": "Lift the ECU out of its tray by the battery and look at the connectors. Oil there means the injector harness seals under the rocker cover have failed, and in time that causes misfires and poor starting. The fix is a cheap harness, but neglected trucks may also have oil in the main engine loom."
+  },
+  {
+   "head": "Diesel leak at the back of the Td5",
+   "body": "Diesel weeping from the rear of the cylinder head on the driver's side is usually the fuel pressure regulator. Fix it quickly: Famous Four warns that leaking fuel can drip onto the starter motor and kill it."
+  },
+  {
+   "head": "V8 cooling and head gaskets",
+   "body": "Ask for head-gasket and cooling records. An Expedition Portal buyer's guide says gaskets often go between 50,000 and 70,000 miles and advises avoiding trucks with a compromised cooling system. Owners also report slipped or cracked cylinder liners, especially on 2003–04 4.6s, which mean an engine rebuild with top-hat liners or a replacement block."
+  },
+  {
+   "head": "SLS, ACE and the 'three amigos'",
+   "body": "A tail that sags overnight means leaking SLS air springs. Oil on the chassis rails or around the anti-roll bars means ACE leaks, which Famous Four calls 'very expensive to rectify'. ABS, TC and HDC lights together (the 'three amigos') are often a dirty or failed wheel sensor, but can be a failing ABS modulator costing thousands."
+  },
+  {
+   "head": "Centre diff lock and propshafts",
+   "body": "Pre-facelift trucks have the lock in the transfer box but often no lever, unless someone has fitted one. On the test drive, a severe shimmy points to worn propshaft joints; the front shaft's double-cardan joint has non-greasable UJs from the factory, and the rear rubber coupling cracks."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Td5 injector harness replacement",
+   "diff": "2 / 5",
+   "time": "≈ 2 hours",
+   "cost": "Harness about £30 (discovery2.co.uk); ECU-plug cleaning included",
+   "symptoms": "Oil inside the red ECU plug, poor starting, misfires or rough running, injector fault codes.",
+   "fix": "Disconnect the battery and lift the ECU out to check the plugs; clean oil out of the connector with a fast-drying solvent. Remove the acoustic cover and rocker cover, unclip the five injector plugs and the plug where the main loom meets the injector harness, and lift the harness out. Clean the bore where the harness connector seals into the head, fit the later modified harness with new O-rings, clip everything home and refit the rocker cover with a new gasket. Some owners also flush oil out of the main loom with solvent.",
+   "tools": "1/4-in ratchet and 8, 10 and 13 mm sockets, torque wrench, solvent cleaner, RTV · AMR6103 harness, NYX100080 O-rings, rocker cover gasket",
+   "parts": [
+    {
+     "name": "AMR6103 fuel injector wiring harness, Td5",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/amr6103-wiring-harness-injectors-td5"
+    },
+    {
+     "name": "NYX100080 injector harness O-ring, Td5",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/nyx100080-o-ring0-781"
+    },
+    {
+     "name": "LVP000020 rocker cover gasket, Td5 (from 1A)",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/lvp000020-gasket-camshaft-td5-1a-on"
+    }
+   ]
+  },
+  {
+   "title": "Td5 oil pump bolt (preventive)",
+   "diff": "3 / 5",
+   "time": "Half a day",
+   "cost": "A bolt, a sump gasket and RTV",
+   "symptoms": "None until it fails: the bolt holding the oil-pump sprocket can loosen and fall out, and the engine is destroyed. Early engines are most at risk, but owners have found loose bolts on 2003–04 trucks too.",
+   "fix": "Support the truck high on the chassis so the front axle drops, and remove the front crossmember (eight bolts) to get the sump out. Drain the oil, unclip the gearbox cooler pipe, remove the four bellhousing bolts, the rotor-filter drain pipe and the sump bolts (note the three lengths near the bellhousing). Swap the sprocket bolt for the superseded pre-thread-locked bolt at 25 Nm (18 lb-ft), fit a new sump gasket dry with RTV at the marked joints, and refit within 20 minutes. Check the power-steering pipe that chafes against the sump while you're there.",
+   "tools": "Axle stands, 3/8-in torque wrench, RTV sealant · M6 oil-pump bolt, sump gasket; power-steering pipe ANR6974 if chafed (per discovery2.co.uk)",
+   "parts": [
+    {
+     "name": "FT106257M M6 x 25 mm oil pump bolt, Td5",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/ft106257m-bolt-fqa"
+    },
+    {
+     "name": "LVF500040 engine oil sump gasket, Td5",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/lvf500040-sump-gasket-td5"
+    }
+   ]
+  },
+  {
+   "title": "Td5 fuel pressure regulator",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour",
+   "cost": "Regulator about £80 (discovery2.co.uk, 2008)",
+   "symptoms": "Diesel leaking from the back of the engine on the driver's side; fuel smell.",
+   "fix": "Remove the acoustic cover and the engine lifting bracket for room. Loosen the top two bolts, unplug the sensor, remove the hidden bottom bolt with a long extension, then release the two quick-release fuel pipes and the last bolt. Don't lose the small gauze filter and O-ring behind the regulator. Fit a new gasket and O-ring, torque the three bolts to 25 Nm (18 lb-ft), reconnect and prime the system. Order the regulator by chassis number: the 2003-on version has an extra return pipe.",
+   "tools": "1/4-in ratchet and extensions, 10 and 13 mm ratcheting spanners, torque wrench · regulator, gasket and O-ring",
+   "parts": [
+    {
+     "name": "MSX100080 fuel pressure regulator gasket, Td5",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/msx100080-gasket-fuel-pressure-regulator-td"
+    },
+    {
+     "name": "Td5 fuel pressure regulator (search)",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=td5+fuel+pressure+regulator"
+    }
+   ]
+  },
+  {
+   "title": "SLS air springs, or convert to coils",
+   "diff": "2 / 5",
+   "time": "≈ 2–3 hours",
+   "cost": "A pair of air springs, or a coil conversion kit",
+   "symptoms": "The rear sags overnight or when parked, then pumps back up; the compressor runs for long periods. Ignored leaks burn out the compressor.",
+   "fix": "Chock the front wheels, support the chassis by the rear radius-arm mounts and the axle on jacks, and remove the wheels. Open the compressor box on the chassis rail and slowly crack the two outer air unions (not the middle one) to deflate. Pop the retaining clips, collapse the spring, undo its air union, rotate it 90 degrees and lift it out. Replace both sides. To convert instead, fit Discovery 2 (not Discovery 1) spring seats, coils and shocks, and have the SLS switched off with a diagnostic tool.",
+   "tools": "Trolley jack, axle stands, 10 mm spanner, spring compressor for coils · air springs and clips, or a conversion kit",
+   "parts": [
+    {
+     "name": "RKB101200 rear suspension air spring, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/rkb101200-air-bag-ds2-rear-suspension"
+    },
+    {
+     "name": "NTC9449 air spring retaining clip",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/ntc9449-square-clip-air-sus-bag"
+    },
+    {
+     "name": "TF226 Terrafirma coil conversion kit, 2 in lift",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/tf226-air-to-coil-conversion-kit-dis"
+    },
+    {
+     "name": "DA5136 rear air-to-coil conversion kit, standard height",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/da5136-disco-2-air-suspension-convers"
+    }
+   ]
+  },
+  {
+   "title": "ACE leaks: pipes, filter or delete",
+   "diff": "3 / 5",
+   "time": "Half a day to a weekend",
+   "cost": "Pipes are cheap; one owner's previous owner spent about $4,000 on the system",
+   "symptoms": "Hydraulic fluid on the chassis or around the anti-roll bars, ACE warning, body roll returning. Pipes rust through and the aluminium valve block pits until its seals fail.",
+   "fix": "Trace the leak: pump banjo, steel lines along the chassis, actuator seals or the valve block. Replace corroded pipes with new Dowty washers (an NHTSA recall had dealers re-torque or replace the pump banjo bolt). Change the high-pressure filter in the bottom of the valve block at 72,000 miles: heat the steel cap, use a 10 mm hex, pull the filter straight out with an M6 bolt, refit at 35 Nm. Refill with Land Rover PAS fluid STC50519, which ACE shares with the steering. Owners who give up fit standard anti-roll bars and a non-ACE belt.",
+   "tools": "10 mm hex socket, breaker bar, heat, flare spanners · pipes, Dowty washers, filter, fluid",
+   "parts": [
+    {
+     "name": "RVJ100010 ACE filter and plug",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/rvj100010-ace-filter-ds2"
+    },
+    {
+     "name": "RYF100420 Dowty sealing washer, ACE pipes",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/ryf100420-washer-special"
+    },
+    {
+     "name": "RQB000390 ACE high-pressure rear pipe to actuator",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/rqb000390-ace-pipe-rear-ds-td5"
+    },
+    {
+     "name": "STC50519 power steering / ACE fluid",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/catalog/product/view/id/6971504/s/stc50519-oil-power-steering/category/2/"
+    }
+   ]
+  },
+  {
+   "title": "Three amigos: ABS sensors and hubs",
+   "diff": "2 / 5",
+   "time": "≈ 1–3 hours",
+   "cost": "A sensor, or a front hub assembly (about £160–260, per discovery2.co.uk)",
+   "symptoms": "ABS, TC and HDC warning lights on together, sometimes intermittently.",
+   "fix": "Read the codes with a Nanocom, Hawkeye or similar to find the wheel. Clean the sensor and its tone ring, check the wiring and connector, and replace the sensor if needed. Play in a front wheel bearing can also trigger the lights; the front bearing is part of the hub assembly, and the hub nut is torqued to 490 Nm (360 lb-ft). If the codes point to the modulator, check for the 2004 NHTSA modulator-cover recall and change the brake fluid before replacing the unit.",
+   "tools": "Diagnostic tool, multimeter, big torque wrench for hubs · wheel-speed sensors, hub assembly",
+   "parts": [
+    {
+     "name": "SSW500020 front wheel speed sensor, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/ssw500020-sensor-asy"
+    },
+    {
+     "name": "SSW500030 rear wheel speed sensor, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/ssw500030-sensor-asy"
+    },
+    {
+     "name": "TAY100060 front hub assembly with ABS sensor",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/tay100060-hub-assy-with-sensor-ds-td5-fro"
+    }
+   ]
+  },
+  {
+   "title": "V8 head gaskets and cooling refresh",
+   "diff": "4 / 5",
+   "time": "A weekend, plus machine-shop time",
+   "cost": "One US owner paid about $1,250 at an independent shop, including $640 labour and head skimming",
+   "symptoms": "Coolant loss, overheating at idle, coolant weeping at the head-to-block joint, mayonnaise under the filler cap.",
+   "fix": "Strip the intake, rocker gear and heads; check the heads for warp and have them skimmed (one owner's warped heads needed 0.003–0.004 in taken off after 130,000 miles). Check the bores for a liner standing proud or cracks behind it before you spend money on gaskets. Refit with new composite gaskets and new head bolts. While it's apart, renew the thermostat, radiator, hoses and viscous fan; some owners fit the cooler Td5 thermostat and an OBD gauge, because they don't trust the dash gauge.",
+   "tools": "Full socket set, torque wrench with angle gauge, straightedge and feeler gauges · head gasket set, head bolts, cooling parts",
+   "parts": [
+    {
+     "name": "STC4082 head gasket set, 4.0 and 4.6 V8",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/stc4082-head-set-4-6-v8"
+    },
+    {
+     "name": "LVB500030 composite cylinder head gasket, 3.9/4.0/4.6 V8",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/lvb500030-cyl-head-gasket-3-9-composite"
+    },
+    {
+     "name": "ERR4996 viscous fan coupling, 4.0/4.6 V8, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/err4996-viscous-unit-new-rr-v8"
+    },
+    {
+     "name": "PCC000650 radiator, 4.0 V8, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/pcc000650-radiator-assembly"
+    }
+   ]
+  },
+  {
+   "title": "Rear chassis and crossmember repair",
+   "diff": "4 / 5",
+   "time": "Several weekends, or a week on a ramp",
+   "cost": "LandyZone members put a new chassis plus the work at close to £10,000; patch repairs much less",
+   "symptoms": "Flaking or holed metal at the rear crossmember, rear chassis legs and around the fuel tank; collapsed suspension hangers; MOT failures.",
+   "fix": "Drop the fuel tank to see the real extent. Small holes can be plated, but most owners cut out the rear quarter or rear half and weld in a replacement section, or swap the whole frame for a galvanised one. Treat the inside of the rails with cavity wax afterwards, because that's where the rot starts.",
+   "tools": "MIG welder, grinder, axle stands, tank support · rear quarter or half chassis, crossmember, body mounts",
+   "parts": [
+    {
+     "name": "DA8903 rear quarter chassis, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/da8903-disco-2-rear-1-4-chassis"
+    },
+    {
+     "name": "DA2565 rear half chassis, Discovery 2",
+     "supplier": "LR Direct",
+     "url": "https://www.lrdirect.com/da2565-disco-2-rear-1-2-chassis"
+    },
+    {
+     "name": "KVB100100 rear crossmember assembly, Discovery II",
+     "supplier": "Rovers North",
+     "url": "https://www.roversnorth.com/parts/kvb100100_rear_crossmember_assy_discovery_ii"
+    },
+    {
+     "name": "Discovery 2 chassis repair sections",
+     "supplier": "Froggatts",
+     "url": "https://froggatts.co.uk/parts-category/land-rover-discovery-2-parts/chassis-repair-land-rover-discovery-2/"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "Discoweb owners recommend 245/75R16 for a stock-height truck. Several run 265/75R16 at stock height, but they rub at full lock on the plastic behind the fog lamps or need the front bumper trimmed. With a 2-inch lift such as the OME kit, 265/75R16 is the common choice; 285/75R16 wants nearer 3 inches and raises gearing and halfshaft-strength concerns.",
+   "src": "DISCOWEB / LANDROVERFORUMS"
+  },
+  {
+   "q": "Td5 or V8?",
+   "a": "The Td5 makes its torque low down and responds well to tuning, but it needs a diagnostic tool for some jobs and has known weak spots: the injector harness, the fuel pressure regulator, the early oil-pump bolt and, increasingly, cylinder heads. The V8 is smoother and quicker than a stock Td5 but thirsty, and head gaskets and liners are its big risks. In the US every Disco 2 is a V8.",
+   "src": "AULRO / FAMOUS FOUR"
+  },
+  {
+   "q": "What changed with the 2003 facelift?",
+   "a": "Pocketed headlamps, revised rear lamps with the indicators moved up out of the bumper, the centre diff lock lever back as an option (standard on high-spec trucks) and, in North America, the 4.6 V8 instead of the 4.0. Td5s had already gained Euro 3 tune and EGR in 2002.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Does my truck have a centre diff lock?",
+   "a": "Every Series II has a lockable centre differential in the LT230, but early trucks were built without the lever. Owners fit a Discovery 1 linkage from a truck with the same transmission (manual and auto parts differ) or a kit such as Ashcroft's. On early trucks, don't cut the CDL input wire to the ABS ECU: the ECU uses it to stop traction control fighting the locked diff.",
+   "src": "DISCOVERY2.CO.UK / LANDYZONE"
+  },
+  {
+   "q": "Should I keep ACE?",
+   "a": "Opinion is split. ACE fans say the truck corners far better and has more articulation off-road; others fit standard anti-roll bars once the pipes or valve block start leaking. Repairs to a tired system can run to thousands, so price it before you buy.",
+   "src": "LANDROVERFORUMS"
+  },
+  {
+   "q": "Can I convert the SLS to coils?",
+   "a": "Yes, and it's a common job. Fit Discovery 2 rear spring seats (Discovery 1 seats are shallower), coils and matching shocks, or a ready kit from Terrafirma, Rovers North or Atlantic British. The SLS then needs switching off with dealer software or an aftermarket tool.",
+   "src": "DISCOWEB / ATLANTIC BRITISH"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "The EPA rated a 2002 4.0 V8 automatic at 12 mpg city, 16 highway and 13 combined, and a 2003 4.6 at 11 city, 14 highway and 12 combined. Td5s do much better, though no US figure exists because they were never sold there.",
+   "src": "FUELECONOMY.GOV"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "Australian specs for a 2001 Td5 manual list 3,500 kg (7,716 lb) braked and 750 kg unbraked, with a 2,750 kg gross vehicle mass.",
+   "src": "CARSALES"
+  },
+  {
+   "q": "Can I import a Td5 Discovery 2 into the US?",
+   "a": "Once it is 25 years old by date of manufacture, yes: NHTSA exempts it from FMVSS. Series IIs were built from 1998 to May 2004, so as of October 2026 trucks built before October 2001 qualify, and later Td5s follow month by month. Check EPA and state rules as well.",
+   "src": "NHTSA"
+  },
+  {
+   "q": "What fluids does the Td5 take?",
+   "a": "discovery2.co.uk's owner uses 5W-30 fully synthetic, the same oil his dealer used, with 7.2 litres including both filters. The transfer box and both axles take 75W-90 gear oil: about 2.0 litres to refill the LT230 (2.3 from dry) and about 3.5 litres for the two axles together.",
+   "src": "DISCOVERY2.CO.UK"
+  },
+  {
+   "q": "How is it related to the Discovery 1 and the P38?",
+   "a": "It keeps the [[land-rover/discovery-1|Discovery 1]]'s 100-inch ladder frame and LT230, but borrows a lot from the [[range-rover/p38|P38]]: the 4.0 'Thor' V8, the 5x120 wheel pattern and the front ball joints. The rear propshaft coupling fits Discovery 1, Discovery 2 and P38.",
+   "src": "WIKIPEDIA / LR DIRECT"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "Two inches with stiffer springs and longer shocks clears 265/75s and restores sagging trucks; 3-inch kits need more work on props and geometry.",
+   "who": [
+    {
+     "name": "Old Man Emu 2\" kit (Lucky8)",
+     "url": "https://lucky8llc.com/products/ome-discovery-ii-2-lift-kit"
+    },
+    {
+     "name": "Terrafirma TFXT Plus 3\" kit (Lucky8)",
+     "url": "https://lucky8llc.com/products/terrafirma-d2-3in-tfxt-plus-1"
+    }
+   ]
+  },
+  {
+   "cat": "AIR-TO-COIL CONVERSION",
+   "why": "Replaces leaking SLS air springs and a tired compressor with coils, at stock height or lifted.",
+   "who": [
+    {
+     "name": "Terrafirma TF226 (LR Direct)",
+     "url": "https://www.lrdirect.com/tf226-air-to-coil-conversion-kit-dis"
+    },
+    {
+     "name": "Rovers North RNK5118 rear kit",
+     "url": "https://www.roversnorth.com/parts/rnk5118_conversion_kit_rear_air_to_spring_discovery_2&type=3"
+    }
+   ]
+  },
+  {
+   "cat": "CENTRE DIFF LOCK",
+   "why": "Early trucks have the lock but no lever; a linkage kit gives you a proper locked centre diff for mud and steep climbs.",
+   "who": [
+    {
+     "name": "Ashcroft Transmissions — Disco II difflock",
+     "url": "https://ashcroft-transmissions.co.uk/product-category/disco-ii-difflock/"
+    }
+   ]
+  },
+  {
+   "cat": "ARMOUR",
+   "why": "Sills are low and soft; sliders protect them and the body behind.",
+   "who": [
+    {
+     "name": "Terrafirma TF809 rock sliders (Lucky8)",
+     "url": "https://lucky8llc.com/products/terrafirma-discovery-ii-rock-sliders-w-tree-bars"
+    }
+   ]
+  },
+  {
+   "cat": "PROPSHAFTS",
+   "why": "Lifted trucks need more angle than the stock rubber coupler and non-greasable double-cardan joint like to give.",
+   "who": [
+    {
+     "name": "Tom Wood's D2 rear double-cardan shaft (Lucky8)",
+     "url": "https://lucky8llc.com/products/tom-woods-d2-rear-double-cardan-drive-shaft"
+    }
+   ]
+  },
+  {
+   "cat": "CHASSIS & RUST REPAIR",
+   "why": "Rear chassis sections, crossmembers, sills and body mounts are what keep a Disco 2 on the road.",
+   "who": [
+    {
+     "name": "Froggatts — Discovery 2 panels",
+     "url": "https://froggatts.co.uk/parts-category/land-rover-discovery-2-parts/"
+    },
+    {
+     "name": "Replacement Chassis Parts — Discovery 2",
+     "url": "https://www.replacementchassisparts.co.uk/discovery-2"
+    },
+    {
+     "name": "YRM Metal Solutions",
+     "url": "https://yrmit.co.uk/land-rover-discovery-2-rust-repairs-galvanised-upgrades/"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1999–2004 · US",
+   "label": "Discovery II (all)",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=discovery&minyear=1999&maxyear=2004",
+   "bat_url": "https://bringatrailer.com/land-rover/discovery-ii/"
+  },
+  {
+   "years": "1999–2002 · US",
+   "label": "4.0 V8, pre-facelift",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=discovery&minyear=1999&maxyear=2002",
+   "bat_url": "https://bringatrailer.com/land-rover/discovery-ii/"
+  },
+  {
+   "years": "2003–2004 · US",
+   "label": "4.6 V8 facelift",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=discovery&minyear=2003&maxyear=2004",
+   "bat_url": "https://bringatrailer.com/land-rover/discovery-ii/"
+  }
+ ],
+ "social": [],
+ "forums": [
+  {
+   "name": "LandyZone — Land Rover Discovery (Disco 2 threads)",
+   "url": "https://www.landyzone.co.uk/forum/land-rover-discovery.8/?prefix_id=22",
+   "note": "Busy UK board; the Disco 2 prefix filters Td5, SLS, ACE and chassis threads."
+  },
+  {
+   "name": "The D2 Boys Club",
+   "url": "https://www.d2bc.net/",
+   "note": "Dedicated Discovery 2 enthusiasts' forum with half a million posts."
+  },
+  {
+   "name": "LandRoverForums.com — Discovery II",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/",
+   "note": "Mostly US V8 owners: liners, head gaskets, ACE and tyres."
+  },
+  {
+   "name": "AULRO — Discovery 2",
+   "url": "https://www.aulro.com/afvb/discovery-2-a/",
+   "note": "Australian owners; strong on Td5 and touring setups."
+  },
+  {
+   "name": "discovery2.co.uk",
+   "url": "http://www.discovery2.co.uk/",
+   "note": "One owner's long-running site of photo-illustrated Td5 maintenance and repair guides."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "Discovery Series I",
+   "family": "land-rover",
+   "gen": "discovery-1"
+  },
+  {
+   "rel": "ENGINE & AXLE DONOR",
+   "name": "Range Rover P38",
+   "family": "range-rover",
+   "gen": "p38"
+  },
+  {
+   "rel": "SIBLING · TD5 & LT230",
+   "name": "90 / 110 / Defender (classic)",
+   "family": "land-rover",
+   "gen": "defender-90-110"
+  },
+  {
+   "rel": "CONTEMPORARY RIVAL",
+   "name": "Land Cruiser 100 Series",
+   "family": "land-cruiser",
+   "gen": "100-series"
+  }
+ ],
+ "plate": [
+  {
+   "k": "PRODUCTION",
+   "v": "1998–2004"
+  },
+  {
+   "k": "MODEL CODE",
+   "v": "L318"
+  },
+  {
+   "k": "PLANT",
+   "v": "Solihull, UK (kits in Jordan and Malaysia)"
+  },
+  {
+   "k": "BODY",
+   "v": "5-door, 5 or 7 seats"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "100 in (2,540 mm)"
+  },
+  {
+   "k": "LENGTH",
+   "v": "185.2 in (4,705 mm)"
+  },
+  {
+   "k": "CHASSIS",
+   "v": "Steel ladder frame"
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Coils, beam axles; optional SLS and ACE"
+  },
+  {
+   "k": "4WD",
+   "v": "Permanent, LT230, lockable centre diff"
+  },
+  {
+   "k": "ENGINES",
+   "v": "Td5 2.5 I5 · 4.0 V8 · 4.6 V8 (US 2003–04)"
+  },
+  {
+   "k": "WHEELS",
+   "v": "5x120, M14x1.5 nuts"
+  },
+  {
+   "k": "US MODEL YEARS",
+   "v": "1999–2004, V8 automatic only"
+  }
+ ],
+ "photos": [
+  {
+   "file": "disco2-td5-roof-tent-camp.jpg",
+   "alt": "A dark green Discovery Series II Td5 with a Hannibal roof tent and ladder set up at a Land Rover club camp in a Norwegian field",
+   "caption": "DISCOVERY II TD5 · CLUB CAMP, EVJE",
+   "credit": "Harald Hansen · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hannibal_roof_tent.jpg"
+  },
+  {
+   "file": "disco2-forest-mud-track.jpg",
+   "alt": "A dark green pre-facelift Discovery Series II with spotlights climbing out of a muddy forest track in Norway",
+   "caption": "DISCOVERY II · FOREST MUD, RENA",
+   "credit": "Harald Hansen · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Land_rover_discovery_sii.jpg"
+  },
+  {
+   "file": "disco2-green-forest-trail.jpg",
+   "alt": "A bright green Discovery Series II with snorkel, winch and light bar on a dirt forest trail",
+   "caption": "DISCOVERY II · FOREST TRAIL",
+   "credit": "George Sultan",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/photo-of-a-green-land-rover-car-11876634/"
+  },
+  {
+   "file": "disco2-snow-morayshire.jpg",
+   "alt": "A white 2000 Discovery Series II Td5 ES parked in falling snow in rural Morayshire, Scotland",
+   "caption": "DISCOVERY II TD5 · SNOW, MORAYSHIRE",
+   "credit": "Mike McBey · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Christmas_day_in_the_country_(49673898208).jpg"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Most Discovery 2s have had years of cheap ownership, so assume nothing has been done. Change every fluid, and on a Td5 pull the ECU plugs to look for oil and decide whether to drop the sump for the oil-pump bolt. On a V8, refresh the cooling system before anything else. Do it on axle stands so you can inspect the rear chassis at the same time.",
+  "items": [
+   {
+    "item": "Engine oil & filters (Td5)",
+    "spec": "5W-30 fully synthetic (as used by the dealer, per discovery2.co.uk) · 7.2 L · spin-on filter plus centrifugal rotor filter",
+    "interval": "Now; then per service schedule [CONFIRM IN MANUAL]",
+    "note": "Change both filters. The rotor filter sits next to the turbo under a lid held by two 10 mm bolts (10 Nm); sump plug 17 mm, 23 Nm with a new washer.",
+    "parts": [
+     {
+      "name": "LPX100590 spin-on oil filter, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/lpx100590-oil-filter-td5"
+     },
+     {
+      "name": "ERR6299 centrifugal rotor filter, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/err6299-oil-filter-td5-rotor"
+     }
+    ]
+   },
+   {
+    "item": "Engine oil & filter (V8)",
+    "spec": "[CONFIRM IN MANUAL]",
+    "interval": "Now",
+    "note": "A service kit covers oil, air and fuel filters in one order.",
+    "parts": [
+     {
+      "name": "DA6010P service kit, 4.0 V8, Discovery 2",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/da6010p-service-kit"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter (Td5)",
+    "spec": "Spin-on filter with water sensor, under the right rear wheel arch",
+    "interval": "Now",
+    "note": "Transfer the water sensor hand-tight (it's plastic), make sure only one seal sits on the housing, pre-fill with diesel, then follow the purge procedure: ignition on for 3 minutes, then crank with the throttle floored.",
+    "parts": [
+     {
+      "name": "ESR4686 fuel filter, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/esr4686-fuel-filter-td5"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "Paper element",
+    "interval": "Replace now",
+    "note": "",
+    "parts": [
+     {
+      "name": "LR027408 air cleaner element, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/lr027408-element-assy-air-cleaner"
+     }
+    ]
+   },
+   {
+    "item": "Glow plugs (Td5) / spark plugs (V8)",
+    "spec": "Td5 glow plugs · V8 double-platinum plugs",
+    "interval": "Test glow plugs now; replace V8 plugs and leads",
+    "note": "",
+    "parts": [
+     {
+      "name": "ERR6066 glow plug, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/err6066-heater-plug-td5"
+     },
+     {
+      "name": "NLP100320 spark plug, 4.0/4.6 V8, Discovery 2 and P38",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/nlp100320-spark-plug-discovery-s2-rc11pypb4"
+     }
+    ]
+   },
+   {
+    "item": "Timing (Td5)",
+    "spec": "Duplex timing chain, no belt",
+    "interval": "No routine replacement",
+    "note": "Wikipedia notes the camshaft is driven by a duplex chain, so there's no belt interval. The serious Td5 timing-gear risk is the oil-pump sprocket bolt below.",
+    "parts": []
+   },
+   {
+    "item": "Oil-pump bolt (Td5)",
+    "spec": "Superseded pre-thread-locked M6 bolt, 25 Nm",
+    "interval": "Once, if there's no record",
+    "note": "Sump off with the front crossmember removed; fit a new sump gasket. Check the power-steering pipe that chafes on the sump.",
+    "parts": [
+     {
+      "name": "FT106257M oil-pump bolt, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/ft106257m-bolt-fqa"
+     },
+     {
+      "name": "LVF500040 sump gasket, Td5",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/lvf500040-sump-gasket-td5"
+     }
+    ]
+   },
+   {
+    "item": "Auxiliary belt",
+    "spec": "Poly-V belt; part depends on A/C and ACE",
+    "interval": "Inspect now; replace if cracked or noisy",
+    "note": "Listen for squealing idlers and the A/C clutch bearing. Early ACE trucks had an idler-pulley recall (NHTSA 00V142).",
+    "parts": [
+     {
+      "name": "PQS101510 auxiliary belt, Td5 with A/C and ACE",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/pqs101510-polyvee-belt-ds2-td5-with-ace-and-a"
+     },
+     {
+      "name": "PQS101500 auxiliary belt, Td5 with A/C, non-ACE",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/pqs101500-polyvee-belt-ds2-td5-with-a-c-no"
+     }
+    ]
+   },
+   {
+    "item": "Coolant, hoses & thermostat",
+    "spec": "Antifreeze type [CONFIRM IN MANUAL]",
+    "interval": "Flush now",
+    "note": "On a V8, replace the thermostat, hoses and viscous coupling as a set unless there are receipts; owners treat cooling as the V8's life insurance.",
+    "parts": [
+     {
+      "name": "PEM100990 thermostat housing complete, Td5/V8",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/pem100990-thermostat-td5"
+     },
+     {
+      "name": "ERR4996 viscous fan coupling, 4.0/4.6 V8",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/err4996-viscous-unit-new-rr-v8"
+     }
+    ]
+   },
+   {
+    "item": "Automatic gearbox",
+    "spec": "ATF [CONFIRM IN MANUAL] · about 4–5 L drains from the pan",
+    "interval": "Drain, new filter and gasket now; second drain a few hundred miles later",
+    "note": "Pan drain plug 15 Nm, pan bolts 8 Nm, fill plug 30 Nm. Fill through the side plug with the engine running until a 2 mm bead runs out. A 2000 NHTSA recall (00V377) covered water getting into the ATF through the breather.",
+    "parts": []
+   },
+   {
+    "item": "Transfer box (LT230)",
+    "spec": "75W-90 gear oil (Texaco Multi-Gear 75W/90R per the manual) · 2.0 L refill, 2.3 L dry",
+    "interval": "Drain and refill now",
+    "note": "Undo the fill plug first. Drain plug 30 Nm, fill plug 25 Nm; you'll need a pump. Check the output seals while you're there.",
+    "parts": [
+     {
+      "name": "STC4379 output shaft seal kit, LT230, Discovery 2",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/stc4379-kit-flange"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear axles",
+    "spec": "Same 75W-90 as the transfer box · about 3.5 L for both axles",
+    "interval": "Drain and refill now; sooner after deep wading",
+    "note": "The fill plugs are plastic (21 mm) and break: crack them before draining. Drain plug 64 Nm, fill plug 10 Nm.",
+    "parts": [
+     {
+      "name": "Differential oil level plug set (Lucky8)",
+      "supplier": "Lucky8",
+      "url": "https://lucky8llc.com/products/differential-oil-level-plug-set"
+     }
+    ]
+   },
+   {
+    "item": "Power steering & ACE fluid",
+    "spec": "Land Rover PAS fluid STC50519 (shared reservoir, separate halves)",
+    "interval": "Change now",
+    "note": "Steering: bleed through the nipple into a container while topping up. ACE: drain at the valve block and change the high-pressure filter (72,000-mile item), cap 35 Nm.",
+    "parts": [
+     {
+      "name": "STC50519 power steering / ACE fluid",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/catalog/product/view/id/6971504/s/stc50519-oil-power-steering/category/2/"
+     },
+     {
+      "name": "RVJ100010 ACE filter and plug",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/rvj100010-ace-filter-ds2"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "[CONFIRM IN MANUAL for grade]",
+    "interval": "Flush now",
+    "note": "Old fluid is one cause of the ABS 'three amigos'.",
+    "parts": [
+     {
+      "name": "Land Rover brake fluid",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/lr067409-fluid-brake"
+     }
+    ]
+   },
+   {
+    "item": "Propshafts & suspension bushes",
+    "spec": "Grease the UJs that have nipples; inspect the front double-cardan joint, the rear rubber coupling, Watts linkage and ball joints",
+    "interval": "Every service",
+    "note": "The front shaft's double-cardan joint has non-greasable UJs from the factory and can damage the transfer box when it fails.",
+    "parts": [
+     {
+      "name": "TVF100010GB rear propshaft coupling kit, Ds1/Ds2/P38",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/tvf100010gb-prop-coupling-incl-bolts-o"
+     },
+     {
+      "name": "RGX100960K Watts linkage bush kit, Discovery 2",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/rgx100960k-watts-linkage-bush-kit"
+     },
+     {
+      "name": "FTC3570 upper front ball joint, Discovery 2 / P38",
+      "supplier": "LR Direct",
+      "url": "https://www.lrdirect.com/ftc3570-ball-joint-top-disco-td5"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "name": "Wikipedia — Land Rover Discovery",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+  },
+  {
+   "name": "Wikipedia — Land Rover engines (Td5)",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_engines"
+  },
+  {
+   "name": "Wikipedia — Rover V8 engine",
+   "url": "https://en.wikipedia.org/wiki/Rover_V8_engine"
+  },
+  {
+   "name": "Wikipedia — Land Rover G4 Challenge",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_G4_Challenge"
+  },
+  {
+   "name": "Wikipedia — Camel Trophy",
+   "url": "https://en.wikipedia.org/wiki/Camel_Trophy"
+  },
+  {
+   "name": "Famous Four — Buying advice: Land Rover Discovery Td5",
+   "url": "https://blog.famousfour.co.uk/buyers-guides/buying-advice-land-rover-discovery-td5/"
+  },
+  {
+   "name": "Expedition Portal — Buyer's Guide: Purchasing a Discovery II",
+   "url": "https://expeditionportal.com/buyers-guide-purchasing-a-discovery-ii/"
+  },
+  {
+   "name": "Expedition Portal forum — Shopping for a Disco",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1944978"
+  },
+  {
+   "name": "AULRO — Buying a Td5 D2, what to look out for",
+   "url": "https://www.aulro.com/afvb/discovery-2-a/128536-buying-td5-d2-what-look-out.html"
+  },
+  {
+   "name": "AULRO — Discovery Series 2 V8 4.0 2003 purchase questions",
+   "url": "https://www.aulro.com/afvb/discovery-2-a/293904-landrover-discovery-series-2-v8-4-0-2003-purchase-questions-post3179270.html"
+  },
+  {
+   "name": "AULRO — Permanent Td5 injector loom fix",
+   "url": "https://www.aulro.com/afvb/discovery-2-a/233690-permanent-td5-injector-loom-fix.html"
+  },
+  {
+   "name": "AULRO — Injector harness",
+   "url": "https://www.aulro.com/afvb/discovery-2-a/178619-injector-harness.html"
+  },
+  {
+   "name": "YRM Metal Solutions — Discovery 2 rust repairs and galvanised upgrades",
+   "url": "https://yrmit.co.uk/land-rover-discovery-2-rust-repairs-galvanised-upgrades/"
+  },
+  {
+   "name": "LandyZone — Disco 2 chassis repair/replace",
+   "url": "https://www.landyzone.co.uk/land-rover/chassis-repair-replace.396311/"
+  },
+  {
+   "name": "LandyZone — Disco 2 rust repair quote reasonable?",
+   "url": "https://www.landyzone.co.uk/land-rover/rust-repair-quote-reasonable.387691/"
+  },
+  {
+   "name": "LandyZone — Disco 2 chassis",
+   "url": "https://www.landyzone.co.uk/land-rover/chassis.392306/"
+  },
+  {
+   "name": "LandyZone — Bolt came loose on oil pump, follow-up",
+   "url": "https://www.landyzone.co.uk/land-rover/bstard-bolt-came-loose-on-oil-pump-follow-up.398951/"
+  },
+  {
+   "name": "LandyZone — Pre-facelift CDL and TC",
+   "url": "https://www.landyzone.co.uk/land-rover/pre-face-lift-cdl-and-tc.399707/"
+  },
+  {
+   "name": "LandyZone — ACE and power steering fluid change advice",
+   "url": "https://www.landyzone.co.uk/land-rover/ace-and-power-steering-fluid-change-advice.290093/"
+  },
+  {
+   "name": "LandyZone — SLS again",
+   "url": "https://www.landyzone.co.uk/land-rover/sls-again.390316/"
+  },
+  {
+   "name": "discovery2.co.uk — Td5 oil pump bolt",
+   "url": "http://www.discovery2.co.uk/Oil_pump_bolt.html"
+  },
+  {
+   "name": "discovery2.co.uk — Td5 injector harness",
+   "url": "http://www.discovery2.co.uk/injector_harness.html"
+  },
+  {
+   "name": "discovery2.co.uk — Td5 fuel pressure regulator",
+   "url": "http://www.discovery2.co.uk/fpr.html"
+  },
+  {
+   "name": "discovery2.co.uk — Rear air springs",
+   "url": "http://www.discovery2.co.uk/Rear%20Air%20Springs.html"
+  },
+  {
+   "name": "discovery2.co.uk — ACE high-pressure filter",
+   "url": "http://www.discovery2.co.uk/ACE_Filter.html"
+  },
+  {
+   "name": "discovery2.co.uk — Front hub/bearing",
+   "url": "http://www.discovery2.co.uk/fronthub.html"
+  },
+  {
+   "name": "discovery2.co.uk — Propshaft overhaul",
+   "url": "http://www.discovery2.co.uk/propshafts.html"
+  },
+  {
+   "name": "discovery2.co.uk — Discovery 1 CDL into a Discovery 2",
+   "url": "http://www.discovery2.co.uk/D1_to_D2_cdl.html"
+  },
+  {
+   "name": "discovery2.co.uk — Oil and filter change",
+   "url": "http://www.discovery2.co.uk/oil_change.html"
+  },
+  {
+   "name": "discovery2.co.uk — Fuel filter",
+   "url": "http://www.discovery2.co.uk/fuel_filter.html"
+  },
+  {
+   "name": "discovery2.co.uk — Differential oils",
+   "url": "http://www.discovery2.co.uk/diff_oils.html"
+  },
+  {
+   "name": "discovery2.co.uk — Transfer box oil",
+   "url": "http://www.discovery2.co.uk/transferbox_oil.html"
+  },
+  {
+   "name": "discovery2.co.uk — Automatic gearbox oil and filter",
+   "url": "http://www.discovery2.co.uk/Autobox_Oil.html"
+  },
+  {
+   "name": "DiscoWeb — Converting Discovery Series II SLS to coil suspension",
+   "url": "https://discoweb.org/oldsite/slstocoils/index.htm"
+  },
+  {
+   "name": "DiscoWeb archive — Largest 16\" tire on stock DII",
+   "url": "https://discoweb.org/oldsite/41704archive/DiscusArchive/messages/17/44113.html"
+  },
+  {
+   "name": "LandRoverForums — 255/85R16 BFG on a D2",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/255-85-r16-bfg-d2-anyone-25466"
+  },
+  {
+   "name": "LandRoverForums — ACE worth keeping or bin?",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/ace-worth-keeping-bin-127353/"
+  },
+  {
+   "name": "LandRoverForums — Disabling ACE",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/disabling-ace-120384/"
+  },
+  {
+   "name": "LandRoverForums — Our engines explained",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/our-engines-explained-96003/"
+  },
+  {
+   "name": "LandRoverForums — New head gasket works",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/new-head-gasket-works-35264/"
+  },
+  {
+   "name": "LandRoverForums — Engine cooling upgrades",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/engine-cooling-upgrades-94493/"
+  },
+  {
+   "name": "BritishV8 forum — Rover cylinder liner issues",
+   "url": "https://www.britishv8.org/smf20/index.php?msg=57853"
+  },
+  {
+   "name": "Auto-ABC — Three Amigos problem in Discovery 2",
+   "url": "https://www.auto-abc.eu/service/Land-Rover-Discovery/Three-Amigos-Problem-in-Land-Rover-Discovery-2"
+  },
+  {
+   "name": "Atlantic British — Why Discovery Series II suspension conversion kits are important",
+   "url": "https://roverparts.com/roverlog-news-blog/why-discovery-series-ii-suspension-conversion-kits-are-important"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Discovery II 1999–2004 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=DISCOVERY%20II&modelYear=2000"
+  },
+  {
+   "name": "NHTSA — Importation and Certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "fueleconomy.gov — 2002 Land Rover Discovery Series II 4.0",
+   "url": "https://www.fueleconomy.gov/feg/noframes/18208.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2003 Land Rover Discovery Series II 4.6",
+   "url": "https://www.fueleconomy.gov/feg/noframes/19198.shtml"
+  },
+  {
+   "name": "carsales.com.au — Land Rover Discovery 2001 Td5 specs",
+   "url": "https://www.carsales.com.au/research/land-rover/discovery/2001/td5/2d7c9c13-fe3c-45d3-a0c0-be098f085412/"
+  },
+  {
+   "name": "koleso.ee — Discovery 2 L318 wheel specs",
+   "url": "https://koleso.ee/en/valuveljed/land-rover/discovery-2/2790/l318-1998-2002/5586"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Discovery II results",
+   "url": "https://bringatrailer.com/land-rover/discovery-ii/"
+  },
+  {
+   "name": "LR Direct — Discovery 2 parts catalogue searches",
+   "url": "https://www.lrdirect.com/catalogsearch/result/?q=discovery+2"
+  }
+ ]
+}

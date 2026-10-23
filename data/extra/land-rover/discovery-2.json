@@ -1,0 +1,477 @@
+{
+ "fitment": {
+  "stock": [
+   "215/75R16 (7Jx16)",
+   "235/70R16 (7Jx16)",
+   "255/65R16 (8Jx16)",
+   "255/60R17 (8Jx17)",
+   "255/55R18 (8Jx18)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "offset": "ET57 (listed OE fitments)",
+   "center_bore": "70.1 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "96 lb-ft (130 N·m) per wheel-data listings; confirm in your handbook"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "245/75R16",
+    "note": "Discoweb owners recommend 245s for a stock truck. 265/75R16 fits at stock height but rubs the plastic behind the fog lamps at full lock or needs the front bumper trimmed."
+   },
+   {
+    "lift": "2 in",
+    "size": "265/75R16",
+    "note": "The common choice with a mild OME-type lift; one owner with a 2-inch lift reports no rubbing."
+   },
+   {
+    "lift": "3 in",
+    "size": "285/75R16",
+    "note": "Needs a little more than the standard OME lift (owners use OME 751 springs and reset the SLS height to get nearly 3 inches); expect gearing and halfshaft-strength concerns."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "ACE high-pressure pipe can fracture at the pump",
+    "years": "1999–2000",
+    "ref": "NHTSA 00V036000 / 00V423000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V036000",
+    "summary": "The high-pressure pipe from the ACE pump to the valve block could fracture at its union with the pump; dealers fitted new tubing."
+   },
+   {
+    "title": "Left-side engine idler pulley can fracture",
+    "years": "1999–2000",
+    "ref": "NHTSA 00V142000 / 00V142001",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V142000",
+    "summary": "Belt loads could exceed the pulley's design limit, so it could break and throw the serpentine belt; dealers fitted an improved pulley."
+   },
+   {
+    "title": "Water in automatic transmission fluid; park lock",
+    "years": "1999–2001",
+    "ref": "NHTSA 00V377000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V377000",
+    "summary": "Water contamination of the ATF could stop the park lock working; dealers repositioned the breather and tested or flushed the fluid."
+   },
+   {
+    "title": "ABS sensor contamination causes unwanted ABS activation",
+    "years": "1999–2001",
+    "ref": "NHTSA 02V022000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V022000",
+    "summary": "Contamination of an ABS sensor could be misread by the ABS ECU; dealers installed a new ECU."
+   },
+   {
+    "title": "Accelerator cable kinked at assembly",
+    "years": "1999–2002",
+    "ref": "NHTSA 02V028000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V028000",
+    "summary": "A kinked cable could chafe and break its inner strands; dealers inspected and replaced cables."
+   },
+   {
+    "title": "Throttle can stick intermittently",
+    "years": "2003",
+    "ref": "NHTSA 03V133000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=03V133000",
+    "summary": "Intermittent throttle sticking could raise engine speed; dealers replaced the throttle body."
+   },
+   {
+    "title": "ABS modulator valve-cover bolts can crack",
+    "years": "1999–2004",
+    "ref": "NHTSA 04V005000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V005000",
+    "summary": "Flexing valve covers could crack their retaining bolts; dealers strengthened the covers and replaced the bolts."
+   },
+   {
+    "title": "ACE pump banjo bolt loses torque",
+    "years": "2000–2003",
+    "ref": "NHTSA 04V006000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V006000",
+    "summary": "The ACE pump banjo bolt could loosen and leak; dealers re-torqued it or replaced the bolt and Dowty washers."
+   },
+   {
+    "title": "Replacement rear driveshaft coupling (service part)",
+    "years": "1999–2004",
+    "ref": "NHTSA 12E010000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12E010000",
+    "summary": "TVF100010 rear couplings made April–November 2011 could start to separate; check any coupler replaced around then."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Td5 oil-pump sprocket bolt",
+    "ref": "",
+    "summary": "Early bolts were fitted without thread lock and can fall out, wrecking the engine; the superseded bolt comes pre-thread-locked (25 Nm). Owners have found loose bolts on 2003–04 trucks too.",
+    "url": "http://www.discovery2.co.uk/Oil_pump_bolt.html"
+   },
+   {
+    "title": "Td5 injector harness (later modified part)",
+    "ref": "",
+    "summary": "Failed O-rings at the head connector let oil wick down the loom into the ECU; fit the later modified harness.",
+    "url": "http://www.discovery2.co.uk/injector_harness.html"
+   },
+   {
+    "title": "Td5 fuel pressure regulator revisions",
+    "ref": "",
+    "summary": "The regulator was modified during production and again from 2003 with an extra return pipe for 15P engines; order by chassis number.",
+    "url": "http://www.discovery2.co.uk/fpr.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1998",
+   "change": "Series II launched in the autumn: Td5 diesel and 4.0 'Thor' V8, optional SLS and ACE; centre diff lock fitted but no lever",
+   "flag": "note"
+  },
+  {
+   "year": "1999 MY",
+   "change": "US sales begin, 4.0 V8 automatic only",
+   "flag": "note"
+  },
+  {
+   "year": "1998–2000",
+   "change": "Early Td5 oil-pump drive and head-stud ('head shuffle') problems, fixed within two years; ACE pipe and idler-pulley recalls",
+   "flag": "avoid"
+  },
+  {
+   "year": "2002",
+   "change": "Td5 moves to Euro 3 (15P) with EGR and better low-speed throttle response",
+   "flag": "note"
+  },
+  {
+   "year": "2003 MY",
+   "change": "Facelift (D2a): pocketed headlamps, new rear lamps, CDL lever back as an option; US trucks get the 4.6 V8",
+   "flag": "buy"
+  },
+  {
+   "year": "2003",
+   "change": "62 Discovery 2s prepared for the first G4 Challenge (Las Vegas and Moab stage)",
+   "flag": "note"
+  },
+  {
+   "year": "2003–04",
+   "change": "US owners report slipped and cracked liners on late 4.0 and especially 4.6 blocks",
+   "flag": "avoid"
+  },
+  {
+   "year": "2003–04",
+   "change": "UK run-out 'Definitive Editions': Pursuit, Landmark and ES Premium",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "Final trucks leave Solihull in late May; Discovery 3 (LR3) takes over",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "A Disco 2 is easy to tell from a Disco 1, but which options it left the factory with (SLS, ACE, CDL lever, engine version) decides what you're buying.",
+  "items": [
+   {
+    "head": "Series I or Series II?",
+    "body": "The Series II's rear stop lights sit above the window line (the Series I's are below), the paddle door handles are gone, the tail is longer, and the wheels are 5x120 instead of the Series I's 5x6.5 in."
+   },
+   {
+    "head": "Pre-facelift or facelift (D2a)?",
+    "body": "Facelift trucks (2003 model year on) have 'pocketed' headlamps like the L322 Range Rover and revised rear lamps with the indicators moved up out of the bumper."
+   },
+   {
+    "head": "Td5 10P or 15P",
+    "body": "Later Euro 3 Td5s (15P) have EGR and a fuel pressure regulator with an extra return pipe. Order Td5 parts by chassis number because many changed mid-run."
+   },
+   {
+    "head": "SLS and ACE",
+    "body": "SLS trucks have rear air springs instead of coils and a compressor in a plastic box on the left-hand chassis rail, level with the front seats. ACE trucks have a valve block on the right-hand chassis rail with steel lines running to the anti-roll bars."
+   },
+   {
+    "head": "Centre diff lock",
+    "body": "Look for a diff-lock position on the transfer lever. Early trucks have the lock in the LT230 but no linkage unless one has been fitted from a Discovery 1 (matching manual or auto) or a kit."
+   },
+   {
+    "head": "US truck or import",
+    "body": "US-market Series IIs were all V8 automatics (4.0 for 1999–2002, 4.6 for 2003–04). A Td5 or manual in the US is a private import, so check the VIN, build date and paperwork."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "750 kg unbraked; 2001 Td5 manual, Australian spec"
+  },
+  {
+   "k": "Payload",
+   "v": "1,510 lb (685 kg)",
+   "note": "2001 Td5 manual, Australian spec; GVM 2,750 kg"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "95 L (25.1 US gal)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,543–4,895 lb (2,061–2,220 kg)",
+   "note": "range across versions"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 16 hwy / 13 combined",
+   "note": "2002 4.0 V8 auto; 2003 4.6: 11 / 14 / 12"
+  },
+  {
+   "k": "Dimensions",
+   "v": "185.2 in long, 74.4 in wide, 76.4 in tall",
+   "note": "100-in wheelbase"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still cheap: half of recent Bring a Trailer sales landed between about $9,000 and $17,000, and very low-mileage trucks bring far more.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$3k–6k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–15k"
+   },
+   {
+    "cond": "Excellent / low-mileage",
+    "range": "$17k–37k"
+   }
+  ],
+  "note": "Based on the 24 most recent Bring a Trailer Discovery II auctions (June–October 2026): 22 sold for $3,000–37,000, median about $12,250. The top results were a 47,000-mile 2004 SE at $37,000 and a 36,000-mile 2000 SE at $26,750."
+ },
+ "docs": [
+  {
+   "name": "Land Rover Discovery Series II 1999-on Workshop Manual, VDR1009ENG (3 volumes)",
+   "url": "https://www.automotobookshop.com.au/land-rover-discovery-series-ii-1999-onwards-workshop-manual-3-volumes/",
+   "note": "Factory repair manual, 6th edition, sold as a new printed set."
+  },
+  {
+   "name": "Paddock Spares — Land Rover technical publications on USB, Discovery Series 2 1999–2004 (LTP3006USB)",
+   "url": "https://www.paddockspares.com/ltp3006usb-usb-dtp-land-rover-discovery-series-2-1999-to-2004.html",
+   "note": "Sold as original technical publications."
+  },
+  {
+   "name": "Rovers North — books and manuals",
+   "url": "https://www.roversnorth.com/category/565_books_manuals",
+   "note": "US source for workshop manuals and parts catalogues."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Land Rover only sold V8 automatics in the US, so a Td5 or a manual Discovery 2 there is a gray-market import. NHTSA lets a vehicle at least 25 years old, counted from its date of manufacture, be imported without meeting FMVSS. Series IIs were built from autumn 1998 to May 2004, so as of October 2026 trucks built before October 2001 qualify and later ones follow month by month. EPA Form 3520-1 code E covers vehicles at least 21 years old in original configuration.",
+   "Make sure the VIN, chassis number and build date on the plate agree, because the 25 years run from the build date, not the registration date. Check your state's titling and emissions rules before you buy, especially for a diesel in California."
+  ]
+ },
+ "production": {
+  "intro": "The Series II ran from autumn 1998 to May 2004, built mainly at Solihull.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "1998–2004; Solihull, plus Aqaba (Jordan) and Shah Alam (Malaysia)"
+   },
+   {
+    "k": "US model years",
+    "v": "1999–2004, V8 automatic only"
+   },
+   {
+    "k": "Td5 engines built",
+    "v": "310,000 (1998–2007, Defender and Discovery combined)"
+   },
+   {
+    "k": "G4 Challenge 2003",
+    "v": "62 Discovery 2s prepared, 60 used on the main event"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Discovery II Commercial",
+    "years": "Series II run",
+    "note": "Small number built by Land Rover Special Vehicles with opaque rear windows; UK versions had rear SLS as standard"
+   },
+   {
+    "name": "Pursuit (UK)",
+    "years": "2003–2004",
+    "note": "Base 'Definitive Edition', still well equipped"
+   },
+   {
+    "name": "Landmark (UK)",
+    "years": "2003–2004",
+    "note": "All-leather interior, twin sunroofs, ACE, six-disc CD and heated windscreen"
+   },
+   {
+    "name": "ES Premium (UK)",
+    "years": "2003–2004",
+    "note": "Sat-nav, harman/kardon audio, Aero roof bars, stainless side runners, rear parking sensors and wooden console"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "The D2 Boys Club",
+   "url": "https://www.d2bc.net/",
+   "note": "Discovery 2 enthusiasts' club and forum."
+  },
+  {
+   "kind": "club",
+   "name": "DiscoWeb",
+   "url": "https://www.discoweb.org/",
+   "note": "Land Rover owners' forum with a deep archive of Discovery II threads, including the SLS-to-coil conversion guide."
+  },
+  {
+   "kind": "club",
+   "name": "ANARC (Association of North American Rover Clubs)",
+   "url": "https://www.anarc.club/",
+   "note": "Umbrella group for North American Land Rover clubs."
+  },
+  {
+   "kind": "event",
+   "name": "Solihull Society National Rally (LRNR)",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/",
+   "note": "National Land Rover rally; 2026 edition in Ouray, CO, July 26–31."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (MAR)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "Rover Owners of Virginia's main event, held each September."
+  }
+ ],
+ "sources": [
+  {
+   "name": "koleso.ee — Discovery 2 L318 (1998–2002) wheel specs",
+   "url": "https://koleso.ee/en/valuveljed/land-rover/discovery-2/2790/l318-1998-2002/5586"
+  },
+  {
+   "name": "koleso.ee — Discovery 2 L318 facelift (2002–2004) wheel specs",
+   "url": "https://koleso.ee/en/valuveljed/land-rover/discovery-2/2790/l318-2002-2004/5587"
+  },
+  {
+   "name": "DiscoWeb archive — Largest 16\" tire on stock DII",
+   "url": "https://discoweb.org/oldsite/41704archive/DiscusArchive/messages/17/44113.html"
+  },
+  {
+   "name": "LandRoverForums — 255/85R16 BFG on a D2",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/255-85-r16-bfg-d2-anyone-25466"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Discovery II 1999–2004 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=DISCOVERY%20II&modelYear=2000"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Discovery 2003 (queried Oct 2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=DISCOVERY&modelYear=2003"
+  },
+  {
+   "name": "discovery2.co.uk — Td5 oil pump bolt",
+   "url": "http://www.discovery2.co.uk/Oil_pump_bolt.html"
+  },
+  {
+   "name": "discovery2.co.uk — Td5 injector harness",
+   "url": "http://www.discovery2.co.uk/injector_harness.html"
+  },
+  {
+   "name": "discovery2.co.uk — Td5 fuel pressure regulator",
+   "url": "http://www.discovery2.co.uk/fpr.html"
+  },
+  {
+   "name": "discovery2.co.uk — Rear air springs",
+   "url": "http://www.discovery2.co.uk/Rear%20Air%20Springs.html"
+  },
+  {
+   "name": "discovery2.co.uk — ACE high-pressure filter",
+   "url": "http://www.discovery2.co.uk/ACE_Filter.html"
+  },
+  {
+   "name": "discovery2.co.uk — Discovery 1 CDL into a Discovery 2",
+   "url": "http://www.discovery2.co.uk/D1_to_D2_cdl.html"
+  },
+  {
+   "name": "Wikipedia — Land Rover Discovery",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+  },
+  {
+   "name": "Wikipedia — Land Rover engines (Td5)",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_engines"
+  },
+  {
+   "name": "Wikipedia — Rover V8 engine",
+   "url": "https://en.wikipedia.org/wiki/Rover_V8_engine"
+  },
+  {
+   "name": "Wikipedia — Land Rover G4 Challenge",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_G4_Challenge"
+  },
+  {
+   "name": "Expedition Portal forum — Shopping for a Disco",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1944978"
+  },
+  {
+   "name": "LandRoverForums — Our engines explained",
+   "url": "https://landroverforums.com/forum/discovery-ii-18/our-engines-explained-96003/"
+  },
+  {
+   "name": "carsales.com.au — Land Rover Discovery 2001 Td5 specs",
+   "url": "https://www.carsales.com.au/research/land-rover/discovery/2001/td5/2d7c9c13-fe3c-45d3-a0c0-be098f085412/"
+  },
+  {
+   "name": "fueleconomy.gov — 2002 Land Rover Discovery Series II 4.0",
+   "url": "https://www.fueleconomy.gov/feg/noframes/18208.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2003 Land Rover Discovery Series II 4.6",
+   "url": "https://www.fueleconomy.gov/feg/noframes/19198.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Discovery II results",
+   "url": "https://bringatrailer.com/land-rover/discovery-ii/"
+  },
+  {
+   "name": "Automoto Bookshop — Discovery Series II workshop manual VDR1009ENG",
+   "url": "https://www.automotobookshop.com.au/land-rover-discovery-series-ii-1999-onwards-workshop-manual-3-volumes/"
+  },
+  {
+   "name": "Paddock Spares — LTP3006USB Discovery Series 2 technical publications",
+   "url": "https://www.paddockspares.com/ltp3006usb-usb-dtp-land-rover-discovery-series-2-1999-to-2004.html"
+  },
+  {
+   "name": "Rovers North — Books, Manuals and DVDs",
+   "url": "https://www.roversnorth.com/category/565_books_manuals"
+  },
+  {
+   "name": "NHTSA — Importation and Certification FAQs",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "EPA — Form 3520-1, exemption code E",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  },
+  {
+   "name": "The D2 Boys Club",
+   "url": "https://www.d2bc.net/"
+  },
+  {
+   "name": "DiscoWeb",
+   "url": "https://www.discoweb.org/"
+  },
+  {
+   "name": "ANARC — Association of North American Rover Clubs",
+   "url": "https://www.anarc.club/"
+  },
+  {
+   "name": "Rovers North blog — ANARC News, Spring 2026",
+   "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  }
+ ]
+}

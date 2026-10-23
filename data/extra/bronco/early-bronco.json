@@ -1,0 +1,391 @@
+{
+ "fitment": {
+  "stock": [
+   "G78-15 and similar bias-ply sizes on 15-in steel wheels (factory)",
+   "H78-15 largest factory option (1970 owner's manual, as quoted on ClassicBroncos)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "offset": "Backspacing 3.75–4.25 in for uncut fenders (Performance Plus Tire)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "30x9.50R15",
+    "note": "The safe choice on uncut fenders; 31x10.50R15 may lightly rub at full stuff or full lock, and 235/75R15 bolts on"
+   },
+   {
+    "lift": "2–3 in",
+    "size": "31x10.50R15 (up to 32 in)",
+    "note": "Uncut fenders, with 3.75–4.25 in of wheel backspacing"
+   },
+   {
+    "lift": "2–4 in, cut fenders",
+    "size": "33x12.50R15",
+    "note": "Rear fenders cut for flares; backspacing 3.25–3.75 in. Check caster and C-bushings after lifting"
+   },
+   {
+    "lift": "Bigger lift plus body work",
+    "size": "35x12.50R15",
+    "note": "Bigger suspension or body lift and trimming"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering drag-link connection",
+    "years": "1967",
+    "ref": "NHTSA 66V026000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=66V026000",
+    "summary": "Ford campaign filed November 1966 covering the drag-link connection."
+   },
+   {
+    "title": "Brake pedal and linkage",
+    "years": "1967",
+    "ref": "NHTSA 66V004003",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=66V004003",
+    "summary": "Ford campaign filed October 1966 covering the service-brake pedal and linkage."
+   },
+   {
+    "title": "Tires (tread / belt)",
+    "years": "1970–1971",
+    "ref": "NHTSA 70V113000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=70V113000",
+    "summary": "Ford tire campaign filed September 1970."
+   },
+   {
+    "title": "Exhaust system",
+    "years": "1975",
+    "ref": "NHTSA 76V015000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=76V015000",
+    "summary": "Ford campaign filed February 1976 covering the exhaust manifold, muffler and pipes."
+   },
+   {
+    "title": "Aftermarket mechanical fuel pumps (Federal-Mogul)",
+    "years": "1975–1977",
+    "ref": "NHTSA 07E064000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=07E064000",
+    "summary": "Carter, Accuflow, NAPA and other-brand replacement pumps shipped August 2006–July 2007 may leak fuel from an improperly installed diaphragm."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1966",
+   "change": "Launched in August 1965 as a roadster (U13), half-cab (U14) and wagon (U15) with the 105 hp 170 six, column-shift three-speed and Dana 20. The 289 V8 arrives in March 1966. 23,776 sold",
+   "flag": "note"
+  },
+  {
+   "year": "1967",
+   "change": "Sport package, dual master cylinder with split brakes, self-adjusting brakes, optional 11.5-gal auxiliary tank",
+   "flag": "note"
+  },
+  {
+   "year": "1968",
+   "change": "Locking front hubs, revised bumpers and side-marker reflectors. Last year of the roadster",
+   "flag": "note"
+  },
+  {
+   "year": "1969",
+   "change": "302 V8 replaces the 289; electric wipers replace vacuum ones midyear; steering stabilizer standard",
+   "flag": "note"
+  },
+  {
+   "year": "1970",
+   "change": "Evaporative emissions controls and smaller fuel tanks. The Sport becomes a separate model",
+   "flag": "note"
+  },
+  {
+   "year": "1971",
+   "change": "Dana 44 front axle replaces the Dana 30 midyear. Baja Bronco package introduced",
+   "flag": "buy"
+  },
+  {
+   "year": "1972",
+   "change": "Ranger trim arrives; last year of the half-cab; fuel tanks reduced again",
+   "flag": "note"
+  },
+  {
+   "year": "1973",
+   "change": "C4 automatic and power steering optional; 200 six replaces the 170; J-shift Dana 20 with a 2.34:1 low range from midyear",
+   "flag": "note"
+  },
+  {
+   "year": "1974",
+   "change": "California-specific emissions equipment; best sales year at 25,824",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "Catalytic converter and unleaded fuel. CJ Pony Parts lists the 302 at 125 hp net",
+   "flag": "note"
+  },
+  {
+   "year": "1976",
+   "change": "Power front disc brakes, larger rear drums, front anti-roll bar, quicker steering box (about four turns lock to lock) and the unloved Y-type steering linkage",
+   "flag": "buy"
+  },
+  {
+   "year": "1977",
+   "change": "Heavy-duty 9-inch rear housing, fuel doors instead of exposed caps, 14.4-gal plastic main tank and 8-gal auxiliary. Last year before the full-size Bronco",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Most early Broncos have been modified, re-engined or re-bodied, and some are built on reproduction bodies and aftermarket frames. The frame VIN and the glovebox data plate are your starting points.",
+  "items": [
+   {
+    "head": "VIN layout",
+    "body": "Eleven characters, such as U15GL followed by six serial digits. Positions 1–3 are the series: U13 roadster, U14 half-cab pickup, U15 wagon. Position 4 is the engine: F for the 170 six, S for the 200 six, N for the 289 and G for the 302. Position 5 is the plant, L for Michigan Truck. The model year is worked out from the serial range."
+   },
+   {
+    "head": "Where to look",
+    "body": "The VIN is stamped on the frame rail under the engine, just ahead of the firewall; with the wheel turned fully right it can be seen from the wheel well. The full data plate is inside the glovebox door, with codes for paint, body, transmission, axle and sales district."
+   },
+   {
+    "head": "Axle code",
+    "body": "The data plate's axle code gives the ratio and whether there's a limited-slip: CJ Pony's 1968 decoder lists 3.50, 4.11 and 4.57 ratios, with separate codes for the limited-slip versions. On the truck itself, the Dana 30 front has king pins and the Dana 44 has ball joints."
+   },
+   {
+    "head": "Transfer-case shifter",
+    "body": "A straight up-and-down T-handle means a 1966–72 Dana 20 with a 2.46:1 low. A backward-J pattern means a 1973–77 case with 2.34:1. Rebuild parts differ between them."
+   },
+   {
+    "head": "Front brakes and steering",
+    "body": "Factory front discs and a Y-type tie rod mean 1976–77 hardware. Earlier trucks with discs have been converted. Many trucks of every year now carry aftermarket steering linkage."
+   },
+   {
+    "head": "Special editions",
+    "body": "Baja Broncos (650 sold) and other high-value trucks are worth faking, and the VIN alone won't prove one. Ask for build documentation and get a marque specialist to inspect it."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "92 in (2,337 mm)"
+  },
+  {
+   "k": "Length",
+   "v": "151.5 in (3,848 mm)"
+  },
+  {
+   "k": "Turning circle",
+   "v": "34 ft (10.4 m) curb to curb",
+   "note": "Ford launch release, 1965"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "14.4 gal main + 8 gal auxiliary (1977)",
+   "note": "Capacities varied by year; an 11.5-gal auxiliary tank was optional from 1967"
+  },
+  {
+   "k": "Transfer-case low range",
+   "v": "2.46:1 (1966–72) · 2.34:1 (1973–77)"
+  },
+  {
+   "k": "Engine output",
+   "v": "170 I6: 105 hp · 289 V8: 200 hp · 302 V8 (1975): 125 hp net"
+  },
+  {
+   "k": "Pickup box (half-cab)",
+   "v": "32.8 cu ft",
+   "note": "Ford launch release"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Values roughly doubled between 2016 and 2019 and kept climbing, but Hagerty recorded a 12 percent drop in the second quarter of 2026. Who built the truck now matters more than the year.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$9.6k–37k"
+   },
+   {
+    "cond": "Driver (stock or mildly modified)",
+    "range": "$41.5k–70k"
+   },
+   {
+    "cond": "Excellent original / Baja Bronco",
+    "range": "$70k–185k"
+   },
+   {
+    "cond": "Restomod (Coyote swap, shop build)",
+    "range": "$122k–166.5k, up to $325k"
+   }
+  ],
+  "note": "Based on 306 complete early Broncos sold on Bring a Trailer, August 2025–October 2026 (middle-half ranges). The median stock or mildly modified truck sold for about $55.5k. Baja Broncos sold for $72.5k–178.3k, and ICON BR builds for $233k–240k. Hagerty says a driver-grade truck still costs $50,000 or more."
+ },
+ "docs": [
+  {
+   "name": "1966 Ford Bronco & truck shop manual (CD)",
+   "url": "https://shop.broncograveyard.com/1966-Ford-Bronco-Truck-Shop-Manual-CD/productinfo/19920/",
+   "note": "Reprint factory manual from Bronco Graveyard"
+  },
+  {
+   "name": "1977 Ford truck shop manual, 3 volumes (CD)",
+   "url": "https://shop.broncograveyard.com/1977-Ford-Truck-Shop-Manual-3-Volume-on-CD/productinfo/19931/",
+   "note": "Reprint factory manual covering the last early Broncos"
+  },
+  {
+   "name": "Bronco Graveyard — technical diagrams archive",
+   "url": "https://broncograveyard.com/rt-1273-technical-diagrams-archives.html",
+   "note": "Exploded parts diagrams"
+  },
+  {
+   "name": "CJ Pony Parts — Bronco VIN decoders by year",
+   "url": "https://www.cjponyparts.com/resources/1968-bronco-vin-decoder",
+   "note": "Data-plate code tables (series, engine, axle, paint, build month)"
+  },
+  {
+   "name": "Wild Horses — 1966 Bronco launch press releases",
+   "url": "https://www.wildhorses4x4.com/1966-ford-bronco-announcement-publicity-releases",
+   "note": "Ford's original August 1965 specifications"
+  }
+ ],
+ "production": {
+  "intro": "Ford built about 225,600 early Broncos at the Michigan Truck Plant in Wayne, Michigan, over 12 model years.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "≈ 225,600 (1966–1977)"
+   },
+   {
+    "k": "Best year",
+    "v": "1974: 25,824"
+   },
+   {
+    "k": "Worst year",
+    "v": "1975: 13,125"
+   },
+   {
+    "k": "Assembly",
+    "v": "Michigan Truck Plant, Wayne, Michigan"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Roadster (U13)",
+    "years": "1966–1968",
+    "note": "Doorless open body, the cheapest Bronco; dropped after 1968 for lack of sales."
+   },
+   {
+    "name": "Half-cab pickup (U14)",
+    "years": "1966–1972",
+    "note": "Popular with fire and towing operators; dropped after 1972."
+   },
+   {
+    "name": "Sport",
+    "years": "1967 package; model from 1970",
+    "note": "Chrome trim, wheel covers and red-painted FORD grille lettering."
+   },
+   {
+    "name": "Baja Bronco",
+    "years": "1971 on (≈ 4 years)",
+    "note": "Designed by Bill Stroppe and sold through Ford dealers: automatic, quick-ratio power steering, flares, Gates Commando tires, roll bar, tricolor paint. $5,566 new; 650 sold."
+   },
+   {
+    "name": "Ranger",
+    "years": "1972–1977",
+    "note": "Top trim with body stripes, cloth seats, woodgrain door panels and carpet."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Early Bronco Registry",
+   "url": "http://www.earlybronco.com/",
+   "note": "Nationwide early Bronco registry founded in 1991 by members of Early Broncos Limited (1981), with more than 6,000 members."
+  },
+  {
+   "kind": "event",
+   "name": "Bronco Daze 2026",
+   "url": "http://www.earlybronco.com/bronco-daze",
+   "note": "Early Bronco Registry's 60th-anniversary gathering, November 13–15, 2026, Borrego Springs, California; billed as the last Bronco Daze."
+  },
+  {
+   "kind": "club",
+   "name": "Utah Bronco Club",
+   "url": "http://www.utahbroncoclub.com/",
+   "note": "Volunteer-run Utah nonprofit for Bronco owners, focused on trail stewardship and responsible off-roading."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Autotrader Classics — 1966–77 Ford Bronco collector's guide",
+   "url": "https://classics.autotrader.com/articles/1966-77-ford-bronco-collectors-guide"
+  },
+  {
+   "name": "Wikipedia — Ford Bronco",
+   "url": "https://en.wikipedia.org/wiki/Ford_Bronco"
+  },
+  {
+   "name": "Wild Horses 4x4 — 1966 Ford Bronco announcement publicity releases",
+   "url": "https://www.wildhorses4x4.com/1966-ford-bronco-announcement-publicity-releases"
+  },
+  {
+   "name": "Wild Horses 4x4 — Early Bronco Dana 20 transfer case",
+   "url": "https://www.wildhorses4x4.com/early-bronco-dana-20-transfer-case"
+  },
+  {
+   "name": "Wild Horses 4x4 — Steering tech",
+   "url": "https://www.wildhorses4x4.com/steering-tech"
+  },
+  {
+   "name": "Wild Horses 4x4 — How to stop your early Bronco from wandering",
+   "url": "https://www.wildhorses4x4.com/how-to-stop-your-early-bronco-from-wandering"
+  },
+  {
+   "name": "CJ Pony Parts — 1968 Bronco VIN decoder",
+   "url": "https://www.cjponyparts.com/resources/1968-bronco-vin-decoder"
+  },
+  {
+   "name": "CJ Pony Parts — 1975 Bronco VIN decoder",
+   "url": "https://www.cjponyparts.com/resources/1975-bronco-vin-decoder"
+  },
+  {
+   "name": "CJ Pony Parts — Ford Bronco bolt patterns by generation",
+   "url": "https://www.cjponyparts.com/resources/ford-bronco-bolt-patterns"
+  },
+  {
+   "name": "Bronco Zone — VIN number / warranty plate decode information",
+   "url": "https://broncozone.com/threads/vin-number-warranty-plate-decode-information.27179"
+  },
+  {
+   "name": "Performance Plus Tire — Early Bronco wheels and tires: the 1966–1977 fitment guide",
+   "url": "https://www.performanceplustire.com/Blog/early-bronco-wheels-tires"
+  },
+  {
+   "name": "ClassicBroncos — What's the largest tire you can run on an uncut stocker?",
+   "url": "https://classicbroncos.com/forums/threads/whats-the-largest-tire-you-can-run-on-a-uncut-stocker.184683"
+  },
+  {
+   "name": "NHTSA recalls API — Ford Bronco 1966–1977",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=ford&model=bronco&modelYear=1975"
+  },
+  {
+   "name": "Bring a Trailer — Ford Bronco U13/U14/U15 1966–1977 auction results",
+   "url": "https://bringatrailer.com/ford/bronco-u13-u14-u15-1966-1977/"
+  },
+  {
+   "name": "Hagerty — Vintage Ford Bronco values: a breakdown by generation",
+   "url": "https://hagerty.com/media/?p=70634"
+  },
+  {
+   "name": "Ford Authority — First-gen Ford Bronco values may finally be heading back down to earth (July 2026)",
+   "url": "https://fordauthority.com/2026/07/first-gen-ford-bronco-values-may-finally-be-heading-back-down-to-earth/"
+  },
+  {
+   "name": "Early Bronco Registry — home and Bronco Daze 2026",
+   "url": "http://www.earlybronco.com/"
+  },
+  {
+   "name": "Bronco Graveyard — shop manuals and technical diagrams",
+   "url": "https://broncograveyard.com/rt-1273-technical-diagrams-archives.html"
+  }
+ ]
+}

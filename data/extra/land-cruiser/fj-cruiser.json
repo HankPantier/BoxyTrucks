@@ -1,0 +1,428 @@
+{
+ "fitment": {
+  "stock": [
+   "P265/70R17 on 17-inch steel or alloy wheels (standard, per Toyota's 2014 specs)",
+   "265/75R16 / LT265/75R16 BFGoodrich on 16-inch TRD wheels (TRD and Trail Teams trucks)"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "center_bore": "106.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "83 lb-ft (113 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/70R17 (about 33 x 11 in)",
+    "note": "One owner's only rubbed the driver's-side mud flap under compression, cured by heating and flattening it. A stricter IH8MUD view: only 31–32 in clears in every situation without a body mount chop."
+   },
+   {
+    "lift": "3 in (OME)",
+    "size": "285/70R17",
+    "note": "Slee told one owner this is the limit without body trimming; owners run it on factory wheels with no rub. ARB told another owner 285/75R17."
+   },
+   {
+    "lift": "3 in + body mount chop",
+    "size": "305/70R17 to 35 in",
+    "note": "Owners run 305/70R17s and 34s with chopped mounts and plastic trim removed; one still rubs at full compression. A club pair on 35s touches only at extreme flex and full lock. Watch wheel backspacing: wide tires on factory wheels hit the upper control arm."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear access-door panels can crack at the seat-belt retractor",
+    "years": "2007–2013",
+    "ref": "NHTSA 13V098000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=13V098000",
+    "summary": "The front seat-belt retractors mount in the rear-hinged access doors; repeated hard slamming can crack the door panel."
+   },
+   {
+    "title": "Intermediate steering shaft weld",
+    "years": "2014 (built 7–20 August 2013)",
+    "ref": "NHTSA 15V081000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V081000",
+    "summary": "The shaft linking the steering wheel to the steering gear may have an inadequate weld; dealers replace it."
+   },
+   {
+    "title": "Trail Teams Ultimate Edition front suspension bolts",
+    "years": "2014",
+    "ref": "NHTSA 14V539000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=14V539000",
+    "summary": "Lower ball-joint and lower-arm bolts may have been under-torqued when the TRD shocks and springs were fitted; dealers check and retighten them."
+   },
+   {
+    "title": "TRD brake kit outer brake tube",
+    "years": "2007–2012 (accessory)",
+    "ref": "NHTSA 12E046000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=12E046000",
+    "summary": "On trucks with dealer-fitted TRD front brake kits, a balance weight can damage the outer brake tube and leak fluid; the tube is replaced."
+   },
+   {
+    "title": "Toyota auxiliary driving lamps too bright",
+    "years": "2007–2013 (accessory)",
+    "ref": "NHTSA 13V163000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=13V163000",
+    "summary": "Bumper-mounted accessory lamps with 55 W bulbs exceed high-beam limits; dealers fit 35 W bulbs."
+   },
+   {
+    "title": "TPMS not recalibrated after accessory wheels",
+    "years": "2008–2011",
+    "ref": "NHTSA 11V148000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=11V148000",
+    "summary": "Trucks given accessory wheels and LT tires before sale may not warn at the required pressure; FJs can't be recalibrated, so dealers replace the TPMS control unit."
+   },
+   {
+    "title": "Denso low-pressure fuel pump",
+    "years": "2014 (some)",
+    "ref": "NHTSA 20V012000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V012000",
+    "summary": "Added to Toyota's fuel-pump recall in March 2020; the pump can fail and stall the engine. Dealers replace it."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "6-speed manual clutch release bearing squeak or rattle",
+    "ref": "T-SB-0365-10",
+    "summary": "2007–2011 FJ Cruiser 6MT: replace the release bearing, fork support and release cylinder with updated parts.",
+    "url": "https://www.phoenixfriction.com/Images/pdf/T-SB-0365-10%20Toyota%20FJ%20Tacoma%206MT.pdf"
+   },
+   {
+    "title": "Harsh downshift into first after sitting in Drive",
+    "ref": "T-SB-0046-12",
+    "summary": "2007–2013 FJ Cruiser and Tacoma 4x4s: replacement rear driveshaft once the shaft is confirmed as the cause; greasing a dry slip yoke often cures it.",
+    "url": "https://www.vehicleservicepros.com/service-repair/underhood/article/21187052/who-hit-me-the-truly-hard-shift"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2003",
+   "change": "FJ Cruiser concept shown in Voodoo Blue at the Detroit auto show",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "Production version shown at the Chicago auto show in February; Hino starts building it at Hamura in January 2006",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Launch: 239-hp 1GR-FE on premium, six-speed manual (full-time 4WD) or five-speed automatic; 3,200 TRD Special Editions. Inner fender aprons on 2007 and some early 2008 trucks can bulge and crack",
+   "flag": "avoid"
+  },
+  {
+   "year": "2008",
+   "change": "Side curtain and torso airbags standard; first Trail Teams Special Edition (Iceberg, 3,200 built)",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "Optional backup camera; no Trail Teams edition, a TRD package instead. US sales fall to 11,941",
+   "flag": "note"
+  },
+  {
+   "year": "2010",
+   "change": "Dual VVT-i 1GR-FE: 259 hp on regular fuel, slightly better economy",
+   "flag": "buy"
+  },
+  {
+   "year": "2011",
+   "change": "260 hp; new front-seat hinges for easier rear-seat access; RHD sales begin in Australia and New Zealand",
+   "flag": "buy"
+  },
+  {
+   "year": "2013",
+   "change": "CRAWL control on Trail Teams automatics; access-door panel recall covers 2007–2013 trucks",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "Final US model year; 2,500 Trail Teams Ultimate Editions in Heritage Blue",
+   "flag": "note"
+  },
+  {
+   "year": "2016–2018",
+   "change": "Australian exports end in August 2016; Japan Final Edition in September 2017, Japanese sales end January 2018",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Middle East Final Edition (1,000 units); production ends in December",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "There was essentially one US trim, so what you're checking is the drivetrain, the engine generation and whether a claimed special edition is real.",
+  "items": [
+   {
+    "head": "VIN and plant",
+    "body": "US FJs start with JT and were built by Hino at Hamura, Japan. The 10th character is the model year (7 = 2007, A = 2010, E = 2014). 4x4s are GSJ15 and 4x2s GSJ10. On Bring a Trailer, 2007 VINs begin JTEBU11F and 2010–2014 VINs begin JTEBU4BF."
+   },
+   {
+    "head": "Manual or automatic 4WD",
+    "body": "Manual trucks have full-time 4WD with a center-differential lock and no 2WD position. Automatic 4x4s have a part-time transfer case with 2H, and automatics were also sold as 4x2s with no transfer-case lever."
+   },
+   {
+    "head": "Locker and A-TRAC",
+    "body": "Look for the rear-locker and A-TRAC switches on the dash. The locker was standard with the manual and optional with the automatic (2014 spec), so don't assume every automatic has one."
+   },
+   {
+    "head": "Trail Teams editions",
+    "body": "Trail Teams trucks are monotone in that year's color, with blacked-out mirrors, handles and bumper caps, Trail Teams badges and TRD wheels. The 2014 Ultimate Edition is Heritage Blue with a white grille surround and a 'One of 2500' dash plaque. Badges are easy to copy, so ask for the window sticker."
+   },
+   {
+    "head": "TRD Special Edition",
+    "body": "The 2007 TRD Special Edition is Black Diamond with a black roof (other FJs have a white roof), with TRD Bilsteins, rock rails, a cat-back exhaust and gunmetal TRD wheels; 3,200 were built."
+   },
+   {
+    "head": "Engine generation",
+    "body": "2007–2009 trucks have the single VVT-i engine (239 hp, premium fuel); 2010–2014 trucks have dual VVT-i (259–260 hp, regular)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 lb (2,268 kg); 4,700 lb (2,132 kg) for 2014 under SAE J2807",
+   "note": "4x4 and 4x2; Class IV hitch"
+  },
+  {
+   "k": "Payload",
+   "v": "1,272 lb (577 kg)",
+   "note": "2014, KBB"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "19 US gal (72 L)",
+   "note": "KBB"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.6 in (244 mm) 4x4; 8.7 in 4x2",
+   "note": "Toyota, 2014"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "34° / 31° (4x4, Toyota 2014); 27.4° breakover",
+   "note": "Breakover per Edsall, via Wikipedia"
+  },
+  {
+   "k": "Wading depth",
+   "v": "28 in (about 700 mm)",
+   "note": "Toyota, 2014"
+  },
+  {
+   "k": "Wheel travel",
+   "v": "7.87 in front / 9.1 in rear",
+   "note": "Toyota, 2014"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 17 city / 20 hwy (2014 auto 4x4); 15 / 18 (2014 manual)",
+   "note": "2007–09 4x4s 14–16 city / 18–20 hwy on premium"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,295 lb (1,948 kg)",
+   "note": "2014 base spec, KBB"
+  },
+  {
+   "k": "Turning circle",
+   "v": "40.7 ft (12.4 m)",
+   "note": "2014, KBB"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Jalopnik found sub-100,000-mile FJs listed at or above their last new price. Mileage, rust history and the 2010+ engine drive the spread, and special editions earn a premium only when they're clean.",
+  "ranges": [
+   {
+    "cond": "High-mile 2007–2008",
+    "range": "$12.5k–17k"
+   },
+   {
+    "cond": "Driver 2010–2013",
+    "range": "$26k–37k"
+   },
+   {
+    "cond": "Low-mile / late / Ultimate Edition",
+    "range": "$38k–56k+"
+   }
+  ],
+  "note": "Based on 20 Bring a Trailer sales, August–October 2026: $12,500 for a 2007 up to $56,250 for a 7,000-mile 2014. A 27,000-mile 2014 Ultimate Edition sold for $42,000, and a 6,000-mile 2008 for $43,900."
+ },
+ "docs": [
+  {
+   "name": "Toyota Technical Information System (TIS)",
+   "url": "https://techinfo.toyota.com/",
+   "note": "Toyota's official paid portal for repair manuals, wiring diagrams and TSBs; short-term subscriptions are available to owners"
+  },
+  {
+   "name": "Toyota Owners — manuals and warranties",
+   "url": "https://www.toyota.com/owners/warranty-owners-manuals",
+   "note": "Official owner's manuals and warranty booklets by model year"
+  },
+  {
+   "name": "Toyota — 2011 FJ Cruiser Warranty & Maintenance Guide (PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-11FJCruiser/pdf/T-MMS-11FJCruiser.pdf",
+   "note": "Toyota-hosted maintenance schedule, including the special-operating-conditions intervals"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Every US-market FJ Cruiser (2007–2014) is federally legal. The right-hand-drive Japanese and Australian trucks (sold from late 2010 and 2011) and the FJs built for the Middle East and other markets until 2022 were never certified for the US, so under NHTSA's 25-year rule they can't be imported until each is 25 years old, which for the earliest RHD trucks means about 2035. Canada sold 4x4 FJs alongside the US,."
+  ]
+ },
+ "production": {
+  "intro": "Built by Hino at Hamura, Japan, from January 2006 to December 2022, with US sales from the 2007 to 2014 model years.",
+  "items": [
+   {
+    "k": "US sales",
+    "v": "56,225 (2006) · 55,170 (2007) · 28,688 (2008) · 11,941 (2009) · 14,959 (2010) · 13,541 (2011) · 13,656 (2012) · 13,131 (2013) · 14,718 (2014)"
+   },
+   {
+    "k": "Canada sales",
+    "v": "4,919 at the 2006 peak, falling to 618 in 2014"
+   },
+   {
+    "k": "Total",
+    "v": "More than 207,000 US sales from 2006 through 2013, from Toyota's yearly figures"
+   },
+   {
+    "k": "Assembly",
+    "v": "Hino Motors, Hamura, Japan"
+   }
+  ],
+  "editions": [
+   {
+    "name": "TRD Special Edition",
+    "years": "2007",
+    "note": "3,200 built; Black Diamond with black roof, TRD Bilsteins, rock rails, TRD wheels and BFGoodrich tires"
+   },
+   {
+    "name": "Trail Teams Special Edition",
+    "years": "2008, 2010–2013",
+    "note": "Iceberg (3,200), Sandstorm (1,500), Army Green, Radiant Red and Cement Gray (2,500 each)"
+   },
+   {
+    "name": "TRD package",
+    "years": "2009",
+    "note": "Iceberg White trucks with silver TRD wheels and BFGoodrich tires; 2,400 built for 2009"
+   },
+   {
+    "name": "Trail Teams Ultimate Edition",
+    "years": "2014",
+    "note": "2,500 in Heritage Blue with white grille surround, remote-reservoir rear Bilsteins, aluminum skid plate; CRAWL on automatics"
+   },
+   {
+    "name": "Final Edition (Japan)",
+    "years": "2017",
+    "note": "On sale 12 September 2017; Japanese sales ended 31 January 2018"
+   },
+   {
+    "name": "Final Edition (Middle East)",
+    "years": "2022",
+    "note": "Limited to 1,000 units; production ended December 2022"
+   }
+  ],
+  "paint": "Voodoo Blue was the concept's color and the FJ's signature. Trail Teams colors by year: Iceberg 2008, Sandstorm 2010, Army Green 2011, Radiant Red 2012, Cement Gray 2013, Heritage Blue 2014."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Toyota Land Cruiser Association (TLCA)",
+   "url": "https://tlca.org/",
+   "note": "US club with local chapters; membership is open to FJ Cruiser owners as well as all other Toyota 4x4s"
+  },
+  {
+   "kind": "event",
+   "name": "Cruise Moab",
+   "url": "https://www.cruisemoab.com/",
+   "note": "Annual Toyota 4WD trail event in Moab, Utah; the original FJ Cruiser Trail Teams attended in 2006"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota FJ Cruiser",
+   "url": "https://en.wikipedia.org/wiki/Toyota_FJ_Cruiser"
+  },
+  {
+   "name": "Toyota Pressroom — 2014 Toyota FJ Cruiser",
+   "url": "https://pressroom.toyota.com/2014-toyota-fj-cruiser/"
+  },
+  {
+   "name": "Kelley Blue Book — 2014 Toyota FJ Cruiser specs",
+   "url": "https://www.kbb.com/toyota/fj-cruiser/2014/specs/"
+  },
+  {
+   "name": "NHTSA — recalls API, Toyota FJ Cruiser 2007–2014",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=fj%20cruiser&modelYear=2014"
+  },
+  {
+   "name": "NHTSA — vPIC VIN decoder",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
+  },
+  {
+   "name": "NHTSA — Importing a vehicle",
+   "url": "https://www.nhtsa.gov/importing-vehicle"
+  },
+  {
+   "name": "Toyota T-SB-0365-10 (PDF via Phoenix Friction)",
+   "url": "https://www.phoenixfriction.com/Images/pdf/T-SB-0365-10%20Toyota%20FJ%20Tacoma%206MT.pdf"
+  },
+  {
+   "name": "Vehicle Service Pros — Who hit me? The truly hard shift (T-SB-0046-12)",
+   "url": "https://www.vehicleservicepros.com/service-repair/underhood/article/21187052/who-hit-me-the-truly-hard-shift"
+  },
+  {
+   "name": "FuelEconomy.gov — 2014 Toyota FJ Cruiser 4WD",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=34321&id=34322"
+  },
+  {
+   "name": "FuelEconomy.gov — 2007 and 2009 Toyota FJ Cruiser 4WD",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=23034&id=23035&id=26210&id=26211"
+  },
+  {
+   "name": "Limitless Tire — 2012 Toyota FJ Cruiser wheel and tire sizes",
+   "url": "https://limitlesstire.com/vehicles/toyota/fj-cruiser/2012/"
+  },
+  {
+   "name": "IH8MUD — Max tire size",
+   "url": "https://forum.ih8mud.com/threads/max-tire-size.184769/"
+  },
+  {
+   "name": "IH8MUD — FJC 33\" tire rub?",
+   "url": "https://forum.ih8mud.com/threads/fjc-33-tire-rub.174146/"
+  },
+  {
+   "name": "IH8MUD — 285/70x17 tires, any problems?",
+   "url": "https://forum.ih8mud.com/threads/285-70x17-tires-any-problems.1383722/"
+  },
+  {
+   "name": "IH8MUD — SEVERE steering wheel shimmy (factory Trail Teams tire size)",
+   "url": "https://forum.ih8mud.com/threads/severe-steering-wheel-shimmy-wobble.1385190/"
+  },
+  {
+   "name": "Jalopnik — What to know before buying a used Toyota FJ Cruiser",
+   "url": "https://www.jalopnik.com/2264329/what-to-know-before-buying-used-toyota-fj-cruiser/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota FJ Cruiser results",
+   "url": "https://bringatrailer.com/toyota/fj-cruiser/"
+  },
+  {
+   "name": "Pickup Truck Talk — The untold story: FJ Cruiser development and the Trail Teams",
+   "url": "https://pickuptrucktalk.com/2025/10/toyota-fj-cruiser-development-trail-teams/"
+  },
+  {
+   "name": "TLCA — membership",
+   "url": "https://tlca.org/"
+  },
+  {
+   "name": "Toyota — 2011 FJ Cruiser Warranty & Maintenance Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-11FJCruiser/pdf/T-MMS-11FJCruiser.pdf"
+  }
+ ]
+}

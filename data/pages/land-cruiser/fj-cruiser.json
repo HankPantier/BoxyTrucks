@@ -43,7 +43,7 @@
   {
    "heading": "HOW IT ENDED",
    "paragraphs": [
-    "From 2008, Toyota built short runs of Trail Teams Special Editions, each in one color with blacked-out trim, TRD wheels and Bilstein shocks. On 5 November 2013 it announced that 2014 would be the last US model year, and the final Trail Teams truck became the Ultimate Edition: 2,500 built in Heritage Blue with a white grille surround, remote-reservoir rear Bilsteins, an aluminum front skid plate and, on automatics, CRAWL control. Kelley Blue Book reported that Toyota had sold more than 200,000 FJ Cruisers by then.",
+    "From 2008, Toyota built short runs of Trail Teams Special Editions, each in one color with blacked-out trim, TRD wheels and Bilstein shocks. On 5 November 2013 it announced that 2014 would be the last US model year, and the final Trail Teams truck became the Ultimate Edition: 2,500 built in Heritage Blue with a white grille surround, remote-reservoir rear Bilsteins, an aluminum front skid plate and, on automatics, CRAWL control. By the end of 2013, US sales alone had passed 200,000.",
     "Production continued for other markets. Exports to Australia ended in August 2016, Japan got a Final Edition in September 2017 and stopped sales in January 2018, and the Middle East Final Edition closed production in December 2022. Toyota reused the name, though not the formula, for the 2026 Land Cruiser FJ, a smaller Hilux-based truck with a 2.7-liter four that isn't planned for North America. The original is now a collectible: on Bring a Trailer in late 2026, prices ran from $12,500 to more than $56,000."
    ]
   }
@@ -320,22 +320,6 @@
      "url": "https://www.rustbuster.com/products/rust-buster-rust-to-prime-converter-spray-paint-12oz-can"
     }
    ]
-  },
-  {
-   "title": "Replace an air-fuel ratio sensor",
-   "diff": "2 / 5",
-   "time": "≈ 1 hour",
-   "cost": "Aftermarket sensors run about $50–75",
-   "symptoms": "A check-engine light with an air-fuel sensor code at higher mileage. The code names the bank and sensor, such as B1S1: bank 1, sensor 1, upstream of the catalytic converter.",
-   "fix": "Read the code to identify which sensor has failed. Let the exhaust cool, unplug the sensor's connector, and remove the sensor with an oxygen-sensor socket and some penetrating oil. Install the new sensor (most come with anti-seize on the threads), reconnect it, and clear the code.",
-   "tools": "OBD-II scanner · oxygen-sensor socket · penetrating oil · anti-seize if the sensor isn't pre-coated.",
-   "parts": [
-    {
-     "name": "Oxygen and A/F sensors",
-     "supplier": "RockAuto",
-     "url": "https://www.rockauto.com/en/catalog/toyota,2011,fj+cruiser,4.0l+v6,1501578,exhaust+&+emission,oxygen+(o2)+sensor,5132"
-    }
-   ]
   }
  ],
  "faq": [
@@ -387,7 +371,7 @@
   {
    "q": "What were the Trail Teams editions?",
    "a": "Monotone, black-trimmed, TRD-equipped FJs built in one color per year: Iceberg 2008 (3,200), Sandstorm 2010 (1,500), Army Green 2011, Radiant Red 2012 and Cement Gray 2013 (2,500 each), and the 2014 Heritage Blue Ultimate Edition (2,500). There wasn't one for 2009; a white TRD package filled the gap.",
-   "src": "WIKIPEDIA · KBB"
+   "src": "WIKIPEDIA"
   },
   {
    "q": "Is the 2026 Land Cruiser FJ the same truck?",
@@ -621,10 +605,6 @@
    "v": "105.9 in (2,690 mm)"
   },
   {
-   "k": "LENGTH",
-   "v": "183.9 in (4,670 mm)"
-  },
-  {
    "k": "GROUND CLEARANCE",
    "v": "9.6 in (4x4)"
   },
@@ -685,10 +665,6 @@
    "url": "https://pressroom.toyota.com/2014-toyota-fj-cruiser/"
   },
   {
-   "name": "Kelley Blue Book — 2014 Toyota FJ Cruiser to exit with Trail Teams Ultimate Edition",
-   "url": "https://www.kbb.com/car-news/2014-toyota-fj-cruiser-to-exit-with-trail-teams-ultimate-edition/2000009872"
-  },
-  {
    "name": "Kelley Blue Book — 2014 Toyota FJ Cruiser specs",
    "url": "https://www.kbb.com/toyota/fj-cruiser/2014/specs/"
   },
@@ -727,10 +703,6 @@
   {
    "name": "FuelEconomy.gov — 2009 and 2010 Toyota FJ Cruiser 4WD",
    "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=26210&id=26211&id=29754&id=29755"
-  },
-  {
-   "name": "TestingAutos — Toyota FJ Cruiser: problems to watch out for, 4WD maintenance",
-   "url": "https://testingautos.com/reviews/toyota-fj-cruiser.html"
   },
   {
    "name": "Jalopnik — What to know before buying a used Toyota FJ Cruiser",
@@ -1004,7 +976,7 @@
     "item": "Ball joints, boots & chassis bolts",
     "spec": "Visual inspection and torque check",
     "interval": "Inspect ball joints, dust covers and drive shaft (CV) boots at 15,000 mi intervals; tighten chassis and body nuts and bolts regularly if you drive on dirt roads or tow (Toyota)",
-    "note": "Lower ball joints and front CV boots are common wear items on high-mileage trucks.",
+    "note": "Check the CV boots after every trail trip; a split boot lets grit into the joint.",
     "parts": [
      {
       "name": "Lower ball joint, 2002–2009 GX470/120/FJ (SUS43330)",
