@@ -83,8 +83,11 @@ FAQs (11), buying checks (8) and service items (11) were already in range, so I 
 - https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY18_G_Class_Operators_Manual.pdf
 - https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/maintenancebooklets/MY13_Maintenance_Booklet.pdf
 - https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf
-- https://www.bolidenforum.de/portal/fahrzeugdaten/mercedes-benz-2011-g55/?vd_lang=en
-- https://jcsbritish4x4.kukui.com/Files/Documents/06-08-range-rover.pdf
 - https://topix.landrover.jlrext.com/topix/service/procedure/66354/PDF/b9ff2387-7f12-4623-a059-e95e1c37b7be/en_GB
 - https://topix.landrover.jlrext.com/topix/service/procedure/162966/PDF/fc8ac85e-a478-4f63-b8cf-a832a121f299/en_GB
 - NHTSA recall pages 24V450000, 24V947000, 26V678000; NHTSA complaints API for the 2023 and 2024 Range Rover
+
+## Cited by name, with no URL (coordinator rule on third-party-hosted factory documents)
+- Land Rover North America, 2006–2008 Range Rover maintenance schedule (LRNA, 7/26/2007). I read it from a shop-hosted copy, so it's cited by name only. The `docs` entry I had added to the L322 detail file was removed.
+- Mercedes-Benz WIS fluid tables BB00.40-P-0231-01A / -02 (approval sheet 235.0), as reproduced for a 2011 G 55 on a forum portal. Cited by name only.
+- Every other manual link above is hosted by the manufacturer (Ford, MBUSA, Mercedes-Benz Canada, Land Rover TOPIx).
