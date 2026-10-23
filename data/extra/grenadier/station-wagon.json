@@ -1,0 +1,353 @@
+{
+ "fitment": {
+  "stock": [
+   "LT265/70R17",
+   "LT255/70R18"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x130",
+   "offset": "+55 mm (stock 17x7.5)",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R17 (≈34 in)",
+    "note": "INEOS Forum consensus sweet spot with no rub, but you'll probably need washers under the spare carrier to clear the small rear door. 285/70R17 fits without fuss; 295/70R17 fits but is tight at full lock."
+   },
+   {
+    "lift": "2 in",
+    "size": "315/70R17 (35 in)",
+    "note": "DVA Mechanics lists 35s as needing at least 2 in of lift. Expect an aftermarket or offset spare carrier, and match the spare to the road tyres because the permanent 4WD centre diff doesn't like mismatched diameters."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering rod ball-joint nuts may not lock",
+    "years": "2023–2024",
+    "ref": "NHTSA 23V903000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V903000",
+    "summary": "Non-locking nuts may have been fitted to the steering rod ball joint; 61 trucks covered."
+   },
+   {
+    "title": "Auxiliary switch relay wire can short (fire risk)",
+    "years": "2024",
+    "ref": "NHTSA 23V828000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V828000",
+    "summary": "The relay control wire may be trapped under the power-cable fastener, damaging insulation; 727 trucks with the auxiliary switch package."
+   },
+   {
+    "title": "Door may not latch fully",
+    "years": "2024",
+    "ref": "NHTSA 25V147000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V147000",
+    "summary": "Door button mechanisms assembled with too little grease can stop the door latching; 7,022 trucks covered."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2020",
+   "change": "Exterior revealed online on 1 July; INEOS buys the Smart plant at Hambach, France, in December",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Production starts at Hambach; first deliveries in December",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "First US-bound trucks leave the factory in September for MY2024; B58 petrol only",
+   "flag": "note"
+  },
+  {
+   "year": "MY2024",
+   "change": "Early US trucks covered by recalls 23V903, 23V828 and 25V147; check they're closed",
+   "flag": "note"
+  },
+  {
+   "year": "2024–25",
+   "change": "Factory stops from September 2024 to January 2025 over a parts-supply problem",
+   "flag": "note"
+  },
+  {
+   "year": "MY2026",
+   "change": "Variable-ratio steering box with more assist, revised HVAC, quieter driver assists, Black Edition",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Every Grenadier looks the same from 20 paces, but lockers, steering and trim packs vary a lot.",
+  "items": [
+   {
+    "head": "Lockers (Rough Pack)",
+    "body": "The centre diff lock (lever) is standard. Front and rear lockers come with the Rough Pack, standard on the Trialmaster and a $2,850 option on base and Fieldmaster at US launch. Look for the locker switches in the overhead panel."
+   },
+   {
+    "head": "Trialmaster or Fieldmaster",
+    "body": "Trialmaster adds the Rough Pack (lockers, BFG KO2s), raised air intake, auxiliary battery and switch panel. Fieldmaster brings Safari windows, leather and heated front seats."
+   },
+   {
+    "head": "Steering generation",
+    "body": "Pre-2026 trucks have a Bosch hydraulic recirculating-ball box with almost four turns lock to lock. MY2026 trucks get a variable-ratio worm-gear box with more assist."
+   },
+   {
+    "head": "Engine and market",
+    "body": "US trucks all have the BMW B58 3.0 petrol six (282 hp). The B57 diesel and the two- or five-seat Utility Wagon commercial were sold in other markets."
+   },
+   {
+    "head": "Recall status",
+    "body": "Run the VIN at NHTSA. MY2024 US trucks can carry all three campaigns."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked"
+  },
+  {
+   "k": "Payload",
+   "v": "About 1,680 lb",
+   "note": "US figure"
+  },
+  {
+   "k": "Roof load",
+   "v": "150 kg (330 lb) dynamic, 420 kg (925 lb) static"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "90 L (23.8 gal)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "264 mm (10.4 in)"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "35.5° / 36.1° / 28.2°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "800 mm (31.5 in)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 15 city / 15 hwy",
+   "note": "Trialmaster 14 / 14; premium fuel"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,644–2,811 kg (5,829–6,197 lb)"
+  },
+  {
+   "k": "Turning circle",
+   "v": "About 13.5 m (44 ft)",
+   "note": "pre-2026 steering"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Used trucks sit well under new-truck money, so a lightly used 2024 is the value play; the MY2026 steering update is the reason to buy new.",
+  "ranges": [
+   {
+    "cond": "Used 2024, base / Fieldmaster / Trialmaster",
+    "range": "$56k–72k"
+   },
+   {
+    "cond": "Used 2024, best examples or overland-built",
+    "range": "$76k–81k"
+   },
+   {
+    "cond": "New 2026 MSRP (before destination)",
+    "range": "$71,000–82,995"
+   }
+  ],
+  "note": "Based on 16 Bring a Trailer sales of 2024 Grenadiers in 2025–26 ($56,500–92,500, median about $65,750; the top result was an armored truck). New prices: base $71,000, Fieldmaster and Trialmaster $79,000, Black Edition $82,995, plus about $1,995 destination."
+ },
+ "docs": [
+  {
+   "name": "INEOS Grenadier US — documentation (Owner's Handbook MY24–MY26, Quick Start Guide)",
+   "url": "https://ineosgrenadier.com/en/us/support/documentation",
+   "note": "Official 'digital glovebox' with owner's handbooks by model year."
+  },
+  {
+   "name": "INEOS Grenadier US — Servicing your Grenadier",
+   "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier",
+   "note": "Official service schedule information."
+  }
+ ],
+ "production": {
+  "intro": "Built at the former Smart plant in Hambach, France, since 2022.",
+  "items": [
+   {
+    "k": "Plant",
+    "v": "Hambach, France"
+   },
+   {
+    "k": "Built in 2023",
+    "v": "4,553"
+   },
+   {
+    "k": "Built in 2024",
+    "v": "8,000"
+   },
+   {
+    "k": "Planned capacity",
+    "v": "25,000 a year"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Trialmaster Edition",
+    "years": "2022–",
+    "note": "Off-road spec: Rough Pack lockers, KO2s, raised intake, auxiliary battery"
+   },
+   {
+    "name": "Fieldmaster Edition",
+    "years": "2022–",
+    "note": "Comfort spec: Safari windows, leather, heated seats"
+   },
+   {
+    "name": "Black Edition",
+    "years": "MY2026",
+    "note": "Launched with the 2026 update; $82,995 in the US"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Grenadier Oktoberfest and INEOS owner gatherings",
+   "url": "https://ineoseventsusa.com/",
+   "note": "INEOS USA's owner events: about 150 trucks at Moab in October 2025, with the next Oktoberfest moving to Tennessee and a spring 2026 Moab gathering."
+  },
+  {
+   "kind": "club",
+   "name": "The INEOS Forum",
+   "url": "https://www.theineosforum.com/",
+   "note": "The main owners' forum for Grenadier and Quartermaster."
+  },
+  {
+   "kind": "club",
+   "name": "Expedition Portal — Ineos Grenadier thread",
+   "url": "https://forum.expeditionportal.com/threads/ineos-grenadier.214546/",
+   "note": "Long-running overland-community discussion of the Grenadier."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Ineos Grenadier",
+   "url": "https://en.wikipedia.org/wiki/Ineos_Grenadier"
+  },
+  {
+   "name": "ThreePiece.us — 2025 INEOS Grenadier wheel specs",
+   "url": "https://vehicles.threepiece.us/vehicles/ineos/grenadier/2025/"
+  },
+  {
+   "name": "ThreePiece.us — 2025 INEOS Grenadier Quartermaster wheel specs",
+   "url": "https://vehicles.threepiece.us/vehicles/ineos/grenadier%20quartermaster/2025/"
+  },
+  {
+   "name": "Agile Offroad — Overlander HD INEOS Grenadier wheel (6x130)",
+   "url": "https://agileoffroad.com/products/overlander-hd-ineos-grenadier-wheel-by-agile-offroad"
+  },
+  {
+   "name": "DVA Mechanics — Grenadier tire selection engineering guide",
+   "url": "https://dvamechanics.com/blogs/grenadier/grenadier-tire-selection-engineering-guide"
+  },
+  {
+   "name": "The INEOS Forum — Largest functional tire without mods",
+   "url": "https://www.theineosforum.com/threads/largest-functional-tire-without-mods.12371337/page-30"
+  },
+  {
+   "name": "Big O Tires — 2024 INEOS Grenadier Trialmaster OE tire sizes",
+   "url": "https://www.bigotires.com/tires/by-vehicle/ineos/grenadier/2024/trialmaster"
+  },
+  {
+   "name": "INEOS Grenadier US — Documentation",
+   "url": "https://ineosgrenadier.com/en/us/support/documentation"
+  },
+  {
+   "name": "INEOS Grenadier US — Servicing your Grenadier",
+   "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier"
+  },
+  {
+   "name": "Automotive Addicts — 2026 Ineos Grenadier invoice price, dealer cost (MSRP by trim)",
+   "url": "https://www.automotiveaddicts.com/?p=124375"
+  },
+  {
+   "name": "Expedition Portal — Ineos Grenadier Oktoberfest: the largest gathering yet",
+   "url": "https://expeditionportal.com/ineos-grenadier-oktoberfest-the-largest-gathering-yet/"
+  },
+  {
+   "name": "INEOS Events USA",
+   "url": "https://ineoseventsusa.com/"
+  },
+  {
+   "name": "Expedition Portal forum — Ineos Grenadier thread",
+   "url": "https://forum.expeditionportal.com/threads/ineos-grenadier.214546/"
+  },
+  {
+   "name": "BMWBlog — BMW-powered Ineos Grenadier enters production (Oct 2022)",
+   "url": "https://www.bmwblog.com/2022/10/19/bmw-powered-ineos-grenadier-off-roader-enters-production/"
+  },
+  {
+   "name": "Carscoops — First US-bound Grenadiers leave Ineos factory (Sept 2023)",
+   "url": "https://www.carscoops.com/2023/09/first-us-bound-grenadiers-leave-ineos-factory-would-you-buy-it-over-a-defender/"
+  },
+  {
+   "name": "Expedition Portal — Ineos Automotive to resume production in January",
+   "url": "https://expeditionportal.com/ineos-automotive-to-resume-production-in-january-following-supply-chain-resolution/"
+  },
+  {
+   "name": "GearJunkie — 2026 Ineos Grenadier review",
+   "url": "https://gearjunkie.com/motors/2026-ineos-grenadier-review"
+  },
+  {
+   "name": "The Drive — The 2024 Ineos Grenadier has a steering problem",
+   "url": "https://www.thedrive.com/car-reviews/2024-ineos-grenadier-steering"
+  },
+  {
+   "name": "Motor1 — 2024 Ineos Grenadier US pricing announcement",
+   "url": "https://www.motor1.com/news/667738/ineos-grenadier-us-pricing-announcement/"
+  },
+  {
+   "name": "4X4 Australia — Ineos Grenadier specs",
+   "url": "https://www.4x4australia.com.au/ineos/grenadier"
+  },
+  {
+   "name": "Dometic / Front Runner — Ineos Grenadier Slimline II roof rack kit",
+   "url": "https://www.dometic.com/en-za/product/ineos-grenadier-roofrack-slimline-ii-krig006t"
+  },
+  {
+   "name": "FuelEconomy.gov — 2024 INEOS Automotive vehicles",
+   "url": "https://fueleconomy.gov/feg/bymake/INEOS_Automotive2024.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2025 INEOS Automotive vehicles",
+   "url": "https://www.fueleconomy.gov/feg/bymake/INEOS_Automotive2025.shtml"
+  },
+  {
+   "name": "NHTSA — Recall 23V903000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V903000"
+  },
+  {
+   "name": "NHTSA — Recall 23V828000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V828000"
+  },
+  {
+   "name": "NHTSA — Recall 25V147000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V147000"
+  },
+  {
+   "name": "Bring a Trailer — INEOS Grenadier results",
+   "url": "https://bringatrailer.com/ineos/grenadier/"
+  }
+ ]
+}

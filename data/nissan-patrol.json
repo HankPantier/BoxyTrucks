@@ -1,0 +1,1190 @@
+{
+ "family": {
+  "slug": "nissan-patrol",
+  "name": "Patrol",
+  "maker": "Nissan",
+  "years": "1951–present",
+  "verdict": "The Land Cruiser's oldest sparring partner, and the one Americans mostly know from imported photos of the Outback. The coil-sprung GQ and GU are the reason Australians still argue about which Japanese wagon is tougher.",
+  "intro": [
+   "Nissan has built the Patrol since 1951, which makes it the company's longest-running nameplate. The first 4W60 looked a lot like a Willys Jeep and was sold only in Japan. The 60 Series arrived in October 1960 in short- and long-wheelbase (G60) form, and between 1962 and 1969 it was sold through Datsun dealers in the US and Canada, the only time a Nissan-badged Patrol was offered here until the Infiniti QX56 and the Nissan Armada.",
+   "The 160 Series (sold in Australia as the MQ, then as the MK after its 1983 update) replaced it in 1980 on leaf springs, with straight-six petrol engines and the SD33 diesel. Then came the two trucks this site cares most about. The [[nissan-patrol/y60|Y60, or GQ]] (1987–1997) was the first Patrol with coil springs at both ends, and it went toe-to-toe with the [[land-cruiser/80-series|80 Series Land Cruiser]]. The [[nissan-patrol/y61|Y61, or GU]] (from late 1997) kept the solid axles, added the TD42 turbo-diesels and the infamous ZD30, and stayed in production until April 2024.",
+   "The Y62 of 2010 switched to independent front suspension and V8 petrol power. North America got it first as the Infiniti QX56 for 2011 and then, from the 2017 model year, as the Nissan Armada. A seventh-generation Y63 was unveiled in Abu Dhabi in September 2024. For hands-on owners, though, the Patrol that matters is still the solid-axle iron: big pushrod sixes, a two-speed transfer case, and front axles that Australians beat on for decades."
+  ],
+  "hero_photo": "y60-tibet-everest-ford.jpg",
+  "hero_focus": "65% 60%",
+  "generations": [
+   {
+    "slug": "y60",
+    "name": "Patrol Y60 (GQ)",
+    "years": "1987–1997",
+    "codes": [
+     "Y60",
+     "GQ",
+     "GR",
+     "Safari"
+    ],
+    "summary": "The first coil-sprung Patrol: solid axles at both ends, TB42, TD42 and RD28T sixes, and a Ford Maverick twin in Australia.",
+    "at_url": "https://www.autotempest.com/results?make=nissan&model=patrol&minyear=1987&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/nissan/patrol/",
+    "has_page": true
+   },
+   {
+    "slug": "y61",
+    "name": "Patrol Y61 (GU)",
+    "years": "1997–2016 (later in some markets)",
+    "codes": [
+     "Y61",
+     "GU",
+     "GR"
+    ],
+    "summary": "The GQ's heavier, wider successor on the same solid-axle layout: TB48 and TD42T heroes, the ZD30's troubles, and utes and cab-chassis that outlived the wagon.",
+    "at_url": "https://www.autotempest.com/results?make=nissan&model=patrol&minyear=1997&maxyear=2016",
+    "bat_url": "https://bringatrailer.com/nissan/patrol/",
+    "has_page": true
+   }
+  ],
+  "forums": [
+   {
+    "name": "NissanPatrol.com.au — GQ / Y60 Nissan Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/forumdisplay.php?13-GQ-Y60-Nissan-Patrol",
+    "note": "The busiest GQ board on the internet: buying advice, swivel-hub and cooling threads, and twenty years of archived DIY."
+   },
+   {
+    "name": "NissanPatrol.com.au — GU / GR Nissan Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/forumdisplay.php?12-GU-GR-Nissan-Patrol",
+    "note": "Y61 tech: ZD30, TD42T and TB48 threads, much of it shared with GQ running gear."
+   },
+   {
+    "name": "NissanPatrol.com.au — MQ / MK Nissan Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/forumdisplay.php?14-MQ-MK-Nissan-Patrol",
+    "note": "The leaf-sprung 160-series trucks."
+   },
+   {
+    "name": "NissanPatrol.com.au — Y62 Nissan Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/forumdisplay.php?130-Y62-Nissan-Patrol",
+    "note": "The V8, IFS Patrol (the Armada's twin)."
+   },
+   {
+    "name": "Patrol 4x4 Club South Africa forum",
+    "url": "https://www.patrol4x4.co.za/",
+    "note": "South Africa's Patrol club forum; strong on GR (Y60/Y61) touring setups and tyre fitment."
+   },
+   {
+    "name": "ExplorOz forum",
+    "url": "https://www.exploroz.com/forum",
+    "note": "Australian touring forum with long-running GQ and GU Patrol threads on wheels, tyres and timing belts."
+   }
+  ],
+  "related_families": [
+   "land-cruiser",
+   "land-rover",
+   "g-class",
+   "scout",
+   "lexus"
+  ]
+ },
+ "page": {
+  "slug": "y60",
+  "title": "Nissan Patrol Y60 (GQ)",
+  "eyebrow": "NISSAN PATROL · Y60 / GQ · 1987–1997",
+  "verdict": "The coil-sprung Patrol that beat Toyota to the punch by three years and never stopped reminding Land Cruiser owners about it. It's slow, thirsty and always on the lookout for rust, and in TD42 form it's close to unkillable.",
+  "codes": [
+   "Y60 / GQ",
+   "TD42 4.2 DIESEL I6",
+   "COIL-SPRUNG LIVE AXLES"
+  ],
+  "hero_photo": "y60-budapest-bamako-sahara.jpg",
+  "hero_focus": "62% 50%",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "The Y60 Patrol, sold in Australia as the GQ, is the truck that made Toyota nervous. When it arrived in the late 1980s it was the first Patrol with coil springs at both ends: a three-link live axle up front, a five-link live axle out back, power steering as standard, and a separate ladder frame underneath. The [[land-cruiser/fj60|60 Series Land Cruiser]] it fought in showrooms was still on leaf springs. Nissan kept that advantage until Toyota launched the [[land-cruiser/80-series|80 Series]] in 1990, and Australians have been arguing about which one is tougher ever since."
+    ]
+   },
+   {
+    "heading": "COILS, SIXES AND A TWO-SPEED BOX",
+    "paragraphs": [
+     "Production started in Japan in 1987, where the truck was also sold as the Nissan Safari, and Nissan's Barcelona plant in Spain built it from 1988. Underneath, it was refreshingly old-school. Every engine was a straight six: the 4.2-litre TB42 petrol (125 kW and 325 Nm on a carburettor), the 4.2-litre TD42 diesel (85 kW, 264 Nm), and the 3.0-litre RB30 petrol borrowed from Nissan's passenger cars. A 2.8-litre RD28T turbo-diesel joined later. Drive went through a five-speed manual or four-speed automatic to a two-speed transfer case with part-time 4WD.",
+     "The wagons came in short- and long-wheelbase form (2,400 and 2,970 mm), plus a high-roof version, and there were utes and cab-chassis models too. Those workhorses kept a leaf-spring rear axle until 1994, when Nissan offered the wagons' coil rear as an option. Most Y60s left the factory with a rear limited-slip differential. Some got a vacuum or electric rear diff lock, a rear sway-bar disconnect, or even a front winch driven from a power take-off, with its lever beside the gearstick."
+    ]
+   },
+   {
+    "heading": "THE TD42, AND EVERYTHING ELSE",
+    "paragraphs": [
+     "The engine that built the legend is the TD42. It's a cast-iron, overhead-valve, indirect-injection diesel whose camshaft is driven by gears rather than a belt or chain, which CarsGuide calls a 'set-and-forget system'. It's slow and thirsty, at roughly 12 to 14 L/100 km on the highway, but it is reputed to reach half a million kilometres if serviced. Early engines wear a silver rocker cover. From August 1993 Nissan lightened the TD42 to save fuel and let it rev harder, and Wikipedia notes this weakened it. Those engines, and later ones, wear black covers.",
+     "The petrol engines are the other side of the coin. 4X4 Australia's own 1988 TB42 project car drank about 20 L/100 km and boiled three times on one High Country climb. CarsGuide warns that petrol heads can crack, especially on LPG after the coolant has run low, and Wikipedia lists head-gasket trouble on hard-driven TB42s and RD28Ts. The 1992 Series 2 update brought fuel injection for the TB42, bigger brakes and wheels, and standard limited-slip diffs and automatic free-wheeling hubs. A 1994 facelift added a new grille."
+    ]
+   },
+   {
+    "heading": "WHAT MADE IT SPECIAL",
+    "paragraphs": [
+     "In the bush, the GQ simply worked. Coil springs gave it axle articulation and a ride the leaf-sprung competition couldn't match, and its axles earned a reputation for strength. That made the GQ the default heavy tourer and club truck across Australia, Africa and the Middle East. Even Ford wanted one. Under Australia's Button car plan Ford sold the Y60 as the Ford Maverick from the late 1980s to 1994, changing little but the badges. And Team Nissan France Dessoude was still racing Y60-based Patrol GRs in the Dakar Rally's T1 class in 1998.",
+     "The Patrol also has a tighter connection to America than its absence suggests. Datsun dealers sold the 60 Series here from 1962 to 1969, but the Y60 was never offered in the US. Every Y60 is now more than 25 years old, which puts it inside the federal 25-year exemption from US safety-standard compliance. Bring a Trailer lists a steady flow of imported right-hand-drive Safaris and Patrols, many of them TD42 or RD28T manuals from Japan and Europe."
+    ]
+   },
+   {
+    "heading": "HOW IT ENDED, AND WHY IT STILL MATTERS",
+    "paragraphs": [
+     "The [[nissan-patrol/y61|Y61, or GU]], took over in late 1997. 4X4 Australia describes it as essentially a GQ platform underneath, with a wider body, a better interior and about 230 kg more weight. That continuity is why GQ owners still share parts, forums and bolt-on hardware with GU owners. Much of the GU's running gear, from the swivel hubs and radius-arm bushes to ARB Air Lockers and steering dampers, is sold as fitting both trucks.",
+     "Today the GQ occupies the same place in Australian off-roading that the [[land-cruiser/fj60|60]] and [[land-cruiser/80-series|80 Series]] do in American trail culture. It's cheap enough to modify without guilt, simple enough to fix with hand tools, and big enough to carry a family and a fridge to the end of the track. It isn't fast, the petrol engines drink like it's still 1988, and rust is never far away. But with a TD42 and a set of 33s, few trucks this old are still this capable."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · THE BADGE SWAP",
+   "title": "The Ford Maverick: a Patrol in a blue oval",
+   "paragraphs": [
+    "In the late 1980s Australia's Button car plan pushed local makers to share models so the industry could consolidate. One result was the Ford Maverick, a Y60 Patrol sold through Ford dealers from 1988 (some sources say 1989) to 1994. Curbside Classic notes the visual changes were limited to badging. Unlike many Button-plan twins, neither truck was built in Australia.",
+    "The Maverick came as two- and four-door wagons, a ute and a cab-chassis, in base, XL and XLT trims, with the 4.2-litre petrol and diesel sixes. There was no luxury model to rival the Patrol Ti. Rural Ford dealers and their fleet deals helped it sell. For buyers today, a Maverick is simply a GQ: parts suppliers such as Patrolapart and HD Automotive list the Ford alongside the Nissan."
+   ]
+  },
+  "engineering_intro": "The GQ is a body-on-frame truck with solid axles at both ends. Coil springs replaced the old Patrol's leaves, with radius arms and a panhard rod at the front and a five-link rear. A two-speed transfer case and free-wheeling front hubs give part-time 4WD. The engines are big, slow-revving straight sixes, and the TD42 diesel's camshaft is gear-driven. Most of what goes wrong is heat, rust, and front swivels that have been neglected.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame · SWB 2,400 mm / LWB 2,970 mm",
+    "note": "Separate body-on-frame construction. Wagons came in standard and high-roof forms; utes and cab-chassis rode on the long frame."
+   },
+   {
+    "k": "FRONT SUSPENSION",
+    "v": "Live axle, three-link, coil springs",
+    "note": "Radius arms and a panhard rod locate the axle. Sway bar and power steering standard. Steering swivels on kingpin bearings set with shims."
+   },
+   {
+    "k": "REAR SUSPENSION",
+    "v": "Live axle, five-link, coil springs",
+    "note": "Utes and cab-chassis kept leaf springs until a coil rear became an option in 1994. Some trucks have a rear sway-bar disconnect."
+   },
+   {
+    "k": "4WD SYSTEM",
+    "v": "Part-time, two-speed transfer case",
+    "note": "Free-wheeling front hubs: manual on DX and RX, automatic on ST and Ti (Australian trims)."
+   },
+   {
+    "k": "DIFFERENTIALS",
+    "v": "Rear LSD on most · H233 rear (H260 on leaf cab-chassis)",
+    "note": "Some had a vacuum or electric rear diff lock. ARB makes front and rear Air Lockers for the GQ."
+   },
+   {
+    "k": "SIGNATURE ENGINE",
+    "v": "TD42 4.2 L OHV diesel I6",
+    "note": "Gear-driven camshaft and indirect injection. 85 kW / 264 Nm. Silver rocker cover until the lightened 1993 engine (black)."
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1987–1997",
+    "platform": "Y60 (GQ) · TD42",
+    "engine": "4.2 L OHV diesel I6",
+    "output": "85 kW / 264 Nm",
+    "note": "The legend. Silvertop until August 1993, then the lighter 'Blacktop'. Manual-only in Australia, per CarsGuide."
+   },
+   {
+    "years": "1987–1992",
+    "platform": "Y60 (GQ) · TB42S",
+    "engine": "4.2 L OHV petrol I6, carburettor",
+    "output": "125 kW / 325 Nm",
+    "note": "Torquey and thirsty. Watch for cracked heads, especially on LPG."
+   },
+   {
+    "years": "1992–1997",
+    "platform": "Y60 (GQ Series 2) · TB42E",
+    "engine": "4.2 L OHV petrol I6, EFI",
+    "output": "135 kW / 320 Nm (Wikipedia; CarsGuide quotes 129 kW for Australia)",
+    "note": "Fuel injection arrived with the 1992 Series 2, along with bigger brakes and standard LSD and auto hubs."
+   },
+   {
+    "years": "c. 1990–1997",
+    "platform": "Y60 (GQ) · RB30S",
+    "engine": "3.0 L SOHC petrol I6",
+    "output": "100 kW / 224 Nm",
+    "note": "Five-speed manual only. The budget engine; 4X4 Australia dates its local arrival to 1990."
+   },
+   {
+    "years": "Early 1990s–1997",
+    "platform": "Y60 (GQ) · RD28T",
+    "engine": "2.8 L SOHC turbo-diesel I6",
+    "output": "92 kW / 255 Nm (Wikipedia; 85 kW / 235 Nm in Australia per 4X4 Australia)",
+    "note": "Five-speed manual only. Belt-driven cam, so it needs timing-belt services. Head gaskets suffer if it's thrashed."
+   },
+   {
+    "years": "1991–1997 (Japan)",
+    "platform": "Safari (Y60) · TD42T",
+    "engine": "4.2 L turbo-diesel I6",
+    "output": "—",
+    "note": "Japan's Safari replaced the TD42 with the turbocharged TD42-T. Many have since been imported to the US under the 25-year rule."
+   },
+   {
+    "years": "1988–1994",
+    "platform": "Ford Maverick (Australia)",
+    "engine": "4.2 L petrol or diesel I6",
+    "output": "As Patrol",
+    "note": "A Button-plan rebadge in base, XL and XLT trims. Mechanically a GQ."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Rust first, everything else second",
+    "body": "Forum veterans check the roof gutters, the sliding rear-window frames, the door sills and jambs, the front guards, the backs of the rear wheel arches and the upper firewall. Lift the rear carpets too, because sand under the mats can eat the floor pans. A freshly painted GQ can be hiding gutter and rear-quarter rust."
+   },
+   {
+    "head": "Look for oil on the swivel hubs",
+    "body": "Greasy gunk on the front swivels usually means the inner axle seal has failed and diff oil is getting past swivel seals that were never designed to hold oil. That's a front-axle teardown, so price it in. Look for oil on the brake backing plates as well, a sign of worn axle seals."
+   },
+   {
+    "head": "Drive it at 70–80 km/h (45–50 mph)",
+    "body": "Early GQs suffered a front-end shimmy at about 70–80 km/h. Most were fixed under warranty by removing knuckle shims to take out free play, but a worn truck can bring it back. Owners also report shakes around 110 km/h, so test at highway speed and check the tie rods, panhard rod and radius-arm bushes."
+   },
+   {
+    "head": "Know which engine, and which rocker cover",
+    "body": "The TD42 is the safe bet if it has been kept cool. A silver rocker cover means a pre-August-1993 engine, from before Nissan lightened it. Petrol TB42s and turbo RD28Ts have a history of head problems when worked hard. Ask about the cooling system, look for milky oil and coolant stains, and walk away from a truck that 'just needs a head gasket'."
+   },
+   {
+    "head": "Open and close every door",
+    "body": "If a door drops when you open it, the hinge pins are worn, a well-known GQ problem. Wikipedia also records cracking rear-door hinges from the weight of the spare. Both are fixable with hinge-pin kits or new genuine hinges, but they tell you how hard the truck has been used."
+   },
+   {
+    "head": "Test 4WD in high and low range",
+    "body": "Check that the free-wheeling hubs lock and unlock smoothly, then drive in 4H and 4L on dirt. One forum tip is a tight circle in low range, which should scrub the tyres. Listen for gearbox whine or clunks, check that it doesn't jump out of gear on overrun, and inspect the gearbox crossmember for rock damage."
+   },
+   {
+    "head": "Be wary of automatics",
+    "body": "Members of the NissanPatrol.com.au forum report trouble with GQ automatics, with rebuilds around A$3,000. The auto's cooler also sits inside the radiator, so a truck that overheats can cook its transmission too. A manual with a service history is the conservative choice."
+   },
+   {
+    "head": "If it's lifted, check the details",
+    "body": "On lifted GQs, confirm that the brake lines were extended, the rear load-proportioning valve was adjusted, and caster was corrected with offset radius-arm bushes. Bent rear lower control arms and stone-damaged rods suggest it has been driven hard."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Swivel hub (kingpin) bearing and seal rebuild",
+    "diff": "3 / 5",
+    "time": "≈ A full day per side for a first-timer",
+    "cost": "Parts plus labor",
+    "symptoms": "Greasy gunk on the front swivel balls, steering that wanders, or play when you rock the top of the tyre with the wheel off the ground. On a GQ the swivel and CV bearings run in grease. If diff oil is leaking out of the swivels, the inner axle seal has failed.",
+    "fix": "Jack up and support the front, then remove the wheel, free-wheeling hub, CV circlip, brake caliper (hang it up, don't let it dangle), wheel bearings and hub. Unbolt the swivel housing from the axle, pull the CV and axle shaft, and replace the inner axle seal while it's out. Replace the upper and lower kingpin bearings and the swivel cap seals (owners often damage the caps on removal), then reassemble. Set kingpin preload with the factory shims and fit new wiper seals on the swivel ball. Repack with fresh grease and, if any diff oil was lost, top up the front diff.",
+    "tools": "Seal driver kit · bearing race drift · 54 mm hub-nut socket · circlip pliers · torque wrench · spring scale for preload · CV and high-temperature bearing grease. Work clean and keep the parts in order: forum members prefer a good pictorial to the Gregory's manual.",
+    "parts": [
+     {
+      "name": "Basco/KOYO swivel hub kit for Patrol GQ Y60",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/gq-patrol-swivel-hub-repair-kit/"
+     },
+     {
+      "name": "Swivel hub (kingpin) bearing with rubber seal, GQ/GU",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/swivel-hub-bearing-with-rubber-seal-suits-nissan-patrol-gq-y60-gu-y61"
+     },
+     {
+      "name": "Genuine Nissan swivel bearing cap seal set, GQ/GU",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/genuine-nissan-patrol-gq-gu-swivel-bearing-cap-seal-set"
+     },
+     {
+      "name": "Swivel hub wiper seal kit, GQ Y60",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/swivel-hub-wiper-seal-kit-nissan-patrol-gq-y60"
+     }
+    ]
+   },
+   {
+    "title": "Front wheel bearing service",
+    "diff": "2 / 5",
+    "time": "≈ 2–3 hours per side",
+    "cost": "Parts plus labor",
+    "symptoms": "Rumble or growl that changes with speed, play at the wheel, or bearing grease slung onto the brake parts. It's also due whenever you rebuild the swivels.",
+    "fix": "Following a NissanPatrol.com.au how-to: support the front on stands and remove the wheel. Take off the free-wheeling hub, the CV circlip, the hub internals and the 'egg ring'. Unbolt the caliper and rest it on the swivel. Flatten the locking plate, undo the outer 54 mm bearing nut, remove the plate and the second 54 mm nut, then slide the hub and rotor off. Punch out the pressed-in races, remove the rear seal and bearings, then fit the new races, bearings and seal. Adjust bearing preload to the manual before locking the nuts. Don't rest the axle on the new seal during reassembly.",
+    "tools": "54 mm hub-nut socket (the only special tool) · punch and hammer · seal driver · high-temperature bearing grease · brake cleaner. Some owners fit the later GU-style hub nut system in place of the GQ lock nut.",
+    "parts": [
+     {
+      "name": "Ultima WBK70 front wheel bearing kit, GQ Y60 / Ford Maverick",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/ultima-front-wheel-bearing-kit-nissan-gq-patrol/"
+     },
+     {
+      "name": "Basco front wheel bearing and swivel hub kit, GQ",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/gq-bearings-and-swivel-hub-repair-kit/"
+     },
+     {
+      "name": "Free-wheeling hub lock tab for wheel bearings, GQ / Maverick",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/free-wheeling-hub-lock-tab-for-wheel-bearings-nissan-patrol-gq-ford-maverick"
+     }
+    ]
+   },
+   {
+    "title": "Cure the front-end shimmy",
+    "diff": "2 / 5",
+    "time": "≈ 2–4 hours to diagnose and fix",
+    "cost": "Parts plus labor",
+    "symptoms": "The steering wheel shakes at about 70–80 km/h (45–50 mph), sometimes again around 110 km/h, and often after hitting a bump. CarsGuide notes early GQs did this from the factory.",
+    "fix": "Start with the cheap things: tyre balance, wheel bearings and tie-rod ends. Then check the panhard-rod bushes and the radius-arm bushes for splits and movement while a helper rocks the steering. CarsGuide says the factory fix on early trucks was to remove shims from the top and bottom of the steering knuckles to take out free play, so check kingpin preload. Replace anything worn, have the front end aligned, and fit a fresh steering damper last, since a damper hides worn parts rather than fixing them.",
+    "tools": "Pry bar · ball-joint/tie-rod separator · torque wrench · a helper on the steering wheel. Alignment afterward.",
+    "parts": [
+     {
+      "name": "Genuine Nissan panhard rod bush pair, GQ/GU/Maverick",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/genuine-nissan-panhard-rod-bush-pair-for-nissan-patrol-gq-y60-gu-y61-and-ford-maverick"
+     },
+     {
+      "name": "Outer tie-rod end pair, GQ 1992–1999",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/outer-tie-rod-end-pair-nissan-gq-patrol-1992-1999/"
+     },
+     {
+      "name": "Dobinsons steering damper SD45-836, GQ Y60",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/dobinsons-steering-damper-nissan-patrol-y60-gq-sd45-836"
+     }
+    ]
+   },
+   {
+    "title": "TD42 tappet adjustment and rocker cover reseal",
+    "diff": "2 / 5",
+    "time": "≈ 1–2 hours",
+    "cost": "Parts plus labor",
+    "symptoms": "A louder-than-usual top-end clatter, or an oily rocker cover. One forum member says the TD42's tappets want adjusting about every 20,000 km, and that poor early servicing leads to serious valve-train wear.",
+    "fix": "With the engine cold, remove the rocker cover. Turn the crank to TDC on cylinder 1 and adjust valves 1, 2, 4, 5, 8 and 9. Rotate to TDC on cylinder 6 and adjust 3, 6, 7, 10, 11 and 12. One forum member sets 0.35 mm at ambient temperature; confirm the intake and exhaust figures in the workshop manual. Fit a new rocker-cover gasket and breather seals, then refit the cover evenly.",
+    "tools": "Feeler gauges · ring spanner and screwdriver for the adjusters · large socket to turn the crank · new gasket kit.",
+    "parts": [
+     {
+      "name": "Rocker cover gasket kit, TD42 (GQ/GU)",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/rocker-cover-gasket-kit-td42-nissan-patrol-y60-gq-y61-gu"
+     },
+     {
+      "name": "Genuine Nissan rocker cover gasket, GQ/GU TD42",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/nissan-patrol-genuine-rocker-cover-gasket-gq-gu-td42"
+     }
+    ]
+   },
+   {
+    "title": "Cooling system refresh (overheating prevention)",
+    "diff": "2 / 5",
+    "time": "≈ Half a day",
+    "cost": "Parts plus labor",
+    "symptoms": "The temperature gauge climbs on long climbs or when towing, the truck boils at low speed, or the clutch fan roars without cooling much. GQs have a reputation for heat, and an overheated head is the expensive end of that story. On automatics, the transmission cooler is inside the radiator.",
+    "fix": "Pressure-test the system and check the radiator for blocked cores. Replace the top and bottom hoses and the thermostat (TD42 trucks use a 76°C genuine unit). Inspect the water pump for weeping and the fan clutch for slip, and bleed the system properly. CarsGuide says most TD42 overheating is on modified trucks: aftermarket turbos add heat, front-mounted intercoolers and driving lights block airflow, and big tyres make the engine work harder. If the head has already been cooked, have it pressure-tested and checked for warp at a machine shop before refitting.",
+    "tools": "Cooling-system pressure tester · drain pan · hose pliers · new clamps · coolant (type per manual).",
+    "parts": [
+     {
+      "name": "Koyorad radiator, GQ/Maverick diesel 1988–1997 manual",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/koyorad-radiator-suitable-for-nissan-patrol-gq-ford-maverick-diesel-1988-1997-manual-transmission/"
+     },
+     {
+      "name": "Genuine TD42 76° thermostat 21200-58G04",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/genuine-td42-76deg-thermostat/"
+     },
+     {
+      "name": "Gates radiator hose set, GQ TD42",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/gq-td42-gates-radiator-hose-set/"
+     },
+     {
+      "name": "Asahi TD42 water pump, GQ/GU",
+      "supplier": "HD Automotive",
+      "url": "https://hdautomotive.com.au/product/asahi-td42-water-pump-suitable-for-nissan-patrol-gu-gq/"
+     }
+    ]
+   },
+   {
+    "title": "Re-pin dropping front doors",
+    "diff": "2 / 5",
+    "time": "≈ 1–2 hours per door",
+    "cost": "Parts plus labor",
+    "symptoms": "The door drops when opened and has to be lifted to latch. Forum members call door hinges a common GQ problem; worn pins can be in either or both hinges.",
+    "fix": "Support the door on a jack with a block of wood, or with a helper. Drive out the old hinge pin, then press out the worn bushes and fit new pins and bushes, one hinge at a time so the door stays aligned. If the hinge itself is worn or cracked, fit a genuine replacement hinge set and adjust the door gaps before tightening.",
+    "tools": "Punch and hammer · vise or press · floor jack and wood block · grease.",
+    "parts": [
+     {
+      "name": "Front door hinge pin repair kit, GQ",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/front-door-hinge-pin-repair-kit-nissan-patrol-gq"
+     },
+     {
+      "name": "Genuine Nissan driver's door hinge set, GQ",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/nissan-patrol-gq-genuine-drivers-door-hinge-set"
+     },
+     {
+      "name": "Genuine Nissan passenger door hinge set, GQ Y60",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/nissan-patrol-gq-y60-genuine-passenger-door-hinge-set"
+     }
+    ]
+   },
+   {
+    "title": "RD28T timing belt service",
+    "diff": "3 / 5",
+    "time": "≈ A day for a first-timer",
+    "cost": "Parts plus labor",
+    "symptoms": "No warning before it breaks. Unlike the gear-driven TD42 and TB42, the RD28T's camshaft is belt-driven, so a truck with no receipts should be treated as due. Owners on ExplorOz report doing it at about 100,000 km; confirm the interval in the manual.",
+    "fix": "Use a kit that includes the tensioner and idler, because one owner found both noisy and loose once the old belt was off. Remove the fan, belts and harmonic balancer; soaking the crank bolt overnight helped one first-timer. Line up the timing marks, then fit the belt, tensioner, idler, and the crank and cam seals while you're in there. Forum members suggest replacing the balancer bolt in case it's torque-to-yield, and checking the Woodruff key.",
+    "tools": "Harmonic balancer puller · crank-holding tool · breaker bar · torque wrench · seal puller.",
+    "parts": [
+     {
+      "name": "Timing belt kit, RD28 (Y60 GQ / Y61 GU)",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/timing-belt-kit-nissan-patrol-y60-gq-y61-gu-rd28"
+     },
+     {
+      "name": "Genuine Nissan harmonic balancer Woodruff key",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/genuine-nissan-harmonic-woodruff-key-nissan-patrol-y60-gq-y61-gu-td42-td42t-rd28-rb30-tb45-zd30"
+     }
+    ]
+   },
+   {
+    "title": "Replace radius-arm and panhard bushes (with caster correction)",
+    "diff": "3 / 5",
+    "time": "≈ Half a day to a day",
+    "cost": "Parts plus labor",
+    "symptoms": "Clunks over bumps, vague steering, the shimmy above, or a lifted truck that wanders because the lift has reduced caster. One owner expects to replace the bushes, springs and clutch at around 200,000 km.",
+    "fix": "Support the chassis with the axle on a jack, then unbolt one radius arm at a time so the axle stays located. Press out the old bushes and press in new ones. On lifted trucks, fit offset caster-correction bushes at the diff end to restore caster. Do the panhard-rod bushes at the same time, torque everything at ride height, and get an alignment.",
+    "tools": "Hydraulic press or bush tool · floor jack and stands · long breaker bar · torque wrench.",
+    "parts": [
+     {
+      "name": "Genuine Nissan radius/trailing arm and panhard bush set, GQ/GU",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/genuine-nissan-patrol-gq-gu-radius-trailing-arms-panhard-rod-bush-set-kit"
+     },
+     {
+      "name": "Pedders offset caster-correction radius-arm bushes, GQ/GU",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/pedders-radius-arm-offset-castor-correction-bushes-rubber-nissan-patrol-gq-gu"
+     },
+     {
+      "name": "Blackhawk 2° offset caster bush 4-pack, GQ/GU/Maverick",
+      "supplier": "Patrolapart",
+      "url": "https://patrolapart.com.au/product/blackhawk-radius-arm-rubber-2o-offset-castor-correction-bush-4-pack-for-nissan-patrol-gq-gu-ford-maverick"
+     }
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "4X4 Australia says its 1988 GQ wore 31-inch all-terrains from the factory, and 31x10.50R15 or a similarly sized 16-inch tyre is the safe size on standard suspension. A 33 does fit 'into the GQ wheel arch, but only just', according to the Patrol 4x4 Club SA forum. On NissanPatrol.com.au, owners say 33x12.5s on zero-offset rims scrub the inner guards at full flex. The common recipe is a 2-inch lift with 33x12.5R15s on about -22 mm offset wheels. Even then, expect to trim or bend a mud-flap bracket.",
+    "src": "4X4 AUSTRALIA · PATROL4X4 SA · NISSANPATROL.COM.AU"
+   },
+   {
+    "q": "Which engine should I buy?",
+    "a": "The TD42 diesel, if you can find a good one. It has a gear-driven cam, it's simple, and it's reputed to last half a million kilometres when serviced and kept cool. Early 'Silvertop' engines predate the August 1993 lightening that Wikipedia says weakened it. The TB42 petrol makes more power but is thirsty, and petrol heads crack, especially on LPG. The RD28T needs timing belts and dislikes being thrashed, and the RB30 is the economy option.",
+    "src": "WIKIPEDIA · CARSGUIDE"
+   },
+   {
+    "q": "What's a 'Silvertop' versus a 'Blacktop' TD42?",
+    "a": "It's the colour of the rocker cover. Early naturally aspirated TD42s have silver covers. Wikipedia's Patrol article says Nissan lightened the engine in August 1993 to cut fuel use and raise its rev limit, which weakened it, and that the lightened engine wears a black cover. Its TD-engine article says turbo TD42s and non-turbo engines built after 1995 are black. CarsGuide adds that the later pistons were less tolerant of aftermarket turbo kits, and that owners cracked pistons by running too much boost.",
+    "src": "WIKIPEDIA · CARSGUIDE"
+   },
+   {
+    "q": "Does it have lockers?",
+    "a": "Most Y60s have a rear limited-slip differential, and LSDs became standard with the 1992 Series 2 in Australia. Some variants had a factory vacuum or electric rear diff lock. For selectable lockers, ARB makes front and rear Air Lockers for the GQ. The rear version depends on your diff: H233 on most trucks, or H260 (34- or 37-spline) on leaf-sprung cab-chassis models.",
+    "src": "WIKIPEDIA · PATROLAPART"
+   },
+   {
+    "q": "Can I legally bring one into the US?",
+    "a": "The Y60 was never sold new in the US. Datsun dealers sold the older 60 Series only from 1962 to 1969. Every Y60 is now more than 25 years old, which puts it inside NHTSA's exemption from federal safety-standard compliance for vehicles at least 25 years old. Check EPA and state titling rules too. Bring a Trailer's Patrol page shows a steady stream of imported Y60 Safaris and Patrols, most of them right-hand-drive manuals.",
+    "src": "WIKIPEDIA · NHTSA · BAT"
+   },
+   {
+    "q": "What fuel economy should I expect?",
+    "a": "Not much. CarsGuide puts a TD42 at roughly 12–14 L/100 km on the highway (about 17–20 mpg), plus a couple of litres around town and much more when towing. 4X4 Australia's carbureted TB42 project truck averaged about 20 L/100 km (about 12 mpg). All wagons have a 100-litre main tank, and long-range replacements are available.",
+    "src": "CARSGUIDE · 4X4 AUSTRALIA · WIKIPEDIA"
+   },
+   {
+    "q": "Why do GQs overheat, and how do I stop it?",
+    "a": "CarsGuide says most TD42 overheating happens on modified trucks: aftermarket turbos add heat, intercoolers and driving lights in front of the radiator block airflow, and big tyres make the engine work harder. 4X4 Australia's TB42 project truck boiled on a long climb until it got a genuine radiator and a better fan. Keep the radiator clean, use the correct thermostat (76°C on the TD42), replace hoses and fan clutches, and watch the gauge.",
+    "src": "CARSGUIDE · 4X4 AUSTRALIA · HD AUTOMOTIVE"
+   },
+   {
+    "q": "What oils and capacities does it take?",
+    "a": "From owners quoting the Gregory's manual on NissanPatrol.com.au, for a TD42 manual: engine about 8.2 L (one owner's fill), manual gearbox 75W-90 GL-4 at about 3.9 L, transfer case 75W-90 GL-4 at about 2.2 L, front diff 80W-90 GL-5 at about 5–5.4 L, and rear diff LSD-rated gear oil (owners use 85W-140 LS) at about 2.5–3.0 L. The TD42 also takes two oil filters. Treat these as guides and confirm them in your workshop manual.",
+    "src": "NISSANPATROL.COM.AU · HD AUTOMOTIVE"
+   },
+   {
+    "q": "Is a Ford Maverick the same truck?",
+    "a": "Yes. Under Australia's Button car plan, Ford sold the Y60 as the Ford Maverick from the late 1980s to 1994, and Curbside Classic says the visual changes were limited to badging. It came as wagons, a ute and a cab-chassis in base, XL and XLT trims with the 4.2-litre sixes. Patrol parts suppliers list GQ parts as fitting the Maverick.",
+    "src": "CURBSIDE CLASSIC · WIKIPEDIA"
+   },
+   {
+    "q": "GQ or GU: which should I buy?",
+    "a": "4X4 Australia describes the GU as essentially a GQ platform underneath, with a wider body, better refinement and about 230 kg more weight. It also brings the later TD42T and TB48 engines, but also the troubled ZD30 four-cylinder diesel. The GQ is lighter, simpler and usually cheaper, and much of the suspension and axle hardware is shared. See the [[nissan-patrol/y61|Y61 GU]] page for the other side of the argument.",
+    "src": "4X4 AUSTRALIA"
+   },
+   {
+    "q": "Automatic or manual?",
+    "a": "Manual, if you can. CarsGuide says every TD42 sold in Australia was a manual, and the RD28T and RB30 were manual-only. NissanPatrol.com.au members report problems with GQ automatics and rebuilds of around A$3,000. The auto's transmission cooler sits inside the radiator, so cooling problems become transmission problems.",
+    "src": "CARSGUIDE · WIKIPEDIA · NISSANPATROL.COM.AU"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "A 2-inch coil lift is the standard GQ upgrade, and it's what makes 33s livable. Pair it with caster-correction bushes, longer brake lines and a rear proportioning-valve adjustment.",
+    "who": [
+     {
+      "name": "Dobinsons — GQ front coils, 2-inch linear (C45-094)",
+      "url": "https://patrolapart.com.au/product/dobinsons-coil-springs-pair-front-y60-gq-linear-2-c45-094"
+     },
+     {
+      "name": "Old Man Emu (ARB)",
+      "url": "https://www.oldmanemu.com/en-au"
+     },
+     {
+      "name": "Pedders caster-correction bushes, GQ/GU",
+      "url": "https://patrolapart.com.au/product/pedders-radius-arm-offset-castor-correction-bushes-rubber-nissan-patrol-gq-gu"
+     }
+    ]
+   },
+   {
+    "cat": "LOCKERS",
+    "why": "A rear LSD is good; selectable lockers are better. ARB Air Lockers are the usual retrofit at both ends, so make sure you know whether your rear diff is an H233 or an H260.",
+    "who": [
+     {
+      "name": "ARB front Air Locker, GQ/GU",
+      "url": "https://patrolapart.com.au/product/arb-front-diff-lock-air-locker-fits-nissan-patrol-gq-y60-gu-y61"
+     },
+     {
+      "name": "ARB rear Air Locker, GQ/GU H233",
+      "url": "https://patrolapart.com.au/product/arb-rear-diff-lock-air-locker-fits-nissan-patrol-gq-gu-with-h233-diff"
+     },
+     {
+      "name": "ARB 4x4 Accessories",
+      "url": "https://www.arb.com.au/"
+     }
+    ]
+   },
+   {
+    "cat": "SNORKEL & BREATHERS",
+    "why": "On a stock GQ the rear diff breathes near the fuel tank, and the front diff, gearbox and transfer case share one breather in the passenger guard. Raise them all, and raise the engine's intake with a snorkel, before you start fording creeks.",
+    "who": [
+     {
+      "name": "Safari Snorkel, GQ TD42",
+      "url": "https://patrolapart.com.au/product/safari-snorkel-nissan-patrol-gq-td42"
+     },
+     {
+      "name": "Safari 4x4 Engineering",
+      "url": "https://www.safari4x4.com.au/"
+     },
+     {
+      "name": "4-point diff breather kit, GQ/GU",
+      "url": "https://patrolapart.com.au/product/diff-breathers-kit-4-point-suit-nissan-patrol-gq-gu-toyota-4x4-4wd"
+     }
+    ]
+   },
+   {
+    "cat": "BAR WORK & RECOVERY",
+    "why": "A winch-compatible bullbar is close to mandatory in Australia, and 4X4 Australia's project truck found the factory recovery points hard to trust in a bog hole.",
+    "who": [
+     {
+      "name": "ARB Deluxe winch bullbar, GQ",
+      "url": "https://patrolapart.com.au/product/arb-deluxe-winch-bullbar-nissan-patrol-y60-gq"
+     }
+    ]
+   },
+   {
+    "cat": "FUEL RANGE",
+    "why": "A 100-litre tank and a thirsty six don't add up to remote-area range. Long-range main and auxiliary tanks are the classic GQ touring fix.",
+    "who": [
+     {
+      "name": "LRA long-range 146 L main tank, GQ",
+      "url": "https://patrolapart.com.au/product/lra-long-range-146l-main-fuel-tank-for-nissan-patrol-gq-y60"
+     },
+     {
+      "name": "LRA 73 L auxiliary belly tank, GQ LWB",
+      "url": "https://patrolapart.com.au/product/lra-long-range-73l-auxiliary-belly-fuel-tank-nissan-patrol-gq-lwb-2"
+     }
+    ]
+   },
+   {
+    "cat": "MANUAL HUBS",
+    "why": "Automatic free-wheeling hubs on ST, Ti and Series 2 trucks are another thing to fail out bush. Many owners convert to manual hubs.",
+    "who": [
+     {
+      "name": "HULK 4x4 manual free-wheeling hubs, GQ/GU",
+      "url": "https://patrolapart.com.au/product/hulk-4x4-manual-free-wheeling-hub-assembly-nissan-y60-gq-y61-gu"
+     },
+     {
+      "name": "Genuine Nissan manual free-wheeling hub, GQ/GU",
+      "url": "https://patrolapart.com.au/product/genuine-nissan-patrol-gq-gu-manual-free-wheeling-hub-assembly"
+     }
+    ]
+   },
+   {
+    "cat": "COOLING & TD42 POWER",
+    "why": "Turbocharging a TD42 is a well-worn path, but CarsGuide warns it adds heat. Budget for a better radiator before you add boost, and mount any intercooler with airflow in mind.",
+    "who": [
+     {
+      "name": "Koyorad GQ diesel radiator (HD Automotive)",
+      "url": "https://hdautomotive.com.au/product/koyorad-radiator-suitable-for-nissan-patrol-gq-ford-maverick-diesel-1988-1997-manual-transmission/"
+     },
+     {
+      "name": "PDI front-mount intercooler kit, TD42 GQ (HD Automotive)",
+      "url": "https://hdautomotive.com.au/product/front-mount-intercooler-kit-td42-gq/"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1987–1997 · US",
+    "label": "Y60 Patrol / Safari (import)",
+    "at_url": "https://www.autotempest.com/results?make=nissan&model=patrol&minyear=1987&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/nissan/patrol/"
+   },
+   {
+    "years": "1987–1992",
+    "label": "GQ Series 1 (carb TB42, Silvertop TD42)",
+    "at_url": "https://www.autotempest.com/results?make=nissan&model=patrol&minyear=1987&maxyear=1992",
+    "bat_url": "https://bringatrailer.com/nissan/patrol/"
+   },
+   {
+    "years": "1992–1997",
+    "label": "GQ Series 2 (EFI TB42, RD28T)",
+    "at_url": "https://www.autotempest.com/results?make=nissan&model=patrol&minyear=1992&maxyear=1997",
+    "bat_url": "https://bringatrailer.com/nissan/patrol/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "4X4 Australia",
+    "focus": "GQ PROJECT TRUCK · BUYERS GUIDES",
+    "url": "https://www.youtube.com/@4x4australia"
+   },
+   {
+    "kind": "YT",
+    "name": "Patrolapart & Navarapart",
+    "focus": "PATROL PARTS SPECIALIST",
+    "url": "https://www.youtube.com/channel/UCtU88JkxEVJE5ImKd-PwXWw"
+   },
+   {
+    "kind": "YT",
+    "name": "HULK 4X4",
+    "focus": "PATROL HUBS & 4X4 GEAR",
+    "url": "https://www.youtube.com/@Hulk4x4"
+   },
+   {
+    "kind": "YT",
+    "name": "Safari 4x4",
+    "focus": "SNORKELS & AIR INTAKES",
+    "url": "https://www.youtube.com/c/Safari4x4engineering"
+   },
+   {
+    "kind": "IG",
+    "name": "@gq_patrol",
+    "focus": "1992 GQ PATROL ST BUILD",
+    "url": "https://www.instagram.com/gq_patrol/"
+   },
+   {
+    "kind": "IG",
+    "name": "@patrolapart_navarapart",
+    "focus": "PATROL PARTS & BUILDS",
+    "url": "https://www.instagram.com/patrolapart_navarapart/"
+   },
+   {
+    "kind": "IG",
+    "name": "@hulk_4x4",
+    "focus": "PATROL & 4X4 HARDWARE",
+    "url": "https://www.instagram.com/hulk_4x4/"
+   }
+  ],
+  "forums": [
+   {
+    "name": "NissanPatrol.com.au — GQ / Y60 Nissan Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/forumdisplay.php?13-GQ-Y60-Nissan-Patrol",
+    "note": "The busiest GQ board on the internet: buying advice, swivel-hub and cooling threads, and twenty years of archived DIY."
+   },
+   {
+    "name": "Patrol 4x4 Club South Africa forum",
+    "url": "https://www.patrol4x4.co.za/",
+    "note": "South Africa's Patrol club forum; strong on GR (Y60/Y61) touring setups and tyre fitment."
+   },
+   {
+    "name": "ExplorOz forum",
+    "url": "https://www.exploroz.com/forum",
+    "note": "Australian touring forum with long-running GQ and GU Patrol threads on wheels, tyres and timing belts."
+   }
+  ],
+  "related": [
+   {
+    "rel": "SUCCESSOR",
+    "name": "Patrol Y61 (GU)",
+    "family": "nissan-patrol",
+    "gen": "y61"
+   },
+   {
+    "rel": "ARCH-RIVAL",
+    "name": "Land Cruiser 80 Series",
+    "family": "land-cruiser",
+    "gen": "80-series"
+   },
+   {
+    "rel": "LEAF-SPRUNG RIVAL",
+    "name": "Land Cruiser 60 Series",
+    "family": "land-cruiser",
+    "gen": "fj60"
+   },
+   {
+    "rel": "WORKHORSE RIVAL",
+    "name": "Land Cruiser 70 Series",
+    "family": "land-cruiser",
+    "gen": "70-series"
+   },
+   {
+    "rel": "BRITISH COUNTERPART",
+    "name": "Defender 90 / 110",
+    "family": "land-rover",
+    "gen": "defender-90-110"
+   }
+  ],
+  "plate": [
+   {
+    "k": "CHASSIS",
+    "v": "Y60 (GQ in Australia; GR in Europe)"
+   },
+   {
+    "k": "PRODUCTION",
+    "v": "1987–1997 (Safari, Japan) · Barcelona, Spain 1988–1998"
+   },
+   {
+    "k": "ALSO SOLD AS",
+    "v": "Nissan Safari (Japan) · Ford Maverick (Australia, 1988–1994)"
+   },
+   {
+    "k": "BODY",
+    "v": "3- and 5-door wagon, high roof, ute, cab-chassis"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "SWB 2,400 mm (94.5 in) · LWB 2,970 mm (116.9 in)"
+   },
+   {
+    "k": "LENGTH",
+    "v": "SWB 4,340 mm · LWB 4,810 mm"
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Coil-sprung live axles: 3-link front, 5-link rear"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "Two-speed, part-time 4WD"
+   },
+   {
+    "k": "ENGINES",
+    "v": "TD42 · TD42T (Japan) · TB42S/E · RD28T · RB30S"
+   },
+   {
+    "k": "GEARBOXES",
+    "v": "FS5R50A 5-speed manual · RE4R03A 4-speed auto"
+   },
+   {
+    "k": "DIFFS",
+    "v": "Rear LSD on most; H233 rear (H260 leaf cab-chassis)"
+   },
+   {
+    "k": "FUEL TANK",
+    "v": "100 L main (optional 100 L second tank on utes)"
+   }
+  ],
+  "photos": [
+   {
+    "file": "y60-budapest-bamako-sahara.jpg",
+    "alt": "A white long-wheelbase Y60 Patrol loaded with a roof rack and spotlights, throwing sand as it crosses a Saharan dune during the Budapest–Bamako rally",
+    "caption": "Y60 PATROL · SAHARA, BUDAPEST–BAMAKO",
+    "credit": "Andrewszabo · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Saharan_driving_on_the_Budapest-Bamako.jpg"
+   },
+   {
+    "file": "y60-tibet-everest-ford.jpg",
+    "alt": "A dark green Y60 Patrol wagon fording a rocky glacial creek on the trail to Mount Everest in Tibet",
+    "caption": "Y60 PATROL · CREEK FORD, TIBET",
+    "credit": "Mario Biondi · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Qomolangma.Trail.2007.jpg"
+   },
+   {
+    "file": "y60-swat-snow.jpg",
+    "alt": "A black Y60 Patrol with roof-mounted spotlights parked in deep snow below forested mountains at Kalam, Swat, Pakistan",
+    "caption": "Y60 PATROL · SNOW RALLY, KALAM",
+    "credit": "Hasan Ruvi Zaman · CC BY-SA 3.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:My_Nissan_Patrol_sitting_cozy_in_-9_degrees_centigrade_at_Kalam,_Swat.jpg"
+   },
+   {
+    "file": "y60-dakar-1998.jpg",
+    "alt": "A red Team Nissan France Dessoude Patrol GR Y60 4.2 T1 airborne on a rocky desert stage of the 1998 Paris–Granada–Dakar rally",
+    "caption": "PATROL GR Y60 · DAKAR 1998",
+    "credit": "Gianni Lora Lamia · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gianni_Lora_Lamia_Nissan_France_Team_Dessoude_Nissan_Patrol_GR_Y60_4.2_T1_Paris-Granada-Dakar_1998.jpg"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Nissan Patrol",
+    "url": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+   },
+   {
+    "name": "Wikipedia — Nissan TD engine",
+    "url": "https://en.wikipedia.org/wiki/Nissan_TD_engine"
+   },
+   {
+    "name": "Wikipedia — Ford Maverick (nameplate)",
+    "url": "https://en.wikipedia.org/wiki/Ford_Maverick"
+   },
+   {
+    "name": "4X4 Australia (Dean Mellor) — Nissan Patrol buyers guide: every generation",
+    "url": "https://www.4x4australia.com.au/reviews/nissan-patrol-history"
+   },
+   {
+    "name": "4X4 Australia (Kian Heagney) — 1988 Nissan GQ Patrol: GQ arrives in the 4x4 shed",
+    "url": "https://www.4x4australia.com.au/reviews/road-tests/1988-nissan-gq-patrol-4x4-shed"
+   },
+   {
+    "name": "CarsGuide (Graham Smith) — Used car review: Nissan Patrol GQ 1988–1997",
+    "url": "https://carsguide.com.au/car-reviews/used-car-review-nissan-patrol-gq-1988-1997-13113"
+   },
+   {
+    "name": "CarsGuide (David Morley) — TD42 engine: your guide to the Nissan turbo diesel motor",
+    "url": "https://carsguide.com.au/adventure/advice/td42-engine-your-guide-to-the-nissan-turbo-diesel-motor-81170"
+   },
+   {
+    "name": "Curbside Classic (William Stopford) — CC Capsule: 1988–94 Ford Maverick, Ford goes on Patrol",
+    "url": "https://www.curbsideclassic.com/blog/cc-capsule/cc-capsule-1988-94-ford-maverick-ford-goes-on-patrol"
+   },
+   {
+    "name": "NissanPatrol.com.au — Buying a GQ, what to look out for?",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-15992.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — What to look for when buying a GQ Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-1266.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — GQ full-service oils and capacities thread",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-3459.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — Amount of gear oil for GQ Patrol",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-35516.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — greasy swivel hub / inner axle seal thread",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-3558.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — How-to: replacing GQ front wheel bearings",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-28142.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — TD42 rocker shaft and tappet clearance",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-35615.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — GQ head cracks?",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-19056.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — GQ RD28 timing belt",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-40315.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — 33-inch tyres on 15-inch rims (GQ)",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-8162.html"
+   },
+   {
+    "name": "NissanPatrol.com.au — Mud tyre size for GQ",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-30409.html"
+   },
+   {
+    "name": "Patrol 4x4 Club SA forum — What size tyres???",
+    "url": "https://www.patrol4x4.co.za/viewtopic.php?p=33708"
+   },
+   {
+    "name": "ExplorOz — 15 vs 16 rims on GQ",
+    "url": "https://www.exploroz.com/forum/24445/15-vs-16-rims-on-gq"
+   },
+   {
+    "name": "ExplorOz — '97 Patrol Y60 2.8L turbo timing belt",
+    "url": "https://www.exploroz.com/forum/11031/97-patrol-y60-28l-turbo-timing-belt"
+   },
+   {
+    "name": "HD Automotive — Ryco Z115 oil filter for GQ TD42 (two filters required)",
+    "url": "https://hdautomotive.com.au/product/gq-td42-z115-ryco-oil-filter/"
+   },
+   {
+    "name": "HD Automotive — Genuine TD42 76-degree thermostat 21200-58G04",
+    "url": "https://hdautomotive.com.au/product/genuine-td42-76deg-thermostat/"
+   },
+   {
+    "name": "Patrolapart — ARB Air Lockers for GQ (front; rear H233; rear H260 leaf cab)",
+    "url": "https://patrolapart.com.au/product/arb-rear-diff-lock-air-locker-fits-nissan-patrol-gq-gu-with-h233-diff"
+   },
+   {
+    "name": "Patrolapart — Genuine Nissan swivel hub bearing shim (kingpin preload)",
+    "url": "https://patrolapart.com.au/product/genuine-nissan-swivel-hub-bearing-shim-05mm-nissan-patrol-gq-gu"
+   },
+   {
+    "name": "Bring a Trailer — Nissan Patrol auction results",
+    "url": "https://bringatrailer.com/nissan/patrol/"
+   },
+   {
+    "name": "NHTSA — Importing a vehicle (25-year exemption)",
+    "url": "https://www.nhtsa.gov/importing-vehicle"
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing has been done unless there are receipts. On a GQ, the jobs that matter most are the cooling system, TD42 tappets, a timing belt on RD28T and RB30 engines, gear oils (with LSD oil in the rear), and the front swivels, which run in grease and quietly fill with diff oil when the inner seals fail. Capacities below are owner-reported figures from Gregory's-quoting forum threads, so confirm them in a workshop manual for your engine.",
+   "items": [
+    {
+     "item": "Engine oil & filter(s)",
+     "spec": "TD42: ≈8.2 L (one owner's fill); grades quoted range from Gregory's 20W-40 to 15W-40 diesel oil [CONFIRM IN MANUAL]",
+     "interval": "Change now, then at short intervals for an old diesel [CONFIRM IN MANUAL]",
+     "note": "The TD42 uses two spin-on filters. HD Automotive's listing for the Ryco Z115 says two are required. TB42, RD28 and RB30 each take their own filter.",
+     "parts": [
+      {
+       "name": "Genuine Nissan oil filter, TD42 (GQ/GU/Maverick)",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-oil-filter-nissan-patrol-y60-gq-y61-gu-and-ford-maverick-td42"
+      },
+      {
+       "name": "Ryco Z115 oil filter, GQ TD42 (two required)",
+       "supplier": "HD Automotive",
+       "url": "https://hdautomotive.com.au/product/gq-td42-z115-ryco-oil-filter/"
+      },
+      {
+       "name": "Genuine Nissan oil filter, GQ TB42",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-oil-filter-nissan-y60-gq-patrol-tb42"
+      },
+      {
+       "name": "Genuine Nissan oil filter, GQ/GU RD28",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-oil-filter-nissan-patrol-y61-gu-y60-gq-rd28"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "Engine-specific element: oval for TB42 (and GU TD42 NA), cylindrical for RD28, separate EFI element for TB42E",
+     "interval": "Inspect every service; replace when dirty, sooner on dusty roads",
+     "note": "Check the airbox seals and the snorkel joints too. A dusty diesel intake is how TD42s die young.",
+     "parts": [
+      {
+       "name": "Genuine Nissan oval air filter, GQ TB42 / GU TD42 NA",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-oval-air-filter-nissan-patrol-y60-gq-tb42-y61-gu-td42-na"
+      },
+      {
+       "name": "Genuine Nissan cylindrical air filter, GQ RD28",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-cylindrical-air-filter-nissan-patrol-y60-gq-rd28"
+      },
+      {
+       "name": "Genuine Nissan air filter, GQ TB42E EFI",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-air-filter-nissan-patrol-y60-gq-tb42e-efi"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter",
+     "spec": "Diesel: engine-bay filter on the driver's side (TD42/RD28). EFI petrol: in-line filter under the bonnet",
+     "interval": "Replace now [CONFIRM INTERVAL IN MANUAL]",
+     "note": "Imported trucks may have sat for years. Drain water from the diesel filter and bleed the system afterward.",
+     "parts": [
+      {
+       "name": "Genuine Nissan fuel filter, GQ/GU TD42 / RD28 diesel",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-fuel-filter-nissan-patrol-gu-gq-td42-rd28-zd30di-diesel"
+      },
+      {
+       "name": "Genuine Nissan fuel filter, GQ TB42E / GU TB48",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-fuel-filter-nissan-patrol-y60-gq-tb42e-y61-gu-tb48"
+      }
+     ]
+    },
+    {
+     "item": "Valve clearances (TD42 tappets)",
+     "spec": "One forum member sets 0.35 mm at ambient temperature [CONFIRM INTAKE/EXHAUST IN MANUAL]",
+     "interval": "A forum member suggests about every 20,000 km",
+     "note": "TDC on cylinder 1: adjust valves 1, 2, 4, 5, 8, 9. TDC on cylinder 6: adjust 3, 6, 7, 10, 11, 12. Fit a new rocker-cover gasket.",
+     "parts": [
+      {
+       "name": "Rocker cover gasket kit, TD42",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/rocker-cover-gasket-kit-td42-nissan-patrol-y60-gq-y61-gu"
+      }
+     ]
+    },
+    {
+     "item": "Glow plugs (diesel) / spark plugs (petrol)",
+     "spec": "TD42: genuine single-pole glow plugs. RD28: its own plugs. TB42: genuine plug set",
+     "interval": "Test glow plugs now; replace spark plugs now on petrol trucks",
+     "note": "A slow cold start on a diesel is usually glow plugs or the glow-plug relay before it's anything worse.",
+     "parts": [
+      {
+       "name": "Genuine glow plug, TD42/TD42T/TD42Ti",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-glow-plug-nissan-patrol-td42-td42t-and-td42ti-gu-gq"
+      },
+      {
+       "name": "Genuine Nissan spark plug set, TB42/TB45",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-spark-plug-set-nissan-patrol-y60-gq-y61-gu-tb42-tb45"
+      }
+     ]
+    },
+    {
+     "item": "Timing belt (RD28T and RB30 only)",
+     "spec": "Belt, tensioner and idler kit; TD42 and TB42 have gear-driven cams and no belt",
+     "interval": "Now if there are no receipts; ExplorOz owners report about 100,000 km [CONFIRM IN MANUAL]",
+     "note": "Replace the crank and cam seals while you're in there, and consider a new balancer bolt.",
+     "parts": [
+      {
+       "name": "Timing belt kit, RD28",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/timing-belt-kit-nissan-patrol-y60-gq-y61-gu-rd28"
+      },
+      {
+       "name": "Timing belt kit, RB30",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/timing-belt-kit-nissan-patrol-y60-gq-rb30-engine"
+      }
+     ]
+    },
+    {
+     "item": "Coolant, thermostat & hoses",
+     "spec": "TD42 thermostat: genuine 76°C, part 21200-58G04 · coolant type [CONFIRM IN MANUAL]",
+     "interval": "Flush and refill now; hoses if they're original or soft",
+     "note": "Overheating is the GQ's signature failure, and on automatics the transmission cooler is inside the radiator. Pressure-test the system and check the fan clutch.",
+     "parts": [
+      {
+       "name": "Genuine TD42 76° thermostat 21200-58G04",
+       "supplier": "HD Automotive",
+       "url": "https://hdautomotive.com.au/product/genuine-td42-76deg-thermostat/"
+      },
+      {
+       "name": "Gates radiator hose set, GQ TD42",
+       "supplier": "HD Automotive",
+       "url": "https://hdautomotive.com.au/product/gq-td42-gates-radiator-hose-set/"
+      }
+     ]
+    },
+    {
+     "item": "Drive belts",
+     "spec": "Accessory belt set for your engine and A/C",
+     "interval": "Inspect now; replace if cracked or glazed",
+     "note": "The fan, alternator and A/C all run on these belts; carry spares on a remote trip.",
+     "parts": [
+      {
+       "name": "Gates fan belt kit, GQ TD42 with A/C",
+       "supplier": "HD Automotive",
+       "url": "https://hdautomotive.com.au/product/gates-fan-belt-kit-suitable-for-nissan-patrol-gq-td42/"
+      }
+     ]
+    },
+    {
+     "item": "Manual gearbox",
+     "spec": "75W-90 GL-4 · ≈3.9 L (Gregory's, quoted by owners)",
+     "interval": "Change now",
+     "note": "Owners describe the big gearbox behind the 4.2-litre engines as very strong; listen for whine and check the shifter boot for splits that let in water.",
+     "parts": [
+      {
+       "name": "Genuine Nissan diff/gearbox/transfer fill plug, GQ/GU",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-diff-gearbox-transfer-case-fill-plug-nissan-patrol-y60-gq-y61-gu"
+      }
+     ]
+    },
+    {
+     "item": "Automatic transmission (RE4R03A)",
+     "spec": "ATF per manual [CONFIRM IN MANUAL]",
+     "interval": "Drain-and-fill now if there's no record",
+     "note": "Rebuilds reportedly cost around A$3,000. Fix any cooling problems first, because the trans cooler is inside the radiator, and check the cooler lines for leaks.",
+     "parts": []
+    },
+    {
+     "item": "Transfer case",
+     "spec": "75W-90 GL-4 · ≈2.0–2.2 L (owner figures)",
+     "interval": "Change now",
+     "note": "The front diff, gearbox and transfer case share one breather in the passenger guard. Make sure it isn't blocked.",
+     "parts": [
+      {
+       "name": "4-point diff/transmission breather kit, GQ/GU",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/diff-breathers-kit-4-point-suit-nissan-patrol-gq-gu-toyota-4x4-4wd"
+      }
+     ]
+    },
+    {
+     "item": "Front differential",
+     "spec": "80W-90 GL-5 (Gregory's) · ≈5–5.4 L (owner figures)",
+     "interval": "Change now, and after deep water crossings",
+     "note": "If the front diff has been losing oil, check the swivels: a failed inner axle seal pushes diff oil into the grease-filled swivel hub.",
+     "parts": []
+    },
+    {
+     "item": "Rear differential (LSD)",
+     "spec": "LSD-rated gear oil; owners use 85W-140 LS · ≈2.5–3.0 L",
+     "interval": "Change now",
+     "note": "Most GQs have a rear LSD. Use limited-slip oil or add a friction modifier if it chatters in corners. The stock rear breather vents near the fuel tank, so extend it.",
+     "parts": [
+      {
+       "name": "Diff centre gasket, H233 (GQ/GU)",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/gasket-diff-centre-h233-for-nissan-patrol-gq-gu"
+      }
+     ]
+    },
+    {
+     "item": "Swivel hubs & front wheel bearings",
+     "spec": "Grease-lubricated CV and swivel bearings; kingpin preload set with shims",
+     "interval": "Inspect now; repack and reseal if there's any oil or play",
+     "note": "Repack the wheel bearings with high-temperature grease. Greasy gunk on the swivel balls usually means a leaking inner axle seal, not a swivel seal.",
+     "parts": [
+      {
+       "name": "Swivel hub wiper seal kit, GQ Y60",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/swivel-hub-wiper-seal-kit-nissan-patrol-gq-y60"
+      },
+      {
+       "name": "Ultima front wheel bearing kit, GQ",
+       "supplier": "HD Automotive",
+       "url": "https://hdautomotive.com.au/product/ultima-front-wheel-bearing-kit-nissan-gq-patrol/"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid, pads & hoses",
+     "spec": "Fluid type per the cap/manual [CONFIRM IN MANUAL]; twin-piston front calipers on EFI TB42E trucks, single-piston on non-EFI ones (per Patrolapart pad listings)",
+     "interval": "Flush now",
+     "note": "If the truck has been lifted, check that the brake lines were lengthened and the rear proportioning valve was adjusted.",
+     "parts": [
+      {
+       "name": "Genuine Nissan rear brake pads, GQ",
+       "supplier": "Patrolapart",
+       "url": "https://patrolapart.com.au/product/genuine-nissan-rear-brake-pads-patrol-gq-y60"
+      },
+      {
+       "name": "Bendix front pads, GQ twin-piston (DB1257)",
+       "supplier": "HD Automotive",
+       "url": "https://hdautomotive.com.au/product/bendix-4wd-front-brake-pads-nissan-gq-patrol-twin-piston-db1257/"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

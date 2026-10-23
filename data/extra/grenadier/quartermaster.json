@@ -1,0 +1,331 @@
+{
+ "fitment": {
+  "stock": [
+   "LT265/70R17",
+   "255/70R18"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x130",
+   "offset": "+55 mm (stock 17x7.5)",
+   "center_bore": "84.1 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/75R17 (≈34 in)",
+    "note": "Same axles and front suspension as the wagon, where INEOS Forum owners run 285/75R17 on stock suspension and 285/70R17 without rubbing. The spare lives in the bed, so there's no rear-door carrier to fight."
+   },
+   {
+    "lift": "2 in",
+    "size": "315/70R17 or narrow 35s",
+    "note": "DVA Mechanics says 35s need at least 2 in of lift; a Quartermaster owner recommends narrow 35s (255/85R17, 35x10.5) on near-factory-offset wheels. Ineos Australia's Kaiju build ran 315/70R17 with JMACX remote-reservoir shocks."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": []
+ },
+ "timeline": [
+  {
+   "year": "2023",
+   "change": "Quartermaster double-cab introduced in July; production starts in November",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Cab-chassis version for trays added in Australia and New Zealand",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Ineos Australia shows the one-off Kaiju build in December",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "US sales begin in spring, B58 petrol only",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "April tariffs raise duty to 50%; US price up 11% to $94,500 including shipping",
+   "flag": "note"
+  },
+  {
+   "year": "MY2026",
+   "change": "Variable-ratio steering, about 5% tighter turning circle, better HVAC; US base trim dropped",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Quartermasters come as Fieldmaster, Trialmaster, Black and Trialmaster X in the US, and spec matters more than year for off-road use.",
+  "items": [
+   {
+    "head": "Lockers",
+    "body": "The centre diff lock is standard. Front and rear lockers come on the Trialmaster or with the Rough Pack; the switches are in the overhead panel and the centre lock is on the transfer lever."
+   },
+   {
+    "head": "Steering generation",
+    "body": "MY2026 trucks have the variable-ratio box and roughly 5% tighter turning circle; earlier trucks have the slow recirculating-ball setup unless an aftermarket pump kit has been fitted."
+   },
+   {
+    "head": "Body type",
+    "body": "US trucks are all double-cab wellside pickups. The cab-chassis for trays is an Australia/New Zealand model."
+   },
+   {
+    "head": "Bed equipment",
+    "body": "Some trucks were built without bed rails and some dealers fit L-track; look for neat, sealed holes. Check where the spare lives, since it stands in the bed from the factory."
+   },
+   {
+    "head": "Engine",
+    "body": "US trucks are BMW B58 3.0 petrol; the B57 diesel was sold in Europe, Australia and New Zealand."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "7,000 kg GCM in Australian spec"
+  },
+  {
+   "k": "Payload",
+   "v": "About 1,675 lb",
+   "note": "US launch figure; 907 kg petrol / 832 kg diesel in Australia"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "90 L (23.8 gal)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "264 mm (10.4 in)"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "36.2° / 22.6° / 26.2°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "800 mm (31.5 in)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "About 14 mpg combined",
+   "note": "Edmunds, US petrol; 12.6 L/100 km petrol on the Australian test cycle"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,643 kg petrol / 2,718 kg diesel",
+   "note": "Australian figures"
+  },
+  {
+   "k": "Turning circle",
+   "v": "About 14.5 m (48 ft)",
+   "note": "pre-2026 steering"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Too new and too rare for a meaningful auction record; US prices are set by the chicken tax and 2025 tariffs, not by depreciation yet.",
+  "ranges": [
+   {
+    "cond": "New 2026 Fieldmaster or Trialmaster (MSRP)",
+    "range": "$86,395"
+   },
+   {
+    "cond": "New 2026 Black Edition (MSRP)",
+    "range": "$90,390"
+   },
+   {
+    "cond": "New 2026 Trialmaster X Edition (MSRP)",
+    "range": "$93,390"
+   }
+  ],
+  "note": "MSRPs as reported in October 2026, before destination. The only Bring a Trailer Quartermaster so far, a 2025 Trialmaster Edition, was bid to $81,000 in August 2025 without selling."
+ },
+ "docs": [
+  {
+   "name": "INEOS Grenadier US — documentation (Owner's Handbook MY24–MY26, Quick Start Guide)",
+   "url": "https://ineosgrenadier.com/en/us/support/documentation",
+   "note": "Official 'digital glovebox' with owner's handbooks by model year."
+  },
+  {
+   "name": "INEOS Grenadier US — Servicing your Grenadier",
+   "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier",
+   "note": "Official service schedule information."
+  }
+ ],
+ "production": {
+  "intro": "Built alongside the wagon at Hambach since late 2023, on a 305 mm longer wheelbase.",
+  "items": [
+   {
+    "k": "Production start",
+    "v": "November 2023, Hambach, France"
+   },
+   {
+    "k": "Wheelbase",
+    "v": "3,227 mm (127.0 in)"
+   },
+   {
+    "k": "Bed",
+    "v": "1,564 × 1,619 mm, takes a Euro pallet"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Trialmaster Edition",
+    "years": "2023–",
+    "note": "Lockers, raised air intake, BFG KO2s"
+   },
+   {
+    "name": "Fieldmaster Edition",
+    "years": "2023–",
+    "note": "Heated leather seats and comfort kit"
+   },
+   {
+    "name": "Black Edition",
+    "years": "MY2026",
+    "note": "$90,390 in the US"
+   },
+   {
+    "name": "Trialmaster X Edition",
+    "years": "MY2026",
+    "note": "US top trim, $93,390"
+   },
+   {
+    "name": "Kaiju (one-off)",
+    "years": "2024",
+    "note": "Ineos Australia showcase with Norweld tray and canopy, 168 L Brown Davis tank and REDARC power system"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Grenadier Oktoberfest and INEOS owner gatherings",
+   "url": "https://ineoseventsusa.com/",
+   "note": "INEOS USA's owner events: about 150 trucks at Moab in October 2025, with the next Oktoberfest moving to Tennessee and a spring 2026 Moab gathering."
+  },
+  {
+   "kind": "club",
+   "name": "The INEOS Forum",
+   "url": "https://www.theineosforum.com/",
+   "note": "The main owners' forum for Grenadier and Quartermaster."
+  },
+  {
+   "kind": "club",
+   "name": "Expedition Portal — Ineos Grenadier thread",
+   "url": "https://forum.expeditionportal.com/threads/ineos-grenadier.214546/",
+   "note": "Long-running overland-community discussion of the Grenadier."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Ineos Grenadier",
+   "url": "https://en.wikipedia.org/wiki/Ineos_Grenadier"
+  },
+  {
+   "name": "ThreePiece.us — 2025 INEOS Grenadier wheel specs",
+   "url": "https://vehicles.threepiece.us/vehicles/ineos/grenadier/2025/"
+  },
+  {
+   "name": "ThreePiece.us — 2025 INEOS Grenadier Quartermaster wheel specs",
+   "url": "https://vehicles.threepiece.us/vehicles/ineos/grenadier%20quartermaster/2025/"
+  },
+  {
+   "name": "Agile Offroad — Overlander HD INEOS Grenadier wheel (6x130)",
+   "url": "https://agileoffroad.com/products/overlander-hd-ineos-grenadier-wheel-by-agile-offroad"
+  },
+  {
+   "name": "DVA Mechanics — Grenadier tire selection engineering guide",
+   "url": "https://dvamechanics.com/blogs/grenadier/grenadier-tire-selection-engineering-guide"
+  },
+  {
+   "name": "The INEOS Forum — Largest functional tire without mods",
+   "url": "https://www.theineosforum.com/threads/largest-functional-tire-without-mods.12371337/page-30"
+  },
+  {
+   "name": "Big O Tires — 2024 INEOS Grenadier Trialmaster OE tire sizes",
+   "url": "https://www.bigotires.com/tires/by-vehicle/ineos/grenadier/2024/trialmaster"
+  },
+  {
+   "name": "INEOS Grenadier US — Documentation",
+   "url": "https://ineosgrenadier.com/en/us/support/documentation"
+  },
+  {
+   "name": "INEOS Grenadier US — Servicing your Grenadier",
+   "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier"
+  },
+  {
+   "name": "Automotive Addicts — 2026 Ineos Grenadier invoice price, dealer cost (MSRP by trim)",
+   "url": "https://www.automotiveaddicts.com/?p=124375"
+  },
+  {
+   "name": "Expedition Portal — Ineos Grenadier Oktoberfest: the largest gathering yet",
+   "url": "https://expeditionportal.com/ineos-grenadier-oktoberfest-the-largest-gathering-yet/"
+  },
+  {
+   "name": "INEOS Events USA",
+   "url": "https://ineoseventsusa.com/"
+  },
+  {
+   "name": "Expedition Portal forum — Ineos Grenadier thread",
+   "url": "https://forum.expeditionportal.com/threads/ineos-grenadier.214546/"
+  },
+  {
+   "name": "BMWBlog — Ineos Grenadier Quartermaster enters production (Nov 2023)",
+   "url": "https://www.bmwblog.com/2023/11/27/ineos-grenadier-quartermaster-truck-enters-production-bmw-engines/"
+  },
+  {
+   "name": "4X4 Australia — Ineos Grenadier Quartermaster makes official debut",
+   "url": "https://www.4x4australia.com.au/news/ineos-grenadier-quartermaster-makes-official-debut"
+  },
+  {
+   "name": "4X4 Australia — Ineos Grenadier Quartermaster Kaiju revealed",
+   "url": "https://www.4x4australia.com.au/news/ineos-grenadier-quartermaster-kaiju-revealed"
+  },
+  {
+   "name": "Caravan World — INEOS Grenadier Quartermaster vs 79 Series LandCruiser",
+   "url": "https://caravanworld.com.au/blogs/tow-vehicle-reviews/review-ineos-grenadier-quartermaster-does-it-beat-the-79-series-landcruiser"
+  },
+  {
+   "name": "Automotive News Europe — Trump tariffs and the Ineos Quartermaster",
+   "url": "https://europe.autonews.com/ineos/an-trump-tariffs-ineos-quartermaster-0505"
+  },
+  {
+   "name": "Motor Authority — Ineos Grenadier Quartermaster price",
+   "url": "https://www.motorauthority.com/news/1142852_ineos-grenadier-quartermaster-price"
+  },
+  {
+   "name": "Edmunds — Ineos Grenadier Quartermaster",
+   "url": "https://edmunds.com/ineos/grenadier-quartermaster"
+  },
+  {
+   "name": "Chasing Cars — Ineos Grenadier and Quartermaster 2026 steering upgrades",
+   "url": "https://www.chasingcars.com.au/news/car-industry/ineos-grenadier-and-quartermaster-2026-steering-upgrades-and-new-trim-for-ford-ranger-super-duty-and-toyota-landcruiser-70-series-rival/"
+  },
+  {
+   "name": "Professional Pickup — Ineos updates Grenadier Commercial and Quartermaster for 2026",
+   "url": "https://professionalpickup.com/ineos-updates-grenadier-commercial-and-quartermaster-for-2026/"
+  },
+  {
+   "name": "The INEOS Forum — I lust for a QM and I have questions",
+   "url": "https://www.theineosforum.com/threads/i-lust-for-a-qm-and-i-have-questions-spare-tire-relocate-fuel-cans-etc.12418736/"
+  },
+  {
+   "name": "The INEOS Forum — Largest functional tire without mods (page 18)",
+   "url": "https://www.theineosforum.com/threads/largest-functional-tire-without-mods.12371337/page-18"
+  },
+  {
+   "name": "NHTSA — Recalls API, INEOS Grenadier 2025–2026 (queried Oct 2026: no campaigns)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=INEOS&model=GRENADIER&modelYear=2025"
+  },
+  {
+   "name": "Bring a Trailer — INEOS Grenadier results",
+   "url": "https://bringatrailer.com/ineos/grenadier/"
+  }
+ ]
+}
