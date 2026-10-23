@@ -320,6 +320,53 @@
      "url": "https://www.rustbuster.com/products/rust-buster-rust-to-prime-converter-spray-paint-12oz-can"
     }
    ]
+  },
+  {
+   "title": "Check, and live with or fix, cracked inner fender walls",
+   "diff": "4 / 5",
+   "time": "≈ 15 minutes to inspect · body-shop work to repair",
+   "cost": "Free to inspect. A proper repair is body-shop labor, and Toyota's own fix meant pulling the dash and front end.",
+   "symptoms": "A bulge, then a crack or tear, in the engine-bay inner fender aprons at the crumple zones, usually on both sides. 2007 and early-2008 trucks are the usual victims. Owners have filed dozens of NHTSA complaints. In the worst ones, the fenders dropped and bound on the doors or changed the door gaps.",
+   "fix": "Open the hood and look along both aprons behind the headlights. If you see a bulge, scrape back the undercoating: one IH8MUD member's 'small bulge' turned out to be a crack once a Toyota factory rep cleaned it off. Plenty of cracks stop growing. One 2007 owner cracked his at 58,000 miles and traded the truck at 107,000 with little change, and another's grew slowly after a hard landing in a ditch. Toyota's warranty fix used redesigned aprons with support brackets welded inside, which meant removing the dash and front end. An IH8MUD member warned that welding sparks under the dash started a fire that destroyed one FJ, so any welder needs to strip or shield the dash first. For a truck with open cracks, have a body shop weld and reinforce the apron, then seal and paint it. With a heavy steel bumper and winch, avoid dropping the nose hard.",
+   "tools": "Flashlight · plastic scraper · camera and tape measure to log crack length over time · for the repair: welder, weld-through primer, seam sealer, paint",
+   "parts": [
+    {
+     "name": "Weld-through primer",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=weld+through+primer"
+    },
+    {
+     "name": "Automotive seam sealer",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=automotive+seam+sealer"
+    },
+    {
+     "name": "Rust converter primer (RB9917)",
+     "supplier": "Rust Buster",
+     "url": "https://www.rustbuster.com/products/rust-buster-rust-to-prime-converter-spray-paint-12oz-can"
+    }
+   ]
+  },
+  {
+   "title": "Repair a chip before the windshield cracks",
+   "diff": "1 / 5",
+   "time": "≈ 30 minutes for a chip · replacement is a glass-shop job",
+   "cost": "One IH8MUD member paid $50 for a chip repair. Early replacement quotes on IH8MUD ran about $1,600–1,800 with dealer glass.",
+   "symptoms": "Chips from road debris that grow into long cracks, often from the bottom center of the glass. More than 60 NHTSA complaints across the 2007–2014 model years describe cracked FJ windshields, some after a pothole or cold weather and some from owners on their third or fourth windshield.",
+   "fix": "The nearly upright glass takes the full force of every rock, so fix chips while they're small. A resin repair kept one IH8MUD member's small crack from spreading. If it has to be replaced, have the shop order a new top molding too. An IH8MUD member said it often gets ruined coming off; his dealer molding was about $278. Another member listed PPG FW02652 as the replacement glass. After a replacement, check for leaks at the top molding and A-pillars in the first rain or car wash.",
+   "tools": "Windshield chip repair kit · glass cleaner · razor blade · UV light or sunshine to cure the resin",
+   "parts": [
+    {
+     "name": "Windshield chip repair kit",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=windshield+chip+repair+kit"
+    },
+    {
+     "name": "FJ Cruiser windshield top molding",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=Toyota+FJ+Cruiser+windshield+molding"
+    }
+   ]
   }
  ],
  "faq": [
@@ -781,6 +828,18 @@
   {
    "name": "Bring a Trailer — Toyota FJ Cruiser results",
    "url": "https://bringatrailer.com/toyota/fj-cruiser/"
+  },
+  {
+   "name": "IH8MUD — Body rips update (FJ Cruiser inner fender aprons)",
+   "url": "https://forum.ih8mud.com/threads/body-rips-update.210161/"
+  },
+  {
+   "name": "IH8MUD — Windshield dilemma (FJ Cruiser)",
+   "url": "https://forum.ih8mud.com/threads/windshield-dilemma.147625/"
+  },
+  {
+   "name": "NHTSA — Owner complaints, 2007 Toyota FJ Cruiser (api.nhtsa.gov)",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=toyota&model=fj%20cruiser&modelYear=2007"
   }
  ],
  "baseline_service": {

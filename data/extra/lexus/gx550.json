@@ -50,6 +50,14 @@
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V179",
     "summary": "The label may show the wrong added-weight values. Dealers replace the label."
    }
+  ],
+  "tsbs": [
+   {
+    "title": "Front brake squeal, forward or reverse",
+    "ref": "L-SB-0036-24",
+    "summary": "Some 2024 GX 550s squeal from the front brakes. A LandCruiserForum member says the dealer fix closely mirrors a Tundra fix; LC250 dealers have replaced pads, rotors and shims under warranty.",
+    "url": "https://www.clublexus.com/forums/tsb_recall/tsbs/lexus/gx/2024"
+   }
   ]
  },
  "timeline": [
@@ -137,6 +145,11 @@
   "note": "MSRPs include the $1,550 destination charge. On Bring a Trailer, two 2024 GX 550 Overtrails sold for $70,524 and $72,000 in mid-2025."
  },
  "docs": [
+  {
+   "name": "GX 550 Owner's Manual (PDF)",
+   "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM6A563U/pdf/OM6A563U.pdf",
+   "note": "Lexus-hosted manual with fluid capacities, battery spec, TPMS procedures and the spare-tire procedure"
+  },
   {
    "name": "2024 GX 550 Warranty and Services Guide (PDF)",
    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-24GX550/pdf/L-MMS-24GX550.pdf",
@@ -281,6 +294,18 @@
   {
    "name": "Toyota Land Cruiser Association",
    "url": "https://tlca.org/"
+  },
+  {
+   "name": "Lexus — GX 550 Owner's Manual (OM6A563U)",
+   "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM6A563U/pdf/OM6A563U.pdf"
+  },
+  {
+   "name": "ClubLexus — TSB list for the 2024 Lexus GX",
+   "url": "https://www.clublexus.com/forums/tsb_recall/tsbs/lexus/gx/2024"
+  },
+  {
+   "name": "LandCruiserForum — Brakes squeal (L-SB-0036-24 discussion)",
+   "url": "https://www.landcruiserforum.com/threads/brakes-squeal.1371/page-13"
   }
  ]
 }

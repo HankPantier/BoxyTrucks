@@ -172,6 +172,156 @@
      "url": "https://sleeoffroad.com/products/dbrtoy2/"
     }
    ]
+  },
+  {
+   "title": "Oil and filter change on the V35A-FTS",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour",
+   "cost": "Oil, a filter and a drain-plug gasket",
+   "symptoms": "The oil maintenance reminder is on, or it's been 10,000 miles or 12 months since the last change. Lexus's schedule cuts that to 5,000 miles or 6 months if you mostly drive dirt or dusty roads, make short trips below freezing, or idle a lot.",
+   "fix": "Lexus's GX 550 owner's manual calls for ILSAC GF-6A SAE 0W-20. You can use 5W-20 in a pinch, but the manual says to go back to 0W-20 at the next change. It lists 7.7 qt with the filter and 7.4 qt without. The filter and drain plug are underneath. On the LC250, which shares the GA-F body but not the engine, owners on IH8MUD's oil-change thread say only the front skid plate has to come off. Several found the factory filter fitted very tightly, so have a cap-style wrench ready. AMSOIL's GX 550 lookup gives 30 ft-lb for the drain plug with a new gasket. Refill, warm the engine, shut it off, wait about five minutes and read the dipstick, as the manual describes. Then reset the oil maintenance reminder, which the manual lists among the items to initialize.",
+   "tools": "Cap-style filter wrench · drain pan · torque wrench · tools for the front skid plate · a funnel that reaches into the filler neck (an LC250 owner found a standard funnel won't stay upright) · new drain-plug gasket. An LX 600 owner on the same thread, whose truck has the same V35A, uses Toyota filter 90915-10010. Confirm the filter for your VIN with a Lexus parts counter.",
+   "parts": [
+    {
+     "name": "Oil filter, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,engine,oil+filter,5340"
+    },
+    {
+     "name": "Engine oil, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,engine,oil,12138"
+    },
+    {
+     "name": "Oil drain plug gasket, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,engine,oil+drain+plug+gasket,5428"
+    },
+    {
+     "name": "Genuine oil filter (search by VIN)",
+     "supplier": "Lexus Genuine Parts",
+     "url": "https://parts.lexus.com/search?search_str=oil+filter"
+    }
+   ]
+  },
+  {
+   "title": "Cabin filter, engine air filters and wiper blades",
+   "diff": "1 / 5",
+   "time": "≈ 30 minutes",
+   "cost": "Filters and blades",
+   "symptoms": "Weak airflow from the vents, a musty smell, a dusty filter after trail miles, or wipers that streak. The 2024 Lexus schedule replaces both the engine air filter and the cabin air filter every 30,000 miles and inspects the wiper blades at every service.",
+   "fix": "Cabin filter, from the owner's manual: turn the engine switch off, open the glove box and lift out its removable tray, then remove the panel behind it. Unlock the filter cover, ease it out of its claws without forcing them, and pull out the filter case. Fit the new filter so the 'UP' marks on the filter and the case both point up. Lexus warns against running the A/C with no filter in place. Engine air: the manual doesn't give a procedure, but it does warn that driving with the air cleaner filter removed can cause excessive engine wear. K&N's fitment listing for the 3.4 V6 says two filters are required, so plan on buying a pair. On a dusty trip, check them more often than the 30,000-mile interval.",
+   "tools": "Hands, plus a trim tool for the glove-box panel · shop vac for the airboxes",
+   "parts": [
+    {
+     "name": "Cabin air filter, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,heat+%26+air+conditioning,cabin+air+filter,6832"
+    },
+    {
+     "name": "Engine air filter, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,fuel+%26+air,air+filter,6192"
+    },
+    {
+     "name": "K&N engine air filter, 2024 GX 550 3.4 V6 (2 required)",
+     "supplier": "K&N",
+     "url": "https://www.knfilters.com/air-filters/lexus/gx550/3.4l-v6-gas/2024"
+    },
+    {
+     "name": "Wiper blades, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,wiper+%26+washer,wiper+blade,8852"
+    }
+   ]
+  },
+  {
+   "title": "Front brake squeal and pad checks",
+   "diff": "2 / 5",
+   "time": "≈ 15 minutes to inspect · 1–2 hours for front pads",
+   "cost": "Covered under warranty if the bulletin applies; otherwise pads, hardware and fluid",
+   "symptoms": "A squeal from the front brakes when driving forward or in reverse. Lexus bulletin L-SB-0036-24 covers it on some 2024 GX 550s. Owners of the twin LC250 on LandCruiserForum mostly hear it first thing in the morning, or when it's cold and humid.",
+   "fix": "If the truck is under warranty, start at the dealer and ask about L-SB-0036-24. A LandCruiserForum member said the bulletin repair is almost a carbon copy of a Tundra fix. On the LC250, where a Toyota representative said there was no Toyota-side bulletin, one dealer replaced the front pads, rotors and pad shims under warranty. Some owners found the squeal faded after a series of moderate-to-hard stops, but for others it came back. For your own checks, the Lexus schedule inspects pads and discs every 5,000 miles. The owner's manual gives a pad wear limit of 0.04 in (1 mm) and accepts DOT 3 or DOT 4 brake fluid. It also says the reservoir level drops slightly as the pads wear. Torque the wheel nuts to 97 ft-lb and recheck them after 1,000 miles.",
+   "tools": "Torque wrench to 100 ft-lb · caliper piston tool or large C-clamp · brake cleaner · pad-slide grease · fluid baster for the reservoir",
+   "parts": [
+    {
+     "name": "Brake pads, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,brake+%26+wheel+hub,brake+pad,1684"
+    },
+    {
+     "name": "Brake rotors, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,brake+%26+wheel+hub,rotor,1896"
+    },
+    {
+     "name": "Disc brake hardware kit, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,brake+%26+wheel+hub,disc+brake+hardware+kit,1736"
+    },
+    {
+     "name": "Brake fluid, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,brake+%26+wheel+hub,brake+fluid,11389"
+    }
+   ]
+  },
+  {
+   "title": "Tire rotation, wheel swaps and TPMS registration",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour, plus a 10–30 minute drive",
+   "cost": "Free if you do it; new sensors for a second wheel set",
+   "symptoms": "It's 5,000 miles since the last rotation. Or the tire positions are wrong on the display after a rotation, or you're fitting a second set of wheels. If the sensor IDs aren't registered, the manual says the TPMS light blinks for a minute after about 20 minutes of driving and then stays on.",
+   "fix": "The Lexus schedule rotates the tires every 5,000 miles. Torque the wheel nuts to 97 ft-lb and recheck them after 1,000 miles. After a rotation, register the wheel positions. Park for 15 minutes or more with the engine off, then start it and choose Vehicle customize > Tire pressure > Tire rotation > Continue on the center display. Drive at about 25 mph or faster, with occasional left and right turns, for 10–30 minutes. Reversing clears the data. New sensors use 'New tire registration' on the same menu, and the GX stores two sets of IDs ('Set 1' and 'Set 2'), so a winter or trail wheel set can be swapped in about two minutes once registered. If you change tire size or run different pressures, set the tires cold and then use 'Set current air pressure.' Lexus warns the system may not work properly on non-genuine wheels. Every wheel needs a sensor. The spare hangs under the rear on a chain, and the holding bracket is tightened to 34.7 ft-lb.",
+   "tools": "Floor jack and stands · torque wrench · tire gauge · a quiet road for the registration drive",
+   "parts": [
+    {
+     "name": "Tire pressure sensor (search by VIN)",
+     "supplier": "Lexus Genuine Parts",
+     "url": "https://parts.lexus.com/search?search_str=tire+pressure+sensor"
+    },
+    {
+     "name": "Digital tire pressure gauge",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=digital+tire+pressure+gauge"
+    }
+   ]
+  },
+  {
+   "title": "12V battery: test, jump-start or replace",
+   "diff": "2 / 5",
+   "time": "≈ 45 minutes to replace",
+   "cost": "A battery, or nothing for a test",
+   "symptoms": "Slow cranking or a no-start, the smart access system not unlocking the doors, or a red or clear eye in the battery indicator (on trucks that have one). Blue means good, clear means it needs charging, and red means replace.",
+   "fix": "The battery sits under the engine compartment cover: push the tab in, pull the lock release, lift the cover, then pull it forward. To jump-start, open the positive terminal cover, remove the engine cover, and connect to the positive terminal and the metal ground point the manual shows (not the negative terminal). Run the donor vehicle for about five minutes before you try to start. To replace, turn the engine switch off, disconnect the negative terminal first, and fit a battery with the same LN4 case size, at least 80 Ah (20-hour rate) and at least 689 CCA. The manual warns that a battery of a different size can't be secured properly, and an unsuitable one may not restart the engine. Afterwards, re-initialize the power back door, and the moonroof and power running boards if fitted, plus the power windows if they act up. The engine may not start on the first try after reconnection. If you're planning a dual-battery setup, a GX 550 owner on IH8MUD says there's practically no room under the hood with the twin turbos, intakes and intercooler, so he put a lithium battery and a DC-DC charger behind the second row.",
+   "tools": "Socket set · battery tester or multimeter (12.3 V or higher with the headlights test in the manual) · jumper cables · terminal brush. The smart key uses a CR2032, which the schedule replaces at 30,000 miles. Lexus recommends a dealer do it.",
+   "parts": [
+    {
+     "name": "Battery, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,electrical,battery,2476"
+    },
+    {
+     "name": "Battery terminal, 2024 GX 550",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,electrical,battery+terminal,154"
+    },
+    {
+     "name": "CR2032 lithium coin cell (smart key)",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=CR2032+battery"
+    }
+   ]
+  },
+  {
+   "title": "Clear the camera, cluster and label recalls",
+   "diff": "1 / 5",
+   "time": "≈ 10 minutes to check. Dealer or over-the-air update.",
+   "cost": "Free under recall",
+   "symptoms": "The rearview camera freezes or goes blank in reverse on trucks with Panoramic View Monitor (25V-744, 2024–2025). The instrument cluster may not show some warnings or indicators (26V-341, 2024). The load-carrying-capacity modification label may show the wrong values (26V-179, 2024–2025).",
+   "fix": "Run the VIN at nhtsa.gov/recalls or lexus.com/recall. NHTSA's records give the remedies. For 25V-744, dealers update the parking-assist software (Lexus 25LB06). For 26V-341, the combination-meter software is updated over the air (Lexus 26LA06/26LB06). For 26V-179, dealers replace the label (Lexus 26LA04/26LB04). Note that NHTSA's database lists the truck as model 'GX', so a search for 'GX 550' can come back empty. The Lexus schedule also checks for available over-the-air software updates at every service.",
+   "tools": "VIN · Lexus dealer · cellular or Wi-Fi connection for the OTA update",
+   "parts": []
   }
  ],
  "faq": [
@@ -224,6 +374,11 @@
    "q": "V6 or the old V8: which is stronger?",
    "a": "On paper, the V6. It makes 349 hp and 479 lb-ft, compared with 301 hp and 329 lb-ft from the GX 460's 4.6 V8. The V8's advantage is its long track record, while the V35A is still early in its story and has had recalls.",
    "src": "LEXUS · WIKIPEDIA"
+  },
+  {
+   "q": "What oil does it take, and how much?",
+   "a": "Lexus's owner's manual calls for ILSAC GF-6A 0W-20 and lists 7.7 qt with a new filter (7.4 qt without). 5W-20 is allowed only as a stopgap until the next change. The standard interval is 10,000 miles or 12 months, or 6 months / 5,000 miles if you mostly drive dirt or dusty roads, make short trips below freezing, or idle a lot.",
+   "src": "LEXUS OWNER'S MANUAL"
   }
  ],
  "mods": [
@@ -495,16 +650,60 @@
   {
    "name": "FuelEconomy.gov — 2025 Lexus GX 550",
    "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48964"
+  },
+  {
+   "name": "Lexus — GX 550 Owner's Manual (OM6A563U), specifications, do-it-yourself maintenance and flat-tire procedures",
+   "url": "https://assets.sipb.toyota.com/publications/en/om-s/OM6A563U/pdf/OM6A563U.pdf"
+  },
+  {
+   "name": "Lexus — 2025 GX 550 Warranty and Services Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-25GX550/pdf/L-MMS-25GX550.pdf"
+  },
+  {
+   "name": "Lexus — 2026 GX 550 Warranty and Services Guide",
+   "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-26GX550/pdf/L-MMS-26GX550.pdf"
+  },
+  {
+   "name": "AMSOIL — 2024 Lexus GX550 3.4L V35A-FTS fluid lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2024/lexus/gx550/3-4l-6-cyl-engine-code-v35a-fts-8-turbo/"
+  },
+  {
+   "name": "NHTSA — Recalls by vehicle, 2024 Lexus GX (api.nhtsa.gov)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LEXUS&model=GX&modelYear=2024"
+  },
+  {
+   "name": "NHTSA — Recalls by vehicle, 2025 Lexus GX (api.nhtsa.gov)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LEXUS&model=GX&modelYear=2025"
+  },
+  {
+   "name": "ClubLexus — TSB list for the 2024 Lexus GX (incl. L-SB-0036-24)",
+   "url": "https://www.clublexus.com/forums/tsb_recall/tsbs/lexus/gx/2024"
+  },
+  {
+   "name": "LandCruiserForum — Brakes squeal (L-SB-0036-24 discussion)",
+   "url": "https://www.landcruiserforum.com/threads/brakes-squeal.1371/page-13"
+  },
+  {
+   "name": "IH8MUD — Oil change thread (GX550/LC250 forum)",
+   "url": "https://forum.ih8mud.com/threads/oil-change-thread.1341752/"
+  },
+  {
+   "name": "IH8MUD — Dual batteries? (GX550/LC250 forum)",
+   "url": "https://forum.ih8mud.com/threads/dual-batteries.1383123/"
+  },
+  {
+   "name": "K&N — 2024 Lexus GX550 3.4L V6 air filter fitment",
+   "url": "https://www.knfilters.com/air-filters/lexus/gx550/3.4l-v6-gas/2024"
   }
  ],
  "baseline_service": {
-  "intro": "The GX 550 is new, so a baseline mostly confirms the engine recall status and the service history, then starts the off-road fluid intervals. The 2024 Lexus schedule gives the intervals below. This truck has the same V35A-FTS twin-turbo V6 as the LX 600, but confirm GX-specific capacities in your owner's manual.",
+  "intro": "The GX 550 is new, so a baseline mostly confirms the engine recall status and the service history, then starts the off-road fluid intervals. Intervals below come from the 2024 Lexus schedule; fluid types and capacities come from the current GX 550 owner's manual (OM6A563U). The manual calls its capacities reference quantities, so fill to the level marks.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "SAE 0W-20 is the LX 600 manual's spec for the same V35A-FTS · capacity [CONFIRM IN MANUAL]",
+    "spec": "ILSAC GF-6A SAE 0W-20 (5W-20 only as a stopgap) · 7.7 qt (7.3 L) with filter, 7.4 qt without · drain plug 30 ft-lb (AMSOIL)",
     "interval": "At purchase, then every 10,000 mi / 12 months. Every 5,000 mi / 6 months for off-road, towing or dusty use.",
-    "note": "",
+    "note": "The filter and drain plug are underneath, behind the front skid plate. Reset the oil maintenance reminder afterwards.",
     "parts": [
      {
       "name": "Oil filter, 2024 GX 550",
@@ -522,7 +721,7 @@
     "item": "Air filter",
     "spec": "V35A-FTS element",
     "interval": "Every 30,000 mi. Inspect more often off-road.",
-    "note": "",
+    "note": "K&N's fitment listing says the 3.4 V6 takes two filters.",
     "parts": [
      {
       "name": "Air filter, 2024 GX 550",
@@ -546,7 +745,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "Iridium plugs as originally fitted [CONFIRM IN MANUAL]",
+    "spec": "DENSO EC22HPR-D7 iridium · gap 0.028 in (0.7 mm); don't adjust the gap",
     "interval": "Every 40,000 mi (40k, 80k and 120k in the 2024 schedule)",
     "note": "",
     "parts": [
@@ -559,9 +758,9 @@
    },
    {
     "item": "Engine & intercooler coolant",
-    "spec": "Toyota Super Long Life or equivalent HOAT coolant",
+    "spec": "Toyota Super Long Life or equivalent non-silicate, non-amine, non-nitrite, non-borate HOAT coolant · engine 13.8 qt (16.1 qt with rear A/C), intercooler 3.9 qt",
     "interval": "First at 100,000 mi / 120 months, then every 50,000 mi / 60 months",
-    "note": "The schedule lists the engine and intercooler coolant together.",
+    "note": "The schedule lists the engine and intercooler coolant together. Lexus says to have a dealer do the replacement.",
     "parts": [
      {
       "name": "Coolant, 2024 GX 550",
@@ -572,9 +771,9 @@
    },
    {
     "item": "Automatic transmission (10-speed)",
-    "spec": "Fluid type [CONFIRM IN MANUAL]. The LX 600's 10-speed uses ATF WS.",
+    "spec": "Toyota Genuine ATF WS · 11.73 qt total (reference); AMSOIL lists 5.4 qt as the initial fill",
     "interval": "Every 60,000 mi if you tow, carry heavy loads or idle a lot",
-    "note": "",
+    "note": "Lexus warns that any other fluid can cause noise, vibration or damage, and says to see a dealer for replacement.",
     "parts": [
      {
       "name": "Transmission fluid, 2024 GX 550",
@@ -590,7 +789,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Transfer gear oil [CONFIRM IN MANUAL]",
+    "spec": "Toyota Genuine Transfer Gear Oil LF, SAE 75W · 1.88 qt",
     "interval": "Every 30,000 mi off-road or towing",
     "note": "",
     "parts": [
@@ -603,9 +802,9 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Differential gear oil [CONFIRM IN MANUAL]",
+    "spec": "Toyota Genuine Differential Gear Oil LT 75W-85 GL-5 · front 1.23 qt · rear 7.22 qt, or 6.87 qt with the rear locker",
     "interval": "Every 15,000 mi if you tow",
-    "note": "Overtrail trucks have a rear locker. Confirm the specified rear oil before you refill.",
+    "note": "Overtrail trucks with the rear locker take slightly less oil in the rear.",
     "parts": [
      {
       "name": "Gear oil, 2024 GX 550",
@@ -616,9 +815,9 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Per owner's manual [CONFIRM IN MANUAL]",
+    "spec": "DOT 3 (SAE J1703) or DOT 4 (SAE J1704)",
     "interval": "Every 30,000 mi (2024 schedule)",
-    "note": "",
+    "note": "The manual's pad wear limit is 0.04 in (1 mm).",
     "parts": [
      {
       "name": "Brake fluid, 2024 GX 550",
@@ -650,6 +849,32 @@
       "name": "Red-i hi-temp and moly grease kit (6 tubes)",
       "supplier": "CruiserTeq",
       "url": "https://cruiserteq.com/red-i-hi-temp-moly-grease-kit-2-x-hi-temp-4-x-moly-grease-tubes-greasekit6pk/"
+     }
+    ]
+   },
+   {
+    "item": "12V battery",
+    "spec": "LN4 case · at least 80 Ah (20-hour rate) and 689 CCA",
+    "interval": "Test at purchase",
+    "note": "After a battery swap, re-initialize the power back door (and the moonroof and running boards if fitted).",
+    "parts": [
+     {
+      "name": "Battery, 2024 GX 550",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2024,gx550,3.4l+v6+turbocharged,3455360,electrical,battery,2476"
+     }
+    ]
+   },
+   {
+    "item": "Tires & rotation",
+    "spec": "Overtrail 265/70R18 at 35 psi; 20s and 22s at 33 psi · wheel nuts 97 ft-lb",
+    "interval": "Rotate every 5,000 mi (2024 schedule), then register wheel positions",
+    "note": "Check the spare too. It hangs under the rear on a chain.",
+    "parts": [
+     {
+      "name": "Digital tire pressure gauge",
+      "supplier": "Amazon",
+      "url": "https://www.amazon.com/s?k=digital+tire+pressure+gauge"
      }
     ]
    }
