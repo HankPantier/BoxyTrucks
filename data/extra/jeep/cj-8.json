@@ -1,0 +1,241 @@
+{
+ "fitment": {
+  "stock": [
+   "205/75R15",
+   "235/75R15"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "center_bore": "108 mm",
+   "lug_thread": "1/2\"-20"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "The CJ owners' consensus for an unlifted CJ-7-bodied Jeep on 15x8 wheels; 32s only on tired springs"
+   },
+   {
+    "lift": "2.5 in",
+    "size": "33x12.50R15",
+    "note": "Fits for mild use with the steering stops reset; expect contact when stuffed"
+   },
+   {
+    "lift": "4 in",
+    "size": "33x12.50R15",
+    "note": "Comfortable trail setup for 33s; plan on regearing, since a 258 Scrambler on stock gears struggles on 31s already"
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Left tie-rod end fatigue crack",
+    "years": "1984",
+    "ref": "NHTSA 88V-009",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=88V009000",
+    "summary": "Improper heat treatment could let the left tie-rod end crack in its threaded section; 230 1984 CJ-8s covered."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1981",
+   "change": "Scrambler launches: CJ-7 front end on a 103.5 in wheelbase with a removable half cab and integrated pickup box. Best year at 8,355 built",
+   "flag": "note"
+  },
+  {
+   "year": "1982",
+   "change": "7,759 built; wide-track axles arrive across the CJ range this year",
+   "flag": "buy"
+  },
+  {
+   "year": "1983",
+   "change": "5,405 built",
+   "flag": "note"
+  },
+  {
+   "year": "1984",
+   "change": "4,130 built; 230 trucks recalled for a left tie-rod end that could crack",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "2,015 built as buyers move to the XJ-based Comanche pickup on the way",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "Final 128 built (whether these were 1985 leftovers is debated); the Comanche replaces it",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Stretched CJ-7s and cut-down CJ-7 conversions exist, and every Scrambler's value depends on proving it left Toledo as one.",
+  "items": [
+   {
+    "head": "Wheelbase and body",
+    "body": "103.5 in wheelbase versus the CJ-7's 93.5 in, same 55 in windshield and front end, with a longer rear overhang and a pickup-style box formed by the tub rather than a separate bed."
+   },
+   {
+    "head": "VIN",
+    "body": "On the 17-character VIN, characters 6–7 read 88 for a CJ-8 (87 is a CJ-7). The 4th character is the engine (B = 151 Iron Duke, C = 258 six, U = AMC 150 four) and the 10th the model year (B = 1981 … G = 1986)."
+   },
+   {
+    "head": "VIN plate vs frame",
+    "body": "Check the riveted firewall tag against the partial VIN on the passenger-side frame rail above the rear wheel; a CJ-7 tag on a Scrambler frame, or the reverse, means a rebuild."
+   },
+   {
+    "head": "Postal and export Scramblers",
+    "body": "230 right-hand-drive automatics with a full-length steel 'World Cab' hardtop and barn-door rear went to the Alaska Postal Service; the export CJ8 Overlander (Venezuela, Australia) also used full-length rear windows."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "103.5 in (2,629 mm)"
+  },
+  {
+   "k": "Transfer case",
+   "v": "Part-time two-speed with manual locking front hubs",
+   "note": "most with four- or five-speed manuals; three-speed automatic optional"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The rarest regular-production CJ trades at a premium to an equivalent CJ-7, and fuel-injected or well-documented original trucks lead the market.",
+  "ranges": [
+   {
+    "cond": "Project / tired",
+    "range": "$8.5k–15k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$17k–23.5k"
+   },
+   {
+    "cond": "Excellent / sorted",
+    "range": "$27k–28k+"
+   }
+  ],
+  "note": "Based on 15 Bring a Trailer sales from October 2025 to October 2026 (median $20,000). The range leaves out a one-off 392 Hemi Vigilante 4x4 build that made $155,555 in October 2026."
+ },
+ "docs": [
+  {
+   "name": "1984–1986 Jeep CJ-7 & Scrambler repair shop manual (reprint, 2 vols, M.R. 252)",
+   "url": "https://www.faxonautoliterature.com/1984-1986-Jeep-CJ-7-Scrambler-Repair-Shop-Manual-Reprint-2-Vol-Set-MR252",
+   "note": "Page-for-page reprint of the dealer shop manual, from Faxon Auto Literature"
+  },
+  {
+   "name": "Bishko factory-authorized technical service manuals, 1972–86 Jeep",
+   "url": "https://www.quadratec.com/p/bishko-automotive-literature/factory-authorized-technical-service-manuals-jeep-model-years",
+   "note": "Licensed reproductions of the dealer FSMs, sold by Quadratec"
+  },
+  {
+   "name": "Jeep CJ Rebuilder's Manual 1972–86 (Moses Ludel, Bentley)",
+   "url": "https://www.quadratec.com/products/19009_007.htm",
+   "note": "612-page unit-repair and restoration guide covering CJ-5, CJ-6, CJ-7 and CJ-8"
+  }
+ ],
+ "production": {
+  "intro": "Fewer than 28,000 Scramblers were built, and annual output fell every year after launch.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "27,792 (1981–1986)"
+   },
+   {
+    "k": "By year",
+    "v": "8,355 (1981) · 7,759 (1982) · 5,405 (1983) · 4,130 (1984) · 2,015 (1985) · 128 (1986)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Alaska postal 'World Cab'",
+    "years": "1981–1986",
+    "note": "Right-hand drive, automatic, full-length steel hardtop with barn doors; 230 built"
+   },
+   {
+    "name": "CJ8 Overlander",
+    "years": "Export",
+    "note": "Sold in Venezuela and Australia with small differences, including full-length rear windows"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "CJ-8.com",
+   "url": "https://www.cj-8.com/forum/",
+   "note": "Owners' forum dedicated to the Scrambler"
+  },
+  {
+   "kind": "club",
+   "name": "Jeep-CJ.com",
+   "url": "https://jeep-cj.com/community/",
+   "note": "Long-running owners' forum dedicated to CJ-2A through CJ-8; the place for tire-fitment, axle and restoration threads."
+  },
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://www.rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail event in Moab, Utah; the club has run it for some 60 years. 2027 dates: March 20–28."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep CJ",
+   "url": "https://en.wikipedia.org/wiki/Jeep_CJ"
+  },
+  {
+   "name": "Quadratec — Jeep vehicle model identification",
+   "url": "https://www.quadratec.com/c/reference/jeep-vehicle-model-identification"
+  },
+  {
+   "name": "Quadratec — Jeep wheel bolt patterns and lug nut torque specs",
+   "url": "https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep wheel specifications & size guide",
+   "url": "https://www.extremeterrain.com/jeep-wheel-specifications-tech-guide.html"
+  },
+  {
+   "name": "Offroaders.com — 1981–1986 CJ & J-Series VIN decoder",
+   "url": "https://offroaders.com/tech/jeep/vin_81-86.htm"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep CJ VIN decoder 1971–1986",
+   "url": "https://www.extremeterrain.com/vin-jeep-cj-1971-1986-tech-guide.html"
+  },
+  {
+   "name": "TireSize.com — 1984 Jeep CJ-8 Scrambler original tire sizes",
+   "url": "https://tiresize.com/tires/Jeep/CJ-8-Scrambler/1984/Base-Model/"
+  },
+  {
+   "name": "Jeep-CJ.com — Optimal wheel/tire size for 1977 CJ7",
+   "url": "https://jeep-cj.com/community/threads/optimal-wheel-tire-size-for-1977-cj7.58662"
+  },
+  {
+   "name": "Jeep-CJ.com — Lift size for 33s",
+   "url": "https://jeep-cj.com/community/threads/lift-size-for-33s.61708"
+  },
+  {
+   "name": "CJ-8.com — Tires & gears",
+   "url": "https://www.cj-8.com/threads/tires-gears.30686/"
+  },
+  {
+   "name": "NHTSA — campaign 88V-009 (1984 CJ-8)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=88V009000"
+  },
+  {
+   "name": "Bring a Trailer — Jeep CJ-8 Scrambler sold results",
+   "url": "https://bringatrailer.com/jeep/cj-8-scrambler/"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://www.rr4w.com/"
+  }
+ ]
+}
