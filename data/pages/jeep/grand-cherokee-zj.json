@@ -343,14 +343,71 @@
      "url": "https://www.quadratec.com/collections/1993-1998-grand-cherokee-zj-engine-and-fuel-system-cooling-system"
     }
    ]
+  },
+  {
+   "title": "Stalling at speed: check the crankshaft position sensor",
+   "diff": "2 / 5",
+   "time": "About an hour, once diagnosed",
+   "cost": "Parts plus labor",
+   "symptoms": "The engine cuts out without warning, often warm and sometimes at highway speed. It may restart after sitting, or crank but not start. NHTSA's complaint file holds dozens of ZJ stalling reports in which the crankshaft position sensor was replaced, sometimes more than once (e.g. ODI 878399, 10460757).",
+   "fix": "Read any stored codes first (1996–98 trucks are OBD-II). Then inspect the sensor's harness for chafing and heat damage. One 1995 owner traced his stalling to a broken front motor mount that let the engine tug on the crank-sensor leads until they chafed through and shorted (NHTSA ODI 784679), so check the mounts too. If the wiring and mounts are good, replace the sensor. Stalling has other causes, including a failing fuel pump (see below), so confirm the diagnosis before you buy parts.",
+   "tools": "OBD-II scanner (1996–98) · multimeter · sockets and extensions · flashlight",
+   "parts": [
+    {
+     "name": "Crown 56026921 crankshaft position sensor, 1994–96 ZJ 4.0",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/crankshaft-position-sensor-jeep-grand-cherokee-40l"
+    },
+    {
+     "name": "Crankshaft position sensors for other years and engines (RockAuto catalogue)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/jeep,1996,grand+cherokee"
+    },
+    {
+     "name": "Motor mounts for 1993–1998 Grand Cherokee ZJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/collections/1993-1998-grand-cherokee-zj-engine-and-fuel-system-motor-mounts-and-lifts"
+    }
+   ]
+  },
+  {
+   "title": "Fuel pump failure and a flaking tank",
+   "diff": "3 / 5",
+   "time": "Half a day (tank drop)",
+   "cost": "Parts plus labor; one 1995 owner reported $600 for the pump plus $300 to flush the tank (NHTSA ODI 761423)",
+   "symptoms": "Hesitation, low fuel pressure, stalling or a crank-no-start, and replacement pumps that keep failing. Fuel-pump complaints to NHTSA cluster on 1995–96 trucks. Several owners were told debris from inside the plastic tank had clogged the pump (ODI 756730, 8001105, 758045).",
+   "fix": "Confirm low pressure with a gauge before you condemn the pump. Run the tank low, support it, disconnect the lines and straps, lower it and pull the pump module. Look inside the tank: if the lining is flaking or there's sediment, clean or replace the tank, or the new pump will clog too. Several owners went through multiple pumps before the tank was dealt with. Fit a new strainer with the pump and replace rusty straps. While the tank is down, check that recall 13V-252 (rear-impact fuel tank protection) was done.",
+   "tools": "Fuel-pressure gauge · floor jack and tank support · fuel-line disconnect tools · sockets · drain can",
+   "parts": [
+    {
+     "name": "Fuel pump modules (RockAuto catalogue)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/jeep,1996,grand+cherokee"
+    },
+    {
+     "name": "Crown 5012953FS fuel strainer, 1997–98 ZJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/fuel-strainer-wrangler-tj-5012953fs"
+    },
+    {
+     "name": "Crown 52100128 fuel tank strap, 1993–98 ZJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/fuel-tank-strap-jeep-grand-cherokee-zj"
+    },
+    {
+     "name": "Fuel-pressure test gauge kit",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=fuel+pressure+test+gauge+kit"
+    }
+   ]
   }
  ],
  "baseline_service": {
-  "intro": "Most ZJs have done 150,000 miles or more and been through several owners, so assume nothing has been done. ExtremeTerrain's ZJ capacity guide gives the factory fluids and capacities below. Check its V8 oil figures against your owner's manual, and service the transfer case and both axles even if the seller says they were done.",
+  "intro": "Most ZJs have done 150,000 miles or more and been through several owners, so assume nothing has been done. ExtremeTerrain's ZJ capacity guide gives the factory fluids and capacities below. For engine oil, ExtremeTerrain and AMSOIL's application guide disagree on every engine's capacity, so fill to the dipstick and check your owner's manual. Service the transfer case and both axles even if the seller says they were done.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "5W-30 or 10W-30 · 4.0: 5 qt · 5.2: 4 qt · 5.9: 6 qt with filter (ExtremeTerrain) [CONFIRM IN MANUAL]",
+    "spec": "5W-30 or 10W-30 (AMSOIL: 10W-30 above −18 °C, 5W-30 below 16 °C) · capacity with filter, sources disagree: ExtremeTerrain 4.0 5 qt · 5.2 4 qt · 5.9 6 qt; AMSOIL (1998) 4.0 6 qt · 5.2 5 qt · 5.9 5 qt [CONFIRM IN MANUAL]",
     "interval": "Baseline now; then every 3,000–5,000 mi",
     "note": "While the filter is off a 4.0, look for oil around the filter adapter O-rings.",
     "parts": [
@@ -582,8 +639,8 @@
   },
   {
    "q": "What fluids and capacities does it take?",
-   "a": "ExtremeTerrain's ZJ guide: 5W-30 or 10W-30 oil (5 qt for the 4.0), 50/50 IAT coolant (12 qt six, 14.9 qt V8), ATF+4 in the automatics and transfer cases (1.1–1.5 qt), 80W-90 in the axles with 4 oz of friction modifier for a Trac-Lok, and a 23-gallon tank of 87 octane. The 5.9 needs premium fuel.",
-   "src": "EXTREMETERRAIN · WIKIPEDIA"
+   "a": "ExtremeTerrain's ZJ guide: 5W-30 or 10W-30 oil, 50/50 IAT coolant (12 qt six, 14.9 qt V8), ATF+4 in the automatics and transfer cases (1.1–1.5 qt), 80W-90 in the axles with 4 oz of friction modifier for a Trac-Lok, and a 23-gallon tank of 87 octane. The 5.9 needs premium. Oil capacity is disputed: ExtremeTerrain gives 5 qt for the 4.0, while AMSOIL's 1998 lookup gives 6 qt (and 5 qt for both V8s), so fill to the dipstick.",
+   "src": "EXTREMETERRAIN · AMSOIL · WIKIPEDIA"
   },
   {
    "q": "Which rear axle do I have?",
@@ -956,6 +1013,30 @@
   {
    "name": "Bring a Trailer — Jeep ZJ Grand Cherokee results",
    "url": "https://bringatrailer.com/jeep/grand-cherokee/"
+  },
+  {
+   "name": "AMSOIL product guide — 1998 Grand Cherokee 4.0L",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1998/jeep/grand-cherokee/4-0l-6-cyl-engine-code-s-s/"
+  },
+  {
+   "name": "AMSOIL product guide — 1998 Grand Cherokee 5.2L",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1998/jeep/grand-cherokee/5-2l-8-cyl-engine-code-y-y/"
+  },
+  {
+   "name": "AMSOIL product guide — 1998 Grand Cherokee 5.9L",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1998/jeep/grand-cherokee/5-9l-8-cyl-engine-code-z-z/"
+  },
+  {
+   "name": "NHTSA complaints API — 1995 Jeep Grand Cherokee (fuel pump / tank, crank sensor)",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1995"
+  },
+  {
+   "name": "NHTSA complaints API — 1996 Jeep Grand Cherokee (fuel pump, crank sensor)",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1996"
+  },
+  {
+   "name": "NHTSA complaints API — 1993 Jeep Grand Cherokee (crank sensor)",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1993"
   }
  ]
 }

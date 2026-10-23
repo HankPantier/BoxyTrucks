@@ -9,7 +9,7 @@
    "offset": "+15 mm (stock 7 in wheels)",
    "center_bore": "106.1 mm",
    "lug_thread": "M12x1.5",
-   "lug_torque": "81 lb-ft (110 N·m) per Limitless Tire [CONFIRM IN MANUAL]"
+   "lug_torque": "83 lb-ft (110 N·m) per Toyota's 1999–2002 owner's manuals"
   },
   "max_tire": [
    {
@@ -258,6 +258,18 @@
   {
    "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
    "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
+  },
+  {
+   "name": "Toyota — 1999 4Runner owner's manual (Toyota-hosted PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35749U/pdf/OM35749U_edited.pdf"
+  },
+  {
+   "name": "Toyota — 2001 4Runner owner's manual OM35768U (Toyota-hosted PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35768U/pdf/OM35768U.pdf"
+  },
+  {
+   "name": "Toyota — 2002 4Runner owner's manual OM35787U (Toyota-hosted PDF)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35787U/pdf/OM35787U.pdf"
   }
  ]
 }

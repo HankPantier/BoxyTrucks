@@ -302,6 +302,58 @@
      "url": "https://www.rockauto.com/en/catalog/toyota,1987,4runner"
     }
    ]
+  },
+  {
+   "title": "Swap failing auto hubs for manual hubs",
+   "diff": "2 / 5",
+   "time": "An afternoon, including a bearing repack",
+   "cost": "Aisin manual hubs ≈ $249 a set (1986–95 IFS) or ≈ $415 a pair (1979–85 solid axle), plus a ≈ $28 conversion kit (LC Engineering)",
+   "symptoms": "Front hubs that won't lock, slip under load or let go in reverse. 4Runners.com notes the auto hubs fitted to some 1984–89 4Runners are less reliable than manual hubs and will sometimes unlock in reverse.",
+   "fix": "Confirm you have auto hubs (no dial to turn on the hub cap). Remove the auto hub assemblies and the auto-hub hardware on the spindle. Fit LC Engineering's conversion kit: the locking nuts and plates that hold the hub and rotor on the spindle once the auto-hub parts are gone. Repack the wheel bearings and set the preload to the factory manual while it's apart, then fit the manual hubs on new gaskets. Solid-axle (1984–85) and IFS (1986–89) hubs have different spline counts, so order the right ones.",
+   "tools": "Sockets · spindle-nut socket · snap-ring pliers · torque wrench · wheel-bearing grease and new seals",
+   "parts": [
+    {
+     "name": "Manual hub conversion kit, 1984–89 4Runner (4x4)",
+     "supplier": "LC Engineering",
+     "url": "https://www.lceperformance.com/manual-hub-conversion-kit/"
+    },
+    {
+     "name": "Aisin manual locking hubs, 1986–95 IFS",
+     "supplier": "LC Engineering",
+     "url": "https://www.lceperformance.com/aisin-manual-locking-hubs-1986-1995-4runner-pickup/"
+    },
+    {
+     "name": "Aisin manual locking hubs, 1979–85 solid axle (pair)",
+     "supplier": "LC Engineering",
+     "url": "https://www.lceperformance.com/aisin-manual-locking-hub-1979-1985-solid-axle-pair/"
+    },
+    {
+     "name": "Front hub star gasket (Toyota 43531-60010)",
+     "supplier": "LC Engineering",
+     "url": "https://www.lceperformance.com/front-hub-4wd-star-gasket/"
+    }
+   ]
+  },
+  {
+   "title": "Power tailgate window that sticks or drops",
+   "diff": "2 / 5",
+   "time": "An afternoon",
+   "cost": "Parts plus labor; one Toyota-4Runner.org member recommends a used motor",
+   "symptoms": "The roll-down rear glass works only some of the time, stalls part-way or suddenly drops into the tailgate. IH8MUD members flag the electric rear window as a weak point on both early generations; Toyota-4Runner.org owners trace it to tired motors, regulator gears and drag in the channels.",
+   "fix": "Pull the tailgate's inner access panels. Run the glass up and down and check it stays in its tracks, then push and twist the regulator to see whether its gears stay meshed. If the regulator is sound, test the motor directly on a battery, then check the relay. Clean the channels and put silicone spray on the glass edges and rubber seals; one owner says a dealer clean-and-lube cured his. Toyota-4Runner.org members describe the motors as easily overwhelmed by drag, and one says 1st and 2nd gen motors are the same apart from the connector plug. If the glass has dropped and broken before, check the regulator was actually fixed, not just the glass.",
+   "tools": "Trim-panel tools · screwdrivers · 12 V jumper leads · multimeter · silicone spray",
+   "parts": [
+    {
+     "name": "Tailgate window motor and regulator (RockAuto catalogue)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,1987,4runner"
+    },
+    {
+     "name": "Silicone spray lubricant",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=silicone+spray+lubricant"
+    }
+   ]
   }
  ],
  "faq": [
@@ -736,14 +788,42 @@
   {
    "name": "4Runners.com — Timing belt questions",
    "url": "https://www.4runners.com/threads/timing-belt-questions.49407/"
+  },
+  {
+   "name": "LC Engineering — Manual hub conversion kit (auto hubs to manual, 1984–89)",
+   "url": "https://www.lceperformance.com/manual-hub-conversion-kit/"
+  },
+  {
+   "name": "LC Engineering — Aisin manual locking hubs, 1986–1995 4Runner & pickup",
+   "url": "https://www.lceperformance.com/aisin-manual-locking-hubs-1986-1995-4runner-pickup/"
+  },
+  {
+   "name": "LC Engineering — Aisin manual locking hubs, 1979–1985 solid axle (pair)",
+   "url": "https://www.lceperformance.com/aisin-manual-locking-hub-1979-1985-solid-axle-pair/"
+  },
+  {
+   "name": "LC Engineering — Front hub star gasket (Toyota 43531-60010)",
+   "url": "https://www.lceperformance.com/front-hub-4wd-star-gasket/"
+  },
+  {
+   "name": "Toyota-4Runner.org — Rear window issues (1990–95 power tailgate glass)",
+   "url": "https://www.toyota-4runner.org/classic-t4rs/38646-rear-window-issues.html"
+  },
+  {
+   "name": "Toyota-Club.net — Spark plug application table (Denso overseas-market catalogue)",
+   "url": "https://toyota-club.net/files/techdata/plugs/index_eng.htm"
+  },
+  {
+   "name": "AMSOIL product guide — 1987 Toyota 4Runner 2.4L 22R-E fluids & capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1987/toyota/4-runner/2-4l-4-cyl-engine-code-r-22r-e-l/"
   }
  ],
  "baseline_service": {
-  "intro": "Assume nothing on a 35-plus-year-old truck: baseline every fluid, filter and wear item the day you buy it, then keep records. Factory capacities and fluid grades for the N60 aren't reliably published online, so check the owner's or factory service manual for anything marked below — and know which hubs and axle you have before ordering parts.",
+  "intro": "Assume nothing on a 35-plus-year-old truck: baseline every fluid, filter and wear item the day you buy it, then keep records. Factory capacities and fluid grades for the N60 aren't reliably published online. Figures marked AMSOIL come from AMSOIL's application guide for the 1987 22R-E, and plug data from Denso's catalogue; check those and anything still marked below against the owner's or factory service manual, and know which hubs and axle you have before ordering parts.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "22R-E: 10W-30, 10W-40 or 10W-50 above −23 °C (15W-40 to 20W-50 above −12 °C) · ≈4.5 US qt with filter (AMSOIL, 1987 22R-E) · 3VZ-E V6 [CONFIRM IN MANUAL]",
     "interval": "At purchase, then per the manual",
     "note": "Watch for a 22R-E burning oil at high mileage; leaks often come from the valve cover gasket.",
     "parts": [
@@ -787,7 +867,7 @@
    },
    {
     "item": "Spark plugs, wires, cap & rotor",
-    "spec": "Plug type and gap [CONFIRM IN MANUAL]",
+    "spec": "22R-E: Denso W16EXR-U, gap 0.8 mm (0.031 in) (Denso catalogue, 22R-E 4Runner from 08/87) · earlier trucks and 3VZ-E V6 [CONFIRM IN MANUAL]",
     "interval": "At purchase",
     "note": "Old ignition parts cause most rough-running complaints on distributor-ignition 22R-Es and 3VZ-Es.",
     "parts": [
@@ -841,7 +921,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "Toyota-type long-life coolant; capacity [CONFIRM IN MANUAL]",
+    "spec": "Toyota-type long-life coolant · 22R-E ≈9 US qt (AMSOIL, 1987 22R-E) · V6 capacity [CONFIRM IN MANUAL]",
     "interval": "Drain and refill at purchase",
     "note": "4Runners.com owners: use a coolant that meets the manual's spec ('Asian formula for Toyota'); Toyota pink is pre-diluted red. Never let either engine overheat — especially the V6.",
     "parts": [
@@ -859,7 +939,7 @@
    },
    {
     "item": "Manual / automatic transmission fluid",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "Manual: GL-4 or GL-5 gear oil, 75W-90 or 80W-90 (AMSOIL, 1987 22R-E) · capacity and automatic fluid [CONFIRM IN MANUAL]",
     "interval": "At purchase (drain and refill)",
     "note": "Automatic trucks: check for burnt-smelling fluid before you buy.",
     "parts": [
@@ -872,7 +952,7 @@
    },
    {
     "item": "Transfer case & differentials",
-    "spec": "Gear oil grades and capacities [CONFIRM IN MANUAL]",
+    "spec": "Transfer case (manual-gearbox trucks): GL-4 or GL-5 gear oil, ≈3.4 pt (AMSOIL, 1987 22R-E) · differential grades and capacities [CONFIRM IN MANUAL]",
     "interval": "At purchase",
     "note": "Break the fill plug loose before the drain plug. 1984–85 solid-axle trucks also have closed knuckles that need fresh grease or oil.",
     "parts": [

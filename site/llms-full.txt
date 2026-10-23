@@ -127,17 +127,29 @@ Symptoms: On sunroof-equipped trucks: wet headliner or carpets, rust bubbling at
 Fix: Owners report blocked sunroof drains rusting out A-pillars on trucks fitted with a sunroof. Clear the drain tubes with trimmer line or low-pressure air, check the outlets aren't crushed, and replace hardened top and window seals. Treat any surface rust in the pillars before it goes through.
 Tools: Trimmer line · low-pressure air · rust converter · new seals
 
+#### Swap failing auto hubs for manual hubs
+Difficulty 2 / 5 · time An afternoon, including a bearing repack · cost Aisin manual hubs ≈ $249 a set (1986–95 IFS) or ≈ $415 a pair (1979–85 solid axle), plus a ≈ $28 conversion kit (LC Engineering)
+Symptoms: Front hubs that won't lock, slip under load or let go in reverse. 4Runners.com notes the auto hubs fitted to some 1984–89 4Runners are less reliable than manual hubs and will sometimes unlock in reverse.
+Fix: Confirm you have auto hubs (no dial to turn on the hub cap). Remove the auto hub assemblies and the auto-hub hardware on the spindle. Fit LC Engineering's conversion kit: the locking nuts and plates that hold the hub and rotor on the spindle once the auto-hub parts are gone. Repack the wheel bearings and set the preload to the factory manual while it's apart, then fit the manual hubs on new gaskets. Solid-axle (1984–85) and IFS (1986–89) hubs have different spline counts, so order the right ones.
+Tools: Sockets · spindle-nut socket · snap-ring pliers · torque wrench · wheel-bearing grease and new seals
+
+#### Power tailgate window that sticks or drops
+Difficulty 2 / 5 · time An afternoon · cost Parts plus labor; one Toyota-4Runner.org member recommends a used motor
+Symptoms: The roll-down rear glass works only some of the time, stalls part-way or suddenly drops into the tailgate. IH8MUD members flag the electric rear window as a weak point on both early generations; Toyota-4Runner.org owners trace it to tired motors, regulator gears and drag in the channels.
+Fix: Pull the tailgate's inner access panels. Run the glass up and down and check it stays in its tracks, then push and twist the regulator to see whether its gears stay meshed. If the regulator is sound, test the motor directly on a battery, then check the relay. Clean the channels and put silicone spray on the glass edges and rubber seals; one owner says a dealer clean-and-lube cured his. Toyota-4Runner.org members describe the motors as easily overwhelmed by drag, and one says 1st and 2nd gen motors are the same apart from the connector plug. If the glass has dropped and broken before, check the regulator was actually fixed, not just the glass.
+Tools: Trim-panel tools · screwdrivers · 12 V jumper leads · multimeter · silicone spray
+
 ### Baseline service
-Assume nothing on a 35-plus-year-old truck: baseline every fluid, filter and wear item the day you buy it, then keep records. Factory capacities and fluid grades for the N60 aren't reliably published online, so check the owner's or factory service manual for anything marked below — and know which hubs and axle you have before ordering parts.
-- Engine oil & filter: [CONFIRM IN MANUAL] · At purchase, then per the manual (Watch for a 22R-E burning oil at high mileage; leaks often come from the valve cover gasket.)
+Assume nothing on a 35-plus-year-old truck: baseline every fluid, filter and wear item the day you buy it, then keep records. Factory capacities and fluid grades for the N60 aren't reliably published online. Figures marked AMSOIL come from AMSOIL's application guide for the 1987 22R-E, and plug data from Denso's catalogue; check those and anything still marked below against the owner's or factory service manual, and know which hubs and axle you have before ordering parts.
+- Engine oil & filter: 22R-E: 10W-30, 10W-40 or 10W-50 above −23 °C (15W-40 to 20W-50 above −12 °C) · ≈4.5 US qt with filter (AMSOIL, 1987 22R-E) · 3VZ-E V6 [CONFIRM IN MANUAL] · At purchase, then per the manual (Watch for a 22R-E burning oil at high mileage; leaks often come from the valve cover gasket.)
 - Air filter: Panel filter · At purchase; more often on dusty trails (Check the airbox seals and intake boot for cracks while it's open.)
 - Fuel filter (EFI trucks): EFI in-line filter · At purchase if no record (On the 22R-E it sits below the intake manifold. 4Runners.com owners pull the driver's front wheel for access, mind the flow arrow, and fit new crush washers.)
-- Spark plugs, wires, cap & rotor: Plug type and gap [CONFIRM IN MANUAL] · At purchase (Old ignition parts cause most rough-running complaints on distributor-ignition 22R-Es and 3VZ-Es.)
+- Spark plugs, wires, cap & rotor: 22R-E: Denso W16EXR-U, gap 0.8 mm (0.031 in) (Denso catalogue, 22R-E 4Runner from 08/87) · earlier trucks and 3VZ-E V6 [CONFIRM IN MANUAL] · At purchase (Old ignition parts cause most rough-running complaints on distributor-ignition 22R-Es and 3VZ-Es.)
 - Timing chain & guides (22R-E): Single-row chain; metal-backed guides recommended · Inspect at purchase; replace if noisy or undocumented (Plastic guides are a known breakage item; broken pieces end up in the oil pan.)
 - Timing belt & water pump (3VZ-E V6, 1988–89): Belt, tensioner, idlers, water pump · A 4Runners.com member recalls 4 years / 96,000 km (≈60,000 mi) as typical (Do it immediately if there are no records; owners recommend an Aisin-quality kit.)
-- Coolant: Toyota-type long-life coolant; capacity [CONFIRM IN MANUAL] · Drain and refill at purchase (4Runners.com owners: use a coolant that meets the manual's spec ('Asian formula for Toyota'); Toyota pink is pre-diluted red. Never let either engine overheat — especially the V6.)
-- Manual / automatic transmission fluid: [CONFIRM IN MANUAL] · At purchase (drain and refill) (Automatic trucks: check for burnt-smelling fluid before you buy.)
-- Transfer case & differentials: Gear oil grades and capacities [CONFIRM IN MANUAL] · At purchase (Break the fill plug loose before the drain plug. 1984–85 solid-axle trucks also have closed knuckles that need fresh grease or oil.)
+- Coolant: Toyota-type long-life coolant · 22R-E ≈9 US qt (AMSOIL, 1987 22R-E) · V6 capacity [CONFIRM IN MANUAL] · Drain and refill at purchase (4Runners.com owners: use a coolant that meets the manual's spec ('Asian formula for Toyota'); Toyota pink is pre-diluted red. Never let either engine overheat — especially the V6.)
+- Manual / automatic transmission fluid: Manual: GL-4 or GL-5 gear oil, 75W-90 or 80W-90 (AMSOIL, 1987 22R-E) · capacity and automatic fluid [CONFIRM IN MANUAL] · At purchase (drain and refill) (Automatic trucks: check for burnt-smelling fluid before you buy.)
+- Transfer case & differentials: Transfer case (manual-gearbox trucks): GL-4 or GL-5 gear oil, ≈3.4 pt (AMSOIL, 1987 22R-E) · differential grades and capacities [CONFIRM IN MANUAL] · At purchase (Break the fill plug loose before the drain plug. 1984–85 solid-axle trucks also have closed knuckles that need fresh grease or oil.)
 - Front wheel bearings & hubs: Clean, inspect, repack, set preload · At purchase (1984–89 trucks came with manual or automatic hubs; 4Runners.com owners say the auto hubs are less reliable and often get swapped for manual ones.)
 - Brake fluid: Type [CONFIRM IN MANUAL] · Flush at purchase (No ABS on these trucks — fresh fluid and healthy rubber lines matter all the more.)
 - Steering & front-end wear (IFS trucks): Idler arm, tie-rods, pitman arm · Inspect at purchase (Idler-arm slop is the classic cause of wander on 1986–95 IFS Toyotas.)
@@ -207,6 +219,13 @@ A: Mechanical parts, yes — the 22R family is shared with Toyota pickups and LC
 - 4Runners.com — What type of coolant is Toyota Pink: https://www.4runners.com/threads/what-type-of-coolant-is-toyota-pink.43020/
 - 4Runners.com — ID hubs: manual, auto, locked/ADD: https://www.4runners.com/threads/id-hubs-manual-auto-locked-add.14298/
 - 4Runners.com — Timing belt questions: https://www.4runners.com/threads/timing-belt-questions.49407/
+- LC Engineering — Manual hub conversion kit (auto hubs to manual, 1984–89): https://www.lceperformance.com/manual-hub-conversion-kit/
+- LC Engineering — Aisin manual locking hubs, 1986–1995 4Runner & pickup: https://www.lceperformance.com/aisin-manual-locking-hubs-1986-1995-4runner-pickup/
+- LC Engineering — Aisin manual locking hubs, 1979–1985 solid axle (pair): https://www.lceperformance.com/aisin-manual-locking-hub-1979-1985-solid-axle-pair/
+- LC Engineering — Front hub star gasket (Toyota 43531-60010): https://www.lceperformance.com/front-hub-4wd-star-gasket/
+- Toyota-4Runner.org — Rear window issues (1990–95 power tailgate glass): https://www.toyota-4runner.org/classic-t4rs/38646-rear-window-issues.html
+- Toyota-Club.net — Spark plug application table (Denso overseas-market catalogue): https://toyota-club.net/files/techdata/plugs/index_eng.htm
+- AMSOIL product guide — 1987 Toyota 4Runner 2.4L 22R-E fluids & capacities: https://www.amsoil.com/lookup/auto-and-light-truck/1987/toyota/4-runner/2-4l-4-cyl-engine-code-r-22r-e-l/
 - Wikipedia — Toyota 4Runner: https://en.wikipedia.org/wiki/Toyota_4Runner
 - NHTSA recalls API — Toyota 4Runner 1988: https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1988
 - NHTSA recalls API — Toyota 4Runner 1989: https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1989
@@ -333,18 +352,30 @@ Symptoms: Wandering on the highway, play in the steering, clunks over bumps — 
 Fix: With the front supported, check the idler arm, tie-rod ends and pitman arm for play. Separate the centre link from the idler arm with a puller, unbolt the arm from the frame and fit a new one, then torque and align. Off-roaders often upgrade to a heavier-duty arm or brace.
 Tools: Tie-rod puller · torque wrench · Total Chaos Caddy idler arm 95130 (1986–95 4Runner) or OEM-type arm
 
+#### Power tailgate window that sticks or drops
+Difficulty 2 / 5 · time An afternoon · cost Parts plus labor; one Toyota-4Runner.org member recommends a used motor
+Symptoms: The roll-down rear glass works only some of the time, stalls part-way or suddenly drops into the tailgate. IH8MUD members flag the electric rear window as a weak point on both early generations; on 2nd gens Toyota-4Runner.org owners blame weak motors, slipping regulator gears and dirty channels.
+Fix: Pull the tailgate's inner access panels. Run the glass up and down and check it stays in its tracks, then push and twist the regulator to see whether its gears stay meshed. If the regulator is sound, test the motor directly on a battery, then check the relay. Clean the channels and put silicone spray on the glass edges and rubber seals; one owner says a dealer clean-and-lube cured his. Toyota-4Runner.org members describe the motors as easily overwhelmed by drag, and one says 1st and 2nd gen motors are the same apart from the connector plug. If the glass has dropped and broken before, check the regulator was actually fixed, not just the glass.
+Tools: Trim-panel tools · screwdrivers · 12 V jumper leads · multimeter · silicone spray
+
+#### 4WD won't engage: the ADD vacuum system
+Difficulty 2 / 5 · time An hour or two to diagnose · cost Parts plus labor; vacuum hose is cheap, Aisin manual hubs ≈ $249 a set (LC Engineering) if you convert
+Symptoms: The lever goes into 4H with no noise and no front drive. On ADD trucks the hubs are locked all the time and the front axle is only connected when a vacuum-operated collar in the driver's-side axle tube moves (4Runners.com).
+Fix: Confirm you have ADD: plastic hub caps instead of locking-hub dials (IH8MUD). Drop the front skid plate and check the two vacuum lines at the actuator on the front differential, which can get knocked loose. Then trace them to the electrically switched vacuum valves on the inner fender and check the valves and their wiring. Plugging or swapping the lines to force the actuator tells you whether the diff side works. If you'd rather lose the system, 4Runners.com members lock it out or delete it with a pre-1990 driver's-side axle tube and fit manual hubs. LC Engineering notes that ADD trucks don't need its auto-hub conversion kit for that swap.
+Tools: Hand vacuum pump with gauge · test light or multimeter · sockets for the skid plate
+
 ### Baseline service
-Most surviving 2nd gens have 30 years of deferred maintenance, so baseline everything — and on a V6, treat cooling-system health as life-or-death for the head gaskets. Factory capacities for the N120/N130 aren't reliably published online; anything marked below should be checked in the owner's or factory service manual.
-- Engine oil & filter: [CONFIRM IN MANUAL] · At purchase, then per the manual (Milky oil or a sweet smell on the dipstick on a 3VZ-E means head gaskets — walk away or budget for it.)
+Most surviving 2nd gens have 30 years of deferred maintenance, so baseline everything. On a V6, treat cooling-system health as life-or-death for the head gaskets. Factory capacities for the N120/N130 aren't reliably published online. Figures marked AMSOIL come from AMSOIL's application guide for the 1992 3VZ-E, and plug data from Denso's catalogue; check those and anything still marked below against the owner's or factory service manual.
+- Engine oil & filter: 3VZ-E: 10W-30 above −18 °C, 5W-30 below 10 °C · ≈4.8 US qt with filter (AMSOIL, 1992 3VZ-E) · 22R-E [CONFIRM IN MANUAL] · At purchase, then per the manual (Milky oil or a sweet smell on the dipstick on a 3VZ-E means head gaskets — walk away or budget for it.)
 - Air filter: Panel filter · At purchase (Check the intake boot between airflow meter and throttle body for cracks — a common source of unmetered air.)
 - Fuel filter: EFI in-line filter · At purchase if no record (On 22R-E trucks it's below the intake manifold; owners pull the driver's front wheel and watch the flow direction.)
-- Spark plugs, wires, cap & rotor: Plug type and gap [CONFIRM IN MANUAL] · At purchase (Wire sets differ by year on both engines — match the terminal style on your cap.)
+- Spark plugs, wires, cap & rotor: 22R-E: Denso W16EXR-U · 3VZ-E: Denso K16R-U · gap 0.8 mm (0.031 in) for both (Denso catalogue) · At purchase (Wire sets differ by year on both engines — match the terminal style on your cap.)
 - Timing belt, tensioner & water pump (3VZ-E): Belt kit + water pump + thermostat · A 4Runners.com member recalls 4 years / 96,000 km (≈60,000 mi) as typical (No records = do it now. Owners favour Aisin parts over bargain kits.)
 - Timing chain & guides (22R-E): Metal-backed guides recommended · Inspect at purchase (Listen for slap from the timing cover at cold start.)
-- Coolant & cooling system: Toyota-type long-life coolant; capacity [CONFIRM IN MANUAL] · Drain/refill or flush at purchase, then keep it fresh (4Runners.com's 3VZ-E advice: never let it overheat, refresh coolant regularly, and keep up with the belt and water pump. Pressure-test the system if coolant level drops.)
+- Coolant & cooling system: Toyota-type long-life coolant · 3VZ-E 4WD ≈9.5 US qt (AMSOIL, 1992 3VZ-E) · 22R-E capacity [CONFIRM IN MANUAL] · Drain/refill or flush at purchase, then keep it fresh (4Runners.com's 3VZ-E advice: never let it overheat, refresh coolant regularly, and keep up with the belt and water pump. Pressure-test the system if coolant level drops.)
 - Automatic transmission fluid (A340H): Fluid type and capacity [CONFIRM IN MANUAL] · Drain and refill at purchase (Prefer repeated drain-and-fills over a pressure flush on a high-mileage unknown.)
-- Transfer case: Gear oil grade [CONFIRM IN MANUAL] · At purchase (V6 trucks have a chain-driven case; four-cylinders kept the gear-driven unit — confirm which you have before ordering parts.)
-- Front & rear differentials, ADD: Gear oil grade [CONFIRM IN MANUAL] · At purchase (1990-on 4Runners use Toyota's vacuum-operated ADD (automatic differential disconnect) with locked hubs; per 4Runners.com, check that 4WD actually engages and the vacuum lines are intact.)
+- Transfer case: Manual-gearbox trucks: GL-4 or GL-5 gear oil, ≈2.3 pt (with ADD) / 3.4 pt (without); A340H automatics take ATF, ≈1.7 pt (AMSOIL, 1992 3VZ-E) · viscosity [CONFIRM IN MANUAL] · At purchase (V6 trucks have a chain-driven case; four-cylinders kept the gear-driven unit — confirm which you have before ordering parts.)
+- Front & rear differentials, ADD: Front (ADD): GL-5 hypoid, SAE 90 above −18 °C, 80W-90 or 80W below, ≈4 pt (AMSOIL, 1992 3VZ-E) · rear [CONFIRM IN MANUAL] · At purchase (1990-on 4Runners use Toyota's vacuum-operated ADD (automatic differential disconnect) with locked hubs; per 4Runners.com, check that 4WD actually engages and the vacuum lines are intact.)
 - Front wheel bearings & seals: Clean, repack, set preload · At purchase (Any hum or play on the test drive means do it now.)
 - Brake fluid: Type [CONFIRM IN MANUAL] · Flush at purchase (SR5 V6s have rear-wheel ABS; bleed per the factory procedure.)
 - Steering & front end: Idler arm, tie-rods, CV boots · Inspect at purchase (Idler-arm wear is the usual cause of highway wander.)
@@ -409,6 +440,13 @@ A: By modern standards, not very. Wikipedia lists a one-to-two-star frontal cras
 - 4Runners.com — 4 cylinder fuel filter tips: https://www.4runners.com/threads/4-cylinder-fuel-filter-tips.35524/
 - 4Runners.com — What type of coolant is Toyota Pink: https://www.4runners.com/threads/what-type-of-coolant-is-toyota-pink.43020/
 - 4Runners.com — 1992 V6 coolant type: https://www.4runners.com/threads/1992-v6-coolant-type.13555/
+- Toyota-4Runner.org — Rear window issues (1990–95 power tailgate glass): https://www.toyota-4runner.org/classic-t4rs/38646-rear-window-issues.html
+- IH8MUD — 92 truck 4x4 issue (ADD vacuum diagnosis): https://forum.ih8mud.com/threads/92-truck-4x4-issue.270685/
+- LC Engineering — Manual hub conversion kit (auto hubs to manual, 1984–89): https://www.lceperformance.com/manual-hub-conversion-kit/
+- LC Engineering — Aisin manual locking hubs, 1986–1995 4Runner & pickup: https://www.lceperformance.com/aisin-manual-locking-hubs-1986-1995-4runner-pickup/
+- LC Engineering — Front hub star gasket (Toyota 43531-60010): https://www.lceperformance.com/front-hub-4wd-star-gasket/
+- Toyota-Club.net — Spark plug application table (Denso overseas-market catalogue): https://toyota-club.net/files/techdata/plugs/index_eng.htm
+- AMSOIL product guide — 1992 Toyota 4Runner 3.0L 3VZ-E fluids & capacities: https://www.amsoil.com/lookup/auto-and-light-truck/1992/toyota/4-runner/3-0l-6-cyl-engine-code-v-3vz-e-p/
 - Wikipedia — Toyota 4Runner: https://en.wikipedia.org/wiki/Toyota_4Runner
 - NHTSA recalls API — Toyota 4Runner 1990: https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1990
 - NHTSA recalls API — Toyota 4Runner 1995: https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1995
@@ -495,7 +533,7 @@ Underneath, the N180 is old-school Toyota done properly: a ladder frame shared w
 - Offset: +15 mm (stock 7 in wheels)
 - Center Bore: 106.1 mm
 - Lug Thread: M12x1.5
-- Lug Torque: 81 lb-ft (110 N·m) per Limitless Tire [CONFIRM IN MANUAL]
+- Lug Torque: 83 lb-ft (110 N·m) per Toyota's 1999–2002 owner's manuals
 - Biggest tire, Stock lift: 265/75R16 (Toyota-4Runner.org consensus (about 31.6 in); wide aggressive treads or spacers can rub at full compression)
 - Biggest tire, ≈2 in lift: 285/75R16 (One owner reports no rub on 16x8 wheels with 4.5 in backspacing and about 2 in of front lift (not yet wheeled))
 - Biggest tire, 3 in lift: 285/75R16 (Common 33-in setup; expect to fold the pinch weld and trim the fender liner, and keep backspacing around 4–4.5 in. Spacers make it worse)
@@ -547,18 +585,30 @@ Symptoms: Flaking scale where crossmembers meet the frame, holes behind the rear
 Fix: Salt and debris pack in between body and frame and rot the rear crossmember from the inside — often discovered when the spare won't come down. Cut out the rotten section and weld in a replacement such as the Rust Buster 11-gauge crossmember (replaces Toyota 51209-35171), then treat surrounding metal with rust converter and a yearly oil- or grease-based inhibitor.
 Tools: Welder · angle grinder · Rust Buster crossmember · rust paint · inhibitor spray
 
+#### 4WD won't engage: ADD vacuum system and actuators
+Difficulty 2 / 5 (diagnosis, hoses, VSV) · 3 / 5 (actuator rebuild) · time An hour or two to diagnose · an actuator rebuild needs a day for the glue to cure · cost Parts plus labor; vacuum hose is cheap
+Symptoms: Lever or button in 4WD but only the rear wheels drive, and the 4WD light stays off. On a part-time truck, a slow tight turn on pavement should make 4WD bind within about thirty feet. No bind means no front drive (Toyota-4Runner.org).
+Fix: On 1996–2000 trucks the front axle is engaged by vacuum. With the engine running and 4WD off, check for vacuum at the twin VSVs on the driver's-side fender wall. No vacuum: check the check valve to the intake manifold, the hoses and the reservoir. If one hose has vacuum, engage 4WD and see whether it moves to the other. If it moves but the axle doesn't engage, suspect the diff actuator or its line. If it doesn't move, mark and swap the two hoses: if the truck now goes into 4WD the diff is fine, and a test light shows whether the transfer-case switch signal changes sides. Signal but no change in vacuum means a bad VSV. Check the fuse and the ADD relay too; one 1998 SR5 owner found it behind the passenger kick panel. 2001–02 trucks use an electric front actuator, so the vacuum tests don't apply. On push-button trucks the transfer-case actuator motor can quit when its magnets come loose. One owner rebuilt his (1996 Limited, A340F, actuator 36410-35040) by re-gluing the magnets and fitting a new O-ring.
+Tools: Hand vacuum pump with gauge · test light · marker · 12 mm and 10 mm sockets · dielectric grease
+
+#### Rear hatch window drops or won't rise
+Difficulty 2 / 5 · time An afternoon · cost Parts plus labor; owners hunt used relays and switches to save money
+Symptoms: The back glass drops into the hatch and won't come up, often in wet weather, or lowers itself unasked.
+Fix: Start with the fuse and the rear-door power-window relay. One 1997 SR5 owner on Toyota-4Runner.org found the relay shell melted and burned wires at the window limit switch, with the damage spread into neighbouring harness wires to the rear door ECU. Pull the hatch trim, repair the harness, then feed the motor 12 V directly, using the wiring diagram to pick the right leads. That tells you whether the motor or the controls are at fault. If the window drops by itself, another owner cured it by removing the short harness section between the hatch key lock and the hatch harness; after that the window works only from the dash switch. The thread gives the limit switch as Toyota 84290-35020.
+Tools: Trim-panel tools · multimeter · fused 12 V jumper leads · soldering iron or crimper · heat-shrink
+
 ### Baseline service
-Assume nothing on a 20-plus-year-old 4Runner: unless there are receipts, do the timing belt, every fluid and the cheap 5VZ-FE wear items in one go. The 5VZ-FE is non-interference, but a 90,000-mile belt interval means most trucks are on their third or fourth belt — or overdue on their second. Capacities below are Toyota owner's-manual figures compiled by Toyota-Club.net.
-- Engine oil & filter: API SJ or later · ≈5.2 L (5.5 US qt) with filter · viscosity [CONFIRM IN MANUAL] · Then every 5,000 mi or per the owner's manual (Spin-on filter on the 5VZ-FE. Check for valve-cover seepage while you're there (see repairs).)
+Assume nothing on a 20-plus-year-old 4Runner: unless there are receipts, do the timing belt, every fluid and the cheap 5VZ-FE wear items in one go. The 5VZ-FE is non-interference, but with a 90,000-mile belt interval most trucks are on their third or fourth belt, or overdue on their second. Capacities below come from Toyota's own 1999–2002 owner's manuals, cross-checked against Toyota-Club.net's compilation.
+- Engine oil & filter: API SJ/SL 'Energy-Conserving' or ILSAC multigrade · SAE 5W-30 preferred · 5.2 L (5.5 US qt) with filter (Toyota owner's manual) · Then every 5,000 mi or per the owner's manual (Spin-on filter on the 5VZ-FE. Check for valve-cover seepage while you're there (see repairs).)
 - Engine air filter: Panel filter in the airbox · Inspect at every oil change; replace when dirty (Dusty-trail trucks clog these fast.)
 - Cabin air filter (add-on): None from the factory · Optional add-on (AdventureTaco notes the 3rd gen 4Runner never had a cabin filter; their kit fits in the blower-motor housing under the glovebox (three T25/8 mm screws).)
-- Spark plugs: Denso K16TR11 (Toyota 90919-01192) · gap 1.1 mm (Toyota-Club plug table, 5VZ-FE 4Runner) · Replace now if history unknown (Six plugs; Toyota-Club lists the same plug for the 5VZ-FE in the 1999–2003 Tundra and the Hilux Surf.)
+- Spark plugs: Denso K16TR11 (Toyota 90919-01192) or NGK BKR5EKB-11 · gap 1.1 mm (0.043 in) (Toyota 2001–02 owner's manuals; Toyota-Club plug table) · Replace now if history unknown (Six plugs; Toyota-Club lists the same plug for the 5VZ-FE in the 1999–2003 Tundra and the Hilux Surf.)
 - Timing belt, water pump & thermostat: Belt 13568-69095 · Aisin pump · 82 °C thermostat 90916-03075 · Every ≈90,000 mi (or now, if undocumented) (Do the pump, idlers, hydraulic tensioner, cam/crank seals and thermostat with the belt — AdventureTaco's OEM kit list. See the repair card above for the procedure.)
 - Coolant: Toyota red Long Life Coolant (00272-1LLAC concentrate, mixed with distilled water) · 8.0 L (9.0 L with rear heater) · Drain and refill now; renew with every timing belt (AdventureTaco refilled with two gallons of red concentrate plus distilled water after the belt job. Don't mix in green conventional coolant.)
 - Drive belts: A/C 99364-20870 · alternator 90080-91090 · power steering 90080-91126 · Replace with the timing belt (All three come off for the timing job anyway; part numbers from AdventureTaco's OEM kit.)
 - Automatic / manual transmission: Automatic: ATF Dexron II/III · ≈2.0 L per drain and refill (4WD). Manual: 75W-90 GL-4/5 · 2.2 L · Drain and refill now, then per the owner's manual (A drain and refill replaces only part of the automatic's fluid, so on a truck with unknown history repeat it two or three times over a few hundred miles rather than one high-pressure flush.)
 - Transfer case: 75W-90 GL-4/5 · 1.0 L (lever control) / 1.2 L (lever + button control) · Change now, then with the diffs (Crack the fill plug before you drain.)
-- Front & rear differentials + rear breather: Hypoid 80W-90 GL-5 · front 1.15 L · rear 2.45 L (no locker) / 2.75 L (with E-locker) · Change now; after any deep water crossing (The rear axle's breather sits on the housing and can suck in water when a hot diff is submerged. AdventureTaco's fix: a union plus hose run up to a breather plug behind the fuel door.)
+- Front & rear differentials + rear breather: Hypoid GL-5 · front 1.15 L: owner's manual gives SAE 75W-90 for A.D.D. trucks, Toyota-Club lists 80W-90 · rear 2.45 L (no locker) / 2.75 L (with locker): SAE 90 above −18 °C, SAE 80W or 80W-90 below (owner's manual) · Change now; after any deep water crossing (The rear axle's breather sits on the housing and can suck in water when a hot diff is submerged. AdventureTaco's fix: a union plus hose run up to a breather plug behind the fuel door.)
 - Power steering fluid: ATF Dexron II/III · Check; turkey-baster refresh if dark (Same fluid as the automatic transmission.)
 - Brake fluid: DOT 3 or DOT 4 · Flush now if history unknown, then per the owner's manual (Rear drums: inspect for gear oil on the shoes (see rear axle seals).)
 - Fuel filter: Toyota 23300-62030 (4Runner-specific bracket; Tacoma's differs) · With the timing belt (≈90,000 mi); every 30,000 mi in very dusty country (Frame-mounted; 14 mm flare-nut wrench plus a 19 mm to hold the filter. AdventureTaco skips the FSM's fuel-pump-disconnect step and catches the spill.)
@@ -584,7 +634,7 @@ Q: What fuel economy should I expect?
 A: EPA ratings were around 17 city / 19 highway for the 1996 V6 and 16/19 for a 2002 SR5 4x4; owners typically report 16–18 mpg. The 18.5-gallon tank and a notoriously inaccurate fuel gauge mean range is modest, so carry a jerry can on long trips.
 
 Q: What are the fluid capacities?
-A: Per Toyota-Club's US-spec 180-series data: 5VZ-FE oil with filter 5.2 L (3RZ-FE 5.4 L); front diff 1.15 L of GL-5 80W-90; rear diff 2.45 L (2.75 L with diff lock) of GL-5 80W-90; transfer case 1.0–1.2 L of 75W-90; automatic transmission drain-and-fill about 2.0 L (4WD) of Dexron II/III.
+A: From Toyota's 1999–2002 owner's manuals: 5VZ-FE oil 5.2 L with filter (5W-30 preferred); coolant 8.0 L (9.0 L with rear heater); automatic drain-and-refill up to 2.0 L (4WD) of Dexron III/II; transfer case 1.0–1.2 L of GL-4/5 75W-90; front diff 1.15 L, where the manual gives 75W-90 for A.D.D. trucks and Toyota-Club gives 80W-90; rear diff 2.45 L (2.75 L with diff lock) of GL-5 SAE 90, or 80W-90 below −18 °C.
 
 Q: Which years should I buy or avoid?
 A: Forum favourites are 1999–2000 trucks, especially Limiteds or SR5s with the Multi-Mode case and E-locker. 1996–98 trucks are simpler and cheaper to fix. 2001–02 get VSC and traction control but lose the locker and manual, and some owners prefer the simpler earlier drivetrain. Condition and rust matter far more than model year.
@@ -637,6 +687,14 @@ A: With maintenance, a long time. SlashGear notes it consistently ranked among t
 - Toyota-Club.net — Spark plug application table: https://toyota-club.net/files/techdata/plugs/index_eng.htm
 - NHTSA recalls API — Toyota 4Runner 1997 (02V-021 / Toyota SSC 20A): https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1997
 - NHTSA recalls API — Toyota 4Runner 2001 (05V-225 / recall 50J): https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2001
+- Toyota — 1999 4Runner owner's manual (Toyota-hosted PDF): https://assets.sia.toyota.com/publications/en/om-s/OM35749U/pdf/OM35749U_edited.pdf
+- Toyota — 2001 4Runner owner's manual OM35768U (Toyota-hosted PDF): https://assets.sia.toyota.com/publications/en/om-s/OM35768U/pdf/OM35768U.pdf
+- Toyota — 2002 4Runner owner's manual OM35787U (Toyota-hosted PDF): https://assets.sia.toyota.com/publications/en/om-s/OM35787U/pdf/OM35787U.pdf
+- AMSOIL product guide — 2002 Toyota 4Runner 3.4L 5VZ-FE: https://www.amsoil.com/lookup/auto-and-light-truck/2002/toyota/4-runner/3-4l-6-cyl-engine-code-5vz-fe-8/
+- Toyota-4Runner.org — 4WD issues (ADD VSV troubleshooting, 1996–2000): https://www.toyota-4runner.org/threads/4wd-issues.182929/
+- Toyota-4Runner.org — 4WD, ADD: troubleshooting and actuator rebuild: https://www.toyota-4runner.org/3358467-post1.html
+- Expedition Portal — No 4WD light, no 4WD (1998 4Runner SR5): https://forum.expeditionportal.com/goto/post?id=1009527
+- Toyota-4Runner.org — Rear window stuck down (1997 4Runner): https://www.toyota-4runner.org/3136109-post7.html
 - Wikipedia — Toyota 4Runner: https://en.wikipedia.org/wiki/Toyota_4Runner
 - NHTSA recalls API — Toyota 4Runner 1996: https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=1996
 - NHTSA recalls API — Toyota 4Runner 2001: https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2001
@@ -651,6 +709,9 @@ A: With maintenance, a long time. SlashGear notes it consistently ranked among t
 - Rising Sun 4WD Club of Colorado: https://risingsun4x4club.org/
 - Toyota Jamboree: https://toyotajamboree.com/
 - C4 Fabrication — C4 at Toyota Jamboree 2026: https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026
+- Toyota — 1999 4Runner owner's manual (Toyota-hosted PDF): https://assets.sia.toyota.com/publications/en/om-s/OM35749U/pdf/OM35749U_edited.pdf
+- Toyota — 2001 4Runner owner's manual OM35768U (Toyota-hosted PDF): https://assets.sia.toyota.com/publications/en/om-s/OM35768U/pdf/OM35768U.pdf
+- Toyota — 2002 4Runner owner's manual OM35787U (Toyota-hosted PDF): https://assets.sia.toyota.com/publications/en/om-s/OM35787U/pdf/OM35787U.pdf
 
 ## Toyota 4Runner 4th Gen (2003–2009)
 URL: https://boxytrucks.com/models/4runner/4th-gen/
@@ -8113,9 +8174,21 @@ Symptoms: Temperature climbing on hills, when towing or at idle with the A/C on;
 Fix: OffroadXtreme lists an insufficient cooling system among the ZJ's common problems. Pressure-test the system and check the radiator for blocked fins and leaking tanks. Replace the thermostat, check the fan clutch (or the electric fan on a 5.9) and replace old hoses. Then fill with the correct coolant and bleed out the air. ExtremeTerrain lists 12 quarts for the 4.0 and 14.9 for the V8s.
 Tools: Cooling-system pressure tester · drain pan · hose-clamp pliers · funnel
 
+#### Stalling at speed: check the crankshaft position sensor
+Difficulty 2 / 5 · time About an hour, once diagnosed · cost Parts plus labor
+Symptoms: The engine cuts out without warning, often warm and sometimes at highway speed. It may restart after sitting, or crank but not start. NHTSA's complaint file holds dozens of ZJ stalling reports in which the crankshaft position sensor was replaced, sometimes more than once (e.g. ODI 878399, 10460757).
+Fix: Read any stored codes first (1996–98 trucks are OBD-II). Then inspect the sensor's harness for chafing and heat damage. One 1995 owner traced his stalling to a broken front motor mount that let the engine tug on the crank-sensor leads until they chafed through and shorted (NHTSA ODI 784679), so check the mounts too. If the wiring and mounts are good, replace the sensor. Stalling has other causes, including a failing fuel pump (see below), so confirm the diagnosis before you buy parts.
+Tools: OBD-II scanner (1996–98) · multimeter · sockets and extensions · flashlight
+
+#### Fuel pump failure and a flaking tank
+Difficulty 3 / 5 · time Half a day (tank drop) · cost Parts plus labor; one 1995 owner reported $600 for the pump plus $300 to flush the tank (NHTSA ODI 761423)
+Symptoms: Hesitation, low fuel pressure, stalling or a crank-no-start, and replacement pumps that keep failing. Fuel-pump complaints to NHTSA cluster on 1995–96 trucks. Several owners were told debris from inside the plastic tank had clogged the pump (ODI 756730, 8001105, 758045).
+Fix: Confirm low pressure with a gauge before you condemn the pump. Run the tank low, support it, disconnect the lines and straps, lower it and pull the pump module. Look inside the tank: if the lining is flaking or there's sediment, clean or replace the tank, or the new pump will clog too. Several owners went through multiple pumps before the tank was dealt with. Fit a new strainer with the pump and replace rusty straps. While the tank is down, check that recall 13V-252 (rear-impact fuel tank protection) was done.
+Tools: Fuel-pressure gauge · floor jack and tank support · fuel-line disconnect tools · sockets · drain can
+
 ### Baseline service
-Most ZJs have done 150,000 miles or more and been through several owners, so assume nothing has been done. ExtremeTerrain's ZJ capacity guide gives the factory fluids and capacities below. Check its V8 oil figures against your owner's manual, and service the transfer case and both axles even if the seller says they were done.
-- Engine oil & filter: 5W-30 or 10W-30 · 4.0: 5 qt · 5.2: 4 qt · 5.9: 6 qt with filter (ExtremeTerrain) [CONFIRM IN MANUAL] · Baseline now; then every 3,000–5,000 mi (While the filter is off a 4.0, look for oil around the filter adapter O-rings.)
+Most ZJs have done 150,000 miles or more and been through several owners, so assume nothing has been done. ExtremeTerrain's ZJ capacity guide gives the factory fluids and capacities below. For engine oil, ExtremeTerrain and AMSOIL's application guide disagree on every engine's capacity, so fill to the dipstick and check your owner's manual. Service the transfer case and both axles even if the seller says they were done.
+- Engine oil & filter: 5W-30 or 10W-30 (AMSOIL: 10W-30 above −18 °C, 5W-30 below 16 °C) · capacity with filter, sources disagree: ExtremeTerrain 4.0 5 qt · 5.2 4 qt · 5.9 6 qt; AMSOIL (1998) 4.0 6 qt · 5.2 5 qt · 5.9 5 qt [CONFIRM IN MANUAL] · Baseline now; then every 3,000–5,000 mi (While the filter is off a 4.0, look for oil around the filter adapter O-rings.)
 - Air filter: Drop-in panel element · Baseline now; inspect every oil change (Check the airbox and intake tube for cracks.)
 - Spark plugs & ignition: Copper plugs · 4.0 gap 0.035 in (0.89 mm) · V8 gap 0.040 in (1.0 mm) · Baseline now (ExtremeTerrain lists NGK or Champion copper plugs. Replace the cap, rotor and wires on a truck with no records.)
 - Coolant, thermostat & hoses: 50/50 IAT coolant · 4.0: 12 qt · V8: 14.9 qt (ExtremeTerrain) · Flush and refill now (ExtremeTerrain says flush the system completely if you change coolant types.)
@@ -8146,7 +8219,7 @@ Q: How much can it tow?
 A: Wikipedia says the 5.2 V8 was rated for up to 5,000 lb at launch, and the 4.0 was rated for 5,000 lb by 1995. Check the trailer-tow package and your owner's manual. The fuel-tank recall (13V-252) remedy was a Chrysler-designed hitch, so many trucks already have one.
 
 Q: What fluids and capacities does it take?
-A: ExtremeTerrain's ZJ guide: 5W-30 or 10W-30 oil (5 qt for the 4.0), 50/50 IAT coolant (12 qt six, 14.9 qt V8), ATF+4 in the automatics and transfer cases (1.1–1.5 qt), 80W-90 in the axles with 4 oz of friction modifier for a Trac-Lok, and a 23-gallon tank of 87 octane. The 5.9 needs premium fuel.
+A: ExtremeTerrain's ZJ guide: 5W-30 or 10W-30 oil, 50/50 IAT coolant (12 qt six, 14.9 qt V8), ATF+4 in the automatics and transfer cases (1.1–1.5 qt), 80W-90 in the axles with 4 oz of friction modifier for a Trac-Lok, and a 23-gallon tank of 87 octane. The 5.9 needs premium. Oil capacity is disputed: ExtremeTerrain gives 5 qt for the 4.0, while AMSOIL's 1998 lookup gives 6 qt (and 5 qt for both V8s), so fill to the dipstick.
 
 Q: Which rear axle do I have?
 A: Check the tag or count the cover bolts; don't guess. Offroaders.com lists the Dana 35 and Chrysler 8.25 in ZJs. Dana 44 rear-axle parts are catalogued for 1996–98 ZJs, and ExtremeTerrain's capacity guide covers both the Dana 35 and 44. The front is a Dana 30.
@@ -8182,6 +8255,12 @@ A: Not much. Nineteen ZJs sold on Bring a Trailer between October 2025 and Octob
 - FuelEconomy.gov — 1993–1998 Jeep Grand Cherokee 4WD: https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1993&year2=1998&make=Jeep&baseModel=Grand%20Cherokee
 - NHTSA recalls API — Jeep Grand Cherokee 1993–1998: https://api.nhtsa.gov/recalls/recallsByVehicle?make=jeep&model=GRAND%20CHEROKEE&modelYear=1996
 - Bring a Trailer — Jeep ZJ Grand Cherokee results: https://bringatrailer.com/jeep/grand-cherokee/
+- AMSOIL product guide — 1998 Grand Cherokee 4.0L: https://www.amsoil.com/lookup/auto-and-light-truck/1998/jeep/grand-cherokee/4-0l-6-cyl-engine-code-s-s/
+- AMSOIL product guide — 1998 Grand Cherokee 5.2L: https://www.amsoil.com/lookup/auto-and-light-truck/1998/jeep/grand-cherokee/5-2l-8-cyl-engine-code-y-y/
+- AMSOIL product guide — 1998 Grand Cherokee 5.9L: https://www.amsoil.com/lookup/auto-and-light-truck/1998/jeep/grand-cherokee/5-9l-8-cyl-engine-code-z-z/
+- NHTSA complaints API — 1995 Jeep Grand Cherokee (fuel pump / tank, crank sensor): https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1995
+- NHTSA complaints API — 1996 Jeep Grand Cherokee (fuel pump, crank sensor): https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1996
+- NHTSA complaints API — 1993 Jeep Grand Cherokee (crank sensor): https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1993
 - Wikipedia — Jeep Grand Cherokee (ZJ): https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(ZJ)
 - TireSize.com — 1993, 1996 and 1998 Grand Cherokee original tire sizes: https://tiresize.com/tires/Jeep/Grand-Cherokee/1996/
 - Quadratec — Jeep wheel bolt patterns and lug nut torque specs: https://www.quadratec.com/c/reference/jeep-wheel-bolt-patterns-and-lug-nut-torque-specs
@@ -10412,7 +10491,7 @@ Both trucks share the 40 Series mechanicals: leaf-sprung live axles, closed-knuc
 - Judge the old repairs: Replacement panels generally don't exist for the FJ55, so past rust repairs were fabricated. Look closely at how well they were done, since redoing them is expensive.
 - Trim and seals: Weatherstripping and trim are hard to find. A truck with complete trim is worth more than its paint suggests.
 - Interior condition: Vinyl seats tear and original dash tops and rubber mats go brittle. Original, undamaged interiors are the most desirable.
-- Test the tailgate window: The FJ55's power tailgate window works from a dash switch or the key. Make sure it does.
+- Test the tailgate window: The FJ55's power tailgate window works from a dash switch or the key. Make sure it does, with the tailgate both up and down. A dead window is often a stuck safety switch or a corroded power strip, but it can also be a stripped regulator (see the repair below).
 - Brakes: Stock drums are adequate if they work well and the powertrain is stock. Disc upgrades are common and parts are easy to find; check what's been fitted and how.
 - Engine health: The F and 2F are durable with basic maintenance and periodic valve adjustments. Compression matters more than mileage, and mechanical repairs are cheap next to rust repair.
 - Know which truck it is: Check the wheelbase and engine code against the chassis plate: FJ45 wagons, pickups and diesel HJ/BJ versions differ, and export-spec trucks are sometimes misidentified.
@@ -10453,6 +10532,18 @@ Difficulty 3 / 5 · time ≈ A day · cost OME FJ45 2" kits about $2,300–2,700
 Symptoms: Sagging, cracked or S-shaped leaf springs and worn bushings.
 Fix: Old Man Emu's FJ45 kits (1963–80 and 1980–84) include springs, shocks, greaseable shackles and pins, bushings, U-bolts and a steering damper. Cruiser Corps notes the OEM round washer must be used at the spring-to-frame pin instead of OME's teardrop washer. Confirm fitment before ordering parts for an FJ55, which isn't listed for these kits.
 Tools: Jacks and stands · breaker bar · ARB-120 (FJ45 1963–1980) or equivalent kit · bushing kit
+
+#### Clutch master and slave cylinders
+Difficulty 2 / 5 · time ≈ Half a day including bleeding · cost Aisin master about $115 and slave about $35 (Cruiser Corps); OEM master rebuild kit about $51
+Symptoms: A clutch that slowly loses pressure, has to be double-pumped to shift without grinding, or a pedal that sinks. Look for fluid under the dash or around the slave on the bellhousing.
+Fix: Off-Road.com's FJ40 project, which shares the early clutch hydraulics with the FJ45, replaced the master, the slave and the hose. Pump the old fluid out. Unbolt the slave (two bolts), fit the new one with thread-locker and set the fork pushrod with its locknut. Free the old line with penetrating oil and flare-nut wrenches. Under the dash, pull the cotter pin and spring at the pedal, then remove the three 12 mm master bolts. Fit the new master with a new cotter pin, connect the line and don't overtighten the banjo bolt. Fill with DOT 3, bleed at the slave with a helper, then adjust the pedal rod and slave pushrod. Bench-bleed the new master, and keep the pedal down until the bleeder is closed. Check fitment by build date: Cruiser Corps lists this master for 1970–75 trucks and the slave for 1974–80.
+Tools: 12 mm socket and wrench · 12 mm and 16 mm flare-nut wrenches · needle-nose pliers · bleeder hose and bottle · thread-locker · DOT 3 fluid
+
+#### FJ55 power tailgate window won't move
+Difficulty 3 / 5 · time An afternoon to a weekend · cost Often only cleaning, wiring and a power strip; a used motor or regulator if the gear is stripped
+Symptoms: The rear glass won't go up or down from the dash switch or the key. It may work only with the tailgate down. Or you hear the motor clunk while the glass stays put.
+Fix: IH8MUD members work from the simple stuff inwards. The tailgate has a safety switch: the motor won't run unless its plunger is pushed in. Slop in the gate or a broken plastic actuator can leave the switch open. Next, check the power strip and the harness where it flexes at the hinge; one owner found his strip 'rotten' and replaced it. A meter will tell you whether power reaches the motor when you press the dash switch. If the motor runs on direct battery power but the glass doesn't move, suspect a stripped regulator gear. Members say the glass tray has to be separated from the regulator by driving out two clips, and that the mechanism is often packed with old grime. Be gentle with the glass: one owner broke a donor truck's window getting it down.
+Tools: Screwdrivers · multimeter · jumper leads and a 12 V battery · drift and hammer for the tray clips · grease
 
 ### Baseline service
 Every FJ45 or FJ55 is now 40 to 60 years old, so start from zero: change every fluid, grease every fitting and set the valves. Fluid types and capacities below are from Toyota publications as compiled on IH8MUD for the 40 and 55 series; the FJ55 shares the FJ40's F/2F engine and driveline lubricants.
@@ -10527,6 +10618,12 @@ A: Yes. Truck Encyclopedia describes the super-long-wheelbase FJ45 as a major mi
 - IH8MUD — Oil capacity, '70 or '80 FJ40: https://forum.ih8mud.com/threads/oil-capacity-70-or-80-fj40.1327647/
 - Wikipedia — Toyota F engine: https://en.wikipedia.org/wiki/Toyota_F_engine
 - Cruiser Corps — Outer rocker panel, left, FJ55 1968–79: https://cruisercorps.com/products/fj55-left-rocker
+- Off-Road.com — Project FJ40 Cruiser: clutch system upgrade: https://off-road.com/trucks-4x4/project/project-fj40-cruiser-clutch-system-upgrade-52652.html
+- IH8MUD — Clutch won't bleed: https://forum.ih8mud.com/threads/clutch-wont-bleed.533320
+- Cruiser Corps — Aisin clutch master, FJ40/45/55 1970–75: https://cruisercorps.com/products/aisin-clutch-master
+- Cruiser Corps — Clutch release/slave cylinder, FJ40/45/55 1974–80: https://cruisercorps.com/products/aisin-clutch-release-slave-cylinder
+- IH8MUD — Rear window issue (FJ55): https://forum.ih8mud.com/threads/rear-window-issue.340347/
+- IH8MUD — Rear window (FJ55 regulator): https://forum.ih8mud.com/threads/rear-window.820363/
 - Wikipedia — Toyota Land Cruiser (J40): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J40)
 - Wikipedia — Toyota Land Cruiser: https://en.wikipedia.org/wiki/Toyota_Land_Cruiser
 - Hagerty — Toyota Land Cruiser FJ55 buyer's guide: https://hagerty.com/media/?p=158314
@@ -12322,6 +12419,18 @@ Symptoms: Rubbing at full lock or compression after fitting tires over about 33 
 Fix: Threepiece's fitment guide: remove the mud flaps, crush brackets and canards (they bolt or clip on and can go back later). Invert and heat-form the plastic fender liners. If you still need room, radius the back of the front fenders or trim a few inches from the front bumper. Offset matters: the guide's 35-inch example on a stock-height 1958 used 17x8 +25 wheels, and it warns that near-zero offsets add a lot of poke. Get an alignment afterwards.
 Tools: Socket set · trim tools · heat gun · cutting tool · 17-inch or 18-inch wheels with the right offset (6x139.7, 95.1 mm bore, M14x1.5 lugs).
 
+#### Sunroof leak and a damp headliner
+Difficulty 2 / 5 · time ≈ 1 hour to clean the drains; a dealer visit if the seal is at fault · cost Free to clean; seal work under warranty
+Symptoms: Water dripping through the overhead console with the roof shut, a damp headliner or passenger footwell, or a musty smell after rain. NHTSA complaints include a rear section of the sunroof that doesn't seal and a cabin that smells of mildew every time it rains.
+Fix: Open the roof and clean out the housing, especially the corners where the drains are. One LandCruiserForum owner found his corner drains plugged with leaves and plant matter, so water overflowed into the headliner. He cleared it with rags, a shop vac and compressed air. Keep the seals clean and the drains clear. If water still gets in once the drains are clear, it's a warranty job: UK owners report dealers removing the glass and fitting a new seal under Toyota's instructions, and one says his dealer found a TSB involving new sealant (no number was given). Some trucks needed more than one visit.
+Tools: Shop vac · compressed air · rags · flashlight
+
+#### Quiet a vibrating driver's mirror
+Difficulty 1 / 5 · time ≈ 30 minutes · cost A few dollars in thin plastic and felt
+Symptoms: At highway speed the driver's mirror glass shakes enough to blur the view. Owners say the passenger side is solid. One NHTSA complainant says the dealer confirmed it and called it common to all Land Cruisers.
+Fix: Report it to the dealer first, while it's under warranty. On LandCruiserForum, dealers have tightened the mirror or replaced the whole assembly, sometimes twice, without curing it. Owners think the driver-side assembly simply has too much play, and their fix is a shim. One member cut a C-shaped piece of thin plastic lid with peel-and-stick felt on both faces and reported about a 90% reduction, with a little shake left on rough roads. Another used a roughly 1.6 mm Rubbermaid lid and says pivoting the mirror forward makes it easier to fit. A bare plastic shim rubbed the paint when the mirror folded, so use the felt.
+Tools: Scissors or a craft knife · thin plastic lid · adhesive felt
+
 ### Baseline service
 Even a low-mileage 250 is worth baselining. Many owners change the factory oil early, and the diff and transfer fluids are rarely touched under the 'inspect only' schedule. Specs below are from Toyota's US 2024 Land Cruiser Owner's Manual (OM60U35U) and its Warranty & Maintenance Guide for the i-FORCE MAX hybrid (T24A-FTS).
 - Engine oil & filter: ILSAC GF-6A SAE 0W-20 (5W-20 only as a stopgap) · 5.9 qt with filter · Then every 10,000 mi / 12 months; 5,000 mi for dusty or towing use (Toyota) (Remove the front skid plate. Check the level with the hybrid system off after about 5 minutes. Many owners do the first change early, at 1,000–1,500 mi.)
@@ -12406,6 +12515,9 @@ A: It's early days. Recalls so far are an instrument-cluster software update, a 
 - LandCruiserForum.com — 2024 Toyota Land Cruiser manual links: https://www.landcruiserforum.com/threads/orange-book-2024-toyota-landcruiser-manual-links.488/
 - Toyota.com — 2027 Land Cruiser (grades, base MSRP, standard rear and center lockers): https://www.toyota.com/vehicles/landcruiser/2027
 - NHTSA — Recall 26V673000 (fuel tube connection), campaign lookup: https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V673000
+- LandCruiserForum — Land Cruiser 250 First Edition sunroof leak: https://www.landcruiserforum.com/threads/land-cruiser-250-first-edition-sunroof-leak.7444/page-2
+- LandCruiserForum — Side mirror vibration anyone?: https://www.landcruiserforum.com/threads/side-mirror-vibration-anyone.669/page-3
+- NHTSA — Complaints API, 2025 Toyota Land Cruiser: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=toyota&model=land%20cruiser&modelYear=2025
 - Wikipedia — Toyota Land Cruiser Prado (J250): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado
 - Toyota — 2024 Land Cruiser Owner's Manual (OM60U35U): https://assets.sia.toyota.com/publications/en/om-s/OM60U35U/pdf/OM60U35U.pdf
 - Toyota USA Newsroom — Five Things To Know About the All-New 2024 Toyota Land Cruiser: https://pressroom.toyota.com/five-things-to-know-about-the-all-new-2024-toyota-land-cruiser/
@@ -12483,9 +12595,11 @@ The 300 keeps the formula that made the name: a separate ladder frame, full-time
 - 2021: Unveiled 9 June 2021 on the GA-F frame, about 200 kg lighter than the 200. V8s are dropped for the 3.4 V35A-FTS twin-turbo petrol V6 and 3.3 F33A-FTV twin-turbo diesel V6 with a 10-speed automatic
 - 2021: Japan sales from 2 August; GR Sport added, the first Land Cruiser grade with front and rear diff locks on top of the centre lock [buy]
 - 2021: Australian launch on 5 October in GX, GXL, VX, Sahara, GR Sport and Sahara ZX grades
+- 2024: February: Toyota pauses shipments of the F33A-FTV diesel and the 300s and LXs that use it after Toyota Industries finds irregularities in engine certification testing
 - 2024: The smaller J250 takes over the Land Cruiser name in North America; the 300 is never offered in the US or Canada
 - 2025: Hybrid powertrain introduced, debuting in the UAE with a redesigned front fascia
 - 2026: Updated Japanese range from 1 October: hybrid in ZX and GR Sport; diesel in ZX, GR Sport and GX
+- 2026: Performance Hybrid reaches Australia in GR Sport and Sahara ZX grades: 3.4 twin-turbo V6 plus a 36 kW motor, 341 kW/790 Nm combined, 3,500 kg towing
 
 ### Capability
 - Towing: 3,500 kg (7,716 lb) braked (same as the 200)
@@ -12503,11 +12617,12 @@ The 300 keeps the formula that made the name: a separate ladder frame, full-time
 ### Buying checks
 - Accept that it's an LX in the US: The 300 isn't sold in the US or Canada and can't be legally imported under the 25-year rule for a long time. For North American buyers, the LX 600 or LX 700h is the 300 Series you can actually buy.
 - Run the VIN against the V35A recalls: NHTSA campaigns 24V381 and 25V767 cover V35A engines in which machining debris can damage the main bearings, causing knocking, rough running, a no-start or a stall. 25V767 lists 9,895 2022–2024 LX models built from 26 February 2022 to 2 April 2024; 24V381 covered earlier engines. Ask whether the engine has already been replaced, which several IH8MUD members' trucks have had.
-- Check the transmission software recall: NHTSA 26V094000 (Lexus 26LA01) covers about 4,400 2025–26 LX 600s: if a transmission solenoid fails, the transmission and engine ECUs can lose communication and the transmission can damage itself. Dealers update the transmission ECU software for free.
+- Check the transmission software recall: NHTSA 26V094000 (Lexus 26LA01) covers about 4,400 2025–26 LX 600s: if a transmission solenoid fails, the transmission and engine ECUs can lose communication and the transmission can damage itself. Dealers update the transmission ECU software for free. In Australia, Toyota recalled 11,020 300s built from February to December 2025 for the same kind of fault. A failed solenoid can let the transmission over-rev, damaging it or leaking fluid onto the hot exhaust; dealers reprogram the transmission ECU (CarExpert, February 2026).
 - Test-drive in traffic, not just on the highway: Owners of 2022–24 LX 600s describe a clunk into first gear and hesitation when accelerating from a rolling stop. Some blame the pre-collision system intervening. Drive one through a few stop-and-go junctions before you buy. Owners say the LX 700h hybrid doesn't do it.
 - Work the rear hatch: One IH8MUD owner's power hatch beeped and refused to close. The cause was a sticking left-side pinch sensor, which was replaced. Open and close it several times.
 - AHC or not, and which locker count?: Many LX trims have height-adjustable AHC suspension, and armor is specific to it: Slee sells separate non-AHC LX 600 sliders, for example. Overtrail and GR Sport trucks have front and rear lockers; standard trucks have only the center lock. Know which one you're buying.
 - Ask about fluid changes: Owners on IH8MUD do early differential and transfer-case changes (around 20,000–30,000 miles) after reports of debris in Tundra differential oil. Records of early oil and gear-oil changes, or oil-analysis reports, are a good sign.
+- Diesel: how was it driven?: Ask whether a diesel 300 lived in town or towed heavy. Short trips are hard on the DPF and EGR, and heat soak from heavy towing or sand work is linked to bearing wear (Unsealed 4X4). Check the oil level, ask how much it uses between services, and confirm software updates and recall work are done. Look at the fuel-filter area for damage or a guard.
 
 ### Common repairs
 #### Transfer case and front diff fluid service
@@ -12546,9 +12661,21 @@ Symptoms: Delayed or missing throttle response, or a clunk into first, when acce
 Fix: As an interim fix until Lexus updates the software, owners set the pre-collision system (PCS) to its minimum distance using the screen in front of the driver; turning PCS off also works but loses a safety system. Some use Carista to keep the PCS setting across restarts (and to quiet the ventilated-seat fans). Make sure any software recall is done first.
 Tools: None, or an OBD-II dongle with Carista.
 
+#### Diesel: keep the DPF and EGR healthy
+Difficulty 2 / 5 · time A weekly highway run; an intake clean is a workshop job · cost Workshop labor for the intake clean
+Symptoms: Loss of power, a check-engine light or limp mode on an F33A diesel, sometimes with extra smoke and fuel use.
+Fix: Unsealed 4X4 puts most of it down to town driving: repeated stop-start trips can stop the DPF from finishing a regeneration, and the EGR slowly chokes the intake manifold. Its advice is a highway run at least weekly and an intake clean, chemical or manual, at least once a year. The same article reports failures of the 'seventh injector', which sprays diesel into the exhaust to help regeneration. They bring limp mode, smoke and a fault code the dealer has to clear. A Toyota technician told Unsealed it happens to most trucks at around 20,000 km, which the author says he can't verify. Toyota can reportedly tune the problem out, though some owners say it comes back. Make sure all software updates are done.
+Tools: OBD-II scanner to read codes · workshop for the intake clean
+
+#### Diesel: guard the exposed fuel filter
+Difficulty 1 / 5 · time ≈ 5 minutes for a bolt-on guard (maker's claim) · cost GMF4x4 FG-2014 guard A$160 (Frankies Auto Electrics, 2026)
+Symptoms: The engine cuts out off-road and there's a pool of diesel near the right rear wheel.
+Fix: Unsealed 4X4 says the diesel's plastic fuel filter sits by the rear wheel arch, where rocks and sticks can hit it, and recommends an aftermarket protection plate. GMF4x4's FG-2014 is 3 mm powder-coated steel. It bolts on with the supplied hardware and needs no drilling or cutting. If the filter or housing is already cracked, replace it and follow the workshop manual's fuel-priming procedure before you try to restart.
+Tools: Basic socket set
+
 ### Baseline service
 Toyota never sold the 300 in the US, so the specs below are for its US twin, the Lexus LX 600 (same V35A-FTS twin-turbo V6 and 10-speed). They come from AMSOIL's LX 600 lookup and service-data figures posted by IH8MUD owners. Diesel (F33A-FTV) and hybrid trucks differ, and service intervals vary by market, so check your owner's manual. Baselining matters more than usual here because of the V35A machining-debris recall.
-- Engine oil & filter: SAE 0W-20 · ≈7.7 qt with filter · drain plug 30 ft-lb, new plug and gasket · At purchase, then per your market's schedule [CONFIRM IN MANUAL]. Many owners shorten it and send samples for oil analysis. (On a US LX 600, check that engine recall 25LA07/25LB07 has been done. Repeat oil analysis every few changes and keep the reports.)
+- Engine oil & filter: SAE 0W-20 · ≈7.7 qt with filter · drain plug 30 ft-lb, new plug and gasket · At purchase. Toyota Australia's schedule is every 6 months or 10,000 km (CarExpert, 2026); for a US LX and other markets [CONFIRM IN MANUAL]. Many owners shorten it and send samples for oil analysis. (On a US LX 600, check that engine recall 25LA07/25LB07 has been done. Repeat oil analysis every few changes and keep the reports.)
 - Engine air filter: OE-type panel filter · interval [CONFIRM IN MANUAL] · At purchase; more often in dust
 - Cabin air filter: OE-type · At purchase
 - Spark plugs (petrol) / glow plugs (diesel): OE-type iridium plugs (V35A) · interval [CONFIRM IN MANUAL] · Per the maintenance schedule (It's a twin-turbo engine, so don't assume a 120k plug interval.)
@@ -12596,6 +12723,9 @@ A: ANCAP's 2022 rating, aligned with Euro NCAP, scored 89% for adult occupants, 
 Q: What fluids and capacities does it take?
 A: From service data posted by an IH8MUD owner: transfer case 1.89 qt of Toyota LF 75W, front diff 1.23 qt. Owners also report using 0W-20 engine oil. Check your own service manual, since markets and drivetrains differ.
 
+Q: Is the V6 diesel reliable?
+A: Mostly, but it has known issues. Unsealed 4X4's 2026 round-up of owner reports lists DPF and EGR trouble in town driving, oil consumption of up to 1.7 L between services, seventh-injector faults, and a torque dip at about 2,200–2,500 rpm when towing over 3 t, which a Toyota ECU update fixes or at least minimises. It also reports bearing failures linked to heat soak in the hot-vee layout under hard work such as sand driving and heavy towing, though it calls their incidence 'statistically low'. In February 2024 Toyota paused F33A-FTV engine shipments after Toyota Industries found irregularities in certification testing.
+
 ### Sources
 - Wikipedia — Toyota Land Cruiser (J300 section): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser
 - Wikipedia — Lexus LX: https://en.wikipedia.org/wiki/Lexus_LX
@@ -12618,6 +12748,11 @@ A: From service data posted by an IH8MUD owner: transfer case 1.89 qt of Toyota 
 - AMSOIL — 2023 Lexus LX 600 3.4L V35A-FTS fluid lookup: https://www.amsoil.com/lookup/auto-and-light-truck/2023/lexus/lx600/3-4l-6-cyl-engine-code-v35a-fts-1-turbo/
 - NHTSA — Recall 26V094000 (2025–26 LX 600 transmission ECU), campaign lookup: https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V094000
 - NHTSA — Recall 24V381000 (V35A main bearings), campaign lookup: https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=24V381000
+- Unsealed 4X4 — Toyota LandCruiser 300 problems: the faults, fixes and what to look for: https://unsealed4x4.com.au/toyota-landcruiser-300-common-problems/
+- Frankies Auto Electrics — GMF4x4 FG-2014 LandCruiser LC300 fuel filter guard: https://frankiesautoelectrics.com.au/products/gmf4x4-fg-2014-fuel-filter-guard-toyota-landcruiser-lc300
+- CarExpert — Toyota LandCruiser 300 Series recalled due to fire risk: https://www.carexpert.com.au/car-news/toyota-landcruiser-300-series-recalled-due-to-fire-risk
+- CarExpert — Toyota LandCruiser, HiAce, Lexus LX production stopped over engine scandal: https://www.carexpert.com.au/car-news/toyota-landcruiser-hiace-lexus-lx-production-stopped-over-engine-scandal-report
+- CarExpert — 2026 Toyota LandCruiser 300 Performance Hybrid review: https://www.carexpert.com.au/car-reviews/2026-toyota-landcruiser-300-performance-hybrid-review-quick-drive-1
 - Wikipedia — Toyota Land Cruiser (J300 section): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#J300
 - Wikipedia — Grey import vehicle (US 25-year rule): https://en.wikipedia.org/wiki/Grey_import_vehicle
 - CarMag — Toyota Land Cruiser 300 off-road specs released: https://www.carmag.co.za/news/toyota-land-cruiser-300-off-road-specs-released/
@@ -12628,6 +12763,11 @@ A: From service data posted by an IH8MUD owner: transfer case 1.89 qt of Toyota 
 - IH8MUD — Importing LC300 to USA: https://forum.ih8mud.com/threads/importing-lc300-to-usa.1255175/
 - Auto Bild — Toyota Land Cruiser J300 (2022): Vier Jahre Lieferzeit: https://www.autobild.de/artikel/toyota-land-cruiser-j300-2022-vier-jahre-lieferzeit-21159673.html
 - Wikipedia — Lexus LX (J310 US sales, LX 700h Overtrail): https://en.wikipedia.org/wiki/Lexus_LX
+- CarExpert — Toyota LandCruiser 300 Series recalled due to fire risk (Feb 2026): https://www.carexpert.com.au/car-news/toyota-landcruiser-300-series-recalled-due-to-fire-risk
+- CarExpert — Toyota LandCruiser, Tundra recalled (Feb 2024): https://www.carexpert.com.au/car-news/toyota-landcruiser-tundra-recalled
+- CarExpert — Multiple Toyota models recalled (Apr 2022): https://www.carexpert.com.au/car-news/multiple-toyota-models-recalled
+- CarExpert — LandCruiser, HiAce, Lexus LX production stopped over engine scandal (Feb 2024): https://www.carexpert.com.au/car-news/toyota-landcruiser-hiace-lexus-lx-production-stopped-over-engine-scandal-report
+- CarExpert — 2026 Toyota LandCruiser 300 Performance Hybrid review (pricing): https://www.carexpert.com.au/car-reviews/2026-toyota-landcruiser-300-performance-hybrid-review-quick-drive-1
 
 # Land Rover Series & Defender (1948–present)
 URL: https://boxytrucks.com/models/land-rover/
@@ -12763,14 +12903,26 @@ Symptoms: Tyres touching the frame at full lock after fitting larger or wider ty
 Fix: 235/85R16 is the most-recommended size on the Rovers North forum, close to (but a little wider than) the factory 7.50x16 option. If the tyres touch the chassis at full lock, wind out the steering stop bolts on the swivel housings until there's clearance. Expect a slightly bigger turning circle.
 Tools: Spanners · 235/85R16 tyres on suitable rims (tube-type Series rims need tubes; tubeless tyres want rims with safety humps)
 
+#### Steering relay: free it, reseal it, refill it
+Difficulty 3 / 5 · time A day; the radiator has to come out · cost One owner's rebuild cost about $8; a replacement relay was about $100 plus shipping (Rovers North forum)
+Symptoms: Steering that is very heavy or tight, especially on a truck that has stood outside for years, or oil weeping from the bottom of the relay.
+Fix: The relay is the box-shaped unit in the chassis crossmember ahead of the radiator. It isn't the steering box at the foot of the column. Rule out dry ball joints and the steering damper first. Rovers North forum members say the radiator has to come out to reach the relay bracket bolts. A stubborn relay can be rebuilt without pulling it from the chassis, and one owner freed a seized unit with a 3 ft pipe over the arm. Inside, the bushes need lubrication. One owner found his 'bone dry' and could turn the shaft by hand with pliers after the rebuild. For a leak, members say you can remove the retaining ring and bottom plate and fit a new seal without stripping the whole relay. Refill with 90-weight gear oil.
+Tools: Spanners and sockets · ball-joint splitter · 3 ft pipe for leverage · relay seals · 90-weight gear oil
+
+#### Gearbox jumping out of gear: find the cause
+Difficulty 3 / 5 · time An hour for the external checks; a weekend or more if the gearbox comes out · cost Detent springs and adjustments are cheap; internal repairs are parts plus a lot of labor
+Symptoms: The lever pops out of gear, often second or fourth, on the overrun or over bumps. Some owners resort to holding it in, or to a bungee cord on long trips.
+Fix: Start with the cheap checks that Rovers North forum members suggest. Look for play in the gear lever and its mounting: one owner tightened it and it 'totally' stopped jumping out of second. The same owner also found a dragging, bent clutch disc. Next, take off the top PTO cover and check the mainshaft nut for free play; an overdrive has to come off to reach it. With the cover off, inspect the selector forks and detent springs. Worn forks, a loose circlip on the gear cluster or worn synchros mean the box comes out. If the speedo also wanders and transfer-box oil leaks between the handbrake drum and its backing plate, one member says the rear output shaft nut has backed off. It gets 90 ft-lb.
+Tools: Spanners and sockets · torque wrench · top cover gasket · transmission jack if the box has to come out
+
 ### Baseline service
 A Series truck has no service computer and no idea when it was last looked after, so assume nothing: change every oil, grease every nipple and adjust every brake before you trust it. The Series Land Rover owner's 'green bible' (workshop manual) lists the full service schedule; the items below are what owners on LandyZone and Rovers North treat as the catch-up.
-- Engine oil & filter: 20W-50 mineral oil (the period handbook specified a 20W grade) · capacity [CONFIRM IN MANUAL] · Then per manual [CONFIRM IN MANUAL] (Owners stick with mineral oil; one warns that semi-synthetics can loosen old deposits in a worn engine. Petrol and diesel 2.25s use element-type or spin-on filters depending on year.)
+- Engine oil & filter: 20W-50 mineral oil (the period handbook specified a 20W grade) · 2.25: about 1.9 US gal (≈7.2 L) including the filter (Series123); one owner's shop manual gives 13 pints plus 1.8 pints for the filter, which he works out as 7.4 US qt (≈7 L) · Then per manual [CONFIRM IN MANUAL] (Owners stick with mineral oil; one warns that semi-synthetics can loosen old deposits in a worn engine. Petrol and diesel 2.25s use element-type or spin-on filters depending on year.)
 - Air cleaner: Oil-bath canister on most trucks · refill grade [CONFIRM IN MANUAL] · Clean and refill at every oil change; more often in dust (If a previous owner swapped to an SU carburettor, check the SU dashpot has oil too.)
 - Ignition (petrol): Points gap and timing per manual · plugs N12Y (8:1 CR) or N8 (7:1 CR) · Check points and timing at every service (Owners list checking the points gap as a routine job; match the plug to your engine's compression ratio.)
 - Heater plugs (diesel): 2.25 diesel heater plugs · Test at purchase; replace failed plugs (Hard cold starts on a 2.25 diesel usually mean heater plugs before anything more expensive.)
 - Coolant: Antifreeze mix [CONFIRM IN MANUAL for type and capacity] · Flush and refill now; then per manual (Check the block drain plug and core plugs for weeps while it's drained.)
-- Gearbox & transfer box: EP90 gear oil · capacity [CONFIRM IN MANUAL] · Drain and refill now; then per manual (Check the transfer box output seal: oil leaking past it soaks the transmission handbrake shoes. Owners buy EP90 in 20 L drums because a Series uses a lot of it.)
+- Gearbox & transfer box: EP90 gear oil · Series II/IIA: gearbox 2.5 imp pt (3 US pt, ≈1.4 L), transfer box 4.5 imp pt (≈5.5 US pt, ≈2.6 L), per Series123 and the workshop manual quoted on the Rovers North forum · Series III [CONFIRM IN MANUAL] · Drain and refill now; then per manual (Check the transfer box output seal: oil leaking past it soaks the transmission handbrake shoes. Owners buy EP90 in 20 L drums because a Series uses a lot of it.)
 - Front & rear differentials: EP90 gear oil · capacity [CONFIRM IN MANUAL] · Drain and refill now; then per manual (Don't put one-shot swivel grease in the diffs; owners say drain it if someone has.)
 - Swivel housings: 75-90 gear oil on IIA/III with the Railko bush (Rovers North) · Check level every service; refill now (Rovers North advises oil, not grease packs, for the Railko bush, and warns that running free-wheeling hubs unlocked starves the swivels of lubrication.)
 - Grease points: Grease all nipples: propshaft UJs and sliding joints, steering and spring shackles · Every service ('Do all the grease nipples' is the first line of most owners' service lists.)
@@ -12831,6 +12983,13 @@ A: Just under 600,000 by February 1968, more than 70% of them exported. The 1,00
 - LandyZone — Service items (Series 3 2.25): https://www.landyzone.co.uk/land-rover/service-items.403041/
 - LandyZone — One Shot swivel grease in the diff: https://www.landyzone.co.uk/land-rover/one-shot-swivel-grease-in-the-diff-good-or-bad.395400/
 - LandyZone — Oily transmission drum brake, transfer case drain mod: https://www.landyzone.co.uk/land-rover/oily-transmission-drum-brake-transfer-case-drain-mod.393970/
+- Rovers North Forums — Steering relay column: https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/13806-steering-relay-column
+- Rovers North Forums — Steering relay oil leak, bad seal?: https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/13150-steering-relay-oil-leak-bad-seal
+- Rovers North Forums — Pops out of second gear: https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/11791-pops-out-of-second-gear
+- Rovers North Forums — Jumping out of gear: https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/1194-jumping-out-of-gear
+- Series123 — Series 2/2A basic specifications (capacities): https://www.series123.com/USAhomepages/index113/index.html
+- Rovers North Forums — Gearbox and transfer box fluid volume: https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/10741-gearbox-and-transfer-box-fluid-volume
+- Rovers North Forums — 2.5L vs 2.25L oil amount: https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/7843-2-5l-vs-2-25l-oil-amount
 - Wikipedia — Land Rover series: https://en.wikipedia.org/wiki/Land_Rover_series
 - Hagerty — Values for the 1959–71 Land Rover Series II/Series IIA keep climbing: https://hagerty.com/media/?p=5698
 - Glencoyne Engineering — Land Rover chassis numbers: https://www.glencoyne.co.uk/land-rover-chassis-numbers
@@ -14574,6 +14733,18 @@ Symptoms: Snapped rear axle-flange studs.
 Fix: The usual cause is a warped axle flange face from hammering on the shaft to free the cone washers. That loads one stud at a time until they break. Free the cone washers by tapping the stud ends with a brass drift, or use a small screwdriver in the washer slot. Have a warped flange refaced on a lathe so it sits square. Upgrading from 8 mm to 10 mm studs at the same time is a common choice.
 Tools: Brass drift · small screwdriver · new studs and cone washers · machine shop for refacing
 
+#### Parking brake that won't hold
+Difficulty 2 / 5 · time ≈ An hour to adjust; half a day for shoes and hardware · cost Free to adjust; shoes, struts and hardware if worn
+Symptoms: The handbrake won't hold the truck on a slope, or the lever comes up a long way before it bites.
+Fix: Unsealed 4X4 blames four things: poor adjustment, poor maintenance, worn 'dog bones' (the shoe struts) and the lever design. Check the lining on the small shoes inside the rear disc hats before you adjust anything. Adjust the shoes at the drum first, then the cable at the lever. Upgrades include longer dog bones for more shoe contact, and lever kits that move the pivot point to pull more cable. Unsealed admits no fix lasts forever, so chock the wheels on steep camp sites anyway.
+Tools: Jack and stands · wheel-off sockets · brake adjusting tool · flashlight
+
+#### Driveline clunk: grease the slip yokes
+Difficulty 2 / 5 · time ≈ 1–2 hours to pull and grease both shafts · cost A tube of grease
+Symptoms: A clunk or a 'grabbing' feel when you take up drive, shift into gear or get on and off the throttle.
+Fix: IH8MUD's long-running clunk thread usually blames dry driveshaft splines. Members pulled the shafts, marked both halves so the phasing goes back the same, and hand-greased the splines. For some, doing just the front shaft cured it. To prevent it, give the slip-yoke zerks a couple of shots at the first sign of clunking, then look for fresh grease on the shaft after a few miles. Don't keep pumping until you're sure the shaft passes grease: over-greasing can hydrolock it, though that's rare. An Australian owner was told by a Toyota mechanic that too much grease can stop the slider moving and to stop at two squirts. Members used Mobil 1 red and Schaeffer's #229 Ultra Red Moly. If it still clunks, check front diff backlash, which contributed for one member.
+Tools: Grease gun · paint pen to mark phasing · sockets and wrenches for the flange bolts
+
 ### Baseline service
 Assume nothing was done. A 1996–1997 LX 450 is at least 28 years old, and IH8MUD and Expedition Portal regulars rate service records above mileage. Change every fluid, repack the knuckles and inspect the cooling system in your first weekend. That gives you a known baseline and the best early warning of head-gasket or knuckle trouble.
 - Engine oil & filter: 10W-30 (above −18°C) or 5W-30 (below 10°C) · 7.8 qt with filter · Then every 3,000–5,000 mi [CONFIRM IN MANUAL] (Drain plug torque is 18 ft-lb. An oil analysis on the first drain gives a useful head-gasket baseline. Look for coolant in the oil.)
@@ -14653,6 +14824,9 @@ A: There are only two, and they're nearly the same. The 1996 and 1997 trucks bot
 - Metal Tech 4x4 — Lexus LX450 (1995–1997) parts: https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-lx450-1995-1997
 - CruiserTeq — 80 Series / LX450 parts: https://cruiserteq.com/80-series-lx450/
 - IH8MUD — Drive Shaft / Propeller Shaft Service - Detailed: https://forum.ih8mud.com/threads/drive-shaft-propeller-shaft-service-detailed.1148130/
+- IH8MUD — Clunk is gone: https://forum.ih8mud.com/threads/clunk-is-gone.61521
+- ExplorOz — The saga of the 80 series clunk: https://www.exploroz.com/forum/97546/the-saga-of-the-80-series-clunk
+- CruiserTeq — Park brake shoe set, OEM Toyota, 8x/10x: https://cruiserteq.com/park-brake-shoe-set-one-vehicle-oem-toyota-fits-8x-10x-pb8x10xoem/
 - NHTSA — Recalls by vehicle (api.nhtsa.gov): https://www.nhtsa.gov/recalls
 - NHTSA vPIC — VIN decoder: https://vpic.nhtsa.dot.gov/decoder/
 - Wikipedia — Lexus LX: https://en.wikipedia.org/wiki/Lexus_LX

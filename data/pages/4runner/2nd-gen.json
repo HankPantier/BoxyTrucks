@@ -311,6 +311,58 @@
      "url": "https://www.chaosfab.com/product/1986-1995-Toyota-4Runner-Caddy-Idler-Arm-95130"
     }
    ]
+  },
+  {
+   "title": "Power tailgate window that sticks or drops",
+   "diff": "2 / 5",
+   "time": "An afternoon",
+   "cost": "Parts plus labor; one Toyota-4Runner.org member recommends a used motor",
+   "symptoms": "The roll-down rear glass works only some of the time, stalls part-way or suddenly drops into the tailgate. IH8MUD members flag the electric rear window as a weak point on both early generations; on 2nd gens Toyota-4Runner.org owners blame weak motors, slipping regulator gears and dirty channels.",
+   "fix": "Pull the tailgate's inner access panels. Run the glass up and down and check it stays in its tracks, then push and twist the regulator to see whether its gears stay meshed. If the regulator is sound, test the motor directly on a battery, then check the relay. Clean the channels and put silicone spray on the glass edges and rubber seals; one owner says a dealer clean-and-lube cured his. Toyota-4Runner.org members describe the motors as easily overwhelmed by drag, and one says 1st and 2nd gen motors are the same apart from the connector plug. If the glass has dropped and broken before, check the regulator was actually fixed, not just the glass.",
+   "tools": "Trim-panel tools · screwdrivers · 12 V jumper leads · multimeter · silicone spray",
+   "parts": [
+    {
+     "name": "Tailgate window motor and regulator (RockAuto catalogue)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/toyota,1992,4runner"
+    },
+    {
+     "name": "Silicone spray lubricant",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=silicone+spray+lubricant"
+    }
+   ]
+  },
+  {
+   "title": "4WD won't engage: the ADD vacuum system",
+   "diff": "2 / 5",
+   "time": "An hour or two to diagnose",
+   "cost": "Parts plus labor; vacuum hose is cheap, Aisin manual hubs ≈ $249 a set (LC Engineering) if you convert",
+   "symptoms": "The lever goes into 4H with no noise and no front drive. On ADD trucks the hubs are locked all the time and the front axle is only connected when a vacuum-operated collar in the driver's-side axle tube moves (4Runners.com).",
+   "fix": "Confirm you have ADD: plastic hub caps instead of locking-hub dials (IH8MUD). Drop the front skid plate and check the two vacuum lines at the actuator on the front differential, which can get knocked loose. Then trace them to the electrically switched vacuum valves on the inner fender and check the valves and their wiring. Plugging or swapping the lines to force the actuator tells you whether the diff side works. If you'd rather lose the system, 4Runners.com members lock it out or delete it with a pre-1990 driver's-side axle tube and fit manual hubs. LC Engineering notes that ADD trucks don't need its auto-hub conversion kit for that swap.",
+   "tools": "Hand vacuum pump with gauge · test light or multimeter · sockets for the skid plate",
+   "parts": [
+    {
+     "name": "Vacuum hose assortment",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=vacuum+hose+assortment"
+    },
+    {
+     "name": "Hand vacuum pump with gauge",
+     "supplier": "Amazon",
+     "url": "https://www.amazon.com/s?k=hand+vacuum+pump+gauge"
+    },
+    {
+     "name": "Aisin manual locking hubs, 1986–95 IFS (for an ADD delete)",
+     "supplier": "LC Engineering",
+     "url": "https://www.lceperformance.com/aisin-manual-locking-hubs-1986-1995-4runner-pickup/"
+    },
+    {
+     "name": "Front hub star gasket (Toyota 43531-60010)",
+     "supplier": "LC Engineering",
+     "url": "https://www.lceperformance.com/front-hub-4wd-star-gasket/"
+    }
+   ]
   }
  ],
  "faq": [
@@ -737,14 +789,42 @@
   {
    "name": "4Runners.com — 1992 V6 coolant type",
    "url": "https://www.4runners.com/threads/1992-v6-coolant-type.13555/"
+  },
+  {
+   "name": "Toyota-4Runner.org — Rear window issues (1990–95 power tailgate glass)",
+   "url": "https://www.toyota-4runner.org/classic-t4rs/38646-rear-window-issues.html"
+  },
+  {
+   "name": "IH8MUD — 92 truck 4x4 issue (ADD vacuum diagnosis)",
+   "url": "https://forum.ih8mud.com/threads/92-truck-4x4-issue.270685/"
+  },
+  {
+   "name": "LC Engineering — Manual hub conversion kit (auto hubs to manual, 1984–89)",
+   "url": "https://www.lceperformance.com/manual-hub-conversion-kit/"
+  },
+  {
+   "name": "LC Engineering — Aisin manual locking hubs, 1986–1995 4Runner & pickup",
+   "url": "https://www.lceperformance.com/aisin-manual-locking-hubs-1986-1995-4runner-pickup/"
+  },
+  {
+   "name": "LC Engineering — Front hub star gasket (Toyota 43531-60010)",
+   "url": "https://www.lceperformance.com/front-hub-4wd-star-gasket/"
+  },
+  {
+   "name": "Toyota-Club.net — Spark plug application table (Denso overseas-market catalogue)",
+   "url": "https://toyota-club.net/files/techdata/plugs/index_eng.htm"
+  },
+  {
+   "name": "AMSOIL product guide — 1992 Toyota 4Runner 3.0L 3VZ-E fluids & capacities",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1992/toyota/4-runner/3-0l-6-cyl-engine-code-v-3vz-e-p/"
   }
  ],
  "baseline_service": {
-  "intro": "Most surviving 2nd gens have 30 years of deferred maintenance, so baseline everything — and on a V6, treat cooling-system health as life-or-death for the head gaskets. Factory capacities for the N120/N130 aren't reliably published online; anything marked below should be checked in the owner's or factory service manual.",
+  "intro": "Most surviving 2nd gens have 30 years of deferred maintenance, so baseline everything. On a V6, treat cooling-system health as life-or-death for the head gaskets. Factory capacities for the N120/N130 aren't reliably published online. Figures marked AMSOIL come from AMSOIL's application guide for the 1992 3VZ-E, and plug data from Denso's catalogue; check those and anything still marked below against the owner's or factory service manual.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "3VZ-E: 10W-30 above −18 °C, 5W-30 below 10 °C · ≈4.8 US qt with filter (AMSOIL, 1992 3VZ-E) · 22R-E [CONFIRM IN MANUAL]",
     "interval": "At purchase, then per the manual",
     "note": "Milky oil or a sweet smell on the dipstick on a 3VZ-E means head gaskets — walk away or budget for it.",
     "parts": [
@@ -793,7 +873,7 @@
    },
    {
     "item": "Spark plugs, wires, cap & rotor",
-    "spec": "Plug type and gap [CONFIRM IN MANUAL]",
+    "spec": "22R-E: Denso W16EXR-U · 3VZ-E: Denso K16R-U · gap 0.8 mm (0.031 in) for both (Denso catalogue)",
     "interval": "At purchase",
     "note": "Wire sets differ by year on both engines — match the terminal style on your cap.",
     "parts": [
@@ -862,7 +942,7 @@
    },
    {
     "item": "Coolant & cooling system",
-    "spec": "Toyota-type long-life coolant; capacity [CONFIRM IN MANUAL]",
+    "spec": "Toyota-type long-life coolant · 3VZ-E 4WD ≈9.5 US qt (AMSOIL, 1992 3VZ-E) · 22R-E capacity [CONFIRM IN MANUAL]",
     "interval": "Drain/refill or flush at purchase, then keep it fresh",
     "note": "4Runners.com's 3VZ-E advice: never let it overheat, refresh coolant regularly, and keep up with the belt and water pump. Pressure-test the system if coolant level drops.",
     "parts": [
@@ -893,7 +973,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Gear oil grade [CONFIRM IN MANUAL]",
+    "spec": "Manual-gearbox trucks: GL-4 or GL-5 gear oil, ≈2.3 pt (with ADD) / 3.4 pt (without); A340H automatics take ATF, ≈1.7 pt (AMSOIL, 1992 3VZ-E) · viscosity [CONFIRM IN MANUAL]",
     "interval": "At purchase",
     "note": "V6 trucks have a chain-driven case; four-cylinders kept the gear-driven unit — confirm which you have before ordering parts.",
     "parts": [
@@ -906,7 +986,7 @@
    },
    {
     "item": "Front & rear differentials, ADD",
-    "spec": "Gear oil grade [CONFIRM IN MANUAL]",
+    "spec": "Front (ADD): GL-5 hypoid, SAE 90 above −18 °C, 80W-90 or 80W below, ≈4 pt (AMSOIL, 1992 3VZ-E) · rear [CONFIRM IN MANUAL]",
     "interval": "At purchase",
     "note": "1990-on 4Runners use Toyota's vacuum-operated ADD (automatic differential disconnect) with locked hubs; per 4Runners.com, check that 4WD actually engages and the vacuum lines are intact.",
     "parts": [

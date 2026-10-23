@@ -436,6 +436,53 @@
       "url": "https://www.toyotapartsdeal.com/oem/toyota~crossmember~sub~assy~frame~rear~51209-35171.html"
      }
     ]
+   },
+   {
+    "title": "4WD won't engage: ADD vacuum system and actuators",
+    "diff": "2 / 5 (diagnosis, hoses, VSV) · 3 / 5 (actuator rebuild)",
+    "time": "An hour or two to diagnose · an actuator rebuild needs a day for the glue to cure",
+    "cost": "Parts plus labor; vacuum hose is cheap",
+    "symptoms": "Lever or button in 4WD but only the rear wheels drive, and the 4WD light stays off. On a part-time truck, a slow tight turn on pavement should make 4WD bind within about thirty feet. No bind means no front drive (Toyota-4Runner.org).",
+    "fix": "On 1996–2000 trucks the front axle is engaged by vacuum. With the engine running and 4WD off, check for vacuum at the twin VSVs on the driver's-side fender wall. No vacuum: check the check valve to the intake manifold, the hoses and the reservoir. If one hose has vacuum, engage 4WD and see whether it moves to the other. If it moves but the axle doesn't engage, suspect the diff actuator or its line. If it doesn't move, mark and swap the two hoses: if the truck now goes into 4WD the diff is fine, and a test light shows whether the transfer-case switch signal changes sides. Signal but no change in vacuum means a bad VSV. Check the fuse and the ADD relay too; one 1998 SR5 owner found it behind the passenger kick panel. 2001–02 trucks use an electric front actuator, so the vacuum tests don't apply. On push-button trucks the transfer-case actuator motor can quit when its magnets come loose. One owner rebuilt his (1996 Limited, A340F, actuator 36410-35040) by re-gluing the magnets and fitting a new O-ring.",
+    "tools": "Hand vacuum pump with gauge · test light · marker · 12 mm and 10 mm sockets · dielectric grease",
+    "parts": [
+     {
+      "name": "Vacuum hose assortment",
+      "supplier": "Amazon",
+      "url": "https://www.amazon.com/s?k=vacuum+hose+assortment"
+     },
+     {
+      "name": "Hand vacuum pump with gauge",
+      "supplier": "Amazon",
+      "url": "https://www.amazon.com/s?k=hand+vacuum+pump+gauge"
+     },
+     {
+      "name": "VSVs, ADD and 4WD actuators (RockAuto catalogue)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1999,4runner"
+     }
+    ]
+   },
+   {
+    "title": "Rear hatch window drops or won't rise",
+    "diff": "2 / 5",
+    "time": "An afternoon",
+    "cost": "Parts plus labor; owners hunt used relays and switches to save money",
+    "symptoms": "The back glass drops into the hatch and won't come up, often in wet weather, or lowers itself unasked.",
+    "fix": "Start with the fuse and the rear-door power-window relay. One 1997 SR5 owner on Toyota-4Runner.org found the relay shell melted and burned wires at the window limit switch, with the damage spread into neighbouring harness wires to the rear door ECU. Pull the hatch trim, repair the harness, then feed the motor 12 V directly, using the wiring diagram to pick the right leads. That tells you whether the motor or the controls are at fault. If the window drops by itself, another owner cured it by removing the short harness section between the hatch key lock and the hatch harness; after that the window works only from the dash switch. The thread gives the limit switch as Toyota 84290-35020.",
+    "tools": "Trim-panel tools · multimeter · fused 12 V jumper leads · soldering iron or crimper · heat-shrink",
+    "parts": [
+     {
+      "name": "Back-door window motor, regulator and relay (RockAuto catalogue)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/toyota,1999,4runner"
+     },
+     {
+      "name": "Heat-shrink butt connectors",
+      "supplier": "Amazon",
+      "url": "https://www.amazon.com/s?k=heat+shrink+butt+connectors"
+     }
+    ]
    }
   ],
   "faq": [
@@ -471,8 +518,8 @@
    },
    {
     "q": "What are the fluid capacities?",
-    "a": "Per Toyota-Club's US-spec 180-series data: 5VZ-FE oil with filter 5.2 L (3RZ-FE 5.4 L); front diff 1.15 L of GL-5 80W-90; rear diff 2.45 L (2.75 L with diff lock) of GL-5 80W-90; transfer case 1.0–1.2 L of 75W-90; automatic transmission drain-and-fill about 2.0 L (4WD) of Dexron II/III.",
-    "src": "TOYOTA-CLUB.NET"
+    "a": "From Toyota's 1999–2002 owner's manuals: 5VZ-FE oil 5.2 L with filter (5W-30 preferred); coolant 8.0 L (9.0 L with rear heater); automatic drain-and-refill up to 2.0 L (4WD) of Dexron III/II; transfer case 1.0–1.2 L of GL-4/5 75W-90; front diff 1.15 L, where the manual gives 75W-90 for A.D.D. trucks and Toyota-Club gives 80W-90; rear diff 2.45 L (2.75 L with diff lock) of GL-5 SAE 90, or 80W-90 below −18 °C.",
+    "src": "TOYOTA OWNER'S MANUAL · TOYOTA-CLUB.NET"
    },
    {
     "q": "Which years should I buy or avoid?",
@@ -905,14 +952,46 @@
    {
     "name": "NHTSA recalls API — Toyota 4Runner 2001 (05V-225 / recall 50J)",
     "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=toyota&model=4runner&modelYear=2001"
+   },
+   {
+    "name": "Toyota — 1999 4Runner owner's manual (Toyota-hosted PDF)",
+    "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35749U/pdf/OM35749U_edited.pdf"
+   },
+   {
+    "name": "Toyota — 2001 4Runner owner's manual OM35768U (Toyota-hosted PDF)",
+    "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35768U/pdf/OM35768U.pdf"
+   },
+   {
+    "name": "Toyota — 2002 4Runner owner's manual OM35787U (Toyota-hosted PDF)",
+    "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35787U/pdf/OM35787U.pdf"
+   },
+   {
+    "name": "AMSOIL product guide — 2002 Toyota 4Runner 3.4L 5VZ-FE",
+    "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2002/toyota/4-runner/3-4l-6-cyl-engine-code-5vz-fe-8/"
+   },
+   {
+    "name": "Toyota-4Runner.org — 4WD issues (ADD VSV troubleshooting, 1996–2000)",
+    "url": "https://www.toyota-4runner.org/threads/4wd-issues.182929/"
+   },
+   {
+    "name": "Toyota-4Runner.org — 4WD, ADD: troubleshooting and actuator rebuild",
+    "url": "https://www.toyota-4runner.org/3358467-post1.html"
+   },
+   {
+    "name": "Expedition Portal — No 4WD light, no 4WD (1998 4Runner SR5)",
+    "url": "https://forum.expeditionportal.com/goto/post?id=1009527"
+   },
+   {
+    "name": "Toyota-4Runner.org — Rear window stuck down (1997 4Runner)",
+    "url": "https://www.toyota-4runner.org/3136109-post7.html"
    }
   ],
   "baseline_service": {
-   "intro": "Assume nothing on a 20-plus-year-old 4Runner: unless there are receipts, do the timing belt, every fluid and the cheap 5VZ-FE wear items in one go. The 5VZ-FE is non-interference, but a 90,000-mile belt interval means most trucks are on their third or fourth belt — or overdue on their second. Capacities below are Toyota owner's-manual figures compiled by Toyota-Club.net.",
+   "intro": "Assume nothing on a 20-plus-year-old 4Runner: unless there are receipts, do the timing belt, every fluid and the cheap 5VZ-FE wear items in one go. The 5VZ-FE is non-interference, but with a 90,000-mile belt interval most trucks are on their third or fourth belt, or overdue on their second. Capacities below come from Toyota's own 1999–2002 owner's manuals, cross-checked against Toyota-Club.net's compilation.",
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "API SJ or later · ≈5.2 L (5.5 US qt) with filter · viscosity [CONFIRM IN MANUAL]",
+     "spec": "API SJ/SL 'Energy-Conserving' or ILSAC multigrade · SAE 5W-30 preferred · 5.2 L (5.5 US qt) with filter (Toyota owner's manual)",
      "interval": "Then every 5,000 mi or per the owner's manual",
      "note": "Spin-on filter on the 5VZ-FE. Check for valve-cover seepage while you're there (see repairs).",
      "parts": [
@@ -951,7 +1030,7 @@
     },
     {
      "item": "Spark plugs",
-     "spec": "Denso K16TR11 (Toyota 90919-01192) · gap 1.1 mm (Toyota-Club plug table, 5VZ-FE 4Runner)",
+     "spec": "Denso K16TR11 (Toyota 90919-01192) or NGK BKR5EKB-11 · gap 1.1 mm (0.043 in) (Toyota 2001–02 owner's manuals; Toyota-Club plug table)",
      "interval": "Replace now if history unknown",
      "note": "Six plugs; Toyota-Club lists the same plug for the 5VZ-FE in the 1999–2003 Tundra and the Hilux Surf.",
      "parts": [
@@ -1044,7 +1123,7 @@
     },
     {
      "item": "Front & rear differentials + rear breather",
-     "spec": "Hypoid 80W-90 GL-5 · front 1.15 L · rear 2.45 L (no locker) / 2.75 L (with E-locker)",
+     "spec": "Hypoid GL-5 · front 1.15 L: owner's manual gives SAE 75W-90 for A.D.D. trucks, Toyota-Club lists 80W-90 · rear 2.45 L (no locker) / 2.75 L (with locker): SAE 90 above −18 °C, SAE 80W or 80W-90 below (owner's manual)",
      "interval": "Change now; after any deep water crossing",
      "note": "The rear axle's breather sits on the housing and can suck in water when a hot diff is submerged. AdventureTaco's fix: a union plus hose run up to a breather plug behind the fuel door.",
      "parts": [
