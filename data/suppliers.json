@@ -2,19 +2,19 @@
  "g-class": [
   {
    "name": "FCP Euro",
-   "search": "https://www.fcpeuro.com/products?keywords={q}"
+   "search": "https://www.fcpeuro.com/Parts?keywords={q}"
   }
  ],
  "land-cruiser": [
   {
    "name": "CruiserTeq",
-   "search": "https://cruiserteq.com/?s={q}&post_type=product"
+   "search": "https://cruiserteq.com/search.php?search_query={q}"
   }
  ],
  "lexus": [
   {
    "name": "CruiserTeq",
-   "search": "https://cruiserteq.com/?s={q}&post_type=product"
+   "search": "https://cruiserteq.com/search.php?search_query={q}"
   }
  ],
  "4runner": [],
@@ -25,13 +25,13 @@
   },
   {
    "name": "Atlantic British",
-   "search": "https://www.atlanticbritish.com/search?q={q}"
+   "search": "https://www.roverparts.com/search/?q={q}"
   }
  ],
  "range-rover": [
   {
    "name": "Atlantic British",
-   "search": "https://www.atlanticbritish.com/search?q={q}"
+   "search": "https://www.roverparts.com/search/?q={q}"
   },
   {
    "name": "Rovers North",
@@ -42,23 +42,19 @@
  "jeep": [
   {
    "name": "Quadratec",
-   "search": "https://www.quadratec.com/search?keys={q}"
-  },
-  {
-   "name": "Morris 4x4 Center",
-   "search": "https://www.morris4x4center.com/catalogsearch/result/?q={q}"
+   "search": "https://www.quadratec.com/search/{q}"
   }
  ],
  "nissan-patrol": [
   {
-   "name": "RockAuto",
-   "search": "https://www.rockauto.com/en/partsearch/?partnum={q}"
+   "name": "Patrolapart",
+   "search": "https://patrolapart.com.au/product-search?criteria={q}"
   }
  ],
  "scout": [
   {
    "name": "Super Scout Specialists",
-   "search": "https://www.superscoutspecialists.com/search?q={q}"
+   "search": "https://www.superscoutspecialists.com/filterSearch?q={q}"
   }
  ]
 }

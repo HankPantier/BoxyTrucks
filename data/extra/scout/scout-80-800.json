@@ -72,22 +72,22 @@
   "ranges": [
    {
     "cond": "Project / needs work",
-    "range": "$6k–15k"
+    "range": "$9k–16k"
    },
    {
     "cond": "Driver",
-    "range": "$15k–30k"
+    "range": "$16k–35k"
    },
    {
     "cond": "Excellent / restored",
-    "range": "$35k–87k"
+    "range": "$40k–85k"
    },
    {
     "cond": "Restomod (modern V8)",
-    "range": "$50k–85k"
+    "range": "$14k–84k"
    }
   ],
-  "note": "Based on about 85 Bring a Trailer sales of Scout 80, 800, 800A and 800B trucks, January 2025–October 2026. Medians were about $22.5k for an 80, $25k for an 800 and $29.5k for an 800A, and 800Bs sold for $19.5k–55k. The highest stock-engine sales were an $87,000 304-powered 1967 800 and a $68,000 304-powered 1961 80. A 1964 Red Carpet sold for $21,101."
+  "note": "Recent Bring a Trailer results (about the 20 most recent sales on each model page, checked October 2026): Scout 80 median about $22.5k (top $68,000, a 1964 4x4); Scout 800 median about $33.75k (top $87,000, a 1967 with a non-original 345 V8, and $85,000 for a 1967 4x4); 800A median about $29.5k (top $62,000); 800Bs sold since 2025 ran $19.5k–55k. Autotrader Classics (late 2024) advises budgeting at least $40,000 for a good one."
  },
  "docs": [
   {
@@ -121,8 +121,8 @@
   "editions": [
    {
     "name": "Red Carpet",
-    "years": "1964",
-    "note": "Celebrated the 100,000th Scout: white with a red interior, full headliner and silver 'Custom' medallion. 3,000 built, one for each US IH dealer."
+    "years": "Scout 80 era",
+    "note": "Celebrated the 100,000th Scout: white with a red interior, full headliner and silver 'Custom' medallion. About 3,000 built; each US IH dealer received one."
    },
    {
     "name": "Campermobile",
@@ -195,6 +195,10 @@
   {
    "name": "Midnitestar Productions — 35th Annual IH Scout & ALL Truck Nationals",
    "url": "http://www.midnitestar.org/"
+  },
+  {
+   "name": "Autotrader Classics — International Harvester Scout guide (Nov 2024)",
+   "url": "https://classics.autotrader.com/articles/international-harvester-scout-guide"
   }
  ]
 }

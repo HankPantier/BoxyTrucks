@@ -127,14 +127,14 @@
    {
     "heading": "BAJA, AND THE SUPER SCOUT",
     "paragraphs": [
-     "Privateer Jimmy Jones won his class in the 1972 Baja 1000 in a '72 Scout II Cabtop. Five years later IH was sponsoring four desert racing teams and selling the SSII, a stripped-down Scout with soft doors, a plastic grille and a roll bar, aimed squarely at the [[jeep/cj-7|CJ-7]]. It ranged from the barebones four-cylinder Rancher Special, on which even the passenger seat was a cost option, to the dressier Sport and Baja Cruiser.",
+     "Privateer Jimmy Jones won his class in the 1972 Baja 1000 in a '72 Scout II. Five years later IH was sponsoring four desert racing teams and selling the SSII, a stripped-down Scout with soft doors, a plastic grille and a roll bar, aimed squarely at the [[jeep/cj-7|CJ-7]]. It ranged from the barebones four-cylinder Rancher Special, on which even the passenger seat was a cost option, to the dressier Sport and Baja Cruiser.",
      "In the 1977 Baja 1000, an SSII driven by Jerry Boone finished first among production 4x4s, almost two hours ahead of the next car, a CJ-7. Boone later said his team had a month to prepare a stock truck and only got IH sponsorship after the race. About 4,000 SSIIs were built between 1977 and 1979, and today they're the most valuable Scout IIs."
     ]
    },
    {
     "heading": "HOW IT ENDED",
     "paragraphs": [
-     "IH had plans for Scout-based coupes, minivans, campers and Hurst special editions, and a Scout III prototype was built in 1979. The 1979–80 International Harvester strike and a lack of money ended all of it. The 1980 trucks got a one-piece plastic grille, the turbo diesel and, for one year only, a Dana 300 transfer case. Only 13,106 were built. The last Scout came off the Fort Wayne line on October 21, 1980.",
+     "IH experimented with Scout-based minivans, station wagons, dune buggies, Hurst-built special editions and even a small motorhome, and it built a Scout III SSV concept prototype in 1979. The 1979–80 International Harvester strike and a lack of money ended all of it. The 1980 trucks got a one-piece plastic grille, the turbo diesel and, for one year only, a Dana 300 transfer case. Only 13,106 were built. The last Scout came off the Fort Wayne line on October 21, 1980.",
      "Hagerty counts about 260,000 Scout IIs. Rust has taken many of them, and the survivors are now real money. Gen X buyers make up more than 46 percent of Scout buyers. Volkswagen Group now owns the name, and [[scout/scout-motors|Scout Motors]] is reviving the Traveler and Terra badges for new electric and range-extended trucks."
     ]
    }
@@ -144,7 +144,7 @@
    "title": "Monteverdi Safari: a Scout in a dinner jacket",
    "paragraphs": [
     "In 1976 Swiss sports-car maker Peter Monteverdi showed the Safari, a luxury SUV on Scout II underpinnings with a new body by Carrozzeria Fissore. It went into production in 1977, aimed straight at the [[range-rover/classic|Range Rover]], and offered air conditioning, leather, electric windows and options up to a television and a refrigerator.",
-    "Engines were a Chrysler 5.2-liter V8, IH's own 5.7-liter 345 and, Monteverdi claimed, Chrysler's 7.2-liter 440. Unlike the Range Rover of the day it had an automatic and switchable four-wheel drive. A cheaper Sahara kept most of the Scout body, and only about 30 were made. Production ended in 1982, after the Scout itself."
+    "Engines were a Chrysler 5.2-liter V8, IH's own 5.7-liter 345 and, Monteverdi claimed, Chrysler's 7.2-liter 440. Unlike the Range Rover of the day it had an automatic and switchable four-wheel drive. A cheaper Sahara kept most of the Scout body, and an estimated 30 were made. Production ended in 1982, after the Scout itself."
    ]
   },
   "engineering_intro": "The Scout II is a body-on-frame 4x4 with live axles on leaf springs at both ends. Most were four-wheel drive, with a manually shifted transfer case (2WD high, 4WD high and 4WD low) and free-wheeling front hubs. Engines were IH's own fours and V8s, AMC sixes and Nissan diesels, behind Borg-Warner manuals or a three-speed automatic. Factory line tickets record each truck's exact axles, ratios and options.",
@@ -224,7 +224,7 @@
    },
    {
     "head": "Look under bedliners and fresh paint",
-    "body": "In one Scout II rebuild on 4WD Mechanix, a previous owner's bedliner hid so much floor rust that the repair ran past the owner's budget. Front fenders, door sills and the tailgate area hold moisture and can hide filler."
+    "body": "In one Scout II rebuild reported on the 4WD Mechanix forum, a previous owner's bedliner reportedly hid so much floor rust that the repair ran past budget. Front fenders, door sills and the tailgate area hold moisture and can hide filler."
    },
    {
     "head": "Frame cracks at the steering box",
@@ -534,7 +534,7 @@
     },
     {
      "item": "Coolant, thermostat & water-pump tube O-rings",
-     "spec": "About 20 qt cooling system (AMSOIL lists 20.1 qt for the 5.0 L V8) · coolant type [CONFIRM IN MANUAL]",
+     "spec": "Capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists about 20 qt for the 1980 5.0 L V8) · coolant type [CONFIRM IN MANUAL]",
      "interval": "Flush at purchase, then every 2 years",
      "note": "The IH V8 water pump feeds through a separate tube sealed with O-rings. Replace them whenever the pump comes off; a complete IH V8 gasket set includes four.",
      "parts": [
@@ -557,7 +557,7 @@
     },
     {
      "item": "Automatic transmission (Chrysler A727)",
-     "spec": "ATF · AMSOIL lists 5 qt initial fill · fluid type [CONFIRM IN MANUAL]",
+     "spec": "ATF · capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists a 5 qt initial fill) · fluid type [CONFIRM IN MANUAL]",
      "interval": "Drain, new filter and refill at purchase",
      "note": "Moses Ludel of 4WD Mechanix credits the A727's lack of overdrive with helping it survive. Do a pan drop and filter change, not a pressure flush.",
      "parts": [
@@ -583,7 +583,7 @@
     },
     {
      "item": "Transfer case (Dana 20; Dana 300 in 1980)",
-     "spec": "AMSOIL lists 3.4 pints for the two-speed case · lubricant grade [CONFIRM IN MANUAL]",
+     "spec": "Capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists 3.4 pints for the two-speed case) · lubricant grade [CONFIRM IN MANUAL]. IH specialists on the IHPA forum recommend SAE 90 GL-1 or straight 50-weight motor oil in Dana 20s, not GL-5.",
      "interval": "Change at purchase; check for leaks at the output seals",
      "note": "The 1980 Dana 300 was a one-year fit. Gasket, seal and overhaul kits are still made for the Dana 20.",
      "parts": [
@@ -601,7 +601,7 @@
     },
     {
      "item": "Front & rear differentials (Dana 30 / Dana 44)",
-     "spec": "GL-5 85W-140 or 90 · AMSOIL lists 4.2 pt front, 3 pt rear · add friction modifier for Trac-Lok",
+     "spec": "GL-5 gear oil · grade and capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists 4.2 pt front, 3 pt rear) · add friction modifier for Trac-Lok",
      "interval": "Change at purchase and after deep water",
      "note": "The line ticket or the axle tag shows the ratio (2.72 to 4.54) and whether there's a Trac-Lok.",
      "parts": [
@@ -642,7 +642,7 @@
     },
     {
      "item": "Steering: power steering fluid, rag joint & box bolts",
-     "spec": "Dexron-II-type ATF (AMSOIL's AF2 equivalent)",
+     "spec": "Power steering fluid type [CONFIRM IN MANUAL] (AMSOIL's lookup lists an ATF-type fluid)",
      "interval": "Check at purchase",
      "note": "Check the rag joint for play and the steering-box frame mount for cracks. New grade 8 box bolts are cheap.",
      "parts": [
@@ -970,18 +970,6 @@
     "name": "@superscoutparts",
     "focus": "SCOUT PARTS & RESTORATIONS",
     "url": "https://www.instagram.com/superscoutparts/"
-   },
-   {
-    "kind": "IG",
-    "name": "@ihscoutswest",
-    "focus": "SCOUT CLUB · TRAIL RUNS",
-    "url": "https://www.instagram.com/ihscoutswest/"
-   },
-   {
-    "kind": "IG",
-    "name": "@internationalscoutii",
-    "focus": "SCOUT II FEATURES",
-    "url": "https://www.instagram.com/internationalscoutii/"
    }
   ],
   "forums": [
@@ -1090,8 +1078,8 @@
   "photos": [
    {
     "file": "scout-ii-wolford-rock-crawl.jpg",
-    "alt": "A blue Scout II on big tires crawling over boulders at Wolford Mountain Recreation Area, Colorado",
-    "caption": "SCOUT II · WOLFORD MOUNTAIN, COLORADO",
+    "alt": "A heavily modified open-top blue Scout II with a roll cage, winch and big mud tires crawling over boulders at Wolford Mountain Recreation Area, Colorado",
+    "caption": "MODIFIED SCOUT II · WOLFORD MOUNTAIN, COLORADO",
     "credit": "Vanessa Lacayo, Bureau of Land Management · CC BY 2.0",
     "source": "Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:My_Public_Lands_Roadtrip-_Wolford_Mountain_Recreation_Area_in_Colorado_(19221904543).jpg"
@@ -1205,6 +1193,10 @@
    {
     "name": "Wikipedia — List of International Harvester/Navistar engines",
     "url": "https://en.wikipedia.org/wiki/List_of_International_Harvester/Navistar_engines"
+   },
+   {
+    "name": "Hagerty — Collectible Classic / 2020 Bull Market: 1971–80 International Harvester Scout (engines, 90% V8 4WD, 1979 test car specs)",
+    "url": "https://www.hagerty.com/media/?p=7371"
    }
   ]
  }

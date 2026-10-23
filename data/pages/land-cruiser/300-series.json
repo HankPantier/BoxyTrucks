@@ -36,7 +36,7 @@
   {
    "heading": "THE WAITING GAME",
    "paragraphs": [
-    "Demand overwhelmed supply. In January 2022 Auto Bild reported that Toyota's Japanese website was telling buyers to expect waits of up to four years, a backlog it compared to the Mercedes G-Class's. Germany wasn't expected to get the 300 at all, and kept the older J150 Prado instead. A hybrid, the VJH300, arrived in 2025, launching first in the UAE with a new front end. Wikipedia records a partial update for Japan, with a hybrid due there on 1 October 2026."
+    "Demand overwhelmed supply. In January 2022 Auto Bild reported that Toyota's Japanese website was telling buyers to expect waits of up to four years, a backlog it compared to the Mercedes G-Class's. Germany wasn't expected to get the 300 at all, and kept the older J150 Prado instead. A hybrid, the VJH300, arrived in 2025, launching first in the UAE with a new front end. Japan got an updated range with the hybrid on 1 October 2026, according to Wikipedia."
    ]
   },
   {
@@ -115,7 +115,7 @@
    "platform": "VJH300",
    "engine": "V35A-FTS 3.4 L twin-turbo V6 hybrid",
    "output": "457 hp / 790 Nm",
-   "note": "Debuted in the UAE with a redesigned front end; Japan launch planned for 1 October 2026."
+   "note": "Debuted in the UAE with a redesigned front end; on sale in Japan from 1 October 2026."
   },
   {
    "years": "2021–present",
@@ -139,11 +139,11 @@
   },
   {
    "head": "Run the VIN against the V35A recalls",
-   "body": "NHTSA campaigns 24V381 and 25V767 cover V35A engines in which machining debris can damage the main bearings, causing knocking, rough running, a no-start or a stall. 25V767 lists 2022–2024 LX models built from February 2022 to April 2024. Ask whether the engine has already been replaced, which several IH8MUD members' trucks have had."
+   "body": "NHTSA campaigns 24V381 and 25V767 cover V35A engines in which machining debris can damage the main bearings, causing knocking, rough running, a no-start or a stall. 25V767 lists 9,895 2022–2024 LX models built from 26 February 2022 to 2 April 2024; 24V381 covered earlier engines. Ask whether the engine has already been replaced, which several IH8MUD members' trucks have had."
   },
   {
    "head": "Check the transmission software recall",
-   "body": "About 4,400 2025–26 LX 600s are being recalled for transmission-control software that can let the transmission damage itself. Dealers reflash it for free."
+   "body": "NHTSA 26V094000 (Lexus 26LA01) covers about 4,400 2025–26 LX 600s: if a transmission solenoid fails, the transmission and engine ECUs can lose communication and the transmission can damage itself. Dealers update the transmission ECU software for free."
   },
   {
    "head": "Test-drive in traffic, not just on the highway",
@@ -582,7 +582,7 @@
  "photos": [
   {
    "file": "lc300-dirt-event.jpg",
-   "alt": "A dark blue 300 Series Land Cruiser with muddy tyres parked on a dirt lot at an outdoor event",
+   "alt": "A black 300 Series Land Cruiser with muddy tyres parked on a dirt lot at an outdoor event in the Philippines",
    "caption": "300 SERIES · DIRT LOT AT AN OUTDOOR EVENT",
    "credit": "Mosesthewikian · CC BY-SA 4.0",
    "source": "Wikimedia Commons",
@@ -590,8 +590,8 @@
   },
   {
    "file": "lc300-sa-ambulance-specops.jpg",
-   "alt": "A South Australian Ambulance Special Operations 300 Series Land Cruiser with bull bar, roof rack and light bar",
-   "caption": "300 SERIES · SA AMBULANCE SPECIAL OPERATIONS RIG",
+   "alt": "A South Australian Ambulance Special Operations 300 Series Land Cruiser with bull bar, roof rack, light bar and all-terrain tyres at a city intersection",
+   "caption": "300 SERIES · SA AMBULANCE SPECIAL OPERATIONS (ON STREET)",
    "credit": "BraedenGatt · CC BY 4.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:SA_Ambulance_Special_Operations_Team_Toyota_LC300.jpg"
@@ -681,6 +681,14 @@
   {
    "name": "AMSOIL — 2023 Lexus LX 600 3.4L V35A-FTS fluid lookup",
    "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2023/lexus/lx600/3-4l-6-cyl-engine-code-v35a-fts-1-turbo/"
+  },
+  {
+   "name": "NHTSA — Recall 26V094000 (2025–26 LX 600 transmission ECU), campaign lookup",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V094000"
+  },
+  {
+   "name": "NHTSA — Recall 24V381000 (V35A main bearings), campaign lookup",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=24V381000"
   }
  ],
  "baseline_service": {

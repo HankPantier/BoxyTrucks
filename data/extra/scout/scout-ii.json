@@ -9,8 +9,8 @@
   "max_tire": [
    {
     "lift": "Stock",
-    "size": "31x10.50R15",
-    "note": "The rear wheel openings are only about 30 in front to back and were drawn around a 33-in tire. Anything bigger will hit the arch at full stuff."
+    "size": "30–31 in (31s marginal)",
+    "note": "One 1977 owner reports 31s rubbing on stock springs. IH Parts America recommends a reverse-shackle kit and a 2.5-in spring lift to run 31s without rubbing."
    },
    {
     "lift": "2.5 in",
@@ -32,7 +32,7 @@
  "timeline": [
   {
    "year": "1971",
-   "change": "Scout II replaces the 800B in April. 100-in wheelbase, Dana 30 front and Dana 44 rear; 196 four, AMC 232 six, IH 304 and 345 V8s. Some early trucks have 'Scout 810' glovebox badges. Three-bar grille with chrome headlight rings for 1971–72",
+   "change": "Scout II replaces the 800B in April. 100-in wheelbase, Dana 30 front and Dana 44 rear; launched with the 196 four, AMC 232 six and IH 304 V8, with the 258 six and 345 V8 added soon after (Hagerty). Some early trucks have 'Scout 810' glovebox badges. Three-bar grille with chrome headlight rings for 1971–72",
    "flag": "note"
   },
   {
@@ -47,12 +47,12 @@
   },
   {
    "year": "1975",
-   "change": "Dana 44 front and rear become standard on all Scout IIs, which is the axle combination owners want",
+   "change": "Dana 44 front and rear become standard on all Scout IIs, which is the axle combination owners want. GVWR raised to 6,200 lb (XLC, 'Extra Load Capacity') to sidestep stricter light-duty emissions rules",
    "flag": "buy"
   },
   {
    "year": "1976",
-   "change": "118-in-wheelbase Traveler and Terra arrive. Nissan SD33 diesel option. Every Scout's GVWR is rated at 6,200 lb to avoid catalytic converters. Automatic shifter moves to the floor. Spirit of 76 and Patriot editions",
+   "change": "118-in-wheelbase Traveler and Terra arrive. Nissan SD33 diesel option. Automatic shifter moves to the floor. Spirit of 76 and Patriot editions",
    "flag": "note"
   },
   {
@@ -100,7 +100,7 @@
   {
    "k": "GVWR",
    "v": "6,200 lb (2,812 kg)",
-   "note": "all Scouts from 1976"
+   "note": "XLC rating from 1975–76 (Super Scout Specialists dates it to 1975; Wikipedia to 1976)"
   },
   {
    "k": "Fuel tank",
@@ -131,14 +131,14 @@
    },
    {
     "cond": "Excellent / original",
-    "range": "$40k–75k"
+    "range": "$40k–65k (Hagerty #2 median $42,200)"
    },
    {
     "cond": "Restomod (LS/Vortec)",
-    "range": "$60k–158k"
+    "range": "$28k–90k"
    }
   ],
-  "note": "Based on about 110 Bring a Trailer Scout II sales, January 2025–October 2026. The median was about $37k. The best stock trucks were a $96,000 1980 345 and $73,000 1979 and $70,500 1978 345s. Diesel 1980s sold for $19.5k–47k. The top result was a $158,000 L92-powered 1979."
+  "note": "Recent Bring a Trailer results (the 18 most recent Scout II sales, July–October 2026) ran from $10,500 to $87,500, with a median of about $25,000. Stock 345 trucks mostly sold for $17k–24k, with projects and survivors up to $59,000; the top result was a 4.8L Vortec-powered 1978 at $87,500. Hagerty's median condition #2 value for 1972–80 Scout IIs is $42,200, and $64,750 for SSIIs."
  },
  "docs": [
   {
@@ -282,6 +282,18 @@
   {
    "name": "Midnitestar Productions — 35th Annual IH Scout & ALL Truck Nationals",
    "url": "http://www.midnitestar.org/"
+  },
+  {
+   "name": "Super Scout Specialists — FAQ (XLC 6,200 lb GVW in 1975, production by year, diesel counts)",
+   "url": "https://www.superscoutspecialists.com/frequently-asked-questions"
+  },
+  {
+   "name": "Hagerty — Love vintage Broncos? Scout this '70s alternative (engine line-up, values)",
+   "url": "https://www.hagerty.com/media/market-trends/hagerty-insider/love-vintage-broncos-scout-out-this-70s-alternative/"
+  },
+  {
+   "name": "IH Parts America forum — Suspension parts question (31-in tires)",
+   "url": "https://forums.ihpartsamerica.com/goto/post?id=52776"
   }
  ]
 }

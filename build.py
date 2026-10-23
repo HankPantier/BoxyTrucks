@@ -43,14 +43,14 @@ LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303', 'Hummer H1', 'FJ Cruiser']},
 ]
 BUILDERS = [
-    {'name': 'Jackwagon Overlanding', 'what': 'G-Class · overland builds', 'url': 'https://jackwagonoverlanding.com/'},
-    {'name': 'Expedition Motor Company', 'what': 'G-Class · W460 / Wolf restorations', 'url': 'https://www.expeditionmotorcompany.com/'},
+    {'name': 'Jack Wagon Overlanding', 'what': 'G-Class · overland parts & builds', 'url': 'https://jackwagonoverlanding.com/'},
+    {'name': 'Expedition Motor Company', 'what': 'G-Class · ex-military 250 GD / Wolf restorations', 'url': 'https://www.expeditionmotorcompany.com/'},
     {'name': 'ICON 4x4', 'what': 'Land Cruiser · restomods', 'url': 'https://www.icon4x4.com/'},
-    {'name': 'The FJ Company', 'what': 'Land Cruiser · restorations', 'url': 'https://www.thefjcompany.com/'},
+    {'name': 'The FJ Company', 'what': 'Land Cruiser · restorations', 'url': 'https://www.fj.co/'},
     {'name': 'Arkonik', 'what': 'Defender · restomods', 'url': 'https://www.arkonik.com/'},
 ]
 STORIES = [
-    {'img': 'lc-dune.jpg', 'alt': 'A silver Toyota Land Cruiser climbing a dune at sunset', 'tag': 'LAND CRUISER 200 · EXPEDITION PORTAL', 'title': 'Staples in Tents: the 200 Series built for Mexico, Baja and, next, the Arctic Ocean', 'href': 'https://expeditionportal.com/feature-vehicle-staples-in-tents-200-series-toyota-land-cruiser/'},
+    {'img': 'lc-dune.jpg', 'alt': 'A white Toyota Land Cruiser 200 Series climbing a desert dune at sunset', 'tag': 'LAND CRUISER 200 · EXPEDITION PORTAL', 'title': 'Staples in Tents: the 200 Series built for Mexico, Baja and, next, the Arctic Ocean', 'href': 'https://expeditionportal.com/feature-vehicle-staples-in-tents-200-series-toyota-land-cruiser/'},
     {'img': 'defender-desert.jpg', 'alt': 'The open cockpit of a vintage Land Rover looking out over desert sand', 'tag': 'SERIES IIA · HUCKBERRY JOURNAL', 'title': 'Panama to Mexico in a 1968 Series IIA: Sinuhe Xavier’s rain-soaked scene report', 'href': 'https://huckberry.com/journal/posts/sinuhe-xavier-scene-report-costa-rica'},
     {'img': 'lc-desert.jpg', 'alt': 'Land Cruiser 70 Series troop carriers parked among desert boulders', 'tag': 'LAND CRUISER 70 · OVERLAND JOURNAL', 'title': 'Why the 70 Series is still the overlander’s truck, and how to build one without overdoing it', 'href': 'https://overlandjournal.com/pages/principles-of-overlanding-building-a-70-series-land-cruiser'},
 ]
@@ -363,10 +363,10 @@ def main():
          'a': 'Owner\'s and factory service manuals, specialist shops, parts suppliers, long-running owner forums and reputable press. Every guide lists its sources at the bottom. Specs vary by year, market and engine, so always confirm fluids, torque figures and part numbers for your VIN before you start.',
          'href': 'about/disclaimer.html', 'cta': 'READ THE DISCLAIMER'},
         {'model': 'PARTS', 'q': 'How do I find the right parts for my truck?',
-         'a': 'Every repair and every item in each guide\'s “After you buy it” service list links to the parts you need at suppliers owners trust for that truck, plus an Amazon search. Use the part numbers, check fitment against your VIN, and when in doubt call the supplier.',
+         'a': 'Nearly every repair, and every item in each guide\'s “After you buy it” service list, links to the parts you need at suppliers owners trust for that truck, usually with an Amazon search alongside. (Recall checks and a few dealer-only jobs have no parts links.) Use the part numbers, check fitment against your VIN, and when in doubt call the supplier.',
          'href': 'repairs/index.html', 'cta': 'BROWSE ALL REPAIRS'},
         {'model': 'BUYING', 'q': 'Can I buy a truck here?',
-         'a': 'No, we don\'t sell anything. Each guide links straight to live AutoTempest searches and Bring a Trailer listings for that generation, and the buying checks tell you what to look at before you hand over money.',
+         'a': 'No, we don\'t sell anything. Each guide to a truck you can buy links straight to live AutoTempest searches and Bring a Trailer listings for that generation, and the buying checks tell you what to look at before you hand over money.',
          'href': 'for-sale/index.html', 'cta': 'SEE WHAT\'S FOR SALE'},
         {'model': 'YOUR RIG', 'q': 'Can my truck be featured?',
          'a': 'Yes. Send your truck, the build list and your best off-pavement photos through Show Us Your Rig. The good ones become Featured Builds on the home page and their model page, always credited to you.',

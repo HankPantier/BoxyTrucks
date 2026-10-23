@@ -36,7 +36,7 @@
   {
    "heading": "CHRYSLER LEAVES IT ALONE",
    "paragraphs": [
-    "Chrysler bought AMC on March 2, 1987, and largely left the Grand Wagoneer alone. It still made $5,000 to $6,000 per truck, and Chrysler kept the carbureted AMC 360 rather than fitting its own fuel-injected V8. The 360 became one of the last carbureted engines in an American-built vehicle. The 1989–91 trucks are considered the best: they got a better A/C compressor to replace the earlier leak-prone unit, a rear wiper, an overhead console with compass and thermometer, keyless entry, electrocoat primer and base-clear paint.",
+    "Chrysler agreed to buy AMC on March 9, 1987, and largely left the Grand Wagoneer alone. It still made $5,000 to $6,000 per truck, and Chrysler kept building it with the carbureted AMC 360. The 360 became one of the last carbureted engines in an American-built vehicle. The 1989–91 trucks are considered the best: they got a better A/C compressor to replace the earlier leak-prone unit, a rear wiper, an overhead console with compass and thermometer, keyless entry, electrocoat primer and base-clear paint.",
     "Then fuel prices rose with the 1990 oil shock. Sales fell from more than 10,000 in 1989 to 6,449 in 1990, and only 4,253 were built for 1991. The platform would also have needed major re-engineering for upcoming federal light-truck safety rules. Chrysler announced the end on February 27, 1991, offered a gold 'Final Edition' dash badge, and built the last Grand Wagoneer in Toledo on June 21, 1991. The name came back for one year on the 1993 ZJ Grand Cherokee and then returned in 2021 on the WS-platform Wagoneer and Grand Wagoneer."
    ]
   },
@@ -44,7 +44,7 @@
    "heading": "THE AFTERLIFE: RESTOMODS AND RISING PRICES",
    "paragraphs": [
     "Specialist shops were refurbishing Grand Wagoneers before Chrysler built the last one. Wagonmaster, founded by Leon Miller in Kerrville, Texas, keeps the original look but replaces the carburetor with throttle-body fuel injection. Classic Gentleman, G.K. Kerr's shop in Bemus Point, New York, looks for low-mileage trucks and offers full rebuilds and color changes. In 2019 DrivingLine reported $40,000 to $80,000 for trucks from either shop. Kerr told Hagerty he won't buy trucks from road-salt states.",
-    "Hagerty said its Grand Wagoneer values rose an average of 2–6% with each bi-monthly update for nearly a decade, with a 1991 in #2 condition at $36,900 and a #1 at $62,200 when that piece ran. During the pandemic Hagerty named the 1984–91 trucks among the most sought-after vintage vehicles. The 1984–91 Grand Wagoneer belongs to the same era as the [[land-cruiser/fj60|FJ60]] Land Cruiser and the four-door [[range-rover/classic|Range Rover Classic]]. Of the three, it is the one most likely to be restored with an EFI V8 and sold as a lifestyle object."
+    "Hagerty said its Grand Wagoneer values rose an average of 2–6% with each bi-monthly update, with a 1991 in #2 condition at $36,900 and a #1 at $62,200 when that piece ran. By 2021, Wikipedia notes, Hagerty listed the 1984–91 trucks among the most sought-after vintage cars of the COVID-19 pandemic. The 1984–91 Grand Wagoneer belongs to the same era as the [[land-cruiser/fj60|FJ60]] Land Cruiser and the four-door [[range-rover/classic|Range Rover Classic]]. Of the three, it is the one most likely to be restored with an EFI V8 and sold as a lifestyle object."
    ]
   }
  ],
@@ -66,7 +66,7 @@
   {
    "k": "ENGINE",
    "v": "AMC 360 (5.9 L) V8, 2-bbl Motorcraft 2150",
-   "note": "8.25:1 compression. Ratings vary by source: Hagerty quotes 140 hp / 280 lb-ft; Wikipedia's AMC V8 entry gives 160 hp for 1978–91. A 4.2 L six was offered 1984–86."
+   "note": "8.25:1 compression. Ratings vary by source: Hagerty quotes 140 hp / 280 lb-ft; Offroaders.com and Wikipedia's AMC V8 table give 144 hp / 280 lb-ft for the 1991 two-barrel. Hagerty says a 4.2 L six was the standard engine for 1984–86."
   },
   {
    "k": "TRANSMISSION",
@@ -122,7 +122,7 @@
    "years": "1984–1986",
    "platform": "Grand Wagoneer",
    "engine": "AMC 360 V8 (4.2 I6 offered)",
-   "output": "140–160 hp (see engineering)",
+   "output": "140–144 hp (see engineering)",
    "note": "Renamed from Limited. 1986 refresh: grille, dash, Trac-Lok."
   },
   {
@@ -167,7 +167,7 @@
   },
   {
    "head": "Know the year",
-   "body": "Wikipedia and Hagerty both point to 1989–91 for better rustproofing, paint and equipment, and a 1991 Final Edition commands a premium. Hagerty says tan or sand interiors and blue, green or white paint sell best."
+   "body": "Wikipedia points to 1989–91 for better rustproofing, paint and equipment, and a 1991 Final Edition commands a premium. Hagerty says tan or sand interiors and blue, green or white paint sell best."
   },
   {
    "head": "Ask where it lived",
@@ -388,7 +388,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "AMC 360 V8 · capacity and grade [CONFIRM IN MANUAL]",
+    "spec": "AMC 360 V8 · AMSOIL's 1989 lookup lists 5 qt with filter and 10W-30 or 10W-40 for most climates [CONFIRM IN MANUAL]",
     "interval": "Baseline now; then per your owner's manual",
     "note": "The filter changes by year: one for 1984–86, another for 1987–90, and a third for 1991. Order by model year.",
     "parts": [
@@ -475,7 +475,7 @@
    },
    {
     "item": "Coolant, thermostat, hoses & cap",
-    "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+    "spec": "AMSOIL's 1989 lookup lists 13.7 qt · coolant type [CONFIRM IN MANUAL]",
     "interval": "Flush and refill now",
     "note": "Replace the thermostat, gasket, radiator hoses and cap together, and check the thermal fan clutch while the system is open.",
     "parts": [
@@ -503,8 +503,8 @@
    },
    {
     "item": "Automatic transmission (A727) fluid & filter",
-    "spec": "ATF · drain pan, new filter and gasket [CONFIRM CAPACITY IN MANUAL]",
-    "interval": "Then every 30,000 mi or 3 years (Team Grand Wagoneer, conventional fluid)",
+    "spec": "ATF · drain pan, new filter and gasket · AMSOIL's 1989 lookup lists about 4 qt for a pan drop and 8.6 qt total [CONFIRM IN MANUAL]",
+    "interval": "Every 30,000 mi or 3 years with conventional fluid (Team Grand Wagoneer's filter-kit listing)",
     "note": "This is a pan drop, not a flush. Team Grand Wagoneer recommends fully synthetic ATF.",
     "parts": [
      {
@@ -521,8 +521,8 @@
    },
    {
     "item": "Transfer case (NP228 / NP229 / NP208)",
-    "spec": "ATF-type fluid (per Team Grand Wagoneer) · capacity [CONFIRM IN MANUAL]",
-    "interval": "Baseline now; Team Grand Wagoneer suggests about every 50,000 mi",
+    "spec": "ATF-type fluid (per Team Grand Wagoneer) · AMSOIL's 1989 lookup lists 5.9 pints for the NP208/NP229 [CONFIRM IN MANUAL]",
+    "interval": "Baseline now; Team Grand Wagoneer suggests every 50,000 mi in severe use, 100,000 mi in normal use (with its synthetic fluid)",
     "note": "While you're under there, check the yoke seals and the Selec-Trac vacuum lines.",
     "parts": [
      {
@@ -539,7 +539,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "75W-90 gear oil · limited-slip-rated oil for Trac-Lok axles · capacities [CONFIRM IN MANUAL]",
+    "spec": "75W-90 gear oil · limited-slip additive or LSD-rated oil for Trac-Lok axles · AMSOIL's 1989 lookup lists 2.7 pints front and 3 pints rear [CONFIRM IN MANUAL]",
     "interval": "Baseline now",
     "note": "The front is a Dana 44; the rear is an AMC or Dana 44 depending on year. Read the tag and use LSD-compatible oil if the truck has Trac-Lok (standard with Selec-Trac from 1986).",
     "parts": [
@@ -668,7 +668,7 @@
   },
   {
    "q": "How much power does the 360 V8 make?",
-   "a": "It depends on the source. Hagerty quotes 140 hp and 280 lb-ft, Offroaders.com says 144 hp, and Wikipedia's AMC V8 entry lists 160 hp for the two-barrel 360 from 1978 to 1991. Either way, the torque is what moves it. The 360 is a tall-deck AMC engine. Chrysler kept building it until 1991, changing only the casting from '360' to '5.9L'.",
+   "a": "It depends on the source. Hagerty quotes 140 hp and 280 lb-ft, and Offroaders.com and Wikipedia's AMC V8 table both give 144 hp (280 lb-ft) for the 1991 two-barrel 360. Either way, the torque is what moves it. The 360 is a tall-deck AMC engine. Chrysler kept building it until 1991, changing only the casting from '360' to '5.9L'.",
    "src": "HAGERTY · WIKIPEDIA"
   },
   {
@@ -916,7 +916,7 @@
  "photos": [
   {
    "file": "gw-webster-nc.jpg",
-   "alt": "A dark green 1986–91 Jeep Grand Wagoneer with woodgrain sides parked on a red-dirt gravel lot in the mountains of western North Carolina",
+   "alt": "A dark green 1986–91 Jeep Grand Wagoneer with woodgrain sides parked on a red-dirt gravel pull-off beside a mountain road in western North Carolina",
    "caption": "GRAND WAGONEER · WEBSTER, NORTH CAROLINA",
    "credit": "Warren LeMay · CC0",
    "source": "Wikimedia Commons",
@@ -991,6 +991,18 @@
   {
    "name": "Team Grand Wagoneer — parts catalog and product notes",
    "url": "https://teamgrandwagoneer.com/"
+  },
+  {
+   "name": "AMSOIL — 1989 Jeep Grand Wagoneer 5.9L lubricant and capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1989/jeep/grand-wagoneer/5-9l-8-cyl-engine-code-7-7/"
+  },
+  {
+   "name": "Wikipedia — American Motors Corporation (Chrysler purchase, March 1987)",
+   "url": "https://en.wikipedia.org/wiki/American_Motors_Corporation"
+  },
+  {
+   "name": "Team Grand Wagoneer — A727 filter kit (service interval) and 2150 carburetor kit listings",
+   "url": "https://teamgrandwagoneer.com/transmission-filter-gasket-set-gw-1979-1991/"
   }
  ]
 }
