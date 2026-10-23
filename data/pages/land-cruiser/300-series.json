@@ -11,7 +11,7 @@
   "V35A-FTS 3.4 TWIN-TURBO V6",
   "10-SPEED AUTO"
  ],
- "hero_photo": "lc300-dirt-event.jpg",
+ "hero_photo": "lc300-dubai-dunes.jpg",
  "story": [
   {
    "heading": null,
@@ -587,6 +587,22 @@
  ],
  "photos": [
   {
+   "file": "lc300-dubai-dunes.jpg",
+   "alt": "A white 300 Series Land Cruiser driving across red sand dunes under a pale blue sky in the UAE desert",
+   "caption": "300 SERIES · DUNE DRIVING, UAE",
+   "credit": "Jackson Jacob",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/toyota-land-cruiser-on-desert-20584984/"
+  },
+  {
+   "file": "lc300-dubai-dunes-rear.jpg",
+   "alt": "Rear view of the same white 300 Series Land Cruiser GXR spraying sand as it climbs through soft dunes",
+   "caption": "300 SERIES GXR · SOFT SAND, UAE",
+   "credit": "Jackson Jacob",
+   "source": "Pexels",
+   "source_url": "https://www.pexels.com/photo/toyota-land-cruiser-on-desert-20584983/"
+  },
+  {
    "file": "lc300-dirt-event.jpg",
    "alt": "A black 300 Series Land Cruiser with muddy tyres parked on a dirt lot at an outdoor event in the Philippines",
    "caption": "300 SERIES · DIRT LOT AT AN OUTDOOR EVENT",
@@ -601,14 +617,6 @@
    "credit": "BraedenGatt · CC BY 4.0",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:SA_Ambulance_Special_Operations_Team_Toyota_LC300.jpg"
-  },
-  {
-   "file": "lc300-gr-sport.jpg",
-   "alt": "A white 300 Series Land Cruiser GR Sport parked on a street",
-   "caption": "300 GR SPORT · STREET (NO OFF-ROAD SHOT YET)",
-   "credit": "LuvsMG481 · CC BY-SA 4.0",
-   "source": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Land_Cruiser_GR_Sport_front.jpg"
   }
  ],
  "sources": [
@@ -916,5 +924,5 @@
    }
   ]
  },
- "hero_focus": "45% 60%"
+ "hero_focus": "60% 50%"
 }
