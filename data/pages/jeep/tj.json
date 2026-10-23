@@ -36,7 +36,7 @@
   {
    "heading": "THE RUBICON",
    "paragraphs": [
-    "In summer 2002 Jeep launched the 2003 Wrangler Rubicon, and it changed what buyers expected from a showroom Jeep. It had Dana 44 axles front and rear with 4.10 gears and air-actuated lockers built by Tochigi Fuji Sangyo. A dash switch engaged them at 5 psi in low range below 10 mph. It also had the NV241OR Rock-Trac transfer case with a 4.0:1 low range, 31-inch Goodyear MT/R tires and diamond-plate sill guards. RockCrawler reported a crawl ratio of 65.92. Jeep's Craig Love said it combined 'what would typically be aftermarket hardware'. Drivingline calls it the most capable factory TJ you can buy. The long-wheelbase [[jeep/tj-unlimited|Unlimited (LJ)]] arrived for 2004, and a Rubicon version followed for 2005."
+    "In summer 2002 Jeep launched the 2003 Wrangler Rubicon, and it changed what buyers expected from a showroom Jeep. It had Dana 44 axles front and rear with 4.10 gears and air-actuated lockers built by Tochigi Fuji Sangyo. Jeep's launch release said the driver could lock them from a dash switch in low range below 10 mph, with the pneumatic pump running at just 5 psi. It also had the NV241OR Rock-Trac transfer case with a 4.0:1 low range, 31-inch Goodyear MT/R tires and diamond-plate sill guards. RockCrawler reported a crawl ratio of 65.92. Jeep's Craig Love said it combined 'what would typically be aftermarket hardware'. Drivingline calls it the most capable factory TJ you can buy. The long-wheelbase [[jeep/tj-unlimited|Unlimited (LJ)]] arrived for 2004, and a Rubicon version followed for 2005."
    ]
   },
   {
@@ -52,7 +52,7 @@
   "title": "Why 2005–06 TJ owners listen to their engines",
   "paragraphs": [
    "The 4.0 drives its oil pump through a shaft from the camshaft, called the oil pump drive assembly or OPDA, which also carries the cam position sensor. Quadratec's inspection checklist flags 2005–06 4.0 TJs for OPDA failure and says owners describe the warning noise as a 'laughing monkey'.",
-   "Dorman's replacement listing explains the cause. The factory steel upper bushing is starved of oil, so the center shaft can seize, damaging the cam bearing and, if neglected, stopping the oil pump from turning. Quadratec's advice is blunt: without records of a replacement, deal with it before it deals with the engine."
+   "Sources describe the flaw slightly differently. Dorman's replacement listing says the factory upper bushing (steel, by its account) is starved of oil, so the center shaft can seize and destroy the cam bearing. Crown's listing at Quadratec describes two bronze bushings with a seal that cuts the upper one off from oil. Quadratec's advice is blunt: without records of a replacement or update, deal with it before it damages the engine."
   ]
  },
  "engineering_intro": "The TJ is a ladder-frame Jeep with solid axles at both ends, located by coil springs, control arms, track bars and anti-roll bars. The standard wheelbase stayed at 93.4 inches. Most trucks pair a Dana 30 front axle with a Dana 35 or optional Dana 44 rear and the NP231 part-time transfer case. The 2003–06 Rubicon gets Dana 44s at both ends with lockers and the 4:1 NV241OR.",
@@ -115,14 +115,14 @@
    "platform": "TJ SE",
    "engine": "2.4 L PowerTech I4",
    "output": "147 hp / 165 lb-ft",
-   "note": "NV1500 five-speed (2003–04) or 42RLE automatic. NSG370 six-speed for 2005–06."
+   "note": "NV1500 five-speed (2003–04) or 42RLE automatic; NSG370 six-speed for 2005–06. fueleconomy.gov lists the 2.4 through 2006."
   },
   {
    "years": "2003–2006",
    "platform": "TJ Rubicon",
    "engine": "4.0 L AMC I6",
    "output": "190 hp / 235 lb-ft",
-   "note": "Dana 44s with 4.10 gears and air lockers, NV241OR 4:1 transfer case, 31-in MT/Rs."
+   "note": "Dana 44s with 4.10 gears (Jeep spec sheets also say 4.11) and air lockers, NV241OR 4:1 transfer case, 31-in LT245/75R16 MT/Rs."
   },
   {
    "years": "2005–2006",
@@ -155,7 +155,7 @@
   },
   {
    "head": "Radiator end tanks",
-   "body": "The factory radiator has plastic end tanks that leak at the upper seams, often from around 100,000 miles. Look for green crust, coolant smell and small leaks. Off Road Xtreme recommends an all-aluminum radiator, partly because the 4.0 runs warm."
+   "body": "The factory radiator has plastic end tanks crimped to an aluminum core, and Quadratec says many start leaking at the upper seams around 100,000 miles. Look for green crust, coolant smell and small leaks. Off Road Xtreme recommends an all-aluminum radiator, partly because the 4.0 runs warm."
   },
   {
    "head": "Which rear axle and which gearbox?",
@@ -198,8 +198,8 @@
    "diff": "3 / 5",
    "time": "≈ 2–3 hours, if you're careful with the timing",
    "cost": "Parts plus labor",
-   "symptoms": "A chirping 'laughing monkey' noise from the top of the engine, most often on 2005–06 4.0s. Left alone, the drive can seize and stop the oil pump.",
-   "fix": "The OPDA sits where a distributor would be and carries the camshaft position sensor, so its position matters. Following the factory service manual, bring cylinder 1 to top dead center on the compression stroke, mark the sensor's orientation, disconnect it, remove the hold-down clamp and lift the old drive out. Install the replacement in the same orientation so it engages the oil pump, then refit the sensor and complete the manual's synchronization check. Inspect the old unit's upper bushing and gear for wear, and change the oil and filter afterwards in case debris reached it. Dorman and NAPA's version uses a self-lubricating upper bushing in place of the factory steel one.",
+   "symptoms": "A chirping 'laughing monkey' noise from the top of the engine, most often on 2005–06 4.0s. Left alone, Dorman says the center shaft can seize and destroy the cam bearing, and Quadratec warns failure can damage the engine.",
+   "fix": "The OPDA sits where a distributor would be and carries the camshaft position sensor, so its position matters. Following the factory service manual, bring cylinder 1 to top dead center on the compression stroke, mark the sensor's orientation, disconnect it, remove the hold-down clamp and lift the old drive out. Install the replacement in the same orientation so it engages the oil pump, then refit the sensor and complete the manual's synchronization check. Inspect the old unit's upper bushing and gear for wear, and change the oil and filter afterwards in case debris reached it. Dorman's version uses a self-lubricating upper bushing; Crown's moves the seal above the upper bushing.",
    "tools": "Socket set · factory service manual (TDC and sync procedure) · paint marker · scan tool if available.",
    "parts": [
     {
@@ -281,7 +281,7 @@
    "tools": "Extensions · wobble sockets · flex-head ratcheting wrenches · O2-sensor socket · anti-seize · Loctite.",
    "parts": [
     {
-     "name": "OMIX 17622.12 4.0L exhaust manifold kit, 91–99 XJ/ZJ & TJ",
+     "name": "OMIX 17622.12 4.0L exhaust manifold kit, 91–99 XJ/ZJ & TJ (1997–99 TJs only per the listing; check fitment for 2000–06)",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/products/17601_0013_07.htm"
     },
@@ -343,8 +343,8 @@
  "faq": [
   {
    "q": "What's the biggest tire I can fit without a lift?",
-   "a": "Four Wheel Trends says the largest tire for a TJ on stock wheels and suspension is generally a 31x10.50, and that it usually allows full articulation. The Rubicon came from the factory on 31-inch LT245/75R16 Goodyear MT/Rs.",
-   "src": "FOUR WHEEL TRENDS · JEEP"
+   "a": "Four Wheel Trends says the biggest tire you can generally run on a stock TJ and keep full function is a 31x10.50-15, and that even that size may rub at full flex, which a washer or two on the steering stops usually cures. The Rubicon came from the factory on 31-inch LT245/75R16 Goodyear MT/Rs.",
+   "src": "FOUR WHEEL TRENDS · QUADRATEC SPECS"
   },
   {
    "q": "Four-cylinder or 4.0?",
@@ -353,7 +353,7 @@
   },
   {
    "q": "What is the 'laughing monkey' noise?",
-   "a": "It's the sound of a failing oil pump drive assembly (OPDA), flagged by Quadratec on 2005–06 4.0 TJs. The factory steel upper bushing is starved of oil, and if it seizes it can wreck the cam bearing and stop the oil pump. Replace it if there's no record it has been done.",
+   "a": "It's the sound of a failing oil pump drive assembly (OPDA), which Quadratec flags on 2005–06 4.0 TJs. Dorman says the factory upper bushing is starved of oil, and if the shaft seizes it can destroy the cam bearing. Replace it if there's no record it has been done.",
    "src": "QUADRATEC · DORMAN/NAPA"
   },
   {
@@ -368,7 +368,7 @@
   },
   {
    "q": "What does the Rubicon add?",
-   "a": "Dana 44 axles front and rear with 4.10 gears, air-actuated front and rear lockers, the NV241OR Rock-Trac transfer case with a 4.0:1 low range, 31-inch MT/R tires, 16-inch wheels and diamond-plate sill guards. RockCrawler reported a 65.92:1 crawl ratio. It was sold for 2003–06.",
+   "a": "Dana 44 axles front and rear with 4.10 gears (Jeep spec sheets also list 4.11), air-actuated front and rear lockers that engage in low range below 10 mph, the NV241OR Rock-Trac transfer case with a 4.0:1 low range, 31-inch MT/R tires, 16-inch wheels and diamond-plate sill guards. RockCrawler reported a 65.92:1 crawl ratio. It was sold for 2003–06.",
    "src": "JEEP PRESS RELEASE · ROCKCRAWLER"
   },
   {
@@ -378,18 +378,18 @@
   },
   {
    "q": "How much can a TJ tow?",
-   "a": "Wikipedia lists 2,000 lb for the standard TJ and 3,500 lb for the long-wheelbase Unlimited.",
-   "src": "WIKIPEDIA"
+   "a": "Jeep's 2005–06 spec sheet rates the 4.0 at 2,000 lb, but the 2.4 and the 4.0 automatic with the base 3.73 axle at 1,000 lb, so check your build. Wikipedia gives 2,000 lb for the TJ and 3,500 lb for the long-wheelbase Unlimited.",
+   "src": "QUADRATEC (JEEP SPECS) · WIKIPEDIA"
   },
   {
    "q": "What coolant does it take?",
-   "a": "Haynes says 2000-and-earlier Wranglers use conventional ethylene-glycol antifreeze, and 2001-and-later use Mopar's 5-year/100,000-mile HOAT coolant, both mixed 50/50. Capacity is about 9 qt for the fours and 10.5 qt for the 4.0.",
-   "src": "HAYNES"
+   "a": "Quadratec's factory-based chart gives about 9 qt for the four-cylinders and 10.5 qt for the 4.0, mixed 50/50. Owners commonly report a change from conventional green coolant to Mopar's HOAT type around 2001, but we couldn't confirm the exact changeover from a primary source, so check the label on the overflow bottle and the owner's manual [CONFIRM IN MANUAL]. Don't mix types.",
+   "src": "QUADRATEC · OWNER'S MANUAL"
   },
   {
    "q": "What gear oil goes in the axles?",
-   "a": "Haynes lists 75W-90 GL-5, or 75W-140 synthetic for towing, plus 4 oz of friction modifier for Trac-Lok. Quadratec and ExtremeTerrain's charts say the Rubicon's Dana 44s use 75W-140 synthetic.",
-   "src": "HAYNES · QUADRATEC"
+   "a": "Quadratec's factory-based chart lists GL-5 80W-90 or 75W-140 synthetic, 75W-140 synthetic for the Rubicon's Dana 44s, and 4 oz of limited-slip additive for a Trac-Lok. ExtremeTerrain recommends 75W-140 in the rear for warm-weather towing. Haynes' schedule changes the differential lubricant every 30,000 miles or 24 months.",
+   "src": "QUADRATEC · EXTREMETERRAIN · HAYNES"
   },
   {
    "q": "Why does my TJ leak oil?",
@@ -659,7 +659,7 @@
   },
   {
    "k": "AXLES",
-   "v": "Dana 30 / Dana 35 or 44 · Rubicon Dana 44 / 44, 4.10, lockers"
+   "v": "Dana 30 / Dana 35 or 44 · Rubicon Dana 44 / 44, 4.10 (4.11), lockers"
   },
   {
    "k": "WHEELBASE",
@@ -671,11 +671,11 @@
   },
   {
    "k": "CURB WEIGHT",
-   "v": "3,092–3,857 lb (incl. Unlimited)"
+   "v": "3,092–3,857 lb (short wheelbase)"
   },
   {
    "k": "TOWING",
-   "v": "2,000 lb"
+   "v": "2,000 lb (1,000 lb with the 2.4 or some 3.73 automatics)"
   }
  ],
  "photos": [
@@ -683,13 +683,13 @@
    "file": "tj-shotgun-creek-rocks.jpg",
    "alt": "A lifted yellow Jeep Wrangler TJ climbing over a pile of rocks on a forest trail, with a spotter beside it",
    "caption": "TJ · SHOTGUN CREEK OHV TRAILS, OREGON",
-   "credit": "BLM Oregon & Washington · Public domain",
+   "credit": "Carlos Velez, Salem Jeepers, via BLM Oregon & Washington · Public domain (as tagged on Commons)",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Shotgun_Creek_OHV_Trails_10_(16359509944).jpg"
   },
   {
    "file": "tj-cow-mountain-trail.jpg",
-   "alt": "A white Jeep Wrangler TJ on a gravel trail through autumn brush at South Cow Mountain",
+   "alt": "A lifted white Jeep Wrangler TJ towing a small off-road trailer on a gravel trail through autumn brush at South Cow Mountain",
    "caption": "TJ · SOUTH COW MOUNTAIN, CALIFORNIA",
    "credit": "BLM California · Public domain",
    "source": "Wikimedia Commons",
@@ -697,8 +697,8 @@
   },
   {
    "file": "tj-rubicon-rock-crawl.jpg",
-   "alt": "A silver Jeep Wrangler TJ Rubicon crawling over limestone boulders in the woods",
-   "caption": "TJ RUBICON · PARAGON OFF ROAD PARK, PA",
+   "alt": "A silver Jeep Wrangler TJ, described by the photographer as a Rubicon, crawling over boulders in the woods",
+   "caption": "TJ · PARAGON OFF ROAD PARK, PA",
    "credit": "Mtxchevy at English Wikipedia · Public domain",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Rockcrawling.JPG"
@@ -735,7 +735,7 @@
   },
   {
    "name": "Jeep / DaimlerChrysler press release — 2003 Wrangler Rubicon (The Auto Channel)",
-   "url": "https://www2020.theautochannel.com/news/2002/01/07/034134.html"
+   "url": "https://www.theautochannel.com/news/2002/01/07/034134.html"
   },
   {
    "name": "RockCrawler.com — 2003 Jeep Wrangler Rubicon leaks out",
@@ -770,8 +770,8 @@
    "url": "https://modernjeeper.com/replacing-your-exhaust-manifold-header-on-a-tj-lj/"
   },
   {
-   "name": "Haynes — 1987–2017 Jeep Wrangler routine maintenance FAQ",
-   "url": "https://haynes.com/en-us/tips-tutorials/1987-2017-jeep-wrangler-and-wrangler-unlimited-routine-maintenance-faq"
+   "name": "Haynes — 1987–2017 Jeep Wrangler routine maintenance schedule",
+   "url": "https://us.haynes.com/blogs/tips-tutorials/1987-2017-jeep-wrangler-and-wrangler-unlimited-routine-maintenance-faq"
   },
   {
    "name": "ExtremeTerrain — Jeep Wrangler oils & fluids explained",
@@ -800,16 +800,32 @@
   {
    "name": "Bring a Trailer — Jeep Wrangler TJ",
    "url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  },
+  {
+   "name": "ExtremeTerrain — TJ Wrangler torque specs (1997–2006)",
+   "url": "https://www.extremeterrain.com/tj-wrangler-torque-specs.html"
+  },
+  {
+   "name": "Quadratec — Jeep Wrangler TJ specifications 2005–2006 (Jeep press data)",
+   "url": "https://www.quadratec.com/c/reference/jeep-wrangler-tj-specifications-2005-2006"
+  },
+  {
+   "name": "Quadratec — Crown 53010624AC oil pump drive assembly (product description)",
+   "url": "https://www.quadratec.com/products/51004_0060.htm"
+  },
+  {
+   "name": "fueleconomy.gov — Jeep Wrangler/TJ 4WD EPA ratings",
+   "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1987&year2=2006&make=Jeep&baseModel=Wrangler"
   }
  ],
  "baseline_service": {
-  "intro": "Baseline everything, then deal with the TJ-specific items: crawl under it with a hammer and light to check the frame, listen for the OPDA on a 2005–06 4.0, and confirm which gearbox, transfer case and rear axle you have. Coolant changed from conventional green to Mopar HOAT for 2001, and automatic fluid from ATF+3 to ATF+4 (Haynes).",
+  "intro": "Baseline everything, then deal with the TJ-specific items: crawl under it with a hammer and light to check the frame, listen for the OPDA on a 2005–06 4.0, and confirm which gearbox, transfer case and rear axle you have. Coolant and automatic-fluid specs changed during the run, so check the owner's manual or the labels on your truck before you buy fluids.",
   "items": [
    {
     "item": "Engine oil & filter",
     "spec": "4.0: 6 qt with filter · 2.4: 4 qt · 10W-30 or 5W-30 (ExtremeTerrain)",
     "interval": "Haynes lists every 7,500 mi or 12 months",
-    "note": "Drain-plug torque is 25 ft-lb (Haynes). Look for leaks at the oil-filter adapter gasket while you're under there, because it's a known 4.0 leak.",
+    "note": "Drain-plug torque is 25 ft-lb for the 4.0 and 2.5 and 20 ft-lb for the 2.4 (ExtremeTerrain's factory-spec table). Look for leaks at the oil-filter adapter gasket while you're under there, because it's a known 4.0 leak.",
     "parts": [
      {
       "name": "Mopar 05281090AB engine oil filter, 01–07 TJ",
@@ -851,9 +867,9 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "4.0 and 2.5: 27 ft-lb · 2.4: 132 in-lb (Haynes)",
+    "spec": "ExtremeTerrain's engine tables give 27 ft-lb for the 4.0 and 2.5 and 250 in-lb for the 2.4, but its ignition table says 30 ft-lb for all engines [CONFIRM IN MANUAL]",
     "interval": "Every 30,000 mi (Haynes)",
-    "note": "Check the plug wires and coil while you're there.",
+    "note": "Haynes lists inspecting the plug wires, cap and rotor on 2003-and-earlier models (the 1997–99 4.0 and the 2.5 have a distributor).",
     "parts": [
      {
       "name": "Crown RC12ECC spark plug, 97–06 2.5L/4.0L TJ",
@@ -864,7 +880,7 @@
    },
    {
     "item": "Coolant & radiator",
-    "spec": "1997–2000: ethylene glycol 50/50 · 2001–06: Mopar 5-yr/100k HOAT 50/50 · ≈9 qt (four), 10.5 qt (4.0) (Haynes)",
+    "spec": "≈9 qt (2.4, 2.5), 10.5 qt (4.0), 50/50 (Quadratec chart) · coolant type: conventional vs Mopar HOAT changed around 2001 [CONFIRM IN MANUAL]",
     "interval": "Every 30,000 mi or 24 months (Haynes)",
     "note": "Inspect the plastic radiator end tanks for seam leaks. Quadratec says they often start around 100,000 miles.",
     "parts": [
@@ -882,7 +898,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "AX-5/AX-15: SAE 75W-90 (Haynes: GL-3 for 1998 and later), ≈3.3 qt · NV3550: Mopar manual transmission fluid, about 2 bottles · NV1500: Mopar NV1500 lube, 4.8 pints · NSG370: 3.17 pints (Quadratec chart) [CONFIRM TYPE IN MANUAL]",
+    "spec": "AX-5/AX-15: 75W-90 GL-3 or GL-4 (ExtremeTerrain), ≈3.3 qt · NV3550: Mopar manual transmission fluid, about 2 bottles (4x4xplor) · NV1500: 4.8 pints · NSG370: 3.17 pints (Quadratec chart) [CONFIRM TYPE IN MANUAL]",
     "interval": "Change now, then every 30,000 mi",
     "note": "The NV3550 fill and drain plugs take a 17 mm Allen bit, and the oil-pan skid may need to come off (4x4xplor). Fine filings on the magnet are normal, but chunks are not.",
     "parts": [
@@ -895,9 +911,9 @@
    },
    {
     "item": "Automatic transmission (30RH / 32RH / 42RLE)",
-    "spec": "2000 and earlier: Mopar ATF+3 · 2001 and later: ATF+4 · ≈4 qt pan drop (Haynes)",
+    "spec": "42RLE: ATF+4, ≈4 qt pan drop, 8.8 qt dry (ExtremeTerrain) · 30RH/32RH: ATF type per the dipstick/manual [CONFIRM IN MANUAL]",
     "interval": "Every 30,000 mi, or 12,000 mi in severe use (Haynes)",
-    "note": "Change the filter with the fluid. Filter screws take 35 in-lb (30RH/32RH) or 45 in-lb (42RLE) (Haynes). Drivingline calls the 42RLE heat-sensitive, so consider a cooler if you tow or crawl.",
+    "note": "Change the filter with the fluid. Filter screws take 35 in-lb (30RH/32RH) or 45 in-lb (42RLE) (ExtremeTerrain's factory-spec table). Drivingline calls the 2003–06 four-speed heat-sensitive, so consider a cooler if you tow or crawl.",
     "parts": [
      {
       "name": "TJ automatic transmission parts",
@@ -908,9 +924,9 @@
    },
    {
     "item": "Transfer case (NP231 / NV241OR)",
-    "spec": "Mopar ATF+4 (Haynes) · NV241OR 4.2 pints (ExtremeTerrain chart) · fill until it runs out of the fill hole",
+    "spec": "NV231: ATF+3 or ATF+4, 2.2 pints · NV241OR: ATF+4, 4.2 pints (ExtremeTerrain, Quadratec charts) · fill until it runs out of the fill hole",
     "interval": "Every 30,000 mi (Haynes)",
-    "note": "On a TJ the skid plate has to be lowered for a proper drain (4x4xplor). Plugs take 20 ft-lb (Haynes). Check the output seals and the shift-linkage bushings while you're there.",
+    "note": "On a TJ the skid plate has to be lowered for a proper drain (4x4xplor). Drain and fill plugs take 15–25 ft-lb (ExtremeTerrain's factory-spec table). Check the output seals and the shift-linkage bushings while you're there.",
     "parts": [
      {
       "name": "Crown 53004810 shift lever bushing (NP231/NV241OR)",
@@ -926,9 +942,9 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "75W-90 GL-5; 75W-140 synthetic for towing · Rubicon Dana 44s: 75W-140 synthetic · +4 oz friction modifier for Trac-Lok (Haynes, Quadratec)",
+    "spec": "GL-5 80W-90 or 75W-140 synthetic · Rubicon Dana 44s: 75W-140 synthetic · +4 oz limited-slip additive for Trac-Lok (Quadratec, ExtremeTerrain)",
     "interval": "Every 30,000 mi, and after deep water (ExtremeTerrain)",
-    "note": "Cover bolts take 30 ft-lb (Haynes). Drivingline says to check the Dana 30's pinion seal and U-joints.",
+    "note": "Cover bolts take 30 ft-lb (ExtremeTerrain's factory-spec table). Drivingline says to check the Dana 30's pinion seal and U-joints.",
     "parts": [
      {
       "name": "Gear oil and friction modifier search",

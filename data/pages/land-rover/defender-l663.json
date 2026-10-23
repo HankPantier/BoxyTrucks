@@ -26,7 +26,7 @@
   {
    "heading": "WHAT IT CAN ACTUALLY DO",
    "paragraphs": [
-    "The hardware list reads like a checklist written by someone who'd been told it would be soft. Permanent four-wheel drive through a ZF eight-speed automatic and a two-speed transfer case, a bevel-gear centre differential splitting torque 50/50 that you can lock, and a locking rear differential. Every 110 rides on air suspension, which lifts it to 291 mm of ground clearance; the 90 can have coils (226 mm) or air. Land Rover quotes 900 mm (35.4 in) of wading depth, and Wade Sensing uses the cameras to show you how deep you are.",
+    "The hardware list reads like a checklist written by someone who'd been told it would be soft. Permanent four-wheel drive through a ZF eight-speed automatic and a two-speed transfer case, a bevel-gear centre differential splitting torque 50/50 that you can lock, and a locking rear differential. Every 110 rides on air suspension, which lifts it to 291 mm of ground clearance; the 90 can have coils (about 225 mm) or air. Land Rover quotes 900 mm (35.4 in) of wading depth on air (850 mm on a coil-sprung 90), and Wade Sensing uses the cameras to show you how deep you are.",
     "It is a working truck in the numbers that matter to overlanders, too. Land Rover quotes up to 3,500 kg of towing in the UK and up to 8,200 lb in the US, a 300 kg (661 lb) static roof load for a rooftop tent, and up to 370 lb of dynamic roof load on the 110 and 130 with off-road tyres and the Expedition Roof Rack. Unusually for a unibody, a 4,536 kg load-rated front winch is officially supported. Off-road it simply walks up things the [[land-rover/series|Series]] trucks would have had to winch."
    ]
   },
@@ -34,7 +34,7 @@
    "heading": "ENGINES, V8S AND THE OCTA",
    "paragraphs": [
     "Engines are JLR's Ingenium family: a 2.0 turbo petrol P300, a 3.0 mild-hybrid straight-six P400, a P400e plug-in hybrid for the 110, and in Europe and Australia a run of diesels, first 2.0 four-cylinders and then 3.0 mild-hybrid sixes badged D200, D250, D300 and later D350. From 2021 the supercharged 5.0 V8 P525 added 518 bhp, and 300 all-black V8 Bond Editions marked the truck's role in No Time to Die.",
-    "Then Land Rover went further. The OCTA, announced in July 2024, uses BMW's 4.4-litre twin-turbo mild-hybrid V8 with 635 PS (626 hp in US trim) and claims 0–60 mph in 3.8 seconds. It gets hydraulically interlinked 6D Dynamics suspension, sits wider and higher than a standard Defender, and fits 33-inch tyres from the factory. Land Rover has since taken a rally-raid Defender, the D7X-R, to the Dakar, and says it won on its 2026 debut. The [[g-class/second-gen|G-Class]] now has a genuine rival on every surface."
+    "Then Land Rover went further. The OCTA, announced in July 2024, uses BMW's 4.4-litre twin-turbo mild-hybrid V8 with 635 PS (626 hp in US trim) and claims 0–60 mph in 3.8 seconds. It gets hydraulically interlinked 6D Dynamics suspension, sits wider and higher than a standard Defender, and fits 33-inch tyres from the factory. Land Rover has since taken an OCTA-based rally-raid Defender, the D7X-R, to the Dakar, where it won the Stock category on its 2026 debut. The [[g-class/second-gen|G-Class]] now has a genuine rival on every surface."
    ]
   },
   {
@@ -83,7 +83,7 @@
   {
    "k": "WADING",
    "v": "900 mm (35.4 in)",
-   "note": "OCTA is quoted at one metre."
+   "note": "Air suspension; 850 mm on coil-sprung 90s. OCTA is quoted at one metre."
   }
  ],
  "generations_table": [
@@ -112,13 +112,13 @@
    "years": "2020–",
    "platform": "110",
    "engine": "2.0 PHEV I4 (P400e)",
-   "output": "404 PS system, 640 Nm",
-   "note": "27 miles (43 km) electric range quoted."
+   "output": "404 PS system",
+   "note": "Plug-in hybrid, 110 only; not sold in the US."
   },
   {
    "years": "2021MY–",
    "platform": "90 / 110 / 130",
-   "engine": "3.0 MHEV diesel I6 (D200, D250, D300; D350 from 2024)",
+   "engine": "3.0 MHEV diesel I6 (D200, D250, D300; D350 added later)",
    "output": "200–350 PS, 500–700 Nm",
    "note": "Not listed by Land Rover USA."
   },
@@ -164,7 +164,7 @@
   },
   {
    "head": "Coil or air, and which body",
-   "body": "Every 110 is on air; a 90 can be either. Coil 90s ride and tow fine but don't have the air trucks' height adjustment (no Access mode), and the 290 mm-plus clearance figure is for air."
+   "body": "Land Rover fits air to every 110; a 90 can be either. Coil 90s ride and tow fine but lose the air trucks' height adjustment, sit at about 225 mm instead of up to 291 mm, and are rated to wade 850 mm rather than 900 mm."
   }
  ],
  "repairs": [
@@ -175,7 +175,7 @@
    "cost": "Oil and filter",
    "symptoms": "Due on the oil-life counter, or you want shorter intervals than the factory schedule.",
    "fix": "Drain through the sump plug: remove the two underbody shields (and any aftermarket front guard) to reach it. Defender2.net owners report refills of about 8.5–8.8 litres for the 3.0 diesel; one used 0W-30 to JLR spec 03-5007 with a new filter. Extraction through the dipstick tube works but the tube catches on ledges in the block, so mark the depth on your probe. Reset the oil service counter afterwards with a diagnostic tool, or the truck won't know it has fresh oil.",
-   "tools": "Sockets for the undertray, sump plug socket, filter tool, extractor (optional), diagnostic tool such as a GAP IIDTool · 0W-30 to JLR 03-5007 · oil filter",
+   "tools": "Sockets for the undertray, sump plug socket, filter tool, extractor (optional), diagnostic tool such as a GAP IIDTool · 0W-30 to JLR 03-5007 · oil filter LR133455 (3.0 six, per LR Direct fitment)",
    "parts": [
     {
      "name": "Ingenium 0W-30 engine oil, 5 L",
@@ -188,9 +188,9 @@
      "url": "https://roversnorth.com/search?q=defender+2020+oil+filter"
     },
     {
-     "name": "Defender L663 oil filter (search)",
+     "name": "LR133455 engine oil filter element, 3.0 Ingenium petrol & diesel (New Defender)",
      "supplier": "LR Direct",
-     "url": "https://www.lrdirect.com/catalogsearch/result/?q=oil+filter+defender+l663"
+     "url": "https://www.lrdirect.com/lr133455-filter-engine-oil-element"
     }
    ]
   },
@@ -314,7 +314,7 @@
  "faq": [
   {
    "q": "What's the biggest tire I can fit without a lift?",
-   "a": "275/60R20 (about 33 inches) is the popular step up from the factory 255/60R20. A Defender2.net owner fitted it to a coil-sprung 110 on stock 8.5-inch 20s with no spacers and reports no rubbing, even off-road; others warn it can touch on some setups. 275/55R20 runs without rubbing on air suspension at full articulation, and Australian owners run 275/65R18 LT on 18s. The OCTA fits 33s from the factory because its axles move forward slightly.",
+   "a": "275/60R20 (about 33 inches) is the popular step up from the factory 255/60R20. A Defender2.net owner fitted it to a coil-sprung truck on stock 8.5-inch 20s with no spacers and reports no rubbing, even off-road; others warn it can touch on some setups. 275/55R20 runs without rubbing on air suspension at full articulation, and Australian owners run 275/65R18 LT on 18s. The OCTA fits 33s from the factory because its axles move forward slightly.",
    "src": "DEFENDER2.NET / WIKIPEDIA"
   },
   {
@@ -324,7 +324,7 @@
   },
   {
    "q": "How deep can it wade?",
-   "a": "900 mm (35.4 in), with Wade Sensing using the cameras to show water depth. The OCTA is quoted at one metre.",
+   "a": "900 mm (35.4 in) on air suspension, with Wade Sensing using the cameras to show water depth. Land Rover's 21MY Defender 90 data sheet rates coil-sprung 90s at 850 mm, and the OCTA is quoted at one metre.",
    "src": "LAND ROVER / WIKIPEDIA"
   },
   {
@@ -334,8 +334,8 @@
   },
   {
    "q": "Coil or air suspension?",
-   "a": "All 110 models have air as standard. The 90 can have coils or air. Coil 90s give 226 mm of ground clearance against 291 mm maximum for air, and lose the height-adjustable modes.",
-   "src": "WIKIPEDIA"
+   "a": "Land Rover fits air to every 110. The 90 can have coils or air. Coil 90s give about 225 mm of ground clearance against up to 291 mm at off-road height on air, wade 850 mm instead of 900 mm, and lose the height-adjustable modes.",
+   "src": "WIKIPEDIA / LAND ROVER TECH DATA"
   },
   {
    "q": "Does it have locking diffs?",
@@ -354,7 +354,7 @@
   },
   {
    "q": "Which engine should I buy?",
-   "a": "US trucks launched with 2.0 four-cylinder and 3.0 six-cylinder engines, and Land Rover USA's current 110 spec page lists only the 3.0 six, with the OCTA sold as its own model. In Europe and Australia the D250/D300 diesels are the long-distance favourites, though the mild hybrids have had DC-DC converter failures and the diesels have DPF and EGR sensor faults.",
+   "a": "US trucks launched with 2.0 four-cylinder and 3.0 six-cylinder engines, and Land Rover USA's current 110 spec page lists only the 3.0 six, with the OCTA sold as its own model (EPA still lists 2026 2.0 and 5.0 V8 trucks). In Europe and Australia the D250/D300 diesels are the long-distance favourites, though the mild hybrids have had DC-DC converter failures and the diesels have DPF and EGR sensor faults.",
    "src": "LAND ROVER USA / DEFENDER2.NET"
   },
   {
@@ -364,8 +364,8 @@
   },
   {
    "q": "What fuel economy should I expect?",
-   "a": "Official NEDC figures range from about 7.6 L/100 km (31 mpg US) for the 3.0 diesels to 9.9 L/100 km (24 mpg US) for the P400 and 12.1 L/100 km (19 mpg US) for the P525 V8. One D300 owner reported 40 mpg (imperial) cruising at 110 km/h across France.",
-   "src": "WIKIPEDIA / DEFENDER2.NET"
+   "a": "EPA rates the 2026 3.0 mild-hybrid six at 18 mpg city and 22–23 mpg highway, the 5.0 V8 at 14–15 city and 18–19 highway, and the OCTA at 15/19. Land Rover's 21MY Defender 90 data sheet quotes 7.6 L/100 km (NEDC equivalent) for the diesel. One D300 owner reported 40 mpg (imperial) cruising at 110 km/h across France.",
+   "src": "FUELECONOMY.GOV / LAND ROVER / DEFENDER2.NET"
   }
  ],
  "mods": [
@@ -434,7 +434,7 @@
   {
    "years": "2021–2026 · US",
    "label": "Defender 90",
-   "at_url": "https://www.autotempest.com/results?make=landrover&model=defender90&minyear=2020&maxyear=2026",
+   "at_url": "https://www.autotempest.com/results?make=landrover&model=defender90&minyear=2021&maxyear=2026",
    "bat_url": "https://bringatrailer.com/land-rover/defender-l663/"
   },
   {
@@ -720,6 +720,22 @@
   {
    "name": "Defender2.net — 2024 Defender 110 XS warped disc",
    "url": "https://www.defender2.net/forum/topic99340.html"
+  },
+  {
+   "name": "Land Rover media — Defender Rally make history with debut Dakar victory",
+   "url": "https://media.landrover.com/en-us/news/2026/01/defender-rally-make-history-debut-dakar-victory"
+  },
+  {
+   "name": "Land Rover — Defender 90 technical data, 21MY",
+   "url": "https://cdn.uc.assets.prezly.com/52cbc8d2-d4a1-43e7-abc8-656afe1fbd18/-/inline/no/Land%20Rover%20Defender%2090_TECH%20DATA_21MY_090920.pdf"
+  },
+  {
+   "name": "FuelEconomy.gov — 2026 Land Rover vehicles",
+   "url": "https://www.fueleconomy.gov/feg/bymake/Land_Rover2026.shtml"
+  },
+  {
+   "name": "LR Direct — LR133455 engine oil filter element, 3.0 Ingenium (New Defender)",
+   "url": "https://www.lrdirect.com/lr133455-filter-engine-oil-element"
   }
  ],
  "baseline_service": {

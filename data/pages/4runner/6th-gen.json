@@ -66,7 +66,7 @@
   {
    "k": "HYBRID",
    "v": "i-FORCE MAX",
-   "note": "48-hp motor in the transmission; 326 hp / 465 lb-ft. NiMH pack under the cargo floor rules out the third row."
+   "note": "48-hp motor in the transmission; 326 hp / 465 lb-ft. Battery (≈0.9 kWh, per Car and Driver's estimate) under the cargo floor rules out the third row."
   },
   {
    "k": "4WD",
@@ -264,7 +264,7 @@
    "cost": "Filters only",
    "symptoms": "Weak HVAC airflow; on i-FORCE MAX trucks used on dusty roads, clogged hybrid battery intake filters that can let the pack run hot.",
    "fix": "Cabin: lower the glovebox by pushing in its sides, pull the filter cartridge, fit the new filter with the airflow arrows pointing down (Toyota says check every 15,000 miles). Hybrid: the two intake filters sit behind the second-row seats, one per side — pry the lower outer corner of each cover with a trim tool, pull the cover off, swap the filter and clip it back with the top tabs first.",
-   "tools": "Trim tool · cabin filter 87139-60030 (or carbon 87139-30110) · hybrid battery filters G92DH-34010 / G92DJ-34010",
+   "tools": "Trim tool · cabin filter 87139-0C010 (or carbon 87139-30110) · hybrid battery filters G92DH-34010 / G92DJ-34010",
    "parts": [
     {
      "name": "Cabin filter, standard (Toyota 87139-0C010)",
@@ -368,8 +368,8 @@
   },
   {
    "q": "Did it keep the roll-down rear window?",
-   "a": "Yes. Motor1 reported the engineers almost lost it, and only kept it by trimming weight from each part of the mechanism.",
-   "src": "WIKIPEDIA / MOTOR1"
+   "a": "Yes. Wikipedia notes the engineers kept it by evaluating every component of the mechanism and trimming weight where they could.",
+   "src": "WIKIPEDIA"
   }
  ],
  "mods": [
@@ -621,7 +621,7 @@
   },
   {
    "file": "gen6-trailhunter-sonoma.jpg",
-   "alt": "Green sixth-generation 4Runner Trailhunter with snorkel, roof rack and bronze wheels on display",
+   "alt": "Green sixth-generation 4Runner Trailhunter with its high-mounted air intake, roof rack and bronze wheels parked on display at Sonoma Raceway",
    "caption": "6TH GEN TRAILHUNTER · SONOMA RACEWAY DISPLAY",
    "credit": "TaurusEmerald · CC BY-SA 4.0",
    "source": "Wikimedia Commons",

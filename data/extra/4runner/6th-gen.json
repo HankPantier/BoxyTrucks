@@ -7,7 +7,7 @@
    "bolt_pattern": "6x139.7 (6x5.5\")",
    "center_bore": "95.1 mm",
    "lug_thread": "M14x1.5",
-   "lug_torque": "97 lb-ft (131 N·m)"
+   "lug_torque": "97 lb-ft (131 N·m) per 4Runner6G owners' torque list [CONFIRM IN MANUAL]"
   },
   "max_tire": [
    {
@@ -77,7 +77,7 @@
    },
    {
     "head": "Hybrid or not",
-    "body": "i-Force Max is standard on Platinum, TRD Pro and Trailhunter, and optional on TRD Off-Road, TRD Off-Road Premium and Limited. The hybrid battery sits under the load floor, so hybrids are expected to lose the third-row option."
+    "body": "i-Force Max is standard on Platinum, TRD Pro and Trailhunter, and optional on TRD Off-Road, TRD Off-Road Premium and Limited. The hybrid battery sits under the load floor, so hybrids have no third-row option (Car and Driver)."
    },
    {
     "head": "Trailhunter",
@@ -101,7 +101,8 @@
   },
   {
    "k": "Ground clearance",
-   "v": "9.2 in (234 mm)"
+   "v": "8.1–10.1 in (206–257 mm)",
+   "note": "trim-dependent; Trailhunter 10.1 in (Car and Driver)"
   },
   {
    "k": "Approach / departure",

@@ -17,7 +17,7 @@
    {
     "lift": "Stock",
     "size": "275/60R20 (≈33 in)",
-    "note": "A Defender2.net owner runs it on a coil 110 on stock 8.5 in 20s with no spacers and no rubbing; others warn it can touch on some setups. 275/55R20 clears on air at full articulation, and Australian owners run 275/65R18 LT on 18s. The OCTA fits 33s from the factory."
+    "note": "A Defender2.net owner runs it on a coil-sprung truck on stock 8.5 in 20s with no spacers and no rubbing; others warn it can touch on some setups. 275/55R20 clears on air at full articulation, and Australian owners run 275/65R18 LT on 18s. The OCTA fits 33s from the factory."
    },
    {
     "lift": "2.5 in (lift rods, air)",
@@ -77,6 +77,27 @@
     "ref": "NHTSA 24E102000",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=24E102000",
     "summary": "Dealer-fitted raised air intake VPLEP0543 may not be secured; inspect and reinstall (N964)."
+   },
+   {
+    "title": "Fuel tank walls too thin",
+    "years": "2026",
+    "ref": "NHTSA 26V263000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V263000",
+    "summary": "An improperly made fuel tank may leak fuel in a crash, raising fire risk; dealers replace the tank (Land Rover D127)."
+   },
+   {
+    "title": "Front seat belt pretensioners may be damaged",
+    "years": "2022–2023",
+    "ref": "NHTSA 22V523000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V523000",
+    "summary": "Driver and passenger belts may not restrain properly; dealers inspect and replace the front belt assemblies as needed (N720)."
+   },
+   {
+    "title": "TReK-modified 130: brake calipers may detach",
+    "years": "2023",
+    "ref": "NHTSA 23V789000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V789000",
+    "summary": "Defender 130s modified for the TReK competition may have calipers not reinstalled properly; dealers reinstall them (N848). Check this on any ex-TReK truck."
    }
   ],
   "tsbs": [
@@ -111,7 +132,7 @@
   },
   {
    "year": "2024",
-   "change": "D350 diesel and the BMW-engined OCTA (P635, 6D Dynamics, 33-in tyres) arrive",
+   "change": "BMW-engined OCTA (P635, 6D Dynamics, 33-in tyres) revealed; D350 diesel added to the range around this time (timing varies by market)",
    "flag": "note"
   },
   {
@@ -130,11 +151,11 @@
   "items": [
    {
     "head": "Coil or air",
-    "body": "Every 110 and 130 is on air. A 90 can be coil or air; coil 90s have 225 mm clearance and no height modes, while air trucks reach 291 mm at off-road height."
+    "body": "Land Rover fits air to every 110 and 130. A 90 can be coil or air; coil 90s have about 225 mm clearance, wade 850 mm and have no height modes, while air trucks reach 291 mm at off-road height and wade 900 mm."
    },
    {
     "head": "Engine",
-    "body": "US trucks: P300 2.0 four, P400 3.0 mild-hybrid six, P525 5.0 supercharged V8 and the OCTA's 4.4 twin-turbo V8. D-badged diesels and the P400e plug-in weren't sold in the US."
+    "body": "US trucks: P300 2.0 four on earlier trucks, P400 3.0 mild-hybrid six, P525 5.0 supercharged V8 and the OCTA's 4.4 twin-turbo V8 (EPA's 2026 list also shows a 130 P300 as a 3.0 six). D-badged diesels and the P400e plug-in weren't sold in the US."
    },
    {
     "head": "30th Anniversary Edition",
@@ -168,7 +189,7 @@
   },
   {
    "k": "Ground clearance",
-   "v": "Air 216 mm std / 291 mm off-road (11.5 in); coil 225 mm",
+   "v": "Air 216 mm std / 291 mm off-road (11.5 in); coil 225 mm (226 mm at off-road setting)",
    "note": "Defender 90"
   },
   {
@@ -417,6 +438,18 @@
   {
    "name": "Rovers North blog — ANARC News, Spring 2026",
    "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
+  },
+  {
+   "name": "NHTSA — Recall 26V263000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V263000"
+  },
+  {
+   "name": "NHTSA — Recall 22V523000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V523000"
+  },
+  {
+   "name": "NHTSA — Recall 23V789000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V789000"
   }
  ]
 }

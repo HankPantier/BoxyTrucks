@@ -15,17 +15,17 @@
    {
     "lift": "Stock",
     "size": "31 in",
-    "note": "Jeep put 31-inch LT245/75R16s on the Rubicon from the factory. Use wheels with at least 4.5 in of backspacing so the tires don't stick out past the flares."
+    "note": "Jeep put 31-inch LT245/75R16s on the Rubicon from the factory, and Four Wheel Trends puts the stock-suspension limit at 31x10.50-15 (may rub at full flex). Check wheel backspacing so the tires stay inside the flares."
    },
    {
     "lift": "2 in",
     "size": "≈31 in",
-    "note": "Quadratec's guide: about 31 in on a 2 in spacer lift."
+    "note": "Quadratec's buyer's guide: a 2 in spacer lift typically accommodates up to 31 in tires."
    },
    {
     "lift": "3 in",
     "size": "33 in",
-    "note": "Quadratec's guide: 33 in on a 3 in suspension lift, 35 in with a long-arm lift. Regear from the stock 3.07 (Quadratec suggests 4.10, or 4.88 for bigger tires)."
+    "note": "Quadratec's buyer's guide: up to 33 in on its stage-2 suspension lift, 35 in on a long-arm setup. Plan a regear from the stock ratio (3.07 on many 4.0 manuals, per Jeep's 2005–06 specs)."
    }
   ]
  },
@@ -59,6 +59,20 @@
     "ref": "NHTSA 98V048000",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V048000",
     "summary": "Shoulder-belt turning-loop anchors were not properly heat-treated."
+   },
+   {
+    "title": "Brake booster vacuum diaphragm",
+    "years": "1998",
+    "ref": "NHTSA 98V023000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V023000",
+    "summary": "The power brake booster vacuum reservoir diaphragm can split or tear; dealers checked the booster date code and replaced suspect units."
+   },
+   {
+    "title": "Instrument-panel ground screws",
+    "years": "1999",
+    "ref": "NHTSA 99V117000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=99V117000",
+    "summary": "The instrument-panel wiring ground screws can loosen; dealers re-drilled and reinstalled them."
    },
    {
     "title": "Ignition switch water intrusion",
@@ -149,11 +163,11 @@
   "items": [
    {
     "head": "VIN trim code",
-    "body": "All TJ VINs start 1J4FA. In the VINs we decoded with NHTSA's tool, the 6th character marks the trim: 2 SE, 4 Sport, 5 Sahara, 6 Rubicon. The 7th is 9 on the short wheelbase and 4 on the Unlimited. A Rubicon reads 1J4FA69…"
+    "body": "All TJ VINs start 1J4FA. The 6th character marks the trim: 2 SE, 3 X, 4 Sport, 5 Sahara, 6 Rubicon. In BaT-listed VINs we checked, the 7th was 9 on short-wheelbase trucks and 4 on the Unlimited (a Rubicon reads 1J4FA69…, an Unlimited Rubicon 1J4FA64…), but NHTSA's decoder doesn't separate the two, so confirm by wheelbase."
    },
    {
     "head": "VIN engine code",
-    "body": "The 8th character is the engine: S is the 4.0 L six and P the 2.5 L four (for example 1J4FA29P… is a 2.5 L SE)."
+    "body": "The 8th character is the engine: S is the 4.0 L six, P the 2.5 L four and 1 the 2.4 L four (NHTSA decoder: 1J4FA29P… is a 2.5 L SE, 1J4FA291… a 2.4 L SE)."
    },
    {
     "head": "Real Rubicon hardware",
@@ -176,7 +190,7 @@
  "capability": [
   {
    "k": "Towing",
-   "v": "2,000 lb (907 kg) 4.0 L · 1,000 lb (454 kg) 2.4 L",
+   "v": "2,000 lb (907 kg) 4.0 L · 1,000 lb (454 kg) 2.4 L and 4.0 automatic with base 3.73 axle",
    "note": "2005–06"
   },
   {
@@ -205,7 +219,7 @@
   },
   {
    "k": "Curb weight",
-   "v": "3,200 lb (SE) – 3,832 lb (Rubicon)",
+   "v": "3,200 lb (SE) – 3,857 lb (Rubicon automatic)",
    "note": "2005–06"
   },
   {
