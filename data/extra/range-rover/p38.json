@@ -1,0 +1,338 @@
+{
+ "fitment": {
+  "stock": [
+   "235/70R16 on 7J x 16 (ET57)",
+   "255/65R16 on 8J x 16 (ET57)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "offset": "ET57 (stock 16-in; 55–59 mm range)",
+   "lug_torque": "80 lb-ft (108 N·m) per the owner's handbook as quoted by owners; some data sources list 130 N·m, so check your handbook"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "245/75R16 or 255/70R16",
+    "note": "About 30–30.5 in. 255/70R16 runs without rubbing on standard suspension; 245/75R16 clears full lock at standard and high heights but rubs at the lowest height and can touch the back of the arch at full compression. 265/75R16 rubs on axle crossup."
+   },
+   {
+    "lift": "4 in",
+    "size": "Up to 32.5 in",
+    "note": "Lucky8's recommendation for its 4-in Terrafirma coil kit, developed on its P38 project truck."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Underhood hose and tubing leaks",
+    "years": "1995–1998",
+    "ref": "NHTSA 98V-149",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=98V149000",
+    "summary": "Some underhood hoses and tubes can fail and leak coolant, washer fluid or automatic transmission fluid."
+   },
+   {
+    "title": "Transmission breather tube icing",
+    "years": "1995–1999",
+    "ref": "NHTSA 99V-007",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=99V007000",
+    "summary": "Water can get in and freeze in the breather tube, pushing ATF out of the dipstick tube onto hot engine parts."
+   },
+   {
+    "title": "Coolant leaks near hot components",
+    "years": "1995–1999",
+    "ref": "NHTSA 00V-328",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V328000",
+    "summary": "Coolant leaks were found where the coolant can reach high temperatures."
+   },
+   {
+    "title": "Throttle-body de-icer gasket",
+    "years": "1999",
+    "ref": "NHTSA 00V-329",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V329000",
+    "summary": "The cork gasket between the throttle body and its coolant-heated de-icer plate can leak coolant."
+   },
+   {
+    "title": "Engine idler pulley",
+    "years": "1999–2000",
+    "ref": "NHTSA 00V-142",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V142001",
+    "summary": "The left-side idler pulley can fracture and throw the serpentine belt."
+   },
+   {
+    "title": "Transmission water contamination / park lock",
+    "years": "1999–2001",
+    "ref": "NHTSA 00V-377",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V377000",
+    "summary": "Water in the ATF can stop the park lock working, so the truck can roll away if the handbrake isn't set."
+   },
+   {
+    "title": "Brake caliper bolts",
+    "years": "2000",
+    "ref": "NHTSA 00V-187",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V187000",
+    "summary": "One or both caliper-to-axle bolts may have missed final torque and be loose or missing."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1994",
+   "change": "Launched 28 September 1994. Rover V8 4.0 and 4.6 with Lucas GEMS management, BMW 2.5 turbo-diesel outside the US, five-height electronic air suspension and an electrically shifted BorgWarner 4462 transfer box.",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "First US model year. The 4.0 gets rear-only traction control and a 2-pin rear diff; the 4.6 comes only with the ZF 4HP24 auto and has a 4-pin rear diff and four-wheel traction control.",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Land Rover 50th Anniversary edition shown at the Toronto show in February. Diesels gain EGR, a plastic inlet manifold and a MAF sensor.",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "Bosch Motronic (from the BMW E38 7 Series) replaces GEMS mid-year, with revised engine mounts and a structural alloy sump. Four-wheel traction control is extended across the range.",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "Production ends; the L322 replaces it.",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "Last US model year.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "P38s look much alike from year to year, but engine management, displacement and traction hardware changed underneath. Knowing which one you have decides which parts to order and what to check.",
+  "items": [
+   {
+    "head": "GEMS or Bosch",
+    "body": "Open the hood. A rectangular plenum with '4.0' or '4.6' embossed in the middle means GEMS, the earlier Lucas system. A cluster of intake tubes with no label means Bosch Motronic, which arrived mid-1999. The two use different parts."
+   },
+   {
+    "head": "4.0 vs 4.6",
+    "body": "The 4.6 came only with the ZF 4HP24 automatic, a 4-pin rear diff and four-wheel traction control from new. The 4.0 had the ZF 4HP22 auto or the R380 manual, and early trucks had a 2-pin diff with rear-only traction control."
+   },
+   {
+    "head": "Diesel",
+    "body": "The 2.5 BMW M51 turbo-diesel (136 hp) was never sold in North America. Pre-1998 engines have an aluminium inlet manifold; later ones have EGR, a plastic manifold and a MAF sensor."
+   },
+   {
+    "head": "Factory name",
+    "body": "Land Rover called it the 'New Range Rover' or the LP. 'P38A' comes from Block 38A at Solihull, where the development team was based."
+   },
+   {
+    "head": "50th Anniversary",
+    "body": "The 1998 50th Anniversary trucks have Woodcote Green paint, exclusive walnut trim, colour-keyed mirrors and lower spoiler, 18-in Proline wheels and a numbered plaque. About 250 were planned."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "750 kg (1,653 lb) unbraked; 4.6 HSE spec"
+  },
+  {
+   "k": "Roof load",
+   "v": "165 lb (75 kg)",
+   "note": "4.6 HSE spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "26.4 US gal (100 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.3 in (210 mm)",
+   "note": "4.6 HSE spec at standard height"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 12 city / 16 hwy / 13 combined",
+   "note": "2000 4.0 auto; the 4.6 rated 11/14/12"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,478 lb (2,031 kg)",
+   "note": "4.6 HSE"
+  },
+  {
+   "k": "Turning circle",
+   "v": "39.0 ft (11.9 m)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Cheap and staying cheap. Most P38s still sell for used-appliance money, and only documented low-mile trucks and special editions bring real prices.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$3k–7k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$9k–18k"
+   },
+   {
+    "cond": "Excellent / low-mile / special edition",
+    "range": "$24k–45k"
+   }
+  ],
+  "note": "Based on 20 Bring a Trailer sales from November 2025 to September 2026 ($2,950–$45,000, median $11,000). A 1998 50th Anniversary truck, a 45k-mile 1999 4.6 HSE and a 46k-mile Holland & Holland edition topped the list."
+ },
+ "docs": [
+  {
+   "name": "Land Rover Original Technical Service Publication LTP3005 — Range Rover P38 1994–2001",
+   "url": "https://lucky8llc.com/products/land-rover-original-technical-service-publication-ltp3005-p38",
+   "note": "Licensed USB/DVD compilation of factory parts, service, electrical and owner's literature. Confirm the P38 contents with the seller before buying."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "US trucks were petrol V8s only. The BMW 2.5 turbo-diesel and the R380 manual were sold elsewhere, as were right-hand-drive trucks. P38 production ran from September 1994 to 2001, so any example built 25 or more years ago can now be imported under NHTSA's 25-year exemption from FMVSS. The 25 years count from the manufacture date. State titling and emissions rules still apply, so check them before importing a diesel."
+  ]
+ },
+ "production": {
+  "intro": "Built at Solihull from September 1994 to 2001; Land Rover sold it as the 'New Range Rover' (model designation LP).",
+  "items": [
+   {
+    "k": "Built",
+    "v": "September 1994 – 2001, Solihull"
+   }
+  ],
+  "editions": [
+   {
+    "name": "50th Anniversary (4.0 SE)",
+    "years": "1998",
+    "note": "Woodcote Green, exclusive walnut, colour-keyed mirrors and spoiler, 18-in Proline wheels, numbered plaque; about 250 planned."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "CVC Register",
+   "url": "https://cvcdisplays.co.uk/",
+   "note": "UK enthusiasts who research and restore pre-production, press-launch and factory-owned P38s. Its displays site covers events."
+  },
+  {
+   "kind": "club",
+   "name": "Range Rover Register (UK)",
+   "url": "https://rrr.co.uk/?p=17",
+   "note": "UK club founded in 1985 that welcomes every Range Rover generation."
+  },
+  {
+   "kind": "club",
+   "name": "Association of North American Rover Clubs (ANARC)",
+   "url": "https://www.anarc.club",
+   "note": "Umbrella group for 24 North American Land Rover clubs, with member-club event listings."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (Rover Owners of Virginia)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "ROAV's principal event for 30 years: a late-September trail weekend in Virginia."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wheel-Size.com — Range Rover II (P38A) wheel & tire sizes",
+   "url": "https://www.wheel-size.com/size/land-rover/range-rover/p38a-1994-2002/"
+  },
+  {
+   "name": "Cararac — Land Rover Range Rover bolt pattern by generation",
+   "url": "https://cararac.com/bolts_sizes/land-rover/range-rover.html"
+  },
+  {
+   "name": "Wheel-Sizes.com — Range Rover lug nut size, torque & thread",
+   "url": "https://wheel-sizes.com/lugnuts/land-rover/range-rover/"
+  },
+  {
+   "name": "RangeRovers.pub — 'Nutty wheels' (P38 wheel-nut torque from the owner's handbook)",
+   "url": "https://rangerovers.pub/topic/1412-nutty-wheels"
+  },
+  {
+   "name": "BolidenForum — 1999 Range Rover (P38) technical data",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1999-range-rover-s/?vd_lang=en"
+  },
+  {
+   "name": "Lucky8 — Terrafirma Range Rover P38 4in kit",
+   "url": "https://lucky8llc.com/products/terrafirma-range-rover-p38-4in-kit"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY1996",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=1996"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY1999",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=1999"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2000",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2000"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2001",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2001"
+  },
+  {
+   "name": "Wikipedia — Range Rover (P38A)",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_(P38A)"
+  },
+  {
+   "name": "FuelEconomy.gov — 2000 Range Rover 4.0",
+   "url": "https://www.fueleconomy.gov/feg/noframes/16364.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2000 Range Rover 4.6",
+   "url": "https://www.fueleconomy.gov/feg/noframes/16365.shtml"
+  },
+  {
+   "name": "cars-data.com — Range Rover P38A 4.6 HSE specs",
+   "url": "https://cars-data.com/en/land-rover/range-rover/p38a/4-6-hse-16653--16653/specs"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover P38A (completed auctions)",
+   "url": "https://bringatrailer.com/land-rover/range-rover-p38a/"
+  },
+  {
+   "name": "Lucky8 — Land Rover Original Technical Service Publication LTP3005 P38",
+   "url": "https://lucky8llc.com/products/land-rover-original-technical-service-publication-ltp3005-p38"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs (25-year rule)",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "Atlantic British (RoverParts) — Land Rover 50th Anniversary Range Rover",
+   "url": "https://www.roverparts.com/news/archive/LandRover50thAnniversary/"
+  },
+  {
+   "name": "CVC Register Displays",
+   "url": "https://cvcdisplays.co.uk/"
+  },
+  {
+   "name": "Range Rover Register — About the club",
+   "url": "https://rrr.co.uk/?p=17"
+  },
+  {
+   "name": "Rovers North blog — ANARC news (Association of North American Rover Clubs)",
+   "url": "https://blog.roversnorth.com/2025/10/anarc-news-2/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025 (Rover Owners of Virginia Mid-Atlantic Rally)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  },
+  {
+   "name": "Atlantic British — Identifying GEMS vs Bosch engines",
+   "url": "https://www.roverparts.com/techtips/boschvsgems.cfm"
+  }
+ ]
+}

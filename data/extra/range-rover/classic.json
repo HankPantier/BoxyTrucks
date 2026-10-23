@@ -1,0 +1,366 @@
+{
+ "fitment": {
+  "stock": [
+   "205R16 on 6J x 16 (ET33)",
+   "235/70R16 on 7J x 16 (ET33)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x165.1 (5x6.5\")",
+   "offset": "ET33 (stock steel/alloy, 31–35 mm range)",
+   "center_bore": "114.3 mm",
+   "lug_thread": "M16x1.5 (per wheel-spec databases)",
+   "lug_torque": "96 lb-ft (130 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "245/75R16",
+    "note": "Fits on stock coils once the steering stops are adjusted to stop rubbing at full lock; some owners squeeze in 265/75R16 with slight chassis rub cured by the stops."
+   },
+   {
+    "lift": "2 in",
+    "size": "235/85R16 or 265/75R16",
+    "note": "Owners on a 2-in OME lift run either size with no trimming. Expect to wind the steering stops out; the 265s cost turning circle and some owners needed longer stop bolts to stop them hitting the radius arms."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Fuel tank bottom corrosion",
+    "years": "1987–1990",
+    "ref": "NHTSA 95V-155",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=95V155000",
+    "summary": "The bottom of the fuel tank can corrode over time and leak fuel."
+   },
+   {
+    "title": "Fuel filter bracket corrosion",
+    "years": "1987–1988",
+    "ref": "NHTSA 88V-116",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=88V116000",
+    "summary": "Corrosion can occur between the fuel filter and its retaining bracket."
+   },
+   {
+    "title": "Brake pedal pivot circlip",
+    "years": "1987–1988",
+    "ref": "NHTSA 89V-012",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=89V012000",
+    "summary": "A wrongly installed circlip can let the brake-pedal pivot shaft move out of position."
+   },
+   {
+    "title": "Seat belt retractor pivot pin",
+    "years": "1987–1988",
+    "ref": "NHTSA 88V-034",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=88V034000",
+    "summary": "An oversized nylon pivot pin in the retractor lock mechanism."
+   },
+   {
+    "title": "Rear brake line chafe",
+    "years": "1990",
+    "ref": "NHTSA 91V-069",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V069000",
+    "summary": "The right rear metal brake line can rub on the top of the shock and leak one brake circuit."
+   },
+   {
+    "title": "Brake light switch",
+    "years": "1990",
+    "ref": "NHTSA 91V-222",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=91V222000",
+    "summary": "The brake-lamp switch by the pedal may fail to operate."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1970",
+   "change": "Launched in June as a two-door: carburettored 3.5 Rover V8 (135 hp), coil springs, four-wheel discs and permanent dual-range 4WD with a manual centre diff lock.",
+   "flag": "note"
+  },
+  {
+   "year": "1973",
+   "change": "Power steering added.",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "Factory four-door arrives in July, following approved conversions such as Monteverdi's.",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "LT77 five-speed and separate LT230 transfer box replace the LT95 combined box.",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "ZF four-speed automatic replaces the three-speed Chrysler TorqueFlite; new instrument pod.",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "Lucas fuel injection replaces carburettors in most markets; VM 2.4 Turbo D diesel launched for Europe; facelift with plastic slatted grille.",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "Factory US imports begin 16 March 1987 — four-door only.",
+   "flag": "note"
+  },
+  {
+   "year": "1989",
+   "change": "3.9 V8 replaces the 3.5; Borg Warner chain transfer case with a viscous-coupling centre diff replaces the manually locked unit; VM diesel grows to 2.5.",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "108-in LSE (UK) / County LWB (US) with the 4.2 V8; Land Rover's own 200Tdi replaces the VM diesel.",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "Electronic air suspension arrives on high-end 1993 model-year trucks (mainly LWB). Rides beautifully; pumps, sensors and valve blocks fail, and many have since been coil-converted.",
+   "flag": "note"
+  },
+  {
+   "year": "1994–95",
+   "change": "Renamed 'Classic' alongside the new P38A; Discovery-derived 'soft dash' fitted to run-out trucks; 300Tdi replaces 200Tdi late 1994.",
+   "flag": "note"
+  },
+  {
+   "year": "1996",
+   "change": "Production ends after 26 years.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Classics were built for 26 years in two- and four-door, two wheelbases, carb and injected, coil and air — and US buyers also meet grey-market and 25-year imports, so it pays to know what you're looking at.",
+  "items": [
+   {
+    "head": "US-spec vs grey market",
+    "body": "Factory US imports began on 16 March 1987 and were four-door only. Any US two-door, any pre-1987 truck, and any diesel came in through grey-market converters in the early 1980s or as a later 25-year import."
+   },
+   {
+    "head": "Wheelbase and suspension",
+    "body": "Standard trucks have a 100-in (2,540 mm) wheelbase. The LSE / County LWB (1992 on) has a 108-in (2,743 mm) wheelbase, the 4.2 V8 and electronic air suspension; check whether a previous owner has fitted a coil conversion."
+   },
+   {
+    "head": "Transfer case",
+    "body": "Pre-1989 trucks have a manual centre-diff lock (vacuum servo on the LT95, mechanical on the LT230). From 1989 a chain-driven Borg Warner box with a viscous coupling locks automatically, and a seized coupling makes the truck scrub on tight turns."
+   },
+   {
+    "head": "Hard dash vs soft dash",
+    "body": "Until 1994 the Classic kept its original hard-plastic 'Airfix' dashboard. Run-out trucks got the Discovery-derived 'soft dash' with Rover 800 switches, the version enthusiasts call 'soft dash' models."
+   },
+   {
+    "head": "CSK",
+    "body": "The 1990 CSK, named for Spen King, ran to 200 UK-built trucks: Beluga Black paint, chrome bumpers, silver coachlines, a recalibrated 3.9 V8 (185 bhp) and front and rear anti-roll bars. Australia separately built 400 CSKs based on the four-door Vogue."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "3.5 tons",
+   "note": "claimed at the 1970 launch"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "81.8 L (21.6 US gal)",
+   "note": "1992 3.9 V8"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 11 city / 15 hwy / 13 combined",
+   "note": "1990 3.9 automatic; 1995 County LWB 4.2 rated 11/15/12"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "100 in (2,540 mm); LWB 108 in (2,743 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are wide: rough coil-sprung SWBs and diesel projects are still cheap, clean County LWBs and two-doors bring real money, and V8-swapped restomods sit in their own price band.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–13k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$16k–28k"
+   },
+   {
+    "cond": "Excellent / low-mile / special edition",
+    "range": "$39k–77k"
+   },
+   {
+    "cond": "Restomod (e.g. ECD LS3/6.2 builds)",
+    "range": "$115k–153k"
+   }
+  ],
+  "note": "Based on 20 Bring a Trailer sales between July and October 2026 ($5,500–$153,000, median about $24,000). Original-owner and low-mile County LWBs and a clean two-door sat at the top of the stock-truck range."
+ },
+ "docs": [
+  {
+   "name": "Land Rover Original Technical Service Publication — Range Rover Classic 1970–1995 (LTP3002USB)",
+   "url": "https://lucky8llc.com/products/land-rover-original-technical-service-publication-classic",
+   "note": "Licensed compilation of factory parts catalogues, overhaul and electrical troubleshooting manuals and owner's literature, sold on USB or DVD."
+  },
+  {
+   "name": "Haynes workshop manual — Range Rover Classic 1970–1992 petrol",
+   "url": "https://lucky8llc.com/products/petrol-haynes-workshop-manual-1970-to-1992",
+   "note": "Aftermarket DIY manual for V8 petrol trucks."
+  },
+  {
+   "name": "Atlantic British — Range Rover Classic parts catalog, 1987–1995",
+   "url": "https://www.roverparts.com/parts_catalogs/Range_Rover_Classic_Parts_Catalog/",
+   "note": "Free online exploded-diagram parts catalog for US-era Classics."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Land Rover didn't sell the Range Rover in the US until 16 March 1987, and then only as a four-door. In the early 1980s Americans bought grey-market trucks converted to US rules by Los Angeles-area dealers and, from 1984, by Aston Martin's US division. Two-doors, diesels (VM, 200Tdi, 300Tdi) and manual-gearbox Euro trucks were never US-market vehicles.",
+   "Every Classic is now more than 25 years old, so under NHTSA rules any of them can be imported without meeting FMVSS; the 25 years are counted from the manufacture date, and the truck is declared under Box 1 on the HS-7 form. State titling and emissions rules still apply, so check your state's requirements, especially California's, before buying a diesel or a carbureted import."
+  ]
+ },
+ "production": {
+  "intro": "Built at Solihull from 1970 to 1996, with CKD assembly in Australia (Enfield, 1979–1983) and Venezuela (Las Tejerías, 1973–1981).",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "326,070",
+    "note": "James Taylor (Crowood), via Wikipedia; other sources quote 317,615 or 325,490"
+   },
+   {
+    "k": "US launch",
+    "v": "16 March 1987",
+    "note": "Four-door only; 36 dealers at launch, 65 by 1988"
+   }
+  ],
+  "editions": [
+   {
+    "name": "CSK",
+    "years": "1990",
+    "note": "200 UK-built: Beluga Black paint, chrome bumpers, a recalibrated 3.9 V8 and anti-roll bars, named for Spen King. Australia built a separate run of 400 CSKs based on the Vogue."
+   },
+   {
+    "name": "Great Divide Expedition trucks",
+    "years": "1989",
+    "note": "Eight special-edition trucks prepared for a 12-day, 1,128-mile Rocky Mountain trek in Colorado to launch the brand's US reputation."
+   },
+   {
+    "name": "LSE / County LWB",
+    "years": "1992–1995",
+    "note": "108-in wheelbase, 4.2 V8 and air suspension; the luxury run-out model."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Range Rover Register (UK)",
+   "url": "https://rrr.co.uk/?p=17",
+   "note": "UK club founded in 1985 for owners of every Range Rover from the Classic onward. It attends the major 4x4 and classic shows and runs camping events."
+  },
+  {
+   "kind": "club",
+   "name": "Association of North American Rover Clubs (ANARC)",
+   "url": "https://www.anarc.club",
+   "note": "Umbrella group for 24 North American Land Rover clubs. Its site carries member-club events, and it runs recovery and trail-leader training."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (Rover Owners of Virginia)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "ROAV's principal event for 30 years: a late-September weekend of trail runs in Virginia, held at the Little George Rod and Gun Club in 2025."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Koleso.ee — Range Rover Classic (1970–1996) wheel specs",
+   "url": "https://koleso.ee/en/valuveljed/land-rover/range-rover/2784/classic-1970-1996/5564"
+  },
+  {
+   "name": "Cararac — Land Rover Range Rover bolt pattern by generation",
+   "url": "https://cararac.com/bolts_sizes/land-rover/range-rover.html"
+  },
+  {
+   "name": "BolidenForum — 1992 Range Rover 3.9 V8 technical data",
+   "url": "https://www.bolidenforum.de/portal/fahrzeugdaten/land-rover-1992-range-rover-lh-v8-3-9l/?vd_lang=en"
+  },
+  {
+   "name": "LandRoverWorld — '88 Classic 2-inch lift, max tire clearance",
+   "url": "https://www.landroverworld.org/threads/88-classic-2-inch-lift-max-tire-clearance-question.226/post-1053"
+  },
+  {
+   "name": "DiscoWeb archive — RRC: 235/85-16 vs. 265/75-16",
+   "url": "https://discoweb.org/oldsite/41704archive/DiscusArchive/messages/7/38365.html"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY1987",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=1987"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY1988",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=1988"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY1990",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=1990"
+  },
+  {
+   "name": "Wikipedia — Range Rover Classic",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_Classic"
+  },
+  {
+   "name": "FuelEconomy.gov — 1990 Range Rover 3.9 auto",
+   "url": "https://www.fueleconomy.gov/feg/noframes/7414.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 1995 Range Rover County LWB",
+   "url": "https://www.fueleconomy.gov/feg/noframes/12490.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover Classic (completed auctions)",
+   "url": "https://bringatrailer.com/land-rover/range-rover-classic/"
+  },
+  {
+   "name": "Lucky8 — Land Rover Original Technical Service Publication, Classic (LTP3002USB)",
+   "url": "https://lucky8llc.com/products/land-rover-original-technical-service-publication-classic"
+  },
+  {
+   "name": "Lucky8 — Haynes workshop manual, Range Rover Classic 1970–1992 petrol",
+   "url": "https://lucky8llc.com/products/petrol-haynes-workshop-manual-1970-to-1992"
+  },
+  {
+   "name": "Atlantic British — Range Rover Classic parts catalog, 1987–1995",
+   "url": "https://www.roverparts.com/parts_catalogs/Range_Rover_Classic_Parts_Catalog/"
+  },
+  {
+   "name": "NHTSA — Importation and certification FAQs (25-year rule)",
+   "url": "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+  },
+  {
+   "name": "ClassicCar.co.nz — Range Rover: the Motor Man looks at a lovable brute",
+   "url": "https://classiccar.co.nz/?p=1806"
+  },
+  {
+   "name": "RangeRoverCSK.com — History & background",
+   "url": "https://www.rangerovercsk.com/about.php"
+  },
+  {
+   "name": "Range Rover Register — About the club",
+   "url": "https://rrr.co.uk/?p=17"
+  },
+  {
+   "name": "Rovers North blog — ANARC news (Association of North American Rover Clubs)",
+   "url": "https://blog.roversnorth.com/2025/10/anarc-news-2/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025 (Rover Owners of Virginia Mid-Atlantic Rally)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  }
+ ]
+}
