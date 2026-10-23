@@ -1,0 +1,416 @@
+{
+ "fitment": {
+  "stock": [
+   "245/75R17 (Sport)",
+   "255/70R18 (Sahara)",
+   "LT285/70R17 (Rubicon)",
+   "LT315/70R17 (Xtreme 35 package, 2024+)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x127 (5x5\")",
+   "offset": "+37 mm on Rubicon 17x7.5 (≈5.7 in backspacing); about +44 mm on Sport/Sahara",
+   "center_bore": "71.5 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "130 lb-ft (176 N·m); spare 59 lb-ft"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "33 in (e.g. 285/70R17); 35 in on Rubicon with bump-stop spacers",
+    "note": "A 35 clears a Rubicon at ride height but rubs the inner fenders on compression and at full lock. Bump-stop extensions fix it at the cost of about 2 in of up-travel. On Sport and Sahara, a 33 is the sensible stock limit."
+   },
+   {
+    "lift": "1.5 in (factory Xtreme 35)",
+    "size": "LT315/70R17 (35 in)",
+    "note": "Jeep's factory Xtreme 35 package for the two-door from 2024: 1.5 in lift, 4.56 gears and 17x8 beadlock-capable wheels."
+   },
+   {
+    "lift": "2–2.5 in",
+    "size": "35 in",
+    "note": "What Sport and Sahara need for 35s, together with bump stops and a wheel with about 4.5–5.0 in backspacing."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Front track bar bracket welds (the 'frame weld' recall)",
+    "years": "2018–2019",
+    "ref": "NHTSA 18V-675",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V675000",
+    "summary": "Track bar brackets may be improperly welded and separate from the frame, reducing steering; dealers inspect and repair the welds (recall UA5, 18,055 vehicles)."
+   },
+   {
+    "title": "Intermediate steering shaft weld",
+    "years": "2018",
+    "ref": "NHTSA 18V-343",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V343000",
+    "summary": "The shaft may not have been properly welded and can split, so the wheel loses centre (recall U48)."
+   },
+   {
+    "title": "Rear underbody ladder rail corrosion",
+    "years": "2018",
+    "ref": "NHTSA 18V-231",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V231000",
+    "summary": "The rail can corrode, weakening the rear floor and loosening the left rear seat mount; dealers apply rust protection (recall U27, 106 vehicles)."
+   },
+   {
+    "title": "Steering column stub shaft",
+    "years": "2019",
+    "ref": "NHTSA 19V-201",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V201000",
+    "summary": "Improperly machined stub shafts can break and detach the steering wheel (recall V29)."
+   },
+   {
+    "title": "Manual-transmission clutch pressure plate",
+    "years": "2018–2020",
+    "ref": "NHTSA 20V-124",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V124000",
+    "summary": "Pressure plate may overheat and fracture (recall W12)."
+   },
+   {
+    "title": "Clutch overheating software",
+    "years": "2018–2021",
+    "ref": "NHTSA 21V-028",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V028000",
+    "summary": "Software reduces engine torque when the clutch gets too hot; FCA ordered a stop-sale in February 2021."
+   },
+   {
+    "title": "Clutch assembly replacement",
+    "years": "2018–2023",
+    "ref": "NHTSA 23V-116",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V116000",
+    "summary": "Dealers replace the clutch assembly and update software (recall 19A); 24V-572 re-fixes some 2021 trucks."
+   },
+   {
+    "title": "Left lower control arm bracket weld",
+    "years": "2020",
+    "ref": "NHTSA 20V-042",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V042000",
+    "summary": "Bracket and weld may be mispositioned (recall W01, 3,005 vehicles)."
+   },
+   {
+    "title": "Frame stud can puncture fuel tank",
+    "years": "2020–2022",
+    "ref": "NHTSA 23V-191",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V191000",
+    "summary": "In a crash a frame stud may puncture the tank (recall 28A)."
+   },
+   {
+    "title": "Instrument cluster short",
+    "years": "2018–2024",
+    "ref": "NHTSA 24V-652",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V652000",
+    "summary": "The cluster can short internally and fail (recall 30B)."
+   },
+   {
+    "title": "Electric-hydraulic power steering pump wiring fire",
+    "years": "2021–2025",
+    "ref": "NHTSA 26V-363",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V363000",
+    "summary": "Pump wiring can overheat and start a fire even when parked; owners told to park outside until repaired (1,076,999 vehicles across Wrangler and Gladiator)."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Death wobble: steering damper replacement",
+    "ref": "CSN V41",
+    "summary": "About 192,000 2018–2019 JLs get a new front steering damper for a sustained steering-wheel shimmy after bumps, especially above 55 mph and below 40°F. It's a customer satisfaction notification, not a safety recall.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169208-9999.pdf"
+   },
+   {
+    "title": "Steering-wheel shimmy after road irregularities",
+    "ref": "TSB 19-002-19",
+    "summary": "November 2019 bulletin for 2018–2020 JL (and 2020 Gladiator) that points technicians to a diagnosis and repair video for the steering linkage and damper.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169248-9999.pdf"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2018",
+   "change": "JL launch (four-door production from November 2017, two-door from early 2018): 3.6 Pentastar with a 6-speed manual or 8-speed auto, plus a 2.0 turbo with eTorque (auto only). Early trucks need the track-bar weld, steering-shaft and V41 damper fixes.",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "3.0 EcoDiesel V6 (260 hp) arrives, four-door only; later subject to high-pressure fuel pump recalls",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Wrangler 4xe plug-in hybrid (375 hp, 21-mile EV range) and Rubicon 392 (6.4 Hemi, 470 hp), both four-door only. Xtreme Recon package (35s, 4.56 gears, 1.5 in lift) for the four-door Rubicon and 392; 4.88 axles optional on Rubicon.",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "Lower-priced Willys 4xe; Rubicon 20th Anniversary edition",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Facelift: new grille (except Sport/Sport S), standard 12-inch Uconnect 5, new Rubicon X trim. Xtreme 35 package reaches the two-door. EcoDiesel dropped. Rubicon 392 'Final Edition'.",
+   "flag": "buy"
+  },
+  {
+   "year": "2025",
+   "change": "Rubicon 392 continues, still badged 'Final Edition'; last US model year for the 4xe",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Moab 392 tops the range (four-door only); reworked door hinges for easier removal; 3.6 still offered with the manual; 4xe dropped as Stellantis phases out plug-in hybrids",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Two-door JLs come with three powertrains and two very different axle packages, and the big-ticket hardware (4xe, 392, EcoDiesel) was four-door only.",
+  "items": [
+   {
+    "head": "Real Rubicon",
+    "body": "Dana 44s front and rear with Tru-Lok electronic lockers, Rock-Trac with 4:1 low range, and an electronic sway-bar disconnect. Sport and Sahara have a Dana 30 front, a Dana 35 rear (optional Trac-Lok) and Command-Trac with 2.72:1."
+   },
+   {
+    "head": "Factory 35s",
+    "body": "Factory Xtreme 35 trucks (two-door from 2024; standard on the two-door Rubicon X) have LT315/70R17 BFGoodrich KO2s on 17x8 beadlock-capable wheels, 4.56 gears, a 1.5 in lift and a reinforced swing gate."
+   },
+   {
+    "head": "Engine",
+    "body": "The 3.6 Pentastar comes with the 6-speed manual or 8-speed auto. The 2.0 turbo is auto-only. There was never a two-door 4xe, 392 or EcoDiesel."
+   },
+   {
+    "head": "Pre- or post-facelift",
+    "body": "2024-on trucks have the 12-inch Uconnect 5 screen with horizontal dash vents. All but Sport and Sport S also get the new grille."
+   },
+   {
+    "head": "JL vs JK at a glance",
+    "body": "The JL's headlights cut into the grille, the spare sits lower and the Jeep logo is no longer on the grille."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,000 lb (907 kg)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "9.7–10.9 in (246–277 mm)",
+   "note": "2018 Sport to Rubicon; 12.6 in (320 mm) with the 2024 Xtreme 35 package"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "44° / 37° / 27.8°",
+   "note": "2018 Rubicon; 47.2° / 40.4° / 32.4° with the 2024 Xtreme 35 package"
+  },
+  {
+   "k": "Wading depth",
+   "v": "30 in (76 cm)",
+   "note": "2018 Rubicon; 34 in with the 2024 Xtreme 35 package"
+  },
+  {
+   "k": "Crawl ratio",
+   "v": "Up to 84.2:1",
+   "note": "2018 Rubicon"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 18 city / 23 hwy / 20 combined",
+   "note": "2018, 3.6 automatic"
+  },
+  {
+   "k": "Turning circle",
+   "v": "34.5 ft (10.5 m)",
+   "note": "curb to curb"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "96.8 in (2,459 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Two-door JLs hold value well. Late Rubicons and factory-35 trucks sit near the top, while early Sports are the cheapest way into a JL.",
+  "ranges": [
+   {
+    "cond": "Early Sport / Sport S",
+    "range": "$17k–27k"
+   },
+   {
+    "cond": "Driver Rubicon",
+    "range": "$27k–36k"
+   },
+   {
+    "cond": "Late / low-mile Rubicon X or modified",
+    "range": "$36k–50k"
+   }
+  ],
+  "note": "Based on about 15 two-door JL sales on Bring a Trailer in 2025–26; a 2024 Rubicon X brought $46,000."
+ },
+ "docs": [
+  {
+   "name": "Owner's manuals (official)",
+   "url": "https://www.mopar.com/jeep/en-us/my-vehicle/owners-manual.html",
+   "note": "Mopar's owner's-manual lookup by model year; free digital manuals for JK and JL Wranglers."
+  },
+  {
+   "name": "Printed owner's manuals — TechAuthority",
+   "url": "https://www.techauthority.com/",
+   "note": "FCA US's official store for ordering printed owner's manuals by brand."
+  },
+  {
+   "name": "NHTSA recall and service-bulletin lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Free VIN recall check; manufacturer service bulletins (TSBs) for each model year are posted under the vehicle's record."
+  }
+ ],
+ "production": {
+  "intro": "The two-door JL followed the four-door into production at Toledo, Ohio, in early 2018.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "Early 2018 – present (Toledo, Ohio)"
+   },
+   {
+    "k": "US Wrangler sales, 2019–2025",
+    "v": "1,290,426 (all JL body styles, calendar years)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Xtreme 35 package",
+    "years": "2024–",
+    "note": "35s, 4.56 gears and a 1.5 in lift for the two-door; $4,495, requires the 2.0 turbo, standard on Rubicon X"
+   },
+   {
+    "name": "Rubicon X",
+    "years": "2024–",
+    "note": "Top two-door Rubicon with the previously optional equipment bundled in"
+   }
+  ],
+  "paint": "2026 adds Reign (purple), Goldilocks (ochre), Joose (orange), Earl Grey and Tuscadero (pink)."
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail week in Moab, Utah; the 2027 edition runs March 20–28."
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Beach",
+   "url": "https://www.jeepbeach.com/",
+   "note": "Daytona Beach, Florida; bills itself as the world's largest Jeep-only event; 2027 dates April 16–25."
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Jamboree USA",
+   "url": "https://jeepjamboreeusa.com/trip/29th-rubicon-trail-2026/",
+   "note": "Guided Jeep trail weekends across the US, including an annual Rubicon Trail trip."
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recalls API (campaign records for Jeep Wrangler 2007–2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2018"
+  },
+  {
+   "name": "Wikipedia — Jeep Wrangler (JL)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)"
+  },
+  {
+   "name": "Wikipedia — Jeep Wrangler (US/Canada sales table)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler JL (2018+) results",
+   "url": "https://bringatrailer.com/jeep/wrangler-jl-2018/"
+  },
+  {
+   "name": "Northridge4x4 — Jeep quick reference chart (lug thread and torque)",
+   "url": "https://www.northridge4x4.com/pages/quick-reference-chart"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep wheel specifications tech guide",
+   "url": "https://www.extremeterrain.com/jeep-wheel-specifications-tech-guide.html"
+  },
+  {
+   "name": "JLWranglerForums — Wheel torque specifications JL/JLU (owner's manual figure)",
+   "url": "https://www.jlwranglerforums.com/forum/threads/wheel-torque-specifications-jl-jlu.5381/post-1171839"
+  },
+  {
+   "name": "Performance Plus Tire — Will 35s fit a Wrangler JL without a lift?",
+   "url": "https://www.performanceplustire.com/Blog/will-35s-fit-wrangler-jl-no-lift"
+  },
+  {
+   "name": "Driving Line — What it takes to run 35s and no lift on the Rubicon JL",
+   "url": "https://drivingline.com/articles/tested-what-it-takes-to-run-35s-and-no-lift-on-the-rubicon-jl-video"
+  },
+  {
+   "name": "Quadratec — 2018 Jeep Wrangler JL specifications",
+   "url": "https://www.quadratec.com/c/blog/2018-jeep-wrangler-specifications"
+  },
+  {
+   "name": "CJ Pony Parts — How much can Jeep Wranglers tow?",
+   "url": "https://www.cjponyparts.com/resources/jeep-wrangler-towing"
+  },
+  {
+   "name": "Stellantis North America blog — Heading off-road with the all-new 2018 Jeep Wrangler",
+   "url": "https://blog.stellantisnorthamerica.com/2018/08/22/wrangler-wednesday-heading-off-road-with-the-all-new-2018-jeep-wrangler/"
+  },
+  {
+   "name": "Stellantis North America blog — 35-inch tires come to the two-door 2024 Wrangler",
+   "url": "https://blog.stellantisnorthamerica.com/2024/01/24/jeep-brand-brings-35-inch-tires-to-two-door-2024-wrangler-for-the-first-time-ever/"
+  },
+  {
+   "name": "Auto123 — 2026 Jeep Wrangler updates (Nov 2025)",
+   "url": "https://www.auto123.com/en/news/2026-jeep-wrangler-updates-engine/73397"
+  },
+  {
+   "name": "Gear Patrol — The Wrangler 392 is officially here to stay",
+   "url": "https://www.gearpatrol.com/?p=913517"
+  },
+  {
+   "name": "Car and Driver via AOL — Stellantis kills off the Wrangler 4xe for 2026",
+   "url": "https://www.aol.com/articles/no-more-4xe-stellantis-kills-160800918.html"
+  },
+  {
+   "name": "FCA US — Customer Satisfaction Notification V41, steering damper (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169208-9999.pdf"
+  },
+  {
+   "name": "FCA US — Service Bulletin 19-002-19, steering-wheel shimmy (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169248-9999.pdf"
+  },
+  {
+   "name": "TFLcar — FCA will install steering dampers to address 2018–2019 Wrangler 'death wobble'",
+   "url": "https://www.tflcar.com/2019/08/jeep-wrangler-vibration-death-wobble-report/"
+  },
+  {
+   "name": "Off-Road.com — JL death wobble campaign V41 and class action",
+   "url": "https://www.off-road.com/blog/?p=54335"
+  },
+  {
+   "name": "Mopar — Jeep owner's manuals",
+   "url": "https://www.mopar.com/jeep/en-us/my-vehicle/owners-manual.html"
+  },
+  {
+   "name": "TechAuthority (FCA US) — printed owner's manuals",
+   "url": "https://www.techauthority.com/"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://rr4w.com/"
+  },
+  {
+   "name": "Jeep Beach — Daytona Beach, Florida",
+   "url": "https://www.jeepbeach.com/"
+  },
+  {
+   "name": "Jeep Jamboree USA — 29th Rubicon Trail 2026",
+   "url": "https://jeepjamboreeusa.com/trip/29th-rubicon-trail-2026/"
+  }
+ ]
+}

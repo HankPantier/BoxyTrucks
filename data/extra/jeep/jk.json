@@ -1,0 +1,468 @@
+{
+ "fitment": {
+  "stock": [
+   "225/75R16 or 245/75R16 (X/Sport)",
+   "255/75R17 (Sport S, Sahara and most special editions)",
+   "255/70R18 (Sahara option, 70th Anniversary)",
+   "LT255/75R17 BFGoodrich Mud-Terrain (Rubicon)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x127 (5x5\")",
+   "center_bore": "71.5 mm",
+   "lug_thread": "1/2\"-20 (60° cone seat)",
+   "lug_torque": "100 lb-ft (136 N·m); 85–125 lb-ft spec range"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "33 in (e.g. 285/70R17)",
+    "note": "JEGS puts the stock-height limit at about 33 in; 35s will fit with 4.75 in backspacing and the front splash guard removed, but Driving Line found they rub hard and bang the bump stops on real trails."
+   },
+   {
+    "lift": "2.5 in",
+    "size": "35x12.50 or 285/75R17",
+    "note": "285/75R17 works on factory 17s; 35x12.50 wants 18x9 or 20x9 wheels at about 0 to +1 mm offset."
+   },
+   {
+    "lift": "3.5 in",
+    "size": "37 in",
+    "note": "JEGS says 37s need about 3.5 in of lift and advises axle, driveshaft and gearing upgrades; 40s need about 4.5 in."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Driver airbag clockspring",
+    "years": "2007–2010",
+    "ref": "NHTSA 16V-290",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V290000",
+    "summary": "Dust can contaminate the clockspring so the driver's airbag may not deploy; Chrysler recall S33, 388,532 vehicles."
+   },
+   {
+    "title": "Takata passenger airbag inflator",
+    "years": "2007–2012",
+    "ref": "NHTSA 16V-352",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V352000",
+    "summary": "Passenger inflator may rupture as the propellant degrades; owners told not to drive until repaired."
+   },
+   {
+    "title": "Takata passenger inflator (Zone A states)",
+    "years": "2009–2013",
+    "ref": "NHTSA 18V-021",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V021000",
+    "summary": "Passenger inflator replacement for trucks sold or registered in hot, humid states (recall U03)."
+   },
+   {
+    "title": "Driver airbag inflator",
+    "years": "2010–2016",
+    "ref": "NHTSA 19V-018",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V018000",
+    "summary": "Driver inflator may over-pressurise and explode on deployment (recall V01)."
+   },
+   {
+    "title": "Automatic transmission overheat warning",
+    "years": "2007–2008",
+    "ref": "NHTSA 09V-436",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=09V436000",
+    "summary": "Autos lacked a fluid-temperature warning; fluid could boil over onto hot parts. Dealers add a 'HOT OIL' message and chime (recall J30)."
+   },
+   {
+    "title": "Front brake lines vs inner fender liner",
+    "years": "2007–2010",
+    "ref": "NHTSA 10V-236",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V236000",
+    "summary": "Inner fender liners can rub through front brake hoses and cause a leak (recall K13)."
+   },
+   {
+    "title": "Axle-to-chassis fastener torque",
+    "years": "2010–2011",
+    "ref": "NHTSA 11V-145",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=11V145000",
+    "summary": "Front and rear axle attachment fasteners could lose torque; dealers re-torque all 19 (recall L09)."
+   },
+   {
+    "title": "Power-steering line rubs transmission cooler tube",
+    "years": "2012–2013",
+    "ref": "NHTSA 13V-234",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=13V234000",
+    "summary": "3.6 automatics: the power-steering return line can wear a hole in the transmission cooler tube (recall N28, 180,131 vehicles)."
+   },
+   {
+    "title": "Heated mirror connector short",
+    "years": "2011–2013",
+    "ref": "NHTSA 14V-631",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=14V631000",
+    "summary": "Corrosion in the heated power-mirror connector can short."
+   },
+   {
+    "title": "Front impact sensor wiring",
+    "years": "2016–2017",
+    "ref": "NHTSA 16V-734",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V734000",
+    "summary": "Sensor wiring can pull loose in some crashes before it signals the airbags."
+   },
+   {
+    "title": "Right-hand-drive airbag clockspring",
+    "years": "2008–2016 (RHD)",
+    "ref": "NHTSA 16V-288",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V288000",
+    "summary": "Postal-spec right-hand-drive trucks; see also 11V-528, 13V-176 and 24V-196 for earlier and later RHD clockspring campaigns."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Death wobble: Chrysler steering-vibration bulletin",
+    "ref": "",
+    "summary": "In August 2012 Chrysler sent dealers a bulletin acknowledging the solid-axle shimmy, naming aftermarket parts, wrong tire pressures and worn steering and suspension components as causes. NHTSA had earlier concluded the condition doesn't cause loss of control.",
+    "url": "https://www.foxnews.com/auto/chrysler-addresses-jeep-death-wobble-with-technical-service-bulletin"
+   },
+   {
+    "title": "Shimmy with the 4-inch Mopar lift",
+    "ref": "TSB 02-001-16",
+    "summary": "2012–2015 JKs built before June 15, 2015 with the Mopar 4 in lift: replace the front axle track bar bracket and recheck alignment (supersedes 02-008-15).",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2016/SB-10074204-6903.pdf"
+   },
+   {
+    "title": "3.6 Pentastar left cylinder head (X56)",
+    "ref": "TSB 09-002-14 Rev. A",
+    "summary": "2012–2013 JKs with misfire codes P0300/P0302/P0304/P0306: check cylinder leakage and replace the left head. Warranty Bulletin D-14-12 extended head coverage to 10 years/150,000 miles.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10062950-0335.pdf"
+   },
+   {
+    "title": "Water leaks",
+    "ref": "",
+    "summary": "Bulletins cover cowl trim panel fastener leaks (water on the front floor, 2012–2014), door and windshield-frame gaps, and Freedom Top centre-seal leaks.",
+    "url": "https://www.carcomplaints.com/Jeep/Wrangler/2012/tsbs/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2007",
+   "change": "JK launch (production from August 2006): 3.8 EGH V6 (202 hp) with a 6-speed manual or 4-speed 42RLE auto; Rubicon has Dana 44s with Tru-Lok lockers, 4:1 Rock-Trac and an electronic sway-bar disconnect. The four-door Unlimited is new.",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "Hill Start Assist standard; Trailer Sway Control available",
+   "flag": "note"
+  },
+  {
+   "year": "2010",
+   "change": "Easier-folding soft top; Uconnect on MyGig-equipped trucks",
+   "flag": "note"
+  },
+  {
+   "year": "2011",
+   "change": "Fully redesigned interior with steering-wheel controls, Bluetooth, and available heated seats and leather. Mopar's JK-8 pickup kit for the Unlimited also arrives.",
+   "flag": "note"
+  },
+  {
+   "year": "2012",
+   "change": "3.6 Pentastar V6 (285 hp, 260 lb-ft) and 5-speed W5A580 automatic replace the 3.8 and the 4-speed",
+   "flag": "buy"
+  },
+  {
+   "year": "2012–13",
+   "change": "Some Pentastars crack the left cylinder head (misfire codes); covered by the X56 extension to 10 years/150,000 miles",
+   "flag": "note"
+  },
+  {
+   "year": "2013",
+   "change": "Second windshield-washer nozzle returns; one-handed rear-seat fold; Moab edition with AEV bumpers. The millionth JK is built in May 2013.",
+   "flag": "note"
+  },
+  {
+   "year": "2014",
+   "change": "Clear park and turn lamps; optional 6.5 in Uconnect; Rubicon X edition",
+   "flag": "note"
+  },
+  {
+   "year": "2015",
+   "change": "Willys Wheeler and Rubicon Hard Rock join the range; Torx tool kit for doors and windshield standard; Alpine audio option",
+   "flag": "buy"
+  },
+  {
+   "year": "2018",
+   "change": "Final year, sold alongside the new JL with 'Wrangler JK' fender decals; Golden Eagle edition. Production ends April 27, 2018.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Twelve years of near-identical bodies, heaps of sticker-pack special editions and plenty of Hemi swaps mean the badge on the hood is only a starting point.",
+  "items": [
+   {
+    "head": "Real Rubicon",
+    "body": "Dana 44 axles front and rear with Tru-Lok electronic lockers, Rock-Trac transfer case with 4:1 low range, 4.10 gears and an electronic sway-bar disconnect switch. Sport and Sahara trucks have Command-Trac with 2.72:1 low range."
+   },
+   {
+    "head": "Axles by trim",
+    "body": "Per Jeep's 2007 specs: X/Sport has a Dana 30 front and Dana 35 rear, Sahara has a Dana 30 front and Dana 44 rear, and Rubicon has Dana 44s at both ends. A rear locker was optional on X and Sahara for 2007 only."
+   },
+   {
+    "head": "Engine and year",
+    "body": "2007–2011 trucks have the 3.8 EGH V6 (4-speed 42RLE auto or 6-speed manual). 2012–2018 trucks have the 3.6 Pentastar (5-speed W5A580 auto or 6-speed manual). 2011 got the new interior a year before the new engine."
+   },
+   {
+    "head": "Moab and Rubicon X",
+    "body": "The 2013 Moab has AEV-style bumpers and hood but keeps the 2.72:1 transfer case. The 2014 Rubicon X keeps the full Rubicon drivetrain and adds steel bumpers and a Power Dome hood."
+   },
+   {
+    "head": "2018 JK vs JL",
+    "body": "2018 JKs sold alongside the new JL carry a 'Wrangler JK' decal on the front fenders."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "2,000 lb (907 kg)"
+  },
+  {
+   "k": "Payload",
+   "v": "1,000 lb (454 kg)",
+   "note": "2007 spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "18.6 gal (70 L)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.8–10.2 in (224–259 mm)",
+   "note": "X to Rubicon, 2007 spec"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "44.3° / 40.4° / 25.4°",
+   "note": "Rubicon on 32 in tires"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 17 city / 21 hwy",
+   "note": "2012 two-door, 3.6 Pentastar"
+  },
+  {
+   "k": "Curb weight",
+   "v": "3,760–4,104 lb (1,706–1,862 kg)",
+   "note": "2007 X to Rubicon"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "95.4 in (2,423 mm)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "JKs are firmly in used-truck territory. Low miles, Rubicon hardware and a manual gearbox earn the premiums, and tidy late Pentastar trucks outsell early 3.8s.",
+  "ranges": [
+   {
+    "cond": "Project / high-mile",
+    "range": "$6k–12k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$12k–20k"
+   },
+   {
+    "cond": "Excellent / low-mile Rubicon",
+    "range": "$20k–33k"
+   }
+  ],
+  "note": "Based on 70 two-door JK sales on Bring a Trailer in 2025–26: median about $15.8k, top sale $32,750 for a one-owner, 5k-mile 2015 Rubicon 6-speed."
+ },
+ "docs": [
+  {
+   "name": "Owner's manuals (official)",
+   "url": "https://www.mopar.com/jeep/en-us/my-vehicle/owners-manual.html",
+   "note": "Mopar's owner's-manual lookup by model year; free digital manuals for JK and JL Wranglers."
+  },
+  {
+   "name": "Printed owner's manuals — TechAuthority",
+   "url": "https://www.techauthority.com/",
+   "note": "FCA US's official store for ordering printed owner's manuals by brand."
+  },
+  {
+   "name": "NHTSA recall and service-bulletin lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Free VIN recall check; manufacturer service bulletins (TSBs) for each model year are posted under the vehicle's record."
+  }
+ ],
+ "production": {
+  "intro": "Built in Toledo, Ohio, from August 2006 to April 27, 2018; its plant was then retooled for the Gladiator.",
+  "items": [
+   {
+    "k": "Production",
+    "v": "August 2006 – April 27, 2018 (Toledo, Ohio)"
+   },
+   {
+    "k": "Milestone",
+    "v": "The millionth JK (two- and four-door) was built on May 17, 2013: a 10th Anniversary Rubicon"
+   },
+   {
+    "k": "US Wrangler sales, 2007–2017",
+    "v": "1,560,169 (all body styles, calendar years)"
+   },
+   {
+    "k": "Body mix",
+    "v": "By mid-2017, three-quarters of new Wranglers listed for sale were four-doors"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Islander",
+    "years": "2010",
+    "note": "Sport-based two-door with Islander seats and blue-accented wheel"
+   },
+   {
+    "name": "Mountain",
+    "years": "2010",
+    "note": "Black grille and hood decals, 32 in tires on 17s"
+   },
+   {
+    "name": "70th Anniversary",
+    "years": "2011",
+    "note": "Sahara-based; leather with Chestnut stitching, 18 in polished wheels"
+   },
+   {
+    "name": "Call of Duty: MW3",
+    "years": "2012",
+    "note": "Rubicon-based, with AEV front and rear bumpers and hood; serialised dash plaque"
+   },
+   {
+    "name": "Moab",
+    "years": "2013",
+    "note": "AEV bumpers and hood, rock sliders, Trac-Lok rear; no 4:1 transfer case"
+   },
+   {
+    "name": "10th Anniversary Rubicon",
+    "years": "2013",
+    "note": "Marked the Rubicon's 10 years; the millionth JK was one"
+   },
+   {
+    "name": "Rubicon X",
+    "years": "2014",
+    "note": "Steel bumpers, Power Dome hood and full Rubicon drivetrain"
+   },
+   {
+    "name": "Willys Wheeler / Rubicon Hard Rock",
+    "years": "2015–",
+    "note": "Added to the trim line-up for 2015"
+   },
+   {
+    "name": "Golden Eagle",
+    "years": "2018",
+    "note": "Bronze accents; the only JK offered with a beige top"
+   }
+  ],
+  "paint": "2014 added Amp'd, Anvil, Copperhead, Flame Red, Granite Crystal and Hydro Blue; 2015 added Tank, Sunset Orange, Copper Brown, Baja Yellow and Firecracker Red."
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "Easter Jeep Safari",
+   "url": "https://rr4w.com/",
+   "note": "Red Rock 4-Wheelers' nine-day trail week in Moab, Utah; the 2027 edition runs March 20–28."
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Beach",
+   "url": "https://www.jeepbeach.com/",
+   "note": "Daytona Beach, Florida; bills itself as the world's largest Jeep-only event; 2027 dates April 16–25."
+  },
+  {
+   "kind": "event",
+   "name": "Jeep Jamboree USA",
+   "url": "https://jeepjamboreeusa.com/trip/29th-rubicon-trail-2026/",
+   "note": "Guided Jeep trail weekends across the US, including an annual Rubicon Trail trip."
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recalls API (campaign records for Jeep Wrangler 2007–2026)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2018"
+  },
+  {
+   "name": "Wikipedia — Jeep Wrangler (JK)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JK)"
+  },
+  {
+   "name": "Wikipedia — Jeep Wrangler (US/Canada sales table)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler JK (2007–2018) results",
+   "url": "https://bringatrailer.com/jeep/wrangler-jk-2007-2017/"
+  },
+  {
+   "name": "Northridge4x4 — Jeep quick reference chart (lug thread and torque)",
+   "url": "https://www.northridge4x4.com/pages/quick-reference-chart"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep wheel specifications tech guide",
+   "url": "https://www.extremeterrain.com/jeep-wheel-specifications-tech-guide.html"
+  },
+  {
+   "name": "ExtremeTerrain — Wrangler JK exterior torque specs",
+   "url": "https://www.extremeterrain.com/wrangler-jk-exterior-torque-specs.html"
+  },
+  {
+   "name": "JEGS — Biggest tires for a Jeep Wrangler JK",
+   "url": "https://www.jegs.com/tech-articles/?p=15355"
+  },
+  {
+   "name": "Driving Line — Tested: 35s with no lift on the Jeep Wrangler JK",
+   "url": "https://www.drivingline.com/articles/tested-35s-with-no-lift-on-the-jeep-wrangler-jk/"
+  },
+  {
+   "name": "Quadratec — 2007 Jeep Wrangler JK specs",
+   "url": "https://www.quadratec.com/c/reference/2007-jeep-wrangler-jk-specs"
+  },
+  {
+   "name": "CJ Pony Parts — How much can Jeep Wranglers tow?",
+   "url": "https://www.cjponyparts.com/resources/jeep-wrangler-towing"
+  },
+  {
+   "name": "Fox News — Chrysler addresses Jeep 'death wobble' with technical service bulletin (Aug 2012)",
+   "url": "https://www.foxnews.com/auto/chrysler-addresses-jeep-death-wobble-with-technical-service-bulletin"
+  },
+  {
+   "name": "FCA US — Service Bulletin 02-001-16, shimmy with 4-inch Mopar lift (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2016/SB-10074204-6903.pdf"
+  },
+  {
+   "name": "Chrysler — Service Bulletin 09-002-14 Rev. A, 3.6L left cylinder head (X56) (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2014/SB-10062950-0335.pdf"
+  },
+  {
+   "name": "Chrysler — Warranty Bulletin D-14-12, X56 extended warranty (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10069161-0335.pdf"
+  },
+  {
+   "name": "CarComplaints — TSB list, 2012 Jeep Wrangler",
+   "url": "https://www.carcomplaints.com/Jeep/Wrangler/2012/tsbs/"
+  },
+  {
+   "name": "Mopar — Jeep owner's manuals",
+   "url": "https://www.mopar.com/jeep/en-us/my-vehicle/owners-manual.html"
+  },
+  {
+   "name": "TechAuthority (FCA US) — printed owner's manuals",
+   "url": "https://www.techauthority.com/"
+  },
+  {
+   "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
+   "url": "https://rr4w.com/"
+  },
+  {
+   "name": "Jeep Beach — Daytona Beach, Florida",
+   "url": "https://www.jeepbeach.com/"
+  },
+  {
+   "name": "Jeep Jamboree USA — 29th Rubicon Trail 2026",
+   "url": "https://jeepjamboreeusa.com/trip/29th-rubicon-trail-2026/"
+  }
+ ]
+}
