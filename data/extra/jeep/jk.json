@@ -10,13 +10,13 @@
    "bolt_pattern": "5x127 (5x5\")",
    "center_bore": "71.5 mm",
    "lug_thread": "1/2\"-20 (60° cone seat)",
-   "lug_torque": "100 lb-ft (136 N·m); 85–125 lb-ft spec range"
+   "lug_torque": "100 lb-ft (Northridge4x4); ExtremeTerrain gives an 85–125 lb-ft range [CONFIRM IN MANUAL]"
   },
   "max_tire": [
    {
     "lift": "Stock",
     "size": "33 in (e.g. 285/70R17)",
-    "note": "JEGS puts the stock-height limit at about 33 in; 35s will fit with 4.75 in backspacing and the front splash guard removed, but Driving Line found they rub hard and bang the bump stops on real trails."
+    "note": "JEGS puts the stock-height limit at about 33 in. Driving Line fitted 35x12.50R17s to a stock-height 2017 JK Unlimited Sport on 4.75 in-backspacing wheels after removing the front splash guard, and concluded that real off-road use needs aftermarket or heavily trimmed flares."
    },
    {
     "lift": "2.5 in",
@@ -45,7 +45,7 @@
     "years": "2007–2012",
     "ref": "NHTSA 16V-352",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V352000",
-    "summary": "Passenger inflator may rupture as the propellant degrades; owners told not to drive until repaired."
+    "summary": "Passenger airbag inflator may rupture as the propellant degrades; this campaign covered trucks sold or registered in hot, humid states."
    },
    {
     "title": "Takata passenger inflator (Zone A states)",
@@ -105,10 +105,10 @@
    },
    {
     "title": "Right-hand-drive airbag clockspring",
-    "years": "2008–2016 (RHD)",
+    "years": "2011–2016 (RHD)",
     "ref": "NHTSA 16V-288",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V288000",
-    "summary": "Postal-spec right-hand-drive trucks; see also 11V-528, 13V-176 and 24V-196 for earlier and later RHD clockspring campaigns."
+    "summary": "Right-hand-drive (postal) trucks built February 2010 to May 2016: dust can contaminate the clockspring and disable the driver's airbag. See also 11V-528 and 13V-176 (2008–2012 RHD) and 24V-196 (2016 RHD)."
    }
   ],
   "tsbs": [
@@ -166,7 +166,7 @@
   },
   {
    "year": "2012–13",
-   "change": "Some Pentastars crack the left cylinder head (misfire codes); covered by the X56 extension to 10 years/150,000 miles",
+   "change": "Some Pentastars have faulty left cylinder heads (misfire codes); covered by the X56 extension to 10 years/150,000 miles",
    "flag": "note"
   },
   {
@@ -199,7 +199,7 @@
    },
    {
     "head": "Axles by trim",
-    "body": "Per Jeep's 2007 specs: X/Sport has a Dana 30 front and Dana 35 rear, Sahara has a Dana 30 front and Dana 44 rear, and Rubicon has Dana 44s at both ends. A rear locker was optional on X and Sahara for 2007 only."
+    "body": "Sport (X) and Sahara have a Dana 30 front and a Dana 44 rear; Quadratec says fewer than a thousand early 2007s got a Dana 35 rear instead (its 2007 spec table lists the Dana 35 for the X). Rubicon has Dana 44s at both ends. A rear locker was optional on X and Sahara for 2007, then on select X models for 2008–2009."
    },
    {
     "head": "Engine and year",
@@ -463,6 +463,10 @@
   {
    "name": "Jeep Jamboree USA — 29th Rubicon Trail 2026",
    "url": "https://jeepjamboreeusa.com/trip/29th-rubicon-trail-2026/"
+  },
+  {
+   "name": "Quadratec — What are the differences in off-roading a Wrangler TJ, JK and JL",
+   "url": "https://www.quadratec.com/c/blog/what-are-differences-roading-wrangler-tj-jk-jl"
   }
  ]
 }

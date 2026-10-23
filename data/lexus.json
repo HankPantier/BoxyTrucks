@@ -21,7 +21,7 @@
      "FZJ80",
      "1FZ-FE"
     ],
-    "summary": "The first Lexus truck, a lightly disguised 80 Series Land Cruiser with a 215-hp 4.5-liter straight-six. Sold for two US model years only.",
+    "summary": "The first Lexus truck, a lightly disguised 80 Series Land Cruiser with a 212-hp 4.5-liter straight-six. Sold for two US model years only.",
     "at_url": "https://www.autotempest.com/results?make=lexus&model=lx450&minyear=1996&maxyear=1997",
     "bat_url": "https://bringatrailer.com/lexus/lx450/",
     "has_page": false
@@ -166,7 +166,7 @@
    {
     "heading": null,
     "paragraphs": [
-     "The Lexus GX 470 is a Land Cruiser Prado 120, the mid-size Land Cruiser the rest of the world got and North America never did, dressed for a suburb it was always overqualified for. Underneath the wood trim are a ladder frame, a five-link solid rear axle, full-time four-wheel drive with low range and a lockable center differential, plus Toyota's 4.7-liter 2UZ-FE V8. It was sold to people who wanted a nice SUV. It is now bought by people who want to cross Nevada on dirt roads."
+     "The Lexus GX 470 is a Land Cruiser Prado 120, the mid-size Land Cruiser the rest of the world got and North America never did, dressed for a suburb it was always overqualified for. Underneath the wood trim are a ladder frame, a four-link solid rear axle with a lateral rod, full-time four-wheel drive with low range and a lockable center differential, plus Toyota's 4.7-liter 2UZ-FE V8. It was sold to people who wanted a nice SUV. It is now bought by people who want to cross Nevada on dirt roads."
     ]
    },
    {
@@ -187,7 +187,7 @@
     "heading": "WHY OVERLANDERS LOVE IT",
     "paragraphs": [
      "Four Wheeler magazine named the GX its Four Wheeler of the Year for 2003 and 2004, which was unusual praise for a vehicle with a Mark Levinson stereo option. Expedition Portal's project truck called the J120 \"often considered the pinnacle of the body-on-frame era\" and called the V8 \"one of the most reliable engines ever sold in the USA.\" It also pointed to a 109-inch wheelbase and payload higher than the 4Runner's.",
-     "The weak points are well mapped. Owners report aging steering racks, CV boots, lower ball joints and cracked driver's-side exhaust manifolds, plus the timing belt that someone eventually has to pay for. Lexus ran a warranty enhancement program for cracked or sticky dashboards on 2003–2008 trucks. None of these problems scares off people who own a floor jack, which is why aftermarket support is now deep: lifts, rear coil conversions, skids, sliders and bumpers built specifically for this truck."
+     "The weak points are well mapped. Owners report aging steering racks, CV boots, lower ball joints and cracked exhaust manifolds (often the driver's side), plus the timing belt that someone eventually has to pay for. Lexus ran a warranty enhancement program for cracked or sticky dashboards on 2003–2008 trucks. None of these problems scares off people who own a floor jack, which is why aftermarket support is now deep: lifts, rear coil conversions, skids, sliders and bumpers built specifically for this truck."
     ]
    },
    {
@@ -203,10 +203,10 @@
    "title": "Expedition Portal's GX 470 build",
    "paragraphs": [
     "When Expedition Portal turned a GX 470 into a project vehicle, it kept the factory rear airbags for load leveling, added a 60 mm Air Lift 52420 spacer and fitted Old Man Emu BP-51 shocks. It rebuilt the steering rack, replaced the CV axles with factory Toyota parts and added Timbren bump stops, an ARB Summit bar, a Warn Zeon 10-S winch and 255/80R17 Toyo A/T III tires, which measured just over 33 inches.",
-    "Two lessons from that build are worth noting. First, an airbag failure left the truck on its bump stops with the tires touching the fenders, and it needed a tow. Second, an editor's note pointed out that ARB doesn't list the GX as an approved application for its products, so installing vehicle-specific ARB parts on a GX voids the warranty."
+    "Two lessons from that build are worth noting. First, an airbag failure left the truck unable to be driven out, and it needed a tow. Second, an editor's note pointed out that ARB doesn't list the GX as an approved application for its products, so fitting ARB parts to a GX may void ARB's warranty."
    ]
   },
-  "engineering_intro": "The GX 470 is a J120 Prado underneath: a high-strength ladder frame, coil-over independent front suspension and a five-link solid rear axle. Full-time 4WD runs through a two-speed transfer case and a helical limited-slip center differential that can be locked, with open differentials front and rear and brake-based A-TRAC traction control to cover for them. Lexus then layered on rear air springs with height control, adjustable dampers and, as an option from 2004, KDSS.",
+  "engineering_intro": "The GX 470 is a J120 Prado underneath: a high-strength ladder frame, coil-over independent front suspension and a four-link solid rear axle with a lateral rod. Full-time 4WD runs through a two-speed transfer case and a helical limited-slip center differential that can be locked, with open differentials front and rear and brake-based A-TRAC traction control to cover for them. Lexus then layered on rear air springs with height control, adjustable dampers and, as an option from 2004, KDSS.",
   "engineering": [
    {
     "k": "CHASSIS",
@@ -230,8 +230,8 @@
    },
    {
     "k": "REAR",
-    "v": "5-link solid axle",
-    "note": "Air springs with height control. Many owners convert to coils."
+    "v": "4-link solid axle",
+    "note": "Lexus calls it a 4-link (plus a lateral rod). Air springs with height control. Many owners convert to coils."
    },
    {
     "k": "TRACTION",
@@ -291,7 +291,7 @@
    },
    {
     "head": "Cold-start tick",
-    "body": "A tick that fades as the engine warms is the classic sign of a cracked driver's-side exhaust manifold. The repair is a big one, so treat it as a price negotiation point."
+    "body": "A tick that fades as the engine warms is the classic sign of a cracked exhaust manifold, often on the driver's side. The repair is a big one, so treat it as a price negotiation point."
    },
    {
     "head": "Steering rack",
@@ -374,7 +374,7 @@
     ]
    },
    {
-    "title": "Exhaust manifold replacement (driver's side)",
+    "title": "Exhaust manifold replacement (often the driver's side)",
     "diff": "4 / 5",
     "time": "Same-day job at a specialist shop",
     "cost": "Parts plus labor (high: engine mounts have to come out)",
@@ -511,8 +511,8 @@
    },
    {
     "q": "What fluids and capacities does it take?",
-    "a": "Engine oil is 5W-30, about 6.6 qt with filter. The A750F 5-speed automatic uses Toyota WS fluid (about 11 qt total, roughly 3.2 qt on a drain-and-fill). The transfer case takes about 3 pints, the front diff about 3 pints and the rear diff about 6.6 pints, all GL-5 gear oil. Coolant is about 13.6 qt. Confirm against your owner's manual.",
-    "src": "AMSOIL APPLICATION GUIDE"
+    "a": "Per the 2005 factory repair manual: engine oil 5W-30, 6.5 US qt (6.2 L) with filter. The A750F automatic takes Toyota Genuine ATF WS only, about 3.2 qt (3.0 L) per drain-and-fill and 11.0 qt (10.4 L) dry. Transfer case: 1.5 qt (1.4 L, about 3 pints) of GL-5 75W-90. Front diff 1.48 qt (1.40 L) and rear diff 3.22 qt (3.05 L), both GL-5 SAE 90 (80W-90 below 0°F). Coolant is about 13.6 qt (12.9 L) of Toyota Super Long Life. Confirm against your own manual for your model year.",
+    "src": "2005 GX 470 REPAIR MANUAL (RM1164U)"
    },
    {
     "q": "When should I lock the center diff?",
@@ -744,11 +744,11 @@
    },
    {
     "k": "REAR SUSPENSION",
-    "v": "5-link solid axle, air springs"
+    "v": "4-link solid axle, air springs"
    },
    {
     "k": "WHEELBASE",
-    "v": "109 in"
+    "v": "109.8 in (2,790 mm)"
    },
    {
     "k": "GROUND CLEARANCE",
@@ -913,6 +913,10 @@
    {
     "name": "Lexus — 2008 Warranty and Services Guide / maintenance schedule (GX, LX, RX)",
     "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-08GX470/pdf/L-MMS-08GX470.pdf"
+   },
+   {
+    "name": "Lexus Canada — 2009 GX 470 specifications (PDF)",
+    "url": "https://media.lexus.ca/en/specifications/2009/2009-lexus-gx-470-specifications.html"
    }
   ],
   "baseline_service": {

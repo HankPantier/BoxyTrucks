@@ -60,9 +60,16 @@
    {
     "title": "Denso low-pressure fuel pump",
     "years": "2018–2019",
-    "ref": "NHTSA 20V682000",
-    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V682000",
-    "summary": "The fuel pump can fail and stall the engine while driving."
+    "ref": "NHTSA 20V012000 / 20V682000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=20V012000",
+    "summary": "The Denso low-pressure fuel pump can fail and stall the engine while driving. 20V012000 was the original campaign and 20V682000 expanded it; NHTSA's lookup also lists 20V012000 against some 2014–2015 trucks, so run your VIN."
+   },
+   {
+    "title": "Load-capacity label and dealer-installed accessory campaigns",
+    "years": "2008–2011, 2014–2016, 2019",
+    "ref": "NHTSA 10V035000 / 10V036000 / 13V123000 / 14V828000 / 16V236000 / 19V244000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=14V828000",
+    "summary": "Mostly labeling campaigns (FMVSS 110 load-capacity labels) plus a Southeast Toyota campaign for incorrectly attached distributor-installed accessories such as running boards (14V828000). Run your VIN at NHTSA to see which apply."
    }
   ],
   "tsbs": []
@@ -80,7 +87,7 @@
   },
   {
    "year": "2013",
-   "change": "First facelift (released December 2011): previously optional kit made standard, and Multi-Terrain Select added",
+   "change": "First facelift (released December 2011): previously optional kit made standard; Multi-Terrain Select, Multi-Terrain Monitor, Off-Road Turn Assist and Trailer Sway Control added",
    "flag": "note"
   },
   {
@@ -95,7 +102,7 @@
   },
   {
    "year": "2020",
-   "change": "Heritage Edition for the FJ40's 60th anniversary: 1,200 built, five seats, US only",
+   "change": "Heritage Edition for the FJ40's 60th anniversary: 1,200 built for the 2020 model year, five seats, US only",
    "flag": "note"
   },
   {
@@ -304,6 +311,10 @@
   {
    "name": "TLCA — Cruise Moab",
    "url": "https://tlca.org/calendar/cruise-moab/"
+  },
+  {
+   "name": "Toyota Pressroom — Legendary Toyota Land Cruiser receives significant enhancements for 2013",
+   "url": "https://pressroom.toyota.com/?p=47092"
   }
  ]
 }

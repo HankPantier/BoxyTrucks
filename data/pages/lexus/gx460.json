@@ -107,7 +107,7 @@
    "platform": "URJ150",
    "engine": "1UR-FE 4.6 V8",
    "output": "301 hp / 329 lb-ft",
-   "note": "Spindle grille and LED headlights. Base, Premium and Luxury trims. Turning circle grows from 38.1 to 41.4 ft."
+   "note": "Spindle grille and LED headlights. Base, Premium and Luxury trims."
   },
   {
    "years": "2020–2021",
@@ -220,7 +220,7 @@
    "title": "Secondary air pump and valves (2010–2013)",
    "diff": "3 / 5",
    "time": "≈ half a day",
-   "cost": "Check dealer coverage first. Lexus extended the warranty on the '10–'13 pump and valves for 10 years from first service.",
+   "cost": "Check dealer coverage first. Lexus extended warranty coverage on the '10–'13 pump and valves (program ZLH); confirm the terms and your truck's eligibility with a dealer.",
    "symptoms": "Check engine light with P2440, P2442, P2445 and/or P0418, sometimes with limp mode.",
    "fix": "The pump's foam filter breaks down, and the pump shreds it and blows debris into the air injection valves. Replace the pump and both valves with Lexus's redesigned parts. The pump sits behind the front right headlight. GXOR describes a temporary way out of limp mode: unplug the pump and clear codes. The check engine light comes back, but limp mode stays off.",
    "tools": "Basic hand tools · scan tool to clear codes · updated OEM pump and both air injection valves",
@@ -355,8 +355,8 @@
   },
   {
    "q": "What fuel economy should I expect?",
-   "a": "Wikipedia lists the EPA estimate at 17 mpg combined. It's a 5,100-plus-lb truck with a V8, so bigger tires and roof racks pull that down.",
-   "src": "WIKIPEDIA · GXOR"
+   "a": "The EPA rates the 2010 GX 460 at 15 mpg city, 20 highway and 17 combined, and the 2023 at 15/19/16, on premium fuel. It's a 5,100-plus-lb truck with a V8, so bigger tires and roof racks pull that down.",
+   "src": "FUELECONOMY.GOV"
   },
   {
    "q": "Which trims have rear air suspension?",
@@ -375,7 +375,7 @@
   },
   {
    "q": "Which years should I buy or avoid?",
-   "a": "2010–2013 trucks have the air-pump issue (confirm the updated parts or warranty work) and the 38.1-ft turning circle. 2014-on trucks get the facelift but turn wider, at 41.4 ft. 2020-on Off-Road package trucks have Crawl Control, MTS and a transmission cooler from the factory. 2022–2023 trucks add CarPlay. Mechanically, Lexus changed little, so condition and records matter more than year.",
+   "a": "2010–2013 trucks have the air-pump issue (confirm the updated parts or warranty work). 2014-on trucks get the spindle-grille facelift. 2020-on Off-Road package trucks have Crawl Control, MTS and a transmission cooler from the factory. 2022–2023 trucks add CarPlay. Mechanically, Lexus changed little, so condition and records matter more than year.",
    "src": "GXOR · WIKIPEDIA · IH8MUD"
   },
   {
@@ -531,9 +531,9 @@
   },
   {
    "kind": "YT",
-   "name": "C4Fabrication",
+   "name": "C4 Fabrication",
    "focus": "GX & 4RUNNER ARMOR",
-   "url": "https://www.youtube.com/@C4Fabrication"
+   "url": "https://www.youtube.com/@c4_fabrication"
   }
  ],
  "forums": [
@@ -627,7 +627,7 @@
   },
   {
    "k": "TURNING CIRCLE",
-   "v": "38.1 ft ('10–'13) · 41.4 ft ('14+)"
+   "v": "38.1 ft (some spec sheets list 41.4 ft for '14+)"
   },
   {
    "k": "US SALES PEAK",
@@ -744,6 +744,22 @@
   {
    "name": "GXOR — Maintenance (GX 460 how-to index)",
    "url": "https://lexusgxor.com/wiki/general/maintenance"
+  },
+  {
+   "name": "FuelEconomy.gov — 2010 Lexus GX 460",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=29954"
+  },
+  {
+   "name": "FuelEconomy.gov — 2023 Lexus GX 460",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45852"
+  },
+  {
+   "name": "ClubLexus — GX460 turning radius thread",
+   "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-2023/856687-turning-radius.html"
+  },
+  {
+   "name": "Kelley Blue Book — 2014 Lexus GX specs",
+   "url": "https://www.kbb.com/lexus/gx/2014/specs"
   }
  ],
  "baseline_service": {

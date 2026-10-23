@@ -34,8 +34,8 @@
   {
    "heading": "THE ASTERISK",
    "paragraphs": [
-    "The V35A arrived with baggage. In November 2025, Toyota filed recall 25V-767 covering about 127,000 Tundras and Lexus LXs and GXs whose engines may contain machining debris that can damage the main bearings. Possible symptoms include knocking, rough running, a no-start or a loss of power while driving. The GX population is 3,717 US-market 2024 trucks built between May 31, 2023 and April 10, 2024. At filing, Lexus said the remedy was still being developed.",
-    "Toyota's report says some later engines were made with improved manufacturing processes and some with an improved main bearing. For a used buyer, that makes the VIN check the most important step in any GX 550 inspection. Buyers clearly didn't flinch. US sales reached 30,914 in 2024 and 37,180 in 2025, more than any year of the GX 460. The square GX turned out to be the one Lexus should have built years ago, and the platform it shares with the [[4runner/6th-gen|6th-gen 4Runner]] and the 250 means the aftermarket arrived early."
+    "The V35A arrived with baggage. In November 2025, Toyota filed recall 25V-767 covering about 127,000 Tundras and Lexus LXs and GXs whose engines may contain machining debris that can damage the main bearings. Possible symptoms include knocking, rough running, a no-start or a loss of power while driving. The GX population is 3,717 US-market 2024 trucks built between May 31, 2023 and April 10, 2024. At filing, Lexus said the remedy was still being developed. It has since been set: dealers inspect the No. 1 main bearing using inspection software and drive data and replace the engine if needed, and owner letters went out on August 28, 2026.",
+    "Toyota's report says some later engines were made with improved manufacturing processes and some with an improved main bearing. For a used buyer, that makes the VIN check the most important step in any GX 550 inspection. Buyers clearly didn't flinch. US sales reached 30,914 in 2024 and 37,180 in 2025, the best year the GX has ever had in the US. The square GX turned out to be the one Lexus should have built years ago, and the platform it shares with the [[4runner/6th-gen|6th-gen 4Runner]] and the 250 means the aftermarket arrived early."
    ]
   }
  ],
@@ -143,7 +143,7 @@
    "time": "≈ 10 minutes to check. Dealer time varies.",
    "cost": "Free under recall",
    "symptoms": "Possible engine knocking, rough running, a no-start or a loss of motive power. Many affected trucks show no symptoms.",
-   "fix": "Enter the VIN at lexus.com/recall or nhtsa.gov/recalls. In the November 2025 dealer letter, Lexus said the remedy was still being developed, that owners would be notified by early January 2026, and that dealers should open a case and contact field staff for vehicles showing symptoms. If your truck is affected, get the current remedy status in writing from a dealer and keep the records. Future buyers will ask.",
+   "fix": "Enter the VIN at lexus.com/recall or nhtsa.gov/recalls. NHTSA's recall record now gives the remedy: dealers inspect the No. 1 main bearing using inspection software and drive data and replace the engine if necessary, free of charge. Owner letters were mailed August 28, 2026. If your truck is affected, get the inspection result, and any engine replacement, in writing and keep the records. Future buyers will ask.",
    "tools": "VIN · Lexus dealer",
    "parts": []
   },
@@ -192,7 +192,7 @@
   },
   {
    "q": "Is my GX 550 part of the engine recall?",
-   "a": "Possibly, if it's a 2024. Recall 25V-767 (Lexus 25LA07) covers 3,717 US-market 2024 GXs built between May 31, 2023 and April 10, 2024, for machining debris that can damage the engine. Check your VIN at lexus.com/recall or nhtsa.gov.",
+   "a": "Possibly, if it's a 2024. Recall 25V-767 (Lexus 25LA07) covers 3,717 US-market 2024 GXs built between May 31, 2023 and April 10, 2024, for machining debris that can damage the engine. Check your VIN at lexus.com/recall or nhtsa.gov. The remedy is a No. 1 main-bearing inspection, with engine replacement if needed.",
    "src": "NHTSA 25V-767"
   },
   {
@@ -303,9 +303,9 @@
   },
   {
    "kind": "YT",
-   "name": "C4Fabrication",
+   "name": "C4 Fabrication",
    "focus": "GX ARMOR",
-   "url": "https://www.youtube.com/@C4Fabrication"
+   "url": "https://www.youtube.com/@c4_fabrication"
   }
  ],
  "forums": [
@@ -471,6 +471,18 @@
   {
    "name": "Lexus — LX 600 owner's manual (OM60V34U), V35A-FTS maintenance data",
    "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60V34U/pdf/OM60V34U.pdf"
+  },
+  {
+   "name": "NHTSA — Recall 25V-767 record (remedy update)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=25V767000"
+  },
+  {
+   "name": "Cars.com — 2026 Lexus GX 550 Luxury+ specs (7,601-lb towing)",
+   "url": "https://www.cars.com/research/lexus-gx_550-2026/specs/482881/"
+  },
+  {
+   "name": "FuelEconomy.gov — 2025 Lexus GX 550",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48964"
   }
  ],
  "baseline_service": {

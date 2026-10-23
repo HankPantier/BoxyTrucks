@@ -112,6 +112,11 @@
    "flag": "note"
   },
   {
+   "year": "1979",
+   "change": "The 258 six replaces the 232 as the standard engine; last year of the Dana 20, Quadra-Trac, the T-150 and the T-18",
+   "flag": "note"
+  },
+  {
    "year": "1980",
    "change": "Dana 300 transfer case replaces the Dana 20 on every CJ-7; Laredo trim debuts; Golden Hawk sticker package for one year. Export-only Isuzu C240 diesel runs 1980–82",
    "flag": "buy"
@@ -128,7 +133,7 @@
   },
   {
    "year": "1986",
-   "change": "Final year; mid-year trucks get a Dana 44 rear in place of the two-piece AMC 20, and the last run wears the 'Last of a Great Breed' dash plaque",
+   "change": "Final year; some late trucks get a wide-track Dana 44 rear in place of the two-piece AMC 20 as supplies run out, and the last run wears the 'Last of a Great Breed' dash plaque",
    "flag": "buy"
   }
  ],
@@ -149,11 +154,11 @@
    },
    {
     "head": "Axles",
-    "body": "1976–81 narrow-track Dana 30 / AMC 20; 1982–86 wide-track versions; a factory Dana 44 rear only on mid-1986 trucks. A Dana 44 under an earlier CJ-7 is an aftermarket swap."
+    "body": "1976–81 narrow-track Dana 30 / AMC 20; 1982–86 wide-track versions; a factory Dana 44 rear only on some late-1986 trucks (and, per Offroaders.com, on some Quadra-Trac trucks as a narrow-track, offset Dana 44). Any other Dana 44 under a CJ-7 is probably an aftermarket swap."
    },
    {
     "head": "Special editions",
-    "body": "The 1982 Jamboree has a numbered dash plaque (630 built: 560 Topaz Gold Metallic, 70 Olympic White) and is the only numbered AMC Jeep. The Laredo added highback leather buckets, tilt wheel and chrome bumpers, grille cover and mirrors; Golden Eagles were 304 V8 trucks."
+    "body": "The 1982 Jamboree has a numbered dash plaque (630 built: 560 Topaz Gold Metallic, 70 Olympic White) and, per Wikipedia, is the only numbered AMC Jeep. The Laredo added highback leather buckets, tilt wheel and chrome bumpers, grille cover and mirrors; Golden Eagles were 304 V8 trucks."
    }
   ]
  },
@@ -189,7 +194,7 @@
     "range": "$28k–58k"
    }
   ],
-  "note": "Based on 83 Bring a Trailer sales from October 2025 to October 2026 (median $19,000, middle half $13,500–26,500). Top sale: a 1980 Laredo five-speed at $58,000; 401-, 5.3L- and LS-powered builds cluster at $35k–43k."
+  "note": "Compiled from Bring a Trailer CJ-7 results in October 2026 (about 83 sales, median around $19,000, middle half roughly $13,500–26,500). Swapped 401-, 5.3L- and LS-powered builds cluster in the mid-$30k to low-$40k range. Recheck current results before relying on these figures."
  },
  "docs": [
   {
@@ -346,6 +351,10 @@
   {
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
+  },
+  {
+   "name": "Offroaders.com — Dana 44 rear axle (1986 CJ and Quadra-Trac exceptions)",
+   "url": "https://www.offroaders.com/tech/jeep/axles-factory-rear-dana44.htm"
   }
  ]
 }

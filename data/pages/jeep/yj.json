@@ -99,16 +99,16 @@
   {
    "years": "1987–1995",
    "platform": "YJ",
-   "engine": "2.5 L AMC 150 I4, fuel-injected",
-   "output": "117 hp (at launch)",
-   "note": "AX-5 five-speed. A three-speed 30RH automatic was available from 1994."
+   "engine": "2.5 L AMC 150 I4, throttle-body injection (multi-point from 1991)",
+   "output": "117 hp at launch",
+   "note": "AX-5 five-speed. A three-speed 30RH automatic was available from 1994. NHTSA decodes 1991–95 four-cylinder VINs as multi-point injection."
   },
   {
    "years": "1991–1995",
    "platform": "YJ",
    "engine": "4.0 L AMC 242 I6, multi-point injection",
    "output": "≈180 hp",
-   "note": "AX-15 five-speed or 32RH three-speed automatic. Hagerty calls it often the most desirable YJ engine."
+   "note": "AX-15 five-speed; the automatic was the A999 for 1991, then the 32RH (Wikipedia). Hagerty calls the 4.0 often the most desirable YJ engine."
   },
   {
    "years": "1991–1994",
@@ -120,9 +120,9 @@
   {
    "years": "1995",
    "platform": "YJ Rio Grande",
-   "engine": "2.5 L I4 or 4.0 L I6",
+   "engine": "2.5 L I4 (base S)",
    "output": "—",
-   "note": "Final-year special with a Pueblo-themed interior. Larger front U-joints this year."
+   "note": "Final-year trim package that Wikipedia says was added to the base four-cylinder S, with a Pueblo-themed interior. Larger front U-joints this year."
   }
  ],
  "buying_checks": [
@@ -135,8 +135,8 @@
    "body": "The front axle is engaged by a vacuum motor. If the 4WD light stays off, or 4WD feels inconsistent, suspect dry-rotted, cracked or disconnected vacuum lines. Many owners convert to a cable-operated disconnect."
   },
   {
-   "head": "Clutch slave cylinder (1987–92)",
-   "body": "4WD Mechanix says 1987–92 YJs used an internal slave cylinder built into the release bearing. When it leaks, fluid can ruin the clutch disc, and replacing it means pulling the transmission. Look for fluid weeping from the bellhousing and a sinking pedal."
+   "head": "Clutch slave cylinder (early YJs)",
+   "body": "Early manual YJs use an internal slave cylinder built into the release bearing. 4WD Mechanix dates it to 1987–92 with an external slave from 1993; Wikipedia says the slave moved outside the bellhousing for 1994, and Advance Adapters sells its internal-bearing hose kit for 1987–93. When the internal slave leaks, fluid can ruin the clutch disc, and replacing it means pulling the transmission. Look for fluid weeping from the bellhousing and a sinking pedal, and check whether the slave is visible on the outside of the bellhousing."
   },
   {
    "head": "Know the gearbox and transfer case",
@@ -187,12 +187,12 @@
    ]
   },
   {
-   "title": "Replace the clutch and internal slave cylinder (1987–92)",
+   "title": "Replace the clutch and internal slave cylinder (early YJs)",
    "diff": "4 / 5",
    "time": "≈ A full weekend",
    "cost": "Parts plus labor",
    "symptoms": "Sinking or spongy clutch pedal, fluid loss from the clutch reservoir, a slipping clutch after fluid has soaked the disc, and fluid at the bottom of the bellhousing.",
-   "fix": "On 1987–92 YJs the slave is part of the release bearing inside the bellhousing, so this is a clutch job. 4WD Mechanix's YJ/TJ procedure: remove the transfer case, loosen the hydraulic line with flare-nut wrenches, then drain and cap the line. Loosen the crankshaft position sensor so it isn't damaged, and unclip wiring. Support the transmission on a jack and the engine under the oil pan, and lower no more than about 3 inches. Slide the transmission and bellhousing straight back. Mark the flywheel and pressure plate, loosen the cover bolts in a crisscross pattern, and inspect the flywheel and pilot bearing. Fit a new disc and slave/release bearing, then bleed with clean DOT 3 or DOT 4 fluid.",
+   "fix": "On early YJs (1987–92 per 4WD Mechanix; through 1993 per Wikipedia and Advance Adapters) the slave is part of the release bearing inside the bellhousing, so this is a clutch job. 4WD Mechanix's YJ/TJ procedure: remove the transfer case, loosen the hydraulic line with flare-nut wrenches, then drain and cap the line. Loosen the crankshaft position sensor so it isn't damaged, and unclip wiring. Support the transmission on a jack and the engine under the oil pan, and lower no more than about 3 inches. Slide the transmission and bellhousing straight back. Mark the flywheel and pressure plate, loosen the cover bolts in a crisscross pattern, and inspect the flywheel and pilot bearing. Fit a new disc and slave/release bearing, then bleed with clean DOT 3 or DOT 4 fluid.",
    "tools": "Transmission jack · flare-nut wrenches · clutch alignment tool · torque wrench · brake washer (treat old linings as if they contain asbestos) · DOT 3/4 fluid.",
    "parts": [
     {
@@ -273,9 +273,9 @@
    "title": "Replace the rear main seal (4.0 / 4.2 six)",
    "diff": "3 / 5",
    "time": "≈ A day",
-   "cost": "Under the cost of a seal kit and gasket in parts; shops charge for the pan removal",
+   "cost": "Seal kit and oil pan gasket; shops charge mostly for labor",
    "symptoms": "Oil dripping from where the engine meets the bellhousing, and an oily transmission and crossmember. Rule out the valve cover and oil pan gaskets first, because oil runs downhill.",
-   "fix": "The AMC six uses a two-piece rear main seal that is replaced from underneath without removing the transmission. Drain the oil, remove the starter and the oil pan, and mark the rear main bearing cap so it goes back the same way. Remove both seal halves, using a pick and a thin punch to work the upper half around the crank. Install the new halves with only a dab of RTV where they meet the cap, being careful not to nick the lip (one owner had to buy a second set). Torque the cap to spec, refit the pan with a new gasket and refill. While the pan is off, check crank end play.",
+   "fix": "The AMC six uses a two-piece rear main seal that is replaced from underneath without removing the transmission. Drain the oil, remove the starter and the oil pan, and mark the rear main bearing cap so it goes back the same way. Remove both seal halves, using a pick and a thin punch to work the upper half around the crank. Install the new halves with only a dab of RTV where they meet the cap, being careful not to nick the lip (one owner had to buy a second set). Torque the cap to the factory spec [CONFIRM IN MANUAL], refit the pan with a new gasket and refill. While the pan is off, check crank end play.",
    "tools": "Pick · thin punch · torque wrench · RTV · oil pan gasket · new oil and filter.",
    "parts": [
     {
@@ -361,7 +361,7 @@
   },
   {
    "q": "Should I avoid the Peugeot gearbox?",
-   "a": "Six-cylinder YJs from 1987–89 could have the Peugeot BA-10/5 five-speed, which ExtremeTerrain describes as historically unreliable. Jeep began replacing it with the Aisin AX-15 in 1989, and the AX-15 stayed through 1995. Four-cylinder trucks use the AX-5.",
+   "a": "Six-cylinder YJs from 1987–89 could have the Peugeot BA-10/5 five-speed, which ExtremeTerrain describes as historically unreliable. Wikipedia lists the Aisin AX-15 behind the 4.2 from 1989, and the AX-15 stayed with the 4.0 through 1995. Four-cylinder trucks use the AX-5.",
    "src": "EXTREMETERRAIN · WIKIPEDIA"
   },
   {
@@ -371,13 +371,13 @@
   },
   {
    "q": "Which years have the internal clutch slave cylinder?",
-   "a": "4WD Mechanix says 1987–92 YJs used a slave cylinder built into the release bearing, and 1993 brought the external slave and pivot arm used in the TJ. Wikipedia dates the move outside the bellhousing to 1994, so check yours. The internal type means pulling the transmission to replace it.",
-   "src": "4WD MECHANIX · WIKIPEDIA"
+   "a": "Sources disagree. 4WD Mechanix says 1987–92 YJs used a slave cylinder built into the release bearing and that 1993 brought the external slave and pivot arm used in the TJ. Wikipedia dates the move outside the bellhousing to 1994, and Advance Adapters lists its internal-bearing hose kit for 1987–93. Treat 1993 as either, and look for an external slave on the bellhousing. The internal type means pulling the transmission to replace it.",
+   "src": "4WD MECHANIX · WIKIPEDIA · ADVANCE ADAPTERS"
   },
   {
    "q": "What fluids do the axles and transfer case take?",
-   "a": "Haynes lists SAE 75W-90 GL-5 gear oil for the differentials, 75W-140 synthetic for towing or severe use, and 4 oz of friction modifier for a Trac-Lok limited slip. The transfer case takes Mopar ATF. Haynes suggests changing all of them every 30,000 miles.",
-   "src": "HAYNES"
+   "a": "Quadratec's factory-based chart lists GL-5 80W-90 or 75W-140 synthetic for the Dana 30, Dana 35 and Dana 44, with 4 oz of limited-slip additive for a Trac-Lok. ExtremeTerrain recommends 75W-140 in the rear for warm-weather towing. The NP231 takes automatic transmission fluid (ExtremeTerrain lists ATF+3 or ATF+4); Quadratec's chart gives 2.2 pints for the NP231 and 4.4 pints for the NP207. Haynes' maintenance schedule changes the transfer case and differential lubricant every 30,000 miles or 24 months. Capacities in retailer charts disagree, so fill to the bottom of the fill hole [CONFIRM IN MANUAL].",
+   "src": "QUADRATEC · EXTREMETERRAIN · HAYNES"
   },
   {
    "q": "Can the 4.2's carburetor be made reliable?",
@@ -657,7 +657,7 @@
  "photos": [
   {
    "file": "yj-crystal-mountain-ledge.jpg",
-   "alt": "A tan square-headlight Jeep Wrangler YJ with no top and a winch bumper climbing a rocky dirt ledge in a pine forest",
+   "alt": "A grey-tan square-headlight Jeep Wrangler YJ with Colorado plates, no top and a winch bumper climbing a rocky dirt ledge in a pine forest",
    "caption": "YJ · ROCKY FOREST LEDGE",
    "credit": "Commons contributor (own work) · Public domain",
    "source": "Wikimedia Commons",
@@ -666,15 +666,15 @@
   {
    "file": "yj-desert-wash.jpg",
    "alt": "A lifted Jeep Wrangler YJ with roof lights leading a line of trail rigs up a rocky desert wash",
-   "caption": "YJ · DESERT WASH, SOUTHERN CALIFORNIA",
-   "credit": "BLM California · Public domain",
+   "caption": "YJ · DEVIL'S CANYON, SOUTHERN CALIFORNIA",
+   "credit": "John Johnson, BLM California · Public domain",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:-NPLD_2016-_4x4_Touring_(31093196382).jpg"
   },
   {
    "file": "yj-mounds-mud.jpg",
    "alt": "A white Jeep Wrangler YJ hardtop covered in mud, crossing a muddy creek bed",
-   "caption": "YJ · MUD AT THE MOUNDS, MICHIGAN",
+   "caption": "YJ · THE MOUNDS, MT. MORRIS, MICHIGAN",
    "credit": "Wayfaringemu · Public domain",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Off_roading_at_mounds.JPG"
@@ -738,8 +738,8 @@
    "url": "https://www.jeepz.com/forum/threads/tips-on-replacing-a-4-0-rear-main-seal.52633/"
   },
   {
-   "name": "Haynes — 1987–2017 Jeep Wrangler routine maintenance FAQ",
-   "url": "https://haynes.com/en-us/tips-tutorials/1987-2017-jeep-wrangler-and-wrangler-unlimited-routine-maintenance-faq"
+   "name": "Haynes — 1987–2017 Jeep Wrangler routine maintenance schedule",
+   "url": "https://us.haynes.com/blogs/tips-tutorials/1987-2017-jeep-wrangler-and-wrangler-unlimited-routine-maintenance-faq"
   },
   {
    "name": "ExtremeTerrain — Jeep Wrangler oils & fluids explained",
@@ -760,6 +760,18 @@
   {
    "name": "Bring a Trailer — Jeep Wrangler YJ",
    "url": "https://bringatrailer.com/jeep/wrangler-yj/"
+  },
+  {
+   "name": "ExtremeTerrain — TJ Wrangler torque specs (1997–2006), used as a cross-reference for shared components",
+   "url": "https://www.extremeterrain.com/tj-wrangler-torque-specs.html"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep Wrangler fluid capacities",
+   "url": "https://www.extremeterrain.com/jeep-wrangler-fluid-capacities-tech-guide.html"
+  },
+  {
+   "name": "NHTSA vPIC — VIN pattern decodes (1J4FY19P / 1J4FY19E / 1J4FY19S)",
+   "url": "https://vpic.nhtsa.dot.gov/decoder/"
   }
  ],
  "baseline_service": {
@@ -767,9 +779,9 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "4.0: SAE 10W-30 · 2.5 and 4.2: 5W-30 below 32°F, 10W-30 above · ≈4 qt (four) / 6 qt (six) with filter (Haynes)",
-    "interval": "Haynes lists every 7,500 mi or 12 months",
-    "note": "Drain-plug torque is 25 ft-lb (Haynes). ExtremeTerrain lists separate filters for 87–93 and 91–06 engines, so check which one yours takes.",
+    "spec": "SAE 10W-30 (Quadratec); ExtremeTerrain lists 10W-30 or 5W-30 · ≈4 qt (2.5) / 6 qt (4.0, 4.2) with filter (Quadratec)",
+    "interval": "Haynes lists every 7,500 mi or 12 months (3,000 mi in severe use)",
+    "note": "Drain-plug torque: ExtremeTerrain's TJ-era table gives 25 ft-lb for the 2.5 and 4.0 [CONFIRM IN MANUAL for your YJ]. ExtremeTerrain lists separate filters for 87–93 and 91–06 engines, so check which one yours takes.",
     "parts": [
      {
       "name": "Oil filter, 87–93 YJ",
@@ -786,7 +798,7 @@
    {
     "item": "Air filter & PCV",
     "spec": "Engine air filter and PCV filter/valve",
-    "interval": "Every 30,000 mi or 24 months (Haynes); sooner on dusty trails",
+    "interval": "Every 30,000 mi or 24 months (Haynes); sooner on dusty trails. Haynes also lists the fuel filter for 1987–95 models.",
     "note": "On the 4.2, Ludel lists the PCV valve and air cleaner among the first checks before blaming the carburetor.",
     "parts": [
      {
@@ -798,9 +810,9 @@
    },
    {
     "item": "Spark plugs, cap & rotor",
-    "spec": "Plug torque: 2.5 27 ft-lb (1991–2002), 20 (1990 and earlier); 4.0 27 ft-lb (Haynes)",
+    "spec": "Plug torque [CONFIRM IN MANUAL]: ExtremeTerrain's 1997–2006 table gives 27 ft-lb for the 2.5 and 4.0; no YJ-specific figure verified",
     "interval": "Every 30,000 mi (Haynes)",
-    "note": "Both the 4.2 and 4.0 in the YJ use a distributor, so replace the cap and rotor with the plugs and wires. Ludel treats them as routine service items.",
+    "note": "Both the 4.2 and 4.0 in the YJ use a distributor. Haynes lists inspecting the plug wires, cap and rotor on 2003-and-earlier models, so do them with the plugs.",
     "parts": [
      {
       "name": "YJ ignition parts catalog",
@@ -824,7 +836,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "50/50 water and ethylene-glycol antifreeze (2000-and-earlier spec) · ≈9 qt (four), 10.5 qt (six) (Haynes)",
+    "spec": "50/50 antifreeze and water (ExtremeTerrain) · ≈9 qt (2.5), 10.5 qt (4.0 and 4.2) (Quadratec chart) · antifreeze type [CONFIRM IN MANUAL]",
     "interval": "Every 30,000 mi or 24 months (Haynes)",
     "note": "Inspect the radiator, hoses and fan clutch while you're there. ExtremeTerrain lists a fan clutch that fits all YJs.",
     "parts": [
@@ -842,9 +854,9 @@
    },
    {
     "item": "Manual transmission (AX-5 / AX-15 / BA-10)",
-    "spec": "Haynes: SAE 75W-90 GL-5 for 1997 and earlier · ≈3.3 qt for AX-5/AX-15 (ExtremeTerrain); BA-10/5 5.2 pints (Quadratec chart)",
+    "spec": "75W-90 GL-3 or GL-4 for the AX-5 and AX-15 (ExtremeTerrain) · ≈3.3 qt AX-5/AX-15, 5.2 pints BA-10/5 (Quadratec chart) [CONFIRM IN MANUAL]",
     "interval": "Change now, then every 30,000 mi",
-    "note": "ExtremeTerrain lists GL-3 or GL-4 for the AX-5 and AX-15, which conflicts with Haynes. [CONFIRM IN MANUAL] for your year.",
+    "note": "Retailer charts disagree slightly on AX-15 capacity (3.25–3.32 qt), so fill to the bottom of the fill hole. Haynes lists a 30,000-mile change.",
     "parts": [
      {
       "name": "Manual transmission gear oil search",
@@ -855,9 +867,9 @@
    },
    {
     "item": "Automatic transmission (999 / 32RH / 30RH)",
-    "spec": "Mopar ATF+3 for 2000 and earlier (Haynes); ATF+4 for 2001 on · ≈4 qt for a pan drop",
+    "spec": "Mopar ATF of the type on the dipstick or in the manual [CONFIRM IN MANUAL] · total capacity 8.3 qt TF999, 17.1 pints 32RH, 7 qt 30RH (Quadratec chart); a pan drop takes much less",
     "interval": "Every 30,000 mi, or 12,000 mi in severe use (Haynes)",
-    "note": "Change the pan filter at the same time. Haynes lists 35 in-lb for the 30RH/32RH filter screws.",
+    "note": "Change the pan filter at the same time. ExtremeTerrain's TJ table gives 35 in-lb for the 30RH/32RH filter screws [CONFIRM IN MANUAL for YJ].",
     "parts": [
      {
       "name": "YJ driveline parts",
@@ -868,9 +880,9 @@
    },
    {
     "item": "Transfer case (NP207 / NP231)",
-    "spec": "Mopar ATF · NP231 fill until it runs out of the fill hole (Haynes lists 3 pints; NP207 4.5 pints)",
+    "spec": "ATF (ExtremeTerrain lists ATF+3 or ATF+4 for the NP231) · NP231 2.2 pints, NP207 4.4 pints (Quadratec chart) · fill until it runs out of the fill hole",
     "interval": "Every 30,000 mi (Haynes)",
-    "note": "Fill and drain plugs take 20 ft-lb (Haynes). Inspect the output seals: Quadratec lists them among common leaks.",
+    "note": "ExtremeTerrain's TJ table gives 15–25 ft-lb for NP231 drain and fill plugs [CONFIRM IN MANUAL]. Inspect the output seals: Quadratec lists them among common leaks.",
     "parts": [
      {
       "name": "Crown NP231 transfer case overhaul kit, 87–06 YJ & TJ",
@@ -881,9 +893,9 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "SAE 75W-90 GL-5 · 75W-140 synthetic for towing · +4 oz friction modifier for Trac-Lok (Haynes)",
-    "interval": "Every 30,000 mi, and after deep water crossings (ExtremeTerrain)",
-    "note": "Cover bolts take 30 ft-lb (Haynes). Check the Dana 30 disconnect housing and pinion seals for leaks.",
+    "spec": "GL-5 80W-90 or 75W-140 synthetic · +4 oz limited-slip additive for Trac-Lok (Quadratec chart) · Dana 30 2.5 pt, Dana 35 3.5 pt, Dana 44 4.0 pt (Quadratec chart) [CONFIRM IN MANUAL]",
+    "interval": "Every 30,000 mi (Haynes), and after deep water crossings (ExtremeTerrain)",
+    "note": "Cover bolts take 30 ft-lb in ExtremeTerrain's TJ-era table for the same Dana axles [CONFIRM IN MANUAL]. Check the Dana 30 disconnect housing and pinion seals for leaks.",
     "parts": [
      {
       "name": "Gear oil and friction modifier search",

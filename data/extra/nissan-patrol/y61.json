@@ -37,8 +37,13 @@
   "tsbs": [
    {
     "title": "ZD30 oil capacity and dipstick change",
-    "summary": "After piston failures on the 3.0 L ZD30, Nissan raised the oil fill to 8.3 L and had dealers shorten and recalibrate the dipsticks (CarsGuide). Nissan Australia specifies 10W-40 ACEA B3 oil, changed every 10,000 km or 6 months at most.",
+    "summary": "After piston failures on the 3.0 L ZD30, Nissan raised the oil fill from 6 L to 8.3 L and had dealers shorten and recalibrate the dipsticks (CarsGuide).",
     "url": "https://www.carsguide.com.au/nissan/patrol/problems"
+   },
+   {
+    "title": "ZD30 oil specification revised (Sept 2004)",
+    "summary": "Owners on ExplorOz quote Nissan service bulletin MA-04-001 (30 September 2004): ZD30 oil must meet ACEA B3 or JASO DH-1, with 10W-40 strongly recommended, retrospectively for all ZD30 engines.",
+    "url": "https://www.exploroz.com/forum/32377/gu-30l-engine-oilnow-the-spec-has-changed"
    },
    {
     "title": "Common-rail ZD30 injection components",
@@ -65,7 +70,7 @@
   },
   {
    "year": "2000",
-   "change": "GU II (April): 3.0 L four-cylinder ZD30DDTi diesel arrives with an optional automatic, and the naturally aspirated TD42 is dropped from wagons. Early ZD30s are known for piston and bottom-end failures",
+   "change": "GU II (April): 3.0 L four-cylinder ZD30DDTi diesel arrives with an optional automatic. The naturally aspirated TD42 reportedly left the wagon range around this time. Early ZD30s are known for piston and bottom-end failures",
    "flag": "avoid"
   },
   {
@@ -85,12 +90,12 @@
   },
   {
    "year": "2006",
-   "change": "Revised TB48 (180 kW / 400 N·m), automatic only for Euro III. ZD30 Ti added in September",
+   "change": "Revised 180 kW / 400 N·m TB48 from February (GoAuto). 4X4 Australia and Marque News date the end of the TD42 family in Australian GUs to 2006; CarsGuide and Wikipedia say 2007",
    "flag": "note"
   },
   {
    "year": "2007",
-   "change": "GU VI (September; there was no GU V): the common-rail ZD30 becomes the only diesel and the TD42 is gone. CarsGuide still reports piston failures on 2008–09 ZD30s",
+   "change": "GU VI (September; there was no GU V): the common-rail ZD30 is the only diesel, and Wikipedia says the TD42Ti couldn't meet Euro IV. CarsGuide's Q&A still fields piston-failure questions from owners of 2008–09 ZD30s",
    "flag": "note"
   },
   {
@@ -205,7 +210,7 @@
    },
    {
     "k": "Australian sales",
-    "v": "104,510 wagons and 37,112 UY61 cab-chassis to October 2016, per Nissan Australia's figures"
+    "v": "104,510 wagons (1997 to October 2016) and 37,112 UY61 cab-chassis, Nissan Australia figures as quoted by JDM Buy Sell"
    }
   ],
   "editions": [
@@ -231,7 +236,7 @@
    "kind": "club",
    "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
    "url": "https://nissanpatrolclub.org/",
-   "note": "Founded in 1976. Owns a 94-hectare property near Windellama (Goulburn region) and runs driver training and tag-along trips. All makes welcome."
+   "note": "Owns a 94-hectare property near Windellama (Goulburn region) and runs driver training and tag-along trips. All makes welcome."
   }
  ],
  "sources": [
@@ -310,6 +315,14 @@
   {
    "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
    "url": "https://nissanpatrolclub.org/"
+  },
+  {
+   "name": "Marque News — Nissan Patrol 2004–2017 (TD42 discontinued 2006)",
+   "url": "https://marquenews.com.au/nissan-patrol-2004-2017/"
+  },
+  {
+   "name": "4X4 Australia — Nissan Patrol buyers guide: every generation",
+   "url": "https://www.4x4australia.com.au/reviews/nissan-patrol-history"
   }
  ]
 }

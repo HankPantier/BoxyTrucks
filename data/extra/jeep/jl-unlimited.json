@@ -5,20 +5,20 @@
    "P255/70R18 (Sahara)",
    "255/55R20 (Sahara 4xe)",
    "LT285/70R17 (Rubicon, Rubicon 4xe)",
-   "LT315/70R17 (Rubicon 392; Xtreme Recon package)"
+   "LT315/70R17 (Xtreme Recon package; Performance Plus says current Rubicon 392s ship on them)"
   ],
   "wheel": {
    "bolt_pattern": "5x127 (5x5\")",
-   "offset": "+37 mm on Rubicon 17x7.5 (≈5.7 in backspacing); about +44 mm on Sport/Sahara",
+   "offset": "[CONFIRM IN MANUAL] — factory offsets not verified from a manufacturer or supplier source",
    "center_bore": "71.5 mm",
    "lug_thread": "M14x1.5",
-   "lug_torque": "130 lb-ft (176 N·m); spare 59 lb-ft"
+   "lug_torque": "130 lb-ft (176 N·m), 22 mm socket (Northridge4x4, owner's-manual figure); spare [CONFIRM IN MANUAL]"
   },
   "max_tire": [
    {
     "lift": "Stock",
     "size": "33 in; 35 in on gas Rubicon with bump-stop spacers",
-    "note": "A 35 clears a gas Rubicon at ride height but rubs the inner fenders under compression; bump stops fix it at the cost of about 2 in of up-travel. The Rubicon 4xe sits about 2 in lower, so bump stops are a must."
+    "note": "A 35 clears a gas Rubicon at ride height but rubs the inner fenders under compression; bump stops fix it at the cost of about 2 in of up-travel. Performance Plus Tire says Jeep lists the Rubicon 4xe with about 2.1 in less running clearance (it's 600-plus lb heavier on the same springs), so bump stops are a must."
    },
    {
     "lift": "1.5 in (factory Xtreme Recon)",
@@ -40,7 +40,7 @@
     "years": "2018–2019",
     "ref": "NHTSA 18V-675",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=18V675000",
-    "summary": "Track bar brackets may be improperly welded and separate from the frame, reducing steering; dealers inspect and repair the welds (recall UA5, 18,055 vehicles)."
+    "summary": "Track bar brackets may be improperly welded and separate from the frame, reducing steering capability; dealers inspect and repair the welds."
    },
    {
     "title": "Intermediate steering shaft weld",
@@ -75,14 +75,14 @@
     "years": "2018–2021",
     "ref": "NHTSA 21V-028",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=21V028000",
-    "summary": "Software reduces engine torque when the clutch gets too hot; FCA ordered a stop-sale in February 2021."
+    "summary": "Expansion of the clutch pressure-plate overheating recall to 2018–2021 manual trucks."
    },
    {
     "title": "Clutch assembly replacement",
     "years": "2018–2023",
     "ref": "NHTSA 23V-116",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V116000",
-    "summary": "Dealers replace the clutch assembly and update software (recall 19A); 24V-572 re-fixes some 2021 trucks."
+    "summary": "Further expansion to 2018–2023 manual trucks (pressure plate may overheat and fracture); 24V-572 re-flashes some 2021 trucks already remedied under it, because the new software could stall the engine."
    },
    {
     "title": "Left lower control arm bracket weld",
@@ -226,12 +226,12 @@
   },
   {
    "year": "2025",
-   "change": "Rubicon 392 continues, still badged 'Final Edition'; last US model year for the 4xe",
+   "change": "Rubicon 392 continues, still badged 'Final Edition'; Stellantis drops the 4xe from the US market (Wikipedia)",
    "flag": "note"
   },
   {
    "year": "2026",
-   "change": "Moab 392 tops the range (four-door only); reworked door hinges for easier removal; 3.6 still offered with the manual; 4xe dropped as Stellantis phases out plug-in hybrids",
+   "change": "Moab 392 tops the range (four-door only); reworked door hinges for easier removal; 3.6 still offered with the manual; no 4xe in the US",
    "flag": "note"
   }
  ],
@@ -240,15 +240,15 @@
   "items": [
    {
     "head": "Real Rubicon",
-    "body": "Dana 44s front and rear with Tru-Lok electronic lockers, Rock-Trac with 4:1 low range, and an electronic sway-bar disconnect. Sport and Sahara have a Dana 30 front, a Dana 35 rear (optional Trac-Lok) and Command-Trac with 2.72:1."
+    "body": "Dana M210 (44-class) front and M220 rear with Tru-Lok electronic lockers, Rock-Trac with 4:1 low range, and an electronic sway-bar disconnect. Sport and Sahara have the M186 ('Dana 30') front and M200 ('Dana 35') rear, with an optional limited slip, and Command-Trac with 2.72:1 (Selec-Trac optional on Sahara)."
    },
    {
     "head": "4xe",
-    "body": "Plug-in hybrid with a 2.0 turbo, 17 kWh battery, 375 hp and 470 lb-ft; it has a charge port and a smaller 17.2-gal tank. Check that the battery-fire recall (25V-741) has been done."
+    "body": "Plug-in hybrid with a 2.0 turbo, 17 kWh battery, 375 hp and 470 lb-ft; it has a charge port and a smaller 17.2-gal tank [CONFIRM IN MANUAL]. Check that the battery-fire recall (25V-741) has been done."
    },
    {
     "head": "Rubicon 392",
-    "body": "6.4 Hemi with 470 hp and 470 lb-ft, four-door only, on LT315/70R17s from the factory. Sold 2021–2025 as the Rubicon 392 ('Final Edition' in 2024–25), then as the Moab 392 for 2026."
+    "body": "6.4 Hemi with 470 hp and 470 lb-ft, four-door only, with full-time Selec-Trac and the ZF 8HP75. Sold 2021–2025 as the Rubicon 392 ('Final Edition' in 2024–25), then as the Moab 392 for 2026. Check whether it has the 35-inch Xtreme Recon setup."
    },
    {
     "head": "EcoDiesel",
@@ -260,7 +260,7 @@
    },
    {
     "head": "Selec-Trac",
-    "body": "The optional full-time MP3022 Selec-Trac transfer case (2.72:1 low) is a Sahara option; Rubicons use Rock-Trac (4:1)."
+    "body": "The full-time MP3022 Selec-Trac transfer case (2.72:1 low) is a Sahara option and standard on the Rubicon 392; other Rubicons use Rock-Trac (4:1)."
    }
   ]
  },
@@ -292,8 +292,8 @@
   },
   {
    "k": "Fuel economy",
-   "v": "21 mpg combined (2.0 turbo)",
-   "note": "4xe: EPA 49 MPGe / 20 mpg combined, 21-mile electric range"
+   "v": "EPA 22 mpg combined (2.0 turbo, 2022)",
+   "note": "4xe: EPA 49 MPGe / 20 mpg combined; 21-mile electric range at launch, 22 miles for 2022"
   },
   {
    "k": "Curb weight",
@@ -359,7 +359,7 @@
    },
    {
     "k": "4xe",
-    "v": "2021–2025 in the US; dropped for 2026 as Stellantis phases out plug-in hybrids"
+    "v": "2021–2025 in the US; Stellantis dropped it in 2025 (Wikipedia)"
    }
   ],
   "editions": [
@@ -371,7 +371,7 @@
    {
     "name": "Rubicon 392",
     "years": "2021–2025",
-    "note": "6.4 Hemi V8, 470 hp; 'Final Edition' for 2024 and again for 2025"
+    "note": "6.4 Hemi V8, 470 hp; 'Final Edition' for 2024 and again for 2025, then kept on (KBB, August 2025)"
    },
    {
     "name": "Willys 4xe",
@@ -490,10 +490,6 @@
    "url": "https://www.gearpatrol.com/?p=913517"
   },
   {
-   "name": "Car and Driver via AOL — Stellantis kills off the Wrangler 4xe for 2026",
-   "url": "https://www.aol.com/articles/no-more-4xe-stellantis-kills-160800918.html"
-  },
-  {
    "name": "FCA US — Customer Satisfaction Notification V41, steering damper (NHTSA-hosted)",
    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169208-9999.pdf"
   },
@@ -528,6 +524,18 @@
   {
    "name": "Jeep Jamboree USA — 29th Rubicon Trail 2026",
    "url": "https://jeepjamboreeusa.com/trip/29th-rubicon-trail-2026/"
+  },
+  {
+   "name": "fueleconomy.gov — 2022 Jeep Wrangler 4dr 4WD 2.0 turbo",
+   "url": "https://www.fueleconomy.gov/feg/noframes/44911.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2022 Jeep Wrangler 4dr 4xe",
+   "url": "https://www.fueleconomy.gov/feg/noframes/44932.shtml"
+  },
+  {
+   "name": "Kelley Blue Book — Jeep will build V8 Gladiator, keep Wrangler 392 (Aug 2025)",
+   "url": "https://www.kbb.com/car-news/jeep-will-build-v8-powered-gladiator-keep-wrangler-392"
   }
  ]
 }

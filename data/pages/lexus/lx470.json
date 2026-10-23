@@ -262,7 +262,7 @@
    "time": "An afternoon",
    "cost": "A set of 8 plugs (Denso or NGK) plus coil boots",
    "symptoms": "A tick-tick-pop at cold start that can sound like an exhaust leak, a misfire or coil failure. In the worst case a plug blows out of the head and takes the threads with it.",
-   "fix": "Blow out the plug wells before loosening anything. Remove the coils, check every plug for tightness and replace them using genuine parts. Don't use anti-seize. Toyota's spec is 13 ft-lb. One veteran IH8MUD poster uses 18 ft-lb. Fit new coil boots and seals and torque the coil bolts to 66 in-lb. He recommends checking the plugs whenever the tick appears and at every timing-belt service.",
+   "fix": "Blow out the plug wells before loosening anything. Remove the coils, check every plug for tightness and replace them using genuine parts. Don't use anti-seize. Toyota's 2UZ-FE spec is 13 ft-lb (17.5 N·m) in the engine section of the factory repair manual, which lists 15 ft-lb (20 N·m) in its ignition section. One veteran IH8MUD poster uses 18 ft-lb. Fit new coil boots and seals and torque the coil bolts to 66 in-lb. He recommends checking the plugs whenever the tick appears and at every timing-belt service.",
    "tools": "Spark plug socket · extensions · torque wrench (in-lb and ft-lb) · compressed air · plugs · coil boots",
    "parts": [
     {
@@ -512,12 +512,6 @@
    "name": "Metal Tech 4x4",
    "focus": "SLIDERS & SUSPENSION",
    "url": "https://www.youtube.com/@Metaltech4x4"
-  },
-  {
-   "kind": "IG",
-   "name": "@cruiseroutfitters",
-   "focus": "LAND CRUISER SHOP & BUILDS",
-   "url": "https://www.instagram.com/cruiseroutfitters/"
   },
   {
    "kind": "IG",
@@ -775,6 +769,14 @@
   {
    "name": "IH8MUD — DIY transfer case fluid change how-to",
    "url": "https://forum.ih8mud.com/threads/diy-transfer-case-fluid-change-how-to.441936/"
+  },
+  {
+   "name": "Auto123 — Lexus LX 470 gets power boost for 2006 (275 hp, 332 lb-ft)",
+   "url": "https://www.auto123.com/en/news/lexus-lx-470-gets-power-boost-for-2006/44220"
+  },
+  {
+   "name": "Lexus — 2005 GX 470 repair manual (RM1164U), 2UZ-FE specs, via GXOR",
+   "url": "https://lexusgxor.com/media/import/general/2005_gx470_techinfo.pdf"
   }
  ],
  "baseline_service": {
@@ -839,7 +841,7 @@
    },
    {
     "item": "Spark plugs & plug check",
-    "spec": "Iridium 90080-91180 (×8), Toyota torque spec 13 ft-lb per IH8MUD",
+    "spec": "Iridium plugs, 8 (Denso SK20R11 or NGK IFR6A11, gap 1.0–1.1 mm, per the 2UZ-FE repair manual) · torque 13–15 ft-lb (17.5–20 N·m)",
     "interval": "Replacement due at 120k. Check tightness at every timing belt service or whenever you hear a tick.",
     "note": "2UZ plugs can walk out and blow out of the head. Don't use anti-seize.",
     "parts": [
@@ -945,9 +947,9 @@
     "note": "",
     "parts": [
      {
-      "name": "Serpentine drive belt, UZJ100/LX470",
-      "supplier": "Cruiser Corps",
-      "url": "https://cruisercorps.com/products/serpentine-drive-belt-100-series-uzj100-lx470-1998-2007"
+      "name": "Drive belt, 2005 LX 470",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/lexus,2005,lx470,4.7l+v8,1431006,belt+drive,belt,8900"
      },
      {
       "name": "Serpentine belt idler pulley, UZJ100/LX470",

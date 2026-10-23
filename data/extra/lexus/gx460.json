@@ -39,6 +39,13 @@
     "summary": "Inflators fitted under an earlier Takata recall used the same design and may rupture. Dealers replace them again."
    },
    {
+    "title": "Takata front passenger airbag inflator (zone-based)",
+    "years": "2010–2011",
+    "ref": "NHTSA 16V-340",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V340",
+    "summary": "Passenger frontal airbag inflators in trucks originally sold or registered in certain high-humidity areas may rupture. Dealers replace the inflator."
+   },
+   {
     "title": "Takata front passenger airbag inflator",
     "years": "2010–2017",
     "ref": "NHTSA 19V-005",
@@ -89,7 +96,7 @@
   },
   {
    "year": "2014",
-   "change": "First facelift: spindle grille, LED headlamps and LED DRLs, with a US price cut of $4,750. The turning circle grows from 38.1 to 41.4 ft.",
+   "change": "First facelift: spindle grille, LED headlamps and LED DRLs, with a US price cut of $4,750.",
    "flag": "note"
   },
   {
@@ -164,7 +171,8 @@
   },
   {
    "k": "Turning circle",
-   "v": "38.1 ft (2010–2013) · 41.4 ft (2014+)"
+   "v": "38.1 ft",
+   "note": "some spec sheets quoted by owners list 41.4 ft for 2014+; KBB lists 38.1 ft for 2014"
   }
  ],
  "values": {
@@ -351,6 +359,18 @@
   {
    "name": "Toyota Land Cruiser Association",
    "url": "https://tlca.org/"
+  },
+  {
+   "name": "ClubLexus — GX460 turning radius thread",
+   "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-2023/856687-turning-radius.html"
+  },
+  {
+   "name": "Kelley Blue Book — 2014 Lexus GX specs",
+   "url": "https://www.kbb.com/lexus/gx/2014/specs"
+  },
+  {
+   "name": "NHTSA — Recall 16V-340",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V340"
   }
  ]
 }

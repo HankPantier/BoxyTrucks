@@ -1,38 +1,150 @@
 {
-  "youtube": [
-    {"name": "Owl", "url": "https://www.youtube.com/@owloffroad", "focus": "Grenadier upgrade walkthroughs, steering upgrades and Moab trail runs"},
-    {"name": "Agile Offroad", "url": "https://www.youtube.com/@AgileOffroad", "focus": "Grenadier builds, installs and hard-trail testing (Moab)"},
-    {"name": "Expedition Portal", "url": "https://www.youtube.com/@ExpeditionPortal", "focus": "Long-term Quartermaster project truck, Africa-crossing Grenadier, portal-axle builds"},
-    {"name": "Dirtbox Overland", "url": "https://www.youtube.com/@DirtBoxOverland", "focus": "Quartermaster canopy-camper and flatbed builds"},
-    {"name": "Norweld", "url": "https://www.youtube.com/@NorweldAustralia", "focus": "Quartermaster tray and canopy builds with long-term updates (Australia)"},
-    {"name": "TFLoffroad", "url": "https://www.youtube.com/@TFLoffroad", "focus": "Grenadier and Quartermaster reviews and off-road comparisons"},
-    {"name": "DVA Mechanics", "url": "https://www.youtube.com/@DVAMechanics", "focus": "Grenadier accessory installs: side steps, awning mounts, spare-tire systems"},
-    {"name": "Leitner Designs", "url": "https://www.youtube.com/@LeitnerDesigns", "focus": "Grenadier and Quartermaster roof racks, load bars and mounting panels"},
-    {"name": "INEOS Grenadier", "url": "https://www.youtube.com/@INEOSGrenadier", "focus": "Factory films: Hambach production, Quartermaster launch, cold-weather testing"}
-  ],
-  "instagram": [
-    {"name": "@owl.outdoors", "url": "https://www.instagram.com/owl.outdoors/", "focus": "Owl's builds and parts (US Grenadier specialist)"},
-    {"name": "@agileoffroad", "url": "https://www.instagram.com/agileoffroad/", "focus": "Grenadier builds and trail use"},
-    {"name": "@expeditionportal", "url": "https://www.instagram.com/expeditionportal/", "focus": "Overland builds and travel"},
-    {"name": "@dirtboxoverland", "url": "https://www.instagram.com/dirtboxoverland/", "focus": "Quartermaster canopy campers and Grenadier accessories"},
-    {"name": "@norweldaustralia", "url": "https://www.instagram.com/norweldaustralia/", "focus": "Trays and canopies, including Quartermaster builds"},
-    {"name": "@leitnerdesigns", "url": "https://www.instagram.com/leitnerdesigns/", "focus": "Racks and cargo systems for Grenadier and Quartermaster"},
-    {"name": "@dva.mechanics", "url": "https://www.instagram.com/dva.mechanics/", "focus": "Grenadier accessories and installs"},
-    {"name": "@4x4australiamag", "url": "https://www.instagram.com/4x4australiamag/", "focus": "Australian 4x4 tests and news"},
-    {"name": "@ineos_grenadier", "url": "https://www.instagram.com/ineos_grenadier/", "focus": "Official Ineos Grenadier account"}
-  ],
-  "forums": [
-    {"name": "The INEOS Forum", "url": "https://www.theineosforum.com/", "note": "The main independent owner board for Grenadier and Quartermaster: tires, DIY servicing, software issues, canopies and bed builds."},
-    {"name": "LR4x4 — Ineos Grenadier Forum", "url": "https://lr4x4.com/forum/49-ineos-grenadier-forum/", "note": "UK Land Rover forum's Grenadier section, with many ex-Defender owners."},
-    {"name": "Expedition Portal — Ineos Grenadier thread", "url": "https://forum.expeditionportal.com/threads/ineos-grenadier.214546/", "note": "Long-running overland thread from pre-launch through ownership."},
-    {"name": "AULRO — Ineos Grenadier thread", "url": "https://www.aulro.com/afvb/european-manufactured/253877-ineos-grenadier-do-you-reckon-itll-take-off-112.html", "note": "Australian Land Rover owners' mega-thread on outback use and dealers."}
-  ],
-  "other": [
-    {"name": "NHTSA recall lookup", "url": "https://www.nhtsa.gov/recalls", "note": "VIN check for US recalls 23V828, 23V903 and 25V147 (2023–2024 Grenadier)."},
-    {"name": "INEOS Grenadier US — Quartermaster", "url": "https://www.ineosgrenadier.com/en-us/quartermaster", "note": "Official US Quartermaster specs, trims and configurator."},
-    {"name": "DVA Mechanics — Grenadier tire selection guide", "url": "https://dvamechanics.com/blogs/grenadier/grenadier-tire-selection-engineering-guide", "note": "AT vs MT, load ratings and pressures for Grenadier tires."},
-    {"name": "Owl — Upgrading your new Grenadier", "url": "https://owlvans.com/blogs/the-owl-journal/upgrading-your-new-grenadier-get-started-here", "note": "Upgrade order and priorities from a US Grenadier specialist."},
-    {"name": "john1911.com — Your first Grenadier annual service", "url": "https://john1911.com/your-first-grenadier-annual-service/", "note": "A US owner's write-up of the first dealer service: what was done and what it cost."},
-    {"name": "Norweld — Quartermaster canopies and trays", "url": "https://norweld.com.au/ute-canopies/ineos-quartermaster", "note": "Australian tray and canopy maker with Quartermaster-specific products."}
-  ]
+ "youtube": [
+  {
+   "name": "Owl",
+   "url": "https://www.youtube.com/@owloffroad",
+   "focus": "Grenadier upgrade walkthroughs, steering upgrades and Moab trail runs"
+  },
+  {
+   "name": "Agile Offroad",
+   "url": "https://www.youtube.com/@AgileOffroad",
+   "focus": "Grenadier builds, installs and hard-trail testing (Moab)"
+  },
+  {
+   "name": "Expedition Portal",
+   "url": "https://www.youtube.com/@ExpeditionPortal",
+   "focus": "Long-term Quartermaster project truck, Africa-crossing Grenadier, portal-axle builds"
+  },
+  {
+   "name": "Dirtbox Overland",
+   "url": "https://www.youtube.com/@DirtBoxOverland",
+   "focus": "Quartermaster canopy-camper and flatbed builds"
+  },
+  {
+   "name": "Norweld",
+   "url": "https://www.youtube.com/@NorweldAustralia",
+   "focus": "Quartermaster tray and canopy builds with long-term updates (Australia)"
+  },
+  {
+   "name": "TFLoffroad",
+   "url": "https://www.youtube.com/@TFLoffroad",
+   "focus": "Grenadier and Quartermaster reviews and off-road comparisons"
+  },
+  {
+   "name": "DVA Mechanics",
+   "url": "https://www.youtube.com/@DVAMechanics",
+   "focus": "Grenadier accessory installs: side steps, awning mounts, spare-tire systems"
+  },
+  {
+   "name": "Leitner Designs",
+   "url": "https://www.youtube.com/@LeitnerDesigns",
+   "focus": "Grenadier and Quartermaster roof racks, load bars and mounting panels"
+  },
+  {
+   "name": "INEOS Grenadier",
+   "url": "https://www.youtube.com/@INEOSGrenadier",
+   "focus": "Factory films: Hambach production, Quartermaster launch, cold-weather testing"
+  }
+ ],
+ "instagram": [
+  {
+   "name": "@owl.outdoors",
+   "url": "https://www.instagram.com/owl.outdoors/",
+   "focus": "Owl's builds and parts (US Grenadier specialist)"
+  },
+  {
+   "name": "@agileoffroad",
+   "url": "https://www.instagram.com/agileoffroad/",
+   "focus": "Grenadier builds and trail use"
+  },
+  {
+   "name": "@expeditionportal",
+   "url": "https://www.instagram.com/expeditionportal/",
+   "focus": "Overland builds and travel"
+  },
+  {
+   "name": "@dirtboxoverland",
+   "url": "https://www.instagram.com/dirtboxoverland/",
+   "focus": "Quartermaster canopy campers and Grenadier accessories"
+  },
+  {
+   "name": "@norweldaustralia",
+   "url": "https://www.instagram.com/norweldaustralia/",
+   "focus": "Trays and canopies, including Quartermaster builds"
+  },
+  {
+   "name": "@leitnerdesigns",
+   "url": "https://www.instagram.com/leitnerdesigns/",
+   "focus": "Racks and cargo systems for Grenadier and Quartermaster"
+  },
+  {
+   "name": "@dva.mechanics",
+   "url": "https://www.instagram.com/dva.mechanics/",
+   "focus": "Grenadier accessories and installs"
+  },
+  {
+   "name": "@4x4australiamag",
+   "url": "https://www.instagram.com/4x4australiamag/",
+   "focus": "Australian 4x4 tests and news"
+  },
+  {
+   "name": "@ineos_grenadier",
+   "url": "https://www.instagram.com/ineos_grenadier/",
+   "focus": "Official Ineos Grenadier account"
+  }
+ ],
+ "forums": [
+  {
+   "name": "The INEOS Forum",
+   "url": "https://www.theineosforum.com/",
+   "note": "The main independent owner board for Grenadier and Quartermaster: tires, DIY servicing, software issues, canopies and bed builds."
+  },
+  {
+   "name": "LR4x4 — Ineos Grenadier Forum",
+   "url": "https://lr4x4.com/forum/49-ineos-grenadier-forum/",
+   "note": "UK Land Rover forum's Grenadier section, with many ex-Defender owners."
+  },
+  {
+   "name": "Expedition Portal — Ineos Grenadier thread",
+   "url": "https://forum.expeditionportal.com/threads/ineos-grenadier.214546/",
+   "note": "Long-running overland thread from pre-launch through ownership."
+  },
+  {
+   "name": "AULRO — Ineos Grenadier thread",
+   "url": "https://www.aulro.com/afvb/european-manufactured/253877-ineos-grenadier-do-you-reckon-itll-take-off-112.html",
+   "note": "Australian Land Rover owners' mega-thread on outback use and dealers."
+  }
+ ],
+ "other": [
+  {
+   "name": "NHTSA recall lookup",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "VIN check for US recalls 23V828, 23V903 and 25V147 (2023–2024 Grenadier)."
+  },
+  {
+   "name": "INEOS Grenadier US — Quartermaster",
+   "url": "https://ineosgrenadier.com/en/us/quartermaster",
+   "note": "Official US Quartermaster specs, trims and configurator."
+  },
+  {
+   "name": "DVA Mechanics — Grenadier tire selection guide",
+   "url": "https://dvamechanics.com/blogs/grenadier/grenadier-tire-selection-engineering-guide",
+   "note": "AT vs MT, load ratings and pressures for Grenadier tires."
+  },
+  {
+   "name": "Owl — Upgrading your new Grenadier",
+   "url": "https://owlvans.com/blogs/the-owl-journal/upgrading-your-new-grenadier-get-started-here",
+   "note": "Upgrade order and priorities from a US Grenadier specialist."
+  },
+  {
+   "name": "john1911.com — Your first Grenadier annual service",
+   "url": "https://john1911.com/your-first-grenadier-annual-service/",
+   "note": "A US owner's write-up of the first dealer service: what was done and what it cost."
+  },
+  {
+   "name": "Norweld — Quartermaster canopies and trays",
+   "url": "https://norweld.com.au/ute-canopies/vehicle/ineos-quartermaster/",
+   "note": "Australian tray and canopy maker with Quartermaster-specific products."
+  }
+ ]
 }

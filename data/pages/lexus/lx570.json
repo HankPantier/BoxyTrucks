@@ -27,7 +27,7 @@
   {
    "heading": "THE V8 AND THE ROBOTS",
    "paragraphs": [
-    "The 3UR-FE is a 32-valve, chain-driven quad-cam V8 with dual VVT-i, shared with the Tundra and Sequoia. It drove a six-speed AB60F automatic, and from the 2016 refresh an eight-speed AE80F. Towing went up to 8,500 lb. The electronics did as much as the hardware. Crawl Control works like an off-road cruise control in both directions. The truck also has multi-terrain ABS, Hill-start Assist and A-TRAC traction control, and from 2013 Multi-Terrain Select and Turn Assist, which brakes the inside rear wheel in tight low-range turns.",
+    "The 3UR-FE is a 32-valve, chain-driven quad-cam V8 with dual VVT-i, shared with the Tundra and Sequoia. It drove a six-speed AB60F automatic, and from the 2016 refresh an eight-speed AE80F. Towing was rated up to 8,500 lb at launch; the 2016-on owner's manual lists 7,000 lb with trailer brakes. The electronics did as much as the hardware. Crawl Control works like an off-road cruise control in both directions. The truck also has multi-terrain ABS, Hill-start Assist and A-TRAC traction control, and from 2013 Multi-Terrain Select and Turn Assist, which brakes the inside rear wheel in tight low-range turns.",
     "The AHC has six settings and can raise the truck about 3 in or lower it about 2 in from normal ride height, using a knob on the console. The AVS dampers are diagonally cross-linked through a hydraulic system, an idea Wikipedia compares to the [[4runner/4th-gen|4Runner]]'s X-REAS. One thing the LX doesn't have is the Land Cruiser's KDSS. An IH8MUD member fitting 35s points out that this actually makes big tires easier to fit on the Lexus."
    ]
   },
@@ -168,11 +168,6 @@
    "fix": "Drain the coolant and follow the factory removal and installation steps posted in the IH8MUD radiator-replacement thread linked from the Common Failures FAQ. Fit the current (later) part number, then refill with Toyota pink long-life coolant and bleed the system. Check the water pump while the front of the engine is open.",
    "tools": "Basic metric sockets · drain pan · hose pliers · Toyota Super Long Life Coolant · new radiator (later part number)",
    "parts": [
-    {
-     "name": "Radiator assembly, URJ200 (RAD50384200) — confirm LX570 fitment",
-     "supplier": "CruiserTeq",
-     "url": "https://cruiserteq.com/radiator-assembly-fits-urj200-land-cruiser-applications-rad50384200/"
-    },
     {
      "name": "Lower radiator hose, URJ200 (RADLOW38131)",
      "supplier": "CruiserTeq",
@@ -325,8 +320,8 @@
   },
   {
    "q": "How much can an LX 570 tow?",
-   "a": "Up to 8,500 lb. The hitch receiver is built into the frame.",
-   "src": "WIKIPEDIA · SLEE OFF-ROAD"
+   "a": "Up to 8,500 lb at launch. The 2016-on owner's manual lists 7,000 lb (with trailer brakes) for the facelifted truck, so check the manual for your year. The hitch receiver is built into the frame.",
+   "src": "WIKIPEDIA · LX 570 OWNER'S MANUAL (OM60P32U)"
   },
   {
    "q": "What fuel economy should I expect, and does it need premium?",
@@ -470,12 +465,6 @@
  "social": [
   {
    "kind": "IG",
-   "name": "@crossroadsoverland",
-   "focus": "2016 LX 570 OVERLAND BUILD",
-   "url": "https://www.instagram.com/crossroadsoverland/"
-  },
-  {
-   "kind": "IG",
    "name": "@budbuilt",
    "focus": "200 SERIES / LX 570 ARMOR",
    "url": "https://www.instagram.com/budbuilt/"
@@ -591,7 +580,7 @@
   },
   {
    "k": "TOWING",
-   "v": "8,500 lb"
+   "v": "8,500 lb (launch) · 7,000 lb (2016+ owner's manual)"
   },
   {
    "k": "STOCK TIRE",
@@ -720,14 +709,18 @@
   {
    "name": "IH8MUD — 200 Series brake job: part numbers, torque and how-to",
    "url": "https://forum.ih8mud.com/threads/200-series-brake-job-part-numbers-torque-and-how-to.1355836/"
+  },
+  {
+   "name": "Lexus — LX 570 owner's manual (OM60P32U)",
+   "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60P32U/pdf/OM60P32U.pdf"
   }
  ],
  "baseline_service": {
-  "intro": "The 3UR-FE has a timing chain, so there's no belt to worry about. The LX 570's baseline is about fluids, the AHC and the known coolant weak spots: early radiators, the water pump and the valley leak. Before buying, enter the VIN on the Lexus owners site to see dealer service history, as the IH8MUD FAQ suggests.",
+  "intro": "The 3UR-FE has a timing chain, so there's no belt to worry about. The LX 570's baseline is about fluids, the AHC and the known coolant weak spots: early radiators, the water pump and the valley leak. Before buying, enter the VIN on the Lexus owners site to see dealer service history, as the IH8MUD FAQ suggests. Capacities below come from the Lexus-hosted LX 570 owner's manual (OM60P32U), a 2016-or-later edition, so confirm them for earlier trucks.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Grade and capacity [CONFIRM IN MANUAL] · cartridge filter element with O-rings",
+    "spec": "SAE 0W-20 ILSAC GF-5 (5W-20 only as a stopgap) · 7.9 US qt (7.5 L) with filter, per the 2016-on owner's manual · cartridge filter element with O-rings",
     "interval": "At purchase, then per the maintenance schedule [CONFIRM IN MANUAL]",
     "note": "A skid plate has to come off. The cartridge cap takes a 64 mm, 14-flat wrench, and the kit includes a plastic drain tube (IH8MUD).",
     "parts": [
@@ -776,7 +769,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "Denso iridium 90919-01191 (×8)",
+    "spec": "Denso SK20HR11 iridium (Toyota 90919-01191) ×8 · gap 1.1 mm, do not adjust (owner's manual)",
     "interval": "Owners report first changes around 120k–129k mi",
     "note": "The plugs sit deep, so you'll need several extensions and a swivel, especially for the passenger-side rear plug. Don't drop the coil-to-cover rubber seal (IH8MUD).",
     "parts": [
@@ -789,7 +782,7 @@
    },
    {
     "item": "Coolant, radiator & water pump check",
-    "spec": "Toyota pink long-life coolant [CONFIRM INTERVAL IN MANUAL]",
+    "spec": "Toyota Super Long Life Coolant · 17.1 US qt (16.2 L) (owner's manual)",
     "interval": "Inspect at purchase",
     "note": "On 2008–2010 trucks, check the top of the radiator next to the molded platform for cracks. Look for weeping at the water pump and pink drips at the back of the engine (the valley leak).",
     "parts": [
@@ -807,7 +800,7 @@
    },
    {
     "item": "Automatic transmission fluid",
-    "spec": "AB60F (2008–2015) / AE80F (2016+) · fluid type [CONFIRM IN MANUAL]",
+    "spec": "AB60F (2008–2015) / AE80F (2016+) · Toyota Genuine ATF WS · 10.7 US qt (10.1 L) reference, per the 2016-on owner's manual",
     "interval": "Drain-and-fill at purchase",
     "note": "Repeat the drain-and-fill rather than power-flushing a high-mileage transmission.",
     "parts": [
@@ -820,7 +813,7 @@
    },
    {
     "item": "Transfer case & differentials",
-    "spec": "Gear oil per FSM · fill until level is 0–5 mm below the fill plug",
+    "spec": "Transfer: Toyota Transfer Gear Oil LF, SAE 75W, 1.53 US qt (1.45 L). Diffs: Toyota Differential Gear Oil LT 75W-85 GL-5, front 2.01 US qt (1.90 L), rear 4.44 US qt (4.20 L) (2016-on owner's manual) · fill until level is 0–5 mm below the fill plug",
     "interval": "Every 50k mi, or 30k if you tow or go off-road (IH8MUD)",
     "note": "An IH8MUD member who posted video how-tos recommends an early change on low-mile trucks, because break-in metal contaminates the first fill. The front service means dropping the skid plates.",
     "parts": [
@@ -833,7 +826,7 @@
    },
    {
     "item": "AHC hydraulic system",
-    "spec": "Inspect the leak-prone junctions shown in the Toyota diagram in IH8MUD's AHC sticky",
+    "spec": "Suspension fluid AHC (owner's manual) · inspect the leak-prone junctions shown in the Toyota diagram in IH8MUD's AHC sticky",
     "interval": "At purchase, then yearly",
     "note": "Cycle through Low, Normal and High and watch each corner. Read AHC codes with Techstream before you buy parts.",
     "parts": [
@@ -877,7 +870,7 @@
    },
    {
     "item": "Brake fluid & pads",
-    "spec": "Fluid type per reservoir cap [CONFIRM IN MANUAL]",
+    "spec": "SAE J1703 or FMVSS No. 116 DOT 3 (owner's manual)",
     "interval": "Flush at purchase",
     "note": "IH8MUD's 200 Series brake thread lists part numbers and torque values. Torque specs differ between 2013 and 2016+ trucks.",
     "parts": [

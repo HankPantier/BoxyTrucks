@@ -29,7 +29,7 @@
   {
    "heading": "A ROUGH START",
    "paragraphs": [
-    "Early JLs had real problems. Over 18,000 2018–2019 Wranglers were recalled for a poorly welded track-bar bracket, and NHTSA then opened an investigation covering about 270,000 JLs over frame-weld and steering complaints. In August 2019 FCA started fitting a stronger steering damper free of charge, after finding that the original could take in air in the cold and lose damping. Manual trucks were recalled because the clutch pressure plate could overheat, and early aluminum steering boxes were replaced with steel under a TSB.",
+    "Early JLs had real problems. Over 18,000 2018–2019 Wranglers were recalled for a poorly welded track-bar bracket, and NHTSA then opened an investigation covering about 270,000 JLs over frame-weld and steering complaints. In August 2019 FCA started fitting a stronger steering damper free of charge, after finding that the original could take in air in the cold and lose damping. Manual trucks were recalled because the clutch pressure plate could overheat, and Jeep later switched the early aluminum steering boxes to cast iron.",
     "None of that stopped the JL from winning the 2019 Four Wheeler SUV of the Year as a Rubicon, along with Motor Trend's SUV of the Year. It even starred in a Super Bowl LII ad, with Jeff Goldblum recreating his Jurassic Park chase in a silver two-door Rubicon."
    ]
   },
@@ -129,11 +129,11 @@
  "buying_checks": [
   {
    "head": "Run the VIN for recalls before anything else",
-   "body": "JL recalls include the 2018–2019 track-bar bracket weld, the 2018–2021 manual-clutch pressure plate (20V-124 and 21V-028), early 8-speed park and cruise-control software, and the 2021–2025 power-steering pump wiring fire risk (26V-363). Make sure they've all been done."
+   "body": "JL recalls include the 2018–2019 track-bar bracket weld (18V-675), the manual-clutch pressure plate (20V-124, 21V-028 and 23V-116), the 2018 transmission park-lock rod (18V-280) and cruise-control software (18V-332) campaigns, and the 2021–2025 power-steering pump wiring fire risk (26V-363). Make sure they've all been done."
   },
   {
    "head": "Feel the steering at highway speed",
-   "body": "Vague, light or wandering steering on a 2018–2020 truck points to the aluminum steering box addressed by TSB 08-074-20. A shake after bumps points to the damper, track bar or worn front-end parts."
+   "body": "Vague, light or wandering steering on a 2018–2020 truck points to the early aluminum steering box (owners cite TSB 08-074-20). A shake after bumps points to the damper, track bar or worn front-end parts."
   },
   {
    "head": "Look at the track-bar welds",
@@ -167,7 +167,7 @@
    "time": "≈ 1–2 hours to inspect and fit a damper",
    "cost": "Free damper replacement on affected early trucks under FCA's 2019 customer-satisfaction program; otherwise a damper or track bar",
    "symptoms": "Front-end shimmy or full death wobble after a bump at 45–65 mph, with the steering wheel shaking side to side.",
-   "fix": "On 2018–2019 trucks, check the history first. In August 2019 FCA began offering a stronger steering damper at no charge. Its CTO said the original damper could take in air in cold weather and lose damping. Then inspect the front end the same way as on any solid-axle Jeep: have a helper rock the wheel while you watch both ends of the track bar, then check the tie-rod and drag-link ends, ball joints, control-arm bushings and wheel bearings. Replace worn parts, torque everything at ride height, and get an alignment. A damper on its own masks wobble; it doesn't cure it.",
+   "fix": "On 2018–2019 trucks, check the history first. In August 2019 FCA began offering a stronger steering damper at no charge. FCA said its engineers found air could get into the original damper in cold weather, when the oil thickens, so it lost damping. Its Customer Satisfaction Notification V41 covered about 192,000 2018–2019 JLs. Then inspect the front end the same way as on any solid-axle Jeep: have a helper rock the wheel while you watch both ends of the track bar, then check the tie-rod and drag-link ends, ball joints, control-arm bushings and wheel bearings. Replace worn parts, torque everything at ride height, and get an alignment. A damper on its own masks wobble; it doesn't cure it.",
    "tools": "Helper · torque wrench · sockets · jack and stands.",
    "parts": [
     {
@@ -198,7 +198,7 @@
    "time": "≈ 2–3 hours plus an alignment check",
    "cost": "JLWranglerForums members report dealer quotes of $1,500+ out of warranty",
    "symptoms": "Light, vague, loose steering and wandering on the highway, sometimes with play you can see at the pitman arm. One owner described it as 'super light, vague and loose' at nearly 100,000 miles.",
-   "fix": "Early JLs used an aluminum steering gear. Technical Service Bulletin 08-074-20 replaces it with a steel box, according to owners on JLWranglerForums, who also note it won't cure death wobble by itself. DIY: disconnect the battery, mark and remove the pitman arm with a puller, unbolt the intermediate shaft, disconnect the pressure and return lines (catch the fluid), then unbolt the box from the frame. Fit the new box with new bolts, refill and bleed the system with the specified fluid, and center the steering wheel.",
+   "fix": "Early JLs used an aluminum steering gear, and Quadratec says Jeep moved to cast-iron boxes. Owners on JLWranglerForums cite TSB 08-074-20 for the swap (we couldn't see the bulletin itself), who also note it won't cure death wobble by itself. DIY: disconnect the battery, mark and remove the pitman arm with a puller, unbolt the intermediate shaft, disconnect the pressure and return lines (catch the fluid), then unbolt the box from the frame. Fit the new box with new bolts, refill and bleed the system with the specified fluid, and center the steering wheel.",
    "tools": "Pitman-arm puller · line wrenches · large sockets · torque wrench · drain pan · power steering fluid.",
    "parts": [
     {
@@ -224,7 +224,7 @@
    "time": "≈ A long day (transmission out)",
    "cost": "Recall work is free; an out-of-warranty clutch kit plus labor",
    "symptoms": "Slipping under load, a burning smell, or a clutch-overheat warning after crawling. Recall 20V-124 covered manual Wranglers built from August 23, 2017 to February 13, 2020 because the pressure plate could overheat, fracture and, in the worst case, start a fire.",
-   "fix": "Run the VIN through NHTSA first. TFLcar reported 29,818 Wranglers in the original recall, and a later recall, 21V-028, covered manual trucks through 2021. If the recall work has been done and the clutch is simply worn, support the transmission and transfer case, remove the driveshafts, crossmember and exhaust as needed, and drop the transmission. Replace the clutch disc, pressure plate and release bearing, and check the flywheel. Bleed the hydraulics, and replace the slave cylinder while the transmission is out.",
+   "fix": "Run the VIN through NHTSA first. TFLcar reported 29,818 Wranglers in the original recall, and later recalls widened it: 21V-028 (2018–2021 manuals) and 23V-116 (2018–2023 manuals), with 24V-572 re-flashing some 2021 trucks already fixed under 23V-116. If the recall work has been done and the clutch is simply worn, support the transmission and transfer case, remove the driveshafts, crossmember and exhaust as needed, and drop the transmission. Replace the clutch disc, pressure plate and release bearing, and check the flywheel. Bleed the hydraulics, and replace the slave cylinder while the transmission is out.",
    "tools": "Transmission jack · alignment tool · torque wrench · brake bleeder · a friend.",
    "parts": [
     {
@@ -362,8 +362,8 @@
   },
   {
    "q": "3.6 V6 or 2.0 turbo?",
-   "a": "The 2.0T makes more torque (295 against 260 lb-ft), and Quadratec lists it at 23/25 mpg against the 3.6's 17/21. It's automatic-only, has extra cooling loops and needs spark plugs every 30,000 miles. The Pentastar is the one with a manual option and a long, well-understood service history.",
-   "src": "QUADRATEC · WAY OF LIFE"
+   "a": "The 2.0T makes more torque (295 against 260 lb-ft), and the EPA rated the 2018 two-door 2.0T at 23/25 mpg against 18/23 for the 3.6 automatic (17/25 manual). It's automatic-only, has extra cooling loops and needs spark plugs every 30,000 miles. The Pentastar is the one with a manual option and a long, well-understood service history.",
+   "src": "EPA (FUELECONOMY.GOV) · WAY OF LIFE"
   },
   {
    "q": "How much can a two-door JL tow?",
@@ -655,7 +655,7 @@
   },
   {
    "k": "GROUND CLEARANCE",
-   "v": "9.7 in Sport · 10.8 in Rubicon"
+   "v": "9.7 in Sport · 10.8 in Rubicon (Quadratec 2020; Jeep quoted 10.9 in at launch)"
   },
   {
    "k": "CURB WEIGHT",
@@ -685,8 +685,8 @@
   },
   {
    "file": "jl-johnson-valley-wash.jpg",
-   "alt": "A two-door Jeep Wrangler JL Rubicon descending a desert wash trail toward the camera",
-   "caption": "JL RUBICON 2-DOOR · DESERT WASH, JOHNSON VALLEY",
+   "alt": "A white two-door Jeep Wrangler JL, seen from behind, on a sandy wash trail below rocky desert hills",
+   "caption": "JL 2-DOOR · DESERT WASH, JOHNSON VALLEY",
    "credit": "BLM California · Public domain",
    "source": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Johnson_Valley_OHV_Area_(54409854758).jpg"
@@ -759,7 +759,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "3.6: Mopar SP225755AA (2018–20) · 2.0T: Mopar 68292346AA",
+    "spec": "3.6: Mopar SP225755AA (2018–20) · 2.0T: Mopar 68292346AA · gaps per the 2020 manual sheet: 3.6 0.043 in, 2.0T 0.024–0.025 in",
     "interval": "3.6 at 100,000 mi; 2.0T every 30,000 mi (Way of Life index of the factory schedule)",
     "note": "The 2.0T's 30,000-mile plug interval is easy to miss on a used truck, so ask for receipts.",
     "parts": [
@@ -777,7 +777,7 @@
    },
    {
     "item": "Coolant (engine, intercooler, eTorque/battery loops)",
-    "spec": "Mopar 10-year/150,000-mile OAT (MS.90032) · 3.6 engine loop ≈10.6–10.7 qt · 2.0T engine ≈9.4–9.7 L plus a separate intercooler loop",
+    "spec": "Mopar 10-year/150,000-mile OAT (MS.90032) · 3.6 engine: 11.2 qt (10.6 L), plus 1.9 qt motor-generator and 2.5 qt battery loops on eTorque trucks · 2.0T engine: 10.3 qt (9.7 L), plus a 3.2–3.5 qt intercooler loop",
     "interval": "Flush at 10 years or 150,000 mi (factory schedule per Way of Life)",
     "note": "The 2.0T and eTorque trucks have more than one cooling loop, and the owner's-manual sheet lists separate capacities for the intercooler, the motor-generator unit and the battery. Bleed each one correctly.",
     "parts": [
@@ -844,22 +844,22 @@
     "note": "JL front axles take very little oil, so a slightly low level matters.",
     "parts": [
      {
-      "name": "Mopar 68218657AB axle lube, JK/JL",
+      "name": "75W-85 gear oil (search)",
       "supplier": "Quadratec",
-      "url": "https://www.quadratec.com/p/mopar/axle-lube-wrangler-jk-jl-68218657ab"
+      "url": "https://www.quadratec.com/search?keywords=75W-85"
      }
     ]
    },
    {
     "item": "Rear axle",
-    "spec": "M220/Dana 44: GL-5 75W-85, about 1.36–1.45 L · M200/Dana 35: 1.15 L (the owner's-manual sheet lists 75W-140 synthetic) · limited-slip axles need friction modifier",
+    "spec": "M220/Dana 44: GL-5 75W-85, 1.45 L (1.36 L with Trac-Lok) · M200/'Dana 35': 1.15 L of synthetic 75W-140 per the 2020 owner's-manual sheet · Trac-Lok axles need 70 ml (2.37 oz) of Mopar limited-slip additive",
     "interval": "Every 40,000 mi under severe use (Way of Life index)",
     "note": "Check which rear axle you have before buying oil (see the axle FAQ). Synthetic 75W-140 is the usual towing upgrade.",
     "parts": [
      {
-      "name": "Mopar 68218657AB axle lube, JK/JL",
+      "name": "75W-85 gear oil (search)",
       "supplier": "Quadratec",
-      "url": "https://www.quadratec.com/p/mopar/axle-lube-wrangler-jk-jl-68218657ab"
+      "url": "https://www.quadratec.com/search?keywords=75W-85"
      },
      {
       "name": "Currie CE-9013S 75W-140 gear oil",
@@ -1018,6 +1018,30 @@
   {
    "name": "Curbside Classic — Replacing the oil cooler/filter housing on the Pentastar 3.6L V6 (2015 JK)",
    "url": "https://curbsideclassic.com/blog/repair-and-maintenance/curbside-tech-replacing-the-oil-cooler-on-the-pentastar-3-6l-v6-taming-the-trail-of-tears/"
+  },
+  {
+   "name": "FCA US — Customer Satisfaction Notification V41, steering damper (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169208-9999.pdf"
+  },
+  {
+   "name": "NHTSA — recalls API, Jeep Wrangler 2018",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2018"
+  },
+  {
+   "name": "Quadratec — Used Jeep Wrangler inspection checklist by generation",
+   "url": "https://www.quadratec.com/c/howto/used-jeep-wrangler-inspection-checklist-by-generation"
+  },
+  {
+   "name": "fueleconomy.gov — 2018 Jeep Wrangler (JL) 4WD 3.6 automatic (EPA 18/23 mpg)",
+   "url": "https://www.fueleconomy.gov/feg/noframes/39806.shtml"
+  },
+  {
+   "name": "fueleconomy.gov — 2018 Jeep Wrangler (JL) 4WD 2.0 turbo (EPA 23/25 mpg)",
+   "url": "https://www.fueleconomy.gov/feg/noframes/40092.shtml"
+  },
+  {
+   "name": "Stellantis North America blog — Heading off-road with the all-new 2018 Jeep Wrangler",
+   "url": "https://blog.stellantisnorthamerica.com/2018/08/22/wrangler-wednesday-heading-off-road-with-the-all-new-2018-jeep-wrangler/"
   }
  ]
 }

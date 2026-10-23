@@ -34,7 +34,7 @@
   {
    "heading": "THE ENGINE QUESTION",
    "paragraphs": [
-    "The V35A-FTS is where the LX 600 story gets complicated. In 2024, Toyota recalled 102,092 Tundras and LX 600s, 3,524 of them LXs built from July 30, 2021 to November 25, 2022, because machining debris could damage the main bearings. The remedy was a new engine. In November 2025, recall 25V-767 added another 9,895 US-market LXs built from February 26, 2022 to April 2, 2024. That count includes 10 trucks that had received affected service engines. Lexus told dealers the remedy was still being developed.",
+    "The V35A-FTS is where the LX 600 story gets complicated. In 2024, Toyota recalled 102,092 Tundras and LX 600s, 3,524 of them LXs built from July 30, 2021 to November 25, 2022, because machining debris could damage the main bearings. The remedy was a new engine. In November 2025, recall 25V-767 added another 9,895 US-market LXs built from February 26, 2022 to April 2, 2024. That count includes 10 trucks that had received affected service engines. At first Lexus told dealers the remedy was still being developed. NHTSA's record now says dealers inspect the No. 1 main bearing using inspection software and drive data and replace the engine if necessary, with owner letters mailed August 28, 2026.",
     "The recall report notes that some later engines use improved manufacturing processes or an improved main bearing. On IH8MUD, owners argue about it constantly. Some see the recall as an open-ended engine warranty, while others are waiting for Toyota to name a root cause. Owners also report a clunk into first gear on rolling stops and laggy throttle tied to the pre-collision system. Neither is dangerous, but both are worth knowing about before you test-drive one."
    ]
   },
@@ -42,7 +42,7 @@
    "heading": "WHERE IT STANDS",
    "paragraphs": [
     "The LX 600 has sold steadily for something this expensive, with 3,642 US sales in 2022, 6,959 in 2023, 6,830 in 2024 and 7,464 in 2025, when 2,883 of those were the new LX 700h hybrid. That hybrid makes 457 hp and 583 lb-ft. In October 2024, Lexus finally gave Americans the triple-locked LX it had kept in Japan: the LX 700h Overtrail, with front and rear lockers on top of the center lock.",
-    "For 2027, the gas LX 600 continues in Premium, Luxury and F Sport Handling grades, rated by the EPA at 17 city, 22 highway and 19 combined. It's still the most luxurious way into a 300 Series chassis, and with the shorter, boxier [[lexus/gx550|GX 550]] now on the same platform, it's no longer the only GA-F Lexus that can go off-road."
+    "For 2027, the gas LX 600 continues in Premium, Luxury and F Sport Handling grades. The EPA rates the 2025 LX 600 at 17 city, 22 highway and 19 combined. It's still the most luxurious way into a 300 Series chassis, and with the shorter, boxier [[lexus/gx550|GX 550]] now on the same platform, it's no longer the only GA-F Lexus that can go off-road."
    ]
   }
  ],
@@ -157,7 +157,7 @@
    "time": "≈ 10 minutes to check. Dealer time varies.",
    "cost": "Free under recall",
    "symptoms": "Possible engine knocking, rough running, a no-start or a loss of motive power. Many trucks show nothing.",
-   "fix": "Enter the VIN at lexus.com/recall or nhtsa.gov/recalls. Under 24V-381, Toyota said it would replace the engine at no cost. For 25V-767, the November 2025 dealer letter said the remedy was still in development, owners would be notified by early January 2026, and dealers were to open a case for any truck showing symptoms. Keep every piece of paperwork.",
+   "fix": "Enter the VIN at lexus.com/recall or nhtsa.gov/recalls. Under 24V-381, Toyota replaces the engine at no cost. Under 25V-767, NHTSA's record now says dealers inspect the No. 1 main bearing using inspection software and drive data and replace the engine if necessary; owner letters were mailed August 28, 2026. Keep every piece of paperwork.",
    "tools": "VIN · Lexus dealer",
    "parts": []
   },
@@ -248,8 +248,13 @@
   },
   {
    "q": "Is my LX 600 part of the engine recall?",
-   "a": "If it's a 2022–2024, possibly. Recall 24V-381 covered 3,524 LX 600s built from July 30, 2021 to November 25, 2022, with engine replacement as the remedy. Recall 25V-767 (Lexus 25LA07) covers 9,895 LXs built from February 26, 2022 to April 2, 2024. Check your VIN at lexus.com/recall or nhtsa.gov.",
+   "a": "If it's a 2022–2024, possibly. Recall 24V-381 covered 3,524 LX 600s built from July 30, 2021 to November 25, 2022, with engine replacement as the remedy. Recall 25V-767 (Lexus 25LA07) covers 9,895 LXs built from February 26, 2022 to April 2, 2024. Check your VIN at lexus.com/recall or nhtsa.gov. The 25V-767 remedy is a No. 1 main-bearing inspection, with engine replacement if needed.",
    "src": "MOTOR1 · NHTSA"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "8,000 lb with trailer brakes, per the owner's manual (1,650 lb without). KBB lists the same 8,000-lb rating for every 2027 LX.",
+   "src": "LX 600 OWNER'S MANUAL · KBB"
   },
   {
    "q": "Is the LX 600 just a 300 Series Land Cruiser?",
@@ -268,8 +273,8 @@
   },
   {
    "q": "What fuel economy should I expect?",
-   "a": "For 2027, Lexus lists the LX 600 at 17 mpg city, 22 highway and 19 combined.",
-   "src": "LEXUS"
+   "a": "The EPA rates the 2025 LX 600 at 17 mpg city, 22 highway and 19 combined, on premium fuel.",
+   "src": "FUELECONOMY.GOV"
   },
   {
    "q": "How much lighter is it than the LX 570?",
@@ -459,12 +464,12 @@
    "v": "700 mm (27.5 in)"
   },
   {
-   "k": "EPA (2027)",
+   "k": "EPA (2025)",
    "v": "17 city / 22 hwy / 19 combined"
   },
   {
-   "k": "WEIGHT VS LX 570",
-   "v": "−441 lb"
+   "k": "TOWING",
+   "v": "8,000 lb (braked trailer)"
   }
  ],
  "photos": [
@@ -561,6 +566,18 @@
   {
    "name": "Lexus — 2023 LX 600 Warranty and Services Guide / maintenance schedule",
    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-23X600/pdf/L-MMS-23X600.pdf"
+  },
+  {
+   "name": "NHTSA — Recall 25V-767 record (remedy update)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=25V767000"
+  },
+  {
+   "name": "FuelEconomy.gov — 2025 Lexus LX 600",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48965"
+  },
+  {
+   "name": "Kelley Blue Book — 2027 Lexus LX arrives with more standard features",
+   "url": "https://www.kbb.com/car-news/2027-lexus-lx-arrives-with-more-standard-features/"
   }
  ],
  "baseline_service": {

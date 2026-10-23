@@ -16,7 +16,7 @@
   {
    "heading": null,
    "paragraphs": [
-    "The four-door was the JL that mattered most, so it came first: Wrangler Unlimited production began at Toledo in November 2017, months ahead of the two-door, and it ran alongside the outgoing [[jeep/jk-unlimited|JK Unlimited]] until April 2018 so dealers could keep up with demand. It grew 3.5 inches over the JK, to a 118.4-inch wheelbase and 188.4 inches overall, while losing weight. It kept the separate frame, the solid axles and the removable doors. Then, over the next few years, Jeep gave it more powertrains than any Wrangler before."
+    "The four-door was the JL that mattered most, so it came first: Wrangler Unlimited production began at Toledo in November 2017, months ahead of the two-door, and it ran alongside the outgoing [[jeep/jk-unlimited|JK Unlimited]] until April 2018 so dealers could keep up with demand. It grew 3.5 inches in overall length over the JK Unlimited, to 188.4 inches on a 118.4-inch wheelbase, while losing weight. It kept the separate frame, the solid axles and the removable doors. Then, over the next few years, Jeep gave it more powertrains than any Wrangler before."
    ]
   },
   {
@@ -44,7 +44,7 @@
   "label": "SIDEBAR · THE 4xe AND ITS FIRE RECALLS",
   "title": "Park it outside, don't plug it in",
   "paragraphs": [
-   "In October 2024, KBB reported a recall of 154,032 2020–2024 Wrangler 4xe and 2022–2024 Grand Cherokee 4xe plug-in hybrids, because some high-voltage battery cells could be damaged and catch fire, parked or moving. Owners were told to park outdoors, away from buildings, and to stop charging until the repair was done. The remedy was a software update and, where needed, a new battery pack. AutoGuide counted 13 fires of parked, switched-off vehicles behind the action.",
+   "In October 2024, KBB reported a recall of 154,032 2020–2024 Wrangler 4xe and 2022–2024 Grand Cherokee 4xe plug-in hybrids, because some high-voltage battery cells could be damaged and catch fire, parked or moving. Owners were told to park outdoors, away from buildings, and to stop charging until the repair was done. The remedy was a software update and, where needed, a new battery pack. AutoGuide reported that an internal review of customer data had turned up 13 fire incidents.",
    "Before you buy a used 4xe, check NHTSA for completed recall work. Pickup Truck + SUV Talk lists both 24V-720 and the later 25V-741 for 4xe batteries."
   ]
  },
@@ -63,7 +63,7 @@
   {
    "k": "4WD",
    "v": "Command-Trac · Selec-Trac · Rock-Trac 4:1",
-   "note": "The 392 uses full-time Selec-Trac (MP3022); the Willys 4xe has Selec-Trac with a 2.72:1 low range."
+   "note": "The Rubicon 392 uses full-time Selec-Trac (MP3022) instead of Rock-Trac; Selec-Trac is otherwise a Sahara option."
   },
   {
    "k": "ENGINES",
@@ -128,7 +128,7 @@
  "buying_checks": [
   {
    "head": "Run the VIN for every recall",
-   "body": "Look for the frame and track-bar welds and the steering damper on 2018–19 trucks, the clutch on manuals, the 8-speed park and cruise software on early trucks, the power-steering pump (26V-363, 2021–2025), the 4xe battery (24V-720 / 25V-741) and the EcoDiesel fuel pump (23V-263). Get dealer printouts showing they're complete."
+   "body": "Look for the frame and track-bar welds and the steering damper on 2018–19 trucks, the clutch on manuals, the 2018 park-lock rod (18V-280) and cruise-control software (18V-332) campaigns, the power-steering pump (26V-363, 2021–2025), the 4xe battery (24V-720 / 25V-741) and the EcoDiesel fuel pump (22V-767 and 23V-263). Get dealer printouts showing they're complete."
   },
   {
    "head": "4xe: test the charging",
@@ -144,7 +144,7 @@
   },
   {
    "head": "Steering feel",
-   "body": "Wandering or vague steering on 2018–2020 trucks points to the aluminum steering box (TSB 08-074-20). Shake after bumps points to the damper, track bar or worn joints."
+   "body": "Wandering or vague steering on 2018–2020 trucks points to the early aluminum steering box (owners cite TSB 08-074-20). Shake after bumps points to the damper, track bar or worn joints."
   },
   {
    "head": "Pentastar oil cooler",
@@ -166,7 +166,7 @@
    "time": "≈ 1–2 hours to inspect and fit a damper",
    "cost": "Free damper replacement on affected early trucks under FCA's 2019 customer-satisfaction program; otherwise a damper or track bar",
    "symptoms": "Front-end shimmy or full death wobble after a bump at 45–65 mph, with the steering wheel shaking side to side.",
-   "fix": "On 2018–2019 trucks, check the history first. In August 2019 FCA began offering a stronger steering damper at no charge. Its CTO said the original damper could take in air in cold weather and lose damping. Then inspect the front end the same way as on any solid-axle Jeep: have a helper rock the wheel while you watch both ends of the track bar, then check the tie-rod and drag-link ends, ball joints, control-arm bushings and wheel bearings. Replace worn parts, torque everything at ride height, and get an alignment. A damper on its own masks wobble; it doesn't cure it.",
+   "fix": "On 2018–2019 trucks, check the history first. In August 2019 FCA began offering a stronger steering damper at no charge. FCA said its engineers found air could get into the original damper in cold weather, when the oil thickens, so it lost damping. Its Customer Satisfaction Notification V41 covered about 192,000 2018–2019 JLs. Then inspect the front end the same way as on any solid-axle Jeep: have a helper rock the wheel while you watch both ends of the track bar, then check the tie-rod and drag-link ends, ball joints, control-arm bushings and wheel bearings. Replace worn parts, torque everything at ride height, and get an alignment. A damper on its own masks wobble; it doesn't cure it.",
    "tools": "Helper · torque wrench · sockets · jack and stands.",
    "parts": [
     {
@@ -197,7 +197,7 @@
    "time": "≈ 2–3 hours plus an alignment check",
    "cost": "JLWranglerForums members report dealer quotes of $1,500+ out of warranty",
    "symptoms": "Light, vague, loose steering and wandering on the highway, sometimes with play you can see at the pitman arm. One owner described it as 'super light, vague and loose' at nearly 100,000 miles.",
-   "fix": "Early JLs used an aluminum steering gear. Technical Service Bulletin 08-074-20 replaces it with a steel box, according to owners on JLWranglerForums, who also note it won't cure death wobble by itself. DIY: disconnect the battery, mark and remove the pitman arm with a puller, unbolt the intermediate shaft, disconnect the pressure and return lines (catch the fluid), then unbolt the box from the frame. Fit the new box with new bolts, refill and bleed the system with the specified fluid, and center the steering wheel.",
+   "fix": "Early JLs used an aluminum steering gear, and Quadratec says Jeep moved to cast-iron boxes. Owners on JLWranglerForums cite TSB 08-074-20 for the swap (we couldn't see the bulletin itself), who also note it won't cure death wobble by itself. DIY: disconnect the battery, mark and remove the pitman arm with a puller, unbolt the intermediate shaft, disconnect the pressure and return lines (catch the fluid), then unbolt the box from the frame. Fit the new box with new bolts, refill and bleed the system with the specified fluid, and center the steering wheel.",
    "tools": "Pitman-arm puller · line wrenches · large sockets · torque wrench · drain pan · power steering fluid.",
    "parts": [
     {
@@ -326,7 +326,7 @@
      "url": "https://www.quadratec.com/p/skyjacker/25-dual-rate-rear-coil-spring-pair-jeep-wrangler-jl-unlimited-4-door"
     },
     {
-     "name": "AEV DualSport XP 3 in heavy-load lift kit, JL Unlimited",
+     "name": "AEV N0724780AA DualSport XP 3 in heavy-load lift kit (Quadratec lists it for the JL Unlimited Rubicon 392; check fitment)",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/aev/dualsport-xp-3-inch-heavy-load-lift-kit-w-bilstein-xp8100-remote-reservoir-shocks-wrangler-jl-unlimited"
     },
@@ -341,7 +341,7 @@
  "faq": [
   {
    "q": "What's the biggest tire I can fit without a lift?",
-   "a": "On a Rubicon, 35s. Driving Line ran 35x12.50R17s on a stock-height JL Unlimited Rubicon with bump-stop spacers and the factory flares. They cleared on level ground but hit the inner fenders when flexed. A Rubicon 392 already rides on LT315/70R17s, which are nearly 35s. Performance Plus Tire says a Rubicon 4xe has about 2.1 inches less clearance than the gas Rubicon, so it needs bump-stop extensions for 35s. On a Sport or Sahara, stay with 33s and a wheel change, or lift 2–2.5 inches for 35s.",
+   "a": "On a Rubicon, 35s. Driving Line ran 35x12.50R17s on a stock-height JL Unlimited Rubicon with bump-stop spacers and the factory flares. They cleared on level ground but hit the inner fenders when flexed. Performance Plus Tire says Jeep ships the Rubicon 392 on LT315/70R17s, which are nearly 35s (check early 392s: the 35s were also part of the optional Xtreme Recon package). Performance Plus Tire says a Rubicon 4xe has about 2.1 inches less clearance than the gas Rubicon, so it needs bump-stop extensions for 35s. On a Sport or Sahara, stay with 33s and a wheel change, or lift 2–2.5 inches for 35s.",
    "src": "DRIVING LINE · PERFORMANCE PLUS"
   },
   {
@@ -376,7 +376,7 @@
   },
   {
    "q": "What oil does each engine take?",
-   "a": "3.6: 5 quarts of 0W-20 (MS-6395). 2.0T and 4xe: 5 quarts of full-synthetic 5W-30, API SN PLUS. 3.0 EcoDiesel: 9 quarts of 5W-40 synthetic (MS-12991). For the 392, use the owner's manual.",
+   "a": "3.6: 5 quarts of 0W-20 (MS-6395). 2.0T: 5 quarts of full-synthetic 5W-30, API SN PLUS (MS-13340). 3.0 EcoDiesel: 9 quarts of 5W-40 synthetic (MS-12991). For the 4xe and the 392, use the owner's manual [CONFIRM IN MANUAL].",
    "src": "QUADRATEC · OWNER'S MANUAL SPEC"
   },
   {
@@ -401,7 +401,7 @@
    "why": "An overland four-door needs springs for its real weight. Heavy-load kits keep the ride height and up-travel once the drawers and fridge go in.",
    "who": [
     {
-     "name": "AEV DualSport XP heavy-load lift kit, JL Unlimited (Quadratec)",
+     "name": "AEV DualSport XP heavy-load lift kit, JL Unlimited Rubicon 392 (Quadratec)",
      "url": "https://www.quadratec.com/p/aev/dualsport-xp-3-inch-heavy-load-lift-kit-w-bilstein-xp8100-remote-reservoir-shocks-wrangler-jl-unlimited"
     },
     {
@@ -694,7 +694,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "3.6: 5 qt SAE 0W-20 meeting MS-6395 · 2.0T: 5 qt full-synthetic SAE 5W-30, API SN PLUS (Mopar MS-13340) · 3.0 EcoDiesel: 9 qt 5W-40 synthetic (MS-12991) · 6.4 392: [CONFIRM IN MANUAL]",
+    "spec": "3.6: 5 qt SAE 0W-20 meeting MS-6395 · 2.0T: 5 qt full-synthetic SAE 5W-30, API SN PLUS (Mopar MS-13340) · 4xe: [CONFIRM IN MANUAL] · 3.0 EcoDiesel: 9 qt 5W-40 synthetic (MS-12991) · 6.4 392: [CONFIRM IN MANUAL]",
     "interval": "Then per the oil-life monitor [CONFIRM IN MANUAL]",
     "note": "The JL Pentastar takes a quart less, and a thinner grade, than the JK's: Quadratec specifies the Mopar MO-349 (68191349AA) cartridge, the 24 mm cap torqued to 18 ft-lb and the 13 mm drain plug to 20 ft-lb. The owner's-manual sheet warns that non-SN PLUS oil in the 2.0T 'can cause engine damage not covered by the vehicle warranty.'",
     "parts": [
@@ -753,7 +753,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "3.6: Mopar SP225755AA (2018–20) · 2.0T: Mopar 68292346AA · 392: Mopar SP149212AC",
+    "spec": "3.6: Mopar SP225755AA (2018–20) · 2.0T: Mopar 68292346AA · 392: Mopar SP149212AC · gaps per the 2020 manual sheet: 3.6 0.043 in, 2.0T 0.024–0.025 in",
     "interval": "3.6 at 100,000 mi; 2.0T every 30,000 mi (Way of Life index of the factory schedule)",
     "note": "The 2.0T's 30,000-mile plug interval is easy to miss on a used truck, so ask for receipts.",
     "parts": [
@@ -776,7 +776,7 @@
    },
    {
     "item": "Coolant (engine, intercooler, eTorque/battery loops)",
-    "spec": "Mopar 10-year/150,000-mile OAT (MS.90032) · 3.6 engine loop ≈10.6–10.7 qt · 2.0T engine ≈9.4–9.7 L plus a separate intercooler loop",
+    "spec": "Mopar 10-year/150,000-mile OAT (MS.90032) · 3.6 engine: 11.2 qt (10.6 L), plus 1.9 qt motor-generator and 2.5 qt battery loops on eTorque trucks · 2.0T engine: 10.3 qt (9.7 L), plus a 3.2–3.5 qt intercooler loop · 3.0 EcoDiesel: 12 qt (11.4 L)",
     "interval": "Flush at 10 years or 150,000 mi (factory schedule per Way of Life)",
     "note": "The 2.0T and eTorque trucks have more than one cooling loop, and the owner's-manual sheet lists separate capacities for the intercooler, the motor-generator unit and the battery. Bleed each one correctly.",
     "parts": [
@@ -843,22 +843,22 @@
     "note": "JL front axles take very little oil, so a slightly low level matters.",
     "parts": [
      {
-      "name": "Mopar 68218657AB axle lube, JK/JL",
+      "name": "75W-85 gear oil (search)",
       "supplier": "Quadratec",
-      "url": "https://www.quadratec.com/p/mopar/axle-lube-wrangler-jk-jl-68218657ab"
+      "url": "https://www.quadratec.com/search?keywords=75W-85"
      }
     ]
    },
    {
     "item": "Rear axle",
-    "spec": "M220/Dana 44: GL-5 75W-85, about 1.36–1.45 L · M200/Dana 35: 1.15 L (the owner's-manual sheet lists 75W-140 synthetic) · limited-slip axles need friction modifier",
+    "spec": "M220/Dana 44: GL-5 75W-85, 1.45 L (1.36 L with Trac-Lok) · M200/'Dana 35': 1.15 L of synthetic 75W-140 per the 2020 owner's-manual sheet · Trac-Lok axles need 70 ml (2.37 oz) of Mopar limited-slip additive",
     "interval": "Every 40,000 mi under severe use (Way of Life index)",
     "note": "Check which rear axle you have before buying oil (see the axle FAQ). Synthetic 75W-140 is the usual towing upgrade.",
     "parts": [
      {
-      "name": "Mopar 68218657AB axle lube, JK/JL",
+      "name": "75W-85 gear oil (search)",
       "supplier": "Quadratec",
-      "url": "https://www.quadratec.com/p/mopar/axle-lube-wrangler-jk-jl-68218657ab"
+      "url": "https://www.quadratec.com/search?keywords=75W-85"
      },
      {
       "name": "Currie CE-9013S 75W-140 gear oil",
@@ -1013,6 +1013,22 @@
   {
    "name": "Curbside Classic — Replacing the oil cooler/filter housing on the Pentastar 3.6L V6 (2015 JK)",
    "url": "https://curbsideclassic.com/blog/repair-and-maintenance/curbside-tech-replacing-the-oil-cooler-on-the-pentastar-3-6l-v6-taming-the-trail-of-tears/"
+  },
+  {
+   "name": "FCA US — Customer Satisfaction Notification V41, steering damper (NHTSA-hosted)",
+   "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169208-9999.pdf"
+  },
+  {
+   "name": "NHTSA — recalls API, Jeep Wrangler 2018",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2018"
+  },
+  {
+   "name": "Quadratec — Used Jeep Wrangler inspection checklist by generation",
+   "url": "https://www.quadratec.com/c/howto/used-jeep-wrangler-inspection-checklist-by-generation"
+  },
+  {
+   "name": "fueleconomy.gov — 2022 Jeep Wrangler 4dr 4xe (EPA 49 MPGe)",
+   "url": "https://www.fueleconomy.gov/feg/noframes/44932.shtml"
   }
  ]
 }

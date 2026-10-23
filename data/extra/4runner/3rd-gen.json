@@ -9,7 +9,7 @@
    "offset": "+15 mm (stock 7 in wheels)",
    "center_bore": "106.1 mm",
    "lug_thread": "M12x1.5",
-   "lug_torque": "81 lb-ft (110 N·m)"
+   "lug_torque": "81 lb-ft (110 N·m) per Limitless Tire [CONFIRM IN MANUAL]"
   },
   "max_tire": [
    {
@@ -169,14 +169,14 @@
   ]
  },
  "production": {
-  "intro": "Built at Tahara and at Hino's Hamura plant from August 1995 to August 2002; the best-selling 4Runner until the 4th gen.",
+  "intro": "Built at Tahara and at Hino's Hamura plant from August 1995 to August 2002; its 1997 US sales of 128,496 stood as the 4Runner record until the 5th gen passed it in 2018.",
   "items": [
    {
     "k": "Production",
     "v": "August 1995 – August 2002"
    },
    {
-    "k": "US sales (calendar year)",
+    "k": "US sales (calendar year; 2002 includes early 4th gen sales)",
     "v": "99,597 (1996) · 128,496 (1997) · 118,484 (1998) · 124,221 (1999) · 111,797 (2000) · 90,250 (2001) · 77,026 (2002)"
    }
   ],

@@ -125,6 +125,11 @@
  },
  "capability": [
   {
+   "k": "Towing",
+   "v": "8,000 lb (3,630 kg)",
+   "note": "braked trailer, owner's manual; 1,650 lb unbraked"
+  },
+  {
    "k": "Wading depth",
    "v": "27.5 in (700 mm)"
   },
@@ -145,7 +150,8 @@
   },
   {
    "k": "Fuel economy",
-   "v": "EPA 17 city / 22 hwy / 19 combined"
+   "v": "EPA 17 city / 22 hwy / 19 combined",
+   "note": "2025 model year (fueleconomy.gov)"
   },
   {
    "k": "Climbing ability",

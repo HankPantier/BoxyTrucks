@@ -33,6 +33,13 @@
   "lookup": "US",
   "items": [
    {
+    "title": "Lug nuts and steering-shaft clamp bolts not tightened",
+    "years": "1987",
+    "ref": "NHTSA 86V058000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=86V058000",
+    "summary": "Wheel lug nuts and steering-shaft clamp bolts may not have been properly tightened at the factory; dealers tightened both."
+   },
+   {
     "title": "Windshield frame cracks at wiper pivots",
     "years": "1987–1988",
     "ref": "NHTSA 88V155000",
@@ -116,7 +123,7 @@
   },
   {
    "year": "1994",
-   "change": "Automatic offered with the four; center high-mounted stop lamp; clutch slave cylinder moved outside the bellhousing for easier replacement",
+   "change": "Automatic offered with the four; center high-mounted stop lamp; Wikipedia dates the external clutch slave cylinder to this year (4WD Mechanix says 1993)",
    "flag": "buy"
   },
   {
@@ -130,7 +137,7 @@
   "items": [
    {
     "head": "VIN, 1989–95",
-    "body": "The 5th character is Y (Wrangler). The 6th is the trim: 4 is Sahara, 5 Laredo, 6 Renegade. The 8th is the engine: E is the 2.5 L four, S the 4.0 L six (1991–95), and M (1989) or T (1990) the 4.2 L six."
+    "body": "The 5th character is Y (Wrangler). The 6th is the trim: 1 is the base S, 4 Sahara, 5 Laredo, 6 Renegade. The 8th is the engine: E is the throttle-body 2.5 L four (1989–90), P the multi-point 2.5 L four (1991–95), S the 4.0 L six (1991–95), and M (1989) or T (1990) the 4.2 L six. NHTSA's decoder confirms the E, P and S codes."
    },
    {
     "head": "VIN, 1987–88",
@@ -150,7 +157,7 @@
    },
    {
     "head": "Late YJ details",
-    "body": "1994–95 manual trucks have the external clutch slave cylinder. Some last-build 1995s got TJ-style hood bump stops, reinforced tailgate hinges and TJ rear bumpers."
+    "body": "1994–95 manual trucks have the external clutch slave cylinder (some 1993s may too). Some last-build 1995s got TJ-style hood bump stops, reinforced tailgate hinges and TJ rear bumpers."
    }
   ]
  },
@@ -209,7 +216,7 @@
     "range": "up to ≈$50k"
    }
   ],
-  "note": "Based on 71 Bring a Trailer sales from January 2025 to October 2026: median ≈$9,800, middle half ≈$7,300–17,000. The top results were a 460-mile 1995 Sahara ($47,250, February 2025) and a 6k-mile 1995 Sahara ($49,750, September 2024)."
+  "note": "Based on 71 Bring a Trailer sales from January 2025 to October 2026: median ≈$9,800, middle half ≈$7,300–17,000. Top results seen on BaT include a 460-mile 1995 Sahara ($47,250, February 2025) and, just before that window, a 6k-mile 1995 Sahara ($49,750, September 2024)."
  },
  "docs": [
   {
@@ -339,6 +346,10 @@
   {
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
+  },
+  {
+   "name": "4WD Mechanix — Identifying Jeep Wrangler manual transmissions and clutches",
+   "url": "https://4wdmechanix.com/?p=6425"
   }
  ]
 }

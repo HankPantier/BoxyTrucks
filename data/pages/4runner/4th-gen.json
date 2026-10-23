@@ -20,7 +20,7 @@
    "heading": "PRADO UNDERNEATH",
    "paragraphs": [
     "Production ran from August 2002 to August 2009, with the Japanese Hilux Surf twin built until September 2009. Wikipedia describes the recipe: double-wishbone independent front suspension, a solid rear axle 'retained for strength and durability', and the Prado 120's chassis — the same underpinnings as the [[lexus/gx470|Lexus GX 470]]. Launch trims were SR5, Sport Edition and Limited; the SR5 and Sport wore grey cladding, the Limited body colour, and Sport models got a non-functional hood scoop.",
-    "The 4.0-litre 1GR-FE V6 made 245 hp and 282 lb-ft; the optional 4.7-litre 2UZ-FE V8 — a sibling of the [[land-cruiser/100-series|Land Cruiser 100]]'s engine — launched at 235 hp and 320 lb-ft and gained VVT-i for 2005, rising to 268 hp and 315 lb-ft. Car and Driver clocked a 2005 V8 at 7.2 seconds to 60. Everything was automatic: a four-speed on early V6s, with a five-speed standard on the V6 from the 2005 model year."
+    "The 4.0-litre 1GR-FE V6 made 245 hp and 282 lb-ft; the optional 4.7-litre 2UZ-FE V8 — the same engine family as the [[land-cruiser/100-series|Land Cruiser 100]]'s — launched at 235 hp and 320 lb-ft and gained VVT-i for 2005, rising to roughly 270 hp and 315 lb-ft (Wikipedia says 268 hp, Car and Driver quoted 270). Car and Driver clocked a 2005 V8 at 7.2 seconds to 60. Everything was automatic: a four-speed on early V6s, with a five-speed standard on the V6 from the 2005 model year."
    ]
   },
   {
@@ -66,7 +66,7 @@
   {
    "k": "ENGINES",
    "v": "1GR-FE 4.0 V6 / 2UZ-FE 4.7 V8",
-   "note": "V6 245 hp (timing chain); V8 235 hp, 268 hp with VVT-i from 2005 (timing belt)."
+   "note": "V6 245 hp (timing chain); V8 235 hp, ≈270 hp with VVT-i from 2005 (timing belt)."
   },
   {
    "k": "4WD",
@@ -105,7 +105,7 @@
    "years": "2005–2009",
    "platform": "N210 · V8",
    "engine": "2UZ-FE 4.7 V8 (VVT-i)",
-   "output": "268 hp / 315 lb-ft",
+   "output": "≈270 hp / 315 lb-ft",
    "note": "Tows up to 7,300 lb (RWD) / 7,000 lb (4WD)."
   },
   {
@@ -196,8 +196,8 @@
    "time": "A short afternoon",
    "cost": "Gear oil ≈ $5–15 a quart plus crush washers",
    "symptoms": "Unknown service history, whining diffs, a 4WD system that's never been exercised.",
-   "fix": "Always break the fill plug loose first. Rear diff and transfer case use 24 mm plugs; the front diff needs a 10 mm hex after removing the 12 mm-bolted skid plates. Drain each, fit new washers, and pump in 75W-90 until it drips from the fill hole — roughly 1.5 qt front, 1.5 qt transfer case and 3.2 qt rear per the owner's manual figures quoted on 4Runners.com. Cycle 4Hi and 4Lo afterwards.",
-   "tools": "24 mm socket · 10 mm hex · 12 mm socket · fluid pump · 75W-90 · washers 90430-18008 (t-case), 12157-10010 and 90430-24003 (diffs)",
+   "fix": "Always break the fill plug loose first. Rear diff and transfer case use 24 mm plugs; the front diff needs a 10 mm hex after removing the 12 mm-bolted skid plates. Drain each, fit new washers, and refill until it drips from the fill hole. Toyota-Club's owner's-manual data calls for GL-5 75W-90 in the front diff and transfer case but GL-5 80W-90 in the rear (some owners run 75W-90 throughout); 4Runners.com quotes roughly 1.5 qt front, 1.5 qt transfer case and 3.2 qt rear. Cycle 4Hi and 4Lo afterwards.",
+   "tools": "24 mm socket · 10 mm hex · 12 mm socket · fluid pump · GL-5 75W-90 and 80W-90 · washers 90430-18008 (t-case), 12157-10010 and 90430-24003 (diffs)",
    "parts": [
     {
      "name": "Gear oil & drain-plug gaskets — 2005 4Runner catalog",
@@ -283,7 +283,7 @@
   },
   {
    "q": "V6 or V8?",
-   "a": "The V8 is the reason many buy a 4th gen: 268 hp and 315 lb-ft from 2005, full-time 4WD and up to 7,000 lb of 4WD towing. The V6 has a timing chain instead of a belt, part-time Multi-Mode 4WD and better EPA numbers (17/20 vs 15/19). The V8's air-injection pump and exhaust manifolds are its known expensive faults.",
+   "a": "The V8 is the reason many buy a 4th gen: about 270 hp and 315 lb-ft from 2005, full-time 4WD and up to 7,000 lb of 4WD towing. The V6 has a timing chain instead of a belt, part-time Multi-Mode 4WD and better EPA numbers (17/20 vs 15/19). The V8's air-injection pump and exhaust manifolds are its known expensive faults.",
    "src": "WIKIPEDIA / CARCOMPLAINTS"
   },
   {
@@ -308,8 +308,8 @@
   },
   {
    "q": "What fluids do the diffs and transfer case take?",
-   "a": "75W-90 gear oil. A 4Runners.com write-up quoting the owner's manual gives roughly 1.5 qt for the front diff, 1.5 qt for the transfer case and 3.2 qt for the rear diff; fill each until it drips from the fill hole.",
-   "src": "4RUNNERS.COM"
+   "a": "GL-5 hypoid gear oil: 75W-90 in the front diff and transfer case and 80W-90 in the rear, per Toyota-Club's owner's-manual data (front 1.5 L V6 / 1.4 L V8, transfer case 1.4 L, rear 3.05 L). A 4Runners.com write-up gives roughly 1.5 qt, 1.5 qt and 3.2 qt; fill each until it drips from the fill hole.",
+   "src": "TOYOTA-CLUB.NET / 4RUNNERS.COM"
   },
   {
    "q": "Why are my VSC and TRAC lights on?",
@@ -544,7 +544,7 @@
   },
   {
    "k": "OUTPUT (V8, 2005+)",
-   "v": "268 hp · 315 lb-ft"
+   "v": "≈270 hp · 315 lb-ft"
   },
   {
    "k": "TRANSMISSION",
