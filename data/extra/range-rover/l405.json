@@ -1,0 +1,436 @@
+{
+ "fitment": {
+  "stock": [
+   "235/65R19 on 7.5J x 19",
+   "255/55R20 on 8.5J x 20",
+   "275/45R21 on 9.5J x 21",
+   "275/40R22 on 9.5J x 22"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "center_bore": "72.6 mm",
+   "lug_thread": "M14x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "285/50R20",
+    "note": "About 31.2 in. FullFatRR consensus is that it won't rub in any height mode, and the spare still fits the well. 275/55R20 (about 31.9 in) is also common but may catch at full lock. Owners treat 20 in as the smallest wheel that reliably clears the brakes."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Seat SRS connector may disconnect",
+    "years": "2013–2014",
+    "ref": "NHTSA 13V-607",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=13V607000",
+    "summary": "The side-airbag connector under the front seats may disconnect because of insufficient clearance."
+   },
+   {
+    "title": "Brake vacuum hose routing",
+    "years": "2013–2014",
+    "ref": "NHTSA 15V-042",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V042000",
+    "summary": "The brake vacuum hose may be misrouted and chafe through."
+   },
+   {
+    "title": "Occupant classification (passenger airbag)",
+    "years": "2013–2015",
+    "ref": "NHTSA 15V-093",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V093000",
+    "summary": "A lightweight adult passenger may be misclassified, so the passenger airbag is switched off."
+   },
+   {
+    "title": "Doors may unlatch",
+    "years": "2013–2016",
+    "ref": "NHTSA 15V-385",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V385000",
+    "summary": "Doors may unlatch unexpectedly once closed."
+   },
+   {
+    "title": "Keyless door latch (KV Latch)",
+    "years": "2013–2016",
+    "ref": "NHTSA 19V-392",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=19V392000",
+    "summary": "Doors can look closed but still be unlatched. 20V-387 re-checks earlier repairs that may not have been done properly."
+   },
+   {
+    "title": "Wheel lug nuts may crack",
+    "years": "2015",
+    "ref": "NHTSA 15V-092",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=15V092000",
+    "summary": "Lug nuts on some trucks built in January 2015 may crack and come off the stud."
+   },
+   {
+    "title": "Front upper knuckle may crack",
+    "years": "2014–2017",
+    "ref": "NHTSA 25V-514",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V514000",
+    "summary": "The front suspension's upper knuckle joint can crack and let a suspension arm detach. See also 24V-840 (2014–2016) and 26V-527 (wrong replacement knuckles)."
+   },
+   {
+    "title": "Driver seat-belt retractor",
+    "years": "2016–2017",
+    "ref": "NHTSA 22V-219",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=22V219000",
+    "summary": "The driver's emergency-locking retractor may not lock (see also 19V-350)."
+   },
+   {
+    "title": "Surround camera water ingress",
+    "years": "2018–2022",
+    "ref": "NHTSA 24V-023",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V023000",
+    "summary": "Water can get into the rear-view camera, giving no picture or a distorted one."
+   },
+   {
+    "title": "Cam carrier oil channel",
+    "years": "2020–2023",
+    "ref": "NHTSA 23V-044",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V044000",
+    "summary": "The cam-carrier oil channel may be blocked, which can cause an oil leak (Ingenium six)."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "TDV6 / SDV6 crankshaft and bearing failure",
+    "ref": "SSM71816",
+    "summary": "Land Rover technical bulletin on crank-bearing failures in the 3.0 V6 diesel family. Long oil-change intervals and the wrong oil grade are suspected contributors.",
+    "url": "https://www.aulro.com/afvb/archive/index.php/t-209763.html"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2012",
+   "change": "Unveiled at the Paris Motor Show and on sale late in the year as a 2013 model. All-aluminium monocoque about 420 kg lighter than the L322, ZF 8HP on every engine, Terrain Response 2, and a 5.0 V8 (375 or 510 PS supercharged), TDV6 or SDV8.",
+   "flag": "note"
+  },
+  {
+   "year": "2013–14",
+   "change": "Early trucks. Specialist guides single out pre-2015 cars for the most electrical and body faults, and recalls cover door latches, airbags and the brake vacuum hose.",
+   "flag": "avoid"
+  },
+  {
+   "year": "2014",
+   "change": "Long wheelbase (3,122 mm) arrives, including the US-market Autobiography Black. 3.0 supercharged V6 (340 or 380 PS) added.",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "Td6 diesel (254 hp) arrives in the US.",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "Facelift. Four-bar grille, new LED daytime running lights, thicker glass, and a dual-screen infotainment system where a second LCD replaces the climate knobs. Seat controls move to the doors.",
+   "flag": "note"
+  },
+  {
+   "year": "2019",
+   "change": "P400e plug-in hybrid (2.0 Ingenium, 404 PS) offered.",
+   "flag": "note"
+  },
+  {
+   "year": "2020",
+   "change": "3.0 Ingenium straight-six mild hybrid (P400) arrives. AutoTrader.ca recommends a 2020-or-newer truck with this engine if the budget allows.",
+   "flag": "buy"
+  },
+  {
+   "year": "2021",
+   "change": "Final model year; the L460 is revealed in October 2021.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Nine model years, two wheelbases and seven powertrains look much alike, and the differences matter for parts, reliability and value.",
+  "items": [
+   {
+    "head": "Pre- or post-facelift",
+    "body": "Trucks from 2013 to 2017 have a three-bar grille, physical climate knobs and seat switches on the seat. From the 2018 model year they have a four-bar grille, new LED DRLs and twin touchscreens, and the seat controls are on the doors."
+   },
+   {
+    "head": "Wheelbase",
+    "body": "The SWB is 2,922 mm (4,999 mm long). The LWB, from 2014, adds 200 mm, giving 3,122 mm (5,199 mm long), all of it in rear legroom."
+   },
+   {
+    "head": "US engines",
+    "body": "5.0 supercharged V8 (510 PS, 525 PS from 2017); 3.0 supercharged V6 from 2014; Td6 diesel from 2016; P400e plug-in hybrid from the 2019 model year; 3.0 straight-six mild hybrid from 2020. The 4.4 SDV8 and the SDV6 Hybrid were never sold in the US."
+   },
+   {
+    "head": "Rear locker",
+    "body": "Land Rover's owner guide lists separate fluid specs and fill volumes for the non-locking and electronic locking rear differentials. Check the build spec or the diff before you assume you have a locker."
+   },
+   {
+    "head": "SVAutobiography",
+    "body": "The SVO-built flagship. The SVAutobiography Dynamic uses a 550 PS version of the supercharged 5.0. These trucks are worth far more than an HSE, so check the VIN-decoded build spec before paying SV money."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg) braked",
+   "note": "V8s; 3.0 V6s rated 3,000 kg (Australian figures)"
+  },
+  {
+   "k": "Payload",
+   "v": "1,764 lb (800 kg)",
+   "note": "5.0 V8 NA: GVW 3,000 kg minus 2,200 kg curb (NAS owner guide)"
+  },
+  {
+   "k": "Roof load",
+   "v": "220 lb (100 kg)",
+   "note": "maximum crossbar load, on top of the rails and crossbars"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "27.7 US gal (105 L) usable",
+   "note": "V8 petrol; V8 diesel 103 L, V6 diesel 88 L"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "8.7 in (220.5 mm)",
+   "note": "minimum, at standard road height; 303 mm max quoted at launch (TDV6, off-road height)"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "31.4° / 30.7° / 134.8° (Land Rover's measure)",
+   "note": "at curb weight and standard road height, no tow bar"
+  },
+  {
+   "k": "Wading depth",
+   "v": "35.4 in (900 mm)",
+   "note": "at Off-Road 2 height"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 14 city / 19 hwy / 16 combined",
+   "note": "2016 5.0 supercharged; 3.0 SC V6 17/23/19; Td6 diesel 22/28/24"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4,850–5,203 lb (2,200–2,360 kg)",
+   "note": "SWB, by engine; V6 diesel from 2,160 kg"
+  },
+  {
+   "k": "Turning circle",
+   "v": "41.7 ft (12.7 m)",
+   "note": "wall to wall"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Depreciation has done its work on early supercharged and Td6 trucks. Late facelift trucks with low miles still hold real money, and SVAutobiographies sit in a class of their own.",
+  "ranges": [
+   {
+    "cond": "Higher-mile early trucks (2015–2018)",
+    "range": "$13k–24k"
+   },
+   {
+    "cond": "Driver / later facelift",
+    "range": "$28k–40k"
+   },
+   {
+    "cond": "Low-mile / special editions",
+    "range": "$50k–66k"
+   },
+   {
+    "cond": "SVAutobiography (incl. Dynamic)",
+    "range": "$60k–100k"
+   }
+  ],
+  "note": "Based on 22 Bring a Trailer sales from September to October 2026 ($12,888–$100,000, median about $31,400). Low mileage, 2020–21 build dates and Westminster, Autobiography Fifty or Overfinch trucks sat at the top."
+ },
+ "docs": [
+  {
+   "name": "Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/",
+   "note": "Land Rover's official technical information site, with workshop procedures, wiring and owner guides. Paid access is available, including short passes."
+  },
+  {
+   "name": "L405 owner guide — technical specifications (V8 petrol, NAS)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/225542/PDF/7513231e-bb27-4af4-99e8-677da7314f6a/en_GB",
+   "note": "Factory fluids, capacities, weights, angles and tyre sizes, hosted on TOPIx."
+  },
+  {
+   "name": "L405 owner guide — technical specifications and capacities (all engines)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/225635/PDF/0a568407-2279-443a-90bd-adc21baa4ed1/en_GB",
+   "note": "Covers the TDV6 and SDV8 diesels as well as the V8 petrols."
+  }
+ ],
+ "production": {
+  "intro": "Built in an all-new aluminium body facility at Solihull from 2012 to 2021, from model years 2013 to 2021.",
+  "items": [
+   {
+    "k": "Built",
+    "v": "2012–2021, Solihull"
+   },
+   {
+    "k": "Model years",
+    "v": "2013–2021"
+   }
+  ],
+  "editions": [
+   {
+    "name": "LWB Autobiography Black (US)",
+    "years": "2014",
+    "note": "US-market LWB edition. The first 25 were finished in Valloire White pearlescent, with black-enamel badging, 21-in wheels and executive rear seating."
+   },
+   {
+    "name": "State Review Range Rover",
+    "years": "2015",
+    "note": "A one-off open-rear LWB hybrid built for Queen Elizabeth II."
+   },
+   {
+    "name": "SV Coupe",
+    "years": "2018 (cancelled)",
+    "note": "Two-door, four-seat SV Coupe unveiled at Geneva 2018 with 999 planned. Land Rover cancelled it in January 2019 and refunded every order."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Range Rover Register (UK)",
+   "url": "https://rrr.co.uk/?p=17",
+   "note": "UK club founded in 1985 that welcomes every Range Rover generation, Classic to current."
+  },
+  {
+   "kind": "club",
+   "name": "Association of North American Rover Clubs (ANARC)",
+   "url": "https://www.anarc.club",
+   "note": "Umbrella group for 24 North American Land Rover clubs, with member-club event listings and trail-leader training."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (Rover Owners of Virginia)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "ROAV's principal event for 30 years: a late-September trail weekend in Virginia."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Land Rover TOPIx — L405 owner guide, technical specifications (V8 petrol, NAS)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/225542/PDF/7513231e-bb27-4af4-99e8-677da7314f6a/en_GB"
+  },
+  {
+   "name": "Land Rover TOPIx — L405 owner guide, technical specifications and capacities (all engines)",
+   "url": "https://topix.landrover.jlrext.com/topix/service/procedure/225635/PDF/0a568407-2279-443a-90bd-adc21baa4ed1/en_GB"
+  },
+  {
+   "name": "Wheel-Sizes.com — Range Rover lug nut size, torque & thread",
+   "url": "https://wheel-sizes.com/lugnuts/land-rover/range-rover/"
+  },
+  {
+   "name": "Wheel-Sizes.com — Range Rover hub bore",
+   "url": "https://wheel-sizes.com/hubbore/land-rover/range-rover/"
+  },
+  {
+   "name": "TireSize.com — 2016 Land Rover Range Rover tire sizes",
+   "url": "https://tiresize.com/tires/Land-Rover/Range-Rover/2016/Base/"
+  },
+  {
+   "name": "Lucky8 — 20\" Gotham wheels (5x120, fits L322/L405/L460)",
+   "url": "https://lucky8llc.com/products/gotham-wheels"
+  },
+  {
+   "name": "FullFatRR — Largest possible L405 tyres with smallest possible rims",
+   "url": "https://www.fullfatrr.com/forum/post689114.html"
+  },
+  {
+   "name": "FullFatRR — 275-55-20 tyres on L405?",
+   "url": "https://www.fullfatrr.com/forum/post570495.html"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2013",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2013"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2014",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2014"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2015",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2015"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2016",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2016"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2017",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2017"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2018",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2018"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2020",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2020"
+  },
+  {
+   "name": "AULRO — TDV6 crank and crank bearing failures",
+   "url": "https://www.aulro.com/afvb/archive/index.php/t-209763.html"
+  },
+  {
+   "name": "Wikipedia — Range Rover (L405)",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_(L405)"
+  },
+  {
+   "name": "PistonHeads — Range Rover L405 used buying guide",
+   "url": "https://www.pistonheads.com/news/ph-buying-guides/range-rover-l405--ph-used-buying-guide/43549"
+  },
+  {
+   "name": "AutoTrader.ca — 2013–2021 Range Rover used vehicle review",
+   "url": "https://www.autotrader.ca/editorial/expert-reviews/land-rover/range-rover/2013-2021-land-rover-range-rover-used-vehicle-review/"
+  },
+  {
+   "name": "Kelley Blue Book — 2016 Range Rover HSE Td6",
+   "url": "https://www.kbb.com/car-news/2016-range-rover-hse-td6hse-sport-td6-diesel-power-for-america"
+  },
+  {
+   "name": "CarsGuide — Range Rover 2013 towing capacity",
+   "url": "https://www.carsguide.com.au/land-rover/range-rover/towing-capacity/2013"
+  },
+  {
+   "name": "WheelWorld Reviews — New Range Rover road test",
+   "url": "https://www.wheelworldreviews.co.uk/?p=9010"
+  },
+  {
+   "name": "Top Gear Philippines — A Range Rover fit for the Queen",
+   "url": "https://www.topgear.com.ph/features/feature-articles/royal-ride-a-range-rover-fit-for-the-queen-of-england"
+  },
+  {
+   "name": "FuelEconomy.gov — 2016 Land Rover Range Rover",
+   "url": "https://fueleconomy.gov/feg/bymodel/2016_Land_Rover_Range_Rover.shtml"
+  },
+  {
+   "name": "FuelEconomy.gov — 2016 Range Rover TDV6",
+   "url": "https://www.fueleconomy.gov/feg/noframes/36911.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover L405 (completed auctions)",
+   "url": "https://bringatrailer.com/land-rover/range-rover-l405/"
+  },
+  {
+   "name": "Land Rover TOPIx — official technical information portal",
+   "url": "https://topix.landrover.jlrext.com/"
+  },
+  {
+   "name": "Range Rover Register — About the club",
+   "url": "https://rrr.co.uk/?p=17"
+  },
+  {
+   "name": "Rovers North blog — ANARC news (Association of North American Rover Clubs)",
+   "url": "https://blog.roversnorth.com/2025/10/anarc-news-2/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025 (Rover Owners of Virginia Mid-Atlantic Rally)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  }
+ ]
+}

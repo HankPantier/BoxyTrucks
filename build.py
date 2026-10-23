@@ -50,9 +50,9 @@ BUILDERS = [
     {'name': 'Arkonik', 'what': 'Defender · restomods', 'url': 'https://www.arkonik.com/'},
 ]
 STORIES = [
-    {'img': 'lc-dune.jpg', 'alt': 'A silver Toyota Land Cruiser climbing a dune at sunset', 'tag': 'LAND CRUISER 200 · DUNES', 'title': '[STORY] Chasing the last light up a dune'},
+    {'img': 'lc-dune.jpg', 'alt': 'A silver Toyota Land Cruiser climbing a dune at sunset', 'tag': 'LAND CRUISER 200 · EXPEDITION PORTAL', 'title': 'Staples in Tents: the 200 Series built for Mexico, Baja and, next, the Arctic Ocean', 'href': 'https://expeditionportal.com/feature-vehicle-staples-in-tents-200-series-toyota-land-cruiser/'},
     {'img': 'defender-desert.jpg', 'alt': 'The open cockpit of a vintage Land Rover looking out over desert sand', 'tag': 'SERIES IIA · HUCKBERRY JOURNAL', 'title': 'Panama to Mexico in a 1968 Series IIA: Sinuhe Xavier’s rain-soaked scene report', 'href': 'https://huckberry.com/journal/posts/sinuhe-xavier-scene-report-costa-rica'},
-    {'img': 'lc-desert.jpg', 'alt': 'Land Cruiser 70 Series troop carriers parked among desert boulders', 'tag': 'LAND CRUISER 70 · SAHARA', 'title': '[STORY] The Sahara, by troop carrier'},
+    {'img': 'lc-desert.jpg', 'alt': 'Land Cruiser 70 Series troop carriers parked among desert boulders', 'tag': 'LAND CRUISER 70 · OVERLAND JOURNAL', 'title': 'Why the 70 Series is still the overlander’s truck, and how to build one without overdoing it', 'href': 'https://overlandjournal.com/pages/principles-of-overlanding-building-a-70-series-land-cruiser'},
 ]
 HOME_CREDITS = ['Darina Rodionova', 'Hasse Lossius', 'Kristina', 'Caspian Dahlström', 'Charlota Blunarova']
 ALIASES = {('land-cruiser', '60-series'): ('land-cruiser', 'fj60')}
@@ -167,6 +167,12 @@ def load():
         apply_social_manual(pages)
         for g in fam['generations']:
             g['has_page'] = g['slug'] in pages[slug]
+        missing = [g['slug'] for g in fam['generations'] if not g['has_page']]
+        if missing:
+            print(f'  · holding back {slug}: no page yet for {", ".join(missing)}')
+            del fams[slug], pages[slug]
+            flagship.pop(slug, None)
+            continue
         if fam.get('hero_photo') and not (imgdir / fam['hero_photo']).exists():
             fam['hero_photo'] = None
         if not fam.get('hero_photo'):

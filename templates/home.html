@@ -35,11 +35,11 @@
   <div class="split" style="border:1px solid var(--ink);background:var(--night);color:var(--paper);gap:0">
     <img src="{{ root }}img/home/series-dune.jpg" alt="A pale green vintage Land Rover Series on a desert dune at sunset" style="flex:3 1 560px;min-width:0;height:600px;object-fit:cover">
     <div style="flex:2 1 380px;padding:48px 44px;display:flex;flex-direction:column;gap:20px">
-      <span class="eyebrow brass">Featured build · No. 01</span>
-      <h2 style="font-size:44px;line-height:1.05">[OWNER]’s Series IIA</h2>
-      <p class="serif" style="margin:0;font-size:19px;line-height:30px;color:var(--on-dark)">[ONE-PARAGRAPH STORY — how they found it, what they changed, where it’s been.]</p>
-      <div class="rows" style="border-color:var(--line-dark)">{% for k in ['ENGINE','SUSPENSION','BUILT BY','BASED'] %}<div class="row" style="color:var(--paper);border-color:var(--line-dark);padding:11px 0"><span class="m" style="color:var(--brass)">{{ k }}</span><span>[{{ k }}]</span></div>{% endfor %}</div>
-      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:auto"><a class="btn light" href="#">Read the build</a><a class="btn ghost-brass" href="{{ root }}submit/index.html">Submit your build</a></div>
+      <span class="eyebrow brass">Featured build · No. 01 is yours</span>
+      <h2 style="font-size:44px;line-height:1.05">Your rig belongs here.</h2>
+      <p class="serif" style="margin:0;font-size:19px;line-height:30px;color:var(--on-dark)">We’re picking the first Featured Build from readers’ trucks: a Series on its third engine, a Troopy with a quarter-million miles, a G that actually gets dirty. Send the build list, the story and your best off-pavement photos, and the good ones run here and on their model page, credited to you.</p>
+      <div class="rows" style="border-color:var(--line-dark)">{% for k, v in [('WHAT WE WANT','Off pavement, honestly used'),('PHOTOS','3 to 10, low sun if you can'),('CREDIT','Always yours'),('COST','Free')] %}<div class="row" style="color:var(--paper);border-color:var(--line-dark);padding:11px 0"><span class="m" style="color:var(--brass)">{{ k }}</span><span style="font-size:15px">{{ v }}</span></div>{% endfor %}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:auto"><a class="btn light" href="{{ root }}submit/index.html">Show us your rig</a></div>
     </div>
   </div>
 </section>

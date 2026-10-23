@@ -1,0 +1,346 @@
+{
+ "fitment": {
+  "stock": [
+   "255/60R20 on 8J x 20 (ET39.5)",
+   "275/55R20 on 8.5J x 20 (ET43.5)",
+   "275/50R21 on 8.5J x 21 (ET43.5)",
+   "285/45R22 on 9.5J x 22 (ET42.5)",
+   "23-in wheels optional"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x120",
+   "offset": "ET39.5–43.5 (stock 20–22 in)",
+   "lug_thread": "Wheel bolts (not studs and nuts); earlier Range Rover wheels need the correct flat-seat bolts"
+  }
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Cam carrier oil channel",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V-044",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V044000",
+    "summary": "A blocked oil channel in the cam carrier can cause an oil leak."
+   },
+   {
+    "title": "7-seat second-row seat frame welds",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V-252",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V252000",
+    "summary": "On seven-seat trucks, the second-row left seat frame may be insufficiently welded."
+   },
+   {
+    "title": "Second-row armrest latch",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V-324",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V324000",
+    "summary": "The armrest storage latch may fail in a crash (FMVSS 201)."
+   },
+   {
+    "title": "Tail-light link",
+    "years": "2022–2023",
+    "ref": "NHTSA 23V-394",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V394000",
+    "summary": "A damaged link can stop the tail, brake and turn lights working."
+   },
+   {
+    "title": "Rear camera water ingress",
+    "years": "2022–2023",
+    "ref": "NHTSA 24V-947",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V947000",
+    "summary": "Water can get into the rear-view camera, giving no image or a distorted one."
+   },
+   {
+    "title": "Body panels not bonded properly",
+    "years": "2024",
+    "ref": "NHTSA 23V-872",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V872000",
+    "summary": "Body panels may not be properly bonded, which reduces structural strength."
+   },
+   {
+    "title": "Oil cooler hoses",
+    "years": "2024",
+    "ref": "NHTSA 23V-790",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=23V790000",
+    "summary": "Engine-mounted oil-cooler hoses may not be properly secured and can leak oil onto the road."
+   },
+   {
+    "title": "Oil filter housing",
+    "years": "2024",
+    "ref": "NHTSA 24V-450",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V450000",
+    "summary": "The oil filter housing can crack and leak oil into the engine bay."
+   },
+   {
+    "title": "Transmission oil pressure loss",
+    "years": "2024",
+    "ref": "NHTSA 24V-380",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=24V380000",
+    "summary": "Transmission oil pressure can drop and shift the clutch into neutral, cutting drive."
+   },
+   {
+    "title": "MHEV DC-DC converter",
+    "years": "2022–2024",
+    "ref": "NHTSA 26V-599",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V599000",
+    "summary": "The mild-hybrid DC-DC converter can fail from electrical overload or a start-up software fault. This follows campaign 26V-248."
+   },
+   {
+    "title": "Panoramic roof side finisher",
+    "years": "2023–2026",
+    "ref": "NHTSA 26V-097",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V097000",
+    "summary": "The sunroof's side trim may not be properly secured and can detach."
+   },
+   {
+    "title": "Driver airbag clockspring connector",
+    "years": "2022–2026",
+    "ref": "NHTSA 26V-389",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V389000",
+    "summary": "The clockspring connector can corrode, so the driver's airbag may not deploy as intended."
+   },
+   {
+    "title": "Second-row centre buckle",
+    "years": "2025",
+    "ref": "NHTSA 25V-155",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=25V155000",
+    "summary": "The second-row centre seat-belt buckle may not latch correctly."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2021",
+   "change": "Revealed on 26 October 2021 at the Royal Opera House in London. MLA-Flex platform, the first Land Rover with all-wheel steering, and BMW's N63 4.4 V8 in the P530.",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Production at Solihull from mid-2022. Launch engines: P360/P400 I6 mild hybrids, P530 V8, and P440e/P510e plug-in hybrids (diesels outside the US). A seven-seat LWB followed shortly after launch. Owners say many early trucks were delivered with options deleted during the parts shortage.",
+   "flag": "note"
+  },
+  {
+   "year": "2022–23",
+   "change": "Early trucks carry the most open campaigns: seven-seat frame welds, tail-light links, rear-camera water ingress, the cam-carrier oil channel and the armrest latch. Run the VIN.",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "P550e replaces the P440e and the 615 PS SV arrives. BMW's S68 V8 replaces the N63, and owners rate it more refined. Physical HVAC controls are removed.",
+   "flag": "buy"
+  },
+  {
+   "year": "2024",
+   "change": "JLR announces local Range Rover assembly in Pune, India (May 2024).",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Range Rover Electric unveiled on 2 September 2026 after repeated delays: 800 V, twin 260 kW motors and a 118.5 kWh battery.",
+   "flag": "note"
+  },
+  {
+   "year": "2027",
+   "change": "Range Rover Electric goes on sale in the US as a 2027 model, with 333 miles of EPA range, a 900 mm wading depth and a 5,511 lb towing rating.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Under the same body, L460 powertrains and drivetrain hardware changed in 2024 and vary by trim. That decides refinement, recalls and what you're paying for.",
+  "items": [
+   {
+    "head": "Which V8",
+    "body": "P530s built for 2022–2023 use BMW's N63 twin-turbo V8. From the 2024 model year the V8 is the newer S68, which is also in the SV P615."
+   },
+   {
+    "head": "Which plug-in hybrid",
+    "body": "The P440e and P510e (2022–23) were replaced for 2024 by the P550e. All use a 38.2 kWh battery (31.8 kWh usable). PHEVs aren't offered as seven-seaters."
+   },
+   {
+    "head": "Rear differential",
+    "body": "Upper trims get the Electronic Active Differential with torque vectoring. US-spec SE trucks have an open rear diff with torque vectoring by braking."
+   },
+   {
+    "head": "Seats and wheelbase",
+    "body": "Four-, five- and seven-seat layouts are available. Seven seats come only on the LWB (3,197 mm wheelbase, 5,252 mm long). The SWB is 2,997 mm."
+   },
+   {
+    "head": "Wheels",
+    "body": "The L460 uses wheel bolts, not the L405's studs and nuts. Factory wheels run from 20 to 23 in. Older 5x120 Range Rover wheels fit with the correct flat-seat bolts."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,716 lb (3,500 kg)",
+   "note": "P400 and V8s; current PHEV 6,614 lb; Range Rover Electric 5,511 lb"
+  },
+  {
+   "k": "Wading depth",
+   "v": "35.4 in (900 mm)",
+   "note": "combustion models and Range Rover Electric"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "EPA 18 city / 26 hwy / 21 combined",
+   "note": "2023 P400 MHEV; 2023 P530 V8 16/21/18; 2023 P440e 51 MPGe, 21 mpg gas-only"
+  },
+  {
+   "k": "Curb weight",
+   "v": "5,410–6,360 lb (2,454–2,885 kg)",
+   "note": "by powertrain and body"
+  },
+  {
+   "k": "Turning circle",
+   "v": "35.9 ft (10.95 m) SWB; 37.9 ft (11.54 m) LWB",
+   "note": "with all-wheel steering"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "This is still a new truck. Prices start well into six figures and climb steeply through the SV range. Lightly used 2022–23 trucks on Bring a Trailer have traded $20k–30k below the new SE price.",
+  "ranges": [
+   {
+    "cond": "New — SE (SWB / LWB 7-seat)",
+    "range": "$113,300–120,700 MSRP"
+   },
+   {
+    "cond": "New — Autobiography (SWB / LWB)",
+    "range": "$159,200–179,500 MSRP"
+   },
+   {
+    "cond": "New — SV, SV Black, SV Ultra",
+    "range": "$219,500–275,000 MSRP"
+   },
+   {
+    "cond": "Used on Bring a Trailer (2022–2025 trucks)",
+    "range": "$83.5k–180k"
+   }
+  ],
+  "note": "MSRPs are base prices from Range Rover USA, excluding the $2,450 destination charge. The used range comes from 12 Bring a Trailer sales between November 2024 and October 2026. A 10k-mile 2023 P400 SE LWB was the low point, and the top sales were SV P615s."
+ },
+ "docs": [
+  {
+   "name": "Land Rover TOPIx",
+   "url": "https://topix.landrover.jlrext.com/",
+   "note": "Land Rover's official technical information site, with workshop procedures, wiring and owner guides. Paid access is available, including short passes."
+  }
+ ],
+ "production": {
+  "intro": "Built at Solihull since mid-2022 on the MLA-Flex platform, with local assembly in Pune, India, since 2024.",
+  "items": [
+   {
+    "k": "Built",
+    "v": "2022–present, Solihull (plus Pune, India)"
+   },
+   {
+    "k": "Revealed",
+    "v": "26 October 2021, Royal Opera House, London"
+   }
+  ],
+  "editions": [
+   {
+    "name": "SV Carmel Edition",
+    "years": "2024",
+    "note": "SV Bespoke showcase revealed at Monterey Car Week 2023. Seven built, at US$371,345 each."
+   },
+   {
+    "name": "First Edition (Range Rover Electric)",
+    "years": "2027",
+    "note": "Listed under Electric on Range Rover USA, from $176,700 (SWB) and $181,400 (LWB) MSRP."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Range Rover Register (UK)",
+   "url": "https://rrr.co.uk/?p=17",
+   "note": "UK club founded in 1985 that welcomes every Range Rover generation, Classic to current."
+  },
+  {
+   "kind": "club",
+   "name": "Association of North American Rover Clubs (ANARC)",
+   "url": "https://www.anarc.club",
+   "note": "Umbrella group for 24 North American Land Rover clubs, with member-club event listings and trail-leader training."
+  },
+  {
+   "kind": "event",
+   "name": "Mid-Atlantic Rally (Rover Owners of Virginia)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/",
+   "note": "ROAV's principal event for 30 years: a late-September trail weekend in Virginia."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wheel-Size.com — 2022 Land Rover Range Rover wheel fitment",
+   "url": "https://www.wheel-size.com/size/land-rover/range-rover/2022/"
+  },
+  {
+   "name": "Lucky8 — 20\" Gotham wheels (5x120, fits L322/L405/L460)",
+   "url": "https://lucky8llc.com/products/gotham-wheels"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2022",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2022"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2023",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2023"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2024",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2024"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2025",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2025"
+  },
+  {
+   "name": "NHTSA — Recalls API, Land Rover Range Rover MY2026",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2026"
+  },
+  {
+   "name": "Wikipedia — Range Rover (L460)",
+   "url": "https://en.wikipedia.org/wiki/Range_Rover_(L460)"
+  },
+  {
+   "name": "Range Rover USA — Models and specifications (MSRP)",
+   "url": "https://www.rangerover.com/en-us/range-rover/models-and-specifications.html"
+  },
+  {
+   "name": "Range Rover USA — Range Rover overview",
+   "url": "https://www.rangerover.com/en-us/range-rover/index.html"
+  },
+  {
+   "name": "Range Rover USA — Range Rover Electric",
+   "url": "https://www.rangerover.com/en-us/range-rover/electric.html"
+  },
+  {
+   "name": "FuelEconomy.gov — 2023 Land Rover Range Rover",
+   "url": "https://fueleconomy.gov/feg/bymodel/2023_Land_Rover_Range_Rover.shtml"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover L460 (completed auctions)",
+   "url": "https://bringatrailer.com/land-rover/range-rover-l460/"
+  },
+  {
+   "name": "Land Rover TOPIx — official technical information portal",
+   "url": "https://topix.landrover.jlrext.com/"
+  },
+  {
+   "name": "Range Rover Register — About the club",
+   "url": "https://rrr.co.uk/?p=17"
+  },
+  {
+   "name": "Rovers North blog — ANARC news (Association of North American Rover Clubs)",
+   "url": "https://blog.roversnorth.com/2025/10/anarc-news-2/"
+  },
+  {
+   "name": "Rovers North blog — MAR 2025 (Rover Owners of Virginia Mid-Atlantic Rally)",
+   "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
+  }
+ ]
+}

@@ -1,0 +1,1211 @@
+{
+ "family": {
+  "slug": "scout",
+  "name": "Scout",
+  "maker": "International",
+  "years": "1961–1980 · revival announced",
+  "verdict": "A tractor company's answer to the Jeep that accidentally invented the American SUV. Rusts like it's paid to, and owners forgive it every single time.",
+  "intro": [
+   "International Harvester had been building trucks since 1907, but in the late 1950s it set out to build a rival for the Jeep CJ. Chief designer Ted Ornas later recalled his brief from the engineering manager: 'design something to replace the horse.' The result, the Scout 80, went on sale in late 1960 as a 1961 model and was built in Fort Wayne, Indiana.",
+   "The original [[scout/scout-80-800|Scout 80 and 800]] grew from a fold-down-windshield utility into something you could take on holiday, adding six-cylinder and V8 engines along the way. In 1971 the [[scout/scout-ii|Scout II]] took over, and in its decade it added the long-wheelbase Traveler and Terra, Dana 44 axles at both ends, a Nissan diesel and the stripped-out SSII that went desert racing. Production ended on October 21, 1980, after 532,674 Scouts.",
+   "For off-roaders the Scout II is the one to have: a ladder frame, leaf springs, solid axles and an IH V8, with a parts and club scene that never went away. Volkswagen Group now owns the name, and its [[scout/scout-motors|Scout Motors]] revealed a new Traveler SUV and Terra pickup in October 2024."
+  ],
+  "hero_photo": "scout-ii-lake-pleasant-trail.jpg",
+  "generations": [
+   {
+    "slug": "scout-80-800",
+    "name": "Scout 80 / 800",
+    "years": "1961–1971",
+    "codes": [
+     "Scout 80",
+     "800",
+     "800A",
+     "800B"
+    ],
+    "summary": "The original Jeep fighter: four-cylinder Scout 80, then the more civilized 800 series with sixes and V8s.",
+    "at_url": "https://www.autotempest.com/results?make=international&model=scout&minyear=1961&maxyear=1971",
+    "bat_url": "https://bringatrailer.com/international-harvester/scout-800/",
+    "has_page": true
+   },
+   {
+    "slug": "scout-ii",
+    "name": "Scout II",
+    "years": "1971–1980",
+    "codes": [
+     "Scout II",
+     "Traveler",
+     "Terra",
+     "SSII"
+    ],
+    "summary": "The definitive Scout: IH V8s, Dana 44s, the 118-inch Traveler and Terra, a Nissan diesel and the Baja-winning SSII.",
+    "at_url": "https://www.autotempest.com/results?make=international&model=scout&minyear=1971&maxyear=1980",
+    "bat_url": "https://bringatrailer.com/international-harvester/scout-ii/",
+    "has_page": true
+   },
+   {
+    "slug": "scout-motors",
+    "name": "Scout Motors (new)",
+    "years": "Announced 2022 · revealed 2024",
+    "codes": [
+     "Traveler",
+     "Terra"
+    ],
+    "summary": "Volkswagen Group's revival of the name, with a Traveler SUV and Terra pickup revealed in October 2024.",
+    "at_url": null,
+    "bat_url": null,
+    "has_page": true
+   }
+  ],
+  "forums": [
+   {
+    "name": "Binder Planet — General IH Tech",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/general-ih-tech.4/",
+    "note": "The main IH Scout community; decades of tech threads on every Scout and IH light truck"
+   },
+   {
+    "name": "IH Parts America forums",
+    "url": "https://forums.ihpartsamerica.com/",
+    "note": "Tech forum run by the parts supplier; staff answer fitment and lift questions"
+   },
+   {
+    "name": "Binder Planet — SSII",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/ssii.10/",
+    "note": "Super Scout II owners and restorers"
+   },
+   {
+    "name": "Binder Planet — Diesel Tech",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/diesel-tech.5/",
+    "note": "Nissan SD33/SD33T diesel Scouts"
+   },
+   {
+    "name": "Binder Planet — Scout Motors / Scout EV Chat",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/scoutmotors/",
+    "note": "Old-Scout owners on the VW-backed revival"
+   }
+  ],
+  "related_families": [
+   "jeep",
+   "land-cruiser",
+   "range-rover"
+  ]
+ },
+ "page": {
+  "slug": "scout-ii",
+  "title": "International Scout II",
+  "eyebrow": "INTERNATIONAL HARVESTER SCOUT II · 1971–1980",
+  "verdict": "Built by a tractor company, designed to beat the Jeep, and rustier than a shipwreck. The Scout II is also a properly tough ladder-frame 4x4 with a 345 V8, Dana 44s and a parts and club scene that makes keeping one alive easier than it should be.",
+  "codes": [
+   "SV-345 / SV-304 V8",
+   "DANA 44 FRONT & REAR (1975 ON)",
+   "DANA 20 · DANA 300 (1980)",
+   "100-IN & 118-IN WHEELBASE",
+   "NISSAN SD33 DIESEL"
+  ],
+  "hero_photo": "scout-ii-wolford-rock-crawl.jpg",
+  "hero_focus": "55% 45%",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "In April 1971 International Harvester replaced the [[scout/scout-80-800|Scout 800B]] with a truck it had been sitting on for years. A version nearly identical to the production Scout II was shown to IH management in December 1967. It kept the formula: a short ladder frame, leaf springs, solid axles and a removable top. What changed was everything you touched. It was longer, lower, roomier and much more civilized. Over the next decade it became the Scout most people picture, and the one most still on the trail."
+    ]
+   },
+   {
+    "heading": "REPLACING THE HORSE, TAKE TWO",
+    "paragraphs": [
+     "The first Scout existed because IH engineering manager Mr. Reese told Ted Ornas to 'design something to replace the horse.' By 1964 IH was already planning its replacement, and the concept was approved for production in mid-1965. The [[jeep/cj-5|Jeep CJ]] was still the target, but the market had moved. Ford's Bronco and Chevrolet's Blazer had shown that buyers wanted a 4x4 they could live with every day.",
+     "So the Scout II launched with a 196-cubic-inch four, a 232 AMC straight-six and IH's own 304 V8, then added the 258 six and the 345 V8. You could order the steel Traveltop, the half-cab Roadster top or a soft top. Early trucks had a Dana 30 front axle and drum brakes. Late in 1974 power front disc brakes became standard, and after 1974 every Scout II got Dana 44 axles at both ends."
+    ]
+   },
+   {
+    "heading": "LONGER, THEN DIESEL",
+    "paragraphs": [
+     "In 1975 IH raised the Scout's gross weight rating to 6,200 pounds and badged it XLC, for Extra Load Capacity. That put it out of reach of stricter light-duty emissions rules, and Scouts didn't get catalytic converters until 1979. In 1976 the 118-inch Traveler and Terra arrived, 18 inches longer between the door and the rear wheel arch and topped in fiberglass. The Traveler replaced the truck-based Travelall, which ended in 1975, and it became a popular RV tow vehicle.",
+     "1976 also brought a 3.3-liter Nissan SD33 straight-six diesel. Jim Allen, author of the International Scout Encyclopedia, credits IH with the first domestically built diesel SUV. In late 1979 the turbocharged SD33T replaced it. Super Scout Specialists' figures give 10,182 diesel Scouts in all, more than half of them 1980 turbos."
+    ]
+   },
+   {
+    "heading": "BAJA, AND THE SUPER SCOUT",
+    "paragraphs": [
+     "Privateer Jimmy Jones won his class in the 1972 Baja 1000 in a '72 Scout II Cabtop. Five years later IH was sponsoring four desert racing teams and selling the SSII, a stripped-down Scout with soft doors, a plastic grille and a roll bar, aimed squarely at the [[jeep/cj-7|CJ-7]]. It ranged from the barebones four-cylinder Rancher Special, on which even the passenger seat was a cost option, to the dressier Sport and Baja Cruiser.",
+     "In the 1977 Baja 1000, an SSII driven by Jerry Boone finished first among production 4x4s, almost two hours ahead of the next car, a CJ-7. Boone later said his team had a month to prepare a stock truck and only got IH sponsorship after the race. About 4,000 SSIIs were built between 1977 and 1979, and today they're the most valuable Scout IIs."
+    ]
+   },
+   {
+    "heading": "HOW IT ENDED",
+    "paragraphs": [
+     "IH had plans for Scout-based coupes, minivans, campers and Hurst special editions, and a Scout III prototype was built in 1979. The 1979–80 International Harvester strike and a lack of money ended all of it. The 1980 trucks got a one-piece plastic grille, the turbo diesel and, for one year only, a Dana 300 transfer case. Only 13,106 were built. The last Scout came off the Fort Wayne line on October 21, 1980.",
+     "Hagerty counts about 260,000 Scout IIs. Rust has taken many of them, and the survivors are now real money. Gen X buyers make up more than 46 percent of Scout buyers. Volkswagen Group now owns the name, and [[scout/scout-motors|Scout Motors]] is reviving the Traveler and Terra badges for new electric and range-extended trucks."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · THE SWISS SCOUT",
+   "title": "Monteverdi Safari: a Scout in a dinner jacket",
+   "paragraphs": [
+    "In 1976 Swiss sports-car maker Peter Monteverdi showed the Safari, a luxury SUV on Scout II underpinnings with a new body by Carrozzeria Fissore. It went into production in 1977, aimed straight at the [[range-rover/classic|Range Rover]], and offered air conditioning, leather, electric windows and options up to a television and a refrigerator.",
+    "Engines were a Chrysler 5.2-liter V8, IH's own 5.7-liter 345 and, Monteverdi claimed, Chrysler's 7.2-liter 440. Unlike the Range Rover of the day it had an automatic and switchable four-wheel drive. A cheaper Sahara kept most of the Scout body, and only about 30 were made. Production ended in 1982, after the Scout itself."
+   ]
+  },
+  "engineering_intro": "The Scout II is a body-on-frame 4x4 with live axles on leaf springs at both ends. Most were four-wheel drive, with a manually shifted transfer case (2WD high, 4WD high and 4WD low) and free-wheeling front hubs. Engines were IH's own fours and V8s, AMC sixes and Nissan diesels, behind Borg-Warner manuals or a three-speed automatic. Factory line tickets record each truck's exact axles, ratios and options.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame",
+    "note": "100-in wheelbase; 118 in for the 1976–80 Traveler and Terra"
+   },
+   {
+    "k": "SUSPENSION",
+    "v": "Leaf springs, live axles",
+    "note": "Front and rear; the frame can crack at the steering box and spring hangers"
+   },
+   {
+    "k": "AXLES",
+    "v": "Dana 30 / 44 → Dana 44 / 44",
+    "note": "Dana 44 at both ends after 1974; Trac-Lok limited-slip optional"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "Dana 20 · Dana 300 (1980)",
+    "note": "Gear-driven, manually shifted; the Dana 300 was a one-year fit"
+   },
+   {
+    "k": "ENGINES",
+    "v": "IH 304 & 345 V8 · 196 I4",
+    "note": "Plus AMC 232/258 sixes and Nissan SD33/SD33T diesels"
+   },
+   {
+    "k": "BRAKES",
+    "v": "Power front discs from late 1974",
+    "note": "Drums all round before that; rear drums throughout"
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1971–1975",
+    "platform": "Scout II",
+    "engine": "196 I4 · 232 then 258 I6 (AMC) · 304 / 345 V8",
+    "output": "—",
+    "note": "Launched with the 196, 232 and 304; the 258 six and 345 V8 came later. Dana 30 front and Dana 44 rear; power front discs standard from late 1974."
+   },
+   {
+    "years": "1976–1980",
+    "platform": "Traveler / Terra",
+    "engine": "As Scout II, plus diesel",
+    "output": "—",
+    "note": "118-in wheelbase, fiberglass full top (Traveler) or half-cab (Terra)."
+   },
+   {
+    "years": "1976–1979",
+    "platform": "Scout II diesel",
+    "engine": "Nissan SD33 3.3 I6 diesel",
+    "output": "95 PS (Nissan rating)",
+    "note": "Naturally aspirated; 4,222 built from 1976 to 1979 per Super Scout Specialists."
+   },
+   {
+    "years": "1977–1979",
+    "platform": "SSII",
+    "engine": "196 I4 · 304 / 345 V8",
+    "output": "345: 163 bhp / 292 lb-ft (1978 test)",
+    "note": "Soft top and doors, plastic grille, roll bar. Rancher Special, Brush Buster, Sport and Baja Cruiser."
+   },
+   {
+    "years": "1980",
+    "platform": "Scout II / Traveler / Terra",
+    "engine": "SD33T turbo-diesel · 304 / 345 V8 · 196 I4",
+    "output": "SD33T: 110 PS (Nissan rating)",
+    "note": "One-piece plastic grille, Dana 300 transfer case, T-19 manual with the turbo-diesel. 13,106 built."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Structural rust first",
+    "body": "Scouts were never fully galvanized. Corsetti Cruisers says to start with the rear spring mounts, the body mounts and the area under the doors. Structural rust around the rear crossmember or along the inner rockers can mean a full rebuild. Surface rust is manageable."
+   },
+   {
+    "head": "Look under bedliners and fresh paint",
+    "body": "In one Scout II rebuild on 4WD Mechanix, a previous owner's bedliner hid so much floor rust that the repair ran past the owner's budget. Front fenders, door sills and the tailgate area hold moisture and can hide filler."
+   },
+   {
+    "head": "Frame cracks at the steering box",
+    "body": "The frame is prone to fatigue cracks where the steering box bolts on, behind the front spring hangers and at the body mounts. Pull the box (three bolts) or at least inspect the welds, especially on a truck with big tires."
+   },
+   {
+    "head": "Panel gaps aren't always crash damage",
+    "body": "Scouts were hand-assembled with wide, uneven gaps even when new. Very uneven panels, doors that won't close properly or messy welds can still point to a bent frame or a poor repair."
+   },
+   {
+    "head": "VIN tags, title and line ticket",
+    "body": "Check for a clean title and matching VIN tags on the chassis and body. The line ticket (the factory build sheet) lists the engine, transmission, axles, gear ratio, paint and options. On 1971–76 trucks it's under the hood on the cowl; on 1977–80 trucks it's inside the glove box door. Replacements can be ordered."
+   },
+   {
+    "head": "Which front axle?",
+    "body": "Dana 44 axles became standard on all Scout IIs after 1974. Compare the covers: if the front cover is smaller and rounder than the rear, it's a Dana 30. The line ticket also shows the axle, the ratio and whether there's a Trac-Lok rear."
+   },
+   {
+    "head": "Engine swaps and wiring",
+    "body": "Many Scouts now have LS or other swaps. Check the wiring, cooling and driveline geometry; Corsetti warns that amateur conversions cause endless electrical and mechanical trouble. Look under the dash and around the firewall for brittle, patched factory wiring."
+   },
+   {
+    "head": "Diesels and small parts",
+    "body": "The SD33 diesels are rare and interesting. IH Parts America still lists filters, water pumps and seals for them. Dash pads, gauge clusters and original seat frames are hard to find for any Scout II, so price those in."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Floor, rocker and rear crossmember rust repair",
+    "diff": "4 / 5",
+    "time": "≈ Several weekends, depending on how far it goes",
+    "cost": "Panels from about $89 (outer rocker) to $1,429.95 (complete aftermarket rear floor), plus welding",
+    "symptoms": "Bubbling under the doors, soft or holed floors, a sagging door opening, water on the carpets, and rust at the rear spring mounts and rear crossmember.",
+    "fix": "Strip the interior and probe everything with a pick or screwdriver. Support the door openings before cutting out any rocker or floor structure, then cut back to clean metal. Anything Scout advises leaving a 1–2 inch lip of the old floor for a new pan to rest on. Weld in the floor pans, rocker panels, door-post braces and, if needed, the rear floor sill crossmember. Seam-seal and coat the new metal. If the inner rockers and rear crossmember are badly gone, Corsetti Cruisers says a frame-off restoration is often the better long-term answer.",
+    "tools": "MIG welder · cut-off wheel · spot-weld drill · clamps and door-opening bracing · seam sealer and weld-through primer",
+    "parts": [
+     {
+      "name": "Floor pan, Scout II / Traveler / Terra (galvanized 16-ga)",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/3142-left-floor-pan-for-scout-ii"
+     },
+     {
+      "name": "Outer rocker panel, Scout II",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/3230-rocker-panel-scout-ii-replacement-rocker-outer"
+     },
+     {
+      "name": "Rear floor sill crossmember, 1971–80 Scout II / Terra / Traveler",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/sii-bod-rear-crssmbr.html"
+     },
+     {
+      "name": "Front rocker corner door-post braces ('dog legs'), Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/sii-bod-door-post-brace.html"
+     }
+    ]
+   },
+   {
+    "title": "Reinforce a cracking steering-box frame mount",
+    "diff": "3 / 5",
+    "time": "≈ Half a day, more if cracks need welding",
+    "cost": "Plate $16.95; Straight Steer brace about $164.95–199",
+    "symptoms": "Wandering steering, a box that moves when someone turns the wheel with the engine running, or visible cracks in the frame rail around the three steering-box bolts. Big tires and front lockers make it worse.",
+    "fix": "Remove the steering box (three bolts) and clean the frame. Drill the ends of any cracks, weld them, and grind the face smooth so a reinforcement plate sits flat against it. Fit a 3/16- or 1/4-inch plate (the CPT plate bolts straight on and can also be welded), and reinstall the box with new grade 8 bolts. While you're there, check behind the front spring hangers and the body mounts for cracks too. A Straight Steer-type brace ties the box to the opposite rail and is suggested for 33-inch or larger tires.",
+    "tools": "Socket set · drill and bits · welder and grinder (if cracked) · torque wrench",
+    "parts": [
+     {
+      "name": "CPT steering box reinforcement plate, 1971–80 Scout II / Terra / Traveler",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/cpt-strboxplt.html"
+     },
+     {
+      "name": "CPT grade 8 steering box mounting bolt set, 1971–80 Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/cpt-sii-strboxbolt-set.html"
+     },
+     {
+      "name": "Straight Steer steering brace, Scout II",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/2991-straight-steer-brace-scout-ii"
+     },
+     {
+      "name": "Borgeson lower steering joint (replaces rag joint), 1971–80 Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/borg-strjnt.html"
+     }
+    ]
+   },
+   {
+    "title": "Rear main seal on an IH V8",
+    "diff": "4 / 5",
+    "time": "≈ A weekend (the transmission has to come out)",
+    "cost": "Seal $69.95 plus spacer; full V8 gasket set about $162",
+    "symptoms": "Oil dripping from the bellhousing area and a wet oil pan rear lip. The engine-to-transmission joint is the giveaway, since valve-cover and pan-gasket leaks run down from higher up.",
+    "fix": "On Binder Planet, owners point out that the IH V8 uses a one-piece rear main seal, so the transmission has to come out to replace it properly. Remove the transmission (and clutch on manuals) and the flywheel or flexplate, then the old seal, and fit the new seal and spacer. Owners recommend a licensed reprint of the factory manual for the procedure. If you're chasing low oil pressure as well, check that oil reaches the rockers before replacing bearings: the SV V8's cam bearings feed the top end, and 5–10 psi at hot idle isn't unusual on these engines.",
+    "tools": "Transmission jack · flywheel holder · seal driver · factory service manual",
+    "parts": [
+     {
+      "name": "Rear main seal, IH 152/196/266/304/345/392",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/iheng-seal-rr.html"
+     },
+     {
+      "name": "Rear main seal spacer, IH 4-cyl and V8",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/iheng-gask-rss.html"
+     },
+     {
+      "name": "Complete IH V8 engine gasket set (includes rear main seal)",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/3240-complete-engine-gasket-kit-ih-v-8"
+     }
+    ]
+   },
+   {
+    "title": "Points or tired electronic ignition → Pertronix",
+    "diff": "2 / 5",
+    "time": "≈ 1–2 hours",
+    "cost": "Module about $144.95–196; coil extra",
+    "symptoms": "Hard starting, misfires, burnt points, or a failing stock electronic module that's hard to find.",
+    "fix": "Work out what you have first. Anything Scout sells three versions for V8 Scout IIs: 1971–75 points distributors, the 1975–77 'gold box' electronic system and the 1978–80 Prestolite electronic distributor. The first two install under the distributor cap. The 1978–80 Prestolite version needs the distributor removed, and Anything Scout says it must be used with a points-style coil, not the stock coil. Set the timing afterward. One Binder Planet owner's module and Flame-Thrower coil caught fire when a mechanic left the key on with the engine off for half an hour, so don't leave the ignition on.",
+    "tools": "Timing light · distributor wrench · test light",
+    "parts": [
+     {
+      "name": "Pertronix ignition, Scout II 1971–75 V8 (points)",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/2830-pertronix-ignition-71-75-scout-v-8"
+     },
+     {
+      "name": "Pertronix ignition, Scout II 1975–77 (gold box)",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/2831-pertronix-ignition-76-77-gold-box"
+     },
+     {
+      "name": "Pertronix ignition, Scout II 1978–80 (Prestolite distributor)",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/2832-pertronix-ignition-78-81-prestolite-dist"
+     },
+     {
+      "name": "Pertronix Flame-Thrower ignition coil",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/pnx-40011.html"
+     }
+    ]
+   },
+   {
+    "title": "Front ball joints (Dana 30 / Dana 44)",
+    "diff": "3 / 5",
+    "time": "≈ A day for both sides",
+    "cost": "About $157 per side (Spicer pair) or $49.95 per joint (Moog greaseable)",
+    "symptoms": "Wandering, clunks over bumps, uneven tire wear, and play at the top and bottom of the tire with the front end jacked up.",
+    "fix": "Scout II Dana 30 and Dana 44 open-knuckle axles use the same ball joints: two upper and two lower per axle. They press into the knuckles, and the lowers have snap rings. Remove the wheel, caliper, locking hub, wheel bearings and spindle, then slide out the axle shaft. Unbolt the tie rod, separate the knuckle from the axle C, and press out the old joints with a ball-joint tool. Press in the new joints, reassemble, set the camber sleeve, and get the alignment checked. On the IH Parts America forum, one owner advises to buy good joints rather than doing the job twice.",
+    "tools": "Ball-joint press (Dana 30/44 adapter) · spindle-nut socket · pickle fork · torque wrench",
+    "parts": [
+     {
+      "name": "Dana Spicer ball joints, upper and lower (one side), Scout II",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/3206-ball-joints-upper-and-lower-scout-ii"
+     },
+     {
+      "name": "Moog greaseable ball joints for Dana 30/44, Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/moog-bj-d44.html"
+     },
+     {
+      "name": "Ball joint tool for Dana 30 and Dana 44",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/pm-t40207.html"
+     },
+     {
+      "name": "Ball joint camber eccentric for Dana 30 or Dana 44",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/d44-bjcb.html"
+     }
+    ]
+   },
+   {
+    "title": "Front disc brakes, wheel bearings and seals",
+    "diff": "3 / 5",
+    "time": "≈ A day",
+    "cost": "About $350 for a complete front disc kit; wheel bearing kit $74.95",
+    "symptoms": "Pulling, a soft pedal, grinding, or play in the wheel. Even when new, the brakes were the weak point: Motor Sport's 1978 test said they tended to pull and twitch.",
+    "fix": "Jack and support the front, remove the wheels, calipers and locking hubs, and take off the hub and rotor. Clean out the old grease, replace the inner seal, and repack or replace the bearings. Fit new rotors, pads and calipers, adjust the bearing preload with the spindle nuts, and bleed the brakes. Anything Scout's front kit covers 1974–80 Scout IIs with a Dana 44, and it notes that excessive lateral wheel movement means you need new bearings and seals. Do the rear drums at the same time.",
+    "tools": "Wheel-bearing (spindle nut) socket · bearing packer · seal driver · brake bleeder",
+    "parts": [
+     {
+      "name": "Complete front disc brake rebuild kit, 1974–80 Scout II (Dana 44)",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/complete-front-disc-rebuild-kit-scout-ii"
+     },
+     {
+      "name": "Wheel bearing kit, 1972–80 Scout II / Terra / Traveler",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/sii-whl-brg-set.html"
+     },
+     {
+      "name": "Front wheel bearing hub seal, 1971–80 Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/sii-whl-brg-seal.html"
+     },
+     {
+      "name": "Rear drum brake rebuild kit, 1974–80 Scout II",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/3044-complete-rear-drum-brake-service-kit"
+     }
+    ]
+   },
+   {
+    "title": "Tired leaf springs and shackle bushings",
+    "diff": "3 / 5",
+    "time": "≈ A weekend",
+    "cost": "Bushing kit $33.95; stock-height spring set $819.95; reverse-shackle kit $349.95",
+    "symptoms": "A truck that sits low or leans, clunks from the shackles, tires rubbing on 31s, and a harsh ride.",
+    "fix": "Support the frame, jack each axle in turn and unbolt the U-bolts, shackles and spring eyes. Swap worn bushings or whole springs, check the spring hangers for cracks, and torque everything with the truck's weight on the wheels. For 31-inch tires without rubbing, IH Parts America's owner recommends its CPT reverse-shackle kit with a 2.5-inch spring lift. Anything Scout says the Rough Country 2.5-inch kit fits up to a 32-inch tire safely.",
+    "tools": "Floor jack and stands · breaker bar · penetrating oil · bushing press or vise",
+    "parts": [
+     {
+      "name": "Rough Country leaf spring / shackle bushing kit, 1971–80 Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/sii-sprgbush-kit-rc.html"
+     },
+     {
+      "name": "Stock-height front & rear leaf spring set, 1971–80 Scout II",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/sii-leafspring-set.html"
+     },
+     {
+      "name": "CPT reverse shackle kit, 1971–80 Scout II / Terra / Traveler",
+      "supplier": "IH Parts America",
+      "url": "https://www.ihpartsamerica.com/store/cpt-rvrs-shkl-kit.html"
+     },
+     {
+      "name": "Stock shackles, set of 4, Scout II",
+      "supplier": "Anything Scout",
+      "url": "https://anythingscout.com/products/3129-stock-shackles-set-of-4-scout-ii"
+     }
+    ]
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing has been done. Scout IIs are simple and almost everything is still available, but they're also 45-plus years old. Start by finding your line ticket, which tells you exactly which engine, axles, ratio and transmission you have. The IH V8s are flat-tappet engines, so choose oil with enough zinc.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "7 qt with filter on Scout II 4x4s (IH Parts America tech moderator) · high-zinc (ZDDP) oil, e.g. 15W-40 or 20W-50 for a worn engine",
+     "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+     "note": "It reads one quart over on the dipstick. On Binder Planet, owners warn that modern low-zinc oils aren't right for the IH flat-tappet cam.",
+     "parts": [
+      {
+       "name": "NAPA Gold spin-on oil filter, IH 152/196/266/304/345/392",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-oil-filtr.html"
+      },
+      {
+       "name": "Baldwin B2 spin-on oil filter, IH engines",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/bwn-b2.html"
+      },
+      {
+       "name": "Baldwin oil filter, 1976–80 Scout II Nissan diesel",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/bwn-pt153.html"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "IH 196/266/304/345/392 element; separate elements for SD33 and SD33T diesels",
+     "interval": "Inspect at every oil change",
+     "note": "The 1980 turbo-diesel uses its own filter.",
+     "parts": [
+      {
+       "name": "Air filter, IH 196/266/304/345/392",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-fil-air.html"
+      },
+      {
+       "name": "Air filter, 1980 Scout II SD33T turbo-diesel",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-fil-air-sd33t.html"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs, cap and rotor",
+     "spec": "Champion RJ12YC or NGK 3332 (IH Parts America fitment) · gap [CONFIRM IN MANUAL]",
+     "interval": "At purchase, then per manual",
+     "note": "Caps differ by distributor: Holley, Delco or Prestolite. Check yours before ordering.",
+     "parts": [
+      {
+       "name": "NGK 3332 spark plugs, set of 8, IH V8",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-ign-sprkplg-ngk-8.html"
+      },
+      {
+       "name": "Champion RJ12YC spark plugs, set of 8, IH V8",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-ign-sprkplg-chmp-8.html"
+      },
+      {
+       "name": "Distributor cap, IH V8 with Prestolite distributor",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sl493062c1.html"
+      }
+     ]
+    },
+    {
+     "item": "Coolant, thermostat & water-pump tube O-rings",
+     "spec": "About 20 qt cooling system (AMSOIL lists 20.1 qt for the 5.0 L V8) · coolant type [CONFIRM IN MANUAL]",
+     "interval": "Flush at purchase, then every 2 years",
+     "note": "The IH V8 water pump feeds through a separate tube sealed with O-rings. Replace them whenever the pump comes off; a complete IH V8 gasket set includes four.",
+     "parts": [
+      {
+       "name": "Robertshaw thermostat, IH 152/196/266/304/345/392",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-tstat.html"
+      },
+      {
+       "name": "Water pump tube O-ring, IH engines",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sl356005r1.html"
+      },
+      {
+       "name": "New water pump, IH 4-cyl and V8",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/iheng-wtrpmp-n.html"
+      }
+     ]
+    },
+    {
+     "item": "Automatic transmission (Chrysler A727)",
+     "spec": "ATF · AMSOIL lists 5 qt initial fill · fluid type [CONFIRM IN MANUAL]",
+     "interval": "Drain, new filter and refill at purchase",
+     "note": "Moses Ludel of 4WD Mechanix credits the A727's lack of overdrive with helping it survive. Do a pan drop and filter change, not a pressure flush.",
+     "parts": [
+      {
+       "name": "RockAuto catalog, 1978 International Scout II (transmission filter kits)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/international,1978,scout+ii"
+      }
+     ]
+    },
+    {
+     "item": "Manual transmission (T-19 / T-18 / T-15 etc.)",
+     "spec": "AMSOIL's Scout II listing gives engine-oil grades (10W-40 class) for the manual gearboxes · [CONFIRM IN MANUAL]",
+     "interval": "Change at purchase",
+     "note": "Factory boxes vary by year and engine. The line ticket tells you which one you have.",
+     "parts": [
+      {
+       "name": "Super Scout Specialists — transmission parts search",
+       "supplier": "Super Scout Specialists",
+       "url": "https://www.superscoutspecialists.com/search?q=transmission"
+      }
+     ]
+    },
+    {
+     "item": "Transfer case (Dana 20; Dana 300 in 1980)",
+     "spec": "AMSOIL lists 3.4 pints for the two-speed case · lubricant grade [CONFIRM IN MANUAL]",
+     "interval": "Change at purchase; check for leaks at the output seals",
+     "note": "The 1980 Dana 300 was a one-year fit. Gasket, seal and overhaul kits are still made for the Dana 20.",
+     "parts": [
+      {
+       "name": "Dana 20 transfer case gasket & seal kit, Scout 800 / Scout II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/tcase-d20-gask-kit.html"
+      },
+      {
+       "name": "Transfer case output shaft seal, Dana 18/20/300",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sl441515c1.html"
+      }
+     ]
+    },
+    {
+     "item": "Front & rear differentials (Dana 30 / Dana 44)",
+     "spec": "GL-5 85W-140 or 90 · AMSOIL lists 4.2 pt front, 3 pt rear · add friction modifier for Trac-Lok",
+     "interval": "Change at purchase and after deep water",
+     "note": "The line ticket or the axle tag shows the ratio (2.72 to 4.54) and whether there's a Trac-Lok.",
+     "parts": [
+      {
+       "name": "RockAuto catalog, 1978 International Scout II (differential parts)",
+       "supplier": "RockAuto",
+       "url": "https://www.rockauto.com/en/catalog/international,1978,scout+ii"
+      },
+      {
+       "name": "Dana 44 differential master install kit",
+       "supplier": "Anything Scout",
+       "url": "https://anythingscout.com/products/3089-differential-master-install-kit-dana-44"
+      }
+     ]
+    },
+    {
+     "item": "Front wheel bearings, seals & locking hubs",
+     "spec": "Repack with wheel-bearing grease · new inner seals",
+     "interval": "At purchase, then per manual [CONFIRM IN MANUAL]",
+     "note": "Pull the locking hubs and check them while you're in there. Rebuilt or replacement Warn hubs are available.",
+     "parts": [
+      {
+       "name": "Wheel bearing kit, 1972–80 Scout II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sii-whl-brg-set.html"
+      },
+      {
+       "name": "Front wheel bearing hub seal, 1971–80 Scout II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sii-whl-brg-seal.html"
+      },
+      {
+       "name": "Wheel bearing nut kit, Scout 80/800/II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sii-whl-brg-nut-kit.html"
+      }
+     ]
+    },
+    {
+     "item": "Steering: power steering fluid, rag joint & box bolts",
+     "spec": "Dexron-II-type ATF (AMSOIL's AF2 equivalent)",
+     "interval": "Check at purchase",
+     "note": "Check the rag joint for play and the steering-box frame mount for cracks. New grade 8 box bolts are cheap.",
+     "parts": [
+      {
+       "name": "Steering rag joint, 1971–80 Scout II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sii-ragjoint-new.html"
+      },
+      {
+       "name": "CPT grade 8 steering box bolt set, Scout II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/cpt-sii-strboxbolt-set.html"
+      }
+     ]
+    },
+    {
+     "item": "Brake fluid & hoses",
+     "spec": "DOT 3",
+     "interval": "Flush at purchase, then every 2 years",
+     "note": "Replace old rubber brake hoses. If the pedal is poor, check the master cylinder and booster too.",
+     "parts": [
+      {
+       "name": "New brake master cylinder, 1974–80 Scout II / Terra / Traveler",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/sii-brk-mc-new.html"
+      },
+      {
+       "name": "Braided brake hose kit, Scout II",
+       "supplier": "Anything Scout",
+       "url": "https://anythingscout.com/products/3053-braided-brake-hose-kit-standard"
+      }
+     ]
+    },
+    {
+     "item": "Fuel filter & rubber fuel lines",
+     "spec": "Inline 5/16-in filter on V8s; spin-on filter on SD33 diesels",
+     "interval": "At purchase",
+     "note": "Replace cracked rubber fuel hose. In-tank sender filters are also available.",
+     "parts": [
+      {
+       "name": "Metal inline fuel filter, 5/16-in",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/fuel-filt-inl-5-16-m.html"
+      },
+      {
+       "name": "Baldwin spin-on fuel filter, Nissan SD33/SD33T",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/bwn-bf941.html"
+      }
+     ]
+    },
+    {
+     "item": "Driveshaft U-joints & grease points",
+     "spec": "Chassis grease",
+     "interval": "At purchase and every oil change",
+     "note": "Greaseable ball joints (Moog) add zerks up front.",
+     "parts": [
+      {
+       "name": "Driveshaft U-joint",
+       "supplier": "Anything Scout",
+       "url": "https://anythingscout.com/products/3212-u-joint-driveline-driveshaft"
+      }
+     ]
+    },
+    {
+     "item": "Line ticket & factory manual",
+     "spec": "Build sheet for your VIN; licensed IH service manual reprints",
+     "interval": "Once",
+     "note": "The line ticket settles every 'which part do I need' question. Factory service manuals are split 1971–75, 1976–77 and 1978–80.",
+     "parts": [
+      {
+       "name": "Line Set Ticket — factory build sheet",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/lst.html"
+      },
+      {
+       "name": "Service manual set, 1978–80 Scout II / Terra / Traveler",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/bb-cts-2313.html"
+      },
+      {
+       "name": "Service manual, 1971–75 Scout II",
+       "supplier": "IH Parts America",
+       "url": "https://www.ihpartsamerica.com/store/bb-cts-2304.html"
+      }
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "There's no clean stock answer, because 31s are already marginal. One owner of a 1977 Scout II said his 31s rubbed. IH Parts America's owner recommends a reverse-shackle kit and a 2.5-inch spring lift to run 31s without rubbing, and at least a 1-inch body lift plus a steering upgrade for 33s. Anything Scout rates the Rough Country 2.5-inch kit for up to a 32-inch tire. Plan on stock-sized tires (around 30 inches) if you won't lift it.",
+    "src": "IH PARTS AMERICA FORUM"
+   },
+   {
+    "q": "Which engine should I look for?",
+    "a": "The 345 V8 is the one most people want. Moses Ludel of 4WD Mechanix calls it 'one of the strongest and most durable gasoline V-8s ever built,' and Motor Sport's 1978 test of a 345 automatic gave 163 bhp and 292 lb-ft. The 304 is the same family. The 196 four is slow but simple, and the AMC sixes and Nissan diesels are rarer.",
+    "src": "4WD MECHANIX · MOTOR SPORT"
+   },
+   {
+    "q": "Does mine have a Dana 30 or Dana 44 front axle?",
+    "a": "Until 1974 the Dana 30 was standard at the front, with a Dana 44 as a special order in 1974. After 1974 every Scout II had Dana 44s at both ends. If the front cover is smaller and rounder than the rear one, it's a Dana 30. The line ticket confirms the axle and ratio.",
+    "src": "SUPER SCOUT SPECIALISTS"
+   },
+   {
+    "q": "How do I tell what year it is?",
+    "a": "Look at the grille. 1971–72 trucks have three horizontal bars; 1973 has 14 vertical bars; 1974–75 adds a vertical-bar overlay, with square chrome-and-black headlight rings on 1975. 1976 has a one-year 15-bar grille in three sections, 1977–79 has two big horizontal bars, and 1980 has a one-piece plastic grille with square headlights.",
+    "src": "SUPER SCOUT SPECIALISTS"
+   },
+   {
+    "q": "What's a line ticket and where do I find it?",
+    "a": "It's the factory build sheet for your VIN, showing the engine, transmission, axles, gear ratio, paint and options. On 1971–76 Scout IIs it's under the hood on the cowl; on 1977–80 trucks it's inside the glove box door. If yours is missing, you can order a replacement.",
+    "src": "WIKIPEDIA · IH PARTS AMERICA"
+   },
+   {
+    "q": "What oil should I run?",
+    "a": "About 7 quarts with a filter, according to an IH Parts America tech moderator. The IH V8 has a flat-tappet cam, and Binder Planet members recommend a high-zinc oil such as a 15W-40 diesel oil (or 20W-50 in a worn engine) rather than a modern low-zinc synthetic.",
+    "src": "IHPA FORUM · BINDER PLANET"
+   },
+   {
+    "q": "How good is the fuel economy?",
+    "a": "Not good with a V8. Motor Sport got 10 mpg on a fast motorway run in a 345 automatic and expected about 14 in gentler use. Super Scout Specialists claims 20 mpg in the city and up to 30 on the highway for the Nissan diesels.",
+    "src": "MOTOR SPORT · SSS"
+   },
+   {
+    "q": "Is the diesel worth hunting for?",
+    "a": "If you want something rare, yes. Super Scout Specialists counts 10,182 diesel Scouts: 4,222 naturally aspirated SD33s from 1976 to 1979, then 571 SD33T turbos in 1979 and 5,389 in 1980. Filters, water pumps and seals are still listed, but it's a slow, specialist engine, so check that the seller has records.",
+    "src": "SUPER SCOUT SPECIALISTS"
+   },
+   {
+    "q": "Traveltop, Traveler, Terra or SSII: what's the difference?",
+    "a": "The Scout II is the 100-inch-wheelbase truck with a steel Traveltop, half-cab Roadster top or soft top. The 1976–80 Traveler and Terra are 18 inches longer, with a fiberglass full top and hatch (Traveler) or a half-cab pickup (Terra). The 1977–79 SSII is the stripped soft-top off-roader with a plastic grille and roll bar.",
+    "src": "WIKIPEDIA · OCTANE PRESS"
+   },
+   {
+    "q": "Does it have lockers, and how does the 4WD work?",
+    "a": "There were no factory lockers. Trac-Lok limited-slip differentials were optional. The transfer case is manually shifted, with 2WD high, 4WD high and 4WD low, and the front hubs are free-wheeling. For 33-inch tires, Jim Weed's Off-Road.com build list recommends a front locker, a Detroit or ARB at the rear, and 4.10 gears.",
+    "src": "WIKIPEDIA · MOTOR SPORT · OFF-ROAD.COM"
+   },
+   {
+    "q": "What are they worth?",
+    "a": "Hagerty gives a median condition #2 value of $42,200 for 1972–80 Scout IIs. SSIIs are the most valuable at $64,750, while some configurations sit below $30,000. Values have levelled off or dipped slightly since 2022.",
+    "src": "HAGERTY"
+   },
+   {
+    "q": "How many were built?",
+    "a": "Hagerty puts Scout II production at about 260,000. Super Scout Specialists' yearly figures run from 31,866 (1975) to 44,434 (1979), with only 13,106 in 1980. About 4,000 SSIIs were built from 1977 to 1979.",
+    "src": "HAGERTY · SSS"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "SUSPENSION LIFT",
+    "why": "Fresh springs and a mild lift undo decades of sag and clear 31–32-inch tires. Reverse shackles improve the ride and the clearance up front.",
+    "who": [
+     {
+      "name": "IH Parts America — CPT reverse shackle kit",
+      "url": "https://www.ihpartsamerica.com/store/cpt-rvrs-shkl-kit.html"
+     },
+     {
+      "name": "Anything Scout — Rough Country 2.5-in lift kit",
+      "url": "https://anythingscout.com/products/3362-scout-ii-rough-country-4-suspension-lift-kit"
+     },
+     {
+      "name": "Crawler Proven Technology (CPT)",
+      "url": "https://www.crawlerproventechnology.com/"
+     }
+    ]
+   },
+   {
+    "cat": "STEERING",
+    "why": "Bigger tires overload the steering-box mount and the rag joint. A brace, a Borgeson joint and a rebuilt or hydro-assist box make the truck track straight.",
+    "who": [
+     {
+      "name": "Anything Scout — Straight Steer brace",
+      "url": "https://anythingscout.com/products/2991-straight-steer-brace-scout-ii"
+     },
+     {
+      "name": "IH Parts America — Borgeson lower steering joint",
+      "url": "https://www.ihpartsamerica.com/store/borg-strjnt.html"
+     },
+     {
+      "name": "IH Parts America — PSC hydro-assist-ready steering box",
+      "url": "https://www.ihpartsamerica.com/store/psc-sii-pwrstr-box.html"
+     }
+    ]
+   },
+   {
+    "cat": "BRAKES",
+    "why": "Even new, the brakes were the weak link. A rebuilt front end, braided hoses and a bigger booster are the usual fixes.",
+    "who": [
+     {
+      "name": "Anything Scout — complete front disc rebuild kit",
+      "url": "https://anythingscout.com/products/complete-front-disc-rebuild-kit-scout-ii"
+     },
+     {
+      "name": "IH Parts America — 11-in booster with master cylinder",
+      "url": "https://www.ihpartsamerica.com/store/dnc-sii-brk-boostr-bbk.html"
+     }
+    ]
+   },
+   {
+    "cat": "LOCKERS, GEARS & HUBS",
+    "why": "There were no factory lockers, and taller tires need lower gears. Dana 44 parts are shared with half the 4x4 world.",
+    "who": [
+     {
+      "name": "ARB (Air Locker)",
+      "url": "https://arbusa.com/"
+     },
+     {
+      "name": "IH Parts America — Warn premium locking hubs, 1972–80 Scout II",
+      "url": "https://www.ihpartsamerica.com/store/warn-9062.html"
+     },
+     {
+      "name": "Anything Scout — Dana 44 master install kit",
+      "url": "https://anythingscout.com/products/3089-differential-master-install-kit-dana-44"
+     }
+    ]
+   },
+   {
+    "cat": "IGNITION & FUEL",
+    "why": "Electronic ignition is the cheapest reliability upgrade for an IH V8, and throttle-body EFI brackets are made for the Scout.",
+    "who": [
+     {
+      "name": "Anything Scout — Pertronix by year",
+      "url": "https://anythingscout.com/products/2832-pertronix-ignition-78-81-prestolite-dist"
+     },
+     {
+      "name": "IH Parts America — CPT fuel filter bracket (Holley Sniper)",
+      "url": "https://www.ihpartsamerica.com/store/cpt-hlysniper-fuelfilbrckt.html"
+     }
+    ]
+   },
+   {
+    "cat": "BODY & RUST",
+    "why": "Every Scout needs metal eventually. Floors, rockers, quarters and rear crossmembers are all reproduced.",
+    "who": [
+     {
+      "name": "IH Parts America — Scout II floors and supports",
+      "url": "https://www.ihpartsamerica.com/search.html?Search=scout+ii+floor"
+     },
+     {
+      "name": "Anything Scout — rockers and floor pans",
+      "url": "https://anythingscout.com/search?q=rocker"
+     },
+     {
+      "name": "Super Scout Specialists — steel body parts",
+      "url": "https://www.superscoutspecialists.com/Steel-Body-Parts"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1971–1980 · US",
+    "label": "Scout II (all)",
+    "at_url": "https://www.autotempest.com/results?make=international&model=scoutii&minyear=1971&maxyear=1980",
+    "bat_url": "https://bringatrailer.com/international-harvester/scout-ii/"
+   },
+   {
+    "years": "1976–1980 · US",
+    "label": "Scout II Traveler (118-in)",
+    "at_url": "https://www.autotempest.com/results?make=international&model=scout&minyear=1976&maxyear=1980",
+    "bat_url": "https://bringatrailer.com/international-harvester/scout-ii-traveler/"
+   },
+   {
+    "years": "1976–1980 · US",
+    "label": "Scout II Terra pickup",
+    "at_url": "https://www.autotempest.com/results?make=international&model=terra",
+    "bat_url": "https://bringatrailer.com/international-harvester/scout-ii-terra/"
+   },
+   {
+    "years": "1977–1979 · US",
+    "label": "Super Scout II (SSII)",
+    "at_url": "https://www.autotempest.com/results?make=international&model=scout&minyear=1977&maxyear=1979",
+    "bat_url": "https://bringatrailer.com/international-harvester/scout-ii-ssii/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "Anything Scout",
+    "focus": "SCOUT II PARTS & TECH TIPS",
+    "url": "https://www.youtube.com/user/anythingscout"
+   },
+   {
+    "kind": "YT",
+    "name": "Super Scout Specialists",
+    "focus": "SCOUT PARTS & RESTORATION",
+    "url": "https://www.youtube.com/channel/UCp7ARCJrDlU4sRl1w_vgcpQ"
+   },
+   {
+    "kind": "YT",
+    "name": "BinderPlanet",
+    "focus": "IH SCOUT COMMUNITY",
+    "url": "https://www.youtube.com/user/BinderPlanet"
+   },
+   {
+    "kind": "YT",
+    "name": "Jacks Custom Restoration",
+    "focus": "1979 SCOUT II RESTORATION SERIES",
+    "url": "https://www.youtube.com/@jackscustomrestoration44"
+   },
+   {
+    "kind": "YT",
+    "name": "Cars with Nash",
+    "focus": "SCOUT II PROJECT SERIES",
+    "url": "https://www.youtube.com/@CarswithNash"
+   },
+   {
+    "kind": "YT",
+    "name": "SilverbackCustomWorks",
+    "focus": "SCOUT II RESTORATIONS",
+    "url": "https://www.youtube.com/@SilverbackCustomWork"
+   },
+   {
+    "kind": "IG",
+    "name": "@anythingscout",
+    "focus": "SCOUT PARTS & BUILDS",
+    "url": "https://www.instagram.com/anythingscout/"
+   },
+   {
+    "kind": "IG",
+    "name": "@superscoutparts",
+    "focus": "SCOUT PARTS & RESTORATIONS",
+    "url": "https://www.instagram.com/superscoutparts/"
+   },
+   {
+    "kind": "IG",
+    "name": "@ihscoutswest",
+    "focus": "SCOUT CLUB · TRAIL RUNS",
+    "url": "https://www.instagram.com/ihscoutswest/"
+   },
+   {
+    "kind": "IG",
+    "name": "@internationalscoutii",
+    "focus": "SCOUT II FEATURES",
+    "url": "https://www.instagram.com/internationalscoutii/"
+   }
+  ],
+  "forums": [
+   {
+    "name": "Binder Planet — General IH Tech",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/general-ih-tech.4/",
+    "note": "The deepest Scout II tech archive"
+   },
+   {
+    "name": "IH Parts America forums",
+    "url": "https://forums.ihpartsamerica.com/",
+    "note": "Lift, tire and fitment answers from the parts supplier's staff"
+   },
+   {
+    "name": "Binder Planet — SSII",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/ssii.10/",
+    "note": "Super Scout II specifics"
+   },
+   {
+    "name": "Binder Planet — Diesel Tech",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/diesel-tech.5/",
+    "note": "SD33 and SD33T diesel Scouts"
+   },
+   {
+    "name": "Binder Planet — Restoration Purists",
+    "url": "https://www.binderplanet.com/forums/index.php?forums/restoration-purists.71/",
+    "note": "Correct-to-factory details"
+   }
+  ],
+  "related": [
+   {
+    "rel": "PREDECESSOR",
+    "name": "Scout 80 / 800",
+    "family": "scout",
+    "gen": "scout-80-800"
+   },
+   {
+    "rel": "REVIVAL",
+    "name": "Scout Motors (new)",
+    "family": "scout",
+    "gen": "scout-motors"
+   },
+   {
+    "rel": "BAJA RIVAL",
+    "name": "Jeep CJ-7",
+    "family": "jeep",
+    "gen": "cj-7"
+   },
+   {
+    "rel": "MONTEVERDI'S TARGET",
+    "name": "Range Rover Classic",
+    "family": "range-rover",
+    "gen": "classic"
+   }
+  ],
+  "plate": [
+   {
+    "k": "BUILT",
+    "v": "Fort Wayne, Indiana · April 1971 – Oct 21, 1980"
+   },
+   {
+    "k": "PRODUCTION",
+    "v": "≈ 260,000 (Hagerty)"
+   },
+   {
+    "k": "CHASSIS",
+    "v": "Ladder frame, leaf springs front & rear"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "100 in · 118 in (Traveler, Terra)"
+   },
+   {
+    "k": "BODIES",
+    "v": "Traveltop, Roadster half-cab, soft top · Traveler, Terra · SSII"
+   },
+   {
+    "k": "ENGINES",
+    "v": "IH 196 I4, 304 & 345 V8 · AMC 232/258 I6 · Nissan SD33/SD33T"
+   },
+   {
+    "k": "TRANSMISSIONS",
+    "v": "Borg-Warner 3- & 4-speed manuals · 3-speed auto incl. Chrysler A727"
+   },
+   {
+    "k": "TRANSFER CASE",
+    "v": "Dana 20 · Dana 300 (1980 only)"
+   },
+   {
+    "k": "AXLES",
+    "v": "Dana 30 / 44 to 1974 · Dana 44 / 44 after"
+   },
+   {
+    "k": "RATIOS",
+    "v": "2.72 to 4.54 · Trac-Lok optional"
+   },
+   {
+    "k": "BRAKES",
+    "v": "Power front discs standard from late 1974"
+   },
+   {
+    "k": "GVWR",
+    "v": "6,200 lb from 1975–76 (XLC)"
+   }
+  ],
+  "photos": [
+   {
+    "file": "scout-ii-wolford-rock-crawl.jpg",
+    "alt": "A blue Scout II on big tires crawling over boulders at Wolford Mountain Recreation Area, Colorado",
+    "caption": "SCOUT II · WOLFORD MOUNTAIN, COLORADO",
+    "credit": "Vanessa Lacayo, Bureau of Land Management · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:My_Public_Lands_Roadtrip-_Wolford_Mountain_Recreation_Area_in_Colorado_(19221904543).jpg"
+   },
+   {
+    "file": "scout-ii-lake-pleasant-trail.jpg",
+    "alt": "A blue and white Scout II Traveltop on a desert dirt trail among cacti at Lake Pleasant Regional Park, Arizona",
+    "caption": "SCOUT II · LAKE PLEASANT, ARIZONA",
+    "credit": "Rshphx1 · CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Don_Beckerleg_in_his_Scout.JPG"
+   },
+   {
+    "file": "scout-ii-1976-farm.jpg",
+    "alt": "A black 1976 Scout II with roof rack and all-terrain tires parked on gravel beside a red farm building",
+    "caption": "1976 SCOUT II · FARMYARD, MINNESOTA",
+    "credit": "Greg Gjerdingen · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:76_International_Harvester_Scout_II_(8111475521).jpg"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — International Scout",
+    "url": "https://en.wikipedia.org/wiki/International_Scout"
+   },
+   {
+    "name": "Super Scout Specialists — Frequently Asked Questions (production, axles, grilles, diesel figures)",
+    "url": "https://www.superscoutspecialists.com/frequently-asked-questions"
+   },
+   {
+    "name": "Octane Press — Jim Allen, The Top-Ten Most Influential Scout Models (2019)",
+    "url": "https://octanepress.com/content/top-ten-most-influential-scout-models"
+   },
+   {
+    "name": "Hagerty — Love vintage Broncos? Scout this '70s alternative",
+    "url": "https://www.hagerty.com/media/market-trends/hagerty-insider/love-vintage-broncos-scout-out-this-70s-alternative/"
+   },
+   {
+    "name": "Motor Sport — The International Harvester Scout SS II Goldstar Baja Cruiser (December 1978)",
+    "url": "https://www.motorsportmagazine.com/archive/article/december-1978/60/the-international-harvester-scout-ss-ii-goldstar-b/"
+   },
+   {
+    "name": "Corsetti Cruisers — Buyer's Guide: International Scout II, top 5 things to look out for",
+    "url": "https://www.corsetticruisers.com/post/buyer-s-guide-international-scout-ii-top-5-things-to-look-out-for"
+   },
+   {
+    "name": "4WD Mechanix forum — 1974–1980 IH Scout II (Moses Ludel)",
+    "url": "https://forums.4wdmechanix.com/topic/974-1980-ih-scout-ii/"
+   },
+   {
+    "name": "4Low Magazine — Old school transfer case history (Dana 300)",
+    "url": "https://4lowmagazine.com/old-school-transfer-case-history"
+   },
+   {
+    "name": "Off-Road.com — Scout II frame tips",
+    "url": "https://off-road.com/trucks-4x4/scout-ii-frame-tips-19315.html"
+   },
+   {
+    "name": "Off-Road.com — Jim Weed, Serious off-road buildup tips for Scout IIs with 33-in tires (2006)",
+    "url": "https://off-road.com/trucks-4x4/project/project1517.html"
+   },
+   {
+    "name": "IH Parts America forum — Suspension parts question (31-in tires)",
+    "url": "https://forums.ihpartsamerica.com/goto/post?id=52776"
+   },
+   {
+    "name": "IH Parts America forum — Scout engine oil (7 qt)",
+    "url": "https://forums.ihpartsamerica.com/threads/scout-engine-oil.6079"
+   },
+   {
+    "name": "IH Parts America forum — Steering box frame issue",
+    "url": "https://forums.ihpartsamerica.com/threads/steering-box-frame-issue.12521"
+   },
+   {
+    "name": "IH Parts America forum — Ball joint question (Dana 30/44 share joints)",
+    "url": "https://forums.ihpartsamerica.com/threads/ball-joint-question.8749"
+   },
+   {
+    "name": "IH Parts America forum — New wheels and tires",
+    "url": "https://forums.ihpartsamerica.com/threads/new-wheels-and-tires.5072"
+   },
+   {
+    "name": "Binder Planet — Rear main seal problems (one-piece seal, zinc oil)",
+    "url": "https://www.binderplanet.com/forums/index.php?threads/rear-main-seal-problems.159426/"
+   },
+   {
+    "name": "Binder Planet — Pertronix Ignitor 1483 or 1483A (don't leave the ignition on)",
+    "url": "https://www.binderplanet.com/forums/index.php?threads/pertronix-ignitor-1483-or-1483a-dont-leave-the-ign-on-when-engine-aint-being-run.102277/"
+   },
+   {
+    "name": "AMSOIL — 1980 International Scout II 5.0L V8 lubricant and capacity lookup",
+    "url": "https://www.amsoil.com/lookup/auto-and-light-truck/1980/international/scout-ii/5-0l-8-cyl-engine-code-c-c/"
+   },
+   {
+    "name": "Anything Scout — Pertronix, heater, ball joint, brake and lift kit product notes",
+    "url": "https://anythingscout.com/"
+   },
+   {
+    "name": "IH Parts America — parts catalog (fitment and prices)",
+    "url": "https://www.ihpartsamerica.com/"
+   },
+   {
+    "name": "Wikipedia — Nissan SD engine (SD33, SD33T)",
+    "url": "https://en.wikipedia.org/wiki/Nissan_SD_engine"
+   },
+   {
+    "name": "Wikipedia — Monteverdi Safari",
+    "url": "https://en.wikipedia.org/wiki/Monteverdi_Safari"
+   },
+   {
+    "name": "Wikipedia — List of International Harvester/Navistar engines",
+    "url": "https://en.wikipedia.org/wiki/List_of_International_Harvester/Navistar_engines"
+   }
+  ]
+ }
+}
