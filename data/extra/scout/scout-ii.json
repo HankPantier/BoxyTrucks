@@ -1,0 +1,287 @@
+{
+ "fitment": {
+  "stock": [
+   "10-15LT on 15x7 chrome rally wheels (1976 Spirit of 76 line-ticket codes)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "The rear wheel openings are only about 30 in front to back and were drawn around a 33-in tire. Anything bigger will hit the arch at full stuff."
+   },
+   {
+    "lift": "2.5 in",
+    "size": "32x11.50R15",
+    "note": "One owner on a Rough Country 2.5-in spring lift with 10-in rims says they never hit on the street but definitely hit the back of the rear wheel wells off-road. 33s need more lift (body or spring) and longer bump stops."
+   },
+   {
+    "lift": "Spring-over",
+    "size": "33x12.50R15",
+    "note": "Even with a spring-over, a 1-in body lift and minor trimming, 33x12.50s can still touch at full articulation. Stiffer springs or lower bump stops help."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1971",
+   "change": "Scout II replaces the 800B in April. 100-in wheelbase, Dana 30 front and Dana 44 rear; 196 four, AMC 232 six, IH 304 and 345 V8s. Some early trucks have 'Scout 810' glovebox badges. Three-bar grille with chrome headlight rings for 1971–72",
+   "flag": "note"
+  },
+  {
+   "year": "1973",
+   "change": "New grille with 14 vertical bars. From September 30, 1972 the serial numbers switch to the CGD prefix",
+   "flag": "note"
+  },
+  {
+   "year": "1974",
+   "change": "Power front disc brakes become standard late in the year (a rare option earlier in 1974)",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "Dana 44 front and rear become standard on all Scout IIs, which is the axle combination owners want",
+   "flag": "buy"
+  },
+  {
+   "year": "1976",
+   "change": "118-in-wheelbase Traveler and Terra arrive. Nissan SD33 diesel option. Every Scout's GVWR is rated at 6,200 lb to avoid catalytic converters. Automatic shifter moves to the floor. Spirit of 76 and Patriot editions",
+   "flag": "note"
+  },
+  {
+   "year": "1977",
+   "change": "Super Scout II (SSII) introduced in February: soft top, soft doors, roll bar and plastic grille, in Rancher Special, Brush Buster, Sport and Baja Cruiser versions. Built until 1979. New grille for 1977–79",
+   "flag": "note"
+  },
+  {
+   "year": "1979",
+   "change": "Catalytic converters arrive on Scouts",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Final year: one-piece ABS plastic grille, turbocharged SD33T diesel, and the Dana 300 transfer case (2.62:1 low range), fitted only in 1980. The last Scout was built on October 21, 1980",
+   "flag": "buy"
+  }
+ ],
+ "identify": {
+  "intro": "Scout IIs have been re-powered, re-axled and re-bodied for decades. The serial number and the factory line ticket tell you what the truck started as.",
+  "items": [
+   {
+    "head": "Serial prefix = year",
+    "body": "1971–72 Scout IIs use G-prefix serials (G425128 onward). From late 1972 the prefix carries a year letter: CGD = 1973, DGD = 1974, EGD = 1975, FGD = 1976, GGD = 1977, HGD = 1978, JGD = 1979, KGD = 1980 (Super Scout Specialists' catalogue ranges)."
+   },
+   {
+    "head": "Line ticket location",
+    "body": "1971–76 Scout IIs carry a copy of the line ticket under the hood on the cowl cover panel; 1977–80 trucks have it inside the glovebox door. Lost tickets can be reordered from Scout specialists. Use the ticket to confirm engine, transmission, axles, gear ratio, Trac-Lok limited slip and paint."
+   },
+   {
+    "head": "Codes worth knowing",
+    "body": "Line-ticket engine codes include 12211 (Nissan SD33 diesel, '76–'79) and 12212 (SD33T turbo-diesel, '79–'80). Transfer-case code 13146 is the Dana 300, which was only fitted in 1980. Front-axle code 02044 is the Dana 44 with disc brakes. The 1978–79 Selective Edition package is code 10992."
+   },
+   {
+    "head": "Wheelbase and body",
+    "body": "The standard Scout II is on a 100-in wheelbase. The Traveler (full fibreglass top with a liftgate) and Terra (half-cab pickup) are 18 in longer between the door and the rear wheel well, on a 118-in wheelbase. Super Scout IIs (SSII) have soft doors, a roll bar and a unique plastic grille."
+   },
+   {
+    "head": "Grille dates the nose",
+    "body": "1971–72: three horizontal bars. 1973: 14 vertical bars split in the middle. 1974–75: a vertical-bar overlay. 1976 only: a chrome 15-bar three-section grille. 1977–79: two horizontal and three vertical bars. 1980: a one-piece ABS grille in black or silver. Noses get swapped, so check against the serial."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "GVWR",
+   "v": "6,200 lb (2,812 kg)",
+   "note": "all Scouts from 1976"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "19 US gal (72 L)",
+   "note": "1972–80 rear tank, per replacement-tank listings"
+  },
+  {
+   "k": "Curb weight",
+   "v": "about 3,800 lb (1,724 kg)",
+   "note": "1979 Scout II Traveltop V8 automatic, per Hagerty"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "100 in (2,540 mm); 118 in (2,997 mm) Traveler and Terra"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "The Scout II is the most-traded Scout, and prices keep rising. Rust-free stock 345 trucks bring strong money, but the top of the market belongs to LS-swapped restomods.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$7k–18k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$18k–35k"
+   },
+   {
+    "cond": "Excellent / original",
+    "range": "$40k–75k"
+   },
+   {
+    "cond": "Restomod (LS/Vortec)",
+    "range": "$60k–158k"
+   }
+  ],
+  "note": "Based on about 110 Bring a Trailer Scout II sales, January 2025–October 2026. The median was about $37k. The best stock trucks were a $96,000 1980 345 and $73,000 1979 and $70,500 1978 345s. Diesel 1980s sold for $19.5k–47k. The top result was a $158,000 L92-powered 1979."
+ },
+ "docs": [
+  {
+   "name": "Binder Books — Scout manuals",
+   "url": "https://www.binderbooks.com/collections/ihscoutmanual",
+   "note": "Original and licensed reprint IH manuals; now part of IH Parts America"
+  },
+  {
+   "name": "Super Scout Specialists — Scout service books and manuals",
+   "url": "https://www.superscoutspecialists.com/service-books-and-manuals-scout",
+   "note": "Reprint service, owner's and parts manuals"
+  },
+  {
+   "name": "IH Book Store",
+   "url": "https://www.ihbookstore.com/",
+   "note": "Scout owner's/operator's manuals, parts catalogues and service manuals"
+  },
+  {
+   "name": "Super Scout Specialists — Chassis & line ticket code reference",
+   "url": "https://www.superscoutspecialists.com/ih-vehicle-lineticket-code-reference",
+   "note": "Decodes line-ticket component codes and lists Scout II serial ranges by year (parts catalogue MT130)"
+  }
+ ],
+ "production": {
+  "intro": "International built the Scout II in Fort Wayne, Indiana, from April 1971 until October 21, 1980, when strikes and IH's finances ended the line.",
+  "items": [
+   {
+    "k": "Assembly",
+    "v": "Fort Wayne, Indiana"
+   },
+   {
+    "k": "Total Scouts built",
+    "v": "532,674 across all Scouts from 1960 to 1980, including the 80 and 800 series"
+   },
+   {
+    "k": "Drivetrain mix",
+    "v": "More than 90% of Scouts sold had 4WD and a V8 (Hagerty)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Spirit of 76",
+    "years": "1976",
+    "note": "Bicentennial edition: blue soft top, red/blue applique, blue interior and chrome rally wheels. IH data shows 384 built."
+   },
+   {
+    "name": "Patriot",
+    "years": "1976",
+    "note": "Hardtop version of the Bicentennial look for the Scout II, Terra and Traveler. Recorded builds: 1 Terra, 7 Travelers and 50-plus Scout IIs, plus an unknown number applied without line-ticket codes."
+   },
+   {
+    "name": "Super Scout II (SSII)",
+    "years": "1977–1979",
+    "note": "Stripped Jeep CJ rival in Rancher Special, Brush Buster, Sport and Baja Cruiser versions. An SSII driven by Jerry Boone won the 4x4 production class in the 1977 Baja 1000."
+   },
+   {
+    "name": "Selective Edition",
+    "years": "1978–1979",
+    "note": "Factory package 10992: gold stripes, gold-spoke wheels, SSII black grille insert"
+   },
+   {
+    "name": "Midas Edition",
+    "years": "1977–1980",
+    "note": "Luxury conversions by Midas Van Conversion Co. of Elkhart, Indiana (Family Cruiser, Street Machine, Off-Road Vehicle)"
+   },
+   {
+    "name": "Special Limited Edition RS",
+    "years": "1980",
+    "note": "Traveler only, in Tahitian Red metallic with a russet velour interior"
+   },
+   {
+    "name": "844 and 434 Gold Star",
+    "years": "1980",
+    "note": "The 844 had a 345 V8 and T428 four-speed; the 434 had the 196 four and T332 three-speed"
+   },
+   {
+    "name": "Shawnee",
+    "years": "Hurst",
+    "note": "Dressed-up black SSII with tomahawk-and-feather decals. Only three built."
+   }
+  ],
+  "paint": "Selective Edition colours were 1032 Dark Brown, 6027 Dark Blue, 001 Black and 5013 Green; the Spirit of 76 used 9219 Winter White."
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "IH Scout & ALL Truck Nationals",
+   "url": "http://www.midnitestar.org/",
+   "note": "Annual IH Scout and light-truck show, swap meet, tech talks and plant tours. The 35th event ran June 12–14, 2026 at the Navistar International truck assembly plant in Springfield, Ohio."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — International Scout",
+   "url": "https://en.wikipedia.org/wiki/International_Scout"
+  },
+  {
+   "name": "Super Scout Specialists — IH Vehicle Chassis & Lineticket Code Reference",
+   "url": "https://www.superscoutspecialists.com/ih-vehicle-lineticket-code-reference"
+  },
+  {
+   "name": "Hagerty — 2020 Bull Market selection: 1971–80 International Harvester Scout",
+   "url": "https://www.hagerty.com/media/?p=7371"
+  },
+  {
+   "name": "Corsetti Cruisers — Buyer's guide: International Scout II, top 5 things to look out for",
+   "url": "https://www.corsetticruisers.com/post/buyer-s-guide-international-scout-ii-top-5-things-to-look-out-for"
+  },
+  {
+   "name": "Gas Tank Depot — 1972–1980 International Scout II rear fuel tank, 19 gallon",
+   "url": "https://www.gastankdepot.com/3019l-plastic-fuel-gas-tank-international-scout-ii-19-gallon.html"
+  },
+  {
+   "name": "IH Parts America forums — Yes another tire size question",
+   "url": "https://forums.ihpartsamerica.com/threads/yes-another-tire-size-question.13951"
+  },
+  {
+   "name": "IH Parts America forums — How big of a tire can you put on a SOA Scout II",
+   "url": "https://forums.ihpartsamerica.com/threads/how-big-of-a-tire-can-you-put-on-a-soa-scout-ii.4020"
+  },
+  {
+   "name": "IH Parts America forums — 3 Rallye wheels chrome",
+   "url": "https://forums.ihpartsamerica.com/threads/3-rallye-wheels-chrome.12618"
+  },
+  {
+   "name": "Super Scout Specialists — Service Books and Manuals (Scout)",
+   "url": "https://www.superscoutspecialists.com/service-books-and-manuals-scout"
+  },
+  {
+   "name": "Binder Books (IH Parts America) — Scout manuals",
+   "url": "https://www.binderbooks.com/collections/ihscoutmanual"
+  },
+  {
+   "name": "IH Book Store — Scout owner's, service and parts manuals",
+   "url": "https://www.ihbookstore.com/"
+  },
+  {
+   "name": "Bring a Trailer — International Harvester Scout II auction results",
+   "url": "https://bringatrailer.com/international-harvester/scout-ii/"
+  },
+  {
+   "name": "Midnitestar Productions — 35th Annual IH Scout & ALL Truck Nationals",
+   "url": "http://www.midnitestar.org/"
+  }
+ ]
+}

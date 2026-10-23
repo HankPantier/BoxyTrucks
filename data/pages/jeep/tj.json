@@ -1,0 +1,994 @@
+{
+ "slug": "tj",
+ "title": "Jeep Wrangler TJ",
+ "eyebrow": "JEEP WRANGLER · TJ · 1997–2006",
+ "verdict": "Round headlights back, leaf springs gone, the 4.0 straight-six carried over, and from 2003 a Rubicon with lockers from the factory. For many people the TJ is the sweet spot of the whole Wrangler line. Just check the frame before you fall in love.",
+ "codes": [
+  "TJ",
+  "4.0 I6",
+  "COIL SPRINGS · 4 LINKS",
+  "RUBICON 2003–06",
+  "93.4-IN WHEELBASE"
+ ],
+ "hero_photo": "tj-shotgun-creek-rocks.jpg",
+ "hero_focus": "58% 55%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "On January 2, 1996, Chrysler showed the new Wrangler at the Detroit auto show, and the square headlights were gone. The TJ brought back round lamps and, more importantly, threw out the leaf springs that Jeeps had used since the war. It used coil springs at all four corners on solid axles, with control arms largely borrowed from the Grand Cherokee. It kept the [[jeep/yj|YJ]]'s 93.4-inch wheelbase and its 4.0 straight-six, reached showrooms in April 1996 as a 1997 model, and became the Wrangler many owners still consider the best of the lot."
+   ]
+  },
+  {
+   "heading": "A $260 MILLION REINVENTION",
+   "paragraphs": [
+    "Work on a YJ successor began in 1990 in Chrysler's Jeep-Truck Engineering pre-program group under Bob Sheaves and program director Craig Winn. YJ-based mules ran from 1990 to 1993. Michael Santoro's design was chosen in late 1992 and frozen in May 1993, and the program was formally approved in 1993 with a $260 million budget. Drivingline calls that a 'somewhat shoestring budget' and notes that the TJ was the first Wrangler developed with Chrysler's full resources rather than AMC's.",
+    "The frame was stiffened, and Drivingline says the new body panels doubled torsional rigidity, making the TJ roughly a third stiffer overall than the YJ. The coil springs and four-link control arms gave much better articulation and a far better ride. The body looked familiar on purpose, but small changes cut drag and noise."
+   ]
+  },
+  {
+   "heading": "SIXES, FOURS AND A LOT OF GEARBOXES",
+   "paragraphs": [
+    "The 4.0-liter six was the engine to have. Drivingline lists 181 hp and 222 lb-ft for 1997–99 and 190 hp and 235 lb-ft from 2000. Entry trucks used the 2.5-liter AMC four until 2002, then the 2.4-liter PowerTech four with 147 hp. Automatics were the three-speed 30RH and 32RH until 2002, then the four-speed 42RLE. Wikipedia lists the AX-5 manual with the four, the AX-15 with the six through 1999, the NV3550 for 2000–04, the NV1500 with the 2.4 for 2003–04 and the six-speed NSG370 for 2005–06.",
+    "The front axle was a low-pinion Dana 30. The rear was a Dana 35 on most trucks, with a Dana 44 optional on the Sport and Sahara. Drivingline calls the Dana 35 'junk' because of its C-clip design. The NP231 Command-Trac transfer case handled part-time four-wheel drive on everything but the Rubicon."
+   ]
+  },
+  {
+   "heading": "THE RUBICON",
+   "paragraphs": [
+    "In summer 2002 Jeep launched the 2003 Wrangler Rubicon, and it changed what buyers expected from a showroom Jeep. It had Dana 44 axles front and rear with 4.10 gears and air-actuated lockers built by Tochigi Fuji Sangyo. A dash switch engaged them at 5 psi in low range below 10 mph. It also had the NV241OR Rock-Trac transfer case with a 4.0:1 low range, 31-inch Goodyear MT/R tires and diamond-plate sill guards. RockCrawler reported a crawl ratio of 65.92. Jeep's Craig Love said it combined 'what would typically be aftermarket hardware'. Drivingline calls it the most capable factory TJ you can buy. The long-wheelbase [[jeep/tj-unlimited|Unlimited (LJ)]] arrived for 2004, and a Rubicon version followed for 2005."
+   ]
+  },
+  {
+   "heading": "HOW IT ENDED",
+   "paragraphs": [
+    "Production ran from January 1996 to July 2006, and 2006 was the final model year for both the TJ and the Unlimited. Special editions along the way included the 60th Anniversary (2001, 4,067 built), the Tomb Raider Rubicon (2003), the moss-green Willys (2004–05), the Columbia (2004), and the Golden Eagle and 65th Anniversary in 2006. The [[jeep/jk|JK]] was unveiled at the Detroit show in January 2006 and went on sale as a 2007 model. It was bigger, wider and available with four doors as the [[jeep/jk-unlimited|JK Unlimited]].",
+    "That growth is a big part of the TJ's appeal today. It is still small enough for tight trails, its 4.0 is nearly unkillable when maintained, and the aftermarket for it is enormous. Its enemies are rust, a handful of well-known leaks and, on 2005–06 trucks, an oil pump drive that owners learn to fear."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE LAUGHING MONKEY",
+  "title": "Why 2005–06 TJ owners listen to their engines",
+  "paragraphs": [
+   "The 4.0 drives its oil pump through a shaft from the camshaft, called the oil pump drive assembly or OPDA, which also carries the cam position sensor. Quadratec's inspection checklist flags 2005–06 4.0 TJs for OPDA failure and says owners describe the warning noise as a 'laughing monkey'.",
+   "Dorman's replacement listing explains the cause. The factory steel upper bushing is starved of oil, so the center shaft can seize, damaging the cam bearing and, if neglected, stopping the oil pump from turning. Quadratec's advice is blunt: without records of a replacement, deal with it before it deals with the engine."
+  ]
+ },
+ "engineering_intro": "The TJ is a ladder-frame Jeep with solid axles at both ends, located by coil springs, control arms, track bars and anti-roll bars. The standard wheelbase stayed at 93.4 inches. Most trucks pair a Dana 30 front axle with a Dana 35 or optional Dana 44 rear and the NP231 part-time transfer case. The 2003–06 Rubicon gets Dana 44s at both ends with lockers and the 4:1 NV241OR.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Ladder frame, 93.4 in (2,372 mm) wheelbase",
+   "note": "Stiffer than the YJ. The Unlimited (LJ) stretches the wheelbase to 103.4 in."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Coil springs and control arms, front and rear",
+   "note": "The first coil-sprung Wrangler. Track bars and anti-roll bars at both ends."
+  },
+  {
+   "k": "AXLES",
+   "v": "Dana 30 front · Dana 35 or 44 rear",
+   "note": "The Dana 44 rear was optional on the Sport and Sahara, sometimes with Trac-Lok."
+  },
+  {
+   "k": "TRANSFER CASE",
+   "v": "NP231 Command-Trac · NV241OR Rock-Trac (Rubicon)",
+   "note": "Rock-Trac has a 4.0:1 low range."
+  },
+  {
+   "k": "RUBICON",
+   "v": "Dana 44s, 4.10 gears, front and rear lockers",
+   "note": "Air-actuated lockers by Tochigi Fuji Sangyo, engaged from a dash switch."
+  },
+  {
+   "k": "ENGINES",
+   "v": "2.5 I4 (to 2002) · 2.4 I4 (2003–06) · 4.0 I6",
+   "note": "The 4.0 made 181 hp until 1999, then 190 hp and 235 lb-ft."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1997–1999",
+   "platform": "TJ",
+   "engine": "4.0 L AMC I6",
+   "output": "181 hp / 222 lb-ft",
+   "note": "AX-15 five-speed or 32RH three-speed automatic. Drivingline says exhaust manifold cracks are most common on 1997–2000."
+  },
+  {
+   "years": "1997–2002",
+   "platform": "TJ SE",
+   "engine": "2.5 L AMC I4",
+   "output": "120 hp / 140 lb-ft",
+   "note": "AX-5 five-speed or 30RH three-speed automatic."
+  },
+  {
+   "years": "2000–2006",
+   "platform": "TJ",
+   "engine": "4.0 L AMC I6",
+   "output": "190 hp / 235 lb-ft",
+   "note": "NV3550 five-speed (2000–04), NSG370 six-speed (2005–06). 32RH auto to 2002, then 42RLE four-speed."
+  },
+  {
+   "years": "2003–2006",
+   "platform": "TJ SE",
+   "engine": "2.4 L PowerTech I4",
+   "output": "147 hp / 165 lb-ft",
+   "note": "NV1500 five-speed (2003–04) or 42RLE automatic. NSG370 six-speed for 2005–06."
+  },
+  {
+   "years": "2003–2006",
+   "platform": "TJ Rubicon",
+   "engine": "4.0 L AMC I6",
+   "output": "190 hp / 235 lb-ft",
+   "note": "Dana 44s with 4.10 gears and air lockers, NV241OR 4:1 transfer case, 31-in MT/Rs."
+  },
+  {
+   "years": "2005–2006",
+   "platform": "TJ",
+   "engine": "4.0 L AMC I6",
+   "output": "190 hp / 235 lb-ft",
+   "note": "Quadratec flags these years for OPDA (oil pump drive) failure."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Frame rust, especially the rear control-arm mounts",
+   "body": "Quadratec says plainly that TJ frames still rust. Check the rails inside and out, the skid-plate areas and the rear lower control-arm brackets, where it warns rust can become severe enough to cause structural failure. Rick Rotondo adds the transfer-case crossmember and central body mounts to the list."
+  },
+  {
+   "head": "Floors and the early cowl leak",
+   "body": "Look under the carpet, especially in the front footwells. Off Road Xtreme notes that the cowl vent on early TJs leaks water into the cab, rusting the floor and growing mold in the carpet. Jeep revised the design later."
+  },
+  {
+   "head": "Ask about the OPDA on 2005–06 4.0s",
+   "body": "Listen for the 'laughing monkey' noise at idle. With no record of a replacement, Quadratec recommends replacing the oil pump drive assembly proactively, because a failure can damage the engine."
+  },
+  {
+   "head": "Drive it at 30–50 mph",
+   "body": "Off Road Xtreme says that's the speed range to check for death wobble, usually caused by a loose lower track-bar bolt. Check the track bar, ball joints, tie-rod ends, stabilizer and control-arm bushings for wear, and look for bent steering linkage."
+  },
+  {
+   "head": "Oil leaks are normal; puddles aren't",
+   "body": "The 4.0 commonly leaks from the rear main seal, oil pan gasket, valve cover gasket and oil-filter adapter. Drivingline adds pinion and transfer-case output seals. Price in the rear main seal if the bellhousing is wet."
+  },
+  {
+   "head": "Radiator end tanks",
+   "body": "The factory radiator has plastic end tanks that leak at the upper seams, often from around 100,000 miles. Look for green crust, coolant smell and small leaks. Off Road Xtreme recommends an all-aluminum radiator, partly because the 4.0 runs warm."
+  },
+  {
+   "head": "Which rear axle and which gearbox?",
+   "body": "Find the axle tag: a Dana 44 rear beats the Dana 35 if you plan bigger tires. Drivingline says the AX-15 has known synchro issues, the NV3550 is stronger, and the 32RH automatic is durable but revs high on the highway."
+  },
+  {
+   "head": "Transfer case won't go into 4-Low?",
+   "body": "Quadratec says to check the shift linkage first, because it pops out of worn plastic bushings. It's a cheap fix, but it's a good haggling point."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Cure death wobble: track bar, ball joints and tie rods",
+   "diff": "2 / 5",
+   "time": "≈ An afternoon to diagnose; a day to replace parts",
+   "cost": "A track bar costs a little over $50 (Drivingline); full steering kits cost more",
+   "symptoms": "Uncontrollable side-to-side shaking of the front end, usually triggered by a bump at around 45 mph and stopped only by slowing right down.",
+   "fix": "Quadratec's sequence: disconnect the steering stabilizer so it can't mask anything. With the key on and engine off, have a helper turn the wheel a quarter turn each way while you watch both ends of the track bar for movement. Then jack up the front and check tie-rod ends for play, ball joints by prying the tire, and wheel bearings by rocking at 12 and 6 o'clock. Inspect control arms and bushings. Tighten every steering and suspension bolt to spec, replace anything that moves, check tire balance and pressure, and finish with an alignment. Off Road Xtreme says a loose lower track-bar bolt is the most common cause. Drivingline warns a worn, oval frame-side hole may need drilling or an aftermarket bracket.",
+   "tools": "Helper · pry bar · floor jack and stands · torque wrench · factory service manual torque specs.",
+   "parts": [
+    {
+     "name": "Rough Country 7572 adjustable front track bar (1.5–4.5 in lift), 97–06 TJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/rough-country-adjustable-track-tj-7572.html"
+    },
+    {
+     "name": "Ball joint, drag link sleeve, sway bar link and tie-rod end kit, 97–06 TJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/jeep-wrangler-ball-joint-steering-drag-link-adjusting-sleeve-sway-bar-link-tie-rod-end-apca1106.html"
+    },
+    {
+     "name": "Crown Automotive 52087887K drag link kit, 97–06 Wrangler",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/56116_0005.htm"
+    }
+   ]
+  },
+  {
+   "title": "Replace the oil pump drive assembly (OPDA)",
+   "diff": "3 / 5",
+   "time": "≈ 2–3 hours, if you're careful with the timing",
+   "cost": "Parts plus labor",
+   "symptoms": "A chirping 'laughing monkey' noise from the top of the engine, most often on 2005–06 4.0s. Left alone, the drive can seize and stop the oil pump.",
+   "fix": "The OPDA sits where a distributor would be and carries the camshaft position sensor, so its position matters. Following the factory service manual, bring cylinder 1 to top dead center on the compression stroke, mark the sensor's orientation, disconnect it, remove the hold-down clamp and lift the old drive out. Install the replacement in the same orientation so it engages the oil pump, then refit the sensor and complete the manual's synchronization check. Inspect the old unit's upper bushing and gear for wear, and change the oil and filter afterwards in case debris reached it. Dorman and NAPA's version uses a self-lubricating upper bushing in place of the factory steel one.",
+   "tools": "Socket set · factory service manual (TDC and sync procedure) · paint marker · scan tool if available.",
+   "parts": [
+    {
+     "name": "Crown Automotive 53010624AC oil pump drive assembly, 05–06 TJ 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/51004_0060.htm"
+    },
+    {
+     "name": "Crown Automotive 53010615AB oil pump drive, 00–04 TJ 4.0L",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/oil-pump-drive-wrangler-tj-unlimited-cherokee-xj-grand-wj-53010615AB"
+    },
+    {
+     "name": "Dorman 689-201 camshaft synchronizer with sensor (NAPA NOE 689201)",
+     "supplier": "NAPA",
+     "url": "https://www.napaonline.com/en/p/NOE689201"
+    }
+   ]
+  },
+  {
+   "title": "Replace the 4.0's rear main seal",
+   "diff": "3 / 5",
+   "time": "≈ A day for a first-timer",
+   "cost": "Seal kit plus pan gasket; shops charge mostly for labor",
+   "symptoms": "Oil weeping from the joint between the engine and bellhousing, and an oily crossmember and transmission. Rule out the valve cover, oil-filter adapter and pan gasket first.",
+   "fix": "The 4.0 uses a two-piece rear main seal that can be replaced without removing the transmission. On a TJ, drain the oil, remove the starter and drop the oil pan. Off Road Xtreme warns this may mean removing the front axle for clearance, and Jeepz.com owners loosened the exhaust for room. Mark the rear main cap, remove both seal halves, and install the new halves without nicking the lip (dish soap helps the upper half slide in). Use only a dab of RTV where the halves meet the cap. Make sure you have the right seal for your engine, because 1987–99 and 2000–06 engines take different kits. Check crank end play while you're in there.",
+   "tools": "Pick · thin punch · O2-sensor wrench · torque wrench · RTV · jack and stands.",
+   "parts": [
+    {
+     "name": "Crankshaft rear main seal kit, 00–06 TJ 4.0L",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/jeep-wrangler-crankshaft-rear-main-seal-kit-5018594aa.html"
+    },
+    {
+     "name": "Rear crankshaft seal, 87–99 4.0L YJ & TJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/jeep-wrangler-crankshaft-seal-rear-4778126.html"
+    },
+    {
+     "name": "TJ rear main seals (all brands)",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/engine-and-fuel-system/gaskets-and-hardware/rear-main-seals"
+    }
+   ]
+  },
+  {
+   "title": "Replace a leaking plastic-tank radiator",
+   "diff": "2 / 5",
+   "time": "≈ 2–3 hours including bleeding",
+   "cost": "Around $150 for a replacement radiator (Drivingline)",
+   "symptoms": "Coolant smell, green crust at the top tank seam, and eventually a split tank spraying coolant over the engine.",
+   "fix": "From Jeepfan's TJ write-up: let the engine cool and drain the radiator. Disconnect the upper and lower hoses and the transmission cooler lines if fitted, and pop the overflow bottle out of its holder. Loosen the fan shroud and push it back over the fan, since it doesn't need to come out. Remove the radiator bolts and lift it out. Thread the cooler fittings into the new radiator with sealant and drop it in, using the slotted lower bolt holes as a guide. Refit everything, fill with the correct coolant mixed 50/50 with distilled water, run it up to temperature while topping off, and recheck the level after a few drives as air works out.",
+   "tools": "Drain pan · hand tools · thread sealant · distilled water · correct coolant.",
+   "parts": [
+    {
+     "name": "Crown 52080183 replacement radiator, 87–06 YJ/TJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/crown-automotive/replacement-radiator-wrangler-yj-tj-unlimited"
+    },
+    {
+     "name": "Aluminum 2-row radiator EC2101, 97–06 TJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/jeep-wrangler-2-row-radiator-ec2101.html"
+    },
+    {
+     "name": "Omix cooling system kit, 00–06 4.0L TJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/omix-ada-jeep-wrangler-cooling-system-kit-1711829.html"
+    }
+   ]
+  },
+  {
+   "title": "Replace a cracked exhaust manifold",
+   "diff": "3 / 5",
+   "time": "≈ A long day",
+   "cost": "Parts plus labor",
+   "symptoms": "A ticking exhaust leak that's loudest from cold and may fade as the engine warms. Drivingline says it's more common on 1997–2000 trucks and is something you hear more than see.",
+   "fix": "Modern Jeeper's TJ/LJ guide: photograph and disconnect everything, then remove the O2 sensors, which can seize. The intake and exhaust manifolds share one gasket, so both come off. The hardest bolts are under the intake beside the exhaust tubes, so use extensions and wobble sockets. Clean the head face with a detail pad, not a grinding wheel. Fit the new gasket and manifold, put the intake back on top, then tighten the remaining fasteners. Reinstall the O2 sensors with anti-seize and check the new manifold's clearance to the front driveshaft.",
+   "tools": "Extensions · wobble sockets · flex-head ratcheting wrenches · O2-sensor socket · anti-seize · Loctite.",
+   "parts": [
+    {
+     "name": "OMIX 17622.12 4.0L exhaust manifold kit, 91–99 XJ/ZJ & TJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/17601_0013_07.htm"
+    },
+    {
+     "name": "TJ exhaust parts",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/exhaust"
+    }
+   ]
+  },
+  {
+   "title": "Repair rusted rear lower control-arm mounts",
+   "diff": "5 / 5",
+   "time": "≈ A weekend per side",
+   "cost": "Repair section plus welding, or shop labor",
+   "symptoms": "Flaking, swollen or holed frame around the rear lower control-arm brackets, clunks from the rear, or a bracket that moves. Quadratec warns it can lead to structural failure.",
+   "fix": "Rick Rotondo's Quadratec guide on a 1998 TJ: support the frame on stands, remove the rear wheels, hold the axle on a jack, and unbolt the upper and lower arms, sway-bar link and shock on one side. Mark at least 1 inch of overlap past the rot, then cut out the bad frame, the sway-bar mount and the factory arm mount. Avoid the brake hose and fuel lines, and do not cut the body mount. Mock up the replacement section, trace and grind to bare metal, tack weld, recheck measurements, then fully weld. Prime and paint or coat it, refit the arms with Loctite, torque everything to spec, and recheck after a day. Rotondo says it's only for people experienced in cutting, grinding and welding.",
+   "tools": "Floor jack and stands · grinder · cutting wheel · welder · primer, paint or POR-15 · torque wrench.",
+   "parts": [
+    {
+     "name": "Rust Buster rear trailing arm mounts section, 97–06 TJ",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/p/rust-buster/rear-trailing-arm-mounts-section-jeep-wrangler-tj"
+    },
+    {
+     "name": "TJ body & frame repair parts",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/body-and-frame"
+    }
+   ]
+  },
+  {
+   "title": "Fix a transfer case that won't shift (linkage bushings)",
+   "diff": "1 / 5",
+   "time": "≈ 1 hour",
+   "cost": "A few dollars in bushings",
+   "symptoms": "The shifter moves but the transfer case won't go into 4-Low, or the lever flops around. The rod has usually popped out of a worn plastic bushing.",
+   "fix": "Quadratec says to check this first when a TJ won't engage 4-Low. Under the Jeep, find the rod between the shifter and the NP231 or NV241OR range lever. Pop the rod out, pry out the old bushing, and press in a new one. Reconnect the rod and check that the shifter reaches every detent and the transfer case fully engages 2H, 4H, N and 4L. If the linkage has worn badly, or a body or motor-mount lift has changed its geometry, an adjustable or upgraded linkage is the permanent fix.",
+   "tools": "Pliers · small pry bar · grease.",
+   "parts": [
+    {
+     "name": "Crown Automotive 53004810 shift lever bushing (NP231/NV241OR)",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/52218_0014.htm"
+    },
+    {
+     "name": "Crown Automotive 5014148AA shift linkage repair kit, 87–01 NP231",
+     "supplier": "Quadratec",
+     "url": "https://www.quadratec.com/products/52207_0007.htm"
+    },
+    {
+     "name": "TeraFlex 4947100 shift linkage adapter, 97–06 TJ",
+     "supplier": "ExtremeTerrain",
+     "url": "https://www.extremeterrain.com/teraflex-shift-linkage-tj-4947100.html"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "Four Wheel Trends says the largest tire for a TJ on stock wheels and suspension is generally a 31x10.50, and that it usually allows full articulation. The Rubicon came from the factory on 31-inch LT245/75R16 Goodyear MT/Rs.",
+   "src": "FOUR WHEEL TRENDS · JEEP"
+  },
+  {
+   "q": "Four-cylinder or 4.0?",
+   "a": "Get the 4.0 if you can. Drivingline strongly recommends the six, which makes 190 hp and 235 lb-ft from 2000 against 120 hp for the 2.5 and 147 hp for the 2.4. The fours are reliable but run out of power once you add bigger tires, and swapping in a 4.0 later costs about as much as a V8 swap.",
+   "src": "DRIVINGLINE"
+  },
+  {
+   "q": "What is the 'laughing monkey' noise?",
+   "a": "It's the sound of a failing oil pump drive assembly (OPDA), flagged by Quadratec on 2005–06 4.0 TJs. The factory steel upper bushing is starved of oil, and if it seizes it can wreck the cam bearing and stop the oil pump. Replace it if there's no record it has been done.",
+   "src": "QUADRATEC · DORMAN/NAPA"
+  },
+  {
+   "q": "What causes death wobble, and will a new stabilizer fix it?",
+   "a": "Worn or loose steering and suspension parts cause it, most often the track bar and its bolts, and Off Road Xtreme singles out a loose lower track-bar bolt. Quadratec says a bigger steering stabilizer only masks the problem. Find and replace the part that moves, then align.",
+   "src": "QUADRATEC · OFF ROAD XTREME"
+  },
+  {
+   "q": "Is the Dana 35 rear axle really that bad?",
+   "a": "Drivingline calls it 'junk' and says its C-clip design is unreliable in stock form, while the low-pinion Dana 30 front is fine up to about 35-inch tires. A factory Dana 44 rear was optional on the Sport and Sahara and standard on the Rubicon. Otherwise, budget 'a couple grand' for a bolt-in upgrade.",
+   "src": "DRIVINGLINE · WIKIPEDIA"
+  },
+  {
+   "q": "What does the Rubicon add?",
+   "a": "Dana 44 axles front and rear with 4.10 gears, air-actuated front and rear lockers, the NV241OR Rock-Trac transfer case with a 4.0:1 low range, 31-inch MT/R tires, 16-inch wheels and diamond-plate sill guards. RockCrawler reported a 65.92:1 crawl ratio. It was sold for 2003–06.",
+   "src": "JEEP PRESS RELEASE · ROCKCRAWLER"
+  },
+  {
+   "q": "Which manual transmission is best?",
+   "a": "Drivingline says the AX-15 has notable synchro issues and the NV3550 that replaced it is stronger. Wikipedia lists the AX-15 for 1997–99, the NV3550 for 2000–04 and the six-speed NSG370 for 2005–06, though some sources say the six-speed arrived earlier. Fours used the AX-5 and, for 2003–04, the NV1500.",
+   "src": "DRIVINGLINE · WIKIPEDIA"
+  },
+  {
+   "q": "How much can a TJ tow?",
+   "a": "Wikipedia lists 2,000 lb for the standard TJ and 3,500 lb for the long-wheelbase Unlimited.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "What coolant does it take?",
+   "a": "Haynes says 2000-and-earlier Wranglers use conventional ethylene-glycol antifreeze, and 2001-and-later use Mopar's 5-year/100,000-mile HOAT coolant, both mixed 50/50. Capacity is about 9 qt for the fours and 10.5 qt for the 4.0.",
+   "src": "HAYNES"
+  },
+  {
+   "q": "What gear oil goes in the axles?",
+   "a": "Haynes lists 75W-90 GL-5, or 75W-140 synthetic for towing, plus 4 oz of friction modifier for Trac-Lok. Quadratec and ExtremeTerrain's charts say the Rubicon's Dana 44s use 75W-140 synthetic.",
+   "src": "HAYNES · QUADRATEC"
+  },
+  {
+   "q": "Why does my TJ leak oil?",
+   "a": "The usual spots on the 4.0 are the rear main seal, oil pan gasket, valve cover gasket and oil-filter adapter gasket. Off Road Xtreme notes the valve cover has many bolts and takes longer than expected. Drivingline says the two-piece rear main can be replaced without pulling the transmission.",
+   "src": "OFF ROAD XTREME · DRIVINGLINE"
+  },
+  {
+   "q": "TJ or LJ (Unlimited)?",
+   "a": "The Unlimited, sold for 2004–06, stretches the TJ by 15 inches, 10 of them in the wheelbase (103.4 in versus 93.4 in). Drivingline says that adds cargo room and stability on steep trails, but the LJ costs more because it was built for only three model years.",
+   "src": "DRIVINGLINE · WIKIPEDIA"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "SUSPENSION LIFT",
+   "why": "The coil-sprung TJ responds well to a 2–4 inch lift, which clears 33s and gives it more flex. Plan on matching track bars and control arms as you go higher.",
+   "who": [
+    {
+     "name": "Quadratec — TJ lift kits & suspension",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/lift-kits-and-suspension"
+    },
+    {
+     "name": "MetalCloak",
+     "url": "https://www.metalcloak.com/"
+    },
+    {
+     "name": "Rock Hard 4x4",
+     "url": "https://www.rockhard4x4.com/"
+    }
+   ]
+  },
+  {
+   "cat": "ROCK RAILS & ARMOR",
+   "why": "The TJ's low tub corners and rockers are the first things to hit rocks. Rails, corner guards and a belly-up skid make the biggest difference.",
+   "who": [
+    {
+     "name": "Poison Spyder Customs",
+     "url": "https://www.poisonspyder.com/"
+    },
+    {
+     "name": "GenRight Off Road",
+     "url": "https://www.genright.com/"
+    },
+    {
+     "name": "Savvy Off Road",
+     "url": "https://www.savvyoffroad.com/"
+    },
+    {
+     "name": "Quadratec — TJ armor & protection",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/armor-and-protection"
+    }
+   ]
+  },
+  {
+   "cat": "BUMPERS & WINCHES",
+   "why": "A steel front bumper with a winch is cheap insurance on a short-wheelbase rig that wheels alone.",
+   "who": [
+    {
+     "name": "Warn",
+     "url": "https://www.warn.com/"
+    },
+    {
+     "name": "Quadratec — TJ bumpers",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/bumpers"
+    }
+   ]
+  },
+  {
+   "cat": "GEARS, LOCKERS & AXLES",
+   "why": "Non-Rubicon TJs on bigger tires need lower gears and lockers, and the Dana 35 rear is usually the first thing to replace.",
+   "who": [
+    {
+     "name": "Yukon Gear & Axle",
+     "url": "https://www.yukongear.com/"
+    },
+    {
+     "name": "ARB USA (Air Lockers)",
+     "url": "https://www.arbusa.com/"
+    },
+    {
+     "name": "Quadratec — TJ driveline",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/driveline"
+    }
+   ]
+  },
+  {
+   "cat": "ENGINE & TRANSMISSION SWAPS",
+   "why": "Four-cylinder TJs get 4.0 or V8 swaps, and manual swaps and transfer-case upgrades are well documented.",
+   "who": [
+    {
+     "name": "Novak Conversions",
+     "url": "https://www.novak-adapt.com/"
+    },
+    {
+     "name": "Advance Adapters",
+     "url": "https://www.advanceadapters.com/"
+    }
+   ]
+  },
+  {
+   "cat": "COOLING",
+   "why": "Off Road Xtreme recommends an all-aluminum radiator to replace the leak-prone plastic-tank original, especially as the 4.0 runs warm.",
+   "who": [
+    {
+     "name": "4-row aluminum radiator, 97–06 TJ (ExtremeTerrain)",
+     "url": "https://www.extremeterrain.com/jeep-wrangler-4-row-radiator-mc2101.html"
+    },
+    {
+     "name": "Quadratec — TJ engine & fuel system",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/engine-and-fuel-system"
+    }
+   ]
+  },
+  {
+   "cat": "TOPS & RECOVERY",
+   "why": "Drivingline prefers a soft top for weight and easy removal, and every trail TJ needs recovery points.",
+   "who": [
+    {
+     "name": "Quadratec — TJ soft tops",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/soft-tops"
+    },
+    {
+     "name": "Quadratec — TJ winches, recovery & safety gear",
+     "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/winches-recovery-and-safety-gear"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1997–2002 · US",
+   "label": "TJ (2.5 / 4.0, 3-speed autos)",
+   "at_url": "https://www.autotempest.com/results?make=jeep&model=wrangler&minyear=1997&maxyear=2002",
+   "bat_url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  },
+  {
+   "years": "2003–2006 · US",
+   "label": "TJ incl. Rubicon (2.4 / 4.0, 42RLE)",
+   "at_url": "https://www.autotempest.com/results?make=jeep&model=wrangler&minyear=2003&maxyear=2006",
+   "bat_url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  },
+  {
+   "years": "1997–2006 · US",
+   "label": "All TJ Wranglers",
+   "at_url": "https://www.autotempest.com/results?make=jeep&model=wrangler&minyear=1997&maxyear=2006",
+   "bat_url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  }
+ ],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Kubicon",
+   "focus": "2000 TJ ONE-TON BUILD & RUST REPAIR",
+   "url": "https://www.youtube.com/@Kubicon"
+  },
+  {
+   "kind": "YT",
+   "name": "Trail Expedition",
+   "focus": "TJ FLOOR PAN REPAIR & FAMILY WHEELING",
+   "url": "https://www.youtube.com/@TrailExpedition"
+  },
+  {
+   "kind": "YT",
+   "name": "Muddy Beards 4X4",
+   "focus": "TJ TRACK BAR & STEERING BUILDS",
+   "url": "https://www.youtube.com/@MuddyBeards4X4"
+  },
+  {
+   "kind": "YT",
+   "name": "Quadratec",
+   "focus": "JEEP INSTALLS & TECH",
+   "url": "https://www.youtube.com/@Quadratec"
+  },
+  {
+   "kind": "YT",
+   "name": "ExtremeTerrain Jeep",
+   "focus": "WRANGLER INSTALL GUIDES",
+   "url": "https://www.youtube.com/@ExtremeTerrain"
+  },
+  {
+   "kind": "YT",
+   "name": "Morris 4x4 Center",
+   "focus": "JEEP PARTS & HOW-TOS",
+   "url": "https://www.youtube.com/@Morris4x4Center"
+  }
+ ],
+ "forums": [
+  {
+   "name": "Jeep Wrangler TJ Forum",
+   "url": "https://wranglertjforum.com/",
+   "note": "The dedicated TJ/LJ board, with sticky threads on fluid capacities, OPDA swaps, rear main seals and death wobble."
+  },
+  {
+   "name": "JK-Forum — Jeep TJ/YJ Wrangler",
+   "url": "https://www.jk-forum.com/forums/jeep-tj-yj-wrangler-32/",
+   "note": "Active TJ section with buying advice threads."
+  },
+  {
+   "name": "WranglerForum",
+   "url": "https://www.wranglerforum.com/",
+   "note": "Large all-generation Wrangler forum with TJ sections."
+  },
+  {
+   "name": "JeepForum",
+   "url": "https://www.jeepforum.com/",
+   "note": "Long-running Jeep board with a deep TJ tech archive."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "Wrangler YJ",
+   "family": "jeep",
+   "gen": "yj"
+  },
+  {
+   "rel": "SUCCESSOR",
+   "name": "Wrangler JK",
+   "family": "jeep",
+   "gen": "jk"
+  },
+  {
+   "rel": "LONG-WHEELBASE TWIN",
+   "name": "Wrangler Unlimited (LJ)",
+   "family": "jeep",
+   "gen": "tj-unlimited"
+  },
+  {
+   "rel": "SHORT-WHEELBASE CONTEMPORARY",
+   "name": "Land Cruiser 70 Series",
+   "family": "land-cruiser",
+   "gen": "70-series"
+  }
+ ],
+ "plate": [
+  {
+   "k": "CHASSIS",
+   "v": "TJ"
+  },
+  {
+   "k": "PRODUCTION",
+   "v": "January 1996 – July 2006"
+  },
+  {
+   "k": "MODEL YEARS",
+   "v": "1997–2006"
+  },
+  {
+   "k": "ENGINES",
+   "v": "2.5 L I4 (to 2002) · 2.4 L I4 (2003–06) · 4.0 L I6"
+  },
+  {
+   "k": "OUTPUT (4.0)",
+   "v": "181 hp / 222 lb-ft → 190 hp / 235 lb-ft (2000–06)"
+  },
+  {
+   "k": "MANUALS",
+   "v": "AX-5 · AX-15 · NV3550 · NV1500 · NSG370"
+  },
+  {
+   "k": "AUTOMATICS",
+   "v": "30RH / 32RH (to 2002) · 42RLE (2003–06)"
+  },
+  {
+   "k": "TRANSFER CASE",
+   "v": "NP231 Command-Trac · NV241OR Rock-Trac 4.0:1 (Rubicon)"
+  },
+  {
+   "k": "AXLES",
+   "v": "Dana 30 / Dana 35 or 44 · Rubicon Dana 44 / 44, 4.10, lockers"
+  },
+  {
+   "k": "WHEELBASE",
+   "v": "93.4 in (2,372 mm)"
+  },
+  {
+   "k": "LENGTH",
+   "v": "151.2–155.4 in"
+  },
+  {
+   "k": "CURB WEIGHT",
+   "v": "3,092–3,857 lb (incl. Unlimited)"
+  },
+  {
+   "k": "TOWING",
+   "v": "2,000 lb"
+  }
+ ],
+ "photos": [
+  {
+   "file": "tj-shotgun-creek-rocks.jpg",
+   "alt": "A lifted yellow Jeep Wrangler TJ climbing over a pile of rocks on a forest trail, with a spotter beside it",
+   "caption": "TJ · SHOTGUN CREEK OHV TRAILS, OREGON",
+   "credit": "BLM Oregon & Washington · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shotgun_Creek_OHV_Trails_10_(16359509944).jpg"
+  },
+  {
+   "file": "tj-cow-mountain-trail.jpg",
+   "alt": "A white Jeep Wrangler TJ on a gravel trail through autumn brush at South Cow Mountain",
+   "caption": "TJ · SOUTH COW MOUNTAIN, CALIFORNIA",
+   "credit": "BLM California · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:OHV_Jeep_Ukiah_FO_(52423559081).jpg"
+  },
+  {
+   "file": "tj-rubicon-rock-crawl.jpg",
+   "alt": "A silver Jeep Wrangler TJ Rubicon crawling over limestone boulders in the woods",
+   "caption": "TJ RUBICON · PARAGON OFF ROAD PARK, PA",
+   "credit": "Mtxchevy at English Wikipedia · Public domain",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rockcrawling.JPG"
+  },
+  {
+   "file": "tj-mud-puddle.jpg",
+   "alt": "A 2001 Jeep Wrangler TJ SE splashing through a mud puddle on a forest track",
+   "caption": "TJ SE · FOREST MUD PUDDLE",
+   "credit": "Drakeerv · CC0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jeep_TJ_in_a_Mud_Puddle.jpg"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Jeep Wrangler (TJ)",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(TJ)"
+  },
+  {
+   "name": "Wikipedia — Jeep Wrangler",
+   "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler"
+  },
+  {
+   "name": "Drivingline — A history of the Jeep Wrangler TJ (Benjamin Hunting)",
+   "url": "https://www.drivingline.com/articles/a-history-of-the-jeep-wrangler-tj-chryslers-first-modern-4x4-that-birthed-the-rubicon"
+  },
+  {
+   "name": "Drivingline — Jeep Wrangler TJ buyer's guide",
+   "url": "https://www.drivingline.com/articles/jeep-wrangler-tj-buyers-guide/"
+  },
+  {
+   "name": "Off Road Xtreme — Buyer's guide: how to buy the perfect TJ Wrangler",
+   "url": "https://www.offroadxtreme.com/?p=7529"
+  },
+  {
+   "name": "Jeep / DaimlerChrysler press release — 2003 Wrangler Rubicon (The Auto Channel)",
+   "url": "https://www2020.theautochannel.com/news/2002/01/07/034134.html"
+  },
+  {
+   "name": "RockCrawler.com — 2003 Jeep Wrangler Rubicon leaks out",
+   "url": "https://rockcrawler.com/features/newsshorts/01december/jeep_tj_rubicon.asp"
+  },
+  {
+   "name": "Quadratec — Used Jeep Wrangler inspection checklist by generation",
+   "url": "https://quadratec.com/c/howto/used-jeep-wrangler-inspection-checklist-by-generation"
+  },
+  {
+   "name": "Quadratec — Jeep death wobble: how to fix it",
+   "url": "https://www.quadratec.com/c/blog/jeep-death-wobble-how-to-fix"
+  },
+  {
+   "name": "Quadratec — How to repair Wrangler lower rear trail arm mount (Rick Rotondo)",
+   "url": "https://Quadratec.com/c/howto/how-repair-wrangler-lower-rear-trail-arm-mount"
+  },
+  {
+   "name": "NAPA / Dorman — Camshaft synchronizer (OPDA) 689-201 description",
+   "url": "https://www.napaonline.com/en/p/NOE689201"
+  },
+  {
+   "name": "Jeepz.com forum — Tips on replacing a 4.0 rear main seal (2005 TJ)",
+   "url": "https://www.jeepz.com/forum/threads/tips-on-replacing-a-4-0-rear-main-seal.52633/"
+  },
+  {
+   "name": "Jeepfan — Wrangler TJ radiator replacement",
+   "url": "https://jeepfan.com/projects/wrangler-tj-radiator-replacement/"
+  },
+  {
+   "name": "Modern Jeeper — Replacing your exhaust manifold/header on a TJ/LJ",
+   "url": "https://modernjeeper.com/replacing-your-exhaust-manifold-header-on-a-tj-lj/"
+  },
+  {
+   "name": "Haynes — 1987–2017 Jeep Wrangler routine maintenance FAQ",
+   "url": "https://haynes.com/en-us/tips-tutorials/1987-2017-jeep-wrangler-and-wrangler-unlimited-routine-maintenance-faq"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep Wrangler oils & fluids explained",
+   "url": "https://extremeterrain.com/jeep-wrangler-oils-fluids-explained.html"
+  },
+  {
+   "name": "ExtremeTerrain — Jeep Wrangler fluid capacities tech guide",
+   "url": "https://www.extremeterrain.com/jeep-wrangler-fluid-capacities-tech-guide.html"
+  },
+  {
+   "name": "Quadratec — Jeep Wrangler fluid capacities",
+   "url": "https://quadratec.com/c/reference/jeep-wrangler-fluid-capacities"
+  },
+  {
+   "name": "Bill's Web Space (mirror of 4x4xplor) — TJ transmission & transfer case fluid service",
+   "url": "https://billswebspace.com/TJTrans.htm"
+  },
+  {
+   "name": "4WD Mechanix — YJ & TJ Jeep Wrangler clutch replacement",
+   "url": "https://4wdmechanix.com/?p=6677"
+  },
+  {
+   "name": "Four Wheel Trends — Largest tire on a stock Jeep Wrangler",
+   "url": "https://fourwheeltrends.com/what-is-the-largest-tire-you-can-fit-on-a-stock-jeep-wrangler/"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler TJ",
+   "url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Baseline everything, then deal with the TJ-specific items: crawl under it with a hammer and light to check the frame, listen for the OPDA on a 2005–06 4.0, and confirm which gearbox, transfer case and rear axle you have. Coolant changed from conventional green to Mopar HOAT for 2001, and automatic fluid from ATF+3 to ATF+4 (Haynes).",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "4.0: 6 qt with filter · 2.4: 4 qt · 10W-30 or 5W-30 (ExtremeTerrain)",
+    "interval": "Haynes lists every 7,500 mi or 12 months",
+    "note": "Drain-plug torque is 25 ft-lb (Haynes). Look for leaks at the oil-filter adapter gasket while you're under there, because it's a known 4.0 leak.",
+    "parts": [
+     {
+      "name": "Mopar 05281090AB engine oil filter, 01–07 TJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/mopar/engine-oil-filter-wrangler-tj-05281090AB"
+     },
+     {
+      "name": "Crown oil filter, 91–06 2.5L/4.0L YJ & TJ",
+      "supplier": "ExtremeTerrain",
+      "url": "https://www.extremeterrain.com/crown-automotive-jeep-wrangler-engine-oil-filter-5281090.html"
+     }
+    ]
+   },
+   {
+    "item": "OPDA check (2005–06 4.0)",
+    "spec": "Oil pump drive / camshaft synchronizer",
+    "interval": "Now, unless there's a receipt",
+    "note": "Quadratec recommends replacing it proactively on 2005–06 trucks with no records. Listen for the 'laughing monkey' chirp at idle.",
+    "parts": [
+     {
+      "name": "Crown 53010624AC oil pump drive assembly, 05–06 TJ 4.0L",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/51004_0060.htm"
+     }
+    ]
+   },
+   {
+    "item": "Air filter & PCV",
+    "spec": "Engine air filter and PCV",
+    "interval": "Every 30,000 mi or 24 months (Haynes); sooner in dust",
+    "note": "Quadratec lists aging throttle-position, crank and O2 sensors as causes of stalling and rough idle, so a fresh filter rules out the easy stuff first.",
+    "parts": [
+     {
+      "name": "TJ engine & fuel system parts",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/engine-and-fuel-system"
+     }
+    ]
+   },
+   {
+    "item": "Spark plugs",
+    "spec": "4.0 and 2.5: 27 ft-lb · 2.4: 132 in-lb (Haynes)",
+    "interval": "Every 30,000 mi (Haynes)",
+    "note": "Check the plug wires and coil while you're there.",
+    "parts": [
+     {
+      "name": "Crown RC12ECC spark plug, 97–06 2.5L/4.0L TJ",
+      "supplier": "ExtremeTerrain",
+      "url": "https://www.extremeterrain.com/crown-automotive-rc12ecc-spark-plug-9906-25l-or-40l-tj.html"
+     }
+    ]
+   },
+   {
+    "item": "Coolant & radiator",
+    "spec": "1997–2000: ethylene glycol 50/50 · 2001–06: Mopar 5-yr/100k HOAT 50/50 · ≈9 qt (four), 10.5 qt (4.0) (Haynes)",
+    "interval": "Every 30,000 mi or 24 months (Haynes)",
+    "note": "Inspect the plastic radiator end tanks for seam leaks. Quadratec says they often start around 100,000 miles.",
+    "parts": [
+     {
+      "name": "Crown 52080183 replacement radiator, 87–06 YJ/TJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/crown-automotive/replacement-radiator-wrangler-yj-tj-unlimited"
+     },
+     {
+      "name": "Omix cooling system kit, 00–06 4.0L TJ",
+      "supplier": "ExtremeTerrain",
+      "url": "https://www.extremeterrain.com/omix-ada-jeep-wrangler-cooling-system-kit-1711829.html"
+     }
+    ]
+   },
+   {
+    "item": "Manual transmission",
+    "spec": "AX-5/AX-15: SAE 75W-90 (Haynes: GL-3 for 1998 and later), ≈3.3 qt · NV3550: Mopar manual transmission fluid, about 2 bottles · NV1500: Mopar NV1500 lube, 4.8 pints · NSG370: 3.17 pints (Quadratec chart) [CONFIRM TYPE IN MANUAL]",
+    "interval": "Change now, then every 30,000 mi",
+    "note": "The NV3550 fill and drain plugs take a 17 mm Allen bit, and the oil-pan skid may need to come off (4x4xplor). Fine filings on the magnet are normal, but chunks are not.",
+    "parts": [
+     {
+      "name": "TJ driveline parts",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/driveline"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (30RH / 32RH / 42RLE)",
+    "spec": "2000 and earlier: Mopar ATF+3 · 2001 and later: ATF+4 · ≈4 qt pan drop (Haynes)",
+    "interval": "Every 30,000 mi, or 12,000 mi in severe use (Haynes)",
+    "note": "Change the filter with the fluid. Filter screws take 35 in-lb (30RH/32RH) or 45 in-lb (42RLE) (Haynes). Drivingline calls the 42RLE heat-sensitive, so consider a cooler if you tow or crawl.",
+    "parts": [
+     {
+      "name": "TJ automatic transmission parts",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/jeep,2003,wrangler"
+     }
+    ]
+   },
+   {
+    "item": "Transfer case (NP231 / NV241OR)",
+    "spec": "Mopar ATF+4 (Haynes) · NV241OR 4.2 pints (ExtremeTerrain chart) · fill until it runs out of the fill hole",
+    "interval": "Every 30,000 mi (Haynes)",
+    "note": "On a TJ the skid plate has to be lowered for a proper drain (4x4xplor). Plugs take 20 ft-lb (Haynes). Check the output seals and the shift-linkage bushings while you're there.",
+    "parts": [
+     {
+      "name": "Crown 53004810 shift lever bushing (NP231/NV241OR)",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/products/52218_0014.htm"
+     },
+     {
+      "name": "Crown NP231 overhaul kit, 87–06 YJ & TJ",
+      "supplier": "ExtremeTerrain",
+      "url": "https://www.extremeterrain.com/crown-automotive-np231-transfer-case-overhaul-kit-8706-yj-tj.html"
+     }
+    ]
+   },
+   {
+    "item": "Front & rear differentials",
+    "spec": "75W-90 GL-5; 75W-140 synthetic for towing · Rubicon Dana 44s: 75W-140 synthetic · +4 oz friction modifier for Trac-Lok (Haynes, Quadratec)",
+    "interval": "Every 30,000 mi, and after deep water (ExtremeTerrain)",
+    "note": "Cover bolts take 30 ft-lb (Haynes). Drivingline says to check the Dana 30's pinion seal and U-joints.",
+    "parts": [
+     {
+      "name": "Gear oil and friction modifier search",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/search?keywords=75w-140+gear+oil"
+     }
+    ]
+   },
+   {
+    "item": "Steering & front end inspection",
+    "spec": "Track bar and bolts, ball joints, tie-rod ends, drag link, stabilizer",
+    "interval": "Now, and after any lift or hard trail day",
+    "note": "Torque the track-bar bolts to spec first. Off Road Xtreme says a loose lower bolt is the most common cause of death wobble.",
+    "parts": [
+     {
+      "name": "Ball joint, drag link sleeve and tie-rod end kit, 97–06 TJ",
+      "supplier": "ExtremeTerrain",
+      "url": "https://www.extremeterrain.com/jeep-wrangler-ball-joint-steering-drag-link-adjusting-sleeve-sway-bar-link-tie-rod-end-apca1106.html"
+     }
+    ]
+   },
+   {
+    "item": "Brake & clutch fluid",
+    "spec": "DOT 3 (ExtremeTerrain)",
+    "interval": "About every two years",
+    "note": "The TJ's external clutch slave shares brake fluid. Flush both.",
+    "parts": [
+     {
+      "name": "TJ steering & brakes parts",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/steering-and-brakes"
+     }
+    ]
+   },
+   {
+    "item": "Chassis grease & U-joints",
+    "spec": "Lubricate chassis components (Haynes)",
+    "interval": "Every 7,500 mi or 12 months (Haynes)",
+    "note": "Grease the steering joints and driveshaft U-joints, and look over the control-arm bushings.",
+    "parts": [
+     {
+      "name": "TJ driveline (U-joints, driveshafts)",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/vehicle/1997-2006-wrangler-tj/driveline"
+     }
+    ]
+   },
+   {
+    "item": "Frame & floor rust inspection",
+    "spec": "Rails, rear lower control-arm brackets, transfer-case crossmember, body mounts, footwells",
+    "interval": "Now, then every winter",
+    "note": "Quadratec warns rust at the rear lower arm brackets can cause structural failure. Clean and coat the frame inside and out before it gets there.",
+    "parts": [
+     {
+      "name": "Rust Buster rear trailing arm mounts section, 97–06 TJ",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/p/rust-buster/rear-trailing-arm-mounts-section-jeep-wrangler-tj"
+     }
+    ]
+   }
+  ]
+ }
+}

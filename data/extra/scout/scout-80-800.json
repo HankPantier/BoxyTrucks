@@ -1,0 +1,200 @@
+{
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1961",
+   "change": "Scout 80 debuts in late 1960 as a 1961 model: 152 cu in four-cylinder, Dana 27 axles with offset diffs and a Dana 18 transfer case, fold-down windshield, vacuum wipers at the top of the glass. Removable sliding side windows on 1961 to very early 1962 trucks",
+   "flag": "note"
+  },
+  {
+   "year": "1965",
+   "change": "Turbocharged 152-T (111 hp vs 93 hp) offered until early 1968. Late-1965 trucks built from leftover 80 parts are titled as 800s; there are thought to be about 3,000 of these '1965½' Scouts",
+   "flag": "note"
+  },
+  {
+   "year": "1966",
+   "change": "Scout 800: bucket seats, new dash, better heating, fixed windshield with wipers at the bottom, aluminium grille. Sportop arrives early in the year, and the 196 four (from August) and 232 six become options",
+   "flag": "note"
+  },
+  {
+   "year": "1967",
+   "change": "IH's 266 cu in V8 is offered from March. The V8 package brought a heavier-duty Dana 30 front axle",
+   "flag": "note"
+  },
+  {
+   "year": "1968",
+   "change": "Four-wheel drive becomes standard on the 800, and the 152-T is dropped early in the year. Rear axle shafts change from two-piece to one-piece around 1968–69",
+   "flag": "note"
+  },
+  {
+   "year": "1969",
+   "change": "Scout 800A (from November 1968): centred Dana 44 rear axle, quieter Dana 20 transfer case and a 304 V8 option. The 232 six lasted only into early 1969. Aristocrat and SR-2 packages followed",
+   "flag": "buy"
+  },
+  {
+   "year": "1970–1971",
+   "change": "Scout 800B (August 1970 to March 1971): an 800A with chrome headlight bezels. Comanche package; Sno-Star plow package from late 1970, six-cylinder only. Replaced by the Scout II",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The 80 and the 800 series share a body, and plenty of trucks have since swapped parts between years, so a VIN and the line ticket beat badges and grilles.",
+  "items": [
+   {
+    "head": "80 or 800",
+    "body": "Scout 80s have the IH logo in the centre of the grille and tailgate, vacuum wipers at the top of a fold-down windshield, and hooks on the tailgate. The 800 moved the IH badge to the hood and got an 'International' grille nameplate, push-button door handles and a tailgate without hooks. 800A grilles have three pieces with matte-black headlight bezels; the 800B's bezels are chrome."
+   },
+   {
+    "head": "The '1965½' Scout",
+    "body": "About 3,000 Scouts built in late 1965 with leftover 80 parts are 800s by VIN and line-setting ticket. They still have the 80's hood tie-down loop and wire-mesh grille with a gold IH emblem."
+   },
+   {
+    "head": "Chassis serial ranges",
+    "body": "Super Scout Specialists' parts-catalogue ranges: Scout 80 serials run FC501 (1961) to FC124894 (1965), with FC150000–FC160573 for 1965–66. Scout 800 uses the G prefix (1966–68). 800A/800B serials run from G329142 (1969) to G445189 (1971)."
+   },
+   {
+    "head": "Axles",
+    "body": "Early trucks use Dana 27 front and rear, with the diffs offset to the passenger side to line up with the Dana 18 transfer case. From the 800A, the rear is a centred Dana 44 with a Dana 20 transfer case. Some transition trucks mix parts and run an angled rear driveshaft. The Dana 27's axle shafts are prone to breaking off-road, so check what's under yours."
+   },
+   {
+    "head": "Line ticket",
+    "body": "The factory line ticket lists engine, transmission, axles, gear ratio and paint codes. Axle ratio tags often rusted off, so the line ticket is the reliable way to confirm ratios and Power-Lock limited-slip diffs."
+   }
+  ]
+ },
+ "values": {
+  "checked": "October 2026",
+  "intro": "Values have climbed with the vintage-4x4 boom. Originality, rust-free bodies and V8s bring the most, and modern-V8 restomods sell for the highest prices.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$6k–15k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$15k–30k"
+   },
+   {
+    "cond": "Excellent / restored",
+    "range": "$35k–87k"
+   },
+   {
+    "cond": "Restomod (modern V8)",
+    "range": "$50k–85k"
+   }
+  ],
+  "note": "Based on about 85 Bring a Trailer sales of Scout 80, 800, 800A and 800B trucks, January 2025–October 2026. Medians were about $22.5k for an 80, $25k for an 800 and $29.5k for an 800A, and 800Bs sold for $19.5k–55k. The highest stock-engine sales were an $87,000 304-powered 1967 800 and a $68,000 304-powered 1961 80. A 1964 Red Carpet sold for $21,101."
+ },
+ "docs": [
+  {
+   "name": "Binder Books — Scout manuals",
+   "url": "https://www.binderbooks.com/collections/ihscoutmanual",
+   "note": "Original and licensed reprint IH manuals; now part of IH Parts America"
+  },
+  {
+   "name": "Super Scout Specialists — Scout service books and manuals",
+   "url": "https://www.superscoutspecialists.com/service-books-and-manuals-scout",
+   "note": "Reprint service, owner's and parts manuals"
+  },
+  {
+   "name": "Super Scout Specialists — Chassis & line ticket code reference",
+   "url": "https://www.superscoutspecialists.com/ih-vehicle-lineticket-code-reference",
+   "note": "Decodes line-ticket component codes and lists serial ranges by year (MT113 for Scout 80/800, MT123 for 800A/800B)"
+  }
+ ],
+ "production": {
+  "intro": "International built the original-body Scout in Fort Wayne, Indiana, from late 1960 until the Scout II took over in 1971.",
+  "items": [
+   {
+    "k": "Assembly",
+    "v": "Fort Wayne, Indiana"
+   },
+   {
+    "k": "Total Scouts built",
+    "v": "532,674 across all Scouts from 1960 to 1980, including the Scout II"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Red Carpet",
+    "years": "1964",
+    "note": "Celebrated the 100,000th Scout: white with a red interior, full headliner and silver 'Custom' medallion. 3,000 built, one for each US IH dealer."
+   },
+   {
+    "name": "Campermobile",
+    "years": "early 1960s",
+    "note": "Raised-roof camper body with fold-out tented bunks. Production was low, and they're now rare."
+   },
+   {
+    "name": "Champagne Series",
+    "years": "80 and 800",
+    "note": "Upscale trim with headliner, door panels and carpet"
+   },
+   {
+    "name": "Sportop",
+    "years": "from 1966",
+    "note": "Fibreglass top with a slanted rear roof (or convertible), upgraded interior and Continental spare kit"
+   },
+   {
+    "name": "Aristocrat",
+    "years": "800A",
+    "note": "Blue vinyl interior, blue-and-silver paint and chrome roof rack. The last version of the original-body Scout."
+   },
+   {
+    "name": "Comanche and Sno-Star",
+    "years": "800B, 1970–71",
+    "note": "Comanche had special paint, decals and chrome. Sno-Star was a six-cylinder-only snowplow package."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "IH Scout & ALL Truck Nationals",
+   "url": "http://www.midnitestar.org/",
+   "note": "Annual IH Scout and light-truck show, swap meet, tech talks and plant tours. The 35th event ran June 12–14, 2026 at the Navistar International truck assembly plant in Springfield, Ohio."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — International Scout",
+   "url": "https://en.wikipedia.org/wiki/International_Scout"
+  },
+  {
+   "name": "Super Scout Specialists — IH Vehicle Chassis & Lineticket Code Reference",
+   "url": "https://www.superscoutspecialists.com/ih-vehicle-lineticket-code-reference"
+  },
+  {
+   "name": "Super Scout Specialists — Service Books and Manuals (Scout)",
+   "url": "https://www.superscoutspecialists.com/service-books-and-manuals-scout"
+  },
+  {
+   "name": "Binder Books (IH Parts America) — Scout manuals",
+   "url": "https://www.binderbooks.com/collections/ihscoutmanual"
+  },
+  {
+   "name": "Bring a Trailer — International Harvester Scout 80 auction results",
+   "url": "https://bringatrailer.com/international-harvester/scout-80/"
+  },
+  {
+   "name": "Bring a Trailer — International Harvester Scout 800 auction results",
+   "url": "https://bringatrailer.com/international-harvester/scout-800/"
+  },
+  {
+   "name": "Bring a Trailer — International Harvester Scout 800A auction results",
+   "url": "https://bringatrailer.com/international-harvester/scout-800a/"
+  },
+  {
+   "name": "Bring a Trailer — International Harvester Scout 800B auction results",
+   "url": "https://bringatrailer.com/international-harvester/scout-800b/"
+  },
+  {
+   "name": "Midnitestar Productions — 35th Annual IH Scout & ALL Truck Nationals",
+   "url": "http://www.midnitestar.org/"
+  }
+ ]
+}

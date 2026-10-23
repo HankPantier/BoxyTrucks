@@ -3,10 +3,10 @@
 {% block content %}
 {% set p = page %}
 <section class="hero-stack">
-  <div class="hs-img">
+  <div class="hs-img{% if not p.hero_photo %} no-photo{% endif %}">
     {% if p.hero_photo %}<img src="{{ img(fam.slug, p.hero_photo) }}" alt="{{ hero_alt }}"{% if p.hero_focus %} style="object-position:{{ p.hero_focus }}"{% endif %} fetchpriority="high">{% endif %}
     <div class="wrap hs-top"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="index.html">{{ fam.maker }} {{ fam.name }}</a><span>/</span><span>{{ p.title }}</span></nav></div>
-    {% if p.hero_note %}<div class="hero-tag">{{ p.hero_note }}</div>{% endif %}
+    {% if p.hero_note and p.hero_photo %}<div class="hero-tag">{{ p.hero_note }}</div>{% endif %}
   </div>
   <div class="hs-band"><div class="wrap">
     <div class="hero-panel hs-panel">

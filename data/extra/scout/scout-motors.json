@@ -1,0 +1,180 @@
+{
+ "fitment": {
+  "max_tire": [
+   {
+    "lift": "Stock (announced)",
+    "size": "up to 35-inch",
+    "note": "Scout says the platform is 'intended to offer up to 35-inch tires' (Oct 24, 2024). Show concepts have run 35s on 22-in and 18-in beadlock wheels (Traveler) and 37s on 18-in wheels (Terra, LA Auto Show, Nov 2025); those are concepts, not production specs."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2021",
+   "change": "Volkswagen Group gains the Scout name when its truck arm Traton completes the purchase of Navistar, International Harvester's successor",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "May 11: Volkswagen approves an independent US company to build electric off-roaders under the Scout name. Sept 1: Scott Keogh leaves Volkswagen of America to become Scout's CEO",
+   "flag": "note"
+  },
+  {
+   "year": "2023",
+   "change": "March 3: Scout announces a $2 billion plant in Blythewood, South Carolina, able to build 200,000 vehicles a year",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Oct 24: Traveler SUV and Terra pickup revealed near Nashville as production-intent concepts, battery-electric or with the 'Harvester' gas range extender. Reservations open; initial production targeted for 2027",
+   "flag": "note"
+  },
+  {
+   "year": "2025",
+   "change": "January: more than 50,000 reservations, about 70% for the Traveler and more than half for the Harvester range extender (per Keogh). Nov 12: headquarters to move to Charlotte, NC. Nov 18: first auto-show appearance (Los Angeles), quoting retail prices 'starting under $60,000'",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "Sept 2: Scout says validation vehicles are being built in Blythewood in 2026, continuing into 2027, and that customer deliveries are expected to begin in 2028",
+   "flag": "note"
+  }
+ ],
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "over 7,000 lb (3,175 kg) Traveler; over 10,000 lb (4,536 kg) Terra",
+   "note": "projected, Scout Motors, Oct 24, 2024"
+  },
+  {
+   "k": "Payload",
+   "v": "nearly 2,000 lb (907 kg), both models",
+   "note": "projected, Oct 2024"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "over 1 ft (305 mm)",
+   "note": "projected, Oct 2024"
+  },
+  {
+   "k": "Wading depth",
+   "v": "nearly 3 ft (914 mm)",
+   "note": "projected, Oct 2024"
+  },
+  {
+   "k": "Range",
+   "v": "up to 350 mi (563 km) battery-electric; more than 500 mi (805 km) with the Harvester range extender",
+   "note": "anticipated, Oct 2024; repeated Nov 2025"
+  },
+  {
+   "k": "Acceleration",
+   "v": "0–60 mph in as little as 3.5 s; nearly 1,000 lb-ft torque",
+   "note": "battery-electric, anticipated, Oct 2024"
+  },
+  {
+   "k": "Off-road hardware",
+   "v": "Body-on-frame, solid rear axle, front and rear mechanical lockers, front sway-bar disconnect; electric drive unit on each axle",
+   "note": "announced Oct 2024; Nov 2025 release calls the lockers 'available'"
+  },
+  {
+   "k": "Charging",
+   "v": "800 V architecture, NACS port, up to 350 kW DC, bidirectional",
+   "note": "announced Oct 2024"
+  },
+  {
+   "k": "Bed",
+   "v": "5.5 ft with two 120 V outlets and one 240 V outlet (Terra)",
+   "note": "announced Oct 2024"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "No customer vehicles exist yet. These are Scout's announced prices, not transaction prices, and they'll be confirmed only when order books open.",
+  "ranges": [
+   {
+    "cond": "Traveler (announced)",
+    "range": "Retail from under $60,000; 'as low as $50,000 with available incentives' (Oct 2024)"
+   },
+   {
+    "cond": "Terra (announced)",
+    "range": "Retail from under $60,000; 'as low as $51,500 with available incentives' (Oct 2024)"
+   }
+  ],
+  "note": "October 24, 2024 reveal release; the November 18, 2025 LA Auto Show release quotes only 'retail prices starting under $60,000'. Scout plans to sell direct rather than through dealers, which dealer groups are fighting in court."
+ },
+ "production": {
+  "intro": "Both models are to be built at Scout's new plant near Columbia, South Carolina, with deliveries expected to begin in 2028 (as of Sept 2026).",
+  "items": [
+   {
+    "k": "Plant",
+    "v": "Blythewood, South Carolina: announced March 2023 at $2 billion, 200,000 vehicles a year, more than 4,000 jobs planned"
+   },
+   {
+    "k": "Engineering",
+    "v": "Designed and engineered at Scout's Innovation Center in Novi, Michigan"
+   },
+   {
+    "k": "Headquarters",
+    "v": "Moving to Charlotte, North Carolina (announced Nov 12, 2025)"
+   },
+   {
+    "k": "Reservations",
+    "v": "More than 50,000 by January 2025, open in the US and Canada"
+   },
+   {
+    "k": "Deliveries",
+    "v": "Expected to begin in 2028 (Scout Motors, Sept 2, 2026); originally 'initial production targeted for 2027'"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Traveler Mountainside concept",
+    "years": "2026",
+    "note": "Refined Traveler concept in Morning Dusk with semi-aniline leather, walnut trim and 22-in wheels on 35-in tires; shown at Jazz Aspen Snowmass, Sept 4–6, 2026"
+   },
+   {
+    "name": "Traveler trail-ready concept",
+    "years": "2026",
+    "note": "Galvanized Steel finish, steel bumpers, integrated winch, rock rails, external spare, 18-in beadlocks on 35-in tires"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "event",
+   "name": "IH Scout & ALL Truck Nationals",
+   "url": "http://www.midnitestar.org/",
+   "note": "The original-Scout owners' show, where Scout Motors displayed its Traveler and Terra concepts in 2025 (per Super Scout Specialists). The 35th event ran June 12–14, 2026 in Springfield, Ohio."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Scout Motors — The reveal of the Scout Traveler SUV and Scout Terra truck (Oct 24, 2024)",
+   "url": "https://www.scoutmotors.com/newsroom/the-reveal-of-the-scout-r-traveler-tm-suv-and-scout-r-terra-tm-truck/"
+  },
+  {
+   "name": "Scout Motors — Scout-branded vehicles return to the Los Angeles Auto Show (Nov 18, 2025)",
+   "url": "https://www.scoutmotors.com/newsroom/scout-branded-vehicles-return-to-the-los-angeles-auto-show-for-the-first/"
+  },
+  {
+   "name": "Scout Motors — Scout Motors reveals two distinct expressions of the Scout Traveler SUV (Sept 2, 2026)",
+   "url": "https://www.scoutmotors.com/newsroom/scout-motors-reveals-two-distinct-expressions-of-the-scout-r-traveler-tm-suv/"
+  },
+  {
+   "name": "Scout Motors — Scout Motors selects Charlotte, North Carolina as corporate headquarters",
+   "url": "https://www.scoutmotors.com/newsroom/scout-motors-selects-charlotte-north-carolina-as-corporate-headquarters/"
+  },
+  {
+   "name": "Wikipedia — Scout Motors",
+   "url": "https://en.wikipedia.org/wiki/Scout_Motors"
+  },
+  {
+   "name": "Super Scout Specialists — News: Scout Motors concepts at the Nationals (Mar 17, 2025)",
+   "url": "https://www.superscoutspecialists.com/new-scout-vehicle-concepts"
+  },
+  {
+   "name": "Midnitestar Productions — 35th Annual IH Scout & ALL Truck Nationals",
+   "url": "http://www.midnitestar.org/"
+  }
+ ]
+}
