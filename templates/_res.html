@@ -1,5 +1,5 @@
 {% macro res_list(items, kind) -%}
-{% if items %}<div class="grid" style="--min:240px">{% for s in items %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener"><span class="ico">{{ kind }}</span><span style="min-width:0"><span class="nm">{{ s.name }}</span><span class="fc">{{ s.focus }}</span></span></a>{% endfor %}</div>{% endif %}
+{% if items %}<div class="grid" style="--min:260px">{% for s in items %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener"><span class="ico">{{ kind }}</span><span style="min-width:0"><span class="nm">{{ s.name }}</span><span class="fc">{{ s.focus }}</span></span></a>{% endfor %}</div>{% endif %}
 {%- endmacro %}
 {% macro res_block(res, title_prefix='', limit=99) -%}
 <div class="res">

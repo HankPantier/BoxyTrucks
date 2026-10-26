@@ -21,6 +21,9 @@
 </section>
 
 <div class="wrap section">
+  <div class="jump toc-mobile" role="navigation" aria-label="On this page"><label for="toc-sel">On this page</label><select id="toc-sel" onchange="if(this.value)location.hash=this.value">
+    <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}
+  </select></div>
   <div class="split">
     <div class="main">
       {% set x = page.x or {} %}{% set groups = toc|map(attribute=0)|list %}
@@ -77,7 +80,7 @@
         <h2 class="h-section">Variants &amp; engines</h2>
         <div class="table-box"><table>
           <thead><tr><th>YEARS</th><th>PLATFORM</th><th>ENGINE</th><th>OUTPUT</th><th>WORTH KNOWING</th></tr></thead>
-          <tbody>{% for g in p.generations_table %}<tr><td class="mono">{{ g.years }}</td><td>{{ g.platform }}</td><td>{{ g.engine }}</td><td class="mono">{{ g.output }}</td><td class="note">{{ g.note|lk }}</td></tr>{% endfor %}</tbody>
+          <tbody>{% for g in p.generations_table %}<tr><td class="mono" data-l="YEARS">{{ g.years }}</td><td data-l="PLATFORM">{{ g.platform }}</td><td data-l="ENGINE">{{ g.engine }}</td><td class="mono" data-l="OUTPUT">{{ g.output }}</td><td class="note" data-l="WORTH KNOWING">{{ g.note|lk }}</td></tr>{% endfor %}</tbody>
         </table></div>
       </section>
       {% endif %}
@@ -96,7 +99,7 @@
         {% if ft.wheel %}<div class="kvgrid">{% for k, lbl in [('bolt_pattern','Bolt pattern'),('offset','Offset'),('center_bore','Center bore'),('lug_thread','Lug thread'),('lug_torque','Lug-nut torque')] %}{% if ft.wheel[k] %}<div><span class="k">{{ lbl }}</span><span class="v">{{ ft.wheel[k] }}</span></div>{% endif %}{% endfor %}</div>{% endif %}
         {% if ft.max_tire %}<div class="table-box"><table class="fit">
           <thead><tr><th>LIFT</th><th>BIGGEST TIRE</th><th>WHAT IT TAKES</th></tr></thead>
-          <tbody>{% for m in ft.max_tire %}<tr><td class="mono">{{ m.lift }}</td><td class="mono"><strong>{{ m.size }}</strong></td><td class="note">{{ m.note|lk }}</td></tr>{% endfor %}</tbody>
+          <tbody>{% for m in ft.max_tire %}<tr><td class="mono" data-l="LIFT">{{ m.lift }}</td><td class="mono" data-l="BIGGEST TIRE"><strong>{{ m.size }}</strong></td><td class="note" data-l="WHAT IT TAKES">{{ m.note|lk }}</td></tr>{% endfor %}</tbody>
         </table></div>{% endif %}
         <p class="sub-note">Forum consensus, not a guarantee: wheel offset, tire brand and suspension wear all change clearance. Confirm before you buy.</p>
       </section>

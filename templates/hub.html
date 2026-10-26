@@ -11,8 +11,11 @@
 <div class="wrap section">
 {% if hub.kind == 'repairs' %}
   <aside class="verify" role="note" style="margin-bottom:48px;max-width:860px"><span class="verify-k">Verify before you wrench</span><p>These guides are general information from owners, shops and forums, not a factory manual. Confirm specs, fluids and procedures for your VIN, work safely, and do the work at your own risk. <a href="{{ root }}about/disclaimer.html">Full disclaimer</a>.</p></aside>
+  <div class="jump" role="navigation" aria-label="Jump to a model"><label for="jump-sel">Jump to a truck</label><select id="jump-sel" onchange="if(this.value)location.hash=this.value">
+    <option value="">Choose a model…</option>{% for fs, items in hub.groups|groupby('fam_short') %}<optgroup label="{{ fs }}">{% for grp in items %}<option value="{{ grp.id }}">{{ grp.model }} ({{ grp.repairs|length }})</option>{% endfor %}</optgroup>{% endfor %}
+  </select></div>
   {% for grp in hub.groups %}
-  <section style="margin-bottom:56px">
+  <section id="{{ grp.id }}" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.model }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">{% for r in grp.repairs %}
       <a class="card" href="{{ grp.href }}#repairs"><div class="body"><h3 style="font-size:21px">{{ r.title }}</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">{{ r.symptoms|striplk|truncate(160) }}</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY {{ r.diff }} · {{ r.time }}</span></div></a>{% endfor %}
@@ -71,11 +74,12 @@
   </section>
   {% endfor %}
 {% elif hub.kind == 'sale' %}
+  <nav class="chips" aria-label="Jump to" style="margin-bottom:40px">{% for f in fam_list %}<a class="chip" href="#{{ f.slug }}">{{ f.short }}</a>{% endfor %}</nav>
   {% for f in fam_list %}
-  <section style="margin-bottom:48px">
+  <section id="{{ f.slug }}" style="margin-bottom:48px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ mlabel(f.maker, f.name) }}</span><h2>{{ f.short }}</h2></div></div>
     <div class="table-box"><table style="min-width:600px"><thead><tr><th>GENERATION</th><th>YEARS</th><th>AUTOTEMPEST</th><th>BRING A TRAILER</th></tr></thead><tbody>
-      {% for g in f.generations %}<tr><td><a href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a></td><td class="mono">{{ g.years }}</td><td>{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">Search ↗</a>{% endif %}</td><td>{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td></tr>{% endfor %}
+      {% for g in f.generations %}<tr><td data-l="GENERATION"><a href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a></td><td class="mono" data-l="YEARS">{{ g.years }}</td><td data-l="AUTOTEMPEST">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">Search ↗</a>{% endif %}</td><td data-l="BRING A TRAILER">{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td></tr>{% endfor %}
     </tbody></table></div>
   </section>
   {% endfor %}

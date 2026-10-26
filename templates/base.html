@@ -42,7 +42,9 @@ gtag('js',new Date());gtag('config','{{ seo.ga }}');</script>{% endif %}
   <div class="wrap">
     <a class="brand" href="{{ root }}index.html">{{ mark('#B0915A') }}<span>BOXY TRUCKS</span></a>
     <form class="hsearch" role="search" action="{{ root }}search/index.html" method="get"><label for="hq" class="sr-only">Search BoxyTrucks</label><input id="hq" name="q" type="search" placeholder="Search guides, parts, repairs"></form>
-    <nav class="nav" aria-label="Main">
+    <a class="search-icon" href="{{ root }}search/index.html" aria-label="Search"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l5 5" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
       {% for n in nav %}{% if n.key == 'models' and nav_fams %}<div class="nav-drop">
         <a href="{{ root }}{{ n.href }}"{% if n.key == active %} class="active"{% endif %}>{{ n.label }}</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="models-menu" aria-label="Show model families"><svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
         <ul class="nav-menu" id="models-menu">{% for f in nav_fams %}<li><a href="{{ root }}models/index.html#{{ f.slug }}">{{ f.label }}</a></li>{% endfor %}<li class="all"><a href="{{ root }}models/index.html">All models →</a></li></ul>
@@ -77,12 +79,18 @@ gtag('js',new Date());gtag('config','{{ seo.ga }}');</script>{% endif %}
   </div>
 </footer>
 <script>
-(function(){var d=document.querySelector('.nav-drop');if(!d)return;var b=d.querySelector('.nav-caret');
-function set(o){d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
-b.addEventListener('click',function(e){e.stopPropagation();set(!d.classList.contains('open'));});
-document.addEventListener('click',function(e){if(!d.contains(e.target))set(false);});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
-d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){set(false);});});})();
+(function(){var h=document.querySelector('.site-header'),t=h&&h.querySelector('.nav-toggle');
+var mq=window.matchMedia('(max-width: 1099px)');
+function openNav(o){if(!h)return;h.classList.toggle('open',o);document.documentElement.classList.toggle('nav-open',o);if(t){t.setAttribute('aria-expanded',o?'true':'false');t.setAttribute('aria-label',o?'Close menu':'Open menu');}}
+if(t){t.addEventListener('click',function(){openNav(!h.classList.contains('open'));});}
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){openNav(false);setDrop(false);}});
+(mq.addEventListener?mq.addEventListener('change',function(){openNav(false);}):0);
+var d=document.querySelector('.nav-drop'),b=d&&d.querySelector('.nav-caret');
+function setDrop(o){if(!d)return;d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+if(d){b.addEventListener('click',function(e){e.stopPropagation();setDrop(!d.classList.contains('open'));});
+document.addEventListener('click',function(e){if(!mq.matches&&!d.contains(e.target))setDrop(false);});
+d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){setDrop(false);openNav(false);});});}
+})();
 </script>
 <script>
 (function(){if(typeof gtag!=='function')return;

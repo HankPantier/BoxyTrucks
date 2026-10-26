@@ -43,7 +43,9 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
   <div class="wrap">
     <a class="brand" href="/"><svg viewBox="0 0 64 64" width="34" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="#B0915A" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="#B0915A"/><circle cx="40" cy="63" r="9.5" fill="#B0915A"/><circle cx="40" cy="63" r="3.5" fill="#0E0F0E"/></svg><span>BOXY TRUCKS</span></a>
     <form class="hsearch" role="search" action="/search/" method="get"><label for="hq" class="sr-only">Search BoxyTrucks</label><input id="hq" name="q" type="search" placeholder="Search guides, parts, repairs"></form>
-    <nav class="nav" aria-label="Main">
+    <a class="search-icon" href="/search/" aria-label="Search"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l5 5" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
       <div class="nav-drop">
         <a href="/models/">MODELS</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="models-menu" aria-label="Show model families"><svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
         <ul class="nav-menu" id="models-menu"><li><a href="/models/#4runner">4Runner</a></li><li><a href="/models/#chevrolet">Chevrolet / GMC</a></li><li><a href="/models/#bronco">Ford Bronco</a></li><li><a href="/models/#g-class">G-Class</a></li><li><a href="/models/#grenadier">Grenadier</a></li><li><a href="/models/#hummer">Hummer H1</a></li><li><a href="/models/#scout">International Scout</a></li><li><a href="/models/#trooper">Isuzu Trooper</a></li><li><a href="/models/#jeep">Jeep</a></li><li><a href="/models/#land-cruiser">Land Cruiser</a></li><li><a href="/models/#land-rover">Land Rover</a></li><li><a href="/models/#lexus">Lexus LX &amp; GX</a></li><li><a href="/models/#pajero">Mitsubishi Pajero</a></li><li><a href="/models/#nissan-patrol">Nissan Patrol</a></li><li><a href="/models/#range-rover">Range Rover</a></li><li><a href="/models/#suzuki">Suzuki</a></li><li class="all"><a href="/models/">All models →</a></li></ul>
@@ -63,8 +65,11 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 <div class="wrap section">
 
   <aside class="verify" role="note" style="margin-bottom:48px;max-width:860px"><span class="verify-k">Verify before you wrench</span><p>These guides are general information from owners, shops and forums, not a factory manual. Confirm specs, fluids and procedures for your VIN, work safely, and do the work at your own risk. <a href="/about/disclaimer/">Full disclaimer</a>.</p></aside>
+  <div class="jump" role="navigation" aria-label="Jump to a model"><label for="jump-sel">Jump to a truck</label><select id="jump-sel" onchange="if(this.value)location.hash=this.value">
+    <option value="">Choose a model…</option><optgroup label="4Runner"><option value="4runner-1st-gen">Toyota 4Runner 1st Gen (8)</option><option value="4runner-2nd-gen">Toyota 4Runner 2nd Gen (8)</option><option value="4runner-3rd-gen">Toyota 4Runner 3rd Gen (8)</option><option value="4runner-4th-gen">Toyota 4Runner 4th Gen (7)</option><option value="4runner-5th-gen">Toyota 4Runner 5th Gen (8)</option><option value="4runner-6th-gen">Toyota 4Runner 6th Gen (7)</option></optgroup><optgroup label="Chevrolet / GMC"><option value="chevrolet-k5-blazer-1st">Chevrolet K5 Blazer (1st generation) (7)</option><option value="chevrolet-k5-blazer">Chevrolet K5 Blazer (1973–1991) (7)</option><option value="chevrolet-suburban-square">Chevrolet/GMC Suburban (1973–1991 square body) (7)</option></optgroup><optgroup label="Ford Bronco"><option value="bronco-early-bronco">Ford Bronco (1966–1977) (7)</option><option value="bronco-full-size">Full-size Bronco (8)</option><option value="bronco-bronco-ii">Ford Bronco II (8)</option><option value="bronco-sixth-gen">Bronco (sixth generation) (7)</option></optgroup><optgroup label="G-Class"><option value="g-class-w460">G-Class W460 (8)</option><option value="g-class-w461">G-Class W461 (8)</option><option value="g-class-w463">G-Class W463 (8)</option><option value="g-class-500ge">500 GE V8 (7)</option><option value="g-class-europa">Europa International Gs (7)</option><option value="g-class-g500">G 500 (10)</option><option value="g-class-g55-amg">G 55 AMG (8)</option><option value="g-class-g550">G 550 (8)</option><option value="g-class-g63-amg">G 63 AMG (8)</option><option value="g-class-g63-6x6">G 63 AMG 6×6 (8)</option><option value="g-class-4x4-squared">G 500 4×4² (8)</option><option value="g-class-second-gen">G-Class (second generation) (8)</option></optgroup><optgroup label="Grenadier"><option value="grenadier-station-wagon">Ineos Grenadier Station Wagon (8)</option><option value="grenadier-quartermaster">Ineos Grenadier Quartermaster (8)</option></optgroup><optgroup label="Hummer H1"><option value="hummer-h1">Hummer H1 (8)</option></optgroup><optgroup label="International Scout"><option value="scout-scout-80-800">Scout 80 / 800 (7)</option><option value="scout-scout-ii">International Scout II (7)</option></optgroup><optgroup label="Isuzu Trooper"><option value="trooper-trooper-1">Isuzu Trooper (first generation) (7)</option><option value="trooper-trooper-2">Isuzu Trooper (second generation) (8)</option></optgroup><optgroup label="Jeep"><option value="jeep-cj-5">Jeep CJ-5 (7)</option><option value="jeep-cj-7">Jeep CJ-7 (7)</option><option value="jeep-cj-8">Jeep CJ-8 Scrambler (8)</option><option value="jeep-sj-wagoneer">Jeep Wagoneer &amp; Cherokee (SJ) (8)</option><option value="jeep-grand-wagoneer">Jeep Grand Wagoneer (SJ) (7)</option><option value="jeep-cherokee-xj">Jeep Cherokee XJ (7)</option><option value="jeep-comanche-mj">Jeep Comanche MJ (8)</option><option value="jeep-yj">Jeep Wrangler YJ (7)</option><option value="jeep-grand-cherokee-zj">Jeep Grand Cherokee ZJ (8)</option><option value="jeep-tj">Jeep Wrangler TJ (7)</option><option value="jeep-tj-unlimited">Jeep Wrangler Unlimited (LJ) (8)</option><option value="jeep-jk">Jeep Wrangler JK (2-door) (8)</option><option value="jeep-jk-unlimited">Wrangler JK Unlimited (7)</option><option value="jeep-jl">Wrangler JL (7)</option><option value="jeep-jl-unlimited">Wrangler JL Unlimited (7)</option><option value="jeep-gladiator-jt">Jeep Gladiator JT (7)</option><option value="jeep-wagoneer-ws">Jeep Wagoneer &amp; Grand Wagoneer (WS) (7)</option></optgroup><optgroup label="Land Cruiser"><option value="land-cruiser-fj25">Land Cruiser J20 / J25 (FJ25) (7)</option><option value="land-cruiser-fj40">Land Cruiser FJ40 (8)</option><option value="land-cruiser-fj45-fj55">Land Cruiser FJ45 / FJ55 (8)</option><option value="land-cruiser-fj60">Land Cruiser FJ60 (7)</option><option value="land-cruiser-fj62">Land Cruiser FJ62 (8)</option><option value="land-cruiser-70-series">Land Cruiser 70 Series (8)</option><option value="land-cruiser-80-series">Land Cruiser 80 Series (8)</option><option value="land-cruiser-mega-cruiser">Toyota Mega Cruiser (5)</option><option value="land-cruiser-prado-90">Land Cruiser Prado 90 (8)</option><option value="land-cruiser-100-series">Land Cruiser 100 Series (7)</option><option value="land-cruiser-prado-120">Land Cruiser Prado 120 (8)</option><option value="land-cruiser-200-series">Land Cruiser 200 Series (8)</option><option value="land-cruiser-fj-cruiser">Toyota FJ Cruiser (8)</option><option value="land-cruiser-prado-150">Land Cruiser Prado 150 (7)</option><option value="land-cruiser-250-series">Land Cruiser 250 Series (8)</option><option value="land-cruiser-300-series">Land Cruiser 300 Series (8)</option></optgroup><optgroup label="Land Rover"><option value="land-rover-series">Land Rover Series I–III (8)</option><option value="land-rover-defender-90-110">Land Rover 90 / 110 / Defender (7)</option><option value="land-rover-defender-l663">Land Rover Defender (L663) (7)</option><option value="land-rover-discovery-1">Land Rover Discovery Series I (7)</option><option value="land-rover-discovery-2">Land Rover Discovery Series II (8)</option><option value="land-rover-lr3">Land Rover LR3 / Discovery 3 (8)</option><option value="land-rover-lr4">Land Rover LR4 / Discovery 4 (8)</option></optgroup><optgroup label="Lexus LX &amp; GX"><option value="lexus-lx450">Lexus LX 450 (8)</option><option value="lexus-lx470">Lexus LX 470 (7)</option><option value="lexus-lx570">Lexus LX 570 (7)</option><option value="lexus-lx600">Lexus LX 600 (8)</option><option value="lexus-gx470">Lexus GX 470 (8)</option><option value="lexus-gx460">Lexus GX 460 (7)</option><option value="lexus-gx550">Lexus GX 550 (8)</option></optgroup><optgroup label="Mitsubishi Pajero"><option value="pajero-pajero-gen1">Pajero / Montero (First Generation) (6)</option><option value="pajero-pajero-gen2">Pajero / Montero (Second Generation) (6)</option></optgroup><optgroup label="Nissan Patrol"><option value="nissan-patrol-patrol-60">Patrol 60 Series (7)</option><option value="nissan-patrol-160-mq">Patrol 160 / MQ (7)</option><option value="nissan-patrol-y60">Nissan Patrol Y60 (GQ) (8)</option><option value="nissan-patrol-y61">Patrol Y61 (GU) (7)</option><option value="nissan-patrol-y62">Patrol Y62 / Armada (8)</option></optgroup><optgroup label="Range Rover"><option value="range-rover-classic">Range Rover Classic (7)</option><option value="range-rover-p38">Range Rover P38A (7)</option><option value="range-rover-l322">Range Rover L322 (7)</option><option value="range-rover-l405">Range Rover L405 (7)</option><option value="range-rover-l460">Range Rover L460 (8)</option></optgroup><optgroup label="Suzuki"><option value="suzuki-lj-series">Suzuki Jimny LJ series (6)</option><option value="suzuki-samurai">Suzuki SJ / Samurai (7)</option><option value="suzuki-jimny-jb23">Suzuki Jimny JB23 / JB43 (8)</option><option value="suzuki-jimny-jb74">Suzuki Jimny JB74 / JB64 (6)</option></optgroup>
+  </select></div>
   
-  <section style="margin-bottom:56px">
+  <section id="4runner-1st-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota 4Runner</span><h2>Toyota 4Runner 1st Gen</h2></div><a class="label" href="/models/4runner/1st-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/4runner/1st-gen/#repairs"><div class="body"><h3 style="font-size:21px">22R-E timing chain, guides and tensioner</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Rattle or slap from the timing cover at start-up, broken guide pieces in the oil pan, or simply no record that it&#39;s ever been done.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Most of a weekend for a first-timer</span></div></a>
@@ -78,7 +83,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="4runner-2nd-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota 4Runner</span><h2>Toyota 4Runner 2nd Gen</h2></div><a class="label" href="/models/4runner/2nd-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/4runner/2nd-gen/#repairs"><div class="body"><h3 style="font-size:21px">3VZ-E head gaskets</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Coolant disappearing with no external leak, white exhaust, overheating, cylinder 6 misfire. 4Runners.com members call blown gaskets almost inevitable on an...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 5 / 5 · Several days; heads usually go to a machine shop</span></div></a>
@@ -92,7 +97,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="4runner-3rd-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota 4Runner</span><h2>Toyota 4Runner 3rd Gen</h2></div><a class="label" href="/models/4runner/3rd-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/4runner/3rd-gen/#repairs"><div class="body"><h3 style="font-size:21px">Lower ball joint replacement</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Stiff steering, poor self-centering, front-end clunks or squeaks, a torn boot. Toyota&#39;s 50J letter warns a worn joint can separate from the knuckle.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 30–60 min per side</span></div></a>
@@ -106,7 +111,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="4runner-4th-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota 4Runner</span><h2>Toyota 4Runner 4th Gen</h2></div><a class="label" href="/models/4runner/4th-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/4runner/4th-gen/#repairs"><div class="body"><h3 style="font-size:21px">Replace X-REAS with conventional shocks</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Leaking or rusty X-REAS shocks, a floaty or wallowy ride, a quote for four OEM units that&#39;s more than the truck feels worth.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · A day</span></div></a>
@@ -119,7 +124,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="4runner-5th-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota 4Runner</span><h2>Toyota 4Runner 5th Gen</h2></div><a class="label" href="/models/4runner/5th-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/4runner/5th-gen/#repairs"><div class="body"><h3 style="font-size:21px">Automatic transmission drain and fill</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Due on mileage or unknown history; dark or burnt-smelling fluid. There is no dipstick — the level is set at temperature through a check plug.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Trail4R&#39;s author budgeted about 6 hours including parts runs</span></div></a>
@@ -133,7 +138,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="4runner-6th-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota 4Runner</span><h2>Toyota 4Runner 6th Gen</h2></div><a class="label" href="/models/4runner/6th-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/4runner/6th-gen/#repairs"><div class="body"><h3 style="font-size:21px">Front brake squeal fix (TSB pad and shim kit)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Squeal from the front brakes, typically when reversing and often worse cold. TSB T-SB-0046-25 applies to 2025 4Runner and 4Runner Hybrid (and 2024–25 Land Cruiser).</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · Dealer flat-rate ≈ 0.9 hours (TSB op BR2503)</span></div></a>
@@ -146,7 +151,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="chevrolet-k5-blazer-1st" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Chevrolet K5 Blazer &amp; Suburban</span><h2>Chevrolet K5 Blazer (1st generation)</h2></div><a class="label" href="/models/chevrolet/k5-blazer-1st/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/chevrolet/k5-blazer-1st/#repairs"><div class="body"><h3 style="font-size:21px">Brace the steering box mount before the frame cracks</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Steering that wanders or clunks, the steering box moving on the frame when someone saws at the wheel, or visible cracks around the box mounting bolts on a...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2–3 hours</span></div></a>
@@ -159,7 +164,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="chevrolet-k5-blazer" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Chevrolet K5 Blazer &amp; Suburban</span><h2>Chevrolet K5 Blazer (1973–1991)</h2></div><a class="label" href="/models/chevrolet/k5-blazer/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/chevrolet/k5-blazer/#repairs"><div class="body"><h3 style="font-size:21px">Repair and brace a cracked steering-box frame rail</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Wandering steering, a box that visibly moves on the frame when someone turns the wheel, or hairline cracks running from the steering-box bolt holes. Big...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ A weekend (more if the rail needs welding)</span></div></a>
@@ -172,7 +177,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="chevrolet-suburban-square" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Chevrolet K5 Blazer &amp; Suburban</span><h2>Chevrolet/GMC Suburban (1973–1991 square body)</h2></div><a class="label" href="/models/chevrolet/suburban-square/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/chevrolet/suburban-square/#repairs"><div class="body"><h3 style="font-size:21px">Brace or repair the frame at the steering box</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Steering that wanders or clunks, the box moving on the rail, or cracks around the box bolts. It&#39;s most likely on lifted trucks with big tires.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day (bolt-in) · longer if welding</span></div></a>
@@ -185,7 +190,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="bronco-early-bronco" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Ford Bronco</span><h2>Ford Bronco (1966–1977)</h2></div><a class="label" href="/models/bronco/early-bronco/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/bronco/early-bronco/#repairs"><div class="body"><h3 style="font-size:21px">Floor pan, rocker and door-post rust repair</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Holes or soft spots in the floor, bubbling along the rockers, sagging doors that won&#39;t latch cleanly, rust around the door-post hinges and water on the...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ Several weekends, depending on how far it goes</span></div></a>
@@ -198,7 +203,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="bronco-full-size" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Ford Bronco</span><h2>Full-size Bronco</h2></div><a class="label" href="/models/bronco/full-size/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/bronco/full-size/#repairs"><div class="body"><h3 style="font-size:21px">Fix a tailgate window that won&#39;t move</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">The rear glass won&#39;t go up or down, moves from the key but not the dash switch (or the other way round), or grinds and stalls part-way.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–3 hours</span></div></a>
@@ -212,7 +217,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="bronco-bronco-ii" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Ford Bronco</span><h2>Ford Bronco II</h2></div><a class="label" href="/models/bronco/bronco-ii/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/bronco/bronco-ii/#repairs"><div class="body"><h3 style="font-size:21px">Replace cracked 2.9 cylinder heads</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">White smoke when warm, clean spark plugs, low compression on one or more cylinders, coolant loss with no external leak, or milky &#34;snot&#34; on a warm dipstick...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ 1–2 days</span></div></a>
@@ -226,7 +231,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="bronco-sixth-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Ford Bronco</span><h2>Bronco (sixth generation)</h2></div><a class="label" href="/models/bronco/sixth-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/bronco/sixth-gen/#repairs"><div class="body"><h3 style="font-size:21px">Rear shock reservoir corrosion (Bilstein, HOSS 2.0)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Rusty or swollen reservoir bodies on the rear shocks, a reservoir hanging by its hose, oil on the shock body, or a bouncy rear end.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–2 hours to replace a pair</span></div></a>
@@ -239,7 +244,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-w460" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G-Class W460</h2></div><a class="label" href="/models/g-class/w460/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/w460/#repairs"><div class="body"><h3 style="font-size:21px">Front axle rebuild (bearings, kingpins, swivel seals, CVs)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil or grease weeping from the steering ball (the big swivel housing behind the hub), play at the wheel, clicking on full lock, torn CV boots.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · A full weekend (estimate)</span></div></a>
@@ -253,7 +258,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-w461" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G-Class W461</h2></div><a class="label" href="/models/g-class/w461/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/w461/#repairs"><div class="body"><h3 style="font-size:21px">Cardan shaft recall check</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">On affected G 280 CDI and G 300 CDI trucks built from 4 April 2016 to 13 September 2021: power loss or drivetrain failure caused by the cardan shaft...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 1 / 5 · Minutes to check</span></div></a>
@@ -267,7 +272,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-w463" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G-Class W463</h2></div><a class="label" href="/models/g-class/w463/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/w463/#repairs"><div class="body"><h3 style="font-size:21px">Lockers won&#39;t engage: find the vacuum leak</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">One or more lock lights never come on, the centre lock drops out (and takes the rear with it), or locks release when engine revs fall.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · 2–4 hours</span></div></a>
@@ -281,7 +286,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-500ge" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>500 GE V8</h2></div><a class="label" href="/models/g-class/500ge/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/500ge/#repairs"><div class="body"><h3 style="font-size:21px">Front axle seal leak</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, braking that pulls to one side.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · A day</span></div></a>
@@ -294,7 +299,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-europa" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>Europa International Gs</h2></div><a class="label" href="/models/g-class/europa/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/europa/#repairs"><div class="body"><h3 style="font-size:21px">Front axle repack (knuckles &amp; wheel bearings)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease weeping from the swivels, torn CV boots, wheel-bearing noise or play, or no record of the job.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · 1–2 days</span></div></a>
@@ -307,7 +312,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-g500" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G 500</h2></div><a class="label" href="/models/g-class/g500/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/g500/#repairs"><div class="body"><h3 style="font-size:21px">Harmonic balancer (M113)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Vibration at idle, a visibly wobbling crank pulley, rattle or chirp that changes with RPM, cracked or bulging rubber, belt squeal. Don’t keep driving it: if...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 2.5 hours</span></div></a>
@@ -323,7 +328,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-g55-amg" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G 55 AMG</h2></div><a class="label" href="/models/g-class/g55-amg/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/g55-amg/#repairs"><div class="body"><h3 style="font-size:21px">Intercooler pump (Kompressor)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Power drops after heat soak, especially in traffic or at crawling speed; intake temperatures climb.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · 1–2 hours</span></div></a>
@@ -337,7 +342,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-g550" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G 550</h2></div><a class="label" href="/models/g-class/g550/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/g550/#repairs"><div class="body"><h3 style="font-size:21px">Thermostat (M273)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Engine slow to warm up or running cool, erratic temperature gauge, poor heater output, codes P0597, P0598 or P0599. Note that 80–95 °C can be normal on a...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2 hours</span></div></a>
@@ -351,7 +356,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-g63-amg" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G 63 AMG</h2></div><a class="label" href="/models/g-class/g63-amg/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/g63-amg/#repairs"><div class="body"><h3 style="font-size:21px">Spark plugs &amp; ignition coils (M157)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Misfire codes (P0300-series), rough idle, hesitation under boost. Often the plugs&#39; age is simply unknown.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · 2–3 hours</span></div></a>
@@ -365,7 +370,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-g63-6x6" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G 63 AMG 6×6</h2></div><a class="label" href="/models/g-class/g63-6x6/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/g63-6x6/#repairs"><div class="body"><h3 style="font-size:21px">Tyre-inflation (CTIS) leaks</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Slow inflation, one axle losing pressure overnight, the compressor running a long time, hissing at a hub.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Specialist job</span></div></a>
@@ -379,7 +384,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-4x4-squared" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G 500 4×4²</h2></div><a class="label" href="/models/g-class/4x4-squared/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/4x4-squared/#repairs"><div class="body"><h3 style="font-size:21px">Spark plugs &amp; ignition coils (M176)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Misfire codes, rough idle, hesitation under load. Plugs are a scheduled item; coils fail individually.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2–3 hours</span></div></a>
@@ -393,7 +398,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="g-class-second-gen" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>G-Class (second generation)</h2></div><a class="label" href="/models/g-class/second-gen/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/g-class/second-gen/#repairs"><div class="body"><h3 style="font-size:21px">Front-axle harness recall (23V097)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">ABS and stability-control warnings; on affected 2019–2021 trucks the front-axle wiring harness can rub through against the auxiliary oil cooler.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 1 / 5 · Dealer visit</span></div></a>
@@ -407,7 +412,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="grenadier-station-wagon" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Ineos Grenadier</span><h2>Ineos Grenadier Station Wagon</h2></div><a class="label" href="/models/grenadier/station-wagon/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/grenadier/station-wagon/#repairs"><div class="body"><h3 style="font-size:21px">Engine oil and filter change (B58)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Service due, or an &#39;Engine Oil Low&#39; message. Many owners do an early break-in change, then shorter intervals than the factory schedule.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1 hour</span></div></a>
@@ -421,7 +426,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="grenadier-quartermaster" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Ineos Grenadier</span><h2>Ineos Grenadier Quartermaster</h2></div><a class="label" href="/models/grenadier/quartermaster/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/grenadier/quartermaster/#repairs"><div class="body"><h3 style="font-size:21px">Engine oil and filter change (B58)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Service due, an &#39;Engine Oil Low&#39; message, or the first break-in change. Towing and camper weight are good reasons to shorten intervals.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1 hour</span></div></a>
@@ -435,7 +440,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="hummer-h1" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">AM General Hummer H1</span><h2>Hummer H1</h2></div><a class="label" href="/models/hummer/h1/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/hummer/h1/#repairs"><div class="body"><h3 style="font-size:21px">Replace geared-hub output and spindle seals</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil sprayed on the inside of a tire, oil dripping off the lower ball joint, or a CTIS pair that loses pressure overnight. Pull the hub&#39;s breather line and...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1.5–2 hours per hub (Flash Off-Road)</span></div></a>
@@ -449,7 +454,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="scout-scout-80-800" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">International Scout</span><h2>Scout 80 / 800</h2></div><a class="label" href="/models/scout/scout-80-800/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/scout/scout-80-800/#repairs"><div class="body"><h3 style="font-size:21px">Floor pan and rocker replacement</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Soft or holed floors under the mats, rockers bubbling at the bottom of the doors, and daylight around the fuel-tank compartment. Silodrome warns that rust...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · Multi-weekend welding job</span></div></a>
@@ -462,7 +467,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="scout-scout-ii" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">International Scout</span><h2>International Scout II</h2></div><a class="label" href="/models/scout/scout-ii/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/scout/scout-ii/#repairs"><div class="body"><h3 style="font-size:21px">Floor, rocker and rear crossmember rust repair</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Bubbling under the doors, soft or holed floors, a sagging door opening, water on the carpets, and rust at the rear spring mounts and rear crossmember.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ Several weekends, depending on how far it goes</span></div></a>
@@ -475,7 +480,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="trooper-trooper-1" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Isuzu Trooper</span><h2>Isuzu Trooper (first generation)</h2></div><a class="label" href="/models/trooper/trooper-1/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/trooper/trooper-1/#repairs"><div class="body"><h3 style="font-size:21px">Replace stripped or broken wheel studs</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Lug nuts that won&#39;t thread on, studs that snap when a tire shop uses an impact gun, or a wheel that loosens. Owners have reported all three to NHTSA.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · An afternoon</span></div></a>
@@ -488,7 +493,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="trooper-trooper-2" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Isuzu Trooper</span><h2>Isuzu Trooper (second generation)</h2></div><a class="label" href="/models/trooper/trooper-2/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/trooper/trooper-2/#repairs"><div class="body"><h3 style="font-size:21px">Manage 3.5 V6 oil consumption</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil level dropping between changes, blue smoke, fouled plugs and, in the worst NHTSA reports, an engine that runs dry and seizes without the oil light coming on.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 (rebuild 5 / 5) · Minutes a week; a rebuild takes days</span></div></a>
@@ -502,7 +507,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-cj-5" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep CJ-5</h2></div><a class="label" href="/models/jeep/cj-5/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/cj-5/#repairs"><div class="body"><h3 style="font-size:21px">Steering box mount and frame cracks</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Wandering steering, a box that shifts on the frame when the wheel is turned, or cracks around the box mounting holes. RockCrawler.com reports a CJ-5 that...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day if the frame is sound; longer with welding</span></div></a>
@@ -515,7 +520,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-cj-7" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep CJ-7</h2></div><a class="label" href="/models/jeep/cj-7/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/cj-7/#repairs"><div class="body"><h3 style="font-size:21px">Convert the AMC 20 to one-piece axle shafts</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A clunk under load, a rear wheel that suddenly stops driving, or a hub that wobbles on its shaft. The key between the shaft and the pressed-on hub shears...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A day, plus tube welding if you do it</span></div></a>
@@ -528,7 +533,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-cj-8" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep CJ-8 Scrambler</h2></div><a class="label" href="/models/jeep/cj-8/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/cj-8/#repairs"><div class="body"><h3 style="font-size:21px">AMC 20 one-piece axle conversion</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Clunks on take-off, a rear hub loosening on its shaft, or spun splines. Quadratec explains that the factory hardened hubs cut into softer axle-shaft...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day to a day</span></div></a>
@@ -542,7 +547,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-sj-wagoneer" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Wagoneer &amp; Cherokee (SJ)</h2></div><a class="label" href="/models/jeep/sj-wagoneer/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/sj-wagoneer/#repairs"><div class="body"><h3 style="font-size:21px">Cure Quadra-Trac stick-slip and chain slap (1974–79)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A pulsing grunt or rasp when turning slowly or parking, worst after the truck has sat for a week; or a slapping noise against the case, even at idle, which...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 (fluid) · 4 / 5 (chain) · ≈ 1 hour (fluid) · a weekend (chain)</span></div></a>
@@ -556,7 +561,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-grand-wagoneer" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Grand Wagoneer (SJ)</h2></div><a class="label" href="/models/jeep/grand-wagoneer/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/grand-wagoneer/#repairs"><div class="body"><h3 style="font-size:21px">Rebuild the Motorcraft 2150 or convert to throttle-body injection</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Hesitation, stumbling or stalling cold or hot, hard hot starts, fuel smell, poor idle. Hagerty&#39;s specialist blames the carburetor for about 40% of owner headaches.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 (rebuild) · 3 / 5 (TBI) · ≈ An afternoon (rebuild) · A weekend (TBI)</span></div></a>
@@ -569,7 +574,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-cherokee-xj" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Cherokee XJ</h2></div><a class="label" href="/models/jeep/cherokee-xj/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/cherokee-xj/#repairs"><div class="body"><h3 style="font-size:21px">Replace a cracked 0331 cylinder head (2000–01)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Unexplained coolant loss, brown or dirty coolant, milky residue under the oil cap, and often a recent overheat. Wikipedia says the crack sits between...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ A weekend</span></div></a>
@@ -582,7 +587,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-comanche-mj" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Comanche MJ</h2></div><a class="label" href="/models/jeep/comanche-mj/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/comanche-mj/#repairs"><div class="body"><h3 style="font-size:21px">Replace rusted floor pans and rockers</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Wet carpet, rusty seat-bracket bolts, holes under the mats, crumbling rockers, and rust at the rear cab bulkhead where the bed meets the cab.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ A weekend per side</span></div></a>
@@ -596,7 +601,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-yj" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Wrangler YJ</h2></div><a class="label" href="/models/jeep/yj/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/yj/#repairs"><div class="body"><h3 style="font-size:21px">Fix the vacuum front-axle disconnect (or convert to cable)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">4WD light stays off, the front axle won&#39;t drive in 4H, or it engages and drops out with a clunk under load at speed.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ An afternoon to diagnose; longer if the axle shift parts are worn</span></div></a>
@@ -609,7 +614,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-grand-cherokee-zj" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Grand Cherokee ZJ</h2></div><a class="label" href="/models/jeep/grand-cherokee-zj/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/grand-cherokee-zj/#repairs"><div class="body"><h3 style="font-size:21px">Kill the death wobble: track bar, tie rods and ball joints</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Violent front-end shaking after a bump at 35–50 mph that only stops when you slow right down; vague steering and wander.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 (bolts) · 3 / 5 (ball joints) · ≈ 1 hour (inspection and bolts) · a day (ball joints)</span></div></a>
@@ -623,7 +628,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-tj" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Wrangler TJ</h2></div><a class="label" href="/models/jeep/tj/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/tj/#repairs"><div class="body"><h3 style="font-size:21px">Cure death wobble: track bar, ball joints and tie rods</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Uncontrollable side-to-side shaking of the front end, usually triggered by a bump at around 45 mph and stopped only by slowing right down.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ An afternoon to diagnose; a day to replace parts</span></div></a>
@@ -636,7 +641,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-tj-unlimited" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Wrangler Unlimited (LJ)</h2></div><a class="label" href="/models/jeep/tj-unlimited/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/tj-unlimited/#repairs"><div class="body"><h3 style="font-size:21px">Replace the oil pump drive assembly (2005–06 4.0)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A squeak or &#39;laughing monkey&#39; chirp from the back of the engine, sometimes with a check-engine light. Left alone, Quadratec warns, OPDA failure can damage...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · An afternoon</span></div></a>
@@ -650,7 +655,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-jk" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Wrangler JK (2-door)</h2></div><a class="label" href="/models/jeep/jk/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/jk/#repairs"><div class="body"><h3 style="font-size:21px">Replace the Pentastar oil filter housing (2012–18)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil (and sometimes coolant) pooling in the valley between the cylinder banks, a burning smell, slow oil loss. You often won&#39;t see drips on the ground until...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · About 6 hours in one owner&#39;s write-up, including prep</span></div></a>
@@ -664,7 +669,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-jk-unlimited" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Wrangler JK Unlimited</h2></div><a class="label" href="/models/jeep/jk-unlimited/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/jk-unlimited/#repairs"><div class="body"><h3 style="font-size:21px">Chase down death wobble (track bar first)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Violent side-to-side shaking of the steering wheel and front axle, usually at 45–65 mph after a bump or bridge seam, which stops only when you slow right down.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–3 hours to diagnose; longer if parts need replacing</span></div></a>
@@ -677,7 +682,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-jl" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Wrangler JL</h2></div><a class="label" href="/models/jeep/jl/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/jl/#repairs"><div class="body"><h3 style="font-size:21px">Fix steering wobble: damper, track bar, then the rest</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Front-end shimmy or full death wobble after a bump at 45–65 mph, with the steering wheel shaking side to side.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–2 hours to inspect and fit a damper</span></div></a>
@@ -690,7 +695,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-jl-unlimited" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Wrangler JL Unlimited</h2></div><a class="label" href="/models/jeep/jl-unlimited/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/jl-unlimited/#repairs"><div class="body"><h3 style="font-size:21px">Fix steering wobble: damper, track bar, then the rest</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Front-end shimmy or full death wobble after a bump at 45–65 mph, with the steering wheel shaking side to side.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–2 hours to inspect and fit a damper</span></div></a>
@@ -703,7 +708,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-gladiator-jt" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Gladiator JT</h2></div><a class="label" href="/models/jeep/gladiator-jt/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/gladiator-jt/#repairs"><div class="body"><h3 style="font-size:21px">Cure steering wobble: damper, track bar, steering box</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Front-end shimmy or full death wobble after a bump at highway speed, or a steering wheel that shakes side to side. JeepGladiatorForum owners report dealers...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–3 hours to inspect and fit parts</span></div></a>
@@ -716,7 +721,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="jeep-wagoneer-ws" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Jeep</span><h2>Jeep Wagoneer &amp; Grand Wagoneer (WS)</h2></div><a class="label" href="/models/jeep/wagoneer-ws/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/jeep/wagoneer-ws/#repairs"><div class="body"><h3 style="font-size:21px">Diagnose a &#39;Service Air Suspension&#39; warning</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">&#39;Service Air Suspension&#39; in the cluster, the truck stuck at one height, or air ride not working front and rear. On early 2022 trucks the code C15AE-00...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1–2 hours to inspect</span></div></a>
@@ -729,7 +734,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-fj25" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser J20 / J25 (FJ25)</h2></div><a class="label" href="/models/land-cruiser/fj25/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/fj25/#repairs"><div class="body"><h3 style="font-size:21px">Drum brake reline and adjustment</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Pulling, a long pedal or brakes that need pumping, on a truck with four drums and no booster.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ Half a day for all four wheels</span></div></a>
@@ -742,7 +747,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-fj40" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser FJ40</h2></div><a class="label" href="/models/land-cruiser/fj40/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/fj40/#repairs"><div class="body"><h3 style="font-size:21px">Front knuckle and Birfield rebuild</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease and gear oil oozing from the knuckle wiper seals, a mix of grease and 90-weight inside the knuckle, or play when you lift a front wheel and shove it.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Two days the first time; half a day once experienced</span></div></a>
@@ -756,7 +761,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-fj45-fj55" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser FJ45 / FJ55</h2></div><a class="label" href="/models/land-cruiser/fj45-fj55/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/fj45-fj55/#repairs"><div class="body"><h3 style="font-size:21px">Front knuckle and Birfield rebuild</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease and gear oil weeping past the knuckle wiper seals, sludge inside the knuckle, or play in the front wheel.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Two days the first time</span></div></a>
@@ -770,7 +775,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-fj60" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser FJ60</h2></div><a class="label" href="/models/land-cruiser/fj60/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/fj60/#repairs"><div class="body"><h3 style="font-size:21px">Carburetor rebuild and vacuum check</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Stumbling, hesitation, sputtering, rough running or stalling at low rpm. If it only runs with the choke off, suspect the EGR valve.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A day</span></div></a>
@@ -783,7 +788,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-fj62" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser FJ62</h2></div><a class="label" href="/models/land-cruiser/fj62/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/fj62/#repairs"><div class="body"><h3 style="font-size:21px">Chase down a rough idle</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Rough or hunting idle, hesitation, or a hiss under the hood.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–3 hours</span></div></a>
@@ -797,7 +802,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-70-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser 70 Series</h2></div><a class="label" href="/models/land-cruiser/70-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/70-series/#repairs"><div class="body"><h3 style="font-size:21px">Adjust or replace the front wheel bearings</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A hum from the front that becomes a growl, then a howl, and gets louder with speed. With the wheel off the ground, there&#39;s play when you rock it at 12 and 6 o&#39;clock.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day for both sides</span></div></a>
@@ -811,7 +816,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-80-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser 80 Series</h2></div><a class="label" href="/models/land-cruiser/80-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/80-series/#repairs"><div class="body"><h3 style="font-size:21px">Front knuckle / Birfield rebuild</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Gear oil and grease caked on the outside of the knuckles, runny grease at the knuckle fill plug, wheel-bearing play or noise, or a seal that started weeping...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A full weekend for both sides</span></div></a>
@@ -825,7 +830,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-mega-cruiser" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Toyota Mega Cruiser</h2></div><a class="label" href="/models/land-cruiser/mega-cruiser/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/mega-cruiser/#repairs"><div class="body"><h3 style="font-size:21px">Hub-reduction and differential gear oil</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">No records, weeping seals at the hub housings or diffs, or noise from the driveline.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · Half a day</span></div></a>
@@ -836,7 +841,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-prado-90" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser Prado 90</h2></div><a class="label" href="/models/land-cruiser/prado-90/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/prado-90/#repairs"><div class="body"><h3 style="font-size:21px">Replace the front lower ball joints</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Heavy steering, poor self-centring, vibration or shudder in turns, a torn boot, or simply no record that they&#39;ve ever been changed. A worn joint can let go...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day for both sides</span></div></a>
@@ -850,7 +855,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-100-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser 100 Series</h2></div><a class="label" href="/models/land-cruiser/100-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/100-series/#repairs"><div class="body"><h3 style="font-size:21px">Timing belt, water pump and thermostat (the 90k service)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">No symptoms until it breaks. It&#39;s on the service schedule at 90,000 miles, so a truck without receipts is due.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A long weekend (one owner logged about 15 relaxed hours)</span></div></a>
@@ -863,7 +868,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-prado-120" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser Prado 120</h2></div><a class="label" href="/models/land-cruiser/prado-120/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/prado-120/#repairs"><div class="body"><h3 style="font-size:21px">1KD-FTV injector seats (washers) and oil-pickup check</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">White smoke and a rattle after a cold start, oily carbon in the rocker cover, and in the worst case low oil pressure from a blocked pickup.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · Workshop-dependent; often done alongside an injector service</span></div></a>
@@ -877,7 +882,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-200-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser 200 Series</h2></div><a class="label" href="/models/land-cruiser/200-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/200-series/#repairs"><div class="body"><h3 style="font-size:21px">Replace a weeping water pump</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Dried pink coolant trailing down the front of the engine from the water-pump weep hole, and a slowly dropping coolant level.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A few hours</span></div></a>
@@ -891,7 +896,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-fj-cruiser" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Toyota FJ Cruiser</h2></div><a class="label" href="/models/land-cruiser/fj-cruiser/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/fj-cruiser/#repairs"><div class="body"><h3 style="font-size:21px">Repair rotted rear frame sections</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Flaking, swollen or holed frame rails, rear control-arm brackets and crossmembers, often hidden under fresh undercoating on salt-belt trucks.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 5 / 5 · ≈ A weekend or more, with welding</span></div></a>
@@ -905,7 +910,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-prado-150" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser Prado 150</h2></div><a class="label" href="/models/land-cruiser/prado-150/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/prado-150/#repairs"><div class="body"><h3 style="font-size:21px">Timing belt (1KD-FTV 3.0 diesel)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">None until it fails. Unsealed 4X4 and Auto Buyers Guide both put the change at 150,000 km, so a 1KD truck without a receipt is due.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Most of a day</span></div></a>
@@ -918,7 +923,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-250-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser 250 Series</h2></div><a class="label" href="/models/land-cruiser/250-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/250-series/#repairs"><div class="body"><h3 style="font-size:21px">Engine oil and filter change</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Scheduled service. Many owners also change the factory oil early, at around 1,000–1,500 miles.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 1 / 5 · ≈ 1 hour</span></div></a>
@@ -932,7 +937,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-cruiser-300-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Toyota Land Cruiser</span><h2>Land Cruiser 300 Series</h2></div><a class="label" href="/models/land-cruiser/300-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-cruiser/300-series/#repairs"><div class="body"><h3 style="font-size:21px">Transfer case and front diff fluid service</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Scheduled service. One IH8MUD owner also reported less low-speed &#39;rocking&#39; in traffic after changing the transfer-case fluid at 19,500 miles.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1.5 hours</span></div></a>
@@ -946,7 +951,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover Series I–III</h2></div><a class="label" href="/models/land-rover/series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/series/#repairs"><div class="body"><h3 style="font-size:21px">Swivel housing rebuild (Series IIA/III)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil weeping past the swivel seal, pitted chrome on the swivel ball, wandering or heavy steering.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Several hours per side</span></div></a>
@@ -960,7 +965,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-defender-90-110" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover 90 / 110 / Defender</h2></div><a class="label" href="/models/land-rover/defender-90-110/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/defender-90-110/#repairs"><div class="body"><h3 style="font-size:21px">Swivel housing rebuild and preload</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease or oil weeping from the swivel seal, pitted chrome ball, wobbly or vague steering.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1 hour both sides for a shim/preload adjustment; longer for a full rebuild</span></div></a>
@@ -973,7 +978,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-defender-l663" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover Defender (L663)</h2></div><a class="label" href="/models/land-rover/defender-l663/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/defender-l663/#repairs"><div class="body"><h3 style="font-size:21px">Engine oil and filter (3.0 Ingenium diesel)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Due on the oil-life counter, or you want shorter intervals than the factory schedule.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2 hours including undertray removal</span></div></a>
@@ -986,7 +991,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-discovery-1" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover Discovery Series I</h2></div><a class="label" href="/models/land-rover/discovery-1/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/discovery-1/#repairs"><div class="body"><h3 style="font-size:21px">Reseal leaking sunroofs and replace drains</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Water dripping from the roof lining or rear vents, wet carpets, sagging or stained headlining.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · A day with the headlining out</span></div></a>
@@ -999,7 +1004,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-discovery-2" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover Discovery Series II</h2></div><a class="label" href="/models/land-rover/discovery-2/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/discovery-2/#repairs"><div class="body"><h3 style="font-size:21px">Td5 injector harness replacement</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil inside the red ECU plug, poor starting, misfires or rough running, injector fault codes.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2 hours</span></div></a>
@@ -1013,7 +1018,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-lr3" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover LR3 / Discovery 3</h2></div><a class="label" href="/models/land-rover/lr3/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/lr3/#repairs"><div class="body"><h3 style="font-size:21px">Rebuild or replace the air suspension compressor</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Slow height changes, suspension faults, a compressor that gets very hot and slows before cutting out with an error. One DISCO3.CO.UK owner&#39;s unit reached...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Half a day</span></div></a>
@@ -1027,7 +1032,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="land-rover-lr4" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Series &amp; Defender</span><h2>Land Rover LR4 / Discovery 4</h2></div><a class="label" href="/models/land-rover/lr4/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/land-rover/lr4/#repairs"><div class="body"><h3 style="font-size:21px">Coolant crossover pipe, water pump &amp; thermostat (5.0 V8)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Coolant smell after driving, slowly falling coolant level or &#39;low coolant&#39; warning, crusty coolant around the front of the engine or the back of the block,...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1 day DIY (pump and both pipes)</span></div></a>
@@ -1041,7 +1046,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-lx450" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus LX 450</h2></div><a class="label" href="/models/lexus/lx450/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/lx450/#repairs"><div class="body"><h3 style="font-size:21px">Front knuckle rebuild and birfield repack</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease and oil caked on the outside of the knuckle balls, runny grease at the knuckle fill plug, and diff oil migrating into the knuckles.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Varies. Allow a weekend for a first rebuild.</span></div></a>
@@ -1055,7 +1060,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-lx470" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus LX 470</h2></div><a class="label" href="/models/lexus/lx470/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/lx470/#repairs"><div class="body"><h3 style="font-size:21px">AHC fluid flush and bleed</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A harsh or bouncy ride, dark or metallic-gray fluid in the reservoir, sluggish leveling, or a flush that&#39;s overdue (owners say Lexus recommends one every 60k miles).</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1 hour (owner report)</span></div></a>
@@ -1068,7 +1073,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-lx570" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus LX 570</h2></div><a class="label" href="/models/lexus/lx570/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/lx570/#repairs"><div class="body"><h3 style="font-size:21px">Radiator replacement (cracked top tank)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A wet line or pink crust along the top plastic tank next to the molded platform, slow coolant loss and a sweet smell after a drive. It&#39;s most often reported...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · Parts plus labor. The FSM procedure is posted on IH8MUD.</span></div></a>
@@ -1081,7 +1086,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-lx600" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus LX 600</h2></div><a class="label" href="/models/lexus/lx600/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/lx600/#repairs"><div class="body"><h3 style="font-size:21px">Engine recall check (24V-381 / 25V-767)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Possible engine knocking, rough running, a no-start or a loss of motive power. Many trucks show nothing.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 1 / 5 · ≈ 10 minutes to check. Dealer time varies.</span></div></a>
@@ -1095,7 +1100,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-gx470" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus GX 470</h2></div><a class="label" href="/models/lexus/gx470/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/gx470/#repairs"><div class="body"><h3 style="font-size:21px">Rear air spring replacement or coil conversion</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">The rear sits low or sags overnight, the ride turns harsh, the height-control light blinks, the compressor runs nonstop, and in the worst case the truck is...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 2 hours (simple coil swap) to half a day (with new trailing arms)</span></div></a>
@@ -1109,7 +1114,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-gx460" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus GX 460</h2></div><a class="label" href="/models/lexus/gx460/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/gx460/#repairs"><div class="body"><h3 style="font-size:21px">Coolant valley leak</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">The coolant level keeps dropping, with pink or red coolant running down the back of the engine and the transmission bell housing. It typically appears...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ 6–8 hours shop labor, a long weekend DIY</span></div></a>
@@ -1122,7 +1127,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="lexus-gx550" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Lexus LX &amp; GX</span><h2>Lexus GX 550</h2></div><a class="label" href="/models/lexus/gx550/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/lexus/gx550/#repairs"><div class="body"><h3 style="font-size:21px">Engine recall 25LA07 (25V-767) check</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Possible engine knocking, rough running, a no-start or a loss of motive power. Many affected trucks show no symptoms.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 1 / 5 · ≈ 10 minutes to check. Dealer time varies.</span></div></a>
@@ -1136,7 +1141,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="pajero-pajero-gen1" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mitsubishi Pajero / Montero</span><h2>Pajero / Montero (First Generation)</h2></div><a class="label" href="/models/pajero/pajero-gen1/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/pajero/pajero-gen1/#repairs"><div class="body"><h3 style="font-size:21px">Inspect the pitman-arm ball joint and steering boots</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Wander, play at the wheel, or split ball-joint boots. Mitsubishi Japan&#39;s notice lists every first-generation code (L041G–L149G). It warns that on old,...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ 1–2 hours</span></div></a>
@@ -1148,7 +1153,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="pajero-pajero-gen2" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Mitsubishi Pajero / Montero</span><h2>Pajero / Montero (Second Generation)</h2></div><a class="label" href="/models/pajero/pajero-gen2/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/pajero/pajero-gen2/#repairs"><div class="body"><h3 style="font-size:21px">Timing belt, tensioner and water pump (6G72 3.0 / 6G74 3.5)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Usually none before it fails. A whirring from the belt area can mean an over-tight belt or a failing idler. Australian owners change it about every 100,000...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A long day</span></div></a>
@@ -1160,7 +1165,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="nissan-patrol-patrol-60" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Nissan Patrol</span><h2>Patrol 60 Series</h2></div><a class="label" href="/models/nissan-patrol/patrol-60/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/nissan-patrol/patrol-60/#repairs"><div class="body"><h3 style="font-size:21px">Front swivel (closed-knuckle) rebuild</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease and oil weeping from the knuckle seals, play in the swivel, or heavy, notchy steering.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ A weekend per axle</span></div></a>
@@ -1173,7 +1178,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="nissan-patrol-160-mq" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Nissan Patrol</span><h2>Patrol 160 / MQ</h2></div><a class="label" href="/models/nissan-patrol/160-mq/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/nissan-patrol/160-mq/#repairs"><div class="body"><h3 style="font-size:21px">Swivel hub (kingpin) and front wheel bearing rebuild</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Grease and oil weeping from the swivel seals, play at the top and bottom of the wheel, or a rumbling front wheel bearing.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A day for both sides</span></div></a>
@@ -1186,7 +1191,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="nissan-patrol-y60" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Nissan Patrol</span><h2>Nissan Patrol Y60 (GQ)</h2></div><a class="label" href="/models/nissan-patrol/y60/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/nissan-patrol/y60/#repairs"><div class="body"><h3 style="font-size:21px">Swivel hub (kingpin) bearing and seal rebuild</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Greasy gunk on the front swivel balls, steering that wanders, or play when you rock the top of the tyre with the wheel off the ground. On a GQ the swivel...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ A full day per side for a first-timer</span></div></a>
@@ -1200,7 +1205,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="nissan-patrol-y61" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Nissan Patrol</span><h2>Patrol Y61 (GU)</h2></div><a class="label" href="/models/nissan-patrol/y61/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/nissan-patrol/y61/#repairs"><div class="body"><h3 style="font-size:21px">ZD30 &#39;engine saver&#39; setup (gauges, oil level, breather)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">None until a piston fails, usually number three or four. Warning signs include high EGTs when towing, boost spikes or drops under load, sooty oil, and oil...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · ≈ Half a day to a day</span></div></a>
@@ -1213,7 +1218,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="nissan-patrol-y62" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Nissan Patrol</span><h2>Patrol Y62 / Armada</h2></div><a class="label" href="/models/nissan-patrol/y62/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/nissan-patrol/y62/#repairs"><div class="body"><h3 style="font-size:21px">Automatic transmission fluid and filter service</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Harsh or late shifts, flare between gears, or fluid that&#39;s dark and smells burnt, especially on a truck that tows.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 2–3 hours</span></div></a>
@@ -1227,7 +1232,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="range-rover-classic" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Range Rover</span><h2>Range Rover Classic</h2></div><a class="label" href="/models/range-rover/classic/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/range-rover/classic/#repairs"><div class="body"><h3 style="font-size:21px">Swivel ball seal replacement and regrease</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Oil weeping from the swivel housings onto the chrome balls and wheels; the truck rolling while in park can mean a CV joint ran dry and failed.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · Varies</span></div></a>
@@ -1240,7 +1245,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="range-rover-p38" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Range Rover</span><h2>Range Rover P38A</h2></div><a class="label" href="/models/range-rover/p38/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/range-rover/p38/#repairs"><div class="body"><h3 style="font-size:21px">Cooling hose and thermostat refresh (GEMS V8)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">An ageing cooling system on a 4.0 or 4.6. Cracked or soft hoses, a high or overfilling expansion tank, or a heater that blows lukewarm. On these engines,...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · Half a day</span></div></a>
@@ -1253,7 +1258,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="range-rover-l322" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Range Rover</span><h2>Range Rover L322</h2></div><a class="label" href="/models/range-rover/l322/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/range-rover/l322/#repairs"><div class="body"><h3 style="font-size:21px">Ride height sensor replacement (2003–2005)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">The air suspension won&#39;t change height or adjusts erratically, often with no stored fault codes. The sensor pivots seize, and cracked rear sensor bodies let...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · Varies</span></div></a>
@@ -1266,7 +1271,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="range-rover-l405" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Range Rover</span><h2>Range Rover L405</h2></div><a class="label" href="/models/range-rover/l405/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/range-rover/l405/#repairs"><div class="body"><h3 style="font-size:21px">Front air strut replacement</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">One front corner sitting low after standing, a hiss when the truck lowers to access height, the compressor working overtime, or air-suspension faults that...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1–2 hours per side (forum labour estimate for full-size Range Rover struts)</span></div></a>
@@ -1279,7 +1284,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="range-rover-l460" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Land Rover Range Rover</span><h2>Range Rover L460</h2></div><a class="label" href="/models/range-rover/l460/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/range-rover/l460/#repairs"><div class="body"><h3 style="font-size:21px">Rear brake pads (electric parking brake service mode)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A pad-wear warning (one owner&#39;s P440e needed rear pads at 31,000 miles, another owner&#39;s at 16,000), or grinding at the rear. NHTSA has several similar...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 2 / 5 · Varies</span></div></a>
@@ -1293,7 +1298,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="suzuki-lj-series" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Suzuki Samurai &amp; Jimny</span><h2>Suzuki Jimny LJ series</h2></div><a class="label" href="/models/suzuki/lj-series/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/suzuki/lj-series/#repairs"><div class="body"><h3 style="font-size:21px">Sill, corner-post and floor rust repair</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Bubbling paint at the bottom of the corner posts and sills, holed footwells and soft spots around the body mounts.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 4 / 5 · ≈ Several weekends</span></div></a>
@@ -1305,7 +1310,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="suzuki-samurai" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Suzuki Samurai &amp; Jimny</span><h2>Suzuki SJ / Samurai</h2></div><a class="label" href="/models/suzuki/samurai/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/suzuki/samurai/#repairs"><div class="body"><h3 style="font-size:21px">Rebuild the front knuckles (kingpins, seals, wheel bearings)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Gear oil weeping from the knuckle balls, loose or wandering steering, play when you rock the top of the tire, and grease or oil inside the brake parts.</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ 1 day for both sides</span></div></a>
@@ -1318,7 +1323,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="suzuki-jimny-jb23" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Suzuki Samurai &amp; Jimny</span><h2>Suzuki Jimny JB23 / JB43</h2></div><a class="label" href="/models/suzuki/jimny-jb23/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/suzuki/jimny-jb23/#repairs"><div class="body"><h3 style="font-size:21px">Replace the kingpin bearings and halfshaft seal</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">Steering-wheel shake around 45–50 mph, play when you rock a raised wheel at 12 and 6 o&#39;clock with the brakes held, and diff oil mixed with grease leaking...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day per side</span></div></a>
@@ -1332,7 +1337,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
     </div>
   </section>
   
-  <section style="margin-bottom:56px">
+  <section id="suzuki-jimny-jb74" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Suzuki Samurai &amp; Jimny</span><h2>Suzuki Jimny JB74 / JB64</h2></div><a class="label" href="/models/suzuki/jimny-jb74/" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">
       <a class="card" href="/models/suzuki/jimny-jb74/#repairs"><div class="body"><h3 style="font-size:21px">Diagnose steering wobble (kingpins first)</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">A shaking steering wheel around 45–50 mph, play when a raised front wheel is rocked top to bottom with the brakes held, or oil and grease weeping from the...</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY 3 / 5 · ≈ Half a day per side for kingpins</span></div></a>
@@ -1362,12 +1367,18 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
   </div>
 </footer>
 <script>
-(function(){var d=document.querySelector('.nav-drop');if(!d)return;var b=d.querySelector('.nav-caret');
-function set(o){d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
-b.addEventListener('click',function(e){e.stopPropagation();set(!d.classList.contains('open'));});
-document.addEventListener('click',function(e){if(!d.contains(e.target))set(false);});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
-d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){set(false);});});})();
+(function(){var h=document.querySelector('.site-header'),t=h&&h.querySelector('.nav-toggle');
+var mq=window.matchMedia('(max-width: 1099px)');
+function openNav(o){if(!h)return;h.classList.toggle('open',o);document.documentElement.classList.toggle('nav-open',o);if(t){t.setAttribute('aria-expanded',o?'true':'false');t.setAttribute('aria-label',o?'Close menu':'Open menu');}}
+if(t){t.addEventListener('click',function(){openNav(!h.classList.contains('open'));});}
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){openNav(false);setDrop(false);}});
+(mq.addEventListener?mq.addEventListener('change',function(){openNav(false);}):0);
+var d=document.querySelector('.nav-drop'),b=d&&d.querySelector('.nav-caret');
+function setDrop(o){if(!d)return;d.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+if(d){b.addEventListener('click',function(e){e.stopPropagation();setDrop(!d.classList.contains('open'));});
+document.addEventListener('click',function(e){if(!mq.matches&&!d.contains(e.target))setDrop(false);});
+d.querySelectorAll('.nav-menu a').forEach(function(a){a.addEventListener('click',function(){setDrop(false);openNav(false);});});}
+})();
 </script>
 <script>
 (function(){if(typeof gtag!=='function')return;

@@ -471,7 +471,7 @@ def main():
                 continue
             h = href('../', slug, gs)
             if p.get('repairs'):
-                rep_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'repairs': p['repairs']})
+                rep_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'fam_short': fam['short'], 'model': p['title'], 'href': h, 'repairs': p['repairs'], 'id': f'{slug}-{gs}'})
             if p.get('mods'):
                 mod_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'mods': p['mods'], 'fam': slug, 'gen': gs, 'order': len(mod_groups)})
         res_groups.append({'maker': fam['maker'], 'name': fam['name'], 'short': fam['short'], 'href': f'../models/{slug}/index.html', 'res': resources[slug]})
