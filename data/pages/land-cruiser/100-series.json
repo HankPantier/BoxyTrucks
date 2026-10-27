@@ -29,7 +29,7 @@
    "heading": "THE AMERICAN 100",
    "paragraphs": [
     "US trucks were all UZJ100s with the 4.7-liter 2UZ-FE V8, rated at 230 hp and 320 lb-ft, driving through an A343F four-speed automatic and an HF2A full-time transfer case. Slee Off-Road notes that, unlike the 80, it has no viscous coupling, just a center differential you can lock. The rear axle is a semi-floating, 32-spline unit with a 9.5-inch ring gear. A rear electric locker was optional only for 1998 and 1999. For 2000 Toyota dropped it, added VSC and A-TRAC traction control, and swapped the weak two-pinion front differential for a four-pinion unit.",
-    "The 2003 update was the big one: an A750F five-speed automatic, drive-by-wire throttle, 235 hp, stronger U-joints and fatter driveshafts, 4.10 gears and 17-inch wheels as standard. Late trucks gained VVT-i, and Kelley Blue Book lists 275 hp and 332 lb-ft from 2005. Active Height Control was standard on the [[lexus/lx470|LX 470]] from launch; owners report it also turns up as an option on some Land Cruisers, so check which suspension a given truck has."
+    "The 2003 update was the big one: an A750F five-speed automatic, drive-by-wire throttle, 235 hp, stronger U-joints and fatter driveshafts, 4.10 gears and 17-inch wheels as standard. VVT-i arrived for the 2006 model year, taking the V8 to 275 hp and 332 lb-ft, 40 hp more than a 2005, according to Toyota. Active Height Control was standard on the [[lexus/lx470|LX 470]] from launch; owners report it also turns up as an option on some Land Cruisers, so check which suspension a given truck has."
    ]
   },
   {
@@ -103,11 +103,11 @@
    "note": "A750F five-speed auto, drive-by-wire, stronger driveshafts, 4.10 gears, 17-inch wheels."
   },
   {
-   "years": "2005–2007 (US)",
+   "years": "2006–2007 (US)",
    "platform": "UZJ100",
    "engine": "2UZ-FE 4.7 L V8 with VVT-i",
    "output": "275 hp / 332 lb-ft",
-   "note": "VVT-i engine; KBB lists 275 hp and 332 lb-ft from the 2005 model year."
+   "note": "VVT-i engine: 275 hp and 332 lb-ft from the 2006 model year, according to Toyota's 2006 pricing release. (Kelley Blue Book lists those figures for 2005 too, but a 2005 has the 235 hp engine.)"
   },
   {
    "years": "1998–2007",
@@ -803,6 +803,10 @@
   {
    "name": "Caravan World — Buying used: Toyota LandCruiser 100 Series",
    "url": "https://caravanworld.com.au/blogs/tow-vehicle-reviews/buying-used-toyota-landcruiser-100-series"
+  },
+  {
+   "name": "Toyota (via The Auto Channel) — Toyota Announces Prices for 2006 Land Cruiser, May 20, 2005",
+   "url": "https://www2020.theautochannel.com/news/2005/05/20/098320.html"
   }
  ],
  "baseline_service": {
@@ -810,7 +814,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "SAE 5W-30 · ≈6.8 L with filter (Roughtrax); Amsoil lists 7.2 qt for 2005–07 VVT-i trucks",
+    "spec": "SAE 5W-30 · ≈6.8 L with filter (Roughtrax); Amsoil lists 7.2 qt for 2005–07 trucks",
     "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
     "note": "The IH8MUD 90k list gives the dealer filter as 90915-YZZD3 and says a larger JDM filter (90915-20004) is available and preferred by some owners.",
     "parts": [
@@ -866,7 +870,7 @@
     "item": "Timing belt, tensioner, idlers & water pump",
     "spec": "Belt 13568-09070 · tensioner 13540-50030 · idlers 13503-0F010 / 13505-0F010 · pump 16100-59275-83 (IH8MUD 90k list)",
     "interval": "Every 90,000 mi; a truck with no receipt is due now",
-    "note": "Do the thermostat (90916-03100), cam seals and crank seal while you're in there. IH8MUD members say the cam seals are more work on the 2005–07 VVT-i engine.",
+    "note": "Do the thermostat (90916-03100), cam seals and crank seal while you're in there. IH8MUD members say the cam seals are more work on the 2006–07 VVT-i engine.",
     "parts": [
      {
       "name": "Timing belt kit w/ tensioner, UZJ100/LX470 (BELTTK021)",
