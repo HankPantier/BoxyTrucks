@@ -633,14 +633,18 @@
   {
    "name": "Wikimedia Commons — Chander Gari Nissan Patrol 60 photos (Shadman Samee)",
    "url": "https://commons.wikimedia.org/wiki/File:Chander_Gari_Nissan_Patrol_60._(40519459985).jpg"
+  },
+  {
+   "name": "Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Nissan Patrol G60 4x4, P engine (1968–1980)",
+   "url": "http://www.datateck.com.au/Lube/PenriteAus/"
   }
  ],
  "baseline_service": {
-  "intro": "Every 60 is at least 45 years old, and most have had several owners and at least one hard life. Assume every fluid is old, every grease point is dry and every rubber part has hardened. We couldn't find factory capacities for the 60 online, so check quantities and grades in a Nissan workshop manual before you buy fluids.",
+  "intro": "Every 60 is at least 45 years old, and most have had several owners and at least one hard life. Assume every fluid is old, every grease point is dry and every rubber part has hardened. We couldn't find a factory manual for the 60 online. The capacities below come from Penrite's lookup for the Australian G60 (P engine, 1968–1980) and are approximate, so check grades in a Nissan workshop manual and fill to the level plug.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "[CONFIRM GRADE, CAPACITY AND FILTER TYPE IN MANUAL]",
+    "spec": "About 5.3 L service refill (Penrite lookup, G60; it doesn't say whether that includes the filter) · [CONFIRM GRADE AND FILTER TYPE IN MANUAL]",
     "interval": "Baseline now",
     "note": "Check for sludge on the first change and look for leaks at the rocker cover and sump gaskets, which are catalogued and cheap.",
     "parts": [
@@ -697,7 +701,7 @@
    },
    {
     "item": "Gearbox, transfer case & PTO box",
-    "spec": "Gear oil [CONFIRM GRADE & CAPACITY IN MANUAL]",
+    "spec": "Gear oil · gearbox about 2.0–2.3 L, transfer case about 3.4 L (Penrite lookup, G60) · [CONFIRM GRADE AND PTO-BOX CAPACITY IN MANUAL]",
     "interval": "Baseline now",
     "note": "Check the transfer output seals while you're there. A leaking rear seal ruins the transmission-mounted handbrake.",
     "parts": [
@@ -710,7 +714,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil [CONFIRM GRADE IN MANUAL]",
+    "spec": "Hypoid gear oil [CONFIRM GRADE IN MANUAL] · front about 1.2 L, rear about 1.0–2.0 L depending on axle (Penrite lookup, G60)",
     "interval": "Baseline now",
     "note": "US trucks have a C216 rear axle; heavy-duty trucks an H260.",
     "parts": [

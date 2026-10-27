@@ -384,7 +384,7 @@
     "cost": "Parts plus labor",
     "symptoms": "Pads under 1/8 in, chatter from new pads, a pulsing pedal from warped rotors, or fluid on the caliper from a piston seal.",
     "fix": "The front and rear pads are the same; the front calipers are Jeep parts and the rears carry the parking brake. Fronts retract with pliers, while the rear pistons must be turned to retract. Flash Off-Road shows how to do it without the $350 Kent-Moore tool. Chamfer the edges of new pads to stop chatter. Rotors have a minimum thickness of 0.815 in cast into them. Replacing or turning them means removing the halfshaft bolts, so have new Nord-Lock washers ready.",
-    "tools": "Channel-lock pliers · piston tool for the rears · 3/8-in flare-nut wrench (1/2-in for the caliper fitting) · brake fluid · AM General pad 5745162C (Flash Off-Road)",
+    "tools": "Channel-lock pliers · piston tool for the rears · 3/8-in flare-nut wrench (1/2-in for the caliper fitting) · brake fluid (DOT 5 silicone to 1998, DOT 3 from 1999) · AM General pad 5745162C (Flash Off-Road)",
     "parts": [
      {
       "name": "Brake pads, 1998 H1 6.5 TD (catalog)",
@@ -481,7 +481,7 @@
     },
     {
      "item": "Coolant & thermostats",
-     "spec": "Coolant type and capacity [CONFIRM IN MANUAL] · two 195°F thermostats, GM 12559336",
+     "spec": "Coolant type [CONFIRM IN MANUAL] · ≈25 L (26 US qt) system on the 6.5 diesels (Liqui Moly lookup) · two 195°F thermostats, GM 12559336",
      "interval": "Flush every 12,000 mi on the factory schedule",
      "note": "Flash Off-Road weighs nitrite-protected diesel coolants such as Fleet Charge against regular antifreeze; its author went back to regular antifreeze, citing the 6.5's thick, unsleeved cylinder walls. It also reports a batch of bad thermostats in the supply chain around 2000. On a turbo diesel, run the No. 8 cylinder pressure check at the same time.",
      "parts": [
@@ -530,7 +530,7 @@
     },
     {
      "item": "Differentials",
-     "spec": "GL-5 gear oil · trucks with Eaton E-lockers need AM General synthetic 75W-90 with friction modifier · capacity [CONFIRM IN MANUAL]",
+     "spec": "GL-5 gear oil · trucks with Eaton E-lockers need AM General synthetic 75W-90 with friction modifier · ≈1.9 L (2.0 US qt) per differential on the 6.5 diesels (Liqui Moly lookup)",
      "interval": "Check level and condition at every Group A inspection",
      "note": "Tags on the covers give the ratio and Torsen type. 1998 and later trucks use 2.56:1, earlier ones 2.73:1.",
      "parts": [
@@ -556,9 +556,9 @@
     },
     {
      "item": "Brake fluid",
-     "spec": "Type [CONFIRM IN MANUAL]",
+     "spec": "DOT 5 silicone on 1992–1998 trucks; DOT 3 on 1999-on trucks with ABS (Flash Off-Road)",
      "interval": "Flush at purchase, then per the manual",
-     "note": "The 1999–2000 trucks had a recall for chafing master-cylinder-to-ABS lines. Check the brake lines for corrosion.",
+     "note": "Never mix the two: silicone DOT 5 and glycol DOT 3 don't blend, and Flash Off-Road says two colors in the reservoir mean someone has. The 1999–2000 trucks had a recall for chafing master-cylinder-to-ABS lines. Check the brake lines for corrosion.",
      "parts": [
       {
        "name": "Brake fluid (catalog)",
@@ -1140,6 +1140,14 @@
    {
     "name": "NHTSA recalls API (AM General Hummer / Hummer H1)",
     "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=AM%20GENERAL&model=HUMMER&modelYear=1995"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Hummer H1 6.5TD, 1996–2004",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/89ce327cbddd9783/"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Hummer H1 6.5D, 1994–2004",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/c21394f2981070ec/"
    }
   ]
  }

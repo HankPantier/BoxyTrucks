@@ -221,7 +221,7 @@
    "time": "≈ 1–1.5 hours",
    "cost": "Parts only: about 5–6 pints of synthetic 75W-85",
    "symptoms": "Unknown history, a deep water crossing, or towing. You may hear whine or chatter in tight turns from the electronic LSD.",
-   "fix": "Both axles take synthetic 75W-85 GL-5. AMSOIL lists the 215FD front at 2.3 pints and the 260RDU rear at 3 pints on Hurricane and 6.4 trucks (its 2022 5.7 entry shows 2.3 pints without ELSD and 2.7 with). Remove the fill plug first so you know you can refill, then drain, refit the drain plug and fill to the bottom of the fill hole. AMSOIL's lookups cite Mopar 75W-85 with modifier (P/N 68083381AA) for the rear axle, but its entries disagree on whether the ELSD or the open axle needs it, so confirm the fluid in your manual or with the dealer.",
+   "fix": "Both axles take synthetic 75W-85 GL-5. AMSOIL lists the 215FD front at 2.3 pints and the 260RDU rear at 3 pints on Hurricane and 6.4 trucks (its 2022 5.7 entry shows 2.3 pints without ELSD and 2.7 with). Remove the fill plug first so you know you can refill, then drain, refit the drain plug and fill to the bottom of the fill hole. The owner's manual calls for friction-modified 75W-85 in the rear, whether it has the electronic LSD or a mechanical LSD. AMSOIL's lookups cite Mopar 75W-85 with modifier (P/N 68083381AA), but its entries disagree on which rear axle needs it, so check the part number with the dealer.",
    "tools": "Fluid pump · sockets or hex bits for the plugs · drain pan · torque wrench",
    "parts": [
     {
@@ -320,7 +320,7 @@
    "time": "≈ 10 minutes (filter) · 1–2 hours (plugs)",
    "cost": "Parts only",
    "symptoms": "Dusty-road use, a misfire code or an unknown history.",
-   "fix": "The air filter is a tool-free job: unclip the airbox, swap the element and wipe out the housing. On the Hurricane, take off the engine cover and the coils to reach the plugs, blow debris out of the wells before removing each plug, and torque the new plugs to the service-manual figure. We couldn't confirm the factory plug interval, so check your maintenance schedule.",
+   "fix": "The air filter is a tool-free job: unclip the airbox, swap the element and wipe out the housing. On the Hurricane, take off the engine cover and the coils to reach the plugs, blow debris out of the wells before removing each plug, and torque the new plugs to the service-manual figure. The owner's-manual maintenance plan replaces the Hurricane's plugs every 60,000 miles, on mileage alone.",
    "tools": "Plug socket with extension · torque wrench · compressed air · dielectric grease",
    "parts": [
     {
@@ -342,11 +342,11 @@
   }
  ],
  "baseline_service": {
-  "intro": "A WS is new enough that most are still under factory or extended warranty, so get every recall and software flash done at the dealer first. Then baseline the fluids most owners skip: both axles, the transfer case, the transmission and brake fluid. Specs differ by engine. The standard-output Hurricane, the high-output Hurricane and the two Hemis use different oils and filters. Capacities below are from AMSOIL's application lookups. Confirm against your owner's manual.",
+  "intro": "A WS is new enough that most are still under factory or extended warranty, so get every recall and software flash done at the dealer first. Then baseline the fluids most owners skip: both axles, the transfer case, the transmission and brake fluid. Specs differ by engine. The standard-output Hurricane, the high-output Hurricane and the two Hemis use different oils and filters. Fluid types, schedules and the oil and coolant capacities below are from the 2022 and 2025 Wagoneer owner's manuals on Mopar's site; axle and transmission capacities are from AMSOIL's application lookups.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "5.7: 0W-20 (MS-6395), 7 qt · 6.4: 0W-40, 7 qt · 3.0 SO: 0W-20 (MS-6395), 7.5 qt · 3.0 HO: 0W-40 (MS-A0921), 7.5 qt",
+    "spec": "5.7: 0W-20 (MS-6395), 7 qt · 6.4: 0W-40 (MS-12633), 7 qt · 3.0 SO: 0W-20 (MS-6395), 7.5 qt · 3.0 HO: 0W-40 (MS-A0921), 7.5 qt",
     "interval": "Baseline now; then per the oil-life monitor",
     "note": "Filters per AMSOIL: WIX 57060 (5.7 and 6.4), WL10255 (3.0 SO), 57045 (3.0 HO). Drain-plug torque 20 ft-lb (3.0) or 25 ft-lb (6.4).",
     "parts": [
@@ -382,15 +382,15 @@
    },
    {
     "item": "Cabin air filter",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "Behind the glove box, in the fresh-air inlet · replace every 12,000 mi (19,000 km) (2022 and 2025 owner's manuals)",
     "interval": "Baseline now",
-    "note": "Location and part number not confirmed; check the owner's manual.",
+    "note": "Unclip the glove box from its hinges to reach the access door; the filter's arrow shows the airflow direction. Part number not confirmed.",
     "parts": []
    },
    {
     "item": "Spark plugs",
     "spec": "Hurricane I6: 6 plugs · Hemi V8: 16 plugs",
-    "interval": "Per the maintenance schedule [CONFIRM IN MANUAL]",
+    "interval": "3.0 Hurricane every 60,000 mi · 5.7 every 100,000 mi · 6.4 every 90,000 mi (owner's-manual maintenance plan; mileage only, no time limit)",
     "note": "Hemis use two plugs per cylinder.",
     "parts": [
      {
@@ -402,9 +402,9 @@
    },
    {
     "item": "Coolant",
-    "spec": "5.7: 16.9 qt · 6.4: 18.8 qt · 3.0: 16.6 qt engine plus 3.2 qt intercooler circuit · type [CONFIRM IN MANUAL]",
-    "interval": "Inspect now; replace per schedule",
-    "note": "The Hurricane has a separate intercooler coolant circuit (3.2 qt), so check it too.",
+    "spec": "Mopar 10-year/150,000-mile OAT coolant meeting MS.90032 · 5.7: 17 qt (2022 manual; AMSOIL lists 16.9 qt) · 6.4: 18.8 qt · 3.0: 16.6 qt engine plus intercooler circuit, 3.2 qt in the 2025 manual (2.9 qt in the 2022 manual)",
+    "interval": "Inspect now; the schedule says flush and replace at 10 years or 150,000 mi",
+    "note": "The Hurricane has a separate intercooler coolant circuit that takes the same OAT coolant, so check it too.",
     "parts": [
      {
       "name": "Coolant, 2024 Wagoneer 3.0",
@@ -428,9 +428,9 @@
    },
    {
     "item": "Transfer case",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "\"Mopar Mobile LT\" (as printed in the 2022 and 2025 owner's manuals) · capacity not listed",
     "interval": "Baseline now if it has low range and has been used off-road or for towing",
-    "note": "AMSOIL lists no fluid for it. Quadra-Trac I (single-speed), Quadra-Trac II and Quadra-Drive II use different cases.",
+    "note": "The maintenance plan says inspect it every 30,000 mi and change it at 150,000 mi. AMSOIL lists no fluid for it. Quadra-Trac I (single-speed), Quadra-Trac II and Quadra-Drive II use different cases.",
     "parts": [
      {
       "name": "Transfer case fluid, 2024 Wagoneer 3.0",
@@ -456,7 +456,7 @@
     "item": "Rear differential (260RDU)",
     "spec": "75W-85 GL-5 synthetic · 3 pt (AMSOIL lists 2.3–2.7 pt for the 2022 5.7)",
     "interval": "Baseline now; more often when towing",
-    "note": "AMSOIL cites Mopar 75W-85 with modifier, P/N 68083381AA, but its entries disagree on which rear axle (ELSD or open) needs it. [CONFIRM IN MANUAL]",
+    "note": "The 2022 and 2025 owner's manuals list friction-modified GL-5 75W-85 synthetic for the rear whether it has the electronic LSD (Mopar ELSD axle lubricant) or a mechanical LSD (Mopar Mechanical Limited Slip axle lubricant). AMSOIL cites Mopar P/N 68083381AA, but we couldn't match that number to either variant.",
     "parts": [
      {
       "name": "Mopar 68083381AA gear and axle lubricant with modifier",
@@ -468,7 +468,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 3 (Mopar, SAE J1703) · DOT 4 acceptable",
-    "interval": "Flush now; then per schedule [CONFIRM IN MANUAL]",
+    "interval": "Flush now if the history is unknown. The 2022 and 2025 maintenance plans list brake inspections but no fluid-replacement interval.",
     "note": "Electric park brake: use service mode before you touch the rear calipers.",
     "parts": [
      {
@@ -557,8 +557,8 @@
   },
   {
    "q": "What oil does it take?",
-   "a": "It depends on the engine. The 5.7 and the standard-output 3.0 take 0W-20 meeting MS-6395. The 6.4 and the high-output 3.0 in Grand Wagoneers take 0W-40, with the HO Hurricane calling for MS-A0921. AMSOIL lists 7 qt with the filter for the V8s and 7.5 qt for the Hurricane.",
-   "src": "AMSOIL"
+   "a": "It depends on the engine. The 5.7 and the standard-output 3.0 take 0W-20 meeting MS-6395. The 6.4 and the high-output 3.0 in Grand Wagoneers take 0W-40, with the 6.4 calling for MS-12633 and the HO Hurricane for MS-A0921. The owner's manual and AMSOIL both list 7 qt with the filter for the V8s and 7.5 qt for the Hurricane.",
+   "src": "OWNER'S MANUAL · AMSOIL"
   },
   {
    "q": "Why doesn't it have a Jeep badge?",
@@ -902,6 +902,14 @@
   {
    "name": "Wikimedia Commons — 2022 Jeep Grand Wagoneer front view (AJM STUDIOS, CC BY-SA 2.0)",
    "url": "https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Wagoneer_(United_States)_front_view.jpg"
+  },
+  {
+   "name": "Mopar — 2022 Grand Wagoneer/Wagoneer Owner's Manual (fluid capacities, fluids and lubricants, maintenance plan)",
+   "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Wagoneer/2022/Wagoneer/5633299-22_WS_OM_EN_USC_DIGITAL_E6.pdf"
+  },
+  {
+   "name": "Mopar — 2025 Jeep Wagoneer/Grand Wagoneer Owner's Manual (fluid capacities, fluids and lubricants, maintenance plan)",
+   "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2025/Grand_Wagoneer/103579_25_WS_OM_EN_USC_DIGITAL_E2.pdf"
   }
  ]
 }

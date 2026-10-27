@@ -522,7 +522,26 @@
    "bat_url": "https://bringatrailer.com/nissan/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "DontDoWhatDaveDid",
+   "focus": "Y62 OWNER BUILDS & TESTS",
+   "url": "https://www.youtube.com/@DontDoWhatDaveDid"
+  },
+  {
+   "kind": "YT",
+   "name": "Kroppyslife",
+   "focus": "Y62 CAMPING RIG",
+   "url": "https://www.youtube.com/@Kroppyslife"
+  },
+  {
+   "kind": "YT",
+   "name": "Keen For Adventure",
+   "focus": "Y62 CARAVAN TOURING",
+   "url": "https://www.youtube.com/@keenforadventure"
+  }
+ ],
  "forums": [
   {
    "name": "NissanPatrol.com.au — Y62 Nissan Patrol",
@@ -766,14 +785,26 @@
   {
    "name": "RockAuto — 2018 Nissan Armada 5.6L V8 catalog",
    "url": "https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133"
+  },
+  {
+   "name": "Nissan USA — 2018 Nissan Armada Owner's Manual and Maintenance Information (capacities, schedules, VK56VD specifications)",
+   "url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/armada/2018/2018-Nissan-Armada-owner-manual.pdf"
+  },
+  {
+   "name": "Nissan USA — 2020 Nissan Armada Owner's Manual and Maintenance Information (capacities, schedules, VK56VD specifications)",
+   "url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/armada/2020/2020-Nissan-Armada-owner-manual.pdf"
+  },
+  {
+   "name": "Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Patrol Y62 4x4 VK56VD (2013–2016 and 2016–2026)",
+   "url": "http://www.datateck.com.au/Lube/PenriteAus/"
   }
  ],
  "baseline_service": {
-  "intro": "A used Y62 has usually done one of three jobs: school runs, desert weekends or towing a caravan across Australia. Baseline everything, and pay special attention to the transmission and transfer-case fluids, which are model-specific. We couldn't find Nissan's engine-oil capacity or grade published online, so check those in your owner's manual.",
+  "intro": "A used Y62 has usually done one of three jobs: school runs, desert weekends or towing a caravan across Australia. Baseline everything, and pay special attention to the transmission and transfer-case fluids, which are model-specific. The oil, plug, diff and brake-fluid specs below are from Nissan USA's owner's manuals for the Armada, the US-market Y62. Patrols sold elsewhere may specify different grades, so check your own manual.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "[CONFIRM GRADE & CAPACITY IN MANUAL] · Nissan spin-on filter (shared with the Y61 TB45/TB48)",
+    "spec": "6.5 L with filter, 6.2 L without (2018 and 2020 US Armada owner's manuals; Penrite's Australian Patrol data also gives 6.5 L) · Armada grade: Nissan Motor Oil 0W-20 SN, or a synthetic 0W-20 GF-5 SN (2020 manual) · Patrol grade outside the US [CONFIRM IN MANUAL] · Nissan spin-on filter (shared with the Y61 TB45/TB48)",
     "interval": "Baseline now",
     "note": "The same genuine filter fits the GU's petrol sixes and the Y62's VK56.",
     "parts": [
@@ -822,7 +853,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "Eight plugs, genuine Nissan or NGK equivalent [CONFIRM INTERVAL IN MANUAL]",
+    "spec": "Eight plugs, genuine Nissan or NGK equivalent · Armada manual lists DILKAR7B11, gap 1.1 mm · replace every 105,000 mi (168,000 km), or sooner if the gap exceeds 1.35 mm",
     "interval": "Replace if no record",
     "note": "Misfires can damage the catalytic converters.",
     "parts": [
@@ -889,8 +920,8 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Gear oil [CONFIRM GRADE & CAPACITY IN MANUAL]; rear has a helical LSD and, on Patrols, an electric locker",
-    "interval": "Change now if no record, and after deep water",
+    "spec": "Armada manual: front Nissan Hypoid Super GL-5 80W-90 (conventional, not synthetic); rear Hypoid Super-S GL-5 75W-90 synthetic (2018) or Hypoid Fluid S1 GL-5 75W-80 (2020) · front 1.6 L, rear 2.3 L (Penrite, Australian Patrol) · rear has a helical LSD and, on Patrols, an electric locker: Patrol rear grade [CONFIRM IN MANUAL]",
+    "interval": "Change now if no record, and after deep water. The Armada schedule says to change it every 20,000 mi (32,000 km) or 24 months when towing or driving rough or muddy roads.",
     "note": "Extend the breathers before wading.",
     "parts": [
      {
@@ -902,7 +933,7 @@
    },
    {
     "item": "Brake fluid, pads & rotors",
-    "spec": "Fluid per the reservoir cap [CONFIRM IN MANUAL]",
+    "spec": "Nissan Super Heavy Duty Brake Fluid or equivalent DOT 3 (Armada manual) · replace every 20,000 mi / 24 months (2018 schedule) or 30,000 mi / 36 months (2020 schedule); every 10,000 mi / 12 months in severe use",
     "interval": "Flush now; measure pads and rotors",
     "note": "The weight wears brakes quickly (Cars.co.za).",
     "parts": [

@@ -384,12 +384,12 @@
    }
   ],
   "baseline_service": {
-   "intro": "Assume nothing has been done without receipts. On a 3.0 or 3.5 V6 the big item is the timing belt with its idlers and water pump. Then do every gear oil, because the transfer case, both diffs and any factory limited-slip are rarely serviced. Capacities below are AMSOIL's lookup figures for US 1993 3.0 and 1997 3.5 Monteros. Confirm them for your engine and gearbox, especially on diesel imports.",
+   "intro": "Assume nothing has been done without receipts. On a 3.0 or 3.5 V6 the big item is the timing belt with its idlers and water pump. Then do every gear oil, because the transfer case, both diffs and any factory limited-slip are rarely serviced. Capacities below are AMSOIL's lookup figures for US 1993 3.0 and 1997 3.5 Monteros; Liqui Moly's lookup gives matching diff and transfer-case figures for the 3.5, and supplies the oil and brake-fluid intervals. Confirm them for your engine and gearbox, especially on diesel imports.",
    "items": [
     {
      "item": "Engine oil & filter",
      "spec": "SAE 5W-30 preferred (10W-30 above −18 °C) · ≈5.2 US qt with filter (US 3.0 and 3.5)",
-     "interval": "Then per the owner's manual [CONFIRM IN MANUAL]",
+     "interval": "Every 7,500 mi or 12 months, or every 3,000 mi or 3 months in severe use (US Montero 3.5, Liqui Moly lookup). Mitsubishi's European schedule for the 3.0 and 3.5 is 15,000 km or 12 months.",
      "note": "AMSOIL lists a WIX 51334 filter for both V6s. Diesel 4D56/4M40 capacities differ.",
      "parts": [
       {
@@ -519,7 +519,7 @@
     {
      "item": "Brake fluid",
      "spec": "DOT 3",
-     "interval": "Flush now, then every 2 years [CONFIRM IN MANUAL]",
+     "interval": "Flush now, then every 2 years or 30,000 km (Mitsubishi's European schedule, Liqui Moly lookup; its US Montero listing gives only a yearly check)",
      "note": "Inspect the front hoses at full lock (recalls 96V143 and 98V220).",
      "parts": [
       {
@@ -1052,6 +1052,18 @@
    {
     "name": "NHTSA — Recall 00V311001 (1992–1996 Montero 3.0 crank pulley bolt)",
     "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V311001"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Montero 3.5, 1992–2000 (USA)",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/532f4ba523496222/"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6, 1991–2001 (Europe)",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4f671afe50197eb9/"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.5 V6, 1994–1999 (Europe)",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4d9ba8cc93ace581/"
    }
   ]
  }

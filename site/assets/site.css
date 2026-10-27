@@ -525,3 +525,9 @@ html { scroll-padding-top: 90px; }
 .split > .side { min-width: 0; } .row .t, .row .m { min-width: 0; overflow-wrap: anywhere; }
 .plate .kv span:last-child { min-width: 0; overflow-wrap: anywhere; text-align: right; } .plate .kv span:first-child { white-space: normal; }
 .soc .fc { display: block; margin-top: 4px; line-height: 1.5; }
+/* channel / profile icons */
+.soc .ico.has-av { position: relative; background: var(--paper); border-radius: 50%; overflow: visible; }
+.soc .ico.has-av img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; border: 1px solid var(--hair); }
+.soc .ico.has-av em { position: absolute; right: -6px; bottom: -4px; font-style: normal; font-size: 8px; letter-spacing: .06em; line-height: 1; padding: 3px 4px; background: var(--green); color: var(--brass); border: 1px solid var(--paper); }
+.soc .ico.ig-av { background: var(--green); }
+.soc .ico .mono-av { font-family: var(--sans); font-weight: 600; font-size: 20px; color: var(--paper); letter-spacing: 0; }

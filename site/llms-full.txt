@@ -1,6 +1,6 @@
 # BoxyTrucks: full model guides
 
-Source: https://boxytrucks.com/ · generated 2026-10-26
+Source: https://boxytrucks.com/ · generated 2026-10-27
 
 Verify every fluid, capacity and torque figure against the factory manual for the exact vehicle. Disclaimer: https://boxytrucks.com/about/disclaimer/
 
@@ -6610,7 +6610,7 @@ Tools: 3/8-in drive short socket and extension · retaining-ring pliers · CV bo
 Difficulty 3 / 5 · time ≈ Half a day · cost Parts plus labor
 Symptoms: Pads under 1/8 in, chatter from new pads, a pulsing pedal from warped rotors, or fluid on the caliper from a piston seal.
 Fix: The front and rear pads are the same; the front calipers are Jeep parts and the rears carry the parking brake. Fronts retract with pliers, while the rear pistons must be turned to retract. Flash Off-Road shows how to do it without the $350 Kent-Moore tool. Chamfer the edges of new pads to stop chatter. Rotors have a minimum thickness of 0.815 in cast into them. Replacing or turning them means removing the halfshaft bolts, so have new Nord-Lock washers ready.
-Tools: Channel-lock pliers · piston tool for the rears · 3/8-in flare-nut wrench (1/2-in for the caliper fitting) · brake fluid · AM General pad 5745162C (Flash Off-Road)
+Tools: Channel-lock pliers · piston tool for the rears · 3/8-in flare-nut wrench (1/2-in for the caliper fitting) · brake fluid (DOT 5 silicone to 1998, DOT 3 from 1999) · AM General pad 5745162C (Flash Off-Road)
 
 #### Test and replace glow plugs
 Difficulty 2 / 5 · time ≈ 2–3 hours · cost Plugs about $10–12 each in Flash Off-Road's report
@@ -6624,12 +6624,12 @@ Assume the last owner skipped things. H1s changed constantly in production, so d
 - Chassis grease: NLGI-LB chassis grease · 26–27 fittings · Every oil change (Don't forget the two steering-column fittings behind the kick panel and the one in the steering shaft U-joint under the hood. Go easy on the front driveshaft slip joint or you'll pop the cap.)
 - Fuel filter (diesel): Replace element; drain water from the filter bowl · Element every 6,000 mi on the factory schedule; drain as needed (Water reaching the injectors destroys them. Carry a spare filter off-road.)
 - Air filter: Factory-type paper element · Clean or replace every 6,000 mi (Flash Off-Road advises against K&N filters on H1s. The geared hubs and transfer case vent into the air cleaner, so keep the housing sealed.)
-- Coolant & thermostats: Coolant type and capacity [CONFIRM IN MANUAL] · two 195°F thermostats, GM 12559336 · Flush every 12,000 mi on the factory schedule (Flash Off-Road weighs nitrite-protected diesel coolants such as Fleet Charge against regular antifreeze; its author went back to regular antifreeze, citing the 6.5's thick, unsleeved cylinder walls. It also reports a batch of bad thermostats in the supply chain around 2000. On a turbo diesel, run the No. 8 cylinder pressure check at the same time.)
+- Coolant & thermostats: Coolant type [CONFIRM IN MANUAL] · ≈25 L (26 US qt) system on the 6.5 diesels (Liqui Moly lookup) · two 195°F thermostats, GM 12559336 · Flush every 12,000 mi on the factory schedule (Flash Off-Road weighs nitrite-protected diesel coolants such as Fleet Charge against regular antifreeze; its author went back to regular antifreeze, citing the 6.5's thick, unsleeved cylinder walls. It also reports a batch of bad thermostats in the supply chain around 2000. On a turbo diesel, run the No. 8 cylinder pressure check at the same time.)
 - Automatic transmission: Dexron III per Flash Off-Road · Allison 1000 fluid on the Alpha [CONFIRM IN MANUAL] · Service every 12,000 mi on the factory schedule (There are three different filter and pickup designs depending on the year and pan depth, so match the filter. Flash Off-Road flushes every 35,000 mi or so and changes the filter after 50,000.)
 - Transfer case (NVG 242): Dexron III; Flash Off-Road recommends synthetic Dexron · Service every 12,000 mi on the factory schedule (If it's overfull or pours out when you open the fill plug, the cooler loop is leaking ('the vampire', AM General campaign R0101).)
-- Differentials: GL-5 gear oil · trucks with Eaton E-lockers need AM General synthetic 75W-90 with friction modifier · capacity [CONFIRM IN MANUAL] · Check level and condition at every Group A inspection (Tags on the covers give the ratio and Torsen type. 1998 and later trucks use 2.56:1, earlier ones 2.73:1.)
+- Differentials: GL-5 gear oil · trucks with Eaton E-lockers need AM General synthetic 75W-90 with friction modifier · ≈1.9 L (2.0 US qt) per differential on the 6.5 diesels (Liqui Moly lookup) · Check level and condition at every Group A inspection (Tags on the covers give the ratio and Torsen type. 1998 and later trucks use 2.56:1, earlier ones 2.73:1.)
 - Geared hubs: GL-5 80W-90 or 75W-90 · about 1/2 qt per hub · Check at every Group A inspection; change after deep water (Milky oil means water got in through a seal or a cracked vent line. Drain and fill plugs need only 8–13 lb-ft.)
-- Brake fluid: Type [CONFIRM IN MANUAL] · Flush at purchase, then per the manual (The 1999–2000 trucks had a recall for chafing master-cylinder-to-ABS lines. Check the brake lines for corrosion.)
+- Brake fluid: DOT 5 silicone on 1992–1998 trucks; DOT 3 on 1999-on trucks with ABS (Flash Off-Road) · Flush at purchase, then per the manual (Never mix the two: silicone DOT 5 and glycol DOT 3 don't blend, and Flash Off-Road says two colors in the reservoir mean someone has. The 1999–2000 trucks had a recall for chafing master-cylinder-to-ABS lines. Check the brake lines for corrosion.)
 - Steering & front end: Idler arm, pitman arm, tie rods, ball joints · Inspect every 3,000 mi; alignment check every 12,000 (Flash Off-Road says aligning a pre-'97.5 truck means shimming the upper A-arms and can take 6–8 hours; eccentric washers made camber adjustable from 1998.)
 - Halfshaft bolts & boots: 57 lb-ft with Nord-Lock washer pairs · Inspect bolts every 3,000 mi and boots every 6,000 mi (The factory figure was originally 48 lb-ft; Flash Off-Road gives 57 lb-ft as the current recommendation.)
 - CTIS function: Inflate and deflate test, front, rear and both · Every Group A inspection (Flash Off-Road suggests 30–37 psi cold on the road, depending on the tire.)
@@ -6708,6 +6708,8 @@ A: No. AM General told Flash Off-Road that the control arms were the only parts 
 - Bring a Trailer — Hummer H1 results: https://bringatrailer.com/hummer/h1/
 - Predator Inc — H1 lift and performance products: https://predatorinc.com/shop/4-lift-kit/
 - NHTSA recalls API (AM General Hummer / Hummer H1): https://api.nhtsa.gov/recalls/recallsByVehicle?make=AM%20GENERAL&model=HUMMER&modelYear=1995
+- Liqui Moly oil guide (Olyslager data) — Hummer H1 6.5TD, 1996–2004: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/89ce327cbddd9783/
+- Liqui Moly oil guide (Olyslager data) — Hummer H1 6.5D, 1994–2004: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/c21394f2981070ec/
 - Wikipedia — Hummer H1 (production table, Alpha details): https://en.wikipedia.org/wiki/Hummer_H1
 - 1999 Hummer H1 brochure — specifications (oldcarbrochures.org): http://oldcarbrochures.org/United%20States/Hummer/1999-Hummer/1999-Hummer-H1-Brochure/slides/1999-Hummer_H1-18-19.html
 - Flash Off-Road — Year-by-Year Differences: http://www.flashoffroad.com/features/ChangesByYear/Year-by-YearDifferences.htm
@@ -7420,19 +7422,19 @@ Tools: Penetrating oil · brass drift · grease · rust converter and paint · s
 Difficulty 2 / 5 · time An hour or two · cost Parts plus labor
 Symptoms: Late or harsh shifts, a fluid smell or smoke from the exhaust manifold. On 1990–91 automatics, overfilled fluid could escape onto the exhaust (recall 90V167).
 Fix: Drop the pan, replace the filter and gasket, and refill with the specified fluid. Check the level exactly as the manual describes and do not overfill. Confirm with an Isuzu or Chevrolet dealer, or the NHTSA VIN lookup, that the recall work was done.
-Tools: Drain pan · socket set · torque wrench · funnel · the specified automatic transmission fluid [CONFIRM IN MANUAL].
+Tools: Drain pan · socket set · torque wrench · funnel · Dexron-III-type ATF (Liqui Moly lookup; it lists ≈4.5 L for the 1990–92 2.6 automatic).
 
 ### Baseline service
-Treat any first-generation Trooper as unserviced until receipts prove otherwise. These trucks are 35 to 40 years old, so the cheap fluids and rubber parts are what keep the engine and drivetrain alive. Isuzu's factory specs aren't widely published online, so confirm grades and capacities in the owner's or service manual for your engine.
-- Engine oil & filter: [CONFIRM IN MANUAL] · Then at the owner's-manual interval (Watch for leaks at the oil-cooler hoses on 1990–91 trucks; recall 90V166 rerouted a hose that could touch the exhaust manifold.)
+Treat any first-generation Trooper as unserviced until receipts prove otherwise. These trucks are 35 to 40 years old, so the cheap fluids and rubber parts are what keep the engine and drivetrain alive. Isuzu's factory specs aren't widely published online. The fluid types and capacities below come from Liqui Moly's lookup, which uses European-market Isuzu data, so confirm viscosities and US figures in the owner's or service manual for your engine.
+- Engine oil & filter: ≈4.7 L (5.0 US qt) with filter on the 1988–90 2.6; ≈5.4 L (5.7 US qt) with filter on the 1990–92 2.6 (Liqui Moly lookup, European data) · grade [CONFIRM IN MANUAL] · Then at the owner's-manual interval (Watch for leaks at the oil-cooler hoses on 1990–91 trucks; recall 90V166 rerouted a hose that could touch the exhaust manifold.)
 - Air filter & fuel filter: Replace both · Then inspect at every oil change (Old fuel filters and tired pumps cause many hard-start complaints on old trucks.)
 - Ignition: Plugs, wires, distributor cap and rotor (2.6) · Then per the manual (The 1988–91 2.6-liter uses a distributor, so the cap and rotor are part of a tune-up.)
 - Timing belt (four-cylinder petrol): Belt, tensioner, cam and crank seals · Now, if there's no record; then per the manual [CONFIRM IN MANUAL] (The 2.3 and 2.6 Isuzu fours use a belt.)
-- Coolant, hoses and thermostat: Coolant type per the manual [CONFIRM IN MANUAL] · Flush now (Owners report cracked heads and head gaskets on these engines, so a healthy cooling system is cheap insurance.)
-- Manual transmission oil: [CONFIRM IN MANUAL] · Drain and refill now (Check the clutch hydraulics while you're under there.)
-- Automatic transmission fluid & filter: [CONFIRM IN MANUAL] · Pan drop and filter now (Don't overfill. That's what recall 90V167 was about on 1990–91 trucks.)
-- Transfer case: [CONFIRM IN MANUAL] · Drain and refill now (Shift through 2H, 4H and 4L afterwards to check the linkage.)
-- Front & rear differentials: Gear oil per the manual [CONFIRM IN MANUAL] · Drain and refill now (Check the pinion seals for leaks.)
+- Coolant, hoses and thermostat: Coolant type per the manual [CONFIRM IN MANUAL] · ≈9.8 L (10.4 US qt) system on the 2.3 and 2.6 (Liqui Moly lookup) · Flush now (Owners report cracked heads and head gaskets on these engines, so a healthy cooling system is cheap insurance.)
+- Manual transmission oil: Engine oil, not gear oil (Liqui Moly's lookup lists multigrade engine oils) · ≈2.95 L (3.1 US qt) in the 2.6 five-speed; on the 2.3 it lists 4.6 L for gearbox and transfer case together · viscosity [CONFIRM IN MANUAL] · Drain and refill now (Check the clutch hydraulics while you're under there.)
+- Automatic transmission fluid & filter: Dexron-III-type ATF (Liqui Moly lists its ATF III) · ≈4.5 L (4.8 US qt) for the 1990–92 2.6 automatic (Liqui Moly lookup) · Pan drop and filter now (Don't overfill. That's what recall 90V167 was about on 1990–91 trucks.)
+- Transfer case: Engine oil, as in the gearbox (Liqui Moly lookup) · ≈1.45 L (1.5 US qt) on the 2.6 · viscosity [CONFIRM IN MANUAL] · Drain and refill now (Shift through 2H, 4H and 4L afterwards to check the linkage.)
+- Front & rear differentials: GL-5 hypoid gear oil; LSD-rated oil in a limited-slip rear · 2.6: ≈1.5 L (1.6 US qt) front, ≈1.8 L (1.9 US qt) rear; 2.3: ≈1.0 L front, ≈1.5 L rear (Liqui Moly lookup) · viscosity [CONFIRM IN MANUAL] · Drain and refill now (Check the pinion seals for leaks.)
 - Front hubs & wheel bearings: Clean, inspect, repack · Now, then as needed (Water in auto hubs is a common cause of hubs that won't engage.)
 - Brake fluid & hoses: Flush; inspect the rubber hoses · Every two years (Front discs and rear drums; check the rear wheel cylinders for leaks.)
 - U-joints & driveshafts: Grease the fittings; check for play · At every oil change (One 1990 owner reported a driveshaft falling while driving; check for play in the joints and loose bolts.)
@@ -7491,6 +7493,9 @@ A: Service parts such as filters, belts, hubs, CV axles and brake parts are stil
 - NHTSA — owner complaints, 1990 Isuzu Trooper: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1990
 - NHTSA — owner complaints, 1991 Isuzu Trooper: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1991
 - RockAuto — Isuzu Trooper parts catalog: https://www.rockauto.com/en/catalog/isuzu,1990,trooper
+- Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.3, 1985–1988: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/1f892a13756e3852/
+- Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.6i, 1988–1990: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e8c2f465cb1264a9/
+- Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.6i, 1990–1992: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e5d2aa2927990eef/
 - Wikipedia — Isuzu Trooper: https://en.wikipedia.org/wiki/Isuzu_Trooper
 - Isuzu Motors — Heritage (company history timeline): https://www.isuzu.co.jp/world/company/history.html
 - Car and Driver — From the Archive: 1984 Isuzu Trooper II Tested (May 1984): https://www.caranddriver.com/reviews/a43339389/1984-isuzu-trooper-ii-by-the-numbers/
@@ -7630,7 +7635,7 @@ Tools: Crank-pulley holder · socket set · torque wrench · coolant · factory 
 Difficulty 2 / 5 · time A couple of hours · cost Parts plus labor
 Symptoms: Slipping, harsh or delayed shifts, or a fluid leak. Low fluid is the usual cause of failures, according to Bob Is The Oil Guy owners.
 Fix: Find and fix any leaks first: the accumulator cover and the drain bolt are known spots. Drop the pan, replace the filter and gasket, and refill to the exact level the manual specifies. The gearbox is very sensitive to fill volume. If the history is unknown, do a few partial fluid changes rather than a pressure flush.
-Tools: Drain pan · socket set · torque wrench · fluid pump · the specified ATF [CONFIRM IN MANUAL].
+Tools: Drain pan · socket set · torque wrench · fluid pump · Dexron-III-type ATF (Liqui Moly lookup).
 
 #### Fix a flashing TOD light
 Difficulty 2 / 5 · time An hour or two · cost One owner was quoted about $700 for front and rear sensors
@@ -7657,17 +7662,17 @@ Fix: Support the truck, pull the wheel and hub, separate the knuckle as the manu
 Tools: Socket set · ball-joint separator · new axle nut · torque wrench.
 
 ### Baseline service
-Baseline everything, and on a 3.5 start by measuring the oil consumption. Acura's factory specifications give the capacities below for the SLX twin. Isuzu's own fluid grades aren't widely published online, so confirm the rest in the owner's manual. Book the timing belt if there's no receipt.
+Baseline everything, and on a 3.5 start by measuring the oil consumption. Acura's factory specifications give the engine-oil and coolant capacities below for the SLX twin. Isuzu's own fluid grades aren't widely published online; the gearbox, transfer-case, axle and steering fluids below come from Liqui Moly's lookup, so confirm viscosities in the owner's manual. Book the timing belt if there's no receipt.
 - Engine oil & filter: 3.5: 5.6 US qt (5.3 L) with filter; 3.2: 6.3 US qt (6.0 L) with filter (Acura SLX spec) · 10W-30 recommended by owners for the 3.5 · Then check the level at every fill-up until you know the consumption (Several 3.5s ran dry without the oil light coming on, so don't rely on the warning lamp.)
 - PCV valve: Replace · Now (Edmunds owners say it sits under the plastic intake cover. A blocked one makes oil consumption worse.)
 - Air & fuel filters: Replace both · Then inspect at every oil change
 - Spark plugs & coil boots: Six plugs; inspect the boots · With the timing belt, or now if there's no record (Oil-fouled plugs are a sign of the 3.5's consumption problem.)
 - Timing belt, tensioner, idlers & water pump: Full kit · Now if there's no record; owners plan around 75,000–100,000 mi [CONFIRM IN MANUAL] (Both V6s have belt-driven cams.)
 - Coolant & thermostat: 3.5: 11.0 US qt (10.4 L); 3.2: 9.3 US qt (8.8 L) (Acura SLX spec) · Flush now (A Bob Is The Oil Guy owner warns that these aluminium engines can fail head gaskets when the cooling system is neglected or a non-Isuzu thermostat is fitted.)
-- Automatic transmission (4L30-E): Specified ATF [CONFIRM IN MANUAL] · Pan drop and filter now, then partial changes (Very sensitive to fill level; fix leaks first. No pressure flush on an unknown-history gearbox.)
-- Transfer case (TOD or part-time): [CONFIRM IN MANUAL] · Drain and refill now (Metal in the fluid is a warning sign; one 1999 owner's transfer case was replaced for filings at 25,000 miles.)
-- Front & rear differentials: Gear oil per the manual; check whether the rear LSD needs an additive [CONFIRM IN MANUAL] · Drain and refill now (Bob Is The Oil Guy owners describe the rear axle as robust and close to a Dana 44 in design.)
-- Power steering fluid: [CONFIRM IN MANUAL] · Flush now (Recirculating-ball steering box; check for play.)
+- Automatic transmission (4L30-E): Dexron-III-type ATF (Liqui Moly lists its ATF III) · Liqui Moly gives 8.6 L (9.1 US qt) for the US SLX and 5.5 L (5.8 US qt) for European Troopers, so measure what you drain · Pan drop and filter now, then partial changes (Very sensitive to fill level; fix leaks first. No pressure flush on an unknown-history gearbox.)
+- Transfer case (TOD or part-time): Part-time and shift-on-the-fly cases: 5W-30 engine oil, ≈1.45 L (1.5 US qt) · Torque On Demand case on the 1998–99 SLX 3.5: 75W-90-type gear oil, ≈1.9 L (2.0 US qt) (Liqui Moly lookup; its European Trooper 3.5 entry lists engine oil and 1.45 L, so check what's in yours) · Drain and refill now (Metal in the fluid is a warning sign; one 1999 owner's transfer case was replaced for filings at 25,000 miles.)
+- Front & rear differentials: GL-5 hypoid gear oil (Liqui Moly lists 75W-90 to 85W-90 grades) · ≈1.4–1.5 L (1.5–1.6 US qt) front, ≈1.8 L (1.9 US qt) rear · a limited-slip rear takes LSD-rated (LS) oil, which already contains the friction modifier (Liqui Moly lookup) · Drain and refill now (Bob Is The Oil Guy owners describe the rear axle as robust and close to a Dana 44 in design.)
+- Power steering fluid: Dexron-III-type ATF (Liqui Moly lookup) · Flush now (Recirculating-ball steering box; check for play.)
 - Brake fluid: Flush; four-wheel discs with ABS · Every two years
 - U-joints & driveshafts: Grease and check for play · At every oil change
 - Front-end wear parts: Ball joints, tie-rod ends, idler arm, sway-bar bushings · Inspect now (Worn sway-bar bushings make a tall truck feel even tippier; owners often fit polyurethane ones.)
@@ -7740,6 +7745,10 @@ A: Bring a Trailer sales since late 2024 run from $6,000 (a 2000 Limited) to $14
 - NHTSA — owner complaints, 1999 Isuzu Trooper: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1999
 - NHTSA — owner complaints, 2000 Isuzu Trooper: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=2000
 - RockAuto — Isuzu Trooper parts catalog: https://www.rockauto.com/en/catalog/isuzu,1990,trooper
+- Liqui Moly oil guide (Olyslager data) — Acura SLX 3.2 V6, 1996–1997 (USA): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/886d8117f9ee0684/
+- Liqui Moly oil guide (Olyslager data) — Acura SLX 3.5 V6, 1998–1999 (USA): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e6ac0d933459de0f/
+- Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 3.2 V6, 1992–1998: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/6b55ce032f199765/
+- Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 3.5 V6, 1998–2004: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/5a038cc9de6c257b/
 - Wikipedia — Isuzu Trooper: https://en.wikipedia.org/wiki/Isuzu_Trooper
 - Isuzu Motors — Heritage (company history timeline): https://www.isuzu.co.jp/world/company/history.html
 - Acura (Honda newsroom) — 1996 Acura SLX specifications: https://hondanews.com/en-US/releases/release-fca5672643f189d994de02004c34c9d6-1996-acura-slx-specifications
@@ -11573,7 +11582,7 @@ Tools: Socket for the drain plug · filter wrench · torque wrench · drain pan 
 #### Service the front and rear differentials
 Difficulty 2 / 5 · time ≈ 1–1.5 hours · cost Parts only: about 5–6 pints of synthetic 75W-85
 Symptoms: Unknown history, a deep water crossing, or towing. You may hear whine or chatter in tight turns from the electronic LSD.
-Fix: Both axles take synthetic 75W-85 GL-5. AMSOIL lists the 215FD front at 2.3 pints and the 260RDU rear at 3 pints on Hurricane and 6.4 trucks (its 2022 5.7 entry shows 2.3 pints without ELSD and 2.7 with). Remove the fill plug first so you know you can refill, then drain, refit the drain plug and fill to the bottom of the fill hole. AMSOIL's lookups cite Mopar 75W-85 with modifier (P/N 68083381AA) for the rear axle, but its entries disagree on whether the ELSD or the open axle needs it, so confirm the fluid in your manual or with the dealer.
+Fix: Both axles take synthetic 75W-85 GL-5. AMSOIL lists the 215FD front at 2.3 pints and the 260RDU rear at 3 pints on Hurricane and 6.4 trucks (its 2022 5.7 entry shows 2.3 pints without ELSD and 2.7 with). Remove the fill plug first so you know you can refill, then drain, refit the drain plug and fill to the bottom of the fill hole. The owner's manual calls for friction-modified 75W-85 in the rear, whether it has the electronic LSD or a mechanical LSD. AMSOIL's lookups cite Mopar 75W-85 with modifier (P/N 68083381AA), but its entries disagree on which rear axle needs it, so check the part number with the dealer.
 Tools: Fluid pump · sockets or hex bits for the plugs · drain pan · torque wrench
 
 #### 8HP75 automatic: fluid and pan service
@@ -11597,21 +11606,21 @@ Tools: Battery tester · terminal brush · a USB drive if an update calls for on
 #### Engine air filter and Hurricane spark plugs
 Difficulty 1 / 5 (filter) · 3 / 5 (plugs) · time ≈ 10 minutes (filter) · 1–2 hours (plugs) · cost Parts only
 Symptoms: Dusty-road use, a misfire code or an unknown history.
-Fix: The air filter is a tool-free job: unclip the airbox, swap the element and wipe out the housing. On the Hurricane, take off the engine cover and the coils to reach the plugs, blow debris out of the wells before removing each plug, and torque the new plugs to the service-manual figure. We couldn't confirm the factory plug interval, so check your maintenance schedule.
+Fix: The air filter is a tool-free job: unclip the airbox, swap the element and wipe out the housing. On the Hurricane, take off the engine cover and the coils to reach the plugs, blow debris out of the wells before removing each plug, and torque the new plugs to the service-manual figure. The owner's-manual maintenance plan replaces the Hurricane's plugs every 60,000 miles, on mileage alone.
 Tools: Plug socket with extension · torque wrench · compressed air · dielectric grease
 
 ### Baseline service
-A WS is new enough that most are still under factory or extended warranty, so get every recall and software flash done at the dealer first. Then baseline the fluids most owners skip: both axles, the transfer case, the transmission and brake fluid. Specs differ by engine. The standard-output Hurricane, the high-output Hurricane and the two Hemis use different oils and filters. Capacities below are from AMSOIL's application lookups. Confirm against your owner's manual.
-- Engine oil & filter: 5.7: 0W-20 (MS-6395), 7 qt · 6.4: 0W-40, 7 qt · 3.0 SO: 0W-20 (MS-6395), 7.5 qt · 3.0 HO: 0W-40 (MS-A0921), 7.5 qt · Baseline now; then per the oil-life monitor (Filters per AMSOIL: WIX 57060 (5.7 and 6.4), WL10255 (3.0 SO), 57045 (3.0 HO). Drain-plug torque 20 ft-lb (3.0) or 25 ft-lb (6.4).)
+A WS is new enough that most are still under factory or extended warranty, so get every recall and software flash done at the dealer first. Then baseline the fluids most owners skip: both axles, the transfer case, the transmission and brake fluid. Specs differ by engine. The standard-output Hurricane, the high-output Hurricane and the two Hemis use different oils and filters. Fluid types, schedules and the oil and coolant capacities below are from the 2022 and 2025 Wagoneer owner's manuals on Mopar's site; axle and transmission capacities are from AMSOIL's application lookups.
+- Engine oil & filter: 5.7: 0W-20 (MS-6395), 7 qt · 6.4: 0W-40 (MS-12633), 7 qt · 3.0 SO: 0W-20 (MS-6395), 7.5 qt · 3.0 HO: 0W-40 (MS-A0921), 7.5 qt · Baseline now; then per the oil-life monitor (Filters per AMSOIL: WIX 57060 (5.7 and 6.4), WL10255 (3.0 SO), 57045 (3.0 HO). Drain-plug torque 20 ft-lb (3.0) or 25 ft-lb (6.4).)
 - Engine air filter: Panel element in the airbox · Baseline now; check after dusty trips (Tool-free.)
-- Cabin air filter: [CONFIRM IN MANUAL] · Baseline now (Location and part number not confirmed; check the owner's manual.)
-- Spark plugs: Hurricane I6: 6 plugs · Hemi V8: 16 plugs · Per the maintenance schedule [CONFIRM IN MANUAL] (Hemis use two plugs per cylinder.)
-- Coolant: 5.7: 16.9 qt · 6.4: 18.8 qt · 3.0: 16.6 qt engine plus 3.2 qt intercooler circuit · type [CONFIRM IN MANUAL] · Inspect now; replace per schedule (The Hurricane has a separate intercooler coolant circuit (3.2 qt), so check it too.)
+- Cabin air filter: Behind the glove box, in the fresh-air inlet · replace every 12,000 mi (19,000 km) (2022 and 2025 owner's manuals) · Baseline now (Unclip the glove box from its hinges to reach the access door; the filter's arrow shows the airflow direction. Part number not confirmed.)
+- Spark plugs: Hurricane I6: 6 plugs · Hemi V8: 16 plugs · 3.0 Hurricane every 60,000 mi · 5.7 every 100,000 mi · 6.4 every 90,000 mi (owner's-manual maintenance plan; mileage only, no time limit) (Hemis use two plugs per cylinder.)
+- Coolant: Mopar 10-year/150,000-mile OAT coolant meeting MS.90032 · 5.7: 17 qt (2022 manual; AMSOIL lists 16.9 qt) · 6.4: 18.8 qt · 3.0: 16.6 qt engine plus intercooler circuit, 3.2 qt in the 2025 manual (2.9 qt in the 2022 manual) · Inspect now; the schedule says flush and replace at 10 years or 150,000 mi (The Hurricane has a separate intercooler coolant circuit that takes the same OAT coolant, so check it too.)
 - Automatic transmission (8HP75): SL076-spec ATF · 9–9.5 qt total fill · Baseline if towing or unknown history; dealer or a shop with a scan tool (The level check depends on temperature. A pan drop replaces only part of the fluid.)
-- Transfer case: [CONFIRM IN MANUAL] · Baseline now if it has low range and has been used off-road or for towing (AMSOIL lists no fluid for it. Quadra-Trac I (single-speed), Quadra-Trac II and Quadra-Drive II use different cases.)
+- Transfer case: "Mopar Mobile LT" (as printed in the 2022 and 2025 owner's manuals) · capacity not listed · Baseline now if it has low range and has been used off-road or for towing (The maintenance plan says inspect it every 30,000 mi and change it at 150,000 mi. AMSOIL lists no fluid for it. Quadra-Trac I (single-speed), Quadra-Trac II and Quadra-Drive II use different cases.)
 - Front differential (215FD): 75W-85 GL-5 synthetic · 2.3 pt · Baseline now; again after deep water (Synthetic is required.)
-- Rear differential (260RDU): 75W-85 GL-5 synthetic · 3 pt (AMSOIL lists 2.3–2.7 pt for the 2022 5.7) · Baseline now; more often when towing (AMSOIL cites Mopar 75W-85 with modifier, P/N 68083381AA, but its entries disagree on which rear axle (ELSD or open) needs it. [CONFIRM IN MANUAL])
-- Brake fluid: DOT 3 (Mopar, SAE J1703) · DOT 4 acceptable · Flush now; then per schedule [CONFIRM IN MANUAL] (Electric park brake: use service mode before you touch the rear calipers.)
+- Rear differential (260RDU): 75W-85 GL-5 synthetic · 3 pt (AMSOIL lists 2.3–2.7 pt for the 2022 5.7) · Baseline now; more often when towing (The 2022 and 2025 owner's manuals list friction-modified GL-5 75W-85 synthetic for the rear whether it has the electronic LSD (Mopar ELSD axle lubricant) or a mechanical LSD (Mopar Mechanical Limited Slip axle lubricant). AMSOIL cites Mopar P/N 68083381AA, but we couldn't match that number to either variant.)
+- Brake fluid: DOT 3 (Mopar, SAE J1703) · DOT 4 acceptable · Flush now if the history is unknown. The 2022 and 2025 maintenance plans list brake inspections but no fluid-replacement interval. (Electric park brake: use service mode before you touch the rear calipers.)
 - Quadra-Lift air suspension: Cycle Park → Off-Road 2; listen for the compressor; scan for codes · Inspect now (On early 2022 trucks, check TSB 02-001-22 items: air lines seated to the tape mark, control-module plug, vent hose and height-sensor links.)
 - Batteries (12 V and 5.7 eTorque 48 V): Load-test the 12 V battery; check the eTorque system on 5.7 trucks · Now (Low voltage causes many WS electronic faults. The 5.7's 48 V pack mounts to the cabin floor.)
 - Driveshafts, CV axles and boots: Inspect the boots and joints; check for play · Now and after every rough-road trip (The fully independent front and rear use CV axles, so a torn boot fills with grit fast.)
@@ -11639,7 +11648,7 @@ Q: What fuel economy does it get?
 A: MotorTrend's 2023 4x4 Wagoneer with the 420-hp Hurricane was rated 16 mpg city, 26 highway and 19 combined. Over 20,672 miles it averaged 16.4 mpg, and its best tank was 20.3 mpg.
 
 Q: What oil does it take?
-A: It depends on the engine. The 5.7 and the standard-output 3.0 take 0W-20 meeting MS-6395. The 6.4 and the high-output 3.0 in Grand Wagoneers take 0W-40, with the HO Hurricane calling for MS-A0921. AMSOIL lists 7 qt with the filter for the V8s and 7.5 qt for the Hurricane.
+A: It depends on the engine. The 5.7 and the standard-output 3.0 take 0W-20 meeting MS-6395. The 6.4 and the high-output 3.0 in Grand Wagoneers take 0W-40, with the 6.4 calling for MS-12633 and the HO Hurricane for MS-A0921. The owner's manual and AMSOIL both list 7 qt with the filter for the V8s and 7.5 qt for the Hurricane.
 
 Q: Why doesn't it have a Jeep badge?
 A: At launch in 2021, Wagoneer was sold as a premium extension of Jeep with its own badges, dealer program and concierge. In February 2024 Jeep said it would stop being a sub-brand and future Wagoneers would wear Jeep badges. The facelifted 2026 Grand Wagoneer, revealed October 14, 2025, has Jeep logos front and rear.
@@ -11680,6 +11689,8 @@ A: Too new for a long record. NHTSA lists more than a dozen recalls, mostly soft
 - RockAuto — 2024 Jeep Wagoneer 3.0L parts catalog: https://www.rockauto.com/en/catalog/jeep,2024,wagoneer,3.0l+l6+turbocharged,3454406
 - Wikimedia Commons — Tomah Tractor Pull photo (U.S. Army, public domain): https://commons.wikimedia.org/wiki/File:Fort_McCoy_leaders_participate_in_community_engagement_at_annual_Tomah_Tractor_Pull_(9175410).jpg
 - Wikimedia Commons — 2022 Jeep Grand Wagoneer front view (AJM STUDIOS, CC BY-SA 2.0): https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Wagoneer_(United_States)_front_view.jpg
+- Mopar — 2022 Grand Wagoneer/Wagoneer Owner's Manual (fluid capacities, fluids and lubricants, maintenance plan): https://vehicleinfo.mopar.com/assets/publications/en-us/Wagoneer/2022/Wagoneer/5633299-22_WS_OM_EN_USC_DIGITAL_E6.pdf
+- Mopar — 2025 Jeep Wagoneer/Grand Wagoneer Owner's Manual (fluid capacities, fluids and lubricants, maintenance plan): https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2025/Grand_Wagoneer/103579_25_WS_OM_EN_USC_DIGITAL_E2.pdf
 - NHTSA recalls API — Jeep Wagoneer, Grand Wagoneer, Wagoneer L, Grand Wagoneer L, 2022–2026: https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WAGONEER&modelYear=2022
 - FCA US TSB 02-001-22 Rev. A — Air Suspension Inoperable, 2022 WS (via NHTSA): https://static.nhtsa.gov/odi/tsbs/2022/MC-10228041-9999.pdf
 - CarComplaints.com — 2022 Jeep Wagoneer TSB list: https://www.carcomplaints.com/Jeep/Wagoneer/2022/tsbs/
@@ -13681,8 +13692,8 @@ Fix: On the 1KZ-TE, the lift pump is part of the injection pump, so the lines be
 Tools: Multimeter · wiring diagram for your engine (petrol and diesel circuits differ) · fuel-safe catch can
 
 ### Baseline service
-Assume a 25-year-old import has had nothing done, whatever the auction sheet says. On a diesel the priorities are the timing belt and the cooling system, because heat is what kills a 1KZ-TE head. Specs below are from Roughtrax's KZJ90/95 data sheet unless noted. V6 and 2.7 petrols differ, so confirm in the manual for your engine.
-- Engine oil & filter: 1KZ-TE: 7.7 L with filter, SAE 5W-40, API SL/CF · petrol engines [CONFIRM IN MANUAL] · Every 6,000 mi or 12 months (6 months in severe use) (Roughtrax's UK schedule. Replace the sump-plug washer every time.)
+Assume a 25-year-old import has had nothing done, whatever the auction sheet says. On a diesel the priorities are the timing belt and the cooling system, because heat is what kills a 1KZ-TE head. Specs below are from Roughtrax's KZJ90/95 data sheet unless noted. Petrol oil capacities are from Penrite's lookup for Australian Prados. V6 and 2.7 petrols differ in other ways too, so confirm in the manual for your engine.
+- Engine oil & filter: 1KZ-TE: 7.7 L with filter, SAE 5W-40, API SL/CF · 5VZ-FE V6: 5.2 L with filter · 3RZ-FE 2.7: 5.4 L with filter (Penrite lookup) · petrol oil grade [CONFIRM IN MANUAL] · Every 6,000 mi or 12 months (6 months in severe use) (Roughtrax's UK schedule. Replace the sump-plug washer every time.)
 - Engine air filter: Panel element · Inspect at every oil change; more often on dusty trails (A diesel that breathes dust wears fast. Check the airbox seals too.)
 - Fuel filter (diesel): Diesel filter with water separator [CONFIRM PART BY FRAME NUMBER] · Every 12,000 mi or 12 months (Drain the water trap whenever the warning light comes on, and after filling from a questionable source.)
 - Timing belt, tensioner & water pump: 1KZ-TE: belt, tensioner pulley, hydraulic tensioner, seals · 5VZ-FE: belt 13568-69095 (4Runner part) · 3RZ-FE: chain · 1KZ-TE: 100,000 km or 5–6 years (HD Automotive); Roughtrax says 60,000 mi or 60 months · 5VZ-FE: about 90,000 mi (If there's no receipt, do it now and replace the water pump at the same time.)
@@ -13763,6 +13774,7 @@ A: On Bring a Trailer, 19 J90s sold between December 2024 and October 2026, most
 - Coastal Offroad — 90 Series Land Cruiser bumper and slider kits: https://www.coastaloffroad.com/shop/90-series-land-cruiser-high-clearance-front-bumper-kit-11426
 - IH8MUD — The mistakes we make: forgot to put the washers on head bolts: https://forum.ih8mud.com/threads/the-mistakes-we-make-and-taking-the-time-to-fix-them-classic-forgot-to-put-the-washers-on-head-bolts.1371721/
 - HD Automotive — Koyorad 1KZ-TE radiator, Prado 90 KZJ95 automatic: https://hdautomotive.com.au/product/toyota-prado-kzj95-radiator-at/
+- Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Land Cruiser Prado 3.4 5VZ-FE (1996–2005) and RZJ90/95 2.7 3RZ-FE (1996–2002): http://www.datateck.com.au/Lube/PenriteAus/
 - Wikipedia — Toyota Land Cruiser Prado (second generation, J90): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado#J90
 - Toyota — 75 Years of Toyota, Vehicle Lineage: Land Cruiser Prado (90): https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012615/index.html
 - Wikipedia — Toyota KD engine (1KD-FTV first used in the J90 Prado, July 2000): https://en.wikipedia.org/wiki/Toyota_KD_engine
@@ -14162,9 +14174,9 @@ Fix: Loosen the axle nut with the wheel on the ground, then lift the truck. Sepa
 Tools: Axle-nut socket · breaker bar · pry bar · joint separator · torque wrench · new axle nut
 
 ### Baseline service
-On a 1KD-FTV, 'baseline' starts with the injectors: get the seats and injectors tested or replaced and the oil pickup inspected before you worry about anything else. Specs below are from Roughtrax's KDJ120 (1KD-FTV) data sheet unless noted. 1GR-FE, 1KZ-TE and petrol-four trucks differ, so confirm in the manual for your engine.
+On a 1KD-FTV, 'baseline' starts with the injectors: get the seats and injectors tested or replaced and the oil pickup inspected before you worry about anything else. Specs below are from Roughtrax's KDJ120 (1KD-FTV) data sheet unless noted. 1GR-FE and 2.7 petrol oil capacities are from Penrite's lookup for Australian Prados. 1GR-FE, 1KZ-TE and petrol-four trucks differ, so confirm in the manual for your engine.
 - Injector seats, injectors & oil pickup (1KD-FTV): Genuine fitting kit (seats/washers, O-rings) · injectors tested by a diesel specialist · Seals every 40,000 km (Unsealed 4X4) · injectors tested every service and replaced about every 100,000 km (4X4 Australia; AustralianCar.Reviews) (Inspect the pickup screen through the drain-plug hole at the first oil change. Aluminum seats replaced copper from August 2007.)
-- Engine oil & filter: 1KD-FTV: 7.4 L with filter, SAE 5W-30, API CF / ACEA B1/B5 · 1GR-FE and others [CONFIRM IN MANUAL] · Every 6,000 mi or 12 months (6 months in severe use) (Unsealed 4X4 suggests 5,000 km changes and quality oil on a 1KD, which helps against cold-start rattle.)
+- Engine oil & filter: 1KD-FTV: 7.4 L with filter, SAE 5W-30, API CF / ACEA B1/B5 · 1GR-FE: 5.2 L with filter · 3RZ-FE 2.7: 5.1 L with filter (Penrite lookup) · petrol grades and other engines [CONFIRM IN MANUAL] · Every 6,000 mi or 12 months (6 months in severe use) (Unsealed 4X4 suggests 5,000 km changes and quality oil on a 1KD, which helps against cold-start rattle.)
 - Timing belt & water pump (1KD-FTV, 1KZ-TE, 5VZ-FE): 1KD: genuine kit (belt, hydraulic tensioner, idler, seals) + Aisin pump · 1GR-FE and 2.7 fours: timing chain · 1KD: 150,000 km or 5 years (HD Automotive, quoting Toyota); Roughtrax's UK sheet gives 100,000 mi or 120 months (The 1KD is an interference engine. Unsealed 4X4 says to do the water pump with the belt, and before 150,000 km either way.)
 - Fuel filter (diesel): Diesel filter with water trap [CONFIRM PART BY FRAME NUMBER] · Every 12,000 mi or 12 months (Common-rail injectors hate water and dirt, so this is cheap insurance on a 1KD.)
 - Coolant & thermostat: ≈11.0 L (auto) / 11.3 L (manual), less with a viscous heater · Toyota pink Super Long Life or blue Long Life Coolant · Every 20,000 mi or 24 months (Roughtrax) (Watch for a falling level without hose leaks, which on a 1KD usually means the water pump (Unsealed 4X4).)
@@ -14242,6 +14254,7 @@ A: It rides well while it's healthy, but the bags and compressor are wear items,
 - Transport Canada — Importing a vehicle from countries other than the United States or Mexico (15-year rule): https://tc.canada.ca/en/road-transportation/importing-vehicle/importing-vehicle-countries-other-united-states-mexico
 - Wikipedia — Lexus GX (GX 470 launch and drivetrain): https://en.wikipedia.org/wiki/Lexus_GX
 - HD Automotive — Genuine 1KD injector fitting kit (Prado KDJ120/KDJ150): https://hdautomotive.com.au/product/1kd-2kd-genuine-injector-fitting-kit/
+- Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Land Cruiser Prado GRJ120 4.0 1GR-FE (2004–2009) and RZJ120 2.7 3RZ-FE (2003–2004): http://www.datateck.com.au/Lube/PenriteAus/
 - Wikipedia — Toyota Land Cruiser Prado (third generation, J120): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado#J120
 - Toyota — 75 Years of Toyota, Vehicle Lineage: Land Cruiser Prado (120): https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60014203/index.html
 - Toyota — 75 Years of Toyota, Vehicle Lineage: Land Cruiser Prado (150): https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60001931/index.html
@@ -14883,17 +14896,17 @@ Fix: Replace worn shock and lower control-arm bushes. Tighten suspension bolts w
 Tools: Floor jack and stands · metric sockets · torque wrench
 
 ### Baseline service
-Toyota Australia's owner's-manual site was offline while we researched this, so fluid capacities are left for you to confirm in the manual. The jobs that matter on a 150 depend on the engine: the 1KD-FTV needs its timing belt and injectors looked after, and the 1GD-FTV needs its DPF and intake kept healthy.
-- Engine oil & filter: Diesel-rated oil to Toyota spec · [CONFIRM IN MANUAL] for grade and capacity · At purchase. Auto Buyers Guide's advice is fresh oil every 10,000 km. (On a 1GD-FTV, use a low-ash oil suited to a DPF engine if the manual specifies it. Check the logbook for intervals that were stretched.)
+Toyota Australia's owner's-manual site was offline while we researched this, so the fluid specs below come from Toyota Japan's own owner's manuals for the Japanese-market 150 (the 2011 petrol edition and the 2020 1GD-FTV edition), plus Penrite's lookup for Australian trucks. Japan never got the 1KD-FTV, and other markets can specify different grades, so check your own manual. The jobs that matter on a 150 depend on the engine: the 1KD-FTV needs its timing belt and injectors looked after, and the 1GD-FTV needs its DPF and intake kept healthy.
+- Engine oil & filter: 1GD-FTV (Japanese manual, 2020): ACEA C5 0W-20 recommended, JASO DL-1 0W-30 or 5W-30 acceptable · 7.2 L oil only, 7.7 L with filter (Penrite lists 7.5 L with filter for Australian DPF trucks) · 1KD-FTV: 7.0 L with filter (Penrite) · petrols (Japanese manuals): 1GR-FE 5.7 L / 6.1 L with filter; 2TR-FE 5.5 L / 5.9 L with filter in 2020, 5.0 L / 5.7 L in 2011 · Australian-market grades [CONFIRM IN MANUAL] · At purchase. Auto Buyers Guide's advice is fresh oil every 10,000 km. (The Japanese manual specifies low-ash ACEA C5 oil for the 1GD-FTV, warns that other grades shorten the life of the emissions system, and sets oil and filter changes at about 20,000 km or 12 months. Check the logbook for intervals that were stretched.)
 - Air filter: Panel element · check the seal all round the airbox · At purchase, then much more often in dust (1GD trucks can dust the MAF if the seal leaks (Unsealed 4X4). Look at the clean side of the box.)
 - Fuel filter / water separator: Diesel fuel filter · [CONFIRM IN MANUAL] · At purchase, then per the manual, sooner on bush fuel (Clean fuel matters to the injectors on both diesels.)
 - Timing belt (1KD-FTV only): Belt, tensioner and idlers · Every 150,000 km (Protect the fragile radiator return fitting during the job. The 2.8 1GD-FTV has a chain.)
 - Injectors (1KD-FTV): Test, and replace the seat washers · Around every 100,000 km (Toyota guidance reported by Unsealed 4X4) (Knocking or black smoke means stop and test before a piston cracks.)
 - DPF, EGR and intake (1GD-FTV): Confirm the 2020 Toyota remedy and the manual regen switch · Intake and EGR clean every 50,000–100,000 km (Unsealed 4X4) (Check the EGR cooler for coolant leaks while it's apart.)
-- Coolant: Toyota Super Long Life type · [CONFIRM IN MANUAL] · At purchase if there's no record (Check the radiator, and the return fitting if the 1KD belt has been done.)
-- Automatic transmission: Toyota ATF WS (AC60F six-speed) · [CONFIRM IN MANUAL] for earlier gearboxes · Drain and fill at purchase on a tow vehicle (Auto Buyers Guide: hunting or shudder under load points to old fluid or a tired torque converter.)
-- Transfer case: Toyota transfer gear oil · [CONFIRM IN MANUAL] · At purchase (Engage 4H, 4L and the centre lock on soft ground to test the actuator.)
-- Front & rear differentials: Hypoid gear oil, GL-5 · [CONFIRM IN MANUAL] · At purchase, and after any deep water crossing (Front diff service is easier with the bash plate off.)
+- Coolant: Toyota Genuine Super Long Life Coolant (Japanese manuals) · 1GD-FTV: 10.2 L engine plus 2.6 L intercooler circuit · 1GR-FE: 11.0 L · 2TR-FE: 8.1 L · At purchase if there's no record (Check the radiator, and the return fitting if the 1KD belt has been done.)
+- Automatic transmission: Toyota ATF WS for every engine in the Japanese manuals: 1GD-FTV 9.6 L, 1GR-FE 10.9 L, 2TR-FE 9.9 L (2011) or 8.5 L (2020) · Australian 1KD-FTV automatic [CONFIRM IN MANUAL] · Drain and fill at purchase on a tow vehicle (Auto Buyers Guide: hunting or shudder under load points to old fluid or a tired torque converter.)
+- Transfer case: Toyota Genuine Transfer Gear Oil LF, SAE 75W · 1.4 L (Japanese manuals; Penrite also lists 1.4 L) · At purchase (Engage 4H, 4L and the centre lock on soft ground to test the actuator.)
+- Front & rear differentials: Toyota Genuine Differential Gear Oil LT, API GL-5 SAE 75W-85 · front 1.4 L · rear 2.7 L, or 2.65 L with the diff lock · Torsen rear LSD: Toyota Differential Gear Oil LX, GL-5 75W-85, 2.55 L (Japanese manual, 2020) · At purchase, and after any deep water crossing (Front diff service is easier with the bash plate off. Use the LX oil if your truck has the Torsen rear LSD.)
 - Brake fluid: DOT 3 or as marked on the reservoir · At purchase (On a pre-2012 truck, check the pedal for the booster fault.)
 - Suspension & KDSS: Inspect bushes, shocks, KDSS cylinders and rear air springs · At purchase (Check that the truck sits level after standing overnight (Kakadu rear air).)
 
@@ -14949,6 +14962,9 @@ A: Mostly, if it's been serviced. Its known weakness is failing injector seat wa
 - GXOR — Wheel & tire database: https://lexusgxor.com/wiki/mods/wheelstires
 - The Drive — The 25-year import rule explained via the Mega Cruiser (Dec 2019): https://www.thedrive.com/news/31247/the-1995-toyota-mega-cruiser-king-of-off-roaders-is-legal-to-import-in-2020
 - CruiserTeq — 150 Series / GX460 parts: https://cruiserteq.com/150-series/
+- Toyota (Japan) — Land Cruiser Prado owner's manual, August 2020 edition (TRJ150W 2TR-FE, GDJ150W/151W 1GD-FTV), maintenance data pp. 464–471: https://manual.toyota.jp/pdf/landcruiserprado/landcruiserprado_202008.pdf
+- Toyota (Japan) — Land Cruiser Prado owner's manual, October 2011 edition (2TR-FE, 1GR-FE), maintenance data pp. 406–409: https://manual.toyota.jp/pdf/landcruiserprado/landcruiserprado_201110.pdf
+- Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Land Cruiser Prado 1GD-FTV (2015–2020) and KDJ150/155 1KD-FTV (2009–2015): http://www.datateck.com.au/Lube/PenriteAus/
 - Wikipedia — Toyota Land Cruiser Prado (J150): https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado#J150
 - Wikipedia — Lexus GX (2010 VSC recall): https://en.wikipedia.org/wiki/Lexus_GX
 - Toyota (Japan) — Prado full model change, 14 Sept 2009: https://global.toyota/jp/newsroom/toyota/21781842.html
@@ -19047,18 +19063,18 @@ Fix: On loose ground, shift into 4H and drive forward until the hubs engage, the
 Tools: Snap-ring pliers · hub socket · wheel-bearing grease · factory manual.
 
 ### Baseline service
-These trucks are now 35–44 years old, so do everything. On the US 2.6 four that means oil, the timing chains if they rattle, a fresh fuel system and every gear oil, including the transfer case and the limited-slip rear if fitted. Capacities are AMSOIL's lookup figures for a US 1989 Montero 2.6; V6 and diesel trucks differ.
-- Engine oil & filter: 5W-30 or 10W-30 grades listed by temperature · ≈5.5 US qt with filter (2.6) · Then per the owner's manual [CONFIRM IN MANUAL] (AMSOIL lists a WIX 51381 filter for the 2.6.)
+These trucks are now 35–44 years old, so do everything. On the US 2.6 four that means oil, the timing chains if they rattle, a fresh fuel system and every gear oil, including the transfer case and the limited-slip rear if fitted. Capacities are AMSOIL's lookup figures for a US 1989 Montero 2.6; V6 and diesel trucks differ. The automatic-transmission figure and the oil and brake-fluid intervals come from Liqui Moly's lookup, which uses Mitsubishi's European data.
+- Engine oil & filter: 5W-30 or 10W-30 grades listed by temperature · ≈5.5 US qt with filter (2.6) · Mitsubishi's European schedule: every 10,000 km (≈6,000 mi) or 6 months, or 5,000 km (≈3,000 mi) in severe use (Liqui Moly lookup) · US schedule [CONFIRM IN MANUAL] (AMSOIL lists a WIX 51381 filter for the 2.6.)
 - Timing drive: 4G54 2.6: chains (timing and balance shaft) · 4D56 2.5 TD: belt · Inspect for rattle now; belt engines on the receipt or now [CONFIRM IN MANUAL] (On a diesel import with no records, assume the belt is due.)
 - Ignition: plugs, cap, rotor and wires: [CONFIRM IN MANUAL] · Now (One BaT seller listed a new distributor cap and ignition wires in recent work.)
 - Fuel filter, pump & hoses: [CONFIRM IN MANUAL] · Now (Old rubber fuel hose is a fire risk; replace it with fuel-rated hose.)
 - Coolant: ≈8.5 US qt system capacity (2.6) · Flush now (Replace old hoses and the thermostat at the same time.)
 - Manual transmission (V5M21): GL-4 75W-85 or 80W · 5.3 US pints · Change now
-- Automatic transmission: [CONFIRM IN MANUAL] (AMSOIL gives no data for the 1989 2.6 automatic) · Drain and refill now
+- Automatic transmission: Dexron-III-type ATF (Liqui Moly lists its ATF III) · ≈7.2 L (7.6 US qt) for the European 2.6 and 3.0 V6 automatics (Liqui Moly lookup; AMSOIL gives no data for the US 1989 2.6 automatic) · Drain and refill now
 - Transfer case: GL-4 · 4.6 US pints · Change now
 - Front differential: GL-5 80W-90 · 2.3 US pints · Change now
 - Rear differential: GL-5 80W-90 · 3.8 US pints · Change now (A limited-slip rear needs LSD-rated oil; AMSOIL quotes Mitsubishi P/N 8149630EX or equivalent.)
-- Brake fluid: DOT 3 · Flush now, then every 2 years [CONFIRM IN MANUAL] (Inspect the rear wheel cylinders and flexible hoses.)
+- Brake fluid: DOT 3 · Flush now, then every 2 years or 30,000 km (Mitsubishi's European schedule, Liqui Moly lookup) (Inspect the rear wheel cylinders and flexible hoses.)
 - Power steering fluid: Dexron-II-type ATF · Change now (One BaT Raider seller replaced the power-steering lines and belt.)
 - Steering linkage & ball-joint boots: Molybdenum-disulfide chassis grease; relay-rod nuts 44 N·m (Mitsubishi) · Inspect now; Mitsubishi recommends new boots every 5 years (See Mitsubishi's pitman-arm procedure under Repairs.)
 - Front hubs & wheel bearings: Wheel-bearing grease; new seals · Now (Service the automatic locking hubs at the same time.)
@@ -19126,6 +19142,8 @@ A: Early trucks have leaf-sprung rear axles. Long-wheelbase trucks switched to t
 - NHTSA — Recall 89V030000 (1989 Montero throttle icing): https://www.nhtsa.gov/recalls?nhtsaId=89V030000
 - NHTSA — Recall 89V027000 (1989 Dodge Raider throttle icing): https://www.nhtsa.gov/recalls?nhtsaId=89V027000
 - NHTSA — Recall 84V098000 (1984 Montero oil-pressure sender): https://www.nhtsa.gov/recalls?nhtsaId=84V098000
+- Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 2.6 4WD, 1989–1991 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/f785ddd8d275c7b6/
+- Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6 4WD, 1989–1991 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/7d8ae4c3d83b7f2f/
 - Wikipedia — Mitsubishi Pajero: https://en.wikipedia.org/wiki/Mitsubishi_Pajero
 - JDMBUYSELL — Mitsubishi Pajero L040 buyer's guide: https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/
 - Mitsubishi Motors Japan — Pitman-arm ball-joint inspection notice (Japanese): https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html
@@ -19270,8 +19288,8 @@ Fix: Check whether the recalls were done, then inspect the hoses at full lock wi
 Tools: Flare-nut wrenches · hose clamp · new copper washers · bleeder hose and bottle · DOT 3 fluid.
 
 ### Baseline service
-Assume nothing has been done without receipts. On a 3.0 or 3.5 V6 the big item is the timing belt with its idlers and water pump. Then do every gear oil, because the transfer case, both diffs and any factory limited-slip are rarely serviced. Capacities below are AMSOIL's lookup figures for US 1993 3.0 and 1997 3.5 Monteros. Confirm them for your engine and gearbox, especially on diesel imports.
-- Engine oil & filter: SAE 5W-30 preferred (10W-30 above −18 °C) · ≈5.2 US qt with filter (US 3.0 and 3.5) · Then per the owner's manual [CONFIRM IN MANUAL] (AMSOIL lists a WIX 51334 filter for both V6s. Diesel 4D56/4M40 capacities differ.)
+Assume nothing has been done without receipts. On a 3.0 or 3.5 V6 the big item is the timing belt with its idlers and water pump. Then do every gear oil, because the transfer case, both diffs and any factory limited-slip are rarely serviced. Capacities below are AMSOIL's lookup figures for US 1993 3.0 and 1997 3.5 Monteros; Liqui Moly's lookup gives matching diff and transfer-case figures for the 3.5, and supplies the oil and brake-fluid intervals. Confirm them for your engine and gearbox, especially on diesel imports.
+- Engine oil & filter: SAE 5W-30 preferred (10W-30 above −18 °C) · ≈5.2 US qt with filter (US 3.0 and 3.5) · Every 7,500 mi or 12 months, or every 3,000 mi or 3 months in severe use (US Montero 3.5, Liqui Moly lookup). Mitsubishi's European schedule for the 3.0 and 3.5 is 15,000 km or 12 months. (AMSOIL lists a WIX 51334 filter for both V6s. Diesel 4D56/4M40 capacities differ.)
 - Timing belt, tensioner, idlers & water pump: 6G72 and 6G74: belt · 4D56: belt · 4M40: chain · Australian owners use ≈100,000 km on the V6s [CONFIRM IN MANUAL] (Owners report the 3.5 is an interference engine and the 3.0 is not. With no receipt, do it now.)
 - Spark plugs: Platinum plugs on the V6s (owner reports) [CONFIRM IN MANUAL] · Usually done with the timing belt (One owner couldn't reach the last two plugs on a '96 and paid a mechanic.)
 - Air filter & fuel filter: [CONFIRM IN MANUAL] · Fuel filter: owners quote 40,000–60,000 km depending on model (On a truck with no history, change both.)
@@ -19281,7 +19299,7 @@ Assume nothing has been done without receipts. On a 3.0 or 3.5 V6 the big item i
 - Transfer case (Super Select): GL-4 gear oil · 4.9–5.3 US pints depending on transmission · Change now (Owners say the Super Select system plays up when it's not used. Fresh oil and regular use help.)
 - Front differential: GL-5 80W-90 · 2.3–2.5 US pints · Change now (Check the vacuum actuator and its hoses while you're under there.)
 - Rear differential: GL-5 80W-90 · 5.5 US pints (1993 3.0) / 6.8 pints (1997 3.5) · Change now (A limited-slip rear needs LSD-rated oil; AMSOIL quotes Mitsubishi P/N 8149630EX or equivalent. Locker-equipped trucks: check the air lines and actuator for leaks.)
-- Brake fluid: DOT 3 · Flush now, then every 2 years [CONFIRM IN MANUAL] (Inspect the front hoses at full lock (recalls 96V143 and 98V220).)
+- Brake fluid: DOT 3 · Flush now, then every 2 years or 30,000 km (Mitsubishi's European schedule, Liqui Moly lookup; its US Montero listing gives only a yearly check) (Inspect the front hoses at full lock (recalls 96V143 and 98V220).)
 - Power steering fluid: Dexron-II-type ATF · Change now
 - Steering linkage & ball-joint boots: Molybdenum-disulfide chassis grease; relay-rod nuts 44 N·m (Mitsubishi) · Inspect now; Mitsubishi recommends new boots every 5 years on off-road trucks (Follow Mitsubishi's pitman-arm inspection (see Repairs).)
 - Front wheel bearings: Repack with wheel-bearing grease; new seals · Now, then with brake jobs (The seller of BaT's 177k-mile 1994 SR repacked the bearings and replaced the seals, upper ball joints and CV axles in one go.)
@@ -19370,6 +19388,9 @@ A: The big one is the NADI driver airbag: NHTSA 20V035000 for 1998–2000 Monter
 - NHTSA — Recall 96V143001 (1992–1994 Montero front brake hoses): https://www.nhtsa.gov/recalls?nhtsaId=96V143001
 - NHTSA — Recall 98V220000 (1997–1998 Montero front brake lines): https://www.nhtsa.gov/recalls?nhtsaId=98V220000
 - NHTSA — Recall 00V311001 (1992–1996 Montero 3.0 crank pulley bolt): https://www.nhtsa.gov/recalls?nhtsaId=00V311001
+- Liqui Moly oil guide (Olyslager data) — Mitsubishi Montero 3.5, 1992–2000 (USA): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/532f4ba523496222/
+- Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6, 1991–2001 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4f671afe50197eb9/
+- Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.5 V6, 1994–1999 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4d9ba8cc93ace581/
 - Wikipedia — Mitsubishi Pajero: https://en.wikipedia.org/wiki/Mitsubishi_Pajero
 - Wikipedia — Mitsubishi Pajero Evolution: https://en.wikipedia.org/wiki/Mitsubishi_Pajero_Evolution
 - Wikipedia — Mitsubishi 6G7 engine: https://en.wikipedia.org/wiki/Mitsubishi_6G7_engine
@@ -19532,13 +19553,13 @@ Fix: Early trucks (before about 1966) drove the speedometer from the very front 
 Tools: Transfer-case tools · seal driver · correct speedo pinion for your tyre size
 
 ### Baseline service
-Every 60 is at least 45 years old, and most have had several owners and at least one hard life. Assume every fluid is old, every grease point is dry and every rubber part has hardened. We couldn't find factory capacities for the 60 online, so check quantities and grades in a Nissan workshop manual before you buy fluids.
-- Engine oil & filter: [CONFIRM GRADE, CAPACITY AND FILTER TYPE IN MANUAL] · Baseline now (Check for sludge on the first change and look for leaks at the rocker cover and sump gaskets, which are catalogued and cheap.)
+Every 60 is at least 45 years old, and most have had several owners and at least one hard life. Assume every fluid is old, every grease point is dry and every rubber part has hardened. We couldn't find a factory manual for the 60 online. The capacities below come from Penrite's lookup for the Australian G60 (P engine, 1968–1980) and are approximate, so check grades in a Nissan workshop manual and fill to the level plug.
+- Engine oil & filter: About 5.3 L service refill (Penrite lookup, G60; it doesn't say whether that includes the filter) · [CONFIRM GRADE AND FILTER TYPE IN MANUAL] · Baseline now (Check for sludge on the first change and look for leaks at the rocker cover and sump gaskets, which are catalogued and cheap.)
 - Spark plugs, points & distributor: Six plugs; check the distributor, coil and leads · Replace now (Some trucks have a water-protected distributor, and SNLC calls a NOS one very hard to find. Keep the original if it works.)
 - Carburettor & fuel system: Single-barrel Hitachi carburettor; glass sediment bowls · Inspect now; rebuild if leaking (Old fuel and rusty tanks cause most running faults. Several trucks now have electric pumps added; check the wiring and fuse.)
 - Coolant & hoses: Fresh coolant; new top and bottom hoses · Flush now (Old radiators clog. SNLC had his radiator rebuilt during the restoration.)
-- Gearbox, transfer case & PTO box: Gear oil [CONFIRM GRADE & CAPACITY IN MANUAL] · Baseline now (Check the transfer output seals while you're there. A leaking rear seal ruins the transmission-mounted handbrake.)
-- Front & rear differentials: Hypoid gear oil [CONFIRM GRADE IN MANUAL] · Baseline now (US trucks have a C216 rear axle; heavy-duty trucks an H260.)
+- Gearbox, transfer case & PTO box: Gear oil · gearbox about 2.0–2.3 L, transfer case about 3.4 L (Penrite lookup, G60) · [CONFIRM GRADE AND PTO-BOX CAPACITY IN MANUAL] · Baseline now (Check the transfer output seals while you're there. A leaking rear seal ruins the transmission-mounted handbrake.)
+- Front & rear differentials: Hypoid gear oil [CONFIRM GRADE IN MANUAL] · front about 1.2 L, rear about 1.0–2.0 L depending on axle (Penrite lookup, G60) · Baseline now (US trucks have a C216 rear axle; heavy-duty trucks an H260.)
 - Front swivels (knuckles) & wheel bearings: Inspect knuckle balls and seals; repack wheel bearings · Inspect now (Pitted knuckle balls won't hold a seal.)
 - Brake fluid & drums: Fluid per the master-cylinder cap [CONFIRM IN MANUAL] · Flush now (Check every wheel cylinder and the master cylinder bore. Make sure all four drums actually brake.)
 - Handbrake band & drum: Transmission-mounted drum with a band; three adjustments · Inspect and adjust now (If it's oily, fix the transfer seal first, then clean or reline.)
@@ -19603,6 +19624,7 @@ A: Both can be correct for a US truck. SNLC says 1960s Warn hubs were sold by US
 - RockAuto — 1967 Nissan Patrol 4.0L L6 catalog: https://www.rockauto.com/en/catalog/nissan,1967,patrol,4.0l+l6,1494006
 - NHTSA — Importation and certification FAQs: https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs
 - Wikimedia Commons — Chander Gari Nissan Patrol 60 photos (Shadman Samee): https://commons.wikimedia.org/wiki/File:Chander_Gari_Nissan_Patrol_60._(40519459985).jpg
+- Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Nissan Patrol G60 4x4, P engine (1968–1980): http://www.datateck.com.au/Lube/PenriteAus/
 - Wikipedia — Nissan Patrol (60 Series, Jonga): https://en.wikipedia.org/wiki/Nissan_Patrol
 - Wikipedia — Nissan P engine: https://en.wikipedia.org/wiki/Nissan_P_engine
 - GoAuto — Nissan 60 Series Patrol (1965): https://www.goauto.com.au/used-car-research/nissan/60-series-patrol/1965-05-01/1596.html
@@ -20487,16 +20509,16 @@ Fix: Replace a split boot before dirt gets into the joint. Remove the driveshaft
 Tools: Axle nut socket · CV clamp pliers · circlip pliers · torque wrench
 
 ### Baseline service
-A used Y62 has usually done one of three jobs: school runs, desert weekends or towing a caravan across Australia. Baseline everything, and pay special attention to the transmission and transfer-case fluids, which are model-specific. We couldn't find Nissan's engine-oil capacity or grade published online, so check those in your owner's manual.
-- Engine oil & filter: [CONFIRM GRADE & CAPACITY IN MANUAL] · Nissan spin-on filter (shared with the Y61 TB45/TB48) · Baseline now (The same genuine filter fits the GU's petrol sixes and the Y62's VK56.)
+A used Y62 has usually done one of three jobs: school runs, desert weekends or towing a caravan across Australia. Baseline everything, and pay special attention to the transmission and transfer-case fluids, which are model-specific. The oil, plug, diff and brake-fluid specs below are from Nissan USA's owner's manuals for the Armada, the US-market Y62. Patrols sold elsewhere may specify different grades, so check your own manual.
+- Engine oil & filter: 6.5 L with filter, 6.2 L without (2018 and 2020 US Armada owner's manuals; Penrite's Australian Patrol data also gives 6.5 L) · Armada grade: Nissan Motor Oil 0W-20 SN, or a synthetic 0W-20 GF-5 SN (2020 manual) · Patrol grade outside the US [CONFIRM IN MANUAL] · Nissan spin-on filter (shared with the Y61 TB45/TB48) · Baseline now (The same genuine filter fits the GU's petrol sixes and the Y62's VK56.)
 - Air filter: Genuine VK56 element; Donaldson or Ryco for aftermarket airboxes · Replace now; check after every sandy trip (CarSwitch says fine sand in the filter is a sign of hard desert use.)
 - Cabin filter: Pollen filter above the heater fan · Replace now (A clogged filter cuts airflow and strains the fan.)
-- Spark plugs: Eight plugs, genuine Nissan or NGK equivalent [CONFIRM INTERVAL IN MANUAL] · Replace if no record (Misfires can damage the catalytic converters.)
+- Spark plugs: Eight plugs, genuine Nissan or NGK equivalent · Armada manual lists DILKAR7B11, gap 1.1 mm · replace every 105,000 mi (168,000 km), or sooner if the gap exceeds 1.35 mm · Replace if no record (Misfires can damage the catalytic converters.)
 - Coolant & thermostat: Nissan blue long-life coolant, 50/50 premix · Flush if no record (Series 1–2 trucks use an 82°C thermostat; Series 3 on (from 02/2016) use an electronic thermostat assembly.)
 - Automatic transmission fluid & filter: Nissan Matic-S; filter inside the pan · Service now if no record; more often if towing (Early 2010–2014 trucks have a reputation for valve-body problems (CarSwitch). Fresh fluid is cheap insurance.)
 - Transfer case: Nissan ATX 90A · 1.5 L service refill · Change now if no record (The Y62's electronic multi-plate clutch transfer case needs the specified fluid.)
-- Front & rear differentials: Gear oil [CONFIRM GRADE & CAPACITY IN MANUAL]; rear has a helical LSD and, on Patrols, an electric locker · Change now if no record, and after deep water (Extend the breathers before wading.)
-- Brake fluid, pads & rotors: Fluid per the reservoir cap [CONFIRM IN MANUAL] · Flush now; measure pads and rotors (The weight wears brakes quickly (Cars.co.za).)
+- Front & rear differentials: Armada manual: front Nissan Hypoid Super GL-5 80W-90 (conventional, not synthetic); rear Hypoid Super-S GL-5 75W-90 synthetic (2018) or Hypoid Fluid S1 GL-5 75W-80 (2020) · front 1.6 L, rear 2.3 L (Penrite, Australian Patrol) · rear has a helical LSD and, on Patrols, an electric locker: Patrol rear grade [CONFIRM IN MANUAL] · Change now if no record, and after deep water. The Armada schedule says to change it every 20,000 mi (32,000 km) or 24 months when towing or driving rough or muddy roads. (Extend the breathers before wading.)
+- Brake fluid, pads & rotors: Nissan Super Heavy Duty Brake Fluid or equivalent DOT 3 (Armada manual) · replace every 20,000 mi / 24 months (2018 schedule) or 30,000 mi / 36 months (2020 schedule); every 10,000 mi / 12 months in severe use · Flush now; measure pads and rotors (The weight wears brakes quickly (Cars.co.za).)
 - Serpentine belt & tensioner: Single belt drives the alternator, power steering and A/C · Inspect now (Replace the tensioner if the belt squeals or vibrates.)
 - HBMC system (if fitted): Inspect the rams, lines and accumulators at each corner · Inspect now (Look for wet fittings and check the truck sits level. Lifted trucks should have an HBMC-specific kit.)
 - CV boots & ball joints: Inspect the inner and outer boots and all four ball joints · Inspect now (Split boots let in grit fast, especially on lifted trucks.)
@@ -20568,6 +20590,9 @@ A: The Y63 Patrol, unveiled in Abu Dhabi on 3 September 2024, with a 3.8 V6 or a
 - Patrolapart — Genuine Nissan thermostat 82°C, Y62 S1–2: https://patrolapart.com.au/product/genuine-nissan-thermostat-82-degree-nissan-patrol-y62-s1-2
 - Patrolapart — Genuine Nissan front diff gears for 35-in tyres, Y62: https://patrolapart.com.au/product/genuine-nissan-front-diff-gears-cwp-suit-35-tyres-nissan-patrol-y62
 - RockAuto — 2018 Nissan Armada 5.6L V8 catalog: https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133
+- Nissan USA — 2018 Nissan Armada Owner's Manual and Maintenance Information (capacities, schedules, VK56VD specifications): https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/armada/2018/2018-Nissan-Armada-owner-manual.pdf
+- Nissan USA — 2020 Nissan Armada Owner's Manual and Maintenance Information (capacities, schedules, VK56VD specifications): https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/armada/2020/2020-Nissan-Armada-owner-manual.pdf
+- Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Patrol Y62 4x4 VK56VD (2013–2016 and 2016–2026): http://www.datateck.com.au/Lube/PenriteAus/
 - Wikipedia — Nissan Patrol (Y62, Y63): https://en.wikipedia.org/wiki/Nissan_Patrol
 - Wikipedia — Nissan Armada: https://en.wikipedia.org/wiki/Nissan_Armada
 - 4X4 Australia — Nissan Patrol Ti 2020 review: https://www.4x4australia.com.au/reviews/nissan-patrol-ti-review
@@ -21978,16 +22003,16 @@ Fix: Replace the points and condenser, distributor cap, rotor and plugs, then se
 Tools: Feeler gauges · timing light · dwell meter · plug socket
 
 ### Baseline service
-These trucks are 45-plus years old, so rebuild the basics before you trust one. Factory capacities and specs weren't available in our sources; confirm them in a service manual. LJ80.de sells a complete LJ80 inspection kit.
+These trucks are 45-plus years old, so rebuild the basics before you trust one. LJ80 capacities below come from Liqui Moly's oil guide (Olyslager data). We couldn't source specs for the two-stroke LJ10, LJ20 and LJ50, so confirm those in a service manual. LJ80.de sells a complete LJ80 inspection kit.
 - Inspection kit (LJ80): Filters and service parts for the F8A · At purchase (There's also a kit for the SJ410.)
-- Engine oil & filter (LJ80): [CONFIRM IN MANUAL] · At purchase (Use a new drain-plug washer.)
+- Engine oil & filter (LJ80): About 3.0 L (Liqui Moly) · grade [CONFIRM IN MANUAL] · At purchase, then every 10,000 km / 6 months (Liqui Moly) (Use a new drain-plug washer.)
 - Two-stroke lubrication (LJ10/20/50): [CONFIRM IN MANUAL] · At purchase (Find out how your engine gets its two-stroke oil before running it.)
 - Air filter: LJ80 element · At purchase (Check the rubber boot between the filter and the carburetor.)
 - Fuel filter: Inline · At purchase (Old tanks shed rust, so check the filter again after a few tanks.)
 - Ignition: Points, condenser, cap, rotor, plugs, leads · At purchase
-- Coolant & hoses (LJ20 onward): [CONFIRM IN MANUAL] · Flush at purchase (The LJ10 is air-cooled.)
-- Gearbox, transfer case & differentials: Gear oil [CONFIRM IN MANUAL] · Drain and fill at purchase (Replace the drain-plug seals.)
-- Brake fluid: DOT 4 (as sold by LJ80.de) [CONFIRM IN MANUAL] · Flush at purchase (Four-wheel drums; check the wheel cylinders.)
+- Coolant & hoses (LJ20 onward): LJ80: 3.8 L, change every 2 years (Liqui Moly) · LJ20/LJ50: [CONFIRM IN MANUAL] · Flush at purchase (The LJ10 is air-cooled.)
+- Gearbox, transfer case & differentials: LJ80 (Liqui Moly): gearbox 1.0 L · transfer case 0.9 L, GL-4 85W-90 · front and rear diffs 1.3 L each, GL-5 85W-90 hypoid · LJ10–LJ50: [CONFIRM IN MANUAL] · Drain and fill at purchase (Replace the drain-plug seals.)
+- Brake fluid: DOT 3 or DOT 4 (Liqui Moly lists both for the LJ80; LJ80.de sells DOT 4) · Flush at purchase, then every 2 years (Liqui Moly: 40,000 km / 24 months) (Four-wheel drums; check the wheel cylinders.)
 - Wheel bearings: Repack with fresh grease · At purchase
 - Spring and frame rubbers:  · Inspect at purchase
 
@@ -22034,6 +22059,7 @@ A: The 359 cc and 539 cc trucks were. The 797 cc Jimny 8 (SJ20/LJ80) was the fir
 - Bring a Trailer — Suzuki Jimny auction results: https://bringatrailer.com/suzuki/jimny/
 - Bring a Trailer — 1972 Suzuki Jimny (LJ20): https://bringatrailer.com/listing/1972-suzuki-jimny-22/
 - LJ80.de — Suzuki LJ80 parts shop and catalogue: https://www.lj80.de/
+- Liqui Moly — Oil guide (Olyslager data), Suzuki LJ80 (1977–1983): https://www.liqui-moly.com/en/service/oil-guide.html
 - Wikipedia — Suzuki Jimny: https://en.wikipedia.org/wiki/Suzuki_Jimny
 - Suzuki Motor Corporation (Japan) — Jimny history: LJ10: https://www.suzuki.co.jp/car/jimny/special/history/lj10.html
 - Suzuki Motor Corporation (Japan) — Jimny history: LJ20: https://www.suzuki.co.jp/car/jimny/special/history/lj20.html
@@ -22180,8 +22206,8 @@ Fix: Bench-bleed the new master cylinder, swap it in and bleed the whole system 
 Tools: Flare-nut wrenches · bench-bleed kit · brake bleeder · C-clamp
 
 ### Baseline service
-Assume nothing has been done. These trucks are 30-plus years old, and most have been wheeled. US specs below come from AMSOIL's capacity lookups for 1988 and 1992 Samurais; confirm them in the factory service manual, especially on Santana, Gypsy or swapped trucks.
-- Engine oil & filter: 3.9 qt with filter · 10W-30 or 10W-40 depending on temperature · Then every 3,000–5,000 mi [CONFIRM IN MANUAL] (AMSOIL lists WIX 51348 as the matching filter.)
+Assume nothing has been done. These trucks are 30-plus years old, and most have been wheeled. US specs below come from AMSOIL's capacity lookups for 1988 and 1992 Samurais, and Liqui Moly's oil guide (Olyslager data) gives matching capacities for the 1988–98 Samurai; confirm them in the factory service manual, especially on Santana, Gypsy or swapped trucks.
+- Engine oil & filter: 3.9 qt with filter · 10W-30 or 10W-40 depending on temperature · Every 10,000 km (about 6,000 mi) / 6 months, or 5,000 km / 4 months in severe use (Liqui Moly's Olyslager data for the 1990–98 Samurai) (AMSOIL lists WIX 51348 as the matching filter.)
 - Timing belt & tensioner: G13A (1986–89) belt and tensioner · At purchase unless documented, then per manual [CONFIRM IN MANUAL] (The G13A is a non-interference engine (Wikipedia), so a failure shouldn't bend valves, but it will strand you.)
 - Spark plugs, wires, cap & rotor: 1.3 8V plug wire set · At purchase (MotorTrend lists oil leaks at the distributor as a known trouble spot, so check the distributor O-ring while you're there.)
 - Air & fuel filters: Carbureted 1986–89; throttle-body injected 1990–95 · At purchase (A carburetor rebuild kit is available if the idle won't settle.)
@@ -22192,7 +22218,7 @@ Assume nothing has been done. These trucks are 30-plus years old, and most have 
 - Rear differential: 3.2 pt · GL-5 90 (1988) or 75W-90 (1992) · Drain and fill at purchase (With an automatic locker or spool, use the oil the locker maker specifies.)
 - Brake fluid: DOT 3 · Flush at purchase, then every 2 years (1986–89 trucks use their own master cylinder.)
 - Power steering fluid (if fitted): Dexron-III ATF (AMSOIL, 1988) · Check at purchase (Only applies if your truck has power steering.)
-- U-joints, steering joint & spring bushings: Grease points [CONFIRM IN MANUAL] · At purchase, then every oil change (A seized steering joint and crumbling spring or body bushings are normal at this age.)
+- U-joints, steering joint & spring bushings: Multipurpose grease at the grease nipples and propeller-shaft joints; Liqui Moly says check every 20,000 km / 12 months · At purchase, then every oil change (A seized steering joint and crumbling spring or body bushings are normal at this age.)
 - Front locking hubs: Aisin manual hubs · Inspect at purchase (Lock and unlock both hubs. They must be locked for 4WD to work.)
 
 ### FAQ
@@ -22268,6 +22294,7 @@ A: NHTSA lists one US campaign: 95V103008 for 1988–1991 Samurais, which covers
 - Suzuki Motor Corporation (Japan) — Jimny history: JA51 (Jimny 1300): https://www.suzuki.co.jp/car/jimny/special/history/ja51.html
 - PowerNation (Xtreme 4x4) — '85 Suzuki Samurai build: https://powernationtv.com/build/27/85-suzuki-samurai
 - Bring a Trailer — Suzuki Samurai auction results: https://bringatrailer.com/suzuki/samurai/
+- Liqui Moly — Oil guide (Olyslager data), Suzuki Samurai 4x4 (1988–1990, 1990–1998): https://www.liqui-moly.com/en/service/oil-guide.html
 - Suzuki — 1986 US Samurai brochure (auto-brochures.com scan): http://www.auto-brochures.com/makes/Suzuki/Samurai/Suzuki_US%20Samurai_1986.pdf
 - Zukiworld forum — How tall can you go on tires with stock suspension (87 Zuk): https://zukiworld.com/forum/general-suzuki-forum/how-tall-can-you-go-on-tires-with-stock-suspension-87-zuk
 - Zukiworld forum — Samurai larger tires but no lift: https://www.zukiworld.com/forum/general-suzuki-forum/samurai-larger-tires-but-no-lift
@@ -22666,17 +22693,17 @@ Fix: Pull the axle shaft, press off the old bearing and retainer, press on the n
 Tools: Slide hammer or puller · hydraulic press · new retainer ring.
 
 ### Baseline service
-No US dealer will ever service one, so the owner's handbook is your bible. Suzuki UK's handbook locator has the official fluid grades and capacities. We haven't been able to source the JB74's capacities independently, so treat the specs below as types to confirm. On a used truck with gaps in its history, BigJimny's rule for every Jimny applies: change every fluid and filter now.
-- Engine oil & filter: Grade and capacity [CONFIRM IN MANUAL] · Per handbook; shorten for dusty or towing use (Use a genuine Gen 4 filter.)
+No US dealer will ever service one, so the owner's handbook is your bible. The grades and intervals below are Suzuki's handbook figures as transcribed by maintenanceschedule.com (2021 JB64/JB74 handbook) and jimny.joker.art.pl (2023 handbook for the five-door JC74, which shares the K15B and gearboxes). Capacities come from Liqui Moly's oil guide (Olyslager data) for the 2018–2024 Jimny 1.5 and match the five-door handbook. On a used truck with gaps in its history, BigJimny's rule for every Jimny applies: change every fluid and filter now.
+- Engine oil & filter: SAE 0W-16 preferred; 0W-20 or 5W-30 also approved (API SL or newer, or ACEA A1/B1 or better in Europe) · 3.6 L with filter · Handbook: 20,000 km / 12 months in Europe with ACEA oil (15,000 km otherwise, and in Asia/Australia); 10,000 km / 6 months in severe use (Europe) or 7,500 km (Asia/Australia) (Use a genuine Gen 4 filter.)
 - Air filter: Genuine Gen 4 element · Inspect at every oil change if you drive on dirt (BigJimny's gen 3 practice of changing it at around 25,000–30,000 km, or sooner in dust, is a sensible baseline.)
 - Cabin filter: Gen 4 pollen filter · About yearly or when musty (Purely for the occupants, but worth doing on a dusty truck.)
-- Spark plugs: [CONFIRM IN MANUAL] · Per handbook (The K15B is chain-driven, so there's no timing belt to budget for.)
-- Coolant: Suzuki-specified coolant [CONFIRM IN MANUAL] · Per handbook (Suzuki's gen 3 manuals required silicate-free coolant from 2005, according to BigJimny. Don't top up with a generic green.)
-- Manual or automatic gearbox: [CONFIRM IN MANUAL] · Shorten if you've fitted bigger tires (Larger tires without regearing make the clutch and automatic work harder, so fresh fluid is cheap insurance.)
-- Transfer case: [CONFIRM IN MANUAL] (gen 3 used API GL-4 75W-90) · Change on an unknown truck (Gen 3 owners change it every 3–5 years despite Suzuki saying 'never.')
-- Front & rear differentials: [CONFIRM IN MANUAL] (gen 3 used API GL-5 80W-90 hypoid) · Change on an unknown truck and after deep water (Replace the drain gasket each time.)
+- Spark plugs: Iridium: NGK KR6A-10 or Denso ZXU20PR11 · Handbook: 100,000 km / 7 years in Europe; 30,000 km / 24 months in severe use (The K15B is chain-driven, so there's no timing belt to budget for.)
+- Coolant: Suzuki Super Long Life Coolant (blue) · 5.0 L manual, 4.9 L automatic · Blue coolant: first change at 160,000 km / 8 years, then every 80,000 km / 4 years (Europe handbook); the green 'Standard' coolant is due twice as often (Suzuki's gen 3 manuals required silicate-free coolant from 2005, according to BigJimny. Don't top up with a generic green, and if you don't know what's in it, change it now.)
+- Manual or automatic gearbox: Manual: Suzuki Gear Oil 75W, 1.2 L · Automatic: Suzuki ATF3317 or Mobil ATF3309, 5.7 L total (dry fill) · Shorten if you've fitted bigger tires (Larger tires without regearing make the clutch and automatic work harder, so fresh fluid is cheap insurance.)
+- Transfer case: Suzuki Gear Oil 75W · 1.2 L (Liqui Moly; the five-door handbook gives 1.21 L) · Change on an unknown truck (Gen 3 owners change it every 3–5 years despite Suzuki saying 'never.')
+- Front & rear differentials: Suzuki Super Gear Oil 75W-85 synthetic (Liqui Moly suggests a GL-5 75W-90 synthetic) · front 1.6 L, rear 1.3 L · Change on an unknown truck and after deep water (Replace the drain gasket each time.)
 - Kingpins & front knuckles: Inspect for play and weeping · At every service once the truck sees off-road use (BigJimny expects the gen 3's kingpin wear to carry over because the design is so similar.)
-- Brake fluid: [CONFIRM IN MANUAL] · Flush on an unknown truck (Rear brakes are leading/trailing drums, so check the shoes and wheel cylinders while you're there.)
+- Brake fluid: DOT 3 / SAE J1703 · Handbook: every 40,000 km / 24 months; flush now on an unknown truck (On manual trucks the clutch shares the brake fluid reservoir (jimny.joker.art.pl). Rear brakes are leading/trailing drums, so check the shoes and wheel cylinders while you're there.)
 - Open recalls: Fuel pump (2018–2019 builds) · door harness/airbags (to Dec 2020) · Once, at a Suzuki dealer (Have the dealer run the VIN; recall work is free.)
 - Underbody rust protection: Coat the chassis and wax the cavities · As soon as possible, then check yearly (BigJimny: do it while the truck is still clean. Don't wait for rust to start.)
 
@@ -22744,6 +22771,10 @@ A: Japanese tuner DAMD sells 'little G.' body kits for the Jimny Sierra that res
 - BigJimny Forum — Wobble: https://bigjimny.com/forum/6-jimny-chat/71075-wobble
 - BigJimny Forum — The death wobble thread: https://bigjimny.com/forum/7-jimny-technical/51883-the-death-wobble-thread
 - DAMD — Jimny Sierra little G. ADVANCE / TRADITIONAL: https://www.damd.co.jp/news/15299/
+- maintenanceschedule.com — Suzuki Jimny 1.5L (2018+ 4th gen K15B) maintenance schedule (transcribed from the 2021 owner's manual): https://maintenanceschedule.com/suzuki-jimny-1-5l-4th-gen-2018/
+- jimny.joker.art.pl — Service schedule, Jimny JC74 K15B (from Suzuki owner's manual 99011-78RM8-01E, Nov 2023): https://jimny.joker.art.pl/en/service-schedule
+- Liqui Moly — Oil guide (Olyslager data), Suzuki Jimny 1.5 AWD (2018–2024): https://www.liqui-moly.com/en/service/oil-guide.html
+- BigJimny Forum — New white SZ5, recommended oil SAE 0W-16 API SN (owner quoting the handbook): https://www.bigjimny.com/forum/6-jimny-chat/64274-new-white-sz5-recommended-oil-sae-ow-16-api-sn
 - Global Suzuki — Suzuki launches the all-new Jimny 4WD vehicles in Japan (5 July 2018): https://www.globalsuzuki.com/globalnews/2018/0705.html
 - Wikipedia — Suzuki Jimny: https://en.wikipedia.org/wiki/Suzuki_Jimny
 - Wikipedia — Suzuki: https://en.wikipedia.org/wiki/Suzuki

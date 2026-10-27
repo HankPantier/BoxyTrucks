@@ -271,7 +271,7 @@
    "cost": "Parts plus labor",
    "symptoms": "Slipping, harsh or delayed shifts, or a fluid leak. Low fluid is the usual cause of failures, according to Bob Is The Oil Guy owners.",
    "fix": "Find and fix any leaks first: the accumulator cover and the drain bolt are known spots. Drop the pan, replace the filter and gasket, and refill to the exact level the manual specifies. The gearbox is very sensitive to fill volume. If the history is unknown, do a few partial fluid changes rather than a pressure flush.",
-   "tools": "Drain pan · socket set · torque wrench · fluid pump · the specified ATF [CONFIRM IN MANUAL].",
+   "tools": "Drain pan · socket set · torque wrench · fluid pump · Dexron-III-type ATF (Liqui Moly lookup).",
    "parts": [
     {
      "name": "Automatic transmission filter",
@@ -386,7 +386,7 @@
   }
  ],
  "baseline_service": {
-  "intro": "Baseline everything, and on a 3.5 start by measuring the oil consumption. Acura's factory specifications give the capacities below for the SLX twin. Isuzu's own fluid grades aren't widely published online, so confirm the rest in the owner's manual. Book the timing belt if there's no receipt.",
+  "intro": "Baseline everything, and on a 3.5 start by measuring the oil consumption. Acura's factory specifications give the engine-oil and coolant capacities below for the SLX twin. Isuzu's own fluid grades aren't widely published online; the gearbox, transfer-case, axle and steering fluids below come from Liqui Moly's lookup, so confirm viscosities in the owner's manual. Book the timing belt if there's no receipt.",
   "items": [
    {
     "item": "Engine oil & filter",
@@ -493,7 +493,7 @@
    },
    {
     "item": "Automatic transmission (4L30-E)",
-    "spec": "Specified ATF [CONFIRM IN MANUAL]",
+    "spec": "Dexron-III-type ATF (Liqui Moly lists its ATF III) · Liqui Moly gives 8.6 L (9.1 US qt) for the US SLX and 5.5 L (5.8 US qt) for European Troopers, so measure what you drain",
     "interval": "Pan drop and filter now, then partial changes",
     "note": "Very sensitive to fill level; fix leaks first. No pressure flush on an unknown-history gearbox.",
     "parts": [
@@ -511,7 +511,7 @@
    },
    {
     "item": "Transfer case (TOD or part-time)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "Part-time and shift-on-the-fly cases: 5W-30 engine oil, ≈1.45 L (1.5 US qt) · Torque On Demand case on the 1998–99 SLX 3.5: 75W-90-type gear oil, ≈1.9 L (2.0 US qt) (Liqui Moly lookup; its European Trooper 3.5 entry lists engine oil and 1.45 L, so check what's in yours)",
     "interval": "Drain and refill now",
     "note": "Metal in the fluid is a warning sign; one 1999 owner's transfer case was replaced for filings at 25,000 miles.",
     "parts": [
@@ -524,7 +524,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Gear oil per the manual; check whether the rear LSD needs an additive [CONFIRM IN MANUAL]",
+    "spec": "GL-5 hypoid gear oil (Liqui Moly lists 75W-90 to 85W-90 grades) · ≈1.4–1.5 L (1.5–1.6 US qt) front, ≈1.8 L (1.9 US qt) rear · a limited-slip rear takes LSD-rated (LS) oil, which already contains the friction modifier (Liqui Moly lookup)",
     "interval": "Drain and refill now",
     "note": "Bob Is The Oil Guy owners describe the rear axle as robust and close to a Dana 44 in design.",
     "parts": [
@@ -542,7 +542,7 @@
    },
    {
     "item": "Power steering fluid",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "Dexron-III-type ATF (Liqui Moly lookup)",
     "interval": "Flush now",
     "note": "Recirculating-ball steering box; check for play.",
     "parts": [
@@ -744,7 +744,26 @@
    "bat_url": "https://bringatrailer.com/acura/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Isuzu Trooper Restoration 4jx1 by Lynyrd Corpuz",
+   "focus": "4JX1 TROOPER REPAIRS & REVIVALS · PH",
+   "url": "https://www.youtube.com/@isuzutrooperrestoration"
+  },
+  {
+   "kind": "YT",
+   "name": "Trooper 4WD",
+   "focus": "OWNER DIY · 3.5 V6 · POLAND",
+   "url": "https://www.youtube.com/@Trooper4WD"
+  },
+  {
+   "kind": "YT",
+   "name": "Travel Off Road",
+   "focus": "TROOPER 3.1 TD TRAIL RUNS · ISRAEL",
+   "url": "https://www.youtube.com/@traveloffroad"
+  }
+ ],
  "forums": [
   {
    "name": "Planet Isuzoo",
@@ -1012,6 +1031,22 @@
   {
    "name": "RockAuto — Isuzu Trooper parts catalog",
    "url": "https://www.rockauto.com/en/catalog/isuzu,1990,trooper"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Acura SLX 3.2 V6, 1996–1997 (USA)",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/886d8117f9ee0684/"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Acura SLX 3.5 V6, 1998–1999 (USA)",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e6ac0d933459de0f/"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 3.2 V6, 1992–1998",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/6b55ce032f199765/"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 3.5 V6, 1998–2004",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/5a038cc9de6c257b/"
   }
  ]
 }

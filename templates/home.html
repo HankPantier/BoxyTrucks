@@ -98,7 +98,7 @@
   <div class="wrap section">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow brass">Resources</span><h2>YouTube channels, Instagram accounts and forums worth your time</h2></div><a class="label" href="{{ root }}resources/index.html" style="color:var(--paper)">All resources →</a></div>
     <div class="grid" style="--min:260px">
-      {% for s in socials[:8] %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)"><span class="ico" style="background:var(--night)">{{ s.kind }}</span><span><span class="nm">{{ s.name }}</span><span class="fc" style="color:var(--brass)">{{ "YOUTUBE" if s.kind == "YT" else "INSTAGRAM" }} · {{ s.focus }}</span></span></a>{% endfor %}
+      {% for s in socials[:8] %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener" style="background:transparent;border-color:var(--brass);color:var(--paper)">{% set av = avatar(s.url) %}<span class="ico{% if av %} has-av{% elif s.kind == "IG" %} has-av ig-av{% endif %}" style="background:var(--night)">{% if av %}<img src="{{ av }}" alt="" loading="lazy" width="48" height="48"><em>{{ s.kind }}</em>{% else %}{% if s.kind == "IG" %}<b class="mono-av">{{ s.name|replace("@","")|first|upper }}</b><em>IG</em>{% else %}{{ s.kind }}{% endif %}{% endif %}</span><span><span class="nm">{{ s.name }}</span><span class="fc" style="color:var(--brass)">{{ "YOUTUBE" if s.kind == "YT" else "INSTAGRAM" }} · {{ s.focus }}</span></span></a>{% endfor %}
     </div>
   </div>
 </section>

@@ -519,7 +519,20 @@
    "bat_url": "https://bringatrailer.com/toyota/4runner-n210/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Spanners & Sawdust",
+   "focus": "PRADO 120 / GX470 DIY REPAIRS",
+   "url": "https://www.youtube.com/@spannersandsawdust"
+  },
+  {
+   "kind": "YT",
+   "name": "Josh Sun",
+   "focus": "LAND CRUISER 120 CAMPER BUILD",
+   "url": "https://www.youtube.com/@freedomjosh"
+  }
+ ],
  "forums": [
   {
    "name": "IH8MUD — GX470 / Prado120",
@@ -778,10 +791,14 @@
   {
    "name": "HD Automotive — Genuine 1KD injector fitting kit (Prado KDJ120/KDJ150)",
    "url": "https://hdautomotive.com.au/product/1kd-2kd-genuine-injector-fitting-kit/"
+  },
+  {
+   "name": "Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Land Cruiser Prado GRJ120 4.0 1GR-FE (2004–2009) and RZJ120 2.7 3RZ-FE (2003–2004)",
+   "url": "http://www.datateck.com.au/Lube/PenriteAus/"
   }
  ],
  "baseline_service": {
-  "intro": "On a 1KD-FTV, 'baseline' starts with the injectors: get the seats and injectors tested or replaced and the oil pickup inspected before you worry about anything else. Specs below are from Roughtrax's KDJ120 (1KD-FTV) data sheet unless noted. 1GR-FE, 1KZ-TE and petrol-four trucks differ, so confirm in the manual for your engine.",
+  "intro": "On a 1KD-FTV, 'baseline' starts with the injectors: get the seats and injectors tested or replaced and the oil pickup inspected before you worry about anything else. Specs below are from Roughtrax's KDJ120 (1KD-FTV) data sheet unless noted. 1GR-FE and 2.7 petrol oil capacities are from Penrite's lookup for Australian Prados. 1GR-FE, 1KZ-TE and petrol-four trucks differ, so confirm in the manual for your engine.",
   "items": [
    {
     "item": "Injector seats, injectors & oil pickup (1KD-FTV)",
@@ -803,7 +820,7 @@
    },
    {
     "item": "Engine oil & filter",
-    "spec": "1KD-FTV: 7.4 L with filter, SAE 5W-30, API CF / ACEA B1/B5 · 1GR-FE and others [CONFIRM IN MANUAL]",
+    "spec": "1KD-FTV: 7.4 L with filter, SAE 5W-30, API CF / ACEA B1/B5 · 1GR-FE: 5.2 L with filter · 3RZ-FE 2.7: 5.1 L with filter (Penrite lookup) · petrol grades and other engines [CONFIRM IN MANUAL]",
     "interval": "Every 6,000 mi or 12 months (6 months in severe use)",
     "note": "Unsealed 4X4 suggests 5,000 km changes and quality oil on a 1KD, which helps against cold-start rattle.",
     "parts": [

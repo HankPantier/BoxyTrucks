@@ -245,6 +245,15 @@ def gen_ld(fam, g, page):
 
 # ---- pretty URLs: every page is built as <name>/index.html and linked as <name>/ ----
 from urllib.parse import urljoin as _urljoin
+AVATARS = {}
+def avatar_key(u):
+    u = u.split('?')[0].split('#')[0].rstrip('/')
+    u = re.sub(r'/(videos|featured|streams|shorts|about)$', '', u)
+    u = re.sub(r'^https://(www\.)?', 'https://www.', u)
+    if 'instagram.com' in u or '/@' in u:
+        u = u.lower()
+    return u
+
 def pretty_path(path):
     """'/models/jeep/tj.html#faq' -> '/models/jeep/tj/#faq'; '/x/index.html' -> '/x/'."""
     frag = ''
@@ -289,6 +298,11 @@ def redirect_stub(target_url):
             f'<body><a href="{target_url}">This page has moved.</a></body></html>')
 
 def main():
+    global AVATARS
+    try:
+        AVATARS = json.loads((DATA / 'avatars.json').read_text())
+    except Exception:
+        AVATARS = {}
     fams, flagship, pages, resources = load()
     reading = jload(DATA / 'reading.json') or {}
     global AFFILIATES
@@ -316,6 +330,7 @@ def main():
         def mark(color, w=34, bg='#0E0F0E'):
             return Markup(f'<svg viewBox="0 0 64 64" width="{w}" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="{color}" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="{color}"/><circle cx="40" cy="63" r="9.5" fill="{color}"/><circle cx="40" cy="63" r="3.5" fill="{bg}"/></svg>')
         env.globals['affiliates_on'] = any(p.get('template') or p.get('params') for p in AFFILIATES)
+        env.globals['avatar'] = lambda u: (lambda a: f'{root}img/{a}' if a else None)(AVATARS.get(avatar_key(u or '')))
         env.globals['mlabel'] = mlabel
         env.globals['newsletter'] = NEWSLETTER
         env.globals['amz_q'] = amz_q

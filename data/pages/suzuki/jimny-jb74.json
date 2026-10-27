@@ -430,7 +430,26 @@
    "bat_url": "https://bringatrailer.com/suzuki/jimny/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "BigJimny",
+   "focus": "UK JIMNY MODS & MEETS",
+   "url": "https://www.youtube.com/@bigjimny"
+  },
+  {
+   "kind": "YT",
+   "name": "Lanbo & Lyra | Camping Life",
+   "focus": "3- & 5-DOOR JIMNY CAMPING",
+   "url": "https://www.youtube.com/@lanbolyra"
+  },
+  {
+   "kind": "YT",
+   "name": "Offgrid With James",
+   "focus": "JB74 LONG-TERM OWNER",
+   "url": "https://www.youtube.com/@offgrid-with-james"
+  }
+ ],
  "forums": [
   {
    "name": "BigJimny Forum: Jimny Chat",
@@ -666,15 +685,31 @@
   {
    "name": "DAMD — Jimny Sierra little G. ADVANCE / TRADITIONAL",
    "url": "https://www.damd.co.jp/news/15299/"
+  },
+  {
+   "name": "maintenanceschedule.com — Suzuki Jimny 1.5L (2018+ 4th gen K15B) maintenance schedule (transcribed from the 2021 owner's manual)",
+   "url": "https://maintenanceschedule.com/suzuki-jimny-1-5l-4th-gen-2018/"
+  },
+  {
+   "name": "jimny.joker.art.pl — Service schedule, Jimny JC74 K15B (from Suzuki owner's manual 99011-78RM8-01E, Nov 2023)",
+   "url": "https://jimny.joker.art.pl/en/service-schedule"
+  },
+  {
+   "name": "Liqui Moly — Oil guide (Olyslager data), Suzuki Jimny 1.5 AWD (2018–2024)",
+   "url": "https://www.liqui-moly.com/en/service/oil-guide.html"
+  },
+  {
+   "name": "BigJimny Forum — New white SZ5, recommended oil SAE 0W-16 API SN (owner quoting the handbook)",
+   "url": "https://www.bigjimny.com/forum/6-jimny-chat/64274-new-white-sz5-recommended-oil-sae-ow-16-api-sn"
   }
  ],
  "baseline_service": {
-  "intro": "No US dealer will ever service one, so the owner's handbook is your bible. Suzuki UK's handbook locator has the official fluid grades and capacities. We haven't been able to source the JB74's capacities independently, so treat the specs below as types to confirm. On a used truck with gaps in its history, BigJimny's rule for every Jimny applies: change every fluid and filter now.",
+  "intro": "No US dealer will ever service one, so the owner's handbook is your bible. The grades and intervals below are Suzuki's handbook figures as transcribed by maintenanceschedule.com (2021 JB64/JB74 handbook) and jimny.joker.art.pl (2023 handbook for the five-door JC74, which shares the K15B and gearboxes). Capacities come from Liqui Moly's oil guide (Olyslager data) for the 2018–2024 Jimny 1.5 and match the five-door handbook. On a used truck with gaps in its history, BigJimny's rule for every Jimny applies: change every fluid and filter now.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Grade and capacity [CONFIRM IN MANUAL]",
-    "interval": "Per handbook; shorten for dusty or towing use",
+    "spec": "SAE 0W-16 preferred; 0W-20 or 5W-30 also approved (API SL or newer, or ACEA A1/B1 or better in Europe) · 3.6 L with filter",
+    "interval": "Handbook: 20,000 km / 12 months in Europe with ACEA oil (15,000 km otherwise, and in Asia/Australia); 10,000 km / 6 months in severe use (Europe) or 7,500 km (Asia/Australia)",
     "note": "Use a genuine Gen 4 filter.",
     "parts": [
      {
@@ -712,35 +747,35 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "[CONFIRM IN MANUAL]",
-    "interval": "Per handbook",
+    "spec": "Iridium: NGK KR6A-10 or Denso ZXU20PR11",
+    "interval": "Handbook: 100,000 km / 7 years in Europe; 30,000 km / 24 months in severe use",
     "note": "The K15B is chain-driven, so there's no timing belt to budget for.",
     "parts": []
    },
    {
     "item": "Coolant",
-    "spec": "Suzuki-specified coolant [CONFIRM IN MANUAL]",
-    "interval": "Per handbook",
-    "note": "Suzuki's gen 3 manuals required silicate-free coolant from 2005, according to BigJimny. Don't top up with a generic green.",
+    "spec": "Suzuki Super Long Life Coolant (blue) · 5.0 L manual, 4.9 L automatic",
+    "interval": "Blue coolant: first change at 160,000 km / 8 years, then every 80,000 km / 4 years (Europe handbook); the green 'Standard' coolant is due twice as often",
+    "note": "Suzuki's gen 3 manuals required silicate-free coolant from 2005, according to BigJimny. Don't top up with a generic green, and if you don't know what's in it, change it now.",
     "parts": []
    },
    {
     "item": "Manual or automatic gearbox",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "Manual: Suzuki Gear Oil 75W, 1.2 L · Automatic: Suzuki ATF3317 or Mobil ATF3309, 5.7 L total (dry fill)",
     "interval": "Shorten if you've fitted bigger tires",
     "note": "Larger tires without regearing make the clutch and automatic work harder, so fresh fluid is cheap insurance.",
     "parts": []
    },
    {
     "item": "Transfer case",
-    "spec": "[CONFIRM IN MANUAL] (gen 3 used API GL-4 75W-90)",
+    "spec": "Suzuki Gear Oil 75W · 1.2 L (Liqui Moly; the five-door handbook gives 1.21 L)",
     "interval": "Change on an unknown truck",
     "note": "Gen 3 owners change it every 3–5 years despite Suzuki saying 'never.'",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "[CONFIRM IN MANUAL] (gen 3 used API GL-5 80W-90 hypoid)",
+    "spec": "Suzuki Super Gear Oil 75W-85 synthetic (Liqui Moly suggests a GL-5 75W-90 synthetic) · front 1.6 L, rear 1.3 L",
     "interval": "Change on an unknown truck and after deep water",
     "note": "Replace the drain gasket each time.",
     "parts": [
@@ -766,9 +801,9 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "[CONFIRM IN MANUAL]",
-    "interval": "Flush on an unknown truck",
-    "note": "Rear brakes are leading/trailing drums, so check the shoes and wheel cylinders while you're there.",
+    "spec": "DOT 3 / SAE J1703",
+    "interval": "Handbook: every 40,000 km / 24 months; flush now on an unknown truck",
+    "note": "On manual trucks the clutch shares the brake fluid reservoir (jimny.joker.art.pl). Rear brakes are leading/trailing drums, so check the shoes and wheel cylinders while you're there.",
     "parts": []
    },
    {

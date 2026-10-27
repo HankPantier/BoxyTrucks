@@ -1,5 +1,5 @@
 {% macro res_list(items, kind) -%}
-{% if items %}<div class="grid" style="--min:260px">{% for s in items %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener"><span class="ico">{{ kind }}</span><span style="min-width:0"><span class="nm">{{ s.name }}</span><span class="fc">{{ s.focus }}</span></span></a>{% endfor %}</div>{% endif %}
+{% if items %}<div class="grid" style="--min:260px">{% for s in items %}<a class="soc" href="{{ s.url }}" target="_blank" rel="noopener">{% set av = avatar(s.url) %}<span class="ico{% if av %} has-av{% elif kind == "IG" %} has-av ig-av{% endif %}">{% if av %}<img src="{{ av }}" alt="" loading="lazy" width="48" height="48"><em>{{ kind }}</em>{% else %}{% if kind == "IG" %}<b class="mono-av">{{ s.name|replace("@","")|first|upper }}</b><em>IG</em>{% else %}{{ kind }}{% endif %}{% endif %}</span><span style="min-width:0"><span class="nm">{{ s.name }}</span><span class="fc">{{ s.focus }}</span></span></a>{% endfor %}</div>{% endif %}
 {%- endmacro %}
 {% macro res_block(res, title_prefix='', limit=99) -%}
 <div class="res">

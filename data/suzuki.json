@@ -465,12 +465,12 @@
    }
   ],
   "baseline_service": {
-   "intro": "Assume nothing has been done. These trucks are 30-plus years old, and most have been wheeled. US specs below come from AMSOIL's capacity lookups for 1988 and 1992 Samurais; confirm them in the factory service manual, especially on Santana, Gypsy or swapped trucks.",
+   "intro": "Assume nothing has been done. These trucks are 30-plus years old, and most have been wheeled. US specs below come from AMSOIL's capacity lookups for 1988 and 1992 Samurais, and Liqui Moly's oil guide (Olyslager data) gives matching capacities for the 1988–98 Samurai; confirm them in the factory service manual, especially on Santana, Gypsy or swapped trucks.",
    "items": [
     {
      "item": "Engine oil & filter",
      "spec": "3.9 qt with filter · 10W-30 or 10W-40 depending on temperature",
-     "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+     "interval": "Every 10,000 km (about 6,000 mi) / 6 months, or 5,000 km / 4 months in severe use (Liqui Moly's Olyslager data for the 1990–98 Samurai)",
      "note": "AMSOIL lists WIX 51348 as the matching filter.",
      "parts": [
       {
@@ -642,7 +642,7 @@
     },
     {
      "item": "U-joints, steering joint & spring bushings",
-     "spec": "Grease points [CONFIRM IN MANUAL]",
+     "spec": "Multipurpose grease at the grease nipples and propeller-shaft joints; Liqui Moly says check every 20,000 km / 12 months",
      "interval": "At purchase, then every oil change",
      "note": "A seized steering joint and crumbling spring or body bushings are normal at this age.",
      "parts": [
@@ -894,6 +894,18 @@
     "name": "ZUKIWORLD",
     "focus": "SUZUKI TRAIL EVENTS",
     "url": "https://www.youtube.com/@ZUKIWORLD"
+   },
+   {
+    "kind": "YT",
+    "name": "ZuksOffRoad.com",
+    "focus": "SAMURAI PARTS & TECH",
+    "url": "https://www.youtube.com/@Zuksoffroad"
+   },
+   {
+    "kind": "YT",
+    "name": "Austin Niemela",
+    "focus": "22R SAMURAI BUILD SERIES",
+    "url": "https://www.youtube.com/@austinniemela"
    }
   ],
   "forums": [
@@ -1169,6 +1181,10 @@
    {
     "name": "Bring a Trailer — Suzuki Samurai auction results",
     "url": "https://bringatrailer.com/suzuki/samurai/"
+   },
+   {
+    "name": "Liqui Moly — Oil guide (Olyslager data), Suzuki Samurai 4x4 (1988–1990, 1990–1998)",
+    "url": "https://www.liqui-moly.com/en/service/oil-guide.html"
    }
   ]
  }

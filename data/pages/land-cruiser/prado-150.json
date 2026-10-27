@@ -433,7 +433,26 @@
    "bat_url": "https://bringatrailer.com/toyota/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "2nd Gear Low",
+   "focus": "PRADO 150 SERVICE HOW-TOS",
+   "url": "https://www.youtube.com/@2ndGearLow"
+  },
+  {
+   "kind": "YT",
+   "name": "Prado150Outahere Camping and 4x4",
+   "focus": "PRADO 150 TOURING & CAMPING",
+   "url": "https://www.youtube.com/@prado150outahere"
+  },
+  {
+   "kind": "YT",
+   "name": "Fourby4Adventures",
+   "focus": "LC150 PRADO TOURING SETUPS · AUS",
+   "url": "https://www.youtube.com/@fourby4adventures69"
+  }
+ ],
  "forums": [
   {
    "name": "IH8MUD — GX460 / Prado150",
@@ -635,16 +654,28 @@
   {
    "name": "CruiserTeq — 150 Series / GX460 parts",
    "url": "https://cruiserteq.com/150-series/"
+  },
+  {
+   "name": "Toyota (Japan) — Land Cruiser Prado owner's manual, August 2020 edition (TRJ150W 2TR-FE, GDJ150W/151W 1GD-FTV), maintenance data pp. 464–471",
+   "url": "https://manual.toyota.jp/pdf/landcruiserprado/landcruiserprado_202008.pdf"
+  },
+  {
+   "name": "Toyota (Japan) — Land Cruiser Prado owner's manual, October 2011 edition (2TR-FE, 1GR-FE), maintenance data pp. 406–409",
+   "url": "https://manual.toyota.jp/pdf/landcruiserprado/landcruiserprado_201110.pdf"
+  },
+  {
+   "name": "Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Land Cruiser Prado 1GD-FTV (2015–2020) and KDJ150/155 1KD-FTV (2009–2015)",
+   "url": "http://www.datateck.com.au/Lube/PenriteAus/"
   }
  ],
  "baseline_service": {
-  "intro": "Toyota Australia's owner's-manual site was offline while we researched this, so fluid capacities are left for you to confirm in the manual. The jobs that matter on a 150 depend on the engine: the 1KD-FTV needs its timing belt and injectors looked after, and the 1GD-FTV needs its DPF and intake kept healthy.",
+  "intro": "Toyota Australia's owner's-manual site was offline while we researched this, so the fluid specs below come from Toyota Japan's own owner's manuals for the Japanese-market 150 (the 2011 petrol edition and the 2020 1GD-FTV edition), plus Penrite's lookup for Australian trucks. Japan never got the 1KD-FTV, and other markets can specify different grades, so check your own manual. The jobs that matter on a 150 depend on the engine: the 1KD-FTV needs its timing belt and injectors looked after, and the 1GD-FTV needs its DPF and intake kept healthy.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Diesel-rated oil to Toyota spec · [CONFIRM IN MANUAL] for grade and capacity",
+    "spec": "1GD-FTV (Japanese manual, 2020): ACEA C5 0W-20 recommended, JASO DL-1 0W-30 or 5W-30 acceptable · 7.2 L oil only, 7.7 L with filter (Penrite lists 7.5 L with filter for Australian DPF trucks) · 1KD-FTV: 7.0 L with filter (Penrite) · petrols (Japanese manuals): 1GR-FE 5.7 L / 6.1 L with filter; 2TR-FE 5.5 L / 5.9 L with filter in 2020, 5.0 L / 5.7 L in 2011 · Australian-market grades [CONFIRM IN MANUAL]",
     "interval": "At purchase. Auto Buyers Guide's advice is fresh oil every 10,000 km.",
-    "note": "On a 1GD-FTV, use a low-ash oil suited to a DPF engine if the manual specifies it. Check the logbook for intervals that were stretched.",
+    "note": "The Japanese manual specifies low-ash ACEA C5 oil for the 1GD-FTV, warns that other grades shorten the life of the emissions system, and sets oil and filter changes at about 20,000 km or 12 months. Check the logbook for intervals that were stretched.",
     "parts": [
      {
       "name": "150 Series / GX460 oil filters",
@@ -720,7 +751,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "Toyota Super Long Life type · [CONFIRM IN MANUAL]",
+    "spec": "Toyota Genuine Super Long Life Coolant (Japanese manuals) · 1GD-FTV: 10.2 L engine plus 2.6 L intercooler circuit · 1GR-FE: 11.0 L · 2TR-FE: 8.1 L",
     "interval": "At purchase if there's no record",
     "note": "Check the radiator, and the return fitting if the 1KD belt has been done.",
     "parts": [
@@ -733,7 +764,7 @@
    },
    {
     "item": "Automatic transmission",
-    "spec": "Toyota ATF WS (AC60F six-speed) · [CONFIRM IN MANUAL] for earlier gearboxes",
+    "spec": "Toyota ATF WS for every engine in the Japanese manuals: 1GD-FTV 9.6 L, 1GR-FE 10.9 L, 2TR-FE 9.9 L (2011) or 8.5 L (2020) · Australian 1KD-FTV automatic [CONFIRM IN MANUAL]",
     "interval": "Drain and fill at purchase on a tow vehicle",
     "note": "Auto Buyers Guide: hunting or shudder under load points to old fluid or a tired torque converter.",
     "parts": [
@@ -746,7 +777,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Toyota transfer gear oil · [CONFIRM IN MANUAL]",
+    "spec": "Toyota Genuine Transfer Gear Oil LF, SAE 75W · 1.4 L (Japanese manuals; Penrite also lists 1.4 L)",
     "interval": "At purchase",
     "note": "Engage 4H, 4L and the centre lock on soft ground to test the actuator.",
     "parts": [
@@ -759,9 +790,9 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil, GL-5 · [CONFIRM IN MANUAL]",
+    "spec": "Toyota Genuine Differential Gear Oil LT, API GL-5 SAE 75W-85 · front 1.4 L · rear 2.7 L, or 2.65 L with the diff lock · Torsen rear LSD: Toyota Differential Gear Oil LX, GL-5 75W-85, 2.55 L (Japanese manual, 2020)",
     "interval": "At purchase, and after any deep water crossing",
-    "note": "Front diff service is easier with the bash plate off.",
+    "note": "Front diff service is easier with the bash plate off. Use the LX oil if your truck has the Torsen rear LSD.",
     "parts": [
      {
       "name": "Front diff drain plug with copper gasket, GX460/150 platform",

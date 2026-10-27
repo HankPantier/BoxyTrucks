@@ -512,6 +512,24 @@
    "name": "@konggarageusa",
    "focus": "KZJ90 IMPORT BUILDS",
    "url": "https://www.instagram.com/konggarageusa"
+  },
+  {
+   "kind": "YT",
+   "name": "The Untraveled Path",
+   "focus": "90 SERIES PRADO OVERLAND TRIPS",
+   "url": "https://www.youtube.com/@Theogeorgiou1"
+  },
+  {
+   "kind": "YT",
+   "name": "Blake Samson",
+   "focus": "J95 PRADO OVERLAND BUILD · UK",
+   "url": "https://www.youtube.com/@Zimblake"
+  },
+  {
+   "kind": "YT",
+   "name": "OEM Stez",
+   "focus": "90 SERIES PRADO REPAIRS & MODS",
+   "url": "https://www.youtube.com/@OEMStez"
   }
  ],
  "forums": [
@@ -778,14 +796,18 @@
   {
    "name": "HD Automotive — Koyorad 1KZ-TE radiator, Prado 90 KZJ95 automatic",
    "url": "https://hdautomotive.com.au/product/toyota-prado-kzj95-radiator-at/"
+  },
+  {
+   "name": "Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Land Cruiser Prado 3.4 5VZ-FE (1996–2005) and RZJ90/95 2.7 3RZ-FE (1996–2002)",
+   "url": "http://www.datateck.com.au/Lube/PenriteAus/"
   }
  ],
  "baseline_service": {
-  "intro": "Assume a 25-year-old import has had nothing done, whatever the auction sheet says. On a diesel the priorities are the timing belt and the cooling system, because heat is what kills a 1KZ-TE head. Specs below are from Roughtrax's KZJ90/95 data sheet unless noted. V6 and 2.7 petrols differ, so confirm in the manual for your engine.",
+  "intro": "Assume a 25-year-old import has had nothing done, whatever the auction sheet says. On a diesel the priorities are the timing belt and the cooling system, because heat is what kills a 1KZ-TE head. Specs below are from Roughtrax's KZJ90/95 data sheet unless noted. Petrol oil capacities are from Penrite's lookup for Australian Prados. V6 and 2.7 petrols differ in other ways too, so confirm in the manual for your engine.",
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "1KZ-TE: 7.7 L with filter, SAE 5W-40, API SL/CF · petrol engines [CONFIRM IN MANUAL]",
+    "spec": "1KZ-TE: 7.7 L with filter, SAE 5W-40, API SL/CF · 5VZ-FE V6: 5.2 L with filter · 3RZ-FE 2.7: 5.4 L with filter (Penrite lookup) · petrol oil grade [CONFIRM IN MANUAL]",
     "interval": "Every 6,000 mi or 12 months (6 months in severe use)",
     "note": "Roughtrax's UK schedule. Replace the sump-plug washer every time.",
     "parts": [

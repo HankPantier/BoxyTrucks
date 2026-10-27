@@ -326,7 +326,7 @@
   }
  ],
  "baseline_service": {
-  "intro": "These trucks are 45-plus years old, so rebuild the basics before you trust one. Factory capacities and specs weren't available in our sources; confirm them in a service manual. LJ80.de sells a complete LJ80 inspection kit.",
+  "intro": "These trucks are 45-plus years old, so rebuild the basics before you trust one. LJ80 capacities below come from Liqui Moly's oil guide (Olyslager data). We couldn't source specs for the two-stroke LJ10, LJ20 and LJ50, so confirm those in a service manual. LJ80.de sells a complete LJ80 inspection kit.",
   "items": [
    {
     "item": "Inspection kit (LJ80)",
@@ -343,8 +343,8 @@
    },
    {
     "item": "Engine oil & filter (LJ80)",
-    "spec": "[CONFIRM IN MANUAL]",
-    "interval": "At purchase",
+    "spec": "About 3.0 L (Liqui Moly) · grade [CONFIRM IN MANUAL]",
+    "interval": "At purchase, then every 10,000 km / 6 months (Liqui Moly)",
     "note": "Use a new drain-plug washer.",
     "parts": [
      {
@@ -422,14 +422,14 @@
    },
    {
     "item": "Coolant & hoses (LJ20 onward)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "LJ80: 3.8 L, change every 2 years (Liqui Moly) · LJ20/LJ50: [CONFIRM IN MANUAL]",
     "interval": "Flush at purchase",
     "note": "The LJ10 is air-cooled.",
     "parts": []
    },
    {
     "item": "Gearbox, transfer case & differentials",
-    "spec": "Gear oil [CONFIRM IN MANUAL]",
+    "spec": "LJ80 (Liqui Moly): gearbox 1.0 L · transfer case 0.9 L, GL-4 85W-90 · front and rear diffs 1.3 L each, GL-5 85W-90 hypoid · LJ10–LJ50: [CONFIRM IN MANUAL]",
     "interval": "Drain and fill at purchase",
     "note": "Replace the drain-plug seals.",
     "parts": [
@@ -447,8 +447,8 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "DOT 4 (as sold by LJ80.de) [CONFIRM IN MANUAL]",
-    "interval": "Flush at purchase",
+    "spec": "DOT 3 or DOT 4 (Liqui Moly lists both for the LJ80; LJ80.de sells DOT 4)",
+    "interval": "Flush at purchase, then every 2 years (Liqui Moly: 40,000 km / 24 months)",
     "note": "Four-wheel drums; check the wheel cylinders.",
     "parts": [
      {
@@ -625,7 +625,20 @@
    "bat_url": "https://bringatrailer.com/suzuki/jimny/"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "kind": "YT",
+   "name": "Harrierwrenchworks",
+   "focus": "LJ80 RESTORATIONS",
+   "url": "https://www.youtube.com/@harrierwrenchworks9219"
+  },
+  {
+   "kind": "YT",
+   "name": "Clancy since 1856",
+   "focus": "1975 LJ50 RESTORATION",
+   "url": "https://www.youtube.com/@Havinacrack-07"
+  }
+ ],
  "forums": [
   {
    "name": "Zukiworld — General Suzuki Forum",
@@ -767,6 +780,10 @@
   {
    "name": "LJ80.de — Suzuki LJ80 parts shop and catalogue",
    "url": "https://www.lj80.de/"
+  },
+  {
+   "name": "Liqui Moly — Oil guide (Olyslager data), Suzuki LJ80 (1977–1983)",
+   "url": "https://www.liqui-moly.com/en/service/oil-guide.html"
   }
  ]
 }

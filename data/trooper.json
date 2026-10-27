@@ -391,7 +391,7 @@
     "cost": "Parts plus labor",
     "symptoms": "Late or harsh shifts, a fluid smell or smoke from the exhaust manifold. On 1990–91 automatics, overfilled fluid could escape onto the exhaust (recall 90V167).",
     "fix": "Drop the pan, replace the filter and gasket, and refill with the specified fluid. Check the level exactly as the manual describes and do not overfill. Confirm with an Isuzu or Chevrolet dealer, or the NHTSA VIN lookup, that the recall work was done.",
-    "tools": "Drain pan · socket set · torque wrench · funnel · the specified automatic transmission fluid [CONFIRM IN MANUAL].",
+    "tools": "Drain pan · socket set · torque wrench · funnel · Dexron-III-type ATF (Liqui Moly lookup; it lists ≈4.5 L for the 1990–92 2.6 automatic).",
     "parts": [
      {
       "name": "Automatic transmission filter",
@@ -412,11 +412,11 @@
    }
   ],
   "baseline_service": {
-   "intro": "Treat any first-generation Trooper as unserviced until receipts prove otherwise. These trucks are 35 to 40 years old, so the cheap fluids and rubber parts are what keep the engine and drivetrain alive. Isuzu's factory specs aren't widely published online, so confirm grades and capacities in the owner's or service manual for your engine.",
+   "intro": "Treat any first-generation Trooper as unserviced until receipts prove otherwise. These trucks are 35 to 40 years old, so the cheap fluids and rubber parts are what keep the engine and drivetrain alive. Isuzu's factory specs aren't widely published online. The fluid types and capacities below come from Liqui Moly's lookup, which uses European-market Isuzu data, so confirm viscosities and US figures in the owner's or service manual for your engine.",
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "[CONFIRM IN MANUAL]",
+     "spec": "≈4.7 L (5.0 US qt) with filter on the 1988–90 2.6; ≈5.4 L (5.7 US qt) with filter on the 1990–92 2.6 (Liqui Moly lookup, European data) · grade [CONFIRM IN MANUAL]",
      "interval": "Then at the owner's-manual interval",
      "note": "Watch for leaks at the oil-cooler hoses on 1990–91 trucks; recall 90V166 rerouted a hose that could touch the exhaust manifold.",
      "parts": [
@@ -493,7 +493,7 @@
     },
     {
      "item": "Coolant, hoses and thermostat",
-     "spec": "Coolant type per the manual [CONFIRM IN MANUAL]",
+     "spec": "Coolant type per the manual [CONFIRM IN MANUAL] · ≈9.8 L (10.4 US qt) system on the 2.3 and 2.6 (Liqui Moly lookup)",
      "interval": "Flush now",
      "note": "Owners report cracked heads and head gaskets on these engines, so a healthy cooling system is cheap insurance.",
      "parts": [
@@ -511,7 +511,7 @@
     },
     {
      "item": "Manual transmission oil",
-     "spec": "[CONFIRM IN MANUAL]",
+     "spec": "Engine oil, not gear oil (Liqui Moly's lookup lists multigrade engine oils) · ≈2.95 L (3.1 US qt) in the 2.6 five-speed; on the 2.3 it lists 4.6 L for gearbox and transfer case together · viscosity [CONFIRM IN MANUAL]",
      "interval": "Drain and refill now",
      "note": "Check the clutch hydraulics while you're under there.",
      "parts": [
@@ -529,7 +529,7 @@
     },
     {
      "item": "Automatic transmission fluid & filter",
-     "spec": "[CONFIRM IN MANUAL]",
+     "spec": "Dexron-III-type ATF (Liqui Moly lists its ATF III) · ≈4.5 L (4.8 US qt) for the 1990–92 2.6 automatic (Liqui Moly lookup)",
      "interval": "Pan drop and filter now",
      "note": "Don't overfill. That's what recall 90V167 was about on 1990–91 trucks.",
      "parts": [
@@ -547,7 +547,7 @@
     },
     {
      "item": "Transfer case",
-     "spec": "[CONFIRM IN MANUAL]",
+     "spec": "Engine oil, as in the gearbox (Liqui Moly lookup) · ≈1.45 L (1.5 US qt) on the 2.6 · viscosity [CONFIRM IN MANUAL]",
      "interval": "Drain and refill now",
      "note": "Shift through 2H, 4H and 4L afterwards to check the linkage.",
      "parts": [
@@ -560,7 +560,7 @@
     },
     {
      "item": "Front & rear differentials",
-     "spec": "Gear oil per the manual [CONFIRM IN MANUAL]",
+     "spec": "GL-5 hypoid gear oil; LSD-rated oil in a limited-slip rear · 2.6: ≈1.5 L (1.6 US qt) front, ≈1.8 L (1.9 US qt) rear; 2.3: ≈1.0 L front, ≈1.5 L rear (Liqui Moly lookup) · viscosity [CONFIRM IN MANUAL]",
      "interval": "Drain and refill now",
      "note": "Check the pinion seals for leaks.",
      "parts": [
@@ -941,6 +941,18 @@
    {
     "name": "RockAuto — Isuzu Trooper parts catalog",
     "url": "https://www.rockauto.com/en/catalog/isuzu,1990,trooper"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.3, 1985–1988",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/1f892a13756e3852/"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.6i, 1988–1990",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e8c2f465cb1264a9/"
+   },
+   {
+    "name": "Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.6i, 1990–1992",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e5d2aa2927990eef/"
    }
   ]
  }

@@ -300,12 +300,12 @@
   }
  ],
  "baseline_service": {
-  "intro": "These trucks are now 35–44 years old, so do everything. On the US 2.6 four that means oil, the timing chains if they rattle, a fresh fuel system and every gear oil, including the transfer case and the limited-slip rear if fitted. Capacities are AMSOIL's lookup figures for a US 1989 Montero 2.6; V6 and diesel trucks differ.",
+  "intro": "These trucks are now 35–44 years old, so do everything. On the US 2.6 four that means oil, the timing chains if they rattle, a fresh fuel system and every gear oil, including the transfer case and the limited-slip rear if fitted. Capacities are AMSOIL's lookup figures for a US 1989 Montero 2.6; V6 and diesel trucks differ. The automatic-transmission figure and the oil and brake-fluid intervals come from Liqui Moly's lookup, which uses Mitsubishi's European data.",
   "items": [
    {
     "item": "Engine oil & filter",
     "spec": "5W-30 or 10W-30 grades listed by temperature · ≈5.5 US qt with filter (2.6)",
-    "interval": "Then per the owner's manual [CONFIRM IN MANUAL]",
+    "interval": "Mitsubishi's European schedule: every 10,000 km (≈6,000 mi) or 6 months, or 5,000 km (≈3,000 mi) in severe use (Liqui Moly lookup) · US schedule [CONFIRM IN MANUAL]",
     "note": "AMSOIL lists a WIX 51381 filter for the 2.6.",
     "parts": [
      {
@@ -382,7 +382,7 @@
    },
    {
     "item": "Automatic transmission",
-    "spec": "[CONFIRM IN MANUAL] (AMSOIL gives no data for the 1989 2.6 automatic)",
+    "spec": "Dexron-III-type ATF (Liqui Moly lists its ATF III) · ≈7.2 L (7.6 US qt) for the European 2.6 and 3.0 V6 automatics (Liqui Moly lookup; AMSOIL gives no data for the US 1989 2.6 automatic)",
     "interval": "Drain and refill now",
     "note": "",
     "parts": [
@@ -435,7 +435,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 3",
-    "interval": "Flush now, then every 2 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now, then every 2 years or 30,000 km (Mitsubishi's European schedule, Liqui Moly lookup)",
     "note": "Inspect the rear wheel cylinders and flexible hoses.",
     "parts": [
      {
@@ -883,6 +883,14 @@
   {
    "name": "NHTSA — Recall 84V098000 (1984 Montero oil-pressure sender)",
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V098000"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 2.6 4WD, 1989–1991 (Europe)",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/f785ddd8d275c7b6/"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6 4WD, 1989–1991 (Europe)",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/7d8ae4c3d83b7f2f/"
   }
  ]
 }
