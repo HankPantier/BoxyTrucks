@@ -5,7 +5,9 @@ data/<family>.json            family landing + the family's flagship example pag
 data/pages/<family>/<gen>.json  a full guide for any other generation
 data/resources/<family>.json    YouTube / Instagram / forums / other references
 """
-import json, re
+import json
+from collections import defaultdict
+import re
 from pathlib import Path
 from markupsafe import Markup, escape
 from jinja2 import Environment, FileSystemLoader
@@ -15,7 +17,7 @@ DATA = ROOT / 'data'
 SITE = ROOT / 'site'
 
 SITE_URL = 'https://boxytrucks.com/'
-SUBMIT_EMAIL = 'webhank@gmail.com'
+SUBMIT_EMAIL = 'boxytrucks@gmail.com'
 # TODO: Google Analytics — paste the GA4 measurement ID (G-XXXXXXX) here to enable tracking on every page.
 # Newsletter: paste the provider's form action once an account exists, e.g. Buttondown
 # 'https://buttondown.com/api/emails/embed-subscribe/<username>' (field 'email'). Empty = sign-up hidden.
@@ -360,6 +362,11 @@ def main():
         AVATARS = {}
     ensure_variants()
     fams, flagship, pages, resources = load()
+    _cmp_early = defaultdict(list)
+    for _f in sorted((DATA / 'compare').glob('*.json')) if (DATA / 'compare').exists() else []:
+        _c = json.loads(_f.read_text())
+        for _m in _c['models']:
+            _cmp_early[_m].append({'slug': _c['slug'], 'title': _c['title']})
     reading = jload(DATA / 'reading.json') or {}
     global AFFILIATES
     AFFILIATES = load_affiliates()
@@ -458,12 +465,73 @@ def main():
                 page.setdefault('title', g['name'])
                 render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt,
                        og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
-                       part_search=suppliers_cfg.get(slug, []),
+                       part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
                        yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=f'{mlabel(fam["maker"], page["title"])} — BoxyTrucks',
                        description=page.get('verdict', g['summary']), credits=credits_of([page]))
             else:
                 render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
                        title=f'{mlabel(fam["maker"], fam["name"])} {g["name"]} — BoxyTrucks', description=g['summary'], credits='')
+
+
+    # ---------- best-years pages (one per family) and comparison pages ----------
+    compares = []
+    for f in sorted((DATA / 'compare').glob('*.json')) if (DATA / 'compare').exists() else []:
+        c = json.loads(f.read_text())
+        if all(gen_exists(*m.split('/')) for m in c['models']):
+            compares.append(c)
+    def model_info(key, root):
+        fs, gs = key.split('/')
+        fam, p = fams[fs], pages[fs].get(gs) or {}
+        name = mlabel(fam['maker'], p.get('title') or next(g['name'] for g in fam['generations'] if g['slug'] == gs))
+        return {'key': key, 'name': name, 'href': f'{root}models/{fs}/{gs}.html', 'img': (f'{root}img/{fs}/{p["hero_photo"]}' if p.get('hero_photo') else None)}
+    BEST_Q = re.compile(r'best (model )?years?|which years?|years? (to|should I) (buy|avoid)', re.I)
+    COMPARE_BY_GEN = defaultdict(list)
+    for c in compares:
+        for m in c['models']:
+            COMPARE_BY_GEN[m].append(c)
+    by_fam = []
+    for slug in FAMILY_ORDER:
+        if slug not in fams: continue
+        fam = fams[slug]
+        gens = []
+        for g in fam['generations']:
+            p = pages[slug].get(g['slug'])
+            if not p: continue
+            tl = (p.get('x') or {}).get('timeline') or []
+            ans = next((f['a'] for f in p.get('faq', []) if BEST_Q.search(f['q'])), None)
+            gens.append({'slug': g['slug'], 'title': p.get('title', g['name']), 'years': g['years'], 'answer': ans,
+                         'flags': [t for t in tl if t.get('flag') in ('buy', 'avoid', 'recall')]})
+        label = mlabel(fam['maker'], fam['name'])
+        n_buy = sum(1 for g in gens if any(t['flag'] == 'buy' for t in g['flags']))
+        NUMW = {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten', 11: 'Eleven', 12: 'Twelve'}
+        lead = ((f'{len(gens)} generations of the {label}, and for each one the model years owners and specialists ' if len(gens) > 1 else f'For the {label}: the model years owners and specialists ') +
+                f'recommend, the ones with documented problems, and the recalls to check. '
+                + (f'{NUMW.get(n_buy, n_buy)} of them {"has" if n_buy == 1 else "have"} a clear sweet spot; the rest are best bought on condition.' if n_buy and n_buy < len(gens) else
+                   ('Every generation has a clear sweet spot.' if len(gens) > 1 else 'There is a clear sweet spot.') if n_buy else 'None has a single standout year, so buy on condition and history.'))
+        fam_compares = [c for c in compares if any(m.startswith(slug + '/') for m in c['models'])]
+        faq_ld = [{'@type': 'Question', 'name': f'What are the best {g["title"]} years to buy?', 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), g['answer'])}} for g in gens if g['answer']]
+        render('best_years.html', f'models/{slug}/best-years.html', '../../', fam=fam, gens=gens, lead=lead, compares=fam_compares, active='models',
+               crumbs=[('Models', 'models/'), (label, f'models/{slug}/'), ('Best years', f'models/{slug}/best-years.html')],
+               jsonld=([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': faq_ld}] if faq_ld else []),
+               title=f'Best {label} years to buy (and which to avoid) — BoxyTrucks',
+               description=f'The best {label} years to buy and the ones to avoid, generation by generation, with the recalls to check. Sourced from owners and specialists.'[:158],
+               credits='')
+        by_fam.append({'slug': slug, 'label': label})
+    for c in compares:
+        ms = [model_info(m, '../') for m in c['models']]
+        names = {m['key']: m['name'] for m in ms}
+        render('compare.html', f'compare/{c["slug"]}.html', '../', c=c, ms=ms, names=names, active='models', og_type='article',
+               og_image=(ms[0]['img'][3:] if ms[0]['img'] else None),
+               crumbs=[('Compare', 'compare/'), (c['title'], f'compare/{c["slug"]}.html')],
+               jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': c['title'], 'description': c['description'], 'url': SITE_URL + f'compare/{c["slug"]}/',
+                        'publisher': {'@type': 'Organization', 'name': SITE_NAME}},
+                       {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), f['a'])}} for f in c.get('faqs', [])]}],
+               title=f'{c["title"]}: which to buy — BoxyTrucks', description=c['description'][:158], credits='')
+    for c in compares:
+        c['fam_label'] = ' vs '.join(dict.fromkeys(mlabel(fams[m.split('/')[0]]['maker'], fams[m.split('/')[0]]['name']) for m in c['models']))
+    render('compare_hub.html', 'compare/index.html', '../', compares=compares, by_fam=by_fam, active='models', crumbs=[('Compare', 'compare/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Compare', 'url': SITE_URL + 'compare/'}],
+           title='Compare boxy 4x4s head to head — BoxyTrucks', description='80 vs 100 Series, JK vs JL, Wrangler vs Bronco, Defender vs Grenadier vs G-Class: sourced head-to-heads and the best years to buy.', credits='')
 
     def href(root, slug, gen):
         return f'{root}models/{slug}/{gen}.html'

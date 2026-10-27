@@ -1,0 +1,29 @@
+name: Monthly outbound link check
+
+on:
+  schedule:
+    - cron: '17 11 3 * *'   # 3rd of each month, 11:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/check_links.py
+      - name: Open an issue with the report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          SUMMARY="$(cat link-check-summary.txt)"
+          gh issue create \
+            --title "Link check $(date +%Y-%m): ${SUMMARY}" \
+            --body "$(head -c 60000 reports/link-check.md)"

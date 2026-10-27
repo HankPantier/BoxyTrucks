@@ -27,6 +27,7 @@
 
       <section>
         <h2 class="h-section">Every generation</h2>
+        <p style="margin:-6px 0 18px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/best-years.html">Best {{ mlabel(fam.maker, fam.name) }} years to buy, and which to avoid →</a></p>
         {% for g in fam.generations %}
         <div class="gen">
           <span class="yrs">{{ g.years }}</span>

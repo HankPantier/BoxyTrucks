@@ -57,8 +57,9 @@
       {% if x.timeline %}
       <section id="timeline" class="sub">
         <h2 class="h-section">Year by year</h2>
-        <p class="sub-intro">What changed, model year by model year. <span class="tl-key buy">Sweet spot</span> <span class="tl-key avoid">Beware</span></p>
-        <ol class="tl">{% for t in x.timeline %}<li class="tl-{{ t.flag or 'note' }}"><span class="y">{{ t.year }}</span><span class="c">{{ t.change|lk }}</span>{% if t.flag == 'buy' %}<span class="flag">Sweet spot</span>{% elif t.flag == 'avoid' %}<span class="flag">Beware</span>{% endif %}</li>{% endfor %}</ol>
+        <p class="sub-intro">What changed, model year by model year. <span class="tl-key buy">Sweet spot</span> <span class="tl-key avoid">Beware</span> <span class="tl-key recall">Recall</span></p>
+        <p class="sub-intro" style="margin-top:-4px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/best-years.html">Best years across every {{ mlabel(fam.maker, fam.name) }} generation →</a>{% for c in cmp_links %} · <a class="inline-link" href="{{ root }}compare/{{ c.slug }}.html">{{ c.title }}</a>{% endfor %}</p>
+        <ol class="tl">{% for t in x.timeline %}<li class="tl-{{ t.flag or 'note' }}"><span class="y">{{ t.year }}</span><span class="c">{{ t.change|lk }}</span>{% if t.flag == 'buy' %}<span class="flag">Sweet spot</span>{% elif t.flag == 'avoid' %}<span class="flag">Beware</span>{% elif t.flag == 'recall' %}<span class="flag">Recall</span>{% endif %}</li>{% endfor %}</ol>
       </section>
       {% endif %}
       </div>

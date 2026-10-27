@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px">
+  <span class="eyebrow brass">Head to head</span>
+  <h1 style="font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-0.02em">Compare</h1>
+  <p style="max-width:640px;color:var(--bone-2,inherit)">The matchups buyers argue about on every forum, settled with sourced specs, what breaks and which one to buy.</p>
+</div></section>
+<div class="wrap section"><div class="grid" style="--min:300px">
+  {% for c in compares %}<a class="card" href="{{ root }}compare/{{ c.slug }}.html" style="display:flex;flex-direction:column;gap:10px;padding:22px;border:1px solid var(--ink);background:var(--paper)">
+    <span class="eyebrow">{{ c.fam_label }}</span><strong style="font-size:22px;line-height:1.2">{{ c.title }}</strong><span style="color:var(--stone)">{{ c.description }}</span></a>{% endfor %}
+</div>
+<div style="margin-top:56px;max-width:820px"><h2 class="h-section">Best years to buy, by family</h2><ul>{% for f in by_fam %}<li><a class="inline-link" href="{{ root }}models/{{ f.slug }}/best-years.html">{{ f.label }}: best years and years to avoid</a></li>{% endfor %}</ul></div>
+</div>
+{% endblock %}

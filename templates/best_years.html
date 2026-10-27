@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="{{ root }}models/{{ fam.slug }}/index.html">{{ mlabel(fam.maker, fam.name) }}</a><span>/</span><span>Best years</span></nav>
+  <span class="eyebrow brass">Buying guide · {{ fam.years }}</span>
+  <h1 style="font-size:clamp(36px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance">Best {{ mlabel(fam.maker, fam.name) }} years to buy, and which to avoid</h1>
+</div></section>
+<div class="wrap section"><div class="prose" style="max-width:820px">
+  <p class="lead">{{ lead }}</p>
+  <p class="sub-intro"><span class="tl-key buy">Sweet spot</span> years owners and specialists recommend · <span class="tl-key avoid">Beware</span> years with documented problems · <span class="tl-key recall">Recall</span> years with a recall to check by VIN. Each one is sourced on the model's own guide.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:48px;margin-top:40px;max-width:820px">
+  {% for g in gens %}
+  <section class="sub" id="{{ g.slug }}">
+    <div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;border-bottom:1px solid var(--ink);padding-bottom:10px">
+      <h2 style="font-size:clamp(24px,3vw,32px)"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}.html">{{ g.title }}</a></h2>
+      <span class="eyebrow">{{ g.years }}</span>
+    </div>
+    {% if g.answer %}<p style="margin-top:14px">{{ g.answer|lk }}</p>{% endif %}
+    {% if g.flags %}
+    <ol class="tl" style="margin-top:14px">{% for t in g.flags %}<li class="tl-{{ t.flag }}"><span class="y">{{ t.year }}</span><span class="c">{{ t.change|lk }}</span><span class="flag">{{ {'buy':'Sweet spot','avoid':'Beware','recall':'Recall'}[t.flag] }}</span></li>{% endfor %}</ol>
+    {% elif not g.answer %}<p style="margin-top:14px;color:var(--stone)">No single year stands out: owners and specialists say to buy on condition and history rather than model year.</p>{% endif %}
+    <p style="margin-top:12px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}.html#timeline">Every {{ g.title }} year, change by change →</a></p>
+  </section>
+  {% endfor %}
+</div>
+{% if compares %}<div style="max-width:820px;margin-top:56px"><h2 class="h-section">Head to head</h2><ul>{% for c in compares %}<li><a class="inline-link" href="{{ root }}compare/{{ c.slug }}.html">{{ c.title }}</a></li>{% endfor %}</ul></div>{% endif %}
+</div>
+{% endblock %}

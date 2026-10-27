@@ -135,6 +135,8 @@ a.chip:hover { background: var(--ink); color: var(--paper); }
 .tl-avoid { border-left-color: #9A4A2E !important; background: rgba(154, 74, 46, 0.05); }
 .tl-buy .flag, .tl-key.buy { background: var(--green); color: var(--paper); }
 .tl-avoid .flag, .tl-key.avoid { background: #9A4A2E; color: var(--paper); }
+.tl-recall { border-left-color: #8A6A1F !important; background: rgba(138, 106, 31, 0.05); }
+.tl-recall .flag, .tl-key.recall { background: #8A6A1F; color: var(--paper); }
 .tl-key { margin-left: 6px; }
 .kvrow { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
 .kvrow .k, .kvgrid .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--stone); text-transform: uppercase; }
@@ -531,3 +533,13 @@ html { scroll-padding-top: 90px; }
 .soc .ico.has-av em { position: absolute; right: -6px; bottom: -4px; font-style: normal; font-size: 8px; letter-spacing: .06em; line-height: 1; padding: 3px 4px; background: var(--green); color: var(--brass); border: 1px solid var(--paper); }
 .soc .ico.ig-av { background: var(--green); }
 .soc .ico .mono-av { font-family: var(--sans); font-weight: 600; font-size: 20px; color: var(--paper); letter-spacing: 0; }
+
+/* comparison pages */
+.cmp-heroes { display: grid; grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+.cmp-hero { position: relative; display: block; border: 1px solid var(--ink); background: var(--ink); aspect-ratio: 16 / 10; overflow: hidden; text-decoration: none; max-width: 100%; }
+.cmp-hero img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .92; }
+.cmp-hero span { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 12px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--paper); background: linear-gradient(transparent, rgba(0,0,0,.7)); }
+.cmp-verdict { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.cmp-verdict > div { border: 1px solid var(--ink); background: var(--paper); padding: 18px; display: flex; flex-direction: column; gap: 8px; }
+.cmp-table td.cmp-l { font-size: 12px; letter-spacing: .06em; white-space: nowrap; }
+@media (max-width: 760px) { .cmp-heroes { grid-template-columns: 1fr 1fr; } .cmp-heroes[style*="--n:3"] .cmp-hero:last-child { grid-column: span 2; } .cmp-table td.cmp-l { font-weight: 600; } }
