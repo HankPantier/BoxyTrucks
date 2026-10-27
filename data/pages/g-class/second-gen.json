@@ -367,7 +367,34 @@
   {
    "cat": "WHEELS & TIRES",
    "why": "Mercedes offered 18-inch all-terrains for a reason: smaller rims and taller sidewalls are the biggest off-road upgrade you can make. Check caliper clearance, especially on G 63s.",
-   "who": []
+   "who": [
+    {
+     "name": "Limitless Tire — 2020 G-Class sizes (5 x 130, 84.1 mm bore)",
+     "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2020/"
+    },
+    {
+     "name": "Eurowise — W463A adjustable full-size spare tire mount",
+     "url": "https://shop.eurowise.com/products/ewofw464tc"
+    }
+   ]
+  },
+  {
+   "cat": "ARMOR, SKIDS & SLIDERS",
+   "why": "Bolt-on armor is scarce for the W463A. Eurowise makes a steel off-road rear bumper that keeps the parking sensors and radar, 4.5 mm (7-gauge) underbody skid plates and heavy-duty rock sliders.",
+   "who": [
+    {
+     "name": "Eurowise — W463A off-road rear bumper",
+     "url": "https://shop.eurowise.com/products/w463a-offroad-rear-bumper"
+    },
+    {
+     "name": "Eurowise — W463A/W464 underbody skid plates",
+     "url": "https://shop.eurowise.com/products/eurowise-w463a-w464-underbody-skid-plates"
+    },
+    {
+     "name": "Eurowise — W463A HD rock sliders",
+     "url": "https://shop.eurowise.com/products/w463a-g-wagen-hd-rock-sliders-2019"
+    }
+   ]
   }
  ],
  "searches": [
@@ -660,6 +687,18 @@
   {
    "name": "NHTSA — Recall 24V-659 record (replacement rear door latch)",
    "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=24V659000"
+  },
+  {
+   "name": "Eurowise — W463A off-road rear bumper",
+   "url": "https://shop.eurowise.com/products/w463a-offroad-rear-bumper"
+  },
+  {
+   "name": "Eurowise — W463A/W464 underbody skid plates",
+   "url": "https://shop.eurowise.com/products/eurowise-w463a-w464-underbody-skid-plates"
+  },
+  {
+   "name": "Limitless Tire — 2020 Mercedes-Benz G-Class wheel and tire sizes",
+   "url": "https://limitlesstire.com/vehicles/mercedes-benz/g-class/2020/"
   }
  ],
  "baseline_service": {

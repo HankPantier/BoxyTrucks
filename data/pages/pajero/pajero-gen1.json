@@ -297,6 +297,53 @@
      "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,3.0l+v6,1207628,drivetrain"
     }
    ]
+  },
+  {
+   "title": "Fix oil leaks: valve covers, intake gasket and oil-pressure sender",
+   "diff": "2 / 5",
+   "time": "≈ 2–4 hours for valve covers or a sender; longer for an intake gasket or front seal",
+   "cost": "Gaskets and a sender are cheap; labor is the bill",
+   "symptoms": "Oil on the exhaust manifolds, a burning smell after a drive, or wet patches under the engine. Bring a Trailer sellers list new valve cover gaskets and an oil-pressure sender on a 1989 Raider V6, and new valve cover and intake gaskets on a 1990 Montero 3.0. A 1988 Montero Sport 2.6 sold with an oil leak noted. Mitsubishi recalled 1984 Monteros (84V098) because the oil-pressure sender could leak oil.",
+   "fix": "Degrease the engine, run it, and find the highest wet spot, because oil runs downhill. For valve covers, remove whatever crosses them (ignition leads, hoses, brackets), clean both sealing faces, fit new gaskets and bolt grommets, and tighten the bolts evenly in stages to the factory figure. A leaking oil-pressure sender is a quick swap: unplug it, unscrew it, and fit the new one with sealant on the threads only. Intake-gasket and front-seal leaks are bigger jobs. On the 1989 Raider the front timing-cover seal and oil-pan seal were done together, along with three belts and the crankshaft pulley.",
+   "tools": "Degreaser · socket set · torque wrench · gasket scraper · oil-pressure-sender socket · thread sealant · factory service manual.",
+   "parts": [
+    {
+     "name": "Engine gaskets and sensors, 1989 Montero 3.0 V6",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,3.0l+v6,1207628,engine"
+    },
+    {
+     "name": "Engine gaskets and sensors, 1989 Montero 2.6",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,2.6l+l4,1207617,engine"
+    }
+   ]
+  },
+  {
+   "title": "Rust repair: windshield frame, roof and floors",
+   "diff": "4 / 5",
+   "time": "≈ A weekend for surface rust; much longer if panels need cutting out",
+   "cost": "From a can of primer to a body-shop bill",
+   "symptoms": "Bubbling paint along the windshield surround, roof gutters and hood, and soft spots in the floors and rear arches. Bring a Trailer's 1989 Raider showed corrosion on the hood, windshield surround and roof. Its 1988 Montero Sport had corrosion and failing clearcoat.",
+   "fix": "Pull the trim and seals around the problem area and probe with a pick until you reach sound metal. Surface rust can be wire-brushed or blasted back to bright steel, then primed and painted. Anything holed has to be cut out and patched: coat the joint faces with weld-through primer, weld the patch in short stitches to limit heat distortion, then seam-seal and paint. Finish by spraying a cavity coating inside the sills and rails, and refit windshield and gutter seals with fresh sealant so water can't get back in.",
+   "tools": "Pick and wire brushes · angle grinder with flap and cutting discs · MIG welder · panel clamps · seam sealer · cavity-spray wand.",
+   "parts": [
+    {
+     "name": "Weld-through primer",
+     "supplier": "Eastwood",
+     "url": "https://www.eastwood.com/search?q=weld+through+primer"
+    },
+    {
+     "name": "Internal frame and cavity coating",
+     "supplier": "Eastwood",
+     "url": "https://www.eastwood.com/search?q=internal+frame+coating"
+    },
+    {
+     "name": "Body parts and seals, 1989 Montero 2.6",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,2.6l+l4,1207617,body+&+lamp+assembly"
+    }
+   ]
   }
  ],
  "baseline_service": {
@@ -578,6 +625,36 @@
     {
      "name": "Montana Montero (YouTube)",
      "url": "https://www.youtube.com/@montanamontero"
+    }
+   ]
+  },
+  {
+   "cat": "LOCKERS",
+   "why": "No first-generation truck came with a locker. ARB's RD210 Air Locker is listed for the 8-inch, 28-spline Mitsubishi rear axle in 1983–89 Montero 2.6s and 1989–91 V6s, and needs an air compressor to run.",
+   "who": [
+    {
+     "name": "ARB USA — Air Locker RD210 (Mitsubishi 8\" rear, 28 spline)",
+     "url": "https://store.arbusa.com/air-locker-differential-mitsubishi-8-rr-28-spl-rd210/"
+    }
+   ]
+  },
+  {
+   "cat": "SNORKEL",
+   "why": "Safari lists its SS20HF snorkel for the Australian NA Pajero with the 2.5 diesel. It's a diesel-specific kit, so it won't fit a US petrol Montero or Raider without modification.",
+   "who": [
+    {
+     "name": "Safari 4X4 — SS20HF, Pajero NA 2.5L diesel",
+     "url": "https://www.safari4x4.com.au/vehicles/mitsubishi/pajero/na-2-5l-diesel"
+    }
+   ]
+  },
+  {
+   "cat": "WHEELS & TIRES",
+   "why": "ThreePiece lists the 1989 Montero at 6 x 139.7 mm with a 107 mm center bore and 15 x 7 factory wheels, so most six-lug Toyota-pattern wheels bolt on. Check offset and center bore before you buy.",
+   "who": [
+    {
+     "name": "ThreePiece.us — 1989 Montero fitment",
+     "url": "https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1989/"
     }
    ]
   }
@@ -891,6 +968,18 @@
   {
    "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6 4WD, 1989–1991 (Europe)",
    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/7d8ae4c3d83b7f2f/"
+  },
+  {
+   "name": "ARB USA — Air Locker RD210 (Mitsubishi 8-inch rear, 28 spline) with Montero fitment",
+   "url": "https://store.arbusa.com/air-locker-differential-mitsubishi-8-rr-28-spl-rd210/"
+  },
+  {
+   "name": "Safari 4X4 — SS20HF snorkel for Mitsubishi Pajero NA 2.5L diesel",
+   "url": "https://www.safari4x4.com.au/vehicles/mitsubishi/pajero/na-2-5l-diesel"
+  },
+  {
+   "name": "ThreePiece.us — 1989 Mitsubishi Montero wheel fitment",
+   "url": "https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1989/"
   }
  ]
 }

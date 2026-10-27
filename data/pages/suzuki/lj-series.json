@@ -323,6 +323,37 @@
      "url": "https://www.lj80.de/product_info.php?info=p361_verteilerlaeufer.html"
     }
    ]
+  },
+  {
+   "title": "Chassis rust: inspect, treat and wax the frame",
+   "diff": "3 / 5",
+   "time": "≈ A weekend to clean and treat; welding is extra",
+   "cost": "Materials plus labor; frame welding is a specialist bill",
+   "symptoms": "Flaking scale on the frame rails and crossmembers, and rust around the body mounts and spring hangers. Classic Trader's LJ 80 guide calls rust 'a defining drawback', 'especially affecting the steel body panels and chassis', and tells buyers to check the sills, floor panels and frame.",
+   "fix": "Wash the underside and scrape off old underseal so you can see the metal. Tap and probe the rails, crossmembers, spring hangers and body-mount points. Anything holed or thin around a mount needs welding by someone who knows frames. On sound metal, wire-brush back to clean steel, then zinc-prime and paint. Finish with an underbody wax, including inside the rails where you can reach. Free seized body-mount bolts with penetrating oil and replace any that are corroded while you're under there.",
+   "tools": "Scraper and wire brushes · angle grinder · pick · jack stands · spray gun or aerosol cans · penetrating oil.",
+   "parts": [
+    {
+     "name": "Berner underbody protection wax",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p282_berner-unterbodenschutz-wachs.html"
+    },
+    {
+     "name": "Berner zinc spray, 400 ml",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p617_zinkspray-400ml.html"
+    },
+    {
+     "name": "Rust-release penetrating spray (Rostlöser)",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p272_rostloeser.html"
+    },
+    {
+     "name": "LJ80 frame bolt (01500-1030A / 01500-08307)",
+     "supplier": "LJ80.de",
+     "url": "https://www.lj80.de/product_info.php?info=p1004_schraubensatz-rahmen.html"
+    }
+   ]
   }
  ],
  "baseline_service": {
@@ -784,6 +815,10 @@
   {
    "name": "Liqui Moly — Oil guide (Olyslager data), Suzuki LJ80 (1977–1983)",
    "url": "https://www.liqui-moly.com/en/service/oil-guide.html"
+  },
+  {
+   "name": "Classic Trader — Suzuki LJ 80 model guide (weak spots and common issues)",
+   "url": "https://www.classic-trader.com/uk/cars/listing/suzuki/lj/lj-80/1979/352539"
   }
  ]
 }

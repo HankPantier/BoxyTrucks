@@ -381,6 +381,53 @@
       "url": "https://www.rockauto.com/en/catalog/mitsubishi,1995,montero,3.5l+v6,1207842,brake+%26+wheel+hub"
      }
     ]
+   },
+   {
+    "title": "Replace the V6 valve stem seals (blue smoke)",
+    "diff": "4 / 5",
+    "time": "≈ A weekend with the heads on",
+    "cost": "A seal set is cheap; the labor isn't. Cheapest when the heads are already off",
+    "symptoms": "A puff of blue smoke at start-up or after a long idle, smoke on the overrun, and oil use with no external leaks. Worn valve stem seals are a known V6 complaint. One ExplorOz owner says they 'normally need replacing at 200,000 km', and another warns that when they wear out it means 'a lot of smoke or [an] expensive repair'.",
+    "fix": "First rule out the rings: a compression and leak-down test tells you whether the cylinders are healthy. With the heads on, the job means removing the intake plenum and valve gear, holding each valve shut with compressed air through the spark-plug hole while you compress its spring, then pulling the old seal and pressing on a new one. If the heads are coming off for gaskets anyway (see the head-gasket job), have the machine shop fit new seals and check the guides at the same time. Follow the factory manual for cam timing and torque values on reassembly.",
+    "tools": "Compression and leak-down tester · spark-plug-hole air adapter and compressor · overhead valve-spring compressor · seal pliers and installer · torque wrench · factory service manual.",
+    "parts": [
+     {
+      "name": "Engine gaskets and valve stem seals, 1995 Montero 3.0 V6",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/mitsubishi,1995,montero,3.0l+v6,1207831,engine"
+     },
+     {
+      "name": "Engine gaskets and valve stem seals, 1995 Montero 3.5 V6",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/mitsubishi,1995,montero,3.5l+v6,1207842,engine"
+     }
+    ]
+   },
+   {
+    "title": "Sill and chassis rust repair",
+    "diff": "4 / 5",
+    "time": "≈ A weekend to several, depending on what you find",
+    "cost": "From a can of cavity wax to a fabrication bill",
+    "symptoms": "Bubbling at the sills and rear wheel arches, flaking chassis rails and soft spring mounts. Steven Taylor's Mk2 Pajero video shows sill replacement and chassis welding on a 2.8, and BaT's 1998 Montero needed its underside treated.",
+    "fix": "Get the truck on stands, wash the underside and scrape off loose underseal. Probe the sills, the rear chassis rails and the spring mounts with a pick or screwdriver. Surface rust can be ground or blasted back, treated, primed and painted. Holed sills have to be cut out and replaced with new sections: weld-through primer on the joint faces, short stitch welds, then seam sealer and paint. Rotten chassis or spring-mount metal is structural and is a job for a fabricator. Finish by spraying a cavity coating inside the sills and rails.",
+    "tools": "Jack stands · pick or screwdriver · angle grinder · MIG welder · panel clamps · seam sealer · cavity-spray wand.",
+    "parts": [
+     {
+      "name": "Weld-through primer",
+      "supplier": "Eastwood",
+      "url": "https://www.eastwood.com/search?q=weld+through+primer"
+     },
+     {
+      "name": "Internal frame and cavity coating",
+      "supplier": "Eastwood",
+      "url": "https://www.eastwood.com/search?q=internal+frame+coating"
+     },
+     {
+      "name": "Body parts and seals, 1995 Montero 3.0",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/mitsubishi,1995,montero,3.0l+v6,1207831,body+&+lamp+assembly"
+     }
+    ]
    }
   ],
   "baseline_service": {
@@ -663,6 +710,34 @@
      {
       "name": "RockAuto — 1995 Montero 3.5 V6",
       "url": "https://www.rockauto.com/en/catalog/mitsubishi,1995,montero,3.5l+v6,1207842"
+     }
+    ]
+   },
+   {
+    "cat": "LOCKERS",
+    "why": "ARB lists the RD110 front Air Locker for the Mitsubishi IFS axle in 1991–97 Monteros, with a note that it won't fit Pajero/Montero 3000 cc automatics, and the RD210 rear unit for 1992–96 trucks. Both need an onboard compressor.",
+    "who": [
+     {
+      "name": "ARB USA — Air Locker RD110 (Mitsubishi IFS front)",
+      "url": "https://store.arbusa.com/air-locker-differential-mitsubishi-ifs-28-spl-rd110/"
+     },
+     {
+      "name": "ARB USA — Air Locker RD210 (Mitsubishi 8\" rear)",
+      "url": "https://store.arbusa.com/air-locker-differential-mitsubishi-8-rr-28-spl-rd210/"
+     }
+    ]
+   },
+   {
+    "cat": "WHEELS & TIRES",
+    "why": "The 6 x 139.7 mm pattern takes a wide range of six-lug wheels. Owners call 31x10.50R15 a good size for a stock truck, and there's more on the fit-guide pages below.",
+    "who": [
+     {
+      "name": "Limitless Tire — 1998 Montero sizes",
+      "url": "https://limitlesstire.com/vehicles/mitsubishi/montero/1998/"
+     },
+     {
+      "name": "ThreePiece.us — 1995 Montero fitment",
+      "url": "https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1995/"
      }
     ]
    }
@@ -1064,6 +1139,18 @@
    {
     "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.5 V6, 1994–1999 (Europe)",
     "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4d9ba8cc93ace581/"
+   },
+   {
+    "name": "ARB USA — Air Locker RD110 (Mitsubishi IFS front) with Montero fitment",
+    "url": "https://store.arbusa.com/air-locker-differential-mitsubishi-ifs-28-spl-rd110/"
+   },
+   {
+    "name": "ARB USA — Air Locker RD210 (Mitsubishi 8-inch rear) with Montero fitment",
+    "url": "https://store.arbusa.com/air-locker-differential-mitsubishi-8-rr-28-spl-rd210/"
+   },
+   {
+    "name": "ThreePiece.us — 1995 Mitsubishi Montero wheel fitment",
+    "url": "https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1995/"
    }
   ]
  }

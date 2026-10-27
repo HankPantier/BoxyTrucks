@@ -289,6 +289,32 @@
      "url": "https://bigjimny.com/store/jimny-gen3/jimny-gen3/parts-service/jimny-gen3/parts-service/bearings-and-seals/rear-axle-oil-seal-gen4"
     }
    ]
+  },
+  {
+   "title": "Rust-proof the chassis and body cavities",
+   "diff": "2 / 5",
+   "time": "≈ A day, plus drying time",
+   "cost": "Materials plus labor",
+   "symptoms": "None at first, which is the point. BigJimny's wiki says every Jimny generation has 'particularly poor rust prevention' from the factory. The usual spots are the body and suspension mounting points on the chassis, factory welds on the chassis and axles, the boot floor, under the rear seats, the inner wheel arches and behind the side cladding.",
+   "fix": "Wash the underside thoroughly and let it dry. Inspect the body and coil-spring mounts and the chassis welds. BigJimny warns that any existing rust must be removed completely before coating, because rust sealed under a coating keeps spreading out of sight. Treat cleaned spots with a rust converter and primer. Then spray cavity wax inside the chassis rails and body cavities, and an underbody wax over the visible underside. Keep the drain holes clear, and recheck every year, especially after salted roads.",
+   "tools": "Pressure washer · wire brushes · jack stands · cavity-wax wand with a long probe · protective gear.",
+   "parts": [
+    {
+     "name": "Bilt Hamber Dynax-S50 cavity wax",
+     "supplier": "Bilt Hamber",
+     "url": "https://www.bilthamber.com/dynax-s50"
+    },
+    {
+     "name": "Bilt Hamber Dynax-UB underbody wax",
+     "supplier": "Bilt Hamber",
+     "url": "https://www.bilthamber.com/dynax-ub"
+    },
+    {
+     "name": "Bilt Hamber Hydrate-80 rust converter",
+     "supplier": "Bilt Hamber",
+     "url": "https://www.bilthamber.com/hydrate-80"
+    }
+   ]
   }
  ],
  "faq": [
@@ -701,6 +727,14 @@
   {
    "name": "BigJimny Forum — New white SZ5, recommended oil SAE 0W-16 API SN (owner quoting the handbook)",
    "url": "https://www.bigjimny.com/forum/6-jimny-chat/64274-new-white-sz5-recommended-oil-sae-ow-16-api-sn"
+  },
+  {
+   "name": "BigJimny Wiki — Rust protection",
+   "url": "https://bigjimny.com/mediawiki/index.php/Rust_protection"
+  },
+  {
+   "name": "Bilt Hamber — Dynax-S50 cavity wax",
+   "url": "https://www.bilthamber.com/dynax-s50"
   }
  ],
  "baseline_service": {

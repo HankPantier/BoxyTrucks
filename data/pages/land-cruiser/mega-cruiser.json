@@ -206,6 +206,63 @@
    "fix": "Replace the fuel filter and bleed the system. Fit matched batteries for the 24 V system and check the charging voltage.",
    "tools": "Basic hand tools · fuel filter wrench · multimeter",
    "parts": []
+  },
+  {
+   "title": "Inboard disc brake service",
+   "diff": "3 / 5",
+   "time": "≈ A day for all four",
+   "cost": "Genuine pad kits about $80–84 and discs about $87 each at Nengun (October 2026), plus labor",
+   "symptoms": "Grinding, a pull under braking, a soft pedal, or simply no records. All four brakes are ventilated discs mounted inboard, so they sit under the truck rather than behind the wheels, and they're easy to neglect. One BaT seller listed brake service among recent work.",
+   "fix": "Support the truck securely on stands rated for its weight and work from underneath. At each brake, check pad thickness, disc condition, hoses and caliper seals. Replace pads and discs as a set per axle, clean the pad contact points, then bleed the system with fresh fluid. Front and rear parts carry different Toyota part numbers, so order by axle, and use the factory manual for torque values.",
+   "tools": "Jack and heavy-duty stands · socket set · torque wrench · brake bleeder · brake cleaner · factory service manual.",
+   "parts": [
+    {
+     "name": "Toyota front brake pad kit 04465-65010",
+     "supplier": "Nengun",
+     "url": "https://www.nengun.com/oem/toyota/mega-cruiser-bxd20v/brakes"
+    },
+    {
+     "name": "Toyota front brake disc 43512-65010",
+     "supplier": "Nengun",
+     "url": "https://www.nengun.com/oem/toyota/mega-cruiser-bxd20v/brakes"
+    },
+    {
+     "name": "Toyota rear brake pad kit 04466-65010",
+     "supplier": "Nengun",
+     "url": "https://www.nengun.com/oem/toyota/mega-cruiser-bxd20v/brakes"
+    },
+    {
+     "name": "Toyota rear brake disc 42431-65010",
+     "supplier": "Nengun",
+     "url": "https://www.nengun.com/oem/toyota/mega-cruiser-bxd20v/brakes"
+    }
+   ]
+  },
+  {
+   "title": "Underbody rust treatment",
+   "diff": "2 / 5",
+   "time": "≈ A weekend",
+   "cost": "Materials plus labor",
+   "symptoms": "Scale on the frame, suspension arms and hub-reduction housings. BaT sellers keep finding it: rust on the underside of several civilian trucks, visible rust on the underside components of a BXD10 soft-top, an underbody painted black over earlier rust, and one truck that needed rust repair before its repaint.",
+   "fix": "Wash the underside and let it dry. Probe the frame, suspension mounts and hub-reduction housings for scale and pitting, and get anything structural looked at before you coat it. Wire-brush loose rust back to firm metal, apply a rust converter, then prime. Spray cavity wax inside the frame rails and an underbody wax over the visible underside, keeping it off brake parts and exhaust. Recheck every year.",
+   "tools": "Pressure washer · wire brushes and a wire wheel · heavy-duty jack stands · cavity-wax wand · protective gear.",
+   "parts": [
+    {
+     "name": "Bilt Hamber Hydrate-80 rust converter",
+     "supplier": "Bilt Hamber",
+     "url": "https://www.bilthamber.com/hydrate-80"
+    },
+    {
+     "name": "Bilt Hamber Dynax-UB underbody wax",
+     "supplier": "Bilt Hamber",
+     "url": "https://www.bilthamber.com/dynax-ub"
+    },
+    {
+     "name": "Bilt Hamber Dynax-S50 cavity wax",
+     "supplier": "Bilt Hamber",
+     "url": "https://www.bilthamber.com/dynax-s50"
+    }
+   ]
   }
  ],
  "faq": [
@@ -453,6 +510,22 @@
   {
    "name": "YouTube — Doug DeMuro: The Toyota Mega Cruiser Is a Crazy Hummer From Toyota",
    "url": "https://www.youtube.com/watch?v=PvZbKpwHT5g"
+  },
+  {
+   "name": "Nengun — Toyota Mega Cruiser BXD20V genuine brake parts (pad kits 04465-65010 / 04466-65010, discs 43512-65010 / 42431-65010)",
+   "url": "https://www.nengun.com/oem/toyota/mega-cruiser-bxd20v/brakes"
+  },
+  {
+   "name": "Bring a Trailer — 1996 Toyota Mega Cruiser (listing -5)",
+   "url": "https://bringatrailer.com/listing/1996-toyota-mega-cruiser-5/"
+  },
+  {
+   "name": "Bring a Trailer — 1996 Toyota Mega Cruiser BXD10 (listing -4-2)",
+   "url": "https://bringatrailer.com/listing/1996-toyota-mega-cruiser-4-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1997 Toyota Mega Cruiser (listing -2)",
+   "url": "https://bringatrailer.com/listing/1997-toyota-mega-cruiser-2/"
   }
  ],
  "baseline_service": {
