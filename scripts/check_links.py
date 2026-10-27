@@ -22,7 +22,26 @@ UA = 'Mozilla/5.0 (compatible; BoxyTrucksBot/1.0; +https://boxytrucks.com)'
 SKIP_HOSTS = ('api.nhtsa.gov', 'static.nhtsa.gov', 'boxytrucks.com', 'instagram.com', 'facebook.com', 'amazon.com')
 PARKED_RE = re.compile(r'domain (is|may be) for sale|buy this domain|this domain is parked|parkingcrew|sedoparking|bodis\.com|'
                        r'hugedomains|dan\.com/buy|afternic|casino|slot gacor|judi online|togel', re.I)
-URL_RE = re.compile(r'https?://[^\s"\'<>\\)\]]+')
+URL_RE = re.compile(r'https?://[^\s"<>\\\]]+')
+
+
+def _strings(o):
+    if isinstance(o, dict):
+        for v in o.values():
+            yield from _strings(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _strings(v)
+    elif isinstance(o, str):
+        yield o
+
+
+def _urls_in(text):
+    for m in URL_RE.finditer(text):
+        u = m.group(0).rstrip('.,;:')
+        while u.endswith(')') and u.count('(') < u.count(')'):
+            u = u[:-1]
+        yield u
 
 
 def collect():
@@ -31,11 +50,15 @@ def collect():
         if f.name in ('avatars.json', 'affiliates.json'):
             continue
         rel = f.relative_to(DATA).as_posix()
-        for u in URL_RE.findall(f.read_text()):
-            u = u.rstrip('.,;')
-            if '{' in u or any(h in urlparse(u).netloc for h in SKIP_HOSTS):
-                continue
-            where[u].add(rel)
+        try:
+            strings = _strings(json.loads(f.read_text()))
+        except Exception:
+            continue
+        for st in strings:
+            for u in _urls_in(st):
+                if '{' in u or any(h in urlparse(u).netloc for h in SKIP_HOSTS):
+                    continue
+                where[u].add(rel)
     return where
 
 
@@ -87,6 +110,9 @@ def main():
     limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else None
     where = collect()
     urls = sorted(where)[:limit] if limit else sorted(where)
+    if '--only' in sys.argv:
+        keep = set(Path(sys.argv[sys.argv.index('--only') + 1]).read_text().split())
+        urls = [u for u in urls if any(u.startswith(k) for k in keep)]
     with ThreadPoolExecutor(max_workers=16) as ex:
         results = dict(zip(urls, ex.map(check, urls)))
     groups = defaultdict(list)
