@@ -626,6 +626,11 @@
    "src": "BITOG · NHTSA · PLANET ISUZOO"
   },
   {
+   "q": "Which years are the best to buy?",
+   "a": "There's no clear sweet spot. The 1992–97 3.2 avoids the 3.5's oil appetite: one Overland Bound owner says the 3.2 'never had an oil consumption issue' and the 1998–2002 3.5s 'did have a bit'. NHTSA's complaint files peak with the 1999 model, and CarComplaints rates 2000 as the worst year, mainly for transmission failures. The 3.5 is the stronger engine, so if you want one, buy on oil-use history and receipts rather than the year.",
+   "src": "OVERLAND BOUND · NHTSA · CARCOMPLAINTS"
+  },
+  {
    "q": "What was the Consumer Reports rollover controversy?",
    "a": "In August 1996 Consumers Union rated the 1995–96 Trooper and Acura SLX 'Not Acceptable', saying they tipped up on two wheels in its avoidance test. NHTSA ran its own tests and refused to open a defect investigation in July 1997. Isuzu sued for $242 million; in April 2000 a jury found some of the magazine's statements false but awarded no damages.",
    "src": "LA TIMES · CNN"
@@ -1061,6 +1066,26 @@
   {
    "name": "ARB USA — Air Locker RD203 (Isuzu IFS front) with Trooper fitment",
    "url": "https://store.arbusa.com/air-locker-differential-isuzu-ifs-17-spl-rd203"
+  },
+  {
+   "name": "Overland Bound — Isuzu Trooper owners (3.2 vs 3.5 oil use)",
+   "url": "https://overlandbound.com/forums/threads/isuzu-trooper-owners.35168/post-506173"
+  },
+  {
+   "name": "CarComplaints — Isuzu Trooper problems by model year",
+   "url": "https://www.carcomplaints.com/Isuzu/Trooper/"
+  },
+  {
+   "name": "NHTSA — owner complaints, 2001 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=2001"
+  },
+  {
+   "name": "NHTSA — owner complaints, 2002 Isuzu Trooper",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=2002"
+  },
+  {
+   "name": "Edmunds Car Forums — Isuzu Trooper discussion",
+   "url": "https://forums.edmunds.com/discussion/comment/446006"
   }
  ]
 }

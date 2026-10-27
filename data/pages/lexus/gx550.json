@@ -379,6 +379,11 @@
    "q": "What oil does it take, and how much?",
    "a": "Lexus's owner's manual calls for ILSAC GF-6A 0W-20 and lists 7.7 qt with a new filter (7.4 qt without). 5W-20 is allowed only as a stopgap until the next change. The standard interval is 10,000 miles or 12 months, or 6 months / 5,000 miles if you mostly drive dirt or dusty roads, make short trips below freezing, or idle a lot.",
    "src": "LEXUS OWNER'S MANUAL"
+  },
+  {
+   "q": "Which years are the best to buy?",
+   "a": "It's too new for a consensus. The one documented problem year is 2024: recall 25V-767 covers early 2024 trucks for V35A machining debris, so check the VIN and get the dealer paperwork. NHTSA lists that recall for 2024 GXs only; 2025 trucks share the camera-software and load-label recalls but not the engine one.",
+   "src": "NHTSA"
   }
  ],
  "mods": [
@@ -740,6 +745,14 @@
   {
    "name": "Cali Raised LED — 2024+ Tacoma, 4Runner, Land Cruiser and GX 550 Front Recovery Points",
    "url": "https://www.caliraisedled.com/products/2024-toyota-tacoma-4runner-land-cruiser-front-recovery-points"
+  },
+  {
+   "name": "NHTSA — recalls API, Lexus GX 2024",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=lexus&model=GX&modelYear=2024"
+  },
+  {
+   "name": "NHTSA — recalls API, Lexus GX 2025",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=lexus&model=GX&modelYear=2025"
   }
  ],
  "baseline_service": {

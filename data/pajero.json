@@ -639,6 +639,11 @@
     "src": "BAT · EXPLOROZ"
    },
    {
+    "q": "Which years are the best to buy?",
+    "a": "There's no buyer consensus on a best year. JDM Buy Sell's guide doesn't name one, and owners argue about engines rather than years. What you can avoid is the NADI driver airbag. NHTSA recall 20V035000 covers 1998–2000 US Monteros, with a free replacement inflator, and Mitsubishi Australia is buying back NL Pajeros built between 31 May 1996 and 30 September 2000 because no replacement inflator exists. Run the VIN before you pay.",
+    "src": "NHTSA · UNSEALED 4X4 · JDMBUYSELL"
+   },
+   {
     "q": "Is the 3.5 an interference engine?",
     "a": "Australian owners on ExplorOz say the 3.5 has no clearance if the belt breaks and the 3.0 does. Treat that as owner experience and confirm with the factory manual or a specialist. Either way, the belt is a scheduled part, so change it on time.",
     "src": "EXPLOROZ"
@@ -1151,6 +1156,10 @@
    {
     "name": "ThreePiece.us — 1995 Mitsubishi Montero wheel fitment",
     "url": "https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1995/"
+   },
+   {
+    "name": "NHTSA — Recall 20V035000 (1998–2000 Montero NADI airbag)",
+    "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=20V035000"
    }
   ]
  }

@@ -356,6 +356,11 @@
    "q": "Should I buy one without AHC?",
    "a": "If you plan to lift it, maybe. Slee Off-Road's LX 600 build was a Premium custom-ordered without AHC so it could run Dobinsons suspension. AHC trucks keep the adjustable ride heights but limit your lift choices.",
    "src": "SLEE OFF-ROAD"
+  },
+  {
+   "q": "Which years are the best to buy?",
+   "a": "Too new for a consensus. 2022–2024 trucks are the ones with paperwork to check: engine recalls 24V-381 and 25V-767, plus a neutral-rollaway software recall. NHTSA doesn't list those engine recalls for 2025, but 2025–2026 trucks have their own transmission-ECU software recall (26V-094). Whichever year, run the VIN.",
+   "src": "NHTSA"
   }
  ],
  "mods": [
@@ -663,6 +668,14 @@
   {
    "name": "Dissent Off-Road — LX600 & LX700h Dual Swing-Out Rear Bumper",
    "url": "https://dissentoffroad.com/products/lx600-lx700h-dual-swing-out-rear-bumper"
+  },
+  {
+   "name": "NHTSA — recalls API, Lexus LX 2024",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=lexus&model=LX&modelYear=2024"
+  },
+  {
+   "name": "NHTSA — recalls API, Lexus LX 2025",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=lexus&model=LX&modelYear=2025"
   }
  ],
  "baseline_service": {
