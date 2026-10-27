@@ -1,0 +1,310 @@
+{
+ "slug": "lx470-vs-100-series",
+ "title": "Lexus LX 470 vs Land Cruiser 100 Series",
+ "models": [
+  "lexus/lx470",
+  "land-cruiser/100-series"
+ ],
+ "description": "Lexus LX 470 vs Land Cruiser 100 Series: same V8 and chassis, different suspension and prices. What differs, what breaks and which to buy.",
+ "lead": "They're the same truck underneath, so buy the LX 470 if you want the most equipment for the least money and you'll maintain its hydraulic AHC suspension. Buy the Land Cruiser if you want plain steel springs or, on a 1998–99 truck, a factory rear locker.",
+ "verdict": [
+  {
+   "model": "lexus/lx470",
+   "pick_if": "you want adjustable ride height, more standard luxury and a lower price for a clean truck, and you'll keep up with the AHC fluid"
+  },
+  {
+   "model": "land-cruiser/100-series",
+   "pick_if": "you want conventional torsion bars and coils that are simple to lift, or a 1998–99 truck with the optional rear locker"
+  }
+ ],
+ "table": [
+  {
+   "label": "Years (US)",
+   "values": [
+    "1998–2007",
+    "1998–2007"
+   ]
+  },
+  {
+   "label": "Engine",
+   "values": [
+    "4.7 V8 2UZ-FE: 230 hp; 235 hp ('03); 275 hp VVT-i ('06–07)",
+    "4.7 V8 2UZ-FE: 230 hp; 235 hp ('03); 275 hp VVT-i (late trucks)"
+   ]
+  },
+  {
+   "label": "Transmission",
+   "values": [
+    "4-spd A343F; 5-spd A750F from 2003",
+    "4-spd A343F; 5-spd A750F from 2003"
+   ]
+  },
+  {
+   "label": "4WD",
+   "values": [
+    "Full-time HF2A, lockable center diff",
+    "Full-time HF2A, lockable center diff"
+   ]
+  },
+  {
+   "label": "Front suspension",
+   "values": [
+    "Torsion-bar IFS with AHC hydraulics (standard)",
+    "Torsion-bar IFS; AHC optional only late"
+   ]
+  },
+  {
+   "label": "Rear suspension",
+   "values": [
+    "Solid axle with AHC and adaptive damping",
+    "Solid axle on coils"
+   ]
+  },
+  {
+   "label": "Factory lockers",
+   "values": [
+    "Center only in the US (rear locker in Canada, '98–99)",
+    "Center; rear optional 1998–99"
+   ]
+  },
+  {
+   "label": "Wheelbase",
+   "values": [
+    "112.2 in",
+    "112.2 in"
+   ]
+  },
+  {
+   "label": "Ground clearance",
+   "values": [
+    "8.66 in at rear diff ('02, Lexus Canada)",
+    "9.8 in ('05, KBB)"
+   ]
+  },
+  {
+   "label": "Approach / departure",
+   "values": [
+    "30° / 23° normal; 32° / 27° in AHC High",
+    "—"
+   ]
+  },
+  {
+   "label": "Towing",
+   "values": [
+    "6,500 lb (tow package)",
+    "6,500 lb (2002–06)"
+   ]
+  },
+  {
+   "label": "Fuel economy",
+   "values": [
+    "EPA 12 city / 16 hwy ('03)",
+    "12 city / 16 hwy ('05, KBB)"
+   ]
+  },
+  {
+   "label": "Stock tires",
+   "values": [
+    "275/70R16; 275/60R18 from 2003",
+    "275/70R16; 17-in wheels from 2003"
+   ]
+  },
+  {
+   "label": "Biggest tire, no lift",
+   "values": [
+    "285/75R16 or 285/65R18 (≈33 in)",
+    "285/75R16 or 285/65R18 (≈33 in)"
+   ]
+  },
+  {
+   "label": "Typical prices now",
+   "values": [
+    "$16k–25k driver; $27k–35k excellent",
+    "$15k–36k driver; $40k–65k excellent"
+   ]
+  },
+  {
+   "label": "Best years",
+   "values": [
+    "2003–05",
+    "2003–07"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "h": "What's actually different",
+   "body": [
+    "Mechanically, very little. The [[lexus/lx470|LX 470]] uses the same UZJ100 ladder frame, 2UZ-FE V8, transmissions, full-time HF2A transfer case and axles as the [[land-cruiser/100-series|Land Cruiser 100]], and it shares the floor pan and most body panels. The difference is suspension and equipment. The LX had Adjustable Height Control (AHC) and Adaptive Variable Suspension as standard from 1998; Slee's guide says the Land Cruiser only got AHC as an option in 2006.",
+    "The Lexus also adds front and rear automatic climate control, a power tilt and telescoping column, its own gauges and wheels, and the body cladding, and Slee notes it often got features before the Toyota did. The 2003 facelift brought the LX VGRS variable-ratio steering and 18-inch wheels."
+   ]
+  },
+  {
+   "h": "Off-road",
+   "body": [
+    "AHC is the LX's party trick. In High it lifts the truck, and owners say it rises about 2–3 inches over Land Cruiser height. Lexus Canada quotes approach and departure angles of 30° and 23° at normal height, rising to 32° and 27° in High. You can also raise the normal ride height by adjusting the AHC height-sensor links, which IH8MUD's write-up says gives about 2 inches up front and 1.75 inches at the rear.",
+    "The Land Cruiser's answer is simplicity. Its front height is set at the torsion-bar adjusters, and an Old Man Emu kit of torsion bars, coils and shocks is the common lift. In the US only the Land Cruiser offered a factory rear locker, and only for 1998–99; the LX's was a Canada-only option in those years. From 2000 both rely on A-TRAC, and ARB Air Lockers are the usual retrofit on either truck."
+   ]
+  },
+  {
+   "h": "On-road and daily use",
+   "body": [
+    "On the road they're very close. Both have the same V8 and, from 2003, the same five-speed automatic, and both are rated to tow 6,500 lb. The LX's AHC and adaptive dampers are its comfort pitch when they're healthy. A tired AHC system gives a harsh or bouncy ride, and that's often the first sign the fluid or the accumulator globes need attention.",
+    "Fuel use is the same grim story: EPA ratings of 12 mpg city and 15–16 highway for the LX, and KBB lists 12 and 16 for a 2005 Land Cruiser."
+   ]
+  },
+  {
+   "h": "Reliability and what breaks",
+   "body": [
+    "Shared faults first. Both need the 2UZ-FE timing belt, water pump and thermostat at 90,000 miles. Spark plugs can work loose and tick at cold start, and so can a cracked driver's-side exhaust manifold. Starter contacts wear, the plastic heater-hose tees go brittle, and 1998–99 trucks have the weaker two-pinion front diff. Both use a high-pressure brake pump and accumulator instead of a vacuum booster, so brake warning lights need a scan tool, not guesswork.",
+    "The LX adds AHC. It's reliable if the fluid is flushed (owners cite every 60,000 miles), but IH8MUD members describe replacing failed AHC sensors and actuators as very expensive, and some owners convert to conventional springs instead. Lexus also recalled about 39,000 2003–2007 LX 470s in 2010 (NHTSA 10V-346) to fix the steering-shaft snap ring, so check that it's been done."
+   ]
+  },
+  {
+   "h": "Modifying",
+   "body": [
+    "Almost all the armor and drivetrain parts fit both. Metal Tech 4x4, Slee Off-Road, Dissent Off-Road and Cruiser Outfitters sell sliders, bumpers, skids, rear links and timing-belt kits listed for the 100 Series and LX 470 together. On a US truck of either badge, Slee says a snorkel means swapping the power antenna for a whip.",
+    "Suspension is where they part ways. On an LX you can lift it through the AHC sensor links, keeping at least 70 mm of front droop for CV boot life, or remove the AHC and fit conventional torsion bars, springs and shocks. A Land Cruiser just takes the springs and shocks."
+   ]
+  },
+  {
+   "h": "Buying one now",
+   "body": [
+    "The Lexus is the bargain. Recent Bring a Trailer results put LX 470 drivers at about $16,000–25,000 and excellent trucks at $27,000–35,000 (the 2007 Limited Edition is an exception at about $63,000). Clean, well-documented Land Cruisers are now going for $40,000–65,000. Rough examples of both start at about $6,000.",
+    "For the LX, 2003–05 is the closest thing to a consensus: the five-speed and new dash without the 2006–07 air-injection system that one forum regular warns is costly to fix. Either way, buy on timing-belt records, and on an LX, cycle the AHC through Low, Normal and High and watch it level before you hand over any money."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is the LX 470 just a Land Cruiser with a Lexus badge?",
+   "a": "Mechanically, nearly. It shares the UZJ100 frame, V8, transmissions, transfer case and axles. The LX adds standard AHC height control and adaptive damping, more equipment, body cladding and its own styling."
+  },
+  {
+   "q": "Is AHC worth keeping?",
+   "a": "If it's healthy, yes. It gives adjustable ground clearance a spring truck can't match, and a fluid flush is a simple job. If the sensors or actuators fail, replacement is expensive, and many owners switch to conventional springs instead."
+  },
+  {
+   "q": "Does either one have a locker?",
+   "a": "Both have a lockable center differential. In the US, a factory rear locker was optional only on 1998–99 Land Cruisers; on the LX 470 it was a Canada-only option in those years. From 2000 both use A-TRAC traction control."
+  },
+  {
+   "q": "Do parts interchange between the LX 470 and Land Cruiser 100?",
+   "a": "The engine, drivetrain and most chassis parts do, and suppliers such as Metal Tech 4x4 and Cruiser Outfitters list them together. Suspension differs because of the LX's AHC, and the cladding, grille and trim are Lexus-specific."
+  },
+  {
+   "q": "Which is cheaper to buy?",
+   "a": "Usually the LX 470. Recent Bring a Trailer sales top out around $35,000 for regular LX 470s, while the best Land Cruiser 100s have reached $65,000."
+  },
+  {
+   "q": "Which years are best?",
+   "a": "Owners point to 2003-on trucks for the five-speed automatic. For the LX, 2003–05 is the consensus pick; 2006–07 trucks add VVT-i and 275 hp but also an air-injection system that can be costly to fix."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Slee Off-Road — 100 Series Newbie Guide",
+   "url": "https://sleeoffroad.com/tech-zone/100-series-newbie-guide/"
+  },
+  {
+   "name": "Wikipedia — Lexus LX",
+   "url": "https://en.wikipedia.org/wiki/Lexus_LX"
+  },
+  {
+   "name": "Wikipedia — Toyota Land Cruiser (J100 section)",
+   "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#J100"
+  },
+  {
+   "name": "Lexus Canada — 2002 Lexus LX 470 specifications",
+   "url": "https://media.lexus.ca/en/specifications/2002/2002-lexus-lx-470-specifications.html"
+  },
+  {
+   "name": "FuelEconomy.gov — 2003 Lexus LX 470",
+   "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=19201"
+  },
+  {
+   "name": "FuelEconomy.gov — 2005 Lexus LX",
+   "url": "https://www.fueleconomy.gov/feg/bymodel/2005_Lexus_LX.shtml"
+  },
+  {
+   "name": "Kelley Blue Book — 2005 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2005/specs/"
+  },
+  {
+   "name": "Kelley Blue Book — 2002 Toyota Land Cruiser specs",
+   "url": "https://www.kbb.com/toyota/land-cruiser/2002/specs/"
+  },
+  {
+   "name": "Auto123 — Lexus LX 470 gets power boost for 2006",
+   "url": "https://www.auto123.com/en/news/lexus-lx-470-gets-power-boost-for-2006/44220"
+  },
+  {
+   "name": "IH8MUD — 100-series FAQ",
+   "url": "https://forum.ih8mud.com/threads/100-series-faq.30754/"
+  },
+  {
+   "name": "IH8MUD — What is the largest tire I can fit with no lift?",
+   "url": "https://forum.ih8mud.com/threads/what-is-the-largest-tire-i-can-fit-with-no-lift.263259/"
+  },
+  {
+   "name": "IH8MUD — AHC Sensor Adjustment for Lift",
+   "url": "https://forum.ih8mud.com/threads/ahc-sensor-adjustment-for-lift.60848/"
+  },
+  {
+   "name": "IH8MUD — Changing out the AHC suspension fluid?",
+   "url": "https://forum.ih8mud.com/threads/changing-out-the-ahc-suspension-fluid.60619/"
+  },
+  {
+   "name": "IH8MUD — Looking at an LX470",
+   "url": "https://forum.ih8mud.com/threads/looking-at-an-lx470.639286/"
+  },
+  {
+   "name": "IH8MUD — new LC or LX?? what is the difference?",
+   "url": "https://forum.ih8mud.com/showthread.php?p=378517"
+  },
+  {
+   "name": "IH8MUD — Poll on total brake failure in 100 series",
+   "url": "https://forum.ih8mud.com/threads/poll-on-total-brake-failure-in-100-series.872498/"
+  },
+  {
+   "name": "IH8MUD — 90k service parts list",
+   "url": "https://forum.ih8mud.com/threads/90k-service-parts-list.241718/"
+  },
+  {
+   "name": "IH8MUD — Spark plugs alert",
+   "url": "https://forum.ih8mud.com/threads/ticking-time-bomb-tick-tick-tick-spark-plugs-alert-alert-alert.1045750/"
+  },
+  {
+   "name": "IH8MUD — DIY: Replacing heater hose pipe T's",
+   "url": "https://forum.ih8mud.com/threads/diy-replacing-heater-hose-pipe-ts-important.610334/"
+  },
+  {
+   "name": "CarSpec — 2UZ-FE engine ticking / exhaust manifold leak",
+   "url": "https://carspecmn.com/toyota-sequoia-tundra-4runner-and-land-cruiser-lexus-gx470-and-lx470-engine-tickingexhaust-manifold-leak/"
+  },
+  {
+   "name": "NHTSA — Recall 10V-346",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V346"
+  },
+  {
+   "name": "Expedition Portal — Which 100 Series is \"best\"",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1147765"
+  },
+  {
+   "name": "Metal Tech 4x4 — Lexus LX470 (1998–2007) parts",
+   "url": "https://www.metaltech4x4.com/collections/shop-by-vehicle-lexus-lx470-1998-2007"
+  },
+  {
+   "name": "Cruiser Outfitters — 100 Series / LX470 parts",
+   "url": "https://cruiserteq.com/100-series-lx470/"
+  },
+  {
+   "name": "Bring a Trailer — Lexus LX470 auction results",
+   "url": "https://bringatrailer.com/lexus/lx470/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser 100 Series auction results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-100-series/"
+  }
+ ]
+}

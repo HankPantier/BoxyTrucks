@@ -1,0 +1,368 @@
+{
+ "slug": "defender-vs-grenadier-vs-g-class",
+ "title": "Land Rover Defender vs Ineos Grenadier vs Mercedes G-Class",
+ "models": [
+  "land-rover/defender-l663",
+  "grenadier/station-wagon",
+  "g-class/second-gen"
+ ],
+ "description": "New Defender vs Ineos Grenadier vs G-Class: chassis, lockers, angles, towing, fuel, tire sizes, reliability and used prices compared.",
+ "lead": "The Defender is the best all-rounder and by far the cheapest used; the Grenadier is the traditional one, ladder frame and beam axles, for people who like to know how things work; the G-Class gives you three lockers and a ladder frame inside a luxury car, at luxury-car prices. Top Gear summed up the first two as 'mechanics versus electrics', and the G sits somewhere between.",
+ "verdict": [
+  {
+   "model": "land-rover/defender-l663",
+   "pick_if": "you want one truck for the commute, the highway and a hard trail, with air suspension, 900 mm of wading and the best used value of the three"
+  },
+  {
+   "model": "grenadier/station-wagon",
+   "pick_if": "you want a ladder frame, beam axles and up to three lockers, plan to do your own work, and can live with a young dealer network (and pre-2026 steering)"
+  },
+  {
+   "model": "g-class/second-gen",
+   "pick_if": "you want three factory lockers and a 2.93:1 low range wrapped in real luxury, and the price of entry doesn't bother you"
+  }
+ ],
+ "table": [
+  {
+   "label": "Years (US)",
+   "values": [
+    "2020–present",
+    "MY2024–present (built from 2022)",
+    "2019–present (revealed 2018)"
+   ]
+  },
+  {
+   "label": "Construction",
+   "values": [
+    "Aluminium monocoque",
+    "Steel ladder frame",
+    "Ladder frame"
+   ]
+  },
+  {
+   "label": "Engines (US)",
+   "values": [
+    "P300 2.0 I4, 300 PS · P400 3.0 I6 mild hybrid, 400 PS / 550 Nm · P525 5.0 V8",
+    "BMW B58 3.0 turbo I6, 282 hp / 332 lb-ft",
+    "G 550: 4.0 twin-turbo V8, 416 hp / 450 lb-ft (to 2024) · 3.0 I6 mild hybrid, 443 hp / 413 lb-ft (2025–)"
+   ]
+  },
+  {
+   "label": "Transmission",
+   "values": [
+    "ZF 8-spd auto",
+    "ZF 8-spd auto",
+    "9G-TRONIC 9-spd auto"
+   ]
+  },
+  {
+   "label": "4WD and low range",
+   "values": [
+    "Permanent, 2-speed transfer case",
+    "Permanent, Tremec 2-speed, 2.5:1",
+    "Permanent 40:60, 2.93:1"
+   ]
+  },
+  {
+   "label": "Suspension",
+   "values": [
+    "Independent all round; air (110), coil or air (90)",
+    "Carraro beam axles, five-link coils",
+    "Independent double-wishbone front · rigid rear"
+   ]
+  },
+  {
+   "label": "Lockers",
+   "values": [
+    "Centre and rear",
+    "Centre standard · front and rear with Rough Pack",
+    "Centre, rear and front (gas models)"
+   ]
+  },
+  {
+   "label": "Wheelbase",
+   "values": [
+    "101.9 in (90) · 119.0 in (110/130)",
+    "115.0 in",
+    "113.8 in"
+   ]
+  },
+  {
+   "label": "Ground clearance",
+   "values": [
+    "Up to 11.5 in / 291 mm (air) · 225 mm coil 90",
+    "10.4 in / 264 mm",
+    "9.5 in / 241 mm"
+   ]
+  },
+  {
+   "label": "Approach / departure / breakover",
+   "values": [
+    "38° / 40° / 28° (110)",
+    "35.5° / 36.1° / 28.2°",
+    "30.9° / 29.9° / 23.5° (2019 G 550)"
+   ]
+  },
+  {
+   "label": "Wading depth",
+   "values": [
+    "900 mm / 35.4 in (air)",
+    "800 mm / 31.5 in",
+    "700 mm / 27.6 in"
+   ]
+  },
+  {
+   "label": "Towing (braked)",
+   "values": [
+    "8,200 lb",
+    "7,716 lb",
+    "7,700 lb"
+   ]
+  },
+  {
+   "label": "Fuel economy (EPA)",
+   "values": [
+    "18 / 22–23 (2026 3.0 six) · 14–15 / 18–19 (V8)",
+    "15 / 15 (premium)",
+    "13 / 17 (2019 V8) · 17 / 19 (2025 six)"
+   ]
+  },
+  {
+   "label": "Biggest tire, no lift",
+   "values": [
+    "275/60R20 (≈33 in)",
+    "285/75R17 (≈34 in)",
+    "No firm consensus; stock ≈31 in, 33s with a 2.5 in lift"
+   ]
+  },
+  {
+   "label": "Typical prices now",
+   "values": [
+    "$27k–42k 2020–22 · $68k–89k low-mile 2024–25",
+    "$56.5k–72k used 2024 · $71k–83k new",
+    "$72k–90k 2019 G 550 · up to $156k low-mile"
+   ]
+  },
+  {
+   "label": "Best years",
+   "values": [
+    "No flagged year; 2020–22 for value, with recalls closed",
+    "MY2026 (revised steering)",
+    "No flagged year; check 2019–21 recalls by VIN"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "h": "Off-road",
+   "body": [
+    "On paper the Defender leads. A 110 on air gives up to 291 mm (11.5 in) of clearance, 38°/40°/28° angles and 900 mm of wading. The Grenadier has 264 mm, 35.5°/36.1°/28.2° and 800 mm; a 2019 G 550 has 9.5 in, 30.9°/29.9°/23.5° by Mercedes-Benz USA's figures, and 27.6 in. Top Gear ran a Defender against a Grenadier and found them 'pretty evenly matched' in capability: the Defender's electronics do most of the work, while the Grenadier asks more of the driver and gives more feedback.",
+    "Underneath, they couldn't be more different. The Defender is an aluminium monocoque with independent suspension, a lockable centre differential and a locking rear, but no front locker. The Grenadier has Carraro beam axles on coils, a 2.5:1 low range and three lockers with the Rough Pack. The G keeps a ladder frame and a rigid rear axle, adds independent front suspension, and has a 2.93:1 low range and three 100% locks on every gas model."
+   ]
+  },
+  {
+   "h": "On-road and daily use",
+   "body": [
+    "The Defender wins easily. Top Gear: 'For life's general tasks, the Grenadier can't hold a candle to the Defender.' The Grenadier's pre-2026 steering is a slow recirculating-ball box, nearly four turns lock to lock, which The Drive found wandered on the highway; MY2026 trucks got a variable-ratio box that GearJunkie called 'a big leap forward'. The 2018-on G moved to independent front suspension and electric rack-and-pinion steering and is far better on the road than the old [[g-class/w463|W463]].",
+    "All three are thirsty and all three tow about 3.5 tonnes. The EPA rates a 2026 Defender 3.0 six at 18 mpg city and 22–23 highway, the Grenadier at 15/15 on premium, and the 2019 V8 G 550 at 13/17 (17/19 for the 2025-on six). Towing is 8,200 lb for the Defender, 7,716 lb for the Grenadier and 7,700 lb for a 2019 G 550."
+   ]
+  },
+  {
+   "h": "Reliability and what breaks",
+   "body": [
+    "None is a Toyota. The Defender's faults are mostly electrical and software: DC-DC converter failures and recalls on the mild hybrids, steering knocks, coolant loss on the P400, and PM and EGR sensor codes on diesels sold outside the US. The Grenadier's are mostly electronic too, with module failures, false warnings, reflashes, sticky door buttons and water in the doors, plus three US recalls on early trucks; its BMW six and ZF gearbox are well proven elsewhere.",
+    "The G's early trucks carry several recalls, including the front-axle harness that can disable ABS and stability control (23V097), the diff-lock module (20V090) and rear door latches (21V353, 24V659). Owners also report transfer-case output-seal leaks and door hinge sag."
+   ]
+  },
+  {
+   "h": "Running costs, parts and modifying",
+   "body": [
+    "The Grenadier is the most conventional to work on, with a ladder frame, beam axles and bought-in BMW and ZF powertrain parts. Body and chassis parts come only through Ineos, though, and the factory stopped for four months in 2024–25 over a parts shortage. The Defender wants a diagnostic tool and a good specialist. Bolt-on armor for the G is scarce; Eurowise is one of the few making skids, sliders and a rear bumper for it.",
+    "Tires: the Defender takes a 275/60R20 (about 33 in) without a lift, the Grenadier a 285/75R17 (about 34 in) with washers under the spare carrier, and the G takes 33s on a 2.5 in lift kit. A Grenadier needs about 2 in of lift for 35s, and Lucky8 put 35s on a Defender 110 using lift rods, trimming and relocated intercoolers."
+   ]
+  },
+  {
+   "h": "Buying one now",
+   "body": [
+    "Depreciation makes the Defender the bargain: 2020–22 90s and 110s sold for $27k–42k on Bring a Trailer, with a $45,000 median across 2025–26. Used 2024 Grenadiers brought $56,500–92,500 (median about $65,750), not far under a new 2026 at $71,000–82,995 before destination. Early 2019 G 550s start around $72k, and AMG G 63s fetched a median of $146,500.",
+    "Buy a Defender with every recall closed, especially the DC-DC converter campaigns on mild hybrids. Buy a MY2026 Grenadier if you drive a lot of highway, or a 2024 with all three recalls done. Buy a G 550 with the harness, diff-lock and door-latch recalls confirmed by VIN. If you want the same ideas with simpler engineering, look at the old [[land-rover/defender-90-110|Defender 90/110]] and the [[g-class/w463|W463 G-Class]]."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Which is the most capable off-road?",
+   "a": "Stock, the Defender has the best numbers: up to 291 mm of clearance, 38°/40°/28° angles and 900 mm of wading on a 110 with air. Top Gear found the Defender and Grenadier evenly matched in practice. The Grenadier and G have more locking differentials, three each against the Defender's two, and the Grenadier's beam axles are the easiest to modify."
+  },
+  {
+   "q": "Which has the most lockers?",
+   "a": "The G-Class and the Grenadier can both have three: the G has centre, rear and front locks on every gas model, and the Grenadier has a standard centre lock plus front and rear lockers with the Rough Pack (standard on the Trialmaster). The Defender has a lockable centre and a locking rear differential. The electric G 580 uses torque vectoring instead of mechanical lockers."
+  },
+  {
+   "q": "Which is cheapest to buy?",
+   "a": "The Defender, by a lot. 2020–22 trucks sold for $27k–42k on Bring a Trailer in 2025–26. Used 2024 Grenadiers typically brought $56.5k–72k, and the cheapest 2019 G 550s about $72k."
+  },
+  {
+   "q": "Which tows the most?",
+   "a": "The Defender, at 8,200 lb (3,500 kg). The Grenadier is rated at 3,500 kg braked (GearJunkie lists 7,716 lb) and a 2019 G 550 at 7,700 lb. Check payload as well: the Grenadier's is about 1,680 lb in US figures."
+  },
+  {
+   "q": "Can I get a diesel in the US?",
+   "a": "Not in any of them. Land Rover's six-cylinder diesels, the Grenadier's BMW B57 and the G 350 d / G 400 d are all sold in other markets only."
+  },
+  {
+   "q": "Which is the most reliable?",
+   "a": "None has a long, clean record yet. The Grenadier's BMW engine and ZF gearbox are proven, but owners report electronic gremlins; the Defender's weak spots are mild-hybrid electrics and sensors; the G's early trucks had several recalls. Buy the one with the best service and recall history, and keep a good dealer or specialist close."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Top Gear — Big boxy 4x4 test: Land Rover Defender vs Ineos Grenadier",
+   "url": "https://www.topgear.com/car-news/best-2023/big-boxy-4x4-test-land-rover-defender-vs-ineos-grenadier"
+  },
+  {
+   "name": "Carscoops — 2020 Land Rover Defender uncovered early in 90 and 110 guises",
+   "url": "https://www.carscoops.com/2019/09/2020-land-rover-defender-uncovered-early-in-90-and-110-guises/"
+  },
+  {
+   "name": "Mercedes-Benz USA media — 2019 G 550 specifications",
+   "url": "https://media.mbusa.com/releases/release-e38709a1cc517079cb36cfdf37108be5-2019-mercedes-benz-g550-specifications"
+  },
+  {
+   "name": "Wikipedia — Land Rover Defender (L663)",
+   "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)"
+  },
+  {
+   "name": "Land Rover — Defender 90 technical data, 21MY",
+   "url": "https://cdn.uc.assets.prezly.com/52cbc8d2-d4a1-43e7-abc8-656afe1fbd18/-/inline/no/Land%20Rover%20Defender%2090_TECH%20DATA_21MY_090920.pdf"
+  },
+  {
+   "name": "Land Rover USA — Defender 110 models and specifications",
+   "url": "https://www.landroverusa.com/defender/defender-110/models-and-specifications.html"
+  },
+  {
+   "name": "FuelEconomy.gov — 2026 Land Rover vehicles",
+   "url": "https://www.fueleconomy.gov/feg/bymake/Land_Rover2026.shtml"
+  },
+  {
+   "name": "Defender2.net — Tyres in L663 275/60/20",
+   "url": "https://www.defender2.net/forum/topic94303.html"
+  },
+  {
+   "name": "Defender2.net — DC-DC converter availability?",
+   "url": "https://www.defender2.net/forum/topic98108.html"
+  },
+  {
+   "name": "GearJunkie — Lucky8 Proud Rhino Land Rover Defender",
+   "url": "https://gearjunkie.com/motors/lucky8-proud-rhino-land-rover-defender-2-off-road"
+  },
+  {
+   "name": "NHTSA — Recall 26V248000 (Defender DC-DC converter)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V248000"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Defender L663 results",
+   "url": "https://bringatrailer.com/land-rover/defender-l663/"
+  },
+  {
+   "name": "Wikipedia — Ineos Grenadier",
+   "url": "https://en.wikipedia.org/wiki/Ineos_Grenadier"
+  },
+  {
+   "name": "4X4 Australia — Ineos Grenadier specs",
+   "url": "https://www.4x4australia.com.au/ineos/grenadier"
+  },
+  {
+   "name": "FuelEconomy.gov — 2024 INEOS Automotive vehicles",
+   "url": "https://fueleconomy.gov/feg/bymake/INEOS_Automotive2024.shtml"
+  },
+  {
+   "name": "The Drive — The 2024 Ineos Grenadier has a steering problem",
+   "url": "https://www.thedrive.com/car-reviews/2024-ineos-grenadier-steering"
+  },
+  {
+   "name": "GearJunkie — 2026 Ineos Grenadier review",
+   "url": "https://gearjunkie.com/motors/2026-ineos-grenadier-review"
+  },
+  {
+   "name": "Motor Authority — Ineos Grenadier Quartermaster price",
+   "url": "https://www.motorauthority.com/news/1142852_ineos-grenadier-quartermaster-price"
+  },
+  {
+   "name": "Motor1 — 2024 Ineos Grenadier US pricing announcement",
+   "url": "https://www.motor1.com/news/667738/ineos-grenadier-us-pricing-announcement/"
+  },
+  {
+   "name": "Cars.com — INEOS Grenadier recalls (NHTSA 25V147, 23V903, 23V828)",
+   "url": "https://www.cars.com/research/ineos-grenadier/recalls/"
+  },
+  {
+   "name": "The INEOS Forum — Largest functional tire without mods",
+   "url": "https://www.theineosforum.com/threads/largest-functional-tire-without-mods.12371337/page-30"
+  },
+  {
+   "name": "DVA Mechanics — Grenadier tire selection engineering guide",
+   "url": "https://dvamechanics.com/blogs/grenadier/grenadier-tire-selection-engineering-guide"
+  },
+  {
+   "name": "The INEOS Forum — How you feeling now about reliability?",
+   "url": "https://www.theineosforum.com/threads/how-you-feeling-now-about-reliability.12419213/"
+  },
+  {
+   "name": "Expedition Portal — Ineos Automotive to resume production in January following supply chain resolution",
+   "url": "https://expeditionportal.com/ineos-automotive-to-resume-production-in-january-following-supply-chain-resolution/"
+  },
+  {
+   "name": "Automotive Addicts — 2026 Ineos Grenadier invoice price (MSRP by trim)",
+   "url": "https://www.automotiveaddicts.com/?p=124375"
+  },
+  {
+   "name": "Bring a Trailer — INEOS Grenadier results",
+   "url": "https://bringatrailer.com/ineos/grenadier/"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz G-Class",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+  },
+  {
+   "name": "The Shop — Mercedes-Benz debuts new G-Class",
+   "url": "https://theshopmag.com/features/mercedes-benz-debuts-new-g-class/"
+  },
+  {
+   "name": "TFLcar — 2025 Mercedes-Benz G-Class changes (G550, AMG G63)",
+   "url": "https://tflcar.com/2024/03/2025-mercedes-benz-g-class-changes-g550-amg-g63/"
+  },
+  {
+   "name": "MPG Buddy — Mercedes-Benz G550 EPA fuel economy by year",
+   "url": "https://mpgbuddy.com/cars/mercedes-benz/g550/2012"
+  },
+  {
+   "name": "MotorVerso — NHTSA recall 23V097000 (2019–2021 G550 / AMG G63)",
+   "url": "https://www.motorverso.com/recalls/mercedes-benz/23V097000/"
+  },
+  {
+   "name": "NHTSA — Recall 20V-090 record (differential-locking module)",
+   "url": "https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=20V090000"
+  },
+  {
+   "name": "au7o — G-Class known issues (2020)",
+   "url": "https://au7o.io/known-issues/mercedes-benz-g-class?year=2020"
+  },
+  {
+   "name": "Eurowise — W463A 2.5-inch lift kit",
+   "url": "https://shop.eurowise.com/products/eww463a25il"
+  },
+  {
+   "name": "Eurowise — W463A/W464 underbody skid plates",
+   "url": "https://shop.eurowise.com/products/eurowise-w463a-w464-underbody-skid-plates"
+  },
+  {
+   "name": "Bring a Trailer — G-Class 2019-on (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-2019/"
+  },
+  {
+   "name": "Bring a Trailer — G-Class AMG 2019-on (sold results)",
+   "url": "https://bringatrailer.com/mercedes-benz/w463-g-class-amg-2019/"
+  }
+ ]
+}

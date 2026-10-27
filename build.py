@@ -290,6 +290,61 @@ def prettify_html(html, old_out):
     html = re.sub(re.escape(SITE_URL) + r'([^"\s<>]*?\.html)', lambda m: SITE_URL + pretty_path(m.group(1)).lstrip('/'), html)
     return html
 
+
+# ---------- responsive images ----------
+RESP_WIDTHS = (480, 800, 1280)
+RESP_DIR = 'img/_r'
+RESP = {}  # '/img/x/y.jpg' -> [(url, width), ...] plus the original
+
+def ensure_variants():
+    """Make WebP copies of every site image at a few widths (cached; only missing ones are built)."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print('  Pillow not installed: responsive images skipped')
+        return
+    made = 0
+    for f in sorted((SITE / 'img').rglob('*')):
+        if f.suffix.lower() not in ('.jpg', '.jpeg', '.png') or '/_r/' in f.as_posix() or '/avatars/' in f.as_posix():
+            continue
+        rel = f.relative_to(SITE / 'img').as_posix()
+        try:
+            with Image.open(f) as im:
+                ow, oh = im.size
+                cands = []
+                for w in RESP_WIDTHS:
+                    if w >= ow * 0.9:
+                        continue
+                    out = SITE / RESP_DIR / f'{rel.rsplit(".", 1)[0]}-{w}.webp'
+                    if not out.exists() or out.stat().st_mtime < f.stat().st_mtime:
+                        out.parent.mkdir(parents=True, exist_ok=True)
+                        rim = im.convert('RGB').resize((w, round(oh * w / ow)), Image.LANCZOS)
+                        rim.save(out, 'WEBP', quality=72, method=4)
+                        made += 1
+                    cands.append((f'/{RESP_DIR}/{rel.rsplit(".", 1)[0]}-{w}.webp', w))
+                cands.append(('/img/' + rel, ow))  # the original is the largest option
+                RESP['/img/' + rel] = cands
+        except Exception as e:
+            print('  variant failed', rel, e)
+    print(f'  responsive images: {len(RESP)} images, {made} variants built')
+
+_IMG_RE = re.compile(r'<img\b[^>]*>')
+def responsive_imgs(html):
+    def fix(m):
+        tag = m.group(0)
+        if 'srcset=' in tag:
+            return tag
+        sm = re.search(r'\ssrc="(/img/[^"]+)"', tag)
+        if not sm or sm.group(1) not in RESP:
+            return tag
+        srcset = ', '.join(f'{u} {w}w' for u, w in RESP[sm.group(1)])
+        if 'fetchpriority="high"' in tag or 'class="hero' in tag:
+            sizes = '100vw'
+        else:
+            sizes = '(max-width: 760px) 100vw, (max-width: 1200px) 60vw, 720px'
+        return tag[:-1].rstrip('/').rstrip() + f' srcset="{srcset}" sizes="{sizes}" decoding="async">'
+    return _IMG_RE.sub(fix, html)
+
 def redirect_stub(target_url):
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved — BoxyTrucks</title>'
             f'<link rel="canonical" href="{SITE_URL}{target_url.lstrip("/")}"><meta name="robots" content="noindex">'
@@ -303,6 +358,7 @@ def main():
         AVATARS = json.loads((DATA / 'avatars.json').read_text())
     except Exception:
         AVATARS = {}
+    ensure_variants()
     fams, flagship, pages, resources = load()
     reading = jload(DATA / 'reading.json') or {}
     global AFFILIATES
@@ -353,6 +409,7 @@ def main():
         html = env.get_template(tpl).render(root=root, families=fams, fam_list=fam_list, flagship=flagship, seo=seo, **ctx)
         html, _ = affiliate_rewrite(html, AFFILIATES)
         html = prettify_html(html, out)
+        html = responsive_imgs(html)
         new_out = pretty_out(out)
         if new_out != out:  # keep the old .html address working
             (SITE / out).parent.mkdir(parents=True, exist_ok=True)
