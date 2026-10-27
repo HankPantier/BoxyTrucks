@@ -96,6 +96,7 @@
       {% if x.fitment %}{% set ft = x.fitment %}
       <section id="fitment" class="sub">
         <h2 class="h-section">Wheels &amp; tires</h2>
+        <p class="sub-intro" style="margin-top:-4px"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug if g is defined else p.slug }}">Try the tire fitment tool: biggest tire at every lift →</a></p>
         {% if ft.stock %}<div class="kvrow"><span class="k">FACTORY TIRES</span><div class="chips">{% for t in ft.stock %}<span class="chip">{{ t }}</span>{% endfor %}</div></div>{% endif %}
         {% if ft.wheel %}<div class="kvgrid">{% for k, lbl in [('bolt_pattern','Bolt pattern'),('offset','Offset'),('center_bore','Center bore'),('lug_thread','Lug thread'),('lug_torque','Lug-nut torque')] %}{% if ft.wheel[k] %}<div><span class="k">{{ lbl }}</span><span class="v">{{ ft.wheel[k] }}</span></div>{% endif %}{% endfor %}</div>{% endif %}
         {% if ft.max_tire %}<div class="table-box"><table class="fit">

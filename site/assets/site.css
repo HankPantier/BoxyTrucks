@@ -543,3 +543,42 @@ html { scroll-padding-top: 90px; }
 .cmp-verdict > div { border: 1px solid var(--ink); background: var(--paper); padding: 18px; display: flex; flex-direction: column; gap: 8px; }
 .cmp-table td.cmp-l { font-size: 12px; letter-spacing: .06em; white-space: nowrap; }
 @media (max-width: 760px) { .cmp-heroes { grid-template-columns: 1fr 1fr; } .cmp-heroes[style*="--n:3"] .cmp-hero:last-child { grid-column: span 2; } .cmp-table td.cmp-l { font-weight: 600; } }
+
+/* tire fitment tool */
+.tf-intro { max-width: 640px; font-family: var(--serif, Newsreader, Georgia, serif); font-size: 21px; line-height: 1.45; color: #D9D4C8; margin: 0; }
+.tf-wrap { display: flex; flex-direction: column; gap: 40px; padding-bottom: 80px; }
+.tf-form { margin-top: -40px; background: var(--paper); border: 1px solid var(--ink); padding: 24px; display: flex; flex-wrap: wrap; gap: 20px 24px; align-items: flex-end; position: relative; }
+.tf-field { display: flex; flex-direction: column; gap: 8px; flex: 1 1 220px; min-width: 0; border: 0; margin: 0; padding: 0; }
+.tf-lifts { flex: 2 1 340px; }
+.tf-field label, .tf-field legend { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--stone, #5E5A52); padding: 0; }
+.tf-field legend { margin-bottom: 8px; }
+.tf-field select { font: 500 17px var(--sans, 'Inter Tight', sans-serif); padding: 12px 14px; border: 1px solid var(--ink); background: #fff; color: var(--ink); border-radius: 0; min-height: 48px; width: 100%; }
+.tf-steps { display: flex; flex-wrap: wrap; gap: 8px; }
+.tf-steps button { min-height: 44px; padding: 0 18px; font: 600 15px var(--sans, 'Inter Tight', sans-serif); cursor: pointer; border: 1px solid var(--ink); border-radius: 0; background: #fff; color: var(--ink); }
+.tf-steps button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.tf-result { display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch; }
+.tf-card { flex: 3 1 520px; min-width: 0; background: var(--paper); border: 1px solid var(--ink); padding: 32px; display: flex; flex-direction: column; gap: 18px; }
+.tf-at { margin: 0; font-size: 18px; font-weight: 500; }
+.tf-size { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+.tf-size #tf-size { font-family: var(--mono); font-size: clamp(26px, 3.4vw, 42px); font-weight: 500; line-height: 1.12; overflow-wrap: anywhere; }
+.tf-dia { font-size: 18px; color: var(--stone, #5E5A52); }
+.tf-note { margin: 0; font-family: var(--serif, Newsreader, Georgia, serif); font-size: 19px; line-height: 1.5; }
+.tf-shop { display: flex; flex-wrap: wrap; gap: 12px; }
+.tf-small { margin: 0; font-size: 13px; line-height: 1.5; color: var(--stone, #5E5A52); }
+.tf-viz { flex: 2 1 340px; min-width: 0; background: var(--night); color: var(--paper); padding: 32px; display: flex; flex-direction: column; gap: 22px; }
+.tf-tires { flex: 1; min-height: 200px; min-width: 0; overflow: hidden; display: flex; align-items: flex-end; justify-content: center; gap: 28px; border-bottom: 1px solid #3A3B37; }
+.tf-tires figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.tf-t { width: 140px; height: 140px; border-radius: 50%; box-sizing: border-box; border: 20px solid #4A4B46; background: radial-gradient(circle, #2A2B27 0 30%, #0E0F0E 31%); transition: width .25s, height .25s; }
+.tf-t.max { border-color: var(--brass); }
+.tf-tires figcaption { font-family: var(--mono); font-size: 12px; color: #D9D4C8; padding-bottom: 12px; }
+.tf-tires figcaption.max { color: var(--brass); }
+.tf-dl { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 20px; }
+.tf-dl dt { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #A8A397; }
+.tf-dl dd { margin: 4px 0 0; font-size: 15px; line-height: 1.35; }
+#tf-rows tr.on { background: #E6DFCF; }
+.tf-fam { border-top: 1px solid var(--ink); padding: 14px 0; }
+.tf-fam summary { cursor: pointer; font-size: 22px; font-weight: 600; }
+.tf-gen { padding: 12px 0 4px; }
+.tf-gen h3 { font-size: 17px; margin: 0 0 6px; display: flex; gap: 10px; flex-wrap: wrap; align-items: baseline; }
+.tf-gen h3 .mono { font-size: 12px; color: var(--stone, #5E5A52); }
+.tf-gen ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }

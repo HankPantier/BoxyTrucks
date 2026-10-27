@@ -37,6 +37,7 @@ NAV_FAMS = []
 NAV = [
     {'key': 'models', 'label': 'MODELS', 'href': 'models/index.html'},
     {'key': 'repairs', 'label': 'REPAIRS', 'href': 'repairs/index.html'},
+    {'key': 'tires', 'label': 'TIRES', 'href': 'tires/index.html'},
     {'key': 'mods', 'label': 'MODS & BUILDERS', 'href': 'mods/index.html'},
     {'key': 'resources', 'label': 'RESOURCES', 'href': 'resources/index.html'},
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
@@ -532,6 +533,30 @@ def main():
     render('compare_hub.html', 'compare/index.html', '../', compares=compares, by_fam=by_fam, active='models', crumbs=[('Compare', 'compare/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Compare', 'url': SITE_URL + 'compare/'}],
            title='Compare boxy 4x4s head to head — BoxyTrucks', description='80 vs 100 Series, JK vs JL, Wrangler vs Bronco, Defender vs Grenadier vs G-Class: sourced head-to-heads and the best years to buy.', credits='')
+
+
+    # ---------- tire fitment tool ----------
+    _clean = lambda t: LINK_RE.sub(lambda m: m.group(3), re.sub(r'\s*\[CONFIRM[^\]]*\]', '', str(t or ''))).strip()
+    tf_rows = []
+    for slug in FAMILY_ORDER:
+        if slug not in fams: continue
+        fam = fams[slug]
+        for g in fam['generations']:
+            p = pages[slug].get(g['slug'])
+            ft = ((p or {}).get('x') or {}).get('fitment') or {}
+            if not p or not ft.get('max_tire'): continue
+            tf_rows.append({'fs': slug, 'gs': g['slug'], 'fam': mlabel(fam['maker'], fam['name']), 'name': p.get('title', g['name']), 'years': g['years'],
+                            'stock': [_clean(x) for x in ft.get('stock', [])][:2], 'bolt': _clean((ft.get('wheel') or {}).get('bolt_pattern')),
+                            'tires': [{'lift': _clean(t['lift']), 'size': _clean(t['size']), 'note': _clean(t.get('note'))} for t in ft['max_tire']]})
+    if tf_rows:
+        tf_fams = [{'slug': s, 'label': next(r['fam'] for r in tf_rows if r['fs'] == s)} for s in dict.fromkeys(r['fs'] for r in tf_rows)]
+        tf_first = next((r for r in tf_rows if r['fs'] == 'land-cruiser' and r['gs'] == '80-series'), tf_rows[0])
+        render('tires.html', 'tires/index.html', '../', rows=tf_rows, fams=tf_fams, first=tf_first, active='tires',
+               data_json=Markup(json.dumps(tf_rows, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')),
+               crumbs=[('Tire fitment', 'tires/')],
+               jsonld=[{'@context': 'https://schema.org', '@type': 'WebApplication', 'name': 'BoxyTrucks tire fitment tool', 'url': SITE_URL + 'tires/', 'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}],
+               title='Biggest tire without a lift (and with one): fitment for every boxy 4x4 — BoxyTrucks',
+               description='Pick your truck and lift height to see the biggest tire owners and specialists run on every Land Cruiser, G-Class, Jeep, Bronco, 4Runner and more.', credits='')
 
     def href(root, slug, gen):
         return f'{root}models/{slug}/{gen}.html'
