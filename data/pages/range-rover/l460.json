@@ -402,6 +402,11 @@
    "src": "NHTSA · FULLFATRR"
   },
   {
+   "q": "Which years are the best to buy?",
+   "a": "Too early to call. NHTSA lists ten or eleven recalls for each of the 2022, 2023 and 2024 model years, so later trucks aren't clean either: 2022–23 carry the cam-carrier, seat-frame and tail-light campaigns, and 2024 adds panel-bonding, transmission and oil-filter-housing recalls. Owners prefer the 2024-on S68 V8. Buy on a closed recall list, a warranty and software that actually updates, not on the model year.",
+   "src": "NHTSA · FULLFATRR"
+  },
+  {
    "q": "Can I use a GAP tool on it?",
    "a": "Yes. GAP's IID G4 lists 2022–2025 L460s on the standard tool, for fault codes, live data, service resets, calibrations, air-suspension height adjustment and CCF edits. FullFatRR owners use it for proximity-locking and other CCF tweaks.",
    "src": "LUCKY8 · FULLFATRR"
@@ -849,6 +854,10 @@
   {
    "name": "LR Parts — VPLKR0188 cross bars, 2022 Range Rover and Range Rover Sport",
    "url": "https://secure.lrparts.net/vplkr0188-cross-bars-2022-range-rover-and-range-rover-sport-genuine-land-rover-product.html"
+  },
+  {
+   "name": "NHTSA — recalls, 2022 Land Rover Range Rover",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2022"
   }
  ],
  "baseline_service": {

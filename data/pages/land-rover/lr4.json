@@ -401,14 +401,19 @@
    "src": "MOTORAUTHORITY · EPA · LTB00474"
   },
   {
+   "q": "Which years are the best to buy?",
+   "a": "There's no clean answer. The 2010–13 V8s are the ones with standard low range, but treat every one as a timing-chain risk until you see the tensioner and lever invoice; the class-action settlement covered 2012–2014 5.0 trucks. The 2014–16 supercharged V6 avoids that problem and ReRev rates those years best, but low range and the rear locker came only with the Heavy Duty package, and the plastic cooling parts fail on both engines. Buy the records, then the year.",
+   "src": "LTB00474 · OPENCLASSACTIONS · REREV"
+  },
+  {
    "q": "Does my LR4 have low range and a rear locker?",
    "a": "All 2010–2013 US LR4s have the two-speed transfer box. Owners disagree on whether every 2010–2013 truck also got the rear locker, so check physically or with a VIN decode. For 2014–2016, low range and the active rear locker came only with the Heavy Duty package ($1,350), which also included a full-size spare.",
    "src": "WTOP · LANDROVERWORLD"
   },
   {
    "q": "Is the 5.0 timing-chain problem a deal-breaker?",
-   "a": "No, if it's been done or priced in. Bulletin LTB00474 covers 2010–2012 LR4s in VIN range AA513326–CA652214, and the fix is new tensioners and steel-insert levers (8.1 hours of labour by Land Rover's own timing). Owners believe later 2012 and 2013 engines got the updated parts from the factory, and many stress shorter oil-change intervals.",
-   "src": "LTB00474 · LANDROVERWORLD"
+   "a": "No, if it's been done or priced in. Bulletin LTB00474 covers 2010–2012 LR4s in VIN range AA513326–CA652214, and the fix is new tensioners and steel-insert levers (8.1 hours of labour by Land Rover's own timing). Don't assume a 2013 is immune: a parts-catalogue lookup posted on LandRoverWorld shows the revised tensioners, levers and guides only from VIN DA696315, partway through 2013, and a US class action settled in 2021 covered 2012–2014 LR4s and Range Rover Sports with the 5.0. Many owners stress shorter oil-change intervals.",
+   "src": "LTB00474 · LANDROVERWORLD · OPENCLASSACTIONS"
   },
   {
    "q": "How often should I replace the coolant crossover pipes?",
@@ -916,6 +921,22 @@
   {
    "name": "Wikimedia Commons — Journey of Discovery photo descriptions (Land Rover MENA)",
    "url": "https://commons.wikimedia.org/wiki/File:Journey_of_Discovery_-_Cholpon-Ata_to_Naryn_(6927667614).jpg"
+  },
+  {
+   "name": "Open Class Actions — Jaguar Land Rover timing chain class action settlement (2012–2014 LR4 and Range Rover Sport, 5.0)",
+   "url": "https://openclassactions.com/settlements/jaguar-land-rover-timing-chain-class-action-settlement.php"
+  },
+  {
+   "name": "Kantrowitz, Goldhamer & Graifman — Land Rover and Jaguar timing chain defect class action",
+   "url": "https://www.kgglaw.com/class-action/land-rover-and-jaguar-timing-chain-defect-class-action/"
+  },
+  {
+   "name": "LandRoverWorld — Timing chain class action settlement (owner discussion)",
+   "url": "https://www.landroverworld.org/goto/post?id=230563"
+  },
+  {
+   "name": "ReRev — Land Rover LR4 years to avoid",
+   "url": "https://rerev.com/years-to-avoid/vehicles/land-rover-lr4/"
   }
  ],
  "baseline_service": {

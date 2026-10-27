@@ -423,6 +423,11 @@
    "src": "WIKIPEDIA / CARGURUS / JD POWER"
   },
   {
+   "q": "Which years are the best to buy?",
+   "a": "Later is better, within reason. The 2005 LR3 has the most NHTSA complaints (96, against 8 for 2008 and 3 for 2009) and five recalls, and ReRev names 2005 the one to avoid and 2008–09 the most reliable. Raw complaint counts aren't adjusted for how many were sold, though, and PistonHeads still calls any phase-one Discovery 3 a high-risk purchase, so a thick service file beats a late build date.",
+   "src": "NHTSA · REREV · PISTONHEADS"
+  },
+  {
    "q": "Is the TDV6 crank failure real?",
    "a": "Yes, though it's uncommon. Land Rover bulletin SSM71816 covers crankshaft and main-bearing failures, mainly caused by incorrectly located bearing shells at assembly. Symptoms are a knock or rumble that worsens under load, sometimes with the oil-pressure light. Carbuyer calls it rare, unpredictable and very costly.",
    "src": "LAND ROVER SSM71816 / CARBUYER"
@@ -885,6 +890,26 @@
   {
    "name": "Bring a Trailer — Land Rover LR3",
    "url": "https://bringatrailer.com/land-rover/lr3/"
+  },
+  {
+   "name": "ReRev — Land Rover LR3 years to avoid",
+   "url": "https://rerev.com/years-to-avoid/vehicles/land-rover-lr3/"
+  },
+  {
+   "name": "NHTSA — complaints, 2005 Land Rover LR3",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=LR3&modelYear=2005"
+  },
+  {
+   "name": "NHTSA — complaints, 2008 Land Rover LR3",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=LR3&modelYear=2008"
+  },
+  {
+   "name": "NHTSA — complaints, 2009 Land Rover LR3",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=LR3&modelYear=2009"
+  },
+  {
+   "name": "NHTSA — recalls, 2005 Land Rover LR3",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=LR3&modelYear=2005"
   }
  ],
  "baseline_service": {
