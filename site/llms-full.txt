@@ -5877,6 +5877,9 @@ A: No. Locked diffs bind the driveline on high-grip surfaces. Use them on dirt, 
 - NHTSA — Recall 20V-090 record (differential-locking module): https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=20V090000
 - NHTSA — Recall 21V-353 record (rear door latch): https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=21V353000
 - NHTSA — Recall 24V-659 record (replacement rear door latch): https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=24V659000
+- Eurowise — W463A off-road rear bumper: https://shop.eurowise.com/products/w463a-offroad-rear-bumper
+- Eurowise — W463A/W464 underbody skid plates: https://shop.eurowise.com/products/eurowise-w463a-w464-underbody-skid-plates
+- Limitless Tire — 2020 Mercedes-Benz G-Class wheel and tire sizes: https://limitlesstire.com/vehicles/mercedes-benz/g-class/2020/
 - NHTSA — recall flat files (FLAT_RCL), Office of Defects Investigation: https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip
 - NHTSA — recalls API (campaign lookup): https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=23V097000
 - Wikipedia — Mercedes-Benz G-Class: https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class
@@ -7496,6 +7499,7 @@ A: Service parts such as filters, belts, hubs, CV axles and brake parts are stil
 - Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.3, 1985–1988: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/1f892a13756e3852/
 - Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.6i, 1988–1990: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e8c2f465cb1264a9/
 - Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 2.6i, 1990–1992: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e5d2aa2927990eef/
+- ARB USA — Air Locker RD203 (Isuzu IFS front) with Trooper fitment: https://store.arbusa.com/air-locker-differential-isuzu-ifs-17-spl-rd203
 - Wikipedia — Isuzu Trooper: https://en.wikipedia.org/wiki/Isuzu_Trooper
 - Isuzu Motors — Heritage (company history timeline): https://www.isuzu.co.jp/world/company/history.html
 - Car and Driver — From the Archive: 1984 Isuzu Trooper II Tested (May 1984): https://www.caranddriver.com/reviews/a43339389/1984-isuzu-trooper-ii-by-the-numbers/
@@ -7749,6 +7753,7 @@ A: Bring a Trailer sales since late 2024 run from $6,000 (a 2000 Limited) to $14
 - Liqui Moly oil guide (Olyslager data) — Acura SLX 3.5 V6, 1998–1999 (USA): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/e6ac0d933459de0f/
 - Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 3.2 V6, 1992–1998: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/6b55ce032f199765/
 - Liqui Moly oil guide (Olyslager data) — Isuzu Trooper 3.5 V6, 1998–2004: https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/5a038cc9de6c257b/
+- ARB USA — Air Locker RD203 (Isuzu IFS front) with Trooper fitment: https://store.arbusa.com/air-locker-differential-isuzu-ifs-17-spl-rd203
 - Wikipedia — Isuzu Trooper: https://en.wikipedia.org/wiki/Isuzu_Trooper
 - Isuzu Motors — Heritage (company history timeline): https://www.isuzu.co.jp/world/company/history.html
 - Acura (Honda newsroom) — 1996 Acura SLX specifications: https://hondanews.com/en-US/releases/release-fca5672643f189d994de02004c34c9d6-1996-acura-slx-specifications
@@ -13470,6 +13475,18 @@ Symptoms: Hard starting, or a truck that has been sitting. BaT trucks had fuel f
 Fix: Replace the fuel filter and bleed the system. Fit matched batteries for the 24 V system and check the charging voltage.
 Tools: Basic hand tools · fuel filter wrench · multimeter
 
+#### Inboard disc brake service
+Difficulty 3 / 5 · time ≈ A day for all four · cost Genuine pad kits about $80–84 and discs about $87 each at Nengun (October 2026), plus labor
+Symptoms: Grinding, a pull under braking, a soft pedal, or simply no records. All four brakes are ventilated discs mounted inboard, so they sit under the truck rather than behind the wheels, and they're easy to neglect. One BaT seller listed brake service among recent work.
+Fix: Support the truck securely on stands rated for its weight and work from underneath. At each brake, check pad thickness, disc condition, hoses and caliper seals. Replace pads and discs as a set per axle, clean the pad contact points, then bleed the system with fresh fluid. Front and rear parts carry different Toyota part numbers, so order by axle, and use the factory manual for torque values.
+Tools: Jack and heavy-duty stands · socket set · torque wrench · brake bleeder · brake cleaner · factory service manual.
+
+#### Underbody rust treatment
+Difficulty 2 / 5 · time ≈ A weekend · cost Materials plus labor
+Symptoms: Scale on the frame, suspension arms and hub-reduction housings. BaT sellers keep finding it: rust on the underside of several civilian trucks, visible rust on the underside components of a BXD10 soft-top, an underbody painted black over earlier rust, and one truck that needed rust repair before its repaint.
+Fix: Wash the underside and let it dry. Probe the frame, suspension mounts and hub-reduction housings for scale and pitting, and get anything structural looked at before you coat it. Wire-brush loose rust back to firm metal, apply a rust converter, then prime. Spray cavity wax inside the frame rails and an underbody wax over the visible underside, keeping it off brake parts and exhaust. Recheck every year.
+Tools: Pressure washer · wire brushes and a wire wheel · heavy-duty jack stands · cavity-wax wand · protective gear.
+
 ### Baseline service
 No factory owner's manual or service data for the Mega Cruiser is available online in English, so this list gives the systems to baseline and leaves the fluid specs for you to confirm in the Japanese factory manual. Assume nothing has been done since import unless there are receipts.
 - Engine oil & filter: Diesel engine oil for the 15B-FT/FTE · [CONFIRM IN MANUAL] · At purchase (The 15B family was also used in Toyota's Dyna light trucks, which may help with filter sourcing.)
@@ -13533,6 +13550,10 @@ A: The Drive reports that Toyota quoted about 22 mpg at a constant 37 mph, with 
 - Bring a Trailer — 1996 Mega Cruiser BXD10 (bid to $43,999, May 2024): https://bringatrailer.com/listing/1996-toyota-mega-cruiser-4/
 - Bring a Trailer — Left-hand-drive 1996 Mega Cruiser (bid to $144,000, Apr 2024): https://bringatrailer.com/listing/1996-toyota-mega-cruiser-3/
 - YouTube — Doug DeMuro: The Toyota Mega Cruiser Is a Crazy Hummer From Toyota: https://www.youtube.com/watch?v=PvZbKpwHT5g
+- Nengun — Toyota Mega Cruiser BXD20V genuine brake parts (pad kits 04465-65010 / 04466-65010, discs 43512-65010 / 42431-65010): https://www.nengun.com/oem/toyota/mega-cruiser-bxd20v/brakes
+- Bring a Trailer — 1996 Toyota Mega Cruiser (listing -5): https://bringatrailer.com/listing/1996-toyota-mega-cruiser-5/
+- Bring a Trailer — 1996 Toyota Mega Cruiser BXD10 (listing -4-2): https://bringatrailer.com/listing/1996-toyota-mega-cruiser-4-2/
+- Bring a Trailer — 1997 Toyota Mega Cruiser (listing -2): https://bringatrailer.com/listing/1997-toyota-mega-cruiser-2/
 - Toyota — Toyota introduces the Mega Cruiser (9 Jan 1996): https://global.toyota/en/detail/7882359
 - Toyota — 75 Years of Toyota: Mega Cruiser: https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012597/index.html
 - Wikipedia — Toyota Mega Cruiser: https://en.wikipedia.org/wiki/Toyota_Mega_Cruiser
@@ -18204,6 +18225,7 @@ A: If you plan to lift it, maybe. Slee Off-Road's LX 600 build was a Premium cus
 - FuelEconomy.gov — 2025 Lexus LX 600: https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48965
 - Kelley Blue Book — 2027 Lexus LX arrives with more standard features: https://www.kbb.com/car-news/2027-lexus-lx-arrives-with-more-standard-features/
 - ClubLexus — Lexus LX TSB listing, 2024 (L-SB-0036-24, L-SB-0019-24, L-SB-0027-24): https://www.clublexus.com/forums/tsb_recall/tsbs/lexus/lx/2024
+- Dissent Off-Road — LX600 & LX700h Dual Swing-Out Rear Bumper: https://dissentoffroad.com/products/lx600-lx700h-dual-swing-out-rear-bumper
 - NHTSA — Recalls by vehicle (api.nhtsa.gov): https://www.nhtsa.gov/recalls
 - NHTSA — Recall 25V-767: https://www.nhtsa.gov/recalls?nhtsaId=25V767
 - NHTSA — Recall 24V-381: https://www.nhtsa.gov/recalls?nhtsaId=24V381
@@ -18909,6 +18931,8 @@ A: Lexus's owner's manual calls for ILSAC GF-6A 0W-20 and lists 7.7 qt with a ne
 - IH8MUD — Oil change thread (GX550/LC250 forum): https://forum.ih8mud.com/threads/oil-change-thread.1341752/
 - IH8MUD — Dual batteries? (GX550/LC250 forum): https://forum.ih8mud.com/threads/dual-batteries.1383123/
 - K&N — 2024 Lexus GX550 3.4L V6 air filter fitment: https://www.knfilters.com/air-filters/lexus/gx550/3.4l-v6-gas/2024
+- Lazer Lamps — Lexus GX550 (2024+) Grille Kit: https://www.lazerlamps.com/lexus-gx550-2024-grille-kit.html
+- Cali Raised LED — 2024+ Tacoma, 4Runner, Land Cruiser and GX 550 Front Recovery Points: https://www.caliraisedled.com/products/2024-toyota-tacoma-4runner-land-cruiser-front-recovery-points
 - NHTSA — Recalls by vehicle (api.nhtsa.gov): https://www.nhtsa.gov/recalls
 - NHTSA — Recall 25V-767: https://www.nhtsa.gov/recalls?nhtsaId=25V767
 - NHTSA vPIC — VIN decoder: https://vpic.nhtsa.dot.gov/decoder/
@@ -19062,6 +19086,18 @@ Symptoms: 4WD that won't engage or won't release. US trucks have automatically l
 Fix: On loose ground, shift into 4H and drive forward until the hubs engage, then try 4L. Shift back to 2H and reverse a few metres to release the auto hubs; Mitsubishi describes the old procedure of stopping and backing about a metre. If one side won't engage, pull the hub, clean it, check the internals, and regrease it with the correct hub grease. Never run 4WD on dry pavement in this truck.
 Tools: Snap-ring pliers · hub socket · wheel-bearing grease · factory manual.
 
+#### Fix oil leaks: valve covers, intake gasket and oil-pressure sender
+Difficulty 2 / 5 · time ≈ 2–4 hours for valve covers or a sender; longer for an intake gasket or front seal · cost Gaskets and a sender are cheap; labor is the bill
+Symptoms: Oil on the exhaust manifolds, a burning smell after a drive, or wet patches under the engine. Bring a Trailer sellers list new valve cover gaskets and an oil-pressure sender on a 1989 Raider V6, and new valve cover and intake gaskets on a 1990 Montero 3.0. A 1988 Montero Sport 2.6 sold with an oil leak noted. Mitsubishi recalled 1984 Monteros (84V098) because the oil-pressure sender could leak oil.
+Fix: Degrease the engine, run it, and find the highest wet spot, because oil runs downhill. For valve covers, remove whatever crosses them (ignition leads, hoses, brackets), clean both sealing faces, fit new gaskets and bolt grommets, and tighten the bolts evenly in stages to the factory figure. A leaking oil-pressure sender is a quick swap: unplug it, unscrew it, and fit the new one with sealant on the threads only. Intake-gasket and front-seal leaks are bigger jobs. On the 1989 Raider the front timing-cover seal and oil-pan seal were done together, along with three belts and the crankshaft pulley.
+Tools: Degreaser · socket set · torque wrench · gasket scraper · oil-pressure-sender socket · thread sealant · factory service manual.
+
+#### Rust repair: windshield frame, roof and floors
+Difficulty 4 / 5 · time ≈ A weekend for surface rust; much longer if panels need cutting out · cost From a can of primer to a body-shop bill
+Symptoms: Bubbling paint along the windshield surround, roof gutters and hood, and soft spots in the floors and rear arches. Bring a Trailer's 1989 Raider showed corrosion on the hood, windshield surround and roof. Its 1988 Montero Sport had corrosion and failing clearcoat.
+Fix: Pull the trim and seals around the problem area and probe with a pick until you reach sound metal. Surface rust can be wire-brushed or blasted back to bright steel, then primed and painted. Anything holed has to be cut out and patched: coat the joint faces with weld-through primer, weld the patch in short stitches to limit heat distortion, then seam-seal and paint. Finish by spraying a cavity coating inside the sills and rails, and refit windshield and gutter seals with fresh sealant so water can't get back in.
+Tools: Pick and wire brushes · angle grinder with flap and cutting discs · MIG welder · panel clamps · seam sealer · cavity-spray wand.
+
 ### Baseline service
 These trucks are now 35–44 years old, so do everything. On the US 2.6 four that means oil, the timing chains if they rattle, a fresh fuel system and every gear oil, including the transfer case and the limited-slip rear if fitted. Capacities are AMSOIL's lookup figures for a US 1989 Montero 2.6; V6 and diesel trucks differ. The automatic-transmission figure and the oil and brake-fluid intervals come from Liqui Moly's lookup, which uses Mitsubishi's European data.
 - Engine oil & filter: 5W-30 or 10W-30 grades listed by temperature · ≈5.5 US qt with filter (2.6) · Mitsubishi's European schedule: every 10,000 km (≈6,000 mi) or 6 months, or 5,000 km (≈3,000 mi) in severe use (Liqui Moly lookup) · US schedule [CONFIRM IN MANUAL] (AMSOIL lists a WIX 51381 filter for the 2.6.)
@@ -19144,6 +19180,9 @@ A: Early trucks have leaf-sprung rear axles. Long-wheelbase trucks switched to t
 - NHTSA — Recall 84V098000 (1984 Montero oil-pressure sender): https://www.nhtsa.gov/recalls?nhtsaId=84V098000
 - Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 2.6 4WD, 1989–1991 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/f785ddd8d275c7b6/
 - Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6 4WD, 1989–1991 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/7d8ae4c3d83b7f2f/
+- ARB USA — Air Locker RD210 (Mitsubishi 8-inch rear, 28 spline) with Montero fitment: https://store.arbusa.com/air-locker-differential-mitsubishi-8-rr-28-spl-rd210/
+- Safari 4X4 — SS20HF snorkel for Mitsubishi Pajero NA 2.5L diesel: https://www.safari4x4.com.au/vehicles/mitsubishi/pajero/na-2-5l-diesel
+- ThreePiece.us — 1989 Mitsubishi Montero wheel fitment: https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1989/
 - Wikipedia — Mitsubishi Pajero: https://en.wikipedia.org/wiki/Mitsubishi_Pajero
 - JDMBUYSELL — Mitsubishi Pajero L040 buyer's guide: https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/
 - Mitsubishi Motors Japan — Pitman-arm ball-joint inspection notice (Japanese): https://www.mitsubishi-motors.co.jp/support/recall/others/tenken/detail_024.html
@@ -19287,6 +19326,18 @@ Symptoms: Cracked, chafed or weeping front hoses. NHTSA recall 96V143 says the w
 Fix: Check whether the recalls were done, then inspect the hoses at full lock with the suspension drooped. Clamp the hose or fit a pedal holder to limit fluid loss, swap the hose with new sealing washers, and check that it doesn't touch anything at either lock or at full droop. Bleed the brakes with DOT 3, the fluid AMSOIL's lookup lists for these trucks.
 Tools: Flare-nut wrenches · hose clamp · new copper washers · bleeder hose and bottle · DOT 3 fluid.
 
+#### Replace the V6 valve stem seals (blue smoke)
+Difficulty 4 / 5 · time ≈ A weekend with the heads on · cost A seal set is cheap; the labor isn't. Cheapest when the heads are already off
+Symptoms: A puff of blue smoke at start-up or after a long idle, smoke on the overrun, and oil use with no external leaks. Worn valve stem seals are a known V6 complaint. One ExplorOz owner says they 'normally need replacing at 200,000 km', and another warns that when they wear out it means 'a lot of smoke or [an] expensive repair'.
+Fix: First rule out the rings: a compression and leak-down test tells you whether the cylinders are healthy. With the heads on, the job means removing the intake plenum and valve gear, holding each valve shut with compressed air through the spark-plug hole while you compress its spring, then pulling the old seal and pressing on a new one. If the heads are coming off for gaskets anyway (see the head-gasket job), have the machine shop fit new seals and check the guides at the same time. Follow the factory manual for cam timing and torque values on reassembly.
+Tools: Compression and leak-down tester · spark-plug-hole air adapter and compressor · overhead valve-spring compressor · seal pliers and installer · torque wrench · factory service manual.
+
+#### Sill and chassis rust repair
+Difficulty 4 / 5 · time ≈ A weekend to several, depending on what you find · cost From a can of cavity wax to a fabrication bill
+Symptoms: Bubbling at the sills and rear wheel arches, flaking chassis rails and soft spring mounts. Steven Taylor's Mk2 Pajero video shows sill replacement and chassis welding on a 2.8, and BaT's 1998 Montero needed its underside treated.
+Fix: Get the truck on stands, wash the underside and scrape off loose underseal. Probe the sills, the rear chassis rails and the spring mounts with a pick or screwdriver. Surface rust can be ground or blasted back, treated, primed and painted. Holed sills have to be cut out and replaced with new sections: weld-through primer on the joint faces, short stitch welds, then seam sealer and paint. Rotten chassis or spring-mount metal is structural and is a job for a fabricator. Finish by spraying a cavity coating inside the sills and rails.
+Tools: Jack stands · pick or screwdriver · angle grinder · MIG welder · panel clamps · seam sealer · cavity-spray wand.
+
 ### Baseline service
 Assume nothing has been done without receipts. On a 3.0 or 3.5 V6 the big item is the timing belt with its idlers and water pump. Then do every gear oil, because the transfer case, both diffs and any factory limited-slip are rarely serviced. Capacities below are AMSOIL's lookup figures for US 1993 3.0 and 1997 3.5 Monteros; Liqui Moly's lookup gives matching diff and transfer-case figures for the 3.5, and supplies the oil and brake-fluid intervals. Confirm them for your engine and gearbox, especially on diesel imports.
 - Engine oil & filter: SAE 5W-30 preferred (10W-30 above −18 °C) · ≈5.2 US qt with filter (US 3.0 and 3.5) · Every 7,500 mi or 12 months, or every 3,000 mi or 3 months in severe use (US Montero 3.5, Liqui Moly lookup). Mitsubishi's European schedule for the 3.0 and 3.5 is 15,000 km or 12 months. (AMSOIL lists a WIX 51334 filter for both V6s. Diesel 4D56/4M40 capacities differ.)
@@ -19391,6 +19442,9 @@ A: The big one is the NADI driver airbag: NHTSA 20V035000 for 1998–2000 Monter
 - Liqui Moly oil guide (Olyslager data) — Mitsubishi Montero 3.5, 1992–2000 (USA): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/532f4ba523496222/
 - Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.0 V6, 1991–2001 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4f671afe50197eb9/
 - Liqui Moly oil guide (Olyslager data) — Mitsubishi Pajero/Shogun 3.5 V6, 1994–1999 (Europe): https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/4d9ba8cc93ace581/
+- ARB USA — Air Locker RD110 (Mitsubishi IFS front) with Montero fitment: https://store.arbusa.com/air-locker-differential-mitsubishi-ifs-28-spl-rd110/
+- ARB USA — Air Locker RD210 (Mitsubishi 8-inch rear) with Montero fitment: https://store.arbusa.com/air-locker-differential-mitsubishi-8-rr-28-spl-rd210/
+- ThreePiece.us — 1995 Mitsubishi Montero wheel fitment: https://vehicles.threepiece.us/vehicles/mitsubishi/montero/1995/
 - Wikipedia — Mitsubishi Pajero: https://en.wikipedia.org/wiki/Mitsubishi_Pajero
 - Wikipedia — Mitsubishi Pajero Evolution: https://en.wikipedia.org/wiki/Mitsubishi_Pajero_Evolution
 - Wikipedia — Mitsubishi 6G7 engine: https://en.wikipedia.org/wiki/Mitsubishi_6G7_engine
@@ -19625,6 +19679,7 @@ A: Both can be correct for a US truck. SNLC says 1960s Warn hubs were sold by US
 - NHTSA — Importation and certification FAQs: https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs
 - Wikimedia Commons — Chander Gari Nissan Patrol 60 photos (Shadman Samee): https://commons.wikimedia.org/wiki/File:Chander_Gari_Nissan_Patrol_60._(40519459985).jpg
 - Penrite Oil — lubricant recommendation lookup (Infomedia NetLube data): Nissan Patrol G60 4x4, P engine (1968–1980): http://www.datateck.com.au/Lube/PenriteAus/
+- Whiteline — Parts for Nissan Patrol G60, G61: https://whitelineperformance.com/au/search/popular-parts-for-nissan-patrol-g60-g61
 - Wikipedia — Nissan Patrol (60 Series, Jonga): https://en.wikipedia.org/wiki/Nissan_Patrol
 - Wikipedia — Nissan P engine: https://en.wikipedia.org/wiki/Nissan_P_engine
 - GoAuto — Nissan 60 Series Patrol (1965): https://www.goauto.com.au/used-car-research/nissan/60-series-patrol/1965-05-01/1596.html
@@ -21861,6 +21916,7 @@ A: Not easily. A 2025 FullFatRR thread found no off-the-shelf sliders or underbo
 - NHTSA — recall 26V-678, rear camera drain holes: https://www.nhtsa.gov/recalls?nhtsaId=26V678000
 - NHTSA — owner complaints, 2023 Land Rover Range Rover: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2023
 - NHTSA — owner complaints, 2024 Land Rover Range Rover: https://api.nhtsa.gov/complaints/complaintsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2024
+- LR Parts — VPLKR0188 cross bars, 2022 Range Rover and Range Rover Sport: https://secure.lrparts.net/vplkr0188-cross-bars-2022-range-rover-and-range-rover-sport-genuine-land-rover-product.html
 - Wheel-Size.com — 2022 Land Rover Range Rover wheel fitment: https://www.wheel-size.com/size/land-rover/range-rover/2022/
 - Lucky8 — 20" Gotham wheels (5x120, fits L322/L405/L460): https://lucky8llc.com/products/gotham-wheels
 - NHTSA — Recalls API, Land Rover Range Rover MY2022: https://api.nhtsa.gov/recalls/recallsByVehicle?make=LAND%20ROVER&model=RANGE%20ROVER&modelYear=2022
@@ -22002,6 +22058,12 @@ Symptoms: Hard starting, misfires and poor idle on the F8A four-stroke.
 Fix: Replace the points and condenser, distributor cap, rotor and plugs, then set the points gap and ignition timing to the manual's figures. Replace the air and fuel filters at the same time.
 Tools: Feeler gauges · timing light · dwell meter · plug socket
 
+#### Chassis rust: inspect, treat and wax the frame
+Difficulty 3 / 5 · time ≈ A weekend to clean and treat; welding is extra · cost Materials plus labor; frame welding is a specialist bill
+Symptoms: Flaking scale on the frame rails and crossmembers, and rust around the body mounts and spring hangers. Classic Trader's LJ 80 guide calls rust 'a defining drawback', 'especially affecting the steel body panels and chassis', and tells buyers to check the sills, floor panels and frame.
+Fix: Wash the underside and scrape off old underseal so you can see the metal. Tap and probe the rails, crossmembers, spring hangers and body-mount points. Anything holed or thin around a mount needs welding by someone who knows frames. On sound metal, wire-brush back to clean steel, then zinc-prime and paint. Finish with an underbody wax, including inside the rails where you can reach. Free seized body-mount bolts with penetrating oil and replace any that are corroded while you're under there.
+Tools: Scraper and wire brushes · angle grinder · pick · jack stands · spray gun or aerosol cans · penetrating oil.
+
 ### Baseline service
 These trucks are 45-plus years old, so rebuild the basics before you trust one. LJ80 capacities below come from Liqui Moly's oil guide (Olyslager data). We couldn't source specs for the two-stroke LJ10, LJ20 and LJ50, so confirm those in a service manual. LJ80.de sells a complete LJ80 inspection kit.
 - Inspection kit (LJ80): Filters and service parts for the F8A · At purchase (There's also a kit for the SJ410.)
@@ -22060,6 +22122,7 @@ A: The 359 cc and 539 cc trucks were. The 797 cc Jimny 8 (SJ20/LJ80) was the fir
 - Bring a Trailer — 1972 Suzuki Jimny (LJ20): https://bringatrailer.com/listing/1972-suzuki-jimny-22/
 - LJ80.de — Suzuki LJ80 parts shop and catalogue: https://www.lj80.de/
 - Liqui Moly — Oil guide (Olyslager data), Suzuki LJ80 (1977–1983): https://www.liqui-moly.com/en/service/oil-guide.html
+- Classic Trader — Suzuki LJ 80 model guide (weak spots and common issues): https://www.classic-trader.com/uk/cars/listing/suzuki/lj/lj-80/1979/352539
 - Wikipedia — Suzuki Jimny: https://en.wikipedia.org/wiki/Suzuki_Jimny
 - Suzuki Motor Corporation (Japan) — Jimny history: LJ10: https://www.suzuki.co.jp/car/jimny/special/history/lj10.html
 - Suzuki Motor Corporation (Japan) — Jimny history: LJ20: https://www.suzuki.co.jp/car/jimny/special/history/lj20.html
@@ -22692,6 +22755,12 @@ Symptoms: A hum or rumble from the rear that changes with speed, or play at the 
 Fix: Pull the axle shaft, press off the old bearing and retainer, press on the new ABS-type bearing and retainer and fit a new axle oil seal. BigJimny's rear wheel bearing guide covers the gen 3 procedure; check your gen 4 manual for differences.
 Tools: Slide hammer or puller · hydraulic press · new retainer ring.
 
+#### Rust-proof the chassis and body cavities
+Difficulty 2 / 5 · time ≈ A day, plus drying time · cost Materials plus labor
+Symptoms: None at first, which is the point. BigJimny's wiki says every Jimny generation has 'particularly poor rust prevention' from the factory. The usual spots are the body and suspension mounting points on the chassis, factory welds on the chassis and axles, the boot floor, under the rear seats, the inner wheel arches and behind the side cladding.
+Fix: Wash the underside thoroughly and let it dry. Inspect the body and coil-spring mounts and the chassis welds. BigJimny warns that any existing rust must be removed completely before coating, because rust sealed under a coating keeps spreading out of sight. Treat cleaned spots with a rust converter and primer. Then spray cavity wax inside the chassis rails and body cavities, and an underbody wax over the visible underside. Keep the drain holes clear, and recheck every year, especially after salted roads.
+Tools: Pressure washer · wire brushes · jack stands · cavity-wax wand with a long probe · protective gear.
+
 ### Baseline service
 No US dealer will ever service one, so the owner's handbook is your bible. The grades and intervals below are Suzuki's handbook figures as transcribed by maintenanceschedule.com (2021 JB64/JB74 handbook) and jimny.joker.art.pl (2023 handbook for the five-door JC74, which shares the K15B and gearboxes). Capacities come from Liqui Moly's oil guide (Olyslager data) for the 2018–2024 Jimny 1.5 and match the five-door handbook. On a used truck with gaps in its history, BigJimny's rule for every Jimny applies: change every fluid and filter now.
 - Engine oil & filter: SAE 0W-16 preferred; 0W-20 or 5W-30 also approved (API SL or newer, or ACEA A1/B1 or better in Europe) · 3.6 L with filter · Handbook: 20,000 km / 12 months in Europe with ACEA oil (15,000 km otherwise, and in Asia/Australia); 10,000 km / 6 months in severe use (Europe) or 7,500 km (Asia/Australia) (Use a genuine Gen 4 filter.)
@@ -22775,6 +22844,8 @@ A: Japanese tuner DAMD sells 'little G.' body kits for the Jimny Sierra that res
 - jimny.joker.art.pl — Service schedule, Jimny JC74 K15B (from Suzuki owner's manual 99011-78RM8-01E, Nov 2023): https://jimny.joker.art.pl/en/service-schedule
 - Liqui Moly — Oil guide (Olyslager data), Suzuki Jimny 1.5 AWD (2018–2024): https://www.liqui-moly.com/en/service/oil-guide.html
 - BigJimny Forum — New white SZ5, recommended oil SAE 0W-16 API SN (owner quoting the handbook): https://www.bigjimny.com/forum/6-jimny-chat/64274-new-white-sz5-recommended-oil-sae-ow-16-api-sn
+- BigJimny Wiki — Rust protection: https://bigjimny.com/mediawiki/index.php/Rust_protection
+- Bilt Hamber — Dynax-S50 cavity wax: https://www.bilthamber.com/dynax-s50
 - Global Suzuki — Suzuki launches the all-new Jimny 4WD vehicles in Japan (5 July 2018): https://www.globalsuzuki.com/globalnews/2018/0705.html
 - Wikipedia — Suzuki Jimny: https://en.wikipedia.org/wiki/Suzuki_Jimny
 - Wikipedia — Suzuki: https://en.wikipedia.org/wiki/Suzuki
