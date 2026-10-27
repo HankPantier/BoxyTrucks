@@ -33,8 +33,15 @@
    "domains": [
     "ebay.com"
    ],
-   "status": "APPLIED 2026-10-27, pending. Once approved: add params mkevt=1, mkcid=1, mkrid=711-53200-19255-0, campid=<campaign id>, toolid=10001",
-   "template": ""
+   "status": "ACTIVE — approved 2026-10-27, campaign 'default' ID 5339233573; 1–4% on sales, 1-day referral window",
+   "template": "",
+   "params": {
+    "mkevt": "1",
+    "mkcid": "1",
+    "mkrid": "711-53200-19255-0",
+    "campid": "5339233573",
+    "toolid": "10001"
+   }
   },
   {
    "name": "FCP Euro",

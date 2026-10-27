@@ -199,6 +199,7 @@
       <section id="repairs" style="display:flex;flex-direction:column;gap:22px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">For the hands-on owner</span><h2 style="font-size:34px">Common repairs</h2></div>
         <div class="prose"><p style="margin:0">The jobs owners actually end up doing, rated for a competent home mechanic with a decent tool kit. Always confirm torque figures, fluids and procedures against the factory service manual for your VIN, and work safely — support the truck on stands, never just a jack. You do this work at your own risk; see the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.{% if affiliates_on %} Some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p></div>
+        {% set ebq = (mlabel(fam.maker, p.title) ~ ' parts')|replace('×','x') %}<p class="sub-intro" style="margin:0">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ ebq|urlencode }}&amp;_sacat=6000" rel="noopener sponsored" target="_blank">Search eBay Motors for {{ mlabel(fam.maker, p.title) }} parts →</a></p>
         <div class="stack">
         {% for r in p.repairs %}
           <article class="repair">
