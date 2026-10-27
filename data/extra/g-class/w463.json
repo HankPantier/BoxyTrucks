@@ -140,11 +140,21 @@
   {
    "year": "1998",
    "change": "G 500 brings the M113 V8 into regular production",
-   "flag": "buy"
+   "flag": "note"
   },
   {
    "year": "2001–02",
    "change": "ESP, Brake Assist and 4ETS traction control arrive; Mercedes-Benz USA starts official sales for MY2002",
+   "flag": "note"
+  },
+  {
+   "year": "2002–04",
+   "change": "Early US trucks have the electrical gremlins: Handsome Motors lists seat motors and controls, window regulators and motors, door-lock actuators and transfer-case actuators. Expedition Portal owners say the same about 2002–03",
+   "flag": "avoid"
+  },
+  {
+   "year": "2005–08",
+   "change": "The G 500 sweet spot. Handsome Motors says the early electrical faults were mostly gone by 2005–06; the US switch to the seven-speed came for MY2007",
    "flag": "buy"
   },
   {
@@ -164,8 +174,8 @@
   },
   {
    "year": "2016",
-   "change": "M176 4.0-litre twin-turbo V8 replaces the M273 in the G 500/G 550; Handsome Motors rates 2016–18 trucks a good buy",
-   "flag": "buy"
+   "change": "M176 4.0-litre twin-turbo V8 replaces the M273 in the G 500/G 550. Handsome Motors calls 2016–18 trucks a reliable option but rates 2002–15 trucks higher for outright reliability",
+   "flag": "note"
   },
   {
    "year": "2018",

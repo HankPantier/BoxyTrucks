@@ -295,7 +295,7 @@
     "platform": "W463",
     "engine": "M113 5.0 L V8",
     "output": "292 hp",
-    "note": "First regular-production V8 G. Pre-2002 US trucks came via Europa International; Mercedes sold it officially from MY2002; US trucks switched from the five-speed 722.6 to the seven-speed 722.9 during 2007; 2008 was the last US G 500"
+    "note": "First regular-production V8 G. Pre-2002 US trucks came via Europa International; Mercedes sold it officially from MY2002; US trucks switched from the five-speed 722.6 to the seven-speed 722.9 for MY2007 (June 2006 production); 2008 was the last US G 500"
    },
    {
     "years": "2008–2015",
@@ -341,6 +341,10 @@
    {
     "head": "Is it really an AMG?",
     "body": "Plenty of standard Gs have been dressed as AMGs. Check the VIN and data card against the badges before paying an AMG premium."
+   },
+   {
+    "head": "Work every window, lock and seat",
+    "body": "Especially on 2002–04 trucks. Handsome Motors lists seat motors and controls, window regulators and motors, and door-lock actuators as the early trucks' electrical gremlins, along with the transfer-case actuator. Try every switch, every door from inside and out, and shift the transfer case."
    },
    {
     "head": "Listen at idle",
@@ -646,13 +650,18 @@
     "src": "ADAC · EPA · MERCEDES-BENZ CANADA"
    },
    {
+    "q": "Which years are the best to buy?",
+    "a": "2005–08. The 2002–04 trucks are the ones with the electrical gremlins. Handsome Motors, a G specialist dealer, lists seat motors and controls, window regulators and motors, door-lock actuators and transfer-case actuators, and says the faults got better every year until they were mostly gone by 2005–06. Expedition Portal owners say the same about 2002–03. One owner notes that Mercedes changed some electronics partway through 2003. CarGurus is harsher: it says 2002–05 trucks draw the most complaints, mostly electrical, and that the 2009-on G 550 is better still. Within 2005–08 you're really choosing a gearbox. 2005–06 trucks have the five-speed 722.6 with a dipstick, which one Expedition Portal regular prefers because it's easier to service. 2007–08 trucks have the seven-speed 7G-TRONIC, plus HID lamps and a reversing camera (see the question above for how to tell them apart). Some owners would rather have a pre-2002 Europa G 500 with its manual transfer-case lever and fewer electronics, but parts and paperwork are harder. Whatever the year, test every window, lock and seat before you hand over money.",
+    "src": "HANDSOME MOTORS · EXPEDITION PORTAL · CARGURUS"
+   },
+   {
     "q": "Will it fit in my garage?",
     "a": "Kelley Blue Book lists a 2002 G 500 at 185.6 in (about 15.5 ft) long on a 112-inch wheelbase. Mercedes' 2015 G 550 manual gives a height of 76.8 in (1,951 mm), so plan on about 6 ft 5 in before you add a roof rack or a lift — and note that the same manual says the factory roof isn't rated for loads.",
     "src": "KBB · MERCEDES-BENZ USA 2015 MANUAL"
    },
    {
     "q": "Is the G 500 reliable?",
-    "a": "The frame, axles and V8 are tough; the age-related jobs are predictable — harmonic balancer, vacuum lines for the lockers, axle seals, steering damper, sunroof drains. A truck with records of these is a far safer buy than a low-mileage one that’s never been touched.",
+    "a": "The frame, axles and V8 are tough; the age-related jobs are predictable — harmonic balancer, vacuum lines for the lockers, axle seals, steering damper, sunroof drains. A truck with records of these is a far safer buy than a low-mileage one that’s never been touched. On 2002–04 trucks, add the electrical gremlins to the list: windows, door locks, seat motors and the transfer-case actuator.",
     "src": "AUTOCAR · AU7O · GO-PARTS"
    },
    {
@@ -1036,6 +1045,30 @@
    {
     "name": "FCP Euro — The definitive guide to the Mercedes 722.9 7G-Tronic (no dipstick)",
     "url": "https://www.fcpeuro.com/blog/the-definitive-guide-to-the-mercedes-722-9-7g-tronic-transmission"
+   },
+   {
+    "name": "Handsome Motors — G-Wagon buyer's guide",
+    "url": "https://handsomemotors.com/g-wagon-buyers-guide"
+   },
+   {
+    "name": "CarGurus — Mercedes-Benz G-Class buying guide: cost, reliability and the best years to buy",
+    "url": "https://cargurus.com/Cars/articles/mercedes-benz-g-class-buying-guide"
+   },
+   {
+    "name": "Expedition Portal — Reliability question (G 500 model years)",
+    "url": "https://forum.expeditionportal.com/goto/post?id=1629041"
+   },
+   {
+    "name": "Expedition Portal — Starting a G Wagon search (2002–03 electrics, 2005 five-speed)",
+    "url": "https://forum.expeditionportal.com/goto/post?id=1482523"
+   },
+   {
+    "name": "Expedition Portal — Buying a '04 G 500 with 150k miles (early MBUSA electrical faults)",
+    "url": "https://forum.expeditionportal.com/goto/post?id=2156701"
+   },
+   {
+    "name": "Expedition Portal — Considering a G wagen (2002+ electrics vs 2000 manual transfer-case lever)",
+    "url": "https://forum.expeditionportal.com/goto/post?id=1325041"
    }
   ],
   "baseline_service": {
