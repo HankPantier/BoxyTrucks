@@ -128,8 +128,8 @@
  "timeline": [
   {
    "year": "1984",
-   "change": "Launch: unibody 'Uniframe', Quadra-Link coil front and leaf rear on live axles; 2.5 L AMC four or 2.8 L GM V6; NP207 Command-Trac or NP228/229 Selec-Trac. 1,200 lb lighter and 31 in shorter than the SJ Cherokee",
-   "flag": "note"
+   "change": "Launch: unibody 'Uniframe', Quadra-Link coil front and leaf rear on live axles; 2.5 L AMC four or 2.8 L GM V6; NP207 Command-Trac or NP228/229 Selec-Trac. 1,200 lb lighter and 31 in shorter than the SJ Cherokee. No 4.0 until 1987: Off Road Xtreme recommends staying away from 1984–86 trucks",
+   "flag": "avoid"
   },
   {
    "year": "1985",
@@ -139,7 +139,7 @@
   {
    "year": "1987",
    "change": "4.0 L six (173 hp, Renix injection) replaces the V6; AW4 automatic and NP231/NP242 transfer cases arrive; Chrysler buys AMC. Dana 44 rear with the tow package through 1991",
-   "flag": "buy"
+   "flag": "note"
   },
   {
    "year": "1989",
@@ -148,7 +148,7 @@
   },
   {
    "year": "1991",
-   "change": "4.0 L 'High Output' with Chrysler multi-point injection, 190 hp; Chrysler 8.25 in rear axle available on non-ABS trucks",
+   "change": "4.0 L 'High Output' with Chrysler multi-point injection, 190 hp; Chrysler 8.25 in rear axle available on non-ABS trucks. The HO is the XJ Off Road Xtreme recommends: easier to diagnose than the Renix 4.0, and more power",
    "flag": "buy"
   },
   {
@@ -159,7 +159,7 @@
   {
    "year": "1997",
    "change": "Facelift: steel liftgate replaces fibreglass, new interior and dash with dual airbags, stiffer unibody and quieter door seals",
-   "flag": "buy"
+   "flag": "note"
   },
   {
    "year": "1999",
@@ -168,8 +168,8 @@
   },
   {
    "year": "2000",
-   "change": "Coil-on-plug ignition on the 4.0 (193 hp); NV3550 replaces the AX15; front Dana 30 changes from high pinion to low pinion",
-   "flag": "note"
+   "change": "Coil-on-plug ignition on the 4.0 (193 hp); NV3550 replaces the AX15; front Dana 30 goes low pinion. New '0331' cylinder head: early castings can crack between cylinders 3 and 4 and put coolant in the oil (Wikipedia). A revised 'TUPY' casting arrived late in 2001, so check the head on any 2000–01",
+   "flag": "avoid"
   },
   {
    "year": "2001",

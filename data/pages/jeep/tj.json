@@ -400,6 +400,11 @@
    "q": "TJ or LJ (Unlimited)?",
    "a": "The Unlimited, sold for 2004–06, stretches the TJ by 15 inches, 10 of them in the wheelbase (103.4 in versus 93.4 in). Drivingline says that adds cargo room and stability on steep trails, but the LJ costs more because it was built for only three model years.",
    "src": "DRIVINGLINE · WIKIPEDIA"
+  },
+  {
+   "q": "Which years are the best to buy?",
+   "a": "There's no consensus year, which is why we only flag the early trucks. SlashGear rates mid-to-late TJs among the most desirable Wranglers and points manual buyers to 2005–06 for the NSG370 six-speed. RealTruck, on the other hand, lists 2005 and 2006 among its worst Wrangler years, and Quadratec says 2005–06 4.0s need the oil pump drive assembly checked or replaced. Driving Line doesn't pick a year at all: it says get the six-cylinder. Every TJ frame can rust, so the frame matters more than the model year. Check the rear lower control-arm mounts first.",
+   "src": "SLASHGEAR · REALTRUCK · QUADRATEC · DRIVING LINE"
   }
  ],
  "mods": [
@@ -816,6 +821,14 @@
   {
    "name": "fueleconomy.gov — Jeep Wrangler/TJ 4WD EPA ratings",
    "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=1987&year2=2006&make=Jeep&baseModel=Wrangler"
+  },
+  {
+   "name": "SlashGear — The best years for Jeep Wrangler (and some to steer clear of)",
+   "url": "https://www.slashgear.com/1597691/jeep-wrangler-best-years-some-stay-away-from/"
+  },
+  {
+   "name": "RealTruck — Best and worst years for Jeep Wrangler",
+   "url": "https://realtruck.com/blog/best-worst-years-jeep-wrangler/"
   }
  ],
  "baseline_service": {

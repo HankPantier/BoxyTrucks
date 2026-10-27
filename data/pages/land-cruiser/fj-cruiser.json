@@ -401,9 +401,9 @@
    "src": "FUELECONOMY.GOV · WIKIPEDIA"
   },
   {
-   "q": "Which years should I buy?",
-   "a": "2010 and later trucks have the stronger dual VVT-i engine on regular fuel and avoid the early inner-fender problem; 2011 brought easier rear-seat access. Early trucks can be fine with records and a good inspection. Rust history and how the truck was used matter more than the year.",
-   "src": "WIKIPEDIA · IH8MUD"
+   "q": "Which years are the best to buy?",
+   "a": "2010–14 if you can. Those trucks have the dual VVT-i engine on regular fuel, and CarGurus says the inner-fender bulge mostly shows up on 2007–09 trucks, while 2007 draws far more owner complaints than any other year. IH8MUD owners add that some pre-February 2007 builds had a brittle rear ring and pinion, so check the door-jamb build date. They also point out that an early truck you plan to re-gear anyway isn't much of a loss. Rust history and how the truck was used matter more than the year.",
+   "src": "CARGURUS · IH8MUD"
   },
   {
    "q": "What is the inner fender problem?",
@@ -840,6 +840,14 @@
   {
    "name": "NHTSA — Owner complaints, 2007 Toyota FJ Cruiser (api.nhtsa.gov)",
    "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=toyota&model=fj%20cruiser&modelYear=2007"
+  },
+  {
+   "name": "CarGurus — Toyota FJ Cruiser buying guide: cost, reliability and the best years to buy",
+   "url": "https://www.cargurus.com/research/articles/toyota-fj-cruiser-buying-guide"
+  },
+  {
+   "name": "IH8MUD — What year FJ to buy?",
+   "url": "https://forum.ih8mud.com/threads/what-year-fj-to-buy.804674/"
   }
  ],
  "baseline_service": {

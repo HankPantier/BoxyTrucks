@@ -597,6 +597,11 @@
    "q": "Manual or automatic?",
    "a": "The six-speed manual is rare and was dropped for 2025. It's also the gearbox with the clutch recalls and the lower tow ratings. The eight-speed automatic tows more and was the only choice with the diesel.",
    "src": "NHTSA · STELLANTIS"
+  },
+  {
+   "q": "Which years are the best to buy?",
+   "a": "There's no consensus year yet, so we don't flag one. The recall history is the better guide. Early 2020 trucks had the rear driveshaft recall (19V-636). Manual trucks from 2020 to 2023 are covered by the clutch pressure-plate recalls (20V-124, 21V-028, 23V-116), and some 2021s needed a second fix (24V-572). Diesels have fuel-pump recalls 22V-767 (2021–22) and 23V-263 (2021–23), and 2021–25 trucks are in the power-steering pump wiring recall (26V-363). The 2024 refresh added curtain airbags and the big screen, if those matter to you. Buy whichever year you can prove every recall on.",
+   "src": "NHTSA"
   }
  ],
  "mods": [
@@ -940,6 +945,14 @@
   {
    "name": "Bring a Trailer — Jeep JT Gladiator results",
    "url": "https://bringatrailer.com/jeep/jt-gladiator/"
+  },
+  {
+   "name": "NHTSA — recalls API, 2020 Jeep Gladiator",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=GLADIATOR&modelYear=2020"
+  },
+  {
+   "name": "NHTSA — recalls API, 2021 Jeep Gladiator",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=GLADIATOR&modelYear=2021"
   }
  ]
 }

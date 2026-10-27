@@ -666,6 +666,11 @@
    "q": "What are they worth?",
    "a": "Not much. Nineteen ZJs sold on Bring a Trailer between October 2025 and October 2026 for between $4,250 and $18,500, with a median of about $9,700. The top result was an 11,000-mile 1998 Limited. In 2017 OffroadXtreme put rough ones at about $1,000 and nice ones at $3,000 and up.",
    "src": "BRING A TRAILER · OFFROADXTREME"
+  },
+  {
+   "q": "Which years are the best to buy?",
+   "a": "There's no real consensus, so we don't flag one. SlashGear picks 1993, 1994 and 1998 and says to avoid 1995–96 for transmission complaints, but NHTSA's complaint database holds a similar 1,200 to 1,560 complaints for every ZJ model year, with 1998 logging the most powertrain reports, and CarComplaints.com shows no ZJ year standing out. Buy on condition instead: frame rust, leaks, a transfer case that works in every mode and the 13V-252 hitch recall done. If you want the collectible, it's the 1998 5.9 Limited.",
+   "src": "SLASHGEAR · NHTSA · CARCOMPLAINTS.COM"
   }
  ],
  "mods": [
@@ -1037,6 +1042,26 @@
   {
    "name": "NHTSA complaints API — 1993 Jeep Grand Cherokee (crank sensor)",
    "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1993"
+  },
+  {
+   "name": "SlashGear — The best and worst years for the Jeep Grand Cherokee ZJ",
+   "url": "https://www.slashgear.com/1566045/best-and-worst-years-for-jeep-grand-cherokee-zj/"
+  },
+  {
+   "name": "CarComplaints.com — Jeep Grand Cherokee complaints by model year",
+   "url": "https://www.carcomplaints.com/Jeep/Grand_Cherokee/"
+  },
+  {
+   "name": "NHTSA complaints API — 1994 Jeep Grand Cherokee",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1994"
+  },
+  {
+   "name": "NHTSA complaints API — 1997 Jeep Grand Cherokee",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1997"
+  },
+  {
+   "name": "NHTSA complaints API — 1998 Jeep Grand Cherokee",
+   "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=jeep&model=grand%20cherokee&modelYear=1998"
   }
  ]
 }

@@ -397,8 +397,8 @@
   },
   {
    "q": "Which years should I avoid?",
-   "a": "No JL year is a write-off, but 2018–2019 trucks had the most recalls and fixes: track-bar welds, the damper program, the steering box TSB and clutch recalls on manuals. Buy one with every fix documented, or step up to a later truck.",
-   "src": "FOX NEWS · QUADRATEC · JLWF"
+   "a": "2018, mainly. SlashGear counted 11 recalls and more than 1,000 owner complaints for the 2018 Wrangler, most about wandering at highway speed, and says steering complaints carried on, less often, for two more years. NHTSA's 2018 list includes track-bar bracket welds (18V-675, also 2019), the intermediate steering shaft (18V-343) and rear frame-rail corrosion (18V-231), and manual trucks from 2018 on are covered by the clutch recalls (20V-124, 21V-028, 23V-116). Quadratec says Jeep later moved from aluminum to cast-iron steering boxes. No later year is a write-off: buy any JL with its recalls and steering fixes documented.",
+   "src": "SLASHGEAR · NHTSA · QUADRATEC"
   },
   {
    "q": "Is the JL safe?",
@@ -1048,6 +1048,14 @@
   {
    "name": "Stellantis North America blog — Heading off-road with the all-new 2018 Jeep Wrangler",
    "url": "https://blog.stellantisnorthamerica.com/2018/08/22/wrangler-wednesday-heading-off-road-with-the-all-new-2018-jeep-wrangler/"
+  },
+  {
+   "name": "SlashGear — The best years for Jeep Wrangler (and some to steer clear of)",
+   "url": "https://www.slashgear.com/1597691/jeep-wrangler-best-years-some-stay-away-from/"
+  },
+  {
+   "name": "NHTSA — recalls API, 2019 Jeep Wrangler",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2019"
   }
  ]
 }

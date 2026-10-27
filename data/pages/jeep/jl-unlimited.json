@@ -393,6 +393,11 @@
    "q": "What do I need to know about the power-steering recall?",
    "a": "Recall 26V-363 (June 2026) covers about 1,077,000 2021–2025 Wranglers and Gladiators. A high-resistance connection at the electro-hydraulic pump can overheat and start a fire even when parked, and owners were told to park outside until dealers can inspect and repair it free.",
    "src": "AARP · NHTSA"
+  },
+  {
+   "q": "Which years are the best to buy?",
+   "a": "No year is the consensus pick, so we don't flag one. The one to be wary of is 2018: SlashGear counted 11 recalls and more than 1,000 complaints, mostly about highway wander, and NHTSA's list includes track-bar bracket welds (18V-675, 2018–19), the steering shaft (18V-343) and rear frame-rail corrosion (18V-231). SlashGear calls 2020-on trucks the more enticing buy for their engine choices, but each brings its own recalls: EcoDiesel fuel pumps (22V-767, 23V-263), 4xe high-voltage batteries (23V-787, 25V-741) and, on 2021–25 trucks, the power-steering pump wiring (26V-363). Buy the truck whose recall list you can see closed.",
+   "src": "SLASHGEAR · NHTSA"
   }
  ],
  "mods": [
@@ -1041,6 +1046,18 @@
   {
    "name": "fueleconomy.gov — 2022 Jeep Wrangler 4dr 4xe (EPA 49 MPGe)",
    "url": "https://www.fueleconomy.gov/feg/noframes/44932.shtml"
+  },
+  {
+   "name": "SlashGear — The best years for Jeep Wrangler (and some to steer clear of)",
+   "url": "https://www.slashgear.com/1597691/jeep-wrangler-best-years-some-stay-away-from/"
+  },
+  {
+   "name": "NHTSA — recalls API, 2019 Jeep Wrangler",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2019"
+  },
+  {
+   "name": "NHTSA — recalls API, 2021 Jeep Wrangler",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=JEEP&model=WRANGLER&modelYear=2021"
   }
  ]
 }
