@@ -98,7 +98,9 @@ def classify(url, code, final, body):
     if body and PARKED_RE.search(body[:60000]) and not re.search(r'casino|slot', urlparse(url).netloc + urlparse(url).path, re.I):
         return ('PARKED', 'looks parked or spam', final)
     a, b = urlparse(url), urlparse(final)
-    ha, hb = a.netloc.lower().removeprefix('www.'), b.netloc.lower().removeprefix('www.')
+    ha, hb = (x.netloc.lower().split(':')[0].removeprefix('www.') for x in (a, b))
+    if hb.startswith('unblock.') or 'captcha' in hb:
+        return ('BLOCKED', 'bot check', final)
     if ha != hb and not hb.endswith('.' + ha) and not ha.endswith('.' + hb):
         return ('MOVED', f'now redirects to {hb}', final)
     if a.path.strip('/') and not b.path.strip('/'):
