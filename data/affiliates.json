@@ -267,27 +267,33 @@
   },
   {
    "name": "Quadratec",
-   "domain": "quadratec.com",
    "status": "no public affiliate program (checked 2026-10-28: not on CJ, no program page). 787 links on site — pitch direct partnership; or monetize via Skimlinks/Sovrn if they cover it",
-   "template": ""
+   "template": "",
+   "domains": [
+    "quadratec.com"
+   ]
   },
   {
    "name": "ExtremeTerrain (Turn5)",
-   "domain": "extremeterrain.com",
    "status": "no public affiliate program (checked 2026-10-28). 171 links — pitch direct; sister site AmericanMuscle was historically on VigLink/Sovrn, so check Sovrn coverage",
-   "template": ""
+   "template": "",
+   "domains": [
+    "extremeterrain.com"
+   ]
   },
   {
    "name": "4 Wheel Parts",
-   "domain": "4wheelparts.com",
    "status": "program on FlexOffers, 3.2%, 30-day cookie (via getlasso). 0 links on site today — low priority",
-   "template": ""
+   "template": "",
+   "domains": [
+    "4wheelparts.com"
+   ]
   },
   {
    "name": "Skimlinks / Sovrn Commerce (catch-all)",
-   "domain": "*",
    "status": "not applied. Would monetize links to shops with no direct program (Quadratec, LR Direct, Rovers North, etc.) if covered. Apply, then check merchant coverage",
-   "template": ""
+   "template": "",
+   "domains": []
   }
  ]
 }
