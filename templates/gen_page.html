@@ -24,6 +24,7 @@
   <div class="jump toc-mobile" role="navigation" aria-label="On this page"><label for="toc-sel">On this page</label><select id="toc-sel" onchange="if(this.value)location.hash=this.value">
     <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}
   </select></div>
+  {% if tools %}<p class="sub-intro quick-mobile">For this truck: {% for t in tools %}<a class="inline-link" href="{{ root }}{{ t[1] }}">{{ t[0] }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   <div class="split">
     <div class="main">
       {% set x = page.x or {} %}{% set groups = toc|map(attribute=0)|list %}
@@ -96,7 +97,7 @@
       {% if x.fitment %}{% set ft = x.fitment %}
       <section id="fitment" class="sub">
         <h2 class="h-section">Wheels &amp; tires</h2>
-        <p class="sub-intro" style="margin-top:-4px"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug if g is defined else p.slug }}">Try the tire fitment tool: biggest tire at every lift →</a></p>
+        {% if ft.max_tire %}<p class="sub-intro" style="margin-top:-4px"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ p.slug }}">Try the tire fitment tool: biggest tire at every lift →</a></p>{% endif %}
         {% if ft.stock %}<div class="kvrow"><span class="k">FACTORY TIRES</span><div class="chips">{% for t in ft.stock %}<span class="chip">{{ t }}</span>{% endfor %}</div></div>{% endif %}
         {% if ft.wheel %}<div class="kvgrid">{% for k, lbl in [('bolt_pattern','Bolt pattern'),('offset','Offset'),('center_bore','Center bore'),('lug_thread','Lug thread'),('lug_torque','Lug-nut torque')] %}{% if ft.wheel[k] %}<div><span class="k">{{ lbl }}</span><span class="v">{{ ft.wheel[k] }}</span></div>{% endif %}{% endfor %}</div>{% endif %}
         {% if ft.max_tire %}<div class="table-box"><table class="fit">
@@ -153,6 +154,7 @@
         {% if rc.lookup == 'US' %}<div class="lookup"><p>Open recalls follow the VIN, not the model. Run yours through NHTSA before you buy, and ask the seller for dealer records showing recall work.</p><a class="btn solid" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check a VIN at NHTSA ↗</a></div>
         {% elif rc.lookup == 'UK' %}<div class="lookup"><p>For UK-registered trucks, check open recalls by registration with the DVSA.</p><a class="btn solid" href="https://www.check-vehicle-recalls.service.gov.uk/" target="_blank" rel="noopener">DVSA recall check ↗</a></div>{% endif %}
         {% if rc.get('items') %}<span class="label sub-label">Notable recalls</span><div class="rows recall-rows">{% for r in rc.get('items') %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.years }}{% if r.ref %} · {{ r.ref }}{% endif %}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
+        {% if rc.get('items') or rc.tsbs %}<p class="sub-intro" style="margin:0"><a class="inline-link" href="{{ root }}recalls/index.html#{{ fam.slug }}-{{ p.slug }}">See the {{ p.title }} in the recall tracker, alongside every other boxy 4x4 →</a></p>{% endif %}
         {% if rc.tsbs %}<span class="label sub-label">Service bulletins &amp; known fixes</span><div class="rows recall-rows">{% for r in rc.tsbs %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.ref }}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
       </section>
       {% endif %}{% endif %}
@@ -202,7 +204,7 @@
       <section id="repairs" style="display:flex;flex-direction:column;gap:22px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">For the hands-on owner</span><h2 style="font-size:34px">Common repairs</h2></div>
         <div class="prose"><p style="margin:0">The jobs owners actually end up doing, rated for a competent home mechanic with a decent tool kit. Always confirm torque figures, fluids and procedures against the factory service manual for your VIN, and work safely — support the truck on stands, never just a jack. You do this work at your own risk; see the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.{% if affiliates_on %} Some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p></div>
-        {% set ebq = (mlabel(fam.maker, p.title) ~ ' parts')|replace('×','x') %}<p class="sub-intro" style="margin:0">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ ebq|urlencode }}&amp;_sacat=6000" rel="noopener sponsored" target="_blank">Search eBay Motors for {{ mlabel(fam.maker, p.title) }} parts →</a></p>
+        {% set ebq = (mlabel(fam.maker, p.title) ~ ' parts')|replace('×','x') %}<p class="sub-intro" style="margin:0">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ ebq|urlencode }}&amp;_sacat=6000" rel="noopener sponsored" target="_blank">Search eBay Motors for {{ mlabel(fam.maker, p.title) }} parts →</a>{% if has_specs %} · <a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ p.slug }}/specs.html">Fluids, capacities and torque on the {{ p.title }} specs sheet →</a>{% endif %}</p>
         <div class="stack">
         {% for r in p.repairs %}
           <article class="repair">
@@ -272,23 +274,29 @@
       </section>
       {% endif %}
 
+      {% set others = fam.generations|rejectattr('slug', 'equalto', p.slug)|list %}
+      {% if others or further %}
+      <section id="more" style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">Keep reading</h2>
+        {% if further %}<div class="rel">{% for f in further %}<a href="{{ root }}{{ f[2] }}"><span class="r">{{ f[0] }}</span><span class="nm">{{ f[1] }} →</span></a>{% endfor %}</div>{% endif %}
+        {% if others %}<span class="label sub-label">More {{ mlabel(fam.maker, fam.name) }} generations</span>
+        <div class="rel">{% for og in others %}<a href="{{ og.slug }}.html"><span class="r">{{ og.years }}</span><span class="nm">{{ og.name }} →</span></a>{% endfor %}<a href="index.html"><span class="r">The whole family</span><span class="nm">{{ mlabel(fam.maker, fam.name) }} overview →</span></a></div>{% endif %}
+      </section>
+      {% endif %}
+
       {% set all_sources = (p.sources or []) + (x.sources or []) %}
       {% if all_sources %}
       <section class="sources"><span class="eyebrow">Sources</span>{% for s in all_sources %}{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}<span>{{ s.name }}</span>{% endif %}{% endfor %}</section>
       {% endif %}
     </div>
 
-    <aside class="side">
+    <aside class="side side-toc">
       {% if p.plate %}
       <div class="plate"><div>
         <div class="head"><span>{{ p.title|upper }}</span>{{ mark2() }}</div>
         {% for k in p.plate %}<div class="kv"><span>{{ k.k }}</span><span>{{ k.v }}</span></div>{% endfor %}
       </div></div>
       {% endif %}
-      <nav class="toc" aria-label="On this page">
-        <span class="eyebrow" style="padding-bottom:8px">On this page</span>
-        {% for grp, items in toc %}<span class="toc-grp">{{ grp }}</span>{% for t in items %}<a href="#{{ t[0] }}">{{ t[1] }}</a>{% endfor %}{% endfor %}
-      </nav>
       {% if p.searches %}
       <div class="find">
         <span class="eyebrow brass">Find one</span>
@@ -297,10 +305,12 @@
         {% if p.searches[0].bat_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ p.searches[0].bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}
       </div>
       {% endif %}
-      <div class="rows" style="border-top:1px solid var(--ink)">
-        <span class="eyebrow" style="padding:12px 0 4px">More {{ fam.name }}</span>
-        {% for g in fam.generations %}{% if g.slug != p.slug %}<a class="row" href="{{ g.slug }}.html"><span class="t" style="font-size:16px">{{ g.name }}</span><span class="m">{{ g.years }}</span></a>{% endif %}{% endfor %}
-      </div>
+      <nav class="toc" aria-label="On this page">
+        {% if tools %}<span class="eyebrow" style="padding-bottom:8px">For this truck</span>
+        <div class="toc-tools">{% for t in tools %}<a href="{{ root }}{{ t[1] }}">{{ t[0] }} →</a>{% endfor %}</div>{% endif %}
+        <span class="eyebrow" style="padding:{% if tools %}18px{% else %}0{% endif %} 0 8px">On this page</span>
+        {% for grp, items in toc %}<span class="toc-grp">{{ grp }}</span>{% for t in items %}<a href="#{{ t[0] }}">{{ t[1] }}</a>{% endfor %}{% endfor %}{% if others or further %}<a href="#more">Keep reading</a>{% endif %}
+      </nav>
     </aside>
   </div>
 </div>

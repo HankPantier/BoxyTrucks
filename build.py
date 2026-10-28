@@ -307,7 +307,7 @@ def pretty_path(path):
     for sep in ('#', '?'):
         if sep in path:
             i = path.index(sep); path, frag = path[:i], path[i:] + frag
-    if path.endswith('404.html'):
+    if path.rsplit('/', 1)[-1] == '404.html' and path.count('/') <= 1:
         pass
     elif path.endswith('/index.html'):
         path = path[:-10]
@@ -417,6 +417,18 @@ def main():
         _c = json.loads(_f.read_text())
         for _m in _c['models']:
             _cmp_early[_m].append({'slug': _c['slug'], 'title': _c['title']})
+    _buyers_early, _swaps_early = defaultdict(list), defaultdict(list)
+    for _f in sorted((DATA / 'buyers').glob('*.json')) if (DATA / 'buyers').exists() else []:
+        _b = jload(_f) or {}
+        for _pk in _b.get('picks') or []:
+            if _b.get('slug') and {'slug': _b['slug'], 'title': _b['title']} not in _buyers_early[_pk.get('model', '')]:
+                _buyers_early[_pk.get('model', '')].append({'slug': _b['slug'], 'title': _b['title']})
+    for _f in sorted((DATA / 'swaps').glob('*.json')) if (DATA / 'swaps').exists() else []:
+        _sw = jload(_f) or {}
+        if not _sw.get('sections'):
+            continue
+        for _t in _sw.get('trucks') or []:
+            _swaps_early[_t.get('model', '')].append({'slug': _sw['slug'], 'title': _sw['title']})
     reading = jload(DATA / 'reading.json') or {}
     global AFFILIATES
     AFFILIATES = load_affiliates()
@@ -515,9 +527,21 @@ def main():
                     ('Building one', [('mods', 'Modifications', has('mods')), ('community', 'Clubs & events', hx('community')), ('resources', 'Channels & forums', True)]),
                 ]]
                 toc = [(grp, items) for grp, items in toc if items]
+                _rc = x.get('recalls') or {}
+                _key = f'{slug}/{g["slug"]}'
+                has_specs = bool(page.get('plate') or (page.get('baseline_service') or {}).get('items'))
+                tools = [(f'Specs, fluids & intervals', f'models/{slug}/{g["slug"]}/specs.html') if has_specs else None,
+                         ('Biggest tire at every lift', f'tires/index.html?t={_key}') if ((x.get('fitment') or {}).get('max_tire')) else None,
+                         ('Recalls in the tracker', f'recalls/index.html#{slug}-{g["slug"]}') if (_rc.get('items') or _rc.get('tsbs')) else None,
+                         (f'Best {fam["short"]} years to buy', f'models/{slug}/best-years.html'),
+                         ('Printable inspection checklist', 'inspection-checklists/index.html') if (SITE / f'checklists/{slug}-{g["slug"]}.pdf').exists() else None]
+                tools = [t for t in tools if t]
+                further = ([('Compare', c['title'], f'compare/{c["slug"]}.html') for c in _cmp_early.get(_key, [])]
+                           + [("Buyer’s guide", b['title'], f'best/{b["slug"]}.html') for b in _buyers_early.get(_key, [])]
+                           + [('Engine swap', w['title'], f'engine-swaps/{w["slug"]}.html') for w in _swaps_early.get(_key, [])])
                 hero_alt = next((ph['alt'] for ph in page.get('photos', []) if ph['file'] == page.get('hero_photo')), f'{page.get("title", g["name"])} off road')
                 page.setdefault('title', g['name'])
-                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt,
+                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
                        og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
                        part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
                        yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=f'{mlabel(fam["maker"], page["title"])} — BoxyTrucks',
@@ -939,7 +963,7 @@ def main():
             add('Model guide', model, u, model, ' '.join(g.get('codes', [])) + ' ' + g['summary'] + ' ' + (p.get('verdict', '') if p else ''))
             if not p: continue
             for r in p.get('repairs', []):
-                add('Repair', r['title'], f'/repairs/{slug}/{gs}/{r["slug"]}/', model, r.get('symptoms', '') + ' ' + r.get('tools', ''))
+                add('Repair', r['title'], f'repairs/{slug}/{g["slug"]}/{r["slug"]}/', model, r.get('symptoms', '') + ' ' + r.get('tools', ''))
             for f in p.get('faq', []):
                 add('Question', f['q'], u + '#faq', model, f['a'])
             for m in p.get('mods', []):
