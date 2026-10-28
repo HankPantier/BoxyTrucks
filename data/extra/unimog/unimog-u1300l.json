@@ -1,0 +1,392 @@
+{
+ "fitment": {
+  "stock": [
+   "20-in wheels on 6-lug disc-brake axles; 365/80R20 (14.5R20) Continental MPT 81 is common on ex-military trucks sold in the US",
+   "335/80R20 (12.5R20) is the other common 20-in Unimog size"
+  ],
+  "wheel": {
+   "bolt_pattern": "6-lug (U1300); the U1700 uses 10-lug axles",
+   "lug_thread": "M18 x 1.5 studs (6-lug disc-brake axles)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "365/80R20 (≈ 42.9 in)",
+    "note": "Common on U1300Ls; one fast-axle owner chose 365s to keep first gear usable on trails. Expedition Imports lists the MPT 81 365/80R20 at 42.87 in tall and 14.8 in wide."
+   },
+   {
+    "lift": "Cab lift",
+    "size": "395/85R20",
+    "note": "Too big for a U1300 without a cab lift, according to an Expedition Portal member, and hard on the expensive portal bearings. A U1700 camper on 395s held only about 55 mph."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1974",
+   "change": "Heavy series (SBU) shown at the DLG exhibition with its angular cab, later given the Federal Design Award",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "Production of the U 1300 and long-wheelbase U 1300 L begins at Gaggenau; new 8-speed double-reduction gearbox and cranked U-section frame",
+   "flag": "note"
+  },
+  {
+   "year": "1978",
+   "change": "Bundeswehr adopts the 435 as the Lkw 2 t tmil gl; about 18,000 delivered. many US imports are these trucks",
+   "flag": "note"
+  },
+  {
+   "year": "1983",
+   "change": "Wackenhut crew cabs (up to seven seats) offered for the U 1300 L",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Capito family wins the Paris–Dakar truck class in 180-hp U 1300 Ls",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "OM 366 replaces the OM 352/353 six",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "Heavy 437 series launched with UG 3/65 gearbox and charge-air-cooled OM 366 A/LA; the 435 continues alongside",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "435 production ends after 30,726 trucks",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "The youngest 435s pass the US 25-year import exemption",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Ex-army trucks have been repowered, re-cabbed and converted, and several 435 variants look almost the same. Use the type number, the engine plate and the axles to work out what you're looking at.",
+  "items": [
+   {
+    "head": "Type number in the chassis number",
+    "body": "The chassis number starts with the type: 435.115 is the U 1300 L, 435.117 the U 1300 L/37, 435.110 the U 1700, 435.111 the U 1700 L and 435.113 the U 1700 L/38. Early trucks read like 43511510…; later ones carry a 17-digit WDB4351151W… VIN."
+   },
+   {
+    "head": "Cab number plate",
+    "body": "The 435 uses the 425-series cab, which carries a body-number plate reading 425.820. The 435 always has a full cab; a convertible cab points to a different series, such as the Turkish-built 436."
+   },
+   {
+    "head": "Engine",
+    "body": "The naturally aspirated 5.7 OM 352 (catalogued as OM 353.959/.961) was standard. The turbo OM 352A and the 6.0 OM 366/366A followed, the OM 366 from 1987. Turbo engines take different injector nozzles, and naturally aspirated U1300Ls take their own water pump."
+   },
+   {
+    "head": "6-lug vs 10-lug axles",
+    "body": "U 1300 Ls run 6-lug disc-brake axles with M18 x 1.5 studs. U 1700 types use 10-lug axles, which owners say don't have the 6-lug trucks' front breather pumping problem."
+   },
+   {
+    "head": "Military spec",
+    "body": "Bundeswehr and US Army Europe trucks are 24-volt and basically trimmed, and some have no hydraulic system. Military contract plates let you trace a truck's service history."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Payload",
+   "v": "1,500 kg (3,307 lb)",
+   "note": "Bundeswehr Lkw 2 t tmil gl rating; the U 1700 L carries up to 5 t (Mercedes-Benz)"
+  },
+  {
+   "k": "Gross weight",
+   "v": "7,500 kg (16,535 lb)",
+   "note": "7.5-tonne class"
+  },
+  {
+   "k": "Towing",
+   "v": "1.5-tonne trailers or towed weapons up to 2.25 t",
+   "note": "Military tractor role"
+  },
+  {
+   "k": "Curb weight",
+   "v": "4.5–5.5 t (9,900–12,100 lb)",
+   "note": "Wikipedia; the Bundeswehr lists 5,760 kg"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "440 mm (17.3 in)"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "46° / 51°"
+  },
+  {
+   "k": "Wading depth",
+   "v": "1,200 mm (47 in)"
+  },
+  {
+   "k": "Top speed",
+   "v": "80 km/h (50 mph) military; 80–110 km/h depending on gearing"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "17.5–19 L/100 km (≈ 12–13 mpg US)",
+   "note": "Wikipedia; owners report about 11 mpg and 20–30 L/100 km loaded"
+  },
+  {
+   "k": "Range",
+   "v": "800 km (≈ 500 mi)",
+   "note": "Bundeswehr figure"
+  },
+  {
+   "k": "Turning",
+   "v": "14.1 m (46 ft)",
+   "note": "Wikipedia lists this as the turning radius"
+  },
+  {
+   "k": "Length / width / height",
+   "v": "5,500–6,100 / 2,300 / 2,875 mm",
+   "note": "Wikipedia; the Bundeswehr cargo truck is 5,800 × 2,430 × 3,170 mm"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Plain ex-army U1300Ls have come down from their 2023 peak, while finished campers and refurbished crew cabs still bring big money.",
+  "ranges": [
+   {
+    "cond": "Ex-military or utility driver",
+    "range": "$25k–48k"
+   },
+   {
+    "cond": "Refurbished or well-equipped stock truck",
+    "range": "$54k–73k"
+   },
+   {
+    "cond": "Expedition camper or refurbished DoKa",
+    "range": "$95k–175k"
+   }
+  ],
+  "note": "Based on 12 Bring a Trailer U1300L sales from 2019 to October 2026. Utility and ex-army trucks sold for $25,000–47,305. One 1987 utility truck went from $45,000 in March 2025 to $43,000 in June 2026 and $29,500 in October 2026. Refurbished stock trucks sold for $54,500–72,900 in 2022–23. Camper conversions brought $102,000 and $175,111, and a refurbished 1980 DoKa sold for $95,000 in March 2026."
+ },
+ "docs": [
+  {
+   "name": "Unimog 1300 & 1700 Operators Manual (7th edition, 1987, English)",
+   "url": "https://expedition-imports.com/unimog-1300-1700-operators-manual-13001700om",
+   "note": "Original Mercedes manual covering U 1300 L, L/37, U 1700, L and L/38 with OM352/OM352A engines: operation, maintenance and technical data"
+  },
+  {
+   "name": "Unimog 1300/435 Repair Manual — OM352, OM352A",
+   "url": "https://expedition-imports.com/unimog-1300-435-repair-manual-om352a-435rm352/",
+   "note": "Original two-binder factory repair manual"
+  },
+  {
+   "name": "Unimog 1300/435 Repair Manual — OM366A",
+   "url": "https://expedition-imports.com/unimog-1300-435-repair-manual-om366a-435rm366/",
+   "note": "Factory repair manual for OM366A trucks"
+  },
+  {
+   "name": "Unimog 1300/435 Parts Manual",
+   "url": "https://expedition-imports.com/unimog-1300-435-parts-manual-1300pm/",
+   "note": "Original parts catalog (special order)"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Nearly every 435 in the US is a used import, usually ex-Bundeswehr. Military trucks reach the market through German federal surplus sales (VEBEG) and European dealers. One Steel Soldiers member found trucks at VEBEG for around €12,000–15,000, but warned about language, inspection, shipping of $5,000 or more, and customs. RoRo shipping is priced by volume, and a container may mean taking the wheels off.",
+   "The 435 was built until 1993, so every one is now past NHTSA's 25-year exemption. In older threads, owners noted that not all U1300Ls were DOT-exempt when younger, and that exemption usually depended on age or a camper conversion. US-titled trucks on Bring a Trailer have carried clean titles from Montana, Washington and Mississippi, but registration of a 7.5-tonne air-braked truck varies by state. Ask your DMV before you buy.",
+   "Members of the same thread said US prices for nice trucks ran about $25,000–60,000, and that after fees and paperwork, buying in Europe can cost about the same as buying domestically, with more hassle. Recent BaT results bear that out at the lower end."
+  ]
+ },
+ "production": {
+  "intro": "Gaggenau built 30,726 trucks in the 435 series in eight variants from 1975 to 1993. The U 1300 L made up most of them (Wikipedia, Mercedes-Benz).",
+  "items": [
+   {
+    "k": "Total 435 series",
+    "v": "30,726"
+   },
+   {
+    "k": "U 1300 L (435.115)",
+    "v": "21,775, including 473 RW1 fire-rescue trucks"
+   },
+   {
+    "k": "U 1700 L/38 (435.113)",
+    "v": "5,898"
+   },
+   {
+    "k": "U 1700 (435.110) / U 1700 L (435.111)",
+    "v": "1,161 / 808"
+   },
+   {
+    "k": "U 1300 L/37 (435.117)",
+    "v": "779"
+   },
+   {
+    "k": "Thyssen TM 170 / TM 215",
+    "v": "290 / 15"
+   },
+   {
+    "k": "Bundeswehr Lkw 2 t tmil gl",
+    "v": "About 18,000"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Wackenhut crew cab (DoKa)",
+    "years": "1983 on",
+    "note": "Seats up to seven; popular for expeditions and research trips (Mercedes-Benz)"
+   },
+   {
+    "name": "Paris–Dakar rally truck",
+    "years": "1985",
+    "note": "180-hp U 1300 L with roll bars and six extra Hella lamps; won the truck class"
+   },
+   {
+    "name": "TLF 8W fire tender",
+    "years": "—",
+    "note": "U 1300 L tank fire-fighting vehicle with a Schlingmann body"
+   },
+   {
+    "name": "RW1 rescue truck",
+    "years": "—",
+    "note": "473 built on 435.115"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Unimog-Club Gaggenau",
+   "url": "https://www.unimog-club-gaggenau.de/",
+   "note": "German owners' club with regional groups and meets"
+  },
+  {
+   "kind": "event",
+   "name": "Unimog Museum Gaggenau",
+   "url": "https://www.unimog-museum.com/en/",
+   "note": "Museum near the original factory that runs events, including Explorer Days and an off-road demonstration course"
+  },
+  {
+   "kind": "club",
+   "name": "Unimog-Community.de",
+   "url": "https://www.unimog-community.de/",
+   "note": "Large Unimog forum with an English-language travel board"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Unimog 435",
+   "url": "https://en.wikipedia.org/wiki/Unimog_435"
+  },
+  {
+   "name": "Mercedes-Benz Trucks — Top exports and powerhouses (1966–1975)",
+   "url": "https://www.mercedes-benz-trucks.com/int/en/experience/heritage/export-hits-and-powerhouses.html"
+  },
+  {
+   "name": "Mercedes-Benz Trucks — Unimog history 1976–1985: performance, strength and winners' podium",
+   "url": "https://special.mercedes-benz-trucks.com/en/unimog/unimog-history/performance-strength-and-winners-podium.html"
+  },
+  {
+   "name": "Mercedes-Benz Trucks — Workhorse and fun vehicle (1986–1995)",
+   "url": "https://www.mercedes-benz-trucks.com/int/en/experience/heritage/workhorse-and-fun-vehicle.html"
+  },
+  {
+   "name": "miniatures.de — Lkw 2 t tmil gl (Unimog 435) vehicle history and data",
+   "url": "https://miniatures.de/truck-2t-tmil-gl-unimog-435.html"
+  },
+  {
+   "name": "Expedition Portal — Where to buy a square mog? Advice?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2164964"
+  },
+  {
+   "name": "Expedition Portal — Unimog 1300 L",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1720181"
+  },
+  {
+   "name": "Expedition Portal — Help regarding purchasing of Unimog U1700L 1980 model",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1839935"
+  },
+  {
+   "name": "Expedition Portal — Meet the Trot'n Turtle: Unimog U1300L build",
+   "url": "https://forum.expeditionportal.com/goto/post?id=2145907"
+  },
+  {
+   "name": "Horizons Unlimited HUBB — Unimog help",
+   "url": "https://horizonsunlimited.com/hubb/equipping-the-overland-vehicle/unimog-help-64820-print"
+  },
+  {
+   "name": "Steel Soldiers — u1300l thread",
+   "url": "https://steelsoldiers.com/goto/post?id=519316"
+  },
+  {
+   "name": "Bring a Trailer — Mercedes-Benz Unimog auction results",
+   "url": "https://bringatrailer.com/mercedes-benz/unimog/"
+  },
+  {
+   "name": "Bring a Trailer — 1984 Unimog U1300L (sold August 2023)",
+   "url": "https://bringatrailer.com/listing/1984-mercedes-benz-unimog-u1300l/"
+  },
+  {
+   "name": "Bring a Trailer — 1987 Unimog 435 ex-Bundeswehr ambulance (sold April 2023)",
+   "url": "https://bringatrailer.com/listing/1987-mercedes-benz-unimog-10/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Unimog U1300L, OM366 (sold May 2023)",
+   "url": "https://bringatrailer.com/listing/1985-mercedes-benz-unimog-u1300l-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1980 Unimog 1300L DoKa (sold March 2026)",
+   "url": "https://bringatrailer.com/listing/1980-mercedes-benz-unimog-1300l/"
+  },
+  {
+   "name": "Bring a Trailer — 1987 Unimog 1300L utility truck (sold October 2026)",
+   "url": "https://bringatrailer.com/listing/1987-mercedes-benz-unimog-1300l-2-2/"
+  },
+  {
+   "name": "Expedition Imports — Unimog 1300 & 1700 Operators Manual (7th edition, 1987)",
+   "url": "https://expedition-imports.com/unimog-1300-1700-operators-manual-13001700om"
+  },
+  {
+   "name": "Expedition Imports — Oil filter 3661800809 (U 1300 L / 435.115 applications)",
+   "url": "https://expedition-imports.com/oil-filter-3661800809/"
+  },
+  {
+   "name": "Expedition Imports — Continental MPT 81 365/80 R 20 specifications",
+   "url": "https://expedition-imports.com/continental-mpt-81-365-80-r-20-14.5r20-0574015/"
+  },
+  {
+   "name": "Expedition Imports — Wheel stud, 6-lug disc brake axles (M18 x 1.5)",
+   "url": "https://expedition-imports.com/wheel-stud-6-lug-disc-brake-axles-4164010071/"
+  },
+  {
+   "name": "Wikimedia Commons — Typenschild 425.820 (cab number plate on a Unimog 435)",
+   "url": "https://commons.wikimedia.org/wiki/File:Typenschild_425.820.jpg"
+  },
+  {
+   "name": "VEBEG — German federal surplus sales",
+   "url": "https://www.vebeg.de/"
+  },
+  {
+   "name": "Bring a Trailer — 1987 Unimog U1300L camper (sold May 2023)",
+   "url": "https://bringatrailer.com/listing/1987-mercedes-benz-unimog-11/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Unimog U1300L camper (sold August 2023)",
+   "url": "https://bringatrailer.com/listing/1985-mercedes-benz-unimog-u1300l-5/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Unimog U1300L (sold September 2022 and August 2026)",
+   "url": "https://bringatrailer.com/listing/1985-mercedes-benz-unimog-u1300l-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1987 Unimog U1300L (sold March 2025)",
+   "url": "https://bringatrailer.com/listing/1987-mercedes-benz-unimog-419/"
+  }
+ ]
+}

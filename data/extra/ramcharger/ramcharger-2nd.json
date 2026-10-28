@@ -1,0 +1,444 @@
+{
+ "fitment": {
+  "stock": [
+   "P235/75R15XL on 15x6.5 wheels (standard, per 1990 and 1993 brochures)",
+   "31x10.5R15 (optional on 4x4s)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\") on part-time 4x4s"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "32 in (33x10.50 on 8-in-wide wheels)",
+    "note": "RamCharger Central: 32s fit most trucks with a little rubbing or minor trimming, but sagging front springs vary, so measure. A member survey found 8-in-wide wheels work and 10-in-wide wheels rub. Owners disagree on 33x12.50s: one says they rub at full lock, another ran them on every unlifted truck he owned."
+   },
+   {
+    "lift": "3.5 in",
+    "size": "35x12.50 on 8-in-wide wheels",
+    "note": "One owner reports the same light rubbing at full lock and on sharp angles that he had with 33x12.50s on stock springs. It's fine on the street. Plan on 4.10 or 4.56 gears for 35s."
+   },
+   {
+    "lift": "6 in",
+    "size": "37x12.50",
+    "note": "Skyjacker's figure for its D600BKS kit on 1975–93 Ramchargers, using wheels with 4 in of backspacing. The kit also needs a new steering or pitman arm, an adjustable drag link and longer brake lines."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Rear step bumper may not protect the fuel system in a rear impact",
+    "years": "1981–1985 (also 1980)",
+    "ref": "NHTSA 84V115000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V115000",
+    "summary": "NHTSA says the trucks didn't meet FMVSS 301 fuel-system impact requirements: the rear step bumper structure might not withstand a rear collision, and fuel could leak."
+   },
+   {
+    "title": "Cracked front ball-joint clamp bolts",
+    "years": "1982",
+    "ref": "NHTSA 82V055000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V055000",
+    "summary": "Clamp bolts could be cracked and eventually break, letting the ball joint separate from the steering knuckle."
+   },
+   {
+    "title": "Ignition switch contact carrier can crack",
+    "years": "1983",
+    "ref": "NHTSA 82V095000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=82V095000",
+    "summary": "Switches distorted during crimping could crack internally, allowing the starter to engage with the key in the accessory position."
+   },
+   {
+    "title": "Master cylinder seal leak",
+    "years": "1984",
+    "ref": "NHTSA 84V047000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V047000",
+    "summary": "A piston seal inside the master cylinder could leak, causing intermittent loss of the front brakes."
+   },
+   {
+    "title": "Twisted front brake hose",
+    "years": "1985",
+    "ref": "NHTSA 84V117000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V117000",
+    "summary": "The hose from the body brake tubing to the front axle may have been installed twisted, so it could loop and chafe in normal driving."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1981",
+   "change": "Second generation follows the pickups' restyle into the Ram. Welded steel roof and one-piece liftgate replace the removable top. Part-time NP208 transfer case and open-knuckle Dana 44 with locking hubs. Plymouth Trail Duster sold for this year only. Hagerty lists a 1981 Macho 4x4 with a 175 hp 360",
+   "flag": "note"
+  },
+  {
+   "year": "1981–1984",
+   "change": "The only second-generation trucks with a conventional, non-CAD front axle. A long-time RamCharger Central member names them as one of the two best ranges to buy",
+   "flag": "buy"
+  },
+  {
+   "year": "1982–1985",
+   "change": "Recalls: 82V055000 front ball-joint clamp bolts (1982), 82V095000 ignition switch (1983), 84V047000 master cylinder seal (1984), 84V117000 twisted front brake hose (1985) and 84V115000 rear step bumper / fuel system (1980–85)",
+   "flag": "recall"
+  },
+  {
+   "year": "1985",
+   "change": "Ram-Trac shift-on-the-fly arrives with the vacuum-operated Center Axle Disconnect (CAD) front axle, and the hubs are now permanently engaged. Warren Truck builds Ramchargers through 1985",
+   "flag": "note"
+  },
+  {
+   "year": "1986",
+   "change": "Crosshair grille replaces the egg-crate grille",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "Throttle-body fuel injection on the 318 (170 hp). NP241 replaces the NP208. Owners recommend 1988–93 trucks for fuel injection, which also copes better with steep off-road angles",
+   "flag": "buy"
+  },
+  {
+   "year": "1989",
+   "change": "Throttle-body injection on the 360 (about 190 hp)",
+   "flag": "note"
+  },
+  {
+   "year": "1990",
+   "change": "Rear-wheel anti-lock brakes standard. New four-speed overdrive automatic (standard on 4x2, optional on 4x4), new instrument cluster with electronic speedometer, electric liftgate defroster and the budget 150 S",
+   "flag": "note"
+  },
+  {
+   "year": "1991",
+   "change": "Revised grille",
+   "flag": "note"
+  },
+  {
+   "year": "1992",
+   "change": "5.2 Magnum with multi-port injection (230 hp) becomes the standard engine, with the 360 TBI optional. Canyon Sport package offered. RamCharger Central members name 1992–93 as the years to buy for the Magnum engines",
+   "flag": "buy"
+  },
+  {
+   "year": "1993",
+   "change": "5.9 Magnum (230 hp, 325 lb-ft). Dodge lists only the four-speed overdrive automatic. Trims S, S-Plus, Base, LE and Canyon Sport (about 200 Canyon Sports). Last US model year",
+   "flag": "buy"
+  },
+  {
+   "year": "1994–1996",
+   "change": "Production continues in Mexico with minor running changes",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "After 30 to 45 years, plenty of Ramchargers have had engine, axle and transfer case swaps, and special-edition paint and badges are easy to copy. These checks help you work out what a truck started out as.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "The 10th character is the model year: D for 1983, F for 1985, H for 1987, J for 1988, K for 1989, N for 1992 and P for 1993, as on the trucks sold on BaT. The first character shows where it was built. Warren Truck in Michigan built Ramchargers through 1985, and the 1983 and 1985 trucks we checked start 1B4, while the late-1980s and 1990s trucks start 3B4, the Mexican-assembly prefix."
+   },
+   {
+    "head": "Year by the grille",
+    "body": "Egg-crate grille through 1985, the crosshair grille with rectangular headlamps for 1986–90, and a revised grille for 1991–93. Panels interchange across many years, so check the grille against the VIN."
+   },
+   {
+    "head": "Front axle",
+    "body": "A 1981–84 4x4 has a conventional open-knuckle Dana 44 with locking hubs. From 1985 the CAD axle has a hump on the long side of the axle tube (the driver's side on these trucks) with a vacuum motor, two vacuum lines and a 4WD indicator switch. If a 1985–93 truck has manual hubs, the CAD may have been locked or converted."
+   },
+   {
+    "head": "Transfer case",
+    "body": "Torque King lists the NP208 for 1980–87 Ramchargers and the NP241D for 1988–93. Both are aluminum chain-drive part-time cases. On CAD trucks, a vacuum switch threads into the top of the case above the shift lever."
+   },
+   {
+    "head": "Engine",
+    "body": "1981–87 trucks have carburetors. 1988–91 TBI engines have a twin-injector throttle body on a cast-iron intake. Magnum engines (5.2 from 1992, 5.9 for 1993) have the tall 'beer keg' intake with a fuel rail and eight injectors. The 5.9 Magnum was only offered in a Ramcharger for 1993."
+   },
+   {
+    "head": "Canyon Sport",
+    "body": "Dodge's 1993 brochure lists a body-color grille, Light Sand Metallic lower paint and bumpers, an upper tape stripe and cast aluminum wheels. The upper colors were Black, Bright White, Flame Red or Emerald Green. A Magnum V8, automatic transmission, heavy-duty transfer case and outlined-white-letter tires were standard on the 4x4. Paint and tape are easy to copy, so check the build details."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "6,700–7,500 lb (3,040–3,400 kg)",
+   "note": "1993 4x4 ratings: 5.2 with 3.55s 6,700 lb, 5.9 with 3.55s 7,100 lb, 3.90 gears 7,500 lb; 800-lb tongue weight. The 1990 4x2 with the 5.9 and towing package was rated at 7,600 lb"
+  },
+  {
+   "k": "Payload",
+   "v": "1,420–1,430 lb (≈645–650 kg)",
+   "note": "1993 4x4 with the 6,000-lb GVW; 1,785 lb with the 6,400-lb GVW snowplow package"
+  },
+  {
+   "k": "GVWR",
+   "v": "6,000 lb (2,720 kg) · 6,400 lb optional",
+   "note": "4x4, 1990 and 1993 brochures"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "34 US gal (129 L)",
+   "note": "1990 and 1993 brochures"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "106 in (2,692 mm)"
+  },
+  {
+   "k": "Height",
+   "v": "73.06 in (1,856 mm)",
+   "note": "1993 4x4"
+  },
+  {
+   "k": "Cargo volume",
+   "v": "86.1 cu ft · 105.7 cu ft with the rear seat removed",
+   "note": "1993 brochure"
+  },
+  {
+   "k": "Turning circle",
+   "v": "36.9 ft (11.2 m)",
+   "note": "1990 4x4"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "≈10–12 mpg real-world",
+   "note": "Owner reports on RamCharger Central; one owner gets 16.5 mpg at a steady 55 mph"
+  },
+  {
+   "k": "Roof rack",
+   "v": "100 lb (45 kg)",
+   "note": "Rating for the Mopar roof rack in the 1990 brochure"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are rising slowly but are still modest. Late Magnum trucks and Canyon Sports bring the most, and tidy mid-1980s trucks sell for project-car money.",
+  "ranges": [
+   {
+    "cond": "Project / tired driver",
+    "range": "$6k–10k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$10k–18k"
+   },
+   {
+    "cond": "Excellent / Canyon Sport",
+    "range": "$20k–28k+"
+   }
+  ],
+  "note": "Based on 13 Bring a Trailer sales of 1981–93 Ramchargers between November 2025 and September 2026: $6,250 to $28,000, median $15,000. A 1993 Canyon Sport sold for $28,000, a 1993 LE for $25,500 and a 1992 Canyon Sport for $22,750. Another 1993 Canyon Sport brought only $10,500. Two more trucks were bid to $12,000 and $12,500 without selling. In 2019 Hagerty put the Ramcharger's median value at $16,450."
+ },
+ "docs": [
+  {
+   "name": "Factory service manual reprints, 1981–1993 (one per model year)",
+   "url": "https://torqueking.com/collections/1972-1993-dodge-d-w-100-350-ramcharger-parts",
+   "note": "Torque King sells Chrysler-authorized reproductions of the Dodge truck and Ramcharger shop manuals on CD or USB for each year"
+  },
+  {
+   "name": "1993 Complete Dodge Factory Service Manuals (TMD93USB)",
+   "url": "https://torqueking.com/products/545-tmd93cd-1993-complete-dodge-factory-service-manuals-on-cd",
+   "note": "Covers the Ramcharger, D/W150–350; example of the per-year reprints"
+  },
+  {
+   "name": "1985 Dodge Ram Truck and Ramcharger Shop Manual (TMD85USB)",
+   "url": "https://torqueking.com/products/584-tmd85usb-1985-dodge-ram-truck-and-ramcharger-shop-manual-on-usb",
+   "note": "First CAD year"
+  },
+  {
+   "name": "1988 Dodge Ram Truck and Ramcharger Shop Manual",
+   "url": "https://torqueking.com/products/587-tmd88usb-1988-dodge-ram-truck-and-ramcharger-shop-manual-on-usb",
+   "note": "First TBI and NP241 year"
+  },
+  {
+   "name": "RockAuto — 1990 Ramcharger literature",
+   "url": "https://www.rockauto.com/en/catalog/dodge,1990,ramcharger,5.2l+318cid+v8,1097153,literature",
+   "note": "Aftermarket repair manuals and reprints listed by year and engine"
+  },
+  {
+   "name": "Standard Catalog of American Light Duty Trucks (James T. Lenzke, Krause Publications)",
+   "note": "Book listing year-by-year changes and option packages; recommended on RamCharger Central"
+  }
+ ],
+ "production": {
+  "intro": "Dodge built the second-generation Ramcharger for the 1981–1993 model years in North America, and Mexico kept building it for three more years.",
+  "items": [
+   {
+    "k": "US/Canada model years",
+    "v": "1981–1993"
+   },
+   {
+    "k": "Assembly",
+    "v": "Warren Truck Assembly, Michigan, through 1985; later trucks carry Mexican-built VINs"
+   },
+   {
+    "k": "Mexico",
+    "v": "Continued to 1996; a separate 2WD Ramcharger on the newer Ram platform was built for Mexico for 1999–2001"
+   },
+   {
+    "k": "Plymouth Trail Duster",
+    "v": "Second-generation body for 1981 only"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Macho 4x4",
+    "years": "1981",
+    "note": "Hagerty's top-valued Ramcharger in 2019, with the 175 hp 360"
+   },
+   {
+    "name": "Royal SE / Prospector",
+    "years": "early–mid 1980s",
+    "note": "Dress-up and convenience packages; BaT has sold a 1983 Royal SE Prospector, a 1985 Prospector and a 1986 Royal SE"
+   },
+   {
+    "name": "LE",
+    "years": "late 1980s–1993",
+    "note": "Top trim with the LE Decor package: premium cloth buckets, center console and bright trim"
+   },
+   {
+    "name": "150 S",
+    "years": "1990",
+    "note": "Budget model in 2WD or 4WD with a 34-gallon tank, tinted glass and bright wheel covers"
+   },
+   {
+    "name": "Canyon Sport",
+    "years": "1992–1993",
+    "note": "Two-tone paint over Light Sand Metallic, body-color grille, cast wheels and a standard Magnum V8 with automatic; about 200 built for 1993"
+   }
+  ],
+  "paint": "1993 colors: Flame Red, Copper Metallic, Electric Blue Metallic, Dark Spectrum Blue Metallic, Light Sand Metallic, Emerald Green Metallic, Black, Sabre Gray Metallic, Silver Star Metallic and Bright White, all clear-coated (1993 brochure)"
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Dodge RamCharger Central",
+   "url": "https://www.ramchargercentral.com/forums/",
+   "note": "The main online Ramcharger club, with tech FAQs, build threads and classifieds"
+  },
+  {
+   "kind": "club",
+   "name": "RamCharger Central — Area Chapters",
+   "url": "https://www.ramchargercentral.com/forums/chapters.120/",
+   "note": "Regional member chapters that organize local meets and trail rides"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Dodge — 1990 Ramcharger sales brochure"
+  },
+  {
+   "name": "Dodge — 1993 Dodge Trucks brochure (Ramcharger equipment, dimensions, GVW, towing and driveline tables)"
+  },
+  {
+   "name": "NHTSA recalls API — Dodge Ramcharger 1981–1993",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=dodge&model=ramcharger&modelYear=1984"
+  },
+  {
+   "name": "NHTSA — campaign 84V115000",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V115000"
+  },
+  {
+   "name": "Wikipedia — Dodge Ramcharger",
+   "url": "https://en.wikipedia.org/wiki/Dodge_Ramcharger"
+  },
+  {
+   "name": "Wikipedia — Ram pickup",
+   "url": "https://en.wikipedia.org/wiki/Ram_pickup"
+  },
+  {
+   "name": "Wikipedia — Chrysler LA engine",
+   "url": "https://en.wikipedia.org/wiki/Chrysler_LA_engine"
+  },
+  {
+   "name": "Wikipedia — Warren Truck Assembly",
+   "url": "https://en.wikipedia.org/wiki/Warren_Truck_Assembly"
+  },
+  {
+   "name": "Hagerty — 1981–93 Dodge Ramchargers are riding the two-door SUV wave",
+   "url": "https://www.hagerty.com/media/buying-and-selling/dodge-ramchargers-increasing-in-value/"
+  },
+  {
+   "name": "Bring a Trailer — Dodge Ramcharger / Plymouth Trail Duster results",
+   "url": "https://bringatrailer.com/dodge/ramcharger/"
+  },
+  {
+   "name": "Bring a Trailer — 1993 Ramcharger Canyon Sport 4x4",
+   "url": "https://bringatrailer.com/listing/1993-dodge-ramcharger-10/"
+  },
+  {
+   "name": "Bring a Trailer — 1983 Ramcharger Royal SE Prospector 4x4",
+   "url": "https://bringatrailer.com/listing/1983-dodge-ramcharger-26/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Ramcharger Prospector 4x4",
+   "url": "https://bringatrailer.com/listing/1985-dodge-ramcharger-15/"
+  },
+  {
+   "name": "Bring a Trailer — 1987 Ramcharger LE 4x4",
+   "url": "https://bringatrailer.com/listing/1987-dodge-ramcharger-22/"
+  },
+  {
+   "name": "Bring a Trailer — 1992 Ramcharger Canyon Sport 4x4",
+   "url": "https://bringatrailer.com/listing/1992-dodge-ramcharger-8/"
+  },
+  {
+   "name": "Torque King 4x4 — QA4628 CAD shift fork (applications)",
+   "url": "https://torqueking.com/products/4628-qa4628-aluminum-cad-shift-fork-with-pads-for-dodge-jeep-dana-axles"
+  },
+  {
+   "name": "Torque King 4x4 — QU50924 NP208 kit (applications)",
+   "url": "https://torqueking.com/products/50924-qu50924-np208-transfer-case-bearing-and-seal-kit"
+  },
+  {
+   "name": "Torque King 4x4 — QU50129 NP241D kit, 1988–93 Ramcharger",
+   "url": "https://torqueking.com/products/50129-qu50129-bearing-seal-gasket-kit-for-1988-1993-dodge-np241-t-cases"
+  },
+  {
+   "name": "Torque King 4x4 — QU10569 transfer case vacuum switch",
+   "url": "https://torqueking.com/products/10569-qu10569-new-process-transfer-case-vacuum-switch-for-dodge-and-jeep"
+  },
+  {
+   "name": "Skyjacker — D600BKS 6-in suspension lift",
+   "url": "https://skyjacker.com/shop/suspension-lift-kit/d600bks-6-in-suspension-lift-system-with-front-and-rear-leaf-springs/"
+  },
+  {
+   "name": "RamCharger Central — 33in tires on stock 89 Ramcharger?",
+   "url": "https://www.ramchargercentral.com/threads/33in-tires-on-stock-89-ramcharger.129726/"
+  },
+  {
+   "name": "RamCharger Central — Biggest tire for stock rims",
+   "url": "https://www.ramchargercentral.com/threads/biggest-tire-for-stock-rims.338140/"
+  },
+  {
+   "name": "RamCharger Central — Best year of the Ramcharger?",
+   "url": "https://www.ramchargercentral.com/threads/best-year-of-the-ramcharger.121219/"
+  },
+  {
+   "name": "RamCharger Central — Ramcharger Buyers Guide",
+   "url": "https://www.ramchargercentral.com/threads/ramcharger-buyers-guide.112249/"
+  },
+  {
+   "name": "RamCharger Central — How does CAD work?",
+   "url": "https://www.ramchargercentral.com/threads/how-does-cad-work.59727/"
+  },
+  {
+   "name": "RamCharger Central — Looking to buy a Ramcharger, doing some homework",
+   "url": "https://www.ramchargercentral.com/threads/looking-to-buy-a-ramcharger-doing-some-homework.131979/"
+  },
+  {
+   "name": "RamCharger Central — TBI vs carb",
+   "url": "https://www.ramchargercentral.com/threads/tbi-vs-carb.139809/"
+  },
+  {
+   "name": "RamCharger Central — Common problems with Ramchargers?",
+   "url": "https://www.ramchargercentral.com/threads/common-problems-with-ramchargers.149154/"
+  },
+  {
+   "name": "RamCharger Central — Fuel mileage",
+   "url": "https://www.ramchargercentral.com/threads/fuel-mileage.333736/"
+  },
+  {
+   "name": "Mopar Insiders — Rare 1993 Dodge Ramcharger Canyon Sport 4x4 hits Bring a Trailer",
+   "url": "https://moparinsiders.com/rare-1993-dodge-ramcharger-canyon-sport-4x4-hits-bringatrailer/"
+  }
+ ]
+}

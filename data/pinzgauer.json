@@ -1,0 +1,1193 @@
+{
+ "family": {
+  "slug": "pinzgauer",
+  "name": "Pinzgauer",
+  "maker": "Steyr-Puch",
+  "years": "1971–2007",
+  "verdict": "An Austrian army truck with an air-cooled engine, a backbone tube where the chassis should be and portal hubs at every corner. It is slow, loud and narrow, and it will follow a mountain goat up a hill.",
+  "intro": [
+   "Steyr-Daimler-Puch started work on the Pinzgauer in 1964 as a bigger brother to its little Haflinger. Pilot production began in 1969 and series production in 1971, at the same Graz works that would later build the [[g-class/w460|Puch G]]. Like the Haflinger, it uses a central backbone tube with swing axles instead of a ladder frame. Its main customers were the Austrian and Swiss armies, and it went on to serve with more than two dozen others, from Britain and New Zealand to Saudi Arabia and Thailand.",
+   "The [[pinzgauer/pinzgauer-710-712|710 and 712]] (1971–1985) are the originals: a 2.5-liter air-cooled petrol four, a five-speed ZF gearbox, a 24-volt electrical system and drum brakes, with four wheels (710) or six (712). In 1985 they gave way to the [[pinzgauer/pinzgauer-716-718|716 and 718 Turbo D]], with a water-cooled Volkswagen turbodiesel six, disc brakes, a wider track and bigger tires. That generation was built in Graz until 2000 and then under licence in Britain, where production ended around 2007.",
+   "Steyr never sold the Pinzgauer new in the United States. Nearly every American example arrived later as military surplus, most of them petrol trucks retired by the Swiss Army. Today they are a cult choice for overlanders and expedition builders. People buy them for portal-axle clearance, on-the-fly lockers and a load bed that seats ten. They put up with a cabin you have to shout across and parts priced, as one owner put it, 'somewhere between Lexus and airplane'."
+  ],
+  "hero_photo": "710-712m-quarry.jpg",
+  "generations": [
+   {
+    "slug": "pinzgauer-710-712",
+    "name": "Pinzgauer 710 / 712",
+    "years": "1971–1985",
+    "codes": [
+     "710M",
+     "710K",
+     "712M",
+     "712K"
+    ],
+    "summary": "The air-cooled petrol originals in 4x4 (710) and 6x6 (712) form. Nearly all US trucks are ex-Swiss Army.",
+    "at_url": "https://www.autotempest.com/results?keywords=pinzgauer&minyear=1971&maxyear=1985",
+    "bat_url": "https://bringatrailer.com/steyr-puch/pinzgauer/",
+    "has_page": true
+   },
+   {
+    "slug": "pinzgauer-716-718",
+    "name": "Pinzgauer 716 / 718",
+    "years": "1985–2007",
+    "codes": [
+     "716",
+     "718",
+     "Turbo D"
+    ],
+    "summary": "The Turbo D: a VW turbodiesel six, disc brakes, a wider track and an optional automatic. Built in Graz until 2000, then in Britain.",
+    "at_url": "https://www.autotempest.com/results?keywords=pinzgauer&minyear=1985&maxyear=2007",
+    "bat_url": "https://bringatrailer.com/steyr-puch/pinzgauer/",
+    "has_page": true
+   }
+  ],
+  "forums": [
+   {
+    "name": "The Portal Hub (real4x4forums Pinzgauer BBS)",
+    "url": "https://real4x4forums.com/PinzgauerBBS/index.php",
+    "note": "The main English-language Pinzgauer forum, with boards for petrol and diesel trucks, Haflingers, Volvo C303s and classifieds."
+   },
+   {
+    "name": "The Portal Hub — Pinzgauer technical 710, 712 petrol/gas models",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=19",
+    "note": "Engine, drivetrain, electrical, brakes and body boards for the air-cooled trucks."
+   },
+   {
+    "name": "The Portal Hub — Diesel Pinzgauers 716 and 718",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=32",
+    "note": "Turbo D engine, driveline and body tech."
+   },
+   {
+    "name": "The Portal Hub — Classifieds",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=5",
+    "note": "Trucks, part-outs and parts for sale."
+   },
+   {
+    "name": "Pinzgauer Club de France",
+    "url": "https://www.pinzgauer.fr/",
+    "note": "French-speaking owners' club, linked from Wikipedia's Pinzgauer article."
+   }
+  ],
+  "related_families": [
+   "unimog",
+   "g-class",
+   "hummer",
+   "land-rover"
+  ]
+ },
+ "page": {
+  "slug": "pinzgauer-710-712",
+  "title": "Pinzgauer 710 / 712",
+  "eyebrow": "STEYR-PUCH PINZGAUER · 710 4x4 / 712 6x6 · 1971–1985",
+  "verdict": "Eighty-seven air-cooled horsepower, a backbone tube instead of a frame and portal hubs at every corner. A 710 will crawl up things that make Land Cruisers think twice, then feel strained much past 60 on the interstate. Check for rust first, and expect to wrench on it often.",
+  "codes": [
+   "710M · 710K · 712M",
+   "2.5 L AIR-COOLED I4",
+   "PORTAL SWING AXLES",
+   "HYDRAULIC LOCKERS",
+   "24 VOLT"
+  ],
+  "hero_photo": "710-710m-wales-byway.jpg",
+  "hero_focus": "40% 55%",
+  "story": [
+   {
+    "heading": null,
+    "paragraphs": [
+     "Most 4x4s start as a ladder frame with axles bolted underneath. The Pinzgauer starts as a steel tube. Steyr-Daimler-Puch began developing it in 1964 as the bigger brother of its Haflinger. Pilot production started in 1969, and the 710 (4x4) and 712 (6x6) went into series production in Graz in 1971. They have an air-cooled 2.5-liter petrol four, swing axles with portal reduction hubs, hydraulic diff locks you engage on the move, and a 24-volt system built to military spec. The result is one of the most capable off-roaders ever built, and one of the strangest to drive on the street."
+    ]
+   },
+   {
+    "heading": "THE HAFLINGER'S BIG BROTHER",
+    "paragraphs": [
+     "The Pinzgauer, like the Haflinger, was developed in Graz under Erich Ledwinka. He was the son of Tatra's Hans Ledwinka and served as Steyr-Daimler-Puch's chief engineer from 1950 to 1976. The Austrian sources say the name comes from the Pinzgauer horse of the Pinzgau region. English-language sources usually credit the region's cattle instead. To win the Austrian Bundesheer contract, it had to beat the Husar from rival maker ÖAF, and it did.",
+     "Where the Haflinger carried its engine in the tail, the Pinzgauer put it up front over the front axle. The backbone-tube layout made it easy to build many different bodies on the same chassis. Steyr's two main customers were the Austrian and Swiss armies, and Yugoslavia bought 3,975 of them in both 4x4 and 6x6 form. Wikipedia counts 18,349 first-generation 710s and 712s built between 1971 and 1985, for civilian and military buyers."
+    ]
+   },
+   {
+    "heading": "HOW IT WORKS",
+    "paragraphs": [
+     "The central tube contains the drivetrain. The transfer case and differentials sit inside it, and the swing half-axles pivot from it, ending in portal gearboxes that drop the drive by 2.266:1 at each wheel. No diff housing hangs underneath to catch on rocks, so ground clearance is 335 mm (13.2 in). SDP-Pinzgauer's technical data quotes 45-degree approach and departure angles, 700 mm (27.6 in) of fording depth and a 100 percent climbing ability. Steering is a ZF-Gemmer worm and roller with five turns lock to lock, and there is no power assistance.",
+     "The engine was designed for the vehicle: a 2,499 cc pushrod four with twin Zenith 36 NDIX carburetors and separate pressure and return oil pumps, so it isn't starved of oil on steep slopes. BaT lists it at 87 hp and 133 lb-ft. It drives a ZF five-speed and a two-speed transfer case, which gives ten forward gears. Front-wheel drive and the front and rear lockers are engaged hydraulically with levers in the center stack. There is no center differential, so the Pinzgauer runs as a part-time 4x4. Everything electrical runs on 24 volts through two 12-volt batteries and push-pull circuit breakers."
+    ]
+   },
+   {
+    "heading": "FOUR WHEELS OR SIX",
+    "paragraphs": [
+     "The 710 was the more popular model, but Steyr designed the 6x6 into the platform from the start. The 712's rear bogie uses inverted parabolic leaf springs where the 710 uses coils. It raises payload from 1,000 to 1,500 kg and seats 14 in M (troop carrier) form, against 10 in a 710M. Owners say the 712 rides better on the road and the 710 copes better in tight spaces. Bodies included the M soft top, the K five-door hardtop, the T flatbed, ambulances, workshop and fire trucks, and the 712 DK crew cab.",
+     "Production figures from Das Puch Automobil Buch show the mix changing. In 1978 Graz built 444 710s and 167 712s, and from 1981 the 712 outsold the 710 every year. Late in production, some 712s, mostly ambulances, got a 2.7-liter version of the air-cooled four. Otherwise the first generation hardly changed in 15 years. That helps if you are hunting for parts, and it means there are no particularly good or bad years to look out for."
+    ]
+   },
+   {
+    "heading": "AFTER THE ARMY",
+    "paragraphs": [
+     "In 1985 the redesigned [[pinzgauer/pinzgauer-716-718|716 and 718]] took over. They had a turbocharged VW diesel six, disc brakes, a slightly wider track and an optional automatic. The petrol trucks stayed in service for decades and then came onto the surplus market, mostly from Switzerland. In America they became tour buses as well as campers. Wikipedia notes that the Navajo Nation was still using a small fleet for visitor trips in Canyon de Chelly in 2024. Car executive Bob Lutz bought an ex-Swiss 710M in 1991.",
+     "Today a 710 makes a strong case as a low-cost expedition truck, as long as you accept its limits. Bring a Trailer sales from 2023 to 2026 mostly land between about $10,000 and $25,000. Parts are still made or stocked by specialists such as Swiss Army Vehicles in Arkansas and Expedition Imports. And the community has documented almost every job, from the 0.2 mm valve lash to fitting split axle boots."
+    ]
+   }
+  ],
+  "callout": {
+   "label": "SIDEBAR · THE SWISS PIPELINE",
+   "title": "Why most American Pinzgauers come from Switzerland",
+   "paragraphs": [
+    "The Swiss Army bought petrol Pinzgauers in large numbers and kept them for decades. As the Swiss and Austrian armies retired their trucks, demand grew in the US. Swiss Army Vehicles in Fayetteville, Arkansas, says it has dealt in European military vehicles and parts since 1998. The SDP-Pinzgauer owners' site warned buyers that the trucks' infrared-reflecting paint fades quickly and isn't very water resistant. The Swiss Army repainted the trucks by hand at regular intervals, so a shiny coat can hide plenty.",
+    "There are other Swiss details too. Swiss trucks use a single amber bulb for turn and brake lights plus a red tail lamp, where Austrian trucks have separate red brake lights. The 710K radio command trucks, or Funkkommandowagen, carry their own wiring. Some trucks arrive with paperwork as well: the ex-Lutz 710M that sold on BaT in 2026 came with a Swiss registration document alongside its Texas title. The checklist also notes that the trucks were steam-cleaned before shipping, and still advises lifting the footwell plates, where 'most likely you will find half of the Alps.'"
+   ]
+  },
+  "engineering_intro": "There's no ladder frame. A torsion-resistant central tube carries the transfer case and axle drives, with swing half-axles pivoting off it and portal reduction gearboxes at the hubs. The engine is an air-cooled 2.5-liter pushrod four mounted over the front axle. It drives through a ZF five-speed and a two-speed transfer case, with hydraulically engaged front drive and diff locks. Brakes are dual-circuit power-assisted drums, and the parking brake is a disc on the main driveshaft.",
+  "engineering": [
+   {
+    "k": "CHASSIS",
+    "v": "Central backbone tube with swing axles",
+    "note": "The tube houses the transfer case and axle drives. The wheelbase is 2,200 mm (86.6 in) on the 710 and 2,000 + 980 mm on the 712."
+   },
+   {
+    "k": "AXLES",
+    "v": "Portal reduction hubs, 2.266:1",
+    "note": "Axle drive ratio is 2.846:1 (13:37). Nothing hangs below the hubs, which gives 335 mm (13.2 in) of ground clearance."
+   },
+   {
+    "k": "ENGINE",
+    "v": "2,499 cc air-cooled OHV inline-four",
+    "note": "Twin Zenith 36 NDIX carbs and a separate oil cooler. Rated at 87 hp and 133 lb-ft, with SDP data quoting 82–87 hp measured at the driven axle."
+   },
+   {
+    "k": "GEARBOX",
+    "v": "ZF 5-speed + 2-speed transfer case",
+    "note": "First gear is 5.33:1 and fifth is 1.00:1. Low range is 1.69 on the 710 and 1.92 on the 712. Fichtel & Sachs 240 mm hydraulic clutch."
+   },
+   {
+    "k": "4WD & LOCKERS",
+    "v": "Part-time, hydraulic front/rear diff locks",
+    "note": "Front drive and both lockers are engaged on the move with levers in the center stack. With no center diff, keep front drive off on pavement."
+   },
+   {
+    "k": "ELECTRICS",
+    "v": "24 V, two 12 V / 66 Ah batteries",
+    "note": "28 V / 35 A alternator, push-pull circuit breakers instead of fuses, and shielded, waterproofed military ignition."
+   }
+  ],
+  "generations_table": [
+   {
+    "years": "1971–1985",
+    "platform": "710M",
+    "engine": "2.5 L air-cooled I4",
+    "output": "87 hp / 133 lb-ft",
+    "note": "4x4 soft-top troop carrier for 10 people. The most common US import."
+   },
+   {
+    "years": "1971–1985",
+    "platform": "710K",
+    "engine": "2.5 L air-cooled I4",
+    "output": "87 hp / 133 lb-ft",
+    "note": "Five-door hardtop station wagon, including Swiss radio command trucks."
+   },
+   {
+    "years": "1971–1985",
+    "platform": "710T / 710 AMB",
+    "engine": "2.5 L air-cooled I4",
+    "output": "87 hp / 133 lb-ft",
+    "note": "Flatbed, plus AMB-Y and AMB-S ambulances (the S has an air-portable shelter)."
+   },
+   {
+    "years": "1971–1985",
+    "platform": "712M",
+    "engine": "2.5 L air-cooled I4",
+    "output": "87 hp / 133 lb-ft",
+    "note": "6x6 soft top for 14 people, with a leaf-sprung rear bogie, a 1,500 kg payload and a 100 km/h top speed."
+   },
+   {
+    "years": "1971–1985",
+    "platform": "712K / W / DK / FW",
+    "engine": "2.5 L air-cooled I4",
+    "output": "87 hp / 133 lb-ft",
+    "note": "6x6 station wagon, workshop with shelter, crew-cab pickup, and fire truck."
+   },
+   {
+    "years": "Late production",
+    "platform": "712 (mostly ambulances)",
+    "engine": "2.7 L air-cooled I4",
+    "output": "76 kW (de.wikipedia, civilian K-Jetronic version)",
+    "note": "English and German Wikipedia disagree on which trucks got the 2.7. Check the engine plate."
+   }
+  ],
+  "buying_checks": [
+   {
+    "head": "Hunt rust where the Alps hide",
+    "body": "The SDP pre-purchase checklist lists the spots: both bottom corners of the air tunnel (sound-deadening foam holds water), the fuel filler neck, the doors (seams, bottoms and inside the window channels), the footwells under the diamond plates, behind the wooden rub rails, the bedside-to-tub seams and the rear door. Owners add the battery and tool boxes and the heat exchanger. Shiny paint over these areas proves nothing."
+   },
+   {
+    "head": "Check the spring cups and swivel balls",
+    "body": "The upper spring cups rust through and make an ugly repair, so check them along with the limiting straps. Flaking or pitted plating on the front swivel balls is, in the SDP checklist's words, 'a costly repair.'"
+   },
+   {
+    "head": "Look for red flakes in the fuel filter",
+    "body": "Red flakes mean the fuel tank's lining is peeling. The checklist says 'be very careful!' and owners on the Portal Hub still ask about tanks that need stripping and relining."
+   },
+   {
+    "head": "Run a compression test",
+    "body": "The absolute numbers matter less than consistency. The SDP guide accepts 120–160 psi as long as the cylinders are within about 10 psi of each other, and warns that cylinder 4 (the rearmost) can have overheated. Some owners also do a leak-down test and look inside the oil filler tube for yellow, greasy residue."
+   },
+   {
+    "head": "Engage everything",
+    "body": "On a test drive, try low and high range, front drive and both lockers. The SDP guide notes that disengaging sometimes takes a few left-right turns, which is normal. A locker that won't engage usually points to the hydraulics: old fluid, cracked rubber elbows or a seized slave bleeder."
+   },
+   {
+    "head": "Get under it with a creeper",
+    "body": "Look for leaks at the portals, diffs, gearbox and transfer case. Some weeping is normal on a 40-year-old truck. Check for torn axle boots, and with the transfer case in neutral, feel for excessive backlash in the driveline. Oil inside a brake drum means a leaking wheel-drive seal."
+   },
+   {
+    "head": "Drive it at speed",
+    "body": "If it shakes, engage front drive. If the vibration stops, suspect driveshaft balance. If it doesn't, the wheels were probably never balanced: the SDP checklist says the Swiss didn't balance them. The rims are lug-centric, so a tire shop needs an adapter. Owners also describe a low rumble from the flexible front driveshaft that grows with mileage."
+   },
+   {
+    "head": "Test the 24-volt electrics and the canvas",
+    "body": "Open the black distribution box under the right rear corner and check for corrosion. Then check the dash breakers, the fuel and speed gauges (they can stick at zero or full) and the wiper motor. Look over the tarps too: replacing UV-damaged canvas is expensive."
+   }
+  ],
+  "repairs": [
+   {
+    "title": "Replace torn axle boots with split boots",
+    "diff": "2 / 5",
+    "time": "≈ 25 minutes to 1 hour per split boot (2–3 hours per side for a one-piece rear boot)",
+    "cost": "About $54 per split boot at Swiss Army Vehicles (October 2026)",
+    "symptoms": "Cracked, dry-rotted or shredded rubber boots where the swing half-axles leave the diffs, sometimes with gear oil pooling inside. Owners say the boots keep dust and water out and the oil in.",
+    "fix": "A one-piece boot means removing the wheel drive, and the front needs a spring compressor. Portal Hub veteran Jim LaGuardia warns never to compress the front springs below 10.5 inches. Most owners fit split boots instead. Clean the old boot off, glue the seam with Loctite 414, clock the bolted seam toward 3 o'clock on the straight side of the axle housing so it can't bind, and clamp both ends. A heat gun helps the boot seat. One owner found cracks above the bolted seam on two trucks after about 10,000 miles, so check the top of the boot from time to time.",
+    "tools": "Hose clamps · heat gun · Loctite 414 · front spring compressor (one-piece boots only) · service manual, wheel drive removal section.",
+    "parts": [
+     {
+      "name": "Split axle boot with bolts (7103322600B, clamps not included)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/03-10-02/7103322600B/split-axle-boot-with-bolts"
+     },
+     {
+      "name": "Loctite 414, 3 g (SAV1120), needed for split boots",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/03-10-02A/SAV1120/loctite-414-3g"
+     },
+     {
+      "name": "One-piece axle boot (7101322621)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/03-10-02/7101322621/axle-boot"
+     }
+    ]
+   },
+   {
+    "title": "Renew the locker/4WD hydraulics: elbows, fluid and bleeding",
+    "diff": "2 / 5",
+    "time": "≈ An afternoon",
+    "cost": "Rubber elbow kit about $19 (710) or $24 (712) at Swiss Army Vehicles, plus DOT 3",
+    "symptoms": "Lockers or front drive that are slow to engage or won't engage at all, dark fluid in the reservoir, or seepage at the rubber elbows and T-piece under the reservoir.",
+    "fix": "Empty the reservoir with a syringe or baster. Pull the reservoir and work the cracked rubber elbows and T-piece off the metal lines, then fit new ones with their tube-ring clamps and refill with fresh DOT 3. One Portal Hub owner checked a power bleeder held 10 psi, then filled it with DOT 3. He dropped each locker lever and opened each slave bleeder until clean fluid ran out. Buy spare bleeder valves first: his 4x4 slave's bleeder was so seized that fluid leaked out around the threads.",
+    "tools": "Power bleeder (owner used a Motive) · baster or syringe · foil drip tray · DOT 3 brake fluid · spare slave bleeder valves.",
+    "parts": [
+     {
+      "name": "Rubber elbow and T-piece kit, locker, 710 (SAV5863)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-15-09/SAV5863/rubber-elbow-t-piece-kit-locker-710"
+     },
+     {
+      "name": "Rubber elbow and T-piece kit, locker, 712 (SAV5864)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-15-09/SAV5864/rubber-elbow-t-piece-kit-locker-712"
+     },
+     {
+      "name": "Bleeder valve, diff-lock slave cylinder (7101285160)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-20-26/7101285160/bleeder-valve-slave-cylinder-diff-lock"
+     },
+     {
+      "name": "Master cylinder locker repair set, 4x4 (SAV5850)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-20-00/SAV5850/master-cylinder-locker-repair-set-4x4"
+     }
+    ]
+   },
+   {
+    "title": "Rebuild the mechanical fuel pump",
+    "diff": "2 / 5",
+    "time": "≈ An evening (the write-up's author is not a mechanic)",
+    "cost": "Repair kit about $38 at Swiss Army Vehicles",
+    "symptoms": "Long cranking after the truck has sat for a few days, getting worse over time, and a wet patch under the pump.",
+    "fix": "Remove the engine cover and air filter. Clamp the fuel hoses a few inches from the ends and twist them off the pump, then undo the two 13 mm base nuts and lift the pump, its push rod and the plastic guide out. Clean the outside before opening it. Replace the diaphragm and gaskets in the top section. Then take out the side panel and spring, remove the lever-pivot circlips and fit the new lower parts (the kit includes spare circlips). Grease the lever, refit the pump with new gaskets, and crank in 10-second bursts until fuel arrives.",
+    "tools": "13 mm open-ended wrench · small and medium flat screwdrivers · two hose clamps · grease. The write-up's kit was part number 712.1.08.560.0.",
+    "parts": [
+     {
+      "name": "Fuel pump repair kit (7121085600)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-45-35/7121085600/repair-kit-fuel-pump"
+     },
+     {
+      "name": "Gasket, fuel pump base (7121081151)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-45-32/7121081151/gasket-fuel-pump-base"
+     },
+     {
+      "name": "Complete fuel pump (7121081210), if the body is worn",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-45-01/7121081210/fuel-pump"
+     }
+    ]
+   },
+   {
+    "title": "Adjust the drum brakes (and renew tired wheel cylinders)",
+    "diff": "2 / 5",
+    "time": "≈ An afternoon for all four corners",
+    "cost": "Adjustment is free. A full cylinder set is about $379 (710) or $468 (712) at Swiss Army Vehicles",
+    "symptoms": "A long pedal, uneven braking, or a wet backing plate from a weeping wheel cylinder.",
+    "fix": "Raise one wheel at a time onto stands and remove the wheel. Refit two or three lug nuts to hold the drum square. Take out the adjusting plug in the drum with a 10 mm Allen key (it seals with a copper ring, like the fluid plugs) and check that at least 1/8 inch of lining is left. Each front has two star adjusters (duplex shoes) and each rear has one. Turn each adjuster until the shoe locks, then back it off until the drum turns freely; the SDP guide says about five clicks. Pump the pedal hard several times, and again while driving slowly, before you trust it.",
+    "tools": "10 mm Allen key · brake spoon · jack and stands · torque wrench (one owner torques the lug nuts to 110 lb-ft) · flashlight.",
+    "parts": [
+     {
+      "name": "Brake + master cylinders set, 710 4x4 (SAV8415)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-05-00/SAV8415/brake-+-master-cylinders-set-710-4x4"
+     },
+     {
+      "name": "Brake + master cylinders set, 712 6x6 (SAV8425)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-05-00/SAV8425/brake-+-master-cylinders-set-712-6x6"
+     },
+     {
+      "name": "Brake shoes, new set of four (7102365122N)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/06-01-01/7102365122N/brake-shoes-new-set-of-four"
+     },
+     {
+      "name": "Bleeder valve, front brake cylinder (7101364700)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-05-53/7101364700/bleeder-valve-brake-cyl-front"
+     }
+    ]
+   },
+   {
+    "title": "Set the valve lash",
+    "diff": "2 / 5",
+    "time": "≈ Under 30 minutes with practice (SDP guide)",
+    "cost": "Four rocker-cover gaskets, about $26–49 a set",
+    "symptoms": "Clattering valvetrain, or simply an unknown service history. It's a routine job on this pushrod air-cooled engine.",
+    "fix": "With the engine cold, remove the engine cover, the throttle linkage and all four rocker covers. Bring cylinder 1 to TDC on compression, with the timing mark aligned and the rotor pointing at the No. 1 lead. Set both valves to 0.2 mm (intake and exhaust) by feel, lock the adjuster and check again. Turn the crank half a turn at a time to do cylinders 2, 4 and 3, following the 1-2-4-3 firing order. Fit new gaskets. The SDP guide says never to use blue RTV and to check carburetor sync afterward. It also warns that a deformed head gasket can lose enough oil on one highway trip to ruin the engine.",
+    "tools": "0.2 mm feeler gauge · screwdriver · combination wrenches · chalk · socket to turn the crank · carburetor synchronizer.",
+    "parts": [
+     {
+      "name": "Valve cover gasket, synthetic, set of 4 (7121040061AS)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-73/7121040061AS/gasket-valve-cover-synthetic-set-of-4"
+     },
+     {
+      "name": "Valve cover gasket, cork, set of 4 (7121040061S)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-73/7121040061S/gasket-valve-cover-cork-set-of-4"
+     },
+     {
+      "name": "Carburetor synchro tester (9053121160)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-40-99/9053121160/tool-carburetor-synchro-tester"
+     }
+    ]
+   },
+   {
+    "title": "Free a stuck clutch or replace it",
+    "diff": "4 / 5",
+    "time": "Big job: the gearbox comes out",
+    "cost": "Complete clutch kit about $408 at Swiss Army Vehicles",
+    "symptoms": "The engine runs, but no gear will engage after the truck has sat for months, because the disc has rusted to the flywheel or pressure plate. Or the clutch slips or grabs suddenly.",
+    "fix": "For a lightly stuck disc, put it in gear with the engine off, make sure the way ahead is clear, and start it on the starter. The truck lurches, and the disc often frees once you work the pedal. If that fails, the gearbox has to come out. Support the engine sump on a stand, wire the two driveshaft halves together (they are balanced as a pair), undo the shift-rod nuts (17 and 19 mm) and the six 13 mm driveshaft bolts, then strap the 39 kg gearbox to a cross-beam and slide it back. Use a proper alignment tool when fitting the disc, and torque the bolts to the 22–25 Nm the write-up calls for.",
+    "tools": "Clutch alignment tool · 10, 13, 15, 17 and 19 mm sockets · 6 mm Allen key · torque wrench (20 Nm range) · two jacks and stands · ratchet strap.",
+    "parts": [
+     {
+      "name": "Clutch kit, 710/712 (SAV2727): pressure plate, disc, throwout and pilot bearings, clips, bolts, alignment tool",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-60-00/SAV2727/clutch-kit-pinzgauer-710-712"
+     },
+     {
+      "name": "Clutch alignment tool (SAV2725)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/01-60-10/SAV2725/tool-clutch-alignment"
+     },
+     {
+      "name": "Clutch slave cylinder repair kit (7103265200)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/07-10-51/7103265200/repair-kit-clutch-slave-cylinder"
+     }
+    ]
+   },
+   {
+    "title": "Replace rusted spring cups",
+    "diff": "3 / 5",
+    "time": "≈ 2 hours per corner, not counting painting (SDP / Expedition Imports)",
+    "cost": "Cups run about $140–200 each new. An aluminum rear upper upgrade is $159",
+    "symptoms": "Upper spring cups (and their studs) rusted through, because dirt and water collect in the cup on top of each coil.",
+    "fix": "Set the parking brake and jack the center of the truck. Remove the wheel, then use the Pinzgauer's own jack under the hub to control the suspension. Remove the lower shock bolt and the limiting-strap bolt, lower the hub until the coil is extended, and fit the factory spring compressor arms, levering between body and coil for room. Jack the hub to compress the coil, fit the lower plates, tighten, lower and lift out the spring. Fit new cups, gasket and centering ring on the bench, then reverse the steps. The write-up, by Scott Ingham of Expedition Imports, recommends treating and painting the coil while it's out.",
+    "tools": "Factory spring compressor kit · Pinzgauer jack plus a floor jack · pry bar · impact or air tools help.",
+    "parts": [
+     {
+      "name": "Spring cup upper rear, aluminum upgrade (SAV5900)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/04-20-01/SAV5900/spring-cup-upper-rear-alu-upgrade"
+     },
+     {
+      "name": "Spring cup upper rear (7101544262-30)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/04-20-01/7101544262-30/spring-cup-upper-rear"
+     },
+     {
+      "name": "Spring cup upper front (7101544212-30)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/04-15-02/7101544212-30/spring-cup-upper-front"
+     }
+    ]
+   },
+   {
+    "title": "Adjust the driveshaft parking brake",
+    "diff": "2 / 5",
+    "time": "Several rounds of trial and error",
+    "cost": "Adjustment is free. Disc with lining about $99 each (two per truck)",
+    "symptoms": "The handbrake won't hold the truck on a slope.",
+    "fix": "This follows a Portal Hub write-up based on the manual. The handle should pull out 90–100 mm (about 4 inches) to engage, and the pin at the brake lever at the back must travel the same distance. Measure both. If they differ, take out the pin and adjust the cable length, then set the brake nut on the other side so the brake fully engages. The nut is sensitive, and 90 degrees can make a big difference, so expect several rounds. Test on a hill without using the clutch. Finally, pre-tension the cable with two or three clockwise twists, as seen from the front.",
+    "tools": "Ruler and tape · wrenches · a hill.",
+    "parts": [
+     {
+      "name": "Parking brake disc with lining (7102353412), two needed",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/06-10-55/7102353412/disc-parking-brake-with-lining"
+     },
+     {
+      "name": "Parking brake cable, 710 (7102353352)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/06-10-14/7102353352/cable-parking-brake-710"
+     },
+     {
+      "name": "Parking brake cable, 712 (7101353342)",
+      "supplier": "Swiss Army Vehicles",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/06-10-14/7101353342/cable-parking-brake-712"
+     }
+    ]
+   }
+  ],
+  "baseline_service": {
+   "intro": "Assume nothing was done after the truck left the army. On a 710 or 712 that means about a dozen separate gear-oil fill points, a hydraulic system for the lockers as well as the brakes and clutch, and an air-cooled engine that depends on clean fins and correct valve lash. The intervals come from the factory schedule (in hours, page 214 of the manual, per Portal Hub owners), but most US owners simply change everything on purchase and then once a year. Fit new copper washers on every plug.",
+   "items": [
+    {
+     "item": "Engine oil & filter",
+     "spec": "Straight SAE 30 per the operating instructions (one veteran owner), or a 20W-50 mineral oil with ZDDP. 6.5 L listed; one owner needed 7.5 qt to the top mark after a 30-minute drain.",
+     "interval": "Owners change every 3,000 mi or yearly",
+     "note": "Mann W940/5 (with anti-drainback valve) or W940/18. Check the level just after shutdown, because a horizontal filter can drain back and give confusing readings. Owners avoid synthetics in this engine.",
+     "parts": [
+      {
+       "name": "Mann oil filter (SAV1008M)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-15-27/SAV1008M/oil-filter-mann"
+      },
+      {
+       "name": "Copper seal ring, drain plug (0076030221-02)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-86/0076030221-02/seal-ring-copper-oil-drain-plug"
+      }
+     ]
+    },
+    {
+     "item": "Air filter",
+     "spec": "Element in the factory housing; some trucks have the cyclone filter system [CONFIRM IN MANUAL]",
+     "interval": "Check at every oil change, more often in dust",
+     "note": "The housing, lid seal and rubber intake boot all matter on a carbureted engine that breathes dust off-road.",
+     "parts": [
+      {
+       "name": "Air filter, European repro (SAV1033)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-35-05/SAV1033/air-filter-european-repro"
+      },
+      {
+       "name": "Rubber boot, air intake (7122190041)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-35-11/7122190041/rubber-boot-air-intake"
+      }
+     ]
+    },
+    {
+     "item": "Spark plugs & ignition",
+     "spec": "Gap 0.6–0.7 mm for OEM shielded plugs; 0.76 mm with civilian plugs and Pertronix. Timing 3–7 mm BTDC (owner figure)",
+     "interval": "With the valve adjustment",
+     "note": "Military shielded plugs and wires are expensive. Many owners fit Pertronix electronic points or a full civilian conversion.",
+     "parts": [
+      {
+       "name": "Military shielded spark plugs, set of 4 (SAV6200-4)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/09-01-35/SAV6200-4/spark-plug-military-shielded-set-of-4"
+      },
+      {
+       "name": "Pertronix electronic ignition for the Pinzgauer (SAV2600)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/09-10-26A/SAV2600/electronic-ignition-pertronix-pinzgauer"
+      }
+     ]
+    },
+    {
+     "item": "Valve clearance",
+     "spec": "0.2 mm intake and exhaust, set cold · firing order 1-2-4-3",
+     "interval": "Per the factory hour-based schedule [CONFIRM IN MANUAL]",
+     "note": "New rocker-cover gaskets every time, no blue RTV, and recheck carb sync afterward.",
+     "parts": [
+      {
+       "name": "Valve cover gasket, synthetic, set of 4 (7121040061AS)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-73/7121040061AS/gasket-valve-cover-synthetic-set-of-4"
+      }
+     ]
+    },
+    {
+     "item": "Cooling fan belt, fins & oil cooler",
+     "spec": "Air-cooled. Belt tension is set with adjusting washers at the split pulley",
+     "interval": "Inspect at every service",
+     "note": "Keep every cooling tin in place and the fins clean. The SDP checklist expects to find leaves in the oil cooler. One owner reports years in 110–115°F Arizona heat without trouble when this is done. Carry a spare belt.",
+     "parts": [
+      {
+       "name": "Fan belt (7102060271)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-20-04/7102060271/belt-fan"
+      },
+      {
+       "name": "Fan belt adjusting washer, 1 mm (50110608)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-20-03/50110608/adjusting-washer-1mm-fan-belt"
+      }
+     ]
+    },
+    {
+     "item": "Gearbox",
+     "spec": "≈2 L. The manual calls for MIL-L-2105 gear oil; owners use GL-4 75W-90 such as Red Line MT-90",
+     "interval": "On purchase, then per the schedule",
+     "note": "One owner's drain-and-fill took 1.8 qt, so some oil stays inside.",
+     "parts": [
+      {
+       "name": "Magnetic drain plug, fits diffs, wheel drives and transfer case (7101324132)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-85/7101324132/oil-drain-plug-magnetic"
+      }
+     ]
+    },
+    {
+     "item": "Transfer case",
+     "spec": "≈2.3 L, MIL-L-2105 gear oil; owners also use Red Line Heavy ShockProof",
+     "interval": "On purchase, then per the schedule",
+     "note": "It sits inside the central tube ahead of the rear axle drive.",
+     "parts": [
+      {
+       "name": "Copper seal ring for drain and fill plugs (0076030221-02)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-86/0076030221-02/seal-ring-copper-oil-drain-plug"
+      }
+     ]
+    },
+    {
+     "item": "Axle drives (differentials)",
+     "spec": "≈2 L each, 80W-90 or 85W-90 gear oil (CRC Sta-Lube SL24239 is popular)",
+     "interval": "On purchase, then per the schedule",
+     "note": "Some owners avoid GL-5 for fear it attacks yellow metals; others say modern GL-5 synthetics such as Red Line's are safe. A 712 has three axle drives.",
+     "parts": [
+      {
+       "name": "Magnetic drain plug (7101324132)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-01-85/7101324132/oil-drain-plug-magnetic"
+      }
+     ]
+    },
+    {
+     "item": "Wheel drives (portal hubs)",
+     "spec": "≈0.4 L each front, ≈0.35 L each rear; mineral 80W-90 gear oil",
+     "interval": "On purchase, then per the schedule",
+     "note": "Fill until oil just starts to run out of the fill hole. A hub that gushes when you open it suggests a leaking diff seal, because oil is migrating along the axle. One owner's fluid summary advises against synthetics here in case a seal fails onto the brakes. Use new copper washers and don't stack an old one under the new one.",
+     "parts": [
+      {
+       "name": "Wheel drive bearings & seals repair kit (SAV4700)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/04-10-00/SAV4700/repair-kit-wheel-drive-bearings--seals"
+      },
+      {
+       "name": "Oil fill plug (D009080012)",
+       "supplier": "Expedition Imports",
+       "url": "https://expedition-imports.com/oil-fill-plug-d009080012/"
+      }
+     ]
+    },
+    {
+     "item": "Steering box",
+     "spec": "The same universal gear oil as the drivetrain, per the Steyr maintenance booklet quoted by owners",
+     "interval": "Check level on purchase",
+     "note": "ZF-Gemmer worm and roller. Seal and rebuild kits are still available.",
+     "parts": [
+      {
+       "name": "Steering gear seal (9023801)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/05-01-25/9023801/seal-steering-gear-zf-0634302460"
+      }
+     ]
+    },
+    {
+     "item": "Brake, clutch & locker hydraulics",
+     "spec": "DOT 3 brake fluid in the locker/4WD circuit (owner practice); brake and clutch spec [CONFIRM IN MANUAL]",
+     "interval": "Flush on purchase",
+     "note": "There are three hydraulic systems to bleed. Replace the cracked rubber elbows under the locker reservoir before you pressure-bleed, and buy spare bleeder valves first.",
+     "parts": [
+      {
+       "name": "Rubber elbow and T-piece kit, locker, 710 (SAV5863)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/07-15-09/SAV5863/rubber-elbow-t-piece-kit-locker-710"
+      },
+      {
+       "name": "Bleeder valve, diff-lock slave cylinder (7101285160)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/07-20-26/7101285160/bleeder-valve-slave-cylinder-diff-lock"
+      }
+     ]
+    },
+    {
+     "item": "Drum brake adjustment",
+     "spec": "Two star adjusters per front wheel, one per rear; at least 1/8 in of lining",
+     "interval": "On purchase, then regularly",
+     "note": "Adjust through the plug in each drum (10 mm Allen). While a drum is off, check for gear oil, which means a leaking wheel-drive seal.",
+     "parts": [
+      {
+       "name": "Brake shoes, new set of four (7102365122N)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/06-01-01/7102365122N/brake-shoes-new-set-of-four"
+      }
+     ]
+    },
+    {
+     "item": "Fuel hoses & filter",
+     "spec": "7 mm hose from tank to filter (about 3 ft), 5 mm from filter to carbs (about 4 ft)",
+     "interval": "Replace old rubber on purchase",
+     "note": "Check the filter for red flakes, a sign of a failing tank lining. Insulating the intake runners helps with hot-restart vapor lock.",
+     "parts": [
+      {
+       "name": "Fuel hose 7 mm, per foot (SAV4256)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-50-14/SAV4256/fuel-hose-7mm-per-foot"
+      },
+      {
+       "name": "Fuel hose 5 mm, per foot (SAV4257)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/01-50-32/SAV4257/fuel-hose-5mm-per-foot"
+      }
+     ]
+    },
+    {
+     "item": "Wheels & lug nuts",
+     "spec": "Ball-seat lug nuts only; the factory rims are lug-centric",
+     "interval": "Check torque after any wheel work",
+     "note": "Expedition Imports warns that conical nuts can let wheels loosen or even split a rim. Balancing needs an adapter.",
+     "parts": [
+      {
+       "name": "Lug nut, fits all 710/712 with original wheels (7101533031)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/06-01-19/7101533031/lug-nut"
+      },
+      {
+       "name": "Lug nut set of 33 for 712 6x6 (9002324BS6)",
+       "supplier": "Swiss Army Vehicles",
+       "url": "https://www.swissarmyvehicles.com/pinzgauer/06-01-19/9002324BS6/lug-nut-black-set-of-33-for-712-6x6"
+      }
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "What's the biggest tire I can fit without a lift?",
+    "a": "About 33 inches. Portal Hub owners settle on 255/85R16 as the sweet spot, roughly the height of the original Maloyas (which they measure at about 245 mm wide), and 265/75R16 is close to stock size. 285/75R16 goes on but rubs at full lock, and one owner says Discount Tire stopped mounting that size on the narrow factory rims. Another owner's rule: 33s are the maximum 'unless you like wheel well rubbing on the right front side,' and 32s are the smallest worth running.",
+    "src": "PORTAL HUB"
+   },
+   {
+    "q": "Can I legally drive one in the US?",
+    "a": "The 710 and 712 were never sold new in the US, but every one is now well over 25 years old, which is why ex-Swiss and ex-Austrian trucks have been imported for years. Dealers such as Swiss Army Vehicles sell them titled. The ex-Lutz 710M that sold on BaT in 2026 came with a Swiss registration document and a clean Texas title. Ask for the import and title paperwork, and check with your state before you buy.",
+    "src": "BAT / SAV"
+   },
+   {
+    "q": "How fast will it cruise?",
+    "a": "The SDP technical data gives top speeds of 110 km/h (68 mph) for the 710 and 100 km/h (62 mph) for the 712. One owner on stock tires finds 60 mph comfortable and says the truck starts to feel strained at about 63. It's loud too: owners joke that at highway speed you can't hear the tires.",
+    "src": "SDP / PORTAL HUB"
+   },
+   {
+    "q": "What fuel economy and range should I expect?",
+    "a": "Factory figures are 14.2 L/100 km (16.6 mpg) for the 710 and 15.8 L/100 km (14.9 mpg) for the 712, from a 75-liter (19.8 US gal) tank. Owners quoted by OffGrid report 15–16 mpg at 60 mph. Wikipedia gives a range of over 400 km, or nearly 700 km with the optional 125-liter tank.",
+    "src": "SDP / OFFGRID"
+   },
+   {
+    "q": "How much can it tow and carry?",
+    "a": "Rated payload is 1,000 kg (2,205 lb) for the 710 and 1,500 kg (3,307 lb) for the 712. Both are rated to tow 5,000 kg (11,023 lb) on the road. Off-road, the rating drops to 1,500 kg (3,307 lb) for the 710 and 1,800 kg (3,968 lb) for the 712.",
+    "src": "SDP TECH DATA"
+   },
+   {
+    "q": "710 or 712?",
+    "a": "Owners quoted by OffGrid say the 712 rides better on the road and the 710 copes better in tight spaces. The 712 carries 500 kg more and seats 14 in M form against 10, but its turning circle is 12.28 m against 10.37 m. It also has a third axle to maintain and usually costs more: 712s have sold on BaT for $9,500 (an ambulance) to $24,250.",
+    "src": "OFFGRID / SDP / BAT"
+   },
+   {
+    "q": "Does the air-cooled engine overheat?",
+    "a": "Not if the cooling system is intact. One owner has driven a 710K through 14 southern Arizona summers at 110–115°F without trouble, keeping the fan and every cooling tin in place and the fins clean. The more common hot-weather problem is vapor lock after shutdown, when heat soaks into the intake runners. One owner says SDP added intake insulation partway through 1973 production, and Swiss Army Vehicles sells the insulation pieces.",
+    "src": "PORTAL HUB"
+   },
+   {
+    "q": "Why does it use oil?",
+    "a": "Partly by design. One experienced owner explains that the exhaust valve guides have no seals, so a little oil gets through to help cool the exhaust valves. Two quarts in 1,000 miles is a lot, though. Look for leaks around the cylinders, the oil cooler and the oil pan (its small bolts often work loose), then do a compression test.",
+    "src": "PORTAL HUB / SDP"
+   },
+   {
+    "q": "What oil should I use?",
+    "a": "Opinions differ. A long-time Portal Hub member says to use straight 30-weight, as the operating instructions specify, with a ZDDP additive, and warns that thinner oils get burned past the valve guides and scuff pistons. Others run mineral 20W-50 solid-lifter oils such as Valvoline VR1 or Lucas, or Rotella T4. Owners who explain their choice tend to avoid synthetics and change the oil every 3,000 miles or once a year.",
+    "src": "PORTAL HUB"
+   },
+   {
+    "q": "Are parts still available?",
+    "a": "Mostly, yes. In the US, Swiss Army Vehicles (Fayetteville, Arkansas) and Expedition Imports list parts by factory group, from fuel pump kits to new Zenith carbs, and many original part numbers are still in stock. One owner says the prices fall 'somewhere between Lexus and airplane part pricing.' The usual advice is to rebuild rather than throw away, especially hydraulic parts.",
+    "src": "SAV / PORTAL HUB"
+   },
+   {
+    "q": "Will it fit in my garage?",
+    "a": "Factory height is 2,045 mm (80.5 in). Owners measure about 7 ft 2 in on a 712M with a low antenna mount and 33-inch tires, and about 7 ft 6 in on a K with its roof hatch. One 710M owner gets through a door about 83¾ inches high by running 225/85R16 tires, replacing the antenna mount with a flat plate and weighing the back down.",
+    "src": "SDP / PORTAL HUB"
+   },
+   {
+    "q": "Can I use ordinary lug nuts?",
+    "a": "No. Expedition Imports warns that the Pinzgauer needs ball-seat lug nuts. A conical nut contacts the wheel wrongly, can let it come loose and can even split the wheel. The factory rims are also lug-centric, not hub-centric, so a tire shop needs an adapter to balance them.",
+    "src": "EXPEDITION IMPORTS / SDP"
+   }
+  ],
+  "mods": [
+   {
+    "cat": "ELECTRONIC IGNITION",
+    "why": "Points, a shielded military cap and expensive shielded plugs are the weak link. A Pertronix module fits the original Bosch distributor. Full conversions replace the cap, wires and plugs with civilian parts.",
+    "who": [
+     {
+      "name": "Swiss Army Vehicles — Pertronix kit for the Pinzgauer",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/09-10-26A/SAV2600/electronic-ignition-pertronix-pinzgauer"
+     },
+     {
+      "name": "Swiss Army Vehicles — ignition plug wire conversion kit",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/09-01-39/SAV2626/ignition-plug-wire-conversion-kit"
+     },
+     {
+      "name": "PinzTronix",
+      "url": "https://www.pinztronix.com/"
+     }
+    ]
+   },
+   {
+    "cat": "DISC BRAKES",
+    "why": "Four drums and a driveshaft handbrake feel their age with a loaded truck. Fat Fabrications revived the KlugeWerks disc conversion, which bolts to the factory backing-plate anchor points and uses 16-inch Ford Transit 350 steel wheels. Its 2021 full-kit prices were $3,950 for a 710 and $5,350 for a 712.",
+    "who": [
+     {
+      "name": "Fat Fabrications",
+      "url": "https://www.fatfabrications.com/"
+     }
+    ]
+   },
+   {
+    "cat": "WHEELS & TIRES",
+    "why": "US-spec Ford Transit 16 x 6.5 steel wheels bolt on, take tubeless tires and have safety beads. Owners put their offset about 15 mm further out than stock, and they need their own lug nuts. Bigger tires can also need a spare-wheel extender.",
+    "who": [
+     {
+      "name": "Swiss Army Vehicles — spare tire extender",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/00-00/SAV3718/extender-for-spare-tire"
+     },
+     {
+      "name": "Expedition Imports — Continental MPT tires",
+      "url": "https://expedition-imports.com/continental-mpt-tires/"
+     }
+    ]
+   },
+   {
+    "cat": "ELECTRIC POWER STEERING",
+    "why": "The stock steering takes five turns lock to lock with no assistance. Expedition Imports has sold electric power-steering units for the Pinz, and one owner believes they use EZ Electric Power Steering components.",
+    "who": [
+     {
+      "name": "Expedition Imports — Pinzgauer parts",
+      "url": "https://expedition-imports.com/pinzgauer-parts/"
+     },
+     {
+      "name": "EZ Electric Power Steering",
+      "url": "https://www.ezpowersteering.co.uk/"
+     }
+    ]
+   },
+   {
+    "cat": "SUSPENSION",
+    "why": "Forty-year-old shocks and rusty spring cups are standard. Gas shocks and aluminum upper cups fix both.",
+    "who": [
+     {
+      "name": "Swiss Army Vehicles — Rancho RS5000X shocks",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/04-15-20/SAV7500/shocks-rancho-rs-5000x"
+     },
+     {
+      "name": "Swiss Army Vehicles — aluminum upper rear spring cup",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/04-20-01/SAV5900/spring-cup-upper-rear-alu-upgrade"
+     }
+    ]
+   },
+   {
+    "cat": "WINCH & RECOVERY",
+    "why": "A winch is a common addition on surplus trucks: dealer and forum listings show Warn units on bull bars and winch bumpers. It needs a 24-volt motor or a converter.",
+    "who": [
+     {
+      "name": "Swiss Army Vehicles — winch mount with 2-inch hitch insert",
+      "url": "https://www.swissarmyvehicles.com/pinzgauer/00-00/SAV3714/winch-mount-with-2-hitch-insert"
+     },
+     {
+      "name": "Warn",
+      "url": "https://www.warn.com/"
+     }
+    ]
+   }
+  ],
+  "searches": [
+   {
+    "years": "1971–1985 · all petrol",
+    "label": "Pinzgauer 710 / 712",
+    "at_url": "https://www.autotempest.com/results?keywords=pinzgauer&minyear=1971&maxyear=1985",
+    "bat_url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+   },
+   {
+    "years": "1971–1985 · 4x4",
+    "label": "Pinzgauer 710 (M / K)",
+    "at_url": "https://www.autotempest.com/results?keywords=pinzgauer+710&minyear=1971&maxyear=1985",
+    "bat_url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+   },
+   {
+    "years": "1971–1985 · 6x6",
+    "label": "Pinzgauer 712 6x6",
+    "at_url": "https://www.autotempest.com/results?keywords=pinzgauer+712&minyear=1971&maxyear=1985",
+    "bat_url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+   }
+  ],
+  "social": [
+   {
+    "kind": "YT",
+    "name": "ExpedImports",
+    "focus": "UNIMOG, G-WAGEN & PINZGAUER PARTS",
+    "url": "https://www.youtube.com/@ExpedImports"
+   },
+   {
+    "kind": "YT",
+    "name": "pinzcfr (Pinzgauer Club de France)",
+    "focus": "FRENCH PINZGAUER CLUB",
+    "url": "https://www.youtube.com/@pinzcfr"
+   },
+   {
+    "kind": "YT",
+    "name": "The Fast Lane Truck",
+    "focus": "'WHAT THE HECK IS A PINZGAUER?'",
+    "url": "https://www.youtube.com/watch?v=mvYn-GgptGE"
+   }
+  ],
+  "forums": [
+   {
+    "name": "The Portal Hub — Pinzgauer technical 710, 712 petrol/gas models",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=19",
+    "note": "Engine, drivetrain, electrical, brakes, body and builds boards for the air-cooled trucks."
+   },
+   {
+    "name": "The Portal Hub — TECH Sessions",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=22",
+    "note": "Write-ups: locker bleeding, fuel pump rebuild, clutch removal, handbrake adjustment, wiring schematics."
+   },
+   {
+    "name": "The Portal Hub — Classifieds",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=5",
+    "note": "Trucks, part-outs and parts."
+   },
+   {
+    "name": "Pinzgauer Club de France",
+    "url": "https://www.pinzgauer.fr/",
+    "note": "French-speaking owners' club."
+   }
+  ],
+  "related": [
+   {
+    "rel": "SUCCESSOR",
+    "name": "Pinzgauer 716 / 718",
+    "family": "pinzgauer",
+    "gen": "pinzgauer-716-718"
+   },
+   {
+    "rel": "GRAZ SIBLING",
+    "name": "G-Class W460 (Puch G)",
+    "family": "g-class",
+    "gen": "w460"
+   },
+   {
+    "rel": "PORTAL-AXLE RIVAL",
+    "name": "Unimog 404",
+    "family": "unimog",
+    "gen": "unimog-404"
+   },
+   {
+    "rel": "AMERICAN ALTERNATIVE",
+    "name": "Hummer H1",
+    "family": "hummer",
+    "gen": "h1"
+   }
+  ],
+  "plate": [
+   {
+    "k": "CHASSIS",
+    "v": "Central backbone tube, swing axles, portal hubs"
+   },
+   {
+    "k": "PRODUCTION",
+    "v": "1971–1985, Graz (pilot run 1969)"
+   },
+   {
+    "k": "BUILT",
+    "v": "18,349 (710 and 712)"
+   },
+   {
+    "k": "ENGINE",
+    "v": "2,499 cc air-cooled OHV I4, twin Zenith 36 NDIX"
+   },
+   {
+    "k": "OUTPUT",
+    "v": "87 hp / 133 lb-ft"
+   },
+   {
+    "k": "TRANSMISSION",
+    "v": "ZF 5-speed + 2-speed transfer case"
+   },
+   {
+    "k": "DRIVE",
+    "v": "Part-time 4x4 (710) / 6x6 (712), hydraulic diff locks"
+   },
+   {
+    "k": "ELECTRICAL",
+    "v": "24 V"
+   },
+   {
+    "k": "WHEELBASE",
+    "v": "2,200 mm (710) · 2,000 + 980 mm (712)"
+   },
+   {
+    "k": "LENGTH",
+    "v": "4,175 mm (710) · 4,955 mm (712)"
+   },
+   {
+    "k": "CURB WEIGHT",
+    "v": "1,950–2,100 kg (710) · 2,350–2,600 kg (712)"
+   },
+   {
+    "k": "GROUND CLEARANCE",
+    "v": "335 mm (13.2 in)"
+   },
+   {
+    "k": "FORDING",
+    "v": "700 mm (27.6 in)"
+   }
+  ],
+  "photos": [
+   {
+    "file": "710-710m-wales-byway.jpg",
+    "alt": "An olive-green ex-Swiss Army Pinzgauer 710 soft top flexing its swing axles on a muddy wooded byway in Wales",
+    "caption": "PINZGAUER 710 · WELSH BYWAY",
+    "credit": "Bryn Pinzgauer · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pinzgauer_in_Wales.jpg"
+   },
+   {
+    "file": "710-710m-kielder-gully.jpg",
+    "alt": "An ex-Swiss Army Pinzgauer 710 descending a deep, rutted clay gully at an off-road day in Kielder Forest",
+    "caption": "PINZGAUER 710 · KIELDER GULLY",
+    "credit": "Bryn Pinzgauer · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pinzgauer_Kielder_Safari.jpg"
+   },
+   {
+    "file": "710-712m-quarry.jpg",
+    "alt": "An Austrian Army Pinzgauer 712M 6x6 carrying soldiers across the floor of a rocky quarry",
+    "caption": "PINZGAUER 712M · QUARRY, AUSTRIA",
+    "credit": "böhringer friedrich · CC BY-SA 2.5",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pinzgauer_Typ712M_Austria_2.JPG"
+   },
+   {
+    "file": "710-710m-campsite.jpg",
+    "alt": "An ex-Swiss Army Pinzgauer 710M soft top parked beside a canvas tent on a grassy campsite",
+    "caption": "PINZGAUER 710M · CAMPSITE",
+    "credit": "Bryn Pinzgauer · CC BY 2.0",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:PinzgaueCampSiter.jpg"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia — Steyr-Puch Pinzgauer",
+    "url": "https://en.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+   },
+   {
+    "name": "Wikipedia (German) — Steyr-Puch Pinzgauer",
+    "url": "https://de.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+   },
+   {
+    "name": "Steyr-Daimler-Puch Vehicles (C. Kiesling) — Pinzgauer",
+    "url": "http://sdp.haflinger-4wd.com/pinzgauer/"
+   },
+   {
+    "name": "Austria-Forum — Erich Ledwinka",
+    "url": "https://austria-forum.org/af/AustriaWiki/Erich_Ledwinka"
+   },
+   {
+    "name": "SDP-Pinzgauer (archived) — Technical data 710/712",
+    "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/technical_data.html"
+   },
+   {
+    "name": "SDP-Pinzgauer (archived) — Pre-purchase checklist (K. Jürgen Schöpf)",
+    "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/pre-purchase_checklist.html"
+   },
+   {
+    "name": "SDP-Pinzgauer (archived) — Valve adjustment",
+    "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/valve_adjustment.html"
+   },
+   {
+    "name": "SDP-Pinzgauer (archived) — Brake adjustment",
+    "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/brake_adjustment.html"
+   },
+   {
+    "name": "SDP-Pinzgauer (archived) — Spring cup replacement (Scott Ingham, Expedition Imports)",
+    "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/spring_cup_replacement.html"
+   },
+   {
+    "name": "Bring a Trailer — Steyr-Puch Pinzgauer model page and results",
+    "url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+   },
+   {
+    "name": "Bring a Trailer — Ex–Bob Lutz 1974 Steyr-Puch Pinzgauer 710M",
+    "url": "https://bringatrailer.com/listing/1974-pinzgauer-710-2/"
+   },
+   {
+    "name": "OffGrid — 1975 Pinzgauer: Work Horse",
+    "url": "https://www.offgridweb.com/transportation/roots-austrian-military-pinzgauer-proven-off-road-beast/"
+   },
+   {
+    "name": "Expedition Portal — La Aduana: 1974 Steyr-Puch Pinzgauer 710 Hardtop",
+    "url": "https://expeditionportal.com/la-aduana-1974-steyr-puch-pinzgauer-710-hardtop/"
+   },
+   {
+    "name": "Swiss Army Vehicles — Pinzgauer 710 & 712 parts catalogue",
+    "url": "https://www.swissarmyvehicles.com/"
+   },
+   {
+    "name": "Swiss Army Vehicles — About us",
+    "url": "https://www.swissarmyvehicles.com/about"
+   },
+   {
+    "name": "Expedition Imports — Pinzgauer parts",
+    "url": "https://expedition-imports.com/pinzgauer-parts/"
+   },
+   {
+    "name": "The Portal Hub — Pinz Fluid summary",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12105"
+   },
+   {
+    "name": "The Portal Hub — Consensus on wheel drive lubricant?",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12296"
+   },
+   {
+    "name": "The Portal Hub — Wheel drive oil change",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12223"
+   },
+   {
+    "name": "The Portal Hub — Maintenance spreadsheet",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12300"
+   },
+   {
+    "name": "The Portal Hub — INCORRECT LUGNUTS - MAJOR SAFETY ISSUE",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=8253"
+   },
+   {
+    "name": "The Portal Hub — Locker Bleeding",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7516"
+   },
+   {
+    "name": "The Portal Hub — Locker reservoir rubber fitting replacement",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7444"
+   },
+   {
+    "name": "The Portal Hub — Fuel Pump Rebuild",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7227"
+   },
+   {
+    "name": "The Portal Hub — CLUTCH repair: How to remove clutch-unit for repair",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11106"
+   },
+   {
+    "name": "The Portal Hub — Clutch failure survey",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12159"
+   },
+   {
+    "name": "The Portal Hub — Handbrake adjustment",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4690"
+   },
+   {
+    "name": "The Portal Hub — split axle boots",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12029"
+   },
+   {
+    "name": "The Portal Hub — A taste of Pinzgauer reality (axle boots)",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=3721"
+   },
+   {
+    "name": "The Portal Hub — Knuckle Wipe Seal Replacement",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12231"
+   },
+   {
+    "name": "The Portal Hub — Tire similar in size to original Maloyas?",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6188"
+   },
+   {
+    "name": "The Portal Hub — 255/85R16 KM3 tires hard to find",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12539"
+   },
+   {
+    "name": "The Portal Hub — 710M vs Garage Height",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12793"
+   },
+   {
+    "name": "The Portal Hub — US Ford transit wheels fit the 712k",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11002"
+   },
+   {
+    "name": "The Portal Hub — 76 Pinz 710k Highway Travel",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12577"
+   },
+   {
+    "name": "The Portal Hub — New guy with new guy concerns (pre-purchase tips)",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12885"
+   },
+   {
+    "name": "The Portal Hub — Pinz values",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11923"
+   },
+   {
+    "name": "The Portal Hub — Rotella users: T4 or T6?",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12700"
+   },
+   {
+    "name": "The Portal Hub — How hot is too hot",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12966"
+   },
+   {
+    "name": "The Portal Hub — Petronix v original",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9966"
+   },
+   {
+    "name": "The Portal Hub — Fat Fab/Klugewerks Disk Brakes kits return",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12339"
+   },
+   {
+    "name": "The Portal Hub — Power Steering",
+    "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12921"
+   },
+   {
+    "name": "Das Puch Automobil Buch (ed. Friedrich F. Ehn, 2019), production table via Wikipedia"
+   }
+  ]
+ }
+}

@@ -1,0 +1,343 @@
+{
+ "fitment": {
+  "stock": [
+   "245C-16 6-ply (SDP technical data); Swiss trucks commonly on Maloya tires"
+  ],
+  "wheel": {
+   "rim": "16 x 6.5 in steel, lug-centric (not hub-centric)",
+   "lug_nuts": "Ball-seat only (never conical)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "255/85R16 (about 33 in)",
+    "note": "The Portal Hub sweet spot. 265/75R16 is about stock height; 285/75R16 fits but rubs at full lock, and owners call 33s the practical maximum before the right front rubs."
+   },
+   {
+    "lift": "Stock, aftermarket wheels",
+    "size": "235/85R16–255/85R16 on 16 x 6.5 Ford Transit steel wheels",
+    "note": "Tubeless with safety beads. Owners estimate the offset puts the tire about 15 mm further out than the stock rim, and Fat Fabrications' disc-brake kits use these wheels."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1964",
+   "change": "Steyr-Daimler-Puch starts developing a bigger brother to the Haflinger",
+   "flag": "note"
+  },
+  {
+   "year": "1969",
+   "change": "Pilot production begins in Graz",
+   "flag": "note"
+  },
+  {
+   "year": "1971",
+   "change": "Series production of the 710 (4x4) and 712 (6x6) begins; 167 built that year",
+   "flag": "note"
+  },
+  {
+   "year": "1971 on",
+   "change": "Yugoslavia begins buying what becomes 3,975 Pinzgauers across 4x4 and 6x6 variants",
+   "flag": "note"
+  },
+  {
+   "year": "1973",
+   "change": "Owners report SDP added insulation to the intake runners during 1973 production, reducing hot-restart vapor lock",
+   "flag": "note"
+  },
+  {
+   "year": "1976",
+   "change": "Peak year for the first generation: 2,430 built",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "The 712 6x6 outsells the 710 for the first time (580 vs 312), and keeps doing so through 1985",
+   "flag": "note"
+  },
+  {
+   "year": "Late production",
+   "change": "Some 712s, mostly ambulances, get a 2.7-liter air-cooled four",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Last 710s (90) and 712s (326) built; the first six Turbo D 716/718s appear",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "The 710/712 barely changed in 15 years, so identification comes down to wheels, body code, engine and which army a truck served with. Don't confuse a petrol truck with a later Turbo D.",
+  "items": [
+   {
+    "head": "710 vs 712",
+    "body": "Count the axles. The 710 is the 4x4 on a 2,200 mm wheelbase with rear coil springs. The 712 is the 6x6, with a leaf-sprung rear bogie on a 2,000 + 980 mm wheelbase."
+   },
+   {
+    "head": "Body codes",
+    "body": "M is the soft top with rear bench seats, K the hardtop station wagon, T the flatbed and AMB the ambulance (AMB-Y, or AMB-S with an air-portable shelter). On the 712 there are also W (workshop), DK (crew cab), FW (fire truck) and FLA."
+   },
+   {
+    "head": "Petrol 710/712 vs Turbo D 716/718",
+    "body": "The 710/712 has the air-cooled 2.5-liter petrol four, a five-speed manual, drum brakes and narrower tires. The 716/718 (from 1985) has a water-cooled VW turbodiesel six, disc brakes, a slightly wider track, bigger tires and an optional automatic."
+   },
+   {
+    "head": "Swiss vs Austrian trucks",
+    "body": "Swiss trucks have a single amber bulb for turn and brake plus a red tail lamp. Austrian trucks have amber turn signals with separate red brake and tail lamps. Swiss 710K radio command trucks (Funkkommandowagen) have their own wiring."
+   },
+   {
+    "head": "Engine",
+    "body": "Check the engine plate and bore. The standard engine is 2,499 cc (92 x 94 mm). Late 712s, mostly ambulances, can have the 2.7-liter air-cooled four."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 kg (11,023 lb) on road",
+   "note": "Off-road: 1,500 kg (3,307 lb) for the 710, 1,800 kg (3,968 lb) for the 712"
+  },
+  {
+   "k": "Payload",
+   "v": "1,000 kg (2,205 lb) 710 · 1,500 kg (3,307 lb) 712"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "75 L (19.8 US gal)",
+   "note": "Optional 125 L tank, per Wikipedia"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "335 mm (13.2 in)"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "45° / 45°",
+   "note": "SDP technical data. Wikipedia quotes 38° / 45°"
+  },
+  {
+   "k": "Side slope",
+   "v": "43.5°",
+   "note": "Wikipedia"
+  },
+  {
+   "k": "Wading depth",
+   "v": "700 mm (27.6 in)"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "14.2 L/100 km (16.6 mpg) 710 · 15.8 L/100 km (14.9 mpg) 712",
+   "note": "Factory figures; owners quoted by OffGrid report 15–16 mpg"
+  },
+  {
+   "k": "Top speed",
+   "v": "110 km/h (68 mph) 710 · 100 km/h (62 mph) 712"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,950–2,100 kg (4,299–4,630 lb) 710 · 2,350–2,600 kg (5,181–5,732 lb) 712"
+  },
+  {
+   "k": "Turning circle",
+   "v": "10.37 m (34 ft) 710 · 12.28 m (40.3 ft) 712"
+  },
+  {
+   "k": "Seating (M body)",
+   "v": "10 (710M) · 14 (712M)"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are steady and still affordable for something this capable. Condition, rust and how sorted the truck is matter far more than year, a 712 6x6 adds a few thousand dollars, and celebrity provenance can double the price.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–10k"
+   },
+   {
+    "cond": "Driver (710M / 710K)",
+    "range": "$10k–18k"
+   },
+   {
+    "cond": "Sorted 712M 6x6 or exceptional 710",
+    "range": "$18k–25k"
+   },
+   {
+    "cond": "Notable provenance",
+    "range": "$32.5k (ex–Bob Lutz 710M, 2026)"
+   }
+  ],
+  "note": "Based on 16 Bring a Trailer sales of 710s and 712s from 2023 to October 2026 ($9,500–$32,500; most 710s $10,500–$18,000, 712s $9,500–$24,250). No-sale high bids ran $9,300–$19,500. A 2019 Portal Hub estimate put 710Ms at $5k–18k, and Swiss Army Vehicles was asking $24,900 for a 1974 712M in October 2026."
+ },
+ "docs": [
+  {
+   "name": "Owner's manual, Pinzgauer 710/712 (English/German/French/Spanish), SAV8012",
+   "url": "https://www.swissarmyvehicles.com/direct-sales/36/SAV8012/owners-manual-pinzgauer-egfsp",
+   "note": "Reprint sold by Swiss Army Vehicles."
+  },
+  {
+   "name": "Service manual, Pinzgauer (SAV8030)",
+   "url": "https://www.swissarmyvehicles.com/direct-sales/36/SAV8030/service-manual-pinzgauer",
+   "note": "Swiss Army Vehicles. German (SAV8013) and Spanish (SAV8028) editions are also listed."
+  },
+  {
+   "name": "Expedition Imports — Pinzgauer documentation",
+   "url": "https://expedition-imports.com/pinzgauer-parts/pinzgauer-documentation/",
+   "note": "Manuals and documentation category."
+  },
+  {
+   "name": "Swiss Army Vehicles parts catalogue with exploded drawings",
+   "url": "https://www.swissarmyvehicles.com/pinzgauer/engine/air-intake-system",
+   "note": "Each part group shows the factory drawing and group numbers (for example 01-35, air intake)."
+  },
+  {
+   "name": "The Portal Hub — 710-712 wiring schematics (PDF and JPG)",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewforum.php?f=22",
+   "note": "In the TECH Sessions forum."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Steyr never sold the 710/712 new in the US, so every American truck is a used import, almost always ex-military. Most are ex-Swiss Army, with some ex-Austrian. Every 710 and 712 is now more than 40 years old, comfortably past the 25-year line that lets an older vehicle into the US without meeting federal safety standards. OffGrid noted in 2017 that early Pinzgauers are old enough to be exempt from many US import equipment requirements.",
+   "The model-specific question is paperwork. Ask for the import entry, any Swiss or Austrian registration or army documents, and a US title in the seller's name. The ex-Lutz 710M that sold on BaT in 2026 came with a Swiss registration document and a clean Texas title. Established dealers such as Swiss Army Vehicles in Arkansas have sold ex-military trucks for more than 20 years. Rules for registering former military vehicles vary by state, so check with your DMV before you buy."
+  ]
+ },
+ "production": {
+  "intro": "Production figures come from Das Puch Automobil Buch via Wikipedia. The model split between 710 and 712 is only published from 1978 on.",
+  "items": [
+   {
+    "k": "First generation built (710 + 712)",
+    "v": "18,349 (1971–1985)"
+   },
+   {
+    "k": "All Pinzgauers built to 1990",
+    "v": "20,194"
+   },
+   {
+    "k": "All Pinzgauers built to 2000",
+    "v": "About 30,000"
+   },
+   {
+    "k": "Peak year",
+    "v": "1976: 2,430"
+   },
+   {
+    "k": "1978–1985 split",
+    "v": "710: 4,268 · 712: 3,913"
+   },
+   {
+    "k": "Yugoslav Army",
+    "v": "3,975 from 1971 (all variants)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "710K Funkkommandowagen",
+    "years": "Swiss Army",
+    "note": "Radio command hardtops with their own wiring."
+   },
+   {
+    "name": "712 2.7-liter",
+    "years": "Late production",
+    "note": "Mostly ambulances, with a 2.7-liter air-cooled four."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "The Portal Hub",
+   "url": "https://real4x4forums.com/PinzgauerBBS/index.php",
+   "note": "The main online community for Pinzgauer, Haflinger and Volvo C303 owners, with event and trail-report boards."
+  },
+  {
+   "kind": "club",
+   "name": "Pinzgauer Club de France",
+   "url": "https://www.pinzgauer.fr/",
+   "note": "French-speaking owners' club."
+  }
+ ],
+ "sources": [
+  {
+   "name": "SDP-Pinzgauer (archived) — Technical data 710/712",
+   "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/technical_data.html"
+  },
+  {
+   "name": "SDP-Pinzgauer (archived) — Pre-purchase checklist",
+   "url": "https://web.archive.org/web/2020/http://madscientisthut.com:80/sdp-pin/html/pre-purchase_checklist.html"
+  },
+  {
+   "name": "Wikipedia — Steyr-Puch Pinzgauer",
+   "url": "https://en.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+  },
+  {
+   "name": "Wikipedia (German) — Steyr-Puch Pinzgauer",
+   "url": "https://de.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+  },
+  {
+   "name": "Steyr-Daimler-Puch Vehicles (C. Kiesling) — Pinzgauer",
+   "url": "http://sdp.haflinger-4wd.com/pinzgauer/"
+  },
+  {
+   "name": "Bring a Trailer — Steyr-Puch Pinzgauer results",
+   "url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+  },
+  {
+   "name": "Bring a Trailer — Ex–Bob Lutz 1974 Pinzgauer 710M",
+   "url": "https://bringatrailer.com/listing/1974-pinzgauer-710-2/"
+  },
+  {
+   "name": "OffGrid — 1975 Pinzgauer: Work Horse",
+   "url": "https://www.offgridweb.com/transportation/roots-austrian-military-pinzgauer-proven-off-road-beast/"
+  },
+  {
+   "name": "Swiss Army Vehicles — Steyr Puch Pinzgauer vehicles",
+   "url": "https://www.swissarmyvehicles.com/vehicles/steyr-puch-pinzgauer"
+  },
+  {
+   "name": "Swiss Army Vehicles — About us",
+   "url": "https://www.swissarmyvehicles.com/about"
+  },
+  {
+   "name": "Swiss Army Vehicles — Books & manuals",
+   "url": "https://www.swissarmyvehicles.com/direct-sales/items/books-manuals"
+  },
+  {
+   "name": "The Portal Hub — Tire similar in size to original Maloyas?",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6188"
+  },
+  {
+   "name": "The Portal Hub — 255/85R16 KM3 tires hard to find",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12539"
+  },
+  {
+   "name": "The Portal Hub — 710M vs Garage Height",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12793"
+  },
+  {
+   "name": "The Portal Hub — US Ford transit wheels fit the 712k",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11002"
+  },
+  {
+   "name": "The Portal Hub — INCORRECT LUGNUTS - MAJOR SAFETY ISSUE",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=8253"
+  },
+  {
+   "name": "The Portal Hub — How hot is too hot",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12966"
+  },
+  {
+   "name": "The Portal Hub — Pinz values",
+   "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11923"
+  },
+  {
+   "name": "Das Puch Automobil Buch (ed. Friedrich F. Ehn, 2019), production table via Wikipedia"
+  }
+ ]
+}
