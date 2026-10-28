@@ -985,7 +985,15 @@ def main():
             L.append(f'- [{mlabel(fam["maker"], p["title"])} ({g.get("years", "")})]({gurl(slug, g["slug"])}): {_t(g["summary"])}')
         L.append('')
     L += ['## Site', '',
-          f'- [Repair guides]({SITE_URL}repairs/): every DIY repair, by model',
+          f'- [Repair guides]({SITE_URL}repairs/): 718+ step-by-step DIY repairs, one page each, by model',
+          f'- [Specs & fluids]({SITE_URL}models/land-cruiser/100-series/specs/): every generation has a printable specs, fluids and service page at /models/<family>/<generation>/specs/',
+          f'- [Recall tracker]({SITE_URL}recalls/): recalls and service bulletins for every generation, latest US recalls first',
+          f'- [Importing]({SITE_URL}importing/): the US 25-year rule, EPA exemption, 2026 duty and state registration',
+          f'- [Which boxy 4x4?]({SITE_URL}which-4x4/): five-question shortlist tool',
+          f'- [Buyer\'s guides]({SITE_URL}best/): best boxy 4x4s by budget and use',
+          f'- [Engine swaps]({SITE_URL}engine-swaps/): LS, Coyote, Cummins, Toyota and Mercedes diesel swaps',
+          f'- [Inspection checklists]({SITE_URL}inspection-checklists/): printable pre-purchase checklists for every generation',
+          f'- [About]({SITE_URL}about/): how BoxyTrucks researches and makes money',
           f'- [Instagram @boxytrucks]({INSTAGRAM_URL}): our posts and reader builds',
           f'- [Mods & builders]({SITE_URL}mods/): suppliers and builders, by model',
           f'- [Resources]({SITE_URL}resources/): YouTube, Instagram, forums and references, by model',
