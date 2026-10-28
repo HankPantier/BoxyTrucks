@@ -731,3 +731,26 @@ html { scroll-padding-top: 90px; }
 .by-body p.by-watch { font-family: inherit; font-size: 15px; line-height: 23px; color: var(--body); }
 .by-body p.by-links { font-family: inherit; font-size: 15px; }
 .ph-mark { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; background: var(--night); color: #B0915A; border-bottom: 1px solid var(--ink); font-family: var(--mono); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; }
+
+/* home: shopping band */
+.shop-band { background: var(--night); color: var(--on-dark); border-top: 1px solid rgba(176,145,90,.35); }
+.shop-wrap { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; padding-top: 48px; padding-bottom: 48px; }
+@media (max-width: 860px) { .shop-wrap { grid-template-columns: minmax(0, 1fr); } }
+.shop-quiz { display: flex; flex-direction: column; gap: 14px; padding: 32px; border: 1px solid #B0915A; color: inherit; text-decoration: none; background: linear-gradient(135deg, rgba(176,145,90,.14), rgba(176,145,90,0)); }
+.shop-quiz h2 { font-size: clamp(30px, 3.6vw, 46px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance; }
+.shop-quiz p { margin: 0; font-family: var(--serif, Newsreader, Georgia, serif); font-size: 18px; line-height: 28px; color: #D9D4C8; max-width: 560px; }
+.shop-quiz .btn { align-self: flex-start; }
+.shop-quiz:hover h2 { color: #D8BD86; }
+.shop-side { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.shop-guides { border: 1px solid rgba(255,255,255,.18); padding: 20px 22px; }
+.shop-guides ul { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; }
+.shop-guides a { display: block; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.12); color: var(--on-dark); text-decoration: none; font-size: 16px; }
+.shop-guides li:last-child a { border-bottom: 0; }
+.shop-guides a:hover { color: #D8BD86; }
+.shop-cl { display: flex; flex-direction: column; gap: 6px; padding: 18px 22px; border: 1px solid rgba(255,255,255,.18); color: inherit; text-decoration: none; }
+.shop-cl strong { font-size: 18px; }
+.shop-cl span:last-child { color: #D8BD86; font-size: 14px; }
+/* models: quiz strip */
+.quiz-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; padding: 16px 20px; margin-bottom: 28px; border: 1px solid var(--ink); background: var(--paper); text-decoration: none; color: inherit; }
+.quiz-strip .go { font-weight: 600; color: #8A6A1F; }
+.quiz-strip:hover { border-color: #8A6A1F; }

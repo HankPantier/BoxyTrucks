@@ -44,11 +44,12 @@ NAV = [
         {'key': 'bestyears', 'label': 'Best years to buy', 'href': 'garage/index.html#best-years'},
         {'key': 'resources', 'label': 'Resources', 'href': 'resources/index.html'},
     ]},
+    {'key': 'quiz', 'label': 'WHICH 4X4?', 'href': 'which-4x4/index.html'},
     {'key': 'mods', 'label': 'MODS & BUILDERS', 'href': 'mods/index.html'},
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'quiz', 'best', 'swaps'}
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'best', 'swaps'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
