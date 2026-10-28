@@ -1,0 +1,447 @@
+{
+ "fitment": {
+  "stock": [
+   "215SR15 on 6J x 15 steel or alloy wheels (4WD GLX and up)",
+   "195SR14 on base XL / X 4WD grades with lower ride height"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+22 mm (stock 6J x 15)",
+   "center_bore": "110 mm",
+   "lug_thread": "M12x1.5"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "30x9.50R15 (or 235/75R15)",
+    "note": "Fits in most cases, per Delica.ca. Use 7-inch-wide wheels at about stock offset, because an 8-inch wheel may touch the upper ball joint. Wind sagging torsion bars back to stock height first."
+   },
+   {
+    "lift": "2 in",
+    "size": "31x10.50R15",
+    "note": "Torsion-bar adjustment plus ball-joint spacers. Trim the seam at the rear of the front arch above the mud flap; one owner also had to rework the step brackets with 255/70R16s."
+   },
+   {
+    "lift": "2 in+",
+    "size": "LT235/85R16",
+    "note": "Owners call it a tight fit even with 2 inches of lift. One owner made it work without a lift only by removing the front steps and modifying the front arches."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1986",
+   "change": "June: third-generation Delica launches. Star Wagon 4WD with 2.0 G63B petrol (P23W) or 2.5 4D56 turbo-diesel (P25W/P35W), five-speed manual only",
+   "flag": "note"
+  },
+  {
+   "year": "1987",
+   "change": "US sales of the two-wheel-drive, petrol Mitsubishi Van and Wagon begin (2.4 4G64, 107 hp), running to 1990",
+   "flag": "note"
+  },
+  {
+   "year": "1988",
+   "change": "August: four-speed automatic (Aisin AW03-72L) for the 4WD turbo-diesel; automatic diesels get a twin-tank 75 L fuel system",
+   "flag": "note"
+  },
+  {
+   "year": "1989",
+   "change": "August: 2.4 4G64 MPI petrol (P24W) replaces the 2.0 in the 4WD range; Crystal Lite Roof grades appear. October: first Chamonix special edition",
+   "flag": "note"
+  },
+  {
+   "year": "1990",
+   "change": "August: facelift lengthens the body to 4,485 mm; Super Exceed added; later vans get projector headlamps and pop-out side windows",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "February: Jasper special edition. From May 1993 the 4D56 takes a different balance-shaft belt (MD310484 instead of MD363481)",
+   "flag": "note"
+  },
+  {
+   "year": "1994",
+   "change": "May: Delica Space Gear launches; the Star Wagon range shrinks to GLX and X diesels, mostly 4WD",
+   "flag": "note"
+  },
+  {
+   "year": "1996–1997",
+   "change": "Active World and Active World Winter Special editions",
+   "flag": "note"
+  },
+  {
+   "year": "1999",
+   "change": "October: the Star Wagon drops out of Mitsubishi Japan's catalogue",
+   "flag": "note"
+  },
+  {
+   "year": "2021",
+   "change": "Maine begins revoking registrations of imported Delicas, classing them as off-road vehicles",
+   "flag": "note"
+  },
+  {
+   "year": "2024",
+   "change": "Michigan sends Delica owners letters saying the vans can be titled only as off-road vehicles",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Almost every L300 in North America is a right-hand-drive Japanese import, and Mitsubishi offered a huge number of variants. Identify the exact van from its frame number and model code, not from the seller's description.",
+  "items": [
+   {
+    "head": "Frame number",
+    "body": "Stamped plate under a plastic cover between the driver's seat and the door, reading P25W or P35W followed by the serial. Enter it into a Mitsubishi parts catalogue (Megazip, Amayama) to see the exact build, engine and parts."
+   },
+   {
+    "head": "Chassis code",
+    "body": "4WD vans: P23W (2.0 petrol, to 1989), P24W (2.4 petrol, from 1989), P25W (diesel, Aero Roof or sunroof) and P35W (diesel, High Roof or Crystal Lite Roof). P03W, P04W, P05W and P15W are two-wheel-drive Star Wagons."
+   },
+   {
+    "head": "Model-code prefix",
+    "body": "Japanese catalogues add an emissions prefix that dates the diesel: N-P25W (1986–88), Q-P25W/P35W (1988 to mid-1993), Y-P25W/P35W (from mid-1993), and KD-P25W/P35W on late vans (seen by 1997)."
+   },
+   {
+    "head": "Roof",
+    "body": "Aero Roof vans are 1,975 mm tall and High Roof vans 2,090 mm. Crystal Lite Roof vans have a high roof with glass panels; check every seal."
+   },
+   {
+    "head": "Special editions",
+    "body": "Chamonix and Jasper vans carry side graphics and embroidered seat backs. GearJunkie says they added waterproof carpet, dual batteries and a rear LSD. Verify against the frame-number lookup, because graphics are easy to add."
+   },
+   {
+    "head": "Limited-slip diff",
+    "body": "Don't trust the door-jamb LSD sticker. Lift one rear wheel and spin it: if the other wheel turns the same way, it's a limited slip; if it turns the opposite way, it's open."
+   },
+   {
+    "head": "Automatic gearbox plate",
+    "body": "The Aisin plate reads AW03-72L when the gearbox has a lock-up converter ('L'); not every L300 automatic does. A code such as '91D' is the build year and month (D = April)."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "No factory figure found",
+   "note": "Owners tow light trailers, typically up to about 1 tonne; one says no more than 3,000 lb for long distances"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "60 L (15.9 US gal) or 75 L (19.8 US gal)",
+   "note": "75 L on automatic diesels, which use a twin-tank system, and on some later petrol vans (Gulliver; Delica.ca)"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "210 mm (8.3 in)",
+   "note": "GLX and up on 215SR15; 185 mm on base grades with 14-inch tyres"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,600–1,960 kg (3,530–4,320 lb)",
+   "note": "From a 2.0 petrol manual GLX to a Super Exceed Crystal Lite automatic"
+  },
+  {
+   "k": "Dimensions",
+   "v": "4,485 × 1,695 × 1,975 / 2,090 mm",
+   "note": "Aero / High Roof, after August 1990; 4,460 mm long before"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,240 mm (88.2 in)"
+  },
+  {
+   "k": "Turning radius",
+   "v": "5.0 m (16.4 ft) minimum",
+   "note": "1990 Exceed catalogue figure"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "≈10–12.8 L/100 km (18–23 US mpg)",
+   "note": "Real-world owner reports, diesel"
+  },
+  {
+   "k": "Top speed",
+   "v": "≈140 km/h (87 mph)",
+   "note": "Per Crankshaft Culture; owners cruise at 60–65 mph"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Prices are firming, with the best money going to clean, low-rust late vans and named editions such as Jasper, Chamonix and Active World. Rust, not mileage, sets the floor.",
+  "ranges": [
+   {
+    "cond": "Tired driver / some rust",
+    "range": "$7k–9.5k"
+   },
+   {
+    "cond": "Good driver",
+    "range": "$10k–14k"
+   },
+   {
+    "cond": "Excellent / special edition",
+    "range": "$15k–17.5k+"
+   }
+  ],
+  "note": "Based on 11 Bring a Trailer L300 sales from June 2025 to October 2026, from $7,400 (a 1991 Exceed) to $17,500 (a 1997 Active World Winter Special high roof). A 1993 Jasper sold for $15,250 and a 1994 five-speed for $16,200. Hagerty's valuation wasn't checked."
+ },
+ "docs": [
+  {
+   "name": "Mitsubishi L300 / Delica English-language workshop manuals and '4D5 & 4G7 Engine Manual'",
+   "note": "Dealer workshop manuals. Owners share scans on the forums; buy a legitimate copy if you can find one."
+  },
+  {
+   "name": "Megazip — genuine Mitsubishi parts catalogue, Delica Star Wagon 1986–1999",
+   "url": "https://www.megazip.net/parts/mitsubishi/delica_star_wagon/params/delica_star_wagon-gen_2",
+   "note": "Frame-number lookup with exploded diagrams and OEM part numbers"
+  },
+  {
+   "name": "Liqui Moly oil guide — L300 2.5 TD 4WD (1987–1994)",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/2/74b52f6f1e0bb17e/",
+   "note": "Third-party fluid capacities and intervals from European data; confirm in the workshop manual"
+  },
+  {
+   "name": "Gulliver — Delica Star Wagon catalogue (Japanese)",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/",
+   "note": "Every Japanese grade from June 1986 to October 1999, with factory spec sheets"
+  },
+  {
+   "name": "Delica.ca — L300 Technical Reference Library",
+   "url": "https://delica.ca/forum/viewforum.php?f=78",
+   "note": "Owner DIY procedures for nearly every common job"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "No 4WD Star Wagon was sold new in the US, so every example here is an import. The federal motor-vehicle exemption applies once a vehicle is 25 years old, counted from its own build date. The last Star Wagons left the Japanese catalogue in October 1999, so as of October 2026 every L300 qualifies. EPA's exemption is separate: the vehicle must be at least 21 years old and in its original configuration, or fitted with an equivalent or newer EPA-certified engine. Keep the CBP and EPA entry paperwork, because a DMV may ask for it.",
+   "Registration is a state matter, and the Delica has been singled out. In 2021 Maine began revoking Delica registrations, treating the vans as off-road vehicles under a new definition in Title 29-A, and a 2023 bill sought to reverse that. In 2024 Michigan told owners the vans could be titled only as off-road vehicles, wrongly grouping them with kei-class mini trucks. Crankshaft Culture wrote in April 2025 that Maine was the only state still refusing them, but check your own state's current rules before you buy. Canada's threshold is 15 years, which is why many vans reach the US by way of British Columbia, and some provinces restrict right-hand-drive vehicles. Agreed-value insurance can be hard to get, and Crankshaft Culture used Hagerty."
+  ]
+ },
+ "production": {
+  "intro": "Built at Mitsubishi's Nagoya plant; Japanese catalogue listings run from June 1986 to October 1999.",
+  "items": [
+   {
+    "k": "Japanese catalogue",
+    "v": "June 1986 – October 1999 (Star Wagon)"
+   },
+   {
+    "k": "Assembly",
+    "v": "Nagoya, Japan (licensed versions by Hyundai, CMC and others)"
+   },
+   {
+    "k": "US sales",
+    "v": "1987–1990 only, as the two-wheel-drive petrol Mitsubishi Van and Wagon"
+   },
+   {
+    "k": "4WD chassis codes",
+    "v": "P23W, P24W, P25W, P35W"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Chamonix",
+    "years": "October 1989 – 1994 (annual specials)",
+    "note": "Winter-sport edition named after the French ski resort, with graphics and embroidered seats; GearJunkie lists waterproof carpet, dual batteries and a rear LSD"
+   },
+   {
+    "name": "Super Exceed",
+    "years": "August 1990 – 1994",
+    "note": "Top grade, Crystal Lite Roof and automatic"
+   },
+   {
+    "name": "Jasper",
+    "years": "February 1993; January 1994",
+    "note": "Outdoor-themed edition in Aero Roof and High Roof forms"
+   },
+   {
+    "name": "GLX / Exceed Limited Edition",
+    "years": "January 1994; January 1996",
+    "note": "Late limited runs"
+   },
+   {
+    "name": "Active World / Active World Winter Special",
+    "years": "1996–1997",
+    "note": "Late editions of the GLX 4WD diesel; the Winter Special came in Aero Roof and High Roof forms"
+   }
+  ],
+  "paint": "The 1990–91 Exceed Crystal Lite Roof listing shows Soffia White, Grace Silver, Lamp Black and Ivy Green, plus an optional Coral Blue and Soffia White two-tone."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Delica Canada (Delica.ca) — Events",
+   "url": "https://delica.ca/forum/viewforum.php?f=57",
+   "note": "Club meets and trips by region: Vancouver Island, Lower Mainland, the rest of BC and the Prairies"
+  },
+  {
+   "kind": "event",
+   "name": "BC Overland Rally",
+   "url": "https://bcoverlandrally.com/",
+   "note": "Overland gathering where Crankshaft Culture ran its L300 through the obstacle course; the 2027 event is at Sun Peaks Resort, BC, June 4–6"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Gulliver (221616.com) — Delica Star Wagon catalogue, June 1986 – October 1999 (Japanese grade and spec listings)",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/"
+  },
+  {
+   "name": "Gulliver — 1986–88 GLX Aero Roof P25W spec sheet (N-P25W)",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/10008676/"
+  },
+  {
+   "name": "Gulliver — 1988–89 GLX Aero Roof P23W (2.0 petrol) spec sheet",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/10000611/"
+  },
+  {
+   "name": "Gulliver — 1989–90 GLX Aero Roof P24W (2.4 petrol) spec sheet",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/4004898/"
+  },
+  {
+   "name": "Gulliver — 1990–91 Exceed Crystal Lite Roof P35W spec sheet",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/4005311/"
+  },
+  {
+   "name": "Gulliver — 1991–92 Super Exceed Crystal Lite Roof P35W spec sheet",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/4004763/"
+  },
+  {
+   "name": "Gulliver — 1993–94 Chamonix Aero Roof P25W spec sheet",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/4006821/"
+  },
+  {
+   "name": "Gulliver — 1994 Jasper Aero Roof P25W spec sheet",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/4006951/"
+  },
+  {
+   "name": "Gulliver — 1998–99 GLX High Roof P35W spec sheet (KD-P35W)",
+   "url": "https://221616.com/catalog/mitsubishi/delicastarwagon/198606_199910/4007816/"
+  },
+  {
+   "name": "Wikipedia — Mitsubishi Delica",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_Delica"
+  },
+  {
+   "name": "Koleso.ee — Delica Star Wagon L300 (1986–1990) wheel and tyre data",
+   "url": "https://koleso.ee/en/valuveljed/mitsubishi/delica-star-wagon/3340/l300-1986-1990/6597"
+  },
+  {
+   "name": "Delica.ca — L300 max tire size (Technical Reference Library)",
+   "url": "https://delica.ca/forum/viewtopic.php?t=18250"
+  },
+  {
+   "name": "Delica.ca — Say you just lifted your L300",
+   "url": "https://delica.ca/forum/viewtopic.php?t=18960"
+  },
+  {
+   "name": "Delica.ca — Upper ball joints with 2\" lift",
+   "url": "https://delica.ca/forum/viewtopic.php?t=17773"
+  },
+  {
+   "name": "Delica.ca — Transmission filter change + info",
+   "url": "https://delica.ca/forum/viewtopic.php?t=17649"
+  },
+  {
+   "name": "Delica.ca — Differential oil / transfer case / grease (LSD identification)",
+   "url": "https://delica.ca/forum/viewtopic.php?t=11667"
+  },
+  {
+   "name": "Delica.ca — Timing and balance belt part numbers",
+   "url": "https://delica.ca/forum/viewtopic.php?t=19356"
+  },
+  {
+   "name": "Delica.ca — Twin fuel tanks and how they work",
+   "url": "https://delica.ca/forum/viewtopic.php?t=17225"
+  },
+  {
+   "name": "Delica.ca — '91 L300 tank capacity",
+   "url": "https://delica.ca/forum/viewtopic.php?t=9083"
+  },
+  {
+   "name": "Delica.ca — Quick answers to fuel capacity and 4WD",
+   "url": "https://delica.ca/forum/viewtopic.php?t=1895"
+  },
+  {
+   "name": "Delica.ca — Towing capacity of L300 for a camper",
+   "url": "https://delica.ca/forum/viewtopic.php?t=10078"
+  },
+  {
+   "name": "Delica.ca — Towing capacity, automatic versus manual",
+   "url": "https://delica.ca/forum/viewtopic.php?t=211"
+  },
+  {
+   "name": "JDM Buy Sell — Mitsubishi Delica Star Wagon buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/mitsubishi/delica/star-wagon/"
+  },
+  {
+   "name": "GearJunkie — Mitsubishi Delica van guide",
+   "url": "https://gearjunkie.com/motors/mitsubishi-delica-van-guide"
+  },
+  {
+   "name": "Sabukaru — A Versatile Beast: The Mitsubishi Delica Star Wagon L300 (2021)",
+   "url": "https://sabukaru.online/articles/a-versatile-beast-the-mitsubishi-delica-star-wagon-l300"
+  },
+  {
+   "name": "Crankshaft Culture — Mitsubishi Delica Deep Dive FAQs (April 2025)",
+   "url": "https://crankshaftculture.com/2025/04/24/mitsubishi-delica-deep-dive-faqs/"
+  },
+  {
+   "name": "Crankshaft Culture — 7 Things to Know About Owning a Mitsubishi Delica (2018)",
+   "url": "https://crankshaftculture.com/2018/01/03/top-7-things-know-owning-mitsubishi-delica/"
+  },
+  {
+   "name": "Crankshaft Culture — What We've Learned After a Year With Our Delica (2018)",
+   "url": "https://crankshaftculture.com/2018/08/16/what-weve-learned-after-a-year-with-our-delica-the-space-tractor/"
+  },
+  {
+   "name": "Crankshaft Culture — Michigan the Latest State to Revoke Mitsubishi Delica Registration (August 2024)",
+   "url": "https://crankshaftculture.com/2024/08/11/michigan-the-latest-state-to-revoke-mitsubishi-delica-registration/"
+  },
+  {
+   "name": "Crankshaft Culture — Will Maine Reverse Course on Delica Deregistration? (January 2023)",
+   "url": "https://crankshaftculture.com/2023/01/17/will-maine-reverse-course-on-delica-deregistration/"
+  },
+  {
+   "name": "Autoblog — Maine is actively deregistering imported Mitsubishi Delicas — but why? (July 2021)",
+   "url": "https://www.autoblog.com/2021/07/09/maine-deregistering-mitsubishi-delicas/"
+  },
+  {
+   "name": "Bring a Trailer — Mitsubishi Delica auction results",
+   "url": "https://bringatrailer.com/mitsubishi/delica/"
+  },
+  {
+   "name": "Bring a Trailer — 1990 Delica L300 Star Wagon Chamonix Edition 4x4 (sold October 2026)",
+   "url": "https://bringatrailer.com/listing/1990-mitsubishi-delica-l300-star-wagon-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1993 Delica L300 Star Wagon Jasper Edition (sold June 2026)",
+   "url": "https://bringatrailer.com/listing/1993-mitsubishi-delica-l300-star-wagon-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1997 Delica L300 Star Wagon Active World Winter Special (sold January 2026)",
+   "url": "https://bringatrailer.com/listing/1997-mitsubishi-delica-l300/"
+  },
+  {
+   "name": "Bring a Trailer — 1994 Delica Star Wagon Turbodiesel 4x4 5-Speed (sold February 2026)",
+   "url": "https://bringatrailer.com/listing/1994-mitsubishi-delica/"
+  },
+  {
+   "name": "Liqui Moly oil guide (Olyslager data) — Mitsubishi L300 2.5 TD 4WD (4D56), 1987–1994 (Europe)",
+   "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/2/74b52f6f1e0bb17e/"
+  },
+  {
+   "name": "Megazip — genuine Mitsubishi parts catalogue, Delica Star Wagon 1986–1999",
+   "url": "https://www.megazip.net/parts/mitsubishi/delica_star_wagon/params/delica_star_wagon-gen_2"
+  },
+  {
+   "name": "Mitsubishi — L300 / Delica English-language workshop manuals, including the '4D5 & 4G7 Engine Manual' (as quoted by Delica.ca members)"
+  },
+  {
+   "name": "BC Overland Rally",
+   "url": "https://bcoverlandrally.com/"
+  }
+ ]
+}
