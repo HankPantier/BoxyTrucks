@@ -1,0 +1,401 @@
+{
+ "fitment": {
+  "stock": [
+   "10.5-20 / 275/80R20 on 9.00-20 rims (404.0 and most 404.1s)",
+   "10-20 listed for 404.1 (Wikipedia); the Danish army spec gives 10.00 or 10.50-20"
+  ],
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "12.5R20 (335/80R20) on 11.00-20 rims",
+    "note": "Factory-recommended off-road and winter size in Continental MPT 81 or Michelin XZL. One Steel Soldiers owner says 12.50 Michelins won't fit the under-bed spare holder unless the battery box is moved, and that they're about the same height as a 9.00-20."
+   },
+   {
+    "lift": "Modified",
+    "size": "Up to 39.5 in bias-ply (one-off)",
+    "note": "A heavily modified OM617-swapped 1963 404 sold on Bring a Trailer in 2025 ran 39.5-inch bias-plies on 20-inch wheels. There's no off-the-shelf lift; anything past 12.5R20 is custom work."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": [
+   {
+    "title": "404 pressure-plate failures with puck-style clutch discs",
+    "ref": "Expedition Imports EICSB101",
+    "summary": "Fit the puck disc with its protruding hub towards the engine, and adjust the pedal so the finger springs can't touch the spinning disc. The workshop manual's diagram only applies to the original organic disc.",
+    "url": "https://support.expeditionimports.com/hc/en-us/articles/217394187-EICSB101-404-Pressure-Plate-Failures"
+   },
+   {
+    "title": "Hub reduction output seal installed flush",
+    "ref": "Expedition Imports tech note",
+    "summary": "The 140 mm seal must sit 5 mm inside the housing face so its second lip rides on the wear ring; shops often set it flush.",
+    "url": "https://support.expeditionimports.com/hc/en-us/articles/217428777-140MM-Hub-Reduction-Output-Seal-Installation-and-Tool-Cad"
+   },
+   {
+    "title": "Short-reach vs long-reach spark plugs",
+    "ref": "Expedition Imports tech note",
+    "summary": "Old-style M 180 heads take short-reach plugs and new-style heads long-reach. A long plug in an old head damages the threads.",
+    "url": "https://support.expeditionimports.com/hc/en-us/articles/115003638767-Unimog-404-Cylinder-Head-Identification-and-Notes"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1952",
+   "change": "French officers watch Unimog tests on the Sauberg near Gaggenau and ask for a military version; development of the 'Sonderfahrzeug' begins",
+   "flag": "note"
+  },
+  {
+   "year": "1953",
+   "change": "First prototype, the MU 80/0, built in summer with a flat ladder frame, 2,220 mm wheelbase and M 180 petrol six",
+   "flag": "note"
+  },
+  {
+   "year": "1954",
+   "change": "Third prototype gets the downswept frame so the spare wheel can sit under the bed, as the French army wanted; two prototypes go to France",
+   "flag": "note"
+  },
+  {
+   "year": "1955",
+   "change": "Production starts in May with the 404.111 initial series (2,670 mm wheelbase). Initial-series trucks have an unsynchronized gearbox, and the first 1,100 go to the French army",
+   "flag": "note"
+  },
+  {
+   "year": "1956",
+   "change": "Main series begins in January on a 2,900 mm wheelbase with the fully synchronized UG 1/11 six-speed. These 404.112–115 trucks make up almost all 404s",
+   "flag": "note"
+  },
+  {
+   "year": "1958",
+   "change": "Open double cab, built by Glas in Dingolfing, added to the range",
+   "flag": "note"
+  },
+  {
+   "year": "1963",
+   "change": "The diesel Unimog 406 arrives, and demand for the petrol 404 starts to fall",
+   "flag": "note"
+  },
+  {
+   "year": "1969–1970",
+   "change": "81 OM 615 diesel 404.117s built for the Portuguese market",
+   "flag": "note"
+  },
+  {
+   "year": "1971",
+   "change": "404.0 (U110) launched with the Unimog 406 cab and one-piece windshield, soon with the 2.8 L M 130 (110 PS); only 1,791 built through 1980",
+   "flag": "note"
+  },
+  {
+   "year": "1972",
+   "change": "404.0 also offered with the folding-top cab of the Unimog 416",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "The U 1300 L (series 435) arrives in October and starts to replace the 404 in Bundeswehr service",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Production ends after 64,242 trucks, the most of any Unimog series",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "In the US, almost every 404 is an ex-military truck (Swiss, Belgian, French or German), so the chassis number and a few hardware details tell you more than any title.",
+  "items": [
+   {
+    "head": "Chassis number = type number",
+    "body": "The first six digits are the Baumuster (type number), followed by the serial: for example 404114050657 or 404115031210 in Bring a Trailer listings. 404.111 is the early short-wheelbase truck, 404.112–115 the main 404.1 series, 404.117 the Portuguese diesel, and 404.010–013 the 404.0."
+   },
+   {
+    "head": "404.1 vs 404.0",
+    "body": "The 404.1 has the original cab with a split windshield. The 404.0 uses the Unimog 406 cab (or the 416's folding-top cab) with a one-piece windshield. German Wikipedia says you can still tell a 404.0 from a 406-based Unimog by its external wheel hubs, which the 406 family doesn't have."
+   },
+   {
+    "head": "Engine numbers",
+    "body": "The Unimog 404 Guide lists M 180 engine numbers 180.928, 180.953 and 180.958 for the 404.0 and 404.1, and 130.925 for the M 130 in the 404.0. Anything else, such as an OM617 diesel or a car-sourced engine, is a swap."
+   },
+   {
+    "head": "Old- or new-style cylinder head",
+    "body": "Old-style M 180 heads have a more complex valve train with extra rocker shafts and a hollow, drilled camshaft, which fails more often. New-style heads have a solid cam with a drip-oiler tube. An old-style valve cover only fits an old-style head, but a new-style cover fits both."
+   },
+   {
+    "head": "Military equipment",
+    "body": "Ex-army trucks have 24-volt electrics, a shielded, radio-suppressed ignition and military light switches, and sometimes blackout lights and air-over-hydraulic brakes. A Steel Soldiers member says Swiss trucks can be spotted by their taller cab cover."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Payload",
+   "v": "1,500 kg (3,307 lb)",
+   "note": "Design payload"
+  },
+  {
+   "k": "Curb weight",
+   "v": "≈ 2,900–2,970 kg (6,390–6,550 lb)",
+   "note": "Wikipedia; the Unimog 404 Guide gives 6,393 lb empty and 9,700 lb gross"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "2 × 60 L (2 × 15.9 US gal)",
+   "note": "404.1"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "400 mm (15.7 in)",
+   "note": "Portal axles"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "45° / 46°",
+   "note": "Unimog 404 Guide; 42° side slope"
+  },
+  {
+   "k": "Gradeability",
+   "v": "70% in first gear",
+   "note": "Operator's handbook figures quoted by Wikipedia"
+  },
+  {
+   "k": "Wading depth",
+   "v": "80 cm (31.5 in) without equipment",
+   "note": "Unimog 404 Guide"
+  },
+  {
+   "k": "Top speed",
+   "v": "95 km/h (59 mph) · 100 km/h for the 404.0",
+   "note": "Sixth gear"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "10–14 mpg (US)",
+   "note": "Unimog 404 Guide; owners report 7–14 mpg depending on altitude and load"
+  },
+  {
+   "k": "Turning circle",
+   "v": "42.6 ft",
+   "note": "Listed as the turning radius in the Unimog 404 Guide"
+  },
+  {
+   "k": "Towing",
+   "v": "About 1,500 kg unbraked",
+   "note": "A Steel Soldiers member's figure, not a factory rating"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "404s are the cheapest way into a classic Unimog. Prices have stayed fairly flat for a decade, with condition, fresh brake and seal work, and camper or swap builds driving the premiums.",
+  "ranges": [
+   {
+    "cond": "Project / non-runner",
+    "range": "$4.5k–10k"
+   },
+   {
+    "cond": "Running driver",
+    "range": "$8.5k–19k"
+   },
+   {
+    "cond": "Sorted, camper or modified",
+    "range": "$25k–35k"
+   }
+  ],
+  "note": "Based on Bring a Trailer 404 results from 2023–2025: $4,600 for a 1975 project, $8,400–$19,000 for most stock trucks, $28,000 for a 1964 camper conversion and $35,000 for an OM617-powered 1963. The most recent sale was $8,900 for a 1968 in October 2025. Earlier sales (2016–2022) ran $7,300–$26,000."
+ },
+ "docs": [
+  {
+   "name": "Unimog 404 Workshop/Repair Manual",
+   "url": "https://expedition-imports.com/unimog-404-workshop-repair-manual-404rm/",
+   "note": "English reprint from the US Unimog specialist"
+  },
+  {
+   "name": "Unimog 404 Operators/Instruction Manual",
+   "url": "https://expedition-imports.com/unimog-404-operators-instruction-manual-404om/",
+   "note": "Owner's handbook reprint"
+  },
+  {
+   "name": "Unimog 404 Parts Manual",
+   "url": "https://expedition-imports.com/unimog-404-engine-parts-manual-404epm/",
+   "note": "Parts catalogue reprint"
+  },
+  {
+   "name": "1979 Technical Data Book (English), the 404 'Bible'",
+   "url": "https://expedition-imports.com/1979-technical-data-book-english-404-79tdb/",
+   "note": "Mercedes-Benz technical data for the range"
+  },
+  {
+   "name": "Mercedes-Benz factory literature (Werkstatthandbuch Unimog 404 Nr. 30 400 21 31; Betriebsanleitung 404.0/404.1 Nr. 30 400 51 33)",
+   "url": "https://www.unimog-fanshop.de/",
+   "note": "Unimog-Community lists these titles as still available from Buch und Bild, now the Unimog-Fanshop in Gaggenau"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Mercedes-Benz never sold the 404 new in the US, so every American truck is a private or specialist import, mostly ex-military: auction listings show trucks retired by the Swiss and Belgian armies and imported in the 2000s. Every 404 is now far past the 25-year mark, which has exempted vehicles from NHTSA's import safety rules since 1989.",
+   "Federal eligibility doesn't settle state registration. US 404s turn up on Pennsylvania titles, on Connecticut registrations (which serve as the ownership document there) and with only a bill of sale in Texas. California's emissions rules make overseas classics hard to register, and Smog Check applies to 1976 and newer vehicles, so check your state's titling rules before you buy, especially for a late truck."
+  ]
+ },
+ "production": {
+  "intro": "The 404 is the most-built Unimog series, and more than half of all 404s went to the Bundeswehr.",
+  "items": [
+   {
+    "k": "Total built",
+    "v": "64,242 (1955–1980)"
+   },
+   {
+    "k": "404.1",
+    "v": "62,451, including 50,321 of the 404.114 alone"
+   },
+   {
+    "k": "404.0",
+    "v": "1,791 (1971–1980)"
+   },
+   {
+    "k": "Bundeswehr",
+    "v": "36,638 (German Wikipedia; often rounded to 36,000)"
+   },
+   {
+    "k": "Peak year",
+    "v": "1962: 6,593 built (Oswald's figures); 6,605 per German Wikipedia"
+   },
+   {
+    "k": "Assembly",
+    "v": "Mercedes-Benz plant, Gaggenau"
+   },
+   {
+    "k": "Markets",
+    "v": "Officially delivered to more than 100 countries (Eurotransport)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "404.117 diesel",
+    "years": "1969–1970",
+    "note": "81 trucks with the OM 615 diesel (44 kW) for the Portuguese market"
+   },
+   {
+    "name": "TLF 8 fire engine",
+    "years": "1955–1980",
+    "note": "One of many fire-brigade bodies on the 404.1 chassis, some with a four-door crew cab"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Unimog-Club Gaggenau (UCG)",
+   "url": "https://unimog-club-gaggenau.de/",
+   "note": "German Unimog owners' club based in the 404's home town; it published the 'Unimog-Spezial 404' special issue in 2014"
+  },
+  {
+   "kind": "event",
+   "name": "Unimog-Museum, Gaggenau",
+   "url": "https://www.unimog-museum.com/",
+   "note": "Unimog museum in the 404’s home town, with 404 chassis and fire engines on display and owners' meets such as the Weltenbummlertreffen"
+  },
+  {
+   "kind": "club",
+   "name": "Rocky Mountain Moggers",
+   "url": "https://www.rockymountainmoggers.com/",
+   "note": "Loose group of Unimog owners in the Rocky Mountain region, with outings, an owners' list and many 404.1 tech tips"
+  },
+  {
+   "kind": "club",
+   "name": "Unimog-Community.de",
+   "url": "https://www.unimog-community.de/",
+   "note": "German Unimog and MB-trac enthusiast site and forum, running since 1999"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Unimog 404",
+   "url": "https://en.wikipedia.org/wiki/Unimog_404"
+  },
+  {
+   "name": "Wikipedia (German) — Unimog 404",
+   "url": "https://de.wikipedia.org/wiki/Unimog_404"
+  },
+  {
+   "name": "Eurotransport — 70 Jahre Unimog S (Ralf Maile, May 2025)",
+   "url": "https://www.eurotransport.de/fahrzeuge/oldtimer/70-jahre-unimog-s-der-meistgebaute-unimog-vom-sonderfahrzeug-fuer-die-armee-bis-zur-baureihe-404-0/"
+  },
+  {
+   "name": "Unimog-Community.de — Unimog U 404 S (1955 bis 1980)",
+   "url": "https://www.unimog-community.de/unimog-baureihen/unimog-404-s-1955-bis-1980/"
+  },
+  {
+   "name": "armyvehicles.dk — Unimog 404.0",
+   "url": "https://armyvehicles.dk/uni404.htm"
+  },
+  {
+   "name": "Unimog 404 Guide (Patrick Tufts)",
+   "url": "https://www.cs.brandeis.edu/~zippy/unimog-404.html"
+  },
+  {
+   "name": "Unimog 404 Guide — engine guide",
+   "url": "https://www.cs.brandeis.edu/~zippy/unimog-engine.html"
+  },
+  {
+   "name": "Unimog 404 Guide — tires",
+   "url": "https://www.cs.brandeis.edu/~zippy/unimog-tires.html"
+  },
+  {
+   "name": "Steel Soldiers — Looking at a Unimog (page 2)",
+   "url": "https://mail.steelsoldiers.com/threads/looking-at-a-unimog.21848/page-2"
+  },
+  {
+   "name": "Expedition Imports — Unimog 404 Cylinder Head Identification and Notes",
+   "url": "https://support.expeditionimports.com/hc/en-us/articles/115003638767-Unimog-404-Cylinder-Head-Identification-and-Notes"
+  },
+  {
+   "name": "Expedition Imports — EICSB101 404 pressure plate failures",
+   "url": "https://support.expeditionimports.com/hc/en-us/articles/217394187-EICSB101-404-Pressure-Plate-Failures"
+  },
+  {
+   "name": "Expedition Imports — 140 mm hub reduction output seal installation",
+   "url": "https://support.expeditionimports.com/hc/en-us/articles/217428777-140MM-Hub-Reduction-Output-Seal-Installation-and-Tool-Cad"
+  },
+  {
+   "name": "Expedition Imports — Unimog manuals and documentation",
+   "url": "https://expedition-imports.com/unimog-parts/unimog-manuals-and-documentation/"
+  },
+  {
+   "name": "Bring a Trailer — Mercedes-Benz Unimog auction results",
+   "url": "https://bringatrailer.com/mercedes-benz/unimog/"
+  },
+  {
+   "name": "Bring a Trailer — 1968 Mercedes-Benz Unimog 404 (sold October 2025)",
+   "url": "https://bringatrailer.com/listing/1968-mercedes-benz-unimog-404-7/"
+  },
+  {
+   "name": "Bring a Trailer — 1964 Mercedes-Benz Unimog 404 Troop Carrier (sold July 2025)",
+   "url": "https://bringatrailer.com/listing/1964-mercedes-benz-unimog-404-7/"
+  },
+  {
+   "name": "Bring a Trailer — 1967 Mercedes-Benz Unimog 404 (sold June 2025)",
+   "url": "https://bringatrailer.com/listing/1967-mercedes-benz-unimog-404-6/"
+  },
+  {
+   "name": "Bring a Trailer — OM617-Powered 1963 Mercedes-Benz Unimog 404 (sold September 2025)",
+   "url": "https://bringatrailer.com/listing/1963-mercedes-benz-unimog-404-14/"
+  },
+  {
+   "name": "Bring a Trailer — 1964 Mercedes-Benz Unimog 404 Camper Conversion (sold December 2023)",
+   "url": "https://bringatrailer.com/listing/1964-mercedes-benz-unimog-404-4-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1975 Mercedes-Benz Unimog 404 Project (sold October 2023)",
+   "url": "https://bringatrailer.com/listing/1975-mercedes-benz-unimog-404-u82/"
+  },
+  {
+   "name": "Wikipedia — Grey import vehicle (US 25-year rule)",
+   "url": "https://en.wikipedia.org/wiki/Grey_import_vehicle"
+  },
+  {
+   "name": "Rocky Mountain Moggers — home",
+   "url": "https://www.rockymountainmoggers.com/"
+  }
+ ]
+}
