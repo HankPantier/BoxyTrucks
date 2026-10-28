@@ -29,3 +29,8 @@ Website
 
 ## Posting setup
 Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later). Claude drafts a week of posts at a time and you approve them before anything is scheduled.
+
+## Posts
+| Date | Post | File |
+|---|---|---|
+| Oct 28, 2026 | "The biggest tire that fits stock": 8 trucks, CTA to boxytrucks.com/tires. Photo: Darina Rodionova / Unsplash (80 Series) | `posts/01-biggest-tire-stock.jpg` |
