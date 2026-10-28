@@ -40,3 +40,4 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 - Pace: about 25–30 follows a day while the account is new, so Instagram doesn't block it for spam.
 - Hashtags can't be followed any more (tag pages redirect to search). For hashtags, follow the off-road accounts behind the top posts in #landcruiser, #gwagon, #defender, #fj40, #broncolife etc. instead.
 - Skipped as fake or wrong handles: frontrunneroutfitters, maxtraxusa, landroverusa, filson (real: filson1897), rumpl, stanley1913, kammokgear, oldmanemu.
+| Oct 28, 2026 | Extra post: "Take a checklist to the test drive", promoting the free inspection checklists (boxytrucks.com/inspection-checklists). Background photo: Darina Rodionova / Unsplash (80 Series), with the 80 Series checklist page | `posts/08-inspection-checklists.jpg` |
