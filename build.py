@@ -400,7 +400,7 @@ def main():
         def mark(color, w=34, bg='#0E0F0E'):
             return Markup(f'<svg viewBox="0 0 64 64" width="{w}" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="{color}" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="{color}"/><circle cx="40" cy="63" r="9.5" fill="{color}"/><circle cx="40" cy="63" r="3.5" fill="{bg}"/></svg>')
         env.globals['affiliates_on'] = any(p.get('template') or p.get('params') for p in AFFILIATES)
-        env.globals['avatar'] = lambda u: (lambda a: f'{root}img/{a}' if a else None)(AVATARS.get(avatar_key(u or '')))
+        env.globals['avatar'] = lambda u: (lambda a: f'/img/{a}' if a else None)(AVATARS.get(avatar_key(u or '')))
         env.globals['mlabel'] = mlabel
         env.globals['newsletter'] = NEWSLETTER
         env.globals['amz_q'] = amz_q
