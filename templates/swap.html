@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}engine-swaps/index.html">Engine swaps</a><span>/</span><span>{{ s.title }}</span></nav>
+  <span class="eyebrow brass">Engine swap · {{ s.engine }}</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ s.title }}</h1>
+</div></section>
+<div class="wrap section" style="padding-top:40px"><div class="by-wrap">
+  <div class="prose">{% for para in s.lead %}<p{% if loop.first %} class="lead"{% endif %}>{{ para|lk }}</p>{% endfor %}</div>
+  {% if trucks %}<section><h2 class="h-section">Trucks it goes into</h2><div class="rows">{% for t in trucks %}<div class="row"><span class="t">{% if t.href %}<a href="{{ t.href }}">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</span><span class="n">{{ t.note|lk }}</span></div>{% endfor %}</div></section>{% endif %}
+  {% for sec in s.sections %}<section class="prose"><h2 class="h-section">{{ sec.h }}</h2>{% for para in sec.body %}<p>{{ para|lk }}</p>{% endfor %}</section>{% endfor %}
+  {% if s.suppliers %}<section><h2 class="h-section">Kits and suppliers</h2><div class="rows">{% for x in s.suppliers %}<a class="row" href="{{ x.url }}" target="_blank" rel="noopener"><span class="t">{{ x.name }} ↗</span><span class="n">{{ x.what }}</span></a>{% endfor %}</div></section>{% endif %}
+  {% if s.faqs %}<section><h2 class="h-section">Questions</h2><div class="faq">{% for f in s.faqs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p></div></details>{% endfor %}</div></section>{% endif %}
+  <p class="sp-foot">Engine swaps change emissions compliance, insurance and sometimes legality. Check your state’s rules before you start. See the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.</p>
+  {% if s.sources %}<section><h2 class="h-section">Sources</h2><ul class="im-src">{% for x in s.sources %}<li>{% if x.url %}<a href="{{ x.url }}" target="_blank" rel="noopener">{{ x.name }} ↗</a>{% else %}{{ x.name }}{% endif %}</li>{% endfor %}</ul></section>{% endif %}
+</div></div>
+{% endblock %}

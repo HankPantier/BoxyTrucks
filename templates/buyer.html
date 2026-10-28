@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}best/index.html">Buyer’s guides</a><span>/</span><span>{{ b.title }}</span></nav>
+  <span class="eyebrow brass">Buyer’s guide · prices checked October 2026</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ b.title }}</h1>
+</div></section>
+<div class="wrap section" style="padding-top:40px"><div class="by-wrap">
+  <div class="prose">{% for para in b.lead %}<p{% if loop.first %} class="lead"{% endif %}>{{ para|lk }}</p>{% endfor %}</div>
+  {% if b.how %}<p class="by-how"><span class="eyebrow">How we picked</span> {{ b.how|lk }}</p>{% endif %}
+  <ol class="by-picks">{% for pk in picks %}
+    <li class="by-pick" id="{{ pk.id }}">
+      {% if pk.img %}<a class="by-img" href="{{ pk.href }}"><img src="{{ pk.img }}" alt="{{ pk.name }} off road" loading="lazy"></a>{% endif %}
+      <div class="by-body">
+        <span class="eyebrow">No. {{ loop.index }}{% if pk.label %} · {{ pk.label }}{% endif %}</span>
+        <h2><a href="{{ pk.href }}">{{ pk.name }}</a></h2>
+        <div class="by-meta">{% if pk.years %}<span><b>YEARS</b> {{ pk.years }}</span>{% endif %}{% if pk.price %}<span><b>PRICE</b> {{ pk.price }}</span>{% endif %}</div>
+        {% for para in pk.why %}<p>{{ para|lk }}</p>{% endfor %}
+        {% if pk.watch %}<p class="by-watch"><b>Check first:</b> {{ pk.watch|lk }}</p>{% endif %}
+        <p class="by-links"><a class="inline-link" href="{{ pk.href }}">Full guide →</a>{% if pk.checklist %} · <a class="inline-link" href="{{ root }}inspection-checklists/index.html">Inspection checklist</a>{% endif %}</p>
+      </div>
+    </li>{% endfor %}
+  </ol>
+  {% if b.faqs %}<section><h2 class="h-section">Questions</h2><div class="faq">{% for f in b.faqs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p></div></details>{% endfor %}</div></section>{% endif %}
+  {% if b.sources %}<section><h2 class="h-section">Sources</h2><ul class="im-src">{% for s in b.sources %}<li>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }} ↗</a>{% else %}{{ s.name }}{% endif %}</li>{% endfor %}</ul></section>{% endif %}
+</div></div>
+{% endblock %}

@@ -713,3 +713,20 @@ html { scroll-padding-top: 90px; }
 .qz-b ul { margin: 4px 0 0; padding-left: 18px; font-size: 14px; line-height: 21px; }
 .qz-b .go { font-size: 13px; font-weight: 600; margin-top: 4px; }
 .qz-none { font-family: var(--serif); font-size: 18px; }
+
+/* buyer's guides & swaps */
+.by-wrap { display: flex; flex-direction: column; gap: 44px; max-width: 920px; }
+.by-how { margin: 0; padding: 16px 18px; background: var(--bone); border-left: 3px solid #8A6A1F; font-size: 15px; line-height: 23px; }
+.by-picks { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 32px; }
+.by-pick { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--ink); padding-top: 24px; }
+@media (max-width: 760px) { .by-pick { grid-template-columns: minmax(0, 1fr); } }
+.by-img img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; max-width: 100%; display: block; }
+.by-body { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.by-body h2 { font-size: clamp(24px, 3vw, 32px); line-height: 1.1; }
+.by-body h2 a { color: inherit; text-decoration: none; }
+.by-body p { margin: 0; font-family: var(--serif); font-size: 17px; line-height: 27px; }
+.by-meta { display: flex; flex-wrap: wrap; gap: 6px 10px; font-family: var(--mono); font-size: 12px; letter-spacing: .04em; }
+.by-meta span { border: 1px solid var(--hair); padding: 5px 9px; background: var(--paper); }
+.by-meta b { color: #8A6A1F; font-weight: 500; margin-right: 4px; }
+.by-body p.by-watch { font-family: inherit; font-size: 15px; line-height: 23px; color: var(--body); }
+.by-body p.by-links { font-family: inherit; font-size: 15px; }

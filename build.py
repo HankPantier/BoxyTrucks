@@ -48,7 +48,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'quiz'}
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'quiz', 'best', 'swaps'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -829,6 +829,52 @@ def main():
     render('quiz.html', 'which-4x4/index.html', '../', active='quiz', data_json=Markup(json.dumps(qz, ensure_ascii=False).replace('</', '<\\/')), n=len(qz),
            crumbs=[('Garage', 'garage/'), ('Which boxy 4x4?', 'which-4x4/')],
            title='Which boxy 4x4 should you buy? Five questions, one shortlist — BoxyTrucks', description=f'Answer five questions about budget, use, wrenching and imports and get a shortlist from {len(qz)} boxy 4x4 generations, with prices and best years.', credits='')
+    def _gen_info(k):
+        try:
+            _f, _g = k.split('/')
+        except ValueError:
+            return None
+        if _f not in fams or _g not in pages.get(_f, {}):
+            return None
+        _p = pages[_f][_g]
+        return {'name': mlabel(fams[_f]['maker'], _p['title']), 'href': f'../models/{_f}/{_g}.html', 'img': (f'../img/{_f}/{_p["hero_photo"]}' if _p.get('hero_photo') else None)}
+    buyers = [jload(f) for f in sorted((DATA / 'buyers').glob('*.json'))] if (DATA / 'buyers').exists() else []
+    buyers = [b for b in buyers if b and b.get('picks')]
+    for b in buyers:
+        picks = []
+        for pk in sorted(b['picks'], key=lambda q: q.get('rank', 99)):
+            gi = _gen_info(pk.get('model', ''))
+            if not gi:
+                print(f'  ! buyers/{b["slug"]}: unknown model {pk.get("model")}')
+                continue
+            picks.append(dict(pk, **gi, id=pk['model'].replace('/', '-'), checklist=(SITE / f'checklists/{pk["model"].replace("/", "-")}.pdf').exists()))
+        render('buyer.html', f'best/{b["slug"]}.html', '../', b=b, picks=picks, active='best', og_type='article',
+               crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/'), (b['title'], f'best/{b["slug"]}/')],
+               jsonld=[{'@context': 'https://schema.org', '@type': 'ItemList', 'name': b['title'], 'url': SITE_URL + f'best/{b["slug"]}/', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': q['name'], 'url': SITE_URL + q['href'].replace('../', '').replace('.html', '/')} for i, q in enumerate(picks)]}]
+                      + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_PLAIN(f['a'])}} for f in b['faqs']]}] if b.get('faqs') else []),
+               title=f'{b["title"]} — BoxyTrucks', description=b.get('description', ''), credits='')
+    if buyers:
+        render('list_hub.html', 'best/index.html', '../', active='best', crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/')],
+               h={'title': 'Buyer’s guides', 'eyebrow': f'{len(buyers)} guides · prices checked October 2026', 'lead': 'Shortlists for the questions buyers actually ask: what to get on a budget, for a first truck, for overlanding, for the rocks, and the classics worth keeping. Every pick links to its full guide.',
+                  'items': [{'href': f'{b["slug"]}.html', 'title': b['title'], 'eyebrow': f'{len(b["picks"])} picks', 'text': (b.get('lead') or [''])[0]} for b in buyers]},
+               title="Buyer's guides: the best boxy 4x4s by budget and use — BoxyTrucks", description='The best boxy 4x4s under $15k and $30k, for a first truck, overlanding, rock crawling and classics, with prices and best years.', credits='')
+    swaps = [jload(f) for f in sorted((DATA / 'swaps').glob('*.json'))] if (DATA / 'swaps').exists() else []
+    swaps = [x for x in swaps if x and x.get('sections')]
+    for sw in swaps:
+        trucks = []
+        for t in sw.get('trucks', []):
+            gi = _gen_info(t.get('model', '')) or {}
+            trucks.append({'name': gi.get('name') or t.get('model', ''), 'href': gi.get('href'), 'note': t.get('note', '')})
+        render('swap.html', f'engine-swaps/{sw["slug"]}.html', '../', s=sw, trucks=trucks, active='swaps', og_type='article',
+               crumbs=[('Garage', 'garage/'), ('Engine swaps', 'engine-swaps/'), (sw['title'], f'engine-swaps/{sw["slug"]}/')],
+               jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': sw['title'], 'url': SITE_URL + f'engine-swaps/{sw["slug"]}/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}]
+                      + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_PLAIN(f['a'])}} for f in sw['faqs']]}] if sw.get('faqs') else []),
+               title=f'{sw["title"]}: kits, costs and what it takes — BoxyTrucks', description=sw.get('description', ''), credits='')
+    if swaps:
+        render('list_hub.html', 'engine-swaps/index.html', '../', active='swaps', crumbs=[('Garage', 'garage/'), ('Engine swaps', 'engine-swaps/')],
+               h={'title': 'Engine swaps', 'eyebrow': f'{len(swaps)} swap guides', 'lead': 'The swaps that boxy 4x4 owners actually do: which trucks they go into, the kits and adapters, what it costs, and the emissions and registration catches.',
+                  'items': [{'href': f'{x["slug"]}.html', 'title': x['title'], 'eyebrow': x.get('engine', ''), 'text': (x.get('lead') or [''])[0]} for x in swaps]},
+               title='Engine swaps for boxy 4x4s: LS, Coyote, Cummins, 1HZ, OM606 — BoxyTrucks', description='LS, Coyote, Cummins, Toyota diesel and Mercedes diesel swaps for Land Cruisers, Broncos, Defenders, Jeeps and more: kits, costs and emissions.', credits='')
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s by model: symptoms, tools, steps and the parts you need, from Land Cruisers to Defenders and Jeeps.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})
     render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Who makes the parts and who builds the trucks: suspension, armor, lockers and full builds for every boxy 4x4 we cover, sorted by model.', credits='',
