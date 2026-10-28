@@ -30,7 +30,8 @@
 
   <aside class="rp-side">
     <a class="card rp-back" href="{{ gen_href }}"><span class="eyebrow">The full guide</span><strong>{{ model }}</strong><span>History, best years to buy, buying checks, service, fitment and every repair →</span></a>
-    {% if others %}<div class="rp-more"><span class="eyebrow">More {{ p.title }} repairs</span><ul>{% for o in others %}<li><a href="{{ root }}repairs/{{ fam_slug }}/{{ gen_slug }}/{{ o.slug }}.html">{{ o.title|striplk }}</a></li>{% endfor %}</ul></div>{% endif %}
+    {% if has_specs %}<a class="card rp-back" href="{{ root }}models/{{ fam_slug }}/{{ gen_slug }}/specs.html"><span class="eyebrow">Before you open the toolbox</span><strong>{{ p.title }} specs &amp; fluids</strong><span>Fluid types and capacities, service intervals, wheel and tire sizes, on one printable page →</span></a>{% endif %}
+    {% if others %}<div class="rp-more"><span class="eyebrow">More {{ p.title }} repairs</span><ul>{% for o in others %}<li><a href="{{ root }}repairs/{{ fam_slug }}/{{ gen_slug }}/{{ o.slug }}.html">{{ o.title|striplk }}</a></li>{% endfor %}<li><a href="{{ root }}repairs/index.html#{{ fam_slug }}-{{ gen_slug }}" style="color:#8A6A1F">Repair guides for every truck →</a></li></ul></div>{% endif %}
   </aside>
 </div></div>
 {% endblock %}

@@ -31,10 +31,10 @@
   {% set f = x.fitment %}{% if f %}<section><h2 class="h-section">Wheels &amp; tires</h2>
     <div class="table-box"><table class="sp-table"><tbody>
       {% if f.stock %}<tr><th scope="row">Factory tire</th><td>{{ f.stock|join(' · ') }}</td></tr>{% endif %}
-      {% if f.wheel %}{% if f.wheel.bolt_pattern %}<tr><th scope="row">Bolt pattern</th><td>{{ f.wheel.bolt_pattern }}</td></tr>{% endif %}{% if f.wheel.center_bore %}<tr><th scope="row">Center bore</th><td>{{ f.wheel.center_bore }}</td></tr>{% endif %}{% if f.wheel.lug_thread %}<tr><th scope="row">Lug thread</th><td>{{ f.wheel.lug_thread }}</td></tr>{% endif %}{% endif %}
+      {% if f.wheel %}{% if f.wheel.bolt_pattern %}<tr><th scope="row">Bolt pattern</th><td>{{ f.wheel.bolt_pattern }}</td></tr>{% endif %}{% if f.wheel.center_bore %}<tr><th scope="row">Center bore</th><td>{{ f.wheel.center_bore }}</td></tr>{% endif %}{% if f.wheel.offset %}<tr><th scope="row">Wheel offset</th><td>{{ f.wheel.offset }}</td></tr>{% endif %}{% if f.wheel.lug_thread %}<tr><th scope="row">Lug thread</th><td>{{ f.wheel.lug_thread }}</td></tr>{% endif %}{% if f.wheel.lug_torque %}<tr><th scope="row">Lug-nut torque</th><td>{{ f.wheel.lug_torque }}</td></tr>{% endif %}{% endif %}
       {% for t in f.max_tire or [] %}<tr><th scope="row">Biggest tire · {{ t.lift }}</th><td>{{ t.size }}</td></tr>{% endfor %}
     </tbody></table></div>
-    <p class="sub-intro"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug }}">Open the {{ p.title }} in the tire fitment tool →</a></p>
+    {% if f.max_tire %}<p class="sub-intro"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug }}">Open the {{ p.title }} in the tire fitment tool →</a></p>{% endif %}
   </section>{% endif %}
 
   {% if p.repairs %}<section><h2 class="h-section">Common {{ p.title }} repairs</h2>

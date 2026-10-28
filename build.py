@@ -40,8 +40,13 @@ NAV = [
     {'key': 'garage', 'label': 'GARAGE', 'href': 'garage/index.html', 'children': [
         {'key': 'repairs', 'label': 'Repair guides', 'href': 'repairs/index.html'},
         {'key': 'tires', 'label': 'Tire fitment', 'href': 'tires/index.html'},
+        {'key': 'recalls', 'label': 'Recall tracker', 'href': 'recalls/index.html'},
         {'key': 'compare', 'label': 'Compare', 'href': 'compare/index.html'},
+        {'key': 'best', 'label': 'Buyer’s guides', 'href': 'best/index.html'},
         {'key': 'bestyears', 'label': 'Best years to buy', 'href': 'garage/index.html#best-years'},
+        {'key': 'checklists', 'label': 'Inspection checklists', 'href': 'inspection-checklists/index.html'},
+        {'key': 'swaps', 'label': 'Engine swaps', 'href': 'engine-swaps/index.html'},
+        {'key': 'importing', 'label': 'Importing', 'href': 'importing/index.html'},
         {'key': 'resources', 'label': 'Resources', 'href': 'resources/index.html'},
     ]},
     {'key': 'quiz', 'label': 'WHICH 4X4?', 'href': 'which-4x4/index.html'},
@@ -756,7 +761,7 @@ def main():
                          'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}
                 others = [o for o in reps if o is not r]
                 render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, model=model, steps=steps, others=others,
-                       gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', og_type='article', part_search=suppliers_cfg.get(slug, []),
+                       gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', has_specs=bool(p.get('plate') or (p.get('baseline_service') or {}).get('items')), og_type='article', part_search=suppliers_cfg.get(slug, []),
                        crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
                        jsonld=[howto], title=f'{rt} — {model} DIY repair guide | BoxyTrucks'[:110],
                        description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
@@ -949,9 +954,33 @@ def main():
     # site search index
     strip = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
     idx = []
-    def add(kind, title, url, model, text):
+    def add(kind, title, url, model, text, codes=''):
         if not url.startswith('http'): url = pretty_path(url)
-        idx.append({'k': kind, 't': title, 'u': url, 'm': model, 'x': strip(text)[:400]})
+        # resolve [CONFIRM …] tags per entry, before truncating, so a cut-off tag can't swallow its neighbours
+        e = {'k': kind, 't': confirm_plain(strip(title)), 'u': url, 'm': model, 'x': confirm_plain(strip(text))[:400]}
+        if codes:
+            e['c'] = codes  # chassis/engine codes: matched by search, not shown
+        idx.append(e)
+    for _t, _u, _x in [('Repair guides', 'repairs/index.html', 'DIY repair guides by model: symptoms, tools, steps, parts, difficulty, fix'),
+                       ('Tire fitment tool', 'tires/index.html', 'biggest tire without a lift, with a lift, tire size, fitment, wheels, bolt pattern'),
+                       ('Recall tracker', 'recalls/index.html', 'recalls, service bulletins, TSB, NHTSA, VIN check, by model'),
+                       ('Compare', 'compare/index.html', 'head to head comparisons, vs, versus, which to buy'),
+                       ('Which boxy 4x4? quiz', 'which-4x4/index.html', 'which 4x4 should I buy, shortlist, quiz, budget, overlanding, rock crawling, daily driver'),
+                       ("Buyer’s guides", 'best/index.html', 'best 4x4 under $15k, under $30k, first 4x4, overlanding, rock crawling, classics, buying guide'),
+                       ('Inspection checklists', 'inspection-checklists/index.html', 'printable pre-purchase inspection checklist, PPI, test drive, what to check'),
+                       ('Engine swaps', 'engine-swaps/index.html', 'engine swap, LS swap, Coyote, Cummins, diesel swap, 1HZ, OM606, OM617'),
+                       ('Importing a 4x4 into the US', 'importing/index.html', 'import, 25-year rule, EPA exemption, duty, registration, JDM, legal'),
+                       ('Mods & builders', 'mods/index.html', 'modifications, suppliers, builders, lift kits, armor, racks, restomods'),
+                       ('Resources', 'resources/index.html', 'YouTube channels, Instagram accounts, forums, references'),
+                       ('For sale', 'for-sale/index.html', 'for sale, buy, AutoTempest, Bring a Trailer, listings, auctions'),
+                       ('Show Us Your Rig', 'submit/index.html', 'submit your truck, build, photos, feature, corrections')]:
+        add('Tool', _t, _u, 'BoxyTrucks', _x)
+    for c in compares:
+        add('Compare', c['title'], f'compare/{c["slug"]}.html', c.get('fam_label', ''), 'vs versus comparison which to buy ' + ' '.join(m.split('/')[1].replace('-', ' ') for m in c['models']) + ' ' + c.get('description', ''))
+    for b in buyers:
+        add("Buyer’s guide", b['title'], f'best/{b["slug"]}.html', 'Buyer’s guides', 'best buying guide ' + b.get('description', ''))
+    for sw in swaps:
+        add('Engine swap', sw['title'], f'engine-swaps/{sw["slug"]}.html', sw.get('engine', ''), 'engine swap ' + sw.get('description', ''))
     for slug in FAMILY_ORDER:
         if slug not in fams: continue
         fam = fams[slug]
@@ -960,23 +989,31 @@ def main():
             p = pages[slug].get(g['slug'])
             model = mlabel(fam['maker'], p['title'] if p else g['name'])
             u = f'models/{slug}/{g["slug"]}.html'
-            add('Model guide', model, u, model, ' '.join(g.get('codes', [])) + ' ' + g['summary'] + ' ' + (p.get('verdict', '') if p else ''))
+            codes = ' '.join(g.get('codes', []))
+            add('Model guide', model, u, model, codes + ' ' + g['summary'] + ' ' + (p.get('verdict', '') if p else ''))
             if not p: continue
+            x_ = p.get('x') or {}
+            if p.get('plate') or (p.get('baseline_service') or {}).get('items'):
+                add('Specs', f'{model} specs, fluids & service intervals', f'models/{slug}/{g["slug"]}/specs.html', model, 'specs spec sheet fluid capacities oil capacity coolant gear oil service intervals wheel tire size bolt pattern lug torque parts numbers printable', codes)
+            if (x_.get('fitment') or {}).get('max_tire'):
+                add('Tire fitment', f'Biggest tire for the {model}', f'tires/index.html?t={slug}/{g["slug"]}', model, 'biggest tire without a lift, with a lift, max tire size, fitment: ' + '; '.join(f'{t.get("lift")}: {t.get("size")}' for t in x_['fitment']['max_tire']), codes)
+            if (x_.get('recalls') or {}).get('items') or (x_.get('recalls') or {}).get('tsbs'):
+                add('Recalls', f'{model} recalls & service bulletins', f'recalls/index.html#{slug}-{g["slug"]}', model, 'recall recalls TSB service bulletin NHTSA: ' + '; '.join(r.get('title', '') for r in (x_['recalls'].get('items') or []) + (x_['recalls'].get('tsbs') or [])), codes)
             for r in p.get('repairs', []):
-                add('Repair', r['title'], f'repairs/{slug}/{g["slug"]}/{r["slug"]}/', model, r.get('symptoms', '') + ' ' + r.get('tools', ''))
+                add('Repair', r['title'], f'repairs/{slug}/{g["slug"]}/{r["slug"]}/', model, r.get('symptoms', '') + ' ' + r.get('tools', ''), codes)
             for f in p.get('faq', []):
-                add('Question', f['q'], u + '#faq', model, f['a'])
+                add('Question', f['q'], u + '#faq', model, f['a'], codes)
             for m in p.get('mods', []):
-                add('Mods', m['cat'].title() + ' — ' + ', '.join(w['name'] for w in m.get('who', [])), u + '#mods', model, m['why'])
+                add('Mods', m['cat'].title() + ' — ' + ', '.join(w['name'] for w in m.get('who', [])), u + '#mods', model, m['why'], codes)
             for s in (p.get('baseline_service') or {}).get('items', []):
-                add('Service', s['item'], u + '#service', model, s.get('spec', '') + ' ' + s.get('note', ''))
+                add('Service', s['item'], u + '#service', model, 'fluid capacity interval ' + s.get('spec', '') + ' ' + s.get('interval', '') + ' ' + s.get('note', ''), codes)
         for kind, items in resources[slug].items():
             for it in items:
                 add('Resource', it['name'], it['url'], f'{mlabel(fam["maker"], fam["name"])}', (it.get('focus') or it.get('note') or '') + ' ' + {'youtube': 'YouTube channel', 'instagram': 'Instagram account', 'forums': 'Forum', 'other': 'Reference'}[kind])
     for s in suppliers:
         if s.get('url'):
             add('Supplier', s['name'], s['url'], s.get('what', ''), s.get('what', ''))
-    (SITE / 'search-index.json').write_text(confirm_plain(json.dumps(idx, ensure_ascii=False, separators=(',', ':'))))
+    (SITE / 'search-index.json').write_text(json.dumps(idx, ensure_ascii=False, separators=(',', ':')))
     render('search.html', 'search/index.html', '../', active='search', title='Search — BoxyTrucks', description='Search model guides, repairs, owner questions, suppliers and resources.', credits='', noindex=True)
 
     from datetime import date

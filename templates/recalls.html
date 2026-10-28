@@ -28,6 +28,10 @@
 </div></div>
 <script>
 (function(){var s=document.getElementById('rc-fam');function f(){var v=s.value;document.querySelectorAll('.rc-gen').forEach(function(d){d.hidden=!!v&&d.dataset.fam!==v;});}
-s.addEventListener('change',f);var h=(location.hash||'').slice(1);if(h){var d=document.getElementById(h);if(d){d.open=true;}}})();
+s.addEventListener('change',function(){f();try{history.replaceState(null,'',s.value?'#'+s.value:location.pathname);}catch(e){}});
+function go(){var h=decodeURIComponent((location.hash||'').slice(1));if(!h)return;
+  if([].some.call(s.options,function(o){return o.value===h;})){s.value=h;f();return;}
+  var d=document.getElementById(h);if(d&&d.classList.contains('rc-gen')){if(s.value&&s.value!==d.dataset.fam){s.value='';f();}d.open=true;d.scrollIntoView();var sm=d.querySelector('summary');if(sm)sm.focus({preventScroll:true});}}
+go();window.addEventListener('hashchange',go);})();
 </script>
 {% endblock %}
