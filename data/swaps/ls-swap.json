@@ -1,0 +1,316 @@
+{
+ "slug": "ls-swap",
+ "title": "LS swaps in boxy 4x4s",
+ "engine": "GM LS family (4.8/5.3/6.0/6.2 V8)",
+ "description": "GM LS V8 swaps in the FJ40, FJ60/62, 80 Series, Scout II, CJ, XJ, TJ, Defender and Range Rover Classic: kits, adapters, emissions rules and costs.",
+ "lead": [
+  "Sooner or later every owner of an old 4x4 stands at the bottom of a long grade, foot flat, watching the speedometer fall, and has the same thought: what if it had an LS? GM's pushrod V8 has been swapped into so many old trucks that whole companies exist to sell you the bits in between. The result is that you can now buy a mount kit for an [[land-cruiser/fj40|FJ40]] off a shelf, which would have sounded like science fiction to the first people who welded a small-block Chevy into one.",
+  "None of that makes it a weekend job. An LS swap replaces the whole powertrain, the wiring, the fuel system and usually the cooling, and it can make the truck harder to register, not easier. This guide covers which boxy 4x4s have a well-trodden LS path, who makes the parts, what the emissions rules actually say, and what it costs based on real kit prices and builder quotes. It does not cover whether you should. That one's on you."
+ ],
+ "trucks": [
+  {
+   "model": "land-cruiser/fj40",
+   "note": "The most-trodden path. Advance Adapters sells a Chevy LS1-to-FJ40 mount kit (713088-TLC, $167.19 in October 2026), aluminium FJ40 radiators for LS engines with an automatic (716697A-LS, $654), and a bellhousing kit that bolts GM V6, small-block and LS Gen III/IV engines to the 1974–90 Land Cruiser H41/H42 four-speeds (712532, $449.99 at BTB Products). In IH8MUD's 2026 'FJ40 LS Swap?' thread, owners run a 6.0 and a 6.2 L92, and the transmissions discussed are the 4L80E, 4L65E and NV4500, with Advance Adapters parts used to keep the factory transfer case. One owner there says to plan on custom mounts, and another describes building his own harness from a GM one as 'time consuming and tedious.' Price it as a driver, not an investment: our October 2026 value check found V8-swapped FJ40s sold on Bring a Trailer for a median of about $25,300, below stock trucks."
+  },
+  {
+   "model": "land-cruiser/fj60",
+   "note": "Corsetti Cruisers builds turnkey LS3 E-ROD conversions for the FJ60, FJ62 and 80 Series with a choice of 4L65E or 4L80 automatics, the Toyota H55F five-speed or an NV4500, and estimated them at roughly $70,000–90,000 in 2023. For DIY builds, Advance Adapters lists an LS1 universal mount kit in its Land Cruiser mount range (713088-W, $165.10), an FJ60/62 GM V8 aluminium radiator for manual trucks (716699-AB, $576), and its GM-to-Land Cruiser bellhousing covers the 1980–90 H41F/H42F four-speeds the US FJ60 used."
+  },
+  {
+   "model": "land-cruiser/fj62",
+   "note": "US FJ62s only had the A440F automatic, so most LS swaps take a GM automatic, and Corsetti Cruisers lists the 6L80 and 4L65E behind its LS3 E-ROD, or an H55F if you want three pedals. Corsetti says its E-ROD route had a California executive order for the FJ40, FJ60 and FJ62. Swaps pay here more than on a 40: our October 2026 value check found engine-swapped FJ62s sold on Bring a Trailer for a median of about $44,000, against about $30,000 for all FJ62s."
+  },
+  {
+   "model": "land-cruiser/80-series",
+   "note": "Well documented on IH8MUD. In 'FZJ80 becomes LSJ80', NCtoyota used an LM7 5.3 and a 4L60E with a Marks 4WD transfer-case adapter, Cruiser Matt's engine mounts and a Holley Terminator X Max ECU. In 'Project Wintergreen', RICVirginiaHJ61 fitted a 2019 L86 6.2 and 10L80 using Torfab's kit and a Swaptime harness, and fought the power-steering pump, shifter linkage and cooler lines along the way. The Marks 4WD kit that mates a 4L60E/4L65E to the 1990–2002 Land Cruiser full-time transfer case lists at $2,009 at BTB Products (50-0420). Corsetti Cruisers says the FZJ80 lost its California E-ROD eligibility in January 2022."
+  },
+  {
+   "model": "scout/scout-ii",
+   "note": "Anything Scout sells a complete LS kit for Gen III/IV engines: motor mounts, a weld-on transmission crossmember, radiator and shroud, headers, shifter parts, lines, sender adapters for the stock gauges and more. It costs $3,669–4,639 depending on the 4L60 or 6L80 and an NP241C, Dana 300 or Atlas transfer case. It excludes the engine, transmission, transfer case, harness, computer and tune, driveshafts and fuel system. Corsetti Cruisers fits a new LS3 with a 6L80 in Scouts, with complete builds starting at $65,000. In our October 2026 value check, LS and Vortec restomods led the Scout II market, and the top recent result was a 4.8 Vortec 1978 at $87,500."
+  },
+  {
+   "model": "jeep/cj-7",
+   "note": "Novak Conversions sells LS kits for the CJ-5, CJ-7 and CJ-8 in three levels: $1,787, $3,631 and $4,561 with a 4L60E, or $3,372, $4,706 and $5,264 with an AX15. The engine isn't part of the kits, and Novak lists the 4L60E transmission as a separate add-on. Advance Adapters has bolt-in CJ conversion packages for 1980–86 trucks, including a 4L60E LS engine kit (CP-CJA017-LS, $1,345.09), with transfer-case adapter, engine and crossmember mounts and cooler lines. According to our October 2026 value check, swapped 401, 5.3 and LS CJ-7s sold on Bring a Trailer in the mid-$30k to low-$40k range."
+  },
+  {
+   "model": "jeep/cherokee-xj",
+   "note": "Novak calls the XJ 'the most popular Jeep for LS conversions' and sells kits for 1984–2001 XJs and MJ Comanches: $1,930, $3,832 and $4,823 with a 4L60E, or $3,469 to $8,234 with an AX15. On 4WD Mechanix, Moses Ludel reckoned the Chrysler 8.25-inch rear should handle about 250–275 hp in a light XJ, and suggested upgraded Dana 30 shafts. He also said the swap's legality depends on using a 1998-or-newer engine and emissions package. On NAXJA, one member says his swap passed California inspection through a referee, and says you have to keep the donor's transmission to stay emissions compliant."
+  },
+  {
+   "model": "jeep/tj",
+   "note": "Novak's TJ/LJ kits (1997–2006) cost $1,962, $3,993 and $4,541 with a 4L60E, or $3,532 to $7,987 with an AX15. The automatic kits use a 23-spline adapter from the 4L60E family to the NP231 and related transfer cases. Advance Adapters also sells TJ V8 conversion packages. [[jeep/tj|Our TJ guide]] notes that putting a 4.0 into a four-cylinder TJ costs about as much as a V8 swap, and engine-swapped TJs have sold for up to $57,000 on Bring a Trailer."
+  },
+  {
+   "model": "land-rover/defender-90-110",
+   "note": "Australia's Marks 4WD sells the key adapters for the LT230 transfer case: an LS-to-Land Rover bellhousing for the four- and five-speed manuals (MFK410G3, AUD 1,450 ex tax, shown sold out in October 2026) and a 6L80E-to-LT230 adapter (MFK40200, AUD 1,813.64, or AUD 3,040.91 with engine and chassis mounts). Britain's Billy's Speed Shop sells a complete LS3 and 6L80E kit for 2007–16 Puma Defenders, keeping the LT230 and permanent 4WD, from £27,715 for parts only. ECD Automotive Design builds LS3 Defenders with a six-speed automatic, and also builds manual ones such as its 565-hp LS3 110 Crew Cab. For a US import, [[land-rover/defender-90-110|our Defender guide]] explains why the swap should happen after import, not before. Two LS3-swapped 90s sold on Bring a Trailer for $61,000 and $145,500."
+  },
+  {
+   "model": "range-rover/classic",
+   "note": "ECD Automotive Design offers the LS3, with optional tuning to just under 600 hp, in its Range Rover Classic builds, and the LC9 as a cheaper GM alternative. Marks 4WD's 6L80E and 4L80E adapters to the LT230 transfer case cover the Range Rover too. In our October 2026 value check, ECD LS3/6.2 restomods sold on Bring a Trailer for $115,000–153,000."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Why people do it",
+   "body": [
+    "Power, parts and simplicity, in roughly that order. Corsetti Cruisers says the LS3 makes 430 hp and 425 lb-ft, which is more than double what the IH 304 and 345 V8s made in a Scout. The truck engines (the 4.8, 5.3 and 6.0) are the budget route: in the IH8MUD threads, owners pulled an LM7 5.3 from a donor and a 6.2 L92 from a 2008 Escalade. On 4WD Mechanix, Moses Ludel called a 5.3 'plenty' for an XJ, and suggested the 4.8 as a cheaper option for an XJ or Wrangler.",
+    "The other reason is that someone has already done it. Kit makers sell mounts, adapters and radiators for these trucks off the shelf, and forums such as IH8MUD, NAXJA and IH Parts America have years of build threads. That matters more than horsepower, because what kills a swap is usually the hundred small problems nobody warned you about, and a well-documented swap has fewer of them."
+   ]
+  },
+  {
+   "h": "What it takes",
+   "body": [
+    "Budget for the whole powertrain, not just the engine. Our sources agree that you'll need mounts, a transmission (or an adapter to keep the factory one), a transfer-case adapter, custom driveshafts, a radiator sized for the V8, headers that clear the frame, an EFI fuel system, and a harness and computer. Anything Scout puts it bluntly: the biggest purchases outside its kit are the engine, transmission and transfer case, the harness, computer and tune, the driveshafts and the fuel-system integration.",
+    "Transmission choice drives everything else. Builders on these platforms use GM automatics (4L60E, 4L65E, 4L80E, 6L80, and in one 80 Series a 10L80) or manuals such as the AX15, NV4500 and, in Land Cruisers, the Toyota H55F. Each one changes the transfer-case adapter, the crossmember and the shifter. The IH Parts America moderator notes that a 700R4 bolts straight to an LS, while a Chrysler 727 doesn't.",
+    "Then comes the wiring. You can repin a factory GM harness, as one IH8MUD FJ40 owner did using LT1swap.com diagrams. Or you can buy a standalone harness (that thread mentions Howell and BP Automotive) or an aftermarket ECU such as Holley's Terminator X. Expect to sort out the tach signal, gauges, reverse lights and cruise control. The 80 Series 'Project Wintergreen' thread recalibrated the tach from 3 to 4 pulses per revolution and added a separate reverse-light relay. In an XJ, a NAXJA member planned to send his PCM away to have the GM anti-theft (VATS) disabled.",
+    "Plan for clearance fights. FJ40 owners on IH8MUD report driveline-angle and transmission-pan clearance problems that meant shifting the engine and transfer case. In 'FZJ80 becomes LSJ80', the 80 Series needed a Camaro oil pan and pickup and an adjusted pickup fit. 'Project Wintergreen' needed tight headers and -6 AN lines where the hard cooler lines wouldn't clear the sway bar."
+   ]
+  },
+  {
+   "h": "Parts and kits",
+   "body": [
+    "Land Cruisers: Advance Adapters makes the FJ40 LS1 mount kit, LS radiators for the FJ40 and FJ60/62, and GM-to-Toyota bellhousings. Australia's Marks 4WD makes the GM automatic adapters for 80 and 100 Series transfer cases and a wide range of LS conversion parts. Torfab and Cruiser Matt's mounts appear in IH8MUD 80 Series builds. Corsetti Cruisers does turnkey LS3, LT1 and LT4 E-ROD conversions.",
+    "Jeeps: Novak Conversions sells configured LS kits for the CJ, XJ/MJ and TJ/LJ at three levels (Foundation, Essential and Complete) for automatic and manual builds. Advance Adapters sells CJ and TJ conversion packages and mounts. Scouts: Anything Scout's complete LS kit is the closest thing to a bolt-together Scout II swap. Land Rovers: Marks 4WD's LT230 adapters and Billy's Speed Shop's complete Puma Defender kit cover the hard part, and ECD builds turnkey LS3 Defenders and Range Rover Classics.",
+    "The early Bronco is missing on purpose. Wild Horses' early Bronco swap guide covers Ford engines up to the Coyote and doesn't mention an LS. For that truck, see our Coyote swap guide."
+   ]
+  },
+  {
+   "h": "Emissions and registration",
+   "body": [
+    "Federal rules: the EPA's 1991 engine-switching fact sheet says installing a light-duty engine in a different light-duty vehicle counts as tampering unless the result is identical to a certified configuration of the same or newer model year as the vehicle chassis. It also says a heavy-duty engine may never be installed in a light-duty vehicle, and the Clean Air Act prohibits removing or disabling any emission control device. In practice, that means using a newer engine and keeping its emissions equipment.",
+    "California is stricter and better documented. BAR's Engine Change Guidelines (Appendix D of the Smog Check Reference Guide) say the installed engine must be the same model year or newer than the vehicle, that the donor and recipient must share the same vehicle and engine classification, and that all of the donor's emissions systems, including evaporative system monitoring, must be installed. Every engine-changed vehicle must pass a BAR Referee inspection and wear a Referee label under the hood, and BAR says that first inspection follows the donor vehicle's Smog Check requirements. The same guide lists 1975-and-older gasoline vehicles as exempt from Smog Check, which covers many FJ40s, CJs and Scouts.",
+    "The easy way in California is a CARB-exempted package. Executive Order D-126-30 (October 2010) covers GM's LS3 E-ROD kit, a complete engine and emissions package, for all 1995-and-older passenger cars and light-duty truck 1 vehicles. BAR warns that exempted packages are 'restricted to specific applications' and must not go into vehicles the exemption doesn't cover. Check the executive order against your truck's classification before you buy. Corsetti Cruisers, for example, says the FZJ80 dropped out of the E-ROD route in January 2022.",
+    "If you're importing a gray-market truck, do the swap after import. [[land-rover/defender-90-110|Our Defender guide]] explains that the EPA's 21-year exemption only covers vehicles in their original configuration."
+   ]
+  },
+  {
+   "h": "What it costs",
+   "body": [
+    "The parts kits are the cheap part. Based on October 2026 list prices, the Jeep kits from Novak run from $1,787 (CJ, 4L60E, Foundation) to $8,234 (XJ, AX15, Complete), and Advance Adapters' 1980–86 CJ LS package is $1,345. Anything Scout's Scout II kit is $3,669–4,639. On the Land Cruiser side, an FJ40 mount kit and LS radiator from Advance Adapters come to about $820, and the 4L60E-to-80 Series transfer-case adapter is $2,009. None of those prices include the engine, transmission, harness, tune, driveshafts or exhaust.",
+    "Some other numbers to plan with: an IH8MUD poster says Howell quoted him $700 for a harness and $200 for an ECU flash. On 4WD Mechanix, a 2014 estimate put the XJ parts beyond the engine, transmission and transfer case at $2,000–2,500, and the poster expected it to have risen. For a Puma Defender, Billy's Speed Shop's complete kit including a new LS3 starts at £27,715.",
+    "If someone else does the work: Corsetti Cruisers' motor-swap packages start at $55,000, its LS3 conversions for the 60 and 80 Series were estimated at $70,000–90,000 in 2023, and its complete Scout builds start at $65,000. Bear in mind that resale doesn't always follow. According to our October 2026 value check, V8-swapped FJ40s sold for less than stock ones, while swapped FJ62s and LS3 Defenders sold for more."
+   ]
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "Advance Adapters",
+   "url": "https://www.advanceadapters.com/",
+   "what": "Land Cruiser LS1 mount kits, LS radiators and GM-to-Toyota bellhousings; Jeep CJ and TJ V8 conversion packages"
+  },
+  {
+   "name": "Marks 4WD",
+   "url": "https://www.marks4wd.com/",
+   "what": "GM automatic-to-Toyota and LT230 transfer-case adapters, LS-to-Land Rover bellhousings and LS conversion parts"
+  },
+  {
+   "name": "Novak Conversions",
+   "url": "https://www.novak-adapt.com/",
+   "what": "configured LS swap kits for the Jeep CJ, XJ/MJ and TJ/LJ"
+  },
+  {
+   "name": "Anything Scout",
+   "url": "https://anythingscout.com/products/complete-kit-ls-swap",
+   "what": "complete LS swap kit for the Scout II"
+  },
+  {
+   "name": "Corsetti Cruisers",
+   "url": "https://www.corsetticruisers.com/motor-swap",
+   "what": "turnkey LS3, LT1 and LT4 E-ROD conversions for Land Cruisers and Scouts"
+  },
+  {
+   "name": "Billy's Speed Shop",
+   "url": "https://billysspeedshop.com/products/complete-ls3-and-6l80-conversion-kit-for-defender-90-and-110-puma",
+   "what": "complete LS3/6L80E kit for 2007–16 Puma Defenders (UK)"
+  },
+  {
+   "name": "ECD Automotive Design",
+   "url": "https://ecdautodesign.com/defender-engine-swap/",
+   "what": "turnkey LS3 Defender and Range Rover Classic builds"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Which LS should I use?",
+   "a": "For a budget build, use a junkyard truck engine. Owners in these threads use the 4.8, 5.3 (LM7) and 6.0, and Moses Ludel suggests the 4.8 as a cheaper option for an XJ or Wrangler. If you want a warranty or need California emissions compliance, a new LS3 E-ROD comes as a complete engine and emissions package with a CARB executive order (D-126-30) for 1995-and-older passenger cars and light-duty truck 1 vehicles."
+  },
+  {
+   "q": "Can I keep my factory transmission and transfer case?",
+   "a": "Often, yes. Advance Adapters makes a bellhousing that bolts LS engines to the Land Cruiser H41/H42 four-speeds, and Marks 4WD makes LS bellhousings for the Land Rover manuals. Novak and Anything Scout kits work with NP231/NP241, Dana 300 and Atlas transfer cases. In California, though, a NAXJA member says that to stay emissions compliant you have to keep the donor's transmission."
+  },
+  {
+   "q": "Is an LS swap legal in California?",
+   "a": "It can be. BAR requires the engine to be the same model year or newer than the vehicle, of the same vehicle and engine class, with all of the donor's emissions equipment fitted, and the truck has to pass a BAR Referee inspection. A CARB-exempted package such as the LS3 E-ROD makes it easier, but only in the vehicles its executive order covers. BAR lists 1975-and-older gasoline vehicles as exempt from Smog Check."
+  },
+  {
+   "q": "Will an LS swap make my truck worth more?",
+   "a": "Not necessarily, and we won't predict values. In our October 2026 value check, V8-swapped FJ40s sold for a lower median than stock ones on Bring a Trailer. Swapped FJ62s, LS3 Defenders and LS-powered Scout IIs sat at or near the top of their markets."
+  },
+  {
+   "q": "What breaks behind an LS?",
+   "a": "Usually whatever was barely coping with the old engine. On 4WD Mechanix, Moses Ludel reckoned an XJ's 8.25-inch rear is good for about 250–275 hp in a light truck and suggested upgraded Dana 30 shafts. In an 80 Series LM7/4L60E build thread, one owner running the same combination called it 'a little over geared' at highway speed, and another suggested regearing."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Advance Adapters — Toyota Land Cruiser motor mounts",
+   "url": "https://www.advanceadapters.com/toyota-land-cruiser-mounts-2"
+  },
+  {
+   "name": "Advance Adapters — Toyota Land Cruiser FJ40 & FJ60 radiators",
+   "url": "https://www.advanceadapters.com/toyota-land-cruiser-fj40-fj60"
+  },
+  {
+   "name": "Advance Adapters — Jeep CJ V8 conversion packages",
+   "url": "https://www.advanceadapters.com/jeep-cj-packages-2"
+  },
+  {
+   "name": "Advance Adapters — Jeep TJ conversion packages",
+   "url": "https://www.advanceadapters.com/jeep-tj-packages-2"
+  },
+  {
+   "name": "BTB Products — GM V6 & V8 engine to 1974–1990 Toyota Land Cruiser transmission adapter kit (Advance Adapters 712532)",
+   "url": "https://btbprod.com/product/gm-small-block-v8-engine-to-1974-1990-toyota-land-cruiser-transmission-adapter-kit/"
+  },
+  {
+   "name": "BTB Products — GM 4L60E to 1990–2002 Toyota Land Cruiser transfer case adapter kit (50-0420)",
+   "url": "https://btbprod.com/?p=38350"
+  },
+  {
+   "name": "Marks 4WD — Land Rover automatic conversion parts",
+   "url": "https://www.marks4wd.com/engine-conversion/by-vehicle/land-rover/land-rover-automatic-conversion/"
+  },
+  {
+   "name": "Marks 4WD — Land Rover manual conversion parts",
+   "url": "https://www.marks4wd.com/engine-conversion/by-vehicle/land-rover/land-rover-manual-conversion/"
+  },
+  {
+   "name": "Novak Conversions — Jeep CJ LS swap kit",
+   "url": "https://www.novak-adapt.com/catalog/turnkey-powertrains/cj-v8-swap-kit.html"
+  },
+  {
+   "name": "Novak Conversions — XJ/MJ LS swap kit",
+   "url": "https://www.novak-adapt.com/catalog/turnkey-powertrains/xj-v8-swap-kit.html"
+  },
+  {
+   "name": "Novak Conversions — TJ/LJ LS swap kit",
+   "url": "https://www.novak-adapt.com/catalog/turnkey-powertrains/tj-v8-swap-kit.html"
+  },
+  {
+   "name": "Anything Scout — Complete Kit, LS Swap Scout II",
+   "url": "https://anythingscout.com/products/complete-kit-ls-swap"
+  },
+  {
+   "name": "Corsetti Cruisers — LS3 conversion: 60, 62 & 80 Series Land Cruiser",
+   "url": "https://www.corsetticruisers.com/post/ls3-conversion-into-a-land-cruiser-fj60-fj62-or-80-series"
+  },
+  {
+   "name": "Corsetti Cruisers — Motor swap options",
+   "url": "https://www.corsetticruisers.com/motor-swap"
+  },
+  {
+   "name": "Corsetti Cruisers — FJ62 LS3 conversion",
+   "url": "https://www.corsetticruisers.com/toyota-land-cruiser-fj62-ls3-conversion"
+  },
+  {
+   "name": "Corsetti Cruisers — Why the LS3 swap is the perfect upgrade for International Scouts",
+   "url": "https://www.corsetticruisers.com/post/why-the-ls3-engine-swap-is-the-perfect-upgrade-for-international-scouts"
+  },
+  {
+   "name": "Billy's Speed Shop — Complete LS3 and 6L80 conversion kit for Defender 90 and 110 Puma",
+   "url": "https://billysspeedshop.com/products/complete-ls3-and-6l80-conversion-kit-for-defender-90-and-110-puma"
+  },
+  {
+   "name": "ECD Automotive Design — Defender engine swap",
+   "url": "https://ecdautodesign.com/defender-engine-swap/"
+  },
+  {
+   "name": "ECD Automotive Design — LS3 Defender 110 Crew Cab (Project Burning Green)",
+   "url": "https://ecdautodesign.com/blog/defender-110-crew-cab-ls3/"
+  },
+  {
+   "name": "ECD Automotive Design — Engine options for the Range Rover Classic",
+   "url": "https://ecdautodesign.com/blog/engine-options-range-rover-classic/"
+  },
+  {
+   "name": "IH8MUD — FJ40 LS Swap? (2026)",
+   "url": "https://forum.ih8mud.com/threads/fj40-ls-swap.1375797/"
+  },
+  {
+   "name": "IH8MUD — FZJ80 becomes LSJ80",
+   "url": "https://forum.ih8mud.com/threads/fzj80-becomes-lsj80.1342529/"
+  },
+  {
+   "name": "IH8MUD — Project Wintergreen: '97 FZJ80 Gen V 6.2 swap",
+   "url": "https://forum.ih8mud.com/threads/project-wintergreen-97-fzj80-gen-v-6-2-swap-richmond-va.1339191/"
+  },
+  {
+   "name": "IH Parts America forums — LS swap into Scout II",
+   "url": "https://forums.ihpartsamerica.com/threads/ls-swap-into-scout-ii.9065/latest"
+  },
+  {
+   "name": "4WD Mechanix forum — Novak 5.3 LS V-8 to XJ Cherokee swap package",
+   "url": "https://forums.4wdmechanix.com/topic/267-anyone-done-a-novak-53-ls-v-8-to-xj-cherokee-swap-package/"
+  },
+  {
+   "name": "NAXJA — LS swap into 2001 XJ",
+   "url": "https://naxja.org/threads/ls-swap-into-2001-xj.1154552"
+  },
+  {
+   "name": "Wild Horses 4x4 — Early Bronco engine swaps",
+   "url": "https://www.wildhorses4x4.com/early-bronco-engine-swaps"
+  },
+  {
+   "name": "EPA — Engine switching fact sheet (1991)",
+   "url": "https://www.epa.gov/sites/default/files/documents/engswitch_0.pdf"
+  },
+  {
+   "name": "California BAR — Engine changes",
+   "url": "https://www.bar.ca.gov/engine-changes"
+  },
+  {
+   "name": "California BAR — Smog Check Reference Guide (Appendix D: Engine Change Guidelines; Section 1.1.5 exemptions)",
+   "url": "https://www.bar.ca.gov/pdf/smog-check-reference-guide.pdf"
+  },
+  {
+   "name": "CARB — Executive Order D-126-30, GM LS3 6.2L E-ROD kit",
+   "url": "https://ww2.arb.ca.gov/sites/default/files/aftermarket/devices/eo/d-126-30.pdf"
+  },
+  {
+   "name": "Chevy Hardcore — SEMA 2017: Chevy Performance E-Rod",
+   "url": "https://www.chevyhardcore.com/features/sema-2017-chevy-performance-e-rod-perfect-for-california-corvettes/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser FJ40 results",
+   "url": "https://bringatrailer.com/toyota/fj40/"
+  },
+  {
+   "name": "Bring a Trailer — Toyota Land Cruiser 60-Series results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj60-fj62/"
+  },
+  {
+   "name": "Bring a Trailer — International Harvester Scout II auction results",
+   "url": "https://bringatrailer.com/international-harvester/scout-ii/"
+  },
+  {
+   "name": "Bring a Trailer — Jeep CJ-7 sold results",
+   "url": "https://bringatrailer.com/jeep/cj-7/"
+  },
+  {
+   "name": "Bring a Trailer — Jeep Wrangler TJ (1997–2006) results",
+   "url": "https://bringatrailer.com/jeep/wrangler-tj/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover 90 and Defender 90 (Euro-spec) results",
+   "url": "https://bringatrailer.com/land-rover/90-and-defender-90-euro-spec/"
+  },
+  {
+   "name": "Bring a Trailer — Range Rover Classic (completed auctions)",
+   "url": "https://bringatrailer.com/land-rover/range-rover-classic/"
+  },
+  {
+   "name": "EPA — Form 3520-1 (Importation of Motor Vehicles), exemption code E",
+   "url": "https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf"
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "fitment": {
+  "stock": [
+   "LT315/70R17 (GM 2003 spec sheet; about 35 in)",
+   "325/50R22 (22-inch factory option, per Limitless Tire)"
+  ],
+  "wheel": {
+   "bolt_pattern": "8x165.1 (8x6.5\")",
+   "center_bore": "117 mm",
+   "lug_thread": "M14x1.5",
+   "lug_torque": "140 lb-ft (190 N·m)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "37x12.50R17",
+    "note": "On stock wheels or the same offset. One owner runs them at stock height with a slight torsion-bar crank and doesn't rub at full stuff, apart from a scrub on the sway bar at full lock (stock 35s do the same). 37x14.50s didn't fit."
+   },
+   {
+    "lift": "≈2 in (leveling / torsion keys)",
+    "size": "38 in",
+    "note": "One owner runs 38s with no lift and a leveling kit; another used GM's 'green' torsion keys to gain about 2 in up front for 38s. Owners warn cranked torsion bars ride harder and wear the steering linkage faster."
+   },
+   {
+    "lift": "4 in suspension (+1 in body)",
+    "size": "37–38 in",
+    "note": "Owners report 37s on a 4-in Rancho lift with a 1-in body lift, and 38-in Mickey Thompson Baja MTZs on a 4-in Rancho."
+   },
+   {
+    "lift": "6 in",
+    "size": "40x13.50",
+    "note": "Fabtech 6-in lifts on 40s are common. Owners recommend wheels with 4.5-in backspacing. The lift drops the torsion bars and crossmember lower under the truck."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Windshield wiper motor failure",
+    "years": "2003",
+    "ref": "NHTSA 02V283000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=02V283000",
+    "summary": "Improperly manufactured wiper motors could fail, reducing visibility in bad weather."
+   },
+   {
+    "title": "Ignition key / shift lever override",
+    "years": "2003",
+    "ref": "NHTSA 03V075000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=03V075000",
+    "summary": "Mechanical overrides let the key come out or the shifter leave Park in ways FMVSS 114 doesn't allow without a locking column."
+   },
+   {
+    "title": "Hydro-boost relief valve bore",
+    "years": "2003–2004",
+    "ref": "NHTSA 04V045000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V045000",
+    "summary": "An out-of-spec relief valve bore in the Hydro-boost brake housing could fracture its O-ring seal, slightly increasing steering and brake effort."
+   },
+   {
+    "title": "Hydro-boost accumulator cracking",
+    "years": "2004–2005",
+    "ref": "NHTSA 05V043000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V043000",
+    "summary": "The Bosch Hydro-boost pressure accumulator could crack and separate; fragments could injure people near the engine bay with the hood open."
+   },
+   {
+    "title": "Second-row center seat belt routing",
+    "years": "2004–2005",
+    "ref": "NHTSA 05V163000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V163000",
+    "summary": "The center rear lap belt may not sit low across the hips; owner's manual guidance was updated."
+   },
+   {
+    "title": "Power steering hose",
+    "years": "2006",
+    "ref": "NHTSA 05V455000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V455000",
+    "summary": "An out-of-spec hose could fracture at full lock while braking, losing power steering and, with Hydro-boost, power brake assist."
+   },
+   {
+    "title": "Tire and loading label",
+    "years": "2006",
+    "ref": "NHTSA 05V552000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=05V552000",
+    "summary": "Labels listed an incorrect vehicle capacity weight (FMVSS 110)."
+   },
+   {
+    "title": "ABS wheel-speed sensor wiring",
+    "years": "2008",
+    "ref": "NHTSA 07V373000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=07V373000",
+    "summary": "The front or rear ABS sensor harness wires may be reversed, which can lengthen stopping distances."
+   },
+   {
+    "title": "Heated washer fluid module (first campaign)",
+    "years": "2006–2008",
+    "ref": "NHTSA 08V441000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V441000",
+    "summary": "A short on the washer-heater circuit board could overheat its ground wire; the fix added a fuse."
+   },
+   {
+    "title": "Water in the wiper motor module",
+    "years": "2003",
+    "ref": "NHTSA 08V456000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=08V456000",
+    "summary": "On 13,358 model-year 2003 H2s, water could get into the wiper motor module and make the wipers intermittent or stop them working."
+   },
+   {
+    "title": "Heated washer fluid module (second campaign)",
+    "years": "2006–2009",
+    "ref": "NHTSA 10V240000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=10V240000",
+    "summary": "New thermal incidents after the 2008 fix; the heated washer module could melt or catch fire."
+   },
+   {
+    "title": "Fabtech aftermarket pitman arms",
+    "years": "2003–2006 (aftermarket part)",
+    "ref": "NHTSA 06E010000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=06E010000",
+    "summary": "An equipment recall for Fabtech pitman arms FTS71000 and FTS71001: the internal pin can shear and cause total loss of steering. Check any lifted truck that has them."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1999",
+   "change": "In December, GM buys the Hummer name from AM General; AM General keeps building the trucks",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "GM shows the H2 concept, which has independent rear suspension that the production truck drops",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "The H2 SUT pickup concept, with an Avalanche-style Midgate, is shown at the New York auto show",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "The production H2 goes on sale in 2002 as a 2003 model, built by AM General in Mishawaka: 6.0 L LQ4 V8, 4L65-E four-speed, BorgWarner 44-84 full-time transfer case, standard Eaton rear ELocker, 4.10 axles",
+   "flag": "note"
+  },
+  {
+   "year": "2003",
+   "change": "First-year recalls: two wiper-motor campaigns (02V283000, 08V456000), the key and shifter override (03V075000) and the Hydro-boost relief valve (04V045000, also 2004)",
+   "flag": "recall"
+  },
+  {
+   "year": "2004–2005",
+   "change": "Hydro-boost accumulator (05V043000) and second-row center seat belt routing (05V163000) recalls",
+   "flag": "recall"
+  },
+  {
+   "year": "2005",
+   "change": "The H2 SUT pickup goes on sale; the 6.0 is now rated at 325 hp and 365 lb-ft",
+   "flag": "note"
+  },
+  {
+   "year": "2005–2007",
+   "change": "Owners say the front diff was strengthened and build quality improved from mid-2005; one owner would choose a 2005.5–07 truck over a 2003",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "Avtotor begins licensed H2 assembly in Kaliningrad, Russia (to 2009). Power steering hose recall 05V455000",
+   "flag": "note"
+  },
+  {
+   "year": "2006–2009",
+   "change": "Heated washer fluid module recalls (08V441000, then 10V240000 after new fire reports)",
+   "flag": "recall"
+  },
+  {
+   "year": "2008",
+   "change": "Major update: 6.2 L L92 V8 (393 hp, 415 lb-ft), 6L80 six-speed, towing up to 8,000 lb, crawl ratio about 39:1, stronger transfer case, quicker steering, new interior with a rotary 4WD dial, curtain airbags and panic brake assist. Owners call the 2008–09 trucks the most refined H2s",
+   "flag": "buy"
+  },
+  {
+   "year": "2009",
+   "change": "Last year. Production ends as GM tries to sell Hummer; the planned Black Chrome Limited Edition stops at six trucks, according to Wikipedia",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every H2 is a GM-engineered, AM General-built truck, but 2008–09 trucks have a different engine, transmission, interior and some chassis parts. Many trucks have also been lifted, converted from air springs to coils or re-engined, so check what you're looking at.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "US H2 VINs begin 5GR (for example 5GRGN23U73H135443, a 2003 sold on Bring a Trailer). The owner's manual says the 8th character is the engine code: U is the 6.0 VORTEC 6000 (2004 manual) and 8 is the 6.2 (2008 manual). The 10th character is the model year."
+   },
+   {
+    "head": "2003–07 vs 2008–09",
+    "body": "2008–09 trucks have larger grille openings, a bigger lower grille and silver-painted lower bumpers (earlier trucks' are black). Inside, the dash and gauges are new and a rotary dial replaces the 4WD push buttons."
+   },
+   {
+    "head": "SUT",
+    "body": "The pickup has a short bed, a power Midgate window and a folding Midgate, an outside swing-away spare, and extra taillights in the lower rear bumper."
+   },
+   {
+    "head": "Options label",
+    "body": "The Service Parts Identification label in the glovebox lists the VIN, paint and every production option. Look for ZM6, the GM option code for the self-leveling rear air suspension."
+   },
+   {
+    "head": "Parts that changed in 2008",
+    "body": "Front hub bearings differ between 2003–07 and 2008–09 trucks (Kryptonite lists separate parts). Owners say the transfer case input spline also changed, because the 6L80's output shaft differs from the four-speed's."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "7,000 lb (3,182 kg) 2003 · 8,000 lb (3,629 kg) 2008–09",
+   "note": "GM figures; GM's 2008 release gives the outgoing truck's rating as 6,500 lb"
+  },
+  {
+   "k": "GVWR",
+   "v": "8,600 lb (3,901 kg)",
+   "note": "2003 GM spec"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "32.0 US gal (121 L)",
+   "note": "Owner's manual"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "10.0 in (254 mm) coil · 10.5 in (267 mm) air",
+   "note": "9.9 in under the differentials; 2003 GM spec"
+  },
+  {
+   "k": "Approach / departure / breakover",
+   "v": "40.4° / 39.6° / 25.8° (coil)",
+   "note": "41.7° / 38.1° / 26.6° with air suspension (GM). Car and Driver quoted 43.6° approach on the off-road package's LT315s"
+  },
+  {
+   "k": "Wading depth",
+   "v": "24 in (508 mm)",
+   "note": "GM, 2008 H2 announcement"
+  },
+  {
+   "k": "Step climb",
+   "v": "16 in (406 mm)",
+   "note": "GM, 2008 H2 announcement"
+  },
+  {
+   "k": "Grade / side slope",
+   "v": "60% / 40%",
+   "note": "2003 GM spec"
+  },
+  {
+   "k": "Crawl ratio",
+   "v": "33:1 (4L65-E) · about 39:1 (6L80)",
+   "note": "2.64:1 low range, 4.10 axles"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "Not EPA-rated",
+   "note": "Exempt because GVWR is over 8,500 lb. Tested: 9–10.8 mpg (Car and Driver, Motor Trend, Edmunds, Four Wheeler)"
+  },
+  {
+   "k": "Curb weight",
+   "v": "6,400 lb (2,909 kg) 6.0 · 6,614 lb (3,000 kg) 6.2",
+   "note": "GM spec · Wikipedia"
+  },
+  {
+   "k": "Turning circle",
+   "v": "43.5 ft (13.5 m) curb to curb",
+   "note": "2003 GM spec"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "H2s are still affordable, but clean, unmodified, low-mile trucks, especially 2008–09s, now bring real money. Owners say untouched late trucks are getting hard to find.",
+  "ranges": [
+   {
+    "cond": "Project / high miles or modified",
+    "range": "$10k–16k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$17k–27k"
+   },
+   {
+    "cond": "Excellent / low-mile, especially 2008–09",
+    "range": "$30k–62k"
+   }
+  ],
+  "note": "Based on 18 Bring a Trailer H2 sales, May–October 2026: from $10,500 for a 2004 to $61,500 for a 10,000-mile 2008. Supercharged trucks brought $26k–43k. Several others, including a 2008 bid to $31,000, didn't meet reserve."
+ },
+ "docs": [
+  {
+   "name": "Helm Inc. — GM factory service manuals and owner's literature",
+   "url": "https://www.helminc.com/",
+   "note": "The publications supplier the H2 owner's manual itself names for factory service manuals"
+  },
+  {
+   "name": "ACDelco TDS — GM service information subscription",
+   "url": "https://www.acdelcotds.com/",
+   "note": "GM's official paid portal for service information on older GM vehicles"
+  },
+  {
+   "name": "Hummer H2 owner's manuals (GM, 2003–2009)",
+   "note": "The capacities, fluids, maintenance schedule, 4WD and locker sections are worth having; buy a printed original or a Helm reprint"
+  }
+ ],
+ "production": {
+  "intro": "AM General built the H2 for GM in a plant that opened in Mishawaka, Indiana, in 2002. GM said the plant could build 40,000 a year; Avtotor also assembled H2s in Russia from 2006 to 2009.",
+  "items": [
+   {
+    "k": "US sales (GM, by calendar year)",
+    "v": "2002 18,861 · 2003 34,529 · 2004 29,898 · 2005 33,140 · 2006 17,472 · 2007 12,431 · 2008 6,095 · 2009 1,513"
+   },
+   {
+    "k": "US sales total",
+    "v": "153,026"
+   },
+   {
+    "k": "Assembly",
+    "v": "AM General, Mishawaka, Indiana (2002–2009); Avtotor, Kaliningrad, Russia (2006–2009)"
+   },
+   {
+    "k": "Plant after the H2",
+    "v": "Sold to SF Motors, an electric-vehicle maker, in 2017"
+   }
+  ],
+  "editions": [
+   {
+    "name": "H2 SUT",
+    "years": "2005–2009",
+    "note": "Sport Utility Truck: short bed, Midgate, outside spare"
+   },
+   {
+    "name": "Victory Red Limited Edition",
+    "years": "2004",
+    "note": "A named limited edition that appears in Bring a Trailer results; production numbers not found"
+   },
+   {
+    "name": "Black Chrome Limited Edition",
+    "years": "2009",
+    "note": "Sedona Metallic paint and interior with black-chrome trim and 20-in wheels. 1,000–1,300 were planned, but Wikipedia says only six were built and none went on sale to the public"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "The Hummer Club Inc.",
+   "url": "https://www.thehummerclubinc.com/Default.aspx",
+   "note": "National Hummer owners' club with trail events for every Hummer model"
+  },
+  {
+   "kind": "event",
+   "name": "Hummer Club — Uwharrie Winter 2026",
+   "url": "https://www.thehummerclubinc.com/Events/Events.aspx?M=U",
+   "note": "Club off-road event in Uwharrie, North Carolina, December 4–5, 2026"
+  },
+  {
+   "kind": "club",
+   "name": "Hummer4x4Offroad",
+   "url": "https://www.hummer4x4offroad.com/forum/forums/hummer-h2-2003-2009.16/",
+   "note": "Owners' forum with an H2 board, regional groups and trip reports (Moab, Rausch Creek)"
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — Recalls API, Hummer H2 2003–2009",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=HUMMER&model=H2&modelYear=2003"
+  },
+  {
+   "name": "Wikipedia — Hummer H2",
+   "url": "https://en.wikipedia.org/wiki/Hummer_H2"
+  },
+  {
+   "name": "Wikipedia — Hummer",
+   "url": "https://en.wikipedia.org/wiki/Hummer"
+  },
+  {
+   "name": "Off-Road.com — 2003 Hummer H2 specifications (GM data)",
+   "url": "https://off-road.com/trucks-4x4/news/2003-hummer-h2-specifications-29694.html"
+  },
+  {
+   "name": "RockCrawler.com — 2008 Hummer H2 announcement (GM release)",
+   "url": "https://rockcrawler.com/features/newsshorts/07march/hummer/h2.asp"
+  },
+  {
+   "name": "RockCrawler.com — 2003 Hummer H2 technical briefing",
+   "url": "https://www.rockcrawler.com/reviews/hummer/h2/2003_tech_briefing/page3.asp"
+  },
+  {
+   "name": "Car and Driver — 2003 Hummer H2 first drive",
+   "url": "https://www.caranddriver.com/reviews/a15137327/2003-hummer-h2-first-drive-review/"
+  },
+  {
+   "name": "Car and Driver — Tested: 2003 Hummer H2",
+   "url": "https://www.caranddriver.com/reviews/a15146099/hummer-h2-road-test/"
+  },
+  {
+   "name": "Car and Driver — Hummer H2 SUT first drive",
+   "url": "https://www.caranddriver.com/reviews/a15132351/hummer-h2-sut-first-drive-review/"
+  },
+  {
+   "name": "Chicago Tribune — GM tames Hummer with H2 concept",
+   "url": "https://www.chicagotribune.com/2001/04/12/gm-tames-hummer-with-h2-concept/"
+  },
+  {
+   "name": "2004 Hummer H2 Owner's Manual (GM)"
+  },
+  {
+   "name": "2008 Hummer H2 Owner's Manual (GM)"
+  },
+  {
+   "name": "Limitless Tire — 2006 Hummer H2 wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/hummer/h2/2006/"
+  },
+  {
+   "name": "Limitless Tire — 2008 Hummer H2 wheel & tire sizes",
+   "url": "https://limitlesstire.com/vehicles/hummer/h2/2008/"
+  },
+  {
+   "name": "Kryptonite — 2002–2009 Hummer H2 parts (bearing fitment by year)",
+   "url": "https://kryptoniteproducts.com/collections/2002-2009-hummer-h2"
+  },
+  {
+   "name": "Hummer4x4Offroad — Tire Size",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/tire-size.9289/"
+  },
+  {
+   "name": "Hummer4x4Offroad — Show your H2 lift/tires",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/show-your-h2-lift-tires.10562/"
+  },
+  {
+   "name": "Hummer4x4Offroad — Cranking the torsion bars on an H2?",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/cranking-the-torsion-bars-on-an-h2.3204/"
+  },
+  {
+   "name": "Hummer4x4Offroad — Question time: 03 H2 vs 09 SUT",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/question-time-03-h2-vs-09-sut.14461/"
+  },
+  {
+   "name": "Hummer4x4Offroad — H2 2008 2009",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/h2-2008-2009.12037/"
+  },
+  {
+   "name": "Hummer4x4Offroad — Did the H2 ever have a single-speed t-case?",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/did-the-h2-ever-have-a-single-speed-t-case.16579/"
+  },
+  {
+   "name": "Hummer4x4Offroad — H2 purchase advice (2009 pricing)",
+   "url": "https://www.hummer4x4offroad.com/forum/threads/h2-purchase-need-advise-before-pulling-the-trigger.13555/"
+  },
+  {
+   "name": "Bring a Trailer — Hummer H2 results",
+   "url": "https://bringatrailer.com/hummer/h2/"
+  },
+  {
+   "name": "Bring a Trailer — 37k-mile 2003 Hummer H2 (VIN example)",
+   "url": "https://bringatrailer.com/listing/2003-hummer-h2-137/"
+  },
+  {
+   "name": "The Hummer Club — Upcoming events",
+   "url": "https://www.thehummerclubinc.com/Events/Events.aspx?M=U"
+  }
+ ]
+}

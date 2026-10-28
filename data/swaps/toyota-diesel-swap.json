@@ -1,0 +1,211 @@
+{
+ "slug": "toyota-diesel-swap",
+ "title": "Toyota 1HZ and 1HD diesel swaps in Land Cruisers",
+ "engine": "Toyota 1HZ (4.2 L I6, non-turbo) and 1HD-T / 1HD-FT / 1HD-FTE (4.2 L I6 turbodiesel)",
+ "description": "Putting Toyota's own 4.2-litre diesels into FJ40s, FJ60s, 80s and other Cruisers: gearboxes, mounts, wiring, emissions and real-world costs.",
+ "lead": [
+  "Most American Land Cruisers left the factory with a petrol six because that's what Toyota sold here. Most of the rest of the world got diesels, and the 4.2-litre 1HZ and its turbocharged 1HD cousins are the ones owners in the US most want back. Putting a Toyota diesel in a Toyota feels less like a swap and more like a correction.",
+  "It is not a bolt-in job, though. The engines were never sold in US Cruisers, so there's no American kit catalogue, no US-certified configuration to point at, and a lot of the know-how lives in IH8MUD threads and Australian parts shops. Done properly, you end up with a truck that sounds right and uses Toyota bits throughout. Done badly, you end up with a lump of cast iron and a wiring diagram you can't read."
+ ],
+ "trucks": [
+  {
+   "model": "land-cruiser/fj40",
+   "note": "The classic route is a 1HZ or 1HD-T backed by an H55F five-speed. The H55F needs the bellhousing and input shaft from a 1HZ-powered 70 Series, because the 3F, 2H and 3B versions have different inputs. One IH8MUD parts list for a 1HD-T and H55F FJ40 conversion used an HJ47 crossmember and warns that a 60 Series crossmember drops the gearbox by an inch or more, which ruins driveshaft angles and fan alignment. A 1978 FJ40 owner fabricated his own frame brackets and lowered and offset the radiator to clear the fan. A forum member also sells a mount and crossmember kit for the 1HZ conversion."
+  },
+  {
+   "model": "land-cruiser/fj60",
+   "note": "An FJ60 with an H55F already has the right gearbox, but it still needs the 1HZ-pattern bellhousing and input shaft. An IH8MUD member who did the job called the input-shaft swap the hardest part. In a 2017 thread, Toyota diesel engine and gearbox combinations were running $6,000 and up, and the replies favoured Toyota engines over Isuzu or Cummins for resale. A 1HZ-powered HJ60 high-roof sold on Bring a Trailer for $20,250 in April 2025."
+  },
+  {
+   "model": "land-cruiser/80-series",
+   "note": "This is the easiest home for a 1HD, because the 80 was built with petrol and diesel engines. Owners say the factory engine mounts, radiator, pedals and airbox all carry over (the airbox needs a turbo lid). The jobs are a diesel tach or cluster, a 12-volt starter in place of the usual 24-volt diesel unit, the fuel supply and return lines, and a gearbox. The H151 manual has a 14-spline input and the 1HZ-only H150 has 21 splines. One BC owner ran a 1HD-T with an A442F automatic and reported about 20.8 mpg on a road trip. Proffitt's Resurrection Land Cruisers has built 1HD-FT 80 Series conversions."
+  },
+  {
+   "model": "land-cruiser/70-series",
+   "note": "Here the swap usually means upgrading a factory 1HZ to a 1HD-FTE. In an IH8MUD thread on an HZJ79, the electronic, fly-by-wire FTE was described as manageable with a complete donor harness and a pain without one. Members recommended swapping the engine and gearbox together, because the H150F behind the factory 1HD is stronger than an R151, which can fail under turbo torque."
+  },
+  {
+   "model": "land-cruiser/100-series",
+   "note": "This applies only to the solid-axle HZJ105, which wasn't sold in the US. Australian owners convert the factory 1HZ to a 1HD-FTE from an HDJ100, and an ExplorOz thread lays out the work: the donor's wiring loom merged with the HZJ harness, the 1HZ sump and engine mounts moved onto the 1HD-FTE, and an H150 or H151 for manual trucks. Australian suppliers sell bolt-on parts for the conversion, including HD Automotive engine brackets and an HPD intercooler kit."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Why people do it",
+   "body": [
+    "Torque, sound and loyalty. The 1HZ makes 129 hp and 210 lb-ft from 4.2 litres with no turbo. The 12-valve 1HD-T, which went into the HDJ80 from 1990, makes 164 hp and 266 lb-ft at 1,400 rpm. The 24-valve 1HD-FT arrived in the HDJ80 in 1995 with 168 hp and 280 lb-ft. Those aren't huge numbers. What owners want is the low-rev pull, and it's Toyota-built.",
+    "There's a practical case too. Gearboxes, bellhousings, starters and clutches come from Toyota's own parts bins, and Toyota mechanics know the engines. Don't do it for fuel economy alone. One 80 Series owner went from about 200 to about 300 miles a tank around town, but another forum member reckoned the real gain over the petrol 80 was only 1–2 mpg."
+   ]
+  },
+  {
+   "h": "What it takes",
+   "body": [
+    "First, match the gearbox. The H55F five-speed is the usual partner in 40s and 60s, but only the version that came behind the 1HZ in the 70 Series has the right bellhousing and input. A 1HD-T's 300 mm clutch disc is 14-spline and the H55F input is 21-spline, so builders either use the 275 mm 1HZ clutch (some say it's marginal behind a turbo) or adapt a 300 mm disc from another make. In an 80, the H151 suits the 1HD and the H150 was used only behind the 1HZ.",
+    "Second, mounting and cooling. In a 40 or 60 you'll be fabricating or buying frame brackets and a crossmember, then checking driveshaft angles and fan-to-radiator alignment. In an 80 the factory diesel mount points are already there. Third, electrics. The 1HZ and 1HD-T are mechanical and easy to wire. The 1HD-FTE has its own ECU, a drive-by-wire pedal and a spill valve, so buy a whole donor or a complete harness. The diesel starters are usually 24-volt, and the tach needs a signal from the injection pump or a diesel cluster.",
+    "Finally, refresh the engine before it goes in. Every build thread we read did the timing belt, water pump, rear main seal and clutch while the engine was out, and one found worn rod bearings on a supposedly good 1HZ."
+   ]
+  },
+  {
+   "h": "Parts and kits",
+   "body": [
+    "Nobody in the US sells a boxed 1HZ-into-FJ40 kit with an instruction manual. Most of the parts are genuine Toyota pieces from diesel 70 and 80 Series trucks, bought through dealers or Australian specialists. Builders add frame brackets and crossmembers they've made themselves or bought from forum members. For the 80 and 105, Australian shops sell conversion-specific brackets and intercoolers. If you'd rather write a cheque, [[land-cruiser/fj40|FJ40]] and 80 Series restorers such as Proffitt's Resurrection Land Cruisers have built Toyota-diesel conversions.",
+    "Or skip the swap entirely. Factory-diesel [[land-cruiser/80-series|80 Series]] imports are legal once they're 25 years old. Turbodiesel HDJ80s and HDJ81s sold on Bring a Trailer for $14,500 to $75,000 in 2025–26, which is often less than a professionally built conversion."
+   ]
+  },
+  {
+   "h": "Emissions and registration",
+   "body": [
+    "Federally, EPA's engine-switching policy treats a swap as tampering unless the finished vehicle matches a certified configuration of the same or newer model year as the chassis. Toyota never sold these engines in US Land Cruisers, so a US truck has no certified diesel configuration to match.",
+    "California is stricter in practice. BAR's Engine Change Guidelines say the installed engine must be the same model year or newer than the vehicle and of the same GVWR class, and its certification must be California or federal, as the vehicle's is, with proof from the manufacturer or a CARB Executive Order. All of the donor's emissions equipment must be fitted, the truck must pass a BAR Referee inspection, and engines that aren't emissions-certified may not go into any emission-controlled vehicle. Gasoline vehicles from 1975 and earlier, and diesels from 1997 and earlier, are exempt from Smog Check. The guidelines don't say how a referee treats a pre-1976 petrol truck that now runs on diesel, so ask the referee before you buy parts. Other states vary widely, so check with your DMV and emissions program first."
+   ]
+  },
+  {
+   "h": "What it costs",
+   "body": [
+    "On forums, a used 1HZ alone cost about $6,500 in 2022, and engine-and-gearbox combinations were $6,000 and up in 2017. One FJ40 builder put his used conversion parts (bellhousing, input shaft, clutch bits, crossmember) at about $1,300–1,400. In 2017, a 1HD-T, an A442F and a non-running 1997 80 Series donor were listed together for $10,000 OBO. A finished 1HD-T 80 Series conversion was advertised in 2011 for $28,900 OBO.",
+    "On the sale side, Bring a Trailer results are mixed. A 1HZ HJ60 sold for $20,250 in 2025. A 1HZ FJ40 and a 1HZ BJ40 stalled at $22,500 and $23,250 without selling, and a 1HD-T BJ40 was bid to $69,000 in October 2025 without selling. A swap won't automatically pay for itself."
+   ]
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "Proffitt's Resurrection Land Cruisers",
+   "url": "https://www.resurrectionlandcruisers.com/",
+   "what": "Colorado Land Cruiser restorer that has built 1HD-FT 80 Series conversions, as well as Cummins-powered 40s and 60s"
+  },
+  {
+   "name": "HD Automotive",
+   "url": "https://hdautomotive.com.au/product/engine-mount-bracket-suitable-for-1hz-1hd-fte-conversion/",
+   "what": "Australian engine-mount brackets for 1HZ-to-1HD-FTE conversions in the HZJ105, also listed for HDJ100 and HDJ79"
+  },
+  {
+   "name": "Sunshine Coast Diesel Tuning (HPD)",
+   "url": "https://scdieseltuning.com.au/product/toyota-landcruiser-105-series-intercooler-1hz-to-1hd-fte-conversion",
+   "what": "HPD front-mount intercooler kit for 105 Series trucks converted from 1HZ to 1HD-FTE"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "1HZ or 1HD-T?",
+   "a": "The 1HZ is simpler and has no turbo, making 129 hp and 210 lb-ft. The 1HD-T adds a turbo and direct injection for 164 hp and 266 lb-ft, and the 24-valve 1HD-FT makes 168 hp and 280 lb-ft. All three share the same 4.2-litre block and crankshaft, so the mounting work is similar. The 1HD-FTE is electronic and needs its own ECU and harness."
+  },
+  {
+   "q": "Will my H55F bolt to a 1HZ?",
+   "a": "Only with the 1HZ bellhousing and input shaft from a 1HZ-powered 70 Series. H55Fs built for the 3F, 2H and 3B have different inputs. Behind a 1HD-T you also have to deal with a spline mismatch between its 300 mm clutch disc and the H55F's input."
+  },
+  {
+   "q": "Is it legal in California?",
+   "a": "Very hard to do legally. BAR requires the engine to be the same model year or newer, of the same certification type and class, with proof of certification and all of the donor's emissions equipment, plus a BAR Referee inspection. Engines that aren't emissions-certified are barred from emission-controlled vehicles. These Toyota diesels were never certified for US Land Cruisers."
+  },
+  {
+   "q": "Should I swap, or just import a factory diesel?",
+   "a": "Price both. Turbodiesel HDJ80 and HDJ81 imports sold on Bring a Trailer for $14,500 to $75,000 in 2025–26. Conversions sold or were bid anywhere from about $20,000 to $69,000, depending on the truck."
+  },
+  {
+   "q": "Will it save fuel?",
+   "a": "Some. One 1HD-T 80 Series owner went from about 200 to about 300 miles per tank around town and saw about 20.8 mpg on a trip, but another member estimated the gain over a petrol 80 at only 1–2 mpg. Do it for the torque and the character, and treat any fuel savings as a bonus."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Toyota HZ engine",
+   "url": "https://en.wikipedia.org/wiki/Toyota_HZ_engine"
+  },
+  {
+   "name": "Wikipedia — Toyota HD engine",
+   "url": "https://en.wikipedia.org/wiki/Toyota_HD_engine"
+  },
+  {
+   "name": "IH8MUD — 1HDT/H55F into FJ40 parts and install notes",
+   "url": "https://forum.ih8mud.com/goto/post?id=6130849"
+  },
+  {
+   "name": "IH8MUD — 1HZ in a 1978 FJ40",
+   "url": "https://forum.ih8mud.com/threads/1hz-in-a-1978-fj40.1279715"
+  },
+  {
+   "name": "IH8MUD — 1974 HZJ40 build",
+   "url": "https://forum.ih8mud.com/threads/1974-hzj40-build.1120802"
+  },
+  {
+   "name": "IH8MUD — Back in a 60 Series: 1HZ swap",
+   "url": "https://forum.ih8mud.com/threads/back-in-a-60-series-1hz-swap.1026075/"
+  },
+  {
+   "name": "IH8MUD — 1FZ to 1HD-FT swap",
+   "url": "https://forum.ih8mud.com/threads/1fz-to-1hdft-swap.1289179/"
+  },
+  {
+   "name": "IH8MUD — 1994 locked FZJ80 converted to 1HD-T/A442",
+   "url": "https://forum.ih8mud.com/threads/1994-locked-fzj80-converted-to-1hd-t-a442.537221/"
+  },
+  {
+   "name": "IH8MUD — 1997 FZJ80 to HDJ80 1HD-FT build",
+   "url": "https://forum.ih8mud.com/threads/1997-fzj80-to-hdj80-1hd-fte-h152f.1087502/"
+  },
+  {
+   "name": "IH8MUD — 1HDT, A442F and LC80 conversion parts for sale (2017)",
+   "url": "https://forum.ih8mud.com/threads/1hdt-a442f-lc80-conversion-parts-asap-10k-obo.986052/"
+  },
+  {
+   "name": "IH8MUD — 1HD-FTE in HZJ79",
+   "url": "https://forum.ih8mud.com/threads/1hd-fte-in-hzj79.911479"
+  },
+  {
+   "name": "ExplorOz — 1HZ to 1HD-FTE",
+   "url": "https://www.exploroz.com/forum/106303/1hz-to-1hd-fte"
+  },
+  {
+   "name": "Expedition Portal — My Proffitt's 1HD-FT 80 Series conversion",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1041509"
+  },
+  {
+   "name": "HD Automotive — Engine mount bracket for 1HZ/1HD-FTE conversion",
+   "url": "https://hdautomotive.com.au/product/engine-mount-bracket-suitable-for-1hz-1hd-fte-conversion/"
+  },
+  {
+   "name": "Sunshine Coast Diesel Tuning — HPD 105 Series intercooler, 1HZ to 1HD-FTE",
+   "url": "https://scdieseltuning.com.au/product/toyota-landcruiser-105-series-intercooler-1hz-to-1hd-fte-conversion"
+  },
+  {
+   "name": "Proffitt's Resurrection Land Cruisers",
+   "url": "https://www.resurrectionlandcruisers.com/"
+  },
+  {
+   "name": "Bring a Trailer — Land Cruiser 60-Series results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj60-fj62/"
+  },
+  {
+   "name": "Bring a Trailer — 1HZ-powered 1986 HJ60 high roof",
+   "url": "https://bringatrailer.com/listing/1986-toyota-land-cruiser-fj60-88-2/"
+  },
+  {
+   "name": "Bring a Trailer — FJ40 results",
+   "url": "https://bringatrailer.com/toyota/fj40/"
+  },
+  {
+   "name": "Bring a Trailer — 1HDT-powered 1982 BJ40",
+   "url": "https://bringatrailer.com/listing/1982-toyota-land-cruiser-bj40-3/"
+  },
+  {
+   "name": "Bring a Trailer — 80-Series results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj80-fzj80/"
+  },
+  {
+   "name": "Bring a Trailer — 1992 HDJ80 VX Turbodiesel",
+   "url": "https://bringatrailer.com/listing/1992-toyota-land-cruiser-fj80-47-2/"
+  },
+  {
+   "name": "BAR — Engine changes",
+   "url": "https://www.bar.ca.gov/engine-changes"
+  },
+  {
+   "name": "BAR — Smog Check Reference Guide (Appendix D: Engine Change Guidelines)",
+   "url": "https://www.bar.ca.gov/pdf/smog-check-reference-guide.pdf"
+  },
+  {
+   "name": "Arizona DEQ — EPA federal engine switching policy fact sheet",
+   "url": "https://static.azdeq.gov/legal/subs_federalengineswitchfs.pdf"
+  }
+ ]
+}

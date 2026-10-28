@@ -1,0 +1,333 @@
+{
+ "slug": "cummins-swap",
+ "title": "Cummins 4BT and R2.8 swaps in boxy 4x4s",
+ "engine": "Cummins 4BT (3.9 L I4 turbodiesel) and Cummins R2.8 Turbo Diesel crate engine (2.8 L I4)",
+ "description": "Cummins 4BT and R2.8 crate-diesel swaps in Land Cruisers, Defenders, Jeeps, Scouts and 4Runners: kits, gearboxes, emissions and what builds cost.",
+ "lead": [
+  "Two Cummins four-cylinders end up in boxy 4x4s. The 4BT is a 3.9-litre agricultural lump from bread vans and industrial kit, with a reputation for running forever and shaking your fillings loose. The R2.8 is Cummins' own crate engine. It's a 2.8-litre common-rail turbodiesel, sold with its own ECM, harness and accessories, and pitched at exactly the kind of old Jeep, Land Cruiser and Land Rover this site is about.",
+  "The 4BT is the cheap, heavy, loud option. The R2.8 is the lighter, quieter, more expensive one, and it now powers some of the most valuable restomods on Bring a Trailer. Neither is a bolt-in job, and both run into emissions law the moment you try to register one in a state that tests."
+ ],
+ "trucks": [
+  {
+   "model": "land-cruiser/fj40",
+   "note": "Proffitt's Resurrection Land Cruisers has built several R2.8-powered FJ40s that keep the Toyota H55F five-speed and split transfer case. Custom Works in Paso Robles, California, built a pair of BJ40/BJ42s with R2.8s and NV4500 gearboxes on the stock transfer case, using adapter parts from Advance Adapters, Axis Industries and TorFab. 4WD Mechanix lists FJ40/FJ45s as 4BT candidates too. An R2.8 FJ40 sold on Bring a Trailer for $43,000 in February 2024."
+  },
+  {
+   "model": "land-cruiser/fj60",
+   "note": "The 60 has become the R2.8's most visible home. In 2025, R2.8-powered FJ60s and a BJ60 sold on Bring a Trailer for $19,750 to $79,000. Proffitt's also built a 4BT-powered FJ60 on a modified FZJ80 chassis with an H55F and 80 Series axles. There's no R2.8-to-H55F kit in Quickdraw's list, but Cummins' own 1990 Land Cruiser demonstrator mated the R2.8 to an H55F with an Axis Industries adapter, an Advance Adapters bellhousing and TorFab engine mounts."
+  },
+  {
+   "model": "land-cruiser/70-series",
+   "note": "4WD Mechanix called an R2.8-powered FJ79 shown at the 2017 SEMA Show the cleanest R2.8 installation it had seen so far. Advance Adapters offered the transmission adapters for that generation of builds, including GM 4L60E/4L80E and Ford 6R80 automatics."
+  },
+  {
+   "model": "land-rover/defender-90-110",
+   "note": "Quickdraw Brand sells R2.8 adapter kits for the Land Rover R380 (a short 'Stumpy' version and a long 300Tdi version) and for the ZF 4HP24 automatic. Ashcroft Transmissions builds R380s specifically for those kits. North Carolina's Osprey Custom 4X4 sells R2.8/R380 restomods, which Diesel Army says start around $240,000. ECD Auto Design built a 110 with an R2.8 and a six-speed automatic, with help from Axis Industries. On Bring a Trailer, R2.8 110s sold for $28,500 (a project) to $91,000 in 2024–26, and a 4BT-powered Defender 90 made $46,000 in July 2026."
+  },
+  {
+   "model": "jeep/tj",
+   "note": "The TJ was Cummins' R2.8 test mule and demonstrator. At launch, the target market was CJ, YJ, TJ and XJ Jeeps through 1999, with Advance Adapters supplying adapters for the AX15/NV3550 manuals and GM automatics, plus motor mounts. 4WD Mechanix reported Axis Industries' complete TJ R2.8 kit at $16,995 for parts only. The 4BT also fits a TJ for length, but it weighs over 800 lb with its adapter, flywheel and clutch."
+  },
+  {
+   "model": "jeep/cj-7",
+   "note": "The CJ is the classic 4BT home. 4WD Mechanix lists CJs among the Jeeps the 4BT suits for length, but warns you'll want at least a truck-spec Dana 44 up front and a 44 or larger at the rear. Big Bear Engine Company and FarmStrong both sell 4BT Jeep swap parts. Advance Adapters makes the transmission-to-transfer-case adapters for combinations such as an NV4500 to a Dana 20 or a T18 to a Dana 300."
+  },
+  {
+   "model": "scout/scout-80-800",
+   "note": "New Legend 4x4, founded out of the Scout specialist Anything Scout, used beta engine #1 of the R2.8 in a 1967 Scout 800, with an NV3550 five-speed, an Atlas II transfer case and Axis Industries motor mounts. Diesel World put the finished truck at $100,000. PTL Offroad built an R2.8 Scout 80 body on a 2015 Jeep JK four-door chassis with an AX15."
+  },
+  {
+   "model": "scout/scout-ii",
+   "note": "4WD Mechanix lists the Scout II as a 4BT candidate. Bring a Trailer sold a 4BT-powered 1974 Scout II for $13,300 in April 2025. That's below its typical driver range, so a swap doesn't guarantee a premium."
+  },
+  {
+   "model": "4runner/2nd-gen",
+   "note": "A DIY 1993 4Runner featured by Cummins used a Quickdraw kit to adapt the R2.8 to a Jeep AX15 bellhousing, with the AX15 given a Toyota R150 tailshaft and fifth gear so it mated to the stock transfer case. Axis Industries universal mounts were paired with custom frame mounts. The driveline came out about two inches longer, so the shifters moved back. The owners reported about 26 mpg on the maiden drive at a 4,200 lb curb weight."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Why people do it",
+   "body": [
+    "Torque, range and that Cummins badge. 4WD Mechanix lists the 8-valve 4BT at 105 hp and 265 lb-ft or 130 hp and 325 lb-ft, depending on tune, and the 16-valve 4 ISB at up to 170 hp and 420 lb-ft. At launch, Cummins rated the R2.8 at 161 hp and 267 lb-ft. Later coverage quotes 310 lb-ft, and 4X4 Australia lists 120 kW and 429 Nm. ECD points out that the optional 2.25-litre diesel in an early 110 made 68 bhp, so either Cummins is a transformation.",
+    "Fuel economy is the usual justification, and it's real but variable. Cummins said a stock TJ more than doubled its fuel economy in early R2.8 testing. Big Bear's estimates for a stock 4BT, as quoted by 4WD Mechanix, are 18–20 mpg city and 22–25 highway. The authors also note it could take 300,000 miles or more for the fuel savings to pay for the swap. On IH8MUD, a member who ran a 4BT in an 80 Series reported 18–20 mpg."
+   ]
+  },
+  {
+   "h": "What it takes",
+   "body": [
+    "The 4BT is heavy, tall and shaky. With an SAE adapter, flywheel and clutch it's 'well over 800 pounds', about 250–300 lb more than an iron Jeep inline six. It needs a proper crank damper and good mounts to keep the vibration out of the cab, and 4WD Mechanix says plainly that 'there is no bolt-in kit'. An IH8MUD member who ran one in an 80 Series warned that it's tall enough to cause clearance problems in lower trucks. Plan on upgrading the axles, cooling and steering to match.",
+    "The R2.8 is far easier to package. It comes as a crate package with its ECM, harness, starter, alternator, pulleys, power-steering pump, an A/C bracket and a cam-driven vacuum pump. You still need a transmission adapter, mounts, an intercooler, a radiator and a diesel fuel supply with a lift pump. Cummins sells the engines to approved builders through its Repower Builders Program, and the engines can't be resold loose."
+   ]
+  },
+  {
+   "h": "Parts and kits",
+   "body": [
+    "R2.8: Quickdraw Brand lists adapter kits to the Toyota W56, the GM SM465 and manual 'Shorty', the Dodge and early GM NV4500, the Tremec TR4050, the Ford 6R80, GM small-block and LS automatics, the Land Rover R380 (short and long) and the ZF 4HP24. In October 2026 it listed the R380 Stumpy kit at $1,130, the NV4500 kit at $895 and the W56 kit at $1,750. Advance Adapters makes R2.8 transmission adapters and motor mounts and was Cummins' adapter partner at launch. Ashcroft Transmissions sells R380s built to suit Quickdraw's kits.",
+    "4BT: Big Bear Engine Company sells new, used and remanufactured 4BTs and Jeep swap parts. FarmStrong makes 4BT Jeep kits and mounts, and Quickdraw sells B-series adapters to the NV4500, TR4050 and SM465. Advance Adapters covers the transmission-to-transfer-case side. For turnkey trucks, Proffitt's Resurrection Land Cruisers (Toyotas), New Legend 4x4 (Scouts), and Osprey and ECD (Defenders) all build R2.8 conversions."
+   ]
+  },
+  {
+   "h": "Emissions and registration",
+   "body": [
+    "R2.8: Cummins said in 2016 that the kit would include documentation to make it '50-state-emissions-compliant', and that its demonstration TJ met TLEV LDT2 standards for its model year. In 2017, Cummins' program lead said it was emissions compliant 'up to model year 1999 for gas to diesel swaps'. But 4WD Mechanix quotes a March 2020 Cummins statement that the R2.8 was 'not CARB-approved at this time' and was generally suited to 1999-and-older light trucks, and not available in Texas, West Virginia or Quebec. Check the current status with Cummins before you plan a California registration.",
+    "4BT: It's an industrial and medium-duty engine, which California makes very hard to register. BAR's Engine Change Guidelines require the donor engine to match the vehicle's GVWR class ('a heavy-duty truck engine may not be installed in a light-duty truck'), and they bar off-road, industrial and non-certified crate engines from any emission-controlled vehicle. Any California engine change must also be the same model year or newer, carry all of the donor's emissions equipment and pass a BAR Referee. California exempts gasoline vehicles from 1975 and earlier and diesels from 1997 and earlier from Smog Check. Federally, EPA's engine-switching policy only accepts a swap that matches a certified configuration of the same or newer model year as the chassis. Many builders simply register in states without emissions testing; one IH8MUD poster was planning a North Dakota title. Check your own state first."
+   ]
+  },
+  {
+   "h": "What it costs",
+   "body": [
+    "Parts: the R2.8 crate package launched at $8,999 MSRP in 2017. A Rovers North forum poster priced the engine at $9,000 and an R380/LT77 adapter at $2,200, which is '$11g's before a wrench has even been turned.' 4WD Mechanix reported Axis Industries' TJ R2.8 kit at $16,995 for parts only. Quickdraw's R2.8 adapters ran $895–1,750 in October 2026, and Ashcroft's R380 for those kits starts at £1,080 plus VAT. For the 4BT, forum guesses range from 'under $5,000' for a scrapyard DIY build to about $15,000 for one owner's built F-150 swap.",
+    "Turnkey builds: Osprey's R2.8 Defenders start around $240,000, according to Diesel Army, and New Legend's R2.8 Scout 800 was a $100,000 truck. On Bring a Trailer, R2.8 FJ60s sold for $19,750–79,000 in 2025 and R2.8 Defender 110s for $28,500–91,000 in 2024–26. The best-built R2.8 trucks bring strong money, and rough ones don't."
+   ]
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "Cummins Repower",
+   "url": "https://www.cummins.com/engines/repower",
+   "what": "The R2.8 Turbo Diesel crate engine package, sold through approved builders"
+  },
+  {
+   "name": "Advance Adapters",
+   "url": "https://www.advanceadapters.com/",
+   "what": "R2.8 transmission adapters and motor mounts, plus transmission-to-transfer-case adapters for 4BT builds"
+  },
+  {
+   "name": "Quickdraw Brand",
+   "url": "https://quickdrawbrand.com/categories/cummins/cummins-r2-8/cummins-r2-8-adapter-kits.html",
+   "what": "R2.8 adapter kits (Land Rover R380 and ZF 4HP24, Toyota W56, NV4500, TR4050, GM and Ford) and 4BT/B-series adapters and mounts"
+  },
+  {
+   "name": "Ashcroft Transmissions",
+   "url": "https://ashcroft-transmissions.co.uk/product/r380-for-cummins-r2-8-adaptor-kit/",
+   "what": "Heavy-duty Land Rover R380 gearboxes built to suit Quickdraw R2.8 adapter kits"
+  },
+  {
+   "name": "Big Bear Engine Company",
+   "url": "https://4btengines.com/",
+   "what": "New, used and remanufactured 4BT engines and 4BT Jeep swap parts"
+  },
+  {
+   "name": "FarmStrong Inc",
+   "url": "https://www.farmstronginc.com/",
+   "what": "Cummins 4BT Jeep swap kits and motor mounts"
+  },
+  {
+   "name": "TorFab",
+   "url": "https://torfab.com/",
+   "what": "Land Cruiser shop that made engine mounts and the airbox for Cummins' R2.8 Land Cruiser builds"
+  },
+  {
+   "name": "Proffitt's Resurrection Land Cruisers",
+   "url": "https://www.resurrectionlandcruisers.com/",
+   "what": "Turnkey R2.8 and 4BT Land Cruiser restorations"
+  },
+  {
+   "name": "New Legend 4x4",
+   "url": "https://www.newlegend4x4.com/",
+   "what": "Scout restorations, including the first R2.8-powered Scout 800"
+  },
+  {
+   "name": "ECD Auto Design",
+   "url": "https://ecdautodesign.com/blog/cummins-diesel-defender-110/",
+   "what": "Custom Defenders, including R2.8 builds"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "4BT or R2.8?",
+   "a": "The 4BT is cheaper to buy used and makes more torque in 130 hp tune (325 lb-ft), but it weighs over 800 lb with its adapter and clutch and is famously loud and rough. The R2.8 is a modern common-rail crate engine with its own ECM and harness, at 161 hp. It costs more but is far easier to package and live with."
+  },
+  {
+   "q": "Is an R2.8 swap legal in California?",
+   "a": "It's not clear-cut, so check before you build. Cummins originally said the kit was emissions-compliant for gas-to-diesel swaps up to model year 1999, but in March 2020 it said the R2.8 was 'not CARB-approved at this time'. BAR's guidelines bar non-certified crate engines from emission-controlled vehicles and require proof of certification at the Referee."
+  },
+  {
+   "q": "Can my axles take a 4BT?",
+   "a": "4WD Mechanix recommends at least a truck-spec Dana 44 in front and a 44 or larger at the rear in a Jeep. The extra 250–300 lb over a Jeep six also loads the springs and steering."
+  },
+  {
+   "q": "What gearbox should I use?",
+   "a": "Behind a 4BT, the NV4500, NV5600, G56 and 727 are the practical choices. R2.8 adapters exist for the Toyota H55F (via Advance Adapters and Axis), the W56, the Land Rover R380, the AX15, the NV4500, the TR4050 and several automatics."
+  },
+  {
+   "q": "What mileage will I get?",
+   "a": "It depends on gearing, weight and your right foot. Big Bear's estimate for a stock 4BT is 18–20 mpg city and 22–25 highway, an IH8MUD owner saw 18–20 mpg in an 80 Series, and an R2.8 4Runner returned about 26 mpg on its first drive."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Cummins — Introducing Cummins' crate engine program: Cummins Repower (2016)",
+   "url": "https://www.cummins.com/en-na/news/2016/11/01/introducing-cummins-crate-engine-program-cummins-repowertm"
+  },
+  {
+   "name": "Cummins — Repower Builders Program",
+   "url": "https://www.cummins.com/engines/repower/repower-builders-program"
+  },
+  {
+   "name": "CCJ — Cummins' first diesel crate engine from Repower now available",
+   "url": "https://www.ccjdigital.com/products/product/15050115/cummins-first-diesel-crate-engine-from-repower-now-available"
+  },
+  {
+   "name": "4WD Mechanix — Interview: Advance Adapters and Cummins discuss the 2.8L diesel conversion for Jeep",
+   "url": "https://4wdmechanix.com/?p=13462"
+  },
+  {
+   "name": "4WD Mechanix — 2017 SEMA Show: installation details for the Cummins R2.8L",
+   "url": "https://4wdmechanix.com/?p=14196"
+  },
+  {
+   "name": "4WD Mechanix — Cummins 4BT and 4 ISB diesel engine conversions",
+   "url": "https://4wdmechanix.com/cummins-4bt-and-4-isb-diesel-engine-conversions/"
+  },
+  {
+   "name": "Cummins — 1979–1982 Toyota Land Cruisers repowered with Cummins R2.8",
+   "url": "https://selfscreening.cummins.com/case-studies/19791982-toyota-land-cruisers-repowered-cummins-r28"
+  },
+  {
+   "name": "Cummins — 1990 Toyota Land Cruiser repowered with Cummins R2.8",
+   "url": "https://selfscreening.cummins.com/case-studies/1990-toyota-land-cruiser-repowered-cummins-r28"
+  },
+  {
+   "name": "Cummins — 1993 Toyota 4Runner repowered with Cummins R2.8",
+   "url": "https://selfscreening.cummins.com/case-studies/1993-toyota-4runner-repowered-cummins-r28"
+  },
+  {
+   "name": "Engine Swap Depot — 1969 Land Cruiser with a Cummins R2.8",
+   "url": "https://engineswapdepot.com/?p=65889"
+  },
+  {
+   "name": "Engine Swap Depot — Toyota Land Cruiser with a Cummins R2.8",
+   "url": "https://engineswapdepot.com/?p=118677"
+  },
+  {
+   "name": "Engine Swap Depot — 1985 Land Cruiser with a Cummins 3.9L",
+   "url": "https://engineswapdepot.com/?p=132826"
+  },
+  {
+   "name": "Engine Swap Depot — 1961 International Harvester Scout with a Cummins R2.8",
+   "url": "https://engineswapdepot.com/?p=95318"
+  },
+  {
+   "name": "Diesel World — New Vintage: a Cummins-powered Scout 800",
+   "url": "https://dieselworldmag.com/diesel-trucks/new-vintage-a-cummins-powered-scout-800"
+  },
+  {
+   "name": "Diesel Army — Manual Cummins-swapped Land Rover Defender restomod",
+   "url": "https://www.dieselarmy.com/?p=231778"
+  },
+  {
+   "name": "ECD Auto Design — 2.8L Cummins diesel for a custom Defender",
+   "url": "https://ecdautodesign.com/blog/cummins-diesel-defender-110/"
+  },
+  {
+   "name": "4X4 Australia — Custom Cummins-powered 1988 Land Rover Defender",
+   "url": "https://www.4x4australia.com.au/reviews/custom-4x4s/custom-cummins-powered-1988-land-rover-defender-review"
+  },
+  {
+   "name": "Quickdraw Brand — Cummins R2.8 adapter kits",
+   "url": "https://quickdrawbrand.com/categories/cummins/cummins-r2-8/cummins-r2-8-adapter-kits.html"
+  },
+  {
+   "name": "Quickdraw Brand — R2.8 to Land Rover Defender R380 Stumpy kit",
+   "url": "https://quickdrawbrand.com/cummins/adapter-kit-cummins-r2-8-to-land-rover-defender-r380-stumpy/"
+  },
+  {
+   "name": "Quickdraw Brand — R2.8 to Toyota W56 kit",
+   "url": "https://quickdrawbrand.com/shop-all/adapter-kit-cummins-r2-8-to-toyota-w56-5-speed/"
+  },
+  {
+   "name": "Quickdraw Brand — R2.8 to Dodge NV4500 kit",
+   "url": "https://quickdrawbrand.com/cummins/adapter-kit-cummins-r2-8-to-dodge-nv4500/"
+  },
+  {
+   "name": "Quickdraw Brand — Cummins 4BT parts",
+   "url": "https://quickdrawbrand.com/categories/cummins/cummins-4bt.html"
+  },
+  {
+   "name": "Ashcroft Transmissions — R380 for Cummins R2.8 adaptor kit",
+   "url": "https://ashcroft-transmissions.co.uk/product/r380-for-cummins-r2-8-adaptor-kit/"
+  },
+  {
+   "name": "Rovers North Forums — Cummins R2.8 repower?",
+   "url": "https://forums.roversnorth.com/forum/land-rover-technical-forums/land-rover-series-i-ii-iia-iii/14468-cummins-r2-8-repower"
+  },
+  {
+   "name": "IH8MUD — Cummins 4BT swap (100 Series)",
+   "url": "https://forum.ih8mud.com/threads/cummins-4bt-swap.966988/"
+  },
+  {
+   "name": "Big Bear Engine Company",
+   "url": "https://4btengines.com/"
+  },
+  {
+   "name": "FarmStrong Inc",
+   "url": "https://www.farmstronginc.com/"
+  },
+  {
+   "name": "TorFab",
+   "url": "https://torfab.com/"
+  },
+  {
+   "name": "Proffitt's Resurrection Land Cruisers",
+   "url": "https://www.resurrectionlandcruisers.com/"
+  },
+  {
+   "name": "New Legend 4x4",
+   "url": "https://www.newlegend4x4.com/"
+  },
+  {
+   "name": "Bring a Trailer — Land Cruiser 60-Series results",
+   "url": "https://bringatrailer.com/toyota/land-cruiser-fj60-fj62/"
+  },
+  {
+   "name": "Bring a Trailer — FJ40 results",
+   "url": "https://bringatrailer.com/toyota/fj40/"
+  },
+  {
+   "name": "Bring a Trailer — Cummins R2.8-powered 1979 FJ40",
+   "url": "https://bringatrailer.com/listing/1979-toyota-land-cruiser-fj40-102/"
+  },
+  {
+   "name": "Bring a Trailer — Cummins R2.8-powered 1984 FJ60 ($79,000)",
+   "url": "https://bringatrailer.com/listing/1984-toyota-land-cruiser-fj60-141/"
+  },
+  {
+   "name": "Bring a Trailer — Cummins R2.8-powered 1983 FJ60 ($19,750)",
+   "url": "https://bringatrailer.com/listing/1983-toyota-land-cruiser-fj60-83/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover Defender 110 (Euro) results",
+   "url": "https://bringatrailer.com/land-rover/defender-110-euro/"
+  },
+  {
+   "name": "Bring a Trailer — Cummins R2.8-powered 1988 Land Rover 110 ($91,000)",
+   "url": "https://bringatrailer.com/listing/1988-land-rover-110-27/"
+  },
+  {
+   "name": "Bring a Trailer — Cummins R2.8-equipped 1995 Defender 110 project",
+   "url": "https://bringatrailer.com/listing/1995-land-rover-defender-110-96/"
+  },
+  {
+   "name": "Bring a Trailer — Land Rover 90 and Defender 90 (Euro) results",
+   "url": "https://bringatrailer.com/land-rover/90-and-defender-90-euro-spec/"
+  },
+  {
+   "name": "Bring a Trailer — Scout II results",
+   "url": "https://bringatrailer.com/international-harvester/scout-ii/"
+  },
+  {
+   "name": "BAR — Engine changes",
+   "url": "https://www.bar.ca.gov/engine-changes"
+  },
+  {
+   "name": "BAR — Smog Check Reference Guide (Appendix D: Engine Change Guidelines)",
+   "url": "https://www.bar.ca.gov/pdf/smog-check-reference-guide.pdf"
+  },
+  {
+   "name": "Arizona DEQ — EPA federal engine switching policy fact sheet",
+   "url": "https://static.azdeq.gov/legal/subs_federalengineswitchfs.pdf"
+  }
+ ]
+}

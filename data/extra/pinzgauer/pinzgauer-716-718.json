@@ -1,0 +1,319 @@
+{
+ "fitment": {
+  "stock": [
+   "235/85R16 (common, per German Wikipedia)",
+   "255/85R16 (one owner's P80 716)",
+   "285/75R16 BFGoodrich M/T (ATL 2.5 TDI 718)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x130",
+   "offset": "ET 73 (stock TD steel wheel)",
+   "lug_thread": "[CONFIRM IN MANUAL] · military ball-seat bolts"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "255/85R16 (about 33 in)",
+    "note": "Owners' favorite: as tall as a 285/75R16 but narrower, with less drag and scrub. 34-inch 8.25 tires fit but were too tall for the 2.4 TD's power, and one owner advises against 285s on a 2.4."
+   },
+   {
+    "lift": "Stock (2.5 TDI or 718)",
+    "size": "285/75R16",
+    "note": "Fitted by ATL on its 2.5 TDI trucks, and the size one owner would choose for a 718. There's no established lift market for the swing-axle Turbo D."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1980",
+   "change": "Steyr-Daimler-Puch begins developing the second-generation Pinzgauer",
+   "flag": "note"
+  },
+  {
+   "year": "1985–1986",
+   "change": "716 (4×4) and 718 (6×6) Turbo D enter production in Graz with the VW 2.4 turbo-diesel six, disc brakes and ZF automatic or five-speed manual (sources differ on 1985 or 1986)",
+   "flag": "note"
+  },
+  {
+   "year": "P80 (to chassis 1790)",
+   "change": "Original spec: small nose, no intercooler, cooling versions A and B. Owners say the earlier TDs were known to run hot, and later trucks got a revised cooling system",
+   "flag": "avoid"
+  },
+  {
+   "year": "1990 (P90)",
+   "change": "Revised cooling (versions C and D from chassis 1791) and a larger radiator nose. Later P90s replace the axle-tube O-ring with a plastic ring and sealant",
+   "flag": "note"
+  },
+  {
+   "year": "Early 1990s",
+   "change": "The US Army buys about 20 turbo-diesel 718Ms for special-operations reconnaissance; they're phased out around 2010–11",
+   "flag": "note"
+  },
+  {
+   "year": "1993 (P93)",
+   "change": "Intercooled 2.4 TD (owners cite the ACL code) and a new injection pump",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "Magna sells the Pinzgauer rights to Automotive Technik Ltd; the factory moves to the UK between 2000 and 2002. Austrian chassis numbers run below 6000, UK numbers from 6000",
+   "flag": "note"
+  },
+  {
+   "year": "2002–2003",
+   "change": "VW 2.5 TDI five-cylinder (BBR) replaces the 2.4 to meet Euro 3, with the automatic only",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "BAE Systems acquires the business and ends UK production; the planned Pinzgauer II is never built",
+   "flag": "note"
+  },
+  {
+   "year": "2011",
+   "change": "Ex-US military 718s are sold off as government surplus, giving the US a small batch of domestically sourced Turbo Ds",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Pinzgauers were built to order in batches and often updated before delivery, so the badge on the nose doesn't settle much. Work out the revision, the engine and the paperwork before you pay.",
+  "items": [
+   {
+    "head": "716/718 vs 710/712",
+    "body": "The Turbo D has a bulged radiator nose, disc brakes and a 5×130 wheel pattern. The petrol 710/712 has a flatter front, drums and a different bolt pattern, and few drivetrain parts interchange."
+   },
+   {
+    "head": "P80, P90 or P93",
+    "body": "Look at the nose: the P80 has the smallest radiator cover, and it grew with the P90 and P93. P93s have an intercooler. Some P80s were factory-upgraded to P90 spec; one importer says trucks upgraded outside the factory have cowls cut by hand to clear the radiator hoses."
+   },
+   {
+    "head": "VIN",
+    "body": "Pinzgauers use the international 17-digit VIN with the WMI VAG, for example VAG71623110001645 on a 1990 716K. The model number follows the WMI. Position 10 means left-hand drive (1) or right-hand drive (2), not the model year, which confuses US insurers. The last digits are the chassis number."
+   },
+   {
+    "head": "Build year",
+    "body": "No model year is stamped on a 716 or 718. The transmission and transfer-case data plates sometimes carry a date (for those parts only). A build certificate from the factory is the only definitive record."
+   },
+   {
+    "head": "Ex-US special-ops 718",
+    "body": "US military trucks were P90s or upgraded P80s with lever-action ignition switches; some had a control for a crawler reduction box. Ask for the surplus sale paperwork."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "5,000 kg (11,023 lb) on road; 1,500 kg (4×4) / 1,800 kg (6×6) off road",
+   "note": "Wikipedia, listed under the first generation; check your truck's plate"
+  },
+  {
+   "k": "Gross vehicle weight",
+   "v": "3,850 kg (716) / 5,000 kg (718)",
+   "note": "German Wikipedia"
+  },
+  {
+   "k": "Length",
+   "v": "4,528 mm (178.3 in) 716 / 5,308 mm (209.0 in) 718",
+   "note": "German Wikipedia"
+  },
+  {
+   "k": "Width / height",
+   "v": "1,800 mm (70.9 in) / 2,160 mm (85.0 in)",
+   "note": "German Wikipedia"
+  },
+  {
+   "k": "Gradeability",
+   "v": "80%",
+   "note": "German Wikipedia (716/718)"
+  },
+  {
+   "k": "Top speed",
+   "v": "110 km/h (68 mph) 4×4 / 100 km/h (62 mph) 6×6",
+   "note": "Wikipedia; owners say a 716 cruises at 65 mph"
+  },
+  {
+   "k": "Range",
+   "v": "About 400 km (249 mi)",
+   "note": "Wikipedia"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "About 11–12 mpg US (2.4 TD); about 15 mpg (ATL 2.5 TDI 718K)",
+   "note": "Real-world owner figures"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Turbo Ds rarely come up for public sale in the US, and the few results cover a wide range: well-built, refurbished trucks now bring far more than the petrol 710s, which trade mostly in the teens on BaT.",
+  "ranges": [
+   {
+    "cond": "Refurbished civilian 716K",
+    "range": "$38k high bid (Hagerty, Sept 2026; sale status not shown)"
+   },
+   {
+    "cond": "Heavily built 718 6×6",
+    "range": "$52k bid (not sold, 2025) to $100k sold (2022)"
+   }
+  ],
+  "note": "Based on only two Bring a Trailer auctions of the same modified 1986 718 (sold for $100,000 in May 2022, bid to $52,000 in July 2025) and one Hagerty Marketplace 716K auction. Projects and ex-surplus trucks change hands privately and through specialists."
+ },
+ "docs": [
+  {
+   "name": "Expedition Imports — Pinzgauer documentation",
+   "url": "https://expedition-imports.com/pinzgauer-parts/pinzgauer-documentation/",
+   "note": "Reprint manuals, mostly for the 710/712, plus a general Pinzgauer instruction manual; use Turbo D-specific data where you can find it"
+  },
+  {
+   "name": "Real 4x4s — 716 and 718 library",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=8",
+   "note": "Owner-posted brochures, ATL newsletters and owner's-manual pages"
+  },
+  {
+   "name": "Pinzgauer 716/718 owner's manual and parts list (Steyr-Daimler-Puch / Magna)",
+   "note": "Factory documents; owners report buying parts lists from Magna. No legitimate online source confirmed"
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Steyr-Daimler-Puch never sold the Turbo D new in the US. The only domestic trucks are the roughly 20 718Ms the US Army bought for special operations, some of which were sold as surplus around 2011. Every other 716 and 718 here is an import, usually ex-military from the UK or elsewhere in Europe.",
+   "Under NHTSA's 25-year exemption, every Austrian-built truck (production ended in Graz in 2000) is now eligible, and UK-built ATL trucks become eligible as each reaches 25 years from its build date, so the 2.5 TDI trucks are still mostly too new. Because the VIN carries no model year, use a factory build certificate to prove age.",
+   "Federal eligibility doesn't guarantee a plate. A veteran owner notes that each state decides; his 716 was registered in California by mistake and later grandfathered, and owners describe California as the hardest state. In 2022 a Colorado county DMV flagged a Pinzgauer VIN as military and refused it for on-road use, while a 718 bought new from Steyr by a German civilian company was expected to be easier to register. Insurers may balk at the 'abnormal' VIN too."
+  ]
+ },
+ "production": {
+  "intro": "Built to order for military and government customers in Graz, then in the UK; total Turbo D numbers aren't published, though German Wikipedia says more than 30,000 Pinzgauers of all types were built by 2000.",
+  "items": [
+   {
+    "k": "Development",
+    "v": "From 1980; production from 1985/86"
+   },
+   {
+    "k": "Assembly",
+    "v": "Graz, Austria (Steyr-Daimler-Puch) to 2000; Guildford, UK (Automotive Technik, later BAE) to about 2007"
+   },
+   {
+    "k": "All Pinzgauers to 2000",
+    "v": "More than 30,000 (German Wikipedia)"
+   },
+   {
+    "k": "Chassis numbers",
+    "v": "Austrian TDs below 6000; UK-built from 6000"
+   },
+   {
+    "k": "Notable orders",
+    "v": "New Zealand 321 (8 variants); Malaysia 168 716 gun tractors and 164 718 mortar carriers; US Army about 20 718M"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Pinzgauer Vector",
+    "years": "2007",
+    "note": "Lightly armoured 6×6 protected patrol vehicle for the British Army; withdrawn after problems with suspension, hubs and IED protection"
+   }
+  ],
+  "paint": "UK Pinzgauers were delivered in Austrian army green (RAL 6031), not NATO green, according to a Real 4x4s member involved with the UK trucks."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Real 4x4s — The Portal Hub",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/",
+   "note": "Owner forum founded in 1999 for Pinzgauers, Haflingers and Volvo 30x trucks, with dedicated Turbo D sections and trail reports"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Steyr-Puch Pinzgauer",
+   "url": "https://en.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+  },
+  {
+   "name": "Wikipedia (German) — Steyr-Puch Pinzgauer",
+   "url": "https://de.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+  },
+  {
+   "name": "Bring a Trailer — Steyr-Puch Pinzgauer results",
+   "url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+  },
+  {
+   "name": "Bring a Trailer — 1986 Steyr-Puch Pinzgauer 718 (May 2022)",
+   "url": "https://bringatrailer.com/listing/1986-pinzgauer-718/"
+  },
+  {
+   "name": "Bring a Trailer — 1986 Steyr-Puch Pinzgauer 718 (July 2025)",
+   "url": "https://bringatrailer.com/listing/1986-steyr-puch-pinzgauer/"
+  },
+  {
+   "name": "Hagerty Marketplace — 1990 Steyr-Puch Pinzgauer 716K",
+   "url": "https://www.hagerty.com/marketplace/auction/1990-Steyr-Daimler-Puch-Pinzgauer/58342ecc-ffd0-4adf-b031-85af9e79814f"
+  },
+  {
+   "name": "Real 4x4s — 716 and 718 tire sizes",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12145"
+  },
+  {
+   "name": "Real 4x4s — Wheel offset?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12343"
+  },
+  {
+   "name": "Real 4x4s — 718 wheel options",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7823"
+  },
+  {
+   "name": "Real 4x4s — Chassis number breaks vs cooling system",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11897"
+  },
+  {
+   "name": "Real 4x4s — Difference between P80, P90 and P93?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4169"
+  },
+  {
+   "name": "Real 4x4s — US diesel 718 TDs",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6239"
+  },
+  {
+   "name": "Real 4x4s — 718 Colorado title?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12123"
+  },
+  {
+   "name": "Real 4x4s — 716 and 718 in the U.S.?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6891"
+  },
+  {
+   "name": "Real 4x4s — Govt Liq 718",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6555"
+  },
+  {
+   "name": "Real 4x4s — Engine codes",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11885"
+  },
+  {
+   "name": "Real 4x4s — Axle oil leaks",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=5494"
+  },
+  {
+   "name": "Real 4x4s — Fuel consumption",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11471"
+  },
+  {
+   "name": "Real 4x4s — 716M real world top speed?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9467"
+  },
+  {
+   "name": "Real 4x4s — Oil, air and fuel filters",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=2125"
+  },
+  {
+   "name": "Expedition Imports — Pinzgauer documentation",
+   "url": "https://expedition-imports.com/pinzgauer-parts/pinzgauer-documentation/"
+  },
+  {
+   "name": "Real 4x4s — New (to me) 718M and oil consumption",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9110"
+  }
+ ]
+}

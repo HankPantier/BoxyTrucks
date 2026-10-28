@@ -1,0 +1,926 @@
+{
+ "slug": "pinzgauer-716-718",
+ "title": "Pinzgauer 716 / 718",
+ "eyebrow": "STEYR-PUCH PINZGAUER · TURBO D · 1985–2007",
+ "verdict": "The Turbo D is the Pinzgauer that grew up: water-cooled diesel, disc brakes, power steering and usually an automatic, wrapped around the same portal-axle backbone that makes the original so absurdly capable. Owners compare the jump to going from a Series Land Rover to a Defender. They also warn that the drivetrain parts cost about as much as the truck.",
+ "codes": [
+  "716 (4×4) · 718 (6×6)",
+  "VW 2.4 TURBO-DIESEL I6",
+  "P80 · P90 · P93",
+  "PORTAL AXLES · TUBE CHASSIS",
+  "ZF 4HP22 AUTO OR 5-SPEED"
+ ],
+ "hero_photo": "716-718-nz-snow-tekapo.jpg",
+ "hero_focus": "72% 60%",
+ "story": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "Steyr-Daimler-Puch started work on a second Pinzgauer in 1980, and after six years of development it reached production in the mid-1980s: German Wikipedia puts the switch in 1985, English Wikipedia says the first trucks rolled off the line in 1986. The recipe was the [[pinzgauer/pinzgauer-710-712|710 and 712]] with a modern heart. The air-cooled petrol four made way for a liquid-cooled 2.4-liter Volkswagen turbo-diesel six, and the new names followed the axle count: 716 for the 4×4 and 718 for the 6×6."
+   ]
+  },
+  {
+   "heading": "THE SAME BONES, A DIFFERENT ANIMAL",
+   "paragraphs": [
+    "Underneath it is still a Pinzgauer: a central backbone tube with the drivetrain inside it, swing half-axles, portal hubs and pneumatically engaged differential locks. What changed was everything you touch. The Turbo D got disc brakes, a slightly wider track, bigger tires and, on most trucks, a ZF four-speed automatic, with a five-speed manual as the option. The 716 carries what the old 6×6 712 carried, and the 718 carries more.",
+    "Owners on the Real 4x4s Pinzgauer forum are blunt about how little interchanges. 'Don't use anything you read for the 710/712 for the 716/718,' says one long-time owner. 'Very few things apply.' The wheel bolt pattern, outer axle housings and portals all differ, and the 716 got a self-levelling rear air spring that the petrol trucks never had."
+   ]
+  },
+  {
+   "heading": "P80, P90, P93 AND THE BRITISH YEARS",
+   "paragraphs": [
+    "The Turbo D was built in batches, with revisions that owners know by the year they were designed: P80 for the original, P90 for a 1990 update, and P93 for the 1993 version, which added an intercooled engine. The cooling system went through four versions, and the radiator cover (the 'nose') grew with them. One owner's P80 716 had the small nose and the 105 hp engine without an intercooler.",
+    "In 2000 Magna, which by then owned Steyr-Daimler-Puch, sold the Pinzgauer rights to Automotive Technik Ltd in the UK. Owners say the tooling moved from Graz between 2000 and 2002, and Austrian-built trucks carry chassis numbers below 6000. ATL fitted a five-cylinder 2.5-liter VW TDI from 2002–03 to meet Euro 3. After a run of takeovers that ended with BAE Systems, UK production ended around 2007."
+   ]
+  },
+  {
+   "heading": "SOLDIERS, FIRE CREWS AND TWENTY AMERICAN 718s",
+   "paragraphs": [
+    "Almost every Turbo D went to a government. The British Army used them as light gun tractors for the 105 mm Light Gun, New Zealand bought 321 in eight variants as its Light Operational Vehicle, and Malaysia took 168 716 gun tractors and 164 718 mortar carriers. Fire brigades, mountain rescue teams and oil companies bought the rest, often with bodies built to order.",
+    "The US Army bought about 20 turbo-diesel 718Ms in the early 1990s for special operations deep reconnaissance. They served in both Gulf wars before being phased out around 2010–11. Some of these were then sold as surplus, and they remain the rare Turbo Ds with an American paper trail. Everything else in the US arrived as a 25-year import."
+   ]
+  }
+ ],
+ "callout": {
+  "label": "SIDEBAR · THE GOVERNMENT LIQUIDATION TRUCKS",
+  "title": "How a handful of special-ops 718s ended up in barns",
+  "paragraphs": [
+   "In 2011, several Real 4x4s members bought ex-US military 718s through government surplus sales and compared notes. They reported that the trucks were set up as P90s, though some VINs suggested they had been built in the 1980s and upgraded before delivery. One importer said the upgraded trucks had their cowls cut by hand to clear the bigger radiator hoses.",
+   "The trucks came with lever ignition switches and military fittings, and some came without doors, windshields or roll bars. One buyer bought the take-off parts from another owner, then used wiper arms and heater parts from a G-Wagen and seat belts from an old Mercedes 280 SE. An importer converted the lever switch to a keyed one in about eight minutes using a lock and switch shared with the [[g-class/w460|G-Wagen]]."
+  ]
+ },
+ "engineering_intro": "The 716 and 718 keep the Pinzgauer's central-tube chassis, with the transfer case and differentials built into the backbone and portal reduction hubs at each wheel for ground clearance. Power comes from a Volkswagen 2.4-liter belt-driven SOHC inline-six turbo-diesel, the same family as the Volvo 740's D24T, driving a ZF 4HP22 automatic or a five-speed manual. The electrics run on 24 volts.",
+ "engineering": [
+  {
+   "k": "CHASSIS",
+   "v": "Central backbone tube with integrated drivetrain",
+   "note": "The diffs sit inside the tube. To remove the transfer case you have to support the body and take out the rear diff."
+  },
+  {
+   "k": "AXLES",
+   "v": "Swing half-axles with portal hubs",
+   "note": "Portal ratio 2.231:1, differential 2.81:1 (Steyr-Daimler-Puch spec). Front and rear diffs are the same unit."
+  },
+  {
+   "k": "SUSPENSION",
+   "v": "Coils front; 716 rear coil plus self-levelling air spring",
+   "note": "The 718's rear bogie is basically the 712's, rated for a higher GVW."
+  },
+  {
+   "k": "LOCKERS",
+   "v": "Pneumatic diff locks, switchable on the move",
+   "note": "Air lines, valves under the centre dash and a filter/dryer under the glovebox. Melted lines near the exhaust are a known cause of slow unlocking."
+  },
+  {
+   "k": "ENGINE",
+   "v": "VW 2.4 L SOHC I6 turbo-diesel (D24T)",
+   "note": "Intercooled from P93 (owners cite the ACL code); ATL trucks from 2002–03 used the 2.5 L five-cylinder TDI (BBR)."
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "ZF 4HP22 four-speed auto or five-speed manual",
+   "note": "Transfer case 1.061 high, 2.452 low. Most Turbo Ds have the auto."
+  }
+ ],
+ "generations_table": [
+  {
+   "years": "1985/86–1989",
+   "platform": "P80",
+   "engine": "VW 2.4 TD I6, no intercooler",
+   "output": "≈105 hp (owner figure)",
+   "note": "Small radiator nose; cooling versions A and B (chassis numbers up to 1790). The earlier TDs were known to run hot."
+  },
+  {
+   "years": "1990–1992",
+   "platform": "P90",
+   "engine": "VW 2.4 TD I6",
+   "output": "[TO RESEARCH]",
+   "note": "Larger nose and revised cooling (versions C and D from chassis 1791). The ex-US special-ops 718s were P90s or upgraded P80s."
+  },
+  {
+   "years": "1993–c. 2002",
+   "platform": "P93",
+   "engine": "VW 2.4 TD I6, intercooled",
+   "output": "85 kW (114 hp) per German Wikipedia",
+   "note": "New injection pump part number. Built in Graz until 2000, then by Automotive Technik in the UK."
+  },
+  {
+   "years": "c. 2002–2007",
+   "platform": "ATL (UK)",
+   "engine": "VW 2.5 TDI five-cylinder (BBR)",
+   "output": "[TO RESEARCH]",
+   "note": "Euro 3 engine, automatic only. One owner measured about 15 mpg in an ATL 718K, against about 11.7 mpg for a P93."
+  }
+ ],
+ "buying_checks": [
+  {
+   "head": "Buy the complete one",
+   "body": "A UK specialist's first rule is to get the truck with everything fitted, because spares are never easy. Another veteran owner says to plan on buying two: a replacement diff can cost as much as some trucks sell for."
+  },
+  {
+   "head": "Test the diff locks and low range",
+   "body": "Operate every switch and lever and make sure the diff locks engage and release, and that low range works. Lazy unlocking usually points to the air system: heat-damaged lines near the exhaust, a leaking lock box, or a sticky valve under the centre dash."
+  },
+  {
+   "head": "Check the 716's rear air spring",
+   "body": "On a 716, disconnect the level control arm, push it fully up, run the engine above 1,800 rpm and check that the air bag inflates within about 30 seconds. A 716 that sits on its tail in the morning has a leak. The parts are expensive."
+  },
+  {
+   "head": "Autos: watch the first-to-second shift cold",
+   "body": "The ZF 4HP22 is generally reliable. Its best-known fault is sticking in first when cold, usually from a contaminated governor. Also check for harsh or slipping shifts, a worn park brake and a disconnected breather."
+  },
+  {
+   "head": "Look for oil where it shouldn't be",
+   "body": "Check the axle tubes and yellow swivel boots for leaks, the portals for weeping seals, and the engine for valve-cover, rear cam seal and oil-cooler leaks. Look in the coolant too: oil there points first to the oil cooler, then to the head gasket."
+  },
+  {
+   "head": "Listen at speed and from cold",
+   "body": "Start it from cold and look for smoke and leaks. Big miles can mean a tired rear diff, which whines at speed. Higher mileage alone isn't a big worry for the VW engine, which is relatively easy to source parts for."
+  },
+  {
+   "head": "Work out the year and build",
+   "body": "International VINs have no model year, so titles and insurers can get it wrong. The chassis number (last digits) and the transmission and transfer-case plates are better guides, and only a build certificate from the factory is definitive."
+  },
+  {
+   "head": "Check the paperwork before you pay",
+   "body": "Ex-military trucks were never certified for US roads, and some states treat them differently. A Colorado DMV clerk flagged a Pinzgauer VIN as military in 2022, and owners say California is especially hard. Buy one already titled in your state, or ask your DMV first."
+  }
+ ],
+ "repairs": [
+  {
+   "title": "Timing belt and water pump (D24T)",
+   "diff": "3 / 5",
+   "time": "[TO RESEARCH]",
+   "cost": "Parts plus labor",
+   "symptoms": "Usually none until it fails. The D24T's camshaft is belt-driven, so a truck without belt receipts should be treated as due. Refurbished trucks sold recently list a new cam belt and water pump among the first jobs.",
+   "fix": "Take off the engine cover to reach the front of the engine. Replace the timing belt with its tensioner and pulley, then the water pump and seal while the front of the engine is open. Follow the VW/Volvo D24 procedure and the belt interval in your manual. Owners source most engine service parts as Volvo 740 turbo-diesel or VW LT items.",
+   "tools": "Engine locking tools for the D24 · coolant · basic metric hand tools",
+   "parts": [
+    {
+     "name": "Timing belt, Volvo 740 2.4 TD (D24T)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,timing+belt,5716"
+    },
+    {
+     "name": "Timing belt tensioner, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,timing+belt+tensioner,5721"
+    },
+    {
+     "name": "Water pump, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,cooling+system,water+pump,2208"
+    }
+   ]
+  },
+  {
+   "title": "Oil leaks and oil consumption",
+   "diff": "2 / 5",
+   "time": "≈ 1–3 hours per seal",
+   "cost": "Parts plus labor",
+   "symptoms": "Oil under the truck, topping up every day on a road trip (one owner added 3–4 quarts every 400–500 miles), oil on the valve cover.",
+   "fix": "Degrease the underside and the engine, take a baseline photo and drive. Then work through the usual suspects. One owner replaced his valve-cover gasket three times before finding the leak was the rear camshaft seal. Early TDs also have an oil cooler between the filter and the block that is known to leak. A valve-cover gasket from a 1986 Volvo 740 turbo-diesel fitted one US 718.",
+   "tools": "Degreaser and pressure washer · metric sockets · seal puller",
+   "parts": [
+    {
+     "name": "Valve cover gasket, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,valve+cover+gasket,10710"
+    },
+    {
+     "name": "Camshaft seal, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,camshaft+seal,10063"
+    },
+    {
+     "name": "Oil cooler, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,oil+cooler,2084"
+    }
+   ]
+  },
+  {
+   "title": "Overheating, and oil in the coolant",
+   "diff": "3 / 5",
+   "time": "From an afternoon (hoses) to days (head gasket)",
+   "cost": "Parts plus labor",
+   "symptoms": "Temperature needle climbing toward the red on a long run, burst hoses, oil in the expansion tank.",
+   "fix": "Early TDs were known to run hot, which is why the cooling system was revised four times. With oil in the coolant, check the oil cooler first and then the head gasket, and check whether the truck has the coolant after-run pump. Replace hoses and the thermostat as a set, bleed the system carefully, and let the engine idle to cool before shutting it off after a hard drive.",
+   "tools": "Cooling-system pressure tester · compression tester for a suspected head gasket",
+   "parts": [
+    {
+     "name": "Radiator hoses, Volvo 740 2.4 TD (check fit on your Pinz)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,cooling+system,radiator+hose,10068"
+    },
+    {
+     "name": "Thermostat, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,cooling+system,thermostat,2200"
+    },
+    {
+     "name": "Cylinder head gasket, Volvo 740 2.4 TD",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,cylinder+head+gasket,5412"
+    }
+   ]
+  },
+  {
+   "title": "Portal (wheel drive) seals and outer bearings",
+   "diff": "3 / 5",
+   "time": "≈ Half a day per hub",
+   "cost": "About $75 in bearing and seal from a bearing house, versus about $230 one owner was quoted",
+   "symptoms": "Oil weeping from a portal, on the inside of the wheel or onto the brakes. One owner noticed a leaky rear portal about 2,000 miles after buying his 718.",
+   "fix": "Drain the portal, pull the hub, and replace the outer bearing and seal. The parts are standard sizes: owners list the outer wheel bearing as 9006245 (50.8 × 101.6 × 20.6 mm, sold as RLS16) and the seal as 7161340461 (70 × 90 × 10 mm). Clean out the old oil and refill with the correct wheel-drive oil.",
+   "tools": "Hub tools and drifts · bearing press or puller · new gaskets",
+   "parts": [
+    {
+     "name": "Shaft seal ring, wheel drive, 70x90x10 (7161340461)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/shaft-seal-ring-wheel-drive-70x90x10-7161340461"
+    },
+    {
+     "name": "Pinzgauer wheel drive parts (Group 04)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/pinzgauer-parts/wheel-drive-group-04/"
+    }
+   ]
+  },
+  {
+   "title": "Axle tube and swivel boot leaks",
+   "diff": "3 / 5",
+   "time": "A day or more",
+   "cost": "Parts plus labor",
+   "symptoms": "Oil in the yellow swivel boots, oil pouring out when you open a wheel drive filler, high oil levels downstream of a low diff.",
+   "fix": "First rule out an overfill. Each unit has two plugs, and the filler is the lower one: fill until oil comes out of it. Then check the breather on the central tube. Owners report that the axle-tube O-rings are a weak spot on diesels: early P90s and P80s use the same O-ring as the 710/712, while later P90s and P93s use a plastic ring and sealant instead.",
+   "tools": "Drain pans · sealant per the manual · axle removal wedge",
+   "parts": [
+    {
+     "name": "Pinzgauer differential parts (Group 03)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/pinzgauer-parts/differential-group-03/"
+    },
+    {
+     "name": "Dust seal 7161470471 (TD)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/dust-seal-7161470471/"
+    }
+   ]
+  },
+  {
+   "title": "Diff lock that won't release",
+   "diff": "2 / 5",
+   "time": "≈ 1–3 hours",
+   "cost": "Parts are often the whole lock box",
+   "symptoms": "The 4WD or diff lock engages instantly but only releases after a sharp turn.",
+   "fix": "Check the plastic air lines to the lock box: if the heat shield over the central tube is broken, exhaust heat can melt them. Then remove the lock box (two 6 mm screws), open it without tearing the diaphragm, clean corrosion off the pin and case, grease the moving parts and reseal the signal-wire entry. Finally check the valves under the centre dash cover and the filter and dryer under the glovebox. One owner says internal parts for the box aren't sold separately.",
+   "tools": "Basic hand tools · liquid sealant · compressed air",
+   "parts": [
+    {
+     "name": "Pinzgauer differential parts (Group 03)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/pinzgauer-parts/differential-group-03/"
+    }
+   ]
+  },
+  {
+   "title": "Brake calipers and master cylinder",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour per caliper",
+   "cost": "An importer offered new OEM calipers at about $70–74 each in 2012",
+   "symptoms": "Pulling, a soft pedal, or pitted caliper pistons.",
+   "fix": "When the pistons are pitted it doesn't make sense to rebuild, so fit new calipers (caliper only; the carriers were fine on the trucks one importer stripped). A 718 takes four left and four right. If the pedal is soft, rebuild or replace the master cylinder, then bleed the whole system.",
+   "tools": "Flare-nut wrenches · bleeder kit · fresh brake fluid",
+   "parts": [
+    {
+     "name": "Master cylinder, 716/718 (7161265210)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/master-cylinder-7161265210/"
+    },
+    {
+     "name": "Repair kit 7161265320",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/repair-kit-7161265320/"
+    },
+    {
+     "name": "Pinzgauer brake parts (Group 07)",
+     "supplier": "Expedition Imports",
+     "url": "https://expedition-imports.com/pinzgauer-parts/brakes-group-07/"
+    }
+   ]
+  },
+  {
+   "title": "ZF 4HP22 service: stuck in first when cold",
+   "diff": "3 / 5",
+   "time": "≈ 2 hours for a pan, filter and fluid service",
+   "cost": "Parts plus labor",
+   "symptoms": "No upshift, or a lazy one, from first when cold. The usual cause is dirt in the governor at the back of the box, which sits ahead of the filter.",
+   "fix": "Change the fluid and filter regularly and set the level correctly. The TD manual quoted on the forum gives 7.0 liters including the filter. Check the breather at the top rear of the box, because if it's disconnected dirt and water get in. Don't leave the engine running in Park for long. The 4HP22 was also used by Range Rover and BMW, and one owner found the clutch packs share part numbers with Rover, though first and second gear ratios differ.",
+   "tools": "Drain pan · torque wrench · new pan gasket",
+   "parts": [
+    {
+     "name": "ZF 4HP22 parts search",
+     "supplier": "Rovers North",
+     "url": "https://roversnorth.com/search?q=4HP22"
+    },
+    {
+     "name": "ZF 4HP22 parts search",
+     "supplier": "Atlantic British",
+     "url": "https://www.atlanticbritish.com/search?q=4HP22"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the biggest tire I can fit without a lift?",
+   "a": "The Turbo D's swing-axle suspension has no lift kits to speak of, so this is about gearing more than clearance. Owners' favorite is 255/85R16, about the same height as a 285/75R16 but narrower, which one Belgian owner says 'just fits perfect'. German Wikipedia says the trucks often run 235/85R16s, and ATL put 285/75R16 BFGoodrich Mud-Terrains on its 2.5 TDI 718. A US owner advises against 285s on a 2.4 because of the extra drag and scrub, and found 34-inch 8.25 tires too tall for the engine.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "What's the difference between a 716 and a 718?",
+   "a": "The axle count. A 716 is the 4×4 and a 718 is the 6×6, and the same body letters apply: M for soft top, K for hard top and so on. One owner says the extra axle is the only drivetrain difference, though the 716 has the self-levelling rear air spring and the 718's rear suspension is basically a 712's, rated for a heavier load.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "What are P80, P90 and P93?",
+   "a": "Revision levels, named for the years they were designed. P80 is the original, with a small radiator nose and no intercooler. P90 brought revised cooling and a larger nose in 1990. P93 added the intercooled engine. The cooling system changed at chassis 265, 1791 and 1937, according to an old TD manual quoted by an owner.",
+   "src": "WIKIPEDIA · REAL 4X4S"
+  },
+  {
+   "q": "How fast will it go?",
+   "a": "A 716 should cruise comfortably at 65 mph and touch 75 in short bursts, according to a UK owner. Wikipedia gives top speeds of 110 km/h (68 mph) for the 4×4 and 100 km/h (62 mph) for the 6×6. With the manual box you have to wind each gear out, or the turbo falls off boost in the next gear.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "Automatic or manual?",
+   "a": "Most Turbo Ds have the ZF automatic, and owners prefer it. The auto hides the old turbo-diesel's lag by kicking down. One veteran also says the auto helps protect the drivetrain by controlling the torque thrown at it.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "What fuel economy should I expect?",
+   "a": "Not much. One UK P93 718 owner measured about 20 L/100 km (11.8 mpg US), and a US owner remembered about 11 mpg from his P80 716. An ATL 718K with the 2.5 TDI and automatic returned about 15 mpg.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "How much can it tow?",
+   "a": "Wikipedia gives 5,000 kg (11,023 lb) on road for both the 4×4 and the 6×6, and 1,500 kg (4×4) or 1,800 kg (6×6) off road. Those figures are listed in Wikipedia's first-generation section, so check your truck's data plate. German Wikipedia puts the permitted gross weight at 3,850 kg for the 716 and 5,000 kg for the 718.",
+   "src": "WIKIPEDIA"
+  },
+  {
+   "q": "Which wheels fit?",
+   "a": "The TD uses 5×130 mm with an ET 73 offset on the stock 16-inch steel wheels, and military ball-seat bolts. Steel G-Wagen wheels (ET 63) only clear the calipers with half-worn pads. Owners have fitted SsangYong Rexton alloys (5×130, ET 43, about 2.4 in wider overall) and 2002–06 Sprinter T1N steel wheels with conical-seat bolts.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "Can I put more power through it?",
+   "a": "Carefully. Owners see the transfer case as the weakest link, and one remembers the original driveline being rated for about 140 hp. Popular swaps are a 2.5 TDI five-cylinder (from a VW, or from a 1999 Volvo V70 in one owner's 716) and, in the UK, a BMW diesel on the ZF auto. A specialist warns that an outer axle assembly is expensive and slow to source if you break one.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "Are parts available?",
+   "a": "For the engine, mostly yes: it's the VW/Volvo 2.4 turbo-diesel six, and owners buy filters at NAPA and gaskets as Volvo 740 parts. Bearings and seals are standard sizes from a bearing supplier. Pinzgauer-specific parts are scarcer and pricier; Expedition Imports in the US stocks TD parts.",
+   "src": "REAL 4X4S FORUM"
+  },
+  {
+   "q": "Can I register one in the US?",
+   "a": "It depends on the truck and the state. Austrian-built 716s and 718s are now old enough for the 25-year import exemption, but a veteran owner points out that registration is still up to each state. His 716 was registered in California in error, and the DMV grandfathered it when it noticed. In 2022 a Colorado DMV flagged a Pinzgauer VIN as military and refused it for road use.",
+   "src": "REAL 4X4S FORUM"
+  }
+ ],
+ "mods": [
+  {
+   "cat": "ENGINE REPOWER",
+   "why": "The 2.4 is willing but slow, especially in a 718. Owners have fitted the later 2.5 TDI five-cylinder, including a mechanical-pump version, and a UK owner used a BMW diesel on the ZF auto. The transfer case is the part to worry about.",
+   "who": [
+    {
+     "name": "Real 4x4s — Fuel consumption & 2.5 TDI swap thread",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11471"
+    },
+    {
+     "name": "Real 4x4s — How strong is the driveline?",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=8035"
+    }
+   ]
+  },
+  {
+   "cat": "WHEELS & TIRES",
+   "why": "255/85R16 is the owners' sweet spot. Sprinter T1N steel wheels with conical bolts or SsangYong Rexton alloys widen the stance. Continental MPT military-pattern tires are still stocked in the US.",
+   "who": [
+    {
+     "name": "Expedition Imports — Continental MPT tires",
+     "url": "https://expedition-imports.com/continental-mpt-tires/"
+    },
+    {
+     "name": "Real 4x4s — 718 wheel options",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7823"
+    }
+   ]
+  },
+  {
+   "cat": "OVERLAND & CAMPER BUILDS",
+   "why": "A 718 box body or ambulance is close to six feet wide inside, wide enough for a cross-ways bed, and the bodies were often built to order in the first place.",
+   "who": [
+    {
+     "name": "Real 4x4s — Costa Fabrications 718M overland build",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=10744"
+    },
+    {
+     "name": "Real 4x4s — Owner builds & accessories",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=18"
+    }
+   ]
+  },
+  {
+   "cat": "TOPS, DOORS & BODY",
+   "why": "Ex-military trucks often arrive without doors, windshields or tops. Owners have had canvas tops made locally, and the parts trade is a mix of new and take-off stock.",
+   "who": [
+    {
+     "name": "Expedition Imports — Pinzgauer tops and bows",
+     "url": "https://expedition-imports.com/pinzgauer-parts/tops-and-bows-group-26/"
+    },
+    {
+     "name": "Real 4x4s — Diesel body, tops and wiring",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=35"
+    }
+   ]
+  },
+  {
+   "cat": "HEAT & AIR",
+   "why": "Factory air was rare and the cabins are uninsulated. Owners add diesel heaters and roof-top air conditioning, and some trucks have factory-style integrated A/C.",
+   "who": [
+    {
+     "name": "Expedition Imports — Pinzgauer heater parts",
+     "url": "https://expedition-imports.com/pinzgauer-parts/heaters-group-30/"
+    },
+    {
+     "name": "Real 4x4s — Air con for 716TD",
+     "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4266"
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "years": "1985–2007 · imports & surplus",
+   "label": "Pinzgauer 716 / 718 (keyword search)",
+   "at_url": "https://www.autotempest.com/results?keywords=pinzgauer&minyear=1985&maxyear=2007",
+   "bat_url": "https://bringatrailer.com/steyr-puch/pinzgauer/"
+  }
+ ],
+ "social": [],
+ "forums": [
+  {
+   "name": "Real 4x4s (The Portal Hub) — Diesel Pinzgauers 716 and 718",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=32",
+   "note": "The main English-language board for Turbo D owners, with subforums for engines, drivelines and bodies."
+  },
+  {
+   "name": "Real 4x4s — Diesel engine issues",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=33",
+   "note": "D24T cooling, oil, injection pumps and rebuilds."
+  },
+  {
+   "name": "Real 4x4s — 716 and 718 library",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=8",
+   "note": "Brochures, ATL newsletters, buying advice and owner reports."
+  },
+  {
+   "name": "Real 4x4s — Classifieds",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewforum.php?f=5",
+   "note": "Pinzgauers, Haflingers and parts for sale."
+  }
+ ],
+ "related": [
+  {
+   "rel": "PREDECESSOR",
+   "name": "Pinzgauer 710 / 712",
+   "family": "pinzgauer",
+   "gen": "pinzgauer-710-712"
+  },
+  {
+   "rel": "GRAZ STABLEMATE",
+   "name": "G-Class W460",
+   "family": "g-class",
+   "gen": "w460"
+  },
+  {
+   "rel": "PORTAL-AXLE RIVAL",
+   "name": "Unimog U1300L",
+   "family": "unimog",
+   "gen": "unimog-u1300l"
+  },
+  {
+   "rel": "MILITARY CONTEMPORARY",
+   "name": "Defender 90 / 110",
+   "family": "land-rover",
+   "gen": "defender-90-110"
+  }
+ ],
+ "plate": [
+  {
+   "k": "MODELS",
+   "v": "716 (4×4) · 718 (6×6); M, K, MK and many special bodies"
+  },
+  {
+   "k": "PRODUCTION",
+   "v": "1985/86–2000 Graz (Steyr-Daimler-Puch); 2000–c. 2007 UK (Automotive Technik / BAE)"
+  },
+  {
+   "k": "REVISIONS",
+   "v": "P80 · P90 · P93; ATL 2.5 TDI"
+  },
+  {
+   "k": "ENGINE",
+   "v": "VW 2.4 L SOHC I6 turbo-diesel; intercooled from P93; 2.5 L I5 TDI from 2002–03"
+  },
+  {
+   "k": "TRANSMISSION",
+   "v": "ZF 4HP22 four-speed auto or five-speed manual"
+  },
+  {
+   "k": "TRANSFER CASE",
+   "v": "1.061 high / 2.452 low"
+  },
+  {
+   "k": "AXLE RATIOS",
+   "v": "Diff 2.81 · portal 2.231"
+  },
+  {
+   "k": "ELECTRICS",
+   "v": "24 volts"
+  },
+  {
+   "k": "LENGTH",
+   "v": "4,528 mm (716) / 5,308 mm (718)"
+  },
+  {
+   "k": "WIDTH / HEIGHT",
+   "v": "1,800 mm / 2,160 mm"
+  },
+  {
+   "k": "GROSS WEIGHT",
+   "v": "3,850 kg (716) / 5,000 kg (718)"
+  },
+  {
+   "k": "WHEELS",
+   "v": "16 in steel, 5 × 130 mm, ET 73"
+  }
+ ],
+ "photos": [
+  {
+   "file": "716-718-nz-snow-tekapo.jpg",
+   "alt": "A green New Zealand Army Pinzgauer 718 six-wheeler with a box body ploughing through fresh snow on a hillside near Tekapo",
+   "caption": "718 · SNOW NEAR TEKAPO, NEW ZEALAND",
+   "credit": "New Zealand Defence Force · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:OH_10-0445-031_-_Flickr_-_NZ_Defence_Force.jpg"
+  },
+  {
+   "file": "716-718-nz-snow-sunrise.jpg",
+   "alt": "A soldier stands beside a box-bodied Pinzgauer 718 on a snowfield at sunrise",
+   "caption": "718 · SNOWFIELD AT SUNRISE",
+   "credit": "New Zealand Defence Force · CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:OH_10-0445-057_-_Flickr_-_NZ_Defence_Force.jpg"
+  },
+  {
+   "file": "716-british-army-716m.jpg",
+   "alt": "A British Army Pinzgauer 716M soft-top turbo-diesel parked on coastal grass",
+   "caption": "716M · BRITISH ARMY GUN TRACTOR",
+   "credit": "Nick · CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pinzgauer_High_Mobility_All-Terrain_Vehicle_by_Nick.JPG"
+  },
+  {
+   "file": "716-718-austrian-ambulance.jpg",
+   "alt": "An Austrian Army Pinzgauer 718 six-wheel ambulance on grass during a field demonstration",
+   "caption": "718 AMBULANCE · AUSTRIAN ARMY DEMO",
+   "credit": "Tuelp · CC BY-SA 3.0",
+   "source": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:San_Pinzgauer.JPG"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Steyr-Puch Pinzgauer",
+   "url": "https://en.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+  },
+  {
+   "name": "Wikipedia (German) — Steyr-Puch Pinzgauer",
+   "url": "https://de.wikipedia.org/wiki/Steyr-Puch_Pinzgauer"
+  },
+  {
+   "name": "Wikipedia — Volkswagen D24TIC engine",
+   "url": "https://en.wikipedia.org/wiki/Volkswagen_D24TIC_engine"
+  },
+  {
+   "name": "Real 4x4s — Difference between P80, P90 and P93?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4169"
+  },
+  {
+   "name": "Real 4x4s — Chassis number breaks vs cooling system",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11897"
+  },
+  {
+   "name": "Real 4x4s — 716M buying advice",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4552"
+  },
+  {
+   "name": "Real 4x4s — US diesel 718 TDs",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6239"
+  },
+  {
+   "name": "Real 4x4s — Govt Liq 718",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6555"
+  },
+  {
+   "name": "Real 4x4s — U.S. 718 report",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6790"
+  },
+  {
+   "name": "Real 4x4s — 716 and 718 in the U.S.?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6891"
+  },
+  {
+   "name": "Real 4x4s — 718 Colorado title?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12123"
+  },
+  {
+   "name": "Real 4x4s — New member, advice on a diesel Pinz",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12113"
+  },
+  {
+   "name": "Real 4x4s — 716 and 718 tire sizes",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12145"
+  },
+  {
+   "name": "Real 4x4s — Wheel offset?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12343"
+  },
+  {
+   "name": "Real 4x4s — 718 wheel options",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7823"
+  },
+  {
+   "name": "Real 4x4s — 716M real world top speed?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9467"
+  },
+  {
+   "name": "Real 4x4s — Fuel consumption",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11471"
+  },
+  {
+   "name": "Real 4x4s — Gear ratios",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11658"
+  },
+  {
+   "name": "Real 4x4s — Engine codes",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11885"
+  },
+  {
+   "name": "Real 4x4s — How strong is the drive line?",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=8035"
+  },
+  {
+   "name": "Real 4x4s — ZF 4HP22 automatic transmission",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=2709"
+  },
+  {
+   "name": "Real 4x4s — TD trans capacity",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4722"
+  },
+  {
+   "name": "Real 4x4s — Oils",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=10284"
+  },
+  {
+   "name": "Real 4x4s — Wheel drive oil replacement",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7239"
+  },
+  {
+   "name": "Real 4x4s — Oil in wheel drive",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6493"
+  },
+  {
+   "name": "Real 4x4s — Axle oil leaks",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=5494"
+  },
+  {
+   "name": "Real 4x4s — 4WD won't unlock",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=2198"
+  },
+  {
+   "name": "Real 4x4s — Aux gearbox oil level high",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=6090"
+  },
+  {
+   "name": "Real 4x4s — Transfer case removal",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=4934"
+  },
+  {
+   "name": "Real 4x4s — 718 wheel bearings & seal",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9273"
+  },
+  {
+   "name": "Real 4x4s — TD new calipers",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7832"
+  },
+  {
+   "name": "Real 4x4s — Oil in coolant",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=12406"
+  },
+  {
+   "name": "Real 4x4s — New (to me) 718M and oil consumption",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9110"
+  },
+  {
+   "name": "Real 4x4s — Oil, air and fuel filters",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=2125"
+  },
+  {
+   "name": "Real 4x4s — U.S. 718 ignition switch replacement",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=7280"
+  },
+  {
+   "name": "Real 4x4s — P93 injection pump",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=5820"
+  },
+  {
+   "name": "Real 4x4s — 712/718 noob questions",
+   "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=11963"
+  },
+  {
+   "name": "Expedition Imports — Pinzgauer Turbo Diesel parts",
+   "url": "https://expedition-imports.com/pinzgauer-parts/turbo-diesel/"
+  },
+  {
+   "name": "RockAuto — Volvo 740 2.4 L turbo-diesel catalog",
+   "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426"
+  },
+  {
+   "name": "Hagerty Marketplace — 1990 Steyr-Puch Pinzgauer 716K",
+   "url": "https://www.hagerty.com/marketplace/auction/1990-Steyr-Daimler-Puch-Pinzgauer/58342ecc-ffd0-4adf-b031-85af9e79814f"
+  },
+  {
+   "name": "Bring a Trailer — 1986 Steyr-Puch Pinzgauer 718 (2022)",
+   "url": "https://bringatrailer.com/listing/1986-pinzgauer-718/"
+  }
+ ],
+ "baseline_service": {
+  "intro": "Most Turbo Ds have spent years in storage, so treat every fluid as unknown. Two things are unusual: the wheel drives take a polyglycol gear oil that doesn't mix with mineral or ordinary synthetic oils, and each diff and box has two plugs, with the lower one as the fill level. Owners also stress that 716/718 specs differ from the 710/712, so use a Turbo D manual.",
+  "items": [
+   {
+    "item": "Engine oil & filter",
+    "spec": "Full-synthetic diesel oil, e.g. Rotella T6 5W-40 or Mobil 1 0W-40 (owner and rebuilder picks) · capacity [CONFIRM IN MANUAL]",
+    "interval": "[CONFIRM IN MANUAL]",
+    "note": "Filter: Mann W 950/4 (VW 075 115 561); NAPA 1773 for US 718s. One owner used 7.8 L of 5W-40 in a 2006 718 with the 2.5 TDI.",
+    "parts": [
+     {
+      "name": "Oil filter, Volvo 740 2.4 TD (Mann W 950/4 equivalent)",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,oil+filter,5340"
+     }
+    ]
+   },
+   {
+    "item": "Air filter",
+    "spec": "Mann C 15 165/3 (SDP 716.1.19.502.2); NAPA 2523 for US 718s",
+    "interval": "Inspect at every oil change; replace when dirty",
+    "note": "Dusty trail use clogs it fast.",
+    "parts": [
+     {
+      "name": "Air filter, Volvo 740 2.4 TD",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,fuel+&+air,air+filter,6192"
+     }
+    ]
+   },
+   {
+    "item": "Fuel filter & water separator",
+    "spec": "Mann WK 842/2 (VW 191 127 401C) on most trucks; NAPA 3472 spin-on for US 718s",
+    "interval": "[CONFIRM IN MANUAL]",
+    "note": "One owner says there are four fuel filter types plus water separators, so match the one fitted.",
+    "parts": [
+     {
+      "name": "Fuel filter, Volvo 740 2.4 TD",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,fuel+&+air,fuel+filter,6200"
+     }
+    ]
+   },
+   {
+    "item": "Timing belt, tensioner & water pump",
+    "spec": "Belt-driven SOHC D24T",
+    "interval": "Replace if there's no record; interval [CONFIRM IN MANUAL]",
+    "note": "See the repair above.",
+    "parts": [
+     {
+      "name": "Timing belt, Volvo 740 2.4 TD",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,engine,timing+belt,5716"
+     }
+    ]
+   },
+   {
+    "item": "Coolant & hoses",
+    "spec": "Coolant type [CONFIRM IN MANUAL]",
+    "interval": "Flush and refill on purchase",
+    "note": "One owner assumes traditional IAT coolant because the radiator is brass and solder; confirm before filling. Bleed thoroughly, because the early trucks run hot.",
+    "parts": [
+     {
+      "name": "Radiator hoses, Volvo 740 2.4 TD",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/volvo,1985,740,2.4l+l6+diesel+turbocharged,1446426,cooling+system,radiator+hose,10068"
+     }
+    ]
+   },
+   {
+    "item": "Automatic transmission (ZF 4HP22)",
+    "spec": "7.0 L including filter (TD manual, as quoted on Real 4x4s) · fluid type [CONFIRM IN MANUAL]",
+    "interval": "Change regularly; check the level correctly",
+    "note": "Check that the breather at the top rear of the box is connected.",
+    "parts": [
+     {
+      "name": "ZF 4HP22 parts search",
+      "supplier": "Rovers North",
+      "url": "https://roversnorth.com/search?q=4HP22"
+     }
+    ]
+   },
+   {
+    "item": "Manual gearbox",
+    "spec": "2.0 L (TD manual, per an owner) · Redline MT-90 is the forum standard",
+    "interval": "[CONFIRM IN MANUAL]",
+    "note": "Only on manual-box trucks.",
+    "parts": []
+   },
+   {
+    "item": "Transfer case & differentials",
+    "spec": "Oil type [CONFIRM IN MANUAL]",
+    "interval": "Drain and refill on purchase",
+    "note": "Each has two plugs: fill until oil runs out of the lower plug, or you'll overfill it. Oil can migrate between units through the shared breather on the central tube, so check every level.",
+    "parts": [
+     {
+      "name": "Pinzgauer differential parts (Group 03)",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/pinzgauer-parts/differential-group-03/"
+     }
+    ]
+   },
+   {
+    "item": "Wheel drives (portals)",
+    "spec": "Mobil Glygoyle 30 polyglycol, about 400 cc per wheel (owner figure); Redline Heavy ShockProof is one owner's researched substitute",
+    "interval": "Drain, flush and refill on purchase",
+    "note": "Glygoyle doesn't mix with mineral or PAO synthetic oils, so flush thoroughly before switching. Owners say the TD's wheel-drive oil spec differs from the 710/712's.",
+    "parts": [
+     {
+      "name": "Shaft seal ring, wheel drive (7161340461)",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/shaft-seal-ring-wheel-drive-70x90x10-7161340461"
+     }
+    ]
+   },
+   {
+    "item": "Brake fluid",
+    "spec": "Type [CONFIRM IN MANUAL]",
+    "interval": "Flush on purchase",
+    "note": "Inspect the calipers for pitted pistons while you bleed.",
+    "parts": [
+     {
+      "name": "Pinzgauer brake parts (Group 07)",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/pinzgauer-parts/brakes-group-07/"
+     }
+    ]
+   },
+   {
+    "item": "Diff-lock air system",
+    "spec": "Lines, valves, lock boxes, filter/dryer under the glovebox",
+    "interval": "Inspect on purchase",
+    "note": "Check the heat shield over the central tube, and that every lock engages and releases.",
+    "parts": []
+   },
+   {
+    "item": "716 rear air spring",
+    "spec": "Levelling valve and air bag",
+    "interval": "Test on purchase",
+    "note": "With the level arm pushed up and the engine above 1,800 rpm, the bag should inflate within about 30 seconds.",
+    "parts": [
+     {
+      "name": "Expedition Imports parts search: air spring",
+      "supplier": "Expedition Imports",
+      "url": "https://expedition-imports.com/search.php?search_query=air+spring"
+     }
+    ]
+   },
+   {
+    "item": "Batteries & 24 V charging",
+    "spec": "24-volt system",
+    "interval": "Load-test on purchase",
+    "note": "Some parts, such as the fuel cut-off solenoid, are 24 V specific. One importer found a truck that had been fitted with a 12 V solenoid.",
+    "parts": []
+   }
+  ]
+ }
+}

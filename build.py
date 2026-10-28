@@ -145,6 +145,7 @@ def _confirm_txt(m):
     return t[0].lower() + t[1:].lower() if t.isupper() or t.startswith('confirm ') else t
 
 def confirm_plain(text):
+    text = re.sub(r'\s*\[TO RESEARCH[^\]]*\]', ' —', str(text))
     return CONFIRM_RE.sub(lambda m: f' ({_confirm_txt(m)})', str(text))
 
 def confirm_html(html):
@@ -465,6 +466,8 @@ def main():
         html, _ = affiliate_rewrite(html, AFFILIATES)
         html = prettify_html(html, out)
         html = responsive_imgs(html)
+        if 'TO RESEARCH' in html:
+            html = re.sub(r'\s*\[TO RESEARCH[^\]]*\]', ' —', html)
         if 'CONFIRM' in html:
             html = confirm_html(html)
         new_out = pretty_out(out)
