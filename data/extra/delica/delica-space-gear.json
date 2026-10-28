@@ -1,0 +1,341 @@
+{
+ "fitment": {
+  "stock": [
+   "225/80R15 (Japanese-market 4WD grades)"
+  ],
+  "wheel": {
+   "offset": "Stock rim 15x6, ≈4.25 in backspacing (Delica Canada)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "225/80R15 (≈29 in); 245/75R16 only with heavy trimming",
+    "note": "A long-time Delica Canada member says 245/75R16 'may' fit but needs a lot of trimming, and you'll need a lift to clear the wheel wells at full articulation."
+   },
+   {
+    "lift": "2 in",
+    "size": "30 in",
+    "note": "One owner with a 2 in lift (torsion crank, spacers, stiffer rear springs) found 31x10.5 Duratracs rubbed on compression in turns even after trimming, and said he should have gone with 30s. Another tried 31 in snow tires on a 2 in lift and backed off because they rubbed a little."
+   },
+   {
+    "lift": "2.5 in",
+    "size": "31x10.5R15",
+    "note": "Attempted on a Series 2 with 15x8 +0 wheels; the owner had already trimmed the lower valence and inner fender liner. Flares and a sliding-door extender bracket are common additions."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1994",
+   "change": "Delica Space Gear launched in Japan on 12 May on the second-generation Pajero platform. 4WD engines are the 2.4 4G64, the 3.0 6G72 V6 and the 2.8 4M40 turbo-diesel (125 PS, mechanical injection pump), with a five-speed manual or four-speed automatic",
+   "flag": "note"
+  },
+  {
+   "year": "1994–1997",
+   "change": "Series 1 diesels: owners on Delica Canada say the early mechanical injection pump is prone to leaks and failure, though it can be rebuilt and recalibrated in North America",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "Green Field special edition (2.8 diesel 4WD automatic) listed from May",
+   "flag": "note"
+  },
+  {
+   "year": "1997",
+   "change": "Series 2 facelift from July: new lights and front panel, moulded bumper replaces the three-section bull bar, electronically controlled injection pump, and the 4M40 is rated at 140 PS / 32 kgf·m. The 4WD 2.4 petrol leaves the range",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "The 4WD diesel five-speed manual disappears from the Japanese catalogue after the June 1998 update; automatics only from then on",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "As of October 2026, vans built up to about October 2001 are 25 years old and federally importable into the US",
+   "flag": "note"
+  },
+  {
+   "year": "2002",
+   "change": "20th Anniversary Limited in January; final facelift in August, after which the Japanese range is 4WD only",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "The 2.8 diesel last appears in the April–October 2004 catalogue; from October the Space Gear is 3.0 V6 only",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "Active Field Edition (3.0 V6) arrives in January and runs to the end",
+   "flag": "note"
+  },
+  {
+   "year": "2007",
+   "change": "Japanese catalogue ends in January; the Outlander-based Delica D:5 replaces it",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every Space Gear in North America is a right-hand-drive gray import, and the same body was sold with rear-wheel drive, several engines and a dozen grades. The chassis code tells you what you're looking at.",
+  "items": [
+   {
+    "head": "Chassis code",
+    "body": "4WD wagons include PD4W (2.4 petrol), PD6W (3.0 V6), PD8W and PE8W (2.8 diesel) and the long-wheelbase PF6W and PF8W. Rear-drive codes include PA4W (2.4), PA5W (2.5 diesel) and PB6W (3.0 LWB). Bring a Trailer listings show frame numbers such as PD6W0400925 and PE8W0600311."
+   },
+   {
+    "head": "Type-code prefix",
+    "body": "Japanese papers show prefixes such as E-, KD-, KH-, GF- and GH- in front of the chassis code (for example KH-PE8W or GH-PD6W). JDMBUYSELL explains these as emissions-regulation markers, so they help date a van."
+   },
+   {
+    "head": "Series 1 vs Series 2",
+    "body": "Series 1 vans (1994–mid-1997) have the three-section bull-bar front; Series 2 vans have a moulded bumper and revised lights. Diesel Series 2 vans have the electronically controlled injection pump, which matters when it needs work."
+   },
+   {
+    "head": "Is it really 4WD?",
+    "body": "Look for the Super Select lever and display. On the Delica Canada forum, a member ordering lower ball joints was twice sent a 2WD-type joint, and the factory manual shows the 2WD and 4WD joints mounting differently, so check the code before you buy the van or its parts."
+   },
+   {
+    "head": "Roof",
+    "body": "Grades came with an Aero Roof (about 1,965 mm tall on SWB 4WD), High Roof (2,060 mm), twin sunroofs or the glass Crystal Lite Roof; long-wheelbase Crystal Lite vans are 2,070 mm tall. Check roof height before you buy for a garage or a roof-top tent."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Fuel tank",
+   "v": "75 L (19.8 US gal)",
+   "note": "Japanese catalogue"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "190–195 mm (7.5–7.7 in)",
+   "note": "Japanese catalogue, by grade"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,910–2,170 kg (4,211–4,784 lb)",
+   "note": "4WD grades, 2.4 SWB to diesel LWB"
+  },
+  {
+   "k": "Turning circle",
+   "v": "6.0 m radius (SWB) / 6.4 m (LWB)",
+   "note": "Minimum turning radius, Japanese catalogue"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "8.2–8.7 km/L (≈19–20 US mpg)",
+   "note": "2.8 diesel, Japan 10-15 lab cycle, 2004 list via JDMBUYSELL"
+  },
+  {
+   "k": "Seating",
+   "v": "7–8 (4WD); up to 10 in some rear-drive long vans",
+   "note": "Japanese catalogue"
+  },
+  {
+   "k": "Dimensions",
+   "v": "4,685 × 1,695 mm SWB; 5,085 mm LWB",
+   "note": "Length × width"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Space Gears sell in roughly the same band as L300 Star Wagons on Bring a Trailer. Clean Chamonix and Jasper vans and well-built modified ones bring the most.",
+  "ranges": [
+   {
+    "cond": "Tired / high miles",
+    "range": "Under $8k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–12k"
+   },
+   {
+    "cond": "Excellent or well modified",
+    "range": "$12k–17k"
+   }
+  ],
+  "note": "Based on 11 Space Gear sales on Bring a Trailer from June 2025 to May 2026: $8,000 (1995 turbo-diesel) to $16,250 (1999 Jasper V6). A 1997 Exceed turbo-diesel was bid to $9,400 without selling in October 2026. JDMBUYSELL's seller-reported PD8W sales (24, March 2023–October 2026) have a $17,400 median and a $6,800–37,000 range, which it hasn't verified."
+ },
+ "docs": [
+  {
+   "name": "Megazip — genuine Mitsubishi parts catalogue for the Delica Space Gear",
+   "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear",
+   "note": "Exploded diagrams and OEM part numbers; search by your frame number"
+  },
+  {
+   "name": "Gulliver (221616.com) — Japanese catalogue specifications by grade",
+   "url": "https://221616.com/catalog/mitsubishi/delicaspacegear/199405_200701/",
+   "note": "Every Japanese grade from May 1994 to January 2007, with type code, engine, weight and dimensions (Japanese)"
+  },
+  {
+   "name": "Mitsubishi L400 / Delica Space Gear factory workshop manual",
+   "note": "Owners' clubs keep copies; buy a legitimate copy where you can. The maintenance label on the air-intake duct under the hood lists fluids."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "The Space Gear was never sold new in the US. NHTSA's import exemption covers vehicles at least 25 years old, counted from each vehicle's build date (49 CFR 591.5). As of October 2026 that covers vans built up to about October 2001: every Series 1 and the early Series 2s, but not the post-2002 facelift models. The EPA exemption is separate. It requires the vehicle to be at least 21 years old and in its original configuration, or fitted with an equivalent or newer EPA-certified engine and emissions system, so keep the import paperwork and leave the EGR system in place.",
+   "Federal eligibility doesn't settle registration. Titling, safety inspections and emissions rules for right-hand-drive gray imports vary by state, and California is the hardest. Many US vans come through Canada, where the threshold is 15 years. Canadian provinces have their own inspection and RHD rules, and Delica Canada's importing forum covers headlight compliance and out-of-province inspections. A Canadian-registered van still has to meet the US 25-year rule."
+  ]
+ },
+ "production": {
+  "intro": "Japan's catalogue ran from May 1994 to January 2007, and sales tailed off sharply in the final years.",
+  "items": [
+   {
+    "k": "Japanese catalogue",
+    "v": "May 1994 – January 2007"
+   },
+   {
+    "k": "Japan sales (fiscal years)",
+    "v": "2002: 4,559 · 2003: 3,227 · 2004: 3,142 · 2005: 3,428 · 2006: 1,451"
+   },
+   {
+    "k": "Assembly",
+    "v": "Japan (Nagoya); also Philippines, Taiwan (CMC) and China"
+   },
+   {
+    "k": "Spin-offs",
+    "v": "Hyundai Starex (A1, 1997–2007), Dongfeng Fengxing Lingzhi (China)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Green Field",
+    "years": "1995",
+    "note": "2.8 diesel 4WD automatic special, May–October 1995"
+   },
+   {
+    "name": "Jasper",
+    "years": "1995–1999",
+    "note": "4WD special edition in Aero Roof and High Roof versions, mostly 2.8 diesel; a 1999 Jasper V6 sold on BaT in 2025"
+   },
+   {
+    "name": "Chamonix",
+    "years": "1995–2007",
+    "note": "The long-running 4WD special, offered with the 2.8 diesel and the 3.0 V6 in Aero Roof and High Roof versions"
+   },
+   {
+    "name": "20th Anniversary Limited",
+    "years": "2002",
+    "note": "January–August 2002, 2.8 diesel or 3.0 V6"
+   },
+   {
+    "name": "HDD Navi Edition",
+    "years": "2003",
+    "note": "3.0 V6, October–December 2003"
+   },
+   {
+    "name": "Active Field Edition",
+    "years": "2005–2007",
+    "note": "3.0 V6, the last special edition"
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Delica Canada | Mitsubishi Van Club",
+   "url": "https://delica.ca/forum/",
+   "note": "Owners' club and forum for Delicas, mostly in Canada, with technical libraries, an events board and a parts trader"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mitsubishi Delica (fourth generation)",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_Delica"
+  },
+  {
+   "name": "Motor-Fan — Delica Space Gear launch history (Japanese)",
+   "url": "https://motor-fan.jp/article/784129/"
+  },
+  {
+   "name": "Gulliver (221616.com) — Delica Space Gear catalogue (Japanese)",
+   "url": "https://221616.com/catalog/mitsubishi/delicaspacegear/199405_200701/"
+  },
+  {
+   "name": "Gulliver — 1998 Long Super Exceed 2.8 diesel (KD-PF8W)",
+   "url": "https://221616.com/catalog/mitsubishi/delicaspacegear/199405_200701/4003292/"
+  },
+  {
+   "name": "Gulliver — 1994 Exceed II 2.4 4WD (E-PD4W)",
+   "url": "https://221616.com/catalog/mitsubishi/delicaspacegear/199405_200701/4004590/"
+  },
+  {
+   "name": "Gulliver — 2004 Chamonix 2.8 diesel (KH-PE8W)",
+   "url": "https://221616.com/catalog/mitsubishi/delicaspacegear/199405_200701/10019439/"
+  },
+  {
+   "name": "JDMBUYSELL — Mitsubishi Delica PD8W buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/mitsubishi/delica/pd8w/"
+  },
+  {
+   "name": "JDMBUYSELL — Mitsubishi Delica buyer's guide",
+   "url": "https://www.jdmbuysell.com/blog/mitsubishi-delica/"
+  },
+  {
+   "name": "Delica Canada — Wheels and lift on L400",
+   "url": "https://delica.ca/forum/viewtopic.php?t=9542"
+  },
+  {
+   "name": "Delica Canada — 31x10.5 on Series 2 L400",
+   "url": "https://delica.ca/forum/viewtopic.php?t=19569"
+  },
+  {
+   "name": "Delica Canada — 2-inch lift",
+   "url": "https://delica.ca/forum/viewtopic.php?t=14332"
+  },
+  {
+   "name": "Delica Canada — Should I get it lifted in Japan? (sliding-door extender)",
+   "url": "https://delica.ca/forum/viewtopic.php?t=17422"
+  },
+  {
+   "name": "Delica Canada — L400 injection pump rebuild",
+   "url": "https://delica.ca/forum/viewtopic.php?t=17692"
+  },
+  {
+   "name": "Delica Canada — FEBEST ball joints",
+   "url": "https://delica.ca/forum/viewtopic.php?t=17411"
+  },
+  {
+   "name": "Delica Canada — Delica Space Gear L400 fluids",
+   "url": "https://delica.ca/forum/viewtopic.php?t=19695"
+  },
+  {
+   "name": "Delica Canada — Import, Inspection & Registration forum",
+   "url": "https://delica.ca/forum/viewforum.php?f=2"
+  },
+  {
+   "name": "Expedition Portal — Mitsubishi Delica L400 build thread",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1448571"
+  },
+  {
+   "name": "Bring a Trailer — Mitsubishi Delica auction results",
+   "url": "https://bringatrailer.com/mitsubishi/delica/"
+  },
+  {
+   "name": "Bring a Trailer — 1999 Delica Space Gear Jasper V6 (PD6W)",
+   "url": "https://bringatrailer.com/listing/1999-mitsubishi-delica-space-gear/"
+  },
+  {
+   "name": "Bring a Trailer — 2000 Delica Space Gear Chamonix turbodiesel (PE8W)",
+   "url": "https://bringatrailer.com/listing/2000-mitsubishi-delica-space-gear-chamonix/"
+  },
+  {
+   "name": "Bring a Trailer — 1997 Delica Space Gear Exceed turbodiesel 5-speed (PE8W)",
+   "url": "https://bringatrailer.com/listing/1997-mitsubishi-delica-space-gear-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1995 Delica Space Gear turbodiesel 5-speed (PD8W)",
+   "url": "https://bringatrailer.com/listing/1995-mitsubishi-delica-space-gear-15/"
+  },
+  {
+   "name": "eCFR — 49 CFR 591.5 (import exemptions, including the 25-year rule)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-591/section-591.5"
+  },
+  {
+   "name": "Megazip — Delica Space Gear genuine parts catalogue",
+   "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear"
+  }
+ ]
+}
