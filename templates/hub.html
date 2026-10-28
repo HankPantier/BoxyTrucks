@@ -18,7 +18,7 @@
   <section id="{{ grp.id }}" style="margin-bottom:56px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.model }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Full guide →</a></div>
     <div class="grid" style="--min:300px">{% for r in grp.repairs %}
-      <a class="card" href="{{ grp.href }}#repairs"><div class="body"><h3 style="font-size:21px">{{ r.title }}</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">{{ r.symptoms|striplk|truncate(160) }}</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY {{ r.diff }} · {{ r.time }}</span></div></a>{% endfor %}
+      <a class="card" href="{{ root }}repairs/{{ grp.fam }}/{{ grp.gen }}/{{ r.slug }}.html"><div class="body"><h3 style="font-size:21px">{{ r.title }}</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">{{ r.symptoms|striplk|truncate(160) }}</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY {{ r.diff }} · {{ r.time }}</span></div></a>{% endfor %}
     </div>
   </section>
   {% endfor %}

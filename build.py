@@ -68,6 +68,7 @@ STORIES = [
 HOME_CREDITS = ['Darina Rodionova', 'Hasse Lossius', 'Kristina', 'Caspian Dahlström', 'Charlota Blunarova']
 ALIASES = {('land-cruiser', '60-series'): ('land-cruiser', 'fj60')}
 LINK_RE = re.compile(r'\[\[([a-z0-9-]+)/([a-z0-9-]+)\|([^\]]+)\]\]')
+LINK_PLAIN = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
 
 
 from urllib.parse import urlparse, quote, parse_qsl, urlencode, urlunparse
@@ -133,6 +134,17 @@ def amz_q(pt, vehicle=''):
     if not has_pn and vehicle and vehicle.lower() not in q.lower():
         q = f'{q} {vehicle}'
     return q
+
+
+def repair_slug(title, used):
+    t = re.sub(r'\(.*?\)', '', str(title)).lower().replace('&', 'and')
+    t = re.sub(r'[^a-z0-9]+', '-', t).strip('-')
+    t = '-'.join(t.split('-')[:9]) or 'repair'
+    base, n = t, 2
+    while t in used:
+        t = f'{base}-{n}'; n += 1
+    used.add(t)
+    return t
 
 
 def mlabel(maker, title):
@@ -369,6 +381,11 @@ def main():
         AVATARS = {}
     ensure_variants()
     fams, flagship, pages, resources = load()
+    for _fs, _gp in pages.items():
+        for _gs, _p in _gp.items():
+            _used = set()
+            for _r in (_p or {}).get('repairs', []) or []:
+                _r['slug'] = repair_slug(_r.get('title', ''), _used)
     _cmp_early = defaultdict(list)
     for _f in sorted((DATA / 'compare').glob('*.json')) if (DATA / 'compare').exists() else []:
         _c = json.loads(_f.read_text())
@@ -648,11 +665,41 @@ def main():
                 continue
             h = href('../', slug, gs)
             if p.get('repairs'):
-                rep_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'fam_short': fam['short'], 'model': p['title'], 'href': h, 'repairs': p['repairs'], 'id': f'{slug}-{gs}'})
+                rep_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'fam_short': fam['short'], 'model': p['title'], 'href': h, 'repairs': p['repairs'], 'id': f'{slug}-{gs}', 'fam': slug, 'gen': gs})
             if p.get('mods'):
                 mod_groups.append({'maker': f'{mlabel(fam["maker"], fam["name"])}', 'model': p['title'], 'href': h, 'mods': p['mods'], 'fam': slug, 'gen': gs, 'order': len(mod_groups)})
         res_groups.append({'maker': fam['maker'], 'name': fam['name'], 'short': fam['short'], 'href': f'../models/{slug}/index.html', 'res': resources[slug]})
 
+    n_repair_pages = 0
+    for slug in FAMILY_ORDER:
+        if slug not in fams:
+            continue
+        fam = fams[slug]
+        for gs in gen_order(slug):
+            p = pages[slug].get(gs)
+            if not p or not p.get('repairs'):
+                continue
+            model = mlabel(fam['maker'], p['title'])
+            reps = p['repairs']
+            for r in reps:
+                rt = LINK_PLAIN(r.get('title', ''))
+                steps = [x.strip() for x in re.split(r'(?<=[.!?])\s+(?=[A-Z])', LINK_PLAIN(r.get('fix', ''))) if len(x.strip()) > 3]
+                tools = [x.strip() for x in str(r.get('tools', '')).split('·') if x.strip()]
+                url = SITE_URL + f'repairs/{slug}/{gs}/{r["slug"]}/'
+                howto = {'@context': 'https://schema.org', '@type': 'HowTo', 'name': f'{rt}: {model}', 'url': url,
+                         'description': LINK_PLAIN(r.get('symptoms', ''))[:300],
+                         'tool': [{'@type': 'HowToTool', 'name': t[:120]} for t in tools[:12]],
+                         'supply': [{'@type': 'HowToSupply', 'name': pt.get('name', '')} for pt in (r.get('parts') or [])][:12],
+                         'step': [{'@type': 'HowToStep', 'position': i + 1, 'text': st} for i, st in enumerate(steps)],
+                         'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}
+                others = [o for o in reps if o is not r]
+                render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, model=model, steps=steps, others=others,
+                       gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', og_type='article', part_search=suppliers_cfg.get(slug, []),
+                       crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
+                       jsonld=[howto], title=f'{rt} — {model} DIY repair guide | BoxyTrucks'[:110],
+                       description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
+                n_repair_pages += 1
+    print(f'  repair pages: {n_repair_pages}')
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s by model: symptoms, tools, steps and the parts you need, from Land Cruisers to Defenders and Jeeps.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})
     render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Who makes the parts and who builds the trucks: suspension, armor, lockers and full builds for every boxy 4x4 we cover, sorted by model.', credits='',
@@ -694,7 +741,7 @@ def main():
             add('Model guide', model, u, model, ' '.join(g.get('codes', [])) + ' ' + g['summary'] + ' ' + (p.get('verdict', '') if p else ''))
             if not p: continue
             for r in p.get('repairs', []):
-                add('Repair', r['title'], u + '#repairs', model, r.get('symptoms', '') + ' ' + r.get('tools', ''))
+                add('Repair', r['title'], f'/repairs/{slug}/{gs}/{r["slug"]}/', model, r.get('symptoms', '') + ' ' + r.get('tools', ''))
             for f in p.get('faq', []):
                 add('Question', f['q'], u + '#faq', model, f['a'])
             for m in p.get('mods', []):

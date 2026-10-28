@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}repairs/index.html">Repair guides</a><span>/</span><a href="{{ gen_href }}#repairs">{{ model }}</a><span>/</span><span>{{ r.title|striplk }}</span></nav>
+  <span class="eyebrow brass">DIY repair · {{ model }}</span>
+  <h1 style="font-size:clamp(32px,4.6vw,56px);line-height:1.04;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ r.title|striplk }}</h1>
+  <div class="rp-chips"><span><b>DIFFICULTY</b> {{ r.diff }}</span><span><b>TIME</b> {{ r.time }}</span><span><b>COST</b> {{ r.cost }}</span></div>
+</div></section>
+
+<div class="wrap section" style="padding-top:40px"><div class="rp-grid">
+  <article class="rp-main">
+    <section><h2 class="h-section">Symptoms</h2><div class="prose"><p>{{ r.symptoms|lk }}</p></div></section>
+
+    <section><h2 class="h-section">The fix, step by step</h2>
+      <ol class="rp-steps">{% for st in steps %}<li><span>{{ st }}</span></li>{% endfor %}</ol>
+    </section>
+
+    {% if r.tools %}<section><h2 class="h-section">Tools &amp; part numbers</h2>
+      <ul class="rp-tools">{% for t in r.tools.split('·') if t.strip() %}<li>{{ t.strip() }}</li>{% endfor %}</ul>
+    </section>{% endif %}
+
+    <section><h2 class="h-section">Where to buy the parts</h2>
+      {% if r.parts %}<div class="rp-parts">{% for pt in r.parts %}{% set q = amz_q(pt, model) %}<div class="rp-part"><span class="nm">{{ pt.name }}</span><span class="links"><a class="btn solid" href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.supplier or 'Buy' }} ↗</a>{% if q %}<a class="btn" href="https://www.amazon.com/s?k={{ q|urlencode }}" target="_blank" rel="noopener sponsored">Amazon ↗</a>{% endif %}</span></div>{% endfor %}</div>
+      {% else %}{% for s in part_search %}<p><a class="inline-link" href="{{ s.search.replace('{q}', (r.title|striplk ~ ' ' ~ p.title)|replace(' ', '+')|urlencode|replace('%2B','+')) }}" target="_blank" rel="noopener">Search {{ s.name }} ↗</a></p>{% endfor %}{% endif %}
+      <p class="sub-intro" style="margin-top:14px">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ (model ~ ' parts')|urlencode }}&amp;_sacat=6000" target="_blank" rel="noopener sponsored">Search eBay Motors for {{ model }} parts →</a></p>
+    </section>
+
+    <section class="rp-safety"><span class="eyebrow">Before you start</span><p>Rated for a competent home mechanic with a decent tool kit. Confirm torque figures, fluids and procedures against the factory service manual for your VIN, support the truck on stands rather than a jack, and work at your own risk (<a href="{{ root }}about/disclaimer.html">disclaimer</a>).{% if affiliates_on %} Some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>, which pay us a small commission at no cost to you.{% endif %}</p></section>
+  </article>
+
+  <aside class="rp-side">
+    <a class="card rp-back" href="{{ gen_href }}"><span class="eyebrow">The full guide</span><strong>{{ model }}</strong><span>History, best years to buy, buying checks, service, fitment and every repair →</span></a>
+    {% if others %}<div class="rp-more"><span class="eyebrow">More {{ p.title }} repairs</span><ul>{% for o in others %}<li><a href="{{ root }}repairs/{{ fam_slug }}/{{ gen_slug }}/{{ o.slug }}.html">{{ o.title|striplk }}</a></li>{% endfor %}</ul></div>{% endif %}
+  </aside>
+</div></div>
+{% endblock %}

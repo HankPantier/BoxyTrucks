@@ -204,7 +204,7 @@
         <div class="stack">
         {% for r in p.repairs %}
           <article class="repair">
-            <div class="meta"><span class="t">{{ r.title }}</span><div class="s"><span>DIFFICULTY · {{ r.diff }}</span><span>TIME · {{ r.time }}</span><span>SHOP COST · {{ r.cost }}</span></div></div>
+            <div class="meta"><a class="t" href="{{ root }}repairs/{{ fam.slug }}/{{ p.slug }}/{{ r.slug }}.html">{{ r.title|striplk }} →</a><div class="s"><span>DIFFICULTY · {{ r.diff }}</span><span>TIME · {{ r.time }}</span><span>SHOP COST · {{ r.cost }}</span></div></div>
             <div class="detail">
               <div><span class="lbl">SYMPTOMS</span><span class="txt">{{ r.symptoms|lk }}</span></div>
               <div><span class="lbl">THE FIX</span><span class="txt">{{ r.fix|lk }}</span></div>
