@@ -1,0 +1,471 @@
+{
+ "fitment": {
+  "stock": [
+   "185/75R16 93T (current factory size)",
+   "175/80R16 (early trucks)",
+   "16-inch steel wheels 5J ET 58; 5½J/6J ET 40 alloys"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x139.7 (5x5.5\")",
+   "offset": "ET 58 (steel, 5J) · ET 40 (5½J and 6J); 40–58 permitted",
+   "center_bore": "98.0 mm",
+   "lug_thread": "M12x1.25 (19 mm hex)",
+   "lug_torque": "95 ± 5 N·m (≈70 lb-ft)"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "205/70R16 (≈27.3 in) or 205/70R15",
+    "note": "NIVA-FAQ owners report that a 205/70R15 clears on ET ~20–45 wheels, but a 205/75R15 rubs the front of the arch at full lock and the rear arch at full droop. Alloys need tapered-seat nuts with a shoulder; don't use the steel-wheel nuts."
+   },
+   {
+    "lift": "35 mm (factory Bronto)",
+    "size": "235/75R16",
+    "note": "The 2017 Lada 4x4 Bronto runs Bontyre Stalker 235/75R16s with ground clearance raised another 35 mm and plastic arch protection."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "none",
+  "items": [
+   {
+    "title": "Upper steering shaft may crack (Russia)",
+    "years": "Lada 4x4, 2018",
+    "ref": "Rosstandart, 29 November 2018",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B2%D0%B0_(%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C)",
+    "summary": "Voluntary recall of 3,300 Lada 4x4s because the end of the upper steering shaft could crack. Never sold new in the US, so NHTSA has no Niva campaigns."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Front CV joints with more splines (Z = 24)",
+    "ref": "VAZ information letter 25-2004-И",
+    "summary": "VAZ began fitting front-wheel drive joints with an increased spline count on the 21213 family in 2004, so match replacement joints and shafts to your truck.",
+    "url": ""
+   },
+   {
+    "title": "Maintenance-free front hub bearings",
+    "ref": "Production change, October 2016",
+    "summary": "Bearings that don't need adjusting, a revised steering knuckle, independent front-axle mounting and gas shocks. Owners retrofit the 21214 knuckles, hubs and bearings to older trucks.",
+    "url": ""
+   },
+   {
+    "title": "Transfer-case centring",
+    "ref": "Workshop procedure (Руководство по обслуживанию и ремонту)",
+    "summary": "The fix for driveline vibration: dynamic centring of the transfer case on its mounts, with height shims on the VAZ-2121.",
+    "url": "https://www.niva-faq.msk.ru/tehnika/transmis/pazdatka/centre.htm"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1977",
+   "change": "Series production of the VAZ-2121 begins in Tolyatti on 5 April: 1.6 carburettor four, four-speed gearbox, full-time 4WD with lockable centre differential",
+   "flag": "note"
+  },
+  {
+   "year": "1978",
+   "change": "Export debut at the Paris salon. UK sales begin in November (left-hand drive until February 1983)",
+   "flag": "note"
+  },
+  {
+   "year": "1981",
+   "change": "Lada Canada adds the Niva for the 1981 model year and sells more than 12,000 in the first year",
+   "flag": "note"
+  },
+  {
+   "year": "1985",
+   "change": "Around now, early chrome details and the red-background badge disappear. Pre-1985 trucks are the collectors' Nivas",
+   "flag": "note"
+  },
+  {
+   "year": "1993",
+   "change": "VAZ-21213: 1.7 Solex carburettor engine, five-speed gearbox, 3.9 axles, deeper tailgate and new interior. The 21214 with GM single-point injection follows (1994)",
+   "flag": "note"
+  },
+  {
+   "year": "1995",
+   "change": "Series production of the five-door VAZ-2131 (500 mm longer wheelbase, 65-litre tank)",
+   "flag": "note"
+  },
+  {
+   "year": "1998",
+   "change": "Final Canadian model year: the last Lada sold in Canada. A VAZ-2131 is dropped at the North Pole and another reaches Everest base camp",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "Renamed Lada 4x4 after GM-AvtoVAZ takes the Niva name; the carbureted 21213 is dropped",
+   "flag": "note"
+  },
+  {
+   "year": "2009",
+   "change": "21214M updates (finished in 2011): reworked rear suspension, new clutch, better brakes, Chevrolet Niva parts, power steering on all models. ABS from 1 October 2011",
+   "flag": "note"
+  },
+  {
+   "year": "2016",
+   "change": "October: front hub bearings that don't need adjusting, revised knuckles, independent front-axle mounting, gas shocks",
+   "flag": "note"
+  },
+  {
+   "year": "2018",
+   "change": "Rosstandart recall of 3,300 Lada 4x4s for possible cracks in the upper steering shaft (29 November)",
+   "flag": "recall"
+  },
+  {
+   "year": "2021",
+   "change": "Renamed Lada Niva Legend in January, after a 2020 facelift that ended the pickup",
+   "flag": "note"
+  },
+  {
+   "year": "2022",
+   "change": "Sanctions halt production. The Classic'22 returns in July without ABS, EBD or ERA-GLONASS, and the five-door ends in January",
+   "flag": "note"
+  },
+  {
+   "year": "2026",
+   "change": "June update: 90 hp 1.8 VAZ-11184, Vesta ventilated discs, single transfer-case lever, driver's front airbag; production from 20 July, sales from 31 August",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Every US Niva is an import, and many variants share the same body, so check what you're actually looking at before you pay for it.",
+  "items": [
+   {
+    "head": "VIN",
+    "body": "AvtoVAZ's VIN is XTA (manufacturer), six characters for the type and variant (for example 212100 for a VAZ-2121), one character for the model year, and a seven-digit serial. Hagerty's records show XTA212100E… for a 1984 and XTA212100P… for a 1993. AvtoVAZ starts each model year on 1 July. The plastic data plate is on the right-hand body side panel."
+   },
+   {
+    "head": "2121 or 21213/21214",
+    "body": "The 1.6 VAZ-2121 has VAZ-2106 horizontal tail lights, a high loading lip, a four-speed and the old VAZ-2106 dashboard. From 1993–94 the 1.7 trucks have vertical tail lights, a tailgate that reaches the bumper, a five-speed and a VAZ-2108-style dash. The VAZ-21219 (1991–94) is a hybrid: the old body with the new 1.7 drivetrain."
+   },
+   {
+    "head": "Early details",
+    "body": "Pre-1985 trucks have a chrome grille surround and sill trim, and a red-background front badge. They're rare in good condition and the ones collectors pay for."
+   },
+   {
+    "head": "Export variants",
+    "body": "The 21212 is the right-hand-drive UK version (1983–95), the 21211 a 1.3 for high-tax markets, and the 21215 a Peugeot-diesel export model (1999–2007). The Cossack was a UK and importer trim package, not a factory model."
+   },
+   {
+    "head": "Not a Niva",
+    "body": "The Chevrolet Niva (VAZ-2123), sold since 2020 as the Lada Niva and then Niva Travel, is a different and newer design. Bronto-built derivatives such as the long Fora (VAZ-212180) carry their own X7G VIN prefix."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Towing",
+   "v": "600 kg (≈1,320 lb) braked · 300 kg (≈660 lb) unbraked",
+   "note": "2018 manual; 25–50 kg ball load, 100 km/h limit"
+  },
+  {
+   "k": "Curb weight",
+   "v": "1,210 kg (2,668 lb) 3-door · 1,350 kg (2,976 lb) 5-door",
+   "note": "2018 manual"
+  },
+  {
+   "k": "Gross vehicle weight",
+   "v": "1,610 kg (3,549 lb) 3-door · 1,850 kg (4,079 lb) 5-door"
+  },
+  {
+   "k": "Ground clearance",
+   "v": "≥200 mm (7.9 in) at gross weight on 185/75R16",
+   "note": "AvtoVAZ figure; Wikipedia quotes 235 mm and Russian Wikipedia 220 mm"
+  },
+  {
+   "k": "Approach / departure",
+   "v": "32° / 37°",
+   "note": "Russian Wikipedia"
+  },
+  {
+   "k": "Wading depth",
+   "v": "0.5 m (≈20 in)",
+   "note": "AvtoVAZ maximum"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "42 L (11.1 US gal) · 65 L (17.2 US gal) 5-door"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "9.9 L/100 km (≈24 mpg US) combined",
+   "note": "EU test cycle, 1.7 injection"
+  },
+  {
+   "k": "Top speed / 0–100 km/h",
+   "v": "142 km/h, 17.0 s (3-door) · 137 km/h, 19.0 s (5-door)"
+  },
+  {
+   "k": "Turning radius",
+   "v": "5.5 m (3-door) · 6.45 m (5-door)",
+   "note": "Outer front wheel track"
+  },
+  {
+   "k": "Wheelbase",
+   "v": "2,200 mm (86.6 in) · 5-door 500 mm longer"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Still cheap by vintage 4x4 standards, but rising. Restored and very original early trucks are pulling ahead, while rusty drivers stay affordable.",
+  "ranges": [
+   {
+    "cond": "Project / needs work",
+    "range": "$5k–9k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$9k–15k"
+   },
+   {
+    "cond": "Excellent / restored",
+    "range": "$15k–28k"
+   }
+  ],
+  "note": "Based on five Bring a Trailer Niva sales: $5,300 for a 1989 Italian cabriolet (2019), $8,900 for a 1993 (2024), $15,100 for an '85 (January 2026), $13,400 for a 1991 (May 2026) and $27,777 for a restored 1977 (October 2026). Hagerty also records a rust-bubbled condition #4 1984 sold at Monterey for $14,000."
+ },
+ "docs": [
+  {
+   "name": "AvtoVAZ — LADA 4x4 owner's manual (Руководство по эксплуатации)",
+   "note": "Factory owner's manual with capacities, tyre tables, fluids and driving instructions. Russian; ask a LADA dealer or buy a printed copy."
+  },
+  {
+   "name": "AvtoVAZ — LADA 4x4 service book (Сервисная книжка)",
+   "note": "Factory maintenance schedule: oil every 10,000 km, gear oils every 40,000 km, coolant every 60,000 km or 3 years."
+  },
+  {
+   "name": "Revue Technique Automobile — Lada Niva essence et Diesel",
+   "note": "French independent workshop manual covering petrol and diesel Nivas."
+  },
+  {
+   "name": "NIVA-FAQ parts catalogue (catalog.niva4x4.ru)",
+   "url": "https://catalog.niva4x4.ru/",
+   "note": "Illustrated parts catalogue with VAZ part numbers for 2121, 21213, 21214 and 2131 trucks."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Ladas were never sold new in the US; Wikipedia says trade sanctions kept them out. NHTSA's exemption covers vehicles at least 25 years old, counted from each vehicle's date of manufacture, so as of October 2026 any Niva built before late 2001 can be imported. That covers every carbureted 1.6 and 1.7 and the early injected 21214s and five-door 2131s. The EPA exemption for vehicles 21 years and older in original configuration is separate; keep both sets of paperwork.",
+   "Canada sold the Niva new from the 1981 to the 1998 model year, so Canadian trucks are left-hand drive and familiar to North American inspectors. The Nivas Bring a Trailer has sold in the US came from Spain, the Netherlands and Estonia, and one restored truck came from Russia. Russian-origin goods have been charged at Column 2 tariff rates since the Suspending Normal Trade Relations with Russia and Belarus Act of April 2022, and Proclamation 10420 raised the rate on 576 tariff lines to 35%. Ask a customs broker about duty on a Russian-built vehicle before you buy, wherever you're shipping it from. State titling and emissions rules vary, and California is the hardest."
+  ]
+ },
+ "production": {
+  "intro": "Built continuously at AvtoVAZ in Tolyatti since 1977, and assembled from kits in several other countries.",
+  "items": [
+   {
+    "k": "Production start",
+    "v": "5 April 1977 (Tolyatti)"
+   },
+   {
+    "k": "Planned output",
+    "v": "Raised from 25,000 to 50,000 and then 70,000 a year because of export demand"
+   },
+   {
+    "k": "Five-door VAZ-2131",
+    "v": "100,000th built on 5 February 2009; more than 150,000 by June 2016"
+   },
+   {
+    "k": "Canada",
+    "v": "More than 12,000 sold in the 1981 model year, the first"
+   },
+   {
+    "k": "Global sales estimate",
+    "v": "≈650,000 by the end of 2020 (Wikipedia estimate)"
+   },
+   {
+    "k": "Kit assembly",
+    "v": "Kazakhstan (Asia-Avto), Ecuador (Aymesa, 2000–2004), and earlier Greece, Egypt and Ukraine (LuAZ)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Cossack",
+    "years": "1980s–1997",
+    "note": "UK importer package with decals, roof rails, running boards and 15-inch alloys, plus a sunroof, bull bar and rear spare on some. Restyled in 1995 with a Rover-designed grille."
+   },
+   {
+    "name": "Hussar",
+    "years": "1995–1997",
+    "note": "UK base model in original 1977 trim, with the 1.7 and deeper tailgate."
+   },
+   {
+    "name": "Plein Soleil",
+    "years": "1983",
+    "note": "French convertible conversion by coachbuilder Wassermann; Italian importers built cabriolets too."
+   },
+   {
+    "name": "Urban",
+    "years": "2014–",
+    "note": "Plastic bumpers, new grille, power windows and mirrors, air conditioning; five-door Urban from 2015."
+   },
+   {
+    "name": "Bronto",
+    "years": "2017–",
+    "note": "Factory off-road special: 235/75R16 tyres, +35 mm clearance, winch, roof lights and plastic body protection."
+   },
+   {
+    "name": "40th Anniversary",
+    "years": "2017",
+    "note": "Limited edition in 1977-style trim with leather seats, stainless sills and badges."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "International Niva Club",
+   "url": "https://www.niva-club.net/",
+   "note": "Russian-language club and forum with regional branches, a rally-raid team, YouTube and Instagram."
+  },
+  {
+   "kind": "club",
+   "name": "Нива 4x4 forum club events",
+   "url": "https://www.niva4x4.ru/s/iMLVqWgvQPymMePN7WRcjg/1",
+   "note": "The niva4x4.ru forum's club-events section: meets, trail days and competitions, mostly in Russia."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Lada Niva Legend",
+   "url": "https://en.wikipedia.org/wiki/Lada_Niva_Legend"
+  },
+  {
+   "name": "Wikipedia (Russian) — Нива (автомобиль)",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B2%D0%B0_(%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C)"
+  },
+  {
+   "name": "Wikipedia — AvtoVAZ vehicles in international markets",
+   "url": "https://en.wikipedia.org/wiki/AvtoVAZ_vehicles_in_international_markets"
+  },
+  {
+   "name": "Hagerty — Why Canada bought a-Lada Soviet lemons (Jim Kenzie, 2016)",
+   "url": "https://www.hagerty.com/media/archived/a-lada-soviet-lemons/"
+  },
+  {
+   "name": "Hagerty Valuation Tools — 1984 Lada Niva past sale",
+   "url": "https://www.hagerty.com/valuation-tools/past-sales/1984-lada-niva/XTA212100E0379648/161b82dc-22a9-42ec-bb1e-33bc415c2280"
+  },
+  {
+   "name": "Bring a Trailer — Lada results",
+   "url": "https://bringatrailer.com/lada/"
+  },
+  {
+   "name": "Bring a Trailer — 1977 Lada Niva (sold October 2026)",
+   "url": "https://bringatrailer.com/listing/1977-lada-niva/"
+  },
+  {
+   "name": "Bring a Trailer — 1985 Lada Niva (sold January 2026)",
+   "url": "https://bringatrailer.com/listing/1985-lada-niva/"
+  },
+  {
+   "name": "Bring a Trailer — 1991 Lada Niva (sold May 2026)",
+   "url": "https://bringatrailer.com/listing/1991-lada-niva/"
+  },
+  {
+   "name": "Bring a Trailer — 1993 Lada Niva (sold July 2024)",
+   "url": "https://bringatrailer.com/listing/1993-lada-niva/"
+  },
+  {
+   "name": "Bring a Trailer — 1989 Lada Niva Cabriolet (sold February 2019)",
+   "url": "https://bringatrailer.com/listing/1989-lada-niva-cabriolet/"
+  },
+  {
+   "name": "AvtoVAZ — LADA 4x4 owner's manual (edition of 07.09.2018), capacities, tyre and wheel tables, towing and dimensions"
+  },
+  {
+   "name": "AvtoVAZ — LADA NIVA owner's manual (2008 edition), approved oils and fluids tables"
+  },
+  {
+   "name": "AvtoVAZ — LADA 4x4 owner's manual (edition of 16.08.2010), driving, transfer case and wading guidance"
+  },
+  {
+   "name": "AvtoVAZ — LADA 4x4 service book (edition of 29.03.2013), maintenance schedule"
+  },
+  {
+   "name": "NIVA-FAQ — Центрирование раздатки ВАЗ-21213 (ALER)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/pazdatka/centre.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Кронштейны раздатки (ALER, Maxx800)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/pazdatka/kronsht.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Включение и выключение блокировки (ALER)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/pazdatka/vkl.htm"
+  },
+  {
+   "name": "NIVA-FAQ — ВАЗ-21214: установка автоматического натяжителя цепи «Пилот»",
+   "url": "https://www.niva-faq.msk.ru/tehnika/dvigatel/cep_grm/pilot.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Некачественный башмак натяжителя",
+   "url": "https://www.niva-faq.msk.ru/tehnika/dvigatel/cep_grm/nbn.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Регулировка подшипников передних ступиц (Володюшка)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/per_priv/gaika2.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Привод передних колёс (ШРУСы) и ступица (index)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/per_priv/index.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Переделка передних ступиц «под 2016 год»",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/per_priv/st1016.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Замена подшипника полуоси (dimoff_a)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/zadn_mst/zam_pod.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Будет ли задевать 2xx/7xR15 (-AV)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/rez_disk/rezina/bolrez.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Параметры резины нивских размеров",
+   "url": "https://www.niva-faq.msk.ru/tehnika/rez_disk/rezina/par_rez.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Бюджетный лифт (миха 4WD)",
+   "url": "https://www.niva-faq.msk.ru/ekspluat/vne_asf/podgmash/lift.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Замена порогов (garrem)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/kuzov/bamper/porog.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Война с ржавчиной (shs_sf)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/kuzov/lkp/v_rzh.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Работы по обслуживанию и регулировке карбюратора (Solex 2108)",
+   "url": "https://www.niva-faq.msk.ru/tehnika/dvigatel/karb/solex/s4_3.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Разборка карбюратора WEBER 32-36 DGAV",
+   "url": "https://www.niva-faq.msk.ru/tehnika/dvigatel/karb/r-web.htm"
+  },
+  {
+   "name": "NIVA-FAQ — Замена крестовины карданного вала",
+   "url": "https://www.niva-faq.msk.ru/tehnika/transmis/kardany/krest.htm"
+  },
+  {
+   "name": "SuperSpares — Lada Niva part finder",
+   "url": "https://www.superspares.com.au/part-finder/lada/niva/"
+  },
+  {
+   "name": "vnedorognik.ua — CreativeGarage Newbie Hard M lift kit, Niva from 2009",
+   "url": "https://vnedorognik.ua/en/lift-creativegarage-newbie-hard-m-on-niva-car-50-mm-from-2009"
+  },
+  {
+   "name": "Conventus Law — US: Russian goods under 576 HTS codes subject to 35% duty (Proclamation 10420)",
+   "url": "https://conventuslaw.com/report/us-russian-goods-falling-under-576-hts-codes-will-be-subject-to-35-duty-rate-%EF%BF%BC/"
+  },
+  {
+   "name": "International Niva Club (niva-club.net)",
+   "url": "https://www.niva-club.net/"
+  }
+ ]
+}
