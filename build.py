@@ -765,7 +765,7 @@ def main():
                 render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, model=model, steps=steps, others=others,
                        gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', has_specs=bool(p.get('plate') or (p.get('baseline_service') or {}).get('items')), og_type='article', part_search=suppliers_cfg.get(slug, []),
                        crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
-                       jsonld=[howto], title=next((t for t in (f'{rt} — {model} DIY repair guide — BoxyTrucks', f'{rt} — {model} | BoxyTrucks') if len(t) <= 110), f'{rt[:80].rsplit(" ", 1)[0]}… — {model} | BoxyTrucks'),
+                       jsonld=[howto], title=next((t for t in (f'{rt} — {model} DIY repair guide — BoxyTrucks', f'{rt} — {model} — BoxyTrucks') if len(t) <= 110), f'{rt[:80].rsplit(" ", 1)[0]}… — {model} | BoxyTrucks'),
                        description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
                 n_repair_pages += 1
     print(f'  repair pages: {n_repair_pages}')
