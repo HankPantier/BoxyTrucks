@@ -159,7 +159,7 @@
       {% if x.get('import') %}
       <section id="import" class="sub">
         <h2 class="h-section">Importing &amp; legality</h2>
-        <div class="note-box">{% for para in x.get('import').paragraphs %}<p>{{ para|lk }}</p>{% endfor %}<p class="sub-note" style="margin:0">Rules change and vary by state and country. Confirm with your DMV and a licensed importer before you buy.</p></div>
+        <div class="note-box">{% for para in x.get('import').paragraphs %}<p>{{ para|lk }}</p>{% endfor %}<p class="sub-note" style="margin:0">Rules change and vary by state and country. Confirm with your DMV and a licensed importer before you buy. <a href="{{ root }}importing/index.html">How importing works: the 25-year rule, duty and registration →</a></p></div>
       </section>
       {% endif %}
 

@@ -48,7 +48,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls'}
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -761,6 +761,22 @@ def main():
            crumbs=[('Garage', 'garage/'), ('Recall tracker', 'recalls/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Recall tracker', 'url': SITE_URL + 'recalls/'}],
            title='Recall tracker: every recall for boxy 4x4s, by model — BoxyTrucks', description=f'{n_items} recalls and {n_tsbs} service bulletins for Land Cruisers, G-Wagens, Defenders, Jeeps, Broncos and more, by generation, with links to NHTSA.', credits='')
+    im_cards = []
+    for slug in FAMILY_ORDER:
+        if slug not in fams:
+            continue
+        fam = fams[slug]
+        for gs in gen_order(slug):
+            p = pages[slug].get(gs)
+            imp = ((p or {}).get('x') or {}).get('import') if p else None
+            if imp and imp.get('paragraphs'):
+                im_cards.append({'fam': mlabel(fam['maker'], fam['name']), 'model': mlabel(fam['maker'], p['title']), 'href': f'../models/{slug}/{gs}.html', 'text': imp['paragraphs'][0]})
+    from datetime import date as _d
+    _t = _d.today()
+    render('importing.html', 'importing/index.html', '../', active='importing', cards=im_cards, year=_t.year, cutoff=f'{_t.strftime("%B")} {_t.year - 25}', updated=_t.strftime('%B %Y'),
+           crumbs=[('Garage', 'garage/'), ('Importing', 'importing/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'How to import a boxy 4x4 into the US: the 25-year rule, duty and state registration', 'url': SITE_URL + 'importing/', 'dateModified': _t.isoformat(), 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
+           title='Importing a 4x4 into the US: the 25-year rule, duty and registration — BoxyTrucks', description='How to import a Land Cruiser, Defender, Patrol or G-Wagen into the US: the NHTSA 25-year rule, EPA 21-year exemption, 2026 duty rates and state registration.', credits='')
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s by model: symptoms, tools, steps and the parts you need, from Land Cruisers to Defenders and Jeeps.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})
     render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Who makes the parts and who builds the trucks: suspension, armor, lockers and full builds for every boxy 4x4 we cover, sorted by model.', credits='',

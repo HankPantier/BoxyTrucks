@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><span>Importing</span></nav>
+  <span class="eyebrow brass">Importing · the 25-year rule · updated {{ updated }}</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">How to import a boxy 4x4 into the US</h1>
+  <p class="serif" style="margin:0;max-width:760px;font-size:19px;line-height:29px;color:#D9D4C8">The diesel 70 Series, the HZJ105, the Td5 Defender, the right-hand-drive Safari Patrol: many of the best boxy trucks were never sold here. Once they’re 25 years old they can come in. Here’s how the rules work, what it costs, and which trucks qualify.</p>
+</div></section>
+
+<div class="wrap section" style="padding-top:40px"><div class="im-wrap">
+  <div class="prose">
+    <p class="lead">Short version: a vehicle at least 25 years old, counted from its date of manufacture, can be imported without meeting US federal safety standards. One at least 21 years old in original configuration is exempt from EPA emissions rules. The hard part is usually your state, not the federal government.</p>
+
+    <h2>The federal rules</h2>
+    <p><strong>Safety (NHTSA).</strong> A vehicle that is at least 25 years old can be imported without meeting the Federal Motor Vehicle Safety Standards (49 CFR 591.5(i)). The clock runs from the date of manufacture on the build plate, not the model year or first registration, so a truck built in March becomes eligible in March. You declare it on DOT form HS-7, Box 1. Anything younger has to be on NHTSA’s list of eligible vehicles and go through a Registered Importer, which for most of the trucks on this site isn’t possible.</p>
+    <p><strong>Emissions (EPA).</strong> On EPA form 3520-1, exemption code E covers vehicles at least 21 years old in their original configuration. Swapped engines are the catch: a truck with a non-original engine can’t use the exemption unless the replacement is the same engine model or an EPA-certified one.</p>
+    <p><strong>Paperwork at the port.</strong> Customs wants the original bill of lading, the bill of sale, the foreign title or registration, the HS-7 and the 3520-1. Most people use a customs broker and a shipper who handles vehicles; many will collect the truck abroad, ship it in a container or by roll-on/roll-off, and clear it for you.</p>
+
+    <h2>What it costs in duty</h2>
+    <p><strong>Base duty</strong> is 2.5% of the purchase price for passenger vehicles, which is how wagons and SUVs are normally classed, and 25% for trucks: pickups, cab-chassis and utes, the “chicken tax”. A Troop Carrier or a Land Cruiser pickup may be classed as a truck, so ask your broker before you buy.</p>
+    <p><strong>The 2025 auto tariffs don’t apply to classics.</strong> The Section 232 tariffs on imported cars and light trucks exclude vehicles made at least 25 years before the year they enter (tariff heading 9903.94.04). For trucks entering in 2026, that means 2001 and older.</p>
+    <p><strong>But the 2026 country duties can.</strong> Since 24 July 2026, Section 301 duties of 10% or 12.5% apply to goods from 60 economies, including Japan, the EU, the UK and Australia, when Section 232 doesn’t. As brokers read it in late September 2026, a 25-year-old passenger vehicle pays about 12.5% in total from Japan or Australia and about 10% from the EU, and roughly 12.5% from the UK. These rates have changed several times in two years: get a current quote from a licensed customs broker before you commit.</p>
+
+    <h2>Your state is the hard part</h2>
+    <p>Federal clearance doesn’t guarantee registration. <strong>California</strong> is the toughest: petrol vehicles from the 1975 model year and older are smog-exempt, but a non-California-certified direct import from 1975 on is supposed to pass a CARB laboratory test for a Certificate of Conformance. Land Rover owners importing a 1978 Series III were told it would need modifying and testing to 1978 California standards, and Land Cruiser specialist Corsetti Cruisers warns California may refuse an import without a 50-state-compliant emissions system. Diesel and right-hand-drive trucks raise their own questions in some states. Call your DMV with the VIN or chassis number before you buy, not after the truck lands.</p>
+
+    <h2>Before you buy abroad</h2>
+    <ul>
+      <li>Get a photo of the build plate and confirm the manufacture date: it decides eligibility, not the model year.</li>
+      <li>Check the engine number matches the original engine model, or the EPA exemption may not apply.</li>
+      <li>Budget for shipping, port and broker fees, duty, inland transport, and the first round of rubber, fluids and rust repair.</li>
+      <li>Rust is the big unknown on Japanese and UK trucks: ask for underside photos of the frame, floors and body mounts.</li>
+      <li>Right-hand drive is legal to register in most states, but think about drive-through windows, toll booths and passing on two-lane roads.</li>
+    </ul>
+  </div>
+
+  <section><h2 class="h-section">Which trucks qualify</h2>
+    <p class="sub-intro">The import notes from every guide that has them: what was never sold here, and when it becomes eligible. In {{ year }}, anything built before {{ cutoff }} clears NHTSA’s 25-year line.</p>
+    <div class="im-grid">{% for c in cards %}<a class="card im-card" href="{{ c.href }}#import"><span class="eyebrow">{{ c.fam }}</span><strong>{{ c.model }}</strong><span class="txt">{{ c.text|striplk|truncate(300) }}</span><span class="go">Importing notes →</span></a>{% endfor %}</div>
+  </section>
+
+  <section><h2 class="h-section">Sources</h2>
+    <ul class="im-src">
+      <li>Code of Federal Regulations, 49 CFR 591.5(i), the 25-year exemption from FMVSS, as cited in our model guides.</li>
+      <li><a href="https://www.epa.gov/system/files/documents/2024-08/form3520-1-2024-08-secured-enabled.pdf" target="_blank" rel="noopener">EPA Form 3520-1, Importation of Motor Vehicles and Motor Vehicle Engines ↗</a></li>
+      <li><a href="https://www.flexport.com/help/importing-vehicles-cars-automobiles-united-states/index.md" target="_blank" rel="noopener">Flexport: importing vehicles into the United States (documents, base duty rates) ↗</a></li>
+      <li><a href="https://www.thompsonhine.com/insights/annex-identifying-scope-of-automobiles-and-automobile-parts-subject-to-section-232-tariffs-is-released" target="_blank" rel="noopener">Thompson Hine: Section 232 auto tariff annex, including the 25-year exemption (9903.94.04) ↗</a></li>
+      <li><a href="https://taxnews.ey.com/news/2026-1607-ustr-finalizes-section-301-forced-labor-tariffs-on-60-economies-additional-tariffs-of-10-percent-or-125-percent-take-effect-24-july-2026" target="_blank" rel="noopener">EY: USTR finalizes Section 301 tariffs on 60 economies, effective 24 July 2026 ↗</a></li>
+      <li><a href="https://alliedchb.com/services/vehicle-import/duty-rates" target="_blank" rel="noopener">Allied Customs Brokers: car import duty rates 2026, reviewed 26 September 2026 ↗</a></li>
+      <li><a href="https://www.wcshipping.com/blog/import-classic-cars-2-5-percent-duty-hs-code-guid" target="_blank" rel="noopener">WCS Shipping: classic car duty guide, updated 29 September 2026 ↗</a></li>
+      <li>Rovers North forum (California registration of a 1978 Series III) and Corsetti Cruisers, as cited in our Series and FJ62 guides.</li>
+    </ul>
+    <p class="sp-foot">This is general information, not legal or customs advice. Rules and duty rates change; confirm with NHTSA, the EPA, a licensed customs broker and your state DMV before you buy.</p>
+  </section>
+</div></div>
+{% endblock %}
