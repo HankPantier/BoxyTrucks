@@ -1,14 +1,14 @@
 {
  "family": {
   "slug": "hummer",
-  "name": "Hummer H1",
+  "name": "Hummer",
   "maker": "AM General",
-  "years": "1992–2006",
+  "years": "1992–2009",
   "verdict": "An Army truck with carpets, built on the same line as the real thing and twice as wide as common sense. It goes almost anywhere, seats four, and asks for an idler arm in return.",
   "intro": [
    "In 1983 AM General won the Army contract for the M998 High Mobility Multipurpose Wheeled Vehicle, the HMMWV, and it had already trademarked the nickname its prototypes went by: Hummer. After the Gulf War made the truck famous, and with Arnold Schwarzenegger lobbying for a road-legal version, AM General began selling a civilian Hummer in 1992. It was built in Mishawaka, Indiana, alongside the military trucks.",
    "The [[hummer/h1|Hummer H1]] kept the hardware that matters off-road: geared portal hubs, inboard disc brakes, a central tire inflation system and 16 inches of ground clearance. GM diesels powered most of them, from the 6.2 to the 6.5 turbo, plus a 5.7 gas V8 for two years and the Duramax in the final 2006 Alpha. AM General built 11,818 of them, ending in June 2006.",
-   "GM bought the Hummer brand in 1999. It renamed the original truck the H1 and added its own H2 and H3, both built on GM truck platforms, before closing the brand in 2010. GM revived the name in 2020 for the electric GMC Hummer EV. Only the H1 is a HMMWV underneath, and it's the only one this site covers."
+   "GM bought the Hummer brand in 1999. It renamed the original truck the H1 and added its own H2 and H3, both built on GM truck platforms, before closing the brand in 2010. GM revived the name in 2020 for the electric GMC Hummer EV. Only the H1 is a HMMWV underneath. The [[hummer/h2|H2]], built by AM General on a GM three-quarter-ton frame, is the other one we cover: full-time 4WD, a rear locker and 35-inch tires from the factory."
   ],
   "hero_photo": "h1-sandstone-trail.jpg",
   "generations": [
@@ -25,6 +25,21 @@
     "summary": "The civilian HMMWV: portal hubs, inboard brakes, CTIS and GM diesels, ending with the 2006 Duramax Alpha.",
     "at_url": "https://www.autotempest.com/results?make=hummer&model=h1&minyear=1992&maxyear=2006",
     "bat_url": "https://bringatrailer.com/hummer/h1/",
+    "has_page": true
+   },
+   {
+    "slug": "h2",
+    "name": "Hummer H2",
+    "years": "2003–2009",
+    "codes": [
+     "GMT820-based",
+     "6.0 LQ4 / 6.2 L92 V8",
+     "BW 44-84 full-time",
+     "SUV · SUT"
+    ],
+    "summary": "GM's Suburban-framed Hummer built by AM General: full-time 4WD, a standard rear locker and 35s from the factory, then a 6.2 and six-speed for 2008–09.",
+    "at_url": "https://www.autotempest.com/results?make=hummer&model=h2&minyear=2003&maxyear=2009",
+    "bat_url": "https://bringatrailer.com/hummer/h2/",
     "has_page": true
    }
   ],

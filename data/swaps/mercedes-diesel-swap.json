@@ -1,0 +1,275 @@
+{
+ "slug": "mercedes-diesel-swap",
+ "title": "Mercedes OM606 and OM617 diesel swaps in boxy 4x4s",
+ "engine": "Mercedes-Benz OM617 (3.0 L I5, mechanical injection, NA or turbo) and OM606 (3.0 L 24-valve I6, NA or turbo-intercooled)",
+ "description": "Mercedes OM617 and OM606 diesel swaps in G-Wagens, Land Cruisers, Jeeps and Defenders: adapter kits, sumps, wiring, emissions and costs.",
+ "lead": [
+  "The OM617 five-cylinder is the diesel that took Mercedes saloons to absurd mileages, and the OM606 straight-six is the one tuners turn up until something gives. Both are cheap to find in scrapped W123s and W210s, the OM617's mechanical Bosch inline pump needs almost no electronics, and both engines fit boxy 4x4s surprisingly well.",
+  "In a G-Wagen the swap is close to coming home: the W463's G 300 Turbodiesel had an OM606 from the factory. In a Land Cruiser or a Jeep it's a full conversion, with adapter plates, a rear-sump oil pan and some head-scratching over bellhousings. Either way, the result is a simple diesel that most US emissions programs won't know what to do with."
+ ],
+ "trucks": [
+  {
+   "model": "g-class/w460",
+   "note": "The most common OM606 home. DieselPumpUK sells a W460 kit that swaps in a 37DZ six-speed for OM606 or OM617 engines (£2,995 with a used gearbox), as well as a cast-aluminium sump and genuine G mounting arms for fitting an OM606 or OM603 to a W460 or W463, an intercooler kit and an upgraded cooling package. Turbodiesel swaps also turn up often on Bring a Trailer, where OM606-powered 300 GDs sold for $79,500 in January 2026 and $69,696 in June 2026, and OM606 240 GDs for $20,500–55,000 in 2025–26."
+  },
+  {
+   "model": "g-class/w461",
+   "note": "Expedition Motor Company builds restored ex-military 250 GD Wolfs with an optional OM605a (225 hp, 300 lb-ft) or OM606a (275 hp, 350 lb-ft) turbodiesel, both manual-only, or an LS3. EMC's builder starts at $230,000 for a short wheelbase and $250,000 for a long wheelbase."
+  },
+  {
+   "model": "g-class/w463",
+   "note": "The W463's 1996–2001 G 300 Turbodiesel used the OM606.964 from the factory, so an OM606 is a natural choice for re-powering a W463 with a tired or weaker diesel. DieselPumpUK lists a heavy-duty W463 intercooler kit for the OM606, and its OM606 sump and mounting arms are listed for both W460 and W463."
+  },
+  {
+   "model": "land-cruiser/80-series",
+   "note": "IH8MUD member anothernord documented putting an OM606 from a 1998 E300 Turbodiesel into a 1997 FZJ80. He kept the A343F automatic with a custom two-piece adapter (OM606 cranks have eight bolts and the A343F ten). He used an OM648 rear-sump pan and pump, a Holset HE351VE turbo controlled by a DSL1, and a Microsquirt for the gearbox. His finished kit later sold for $6,200. For manuals, DieselPumpUK sells an OM606 to 80 Series diesel five-speed (H151) adapter kit at £1,195."
+  },
+  {
+   "model": "land-cruiser/fj60",
+   "note": "Two routes. For the OM617, a 4x4labs adapter mated it to the Toyota H42 and H55F (using the stock Toyota flywheel, starter and clutch), and one Arizona FJ60 build ran it on a 300SD engine. For the OM606, DieselPumpUK's H55F kit (£1,195) is designed for the BJ73's 10-spline input. Forum members point out that it needs the 2H/3B-pattern bellhousing rather than the FJ60's 2F one."
+  },
+  {
+   "model": "land-cruiser/fj40",
+   "note": "A complete OM617A turbo FJ40 swap offered on IH8MUD in 2018 used an OM617-to-small-block-Chevy adapter. That let it use Advance Adapters' SBC bellhousing kit for the H42 four-speed, with a SBC clutch, flywheel and mounts. The package (engine, H42, and an R1A transfer case with a 4.7 crawler box) was offered for $3,000 OBO. Going through a Mercedes-to-SBC adapter lets a build reuse off-the-shelf V8 conversion parts."
+  },
+  {
+   "model": "jeep/cj-7",
+   "note": "A jeep-cj.com member put the turbocharged OM617 from a 1985 300D into a 1983 CJ-7 in place of the AMC 258, behind the Jeep's T-4 and Dana 300, using the Jeep flywheel and clutch. He bought a bellhousing adapter and fabricated the mounts and wiring himself. He reported better than 15 mpg and wished he had 3.73 gears instead of 2.73s for 33-inch tyres."
+  },
+  {
+   "model": "jeep/tj",
+   "note": "DieselPumpUK sells an OM60x adapter kit for the Jeep AX-15 manual (£1,195) and an AW4 automatic kit (£1,095) for Wranglers or Cherokees with the 4.0-litre bellhousing pattern, which covers the TJ and the [[jeep/cherokee-xj|Cherokee XJ]]."
+  },
+  {
+   "model": "land-rover/defender-90-110",
+   "note": "DieselPumpUK builds out the Defender side as well: OM605/OM606 clutch and adapter kits for the TD5 R380 (£1,095) and the Puma MT82 (£1,095), mounting arms for 200Tdi/300Tdi chassis, a Puma-to-OM606 cooling package, and a 3-inch exhaust for an OM606 Defender 110. An OM617-powered 1988 Land Rover 90 sold on Bring a Trailer for $25,775 in February 2026."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Why people do it",
+   "body": [
+    "Simplicity, sourcing and headroom. The OM617 (1974–1991) uses Bosch inline injection pumps with flyweight governors and vacuum shutoff, so there's almost nothing electronic to wire. It made 80–88 PS naturally aspirated and up to 125 PS and 250 Nm as the turbocharged OM617A. The OM606 (1993–2001) is a 24-valve DOHC straight-six making 136 PS without a turbo, or 177 PS and 330 Nm with a turbo and intercooler. It weighs 210 kg dry, and tuners routinely go well beyond stock. Expedition Motor Company tunes its OM606a to 275 hp and 350 lb-ft.",
+    "And they're cheap to get hold of. In 2021, an IH8MUD member offered a complete OM617 from a 300SD for $1,000 OBO. W123 300Ds, W126 300SDs and W210 E300 Turbodiesels (one OM606 80 Series build used a 1998 car) keep supplying engines."
+   ]
+  },
+  {
+   "h": "What it takes",
+   "body": [
+    "Four things trip people up. First, oil sumps. The OM606 has a front sump, right where a 4x4's front axle sits, so builders fit a rear-sump pan (one 80 Series build used an OM648 pan and pump) or a G-Wagen-specific sump. Second, bellhousings. Toyota gearboxes changed patterns between petrol and diesel engines, so an H55F from a 2F truck may not match a kit made for the BJ73's 2H/3B pattern, and the input splines can differ too. Third, the crank. OM606 cranks use an eight-bolt pattern, which differs from some Toyota automatics.",
+    "Fourth, fuel and boost control. One forum member notes that an OM606 may need its injection pump converted to an OM603-type pump for fully mechanical running, and DieselPumpUK sells upgraded OM606/OM603 pumps. Hybrid and variable-geometry turbos need a controller. Then come the usual jobs: cooling (intercooler, radiator, oil cooler stacked up front), a 12-volt starter and alternator, and gearing. The 300D-powered CJ-7's owner found his 2.73s too tall for the diesel."
+   ]
+  },
+  {
+   "h": "Parts and kits",
+   "body": [
+    "The UK's DieselPumpUK is the closest thing to a one-stop shop. It sells CNC adapter kits with flywheel and Sachs clutch from Mercedes OM60x engines to the Toyota H151 and H55F, a Toyota R150F/3VZ pattern, the Jeep AX-15 and AW4, and the Land Rover R380 (TD5) and Puma MT82. It also sells G-Wagen sumps, mounting arms, intercoolers and cooling packages, and upgraded OM606/OM603 injection pumps. Prices are in pounds and the parts ship from the UK.",
+    "For OM617 builds, the long-standing trick is an OM617-to-small-block-Chevy adapter, which opens up the V8 conversion catalogue: Advance Adapters' SBC-to-Toyota bellhousings, clutches and mounts. Benz Injection sells injection pumps, turbos, injectors and engines for classic Mercedes diesels. For a turnkey G, Expedition Motor Company builds OM605a and OM606a Wolfs."
+   ]
+  },
+  {
+   "h": "Emissions and registration",
+   "body": [
+    "Federally, EPA's engine-switching policy only accepts a swap if the resulting vehicle matches a certified configuration of the same or newer model year as the chassis. A Mercedes engine in a Toyota, Jeep or Land Rover isn't a certified configuration of that chassis. W460 G-Wagens were never sold new in the US, and grey-market trucks were federalised individually.",
+    "In California, BAR's Engine Change Guidelines require the engine to be the same model year or newer than the vehicle, of the same GVWR class and certification type (with manufacturer or CARB proof), fitted with all of the donor's emissions equipment, and inspected by a BAR Referee. BAR also bases the first referee inspection on the donor vehicle's Smog Check requirements. That matters here, because California exempts diesels from 1997 and earlier but tests 1998-and-newer diesels up to 14,000 lb GVWR, so an OM606 from a 1998-or-later car brings 1998-and-newer rules with it. Gasoline vehicles from 1975 and earlier are exempt too, but don't assume a diesel swap keeps a truck exempt. Ask the referee first, and check your own state's rules."
+   ]
+  },
+  {
+   "h": "What it costs",
+   "body": [
+    "Kits: DieselPumpUK listed its Toyota, Jeep and Land Rover adapter kits at £1,095–1,195 in October 2026. Its W460 six-speed conversion with a used 37DZ was £2,995, the G-Wagen OM606 sump £995 and the Defender Puma cooling package £1,650, all before shipping, which it warns is expensive for crated parts. Used donor engines are cheap. An OM617 was offered for about $1,000 in 2021, and a whole OM617A FJ40 swap package for $3,000 OBO in 2018. A complete OM606 kit for an FZJ80 sold for $6,200 in 2021, without intake, exhaust or intercooler.",
+    "Finished trucks: on Bring a Trailer, OM606 W460s sold for $20,500–79,500 in 2025–26, against a $25,000–45,000 driver range for W460s in general. An OM617 Land Rover 90 made $25,775. A turnkey EMC Wolf starts at $230,000."
+   ]
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "DieselPumpUK",
+   "url": "https://dieselpumpuk.com/",
+   "what": "OM60x adapter kits for Toyota (H151, H55F, R150F), Jeep (AX-15, AW4) and Land Rover (R380 TD5, Puma MT82), plus G-Wagen sumps, mounts, intercoolers and OM606 injection pumps"
+  },
+  {
+   "name": "Benz Injection",
+   "url": "https://www.benzinjection.com/",
+   "what": "Injection pumps, injectors, turbos and engines for OM606, OM617 and other classic Mercedes diesels"
+  },
+  {
+   "name": "Expedition Motor Company",
+   "url": "https://www.expeditionmotorcompany.com/faq",
+   "what": "Turnkey W461 Wolf restorations with optional OM605a or OM606a turbodiesels"
+  },
+  {
+   "name": "Advance Adapters",
+   "url": "https://www.advanceadapters.com/",
+   "what": "SBC-to-Toyota bellhousings, clutches and mounts, used with OM617-to-SBC adapters"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "OM617 or OM606?",
+   "a": "The OM617 is the simpler, older five-cylinder: 80–88 PS naturally aspirated or up to 125 PS turbocharged, with a mechanical-style pump. The OM606 is a 24-valve six making 136 PS without a turbo or 177 PS turbo-intercooled, with far more tuning headroom. EMC runs 275 hp in its Wolfs. The 606 needs more work on sumps and injection."
+  },
+  {
+   "q": "Why do I need a different oil pan?",
+   "a": "The OM606 has a front sump, right where a 4x4's front axle sits. Builders fit a rear-sump pan from an OM648 or a purpose-made G-Wagen sump."
+  },
+  {
+   "q": "Will it bolt to my Toyota H55F?",
+   "a": "With the right kit and bellhousing. DieselPumpUK's H55F kit is designed for the BJ73's 10-spline input and the 2H/3B bellhousing pattern, so an FJ60's 2F-pattern H55F needs the matching bellhousing. Older OM617 adapters from 4x4labs fitted the H42 and H55F using the stock Toyota flywheel and clutch."
+  },
+  {
+   "q": "Is a Mercedes diesel swap legal in California?",
+   "a": "Only with great difficulty. BAR requires a same-or-newer engine of the same class and certification type, all of the donor's emissions equipment and a Referee inspection based on the donor vehicle's Smog Check requirements. An OM606 from a 1998-or-later car brings 1998-and-newer diesel smog testing with it."
+  },
+  {
+   "q": "Does a swap add value?",
+   "a": "Sometimes. Well-built OM606 W460s have sold for up to $79,500 on Bring a Trailer, well above typical driver prices, but OM606 240 GDs have also sold for as little as $20,500. The quality of the conversion matters more than the engine code."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mercedes-Benz OM617 engine",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_OM617_engine"
+  },
+  {
+   "name": "Wikipedia — Mercedes-Benz OM606 engine",
+   "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_OM606_engine"
+  },
+  {
+   "name": "DieselPumpUK — G Wagon W460 OM606/OM617 6-speed conversion kit",
+   "url": "https://dieselpumpuk.com/products/g-wagon-w460-om606-om617-6-speed-transmission-conversion-kit-including-37dz-transmission"
+  },
+  {
+   "name": "DieselPumpUK — G Wagon sump / oil pan to OM606",
+   "url": "https://dieselpumpuk.com/products/g-wagon-sump"
+  },
+  {
+   "name": "DieselPumpUK — G Wagon mounting arms",
+   "url": "https://dieselpumpuk.com/products/g-wagon-mounting-arms"
+  },
+  {
+   "name": "DieselPumpUK — W463 heavy-duty intercooler kit OM606",
+   "url": "https://dieselpumpuk.com/products/w463-heavy-duty-intercooler-kit-om606"
+  },
+  {
+   "name": "DieselPumpUK — Toyota Landcruiser 4.2 diesel adapter kit to OM606 (H151)",
+   "url": "https://dieselpumpuk.com/products/toyota-landcruiser-4-2-adapter-kit-to-om606"
+  },
+  {
+   "name": "DieselPumpUK — OM606 to Toyota H55F BJ73 adapter kit",
+   "url": "https://dieselpumpuk.com/products/om606-to-toyota-h55f-bj73-adapter-kit"
+  },
+  {
+   "name": "DieselPumpUK — Toyota transmission adapter kit (R150F)",
+   "url": "https://dieselpumpuk.com/products/toyota-transmission-adapter-kit"
+  },
+  {
+   "name": "DieselPumpUK — OM606 Jeep adaptor (AX-15)",
+   "url": "https://dieselpumpuk.com/products/om606-jeep-adaptor"
+  },
+  {
+   "name": "DieselPumpUK — AW4 Jeep adapter kit",
+   "url": "https://dieselpumpuk.com/products/aw4-jeep-adapter-kit"
+  },
+  {
+   "name": "DieselPumpUK — Land Rover TD5 to OM605/6 clutch and adapter kit",
+   "url": "https://dieselpumpuk.com/products/land-rover-td5-to-om605-6-clutch-adapter-kit"
+  },
+  {
+   "name": "DieselPumpUK — Land Rover Puma/MT82 to OM605/6 adapter kit",
+   "url": "https://dieselpumpuk.com/products/land-rover-2-2-or-2-4-puma-mt82-to-om605-6-adapter-kit"
+  },
+  {
+   "name": "DieselPumpUK — Defender Puma to OM606 cooling package",
+   "url": "https://dieselpumpuk.com/products/defender-puma-to-om606-cooling-package"
+  },
+  {
+   "name": "DieselPumpUK — 3-inch stainless exhaust for OM606 Defender 110 conversion",
+   "url": "https://dieselpumpuk.com/products/3-stainless-exhaust-system-for-om606-to-defender-110-conversion"
+  },
+  {
+   "name": "DieselPumpUK — OM606 to Land Rover 200Tdi/300Tdi mounting arms",
+   "url": "https://dieselpumpuk.com/products/om606-to-land-rover-200tdi-300tdi-mounting-arms"
+  },
+  {
+   "name": "Expedition Motor Company — FAQ (engine options)",
+   "url": "https://www.expeditionmotorcompany.com/faq"
+  },
+  {
+   "name": "Expedition Motor Company — Custom G-Wagon Wolf builder",
+   "url": "https://www.expeditionmotorcompany.com/custom-g-wagon-wolf-builder"
+  },
+  {
+   "name": "IH8MUD — Mercedes OM606 turbodiesel into FZJ80",
+   "url": "https://forum.ih8mud.com/threads/mercedes-om606-turbodiesel-into-fzj80-engine-refresh-and-more-turbo-fun.1058241/"
+  },
+  {
+   "name": "IH8MUD — OM606 turbodiesel swap kit for FZJ80 (sold, 2021)",
+   "url": "https://forum.ih8mud.com/threads/co-om606-turbodiesel-swap-kit-for-fzj80.1249463/"
+  },
+  {
+   "name": "IH8MUD — FJ60 OM606 swap",
+   "url": "https://forum.ih8mud.com/threads/fj60-om606-swap.1355914/"
+  },
+  {
+   "name": "IH8MUD — FJ60 OM617 swap",
+   "url": "https://forum.ih8mud.com/threads/fj60-om617-swap.1240475"
+  },
+  {
+   "name": "IH8MUD — 4x4labs.com adapter: it's here",
+   "url": "https://forum.ih8mud.com/threads/4x4labs-com-adapter-its-here.364390/"
+  },
+  {
+   "name": "IH8MUD — Turbo diesel Mercedes OM617A complete FJ40 swap (2018)",
+   "url": "https://forum.ih8mud.com/threads/turbo-diesel-mercedes-om617a-complete-fj40-swap-with-toybox-r1fa-4-7-1-new-york.1049526/"
+  },
+  {
+   "name": "jeep-cj.com — 1983 CJ7 Mercedes turbo diesel conversion",
+   "url": "https://jeep-cj.com/community/threads/1983-cj7-mercedes-turbo-diesel-conversion.16565"
+  },
+  {
+   "name": "Benz Injection",
+   "url": "https://www.benzinjection.com/"
+  },
+  {
+   "name": "Bring a Trailer — W460 Geländewagen results",
+   "url": "https://bringatrailer.com/mercedes-benz/w460-gelandewagen/"
+  },
+  {
+   "name": "Bring a Trailer — OM606-powered 1988 Mercedes-Benz 300GD",
+   "url": "https://bringatrailer.com/listing/1988-mercedes-benz-300gd-3/"
+  },
+  {
+   "name": "Bring a Trailer — OM606-powered 1982 Mercedes-Benz 300GD",
+   "url": "https://bringatrailer.com/listing/1982-mercedes-benz-300gd-10/"
+  },
+  {
+   "name": "Bring a Trailer — W461 G-Class results",
+   "url": "https://bringatrailer.com/mercedes-benz/w461-g-class/"
+  },
+  {
+   "name": "Bring a Trailer — OM606-powered 1988 Mercedes-Benz 240GD 6-speed",
+   "url": "https://bringatrailer.com/listing/1988-mercedes-benz-240gd-5/"
+  },
+  {
+   "name": "Bring a Trailer — OM606-powered 1987 Mercedes-Benz 240GD",
+   "url": "https://bringatrailer.com/listing/1987-mercedes-benz-240gd-11/"
+  },
+  {
+   "name": "Bring a Trailer — OM617-powered 1988 Land Rover 90",
+   "url": "https://bringatrailer.com/listing/1988-land-rover-90-46/"
+  },
+  {
+   "name": "BAR — Engine changes",
+   "url": "https://www.bar.ca.gov/engine-changes"
+  },
+  {
+   "name": "BAR — Smog Check Reference Guide (Appendix D: Engine Change Guidelines)",
+   "url": "https://www.bar.ca.gov/pdf/smog-check-reference-guide.pdf"
+  },
+  {
+   "name": "Arizona DEQ — EPA federal engine switching policy fact sheet",
+   "url": "https://static.azdeq.gov/legal/subs_federalengineswitchfs.pdf"
+  }
+ ]
+}
