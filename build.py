@@ -32,7 +32,7 @@ INDEXNOW_KEY = 'df5e9f5700c975efa4ebdb9e75a3fa77'  # public by design: IndexNow 
 SHORT_NAME = {'4runner': '4Runner', 'g-class': 'G-Class', 'grenadier': 'Grenadier', 'jeep': 'Jeep',
               'land-cruiser': 'Land Cruiser', 'land-rover': 'Land Rover', 'lexus': 'Lexus LX & GX', 'range-rover': 'Range Rover',
               'nissan-patrol': 'Nissan Patrol', 'scout': 'International Scout', 'bronco': 'Ford Bronco',
-              'chevrolet': 'Chevrolet / GMC', 'suzuki': 'Suzuki', 'pajero': 'Mitsubishi Pajero', 'trooper': 'Isuzu Trooper', 'hummer': 'Hummer'}
+              'chevrolet': 'Chevrolet / GMC', 'suzuki': 'Suzuki', 'pajero': 'Mitsubishi Pajero', 'trooper': 'Isuzu Trooper', 'hummer': 'Hummer', 'unimog': 'Mercedes Unimog', 'pinzgauer': 'Pinzgauer', 'delica': 'Mitsubishi Delica', 'niva': 'Lada Niva', 'ramcharger': 'Dodge Ramcharger'}
 FAMILY_ORDER = sorted(SHORT_NAME, key=lambda k: SHORT_NAME[k].lower())
 NAV_FAMS = []
 NAV = [
