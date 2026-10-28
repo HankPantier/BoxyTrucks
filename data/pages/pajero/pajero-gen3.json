@@ -16,7 +16,7 @@
   {
    "heading": null,
    "paragraphs": [
-    "The first two Pajeros had sold 1.26 million worldwide, according to Mitsubishi, and the [[pajero/pajero-gen2|second generation]] was still a hit when the third was planned. The threat was the crossover SUV: buyers wanted car-like manners on the road. Mitsubishi says the decision on how to answer it split the company. In the end it dropped the separate ladder frame and built a monocoque body with a frame structure welded into its floor. The new Pajero went on sale in Japan in the autumn of 1999 and reached most export markets as a 2001 model."
+    "By Mitsubishi's count, the first two Pajeros, including the [[pajero/pajero-gen2|second generation]], had sold 1.26 million in about 170 countries. The threat was the crossover SUV: buyers wanted car-like manners on the road. Mitsubishi says the decision on how to answer it split the company. In the end it dropped the separate ladder frame and built a monocoque body with a frame structure welded into its floor. The new Pajero went on sale in Japan in the autumn of 1999 and reached most export markets as a 2001 model."
    ]
   },
   {
@@ -52,7 +52,7 @@
   "title": "Five wins in a row",
   "paragraphs": [
    "Mitsubishi's works team switched to a T2 rally car based on the new Pajero for the 2000 Dakar. It kept the production monocoque, stretched the wheelbase, used four-wheel independent suspension and ran a 3.5 MIVEC V6. That year Jean-Louis Schlesser's buggy won, and Mitsubishi had to settle for third.",
-   "Then the streak began. In 2001 Jutta Kleinschmidt became the first woman to win the Dakar outright, in a Pajero, after Hiroshi Masuoka broke a half shaft fighting the Schlesser buggies. Masuoka won in 2002 and again in 2003, the second year in a tube-framed Pajero Evolution prototype whose body only looked like the road car. Unsealed 4X4 counts five consecutive wins from 2001 to 2005, and Mitsubishi says its last Dakar win came in 2007."
+   "Then the streak began. In 2001 Jutta Kleinschmidt became the first woman to win the Dakar outright, in a Pajero, after Hiroshi Masuoka broke a half shaft fighting the Schlesser buggies. Masuoka won in 2002 and again in 2003, the second year in a tube-framed Pajero Evolution prototype whose body only looked like the road car. Unsealed 4X4 counts five consecutive wins from 2001 to 2005, and Wikipedia says Mitsubishi's final Dakar wins came in 2007."
   ]
  },
  "engineering_intro": "The big change is structural: a monocoque with a ladder-type frame welded into the floor, not a body bolted to a separate chassis. The suspension is independent at all four corners on coil springs, steering is rack and pinion, and Super Select 4WD II gives full-time 4WD with a lockable planetary centre differential. US Monteros are long-wheelbase V6 automatics; elsewhere you'll find three-door short bodies and the 3.2 DI-D diesel.",
@@ -80,7 +80,7 @@
   {
    "k": "TRACTION",
    "v": "LSD (early US Limited) · M-ASTC from 2003 (US)",
-   "note": "BaT's 2001 Limited has a limited-slip rear. ARB sells a rear Air Locker for the 9.5 in IRS diff."
+   "note": "BaT's 2001 Limited has a limited-slip rear. An ARB Air Locker is listed for the 9.5 in IRS rear diff."
   },
   {
    "k": "ENGINES",
@@ -104,8 +104,8 @@
    "note": "US Montero XLS and Limited with four- or five-speed automatic."
   },
   {
-   "years": "1999–2006",
-   "platform": "V63W / V73W",
+   "years": "1999–2006 (outside the US)",
+   "platform": "V60/V70",
    "engine": "3.0 L 6G72 V6",
    "output": "130 kW (180 PS) after the 2003 facelift",
    "note": "Not sold in the US."
@@ -198,7 +198,7 @@
    "diff": "3 / 5",
    "time": "≈ 1 hour to check the recall; half a day to replace parts",
    "cost": "Recall work is free; one owner paid about $2,000 for a complete HBB system",
-   "symptoms": "A hard pedal or slow brake assist on the first stop after the truck has been parked, an ABS-pump noise, a warning lamp or buzzer, or a pump that runs constantly. The US, Australian and Hong Kong recalls say a faulty accumulator can leak its nitrogen charge. A 2002 Limited owner on Expedition Portal had intermittent ABS tones, then a total loss of boost and a seized pump motor that drained the battery.",
+   "symptoms": "A hard pedal or slow brake assist on the first stop after the truck has been parked, an ABS-pump noise, or a warning lamp or buzzer. The US, Australian and Hong Kong recalls say a faulty accumulator can leak its nitrogen charge. A 2002 Limited owner on Expedition Portal had intermittent ABS tones, then a total loss of boost and a seized pump motor that drained the battery.",
    "fix": "Run the VIN for NHTSA 01V254001 (US 2001–02) or Australia's REC-003136 and have any open accumulator recall done first. JDMBUYSELL relays Mitsubishi's warning that spilled brake fluid can get into the pump motor: wipe up spills and never wash fluid away with water. A warning lamp, buzzer or weak assist needs Mitsubishi's tester to diagnose. The Expedition Portal owner's dealer blamed debris in the fluid, and owners there recommend regular brake-fluid flushes as these trucks age.",
    "tools": "Scan tool or dealer tester · brake bleeder · DOT 3 fluid · battery charger.",
    "parts": [
@@ -314,7 +314,7 @@
    "time": "≈ 1–2 hours",
    "cost": "A starter and an hour or two",
    "symptoms": "Clicking or slow cranking with a good battery. Starters are the most common complaint in ProductReview's NM/NP owner reviews; one owner says they 'started to go like hot cakes'.",
-   "fix": "Charge and load-test the battery and clean the terminals and earth strap first. Then disconnect the battery, remove the skid plate if fitted, unplug the solenoid lead and main cable, and unbolt the starter. Fit the new unit, torque the bolts, reconnect and test. On a 4M41 diesel, check the glow plugs and battery health too, since a weak battery cranks a diesel slowly.",
+   "fix": "Charge and load-test the battery and clean the terminals and earth strap first. Then disconnect the battery, remove the skid plate if fitted, unplug the solenoid lead and main cable, and unbolt the starter. Fit the new unit, torque the bolts, reconnect and test.",
    "tools": "Battery load tester · socket set with extensions · multimeter.",
    "parts": [
     {
