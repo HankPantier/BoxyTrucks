@@ -34,3 +34,9 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Date | Post | File |
 |---|---|---|
 | Oct 28, 2026 | "The biggest tire that fits stock": 8 trucks, CTA to boxytrucks.com/tires. Photo: Darina Rodionova / Unsplash (80 Series) | `posts/01-biggest-tire-stock.jpg` |
+
+## Following
+`follow-targets.json` lists the accounts @boxytrucks follows: brands, media, lifestyle (Huckberry, YETI, Filson…) and the builders, parts shops and clubs already vetted on the site's resources pages. Each entry is `todo` or `followed` with a date.
+- Pace: about 25–30 follows a day while the account is new, so Instagram doesn't block it for spam.
+- Hashtags can't be followed any more (tag pages redirect to search). For hashtags, follow the off-road accounts behind the top posts in #landcruiser, #gwagon, #defender, #fj40, #broncolife etc. instead.
+- Skipped as fake or wrong handles: frontrunneroutfitters, maxtraxusa, landroverusa, filson (real: filson1897), rumpl, stanley1913, kammokgear, oldmanemu.
