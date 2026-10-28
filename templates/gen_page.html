@@ -72,7 +72,7 @@
         <h2 class="h-section">How it’s built</h2>
         {% if p.engineering_intro %}<div class="prose"><p style="margin:0">{{ p.engineering_intro|lk }}</p></div>{% endif %}
         <div class="cells">{% for e in p.engineering %}<div><span class="k">{{ e.k }}</span><span class="v">{{ e.v }}</span><span class="n">{{ e.note|lk }}</span></div>{% endfor %}</div>
-        {% if p.engineering_note %}<div class="note-box"><span class="label">{{ p.engineering_note.title }}</span><p>{{ p.engineering_note.body|lk }}</p></div>{% endif %}
+        {% if p.engineering_note %}{% if p.engineering_note is string %}<div class="note-box"><p style="margin:0">{{ p.engineering_note|lk }}</p></div>{% else %}<div class="note-box"><span class="label">{{ p.engineering_note.title }}</span><p>{{ p.engineering_note.body|lk }}</p></div>{% endif %}{% endif %}
       </section>
       {% endif %}
 
