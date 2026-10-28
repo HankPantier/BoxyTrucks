@@ -12,7 +12,7 @@
 <div class="wrap section" style="padding-top:24px">
   {% for f in fam_list %}
   <section class="fam-block" id="{{ f.slug }}" data-fam>
-    <a href="{{ f.slug }}/index.html">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ mlabel(f.maker, f.name) }}" loading="lazy">{% else %}<div class="ph" style="height:220px">[PHOTO]</div>{% endif %}</a>
+    <a href="{{ f.slug }}/index.html">{% if f.hero_photo %}<img src="{{ img(f.slug, f.hero_photo) }}" alt="{{ mlabel(f.maker, f.name) }}" loading="lazy">{% else %}<div class="ph-mark" style="height:220px" aria-hidden="true">{{ mark('#B0915A', 64) }}<span>{{ mlabel(f.maker, f.name) }}</span></div>{% endif %}</a>
     <div style="display:flex;flex-direction:column;gap:12px">
       <span class="eyebrow">{{ mlabel(f.maker, f.name) }} · {{ f.years }}</span>
       <h2 style="font-size:36px"><a href="{{ f.slug }}/index.html" style="color:var(--ink);text-decoration:none">{{ f.short }}</a></h2>
