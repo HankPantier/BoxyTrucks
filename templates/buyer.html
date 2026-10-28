@@ -22,6 +22,7 @@
     </li>{% endfor %}
   </ol>
   {% if b.faqs %}<section><h2 class="h-section">Questions</h2><div class="faq">{% for f in b.faqs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p></div></details>{% endfor %}</div></section>{% endif %}
+  {% if more %}<section><h2 class="h-section">Keep reading</h2><div class="rel">{% for o in more %}<a href="{{ root }}best/{{ o.slug }}.html"><span class="r">Buyer’s guide</span><span class="nm">{{ o.title }} →</span></a>{% endfor %}<a href="{{ root }}which-4x4/index.html"><span class="r">Five questions</span><span class="nm">Which boxy 4x4 should you buy? →</span></a><a href="{{ root }}inspection-checklists/index.html"><span class="r">Before the test drive</span><span class="nm">Printable inspection checklists →</span></a></div></section>{% endif %}
   {% if b.sources %}<section><h2 class="h-section">Sources</h2><ul class="im-src">{% for s in b.sources %}<li>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }} ↗</a>{% else %}{{ s.name }}{% endif %}</li>{% endfor %}</ul></section>{% endif %}
 </div></div>
 {% endblock %}

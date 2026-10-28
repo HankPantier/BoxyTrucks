@@ -27,7 +27,7 @@
 
       <section>
         <h2 class="h-section">Every generation</h2>
-        <p style="margin:-6px 0 18px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/best-years.html">Best {{ mlabel(fam.maker, fam.name) }} years to buy, and which to avoid →</a></p>
+        <p style="margin:-6px 0 18px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/best-years.html">Best {{ mlabel(fam.maker, fam.name) }} years to buy, and which to avoid →</a>{% if fam_has_recalls %} · <a class="inline-link" href="{{ root }}recalls/index.html#{{ fam.slug }}">Every {{ fam.short }} recall, by generation →</a>{% endif %}</p>
         {% for g in fam.generations %}
         <div class="gen">
           <span class="yrs">{{ g.years }}</span>
@@ -40,6 +40,13 @@
         </div>
         {% endfor %}
       </section>
+
+      {% if fam_cmp %}
+      <section style="display:flex;flex-direction:column;gap:18px">
+        <h2 class="h-section">Head to head</h2>
+        <div class="rel">{% for c in fam_cmp %}<a href="{{ root }}compare/{{ c.slug }}.html"><span class="r">Compare</span><span class="nm">{{ c.title }} →</span></a>{% endfor %}</div>
+      </section>
+      {% endif %}
 
       <section id="resources" style="display:flex;flex-direction:column;gap:22px">
         <h2 class="h-section">Resources</h2>

@@ -12,6 +12,7 @@
   {% if s.suppliers %}<section><h2 class="h-section">Kits and suppliers</h2><div class="rows">{% for x in s.suppliers %}<a class="row" href="{{ x.url }}" target="_blank" rel="noopener"><span class="t">{{ x.name }} ↗</span><span class="n">{{ x.what }}</span></a>{% endfor %}</div></section>{% endif %}
   {% if s.faqs %}<section><h2 class="h-section">Questions</h2><div class="faq">{% for f in s.faqs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p></div></details>{% endfor %}</div></section>{% endif %}
   <p class="sp-foot">Engine swaps change emissions compliance, insurance and sometimes legality. Check your state’s rules before you start. See the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.</p>
+  {% if more %}<section><h2 class="h-section">Keep reading</h2><div class="rel">{% for o in more %}<a href="{{ root }}engine-swaps/{{ o.slug }}.html"><span class="r">Engine swap</span><span class="nm">{{ o.title }} →</span></a>{% endfor %}<a href="{{ root }}mods/index.html"><span class="r">Who builds them</span><span class="nm">Mods &amp; builders →</span></a></div></section>{% endif %}
   {% if s.sources %}<section><h2 class="h-section">Sources</h2><ul class="im-src">{% for x in s.sources %}<li>{% if x.url %}<a href="{{ x.url }}" target="_blank" rel="noopener">{{ x.name }} ↗</a>{% else %}{{ x.name }}{% endif %}</li>{% endfor %}</ul></section>{% endif %}
 </div></div>
 {% endblock %}

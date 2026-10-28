@@ -22,7 +22,7 @@
 
 <div class="wrap section">
   <div class="jump toc-mobile" role="navigation" aria-label="On this page"><label for="toc-sel">On this page</label><select id="toc-sel" onchange="if(this.value)location.hash=this.value">
-    <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}
+    <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}{% if fam.generations|length > 1 or further %}<option value="more">Keep reading</option>{% endif %}
   </select></div>
   {% if tools %}<p class="sub-intro quick-mobile">For this truck: {% for t in tools %}<a class="inline-link" href="{{ root }}{{ t[1] }}">{{ t[0] }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   <div class="split">
@@ -280,7 +280,7 @@
         <h2 class="h-section">Keep reading</h2>
         {% if further %}<div class="rel">{% for f in further %}<a href="{{ root }}{{ f[2] }}"><span class="r">{{ f[0] }}</span><span class="nm">{{ f[1] }} →</span></a>{% endfor %}</div>{% endif %}
         {% if others %}<span class="label sub-label">More {{ mlabel(fam.maker, fam.name) }} generations</span>
-        <div class="rel">{% for og in others %}<a href="{{ og.slug }}.html"><span class="r">{{ og.years }}</span><span class="nm">{{ og.name }} →</span></a>{% endfor %}<a href="index.html"><span class="r">The whole family</span><span class="nm">{{ mlabel(fam.maker, fam.name) }} overview →</span></a></div>{% endif %}
+        <div class="rel rel-sm">{% for og in others %}<a href="{{ og.slug }}.html"><span class="r">{{ og.years }}</span><span class="nm">{{ og.name }} →</span></a>{% endfor %}<a href="index.html"><span class="r">The whole family</span><span class="nm">{{ mlabel(fam.maker, fam.name) }} overview →</span></a></div>{% endif %}
       </section>
       {% endif %}
 

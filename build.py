@@ -509,7 +509,9 @@ def main():
         fp = pages[slug]
         res = resources[slug]
         main_page = fp.get(flagship.get(slug)) if flagship.get(slug) else None
-        render('family.html', f'models/{slug}/index.html', '../../', fam=fam, page=main_page, res=res, og_image=(f'img/{slug}/{fam["hero_photo"]}' if fam.get('hero_photo') else None), crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': f'{mlabel(fam["maker"], fam["name"])}', 'description': fam['verdict'], 'url': SITE_URL + f'models/{slug}/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': f'{mlabel(fam["maker"], fam["name"])} {g["name"]}', 'url': SITE_URL + f'models/{slug}/{g["slug"]}.html'} for i, g in enumerate(fam['generations'])]}}], reading=[dict(r, gen=k.split('/')[1]) for k, v in reading.items() if k.startswith(slug + '/') for r in v], active='models',
+        fam_cmp = list({c['slug']: c for g in fam['generations'] for c in _cmp_early.get(f'{slug}/{g["slug"]}', [])}.values())
+        fam_has_recalls = any(((fp.get(g['slug']) or {}).get('x') or {}).get('recalls', {}).get('items') or ((fp.get(g['slug']) or {}).get('x') or {}).get('recalls', {}).get('tsbs') for g in fam['generations'])
+        render('family.html', f'models/{slug}/index.html', '../../', fam=fam, page=main_page, res=res, fam_cmp=fam_cmp, fam_has_recalls=fam_has_recalls, og_image=(f'img/{slug}/{fam["hero_photo"]}' if fam.get('hero_photo') else None), crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': f'{mlabel(fam["maker"], fam["name"])}', 'description': fam['verdict'], 'url': SITE_URL + f'models/{slug}/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': f'{mlabel(fam["maker"], fam["name"])} {g["name"]}', 'url': SITE_URL + f'models/{slug}/{g["slug"]}.html'} for i, g in enumerate(fam['generations'])]}}], reading=[dict(r, gen=k.split('/')[1]) for k, v in reading.items() if k.startswith(slug + '/') for r in v], active='models',
                title=f'{mlabel(fam["maker"], fam["name"])} — BoxyTrucks', description=fam['verdict'], credits=credits_of(fp.values()))
         for g in fam['generations']:
             page = fp.get(g['slug'])
@@ -557,7 +559,7 @@ def main():
                            gen_href=f'../../../models/{slug}/{g["slug"]}.html', active='models', og_type='article',
                            crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), ('Specs & fluids', f'models/{slug}/{g["slug"]}/specs/')],
                            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
-                           title=f'{_m} specs, fluid capacities & service intervals | BoxyTrucks',
+                           title=f'{_m} specs, fluid capacities & service intervals — BoxyTrucks',
                            description=f'{_m} ({g.get("years", "")}) spec sheet, fluid capacities, oil grades, service intervals, wheel and tire sizes and parts numbers, on one printable page.'[:158], credits='')
             else:
                 render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
@@ -663,7 +665,7 @@ def main():
             p = pages[slug][flagship[slug]]
             label = mlabel(fams[slug]['maker'], p['title']).upper()
             if p.get('repairs'):
-                r = dict(p['repairs'][0]); r['model'] = label; r['href'] = href('', slug, p['slug']) + '#repairs'
+                r = dict(p['repairs'][0]); r['model'] = label; r['href'] = f'repairs/{slug}/{p["slug"]}/{p["repairs"][0]["slug"]}.html'
                 garage.append(r)
 
     covered = ', '.join(SHORT_NAME.get(f['slug'], f['name']) for f in fam_list)
@@ -763,7 +765,7 @@ def main():
                 render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, model=model, steps=steps, others=others,
                        gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', has_specs=bool(p.get('plate') or (p.get('baseline_service') or {}).get('items')), og_type='article', part_search=suppliers_cfg.get(slug, []),
                        crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
-                       jsonld=[howto], title=f'{rt} — {model} DIY repair guide | BoxyTrucks'[:110],
+                       jsonld=[howto], title=next((t for t in (f'{rt} — {model} DIY repair guide — BoxyTrucks', f'{rt} — {model} | BoxyTrucks') if len(t) <= 110), f'{rt[:80].rsplit(" ", 1)[0]}… — {model} | BoxyTrucks'),
                        description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
                 n_repair_pages += 1
     print(f'  repair pages: {n_repair_pages}')
@@ -860,7 +862,7 @@ def main():
                        'buy': buys[:2], 'avoid': avoids, 'after': after, 'tank': tank, 'rep': (axles.get('_rep') or {}).get(f'{slug}/{g["slug"]}', (axles.get('_rep') or {}).get(slug, 0)), 'verdict': LINK_PLAIN(p.get('verdict', ''))[:220], 'href': f'/models/{slug}/{g["slug"]}/',
                        'img': (f'/img/{slug}/{p["hero_photo"]}' if p.get('hero_photo') else None)})
     render('quiz.html', 'which-4x4/index.html', '../', active='quiz', data_json=Markup(json.dumps(qz, ensure_ascii=False).replace('</', '<\\/')), n=len(qz),
-           crumbs=[('Garage', 'garage/'), ('Which boxy 4x4?', 'which-4x4/')],
+           crumbs=[('Which boxy 4x4?', 'which-4x4/')],
            title='Which boxy 4x4 should you buy? Five questions, one shortlist — BoxyTrucks', description=f'Answer five questions about budget, use, wrenching and imports and get a shortlist from {len(qz)} boxy 4x4 generations, with prices and best years.', credits='')
     def _gen_info(k):
         try:
@@ -881,7 +883,7 @@ def main():
                 print(f'  ! buyers/{b["slug"]}: unknown model {pk.get("model")}')
                 continue
             picks.append(dict(pk, **gi, id=pk['model'].replace('/', '-'), checklist=(SITE / f'checklists/{pk["model"].replace("/", "-")}.pdf').exists()))
-        render('buyer.html', f'best/{b["slug"]}.html', '../', b=b, picks=picks, active='best', og_type='article',
+        render('buyer.html', f'best/{b["slug"]}.html', '../', b=b, picks=picks, active='best', og_type='article', more=[o for o in buyers if o is not b],
                crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/'), (b['title'], f'best/{b["slug"]}/')],
                jsonld=[{'@context': 'https://schema.org', '@type': 'ItemList', 'name': b['title'], 'url': SITE_URL + f'best/{b["slug"]}/', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': q['name'], 'url': SITE_URL + q['href'].replace('../', '').replace('.html', '/')} for i, q in enumerate(picks)]}]
                       + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_PLAIN(f['a'])}} for f in b['faqs']]}] if b.get('faqs') else []),
@@ -898,7 +900,7 @@ def main():
         for t in sw.get('trucks', []):
             gi = _gen_info(t.get('model', '')) or {}
             trucks.append({'name': gi.get('name') or t.get('model', ''), 'href': gi.get('href'), 'note': t.get('note', '')})
-        render('swap.html', f'engine-swaps/{sw["slug"]}.html', '../', s=sw, trucks=trucks, active='swaps', og_type='article',
+        render('swap.html', f'engine-swaps/{sw["slug"]}.html', '../', s=sw, trucks=trucks, active='swaps', og_type='article', more=[o for o in swaps if o is not sw],
                crumbs=[('Garage', 'garage/'), ('Engine swaps', 'engine-swaps/'), (sw['title'], f'engine-swaps/{sw["slug"]}/')],
                jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': sw['title'], 'url': SITE_URL + f'engine-swaps/{sw["slug"]}/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}]
                       + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_PLAIN(f['a'])}} for f in sw['faqs']]}] if sw.get('faqs') else []),
@@ -1050,7 +1052,7 @@ def main():
             L.append(f'- [{mlabel(fam["maker"], p["title"])} ({g.get("years", "")})]({gurl(slug, g["slug"])}): {_t(g["summary"])}')
         L.append('')
     L += ['## Site', '',
-          f'- [Repair guides]({SITE_URL}repairs/): 718+ step-by-step DIY repairs, one page each, by model',
+          f'- [Repair guides]({SITE_URL}repairs/): step-by-step DIY repairs, one page each, by model',
           f'- [Specs & fluids]({SITE_URL}models/land-cruiser/100-series/specs/): every generation has a printable specs, fluids and service page at /models/<family>/<generation>/specs/',
           f'- [Recall tracker]({SITE_URL}recalls/): recalls and service bulletins for every generation, latest US recalls first',
           f'- [Importing]({SITE_URL}importing/): the US 25-year rule, EPA exemption, 2026 duty and state registration',

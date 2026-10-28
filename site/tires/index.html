@@ -252,7 +252,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 <script>
 (function(){
   var D=JSON.parse(document.getElementById('tf-data').textContent), $=function(i){return document.getElementById(i)};
-  var famSel=$('tf-fam'), genSel=$('tf-gen'), cur=null, idx=0;
+  var famSel=$('tf-fam'), genSel=$('tf-gen'), cur=null, idx=0, DEF=[famSel.value, genSel.value];
   function dia(s){ if(!s) return null; var m=s.match(/(\d{3})\/(\d{2})\s*R\s*(\d{2})/); if(m) return (m[1]*m[2]/100*2)/25.4+ +m[3];
     m=s.match(/(\d{2}(?:\.\d+)?)\s*[x×]\s*\d/); if(m&&+m[1]>20&&+m[1]<46) return +m[1];
     m=s.match(/(\d{2}(?:\.\d)?)\s*(?:-?in\b|")/); if(m&&+m[1]>20&&+m[1]<46) return +m[1]; return null; }
@@ -260,7 +260,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
   function tire(el,d,top){ var box=document.querySelector('.tf-tires'), lim=Math.max(90,Math.min(190,Math.floor((box.clientWidth-36)/2))); var px=d?Math.round(d/top*lim):Math.round(lim*.74); el.style.width=el.style.height=px+'px'; el.style.borderWidth=Math.max(13,Math.round(px*.17))+'px'; el.style.opacity=d?1:.35; }
   function fillGens(fs, gs){ genSel.innerHTML=''; D.filter(function(r){return r.fs===fs}).forEach(function(r){ var o=document.createElement('option'); o.value=r.gs; o.textContent=r.name+' · '+r.years; if(r.gs===gs) o.selected=true; genSel.appendChild(o); }); }
   function pick(fs, gs, i){
-    cur=D.find(function(r){return r.fs===fs&&r.gs===gs}) || D.find(function(r){return r.fs===fs}) || D[0];
+    cur=D.find(function(r){return r.fs===fs&&r.gs===gs}) || D.find(function(r){return r.fs===fs}) || D.find(function(r){return r.fs===DEF[0]&&r.gs===DEF[1]}) || D[0];
     idx=Math.min(i||0, cur.tires.length-1);
     famSel.value=cur.fs; if(genSel.dataset.fs!==cur.fs){ fillGens(cur.fs, cur.gs); genSel.dataset.fs=cur.fs; } genSel.value=cur.gs;
     var st=$('tf-steps'); st.innerHTML=''; cur.tires.forEach(function(t,j){ var b=document.createElement('button'); b.type='button'; b.textContent=t.lift; b.setAttribute('aria-pressed', j===idx?'true':'false'); b.onclick=function(){ pick(cur.fs,cur.gs,j); }; st.appendChild(b); });

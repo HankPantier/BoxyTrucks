@@ -15,7 +15,7 @@
 
   <section><h2 class="h-section">By truck</h2>
     <div class="rc-filter"><label for="rc-fam">Family</label><select id="rc-fam"><option value="">All families</option>{% for f in fam_opts %}<option value="{{ f.slug }}">{{ f.label }}</option>{% endfor %}</select></div>
-    <div class="rc-list">{% for g in groups %}
+    <div class="rc-list">{% for g in groups %}{% if loop.first or loop.previtem.fam != g.fam %}<span id="{{ g.fam }}" class="rc-anchor" data-fam="{{ g.fam }}"></span>{% endif %}
       <details class="rc-gen" data-fam="{{ g.fam }}" id="{{ g.fam }}-{{ g.gen }}"><summary><span class="nm">{{ g.model }}</span><span class="ct mono">{{ g['items']|length }} RECALL{{ 'S' if g['items']|length != 1 }}{% if g.tsbs %} · {{ g.tsbs|length }} TSB{{ 'S' if g.tsbs|length != 1 }}{% endif %}</span></summary>
         <div class="rc-body">
           {% if g['items'] %}<div class="rows recall-rows">{% for r in g['items'] %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.years }}{% if r.ref %} · {{ r.ref }}{% endif %}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
@@ -27,7 +27,7 @@
   <p class="sp-foot">Compiled from NHTSA records, manufacturer announcements and owner forums. It isn't a complete list and isn't a substitute for a VIN check. A recall listed here may already have been done on a given truck.</p>
 </div></div>
 <script>
-(function(){var s=document.getElementById('rc-fam');function f(){var v=s.value;document.querySelectorAll('.rc-gen').forEach(function(d){d.hidden=!!v&&d.dataset.fam!==v;});}
+(function(){var s=document.getElementById('rc-fam');function f(){var v=s.value;document.querySelectorAll('.rc-gen,.rc-anchor').forEach(function(d){d.hidden=!!v&&d.dataset.fam!==v;});}
 s.addEventListener('change',function(){f();try{history.replaceState(null,'',s.value?'#'+s.value:location.pathname);}catch(e){}});
 function go(){var h=decodeURIComponent((location.hash||'').slice(1));if(!h)return;
   if([].some.call(s.options,function(o){return o.value===h;})){s.value=h;f();return;}

@@ -150,7 +150,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
           </div>
         </fieldset>
 
-        <div id="form-error" class="form-error" hidden></div>
+        <div id="form-error" class="form-error" role="alert" hidden></div>
         <button id="send" class="btn solid" type="submit" style="align-self:flex-start;cursor:pointer">Send my rig</button>
         <p class="serif" style="margin:0;color:var(--stone);font-size:15px">You may be asked to tick a quick “I’m not a robot” box after sending.</p>
       </form>
@@ -219,12 +219,13 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
   }
   form.addEventListener('submit', function(e){
     e.preventDefault();
-    var problems = [];
-    ['f-name','f-email','f-family','f-story'].forEach(function(id){ var el=document.getElementById(id); if(!el.value.trim()) problems.push(el.closest('label').firstChild.textContent.trim()); });
-    var em = document.getElementById('f-email').value; if (em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) problems.push('a valid email');
+    var problems = [], bad = [];
+    ['f-name','f-email','f-family','f-story','f-own','f-use'].forEach(function(id){ document.getElementById(id).removeAttribute('aria-invalid'); });
+    ['f-name','f-email','f-family','f-story'].forEach(function(id){ var el=document.getElementById(id); if(!el.value.trim()){ problems.push(el.closest('label').firstChild.textContent.trim()); bad.push(el); } });
+    var em = document.getElementById('f-email').value; if (em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) { problems.push('a valid email'); bad.push(document.getElementById('f-email')); }
     if (files.length < 3) problems.push('at least 3 photos');
-    if (!document.getElementById('f-own').checked || !document.getElementById('f-use').checked) problems.push('both photo permissions');
-    if (problems.length) { err.textContent = 'Almost there — add ' + problems.join(', ') + '.'; err.hidden = false; err.scrollIntoView({block:'center'}); return; }
+    if (!document.getElementById('f-own').checked || !document.getElementById('f-use').checked) { problems.push('both photo permissions'); ['f-own','f-use'].forEach(function(id){ var c=document.getElementById(id); if(!c.checked) bad.push(c); }); }
+    if (problems.length) { bad.forEach(function(el){ el.setAttribute('aria-invalid','true'); }); err.textContent = 'Almost there — add ' + problems.join(', ') + '.'; err.hidden = false; err.scrollIntoView({block:'center'}); if (bad[0]) bad[0].focus({preventScroll:true}); return; }
     err.hidden = true; btn.disabled = true; btn.textContent = 'Preparing photos…';
     Promise.all(files.map(shrink)).then(function(small){
       var total = 0, slots = document.querySelectorAll('#photo-slots input'), used = 0;
