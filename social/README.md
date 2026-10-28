@@ -3,7 +3,7 @@
 ## Accounts to create (you, signed in as boxytrucks@gmail.com)
 | Platform | Handle | Status (Oct 27, 2026) |
 |---|---|---|
-| Instagram | @boxytrucks | Profile URL returns "page isn't available", which usually means it's free |
+| Instagram | @boxytrucks | **Live** (Oct 28, 2026): Creator account, category News & media website (hidden), avatar and bio set. Website link still to add in the mobile app |
 | X | @boxytrucks | Not checked (x.com is blocked for Claude's browser); check at sign-up |
 
 Make the Instagram account a **Professional → Creator** account, not a personal one. Scheduling tools need that to post for you.
