@@ -48,7 +48,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing'}
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -801,7 +801,21 @@ def main():
     render('cookies.html', 'about/cookies.html', '../', active='', title='Cookies — BoxyTrucks', description='The cookies BoxyTrucks sets (Google Analytics only), how long they last, and how to accept, refuse or change your choice.', credits='', crumbs=[('Cookies', 'about/cookies.html')])
     render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
     render('newsletter_thanks.html', 'newsletter/thanks.html', '../', noindex=True, hide_newsletter=True, title='Check your inbox — BoxyTrucks', description='One more step: confirm your subscription to The Boxy Dispatch.', credits='')
-    render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the monthly BoxyTrucks email.', credits='')
+    cl_items = []
+    for _slug in FAMILY_ORDER:
+        if _slug not in fams:
+            continue
+        for _g in fams[_slug]['generations']:
+            _pdf = f'checklists/{_slug}-{_g["slug"]}.pdf'
+            _pg = pages[_slug].get(_g['slug'])
+            if _pg and (SITE / _pdf).exists():
+                cl_items.append({'fam': mlabel(fams[_slug]['maker'], fams[_slug]['name']), 'model': _pg['title'], 'href': '/' + _pdf, 'id': f'{_slug}-{_g["slug"]}'})
+    from itertools import groupby as _gb
+    cl_groups = [(k, list(v)) for k, v in _gb(cl_items, key=lambda c: c['fam'])]
+    render('checklists.html', 'inspection-checklists/index.html', '../', active='checklists', groups=cl_groups, n=len(cl_items), hide_newsletter=True,
+           crumbs=[('Garage', 'garage/'), ('Inspection checklists', 'inspection-checklists/')],
+           title='Free pre-purchase inspection checklists for boxy 4x4s — BoxyTrucks', description=f'{len(cl_items)} printable pre-purchase inspection checklists: Land Cruiser, G-Wagen, Defender, Jeep, Bronco and more. Model-specific checks, years, recalls.', credits='')
+    render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, cl_groups=cl_groups, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the monthly BoxyTrucks email.', credits='')
     render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, track_event='rig_submission', hide_newsletter=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
 
     render('404.html', '404.html', '', noindex=True, hide_newsletter=True, title='Not found — BoxyTrucks', description='That page took a wrong turn. Search the guides or pick a model family.', credits='')
@@ -843,7 +857,7 @@ def main():
     today = date.today().isoformat()
     urls = sorted(set(SITEMAP))
     (SITE / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n' for u in urls) + '</urlset>\n')
-    (SITE / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /submit/thanks/\n\nSitemap: {SITE_URL}sitemap.xml\n')
+    (SITE / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /submit/thanks/\nDisallow: /newsletter/\nDisallow: /checklists/\n\nSitemap: {SITE_URL}sitemap.xml\n')
 
     # ---- llms.txt / llms-full.txt (regenerated from the data on every build, so CI keeps them current) ----
     def _t(x):

@@ -688,3 +688,8 @@ html { scroll-padding-top: 90px; }
 .im-card .txt { font-family: var(--serif); font-size: 15px; line-height: 23px; color: var(--body); flex-grow: 1; }
 .im-card .go { font-size: 13px; font-weight: 600; }
 .im-src { display: flex; flex-direction: column; gap: 8px; padding-left: 20px; font-size: 15px; line-height: 22px; }
+
+.cl-form { max-width: 560px; }
+.cl-fam { display: flex; flex-direction: column; gap: 4px; padding-bottom: 14px; border-bottom: 1px solid var(--hair); }
+.cl-fam p { margin: 0; font-size: 15px; line-height: 24px; }
+.nl-perk { margin: 10px 0 0; color: #B9B3A6; font-size: 15px; }

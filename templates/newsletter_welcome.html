@@ -6,6 +6,10 @@
   <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">Once a month you’ll get one new guide, one featured rig and one recall worth knowing about. No spam, and you can unsubscribe from any email in one click.</p>
 </div></section>
 <div class="wrap section">
+  {% if cl_groups %}<section id="checklists" style="margin-bottom:56px;max-width:960px"><h2 class="h-section">Your inspection checklists</h2>
+    <p class="sub-intro">Printable PDFs, two pages each. Pick your truck:</p>
+    {% for fam, items in cl_groups %}<div class="cl-fam"><span class="eyebrow">{{ fam }}</span><p>{% for c in items %}<a class="inline-link" href="{{ c.href }}" target="_blank" rel="noopener">{{ c.model }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p></div>{% endfor %}
+  </section>{% endif %}
   <h2 class="h-section">While you wait for the first one</h2>
   <div class="grid garage-grid" style="--min:220px">
     <a class="card garage-card" href="{{ root }}garage/index.html#best-years"><span class="eyebrow">Buy it</span><h2>Best years to buy</h2><p>The sweet-spot years, the ones to avoid and the recalls to check, for every family.</p><span class="go">Pick a family →</span></a>
