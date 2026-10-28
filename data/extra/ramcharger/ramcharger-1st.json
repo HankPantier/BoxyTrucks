@@ -1,0 +1,398 @@
+{
+ "fitment": {
+  "stock": [
+   "E78-15/B (1977 standard)",
+   "H78-15/B (1978 standard)",
+   "L78-15/B (1979 AW100 standard)",
+   "Options up to 10-15LT/B (1977–79 brochures; standard with the 1978 Macho package)"
+  ],
+  "wheel": {
+   "bolt_pattern": "5x114.3 (5x4.5\") on full-time 4x4s and 2WD trucks"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "31x10.50R15",
+    "note": "The usual size on BaT trucks whose listings mention no lift. Some run 32x11.50 (a 1978 Top Hand) or even 33x12.50 (a 1978 Trail Duster). On a later Ramcharger with the same Dana 44 and leaf layout, 32x11.50s rubbed at full articulation."
+   },
+   {
+    "lift": "2 in (add-a-leaf)",
+    "size": "33x12.50",
+    "note": "Off-Road.com advice for a later Ramcharger on the same axle and spring layout. A 4 in lift is suggested if you want to keep the flex."
+   },
+   {
+    "lift": "4 in",
+    "size": "33x12.50",
+    "note": "The maximum Tuff Country recommends with its 4 in EZ-Ride kit (front springs, rear add-a-leafs and 2 in blocks, plus a steering block)."
+   },
+   {
+    "lift": "Lifted (amount not stated)",
+    "size": "35x12.50R17",
+    "note": "A 1974 4-speed sold on BaT with Skyjacker leaves, Fox shocks and 17 in beadlocks. Crossover steering is worth considering at this height."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Steering column misassembled, steering wheel indexed 180° off",
+    "years": "1978",
+    "ref": "NHTSA 77V176000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=77V176000",
+    "summary": "The master serration could be 180 degrees out, and tie-rod adjustments made to compensate could leave too little thread engagement. Dealers replaced the lower steering shaft and checked the tie rods."
+   },
+   {
+    "title": "Intermediate steering shaft pot coupling may not tighten",
+    "years": "1978",
+    "ref": "NHTSA 78V038000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=78V038000",
+    "summary": "A mismatched coupling with an oversized serration might not clamp properly onto the gear or shaft splines. Dealers inspected it and replaced the coupling if necessary."
+   },
+   {
+    "title": "Rear step bumper may not protect the fuel tank in a rear impact",
+    "years": "1980",
+    "ref": "NHTSA 84V115000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=84V115000",
+    "summary": "Trucks didn't meet the FMVSS 301 fuel-system integrity impact test, so fuel could leak in a rear collision. The remedy was a free fuel-tank skid plate."
+   }
+  ],
+  "tsbs": []
+ },
+ "timeline": [
+  {
+   "year": "1974",
+   "change": "Ramcharger and Plymouth Trail Duster launch on a 106 in wheelbase, 4x4 only, with full-time NP203 four-wheel drive and V8 power. The top was optional, as was the passenger seat. Trucks built before June 10, 1974 have half doors whose window frames are part of the roof.",
+   "flag": "note"
+  },
+  {
+   "year": "1975",
+   "change": "Two-wheel-drive AD100 and the 225 slant six added. Revised instrument panel. Front discs and full-time 4WD are now standard across Dodge's 4x4 range. A Ramcharger wins the Sno*Drift rally.",
+   "flag": "note"
+  },
+  {
+   "year": "1976",
+   "change": "A grease fitting is added to the full-time front hub bearings, which had been sealed for life. This is the last year the passenger seat is optional.",
+   "flag": "note"
+  },
+  {
+   "year": "1977",
+   "change": "New grille with rectangular parking lamps. The brochure lists electronic ignition on every engine. Engines run from the 225 to the 440, which is 4x4-only. Mid-year, the Dana 44 front axle changes to a new inner axle seal (QU40055 to QU40159).",
+   "flag": "note"
+  },
+  {
+   "year": "1978",
+   "change": "Ramcharger Four by Four with the Macho package, and Top Hand trucks. New Hurst transfer-case lever, three-passenger front bench and trailer-towing packages up to 6,000 lb. The slant six gets a two-barrel carburetor. Last year for the 400 and 440.",
+   "flag": "note"
+  },
+  {
+   "year": "1978",
+   "change": "Two steering recalls: a misindexed steering column (77V176) and an intermediate-shaft pot coupling that might not tighten (78V038).",
+   "flag": "recall"
+  },
+  {
+   "year": "1979",
+   "change": "New hood, grille and headlights, with four rectangular headlamps on the upper trims. The 318 becomes standard on the AW100 and the 360 is the option. The six is limited to the 2WD model. The 360 is rated at 160 hp.",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "Four-wheel drive switches to part-time with the chain-drive NP208. Grille openings are painted black. Last year of the removable top.",
+   "flag": "note"
+  },
+  {
+   "year": "1980",
+   "change": "NHTSA campaign 84V115 adds a fuel-tank skid plate because the rear step bumper failed the FMVSS 301 impact test.",
+   "flag": "recall"
+  },
+  {
+   "year": "1981",
+   "change": "The second-generation Ramcharger arrives with a welded-on steel roof and a fiberglass liftgate. This is the Trail Duster's final year.",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "Seven model years and two badges, and many trucks have since been re-engined or converted. The details below help you work out what a truck actually is.",
+  "items": [
+   {
+    "head": "First gen vs second gen",
+    "body": "1974–80 trucks have a removable steel top, or none at all, on the 1972-style Dodge truck body. From 1981 the roof is welded on, the liftgate is fiberglass, and the sheet metal and dash are new (Ramcharger Central)."
+   },
+   {
+    "head": "Year by nose",
+    "body": "1977–78 grilles have rectangular parking lamps. For 1979 the hood, grille and headlights are all new, with quad rectangular lamps on the upper trims and two round lamps on the lower ones. The 1980 grille openings are painted black (Ramcharger Central). Grilles swap easily, so check them against the title and the VIN."
+   },
+   {
+    "head": "Half doors (early 1974)",
+    "body": "Trucks built before June 10, 1974 have doors with no frame above the glass. The window frames belong to the removable roof. Later trucks use normal pickup doors (Wikipedia)."
+   },
+   {
+    "head": "Full-time hardware",
+    "body": "A stock 1974–79 4x4 has the NP203 with five lever positions (Low Loc, Low, Neutral, High, High Loc) and a front axle with no locking hubs. Locking hubs, drive flanges or a different transfer case mean the drivetrain has been changed."
+   },
+   {
+    "head": "Chassis numbers",
+    "body": "On BaT-listed trucks, 4x4 Dodges begin A10 and Trail Dusters AA0. The sixth character is the model-year digit. The fifth character matches the engine on those trucks: E on a 1974 318, F on 1977–78 360s and D on 1976–77 440s. Confirm with a proper decoder or the build paperwork before you trust it."
+   },
+   {
+    "head": "Trims and packages",
+    "body": "SE (cloth-and-vinyl buckets, woodgrain trim and a lockable console with a removable beverage chest; from 1975 the SE dash adds volt and vacuum gauges). The 1978 Four by Four had the Macho package, with graphics, spoke or chrome wheels, 10-15LT tires and power steering. Also Top Hand, the Sno-Commander factory plow package (4x4 only) and, at Plymouth, the Trail Duster Sport."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "106.0 in (2,692 mm)"
+  },
+  {
+   "k": "Length / width",
+   "v": "184.6 in / 79.5 in (4,689 / 2,019 mm)",
+   "note": "1977 and 1978 brochures"
+  },
+  {
+   "k": "Track (front / rear)",
+   "v": "65.7 in / 63.4 in (AW100)",
+   "note": "1978 brochure"
+  },
+  {
+   "k": "Turning circle",
+   "v": "36.9 ft (11.2 m) diameter, AW100",
+   "note": "37.3 ft on the 2WD AD100"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "24 gal (91 L) std · 35 gal (132 L) optional"
+  },
+  {
+   "k": "GVW",
+   "v": "6,050 lb (2,744 kg), AW100",
+   "note": "1979 brochure, with the Sno-Commander package also 6,050 lb"
+  },
+  {
+   "k": "Axle capacity",
+   "v": "3,500 lb front · 3,600 lb rear",
+   "note": "1977 and 1979 brochures, AW100"
+  },
+  {
+   "k": "Towing",
+   "v": "Up to 6,000 lb (2,720 kg) gross trailer weight",
+   "note": "1978 brochure, with the optional heavy-duty package and a load-equalizing hitch. The standard towing package covers trailers under 2,000 lb."
+  },
+  {
+   "k": "Low range",
+   "v": "2.0:1 (NP203)",
+   "note": "1978 brochure"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Firm and rising slowly. Clean, original trucks with paperwork bring the money, and on Bring a Trailer the Plymouth Trail Duster has recently outsold comparable Dodges.",
+  "ranges": [
+   {
+    "cond": "Driver / older restoration",
+    "range": "$15k–27k"
+   },
+   {
+    "cond": "Clean original or well-sorted",
+    "range": "$29k–43k"
+   },
+   {
+    "cond": "Restored resto-mod",
+    "range": "≈ $57.5k (one sale)"
+   }
+  ],
+  "note": "Based on 16 Bring a Trailer sales of 1974–80 Ramchargers and Trail Dusters, December 2021 to August 2026, with a median of about $27,750. The seven Dodges sold for $15,110–26,500, and the nine Trail Dusters for $17,945–57,500. Heavily modified trucks with modern engines (a twin-turbo Trail Duster, a Cummins 6BT Ramcharger) were bid to $26,000–32,500 without selling."
+ },
+ "docs": [
+  {
+   "name": "1979 Dodge light truck & Ramcharger shop manual (USB)",
+   "url": "https://torqueking.com/products/655-tmd79usb-1979-dodge-light-truck-and-ramcharger-shop-manual-on-usb",
+   "note": "Chrysler-authorized reproduction from Torque King. It covers the Ramcharger and Trail Duster."
+  },
+  {
+   "name": "1977–1978 Dodge truck factory service manual",
+   "url": "https://torqueking.com/products/588-tmd77cd-1977-1978-dodge-truck-factory-service-manual-on-cd",
+   "note": "Chrysler-authorized reproduction, including the Ramcharger (Torque King)"
+  },
+  {
+   "name": "1975–1976 Dodge truck factory service manual",
+   "url": "https://torqueking.com/products/589-tmd75cd-1975-1976-complete-dodge-factory-service-manual-on-cd",
+   "note": "Chrysler-authorized reproduction (Torque King)"
+  },
+  {
+   "name": "1977 Dodge Ramcharger brochure",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1977_Trucks-Vans/1977_Dodge_Ramcharger/",
+   "note": "Specifications, engines by model, colors and dimensions (OldCarBrochures)"
+  },
+  {
+   "name": "1978 Dodge Ramcharger brochure (revised)",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1978_Trucks-Vans/1978%20Dodge%20Ramcharger%20-%20Revised/index.html",
+   "note": "NP203 lever positions, Macho Four by Four, towing packages and full specs"
+  },
+  {
+   "name": "1979 Dodge Ramcharger brochure",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1979%20Trucks%20and%20Vans/1979-Dodge-Ramcharger-Brochure/index.html",
+   "note": "Facelift year: engines, GVW and axle ratings"
+  },
+  {
+   "name": "1976–1978 Plymouth Trail Duster brochures",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1977_Trucks-Vans/1977-Plymouth-Trail-Duster-Brochure/index.html",
+   "note": "Plymouth's version. The 1976 and 1978 issues are in the same archive."
+  },
+  {
+   "name": "Torque King — Dodge & Ram transfer case fluid chart",
+   "url": "https://torqueking.com/pages/dodge-and-ram-transfer-case-fluids",
+   "note": "NP203 and NP208 fluid types and capacities, compiled from factory manuals"
+  }
+ ],
+ "production": {
+  "intro": "We couldn't find reliable production totals. The figures quoted online come from reader comments, not sourced references. Here are the packages the brochures and auction records document.",
+  "items": [
+   {
+    "k": "Assembly",
+    "v": "Warren Truck Assembly, Warren, Michigan"
+   },
+   {
+    "k": "Models",
+    "v": "AW100 (4x4, 1974–80) · AD100 (2WD, 1975–80)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "SE package",
+    "years": "1974–80",
+    "note": "Woodgrain trim, upgraded seats and a lockable console with a removable beverage chest. From 1975 the SE dash gets volt and vacuum gauges, and there's two-tone paint (Ramcharger Central, 1978 brochure)."
+   },
+   {
+    "name": "Ramcharger Four by Four (Macho package)",
+    "years": "1978–",
+    "note": "Bold body and tailgate decals, painted spoke or chrome disc wheels, 10-15LT-B tires and power steering on the full-time 4x4 (1978 brochure). Ramcharger Central dates the Macho Ramcharger to 1978."
+   },
+   {
+    "name": "Top Hand",
+    "years": "1978 (BaT examples)",
+    "note": "Two-tone graphics and branded wheel centers. BaT has sold 1978 Top Hand trucks."
+   },
+   {
+    "name": "Sno-Commander",
+    "years": "1978–79 brochures",
+    "note": "Factory snowplow package with a power-angling blade and power lift, 4x4 only. GVW rises to 6,050 lb on the 1979 sheet."
+   },
+   {
+    "name": "Plymouth Trail Duster Sport",
+    "years": "1974–80",
+    "note": "Plymouth's top trim, with faux-wood trim (Motor1)."
+   }
+  ],
+  "paint": "The 1979 brochure lists colors including Sunburst Orange, Yellow Flame, Medium Canyon Red and Teal Frost Metallic. The 1978 brochure has 14, seven of them metallic. A 1978 Macho sold on BaT was in Bright Yellow Orange (DT5229), and a 1977 SE in Yellow (DT2574)."
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Ramcharger Central",
+   "url": "https://www.ramchargercentral.com/",
+   "note": "The main online community for every Ramcharger and Trail Duster, with regional chapters and a year-by-year changes reference."
+  },
+  {
+   "kind": "event",
+   "name": "Midwest Mopars in the Park",
+   "url": "https://www.moparsinthepark.com/",
+   "note": "National Mopar car show and swap meet at the Dakota County Fairgrounds, Farmington MN, held the weekend after Memorial Day. Our hero photo was taken there."
+  }
+ ],
+ "sources": [
+  {
+   "name": "NHTSA — recalls by vehicle, 1978 Dodge Ramcharger",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=dodge&model=ramcharger&modelYear=1978"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle, 1980 Dodge Ramcharger",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=dodge&model=ramcharger&modelYear=1980"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle, 1978 Plymouth Trailduster",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=plymouth&model=trailduster&modelYear=1978"
+  },
+  {
+   "name": "Wikipedia — Dodge Ramcharger",
+   "url": "https://en.wikipedia.org/wiki/Dodge_Ramcharger"
+  },
+  {
+   "name": "Dodge — 1977 Ramcharger brochure (via OldCarBrochures)",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1977_Trucks-Vans/1977_Dodge_Ramcharger/"
+  },
+  {
+   "name": "Dodge — 1978 Ramcharger brochure, revised (via OldCarBrochures)",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1978_Trucks-Vans/1978%20Dodge%20Ramcharger%20-%20Revised/index.html"
+  },
+  {
+   "name": "Dodge — 1979 Ramcharger brochure (via OldCarBrochures)",
+   "url": "https://www.oldcarbrochures.org/United%20States/Chrysler%20Trucks%20and%20Vans/1979%20Trucks%20and%20Vans/1979-Dodge-Ramcharger-Brochure/index.html"
+  },
+  {
+   "name": "Ramcharger Central — 1972–2017 Truck & Ramcharger Changes",
+   "url": "https://www.ramchargercentral.com/threads/1972-2017-truck-ramcharger-changes.332048/"
+  },
+  {
+   "name": "For A Bodies Only — '78 Dodge Power Wagon thread (full-time hub bearings, 2011)",
+   "url": "https://www.forabodiesonly.com/mopar/threads/78-dodge-power-wagon.146791/post-1405409"
+  },
+  {
+   "name": "Torque King 4x4 — Dodge & Ram transfer case fluid chart",
+   "url": "https://torqueking.com/pages/dodge-and-ram-transfer-case-fluids"
+  },
+  {
+   "name": "Torque King 4x4 — 1957–93 Dana 44 inner axle seal application list",
+   "url": "https://torqueking.com/pages/1957-1993-dana-44-solid-beam-inner-axle-seal-application-list"
+  },
+  {
+   "name": "Torque King 4x4 — 1980–87 Dodge NP208D transfer case",
+   "url": "https://torqueking.com/collections/1980-1987-dodge-np208d-transfer-case"
+  },
+  {
+   "name": "Off-Road.com forums — 1990 Ramcharger tire fitment thread",
+   "url": "https://forums.off-road.com/posts/484861"
+  },
+  {
+   "name": "Suspension Connection — Tuff Country 4\" EZ-Ride lift kit, 1969–93 Ramcharger",
+   "url": "https://www.suspensionconnection.com/347003-ramcharger"
+  },
+  {
+   "name": "Motor1 — 1978 Plymouth Trail Duster barn find (Christopher Smith, Dec 2023)",
+   "url": "https://www.motor1.com/news/701956/1978-plymouth-trail-duster-barn-find/"
+  },
+  {
+   "name": "Bring a Trailer — Dodge Ramcharger / Plymouth Trail Duster results",
+   "url": "https://bringatrailer.com/dodge/ramcharger/"
+  },
+  {
+   "name": "Bring a Trailer — 1974 Dodge Ramcharger 4x4 4-Speed (lot #239,631)",
+   "url": "https://bringatrailer.com/listing/1974-dodge-ramcharger-8/"
+  },
+  {
+   "name": "Bring a Trailer — 1978 Dodge Ramcharger Macho 4x4 (lot #148,463)",
+   "url": "https://bringatrailer.com/listing/1978-dodge-ramcharger-4/"
+  },
+  {
+   "name": "Bring a Trailer — 1977 Dodge Ramcharger SE 440 4x4 (lot #147,565)",
+   "url": "https://bringatrailer.com/listing/1977-dodge-ramcharger-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1978 Dodge Ramcharger Top Hand 4x4 (lot #161,754)",
+   "url": "https://bringatrailer.com/listing/1978-dodge-ramcharger-5/"
+  },
+  {
+   "name": "Bring a Trailer — 1978 Plymouth Trail Duster 4x4 (lot #251,638)",
+   "url": "https://bringatrailer.com/listing/1978-plymouth-trail-duster-4/"
+  },
+  {
+   "name": "Bring a Trailer — 340-Powered 1979 Plymouth Trail Duster Sport (lot #229,312)",
+   "url": "https://bringatrailer.com/listing/1979-plymouth-trail-duster-3/"
+  },
+  {
+   "name": "Midwest Mopars in the Park",
+   "url": "https://www.moparsinthepark.com/"
+  }
+ ]
+}
