@@ -36,13 +36,18 @@ FAMILY_ORDER = sorted(SHORT_NAME, key=lambda k: SHORT_NAME[k].lower())
 NAV_FAMS = []
 NAV = [
     {'key': 'models', 'label': 'MODELS', 'href': 'models/index.html'},
-    {'key': 'repairs', 'label': 'REPAIRS', 'href': 'repairs/index.html'},
-    {'key': 'tires', 'label': 'TIRES', 'href': 'tires/index.html'},
+    {'key': 'garage', 'label': 'GARAGE', 'href': 'garage/index.html', 'children': [
+        {'key': 'repairs', 'label': 'Repair guides', 'href': 'repairs/index.html'},
+        {'key': 'tires', 'label': 'Tire fitment', 'href': 'tires/index.html'},
+        {'key': 'compare', 'label': 'Compare', 'href': 'compare/index.html'},
+        {'key': 'bestyears', 'label': 'Best years to buy', 'href': 'garage/index.html#best-years'},
+        {'key': 'resources', 'label': 'Resources', 'href': 'resources/index.html'},
+    ]},
     {'key': 'mods', 'label': 'MODS & BUILDERS', 'href': 'mods/index.html'},
-    {'key': 'resources', 'label': 'RESOURCES', 'href': 'resources/index.html'},
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -401,7 +406,7 @@ def main():
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
-                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS)
+                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS, garage_keys=GARAGE_KEYS)
         path = pretty_path(out)
         canonical = SITE_URL + path
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
@@ -521,7 +526,7 @@ def main():
     for c in compares:
         ms = [model_info(m, '../') for m in c['models']]
         names = {m['key']: m['name'] for m in ms}
-        render('compare.html', f'compare/{c["slug"]}.html', '../', c=c, ms=ms, names=names, active='models', og_type='article',
+        render('compare.html', f'compare/{c["slug"]}.html', '../', c=c, ms=ms, names=names, active='compare', og_type='article',
                og_image=(ms[0]['img'][3:] if ms[0]['img'] else None),
                crumbs=[('Compare', 'compare/'), (c['title'], f'compare/{c["slug"]}.html')],
                jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': c['title'], 'description': c['description'], 'url': SITE_URL + f'compare/{c["slug"]}/',
@@ -530,7 +535,7 @@ def main():
                title=f'{c["title"]}: which to buy — BoxyTrucks', description=c['description'][:158], credits='')
     for c in compares:
         c['fam_label'] = ' vs '.join(dict.fromkeys(mlabel(fams[m.split('/')[0]]['maker'], fams[m.split('/')[0]]['name']) for m in c['models']))
-    render('compare_hub.html', 'compare/index.html', '../', compares=compares, by_fam=by_fam, active='models', crumbs=[('Compare', 'compare/')],
+    render('compare_hub.html', 'compare/index.html', '../', compares=compares, by_fam=by_fam, active='compare', crumbs=[('Compare', 'compare/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Compare', 'url': SITE_URL + 'compare/'}],
            title='Compare boxy 4x4s head to head — BoxyTrucks', description='80 vs 100 Series, JK vs JL, Wrangler vs Bronco, Defender vs Grenadier vs G-Class: sourced head-to-heads and the best years to buy.', credits='')
 
@@ -557,6 +562,12 @@ def main():
                jsonld=[{'@context': 'https://schema.org', '@type': 'WebApplication', 'name': 'BoxyTrucks tire fitment tool', 'url': SITE_URL + 'tires/', 'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}],
                title='Biggest tire without a lift (and with one): fitment for every boxy 4x4 — BoxyTrucks',
                description='Pick your truck and lift height to see the biggest tire owners and specialists run on every Land Cruiser, G-Class, Jeep, Bronco, 4Runner and more.', credits='')
+
+    render('garage.html', 'garage/index.html', '../', active='garage', by_fam=by_fam, n_compare=len(compares), n_tires=len(tf_rows) if tf_rows else 0,
+           crumbs=[('Garage', 'garage/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Garage', 'url': SITE_URL + 'garage/'}],
+           title='Garage: repairs, tire fitment, comparisons and best years — BoxyTrucks',
+           description='The BoxyTrucks garage: DIY repair guides, the tire fitment tool, head-to-head comparisons, the best years to buy and the best owner resources.', credits='')
 
     def href(root, slug, gen):
         return f'{root}models/{slug}/{gen}.html'

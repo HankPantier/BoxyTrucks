@@ -582,3 +582,15 @@ html { scroll-padding-top: 90px; }
 .tf-gen h3 { font-size: 17px; margin: 0 0 6px; display: flex; gap: 10px; flex-wrap: wrap; align-items: baseline; }
 .tf-gen h3 .mono { font-size: 12px; color: var(--stone, #5E5A52); }
 .tf-gen ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+
+/* smaller dropdowns (Garage) */
+.nav-drop-sm .nav-menu { min-width: 220px; }
+@media (max-width: 1099px) { .nav-drop-sm .nav-menu { columns: 1; } }
+.nav-menu a[aria-current="page"] { color: var(--brass); }
+.garage-card { padding: 26px; gap: 12px; }
+.garage-card h2 { font-size: 28px; margin: 0; }
+.garage-card p { margin: 0; color: var(--stone, #5E5A52); line-height: 1.5; flex-grow: 1; }
+.garage-card .go { font-weight: 600; font-size: 14px; letter-spacing: .08em; color: var(--green, #22302A); }
+.garage-card:hover { background: #fff; }
+.garage-fams { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 10px 24px; }
+.garage-fams li { padding: 8px 0; border-bottom: 1px solid #D6D0C2; }
