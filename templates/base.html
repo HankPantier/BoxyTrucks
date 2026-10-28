@@ -81,7 +81,7 @@ gtag('js',new Date());gtag('config','{{ seo.ga }}');</script>{% endif %}
     <nav aria-label="Footer">
       {% for n in nav %}{% if n.children %}{% for c in n.children if c.key != 'bestyears' %}<a href="{{ root }}{{ c.href }}">{{ c.label }}</a>{% endfor %}{% else %}<a href="{{ root }}{{ n.href }}">{{ n.label|title }}</a>{% endif %}{% endfor %}
     </nav>
-    <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>{% if amazon_on %}AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br>{% endif %}<a href="{{ root }}about/disclaimer.html" style="color:inherit">DISCLAIMER</a> · <a href="{{ root }}about/privacy.html" style="color:inherit">PRIVACY</a> · <a href="{{ root }}about/affiliate-disclosure.html" style="color:inherit">AFFILIATE DISCLOSURE</a> · <a href="{{ root }}about/cookies.html" style="color:inherit">COOKIES</a> · <a href="#" data-cookie-settings style="color:inherit">COOKIE SETTINGS</a></div>
+    <div class="legal">BY ENTHUSIASTS, FOR ENTHUSIASTS<br>NOT AFFILIATED WITH ANY MANUFACTURER<br>{% if amazon_on %}AS AN AMAZON ASSOCIATE WE EARN FROM QUALIFYING PURCHASES<br>{% endif %}<a href="{{ root }}about/index.html" style="color:inherit">ABOUT</a> · <a href="{{ root }}about/disclaimer.html" style="color:inherit">DISCLAIMER</a> · <a href="{{ root }}about/privacy.html" style="color:inherit">PRIVACY</a> · <a href="{{ root }}about/affiliate-disclosure.html" style="color:inherit">AFFILIATE DISCLOSURE</a> · <a href="{{ root }}about/cookies.html" style="color:inherit">COOKIES</a> · <a href="#" data-cookie-settings style="color:inherit">COOKIE SETTINGS</a></div>
   </div>
 </footer>
 <script>

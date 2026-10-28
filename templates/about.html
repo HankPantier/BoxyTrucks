@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px"><span class="eyebrow brass">About BoxyTrucks</span><h1 style="font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-0.02em;max-width:900px;text-wrap:balance">For the love of right angles</h1>
+<p class="serif" style="margin:0;max-width:720px;font-size:20px;line-height:31px;color:#D9D4C8">An independent guide to the square-shouldered 4x4s people actually take off-road: {{ n_gens }} generations across {{ n_fams }} families, from the FJ25 to the Grenadier.</p></div></section>
+<div class="wrap section"><div class="prose" style="max-width:740px">
+<p class="lead">BoxyTrucks started with a simple frustration: the best knowledge about these trucks is scattered across twenty-year-old forum threads, specialist shops’ blogs, factory brochures and owners’ heads. We pull it together, one generation at a time, and show our sources.</p>
+
+<h2>What you’ll find here</h2>
+<p>Every generation gets a full guide: where it came from and how it’s built, the best years to buy and the ones to avoid, a pre-purchase checklist, the {{ n_repairs }} repairs owners actually end up doing, a printable <a href="{{ root }}garage/index.html">specs and fluids sheet</a>, wheel and tire fitment, recalls, values, and the suppliers, builders, forums and channels worth knowing. Around them sit tools: the <a href="{{ root }}tires/index.html">tire fitment tool</a>, <a href="{{ root }}compare/index.html">head-to-head comparisons</a> and <a href="{{ root }}garage/index.html#best-years">best years to buy</a> for every family.</p>
+
+<h2>How we research</h2>
+<p><strong>Everything is sourced.</strong> Each guide lists its sources at the bottom: factory press releases and brochures, owner’s and service manuals cited by name, NHTSA recall records, specialist shops, parts suppliers and long-running owner forums. Where owners and the factory disagree, we say so.</p>
+<p><strong>“Best years” means buyer consensus, not spec sheets.</strong> A year earns the Sweet spot tag because owners and specialists recommend it, and the Beware tag because of documented problems. Years whose only issue is a recall are tagged Recall, so you know to check it was done rather than to walk away.</p>
+<p><strong>We flag what we haven’t verified.</strong> Fluid specs, capacities and intervals marked <span class="chk">confirm in manual</span> come from owners or suppliers and haven’t been checked against a factory source. Confirm them against the manual for your VIN before you rely on them; see the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.</p>
+<p><strong>Off-road photos only, always credited.</strong> We use photography of trucks doing what they were built for, licensed from Unsplash, Pexels, Wikimedia Commons and similar sources, with the photographer credited on every page. We never use photos of wrecks or breakdowns.</p>
+
+<h2>How we make money</h2>
+<p>Some parts and product links are affiliate links: if you buy through them, we may earn a small commission at no extra cost to you. It never decides what we recommend: we link the suppliers owners trust, whether or not they pay us. Full details are in the <a href="{{ root }}about/affiliate-disclosure.html">affiliate disclosure</a>. There are no display ads, and we don’t sell your data (<a href="{{ root }}about/privacy.html">privacy policy</a>).</p>
+
+<h2>Independent</h2>
+<p>BoxyTrucks isn’t affiliated with or endorsed by Toyota, Mercedes-Benz, Land Rover, Jeep, Ford, INEOS or any other manufacturer. Trademarks belong to their owners.</p>
+
+<h2>Corrections and contributions</h2>
+<p>These trucks have devoted owners who know them better than any guide. If you spot a mistake, email <strong>boxytrucks@gmail.com</strong> with the page and what’s wrong, and we’ll fix it and credit you if you like. Got a truck worth featuring? <a href="{{ root }}submit/index.html">Show us your rig</a>, follow along on Instagram at <a href="{{ instagram_url }}" target="_blank" rel="noopener">@boxytrucks</a>, or get the monthly Boxy Dispatch below.</p>
+</div></div>
+{% endblock %}
