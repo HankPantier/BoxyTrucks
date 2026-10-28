@@ -21,7 +21,7 @@ SUBMIT_EMAIL = 'boxytrucks@gmail.com'
 # TODO: Google Analytics — paste the GA4 measurement ID (G-XXXXXXX) here to enable tracking on every page.
 # Newsletter: paste the provider's form action once an account exists, e.g. Buttondown
 # 'https://buttondown.com/api/emails/embed-subscribe/<username>' (field 'email'). Empty = sign-up hidden.
-NEWSLETTER = {'provider': '', 'action': '', 'field': 'email'}
+NEWSLETTER = {'provider': 'kit', 'action': 'https://app.kit.com/forms/10110095/subscriptions', 'field': 'email_address'}
 GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 INSTAGRAM_URL = 'https://www.instagram.com/boxytrucks/'
@@ -671,6 +671,8 @@ def main():
     render('disclaimer.html', 'about/disclaimer.html', '../', active='', title='Disclaimer — BoxyTrucks', description='BoxyTrucks specs, fluids and repair guides are for general information: verify against your manual or a qualified mechanic.', credits='', crumbs=[('Disclaimer', 'about/disclaimer.html')])
     render('cookies.html', 'about/cookies.html', '../', active='', title='Cookies — BoxyTrucks', description='The cookies BoxyTrucks sets (Google Analytics only), how long they last, and how to accept, refuse or change your choice.', credits='', crumbs=[('Cookies', 'about/cookies.html')])
     render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
+    render('newsletter_thanks.html', 'newsletter/thanks.html', '../', noindex=True, hide_newsletter=True, title='Check your inbox — BoxyTrucks', description='One more step: confirm your subscription to The Boxy Dispatch.', credits='')
+    render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the monthly BoxyTrucks email.', credits='')
     render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, track_event='rig_submission', hide_newsletter=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
 
     render('404.html', '404.html', '', noindex=True, hide_newsletter=True, title='Not found — BoxyTrucks', description='That page took a wrong turn. Search the guides or pick a model family.', credits='')

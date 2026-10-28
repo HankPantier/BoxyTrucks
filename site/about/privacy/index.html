@@ -62,6 +62,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 <div class="wrap section"><div class="prose" style="max-width:720px">
 <p class="lead">BoxyTrucks is a small enthusiast site. We collect as little as we can, and we don’t sell personal information.</p>
 <p><strong>Analytics.</strong> We use Google Analytics 4 to see which pages people read and which links they follow, so we know what to improve. Google Analytics sets cookies and collects data such as pages visited, approximate location, device and browser. We don’t receive your name or email from it. Visitors in the UK, EU, EEA and Switzerland are asked before analytics cookies are set; everyone else can switch them off with the cookie banner or the <em>Cookie settings</em> link in the footer. See the <a href="/about/cookies/">cookie policy</a> for the full list. You can also opt out with Google’s <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">browser add-on</a> or by blocking cookies; see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses data from sites that use its services</a>.</p>
+<p><strong>Newsletter.</strong> If you subscribe to The Boxy Dispatch, your email address and the page you signed up on are stored by our email provider, <a href="https://kit.com/privacy" target="_blank" rel="noopener">Kit</a>, which sends the emails for us. We ask you to confirm by email before anything is sent, we use your address only for the newsletter, and every email has a one-click unsubscribe link.</p>
 <p><strong>Show Us Your Rig.</strong> If you submit a truck, the form sends your name, email, location and social handles if given, your build details, story and photos to us by email through <a href="https://formsubmit.co/" target="_blank" rel="noopener">FormSubmit</a>. We use your email only to reply about your submission and never publish it. If you gave permission, we may publish your truck, story, photos and the name or handle you supplied, credited to you. Ask us to remove a submission at any time and we will.</p>
 <p><strong>Affiliate links.</strong> Some links to parts and gear are affiliate links, including Amazon. When you click one, the retailer or affiliate network may set its own cookies to credit the sale; their privacy policies apply on their sites. See the <a href="/about/affiliate-disclosure/">affiliate disclosure</a>.</p>
 <p><strong>Other sites.</strong> We link to forums, suppliers, YouTube, Instagram, marketplaces and other sites we don’t control. Their privacy practices are their own.</p>
@@ -71,6 +72,17 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 </div></div>
 
 </main>
+
+<section class="newsletter band-night" aria-labelledby="nl-h"><div class="wrap nl-wrap">
+  <div><span class="eyebrow brass">The Boxy Dispatch · monthly</span>
+  <h2 id="nl-h">One new guide, one featured rig, one recall worth knowing. Monthly, no spam.</h2></div>
+  <form class="nl-form" action="https://app.kit.com/forms/10110095/subscriptions" method="post" data-nl>
+    <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
+    <label for="nl-email" class="sr-only">Email address</label>
+    <input id="nl-email" type="email" name="email_address" required placeholder="you@example.com" autocomplete="email">
+    <button class="btn light" type="submit">Subscribe</button>
+  </form>
+</div></section>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -105,7 +117,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
 gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
-document.querySelectorAll('form[data-nl]').forEach(function(f){f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
+document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
 </script>
 <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-labelledby="cb-title" hidden>

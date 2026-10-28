@@ -265,6 +265,17 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 
 </main>
 
+<section class="newsletter band-night" aria-labelledby="nl-h"><div class="wrap nl-wrap">
+  <div><span class="eyebrow brass">The Boxy Dispatch · monthly</span>
+  <h2 id="nl-h">One new guide, one featured rig, one recall worth knowing. Monthly, no spam.</h2></div>
+  <form class="nl-form" action="https://app.kit.com/forms/10110095/subscriptions" method="post" data-nl>
+    <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
+    <label for="nl-email" class="sr-only">Email address</label>
+    <input id="nl-email" type="email" name="email_address" required placeholder="you@example.com" autocomplete="email">
+    <button class="btn light" type="submit">Subscribe</button>
+  </form>
+</div></section>
+
 <footer class="site-footer">
   <div class="wrap">
     <div>
@@ -298,7 +309,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
 gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
-document.querySelectorAll('form[data-nl]').forEach(function(f){f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
+document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
 </script>
 <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-labelledby="cb-title" hidden>
