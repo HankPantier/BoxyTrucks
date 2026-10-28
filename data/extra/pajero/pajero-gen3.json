@@ -1,0 +1,428 @@
+{
+ "fitment": {
+  "stock": [
+   "265/70R16 on 16-inch alloys (BaT's 2001 Limited)",
+   "16x7 +46 mm factory wheel (2004 Montero, ThreePiece.us)",
+   "17-inch alloys on BaT's 2006 Limited"
+  ],
+  "wheel": {
+   "bolt_pattern": "6x139.7 (6x5.5\")",
+   "offset": "+46 mm (factory 16x7)",
+   "center_bore": "67.1 mm",
+   "lug_thread": "M12x1.5",
+   "lug_torque": "81 lb-ft (110 N·m) per Limitless Tire [CONFIRM IN MANUAL]"
+  },
+  "max_tire": [
+   {
+    "lift": "Stock",
+    "size": "255/85R16 (≈33 in, narrow) or 265/75R16",
+    "note": "Owners run 235/85R16 and 255/85R16 with no rubbing on stock suspension, and an '05 runs LT265/70R17. A 285/75R16 rubs at full lock and comes close to the inner fender."
+   },
+   {
+    "lift": "2 in",
+    "size": "255/85R16 or 265/75R16",
+    "note": "An owner with a 2 in OME lift runs 255/85R16s with no issues. With IRS the lift doesn't change the wheel's swing, so 285/75R16 still rubs at full lock on OME medium springs."
+   },
+   {
+    "lift": "2 in + trimming",
+    "size": "34x10.50R17",
+    "note": "One owner runs 34x10.5R17 on 17x7 wheels with 4.90 gears after trimming and massaging the front liners; it touches only on big impacts. Others warn a 34 is gutless without regearing."
+   }
+  ]
+ },
+ "recalls": {
+  "lookup": "US",
+  "items": [
+   {
+    "title": "Hydraulic brake booster accumulator can leak",
+    "years": "2001–2002",
+    "ref": "NHTSA 01V254001",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=01V254001",
+    "summary": "An improperly made accumulator can lose its nitrogen charge, causing a noise from the dash and delayed brake assist after the truck has been parked. Dealers fitted an improved accumulator. Australia's REC-003136 covers 13,488 NM/NP Pajeros for the same part."
+   },
+   {
+    "title": "Fuel tank leveling valve may leak",
+    "years": "2002–2004",
+    "ref": "NHTSA 04V319000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V319000",
+    "summary": "With a full tank, parked nose-up on a slope, expanding fuel can get past the leveling valve and leak onto the ground. Dealers replace the valve."
+   },
+   {
+    "title": "Tire and loading label capacity weights wrong",
+    "years": "2004",
+    "ref": "NHTSA 04V095000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V095000",
+    "summary": "The label's capacity figures were wrong and could lead owners to exceed GVWR; replacement labels were mailed."
+   },
+   {
+    "title": "Bilingual airbag warning labels too small",
+    "years": "2001–2004",
+    "ref": "NHTSA 04V428000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V428000",
+    "summary": "Removable English/Spanish airbag labels on the dash and visor didn't meet FMVSS 208 size rules."
+   },
+   {
+    "title": "Owner's manual missing tether-strap headrest instructions",
+    "years": "2001",
+    "ref": "NHTSA 04V067000",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V067000",
+    "summary": "The manual didn't explain headrest adjustment when fitting a child-seat tether, as FMVSS 225 requires."
+   },
+   {
+    "title": "Passenger-side exterior mirror non-compliant",
+    "years": "2001",
+    "ref": "NHTSA 00V123002",
+    "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V123002",
+    "summary": "Some passenger mirrors didn't meet FMVSS 111; dealers replace the mirror."
+   }
+  ],
+  "tsbs": [
+   {
+    "title": "Hydraulic brake booster: spilled fluid can damage the pump motor",
+    "ref": "Mitsubishi HBB notice (reported by JDMBUYSELL; six chassis codes)",
+    "summary": "Spilled brake fluid entering the pump motor caused malfunction and weak assist. Wipe up spills, never wash them away with water, and have a warning lamp, buzzer or poor braking checked with Mitsubishi's tester.",
+    "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/v60/"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "1999",
+   "change": "Third generation goes on sale in Japan (Mitsubishi gives 2 September; Wikipedia gives 2 August for its introduction). Monocoque with built-in frame, four-wheel independent suspension, Super Select 4WD II, 3.5 GDI V6 and 3.2 DI-D diesel",
+   "flag": "note"
+  },
+  {
+   "year": "2000",
+   "change": "Australian NM launched with the 3.5 V6 and carry-over 2.8 4M40 diesel. Mitsubishi enters a T2 rally car based on the new Pajero at the Dakar",
+   "flag": "note"
+  },
+  {
+   "year": "2001",
+   "change": "First US model year: Montero XLS and Limited, LWB only, 3.5 V6 (200 hp). Consumer Reports rates the Limited 'Not Acceptable' in June. US recall 01V254001 for the brake-booster accumulator (2001–02). Kleinschmidt wins the Dakar",
+   "flag": "recall"
+  },
+  {
+   "year": "2002",
+   "change": "Australia: the 3.2 DI-D replaces the 2.8 diesel and can be had with the five-speed auto. Owners recommend the diesel over the petrols and praise its durability",
+   "flag": "buy"
+  },
+  {
+   "year": "2002–2004",
+   "change": "US recall 04V319000: fuel-tank leveling valve can leak when parked nose-up with a full tank",
+   "flag": "recall"
+  },
+  {
+   "year": "2003",
+   "change": "Facelift. US Montero gets the 3.8 6G75 V6 (215 hp per BaT) and M-ASTC; 20th Anniversary Edition. Owners say the XLS was dropped after this year",
+   "flag": "note"
+  },
+  {
+   "year": "2004",
+   "change": "Electronic traction control added in Australia. ANCAP tests the Pajero Exceed",
+   "flag": "note"
+  },
+  {
+   "year": "2005",
+   "change": "Japan: the 3.8 V6 (219 PS) arrives in the Super Exceed in November, replacing the GDI V6",
+   "flag": "note"
+  },
+  {
+   "year": "2006",
+   "change": "Final US model year for the Montero. The fourth-generation Pajero launches in Japan on 4 October",
+   "flag": "note"
+  }
+ ],
+ "identify": {
+  "intro": "US Monteros are straightforward, but imported Pajeros come in many codes and engines, and the 1999 cut-over means some '99 Pajeros are second-generation trucks.",
+  "items": [
+   {
+    "head": "Chassis codes",
+    "body": "JDMBUYSELL lists V63W, V65W, V68W, V73W, V75W and V78W. Bring a Trailer's imports include a V65W three-door 3.5, a V68W three-door 3.2 diesel and a V75W five-door 3.5. Confirm the full code on the frame or VIN plate."
+   },
+   {
+    "head": "Second or third generation?",
+    "body": "A 1999 Pajero can be either. Third-generation codes start V6 or V7; BaT's 1999 'Wide Exceed' with a V45 code is a second-generation truck with a separate frame."
+   },
+   {
+    "head": "US engine from the VIN",
+    "body": "On BaT's US trucks, the 3.5 Monteros carry R as the eighth VIN character (JA4MW51R…) and the 3.8s carry S (JA4MW51S…, JA4NW31S…)."
+   },
+   {
+    "head": "Pre-facelift or facelift",
+    "body": "Mitsubishi facelifted the truck for 2003; in the US that's also when the 3.8 and M-ASTC arrived. BaT's 2003 and 2004 Limiteds list M-ASTC."
+   },
+   {
+    "head": "Grey-import tells",
+    "body": "Right-hand drive, a fender-mounted mirror and a km/h speedometer (BaT's 1999 V68W has a 180 km/h speedo) mark a Japanese-market truck. Ask for the import paperwork."
+   }
+  ]
+ },
+ "capability": [
+  {
+   "k": "Wheelbase",
+   "v": "2,545 mm (100.2 in) SWB · 2,780 mm (109.45 in) LWB"
+  },
+  {
+   "k": "Length",
+   "v": "4,219 mm (166.1 in) SWB · 4,798 mm (188.9 in) LWB 2001–02 · 4,831 mm (190.2 in) LWB 2003–06"
+  },
+  {
+   "k": "Curb weight",
+   "v": "2,060 kg (4,542 lb)",
+   "note": "5-door, per Wikipedia"
+  },
+  {
+   "k": "Fuel tank",
+   "v": "90 L (23.8 US gal)",
+   "note": "NP owner on ExplorOz; YouCanic lists 23.8 gal"
+  },
+  {
+   "k": "Fuel economy",
+   "v": "≈10–15 L/100 km (≈16–24 mpg US)",
+   "note": "CarsGuide's expected range; an NP 3.2 DI-D owner reports 10.5 town, 11 towing"
+  },
+  {
+   "k": "Diesel torque",
+   "v": "373 N·m (275 lb-ft) at 2,000 rpm",
+   "note": "3.2 DI-D, as quoted by an NP owner"
+  },
+  {
+   "k": "ANCAP (2004 Exceed)",
+   "v": "Frontal offset 9.88/16",
+   "note": "No curtain airbags; 0 points in the optional pole test"
+  }
+ ],
+ "values": {
+  "checked": "October 2026",
+  "intro": "Third-generation Monteros are still cheap; clean, low-mileage Limiteds are the only ones that break $15,000, and Japanese diesels are just starting to arrive.",
+  "ranges": [
+   {
+    "cond": "Project / high-mileage",
+    "range": "$3.5k–6.5k"
+   },
+   {
+    "cond": "Driver",
+    "range": "$8k–14.5k"
+   },
+   {
+    "cond": "Excellent / low-mileage Limited",
+    "range": "$15k–20k"
+   }
+  ],
+  "note": "Based on 24 third-generation Montero and Pajero sales on Bring a Trailer from February 2022 to August 2026, from $3,750 (a 2001 Limited) to $19,777 (a 54k-mile 2001 Limited), median about $12,500. A 225k-mile 2003 20th Anniversary Edition brought $5,200 and a 1999 V68W 3.2 diesel import $14,600. JDMBUYSELL's seller-reported median for imports is $12,183 (n=6)."
+ },
+ "docs": [
+  {
+   "name": "AMSOIL — 2004 Montero 3.8 capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2004/mitsubishi/montero/3-8l-6-cyl-engine-code-3797cc-5/",
+   "note": "Third-party fluid specs and capacities for US trucks; confirm against the owner's manual."
+  },
+  {
+   "name": "NHTSA — recalls for the 2001–2006 Montero",
+   "url": "https://www.nhtsa.gov/recalls",
+   "note": "Search by VIN for open campaigns."
+  },
+  {
+   "name": "Mitsubishi Pajero / Montero factory service manual (2001–2006)",
+   "note": "Owners on Expedition Portal work from the printed FSM for the timing belt and intake; buy a legitimate copy rather than a scan."
+  }
+ ],
+ "import": {
+  "paragraphs": [
+   "Only the long-wheelbase V6 Montero was sold new in the US. Short-wheelbase three-doors, the 3.0 V6, the 3.5 GDI and the 3.2 DI-D diesel are gray-market trucks. NHTSA's exemption covers vehicles at least 25 years old by their own manufacture date (49 CFR 591.5(i)), so as of October 2026 trucks built up to about October 2001 qualify and the rest follow month by month until the last ones in 2031. Bring a Trailer has already sold a 1999 V68W 3.2 diesel and a 2000 V65W three-door with import documents.",
+   "The EPA exemption is separate: JDMBUYSELL notes it requires at least 21 years and the original configuration, or an equivalent or newer EPA-certified engine and emissions system. State titling and emissions rules vary, and California is the hardest. Canada's 15-year threshold doesn't make a truck legal to bring into the US."
+  ]
+ },
+ "production": {
+  "intro": "Built in Japan from 1999 to 2006, and in China under licence until 2011.",
+  "items": [
+   {
+    "k": "Assembly",
+    "v": "Pajero Manufacturing Co., Sakahogi, Gifu; GAC Changfeng, Changsha, China (2004–2011)"
+   },
+   {
+    "k": "Japan on sale",
+    "v": "September/October 1999 – 4 October 2006 (JDMBUYSELL)"
+   },
+   {
+    "k": "Australian NM/NP in HBB recall",
+    "v": "13,488 trucks (REC-003136)"
+   }
+  ],
+  "editions": [
+   {
+    "name": "Montero 20th Anniversary Edition",
+    "years": "2003",
+    "note": "US special edition; BaT's example has a 3.8 V6, five-speed auto and M-ASTC."
+   },
+   {
+    "name": "Pajero ZX",
+    "years": "From January 2000 (Japan)",
+    "note": "Corporate-use model with a 3.5 GDI V6, black bumpers and mirrors, in Sophia White or Satellite Silver."
+   },
+   {
+    "name": "Pajero Super Exceed 3.8",
+    "years": "From November 2005 (Japan)",
+    "note": "6G75 3.8 V6 rated at 219 PS."
+   }
+  ]
+ },
+ "community": [
+  {
+   "kind": "club",
+   "name": "Pajero 4WD Club of Victoria",
+   "url": "https://www.pajeroclub.com.au/",
+   "note": "Australian Pajero club with trips, driver training and a members' forum; all 4WDs welcome."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Wikipedia — Mitsubishi Pajero",
+   "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero"
+  },
+  {
+   "name": "Mitsubishi Motors Japan — Pajero history: 3rd generation (Japanese)",
+   "url": "https://www.mitsubishi-motors.co.jp/lineup/pajero/special/history/3rd-generation-pajero/"
+  },
+  {
+   "name": "JDMBUYSELL — Mitsubishi Pajero V60 buyer's guide",
+   "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/v60/"
+  },
+  {
+   "name": "Unsealed 4X4 — Revolutionary monocoque Pajero turns 20",
+   "url": "https://unsealed4x4.com.au/revolutionary-monocoque-pajero-turns-20/"
+  },
+  {
+   "name": "ROCKCRAWLER.com — Consumer Reports pans 2001 Montero Limited with 'Not Acceptable' rating (June 2001)",
+   "url": "https://www.rockcrawler.com/features/newsshorts/01june/montero.asp"
+  },
+  {
+   "name": "Bring a Trailer — Mitsubishi Pajero & Montero results",
+   "url": "https://bringatrailer.com/mitsubishi/pajero-montero/"
+  },
+  {
+   "name": "Bring a Trailer — 2001 Mitsubishi Montero Limited, 54k miles (sold January 2026)",
+   "url": "https://bringatrailer.com/listing/2001-mitsubishi-montero-14/"
+  },
+  {
+   "name": "Bring a Trailer — 2004 Mitsubishi Montero Limited (sold August 2026)",
+   "url": "https://bringatrailer.com/listing/2004-mitsubishi-montero-6/"
+  },
+  {
+   "name": "Bring a Trailer — 2003 Mitsubishi Montero 20th Anniversary Edition (sold June 2025)",
+   "url": "https://bringatrailer.com/listing/2003-mitsubishi-montero-11/"
+  },
+  {
+   "name": "Bring a Trailer — 2006 Mitsubishi Montero Limited (sold June 2024)",
+   "url": "https://bringatrailer.com/listing/2006-mitsubishi-montero-3/"
+  },
+  {
+   "name": "Bring a Trailer — 1999 Mitsubishi Pajero Exceed 3.2 turbodiesel, V68W (sold February 2026)",
+   "url": "https://bringatrailer.com/listing/1999-mitsubishi-pajero-2/"
+  },
+  {
+   "name": "Bring a Trailer — 2000 Mitsubishi Pajero 3-Door Exceed, V65W (sold May 2026)",
+   "url": "https://bringatrailer.com/listing/2000-mitsubishi-pajero-2/"
+  },
+  {
+   "name": "Bring a Trailer — 1999 Mitsubishi Pajero Exceed 3.5, V75W (sold September 2025)",
+   "url": "https://bringatrailer.com/listing/1999-mitsubishi-pajero/"
+  },
+  {
+   "name": "Expedition Portal — T-belt interval, Gen 3?",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1533152"
+  },
+  {
+   "name": "Expedition Portal — 3rd gen Montero/Pajero questions",
+   "url": "https://www.expeditionportal.com/forum/threads/3rd-gen-montero-pajero-questions.129456/"
+  },
+  {
+   "name": "Expedition Portal — New Gen III and a question about tires",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1569064"
+  },
+  {
+   "name": "Expedition Portal — 285/75/16 Montero 3rd gen. Might not fit",
+   "url": "https://forum.expeditionportal.com/goto/post?id=1989423"
+  },
+  {
+   "name": "Expedition Portal — Gen 3 Montero 34\" tires",
+   "url": "https://forums.expeditionportal.com/threads/gen-3-monrero-34-tires.219641"
+  },
+  {
+   "name": "ExplorOz forum — NP Pajero",
+   "url": "https://www.exploroz.com/forum/8369/np-pajero"
+  },
+  {
+   "name": "CarsGuide — 2003 Mitsubishi Pajero problems",
+   "url": "https://carsguide.com.au/mitsubishi/pajero/problems/2003"
+  },
+  {
+   "name": "ProductReview.com.au — Mitsubishi Pajero NM/NP (2000–2006) owner reviews",
+   "url": "https://www.productreview.com.au/listings/mitsubishi-pajero-nm-np-2000-2006"
+  },
+  {
+   "name": "Australian Government vehicle recalls — REC-003136, Pajero NM/NP hydraulic brake booster accumulator",
+   "url": "https://www.vehiclerecalls.gov.au/recalls/rec-003136"
+  },
+  {
+   "name": "Hong Kong Transport Department — Pajero V65W/V73W/V75W/V78W brake booster accumulator recall",
+   "url": "https://www.td.gov.hk/filemanager/en/content_4798/10000318(en).pdf"
+  },
+  {
+   "name": "AMSOIL — 2004 Mitsubishi Montero 3.8L lubricant and capacity lookup",
+   "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2004/mitsubishi/montero/3-8l-6-cyl-engine-code-3797cc-5/"
+  },
+  {
+   "name": "YouCanic — Mitsubishi Pajero/Montero 2001–2006 generation hub (fuel tank)",
+   "url": "https://www.youcanic.com/vehicles/mitsubishi/pajero-montero/2001-2006/"
+  },
+  {
+   "name": "Limitless Tire — 2004 Mitsubishi Montero wheel and tire specs",
+   "url": "https://limitlesstire.com/vehicles/mitsubishi/montero/2004/"
+  },
+  {
+   "name": "ThreePiece.us — 2004 Mitsubishi Montero wheel fitment",
+   "url": "https://vehicles.threepiece.us/vehicles/mitsubishi/montero/2004/"
+  },
+  {
+   "name": "NHTSA — recalls by vehicle, Mitsubishi Montero 2001–2006 (API)",
+   "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=mitsubishi&model=montero&modelYear=2004"
+  },
+  {
+   "name": "NHTSA — Recall 01V254001 (2001–2002 Montero brake booster accumulator)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=01V254001"
+  },
+  {
+   "name": "NHTSA — Recall 04V319000 (2002–2004 Montero fuel tank leveling valve)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V319000"
+  },
+  {
+   "name": "eCFR — 49 CFR 591.5 (import exemptions, including the 25-year rule)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-591/section-591.5"
+  },
+  {
+   "name": "NHTSA — Recall 04V095000 (2004 Montero loading label)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V095000"
+  },
+  {
+   "name": "NHTSA — Recall 04V428000 (2001–2004 airbag labels)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V428000"
+  },
+  {
+   "name": "NHTSA — Recall 04V067000 (2001 owner's manual, FMVSS 225)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=04V067000"
+  },
+  {
+   "name": "NHTSA — Recall 00V123002 (2001 passenger mirror)",
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=00V123002"
+  },
+  {
+   "name": "Mitsubishi Motors — Dakar Rally 2000",
+   "url": "https://www.mitsubishi-motors.com/en/brand/motorsports/dakar/2000/index.html"
+  },
+  {
+   "name": "Mitsubishi Motors — Dakar Rally 2001",
+   "url": "https://www.mitsubishi-motors.com/en/brand/motorsports/dakar/2001/index.html"
+  }
+ ]
+}
