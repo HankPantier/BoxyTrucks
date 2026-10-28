@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="{{ gen_href }}">{{ model }}</a><span>/</span><span>Specs &amp; fluids</span></nav>
+  <span class="eyebrow brass">Specs, fluids &amp; service · {{ g.years }}</span>
+  <h1 style="font-size:clamp(32px,4.6vw,56px);line-height:1.04;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ model }} specs, fluids and service intervals</h1>
+  <p class="serif" style="margin:0;max-width:760px;font-size:19px;line-height:29px;color:#D9D4C8">The numbers you need in the garage, on one page: spec sheet, capacities and service intervals, wheels and tires, and the parts to order. Sourced from owners, specialists and the factory; tags marked <span class="chk">confirm in manual</span> haven't been checked against a factory source yet.</p>
+  <div class="sp-actions"><button class="btn light" type="button" onclick="window.print()">Print this page</button><a class="btn ghost-brass" href="{{ gen_href }}">Read the full guide</a></div>
+</div></section>
+
+<div class="wrap section sp-wrap" style="padding-top:40px">
+  {% if p.plate %}<section><h2 class="h-section">Spec sheet</h2>
+    <div class="table-box"><table class="sp-table"><tbody>{% for r in p.plate %}<tr><th scope="row">{{ r.k }}</th><td>{{ r.v|lk }}</td></tr>{% endfor %}</tbody></table></div>
+  </section>{% endif %}
+
+  {% if p.generations_table %}<section><h2 class="h-section">By year</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>YEARS</th><th>PLATFORM</th><th>ENGINE</th><th>OUTPUT</th><th>NOTES</th></tr></thead>
+    <tbody>{% for r in p.generations_table %}<tr><td data-l="YEARS"><strong>{{ r.years }}</strong></td><td data-l="PLATFORM" class="mono">{{ r.platform }}</td><td data-l="ENGINE">{{ r.engine }}</td><td data-l="OUTPUT">{{ r.output }}</td><td data-l="NOTES" class="note">{{ r.note|lk }}</td></tr>{% endfor %}</tbody></table></div>
+  </section>{% endif %}
+
+  {% set svc = p.baseline_service %}{% if svc and svc.items %}<section><h2 class="h-section">Fluids, capacities &amp; service intervals</h2>
+    {% if svc.intro %}<div class="prose"><p>{{ svc.intro|lk }}</p></div>{% endif %}
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>ITEM</th><th>SPEC / CAPACITY</th><th>INTERVAL</th><th>NOTES &amp; PARTS</th></tr></thead>
+    <tbody>{% for it in svc['items'] %}<tr><td data-l="ITEM"><strong>{{ it.item }}</strong></td><td data-l="SPEC / CAPACITY">{{ it.spec|lk }}</td><td data-l="INTERVAL">{{ it.interval|lk }}</td><td data-l="NOTES &amp; PARTS" class="note">{{ it.note|lk }}{% if it.parts %}<span class="sp-parts">{% for pt in it.parts %}<a href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.name }}{% if pt.supplier %} · {{ pt.supplier }}{% endif %} ↗</a>{% endfor %}</span>{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+  </section>{% endif %}
+
+  {% if x.capability %}<section><h2 class="h-section">Capability</h2>
+    <div class="table-box"><table class="sp-table"><tbody>{% for r in x.capability %}<tr><th scope="row">{{ r.k }}</th><td>{{ r.v }}{% if r.note %} <span class="sp-note">{{ r.note }}</span>{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+  </section>{% endif %}
+
+  {% set f = x.fitment %}{% if f %}<section><h2 class="h-section">Wheels &amp; tires</h2>
+    <div class="table-box"><table class="sp-table"><tbody>
+      {% if f.stock %}<tr><th scope="row">Factory tire</th><td>{{ f.stock|join(' · ') }}</td></tr>{% endif %}
+      {% if f.wheel %}{% if f.wheel.bolt_pattern %}<tr><th scope="row">Bolt pattern</th><td>{{ f.wheel.bolt_pattern }}</td></tr>{% endif %}{% if f.wheel.center_bore %}<tr><th scope="row">Center bore</th><td>{{ f.wheel.center_bore }}</td></tr>{% endif %}{% if f.wheel.lug_thread %}<tr><th scope="row">Lug thread</th><td>{{ f.wheel.lug_thread }}</td></tr>{% endif %}{% endif %}
+      {% for t in f.max_tire or [] %}<tr><th scope="row">Biggest tire · {{ t.lift }}</th><td>{{ t.size }}</td></tr>{% endfor %}
+    </tbody></table></div>
+    <p class="sub-intro"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug }}">Open the {{ p.title }} in the tire fitment tool →</a></p>
+  </section>{% endif %}
+
+  {% if p.repairs %}<section><h2 class="h-section">Common {{ p.title }} repairs</h2>
+    <ul class="sp-reps">{% for r in p.repairs %}<li><a href="{{ root }}repairs/{{ fam.slug }}/{{ g.slug }}/{{ r.slug }}.html"><span>{{ r.title|striplk }}</span><span class="mono">DIFFICULTY {{ r.diff }}</span></a></li>{% endfor %}</ul>
+  </section>{% endif %}
+
+  <p class="sp-foot">Always confirm torque figures, fluids and capacities against the factory service manual for your VIN. See the <a href="{{ root }}about/disclaimer.html">disclaimer</a>{% if affiliates_on %}; some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>{% endif %}.</p>
+</div>
+{% endblock %}

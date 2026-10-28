@@ -182,6 +182,7 @@
       <section id="service" style="display:flex;flex-direction:column;gap:18px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Post-purchase baseline</span><h2 style="font-size:34px">After you buy it</h2></div>
         {% if p.baseline_service.intro %}<div class="prose"><p style="margin:0">{{ p.baseline_service.intro|lk }}</p></div>{% endif %}
+        <p class="sub-intro" style="margin:0"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ p.slug }}/specs.html">All {{ p.title }} specs, fluids and service intervals on one printable page →</a></p>
         <div class="svc-list">
           <div class="svc-hd" aria-hidden="true"><span>Service</span><span>Spec &amp; capacity</span><span>Then</span><span></span></div>
           {% for s in p.baseline_service['items'] %}{% set more = true %}

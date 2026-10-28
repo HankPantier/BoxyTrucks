@@ -136,6 +136,30 @@ def amz_q(pt, vehicle=''):
     return q
 
 
+CONFIRM_RE = re.compile(r'\s*\[(CONFIRM[^\]]*)\]')
+
+def _confirm_txt(m):
+    t = m.group(1).strip()
+    t = re.sub(r'\s+', ' ', t).replace('CONFIRM', 'confirm', 1)
+    t = t if t != 'confirm' else 'confirm in your manual'
+    return t[0].lower() + t[1:].lower() if t.isupper() or t.startswith('confirm ') else t
+
+def confirm_plain(text):
+    return CONFIRM_RE.sub(lambda m: f' ({_confirm_txt(m)})', str(text))
+
+def confirm_html(html):
+    parts = re.split(r'(<script\b.*?</script>|<[^>]+>)', html, flags=re.S)
+    out = []
+    for seg in parts:
+        if seg.startswith('<script'):
+            out.append(confirm_plain(seg))
+        elif seg.startswith('<'):
+            out.append(confirm_plain(seg) if 'CONFIRM' in seg else seg)
+        else:
+            out.append(CONFIRM_RE.sub(lambda m: f' <span class="chk" title="Not checked against a factory source: confirm before you rely on it">{_confirm_txt(m)}</span>', seg))
+    return ''.join(out)
+
+
 def repair_slug(title, used):
     t = re.sub(r'\(.*?\)', '', str(title)).lower().replace('&', 'and')
     t = re.sub(r'[^a-z0-9]+', '-', t).strip('-')
@@ -441,6 +465,8 @@ def main():
         html, _ = affiliate_rewrite(html, AFFILIATES)
         html = prettify_html(html, out)
         html = responsive_imgs(html)
+        if 'CONFIRM' in html:
+            html = confirm_html(html)
         new_out = pretty_out(out)
         if new_out != out:  # keep the old .html address working
             (SITE / out).parent.mkdir(parents=True, exist_ok=True)
@@ -492,6 +518,14 @@ def main():
                        part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
                        yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=f'{mlabel(fam["maker"], page["title"])} — BoxyTrucks',
                        description=page.get('verdict', g['summary']), credits=credits_of([page]))
+                if page.get('plate') or (page.get('baseline_service') or {}).get('items'):
+                    _m = mlabel(fam['maker'], page['title'])
+                    render('specs.html', f'models/{slug}/{g["slug"]}/specs.html', '../../../', fam=fam, g=g, p=page, x=x, model=_m,
+                           gen_href=f'../../../models/{slug}/{g["slug"]}.html', active='models', og_type='article',
+                           crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), ('Specs & fluids', f'models/{slug}/{g["slug"]}/specs/')],
+                           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
+                           title=f'{_m} specs, fluid capacities & service intervals | BoxyTrucks',
+                           description=f'{_m} ({g.get("years", "")}) spec sheet, fluid capacities, oil grades, service intervals, wheel and tire sizes and parts numbers, on one printable page.'[:158], credits='')
             else:
                 render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
                        title=f'{mlabel(fam["maker"], fam["name"])} {g["name"]} — BoxyTrucks', description=g['summary'], credits='')
@@ -754,7 +788,7 @@ def main():
     for s in suppliers:
         if s.get('url'):
             add('Supplier', s['name'], s['url'], s.get('what', ''), s.get('what', ''))
-    (SITE / 'search-index.json').write_text(json.dumps(idx, ensure_ascii=False, separators=(',', ':')))
+    (SITE / 'search-index.json').write_text(confirm_plain(json.dumps(idx, ensure_ascii=False, separators=(',', ':'))))
     render('search.html', 'search/index.html', '../', active='search', title='Search — BoxyTrucks', description='Search model guides, repairs, owner questions, suppliers and resources.', credits='', noindex=True)
 
     from datetime import date
@@ -850,7 +884,7 @@ def main():
             srcs = list(p.get('sources', [])) + list(x.get('sources', []))
             if srcs:
                 F += ['### Sources'] + [f'- {_t(s_["name"])}: {s_["url"]}' for s_ in srcs if s_.get('url')] + ['']
-    (SITE / 'llms-full.txt').write_text(re.sub(r'\n{3,}', '\n\n', '\n'.join(F)))
+    (SITE / 'llms-full.txt').write_text(confirm_plain(re.sub(r'\n{3,}', '\n\n', '\n'.join(F))))
 
     # IndexNow key file + per-page content hashes (CI compares them with the live site to ping only changed pages)
     import hashlib
