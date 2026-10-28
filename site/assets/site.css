@@ -664,3 +664,17 @@ html { scroll-padding-top: 90px; }
   .table-box .sp-table:not(.sp-wide) th, .table-box .sp-table:not(.sp-wide) td { display: table-cell; padding: 10px 12px; border-bottom: 1px solid var(--hair); }
   .table-box .sp-table:not(.sp-wide) tbody th { width: 40%; font-size: 11px; }
 }
+
+/* recall tracker */
+.rc-filter { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.rc-filter label { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--stone); text-transform: uppercase; }
+.rc-filter select { padding: 10px 12px; border: 1px solid var(--ink); background: var(--paper); font: inherit; min-width: 0; max-width: 100%; }
+.rc-list { border-top: 1px solid var(--ink); }
+.rc-gen { border-bottom: 1px solid var(--hair); }
+.rc-gen summary { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; padding: 14px 0; cursor: pointer; list-style: none; }
+.rc-gen summary::-webkit-details-marker { display: none; }
+.rc-gen summary .nm { font-weight: 600; font-size: 18px; }
+.rc-gen summary .nm::before { content: '+'; display: inline-block; width: 18px; color: #8A6A1F; }
+.rc-gen[open] summary .nm::before { content: '−'; }
+.rc-gen summary .ct { font-size: 11px; letter-spacing: .08em; color: var(--stone); align-self: center; }
+.rc-body { padding: 0 0 20px; display: flex; flex-direction: column; gap: 12px; }

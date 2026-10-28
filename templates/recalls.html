@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><span>Recall tracker</span></nav>
+  <span class="eyebrow brass">Recall tracker · {{ n_items }} recalls · {{ n_tsbs }} service bulletins</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:900px">Every recall worth knowing, for every boxy 4x4</h1>
+  <p class="serif" style="margin:0;max-width:740px;font-size:19px;line-height:29px;color:#D9D4C8">Recalls follow the VIN, not the model, so use this to know what to ask about, then check the actual truck. For US vehicles, run the VIN through NHTSA; ask the seller for dealer records showing the work was done.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn light" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">Check a VIN at NHTSA ↗</a><a class="btn ghost-brass" href="https://www.check-vehicle-recalls.service.gov.uk/" target="_blank" rel="noopener">UK: DVSA recall check ↗</a></div>
+</div></section>
+
+<div class="wrap section" style="padding-top:40px"><div style="display:flex;flex-direction:column;gap:48px;max-width:1040px">
+  {% if recent %}<section><h2 class="h-section">Latest US recalls</h2>
+    <div class="rows recall-rows">{% for r in recent %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m"><a class="inline-link" href="{{ r.href }}#recalls">{{ r.model }}</a> · {{ r.years }} · {{ r.ref }}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>
+  </section>{% endif %}
+
+  <section><h2 class="h-section">By truck</h2>
+    <div class="rc-filter"><label for="rc-fam">Family</label><select id="rc-fam"><option value="">All families</option>{% for f in fam_opts %}<option value="{{ f.slug }}">{{ f.label }}</option>{% endfor %}</select></div>
+    <div class="rc-list">{% for g in groups %}
+      <details class="rc-gen" data-fam="{{ g.fam }}" id="{{ g.fam }}-{{ g.gen }}"><summary><span class="nm">{{ g.model }}</span><span class="ct mono">{{ g['items']|length }} RECALL{{ 'S' if g['items']|length != 1 }}{% if g.tsbs %} · {{ g.tsbs|length }} TSB{{ 'S' if g.tsbs|length != 1 }}{% endif %}</span></summary>
+        <div class="rc-body">
+          {% if g['items'] %}<div class="rows recall-rows">{% for r in g['items'] %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.years }}{% if r.ref %} · {{ r.ref }}{% endif %}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
+          {% if g.tsbs %}<span class="label sub-label">Service bulletins &amp; known fixes</span><div class="rows recall-rows">{% for r in g.tsbs %}<div class="row"><span class="t">{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }} ↗</a>{% else %}{{ r.title }}{% endif %}</span><span class="m">{{ r.ref }}</span>{% if r.summary %}<span class="n">{{ r.summary|lk }}</span>{% endif %}</div>{% endfor %}</div>{% endif %}
+          <p><a class="inline-link" href="{{ g.href }}#recalls">The full {{ g.model }} guide →</a></p>
+        </div></details>{% endfor %}
+    </div>
+  </section>
+  <p class="sp-foot">Compiled from NHTSA records, manufacturer announcements and owner forums. It isn't a complete list and isn't a substitute for a VIN check. A recall listed here may already have been done on a given truck.</p>
+</div></div>
+<script>
+(function(){var s=document.getElementById('rc-fam');function f(){var v=s.value;document.querySelectorAll('.rc-gen').forEach(function(d){d.hidden=!!v&&d.dataset.fam!==v;});}
+s.addEventListener('change',f);var h=(location.hash||'').slice(1);if(h){var d=document.getElementById(h);if(d){d.open=true;}}})();
+</script>
+{% endblock %}

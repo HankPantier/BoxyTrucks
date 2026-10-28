@@ -8,7 +8,7 @@
   <div class="sp-actions"><button class="btn light" type="button" onclick="window.print()">Print this page</button><a class="btn ghost-brass" href="{{ gen_href }}">Read the full guide</a></div>
 </div></section>
 
-<div class="wrap section sp-wrap" style="padding-top:40px">
+<div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
   {% if p.plate %}<section><h2 class="h-section">Spec sheet</h2>
     <div class="table-box"><table class="sp-table"><tbody>{% for r in p.plate %}<tr><th scope="row">{{ r.k }}</th><td>{{ r.v|lk }}</td></tr>{% endfor %}</tbody></table></div>
   </section>{% endif %}
@@ -42,5 +42,5 @@
   </section>{% endif %}
 
   <p class="sp-foot">Always confirm torque figures, fluids and capacities against the factory service manual for your VIN. See the <a href="{{ root }}about/disclaimer.html">disclaimer</a>{% if affiliates_on %}; some parts links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>{% endif %}.</p>
-</div>
+</div></div>
 {% endblock %}

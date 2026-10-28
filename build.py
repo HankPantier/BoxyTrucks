@@ -48,7 +48,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources'}
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -734,6 +734,33 @@ def main():
                        description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
                 n_repair_pages += 1
     print(f'  repair pages: {n_repair_pages}')
+    rc_groups, rc_recent, n_items, n_tsbs = [], [], 0, 0
+    for slug in FAMILY_ORDER:
+        if slug not in fams:
+            continue
+        fam = fams[slug]
+        for gs in gen_order(slug):
+            p = pages[slug].get(gs)
+            if not p:
+                continue
+            rc = (p.get('x') or {}).get('recalls') or {}
+            items, tsbs = rc.get('items') or [], rc.get('tsbs') or []
+            if not items and not tsbs:
+                continue
+            model = mlabel(fam['maker'], p['title'])
+            h = f'../models/{slug}/{gs}.html'
+            rc_groups.append({'fam': slug, 'gen': gs, 'model': model, 'href': h, 'items': items, 'tsbs': tsbs})
+            n_items += len(items); n_tsbs += len(tsbs)
+            for r in items:
+                m = re.search(r'(\d\d)V(\d{3})', r.get('ref', '') or '')
+                if m:
+                    _yy = int(m.group(1)); rc_recent.append(((2000 + _yy) if _yy < 60 else (1900 + _yy), int(m.group(2)), dict(r, model=model, href=h)))
+    rc_recent = [r for *_, r in sorted(rc_recent, key=lambda t: (t[0], t[1]), reverse=True)[:12]]
+    render('recalls.html', 'recalls/index.html', '../', active='recalls', groups=rc_groups, recent=rc_recent, n_items=n_items, n_tsbs=n_tsbs,
+           fam_opts=[{'slug': f, 'label': mlabel(fams[f]['maker'], fams[f]['name'])} for f in FAMILY_ORDER if f in fams and any(g['fam'] == f for g in rc_groups)],
+           crumbs=[('Garage', 'garage/'), ('Recall tracker', 'recalls/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Recall tracker', 'url': SITE_URL + 'recalls/'}],
+           title='Recall tracker: every recall for boxy 4x4s, by model — BoxyTrucks', description=f'{n_items} recalls and {n_tsbs} service bulletins for Land Cruisers, G-Wagens, Defenders, Jeeps, Broncos and more, by generation, with links to NHTSA.', credits='')
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s by model: symptoms, tools, steps and the parts you need, from Land Cruisers to Defenders and Jeeps.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})
     render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Who makes the parts and who builds the trucks: suspension, armor, lockers and full builds for every boxy 4x4 we cover, sorted by model.', credits='',
