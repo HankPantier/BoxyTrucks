@@ -48,7 +48,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists'}
+GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'quiz'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -777,6 +777,58 @@ def main():
            crumbs=[('Garage', 'garage/'), ('Importing', 'importing/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'How to import a boxy 4x4 into the US: the 25-year rule, duty and state registration', 'url': SITE_URL + 'importing/', 'dateModified': _t.isoformat(), 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
            title='Importing a 4x4 into the US: the 25-year rule, duty and registration — BoxyTrucks', description='How to import a Land Cruiser, Defender, Patrol or G-Wagen into the US: the NHTSA 25-year rule, EPA 21-year exemption, 2026 duty rates and state registration.', credits='')
+    axles = jload(DATA / 'quiz_axles.json') or {}
+    def _money(t):
+        out = []
+        for m in re.finditer(r'\$\s?([\d.,]+)\s?(k)?(?:\s?[–-]\s?\$?([\d.,]+)\s?(k)?)?', t or ''):
+            k1 = bool(m.group(2) or (m.group(3) and m.group(4)))
+            out.append(float(m.group(1).replace(',', '').rstrip('.')) * (1000 if k1 else 1))
+            if m.group(3):
+                out.append(float(m.group(3).replace(',', '').rstrip('.')) * (1000 if m.group(4) else 1))
+        return out
+    qz = []
+    for slug in FAMILY_ORDER:
+        if slug not in fams:
+            continue
+        fam = fams[slug]
+        for g in fam['generations']:
+            p = pages[slug].get(g['slug'])
+            if not p:
+                continue
+            x = p.get('x') or {}
+            rows = (x.get('values') or {}).get('ranges') or []
+            drv = next((r for r in rows if 'driver' in (r.get('cond', '') or '').lower()), None) or next((r for r in rows if 'used' in (r.get('cond', '') or '').lower()), None) or (rows[1] if len(rows) > 1 else (rows[0] if rows else None))
+            _rng = lambda r: _money(str(r.get('range', '')).split(' + ')[0])
+            nums = _rng(drv) if drv else []
+            allnums = [n for r in rows for n in _rng(r)]
+            if not nums and not allnums:
+                continue
+            ym = re.search(r'(19|20)\d\d', g.get('years', ''))
+            y0 = int(ym.group(0)) if ym else None
+            if not y0:
+                continue
+            imp = ' '.join((x.get('import') or {}).get('paragraphs') or [])
+            first = (imp.split('. ')[0] if imp else '').lower()
+            us = not ('never sold' in first or 'never been sold' in first or 'was never sold' in first or 'sold new only in' in first)
+            diffs = [int(m.group(1)) for r in (p.get('repairs') or []) for m in [re.match(r'\s*(\d)', str(r.get('diff', '')))] if m]
+            buys = [t['year'] for t in (x.get('timeline') or []) if t.get('flag') == 'buy']
+            avoids = sum(1 for t in (x.get('timeline') or []) if t.get('flag') == 'avoid')
+            after = sum(len(m.get('who') or []) for m in (p.get('mods') or []))
+            tank = None
+            for c in x.get('capability') or []:
+                if 'fuel' in c.get('k', '').lower() and 'tank' in c.get('k', '').lower() or c.get('k', '').lower().startswith('fuel capacity'):
+                    _g = re.search(r'([\d.]+)\s*(?:US )?gal', c.get('v', ''))
+                    _l = re.search(r'([\d.]+)\s*L\b', c.get('v', ''))
+                    tank = float(_g.group(1)) if _g else (round(float(_l.group(1)) / 3.785, 1) if _l else None)
+                    break
+            qz.append({'k': f'{slug}/{g["slug"]}', 'name': mlabel(fam['maker'], p['title']), 'years': g.get('years', ''), 'y0': y0,
+                       'lo': min(nums) if nums else min(allnums), 'hi': max(nums) if nums else max(allnums), 'top': max(allnums) if allnums else None,
+                       'us': us, 'axle': axles.get(f'{slug}/{g["slug"]}'), 'diff': round(sum(diffs) / len(diffs), 1) if diffs else None,
+                       'buy': buys[:2], 'avoid': avoids, 'after': after, 'tank': tank, 'rep': (axles.get('_rep') or {}).get(f'{slug}/{g["slug"]}', (axles.get('_rep') or {}).get(slug, 0)), 'verdict': LINK_PLAIN(p.get('verdict', ''))[:220], 'href': f'/models/{slug}/{g["slug"]}/',
+                       'img': (f'/img/{slug}/{p["hero_photo"]}' if p.get('hero_photo') else None)})
+    render('quiz.html', 'which-4x4/index.html', '../', active='quiz', data_json=Markup(json.dumps(qz, ensure_ascii=False).replace('</', '<\\/')), n=len(qz),
+           crumbs=[('Garage', 'garage/'), ('Which boxy 4x4?', 'which-4x4/')],
+           title='Which boxy 4x4 should you buy? Five questions, one shortlist — BoxyTrucks', description=f'Answer five questions about budget, use, wrenching and imports and get a shortlist from {len(qz)} boxy 4x4 generations, with prices and best years.', credits='')
     render('hub.html', 'repairs/index.html', '../', crumbs=[('Repair guides', 'repairs/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Repair guides', 'url': SITE_URL + 'repairs/'}], active='repairs', title='Repair guides — BoxyTrucks', description='DIY repair guides for boxy 4x4s by model: symptoms, tools, steps and the parts you need, from Land Cruisers to Defenders and Jeeps.', credits='',
            hub={'kind': 'repairs', 'eyebrow': 'From the garage', 'title': 'Repair guides', 'lead': 'The jobs owners actually do, rated for a competent home mechanic — symptoms, the fix, tools and parts. Pick a truck.', 'groups': rep_groups})
     render('hub.html', 'mods/index.html', '../', crumbs=[('Mods & builders', 'mods/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Mods & builders', 'url': SITE_URL + 'mods/'}], active='mods', title='Mods & builders — BoxyTrucks', description='Who makes the parts and who builds the trucks: suspension, armor, lockers and full builds for every boxy 4x4 we cover, sorted by model.', credits='',

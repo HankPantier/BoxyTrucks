@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><span>Which boxy 4x4?</span></nav>
+  <span class="eyebrow brass">Five questions · {{ n }} generations</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:900px">Which boxy 4x4 should you buy?</h1>
+  <p class="serif" style="margin:0;max-width:740px;font-size:19px;line-height:29px;color:#D9D4C8">Tell us your budget, what you’ll use it for and how much you like wrenching. We’ll shortlist the generations that fit, using the prices, axles and best years from our guides, and tell you why each one made the cut.</p>
+</div></section>
+
+<div class="wrap section" style="padding-top:40px"><div class="qz">
+  <form id="qz-form" class="qz-form" onsubmit="return false">
+    <fieldset><legend><span>1</span> What can you spend on a good driver?</legend>
+      <label><input type="radio" name="budget" value="15000"> Under $15k</label><label><input type="radio" name="budget" value="30000" checked> Up to $30k</label><label><input type="radio" name="budget" value="60000"> Up to $60k</label><label><input type="radio" name="budget" value="1e9"> Sky’s the limit</label></fieldset>
+    <fieldset><legend><span>2</span> What will it mostly do?</legend>
+      <label><input type="radio" name="use" value="daily" checked> Daily driver and family hauler</label><label><input type="radio" name="use" value="trail"> Weekend trails and rock crawling</label><label><input type="radio" name="use" value="overland"> Long-distance overlanding</label><label><input type="radio" name="use" value="classic"> A classic to cherish</label></fieldset>
+    <fieldset><legend><span>3</span> How hands-on are you?</legend>
+      <label><input type="radio" name="wrench" value="0"> I’d rather not wrench</label><label><input type="radio" name="wrench" value="1" checked> I’ll do the basic service</label><label><input type="radio" name="wrench" value="2"> I rebuild axles for fun</label></fieldset>
+    <fieldset><legend><span>4</span> Sold new in the US, or are imports OK?</legend>
+      <label><input type="radio" name="imp" value="0" checked> US-market only, please</label><label><input type="radio" name="imp" value="1"> Imports are fine (I’ll read the <a class="inline-link" href="{{ root }}importing/index.html">importing guide</a>)</label></fieldset>
+    <fieldset><legend><span>5</span> Which era?</legend>
+      <label><input type="radio" name="era" value="any" checked> Don’t mind</label><label><input type="radio" name="era" value="classic"> Classic (before 1990)</label><label><input type="radio" name="era" value="mid"> 1990s–2000s</label><label><input type="radio" name="era" value="modern"> 2010 or newer</label></fieldset>
+  </form>
+  <section class="qz-out" aria-live="polite"><h2 class="h-section">Your shortlist</h2><div id="qz-res"></div>
+    <p class="sp-foot">The shortlist is a starting point, ranked from our guides’ data: “driver” prices checked October 2026, front-axle type, how hard the common repairs are, whether the truck was sold new in the US, and the years owners recommend. Read the full guide before you buy anything.</p></section>
+</div></div>
+<script type="application/json" id="qz-data">{{ data_json }}</script>
+<script>
+(function(){
+  var D=JSON.parse(document.getElementById('qz-data').textContent), f=document.getElementById('qz-form'), out=document.getElementById('qz-res');
+  function v(n){var e=f.querySelector('input[name='+n+']:checked');return e?e.value:null;}
+  function k(n){return n>=1000?'$'+Math.round(n/1000)+'k':'$'+Math.round(n);}
+  function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+  function run(){
+    var budget=+v('budget'), use=v('use'), wrench=+v('wrench'), imp=v('imp')==='1', era=v('era');
+    var res=D.filter(function(t){
+      if(!imp && !t.us) return false;
+      if(t.lo>budget) return false;
+      if(era==='classic' && t.y0>=1990) return false;
+      if(era==='mid' && (t.y0<1990||t.y0>=2010)) return false;
+      if(era==='modern' && t.y0<2010) return false;
+      return true;
+    }).map(function(t){
+      var s=0, why=[];
+      why.push('Drivers sell for about '+k(t.lo)+'–'+k(t.hi));
+      if(use==='trail'){ if(t.axle==='sfa'){s+=3;why.push('Solid front axle: the rock crawler’s choice');} else if(t.axle==='mixed'){s+=1;} else if(t.axle==='ifs'){s-=1;} }
+      if(use==='daily'){ s+=t.y0>=2007?3:t.y0>=1996?2:t.y0>=1990?0:-2; if(t.axle==='ifs'){s+=1;why.push('Independent front suspension rides better on pavement');} }
+      if(use==='overland'){ s+=(t.y0>=1990&&t.y0<2015)?2:t.y0>=2015?1:0; if(t.tank){ s+=Math.max(0,Math.min(2.5,(t.tank-17)/3)); if(t.tank>=22) why.push('A '+t.tank+'-gallon tank for long stretches'); } }
+      if(use==='classic'){ s+=t.y0<1980?3:t.y0<1990?2:t.y0<1998?0:-3; if(t.top&&t.top>=60000){s+=1;why.push('The best ones sell for '+k(t.top)+'+');} }
+      if(t.diff!=null){ if(wrench===0){s+= t.diff<=2.5?2:t.diff>=3?-1.5:0;} if(wrench===2){s+= t.diff>=3?1:0;} why.push('Common repairs average '+t.diff+' / 5 difficulty'); }
+      if(wrench===0 && t.y0<1985) s-=2;
+      if(wrench===0 || use==='daily' || use==='overland'){ s-=Math.min(t.avoid||0,3)*(wrench===0?1.25:0.75); }
+      if((use==='trail'||use==='overland') && t.after){ s+=Math.min(t.after,15)/5; if(t.after>=10) why.push(t.after+' aftermarket suppliers and builders in our guide'); }
+      if(wrench===2 && t.y0<1990) s+=1;
+      if(t.rep && (wrench<2 || use==='daily' || use==='overland')){ s+=t.rep*1.2; why.push(t.rep>0?'Owners rate its long-term durability highly':'Budget for electrics and air suspension'); }
+      if(!t.us) why.push('Never sold new in the US: an import');
+      if(t.buy&&t.buy.length) why.push('Owners recommend '+t.buy.join(' and '));
+      s+= (budget-t.lo)/Math.max(budget,1)*0.2;
+      return {t:t,s:s,why:why};
+    }).sort(function(a,b){return b.s-a.s;}).slice(0,6);
+    if(!res.length){out.innerHTML='<p class="qz-none">Nothing fits all five answers. Try a bigger budget, a different era, or allowing imports.</p>';return;}
+    out.innerHTML=res.map(function(r,i){var t=r.t;return '<a class="card qz-card" href="'+t.href+'">'+(t.img?'<img src="'+t.img+'" alt="" loading="lazy">':'')+'<div class="qz-b"><span class="eyebrow">No. '+(i+1)+' · '+esc(t.years)+'</span><strong>'+esc(t.name)+'</strong><p>'+esc(t.verdict)+'</p><ul>'+r.why.map(function(w){return '<li>'+esc(w)+'</li>';}).join('')+'</ul><span class="go">Read the guide →</span></div></a>';}).join('');
+  }
+  f.addEventListener('change',run); run();
+})();
+</script>
+{% endblock %}
