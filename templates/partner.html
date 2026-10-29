@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px"><span class="eyebrow brass">Partner with BoxyTrucks</span><h1 style="font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-0.02em;max-width:900px;text-wrap:balance">Put your shop in front of the owners already looking for it</h1>
+<p class="serif" style="margin:0;max-width:720px;font-size:20px;line-height:31px;color:#D9D4C8">BoxyTrucks readers are mid-purchase or mid-repair: comparing years, checking what breaks, and ordering the parts to fix it. We already link the specialists they trust. Sponsorship puts your shop first.</p></div></section>
+<div class="wrap section"><div class="prose" style="max-width:860px">
+
+<div class="pt-stats">
+  <div><b>{{ n_gens }}</b><span>Generation guides</span></div>
+  <div><b>{{ n_repairs }}</b><span>DIY repair guides</span></div>
+  <div><b>{{ n_fams }}</b><span>Truck families</span></div>
+  <div><b>{{ n_shops }}</b><span>Parts suppliers linked</span></div>
+</div>
+
+<h2>Who reads it</h2>
+<p>Hands-on owners and serious shoppers of boxy 4x4s: Land Cruisers, G-Wagens, Defenders and Range Rovers, Broncos, Scouts, Jeeps, 4Runners, Grenadiers and more. They arrive from search with a specific question, such as which year to buy, how to fix a swivel-seal leak, or what fits under a stock 80 Series, and every repair guide ends with where to buy the parts. That is the moment your shop appears.</p>
+<p>The site is built and run by <a href="{{ root }}about/index.html">Hank Pantier</a>, who has owned two Jeep LJs, a 60 and an 80 Series, an FJ Cruiser, four 4Runners and a 2007 G500, and has built websites since 2001.</p>
+
+<h2 id="packages">Packages</h2>
+<div class="pt-grid">{% for pk in sponsors.packages %}
+  <div class="pt-pack{% if pk.best %} best{% endif %}"><h3>{{ pk.name }}</h3><span class="pt-price">{{ pk.price }}</span><ul>{% for w in pk.what %}<li>{{ w }}</li>{% endfor %}</ul></div>{% endfor %}
+</div>
+{% if sponsors.founding %}<p class="pt-founding"><strong>{{ sponsors.founding }}</strong></p>{% endif %}
+
+<h2>How the card works</h2>
+<p>Your card sits in the sidebar of the pages for the trucks you cover, above the table of contents, with your name, a line about what you do best, and a link straight to your store. It is labelled “Sponsor” so readers know what it is, and it links with the proper <code>rel="sponsored"</code> attribute so it’s clean with Google. Month to month, cancel any time.</p>
+
+<h2 id="independence">What sponsorship doesn’t buy</h2>
+<p>Sponsors never change what a guide says. Best years, the problems to check for and the repair steps come from owners, specialists and the factory, with sources listed on every page. We keep linking every reputable supplier in the parts lists, sponsor or not, and we don’t remove a competitor’s links. If a sponsor’s product disappoints in an install guide, we say so. That independence is why readers trust the recommendation, and it’s what you’re paying to stand next to.</p>
+
+<h2>Get started</h2>
+<p>Email <strong>{{ sponsors.contact }}</strong> with your shop and the trucks you specialize in. We’ll send the number of pages we already link you from and the click counts, and get your card live within a day.</p>
+</div></div>
+{% endblock %}

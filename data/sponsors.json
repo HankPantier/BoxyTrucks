@@ -1,0 +1,14 @@
+{
+ "_how": "Add a sponsor to 'sponsors' once a deal is agreed. families = family slugs it covers (whole family); gens = optional list of 'family/gen' for generation-only deals. start/end are YYYY-MM-DD; the card shows only between them. Nothing renders while the list is empty. Packages feed the /partner/ page.",
+ "contact": "boxytrucks@gmail.com",
+ "founding": "Founding partners: the first three sponsors get 25% off for the first 12 months.",
+ "packages": [
+  {"name": "Family specialist", "price": "$250 / month", "best": true,
+   "what": ["Your “Recommended specialist” card on the family page, every generation guide in that family, and every repair guide for those trucks", "One specialist per family: no competing shop gets that spot while you hold it", "A feature in The Boxy Dispatch newsletter each month", "A monthly report of clicks from BoxyTrucks to your site"]},
+  {"name": "Generation specialist", "price": "$125 / month",
+   "what": ["Your card on one generation’s guide and all of its repair guides (e.g. the 80 Series, or the W463)", "Exclusive for that generation", "A monthly click report"]},
+  {"name": "Install guide", "price": "From $400, one time",
+   "what": ["Hank installs your product on one of his own trucks and we publish a full, photographed install guide", "Honest notes on fit and finish: we say what we found", "Linked from every relevant guide, with your product links throughout"]}
+ ],
+ "sponsors": []
+}

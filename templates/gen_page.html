@@ -305,6 +305,7 @@
         {% if p.searches[0].bat_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ p.searches[0].bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}
       </div>
       {% endif %}
+      {% set sp = sponsor_for(fam.slug, g.slug if g is defined else None) %}{% include "_sponsor.html" %}
       <nav class="toc" aria-label="On this page">
         {% if tools %}<span class="eyebrow" style="padding-bottom:8px">For this truck</span>
         <div class="toc-tools">{% for t in tools %}<a href="{{ root }}{{ t[1] }}">{{ t[0] }} →</a>{% endfor %}</div>{% endif %}

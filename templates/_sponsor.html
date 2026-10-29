@@ -1,0 +1,7 @@
+{% if sp %}<div class="sp-card">
+  <span class="eyebrow sp-eyebrow">Recommended specialist · Sponsor</span>
+  <strong class="sp-name">{{ sp.name }}</strong>
+  {% if sp.blurb %}<span class="serif sp-blurb">{{ sp.blurb }}</span>{% endif %}
+  <a class="btn solid" style="text-align:center" href="{{ sp.url }}" target="_blank" rel="sponsored noopener" data-track="sponsor_click">{{ sp.cta or ('Visit ' ~ sp.name) }} ↗</a>
+  <a class="sp-why" href="{{ root }}partner/index.html#independence">Sponsors never change what our guides say →</a>
+</div>{% endif %}

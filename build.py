@@ -5,6 +5,7 @@ data/<family>.json            family landing + the family's flagship example pag
 data/pages/<family>/<gen>.json  a full guide for any other generation
 data/resources/<family>.json    YouTube / Instagram / forums / other references
 """
+import datetime
 import json
 from collections import defaultdict
 import re
@@ -88,6 +89,10 @@ def load_affiliates():
         return json.loads((DATA / 'affiliates.json').read_text()).get('programs', [])
     except Exception:
         return []
+
+
+def _html_dom(u):
+    return urlparse(u).netloc.lower().replace('www.', '')
 
 
 def affiliate_rewrite(html, programs):
@@ -438,6 +443,7 @@ def main():
     reading = jload(DATA / 'reading.json') or {}
     global AFFILIATES
     AFFILIATES = load_affiliates()
+    SPONSORS = json.loads((DATA / 'sponsors.json').read_text()) if (DATA / 'sponsors.json').exists() else {}
     suppliers_cfg = jload(DATA / 'suppliers.json') or {}
     fam_list = [fams[s] for s in FAMILY_ORDER if s in fams]
     NAV_FAMS[:] = [{'slug': f['slug'], 'label': SHORT_NAME.get(f['slug'], f['name'])} for f in fam_list]
@@ -465,6 +471,15 @@ def main():
         env.globals['mlabel'] = mlabel
         env.globals['newsletter'] = NEWSLETTER
         env.globals['amz_q'] = amz_q
+        def sponsor_for(fam_slug, gen_slug=None):
+            today = datetime.date.today().isoformat()
+            for sp in SPONSORS.get('sponsors', []):
+                if sp.get('start', '0000') > today or sp.get('end', '9999') < today:
+                    continue
+                if fam_slug in sp.get('families', []) or (gen_slug and f'{fam_slug}/{gen_slug}' in sp.get('gens', [])):
+                    return sp
+            return None
+        env.globals['sponsor_for'] = sponsor_for
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
@@ -928,6 +943,9 @@ def main():
     render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it: Google Analytics, the submission form, affiliate cookies and GitHub hosting.', credits='', crumbs=[('Privacy', 'about/privacy.html')])
     _ngens = sum(1 for _fs in pages for _gs, _pg in pages[_fs].items() if _pg)
     _nreps = sum(len((_pg or {}).get('repairs') or []) for _fs in pages for _pg in pages[_fs].values())
+    _nshops = len({_html_dom(pt.get('url', '')) for _fs in pages for _pg in pages[_fs].values() for r in ((_pg or {}).get('repairs') or []) for pt in (r.get('parts') or []) if pt.get('url')} - {''})
+    render('partner.html', 'partner/index.html', '../', active='', noindex=True, sponsors=SPONSORS, n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps, n_shops=_nshops,
+           title='Partner with BoxyTrucks — sponsorship for 4x4 specialists', description='Sponsorship packages for parts suppliers and specialists: put your shop on the guides and repair pages for the trucks you know best.', credits='')
     render('about.html', 'about/index.html', '../', active='', title='About BoxyTrucks: how we research and make money', description='Who makes BoxyTrucks, how every guide is sourced, how best years are chosen, how we make money and how to send corrections.', credits='',
            crumbs=[('About', 'about/')], n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps,
            jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL]}}])

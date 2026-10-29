@@ -6,7 +6,7 @@ An enthusiast resource for boxy 4x4s — G-Class, Land Cruiser, Lexus LX/GX, 4Ru
 
 - [x] **Google Analytics hooked up** — GA4 measurement ID `G-XHC493ES9X` is set in `GA_MEASUREMENT_ID` in `build.py`.
 - [ ] Activate the Show Us Your Rig form: send one test submission from the live site, then click the FormSubmit activation email sent to the inbox. Optionally swap the email in `SUBMIT_EMAIL` (build.py) for FormSubmit's random alias.
-- [ ] Submit `https://boxytrucks.com/sitemap.xml` in Google Search Console.
+- [x] Sitemap submitted in Google Search Console (domain property, verified) and Bing Webmaster Tools. Resubmitted Oct 29, 2026. Baseline Oct 22–27: 73 pages indexed, 114 impressions, 1 click.
 - [ ] Replace placeholder / stand-in photos (pages captioned "different generation" or "placeholder"), especially the Grenadier and 1st-gen 4Runner.
 - [ ] Featured Build and "Life on the road" placeholders on the home page.
 

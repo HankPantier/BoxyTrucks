@@ -55,6 +55,7 @@
       </section>
     </div>
     <aside class="side">
+      {% set sp = sponsor_for(fam.slug) %}{% include "_sponsor.html" %}
       {% set full = fam.generations|selectattr('slug','equalto',flagship.get(fam.slug))|list %}
       {% if full %}
       <a class="card" href="{{ full[0].slug }}.html">
