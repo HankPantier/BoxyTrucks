@@ -774,3 +774,7 @@ html { scroll-padding-top: 90px; }
 .rel.rel-sm { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
 .rel.rel-sm a { padding: 12px 14px; }
 .rel.rel-sm .nm { font-size: 16px; }
+
+.about-fig { margin: 8px 0 24px; display: flex; flex-direction: column; gap: 8px; }
+.about-fig img { width: 100%; max-width: 538px; height: auto; display: block; border: 1px solid var(--hair); }
+.about-fig figcaption { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; color: var(--stone); }
