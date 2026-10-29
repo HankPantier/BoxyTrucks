@@ -41,3 +41,4 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 - Hashtags can't be followed any more (tag pages redirect to search). For hashtags, follow the off-road accounts behind the top posts in #landcruiser, #gwagon, #defender, #fj40, #broncolife etc. instead.
 - Skipped as fake or wrong handles: frontrunneroutfitters, maxtraxusa, landroverusa, filson (real: filson1897), rumpl, stanley1913, kammokgear, oldmanemu.
 | Oct 28, 2026 | Extra post: "Take a checklist to the test drive", promoting the free inspection checklists (boxytrucks.com/inspection-checklists). Background photo: Darina Rodionova / Unsplash (80 Series), with the 80 Series checklist page | `posts/08-inspection-checklists.jpg` |
+| Oct 29, 2026 | "Which G 500 to buy": W463 years to avoid and buy, the 7G-Tronic changeover, a rust check and Hank's 2007. Photo: Bahnfrend, CC BY-SA 3.0 | `posts/02-g500-best-years.jpg` |
