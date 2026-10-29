@@ -21,7 +21,7 @@
  "land-rover": [
   {
    "name": "Rovers North",
-   "search": "https://roversnorth.com/search?q={q}"
+   "search": "https://roversnorth.com/search.aspx?q={q}"
   },
   {
    "name": "Atlantic British",
@@ -35,7 +35,7 @@
   },
   {
    "name": "Rovers North",
-   "search": "https://roversnorth.com/search?q={q}"
+   "search": "https://roversnorth.com/search.aspx?q={q}"
   }
  ],
  "grenadier": [],
