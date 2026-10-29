@@ -944,7 +944,7 @@ def main():
     _ngens = sum(1 for _fs in pages for _gs, _pg in pages[_fs].items() if _pg)
     _nreps = sum(len((_pg or {}).get('repairs') or []) for _fs in pages for _pg in pages[_fs].values())
     _nshops = len({_html_dom(pt.get('url', '')) for _fs in pages for _pg in pages[_fs].values() for r in ((_pg or {}).get('repairs') or []) for pt in (r.get('parts') or []) if pt.get('url')} - {''})
-    render('partner.html', 'partner/index.html', '../', active='', noindex=True, sponsors=SPONSORS, n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps, n_shops=_nshops,
+    render('partner.html', 'partner/index.html', '../', active='', crumbs=[('Partner with us', 'partner/')], sponsors=SPONSORS, n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps, n_shops=_nshops,
            title='Partner with BoxyTrucks — sponsorship for 4x4 specialists', description='Sponsorship packages for parts suppliers and specialists: put your shop on the guides and repair pages for the trucks you know best.', credits='')
     render('about.html', 'about/index.html', '../', active='', title='About BoxyTrucks: how we research and make money', description='Who makes BoxyTrucks, how every guide is sourced, how best years are chosen, how we make money and how to send corrections.', credits='',
            crumbs=[('About', 'about/')], n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps,

@@ -2,7 +2,7 @@
 
 The goal: about $1,700/month. No display ads; direct, negotiated sponsor deals are fine.
 
-- Partner page: https://boxytrucks.com/partner/ (noindex, not in nav or sitemap; link it only in pitches until the first sponsor signs)
+- Partner page: https://boxytrucks.com/partner/ (public since Oct 29, 2026: indexed, in the sitemap, linked from the footer)
 - Sponsors and packages: `data/sponsors.json`. Add a sponsor there and its card appears on that family's page, every generation guide and every repair page in that family (or for one generation via `gens`). Cards show between `start` and `end`, link with `rel="sponsored"` and fire a GA `sponsor_click` event.
 - Proof for pitches: GA4 already logs `affiliate_click` with `link_domain`. Pull last month's clicks per shop before each pitch or renewal.
 

@@ -805,3 +805,4 @@ html { scroll-padding-top: 90px; }
 .pt-founding { padding: 16px 18px; border-left: 3px solid var(--brass); background: #F7F4EE; font-size: 16px; }
 .sp-card .sp-eyebrow { color: #765A18; }
 .side-toc .sp-card { margin-bottom: 8px; }
+.site-footer .foot-about + .foot-about { margin-top: 6px; }
