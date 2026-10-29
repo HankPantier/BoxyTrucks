@@ -355,5 +355,6 @@ b.querySelectorAll('[data-consent]').forEach(function(x){x.addEventListener('cli
 document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEventListener('click',function(e){e.preventDefault();b.hidden=false;var f=b.querySelector('button');if(f)f.focus();});});
 if(!get())b.hidden=false;})();
 </script>
+<script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}var s=document.createElement('script');s.async=true;s.src='https://s.skimresources.com/js/311974X1800539.skimlinks.js';document.body.appendChild(s);})();</script>
 </body>
 </html>

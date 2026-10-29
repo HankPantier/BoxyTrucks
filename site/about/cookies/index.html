@@ -90,7 +90,7 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 </ul>
 
 <h2>Other sites</h2>
-<p>When you follow a link off BoxyTrucks, the site you land on sets its own cookies under its own policy. That includes affiliate links, such as Amazon, where the retailer or affiliate network uses a cookie to credit the sale. Those cookies belong to the site you visit, not to us. See the <a href="/about/affiliate-disclosure/">affiliate disclosure</a>.</p>
+<p>When you follow a link off BoxyTrucks, the site you land on sets its own cookies under its own policy. That includes affiliate links, such as Amazon, where the retailer or affiliate network uses a cookie to credit the sale. Those cookies belong to the site you visit, not to us. We also load a script from Skimlinks that turns some ordinary store links into affiliate links; it can set cookies to credit a sale, and it doesn't load if you choose “No thanks” on our cookie banner. See the <a href="/about/affiliate-disclosure/">affiliate disclosure</a>.</p>
 
 <h2>More</h2>
 <p>The <a href="/about/privacy/">privacy policy</a> covers everything else we collect, including Show Us Your Rig submissions. If we change how we use cookies, we’ll update this page and ask for your choice again.</p>
@@ -169,5 +169,6 @@ b.querySelectorAll('[data-consent]').forEach(function(x){x.addEventListener('cli
 document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEventListener('click',function(e){e.preventDefault();b.hidden=false;var f=b.querySelector('button');if(f)f.focus();});});
 if(!get())b.hidden=false;})();
 </script>
+<script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}var s=document.createElement('script');s.async=true;s.src='https://s.skimresources.com/js/311974X1800539.skimlinks.js';document.body.appendChild(s);})();</script>
 </body>
 </html>
