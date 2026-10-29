@@ -4,7 +4,7 @@
 | Platform | Handle | Status (Oct 27, 2026) |
 |---|---|---|
 | Instagram | @boxytrucks | **Live** (Oct 28, 2026): Creator account, category News & media website (hidden), avatar and bio set. Website link still to add in the mobile app |
-| X | @boxytrucks | Not checked (x.com is blocked for Claude's browser); check at sign-up |
+| X | @boxytrucks | Live Oct 29, 2026: profile set, intro pinned, G 500 cross-post, 15 follows. Details in `X.md` |
 
 Make the Instagram account a **Professional → Creator** account, not a personal one. Scheduling tools need that to post for you.
 

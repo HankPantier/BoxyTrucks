@@ -25,6 +25,7 @@ NEWSLETTER = {'provider': 'kit', 'action': 'https://app.kit.com/forms/10110095/s
 GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 INSTAGRAM_URL = 'https://www.instagram.com/boxytrucks/'
+X_URL = 'https://x.com/boxytrucks'
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
 INDEXNOW_KEY = 'df5e9f5700c975efa4ebdb9e75a3fa77'  # public by design: IndexNow verifies ownership by fetching /<key>.txt
@@ -467,7 +468,7 @@ def main():
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
-                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS, garage_keys=GARAGE_KEYS, instagram_url=INSTAGRAM_URL)
+                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS, garage_keys=GARAGE_KEYS, instagram_url=INSTAGRAM_URL, x_url=X_URL)
         path = pretty_path(out)
         canonical = SITE_URL + path
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
@@ -715,7 +716,7 @@ def main():
                     it = r[kind][0]
                     home_res.append({'kind': lab, 'name': it['name'], 'url': it['url'], 'focus': fams[slug]['name'].upper()})
 
-    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg', 'sameAs': [INSTAGRAM_URL]}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title='BoxyTrucks — For the love of right angles',
+    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg', 'sameAs': [INSTAGRAM_URL, X_URL]}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title='BoxyTrucks — For the love of right angles',
            description='An enthusiast guide to boxy 4x4s: ' + ', '.join(SHORT_NAME.get(f['slug'], f['name']) for f in fam_list) + '. History, buying checks, repairs, parts, mods and where to find one.',
            garage=garage[:8], faqs=faqs, stories=STORIES, suppliers=suppliers, socials=home_res,
            credits=', '.join(HOME_CREDITS) + ' and others via Unsplash and Pexels')
@@ -929,7 +930,7 @@ def main():
     _nreps = sum(len((_pg or {}).get('repairs') or []) for _fs in pages for _pg in pages[_fs].values())
     render('about.html', 'about/index.html', '../', active='', title='About BoxyTrucks: how we research and make money', description='Who makes BoxyTrucks, how every guide is sourced, how best years are chosen, how we make money and how to send corrections.', credits='',
            crumbs=[('About', 'about/')], n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps,
-           jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL]}}])
+           jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL]}}])
     render('disclaimer.html', 'about/disclaimer.html', '../', active='', title='Disclaimer — BoxyTrucks', description='BoxyTrucks specs, fluids and repair guides are for general information: verify against your manual or a qualified mechanic.', credits='', crumbs=[('Disclaimer', 'about/disclaimer.html')])
     render('cookies.html', 'about/cookies.html', '../', active='', title='Cookies — BoxyTrucks', description='The cookies BoxyTrucks sets (Google Analytics only), how long they last, and how to accept, refuse or change your choice.', credits='', crumbs=[('Cookies', 'about/cookies.html')])
     render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
@@ -1062,6 +1063,7 @@ def main():
           f'- [Inspection checklists]({SITE_URL}inspection-checklists/): printable pre-purchase checklists for every generation',
           f'- [About]({SITE_URL}about/): how BoxyTrucks researches and makes money',
           f'- [Instagram @boxytrucks]({INSTAGRAM_URL}): our posts and reader builds',
+          f'- [X @boxytrucks]({X_URL}): buying tips and new guides',
           f'- [Mods & builders]({SITE_URL}mods/): suppliers and builders, by model',
           f'- [Resources]({SITE_URL}resources/): YouTube, Instagram, forums and references, by model',
           f'- [For sale]({SITE_URL}for-sale/): AutoTempest and Bring a Trailer searches for every generation',
