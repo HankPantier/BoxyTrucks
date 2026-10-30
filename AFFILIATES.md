@@ -36,3 +36,9 @@
 1. Apply: ARB (AvantLink), Tire Rack, eBay Partner Network (Amazon is done). Join AvantLink, Impact and ShareASale/Awin as a publisher — many parts brands live there; search each network for the "Ask" suppliers.
 2. Email the top "Ask" suppliers (Cruiser Corps, Lucky8, FCP Euro, CruiserTeq, Expedition Imports, Slee, Rovers North) — small specialists often run in-house programs or will set one up for a site sending them traffic.
 3. Paste templates into `data/affiliates.json` and push.
+
+## CJ status, Oct 30, 2026
+- Approved: Eastwood (live site-wide).
+- Pending: The Tire Rack, CJ Pony Parts, PartsGeek, FinditParts, Valvoline Instant Oil Change, CanvasCamp.
+- Declined: Discount Tire, PriorityTire, TOPOAK Overland. Normal for a site under 2 weeks old; reapply once Search Console shows steady traffic (target: 1,000+ clicks/month).
+- AvantLink (ARB): not checked; Claude's browser can't open avantlink.com.
