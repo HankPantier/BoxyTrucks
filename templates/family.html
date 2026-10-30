@@ -10,7 +10,7 @@
     <div class="hero-panel hs-panel">
       <div class="hs-title">
         <div class="eyebrow brass">{{ fam.maker }} · {{ fam.years }}</div>
-        <h1>{{ fam.name }}</h1>
+        <h1>{{ fname(fam.slug) or mlabel(fam.maker, fam.name) }}</h1>
       </div>
       <p class="verdict">“{{ fam.verdict }}”</p>
     </div>

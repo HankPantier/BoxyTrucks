@@ -30,6 +30,77 @@ X_URL = 'https://x.com/boxytrucks'
 LAUNCH_DATE = '2026-10-22'
 PERSON = {'@type': 'Person', 'name': 'Hank Pantier', 'url': 'https://boxytrucks.com/about/', 'jobTitle': 'Founder and editor, BoxyTrucks'}
 PUBLISHER = {'@type': 'Organization', 'name': 'BoxyTrucks', 'url': 'https://boxytrucks.com/', 'logo': {'@type': 'ImageObject', 'url': 'https://boxytrucks.com/img/logo.png', 'width': 512, 'height': 512}, 'sameAs': ['https://www.instagram.com/boxytrucks/', 'https://x.com/boxytrucks']}
+
+SEARCH_NAMES = json.loads((Path(__file__).parent / 'data' / 'search_names.json').read_text())
+TITLE_OVERRIDES = {'hummer/h1': "Hummer H1 (1992–2006): Buyer's Guide, Prices & Problems"}
+
+
+def sname(fs, g, fallback=''):
+    return SEARCH_NAMES['gens'].get(f'{fs}/{g["slug"] if isinstance(g, dict) else g}') or fallback
+
+
+def fname(fs, short=False):
+    return SEARCH_NAMES['family_short' if short else 'family'].get(fs, '')
+
+
+def syears(y):
+    """'1990–1997' -> '1990–97'; '2025–present' kept; anything messier -> leading range or ''."""
+    m = re.match(r'\s*(\d{4})\s*[–-]\s*(\d{4}|present)', str(y or ''))
+    if not m:
+        m2 = re.match(r'\s*(\d{4})', str(y or ''))
+        return ''
+    a, b = m.group(1), m.group(2)
+    if b == 'present':
+        return f'{a}–present'
+    return f'{a}–{b[2:]}' if a[:2] == b[:2] else f'{a}–{b}'
+
+
+def fit_title(*cands, brand=True):
+    """First candidate within 60 chars, with ' | BoxyTrucks' appended when that still fits."""
+    for c in cands:
+        if c and len(c) <= 60:
+            return f'{c} | BoxyTrucks' if brand and len(c) + 13 <= 60 else c
+    c = cands[-1]
+    return c[:60].rsplit(' ', 1)[0]
+
+
+def fit_desc(t):
+    return t if len(t) <= 158 else t[:157].rsplit(' ', 1)[0].rstrip(',;:') + '…'
+
+
+def repair_title(slug, gs, rt, model):
+    sn = sname(slug, gs) or model
+    t = re.sub(r'\s*\([^)]*\)', '', rt).strip().rstrip('.')
+    for c in (f'{sn}: {t} (DIY Guide)', f'{sn}: {t}'):
+        if len(c) <= 60:
+            return c
+    room = 60 - len(sn) - 2
+    if room < 18:
+        sn, room = sn.split(' (')[0], 60 - len(sn.split(' (')[0]) - 2
+    words, out = t.split(), ''
+    for w in words:
+        if len(out) + len(w) + 1 > room:
+            break
+        out = f'{out} {w}'.strip()
+    out = re.sub(r'(?:\s+(?:and|or|the|a|an|of|to|on|for|with|at|in|from|&|/|–|-))+$', '', out).rstrip(',;:')
+    return f'{sn}: {out}'
+
+
+def gen_title(slug, g, fam, page):
+    if f'{slug}/{g["slug"]}' in TITLE_OVERRIDES:
+        return TITLE_OVERRIDES[f'{slug}/{g["slug"]}']
+    sn = sname(slug, g) or mlabel(fam['maker'], page.get('title') or g['name'])
+    y = syears(g.get('years'))
+    yy = f' ({y})' if y else ''
+    return fit_title(f"{sn}{yy} Buyer's Guide & Problems", f"{sn}{yy} Buyer's Guide", f"{sn} Buyer's Guide & Problems", f"{sn} Buyer's Guide")
+
+
+def gen_desc(slug, g, fam, page, x):
+    sn = sname(slug, g) or mlabel(fam['maker'], page.get('title') or g['name'])
+    rng = ((x or {}).get('values') or {}).get('ranges') or []
+    drv = next((r['range'] for r in rng if 'driver' in r.get('cond', '').lower()), rng[1]['range'] if len(rng) > 1 else (rng[0]['range'] if rng else ''))
+    y = syears(g.get('years')) or g.get('years', '')
+    return fit_desc(f"{sn} ({y}): the best years to buy and the ones to avoid, common problems to check, " + (f"what they sell for ({drv} for a driver), " if drv else '') + "specs, tire sizes and DIY repairs. Sourced from owners and specialists.")
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
 INDEXNOW_KEY = 'df5e9f5700c975efa4ebdb9e75a3fa77'  # public by design: IndexNow verifies ownership by fetching /<key>.txt
@@ -472,6 +543,7 @@ def main():
         env.globals['affiliates_on'] = any(p.get('template') or p.get('params') for p in AFFILIATES)
         env.globals['avatar'] = lambda u: (lambda a: f'/img/{a}' if a else None)(AVATARS.get(avatar_key(u or '')))
         env.globals['mlabel'] = mlabel
+        env.globals['fname'] = fname
         env.globals['newsletter'] = NEWSLETTER
         env.globals['amz_q'] = amz_q
         def sponsor_for(fam_slug, gen_slug=None):
@@ -542,7 +614,8 @@ def main():
         fam_cmp = list({c['slug']: c for g in fam['generations'] for c in _cmp_early.get(f'{slug}/{g["slug"]}', [])}.values())
         fam_has_recalls = any(((fp.get(g['slug']) or {}).get('x') or {}).get('recalls', {}).get('items') or ((fp.get(g['slug']) or {}).get('x') or {}).get('recalls', {}).get('tsbs') for g in fam['generations'])
         render('family.html', f'models/{slug}/index.html', '../../', fam=fam, page=main_page, res=res, fam_cmp=fam_cmp, fam_has_recalls=fam_has_recalls, og_image=(f'img/{slug}/{fam["hero_photo"]}' if fam.get('hero_photo') else None), crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': f'{mlabel(fam["maker"], fam["name"])}', 'description': fam['verdict'], 'url': SITE_URL + f'models/{slug}/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': f'{mlabel(fam["maker"], fam["name"])} {g["name"]}', 'url': SITE_URL + f'models/{slug}/{g["slug"]}.html'} for i, g in enumerate(fam['generations'])]}}], reading=[dict(r, gen=k.split('/')[1]) for k, v in reading.items() if k.startswith(slug + '/') for r in v], active='models',
-               title=f'{mlabel(fam["maker"], fam["name"])} — BoxyTrucks', description=fam['verdict'], credits=credits_of(fp.values()))
+               title=fit_title(f'{fname(slug) or mlabel(fam["maker"], fam["name"])}: Generations, Best Years & Problems', f'{fname(slug, True)}: Every Generation & Best Years', f'{fname(slug, True)}: Every Generation'),
+               description=fit_desc(f'{fname(slug) or mlabel(fam["maker"], fam["name"])} ({fam.get("years", "")}): every generation, the best years to buy and the ones to avoid, common problems, prices, specs and tire sizes. ' + (fam.get('verdict') or '')), credits=credits_of(fp.values()))
         for g in fam['generations']:
             page = fp.get(g['slug'])
             if page:
@@ -581,15 +654,15 @@ def main():
                 render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
                        og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
                        part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
-                       yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=f'{mlabel(fam["maker"], page["title"])} — BoxyTrucks',
-                       description=page.get('verdict', g['summary']), credits=credits_of([page]))
+                       yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=gen_title(slug, g, fam, page),
+                       description=gen_desc(slug, g, fam, page, x), credits=credits_of([page]))
                 if page.get('plate') or (page.get('baseline_service') or {}).get('items'):
                     _m = mlabel(fam['maker'], page['title'])
                     render('specs.html', f'models/{slug}/{g["slug"]}/specs.html', '../../../', fam=fam, g=g, p=page, x=x, model=_m, og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None),
                            gen_href=f'../../../models/{slug}/{g["slug"]}.html', active='models', og_type='article',
                            crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), ('Specs & fluids', f'models/{slug}/{g["slug"]}/specs/')],
                            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
-                           title=f'{_m} specs, fluid capacities & service intervals — BoxyTrucks',
+                           title=fit_title(f'{sname(slug, g) or _m} Specs, Fluid Capacities & Oil Type', f'{sname(slug, g) or _m} Specs & Fluid Capacities', f'{sname(slug, g) or _m} Specs'),
                            description=f'{_m} ({g.get("years", "")}) spec sheet, fluid capacities, oil grades, service intervals, wheel and tire sizes and parts numbers, on one printable page.'[:158], credits='')
             else:
                 render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
@@ -636,8 +709,8 @@ def main():
         render('best_years.html', f'models/{slug}/best-years.html', '../../', fam=fam, gens=gens, lead=lead, compares=fam_compares, active='models',
                crumbs=[('Models', 'models/'), (label, f'models/{slug}/'), ('Best years', f'models/{slug}/best-years.html')],
                jsonld=([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': faq_ld}] if faq_ld else []),
-               title=f'Best {label} years to buy (and which to avoid) — BoxyTrucks',
-               description=f'The best {label} years to buy and the ones to avoid, generation by generation, with the recalls to check. Sourced from owners and specialists.'[:158],
+               title=fit_title(f'{fname(slug, True)} Years to Avoid (and the Best Years to Buy)', f'{fname(slug, True)} Years to Avoid (and the Best to Buy)', f'{fname(slug, True)} Years to Avoid & Best Years'),
+               description=fit_desc(f'{fname(slug)} years to avoid and the best years to buy, generation by generation, with the problems and recalls behind each call. Sourced from owners and specialists.'),
                credits='')
         by_fam.append({'slug': slug, 'label': label})
     for c in compares:
@@ -649,7 +722,7 @@ def main():
                jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': c['title'], 'description': c['description'], 'url': SITE_URL + f'compare/{c["slug"]}/',
                         'publisher': {'@type': 'Organization', 'name': SITE_NAME}},
                        {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), f['a'])}} for f in c.get('faqs', [])]}],
-               title=f'{c["title"]}: which to buy — BoxyTrucks', description=c['description'][:158], credits='')
+               title=fit_title(c.get('seo_title') or f'{c["title"]}: Which to Buy?', f'{c["title"]}: Which to Buy?', c['title']), description=fit_desc(c['description']), credits='')
     for c in compares:
         c['fam_label'] = ' vs '.join(dict.fromkeys(mlabel(fams[m.split('/')[0]]['maker'], fams[m.split('/')[0]]['name']) for m in c['models']))
     render('compare_hub.html', 'compare/index.html', '../', compares=compares, by_fam=by_fam, active='compare', crumbs=[('Compare', 'compare/')],
@@ -677,7 +750,7 @@ def main():
                data_json=Markup(json.dumps(tf_rows, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')),
                crumbs=[('Tire fitment', 'tires/')],
                jsonld=[{'@context': 'https://schema.org', '@type': 'WebApplication', 'name': 'BoxyTrucks tire fitment tool', 'url': SITE_URL + 'tires/', 'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}],
-               title='Biggest tire without a lift (and with one): fitment for every boxy 4x4 — BoxyTrucks',
+               title='Biggest Tire Without a Lift: Every Boxy 4x4 Listed',
                description='Pick your truck and lift height to see the biggest tire owners and specialists run on every Land Cruiser, G-Class, Jeep, Bronco, 4Runner and more.', credits='')
 
     render('garage.html', 'garage/index.html', '../', active='garage', by_fam=by_fam, n_compare=len(compares), n_tires=len(tf_rows) if tf_rows else 0,
@@ -745,8 +818,8 @@ def main():
                     it = r[kind][0]
                     home_res.append({'kind': lab, 'name': it['name'], 'url': it['url'], 'focus': fams[slug]['name'].upper()})
 
-    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg', 'sameAs': [INSTAGRAM_URL, X_URL]}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title='BoxyTrucks — For the love of right angles',
-           description='An enthusiast guide to boxy 4x4s: ' + ', '.join(SHORT_NAME.get(f['slug'], f['name']) for f in fam_list) + '. History, buying checks, repairs, parts, mods and where to find one.',
+    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg', 'sameAs': [INSTAGRAM_URL, X_URL]}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title="BoxyTrucks: Buyer's Guides to Boxy 4x4s & SUVs",
+           description="Buyer's guides to boxy 4x4s and SUVs: Land Cruiser, 4Runner, G-Wagon, Defender, K5 Blazer, Bronco, Jeep XJ and more. Best years, problems, DIY repairs and specs.",
            garage=garage[:8], faqs=faqs, stories=STORIES, suppliers=suppliers, socials=home_res,
            credits=', '.join(HOME_CREDITS) + ' and others via Unsplash and Pexels')
     render('models.html', 'models/index.html', '../', active='models', crumbs=[('Models', 'models/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Models', 'url': SITE_URL + 'models/'}], title='Models — BoxyTrucks', description='Every boxy 4x4 we cover, family by family and generation by generation: Land Cruiser, G-Class, Defender, Jeep, Bronco, Patrol, Scout and more.', later=LATER, credits='')
@@ -795,7 +868,7 @@ def main():
                 render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, og_image=(f'img/{slug}/{p["hero_photo"]}' if p.get('hero_photo') else None), model=model, steps=steps, others=others,
                        gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', has_specs=bool(p.get('plate') or (p.get('baseline_service') or {}).get('items')), og_type='article', part_search=suppliers_cfg.get(slug, []),
                        crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
-                       jsonld=[howto], title=next((t for t in (f'{rt} — {model} DIY repair guide — BoxyTrucks', f'{rt} — {model} — BoxyTrucks') if len(t) <= 110), f'{rt[:80].rsplit(" ", 1)[0]}… — {model} | BoxyTrucks'),
+                       jsonld=[howto], title=repair_title(slug, gs, rt, model),
                        description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
                 n_repair_pages += 1
     print(f'  repair pages: {n_repair_pages}')
@@ -894,7 +967,7 @@ def main():
     render('quiz.html', 'which-4x4/index.html', '../', active='quiz', data_json=Markup(json.dumps(qz, ensure_ascii=False).replace('</', '<\\/')), n=len(qz),
            crumbs=[('Which boxy 4x4?', 'which-4x4/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'WebApplication', 'name': 'Which boxy 4x4? quiz', 'url': SITE_URL + 'which-4x4/', 'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any', 'isAccessibleForFree': True, 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}, 'description': 'Answer five questions about budget, use and how hands-on you are, and get a shortlist of boxy 4x4s that fit.', 'publisher': PUBLISHER}],
-           title='Which boxy 4x4 should you buy? Five questions, one shortlist — BoxyTrucks', description=f'Answer five questions about budget, use, wrenching and imports and get a shortlist from {len(qz)} boxy 4x4 generations, with prices and best years.', credits='')
+           title='Which 4x4 Should I Buy? 5-Question Boxy SUV Quiz', description=f'Answer five questions about budget, use, wrenching and imports and get a shortlist from {len(qz)} boxy 4x4 generations, with prices and best years.', credits='')
     def _gen_info(k):
         try:
             _f, _g = k.split('/')

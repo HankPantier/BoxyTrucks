@@ -1,0 +1,39 @@
+{
+ "_how": "How people actually search for each truck. Used to build title tags and meta descriptions (truck first, under 60 characters). 'family' = the family's search name; 'gens' = per generation.",
+ "family": {
+  "4runner": "Toyota 4Runner", "bronco": "Ford Bronco", "chevrolet": "Chevy K5 Blazer & Square Body Suburban", "delica": "Mitsubishi Delica",
+  "g-class": "Mercedes G-Wagon", "grenadier": "Ineos Grenadier", "hummer": "Hummer H1 & H2", "jeep": "Jeep", "land-cruiser": "Toyota Land Cruiser",
+  "land-rover": "Land Rover Defender & Discovery", "lexus": "Lexus LX & GX", "nissan-patrol": "Nissan Patrol", "niva": "Lada Niva",
+  "pajero": "Mitsubishi Pajero / Montero", "pinzgauer": "Pinzgauer", "ramcharger": "Dodge Ramcharger", "range-rover": "Range Rover",
+  "scout": "International Scout", "suzuki": "Suzuki Samurai & Jimny", "trooper": "Isuzu Trooper", "unimog": "Mercedes Unimog"
+ },
+ "family_short": {
+  "4runner": "4Runner", "bronco": "Bronco", "chevrolet": "K5 Blazer", "delica": "Delica", "g-class": "G-Wagon", "grenadier": "Grenadier",
+  "hummer": "Hummer H1 & H2", "jeep": "Jeep", "land-cruiser": "Land Cruiser", "land-rover": "Land Rover", "lexus": "Lexus LX & GX",
+  "nissan-patrol": "Nissan Patrol", "niva": "Lada Niva", "pajero": "Pajero / Montero", "pinzgauer": "Pinzgauer", "ramcharger": "Ramcharger",
+  "range-rover": "Range Rover", "scout": "Scout", "suzuki": "Samurai & Jimny", "trooper": "Isuzu Trooper", "unimog": "Unimog"
+ },
+ "gens": {
+  "4runner/1st-gen": "1st Gen 4Runner", "4runner/2nd-gen": "2nd Gen 4Runner", "4runner/3rd-gen": "3rd Gen 4Runner", "4runner/4th-gen": "4th Gen 4Runner", "4runner/5th-gen": "5th Gen 4Runner", "4runner/6th-gen": "6th Gen 4Runner",
+  "bronco/early-bronco": "Early Ford Bronco", "bronco/full-size": "Full-Size Ford Bronco", "bronco/bronco-ii": "Ford Bronco II", "bronco/sixth-gen": "6th Gen Ford Bronco",
+  "chevrolet/k5-blazer-1st": "1st Gen K5 Blazer & Jimmy", "chevrolet/k5-blazer": "Square Body K5 Blazer", "chevrolet/suburban-square": "Square Body Suburban 4x4",
+  "delica/delica-l300": "Delica L300 Star Wagon", "delica/delica-space-gear": "Delica Space Gear",
+  "g-class/w460": "W460 G-Wagon", "g-class/w461": "W461 G-Wagon", "g-class/w463": "W463 G-Wagon", "g-class/500ge": "Mercedes 500 GE", "g-class/europa": "Europa Gray-Market G-Wagon", "g-class/g500": "G500 G-Wagon", "g-class/g55-amg": "G55 AMG", "g-class/g550": "G550 G-Wagon", "g-class/g63-amg": "G63 AMG (W463)", "g-class/g63-6x6": "G63 AMG 6x6", "g-class/4x4-squared": "G500 4x4 Squared", "g-class/second-gen": "W463A G-Wagon (2019+)",
+  "grenadier/station-wagon": "Ineos Grenadier", "grenadier/quartermaster": "Grenadier Quartermaster",
+  "hummer/h1": "Hummer H1", "hummer/h2": "Hummer H2",
+  "jeep/cj-5": "Jeep CJ-5", "jeep/cj-7": "Jeep CJ-7", "jeep/cj-8": "Jeep CJ-8 Scrambler", "jeep/sj-wagoneer": "Jeep SJ Wagoneer & Cherokee", "jeep/grand-wagoneer": "Jeep Grand Wagoneer", "jeep/cherokee-xj": "Jeep Cherokee XJ", "jeep/comanche-mj": "Jeep Comanche MJ", "jeep/yj": "Jeep Wrangler YJ", "jeep/grand-cherokee-zj": "Jeep Grand Cherokee ZJ", "jeep/tj": "Jeep Wrangler TJ", "jeep/tj-unlimited": "Jeep Wrangler LJ Unlimited", "jeep/jk": "Jeep Wrangler JK", "jeep/jk-unlimited": "Jeep Wrangler JK Unlimited", "jeep/jl": "Jeep Wrangler JL", "jeep/jl-unlimited": "Jeep Wrangler JL Unlimited", "jeep/gladiator-jt": "Jeep Gladiator JT", "jeep/wagoneer-ws": "Jeep Wagoneer (WS)",
+  "land-cruiser/fj25": "Land Cruiser FJ25", "land-cruiser/fj40": "Land Cruiser FJ40", "land-cruiser/fj45-fj55": "Land Cruiser FJ45 & FJ55", "land-cruiser/fj60": "Land Cruiser FJ60", "land-cruiser/fj62": "Land Cruiser FJ62", "land-cruiser/70-series": "70 Series Land Cruiser", "land-cruiser/80-series": "80 Series Land Cruiser", "land-cruiser/mega-cruiser": "Toyota Mega Cruiser", "land-cruiser/prado-90": "Land Cruiser Prado 90", "land-cruiser/100-series": "100 Series Land Cruiser", "land-cruiser/prado-120": "Land Cruiser Prado 120", "land-cruiser/200-series": "200 Series Land Cruiser", "land-cruiser/fj-cruiser": "Toyota FJ Cruiser", "land-cruiser/prado-150": "Land Cruiser Prado 150", "land-cruiser/250-series": "Land Cruiser 250", "land-cruiser/300-series": "300 Series Land Cruiser",
+  "land-rover/series": "Land Rover Series I, II & III", "land-rover/defender-90-110": "Classic Defender 90/110", "land-rover/defender-l663": "New Defender (L663)", "land-rover/discovery-1": "Discovery 1", "land-rover/discovery-2": "Discovery 2", "land-rover/lr3": "Land Rover LR3", "land-rover/lr4": "Land Rover LR4",
+  "lexus/lx450": "Lexus LX 450", "lexus/lx470": "Lexus LX 470", "lexus/lx570": "Lexus LX 570", "lexus/lx600": "Lexus LX 600", "lexus/gx470": "Lexus GX 470", "lexus/gx460": "Lexus GX 460", "lexus/gx550": "Lexus GX 550",
+  "nissan-patrol/patrol-60": "Nissan Patrol 60", "nissan-patrol/160-mq": "Nissan Patrol MQ (160)", "nissan-patrol/y60": "Nissan Patrol GQ (Y60)", "nissan-patrol/y61": "Nissan Patrol GU (Y61)", "nissan-patrol/y62": "Nissan Patrol Y62 / Armada",
+  "niva/niva": "Lada Niva",
+  "pajero/pajero-gen1": "1st Gen Pajero / Montero", "pajero/pajero-gen2": "2nd Gen Pajero / Montero", "pajero/pajero-gen3": "3rd Gen Pajero / Montero",
+  "pinzgauer/pinzgauer-710-712": "Pinzgauer 710 / 712", "pinzgauer/pinzgauer-716-718": "Pinzgauer 716 / 718",
+  "ramcharger/ramcharger-1st": "1st Gen Dodge Ramcharger", "ramcharger/ramcharger-2nd": "2nd Gen Dodge Ramcharger",
+  "range-rover/classic": "Range Rover Classic", "range-rover/p38": "Range Rover P38", "range-rover/l322": "Range Rover L322", "range-rover/l405": "Range Rover L405", "range-rover/l460": "Range Rover L460",
+  "scout/scout-80-800": "International Scout 80 / 800", "scout/scout-ii": "International Scout II", "scout/scout-motors": "New Scout Traveler & Terra",
+  "suzuki/lj-series": "Suzuki LJ Jimny", "suzuki/samurai": "Suzuki Samurai", "suzuki/jimny-jb23": "Suzuki Jimny JB23", "suzuki/jimny-jb74": "Suzuki Jimny JB74",
+  "trooper/trooper-1": "1st Gen Isuzu Trooper", "trooper/trooper-2": "2nd Gen Isuzu Trooper",
+  "unimog/unimog-404": "Unimog 404", "unimog/unimog-u1300l": "Unimog U1300L"
+ }
+}
