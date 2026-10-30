@@ -1,4 +1,7 @@
 /* BoxyTrucks — Bone & Brass */
+/* Metric-matched fallbacks so the web-font swap doesn't shift the layout */
+@font-face { font-family: 'Newsreader Fallback'; src: local('Georgia'); size-adjust: 93.6%; ascent-override: 78.5%; descent-override: 28.3%; line-gap-override: 0%; }
+@font-face { font-family: 'Inter Tight Fallback'; src: local('Arial'), local('Helvetica Neue'), local('Helvetica'); size-adjust: 95.8%; ascent-override: 101.1%; descent-override: 25.2%; line-gap-override: 0%; }
 :root {
   --bone: #ECE8DF;
   --paper: #F7F4EE;
@@ -12,8 +15,8 @@
   --on-dark: #D9D3C6;
   --on-dark-2: #A8A397;
   --line-dark: #3A3B36;
-  --sans: 'Inter Tight', system-ui, sans-serif;
-  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Inter Tight', 'Inter Tight Fallback', system-ui, sans-serif;
+  --serif: 'Newsreader', 'Newsreader Fallback', Georgia, serif;
   --mono: 'IBM Plex Mono', ui-monospace, monospace;
   --wrap: 1360px;
 }
@@ -806,3 +809,6 @@ html { scroll-padding-top: 90px; }
 .sp-card .sp-eyebrow { color: #765A18; }
 .side-toc .sp-card { margin-bottom: 8px; }
 .site-footer .foot-about + .foot-about { margin-top: 6px; }
+
+/* Skip layout of long guide sections until they're near the viewport */
+main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px; }

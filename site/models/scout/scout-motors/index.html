@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XHC493ES9X"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
 gtag('consent','default',{analytics_storage:'denied',wait_for_update:500,region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});
 (function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v&&Date.now()-c.t<31536000000){gtag('consent','update',{analytics_storage:c.v});}}catch(e){}})();
-gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
+gtag('js',new Date());gtag('config','G-XHC493ES9X');
+window.btAfterLoad=function(f){var r=function(){(window.requestIdleCallback||function(c){setTimeout(c,1)})(f,{timeout:2000});};if(document.readyState==='complete')r();else window.addEventListener('load',r);};
+btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-XHC493ES9X';document.head.appendChild(s);});</script>
 <meta charset="utf-8">
 <meta name="msvalidate.01" content="48A1CF8262922DC4351644871DD307EF">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +32,8 @@ gtag('js',new Date());gtag('config','G-XHC493ES9X');</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap"></noscript>
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -377,6 +379,6 @@ b.querySelectorAll('[data-consent]').forEach(function(x){x.addEventListener('cli
 document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEventListener('click',function(e){e.preventDefault();b.hidden=false;var f=b.querySelector('button');if(f)f.focus();});});
 if(!get())b.hidden=false;})();
 </script>
-<script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}var s=document.createElement('script');s.async=true;s.src='https://s.skimresources.com/js/311974X1800539.skimlinks.js';document.body.appendChild(s);})();</script>
+<script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}var go=function(){var s=document.createElement('script');s.async=true;s.src='https://s.skimresources.com/js/311974X1800539.skimlinks.js';document.body.appendChild(s);};if(window.btAfterLoad)btAfterLoad(go);else window.addEventListener('load',go);})();</script>
 </body>
 </html>

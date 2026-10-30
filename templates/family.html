@@ -3,7 +3,7 @@
 {% block content %}
 <section class="hero-stack">
   <div class="hs-img">
-    {% if fam.hero_photo %}<img src="{{ img(fam.slug, fam.hero_photo) }}" alt="{{ mlabel(fam.maker, fam.name) }} off road"{% if fam.hero_focus %} style="object-position:{{ fam.hero_focus }}"{% endif %} fetchpriority="high">{% endif %}
+    {% if fam.hero_photo %}<img src="{{ img(fam.slug, fam.hero_photo) }}" alt="{{ mlabel(fam.maker, fam.name) }} off road" fetchpriority="high"{% if fam.hero_focus %} style="object-position:{{ fam.hero_focus }}"{% endif %} fetchpriority="high">{% endif %}
     <div class="wrap hs-top"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><span>{{ mlabel(fam.maker, fam.name) }}</span></nav></div>
   </div>
   <div class="hs-band"><div class="wrap">
