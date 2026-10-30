@@ -133,6 +133,7 @@
       {% endif %}
 
       {% if p.buying_checks %}
+      {% set notes = page.owner_notes %}{% set owned = OWNED.get(fam.slug ~ "/" ~ g.slug) if g is defined else None %}{% set locker_tip = has_lockers %}{% include "_owner_note.html" %}
       <section id="buying" style="display:flex;flex-direction:column;gap:18px">
         <h2 class="h-section">What to check before you buy</h2>
         <ol class="checks">{% for n in p.buying_checks %}<li><span class="no">{{ '%02d' % loop.index }}</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>

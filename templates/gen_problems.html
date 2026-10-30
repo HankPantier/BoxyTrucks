@@ -2,6 +2,7 @@
 {% block content %}
 {% include "_gen_sub_head.html" %}
 <div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
+  {% set notes = p.owner_notes %}{% set owned = OWNED.get(fam.slug ~ "/" ~ g.slug) %}{% set locker_tip = has_lockers %}{% include "_owner_note.html" %}
   <section><h2 class="h-section">{{ sn }} problems to check before you buy</h2>
     <ol class="pb-list">{% for c in p.buying_checks %}<li><strong>{{ c.head|lk }}</strong><span>{{ c.body|lk }}</span></li>{% endfor %}</ol>
   </section>

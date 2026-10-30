@@ -1,0 +1,5 @@
+{% if notes or locker_tip %}<aside class="own-note" aria-label="From the owner's garage">
+  <div class="own-head"><span class="eyebrow">From Hank’s garage</span><a class="own-who" href="{{ root }}about/index.html">Hank Pantier, BoxyTrucks founder{% if owned %} · {{ owned }}{% endif %} →</a></div>
+  {% for n in notes or [] %}<div class="own-item"><strong>{{ n.topic }}</strong><p>{{ n.text|lk }}{% if n.link %} <a class="inline-link" href="{{ n.link.url }}" target="_blank" rel="noopener">{{ n.link.name }} ↗</a>{% endif %}</p></div>{% endfor %}
+  {% if locker_tip %}<div class="own-item"><strong>Exercise your lockers</strong><p>Engage the lockers every six months or so, on almost any boxy truck. Both of my locker problems, on the 80 Series and the G500, came from systems that weren’t used often enough.</p></div>{% endif %}
+</aside>{% endif %}

@@ -422,7 +422,12 @@
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/products/mercedes-engine-oil-filter-mann-hu718-5x"
      }
-    ]
+    ],
+    "video": {
+     "name": "Video walkthrough Hank recommends",
+     "url": "https://www.youtube.com/watch?v=2MI3UQ5MWOw"
+    },
+    "owner_note": "This has been the biggest issue on my own 2007 G500. It's a simple, inexpensive fix; it just takes some time to complete."
    },
    {
     "title": "Valve cover gaskets & breather hoses (M113)",
@@ -1308,6 +1313,20 @@
     }
    ]
   },
-  "hero_focus": "62% 60%"
+  "hero_focus": "62% 60%",
+  "owner_notes": [
+   {
+    "topic": "Oil filter housing gasket",
+    "text": "On my 2007 G500 the classic oil filter housing / oil cooler gasket leak has been my biggest issue. It's a simple, inexpensive fix; it just takes some time to complete.",
+    "link": {
+     "name": "The video walkthrough I recommend",
+     "url": "https://www.youtube.com/watch?v=2MI3UQ5MWOw"
+    }
+   },
+   {
+    "topic": "Lockers",
+    "text": "I'm still working through the lockers on mine. It's most likely that the system needs to be bled or the lines need to be replaced."
+   }
+  ]
  }
 }

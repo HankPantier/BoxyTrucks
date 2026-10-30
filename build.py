@@ -548,6 +548,7 @@ def main():
         env.globals['avatar'] = lambda u: (lambda a: f'/img/{a}' if a else None)(AVATARS.get(avatar_key(u or '')))
         env.globals['mlabel'] = mlabel
         env.globals['fname'] = fname
+        env.globals['OWNED'] = {'land-cruiser/80-series': 'owned an 80 Series', 'g-class/g500': 'owns a 2007 G500', 'g-class/w463': 'owns a 2007 G500'}
         env.globals['newsletter'] = NEWSLETTER
         env.globals['amz_q'] = amz_q
         def sponsor_for(fam_slug, gen_slug=None):
@@ -649,6 +650,7 @@ def main():
                 has_problems = len(page.get('buying_checks') or []) + len(page.get('repairs') or []) >= 5
                 has_years = bool(_bestq) or any(t.get('flag') in ('buy', 'avoid') for t in _tl)
                 has_tires = bool((x.get('fitment') or {}).get('max_tire'))
+                has_lockers = bool(re.search(r'\blocker', json.dumps({k: page.get(k) for k in ('buying_checks', 'repairs', 'faq', 'engineering', 'plate')}), re.I))
                 tools = [(f'Specs, fluids & intervals', f'models/{slug}/{g["slug"]}/specs.html') if has_specs else None,
                          ('Common problems to check', f'models/{slug}/{g["slug"]}/problems.html') if has_problems else None,
                          ('Years to avoid & best years', f'models/{slug}/{g["slug"]}/years.html') if has_years else None,
@@ -662,7 +664,7 @@ def main():
                            + [('Engine swap', w['title'], f'engine-swaps/{w["slug"]}.html') for w in _swaps_early.get(_key, [])])
                 hero_alt = next((ph['alt'] for ph in page.get('photos', []) if ph['file'] == page.get('hero_photo')), f'{page.get("title", g["name"])} off road')
                 page.setdefault('title', g['name'])
-                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
+                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, has_lockers=has_lockers, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
                        og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
                        part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
                        yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=gen_title(slug, g, fam, page),
@@ -694,7 +696,7 @@ def main():
                             'about': {'@type': 'Car', 'name': _model}}]
                     if _qs:
                         _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), f['a'])}} for f in _qs]})
-                    render('gen_problems.html', f'models/{slug}/{g["slug"]}/problems.html', '../../../', fam=fam, g=g, p=page, rc=_rc, flags=_flags, qs=_qs, checklist=_ck, has_years=has_years,
+                    render('gen_problems.html', f'models/{slug}/{g["slug"]}/problems.html', '../../../', fam=fam, g=g, p=page, has_lockers=has_lockers, rc=_rc, flags=_flags, qs=_qs, checklist=_ck, has_years=has_years,
                            sn=_sn, model=_model, gen_href=_gh, crumb='Problems', eyebrow=f'Common problems · {_y}', sibs=[l[:2] for l in _sib('problems')],
                            h1=f'{_sn} problems: {_n} things to check' if _n else f'{_sn} problems and common repairs',
                            lede=f'The problems owners and specialists flag most on the {_model}, the repairs they end up doing and what those cost, plus the years and recalls to watch. Sourced, not scraped.',

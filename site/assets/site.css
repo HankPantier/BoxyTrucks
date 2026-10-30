@@ -838,3 +838,14 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .tr-mod ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
 .tr-mod p { margin: 0; }
 .yr-g .yr-pill { align-self: flex-start; }
+
+/* First-hand owner notes */
+.own-note { display: flex; flex-direction: column; gap: 10px; padding: 18px 20px; background: var(--green); color: #F7F4EE; border-left: 3px solid var(--brass); }
+.own-note .eyebrow { color: #D6BD86; }
+.own-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 16px; }
+.own-who { font-size: 13px; color: #E9DFC8; text-decoration: none; }
+.own-who:hover { text-decoration: underline; }
+.own-item { display: flex; flex-direction: column; gap: 2px; }
+.own-item strong { font-size: 16px; color: #FFFFFF; }
+.own-item p { margin: 0; font-family: var(--serif); font-size: 17px; line-height: 27px; color: #EDE8DD; }
+.own-note .inline-link { color: #F2DFAE; }

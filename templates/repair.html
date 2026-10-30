@@ -11,6 +11,7 @@
   <article class="rp-main">
     <section><h2 class="h-section">Symptoms</h2><div class="prose"><p>{{ r.symptoms|lk }}</p></div></section>
 
+    {% if r.owner_note or r.video %}<aside class="own-note"><div class="own-head"><span class="eyebrow">From Hank’s garage</span><a class="own-who" href="{{ root }}about/index.html">Hank Pantier, BoxyTrucks founder →</a></div>{% if r.owner_note %}<div class="own-item"><p>{{ r.owner_note|lk }}</p></div>{% endif %}{% if r.video %}<div class="own-item"><p><a class="inline-link" href="{{ r.video.url }}" target="_blank" rel="noopener">{{ r.video.name }} ↗</a></p></div>{% endif %}</aside>{% endif %}
     <section><h2 class="h-section">The fix, step by step</h2>
       <ol class="rp-steps">{% for st in steps %}<li><span>{{ st }}</span></li>{% endfor %}</ol>
     </section>
