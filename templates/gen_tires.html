@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "_gen_sub_head.html" %}
+<div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
+  {% if answer %}<section class="yr-verdict"><span class="eyebrow">The short answer</span><div class="prose"><p>{{ answer|lk }}</p></div></section>{% endif %}
+
+  <section><h2 class="h-section">Biggest {{ sn }} tire at every lift</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>LIFT</th><th>BIGGEST TIRE</th><th>WHAT IT TAKES</th></tr></thead>
+    <tbody>{% for t in f.max_tire %}<tr><td data-l="LIFT"><strong>{{ t.lift }}</strong></td><td data-l="BIGGEST TIRE" class="mono">{{ t.size }}</td><td data-l="WHAT IT TAKES" class="note">{{ t.note|lk }}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="sub-intro"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug }}">Compare with other trucks in the tire fitment tool →</a></p>
+  </section>
+
+  <section><h2 class="h-section">{{ sn }} wheel and tire specs</h2>
+    <div class="table-box"><table class="sp-table"><tbody>
+      {% if f.stock %}<tr><th scope="row">Factory tire sizes</th><td>{{ f.stock|join(' · ') }}</td></tr>{% endif %}
+      {% set w = f.wheel or {} %}{% if w.bolt_pattern %}<tr><th scope="row">Bolt pattern</th><td>{{ w.bolt_pattern }}</td></tr>{% endif %}{% if w.center_bore %}<tr><th scope="row">Center bore</th><td>{{ w.center_bore }}</td></tr>{% endif %}{% if w.offset %}<tr><th scope="row">Wheel offset</th><td>{{ w.offset }}</td></tr>{% endif %}{% if w.lug_thread %}<tr><th scope="row">Lug thread</th><td>{{ w.lug_thread }}</td></tr>{% endif %}{% if w.lug_torque %}<tr><th scope="row">Lug-nut torque</th><td>{{ w.lug_torque }}</td></tr>{% endif %}
+    </tbody></table></div>
+  </section>
+
+  {% if mods %}<section><h2 class="h-section">Lift kits, wheels and tires for the {{ sn }}</h2>
+    {% for m in mods %}<div class="tr-mod"><strong>{{ m.cat|title }}</strong>{% if m.why %}<p class="note">{{ m.why|lk }}</p>{% endif %}<ul>{% for w in m.who %}<li><a class="inline-link" href="{{ w.url }}" target="_blank" rel="noopener">{{ w.name }} ↗</a></li>{% endfor %}</ul></div>{% endfor %}
+  </section>{% endif %}
+
+  {% if regear %}<section><h2 class="h-section">Do you need to re-gear?</h2><div class="prose"><p>{{ regear|lk }}</p></div></section>{% endif %}
+
+  <p class="sp-foot">Fitment comes from owners and specialists; wheel width, offset, trimming and bump stops change what fits. Check clearance at full lock and full flex before you buy. {% if affiliates_on %}Some links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p>
+</div></div>
+{% endblock %}

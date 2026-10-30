@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "_gen_sub_head.html" %}
+<div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
+  <section><h2 class="h-section">{{ sn }} problems to check before you buy</h2>
+    <ol class="pb-list">{% for c in p.buying_checks %}<li><strong>{{ c.head|lk }}</strong><span>{{ c.body|lk }}</span></li>{% endfor %}</ol>
+  </section>
+
+  {% if p.repairs %}<section><h2 class="h-section">The repairs {{ sn }} owners end up doing</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>REPAIR</th><th>SYMPTOMS</th><th>DIFFICULTY</th><th>TIME</th><th>COST</th></tr></thead>
+    <tbody>{% for r in p.repairs %}<tr><td data-l="REPAIR"><a class="inline-link" href="{{ root }}repairs/{{ fam.slug }}/{{ g.slug }}/{{ r.slug }}.html"><strong>{{ r.title|striplk }}</strong></a></td><td data-l="SYMPTOMS" class="note">{{ r.symptoms|striplk }}</td><td data-l="DIFFICULTY" class="mono">{{ r.diff }}</td><td data-l="TIME">{{ r.time }}</td><td data-l="COST">{{ r.cost }}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="sub-intro">Each repair links to a step-by-step guide with tools, part numbers and where to buy the parts.</p>
+  </section>{% endif %}
+
+  {% if flags %}<section><h2 class="h-section">Years with known problems</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>YEARS</th><th>FLAG</th><th>WHAT TO KNOW</th></tr></thead>
+    <tbody>{% for t in flags %}<tr><td data-l="YEARS"><strong>{{ t.year }}</strong></td><td data-l="FLAG"><span class="yr-pill {{ t.flag }}">{{ {'avoid':'Beware','recall':'Recall','buy':'Sweet spot'}[t.flag] }}</span></td><td data-l="WHAT TO KNOW" class="note">{{ t.change|lk }}</td></tr>{% endfor %}</tbody></table></div>
+    {% if has_years %}<p class="sub-intro"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}/years.html">Every {{ sn }} model year, with the best ones to buy →</a></p>{% endif %}
+  </section>{% endif %}
+
+  {% if rc and (rc['items'] or rc.tsbs) %}<section><h2 class="h-section">{{ sn }} recalls and service bulletins</h2>
+    <ul class="pb-rc">{% for it in (rc['items'] or []) + (rc.tsbs or []) %}<li><strong>{% if it.url %}<a class="inline-link" href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }} ↗</a>{% else %}{{ it.title }}{% endif %}</strong> <span class="mono">{{ it.years }}{% if it.ref %} · {{ it.ref }}{% endif %}</span>{% if it.summary %}<span class="note">{{ it.summary|lk }}</span>{% endif %}</li>{% endfor %}</ul>
+    <p class="sub-intro">Check any VIN for open recalls at <a class="inline-link" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls ↗</a>, or see the <a class="inline-link" href="{{ root }}recalls/index.html#{{ fam.slug }}-{{ g.slug }}">recall tracker</a>.</p>
+  </section>{% endif %}
+
+  {% if qs %}<section><h2 class="h-section">Owner questions about {{ sn }} reliability</h2>
+    <div class="faq">{% for f in qs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p>{% if f.src %}<span class="src">SOURCE · {{ f.src }}</span>{% endif %}</div></details>{% endfor %}</div>
+  </section>{% endif %}
+
+  {% if checklist %}<section class="pb-cta"><span class="eyebrow">Going to look at one?</span><p>Take the printable {{ sn }} inspection checklist: every check on this page plus the model-specific ones, on one sheet. <a class="inline-link" href="{{ root }}inspection-checklists/index.html">Get the checklist →</a></p></section>{% endif %}
+
+  <p class="sp-foot">Sourced from owners, specialists and factory documents; full sources are on the <a href="{{ gen_href }}#sources">{{ sn }} guide</a>. Verify torque figures and procedures against the factory service manual (<a href="{{ root }}about/disclaimer.html">disclaimer</a>).</p>
+</div></div>
+{% endblock %}

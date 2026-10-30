@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "_gen_sub_head.html" %}
+<div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
+  {% if answer %}<section class="yr-verdict"><span class="eyebrow">The short answer</span><div class="prose"><p>{{ answer|lk }}</p></div></section>{% endif %}
+
+  {% if summary %}<section><h2 class="h-section">At a glance</h2>
+    <div class="yr-glance">{% for s in summary %}<div class="yr-g {{ s.flag }}"><span class="yr-pill {{ s.flag }}">{{ s.label }}</span><strong>{{ s.years }}</strong><span class="note">{{ s.why|striplk }}</span></div>{% endfor %}</div>
+  </section>{% endif %}
+
+  {% if timeline %}<section><h2 class="h-section">{{ sn }} year by year</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>YEAR</th><th>VERDICT</th><th>WHAT CHANGED</th></tr></thead>
+    <tbody>{% for t in timeline %}<tr><td data-l="YEAR"><strong>{{ t.year }}</strong></td><td data-l="VERDICT">{% if t.flag in ('buy','avoid','recall') %}<span class="yr-pill {{ t.flag }}">{{ {'avoid':'Beware','recall':'Recall','buy':'Sweet spot'}[t.flag] }}</span>{% else %}<span class="note">—</span>{% endif %}</td><td data-l="WHAT CHANGED" class="note">{{ t.change|lk }}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="sub-intro">“Sweet spot” means owners and specialists recommend those years; “Beware” means documented problems; “Recall” means check the recall was done rather than walk away.</p>
+  </section>{% endif %}
+
+  {% if values and values.ranges %}<section><h2 class="h-section">What a {{ sn }} costs{% if values.checked %} ({{ values.checked }}){% endif %}</h2>
+    {% if values.intro %}<div class="prose"><p>{{ values.intro|lk }}</p></div>{% endif %}
+    <div class="table-box"><table class="sp-table"><tbody>{% for r in values.ranges %}<tr><th scope="row">{{ r.cond }}</th><td>{{ r.range }}</td></tr>{% endfor %}</tbody></table></div>
+    {% if values.note %}<p class="sub-intro">{{ values.note|lk }}</p>{% endif %}
+  </section>{% endif %}
+
+  {% if rc and rc['items'] %}<section><h2 class="h-section">Recalls by year</h2>
+    <ul class="pb-rc">{% for it in rc['items'] %}<li><strong>{% if it.url %}<a class="inline-link" href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }} ↗</a>{% else %}{{ it.title }}{% endif %}</strong> <span class="mono">{{ it.years }}</span></li>{% endfor %}</ul>
+  </section>{% endif %}
+
+  {% if search %}<section class="find" style="max-width:640px"><span class="eyebrow brass">Find a good one</span><span class="serif">Every {{ sn }} listed across the major marketplaces, plus Bring a Trailer auctions and sold results.</span>
+    {% if search.at_url %}<a class="btn light" style="text-align:center" href="{{ search.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}
+    {% if search.bat_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ search.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</section>{% endif %}
+
+  <p class="sp-foot">Best years are buyer consensus from owners, specialists and forums, not spec sheets. See all <a href="{{ root }}models/{{ fam.slug }}/best-years.html">{{ fname(fam.slug, True) or fam.name }} years to avoid</a> across every generation.</p>
+</div></div>
+{% endblock %}

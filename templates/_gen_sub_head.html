@@ -1,0 +1,7 @@
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="{{ root }}models/{{ fam.slug }}/index.html">{{ fname(fam.slug, True) or fam.name }}</a><span>/</span><a href="{{ gen_href }}">{{ model }}</a><span>/</span><span>{{ crumb }}</span></nav>
+  <span class="eyebrow brass">{{ eyebrow }}</span>
+  <h1 style="font-size:clamp(32px,4.6vw,56px);line-height:1.04;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ h1 }}</h1>
+  {% if lede %}<p class="serif" style="margin:0;max-width:760px;font-size:19px;line-height:29px;color:#D9D4C8">{{ lede|lk }}</p>{% endif %}
+  <div class="sp-actions"><a class="btn light" href="{{ gen_href }}">Read the full {{ sn }} guide</a>{% for l in sibs %}<a class="btn ghost-brass" href="{{ root }}{{ l[1] }}">{{ l[0] }}</a>{% endfor %}</div>
+</div></section>

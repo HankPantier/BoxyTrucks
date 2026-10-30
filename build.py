@@ -32,6 +32,10 @@ PERSON = {'@type': 'Person', 'name': 'Hank Pantier', 'url': 'https://boxytrucks.
 PUBLISHER = {'@type': 'Organization', 'name': 'BoxyTrucks', 'url': 'https://boxytrucks.com/', 'logo': {'@type': 'ImageObject', 'url': 'https://boxytrucks.com/img/logo.png', 'width': 512, 'height': 512}, 'sameAs': ['https://www.instagram.com/boxytrucks/', 'https://x.com/boxytrucks']}
 
 SEARCH_NAMES = json.loads((Path(__file__).parent / 'data' / 'search_names.json').read_text())
+BEST_Q_EARLY = re.compile(r'best (model )?years?|which years?|years? (to|should I) (buy|avoid)', re.I)
+TIRE_Q = re.compile(r'biggest tire|largest tire|tire (size|fit)', re.I)
+REGEAR_Q = re.compile(r're-?gear|gear ratio', re.I)
+PROBLEM_Q = re.compile(r'problem|reliab|avoid|issue|fail|break|rust|leak|worry|weak|known|deal with|due', re.I)
 TITLE_OVERRIDES = {'hummer/h1': "Hummer H1 (1992–2006): Buyer's Guide, Prices & Problems"}
 
 
@@ -640,8 +644,15 @@ def main():
                 _rc = x.get('recalls') or {}
                 _key = f'{slug}/{g["slug"]}'
                 has_specs = bool(page.get('plate') or (page.get('baseline_service') or {}).get('items'))
+                _tl = x.get('timeline') or []
+                _bestq = next((f for f in page.get('faq', []) if BEST_Q_EARLY.search(f['q'])), None)
+                has_problems = len(page.get('buying_checks') or []) + len(page.get('repairs') or []) >= 5
+                has_years = bool(_bestq) or any(t.get('flag') in ('buy', 'avoid') for t in _tl)
+                has_tires = bool((x.get('fitment') or {}).get('max_tire'))
                 tools = [(f'Specs, fluids & intervals', f'models/{slug}/{g["slug"]}/specs.html') if has_specs else None,
-                         ('Biggest tire at every lift', f'tires/index.html?t={_key}') if ((x.get('fitment') or {}).get('max_tire')) else None,
+                         ('Common problems to check', f'models/{slug}/{g["slug"]}/problems.html') if has_problems else None,
+                         ('Years to avoid & best years', f'models/{slug}/{g["slug"]}/years.html') if has_years else None,
+                         ('Biggest tire at every lift', f'models/{slug}/{g["slug"]}/tires.html') if has_tires else None,
                          ('Recalls in the tracker', f'recalls/index.html#{slug}-{g["slug"]}') if (_rc.get('items') or _rc.get('tsbs')) else None,
                          (f'Best {fam["short"]} years to buy', f'models/{slug}/best-years.html'),
                          ('Printable inspection checklist', 'inspection-checklists/index.html') if (SITE / f'checklists/{slug}-{g["slug"]}.pdf').exists() else None]
@@ -664,6 +675,63 @@ def main():
                            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
                            title=fit_title(f'{sname(slug, g) or _m} Specs, Fluid Capacities & Oil Type', f'{sname(slug, g) or _m} Specs & Fluid Capacities', f'{sname(slug, g) or _m} Specs'),
                            description=f'{_m} ({g.get("years", "")}) spec sheet, fluid capacities, oil grades, service intervals, wheel and tire sizes and parts numbers, on one printable page.'[:158], credits='')
+                _sn = sname(slug, g) or mlabel(fam['maker'], page['title'])
+                _model = mlabel(fam['maker'], page['title'])
+                _gh = f'../../../models/{slug}/{g["slug"]}.html'
+                _y = syears(g.get('years')) or g.get('years', '')
+                _og = (f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None)
+                _sub_crumbs = lambda lab, seg: [('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), (lab, f'models/{slug}/{g["slug"]}/{seg}/')]
+                _sib = lambda skip: [l for l in [('Common problems', f'models/{slug}/{g["slug"]}/problems.html', 'problems') if has_problems else None,
+                                                ('Years to avoid', f'models/{slug}/{g["slug"]}/years.html', 'years') if has_years else None,
+                                                ('Biggest tire', f'models/{slug}/{g["slug"]}/tires.html', 'tires') if has_tires else None,
+                                                ('Specs & fluids', f'models/{slug}/{g["slug"]}/specs.html', 'specs') if has_specs else None] if l and l[2] != skip]
+                _ck = (SITE / f'checklists/{slug}-{g["slug"]}.pdf').exists()
+                if has_problems:
+                    _n = len(page.get('buying_checks') or [])
+                    _flags = [t for t in _tl if t.get('flag') in ('avoid', 'recall')]
+                    _qs = [f for f in page.get('faq', []) if PROBLEM_Q.search(f['q']) and not TIRE_Q.search(f['q'])][:6]
+                    _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} problems: what to check before you buy', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/problems/',
+                            'about': {'@type': 'Car', 'name': _model}}]
+                    if _qs:
+                        _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), f['a'])}} for f in _qs]})
+                    render('gen_problems.html', f'models/{slug}/{g["slug"]}/problems.html', '../../../', fam=fam, g=g, p=page, rc=_rc, flags=_flags, qs=_qs, checklist=_ck, has_years=has_years,
+                           sn=_sn, model=_model, gen_href=_gh, crumb='Problems', eyebrow=f'Common problems · {_y}', sibs=[l[:2] for l in _sib('problems')],
+                           h1=f'{_sn} problems: {_n} things to check' if _n else f'{_sn} problems and common repairs',
+                           lede=f'The problems owners and specialists flag most on the {_model}, the repairs they end up doing and what those cost, plus the years and recalls to watch. Sourced, not scraped.',
+                           og_image=_og, og_type='article', active='models', crumbs=_sub_crumbs('Problems', 'problems'), jsonld=_ld,
+                           title=fit_title(f'{_sn} Problems: {_n} Common Issues to Check' if _n else f'{_sn} Problems & Common Repairs', f'{_sn} Problems & What to Check', f'{_sn} Problems'),
+                           description=fit_desc(f'{_sn} ({_y}) problems: the {_n or len(page.get("repairs") or [])} issues owners and specialists flag most, what the fixes cost, DIY repair guides, recalls and the years to watch.'), credits='')
+                if has_years:
+                    _summary = []
+                    for fl, lab in (('buy', 'Best years'), ('avoid', 'Years to avoid'), ('recall', 'Check recalls')):
+                        for t in [t for t in _tl if t.get('flag') == fl][:3]:
+                            _summary.append({'flag': fl, 'label': lab, 'years': t['year'], 'why': t['change'][:170].rsplit(' ', 1)[0] + ('…' if len(t['change']) > 170 else '')})
+                    _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} years to avoid and the best years to buy', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/years/', 'about': {'@type': 'Car', 'name': _model}}]
+                    if _bestq:
+                        _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f'What are the best {_sn} years to buy, and which should you avoid?', 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), _bestq['a'])}}]})
+                    render('gen_years.html', f'models/{slug}/{g["slug"]}/years.html', '../../../', fam=fam, g=g, p=page, rc=_rc, answer=(_bestq or {}).get('a'), summary=_summary, timeline=_tl,
+                           values=x.get('values'), search=(page.get('searches') or [None])[0], sn=_sn, model=_model, gen_href=_gh, crumb='Years to avoid', eyebrow=f'Best years · {_y}',
+                           sibs=[l[:2] for l in _sib('years')], h1=f'{_sn} years to avoid, and the best years to buy',
+                           lede=f'Every {_model} model year: which ones owners and specialists recommend, which have documented problems, which carry recalls, and what they sell for now.',
+                           og_image=_og, og_type='article', active='models', crumbs=_sub_crumbs('Years to avoid', 'years'), jsonld=_ld,
+                           title=fit_title(f'{_sn} Years to Avoid & Best Years to Buy', f'{_sn} Years to Avoid & Best Years', f'{_sn} Years to Avoid'),
+                           description=fit_desc(f'{_sn} ({_y}) years to avoid and the best years to buy, year by year: what changed, the problem years, recalls and what a good one costs.'), credits='')
+                if has_tires:
+                    _f = x['fitment']
+                    _tq = next((f for f in page.get('faq', []) if TIRE_Q.search(f['q'])), None)
+                    _rq = next((f for f in page.get('faq', []) if REGEAR_Q.search(f['q'])), None)
+                    _mods = [m for m in page.get('mods', []) if re.search(r'SUSPENSION|LIFT|WHEEL|TIRE|BUMP|GEAR', m.get('cat', ''), re.I) and m.get('who')]
+                    _top = _f['max_tire'][0]
+                    _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} biggest tire size, stock and lifted', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/tires/', 'about': {'@type': 'Car', 'name': _model}}]
+                    if _tq:
+                        _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f"What's the biggest tire that fits a {_sn} without a lift?", 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), _tq['a'])}}]})
+                    render('gen_tires.html', f'models/{slug}/{g["slug"]}/tires.html', '../../../', fam=fam, g=g, p=page, f=_f, answer=(_tq or {}).get('a'), regear=(_rq or {}).get('a'), mods=_mods,
+                           sn=_sn, model=_model, gen_href=_gh, crumb='Biggest tire', eyebrow=f'Tire fitment · {_y}', sibs=[l[:2] for l in _sib('tires')],
+                           h1=f'{_sn} biggest tire size: stock and lifted',
+                           lede=f'The biggest tire owners run on a {_model} at every lift height, with the trimming it takes, the wheel specs you need and the lift kits that get you there.',
+                           og_image=_og, og_type='article', active='models', crumbs=_sub_crumbs('Biggest tire', 'tires'), jsonld=_ld,
+                           title=fit_title(f'{_sn} Biggest Tire Size: Stock & Lifted', f'{_sn} Biggest Tire Size', f'{_sn} Tire Size'),
+                           description=fit_desc(f'Biggest tire on a {_sn} ({_y}): {_top.get("lift", "stock")} {_top.get("size", "")}, plus what fits with a lift, bolt pattern, offset and the lift kits that work.'), credits='')
             else:
                 render('gen_stub.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, g=g, crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (g['name'], f'models/{slug}/{g["slug"]}.html')], reading=reading.get(f'{slug}/{g["slug"]}', []), active='models',
                        title=f'{mlabel(fam["maker"], fam["name"])} {g["name"]} — BoxyTrucks', description=g['summary'], credits='')
@@ -695,7 +763,7 @@ def main():
             if not p: continue
             tl = (p.get('x') or {}).get('timeline') or []
             ans = next((f['a'] for f in p.get('faq', []) if BEST_Q.search(f['q'])), None)
-            gens.append({'slug': g['slug'], 'title': p.get('title', g['name']), 'years': g['years'], 'answer': ans,
+            gens.append({'slug': g['slug'], 'title': p.get('title', g['name']), 'years': g['years'], 'answer': ans, 'yp': (SITE / f'models/{slug}/{g["slug"]}/years.html').exists(), 'pp': (SITE / f'models/{slug}/{g["slug"]}/problems.html').exists(),
                          'flags': [t for t in tl if t.get('flag') in ('buy', 'avoid', 'recall')]})
         label = mlabel(fam['maker'], fam['name'])
         n_buy = sum(1 for g in gens if any(t['flag'] == 'buy' for t in g['flags']))
@@ -1106,7 +1174,11 @@ def main():
             if p.get('plate') or (p.get('baseline_service') or {}).get('items'):
                 add('Specs', f'{model} specs, fluids & service intervals', f'models/{slug}/{g["slug"]}/specs.html', model, 'specs spec sheet fluid capacities oil capacity coolant gear oil service intervals wheel tire size bolt pattern lug torque parts numbers printable', codes)
             if (x_.get('fitment') or {}).get('max_tire'):
-                add('Tire fitment', f'Biggest tire for the {model}', f'tires/index.html?t={slug}/{g["slug"]}', model, 'biggest tire without a lift, with a lift, max tire size, fitment: ' + '; '.join(f'{t.get("lift")}: {t.get("size")}' for t in x_['fitment']['max_tire']), codes)
+                if (SITE / f'models/{slug}/{g["slug"]}/problems.html').exists():
+                    add('Problems', f'{model} problems to check', f'models/{slug}/{g["slug"]}/problems.html', model, 'common problems, issues, reliability, what to check before you buy, known faults: ' + '; '.join(c.get('head', '') for c in (p.get('buying_checks') or [])), codes)
+                if (SITE / f'models/{slug}/{g["slug"]}/years.html').exists():
+                    add('Best years', f'{model} years to avoid and best years', f'models/{slug}/{g["slug"]}/years.html', model, 'years to avoid, best years to buy, worst years, which year, model year changes', codes)
+                add('Tire fitment', f'Biggest tire for the {model}', f'models/{slug}/{g["slug"]}/tires.html' if (SITE / f'models/{slug}/{g["slug"]}/tires.html').exists() else f'tires/index.html?t={slug}/{g["slug"]}', model, 'biggest tire without a lift, with a lift, max tire size, fitment: ' + '; '.join(f'{t.get("lift")}: {t.get("size")}' for t in x_['fitment']['max_tire']), codes)
             if (x_.get('recalls') or {}).get('items') or (x_.get('recalls') or {}).get('tsbs'):
                 add('Recalls', f'{model} recalls & service bulletins', f'recalls/index.html#{slug}-{g["slug"]}', model, 'recall recalls TSB service bulletin NHTSA: ' + '; '.join(r.get('title', '') for r in (x_['recalls'].get('items') or []) + (x_['recalls'].get('tsbs') or [])), codes)
             for r in p.get('repairs', []):
@@ -1162,6 +1234,9 @@ def main():
     L += ['## Site', '',
           f'- [Repair guides]({SITE_URL}repairs/): step-by-step DIY repairs, one page each, by model',
           f'- [Specs & fluids]({SITE_URL}models/land-cruiser/100-series/specs/): every generation has a printable specs, fluids and service page at /models/<family>/<generation>/specs/',
+          f'- [Problems]({SITE_URL}models/land-cruiser/80-series/problems/): most generations have a common-problems page at /models/<family>/<generation>/problems/ (what to check, repair costs, recalls)',
+          f'- [Years to avoid]({SITE_URL}models/4runner/4th-gen/years/): year-by-year best and worst years at /models/<family>/<generation>/years/',
+          f'- [Biggest tire]({SITE_URL}models/4runner/5th-gen/tires/): biggest tire at every lift, wheel specs and lift kits at /models/<family>/<generation>/tires/',
           f'- [Recall tracker]({SITE_URL}recalls/): recalls and service bulletins for every generation, latest US recalls first',
           f'- [Importing]({SITE_URL}importing/): the US 25-year rule, EPA exemption, 2026 duty and state registration',
           f'- [Which boxy 4x4?]({SITE_URL}which-4x4/): five-question shortlist tool',

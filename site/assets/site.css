@@ -812,3 +812,29 @@ html { scroll-padding-top: 90px; }
 
 /* Skip layout of long guide sections until they're near the viewport */
 main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px; }
+
+/* Problems / years / tires sub-pages */
+.pb-list { list-style: none; counter-reset: pb; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--hair); }
+.pb-list li { counter-increment: pb; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 4px 14px; padding: 16px 0; border-bottom: 1px solid var(--hair); }
+.pb-list li::before { content: counter(pb, decimal-leading-zero); grid-row: 1 / span 2; font-family: var(--mono); font-size: 13px; color: #765A18; padding-top: 3px; }
+.pb-list strong { font-size: 18px; color: var(--ink); }
+.pb-list span { font-family: var(--serif); font-size: 17px; line-height: 27px; color: var(--body); }
+.pb-rc { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.pb-rc li { display: flex; flex-direction: column; gap: 3px; padding-bottom: 12px; border-bottom: 1px solid var(--hair); }
+.pb-rc .note { font-size: 14px; color: var(--stone); }
+.pb-cta { padding: 18px 20px; border-left: 3px solid var(--brass); background: #F7F4EE; display: flex; flex-direction: column; gap: 6px; }
+.pb-cta p { margin: 0; font-family: var(--serif); font-size: 17px; }
+.yr-verdict { padding: 20px 22px; background: #F7F4EE; border: 1px solid var(--hair); border-left: 3px solid var(--brass); display: flex; flex-direction: column; gap: 6px; }
+.yr-verdict .prose p { margin: 0; font-size: 18px; line-height: 29px; }
+.yr-pill { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; padding: 3px 8px; border: 1px solid currentColor; white-space: nowrap; }
+.yr-pill.buy { color: #2E5B3F; background: #E3ECE4; }
+.yr-pill.avoid { color: #8A3B22; background: #F3E2DA; }
+.yr-pill.recall { color: #765A18; background: #F1E8D3; }
+.yr-glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.yr-g { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; border: 1px solid var(--hair); background: #F7F4EE; min-width: 0; }
+.yr-g strong { font-size: 18px; color: var(--ink); }
+.yr-g .note { font-size: 14px; line-height: 21px; color: var(--stone); }
+.tr-mod { display: flex; flex-direction: column; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--hair); }
+.tr-mod ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
+.tr-mod p { margin: 0; }
+.yr-g .yr-pill { align-self: flex-start; }

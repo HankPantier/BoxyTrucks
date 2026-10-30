@@ -20,7 +20,7 @@
     {% if g.flags %}
     <ol class="tl" style="margin-top:14px">{% for t in g.flags %}<li class="tl-{{ t.flag }}"><span class="y">{{ t.year }}</span><span class="c">{{ t.change|lk }}</span><span class="flag">{{ {'buy':'Sweet spot','avoid':'Beware','recall':'Recall'}[t.flag] }}</span></li>{% endfor %}</ol>
     {% elif not g.answer %}<p style="margin-top:14px;color:var(--stone)">No single year stands out: owners and specialists say to buy on condition and history rather than model year.</p>{% endif %}
-    <p style="margin-top:12px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}.html#timeline">Every {{ g.title }} year, change by change →</a></p>
+    <p style="margin-top:12px;display:flex;flex-wrap:wrap;gap:6px 18px">{% if g.yp %}<a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}/years.html">Every {{ g.title }} year, with the ones to avoid →</a>{% else %}<a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}.html#timeline">Every {{ g.title }} year, change by change →</a>{% endif %}{% if g.pp %}<a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}/problems.html">{{ g.title }} problems to check →</a>{% endif %}</p>
   </section>
   {% endfor %}
 </div>
