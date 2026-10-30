@@ -44,7 +44,7 @@
   {% include "_inspect_kit.html" %}
 
   <section id="specialists"><h2 class="h-section">Specialists who inspect these trucks</h2>
-    {% if inspectors %}<p class="sub-intro">Shops whose own websites say they inspect vehicles for buyers. Call first: availability, price and whether they’ll travel all vary. We have no business relationship with these shops.</p>
+    {% if inspectors %}<p class="sub-intro">Shops and independent inspectors whose own websites say they inspect vehicles for buyers. Call first: availability, price and whether they’ll travel all vary. We have no business relationship with these shops.</p>
     {% for fam, shops in inspectors %}<div class="ins-fam"><span class="eyebrow">{{ fam.label }}</span><ul>{% for s in shops %}<li><a class="inline-link" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }} ↗</a> <span class="note">{{ s.city }}{% if s.state %}, {{ s.state }}{% endif %}{% if s.mobile %} · travels to the truck{% endif %}{% if s.auction %} · auction and remote inspections{% endif %}</span></li>{% endfor %}</ul></div>{% endfor %}
     {% else %}<p class="sub-intro">We’re verifying specialist shops for each truck now. In the meantime, the clubs and forums on each guide page are the best place to ask who inspects that model near you.</p>{% endif %}
     <p class="sub-intro">Know a specialist who should be here? Email <strong>boxytrucks@gmail.com</strong>.</p>
