@@ -63,13 +63,17 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 </main>
 {% if newsletter and newsletter.action and not hide_newsletter %}
 <section class="newsletter band-night" aria-labelledby="nl-h"><div class="wrap nl-wrap">
-  <div><span class="eyebrow brass">The Boxy Dispatch · monthly</span>
-  <h2 id="nl-h">One new guide, one featured rig, one recall worth knowing. Monthly, no spam.</h2><p class="nl-perk">Subscribe and get a free printable inspection checklist for any truck we cover.</p></div>
+  {% set _nlt = nl_truck(fam.slug if (fam is defined and fam is mapping) else None, g if (g is defined and g is mapping) else (page if (page is defined and page is mapping) else None)) %}
+  <div><span class="eyebrow brass">The Boxy Dispatch · free checklist</span>
+  {% if _nlt %}<h2 id="nl-h">Get the free {{ _nlt }} inspection checklist.</h2>
+  <p class="nl-perk">Two printable pages of what to check before you buy, yours as soon as you confirm your email. Then once a month: one new guide, one featured rig, one recall worth knowing. No spam.</p>
+  {% else %}<h2 id="nl-h">Get a free inspection checklist for the truck you’re shopping.</h2>
+  <p class="nl-perk">Two printable pages of model-specific checks, yours as soon as you confirm your email. Then once a month: one new guide, one featured rig, one recall worth knowing. No spam.</p>{% endif %}</div>
   <form class="nl-form" action="{{ newsletter.action }}" method="post" data-nl>
     <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
     <label for="nl-email" class="sr-only">Email address</label>
     <input id="nl-email" type="email" name="{{ newsletter.field or 'email' }}" required placeholder="you@example.com" autocomplete="email">
-    <button class="btn light" type="submit">Subscribe</button>
+    <button class="btn light" type="submit">Send my checklist</button>
   </form>
 </div></section>
 {% endif %}

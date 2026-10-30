@@ -550,6 +550,7 @@ def main():
         env.globals['fname'] = fname
         env.globals['OWNED'] = {'land-cruiser/80-series': 'owned an 80 Series', 'g-class/g500': 'owns a 2007 G500', 'g-class/w463': 'owns a 2007 G500'}
         env.globals['newsletter'] = NEWSLETTER
+        env.globals['nl_truck'] = lambda fs, g: (sname(fs, g) if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')
         env.globals['amz_q'] = amz_q
         def sponsor_for(fam_slug, gen_slug=None):
             today = datetime.date.today().isoformat()
