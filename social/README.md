@@ -34,6 +34,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Date | Post | File |
 |---|---|---|
 | Oct 28, 2026 | "The biggest tire that fits stock": 8 trucks, CTA to boxytrucks.com/tires. Photo: Darina Rodionova / Unsplash (80 Series) | `posts/01-biggest-tire-stock.jpg` |
+| Oct 30, 2026 | "80 Series or 100 Series?" head-to-head, CTA to boxytrucks.com/compare. Photos: Darina Rodionova / Unsplash; Andries Oudshoorn, CC BY-SA 2.0 | `posts/03-80-vs-100.jpg` |
 
 ## Following
 `follow-targets.json` lists the accounts @boxytrucks follows: brands, media, lifestyle (Huckberry, YETI, Filson…) and the builders, parts shops and clubs already vetted on the site's resources pages. Each entry is `todo` or `followed` with a date.
