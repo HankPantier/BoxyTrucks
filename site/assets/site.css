@@ -863,3 +863,9 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .bx-links { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 14px; }
 .bx-table td { vertical-align: middle; }
 @media (max-width: 640px) { .bx-truck img { width: 72px; height: 48px; } }
+
+.tr-shop{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.tr-size{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;border:1px solid var(--line,#CFC8B8);min-width:0}
+.tr-size .mono{font-size:16px;font-weight:500}
+.tr-size .links{display:flex;gap:8px;flex-wrap:wrap}
+.tr-size .btn{padding:8px 12px;font-size:12px}

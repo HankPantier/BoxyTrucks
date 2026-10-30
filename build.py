@@ -9,6 +9,7 @@ import datetime
 import json
 from collections import defaultdict
 import re
+from urllib.parse import quote_plus
 from pathlib import Path
 from markupsafe import Markup, escape
 from jinja2 import Environment, FileSystemLoader
@@ -205,6 +206,30 @@ def affiliate_rewrite(html, programs):
 
 AMZ_SKIP_SUP = ('amazon', 'service centre', 'service center', 'dealer')
 AMZ_SKIP_NAME = ('catalog', 'diagram', 'parts list', 'service centre')
+
+
+TIRE_RE = re.compile(r'(?<![\d.])(?:LT|P)?(\d{3})/(\d{2})\s?R\s?(\d{2})(?!\d)|(?<![\d.])(\d{2})\s?[xX×]\s?(\d{1,2}(?:\.\d{1,2})?)\s?R\s?(\d{2})(?!\d)')
+
+
+def tire_sizes(*texts):
+    """Distinct tire sizes in the order they appear, each with Tire Rack and Amazon search links."""
+    out, seen = [], set()
+    for t in texts:
+        for m in TIRE_RE.finditer(str(t or '')):
+            if m.group(1):
+                w, r, d = m.group(1), m.group(2), m.group(3)
+                size, tr = f'{w}/{r}R{d}', f'https://www.tirerack.com/tires/TireSearchResults.jsp?width={w}/&ratio={r}&diameter={d}'
+            else:
+                h, wd, d = m.group(4), m.group(5), m.group(6)
+                wd = f'{float(wd):.2f}'
+                if not (27 <= int(h) <= 42):
+                    continue
+                size, tr = f'{h}x{wd}R{d}', f'https://www.tirerack.com/tires/TireSearchResults.jsp?width={h}X&ratio={wd}&diameter={d}'
+            if size in seen:
+                continue
+            seen.add(size)
+            out.append({'size': size, 'tirerack': tr, 'amazon': 'https://www.amazon.com/s?k=' + quote_plus(size + ' tire')})
+    return out
 
 
 def amz_q(pt, vehicle=''):
@@ -728,7 +753,7 @@ def main():
                     _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} biggest tire size, stock and lifted', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/tires/', 'about': {'@type': 'Car', 'name': _model}}]
                     if _tq:
                         _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f"What's the biggest tire that fits a {_sn} without a lift?", 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), _tq['a'])}}]})
-                    render('gen_tires.html', f'models/{slug}/{g["slug"]}/tires.html', '../../../', fam=fam, g=g, p=page, f=_f, answer=(_tq or {}).get('a'), regear=(_rq or {}).get('a'), mods=_mods,
+                    render('gen_tires.html', f'models/{slug}/{g["slug"]}/tires.html', '../../../', fam=fam, g=g, p=page, f=_f, shop_sizes=tire_sizes(*[t.get('size') for t in (_f.get('max_tire') or [])], *(_f.get('stock') or []), *[t.get('note') for t in (_f.get('max_tire') or [])]), answer=(_tq or {}).get('a'), regear=(_rq or {}).get('a'), mods=_mods,
                            sn=_sn, model=_model, gen_href=_gh, crumb='Biggest tire', eyebrow=f'Tire fitment · {_y}', sibs=[l[:2] for l in _sib('tires')],
                            h1=f'{_sn} biggest tire size: stock and lifted',
                            lede=f'The biggest tire owners run on a {_model} at every lift height, with the trimming it takes, the wheel specs you need and the lift kits that get you there.',

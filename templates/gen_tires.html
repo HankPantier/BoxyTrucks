@@ -10,6 +10,11 @@
     <p class="sub-intro"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug }}">Compare with other trucks in the tire fitment tool →</a></p>
   </section>
 
+  {% if shop_sizes %}<section id="shop"><h2 class="h-section">Shop {{ sn }} tire sizes</h2>
+    <p class="sub-intro">Every size on this page, from factory fit to the biggest that fits lifted. Each link opens a search for that exact size.</p>
+    <div class="tr-shop">{% for t in shop_sizes %}<div class="tr-size"><span class="mono">{{ t.size }}</span><span class="links"><a class="btn solid" href="{{ t.tirerack }}" target="_blank" rel="noopener sponsored" data-track="tire_shop">Tire Rack ↗</a><a class="btn" href="{{ t.amazon }}" target="_blank" rel="noopener sponsored" data-track="tire_shop">Amazon ↗</a></span></div>{% endfor %}</div>
+  </section>{% endif %}
+
   <section><h2 class="h-section">{{ sn }} wheel and tire specs</h2>
     <div class="table-box"><table class="sp-table"><tbody>
       {% if f.stock %}<tr><th scope="row">Factory tire sizes</th><td>{{ f.stock|join(' · ') }}</td></tr>{% endif %}

@@ -42,3 +42,6 @@
 - Pending: The Tire Rack, CJ Pony Parts, PartsGeek, FinditParts, Valvoline Instant Oil Change, CanvasCamp.
 - Declined: Discount Tire, PriorityTire, TOPOAK Overland. Normal for a site under 2 weeks old; reapply once Search Console shows steady traffic (target: 1,000+ clicks/month).
 - AvantLink (ARB): not checked; Claude's browser can't open avantlink.com.
+
+## Tire size links (Oct 30)
+Every /models/{fam}/{gen}/tires/ page has a 'Shop {truck} tire sizes' block: each size on the page (factory, max-by-lift and sizes named in the notes) gets a Tire Rack size search and an Amazon size search (tag boxytrucks-20 added by affiliate_rewrite). 412 links on 97 pages. Tire Rack links are plain until the CJ application is approved; then the template in data/affiliates.json wraps them automatically (Skimlinks may also monetize them once approved).
