@@ -1,0 +1,5 @@
+{% set kit = inspect_kit(g.years if g is defined and g else '') %}
+<section class="ik" id="inspection-kit"><h2 class="h-section">What to bring when you look at a {{ sn }}</h2>
+  <p class="sub-intro">{{ ["","One","Two","Three","Four","Five","Six","Seven"][kit|length] }} inexpensive tools that catch most of the problems above before you hand over the money.{% if not on_ins %} Or book a specialist: see <a class="inline-link" href="{{ root }}pre-purchase-inspection/index.html">how to get a pre-purchase inspection</a>.{% endif %}</p>
+  <ul class="ik-list">{% for k in kit %}<li><div><strong>{{ k.name }}</strong><span class="note">{{ k.why }}</span></div><a class="btn" href="{{ k.url }}" target="_blank" rel="noopener sponsored" data-track="kit_click">Amazon ↗</a></li>{% endfor %}</ul>
+</section>

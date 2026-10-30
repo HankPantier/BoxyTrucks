@@ -126,6 +126,7 @@ NAV = [
         {'key': 'best', 'label': 'Buyer’s guides', 'href': 'best/index.html'},
         {'key': 'bestyears', 'label': 'Best years to buy', 'href': 'garage/index.html#best-years'},
         {'key': 'checklists', 'label': 'Inspection checklists', 'href': 'inspection-checklists/index.html'},
+        {'key': 'inspection', 'label': 'Pre-purchase inspection', 'href': 'pre-purchase-inspection/index.html'},
         {'key': 'swaps', 'label': 'Engine swaps', 'href': 'engine-swaps/index.html'},
         {'key': 'importing', 'label': 'Importing', 'href': 'importing/index.html'},
         {'key': 'resources', 'label': 'Resources', 'href': 'resources/index.html'},
@@ -206,6 +207,22 @@ def affiliate_rewrite(html, programs):
 
 AMZ_SKIP_SUP = ('amazon', 'service centre', 'service center', 'dealer')
 AMZ_SKIP_NAME = ('catalog', 'diagram', 'parts list', 'service centre')
+
+
+INSPECT_KIT = [
+    {'name': 'Bluetooth OBD-II scanner', 'q': 'BlueDriver Bluetooth Pro OBDII scan tool', 'why': 'Reads stored and pending codes, and shows the readiness monitors. If several say "not ready", someone may have cleared the codes just before you arrived.', 'obd': True},
+    {'name': 'Paint thickness gauge', 'q': 'paint thickness gauge car', 'why': 'Thick readings on one panel mean body filler or a respray, which usually means an accident or rust repair the seller hasn’t mentioned.'},
+    {'name': 'Inspection borescope camera', 'q': 'automotive inspection borescope camera', 'why': 'Fits through drain holes into frame rails, rockers and sills, where these trucks rust from the inside out.'},
+    {'name': 'Bright LED flashlight', 'q': 'rechargeable LED inspection flashlight', 'why': 'For the underside: leaks at the axle seals, transfer case and rear main, and the frame behind the rear wheels.'},
+    {'name': 'Telescoping inspection mirror', 'q': 'telescoping inspection mirror automotive', 'why': 'Shows the back of the engine, the top of the fuel tank and the inner fenders without crawling under.'},
+    {'name': 'Compression tester', 'q': 'engine compression tester kit', 'why': 'On a high-mileage or long-parked engine, uneven compression is the cheapest way to spot a tired engine before you pay for it. Diesels need a diesel-rated tester.'},
+]
+
+
+def inspect_kit(years=''):
+    m = re.search(r'(19|20)\d\d', str(years or ''))
+    pre_obd = bool(m) and int(m.group(0)) < 1996 and not re.search(r'(199[6-9]|20\d\d)', str(years or ''))
+    return [dict(k, url='https://www.amazon.com/s?k=' + quote_plus(k['q'])) for k in INSPECT_KIT if not (pre_obd and k.get('obd'))]
 
 
 TIRE_RE = re.compile(r'(?<![\d.])(?:LT|P)?(\d{3})/(\d{2})\s?R\s?(\d{2})(?!\d)|(?<![\d.])(\d{2})\s?[xX×]\s?(\d{1,2}(?:\.\d{1,2})?)\s?R\s?(\d{2})(?!\d)')
@@ -577,6 +594,7 @@ def main():
         env.globals['newsletter'] = NEWSLETTER
         env.globals['nl_truck'] = lambda fs, g: (sname(fs, g) if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')
         env.globals['amz_q'] = amz_q
+        env.globals['inspect_kit'] = inspect_kit
         def sponsor_for(fam_slug, gen_slug=None):
             today = datetime.date.today().isoformat()
             for sp in SPONSORS.get('sponsors', []):
@@ -1202,6 +1220,24 @@ def main():
            crumbs=[('Garage', 'garage/'), ('Inspection checklists', 'inspection-checklists/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Pre-purchase inspection checklists for boxy 4x4s', 'url': SITE_URL + 'inspection-checklists/', 'description': 'Printable, model-specific pre-purchase inspection checklists.', 'isAccessibleForFree': True, 'publisher': PUBLISHER}],
            title='Free pre-purchase inspection checklists for boxy 4x4s — BoxyTrucks', description=f'{len(cl_items)} printable pre-purchase inspection checklists: Land Cruiser, G-Wagen, Defender, Jeep, Bronco and more. Model-specific checks, years, recalls.', credits='')
+    _insp_path = DATA / 'inspectors.json'
+    _insp = json.loads(_insp_path.read_text()) if _insp_path.exists() else {}
+    inspectors = []
+    for _slug in FAMILY_ORDER:
+        _shops = (_insp.get('families') or {}).get(_slug) or []
+        if _shops and _slug in fams:
+            inspectors.append(({'slug': _slug, 'label': mlabel(fams[_slug]['maker'], fams[_slug]['name'])}, _shops))
+    _ins_faq = [
+        ('Is a pre-purchase inspection worth it on a used 4x4?', 'Yes. Frame rust, transfer case and locker problems are common on older 4x4s and expensive to fix, and most of them can be found in an hour by someone who knows where to look.'),
+        ('Who should inspect a Land Cruiser, G-Wagen or Defender?', 'A specialist in that truck if there is one within reach. If the truck is far away, a nationwide mobile inspection service such as Lemon Squad can send a mechanic; give them the model-specific checklist.'),
+        ('What should I check on a used 4x4 before buying?', 'Frame and body rust from the inside, every 4WD mode and each locker, leaks at the axles, knuckles and transfer case, steering and suspension play, signs of hard off-road use, the quality of any modifications, and stored codes and fluids.'),
+    ]
+    render('inspection.html', 'pre-purchase-inspection/index.html', '../', active='checklists', on_ins=True, inspectors=inspectors, sn='used 4x4',
+           history={'name': 'carVertical vehicle history report', 'url': 'https://www.carvertical.com/us', 'note': 'Accident, odometer, title and damage-photo records from registries, insurers and repair shops. Cheaper than Carfax, though Carfax has more service records.'},
+           crumbs=[('Garage', 'garage/'), ('Pre-purchase inspection', 'pre-purchase-inspection/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'Get a used 4x4 inspected before you buy', 'url': SITE_URL + 'pre-purchase-inspection/', 'description': 'How to get a pre-purchase inspection on a used Land Cruiser, G-Wagen, Defender, Jeep or other boxy 4x4: specialists, mobile inspectors, VIN checks and what to check.'},
+                   {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in _ins_faq]}],
+           title='Pre-Purchase Inspection for a Used 4x4: How & Who | BoxyTrucks', description='How to get a used 4x4 inspected before you buy: specialists by truck, mobile inspectors, free VIN checks, the tools to bring and what to check.', credits='')
     render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, cl_groups=cl_groups, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the monthly BoxyTrucks email.', credits='')
     render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, track_event='rig_submission', hide_newsletter=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
 
@@ -1224,6 +1260,7 @@ def main():
                        ('Which boxy 4x4? quiz', 'which-4x4/index.html', 'which 4x4 should I buy, shortlist, quiz, budget, overlanding, rock crawling, daily driver'),
                        ("Buyer’s guides", 'best/index.html', 'best 4x4 under $15k, under $30k, first 4x4, overlanding, rock crawling, classics, buying guide'),
                        ('Inspection checklists', 'inspection-checklists/index.html', 'printable pre-purchase inspection checklist, PPI, test drive, what to check'),
+                       ('Pre-purchase inspection', 'pre-purchase-inspection/index.html', 'PPI, pre-purchase inspection, mechanic, specialist, mobile inspector, Lemon Squad, VIN check, history report'),
                        ('Engine swaps', 'engine-swaps/index.html', 'engine swap, LS swap, Coyote, Cummins, diesel swap, 1HZ, OM606, OM617'),
                        ('Importing a 4x4 into the US', 'importing/index.html', 'import, 25-year rule, EPA exemption, duty, registration, JDM, legal'),
                        ('Mods & builders', 'mods/index.html', 'modifications, suppliers, builders, lift kits, armor, racks, restomods'),
@@ -1321,6 +1358,7 @@ def main():
           f'- [Buyer\'s guides]({SITE_URL}best/): best boxy 4x4s by budget and use',
           f'- [Engine swaps]({SITE_URL}engine-swaps/): LS, Coyote, Cummins, Toyota and Mercedes diesel swaps',
           f'- [Inspection checklists]({SITE_URL}inspection-checklists/): printable pre-purchase checklists for every generation',
+          f'- [Pre-purchase inspection]({SITE_URL}pre-purchase-inspection/): how to get a used 4x4 inspected, specialists by truck, VIN checks and what to check',
           f'- [About]({SITE_URL}about/): how BoxyTrucks researches and makes money',
           f'- [Instagram @boxytrucks]({INSTAGRAM_URL}): our posts and reader builds',
           f'- [X @boxytrucks]({X_URL}): buying tips and new guides',

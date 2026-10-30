@@ -28,6 +28,8 @@
     <div class="faq">{% for f in qs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p>{% if f.src %}<span class="src">SOURCE · {{ f.src }}</span>{% endif %}</div></details>{% endfor %}</div>
   </section>{% endif %}
 
+  {% include "_inspect_kit.html" %}
+
   {% if checklist %}<section class="pb-cta"><span class="eyebrow">Going to look at one?</span><p>Take the printable {{ sn }} inspection checklist: every check on this page plus the model-specific ones, on one sheet. <a class="inline-link" href="{{ root }}inspection-checklists/index.html">Get the checklist →</a></p></section>{% endif %}
 
   <p class="sp-foot">Sourced from owners, specialists and factory documents; full sources are on the <a href="{{ gen_href }}#sources">{{ sn }} guide</a>. Verify torque figures and procedures against the factory service manual (<a href="{{ root }}about/disclaimer.html">disclaimer</a>).</p>

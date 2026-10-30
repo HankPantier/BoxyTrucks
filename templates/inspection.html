@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:18px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><span>Pre-purchase inspection</span></nav>
+  <span class="eyebrow brass">Buying used · before you pay</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:940px">Get it inspected before you buy</h1>
+  <p class="serif" style="margin:0;max-width:740px;font-size:19px;line-height:29px;color:#D9D4C8">A used 4x4 can look perfect and still hide a rotten frame, a slipping transfer case or lockers that haven’t worked in years. Here are the three ways to get one checked properly, what to ask for, and the paperwork to run before you hand over a deposit.</p>
+</div></section>
+
+<div class="wrap section"><div class="sp-wrap">
+  <section class="yr-verdict"><span class="eyebrow">The short answer</span><div class="prose"><p>Use a specialist in that truck if there’s one within reach. If the truck is far away, send a mobile inspector with our model-specific checklist. Either way, run the VIN for open recalls and theft or salvage records first, and look at it yourself with a few basic tools.</p></div></section>
+
+  <section><h2 class="h-section">Three ways to get a used 4x4 inspected</h2>
+    <div class="ins-opts">
+      <div class="ins-opt"><span class="eyebrow">Best</span><h3>A specialist in that truck</h3><p>A Land Cruiser, G-Wagen or Defender shop knows where these trucks rust, which years have which weak spots, and what a healthy locker or transfer case should feel like. Many will inspect a truck you bring in, and some will inspect auction listings from photos and video. Specialists we know of are listed <a class="inline-link" href="#specialists">below</a>.</p></div>
+      <div class="ins-opt"><span class="eyebrow">Far away</span><h3>A mobile inspector</h3><p>When the truck is in another state, a nationwide service sends a mechanic to the seller and emails you a report with photos. <a class="inline-link" href="https://lemonsquad.com/pre-purchase-car-inspection" target="_blank" rel="noopener">Lemon Squad ↗</a> covers the whole US, checks the mechanicals, body, underside and OBD-II codes, and offers vintage and classic inspections. Mobile inspectors are generalists, so send them the <a class="inline-link" href="{{ root }}inspection-checklists/index.html">printable checklist</a> for that exact model.</p></div>
+      <div class="ins-opt"><span class="eyebrow">Yourself</span><h3>Look at it with a checklist</h3><p>Even if a pro inspects it, look yourself: take our model checklist and the tools below, and work through the common problems for that generation. It’s also how you decide whether a truck is worth paying an inspector for.</p></div>
+    </div>
+  </section>
+
+  <section><h2 class="h-section">Run the VIN before you go</h2>
+    <ul class="pb-rc">
+      <li><strong><a class="inline-link" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">NHTSA recall lookup ↗</a></strong> <span class="mono">Free</span><span class="note">Shows any open safety recalls. Ask the seller for proof the work was done, or plan a dealer visit.</span></li>
+      <li><strong><a class="inline-link" href="https://www.nicb.org/vincheck" target="_blank" rel="noopener">NICB VINCheck ↗</a></strong> <span class="mono">Free</span><span class="note">The National Insurance Crime Bureau’s check for vehicles reported stolen, or declared a total loss and not recovered.</span></li>
+      <li><strong><a class="inline-link" href="{{ history.url }}" target="_blank" rel="noopener sponsored">{{ history.name }} ↗</a></strong> <span class="mono">Paid</span><span class="note">{{ history.note }}</span></li>
+    </ul>
+    <p class="sub-intro">History reports only know what was reported. They need a 17-digit VIN, so trucks built before 1981 aren’t covered; for those, the paperwork, the frame and a specialist’s eye matter even more.</p>
+  </section>
+
+  <section><h2 class="h-section">What to ask the inspector to check on a boxy 4x4</h2>
+    <ol class="pb-list">
+      <li><strong>Frame and body rust, from the inside</strong><span>Frame rails behind the rear wheels, body mounts, rockers and sills, floor pans and the tailgate. Surface rust is normal; flaking or soft metal isn’t.</span></li>
+      <li><strong>Every 4WD mode, on a loose surface</strong><span>Engage 4-high and 4-low, and the center diff lock if it has one. Listen for clunks and check that the dash lights come on and go off.</span></li>
+      <li><strong>Each locker, one at a time</strong><span>Lockers that are rarely used often stop working. Engage each one and check that it locks and unlocks.</span></li>
+      <li><strong>Leaks at the axles, knuckles and transfer case</strong><span>Wet axle seals, weeping front knuckles and a leaking transfer case are common and add up fast.</span></li>
+      <li><strong>Steering and suspension play</strong><span>Steering box, tie-rod ends, ball joints and bushings. Lifted trucks wear these faster.</span></li>
+      <li><strong>Signs of hard off-road use</strong><span>Dented skid plates, bent tie rods or rock sliders, scraped diff housings, and crude wiring for lights and accessories.</span></li>
+      <li><strong>The quality of any modifications</strong><span>Brand-name lift kits, correct driveline angles and re-gearing for big tires. A cheap lift on a nice truck is a cost, not a feature.</span></li>
+      <li><strong>Codes, readiness monitors and fluids</strong><span>Stored and pending codes, monitors that haven’t reset, and the color and level of every fluid.</span></li>
+    </ol>
+    <p class="sub-intro">Each truck also has its own weak spots. Find yours: <a class="inline-link" href="{{ root }}garage/index.html#best-years">best years and years to avoid</a>, or open the <a class="inline-link" href="{{ root }}models/index.html">guide for that generation</a> and go to its Problems page.</p>
+  </section>
+
+  {% include "_inspect_kit.html" %}
+
+  <section id="specialists"><h2 class="h-section">Specialists who inspect these trucks</h2>
+    {% if inspectors %}<p class="sub-intro">Shops whose own websites say they inspect vehicles for buyers. Call first: availability, price and whether they’ll travel all vary. We have no business relationship with these shops.</p>
+    {% for fam, shops in inspectors %}<div class="ins-fam"><span class="eyebrow">{{ fam.label }}</span><ul>{% for s in shops %}<li><a class="inline-link" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }} ↗</a> <span class="note">{{ s.city }}{% if s.state %}, {{ s.state }}{% endif %}{% if s.mobile %} · travels to the truck{% endif %}{% if s.auction %} · auction and remote inspections{% endif %}</span></li>{% endfor %}</ul></div>{% endfor %}
+    {% else %}<p class="sub-intro">We’re verifying specialist shops for each truck now. In the meantime, the clubs and forums on each guide page are the best place to ask who inspects that model near you.</p>{% endif %}
+    <p class="sub-intro">Know a specialist who should be here? Email <strong>boxytrucks@gmail.com</strong>.</p>
+  </section>
+
+  <p class="sp-foot">An inspection lowers your risk but doesn’t guarantee anything; inspectors can only report what they can see on the day. {% if affiliates_on %}Some links on this page are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>, which pay us a small commission at no cost to you.{% endif %}</p>
+</div></div>
+{% endblock %}

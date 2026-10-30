@@ -28,6 +28,8 @@
     {% if search.at_url %}<a class="btn light" style="text-align:center" href="{{ search.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}
     {% if search.bat_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ search.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</section>{% endif %}
 
+  {% include "_inspect_kit.html" %}
+
   <p class="sp-foot">Best years are buyer consensus from owners, specialists and forums, not spec sheets. See all <a href="{{ root }}models/{{ fam.slug }}/best-years.html">{{ fname(fam.slug, True) or fam.name }} years to avoid</a> across every generation.</p>
 </div></div>
 {% endblock %}
