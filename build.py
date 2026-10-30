@@ -27,6 +27,9 @@ GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 INSTAGRAM_URL = 'https://www.instagram.com/boxytrucks/'
 X_URL = 'https://x.com/boxytrucks'
+LAUNCH_DATE = '2026-10-22'
+PERSON = {'@type': 'Person', 'name': 'Hank Pantier', 'url': 'https://boxytrucks.com/about/', 'jobTitle': 'Founder and editor, BoxyTrucks'}
+PUBLISHER = {'@type': 'Organization', 'name': 'BoxyTrucks', 'url': 'https://boxytrucks.com/', 'logo': {'@type': 'ImageObject', 'url': 'https://boxytrucks.com/img/logo.png', 'width': 512, 'height': 512}, 'sameAs': ['https://www.instagram.com/boxytrucks/', 'https://x.com/boxytrucks']}
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
 INDEXNOW_KEY = 'df5e9f5700c975efa4ebdb9e75a3fa77'  # public by design: IndexNow verifies ownership by fetching /<key>.txt
@@ -488,6 +491,17 @@ def main():
         canonical = SITE_URL + path
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
         ld = ctx.pop('jsonld', [])
+        for _x in ld:
+            if _x.get('@type') in ('Article', 'HowTo'):
+                if not isinstance(_x.get('author'), dict) or _x['author'].get('@type') != 'Person':
+                    _x['author'] = PERSON
+                _x['publisher'] = PUBLISHER
+                _x.setdefault('datePublished', LAUNCH_DATE)
+                _x.setdefault('dateModified', datetime.date.today().isoformat())
+                if not _x.get('image'):
+                    _x['image'] = SITE_URL + og_img
+            if _x.get('@type') == 'Organization':
+                _x.update({k: v for k, v in PUBLISHER.items() if k != '@type'})
         crumbs = ctx.pop('crumbs', None)
         if crumbs:
             ld.append({'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
@@ -571,7 +585,7 @@ def main():
                        description=page.get('verdict', g['summary']), credits=credits_of([page]))
                 if page.get('plate') or (page.get('baseline_service') or {}).get('items'):
                     _m = mlabel(fam['maker'], page['title'])
-                    render('specs.html', f'models/{slug}/{g["slug"]}/specs.html', '../../../', fam=fam, g=g, p=page, x=x, model=_m,
+                    render('specs.html', f'models/{slug}/{g["slug"]}/specs.html', '../../../', fam=fam, g=g, p=page, x=x, model=_m, og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None),
                            gen_href=f'../../../models/{slug}/{g["slug"]}.html', active='models', og_type='article',
                            crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), ('Specs & fluids', f'models/{slug}/{g["slug"]}/specs/')],
                            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
@@ -778,7 +792,7 @@ def main():
                          'step': [{'@type': 'HowToStep', 'position': i + 1, 'text': st} for i, st in enumerate(steps)],
                          'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}
                 others = [o for o in reps if o is not r]
-                render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, model=model, steps=steps, others=others,
+                render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, og_image=(f'img/{slug}/{p["hero_photo"]}' if p.get('hero_photo') else None), model=model, steps=steps, others=others,
                        gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', has_specs=bool(p.get('plate') or (p.get('baseline_service') or {}).get('items')), og_type='article', part_search=suppliers_cfg.get(slug, []),
                        crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
                        jsonld=[howto], title=next((t for t in (f'{rt} — {model} DIY repair guide — BoxyTrucks', f'{rt} — {model} — BoxyTrucks') if len(t) <= 110), f'{rt[:80].rsplit(" ", 1)[0]}… — {model} | BoxyTrucks'),
@@ -879,6 +893,7 @@ def main():
                        'img': (f'/img/{slug}/{p["hero_photo"]}' if p.get('hero_photo') else None)})
     render('quiz.html', 'which-4x4/index.html', '../', active='quiz', data_json=Markup(json.dumps(qz, ensure_ascii=False).replace('</', '<\\/')), n=len(qz),
            crumbs=[('Which boxy 4x4?', 'which-4x4/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'WebApplication', 'name': 'Which boxy 4x4? quiz', 'url': SITE_URL + 'which-4x4/', 'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any', 'isAccessibleForFree': True, 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}, 'description': 'Answer five questions about budget, use and how hands-on you are, and get a shortlist of boxy 4x4s that fit.', 'publisher': PUBLISHER}],
            title='Which boxy 4x4 should you buy? Five questions, one shortlist — BoxyTrucks', description=f'Answer five questions about budget, use, wrenching and imports and get a shortlist from {len(qz)} boxy 4x4 generations, with prices and best years.', credits='')
     def _gen_info(k):
         try:
@@ -948,7 +963,7 @@ def main():
            title='Partner with BoxyTrucks — sponsorship for 4x4 specialists', description='Sponsorship packages for parts suppliers and specialists: put your shop on the guides and repair pages for the trucks you know best.', credits='')
     render('about.html', 'about/index.html', '../', active='', title='About BoxyTrucks: how we research and make money', description='Who makes BoxyTrucks, how every guide is sourced, how best years are chosen, how we make money and how to send corrections.', credits='',
            crumbs=[('About', 'about/')], n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps,
-           jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL]}}])
+           jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL], 'founder': dict(PERSON, description='Has owned two Jeep LJs, a 60 and an 80 Series Land Cruiser, an FJ Cruiser, four 4Runners and a 2007 Mercedes G500; building websites since 2001.', homeLocation={'@type': 'Place', 'name': 'Upstate South Carolina'})}}])
     render('disclaimer.html', 'about/disclaimer.html', '../', active='', title='Disclaimer — BoxyTrucks', description='BoxyTrucks specs, fluids and repair guides are for general information: verify against your manual or a qualified mechanic.', credits='', crumbs=[('Disclaimer', 'about/disclaimer.html')])
     render('cookies.html', 'about/cookies.html', '../', active='', title='Cookies — BoxyTrucks', description='The cookies BoxyTrucks sets (Google Analytics only), how long they last, and how to accept, refuse or change your choice.', credits='', crumbs=[('Cookies', 'about/cookies.html')])
     render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
@@ -966,6 +981,7 @@ def main():
     cl_groups = [(k, list(v)) for k, v in _gb(cl_items, key=lambda c: c['fam'])]
     render('checklists.html', 'inspection-checklists/index.html', '../', active='checklists', groups=cl_groups, n=len(cl_items), hide_newsletter=True,
            crumbs=[('Garage', 'garage/'), ('Inspection checklists', 'inspection-checklists/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Pre-purchase inspection checklists for boxy 4x4s', 'url': SITE_URL + 'inspection-checklists/', 'description': 'Printable, model-specific pre-purchase inspection checklists.', 'isAccessibleForFree': True, 'publisher': PUBLISHER}],
            title='Free pre-purchase inspection checklists for boxy 4x4s — BoxyTrucks', description=f'{len(cl_items)} printable pre-purchase inspection checklists: Land Cruiser, G-Wagen, Defender, Jeep, Bronco and more. Model-specific checks, years, recalls.', credits='')
     render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, cl_groups=cl_groups, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the monthly BoxyTrucks email.', credits='')
     render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, track_event='rig_submission', hide_newsletter=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
