@@ -104,6 +104,7 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
   var fams = function(r){ return (r.families || []).map(famName); };
 
   function pitch(r){
+    if (r.draft) return r.draft;
     var who = r.person ? r.person.split(/[,(]/)[0].trim().split(' ')[0] : 'there';
     var fl = fams(r); var trucks = fl.length > 2 ? fl.slice(0,2).join(' and ') + ' and more' : fl.join(' and ');
     var subj = "You're already on " + r.pages + " BoxyTrucks pages";
@@ -128,7 +129,9 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
   function strip(){
     var counts = {}; STATUSES.forEach(function(s){ counts[s] = 0; });
     rows.forEach(function(r){ counts[r.status || 'To pitch'] = (counts[r.status || 'To pitch'] || 0) + 1; });
+    var ready = rows.filter(function(r){ return r.draft && (r.status || 'To pitch') === 'To pitch'; }).length;
     var h = '<button type="button" data-s="" aria-pressed="' + (filterStatus === '') + '"><b>' + rows.length + '</b><span>All shops</span></button>';
+    h += '<button type="button" data-s="__ready" aria-pressed="' + (filterStatus === '__ready') + '"><b>' + ready + '</b><span>Ready to send</span></button>';
     STATUSES.forEach(function(s){ h += '<button type="button" data-s="' + s + '" aria-pressed="' + (filterStatus === s) + '"><b>' + counts[s] + '</b><span>' + s + '</span></button>'; });
     $('strip').innerHTML = h;
   }
@@ -137,13 +140,15 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
     strip();
     var q = $('q').value.trim().toLowerCase(), f = $('fam').value, he = $('hasEmail').checked, so = $('sort').value;
     var list = rows.filter(function(r){
-      if (filterStatus && (r.status || 'To pitch') !== filterStatus) return false;
+      if (filterStatus === '__ready') { if (!(r.draft && (r.status || 'To pitch') === 'To pitch')) return false; }
+      else if (filterStatus && (r.status || 'To pitch') !== filterStatus) return false;
       if (f && (r.families || []).indexOf(f) < 0) return false;
       if (he && !r.email) return false;
       if (q) { var hay = [r.company, r.domain, r.person, r.what, r.notes, fams(r).join(' ')].join(' ').toLowerCase(); if (hay.indexOf(q) < 0) return false; }
       return true;
     });
     list.sort(function(a, b){
+      if (!!b.draft !== !!a.draft && so === 'pages') return b.draft ? 1 : -1;
       if (so === 'name') return String(a.company || a.domain).localeCompare(String(b.company || b.domain));
       if (so === 'sent') return String(b.sent || '').localeCompare(String(a.sent || ''));
       return (b.pages || 0) - (a.pages || 0);
@@ -163,7 +168,7 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
       var opts = STATUSES.map(function(s){ return '<option' + (s === st ? ' selected' : '') + '>' + s + '</option>'; }).join('');
       return '<details class="shop" data-id="' + esc(r.id) + '"' + (open[r.id] ? ' open' : '') + '><summary>' +
         '<div class="nm"><span class="tier ' + esc(r.tier) + '">' + esc(r.tier || '') + '</span><strong>' + esc(r.company || r.domain) + '</strong><span class="dom">' + esc(r.domain) + '</span></div>' +
-        '<div class="meta"><span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span><span>' + esc(fams(r).join(', ')) + '</span>' + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
+        '<div class="meta"><span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span><span>' + esc(fams(r).join(', ')) + '</span>' + (r.draft ? '<span class="reach">✎ draft ready</span>' : '') + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
         '<span class="pill ' + st.replace(' ', '') + '">' + esc(st) + '</span></summary>' +
         '<div class="body"><div class="col"><span class="h">Who to contact</span><dl>' + contact + '</dl>' +
         (r.what ? '<p class="note"><b>What they do:</b> ' + esc(r.what) + '</p>' : '') +
