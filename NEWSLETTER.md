@@ -6,4 +6,5 @@
 - **Hidden field:** `fields[signup_page]` carries the page path. Kit only saves it once a custom field named `signup_page` exists. Create it from a subscriber's profile once there is one.
 - **Sequences and automations are paid in Kit.** There's no welcome sequence on the free plan; the confirmation email and the /newsletter/welcome/ page do that job.
 - **Issue 01:** Kit broadcast draft 26662307 (not sent). Revised copy for Hank's review in newsletter/issue-01.md (Oct 30): new years/problems/tire pages, Boxy SUVs list, G500 from Hank's garage, LC 250 fuel-tube recall 26V673. Hank sends it.
+- **Subject line format (Hank, Oct 30):** "Dispatch No. NN: <three short hooks>", e.g. "Dispatch No. 01: which year to buy, what breaks, what fits". Keep it numbered every issue.
 - **Format each month:** one new guide, one featured rig, one recall worth knowing.

@@ -1,11 +1,8 @@
 # The Boxy Dispatch No. 01 (draft for Hank)
 
-Status: DRAFT, not sent. Replaces the content of Kit broadcast 26662307 once Hank approves.
+Status: approved by Hank Oct 30, not sent. Replaces the content of Kit broadcast 26662307 once Hank approves.
 
-**Subject options**
-1. Years to avoid, for every boxy 4x4 (Dispatch No. 01)
-2. The year I'd skip, the leak I fixed, and a Land Cruiser recall
-3. Dispatch No. 01: which year to buy, what breaks, what fits
+**Subject:** Dispatch No. 01: which year to buy, what breaks, what fits
 
 **Preview text:** New: years to avoid, common problems and the biggest tire for every generation we cover.
 
