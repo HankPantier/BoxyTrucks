@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><a href="{{ root }}best/index.html">Buyer’s guides</a><span>/</span><span>Boxy SUVs</span></nav>
+  <span class="eyebrow brass">{{ total }} trucks · prices checked {{ checked }}</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">Boxy SUVs: every boxy 4x4 you can buy, new and used</h1>
+  <p class="serif" style="margin:0;max-width:760px;font-size:19px;line-height:29px;color:#D9D4C8">Flat glass, upright pillars and a roofline you could set a level on. Every square-shouldered 4x4 we cover, from the ones still on sale to the classics, with what a good one costs, whether it has a solid front axle, and the years to avoid.</p>
+  <div class="bx-jump">{% for grp in groups %}<a href="#{{ grp.id }}">{{ grp.title }} <span>{{ grp.rows|length }}</span></a>{% endfor %}<a href="{{ root }}which-4x4/index.html">Not sure? Take the 5-question quiz →</a></div>
+</div></section>
+<div class="wrap section" style="padding-top:40px;display:flex;flex-direction:column;gap:48px">
+  {% for grp in groups %}<section id="{{ grp.id }}" style="display:flex;flex-direction:column;gap:14px">
+    <h2 class="h-section">{{ grp.title }}</h2>
+    {% if grp.lead %}<p class="sub-intro" style="margin:0;max-width:760px">{{ grp.lead }}</p>{% endif %}
+    <div class="table-box"><table class="sp-table sp-wide bx-table"><thead><tr><th>TRUCK</th><th>YEARS</th><th>DRIVER PRICE</th><th>FRONT AXLE</th><th>GUIDES</th></tr></thead>
+    <tbody>{% for r in grp.rows %}<tr>
+      <td data-l="TRUCK"><a class="bx-truck" href="{{ root }}{{ r.href }}">{% if r.img %}<img src="{{ root }}{{ r.img }}" alt="" loading="lazy" width="96" height="64">{% endif %}<span><strong>{{ r.name }}</strong><span class="note">{{ r.maker }}</span></span></a></td>
+      <td data-l="YEARS" class="mono">{{ r.years }}</td>
+      <td data-l="DRIVER PRICE">{{ r.price or '—' }}</td>
+      <td data-l="FRONT AXLE">{% if r.axle == 'sfa' %}<span class="yr-pill buy">Solid</span>{% elif r.axle == 'ifs' %}<span class="note">Independent</span>{% elif r.axle == 'mixed' %}<span class="note">Changed mid-run</span>{% else %}<span class="note">—</span>{% endif %}</td>
+      <td data-l="GUIDES"><span class="bx-links"><a class="inline-link" href="{{ root }}{{ r.href }}">Guide</a>{% if r.years_href %}<a class="inline-link" href="{{ root }}{{ r.years_href }}">Years to avoid</a>{% endif %}{% if r.prob_href %}<a class="inline-link" href="{{ root }}{{ r.prob_href }}">Problems</a>{% endif %}</span></td>
+    </tr>{% endfor %}</tbody></table></div>
+  </section>{% endfor %}
+
+  {% if faqs %}<section id="faq" style="display:flex;flex-direction:column;gap:18px"><h2 class="h-section">Boxy SUV questions</h2>
+    <div class="faq">{% for f in faqs %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p></div></details>{% endfor %}</div>
+  </section>{% endif %}
+  <p class="sp-foot">Driver prices are what a sound, usable example sells for, from our {{ checked }} value checks (mostly Bring a Trailer results and dealer listings); concours and project trucks sit well outside them. New-truck prices aren’t listed because MSRPs change by trim and year.</p>
+</div>
+{% endblock %}

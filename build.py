@@ -1062,10 +1062,60 @@ def main():
                jsonld=[{'@context': 'https://schema.org', '@type': 'ItemList', 'name': b['title'], 'url': SITE_URL + f'best/{b["slug"]}/', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': q['name'], 'url': SITE_URL + q['href'].replace('../', '').replace('.html', '/')} for i, q in enumerate(picks)]}]
                       + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_PLAIN(f['a'])}} for f in b['faqs']]}] if b.get('faqs') else []),
                title=f'{b["title"]} — BoxyTrucks', description=b.get('description', ''), credits='')
+    # ---------- Boxy SUVs hub: every generation, grouped new / used / classic ----------
+    _axles = json.loads((DATA / 'quiz_axles.json').read_text()) if (DATA / 'quiz_axles.json').exists() else {}
+    _bx = {'new': [], 'used': [], 'classic': []}
+    _checked = 'October 2026'
+    for _fs in FAMILY_ORDER:
+        if _fs not in fams: continue
+        _fam = fams[_fs]
+        for _g in _fam['generations']:
+            _p = pages[_fs].get(_g['slug'])
+            if not _p: continue
+            _x = _p.get('x') or {}
+            _rng = (_x.get('values') or {}).get('ranges') or []
+            _price = next((r['range'] for r in _rng if 'driver' in r.get('cond', '').lower()), _rng[1]['range'] if len(_rng) > 1 else '')
+            _yrs = str(_g.get('years', ''))
+            _ys = [int(v) for v in re.findall(r'(?<!\d)(19\d\d|20\d\d)(?!\d)', _yrs)]
+            _end = 9999 if re.search(r'present|announced|revealed', _yrs, re.I) else (max(_ys) if _ys else 0)
+            if re.search(r'announced|revealed', _yrs, re.I):
+                continue
+            _grp = 'new' if _end == 9999 else ('classic' if _end and _end < 1990 else 'used')
+            _row = {'name': sname(_fs, _g) or mlabel(_fam['maker'], _p.get('title') or _g['name']), 'maker': _fam['maker'], 'years': syears(_yrs) or _yrs,
+                    'price': '' if _grp == 'new' else _price, 'axle': _axles.get(f'{_fs}/{_g["slug"]}', ''), 'href': f'models/{_fs}/{_g["slug"]}.html',
+                    'img': (f'img/{_fs}/{_p["hero_photo"]}' if _p.get('hero_photo') else None),
+                    'years_href': f'models/{_fs}/{_g["slug"]}/years.html' if (SITE / f'models/{_fs}/{_g["slug"]}/years.html').exists() else None,
+                    'prob_href': f'models/{_fs}/{_g["slug"]}/problems.html' if (SITE / f'models/{_fs}/{_g["slug"]}/problems.html').exists() else None,
+                    'start': min(_ys) if _ys else 0}
+            _bx[_grp].append(_row)
+    for _k in _bx:
+        _bx[_k].sort(key=lambda r: (-r['start'], r['name']))
+    _groups = [{'id': 'new', 'title': 'New boxy SUVs you can buy today', 'rows': _bx['new'],
+                'lead': 'Still in production. Some are sold in the US and some are import-only for now; each guide says which.'},
+               {'id': 'used', 'title': 'Used boxy SUVs worth buying', 'rows': _bx['used'],
+                'lead': 'Modern enough to daily, old enough to be bargains (some of them, anyway). Check the years to avoid before you shop.'},
+               {'id': 'classic', 'title': 'Classic boxy 4x4s', 'rows': _bx['classic'],
+                'lead': 'The originals, built before 1990. Buy the best one you can afford; rust and old repairs cost more than the purchase price.'}]
+    _sfa_new = [r['name'] for r in _bx['new'] if r['axle'] == 'sfa']
+    _cheap = sorted([r for r in _bx['used'] if r['price']], key=lambda r: int((re.findall(r'\$(\d+)', r['price']) or ['999'])[0]))[:6]
+    _faqs = []
+    if _sfa_new:
+        _faqs.append({'q': 'Which new boxy SUVs still have a solid front axle?', 'a': 'Of the boxy 4x4s still in production that we cover: ' + ', '.join(_sfa_new) + '. Most new SUVs, boxy or not, use independent front suspension.'})
+    if _cheap:
+        _faqs.append({'q': 'What is the cheapest boxy 4x4 worth buying?', 'a': 'On driver-quality prices from our ' + _checked + ' checks, the most affordable used boxy 4x4s are ' + '; '.join(f"{r['name']} ({r['price']})" for r in _cheap) + '. Check the years to avoid and the problems page for each before you buy.'})
+    _faqs.append({'q': 'What makes an SUV "boxy"?', 'a': 'Upright pillars, flat glass, short overhangs and a square roofline: shapes set by function (headroom, visibility, a roof rack that actually fits) rather than a wind tunnel. Most also share a separate ladder frame and real low-range four-wheel drive.'})
+    _total = sum(len(v) for v in _bx.values())
+    render('boxy_suvs.html', 'best/boxy-suvs.html', '../', groups=_groups, faqs=_faqs, total=_total, checked=_checked, active='best', og_type='article',
+           crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/'), ('Boxy SUVs', 'best/boxy-suvs/')],
+           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'Boxy SUVs: every boxy 4x4 you can buy, new and used', 'url': SITE_URL + 'best/boxy-suvs/'},
+                   {'@context': 'https://schema.org', '@type': 'ItemList', 'name': 'Boxy SUVs', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': r['name'], 'url': SITE_URL + r['href'].replace('.html', '/')} for i, r in enumerate([r for g_ in _groups for r in g_['rows']])]},
+                   {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in _faqs]}],
+           title="Boxy SUVs: Every Boxy 4x4 You Can Buy, New & Used",
+           description=fit_desc(f'Every boxy SUV and 4x4, new and used: {_total} trucks from the Land Cruiser, Defender and G-Wagon to the Bronco, Scout and Jimny, with prices, solid-axle status and years to avoid.'), credits='')
     if buyers:
         render('list_hub.html', 'best/index.html', '../', active='best', crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/')],
                h={'title': 'Buyer’s guides', 'eyebrow': f'{len(buyers)} guides · prices checked October 2026', 'lead': 'Shortlists for the questions buyers actually ask: what to get on a budget, for a first truck, for overlanding, for the rocks, and the classics worth keeping. Every pick links to its full guide.',
-                  'items': [{'href': f'{b["slug"]}.html', 'title': b['title'], 'eyebrow': f'{len(b["picks"])} picks', 'text': (b.get('lead') or [''])[0]} for b in buyers]},
+                  'items': [{'href': 'boxy-suvs.html', 'title': 'Boxy SUVs: every boxy 4x4, new and used', 'eyebrow': 'The full list', 'text': 'Every boxy 4x4 we cover in one table: still on sale, used and classic, with prices, front axle type and the years to avoid.'}] + [{'href': f'{b["slug"]}.html', 'title': b['title'], 'eyebrow': f'{len(b["picks"])} picks', 'text': (b.get('lead') or [''])[0]} for b in buyers]},
                title="Buyer's guides: the best boxy 4x4s by budget and use — BoxyTrucks", description='The best boxy 4x4s under $15k and $30k, for a first truck, overlanding, rock crawling and classics, with prices and best years.', credits='')
     swaps = [jload(f) for f in sorted((DATA / 'swaps').glob('*.json'))] if (DATA / 'swaps').exists() else []
     swaps = [x for x in swaps if x and x.get('sections')]
