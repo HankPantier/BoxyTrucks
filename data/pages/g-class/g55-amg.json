@@ -214,7 +214,7 @@
    ],
    "refs": [
     {
-     "name": "G500 / G55 serpentine belt routing diagram (ClubGWagen forum)",
+     "name": "Owner's manual belt layout diagram, G500 and G55 AMG (ClubGWagen forum)",
      "url": "https://clubgwagen.com/forum/download/file.php?id=86097&mode=view"
     }
    ]
@@ -909,14 +909,14 @@
     ]
    },
    {
-    "item": "Drive belt & tensioner",
-    "spec": "Single poly-V belt with automatic tensioner",
+    "item": "Drive belts & tensioners",
+    "spec": "Two poly-V belts: one drives the supercharger, one the accessories; each has its own automatic tensioner",
     "interval": "Replace now if age unknown",
-    "note": "Spin the idlers and watch the crank pulley for wobble: a separating harmonic balancer takes the belt with it.",
+    "note": "Inspect and replace both belts together, along with both tensioners and the idler pulleys if their age is unknown. Spin each idler and tensioner pulley by hand, and watch the crank pulley for wobble: a separating harmonic balancer takes the belts with it.",
     "parts": [],
     "refs": [
      {
-      "name": "G500 / G55 serpentine belt routing diagram (ClubGWagen forum)",
+      "name": "Owner's manual belt layout diagram, G500 and G55 AMG (ClubGWagen forum)",
       "url": "https://clubgwagen.com/forum/download/file.php?id=86097&mode=view"
      }
     ]
