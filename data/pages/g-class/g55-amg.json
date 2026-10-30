@@ -211,6 +211,12 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-crankshaft-counterhold-tool-cta-7270"
     }
+   ],
+   "refs": [
+    {
+     "name": "G500 / G55 serpentine belt routing diagram (ClubGWagen forum)",
+     "url": "https://clubgwagen.com/forum/download/file.php?id=86097&mode=view"
+    }
    ]
   },
   {
@@ -899,6 +905,19 @@
       "name": "Genuine Mercedes thermostat 113 203 02 75 (G 55 2005–10)",
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/products/mercedes-thermostat-assembly-e55-s55-amg-1132030275"
+     }
+    ]
+   },
+   {
+    "item": "Drive belt & tensioner",
+    "spec": "Single poly-V belt with automatic tensioner",
+    "interval": "Replace now if age unknown",
+    "note": "Spin the idlers and watch the crank pulley for wobble: a separating harmonic balancer takes the belt with it.",
+    "parts": [],
+    "refs": [
+     {
+      "name": "G500 / G55 serpentine belt routing diagram (ClubGWagen forum)",
+      "url": "https://clubgwagen.com/forum/download/file.php?id=86097&mode=view"
      }
     ]
    },

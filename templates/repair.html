@@ -16,6 +16,7 @@
       <ol class="rp-steps">{% for st in steps %}<li><span>{{ st }}</span></li>{% endfor %}</ol>
     </section>
 
+    {% if r.refs %}<section><h2 class="h-section">Reference</h2><ul class="rp-tools">{% for rf in r.refs %}<li><a class="inline-link" href="{{ rf.url }}" target="_blank" rel="noopener">{{ rf.name }} ↗</a></li>{% endfor %}</ul></section>{% endif %}
     {% if r.tools %}<section><h2 class="h-section">Tools &amp; part numbers</h2>
       <ul class="rp-tools">{% for t in r.tools.split('·') if t.strip() %}<li>{{ t.strip() }}</li>{% endfor %}</ul>
     </section>{% endif %}
