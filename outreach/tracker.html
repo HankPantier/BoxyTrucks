@@ -1,0 +1,217 @@
+<title>BoxyTrucks Sponsor Outreach</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one working column; a status summary strip, a filter bar, then one card per shop that expands into contact + pitch + log. */
+:root {
+  --bg: #ECE8DF; --card: #F7F4EE; --ink: #141513; --body: #2E2F2B; --muted: #5C5A52;
+  --line: #CFC8B8; --brass: #8A6D2E; --brass-soft: #E4D9C0; --green: #22302A; --on-green: #F7F4EE;
+  --sent: #2F5D8A; --replied: #8A6D2E; --talking: #6B4E9B; --signed: #2E6B3F; --no: #8A3B2E;
+  --sans: 'Inter Tight', system-ui, sans-serif; --serif: 'Newsreader', Georgia, serif; --mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121311; --card: #1B1C19; --ink: #EFEBE2; --body: #D9D3C6; --muted: #A8A397; --line: #34352F;
+  --brass: #C9A86A; --brass-soft: #3A3222; --green: #2C3E35; --on-green: #EFEBE2;
+  --sent: #7FA9D6; --replied: #C9A86A; --talking: #B49BE0; --signed: #7CC28F; --no: #E08A78; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121311; --card: #1B1C19; --ink: #EFEBE2; --body: #D9D3C6; --muted: #A8A397; --line: #34352F;
+  --brass: #C9A86A; --brass-soft: #3A3222; --green: #2C3E35; --on-green: #EFEBE2;
+  --sent: #7FA9D6; --replied: #C9A86A; --talking: #B49BE0; --signed: #7CC28F; --no: #E08A78; color-scheme: dark }
+body { background: var(--bg); color: var(--body); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: flex; flex-direction: column; gap: 24px; }
+header { display: flex; flex-direction: column; gap: 6px; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--brass); }
+h1 { margin: 0; font-size: clamp(28px, 4vw, 40px); line-height: 1.05; letter-spacing: -.02em; color: var(--ink); font-weight: 600; text-wrap: balance; }
+.lede { margin: 0; font-family: var(--serif); font-size: 18px; line-height: 1.5; max-width: 68ch; color: var(--body); }
+.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0; border: 1px solid var(--line); background: var(--card); }
+.strip button { all: unset; cursor: pointer; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; border-right: 1px solid var(--line); }
+.strip button:last-child { border-right: 0; }
+.strip button:focus-visible { outline: 2px solid var(--brass); outline-offset: -2px; }
+.strip button[aria-pressed="true"] { background: var(--brass-soft); }
+.strip b { font-size: 26px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 600; }
+.strip span { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.bar input, .bar select { font: inherit; font-size: 14px; color: var(--ink); background: var(--card); border: 1px solid var(--line); padding: 8px 10px; min-width: 0; }
+.bar input { flex: 1 1 220px; }
+.bar label { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
+.list { display: flex; flex-direction: column; gap: 10px; }
+.shop { background: var(--card); border: 1px solid var(--line); }
+.shop > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 14px 16px; align-items: start; }
+.shop > summary::-webkit-details-marker { display: none; }
+.shop > summary:focus-visible { outline: 2px solid var(--brass); outline-offset: -2px; }
+.shop[open] > summary { border-bottom: 1px solid var(--line); }
+.nm { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; min-width: 0; }
+.nm strong { font-size: 17px; color: var(--ink); font-weight: 600; }
+.nm .dom { font-family: var(--mono); font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.meta { grid-column: 1; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.meta .reach { color: var(--ink); font-variant-numeric: tabular-nums; }
+.pill { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; padding: 4px 8px; border: 1px solid currentColor; white-space: nowrap; color: var(--muted); }
+.pill.Sent { color: var(--sent); } .pill.Replied { color: var(--replied); } .pill.Talking { color: var(--talking); } .pill.Signed { color: var(--signed); background: color-mix(in srgb, var(--signed) 12%, transparent); } .pill.No { color: var(--no); }
+.tier { font-family: var(--mono); font-size: 11px; padding: 1px 6px; border: 1px solid var(--line); color: var(--muted); }
+.tier.A { color: var(--brass); border-color: var(--brass); }
+.body { padding: 16px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 760px) { .body { grid-template-columns: 1fr; } }
+.col { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.h { font-family: var(--mono); font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+dl { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 12px; font-size: 14px; }
+dt { color: var(--muted); }
+dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; }
+a { color: var(--brass); }
+.copy { all: unset; cursor: pointer; font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); border-bottom: 1px solid currentColor; }
+.copy:focus-visible { outline: 2px solid var(--brass); }
+.note { font-size: 13px; color: var(--muted); margin: 0; }
+.pitch { background: var(--bg); border: 1px solid var(--line); padding: 12px; font-family: var(--serif); font-size: 15px; line-height: 1.5; white-space: pre-wrap; color: var(--body); max-height: 260px; overflow: auto; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row select, .row input, textarea { font: inherit; font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: 7px 9px; min-width: 0; }
+textarea { width: 100%; min-height: 70px; resize: vertical; }
+.btn { all: unset; cursor: pointer; background: var(--green); color: var(--on-green); padding: 8px 14px; font-size: 13px; font-weight: 500; }
+.btn:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+.saved { font-size: 12px; color: var(--signed); min-height: 1em; }
+.empty { padding: 32px; text-align: center; border: 1px dashed var(--line); color: var(--muted); font-family: var(--serif); font-size: 17px; }
+.banner { padding: 10px 14px; border-left: 3px solid var(--brass); background: var(--card); font-size: 14px; }
+@media (prefers-reduced-motion: no-preference) { .shop { transition: border-color .15s; } .shop:hover { border-color: var(--brass); } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">BoxyTrucks · Partner program</span>
+    <h1>Sponsor outreach</h1>
+    <p class="lede">Every shop the site already sends readers to, ranked by how many of our pages link to them. Open a shop, copy the pitch, send it, then mark it sent. Changes save for everyone on this page.</p>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+  <div class="strip" id="strip" role="group" aria-label="Filter by status"></div>
+
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search shop, truck, person…" aria-label="Search shops">
+    <select id="fam" aria-label="Filter by truck family"><option value="">All trucks</option></select>
+    <label><input id="hasEmail" type="checkbox"> Has email</label>
+    <select id="sort" aria-label="Sort"><option value="pages">Most pages linking</option><option value="name">Name A–Z</option><option value="sent">Recently sent</option></select>
+  </div>
+
+  <div class="list" id="list"><div class="empty">Loading the shop list…</div></div>
+</div>
+
+<script>
+(function(){
+  var STATUSES = ['To pitch','Sent','Replied','Talking','Signed','No'];
+  var FAM = {'4runner':'4Runner','bronco':'Bronco','chevrolet':'Chevy K5/Suburban','delica':'Delica','g-class':'G-Class','grenadier':'Grenadier','hummer':'Hummer','jeep':'Jeep','land-cruiser':'Land Cruiser','land-rover':'Land Rover','lexus':'Lexus','nissan-patrol':'Patrol','niva':'Niva','pajero':'Pajero','pinzgauer':'Pinzgauer','ramcharger':'Ramcharger','range-rover':'Range Rover','scout':'Scout','suzuki':'Jimny/Suzuki','trooper':'Trooper','unimog':'Unimog'};
+  var rows = [], filterStatus = '', db = null, readOnly = false;
+  var $ = function(id){ return document.getElementById(id); };
+  var esc = function(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };
+  var famName = function(f){ return FAM[f] || f; };
+  var fams = function(r){ return (r.families || []).map(famName); };
+
+  function pitch(r){
+    var who = r.person ? r.person.split(/[,(]/)[0].trim().split(' ')[0] : 'there';
+    var fl = fams(r); var trucks = fl.length > 2 ? fl.slice(0,2).join(' and ') + ' and more' : fl.join(' and ');
+    var subj = "You're already on " + r.pages + " BoxyTrucks pages";
+    var lines = [
+      'Subject: ' + subj, '',
+      'Hi ' + who + ',', '',
+      "I run BoxyTrucks.com, a free, sourced guide to boxy 4x4s: best years to buy, 804 DIY repair guides, specs and tire fitment. I've owned two LJs, a 60 and an 80 Series, an FJ Cruiser, four 4Runners and a 2007 G500, so it's written by an owner, for owners.", '',
+      (r.opener || ((r.company || r.domain) + ' is already the parts link on ' + r.pages + ' of our pages' + (r.repair_pages ? ', including ' + r.repair_pages + ' repair guides' : '') + ', because it’s where owners tell us to buy.')) + ' We send that traffic for free and will keep doing so either way.', '',
+      "I'm opening a handful of sponsor spots: a “Recommended specialist” card on every " + (trucks || 'relevant') + ' guide and repair page, one shop per family, plus a monthly newsletter feature and a click report. It’s $250 a month, and the first three partners get 25% off for a year. Details: boxytrucks.com/partner/', '',
+      'Worth a 15-minute call?', '',
+      'Hank Pantier', 'BoxyTrucks.com · boxytrucks@gmail.com'
+    ];
+    return lines.join('\n');
+  }
+
+  function copy(text, el){
+    var done = function(){ var o = el.textContent; el.textContent = 'Copied'; setTimeout(function(){ el.textContent = o; }, 1400); };
+    try { navigator.clipboard.writeText(text).then(done, function(){ select(el); }); } catch(e){ select(el); }
+  }
+  function select(el){ var t = el.closest('.col').querySelector('.pitch'); if (!t) return; var r = document.createRange(); r.selectNodeContents(t); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+
+  function strip(){
+    var counts = {}; STATUSES.forEach(function(s){ counts[s] = 0; });
+    rows.forEach(function(r){ counts[r.status || 'To pitch'] = (counts[r.status || 'To pitch'] || 0) + 1; });
+    var h = '<button type="button" data-s="" aria-pressed="' + (filterStatus === '') + '"><b>' + rows.length + '</b><span>All shops</span></button>';
+    STATUSES.forEach(function(s){ h += '<button type="button" data-s="' + s + '" aria-pressed="' + (filterStatus === s) + '"><b>' + counts[s] + '</b><span>' + s + '</span></button>'; });
+    $('strip').innerHTML = h;
+  }
+
+  function render(){
+    strip();
+    var q = $('q').value.trim().toLowerCase(), f = $('fam').value, he = $('hasEmail').checked, so = $('sort').value;
+    var list = rows.filter(function(r){
+      if (filterStatus && (r.status || 'To pitch') !== filterStatus) return false;
+      if (f && (r.families || []).indexOf(f) < 0) return false;
+      if (he && !r.email) return false;
+      if (q) { var hay = [r.company, r.domain, r.person, r.what, r.notes, fams(r).join(' ')].join(' ').toLowerCase(); if (hay.indexOf(q) < 0) return false; }
+      return true;
+    });
+    list.sort(function(a, b){
+      if (so === 'name') return String(a.company || a.domain).localeCompare(String(b.company || b.domain));
+      if (so === 'sent') return String(b.sent || '').localeCompare(String(a.sent || ''));
+      return (b.pages || 0) - (a.pages || 0);
+    });
+    if (!list.length) { $('list').innerHTML = '<div class="empty">' + (rows.length ? 'No shops match these filters.' : 'No shops yet. Claude will load the list here.') + '</div>'; return; }
+    var open = {}; document.querySelectorAll('.shop[open]').forEach(function(d){ open[d.dataset.id] = 1; });
+    $('list').innerHTML = list.map(function(r){
+      var st = r.status || 'To pitch';
+      var contact = '';
+      if (r.email) contact += '<dt>Email</dt><dd><span class="em">' + esc(r.email) + '</span> <button class="copy" type="button" data-copy="' + esc(r.email) + '">Copy</button></dd>';
+      if (r.person) contact += '<dt>Person</dt><dd>' + esc(r.person) + '</dd>';
+      if (r.contact_form) contact += '<dt>Form</dt><dd><a href="' + esc(r.contact_form) + '" target="_blank" rel="noopener">Contact page ↗</a></dd>';
+      if (r.instagram) contact += '<dt>Instagram</dt><dd><a href="https://www.instagram.com/' + esc(String(r.instagram).replace(/^@/, '')) + '/" target="_blank" rel="noopener">@' + esc(String(r.instagram).replace(/^@/, '')) + ' ↗</a></dd>';
+      if (r.affiliate_program) contact += '<dt>Affiliate</dt><dd>' + esc(r.affiliate_program) + '</dd>';
+      if (r.location) contact += '<dt>Based</dt><dd>' + esc(r.location) + (r.ships_us === false ? ' · may not ship to US' : '') + '</dd>';
+      if (!contact) contact = '<dt>Contact</dt><dd>None found yet</dd>';
+      var opts = STATUSES.map(function(s){ return '<option' + (s === st ? ' selected' : '') + '>' + s + '</option>'; }).join('');
+      return '<details class="shop" data-id="' + esc(r.id) + '"' + (open[r.id] ? ' open' : '') + '><summary>' +
+        '<div class="nm"><span class="tier ' + esc(r.tier) + '">' + esc(r.tier || '') + '</span><strong>' + esc(r.company || r.domain) + '</strong><span class="dom">' + esc(r.domain) + '</span></div>' +
+        '<div class="meta"><span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span><span>' + esc(fams(r).join(', ')) + '</span>' + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
+        '<span class="pill ' + st.replace(' ', '') + '">' + esc(st) + '</span></summary>' +
+        '<div class="body"><div class="col"><span class="h">Who to contact</span><dl>' + contact + '</dl>' +
+        (r.what ? '<p class="note"><b>What they do:</b> ' + esc(r.what) + '</p>' : '') +
+        (r.notes ? '<p class="note"><b>Research notes:</b> ' + esc(r.notes) + '</p>' : '') +
+        '<span class="h">Log</span><div class="row"><select data-f="status" aria-label="Status">' + opts + '</select><input data-f="sent" type="date" value="' + esc(r.sent || '') + '" aria-label="Date sent"' + '></div>' +
+        '<textarea data-f="log" placeholder="Replies, follow-ups, what they said…" aria-label="Notes">' + esc(r.log || '') + '</textarea>' +
+        '<div class="row"><button class="btn" type="button" data-save>Save</button><span class="saved" aria-live="polite"></span></div></div>' +
+        '<div class="col"><span class="h">Pitch <button class="copy" type="button" data-pitch>Copy email</button></span><div class="pitch">' + esc(pitch(r)) + '</div>' +
+        '<p class="note">For a contact form or Instagram DM, paste everything after the subject line.</p></div></div></details>';
+    }).join('');
+    if (readOnly) document.querySelectorAll('[data-f],[data-save]').forEach(function(e){ e.disabled = true; });
+  }
+
+  $('strip').addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; filterStatus = b.dataset.s; render(); });
+  ['q','fam','hasEmail','sort'].forEach(function(id){ $(id).addEventListener(id === 'q' ? 'input' : 'change', render); });
+  $('list').addEventListener('click', function(e){
+    var c = e.target.closest('[data-copy]'); if (c) { e.preventDefault(); copy(c.dataset.copy, c); return; }
+    var p = e.target.closest('[data-pitch]'); if (p) { e.preventDefault(); var r = rows.find(function(x){ return x.id === p.closest('.shop').dataset.id; }); copy(pitch(r), p); return; }
+    var s = e.target.closest('[data-save]'); if (s) save(s.closest('.shop'));
+  });
+  $('list').addEventListener('change', function(e){ if (e.target.dataset.f === 'status' || e.target.dataset.f === 'sent') save(e.target.closest('.shop')); });
+
+  var saving = {};
+  function save(card){
+    if (!db || readOnly) return;
+    var id = card.dataset.id, msg = card.querySelector('.saved');
+    var st = card.querySelector('[data-f=status]').value, sent = card.querySelector('[data-f=sent]').value, log = card.querySelector('[data-f=log]').value;
+    if (st === 'Sent' && !sent) { sent = new Date().toISOString().slice(0, 10); card.querySelector('[data-f=sent]').value = sent; }
+    if (saving[id]) return; saving[id] = 1;
+    db.doc('shops/' + id).update({ status: st, sent: sent, log: log }).then(function(){ msg.textContent = 'Saved'; setTimeout(function(){ msg.textContent = ''; }, 1600); }, function(err){
+      msg.textContent = err && err.code === 'invalid_argument' ? 'You can view this tracker but not edit it.' : 'Couldn’t save. Try again.';
+      if (err && err.code === 'invalid_argument') readOnly = true;
+    }).then(function(){ saving[id] = 0; });
+  }
+
+  Object.keys(FAM).forEach(function(k){ var o = document.createElement('option'); o.value = k; o.textContent = FAM[k]; $('fam').appendChild(o); });
+
+  if (window.claude && claude.use) {
+    claude.use('db').then(function(d){
+      if (!d) { $('list').innerHTML = '<div class="empty">Open this page in Claude while signed in to see the shop list.</div>'; return; }
+      db = d;
+      db.collection('shops').onSnapshot(function(snap){
+        rows = snap.docs.map(function(doc){ var x = Object.assign({}, doc.data()); x.id = doc.id; return x; });
+        render();
+      }, function(){ $('banner').hidden = false; $('banner').textContent = 'The shop list stopped updating. Reload the page.'; });
+    });
+  } else {
+    $('list').innerHTML = '<div class="empty">Open this page in Claude while signed in to see the shop list.</div>';
+  }
+})();
+</script>

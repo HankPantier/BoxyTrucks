@@ -211,7 +211,7 @@
   "instagram": null,
   "person": null,
   "affiliate_program": null,
-  "notes": "Run by Auto Parts Prime, Inc., an OEM parts e-commerce operator with sister brand sites (e.g. ToyotaPartsDeal-type stores); a corporate e-commerce shop rather than enthusiast business, so pitch on traffic/clicks. 'Email Us' is a form/link, no address shown. Phone 1-888-352-5786."
+  "notes": "Run by Auto Parts Prime, Inc. (an OEM parts e-commerce company), so a corporate e-commerce shop rather than an enthusiast business; pitch on traffic/clicks. 'Email Us' is a form/link, no address shown. Phone 1-888-352-5786."
  },
  {
   "domain": "dissentoffroad.com",
@@ -295,5 +295,268 @@
   "person": "John Willenborg (founder)",
   "affiliate_program": null,
   "notes": "Founded by John Willenborg; ~87 employees, designs and manufactures in USA; has partner dealer/installer network. Strong Grenadier aftermarket brand with polished marketing, likely receptive to a Grenadier placement."
+ },
+ {
+  "domain": "millsupply.com",
+  "pages": 7,
+  "repair_pages": 3,
+  "families": [
+   "chevrolet",
+   "ramcharger"
+  ],
+  "status": "",
+  "company": "Mill Supply, Inc.",
+  "what": "Rust repair panels, stepvan, snow plow and medium-duty truck parts",
+  "location": "USA, Ohio (Cleveland area / Warrensville Heights)",
+  "ships_us": true,
+  "email": "info@millsupply.com",
+  "email_source": "https://www.millsupply.com/",
+  "contact_form": "https://www.millsupply.com/contact-us.php",
+  "instagram": "@millsupplyinc",
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Family-owned since 1944 (founder Milbert Moritz), three generations of owners. BoxyTrucks links are likely rust repair panels for Chevy/Ramcharger. Phone 800-888-5072."
+ },
+ {
+  "domain": "delica.ca",
+  "pages": 6,
+  "repair_pages": 1,
+  "families": [
+   "delica"
+  ],
+  "status": "",
+  "company": "Delica Canada (Mitsubishi Van Club)",
+  "what": "Owners' forum/club for Mitsubishi Delica, with trader and decal orders",
+  "location": "Canada",
+  "ships_us": null,
+  "email": null,
+  "email_source": null,
+  "contact_form": "https://delica.ca/forum/memberlist.php?mode=contactadmin",
+  "instagram": null,
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Not a shop: a phpBB enthusiast forum. Only contact is the 'contact admin' form. Poor fit for a paid placement; maybe a link-swap/community partnership instead."
+ },
+ {
+  "domain": "lokka.com",
+  "pages": 5,
+  "repair_pages": 1,
+  "families": [
+   "delica"
+  ],
+  "status": "",
+  "company": "LOKKA (sold by Gear to Goannawhere)",
+  "what": "Automatic locking differentials (LOKKA lockers) for many 4x4s",
+  "location": "Likely Australia (seller 'Gear to Goannawhere'; not confirmed on site)",
+  "ships_us": true,
+  "email": null,
+  "email_source": null,
+  "contact_form": "https://lokka.com/contact-us/",
+  "instagram": null,
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Site priced in USD with international shipping country list incl. United States and an International Warranty page. Detailed contact form only, no email. Small seller; low pages count."
+ },
+ {
+  "domain": "froggatts.co.uk",
+  "pages": 5,
+  "repair_pages": 2,
+  "families": [
+   "land-rover"
+  ],
+  "status": "",
+  "company": "Froggatts (Froggatts Range Rover Sales Ltd)",
+  "what": "Range Rover / Land Rover parts specialist",
+  "location": "UK, England (Bosley, Macclesfield, Cheshire)",
+  "ships_us": null,
+  "email": null,
+  "email_source": null,
+  "contact_form": null,
+  "instagram": null,
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Site blocked (HTTP 429 rate-limit); search turned up no email. Companies House: Froggatts Range Rover Sales Limited, active, incorporated 2001, registered at Masons Garage, Bosley, Macclesfield SK11 0PN (assumed to be the same business). UK-based, so US value of placement is uncertain."
+ },
+ {
+  "domain": "northridge4x4.com",
+  "pages": 5,
+  "repair_pages": 0,
+  "families": [
+   "jeep"
+  ],
+  "status": "",
+  "company": "Northridge4x4",
+  "what": "Jeep parts, accessories, builds and installation",
+  "location": "USA, Washington (Silverdale)",
+  "ships_us": true,
+  "email": null,
+  "email_source": null,
+  "contact_form": "https://www.northridge4x4.com/contact-us",
+  "instagram": "@northridgenation",
+  "person": "David Johnson (founder); brother Kyle and father Brian also involved",
+  "affiliate_program": null,
+  "notes": "Family business started by David Johnson building TJ bumpers. Has a dedicated Marketing team (per Meet the Team page, names load via JS) and a 'Become a Vendor Partner' page. Contact form has a Topic field. Phone (360) 340-0282."
+ },
+ {
+  "domain": "icon4x4.com",
+  "pages": 4,
+  "repair_pages": 0,
+  "families": [
+   "bronco",
+   "land-cruiser"
+  ],
+  "status": "",
+  "company": "ICON 4x4 (ICON)",
+  "what": "Hand-built restomod FJ40 Land Cruisers, Broncos and Derelicts",
+  "location": "USA, California (Los Angeles)",
+  "ships_us": true,
+  "email": "dweikel@ibpmedia.com",
+  "email_source": "https://icon4x4.com/aboutus/press",
+  "contact_form": "https://www.icon4x4.com/contactus",
+  "instagram": "@icon4x4",
+  "person": "Jonathan Ward (CEO), jw@icon4x4.com; PR contact Dan Weikel (IBP Media)",
+  "affiliate_program": null,
+  "notes": "Builder of $150k-$250k restomods, not a parts shop; famous brand, go through PR agency (IBP Media) listed on press page. Press-page contacts may be dated. Placement fit is weak; brand-awareness angle only."
+ },
+ {
+  "domain": "toyteclifts.com",
+  "pages": 4,
+  "repair_pages": 0,
+  "families": [
+   "land-cruiser",
+   "lexus"
+  ],
+  "status": "",
+  "company": "Toytec Lifts",
+  "what": "Toyota/Lexus lift kits and suspension",
+  "location": "USA, Colorado (Denver)",
+  "ships_us": true,
+  "email": "sales@toyteclifts.com",
+  "email_source": "https://toyteclifts.com/contact",
+  "contact_form": "https://toyteclifts.com/contact",
+  "instagram": "@toyteclifts",
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Contact form has a 'Dealer Inquiry' reason option. Only sales@ inbox found. Phone 866-254-0076."
+ },
+ {
+  "domain": "prinsu.com",
+  "pages": 4,
+  "repair_pages": 0,
+  "families": [
+   "lexus"
+  ],
+  "status": "",
+  "company": "Prinsu Designs",
+  "what": "Low-profile modular roof racks",
+  "location": null,
+  "ships_us": true,
+  "email": null,
+  "email_source": null,
+  "contact_form": null,
+  "instagram": null,
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Site blocked (403). One search found only reseller listings, no contact. Sold widely through dealers (SDHQ, Vivid Racing, etc.)."
+ },
+ {
+  "domain": "revolutiongear.com",
+  "pages": 3,
+  "repair_pages": 0,
+  "families": [
+   "land-cruiser"
+  ],
+  "status": "",
+  "company": "Revolution Gear & Axle",
+  "what": "Ring and pinion gears, lockers, axles and drivetrain parts",
+  "location": "USA, Illinois (South Elgin) and California (Santa Fe Springs)",
+  "ships_us": true,
+  "email": "contactus@revolutiongear.com",
+  "email_source": "https://revolutiongear.com/about-us/",
+  "contact_form": "https://revolutiongear.com/contact-us/",
+  "instagram": "@revolution_gear_and_axle",
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Second-generation family and veteran owned; product history back to 1984, Revolution brand since 2012; 'no holding company and no parent brand'. Phone 844-213-4327."
+ },
+ {
+  "domain": "roughcountry.com",
+  "pages": 3,
+  "repair_pages": 0,
+  "families": [
+   "jeep"
+  ],
+  "status": "",
+  "company": "Rough Country",
+  "what": "Budget lift kits, suspension and off-road accessories",
+  "location": "USA, Tennessee (Dyersburg)",
+  "ships_us": true,
+  "email": null,
+  "email_source": null,
+  "contact_form": "https://www.roughcountry.com/contact-us",
+  "instagram": null,
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Site blocked to direct fetch (403); contact page shows form only. Large brand, private-equity backed (TSG Consumer portfolio per search result); go through marketing dept/agency. Location from general knowledge, not confirmed on site."
+ },
+ {
+  "domain": "sherpaec.com",
+  "pages": 3,
+  "repair_pages": 0,
+  "families": [
+   "lexus"
+  ],
+  "status": "",
+  "company": "Sherpa Equipment Company",
+  "what": "Roof racks and accessories for Toyota, Lexus, Jeep, Ford, Subaru",
+  "location": "USA, Colorado (Front Range)",
+  "ships_us": true,
+  "email": "info@sherpaec.com",
+  "email_source": "https://sherpaec.com/pages/contact-us",
+  "contact_form": "https://sherpaec.com/pages/contact-us",
+  "instagram": "@sherpaec",
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Founded by 'a couple of adventure seeking, Toyota loving videographers' - content-savvy founders, likely receptive. Has dealer locator and motorsports section. Phone 970-660-8134."
+ },
+ {
+  "domain": "farfromstockstore.com",
+  "pages": 3,
+  "repair_pages": 1,
+  "families": [
+   "ramcharger"
+  ],
+  "status": "",
+  "company": "Far From Stock",
+  "what": "Truck parts store and build shop (Dodge Ramcharger focus)",
+  "location": "USA, Ohio (Junction City)",
+  "ships_us": true,
+  "email": "Brandon@farfromstock.com",
+  "email_source": "https://farfromstockstore.com/",
+  "contact_form": "https://farfromstockstore.com/pages/contact",
+  "instagram": "@FarFromStockStore",
+  "person": "Brandon (owner/main contact; surname not stated)",
+  "affiliate_program": null,
+  "notes": "Small Shopify store run by Far From Stock LLC; also lists Brandon.farfromstock@gmail.com on its contact-information policy page. Runs giveaways ('extra entries'), active on YouTube/TikTok. Phone (740) 939-0073."
+ },
+ {
+  "domain": "209yota1.com",
+  "pages": 3,
+  "repair_pages": 1,
+  "families": [
+   "4runner"
+  ],
+  "status": "",
+  "company": "Yota1 Performance, Inc.",
+  "what": "Toyota engine rebuilding, machine shop and Toyota parts",
+  "location": "USA, California (Riverbank, Modesto area)",
+  "ships_us": true,
+  "email": "info@209yota1.com",
+  "email_source": "https://209yota1.com/contact/",
+  "contact_form": "https://209yota1.com/contact/",
+  "instagram": "@yota1performance",
+  "person": null,
+  "affiliate_program": null,
+  "notes": "Started in a garage; engine builds have ~9-month lead time (demand already high, so ad appetite may be low). Cal4Wheel member, supports local 4WD communities. Phone (209) 869-6821."
  }
 ]
