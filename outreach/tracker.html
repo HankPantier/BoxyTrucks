@@ -1,4 +1,4 @@
-<title>BoxyTrucks Sponsor Outreach</title>
+<title>BoxyTrucks Outreach Tracker</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -76,15 +76,15 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
 <div class="wrap">
   <header>
     <span class="eyebrow">BoxyTrucks · Partner program</span>
-    <h1>Sponsor outreach</h1>
-    <p class="lede">Every shop the site already sends readers to, ranked by how many of our pages link to them. Open a shop, copy the pitch, send it, then mark it sent. Changes save for everyone on this page.</p>
+    <h1>Sponsor and link outreach</h1>
+    <p class="lede">Every shop the site already sends readers to, ranked by how many of our pages link to them. Open a shop, copy the pitch, send it, then mark it sent. Link asks (a request to be listed on a club or resource page) sit on their own cards, or under the sponsor pitch where we have both. Changes save for everyone on this page.</p>
   </header>
 
   <div id="banner" class="banner" hidden></div>
   <div class="strip" id="strip" role="group" aria-label="Filter by status"></div>
 
   <div class="bar">
-    <input id="q" type="search" placeholder="Search shop, truck, person…" aria-label="Search shops">
+    <input id="q" type="search" placeholder="Search shop, club, truck, person…" aria-label="Search shops">
     <select id="fam" aria-label="Filter by truck family"><option value="">All trucks</option></select>
     <label><input id="hasEmail" type="checkbox"> Has email</label>
     <select id="sort" aria-label="Sort"><option value="pages">Most pages linking</option><option value="name">Name A–Z</option><option value="sent">Recently sent</option></select>
@@ -124,14 +124,21 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
     var done = function(){ var o = el.textContent; el.textContent = 'Copied'; setTimeout(function(){ el.textContent = o; }, 1400); };
     try { navigator.clipboard.writeText(text).then(done, function(){ select(el); }); } catch(e){ select(el); }
   }
+  function copyIn(text, el){
+    var done = function(){ var o = el.textContent; el.textContent = 'Copied'; setTimeout(function(){ el.textContent = o; }, 1400); };
+    var sel = function(){ var t = el.parentNode.nextElementSibling; while (t && !t.classList.contains('pitch')) t = t.nextElementSibling; if (!t) return; var r = document.createRange(); r.selectNodeContents(t); var s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+    try { navigator.clipboard.writeText(text).then(done, sel); } catch(e){ sel(); }
+  }
   function select(el){ var t = el.closest('.col').querySelector('.pitch'); if (!t) return; var r = document.createRange(); r.selectNodeContents(t); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
 
   function strip(){
     var counts = {}; STATUSES.forEach(function(s){ counts[s] = 0; });
     rows.forEach(function(r){ counts[r.status || 'To pitch'] = (counts[r.status || 'To pitch'] || 0) + 1; });
-    var ready = rows.filter(function(r){ return r.draft && (r.status || 'To pitch') === 'To pitch'; }).length;
+    var ready = rows.filter(function(r){ return (r.draft || r.link_draft) && (r.status || 'To pitch') === 'To pitch'; }).length;
+    var links = rows.filter(function(r){ return r.link_draft && (r.status || 'To pitch') === 'To pitch'; }).length;
     var h = '<button type="button" data-s="" aria-pressed="' + (filterStatus === '') + '"><b>' + rows.length + '</b><span>All shops</span></button>';
     h += '<button type="button" data-s="__ready" aria-pressed="' + (filterStatus === '__ready') + '"><b>' + ready + '</b><span>Ready to send</span></button>';
+    h += '<button type="button" data-s="__links" aria-pressed="' + (filterStatus === '__links') + '"><b>' + links + '</b><span>Link asks</span></button>';
     STATUSES.forEach(function(s){ h += '<button type="button" data-s="' + s + '" aria-pressed="' + (filterStatus === s) + '"><b>' + counts[s] + '</b><span>' + s + '</span></button>'; });
     $('strip').innerHTML = h;
   }
@@ -140,15 +147,17 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
     strip();
     var q = $('q').value.trim().toLowerCase(), f = $('fam').value, he = $('hasEmail').checked, so = $('sort').value;
     var list = rows.filter(function(r){
-      if (filterStatus === '__ready') { if (!(r.draft && (r.status || 'To pitch') === 'To pitch')) return false; }
+      if (filterStatus === '__ready') { if (!((r.draft || r.link_draft) && (r.status || 'To pitch') === 'To pitch')) return false; }
+      else if (filterStatus === '__links') { if (!(r.link_draft && (r.status || 'To pitch') === 'To pitch')) return false; }
       else if (filterStatus && (r.status || 'To pitch') !== filterStatus) return false;
       if (f && (r.families || []).indexOf(f) < 0) return false;
       if (he && !r.email) return false;
-      if (q) { var hay = [r.company, r.domain, r.person, r.what, r.notes, fams(r).join(' ')].join(' ').toLowerCase(); if (hay.indexOf(q) < 0) return false; }
+      if (q) { var hay = [r.company, r.domain, r.person, r.what, r.notes, r.link_notes, fams(r).join(' ')].join(' ').toLowerCase(); if (hay.indexOf(q) < 0) return false; }
       return true;
     });
     list.sort(function(a, b){
-      if (!!b.draft !== !!a.draft && so === 'pages') return b.draft ? 1 : -1;
+      var ad = !!(a.draft || a.link_draft), bd = !!(b.draft || b.link_draft);
+      if (ad !== bd && so === 'pages') return bd ? 1 : -1;
       if (so === 'name') return String(a.company || a.domain).localeCompare(String(b.company || b.domain));
       if (so === 'sent') return String(b.sent || '').localeCompare(String(a.sent || ''));
       return (b.pages || 0) - (a.pages || 0);
@@ -168,7 +177,7 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
       var opts = STATUSES.map(function(s){ return '<option' + (s === st ? ' selected' : '') + '>' + s + '</option>'; }).join('');
       return '<details class="shop" data-id="' + esc(r.id) + '"' + (open[r.id] ? ' open' : '') + '><summary>' +
         '<div class="nm"><span class="tier ' + esc(r.tier) + '">' + esc(r.tier || '') + '</span><strong>' + esc(r.company || r.domain) + '</strong><span class="dom">' + esc(r.domain) + '</span></div>' +
-        '<div class="meta"><span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span><span>' + esc(fams(r).join(', ')) + '</span>' + (r.draft ? '<span class="reach">✎ draft ready</span>' : '') + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
+        '<div class="meta">' + (r.kind === 'link' ? '<span class="reach">Link request</span>' : '<span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span>') + '<span>' + esc(fams(r).join(', ')) + '</span>' + (r.draft ? '<span class="reach">✎ draft ready</span>' : '') + (r.link_draft ? '<span class="reach">🔗 link ask' + (r.likelihood ? ' · ' + esc(r.likelihood) : '') + '</span>' : '') + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
         '<span class="pill ' + st.replace(' ', '') + '">' + esc(st) + '</span></summary>' +
         '<div class="body"><div class="col"><span class="h">Who to contact</span><dl>' + contact + '</dl>' +
         (r.what ? '<p class="note"><b>What they do:</b> ' + esc(r.what) + '</p>' : '') +
@@ -176,7 +185,12 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
         '<span class="h">Log</span><div class="row"><select data-f="status" aria-label="Status">' + opts + '</select><input data-f="sent" type="date" value="' + esc(r.sent || '') + '" aria-label="Date sent"' + '></div>' +
         '<textarea data-f="log" placeholder="Replies, follow-ups, what they said…" aria-label="Notes">' + esc(r.log || '') + '</textarea>' +
         '<div class="row"><button class="btn" type="button" data-save>Save</button><span class="saved" aria-live="polite"></span></div></div>' +
-        '<div class="col"><span class="h">Pitch <button class="copy" type="button" data-pitch>Copy email</button></span><div class="pitch">' + esc(pitch(r)) + '</div>' +
+        '<div class="col">' +
+        (r.kind === 'link' ? '' : '<span class="h">Sponsor pitch <button class="copy" type="button" data-pitch>Copy email</button></span><div class="pitch">' + esc(pitch(r)) + '</div>') +
+        (r.link_draft ? '<span class="h">Link ask <button class="copy" type="button" data-link>Copy email</button></span>' +
+          (r.link_page ? '<p class="note"><b>Page to be listed on:</b> <a href="' + esc(r.link_page) + '" target="_blank" rel="noopener">' + esc(r.link_page.replace(/^https?:\/\//, '')) + ' ↗</a>' + (r.link_target ? '<br><b>Our page:</b> ' + esc(r.link_target.replace(/^https?:\/\//, '')) : '') + '</p>' : '') +
+          (r.link_notes ? '<p class="note"><b>Before sending:</b> ' + esc(r.link_notes) + '</p>' : '') +
+          '<div class="pitch">' + esc(r.link_draft) + '</div>' : '') +
         '<p class="note">For a contact form or Instagram DM, paste everything after the subject line.</p></div></div></details>';
     }).join('');
     if (readOnly) document.querySelectorAll('[data-f],[data-save]').forEach(function(e){ e.disabled = true; });
@@ -186,6 +200,7 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
   ['q','fam','hasEmail','sort'].forEach(function(id){ $(id).addEventListener(id === 'q' ? 'input' : 'change', render); });
   $('list').addEventListener('click', function(e){
     var c = e.target.closest('[data-copy]'); if (c) { e.preventDefault(); copy(c.dataset.copy, c); return; }
+    var lk = e.target.closest('[data-link]'); if (lk) { e.preventDefault(); var rl = rows.find(function(x){ return x.id === lk.closest('.shop').dataset.id; }); copyIn(rl.link_draft, lk); return; }
     var p = e.target.closest('[data-pitch]'); if (p) { e.preventDefault(); var r = rows.find(function(x){ return x.id === p.closest('.shop').dataset.id; }); copy(pitch(r), p); return; }
     var s = e.target.closest('[data-save]'); if (s) save(s.closest('.shop'));
   });
