@@ -18,6 +18,7 @@
 |---|---|---|
 | Oct 29, 2026 | Intro (pinned). "Some people like curves. We like right angles." Covers the free sourced guides, best years, DIY repairs, specs, tire fitment and the which-4x4 quiz. #4x4. Image: `posts/01-biggest-tire-stock.jpg` | https://x.com/boxytrucks/status/2115870691836707309 |
 | Oct 29, 2026 | Cross-post of IG #2, "Which G 500 to buy": 2002–04 gremlins, 2005–08 sweet spot, 7G-Tronic from June 2006, "Mine's a 2007", link to /models/g-class/, "Photo: Bahnfrend, CC BY-SA 3.0". Image: `posts/02-g500-best-years.jpg` | https://x.com/boxytrucks/status/2115871067403059418 |
+| Oct 30, 2026 | Cross-post of IG #3, "80 Series or 100 Series?", link to /compare/80-series-vs-100-series/, photo credits. Image: `posts/03-80-vs-100.jpg` | https://x.com/boxytrucks/status/2116262006017958343 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious
@@ -39,6 +40,9 @@ Skipped:
 - @ScoutMotors: wrong account (73 followers, no posts). The real one is @Scout_Motors.
 - @FordBronco: a personal account. Ford Bronco has no official X account, so follow @Ford.
 - No official Mercedes-Benz G-Class account exists (search shows only fan accounts), so follow @MercedesBenz. @MBUSA did not load.
+
+## Daily posting
+From Oct 30, 2026, X gets a daily post that mirrors that day's Instagram post (Hank asked). Text lives in `x_text` in queue.json; follow `X_POST_PROCEDURE.md`.
 
 ## Notes for future cross-posting
 - Limit: 280 characters. Every link counts as 23 characters whatever its length. X also turns bare domains like "BoxyTrucks.com" into links, so those count as 23 too. Emoji count as 2.
