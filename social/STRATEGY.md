@@ -1,0 +1,62 @@
+# BoxyTrucks social strategy (Instagram + X)
+
+Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop making them the only format. The goal is followers who come to the site, so every post earns a save, a share or a click.
+
+## Why the mix changes
+- Single-image reach on Instagram is falling: down about 22% year over year, with engagement down about 46% (Metricool 2026 study).
+- Carousels get about 9x more saves than single images.
+- Reels get more than 4x the interactions.
+- Reels are ranked mostly on watch time. Sends (shares) matter most for reaching non-followers. 30–60 seconds is the sweet spot.
+
+## Weekly rhythm (7 posts: 3 singles, 2 carousels, 2 Reels)
+| Day | Format | What |
+|---|---|---|
+| Mon | Single image | One sharp buyer's fact: best years, a tire size, a known fault |
+| Tue | Carousel | A list from the site: years by generation, a head-to-head, "5 checks" |
+| Wed | Reel | Motion graphics (`social/reels/make_reel.js`), or Hank's own footage when there is some |
+| Thu | Single image | Community: a reader rig, "send us your story", a question |
+| Fri | Carousel | Comparison or problems list |
+| Sat | Reel | Hank's footage first (G500, 4Runner, lockers, repairs); otherwise motion graphics |
+| Sun | Single image | A great off-road photo plus a question that invites comments |
+
+Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). On X, carousels post as up to 4 images and Reels as the MP4.
+
+## Content pillars
+1. **Buy it right:** best years, years to avoid, what to check. This is the core, and it links to the guides.
+2. **Fix it:** common problems and DIY repairs, ideally from Hank's own trucks.
+3. **Fit it:** tires, lifts and mods.
+4. **The community:** reader rigs and stories, posted with Collab invites, and questions that start comments.
+
+## Rules for every post
+- **First line is a search phrase.** Instagram search reads captions, so use phrasing like "Land Cruiser 80 Series buying guide" or "Defender vs Grenadier vs G-Class".
+- **3–5 specific hashtags**, never a block of 10. Pick from the truck's model tags plus #overland or #4x4.
+- **One call to action.** "Save this", "Which would you buy?" or "Link in bio". The bio link goes to boxytrucks.com/links/, which always lists the latest three posts.
+- **Credit every photo** on the image and in the caption. Use off-road photos only, never wrecks or breakdowns. Licenses: Unsplash, Pexels, public domain, CC0, CC BY, CC BY-SA.
+- **Never use AI-generated images or video of a specific truck model.** Enthusiasts spot the wrong details, and it undercuts "sourced and real". Higgsfield is fine for generic atmosphere (a trail, dunes, weather) used as an intro or transition, and then the AI label must be on.
+- **Facts come from the site's sourced pages.** Hank's first-hand notes are the strongest content we have, so use them when they fit.
+
+## Formats and tools
+- **Single image:** 1080×1350, made as before.
+- **Carousel:** `node social/carousels/make_carousel.js social/carousels/<spec>.json`. Use 5–7 slides: a cover, one slide per item with its own photo, and a closing "save this" slide. In the queue, set `"format": "carousel"` and `"images": [...]`.
+- **Reel:** `node social/reels/make_reel.js social/reels/<spec>.json`. Output is 1080×1920 MP4, 20–30 seconds, about 3.5 seconds per scene. Put the hook in the first frame and the call to action on the last scene. Use `"align": "top"` when the subject sits low in the photo. In the queue, set `"format": "reel"`, `"video"` and `"image"` (the cover).
+- **Hank's video:** he drops phone clips (vertical, under 60 seconds) in a shared folder or attaches them. We add captions and the brand bar, then queue them.
+
+## Engagement (this is what actually grows the account)
+- **Every day, in the follow run:** check the newest 5 posts for comments we haven't answered.
+  - Answer questions with facts from the site and a link to the page.
+  - Thank people briefly and specifically.
+  - Leave anything heated, political or about Hank personally for Hank.
+  - Never argue. Log replies in `social/README.md`.
+- **Hank, 10 minutes a day on his phone:** leave real comments on 5–10 posts from accounts we follow. Shops, clubs and builders matter most. Automated comments on other people's posts read as spam to Instagram and to people, so these stay human.
+- **Collab:** when a post features a reader's rig or a shop, invite them as a collaborator (in the app) so it lands on their feed too.
+- **Stories:** share each post to Stories the same day. This is app-only, so Hank does it on his phone; it takes about 10 seconds.
+- **Pinned posts:** keep the three best performers pinned. Right now that's the G 500 years post, the free checklist post and 80 vs 100. Pinning is app-only.
+- **Follows:** keep about 28 a day from `follow-targets.json` (`FOLLOW_PROCEDURE.md`), and stop if Instagram shows a block.
+
+## Profile (updated Nov 1, 2026)
+- **Name:** "Boxy Trucks | 4x4 Buying Guide". This field is searchable, and Instagram only allows changing it twice in 14 days.
+- **Bio:** "Which year to buy, what breaks, what fits. / Land Cruiser · G-Wagen · Defender · Jeep · Bronco & more. / Free guides below. Tag us to get featured."
+- **Website:** should be https://boxytrucks.com/links/. It's empty right now, and links can only be edited in the app, so Hank has to set it.
+
+## Measuring it (every Monday)
+In Instagram's insights, note each post's reach, saves, shares and profile visits. In GA4, check sessions with source `instagram` (the links page tags its links with `utm_source=instagram`). After four weeks, shift the mix toward whatever earns the most saves and site visits.

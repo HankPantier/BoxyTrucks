@@ -12,4 +12,9 @@ Hank approved this on Oct 28, 2026: follow relevant accounts every day, about 25
    - Never follow accounts whose posts glorify wrecks or crashes.
    - Then follow them using the same steps.
 5. If Chrome doesn't respond twice in a row, stop, save progress and tell Hank.
-6. Commit follow-targets.json (message "Instagram follows <date>: N followed"), push, and message Hank one line with the count.
+6. **Comments:** open the 5 newest @boxytrucks posts and read the comments. For any comment we haven't answered:
+   - **Question:** reply with the answer from the site's guide for that truck, and point them to the page (link in bio).
+   - **Compliment or story:** thank them briefly and specifically.
+   - **Skip and leave for Hank:** anything heated, political, about Hank personally, or asking for a deal or a sale.
+   - Keep replies short and friendly, in Hank's voice, and never argue. Log each reply in `social/README.md` under "Comment replies". Don't comment on other accounts' posts; those comments stay human (Hank).
+7. Commit follow-targets.json (message "Instagram follows <date>: N followed"), push, and message Hank one line with the count.

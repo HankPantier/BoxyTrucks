@@ -1,5 +1,7 @@
 # BoxyTrucks social kit
 
+**Start here:** `STRATEGY.md` (formats, weekly rhythm, rules) · `IG_POST_PROCEDURE.md` · `X_POST_PROCEDURE.md` · `FOLLOW_PROCEDURE.md` · queue in `queue.json` · Reel maker `reels/make_reel.js` · carousel maker `carousels/make_carousel.js`
+
 ## Accounts to create (you, signed in as boxytrucks@gmail.com)
 | Platform | Handle | Status (Oct 27, 2026) |
 |---|---|---|
@@ -44,3 +46,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 - Skipped as fake or wrong handles: frontrunneroutfitters, maxtraxusa, landroverusa, filson (real: filson1897), rumpl, stanley1913, kammokgear, oldmanemu.
 | Oct 28, 2026 | Extra post: "Take a checklist to the test drive", promoting the free inspection checklists (boxytrucks.com/inspection-checklists). Background photo: Darina Rodionova / Unsplash (80 Series), with the 80 Series checklist page | `posts/08-inspection-checklists.jpg` |
 | Oct 29, 2026 | "Which G 500 to buy": W463 years to avoid and buy, the 7G-Tronic changeover, a rust check and Hank's 2007. Photo: Bahnfrend, CC BY-SA 3.0 | `posts/02-g500-best-years.jpg` |
+
+## Comment replies
+| Date | Post | Comment | Reply |
+|---|---|---|---|
