@@ -1,0 +1,87 @@
+{
+ "out": "social/posts/10-80-series-checks.mp4",
+ "url": "boxytrucks.com",
+ "credit": "Photos: Darina Rodionova/Unsplash · Patrick Gruban, CC BY-SA 2.0 · Cruiser-Aust, CC BY-SA 3.0",
+ "scenes": [
+  {
+   "photo": "site/img/land-cruiser/lc80-hillside.jpg",
+   "pos": "55% 50%",
+   "dur": 3.4,
+   "eyebrow": "Land Cruiser 80 Series",
+   "title": "Buying one? Check these 5 things first."
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-algeria-dunes.jpg",
+   "pos": "50% 50%",
+   "dur": 3.6,
+   "eyebrow": "1 · Front knuckles",
+   "title": "Pull the fill plug.",
+   "body": "Runny grease means diff oil is getting in: the inner axle seals have gone.",
+   "align": "top",
+   "origin": "50% 85%",
+   "zoom": [
+    1.45,
+    1.6
+   ]
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-toperi-mud.jpg",
+   "pos": "45% 50%",
+   "dur": 3.6,
+   "eyebrow": "2 · Head gasket",
+   "title": "Look for coolant at the head.",
+   "body": "Weeping at the head-to-block joint. It's on every 80 buyer's list."
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-hillside.jpg",
+   "pos": "30% 70%",
+   "zoom": [
+    1.2,
+    1.32
+   ],
+   "dur": 3.6,
+   "eyebrow": "3 · Rust",
+   "title": "Footwells and rear windows.",
+   "body": "Get underneath. Trucks from salted-road states are the worst."
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-algeria-dunes.jpg",
+   "pos": "60% 50%",
+   "zoom": [
+    1.5,
+    1.65
+   ],
+   "dur": 3.6,
+   "eyebrow": "4 · Frame",
+   "title": "Cracks around the steering box.",
+   "body": "Worse on trucks that have run 33s or bigger.",
+   "align": "top",
+   "origin": "60% 85%"
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-toperi-mud.jpg",
+   "pos": "60% 40%",
+   "zoom": [
+    1.15,
+    1.27
+   ],
+   "dur": 4.0,
+   "eyebrow": "5 · From Hank's 80",
+   "title": "Every window. Every locker.",
+   "body": "Regulators were the biggest problem on mine, and a vacuum leak stopped the lockers engaging."
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-hillside.jpg",
+   "pos": "50% 45%",
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "dur": 4.0,
+   "cta": true,
+   "eyebrow": "All 8 checks, years to avoid",
+   "title": "Plus a printable checklist.",
+   "body": "Free at boxytrucks.com. Link in bio."
+  }
+ ]
+}
