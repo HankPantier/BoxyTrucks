@@ -1191,6 +1191,10 @@ def main():
     (SITE / 'watch' / 'index.html').write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/resources/"><title>Resources — BoxyTrucks</title><a href="/resources/">Resources</a>')
 
     gens_json = json.dumps({s: [{'slug': g['slug'], 'name': g['name'], 'years': g['years']} for g in fams[s]['generations']] for s in fams})
+    _q = json.loads((ROOT / 'social' / 'queue.json').read_text()) if (ROOT / 'social' / 'queue.json').exists() else []
+    _recent = [i for i in sorted(_q, key=lambda i: i.get('posted') or '', reverse=True) if i.get('status') == 'posted' and i.get('link') and (SITE / i['link'] / 'index.html').exists()][:3]
+    render('links.html', 'links/index.html', '../', active='', recent=_recent, hide_newsletter=True, noindex=True,
+           title='BoxyTrucks Links', description='Links from the BoxyTrucks Instagram and X: the latest posts, the which-4x4 quiz, free inspection checklists and the newsletter.', credits='')
     render('submit.html', 'submit/index.html', '../', active='submit', crumbs=[('Show Us Your Rig', 'submit/')], title='Show Us Your Rig — BoxyTrucks', description='Show Us Your Rig: send photos and the story of your boxy 4x4 build for a feature on BoxyTrucks. Off-road shots preferred.', credits='Hasse Lossius via Unsplash', gens_json=gens_json, submit_email=SUBMIT_EMAIL, site_url=SITE_URL)
     render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it: Google Analytics, the submission form, affiliate cookies and GitHub hosting.', credits='', crumbs=[('Privacy', 'about/privacy.html')])
     _ngens = sum(1 for _fs in pages for _gs, _pg in pages[_fs].items() if _pg)

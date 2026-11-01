@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap lk-wrap">
+  <a class="brand lk-brand" href="{{ root }}index.html">{{ mark('#B0915A', 44) }}<span>BOXY TRUCKS</span></a>
+  <p class="serif lk-lede">Buyer’s guides to boxy 4x4s: best years, common problems, repairs and the biggest tire that fits.</p>
+  <div class="lk-list">
+    {% for p in recent %}<a class="lk-btn lk-new" href="{{ root }}{{ p.link }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><span class="eyebrow brass">{% if loop.first %}Latest post{% else %}Recent post{% endif %}</span><strong>{{ p.title }}</strong></a>{% endfor %}
+    <a class="lk-btn" href="{{ root }}which-4x4/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Which 4x4 should I buy? Take the 5-question quiz</strong></a>
+    <a class="lk-btn" href="{{ root }}inspection-checklists/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Free pre-purchase inspection checklists</strong></a>
+    <a class="lk-btn" href="{{ root }}garage/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links#best-years"><strong>Best years to buy, every truck</strong></a>
+    <a class="lk-btn" href="{{ root }}best/boxy-suvs/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Every boxy 4x4 you can buy, new and used</strong></a>
+    <a class="lk-btn" href="{{ root }}submit/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Show us your rig: get featured</strong></a>
+  </div>
+  <form class="nl-form lk-nl" action="{{ newsletter.action }}" method="post" data-nl>
+    <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
+    <label for="lk-email" class="sr-only">Email address</label>
+    <input id="lk-email" type="email" name="{{ newsletter.field or 'email' }}" required placeholder="Email for the monthly Boxy Dispatch" autocomplete="email">
+    <button class="btn light" type="submit">Subscribe</button>
+  </form>
+</div></section>
+{% endblock %}

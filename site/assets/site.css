@@ -882,3 +882,11 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .ins-opt p{margin:0;font-family:var(--serif,Georgia,serif);font-size:16px;line-height:1.55}
 .ins-fam{display:flex;flex-direction:column;gap:6px;padding:12px 0;border-top:1px solid var(--line,#CFC8B8)}
 .ins-fam ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.lk-wrap{max-width:560px;padding-top:48px;padding-bottom:64px;display:flex;flex-direction:column;gap:22px;align-items:stretch}
+.lk-brand{align-self:center}
+.lk-lede{margin:0;text-align:center;font-size:18px;line-height:27px;color:var(--on-dark,#D9D4C8)}
+.lk-list{display:flex;flex-direction:column;gap:10px}
+.lk-btn{display:flex;flex-direction:column;gap:4px;padding:16px 18px;border:1px solid rgba(201,168,106,.55);color:#F7F4EE;text-decoration:none;font-size:16px;line-height:1.3}
+.lk-btn:hover{border-color:#C9A86A;background:rgba(201,168,106,.08)}
+.lk-btn.lk-new{border-color:#C9A86A}
+.lk-nl{margin-top:6px}
