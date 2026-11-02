@@ -20,6 +20,7 @@
 | Oct 29, 2026 | Cross-post of IG #2, "Which G 500 to buy": 2002–04 gremlins, 2005–08 sweet spot, 7G-Tronic from June 2006, "Mine's a 2007", link to /models/g-class/, "Photo: Bahnfrend, CC BY-SA 3.0". Image: `posts/02-g500-best-years.jpg` | https://x.com/boxytrucks/status/2115871067403059418 |
 | Oct 30, 2026 | Cross-post of IG #3, "80 Series or 100 Series?", link to /compare/80-series-vs-100-series/, photo credits. Image: `posts/03-80-vs-100.jpg` | https://x.com/boxytrucks/status/2116262006017958343 |
 | Nov 1, 2026 | Cross-post of IG #4, "Wrangler or Bronco?" (Oct 31 slot, a day late), link to /compare/wrangler-jl-vs-bronco/. Image: `posts/04-jl-vs-bronco.jpg` | https://x.com/boxytrucks/status/2116880961019531686 |
+| Nov 1, 2026 | Cross-post of IG #5, "Show us your rig", link to /submit/. Image: `posts/05-show-us-your-rig.jpg` | https://x.com/boxytrucks/status/2117088728510238844 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious
@@ -52,3 +53,4 @@ From Oct 30, 2026, X gets a daily post that mirrors that day's Instagram post (H
 - Composer tip for automation: upload the image with file_upload, then click into the text box at its on-screen position before typing. A stale element ref from before the upload can drop the typed text. Don't use ctrl+a to clear the editor, because it desyncs X's editor. Reload the compose page instead.
 - After posting, new accounts see an "Unlock more on X" info modal. It's safe to close with the X.
 - No "sensitive" or AI-label toggle appeared on either post.
+- Don't press Escape in the composer: it opens "Save post?" (press Escape again to back out).
