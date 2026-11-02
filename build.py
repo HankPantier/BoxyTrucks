@@ -100,11 +100,26 @@ def gen_title(slug, g, fam, page):
     return fit_title(f"{sn}{yy} Buyer's Guide & Problems", f"{sn}{yy} Buyer's Guide", f"{sn} Buyer's Guide & Problems", f"{sn} Buyer's Guide")
 
 
+def yjoin(ys, n=3):
+    """Compact list of flagged years for titles/descriptions: '2002, 2004–06 and 2008'."""
+    out = []
+    for y in ys[:n]:
+        y = re.sub(r'\b(\d{2})(\d{2})\s*[–-]\s*\1(\d{2})\b', r'\1\2–\3', str(y).strip())
+        if y not in out: out.append(y)
+    return ', '.join(out[:-1]) + ' and ' + out[-1] if len(out) > 1 else (out[0] if out else '')
+
+
 def gen_desc(slug, g, fam, page, x):
     sn = sname(slug, g) or mlabel(fam['maker'], page.get('title') or g['name'])
     rng = ((x or {}).get('values') or {}).get('ranges') or []
     drv = next((r['range'] for r in rng if 'driver' in r.get('cond', '').lower()), rng[1]['range'] if len(rng) > 1 else (rng[0]['range'] if rng else ''))
     y = syears(g.get('years')) or g.get('years', '')
+    tl = (x or {}).get('timeline') or []
+    buy = yjoin([t['year'] for t in tl if t.get('flag') == 'buy'], 2)
+    avoid = yjoin([t['year'] for t in tl if t.get('flag') == 'avoid'], 2)
+    if buy or avoid:
+        verdict = ' '.join(filter(None, [f'Best years: {buy}.' if buy else '', f'Avoid: {avoid}.' if avoid else '']))
+        return fit_desc(f"{sn} ({y}). {verdict} Common problems and fixes, " + (f"prices ({drv} for a driver), " if drv else '') + "specs and tire sizes, from owners and specialists.")
     return fit_desc(f"{sn} ({y}): the best years to buy and the ones to avoid, common problems to check, " + (f"what they sell for ({drv} for a driver), " if drv else '') + "specs, tire sizes and DIY repairs. Sourced from owners and specialists.")
 DEFAULT_OG_IMAGE = 'img/home/lc80-georgia.jpg'
 SITEMAP = []
@@ -833,7 +848,7 @@ def main():
                crumbs=[('Models', 'models/'), (label, f'models/{slug}/'), ('Best years', f'models/{slug}/best-years.html')],
                jsonld=([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': faq_ld}] if faq_ld else []),
                title=fit_title(f'{fname(slug, True)} Years to Avoid (and the Best Years to Buy)', f'{fname(slug, True)} Years to Avoid (and the Best to Buy)', f'{fname(slug, True)} Years to Avoid & Best Years'),
-               description=fit_desc(f'{fname(slug)} years to avoid and the best years to buy, generation by generation, with the problems and recalls behind each call. Sourced from owners and specialists.'),
+               description=fit_desc((f'Best {_short} years: ' + '; '.join(f'{t} {yjoin(ys, 2)}' for t, ys in _rel_buy[:3]) + '. ' if _rel_buy else '') + (f'Avoid: ' + '; '.join(f'{t} {yjoin(ys, 2)}' for t, ys in _rel_avoid[:2]) + '. ' if _rel_avoid else '') + f'{fname(slug)} years to avoid and the best to buy, with the problems and recalls behind each call.'),
                credits='')
         by_fam.append({'slug': slug, 'label': label})
     for c in compares:
