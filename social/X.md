@@ -21,6 +21,7 @@
 | Oct 30, 2026 | Cross-post of IG #3, "80 Series or 100 Series?", link to /compare/80-series-vs-100-series/, photo credits. Image: `posts/03-80-vs-100.jpg` | https://x.com/boxytrucks/status/2116262006017958343 |
 | Nov 1, 2026 | Cross-post of IG #4, "Wrangler or Bronco?" (Oct 31 slot, a day late), link to /compare/wrangler-jl-vs-bronco/. Image: `posts/04-jl-vs-bronco.jpg` | https://x.com/boxytrucks/status/2116880961019531686 |
 | Nov 1, 2026 | Cross-post of IG #5, "Show us your rig", link to /submit/. Image: `posts/05-show-us-your-rig.jpg` | https://x.com/boxytrucks/status/2117088728510238844 |
+| Nov 2, 2026 | Cross-post of IG #6, "Defender, Grenadier or G-Class?", link to /compare/defender-vs-grenadier-vs-g-class/. Image: `posts/06-defender-grenadier-g.jpg` | https://x.com/boxytrucks/status/2117313235871223924 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious
