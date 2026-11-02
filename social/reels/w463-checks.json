@@ -1,0 +1,86 @@
+{
+ "out": "social/posts/11-w463-checks.mp4",
+ "url": "boxytrucks.com",
+ "credit": "Photos: Bahnfrend, CC BY-SA 3.0 · Ben - PTM11, CC BY-SA 4.0",
+ "scenes": [
+  {
+   "photo": "site/img/g-class/w463-schoeckl.jpg",
+   "pos": "45% 50%",
+   "dur": 3.4,
+   "eyebrow": "Mercedes G-Wagen W463",
+   "title": "Buying one? Check these 5 things first."
+  },
+  {
+   "photo": "site/img/g-class/w463-300gd-bridge.jpg",
+   "pos": "50% 50%",
+   "dur": 3.6,
+   "eyebrow": "1 · Rust",
+   "title": "Check where nobody cleans.",
+   "body": "Around the sunroof, under the tail-lights, door hinges, rear spring perches, the windscreen seal."
+  },
+  {
+   "photo": "site/img/g-class/w463-schoeckl.jpg",
+   "pos": "30% 60%",
+   "zoom": [
+    1.2,
+    1.32
+   ],
+   "dur": 3.6,
+   "eyebrow": "2 · Lockers",
+   "title": "Engage all three.",
+   "body": "Centre, rear, then front, on loose ground. Lockers that were never used often don't work."
+  },
+  {
+   "photo": "site/img/g-class/w463-300gd-bridge.jpg",
+   "pos": "50% 40%",
+   "zoom": [
+    1.25,
+    1.38
+   ],
+   "origin": "50% 40%",
+   "dur": 3.6,
+   "eyebrow": "3 · Test drive",
+   "title": "Hold it at 55–70 mph.",
+   "body": "Judder can mean a failing propshaft. Harsh 2–3 shifts point to old fluid or the conductor plate."
+  },
+  {
+   "photo": "site/img/g-class/w463-schoeckl.jpg",
+   "pos": "65% 50%",
+   "zoom": [
+    1.15,
+    1.27
+   ],
+   "dur": 3.6,
+   "eyebrow": "4 · The year",
+   "title": "2002–04: electrical gremlins.",
+   "body": "Seat motors, window regulators, door locks, transfer-case actuators. Better by 2005–06."
+  },
+  {
+   "photo": "site/img/g-class/w463-300gd-bridge.jpg",
+   "pos": "50% 70%",
+   "zoom": [
+    1.3,
+    1.42
+   ],
+   "origin": "50% 75%",
+   "align": "top",
+   "dur": 4.0,
+   "eyebrow": "5 · From Hank's G500",
+   "title": "Look underneath for oil.",
+   "body": "The oil filter housing gasket leak was my biggest issue. Cheap to fix; it just takes time."
+  },
+  {
+   "photo": "site/img/g-class/w463-schoeckl.jpg",
+   "pos": "50% 50%",
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "dur": 4.0,
+   "cta": true,
+   "eyebrow": "All 8 checks, years to avoid",
+   "title": "Plus a printable checklist.",
+   "body": "Free at boxytrucks.com. Link in bio."
+  }
+ ]
+}
