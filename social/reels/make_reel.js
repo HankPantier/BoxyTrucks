@@ -46,7 +46,8 @@ document.getElementById('bar').style.width=(100*t/T)+'%';};</script></body></htm
   for (let f = 0; f < n; f++) { await pg.evaluate(t => window.render(t), f / fps); await pg.screenshot({ path: path.join(tmp, 'f' + String(f).padStart(5, '0') + '.jpg'), type: 'jpeg', quality: 88 }); }
   await b.close();
   const out = path.join(ROOT, spec.out);
-  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(fps), '-i', path.join(tmp, 'f%05d.jpg'), '-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo', '-shortest', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-crf', '20', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', out]);
+  // Capped bitrate keeps a ~26s Reel under 10 MB, the browser-upload limit for Instagram, X, TikTok, YouTube and Pinterest.
+  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(fps), '-i', path.join(tmp, 'f%05d.jpg'), '-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo', '-shortest', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-crf', '22', '-maxrate', '3200k', '-bufsize', '6400k', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', out]);
   const cover = out.replace(/\.mp4$/, '-cover.jpg'); fs.copyFileSync(path.join(tmp, 'f' + String(Math.round(1.6 * fps)).padStart(5, '0') + '.jpg'), cover);
   fs.rmSync(tmp, { recursive: true, force: true });
   console.log('wrote', out, total + 's', n + ' frames');
