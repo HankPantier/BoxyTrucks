@@ -1,0 +1,12 @@
+{% if newsletter and newsletter.action %}{% set _nli = nl_truck(fam.slug if (fam is defined and fam is mapping) else None, g if (g is defined and g is mapping) else None) %}
+<aside class="nl-inline band-night" aria-label="Free inspection checklist">
+  <div><span class="eyebrow brass">Free · printable</span>
+  <strong class="nl-inline-h">Shopping for one? Get the {{ _nli or (short if (short is defined and short) else 'model-specific') }} inspection checklist.</strong>
+  <span class="nl-inline-p">Two pages of what to check before you buy, sent as soon as you confirm your email. Then one short email a month.</span></div>
+  <form class="nl-form" action="{{ newsletter.action }}" method="post" data-nl>
+    <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
+    <label for="nl-email-{{ nl_id or 'in' }}" class="sr-only">Email address</label>
+    <input id="nl-email-{{ nl_id or 'in' }}" type="email" name="{{ newsletter.field or 'email' }}" required placeholder="you@example.com" autocomplete="email">
+    <button class="btn light" type="submit">Send my checklist</button>
+  </form>
+</aside>{% endif %}
