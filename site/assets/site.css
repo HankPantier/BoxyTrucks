@@ -890,3 +890,7 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .lk-btn:hover{border-color:#C9A86A;background:rgba(201,168,106,.08)}
 .lk-btn.lk-new{border-color:#C9A86A}
 .lk-nl{margin-top:6px}
+
+.by-sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px 32px;margin-top:32px;padding:22px 24px;border:1px solid var(--line,#CFC8B8);background:var(--card,#F7F4EE)}
+.by-sum ul{margin:10px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.by-sum .h-section{font-size:22px;margin:0}

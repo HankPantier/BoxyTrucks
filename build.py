@@ -819,8 +819,17 @@ def main():
                 + (f'{NUMW.get(n_buy, n_buy)} of them {"has" if n_buy == 1 else "have"} a clear sweet spot; the rest are best bought on condition.' if n_buy and n_buy < len(gens) else
                    ('Every generation has a clear sweet spot.' if len(gens) > 1 else 'There is a clear sweet spot.') if n_buy else 'None has a single standout year, so buy on condition and history.'))
         fam_compares = [c for c in compares if any(m.startswith(slug + '/') for m in c['models'])]
+        _rel_buy = [(g['title'], [t['year'] for t in g['flags'] if t['flag'] == 'buy']) for g in gens]
+        _rel_buy = [(t, ys) for t, ys in _rel_buy if ys]
+        _rel_avoid = [(g['title'], [t['year'] for t in g['flags'] if t['flag'] == 'avoid']) for g in gens]
+        _rel_avoid = [(t, ys) for t, ys in _rel_avoid if ys]
+        _short = fname(slug, True) or label
+        _rel_a = ('It depends on the generation. The years owners and specialists recommend are ' + '; '.join(f'{t}: {", ".join(ys)}' for t, ys in _rel_buy) + '.') if _rel_buy else ''
+        _avd_a = ('The years with documented problems are ' + '; '.join(f'{t}: {", ".join(ys)}' for t, ys in _rel_avoid) + '. Years whose only issue is a recall are fine if the recall work was done.') if _rel_avoid else ''
         faq_ld = [{'@type': 'Question', 'name': f'What are the best {g["title"]} years to buy?', 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), g['answer'])}} for g in gens if g['answer']]
-        render('best_years.html', f'models/{slug}/best-years.html', '../../', fam=fam, gens=gens, lead=lead, compares=fam_compares, active='models',
+        if _avd_a: faq_ld.insert(0, {'@type': 'Question', 'name': f'What {_short} years should I avoid?', 'acceptedAnswer': {'@type': 'Answer', 'text': _avd_a}})
+        if _rel_a: faq_ld.insert(0, {'@type': 'Question', 'name': f'What year {_short} is most reliable?', 'acceptedAnswer': {'@type': 'Answer', 'text': _rel_a}})
+        render('best_years.html', f'models/{slug}/best-years.html', '../../', fam=fam, gens=gens, lead=lead, compares=fam_compares, active='models', rel_buy=_rel_buy, rel_avoid=_rel_avoid, short=_short,
                crumbs=[('Models', 'models/'), (label, f'models/{slug}/'), ('Best years', f'models/{slug}/best-years.html')],
                jsonld=([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': faq_ld}] if faq_ld else []),
                title=fit_title(f'{fname(slug, True)} Years to Avoid (and the Best Years to Buy)', f'{fname(slug, True)} Years to Avoid (and the Best to Buy)', f'{fname(slug, True)} Years to Avoid & Best Years'),
