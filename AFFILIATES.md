@@ -44,7 +44,7 @@
 - AvantLink (ARB): not checked; Claude's browser can't open avantlink.com.
 
 ## Tire size links (Oct 30)
-Every /models/{fam}/{gen}/tires/ page has a 'Shop {truck} tire sizes' block: each size on the page (factory, max-by-lift and sizes named in the notes) gets a Tire Rack size search and an Amazon size search (tag boxytrucks-20 added by affiliate_rewrite). 412 links on 97 pages. Tire Rack links are plain until the CJ application is approved; then the template in data/affiliates.json wraps them automatically (Skimlinks may also monetize them once approved).
+Every /models/{fam}/{gen}/tires/ page has a 'Shop {truck} tire sizes' block: each size on the page (factory, max-by-lift and sizes named in the notes) gets a Tire Rack size search and an Amazon size search (tag boxytrucks-20 added by affiliate_rewrite). 412 links on 97 pages. Tire Rack links are plain until the CJ application is approved; then the template in data/affiliates.json wraps them automatically (Skimlinks declined us Nov 2, 2026; reapply in about 3 months).
 
 ## Pre-purchase inspection page (Oct 30)
 - /pre-purchase-inspection/ (Garage menu) links Lemon Squad (no public affiliate program; referral pitch drafted in the outreach tracker), NHTSA recalls and NICB VINCheck (free), and carVertical for paid history reports.
