@@ -18,3 +18,5 @@ Hank pre-approved the queued drafts (one post a day). The mix and the rules are 
 8. In queue.json set `status: "posted"` and `posted: <date>`, add a row to the Posts table in `README.md`, then rebuild the site (`python3 build.py`) so /links/ lists the new post. Commit and push, and tell Hank in one line.
 9. Remind Hank in that line to share it to Stories from his phone. Web Instagram can't post Stories.
 10. If Chrome or the account isn't available, leave the item queued and tell Hank.
+
+11. **Then Pinterest and YouTube, every posting day** (Hank's rule, Nov 2, 2026): follow `PINTEREST_PROCEDURE.md` and `YOUTUBE_PROCEDURE.md` for the same item. If either account isn't the Boxy Trucks one, skip that platform and say so in the one-line report.
