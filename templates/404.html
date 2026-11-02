@@ -41,7 +41,7 @@
     <button class="btn solid" type="submit">Search</button>
   </form>
   <div class="lost-fams">
-    {% for f in nav_fams %}<a class="chip" href="{{ root }}models/index.html#{{ f.slug }}">{{ f.label }}</a>{% endfor %}
+    {% for f in nav_fams %}<a class="chip" href="{{ root }}models/{{ f.slug }}/index.html">{{ f.label }}</a>{% endfor %}
   </div>
 </section>
 

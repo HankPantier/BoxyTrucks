@@ -50,7 +50,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
       {% set caret = '<svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>' %}
       {% for n in nav %}{% if n.key == 'models' and nav_fams %}<div class="nav-drop">
         <a href="{{ root }}{{ n.href }}"{% if n.key == active %} class="active"{% endif %}>{{ n.label }}</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="models-menu" aria-label="Show model families">{{ caret|safe }}</button>
-        <ul class="nav-menu" id="models-menu">{% for f in nav_fams %}<li><a href="{{ root }}models/index.html#{{ f.slug }}">{{ f.label }}</a></li>{% endfor %}<li class="all"><a href="{{ root }}models/index.html">All models →</a></li></ul>
+        <ul class="nav-menu" id="models-menu">{% for f in nav_fams %}<li><a href="{{ root }}models/{{ f.slug }}/index.html">{{ f.label }}</a></li>{% endfor %}<li class="all"><a href="{{ root }}models/index.html">All models →</a></li></ul>
       </div>{% elif n.children %}<div class="nav-drop nav-drop-sm">
         <a href="{{ root }}{{ n.href }}"{% if active in garage_keys %} class="active"{% endif %}>{{ n.label }}</a><button type="button" class="nav-caret" aria-expanded="false" aria-controls="{{ n.key }}-menu" aria-label="Show {{ n.label|lower }} pages">{{ caret|safe }}</button>
         <ul class="nav-menu" id="{{ n.key }}-menu">{% for c in n.children %}<li><a href="{{ root }}{{ c.href }}"{% if c.key == active %} aria-current="page"{% endif %}>{{ c.label }}</a></li>{% endfor %}<li class="all"><a href="{{ root }}{{ n.href }}">All of the {{ n.label|lower }} →</a></li></ul>
