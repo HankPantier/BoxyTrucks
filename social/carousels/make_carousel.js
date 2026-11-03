@@ -1,5 +1,6 @@
 // Usage: node social/carousels/make_carousel.js social/carousels/<spec>.json -> social/posts/<prefix>-N.jpg (1080x1350)
-// Spec: {prefix, cover?: existing image path used as slide 1, slides:[{photo,pos,credit,eyebrow,title,body,tag}], end:{title,body,url}}
+// Single image: give one slide, no end, and footer_url (shown instead of the page count).
+// Spec: {prefix, footer_url?, cover?: existing image path used as slide 1, slides:[{photo,pos,credit,eyebrow,title,body,tag}], end:{title,body,url}}
 const fs = require('fs'), path = require('path'); const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..', '..'); const spec = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
@@ -21,8 +22,8 @@ const head = `<!doctype html><html><head><meta charset="utf-8"><link href="https
   const shot = async (body) => { await pg.setContent(head + body + '</body></html>'); await pg.waitForTimeout(1500); const dst = `social/posts/${spec.prefix}-${n}.jpg`; await pg.screenshot({ path: path.join(ROOT, dst), type: 'jpeg', quality: 90 }); out.push(dst); n++; };
   for (const s of spec.slides) await shot(`<div class="ph" style="background-image:url(${img(s.photo)});background-position:${s.pos || '50% 50%'}"></div><div class="cr">${esc(s.credit)}</div>
     <div class="tx"><div class="ey">${esc(s.eyebrow)}</div><h1>${esc(s.title)}</h1>${s.body ? `<p class="bd">${esc(s.body)}</p>` : ''}${s.tag ? `<span class="tag">${esc(s.tag)}</span>` : ''}</div>
-    <div class="ft">${mark}<span>BOXY TRUCKS</span><span class="pg">${n} / ${total}</span></div>`);
+    <div class="ft">${mark}<span>BOXY TRUCKS</span><span class="pg">${spec.footer_url ? esc(spec.footer_url) : `${n} / ${total}`}</span></div>`);
   if (spec.end) await shot(`<div class="end"><div class="ey">${esc(spec.end.eyebrow || 'Save this')}</div><h1>${esc(spec.end.title)}</h1><p class="bd">${esc(spec.end.body)}</p><div class="url">${esc(spec.end.url)}</div></div>
-    <div class="ft">${mark}<span>BOXY TRUCKS</span><span class="pg">${n} / ${total}</span></div>`);
+    <div class="ft">${mark}<span>BOXY TRUCKS</span><span class="pg">${spec.footer_url ? esc(spec.footer_url) : `${n} / ${total}`}</span></div>`);
   await b.close(); console.log(JSON.stringify(out));
 })();
