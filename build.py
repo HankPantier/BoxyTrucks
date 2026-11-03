@@ -921,12 +921,13 @@ def main():
 
 
     # ---- Field Notes pages, index and RSS ----
+    FN_AUTHOR = {'@type': 'Person', 'name': 'Hank', 'url': 'https://boxytrucks.com/about/', 'jobTitle': 'Founder and editor, BoxyTrucks'}  # Field Notes: first name only (Hank, Nov 3, 2026)
     if True:  # index + feed always build, so the Garage menu link never 404s
         (SITE / 'field-notes').mkdir(parents=True, exist_ok=True)
         for i, n in enumerate(NOTES):
             u = SITE_URL + f'field-notes/{n["slug"]}/'
             _ld = {'@context': 'https://schema.org', '@type': 'BlogPosting', 'headline': n['title'], 'description': n.get('dek', ''), 'url': u,
-                   'mainEntityOfPage': u, 'datePublished': n['date'], 'dateModified': str(n.get('updated') or n['date']), 'author': PERSON, 'publisher': PUBLISHER,
+                   'mainEntityOfPage': u, 'datePublished': n['date'], 'dateModified': str(n.get('updated') or n['date']), 'author': FN_AUTHOR, 'publisher': PUBLISHER,
                    'image': SITE_URL + (n.get('image') or DEFAULT_OG_IMAGE), 'isPartOf': {'@type': 'Blog', 'name': 'Boxy Trucks Field Notes', 'url': SITE_URL + 'field-notes/'}}
             if n.get('about'):
                 _ld['about'] = [{'@type': 'Thing', 'name': a} for a in n['about']]
@@ -934,8 +935,8 @@ def main():
                    title=fit_title(n.get('seo_title') or n['title'], n['title']), description=fit_desc(n.get('dek', '')), credits=n.get('image_credit', ''),
                    og_image=n.get('image'), og_type='article', jsonld=[_ld], crumbs=[('Field Notes', 'field-notes/'), (n['title'], f'field-notes/{n["slug"]}/')])
         render('notes_index.html', 'field-notes/index.html', '../', active='notes', notes=NOTES,
-               title='Boxy Trucks Field Notes: 4x4 news, with an opinion', description='Short takes from Hank Pantier on the boxy 4x4 news that matters to buyers and owners: concepts, recalls, new models and what they mean if you’re shopping.',
-               credits='', jsonld=[{'@context': 'https://schema.org', '@type': 'Blog', 'name': 'Boxy Trucks Field Notes', 'url': SITE_URL + 'field-notes/', 'author': PERSON, 'publisher': PUBLISHER,
+               title='Boxy Trucks Field Notes: 4x4 news, with an opinion', description='Short takes from Hank on the boxy 4x4 news that matters to buyers and owners: concepts, recalls, new models and what they mean if you’re shopping.',
+               credits='', jsonld=[{'@context': 'https://schema.org', '@type': 'Blog', 'name': 'Boxy Trucks Field Notes', 'url': SITE_URL + 'field-notes/', 'author': FN_AUTHOR, 'publisher': PUBLISHER,
                                     'blogPost': [{'@type': 'BlogPosting', 'headline': n['title'], 'url': SITE_URL + f'field-notes/{n["slug"]}/', 'datePublished': n['date']} for n in NOTES]}],
                crumbs=[('Field Notes', 'field-notes/')])
         _x = lambda t: _html.escape(str(t or ''), quote=False)

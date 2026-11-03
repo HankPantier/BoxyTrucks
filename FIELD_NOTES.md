@@ -1,11 +1,12 @@
 # Boxy Trucks Field Notes
 
-Short takes in Hank's voice on timely boxy-4x4 news (started Nov 3, 2026). The job of each note is social reach, Hank's voice and fresh pages that pass readers to our evergreen guides. Google news traffic is a bonus, not the goal.
+Short takes in Hank's voice (bylined "Hank", never his last name) on timely boxy-4x4 news (started Nov 3, 2026). The job of each note is social reach, Hank's voice and fresh pages that pass readers to our evergreen guides. Google news traffic is a bonus, not the goal.
 
 ## Where things live
 - Notes: `data/notes/YYYY-MM-DD-<slug>.md`, YAML front matter plus a Markdown body. Copy the first note's front matter.
 - Built pages: `/field-notes/` (index), `/field-notes/<slug>/` and `/field-notes/feed.xml` (RSS). They're linked from the Garage menu, the Garage page and a "Latest Field Notes" block on the home page.
-- Schema: BlogPosting with Hank as the Person author, inside a Blog. Breadcrumbs come automatically.
+- **Byline: first name only, "Hank", everywhere in Field Notes** (page, schema, captions). Never his last name. Hank's rule, Nov 3, 2026.
+- Schema: BlogPosting with "Hank" as the Person author, inside a Blog. Breadcrumbs come automatically.
 - Only `status: published` builds. To preview a draft locally, run `NOTES_DRAFTS=1 python3 build.py`, then run a plain `python3 build.py` and `rm -rf` any draft folders under `site/field-notes/` before committing.
 
 ## What qualifies
