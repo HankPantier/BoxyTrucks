@@ -605,6 +605,7 @@ def main():
         env.globals['avatar'] = lambda u: (lambda a: f'/img/{a}' if a else None)(AVATARS.get(avatar_key(u or '')))
         env.globals['mlabel'] = mlabel
         env.globals['fname'] = fname
+        env.globals['pg_fams'] = {'4runner','bronco','chevrolet','ramcharger','trooper','hummer','lexus','land-cruiser','jeep','g-class','range-rover','land-rover','suzuki'}  # Parts Geek (CJ) carries these US-market makes
         env.globals['OWNED'] = {'land-cruiser/80-series': 'owned an 80 Series', 'g-class/g500': 'owns a 2007 G500', 'g-class/w463': 'owns a 2007 G500'}
         env.globals['newsletter'] = NEWSLETTER
         env.globals['nl_truck'] = lambda fs, g: (sname(fs, g) if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')

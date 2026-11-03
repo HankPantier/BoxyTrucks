@@ -3,21 +3,38 @@
   {
    "name": "FCP Euro",
    "search": "https://www.fcpeuro.com/Parts?keywords={q}"
+  },
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ],
  "land-cruiser": [
   {
    "name": "CruiserTeq",
    "search": "https://cruiserteq.com/search.php?search_query={q}"
+  },
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ],
  "lexus": [
   {
    "name": "CruiserTeq",
    "search": "https://cruiserteq.com/search.php?search_query={q}"
+  },
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ],
- "4runner": [],
+ "4runner": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
+  }
+ ],
  "land-rover": [
   {
    "name": "Rovers North",
@@ -26,6 +43,10 @@
   {
    "name": "Atlantic British",
    "search": "https://www.roverparts.com/search/?q={q}"
+  },
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ],
  "range-rover": [
@@ -36,6 +57,10 @@
   {
    "name": "Rovers North",
    "search": "https://roversnorth.com/search.aspx?q={q}"
+  },
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ],
  "grenadier": [],
@@ -43,6 +68,10 @@
   {
    "name": "Quadratec",
    "search": "https://www.quadratec.com/search/{q}"
+  },
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ],
  "nissan-patrol": [
@@ -55,6 +84,42 @@
   {
    "name": "Super Scout Specialists",
    "search": "https://www.superscoutspecialists.com/filterSearch?q={q}"
+  }
+ ],
+ "bronco": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
+  }
+ ],
+ "chevrolet": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
+  }
+ ],
+ "ramcharger": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
+  }
+ ],
+ "trooper": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
+  }
+ ],
+ "hummer": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
+  }
+ ],
+ "suzuki": [
+  {
+   "name": "Parts Geek",
+   "search": "https://www.partsgeek.com/ss/?ssq={q}"
   }
  ]
 }

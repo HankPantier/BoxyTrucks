@@ -22,7 +22,7 @@
     </section>{% endif %}
 
     <section><h2 class="h-section">Where to buy the parts</h2>
-      {% if r.parts %}<div class="rp-parts">{% for pt in r.parts %}{% set q = amz_q(pt, model) %}<div class="rp-part"><span class="nm">{{ pt.name }}</span><span class="links"><a class="btn solid" href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.supplier or 'Buy' }} ↗</a>{% if q %}<a class="btn" href="https://www.amazon.com/s?k={{ q|urlencode }}" target="_blank" rel="noopener sponsored">Amazon ↗</a>{% endif %}</span></div>{% endfor %}</div>
+      {% if r.parts %}<div class="rp-parts">{% for pt in r.parts %}{% set q = amz_q(pt, model) %}<div class="rp-part"><span class="nm">{{ pt.name }}</span><span class="links"><a class="btn solid" href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.supplier or 'Buy' }} ↗</a>{% if q %}<a class="btn" href="https://www.amazon.com/s?k={{ q|urlencode }}" target="_blank" rel="noopener sponsored">Amazon ↗</a>{% if fam_slug in pg_fams %}<a class="btn" href="https://www.partsgeek.com/ss/?ssq={{ q|urlencode }}" target="_blank" rel="noopener sponsored">Parts Geek ↗</a>{% endif %}{% endif %}</span></div>{% endfor %}</div>
       {% else %}{% for s in part_search %}<p><a class="inline-link" href="{{ s.search.replace('{q}', (r.title|striplk ~ ' ' ~ p.title)|replace(' ', '+')|urlencode|replace('%2B','+')) }}" target="_blank" rel="noopener">Search {{ s.name }} ↗</a></p>{% endfor %}{% endif %}
       <p class="sub-intro" style="margin-top:14px">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ (model ~ ' parts')|urlencode }}&amp;_sacat=6000" target="_blank" rel="noopener sponsored">Search eBay Motors for {{ model }} parts →</a></p>
     </section>
