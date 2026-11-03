@@ -40,6 +40,8 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Nov 1, 2026 | "Wrangler or Bronco?" (Oct 31 slot, posted a day late after an internet outage), CTA to boxytrucks.com/compare. Photos: BLM California (public domain); Thomas Tucker / Unsplash | `posts/04-jl-vs-bronco.jpg` |
 | Nov 1, 2026 | "Show us your rig" (posted at 3:45pm after a browser outage at the scheduled time), CTA to boxytrucks.com/submit. Photo: Hasse Lossius / Unsplash | `posts/05-show-us-your-rig.jpg` |
 | Nov 2, 2026 | "Defender, Grenadier or G-Class?" (12:50pm), link to /compare/defender-vs-grenadier-vs-g-class/. https://www.instagram.com/p/DfP4KseOe2f/ | `posts/06-defender-grenadier-g.jpg` |
+| Nov 3, 2026 | Field Notes extra post: "Jeep just put IFS on a Wrangler. Don't panic." 4-slide carousel linking /field-notes/jeep-wrangler-scrambler-srt-ifs/. https://www.instagram.com/p/DfSXfOAHET8/ | `posts/fn01-jeep-scrambler-ifs-1..4.jpg` |
+| Nov 3, 2026 | "Land Cruiser best years" 6-slide carousel (n=7), link to /models/land-cruiser/best-years/. https://www.instagram.com/p/DfSaTNiHAg2/ | `posts/07-land-cruiser-sweet-spots-1..6.jpg` |
 
 ## Following
 `follow-targets.json` lists the accounts @boxytrucks follows: brands, media, lifestyle (Huckberry, YETI, Filson…) and the builders, parts shops and clubs already vetted on the site's resources pages. Each entry is `todo` or `followed` with a date.
