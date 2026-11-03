@@ -1,9 +1,9 @@
 # Daily Instagram follow run (@boxytrucks)
 
-Hank approved this on Oct 28, 2026: follow relevant accounts every day, about 25–30 a day.
+Hank approved this on Oct 28, 2026: follow relevant accounts every day. **Changed Nov 3, 2026: about 10 a day**, only accounts we'd actually comment on.
 
 1. In Claude in Chrome, open https://www.instagram.com/accounts/edit/ and confirm the profile shown is **boxytrucks**. If it's @webhank or anything else, stop and tell Hank.
-2. Take the next `todo` entries from `social/follow-targets.json`, in order, up to 28.
+2. Take the next `todo` entries from `social/follow-targets.json`, in order, up to 10.
 3. For each one, navigate to `https://www.instagram.com/<handle>/` and run `social/follow.js` with javascript_tool. Use browser_batch with no more than 5 profiles per batch; bigger batches time out.
    - Results: FOLLOWED or ALREADY → `status: "followed"`, with the date. MISSING → `status: "missing"`. NOBUTTON or UNSURE → take a screenshot and check by eye.
    - **BLOCKED** ("Try Again Later" or "We restrict certain activity"): stop for the day. Leave the rest as todo and tell Hank. Don't retry until the next day.

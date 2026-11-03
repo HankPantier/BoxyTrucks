@@ -14,7 +14,7 @@ Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop mak
 | Mon | Single image | One sharp buyer's fact: best years, a tire size, a known fault |
 | Tue | Carousel | A list from the site: years by generation, a head-to-head, "5 checks" |
 | Wed | Reel | Motion graphics (`social/reels/make_reel.js`), or Hank's own footage when there is some |
-| Thu | Single image | Community: a reader rig, "send us your story", a question |
+| Thu | Single image or carousel | **From Hank's garage** (weekly, from Nov 5): Hank's own trucks, repairs or trucks he spotted. If Hank hasn't sent material, ask him on Monday, and fall back to a reader rig or a question. Only run "show us your rig" posts when a real submission can be featured (and invite that owner as a Collab). |
 | Fri | Carousel | Comparison or problems list |
 | Sat | Reel | Hank's footage first (G500, 4Runner, lockers, repairs); otherwise motion graphics |
 | Sun | Single image | A great off-road photo plus a question that invites comments |
@@ -51,7 +51,7 @@ Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). **Every 
 - **Collab:** when a post features a reader's rig or a shop, invite them as a collaborator (in the app) so it lands on their feed too.
 - **Stories:** share each post to Stories the same day. This is app-only, so Hank does it on his phone; it takes about 10 seconds.
 - **Pinned posts:** keep the three best performers pinned. Right now that's the G 500 years post, the free checklist post and 80 vs 100. Pinning is app-only.
-- **Follows:** keep about 28 a day from `follow-targets.json` (`FOLLOW_PROCEDURE.md`), and stop if Instagram shows a block.
+- **Follows (changed Nov 3, 2026):** about **10 a day**, and only accounts we'd actually comment on: active owners, shops and clubs for our trucks (`FOLLOW_PROCEDURE.md`). Stop if Instagram shows a block. Mass following gained ~15 followers from ~140 follows and makes the account look spammy, so quality over count.
 
 ## Profile (updated Nov 1, 2026)
 - **Name:** "Boxy Trucks | 4x4 Buying Guide". This field is searchable, and Instagram only allows changing it twice in 14 days.
@@ -60,3 +60,9 @@ Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). **Every 
 
 ## Measuring it (every Monday)
 In Instagram's insights, note each post's reach, saves, shares and profile visits. In GA4, check sessions with source `instagram` (the links page tags its links with `utm_source=instagram`). After four weeks, shift the mix toward whatever earns the most saves and site visits.
+
+## Review, Nov 3, 2026 (first week)
+- **Working:** Hank's first-person posts (the G500 "mine's a 2007" post got the most interaction, plus our best comment), reach beyond followers (69% non-followers), and real comment conversations.
+- **Do more:** a weekly "From Hank's garage" post; Reels and carousels; Story link stickers for site visits.
+- **Cut:** mass follows (now ~10/day). **X on autopilot:** keep the automatic mirror of each post (1 follower, 3–15 views per post), but no extra time there; that time goes to Reddit and the forums (`FORUMS.md`). No empty "show us your rig" posts.
+- Re-check against full per-post insights in the Monday scoreboard.
