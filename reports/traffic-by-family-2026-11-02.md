@@ -27,3 +27,4 @@ Page views summed by URL family, 611 views total. The site has been live since a
 - /models/land-cruiser/fj62/: indexing requested.
 - /models/g-class/500ge/ and /models/range-rover/best-years/: already indexed ("URL is on Google"), so no request needed. Google returned "something went wrong" on the 500 GE resubmit.
 - Chrome kept disconnecting during long waits, so the remaining 7 (LX470 and GX460 years, Trooper II years, G500 problems, /tires/, /which-4x4/, K5 1st gen) are rescheduled for 1:13 PM. Only pages "not on Google" get a request.
+- Update, 11:40 AM after the Chrome restart: indexing requested for /models/lexus/lx470/years/ and /models/lexus/gx460/years/. Already indexed, so skipped: Trooper II years, G500 problems, /tires/, /which-4x4/, K5 1st gen. That's 3 requests used today, and the 1:13 retry is cancelled.
