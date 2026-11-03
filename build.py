@@ -7,6 +7,7 @@ data/resources/<family>.json    YouTube / Instagram / forums / other references
 """
 import datetime
 import json
+import os
 from collections import defaultdict
 import re
 from urllib.parse import quote_plus
@@ -134,6 +135,7 @@ NAV_FAMS = []
 NAV = [
     {'key': 'models', 'label': 'MODELS', 'href': 'models/index.html'},
     {'key': 'garage', 'label': 'GARAGE', 'href': 'garage/index.html', 'children': [
+        {'key': 'notes', 'label': 'Field Notes', 'href': 'field-notes/index.html'},
         {'key': 'repairs', 'label': 'Repair guides', 'href': 'repairs/index.html'},
         {'key': 'tires', 'label': 'Tire fitment', 'href': 'tires/index.html'},
         {'key': 'recalls', 'label': 'Recall tracker', 'href': 'recalls/index.html'},
@@ -151,7 +153,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'best', 'swaps'}
+GARAGE_KEYS = {'notes', 'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'best', 'swaps'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -587,6 +589,31 @@ def main():
     def gen_exists(fs, gs):
         return fs in fams and any(g['slug'] == gs for g in fams[fs]['generations'])
 
+    # ---- Boxy Trucks Field Notes: data/notes/*.md (YAML front matter + Markdown). Only status: published builds,
+    #      unless NOTES_DRAFTS=1 is set for a local preview. ----
+    import yaml
+    import markdown as _markdown
+    NOTES = []
+    for _f in sorted((DATA / 'notes').glob('*.md')) if (DATA / 'notes').exists() else []:
+        _mm = re.match(r'^---\n(.*?)\n---\n(.*)$', _f.read_text(), re.S)
+        if not _mm:
+            continue
+        _n = yaml.safe_load(_mm.group(1)) or {}
+        if _n.get('status') != 'published' and not os.environ.get('NOTES_DRAFTS'):
+            continue
+        def _nl(m):
+            fs, gs = ALIASES.get((m.group(1), m.group(2)), (m.group(1), m.group(2)))
+            return f'[{m.group(3)}](/models/{fs}/{gs}/)' if gen_exists(fs, gs) else m.group(3)
+        _h = _markdown.markdown(LINK_RE.sub(_nl, _mm.group(2)), extensions=['extra', 'smarty'])
+        _h = re.sub(r'<a href="(https?://[^"]+)"', r'<a class="inline-link" href="\1" target="_blank" rel="noopener"', _h)
+        _h = re.sub(r'<a href="(/[^"]*)"', r'<a class="inline-link" href="\1"', _h)
+        _d = _n['date'] if isinstance(_n['date'], datetime.date) else datetime.date.fromisoformat(str(_n['date']))
+        _n.update(slug=_n.get('slug') or re.sub(r'^\d{4}-\d{2}-\d{2}-', '', _f.stem), body=Markup(_h), date=_d.isoformat(),
+                  date_h=f'{_d:%B} {_d.day}, {_d.year}', rfc822=_d.strftime('%a, %d %b %Y 12:00:00 -0500'))
+        NOTES.append(_n)
+    NOTES.sort(key=lambda n: n['date'], reverse=True)
+    env.globals['latest_notes'] = NOTES[:3]
+
     def render(tpl, out, root, **ctx):
         def lk(text):
             if text is None:
@@ -891,6 +918,29 @@ def main():
                jsonld=[{'@context': 'https://schema.org', '@type': 'WebApplication', 'name': 'BoxyTrucks tire fitment tool', 'url': SITE_URL + 'tires/', 'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}],
                title='Biggest Tire Without a Lift: Every Boxy 4x4 Listed',
                description='Pick your truck and lift height to see the biggest tire owners and specialists run on every Land Cruiser, G-Class, Jeep, Bronco, 4Runner and more.', credits='')
+
+
+    # ---- Field Notes pages, index and RSS ----
+    if True:  # index + feed always build, so the Garage menu link never 404s
+        (SITE / 'field-notes').mkdir(parents=True, exist_ok=True)
+        for i, n in enumerate(NOTES):
+            u = SITE_URL + f'field-notes/{n["slug"]}/'
+            _ld = {'@context': 'https://schema.org', '@type': 'BlogPosting', 'headline': n['title'], 'description': n.get('dek', ''), 'url': u,
+                   'mainEntityOfPage': u, 'datePublished': n['date'], 'dateModified': str(n.get('updated') or n['date']), 'author': PERSON, 'publisher': PUBLISHER,
+                   'image': SITE_URL + (n.get('image') or DEFAULT_OG_IMAGE), 'isPartOf': {'@type': 'Blog', 'name': 'Boxy Trucks Field Notes', 'url': SITE_URL + 'field-notes/'}}
+            if n.get('about'):
+                _ld['about'] = [{'@type': 'Thing', 'name': a} for a in n['about']]
+            render('note.html', f'field-notes/{n["slug"]}/index.html', '../../', active='notes', n=n, more=[m for m in NOTES if m is not n][:3],
+                   title=fit_title(n.get('seo_title') or n['title'], n['title']), description=fit_desc(n.get('dek', '')), credits=n.get('image_credit', ''),
+                   og_image=n.get('image'), og_type='article', jsonld=[_ld], crumbs=[('Field Notes', 'field-notes/'), (n['title'], f'field-notes/{n["slug"]}/')])
+        render('notes_index.html', 'field-notes/index.html', '../', active='notes', notes=NOTES,
+               title='Boxy Trucks Field Notes: 4x4 news, with an opinion', description='Short takes from Hank Pantier on the boxy 4x4 news that matters to buyers and owners: concepts, recalls, new models and what they mean if you’re shopping.',
+               credits='', jsonld=[{'@context': 'https://schema.org', '@type': 'Blog', 'name': 'Boxy Trucks Field Notes', 'url': SITE_URL + 'field-notes/', 'author': PERSON, 'publisher': PUBLISHER,
+                                    'blogPost': [{'@type': 'BlogPosting', 'headline': n['title'], 'url': SITE_URL + f'field-notes/{n["slug"]}/', 'datePublished': n['date']} for n in NOTES]}],
+               crumbs=[('Field Notes', 'field-notes/')])
+        _x = lambda t: _html.escape(str(t or ''), quote=False)
+        items = ''.join(f'<item><title>{_x(n["title"])}</title><link>{SITE_URL}field-notes/{n["slug"]}/</link><guid>{SITE_URL}field-notes/{n["slug"]}/</guid><pubDate>{n["rfc822"]}</pubDate><description>{_x(n.get("dek"))}</description></item>' for n in NOTES[:20])
+        (SITE / 'field-notes' / 'feed.xml').write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Boxy Trucks Field Notes</title><link>{SITE_URL}field-notes/</link><description>4x4 news, with an opinion, from BoxyTrucks.</description><language>en-us</language>{items}</channel></rss>\n')
 
     render('garage.html', 'garage/index.html', '../', active='garage', by_fam=by_fam, n_compare=len(compares), n_tires=len(tf_rows) if tf_rows else 0,
            crumbs=[('Garage', 'garage/')],

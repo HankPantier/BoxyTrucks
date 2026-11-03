@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:64px;padding-bottom:44px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}field-notes/index.html">Field Notes</a><span>/</span><span>{{ n.kicker or 'Note' }}</span></nav>
+  <span class="eyebrow brass">Boxy Trucks Field Notes · <time datetime="{{ n.date }}">{{ n.date_h }}</time></span>
+  <h1 style="font-size:clamp(34px,5vw,58px);line-height:1.04;letter-spacing:-0.02em;max-width:900px;text-wrap:balance">{{ n.title }}</h1>
+  {% if n.dek %}<p class="fn-dek">{{ n.dek }}</p>{% endif %}
+  <a class="fn-by" href="{{ root }}about/index.html">By Hank Pantier{% if n.byline_note %} · {{ n.byline_note }}{% endif %} →</a>
+</div></section>
+<div class="wrap section" style="padding-top:36px"><div class="fn-layout">
+  <article class="prose fn-body">
+    {% if n.image %}<figure class="fn-fig"><img src="{{ root }}{{ n.image }}" alt="{{ n.image_alt }}" width="1600" height="1000"><figcaption>{{ n.image_caption }}{% if n.image_credit %} · {{ n.image_credit }}{% endif %}</figcaption></figure>{% endif %}
+    {{ n.body }}
+    {% if n.sources %}<div class="fn-sources"><span class="eyebrow">Sources</span><ul>{% for s in n.sources %}<li><a class="inline-link" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{% if s.note %} · {{ s.note }}{% endif %}</li>{% endfor %}</ul></div>{% endif %}
+  </article>
+  {% if n.related %}<aside class="fn-related" aria-label="Related guides"><span class="eyebrow">If you’re shopping</span><ul>{% for r in n.related %}<li><a href="{{ r.href }}"><strong>{{ r.label }}</strong>{% if r.why %}<span>{{ r.why }}</span>{% endif %}</a></li>{% endfor %}</ul></aside>{% endif %}
+</div>
+{% if more %}<section style="margin-top:56px"><h2 class="h-section">More Field Notes</h2>
+  <div class="grid fn-grid" style="--min:260px">{% for m in more %}<a class="card fn-card" href="{{ root }}field-notes/{{ m.slug }}/index.html"><span class="eyebrow">{{ m.date_h }}</span><h3>{{ m.title }}</h3><span class="go">Read →</span></a>{% endfor %}</div></section>{% endif %}
+</div>
+{% endblock %}

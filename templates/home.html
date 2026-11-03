@@ -87,6 +87,12 @@
   </div>
 </section>
 
+{% if latest_notes %}<section class="wrap section" style="padding-top:40px;padding-bottom:40px">
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Boxy Trucks Field Notes</span><h2>4x4 news, with an opinion</h2></div><a class="inline-link" href="{{ root }}field-notes/index.html">All Field Notes →</a></div>
+  <div class="grid fn-grid" style="--min:280px">{% for n in latest_notes %}<a class="card fn-card" href="{{ root }}field-notes/{{ n.slug }}/index.html"><span class="eyebrow">{{ n.date_h }}{% if n.kicker %} · {{ n.kicker }}{% endif %}</span><h3>{{ n.title }}</h3><p>{{ n.dek }}</p><span class="go">Read the note →</span></a>{% endfor %}</div>
+</section>
+{% endif %}
+
 <section class="wrap section">
   <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">About the site</span><h2>Questions, answered</h2></div></div>
   <div class="faq">

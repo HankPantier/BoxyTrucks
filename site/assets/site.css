@@ -899,3 +899,30 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .nl-inline-h { display: block; margin-top: 8px; font-size: 20px; line-height: 1.3; font-weight: 500; text-wrap: balance; }
 .nl-inline-p { display: block; margin-top: 6px; font-size: 15px; opacity: .8; }
 @media (max-width: 720px) { .nl-inline { grid-template-columns: 1fr; padding: 20px; } }
+/* Field Notes */
+.fn-dek { max-width: 680px; font-family: var(--serif, Newsreader, Georgia, serif); font-size: 21px; line-height: 1.45; color: #D9D4C8; margin: 0; }
+.fn-dek a, .fn-rss { color: #D9D4C8; }
+.fn-by { font-family: var(--mono, 'IBM Plex Mono', monospace); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #B0915A; text-decoration: none; }
+.fn-layout { display: grid; grid-template-columns: minmax(0, 720px) minmax(0, 280px); gap: 56px; align-items: start; }
+.fn-body { min-width: 0; }
+.fn-body h2 { font-size: 26px; line-height: 1.2; margin: 36px 0 14px; letter-spacing: -0.01em; }
+.fn-body ul { font-family: var(--serif); font-size: 19px; line-height: 30px; color: var(--body); padding-left: 22px; margin: 0 0 18px; }
+.fn-body blockquote { margin: 0 0 22px; padding: 4px 0 4px 20px; border-left: 3px solid var(--brass, #B0915A); }
+.fn-fig { margin: 0 0 28px; }
+.fn-fig img { width: 100%; height: auto; display: block; border: 1px solid var(--ink); }
+.fn-fig figcaption { font-family: var(--mono, monospace); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--stone); margin-top: 8px; }
+.fn-sources { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line, #D9D4C8); }
+.fn-sources ul { font-size: 16px; line-height: 26px; margin-top: 8px; }
+.fn-related { position: sticky; top: 110px; border: 1px solid var(--ink); padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.fn-related ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.fn-related a { text-decoration: none; color: var(--ink); display: flex; flex-direction: column; gap: 4px; }
+.fn-related a strong { color: var(--green); font-weight: 600; }
+.fn-related a span { font-size: 14px; line-height: 20px; color: var(--stone); }
+.fn-card h3 { font-size: 22px; line-height: 1.2; margin: 8px 0; }
+.fn-card p { margin: 0 0 12px; }
+.fn-list { display: flex; flex-direction: column; gap: 28px; max-width: 920px; }
+.fn-row { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 24px; text-decoration: none; color: var(--ink); padding-bottom: 28px; border-bottom: 1px solid var(--line, #D9D4C8); }
+.fn-row img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border: 1px solid var(--ink); }
+.fn-row h2 { font-size: 28px; line-height: 1.15; margin: 8px 0; }
+.fn-row p { font-family: var(--serif); font-size: 18px; line-height: 28px; color: var(--body); margin: 0; }
+@media (max-width: 860px) { .fn-layout { grid-template-columns: minmax(0, 1fr); gap: 32px; } .fn-related { position: static; } .fn-row { grid-template-columns: minmax(0, 1fr); } }

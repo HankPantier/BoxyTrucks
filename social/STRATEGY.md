@@ -66,3 +66,6 @@ In Instagram's insights, note each post's reach, saves, shares and profile visit
 - **Do more:** a weekly "From Hank's garage" post; Reels and carousels; Story link stickers for site visits.
 - **Cut:** mass follows (now ~10/day). **X on autopilot:** keep the automatic mirror of each post (1 follower, 3–15 views per post), but no extra time there; that time goes to Reddit and the forums (`FORUMS.md`). No empty "show us your rig" posts.
 - Re-check against full per-post insights in the Monday scoreboard.
+
+## Field Notes (Nov 3, 2026)
+Every published Field Note gets its own social push the same day: an IG carousel, an X post with the link, a Pinterest pin, and a YouTube Short and TikTok from the reel. It runs on top of the regular daily post (Hank OK'd multiple posts a day). See FIELD_NOTES.md.

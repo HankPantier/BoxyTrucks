@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:64px;padding-bottom:52px;display:flex;flex-direction:column;gap:16px">
+  <span class="eyebrow brass">Boxy Trucks Field Notes</span>
+  <h1 style="font-size:clamp(40px,5.4vw,68px);line-height:1;letter-spacing:-0.02em;max-width:820px;text-wrap:balance">4x4 news, with an opinion</h1>
+  <p class="fn-dek">Short takes from Hank Pantier on the news that matters to people who buy and wrench on boxy 4x4s: concepts, recalls, new models, and what each one means if you’re shopping. <a class="fn-rss" href="/field-notes/feed.xml">RSS feed</a></p>
+</div></section>
+<div class="wrap section"><div class="fn-list">
+  {% for n in notes %}<a class="fn-row" href="{{ root }}field-notes/{{ n.slug }}/index.html">
+    {% if n.image %}<img src="{{ root }}{{ n.image }}" alt="" loading="lazy">{% endif %}
+    <div><span class="eyebrow">{{ n.date_h }}{% if n.kicker %} · {{ n.kicker }}{% endif %}</span><h2>{{ n.title }}</h2><p>{{ n.dek }}</p></div>
+  </a>{% else %}<p class="fn-dek" style="color:var(--body)">The first note is on its way.</p>{% endfor %}
+</div></div>
+{% endblock %}
