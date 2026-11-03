@@ -131,12 +131,15 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
   }
   function select(el){ var t = el.closest('.col').querySelector('.pitch'); if (!t) return; var r = document.createRange(); r.selectNodeContents(t); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
 
+  function isToday(r){ return !!r.send_today && (r.status || 'To pitch') === 'To pitch'; }
   function strip(){
     var counts = {}; STATUSES.forEach(function(s){ counts[s] = 0; });
     rows.forEach(function(r){ counts[r.status || 'To pitch'] = (counts[r.status || 'To pitch'] || 0) + 1; });
     var ready = rows.filter(function(r){ return (r.draft || r.link_draft) && (r.status || 'To pitch') === 'To pitch'; }).length;
     var links = rows.filter(function(r){ return r.link_draft && (r.status || 'To pitch') === 'To pitch'; }).length;
+    var today = rows.filter(isToday).length;
     var h = '<button type="button" data-s="" aria-pressed="' + (filterStatus === '') + '"><b>' + rows.length + '</b><span>All shops</span></button>';
+    h += '<button type="button" data-s="__today" aria-pressed="' + (filterStatus === '__today') + '"><b>' + today + '</b><span>★ Send today</span></button>';
     h += '<button type="button" data-s="__ready" aria-pressed="' + (filterStatus === '__ready') + '"><b>' + ready + '</b><span>Ready to send</span></button>';
     h += '<button type="button" data-s="__links" aria-pressed="' + (filterStatus === '__links') + '"><b>' + links + '</b><span>Link asks</span></button>';
     STATUSES.forEach(function(s){ h += '<button type="button" data-s="' + s + '" aria-pressed="' + (filterStatus === s) + '"><b>' + counts[s] + '</b><span>' + s + '</span></button>'; });
@@ -147,7 +150,8 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
     strip();
     var q = $('q').value.trim().toLowerCase(), f = $('fam').value, he = $('hasEmail').checked, so = $('sort').value;
     var list = rows.filter(function(r){
-      if (filterStatus === '__ready') { if (!((r.draft || r.link_draft) && (r.status || 'To pitch') === 'To pitch')) return false; }
+      if (filterStatus === '__today') { if (!isToday(r)) return false; }
+      else if (filterStatus === '__ready') { if (!((r.draft || r.link_draft) && (r.status || 'To pitch') === 'To pitch')) return false; }
       else if (filterStatus === '__links') { if (!(r.link_draft && (r.status || 'To pitch') === 'To pitch')) return false; }
       else if (filterStatus && (r.status || 'To pitch') !== filterStatus) return false;
       if (f && (r.families || []).indexOf(f) < 0) return false;
@@ -177,7 +181,7 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
       var opts = STATUSES.map(function(s){ return '<option' + (s === st ? ' selected' : '') + '>' + s + '</option>'; }).join('');
       return '<details class="shop" data-id="' + esc(r.id) + '"' + (open[r.id] ? ' open' : '') + '><summary>' +
         '<div class="nm"><span class="tier ' + esc(r.tier) + '">' + esc(r.tier || '') + '</span><strong>' + esc(r.company || r.domain) + '</strong><span class="dom">' + esc(r.domain) + '</span></div>' +
-        '<div class="meta">' + (r.kind === 'link' ? '<span class="reach">Link request</span>' : '<span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span>') + '<span>' + esc(fams(r).join(', ')) + '</span>' + (r.draft ? '<span class="reach">✎ draft ready</span>' : '') + (r.link_draft ? '<span class="reach">🔗 link ask' + (r.likelihood ? ' · ' + esc(r.likelihood) : '') + '</span>' : '') + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
+        '<div class="meta">' + (isToday(r) ? '<span class="reach">★ Send today</span>' : '') + (r.kind === 'link' ? '<span class="reach">Link request</span>' : '<span class="reach">' + (r.pages || 0) + ' pages · ' + (r.repair_pages || 0) + ' repair guides</span>') + '<span>' + esc(fams(r).join(', ')) + '</span>' + (r.draft ? '<span class="reach">✎ draft ready</span>' : '') + (r.link_draft ? '<span class="reach">🔗 link ask' + (r.likelihood ? ' · ' + esc(r.likelihood) : '') + '</span>' : '') + (r.email ? '<span>✉ email</span>' : (r.contact_form ? '<span>form only</span>' : '')) + (r.sent ? '<span>sent ' + esc(r.sent) + '</span>' : '') + '</div>' +
         '<span class="pill ' + st.replace(' ', '') + '">' + esc(st) + '</span></summary>' +
         '<div class="body"><div class="col"><span class="h">Who to contact</span><dl>' + contact + '</dl>' +
         (r.what ? '<p class="note"><b>What they do:</b> ' + esc(r.what) + '</p>' : '') +
@@ -227,6 +231,7 @@ textarea { width: 100%; min-height: 70px; resize: vertical; }
       db = d;
       db.collection('shops').onSnapshot(function(snap){
         rows = snap.docs.map(function(doc){ var x = Object.assign({}, doc.data()); x.id = doc.id; return x; });
+        if (!window.__btFirst) { window.__btFirst = 1; if (rows.some(isToday)) filterStatus = '__today'; }
         render();
       }, function(){ $('banner').hidden = false; $('banner').textContent = 'The shop list stopped updating. Reload the page.'; });
     });
