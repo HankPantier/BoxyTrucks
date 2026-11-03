@@ -3,7 +3,7 @@ title: "Jeep just put independent front suspension on a Wrangler. Don’t panic.
 seo_title: "Jeep Wrangler Scrambler SRT: IFS on a Wrangler, explained"
 kicker: SEMA 2026
 date: 2026-11-03
-status: draft
+status: published
 dek: "The Wrangler Scrambler SRT concept is the first Wrangler ever without a solid front axle. It’s a desert runner, not a Rubicon replacement, and here’s what that means if you’re shopping."
 byline_note: "two TJ Unlimiteds, four IFS 4Runners"
 image: img/jeep/jl-johnson-valley-boulders.jpg
