@@ -786,6 +786,7 @@ html { scroll-padding-top: 90px; }
 .site-footer .foot-about:hover { text-decoration: underline; }
 
 .site-footer .foot-social + .foot-social { margin-left: 22px; }
+@media (max-width: 640px) { .site-footer .foot-social { display: flex; } .site-footer .foot-social + .foot-social { margin-left: 0; margin-top: 12px; } }
 
 /* Sponsor card */
 .sp-card { display: flex; flex-direction: column; gap: 10px; padding: 18px; border: 1px solid var(--brass); background: #F7F4EE; }

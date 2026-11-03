@@ -29,9 +29,11 @@ GA_MEASUREMENT_ID = 'G-XHC493ES9X'
 SITE_NAME = 'BoxyTrucks'
 INSTAGRAM_URL = 'https://www.instagram.com/boxytrucks/'
 X_URL = 'https://x.com/boxytrucks'
+YOUTUBE_URL = 'https://www.youtube.com/@BoxyTrucks'
+TIKTOK_URL = 'https://www.tiktok.com/@boxytrucks'
 LAUNCH_DATE = '2026-10-22'
 PERSON = {'@type': 'Person', 'name': 'Hank Pantier', 'url': 'https://boxytrucks.com/about/', 'jobTitle': 'Founder and editor, BoxyTrucks'}
-PUBLISHER = {'@type': 'Organization', 'name': 'BoxyTrucks', 'url': 'https://boxytrucks.com/', 'logo': {'@type': 'ImageObject', 'url': 'https://boxytrucks.com/img/logo.png', 'width': 512, 'height': 512}, 'sameAs': ['https://www.instagram.com/boxytrucks/', 'https://x.com/boxytrucks']}
+PUBLISHER = {'@type': 'Organization', 'name': 'BoxyTrucks', 'url': 'https://boxytrucks.com/', 'logo': {'@type': 'ImageObject', 'url': 'https://boxytrucks.com/img/logo.png', 'width': 512, 'height': 512}, 'sameAs': ['https://www.instagram.com/boxytrucks/', 'https://x.com/boxytrucks', 'https://www.youtube.com/@BoxyTrucks', 'https://www.tiktok.com/@boxytrucks']}
 
 SEARCH_NAMES = json.loads((Path(__file__).parent / 'data' / 'search_names.json').read_text())
 BEST_Q_EARLY = re.compile(r'best (model )?years?|which years?|years? (to|should I) (buy|avoid)', re.I)
@@ -650,7 +652,7 @@ def main():
         env.globals['amazon_on'] = any(p['name'] == 'Amazon Associates' and p.get('params') for p in AFFILIATES)
         env.globals.update(img=lambda fs, f: f'{root}img/{fs}/{f}',
                            gen_href=lambda fs, gs: (lambda a: f'{root}models/{a[0]}/{a[1]}.html' if gen_exists(*a) else None)(ALIASES.get((fs, gs), (fs, gs))),
-                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS, garage_keys=GARAGE_KEYS, instagram_url=INSTAGRAM_URL, x_url=X_URL)
+                           mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS, garage_keys=GARAGE_KEYS, instagram_url=INSTAGRAM_URL, x_url=X_URL, youtube_url=YOUTUBE_URL, tiktok_url=TIKTOK_URL)
         path = pretty_path(out)
         canonical = SITE_URL + path
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
@@ -1008,7 +1010,7 @@ def main():
                     it = r[kind][0]
                     home_res.append({'kind': lab, 'name': it['name'], 'url': it['url'], 'focus': fams[slug]['name'].upper()})
 
-    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg', 'sameAs': [INSTAGRAM_URL, X_URL]}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title="BoxyTrucks: Buyer's Guides to Boxy 4x4s & SUVs",
+    render('home.html', 'index.html', '', active='home', jsonld=[{'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE_NAME, 'url': SITE_URL, 'description': 'An enthusiast guide to boxy 4x4s: history, buying checks, repairs, parts and mods for every generation.', 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': SITE_URL + 'search/?q={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@context': 'https://schema.org', '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': SITE_URL + 'img/home/lc80-georgia.jpg', 'sameAs': [INSTAGRAM_URL, X_URL, YOUTUBE_URL, TIKTOK_URL]}, {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in faqs]}], title="BoxyTrucks: Buyer's Guides to Boxy 4x4s & SUVs",
            description="Buyer's guides to boxy 4x4s and SUVs: Land Cruiser, 4Runner, G-Wagon, Defender, K5 Blazer, Bronco, Jeep XJ and more. Best years, problems, DIY repairs and specs.",
            garage=garage[:8], faqs=faqs, stories=STORIES, suppliers=suppliers, socials=home_res,
            credits=', '.join(HOME_CREDITS) + ' and others via Unsplash and Pexels')
@@ -1280,7 +1282,7 @@ def main():
            title='Partner with BoxyTrucks — sponsorship for 4x4 specialists', description='Sponsorship packages for parts suppliers and specialists: put your shop on the guides and repair pages for the trucks you know best.', credits='')
     render('about.html', 'about/index.html', '../', active='', title='About BoxyTrucks: how we research and make money', description='Who makes BoxyTrucks, how every guide is sourced, how best years are chosen, how we make money and how to send corrections.', credits='',
            crumbs=[('About', 'about/')], n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps,
-           jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL], 'founder': dict(PERSON, description='Has owned two Jeep LJs, a 60 and an 80 Series Land Cruiser, an FJ Cruiser, four 4Runners and a 2007 Mercedes G500; building websites since 2001.', homeLocation={'@type': 'Place', 'name': 'Upstate South Carolina'})}}])
+           jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL, YOUTUBE_URL, TIKTOK_URL], 'founder': dict(PERSON, description='Has owned two Jeep LJs, a 60 and an 80 Series Land Cruiser, an FJ Cruiser, four 4Runners and a 2007 Mercedes G500; building websites since 2001.', homeLocation={'@type': 'Place', 'name': 'Upstate South Carolina'})}}])
     render('disclaimer.html', 'about/disclaimer.html', '../', active='', title='Disclaimer — BoxyTrucks', description='BoxyTrucks specs, fluids and repair guides are for general information: verify against your manual or a qualified mechanic.', credits='', crumbs=[('Disclaimer', 'about/disclaimer.html')])
     render('cookies.html', 'about/cookies.html', '../', active='', title='Cookies — BoxyTrucks', description='The cookies BoxyTrucks sets (Google Analytics only), how long they last, and how to accept, refuse or change your choice.', credits='', crumbs=[('Cookies', 'about/cookies.html')])
     render('disclosure.html', 'about/affiliate-disclosure.html', '../', active='', title='Affiliate disclosure — BoxyTrucks', description='How BoxyTrucks uses affiliate links, including Amazon Associates, what we earn from them and why it never changes what we recommend.', credits='', crumbs=[('Affiliate disclosure', 'about/affiliate-disclosure.html')])
@@ -1442,6 +1444,8 @@ def main():
           f'- [About]({SITE_URL}about/): how BoxyTrucks researches and makes money',
           f'- [Instagram @boxytrucks]({INSTAGRAM_URL}): our posts and reader builds',
           f'- [X @boxytrucks]({X_URL}): buying tips and new guides',
+          f'- [YouTube @BoxyTrucks]({YOUTUBE_URL}): short buying-guide videos',
+          f'- [TikTok @boxytrucks]({TIKTOK_URL}): short buying-guide videos',
           f'- [Mods & builders]({SITE_URL}mods/): suppliers and builders, by model',
           f'- [Resources]({SITE_URL}resources/): YouTube, Instagram, forums and references, by model',
           f'- [For sale]({SITE_URL}for-sale/): AutoTempest and Bring a Trailer searches for every generation',
