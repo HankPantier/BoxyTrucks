@@ -22,3 +22,8 @@ Page views summed by URL family, 611 views total. The site has been live since a
 ## Changes made today for click-through
 - Best-years and generation pages now put the verdict in the meta description ("Best years: 2005–08. Avoid: 2002–04."), so the answer shows in Google results.
 - Re-requested indexing for /models/g-class/best-years/. The daily quota ran out after that one, so the FJ62, 500 GE, Range Rover best-years, LX470/GX460 years, Trooper II years, G500 problems, /tires/ and /which-4x4/ requests carry to the next run.
+
+## Indexing, Nov 3
+- /models/land-cruiser/fj62/: indexing requested.
+- /models/g-class/500ge/ and /models/range-rover/best-years/: already indexed ("URL is on Google"), so no request needed. Google returned "something went wrong" on the 500 GE resubmit.
+- Chrome kept disconnecting during long waits, so the remaining 7 (LX470 and GX460 years, Trooper II years, G500 problems, /tires/, /which-4x4/, K5 1st gen) are rescheduled for 1:13 PM. Only pages "not on Google" get a request.
