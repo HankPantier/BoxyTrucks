@@ -283,12 +283,18 @@
   "n": "deal-eurowise",
   "date": "2026-11-04",
   "format": "single",
-  "status": "queued",
+  "status": "posted",
   "note": "Hank, Nov 4 2026: as soon as Eurowise sends the 5% reader code (Mercedes products, valid to Jan 4, 2027), make a social post for it on Instagram, X, Pinterest (plus a Reel for YouTube/TikTok if it fits), and add the code to the site's deals spot and the next Dispatch. Off-road G-Class photo only; disclose that we may earn from Eurowise later. Post it within a day of getting the code, as an extra post on top of the daily one. To turn the code on: put it in data/deals.json (eurowise-2026 'code'), check 'covers', build and push. The top bar (G-Class pages), /deals/ and the chips beside Eurowise links all appear automatically and switch off after Jan 4, 2027.",
   "link": "deals/",
   "image": "social/posts/deal-eurowise.jpg",
   "caption": "G-Wagen parts discount for Boxy Trucks readers: 5% off Eurowise G-Class parts.\n\nEurowise in Charlotte makes G-Class parts and accessories, and they've given our readers code BOXYTRUCKS5: 5% off everything Eurowise makes itself, through January 3. Unlimited uses. It doesn't stack with their Black Friday sale; you get whichever discount is bigger.\n\nShop by vehicle at shop.eurowise.com, or find the code anytime at boxytrucks.com/deals (link in bio).\n\nG-Class owners: what's the next part going on yours?\n\nPhoto: Bahnfrend, CC BY-SA 3.0 (W463s on the Schöckl)\n\n#gwagon #gclass #w463 #g500 #mercedesgclass",
   "x_text": "G-Class owners: Eurowise gave our readers 5% off the parts they make.\n\nCode BOXYTRUCKS5, through Jan 3. Doesn't stack with their Black Friday sale.\n\nDetails: boxytrucks.com/deals/\n\nPhoto: Bahnfrend, CC BY-SA 3.0",
-  "x_status": "queued"
+  "x_status": "posted",
+  "posted": "2026-11-04",
+  "ig_url": "https://www.instagram.com/boxytrucks/p/DfU7tOOHHPf/",
+  "x_posted": "2026-11-04",
+  "x_url": "https://x.com/boxytrucks/status/2118024285411479807",
+  "pin_status": "posted",
+  "pin_url": "https://www.pinterest.com/pin/1128292512945454451/"
  }
 ]

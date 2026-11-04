@@ -24,6 +24,7 @@
 | Nov 2, 2026 | Cross-post of IG #6, "Defender, Grenadier or G-Class?", link to /compare/defender-vs-grenadier-vs-g-class/. Image: `posts/06-defender-grenadier-g.jpg` | https://x.com/boxytrucks/status/2117313235871223924 |
 | Nov 3, 2026 | Field Notes extra: "Jeep just put IFS on a Wrangler", 4 slides, link to /field-notes/jeep-wrangler-scrambler-srt-ifs/ | https://x.com/boxytrucks/status/2117663254029734230 |
 | Nov 3, 2026 | Cross-post of IG #7, "Land Cruiser year to look for", 4 of 6 slides, link to /models/land-cruiser/best-years/ | https://x.com/boxytrucks/status/2117675379238588783 |
+| Nov 4, 2026 | Reader deal: Eurowise 5% code BOXYTRUCKS5, link to /deals/ | https://x.com/boxytrucks/status/2118024285411479807 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious

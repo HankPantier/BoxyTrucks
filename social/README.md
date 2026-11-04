@@ -42,6 +42,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Nov 2, 2026 | "Defender, Grenadier or G-Class?" (12:50pm), link to /compare/defender-vs-grenadier-vs-g-class/. https://www.instagram.com/p/DfP4KseOe2f/ | `posts/06-defender-grenadier-g.jpg` |
 | Nov 3, 2026 | Field Notes extra post: "Jeep just put IFS on a Wrangler. Don't panic." 4-slide carousel linking /field-notes/jeep-wrangler-scrambler-srt-ifs/. https://www.instagram.com/p/DfSXfOAHET8/ | `posts/fn01-jeep-scrambler-ifs-1..4.jpg` |
 | Nov 3, 2026 | "Land Cruiser best years" 6-slide carousel (n=7), link to /models/land-cruiser/best-years/. https://www.instagram.com/p/DfSaTNiHAg2/ | `posts/07-land-cruiser-sweet-spots-1..6.jpg` |
+| Nov 4, 2026 | Reader deal: Eurowise 5% code BOXYTRUCKS5 (G-Class), link to /deals/. https://www.instagram.com/p/DfU7tOOHHPf/ | `posts/deal-eurowise.jpg` |
 
 ## Following
 `follow-targets.json` lists the accounts @boxytrucks follows: brands, media, lifestyle (Huckberry, YETI, Filson…) and the builders, parts shops and clubs already vetted on the site's resources pages. Each entry is `todo` or `followed` with a date.
