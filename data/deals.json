@@ -4,15 +4,21 @@
   {
    "id": "eurowise-2026",
    "shop": "Eurowise",
-   "url": "https://shop.eurowise.com/",
-   "domains": ["shop.eurowise.com", "eurowise.com"],
-   "code": "",
+   "url": "https://shop.eurowise.com/pages/shop-by-vehicle",
+   "domains": [
+    "shop.eurowise.com",
+    "eurowise.com"
+   ],
+   "code": "BOXYTRUCKS5",
    "discount": "5% off",
-   "covers": "Mercedes G-Class parts and accessories",
-   "families": ["g-class"],
+   "covers": "G-Class parts and accessories",
+   "families": [
+    "g-class"
+   ],
    "start": "2026-11-04",
-   "end": "2027-01-04",
-   "note": "Waiting on the code from Colin (colin@eurowise.com). Fill in code, check 'covers' against what Eurowise says, and it goes live on the next build."
+   "end": "2027-01-03",
+   "note": "Live Nov 4, 2026 from Colin (colin@eurowise.com). Code also covers their Cayenne, Touareg, Q7 and older VW parts, but we only show it on G-Class pages. Link to Shop By Vehicle, not the All Eurowise Products collection (Colin asked). Joint data review Jan 4, 2027; fraudulent or cancelled orders do not count.",
+   "terms": "Covers products Eurowise makes itself; third-party shock sets (Bilstein, Fox, King) without Eurowise parts are excluded. Unlimited uses. Doesn’t stack with other discounts: during Eurowise’s Black Friday sale you get whichever discount is higher. Ends at midnight on January 4, 2027."
   }
  ]
 }

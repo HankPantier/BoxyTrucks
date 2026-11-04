@@ -15,7 +15,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 <title>Reader deals: discount codes for boxy 4x4 parts | BoxyTrucks</title>
 <meta name="description" content="Discount codes for BoxyTrucks readers from the parts shops and specialists we link to, by truck: what each code covers and when it ends.">
 <link rel="canonical" href="https://boxytrucks.com/deals/">
-<meta name="robots" content="noindex">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:site_name" content="BoxyTrucks">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Reader deals: discount codes for boxy 4x4 parts | BoxyTrucks">
@@ -70,7 +70,11 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
   <p class="fn-dek">Codes from the parts shops and specialists our guides already link to, arranged for our readers. Each one says what it covers and when it ends; expired codes come off this page automatically.</p>
 </div></section>
 <div class="wrap section"><div class="deals-list">
-  <p class="deals-empty">No reader codes are running right now. We add them as shops sign on, and every new one goes out in <a class="inline-link" href="/#nl-h">The Boxy Dispatch</a> first.</p>
+  <article class="deal-card" id="eurowise-2026">
+    <div class="deal-card-head"><span class="eyebrow">Mercedes-Benz G-Class</span><h2>5% off at Eurowise</h2></div>
+    <p>G-Class parts and accessories. Valid through January 3, 2027.</p><p class="deal-terms">Covers products Eurowise makes itself; third-party shock sets (Bilstein, Fox, King) without Eurowise parts are excluded. Unlimited uses. Doesn’t stack with other discounts: during Eurowise’s Black Friday sale you get whichever discount is higher. Ends at midnight on January 4, 2027.</p>
+    <div class="deal-card-row"><button type="button" class="deal-code" data-copy="BOXYTRUCKS5" aria-label="Copy code BOXYTRUCKS5">BOXYTRUCKS5</button><a class="btn" href="https://shop.eurowise.com/pages/shop-by-vehicle" target="_blank" rel="noopener sponsored" data-deal-click="eurowise-2026">Shop Eurowise ↗</a></div>
+  </article>
   <p class="deals-note">How this works: these shops give BoxyTrucks readers a discount, and some may later pay us a small commission on sales we send them. It never changes which parts or shops our guides recommend. Codes are set by each shop; check the terms at checkout. Run a shop and want to offer one? <a class="inline-link" href="/partner/">Partner with us</a>.</p>
 </div></div>
 <script>
@@ -158,6 +162,16 @@ document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEve
 if(!get())b.hidden=false;})();
 </script>
 <script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}window.vglnk={key:'b4096a51d5284fc0c947201437e7e75b'};var go=function(){var s=document.createElement('script');s.async=true;s.src='https://cdn.viglink.com/api/vglnk.js';document.body.appendChild(s);};if(window.btAfterLoad)btAfterLoad(go);else window.addEventListener('load',go);})();</script>
-
+<script>
+(function(){var b=document.querySelector('[data-deal-bar]');if(!b)return;var k='btDealX:'+b.getAttribute('data-deal-bar'),x=null;
+try{x=localStorage.getItem(k);}catch(e){}if(!x)b.hidden=false;
+b.querySelector('.deal-bar-x').addEventListener('click',function(){b.hidden=true;try{localStorage.setItem(k,'1');}catch(e){}});
+var c=b.querySelector('[data-copy]');c.addEventListener('click',function(){var t=c.getAttribute('data-copy'),o=c.textContent;
+function done(){c.textContent='Copied';setTimeout(function(){c.textContent=o;},1600);}
+if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){});}else{done();}
+if(typeof gtag==='function')gtag('event','deal_code_copy',{deal:b.getAttribute('data-deal-bar')});});
+document.querySelectorAll('[data-deal-click]').forEach(function(a){a.addEventListener('click',function(){if(typeof gtag==='function')gtag('event','deal_click',{deal:a.getAttribute('data-deal-click')});});});
+})();
+</script>
 </body>
 </html>

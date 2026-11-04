@@ -216,6 +216,16 @@ document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEve
 if(!get())b.hidden=false;})();
 </script>
 <script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}window.vglnk={key:'b4096a51d5284fc0c947201437e7e75b'};var go=function(){var s=document.createElement('script');s.async=true;s.src='https://cdn.viglink.com/api/vglnk.js';document.body.appendChild(s);};if(window.btAfterLoad)btAfterLoad(go);else window.addEventListener('load',go);})();</script>
-
+<script>
+(function(){var b=document.querySelector('[data-deal-bar]');if(!b)return;var k='btDealX:'+b.getAttribute('data-deal-bar'),x=null;
+try{x=localStorage.getItem(k);}catch(e){}if(!x)b.hidden=false;
+b.querySelector('.deal-bar-x').addEventListener('click',function(){b.hidden=true;try{localStorage.setItem(k,'1');}catch(e){}});
+var c=b.querySelector('[data-copy]');c.addEventListener('click',function(){var t=c.getAttribute('data-copy'),o=c.textContent;
+function done(){c.textContent='Copied';setTimeout(function(){c.textContent=o;},1600);}
+if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){});}else{done();}
+if(typeof gtag==='function')gtag('event','deal_code_copy',{deal:b.getAttribute('data-deal-bar')});});
+document.querySelectorAll('[data-deal-click]').forEach(function(a){a.addEventListener('click',function(){if(typeof gtag==='function')gtag('event','deal_click',{deal:a.getAttribute('data-deal-click')});});});
+})();
+</script>
 </body>
 </html>

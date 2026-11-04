@@ -46,7 +46,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 {% if _deal and active != 'deals' %}<div class="deal-bar" data-deal-bar="{{ _deal.id }}-{{ _deal.code }}" hidden>
   <div class="wrap deal-bar-in">
     <span class="deal-bar-tag">Reader deal</span>
-    <span class="deal-bar-text"><strong>{{ _deal.discount }}</strong> {{ _deal.covers }} at <a href="{{ _deal.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ _deal.id }}">{{ _deal.shop }}</a> with code <button type="button" class="deal-bar-code" data-copy="{{ _deal.code }}" aria-label="Copy code {{ _deal.code }}">{{ _deal.code }}</button>{% if _deal.end_h %} <span class="deal-bar-end">until {{ _deal.end_h }}</span>{% endif %}</span>
+    <span class="deal-bar-text"><strong>{{ _deal.discount }}</strong> {{ _deal.covers }} at <a href="{{ _deal.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ _deal.id }}">{{ _deal.shop }}</a> with code <button type="button" class="deal-bar-code" data-copy="{{ _deal.code }}" aria-label="Copy code {{ _deal.code }}">{{ _deal.code }}</button>{% if _deal.end_h %} <span class="deal-bar-end">through {{ _deal.end_h }}</span>{% endif %}</span>
     <a class="deal-bar-all" href="{{ root }}deals/index.html">All reader deals →</a>
     <button type="button" class="deal-bar-x" aria-label="Dismiss this deal">×</button>
   </div>

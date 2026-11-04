@@ -953,3 +953,4 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .deal-bar-in { position: relative; padding-right: 36px; }
 .deal-bar-x { position: absolute; right: 0; top: 50%; transform: translateY(-50%); margin: 0; }
 @media (max-width: 640px) { .deal-bar-end, .deal-bar-tag { display: none; } .deal-bar { font-size: 13px; } .deal-bar-x { top: 10px; transform: none; } }
+.deal-card p.deal-terms { font-family: var(--sans, "Inter Tight", sans-serif); font-size: 14px; line-height: 21px; color: var(--stone); }

@@ -8,7 +8,7 @@
 <div class="wrap section"><div class="deals-list">
   {% for d in deals %}<article class="deal-card" id="{{ d.id }}">
     <div class="deal-card-head"><span class="eyebrow">{% for f in d.families %}{% if f == '*' %}Every truck{% else %}{{ (families[f].maker ~ ' ' ~ families[f].name) if f in families else f }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span><h2>{{ d.discount }} at {{ d.shop }}</h2></div>
-    <p>{{ d.covers }}.{% if d.end_h %} Valid until {{ d.end_h }}.{% endif %}</p>
+    <p>{{ d.covers }}.{% if d.end_h %} Valid through {{ d.end_h }}.{% endif %}</p>{% if d.terms %}<p class="deal-terms">{{ d.terms }}</p>{% endif %}
     <div class="deal-card-row"><button type="button" class="deal-code" data-copy="{{ d.code }}" aria-label="Copy code {{ d.code }}">{{ d.code }}</button><a class="btn" href="{{ d.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ d.id }}">Shop {{ d.shop }} ↗</a></div>
   </article>{% else %}<p class="deals-empty">No reader codes are running right now. We add them as shops sign on, and every new one goes out in <a class="inline-link" href="{{ root }}index.html#nl-h">The Boxy Dispatch</a> first.</p>{% endfor %}
   <p class="deals-note">How this works: these shops give BoxyTrucks readers a discount, and some may later pay us a small commission on sales we send them. It never changes which parts or shops our guides recommend. Codes are set by each shop; check the terms at checkout. Run a shop and want to offer one? <a class="inline-link" href="{{ root }}partner/index.html">Partner with us</a>.</p>
