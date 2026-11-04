@@ -269,23 +269,25 @@ TIRE_RE = re.compile(r'(?<![\d.])(?:LT|P)?(\d{3})/(\d{2})\s?R\s?(\d{2})(?!\d)|(?
 
 
 def tire_sizes(*texts):
-    """Distinct tire sizes in the order they appear, each with Tire Rack and Amazon search links."""
+    """Distinct tire sizes in the order they appear, each with Tire Rack, Mavis and Amazon search links."""
     out, seen = [], set()
     for t in texts:
         for m in TIRE_RE.finditer(str(t or '')):
             if m.group(1):
                 w, r, d = m.group(1), m.group(2), m.group(3)
                 size, tr = f'{w}/{r}R{d}', f'https://www.tirerack.com/tires/TireSearchResults.jsp?width={w}/&ratio={r}&diameter={d}'
+                mv = f'https://www.mavis.com/tire-results/{w}{r}{d}/'
             else:
                 h, wd, d = m.group(4), m.group(5), m.group(6)
                 wd = f'{float(wd):.2f}'
                 if not (27 <= int(h) <= 42):
                     continue
                 size, tr = f'{h}x{wd}R{d}', f'https://www.tirerack.com/tires/TireSearchResults.jsp?width={h}X&ratio={wd}&diameter={d}'
+                mv = f'https://www.mavis.com/tire-results/{h}{wd.replace(".", "")}{d}/'
             if size in seen:
                 continue
             seen.add(size)
-            out.append({'size': size, 'tirerack': tr, 'amazon': 'https://www.amazon.com/s?k=' + quote_plus(size + ' tire')})
+            out.append({'size': size, 'tirerack': tr, 'mavis': mv, 'amazon': 'https://www.amazon.com/s?k=' + quote_plus(size + ' tire')})
     return out
 
 

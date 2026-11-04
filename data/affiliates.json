@@ -296,6 +296,14 @@
    "status": "Skimlinks: DECLINED 2026-11-02 (site not suitable yet; they re-evaluate periodically). Script removed from base.html. Reapply once the site is ~3 months old with steady traffic. Sovrn Commerce: site submitted 2026-10-29, first link sovrn.co/13ab70y live on the RRC swivel-seal repair and clicked; awaiting site review. Use Sovrn for manual links only, never alongside a second auto-linking script. 2026-11-02: Sovrn Commerce JavaScript (VigLink) installed site-wide in base.html, consent-gated; site under Sovrn review (3–5 business days after first clicks). It is now the only auto-linking script.",
    "template": "",
    "domains": []
+  },
+  {
+   "name": "Mavis Tire (CJ 6806019)",
+   "domains": [
+    "mavis.com"
+   ],
+   "status": "ACTIVE: approved 2026-11-04. 5% on tires only (not install or services), completed in store after starting on mavis.com; 30-day referral; AOV about $500. Stores in AL, CT, DE, FL, GA, IL, IN, LA, MA, MD, MO, MS, NC, NH, NJ, NY, OH, PA, RI, SC, TN, TX, VA, WI, WV (Mavis, NTB, Tire Kingdom). No branded terms or misspellings in SEM display URLs. Size search https://www.mavis.com/tire-results/{w}{r}{d}/ on every tires page.",
+   "template": "https://www.anrdoezrs.net/links/101914596/type/dlg/{raw}"
   }
  ]
 }

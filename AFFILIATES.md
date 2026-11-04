@@ -46,7 +46,8 @@
 ## CJ status, Nov 4, 2026
 - Active: Eastwood, PartsGeek, TOPOAK Overland.
 - Declined: The Tire Rack, PriorityTire, Discount Tire. Reapply once Search Console shows steady traffic.
-- Pending: CanvasCamp, CJ Pony Parts, FinditParts, Valvoline, plus new applications sent Nov 4: SimpleTire (5%, the Tire Rack replacement for the tire size links), German Car Accessories (3%), KSP Performance (7.5%), Mavis Tires (5%).
+- Pending: CanvasCamp, CJ Pony Parts, FinditParts, Valvoline, plus new applications sent Nov 4: SimpleTire (5%, the Tire Rack replacement for the tire size links), German Car Accessories (3%), KSP Performance (7.5%).
+- Mavis Tire (CJ 6806019): APPROVED Nov 4. 5% on tires only, bought on mavis.com and installed in a store (Mavis, NTB, Tire Kingdom; East and South only), 30-day referral. A "Mavis" size-search button now sits beside Tire Rack and Amazon on every tires page (97 pages), wrapped by the CJ template. Tested: lands on the size page with cjevent.
 - Speedway Motors (1%) and AutoNation Parts (3%): the Apply button greys out but no application registers. Hank to apply by hand.
 - Shortlisted but not applied: Nilight (LED bars, 12%), Zoro (tools, 4%), Sportsman's Guide, Coleman.
 - When SimpleTire approves: add it to data/affiliates.json and point the tire size links at it.
