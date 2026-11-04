@@ -2,11 +2,11 @@
  {
   "month": "2026-11",
   "program": "Amazon Associates",
-  "detail": "Tracking ID boxytrucks-20 only (the account also holds pullabook-20)",
-  "earnings": null,
-  "clicks": null,
-  "orders": null,
-  "status": "Not read yet",
+  "detail": "Tracking ID boxytrucks-20 only, last 30 days to Nov 3 (read Nov 4). Tags were off Nov 3-4 from the affiliates.json bug",
+  "earnings": 0,
+  "clicks": 0,
+  "orders": 0,
+  "status": "Confirmed",
   "source": "affiliate-program.amazon.com"
  },
  {
@@ -16,17 +16,17 @@
   "earnings": null,
   "clicks": null,
   "orders": null,
-  "status": "Not read yet",
+  "status": "Needs Hank sign-in",
   "source": "members.cj.com"
  },
  {
   "month": "2026-11",
   "program": "Sovrn Commerce",
-  "detail": "Auto-linked merchant links",
+  "detail": "Approval pending (1-3 business days). Clicks before approval do not earn",
   "earnings": null,
   "clicks": null,
   "orders": null,
-  "status": "Not read yet",
+  "status": "Site under review",
   "source": "platform.sovrn.com"
  },
  {
@@ -36,7 +36,7 @@
   "earnings": null,
   "clicks": null,
   "orders": null,
-  "status": "Not read yet",
+  "status": "Needs Hank sign-in",
   "source": "partner.ebay.com"
  },
  {

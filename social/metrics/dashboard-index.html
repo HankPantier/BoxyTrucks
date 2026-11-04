@@ -147,7 +147,7 @@
 
   const GOAL = 1700;
   dash.calc('revenue_month', {title: 'Earnings this month', description: 'Sum of confirmed earnings for the latest month, and its share of the $1,700 monthly goal.', inputs: ['revenue'],
-    fn: (revenue) => { const m = d3.max(revenue, (r) => r.month); const rows = revenue.filter((r) => r.month === m); const confirmed = d3.sum(rows.filter((r) => r.status === 'Confirmed'), (r) => +r.earnings || 0); return [{month: m, confirmed, goal_share: confirmed / 1700, read: rows.filter((r) => r.status !== 'Not read yet').length, programs: rows.length}]; }});
+    fn: (revenue) => { const m = d3.max(revenue, (r) => r.month); const rows = revenue.filter((r) => r.month === m); const confirmed = d3.sum(rows.filter((r) => r.status === 'Confirmed'), (r) => +r.earnings || 0); return [{month: m, confirmed, goal_share: confirmed / 1700, read: rows.filter((r) => r.status === 'Confirmed').length, programs: rows.length}]; }});
   window.btMoney = d3.format('$,.2f');
   dash.draw('rev-month', (el) => { const d = dash.data('revenue_month'); el.textContent = d.status === 'ok' && d.data[0] ? btMoney(d.data[0].confirmed) : '—'; });
   dash.draw('rev-take', (el) => { const d = dash.data('revenue_month'); el.textContent = d.status === 'ok' && d.data[0] ? btMoney(d.data[0].confirmed) : '—'; });
