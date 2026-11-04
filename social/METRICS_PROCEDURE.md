@@ -7,12 +7,20 @@ Hank, Nov 4, 2026: track views for everything and use them to judge what to do n
 - `followers.json`: one row per channel per week (week = that Monday's date), followers. Append the new week; keep old weeks.
 - `site.json`: one row per measure per week (week, metric, label, value, period, source). Append. Measures: search_clicks, search_impressions, search_position, pages_indexed (Search Console, last 7 days); page_views, users (GA4, last 7 days); sessions_instagram, sessions_x, sessions_pinterest, sessions_youtube, sessions_tiktok, sessions_reddit, sessions_google (GA4 sessions by source, last 7 days); affiliate_clicks, newsletter_signups, deal_clicks, deal_code_copies (GA4 key events, last 7 days). Give every row a `label` in plain words.
 
+- `revenue.json`: one row per program per month (month YYYY-MM, program, detail, earnings in USD, clicks, orders, status, source). Update the current month's rows in place each Monday (month to date); start new rows on the 1st. `status` is "Confirmed" once read from the program's own report, "Pending" for earnings the program hasn't locked yet (say so in detail), "Not read yet" if the report couldn't be reached. Never estimate.
+
 ## Where each number comes from (Claude in Chrome; read only, change no settings)
 - **Instagram**: for each post on instagram.com/boxytrucks, open the post and run `social/metrics/ig_insights.js` with javascript_tool. It clicks View insights and returns views, viewers, likes, comments, saves, shares, profile visits, link taps and the non-follower share. Brand-new Reels may show no insights yet; leave them for next week. Followers from the profile header. Confirm the account is @boxytrucks first.
 - **X**: x.com/boxytrucks, scroll the timeline; each article's `[role=group]` aria-label holds its views. Followers from the profile.
 - **YouTube**: studio.youtube.com (Boxy Trucks channel only) → Content → Shorts: views and comments per Short. Subscribers from the dashboard.
 - **TikTok**: tiktok.com/tiktokstudio/content lists views, likes and comments per post. Followers from tiktok.com/@boxytrucks.
 - **Pinterest**: per-pin numbers need a business account (Hank's call; it's an account change). Until then record followers only.
+- **Revenue** (Hank asked Nov 4, 2026; read only, never change settings):
+  - Amazon Associates: affiliate-program.amazon.com → Reports. Earnings for **tracking ID boxytrucks-20 only** (the account also holds pullabook-20, Hank's other site): Commissions tab grouped by Tracking ID, or Download Reports → Tracking ID summary. Month to date: earnings, clicks, items ordered.
+  - CJ: members.cj.com → Reports → Performance (by advertiser), month to date: commissions, clicks, sales.
+  - Sovrn Commerce: platform.sovrn.com → Commerce reports, month to date: estimated earnings, clicks.
+  - eBay Partner Network: partner.ebay.com → Reports, campaign 5339233573, month to date: earnings, clicks.
+  - Sponsors: data/sponsors.json (paid amount; free months are 0).
 - **GA4** (property a401243700p560377838) and **Search Console** (sc-domain:boxytrucks.com): as in the scoreboard task.
 
 ## Publishing to the dashboard
