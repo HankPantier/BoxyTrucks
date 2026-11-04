@@ -69,3 +69,6 @@ In Instagram's insights, note each post's reach, saves, shares and profile visit
 
 ## Field Notes (Nov 3, 2026)
 Every published Field Note gets its own social push the same day: an IG carousel, an X post with the link, a Pinterest pin, and a YouTube Short and TikTok from the reel. It runs on top of the regular daily post (Hank OK'd multiple posts a day). See FIELD_NOTES.md.
+
+## Waiting on partners
+- **Eurowise reader code (Nov 4, 2026):** the day the code arrives, make a social post for it (queue item `deal-eurowise`), add it to the site's deals spot and the next Dispatch. The code runs to Jan 4, 2027.
