@@ -242,6 +242,22 @@ INSPECT_KIT = [
 ]
 
 
+def deal_chips(html, deals, root):
+    """Add a small 'code' chip after every in-content link to a shop with an active reader deal."""
+    head, sep, body = html.partition('<main>')
+    if not sep:
+        return html
+    main, sep2, tail = body.partition('</main>')
+    for d in deals:
+        doms = '|'.join(re.escape(x) for x in d.get('domains', []))
+        if not doms:
+            continue
+        pat = re.compile(r'(<a\b[^>]*href="[^"]*(?:' + doms + r')[^"]*"[^>]*>.*?</a>)(?!<a class="deal-chip")', re.S)
+        chip = f'<a class="deal-chip" href="{root}deals/index.html#{d["id"]}" data-deal="{d["id"]}" title="{_html.escape(d["discount"])} at {_html.escape(d["shop"])} with code {_html.escape(d["code"])}">{_html.escape(d["discount"])}: {_html.escape(d["code"])}</a>'
+        main = pat.sub(lambda m: '<span class="deal-wrap">' + m.group(1) + chip + '</span>', main)
+    return head + sep + main + sep2 + tail
+
+
 def inspect_kit(years=''):
     m = re.search(r'(19|20)\d\d', str(years or ''))
     pre_obd = bool(m) and int(m.group(0)) < 1996 and not re.search(r'(199[6-9]|20\d\d)', str(years or ''))
@@ -620,6 +636,18 @@ def main():
     NOTES.sort(key=lambda n: n['date'], reverse=True)
     env.globals['latest_notes'] = NOTES[:3]
 
+    # ---- Reader deals (data/deals.json): live only with a code and inside start..end ----
+    _today = datetime.date.today().isoformat()
+    DEALS = [d for d in (jload(DATA / 'deals.json') or {}).get('deals', [])
+             if d.get('code') and d.get('start', '0000') <= _today <= d.get('end', '9999')]
+    for d in DEALS:
+        _e = datetime.date.fromisoformat(d['end']) if d.get('end') else None
+        d['end_h'] = f'{_e:%B} {_e.day}, {_e.year}' if _e else ''
+    def deal_for(fam_slug=None):
+        return next((d for d in DEALS if fam_slug and fam_slug in d.get('families', [])), None) or next((d for d in DEALS if '*' in d.get('families', [])), None)
+    env.globals['deal_for'] = deal_for
+    env.globals['deals_on'] = bool(DEALS)
+
     def render(tpl, out, root, **ctx):
         def lk(text):
             if text is None:
@@ -682,6 +710,8 @@ def main():
             SITEMAP.append(canonical)
         html = env.get_template(tpl).render(root=root, families=fams, fam_list=fam_list, flagship=flagship, seo=seo, **ctx)
         html, _ = affiliate_rewrite(html, AFFILIATES)
+        if DEALS and tpl not in ('deals.html',):
+            html = deal_chips(html, DEALS, root)
         html = prettify_html(html, out)
         html = responsive_imgs(html)
         if 'TO RESEARCH' in html:
@@ -949,6 +979,9 @@ def main():
         items = ''.join(f'<item><title>{_x(n["title"])}</title><link>{SITE_URL}field-notes/{n["slug"]}/</link><guid>{SITE_URL}field-notes/{n["slug"]}/</guid><pubDate>{n["rfc822"]}</pubDate><description>{_x(n.get("dek"))}</description></item>' for n in NOTES[:20])
         (SITE / 'field-notes' / 'feed.xml').write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Boxy Trucks Field Notes</title><link>{SITE_URL}field-notes/</link><description>4x4 news, with an opinion, from BoxyTrucks.</description><language>en-us</language>{items}</channel></rss>\n')
 
+    render('deals.html', 'deals/index.html', '../', active='deals', deals=DEALS, noindex=not DEALS,
+           title='Reader deals: discount codes for boxy 4x4 parts | BoxyTrucks', description='Discount codes for BoxyTrucks readers from the parts shops and specialists we link to, by truck: what each code covers and when it ends.',
+           credits='', crumbs=[('Reader deals', 'deals/')])
     render('garage.html', 'garage/index.html', '../', active='garage', by_fam=by_fam, n_compare=len(compares), n_tires=len(tf_rows) if tf_rows else 0,
            crumbs=[('Garage', 'garage/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Garage', 'url': SITE_URL + 'garage/'}],

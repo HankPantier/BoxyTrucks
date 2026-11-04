@@ -42,6 +42,15 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 <meta name="theme-color" content="#0E0F0E">
 </head>
 <body>
+{% set _deal = deal_for(fam.slug if (fam is defined and fam is mapping) else None) if deals_on else None %}
+{% if _deal and active != 'deals' %}<div class="deal-bar" data-deal-bar="{{ _deal.id }}-{{ _deal.code }}" hidden>
+  <div class="wrap deal-bar-in">
+    <span class="deal-bar-tag">Reader deal</span>
+    <span class="deal-bar-text"><strong>{{ _deal.discount }}</strong> {{ _deal.covers }} at <a href="{{ _deal.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ _deal.id }}">{{ _deal.shop }}</a> with code <button type="button" class="deal-bar-code" data-copy="{{ _deal.code }}" aria-label="Copy code {{ _deal.code }}">{{ _deal.code }}</button>{% if _deal.end_h %} <span class="deal-bar-end">until {{ _deal.end_h }}</span>{% endif %}</span>
+    <a class="deal-bar-all" href="{{ root }}deals/index.html">All reader deals →</a>
+    <button type="button" class="deal-bar-x" aria-label="Dismiss this deal">×</button>
+  </div>
+</div>{% endif %}
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="{{ root }}index.html">{{ mark('#B0915A') }}<span>BOXY TRUCKS</span></a>
@@ -88,6 +97,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
       <a class="foot-social" href="{{ youtube_url }}" target="_blank" rel="noopener me" data-track="social_click"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.7 15V9l5.8 3-5.8 3Z"/></svg><span>Watch Boxy Trucks on YouTube</span></a>
       <a class="foot-social" href="{{ tiktok_url }}" target="_blank" rel="noopener me" data-track="social_click"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 1 0 5.3 6.2V8.6a8 8 0 0 0 4.7 1.5V6.8a4.8 4.8 0 0 1-4.7-4.8Z"/></svg><span>Follow @boxytrucks on TikTok</span></a>
       <a class="foot-about" href="{{ root }}about/index.html">About BoxyTrucks and who’s behind it →</a>
+      <a class="foot-about" href="{{ root }}deals/index.html">Reader deals: discount codes from the shops we link to →</a>
       <a class="foot-about" href="{{ root }}partner/index.html">Partner with us: sponsorship for 4x4 specialists →</a>
       {% if credits %}<p class="credits">Photography: {{ credits }}.</p>{% endif %}
     </div>
@@ -144,5 +154,16 @@ document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEve
 if(!get())b.hidden=false;})();
 </script>
 <script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}window.vglnk={key:'b4096a51d5284fc0c947201437e7e75b'};var go=function(){var s=document.createElement('script');s.async=true;s.src='https://cdn.viglink.com/api/vglnk.js';document.body.appendChild(s);};if(window.btAfterLoad)btAfterLoad(go);else window.addEventListener('load',go);})();</script>
+{% if deals_on %}<script>
+(function(){var b=document.querySelector('[data-deal-bar]');if(!b)return;var k='btDealX:'+b.getAttribute('data-deal-bar'),x=null;
+try{x=localStorage.getItem(k);}catch(e){}if(!x)b.hidden=false;
+b.querySelector('.deal-bar-x').addEventListener('click',function(){b.hidden=true;try{localStorage.setItem(k,'1');}catch(e){}});
+var c=b.querySelector('[data-copy]');c.addEventListener('click',function(){var t=c.getAttribute('data-copy'),o=c.textContent;
+function done(){c.textContent='Copied';setTimeout(function(){c.textContent=o;},1600);}
+if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){});}else{done();}
+if(typeof gtag==='function')gtag('event','deal_code_copy',{deal:b.getAttribute('data-deal-bar')});});
+document.querySelectorAll('[data-deal-click]').forEach(function(a){a.addEventListener('click',function(){if(typeof gtag==='function')gtag('event','deal_click',{deal:a.getAttribute('data-deal-click')});});});
+})();
+</script>{% endif %}
 </body>
 </html>

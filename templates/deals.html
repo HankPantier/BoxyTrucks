@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:64px;padding-bottom:52px;display:flex;flex-direction:column;gap:16px">
+  <span class="eyebrow brass">Reader deals</span>
+  <h1 style="font-size:clamp(40px,5.4vw,64px);line-height:1;letter-spacing:-0.02em;max-width:820px;text-wrap:balance">Discount codes for BoxyTrucks readers</h1>
+  <p class="fn-dek">Codes from the parts shops and specialists our guides already link to, arranged for our readers. Each one says what it covers and when it ends; expired codes come off this page automatically.</p>
+</div></section>
+<div class="wrap section"><div class="deals-list">
+  {% for d in deals %}<article class="deal-card" id="{{ d.id }}">
+    <div class="deal-card-head"><span class="eyebrow">{% for f in d.families %}{% if f == '*' %}Every truck{% else %}{{ (families[f].maker ~ ' ' ~ families[f].name) if f in families else f }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span><h2>{{ d.discount }} at {{ d.shop }}</h2></div>
+    <p>{{ d.covers }}.{% if d.end_h %} Valid until {{ d.end_h }}.{% endif %}</p>
+    <div class="deal-card-row"><button type="button" class="deal-code" data-copy="{{ d.code }}" aria-label="Copy code {{ d.code }}">{{ d.code }}</button><a class="btn" href="{{ d.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ d.id }}">Shop {{ d.shop }} ↗</a></div>
+  </article>{% else %}<p class="deals-empty">No reader codes are running right now. We add them as shops sign on, and every new one goes out in <a class="inline-link" href="{{ root }}index.html#nl-h">The Boxy Dispatch</a> first.</p>{% endfor %}
+  <p class="deals-note">How this works: these shops give BoxyTrucks readers a discount, and some may later pay us a small commission on sales we send them. It never changes which parts or shops our guides recommend. Codes are set by each shop; check the terms at checkout. Run a shop and want to offer one? <a class="inline-link" href="{{ root }}partner/index.html">Partner with us</a>.</p>
+</div></div>
+<script>
+document.querySelectorAll('.deal-code[data-copy]').forEach(function(c){c.addEventListener('click',function(){var t=c.getAttribute('data-copy'),o=c.textContent;function done(){c.textContent='Copied';setTimeout(function(){c.textContent=o;},1600);}if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){});}else{done();}if(typeof gtag==='function')gtag('event','deal_code_copy',{deal:c.closest('.deal-card').id});});});
+</script>
+{% endblock %}

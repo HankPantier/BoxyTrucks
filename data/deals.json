@@ -1,0 +1,18 @@
+{
+ "_readme": "Reader discount codes (Hank, Nov 4, 2026). A deal shows on the site only when it has a code and today is between start and end. families: truck-family slugs it applies to, or [\"*\"] for every page. The top bar shows the page's family deal (or a * deal); /deals/ lists every active deal; a code chip is added after every link to the deal's domains.",
+ "deals": [
+  {
+   "id": "eurowise-2026",
+   "shop": "Eurowise",
+   "url": "https://shop.eurowise.com/",
+   "domains": ["shop.eurowise.com", "eurowise.com"],
+   "code": "",
+   "discount": "5% off",
+   "covers": "Mercedes G-Class parts and accessories",
+   "families": ["g-class"],
+   "start": "2026-11-04",
+   "end": "2027-01-04",
+   "note": "Waiting on the code from Colin (colin@eurowise.com). Fill in code, check 'covers' against what Eurowise says, and it goes live on the next build."
+  }
+ ]
+}
