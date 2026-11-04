@@ -138,6 +138,7 @@ NAV = [
     {'key': 'models', 'label': 'MODELS', 'href': 'models/index.html'},
     {'key': 'garage', 'label': 'GARAGE', 'href': 'garage/index.html', 'children': [
         {'key': 'notes', 'label': 'Field Notes', 'href': 'field-notes/index.html'},
+        {'key': 'deals', 'label': 'Reader deals', 'href': 'deals/index.html'},
         {'key': 'repairs', 'label': 'Repair guides', 'href': 'repairs/index.html'},
         {'key': 'tires', 'label': 'Tire fitment', 'href': 'tires/index.html'},
         {'key': 'recalls', 'label': 'Recall tracker', 'href': 'recalls/index.html'},
@@ -155,7 +156,7 @@ NAV = [
     {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
-GARAGE_KEYS = {'notes', 'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'best', 'swaps'}
+GARAGE_KEYS = {'deals', 'notes', 'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'best', 'swaps'}
 LATER = [
     {'name': 'Cult & military', 'models': ['Lada Niva', 'UAZ-469', 'Pinzgauer', 'Unimog', 'Volvo C303']},
     {'name': 'More classics', 'models': ['Dodge Ramcharger', 'International Travelall', 'Toyota Hilux Surf']},
@@ -647,6 +648,7 @@ def main():
         return next((d for d in DEALS if fam_slug and fam_slug in d.get('families', [])), None) or next((d for d in DEALS if '*' in d.get('families', [])), None)
     env.globals['deal_for'] = deal_for
     env.globals['deals_on'] = bool(DEALS)
+    env.globals['active_deals'] = DEALS
 
     def render(tpl, out, root, **ctx):
         def lk(text):

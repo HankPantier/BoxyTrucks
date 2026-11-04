@@ -954,3 +954,5 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .deal-bar-x { position: absolute; right: 0; top: 50%; transform: translateY(-50%); margin: 0; }
 @media (max-width: 640px) { .deal-bar-end, .deal-bar-tag { display: none; } .deal-bar { font-size: 13px; } .deal-bar-x { top: 10px; transform: none; } }
 .deal-card p.deal-terms { font-family: var(--sans, "Inter Tight", sans-serif); font-size: 14px; line-height: 21px; color: var(--stone); }
+.fn-card { padding: 22px 24px; display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--ink); }
+.fn-card h3 { margin: 4px 0; } .fn-card .go { margin-top: 6px; font-size: 14px; color: var(--green); }
