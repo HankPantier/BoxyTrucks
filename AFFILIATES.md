@@ -43,6 +43,14 @@
 - Declined: Discount Tire, PriorityTire, TOPOAK Overland. Normal for a site under 2 weeks old; reapply once Search Console shows steady traffic (target: 1,000+ clicks/month).
 - AvantLink (ARB): not checked; Claude's browser can't open avantlink.com.
 
+## CJ status, Nov 4, 2026
+- Active: Eastwood, PartsGeek, TOPOAK Overland.
+- Declined: The Tire Rack, PriorityTire, Discount Tire. Reapply once Search Console shows steady traffic.
+- Pending: CanvasCamp, CJ Pony Parts, FinditParts, Valvoline, plus new applications sent Nov 4: SimpleTire (5%, the Tire Rack replacement for the tire size links), German Car Accessories (3%), KSP Performance (7.5%), Mavis Tires (5%).
+- Speedway Motors (1%) and AutoNation Parts (3%): the Apply button greys out but no application registers. Hank to apply by hand.
+- Shortlisted but not applied: Nilight (LED bars, 12%), Zoro (tools, 4%), Sportsman's Guide, Coleman.
+- When SimpleTire approves: add it to data/affiliates.json and point the tire size links at it.
+
 ## Tire size links (Oct 30)
 Every /models/{fam}/{gen}/tires/ page has a 'Shop {truck} tire sizes' block: each size on the page (factory, max-by-lift and sizes named in the notes) gets a Tire Rack size search and an Amazon size search (tag boxytrucks-20 added by affiliate_rewrite). 412 links on 97 pages. Tire Rack links are plain until the CJ application is approved; then the template in data/affiliates.json wraps them automatically (Skimlinks declined us Nov 2, 2026; reapply in about 3 months).
 
