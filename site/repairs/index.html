@@ -1583,7 +1583,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 (function(){if(typeof gtag!=='function')return;
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
-gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
+gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80),placement:a.getAttribute('data-track')||''});});
 document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
 </script>

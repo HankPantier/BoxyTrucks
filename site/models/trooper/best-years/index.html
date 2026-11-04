@@ -80,6 +80,16 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
   <p class="sub-intro" style="grid-column:1/-1;margin:0">The reasons for each call are below, generation by generation. Buy on condition first: a well-kept truck from an off year beats a neglected one from a good year.</p>
 </div>
 <div style="max-width:820px;margin-top:32px">
+
+
+
+<aside class="buybox" aria-label="What to buy">
+  <div class="bb-col"><span class="eyebrow brass">Shopping for one?</span><p class="bb-h">Bring these to the inspection</p>
+    <ul><li><a href="https://www.amazon.com/s?k=BlueDriver+Bluetooth+Pro+OBDII+scan+tool&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Bluetooth OBD-II scanner <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=paint+thickness+gauge+car&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Paint thickness gauge <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=automotive+inspection+borescope+camera&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Inspection borescope camera <span>Amazon ↗</span></a></li></ul></div>
+  <div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Start with the first service</p><p class="bb-note">Fluids, filters and parts for each generation, with Amazon links, are on its guide.</p><p class="bb-gens"><a class="inline-link" href="/models/trooper/trooper-1/#service">Isuzu Trooper (first generation)</a> · <a class="inline-link" href="/models/trooper/trooper-2/#service">Isuzu Trooper (second generation)</a></p></div>
+  <p class="bb-disc">We earn a small commission on Amazon purchases, at no cost to you.</p>
+</aside></div>
+<div style="max-width:820px;margin-top:32px">
 <aside class="nl-inline band-night" aria-label="Free inspection checklist">
   <div><span class="eyebrow brass">Free · printable</span>
   <strong class="nl-inline-h">Shopping for one? Get the Isuzu Trooper inspection checklist.</strong>
@@ -182,7 +192,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 (function(){if(typeof gtag!=='function')return;
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
-gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
+gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80),placement:a.getAttribute('data-track')||''});});
 document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
 </script>

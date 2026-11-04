@@ -90,6 +90,19 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
     <option value="">Jump to a section…</option><optgroup label="Overview"><option value="story">The story</option><option value="timeline">Year by year</option></optgroup><optgroup label="Specs &amp; Capability"><option value="engineering">How it’s built</option><option value="variants">Variants &amp; engines</option><option value="capability">Capability numbers</option><option value="fitment">Wheels &amp; tires</option><option value="production">Production &amp; editions</option></optgroup><optgroup label="Buying One"><option value="values">What they cost</option><option value="buying">What to check</option><option value="identify">Spotting the real thing</option><option value="recalls">Recalls &amp; bulletins</option><option value="import">Importing &amp; legality</option><option value="sale">For sale now</option></optgroup><optgroup label="Owning One"><option value="service">After you buy it</option><option value="repairs">Common repairs</option><option value="docs">Manuals &amp; documentation</option><option value="faq">Questions, answered</option></optgroup><optgroup label="Building One"><option value="mods">Modifications</option><option value="community">Clubs &amp; events</option><option value="resources">Channels &amp; forums</option></optgroup><option value="more">Keep reading</option>
   </select></div>
   <p class="sub-intro quick-mobile">For this truck: <a class="inline-link" href="/models/jeep/cherokee-xj/specs/">Specs, fluids &amp; intervals</a> · <a class="inline-link" href="/models/jeep/cherokee-xj/problems/">Common problems to check</a> · <a class="inline-link" href="/models/jeep/cherokee-xj/years/">Years to avoid &amp; best years</a> · <a class="inline-link" href="/models/jeep/cherokee-xj/tires/">Biggest tire at every lift</a> · <a class="inline-link" href="/recalls/#jeep-cherokee-xj">Recalls in the tracker</a> · <a class="inline-link" href="/models/jeep/best-years/">Best Jeep years to buy</a> · <a class="inline-link" href="/inspection-checklists/">Printable inspection checklist</a></p>
+  
+
+
+
+<aside class="buybox" aria-label="What to buy">
+  <div class="bb-col"><span class="eyebrow brass">Shopping for one?</span><p class="bb-h">Bring these to the inspection</p>
+    <ul><li><a href="https://www.amazon.com/s?k=BlueDriver+Bluetooth+Pro+OBDII+scan+tool&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Bluetooth OBD-II scanner <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=paint+thickness+gauge+car&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Paint thickness gauge <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=automotive+inspection+borescope+camera&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Inspection borescope camera <span>Amazon ↗</span></a></li></ul></div>
+  <div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Parts for the first service</p>
+    <ul><li><a href="https://www.amazon.com/s?k=Crown+MFK9+master+filter+kit%2C+1997-2001+XJ&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Crown MFK9 master filter kit, 1997–2001 XJ <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=Crown+53004383+air+filter%2C+1987-2001+XJ+2.5%2F4.0&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Crown 53004383 air filter, 1987–2001 XJ 2.5/4.0 <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=OMIX+17256.06+tune-up+kit%2C+1991-93+XJ+4.0L&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">OMIX 17256.06 tune-up kit, 1991–93 XJ 4.0L <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=Mopar+52028186AC+thermostat+%28fits+2001+XJ%29&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Mopar 52028186AC thermostat (fits 2001 XJ) <span>Amazon ↗</span></a></li></ul>
+    <a class="inline-link bb-more" href="#service">The full first-service list →</a></div>
+  
+  <p class="bb-disc">We earn a small commission on Amazon purchases, at no cost to you.</p>
+</aside>
   <div class="split">
     <div class="main">
       
@@ -632,7 +645,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 (function(){if(typeof gtag!=='function')return;
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
-gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
+gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80),placement:a.getAttribute('data-track')||''});});
 document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
 </script>

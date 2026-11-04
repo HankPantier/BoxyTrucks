@@ -90,6 +90,19 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
     <option value="">Jump to a section…</option><optgroup label="Overview"><option value="story">The story</option><option value="timeline">Year by year</option></optgroup><optgroup label="Specs &amp; Capability"><option value="engineering">How it’s built</option><option value="variants">Variants &amp; engines</option><option value="capability">Capability numbers</option><option value="fitment">Wheels &amp; tires</option><option value="production">Production &amp; editions</option></optgroup><optgroup label="Buying One"><option value="values">What they cost</option><option value="buying">What to check</option><option value="identify">Spotting the real thing</option><option value="recalls">Recalls &amp; bulletins</option><option value="import">Importing &amp; legality</option><option value="sale">For sale now</option></optgroup><optgroup label="Owning One"><option value="service">After you buy it</option><option value="repairs">Common repairs</option><option value="faq">Questions, answered</option></optgroup><optgroup label="Building One"><option value="mods">Modifications</option><option value="community">Clubs &amp; events</option><option value="resources">Channels &amp; forums</option></optgroup><option value="more">Keep reading</option>
   </select></div>
   <p class="sub-intro quick-mobile">For this truck: <a class="inline-link" href="/models/land-cruiser/fj45-fj55/specs/">Specs, fluids &amp; intervals</a> · <a class="inline-link" href="/models/land-cruiser/fj45-fj55/problems/">Common problems to check</a> · <a class="inline-link" href="/models/land-cruiser/fj45-fj55/years/">Years to avoid &amp; best years</a> · <a class="inline-link" href="/recalls/#land-cruiser-fj45-fj55">Recalls in the tracker</a> · <a class="inline-link" href="/models/land-cruiser/best-years/">Best Land Cruiser years to buy</a> · <a class="inline-link" href="/inspection-checklists/">Printable inspection checklist</a></p>
+  
+
+
+
+<aside class="buybox" aria-label="What to buy">
+  <div class="bb-col"><span class="eyebrow brass">Shopping for one?</span><p class="bb-h">Bring these to the inspection</p>
+    <ul><li><a href="https://www.amazon.com/s?k=paint+thickness+gauge+car&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Paint thickness gauge <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=automotive+inspection+borescope+camera&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Inspection borescope camera <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=rechargeable+LED+inspection+flashlight&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Bright LED flashlight <span>Amazon ↗</span></a></li></ul></div>
+  <div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Parts for the first service</p>
+    <ul><li><a href="https://www.amazon.com/s?k=Oil+filter%2C+%28FJ40%2F45%2F55%2F60%2F62%2FFJ80+1969-96%29&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Oil filter, OEM (FJ40/45/55/60/62/FJ80 1969–96) <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=Air+filter%2C+FJ40%2F45%2F55%2F60%2F62%2FFJ80+1969-98&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Air filter, FJ40/45/55/60/62/FJ80 1969–98 <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=NGK+spark+plugs%2C+FJ40%2F45%2F55%2F60%2F62%2FFJ80+1958-92&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">NGK spark plugs, FJ40/45/55/60/62/FJ80 1958–92 <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=Valve+cover+gasket%2C+FJ40%2F45%2F55+1958-74&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Valve cover gasket, FJ40/45/55 1958–74 <span>Amazon ↗</span></a></li></ul>
+    <a class="inline-link bb-more" href="#service">The full first-service list →</a></div>
+  
+  <p class="bb-disc">We earn a small commission on Amazon purchases, at no cost to you.</p>
+</aside>
   <div class="split">
     <div class="main">
       
@@ -632,7 +645,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 (function(){if(typeof gtag!=='function')return;
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
-gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80)});});
+gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80),placement:a.getAttribute('data-track')||''});});
 document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
 })();
 </script>

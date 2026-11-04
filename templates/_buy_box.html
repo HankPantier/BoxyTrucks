@@ -1,0 +1,13 @@
+{# Compact "what to buy" box near the top of generation and best-years pages. Amazon links get the boxytrucks-20 tag from affiliate_rewrite. #}
+{% set bb_kit = inspect_kit(bb_years or '')[:3] %}
+{% set bb = namespace(parts=[]) %}
+{% if bb_page and bb_page.baseline_service %}{% for s in bb_page.baseline_service['items'] or [] %}{% set one = namespace(done=false) %}{% for pt in s.parts or [] %}{% if bb.parts|length < 4 and not one.done %}{% set q = amz_q(pt, bb_veh) %}{% if q %}{% set bb.parts = bb.parts + [{'name': pt.name|striplk, 'item': s.item, 'q': q}] %}{% set one.done = true %}{% endif %}{% endif %}{% endfor %}{% endfor %}{% endif %}
+<aside class="buybox" aria-label="What to buy">
+  <div class="bb-col"><span class="eyebrow brass">Shopping for one?</span><p class="bb-h">Bring these to the inspection</p>
+    <ul>{% for k in bb_kit %}<li><a href="{{ k.url }}" target="_blank" rel="noopener sponsored" data-track="buybox_click">{{ k.name }} <span>Amazon ↗</span></a></li>{% endfor %}</ul></div>
+  {% if bb.parts %}<div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Parts for the first service</p>
+    <ul>{% for pt in bb.parts %}<li><a href="https://www.amazon.com/s?k={{ pt.q|urlencode }}" target="_blank" rel="noopener sponsored" data-track="buybox_click">{{ pt.name }} <span>Amazon ↗</span></a></li>{% endfor %}</ul>
+    <a class="inline-link bb-more" href="#service">The full first-service list →</a></div>
+  {% elif bb_more %}<div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Start with the first service</p><p class="bb-note">Fluids, filters and parts for each generation, with Amazon links, are on its guide.</p>{{ bb_more }}</div>{% endif %}
+  <p class="bb-disc">We earn a small commission on Amazon purchases, at no cost to you.</p>
+</aside>

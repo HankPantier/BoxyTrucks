@@ -25,6 +25,7 @@
     <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}{% if fam.generations|length > 1 or further %}<option value="more">Keep reading</option>{% endif %}
   </select></div>
   {% if tools %}<p class="sub-intro quick-mobile">For this truck: {% for t in tools %}<a class="inline-link" href="{{ root }}{{ t[1] }}">{{ t[0] }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+  {% set bb_page = p %}{% set bb_years = gen_years %}{% set bb_veh = mlabel(fam.maker, p.title) %}{% include "_buy_box.html" %}
   <div class="split">
     <div class="main">
       {% set x = page.x or {} %}{% set groups = toc|map(attribute=0)|list %}
