@@ -242,7 +242,7 @@
    "domains": [
     "partsgeek.com"
    ],
-   "status": "ACTIVE: CJ approved 2026-11-03 (advertiser 2477714), 5%. No PPC on the partsgeek.com display URL or trademark, no browser extensions. Search template https://www.partsgeek.com/ss/?ssq={q} added to data/suppliers.json for 13 US-market families (fallback), and a "Parts Geek" search link beside every Amazon parts link on gen and repair pages for those families (pg_fams in build.py). Deep link tested 2026-11-03: lands with cjevent..",
+   "status": "ACTIVE: CJ approved 2026-11-03 (advertiser 2477714), 5%. No PPC on the partsgeek.com display URL or trademark, no browser extensions. Search template https://www.partsgeek.com/ss/?ssq={q} added to data/suppliers.json for 13 US-market families (fallback), and a \"Parts Geek\" search link beside every Amazon parts link on gen and repair pages for those families (pg_fams in build.py). Deep link tested 2026-11-03: lands with cjevent..",
    "template": "https://www.anrdoezrs.net/links/101914596/type/dlg/{raw}"
   },
   {

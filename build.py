@@ -184,10 +184,14 @@ AFFILIATES = []
 
 
 def load_affiliates():
-    try:
-        return json.loads((DATA / 'affiliates.json').read_text()).get('programs', [])
-    except Exception:
+    # Fail the build loudly: a silent [] here turns off every affiliate tag on the site (happened Nov 3, 2026).
+    f = DATA / 'affiliates.json'
+    if not f.exists():
         return []
+    progs = json.loads(f.read_text()).get('programs', [])
+    if not any(p.get('template') or p.get('params') for p in progs):
+        raise SystemExit('affiliates.json loaded but has no active programs: refusing to build without affiliate tags')
+    return progs
 
 
 def _html_dom(u):
