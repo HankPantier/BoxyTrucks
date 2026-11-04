@@ -4,6 +4,7 @@ Hank approved this on Oct 30, 2026: post on X daily, like Instagram. Use the sam
 
 ## Writing the X version (`x_text` in queue.json)
 - Same hook and facts as the Instagram caption, cut to fit. A link counts as 23 characters whatever its length, and so does a bare domain.
+- Tag every link with `?utm_source=x&utm_medium=social` (Nov 4, 2026) so GA4 can tell X visits apart; X counts any link as 23 characters, so it costs nothing.
 - Link to the most specific page on boxytrucks.com (the compare page, the best-years page, /submit/), not just the homepage. Check the page exists in `site/` first.
 - Keep the photo credit. Use 0–1 hashtags, never the Instagram hashtag block.
 - When drafting a new week of Instagram posts, write `x_text` for each and set `x_status: "queued"`.

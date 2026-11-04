@@ -59,6 +59,8 @@ Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). **Every 
 - **Website:** should be https://boxytrucks.com/links/. It's empty right now, and links can only be edited in the app, so Hank has to set it.
 
 ## Measuring it (every Monday)
+**Since Nov 4, 2026:** per-post numbers from every platform go into `social/metrics/` and the BoxyTrucks Scoreboard dashboard; see `METRICS_PROCEDURE.md`. Weekly planning reads it first and shifts the mix toward what earns site visits and saves.
+
 In Instagram's insights, note each post's reach, saves, shares and profile visits. In GA4, check sessions with source `instagram` (the links page tags its links with `utm_source=instagram`). After four weeks, shift the mix toward whatever earns the most saves and site visits.
 
 ## Review, Nov 3, 2026 (first week)

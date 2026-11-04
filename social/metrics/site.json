@@ -1,0 +1,42 @@
+[
+ {
+  "week": "2026-11-02",
+  "metric": "search_clicks",
+  "value": 9,
+  "period": "Oct 22\u201331 (first data)",
+  "source": "Search Console",
+  "label": "Search clicks"
+ },
+ {
+  "week": "2026-11-02",
+  "metric": "search_impressions",
+  "value": 375,
+  "period": "Oct 22\u201331 (first data)",
+  "source": "Search Console",
+  "label": "Search impressions"
+ },
+ {
+  "week": "2026-11-02",
+  "metric": "search_position",
+  "value": 14.9,
+  "period": "Oct 22\u201331 (first data)",
+  "source": "Search Console",
+  "label": "Average position"
+ },
+ {
+  "week": "2026-11-02",
+  "metric": "pages_indexed",
+  "value": 73,
+  "period": "as of Nov 2",
+  "source": "Search Console",
+  "label": "Pages indexed"
+ },
+ {
+  "week": "2026-11-02",
+  "metric": "page_views",
+  "value": 611,
+  "period": "launch to Nov 2",
+  "source": "GA4",
+  "label": "Page views"
+ }
+]

@@ -1,0 +1,206 @@
+<meta name="dash-one-writer">
+<style>
+  .bt { display: flex; flex-direction: column; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); }
+  .bt-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .bt-head h1 { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
+  .bt-take { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 70ch; }
+  .bt .bt-take b, .bt .bt-tile b { font-weight: 500; color: var(--color-fg); }
+  .bt-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+  .bt-tile, .bt-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); min-width: 0; }
+  .bt-tile .k { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .bt-tile .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .bt-tile .n { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .bt-sec { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .bt-sec h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .bt-sec > p { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); max-width: 70ch; }
+  .bt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
+  .bt-card h3 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .bt-card .note { margin: 0 0 var(--cds-gap-sm); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .bt-chart { position: relative; min-height: 180px; }
+  .bt-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+  .bt-tip .d { color: var(--cds-text-secondary); }
+  .bt-tablebox { max-height: 30rem; overflow: auto; }
+  .bt-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .bt-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+  .bt-table th button { all: unset; cursor: pointer; }
+  .bt-table th button:focus-visible { outline: 2px solid var(--color-fg); }
+  .bt-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+  .bt-table td.num, .bt-table th.num { text-align: right; }
+  .bt-table a { color: inherit; }
+  .bt-search { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); max-width: 20rem; }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  @media (max-width: 640px) { .bt-table .hide-sm { display: none; } }
+</style>
+
+<div class="bt">
+  <header class="bt-head" id="top">
+    <h1>BoxyTrucks Scoreboard</h1>
+    <p class="bt-take">So far <b data-draw="top-plat" data-source="by_platform">—</b> brings the most views, and the best single post is <b data-draw="top-post" data-source="top_post">—</b>. Social numbers are a snapshot from <b data-draw="snap" data-source="posts">—</b>; the Monday scoreboard adds a new one each week.</p>
+  </header>
+
+  <section class="bt-tiles" id="headline">
+    <div class="bt-tile"><span class="k">Social views, all posts</span><span class="v" data-draw="tot-views" data-source="totals" data-field="views">—</span><span class="n">Across Instagram, X, YouTube and TikTok</span></div>
+    <div class="bt-tile"><span class="k">Followers, all channels</span><span class="v" data-draw="tot-fol" data-source="followers_latest" data-field="followers">—</span><span class="n">Instagram, X, Pinterest, YouTube, TikTok</span></div>
+    <div class="bt-tile"><span class="k">Video share of views</span><span class="v" data-draw="vid-share" data-source="totals" data-field="video_share">—</span><span class="n">YouTube Shorts and TikTok</span></div>
+    <div class="bt-tile"><span class="k">Search clicks</span><span class="v" data-draw="s-clicks" data-source="site" data-field="value" data-where="metric=search_clicks">—</span><span class="n" data-draw="s-clicks-p" data-source="site" data-field="period" data-where="metric=search_clicks">—</span></div>
+    <div class="bt-tile"><span class="k">Pages on Google</span><span class="v" data-draw="s-idx" data-source="site" data-field="value" data-where="metric=pages_indexed">—</span><span class="n" data-draw="s-idx-p" data-source="site" data-field="period" data-where="metric=pages_indexed">—</span></div>
+  </section>
+
+  <section class="bt-sec" id="where">
+    <h2>Where the views come from</h2>
+    <p>Views are what each platform reports per post: Instagram views from post insights, X post views, YouTube and TikTok video views. Pinterest has no per-pin numbers until the account is a business account.</p>
+    <div class="bt-grid">
+      <div class="bt-card" id="by-platform"><h3>Views by platform</h3><p class="note">All posts to date</p><div class="bt-chart" data-draw="chart-platform" data-source="by_platform"></div></div>
+      <div class="bt-card" id="followers"><h3>Followers by channel</h3><p class="note">Latest weekly snapshot</p><div class="bt-chart" data-draw="chart-followers" data-source="followers"></div></div>
+    </div>
+  </section>
+
+  <section class="bt-sec" id="what-works">
+    <h2>What works</h2>
+    <p>Average views per post on each platform it went to. Formats and truck families with only one or two posts are noisy; read these as hints until there are a few weeks of data.</p>
+    <div class="bt-grid">
+      <div class="bt-card" id="by-format"><h3>Average views by format</h3><p class="note">Single image, carousel, Reel on Instagram, and video on YouTube and TikTok</p><div class="bt-chart" data-draw="chart-format" data-source="by_format"></div></div>
+      <div class="bt-card" id="by-family"><h3>Average views by truck family</h3><p class="note">“Multi” covers posts about several trucks</p><div class="bt-chart" data-draw="chart-family" data-source="by_family"></div></div>
+      <div class="bt-card" id="by-pillar"><h3>Average views by topic</h3><p class="note">Buy it, fit it, community, Field Notes, deals</p><div class="bt-chart" data-draw="chart-pillar" data-source="by_pillar"></div></div>
+    </div>
+  </section>
+
+  <section class="bt-sec" id="posts">
+    <h2>Every post</h2>
+    <p>One row per post per platform. Click a column to sort.</p>
+    <input class="bt-search" id="post-search" type="search" placeholder="Search posts" aria-label="Search posts">
+    <div class="bt-card bt-tablebox">
+      <table class="bt-table" data-source="posts" data-row-key="post_id,platform">
+        <thead><tr>
+          <th data-field="date"><button type="button" data-sort="date">Date</button></th>
+          <th data-field="title"><button type="button" data-sort="title">Post</button></th>
+          <th data-field="platform_name"><button type="button" data-sort="platform_name">Platform</button></th>
+          <th data-field="format_name" class="hide-sm"><button type="button" data-sort="format_name">Format</button></th>
+          <th data-field="family" class="hide-sm"><button type="button" data-sort="family">Family</button></th>
+          <th data-field="views" class="num"><button type="button" data-sort="views">Views</button></th>
+          <th data-field="likes" class="num hide-sm"><button type="button" data-sort="likes">Likes</button></th>
+          <th data-field="comments" class="num hide-sm"><button type="button" data-sort="comments">Comments</button></th>
+          <th data-field="saves" class="num hide-sm"><button type="button" data-sort="saves">Saves</button></th>
+        </tr></thead>
+        <tbody data-draw="posts-rows" data-source="posts"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="bt-sec" id="site">
+    <h2>The site</h2>
+    <p>From Search Console and Google Analytics. The Monday scoreboard adds visits from each social platform (tagged links), affiliate clicks, newsletter signups and reader-deal clicks each week.</p>
+    <div class="bt-card bt-tablebox">
+      <table class="bt-table" data-source="site" data-row-key="week,metric">
+        <thead><tr>
+          <th data-field="week">Week of</th>
+          <th data-field="label">Measure</th>
+          <th data-field="value" class="num">Value</th>
+          <th data-field="period" class="hide-sm">Period</th>
+          <th data-field="source" class="hide-sm">Source</th>
+        </tr></thead>
+        <tbody data-draw="site-rows" data-source="site"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+  const PLATFORM = {instagram: 'Instagram', x: 'X', youtube: 'YouTube', tiktok: 'TikTok', pinterest: 'Pinterest'};
+  const FORMAT = {single: 'Single image', carousel: 'Carousel', reel: 'Reel', video: 'Video (YT/TikTok)'};
+  const METRIC = {search_clicks: 'Search clicks', search_impressions: 'Search impressions', search_position: 'Average position', pages_indexed: 'Pages indexed', page_views: 'Page views'};
+  window.btFmt = {n: d3.format(','), pct: d3.format('.0%'), d: (s) => d3.utcFormat('%b %-d')(new Date(s + 'T00:00:00Z')),
+    platform: (p) => PLATFORM[p] || p, format: (f) => FORMAT[f] || f, metric: (m) => METRIC[m] || m};
+
+  dash.calc('by_platform', {title: 'Views by platform', description: 'Total views per platform across all posts, most first.', inputs: ['posts'],
+    fn: (posts) => Array.from(d3.rollup(posts, (v) => ({views: d3.sum(v, (r) => +r.views || 0), posts: v.length}), (r) => r.platform), ([platform, o]) => ({platform, ...o})).sort((a, b) => b.views - a.views)});
+  dash.calc('totals', {title: 'Social view totals', description: 'All views, and the share from YouTube and TikTok video.', inputs: ['posts'],
+    fn: (posts) => { const all = d3.sum(posts, (r) => +r.views || 0); const vid = d3.sum(posts.filter((r) => r.platform === 'youtube' || r.platform === 'tiktok'), (r) => +r.views || 0); return [{views: all, video_share: all ? vid / all : 0}]; }});
+  dash.calc('top_post', {title: 'Best post', description: 'The post and platform with the most views.', inputs: ['posts'],
+    fn: (posts) => { const t = posts.slice().sort((a, b) => (+b.views || 0) - (+a.views || 0))[0]; return t ? [{title: t.title, platform: t.platform, views: +t.views}] : []; }});
+  const avgBy = (key) => (posts) => Array.from(d3.rollup(posts, (v) => ({avg_views: d3.mean(v, (r) => +r.views || 0), posts: v.length}), (r) => r[key]), ([k, o]) => ({[key]: k, ...o})).sort((a, b) => b.avg_views - a.avg_views);
+  dash.calc('by_format', {title: 'Average views by format', description: 'Mean views per post-and-platform, grouped by format.', inputs: ['posts'], fn: (posts) => Array.from(d3.rollup(posts, (v) => ({avg_views: d3.mean(v, (r) => +r.views || 0), posts: v.length}), (r) => r.format), ([format, o]) => ({format, ...o})).sort((a, b) => b.avg_views - a.avg_views)});
+  dash.calc('by_family', {title: 'Average views by truck family', description: 'Mean views per post-and-platform, grouped by truck family.', inputs: ['posts'], fn: (posts) => Array.from(d3.rollup(posts, (v) => ({avg_views: d3.mean(v, (r) => +r.views || 0), posts: v.length}), (r) => r.family), ([family, o]) => ({family, ...o})).sort((a, b) => b.avg_views - a.avg_views)});
+  dash.calc('by_pillar', {title: 'Average views by topic', description: 'Mean views per post-and-platform, grouped by content pillar.', inputs: ['posts'], fn: (posts) => Array.from(d3.rollup(posts, (v) => ({avg_views: d3.mean(v, (r) => +r.views || 0), posts: v.length}), (r) => r.pillar), ([pillar, o]) => ({pillar, ...o})).sort((a, b) => b.avg_views - a.avg_views)});
+  dash.calc('followers_latest', {title: 'Followers, latest week', description: 'Sum of followers across channels in the most recent weekly snapshot.', inputs: ['followers'],
+    fn: (followers) => { const wk = d3.max(followers, (r) => r.week); return [{week: wk, followers: d3.sum(followers.filter((r) => r.week === wk), (r) => +r.followers || 0)}]; }});
+
+  const one = (id, field, fmt) => (el) => { const d = dash.data(id); el.textContent = d.status === 'ok' && d.data[0] ? fmt(d.data[0][field]) : '—'; };
+  dash.draw('tot-views', one('totals', 'views', btFmt.n));
+  dash.draw('vid-share', one('totals', 'video_share', btFmt.pct));
+  dash.draw('tot-fol', one('followers_latest', 'followers', btFmt.n));
+  dash.draw('top-plat', one('by_platform', 'platform', btFmt.platform));
+  dash.draw('top-post', (el) => { const d = dash.data('top_post'); el.textContent = d.status === 'ok' && d.data[0] ? d.data[0].title + ' on ' + btFmt.platform(d.data[0].platform) + ' (' + btFmt.n(d.data[0].views) + ' views)' : '—'; });
+  dash.draw('snap', (el) => { const d = dash.data('posts'); el.textContent = d.status === 'ok' && d.data.length ? btFmt.d(d3.max(d.data, (r) => r.snapshot)) : '—'; });
+  const siteVal = (metric, field, fmt) => (el) => { const d = dash.data('site'); const r = d.status === 'ok' ? d.data.filter((x) => x.metric === metric).sort((a, b) => d3.descending(a.week, b.week))[0] : null; el.textContent = r ? fmt(r[field]) : '—'; };
+  dash.draw('s-clicks', siteVal('search_clicks', 'value', btFmt.n));
+  dash.draw('s-clicks-p', siteVal('search_clicks', 'period', String));
+  dash.draw('s-idx', siteVal('pages_indexed', 'value', btFmt.n));
+  dash.draw('s-idx-p', siteVal('pages_indexed', 'period', String));
+</script>
+
+<script>
+  // Horizontal bar chart shared by the cards: one row per category, value labels at the bar ends.
+  window.btBars = (el, rows, key, val, label, valFmt, note) => {
+    el.replaceChildren();
+    if (!rows.length) return;
+    const w = el.clientWidth || 320, rowH = 30, top = 4, h = top + rows.length * rowH;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('font-size', 12);
+    const probe = svg.append('g').attr('fill', 'var(--color-fg)');
+    let lw = 0; rows.forEach((r) => { const t = probe.append('text').text(label(r[key])); lw = Math.max(lw, t.node().getComputedTextLength()); t.remove(); });
+    let vw = 0; rows.forEach((r) => { const t = probe.append('text').text(valFmt(r[val])); vw = Math.max(vw, t.node().getComputedTextLength()); t.remove(); });
+    probe.remove();
+    const x0 = Math.min(lw + 10, w * 0.45), x = d3.scaleLinear([0, d3.max(rows, (r) => r[val]) || 1], [x0, Math.max(x0 + 20, w - vw - 8)]);
+    const g = svg.selectAll('g.r').data(rows).join('g').attr('class', 'r').attr('transform', (r, i) => `translate(0,${top + i * rowH})`);
+    g.append('text').attr('x', x0 - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end').attr('fill', 'var(--color-fg)').text((r) => label(r[key]));
+    g.append('rect').attr('x', x0).attr('y', 6).attr('height', rowH - 12).attr('rx', 3).attr('width', (r) => Math.max(1, x(r[val]) - x0)).attr('fill', (r, i) => i === 0 ? dash.colors[0] : 'var(--cds-chart-muted)');
+    g.append('text').attr('x', (r) => x(r[val]) + 6).attr('y', rowH / 2).attr('dy', '0.35em').attr('fill', 'var(--color-fg-muted)').text((r) => valFmt(r[val]));
+    const tip = d3.select(el).append('div').attr('class', 'bt-tip').style('display', 'none');
+    g.on('pointermove', (ev, r) => { const [mx, my] = d3.pointer(ev, el); tip.style('display', null).html(''); tip.append('div').attr('class', 'd').text(label(r[key])); tip.append('div').text(valFmt(r[val]) + (note ? ' · ' + note(r) : '')); const tw = tip.node().offsetWidth; tip.style('left', Math.min(mx + 12, w - tw - 4) + 'px').style('top', (my + 12) + 'px'); })
+     .on('pointerleave', () => tip.style('display', 'none'));
+  };
+  const posts = (r) => r.posts + (r.posts === 1 ? ' post' : ' posts');
+  dash.draw('chart-platform', (el) => { const d = dash.data('by_platform'); if (d.status !== 'ok') { el.replaceChildren(); return; } btBars(el, d.data, 'platform', 'views', btFmt.platform, btFmt.n, posts); });
+  dash.draw('chart-format', (el) => { const d = dash.data('by_format'); if (d.status !== 'ok') { el.replaceChildren(); return; } btBars(el, d.data, 'format', 'avg_views', btFmt.format, (v) => btFmt.n(Math.round(v)), posts); });
+  dash.draw('chart-family', (el) => { const d = dash.data('by_family'); if (d.status !== 'ok') { el.replaceChildren(); return; } btBars(el, d.data, 'family', 'avg_views', (f) => f, (v) => btFmt.n(Math.round(v)), posts); });
+  dash.draw('chart-pillar', (el) => { const d = dash.data('by_pillar'); if (d.status !== 'ok') { el.replaceChildren(); return; } btBars(el, d.data, 'pillar', 'avg_views', (f) => f, (v) => btFmt.n(Math.round(v)), posts); });
+  dash.draw('chart-followers', (el) => { const d = dash.data('followers'); if (d.status !== 'ok') { el.replaceChildren(); return; } const wk = d3.max(d.data, (r) => r.week); btBars(el, d.data.filter((r) => r.week === wk).map((r) => ({platform: r.platform, followers: +r.followers})).sort((a, b) => b.followers - a.followers), 'platform', 'followers', btFmt.platform, btFmt.n, null); });
+</script>
+
+<script>
+  // Sortable, searchable post table.
+  window.btSort = {key: 'views', dir: -1};
+  document.querySelectorAll('.bt-table [data-sort]').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.sort; btSort.dir = btSort.key === k ? -btSort.dir : (['views', 'likes', 'comments', 'saves', 'date'].includes(k) ? -1 : 1); btSort.key = k;
+    document.querySelectorAll('.bt-table [data-sort]').forEach((x) => x.closest('th').setAttribute('aria-sort', x.dataset.sort === k ? (btSort.dir < 0 ? 'descending' : 'ascending') : 'none'));
+    dash.draw('posts-rows');
+  }));
+  document.querySelectorAll('#post-search').forEach((s) => s.addEventListener('input', () => dash.draw('posts-rows')));
+  const cell = (tr, text, cls) => { const td = tr.insertCell(); td.textContent = text; if (cls) td.className = cls; return td; };
+  const num = (v) => (v === null || v === undefined || v === '') ? '' : btFmt.n(+v);
+  dash.draw('posts-rows', (tb) => {
+    tb.replaceChildren();
+    const d = dash.data('posts'); if (d.status !== 'ok') return;
+    const q = ((document.querySelector('#post-search') || {}).value || '').toLowerCase();
+    const numeric = ['views', 'likes', 'comments', 'saves'].includes(btSort.key);
+    const rows = d.data.filter((r) => !q || [r.title, r.platform, r.format, r.family, r.pillar].join(' ').toLowerCase().includes(q))
+      .sort((a, b) => btSort.dir * (numeric ? ((+a[btSort.key] || 0) - (+b[btSort.key] || 0)) : String(a[btSort.key]).localeCompare(String(b[btSort.key]))));
+    rows.forEach((r) => {
+      const tr = tb.insertRow(); tr.dataset.key = encodeURIComponent(r.post_id) + ',' + encodeURIComponent(r.platform);
+      cell(tr, r.date);
+      const td = cell(tr, '');
+      if (r.url) { const a = document.createElement('a'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = r.title; td.append(a); } else td.textContent = r.title;
+      cell(tr, r.platform_name); cell(tr, r.format_name, 'hide-sm'); cell(tr, r.family, 'hide-sm');
+      cell(tr, num(r.views), 'num'); cell(tr, num(r.likes), 'num hide-sm'); cell(tr, num(r.comments), 'num hide-sm'); cell(tr, num(r.saves), 'num hide-sm');
+    });
+  });
+  dash.draw('site-rows', (tb) => {
+    tb.replaceChildren();
+    const d = dash.data('site'); if (d.status !== 'ok') return;
+    d.data.slice().sort((a, b) => d3.descending(a.week, b.week) || String(a.metric).localeCompare(String(b.metric))).forEach((r) => {
+      const tr = tb.insertRow(); tr.dataset.key = encodeURIComponent(r.week) + ',' + encodeURIComponent(r.metric);
+      cell(tr, r.week); cell(tr, r.label); cell(tr, btFmt.n(+r.value), 'num'); cell(tr, r.period, 'hide-sm'); cell(tr, r.source, 'hide-sm');
+    });
+  });
+</script>
