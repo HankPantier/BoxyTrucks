@@ -19,4 +19,4 @@ Hank pre-approved the queued drafts (one post a day). The mix and the rules are 
 9. Remind Hank in that line to share it to Stories from his phone. Web Instagram can't post Stories.
 10. If Chrome or the account isn't available, leave the item queued and tell Hank.
 
-11. **Then Pinterest, YouTube and TikTok, every posting day** (Hank's rule, Nov 2, 2026): follow `PINTEREST_PROCEDURE.md`, `YOUTUBE_PROCEDURE.md` and `TIKTOK_PROCEDURE.md` for the same item. If either account isn't the Boxy Trucks one, skip that platform and say so in the one-line report.
+11. **Then Pinterest, YouTube and TikTok, every day, no exceptions** (Hank, Nov 4, 2026: post to ALL channels every day). If the day's post is image-only and no Reel is waiting for YouTube/TikTok, make a 10–15 second video version of it with `social/reels/make_reel.js` (2–3 scenes from the post's photos plus a CTA scene) and post that. Earlier rule: (Hank's rule, Nov 2, 2026): follow `PINTEREST_PROCEDURE.md`, `YOUTUBE_PROCEDURE.md` and `TIKTOK_PROCEDURE.md` for the same item. If either account isn't the Boxy Trucks one, skip that platform and say so in the one-line report.

@@ -19,7 +19,7 @@ Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop mak
 | Sat | Reel | Hank's footage first (G500, 4Runner, lockers, repairs); otherwise motion graphics |
 | Sun | Single image | A great off-road photo plus a question that invites comments |
 
-Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). **Every posting day also goes to Pinterest, YouTube and TikTok** (Hank, Nov 2, 2026): pins for every guide post (`PINTEREST_PROCEDURE.md`), plus every Reel as a Short (`YOUTUBE_PROCEDURE.md`) and a TikTok (`TIKTOK_PROCEDURE.md`). On X, carousels post as up to 4 images and Reels as the MP4.
+Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). **Every day goes to ALL five channels: Instagram, X, Pinterest, YouTube and TikTok** (Hank, Nov 2 and Nov 4, 2026). Image-only days get a short video version for YouTube and TikTok: pins for every guide post (`PINTEREST_PROCEDURE.md`), plus every Reel as a Short (`YOUTUBE_PROCEDURE.md`) and a TikTok (`TIKTOK_PROCEDURE.md`). On X, carousels post as up to 4 images and Reels as the MP4.
 
 ## Content pillars
 1. **Buy it right:** best years, years to avoid, what to check. This is the core, and it links to the guides.
