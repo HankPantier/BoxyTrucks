@@ -1559,8 +1559,17 @@ def main():
     for u in sorted(set(SITEMAP)):
         f = SITE / (u[len(SITE_URL):] + 'index.html')
         if f.exists():
-            body = re.sub(r'"dateModified": "[^"]*"', '', f.read_text())
-            hashes[u] = hashlib.sha1(body.encode()).hexdigest()[:16]
+            # Hash the visible text of <main> plus the title and description only, so site-wide template, CSS,
+            # nav or script changes don't make every page look "changed" and resubmit the whole site to Bing.
+            html = f.read_text()
+            m = re.search(r'<main\b.*?</main>', html, re.S)
+            main = re.sub(r'<(script|style)\b.*?</\1>', ' ', m.group(0) if m else html, flags=re.S)
+            text = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', main)).strip()
+            _t1 = re.search(r'<title>(.*?)</title>', html, re.S)
+            _d1 = re.search(r'<meta name="description" content="([^"]*)"', html)
+            head = (_t1.group(1) if _t1 else '') + '|' + (_d1.group(1) if _d1 else '')
+            hashes[u] = hashlib.sha1((head + '|' + text).encode()).hexdigest()[:16]
+    hashes['_v'] = 2  # content-only hashing (Nov 5, 2026)
     (SITE / 'page-hashes.json').write_text(json.dumps(hashes, indent=0))
 
     n = sum(1 for _ in SITE.rglob('*.html'))

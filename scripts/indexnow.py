@@ -31,7 +31,11 @@ def prepare():
     except Exception as e:
         print(f'no live hashes ({e}); treating every page as new')
         old = {}
-    changed = [u for u, h in new.items() if old.get(u) != h]
+    if old and old.get('_v') != new.get('_v'):
+        # Hashing method changed: hashes can't be compared, and Bing already has every URL. Submit nothing this once.
+        print('hash format changed; skipping this deploy (next deploys compare normally)')
+        LIST.write_text(''); return
+    changed = [u for u, h in new.items() if not u.startswith('_') and old.get(u) != h]
     LIST.write_text('\n'.join(changed))
     print(f'{len(changed)} changed of {len(new)} pages')
 
