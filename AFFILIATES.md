@@ -62,3 +62,7 @@ Every /models/{fam}/{gen}/tires/ page has a 'Shop {truck} tire sizes' block: eac
 
 ## Parts Geek (CJ 2477714), live Nov 3, 2026
 Approved Nov 3. Pays 5%. Rules: no PPC on the partsgeek.com display URL or trademark, and no browser extensions. Every listed part on generation and repair pages for 13 US-market families (4Runner, Bronco, K5/Suburban, Ramcharger, Trooper, Hummer, Lexus, Land Cruiser, Jeep, G-Class, Range Rover, Land Rover, Suzuki) now gets a "Parts Geek" search link next to its Amazon link: about 3,300 links. affiliate_rewrite wraps them in the CJ deep link. Tested: lands on Parts Geek with cjevent.
+
+## FlexOffers, Nov 5, 2026
+- Publisher account opened by Hank; boxytrucks.com verified Nov 5 (file `site/fo-verify.html` plus a `fo-verify` meta tag in base.html; keep both or the site un-verifies).
+- To apply: Morris 4x4 Center (Jeep), 4 Wheel Parts (3.2%, 30-day cookie).
