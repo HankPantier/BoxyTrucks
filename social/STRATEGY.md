@@ -74,3 +74,5 @@ Every published Field Note gets its own social push the same day: an IG carousel
 
 ## Waiting on partners
 - **Eurowise reader code (Nov 4, 2026):** the day the code arrives, make a social post for it (queue item `deal-eurowise`), add it to the site's deals spot and the next Dispatch. The code runs to Jan 4, 2027.
+
+- **Second daily Short (Nov 5, 2026):** every evening, one "Biggest tire on a stock <truck>" Short on YouTube and TikTok, generated from site data. Queue `social/shorts.json`, procedure `SHORTS_PROCEDURE.md`. Each one links to that truck's /tires/ page.
