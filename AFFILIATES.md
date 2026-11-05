@@ -65,4 +65,6 @@ Approved Nov 3. Pays 5%. Rules: no PPC on the partsgeek.com display URL or trade
 
 ## FlexOffers, Nov 5, 2026
 - Publisher account opened by Hank; boxytrucks.com verified Nov 5 (file `site/fo-verify.html` plus a `fo-verify` meta tag in base.html; keep both or the site un-verifies).
-- To apply: Morris 4x4 Center (Jeep), 4 Wheel Parts (3.2%, 30-day cookie).
+- Registration under FlexOffers review (they say up to 5 business days from Nov 5); applying opens after approval.
+- Apply once approved (public program pages checked Nov 5): Tires-Direct.com (5%, 45-day cookie, 25,000+ tire models with fitting stations: best Tire Rack stand-in), 4 Wheel Parts (2.4% online, 30 days), TireBuyer (1.6%, 60 days).
+- Skip: Morris 4x4 Center (1.6% with a 1-day cookie, and listed as not currently offered), plus 4WD.com, Drive Offroad, Smittybilt Depot, 4 Wheel Online, 4 Wheel Drive Hardware and Discount Tire Direct (all listed as not currently offered).
