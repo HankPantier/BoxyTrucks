@@ -671,6 +671,7 @@ def main():
         env.globals['mlabel'] = mlabel
         env.globals['fname'] = fname
         env.globals['pg_fams'] = {'4runner','bronco','chevrolet','ramcharger','trooper','hummer','lexus','land-cruiser','jeep','g-class','range-rover','land-rover','suzuki'}  # Parts Geek (CJ) carries these US-market makes
+        env.globals['OWNED_PHOTO'] = {'g-class/g500': ('g-class', 'hank-g500-front-woods.jpg', 'My 2007 G500.'), 'g-class/w463': ('g-class', 'hank-g500-front-woods.jpg', 'My 2007 G500.')}
         env.globals['OWNED'] = {'land-cruiser/80-series': 'owned an 80 Series', 'g-class/g500': 'owns a 2007 G500', 'g-class/w463': 'owns a 2007 G500'}
         env.globals['newsletter'] = NEWSLETTER
         env.globals['nl_truck'] = lambda fs, g: (sname(fs, g) if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')
@@ -791,7 +792,7 @@ def main():
                            + [('Engine swap', w['title'], f'engine-swaps/{w["slug"]}.html') for w in _swaps_early.get(_key, [])])
                 hero_alt = next((ph['alt'] for ph in page.get('photos', []) if ph['file'] == page.get('hero_photo')), f'{page.get("title", g["name"])} off road')
                 page.setdefault('title', g['name'])
-                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, gen_years=g.get('years', ''), has_lockers=has_lockers, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
+                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, gen_years=g.get('years', ''), gen_slug=g['slug'], has_lockers=has_lockers, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
                        og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
                        part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
                        yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=gen_title(slug, g, fam, page),

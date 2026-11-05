@@ -968,3 +968,5 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .buybox .bb-note,.buybox .bb-gens{margin:0;font-size:15px;line-height:1.5}
 .buybox .bb-more{font-size:14px;margin-top:4px}
 .buybox .bb-disc{grid-column:1/-1;margin:0;font-size:12px;color:var(--stone,#7A746A)}
+
+.own-fig{margin:0 0 4px}.own-fig img{display:block;width:100%;max-height:340px;object-fit:cover;object-position:55% 60%}.own-fig figcaption{font-size:13px;color:#D6BD86;margin-top:6px;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
