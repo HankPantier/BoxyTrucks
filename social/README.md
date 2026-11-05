@@ -44,6 +44,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Nov 3, 2026 | "Land Cruiser best years" 6-slide carousel (n=7), link to /models/land-cruiser/best-years/. https://www.instagram.com/p/DfSaTNiHAg2/ | `posts/07-land-cruiser-sweet-spots-1..6.jpg` |
 | Nov 4, 2026 | Reader deal: Eurowise 5% code BOXYTRUCKS5 (G-Class), link to /deals/. https://www.instagram.com/p/DfU7tOOHHPf/ | `posts/deal-eurowise.jpg` |
 | Nov 4, 2026 | First Reel (n=10): "Land Cruiser 80 Series: 5 things to check before you buy", link in bio. https://www.instagram.com/boxytrucks/reel/DfU-rbSOr15/ | `posts/10-80-series-checks.mp4` |
+| Nov 5, 2026 | From Hank's garage (n=9): "Every boxy truck I've owned" 6-slide carousel, slide 1 Hank's own G500. https://www.instagram.com/p/DfXcx8xHFCd/ | `posts/09-hanks-garage-trucks-owned-1..6.jpg` |
 
 ## Following
 `follow-targets.json` lists the accounts @boxytrucks follows: brands, media, lifestyle (Huckberry, YETI, Filson…) and the builders, parts shops and clubs already vetted on the site's resources pages. Each entry is `todo` or `followed` with a date.
