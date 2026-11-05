@@ -1,5 +1,5 @@
 {
- "_readme": "Reader discount codes (Hank, Nov 4, 2026). A deal shows on the site only when it has a code and today is between start and end. families: truck-family slugs it applies to, or [\"*\"] for every page. The top bar shows the page's family deal (or a * deal); /deals/ lists every active deal; a code chip is added after every link to the deal's domains. chip_skip: words in a link's text that mean it's a third-party product the code may not cover; those links get no chip.",
+ "_readme": "Reader discount codes (Hank, Nov 4, 2026). A deal shows on the site only when it has a code and today is between start and end. families: truck-family slugs it applies to, or [\"*\"] for every page. The top bar shows the page's family deal (or a * deal); /deals/ lists every active deal; a code chip is added after every link to the deal's domains. chip_skip: words in a link's text that mean it's a third-party product the code may not cover; those links get no chip. Every active deal also gets a high-visibility callout in the main column of its families' generation and best-years pages (twice on generation pages: above the What-to-buy box and at the top of Building one). callout_note: one short line of fine print for that callout. Standard for every reader deal (Hank, Nov 5, 2026).",
  "deals": [
   {
    "id": "eurowise-2026",
@@ -28,7 +28,8 @@
     "Bilstein",
     "Fox",
     "ARB"
-   ]
+   ],
+   "callout_note": "Parts Eurowise makes itself. Third-party kits like Old Man Emu, JWO, King, Bilstein and Fox aren’t covered."
   }
  ]
 }

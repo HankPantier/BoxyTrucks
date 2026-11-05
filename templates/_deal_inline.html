@@ -1,2 +1,8 @@
-{# In-content reader-deal callout for the page's family (main column only). #}
-{% set dl = deal_for(fam.slug) if fam is defined else None %}{% if dl %}<aside class="deal-inline" aria-label="Reader deal"><span class="eyebrow brass">Reader deal</span><p><strong>{{ dl.discount }} {{ dl.covers }} at {{ dl.shop }}</strong> with code <button type="button" class="bb-code" data-copy="{{ dl.code }}" data-deal-copy="{{ dl.id }}" title="Copy code">{{ dl.code }}</button>, through {{ dl.end_h or dl.end }}. It covers parts {{ dl.shop }} makes itself, not third-party kits like Old Man Emu, JWO, King, Bilstein or Fox. <a class="inline-link" href="{{ dl.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ dl.id }}">Shop by vehicle ↗</a> · <a class="inline-link" href="{{ root }}deals/index.html#{{ dl.id }}">Terms</a></p></aside>{% endif %}
+{# Reader-deal callout, main column only. Shows automatically on every page of a family listed in data/deals.json (Hank, Nov 5, 2026: standard for every reader deal). #}
+{% set dl = deal_for(fam.slug) if fam is defined else None %}{% if dl %}<aside class="deal-inline" aria-label="Reader deal">
+  <div class="di-main"><span class="di-tag">Reader deal</span>
+    <p class="di-h">{{ dl.discount }} {{ dl.covers }} at {{ dl.shop }}</p>
+    <p class="di-sub">Through {{ dl.end_h or dl.end }}.{% if dl.callout_note %} {{ dl.callout_note }}{% endif %} <a href="{{ root }}deals/index.html#{{ dl.id }}">Terms</a></p></div>
+  <div class="di-act"><button type="button" class="bb-code di-code" data-copy="{{ dl.code }}" data-deal-copy="{{ dl.id }}" title="Tap to copy the code">{{ dl.code }}</button><span class="di-hint">Tap to copy</span>
+    <a class="di-btn" href="{{ dl.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ dl.id }}">Shop {{ dl.shop }} ↗</a></div>
+</aside>{% endif %}

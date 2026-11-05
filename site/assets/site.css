@@ -975,6 +975,19 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .buybox .bb-deal p{margin:0;font-size:15px;line-height:1.5}
 .buybox .bb-code{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.06em;padding:2px 8px;border:1px dashed var(--brass,#B0915A);background:transparent;color:inherit;cursor:pointer}
 
-.deal-inline{display:flex;flex-direction:column;gap:6px;padding:16px 20px;border:1px solid var(--line,#CFC8B8);border-left:3px solid var(--brass,#B0915A);background:var(--paper,#F4F0E6)}
-.deal-inline p{margin:0;font-size:15px;line-height:1.55}
 .main .buybox{margin:8px 0 8px}
+
+/* Reader-deal callout v2 (Nov 5, 2026): high-visibility, main column */
+.deal-inline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 28px;padding:22px 24px;background:var(--green);color:#F7F4EE;border:2px solid var(--brass);box-shadow:0 0 0 4px rgba(176,145,90,.18);margin:8px 0 18px}
+.deal-inline .di-main{display:flex;flex-direction:column;gap:6px;flex:1 1 320px;min-width:0}
+.deal-inline .di-tag{align-self:flex-start;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:var(--brass);color:var(--night);padding:3px 8px}
+.deal-inline .di-h{margin:0;font-size:clamp(20px,2.4vw,26px);line-height:1.2;font-weight:600;color:#FFFFFF;text-wrap:balance}
+.deal-inline .di-sub{margin:0;font-size:14px;line-height:1.5;color:#D9D4C8}
+.deal-inline .di-sub a{color:#F2DFAE}
+.deal-inline .di-act{display:flex;flex-direction:column;align-items:stretch;gap:6px;flex:0 0 auto}
+.deal-inline .di-code{font-family:'IBM Plex Mono',monospace;font-size:22px;letter-spacing:.12em;padding:10px 18px;border:2px dashed var(--brass);background:rgba(0,0,0,.25);color:#F2DFAE;cursor:pointer}
+.deal-inline .di-code:hover{background:rgba(0,0,0,.4)}
+.deal-inline .di-hint{font-size:11px;text-align:center;color:#BDB6A6;font-family:'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase}
+.deal-inline .di-btn{display:block;text-align:center;background:var(--brass);color:var(--night);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:11px 16px;text-decoration:none}
+.deal-inline .di-btn:hover{background:#C9A86A}
+@media (max-width:560px){.deal-inline .di-act{flex:1 1 100%}}
