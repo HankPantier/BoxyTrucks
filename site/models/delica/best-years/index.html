@@ -79,6 +79,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 
 
 <aside class="buybox" aria-label="What to buy">
+  
   <div class="bb-col"><span class="eyebrow brass">Shopping for one?</span><p class="bb-h">Bring these to the inspection</p>
     <ul><li><a href="https://www.amazon.com/s?k=BlueDriver+Bluetooth+Pro+OBDII+scan+tool&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Bluetooth OBD-II scanner <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=paint+thickness+gauge+car&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Paint thickness gauge <span>Amazon ↗</span></a></li><li><a href="https://www.amazon.com/s?k=automotive+inspection+borescope+camera&amp;tag=boxytrucks-20" target="_blank" rel="sponsored nofollow noopener sponsored" data-track="buybox_click">Inspection borescope camera <span>Amazon ↗</span></a></li></ul></div>
   <div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Start with the first service</p><p class="bb-note">Fluids, filters and parts for each generation, with Amazon links, are on its guide.</p><p class="bb-gens"><a class="inline-link" href="/models/delica/delica-l300/#service">Delica Star Wagon (L300 4WD)</a> · <a class="inline-link" href="/models/delica/delica-space-gear/#service">Delica Space Gear</a></p></div>
@@ -204,6 +205,7 @@ if(!get())b.hidden=false;})();
 </script>
 <script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}window.vglnk={key:'b4096a51d5284fc0c947201437e7e75b'};var go=function(){var s=document.createElement('script');s.async=true;s.src='https://cdn.viglink.com/api/vglnk.js';document.body.appendChild(s);};if(window.btAfterLoad)btAfterLoad(go);else window.addEventListener('load',go);})();</script>
 <script>
+document.querySelectorAll('.bb-code[data-copy]').forEach(function(c){c.addEventListener('click',function(){var t=c.getAttribute('data-copy'),o=c.textContent;function done(){c.textContent='Copied';setTimeout(function(){c.textContent=o;},1600);}if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){});}else{done();}if(typeof gtag==='function')gtag('event','deal_code_copy',{deal:c.getAttribute('data-deal-copy'),placement:'buybox'});});});
 (function(){var b=document.querySelector('[data-deal-bar]');if(!b)return;var k='btDealX:'+b.getAttribute('data-deal-bar'),x=null;
 try{x=localStorage.getItem(k);}catch(e){}if(!x)b.hidden=false;
 b.querySelector('.deal-bar-x').addEventListener('click',function(){b.hidden=true;try{localStorage.setItem(k,'1');}catch(e){}});

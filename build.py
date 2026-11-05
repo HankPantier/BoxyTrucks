@@ -255,7 +255,12 @@ def deal_chips(html, deals, root):
             continue
         pat = re.compile(r'(<a\b[^>]*href="[^"]*(?:' + doms + r')[^"]*"[^>]*>.*?</a>)(?!<a class="deal-chip")', re.S)
         chip = f'<a class="deal-chip" href="{root}deals/index.html#{d["id"]}" data-deal="{d["id"]}" title="{_html.escape(d["discount"])} at {_html.escape(d["shop"])} with code {_html.escape(d["code"])}">{_html.escape(d["discount"])}: {_html.escape(d["code"])}</a>'
-        main = pat.sub(lambda m: '<span class="deal-wrap">' + m.group(1) + chip + '</span>', main)
+        skip = re.compile(r'\b(?:' + '|'.join(re.escape(w) for w in d.get('chip_skip', [])) + r')\b', re.I) if d.get('chip_skip') else None
+        def _chip(m, chip=chip, skip=skip):
+            if 'data-deal-click' in m.group(1) or (skip and skip.search(re.sub(r'<[^>]+>', ' ', m.group(1)))):
+                return m.group(1)
+            return '<span class="deal-wrap">' + m.group(1) + chip + '</span>'
+        main = pat.sub(_chip, main)
     return head + sep + main + sep2 + tail
 
 

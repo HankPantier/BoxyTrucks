@@ -1,5 +1,5 @@
 {
- "_readme": "Reader discount codes (Hank, Nov 4, 2026). A deal shows on the site only when it has a code and today is between start and end. families: truck-family slugs it applies to, or [\"*\"] for every page. The top bar shows the page's family deal (or a * deal); /deals/ lists every active deal; a code chip is added after every link to the deal's domains.",
+ "_readme": "Reader discount codes (Hank, Nov 4, 2026). A deal shows on the site only when it has a code and today is between start and end. families: truck-family slugs it applies to, or [\"*\"] for every page. The top bar shows the page's family deal (or a * deal); /deals/ lists every active deal; a code chip is added after every link to the deal's domains. chip_skip: words in a link's text that mean it's a third-party product the code may not cover; those links get no chip.",
  "deals": [
   {
    "id": "eurowise-2026",
@@ -18,7 +18,17 @@
    "start": "2026-11-04",
    "end": "2027-01-03",
    "note": "Live Nov 4, 2026 from Colin (colin@eurowise.com). Code also covers their Cayenne, Touareg, Q7 and older VW parts, but we only show it on G-Class pages. Link to Shop By Vehicle, not the All Eurowise Products collection (Colin asked). Joint data review Jan 4, 2027; fraudulent or cancelled orders do not count.",
-   "terms": "Covers products Eurowise makes itself; third-party shock sets (Bilstein, Fox, King) without Eurowise parts are excluded. Unlimited uses. Doesn’t stack with other discounts: during Eurowise’s Black Friday sale you get whichever discount is higher. Ends at midnight on January 4, 2027."
+   "terms": "Covers products Eurowise makes itself; third-party shock sets (Bilstein, Fox, King) without Eurowise parts are excluded. Unlimited uses. Doesn’t stack with other discounts: during Eurowise’s Black Friday sale you get whichever discount is higher. Ends at midnight on January 4, 2027.",
+   "chip_skip": [
+    "OME",
+    "Old Man Emu",
+    "JWO",
+    "Jackwagon",
+    "King",
+    "Bilstein",
+    "Fox",
+    "ARB"
+   ]
   }
  ]
 }

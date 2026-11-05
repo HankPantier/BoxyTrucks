@@ -25,7 +25,6 @@
     <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}{% if fam.generations|length > 1 or further %}<option value="more">Keep reading</option>{% endif %}
   </select></div>
   {% if tools %}<p class="sub-intro quick-mobile">For this truck: {% for t in tools %}<a class="inline-link" href="{{ root }}{{ t[1] }}">{{ t[0] }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
-  {% set bb_page = p %}{% set bb_years = gen_years %}{% set bb_veh = mlabel(fam.maker, p.title) %}{% include "_buy_box.html" %}
   <div class="split">
     <div class="main">
       {% set x = page.x or {} %}{% set groups = toc|map(attribute=0)|list %}
@@ -48,6 +47,7 @@
         {% endif %}
       </section>
 
+      {% set bb_page = p %}{% set bb_years = gen_years %}{% set bb_veh = mlabel(fam.maker, p.title) %}{% include "_buy_box.html" %}
       {% if p.photos %}
       <section class="gallery" aria-label="Photos">
         {% for ph in p.photos[:4] %}
@@ -244,6 +244,7 @@
         <header class="part-head"><span class="no">PART 05</span><h2>Building one</h2><p>Who makes the good stuff, where owners gather, and who to watch.</p></header>
       {% if p.mods %}
       <section id="mods" style="display:flex;flex-direction:column;gap:18px">
+        {% include "_deal_inline.html" %}
         <h2 class="h-section">Common modifications &amp; who does them</h2>
         <div class="grid">{% for m in p.mods %}
           <div class="mod"><span class="label">{{ m.cat }}</span><span class="why">{{ m.why|lk }}</span>
