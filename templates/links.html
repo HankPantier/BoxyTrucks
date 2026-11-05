@@ -3,6 +3,14 @@
 <section class="band-night"><div class="wrap lk-wrap">
   <a class="brand lk-brand" href="{{ root }}index.html">{{ mark('#B0915A', 44) }}<span>BOXY TRUCKS</span></a>
   <p class="serif lk-lede">Buyer’s guides to boxy 4x4s: best years, common problems, repairs and the biggest tire that fits.</p>
+  {# Every live reader deal from data/deals.json shows here automatically (Hank, Nov 5, 2026: Instagram bio link carries the codes). #}
+  {% for dl in active_deals %}<aside class="deal-inline lk-deal" aria-label="Reader deal">
+    <div class="di-main"><span class="di-tag">Reader deal</span>
+      <p class="di-h">{{ dl.discount }} {{ dl.covers }} at {{ dl.shop }}</p>
+      <p class="di-sub">Through {{ dl.end_h or dl.end }}.{% if dl.callout_note %} {{ dl.callout_note }}{% endif %} <a href="{{ root }}deals/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links#{{ dl.id }}">Terms</a></p></div>
+    <div class="di-act"><button type="button" class="bb-code di-code" data-copy="{{ dl.code }}" data-deal-copy="{{ dl.id }}" title="Tap to copy the code">{{ dl.code }}</button><span class="di-hint">Tap to copy</span>
+      <a class="di-btn" href="{{ dl.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ dl.id }}" data-track="links">Shop {{ dl.shop }} ↗</a></div>
+  </aside>{% endfor %}
   <div class="lk-list">
     {% for p in recent %}<a class="lk-btn lk-new" href="{{ root }}{{ p.link }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><span class="eyebrow brass">{% if loop.first %}Latest post{% else %}Recent post{% endif %}</span><strong>{{ p.title }}</strong></a>{% endfor %}
     <a class="lk-btn" href="{{ root }}which-4x4/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Which 4x4 should I buy? Take the 5-question quiz</strong></a>
