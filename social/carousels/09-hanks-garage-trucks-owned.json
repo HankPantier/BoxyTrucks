@@ -1,11 +1,53 @@
 {
  "prefix": "09-hanks-garage-trucks-owned",
  "slides": [
-  {"photo": "site/img/g-class/g55-schockl-forest-track.jpg", "credit": "Photo: a G 55 on the Schöckl, not mine · Bahnfrend, CC BY-SA 3.0", "eyebrow": "From Hank's garage", "title": "Every boxy truck I've owned.", "body": "In the driveway now: a 2007 G500 and a 2024 4Runner. Swipe for the rest.", "tag": "Now: 2007 G500"},
-  {"photo": "site/img/jeep/lj-rubicon-hells-revenge.jpg", "pos": "72% 60%", "credit": "Photo: not mine · Dave Jeppesen for BLM Utah, public domain", "eyebrow": "Jeep · 2004–06", "title": "Two Jeep LJs.", "body": "The long-wheelbase TJ Unlimited. Not once, twice.", "tag": "Owned twice"},
-  {"photo": "site/img/land-cruiser/lc80-hillside.jpg", "credit": "Photo: not mine · Darina Rodionova / Unsplash", "eyebrow": "Land Cruiser · 1991–97", "title": "An 80 Series.", "body": "Then an FJ Cruiser, too. Toyota gets a lot of my money.", "tag": "Owned"},
-  {"photo": "site/img/4runner/gen5-desert-twilight.jpg", "credit": "Photo: not mine · Stephen Leonardi / Pexels", "eyebrow": "4Runner", "title": "Four 4Runners.", "body": "A 2002, a 2007, a 2016 and the 2024 I drive now.", "tag": "Owned four"},
-  {"photo": "site/img/land-cruiser/fj60-white-desert.jpg", "credit": "Photo: not mine · Ysjyd / Johan Holmdahl, CC0", "eyebrow": "Land Cruiser · 1980–87", "title": "The one I regret selling: my 60 Series.", "body": "Every one of these has a buying guide on the site, years to buy and avoid included.", "tag": "The regret"}
+  {
+   "photo": "site/img/g-class/hank-g500-three-quarter.jpg",
+   "credit": "Photo: my 2007 G500 · Hank",
+   "eyebrow": "From Hank's garage",
+   "title": "Every boxy truck I've owned.",
+   "body": "In the driveway now: a 2007 G500 and a 2024 4Runner. Swipe for the rest.",
+   "tag": "Now: 2007 G500",
+   "pos": "45% 55%"
+  },
+  {
+   "photo": "site/img/jeep/lj-rubicon-hells-revenge.jpg",
+   "pos": "72% 60%",
+   "credit": "Photo: not mine · Dave Jeppesen for BLM Utah, public domain",
+   "eyebrow": "Jeep · 2004–06",
+   "title": "Two Jeep LJs.",
+   "body": "The long-wheelbase TJ Unlimited. Not once, twice.",
+   "tag": "Owned twice"
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-hillside.jpg",
+   "credit": "Photo: not mine · Darina Rodionova / Unsplash",
+   "eyebrow": "Land Cruiser · 1991–97",
+   "title": "An 80 Series.",
+   "body": "Then an FJ Cruiser, too. Toyota gets a lot of my money.",
+   "tag": "Owned"
+  },
+  {
+   "photo": "site/img/4runner/gen5-desert-twilight.jpg",
+   "credit": "Photo: not mine · Stephen Leonardi / Pexels",
+   "eyebrow": "4Runner",
+   "title": "Four 4Runners.",
+   "body": "A 2002, a 2007, a 2016 and the 2024 I drive now.",
+   "tag": "Owned four"
+  },
+  {
+   "photo": "site/img/land-cruiser/fj60-white-desert.jpg",
+   "credit": "Photo: not mine · Ysjyd / Johan Holmdahl, CC0",
+   "eyebrow": "Land Cruiser · 1980–87",
+   "title": "The one I regret selling: my 60 Series.",
+   "body": "Every one of these has a buying guide on the site, years to buy and avoid included.",
+   "tag": "The regret"
+  }
  ],
- "end": {"eyebrow": "Your turn", "title": "Which one would you have kept?", "body": "Tell me in the comments. The guides for all of them are free, no ads.", "url": "boxytrucks.com · link in bio"}
+ "end": {
+  "eyebrow": "Your turn",
+  "title": "Which one would you have kept?",
+  "body": "Tell me in the comments. The guides for all of them are free, no ads.",
+  "url": "boxytrucks.com · link in bio"
+ }
 }
