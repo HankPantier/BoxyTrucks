@@ -77,6 +77,8 @@ def spec_for(fam, g, page, mt, photos):
     for i, t in enumerate(mt[1:3], start=1):
         sc.append({'photo': ph(i), 'pos': '50% 55%', 'dur': 3.0, 'eyebrow': f'With a {t["lift"]} lift' if 'lift' not in str(t['lift']).lower() else str(t['lift']), 'title': t['size'], 'body': first_sentence(t.get('note')), 'zoom': [1.05, 1.15]})
     sc.append({'photo': ph(len(sc)), 'pos': '50% 50%', 'dur': 2.6, 'title': 'Every size, every lift.', 'body': url, 'cta': True, 'zoom': [1.04, 1.1]})
+    # Hank, Nov 6, 2026: end every Short with a follow ask (works on YouTube, TikTok, IG, X and Pinterest alike).
+    sc.append({'photo': ph(0), 'pos': focus, 'dur': 2.0, 'eyebrow': 'Boxy Trucks', 'title': 'Follow for a new truck every day.', 'body': 'Tomorrow: another boxy 4x4.', 'cta': True, 'zoom': [1.1, 1.14]})
     used = []
     for s in sc:
         f = s['photo'].rsplit('/', 1)[1]
@@ -93,11 +95,19 @@ def spec_for(fam, g, page, mt, photos):
     yt_title = f'Biggest tire on a stock {lab}: {mt[0]["size"]}'[:100]
     yt_desc = (f'The biggest tire that fits a stock {lab}, and what fits with a lift. {sizes}.\n\n'
                f'Every size with fitment notes, wheel specs and where to buy: {link}?utm_source=youtube&utm_medium=social\n\n'
-               f'{spec["credit"]}')
-    tt_desc = f'Biggest tire on a stock {lab}? {mt[0]["size"]}. With a lift: {mt[1]["size"]}. Every size at boxytrucks.com '
+               f'Subscribe for a new boxy truck every day.\n\n{spec["credit"]}')
+    tt_desc = f'Biggest tire on a stock {lab}? {mt[0]["size"]}. With a lift: {mt[1]["size"]}. Every size at boxytrucks.com. Follow for a new truck every day '
     return gid, spec, {'id': gid, 'fam': fam['slug'], 'gen': g['slug'], 'label': lab, 'spec': f'social/reels/shorts/{gid}.json',
                        'video': spec['out'], 'link': link, 'yt_title': yt_title, 'yt_description': yt_desc,
                        'tt_description': tt_desc, 'tt_hashtags': [TAGS.get(fam['slug'], '#4x4'), '#offroad', '#tires'],
+                       # Hank, Nov 6, 2026: the second daily post goes to every platform, not just YouTube and TikTok.
+                       'ig_caption': (f'Biggest tire on a stock {lab}: {mt[0]["size"]}.\n\n' + '\n'.join(f'{t["lift"]}: {t["size"]}' for t in mt[1:3]) +
+                                      f'\n\nEvery size with fitment notes and wheel specs: link in bio.\n\nWhat are you running on yours?\n\nFollow for a new truck every day.\n\n{spec["credit"]}\n\n'
+                                      + ' '.join([TAGS.get(fam['slug'], '#4x4'), '#offroad', '#tires', '#overland'])),
+                       'x_text': (f'Biggest tire on a stock {lab}? {mt[0]["size"]}. With a lift: {mt[1]["size"]}.\n\nEvery size: {link}?utm_source=x&utm_medium=social')[:270],
+                       'pin_title': f'Biggest tire on a stock {lab}'[:100],
+                       'pin_description': (f'The biggest tire that fits a stock {lab}, and what fits with a lift. {sizes}. Fitment notes, wheel specs and where to buy.')[:480],
+                       'pin_link': f'{link}?utm_source=pinterest&utm_medium=social',
                        'status': 'queued'}
 
 
@@ -114,7 +124,7 @@ def queue():
         gid, spec, row = spec_for(*byfam[f].pop(0))
         (ROOT / row['spec']).write_text(json.dumps(spec, indent=1, ensure_ascii=False))
         prev = old.get(gid)
-        rows.append({**row, **{k: v for k, v in (prev or {}).items() if k.startswith(('yt_status', 'yt_url', 'tt_status', 'tt_url', 'posted', 'status')) and v}})
+        rows.append({**row, **{k: v for k, v in (prev or {}).items() if k.startswith(('yt_', 'tt_status', 'tt_url', 'ig_status', 'ig_url', 'x_status', 'x_url', 'pin_status', 'pin_url', 'posted', 'status')) and k not in ('yt_title', 'yt_description') and v}})
     QUEUE.write_text(json.dumps(rows, indent=1, ensure_ascii=False))
     print(f'{len(rows)} shorts queued ({sum(r["status"] == "posted" for r in rows)} posted)')
 

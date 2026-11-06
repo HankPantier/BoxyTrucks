@@ -991,3 +991,6 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .deal-inline .di-btn{display:block;text-align:center;background:var(--brass);color:var(--night);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:11px 16px;text-decoration:none}
 .deal-inline .di-btn:hover{background:#C9A86A}
 @media (max-width:560px){.deal-inline .di-act{flex:1 1 100%}}
+/* links page: YouTube button + follow row (Nov 6, 2026) */
+.lk-follow{text-align:center;font-size:15px;margin:18px 0 6px;opacity:.9}
+.lk-follow a{color:inherit;text-decoration:underline;text-underline-offset:3px}
