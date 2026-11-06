@@ -1,6 +1,7 @@
 // Spec-stack graphic (Hank, Nov 6, 2026): one band per truck, licensed photo + key specs, tied to a /compare/ page.
 // Usage: node social/stacks/make_stack.js social/stacks/<spec>.json  ->  social/posts/stack-<slug>.jpg (1080x1350)
 // Spec: {slug, eyebrow, title, url, trucks:[{name, years, photo, pos, credit, specs:[[icon,label,value],...]}]}
+// t.blur: [[x,y,w,h]] boxes (px, inside the photo) to blur number plates.
 // Facts must come from data/compare/<slug>.json; photos only from the site's licensed page photos. No brand logos.
 const fs = require('fs'), path = require('path'); const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..', '..'); const spec = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
@@ -30,7 +31,7 @@ h1{font-size:62px;line-height:1.02;letter-spacing:-.03em;font-weight:600;margin-
 .ft{position:absolute;left:56px;right:56px;bottom:30px;display:flex;align-items:center;gap:14px;font-weight:600;letter-spacing:.2em;font-size:20px}.url{margin-left:auto;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em;font-weight:400;color:#C9A86A;font-size:22px}`;
 const html = `<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet"><style>${css}</style></head><body>
 <div class="hd"><div class="ey">${esc(spec.eyebrow)}</div><h1>${esc(spec.title)}</h1></div>
-${spec.trucks.map(t => `<div class="band"><div class="ph" style="background-image:url(${img(t.photo)});background-position:${t.pos || '50% 50%'}"><div class="cr">${esc(t.credit)}</div></div>
+${spec.trucks.map(t => `<div class="band"><div class="ph" style="background-image:url(${img(t.photo)});background-position:${t.pos || '50% 50%'}">${(t.blur || []).map(([x, y, w, h]) => `<div style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)"></div>`).join('')}<div class="cr">${esc(t.credit)}</div></div>
 <div class="inf"><div class="nm"><span class="yr">${esc(t.years)}</span><b>${esc(t.name)}</b></div><div class="sp">${t.specs.map(([k, v]) => `<div class="r">${svg(k)}<span>${esc(v)}</span></div>`).join('')}</div></div></div>`).join('')}
 <div class="ft">${mark}<span>BOXY TRUCKS</span><span class="url">${esc(spec.url)}</span></div></body></html>`;
 (async () => { const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 1350 } });

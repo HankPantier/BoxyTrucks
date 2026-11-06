@@ -1,0 +1,115 @@
+{
+ "slug": "defender-vs-grenadier-vs-g-class",
+ "eyebrow": "Spec stack · New boxy 4x4s",
+ "title": "Defender, Grenadier or G-Class?",
+ "url": "boxytrucks.com/compare",
+ "trucks": [
+  {
+   "name": "Defender",
+   "years": "2020–",
+   "photo": "site/img/land-rover/l663-vestrahorn.jpg",
+   "pos": "50% 55%",
+   "credit": "Karsten Winegeart / Unsplash",
+   "specs": [
+    [
+     "engine",
+     "3.0 I6 mild hybrid, 400 PS (US P400)"
+    ],
+    [
+     "axle",
+     "Aluminium monocoque, independent all round"
+    ],
+    [
+     "lock",
+     "Centre and rear lockers"
+    ],
+    [
+     "tow",
+     "8,200 lb towing"
+    ],
+    [
+     "tire",
+     "275/60R20 (≈33 in), no lift"
+    ],
+    [
+     "price",
+     "$27k–42k used, 2020–22"
+    ]
+   ]
+  },
+  {
+   "name": "Grenadier",
+   "years": "2024–",
+   "photo": "site/img/grenadier/station-wagon-goodwood-mud.jpg",
+   "pos": "50% 55%",
+   "credit": "Calreyn88 · CC BY-SA 4.0",
+   "specs": [
+    [
+     "engine",
+     "BMW 3.0 turbo I6, 282 hp"
+    ],
+    [
+     "axle",
+     "Ladder frame, beam axles front and rear"
+    ],
+    [
+     "lock",
+     "Front, centre, rear with Rough Pack"
+    ],
+    [
+     "tow",
+     "7,716 lb towing"
+    ],
+    [
+     "tire",
+     "285/75R17 (≈34 in), no lift"
+    ],
+    [
+     "price",
+     "$56.5k–72k used 2024"
+    ]
+   ],
+   "blur": [
+    [
+     10,
+     222,
+     72,
+     34
+    ]
+   ]
+  },
+  {
+   "name": "G-Class",
+   "years": "2019–",
+   "photo": "site/img/g-class/hillside-mountains.jpg",
+   "pos": "50% 55%",
+   "credit": "Dextar Studio / Pexels",
+   "specs": [
+    [
+     "engine",
+     "G 550: 4.0 twin-turbo V8, 416 hp"
+    ],
+    [
+     "axle",
+     "Ladder frame, independent front, rigid rear"
+    ],
+    [
+     "lock",
+     "Front, centre and rear lockers"
+    ],
+    [
+     "tow",
+     "7,700 lb towing"
+    ],
+    [
+     "tire",
+     "≈31 in stock; 33s with a 2.5 in lift"
+    ],
+    [
+     "price",
+     "$72k–90k for a 2019 G 550"
+    ]
+   ]
+  }
+ ]
+}
