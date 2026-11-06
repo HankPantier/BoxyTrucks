@@ -27,6 +27,7 @@
 | Nov 4, 2026 | Reader deal: Eurowise 5% code BOXYTRUCKS5, link to /deals/ | https://x.com/boxytrucks/status/2118024285411479807 |
 | Nov 4, 2026 | Cross-post of Reel n=10, "80 Series: 5 things to check" (MP4), link to /models/land-cruiser/80-series/problems/ | https://x.com/boxytrucks/status/2118037997887058061 |
 | Nov 5, 2026 | From Hank's garage (n=9): "Every boxy truck I've owned", 4 images (slide 1 Hank's own G500), link to boxytrucks.com | https://x.com/boxytrucks/status/2118378579969114310 |
+| Nov 6, 2026 | "Series IIA: spot the difference" (n=14), 4 images (Hank's own photos, plates blurred), link to /models/land-rover/series/ | https://x.com/boxytrucks/status/2118762527379329482 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious
