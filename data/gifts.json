@@ -1,0 +1,210 @@
+{
+ "_readme": "Holiday gift guide (Hank, Nov 6, 2026: fun but useful). Amazon search links only (no specific listings or prices, which change); the build adds the Associates tag. Live reader deals from data/deals.json show automatically. Refresh picks each November.",
+ "slug": "gifts-for-4x4-owners",
+ "title": "Gifts for 4x4 owners: 30 ideas for the boxy-truck person in your life",
+ "seo_title": "Gifts for 4x4 Owners: 30 Ideas for Off-Road & Overland Fans (2026)",
+ "description": "Gift ideas for Land Cruiser, Jeep, G-Wagen, Defender and 4Runner owners: recovery gear, air compressors, garage tools, camp kit, LEGO sets, books and stocking stuffers, picked by owners.",
+ "lead": "Picked by people who own these trucks: the gear that actually gets used, the stuff that makes a Saturday in the garage easier, and a few things that are just fun. No gadgets that end up in a drawer.",
+ "groups": [
+  {
+   "id": "recovery",
+   "title": "For getting unstuck",
+   "lead": "The kit every trail truck should carry and most don't.",
+   "items": [
+    {
+     "name": "Recovery traction boards",
+     "q": "recovery traction boards 4x4",
+     "why": "Wedge them under the tires in sand, mud or snow and drive out. The single most-used piece of recovery gear."
+    },
+    {
+     "name": "Soft shackles and a kinetic recovery rope",
+     "q": "kinetic recovery rope soft shackle kit",
+     "why": "Lighter and safer than steel shackles and a tow strap. Check the rope's rating against the truck's weight."
+    },
+    {
+     "name": "Hitch receiver shackle mount",
+     "q": "hitch receiver shackle mount",
+     "why": "Turns the tow hitch into a proper rated recovery point. Never recover from a tow ball."
+    },
+    {
+     "name": "Tree saver strap and gloves",
+     "q": "tree saver strap winch",
+     "why": "Protects the tree and the winch line. Cheap, and almost nobody buys one for themselves."
+    },
+    {
+     "name": "Folding shovel",
+     "q": "folding shovel off road",
+     "why": "For digging out an axle or a buried tire before you reach for the winch."
+    }
+   ]
+  },
+  {
+   "id": "air",
+   "title": "For airing down (and back up)",
+   "lead": "Dropping tire pressure is the cheapest capability upgrade there is. Getting it back up is the hard part.",
+   "items": [
+    {
+     "name": "Portable 12V air compressor",
+     "q": "portable 12v air compressor 4x4 offroad",
+     "why": "Airs four big tires back up before the pavement. Get one rated for continuous duty."
+    },
+    {
+     "name": "Automatic tire deflators",
+     "q": "automatic tire deflators offroad",
+     "why": "Screw on, set the pressure once, and all four stop at the same number."
+    },
+    {
+     "name": "Digital tire pressure gauge",
+     "q": "digital tire pressure gauge offroad",
+     "why": "Accurate at low pressures, where cheap stick gauges guess."
+    },
+    {
+     "name": "Tire plug kit",
+     "q": "heavy duty tire plug kit",
+     "why": "Fixes a trail puncture in ten minutes. Stocking-stuffer price."
+    }
+   ]
+  },
+  {
+   "id": "garage",
+   "title": "For the garage",
+   "lead": "These trucks reward owners who do their own work. Our repair guides list the tools for every job.",
+   "items": [
+    {
+     "name": "Bluetooth OBD-II scanner",
+     "q": "bluetooth OBD2 scanner",
+     "why": "Reads and clears codes from a phone. Only for 1996 and newer trucks; older ones don't have OBD-II."
+    },
+    {
+     "name": "Torque wrench",
+     "q": "1/2 inch drive torque wrench",
+     "why": "Wheel nuts, axle and suspension bolts all have a torque spec. Guessing is how studs snap."
+    },
+    {
+     "name": "Rechargeable work light",
+     "q": "rechargeable magnetic work light",
+     "why": "Hooks or sticks anywhere under the truck. You'll use it every weekend."
+    },
+    {
+     "name": "Rolling creeper",
+     "q": "mechanic creeper",
+     "why": "Your back will thank you on the first oil change."
+    },
+    {
+     "name": "Rust-prevention undercoating",
+     "q": "Fluid Film undercoating",
+     "why": "Old ladder frames rot from the inside. A yearly coat of a wax or lanolin spray is cheap insurance."
+    },
+    {
+     "name": "A factory service manual",
+     "q": "factory service manual",
+     "why": "The best gift for a new owner. Every truck guide on BoxyTrucks lists its manuals and where to find them.",
+     "site": {
+      "label": "Find their truck's guide",
+      "href": "garage/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "camp",
+   "title": "For the trip",
+   "lead": "For the owner who keeps saying they'll take it camping this year.",
+   "items": [
+    {
+     "name": "Rechargeable headlamp",
+     "q": "rechargeable headlamp",
+     "why": "Hands-free light for a night-time tire change or setting up camp."
+    },
+    {
+     "name": "12V fridge freezer",
+     "q": "12v portable fridge freezer",
+     "why": "No more ice in the cooler. A big gift, but the one overlanders talk about most."
+    },
+    {
+     "name": "Folding camp chairs",
+     "q": "folding camp chair",
+     "why": "Every trail day ends sitting down."
+    },
+    {
+     "name": "First-aid kit",
+     "q": "vehicle first aid kit",
+     "why": "The thing everyone means to put in the truck and doesn't."
+    },
+    {
+     "name": "Insulated mug",
+     "q": "insulated travel mug",
+     "why": "Coffee that stays hot on a cold morning start. Low risk, always used."
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "title": "Just for fun",
+   "lead": "For the person who already has the gear.",
+   "items": [
+    {
+     "name": "LEGO Land Rover Defender",
+     "q": "LEGO Land Rover Defender",
+     "why": "LEGO has made both the classic Defender 90 and the new one. A weekend of building for the Land Rover person."
+    },
+    {
+     "name": "LEGO Mercedes G-Class",
+     "q": "LEGO Technic Mercedes G 500",
+     "why": "The Technic G 500 has working suspension and steering. G-Wagen owners love it."
+    },
+    {
+     "name": "LEGO Jeep Wrangler",
+     "q": "LEGO Technic Jeep Wrangler",
+     "why": "A small, cheap Technic Wrangler. A good stocking stuffer for a Jeep family."
+    },
+    {
+     "name": "Diecast models",
+     "q": "1:24 diecast Land Cruiser",
+     "why": "Search their exact truck: Land Cruisers, Broncos, Defenders and Scouts all come in 1:24 and 1:18."
+    },
+    {
+     "name": "Coffee-table books",
+     "q": "Land Cruiser book history",
+     "why": "There are good histories of the Land Cruiser, the Defender, the G-Wagen and the Jeep. Swap the search for their truck."
+    }
+   ]
+  },
+  {
+   "id": "stocking",
+   "title": "Stocking stuffers",
+   "lead": "Under about $25 and still useful.",
+   "items": [
+    {
+     "name": "Microfiber towels",
+     "q": "microfiber towels car",
+     "why": "Glass, dash, dipsticks. You can never have too many."
+    },
+    {
+     "name": "Valve stem caps and a core tool",
+     "q": "valve core tool tire",
+     "why": "For airing down fast and replacing the caps that always go missing."
+    },
+    {
+     "name": "Ratchet straps",
+     "q": "ratchet straps",
+     "why": "For the roof rack, the bed, the trailer, everything."
+    },
+    {
+     "name": "Zip ties and electrical tape",
+     "q": "heavy duty zip ties assortment",
+     "why": "Half of all trail repairs. Seriously."
+    },
+    {
+     "name": "Paint thickness gauge",
+     "q": "paint thickness gauge car",
+     "why": "For the friend who's shopping for a truck: it finds filler and resprays in seconds. Pair it with our free inspection checklist.",
+     "site": {
+      "label": "Free inspection checklists",
+      "href": "inspection-checklists/"
+     }
+    }
+   ]
+  }
+ ]
+}

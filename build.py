@@ -1292,10 +1292,18 @@ def main():
                    {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in _faqs]}],
            title="Boxy SUVs: Every Boxy 4x4 You Can Buy, New & Used",
            description=fit_desc(f'Every boxy SUV and 4x4, new and used: {_total} trucks from the Land Cruiser, Defender and G-Wagon to the Bronco, Scout and Jimny, with prices, solid-axle status and years to avoid.'), credits='')
+    _gifts = jload(DATA / 'gifts.json') if (DATA / 'gifts.json').exists() else None
+    if _gifts:  # holiday gift guide (Hank, Nov 6, 2026)
+        _gc = sum(len(x['items']) for x in _gifts['groups'])
+        render('gifts.html', f'best/{_gifts["slug"]}.html', '../', g=_gifts, count=_gc, active='best', og_type='article',
+               crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/'), ('Gift guide', f'best/{_gifts["slug"]}/')],
+               jsonld=[{'@context': 'https://schema.org', '@type': 'ItemList', 'name': _gifts['title'], 'url': SITE_URL + f'best/{_gifts["slug"]}/',
+                        'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': it['name']} for i, it in enumerate([it for x in _gifts['groups'] for it in x['items']])]}],
+               title=_gifts['seo_title'], description=fit_desc(_gifts['description']), credits='')
     if buyers:
         render('list_hub.html', 'best/index.html', '../', active='best', crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/')],
                h={'title': 'Buyer’s guides', 'eyebrow': f'{len(buyers)} guides · prices checked October 2026', 'lead': 'Shortlists for the questions buyers actually ask: what to get on a budget, for a first truck, for overlanding, for the rocks, and the classics worth keeping. Every pick links to its full guide.',
-                  'items': [{'href': 'boxy-suvs.html', 'title': 'Boxy SUVs: every boxy 4x4, new and used', 'eyebrow': 'The full list', 'text': 'Every boxy 4x4 we cover in one table: still on sale, used and classic, with prices, front axle type and the years to avoid.'}] + [{'href': f'{b["slug"]}.html', 'title': b['title'], 'eyebrow': f'{len(b["picks"])} picks', 'text': (b.get('lead') or [''])[0]} for b in buyers]},
+                  'items': [{'href': 'boxy-suvs.html', 'title': 'Boxy SUVs: every boxy 4x4, new and used', 'eyebrow': 'The full list', 'text': 'Every boxy 4x4 we cover in one table: still on sale, used and classic, with prices, front axle type and the years to avoid.'}] + ([{'href': f'{_gifts["slug"]}.html', 'title': 'Gifts for 4x4 owners', 'eyebrow': 'Holiday gift guide', 'text': _gifts['lead']}] if _gifts else []) + [{'href': f'{b["slug"]}.html', 'title': b['title'], 'eyebrow': f'{len(b["picks"])} picks', 'text': (b.get('lead') or [''])[0]} for b in buyers]},
                title="Buyer's guides: the best boxy 4x4s by budget and use — BoxyTrucks", description='The best boxy 4x4s under $15k and $30k, for a first truck, overlanding, rock crawling and classics, with prices and best years.', credits='')
     swaps = [jload(f) for f in sorted((DATA / 'swaps').glob('*.json'))] if (DATA / 'swaps').exists() else []
     swaps = [x for x in swaps if x and x.get('sections')]

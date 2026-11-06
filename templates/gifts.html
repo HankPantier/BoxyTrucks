@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><a href="{{ root }}best/index.html">Buyer’s guides</a><span>/</span><span>Gift guide</span></nav>
+  <span class="eyebrow brass">Holiday gift guide · {{ count }} ideas</span>
+  <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ g.title }}</h1>
+  <p class="serif" style="margin:0;max-width:760px;font-size:19px;line-height:29px;color:#D9D4C8">{{ g.lead }}</p>
+  <div class="bx-jump">{% for grp in g.groups %}<a href="#{{ grp.id }}">{{ grp.title }} <span>{{ grp['items']|length }}</span></a>{% endfor %}</div>
+</div></section>
+<div class="wrap section" style="padding-top:40px;display:flex;flex-direction:column;gap:44px">
+  {% for dl in active_deals %}{% set fam = {'slug': (dl.families or [''])[0]} %}<aside class="deal-inline" aria-label="Reader deal">
+    <div class="di-main"><span class="di-tag">Reader deal · gift idea</span>
+      <p class="di-h">{{ dl.discount }} {{ dl.covers }} at {{ dl.shop }}</p>
+      <p class="di-sub">Through {{ dl.end_h or dl.end }}.{% if dl.callout_note %} {{ dl.callout_note }}{% endif %}</p></div>
+    <div class="di-act"><button type="button" class="bb-code di-code" data-copy="{{ dl.code }}" data-deal-copy="{{ dl.id }}" title="Tap to copy the code">{{ dl.code }}</button><span class="di-hint">Tap to copy</span>
+      <a class="di-btn" href="{{ dl.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ dl.id }}" data-track="gifts">Shop {{ dl.shop }} ↗</a></div>
+  </aside>{% endfor %}
+  {% for grp in g.groups %}<section id="{{ grp.id }}" style="display:flex;flex-direction:column;gap:14px">
+    <h2 class="h-section">{{ grp.title }}</h2>
+    {% if grp.lead %}<p class="sub-intro" style="margin:0;max-width:760px">{{ grp.lead }}</p>{% endif %}
+    <ul class="gift-list">{% for it in grp['items'] %}<li>
+      <div class="gift-tx"><strong>{{ it.name }}</strong><span>{{ it.why }}</span>{% if it.site %}<a class="inline-link" href="{{ root }}{{ it.site.href }}index.html">{{ it.site.label }} →</a>{% endif %}</div>
+      <a class="gift-btn" href="https://www.amazon.com/s?k={{ it.q|urlencode }}" target="_blank" rel="noopener sponsored" data-track="gift_click">See options on Amazon ↗</a>
+    </li>{% endfor %}</ul>
+  </section>{% endfor %}
+  <p class="sp-foot">BoxyTrucks earns a commission on some purchases through these links, at no cost to you. We link to searches rather than single listings so you can pick the size, rating and price that suit the truck. Check any recovery gear's rating against the vehicle's weight.</p>
+</div>
+{% endblock %}

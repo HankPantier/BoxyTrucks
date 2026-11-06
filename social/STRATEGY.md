@@ -84,3 +84,9 @@ Not a core goal, but revenue needs several streams (sponsors, affiliates, reader
 - From Feb 1, 2027 (new applicants): 1,000 subscribers + 8,000 watch hours, or 20M Shorts views in 90 days.
 - Where we are (Nov 6): 1 subscriber, about 1,400 views in our first week, all Shorts. At ~500 views a day, Shorts alone won't get there; subscribers and long-form watch hours will.
 - What that means for planning: every Short asks for a follow; reply to every comment; and start a long-form series once the Shorts show which trucks pull views (an 8–12 minute "should you buy a ___" walkthrough per generation, built from the site's guides; Hank on camera with his own trucks when he can). Track subscribers and watch hours in the Monday scoreboard.
+
+## Seasonal and holiday posts (Hank, Nov 6, 2026)
+Fun but useful. Hank is collecting his own shots of trucks for holidays and seasons (they land in his Mac's photos/ folder; log them in PHOTOS.md). Each seasonal post pairs the fun photo with something useful on the site.
+- Dec 1: gift guide launch (boxytrucks.com/best/gifts-for-4x4-owners/), reminder around Dec 10.
+- Dec 23: "Happy holidays from Boxy Trucks", Hank's Willys wagon with a wreath (DSC00377).
+- Ideas for later: New Year (resolution: do the deferred maintenance; link service schedules), spring (rust check after salt season; inspection checklists), summer (heat and cooling-system checks; overlanding picks), fall (winter prep, tires). Use Hank's photos first, licensed photos otherwise.
