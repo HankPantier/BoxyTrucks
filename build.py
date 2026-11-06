@@ -135,26 +135,32 @@ SHORT_NAME = {'4runner': '4Runner', 'g-class': 'G-Class', 'grenadier': 'Grenadie
               'chevrolet': 'Chevrolet / GMC', 'suzuki': 'Suzuki', 'pajero': 'Mitsubishi Pajero', 'trooper': 'Isuzu Trooper', 'hummer': 'Hummer', 'unimog': 'Mercedes Unimog', 'pinzgauer': 'Pinzgauer', 'delica': 'Mitsubishi Delica', 'niva': 'Lada Niva', 'ramcharger': 'Dodge Ramcharger'}
 FAMILY_ORDER = sorted(SHORT_NAME, key=lambda k: SHORT_NAME[k].lower())
 NAV_FAMS = []
+# Main nav (Hank, Nov 6, 2026): Garage split into Buying and Owning; Field Notes and Deals promoted to the top level.
+# Same number of top-level items as before (Which 4x4?, Mods & builders and For sale moved into the dropdowns).
 NAV = [
     {'key': 'models', 'label': 'MODELS', 'href': 'models/index.html'},
-    {'key': 'garage', 'label': 'GARAGE', 'href': 'garage/index.html', 'children': [
-        {'key': 'notes', 'label': 'Field Notes', 'href': 'field-notes/index.html'},
-        {'key': 'deals', 'label': 'Reader deals', 'href': 'deals/index.html'},
+    {'key': 'buying', 'label': 'BUYING', 'href': 'buying/index.html', 'all': 'All buying help →',
+     'act': ['buying', 'quiz', 'best', 'bestyears', 'compare', 'checklists', 'inspection', 'importing', 'sale', 'garage'], 'children': [
+        {'key': 'quiz', 'label': 'Which 4x4 should I buy?', 'href': 'which-4x4/index.html'},
+        {'key': 'best', 'label': 'Buyer’s guides', 'href': 'best/index.html'},
+        {'key': 'bestyears', 'label': 'Best years to buy', 'href': 'garage/index.html#best-years'},
+        {'key': 'compare', 'label': 'Compare', 'href': 'compare/index.html'},
+        {'key': 'checklists', 'label': 'Inspection checklists', 'href': 'inspection-checklists/index.html'},
+        {'key': 'inspection', 'label': 'Pre-purchase inspection', 'href': 'pre-purchase-inspection/index.html'},
+        {'key': 'importing', 'label': 'Importing', 'href': 'importing/index.html'},
+        {'key': 'sale', 'label': 'For sale', 'href': 'for-sale/index.html'},
+    ]},
+    {'key': 'owning', 'label': 'OWNING', 'href': 'owning/index.html', 'all': 'All owner help →',
+     'act': ['owning', 'repairs', 'tires', 'recalls', 'swaps', 'mods', 'resources'], 'children': [
         {'key': 'repairs', 'label': 'Repair guides', 'href': 'repairs/index.html'},
         {'key': 'tires', 'label': 'Tire fitment', 'href': 'tires/index.html'},
         {'key': 'recalls', 'label': 'Recall tracker', 'href': 'recalls/index.html'},
-        {'key': 'compare', 'label': 'Compare', 'href': 'compare/index.html'},
-        {'key': 'best', 'label': 'Buyer’s guides', 'href': 'best/index.html'},
-        {'key': 'bestyears', 'label': 'Best years to buy', 'href': 'garage/index.html#best-years'},
-        {'key': 'checklists', 'label': 'Inspection checklists', 'href': 'inspection-checklists/index.html'},
-        {'key': 'inspection', 'label': 'Pre-purchase inspection', 'href': 'pre-purchase-inspection/index.html'},
+        {'key': 'mods', 'label': 'Mods & builders', 'href': 'mods/index.html'},
         {'key': 'swaps', 'label': 'Engine swaps', 'href': 'engine-swaps/index.html'},
-        {'key': 'importing', 'label': 'Importing', 'href': 'importing/index.html'},
         {'key': 'resources', 'label': 'Resources', 'href': 'resources/index.html'},
     ]},
-    {'key': 'quiz', 'label': 'WHICH 4X4?', 'href': 'which-4x4/index.html'},
-    {'key': 'mods', 'label': 'MODS & BUILDERS', 'href': 'mods/index.html'},
-    {'key': 'sale', 'label': 'FOR SALE', 'href': 'for-sale/index.html'},
+    {'key': 'notes', 'label': 'FIELD NOTES', 'href': 'field-notes/index.html'},
+    {'key': 'deals', 'label': 'DEALS', 'href': 'deals/index.html'},
     {'key': 'submit', 'label': 'SHOW US YOUR RIG', 'href': 'submit/index.html', 'cta': True},
 ]
 GARAGE_KEYS = {'deals', 'notes', 'garage', 'repairs', 'tires', 'compare', 'resources', 'recalls', 'importing', 'checklists', 'best', 'swaps'}
@@ -1305,6 +1311,30 @@ def main():
                h={'title': 'Buyer’s guides', 'eyebrow': f'{len(buyers)} guides · prices checked October 2026', 'lead': 'Shortlists for the questions buyers actually ask: what to get on a budget, for a first truck, for overlanding, for the rocks, and the classics worth keeping. Every pick links to its full guide.',
                   'items': [{'href': 'boxy-suvs.html', 'title': 'Boxy SUVs: every boxy 4x4, new and used', 'eyebrow': 'The full list', 'text': 'Every boxy 4x4 we cover in one table: still on sale, used and classic, with prices, front axle type and the years to avoid.'}] + ([{'href': f'{_gifts["slug"]}.html', 'title': 'Gifts for 4x4 owners', 'eyebrow': 'Holiday gift guide', 'text': _gifts['lead']}] if _gifts else []) + [{'href': f'{b["slug"]}.html', 'title': b['title'], 'eyebrow': f'{len(b["picks"])} picks', 'text': (b.get('lead') or [''])[0]} for b in buyers]},
                title="Buyer's guides: the best boxy 4x4s by budget and use — BoxyTrucks", description='The best boxy 4x4s under $15k and $30k, for a first truck, overlanding, rock crawling and classics, with prices and best years.', credits='')
+    # Buying / Owning hubs (Hank, Nov 6, 2026: nav split from Garage)
+    _hubtext = {
+        'quiz': ('5 questions', 'Answer five questions about budget, use and how hands-on you are, and get a shortlist of boxy 4x4s that fit.'),
+        'best': ('Shortlists', 'The best boxy 4x4s under $15k and $30k, for a first truck, overlanding, rock crawling and the classics, plus the holiday gift guide.'),
+        'bestyears': ('Every truck', 'The years to buy and the years to avoid for every boxy 4x4 we cover, with the reasons.'),
+        'compare': ('Head to head', 'Side-by-side comparisons of the trucks people cross-shop: specs, prices, problems and a verdict.'),
+        'checklists': ('Free printables', 'A model-specific checklist to take to the test drive, so nothing gets missed.'),
+        'inspection': ('Before you pay', 'How a pre-purchase inspection works, what it should cover and the tools that help.'),
+        'importing': ('25-year rule', 'Bringing a Defender, Land Cruiser or G-Wagen into the US: the rules, the paperwork and the traps.'),
+        'sale': ('Live listings', 'Boxy 4x4s for sale now, with links to AutoTempest and Bring a Trailer for every model.'),
+        'repairs': ('804 guides', 'Step-by-step DIY repairs for the common failures on every truck: difficulty, time, tools and parts.'),
+        'tires': ('Every truck', 'The biggest tire on a stock truck and at every lift height, with wheel specs and where to buy.'),
+        'recalls': ('By VIN', 'Every safety recall for the trucks we cover, and how to check if yours was done.'),
+        'mods': ('Builders and parts', 'The shops, builders and parts suppliers worth knowing, by truck.'),
+        'swaps': ('Engine swaps', 'The popular engine swaps for each truck, what they cost and what goes wrong.'),
+        'resources': ('Clubs and forums', 'The forums, clubs, YouTube channels and manuals owners actually use.'),
+    }
+    for _hk, _ht, _hl in (('buying', 'Buying a boxy 4x4', 'Everything for choosing, checking and paying for a boxy 4x4: shortlists, best years, comparisons, inspection checklists and live listings.'),
+                          ('owning', 'Owning a boxy 4x4', 'Everything for keeping one running and making it better: repair guides, tire fitment, recalls, builders and the communities worth joining.')):
+        _hn = next(n for n in NAV if n['key'] == _hk)
+        render('list_hub.html', f'{_hk}/index.html', '../', active=_hk, crumbs=[(_ht, f'{_hk}/')],
+               h={'title': _ht, 'eyebrow': f"{len(_hn['children'])} sections", 'lead': _hl, 'parent': False,
+                  'items': [{'href': '../' + c['href'], 'title': c['label'], 'eyebrow': _hubtext.get(c['key'], ('', ''))[0], 'text': _hubtext.get(c['key'], ('', ''))[1]} for c in _hn['children']]},
+               title=f'{_ht}: guides and tools — BoxyTrucks', description=_hl, credits='')
     swaps = [jload(f) for f in sorted((DATA / 'swaps').glob('*.json'))] if (DATA / 'swaps').exists() else []
     swaps = [x for x in swaps if x and x.get('sections')]
     for sw in swaps:

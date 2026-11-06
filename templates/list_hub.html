@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}garage/index.html">Garage</a><span>/</span><span>{{ h.title }}</span></nav>
+  <nav class="crumbs" aria-label="Breadcrumb">{% if h.parent is not sameas false %}<a href="{{ root }}garage/index.html">Garage</a><span>/</span>{% endif %}<span>{{ h.title }}</span></nav>
   <span class="eyebrow brass">{{ h.eyebrow }}</span>
   <h1 style="font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.02em;text-wrap:balance;max-width:900px">{{ h.title }}</h1>
   <p class="serif" style="margin:0;max-width:740px;font-size:19px;line-height:29px;color:#D9D4C8">{{ h.lead }}</p>
