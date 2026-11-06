@@ -10,3 +10,7 @@ Vercel project: root directory `rig-api`, no build command. Environment variable
   email. After boxytrucks.com is verified in Resend, set it to `BoxyTrucks Rigs <rigs@boxytrucks.com>`.)
 
 Vercel caps a request at 4.5 MB, so the page shrinks photos to 1600 px and sends at most about 4 MB.
+
+Live Nov 5, 2026: Vercel team "Boxy Trucks" (boxytrucks@gmail.com), project `boxytrucks-rigs`,
+https://boxytrucks-rigs.vercel.app/api/rig. Tested end to end: 3 photos arrived in boxytrucks@gmail.com.
+`vercel.json` skips Vercel builds on pushes that don't touch this folder.
