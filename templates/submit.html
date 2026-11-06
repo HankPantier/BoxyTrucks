@@ -15,11 +15,8 @@
 <div class="wrap section">
   <div class="split">
     <div class="main" style="gap:40px">
-      <form id="rig-form" class="rig-form" action="https://formsubmit.co/{{ submit_email }}" method="POST" enctype="multipart/form-data" novalidate>
+      <form id="rig-form" class="rig-form" action="{{ rig_endpoint }}" method="POST" enctype="multipart/form-data" novalidate>
         <input type="hidden" name="_subject" id="f-subject" value="New rig submission — BoxyTrucks">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="{{ site_url }}submit/thanks.html">
-        <input type="hidden" name="_replyto" id="f-replyto" value="">
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <div id="photo-slots" hidden>{% for i in range(1, 11) %}<input type="file" name="photo_{{ i }}">{% endfor %}</div>
         <fieldset>
@@ -88,13 +85,12 @@
             <label for="f-own"><input id="f-own" name="owns_photos" value="Yes" type="checkbox" required> I took these photos, or I have the photographer’s permission to share them.</label>
             <label for="f-use"><input id="f-use" name="usage_ok" value="Yes" type="checkbox" required> BoxyTrucks may publish my truck, story and photos on the site and its social accounts, credited to me.</label>
             <label for="f-contact"><input id="f-contact" name="contact_ok" value="Yes" type="checkbox"> You can contact me about a longer Featured Build interview.</label>
-            <p class="serif" style="margin:4px 0 0;font-size:15px;line-height:23px;color:var(--stone)">Your submission is emailed to us through FormSubmit. We use your email only to reply about your truck and never publish it. See our <a href="{{ root }}about/privacy.html">privacy policy</a>.</p>
+            <p class="serif" style="margin:4px 0 0;font-size:15px;line-height:23px;color:var(--stone)">Your submission is emailed to us through Resend. We use your email only to reply about your truck and never publish it. See our <a href="{{ root }}about/privacy.html">privacy policy</a>.</p>
           </div>
         </fieldset>
 
         <div id="form-error" class="form-error" role="alert" hidden></div>
         <button id="send" class="btn solid" type="submit" style="align-self:flex-start;cursor:pointer">Send my rig</button>
-        <p class="serif" style="margin:0;color:var(--stone);font-size:15px">You may be asked to tick a quick “I’m not a robot” box after sending.</p>
       </form>
 
 
@@ -147,7 +143,7 @@
   ['dragleave','drop'].forEach(function(ev){ drop.addEventListener(ev, function(e){ e.preventDefault(); drop.classList.remove('over'); }); });
   drop.addEventListener('drop', function(e){ add(e.dataTransfer.files); });
   var form = document.getElementById('rig-form'), err = document.getElementById('form-error'), btn = document.getElementById('send');
-  var BUDGET = 9 * 1024 * 1024;
+  var BUDGET = 4 * 1024 * 1024; // Vercel caps a request at 4.5 MB
   function shrink(f){
     return new Promise(function(res){
       if (!/^image\/(jpeg|png|webp)$/.test(f.type)) { res(f); return; }
@@ -177,9 +173,9 @@
       });
       var fsel = fam.options[fam.selectedIndex].text, gsel = gen.value ? gen.options[gen.selectedIndex].text.split(' · ')[0] : '';
       document.getElementById('f-subject').value = 'New rig: ' + (document.getElementById('f-year').value + ' ' + fsel + ' ' + gsel).replace(/\s+/g,' ').trim() + ' — ' + document.getElementById('f-name').value;
-      document.getElementById('f-replyto').value = em;
       btn.textContent = 'Sending…';
-      HTMLFormElement.prototype.submit.call(form);
+      var fail = function(){ btn.disabled = false; btn.textContent = 'Send my rig'; err.innerHTML = 'Sorry, that didn’t go through. Try again in a minute, or email your photos and story to <a href="mailto:{{ submit_email }}">{{ submit_email }}</a>.'; err.hidden = false; err.scrollIntoView({block:'center'}); };
+      fetch(form.action, {method: 'POST', body: new FormData(form)}).then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ if (r.ok && j.ok) { if (window.gtag) gtag('event', 'rig_submit', {photos: used}); location.href = '{{ root }}submit/thanks.html'; } else fail(); }); }).catch(fail);
     });
   });
 })();

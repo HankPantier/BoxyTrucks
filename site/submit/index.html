@@ -80,11 +80,8 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 <div class="wrap section">
   <div class="split">
     <div class="main" style="gap:40px">
-      <form id="rig-form" class="rig-form" action="https://formsubmit.co/boxytrucks@gmail.com" method="POST" enctype="multipart/form-data" novalidate>
+      <form id="rig-form" class="rig-form" action="https://boxytrucks-rigs.vercel.app/api/rig" method="POST" enctype="multipart/form-data" novalidate>
         <input type="hidden" name="_subject" id="f-subject" value="New rig submission — BoxyTrucks">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://boxytrucks.com/submit/thanks/">
-        <input type="hidden" name="_replyto" id="f-replyto" value="">
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <div id="photo-slots" hidden><input type="file" name="photo_1"><input type="file" name="photo_2"><input type="file" name="photo_3"><input type="file" name="photo_4"><input type="file" name="photo_5"><input type="file" name="photo_6"><input type="file" name="photo_7"><input type="file" name="photo_8"><input type="file" name="photo_9"><input type="file" name="photo_10"></div>
         <fieldset>
@@ -153,13 +150,12 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
             <label for="f-own"><input id="f-own" name="owns_photos" value="Yes" type="checkbox" required> I took these photos, or I have the photographer’s permission to share them.</label>
             <label for="f-use"><input id="f-use" name="usage_ok" value="Yes" type="checkbox" required> BoxyTrucks may publish my truck, story and photos on the site and its social accounts, credited to me.</label>
             <label for="f-contact"><input id="f-contact" name="contact_ok" value="Yes" type="checkbox"> You can contact me about a longer Featured Build interview.</label>
-            <p class="serif" style="margin:4px 0 0;font-size:15px;line-height:23px;color:var(--stone)">Your submission is emailed to us through FormSubmit. We use your email only to reply about your truck and never publish it. See our <a href="/about/privacy/">privacy policy</a>.</p>
+            <p class="serif" style="margin:4px 0 0;font-size:15px;line-height:23px;color:var(--stone)">Your submission is emailed to us through Resend. We use your email only to reply about your truck and never publish it. See our <a href="/about/privacy/">privacy policy</a>.</p>
           </div>
         </fieldset>
 
         <div id="form-error" class="form-error" role="alert" hidden></div>
         <button id="send" class="btn solid" type="submit" style="align-self:flex-start;cursor:pointer">Send my rig</button>
-        <p class="serif" style="margin:0;color:var(--stone);font-size:15px">You may be asked to tick a quick “I’m not a robot” box after sending.</p>
       </form>
 
 
@@ -212,7 +208,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
   ['dragleave','drop'].forEach(function(ev){ drop.addEventListener(ev, function(e){ e.preventDefault(); drop.classList.remove('over'); }); });
   drop.addEventListener('drop', function(e){ add(e.dataTransfer.files); });
   var form = document.getElementById('rig-form'), err = document.getElementById('form-error'), btn = document.getElementById('send');
-  var BUDGET = 9 * 1024 * 1024;
+  var BUDGET = 4 * 1024 * 1024; // Vercel caps a request at 4.5 MB
   function shrink(f){
     return new Promise(function(res){
       if (!/^image\/(jpeg|png|webp)$/.test(f.type)) { res(f); return; }
@@ -242,9 +238,9 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
       });
       var fsel = fam.options[fam.selectedIndex].text, gsel = gen.value ? gen.options[gen.selectedIndex].text.split(' · ')[0] : '';
       document.getElementById('f-subject').value = 'New rig: ' + (document.getElementById('f-year').value + ' ' + fsel + ' ' + gsel).replace(/\s+/g,' ').trim() + ' — ' + document.getElementById('f-name').value;
-      document.getElementById('f-replyto').value = em;
       btn.textContent = 'Sending…';
-      HTMLFormElement.prototype.submit.call(form);
+      var fail = function(){ btn.disabled = false; btn.textContent = 'Send my rig'; err.innerHTML = 'Sorry, that didn’t go through. Try again in a minute, or email your photos and story to <a href="mailto:boxytrucks@gmail.com">boxytrucks@gmail.com</a>.'; err.hidden = false; err.scrollIntoView({block:'center'}); };
+      fetch(form.action, {method: 'POST', body: new FormData(form)}).then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ if (r.ok && j.ok) { if (window.gtag) gtag('event', 'rig_submit', {photos: used}); location.href = '../submit/thanks.html'; } else fail(); }); }).catch(fail);
     });
   });
 })();

@@ -21,6 +21,7 @@ SITE = ROOT / 'site'
 
 SITE_URL = 'https://boxytrucks.com/'
 SUBMIT_EMAIL = 'boxytrucks@gmail.com'
+RIG_ENDPOINT = 'https://boxytrucks-rigs.vercel.app/api/rig'  # rig-api/ on Vercel (Hank, Nov 5, 2026); replaced FormSubmit
 # TODO: Google Analytics — paste the GA4 measurement ID (G-XXXXXXX) here to enable tracking on every page.
 # Newsletter: paste the provider's form action once an account exists, e.g. Buttondown
 # 'https://buttondown.com/api/emails/embed-subscribe/<username>' (field 'email'). Empty = sign-up hidden.
@@ -1320,7 +1321,7 @@ def main():
     _recent = [i for i in sorted(_q, key=lambda i: (i.get('posted') or '', i['n'] if isinstance(i.get('n'), int) else 0), reverse=True) if i.get('status') == 'posted' and i.get('link') and (SITE / i['link'] / 'index.html').exists()][:3]
     render('links.html', 'links/index.html', '../', active='', recent=_recent, hide_newsletter=True, noindex=True,
            title='BoxyTrucks Links', description='Links from the BoxyTrucks Instagram and X: the latest posts, the which-4x4 quiz, free inspection checklists and the newsletter.', credits='')
-    render('submit.html', 'submit/index.html', '../', active='submit', crumbs=[('Show Us Your Rig', 'submit/')], title='Show Us Your Rig — BoxyTrucks', description='Show Us Your Rig: send photos and the story of your boxy 4x4 build for a feature on BoxyTrucks. Off-road shots preferred.', credits='Hasse Lossius via Unsplash', gens_json=gens_json, submit_email=SUBMIT_EMAIL, site_url=SITE_URL)
+    render('submit.html', 'submit/index.html', '../', active='submit', crumbs=[('Show Us Your Rig', 'submit/')], title='Show Us Your Rig — BoxyTrucks', description='Show Us Your Rig: send photos and the story of your boxy 4x4 build for a feature on BoxyTrucks. Off-road shots preferred.', credits='Hasse Lossius via Unsplash', gens_json=gens_json, submit_email=SUBMIT_EMAIL, rig_endpoint=RIG_ENDPOINT, site_url=SITE_URL)
     render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it: Google Analytics, the submission form, affiliate cookies and GitHub hosting.', credits='', crumbs=[('Privacy', 'about/privacy.html')])
     _ngens = sum(1 for _fs in pages for _gs, _pg in pages[_fs].items() if _pg)
     _nreps = sum(len((_pg or {}).get('repairs') or []) for _fs in pages for _pg in pages[_fs].values())
