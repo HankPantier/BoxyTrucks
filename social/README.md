@@ -59,3 +59,4 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Date | Post | Comment | Reply |
 |---|---|---|---|
 | Nov 5, 2026 | Field Note: Jeep Scrambler IFS (DfSXfOAHET8) | @dowlat21: "Very informative and cool account." | Replied (from @boxytrucks): thanks, check out the full site at boxytrucks.com |
+| Nov 6, 2026 | From Hank's garage (DfXcx8xHFCd) | @cwilsun: wishes he still had his 1963 Willys CJ3B, sold for tuition | Replied (from @boxytrucks): tuition is a good reason but a hard one to let go; great truck to remember, thanks for sharing |
