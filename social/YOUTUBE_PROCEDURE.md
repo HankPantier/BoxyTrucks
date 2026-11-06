@@ -17,3 +17,9 @@ Live since Nov 2, 2026: channel **Boxy Trucks**, https://www.youtube.com/@BoxyTr
 4. **Description:** 2–3 lines from the caption, then `Full guide: https://boxytrucks.com/<link>?utm_source=youtube&utm_medium=social`, then the photo credits.
 5. Audience: "No, it's not made for kids." Altered content (AI): No, because our videos are real photos with text.
 6. Click Next three times, choose Public, then Publish (`#done-button`), and check that the Shorts list shows it as Public. Copy the video URL into the queue item as `yt_url`, and set `yt_status: "posted"`. Commit and push.
+7. **Always leave a comment (Hank, Nov 5, 2026).** Right after publishing, open the video's watch page (or Studio → Comments) and comment **as Boxy Trucks**: check that the avatar or name next to the comment box is Boxy Trucks, never Hank Pantier; if it's wrong, stop and tell Hank. Then pin the comment (⋮ → Pin).
+   - Friendly and conversational, like a fellow owner talking to the people who watched, not an ad.
+   - Go deeper than the video: one or two specifics from the guide that didn't fit on screen (a fitment caveat, what to check, why a year matters), all from the site's sourced data. Never invent anecdotes; only mention Hank's own trucks as he has stated them.
+   - Ask the audience something they can answer ("What are you running on yours?", "Which year would you pick?").
+   - End with the link: `https://boxytrucks.com/<link>?utm_source=youtube&utm_medium=comment` (YouTube may hide links in comments on brand-new channels; post it anyway and check it shows).
+   - Save the comment text as `yt_comment` in the queue item.
