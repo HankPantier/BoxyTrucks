@@ -20,7 +20,7 @@ After YouTube and TikTok, post the same `video` to the other three, verifying th
 - **Pinterest** (`PINTEREST_PROCEDURE.md`): confirm **boxytrucks**. Video pin, title `pin_title`, description `pin_description`, link `pin_link`, board for that family. Save `pin_url`, set `pin_status: "posted"`.
 Space the five uploads over the evening if a platform rate-limits. A platform that fails gets skipped for that day and noted, never retried on another account.
 
-5. Set `status: "posted"` and `posted: <date>`, then render the next one ahead (`render 1`). Commit and push. Tell Hank only if something went wrong.
+5. Set `status: "posted"` and `posted: <date>`, then render the next one ahead (`render 1`). Run `python3 build.py` so that truck's guide and tires page link its new Short in the "Watch on YouTube" box. Commit and push. Tell Hank only if something went wrong.
 6. If an account is wrong, Chrome is down, or a platform blocks the upload, post nothing on that platform and tell Hank. Never switch accounts.
 7. When the tire series runs out, tell Hank and propose the next data-driven series (for example "Years to avoid: <truck>" from each `/years/` page).
 

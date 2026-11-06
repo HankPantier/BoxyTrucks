@@ -270,6 +270,8 @@
       </div>
       {% endif %}
 
+      {% set yt_fam = fam.slug %}{% set yt_gen = gen_slug %}{% set yt_label = mlabel(fam.maker, p.title) %}{% include "_yt_cta.html" %}
+
       {% if p.related %}
       <section id="related" style="display:flex;flex-direction:column;gap:18px">
         <h2 class="h-section">Related models</h2>

@@ -26,6 +26,7 @@
     {% for m in mods %}<div class="tr-mod"><strong>{{ m.cat|title }}</strong>{% if m.why %}<p class="note">{{ m.why|lk }}</p>{% endif %}<ul>{% for w in m.who %}<li><a class="inline-link" href="{{ w.url }}" target="_blank" rel="noopener">{{ w.name }} ↗</a></li>{% endfor %}</ul></div>{% endfor %}
   </section>{% endif %}
 
+  {% set yt_fam = fam.slug %}{% set yt_gen = g.slug %}{% set yt_label = model %}{% include "_yt_cta.html" %}
   {% if regear %}<section><h2 class="h-section">Do you need to re-gear?</h2><div class="prose"><p>{{ regear|lk }}</p></div></section>{% endif %}
 
   <p class="sp-foot">Fitment comes from owners and specialists; wheel width, offset, trimming and bump stops change what fits. Check clearance at full lock and full flex before you buy. {% if affiliates_on %}Some links are <a href="{{ root }}about/affiliate-disclosure.html">affiliate links</a>.{% endif %}</p>

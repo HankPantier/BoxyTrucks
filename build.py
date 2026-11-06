@@ -679,6 +679,16 @@ def main():
         env.globals['pg_fams'] = {'4runner','bronco','chevrolet','ramcharger','trooper','hummer','lexus','land-cruiser','jeep','g-class','range-rover','land-rover','suzuki'}  # Parts Geek (CJ) carries these US-market makes
         env.globals['OWNED_PHOTO'] = {'g-class/g500': ('g-class', 'hank-g500-front-woods.jpg', 'My 2007 G500.'), 'g-class/w463': ('g-class', 'hank-g500-front-woods.jpg', 'My 2007 G500.')}
         env.globals['OWNED'] = {'land-cruiser/80-series': 'owned an 80 Series', 'g-class/g500': 'owns a 2007 G500', 'g-class/w463': 'owns a 2007 G500'}
+        # "Watch on YouTube" CTA (Hank, Nov 6, 2026): link the truck's own posted Short when there is one, else the channel.
+        _yt = {}
+        try:
+            for _r in json.loads((ROOT / 'social' / 'shorts.json').read_text()):
+                if _r.get('yt_url') and _r.get('fam') and _r.get('gen'):
+                    _yt.setdefault(f"{_r['fam']}/{_r['gen']}", _r['yt_url'])
+        except Exception:
+            pass
+        env.globals['yt_short'] = lambda fam, gen: _yt.get(f'{fam}/{gen}')
+        env.globals['YT_CHANNEL'] = 'https://www.youtube.com/@BoxyTrucks'
         env.globals['newsletter'] = NEWSLETTER
         env.globals['nl_truck'] = lambda fs, g: (sname(fs, g) if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')
         env.globals['amz_q'] = amz_q

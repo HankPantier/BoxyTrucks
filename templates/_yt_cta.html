@@ -1,0 +1,8 @@
+{# Watch-on-YouTube CTA (Hank, Nov 6, 2026). Needs yt_fam, yt_gen, yt_label. #}
+{% set _ys = yt_short(yt_fam, yt_gen) %}
+<aside class="yt-cta" aria-label="Boxy Trucks on YouTube">
+  <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><rect x="1.5" y="5" width="21" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg>
+  <div class="yt-tx"><strong>{% if _ys %}Watch: the biggest tire on a stock {{ yt_label }}{% else %}A new boxy truck on YouTube every day{% endif %}</strong>
+    <span>Short, sourced videos from Boxy Trucks. Subscribe and you'll get a new one daily.</span></div>
+  <a class="yt-btn" href="{{ _ys or (YT_CHANNEL ~ '?sub_confirmation=1') }}" target="_blank" rel="noopener" data-track="yt-cta">{% if _ys %}Watch ↗{% else %}Subscribe ↗{% endif %}</a>
+</aside>
