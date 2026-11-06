@@ -77,3 +77,10 @@ Every published Field Note gets its own social push the same day: an IG carousel
 
 - **Second daily Short (Nov 5, 2026):** every evening, one "Biggest tire on a stock <truck>" Short on YouTube and TikTok, generated from site data. Queue `social/shorts.json`, procedure `SHORTS_PROCEDURE.md`. Each one links to that truck's /tires/ page.
 - **Comment on every YouTube upload (Hank, Nov 5, 2026):** right after a video or Short goes up, comment and pin it as Boxy Trucks: friendly, more in-depth than the video, ask the audience a question, link the site. Step 7 of `YOUTUBE_PROCEDURE.md`.
+
+## YouTube monetization: a goal to keep working toward (Hank, Nov 6, 2026)
+Not a core goal, but revenue needs several streams (sponsors, affiliates, reader codes, YouTube ads), so keep moving the channel toward the Partner Program.
+- Now: 1,000 subscribers + 4,000 public watch hours in 12 months, or 10M Shorts views in 90 days.
+- From Feb 1, 2027 (new applicants): 1,000 subscribers + 8,000 watch hours, or 20M Shorts views in 90 days.
+- Where we are (Nov 6): 1 subscriber, about 1,400 views in our first week, all Shorts. At ~500 views a day, Shorts alone won't get there; subscribers and long-form watch hours will.
+- What that means for planning: every Short asks for a follow; reply to every comment; and start a long-form series once the Shorts show which trucks pull views (an 8–12 minute "should you buy a ___" walkthrough per generation, built from the site's guides; Hank on camera with his own trucks when he can). Track subscribers and watch hours in the Monday scoreboard.
