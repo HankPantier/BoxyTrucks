@@ -1,0 +1,81 @@
+{
+ "out": "social/posts/14-series-iia-spot.mp4",
+ "url": "boxytrucks.com/models/land-rover/series",
+ "credit": "Photos: Hank Pantier / Boxy Trucks (plates blurred)",
+ "scenes": [
+  {
+   "photo": "social/hank/series-pair.jpg",
+   "pos": "50% 55%",
+   "dur": 2.8,
+   "eyebrow": "Series IIA · spotted this summer",
+   "title": "Early or late? Look at the lamps.",
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "photo": "social/hank/series-early-iia-88.jpg",
+   "pos": "14% 60%",
+   "dur": 3.4,
+   "eyebrow": "Early IIA · 1961–69",
+   "title": "Lamps in the grille panel.",
+   "body": "This one is a short-wheelbase 88.",
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "origin": "14% 60%"
+  },
+  {
+   "photo": "social/hank/series-late-iia-front.jpg",
+   "pos": "70% 55%",
+   "dur": 3.4,
+   "eyebrow": "Late IIA · 1969–71",
+   "title": "Lamps out in the wings.",
+   "body": "Grille still metal. The Series III got a plastic one.",
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "origin": "70% 55%"
+  },
+  {
+   "photo": "social/hank/series-late-iia-109.jpg",
+   "pos": "50% 55%",
+   "dur": 3.0,
+   "eyebrow": "88 or 109?",
+   "title": "Count the side windows.",
+   "body": "The 109 adds a row behind the doors.",
+   "zoom": [
+    1.05,
+    1.14
+   ]
+  },
+  {
+   "photo": "social/hank/series-pair.jpg",
+   "pos": "50% 55%",
+   "dur": 2.4,
+   "title": "The full Series buying guide.",
+   "body": "boxytrucks.com/models/land-rover/series",
+   "cta": true,
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "photo": "social/hank/series-early-iia-88.jpg",
+   "pos": "14% 60%",
+   "dur": 2.0,
+   "eyebrow": "Boxy Trucks",
+   "title": "Follow for a new truck every day.",
+   "body": "Tomorrow: another boxy 4x4.",
+   "cta": true,
+   "zoom": [
+    1.1,
+    1.14
+   ]
+  }
+ ]
+}

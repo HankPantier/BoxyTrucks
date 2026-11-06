@@ -46,6 +46,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Nov 4, 2026 | First Reel (n=10): "Land Cruiser 80 Series: 5 things to check before you buy", link in bio. https://www.instagram.com/boxytrucks/reel/DfU-rbSOr15/ | `posts/10-80-series-checks.mp4` |
 | Nov 5, 2026 | From Hank's garage (n=9): "Every boxy truck I've owned" 6-slide carousel, slide 1 Hank's own G500. https://www.instagram.com/p/DfXcx8xHFCd/ | `posts/09-hanks-garage-trucks-owned-1..6.jpg` |
 
+| Nov 6, 2026 | "Series IIA: spot the difference" 5-slide carousel (n=14), Hank's own photos, plates blurred. https://www.instagram.com/p/DfaIWpjgUdw/ · YouTube https://youtube.com/shorts/MTsNQDdXS18 · TikTok 7705111687518506270 · Pinterest 1128292512945614350 | `posts/14-series-iia-spot-1..5.jpg`, `posts/14-series-iia-spot.mp4` |
 ## Following
 `follow-targets.json` lists the accounts @boxytrucks follows: brands, media, lifestyle (Huckberry, YETI, Filson…) and the builders, parts shops and clubs already vetted on the site's resources pages. Each entry is `todo` or `followed` with a date.
 - Pace: about 25–30 follows a day while the account is new, so Instagram doesn't block it for spam.
