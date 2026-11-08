@@ -11,3 +11,11 @@ Hank's rule (Nov 2, 2026): every day we post anywhere else, we also post to Pint
 7. Get the `/video/<id>` URL from https://www.tiktok.com/@boxytrucks, then set `tt_status: "posted"`, `tt_posted` and `tt_url` on the queue item. Commit and push.
 
 Profile (Nov 2): changing the name and bio on the web didn't save on the new account. Hank should set them in the app: name "Boxy Trucks", bio "Which year to buy, what breaks, what fits. Boxy 4x4 guides: boxytrucks.com". The photo did save.
+
+
+## Deal and promotional posts (Nov 7, 2026, optimization plan item 3)
+The Eurowise reader-deal post (Nov 4) is public but got 0 views in three days, while every other post got 30–260: TikTok holds back
+promotional posts. Rules from now on:
+- Keep codes and "% off" out of TikTok posts. Make the post useful first (a buying check, a fit, a fix) and mention a deal only in a comment.
+- If a post promotes a brand or a code, turn on **Content disclosure** (More options → "Disclose post content" → Your brand / Branded content) before posting, as TikTok's rules require.
+- The Eurowise post stays up (deleting is Hank's call).

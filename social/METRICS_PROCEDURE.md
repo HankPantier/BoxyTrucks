@@ -22,6 +22,8 @@ Hank, Nov 4, 2026: track views for everything and use them to judge what to do n
   - eBay Partner Network: partner.ebay.com → Reports, campaign 5339233573, month to date: earnings, clicks.
   - Sponsors: data/sponsors.json (paid amount; free months are 0).
 - **GA4** (property a401243700p560377838) and **Search Console** (sc-domain:boxytrucks.com): as in the scoreboard task.
+- **Affiliate clicks by page** (optimization plan item 9, Nov 7, 2026): GA4 → Reports → Engagement → Events → `affiliate_click` (also `buybox_click`, `kit_click`, `gift_click`), add the secondary dimension "Page path" (and the `placement` parameter where set), last 7 days. Append one `site.json` row per page with clicks (metric `affiliate_clicks_page`, label "Affiliate clicks: <page path>"), top 10 pages only. In the weekly plan, say which placement (buy box at top, kit, deals, gift guide) earns the clicks and move links toward it.
+- **Internal traffic**: from Nov 7, 2026 Hank's own visits are tagged `traffic_type=internal` and excluded once the GA4 data filter is Active (see GA4 Admin → Data filters). Note in the first scoreboard after the change that numbers dropped because of it, not because readers left.
 
 ## Publishing to the dashboard
 1. Write the three files, validate them with `python3 -c "import json;json.load(open(...))"`, commit and push.

@@ -17,3 +17,7 @@ Claude posts it from @boxytrucks.
 5. Verify each posted on instagram.com/your_activity/interactions/comments. Stop for the day on any "Try Again Later" or restriction.
 6. Log each in the outreach tracker as `ig-<handle>` (kind `rig-ask`, status Sent, followup_due +7 days). One ask per owner, no follow-ups.
 7. When a submission arrives (email from "BoxyTrucks Rigs"), mark that row Replied and tell Hank.
+
+8. **Featuring a submitted rig on Instagram** (Nov 7, 2026, optimization plan item 4): post it from @boxytrucks as a **Collab** post
+   (Tag people → Invite collaborator → the owner's handle) so it shows on the owner's profile and reaches their followers too, credit them
+   in the caption, and link their feature page. They have to accept the invite; if they don't within a few days, it stays a normal post.
