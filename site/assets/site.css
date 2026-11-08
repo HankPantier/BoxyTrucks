@@ -1009,3 +1009,6 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .hero-years{display:flex;flex-direction:column;gap:8px;margin:4px 0 2px}
 .hero-years-row{display:flex;flex-wrap:wrap;gap:8px}
 .hero-years select{flex:1 1 220px;min-width:0;font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--brass);background:var(--night);color:var(--paper);border-radius:0}
+/* Garage: Buying / Owning groups (Nov 7, 2026) */
+.garage-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin-bottom:24px}
+.garage-head .h-section{margin:0}
