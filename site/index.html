@@ -70,7 +70,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 </header>
 <main>
 
-<section class="hero" style="min-height:760px">
+<section class="hero" style="min-height:600px">
   <img src="/img/home/lc80-georgia.jpg" alt="A Toyota Land Cruiser 80 Series with a roof rack on a grassy hillside under a stormy sky" fetchpriority="high" srcset="/img/_r/home/lc80-georgia-480.webp 480w, /img/_r/home/lc80-georgia-800.webp 800w, /img/_r/home/lc80-georgia-1280.webp 1280w, /img/home/lc80-georgia.jpg 1800w" sizes="100vw" decoding="async">
   <div class="wrap">
     <div></div>
@@ -78,10 +78,19 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
       <div class="eyebrow brass">Buyer’s guides to boxy 4x4s &amp; SUVs</div>
       <h1 style="font-size:clamp(40px,5.4vw,72px);line-height:1.02;letter-spacing:-0.02em">For the love of right angles.</h1>
       <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">The trucks that never chased the wind tunnel — their stories, their quirks, how to fix them, the builders who do them right, and the one you’ll own someday.</p>
-      <div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn light" href="/which-4x4/">Which one should you buy?</a><a class="btn ghost-brass" href="/models/">Explore the models</a></div>
+      <form class="hero-years" action="/garage/" onsubmit="var v=this.f.value;if(v){location.href=v;return false}">
+        <label for="hero-yr" class="eyebrow brass">Years to avoid, and the best years to buy</label>
+        <div class="hero-years-row"><select id="hero-yr" name="f" onchange="if(this.value)location.href=this.value"><option value="">Pick a truck…</option><option value="models/4runner/best-years.html">4Runner</option><option value="models/chevrolet/best-years.html">K5 Blazer</option><option value="models/ramcharger/best-years.html">Ramcharger</option><option value="models/bronco/best-years.html">Bronco</option><option value="models/g-class/best-years.html">G-Wagon</option><option value="models/grenadier/best-years.html">Grenadier</option><option value="models/hummer/best-years.html">Hummer H1 &amp; H2</option><option value="models/scout/best-years.html">Scout</option><option value="models/trooper/best-years.html">Isuzu Trooper</option><option value="models/jeep/best-years.html">Jeep</option><option value="models/niva/best-years.html">Lada Niva</option><option value="models/land-cruiser/best-years.html">Land Cruiser</option><option value="models/land-rover/best-years.html">Land Rover</option><option value="models/lexus/best-years.html">Lexus LX &amp; GX</option><option value="models/unimog/best-years.html">Unimog</option><option value="models/delica/best-years.html">Delica</option><option value="models/pajero/best-years.html">Pajero / Montero</option><option value="models/nissan-patrol/best-years.html">Nissan Patrol</option><option value="models/pinzgauer/best-years.html">Pinzgauer</option><option value="models/range-rover/best-years.html">Range Rover</option><option value="models/suzuki/best-years.html">Samurai &amp; Jimny</option></select><button class="btn light" type="submit">Show me</button></div>
+      </form>
+      <div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn light" href="/which-4x4/" data-track="home-quiz">Not sure which? Take the 5-question quiz →</a><a class="btn ghost-brass" href="/models/">Explore the models</a></div>
     </div>
   </div>
   <div class="hero-tag">LAND CRUISER 80 SERIES · CAUCASUS, GEORGIA</div>
+</section>
+
+<section class="wrap section" style="padding-top:32px;padding-bottom:8px">
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Before you buy</span><h2>Years to avoid, truck by truck</h2></div><a class="label" href="/garage/#best-years" style="color:var(--ink)">All buying guides →</a></div>
+  <div class="chips" style="margin-top:18px"><a class="chip" href="/models/4runner/best-years/">4Runner years to avoid</a><a class="chip" href="/models/chevrolet/best-years/">K5 Blazer years to avoid</a><a class="chip" href="/models/ramcharger/best-years/">Ramcharger years to avoid</a><a class="chip" href="/models/bronco/best-years/">Bronco years to avoid</a><a class="chip" href="/models/g-class/best-years/">G-Wagon years to avoid</a><a class="chip" href="/models/grenadier/best-years/">Grenadier years to avoid</a><a class="chip" href="/models/hummer/best-years/">Hummer H1 &amp; H2 years to avoid</a><a class="chip" href="/models/scout/best-years/">Scout years to avoid</a><a class="chip" href="/models/trooper/best-years/">Isuzu Trooper years to avoid</a><a class="chip" href="/models/jeep/best-years/">Jeep years to avoid</a><a class="chip" href="/models/niva/best-years/">Lada Niva years to avoid</a><a class="chip" href="/models/land-cruiser/best-years/">Land Cruiser years to avoid</a><a class="chip" href="/models/land-rover/best-years/">Land Rover years to avoid</a><a class="chip" href="/models/lexus/best-years/">Lexus LX &amp; GX years to avoid</a><a class="chip" href="/models/unimog/best-years/">Unimog years to avoid</a><a class="chip" href="/models/delica/best-years/">Delica years to avoid</a><a class="chip" href="/models/pajero/best-years/">Pajero / Montero years to avoid</a><a class="chip" href="/models/nissan-patrol/best-years/">Nissan Patrol years to avoid</a><a class="chip" href="/models/pinzgauer/best-years/">Pinzgauer years to avoid</a><a class="chip" href="/models/range-rover/best-years/">Range Rover years to avoid</a><a class="chip" href="/models/suzuki/best-years/">Samurai &amp; Jimny years to avoid</a></div>
 </section>
 
 <section class="shop-band"><div class="wrap shop-wrap">
@@ -315,10 +324,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
   </div>
 </section>
 
-<section class="wrap section" style="padding-top:8px;padding-bottom:8px">
-  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Before you buy</span><h2>Years to avoid, truck by truck</h2></div><a class="label" href="/garage/#best-years" style="color:var(--ink)">All buying guides →</a></div>
-  <div class="chips" style="margin-top:18px"><a class="chip" href="/models/4runner/best-years/">4Runner years to avoid</a><a class="chip" href="/models/chevrolet/best-years/">K5 Blazer years to avoid</a><a class="chip" href="/models/ramcharger/best-years/">Ramcharger years to avoid</a><a class="chip" href="/models/bronco/best-years/">Bronco years to avoid</a><a class="chip" href="/models/g-class/best-years/">G-Wagon years to avoid</a><a class="chip" href="/models/grenadier/best-years/">Grenadier years to avoid</a><a class="chip" href="/models/hummer/best-years/">Hummer H1 &amp; H2 years to avoid</a><a class="chip" href="/models/scout/best-years/">Scout years to avoid</a><a class="chip" href="/models/trooper/best-years/">Isuzu Trooper years to avoid</a><a class="chip" href="/models/jeep/best-years/">Jeep years to avoid</a><a class="chip" href="/models/niva/best-years/">Lada Niva years to avoid</a><a class="chip" href="/models/land-cruiser/best-years/">Land Cruiser years to avoid</a><a class="chip" href="/models/land-rover/best-years/">Land Rover years to avoid</a><a class="chip" href="/models/lexus/best-years/">Lexus LX &amp; GX years to avoid</a><a class="chip" href="/models/unimog/best-years/">Unimog years to avoid</a><a class="chip" href="/models/delica/best-years/">Delica years to avoid</a><a class="chip" href="/models/pajero/best-years/">Pajero / Montero years to avoid</a><a class="chip" href="/models/nissan-patrol/best-years/">Nissan Patrol years to avoid</a><a class="chip" href="/models/pinzgauer/best-years/">Pinzgauer years to avoid</a><a class="chip" href="/models/range-rover/best-years/">Range Rover years to avoid</a><a class="chip" href="/models/suzuki/best-years/">Samurai &amp; Jimny years to avoid</a></div>
-</section>
+
 
 <section class="wrap section" style="padding-top:40px">
   <div class="split" style="border:1px solid var(--ink);background:var(--night);color:var(--paper);gap:0">

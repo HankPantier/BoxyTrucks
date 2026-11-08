@@ -8,6 +8,7 @@
     <div class="yr-glance">{% for s in summary %}<div class="yr-g {{ s.flag }}"><span class="yr-pill {{ s.flag }}">{{ s.label }}</span><strong>{{ s.years }}</strong><span class="note">{{ s.why|striplk }}</span></div>{% endfor %}</div>
   </section>{% endif %}
 
+  {% set bb_page = p %}{% set bb_years = g.years %}{% set bb_veh = sn %}{% set bb_service_href = gen_href ~ "#service" %}{% include "_buy_box.html" %}
   {% include "_nl_inline.html" %}
   {% if timeline %}<section><h2 class="h-section">{{ sn }} year by year</h2>
     <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>YEAR</th><th>VERDICT</th><th>WHAT CHANGED</th></tr></thead>

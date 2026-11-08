@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<section class="hero" style="min-height:760px">
+<section class="hero" style="min-height:600px">
   <img src="{{ root }}img/home/lc80-georgia.jpg" alt="A Toyota Land Cruiser 80 Series with a roof rack on a grassy hillside under a stormy sky" fetchpriority="high">
   <div class="wrap">
     <div></div>
@@ -8,10 +8,19 @@
       <div class="eyebrow brass">Buyer’s guides to boxy 4x4s &amp; SUVs</div>
       <h1 style="font-size:clamp(40px,5.4vw,72px);line-height:1.02;letter-spacing:-0.02em">For the love of right angles.</h1>
       <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">The trucks that never chased the wind tunnel — their stories, their quirks, how to fix them, the builders who do them right, and the one you’ll own someday.</p>
-      <div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn light" href="{{ root }}which-4x4/index.html">Which one should you buy?</a><a class="btn ghost-brass" href="{{ root }}models/index.html">Explore the models</a></div>
+      <form class="hero-years" action="{{ root }}garage/index.html" onsubmit="var v=this.f.value;if(v){location.href=v;return false}">
+        <label for="hero-yr" class="eyebrow brass">Years to avoid, and the best years to buy</label>
+        <div class="hero-years-row"><select id="hero-yr" name="f" onchange="if(this.value)location.href=this.value"><option value="">Pick a truck…</option>{% for f in fam_list %}<option value="{{ root }}models/{{ f.slug }}/best-years.html">{{ fname(f.slug, True) or mlabel(f.maker, f.name) }}</option>{% endfor %}</select><button class="btn light" type="submit">Show me</button></div>
+      </form>
+      <div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn light" href="{{ root }}which-4x4/index.html" data-track="home-quiz">Not sure which? Take the 5-question quiz →</a><a class="btn ghost-brass" href="{{ root }}models/index.html">Explore the models</a></div>
     </div>
   </div>
   <div class="hero-tag">LAND CRUISER 80 SERIES · CAUCASUS, GEORGIA</div>
+</section>
+
+<section class="wrap section" style="padding-top:32px;padding-bottom:8px">
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Before you buy</span><h2>Years to avoid, truck by truck</h2></div><a class="label" href="{{ root }}garage/index.html#best-years" style="color:var(--ink)">All buying guides →</a></div>
+  <div class="chips" style="margin-top:18px">{% for f in fam_list %}<a class="chip" href="{{ root }}models/{{ f.slug }}/best-years.html">{{ (fname(f.slug, True) or f.name) }} years to avoid</a>{% endfor %}</div>
 </section>
 
 <section class="shop-band"><div class="wrap shop-wrap">
@@ -45,10 +54,7 @@
   </div>
 </section>
 
-<section class="wrap section" style="padding-top:8px;padding-bottom:8px">
-  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Before you buy</span><h2>Years to avoid, truck by truck</h2></div><a class="label" href="{{ root }}garage/index.html#best-years" style="color:var(--ink)">All buying guides →</a></div>
-  <div class="chips" style="margin-top:18px">{% for f in fam_list %}<a class="chip" href="{{ root }}models/{{ f.slug }}/best-years.html">{{ (fname(f.slug, True) or f.name) }} years to avoid</a>{% endfor %}</div>
-</section>
+
 
 <section class="wrap section" style="padding-top:40px">
   <div class="split" style="border:1px solid var(--ink);background:var(--night);color:var(--paper);gap:0">

@@ -7,6 +7,8 @@
     <ol class="pb-list">{% for c in p.buying_checks %}<li><strong>{{ c.head|lk }}</strong><span>{{ c.body|lk }}</span></li>{% endfor %}</ol>
   </section>
 
+  {% set nl_id = 'pb' %}{% include "_nl_inline.html" %}
+
   {% if p.repairs %}<section><h2 class="h-section">The repairs {{ sn }} owners end up doing</h2>
     <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>REPAIR</th><th>SYMPTOMS</th><th>DIFFICULTY</th><th>TIME</th><th>COST</th></tr></thead>
     <tbody>{% for r in p.repairs %}<tr><td data-l="REPAIR"><a class="inline-link" href="{{ root }}repairs/{{ fam.slug }}/{{ g.slug }}/{{ r.slug }}.html"><strong>{{ r.title|striplk }}</strong></a></td><td data-l="SYMPTOMS" class="note">{{ r.symptoms|striplk }}</td><td data-l="DIFFICULTY" class="mono">{{ r.diff }}</td><td data-l="TIME">{{ r.time }}</td><td data-l="COST">{{ r.cost }}</td></tr>{% endfor %}</tbody></table></div>

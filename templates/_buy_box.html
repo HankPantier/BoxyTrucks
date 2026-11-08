@@ -8,7 +8,7 @@
     <ul>{% for k in bb_kit %}<li><a href="{{ k.url }}" target="_blank" rel="noopener sponsored" data-track="buybox_click">{{ k.name }} <span>Amazon ↗</span></a></li>{% endfor %}</ul></div>
   {% if bb.parts %}<div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Parts for the first service</p>
     <ul>{% for pt in bb.parts %}<li><a href="https://www.amazon.com/s?k={{ pt.q|urlencode }}" target="_blank" rel="noopener sponsored" data-track="buybox_click">{{ pt.name }} <span>Amazon ↗</span></a></li>{% endfor %}</ul>
-    <a class="inline-link bb-more" href="#service">The full first-service list →</a></div>
+    <a class="inline-link bb-more" href="{{ bb_service_href or '#service' }}">The full first-service list →</a></div>
   {% elif bb_more %}<div class="bb-col"><span class="eyebrow brass">Just bought one?</span><p class="bb-h">Start with the first service</p><p class="bb-note">Fluids, filters and parts for each generation, with Amazon links, are on its guide.</p>{{ bb_more }}</div>{% endif %}
   <p class="bb-disc">We earn a small commission on Amazon purchases, at no cost to you.</p>
 </aside>
