@@ -87,8 +87,8 @@ def spec_for(fam, g, page, avoid, buy, photos):
     av = ', '.join(t['year'] for t in avoid[:2])
     by = buy[0]['year']
     tag = TAGS.get(fam['slug'], '#4x4')
-    why_av = reason(avoid[0].get('change'), 170)
-    why_by = reason(buy[0].get('change'), 170)
+    why_av = reason(avoid[0].get('change'), 400)
+    why_by = reason(buy[0].get('change'), 400)
     return gid, spec, {
         'id': gid, 'fam': fam['slug'], 'gen': g['slug'], 'label': lab, 'spec': f'social/reels/shorts/{gid}.json', 'video': spec['out'], 'link': link,
         'yt_title': f'{lab} years to avoid ({av}) and the one to buy'[:100],
@@ -120,13 +120,14 @@ def queue():
         (ROOT / row['spec']).write_text(json.dumps(spec, indent=1, ensure_ascii=False))
         prev = old.get(gid)
         rows.append({**row, **{k: v for k, v in (prev or {}).items() if k.startswith(('yt_', 'tt_status', 'tt_url', 'ig_status', 'ig_url', 'x_status', 'x_url', 'pin_status', 'pin_url', 'posted', 'status')) and k not in ('yt_title', 'yt_description') and v}})
+    rows.sort(key=lambda r: r.get('status') == 'hold')  # held items go to the back and are never posted
     QUEUE.write_text(json.dumps(rows, indent=1, ensure_ascii=False))
     print(f'{len(rows)} years Shorts queued ({sum(r["status"] == "posted" for r in rows)} posted)')
 
 
 def render(n):
     rows = json.loads(QUEUE.read_text())
-    todo = [r for r in rows if r['status'] != 'posted' and not (ROOT / r['video']).exists()][:n]
+    todo = [r for r in rows if r['status'] not in ('posted', 'hold') and not (ROOT / r['video']).exists()][:n]
     for r in todo:
         subprocess.run(['node', str(ROOT / 'social' / 'reels' / 'make_reel.js'), str(ROOT / r['spec'])], check=True)
         mb = (ROOT / r['video']).stat().st_size / 1e6

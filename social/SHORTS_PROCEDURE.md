@@ -27,7 +27,7 @@ Space the five uploads over the evening if a platform rate-limits. A platform th
 Regenerating the queue (`python3 scripts/make_tire_shorts.py queue`) keeps the posted status of every item.
 
 ## Third daily Short: "Years to avoid" (Hank approved Nov 7, 2026, optimization plan item 2)
-Same steps as above, but take the first non-posted item from `social/shorts-years.json` (built by `scripts/make_years_shorts.py queue`,
+Same steps as above, but take the first item from `social/shorts-years.json` whose status is not posted or hold (built by `scripts/make_years_shorts.py queue`,
 rendered with `render 1`). Facts come only from the timeline entries flagged avoid/buy in `data/extra/<family>/<gen>.json`, using the
 sentence that gives the reason. YouTube comment: add one more sourced detail from that truck's /years/ page and ask "Which year is yours?".
 Link: the truck's /years/ page. Runs daily at 12:37 pm ET. When the 11 in the queue run out, rebuild the queue (new flagged years may exist) and tell Hank.
