@@ -3,7 +3,7 @@ title: "The Patrol name is back in America. It's a sticker, but the truck under 
 seo_title: "2027 Nissan Armada Patrol PRO-4X: the Patrol name returns to the US"
 kicker: NEW MODEL YEAR
 date: 2026-11-09
-status: draft
+status: published
 dek: "For 2027 the Armada PRO-4X becomes the Armada Patrol PRO-4X, the first Patrol badge sold in the US since 1969. The hardware hasn't changed, and that's the most useful thing to know if you're shopping."
 image: img/nissan-patrol/y62-dune-safari.jpg
 image_alt: "A white Nissan Patrol Y62 driving across red sand dunes on a desert safari"
