@@ -30,6 +30,7 @@
 | Nov 6, 2026 | "Series IIA: spot the difference" (n=14), 4 images (Hank's own photos, plates blurred), link to /models/land-rover/series/ | https://x.com/boxytrucks/status/2118762527379329482 |
 | Nov 7, 2026 | Cross-post of Reel n=11, "G-Wagen W463: 5 things to check" (MP4), link to /models/g-class/w463/problems/ | https://x.com/boxytrucks/status/2119124935675371968 |
 | Nov 9, 2026 | Field Note: Armada Patrol PRO-4X (4 images, link in first reply) | https://x.com/boxytrucks/status/2119816507043823692 |
+| Nov 9, 2026 | Share: Sam Newton's classic 4x4 road-trip film (text, video link in first reply 2119905103737926102) | https://x.com/boxytrucks/status/2119904711059091510 |
 | Nov 9, 2026 | n=16 "Used Bronco? Buy a 2023." (image, link in first reply 2119857279449092340) | https://x.com/boxytrucks/status/2119857155402506276 |
 | Nov 9, 2026 | Years Short: G 500 years to avoid (MP4, link in first reply 2119858681479074073) | https://x.com/boxytrucks/status/2119858567008366733 |
 | Nov 8, 2026 | n=15 "One desert, one truck" Patrol question (image), link to /models/nissan-patrol/ | https://x.com/boxytrucks/status/2119638300717986252 |
