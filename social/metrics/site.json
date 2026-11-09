@@ -3,7 +3,7 @@
   "week": "2026-11-02",
   "metric": "search_clicks",
   "value": 9,
-  "period": "Oct 22\u201331 (first data)",
+  "period": "Oct 22–31 (first data)",
   "source": "Search Console",
   "label": "Search clicks"
  },
@@ -11,7 +11,7 @@
   "week": "2026-11-02",
   "metric": "search_impressions",
   "value": 375,
-  "period": "Oct 22\u201331 (first data)",
+  "period": "Oct 22–31 (first data)",
   "source": "Search Console",
   "label": "Search impressions"
  },
@@ -19,7 +19,7 @@
   "week": "2026-11-02",
   "metric": "search_position",
   "value": 14.9,
-  "period": "Oct 22\u201331 (first data)",
+  "period": "Oct 22–31 (first data)",
   "source": "Search Console",
   "label": "Average position"
  },
@@ -38,5 +38,213 @@
   "period": "launch to Nov 2",
   "source": "GA4",
   "label": "Page views"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "search_clicks",
+  "label": "Search clicks",
+  "value": 50,
+  "period": "Nov 1–7",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "search_impressions",
+  "label": "Search impressions",
+  "value": 3180,
+  "period": "Nov 1–7",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "search_position",
+  "label": "Average position",
+  "value": 14.0,
+  "period": "Nov 1–7",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "pages_indexed",
+  "label": "Pages indexed",
+  "value": 784,
+  "period": "as of Nov 9",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "page_views",
+  "label": "Page views",
+  "value": 310,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "users",
+  "label": "Users",
+  "value": 176,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_instagram",
+  "label": "Sessions from Instagram",
+  "value": 7,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_x",
+  "label": "Sessions from X (t.co)",
+  "value": 20,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_pinterest",
+  "label": "Sessions from Pinterest",
+  "value": 0,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_youtube",
+  "label": "Sessions from YouTube",
+  "value": 0,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_tiktok",
+  "label": "Sessions from TikTok",
+  "value": 0,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_reddit",
+  "label": "Sessions from Reddit",
+  "value": 0,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_google",
+  "label": "Sessions from Google",
+  "value": 58,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "sessions_chatgpt",
+  "label": "Sessions from ChatGPT",
+  "value": 67,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks",
+  "label": "Affiliate clicks",
+  "value": 11,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "newsletter_signups",
+  "label": "Newsletter sign-ups",
+  "value": 0,
+  "period": "Nov 2–8 (1 newsletter_confirmed)",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "deal_clicks",
+  "label": "Deal clicks",
+  "value": 0,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "deal_code_copies",
+  "label": "Deal code copies",
+  "value": 0,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "form_submits",
+  "label": "Form submits",
+  "value": 3,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /repairs/land-cruiser/fj62/rust-repair-at-the-rear-wheel-wells/",
+  "value": 3,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/grenadier/",
+  "value": 2,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/grenadier/station-wagon/",
+  "value": 2,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/g-class/g550/",
+  "value": 1,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/land-cruiser/prado-90/tires/",
+  "value": 1,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/lexus/gx460/tires/",
+  "value": 1,
+  "period": "Nov 2–8",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-09",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/nissan-patrol/y62/",
+  "value": 1,
+  "period": "Nov 2–8",
+  "source": "GA4"
  }
 ]
