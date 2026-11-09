@@ -2,6 +2,38 @@
 
 Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop making them the only format. The goal is followers who come to the site, so every post earns a save, a share or a click.
 
+
+## Refinement, Nov 9, 2026: grow followers AND send people to the site
+**What the first scoreboard showed:** 4,436 YouTube/TikTok views → 0 site visits. That's not a content problem: **links in Shorts descriptions and comments aren't clickable** (YouTube policy), TikTok bio links need 1,000 followers or a Business account, and Instagram captions don't link. Views come from Shorts; visits come only from places where a link can be tapped. So every post now has a job: *Shorts and Reels earn followers; a clickable surface turns them into visits.*
+
+**Clickable surfaces, and how we use each one**
+| Surface | Clickable? | Plan |
+|---|---|---|
+| YouTube Shorts description/comment | No | Keep the URL on line 1 anyway (people type it), but set every Short's **Related video** to the weekly long-form video |
+| YouTube long-form description + pinned comment | Yes (after advanced features, applied Nov 9) | Weekly long-form video, links to every page it covers, timestamps |
+| YouTube channel links (up to 14) | Yes | boxytrucks.com + /links, tires, best years (Hank to OK) |
+| Instagram Stories link sticker | Yes, all accounts | **One Story a day** with a link sticker to the exact page of that day's post (Hank, phone, ~1 min) |
+| Instagram bio (/links) | Yes | Keep the latest post first; deals and YouTube below |
+| Pinterest pins | Yes, every pin | **Biggest untapped lever**: from ~1 to 5 fresh pins a day (2:3 images built from site data: years to avoid, biggest tire, problems), keyword titles, one board per family |
+| X posts | Yes, but X buries link posts | Image/video post with no link, then the link as the **first reply** |
+| TikTok bio | Needs 1,000 followers or a Business account | Check the free Business switch (Hank's call) |
+
+**Followers**
+- **Series, not one-offs.** "Biggest tire on a stock ___" (5 a week) and "___ years to avoid" (daily) with the same hook, look and "follow for the next truck" end card. Series give people a reason to follow.
+- **Hank's own trucks weekly** ("From Hank's garage" was the top Instagram post and the only post-driven follow). The weekly long-form leans on this too.
+- **Other people's audiences:** rig asks (5 a day), Instagram **Collab** posts for every featured rig, comments on 10 accounts a day, and **Trial Reels** (shown to non-followers first) for new formats.
+- **Cut:** question-only singles (13–38 views) and code/deal videos (0 on TikTok). Deals live in Stories, /links and the newsletter.
+- Reply to every comment within a day, with a question back.
+
+**Targets for Dec 31, 2026** (from Nov 9): Instagram 43 → 150 followers; YouTube 1 → 100 subscribers; site sessions from social 28 → 150 a week; Pinterest 0 → 50 sessions a week. Checked every Monday in the scoreboard.
+
+## Weekly long-form video (from Nov 2026)
+- **Format:** "The ___ buyer's guide in 8 minutes": best and worst years, what breaks, biggest tire, prices, 16:9, chapters. Built from the site page it links to, using licensed site photos, spec cards, maps and Hank's own footage where it exists.
+- **Voice:** Hank, reading a script Claude writes from the page (about 1,100 words, one take in Voice Memos, ~10 minutes of his time, dropped in the Mac's BoxyTrucks/voice folder). No AI voices: YouTube's monetization rules penalize mass-produced or synthetic narration, and his voice is what makes it ours.
+- **Pipeline:** Claude writes the script on Monday, Hank records Tuesday or Wednesday, Claude cuts it (16:9 version of make_reel.js plus the voice track, captions, chapters), uploads Thursday with clickable links in the description, then points that week's Shorts' Related video at it.
+- **Monthly variant:** "From Hank's garage" filmed on his phone (a walkaround or a job on the G500 or 4Runner); Claude edits.
+- **Why it matters:** clickable links, watch hours toward the Partner Program (4,000 hours; long-form counts, Shorts don't), and a home for the Shorts traffic.
+
 ## Why the mix changes
 - Single-image reach on Instagram is falling: down about 22% year over year, with engagement down about 46% (Metricool 2026 study).
 - Carousels get about 9x more saves than single images.

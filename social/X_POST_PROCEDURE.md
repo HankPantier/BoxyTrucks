@@ -20,3 +20,7 @@ Hank approved this on Oct 30, 2026: post on X daily, like Instagram. Use the sam
 5. Open https://x.com/boxytrucks and read the new post's `/status/<id>` URL.
 6. In queue.json set `x_status: "posted"`, `x_posted` (date) and `x_url`. Add a row to the Posts table in `social/X.md`, then commit, push and tell Hank in one line.
 7. If Chrome or X isn't available, or X shows a rate limit or lock, leave the item queued and tell Hank.
+
+
+## Link in the first reply (Nov 9, 2026)
+X shows link posts to fewer people. From now on, post the image or video with no URL in the post text, then reply to your own post right away with the link line (e.g. "Every size: https://boxytrucks.com/...?utm_source=x&utm_medium=social"). Log both URLs.
