@@ -92,7 +92,7 @@ def spec_for(fam, g, page, avoid, buy, photos):
     return gid, spec, {
         'id': gid, 'fam': fam['slug'], 'gen': g['slug'], 'label': lab, 'spec': f'social/reels/shorts/{gid}.json', 'video': spec['out'], 'link': link,
         'yt_title': f'{lab} years to avoid ({av}) and the one to buy'[:100],
-        'yt_description': (f'{lab}: the years to avoid and the sweet spot. Avoid {av}: {why_av} Buy {by}: {why_by}\n\n'
+        'yt_description': (f'Every {lab} year, with the reasons: {link}?utm_source=youtube&utm_medium=social\n\n{lab}: the years to avoid and the sweet spot. Avoid {av}: {why_av} Buy {by}: {why_by}\n\n'
                            f'Every year with the reasons and sources: {link}?utm_source=youtube&utm_medium=social\n\nSubscribe for a new boxy truck every day.\n\n{spec["credit"]}'),
         'tt_description': f'{lab} years to avoid: {av}. The sweet spot: {by}. Every year with the reasons at boxytrucks.com. Follow for a new truck every day ',
         'tt_hashtags': [tag, '#offroad', '#carbuying'],

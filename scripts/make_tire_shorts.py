@@ -93,8 +93,9 @@ def spec_for(fam, g, page, mt, photos):
     link = f'https://boxytrucks.com/models/{fam["slug"]}/{g["slug"]}/tires/'
     sizes = '; '.join(f'{t["lift"]}: {t["size"]}' for t in mt[:3])
     yt_title = f'Biggest tire on a stock {lab}: {mt[0]["size"]}'[:100]
-    yt_desc = (f'The biggest tire that fits a stock {lab}, and what fits with a lift. {sizes}.\n\n'
-               f'Every size with fitment notes, wheel specs and where to buy: {link}?utm_source=youtube&utm_medium=social\n\n'
+    # Scoreboard Nov 9: Shorts got 4,436 views and 0 site visits. The link goes on the first line (shown above "more").
+    yt_desc = (f'Full size chart for the {lab}: {link}?utm_source=youtube&utm_medium=social\n\n'
+               f'The biggest tire that fits a stock {lab}, and what fits with a lift. {sizes}. The chart has every size with fitment notes, wheel specs, speedometer error and where to buy.\n\n'
                f'Subscribe for a new boxy truck every day.\n\n{spec["credit"]}')
     tt_desc = f'Biggest tire on a stock {lab}? {mt[0]["size"]}. With a lift: {mt[1]["size"]}. Every size at boxytrucks.com. Follow for a new truck every day '
     return gid, spec, {'id': gid, 'fam': fam['slug'], 'gen': g['slug'], 'label': lab, 'spec': f'social/reels/shorts/{gid}.json',
