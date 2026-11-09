@@ -4,7 +4,7 @@ seo_title: "Sam Newton's classic 4x4 road trip: a 60 Series Land Cruiser and an 
 kicker: WORTH WATCHING
 date: 2026-11-09
 status: published
-dek: "Filmmaker Sam Newton and friends took two 60 Series Land Cruisers and an early Bronco on a 10-day, 2,000-mile run through the Southwest. One broke down before they left LA. Watch it, then read what to check before you buy your own."
+dek: "Filmmaker Sam Newton and friends took two 60 Series Land Cruisers and an early Bronco on a 10-day, 2,000-mile run through the Southwest. One had transmission trouble before they left LA. Watch it, then read what to check before you buy your own."
 image: img/land-cruiser/fj60-white-desert.jpg
 image_alt: "A white Land Cruiser 60 Series wagon with a loaded roof rack driving through the desert"
 image_caption: "A 60 Series doing desert miles. Not one of the trucks in the film."
