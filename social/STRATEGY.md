@@ -28,8 +28,8 @@ Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop mak
 **Targets for Dec 31, 2026** (from Nov 9): Instagram 43 → 150 followers; YouTube 1 → 100 subscribers; site sessions from social 28 → 150 a week; Pinterest 0 → 50 sessions a week. Checked every Monday in the scoreboard.
 
 ## Weekly long-form video (from Nov 2026)
-- **Format:** "The ___ buyer's guide in 8 minutes": best and worst years, what breaks, biggest tire, prices, 16:9, chapters. Built from the site page it links to, using licensed site photos, spec cards, maps and Hank's own footage where it exists.
-- **Voice:** Hank, reading a script Claude writes from the page (about 1,100 words, one take in Voice Memos, ~10 minutes of his time, dropped in the Mac's BoxyTrucks/voice folder). No AI voices: YouTube's monetization rules penalize mass-produced or synthetic narration, and his voice is what makes it ours.
+- **Format:** "The ___ buyer's guide" (6–8 minutes): best and worst years, what breaks, biggest tire, prices, 16:9, chapters. Built from the site page it links to, using licensed site photos, spec cards, maps and Hank's own footage where it exists.
+- **Voice:** Hank, reading a script Claude writes from the page (about 900–1,100 words, one take in Voice Memos, ~10 minutes of his time, dropped in the Mac's BoxyTrucks/voice folder). No AI voices: YouTube's monetization rules penalize mass-produced or synthetic narration, and his voice is what makes it ours.
 - **Pipeline:** Claude writes the script on Monday, Hank records Tuesday or Wednesday, Claude cuts it (16:9 version of make_reel.js plus the voice track, captions, chapters), uploads Thursday with clickable links in the description, then points that week's Shorts' Related video at it.
 - **Monthly variant:** "From Hank's garage" filmed on his phone (a walkaround or a job on the G500 or 4Runner); Claude edits.
 - **Why it matters:** clickable links, watch hours toward the Partner Program (4,000 hours; long-form counts, Shorts don't), and a home for the Shorts traffic.
