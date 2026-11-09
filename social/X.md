@@ -29,6 +29,8 @@
 | Nov 5, 2026 | From Hank's garage (n=9): "Every boxy truck I've owned", 4 images (slide 1 Hank's own G500), link to boxytrucks.com | https://x.com/boxytrucks/status/2118378579969114310 |
 | Nov 6, 2026 | "Series IIA: spot the difference" (n=14), 4 images (Hank's own photos, plates blurred), link to /models/land-rover/series/ | https://x.com/boxytrucks/status/2118762527379329482 |
 | Nov 7, 2026 | Cross-post of Reel n=11, "G-Wagen W463: 5 things to check" (MP4), link to /models/g-class/w463/problems/ | https://x.com/boxytrucks/status/2119124935675371968 |
+| Nov 8, 2026 | n=15 "One desert, one truck" Patrol question (image), link to /models/nissan-patrol/ | https://x.com/boxytrucks/status/2119638300717986252 |
+| Nov 8, 2026 | CJ-5 tire Short (MP4), link to /models/jeep/cj-5/tires/ | https://x.com/boxytrucks/status/2119637318873030852 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious

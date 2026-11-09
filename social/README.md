@@ -46,6 +46,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Nov 4, 2026 | First Reel (n=10): "Land Cruiser 80 Series: 5 things to check before you buy", link in bio. https://www.instagram.com/boxytrucks/reel/DfU-rbSOr15/ | `posts/10-80-series-checks.mp4` |
 | Nov 5, 2026 | From Hank's garage (n=9): "Every boxy truck I've owned" 6-slide carousel, slide 1 Hank's own G500. https://www.instagram.com/p/DfXcx8xHFCd/ | `posts/09-hanks-garage-trucks-owned-1..6.jpg` |
 | Nov 6, 2026 | "Series IIA: spot the difference" 5-slide carousel (n=14), Hank's own photos, plates blurred. https://www.instagram.com/p/DfaIWpjgUdw/ · YouTube https://youtube.com/shorts/MTsNQDdXS18 · TikTok 7705111687518506270 · Pinterest 1128292512945614350 | `posts/14-series-iia-spot-1..5.jpg`, `posts/14-series-iia-spot.mp4` |
+| Nov 8, 2026 | "One desert, one truck" Patrol question (n=15). Instagram https://www.instagram.com/boxytrucks/p/DfgZqzWnOYX/ · X 2119638300717986252 · Pinterest 1128292512945813878. Short: CJ-5 tires (YouTube e_gtzdRITpA, TikTok 7706011898151472415, Instagram DfgZKv4uX-D, X 2119637318873030852, Pinterest 1128292512945813756) | `posts/15-patrol-question.jpg` |
 | Nov 7, 2026 | "G-Wagen W463: 5 things to check" Reel (n=11). Instagram https://www.instagram.com/boxytrucks/reel/DfctGQnOnAj/ · YouTube https://youtube.com/shorts/wabrr82-kgs · TikTok 7705481596991704350 · Pinterest 1128292512945694512 · X 2119124935675371968 | `posts/11-w463-checks.mp4` |
 
 ## Following
