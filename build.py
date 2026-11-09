@@ -916,7 +916,7 @@ def main():
                     _f = x['fitment']
                     _tq = next((f for f in page.get('faq', []) if TIRE_Q.search(f['q'])), None)
                     _rq = next((f for f in page.get('faq', []) if REGEAR_Q.search(f['q'])), None)
-                    _mods = [m for m in page.get('mods', []) if re.search(r'SUSPENSION|LIFT|WHEEL|TIRE|BUMP|GEAR', m.get('cat', ''), re.I) and m.get('who')]
+                    _mods = [m for m in page.get('mods', []) if re.search(r'SUSPENSION|LIFT|LEVEL|WHEEL|TIRE|BUMP|GEAR', m.get('cat', ''), re.I) and m.get('who')]
                     _top = _f['max_tire'][0]
                     _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} biggest tire size, stock and lifted', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/tires/', 'about': {'@type': 'Car', 'name': _model}}]
                     if _tq:
