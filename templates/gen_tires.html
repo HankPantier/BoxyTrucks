@@ -10,6 +10,13 @@
     <p class="sub-intro"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ g.slug }}">Compare with other trucks in the tire fitment tool →</a></p>
   </section>
 
+  {% if tmath %}<section id="speedo"><h2 class="h-section">What bigger tires do to the {{ sn }}</h2>
+    <p class="sub-intro">Against the factory {{ tmath.stock }} (about {{ tmath.base }} in tall). Taller tires turn fewer times per mile, so the speedometer reads low and the engine turns slower at the same road speed, which feels like taller gearing.</p>
+    <div class="table-box"><table class="sp-table"><thead><tr><th>TIRE</th><th>HEIGHT</th><th>TALLER BY</th><th>AT A TRUE 60 MPH, SPEEDO SHOWS</th><th>ENGINE RPM</th></tr></thead>
+    <tbody>{% for r in tmath.rows %}<tr><td data-l="TIRE"><strong>{{ r.size }}</strong><span class="note"> ({{ r.lift }})</span></td><td data-l="HEIGHT" class="mono">{{ r.dia }} in</td><td data-l="TALLER BY" class="mono">{{ '%+.1f'|format(r.pct) }}%</td><td data-l="SPEEDO SHOWS" class="mono">{{ r.speedo }} mph</td><td data-l="ENGINE RPM" class="mono">{{ '%+.1f'|format(r.rpm) }}%</td></tr>{% endfor %}</tbody></table></div>
+    <p class="sub-note">Heights are calculated from the tire size; real tires run a little smaller than nominal, and a range like "32–33 in" uses the low end. Recalibrate the speedometer after a size change{% if regear %}, and see re-gearing below{% endif %}.</p>
+  </section>{% endif %}
+
   {% if shop_sizes %}<section id="shop"><h2 class="h-section">Shop {{ sn }} tire sizes</h2>
     <p class="sub-intro">Every size on this page, from factory fit to the biggest that fits lifted. Each link opens a search for that exact size.</p>
     <div class="tr-shop">{% for t in shop_sizes %}<div class="tr-size"><span class="mono">{{ t.size }}</span><span class="links"><a class="btn solid" href="{{ t.tirerack }}" target="_blank" rel="noopener sponsored" data-track="tire_shop">Tire Rack ↗</a><a class="btn" href="{{ t.mavis }}" target="_blank" rel="noopener sponsored" data-track="tire_shop" title="Buy online, installed at a Mavis, NTB or Tire Kingdom store (East and South)">Mavis ↗</a><a class="btn" href="{{ t.amazon }}" target="_blank" rel="noopener sponsored" data-track="tire_shop">Amazon ↗</a></span></div>{% endfor %}</div>

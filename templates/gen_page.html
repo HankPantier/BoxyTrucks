@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "_res.html" import res_block, reading_block %}
 {% block content %}
+{% set split = (fam.slug ~ "/" ~ gen_slug) in SPLIT %}
 {% set p = page %}
 <section class="hero-stack">
   <div class="hs-img{% if not p.hero_photo %} no-photo{% endif %}">
@@ -61,7 +62,12 @@
         <h2 class="h-section">Year by year</h2>
         <p class="sub-intro">What changed, model year by model year. <span class="tl-key buy">Sweet spot</span> <span class="tl-key avoid">Beware</span> <span class="tl-key recall">Recall</span></p>
         <p class="sub-intro" style="margin-top:-4px"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/best-years.html">Best years across every {{ mlabel(fam.maker, fam.name) }} generation →</a>{% for c in cmp_links %} · <a class="inline-link" href="{{ root }}compare/{{ c.slug }}.html">{{ c.title }}</a>{% endfor %}</p>
+        {% if split and has_years_page %}{% set fl = x.timeline|selectattr('flag', 'in', ['buy', 'avoid', 'recall'])|list %}
+        {% if fl %}<ul class="split-sum">{% for t in fl %}<li><span class="yr-pill {{ t.flag }}">{{ {'avoid':'Beware','recall':'Recall','buy':'Sweet spot'}[t.flag] }}</span> <strong>{{ t.year }}</strong></li>{% endfor %}</ul>{% endif %}
+        <p class="split-more"><a class="btn solid" href="{{ root }}models/{{ fam.slug }}/{{ gen_slug }}/years.html">Every {{ p.title }} model year, with the reasons →</a></p>
+        {% else %}
         <ol class="tl">{% for t in x.timeline %}<li class="tl-{{ t.flag or 'note' }}"><span class="y">{{ t.year }}</span><span class="c">{{ t.change|lk }}</span>{% if t.flag == 'buy' %}<span class="flag">Sweet spot</span>{% elif t.flag == 'avoid' %}<span class="flag">Beware</span>{% elif t.flag == 'recall' %}<span class="flag">Recall</span>{% endif %}</li>{% endfor %}</ol>
+        {% endif %}
       </section>
       {% endif %}
       </div>
@@ -101,10 +107,13 @@
         {% if ft.max_tire %}<p class="sub-intro" style="margin-top:-4px"><a class="inline-link" href="{{ root }}tires/index.html?t={{ fam.slug }}/{{ p.slug }}">Try the tire fitment tool: biggest tire at every lift →</a></p>{% endif %}
         {% if ft.stock %}<div class="kvrow"><span class="k">FACTORY TIRES</span><div class="chips">{% for t in ft.stock %}<span class="chip">{{ t }}</span>{% endfor %}</div></div>{% endif %}
         {% if ft.wheel %}<div class="kvgrid">{% for k, lbl in [('bolt_pattern','Bolt pattern'),('offset','Offset'),('center_bore','Center bore'),('lug_thread','Lug thread'),('lug_torque','Lug-nut torque')] %}{% if ft.wheel[k] %}<div><span class="k">{{ lbl }}</span><span class="v">{{ ft.wheel[k] }}</span></div>{% endif %}{% endfor %}</div>{% endif %}
-        {% if ft.max_tire %}<div class="table-box"><table class="fit">
+{% if split and has_tires_page %}{% set m0 = ft.max_tire[0] %}
+        <p class="split-sum-p">Biggest tire on a stock {{ p.title }}: <strong>{{ m0.size }}</strong>{% if ft.max_tire|length > 1 %}; with a {{ ft.max_tire[-1].lift }} lift, <strong>{{ ft.max_tire[-1].size }}</strong>{% endif %}.</p>
+        <p class="split-more"><a class="btn solid" href="{{ root }}models/{{ fam.slug }}/{{ gen_slug }}/tires.html">Every lift height, what it takes, and the speedometer and gearing math →</a></p>
+        {% else %}        {% if ft.max_tire %}<div class="table-box"><table class="fit">
           <thead><tr><th>LIFT</th><th>BIGGEST TIRE</th><th>WHAT IT TAKES</th></tr></thead>
           <tbody>{% for m in ft.max_tire %}<tr><td class="mono" data-l="LIFT">{{ m.lift }}</td><td class="mono" data-l="BIGGEST TIRE"><strong>{{ m.size }}</strong></td><td class="note" data-l="WHAT IT TAKES">{{ m.note|lk }}</td></tr>{% endfor %}</tbody>
-        </table></div>{% endif %}
+        </table></div>{% endif %}{% endif %}
         <p class="sub-note">Forum consensus, not a guarantee: wheel offset, tire brand and suspension wear all change clearance. Confirm before you buy.</p>
       </section>
       {% endif %}
@@ -138,7 +147,11 @@
       {% set nl_id = 'gp' %}{% include "_nl_inline.html" %}
       <section id="buying" style="display:flex;flex-direction:column;gap:18px">
         <h2 class="h-section">What to check before you buy</h2>
+        {% if split and has_problems_page %}<ol class="checks checks-short">{% for n in p.buying_checks %}<li><span class="no">{{ '%02d' % loop.index }}</span><div><span class="h">{{ n.head }}</span></div></li>{% endfor %}</ol>
+        <p class="split-more"><a class="btn solid" href="{{ root }}models/{{ fam.slug }}/{{ gen_slug }}/problems.html">What each check means, the repairs and the costs →</a></p>
+        {% else %}
         <ol class="checks">{% for n in p.buying_checks %}<li><span class="no">{{ '%02d' % loop.index }}</span><div><span class="h">{{ n.head }}</span><span class="b">{{ n.body|lk }}</span></div></li>{% endfor %}</ol>
+        {% endif %}
         <p class="sub-intro" style="margin:0"><a class="inline-link" href="{{ root }}inspection-checklists/index.html">Take these to the test drive: get the free printable {{ p.title }} inspection checklist →</a></p>
       </section>
       {% endif %}
@@ -234,7 +247,7 @@
       {% if p.faq %}
       <section id="faq" style="display:flex;flex-direction:column;gap:18px">
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:10px"><span class="eyebrow">Asked on every forum</span><h2 style="font-size:34px">{{ p.title }} questions, answered</h2></div>
-        <div class="faq">{% for f in p.faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a"><p>{{ f.a|lk }}</p><span class="src">SOURCE · {{ f.src }}</span></div></details>{% endfor %}</div>
+        <div class="faq">{% for f in p.faq %}{% set fh = (faq_home or {}).get(f.q) if split else None %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a">{% if fh %}<p><a class="inline-link" href="{{ root }}{{ fh[1] }}">Answered on {{ fh[0] }}, with the details →</a></p>{% else %}<p>{{ f.a|lk }}</p><span class="src">SOURCE · {{ f.src }}</span>{% endif %}</div></details>{% endfor %}</div>
       </section>
       {% endif %}
       </div>

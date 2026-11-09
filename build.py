@@ -191,6 +191,35 @@ import html as _html
 AFFILIATES = []
 
 
+def _tire_dia(sz):
+    """Overall diameter in inches from '265/75R16', 'P225/75R15', '31x10.50R15', '33-in', '32–33 in'. None if unparseable."""
+    t = str(sz or '')
+    m = re.search(r'(\d{3})/(\d{2})\s*Z?R\s*(\d{2})', t)
+    if m:
+        w, a, r = map(int, m.groups()); return round(2 * w * a / 100 / 25.4 + r, 1)
+    m = re.search(r'\b(\d{2}(?:\.\d)?)\s*[xX]\s*\d', t) or re.search(r'\b(\d{2}(?:\.\d)?)(?:\s*[–-]\s*\d{2})?\s*(?:in\b|-in\b|"|″|-inch)', t)
+    if m:
+        d = float(m.group(1)); return d if 26 <= d <= 44 else None
+    return None
+
+
+def tire_math(stock, max_tire):
+    """Speedometer and effective-gearing change for each size in the fitment table vs the factory tire (pure arithmetic)."""
+    base = next((d for d in (_tire_dia(s) for s in (stock or [])) if d), None)
+    if not base:
+        return None
+    rows, seen = [], set()
+    for m in max_tire or []:
+        d = _tire_dia(m.get('size'))
+        if not d or d in seen or abs(d - base) < 0.3:
+            continue
+        seen.add(d)
+        pct = (d - base) / base
+        rows.append({'lift': m.get('lift'), 'size': m.get('size'), 'dia': d, 'pct': round(pct * 100, 1),
+                     'speedo': round(60 / (1 + pct), 1), 'rpm': round(-pct / (1 + pct) * 100, 1)})
+    return {'base': base, 'stock': next(s for s in stock if _tire_dia(s)), 'rows': rows} if rows else None
+
+
 def load_affiliates():
     # Fail the build loudly: a silent [] here turns off every affiliate tag on the site (happened Nov 3, 2026).
     f = DATA / 'affiliates.json'
@@ -693,6 +722,10 @@ def main():
                     _yt.setdefault(f"{_r['fam']}/{_r['gen']}", _r['yt_url'])
         except Exception:
             pass
+        # Nov 9, 2026 (Search Console: sub-pages "crawled, not indexed" because they copy the guide). Pilot: on these guides the
+        # year-by-year, wheels & tires and buying-checks sections become short summaries that link to the sub-page, so each topic
+        # has one home. Roll out to every generation if these get indexed (scheduled check ~Nov 23).
+        env.globals['SPLIT'] = {'land-cruiser/80-series', 'g-class/g500', '4runner/3rd-gen'}
         env.globals['yt_short'] = lambda fam, gen: _yt.get(f'{fam}/{gen}')
         env.globals['YT_CHANNEL'] = 'https://www.youtube.com/@BoxyTrucks'
         env.globals['newsletter'] = NEWSLETTER
@@ -800,6 +833,17 @@ def main():
                 has_problems = len(page.get('buying_checks') or []) + len(page.get('repairs') or []) >= 5
                 has_years = bool(_bestq) or any(t.get('flag') in ('buy', 'avoid') for t in _tl)
                 has_tires = bool((x.get('fitment') or {}).get('max_tire'))
+                # which FAQ answers have their home on a sub-page (used by the SPLIT pilot to link instead of repeating them)
+                _fh = {}
+                _gb = f'models/{slug}/{g["slug"]}/'
+                for _f2 in page.get('faq', []):
+                    if has_tires and (TIRE_Q.search(_f2['q']) or REGEAR_Q.search(_f2['q'])):
+                        _fh[_f2['q']] = ('the tires page', _gb + 'tires.html')
+                    elif has_years and _bestq and _f2['q'] == _bestq['q']:
+                        _fh[_f2['q']] = ('the best-years page', _gb + 'years.html')
+                for _f2 in [f for f in page.get('faq', []) if PROBLEM_Q.search(f['q']) and not TIRE_Q.search(f['q'])][:6]:
+                    if has_problems and _f2['q'] not in _fh:
+                        _fh[_f2['q']] = ('the problems page', _gb + 'problems.html')
                 has_lockers = bool(re.search(r'\blocker', json.dumps({k: page.get(k) for k in ('buying_checks', 'repairs', 'faq', 'engineering', 'plate')}), re.I))
                 tools = [(f'Specs, fluids & intervals', f'models/{slug}/{g["slug"]}/specs.html') if has_specs else None,
                          ('Common problems to check', f'models/{slug}/{g["slug"]}/problems.html') if has_problems else None,
@@ -814,7 +858,7 @@ def main():
                            + [('Engine swap', w['title'], f'engine-swaps/{w["slug"]}.html') for w in _swaps_early.get(_key, [])])
                 hero_alt = next((ph['alt'] for ph in page.get('photos', []) if ph['file'] == page.get('hero_photo')), f'{page.get("title", g["name"])} off road')
                 page.setdefault('title', g['name'])
-                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, gen_years=g.get('years', ''), gen_slug=g['slug'], has_lockers=has_lockers, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
+                render('gen_page.html', f'models/{slug}/{g["slug"]}.html', '../../', fam=fam, page=page, has_years_page=has_years, has_tires_page=has_tires, has_problems_page=has_problems, faq_home=_fh, gen_years=g.get('years', ''), gen_slug=g['slug'], has_lockers=has_lockers, toc=toc, hero_alt=hero_alt, tools=tools, further=further, has_specs=has_specs,
                        og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None), og_type='article', crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}.html')], jsonld=gen_ld(fam, g, page),
                        part_search=suppliers_cfg.get(slug, []), cmp_links=_cmp_early.get(f'{slug}/{g["slug"]}', []),
                        yt=yt, ig=ig, res=res, reading=reading.get(f'{slug}/{g["slug"]}', []), active='models', title=gen_title(slug, g, fam, page),
@@ -877,7 +921,7 @@ def main():
                     _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} biggest tire size, stock and lifted', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/tires/', 'about': {'@type': 'Car', 'name': _model}}]
                     if _tq:
                         _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f"What's the biggest tire that fits a {_sn} without a lift?", 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), _tq['a'])}}]})
-                    render('gen_tires.html', f'models/{slug}/{g["slug"]}/tires.html', '../../../', fam=fam, g=g, p=page, f=_f, shop_sizes=tire_sizes(*[t.get('size') for t in (_f.get('max_tire') or [])], *(_f.get('stock') or []), *[t.get('note') for t in (_f.get('max_tire') or [])]), answer=(_tq or {}).get('a'), regear=(_rq or {}).get('a'), mods=_mods,
+                    render('gen_tires.html', f'models/{slug}/{g["slug"]}/tires.html', '../../../', fam=fam, g=g, p=page, f=_f, tmath=tire_math(_f.get('stock'), _f.get('max_tire')), shop_sizes=tire_sizes(*[t.get('size') for t in (_f.get('max_tire') or [])], *(_f.get('stock') or []), *[t.get('note') for t in (_f.get('max_tire') or [])]), answer=(_tq or {}).get('a'), regear=(_rq or {}).get('a'), mods=_mods,
                            sn=_sn, model=_model, gen_href=_gh, crumb='Biggest tire', eyebrow=f'Tire fitment · {_y}', sibs=[l[:2] for l in _sib('tires')],
                            h1=f'{_sn} biggest tire size: stock and lifted',
                            lede=f'The biggest tire owners run on a {_model} at every lift height, with the trimming it takes, the wheel specs you need and the lift kits that get you there.',

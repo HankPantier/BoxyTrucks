@@ -1012,3 +1012,9 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 /* Garage: Buying / Owning groups (Nov 7, 2026) */
 .garage-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin-bottom:24px}
 .garage-head .h-section{margin:0}
+/* Guide pages: split summaries that hand off to the sub-page (Nov 9, 2026 pilot) */
+.split-sum{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}
+.split-sum li{display:flex;align-items:center;gap:8px}
+.split-sum-p{margin:0;font-size:17px}
+.split-more{margin:4px 0 0}
+.checks-short li{padding-top:10px;padding-bottom:10px}
