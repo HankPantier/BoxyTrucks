@@ -1,5 +1,925 @@
 [
  {
+  "url": "https://boxytrucks.com/models/land-cruiser/80-series/years/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/80-series/tires/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/80-series/problems/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g500/years/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g500/tires/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/w463/problems/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/4th-gen/years/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/3rd-gen/tires/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/defender-90-110/years/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/early-bronco/years/",
+  "status": "requested",
+  "date": "2026-11-07"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/100-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/200-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/250-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/300-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/70-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/80-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj-cruiser/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj25/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj40/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj45-fj55/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj60/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj62/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/mega-cruiser/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/prado-120/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/prado-150/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/prado-90/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/4x4-squared/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/500ge/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/europa/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g500/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g55-amg/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g550/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g63-6x6/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g63-amg/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/second-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/w460/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/w461/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/w463/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/1st-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/2nd-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/3rd-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/4th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/5th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/6th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/defender-90-110/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/defender-l663/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/discovery-1/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/discovery-2/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/lr3/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/lr4/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/bronco-ii/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/early-bronco/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/full-size/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/sixth-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/cherokee-xj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/cj-5/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/cj-7/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/cj-8/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/comanche-mj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/gladiator-jt/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/grand-cherokee-zj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/grand-wagoneer/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jk-unlimited/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jk/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jl-unlimited/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jl/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/sj-wagoneer/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/tj-unlimited/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/tj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/wagoneer-ws/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/yj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/scout/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/scout/scout-80-800/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/scout/scout-ii/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/scout/scout-motors/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/160-mq/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/patrol-60/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/y60/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/y61/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/y62/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/grenadier/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/grenadier/quartermaster/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/grenadier/station-wagon/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/gx460/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/gx470/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/gx550/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx450/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx470/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx570/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx600/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/classic/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/l322/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/l405/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/l460/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/p38/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/80-series-vs-100-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/cherokee-xj-vs-grand-cherokee-zj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/cherokee-xj-vs-wrangler-tj/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/defender-vs-grenadier-vs-g-class/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/early-bronco-vs-fj40/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/fj-cruiser-vs-4runner-5th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/g550-vs-lx570/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/grenadier-vs-70-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/gx460-vs-4runner-5th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/gx470-vs-100-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/gx470-vs-4runner-4th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/jk-vs-jl/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/land-cruiser-250-vs-4runner-6th-gen/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/lr3-vs-100-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/lx470-vs-100-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/samurai-vs-jimny/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/compare/wrangler-jl-vs-bronco/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/k5-blazer-1st/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/k5-blazer/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/suburban-square/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/delica/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/delica/delica-l300/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/delica/delica-space-gear/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/hummer/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/hummer/h1/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/hummer/h2/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/niva/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/niva/niva/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pajero/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pajero/pajero-gen1/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pajero/pajero-gen2/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pajero/pajero-gen3/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pinzgauer/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pinzgauer/pinzgauer-710-712/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pinzgauer/pinzgauer-716-718/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/ramcharger/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/ramcharger/ramcharger-1st/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/ramcharger/ramcharger-2nd/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/jimny-jb23/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/jimny-jb74/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/lj-series/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/samurai/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/trooper/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/trooper/trooper-1/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/trooper/trooper-2/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/unimog/best-years/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/unimog/unimog-404/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
+  "url": "https://boxytrucks.com/models/unimog/unimog-u1300l/",
+  "status": "todo",
+  "date": null,
+  "kind": "guide"
+ },
+ {
   "url": "https://boxytrucks.com/models/land-cruiser/100-series/years/",
   "status": "todo",
   "date": null
@@ -13,11 +933,6 @@
   "url": "https://boxytrucks.com/models/land-cruiser/70-series/years/",
   "status": "todo",
   "date": null
- },
- {
-  "url": "https://boxytrucks.com/models/land-cruiser/80-series/years/",
-  "status": "requested",
-  "date": "2026-11-07"
  },
  {
   "url": "https://boxytrucks.com/models/land-cruiser/fj-cruiser/years/",
@@ -73,11 +988,6 @@
   "url": "https://boxytrucks.com/models/land-cruiser/70-series/tires/",
   "status": "todo",
   "date": null
- },
- {
-  "url": "https://boxytrucks.com/models/land-cruiser/80-series/tires/",
-  "status": "requested",
-  "date": "2026-11-07"
  },
  {
   "url": "https://boxytrucks.com/models/land-cruiser/fj-cruiser/tires/",
@@ -150,11 +1060,6 @@
   "date": null
  },
  {
-  "url": "https://boxytrucks.com/models/land-cruiser/80-series/problems/",
-  "status": "requested",
-  "date": "2026-11-07"
- },
- {
   "url": "https://boxytrucks.com/models/land-cruiser/fj-cruiser/problems/",
   "status": "todo",
   "date": null
@@ -210,11 +1115,6 @@
   "date": null
  },
  {
-  "url": "https://boxytrucks.com/models/g-class/g500/years/",
-  "status": "requested",
-  "date": "2026-11-07"
- },
- {
   "url": "https://boxytrucks.com/models/g-class/g55-amg/years/",
   "status": "todo",
   "date": null
@@ -243,11 +1143,6 @@
   "url": "https://boxytrucks.com/models/g-class/europa/tires/",
   "status": "todo",
   "date": null
- },
- {
-  "url": "https://boxytrucks.com/models/g-class/g500/tires/",
-  "status": "requested",
-  "date": "2026-11-07"
  },
  {
   "url": "https://boxytrucks.com/models/g-class/g55-amg/tires/",
@@ -345,11 +1240,6 @@
   "date": null
  },
  {
-  "url": "https://boxytrucks.com/models/g-class/w463/problems/",
-  "status": "requested",
-  "date": "2026-11-07"
- },
- {
   "url": "https://boxytrucks.com/models/4runner/1st-gen/years/",
   "status": "todo",
   "date": null
@@ -365,11 +1255,6 @@
   "date": null
  },
  {
-  "url": "https://boxytrucks.com/models/4runner/4th-gen/years/",
-  "status": "requested",
-  "date": "2026-11-07"
- },
- {
   "url": "https://boxytrucks.com/models/4runner/5th-gen/years/",
   "status": "todo",
   "date": null
@@ -383,11 +1268,6 @@
   "url": "https://boxytrucks.com/models/4runner/2nd-gen/tires/",
   "status": "todo",
   "date": null
- },
- {
-  "url": "https://boxytrucks.com/models/4runner/3rd-gen/tires/",
-  "status": "requested",
-  "date": "2026-11-07"
  },
  {
   "url": "https://boxytrucks.com/models/4runner/4th-gen/tires/",
@@ -433,11 +1313,6 @@
   "url": "https://boxytrucks.com/models/4runner/6th-gen/problems/",
   "status": "todo",
   "date": null
- },
- {
-  "url": "https://boxytrucks.com/models/land-rover/defender-90-110/years/",
-  "status": "requested",
-  "date": "2026-11-07"
  },
  {
   "url": "https://boxytrucks.com/models/land-rover/discovery-1/years/",
@@ -538,11 +1413,6 @@
   "url": "https://boxytrucks.com/models/bronco/bronco-ii/years/",
   "status": "todo",
   "date": null
- },
- {
-  "url": "https://boxytrucks.com/models/bronco/early-bronco/years/",
-  "status": "requested",
-  "date": "2026-11-07"
  },
  {
   "url": "https://boxytrucks.com/models/bronco/full-size/years/",
