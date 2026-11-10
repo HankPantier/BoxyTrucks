@@ -31,3 +31,12 @@ Same steps as above, but take the first item from `social/shorts-years.json` who
 rendered with `render 1`). Facts come only from the timeline entries flagged avoid/buy in `data/extra/<family>/<gen>.json`, using the
 sentence that gives the reason. YouTube comment: add one more sourced detail from that truck's /years/ page and ask "Which year is yours?".
 Link: the truck's /years/ page. Runs daily at 12:37 pm ET. When the 11 in the queue run out, rebuild the queue (new flagged years may exist) and tell Hank.
+
+## Pin the Boxy Trucks comment (from Nov 9, 2026)
+YouTube approved the channel's advanced features (video verification) on Nov 9, so links in our comments are now clickable.
+After posting the in-depth comment on every new video, pin it: the comment's ⋮ menu → Pin → confirm "Pin" in the dialog.
+Click the confirm button with a real click (find "Pin confirm button in the dialog", then computer left_click); a JS `.click()` on it does nothing.
+Check the thread shows "Pinned by @BoxyTrucks". All 16 earlier videos were pinned on Nov 9.
+
+Upload gotcha (Nov 9): if the watch page says "Comments are not supported on private videos", the upload was saved as a draft.
+Open it in Studio, click "Edit draft", tick "Not made for kids", Next ×3, Public, Done.

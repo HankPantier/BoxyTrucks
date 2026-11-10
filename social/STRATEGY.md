@@ -122,3 +122,7 @@ Fun but useful. Hank is collecting his own shots of trucks for holidays and seas
 - Dec 1: gift guide launch (boxytrucks.com/best/gifts-for-4x4-owners/), reminder around Dec 10.
 - Dec 23: "Happy holidays from Boxy Trucks", Hank's Willys wagon with a wreath (DSC00377).
 - Ideas for later: New Year (resolution: do the deferred maintenance; link service schedules), spring (rust check after salt season; inspection checklists), summer (heat and cooling-system checks; overlanding picks), fall (winter prep, tires). Use Hank's photos first, licensed photos otherwise.
+
+
+## Update, Nov 9, 2026: YouTube advanced features approved
+Pinned comments with clickable site links are now on all 16 videos and will go on every new one. Links in long-form descriptions are also clickable. The G500 long-form still goes up Thursday, and the G-Class Shorts' Related video will point to it.
