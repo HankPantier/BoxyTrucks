@@ -1,0 +1,50 @@
+{
+ "out": "social/posts/18-hanks-garage-g500-needs.mp4",
+ "url": "boxytrucks.com",
+ "credit": "Photos: Hank · BoxyTrucks",
+ "scenes": [
+  {
+   "photo": "site/img/g-class/hank-g500-three-quarter.jpg",
+   "pos": "45% 55%",
+   "dur": 3.4,
+   "eyebrow": "From Hank's garage",
+   "title": "What my 2007 G500 has needed so far."
+  },
+  {
+   "photo": "site/img/g-class/hank-g500-front-woods.jpg",
+   "pos": "50% 55%",
+   "dur": 3.8,
+   "zoom": [
+    1.1,
+    1.22
+   ],
+   "eyebrow": "1 · Oil filter housing gasket",
+   "title": "My biggest issue so far.",
+   "body": "Oil collects in the V at the front of the engine. Cheap parts; most of the bill is labor."
+  },
+  {
+   "photo": "site/img/g-class/hank-g500-lights-rain.jpg",
+   "pos": "50% 50%",
+   "dur": 3.8,
+   "zoom": [
+    1.1,
+    1.22
+   ],
+   "eyebrow": "2 · The lockers",
+   "title": "Still working through them.",
+   "body": "Most likely the vacuum system needs bleeding or new lines."
+  },
+  {
+   "photo": "site/img/g-class/hank-g500-three-quarter.jpg",
+   "pos": "45% 55%",
+   "dur": 3.0,
+   "title": "Buying one? Get a 2005–08.",
+   "body": "Every check: boxytrucks.com/models/g-class/g500",
+   "cta": true,
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  }
+ ]
+}
