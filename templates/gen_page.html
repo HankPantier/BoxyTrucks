@@ -227,6 +227,7 @@
         {% set ebq = (mlabel(fam.maker, p.title) ~ ' parts')|replace('×','x') %}<p class="sub-intro" style="margin:0">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ ebq|urlencode }}&amp;_sacat=6000" rel="noopener sponsored" target="_blank">Search eBay Motors for {{ mlabel(fam.maker, p.title) }} parts →</a>{% if has_specs %} · <a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ p.slug }}/specs.html">Fluids, capacities and torque on the {{ p.title }} specs sheet →</a>{% endif %}</p>
         <div class="stack">
         {% for r in p.repairs %}
+          {% if loop.index == 4 %}<details class="story-more rep-more"><summary>Show {{ p.repairs|length - 3 }} more repairs</summary><div class="stack" style="margin-top:22px">{% endif %}
           <article class="repair">
             <div class="meta"><a class="t" href="{{ root }}repairs/{{ fam.slug }}/{{ p.slug }}/{{ r.slug }}.html">{{ r.title|striplk }} →</a><div class="s"><span>DIFFICULTY · {{ r.diff }}</span><span>TIME · {{ r.time }}</span><span>SHOP COST · {{ r.cost }}</span></div></div>
             <div class="detail">
@@ -236,6 +237,7 @@
               {% if r.parts %}<div class="buy"><span class="lbl">WHERE TO BUY PARTS</span><span class="buy-links">{% for pt in r.parts or [] %}{% set q = amz_q(pt, mlabel(fam.maker, p.title)) %}<span class="buy-item"><a href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.name }}{% if pt.supplier %} · {{ pt.supplier }}{% endif %} ↗</a>{% if q %}<a class="amz" href="https://www.amazon.com/s?k={{ q|urlencode }}" target="_blank" rel="noopener">Amazon ↗</a>{% if fam.slug in pg_fams %}<a class="amz" href="https://www.partsgeek.com/ss/?ssq={{ q|urlencode }}" target="_blank" rel="noopener">Parts Geek ↗</a>{% endif %}{% endif %}</span>{% endfor %}{% if not r.parts %}{% for s in part_search %}<a href="{{ s.search.replace('{q}', (r.title|striplk ~ ' ' ~ p.title)|replace(' ', '+')|urlencode|replace('%2B','+')) }}" target="_blank" rel="noopener">Search {{ s.name }} ↗</a>{% endfor %}{% if not part_search %}<span style="color:var(--stone)">Supplier links coming soon</span>{% endif %}{% endif %}</span></div>{% endif %}
             </div>
           </article>
+          {% if loop.last and loop.length > 3 %}</div></details>{% endif %}
         {% endfor %}
         </div>
       </section>
