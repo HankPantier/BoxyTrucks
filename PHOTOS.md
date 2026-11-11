@@ -17,3 +17,6 @@ Hank drops his own photos into `photos/` in the BoxyTrucks folder on his Mac (`/
 | P1000206.JPG | 2026-11-05 | 2007 G500, three-quarter | `hank-g500-three-quarter.jpg`: G 500 page hero (was the Grand Edition street photo); About page; slide 1 of the Nov 5 garage post |
 | P1000207.JPG | 2026-11-05 | 2007 G500, lights on in rain | `hank-g500-lights-rain.jpg`: W463 and G 500 galleries; last scene of the garage reel |
 | DSC00377.jpeg | 2022-01-02 (added 2026-11-06) | Willys wagon (Corolla Village Inn, Corolla NC), Christmas wreath + string lights, parked | Not used yet. Saved for a holiday social post (Hank, Nov 6). Social only (parked, and Willys is outside the site's model scope). No plate visible; strip EXIF on export. |
+
+## Not photos (skip when processing)
+- boxytrucks-logo-dark.png, boxytrucks-logo-transparent.png, boxytrucks-mark-1080.png, boxytrucks-mark.svg: logo files Hank asked to keep in the photos folder (Nov 11, 2026).
