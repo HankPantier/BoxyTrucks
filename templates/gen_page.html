@@ -25,6 +25,7 @@
   <div class="jump toc-mobile" role="navigation" aria-label="On this page"><label for="toc-sel">On this page</label><select id="toc-sel" onchange="if(this.value)location.hash=this.value">
     <option value="">Jump to a section…</option>{% for grp, items in toc %}<optgroup label="{{ grp|title }}">{% for t in items %}<option value="{{ t[0] }}">{{ t[1] }}</option>{% endfor %}</optgroup>{% endfor %}{% if fam.generations|length > 1 or further %}<option value="more">Keep reading</option>{% endif %}
   </select></div>
+  {% if quick %}<section class="quick-card" aria-label="The short version"><span class="eyebrow">The short version</span><dl>{% for q in quick %}<div><dt>{{ q[0] }}</dt><dd>{{ q[1] }}{% if q[2] %} <a href="{{ q[2] if q[2].startswith('#') else root ~ q[2] }}">{{ q[3] }} →</a>{% endif %}</dd></div>{% endfor %}</dl></section>{% endif %}
   {% if tools %}<p class="sub-intro quick-mobile">For this truck: {% for t in tools %}<a class="inline-link" href="{{ root }}{{ t[1] }}">{{ t[0] }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   <div class="split">
     <div class="main">
@@ -35,10 +36,13 @@
         <header class="part-head"><span class="no">PART 01</span><h2>Overview</h2><p>Where it came from, why it matters, and how it changed year to year.</p></header>
       <section id="story" class="prose">
         <div class="eyebrow" style="margin-bottom:20px">The story</div>
+        {% set ns = namespace(n=0, open=false) %}
         {% for s in p.story %}
+          {% if ns.n >= 3 and not ns.open %}<details class="story-more"><summary>Keep reading the story</summary>{% set ns.open = true %}{% endif %}
           {% if s.heading %}<h3 class="label" style="margin:32px 0 14px">{{ s.heading }}</h3>{% endif %}
-          {% for para in s.paragraphs %}<p{% if loop.first and loop.index0 == 0 and not s.heading %} class="lead"{% endif %}>{{ para|lk }}</p>{% endfor %}
+          {% for para in s.paragraphs %}<p{% if loop.first and loop.index0 == 0 and not s.heading %} class="lead"{% endif %}>{{ para|lk }}</p>{% set ns.n = ns.n + 1 %}{% endfor %}
         {% endfor %}
+        {% if ns.open %}</details>{% endif %}
         {% if p.callout %}
         <div class="callout" style="margin-top:28px">
           <span class="eyebrow brass">{{ p.callout.label }}</span>
@@ -305,7 +309,7 @@
 
       {% set all_sources = (p.sources or []) + (x.sources or []) %}
       {% if all_sources %}
-      <section class="sources"><span class="eyebrow">Sources</span>{% for s in all_sources %}{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}<span>{{ s.name }}</span>{% endif %}{% endfor %}</section>
+      <section class="sources"><details class="src-more"><summary><span class="eyebrow">Sources ({{ all_sources|length }})</span></summary>{% for s in all_sources %}{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}<span>{{ s.name }}</span>{% endif %}{% endfor %}</details></section>
       {% endif %}
     </div>
 

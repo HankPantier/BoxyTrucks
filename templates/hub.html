@@ -14,14 +14,27 @@
   <div class="jump" role="navigation" aria-label="Jump to a model"><label for="jump-sel">Jump to a truck</label><select id="jump-sel" onchange="if(this.value)location.hash=this.value">
     <option value="">Choose a model…</option>{% for fs, items in hub.groups|groupby('fam_short') %}<optgroup label="{{ fs }}">{% for grp in items %}<option value="{{ grp.id }}">{{ grp.model }} ({{ grp.repairs|length }})</option>{% endfor %}</optgroup>{% endfor %}
   </select></div>
-  {% for grp in hub.groups %}
-  <section id="{{ grp.id }}" style="margin-bottom:56px;scroll-margin-top:96px">
-    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ grp.maker }}</span><h2>{{ grp.model }}</h2></div><a class="label" href="{{ grp.href }}" style="color:var(--ink)">Full guide →</a></div>
-    <div class="grid" style="--min:300px">{% for r in grp.repairs %}
-      <a class="card" href="{{ root }}repairs/{{ grp.fam }}/{{ grp.gen }}/{{ r.slug }}.html"><div class="body"><h3 style="font-size:21px">{{ r.title }}</h3><span class="serif" style="font-size:16px;line-height:25px;color:var(--body);flex-grow:1">{{ r.symptoms|striplk|truncate(160) }}</span><span class="mono" style="font-size:12px;letter-spacing:0.06em">DIFFICULTY {{ r.diff }} · {{ r.time }}</span></div></a>{% endfor %}
-    </div>
+  <div class="filters rep-filter" role="search"><label for="r-q">Search the repair guides<input id="r-q" type="search" placeholder="Symptom or job: death wobble, head gasket, rust, lockers"></label></div>
+  <p id="r-count" class="mono" style="font-size:12px;letter-spacing:0.1em;color:var(--stone);margin:0 0 16px" aria-live="polite"></p>
+  {% for fs, items in hub.groups|groupby('fam_short') %}
+  <h2 class="rep-fam">{{ fs }}</h2>
+  {% for grp in items %}
+  <section id="{{ grp.id }}" class="rep-sec" style="scroll-margin-top:96px">
+    <details class="rep-grp"><summary><span class="rep-model">{{ grp.model }}</span><span class="mono rep-n">{{ grp.repairs|length }} guide{{ 's' if grp.repairs|length != 1 }}</span></summary>
+    <ul class="sp-reps rep-list">{% for r in grp.repairs %}<li data-t="{{ (r.title|striplk ~ ' ' ~ (r.symptoms|striplk))|lower }}"><a href="{{ root }}repairs/{{ grp.fam }}/{{ grp.gen }}/{{ r.slug }}.html"><span>{{ r.title }}</span><span class="mono">DIFFICULTY {{ r.diff }} · {{ r.time }}</span></a></li>{% endfor %}</ul>
+    <p style="margin:10px 0 0"><a class="inline-link" href="{{ grp.href }}">The full {{ grp.model }} guide →</a></p>
+    </details>
   </section>
   {% endfor %}
+  {% endfor %}
+  <script>
+  (function(){var q=document.getElementById('r-q'),cnt=document.getElementById('r-count'),secs=[].slice.call(document.querySelectorAll('.rep-sec'));
+  function openHash(){var h=location.hash.slice(1);if(!h)return;var s=document.getElementById(h);if(s){var d=s.querySelector('details');if(d)d.open=true;}}
+  window.addEventListener('hashchange',openHash);openHash();
+  q.addEventListener('input',function(){var t=q.value.toLowerCase().trim(),n=0;secs.forEach(function(s){var hit=0;[].forEach.call(s.querySelectorAll('li'),function(li){var ok=!t||li.getAttribute('data-t').indexOf(t)>-1;li.hidden=!ok;if(ok)hit++;});s.hidden=!!t&&!hit;s.querySelector('details').open=!!t&&hit>0;n+=hit;});
+  [].forEach.call(document.querySelectorAll('.rep-fam'),function(h){var el=h.nextElementSibling,any=false;while(el&&el.classList.contains('rep-sec')){if(!el.hidden)any=true;el=el.nextElementSibling;}h.hidden=!any;});
+  cnt.textContent=t?(n+' guide'+(n===1?'':'s')+' match'):'';});})();
+  </script>
 {% elif hub.kind == 'mods' %}
   <div class="filters" role="search">
     <label for="m-q">Search<input id="m-q" type="search" placeholder="Supplier, part or category — OME, sliders, roof rack, air suspension"></label>

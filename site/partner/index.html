@@ -81,7 +81,7 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 
 <h2>Who reads it</h2>
 <p>Hands-on owners and serious shoppers of boxy 4x4s: Land Cruisers, G-Wagens, Defenders and Range Rovers, Broncos, Scouts, Jeeps, 4Runners, Grenadiers and more. They arrive from search with a specific question, such as which year to buy, how to fix a swivel-seal leak, or what fits under a stock 80 Series, and every repair guide ends with where to buy the parts. That is the moment your shop appears.</p>
-<p>The site is built and run by <a href="/about/">Hank Pantier</a>, who has owned two Jeep LJs, a 60 and an 80 Series, an FJ Cruiser, four 4Runners and a 2007 G500, and has built websites since 2001.</p>
+<p>The site is built and run by <a href="/about/">Hank</a>, who has owned two Jeep LJs, a 60 and an 80 Series, an FJ Cruiser, four 4Runners and a 2007 G500, and has built websites since 2001.</p>
 
 <h2 id="packages">Packages</h2>
 <div class="pt-grid">
@@ -167,8 +167,8 @@ document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySel
 })();
 </script>
 <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-labelledby="cb-title" hidden>
-  <div class="cb-text"><strong id="cb-title">Cookies, briefly.</strong> We use Google Analytics cookies to see which guides people read, so we know what to fix and write next. No ads, no selling your data. Your call. <a href="/about/cookies/">Cookie policy</a></div>
-  <div class="cb-btns"><button type="button" class="btn ghost-brass" data-consent="denied">No thanks</button><button type="button" class="btn light" data-consent="granted">Accept analytics</button></div>
+  <div class="cb-text"><strong id="cb-title">Cookies?</strong> Google Analytics only, to see which guides get read. No ads. <a href="/about/cookies/">Policy</a></div>
+  <div class="cb-btns"><button type="button" class="btn ghost-brass" data-consent="denied">No thanks</button><button type="button" class="btn light" data-consent="granted">Accept</button></div>
 </div>
 <script>
 (function(){var b=document.getElementById('cookie-banner');if(!b)return;
@@ -179,7 +179,8 @@ function set(v){try{localStorage.setItem('bt_consent',JSON.stringify({v:v,t:Date
   b.hidden=true;}
 b.querySelectorAll('[data-consent]').forEach(function(x){x.addEventListener('click',function(){set(x.getAttribute('data-consent'));});});
 document.querySelectorAll('[data-cookie-settings]').forEach(function(x){x.addEventListener('click',function(e){e.preventDefault();b.hidden=false;var f=b.querySelector('button');if(f)f.focus();});});
-if(!get())b.hidden=false;})();
+function eu(){try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone||'';return /^Europe\//.test(z)||/^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(z);}catch(e){return true;}}
+if(!get()&&eu())b.hidden=false;})();
 </script>
 <script>(function(){try{var c=JSON.parse(localStorage.getItem('bt_consent')||'null');if(c&&c.v==='denied')return;}catch(e){}window.vglnk={key:'b4096a51d5284fc0c947201437e7e75b'};var go=function(){var s=document.createElement('script');s.async=true;s.src='https://cdn.viglink.com/api/vglnk.js';document.body.appendChild(s);};if(window.btAfterLoad)btAfterLoad(go);else window.addEventListener('load',go);})();</script>
 <script>

@@ -245,11 +245,11 @@
   },
   {
    "title": "Front disc brake conversion (pre-1976 trucks)",
-   "diff": "3 / 5",
+   "diff": "3 / 5 (bolt-on kit); 4 / 5 (knuckle swap)",
    "time": "≈ 4 hours with a bolt-on kit",
    "cost": "Kits about $550–700; a mini-truck parts swap about $800",
-   "symptoms": "Drum brakes that pull, fade or need constant adjustment on a 1960–1975 truck.",
-   "fix": "Bolt-on kits replace the front drums with bracketed calipers and rotors: remove the hub cover, snap ring, drum and hub, fit the bracket, test-fit the rotor (Off-Road.com's install had to grind the hub slightly, only to the casting mark), refit the hub, mount the caliper, fit new lines and bleed. The DIY route on IH8MUD swaps 1979–85 Hilux/4Runner knuckles with later Land Cruiser calipers and vented rotors, but means rebuilding the knuckles and sorting tie-rod geometry.",
+   "symptoms": "Drum brakes that pull to one side, fade on long descents or need constant adjustment on a 1960–1975 FJ40, FJ45 or FJ55. Toyota fitted front discs from the 1976 model year; anything older left the factory with drums at all four corners.",
+   "fix": "Read the kit instructions and decide whether your master cylinder and booster need changing before you start. Jack up and support the front of the truck on stands, remove the wheels and back off or remove the drum brake shoes. Remove the locking hub or drive flange cover, the snap ring and the axle nuts, then pull the drum and hub together. Unbolt the backing plate and old wheel cylinder, and cap the brake line. Bolt the caliper bracket to the knuckle and torque it to the kit's figure. Test-fit the rotor on the hub. Off-Road.com's install had to grind the hub slightly to clear it; grind only to the casting mark and no further. Clean and repack the wheel bearings with new seals while the hub is off, refit the hub and rotor, and set the bearing preload as the factory manual describes. Mount the caliper and pads, then run new hard lines and flexible hoses to the calipers. Remove the residual valves from an early master cylinder and fit the proportioning valve if your kit or truck needs one. Bleed the brakes, starting at the wheel furthest from the master cylinder, and check for leaks at every fitting. Pump the pedal to seat the pads, then bed them in with a series of moderate stops from about 30 mph before you drive normally.",
    "tools": "Hub tools · grinder · flare-nut wrenches · brake bleeder · Cruiser Corps kit A151 (front, 8/1970–9/1975) or similar",
    "parts": [
     {
@@ -261,6 +261,43 @@
      "name": "DOT 3 brake fluid (1978 4.2L)",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,brake+&+wheel+hub,brake+fluid,11389"
+    }
+   ],
+   "know": [
+    "Pick a route first. A bolt-on bracket kit keeps your knuckles and is the quickest (about 4 hours). A knuckle swap with factory 1976-and-later disc parts is the most original. A 1979–85 Hilux/4Runner knuckle swap is the cheap junkyard route, and a full aftermarket knuckle kit such as Trail-Gear's adds high steer and costs the most.",
+    "Check when your truck was built. Cruiserparts.net says trucks from 1968 to June 1970 have no brake booster, so a disc conversion also needs a booster, a booster adapter and a dual-port master cylinder, and the old lines use 9 mm fittings where later Toyota parts use 10 mm.",
+    "Trucks from 1968 and earlier also have coarse-spline inner axles. For a factory knuckle swap Cruiserparts.net lists a fine-spline differential (spider gears) to take the later inner shafts.",
+    "Early master cylinders (1975 and older) hold residual pressure (about 10 psi) for the drums. IH8MUD's tech page says to remove both residual valves when you add front discs, or the calipers can drag.",
+    "Fit a proportioning valve from a disc-brake truck so the front and rear brakes stay balanced. Cruiserparts.net sells used factory valves for about $75."
+   ],
+   "mistakes": [
+    "Leaving the residual valves in an early master cylinder, which keeps the new calipers dragging and the rotors hot.",
+    "Grinding the hub past the casting mark to clear the rotor.",
+    "Mixing 9 mm and 10 mm line fittings on a pre-July-1970 truck, which leaks or strips threads.",
+    "Skipping the proportioning valve, so the front-to-rear balance is wrong under hard braking.",
+    "Reusing old bearing grease and seals when the hub is already apart."
+   ],
+   "cost_note": "Bolt-on bracket kits cost about $550–700. A factory-parts knuckle swap adds up quickly: Cruiserparts.net lists new rotors at $89 a pair, remanufactured loaded calipers at $189 a pair, a seal and bearing kit at $179, a used proportioning valve at $75 and soft lines at $19 each, on top of the knuckle kit and $100–150 shipping. A pre-July-1970 truck also needs a booster ($150 used, $399 remanufactured), an adapter ($59) and a new dual master cylinder ($179). Trail-Gear's FJ40 knuckle swap kit starts at $2,799.99 and needs welding.",
+   "refs": [
+    {
+     "name": "Off-Road.com: Disc brakes for your Toyota 4x4 Land Cruiser",
+     "url": "https://off-road.com/trucks-4x4/disc-brakes-for-your-toyota-4x4-land-cruiser-20540.html"
+    },
+    {
+     "name": "Cruiserparts.net: what you need to convert to disc brakes",
+     "url": "https://www.cruiserparts.net/parts/parts/diskbrakes.html"
+    },
+    {
+     "name": "IH8MUD tech: residual pressure valves",
+     "url": "https://www.ih8mud.com/tech/residvalve.php"
+    },
+    {
+     "name": "IH8MUD: Minitruck front axle disc brake conversion FAQ",
+     "url": "https://forum.ih8mud.com/threads/minitruck-front-axle-disc-brake-conversion-for-dummies-faq.137225/"
+    },
+    {
+     "name": "Trail-Gear FJ40 knuckle swap kit",
+     "url": "https://trail-gear.com/axles/fj40-knuckle-swap.html"
     }
    ]
   },

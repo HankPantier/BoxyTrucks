@@ -13,7 +13,12 @@
     <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>REPAIR</th><th>SYMPTOMS</th><th>DIFFICULTY</th><th>TIME</th><th>COST</th></tr></thead>
     <tbody>{% for r in p.repairs %}<tr><td data-l="REPAIR"><a class="inline-link" href="{{ root }}repairs/{{ fam.slug }}/{{ g.slug }}/{{ r.slug }}.html"><strong>{{ r.title|striplk }}</strong></a></td><td data-l="SYMPTOMS" class="note">{{ r.symptoms|striplk }}</td><td data-l="DIFFICULTY" class="mono">{{ r.diff }}</td><td data-l="TIME">{{ r.time }}</td><td data-l="COST">{{ r.cost }}</td></tr>{% endfor %}</tbody></table></div>
     <p class="sub-intro">Each repair links to a step-by-step guide with tools, part numbers and where to buy the parts.</p>
-  </section>{% endif %}
+  </section>
+  {% set folded = p.repairs|selectattr('slug','in', repair_folded(fam.slug, g.slug))|list %}
+  {% if folded %}<section id="how-to-fix"><h2 class="h-section">How to fix them</h2>
+    <p class="sub-intro">The short version of each fix, as owners and specialists describe it. Confirm specs for your VIN before you start.</p>
+    <div class="faq">{% for r in folded %}<details id="fix-{{ r.slug }}"><summary>{{ r.title|striplk }}</summary><div class="a"><p>{{ r.fix|lk }}</p>{% if r.tools %}<p class="note"><strong>Tools and parts:</strong> {{ r.tools|striplk }}</p>{% endif %}<a class="src" href="{{ root }}repairs/{{ fam.slug }}/{{ g.slug }}/{{ r.slug }}.html">Parts links and the full guide →</a></div></details>{% endfor %}</div>
+  </section>{% endif %}{% endif %}
 
   {% if flags %}<section><h2 class="h-section">Years with known problems</h2>
     <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>YEARS</th><th>FLAG</th><th>WHAT TO KNOW</th></tr></thead>

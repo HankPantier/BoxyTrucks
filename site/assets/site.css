@@ -467,7 +467,7 @@ details.svc-row[open] > summary .svc-x::before { content: '\2013'; }
 .cookie-table th, .cookie-table td { text-align: left; vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--hair); }
 .cookie-table th { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--stone); font-weight: 400; }
 .table-scroll { overflow-x: auto; }
-@media (max-width: 520px) { .cb-btns { width: 100%; flex-wrap: nowrap; } .cb-btns .btn { flex: 1; padding: 12px 8px; letter-spacing: .12em; } }
+@media (max-width: 520px) { .cookie-banner { padding: 12px 14px; gap: 10px; bottom: calc(10px + env(safe-area-inset-bottom, 0px)); } .cb-text { font-size: 13px; line-height: 19px; flex-basis: 100%; } .cb-btns { width: 100%; flex-wrap: nowrap; } .cb-btns .btn { flex: 1; padding: 9px 8px; letter-spacing: .12em; } }
 
 /* ===== header: full nav ≥1360, compact 1100–1359, hamburger <1100 ===== */
 .search-icon { display: none; color: var(--paper); padding: 8px; line-height: 0; }
@@ -673,11 +673,11 @@ html { scroll-padding-top: 90px; }
   section { break-inside: avoid-page; }
 }
 @media (max-width: 900px) {
-  .table-box:has(.sp-table:not(.sp-wide)) { border: 1px solid var(--ink); background: var(--paper); }
-  .table-box .sp-table:not(.sp-wide) tbody { display: table-row-group; }
-  .table-box .sp-table:not(.sp-wide) tr { display: table-row; border: 0; padding: 0; margin: 0; background: transparent; }
-  .table-box .sp-table:not(.sp-wide) th, .table-box .sp-table:not(.sp-wide) td { display: table-cell; padding: 10px 12px; border-bottom: 1px solid var(--hair); }
-  .table-box .sp-table:not(.sp-wide) tbody th { width: 40%; font-size: 11px; }
+  .table-box:has(.sp-table:not(.sp-wide):not(:has(thead))) { border: 1px solid var(--ink); background: var(--paper); }
+  .table-box .sp-table:not(.sp-wide):not(:has(thead)) tbody { display: table-row-group; }
+  .table-box .sp-table:not(.sp-wide):not(:has(thead)) tr { display: table-row; border: 0; padding: 0; margin: 0; background: transparent; }
+  .table-box .sp-table:not(.sp-wide):not(:has(thead)) th, .table-box .sp-table:not(.sp-wide):not(:has(thead)) td { display: table-cell; padding: 10px 12px; border-bottom: 1px solid var(--hair); }
+  .table-box .sp-table:not(.sp-wide):not(:has(thead)) tbody th { width: 40%; font-size: 11px; }
 }
 
 /* recall tracker */
@@ -1018,3 +1018,53 @@ main section[id] { content-visibility: auto; contain-intrinsic-size: auto 900px;
 .split-sum-p{margin:0;font-size:17px}
 .split-more{margin:4px 0 0}
 .checks-short li{padding-top:10px;padding-bottom:10px}
+
+/* ===== photo in the years / tires / problems page header (Nov 10, 2026) ===== */
+.sub-head-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+.sub-hero { margin: 0; min-width: 0; }
+.sub-hero img { display: block; width: 100%; max-width: 100%; aspect-ratio: 3 / 2; height: auto; object-fit: cover; border: 1px solid rgba(201,162,74,.45); }
+.sub-hero figcaption { margin-top: 8px; font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: #A8A396; }
+.sub-hero figcaption a { color: inherit; }
+@media (max-width: 900px) {
+  .sub-head-grid { grid-template-columns: 1fr; gap: 24px; }
+  .sub-hero img { aspect-ratio: 2 / 1; }
+}
+
+/* ===== guide pages: short version card, collapsible story and sources (Nov 10, 2026) ===== */
+.quick-card { border: 1px solid var(--ink); border-left: 4px solid var(--brass); background: var(--paper); padding: 18px 20px; margin: 0 0 36px; }
+.quick-card dl { margin: 10px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px 28px; }
+.quick-card dl > div { min-width: 0; }
+.quick-card dt { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--stone); }
+.quick-card dd { margin: 4px 0 0; font-size: 17px; line-height: 24px; font-weight: 600; }
+.quick-card dd a { display: block; font-size: 13px; font-weight: 400; color: #8A6A1F; }
+.quick-card + .quick-mobile { display: none !important; }
+.story-more > summary, .src-more > summary { cursor: pointer; list-style: none; }
+.story-more > summary::-webkit-details-marker, .src-more > summary::-webkit-details-marker { display: none; }
+.story-more > summary { display: inline-block; margin: 8px 0 4px; padding: 12px 18px; border: 1px solid var(--ink); font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+.story-more > summary::after { content: " ↓"; }
+.story-more[open] > summary { display: none; }
+.src-more { display: flex; flex-direction: column; gap: 6px; }
+.src-more > summary::after { content: " ↓ show"; font-family: var(--mono); font-size: 11px; color: var(--stone); }
+.src-more[open] > summary::after { content: " ↑ hide"; }
+.src-more a, .src-more span:not(.eyebrow) { display: block; margin-top: 6px; }
+
+/* ===== home page, shorter (Nov 10, 2026) ===== */
+.fam-more { margin-top: 28px; display: flex; flex-direction: column; gap: 12px; }
+@media (max-width: 640px) {
+  .fam-card img, .fam-card .ph-mark { height: 190px !important; }
+  .fam-card .chips { display: none; }
+  .rig-img { height: 260px !important; flex-basis: 100% !important; }
+}
+
+/* ===== repairs index: grouped, collapsed, searchable (Nov 10, 2026) ===== */
+.rep-filter { margin-bottom: 8px; }
+.rep-fam { font-size: 28px; margin: 36px 0 8px; padding-bottom: 8px; border-bottom: 1px solid var(--ink); }
+.rep-sec { border-bottom: 1px solid var(--hair); }
+.rep-grp > summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 14px 0; }
+.rep-grp > summary::-webkit-details-marker { display: none; }
+.rep-model { font-size: 19px; font-weight: 600; }
+.rep-model::before { content: "+ "; color: #8A6A1F; font-family: var(--mono); }
+.rep-grp[open] .rep-model::before { content: "− "; }
+.rep-n { font-size: 11px; letter-spacing: .1em; color: var(--stone); white-space: nowrap; }
+.rep-grp[open] { padding-bottom: 18px; }
+.rp-know { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; font-size: 17px; line-height: 27px; }

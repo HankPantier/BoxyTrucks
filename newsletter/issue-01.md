@@ -41,7 +41,7 @@ Next month's rig could be yours. Send a few photos of it off-road and a line on 
 See you next month,
 Hank
 
-Hank Pantier, BoxyTrucks
+Hank, BoxyTrucks
 Upstate South Carolina
 
 ---
