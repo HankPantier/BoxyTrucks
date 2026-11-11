@@ -665,49 +665,49 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "MB sheet 229-approved oil · capacity [CONFIRM IN MANUAL]",
+    "spec": "MB sheet 229-approved oil · capacity (check your manual)",
     "interval": "Now, then yearly",
     "note": "M117 5.0 V8. Change it before any long drive on a stored car, and check for leaks once warm.",
     "parts": []
    },
    {
     "item": "Air filter",
-    "spec": "M117 element [CONFIRM IN MANUAL]",
+    "spec": "M117 element (check your manual)",
     "interval": "Now",
     "note": "Check the airbox for nests on a stored truck.",
     "parts": []
    },
    {
     "item": "Spark plugs & ignition",
-    "spec": "8 plugs (one per cylinder) [CONFIRM IN MANUAL]",
+    "spec": "8 plugs (one per cylinder) (check your manual)",
     "interval": "Now if no record",
     "note": "Inspect the leads, cap and rotor if fitted.",
     "parts": []
    },
    {
     "item": "Coolant & hoses",
-    "spec": "MB 325.0-approved coolant, 50/50 with distilled water · capacity [CONFIRM IN MANUAL]",
+    "spec": "MB 325.0-approved coolant, 50/50 with distilled water · capacity (check your manual)",
     "interval": "Now",
     "note": "Replace any hard or swollen hoses; a stored car's hoses age faster than its odometer suggests.",
     "parts": []
    },
    {
     "item": "Automatic transmission (4-speed)",
-    "spec": "ATF to the MB 236.x sheet for this gearbox [CONFIRM IN MANUAL]",
+    "spec": "ATF to the MB 236.x sheet for this gearbox (check your manual)",
     "interval": "Now",
     "note": "Drain-and-fill with a new filter and pan gasket; check the shift quality cold and hot afterwards.",
     "parts": []
    },
    {
     "item": "Transfer case",
-    "spec": "GL-4 gear oil on period W463 cases · ≈3 qt (1997 G 320 owner) [CONFIRM IN MANUAL]",
+    "spec": "GL-4 gear oil on period W463 cases · ≈3 qt (1997 G 320 owner) (check your manual)",
     "interval": "Now, then every 60,000 mi (MB interval quoted by owners)",
     "note": "Fill plug on the front right, drain underneath (14 mm hex). Don't fill it with GL-5 diff oil.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90) · front ≈1.4 L, rear ≈1.8 L (W463 owner data) [CONFIRM IN MANUAL]",
+    "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90) · front ≈1.4 L, rear ≈1.8 L (W463 owner data) (check your manual)",
     "interval": "Now",
     "note": "The 500 GE has centre and rear locks only — test both on loose ground afterwards.",
     "parts": [

@@ -8,10 +8,10 @@
   ],
   "wheel": {
    "bolt_pattern": "5x127 (5x5\")",
-   "offset": "[CONFIRM IN MANUAL] — factory offsets not verified from a manufacturer or supplier source",
+   "offset": "check your manual — factory offsets not verified from a manufacturer or supplier source",
    "center_bore": "71.5 mm",
    "lug_thread": "M14x1.5",
-   "lug_torque": "130 lb-ft (176 N·m), 22 mm socket (Northridge4x4, owner's-manual figure); spare [CONFIRM IN MANUAL]"
+   "lug_torque": "130 lb-ft (176 N·m), 22 mm socket (Northridge4x4, owner's-manual figure); spare (check your manual)"
   },
   "max_tire": [
    {
@@ -222,7 +222,7 @@
   {
    "k": "Turning circle",
    "v": "34.5 ft (10.5 m)",
-   "note": "curb to curb [CONFIRM IN MANUAL]"
+   "note": "curb to curb (check your manual)"
   },
   {
    "k": "Wheelbase",

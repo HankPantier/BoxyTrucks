@@ -1179,7 +1179,7 @@
     {
      "item": "Spark plugs, wires & coils",
      "spec": "16 plugs (M113 runs two per cylinder) · Bosch FR8DPP33",
-     "interval": "Now if no record; then per the maintenance booklet [CONFIRM IN MANUAL]",
+     "interval": "Now if no record; then per the maintenance booklet (check your manual)",
      "note": "Oil in the plug wells means valve-cover gaskets — fix those first, then fit plugs, wires and any oil-soaked coil boots.",
      "parts": [
       {
@@ -1201,7 +1201,7 @@
     },
     {
      "item": "Coolant & thermostat",
-     "spec": "MB 325.0-approved coolant (blue) mixed 50/50 with distilled water · ≈12.7 US qt (≈12 L) per AMSOIL [CONFIRM IN MANUAL]",
+     "spec": "MB 325.0-approved coolant (blue) mixed 50/50 with distilled water · ≈12.7 US qt (≈12 L) per AMSOIL (check your manual)",
      "interval": "Now if history is unknown",
      "note": "Bleed carefully; replace the thermostat and any soft or swollen hoses while the system is drained.",
      "parts": [
@@ -1232,7 +1232,7 @@
     },
     {
      "item": "Transfer case",
-     "spec": "Check the tag: many W463 cases take MB 236.14 ATF; earlier cases ran GL-4 gear oil [CONFIRM IN MANUAL]",
+     "spec": "Check the tag: many W463 cases take MB 236.14 ATF; earlier cases ran GL-4 gear oil (check your manual)",
      "interval": "Now, then every 60,000 mi (MB interval quoted by owners)",
      "note": "Fill plug on the front right, drain plug underneath with a small magnet; both are 14 mm hex. Inspect the propshaft flex discs (in pairs) and the centre support bearing while you're under it.",
      "parts": [
@@ -1250,7 +1250,7 @@
     },
     {
      "item": "Front & rear differentials",
-     "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 is common) · front ≈1.4 L (3 pt), rear ≈1.8 L (3.8 pt) per AMSOIL [CONFIRM IN MANUAL]",
+     "spec": "GL-5 hypoid gear oil (MB 235.0, 85W-90; synthetic 75W-90 is common) · front ≈1.4 L (3 pt), rear ≈1.8 L (3.8 pt) per AMSOIL (check your manual)",
      "interval": "Now, then with the transfer case",
      "note": "Crack the upper fill plug before you pull the drain (14 mm hex; owners torque the drain to 60 Nm). Afterwards test each lock one at a time on loose ground — the dash lamp should go from flashing to solid.",
      "parts": [
@@ -1311,7 +1311,7 @@
      "item": "Brake fluid",
      "spec": "DOT 4 Plus (MB sheet 331.0)",
      "interval": "Now, then every 2 years",
-     "note": "Owners bleed the hydraulic diff-lock lines with the same fluid when they do the brakes [CONFIRM IN MANUAL].",
+     "note": "Owners bleed the hydraulic diff-lock lines with the same fluid when they do the brakes (check your manual).",
      "parts": [
       {
        "name": "Genuine Mercedes DOT 4 Plus brake fluid, 1 L",
@@ -1347,7 +1347,7 @@
     {
      "item": "Fuel filter",
      "spec": "Inline filter 002 477 30 01",
-     "interval": "Now if no record [CONFIRM IN MANUAL]",
+     "interval": "Now if no record (check your manual)",
      "note": "Depressurise the system first and catch the fuel; fit new clamps.",
      "parts": [
       {

@@ -788,7 +788,7 @@
    },
    {
     "item": "Ignition tune-up",
-    "spec": "Plugs, cap, rotor & wires · gap [CONFIRM IN MANUAL]",
+    "spec": "Plugs, cap, rotor & wires · gap (check your manual)",
     "interval": "Baseline now",
     "note": "Corsetti's first check for a stumbling FJ60 is a loose or broken vacuum hose or wiring connection, so do ignition and vacuum before the carb.",
     "parts": [
@@ -816,7 +816,7 @@
    },
    {
     "item": "Valve lash",
-    "spec": "Adjustable rockers · clearances [CONFIRM IN MANUAL]",
+    "spec": "Adjustable rockers · clearances (check your manual)",
     "interval": "Check now; then periodically",
     "note": "Like every F-series engine, the 2F wants periodic valve adjustments (Hagerty's FJ55 guide says the same of the F and 2F).",
     "parts": [
@@ -852,7 +852,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "API GL-4/GL-5, SAE 90 · H41 4-speed 3.5 L (H42 [CONFIRM IN MANUAL]) · H55F 5-speed (swapped) 4.9 L",
+    "spec": "API GL-4/GL-5, SAE 90 · H41 4-speed 3.5 L (H42 (check your manual)) · H55F 5-speed (swapped) 4.9 L",
     "interval": "Baseline now",
     "note": "H55F swap guides call for the fifth-gear oiler to be fitted; confirm it's there.",
     "parts": [

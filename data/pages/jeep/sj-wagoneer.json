@@ -399,7 +399,7 @@
    "cost": "$500–1,000 at a shop (Hagerty, 360 V8)",
    "symptoms": "Oil dripping where the engine meets the transmission, with nothing wet above it.",
    "fix": "Rule out the valve covers, intake and oil-pressure sender first, because oil runs back to the bellhousing. Drain the oil and drop the pan; on a full-size Jeep the front axle and crossmember make this the hard part. Remove the rear main cap, roll out both seal halves, fit the new seal, refit the cap to factory torque, and refit the pan with a new gasket.",
-   "tools": "Floor jack and stands · engine support · torque wrench · seal pick · RTV per seal instructions · factory manual for torque specs [CONFIRM IN MANUAL]",
+   "tools": "Floor jack and stands · engine support · torque wrench · seal pick · RTV per seal instructions · factory manual for torque specs (check your manual)",
    "parts": [
     {
      "name": "Rear main crankshaft oil seal, V8-360/401 1974–1991",
@@ -424,7 +424,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "AMC 258 I6 or 360/401 V8 · grade and capacity [CONFIRM IN MANUAL]",
+    "spec": "AMC 258 I6 or 360/401 V8 · grade and capacity (check your manual)",
     "interval": "Baseline now; then per your owner's manual",
     "note": "Filters are listed by engine and year: 4.2 L 1974–80 and 1981–86, V8 1974–83.",
     "parts": [
@@ -470,7 +470,7 @@
    },
    {
     "item": "Spark plugs, wires, cap & rotor",
-    "spec": "Gap per underhood label [CONFIRM IN MANUAL]",
+    "spec": "Gap per underhood label (check your manual)",
     "interval": "Baseline now",
     "note": "A full tune-up is the cheapest drivability fix before you blame the carburetor.",
     "parts": [
@@ -498,7 +498,7 @@
    },
    {
     "item": "Coolant, thermostat & hoses",
-    "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Coolant type and capacity (check your manual)",
     "interval": "Flush and refill now",
     "note": "Replace the thermostat, gasket and radiator hoses together on a truck with no records.",
     "parts": [
@@ -516,7 +516,7 @@
    },
    {
     "item": "Automatic transmission (TH400 or 727)",
-    "spec": "ATF · pan drop with new filter [CONFIRM CAPACITY IN MANUAL]",
+    "spec": "ATF · pan drop with new filter (confirm capacity in your manual)",
     "interval": "Baseline now",
     "note": "1974–79 automatics are GM TH400s; from 1980 it's the TorqueFlite 727. The filter kit listed fits the 727.",
     "parts": [
@@ -565,7 +565,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "75W-90 gear oil · add limited-slip additive for a Trac-Lok · capacities [CONFIRM IN MANUAL]",
+    "spec": "75W-90 gear oil · add limited-slip additive for a Trac-Lok · capacities (check your manual)",
     "interval": "Baseline now",
     "note": "Dana 44 front; Dana 44 or AMC 20 rear depending on year. Team Grand Wagoneer's Dana 44 kit is 2 quarts of 75W-90 plus additive.",
     "parts": [
@@ -642,7 +642,7 @@
    },
    {
     "item": "Brake fluid, pads & lines",
-    "spec": "Fluid type per the master-cylinder cap [CONFIRM IN MANUAL]",
+    "spec": "Fluid type per the master-cylinder cap (check your manual)",
     "interval": "Flush now; then every 2 years",
     "note": "Confirm whether an early Cherokee has front discs or drums before ordering pads.",
     "parts": [

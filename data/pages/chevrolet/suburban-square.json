@@ -632,8 +632,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Grade and capacity [CONFIRM IN MANUAL] · the 6.2 diesel takes a diesel-rated oil and more of it",
-    "interval": "Now, then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "spec": "Grade and capacity (check your manual) · the 6.2 diesel takes a diesel-rated oil and more of it",
+    "interval": "Now, then every 3,000–5,000 mi (check your manual)",
     "note": "Check for leaks at the rear main seal and oil pan.",
     "parts": [
      {
@@ -658,7 +658,7 @@
    },
    {
     "item": "Coolant, hoses, radiator & fan clutch",
-    "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Coolant type and capacity (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "Towing and big tires load the cooling system. On a 6.2, check the harmonic balancer while the front of the engine is accessible (Wikipedia lists balancer-related crank failures).",
     "parts": [
@@ -671,7 +671,7 @@
    },
    {
     "item": "Automatic transmission fluid & filter",
-    "spec": "TH350 / TH400 / 700R4 / 4L80-E [CONFIRM IN MANUAL]",
+    "spec": "TH350 / TH400 / 700R4 / 4L80-E (check your manual)",
     "interval": "Pan drop and filter now",
     "note": "Recall 93V016 added a longer transmission vent hose to 1988–91 trucks after heat pushed fluid out of the vent. Check yours has it.",
     "parts": [
@@ -697,7 +697,7 @@
    },
    {
     "item": "Front & rear differential oil",
-    "spec": "Gear oil grade [CONFIRM IN MANUAL]",
+    "spec": "Gear oil grade (check your manual)",
     "interval": "Now, and after deep water",
     "note": "Many trucks have the G80 automatic locking rear differential, which locks itself below about 20 mph when a wheel slips (Wikipedia). Don't mistake its clunk for a failure.",
     "parts": [
@@ -728,7 +728,7 @@
    },
    {
     "item": "Brake fluid, lines, rotors & hoses",
-    "spec": "DOT 3 [CONFIRM IN MANUAL]",
+    "spec": "DOT 3 (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "Recall 93V119 replaced front rotors on 1988–91 Chevrolets, because road salt could separate the steel hat from the cast outer section. Inspect the rotors on salt-belt trucks.",
     "parts": [

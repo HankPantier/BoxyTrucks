@@ -699,7 +699,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Diesel-rated oil [CONFIRM GRADE & CAPACITY IN MANUAL] · SD33 changed from a paper cartridge to a spin-on filter at the 1983 update (Wikipedia)",
+    "spec": "Diesel-rated oil (confirm grade & capacity in your manual) · SD33 changed from a paper cartridge to a spin-on filter at the 1983 update (Wikipedia)",
     "interval": "Baseline now",
     "note": "Check which filter your engine takes before you go shopping. Turbo SD33Ts have piston oil squirters and a bigger oil cooler, which makes clean oil even more important.",
     "parts": [
@@ -712,7 +712,7 @@
    },
    {
     "item": "Fuel filter & water trap (diesel)",
-    "spec": "Engine-bay fuel filter [CONFIRM PART BY ENGINE]",
+    "spec": "Engine-bay fuel filter (confirm part by engine)",
     "interval": "Replace now",
     "note": "Old diesel and water kill injection pumps. Drain the trap and replace the element before chasing poor running.",
     "parts": [
@@ -764,7 +764,7 @@
    },
    {
     "item": "Manual gearbox & transfer case",
-    "spec": "Gear oil [CONFIRM GRADE & CAPACITY IN MANUAL]",
+    "spec": "Gear oil (confirm grade & capacity in your manual)",
     "interval": "Baseline now",
     "note": "Crack the fill plug before the drain plug. Members warn seized plugs are common. The gearbox and transfer case breathers are linked by a tube on some MQs.",
     "parts": [
@@ -777,7 +777,7 @@
    },
    {
     "item": "Front differential (C200) & rear (H233 / H260)",
-    "spec": "Hypoid gear oil; LSD-rated oil if the rear has a limited-slip diff [CONFIRM IN MANUAL]",
+    "spec": "Hypoid gear oil; LSD-rated oil if the rear has a limited-slip diff (check your manual)",
     "interval": "Baseline now",
     "note": "LSD was standard in Australia by 1985. Note the ratio plate on the driver's-side inner guard while you're there.",
     "parts": [
@@ -816,7 +816,7 @@
    },
    {
     "item": "Brake fluid & hydraulics",
-    "spec": "Fluid per the master-cylinder cap [CONFIRM IN MANUAL]",
+    "spec": "Fluid per the master-cylinder cap (check your manual)",
     "interval": "Flush now",
     "note": "Front ventilated discs and rear drums. Check the flexible hoses and rear wheel cylinders on a truck that has sat.",
     "parts": [

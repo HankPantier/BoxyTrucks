@@ -419,7 +419,7 @@
   },
   {
    "q": "What fluids does it take?",
-   "a": "ExtremeTerrain's CJ chart lists 5W-30 or 10W-30 oil (6 qt for the 4.2, 5 qt for the 304, 4 qt for the 2.5), 80W-90 gear oil in the Dana 30 (1.25 qt), AMC 20 (2.4 qt) and Dana 300 (2 qt), with limited-slip additive for Trac-Lok axles. Brakes take DOT 3. For pre-AMC trucks, a BITOG thread starter summarizes the original 1955 recommendation as GL-4 in the transmission and transfer case [CONFIRM IN MANUAL].",
+   "a": "ExtremeTerrain's CJ chart lists 5W-30 or 10W-30 oil (6 qt for the 4.2, 5 qt for the 304, 4 qt for the 2.5), 80W-90 gear oil in the Dana 30 (1.25 qt), AMC 20 (2.4 qt) and Dana 300 (2 qt), with limited-slip additive for Trac-Lok axles. Brakes take DOT 3. For pre-AMC trucks, a BITOG thread starter summarizes the original 1955 recommendation as GL-4 in the transmission and transfer case (check your manual).",
    "src": "EXTREMETERRAIN · BITOG"
   },
   {
@@ -801,7 +801,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "5W-30 or 10W-30 · 4.2 L six: 6 qt · 5.0 L 304: 5 qt · 2.5 L four: 4 qt · F134 / V6 [CONFIRM IN MANUAL]",
+    "spec": "5W-30 or 10W-30 · 4.2 L six: 6 qt · 5.0 L 304: 5 qt · 2.5 L four: 4 qt · F134 / V6 (check your manual)",
     "interval": "Baseline now; then per your owner's manual",
     "note": "These are flat-tappet engines. New drain-plug washer every time.",
     "parts": [
@@ -847,7 +847,7 @@
    },
    {
     "item": "Ignition tune-up",
-    "spec": "Plugs, cap, rotor, wires; points and condenser on pre-electronic trucks · gaps and timing [CONFIRM IN MANUAL]",
+    "spec": "Plugs, cap, rotor, wires; points and condenser on pre-electronic trucks · gaps and timing (check your manual)",
     "interval": "Baseline now",
     "note": "Hagerty calls ignition the CJ's weak point. The AMC six fires 1-5-3-6-2-4.",
     "parts": [
@@ -921,7 +921,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "80W-90 · T-18: 3.25 qt · T-150: 1.4 qt · SR-4: 1.5 qt · T-176: [CONFIRM IN MANUAL] · T-90 / T-14: GL-4 (1955 manual) [CONFIRM CAPACITY]",
+    "spec": "80W-90 · T-18: 3.25 qt · T-150: 1.4 qt · SR-4: 1.5 qt · T-176: (check your manual) · T-90 / T-14: GL-4 (1955 manual) (confirm capacity)",
     "interval": "Baseline now",
     "note": "ExtremeTerrain's T-176 figure (3.5 qt / 1.7 L) contradicts itself, so check the manual. On T-14/Dana 18 trucks, oil can migrate from the gearbox into the transfer case, so check both levels.",
     "parts": [
@@ -934,7 +934,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "80W-90 · Dana 300: 2 qt · Dana 20: 1.6 qt · Dana 18: GL-4 [CONFIRM CAPACITY]",
+    "spec": "80W-90 · Dana 300: 2 qt · Dana 20: 1.6 qt · Dana 18: GL-4 (confirm capacity)",
     "interval": "Baseline now",
     "note": "All CJ-5 transfer cases are gear-driven. Leaks at the output seals are common and cheap to fix.",
     "parts": [
@@ -957,7 +957,7 @@
    },
    {
     "item": "Front differential",
-    "spec": "80W-90 · Dana 30: 1.25 qt · pre-1972 front axle [CONFIRM IN MANUAL]",
+    "spec": "80W-90 · Dana 30: 1.25 qt · pre-1972 front axle (check your manual)",
     "interval": "Baseline now",
     "note": "ExtremeTerrain suggests 75W-140 for towing or extreme use.",
     "parts": [
@@ -993,7 +993,7 @@
    },
    {
     "item": "Front wheel bearings & hubs",
-    "spec": "Repack and adjust · preload [CONFIRM IN MANUAL]",
+    "spec": "Repack and adjust · preload (check your manual)",
     "interval": "Baseline now; then after deep water crossings",
     "note": "Inspect the manual locking hubs while they're apart. Later trucks use five-bolt hubs, earlier ones six-bolt; Offroaders.com dates the change to 1981, Wikipedia to 1980, so count the bolts.",
     "parts": [

@@ -713,7 +713,7 @@
    },
    {
     "q": "What fluids and capacities does it take?",
-    "a": "Rough Trax 4x4's FZJ80 data lists 7.4 L of engine oil with the filter, 13 L of coolant, 1.4 L in the transfer case, 2.7–2.8 L in the front diff, 3.0–3.25 L in the rear diff, and 6.0 L for an automatic sump drain. A Toyota-sourced table compiled on IH8MUD gives 1.7 L for the HF2AV transfer case and only 1.9 L for an A343F drain-and-refill, so the transmission figure in particular is [CONFIRM IN MANUAL]. Figures vary by market and equipment.",
+    "a": "Rough Trax 4x4's FZJ80 data lists 7.4 L of engine oil with the filter, 13 L of coolant, 1.4 L in the transfer case, 2.7–2.8 L in the front diff, 3.0–3.25 L in the rear diff, and 6.0 L for an automatic sump drain. A Toyota-sourced table compiled on IH8MUD gives 1.7 L for the HF2AV transfer case and only 1.9 L for an A343F drain-and-refill, so the transmission figure in particular is (check your manual). Figures vary by market and equipment.",
     "src": "ROUGH TRAX 4X4 · IH8MUD"
    },
    {
@@ -1166,7 +1166,7 @@
     },
     {
      "item": "Spark plugs, cap, rotor & wires",
-     "spec": "FZJ80: Denso/OEM plugs · FJ80: NGK · gap [CONFIRM IN MANUAL]",
+     "spec": "FZJ80: Denso/OEM plugs · FJ80: NGK · gap (check your manual)",
      "interval": "Baseline now if no records",
      "note": "Both engines are distributor-fired, so do cap, rotor and plug wires at the same time.",
      "parts": [
@@ -1217,9 +1217,9 @@
     },
     {
      "item": "Automatic transmission fluid",
-     "spec": "ATF Dexron II spec (Dexron III / Valvoline MaxLife used as backward-compatible substitutes) · FJ80 (A440F): 6 L drain-and-refill, 15.4 L dry · FZJ80 (A343F): Toyota table on IH8MUD says 1.9 L drain-and-refill, Rough Trax says 6.0 L [CONFIRM IN MANUAL]",
+     "spec": "ATF Dexron II spec (Dexron III / Valvoline MaxLife used as backward-compatible substitutes) · FJ80 (A440F): 6 L drain-and-refill, 15.4 L dry · FZJ80 (A343F): Toyota table on IH8MUD says 1.9 L drain-and-refill, Rough Trax says 6.0 L (check your manual)",
      "interval": "Baseline now with 2–3 drain-and-fills or a cooler-line exchange",
-     "note": "A pan drain only replaces a fraction of the fluid. FZJ80 drain-and-refill quantity [CONFIRM IN MANUAL]; Timmy the Toolman buys three gallons for a full cooler-line flush and torques the drain plug (gasket 12157-10010) to 20 ft-lb. Avoid a pressure-machine flush on a high-mileage unit with unknown history.",
+     "note": "A pan drain only replaces a fraction of the fluid. FZJ80 drain-and-refill quantity (check your manual); Timmy the Toolman buys three gallons for a full cooler-line flush and torques the drain plug (gasket 12157-10010) to 20 ft-lb. Avoid a pressure-machine flush on a high-mileage unit with unknown history.",
      "parts": [
       {
        "name": "Automatic transmission fluid & filters (1995 4.5L)",

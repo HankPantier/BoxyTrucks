@@ -764,8 +764,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Full-synthetic diesel oil, e.g. Rotella T6 5W-40 or Mobil 1 0W-40 (owner and rebuilder picks) · capacity [CONFIRM IN MANUAL]",
-    "interval": "[CONFIRM IN MANUAL]",
+    "spec": "Full-synthetic diesel oil, e.g. Rotella T6 5W-40 or Mobil 1 0W-40 (owner and rebuilder picks) · capacity (check your manual)",
+    "interval": "check your manual",
     "note": "Filter: Mann W 950/4 (VW 075 115 561); NAPA 1773 for US 718s. One owner used 7.8 L of 5W-40 in a 2006 718 with the 2.5 TDI.",
     "parts": [
      {
@@ -791,7 +791,7 @@
    {
     "item": "Fuel filter & water separator",
     "spec": "Mann WK 842/2 (VW 191 127 401C) on most trucks; NAPA 3472 spin-on for US 718s",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "check your manual",
     "note": "One owner says there are four fuel filter types plus water separators, so match the one fitted.",
     "parts": [
      {
@@ -804,7 +804,7 @@
    {
     "item": "Timing belt, tensioner & water pump",
     "spec": "Belt-driven SOHC D24T",
-    "interval": "Replace if there's no record; interval [CONFIRM IN MANUAL]",
+    "interval": "Replace if there's no record; interval (check your manual)",
     "note": "See the repair above.",
     "parts": [
      {
@@ -816,7 +816,7 @@
    },
    {
     "item": "Coolant & hoses",
-    "spec": "Coolant type [CONFIRM IN MANUAL]",
+    "spec": "Coolant type (check your manual)",
     "interval": "Flush and refill on purchase",
     "note": "One owner assumes traditional IAT coolant because the radiator is brass and solder; confirm before filling. Bleed thoroughly, because the early trucks run hot.",
     "parts": [
@@ -829,7 +829,7 @@
    },
    {
     "item": "Automatic transmission (ZF 4HP22)",
-    "spec": "7.0 L including filter (TD manual, as quoted on Real 4x4s) · fluid type [CONFIRM IN MANUAL]",
+    "spec": "7.0 L including filter (TD manual, as quoted on Real 4x4s) · fluid type (check your manual)",
     "interval": "Change regularly; check the level correctly",
     "note": "Check that the breather at the top rear of the box is connected.",
     "parts": [
@@ -843,13 +843,13 @@
    {
     "item": "Manual gearbox",
     "spec": "2.0 L (TD manual, per an owner) · Redline MT-90 is the forum standard",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "check your manual",
     "note": "Only on manual-box trucks.",
     "parts": []
    },
    {
     "item": "Transfer case & differentials",
-    "spec": "Oil type [CONFIRM IN MANUAL]",
+    "spec": "Oil type (check your manual)",
     "interval": "Drain and refill on purchase",
     "note": "Each has two plugs: fill until oil runs out of the lower plug, or you'll overfill it. Oil can migrate between units through the shared breather on the central tube, so check every level.",
     "parts": [
@@ -875,7 +875,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Type [CONFIRM IN MANUAL]",
+    "spec": "Type (check your manual)",
     "interval": "Flush on purchase",
     "note": "Inspect the calipers for pitted pistons while you bleed.",
     "parts": [

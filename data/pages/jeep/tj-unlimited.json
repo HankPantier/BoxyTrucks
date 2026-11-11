@@ -677,7 +677,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "SAE 10W-30 · 6 qt with filter (4.0 L)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Look at the oil-filter adapter gasket and the rear main seal while you're under there: both are common 4.0 leak points.",
     "parts": [
      {
@@ -704,7 +704,7 @@
     "item": "Engine air filter",
     "spec": "Factory airbox element",
     "interval": "Inspect at every oil change; more often on dusty trails",
-    "note": "[CONFIRM part fitment for your intake]",
+    "note": "(confirm part fitment for your intake)",
     "parts": [
      {
       "name": "TJ replacement air filters",
@@ -716,7 +716,7 @@
    {
     "item": "Spark plugs",
     "spec": "6 plugs (Crown 56041402AB listed for 1999–06 TJ & Unlimited)",
-    "interval": "Replace now if there's no record [CONFIRM IN MANUAL]",
+    "interval": "Replace now if there's no record (check your manual)",
     "note": "Check the plug wires and coil while you're there.",
     "parts": [
      {
@@ -728,7 +728,7 @@
    },
    {
     "item": "Coolant, thermostat & hoses",
-    "spec": "10.5 qt (4.0 L); coolant type per the cap/manual [CONFIRM IN MANUAL]",
+    "spec": "10.5 qt (4.0 L); coolant type per the cap/manual (check your manual)",
     "interval": "Flush now; replace the thermostat and hoses if they're original",
     "note": "Inspect the radiator's plastic end tanks for seepage at the upper seams, a known 100k-mile failure.",
     "parts": [
@@ -777,7 +777,7 @@
    },
    {
     "item": "Manual transmission (NSG370)",
-    "spec": "3.17 pints; Mopar Manual Transmission Lubricant (as specified for the NSG370) [CONFIRM IN MANUAL]",
+    "spec": "3.17 pints; Mopar Manual Transmission Lubricant (as specified for the NSG370) (check your manual)",
     "interval": "Change now if there's no record",
     "note": "The NSG370 uses a hydraulic clutch with a dual-mass flywheel. Check the clutch fluid (DOT 3) too.",
     "parts": [
@@ -840,7 +840,7 @@
    {
     "item": "Brake & clutch fluid",
     "spec": "DOT 3",
-    "interval": "Flush now, then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now, then every 2–3 years (check your manual)",
     "note": "Manual LJs share the brake fluid type in the clutch hydraulics.",
     "parts": [
      {

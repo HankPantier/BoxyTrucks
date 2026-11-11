@@ -393,7 +393,7 @@
   },
   {
    "q": "What coolant does it take?",
-   "a": "Quadratec's factory-based chart gives about 9 qt for the four-cylinders and 10.5 qt for the 4.0, mixed 50/50. Owners commonly report a change from conventional green coolant to Mopar's HOAT type around 2001, but we couldn't confirm the exact changeover from a primary source, so check the label on the overflow bottle and the owner's manual [CONFIRM IN MANUAL]. Don't mix types.",
+   "a": "Quadratec's factory-based chart gives about 9 qt for the four-cylinders and 10.5 qt for the 4.0, mixed 50/50. Owners commonly report a change from conventional green coolant to Mopar's HOAT type around 2001, but we couldn't confirm the exact changeover from a primary source, so check the label on the overflow bottle and the owner's manual (check your manual). Don't mix types.",
    "src": "QUADRATEC · OWNER'S MANUAL"
   },
   {
@@ -882,7 +882,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "ExtremeTerrain's engine tables give 27 ft-lb for the 4.0 and 2.5 and 250 in-lb for the 2.4, but its ignition table says 30 ft-lb for all engines [CONFIRM IN MANUAL]",
+    "spec": "ExtremeTerrain's engine tables give 27 ft-lb for the 4.0 and 2.5 and 250 in-lb for the 2.4, but its ignition table says 30 ft-lb for all engines (check your manual)",
     "interval": "Every 30,000 mi (Haynes)",
     "note": "Haynes lists inspecting the plug wires, cap and rotor on 2003-and-earlier models (the 1997–99 4.0 and the 2.5 have a distributor).",
     "parts": [
@@ -895,7 +895,7 @@
    },
    {
     "item": "Coolant & radiator",
-    "spec": "≈9 qt (2.4, 2.5), 10.5 qt (4.0), 50/50 (Quadratec chart) · coolant type: conventional vs Mopar HOAT changed around 2001 [CONFIRM IN MANUAL]",
+    "spec": "≈9 qt (2.4, 2.5), 10.5 qt (4.0), 50/50 (Quadratec chart) · coolant type: conventional vs Mopar HOAT changed around 2001 (check your manual)",
     "interval": "Every 30,000 mi or 24 months (Haynes)",
     "note": "Inspect the plastic radiator end tanks for seam leaks. Quadratec says they often start around 100,000 miles.",
     "parts": [
@@ -913,7 +913,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "AX-5/AX-15: 75W-90 GL-3 or GL-4 (ExtremeTerrain), ≈3.3 qt · NV3550: Mopar manual transmission fluid, about 2 bottles (4x4xplor) · NV1500: 4.8 pints · NSG370: 3.17 pints (Quadratec chart) [CONFIRM TYPE IN MANUAL]",
+    "spec": "AX-5/AX-15: 75W-90 GL-3 or GL-4 (ExtremeTerrain), ≈3.3 qt · NV3550: Mopar manual transmission fluid, about 2 bottles (4x4xplor) · NV1500: 4.8 pints · NSG370: 3.17 pints (Quadratec chart) (confirm type in your manual)",
     "interval": "Change now, then every 30,000 mi",
     "note": "The NV3550 fill and drain plugs take a 17 mm Allen bit, and the oil-pan skid may need to come off (4x4xplor). Fine filings on the magnet are normal, but chunks are not.",
     "parts": [
@@ -926,7 +926,7 @@
    },
    {
     "item": "Automatic transmission (30RH / 32RH / 42RLE)",
-    "spec": "42RLE: ATF+4, ≈4 qt pan drop, 8.8 qt dry (ExtremeTerrain) · 30RH/32RH: ATF type per the dipstick/manual [CONFIRM IN MANUAL]",
+    "spec": "42RLE: ATF+4, ≈4 qt pan drop, 8.8 qt dry (ExtremeTerrain) · 30RH/32RH: ATF type per the dipstick/manual (check your manual)",
     "interval": "Every 30,000 mi, or 12,000 mi in severe use (Haynes)",
     "note": "Change the filter with the fluid. Filter screws take 35 in-lb (30RH/32RH) or 45 in-lb (42RLE) (ExtremeTerrain's factory-spec table). Drivingline calls the 2003–06 four-speed heat-sensitive, so consider a cooler if you tow or crawl.",
     "parts": [

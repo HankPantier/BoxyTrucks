@@ -788,7 +788,7 @@
    },
    {
     "item": "Valve lash",
-    "spec": "Adjustable rockers · clearances [CONFIRM IN MANUAL]",
+    "spec": "Adjustable rockers · clearances (check your manual)",
     "interval": "Check now",
     "note": "Same procedure as an early FJ40 F engine. New cork cover gasket.",
     "parts": [
@@ -832,7 +832,7 @@
    },
    {
     "item": "Gearbox & transfer case",
-    "spec": "Gear oil per FJ25 manual [CONFIRM IN MANUAL] (Toyota's 40-series table specifies API GL-4 SAE 90 for its gearboxes and transfer case)",
+    "spec": "Gear oil per FJ25 manual (check your manual) (Toyota's 40-series table specifies API GL-4 SAE 90 for its gearboxes and transfer case)",
     "interval": "Baseline now",
     "note": "The FJ25 has a single-speed transfer case and a different four-speed from the 40-series J30/H41, so don't borrow the 40-series capacities.",
     "parts": [
@@ -845,7 +845,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil [CONFIRM IN MANUAL] (Toyota's 40-series table: API GL-5 80W-90, 2.5 L)",
+    "spec": "Hypoid gear oil (check your manual) (Toyota's 40-series table: API GL-5 80W-90, 2.5 L)",
     "interval": "Baseline now",
     "note": "The FJ25 has a centered rear differential. IH8MUD says its rear axle isn't the same as an FJ40's centered axle, so don't assume parts swap."
    },

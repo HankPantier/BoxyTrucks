@@ -825,7 +825,7 @@
    },
    {
     "item": "Engine oil & filter",
-    "spec": "1KD-FTV: 7.4 L with filter, SAE 5W-30, API CF / ACEA B1/B5 · 1GR-FE: 5.2 L with filter · 3RZ-FE 2.7: 5.1 L with filter (Penrite lookup) · petrol grades and other engines [CONFIRM IN MANUAL]",
+    "spec": "1KD-FTV: 7.4 L with filter, SAE 5W-30, API CF / ACEA B1/B5 · 1GR-FE: 5.2 L with filter · 3RZ-FE 2.7: 5.1 L with filter (Penrite lookup) · petrol grades and other engines (check your manual)",
     "interval": "Every 6,000 mi or 12 months (6 months in severe use)",
     "note": "Unsealed 4X4 suggests 5,000 km changes and quality oil on a 1KD, which helps against cold-start rattle.",
     "parts": [
@@ -856,7 +856,7 @@
    },
    {
     "item": "Fuel filter (diesel)",
-    "spec": "Diesel filter with water trap [CONFIRM PART BY FRAME NUMBER]",
+    "spec": "Diesel filter with water trap (confirm part by frame number)",
     "interval": "Every 12,000 mi or 12 months",
     "note": "Common-rail injectors hate water and dirt, so this is cheap insurance on a 1KD.",
     "parts": []
@@ -877,7 +877,7 @@
    {
     "item": "Automatic transmission fluid",
     "spec": "3.0 L per drain-and-fill, 10.6 L dry · Toyota T-IV (trucks with a dipstick) or ATF WS (no dipstick)",
-    "interval": "Then per the owner's manual [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual (check your manual)",
     "note": "Check which fluid your gearbox takes before you top up, because WS and T-IV aren't interchangeable.",
     "parts": []
    },

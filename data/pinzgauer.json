@@ -488,7 +488,7 @@
     },
     {
      "item": "Air filter",
-     "spec": "Element in the factory housing; some trucks have the cyclone filter system [CONFIRM IN MANUAL]",
+     "spec": "Element in the factory housing; some trucks have the cyclone filter system (check your manual)",
      "interval": "Check at every oil change, more often in dust",
      "note": "The housing, lid seal and rubber intake boot all matter on a carbureted engine that breathes dust off-road.",
      "parts": [
@@ -525,7 +525,7 @@
     {
      "item": "Valve clearance",
      "spec": "0.2 mm intake and exhaust, set cold · firing order 1-2-4-3",
-     "interval": "Per the factory hour-based schedule [CONFIRM IN MANUAL]",
+     "interval": "Per the factory hour-based schedule (check your manual)",
      "note": "New rocker-cover gaskets every time, no blue RTV, and recheck carb sync afterward.",
      "parts": [
       {
@@ -625,7 +625,7 @@
     },
     {
      "item": "Brake, clutch & locker hydraulics",
-     "spec": "DOT 3 brake fluid in the locker/4WD circuit (owner practice); brake and clutch spec [CONFIRM IN MANUAL]",
+     "spec": "DOT 3 brake fluid in the locker/4WD circuit (owner practice); brake and clutch spec (check your manual)",
      "interval": "Flush on purchase",
      "note": "There are three hydraulic systems to bleed. Replace the cracked rubber elbows under the locker reservoir before you pressure-bleed, and buy spare bleeder valves first.",
      "parts": [

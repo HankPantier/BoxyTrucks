@@ -379,8 +379,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "[CONFIRM IN MANUAL] for grade and capacity",
-    "interval": "Change now, then regularly [CONFIRM IN MANUAL]",
+    "spec": "check your manual for grade and capacity",
+    "interval": "Change now, then regularly (check your manual)",
     "note": "Super Scout Specialists lists a canister-type oil filter for the IH four-cylinder and V8 in these Scouts. Check what your engine has before ordering.",
     "parts": [
      {
@@ -392,7 +392,7 @@
    },
    {
     "item": "Ignition: points, cap, rotor, plugs",
-    "spec": "Points or Pertronix · gap and timing [CONFIRM IN MANUAL]",
+    "spec": "Points or Pertronix · gap and timing (check your manual)",
     "interval": "Now, then at each tune-up",
     "note": "Points-type distributors on the fours are Holley or Delco. Identify yours before buying an electronic conversion.",
     "parts": [
@@ -433,7 +433,7 @@
    },
    {
     "item": "Coolant, hoses & radiator",
-    "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Coolant type and capacity (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "Original radiators are often tired. Aluminum replacements are made separately for 4-cylinder and V8 trucks.",
     "parts": [
@@ -451,7 +451,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "Oil type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Oil type and capacity (check your manual)",
     "interval": "Drain and refill now",
     "note": "Silodrome says the Scout 80 used a Warner T-90A three-speed; many later 800s have four-speeds. Identify the gearbox before choosing oil. Check the mount while you're under there.",
     "parts": [
@@ -477,7 +477,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "80W-90 gear oil; add limited-slip additive for Power-Lok/Trac-Lok · capacity [CONFIRM IN MANUAL]",
+    "spec": "80W-90 gear oil; add limited-slip additive for Power-Lok/Trac-Lok · capacity (check your manual)",
     "interval": "Drain and refill now",
     "note": "One IHPA forum owner found Mobil 1 gear oil made his Power-Lok clutches chatter, while Red Line and Royal Purple did not.",
     "parts": [
@@ -526,7 +526,7 @@
    },
    {
     "item": "Brake fluid, hoses & wheel cylinders",
-    "spec": "Fluid type [CONFIRM IN MANUAL]",
+    "spec": "Fluid type (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "Rubber hoses this old should be replaced, not inspected. Note whether the truck has a single- or dual-circuit master cylinder, because dual-circuit arrived on 1967 and later 800s.",
     "parts": [

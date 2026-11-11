@@ -907,7 +907,7 @@
     "item": "Automatic transmission",
     "spec": "Toyota Genuine ATF WS · 8-speed AE80F ≈10.7 qt total fill",
     "interval": "Toyota specifies replacement at 60,000 mi only for towing or heavy loads, otherwise inspection only. Most owners drain-and-fill at purchase.",
-    "note": "There's no dipstick. The level is set at a specified fluid temperature through the overflow (check) plug. A drain-and-fill replaces only part of the fluid, so repeat it rather than pressure-flushing. 2008–2015 trucks use the 6-speed AB60F: [CONFIRM IN MANUAL] for capacity.",
+    "note": "There's no dipstick. The level is set at a specified fluid temperature through the overflow (check) plug. A drain-and-fill replaces only part of the fluid, so repeat it rather than pressure-flushing. 2008–2015 trucks use the 6-speed AB60F: (check your manual) for capacity.",
     "parts": [
      {
       "name": "ATF WS-type transmission fluid",
@@ -928,7 +928,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Toyota Genuine Transfer Gear Oil LF, SAE 75W (owner-reported; AMSOIL's lookup lists no transfer-case spec) · [CONFIRM IN MANUAL] for spec and capacity",
+    "spec": "Toyota Genuine Transfer Gear Oil LF, SAE 75W (owner-reported; AMSOIL's lookup lists no transfer-case spec) · check your manual for spec and capacity",
     "interval": "Replace under Toyota's special operating conditions (dirt roads, towing); otherwise inspect. Change at purchase if there's no record.",
     "note": "Use the transfer-case oil your manual names; it is a light 75W oil, not ordinary 75W-90 gear oil. Toyota's guide lists replacement for dirt-road and towing use.",
     "parts": [
@@ -996,7 +996,7 @@
    {
     "item": "Power steering fluid",
     "spec": "Dexron III-type ATF",
-    "interval": "Inspect the level and condition (Toyota); [CONFIRM IN MANUAL] for the exact fluid",
+    "interval": "Inspect the level and condition (Toyota); (check your manual) for the exact fluid",
     "note": "Look for wet hoses at the pump.",
     "parts": [
      {

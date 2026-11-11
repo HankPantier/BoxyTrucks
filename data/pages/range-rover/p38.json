@@ -846,7 +846,7 @@
    },
    {
     "item": "Spark plugs & leads",
-    "spec": "Plug type and gap per manual [CONFIRM IN MANUAL]",
+    "spec": "Plug type and gap per manual (check your manual)",
     "interval": "At purchase if there's no record",
     "note": "Misfires on Bosch trucks often come from the leads and coils. Replace the plugs and leads as a set.",
     "parts": [
@@ -864,7 +864,7 @@
    },
    {
     "item": "Fuel filter",
-    "spec": "V8: OE-type EFI filter [CONFIRM IN MANUAL]. 2.5 DSE diesel: STC2827",
+    "spec": "V8: OE-type EFI filter (check your manual). 2.5 DSE diesel: STC2827",
     "interval": "At purchase",
     "note": "Do the diesel filter at purchase on non-US 2.5 DSE trucks.",
     "parts": [
@@ -905,7 +905,7 @@
    },
    {
     "item": "Automatic transmission (ZF 4HP22 on 4.0 / diesel, 4HP24 on 4.6)",
-    "spec": "Dexron III ATF · ≈11 L total fill (4HP24 figure; 4HP22 [CONFIRM IN MANUAL]). A drain and refill takes about 5 L",
+    "spec": "Dexron III ATF · ≈11 L total fill (4HP24 figure; 4HP22 (check your manual)). A drain and refill takes about 5 L",
     "interval": "Drain and refill at purchase. Repeat after a few hundred miles",
     "note": "An owner on rangerovers.pub measured about 5 L from a drain and refill. Two drain-and-fills refresh most of the fluid without the risk of a flush.",
     "parts": [
@@ -931,7 +931,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil, API GL-5 [CONFIRM grade IN MANUAL] · ≈1.6 L each drain & refill (1.7 L dry)",
+    "spec": "Hypoid gear oil, API GL-5 (confirm grade in your manual) · ≈1.6 L each drain & refill (1.7 L dry)",
     "interval": "At purchase, then every 2 years",
     "note": "Fill to the level plug on level ground. Check the pinion seals.",
     "parts": [

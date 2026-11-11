@@ -481,7 +481,7 @@
     {
      "item": "Engine oil & filter",
      "spec": "7 qt with filter on Scout II 4x4s (IH Parts America tech moderator) · high-zinc (ZDDP) oil, e.g. 15W-40 or 20W-50 for a worn engine",
-     "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+     "interval": "Then every 3,000–5,000 mi (check your manual)",
      "note": "It reads one quart over on the dipstick. On Binder Planet, owners warn that modern low-zinc oils aren't right for the IH flat-tappet cam.",
      "parts": [
       {
@@ -521,7 +521,7 @@
     },
     {
      "item": "Spark plugs, cap and rotor",
-     "spec": "Champion RJ12YC or NGK 3332 (IH Parts America fitment) · gap [CONFIRM IN MANUAL]",
+     "spec": "Champion RJ12YC or NGK 3332 (IH Parts America fitment) · gap (check your manual)",
      "interval": "At purchase, then per manual",
      "note": "Caps differ by distributor: Holley, Delco or Prestolite. Check yours before ordering.",
      "parts": [
@@ -544,7 +544,7 @@
     },
     {
      "item": "Coolant, thermostat & water-pump tube O-rings",
-     "spec": "Capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists about 20 qt for the 1980 5.0 L V8) · coolant type [CONFIRM IN MANUAL]",
+     "spec": "Capacity (check your manual) (AMSOIL's lookup lists about 20 qt for the 1980 5.0 L V8) · coolant type (check your manual)",
      "interval": "Flush at purchase, then every 2 years",
      "note": "The IH V8 water pump feeds through a separate tube sealed with O-rings. Replace them whenever the pump comes off; a complete IH V8 gasket set includes four.",
      "parts": [
@@ -567,7 +567,7 @@
     },
     {
      "item": "Automatic transmission (Chrysler A727)",
-     "spec": "ATF · capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists a 5 qt initial fill) · fluid type [CONFIRM IN MANUAL]",
+     "spec": "ATF · capacity (check your manual) (AMSOIL's lookup lists a 5 qt initial fill) · fluid type (check your manual)",
      "interval": "Drain, new filter and refill at purchase",
      "note": "Moses Ludel of 4WD Mechanix credits the A727's lack of overdrive with helping it survive. Do a pan drop and filter change, not a pressure flush.",
      "parts": [
@@ -580,7 +580,7 @@
     },
     {
      "item": "Manual transmission (T-19 / T-18 / T-15 etc.)",
-     "spec": "AMSOIL's Scout II listing gives engine-oil grades (10W-40 class) for the manual gearboxes · [CONFIRM IN MANUAL]",
+     "spec": "AMSOIL's Scout II listing gives engine-oil grades (10W-40 class) for the manual gearboxes · check your manual",
      "interval": "Change at purchase",
      "note": "Factory boxes vary by year and engine. The line ticket tells you which one you have.",
      "parts": [
@@ -593,7 +593,7 @@
     },
     {
      "item": "Transfer case (Dana 20; Dana 300 in 1980)",
-     "spec": "Capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists 3.4 pints for the two-speed case) · lubricant grade [CONFIRM IN MANUAL]. IH specialists on the IHPA forum recommend SAE 90 GL-1 or straight 50-weight motor oil in Dana 20s, not GL-5.",
+     "spec": "Capacity (check your manual) (AMSOIL's lookup lists 3.4 pints for the two-speed case) · lubricant grade (check your manual). IH specialists on the IHPA forum recommend SAE 90 GL-1 or straight 50-weight motor oil in Dana 20s, not GL-5.",
      "interval": "Change at purchase; check for leaks at the output seals",
      "note": "The 1980 Dana 300 was a one-year fit. Gasket, seal and overhaul kits are still made for the Dana 20.",
      "parts": [
@@ -611,7 +611,7 @@
     },
     {
      "item": "Front & rear differentials (Dana 30 / Dana 44)",
-     "spec": "GL-5 gear oil · grade and capacity [CONFIRM IN MANUAL] (AMSOIL's lookup lists 4.2 pt front, 3 pt rear) · add friction modifier for Trac-Lok",
+     "spec": "GL-5 gear oil · grade and capacity (check your manual) (AMSOIL's lookup lists 4.2 pt front, 3 pt rear) · add friction modifier for Trac-Lok",
      "interval": "Change at purchase and after deep water",
      "note": "The line ticket or the axle tag shows the ratio (2.72 to 4.54) and whether there's a Trac-Lok.",
      "parts": [
@@ -630,7 +630,7 @@
     {
      "item": "Front wheel bearings, seals & locking hubs",
      "spec": "Repack with wheel-bearing grease · new inner seals",
-     "interval": "At purchase, then per manual [CONFIRM IN MANUAL]",
+     "interval": "At purchase, then per manual (check your manual)",
      "note": "Pull the locking hubs and check them while you're in there. Rebuilt or replacement Warn hubs are available.",
      "parts": [
       {
@@ -652,7 +652,7 @@
     },
     {
      "item": "Steering: power steering fluid, rag joint & box bolts",
-     "spec": "Power steering fluid type [CONFIRM IN MANUAL] (AMSOIL's lookup lists an ATF-type fluid)",
+     "spec": "Power steering fluid type (check your manual) (AMSOIL's lookup lists an ATF-type fluid)",
      "interval": "Check at purchase",
      "note": "Check the rag joint for play and the steering-box frame mount for cracks. New grade 8 box bolts are cheap.",
      "parts": [

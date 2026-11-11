@@ -123,7 +123,7 @@
   },
   {
    "head": "Two-stroke health",
-   "body": "On LJ10, LJ20 and LJ50 trucks, a two-stroke that won't idle or smokes heavily may need a full rebuild, and engine parts are scarcer than for the LJ80. Ask what has been done and how the engine is lubricated [CONFIRM IN MANUAL]."
+   "body": "On LJ10, LJ20 and LJ50 trucks, a two-stroke that won't idle or smokes heavily may need a full rebuild, and engine parts are scarcer than for the LJ80. Ask what has been done and how the engine is lubricated (check your manual)."
   },
   {
    "head": "Leaf springs and bushings",
@@ -389,7 +389,7 @@
    },
    {
     "item": "Engine oil & filter (LJ80)",
-    "spec": "About 3.0 L (Liqui Moly) · grade [CONFIRM IN MANUAL]",
+    "spec": "About 3.0 L (Liqui Moly) · grade (check your manual)",
     "interval": "At purchase, then every 10,000 km / 6 months (Liqui Moly)",
     "note": "Use a new drain-plug washer.",
     "parts": [
@@ -407,7 +407,7 @@
    },
    {
     "item": "Two-stroke lubrication (LJ10/20/50)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "At purchase",
     "note": "Find out how your engine gets its two-stroke oil before running it.",
     "parts": []
@@ -468,14 +468,14 @@
    },
    {
     "item": "Coolant & hoses (LJ20 onward)",
-    "spec": "LJ80: 3.8 L, change every 2 years (Liqui Moly) · LJ20/LJ50: [CONFIRM IN MANUAL]",
+    "spec": "LJ80: 3.8 L, change every 2 years (Liqui Moly) · LJ20/LJ50: (check your manual)",
     "interval": "Flush at purchase",
     "note": "The LJ10 is air-cooled.",
     "parts": []
    },
    {
     "item": "Gearbox, transfer case & differentials",
-    "spec": "LJ80 (Liqui Moly): gearbox 1.0 L · transfer case 0.9 L, GL-4 85W-90 · front and rear diffs 1.3 L each, GL-5 85W-90 hypoid · LJ10–LJ50: [CONFIRM IN MANUAL]",
+    "spec": "LJ80 (Liqui Moly): gearbox 1.0 L · transfer case 0.9 L, GL-4 85W-90 · front and rear diffs 1.3 L each, GL-5 85W-90 hypoid · LJ10–LJ50: (check your manual)",
     "interval": "Drain and fill at purchase",
     "note": "Replace the drain-plug seals.",
     "parts": [

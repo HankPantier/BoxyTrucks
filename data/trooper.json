@@ -250,7 +250,7 @@
     "cost": "Parts plus labor",
     "symptoms": "Lug nuts that won't thread on, studs that snap when a tire shop uses an impact gun, or a wheel that loosens. Owners have reported all three to NHTSA.",
     "fix": "Support the truck safely and pull the wheel. On the front, remove the caliper and rotor to reach the back of the hub; on the rear, pull the drum. Drive out the damaged stud, clean the hub, then draw the new stud in with a stack of washers and a lug nut, or press it in, until the head seats fully. Fit new lug nuts with any damaged studs, start every nut by hand and torque them to the factory spec in a star pattern. Tell your tire shop to do the same.",
-    "tools": "Hammer and punch or a stud press · washers · torque wrench · factory torque spec [CONFIRM IN MANUAL].",
+    "tools": "Hammer and punch or a stud press · washers · torque wrench · factory torque spec (check your manual).",
     "parts": [
      {
       "name": "Brake and wheel-hub parts catalog, 1990 Trooper 2.6",
@@ -302,7 +302,7 @@
     "cost": "Parts plus labor",
     "symptoms": "Creeping temperature, steam, coolant loss or a sweet smell. NHTSA complaint files describe cracked heads and blown head gaskets on 1988–89 trucks.",
     "fix": "With the engine cold, drain the radiator and replace the thermostat, the radiator hoses and the cap. Inspect the radiator for blocked or weeping cores and replace it if in doubt. Refill slowly with the heater on and bleed out air pockets: one 1988 owner blamed air pockets in the head for coolant reaching the cylinders. If the oil looks milky or the cooling system pressurizes quickly, pressure-test it and do a compression or leak-down test before deciding on head work.",
-    "tools": "Drain pan · pliers · cooling-system pressure tester · funnel · the coolant type specified for your engine [CONFIRM IN MANUAL].",
+    "tools": "Drain pan · pliers · cooling-system pressure tester · funnel · the coolant type specified for your engine (check your manual).",
     "parts": [
      {
       "name": "Thermostat",
@@ -416,7 +416,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "≈4.7 L (5.0 US qt) with filter on the 1988–90 2.6; ≈5.4 L (5.7 US qt) with filter on the 1990–92 2.6 (Liqui Moly lookup, European data) · grade [CONFIRM IN MANUAL]",
+     "spec": "≈4.7 L (5.0 US qt) with filter on the 1988–90 2.6; ≈5.4 L (5.7 US qt) with filter on the 1990–92 2.6 (Liqui Moly lookup, European data) · grade (check your manual)",
      "interval": "Then at the owner's-manual interval",
      "note": "Watch for leaks at the oil-cooler hoses on 1990–91 trucks; recall 90V166 rerouted a hose that could touch the exhaust manifold.",
      "parts": [
@@ -481,7 +481,7 @@
     {
      "item": "Timing belt (four-cylinder petrol)",
      "spec": "Belt, tensioner, cam and crank seals",
-     "interval": "Now, if there's no record; then per the manual [CONFIRM IN MANUAL]",
+     "interval": "Now, if there's no record; then per the manual (check your manual)",
      "note": "The 2.3 and 2.6 Isuzu fours use a belt.",
      "parts": [
       {
@@ -493,7 +493,7 @@
     },
     {
      "item": "Coolant, hoses and thermostat",
-     "spec": "Coolant type per the manual [CONFIRM IN MANUAL] · ≈9.8 L (10.4 US qt) system on the 2.3 and 2.6 (Liqui Moly lookup)",
+     "spec": "Coolant type per the manual (check your manual) · ≈9.8 L (10.4 US qt) system on the 2.3 and 2.6 (Liqui Moly lookup)",
      "interval": "Flush now",
      "note": "Owners report cracked heads and head gaskets on these engines, so a healthy cooling system is cheap insurance.",
      "parts": [
@@ -511,7 +511,7 @@
     },
     {
      "item": "Manual transmission oil",
-     "spec": "Engine oil, not gear oil (Liqui Moly's lookup lists multigrade engine oils) · ≈2.95 L (3.1 US qt) in the 2.6 five-speed; on the 2.3 it lists 4.6 L for gearbox and transfer case together · viscosity [CONFIRM IN MANUAL]",
+     "spec": "Engine oil, not gear oil (Liqui Moly's lookup lists multigrade engine oils) · ≈2.95 L (3.1 US qt) in the 2.6 five-speed; on the 2.3 it lists 4.6 L for gearbox and transfer case together · viscosity (check your manual)",
      "interval": "Drain and refill now",
      "note": "Check the clutch hydraulics while you're under there.",
      "parts": [
@@ -547,7 +547,7 @@
     },
     {
      "item": "Transfer case",
-     "spec": "Engine oil, as in the gearbox (Liqui Moly lookup) · ≈1.45 L (1.5 US qt) on the 2.6 · viscosity [CONFIRM IN MANUAL]",
+     "spec": "Engine oil, as in the gearbox (Liqui Moly lookup) · ≈1.45 L (1.5 US qt) on the 2.6 · viscosity (check your manual)",
      "interval": "Drain and refill now",
      "note": "Shift through 2H, 4H and 4L afterwards to check the linkage.",
      "parts": [
@@ -560,7 +560,7 @@
     },
     {
      "item": "Front & rear differentials",
-     "spec": "GL-5 hypoid gear oil; LSD-rated oil in a limited-slip rear · 2.6: ≈1.5 L (1.6 US qt) front, ≈1.8 L (1.9 US qt) rear; 2.3: ≈1.0 L front, ≈1.5 L rear (Liqui Moly lookup) · viscosity [CONFIRM IN MANUAL]",
+     "spec": "GL-5 hypoid gear oil; LSD-rated oil in a limited-slip rear · 2.6: ≈1.5 L (1.6 US qt) front, ≈1.8 L (1.9 US qt) rear; 2.3: ≈1.0 L front, ≈1.5 L rear (Liqui Moly lookup) · viscosity (check your manual)",
      "interval": "Drain and refill now",
      "note": "Check the pinion seals for leaks.",
      "parts": [

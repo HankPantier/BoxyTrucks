@@ -328,8 +328,8 @@
    "diff": "2 / 5",
    "time": "An hour or two",
    "cost": "Six plugs",
-   "symptoms": "Misfires, rough idle and lost economy, or simply a truck past the interval. ExtremeTerrain quotes Chrysler's interval as 102,000 miles [CONFIRM IN MANUAL]. ExtremeTerrain suggests pulling one plug for inspection at 60,000 on modified, trail-used trucks.",
-   "fix": "On the 3.8, pull the wires by the boots. On the 3.6, unclip each coil-on-plug connector and remove the coil (typically one 10 mm bolt). Gap the new plugs at 0.050 in for the 3.8 (Champion RE14PLP5) or 0.043 in for the 3.6 (Champion RER8ZWYCB4). Torque them to 13 lb-ft (±2) on the 3.6. ExtremeTerrain gives 12 lb-ft for the 3.8 [CONFIRM IN MANUAL]. The Pentastar's 12 mm plugs in aluminum heads don't tolerate over-torquing. Add dielectric grease to the boots.",
+   "symptoms": "Misfires, rough idle and lost economy, or simply a truck past the interval. ExtremeTerrain quotes Chrysler's interval as 102,000 miles (check your manual). ExtremeTerrain suggests pulling one plug for inspection at 60,000 on modified, trail-used trucks.",
+   "fix": "On the 3.8, pull the wires by the boots. On the 3.6, unclip each coil-on-plug connector and remove the coil (typically one 10 mm bolt). Gap the new plugs at 0.050 in for the 3.8 (Champion RE14PLP5) or 0.043 in for the 3.6 (Champion RER8ZWYCB4). Torque them to 13 lb-ft (±2) on the 3.6. ExtremeTerrain gives 12 lb-ft for the 3.8 (check your manual). The Pentastar's 12 mm plugs in aluminum heads don't tolerate over-torquing. Add dielectric grease to the boots.",
    "tools": "5/8 in spark plug socket · extensions · 3/8 in torque wrench · gap gauge · dielectric grease.",
    "parts": [
     {
@@ -757,8 +757,8 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "3.8: Champion RE14PLP5, 0.050 in, 12 lb-ft per ExtremeTerrain [CONFIRM IN MANUAL] · 3.6: Champion RER8ZWYCB4, 0.043 in, 13 lb-ft",
-    "interval": "ExtremeTerrain quotes Chrysler's 102,000 mi [CONFIRM IN MANUAL]; inspect at 60,000 on modified or trail trucks",
+    "spec": "3.8: Champion RE14PLP5, 0.050 in, 12 lb-ft per ExtremeTerrain (check your manual) · 3.6: Champion RER8ZWYCB4, 0.043 in, 13 lb-ft",
+    "interval": "ExtremeTerrain quotes Chrysler's 102,000 mi (check your manual); inspect at 60,000 on modified or trail trucks",
     "note": "The 3.8 uses plug wires; the 3.6 is coil-on-plug.",
     "parts": [
      {
@@ -910,7 +910,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 3",
-    "interval": "Flush now, then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now, then every 2–3 years (check your manual)",
     "note": "The same reservoir type also feeds the clutch on manual trucks.",
     "parts": [
      {

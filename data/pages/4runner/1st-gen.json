@@ -831,7 +831,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "22R-E: 10W-30, 10W-40 or 10W-50 above −23 °C (15W-40 to 20W-50 above −12 °C) · ≈4.5 US qt with filter (AMSOIL, 1987 22R-E) · 3VZ-E V6 [CONFIRM IN MANUAL]",
+    "spec": "22R-E: 10W-30, 10W-40 or 10W-50 above −23 °C (15W-40 to 20W-50 above −12 °C) · ≈4.5 US qt with filter (AMSOIL, 1987 22R-E) · 3VZ-E V6 (check your manual)",
     "interval": "At purchase, then per the manual",
     "note": "Watch for a 22R-E burning oil at high mileage; leaks often come from the valve cover gasket.",
     "parts": [
@@ -875,7 +875,7 @@
    },
    {
     "item": "Spark plugs, wires, cap & rotor",
-    "spec": "22R-E: Denso W16EXR-U, gap 0.8 mm (0.031 in) (Denso catalogue, 22R-E 4Runner from 08/87) · earlier trucks and 3VZ-E V6 [CONFIRM IN MANUAL]",
+    "spec": "22R-E: Denso W16EXR-U, gap 0.8 mm (0.031 in) (Denso catalogue, 22R-E 4Runner from 08/87) · earlier trucks and 3VZ-E V6 (check your manual)",
     "interval": "At purchase",
     "note": "Old ignition parts cause most rough-running complaints on distributor-ignition 22R-Es and 3VZ-Es.",
     "parts": [
@@ -929,7 +929,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "Toyota-type long-life coolant · 22R-E ≈9 US qt (AMSOIL, 1987 22R-E) · V6 capacity [CONFIRM IN MANUAL]",
+    "spec": "Toyota-type long-life coolant · 22R-E ≈9 US qt (AMSOIL, 1987 22R-E) · V6 capacity (check your manual)",
     "interval": "Drain and refill at purchase",
     "note": "4Runners.com owners: use a coolant that meets the manual's spec ('Asian formula for Toyota'); Toyota pink is pre-diluted red. Never let either engine overheat — especially the V6.",
     "parts": [
@@ -947,7 +947,7 @@
    },
    {
     "item": "Manual / automatic transmission fluid",
-    "spec": "Manual: GL-4 or GL-5 gear oil, 75W-90 or 80W-90 (AMSOIL, 1987 22R-E) · capacity and automatic fluid [CONFIRM IN MANUAL]",
+    "spec": "Manual: GL-4 or GL-5 gear oil, 75W-90 or 80W-90 (AMSOIL, 1987 22R-E) · capacity and automatic fluid (check your manual)",
     "interval": "At purchase (drain and refill)",
     "note": "Automatic trucks: check for burnt-smelling fluid before you buy.",
     "parts": [
@@ -960,7 +960,7 @@
    },
    {
     "item": "Transfer case & differentials",
-    "spec": "Transfer case (manual-gearbox trucks): GL-4 or GL-5 gear oil, ≈3.4 pt (AMSOIL, 1987 22R-E) · differential grades and capacities [CONFIRM IN MANUAL]",
+    "spec": "Transfer case (manual-gearbox trucks): GL-4 or GL-5 gear oil, ≈3.4 pt (AMSOIL, 1987 22R-E) · differential grades and capacities (check your manual)",
     "interval": "At purchase",
     "note": "Break the fill plug loose before the drain plug. 1984–85 solid-axle trucks also have closed knuckles that need fresh grease or oil.",
     "parts": [
@@ -991,7 +991,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Type [CONFIRM IN MANUAL]",
+    "spec": "Type (check your manual)",
     "interval": "Flush at purchase",
     "note": "No ABS on these trucks — fresh fluid and healthy rubber lines matter all the more.",
     "parts": [

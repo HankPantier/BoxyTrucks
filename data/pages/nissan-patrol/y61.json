@@ -713,7 +713,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "ZD30: ACEA B3 or JASO DH-1, 10W-40 strongly recommended (Nissan bulletin, Sept 2004), revised capacity 8.3 L. TB48: owner's manual says 5W-30. Nissan's 2002 service manual: ZD30 outside Europe API CD, CE, CF, CF-4 or JASO DH-1 (in Europe API CF-4 or ACEA B3; never API CG-4), 8.2 L with filter. TD42/TD42T: API CC to CF-4 or JASO DH-1, 10.5 L with filter. TB45: 7.6 L, and TB48DE: 6.8 L with filter (petrol API SE to SL or ILSAC). Nissan Europe's 2004 supplement prefers 5W-30 for diesels there, so the grade depends on market and climate",
-    "interval": "Nissan Europe schedule: ZD30 and TB48 every 15,000 km or 12 months, RD28 every 10,000 km or 6 months, halved in severe use such as towing, dust or short trips. Other markets: [CONFIRM IN MANUAL]. Many owners change ZD30 oil more often when towing",
+    "interval": "Nissan Europe schedule: ZD30 and TB48 every 15,000 km or 12 months, RD28 every 10,000 km or 6 months, halved in severe use such as towing, dust or short trips. Other markets: (check your manual). Many owners change ZD30 oil more often when towing",
     "note": "On a ZD30, confirm the dipstick has been recalibrated to the revised capacity. Sludge or grit under a cold oil filler cap is a bad sign.",
     "parts": [
      {
@@ -776,7 +776,7 @@
    },
    {
     "item": "Glow plugs (diesels)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "Test if cold starts are slow",
     "note": "Worn glow plugs are a common cause of hard starting on older diesels.",
     "parts": [

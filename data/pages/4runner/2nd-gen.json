@@ -832,7 +832,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "3VZ-E: 10W-30 above −18 °C, 5W-30 below 10 °C · ≈4.8 US qt with filter (AMSOIL, 1992 3VZ-E) · 22R-E [CONFIRM IN MANUAL]",
+    "spec": "3VZ-E: 10W-30 above −18 °C, 5W-30 below 10 °C · ≈4.8 US qt with filter (AMSOIL, 1992 3VZ-E) · 22R-E (check your manual)",
     "interval": "At purchase, then per the manual",
     "note": "Milky oil or a sweet smell on the dipstick on a 3VZ-E means head gaskets — walk away or budget for it.",
     "parts": [
@@ -950,7 +950,7 @@
    },
    {
     "item": "Coolant & cooling system",
-    "spec": "Toyota-type long-life coolant · 3VZ-E 4WD ≈9.5 US qt (AMSOIL, 1992 3VZ-E) · 22R-E capacity [CONFIRM IN MANUAL]",
+    "spec": "Toyota-type long-life coolant · 3VZ-E 4WD ≈9.5 US qt (AMSOIL, 1992 3VZ-E) · 22R-E capacity (check your manual)",
     "interval": "Drain/refill or flush at purchase, then keep it fresh",
     "note": "4Runners.com's 3VZ-E advice: never let it overheat, refresh coolant regularly, and keep up with the belt and water pump. Pressure-test the system if coolant level drops.",
     "parts": [
@@ -968,7 +968,7 @@
    },
    {
     "item": "Automatic transmission fluid (A340H)",
-    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Fluid type and capacity (check your manual)",
     "interval": "Drain and refill at purchase",
     "note": "Prefer repeated drain-and-fills over a pressure flush on a high-mileage unknown.",
     "parts": [
@@ -981,7 +981,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Manual-gearbox trucks: GL-4 or GL-5 gear oil, ≈2.3 pt (with ADD) / 3.4 pt (without); A340H automatics take ATF, ≈1.7 pt (AMSOIL, 1992 3VZ-E) · viscosity [CONFIRM IN MANUAL]",
+    "spec": "Manual-gearbox trucks: GL-4 or GL-5 gear oil, ≈2.3 pt (with ADD) / 3.4 pt (without); A340H automatics take ATF, ≈1.7 pt (AMSOIL, 1992 3VZ-E) · viscosity (check your manual)",
     "interval": "At purchase",
     "note": "V6 trucks have a chain-driven case; four-cylinders kept the gear-driven unit — confirm which you have before ordering parts.",
     "parts": [
@@ -994,7 +994,7 @@
    },
    {
     "item": "Front & rear differentials, ADD",
-    "spec": "Front (ADD): GL-5 hypoid, SAE 90 above −18 °C, 80W-90 or 80W below, ≈4 pt (AMSOIL, 1992 3VZ-E) · rear [CONFIRM IN MANUAL]",
+    "spec": "Front (ADD): GL-5 hypoid, SAE 90 above −18 °C, 80W-90 or 80W below, ≈4 pt (AMSOIL, 1992 3VZ-E) · rear (check your manual)",
     "interval": "At purchase",
     "note": "1990-on 4Runners use Toyota's vacuum-operated ADD (automatic differential disconnect) with locked hubs; per 4Runners.com, check that 4WD actually engages and the vacuum lines are intact.",
     "parts": [
@@ -1020,7 +1020,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Type [CONFIRM IN MANUAL]",
+    "spec": "Type (check your manual)",
     "interval": "Flush at purchase",
     "note": "SR5 V6s have rear-wheel ABS; bleed per the factory procedure.",
     "parts": [

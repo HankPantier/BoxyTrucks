@@ -627,8 +627,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Grade and capacity [CONFIRM IN MANUAL]",
-    "interval": "Now, then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "spec": "Grade and capacity (check your manual)",
+    "interval": "Now, then every 3,000–5,000 mi (check your manual)",
     "note": "Check which engine you actually have: many trucks now run a later small-block or an LS.",
     "parts": [
      {
@@ -640,7 +640,7 @@
    },
    {
     "item": "Ignition: points or HEI, cap, rotor, plugs, wires",
-    "spec": "Points gap and timing [CONFIRM IN MANUAL]",
+    "spec": "Points gap and timing (check your manual)",
     "interval": "Now, then at every tune-up",
     "note": "Points ignition was original. Many owners convert to a GM HEI distributor, as on BaT's 1972 Highlander truck.",
     "parts": [
@@ -653,7 +653,7 @@
    },
    {
     "item": "Coolant, hoses, radiator & thermostat",
-    "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Coolant type and capacity (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "The 1969–72 option lists included heavy-duty cooling with air conditioning or an automatic. Upgraded aluminum radiators are common on restored trucks.",
     "parts": [
@@ -666,7 +666,7 @@
    },
    {
     "item": "Brake fluid, hoses & hardware",
-    "spec": "DOT 3 [CONFIRM IN MANUAL]",
+    "spec": "DOT 3 (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "1969–70 trucks have four-wheel drums and 1971–72 trucks power front discs. Replace any rusty steel line rather than patching it.",
     "parts": [
@@ -684,7 +684,7 @@
    },
    {
     "item": "Transmission fluid",
-    "spec": "SM465 / 3-speed manual or TH350 automatic [CONFIRM IN MANUAL]",
+    "spec": "SM465 / 3-speed manual or TH350 automatic (check your manual)",
     "interval": "Now",
     "note": "On a TH350, drop the pan and change the filter, then check for metal in the pan.",
     "parts": [
@@ -697,7 +697,7 @@
    },
    {
     "item": "Transfer case oil",
-    "spec": "NP205: 80W-90 gear oil per CK5 members, filled to just below the fill hole · Dana 20 [CONFIRM IN MANUAL]",
+    "spec": "NP205: 80W-90 gear oil per CK5 members, filled to just below the fill hole · Dana 20 (check your manual)",
     "interval": "Now",
     "note": "Identify the case first. The 205 is a one-piece iron case with a three-bolt idler cover on the back (Offroad Design).",
     "parts": [
@@ -710,7 +710,7 @@
    },
    {
     "item": "Front (Dana 44) & rear (12-bolt) differential oil",
-    "spec": "Gear oil grade [CONFIRM IN MANUAL] · friction modifier if Positraction",
+    "spec": "Gear oil grade (check your manual) · friction modifier if Positraction",
     "interval": "Now, and after any deep water",
     "note": "Check the axle tag and the SPID decal for the ratio (3.73 standard, 3.07 optional on V8 trucks) and for Positraction.",
     "parts": [

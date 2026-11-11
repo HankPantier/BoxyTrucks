@@ -785,7 +785,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "3.6: 6 qt SAE 5W-20 meeting MS-6395 (5W-30 permitted) · 3.8: 6.0 qt with filter, 5W-20 or 5W-30 per the filler cap",
-    "interval": "Then per the oil-life monitor or owner's manual [CONFIRM IN MANUAL]",
+    "interval": "Then per the oil-life monitor or owner's manual (check your manual)",
     "note": "The Pentastar uses a cartridge filter under a 24 mm cap on top of the engine. Quadratec notes the filter changed for 2014, so buy for your year, and says to pull the old element gently because the pressure-relief valve is in the cap. Don't overtighten the cap; Curbside Classic gives 18 lb-ft.",
     "parts": [
      {
@@ -821,7 +821,7 @@
    {
     "item": "Cabin air filter",
     "spec": "Quadratec lists JK cabin filters from the 2011 model year on",
-    "interval": "Replace when dirty [CONFIRM IN MANUAL]",
+    "interval": "Replace when dirty (check your manual)",
     "note": "Quadratec lists separate cabin filters for 2011–2013 and later JKs.",
     "parts": [
      {
@@ -835,7 +835,7 @@
     "item": "Spark plugs",
     "spec": "3.6 Pentastar: 0.043 in (1.10 mm) gap",
     "interval": "KBB's schedule lists spark plugs at 100,000 mi",
-    "note": "Pentastar plugs are under the intake plenum on the rear bank, so it's a good time to look for oil filter housing seepage. 3.8 plugs: [CONFIRM IN MANUAL].",
+    "note": "Pentastar plugs are under the intake plenum on the rear bank, so it's a good time to look for oil filter housing seepage. 3.8 plugs: (check your manual).",
     "parts": [
      {
       "name": "Mopar SP149125AF spark plug, 2012–2024 JK/JL 3.6",
@@ -893,7 +893,7 @@
    {
     "item": "Manual transmission (NSG370)",
     "spec": "Mopar manual transmission lubricant meeting MS-9224 · 1.6 qt",
-    "interval": "Change on a truck with unknown history [CONFIRM IN MANUAL]",
+    "interval": "Change on a truck with unknown history (check your manual)",
     "note": "Driving Line says the NSG370 can grind, pop out of gear and get noisy, and recommends regular fresh fluid. A 2007 lube chart gives 22 ft-lb for the fill and drain plugs.",
     "parts": [
      {
@@ -906,7 +906,7 @@
    {
     "item": "Transfer case (NV241 Command-Trac / Rock-Trac)",
     "spec": "Mopar ATF+4 · 2.1 qt",
-    "interval": "Change on purchase, then per the severe-service schedule [CONFIRM IN MANUAL]",
+    "interval": "Change on purchase, then per the severe-service schedule (check your manual)",
     "note": "Remove the fill plug before the drain plug. Both are chain-driven cases with aluminum housings (Driving Line), so don't overtighten the plugs.",
     "parts": [
      {
@@ -968,7 +968,7 @@
    {
     "item": "Brake & clutch fluid",
     "spec": "Mopar DOT 3 (DOT 4 acceptable if DOT 3 isn't available)",
-    "interval": "Flush on purchase, then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Flush on purchase, then every 2–3 years (check your manual)",
     "note": "Manual trucks share the fluid type in the clutch master cylinder.",
     "parts": [
      {

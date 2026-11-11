@@ -810,8 +810,8 @@
    },
    {
     "item": "Engine oil & filter",
-    "spec": "≈ 8 qt with filter (IH8MUD 90k list) · grade [CONFIRM IN MANUAL] · filter 90915-YZZD3",
-    "interval": "Then every 5,000 mi [CONFIRM IN MANUAL]",
+    "spec": "≈ 8 qt with filter (IH8MUD 90k list) · grade (check your manual) · filter 90915-YZZD3",
+    "interval": "Then every 5,000 mi (check your manual)",
     "note": "IH8MUD notes a larger JDM-spec filter is available as an alternative to YZZD3.",
     "parts": [
      {
@@ -898,7 +898,7 @@
    },
    {
     "item": "Automatic transmission fluid",
-    "spec": "A343F (1998–2002): ATF T-IV [CONFIRM IN MANUAL]. A750F 2004+: ATF WS only, which isn't interchangeable.",
+    "spec": "A343F (1998–2002): ATF T-IV (check your manual). A750F 2004+: ATF WS only, which isn't interchangeable.",
     "interval": "Drain-and-fill at purchase",
     "note": "From 2004 there's no dipstick. Level is checked at the overflow plug (Slee). One owner reports about 6 qt per drain-and-fill. Repeat rather than flush.",
     "parts": [
@@ -926,7 +926,7 @@
     "item": "Front & rear differentials",
     "spec": "SAE 90 in warm climates or 80W-90 in cooler ones (FSM, quoted on IH8MUD) · front under 2 qt",
     "interval": "At purchase, every 30k, and soon after any water crossing",
-    "note": "Pull the fill plug first. The front uses a 10 mm Allen, the rear a 24 mm plug. Rear plugs are 35 ft-lb on 2002 FSM spec. A forum veteran says US 1998–99 LXs have a limited-slip rear [CONFIRM LSD ADDITIVE NEED IN MANUAL]. Clogged diff breathers are common.",
+    "note": "Pull the fill plug first. The front uses a 10 mm Allen, the rear a 24 mm plug. Rear plugs are 35 ft-lb on 2002 FSM spec. A forum veteran says US 1998–99 LXs have a limited-slip rear (confirm lsd additive need in your manual). Clogged diff breathers are common.",
     "parts": [
      {
       "name": "Magnetic drain & fill plug with gasket (OP18021)",
@@ -968,7 +968,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Fluid type per reservoir cap [CONFIRM IN MANUAL]",
+    "spec": "Fluid type per reservoir cap (check your manual)",
     "interval": "Flush at purchase",
     "note": "The brake system uses a high-pressure pump and accumulator, not a vacuum booster. Follow the IH8MUD brake-flush procedure and take any ABS/BRAKE warning seriously.",
     "parts": [
@@ -982,7 +982,7 @@
    {
     "item": "Fuel filter & PCV valve",
     "spec": "UZJ100/LX470 fuel filter · PCV valve (1998–07/2002 part shown)",
-    "interval": "At purchase if there's no record [CONFIRM INTERVAL IN MANUAL]",
+    "interval": "At purchase if there's no record (confirm interval in your manual)",
     "note": "",
     "parts": [
      {

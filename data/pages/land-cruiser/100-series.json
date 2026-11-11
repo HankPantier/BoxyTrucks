@@ -815,7 +815,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "SAE 5W-30 · ≈6.8 L with filter (Roughtrax); Amsoil lists 7.2 qt for 2005–07 trucks",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "The IH8MUD 90k list gives the dealer filter as 90915-YZZD3 and says a larger JDM filter (90915-20004) is available and preferred by some owners.",
     "parts": [
      {
@@ -938,7 +938,7 @@
    {
     "item": "Automatic transmission fluid",
     "spec": "A343F (1998–2002): Toyota T-IV, ≈2.0 L per drain-and-fill · A750F (2003–07): ≈3.0 L per drain-and-fill, ≈10.6 L dry; ATF WS on trucks without a dipstick (Roughtrax)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Slee: from 2004 the dipstick was deleted (level is set at the overflow plug) and ATF WS is not interchangeable with T-IV or Dexron. A drain-and-fill only swaps the sump portion, so repeat it rather than doing one big flush on unknown fluid.",
     "parts": [
      {
@@ -951,7 +951,7 @@
    {
     "item": "Transfer case",
     "spec": "GL-5 75W-90 · 1.4 qt (IH8MUD DIY); Roughtrax lists 1.5 L",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "HF2A full-time case, no viscous coupler (Slee). Crack the 24 mm fill plug before the drain, torque the drain plug to 27 ft-lb and don't overtighten: the case can crack. Synthetic can quiet cold-morning whine.",
     "parts": [
      {
@@ -969,7 +969,7 @@
    {
     "item": "Front differential",
     "spec": "GL-5 80W-90 hypoid · 1.8 qt (IH8MUD write-up); Roughtrax lists 1.6 L",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "The IFS front diff has Allen-head plugs and too little clearance for squeeze bottles, so bring a pump. Two-pinion on 1998–99, four-pinion from 2000 (Slee).",
     "parts": [
      {
@@ -982,7 +982,7 @@
    {
     "item": "Rear differential",
     "spec": "GL-5 80W-90 hypoid (LSD-rated per the write-up) · 3.5 qt (IH8MUD); Roughtrax lists 3.2 L, 3.3 L for LSD",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "9.5-inch ring gear. 1998–99 trucks could have the optional electric rear locker, so test that it engages (Slee).",
     "parts": [
      {
@@ -994,7 +994,7 @@
    },
    {
     "item": "Power steering fluid",
-    "spec": "Dexron-III ATF (Amsoil lookup) · capacity [CONFIRM IN MANUAL]",
+    "spec": "Dexron-III ATF (Amsoil lookup) · capacity (check your manual)",
     "interval": "Refresh by suction-and-refill of the reservoir if dark",
     "note": "Rack-and-pinion IFS; Slee notes variable-gear steering arrived later in the run.",
     "parts": []
@@ -1002,7 +1002,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 3 (Amsoil lookup; Roughtrax allows DOT 3 or 4)",
-    "interval": "Then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Then every 2–3 years (check your manual)",
     "note": "The 100 has a hydraulic brake booster with an electric pump: bleed with the key ON so the pump runs, and expect the ABS and brake lights to come on during the job. IH8MUD members bleed front left, front right, then the rears, and the factory manual describes extra steps for bleeding the actuator.",
     "parts": [
      {

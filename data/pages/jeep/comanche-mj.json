@@ -404,7 +404,7 @@
    },
    {
     "item": "Coolant & thermostat",
-    "spec": "4.0: about 10.5 qt (XJ figure) [CONFIRM IN MANUAL]",
+    "spec": "4.0: about 10.5 qt (XJ figure) (check your manual)",
     "interval": "Flush and refill now",
     "note": "Check the plastic bottle for cracks. Renix trucks have the pressurized closed system.",
     "parts": [
@@ -435,7 +435,7 @@
    },
    {
     "item": "Automatic transmission (AW4)",
-    "spec": "4 qt drain-and-fill, 8 qt with filter (XJ figure) · Dexron III/Mercon per the 2001 manual quote [CONFIRM FOR YOUR YEAR]",
+    "spec": "4 qt drain-and-fill, 8 qt with filter (XJ figure) · Dexron III/Mercon per the 2001 manual quote (confirm for your year)",
     "interval": "Baseline now",
     "note": "Do a pan drop and filter change, not a pressure flush.",
     "parts": [
@@ -453,7 +453,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "AX-15 and AX-5: about 3.3 qt 75W-90 GL-3/GL-4, not GL-5 (NAXJA) · BA-10/5: [CONFIRM IN MANUAL]",
+    "spec": "AX-15 and AX-5: about 3.3 qt 75W-90 GL-3/GL-4, not GL-5 (NAXJA) · BA-10/5: (check your manual)",
     "interval": "Baseline now",
     "note": "NAXJA notes some manuals wrongly list GL-5 for the Aisin boxes.",
     "parts": [
@@ -497,7 +497,7 @@
    },
    {
     "item": "Rear axle (Dana 35 / Dana 44 / 8.25)",
-    "spec": "Dana 35: 3.5 pt · 8.25: 4.4 pt (XJ figures) · Dana 44: [CONFIRM IN MANUAL] · SAE 75W-90 · friction modifier with Trac-Lok",
+    "spec": "Dana 35: 3.5 pt · 8.25: 4.4 pt (XJ figures) · Dana 44: (check your manual) · SAE 75W-90 · friction modifier with Trac-Lok",
     "interval": "Baseline now",
     "note": "Read the axle tag first. Comanche Club members note that some Dana 35s have a metal fill plug, not the rubber one most people expect.",
     "parts": [

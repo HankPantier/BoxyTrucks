@@ -785,7 +785,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "SAE 0W-20 · ≈7.7 qt with filter · drain plug 30 ft-lb, new plug and gasket",
-    "interval": "At purchase. Toyota Australia's schedule is every 6 months or 10,000 km (CarExpert, 2026); for a US LX and other markets [CONFIRM IN MANUAL]. Many owners shorten it and send samples for oil analysis.",
+    "interval": "At purchase. Toyota Australia's schedule is every 6 months or 10,000 km (CarExpert, 2026); for a US LX and other markets (check your manual). Many owners shorten it and send samples for oil analysis.",
     "note": "On a US LX 600, check that engine recall 25LA07/25LB07 has been done. Repeat oil analysis every few changes and keep the reports.",
     "parts": [
      {
@@ -807,7 +807,7 @@
    },
    {
     "item": "Engine air filter",
-    "spec": "OE-type panel filter · interval [CONFIRM IN MANUAL]",
+    "spec": "OE-type panel filter · interval (check your manual)",
     "interval": "At purchase; more often in dust",
     "note": "",
     "parts": [
@@ -838,7 +838,7 @@
    },
    {
     "item": "Spark plugs (petrol) / glow plugs (diesel)",
-    "spec": "OE-type iridium plugs (V35A) · interval [CONFIRM IN MANUAL]",
+    "spec": "OE-type iridium plugs (V35A) · interval (check your manual)",
     "interval": "Per the maintenance schedule",
     "note": "It's a twin-turbo engine, so don't assume a 120k plug interval.",
     "parts": [
@@ -857,7 +857,7 @@
    {
     "item": "Coolant",
     "spec": "Toyota Super Long Life Coolant or equivalent · ≈11.7 qt",
-    "interval": "Inspect at purchase; replacement [CONFIRM IN MANUAL]",
+    "interval": "Inspect at purchase; replacement (check your manual)",
     "note": "",
     "parts": [
      {
@@ -946,7 +946,7 @@
    },
    {
     "item": "E-KDSS / AHC suspension",
-    "spec": "Sealed hydraulic systems · fluid [CONFIRM IN MANUAL]",
+    "spec": "Sealed hydraulic systems · fluid (check your manual)",
     "interval": "Inspect at purchase",
     "note": "Check the cylinders, lines and accumulators for weeping. Lexus trucks with AHC: make sure every height mode works.",
     "parts": [

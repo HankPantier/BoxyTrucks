@@ -596,8 +596,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Grade and capacity [CONFIRM IN MANUAL]",
-    "interval": "Now, then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "spec": "Grade and capacity (check your manual)",
+    "interval": "Now, then every 3,000–5,000 mi (check your manual)",
     "note": "Find out which engine is actually in it first. 340, 383, 408 and diesel swaps are common.",
     "parts": [
      {
@@ -609,7 +609,7 @@
    },
    {
     "item": "Ignition: plugs, cap, rotor, wires",
-    "spec": "Plug gap and timing [CONFIRM IN MANUAL]",
+    "spec": "Plug gap and timing (check your manual)",
     "interval": "Now, then at every tune-up",
     "note": "By 1977 Dodge's brochure lists electronic ignition on every engine. Some owners have since fitted GM HEI distributors.",
     "parts": [
@@ -622,7 +622,7 @@
    },
    {
     "item": "Coolant, hoses, radiator & thermostat",
-    "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Coolant type and capacity (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "Big-blocks run hot in this short engine bay, and aluminum radiators are a common retrofit.",
     "parts": [
@@ -661,7 +661,7 @@
    },
    {
     "item": "Front differential (Spicer 44)",
-    "spec": "Hypoid gear oil, grade and capacity [CONFIRM IN MANUAL]",
+    "spec": "Hypoid gear oil, grade and capacity (check your manual)",
     "interval": "Change now",
     "note": "If the level keeps dropping, suspect the inner axle seals. The seal part number changed partway through 1977.",
     "parts": [
@@ -674,7 +674,7 @@
    },
    {
     "item": "Rear differential (Chrysler 9¼)",
-    "spec": "Hypoid gear oil; friction modifier if anti-spin [CONFIRM IN MANUAL]",
+    "spec": "Hypoid gear oil; friction modifier if anti-spin (check your manual)",
     "interval": "Change now",
     "note": "Anti-spin was optional with every ratio, so check the axle tag or spin a wheel before you choose an oil.",
     "parts": [
@@ -687,7 +687,7 @@
    },
    {
     "item": "Transmission fluid (A727 auto or NP435/NP445 manual)",
-    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Fluid type and capacity (check your manual)",
     "interval": "Change now (automatic: drop the pan and replace the filter)",
     "note": "The LoadFlite A727 was the automatic throughout. Manual 4x4s got the 3-speed, the NP435 'granny' 4-speed or the close-ratio NP445.",
     "parts": [
@@ -700,7 +700,7 @@
    },
    {
     "item": "Brake fluid, hoses & hardware",
-    "spec": "Fluid type [CONFIRM IN MANUAL]",
+    "spec": "Fluid type (check your manual)",
     "interval": "Flush now, then every 2 years",
     "note": "Power front discs and rear drums. Replace any original rubber hoses, and check the rear wheel cylinders.",
     "parts": [
@@ -726,7 +726,7 @@
    },
    {
     "item": "Steering box, mounting plate & pot coupler",
-    "spec": "Inspect; power-steering fluid [CONFIRM IN MANUAL]",
+    "spec": "Inspect; power-steering fluid (check your manual)",
     "interval": "Now",
     "note": "Look for cracks at the box mount. On 1978 trucks, ask whether the steering-shaft recalls were done.",
     "parts": [

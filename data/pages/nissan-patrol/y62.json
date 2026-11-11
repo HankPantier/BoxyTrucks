@@ -181,7 +181,7 @@
    "time": "≈ 2–3 hours",
    "cost": "Parts plus labor",
    "symptoms": "Harsh or late shifts, flare between gears, or fluid that's dark and smells burnt, especially on a truck that tows.",
-   "fix": "The RE7 seven-speed uses Nissan Matic-S fluid and has its filter inside the pan. Drain the fluid, drop the pan, replace the filter and pan gasket, clean the pan and refit it. Refill with Matic-S through the fill plug and set the level using the procedure in the workshop manual, which depends on fluid temperature [CONFIRM PROCEDURE IN MANUAL]. Owners who tow often fit a deeper cast pan (Patrolapart's adds 3 L) and an auxiliary cooler.",
+   "fix": "The RE7 seven-speed uses Nissan Matic-S fluid and has its filter inside the pan. Drain the fluid, drop the pan, replace the filter and pan gasket, clean the pan and refit it. Refill with Matic-S through the fill plug and set the level using the procedure in the workshop manual, which depends on fluid temperature (confirm procedure in your manual). Owners who tow often fit a deeper cast pan (Patrolapart's adds 3 L) and an auxiliary cooler.",
    "tools": "Socket set · drain tray · fluid pump · scan tool or thermometer for fluid temperature · torque wrench",
    "parts": [
     {
@@ -804,7 +804,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "6.5 L with filter, 6.2 L without (2018 and 2020 US Armada owner's manuals; Penrite's Australian Patrol data also gives 6.5 L) · Armada grade: Nissan Motor Oil 0W-20 SN, or a synthetic 0W-20 GF-5 SN (2020 manual) · Patrol grade outside the US [CONFIRM IN MANUAL] · Nissan spin-on filter (shared with the Y61 TB45/TB48)",
+    "spec": "6.5 L with filter, 6.2 L without (2018 and 2020 US Armada owner's manuals; Penrite's Australian Patrol data also gives 6.5 L) · Armada grade: Nissan Motor Oil 0W-20 SN, or a synthetic 0W-20 GF-5 SN (2020 manual) · Patrol grade outside the US (check your manual) · Nissan spin-on filter (shared with the Y61 TB45/TB48)",
     "interval": "Baseline now",
     "note": "The same genuine filter fits the GU's petrol sixes and the Y62's VK56.",
     "parts": [
@@ -920,7 +920,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Armada manual: front Nissan Hypoid Super GL-5 80W-90 (conventional, not synthetic); rear Hypoid Super-S GL-5 75W-90 synthetic (2018) or Hypoid Fluid S1 GL-5 75W-80 (2020) · front 1.6 L, rear 2.3 L (Penrite, Australian Patrol) · rear has a helical LSD and, on Patrols, an electric locker: Patrol rear grade [CONFIRM IN MANUAL]",
+    "spec": "Armada manual: front Nissan Hypoid Super GL-5 80W-90 (conventional, not synthetic); rear Hypoid Super-S GL-5 75W-90 synthetic (2018) or Hypoid Fluid S1 GL-5 75W-80 (2020) · front 1.6 L, rear 2.3 L (Penrite, Australian Patrol) · rear has a helical LSD and, on Patrols, an electric locker: Patrol rear grade (check your manual)",
     "interval": "Change now if no record, and after deep water. The Armada schedule says to change it every 20,000 mi (32,000 km) or 24 months when towing or driving rough or muddy roads.",
     "note": "Extend the breathers before wading.",
     "parts": [

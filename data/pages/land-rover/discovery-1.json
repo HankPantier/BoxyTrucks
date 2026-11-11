@@ -758,8 +758,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Grade per handbook [CONFIRM IN MANUAL] · spin-on filter (Tdi and V8 share ERR3340)",
-    "interval": "Then per manual [CONFIRM IN MANUAL]",
+    "spec": "Grade per handbook (check your manual) · spin-on filter (Tdi and V8 share ERR3340)",
+    "interval": "Then per manual (check your manual)",
     "note": "Check for a leaking oil-filter housing gasket on the 300Tdi while you're there.",
     "parts": [
      {
@@ -808,7 +808,7 @@
    {
     "item": "Timing belt (300Tdi)",
     "spec": "Revised kit (STC4096L type) with flanged crank pulley and spaced idler",
-    "interval": "Now unless documented; then per manual [CONFIRM IN MANUAL]",
+    "interval": "Now unless documented; then per manual (check your manual)",
     "note": "Early kits could let the belt track off; make sure the revised parts are fitted.",
     "parts": [
      {
@@ -856,7 +856,7 @@
    },
    {
     "item": "Coolant & hoses",
-    "spec": "Antifreeze [CONFIRM IN MANUAL for type] · 15 psi cap on Tdi",
+    "spec": "Antifreeze (check your manual for type) · 15 psi cap on Tdi",
     "interval": "Flush now; then per manual",
     "note": "300Tdi fill method from LandyZone: fill the tank to just under the mark, fit the cap, top up through the thermostat-housing plug, run it hot, then recheck when cold. The Y-piece is meant to make it self-bleeding.",
     "parts": [
@@ -892,7 +892,7 @@
    },
    {
     "item": "Manual gearbox (R380)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "Drain and refill now",
     "note": "A jerky take-off is more often the rear prop coupler than the gearbox.",
     "parts": []
@@ -917,7 +917,7 @@
    },
    {
     "item": "Swivel housings",
-    "spec": "Lubricant varies by build [CONFIRM IN MANUAL]",
+    "spec": "Lubricant varies by build (check your manual)",
     "interval": "Check now; rebuild if weeping",
     "note": "Grease on the inside of the brake disc points to failed hub or swivel seals.",
     "parts": [
@@ -948,7 +948,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Land Rover brake fluid [CONFIRM IN MANUAL for grade]",
+    "spec": "Land Rover brake fluid (check your manual for grade)",
     "interval": "Flush now; then per manual",
     "note": "",
     "parts": [

@@ -331,7 +331,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "5W-30 (−30 to +40 °C) or 10W-30 · 4.5 L (3.0 V6) / 8.3 L (2.8 diesel)",
-    "interval": "Now, then per the manual [CONFIRM IN MANUAL]",
+    "interval": "Now, then per the manual (check your manual)",
     "note": "A Delica Canada member lists Baldwin B7121 (tall) and BD7028 (short) oil filters for the 4M40.",
     "parts": [
      {
@@ -348,7 +348,7 @@
    },
    {
     "item": "Air filter",
-    "spec": "Panel element [CONFIRM IN MANUAL]",
+    "spec": "Panel element (check your manual)",
     "interval": "Inspect at every oil change",
     "note": "One owner found a K&N element didn't fit: the stock element is closed at the bottom and seals in the middle. JAOS still lists a BATTLEZ air cleaner for petrol Space Gears.",
     "parts": [
@@ -384,7 +384,7 @@
    },
    {
     "item": "Spark plugs (V6) / glow plugs (diesel)",
-    "spec": "V6: NGK PFR6J-11 or Denso PK20PR-P11 · diesel: glow plugs [CONFIRM IN MANUAL]",
+    "spec": "V6: NGK PFR6J-11 or Denso PK20PR-P11 · diesel: glow plugs (check your manual)",
     "interval": "Plugs now if there are no records; glow plugs when starting slows",
     "note": "A failing glow-plug relay or controller can mimic bad plugs; one member's starting got worse after fitting new ones.",
     "parts": [
@@ -491,7 +491,7 @@
    {
     "item": "Timing belt (V6) / timing chain (diesel)",
     "spec": "6G72: belt, tensioner, water pump · 4M40: chain",
-    "interval": "V6 belt now with no receipt [CONFIRM IN MANUAL]; diesel chain when it's noisy",
+    "interval": "V6 belt now with no receipt (check your manual); diesel chain when it's noisy",
     "note": "An Expedition Portal owner's 1996 diesel needed a timing chain along with glow plugs and CV joints.",
     "parts": [
      {
@@ -508,7 +508,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "Flush now",
     "note": "Check the rear calipers for sticking while the wheels are off.",
     "parts": [

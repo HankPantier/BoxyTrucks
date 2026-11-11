@@ -780,7 +780,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "3F-E: 7.8 L (8.2 US qt) with filter change, 7.0 L without, 8.0 L dry (Toyota 3F-E repair manual supplement) · API SC–SF or better; Toyota's temperature chart runs from 5W-30 for cold climates to 20W-50 for hot ones, with 10W-30 and 15W-40 between",
-    "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "interval": "Then every 3,000–5,000 mi (check your manual)",
     "note": "Fill to the dipstick, not a number: the oil cooler holds some oil, and IH8MUD owners report 7–8.5 qt depending on how fully it drained. Pre-filling the filter helps.",
     "parts": [
      {
@@ -816,7 +816,7 @@
    {
     "item": "Ignition tune-up & PCV",
     "spec": "Plugs, wires, cap, rotor and PCV valve · plugs ND W16EXR-U or NGK BPR5EY, gapped 0.8 mm (0.031 in) (Toyota 3F-E repair manual supplement)",
-    "interval": "Now, then per the owner's manual [CONFIRM IN MANUAL]",
+    "interval": "Now, then per the owner's manual (check your manual)",
     "note": "The F-series is an OHV engine (Wikipedia), so there is no timing belt to budget for. IH8MUD members start rough-idle hunts with a tune-up and a full set of vacuum hoses.",
     "parts": [
      {
@@ -844,7 +844,7 @@
    {
     "item": "Coolant & hoses",
     "spec": "Ethylene-glycol coolant · 17.5 L with the front heater only, 19.5 L with front and rear heaters (Toyota 3F-E repair manual supplement); an IH8MUD compilation of Toyota data lists 16.5 L",
-    "interval": "Flush now, then every 2 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now, then every 2 years (check your manual)",
     "note": "Replace any hose that is hard or swollen, and check the upper thermostat housing and radiator for old repairs; overheating history matters on a big iron six.",
     "parts": [
      {
@@ -862,7 +862,7 @@
    {
     "item": "A440F automatic transmission",
     "spec": "Dexron II ATF · 5 L drain-and-refill, 15 L dry fill (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "A drain-and-refill only changes about a third of the fluid, so do two or three a few hundred miles apart on unknown fluid rather than a pressure flush. Drop the pan and change the strainer once.",
     "parts": [
      {
@@ -875,21 +875,21 @@
    {
     "item": "Transfer case",
     "spec": "API GL-4 or GL-5, SAE 90 · 2.1 L with the A440F (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Fill until it runs out of the fill hole, and remove the fill plug before the drain plug.",
     "parts": []
    },
    {
     "item": "Front differential",
     "spec": "API GL-5 hypoid gear oil, SAE 80W-90 · 3.0 L (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Milky oil means water got in through the breather or seals, common after deep crossings.",
     "parts": []
    },
    {
     "item": "Rear differential",
     "spec": "API GL-5 hypoid gear oil, SAE 80W-90 · 2.5 L; LSD oil if fitted with a limited-slip (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Check the pinion seal and axle-end seals for weeps while you're under there.",
     "parts": []
    },
@@ -927,7 +927,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 3 / SAE J1703 (Toyota publications via IH8MUD)",
-    "interval": "Flush now, then every 2 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now, then every 2 years (check your manual)",
     "note": "Old fluid in a 30-year-old system means sticky calipers and corroded lines; inspect the hard lines while bleeding.",
     "parts": [
      {

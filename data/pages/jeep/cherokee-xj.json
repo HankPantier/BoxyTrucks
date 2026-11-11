@@ -168,7 +168,7 @@
    "cost": "Parts plus labor",
    "symptoms": "Unexplained coolant loss, brown or dirty coolant, milky residue under the oil cap, and often a recent overheat. Wikipedia says the crack sits between cylinders 3 and 4 and often shows as a tan line with the valve cover off.",
    "fix": "Confirm with a cooling-system pressure test and by looking through the oil filler (no 'TUPY' mark means an original 0331). Drain the coolant and remove the intake and exhaust manifolds, the coil rail, the valve cover and the rocker assemblies, keeping pushrods in order. Remove the head bolts and lift the head off. Change the oil and filter, then flush the oil again after the first short run to get coolant out. Fit a revised or aftermarket head; never another 0331, and confirm the casting with the seller before you buy (Wikipedia notes even 'TUPY' heads occasionally crack). Use a new gasket and head bolts, torque in sequence to the service-manual spec, then refill and bleed the cooling system. Fix the cooling problem that probably caused the crack.",
-   "tools": "Torque wrench · head bolt sequence and spec from FSM [CONFIRM IN MANUAL] · gasket scraper · pushrod organizer · coolant pressure tester",
+   "tools": "Torque wrench · head bolt sequence and spec from FSM (check your manual) · gasket scraper · pushrod organizer · coolant pressure tester",
    "parts": [
     {
      "name": "Crown Automotive 53010334 cylinder head, 1999–2006 TJ/XJ 4.0L (listing doesn't state the casting; confirm it isn't an 0331 before buying)",
@@ -495,7 +495,7 @@
    },
    {
     "item": "Automatic transmission (AW4)",
-    "spec": "Dexron III/Mercon per the NAXJA summary (ExtremeTerrain lists ATF+4; a NAXJA reply says Chrysler approved ATF+4 for the AW4 from late 2007) · 4 qt drain-and-fill, 8 qt with filter [CONFIRM IN MANUAL]",
+    "spec": "Dexron III/Mercon per the NAXJA summary (ExtremeTerrain lists ATF+4; a NAXJA reply says Chrysler approved ATF+4 for the AW4 from late 2007) · 4 qt drain-and-fill, 8 qt with filter (check your manual)",
     "interval": "Baseline now",
     "note": "Do a pan drop and filter change, not a pressure flush. Check the throttle-valve cable adjustment if shifts are harsh or late.",
     "parts": [
@@ -513,7 +513,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "AX-15: 3.32 qt 75W-90 GL-3/GL-4 (not GL-5) · AX-5: 3.3 qt same · NV3550: 2.1 qt Mopar 04874464AA or equivalent · ExtremeTerrain lists GL-5 for the AX-15 and AX-5 [CONFIRM IN MANUAL]",
+    "spec": "AX-15: 3.32 qt 75W-90 GL-3/GL-4 (not GL-5) · AX-5: 3.3 qt same · NV3550: 2.1 qt Mopar 04874464AA or equivalent · ExtremeTerrain lists GL-5 for the AX-15 and AX-5 (check your manual)",
     "interval": "Baseline now",
     "note": "NAXJA notes some owner's manuals wrongly list GL-5 for the Aisin boxes.",
     "parts": [
@@ -526,7 +526,7 @@
    },
    {
     "item": "Transfer case (NP231 / NP242)",
-    "spec": "NP231: 2.2 pt (1.0 L) · NP242: 2.85 pt (1.3 L) · Dexron III/Mercon or ATF+3/ATF+4 · ExtremeTerrain lists 1.6 qt ATF+4 for the NP231 [CONFIRM IN MANUAL]",
+    "spec": "NP231: 2.2 pt (1.0 L) · NP242: 2.85 pt (1.3 L) · Dexron III/Mercon or ATF+3/ATF+4 · ExtremeTerrain lists 1.6 qt ATF+4 for the NP231 (check your manual)",
     "interval": "Baseline now",
     "note": "If it pops out of 4WD or is hard to shift back to 2WD, the case may be worn.",
     "parts": [
@@ -629,7 +629,7 @@
    },
    {
     "item": "Brake fluid & rear brakes",
-    "spec": "Brake fluid per the master-cylinder cap [CONFIRM IN MANUAL]",
+    "spec": "Brake fluid per the master-cylinder cap (check your manual)",
     "interval": "Flush now; then every 2 years",
     "note": "Larger tires may need more brake-pedal effort. Rear drums on most XJs need adjusting and fresh hardware.",
     "parts": [
@@ -642,7 +642,7 @@
    },
    {
     "item": "Steering box & power steering",
-    "spec": "Power-steering fluid [CONFIRM TYPE IN MANUAL]",
+    "spec": "Power-steering fluid (confirm type in your manual)",
     "interval": "Inspect now",
     "note": "Check the box for seepage, and check the unibody around the box mount for cracks.",
     "parts": [
@@ -688,7 +688,7 @@
   },
   {
    "q": "What fluids and capacities does it take?",
-   "a": "Per a NAXJA member's capacity summary (year not stated): 4.0 oil 6 qt with filter, coolant 10.5 qt, AW4 4 qt drain-and-fill (Dexron III/Mercon), NP231 2.2 pt, Dana 30 2.5 pt 75W-90, Dana 35 3.5 pt, 8.25 4.4 pt, plus friction modifier for Trac-Lok. ExtremeTerrain lists ATF+4 for the AW4, 12 qt of coolant, 1.6 qt for the NP231 and GL-5 oil for the AX-15, so the sources conflict: check your manual [CONFIRM IN MANUAL]. See 'After you buy it' for the full list.",
+   "a": "Per a NAXJA member's capacity summary (year not stated): 4.0 oil 6 qt with filter, coolant 10.5 qt, AW4 4 qt drain-and-fill (Dexron III/Mercon), NP231 2.2 pt, Dana 30 2.5 pt 75W-90, Dana 35 3.5 pt, 8.25 4.4 pt, plus friction modifier for Trac-Lok. ExtremeTerrain lists ATF+4 for the AW4, 12 qt of coolant, 1.6 qt for the NP231 and GL-5 oil for the AX-15, so the sources conflict: check your manual (check your manual). See 'After you buy it' for the full list.",
    "src": "NAXJA · EXTREMETERRAIN"
   },
   {

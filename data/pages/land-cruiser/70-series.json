@@ -691,7 +691,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "1VD-FTV: ≈9.5 L with filter, SAE 5W-30 ACEA C2 (Roughtrax; its table mislabels the engine, so confirm) · 1HZ: 9.5 L with filter, API CD (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "On post-2016 DPF trucks a low-ash C-spec oil matters; don't fill one with old-school high-ash diesel oil.",
     "parts": [
      {
@@ -727,7 +727,7 @@
    {
     "item": "Fuel filter & water separator",
     "spec": "Diesel filter element; drain the separator",
-    "interval": "Replace now if there's no record, then per the manual [CONFIRM IN MANUAL]",
+    "interval": "Replace now if there's no record, then per the manual (check your manual)",
     "note": "Imported or outback-fuelled trucks may have seen dirty diesel; cheap insurance for injectors.",
     "parts": [
      {
@@ -757,7 +757,7 @@
    },
    {
     "item": "Manual gearbox",
-    "spec": "V8: GL-4 75W-90 per Unsealed and 70 Series Store, which both warn against GL-5 (Roughtrax lists GL-4 or GL-5) · V8 capacity: Roughtrax says 2.7 L, 70 Series Store about 4.5 L [CONFIRM IN MANUAL] · 1HZ: 4.9 L, GL-4 or GL-5 SAE 90 (Toyota 1991 owner's manual)",
+    "spec": "V8: GL-4 75W-90 per Unsealed and 70 Series Store, which both warn against GL-5 (Roughtrax lists GL-4 or GL-5) · V8 capacity: Roughtrax says 2.7 L, 70 Series Store about 4.5 L (check your manual) · 1HZ: 4.9 L, GL-4 or GL-5 SAE 90 (Toyota 1991 owner's manual)",
     "interval": "Change now on an unknown truck",
     "note": "Unsealed: GL-5's extreme-pressure additives attack the brass synchros, so crunchy 2nd–3rd shifts can be the wrong oil.",
     "parts": [
@@ -771,21 +771,21 @@
    {
     "item": "Transfer case",
     "spec": "VDJ79: 1.5 L, SAE 75W-90 GL-4/GL-5 (Roughtrax) · 1HZ: 2.2 L, SAE 90 GL-4/GL-5 (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Part-time two-speed case; check for weeps at the output seals.",
     "parts": []
    },
    {
     "item": "Front differential",
     "spec": "VDJ79 with diff lock: 2.8 L, 75W-85 GL-5 (Roughtrax) · 1HZ: 2.6 L, GL-5 (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "Check the breathers after any water crossing; milky oil means water got in.",
     "parts": []
    },
    {
     "item": "Rear differential",
     "spec": "VDJ79: 2.4 L, 75W-85 GL-5; LSD axles take Toyota-specific LSD oil (Roughtrax) · 1HZ: 2.5 L, GL-5 (Toyota publications via IH8MUD)",
-    "interval": "Then per the owner's manual schedule [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual schedule (check your manual)",
     "note": "If the truck has a factory rear locker, test it on a low-traction surface.",
     "parts": []
    },
@@ -809,7 +809,7 @@
    },
    {
     "item": "Power steering fluid",
-    "spec": "Dexron-II ATF on older 70s (Toyota 1991 owner's manual) · V8: [CONFIRM IN MANUAL]",
+    "spec": "Dexron-II ATF on older 70s (Toyota 1991 owner's manual) · V8: (check your manual)",
     "interval": "Refresh if dark",
     "note": "Check the box and hoses for weeps, and the drag link and tie-rod ends for play while you're there.",
     "parts": []
@@ -817,7 +817,7 @@
    {
     "item": "Brake & clutch fluid",
     "spec": "DOT 3 or 4, SAE J1703 (Roughtrax)",
-    "interval": "Flush now, then every 2 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now, then every 2 years (check your manual)",
     "note": "A soft or high-biting clutch on a tuned V8 is the clutch itself (Unsealed), not the fluid; test it under load.",
     "parts": []
    },

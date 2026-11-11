@@ -725,7 +725,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "MB 229.5 synthetic on M112/M113 · G 500 (M113) ≈8.0 L (8.5 qt) with filter · M103/M104 [CONFIRM IN MANUAL]",
+    "spec": "MB 229.5 synthetic on M112/M113 · G 500 (M113) ≈8.0 L (8.5 qt) with filter · M103/M104 (check your manual)",
     "interval": "Now, then yearly",
     "note": "M112/M113 use a top-mounted cartridge filter (74 mm, 14-flute cap wrench). The listed filter fits the 1998-on V6 and V8 only.",
     "parts": [
@@ -738,7 +738,7 @@
    },
    {
     "item": "Air filter",
-    "spec": "M112/M113: paired elements · M103/M104 [CONFIRM IN MANUAL]",
+    "spec": "M112/M113: paired elements · M103/M104 (check your manual)",
     "interval": "Now",
     "note": "",
     "parts": [
@@ -751,7 +751,7 @@
    },
    {
     "item": "Spark plugs & wires",
-    "spec": "M112/M113: twin-plug heads (12 or 16 plugs), Bosch FR8DPP33 · M103/M104: 6 plugs [CONFIRM IN MANUAL]",
+    "spec": "M112/M113: twin-plug heads (12 or 16 plugs), Bosch FR8DPP33 · M103/M104: 6 plugs (check your manual)",
     "interval": "Now if no record",
     "note": "Oil in the plug wells points to valve-cover or (on the M104) head-gasket leaks.",
     "parts": [
@@ -777,7 +777,7 @@
    },
    {
     "item": "Automatic transmission",
-    "spec": "G 500: 722.6 5-speed, MB 236.14 ATF, ≈9 qt total · 4-speed (I6): ATF per its MB 236.x sheet [CONFIRM IN MANUAL]",
+    "spec": "G 500: 722.6 5-speed, MB 236.14 ATF, ≈9 qt total · 4-speed (I6): ATF per its MB 236.x sheet (check your manual)",
     "interval": "Now, then every 40,000–60,000 mi",
     "note": "On the 722.6, replace the 13-pin connector sleeve and set the level hot with the dipstick tool.",
     "parts": [
@@ -795,14 +795,14 @@
    },
    {
     "item": "Transfer case",
-    "spec": "GL-4 gear oil · ≈3 qt (1997 G 320) — later cases may differ; check the tag [CONFIRM IN MANUAL]",
+    "spec": "GL-4 gear oil · ≈3 qt (1997 G 320) — later cases may differ; check the tag (check your manual)",
     "interval": "Now, then every 60,000 mi (MB interval quoted by owners)",
     "note": "Owners find these filled with diff oil by mistake. Fill on the front right, drain underneath, 14 mm hex.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "GL-5 hypoid gear oil (a 1997 G 320 owner used Red Line 75W-90) · front ≈1.4 L, rear ≈1.8 L (owner and AMSOIL figures) [CONFIRM IN MANUAL]",
+    "spec": "GL-5 hypoid gear oil (a 1997 G 320 owner used Red Line 75W-90) · front ≈1.4 L, rear ≈1.8 L (owner and AMSOIL figures) (check your manual)",
     "interval": "Now",
     "note": "Loosen the fill plug before draining; drain plug to ≈60 Nm (owner figure). Test each lock afterwards.",
     "parts": [
@@ -872,7 +872,7 @@
    },
    {
     "item": "Fuel filter",
-    "spec": "M112/M113: 002 477 30 01 · others [CONFIRM IN MANUAL]",
+    "spec": "M112/M113: 002 477 30 01 · others (check your manual)",
     "interval": "Now if no record",
     "note": "",
     "parts": [

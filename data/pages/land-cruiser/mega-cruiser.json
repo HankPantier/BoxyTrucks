@@ -164,7 +164,7 @@
    "cost": "Gear oil plus your time",
    "symptoms": "No records, weeping seals at the hub housings or diffs, or noise from the driveline.",
    "fix": "Drain and refill both differentials, the transfer case and all four hub-reduction housings with the oils specified in the factory manual. One BaT seller had the differentials serviced with fresh fluid before sale. Look for metal on the drain plugs and leaking seals while you're there.",
-   "tools": "Factory manual for fill levels [CONFIRM IN MANUAL] · drain pans · fluid pump",
+   "tools": "Factory manual for fill levels (check your manual) · drain pans · fluid pump",
    "parts": []
   },
   {
@@ -538,56 +538,56 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Diesel engine oil for the 15B-FT/FTE · [CONFIRM IN MANUAL]",
+    "spec": "Diesel engine oil for the 15B-FT/FTE · check your manual",
     "interval": "At purchase",
     "note": "The 15B family was also used in Toyota's Dyna light trucks, which may help with filter sourcing.",
     "parts": []
    },
    {
     "item": "Fuel filter",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "At purchase",
     "note": "BaT trucks had theirs replaced after import.",
     "parts": []
    },
    {
     "item": "Air filter",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "At purchase",
     "note": "",
     "parts": []
    },
    {
     "item": "Coolant & hoses",
-    "spec": "Toyota long-life coolant type · [CONFIRM IN MANUAL]",
+    "spec": "Toyota long-life coolant type · check your manual",
     "interval": "At purchase",
     "note": "One BaT truck needed a new coolant reservoir hose.",
     "parts": []
    },
    {
     "item": "Automatic transmission",
-    "spec": "ATF to the factory spec · [CONFIRM IN MANUAL]",
+    "spec": "ATF to the factory spec · check your manual",
     "interval": "Drain and fill at purchase",
     "note": "Four-speed lockup automatic.",
     "parts": []
    },
    {
     "item": "Transfer case",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "At purchase",
     "note": "Test the centre diff lock and low range.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Gear oil suitable for Torsen LSDs · [CONFIRM IN MANUAL]",
+    "spec": "Gear oil suitable for Torsen LSDs · check your manual",
     "interval": "At purchase",
     "note": "Test both diff locks.",
     "parts": []
    },
    {
     "item": "Hub-reduction housings (×4)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "At purchase",
     "note": "Check for seal leaks and play, and listen for gear noise.",
     "parts": []
@@ -601,7 +601,7 @@
    },
    {
     "item": "4WS hydraulics",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "Inspect at purchase",
     "note": "The rear steer centres on a spring if the hydraulics fail, so a truck can drive normally with the 4WS dead.",
     "parts": []

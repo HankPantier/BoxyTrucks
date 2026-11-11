@@ -250,7 +250,7 @@
    "diff": "2 / 5",
    "time": "An afternoon",
    "cost": "Diagnosis-dependent",
-   "symptoms": "One or all locks refuse to engage or drop out, indicator lights flash or stay off. The fault is usually actuation, not the differential. On a 2005 G 500 an MBWorld owner found the centre lock vacuum-operated and the front and rear locks hydraulic, so check both circuits. Mercedes' 2013 US and 2016 Canadian booklets confirm the G 550's lock mechanism runs on brake fluid from its own reservoir; whether your year's centre lock is vacuum-operated [CONFIRM IN MANUAL for your year].",
+   "symptoms": "One or all locks refuse to engage or drop out, indicator lights flash or stay off. The fault is usually actuation, not the differential. On a 2005 G 500 an MBWorld owner found the centre lock vacuum-operated and the front and rear locks hydraulic, so check both circuits. Mercedes' 2013 US and 2016 Canadian booklets confirm the G 550's lock mechanism runs on brake fluid from its own reservoir; whether your year's centre lock is vacuum-operated (check your manual for your year).",
    "fix": "Follow the same path MBWorld owners use on earlier W463s: confirm vacuum at the transfer case, then work back through the reservoir, lines and switchover valves with a gauge teed into each segment until you find the split line or connector. Exercise the locks regularly once fixed — disuse is their enemy.",
    "tools": "Hand vacuum pump with gauge · vacuum tees and line · replacement connectors",
    "parts": [
@@ -868,14 +868,14 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Gear oil, not ATF, if your truck has the VG 150 E case: Mercedes' WIS fluid table, as reproduced for a 2011 G 55 (W463), lists SAE 80, 80W or 80W-85 for it (SAE 90 or 85W-90 in hot climates) · capacity [CONFIRM IN MANUAL]",
+    "spec": "Gear oil, not ATF, if your truck has the VG 150 E case: Mercedes' WIS fluid table, as reproduced for a 2011 G 55 (W463), lists SAE 80, 80W or 80W-85 for it (SAE 90 or 85W-90 in hot climates) · capacity (check your manual)",
     "interval": "Now if no record. Mercedes: every 50,000 mi or 5 years (2013 US booklet); every 120,000 km (Canadian 2016 booklet)",
     "note": "Two-speed, 50:50 case with the centre lock. Check for weeps at the input and output seals while you’re underneath.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil. FCP Euro lists 75W-90 GL-5 for 2009–2014 G 550s, and the WIS table (approval sheet 235.0) allows 75W-90, 80W-90, 85W-90 or 90 for hypoid axles · capacities [CONFIRM IN MANUAL]",
+    "spec": "Hypoid gear oil. FCP Euro lists 75W-90 GL-5 for 2009–2014 G 550s, and the WIS table (approval sheet 235.0) allows 75W-90, 80W-90, 85W-90 or 90 for hypoid axles · capacities (check your manual)",
     "interval": "Now if no record. Mercedes: every 50,000 mi or 5 years (2013 US booklet); every 80,000 km or 4 years (Canadian 2016 booklet)",
     "note": "Both axles carry 100% lockers. Look for gear oil on the inner front wheels and brakes — the front axle seals are a known leak point.",
     "parts": [

@@ -214,7 +214,7 @@
    "cost": "Parts plus labor",
    "symptoms": "Stalling when slowing or at a stop, a rough idle, a check-engine light and, in one NHTSA report, fuel-fouled spark plugs.",
    "fix": "Disconnect the battery and remove the intake cover and air intake. Label and disconnect the vacuum lines, wiring and throttle linkage, unbolt the upper plenum, then the lower intake manifold if it's leaking too. Clean every sealing surface without gouging the aluminium, fit new gaskets, and torque the bolts in the factory sequence. Replace the plugs if they're fouled and clear any stored codes.",
-   "tools": "Socket set with extensions · torque wrench · plastic scraper · masking tape for labels · factory torque sequence [CONFIRM IN MANUAL].",
+   "tools": "Socket set with extensions · torque wrench · plastic scraper · masking tape for labels · factory torque sequence (check your manual).",
    "parts": [
     {
      "name": "Intake plenum gasket",
@@ -458,7 +458,7 @@
    {
     "item": "Timing belt, tensioner, idlers & water pump",
     "spec": "Full kit",
-    "interval": "Now if there's no record; owners plan around 75,000–100,000 mi [CONFIRM IN MANUAL]",
+    "interval": "Now if there's no record; owners plan around 75,000–100,000 mi (check your manual)",
     "note": "Both V6s have belt-driven cams.",
     "parts": [
      {

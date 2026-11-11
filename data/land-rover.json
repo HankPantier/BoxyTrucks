@@ -338,7 +338,7 @@
     "time": "≈ 1 hour both sides for a shim/preload adjustment; longer for a full rebuild",
     "cost": "Parts plus labor",
     "symptoms": "Grease or oil weeping from the swivel seal, pitted chrome ball, wobbly or vague steering.",
-    "fix": "Support the chassis on stands, pull the wheels and disconnect the track rod. Rebuild with new bearings, seals and gaskets, fit the swivel pins with shims, torque lower then upper bolts, and check turning effort with a spring balance at the track-rod bore before fitting the seal. Workshop-manual text quoted on Defender2: 1.16–1.46 kg once initial inertia is overcome, with the swivel bearing housing-to-axle bolts at 73 Nm, lower swivel pin bolts at 25 Nm and top pin bolts at 65 Nm (thread sealant STC50552 on the pin bolts). The manuals disagree, though: a RAVE table quoted on AULRO matches those bolt torques (65 Nm upper, 25 Nm lower, 73 Nm housing-to-axle), but a 05/99 workshop-manual table quoted in the same thread gives 78 Nm for both upper and lower pins, and a Defender2 owner reports the older manual's 22–28 Nm lower figure against 78 Nm in a newer one. The 1983–1995 workshop manual and Haynes give a turning effort of 3.6–4.5 kg rather than 1.16–1.46 kg. Use the manual for your exact axle [CONFIRM IN MANUAL]. Add or remove top-pin shims to adjust, then refill with one-shot grease.",
+    "fix": "Support the chassis on stands, pull the wheels and disconnect the track rod. Rebuild with new bearings, seals and gaskets, fit the swivel pins with shims, torque lower then upper bolts, and check turning effort with a spring balance at the track-rod bore before fitting the seal. Workshop-manual text quoted on Defender2: 1.16–1.46 kg once initial inertia is overcome, with the swivel bearing housing-to-axle bolts at 73 Nm, lower swivel pin bolts at 25 Nm and top pin bolts at 65 Nm (thread sealant STC50552 on the pin bolts). The manuals disagree, though: a RAVE table quoted on AULRO matches those bolt torques (65 Nm upper, 25 Nm lower, 73 Nm housing-to-axle), but a 05/99 workshop-manual table quoted in the same thread gives 78 Nm for both upper and lower pins, and a Defender2 owner reports the older manual's 22–28 Nm lower figure against 78 Nm in a newer one. The 1983–1995 workshop manual and Haynes give a turning effort of 3.6–4.5 kg rather than 1.16–1.46 kg. Use the manual for your exact axle (check your manual). Add or remove top-pin shims to adjust, then refill with one-shot grease.",
     "tools": "Axle stands, spring balance, vernier, torque wrench · Rovers North RNA3178 swivel rebuild kit with ball (1994–98 Defender, one side) · one-shot grease",
     "parts": [
      {
@@ -1129,7 +1129,7 @@
     },
     {
      "item": "Glow plugs / spark plugs",
-     "spec": "Tdi: ETC8847 glow plugs ×4. V8: Rovers North lists ERR3799 for the 3.5/3.9/4.0/4.2 EFI V8; gap [CONFIRM IN MANUAL]",
+     "spec": "Tdi: ETC8847 glow plugs ×4. V8: Rovers North lists ERR3799 for the 3.5/3.9/4.0/4.2 EFI V8; gap (check your manual)",
      "interval": "At purchase if there's no record, or if cold starts are slow",
      "note": "A cold start that smokes and stumbles on a Tdi usually means one or more glow plugs have failed.",
      "parts": [
@@ -1237,7 +1237,7 @@
      "item": "Swivel housings",
      "spec": "Early trucks: EP90 · 0.35 L per side (handbook). From about 1994: one-shot swivel grease STC3435, one sachet per side",
      "interval": "Check at purchase and every service. Comma says change every 40,000 km / 24 months",
-     "note": "Lucky8 lists the STC3435 sachet for the NAS Defender 90 ('94–'97) and the Defender 110 ('93), but a 1997 NAS D90 data set still lists 0.35 L of EP oil, and JC's British 4x4's 52,500 km service checklist for the NAS 90 and 110 also calls for EP gear oil in the swivels, so check what is actually in yours before topping up [CONFIRM IN MANUAL]. An AULRO owner's 1994 swivel took about 450 ml to reach the level plug, so fill until it just dribbles out. Weeping seals mean the chrome ball is pitted. See the repairs above.",
+     "note": "Lucky8 lists the STC3435 sachet for the NAS Defender 90 ('94–'97) and the Defender 110 ('93), but a 1997 NAS D90 data set still lists 0.35 L of EP oil, and JC's British 4x4's 52,500 km service checklist for the NAS 90 and 110 also calls for EP gear oil in the swivels, so check what is actually in yours before topping up (check your manual). An AULRO owner's 1994 swivel took about 450 ml to reach the level plug, so fill until it just dribbles out. Weeping seals mean the chrome ball is pitted. See the repairs above.",
      "parts": [
       {
        "name": "Swivel housing grease sachet STC3435",

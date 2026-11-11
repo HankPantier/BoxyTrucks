@@ -702,7 +702,7 @@
    {
     "item": "Engine oil & filters (Td5)",
     "spec": "5W-30 fully synthetic (as used by the dealer, per discovery2.co.uk) · 7.2 L · spin-on filter plus centrifugal rotor filter",
-    "interval": "Now; then per service schedule [CONFIRM IN MANUAL]",
+    "interval": "Now; then per service schedule (check your manual)",
     "note": "Change both filters. The rotor filter sits next to the turbo under a lid held by two 10 mm bolts (10 Nm); sump plug 17 mm, 23 Nm with a new washer.",
     "parts": [
      {
@@ -719,7 +719,7 @@
    },
    {
     "item": "Engine oil & filter (V8)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "Now",
     "note": "A service kit covers oil, air and fuel filters in one order.",
     "parts": [
@@ -819,7 +819,7 @@
    },
    {
     "item": "Coolant, hoses & thermostat",
-    "spec": "Antifreeze type [CONFIRM IN MANUAL]",
+    "spec": "Antifreeze type (check your manual)",
     "interval": "Flush now",
     "note": "On a V8, replace the thermostat, hoses and viscous coupling as a set unless there are receipts; owners treat cooling as the V8's life insurance.",
     "parts": [
@@ -837,7 +837,7 @@
    },
    {
     "item": "Automatic gearbox",
-    "spec": "ATF [CONFIRM IN MANUAL] · about 4–5 L drains from the pan",
+    "spec": "ATF (check your manual) · about 4–5 L drains from the pan",
     "interval": "Drain, new filter and gasket now; second drain a few hundred miles later",
     "note": "Pan drain plug 15 Nm, pan bolts 8 Nm, fill plug 30 Nm. Fill through the side plug with the engine running until a 2 mm bead runs out. A 2000 NHTSA recall (00V377) covered water getting into the ATF through the breather.",
     "parts": []
@@ -888,7 +888,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "[CONFIRM IN MANUAL for grade]",
+    "spec": "(check your manual for grade)",
     "interval": "Flush now",
     "note": "Old fluid is one cause of the ABS 'three amigos'.",
     "parts": [

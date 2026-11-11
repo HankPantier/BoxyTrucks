@@ -840,7 +840,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Oil grade per manual for your engine [CONFIRM IN MANUAL]",
+    "spec": "Oil grade per manual for your engine (check your manual)",
     "interval": "At purchase, then per manual",
     "note": "Filters differ by engine: 300 GD/240 GD, 280 GE, 230 GE and 230 G (M115) each have their own part.",
     "parts": [
@@ -904,7 +904,7 @@
    },
    {
     "item": "Spark plugs / ignition (petrol)",
-    "spec": "Engine-specific plug [CONFIRM IN MANUAL]",
+    "spec": "Engine-specific plug (check your manual)",
     "interval": "At purchase",
     "note": "Classic & Sports Car says poor running is often caused by vacuum leaks, so check the hoses while you're there.",
     "parts": [
@@ -927,7 +927,7 @@
    },
    {
     "item": "Coolant, radiator & thermostat",
-    "spec": "Mercedes-approved coolant [CONFIRM IN MANUAL]",
+    "spec": "Mercedes-approved coolant (check your manual)",
     "interval": "At purchase; coolant every few years",
     "note": "Classic & Sports Car warns of overheating and head warping, and says an old radiator is probably clogged. Pressure-test the system and replace a tired radiator.",
     "parts": [
@@ -950,7 +950,7 @@
    },
    {
     "item": "Gearbox oil (manual) or ATF & filter (automatic)",
-    "spec": "Per manual [CONFIRM IN MANUAL]",
+    "spec": "Per manual (check your manual)",
     "interval": "At purchase",
     "note": "Automatics take a filter and O-ring. Check manual boxes for noise and clonks (Classic & Sports Car).",
     "parts": [
@@ -973,7 +973,7 @@
    },
    {
     "item": "Transfer case (VG 080) oil",
-    "spec": "Per manual [CONFIRM IN MANUAL]",
+    "spec": "Per manual (check your manual)",
     "interval": "At purchase",
     "note": "Look for leaks at the three output flanges while it drains.",
     "parts": [
@@ -986,7 +986,7 @@
    },
    {
     "item": "Front & rear differential oil",
-    "spec": "Hypoid gear oil per manual [CONFIRM IN MANUAL]",
+    "spec": "Hypoid gear oil per manual (check your manual)",
     "interval": "At purchase; after deep water crossings",
     "note": "Fit new drain/fill plugs and cover gaskets if they're weeping.",
     "parts": [
@@ -1004,7 +1004,7 @@
    },
    {
     "item": "Locker hydraulics",
-    "spec": "Fluid per manual [CONFIRM IN MANUAL]",
+    "spec": "Fluid per manual (check your manual)",
     "interval": "At purchase",
     "note": "Bleed the system and test both locks. Locker lines are paired with the brake hoses on a W460, so replace aged flex lines together.",
     "parts": [
@@ -1022,7 +1022,7 @@
    },
    {
     "item": "Brake fluid & hoses",
-    "spec": "DOT 4 [CONFIRM IN MANUAL]",
+    "spec": "DOT 4 (check your manual)",
     "interval": "At purchase, then every 2 years",
     "note": "Check calipers, rotors and the rear drums on early trucks.",
     "parts": [
@@ -1040,7 +1040,7 @@
    },
    {
     "item": "Steering box & power steering",
-    "spec": "Fluid type marked on cap [CONFIRM IN MANUAL]",
+    "spec": "Fluid type marked on cap (check your manual)",
     "interval": "At purchase",
     "note": "Classic & Sports Car lists steering box leaks as a standard check. Replace the pump filter.",
     "parts": [

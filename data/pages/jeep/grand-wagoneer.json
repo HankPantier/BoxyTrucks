@@ -213,7 +213,7 @@
    "cost": "$500–1,000 at a shop (Hagerty)",
    "symptoms": "Oil dripping from where the engine meets the transmission, with no obvious leak above it. Hagerty lists rear main leaks as a common 360 fault.",
    "fix": "Rule out the valve covers, intake and oil-pressure sender first, because oil runs downhill to the bellhousing. Then drain the oil, support the engine, and drop the oil pan; on a full-size Jeep, front axle and crossmember clearance make this the hard part. Remove the rear main cap, pull both seal halves, clean the grooves, install the new seal, refit the cap to the factory torque spec, and refit the pan with a new gasket. Fill and check for leaks after a heat cycle.",
-   "tools": "Floor jack and stands · engine support · torque wrench · seal pick · RTV per seal instructions · factory service manual for torque specs [CONFIRM IN MANUAL]",
+   "tools": "Floor jack and stands · engine support · torque wrench · seal pick · RTV per seal instructions · factory service manual for torque specs (check your manual)",
    "parts": [
     {
      "name": "Rear main crankshaft oil seal, V8-360/401 1974–1991",
@@ -388,7 +388,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "AMC 360 V8 · AMSOIL's 1989 lookup lists 5 qt with filter and 10W-30 or 10W-40 for most climates [CONFIRM IN MANUAL]",
+    "spec": "AMC 360 V8 · AMSOIL's 1989 lookup lists 5 qt with filter and 10W-30 or 10W-40 for most climates (check your manual)",
     "interval": "Baseline now; then per your owner's manual",
     "note": "The filter changes by year: one for 1984–86, another for 1987–90, and a third for 1991. Order by model year.",
     "parts": [
@@ -434,7 +434,7 @@
    },
    {
     "item": "Spark plugs, wires, cap & rotor",
-    "spec": "8 plugs · gap per underhood label [CONFIRM IN MANUAL]",
+    "spec": "8 plugs · gap per underhood label (check your manual)",
     "interval": "Baseline now",
     "note": "Hagerty flags Motorcraft ignition problems. A fresh tune-up is the cheapest drivability fix before you blame the carburetor.",
     "parts": [
@@ -475,7 +475,7 @@
    },
    {
     "item": "Coolant, thermostat, hoses & cap",
-    "spec": "AMSOIL's 1989 lookup lists 13.7 qt · coolant type [CONFIRM IN MANUAL]",
+    "spec": "AMSOIL's 1989 lookup lists 13.7 qt · coolant type (check your manual)",
     "interval": "Flush and refill now",
     "note": "Replace the thermostat, gasket, radiator hoses and cap together, and check the thermal fan clutch while the system is open.",
     "parts": [
@@ -503,7 +503,7 @@
    },
    {
     "item": "Automatic transmission (A727) fluid & filter",
-    "spec": "ATF · drain pan, new filter and gasket · AMSOIL's 1989 lookup lists about 4 qt for a pan drop and 8.6 qt total [CONFIRM IN MANUAL]",
+    "spec": "ATF · drain pan, new filter and gasket · AMSOIL's 1989 lookup lists about 4 qt for a pan drop and 8.6 qt total (check your manual)",
     "interval": "Every 30,000 mi or 3 years with conventional fluid (Team Grand Wagoneer's filter-kit listing)",
     "note": "This is a pan drop, not a flush. Team Grand Wagoneer recommends fully synthetic ATF.",
     "parts": [
@@ -521,7 +521,7 @@
    },
    {
     "item": "Transfer case (NP228 / NP229 / NP208)",
-    "spec": "ATF-type fluid (per Team Grand Wagoneer) · AMSOIL's 1989 lookup lists 5.9 pints for the NP208/NP229 [CONFIRM IN MANUAL]",
+    "spec": "ATF-type fluid (per Team Grand Wagoneer) · AMSOIL's 1989 lookup lists 5.9 pints for the NP208/NP229 (check your manual)",
     "interval": "Baseline now; Team Grand Wagoneer suggests every 50,000 mi in severe use, 100,000 mi in normal use (with its synthetic fluid)",
     "note": "While you're under there, check the yoke seals and the Selec-Trac vacuum lines.",
     "parts": [
@@ -539,7 +539,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "75W-90 gear oil · limited-slip additive or LSD-rated oil for Trac-Lok axles · AMSOIL's 1989 lookup lists 2.7 pints front and 3 pints rear [CONFIRM IN MANUAL]",
+    "spec": "75W-90 gear oil · limited-slip additive or LSD-rated oil for Trac-Lok axles · AMSOIL's 1989 lookup lists 2.7 pints front and 3 pints rear (check your manual)",
     "interval": "Baseline now",
     "note": "The front is a Dana 44; the rear is an AMC or Dana 44 depending on year. Read the tag and use LSD-compatible oil if the truck has Trac-Lok (standard with Selec-Trac from 1986).",
     "parts": [
@@ -606,7 +606,7 @@
    },
    {
     "item": "Brake fluid, pads & lines",
-    "spec": "Brake fluid per the master-cylinder cap [CONFIRM IN MANUAL]",
+    "spec": "Brake fluid per the master-cylinder cap (check your manual)",
     "interval": "Flush now; then every 2 years",
     "note": "Old steel lines on a salt-state truck deserve a hard look. A complete pre-bent stainless kit is available.",
     "parts": [

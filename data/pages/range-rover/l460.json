@@ -878,7 +878,7 @@
    },
    {
     "item": "Engine oil & filter",
-    "spec": "D300/D350 Ingenium diesel: 0W-30 to STJLR.03.5007, about 9 L (owner report) · Petrol I6 / PHEV / V8: [CONFIRM IN MANUAL]",
+    "spec": "D300/D350 Ingenium diesel: 0W-30 to STJLR.03.5007, about 9 L (owner report) · Petrol I6 / PHEV / V8: (check your manual)",
     "interval": "The 2024MY D350 schedule is 10,500 mi or 12 months. Many owners change sooner.",
     "note": "Lubricate both sealing rings on the cartridge filter's neck before fitting, because a dry filter can twist. Reset the service counter with a scan tool afterwards.",
     "parts": [
@@ -896,8 +896,8 @@
    },
    {
     "item": "Engine air filter",
-    "spec": "[CONFIRM BY VIN]",
-    "interval": "[CONFIRM IN MANUAL]",
+    "spec": "(confirm by VIN)",
+    "interval": "check your manual",
     "note": "",
     "parts": [
      {
@@ -909,7 +909,7 @@
    },
    {
     "item": "Cabin (pollen) filter",
-    "spec": "[CONFIRM BY VIN]",
+    "spec": "(confirm by VIN)",
     "interval": "Then annually",
     "note": "",
     "parts": [
@@ -923,7 +923,7 @@
    {
     "item": "Spark plugs (petrol / PHEV I6)",
     "spec": "Genuine iridium plugs, set of 6 (Range Rover I6 3.0, 2021 on)",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "check your manual",
     "note": "Applies to the P400 and PHEV Ingenium straight-six. The P530 V8 uses BMW-sourced plugs, so check by VIN.",
     "parts": [
      {
@@ -935,7 +935,7 @@
    },
    {
     "item": "ZF 8-speed transmission",
-    "spec": "Land Rover-specified ATF [CONFIRM IN MANUAL]",
+    "spec": "Land Rover-specified ATF (check your manual)",
     "interval": "Owners suggest about 60,000 mi, together with the transfer box and both differentials",
     "note": "Drain and refill, then level-check at temperature with a scan tool. Don't flush.",
     "parts": [
@@ -948,7 +948,7 @@
    },
    {
     "item": "Transfer box",
-    "spec": "About 2 L of the Land Rover-specified fluid for this BorgWarner unit · [CONFIRM IN MANUAL]",
+    "spec": "About 2 L of the Land Rover-specified fluid for this BorgWarner unit · check your manual",
     "interval": "About 60,000 mi (owner suggestion)",
     "note": "Forum members argue about it. One experienced owner insists that TF 0753 (the Magna Steyr fluid used in earlier Range Rovers) is the wrong oil for the L460's transfer box. Use the handbook fluid.",
     "parts": [
@@ -961,7 +961,7 @@
    },
    {
     "item": "Front axle disconnect & active rear differential",
-    "spec": "One owner reports the front-axle disconnect clutch uses the same fluid as the Electronic Active Differential · [CONFIRM IN MANUAL]",
+    "spec": "One owner reports the front-axle disconnect clutch uses the same fluid as the Electronic Active Differential · check your manual",
     "interval": "About 60,000 mi (owner suggestion)",
     "note": "SE trims in the US may have an open rear diff with brake-based torque vectoring, so check which you have before ordering fluid.",
     "parts": [
@@ -974,7 +974,7 @@
    },
    {
     "item": "Brakes",
-    "spec": "Pads, rotors and brake fluid · fluid [CONFIRM IN MANUAL]",
+    "spec": "Pads, rotors and brake fluid · fluid (check your manual)",
     "interval": "Inspect at purchase. Owners have needed rear pads at 16,000–31,000 mi",
     "note": "The rear calipers have an electric parking brake, so put them in service mode with a scan tool before you push the pistons back.",
     "parts": [

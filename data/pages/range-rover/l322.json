@@ -923,7 +923,7 @@
    },
    {
     "item": "Cabin (pollen) filter",
-    "spec": "Correct filter by model year [CONFIRM BY VIN]",
+    "spec": "Correct filter by model year (confirm by VIN)",
     "interval": "Then every 15,000 mi or 12 months (LRNA 2006–08 schedule)",
     "note": "A clogged cabin filter makes the climate control work harder and can hide a damp footwell smell.",
     "parts": [
@@ -937,7 +937,7 @@
    {
     "item": "Spark plugs",
     "spec": "Jaguar 4.4 (2006–09): Champion LR005253 x8 · 5.0 V8 (2010–12): genuine set of 8",
-    "interval": "At 105,000 mi on 2006–08 US trucks (LRNA schedule); other years [CONFIRM IN MANUAL]",
+    "interval": "At 105,000 mi on 2006–08 US trucks (LRNA schedule); other years (check your manual)",
     "note": "If the history doesn't show plugs, do them. On the 5.0, inspect the coil packs and plug-well seals at the same time.",
     "parts": [
      {
@@ -995,7 +995,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "NV225 (2002–05 petrol, Td6 to 2006): Castrol BOT 26 FMB 1 75W-90, ≈1.0 L · Magna Steyr DD295 (Jaguar/5.0/TDV8 trucks, 2006 onward per Lucky8 fitment — [CONFIRM BY VIN] on 2006 MY): Shell TF 0753, 1.5 L",
+    "spec": "NV225 (2002–05 petrol, Td6 to 2006): Castrol BOT 26 FMB 1 75W-90, ≈1.0 L · Magna Steyr DD295 (Jaguar/5.0/TDV8 trucks, 2006 onward per Lucky8 fitment — (confirm by VIN) on 2006 MY): Shell TF 0753, 1.5 L",
     "interval": "Then every 60,000 mi (Atlantic British recommendation). Land Rover's 2006–08 US schedule: at 75,000 and 150,000 mi",
     "note": "The DD295 has an electronically controlled multi-plate centre clutch, so only the friction-modified TF 0753 will do. Specialist Glenrands reports 1.1–1.2 L typically goes back in on a service, so buy 2 L. Replace the drain/fill washers (IYF500010 / IYF500030).",
     "parts": [
@@ -1109,7 +1109,7 @@
    {
     "item": "Fuel filter",
     "spec": "BMW 4.4: WFL000021 · 3.6 TDV8: WJI500030 · Td6: WFL000070",
-    "interval": "At purchase on diesels [CONFIRM IN MANUAL for the diesel interval]; Land Rover's 2006–08 US petrol schedule replaces it at 150,000 mi",
+    "interval": "At purchase on diesels (check your manual for the diesel interval); Land Rover's 2006–08 US petrol schedule replaces it at 150,000 mi",
     "note": "On the 2006–09 Jaguar petrols the filter is part of the in-tank sender assembly, so it isn't a routine item.",
     "parts": [
      {

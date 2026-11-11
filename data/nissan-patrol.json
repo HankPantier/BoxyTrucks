@@ -1021,8 +1021,8 @@
    "items": [
     {
      "item": "Engine oil & filter(s)",
-     "spec": "4.2 six: ≈8.2 L (one 1990 GQ DX owner's fill; engine type not stated). Grades quoted range from Gregory's 20W-40 to 15W-40 diesel oil [CONFIRM IN MANUAL]",
-     "interval": "Change now, then at short intervals for an old diesel [CONFIRM IN MANUAL]",
+     "spec": "4.2 six: ≈8.2 L (one 1990 GQ DX owner's fill; engine type not stated). Grades quoted range from Gregory's 20W-40 to 15W-40 diesel oil (check your manual)",
+     "interval": "Change now, then at short intervals for an old diesel (check your manual)",
      "note": "The TD42 uses two spin-on filters. HD Automotive's listing for the Ryco Z115 says two are required. TB42, RD28 and RB30 each take their own filter.",
      "parts": [
       {
@@ -1073,7 +1073,7 @@
     {
      "item": "Fuel filter",
      "spec": "Diesel: engine-bay filter on the driver's side (TD42/RD28). EFI petrol: in-line filter under the bonnet",
-     "interval": "Replace now [CONFIRM INTERVAL IN MANUAL]",
+     "interval": "Replace now (confirm interval in your manual)",
      "note": "Imported trucks may have sat for years. Drain water from the diesel filter and bleed the system afterward.",
      "parts": [
       {
@@ -1090,7 +1090,7 @@
     },
     {
      "item": "Valve clearances (TD42 tappets)",
-     "spec": "One forum member sets 0.35 mm at ambient temperature [CONFIRM INTAKE/EXHAUST IN MANUAL]",
+     "spec": "One forum member sets 0.35 mm at ambient temperature (confirm intake/exhaust in your manual)",
      "interval": "A forum member suggests about every 20,000 km",
      "note": "TDC on cylinder 1: adjust valves 1, 2, 4, 5, 8, 9. TDC on cylinder 6: adjust 3, 6, 7, 10, 11, 12. Fit a new rocker-cover gasket.",
      "parts": [
@@ -1122,7 +1122,7 @@
     {
      "item": "Timing belt (RD28T and RB30 only)",
      "spec": "Belt, tensioner and idler kit; TD42 and TB42 have gear-driven cams and no belt",
-     "interval": "Now if there are no receipts; ExplorOz owners report about 100,000 km [CONFIRM IN MANUAL]",
+     "interval": "Now if there are no receipts; ExplorOz owners report about 100,000 km (check your manual)",
      "note": "Replace the crank and cam seals while you're in there, and consider a new balancer bolt.",
      "parts": [
       {
@@ -1139,7 +1139,7 @@
     },
     {
      "item": "Coolant, thermostat, hoses & belts",
-     "spec": "TD42 thermostat: genuine 76°C, part 21200-58G04 · coolant type [CONFIRM IN MANUAL]",
+     "spec": "TD42 thermostat: genuine 76°C, part 21200-58G04 · coolant type (check your manual)",
      "interval": "Flush and refill now; hoses if they're original or soft",
      "note": "Overheating is the GQ's signature failure, and on automatics the transmission cooler is inside the radiator. Pressure-test the system and check the fan clutch.",
      "parts": [
@@ -1175,7 +1175,7 @@
     },
     {
      "item": "Automatic transmission (RE4R03A)",
-     "spec": "ATF per manual [CONFIRM IN MANUAL]",
+     "spec": "ATF per manual (check your manual)",
      "interval": "Drain-and-fill now if there's no record",
      "note": "Rebuilds reportedly cost around A$3,000. Fix any cooling problems first, because the trans cooler is inside the radiator, and check the cooler lines for leaks.",
      "parts": []
@@ -1233,7 +1233,7 @@
     },
     {
      "item": "Brake fluid, pads & hoses",
-     "spec": "Fluid type per the cap/manual [CONFIRM IN MANUAL]; twin-piston front calipers on EFI TB42E trucks, single-piston on non-EFI ones (per Patrolapart pad listings)",
+     "spec": "Fluid type per the cap/manual (check your manual); twin-piston front calipers on EFI TB42E trucks, single-piston on non-EFI ones (per Patrolapart pad listings)",
      "interval": "Flush now",
      "note": "If the truck has been lifted, check that the brake lines were lengthened and the rear proportioning valve was adjusted.",
      "parts": [

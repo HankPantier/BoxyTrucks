@@ -914,7 +914,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "B58 petrol: 0W-20, ACEA C2 (dealers also cite C5 / API SP), BMW Longlife-17 FE+ · 6.5 L per the manual as quoted by owners; buy 7 L. B57 diesel: 0W-30 (the diesel manual lists Petronas Syntium 7000 E 0W-30) · capacity [CONFIRM IN MANUAL]",
+     "spec": "B58 petrol: 0W-20, ACEA C2 (dealers also cite C5 / API SP), BMW Longlife-17 FE+ · 6.5 L per the manual as quoted by owners; buy 7 L. B57 diesel: 0W-30 (the diesel manual lists Petronas Syntium 7000 E 0W-30) · capacity (check your manual)",
      "interval": "Factory 12 months / 12,000 mi (US); owners and some dealers recommend 5,000–6,000 mi, or 6,000 mi for heavy use",
      "note": "Hood in maintenance position, engine cover off. 32 mm socket on the canister cap on top of the engine, 17 mm drain plug with a new copper washer, 25 Nm. Owners report the BMW B58 filter fits. Check the level in the menu, not by dipstick.",
      "parts": [
@@ -963,7 +963,7 @@
     },
     {
      "item": "Spark plugs (B58 petrol)",
-     "spec": "BMW B58 plugs · gap/spec [CONFIRM IN MANUAL]",
+     "spec": "BMW B58 plugs · gap/spec (check your manual)",
      "interval": "Dealer schedules list 48,000 mi (or 4 years)",
      "note": "If the truck is near 48k and there's no record, do them now. Plug fitment below is listed for the BMW 340i B58; confirm against the INEOS parts catalogue.",
      "parts": [
@@ -976,14 +976,14 @@
     },
     {
      "item": "Fuel filter (B57 diesel only)",
-     "spec": "[CONFIRM IN MANUAL]",
+     "spec": "check your manual",
      "interval": "Every 2 years per dealer schedule",
      "note": "Non-US diesels only. Replace if there's no record, and more often on questionable fuel.",
      "parts": []
     },
     {
      "item": "Coolant",
-     "spec": "BMW LC-18 coolant (BMW 83195A42DF3 = Frostox HT-12), 50/50 with distilled water · capacity [CONFIRM IN MANUAL]",
+     "spec": "BMW LC-18 coolant (BMW 83195A42DF3 = Frostox HT-12), 50/50 with distilled water · capacity (check your manual)",
      "interval": "Every 4 years per dealer schedule",
      "note": "Don't top up with generic green or older BMW GS 94000 coolant. Owners note many aftermarket brands don't list LC-18.",
      "parts": [
@@ -996,7 +996,7 @@
     },
     {
      "item": "Automatic transmission (ZF 8HP: 8HP51 petrol, 8HP76 diesel)",
-     "spec": "ZF Lifeguard 8 ATF · ≈10.6 L reported by an owner [CONFIRM IN MANUAL]",
+     "spec": "ZF Lifeguard 8 ATF · ≈10.6 L reported by an owner (check your manual)",
      "interval": "Dealer schedule: check every 2 years, replace at 6 years. Owners plan a pan/filter at 40–50k mi.",
      "note": "Do a drain and pan/filter change (the filter is built into the pan), not a flush. The Grenadier pan has a second, smaller pickup port, so aftermarket aluminium pans may not match. Fill level at the right temperature: use the Offroad › Temperatures screen and keep the truck level.",
      "parts": [
@@ -1053,7 +1053,7 @@
     },
     {
      "item": "Power steering fluid (hydraulic Bosch box)",
-     "spec": "Penrite LDAS, as cited from an INEOS support document by an Australian owner on the INEOS Forum · [CONFIRM IN MANUAL]",
+     "spec": "Penrite LDAS, as cited from an INEOS support document by an Australian owner on the INEOS Forum · check your manual",
      "interval": "Check level and condition at every service",
      "note": "The recirculating-ball steering is hydraulic. Owners with big tires and heavy steering look at Owl's upgraded pump. Check for leaks at the box and pump.",
      "parts": []
@@ -1067,7 +1067,7 @@
     },
     {
      "item": "Battery & charging",
-     "spec": "[CONFIRM IN MANUAL]",
+     "spec": "check your manual",
      "interval": "Test at purchase and every service",
      "note": "Dealers include a battery health test in the annual service. Trucks that sat on a lot often have a tired battery, which causes odd electrical warnings.",
      "parts": []

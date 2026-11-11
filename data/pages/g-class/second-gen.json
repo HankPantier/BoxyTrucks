@@ -751,7 +751,7 @@
    {
     "item": "Spark plugs & coils",
     "spec": "M176 spark plugs (Mercedes-spec)",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record (check your manual)",
     "note": "",
     "parts": [
      {
@@ -782,7 +782,7 @@
    {
     "item": "Automatic transmission (9G-TRONIC 725.0)",
     "spec": "MB 236.17 (yellow)",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record (check your manual)",
     "note": "On the 9G-TRONIC the filter is part of the pan. Ask for a shift-adaptation reset with XENTRY after the service.",
     "parts": [
      {
@@ -799,7 +799,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Fluid type and capacity (check your manual)",
     "interval": "Now if no record",
     "note": "Check the output-shaft seals for weeps — a known leak point.",
     "parts": [
@@ -812,7 +812,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Gear oil type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Gear oil type and capacity (check your manual)",
     "interval": "Now if no record",
     "note": "Independent front, rigid rear, both locking. Engage low range and each lock on loose ground to confirm the ‘G’ icon and locker lights.",
     "parts": []
@@ -827,7 +827,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 4 Plus (Genuine Mercedes) · MB approval 331.0 (owner's manual)",
-    "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
+    "interval": "Now, then every 2 years (check your manual)",
     "note": "",
     "parts": [
      {

@@ -857,7 +857,7 @@
    {
     "item": "Spark plugs, wires & coils",
     "spec": "16 plugs (twin-plug heads) · Kompressor: NGK ILFR6A / Bosch FR6MPP332 · 2003–04: Bosch FR8DPP33",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record (check your manual)",
     "note": "Fix any misfire before adding boost; check coil boots for oil from the valve covers.",
     "parts": [
      {
@@ -941,7 +941,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Check the tag: many W463 cases take MB 236.14 ATF; earlier cases ran GL-4 gear oil [CONFIRM IN MANUAL]",
+    "spec": "Check the tag: many W463 cases take MB 236.14 ATF; earlier cases ran GL-4 gear oil (check your manual)",
     "interval": "Now, then every 60,000 mi (MB interval quoted by owners)",
     "note": "Drain and fill plugs are 14 mm hex. Inspect the flex discs and centre bearing — 500 hp is hard on them.",
     "parts": [
@@ -954,7 +954,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "GL-5 hypoid gear oil (synthetic 75W-90 commonly used) · front ≈1.4 L, rear ≈1.8 L (AMSOIL 2006 G 500 data) [CONFIRM IN MANUAL]",
+    "spec": "GL-5 hypoid gear oil (synthetic 75W-90 commonly used) · front ≈1.4 L, rear ≈1.8 L (AMSOIL 2006 G 500 data) (check your manual)",
     "interval": "Now, then with the transfer case",
     "note": "Loosen the fill plug before draining. On mid-2000s trucks the centre lock is vacuum and the axle locks hydraulic — test each lock separately afterwards.",
     "parts": [
@@ -1010,7 +1010,7 @@
     "item": "Brake fluid",
     "spec": "DOT 4 Plus (MB sheet 331.0)",
     "interval": "Now, then every 2 years",
-    "note": "Bleed the hydraulic axle-lock lines too [CONFIRM IN MANUAL].",
+    "note": "Bleed the hydraulic axle-lock lines too (check your manual).",
     "parts": [
      {
       "name": "Genuine Mercedes DOT 4 Plus brake fluid, 1 L",
@@ -1022,7 +1022,7 @@
    {
     "item": "Fuel filter",
     "spec": "2005–10: 002 477 27 01 · 2003–04: 002 477 30 01",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record (check your manual)",
     "note": "",
     "parts": [
      {

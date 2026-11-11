@@ -778,7 +778,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Oil approval per manual for your engine [CONFIRM IN MANUAL]",
+    "spec": "Oil approval per manual for your engine (check your manual)",
     "interval": "At purchase, then per manual",
     "note": "290 GD and 300 GD-era trucks share filters with their W460/W463 relatives. CDIs use cartridge filters.",
     "parts": [
@@ -840,7 +840,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "Mercedes-approved coolant [CONFIRM IN MANUAL]",
+    "spec": "Mercedes-approved coolant (check your manual)",
     "interval": "At purchase",
     "note": "Pressure-test the system and check the radiator and hoses.",
     "parts": [
@@ -858,7 +858,7 @@
    },
    {
     "item": "Automatic transmission fluid & filter",
-    "spec": "Per manual [CONFIRM IN MANUAL]",
+    "spec": "Per manual (check your manual)",
     "interval": "At purchase",
     "note": "The 1998–2001 290 GD Turbodiesel and later trucks are automatic-only.",
     "parts": [
@@ -871,14 +871,14 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Per manual [CONFIRM IN MANUAL]",
+    "spec": "Per manual (check your manual)",
     "interval": "At purchase",
     "note": "Full-time dual-range case. Check that the centre lock engages and releases.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Hypoid gear oil per manual [CONFIRM IN MANUAL]",
+    "spec": "Hypoid gear oil per manual (check your manual)",
     "interval": "At purchase; after water crossings",
     "note": "Three lockers: test each one after the change.",
     "parts": [
@@ -904,7 +904,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "DOT 4 [CONFIRM IN MANUAL]",
+    "spec": "DOT 4 (check your manual)",
     "interval": "At purchase, then every 2 years",
     "note": "",
     "parts": [

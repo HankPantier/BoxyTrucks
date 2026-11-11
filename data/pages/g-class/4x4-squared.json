@@ -721,7 +721,7 @@
    {
     "item": "Spark plugs & coils",
     "spec": "M176 spark plugs (Mercedes-spec)",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record (check your manual)",
     "note": "Pulling the coils means removing the engine covers; read the misfire counters first.",
     "parts": [
      {
@@ -752,7 +752,7 @@
    {
     "item": "Automatic transmission (7G-TRONIC PLUS 722.9)",
     "spec": "MB 236.15 (blue)",
-    "interval": "Now if no record [CONFIRM IN MANUAL]",
+    "interval": "Now if no record (check your manual)",
     "note": "No dipstick: new filter and pan gasket, then set the level at temperature with a scan tool.",
     "parts": [
      {
@@ -769,21 +769,21 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Fluid type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Fluid type and capacity (check your manual)",
     "interval": "Now if no record",
     "note": "Same two-speed case and centre lock as the G 550.",
     "parts": []
    },
    {
     "item": "Front & rear differentials",
-    "spec": "Gear oil type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Gear oil type and capacity (check your manual)",
     "interval": "Now if no record",
     "note": "The portal axles come from the G 63 AMG 6×6 — don’t assume standard G 550 capacities.",
     "parts": []
    },
    {
     "item": "Portal hub reduction gears",
-    "spec": "Oil type and capacity [CONFIRM IN MANUAL]",
+    "spec": "Oil type and capacity (check your manual)",
     "interval": "Now if no record",
     "note": "Each wheel has its own gear set. The 2018 G-Class manual tells owners of the 4×4² to change the axle differential and portal transmission oil after a 2,000-mile (3,000 km) break-in period, so ask for proof it was done. Check every hub for weeps and compare the oil from each corner. A dealer that has done one before is worth finding.",
     "parts": []
@@ -803,7 +803,7 @@
    },
    {
     "item": "Power steering fluid",
-    "spec": "Type [CONFIRM IN MANUAL] — MB 236.3 on earlier hydraulic W463s",
+    "spec": "Type (check your manual) — MB 236.3 on earlier hydraulic W463s",
     "interval": "Now if dark or no record",
     "note": "Never mix power steering fluid with ATF.",
     "parts": []
@@ -811,7 +811,7 @@
    {
     "item": "Brake fluid",
     "spec": "DOT 4 Plus (Genuine Mercedes) · MB approval 331.0 (owner's manual)",
-    "interval": "Now, then every 2 years [CONFIRM IN MANUAL]",
+    "interval": "Now, then every 2 years (check your manual)",
     "note": "At 6,694 lb on 22-inch wheels, the brakes work hard — start with fresh fluid.",
     "parts": [
      {

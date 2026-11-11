@@ -944,7 +944,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "5.0 V8: SAE 5W-20 to WSS-M2C925-A, 8.0 L (17 US pt) with filter · 3.0 SC V6: 5W-20 to WSS-M2C925-A (2014 TSB); owners report 0W-20 to STJLR.51.5122 for 2015–16, ≈8 L [CONFIRM IN MANUAL]",
+    "spec": "5.0 V8: SAE 5W-20 to WSS-M2C925-A, 8.0 L (17 US pt) with filter · 3.0 SC V6: 5W-20 to WSS-M2C925-A (2014 TSB); owners report 0W-20 to STJLR.51.5122 for 2015–16, ≈8 L (check your manual)",
     "interval": "Then every 5,000–7,500 mi (owner practice; factory interval was 15,000 mi)",
     "note": "Cartridge filter (LR011279) sits on top of the engine; the housing is marked with its torque (25 N·m). Most owners extract the oil from the top.",
     "parts": [
@@ -993,7 +993,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "5.0 V8: NGK LR032080 ×8 · 3.0 SC V6: [CONFIRM IN MANUAL]",
+    "spec": "5.0 V8: NGK LR032080 ×8 · 3.0 SC V6: (check your manual)",
     "interval": "Replace now unless documented",
     "note": "While the coils are out, look for oil in the plug wells (the 5.0 timing kit includes new plug-tube seals).",
     "parts": [
@@ -1011,7 +1011,7 @@
    },
    {
     "item": "Coolant & cooling plastics",
-    "spec": "50% Castrol SF antifreeze and water · 5.0 V8: 17 L (36 US pt) refill · 3.0 SC V6: [CONFIRM IN MANUAL]",
+    "spec": "50% Castrol SF antifreeze and water · 5.0 V8: 17 L (36 US pt) refill · 3.0 SC V6: (check your manual)",
     "interval": "Pressure-test now; crossover pipes, manifolds, pump and thermostat at 60,000–90,000 mi if undocumented (owner practice)",
     "note": "This is the LR4's weakest system. Replace the expansion-tank cap too, and use genuine or aluminium pipes rather than cheap copies.",
     "parts": [
@@ -1029,7 +1029,7 @@
    },
    {
     "item": "Automatic transmission",
-    "spec": "2010–13 ZF six-speed: Shell ATF M1375.4 · 2014–16 ZF 8HP70: ZF-spec fluid [CONFIRM IN MANUAL]",
+    "spec": "2010–13 ZF six-speed: Shell ATF M1375.4 · 2014–16 ZF 8HP70: ZF-spec fluid (check your manual)",
     "interval": "Handbook says 'filled for life'; Lucky8 recommends 50,000–75,000 mi for the eight-speed",
     "note": "The filter is built into the pan on both gearboxes, so a proper service means a new pan. Fill and level at the specified temperature.",
     "parts": [
@@ -1047,7 +1047,7 @@
    },
    {
     "item": "Transfer box",
-    "spec": "Shell TF 0753 · 1.5 L (3.2 US pt) · 2014–16 single-speed unit: [CONFIRM IN MANUAL]",
+    "spec": "Shell TF 0753 · 1.5 L (3.2 US pt) · 2014–16 single-speed unit: (check your manual)",
     "interval": "Change now if undocumented",
     "note": "",
     "parts": [
@@ -1092,7 +1092,7 @@
    {
     "item": "Brake fluid",
     "spec": "Shell DOT4 ESL, or a low-viscosity DOT4 meeting ISO 4925 class 6 and LRES22BF03",
-    "interval": "Flush now; then [CONFIRM IN MANUAL]",
+    "interval": "Flush now; then (check your manual)",
     "note": "Check pads, discs and parking-brake shoes while the wheels are off.",
     "parts": [
      {

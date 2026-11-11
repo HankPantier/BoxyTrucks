@@ -495,7 +495,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "302 V8 capacity [CONFIRM IN MANUAL] · the 1966 170 six has a 6-quart oil pan (Ford press release)",
+     "spec": "302 V8 capacity (check your manual) · the 1966 170 six has a 6-quart oil pan (Ford press release)",
      "interval": "At purchase, then per manual",
      "note": "Swapped engines are common. Check what's actually in the truck before ordering a filter.",
      "parts": [
@@ -521,7 +521,7 @@
     },
     {
      "item": "Spark plugs, cap, rotor & wires",
-     "spec": "Plug type and gap [CONFIRM IN MANUAL]",
+     "spec": "Plug type and gap (check your manual)",
      "interval": "At purchase",
      "note": "Points-type ignition is still common on unmodified trucks. Set dwell and timing afterward.",
      "parts": [
@@ -544,7 +544,7 @@
     },
     {
      "item": "Coolant, thermostat, hoses & water pump",
-     "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+     "spec": "Coolant type and capacity (check your manual)",
      "interval": "Flush at purchase, then every 2 years",
      "note": "The stock Bronco V8 water pump has its inlet on the passenger side, which matters for pump and bracket fitment.",
      "parts": [
@@ -580,7 +580,7 @@
     },
     {
      "item": "Manual transmission (three-speed)",
-     "spec": "Gear oil; ClassicBroncos owners use 75W-90 · grade and capacity [CONFIRM IN MANUAL]",
+     "spec": "Gear oil; ClassicBroncos owners use 75W-90 · grade and capacity (check your manual)",
      "interval": "Change at purchase",
      "note": "Many trucks now have floor shifters or swapped four- and five-speeds. Identify the gearbox first.",
      "parts": [
@@ -593,7 +593,7 @@
     },
     {
      "item": "Automatic transmission (C4, 1973–77)",
-     "spec": "ATF · type and capacity [CONFIRM IN MANUAL]",
+     "spec": "ATF · type and capacity (check your manual)",
      "interval": "Pan drop and new filter at purchase",
      "note": "Check the cable shift linkage for wear while you're under there.",
      "parts": [
@@ -624,7 +624,7 @@
     },
     {
      "item": "Front & rear differentials (Dana 30/44, Ford 9-inch)",
-     "spec": "Hypoid gear oil around 90 weight (75W-90/80W-90) · friction modifier for limited-slip · capacities [CONFIRM IN MANUAL]",
+     "spec": "Hypoid gear oil around 90 weight (75W-90/80W-90) · friction modifier for limited-slip · capacities (check your manual)",
      "interval": "Change at purchase and after deep water",
      "note": "Factory ratios were 3.50, 4.11 and 4.57, some with limited-slip; the axle code on the data plate tells you which.",
      "parts": [
@@ -673,7 +673,7 @@
     },
     {
      "item": "Brake fluid, hoses & lines",
-     "spec": "Fluid type [CONFIRM IN MANUAL]",
+     "spec": "Fluid type (check your manual)",
      "interval": "Flush at purchase, then every 2 years",
      "note": "Replace old rubber hoses and rusty rear axle lines.",
      "parts": [

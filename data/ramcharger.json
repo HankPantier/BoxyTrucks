@@ -497,7 +497,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "Grade and capacity [CONFIRM IN MANUAL]",
+     "spec": "Grade and capacity (check your manual)",
      "interval": "At purchase, then per manual",
      "note": "Look for leaks at the oil pan and valve-cover gaskets. On Magnums, a vacuum leak can come from the valley-pan gasket under the intake.",
      "parts": [
@@ -533,7 +533,7 @@
     },
     {
      "item": "Spark plugs, wires, cap & rotor",
-     "spec": "Plug type and gap [CONFIRM IN MANUAL]",
+     "spec": "Plug type and gap (check your manual)",
      "interval": "At purchase",
      "note": "Carbureted trucks with the Lean Burn / Spark Control Computer often get converted to plain electronic ignition.",
      "parts": [
@@ -556,7 +556,7 @@
     },
     {
      "item": "Coolant, hoses & thermostat",
-     "spec": "Ethylene glycol coolant [CONFIRM TYPE AND CAPACITY IN MANUAL]",
+     "spec": "Ethylene glycol coolant (confirm type and capacity in your manual)",
      "interval": "At purchase",
      "note": "One owner warns that a radiator from a 1970s truck needs work to fit, though a 1981–93 Ram radiator is the same as the Ramcharger's.",
      "parts": [
@@ -574,7 +574,7 @@
     },
     {
      "item": "Automatic transmission fluid & filter",
-     "spec": "Chrysler-spec ATF [CONFIRM IN MANUAL]",
+     "spec": "Chrysler-spec ATF (check your manual)",
      "interval": "At purchase: drain the pan, replace the filter, refill",
      "note": "Pan drop and filter rather than a flush. Owners recommend an auxiliary cooler for overdrive automatics, especially with big tires or towing.",
      "parts": [
@@ -610,7 +610,7 @@
     },
     {
      "item": "Front differential (Dana 44)",
-     "spec": "Hypoid gear oil [CONFIRM GRADE AND CAPACITY IN MANUAL]",
+     "spec": "Hypoid gear oil (confirm grade and capacity in your manual)",
      "interval": "At purchase",
      "note": "On CAD axles, gear oil also lives in the disconnect housing, so check for leaks at the vacuum motor and the inner axle seals.",
      "parts": [
@@ -628,7 +628,7 @@
     },
     {
      "item": "Rear differential (Chrysler 9.25)",
-     "spec": "Hypoid gear oil, plus limited-slip additive on Sure-Grip axles [CONFIRM GRADE IN MANUAL]",
+     "spec": "Hypoid gear oil, plus limited-slip additive on Sure-Grip axles (confirm grade in your manual)",
      "interval": "At purchase",
      "note": "Check the pinion for in-and-out play while you're under there.",
      "parts": [
@@ -646,7 +646,7 @@
     },
     {
      "item": "Front wheel bearings & seals",
-     "spec": "Repack with wheel-bearing grease [CONFIRM IN MANUAL]",
+     "spec": "Repack with wheel-bearing grease (check your manual)",
      "interval": "At purchase",
      "note": "Inspect the spindle bearings and seals at the same time.",
      "parts": [
@@ -695,7 +695,7 @@
     },
     {
      "item": "Brake fluid, hoses & rear shoes",
-     "spec": "DOT brake fluid [CONFIRM GRADE IN MANUAL]",
+     "spec": "DOT brake fluid (confirm grade in your manual)",
      "interval": "At purchase: flush, then every 2 years",
      "note": "Front discs and rear drums on every second-generation truck. Replace old rubber front hoses, and adjust the rear drums before you test the parking brake.",
      "parts": [

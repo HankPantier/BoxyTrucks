@@ -376,7 +376,7 @@
   },
   {
    "q": "What oil does each engine take?",
-   "a": "3.6: 5 quarts of 0W-20 (MS-6395). 2.0T: 5 quarts of full-synthetic 5W-30, API SN PLUS (MS-13340). 3.0 EcoDiesel: 9 quarts of 5W-40 synthetic (MS-12991). For the 4xe and the 392, use the owner's manual [CONFIRM IN MANUAL].",
+   "a": "3.6: 5 quarts of 0W-20 (MS-6395). 2.0T: 5 quarts of full-synthetic 5W-30, API SN PLUS (MS-13340). 3.0 EcoDiesel: 9 quarts of 5W-40 synthetic (MS-12991). For the 4xe and the 392, use the owner's manual (check your manual).",
    "src": "QUADRATEC · OWNER'S MANUAL SPEC"
   },
   {
@@ -711,8 +711,8 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "3.6: 5 qt SAE 0W-20 meeting MS-6395 · 2.0T: 5 qt full-synthetic SAE 5W-30, API SN PLUS (Mopar MS-13340) · 4xe: [CONFIRM IN MANUAL] · 3.0 EcoDiesel: 9 qt 5W-40 synthetic (MS-12991) · 6.4 392: [CONFIRM IN MANUAL]",
-    "interval": "Then per the oil-life monitor [CONFIRM IN MANUAL]",
+    "spec": "3.6: 5 qt SAE 0W-20 meeting MS-6395 · 2.0T: 5 qt full-synthetic SAE 5W-30, API SN PLUS (Mopar MS-13340) · 4xe: (check your manual) · 3.0 EcoDiesel: 9 qt 5W-40 synthetic (MS-12991) · 6.4 392: (check your manual)",
+    "interval": "Then per the oil-life monitor (check your manual)",
     "note": "The JL Pentastar takes a quart less, and a thinner grade, than the JK's: Quadratec specifies the Mopar MO-349 (68191349AA) cartridge, the 24 mm cap torqued to 18 ft-lb and the 13 mm drain plug to 20 ft-lb. The owner's-manual sheet warns that non-SN PLUS oil in the 2.0T 'can cause engine damage not covered by the vehicle warranty.'",
     "parts": [
      {
@@ -900,7 +900,7 @@
    {
     "item": "Brake & clutch fluid",
     "spec": "Mopar DOT 3 (DOT 4 acceptable)",
-    "interval": "Flush on purchase, then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Flush on purchase, then every 2–3 years (check your manual)",
     "note": "Manual trucks share the fluid type in the clutch master cylinder.",
     "parts": [
      {

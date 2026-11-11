@@ -714,7 +714,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "1GD-FTV (Japanese manual, 2020): ACEA C5 0W-20 recommended, JASO DL-1 0W-30 or 5W-30 acceptable · 7.2 L oil only, 7.7 L with filter (Penrite lists 7.5 L with filter for Australian DPF trucks) · 1KD-FTV: 7.0 L with filter (Penrite) · petrols (Japanese manuals): 1GR-FE 5.7 L / 6.1 L with filter; 2TR-FE 5.5 L / 5.9 L with filter in 2020, 5.0 L / 5.7 L in 2011 · Australian-market grades [CONFIRM IN MANUAL]",
+    "spec": "1GD-FTV (Japanese manual, 2020): ACEA C5 0W-20 recommended, JASO DL-1 0W-30 or 5W-30 acceptable · 7.2 L oil only, 7.7 L with filter (Penrite lists 7.5 L with filter for Australian DPF trucks) · 1KD-FTV: 7.0 L with filter (Penrite) · petrols (Japanese manuals): 1GR-FE 5.7 L / 6.1 L with filter; 2TR-FE 5.5 L / 5.9 L with filter in 2020, 5.0 L / 5.7 L in 2011 · Australian-market grades (check your manual)",
     "interval": "At purchase. Auto Buyers Guide's advice is fresh oil every 10,000 km.",
     "note": "The Japanese manual specifies low-ash ACEA C5 oil for the 1GD-FTV, warns that other grades shorten the life of the emissions system, and sets oil and filter changes at about 20,000 km or 12 months. Check the logbook for intervals that were stretched.",
     "parts": [
@@ -740,7 +740,7 @@
    },
    {
     "item": "Fuel filter / water separator",
-    "spec": "Diesel fuel filter · [CONFIRM IN MANUAL]",
+    "spec": "Diesel fuel filter · check your manual",
     "interval": "At purchase, then per the manual, sooner on bush fuel",
     "note": "Clean fuel matters to the injectors on both diesels.",
     "parts": [
@@ -805,7 +805,7 @@
    },
    {
     "item": "Automatic transmission",
-    "spec": "Toyota ATF WS for every engine in the Japanese manuals: 1GD-FTV 9.6 L, 1GR-FE 10.9 L, 2TR-FE 9.9 L (2011) or 8.5 L (2020) · Australian 1KD-FTV automatic [CONFIRM IN MANUAL]",
+    "spec": "Toyota ATF WS for every engine in the Japanese manuals: 1GD-FTV 9.6 L, 1GR-FE 10.9 L, 2TR-FE 9.9 L (2011) or 8.5 L (2020) · Australian 1KD-FTV automatic (check your manual)",
     "interval": "Drain and fill at purchase on a tow vehicle",
     "note": "Auto Buyers Guide: hunting or shudder under load points to old fluid or a tired torque converter.",
     "parts": [

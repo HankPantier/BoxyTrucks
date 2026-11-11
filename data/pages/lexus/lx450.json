@@ -802,7 +802,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "10W-30 (above −18°C) or 5W-30 (below 10°C) · 7.8 qt with filter",
-    "interval": "Then every 3,000–5,000 mi [CONFIRM IN MANUAL]",
+    "interval": "Then every 3,000–5,000 mi (check your manual)",
     "note": "Drain plug torque is 18 ft-lb. An oil analysis on the first drain gives a useful head-gasket baseline. Look for coolant in the oil.",
     "parts": [
      {
@@ -827,7 +827,7 @@
    },
    {
     "item": "Spark plugs, wires & distributor",
-    "spec": "Denso OEM plugs [CONFIRM GAP IN MANUAL]",
+    "spec": "Denso OEM plugs (confirm gap in your manual)",
     "interval": "At purchase if no record",
     "note": "The 1FZ-FE uses a distributor and plug wires, so replace the wires with the plugs on an unknown truck. Spark plug tube seals stop oil pooling in the plug wells.",
     "parts": [
@@ -851,7 +851,7 @@
    {
     "item": "Coolant, thermostat & radiator cap",
     "spec": "Toyota red coolant · 14.8 qt (front heater) / 15.9 qt (front + rear heaters)",
-    "interval": "Flush at purchase [CONFIRM INTERVAL IN MANUAL]",
+    "interval": "Flush at purchase (confirm interval in your manual)",
     "note": "Overheating is what kills 1FZ head gaskets. Expedition Portal regulars say to use Toyota red only and to check the water pump, fan clutch and thermostat. A replaced radiator or crud in the overflow bottle are clues to past overheating (Slee).",
     "parts": [
      {
@@ -991,7 +991,7 @@
    {
     "item": "Fuel filter & PCV valve",
     "spec": "OEM fuel filter · PCV valve",
-    "interval": "At purchase if there's no record [CONFIRM INTERVAL IN MANUAL]",
+    "interval": "At purchase if there's no record (confirm interval in your manual)",
     "note": "",
     "parts": [
      {

@@ -348,7 +348,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "3.6: SAE 0W-20 full synthetic meeting MS-6395 · ≈5.7 qt (5.4 L) per the 2020 spec sheet · 3.0 EcoDiesel: [CONFIRM IN MANUAL]",
+    "spec": "3.6: SAE 0W-20 full synthetic meeting MS-6395 · ≈5.7 qt (5.4 L) per the 2020 spec sheet · 3.0 EcoDiesel: (check your manual)",
     "interval": "Baseline now; then per the oil-life monitor",
     "note": "The Pentastar uses a cartridge filter in a plastic housing; don't over-tighten the cap. Check the valley for housing leaks while you're there.",
     "parts": [
@@ -403,7 +403,7 @@
    {
     "item": "Spark plugs (3.6)",
     "spec": "Mopar SP225755AA",
-    "interval": "Per the maintenance schedule [CONFIRM IN MANUAL]",
+    "interval": "Per the maintenance schedule (check your manual)",
     "note": "Ask for receipts; a used truck may be near its first plug change.",
     "parts": [
      {
@@ -454,7 +454,7 @@
    },
    {
     "item": "Transfer case",
-    "spec": "Mopar ATF+4 · about 2 qt (member report, [CONFIRM IN MANUAL])",
+    "spec": "Mopar ATF+4 · about 2 qt (member report, (check your manual))",
     "interval": "Baseline now; sooner if you use low range a lot",
     "note": "Same fluid for Command-Trac, Rock-Trac and Selec-Trac.",
     "parts": [
@@ -517,7 +517,7 @@
    {
     "item": "Brake & clutch fluid",
     "spec": "DOT 3 (DOT 4 acceptable), Mopar 04318080AD",
-    "interval": "Flush now; then every 2–3 years [CONFIRM IN MANUAL]",
+    "interval": "Flush now; then every 2–3 years (check your manual)",
     "note": "Manual trucks share the fluid with the clutch hydraulics.",
     "parts": [
      {

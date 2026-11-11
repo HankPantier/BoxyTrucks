@@ -440,7 +440,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "Grade and capacity [CONFIRM IN MANUAL]",
+     "spec": "Grade and capacity (check your manual)",
      "interval": "At purchase, then per manual",
      "note": "Look for leaks at the rear main seal and the oil pan.",
      "parts": [
@@ -494,7 +494,7 @@
     },
     {
      "item": "Spark plugs, cap, rotor & wires (gas)",
-     "spec": "Plug type and gap [CONFIRM IN MANUAL]",
+     "spec": "Plug type and gap (check your manual)",
      "interval": "At purchase",
      "note": "Most trucks have had an ignition swap at some point, so check what's fitted before ordering.",
      "parts": [
@@ -535,7 +535,7 @@
     },
     {
      "item": "Coolant, thermostat, hoses & belts",
-     "spec": "Coolant type and capacity [CONFIRM IN MANUAL]",
+     "spec": "Coolant type and capacity (check your manual)",
      "interval": "Flush at purchase",
      "note": "Check for a leaking heater core while you're at it. One CK5 member lists it as a common annoyance. Trucks through 1988 use V-belts; the 5.7 switched to a single serpentine belt for 1989.",
      "parts": [
@@ -558,7 +558,7 @@
     },
     {
      "item": "Automatic transmission (TH350 / TH400 / 700R4 / 4L60)",
-     "spec": "ATF type and capacity [CONFIRM IN MANUAL]",
+     "spec": "ATF type and capacity (check your manual)",
      "interval": "Pan drop, new filter and refill at purchase",
      "note": "Know which one you have. The 700R4 became available in 1982 and was renamed 4L60 for 1991, and M1009s use the TH400.",
      "parts": [
@@ -576,7 +576,7 @@
     },
     {
      "item": "Transfer case",
-     "spec": "NP208 and NP241: automatic transmission fluid (ATF) · NP205 / NP203: lubricant [CONFIRM IN MANUAL]",
+     "spec": "NP208 and NP241: automatic transmission fluid (ATF) · NP205 / NP203: lubricant (check your manual)",
      "interval": "Change at purchase",
      "note": "The chain-driven NP208 and NP241 take ATF, not gear oil. Check the NP241's slip-yoke seal for leaks.",
      "parts": [
@@ -594,7 +594,7 @@
     },
     {
      "item": "Front & rear differentials",
-     "spec": "Gear oil grade and capacity [CONFIRM IN MANUAL]",
+     "spec": "Gear oil grade and capacity (check your manual)",
      "interval": "Change at purchase",
      "note": "The M1009's rear has an Eaton automatic differential lock. Check the gear ratio on both axles, since mismatched swaps are common.",
      "parts": [
@@ -625,7 +625,7 @@
     },
     {
      "item": "Steering box, power steering fluid & frame check",
-     "spec": "Power steering fluid [CONFIRM IN MANUAL]",
+     "spec": "Power steering fluid (check your manual)",
      "interval": "At purchase",
      "note": "With the box off or the frame cleaned, look for cracks at the steering-box bolts. It's the K5's best-known weak spot.",
      "parts": [
@@ -643,7 +643,7 @@
     },
     {
      "item": "Brake fluid, hoses & rotors",
-     "spec": "Brake fluid type [CONFIRM IN MANUAL]",
+     "spec": "Brake fluid type (check your manual)",
      "interval": "Flush at purchase",
      "note": "On 1988–91 trucks, check whether recall 93V119 (corroded composite front rotors) was done. Rear ABS arrived for 1990.",
      "parts": [

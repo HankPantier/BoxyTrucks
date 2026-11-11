@@ -175,7 +175,7 @@
    "cost": "Parts plus labor",
    "symptoms": "Violent front-end shaking after a bump at 35–50 mph that only stops when you slow right down; vague steering and wander.",
    "fix": "With the truck on the ground, have a helper rock the steering wheel while you watch every joint. Start with the track bar: OffroadXtreme says the lower track bar bolt is the usual cause. Clean and torque the bolts to the manual and replace a worn track bar or bushing. Then check the tie-rod ends, drag link, steering-box mounts and ball joints, and replace anything with play. Finish with an alignment.",
-   "tools": "Torque wrench · tie-rod end puller · ball-joint press · pry bar · factory manual for torque specs [CONFIRM IN MANUAL]",
+   "tools": "Torque wrench · tie-rod end puller · ball-joint press · pry bar · factory manual for torque specs (check your manual)",
    "parts": [
     {
      "name": "Steering linkage parts for 1993–1998 Grand Cherokee ZJ",
@@ -407,7 +407,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "5W-30 or 10W-30 (AMSOIL: 10W-30 above −18 °C, 5W-30 below 16 °C) · capacity with filter, sources disagree: ExtremeTerrain 4.0 5 qt · 5.2 4 qt · 5.9 6 qt; AMSOIL (1998) 4.0 6 qt · 5.2 5 qt · 5.9 5 qt [CONFIRM IN MANUAL]",
+    "spec": "5W-30 or 10W-30 (AMSOIL: 10W-30 above −18 °C, 5W-30 below 16 °C) · capacity with filter, sources disagree: ExtremeTerrain 4.0 5 qt · 5.2 4 qt · 5.9 6 qt; AMSOIL (1998) 4.0 6 qt · 5.2 5 qt · 5.9 5 qt (check your manual)",
     "interval": "Baseline now; then every 3,000–5,000 mi",
     "note": "While the filter is off a 4.0, look for oil around the filter adapter O-rings.",
     "parts": [

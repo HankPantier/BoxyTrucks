@@ -831,7 +831,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "1KZ-TE: 7.7 L with filter, SAE 5W-40, API SL/CF · 5VZ-FE V6: 5.2 L with filter · 3RZ-FE 2.7: 5.4 L with filter (Penrite lookup) · petrol oil grade [CONFIRM IN MANUAL]",
+    "spec": "1KZ-TE: 7.7 L with filter, SAE 5W-40, API SL/CF · 5VZ-FE V6: 5.2 L with filter · 3RZ-FE 2.7: 5.4 L with filter (Penrite lookup) · petrol oil grade (check your manual)",
     "interval": "Every 6,000 mi or 12 months (6 months in severe use)",
     "note": "Roughtrax's UK schedule. Replace the sump-plug washer every time.",
     "parts": [
@@ -862,7 +862,7 @@
    },
    {
     "item": "Fuel filter (diesel)",
-    "spec": "Diesel filter with water separator [CONFIRM PART BY FRAME NUMBER]",
+    "spec": "Diesel filter with water separator (confirm part by frame number)",
     "interval": "Every 12,000 mi or 12 months",
     "note": "Drain the water trap whenever the warning light comes on, and after filling from a questionable source.",
     "parts": []
@@ -906,7 +906,7 @@
    {
     "item": "Automatic transmission fluid",
     "spec": "3.0 L per drain-and-fill, 10.1 L dry · Dexron II/III or Toyota T-IV (Roughtrax lists these as guidance only)",
-    "interval": "Then per the owner's manual [CONFIRM IN MANUAL]",
+    "interval": "Then per the owner's manual (check your manual)",
     "note": "Look for pink, milky fluid (coolant from the radiator cooler) before you do anything else. Do repeated drain-and-fills rather than one flush.",
     "parts": []
    },

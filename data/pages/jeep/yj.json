@@ -386,7 +386,7 @@
   },
   {
    "q": "What fluids do the axles and transfer case take?",
-   "a": "Quadratec's factory-based chart lists GL-5 80W-90 or 75W-140 synthetic for the Dana 30, Dana 35 and Dana 44, with 4 oz of limited-slip additive for a Trac-Lok. ExtremeTerrain recommends 75W-140 in the rear for warm-weather towing. The NP231 takes automatic transmission fluid (ExtremeTerrain lists ATF+3 or ATF+4); Quadratec's chart gives 2.2 pints for the NP231 and 4.4 pints for the NP207. Haynes' maintenance schedule changes the transfer case and differential lubricant every 30,000 miles or 24 months. Capacities in retailer charts disagree, so fill to the bottom of the fill hole [CONFIRM IN MANUAL].",
+   "a": "Quadratec's factory-based chart lists GL-5 80W-90 or 75W-140 synthetic for the Dana 30, Dana 35 and Dana 44, with 4 oz of limited-slip additive for a Trac-Lok. ExtremeTerrain recommends 75W-140 in the rear for warm-weather towing. The NP231 takes automatic transmission fluid (ExtremeTerrain lists ATF+3 or ATF+4); Quadratec's chart gives 2.2 pints for the NP231 and 4.4 pints for the NP207. Haynes' maintenance schedule changes the transfer case and differential lubricant every 30,000 miles or 24 months. Capacities in retailer charts disagree, so fill to the bottom of the fill hole (check your manual).",
    "src": "QUADRATEC · EXTREMETERRAIN · HAYNES"
   },
   {
@@ -803,7 +803,7 @@
     "item": "Engine oil & filter",
     "spec": "SAE 10W-30 (Quadratec); ExtremeTerrain lists 10W-30 or 5W-30 · ≈4 qt (2.5) / 6 qt (4.0, 4.2) with filter (Quadratec)",
     "interval": "Haynes lists every 7,500 mi or 12 months (3,000 mi in severe use)",
-    "note": "Drain-plug torque: ExtremeTerrain's TJ-era table gives 25 ft-lb for the 2.5 and 4.0 [CONFIRM IN MANUAL for your YJ]. ExtremeTerrain lists separate filters for 87–93 and 91–06 engines, so check which one yours takes.",
+    "note": "Drain-plug torque: ExtremeTerrain's TJ-era table gives 25 ft-lb for the 2.5 and 4.0 (check your manual for your YJ). ExtremeTerrain lists separate filters for 87–93 and 91–06 engines, so check which one yours takes.",
     "parts": [
      {
       "name": "Oil filter, 87–93 YJ",
@@ -858,7 +858,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "50/50 antifreeze and water (ExtremeTerrain) · ≈9 qt (2.5), 10.5 qt (4.0 and 4.2) (Quadratec chart) · antifreeze type [CONFIRM IN MANUAL]",
+    "spec": "50/50 antifreeze and water (ExtremeTerrain) · ≈9 qt (2.5), 10.5 qt (4.0 and 4.2) (Quadratec chart) · antifreeze type (check your manual)",
     "interval": "Every 30,000 mi or 24 months (Haynes)",
     "note": "Inspect the radiator, hoses and fan clutch while you're there. ExtremeTerrain lists a fan clutch that fits all YJs.",
     "parts": [
@@ -876,7 +876,7 @@
    },
    {
     "item": "Manual transmission (AX-5 / AX-15 / BA-10)",
-    "spec": "75W-90 GL-3 or GL-4 for the AX-5 and AX-15 (ExtremeTerrain) · ≈3.3 qt AX-5/AX-15, 5.2 pints BA-10/5 (Quadratec chart) [CONFIRM IN MANUAL]",
+    "spec": "75W-90 GL-3 or GL-4 for the AX-5 and AX-15 (ExtremeTerrain) · ≈3.3 qt AX-5/AX-15, 5.2 pints BA-10/5 (Quadratec chart) (check your manual)",
     "interval": "Change now, then every 30,000 mi",
     "note": "Retailer charts disagree slightly on AX-15 capacity (3.25–3.32 qt), so fill to the bottom of the fill hole. Haynes lists a 30,000-mile change.",
     "parts": [
@@ -889,7 +889,7 @@
    },
    {
     "item": "Automatic transmission (999 / 32RH / 30RH)",
-    "spec": "Mopar ATF of the type on the dipstick or in the manual [CONFIRM IN MANUAL] · total capacity 8.3 qt TF999, 17.1 pints 32RH, 7 qt 30RH (Quadratec chart); a pan drop takes much less",
+    "spec": "Mopar ATF of the type on the dipstick or in the manual (check your manual) · total capacity 8.3 qt TF999, 17.1 pints 32RH, 7 qt 30RH (Quadratec chart); a pan drop takes much less",
     "interval": "Every 30,000 mi, or 12,000 mi in severe use (Haynes)",
     "note": "Change the pan filter at the same time. ExtremeTerrain's YJ torque table gives 35 in-lb for the 30RH/32RH filter screws and 14 ft-lb for the pan bolts.",
     "parts": [
@@ -915,9 +915,9 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "GL-5 80W-90 or 75W-140 synthetic · +4 oz limited-slip additive for Trac-Lok (Quadratec chart) · Dana 30 2.5 pt, Dana 35 3.5 pt, Dana 44 4.0 pt (Quadratec chart) [CONFIRM IN MANUAL]",
+    "spec": "GL-5 80W-90 or 75W-140 synthetic · +4 oz limited-slip additive for Trac-Lok (Quadratec chart) · Dana 30 2.5 pt, Dana 35 3.5 pt, Dana 44 4.0 pt (Quadratec chart) (check your manual)",
     "interval": "Every 30,000 mi (Haynes), and after deep water crossings (ExtremeTerrain)",
-    "note": "Cover bolts take 30 ft-lb in ExtremeTerrain's TJ-era table for the same Dana axles [CONFIRM IN MANUAL]. Check the Dana 30 disconnect housing and pinion seals for leaks.",
+    "note": "Cover bolts take 30 ft-lb in ExtremeTerrain's TJ-era table for the same Dana axles (check your manual). Check the Dana 30 disconnect housing and pinion seals for leaks.",
     "parts": [
      {
       "name": "Gear oil and friction modifier search",

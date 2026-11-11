@@ -914,7 +914,7 @@
    "items": [
     {
      "item": "Engine oil & filter",
-     "spec": "API SG, SAE 10W-40 or 10W-50 · ≈6.7 L (1991 3.9 V8 data). Later 3.9/4.2: [CONFIRM IN MANUAL]",
+     "spec": "API SG, SAE 10W-40 or 10W-50 · ≈6.7 L (1991 3.9 V8 data). Later 3.9/4.2: (check your manual)",
      "interval": "At purchase, then every 3,000–5,000 mi",
      "note": "These engines aren't fussy about oil brand; Hagerty UK's specialist uses about 7 L of 20W-50 every 6,000 miles or 12 months. A fresh filter matters. The ERR3340 filter covers the RRC, P38 and Defender V8s.",
      "parts": [
@@ -945,7 +945,7 @@
     },
     {
      "item": "Fuel filter",
-     "spec": "OE-type EFI filter [CONFIRM IN MANUAL]",
+     "spec": "OE-type EFI filter (check your manual)",
      "interval": "At purchase",
      "note": "Old fuel lines and rusty tanks are common on trucks that have sat. Inspect the rubber lines while you're under there.",
      "parts": [
@@ -958,7 +958,7 @@
     },
     {
      "item": "Spark plugs & ignition",
-     "spec": "Plug type and gap per manual [CONFIRM IN MANUAL]",
+     "spec": "Plug type and gap per manual (check your manual)",
      "interval": "At purchase if there's no record",
      "note": "Fit new plugs, leads, a distributor cap and rotor as a set. Tired leads cause a lot of rough running on these V8s.",
      "parts": [
@@ -1072,7 +1072,7 @@
     },
     {
      "item": "Air suspension (1993–95 LWB / air trucks)",
-     "spec": "No fluid. Leak-check the springs, valve block, compressor and reservoir [CONFIRM IN MANUAL for dryer service]",
+     "spec": "No fluid. Leak-check the springs, valve block, compressor and reservoir (check your manual for dryer service)",
      "interval": "At purchase",
      "note": "An overnight sag at one corner or a compressor that runs constantly means there's a leak. Many owners convert to coils (see repairs).",
      "parts": [

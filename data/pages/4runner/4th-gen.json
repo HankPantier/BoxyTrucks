@@ -747,7 +747,7 @@
     "item": "Engine oil & filter",
     "spec": "API SL / ILSAC · 1GR-FE 5.2 L, 2UZ-FE 6.2 L with filter",
     "interval": "At purchase, then per the manual",
-    "note": "Viscosity [CONFIRM IN MANUAL]. Capacities from Toyota-Club's owner's-manual data.",
+    "note": "Viscosity (check your manual). Capacities from Toyota-Club's owner's-manual data.",
     "parts": [
      {
       "name": "Oil filters — 2005 4Runner catalog",
@@ -776,7 +776,7 @@
    },
    {
     "item": "Cabin air filter",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "At purchase",
     "note": "Cheap, often forgotten.",
     "parts": [
@@ -789,7 +789,7 @@
    },
    {
     "item": "Spark plugs",
-    "spec": "Type and interval [CONFIRM IN MANUAL]",
+    "spec": "Type and interval (check your manual)",
     "interval": "Per the manual",
     "note": "Forum advice on plug intervals conflicts — go by the manual. On the V8, owners suggest doing plugs alongside the timing belt.",
     "parts": [
@@ -880,7 +880,7 @@
    },
    {
     "item": "Brake fluid",
-    "spec": "Type [CONFIRM IN MANUAL]",
+    "spec": "Type (check your manual)",
     "interval": "Flush at purchase; a 4Runners.com member says Toyota's interval was 4 years in 2008",
     "note": "Listen for the ABS accumulator pump cycling constantly — a sign the brake actuator is failing.",
     "parts": [

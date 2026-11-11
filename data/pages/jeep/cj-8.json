@@ -823,7 +823,7 @@
    },
    {
     "item": "Ignition tune-up",
-    "spec": "Plugs, cap, rotor, wires · gap and timing [CONFIRM IN MANUAL]",
+    "spec": "Plugs, cap, rotor, wires · gap and timing (check your manual)",
     "interval": "Baseline now",
     "note": "The 258 fires 1-5-3-6-2-4. Duraspark pickups and modules are common culprits for poor running.",
     "parts": [
@@ -892,7 +892,7 @@
    },
    {
     "item": "Manual transmission",
-    "spec": "SR-4: 80W-90, 1.5 qt · T-4 / T-5: ATF+4, 2 qt · T-176: 80W-90 [CONFIRM CAPACITY]",
+    "spec": "SR-4: 80W-90, 1.5 qt · T-4 / T-5: ATF+4, 2 qt · T-176: 80W-90 (confirm capacity)",
     "interval": "Baseline now",
     "note": "ExtremeTerrain's T-176 figure (3.5 qt / 1.7 L) contradicts itself, so check the manual. Don't put gear oil in a T-5.",
     "parts": [
@@ -982,7 +982,7 @@
    },
    {
     "item": "Front wheel bearings & hubs",
-    "spec": "Repack and adjust · preload [CONFIRM IN MANUAL]",
+    "spec": "Repack and adjust · preload (check your manual)",
     "interval": "Baseline now; then after deep water",
     "note": "Every Scrambler uses five-bolt manual locking hubs. Check them for slipping while they're apart.",
     "parts": [

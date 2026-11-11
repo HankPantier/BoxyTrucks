@@ -816,7 +816,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "20W-50 mineral oil (the period handbook specified a 20W grade) · 2.25: about 1.9 US gal (≈7.2 L) including the filter (Series123); one owner's shop manual gives 13 pints plus 1.8 pints for the filter, which he works out as 7.4 US qt (≈7 L)",
-    "interval": "Then per manual [CONFIRM IN MANUAL]",
+    "interval": "Then per manual (check your manual)",
     "note": "Owners stick with mineral oil; one warns that semi-synthetics can loosen old deposits in a worn engine. Petrol and diesel 2.25s use element-type or spin-on filters depending on year.",
     "parts": [
      {
@@ -838,7 +838,7 @@
    },
    {
     "item": "Air cleaner",
-    "spec": "Oil-bath canister on most trucks · refill grade [CONFIRM IN MANUAL]",
+    "spec": "Oil-bath canister on most trucks · refill grade (check your manual)",
     "interval": "Clean and refill at every oil change; more often in dust",
     "note": "If a previous owner swapped to an SU carburettor, check the SU dashpot has oil too.",
     "parts": []
@@ -881,7 +881,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "Antifreeze mix [CONFIRM IN MANUAL for type and capacity]",
+    "spec": "Antifreeze mix (check your manual for type and capacity)",
     "interval": "Flush and refill now; then per manual",
     "note": "Check the block drain plug and core plugs for weeps while it's drained.",
     "parts": [
@@ -899,7 +899,7 @@
    },
    {
     "item": "Gearbox & transfer box",
-    "spec": "EP90 gear oil · Series II/IIA: gearbox 2.5 imp pt (3 US pt, ≈1.4 L), transfer box 4.5 imp pt (≈5.5 US pt, ≈2.6 L), per Series123 and the workshop manual quoted on the Rovers North forum · Series III [CONFIRM IN MANUAL]",
+    "spec": "EP90 gear oil · Series II/IIA: gearbox 2.5 imp pt (3 US pt, ≈1.4 L), transfer box 4.5 imp pt (≈5.5 US pt, ≈2.6 L), per Series123 and the workshop manual quoted on the Rovers North forum · Series III (check your manual)",
     "interval": "Drain and refill now; then per manual",
     "note": "Check the transfer box output seal: oil leaking past it soaks the transmission handbrake shoes. Owners buy EP90 in 20 L drums because a Series uses a lot of it.",
     "parts": [
@@ -912,7 +912,7 @@
    },
    {
     "item": "Front & rear differentials",
-    "spec": "EP90 gear oil · capacity [CONFIRM IN MANUAL]",
+    "spec": "EP90 gear oil · capacity (check your manual)",
     "interval": "Drain and refill now; then per manual",
     "note": "Don't put one-shot swivel grease in the diffs; owners say drain it if someone has.",
     "parts": [
@@ -969,7 +969,7 @@
    },
    {
     "item": "Brakes & brake fluid",
-    "spec": "Brake fluid [CONFIRM IN MANUAL for DOT grade] · adjust drum brakes",
+    "spec": "Brake fluid (check your manual for DOT grade) · adjust drum brakes",
     "interval": "Fluid every 2 years; adjust shoes at every service",
     "note": "Series drum brakes need regular manual adjustment; owners note they will need adjusting on any truck you buy.",
     "parts": [

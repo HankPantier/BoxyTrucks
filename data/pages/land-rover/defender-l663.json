@@ -739,7 +739,7 @@
   "items": [
    {
     "item": "Engine oil & filter",
-    "spec": "Diesel: 0W-30 to JLR 03.5007 · ≈8.5–8.8 L (3.0 diesel, owner-measured). Petrol: 0W-20 (per Defender2.net members) [CONFIRM IN MANUAL]",
+    "spec": "Diesel: 0W-30 to JLR 03.5007 · ≈8.5–8.8 L (3.0 diesel, owner-measured). Petrol: 0W-20 (per Defender2.net members) (check your manual)",
     "interval": "Then every 7,000–10,000 mi (owner practice); oil analysis on one D300 suggested 6,000",
     "note": "The oil-change interval runs on its own condition-based counter, separate from the 21,000-mile service counter. Draining via the sump plug means removing the undertrays; dipstick-tube extraction works if the probe reaches the bottom.",
     "parts": [
@@ -806,7 +806,7 @@
    },
    {
     "item": "Spark plugs (petrol)",
-    "spec": "[CONFIRM IN MANUAL]",
+    "spec": "check your manual",
     "interval": "Per manual",
     "note": "P300, P400, V8 and OCTA only.",
     "parts": [
@@ -819,7 +819,7 @@
    },
    {
     "item": "ZF 8-speed automatic",
-    "spec": "ZF 8HP fluid and filter-pan kit [CONFIRM fitment and capacity]",
+    "spec": "ZF 8HP fluid and filter-pan kit (confirm fitment and capacity)",
     "interval": "Owners: every 50,000–60,000 mi; the 6-year dealer service includes it",
     "note": "A D300 owner paid £599 for a ZF-specialist gearbox service at 85,000 miles and logged improved clutch pressures afterwards.",
     "parts": [
@@ -837,7 +837,7 @@
    },
    {
     "item": "Transfer case & differentials",
-    "spec": "[CONFIRM IN MANUAL for fluid types]",
+    "spec": "(check your manual for fluid types)",
     "interval": "Owners: every 30,000–50,000 mi; dealer schedule includes transfer box and rear diff at the 63,000-mile service",
     "note": "Do them sooner if you wade or spend long periods in low range, where water contamination is a risk.",
     "parts": [
@@ -863,7 +863,7 @@
    },
    {
     "item": "Coolant",
-    "spec": "JLR-approved coolant [CONFIRM IN MANUAL for type and capacity]",
+    "spec": "JLR-approved coolant (check your manual for type and capacity)",
     "interval": "Check level cold now; per manual thereafter",
     "note": "P400 owners report losses from turbo coolant line O-rings, expansion tanks and stone-damaged auxiliary radiators behind the front intakes.",
     "parts": [
@@ -876,7 +876,7 @@
    },
    {
     "item": "Brake fluid & flexi hoses",
-    "spec": "Land Rover brake fluid [CONFIRM IN MANUAL for grade]",
+    "spec": "Land Rover brake fluid (check your manual for grade)",
     "interval": "Per manual; the 6-year dealer service includes new fluid and brake flexi hoses",
     "note": "",
     "parts": [

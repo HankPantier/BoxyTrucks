@@ -396,7 +396,7 @@
    {
     "item": "Spark plugs & wires",
     "spec": "ACDelco 41-985 (GM 12571164) · gap 0.040 in (1.01 mm)",
-    "interval": "Per the owner's manual schedule [CONFIRM IN MANUAL]; do them now if there are no receipts",
+    "interval": "Per the owner's manual schedule (check your manual); do them now if there are no receipts",
     "note": "The same plug is listed for the 6.0 and the 6.2. Inspect the wires when you change the plugs, as the manual says.",
     "parts": [
      {
@@ -525,7 +525,7 @@
    {
     "item": "Fuel filter",
     "spec": "ACDelco GF626 (GM 25121792) in the 2004 manual's parts list",
-    "interval": "At purchase if there's no record [CONFIRM IN MANUAL]",
+    "interval": "At purchase if there's no record (check your manual)",
     "note": "The 2008 manual's maintenance parts list doesn't include a separate fuel filter, so check whether your year has one.",
     "parts": [
      {

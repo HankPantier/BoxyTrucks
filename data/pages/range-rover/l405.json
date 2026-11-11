@@ -879,7 +879,7 @@
    {
     "item": "Engine oil & filter",
     "spec": "Petrol 5.0 V8 / 3.0 V6 SC: 0W-20 to STJLR.51.5122 (the launch handbook listed 5W-20 to WSS-M2C925-A), 8.0 L for the V8 · TDV6/SDV6 (DPF): 5W-30 to STJLR.03.5005 / WSS-M2C934-B, 6.0 L · SDV8 (DPF): same spec, 9.4 L",
-    "interval": "Then every 10,000 mi or sooner (owner practice); [CONFIRM IN MANUAL] for the factory schedule",
+    "interval": "Then every 10,000 mi or sooner (owner practice); (check your manual) for the factory schedule",
     "note": "The DPF diesels are fussy about oil, so only use oil approved to STJLR.03.5005. Don't overfill the SDV8: put in about 8.5 L, wait, then top up using the electronic level check.",
     "parts": [
      {
@@ -902,7 +902,7 @@
    {
     "item": "Engine air filters",
     "spec": "LR011593 (two elements on the V8)",
-    "interval": "Then every oil service if you run dirt roads; [CONFIRM IN MANUAL]",
+    "interval": "Then every oil service if you run dirt roads; (check your manual)",
     "note": "Two elements on the V8. Replace both.",
     "parts": [
      {
@@ -933,7 +933,7 @@
    {
     "item": "Spark plugs (petrol)",
     "spec": "5.0 V8: set of 8 (LR032080 in Britpart's kit DA6099)",
-    "interval": "[CONFIRM IN MANUAL]",
+    "interval": "check your manual",
     "note": "Supercharged V8s with no proof of plugs get them now. Check the coil packs and plug-well seals while you're there.",
     "parts": [
      {
@@ -951,7 +951,7 @@
    {
     "item": "Coolant",
     "spec": "1:1 Havoline XLC antifreeze and water · refill 6.83 L (5.0 NA), 8.83 L (5.0 SC), 8.93 L (V6 diesel), 7.13 L (V8 diesel)",
-    "interval": "Change if the history is unknown; then [CONFIRM IN MANUAL]",
+    "interval": "Change if the history is unknown; then (check your manual)",
     "note": "On the 5.0 SC, unexplained coolant loss usually means the plastic pipes under the supercharger (see the repair above), not the radiator.",
     "parts": [
      {
@@ -1036,7 +1036,7 @@
    {
     "item": "Brake fluid & pads",
     "spec": "Shell DOT4 ESL, or low-viscosity DOT4 to ISO 4925 class 6 and LRES22BF03",
-    "interval": "Change at purchase if undated; then [CONFIRM IN MANUAL]",
+    "interval": "Change at purchase if undated; then (check your manual)",
     "note": "Check pad and rotor thickness at all four corners. Heavy trucks with big wheels eat rear pads.",
     "parts": [
      {
