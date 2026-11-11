@@ -165,7 +165,7 @@
    "time": "≈ Half a day for both sides",
    "cost": "Parts only; buy genuine Toyota, as IH8MUD owners report early failures with cheap aftermarket joints",
    "symptoms": "Heavy steering, poor self-centring, vibration or shudder in turns, a torn boot, or simply no record that they've ever been changed. A worn joint can let go without warning.",
-   "fix": "Support the truck on stands, remove the wheel and take the load off the lower arm. Remove the castle nut and split the taper from the lower control arm, then unbolt the four bolts that hold the ball joint to the back of the knuckle and fit the new joint. Toyota superseded the original 43340-39325 / 43330-39415 joints to 43340-39465 (left) and 43330-39585 (right). One IH8MUD owner's ball-joint bolts worked loose, and he blamed the anti-seize he'd put on the threads, so torque them per the factory manual and use thread-locker, not anti-seize. Finish with an alignment.",
+   "fix": "Support the truck on stands, remove the wheel and take the load off the lower arm. Remove the castle nut and split the taper from the lower control arm. Unbolt the four bolts that hold the ball joint to the back of the knuckle and fit the new joint. Toyota superseded the original 43340-39325 / 43330-39415 joints to 43340-39465 (left) and 43330-39585 (right). Fit new knuckle bolts rather than reusing the old ones. Torque them by hand to the factory figure, not with an impact gun, with thread-locker on the threads. Fit a new cotter pin to the castle nut. Finish with an alignment.",
    "tools": "Floor jack and stands · 14/19/24 mm sockets · ball-joint separator · torque wrench · thread-locker · new cotter pins · eight knuckle bolts 90105-10406 (per ToyoDIY, quoted on IH8MUD)",
    "parts": [
     {
@@ -187,6 +187,30 @@
      "name": "Toyota lower ball joint RH 43330-39585",
      "supplier": "ToyotaPartsDeal (OEM)",
      "url": "https://www.toyotapartsdeal.com/oem/toyota~joint~assy~lower~ball~front~rh~43330-39585.html"
+    }
+   ],
+   "know": [
+    "Worn joints often feel fine until they fail. IH8MUD owners say to replace them if there's no record they've ever been done.",
+    "Buy genuine Toyota. Owners on IH8MUD report early failures with aftermarket joints and warn about counterfeit 'OEM' parts sold on Amazon.",
+    "The four knuckle bolts matter as much as the joint. In one IH8MUD thread a 2000 KZJ95's joint held, but two of its four bolts worked loose and two sheared, which damaged the CV on that side. The owner had reused old bolts and suspected a rattle gun had over-tightened them.",
+    "Toyota superseded the joint part numbers after a recall on these joints, so check you're buying the current numbers."
+   ],
+   "mistakes": [
+    "Reusing the old knuckle bolts.",
+    "Running the bolts in with an impact gun instead of a torque wrench.",
+    "Buying cheap aftermarket or counterfeit joints.",
+    "Skipping the alignment afterwards.",
+    "Forgetting a new cotter pin on the castle nut."
+   ],
+   "cost_note": "Genuine Toyota joints run roughly US$130–175 each from online Toyota parts sellers, plus about $20 for new knuckle bolts and an alignment. Doing both sides at once is normal.",
+   "refs": [
+    {
+     "name": "IH8MUD: Lower ball joint failure (90 Series Prado)",
+     "url": "https://forum.ih8mud.com/threads/lower-ball-joint-failure.1287172/"
+    },
+    {
+     "name": "Partsouq: Toyota 43340-39465 lower ball joint, front LH",
+     "url": "https://partsouq.com/en/shop/product/4334039465-toyota-joint-assy-lower-ball-front-lh/3117724"
     }
    ]
   },

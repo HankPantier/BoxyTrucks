@@ -566,13 +566,36 @@
     "time": "≈ 30 minutes",
     "cost": "Cheap if caught early",
     "symptoms": "Damp or sagging headliner, wet carpets, electrical gremlins from a wet fuse box or climate actuators.",
-    "fix": "Clear all four sunroof drains, then check the headliner, fuse box and blend-door actuators for water damage. Leaving it is what makes it expensive.",
+    "fix": "Open the sunroof and find the drain hole in each corner of the tray. Pour a cup of water into each corner and watch it drain out under the truck; a slow or blocked corner is your suspect. Squeeze open the rubber drain valves at the bottom of the tubes and flush each corner from the top with a gentle hose until the water runs clear, as one MBWorld owner did. If a corner is still blocked, feed trimmer line or a drain-cleaning wire down it gently, and blow low-pressure air through it; never high pressure, which can pop the tube off. If water still appears inside, drop the front of the headliner (rear-view mirror, sun visors and grab handles come off first) and check the tubes are attached and unbroken. Reattach or replace any broken tube. Rule out the other leak points: wiper-pivot seals, windshield gasket, antenna base, door seals and the firewall under the battery. Pull the carpet back, dry the floor completely and check connectors and modules for corrosion.",
     "tools": "Trimmer line or drain-cleaning wire · low-pressure air · towels and patience",
     "parts": [
      {
       "name": "Mercedes sunroof drain hoses & connectors (search; match W463 part by VIN)",
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/search?q=mercedes+sunroof+drain+hose"
+     }
+    ],
+    "know": [
+     "The sunroof tray has a drain tube at each corner. On the W463 the front tubes run down the A-pillars and the rear ones down the back, and they exit low on the body. One MBWorld member says the front tubes end near the rocker panels.",
+     "Blocked drains aren't the only way water gets in. MBWorld owners also point at wiper-pivot seals, the windshield gasket, the roof antenna base, door seals and a hole in the right-side firewall under the battery box.",
+     "A tube can break or come off its spigot behind the headliner. That needs the headliner dropped, not just a clean.",
+     "Water that sits in the footwells reaches wiring and modules under the carpet, so dry the floor fully and check connectors as soon as you find it."
+    ],
+    "mistakes": [
+     "Blowing high-pressure air into the drains, which can knock the tube off inside the pillar.",
+     "Assuming it's the drains and missing a wiper-pivot, antenna or firewall leak.",
+     "Leaving wet carpet in place, where it soaks the wiring underneath.",
+     "Forcing a stiff wire down a tube and puncturing it."
+    ],
+    "cost_note": "Clearing the drains costs nothing but time. Dropping the headliner to reattach a tube is a few hours of careful work. The expensive part is what water damages if it's left: wiring, modules and a stained headliner.",
+    "refs": [
+     {
+      "name": "MBWorld: Passenger floor board soaking wet (W463)",
+      "url": "https://mbworld.org/forums/g-class-w460-w461-w463/795544-passenger-floor-board-soaking-wet-help.html"
+     },
+     {
+      "name": "MBWorld: Roof leak, front right (W463)",
+      "url": "https://mbworld.org/forums/g-class-w460-w461-w463/652553-roof-leak-front-right.html"
      }
     ]
    },

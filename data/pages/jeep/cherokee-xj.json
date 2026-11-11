@@ -198,7 +198,7 @@
    "time": "≈ A day",
    "cost": "Parts plus labor",
    "symptoms": "Oil dripping from the joint between engine and transmission. Rule out the valve cover gasket, oil-pressure sender, oil-filter-adapter O-rings and (on distributor engines) the distributor gasket first.",
-   "fix": "The 4.0 uses a two-piece seal, so it can be done with the engine in the truck and the transmission in place. Raise the Jeep high and support it, drain the oil and drop the pan. Remove the rear main bearing cap, pull the lower seal half, then work the upper half out by pushing one end around the crank. Clean everything, oil the new seal lips, install the upper half and then the lower half in the cap, fit the cap and torque it to spec. One NAXJA member quotes 80 ft-lb for a 1999 [CONFIRM IN MANUAL]. Refit the pan with a new gasket, which is where most comebacks happen.",
+   "fix": "Raise the Jeep, support it on stands and drain the oil. Soak the exhaust down-pipe bolts in penetrating oil the night before, then drop the exhaust if it's in the way. Remove the oil pan and the main-bearing support bar if your engine has one. Remove the rear main bearing cap by rocking it fore and aft, never prying it side to side. Pull the lower seal half from the cap, then tap one end of the upper half with a round-nosed punch so it slides around the crank, and pull it out with pliers. Clean the cap groove and the crank surface without scratching either. Oil the new seal lips and fit the upper half with the lip facing the engine, taking care the groove edge doesn't cut it. Fit the lower half in the cap and put one drop of anaerobic sealant on each end of the cap, as Jeep's manual specifies. Refit the cap and torque its bolts to 80 lb-ft, the Chrysler figure. Refit the pan with a new gasket and RTV at the corners where the timing cover and rear main meet the block, torquing the pan bolts to 7 lb-ft (1/4 in) and 11 lb-ft (5/16 in).",
    "tools": "Jack and stands · torque wrench · seal pick · RTV per seal instructions · new pan gasket",
    "parts": [
     {
@@ -220,6 +220,30 @@
      "name": "Crown 5017432AC lower gasket set, 2001–06 4.0L",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/products/51002_0007.htm"
+    }
+   ],
+   "know": [
+    "The 4.0 uses a two-piece rear main seal, so you can replace it with the engine and transmission in place.",
+    "Rule out the cheaper leaks first: valve cover gasket, oil-pressure sender, oil-filter-adapter O-rings and, on distributor engines, the distributor gasket. Oil from those runs down and looks like a rear main leak.",
+    "Most comebacks are from the pan gasket, not the new seal, so do the pan carefully.",
+    "Budget for six quarts of oil and a filter on top of the seal kit."
+   ],
+   "mistakes": [
+    "Prying the bearing cap side to side instead of rocking it fore and aft.",
+    "Scratching the crank or the cap groove while removing the old seal.",
+    "Fitting the seal with the lip facing the wrong way, or cutting the lip on the groove edge.",
+    "Skipping the RTV at the pan corners.",
+    "Snapping exhaust bolts that weren't soaked first."
+   ],
+   "cost_note": "The seal and sealants cost under $50 according to the How-To guide on WranglerTJForum, plus oil, a filter and a pan gasket. Shops typically charge at least a few hundred dollars.",
+   "refs": [
+    {
+     "name": "WranglerTJForum: How to replace a rear main seal on a Jeep 4.0",
+     "url": "https://wranglertjforum.com/threads/how-to-replace-a-rear-main-seal-on-a-jeep-4-0-engine.27142/"
+    },
+    {
+     "name": "NAXJA: Rear main seal help",
+     "url": "https://naxja.org/threads/rear-main-seal-help.1096504"
     }
    ]
   },

@@ -10,3 +10,6 @@ Hank: "fix them all - for #8 just use Hank everywhere".
 6. Home page: 8 family cards plus chips for the rest, 3 repair cards, 6 for-sale rows; the stories, shops and resources bands moved off the home page (still in the nav). About 35,000 → 15,500 px on a phone. Repairs index: grouped by family, collapsed per truck, searchable; about 104,000 → 10,000 px.
 7. Long titles shortened (garage, importing, engine swaps, checklists, gifts).
 8. Name: "Hank" everywhere on the site (owner notes, about, partner page, schema Person, social photo credits, newsletter). Hank's own outreach email signatures in reports/ were left alone.
+
+## Found Nov 11 (repair deepening run)
+- 438 visible "[CONFIRM IN MANUAL]" placeholders across 108 data files (e.g. data/scout.json service specs). They render on live pages. Fix by sourcing each value or removing the line; for the weekly audit.

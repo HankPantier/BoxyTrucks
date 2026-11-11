@@ -206,13 +206,46 @@
    "time": "From a highway drive to a dealer visit",
    "cost": "Toyota's 2020 remedy is free of charge. Unsealed 4X4 puts a replacement system at 'at least a couple grand'.",
    "symptoms": "Heavy white smoke, a foul smell, DPF warnings, limp mode and higher fuel use, mostly on trucks that only do short trips.",
-   "fix": "First confirm the free Toyota repair (revised exhaust hardware and software, available since May 2020) has been done. Use the manual regeneration switch, standard from June 2018, and drive at sustained highway speed regularly. Unsealed 4X4 also suggests asking for a manual regen at each service on short-trip trucks. Deleting the DPF is illegal.",
+   "fix": "Check the VIN with a Toyota dealer to confirm the May 2020 DPF remedy (hardware and software) has been done, and have it done free if not. Read any stored codes and the soot-load value with a scan tool before you guess. If the DPF light is on, drive at a steady highway speed for 20 to 30 minutes, or use the DPF switch on June-2018-and-later trucks and keep the engine running until the regeneration finishes. On older trucks without the switch, ask the dealer or a diesel shop to command a forced regeneration. If a regeneration won't complete, look for the cause: a faulty differential-pressure sensor, a leaking injector or EGR fault that is making extra soot. Book a manual regeneration at each service if the truck mostly does short runs, as Unsealed 4X4 suggests. Replace the DPF only if it is cracked or the ash load is beyond cleaning, and check whether the 10-year DPF cover pays for it first. Don't delete the DPF: it's illegal and voids the cover.",
    "tools": "Toyota dealer check by VIN · scan tool that can command a regeneration",
    "parts": [
     {
      "name": "150 Series / GX460 parts catalogue",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/150-series/"
+    }
+   ],
+   "know": [
+    "This is a known fault on the 2.8 L 1GD-FTV (and 2.4 L 2GD-FTV) diesels in Prados, HiLuxes and Fortuners sold from late 2015. The Australian Federal Court found the affected trucks were not of acceptable quality, and a full appeal court upheld that in March 2023.",
+    "Toyota's fix arrived in May 2020: revised DPF hardware and software. Toyota Australia also extended DPF cover to 10 years with unlimited kilometres for affected owners. Earlier 2016 and 2018 countermeasures did not cure it.",
+    "Trucks built from June 2018 have a manual DPF regeneration switch. Earlier trucks can be forced through a regeneration with a dealer or capable scan tool.",
+    "If you bought an affected truck in Australia, Toyota agreed in October 2026 to a proposed A$750 million settlement of the two DPF class actions, covering about 264,000 vehicles acquired between October 2015 and April 2020 plus some later private buyers. It still needs Federal Court approval.",
+    "Short trips are the trigger. The filter needs sustained heat to burn off soot, so a truck that only does school runs will keep clogging even after the fix."
+   ],
+   "mistakes": [
+    "Buying a 2015–2020 truck without checking by VIN that the 2020 DPF remedy was done.",
+    "Switching the engine off in the middle of a regeneration, again and again.",
+    "Paying for a new DPF that the extended warranty would have covered.",
+    "Deleting or tuning out the DPF, which is illegal and kills the warranty and resale.",
+    "Treating the symptom without checking the injectors and EGR, which can be overloading the filter."
+   ],
+   "cost_note": "Toyota's 2020 remedy is free, and affected Australian trucks have 10-year, unlimited-kilometre DPF cover. Out of warranty, Unsealed 4X4 puts a replacement DPF system at 'at least a couple grand'. A forced regeneration at a shop is usually a short diagnostic job rather than a parts bill.",
+   "refs": [
+    {
+     "name": "CarsGuide: Toyota loses DPF class action appeal (Mar 2023)",
+     "url": "https://www.carsguide.com.au/car-news/toyota-dpf-class-action-update-company-loses-appeal-as-impacted-hilux-prado-and-fortuner"
+    },
+    {
+     "name": "CarAdvice: Toyota offers 10-year, unlimited-km warranty on cars with faulty DPFs",
+     "url": "https://www.caradvice.com.au/895546/toyota-offers-10-year-unlimited-kilometre-warranty-on-cars-with-faulty-dpfs/"
+    },
+    {
+     "name": "CarExpert: Toyota agrees to A$750 million DPF class action settlement (Oct 2026)",
+     "url": "https://www.carexpert.com.au/car-news/toyota-agrees-to-dollar750-million-hilux-prado-dpf-class-action-settlement"
+    },
+    {
+     "name": "Toyota Australia: DPF class action notice",
+     "url": "https://www.toyota.com.au/policies/dpf-class-action/dpf-class-action-notice"
     }
    ]
   },

@@ -228,6 +228,30 @@
      "supplier": "Patrolapart",
      "url": "https://patrolapart.com.au/product/genuine-nissan-auto-locking-free-wheeling-hub-assembly-nissan-patrol-y61-gu"
     }
+   ],
+   "know": [
+    "The Y61 (GU) uses tapered roller bearings that need a correct preload, unlike the sealed hub units on many newer trucks. Too loose and the wheel wobbles; too tight and they overheat.",
+    "Owners quote different figures. ExplorOz members found Lonard's numbers differ from the Gregory's manual, which matches Nissan's own FA section, so use the Nissan figures.",
+    "The 167–196 Nm seating torque needs a proper hub-nut socket. One ExplorOz owner made his own from steel tube and dowel pins.",
+    "Do both sides together, and do the seals at the same time; they're cheap and the job is the same."
+   ],
+   "mistakes": [
+    "Using Lonard's figures instead of Nissan's and ending up with the wrong preload.",
+    "Leaving the auto hub out of LOCK when you take it off.",
+    "Skipping the final spring-gauge check and guessing the preload by feel.",
+    "Not lining up the lock-washer screw holes and over-tightening the nut to make them line up.",
+    "Reusing the old hub seal."
+   ],
+   "cost_note": "Bearings, seals and grease are the main parts cost. A shop charges roughly 2–3 hours of labour per side. The specialist hub-nut socket is the one tool most owners have to buy or make.",
+   "refs": [
+    {
+     "name": "ExplorOz: Wheel bearing tightening torque, GU Patrol",
+     "url": "https://exploroz.com/forum/43679/wheel-bearing-tightening-torque--gu-patrol"
+    },
+    {
+     "name": "ExplorOz: GU Patrol front wheel bearings",
+     "url": "https://www.exploroz.com/forum/36578/gu-patrol-front-wheel-bearings"
+    }
    ]
   },
   {
