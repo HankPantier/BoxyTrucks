@@ -30,6 +30,8 @@
 | Nov 6, 2026 | "Series IIA: spot the difference" (n=14), 4 images (Hank's own photos, plates blurred), link to /models/land-rover/series/ | https://x.com/boxytrucks/status/2118762527379329482 |
 | Nov 7, 2026 | Cross-post of Reel n=11, "G-Wagen W463: 5 things to check" (MP4), link to /models/g-class/w463/problems/ | https://x.com/boxytrucks/status/2119124935675371968 |
 | Nov 9, 2026 | Field Note: Armada Patrol PRO-4X (4 images, link in first reply) | https://x.com/boxytrucks/status/2119816507043823692 |
+| Nov 12, 2026 | Years Short: Nissan Patrol Y61 (MP4, link reply 2120935528447295582) | https://x.com/boxytrucks/status/2120935403762970946 |
+| Nov 12, 2026 | n=18 G 500 garage: what my 2007 has needed (4 images, link reply 2120943417606000715) | https://x.com/boxytrucks/status/2120943312706093483 |
 | Nov 11, 2026 | Evening Short: Lexus GX 470 tires (MP4, link in first reply 2120701634229522442) | https://x.com/boxytrucks/status/2120701510556479742 |
 | Nov 11, 2026 | n=12 Defender 90/110: 5 checks (MP4, plates blurred; link in first reply 2120580532971225232) | https://x.com/boxytrucks/status/2120575154052886822 |
 | Nov 11, 2026 | Short: Defender 90/110 years to avoid (MP4, link in first reply 2120573214975787140) | https://x.com/boxytrucks/status/2120573104749510766 |
