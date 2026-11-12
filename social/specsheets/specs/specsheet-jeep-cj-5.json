@@ -1,0 +1,66 @@
+{
+ "id": "specsheet-jeep-cj-5",
+ "image": "social/specsheets/img/specsheet-jeep-cj-5.jpg",
+ "title": "CJ-5",
+ "subtitle": "Jeep · 1955–1983",
+ "tagline": "CJ-5 · F134 HURRICANE I4 · DAUNTLESS 225 V6",
+ "hero": "site/img/jeep/cj5-trilha-da-placa.jpg",
+ "hero_pos": "50% 62%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/cj5-liberty-camp.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame · 81 in (1955–71), 83.5 in (1972–83)"
+  },
+  {
+   "photo": "site/img/jeep/cj5-cajamar-climb.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Live axles, leaf springs front and rear"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "F134 Hurricane 2.2 L F-head I4"
+  ],
+  [
+   "4WD system",
+   "Part-time, two-speed, gear-driven"
+  ],
+  [
+   "Axles",
+   "Dana 30 open-knuckle front from 1972 · Dana…"
+  ],
+  [
+   "Stock tire",
+   "225/75R15 · 5x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "31x10.50R15"
+  ],
+  [
+   "Price today",
+   "$8k–18k for a driver"
+  ]
+ ],
+ "buy": [
+  "1965",
+  "Buick-designed 225 cu in Dauntless V6 (155 hp) becomes optional; by 1968 about 75% of CJ-5s have it"
+ ],
+ "avoid": null,
+ "checks": [
+  "Frame first",
+  "Steering box mount",
+  "The tub",
+  "Windshield frame",
+  "Which engine"
+ ],
+ "owner": "The CJ-5 outlived three corporate owners, four engine families and a television hit piece, and it still feels like the original idea of a Jeep with the corners filed off.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Rafael Vianna Croffi · CC BY 2.0 · BLM Oregon & Washington · Public domain",
+ "url_label": "boxytrucks.com/models/jeep/cj-5",
+ "number": "04"
+}

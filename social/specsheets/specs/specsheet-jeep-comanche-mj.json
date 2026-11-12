@@ -1,0 +1,74 @@
+{
+ "id": "specsheet-jeep-comanche-mj",
+ "image": "social/specsheets/img/specsheet-jeep-comanche-mj.jpg",
+ "title": "Comanche MJ",
+ "subtitle": "Jeep · 1986–1992",
+ "tagline": "XJ-BASED 'UNIFRAME' · SWB 113 IN",
+ "hero": "site/img/jeep/mj-biscuit-fire-meadow.jpg",
+ "hero_pos": "68% 72%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/mj-snowbound-salem.jpg",
+   "pos": "50% 55%",
+   "label": "STRUCTURE",
+   "text": "XJ unibody front, boxed rear frame with X-member"
+  },
+  {
+   "photo": "site/img/jeep/mj-anchorage-mountains.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT SUSPENSION",
+   "text": "Quadra-Link: coils, 4 control arms, track bar"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "2.5 I4 · 2.8 GM V6 · 2.1 Renault TD"
+  ],
+  [
+   "Rear suspension",
+   "Long leaf springs, solid axle"
+  ],
+  [
+   "Rear axles",
+   "Dana 35 · Dana 44 · Chrysler 8.25 (1991–92)"
+  ],
+  [
+   "Stock tire",
+   "205/75R15 · 5x114.3"
+  ],
+  [
+   "Biggest, no lift",
+   "235/75R15 (≈29 in)"
+  ],
+  [
+   "Towing",
+   "5,000 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 18 city / 22 hwy"
+  ],
+  [
+   "Price today",
+   "$10k–16k for a driver"
+  ]
+ ],
+ "buy": [
+  "1991",
+  "Chrysler engine management replaces Renix; 4.0 'High Output' 190 hp; Chrysler 8.25 rear appears; no…"
+ ],
+ "avoid": null,
+ "checks": [
+  "Pull up the carpet",
+  "Check where the cab meets the bed, and the rails",
+  "Look for cracks and old welds on the frame",
+  "Bed, tailgate and taillights",
+  "Identify the rear axle"
+ ],
+ "owner": "A Cherokee XJ from the B-pillar forward and a fully boxed truck frame behind it.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: USDA Forest Service, Region 6 (National Archives) · Public domain · Fletcher6 · CC BY-SA 3.0 · Phasmatisnox at English Wikipedia · CC BY 3.0",
+ "url_label": "boxytrucks.com/models/jeep/comanche-mj",
+ "number": "20"
+}

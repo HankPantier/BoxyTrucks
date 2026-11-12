@@ -1,0 +1,73 @@
+{
+ "id": "specsheet-land-cruiser-prado-120",
+ "image": "social/specsheets/img/specsheet-land-cruiser-prado-120.jpg",
+ "title": "Prado 120",
+ "subtitle": "Toyota Land Cruiser · 2002–2009",
+ "tagline": "GRJ120 · KDJ120 · KZJ120 · 1GR-FE 4.0 V6",
+ "hero": "site/img/land-cruiser/prado120-beach-camel-morocco.jpg",
+ "hero_pos": "65% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/land-cruiser/prado120-superjeep-iceland.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "High-rigidity ladder frame; 2,790 mm (109.8 in)…"
+  },
+  {
+   "photo": "site/img/land-cruiser/prado120-beach-wedge-island.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT SUSPENSION",
+   "text": "Double wishbones, coil-overs"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "5VZ-FE 3.4 L V6 / 3RZ-FE 2.7 L I4"
+  ],
+  [
+   "Rear suspension",
+   "Four-link live axle, lateral rod; coils or air"
+  ],
+  [
+   "4WD system",
+   "Full-time, Torsen LSD center diff with lock"
+  ],
+  [
+   "Stock tire",
+   "265/65R17 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "265/70R17"
+  ],
+  [
+   "Towing",
+   "2,500 kg"
+  ],
+  [
+   "Fuel",
+   "9.3 L/100 km diesel · 13.6 L/100…"
+  ]
+ ],
+ "buy": [
+  "Late 2005",
+  "Five-speed automatic arrives for the V6"
+ ],
+ "avoid": [
+  "Late 2006",
+  "Euro IV 1KD-FTV (127 kW, 410 Nm) with 5AT and 6MT; Australia's diesel switches from the 1KZ-TE"
+ ],
+ "checks": [
+  "1KD-FTV: injector seats and oil pickup",
+  "1KD-FTV: injector age",
+  "Timing belt or chain?",
+  "Cracked dash and split rear door",
+  "Rear air suspension (Grande and top grades)"
+ ],
+ "owner": "America knows this truck as the GX 470.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Seek liam · CC BY-SA 4.0 · Icetour11 · CC BY-SA 4.0 · Calistemon · CC BY-SA 4.0",
+ "url_label": "boxytrucks.com/models/land-cruiser/prado-120",
+ "number": "12"
+}

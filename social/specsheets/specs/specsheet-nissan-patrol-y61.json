@@ -1,0 +1,77 @@
+{
+ "id": "specsheet-nissan-patrol-y61",
+ "image": "social/specsheets/img/specsheet-nissan-patrol-y61.jpg",
+ "title": "Patrol Y61 (GU)",
+ "subtitle": "Nissan Patrol · 1997–2016",
+ "tagline": "Y61 / UY61 · TB45 · TB48 · RD28 · ZD30 · TD42",
+ "hero": "site/img/nissan-patrol/y61-oman-dune.jpg",
+ "hero_pos": "55% 50%",
+ "tiles": [
+  {
+   "photo": "site/img/nissan-patrol/y61-lithuania-ford.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame · 2,970 mm (5-door) / 2,400 mm…"
+  },
+  {
+   "photo": "site/img/nissan-patrol/y61-iceland-snow.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Live axles on coils (wagon)"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "TB45E 4.5 petrol · RD28ETi 2.8 TD · TD42 4.2 D · TD42T"
+  ],
+  [
+   "Differentials",
+   "H233B and H260 centres"
+  ],
+  [
+   "4WD system",
+   "Part-time, dual range"
+  ],
+  [
+   "Stock tire",
+   "235/80R16 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "265/75R16 (popular); 285/75R16…"
+  ],
+  [
+   "Towing",
+   "3,500 kg"
+  ],
+  [
+   "Fuel",
+   "10.9 L/100 km combined"
+  ],
+  [
+   "Price today",
+   "$13k–17k for a driver"
+  ]
+ ],
+ "buy": [
+  "1999",
+  "TD42T turbo-diesel added (to the ST in Australia)"
+ ],
+ "avoid": [
+  "2000",
+  "GU II (April): 3.0 L four-cylinder ZD30DDTi diesel arrives with an optional automatic"
+ ],
+ "checks": [
+  "Identify the engine and series first",
+  "ZD30: demand oil history and check the dipstick",
+  "Cooling under load",
+  "Manual gearbox",
+  "Rear axle seals, diffs and underbody"
+ ],
+ "owner": "The GU is the Patrol that kept the solid axles and coils of the GQ, added a squarer body and spent nineteen years in Australian showrooms.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Fayeqalnatour · CC BY-SA 4.0 · Dovydas Žilinskas · Andreas Tille · CC BY-SA 4.0",
+ "url_label": "boxytrucks.com/models/nissan-patrol/y61",
+ "number": "08"
+}

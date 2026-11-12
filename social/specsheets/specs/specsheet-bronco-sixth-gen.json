@@ -1,0 +1,73 @@
+{
+ "id": "specsheet-bronco-sixth-gen",
+ "image": "social/specsheets/img/specsheet-bronco-sixth-gen.jpg",
+ "title": "Bronco (6th gen)",
+ "subtitle": "Ford Bronco · 2021–present",
+ "tagline": "U725 · FORD T6 · 2-DOOR 100.4 IN",
+ "hero": "site/img/bronco/b6-creek-crossing.jpg",
+ "hero_pos": "66% 55%",
+ "tiles": [
+  {
+   "photo": "site/img/bronco/b6-beach-sand-track.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, Ford T6 (U725) · 100.4 / 116.1 in…"
+  },
+  {
+   "photo": "site/img/bronco/b6-desert-sand.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT SUSPENSION",
+   "text": "Independent, twin A-arms, coilovers"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "2.3 L EcoBoost I4"
+  ],
+  [
+   "Rear axle",
+   "Dana solid axle, five-link, coilovers"
+  ],
+  [
+   "Transfer case",
+   "Part-time, 2.72:1 low · Advanced with 4A…"
+  ],
+  [
+   "Stock tire",
+   "255/70R16 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "285/75R17 (≈ 33.8 in)"
+  ],
+  [
+   "Towing",
+   "3,500 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 20 city / 22 hwy / 21 combined"
+  ]
+ ],
+ "buy": [
+  "2023",
+  "Heritage Edition and Heritage Limited Edition arrive, both with a painted top instead of the…"
+ ],
+ "avoid": [
+  "2021",
+  "Production starts June 14, 2021 at Michigan Assembly"
+ ],
+ "checks": [
+  "Run the VIN before anything else",
+  "Look hard at the hardtop",
+  "2.7 V6: ask about the engine test",
+  "Rear shocks on Badlands and Sasquatch",
+  "Drive the manual through every gear"
+ ],
+ "owner": "Ford spent 25 years working out how to beat the Wrangler and mostly managed it: a boxy, doors-off, body-on-frame 4x4 whose independent front suspension rides well, plus a factory 35-inch….",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Thomas Tucker · Othman Alghanmi",
+ "url_label": "boxytrucks.com/models/bronco/sixth-gen",
+ "number": "14"
+}

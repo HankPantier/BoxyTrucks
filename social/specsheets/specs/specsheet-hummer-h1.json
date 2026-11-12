@@ -1,0 +1,74 @@
+{
+ "id": "specsheet-hummer-h1",
+ "image": "social/specsheets/img/specsheet-hummer-h1.jpg",
+ "title": "Hummer H1",
+ "subtitle": "Hummer · 1992–2006",
+ "tagline": "M998 HMMWV-BASED · GEARED PORTAL HUBS",
+ "hero": "site/img/hummer/h1-river-crossing.jpg",
+ "hero_pos": "35% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/hummer/h1-sandstone-trail.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Steel box-section ladder frame"
+  },
+  {
+   "photo": "site/img/hummer/h1-wagon-snow.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Independent double A-arms, coils"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "GM 6.2 V8 diesel"
+  ],
+  [
+   "Geared hubs",
+   "Portal reduction at each wheel"
+  ],
+  [
+   "Brakes",
+   "Four-wheel inboard discs"
+  ],
+  [
+   "Stock tire",
+   "37x12.50R16.5 LT load range D Goodyear Wrangler MT radial"
+  ],
+  [
+   "Biggest, no lift",
+   "38x15.5"
+  ],
+  [
+   "Towing",
+   "7,710 lb"
+  ],
+  [
+   "Fuel",
+   "About 11.5 mpg city / 15 highway"
+  ],
+  [
+   "Price today",
+   "$30k–60k for a driver"
+  ]
+ ],
+ "buy": [
+  "1998",
+  "Flash Off-Road says many consider it the quintessential pre-Alpha H1: 2.56 axles, cam camber adjustment…"
+ ],
+ "avoid": null,
+ "checks": [
+  "Cold-start the turbo diesel and check the…",
+  "Front-end play",
+  "Geared-hub and halfshaft leaks",
+  "Make the CTIS work",
+  "Transfer case fluid and the 'vampire'"
+ ],
+ "owner": "A military truck with a stereo, built on the same line as the Army's and engineered to follow tanks.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: R. Engelhardt · CC BY 2.0 · The Real Polymath · Public domain · Calreyn88 · CC0",
+ "url_label": "boxytrucks.com/models/hummer/h1",
+ "number": "10"
+}

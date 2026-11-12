@@ -1,0 +1,73 @@
+{
+ "id": "specsheet-nissan-patrol-y62",
+ "image": "social/specsheets/img/specsheet-nissan-patrol-y62.jpg",
+ "title": "Patrol Y62 / Armada",
+ "subtitle": "Nissan Patrol · 2010–present",
+ "tagline": "Y62 · Z62 QX56/QX80 · VK56VD 5.6 L V8",
+ "hero": "site/img/nissan-patrol/y62-sand-facelift.jpg",
+ "hero_pos": "52% 62%",
+ "tiles": [
+  {
+   "photo": "site/img/nissan-patrol/y62-dune-safari.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Body-on-frame · independent suspension all round"
+  },
+  {
+   "photo": "site/img/nissan-patrol/y62-jebel-jais-desert.jpg",
+   "pos": "50% 55%",
+   "label": "ENGINE",
+   "text": "VK56VD 5.6 L V8 · 298 kW / 560 Nm"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "VK56VD 5.6 L V8 / VK56DE 5.6 L V8"
+  ],
+  [
+   "Gearbox",
+   "RE7R01A 7-speed automatic"
+  ],
+  [
+   "4WD system",
+   "All-Mode 4x4: Auto / 4H / 4L"
+  ],
+  [
+   "Stock tire",
+   "265/70R18 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "275/70R18"
+  ],
+  [
+   "Towing",
+   "3,500 kg"
+  ],
+  [
+   "Fuel",
+   "EPA 13 city / 18 hwy / 15 combined"
+  ]
+ ],
+ "buy": [
+  "2015–2017",
+  "CarSwitch's value sweet spot for used Y62s: it says most early-production mechanical kinks had been…"
+ ],
+ "avoid": [
+  "2010–2012",
+  "Early trucks: CarSwitch flags transmission valve-body issues and early fit-and-finish problems"
+ ],
+ "checks": [
+  "Shift quality",
+  "Signs of a hard desert life",
+  "Patrol or Armada?",
+  "HBMC and lift kits",
+  "Modifications and warranty"
+ ],
+ "owner": "The Y62 traded the Patrol's live axles for a 5.6-litre V8, independent suspension and a clever hydraulic anti-roll system, and the Gulf loved it for it.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Midhun S abraham · Magda Ehlers · Jimith Varghese",
+ "url_label": "boxytrucks.com/models/nissan-patrol/y62",
+ "number": "16"
+}

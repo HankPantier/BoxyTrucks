@@ -1,0 +1,66 @@
+{
+ "id": "specsheet-chevrolet-k5-blazer",
+ "image": "social/specsheets/img/specsheet-chevrolet-k5-blazer.jpg",
+ "title": "Chevrolet K5 Blazer",
+ "subtitle": "Chevy K5 Blazer & Suburban · 1973–1991",
+ "tagline": "350 SMALL-BLOCK V8 · 6.2 DIESEL V8 (1982+)",
+ "hero": "site/img/chevrolet/k5-blazer-san-gabriel-canyon.jpg",
+ "hero_pos": "42% 50%",
+ "tiles": [
+  {
+   "photo": "site/img/chevrolet/k5-blazer-m1009-snow.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, ≈106.5-in wheelbase"
+  },
+  {
+   "photo": "site/img/chevrolet/k5-blazer-m1009-point-alpha.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Leaf springs, live axles"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "250 I6 · 307 / 350 V8 · 400 V8 from 1975"
+  ],
+  [
+   "Front axle",
+   "Dana 44 → GM 10-bolt"
+  ],
+  [
+   "Rear axle",
+   "GM 12-bolt → 10-bolt"
+  ],
+  [
+   "Biggest, no lift",
+   "32 in (33 in with minor trimming)"
+  ],
+  [
+   "Fuel",
+   "9.6 mpg at 45 mph"
+  ],
+  [
+   "Price today",
+   "$15k–30k for a driver"
+  ]
+ ],
+ "buy": [
+  "1987",
+  "Throttle-body injection on all gas engines, and the 350 becomes the standard engine"
+ ],
+ "avoid": null,
+ "checks": [
+  "Frame cracks at the steering box",
+  "Rust in the usual places",
+  "Tailgate window and top seal",
+  "Is it really a 350?",
+  "Identify the axles and transfer case"
+ ],
+ "owner": "It's a half-ton pickup with the back seat where the bed should be and a roof you can unbolt.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: GSEC · CC BY 2.0 · Broknindarkagain · CC BY-SA 3.0 · Thomas Vogt · CC BY 2.0",
+ "url_label": "boxytrucks.com/models/chevrolet/k5-blazer",
+ "number": "09"
+}

@@ -1,0 +1,70 @@
+{
+ "id": "specsheet-pajero-pajero-gen3",
+ "image": "social/specsheets/img/specsheet-pajero-pajero-gen3.jpg",
+ "title": "Pajero / Montero Gen 3",
+ "subtitle": "Mitsubishi Pajero / Montero · 1999–2006",
+ "tagline": "V63W · V65W · V68W · V73W · V75W · V78W",
+ "hero": "site/img/pajero/gen3-sand-track-wa.jpg",
+ "hero_pos": "80% 55%",
+ "tiles": [
+  {
+   "photo": "site/img/pajero/gen3-river-gravel-iceland.jpg",
+   "pos": "50% 55%",
+   "label": "BODY",
+   "text": "Monocoque with built-in frame"
+  },
+  {
+   "photo": "site/img/pajero/gen3-dirt-climb-germany.jpg",
+   "pos": "50% 55%",
+   "label": "WHEELBASE",
+   "text": "SWB 2,545 mm (100.2 in) · LWB 2,780 mm (109.45 in)"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "3.5 L 6G74 GDI V6 / 3.5 L 6G74 SOHC V6"
+  ],
+  [
+   "Suspension",
+   "Double wishbones front · independent rear on…"
+  ],
+  [
+   "4WD system",
+   "Super Select 4WD II"
+  ],
+  [
+   "Stock tire",
+   "265/70R16 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "255/85R16 (≈33 in, narrow) or…"
+  ],
+  [
+   "Fuel",
+   "≈10–15 L/100 km"
+  ],
+  [
+   "Price today",
+   "$8k–14.5k for a driver"
+  ]
+ ],
+ "buy": [
+  "2002",
+  "Australia: the 3.2 DI-D replaces the 2.8 diesel and can be had with the five-speed auto"
+ ],
+ "avoid": null,
+ "checks": [
+  "Ask for the timing-belt receipt",
+  "Test the brakes cold, and listen for the booster",
+  "Look under it for oil and ATF cooler leaks",
+  "Cycle the Super Select lever",
+  "Feel for driveline clunk"
+ ],
+ "owner": "Mitsubishi bet the company argument on a monocoque with a frame welded underneath, gave it four-wheel independent suspension, and then won the Dakar with its descendants five years running.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Gnangarra · CC BY 2.5 AU · Ray Swi-hymn · CC BY-SA 2.0 · Joachim0809 · Public domain",
+ "url_label": "boxytrucks.com/models/pajero/pajero-gen3",
+ "number": "11"
+}

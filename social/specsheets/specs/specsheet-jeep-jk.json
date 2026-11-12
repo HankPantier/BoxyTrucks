@@ -1,0 +1,77 @@
+{
+ "id": "specsheet-jeep-jk",
+ "image": "social/specsheets/img/specsheet-jeep-jk.jpg",
+ "title": "Jeep Wrangler JK (2-door)",
+ "subtitle": "Jeep · 2007–2018",
+ "tagline": "JK · 3.8 EGH V6 (2007–11)",
+ "hero": "site/img/jeep/jk-snow-forest-arizona.jpg",
+ "hero_pos": "55% 62%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/jk-willys-wheeler-lake-mead-camp.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, 95.4 in wheelbase"
+  },
+  {
+   "photo": "site/img/jeep/jk-liwa-desert-dune.jpg",
+   "pos": "50% 55%",
+   "label": "ENGINE 2007–11",
+   "text": "3.8 L EGH OHV V6"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "3.8 L EGH V6 / 3.6 L Pentastar V6"
+  ],
+  [
+   "Engine 2012–18",
+   "3.6 L Pentastar DOHC V6"
+  ],
+  [
+   "Transmissions",
+   "NSG370 6-spd manual · 42RLE 4-spd (2007–11) ·…"
+  ],
+  [
+   "Stock tire",
+   "225/75R16 or 245/75R16"
+  ],
+  [
+   "Biggest, no lift",
+   "33 in (e.g"
+  ],
+  [
+   "Towing",
+   "2,000 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 17 city / 21 hwy"
+  ],
+  [
+   "Price today",
+   "$12k–20k for a driver"
+  ]
+ ],
+ "buy": [
+  "2012",
+  "3.6 Pentastar V6 (285 hp, 260 lb-ft) and 5-speed W5A580 automatic replace the 3.8 and the 4-speed"
+ ],
+ "avoid": [
+  "2007",
+  "JK launch (production from August 2006): 3.8 EGH V6 (202 hp) with a 6-speed manual or 4-speed 42RLE…"
+ ],
+ "checks": [
+  "Which engine?",
+  "Look into the engine valley (2012–18)",
+  "Jack up the front axle",
+  "Listen at cold start",
+  "Electrical gremlins and water"
+ ],
+ "owner": "The JK took the Wrangler from a summer toy to a computer-controlled, power-windowed mainstream hit, and the two-door is the version that kept the old-school wheelbase.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Brady Cook · CC0 · Andrew Cattoir, NPS · Public domain · K4urram · CC BY-SA 4.0",
+ "url_label": "boxytrucks.com/models/jeep/jk",
+ "number": "22"
+}

@@ -1,0 +1,74 @@
+{
+ "id": "specsheet-land-cruiser-80-series",
+ "image": "social/specsheets/img/specsheet-land-cruiser-80-series.jpg",
+ "title": "80 Series",
+ "subtitle": "Toyota Land Cruiser · 1990–1997",
+ "tagline": "FJ80 · FZJ80 · 1FZ-FE 4.5 I6 · FULL-TIME 4WD",
+ "hero": "site/img/land-cruiser/lc80-hillside.jpg",
+ "hero_pos": "65% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/land-cruiser/lc80-algeria-dunes.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, 112.2 in wheelbase"
+  },
+  {
+   "photo": "site/img/land-cruiser/lc80-toperi-mud.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Solid axles, coil springs front and rear"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "3F-E 4.0 L I6 / 1FZ-FE 4.5 L DOHC 24v I6"
+  ],
+  [
+   "4WD system",
+   "Full-time with center diff"
+  ],
+  [
+   "Lockers",
+   "Optional electric front and rear"
+  ],
+  [
+   "Stock tire",
+   "275/70R16 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "285/75R16 (≈33 in)"
+  ],
+  [
+   "Towing",
+   "5,000 lb"
+  ],
+  [
+   "Fuel",
+   "12 city / 14 hwy mpg"
+  ],
+  [
+   "Price today",
+   "$18k–34k for a driver"
+  ]
+ ],
+ "buy": [
+  "1993",
+  "FZJ80 arrives: 4.5 L 24-valve 1FZ-FE, A442F auto, 16-inch wheels, larger brakes (from October 1992…"
+ ],
+ "avoid": null,
+ "checks": [
+  "Pull the knuckle fill plug",
+  "Look for coolant at the head",
+  "Rust in the footwells and rear windows",
+  "Cracks around the steering box",
+  "Test the lockers properly"
+ ],
+ "owner": "Hank, who owned one: “The biggest problem I had on my 80 Series was the window regulators going out.”",
+ "owner_label": "OWNER NOTE",
+ "credit": "Photos: Darina Rodionova · Patrick Gruban · CC BY-SA 2.0 · Cruiser-Aust · CC BY-SA 3.0",
+ "url_label": "boxytrucks.com/models/land-cruiser/80-series",
+ "number": "02"
+}

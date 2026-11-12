@@ -1,0 +1,69 @@
+{
+ "id": "specsheet-bronco-bronco-ii",
+ "image": "social/specsheets/img/specsheet-bronco-bronco-ii.jpg",
+ "title": "Bronco II",
+ "subtitle": "Ford Bronco · 1984–1990",
+ "tagline": "94 IN WHEELBASE · 2.8 / 2.9 COLOGNE V6",
+ "hero": "site/img/bronco/b2-blue-white-winch-build.jpg",
+ "hero_pos": "55% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/bronco/b2-lifted-mud-caked.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame · 94 in wheelbase · 56.9 in track"
+  },
+  {
+   "photo": "site/img/bronco/b2-1989-lifted-lethbridge.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT SUSPENSION",
+   "text": "Twin Traction Beam, coil springs, radius arms"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "2.8 Cologne V6"
+  ],
+  [
+   "Front axle",
+   "Dana 28 TTB (1984–89) · Dana 35 TTB (built…"
+  ],
+  [
+   "Rear axle",
+   "Ford 7.5 in, 28-spline, overslung leaf springs"
+  ],
+  [
+   "Stock tire",
+   "205/75R15 · 5x114.3"
+  ],
+  [
+   "Biggest, no lift",
+   "31x10.50R15"
+  ],
+  [
+   "Fuel",
+   "EPA 15–17 city / 17–22 hwy"
+  ]
+ ],
+ "buy": [
+  "1989",
+  "Facelift to match the Ranger: new hood, fenders, bumper and dashboard, 161.9 in long"
+ ],
+ "avoid": [
+  "1986",
+  "Fuel-injected 2.9 Cologne V6 (140 hp); Mitsubishi 2.3 turbodiesel offered; Touch-Drive electric-shift…"
+ ],
+ "checks": [
+  "Look for a cracked 2.9 head before anything else",
+  "Listen to the valve train",
+  "Hunt for water leaks and cowl rust",
+  "Judge the A4LD, especially on 1985–87 trucks",
+  "Read the door sticker and the front axle"
+ ],
+ "owner": "Ford put a roof on the new Ranger, cut the wheelbase to 94 inches and sold more than 760,000 of the result.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: SsmIntrigue · CC BY-SA 4.0 · Fxnick (English Wikipedia) · Public domain · dave_7 · CC BY 2.0",
+ "url_label": "boxytrucks.com/models/bronco/bronco-ii",
+ "number": "05"
+}

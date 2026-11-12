@@ -1,0 +1,70 @@
+{
+ "id": "specsheet-jeep-grand-wagoneer",
+ "image": "social/specsheets/img/specsheet-jeep-grand-wagoneer.jpg",
+ "title": "Jeep Grand Wagoneer (SJ)",
+ "subtitle": "Jeep · 1984–1991",
+ "tagline": "SJ PLATFORM · AMC 360 5.9 V8",
+ "hero": "site/img/jeep/gw-webster-nc.jpg",
+ "hero_pos": "60% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/gw-webster-side.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "SJ body-on-frame, 108.7 in wheelbase"
+  },
+  {
+   "photo": "site/img/jeep/gw-sj-shotgun-creek.jpg",
+   "pos": "50% 55%",
+   "label": "ENGINE",
+   "text": "AMC 360 (5.9 L) V8, 2-bbl Motorcraft 2150"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "Tornado 230 OHC I6"
+  ],
+  [
+   "Transmission",
+   "Chrysler TorqueFlite A727 three-speed auto"
+  ],
+  [
+   "4WD system",
+   "Selec-Trac NP228 / NP229"
+  ],
+  [
+   "Stock tire",
+   "P235/75R15 · 6x139.7"
+  ],
+  [
+   "Towing",
+   "5,000 lb"
+  ],
+  [
+   "Fuel",
+   "About 11 mpg combined"
+  ],
+  [
+   "Price today",
+   "$17k–36k for a driver"
+  ]
+ ],
+ "buy": [
+  "1989",
+  "Start of the 'best of the breed' run: more reliable A/C compressor, rear wiper/washer, minivan-sourced…"
+ ],
+ "avoid": null,
+ "checks": [
+  "Rust first, everything else second",
+  "Bubbles under the woodgrain",
+  "Drive it cold and hot",
+  "Test 4WD on the move",
+  "Work every switch"
+ ],
+ "owner": "A 1962 design in a vinyl-wood cardigan, still drinking carbureted 360 V8 fuel when Chrysler finally switched off the Toledo line in 1991.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Warren LeMay · CC0 · BLM Oregon & Washington · Public domain",
+ "url_label": "boxytrucks.com/models/jeep/grand-wagoneer",
+ "number": "13"
+}

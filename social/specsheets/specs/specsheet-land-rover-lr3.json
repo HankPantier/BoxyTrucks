@@ -1,0 +1,77 @@
+{
+ "id": "specsheet-land-rover-lr3",
+ "image": "social/specsheets/img/specsheet-land-rover-lr3.jpg",
+ "title": "Land Rover LR3 / Discovery 3",
+ "subtitle": "Land Rover · 2004–2009",
+ "tagline": "L319 · INTEGRATED BODY FRAME · 4-CORNER AIR",
+ "hero": "site/img/land-rover/lr3-moorland-overlook.jpg",
+ "hero_pos": "58% 62%",
+ "tiles": [
+  {
+   "photo": "site/img/land-rover/lr3-muddy-farm-track.jpg",
+   "pos": "50% 55%",
+   "label": "BODY",
+   "text": "Integrated Body Frame"
+  },
+  {
+   "photo": "site/img/land-rover/lr3-forest-track.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Independent, four-corner air"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "2.7 TDV6 diesel / 4.4 V8 petrol"
+  ],
+  [
+   "4WD",
+   "Permanent, two-speed, 2.93:1 low"
+  ],
+  [
+   "Rear diff",
+   "Optional electronic locker"
+  ],
+  [
+   "Stock tire",
+   "255/60R18 · 5x120"
+  ],
+  [
+   "Biggest, no lift",
+   "265/65R18 or 285/60R18 (≈31 in)"
+  ],
+  [
+   "Towing",
+   "7,716 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 12–13 city / 17 hwy"
+  ],
+  [
+   "Price today",
+   "$7k–13k for a driver"
+  ]
+ ],
+ "buy": [
+  "2008 MY",
+  "US V8 only; seven seats standard; facelift with body-colour bumpers, clear side indicators and…"
+ ],
+ "avoid": [
+  "2005 MY",
+  "LR3 launches in North America with the 4.4 V8 or the 216 hp 4.0 V6"
+ ],
+ "checks": [
+  "TDV6 bottom end",
+  "Air suspension",
+  "Electronic parking brake",
+  "Front lower arms and bushes",
+  "ZF six-speed automatic"
+ ],
+ "owner": "The Discovery that swapped beam axles for air springs and software, and somehow got better off-road for it.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: txomcs",
+ "url_label": "boxytrucks.com/models/land-rover/lr3",
+ "number": "15"
+}

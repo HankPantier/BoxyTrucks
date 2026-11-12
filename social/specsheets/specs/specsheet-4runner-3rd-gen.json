@@ -1,0 +1,70 @@
+{
+ "id": "specsheet-4runner-3rd-gen",
+ "image": "social/specsheets/img/specsheet-4runner-3rd-gen.jpg",
+ "title": "3rd Gen",
+ "subtitle": "Toyota 4Runner · 1996–2002",
+ "tagline": "N180 · 5VZ-FE 3.4 V6 · REAR E-LOCKER 1996–2000",
+ "hero": "site/img/4runner/gen3-mount-charleston.jpg",
+ "hero_pos": "62% 70%",
+ "tiles": [
+  {
+   "photo": "site/img/4runner/red-rock-climb.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame"
+  },
+  {
+   "photo": "site/img/4runner/gen3-high-desert-hills.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT",
+   "text": "Double-wishbone IFS"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "3RZ-FE 2.7 I4 / 5VZ-FE 3.4 V6"
+  ],
+  [
+   "Rear",
+   "Solid axle on coils"
+  ],
+  [
+   "4WD",
+   "Part-time → Multi-Mode"
+  ],
+  [
+   "Stock tire",
+   "225/75R15 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "265/75R16"
+  ],
+  [
+   "Towing",
+   "5,000 lb"
+  ],
+  [
+   "Price today",
+   "$13k–22k for a driver"
+  ]
+ ],
+ "buy": [
+  "1999",
+  "Facelift ('fat lip' bumper, multi-parabola headlights), new dash; optional Multi-Mode transfer case"
+ ],
+ "avoid": null,
+ "checks": [
+  "Frame rust, properly",
+  "Lower ball joints",
+  "Timing belt records",
+  "Rear axle seals and brakes",
+  "Locker and 4WD function"
+ ],
+ "owner": "The 4Runner that finally stopped being a pickup with a roof and became a proper SUV — without going soft.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: NeONBRAND · CC0 1.0 · Quilia · Zach Dischner · CC BY 2.0",
+ "url_label": "boxytrucks.com/models/4runner/3rd-gen",
+ "number": "03"
+}

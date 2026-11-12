@@ -1,0 +1,70 @@
+{
+ "id": "specsheet-grenadier-station-wagon",
+ "image": "social/specsheets/img/specsheet-grenadier-station-wagon.jpg",
+ "title": "Ineos Grenadier Station Wagon",
+ "subtitle": "Ineos Grenadier · 2022–present",
+ "tagline": "BMW B58 3.0 I6 TURBO · ZF 8HP",
+ "hero": "site/img/grenadier/station-wagon-goodwood-mud.jpg",
+ "hero_pos": "52% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/grenadier/station-wagon-prototype-meadow.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Box-section steel ladder frame"
+  },
+  {
+   "photo": "site/img/grenadier/station-wagon-trailmaster-overland.jpg",
+   "pos": "50% 55%",
+   "label": "AXLES",
+   "text": "Carraro beam axles, front and rear"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "BMW B58 3.0 turbo I6 petrol"
+  ],
+  [
+   "Gearbox",
+   "ZF 8-speed automatic"
+  ],
+  [
+   "Transfer",
+   "Tremec two-speed, 2.5:1 low range"
+  ],
+  [
+   "Stock tire",
+   "LT265/70R17 · 6x130"
+  ],
+  [
+   "Biggest, no lift",
+   "285/75R17 (≈34 in)"
+  ],
+  [
+   "Towing",
+   "7,716 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 15 city / 15 hwy"
+  ]
+ ],
+ "buy": [
+  "MY2026",
+  "Variable-ratio steering box with more assist, revised HVAC, quieter driver assists, Black Edition"
+ ],
+ "avoid": null,
+ "checks": [
+  "Run the VIN for all three US recalls",
+  "Ask about software and module history",
+  "Drive it on a real road",
+  "Check for water in the doors and cabin",
+  "Check the oil level and the break-in service"
+ ],
+ "owner": "The old Defender's spirit with a BMW heart and Italian tractor axles.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Calreyn88 · CC BY-SA 4.0 · Mario A. P. · CC BY-SA 2.0",
+ "url_label": "boxytrucks.com/models/grenadier/station-wagon",
+ "number": "07"
+}

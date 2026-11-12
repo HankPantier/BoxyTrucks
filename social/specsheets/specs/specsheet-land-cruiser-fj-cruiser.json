@@ -1,0 +1,77 @@
+{
+ "id": "specsheet-land-cruiser-fj-cruiser",
+ "image": "social/specsheets/img/specsheet-land-cruiser-fj-cruiser.jpg",
+ "title": "FJ Cruiser",
+ "subtitle": "Toyota Land Cruiser · 2007–2014",
+ "tagline": "XJ10 · GSJ15 4X4 · 1GR-FE 4.0 V6",
+ "hero": "site/img/land-cruiser/fj-cruiser-mountain-ledge.jpg",
+ "hero_pos": "68% 62%",
+ "tiles": [
+  {
+   "photo": "site/img/land-cruiser/fj-cruiser-river-crossing.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, 105.9 in wheelbase"
+  },
+  {
+   "photo": "site/img/land-cruiser/fj-cruiser-creek-slickrock.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Double wishbone front, 4-link coil rear"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "1GR-FE 4.0 V6, VVT-i"
+  ],
+  [
+   "4WD · manual",
+   "Full-time, Torsen center diff (VF4B)"
+  ],
+  [
+   "4WD · automatic",
+   "Part-time (VF2A), front axle disconnect"
+  ],
+  [
+   "Stock tire",
+   "P265/70R17 · 6x139.7"
+  ],
+  [
+   "Biggest, no lift",
+   "285/70R17 (about 33 x 11 in)"
+  ],
+  [
+   "Towing",
+   "5,000 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 17 city / 20 hwy"
+  ],
+  [
+   "Price today",
+   "$26k–37k for a driver"
+  ]
+ ],
+ "buy": [
+  "2010",
+  "Dual VVT-i 1GR-FE: 259 hp on regular fuel, slightly better economy, and a slightly larger rear diff"
+ ],
+ "avoid": [
+  "2007",
+  "Launch: 239-hp 1GR-FE on premium, six-speed manual (full-time 4WD) or five-speed automatic; 3,200 TRD…"
+ ],
+ "checks": [
+  "Get under it with a hammer and a light",
+  "Open the hood and look at the inner fenders",
+  "Check the rear access doors",
+  "Feel for a clunk when it downshifts",
+  "Manual trucks: listen at the clutch"
+ ],
+ "owner": "Toyota took the FJ40's face, bolted it to a Prado-family frame and gave it a rear locker.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Brice Cooper",
+ "url_label": "boxytrucks.com/models/land-cruiser/fj-cruiser",
+ "number": "17"
+}

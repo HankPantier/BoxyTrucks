@@ -10,12 +10,12 @@ const css = `*{box-sizing:border-box;margin:0}body{width:1080px;height:1350px;ba
 .mono{font-family:'IBM Plex Mono',monospace}
 .hero{position:absolute;left:0;top:0;width:1080px;height:560px;background-size:cover}
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,15,14,.92) 0%,rgba(14,15,14,.55) 38%,rgba(14,15,14,0) 62%),linear-gradient(transparent 70%,#0E0F0E)}
-.head{position:absolute;left:56px;top:48px;z-index:2;width:520px}
+.head{position:absolute;left:56px;top:48px;z-index:2;width:640px}
 .brand{display:flex;align-items:center;gap:12px;font-weight:600;letter-spacing:.2em;font-size:17px}
 .no{font-size:17px;letter-spacing:.24em;color:#C9A86A;margin-top:34px}
 h1{font-size:150px;line-height:.9;letter-spacing:-.045em;font-weight:600;margin-top:10px}
 .sub{font-size:27px;margin-top:14px;color:#E9E4DA;font-weight:500}
-.tag{display:inline-block;margin-top:20px;padding:8px 14px;border:1.5px solid #C9A86A;color:#C9A86A;font-size:16px;letter-spacing:.16em}
+.tag{display:inline-block;white-space:nowrap;max-width:968px;padding-right:18px !important;margin-top:20px;padding:8px 14px;border:1.5px solid #C9A86A;color:#C9A86A;font-size:16px;letter-spacing:.16em}
 .tiles{position:absolute;left:56px;right:56px;top:520px;display:grid;grid-template-columns:1fr 1fr;gap:16px;z-index:2}
 .tile{height:132px;background-size:cover;position:relative;border:1px solid rgba(201,168,106,.35)}
 .tile:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,15,14,.9) 0%,rgba(14,15,14,.35) 70%)}
@@ -33,8 +33,8 @@ h1{font-size:150px;line-height:.9;letter-spacing:-.045em;font-weight:600;margin-
 .chk li:before{content:counter(c);font-family:'IBM Plex Mono',monospace;color:#C9A86A;font-size:16px}
 .owner{position:absolute;left:56px;right:56px;bottom:84px;padding:14px 20px;border-left:3px solid #C9A86A;background:rgba(201,168,106,.08);font-size:19px;line-height:1.35}
 .owner .l{font-size:14px;letter-spacing:.22em;color:#C9A86A;margin-bottom:6px}
-.ft{position:absolute;left:56px;right:56px;bottom:36px;display:flex;align-items:center;font-size:15px;color:#A8A296}
-.ft .url{margin-left:auto;color:#C9A86A;font-size:19px}`;
+.ft{position:absolute;left:56px;right:56px;bottom:30px;display:flex;align-items:flex-end;gap:24px;font-size:13px;line-height:1.35;color:#A8A296}.ft .cr{flex:1;min-width:0}
+.ft .url{margin-left:auto;color:#C9A86A;font-size:18px;white-space:nowrap}`;
 const page = `<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet"><style>${css}</style></head><body>
 <div class="hero" style="background-image:url(${img(r.hero)});background-position:${r.hero_pos || '50% 50%'}"></div>
 <div class="head"><div class="brand">${mark}<span>BOXY TRUCKS</span></div>
@@ -43,15 +43,28 @@ const page = `<!doctype html><html><head><meta charset="utf-8"><link href="https
 <div class="grid"><div><div class="h mono">SPECIFICATIONS</div>${r.specs.map(([k, v]) => `<div class="spec"><span class="k mono">${esc(k)}</span><span class="v">${esc(v)}</span></div>`).join('')}</div>
 <div><div class="h mono">WHICH YEAR</div>
 <div class="yr"><span class="badge mono" style="color:#6FAE80;border-color:#6FAE80">BUY</span><div><b>${esc(r.buy[0])}</b><span>${esc(r.buy[1])}</span></div></div>
-<div class="yr"><span class="badge mono" style="color:#D5684C;border-color:#D5684C">AVOID</span><div><b>${esc(r.avoid[0])}</b><span>${esc(r.avoid[1])}</span></div></div>
+${r.avoid ? `<div class="yr"><span class="badge mono" style="color:#D5684C;border-color:#D5684C">AVOID</span><div><b>${esc(r.avoid[0])}</b><span>${esc(r.avoid[1])}</span></div></div>` : ''}
 <div class="chk"><div class="h mono">CHECK BEFORE YOU BUY</div><ol>${r.checks.map(c => `<li>${esc(c)}</li>`).join('')}</ol></div></div></div>
-${r.owner ? `<div class="owner"><div class="l mono">OWNER NOTE</div>${esc(r.owner)}</div>` : ''}
-<div class="ft mono"><span>${esc(r.credit)}</span><span class="url">${esc(r.url_label)}</span></div></body></html>`;
+${r.owner ? `<div class="owner"><div class="l mono">${esc(r.owner_label || 'OWNER NOTE')}</div>${esc(r.owner)}</div>` : ''}
+<div class="ft mono"><span class="cr">${esc(r.credit)}</span><span class="url">${esc(r.url_label)}</span></div></body></html>`;
 (async () => {
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   await pg.setContent(page); await pg.waitForTimeout(1200);
-  const over = await pg.evaluate(() => { const g = document.querySelector('.grid').getBoundingClientRect().bottom, o = document.querySelector('.owner'); return o ? g - o.getBoundingClientRect().top : g - 1300; });
+  // fit: shrink the tiles, then the table text, until the grid clears the owner note (or the footer)
+  const over = await pg.evaluate(() => {
+    const ov = () => { const g = document.querySelector('.grid').getBoundingClientRect().bottom, o = document.querySelector('.owner'); return o ? g - o.getBoundingClientRect().top + 14 : g - 1290; };
+    const grid = document.querySelector('.grid'), tiles = document.querySelectorAll('.tile');
+    // title: shrink until the header block clears the tiles; tagline: shrink until it fits one line
+    const h = document.querySelector('h1'), head = document.querySelector('.head'), tag = document.querySelector('.tag');
+    let hs = 150; while (head.getBoundingClientRect().bottom > 500 && hs > 84) { hs -= 6; h.style.fontSize = hs + 'px'; }
+    let ts = 16; while (tag.scrollWidth > tag.clientWidth + 1 && ts > 11) { ts -= 1; tag.style.fontSize = ts + 'px'; tag.style.letterSpacing = '.1em'; }
+    const ub = document.querySelector('.ft .url'); let us = 18; while (ub.getBoundingClientRect().width > 520 && us > 13) { us -= 1; ub.style.fontSize = us + 'px'; }
+    let top = 676, th = 132, f = 1;
+    while (ov() > 0 && th > 96) { th -= 6; top -= 6; tiles.forEach(t => t.style.height = th + 'px'); grid.style.top = top + 'px'; }
+    while (ov() > 0 && f > 0.8) { f -= 0.03; document.querySelectorAll('.spec,.chk li,.yr span').forEach(e => { e.style.fontSize = ''; const fs = parseFloat(getComputedStyle(e).fontSize); e.style.fontSize = (fs * f / (f + 0.03)) + 'px'; e.style.paddingTop = e.style.paddingBottom = Math.round(7 * f) + 'px'; }); }
+    return ov();
+  });
   fs.mkdirSync(path.dirname(path.join(ROOT, r.image)), { recursive: true });
-  await pg.screenshot({ path: path.join(ROOT, r.image), type: 'jpeg', quality: 90 }); console.log(r.image, 'overlap px:', Math.round(over));
+  await pg.screenshot({ path: path.join(ROOT, r.image), type: 'jpeg', quality: 90 }); console.log(r.image, over > 0 ? 'STILL OVERLAPS ' + Math.round(over) + 'px: shorten the text' : 'fits');
   await b.close();
 })();

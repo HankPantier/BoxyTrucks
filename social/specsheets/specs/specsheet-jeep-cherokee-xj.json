@@ -1,0 +1,77 @@
+{
+ "id": "specsheet-jeep-cherokee-xj",
+ "image": "social/specsheets/img/specsheet-jeep-cherokee-xj.jpg",
+ "title": "Cherokee XJ",
+ "subtitle": "Jeep · 1984–2001",
+ "tagline": "UNIBODY 'UNIFRAME' · 4.0 I6 (1987–2001)",
+ "hero": "site/img/jeep/xj-shotgun-creek-climb.jpg",
+ "hero_pos": "62% 55%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/xj-shotgun-creek-rocks.jpg",
+   "pos": "50% 55%",
+   "label": "STRUCTURE",
+   "text": "Unibody 'Uniframe', 101.4 in wheelbase"
+  },
+  {
+   "photo": "site/img/jeep/xj-texas-mud-flex.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT SUSPENSION",
+   "text": "Quadra-Link: coils, 4 control arms, track bar"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "2.5 I4 · 2.8 GM V6 · 2.1 Renault TD"
+  ],
+  [
+   "Rear suspension",
+   "Four-leaf packs, compression shackles"
+  ],
+  [
+   "Axles",
+   "Dana 30 front · Dana 35, Chrysler 8.25 or…"
+  ],
+  [
+   "Stock tire",
+   "215/75R15 · 5x114.3"
+  ],
+  [
+   "Biggest, no lift",
+   "235/75R15"
+  ],
+  [
+   "Towing",
+   "5,000 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 14 city / 18 hwy"
+  ],
+  [
+   "Price today",
+   "$8k–16k for a driver"
+  ]
+ ],
+ "buy": [
+  "1991",
+  "4.0 L 'High Output' with Chrysler multi-point injection, 190 hp; Chrysler 8.25 in rear axle available on…"
+ ],
+ "avoid": [
+  "1984",
+  "Launch: unibody 'Uniframe', Quadra-Link coil front and leaf rear on live axles; 2.5 L AMC four or 2.8 L…"
+ ],
+ "checks": [
+  "The unibody rails come first",
+  "Rockers, floors and lower quarters",
+  "2000–01?",
+  "Idle it until the fan comes on",
+  "Find the leak before you blame the rear main"
+ ],
+ "owner": "A small box designed by AMC with help from Renault, given one of the best straight-sixes ever bolted into a 4x4 and two solid axles, then sold to suburbia for 18 years.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: BLM Oregon & Washington · Public domain · Rafi B. · CC BY 2.0",
+ "url_label": "boxytrucks.com/models/jeep/cherokee-xj",
+ "number": "18"
+}

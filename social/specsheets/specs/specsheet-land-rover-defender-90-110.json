@@ -1,0 +1,73 @@
+{
+ "id": "specsheet-land-rover-defender-90-110",
+ "image": "social/specsheets/img/specsheet-land-rover-defender-90-110.jpg",
+ "title": "Land Rover 90 / 110 / Defender",
+ "subtitle": "Land Rover · 1983–2016",
+ "tagline": "90 · 110 · 127/130",
+ "hero": "site/img/land-rover/defender-mud-splash.jpg",
+ "hero_pos": "45% 55%",
+ "tiles": [
+  {
+   "photo": "site/img/land-rover/defender-90-mountain-trail.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Steel ladder frame"
+  },
+  {
+   "photo": "site/img/land-rover/defender-110-beach.jpg",
+   "pos": "50% 55%",
+   "label": "BODY",
+   "text": "Aluminium panels on steel bulkhead"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "2.25 petrol & diesel, 2.5 D, 2.5 petrol, 3.5 V8, 2.5 Diesel Turbo"
+  ],
+  [
+   "Suspension",
+   "Coil springs, beam axles"
+  ],
+  [
+   "4WD",
+   "Permanent, lockable centre diff"
+  ],
+  [
+   "Stock tire",
+   "235/85R16 · 5x165.1"
+  ],
+  [
+   "Biggest, no lift",
+   "255/85R16 (≈33 in)"
+  ],
+  [
+   "Towing",
+   "7,716 lb"
+  ],
+  [
+   "Fuel",
+   "12–16 mpg"
+  ]
+ ],
+ "buy": [
+  "1990",
+  "200Tdi direct-injection diesel (107 hp); 127 becomes the Defender 130"
+ ],
+ "avoid": [
+  "1998–2002",
+  "Early '10P' Td5s: oil-pump-drive and head-stud failures (fixed within two years) and cylinder heads that…"
+ ],
+ "checks": [
+  "Paperwork and VIN first",
+  "Rear crossmember",
+  "Bulkhead, footwells and outriggers",
+  "Swivel balls and steering play",
+  "Transfer box noise and leaks"
+ ],
+ "owner": "A Series Land Rover that finally got coil springs, then refused to change anything else for 33 years.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Thomas Tucker · Peter Schulz",
+ "url_label": "boxytrucks.com/models/land-rover/defender-90-110",
+ "number": "06"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "specsheet-land-cruiser-prado-150",
+ "image": "social/specsheets/img/specsheet-land-cruiser-prado-150.jpg",
+ "title": "Prado 150",
+ "subtitle": "Toyota Land Cruiser · 2009–2023",
+ "tagline": "J150 · KDJ150 · 1KD-FTV 3.0 TD · GDJ150",
+ "hero": "site/img/land-cruiser/prado150-lancelin-dunes-profile.jpg",
+ "hero_pos": "55% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/land-cruiser/prado150-perth-hills-fire-trail.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, Toyota F2"
+  },
+  {
+   "photo": "site/img/land-cruiser/prado150-lancelin-dunes-front.jpg",
+   "pos": "50% 55%",
+   "label": "DIESELS",
+   "text": "1KD-FTV 3.0 → 1GD-FTV 2.8"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "1KD-FTV 3.0 L I4 turbo-diesel"
+  ],
+  [
+   "Petrols",
+   "2TR-FE 2.7 I4 · 1GR-FE 4.0 V6"
+  ],
+  [
+   "Driveline",
+   "Full-time 4WD, Torsen centre with lock"
+  ],
+  [
+   "Biggest, no lift",
+   "≈32 in (e.g"
+  ],
+  [
+   "Towing",
+   "3,000 kg"
+  ],
+  [
+   "Fuel",
+   "7.9 L/100 km"
+  ]
+ ],
+ "buy": [
+  "2013",
+  "First facelift (Japan 10 Sept, Australia October): new grille, bumpers and lamps, LED low beams, retuned…"
+ ],
+ "avoid": [
+  "2009",
+  "Unsealed 4X4 flags launch-year trucks for airbag recalls and electrical gremlins"
+ ],
+ "checks": [
+  "Which diesel, and what's been done",
+  "DPF history on 2015–2020 diesels",
+  "Dust in the 2.8's intake",
+  "Early brakes",
+  "Suspension bushes and rear air"
+ ],
+ "owner": "Fourteen years, three diesels' worth of arguments and one very long DPF lawsuit, and the 150 still ended up as the default way to cross Australia with the kids in the back.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Ajay Lamichhane · Aussie Oc · CC BY-SA 4.0",
+ "url_label": "boxytrucks.com/models/land-cruiser/prado-150",
+ "number": "19"
+}

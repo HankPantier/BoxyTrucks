@@ -1,0 +1,77 @@
+{
+ "id": "specsheet-jeep-jk-unlimited",
+ "image": "social/specsheets/img/specsheet-jeep-jk-unlimited.jpg",
+ "title": "Wrangler JK Unlimited",
+ "subtitle": "Jeep · 2007–2018",
+ "tagline": "JK UNLIMITED · 116 IN WHEELBASE · 3.8 EGH V6",
+ "hero": "site/img/jeep/jku-bald-mountain-colorado.jpg",
+ "hero_pos": "42% 62%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/jku-rubicon-emery-dugway.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, 116 in wheelbase"
+  },
+  {
+   "photo": "site/img/jeep/jku-chappie-shasta-climb.jpg",
+   "pos": "50% 55%",
+   "label": "FRONT AXLE",
+   "text": "Dana 30 (Sport/Sahara) · Dana 44 (Rubicon)"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "3.8 L EGH V6 / 3.6 L Pentastar V6"
+  ],
+  [
+   "Rear axle",
+   "Dana 44"
+  ],
+  [
+   "4WD system",
+   "Command-Trac 2.72:1 · Rock-Trac 4:1"
+  ],
+  [
+   "Stock tire",
+   "P225/75R16 · 5x127"
+  ],
+  [
+   "Biggest, no lift",
+   "33 in (e.g"
+  ],
+  [
+   "Towing",
+   "3,500 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 16 city / 20 hwy"
+  ],
+  [
+   "Price today",
+   "$14k–27k for a driver"
+  ]
+ ],
+ "buy": [
+  "2012",
+  "3.6 Pentastar V6 (285 hp, 260 lb-ft) and 5-speed W5A580 automatic replace the 3.8 and the 4-speed"
+ ],
+ "avoid": [
+  "2007",
+  "JK launch (production from August 2006): 3.8 EGH V6 (202 hp) with a 6-speed manual or 4-speed 42RLE…"
+ ],
+ "checks": [
+  "Pick your engine first",
+  "Drive it over a pothole at 50 mph",
+  "Look at the oil filter housing",
+  "On a 3.8, check for oil burning and manifold…",
+  "2012–2013: ask about the left cylinder head"
+ ],
+ "owner": "The Jeep that let Wrangler people have children, friends and luggage at the same time.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Brett Levin · CC BY 2.0 · BLM Utah · Public domain · BLM California · Public domain",
+ "url_label": "boxytrucks.com/models/jeep/jk-unlimited",
+ "number": "23"
+}

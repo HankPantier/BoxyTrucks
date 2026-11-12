@@ -1,0 +1,74 @@
+{
+ "id": "specsheet-jeep-yj",
+ "image": "social/specsheets/img/specsheet-jeep-yj.jpg",
+ "title": "Wrangler YJ",
+ "subtitle": "Jeep · 1987–1995",
+ "tagline": "YJ · 4.0 I6 FROM 1991 · LEAF SPRINGS ALL ROUND",
+ "hero": "site/img/jeep/yj-crystal-mountain-ledge.jpg",
+ "hero_pos": "42% 60%",
+ "tiles": [
+  {
+   "photo": "site/img/jeep/yj-desert-wash.jpg",
+   "pos": "50% 55%",
+   "label": "CHASSIS",
+   "text": "Ladder frame, 93.4 in (2,372 mm) wheelbase"
+  },
+  {
+   "photo": "site/img/jeep/yj-mounds-mud.jpg",
+   "pos": "50% 55%",
+   "label": "SUSPENSION",
+   "text": "Leaf springs front and rear"
+  }
+ ],
+ "specs": [
+  [
+   "Engine",
+   "4.2 L AMC 258 I6, Carter BBD carb"
+  ],
+  [
+   "Front axle",
+   "Dana 30, vacuum disconnect"
+  ],
+  [
+   "Rear axle",
+   "Dana 35 (Dana 44 optional some years)"
+  ],
+  [
+   "Stock tire",
+   "205/75R15 or 215/75R15"
+  ],
+  [
+   "Biggest, no lift",
+   "30x9.50R15"
+  ],
+  [
+   "Towing",
+   "2,000 lb"
+  ],
+  [
+   "Fuel",
+   "EPA 15 city / 20 hwy"
+  ],
+  [
+   "Price today",
+   "$8k–17k for a driver"
+  ]
+ ],
+ "buy": [
+  "1991",
+  "Fuel-injected 4.0 L six replaces the carbureted 4.2; Hagerty says the 4.0 sixes are often the most…"
+ ],
+ "avoid": null,
+ "checks": [
+  "Frame, spring hangers and floors first",
+  "Does 4WD actually engage?",
+  "Clutch slave cylinder (early YJs)",
+  "Know the gearbox and transfer case",
+  "Carbureted 4.2 or injected 4.0?"
+ ],
+ "owner": "The Wrangler that dared to have square headlights, and spent thirty years being forgiven for it.",
+ "owner_label": "THE SHORT VERSION",
+ "credit": "Photos: Commons contributor (own work) · Public domain · John Johnson, BLM California · Public domain · Wayfaringemu · Public domain",
+ "url_label": "boxytrucks.com/models/jeep/yj",
+ "number": "21"
+}
