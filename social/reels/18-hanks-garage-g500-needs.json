@@ -6,9 +6,15 @@
   {
    "photo": "site/img/g-class/hank-g500-three-quarter.jpg",
    "pos": "45% 55%",
-   "dur": 3.4,
+   "dur": 2.6,
    "eyebrow": "From Hank's garage",
-   "title": "What my 2007 G500 has needed so far."
+   "title": "What my 2007 G500 has needed so far.",
+   "align": "top",
+   "hook": true,
+   "zoom": [
+    1.0,
+    1.16
+   ]
   },
   {
    "photo": "site/img/g-class/hank-g500-front-woods.jpg",
