@@ -40,3 +40,11 @@ Check the thread shows "Pinned by @BoxyTrucks". All 16 earlier videos were pinne
 
 Upload gotcha (Nov 9): if the watch page says "Comments are not supported on private videos", the upload was saved as a draft.
 Open it in Studio, click "Edit draft", tick "Not made for kids", Next ×3, Public, Done.
+
+## Hook v2 and search titles (Nov 12, 2026)
+YouTube analytics, last 28 days: 70% of Short views came from the Shorts feed but only 19% "stayed to watch" (81% swiped away), so the feed stopped
+testing new Shorts (Nov 10–11 uploads got 33–147 views against 300–540 for Nov 7–9). Search brought 29%, steadily.
+- `social/reels/make_reel.js`: the opening scene (`hook: true, align: "top"`) puts a big question at the top from frame one with a fast zoom; all text sits
+  above the bottom ~540 px and left of the right-hand buttons (the Shorts overlay); brand moved to the top; the follow card is folded into the CTA (≈11 s total).
+- Tire titles now lead with the search phrase: "<truck> tire size: the biggest tire with no lift (<size>)". GX 470, Defender, early Bronco and CJ-5 retitled on YouTube.
+- First v2 Shorts: Patrol Y61 years (Nov 12, 12:37) and Range Rover Classic tires (Nov 12, 6:23). Compare their "stayed to watch" with the 19% baseline on Nov 14.

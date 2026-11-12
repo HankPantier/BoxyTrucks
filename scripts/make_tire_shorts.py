@@ -91,7 +91,8 @@ def spec_for(fam, g, page, mt, photos):
     spec = {'out': f'social/posts/shorts/{gid}.mp4', 'url': url, 'credit': 'Photos: ' + ' · '.join(used), 'scenes': sc}
     link = f'https://boxytrucks.com/models/{fam["slug"]}/{g["slug"]}/tires/'
     sizes = '; '.join(f'{t["lift"]}: {t["size"]}' for t in mt[:3])
-    yt_title = f'Biggest tire on a stock {lab}: {mt[0]["size"]}'[:100]
+    yt_size = re.sub(r'\s*\((≈[^)]*)\)', r', \1', mt[0]['size'])
+    yt_title = f'{lab} tire size: the biggest tire with no lift ({yt_size})'[:100]
     # Scoreboard Nov 9: Shorts got 4,436 views and 0 site visits. The link goes on the first line (shown above "more").
     yt_desc = (f'Full size chart for the {lab}: {link}?utm_source=youtube&utm_medium=social\n\n'
                f'The biggest tire that fits a stock {lab}, and what fits with a lift. {sizes}. The chart has every size with fitment notes, wheel specs, speedometer error and where to buy.\n\n'
