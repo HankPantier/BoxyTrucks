@@ -6,12 +6,14 @@
   {
    "photo": "site/img/delica/spacegear-abano-pass.jpg",
    "pos": "68% 60%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Mitsubishi Delica Space Gear?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Mitsubishi Delica Space Gear?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "225/80R15 (≈29 in); 245/75R16 only with heavy trimming",
    "body": "A long-time Delica Canada member says 245/75R16 'may' fit but needs a lot of trimming, and you'll need a lift to clear…",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -53,26 +55,14 @@
   {
    "photo": "site/img/delica/spacegear-abano-pass.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/delica/delica-space-gear/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/delica/delica-space-gear/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/delica/spacegear-abano-pass.jpg",
-   "pos": "68% 60%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]

@@ -6,12 +6,14 @@
   {
    "photo": "site/img/lexus/gx470-silver-2004.jpg",
    "pos": "62% 60%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Lexus GX 470?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Lexus GX 470?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "265/70R17",
    "body": "GXOR's limit with no modification at all; 255/75R17 also fits with no rubbing.",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -53,26 +55,14 @@
   {
    "photo": "site/img/lexus/gx470-white-2007.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/lexus/gx470/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/lexus/gx470/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/lexus/gx470-silver-2004.jpg",
-   "pos": "62% 60%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]

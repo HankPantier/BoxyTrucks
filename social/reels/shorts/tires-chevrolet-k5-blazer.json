@@ -6,12 +6,14 @@
   {
    "photo": "site/img/chevrolet/k5-blazer-san-gabriel-canyon.jpg",
    "pos": "42% 50%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Chevrolet K5 Blazer (1973–1991)?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Chevrolet K5 Blazer (1973–1991)?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "32 in (33 in with minor trimming)",
    "body": "Hogback Fabrication on CK5: a stock K5 fits 32s without trimming and 33s with minor trimming.",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -53,26 +55,14 @@
   {
    "photo": "site/img/chevrolet/k5-blazer-m1009-snow.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/chevrolet/k5-blazer/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/chevrolet/k5-blazer/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/chevrolet/k5-blazer-san-gabriel-canyon.jpg",
-   "pos": "42% 50%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]

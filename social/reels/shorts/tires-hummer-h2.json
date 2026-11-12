@@ -6,12 +6,14 @@
   {
    "photo": "site/img/hummer/h2-lakeshore.jpg",
    "pos": "72% 50%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Hummer H2?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Hummer H2?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "37x12.50R17",
    "body": "On stock wheels or the same offset.",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -53,26 +55,14 @@
   {
    "photo": "site/img/hummer/h2-lakeshore.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/hummer/h2/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/hummer/h2/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/hummer/h2-lakeshore.jpg",
-   "pos": "72% 50%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]

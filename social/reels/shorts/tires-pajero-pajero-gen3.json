@@ -6,12 +6,14 @@
   {
    "photo": "site/img/pajero/gen3-sand-track-wa.jpg",
    "pos": "80% 55%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Mitsubishi Pajero / Montero (Third Generation)?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Mitsubishi Pajero / Montero (Third Generation)?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "255/85R16 (≈33 in, narrow) or 265/75R16",
    "body": "Owners run 235/85R16 and 255/85R16 with no rubbing on stock suspension, and an '05 runs LT265/70R17.",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -53,26 +55,14 @@
   {
    "photo": "site/img/pajero/gen3-sand-track-wa.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/pajero/pajero-gen3/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/pajero/pajero-gen3/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/pajero/gen3-sand-track-wa.jpg",
-   "pos": "80% 55%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]

@@ -6,12 +6,14 @@
   {
    "photo": "site/img/jeep/cj5-trilha-da-placa.jpg",
    "pos": "50% 62%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Jeep CJ-5?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Jeep CJ-5?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "31x10.50R15",
    "body": "Owners call 31 in the practical ceiling and 30x9.50s a known-good fit; one long-time owner ran 32x11.50s on stock…",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -53,26 +55,14 @@
   {
    "photo": "site/img/jeep/cj5-liberty-camp.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/jeep/cj-5/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/jeep/cj-5/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/jeep/cj5-trilha-da-placa.jpg",
-   "pos": "50% 62%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]

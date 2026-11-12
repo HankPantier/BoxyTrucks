@@ -16,16 +16,16 @@ const html = `<!doctype html><html><head><meta charset="utf-8">
 <style>*{box-sizing:border-box;margin:0}body{width:${W}px;height:${H}px;background:#0E0F0E;color:#F7F4EE;overflow:hidden;position:relative;font-family:'Inter Tight','Inter',sans-serif}
 .sc{position:absolute;inset:0;opacity:0}.ph{position:absolute;inset:0;background-size:cover;will-change:transform}
 .sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,15,14,.35) 0%,rgba(14,15,14,0) 22%,rgba(14,15,14,0) 42%,rgba(14,15,14,.82) 68%,#0E0F0E 100%)}
-.tx{position:absolute;left:80px;right:80px;bottom:300px}
+.tx{position:absolute;left:80px;right:170px;bottom:540px}
 .ey{font-family:'IBM Plex Mono',monospace;font-size:30px;letter-spacing:.24em;color:#C9A86A;text-transform:uppercase}
 h1{font-size:104px;line-height:.98;letter-spacing:-.035em;font-weight:600;margin-top:24px;text-wrap:balance}
 .bd{font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.38;color:#E4DFD3;margin-top:28px}
-.cta h1{font-size:92px}.brand{position:absolute;left:80px;right:80px;bottom:150px;display:flex;align-items:center;gap:20px;font-weight:600;letter-spacing:.2em;font-size:30px}
-.url{margin-left:auto;font-family:'IBM Plex Mono',monospace;letter-spacing:0;font-weight:400;font-size:30px;color:#E4DFD3}
-.cr{position:absolute;left:80px;right:80px;bottom:78px;font-family:'IBM Plex Mono',monospace;font-size:20px;color:rgba(228,223,211,.7)}
-.top .tx{top:230px;bottom:auto}.top .sh{background:linear-gradient(0deg,rgba(14,15,14,.85) 0%,rgba(14,15,14,0) 22%,rgba(14,15,14,0) 50%,rgba(14,15,14,.85) 75%,#0E0F0E 100%)}
+.cta h1{font-size:92px}.brand{position:absolute;left:80px;right:80px;top:150px;display:flex;align-items:center;gap:16px;font-weight:600;letter-spacing:.2em;font-size:26px;z-index:3}.brand svg{width:46px}
+.url{display:none}
+.cr{position:absolute;left:80px;right:170px;bottom:470px;font-family:'IBM Plex Mono',monospace;font-size:19px;color:rgba(228,223,211,.62);z-index:3}
+.top .tx{top:250px;bottom:auto}.hook h1{font-size:128px;line-height:.95}.hook .ey{font-size:32px}.top .sh{background:linear-gradient(0deg,rgba(14,15,14,.85) 0%,rgba(14,15,14,0) 22%,rgba(14,15,14,0) 50%,rgba(14,15,14,.85) 75%,#0E0F0E 100%)}
 .bar{position:absolute;left:0;top:0;height:6px;background:#C9A86A}</style></head><body>
-${scenes.map((s, i) => `<div class="sc${s.cta ? ' cta' : ''}${s.align === 'top' ? ' top' : ''}" id="s${i}"><div class="ph" style="background-image:url(${img(s.photo)});background-position:${s.pos || '50% 50%'};transform-origin:${s.origin || '50% 50%'}"></div><div class="sh"></div>
+${scenes.map((s, i) => `<div class="sc${s.cta ? ' cta' : ''}${s.align === 'top' ? ' top' : ''}${s.hook ? ' hook' : ''}" id="s${i}"><div class="ph" style="background-image:url(${img(s.photo)});background-position:${s.pos || '50% 50%'};transform-origin:${s.origin || '50% 50%'}"></div><div class="sh"></div>
 <div class="tx">${s.eyebrow ? `<div class="ey">${esc(s.eyebrow)}</div>` : ''}${s.title ? `<h1>${esc(s.title)}</h1>` : ''}${s.body ? `<p class="bd">${esc(s.body)}</p>` : ''}</div></div>`).join('')}
 <div class="brand">${mark}<span>BOXY TRUCKS</span><span class="url">${esc(spec.url || 'boxytrucks.com')}</span></div>
 <div class="cr">${esc(spec.credit || '')}</div><div class="bar" id="bar"></div>

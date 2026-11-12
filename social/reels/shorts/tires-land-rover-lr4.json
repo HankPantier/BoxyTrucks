@@ -6,12 +6,14 @@
   {
    "photo": "site/img/land-rover/lr4-korla-desert.jpg",
    "pos": "70% 60%",
-   "dur": 2.4,
-   "eyebrow": "Biggest tire, no lift",
-   "title": "Land Rover LR4 / Discovery 4?",
+   "dur": 2.0,
+   "align": "top",
+   "hook": true,
+   "eyebrow": "No lift. No cutting.",
+   "title": "Biggest tire on a stock Land Rover LR4 / Discovery 4?",
    "zoom": [
-    1.05,
-    1.14
+    1.0,
+    1.18
    ]
   },
   {
@@ -22,8 +24,8 @@
    "title": "265/50R20 · 265/65R18 on aftermarket 18s",
    "body": "LandRoverWorld owners run 265/50R20 with no rubbing; it's also the largest size that fits the spare well inflated.",
    "zoom": [
-    1.14,
-    1.22
+    1.02,
+    1.1
    ]
   },
   {
@@ -41,26 +43,14 @@
   {
    "photo": "site/img/land-rover/lr4-2014-rock-quarry.jpg",
    "pos": "50% 50%",
-   "dur": 2.6,
+   "dur": 3.0,
+   "eyebrow": "boxytrucks.com/models/land-rover/lr4/tires",
    "title": "Every size, every lift.",
-   "body": "boxytrucks.com/models/land-rover/lr4/tires",
+   "body": "Follow for a new truck every day.",
    "cta": true,
    "zoom": [
     1.04,
-    1.1
-   ]
-  },
-  {
-   "photo": "site/img/land-rover/lr4-korla-desert.jpg",
-   "pos": "70% 60%",
-   "dur": 2.0,
-   "eyebrow": "Boxy Trucks",
-   "title": "Follow for a new truck every day.",
-   "body": "Tomorrow: another boxy 4x4.",
-   "cta": true,
-   "zoom": [
-    1.1,
-    1.14
+    1.12
    ]
   }
  ]
