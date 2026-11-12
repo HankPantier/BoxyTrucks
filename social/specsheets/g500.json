@@ -1,0 +1,36 @@
+{
+  "id": "specsheet-g500",
+  "image": "social/specsheets/img/specsheet-g500.jpg",
+  "number": "01",
+  "title": "G 500",
+  "subtitle": "Mercedes-Benz W463 · 2002–2008 (US)",
+  "tagline": "5.0 V8 · THREE LOCKERS · LADDER FRAME",
+  "hero": "site/img/g-class/hank-g500-three-quarter.jpg",
+  "hero_pos": "50% 60%",
+  "tiles": [
+    {"photo": "site/img/g-class/hank-g500-front-woods.jpg", "pos": "50% 62%", "label": "THE LAYOUT", "text": "Ladder frame, solid axles, three locking diffs"},
+    {"photo": "site/img/g-class/hank-g500-lights-rain.jpg", "pos": "60% 55%", "label": "THE ENGINE", "text": "5.0 M113 V8, the first regular-production V8 G"}
+  ],
+  "specs": [
+    ["Engine", "5.0 L M113 V8"],
+    ["Gearbox", "5-speed to 2006 · 7-speed 2007–08"],
+    ["Lockers", "Front, center and rear"],
+    ["Stock tire", "265/60R18 · 5x130"],
+    ["Biggest, no lift", "275/70R18 (≈33 in)"],
+    ["Towing", "7,000 lb braked"],
+    ["Fuel", "11 city / 13 hwy mpg, premium"],
+    ["Price today", "$25k–45k for a good driver"]
+  ],
+  "buy": ["2005–08", "Early electrical faults mostly gone. 2007–08 add the 7-speed, HID lamps and a camera."],
+  "avoid": ["2002–04", "Seat motors, window regulators, door-lock and transfer-case actuators."],
+  "checks": [
+    "Oil at the front of the V (filter housing gasket)",
+    "Gear oil behind the front wheels (axle seals)",
+    "All three lockers on a loose surface",
+    "Wander at 55–70 mph (steering damper)",
+    "VIN and data card match the badges"
+  ],
+  "owner": "Hank's 2007: the oil filter housing gasket has been the biggest issue, and the lockers need bleeding or new lines.",
+  "credit": "Photos: Hank · BoxyTrucks",
+  "url_label": "boxytrucks.com/models/g-class/g500"
+}

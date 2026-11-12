@@ -4,8 +4,26 @@
 Save the file as `g500-voice.m4a` in the BoxyTrucks **voice** folder on your Mac.
 
 **YouTube title:** Mercedes G 500 buyer's guide: best years, what breaks, what it costs (2002–2008)
-**Publish:** Thursday, Nov 12. Every G-Class Short's "Related video" gets pointed here.
+**Publish:** the week after Hank shoots his G 500 (weekend of Nov 14–15). Every G-Class Short's "Related video" gets pointed here.
 **Description, first line:** Full G 500 guide, years to avoid and a free inspection checklist: https://boxytrucks.com/models/g-class/g500/?utm_source=youtube&utm_medium=longform
+
+## Shot list for the weekend (Nov 14–15)
+Phone held **sideways**, 4K if it offers it, 5–10 seconds per clip, holding still or walking slowly. More clips is better than longer ones. Don't worry about the number plate; I'll blur it.
+
+1. **Walkaround:** one slow lap of the truck, about 30 seconds. Then a three-quarter front, a side profile and the rear.
+2. **Driving past:** prop the phone up and drive by slowly, once left to right and once right to left. A gravel or wooded road is ideal.
+3. **Driving, from inside:** phone on the dash, looking out the windshield on a back road. Then one clip with the wheel and gauges.
+4. **Engine bay:** hood up, the whole bay. Then close on the front of the V, where the oil filter housing sits.
+5. **Behind a front wheel:** wheel turned to full lock, looking at the back of the hub and the brake caliper.
+6. **Locker switches:** the three buttons on the dash, pressing them in order, with the indicator lights.
+7. **Underneath:** front and rear axles and diffs from the side, plus the vacuum lines if you can see them.
+8. **VIN and data:** the VIN plate (door jamb or windshield) and any service records or receipts. I'll blur the VIN.
+9. **Rust spots:** the bottom edge of the tailgate, door bottoms and sills, and the inner wheel arches.
+10. **Inside:** the headliner around the sunroof, the seat switches, and a door closing (that G-Class "clack").
+11. **Tires:** close on the tire sidewall showing the size, and the wheel.
+12. **Hero shot:** the truck parked somewhere nice, at golden hour if you can, with a slow push-in toward it.
+
+Record the voiceover after the shots or before, it doesn't matter. Quiet room, phone about a hand's width from your mouth.
 
 ---
 
@@ -73,7 +91,7 @@ When you go bigger, have the tire size re-coded so the speedometer and the stabi
 
 Prices on Bring a Trailer have barely moved since 2018. That makes the 2002 to 2008 G 500 the cheapest way into a V8 G-Wagen, so condition and records matter far more than the year.
 
-From fifty-five sales this year: project and high-mileage trucks around [eighteen to twenty-five thousand], good drivers [twenty-five to forty-five thousand], and excellent or low-mile trucks [fifty to eighty thousand and up].
+From fifty-five sales since the start of 2025: project and high-mileage trucks around [eighteen to twenty-five thousand], good drivers [twenty-five to forty-five thousand], and excellent or low-mile trucks [fifty to eighty thousand and up].
 
 My advice: spend more on the truck with the records, and keep a couple of thousand back for the gaskets, the seals and the lockers.
 
