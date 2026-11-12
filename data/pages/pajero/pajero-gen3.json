@@ -314,7 +314,7 @@
    "time": "≈ 1–2 hours",
    "cost": "A starter and an hour or two",
    "symptoms": "Clicking or slow cranking with a good battery. Starters are the most common complaint in ProductReview's NM/NP owner reviews; one owner says they 'started to go like hot cakes'.",
-   "fix": "Charge and load-test the battery and clean the terminals and earth strap first. Then disconnect the battery, remove the skid plate if fitted, unplug the solenoid lead and main cable, and unbolt the starter. Fit the new unit, torque the bolts, reconnect and test.",
+   "fix": "Charge the battery and have it load-tested. Clean and tighten both battery terminals and the engine earth strap. If it still clicks or cranks slowly, disconnect the negative battery terminal. Raise the front safely and remove the bash plate or engine guard. Find the starter and photograph the wiring before you touch it. Unplug the solenoid lead and remove the nut holding the main cable. Undo the mounting bolts, using penetrating oil if they're stiff, and lower the starter out. Compare the new starter with the old one: tooth count, rotation and mounting holes should match. Fit the new unit, tighten the bolts evenly, and reconnect the main cable and solenoid lead. Reconnect the battery and test it starts before you refit the guard. If this is a repeat failure, find out why before fitting another one.",
    "tools": "Battery load tester · socket set with extensions · multimeter.",
    "parts": [
     {
@@ -326,6 +326,34 @@
      "name": "Electrical parts (starter, battery), 2001 Montero 3.5 V6",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/mitsubishi,2001,montero,3.5l+v6,1366725,electrical"
+    }
+   ],
+   "know": [
+    "Starters differ by engine. The 3.2 DiD (4M41T) uses a 2.2 kW, 10-tooth, clockwise unit with 114 mm mounting centres, while V6 starters are listed separately, and one 6G74 replacement is listed for automatics only. Match the part to your engine and gearbox.",
+    "Rule out the battery and cables first. A flat or tired battery, or a corroded earth strap, gives the same clicking or slow cranking.",
+    "Repeat failures happen. A Tech-a-Tech repair entry describes a 2005 NP 3.2 DiD on its third starter in 18 months with intermittent starting.",
+    "The starter is reached from underneath, so the bash plate or engine guard has to come off first.",
+    "Starter complaints top ProductReview's NM/NP owner reviews, so a cheap unit is a false economy on these trucks."
+   ],
+   "mistakes": [
+    "Replacing the starter when the real fault is a weak battery or a bad earth strap.",
+    "Buying a starter for the wrong engine or gearbox; V6 and 3.2 DiD units differ.",
+    "Working on it without disconnecting the battery first.",
+    "Fitting a third starter without finding why the first two died."
+   ],
+   "cost_note": "Aftermarket starters are not expensive. One 6G74 V6 (automatic) unit lists at about A$128 delivered at Bunnings' marketplace, and 3.2 DiD units are sold as direct replacements by Australian parts sellers. Ask about the core charge on a new or reconditioned unit and take the old one back.",
+   "refs": [
+    {
+     "name": "Bunnings (Parts Factory Australia): Pajero 6G74 NM/NP V6 starter motor",
+     "url": "https://www.bunnings.com.au/parts-factory-australia-high-performance-mitsubishi-pajero-starter-motor-for-6g74-nm-np-v6-3-5l-1995-2003-_p1110154"
+    },
+    {
+     "name": "Kaka Auto Parts: Starter motor for Pajero NM–NW 3.2 diesel 4M41T",
+     "url": "https://kakaautoparts.com.au/products/starter-motor-12v-suitable-for-mitsubishi-pajero-nm-np-ns-nt-nw-3-2-diesel-4m41t"
+    },
+    {
+     "name": "Tech-a-Tech (TAT): 2005 Mitsubishi Pajero NP repair solution, intermittent starting",
+     "url": "https://www.tat.net.au/tatsafact/1507"
     }
    ]
   }

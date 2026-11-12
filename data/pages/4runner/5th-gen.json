@@ -195,7 +195,7 @@
    "time": "A morning",
    "cost": "Fluids and crush washers; Toyota transfer fluid runs $60–90 per litre (Trail4R)",
    "symptoms": "Due at 15,000 miles under severe service (towing, roof loads) per Toyota, or at whatever interval you set — Trail4R's author does all driveline fluids every 30,000.",
-   "fix": "Warm the drivetrain with a 5–10 mile drive. Always crack the fill plug before the drain. Front diff: 10 mm hex plugs, about 1.6 qt (part-time) or 1.5 qt (full-time) of 75W-85 GL-5; drain 48 ft-lb, fill 29 ft-lb. Rear diff: 24 mm plugs, 36 ft-lb; Trail4R quotes about 2.9 qt with locker / 2.8 qt without, but Toyota-Club's owner's-manual table lists 2.70 L without and 2.65 L with the locker (check your manual) — fill to the bottom of the fill hole either way. Transfer case: 24 mm plugs, 27 ft-lb, about 1.1 qt (part-time) or 1.5 qt (full-time) of Toyota Transfer Gear Oil LF 75W (Red Line MT-LV is the commonly cited alternative). Clean the magnetic drain plugs and use new crush washers.",
+   "fix": "Drive 5–10 miles to warm the fluids, then park on level ground. Remove the front skid plate for the front diff and transfer case, and drop the spare for room at the rear diff. Start with the front diff. Crack the 10 mm hex fill plug loose first, then remove the drain plug and let it empty fully. Wipe the magnet on the drain plug clean; a little grey paste is normal, chunks are not. Refit the drain plug with a new washer at 48 ft-lb. Pump in 75W-85 GL-5 until it runs out of the fill hole, add a couple more pumps, let the excess drip, and refit the fill plug at 29 ft-lb. Do the transfer case the same way with its 24 mm plugs at 27 ft-lb, pumping Toyota LF 75W straight from the can. Do the rear diff the same way with its 24 mm plugs at 36 ft-lb. While you're at the rear axle, check that the breather on top isn't clogged. Degrease all three housings so a new leak is easy to spot. Check for drips after an hour of driving and again the next morning.",
    "tools": "10 mm hex bit · 24 mm socket · fluid pump · torque wrench · Toyota LT 75W-85 GL-5 · Toyota LF 75W transfer oil · washers: transfer case 90430-A0003, front drain 90430-24003, front fill 12157-10010",
    "parts": [
     {
@@ -217,6 +217,31 @@
      "name": "Crush washer — front diff drain (supersedes 90430-24003) (Toyota 90430-24017)",
      "supplier": "ToyotaPartsDeal (Toyota OEM)",
      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~90430-24017.html"
+    }
+   ],
+   "know": [
+    "Check which 4WD system you have first. Part-time (SR5, TRD Off-Road) and full-time (Limited, some Trail models) trucks take different amounts in the front diff and transfer case, per Trail4R's capacity list.",
+    "Rear diffs with the factory locker take slightly more than open ones. Trail4R lists about 2.9 qt with the locker and 2.8 qt without; fill to the bottom of the fill hole either way.",
+    "The transfer case uses Toyota Transfer Gear Oil LF 75W, not gear oil. It's hard to find and expensive, so order it before you start. Red Line MT-LV is the alternative Trail4R says Red Line confirmed.",
+    "Toyota's schedule only calls for these at 15,000 miles (diffs) or 30,000 miles (transfer case) under severe use such as towing, roof loads or dusty roads. Trail4R's author does all three every 30,000 as a habit.",
+    "Every plug takes a new crush washer, and the front diff, rear diff and transfer case washers aren't all the same part."
+   ],
+   "mistakes": [
+    "Pulling the drain plug before you know the fill plug will come out.",
+    "Putting differential gear oil in the transfer case; it takes the specific LF 75W transfer oil or a confirmed equivalent.",
+    "Reusing the old crush washers, which is the usual cause of a slow weep afterwards.",
+    "Filling a cold or off-level truck and stopping short of the fill hole.",
+    "Skipping the leak check the next morning."
+   ],
+   "cost_note": "Doing it yourself costs the fluids and washers. Toyota's transfer oil is the expensive part at about $60–90 per litre depending on source and shipping, per Trail4R; the third-party alternatives cost much less. Gear oil for both diffs is roughly 4.5 quarts in total.",
+   "refs": [
+    {
+     "name": "Trail4R: Driveline fluids, how and when to change them (5th gen 4Runner)",
+     "url": "https://trail4runner.com/?p=12501"
+    },
+    {
+     "name": "TacomaWorld: Changing differential fluid, a step-by-step how-to",
+     "url": "https://www.tacomaworld.com/threads/changing-differential-fluid-a-step-by-step-how-to.24545/page-118"
     }
    ]
   },

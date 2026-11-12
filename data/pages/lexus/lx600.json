@@ -290,13 +290,37 @@
    "time": "≈ 5 minutes for the checks. Dealer visit for sensors.",
    "cost": "Warranty (owner reports)",
    "symptoms": "The hatch opens normally, but when you press close it beeps once or twice and won't move, so you have to shut it by hand. The hands-free kick sensor may only beep.",
-   "fix": "Rule out the easy causes first. A weak key signal, such as from the credit-card key, can stop it, and a hatch left open for hours can forget its position until you close it by hand once. If it keeps happening, have the pinch (touch) sensors along the hatch edges tested. Two IH8MUD owners, with a 2023 and a 2024 LX 600, had pinch sensors replaced under warranty, one on the left side and the other on both sides. For a kick sensor that only beeps, one owner reset it this way: turn hands-free off in the center console, switch the truck off, open and close the hatch from outside, switch it back on and re-enable hands-free. A bike rack over the bumper sensors can also stop it working.",
+   "fix": "Close the hatch by hand once if it has been left open for a long time, then try the power close again. Try the regular key fob rather than the card key. Gently press along both pinch strips on the hatch edges and try again, as one IH8MUD owner suggests. Remove anything near the rear sensors, such as a bike rack. If only the kick sensor misbehaves, turn hands-free off in the center console, switch the truck off, open and close the hatch from outside, switch the truck back on and turn hands-free back on. If the two beeps keep coming back, record a video of it happening and note the time and temperature. Then book a dealer visit and ask them to read stored codes for both the left and right pinch sensors. Dealers have replaced the left sensor alone on one truck and both sides on another; the two-side job took about 90 minutes.",
    "tools": "Key fob · Lexus dealer for sensor diagnosis",
    "parts": [
     {
      "name": "Back door touch (pinch) sensor search, LX 600",
      "supplier": "Lexus Genuine Parts",
      "url": "https://parts.lexus.com/search?search_str=lx600%20back%20door%20touch%20sensor"
+    }
+   ],
+   "know": [
+    "Two beeps with no movement means the system thinks something is in the way. On the LX 600 that usually points at the pinch (touch) sensors in the black weatherstrip along the hatch edges, per ClubLexus and IH8MUD owners.",
+    "It's often intermittent. One ClubLexus owner only saw it at midday with the truck hot and in the sun, never in the morning or evening.",
+    "The hands-free kick sensor is a separate system. If the hatch tries to close or beeps while you work under the rear, turn the feature off in the vehicle customization menu, as an IH8MUD owner did.",
+    "A weak key signal can stop it too. One IH8MUD owner says the credit-card key only works about three times in four, while the regular fob works.",
+    "On the 2023–24 trucks owners describe, dealers replaced the sensors under warranty. One owner was told a two-side replacement would have cost over $1,000 out of pocket."
+   ],
+   "mistakes": [
+    "Taking it in on a day it works, with no video, so the dealer can't reproduce it.",
+    "Only having one side checked when codes can be stored on both.",
+    "Blaming the pinch sensors when the kick sensor or a weak card key is the real cause.",
+    "Pulling at or re-gluing the weatherstrip yourself while the truck is still under warranty."
+   ],
+   "cost_note": "On 2023–24 trucks this has been a warranty repair in the owner reports. One IH8MUD owner was told replacing both sensors would have cost over $1,000 out of warranty. Sensors have sometimes been on backorder, so ask about parts before you book.",
+   "refs": [
+    {
+     "name": "ClubLexus: LX 600 tailgate opens automatically but won't close automatically",
+     "url": "https://www.clublexus.com/forums/lx-4th-gen-2022-present/1042372-tailgate-opens-automatically-but-won-t-close-automatically.html"
+    },
+    {
+     "name": "IH8MUD: 300/600/700 issues, problems and solutions (page 7)",
+     "url": "https://forum.ih8mud.com/threads/300-600-700-issues-problems-and-solutions.1366321/page-7"
     }
    ]
   }

@@ -279,7 +279,7 @@
     "time": "≈ 5–10 minutes once you know the trick",
     "cost": "About $18 for an aftermarket filter",
     "symptoms": "Weak airflow or musty smell. Note: one owner found almost no cabin heat in 15°F weather with the filter removed.",
-    "fix": "On a left-hand-drive truck, slide the passenger seat back and recline it, then lie on your back in the footwell with a headlamp. Unsnap the two side clips under the filter frame, let the hinged plate swing down, pull the filter out (a curved pick helps), and fit the new one with the airflow arrow toward the cabin. Snap it shut. The glovebox stays in place.",
+    "fix": "Slide the passenger seat all the way back and recline it fully. Lay cardboard on the footwell floor. Get in on your back with your knees over the seat back and your head on the floor, so you're looking up between the glovebox and the firewall; a headlamp helps. Find the filter frame and unsnap the two clips on its sides at the bottom. Let the hinged plate swing down. Pull the old filter down and out, using a curved or dental pick on the edge if there's no tab. Check which way its airflow arrow points. Fit the new filter with the arrow pointing toward the cabin, not the engine. Swing the plate up and snap both clips shut. Run the fan on high to check the airflow.",
     "tools": "Headlamp · curved pick · cardboard to lie on · OEM INEOS #100326881, or Microguard 3692 reported to fit (no charcoal layer); Mann CUK25001 reported not to fit",
     "parts": [
      {
@@ -291,6 +291,30 @@
       "name": "OEM INEOS cabin filter #100326881",
       "supplier": "INEOS Grenadier service centre",
       "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier"
+     }
+    ],
+    "know": [
+     "The filter sits behind the glovebox, and you reach it from the passenger footwell. The forum guide covers left-hand-drive trucks; the glovebox stays in place.",
+     "It's on the 12,000-mile service. Owners who drive dusty trails have changed theirs at around 10,000–13,000 miles when it looked dirty.",
+     "The OEM filter, INEOS 100326881, measures about 8.5 × 7.75 × 1 in and has a charcoal layer. Microguard 3692 is the owner-confirmed fit, but it's plain paper with no charcoal.",
+     "Many filters that parts sites list for the Grenadier don't fit. Owners report the Mann CUK25001 as doubtful and the Blue Print ADBP250065 as too tall unless the frame is cut.",
+     "Cheaper filters may lack the foam edge seal and the pull tab, and one has about half the pleats of the OEM part."
+    ],
+    "mistakes": [
+     "Fitting the filter with the arrow toward the engine.",
+     "Buying a filter from a parts-site listing without checking an owner has fitted it.",
+     "Driving without a filter; one owner got almost no cabin heat at 15°F until he refitted the old one.",
+     "Cutting down a filter frame to make it fit, which owners call a temporary fix at best."
+    ],
+    "cost_note": "Microguard 3692 cost one owner $17.99 at O'Reilly, about a third of the OEM price. A UK owner paid about £55 for two OEM filters. Labour is free once you've done it once; one owner did it in about five minutes.",
+    "refs": [
+     {
+      "name": "The Grenadier Forum: Cabin air filter",
+      "url": "https://www.theineosforum.com/threads/cabin-air-filter.12416706"
+     },
+     {
+      "name": "The Grenadier Forum: After-market cabin filter option",
+      "url": "https://www.theineosforum.com/threads/after-market-cabin-filter-option.12419824"
      }
     ]
    },
