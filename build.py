@@ -890,10 +890,18 @@ def main():
                        description=gen_desc(slug, g, fam, page, x), credits=credits_of([page]))
                 if page.get('plate') or (page.get('baseline_service') or {}).get('items'):
                     _m = mlabel(fam['maker'], page['title'])
-                    render('specs.html', f'models/{slug}/{g["slug"]}/specs.html', '../../../', fam=fam, g=g, p=page, x=x, model=_m, og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None),
+                    _svc = (page.get('baseline_service') or {}).get('items') or []
+                    _qa = []
+                    for _lab, _rx in (('Engine oil', r'engine oil|^oil'), ('Transmission', r'transmission|gearbox|atf'), ('Differentials', r'diff|axle'), ('Transfer case', r'transfer')):
+                        _its = [i for i in _svc if re.search(_rx, i.get('item', ''), re.I) and i.get('spec') and not any(i['item'] == q.get('item') for q in _qa)]
+                        for _it in (_its[:2] if _lab == 'Differentials' else _its[:1]):
+                            _qa.append({'label': (_it['item'].split(' (')[0].replace(' & ', ' and ') if _lab == 'Differentials' else _lab), 'item': _it['item'], 'spec': LINK_RE.sub(lambda m: m.group(3), _it['spec'])})
+                    _sn2 = sname(slug, g) or _m
+                    _qa_ld = [{'@type': 'Question', 'name': (f'How much oil does a {_sn2} take?' if q['label'] == 'Engine oil' else f'What fluid does the {_sn2} {q["label"].lower()} take?'), 'acceptedAnswer': {'@type': 'Answer', 'text': q['spec']}} for q in _qa]
+                    render('specs.html', f'models/{slug}/{g["slug"]}/specs.html', '../../../', fam=fam, g=g, p=page, x=x, model=_m, quick_ans=_qa, og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None),
                            gen_href=f'../../../models/{slug}/{g["slug"]}.html', active='models', og_type='article',
                            crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), ('Specs & fluids', f'models/{slug}/{g["slug"]}/specs/')],
-                           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
+                           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}] + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': _qa_ld}] if _qa_ld else []),
                            title=fit_title(f'{sname(slug, g) or _m} Specs, Fluid Capacities & Oil Type', f'{sname(slug, g) or _m} Specs & Fluid Capacities', f'{sname(slug, g) or _m} Specs'),
                            description=f'{_m} ({g.get("years", "")}) spec sheet, fluid capacities, oil grades, service intervals, wheel and tire sizes and parts numbers, on one printable page.'[:158], credits='')
                 _sn = sname(slug, g) or mlabel(fam['maker'], page['title'])
@@ -927,6 +935,8 @@ def main():
                     for fl, lab in (('buy', 'Best years'), ('avoid', 'Years to avoid'), ('recall', 'Check recalls')):
                         for t in [t for t in _tl if t.get('flag') == fl][:3]:
                             _summary.append({'flag': fl, 'label': lab, 'years': t['year'], 'why': t['change'][:170].rsplit(' ', 1)[0] + ('…' if len(t['change']) > 170 else '')})
+                    _avl = [t['year'] for t in _tl if t.get('flag') == 'avoid']; _byl = [t['year'] for t in _tl if t.get('flag') == 'buy']
+                    _yav = yjoin(_avl, 1) if _avl and len(str(_avl[0])) <= 12 else ''; _ybuy = yjoin(_byl, 1) if _byl and len(str(_byl[0])) <= 12 else ''
                     _ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_sn} years to avoid and the best years to buy', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/years/', 'about': {'@type': 'Car', 'name': _model}}]
                     if _bestq:
                         _ld.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f'What are the best {_sn} years to buy, and which should you avoid?', 'acceptedAnswer': {'@type': 'Answer', 'text': LINK_RE.sub(lambda m: m.group(3), _bestq['a'])}}]})
@@ -935,8 +945,10 @@ def main():
                            sibs=[l[:2] for l in _sib('years')], h1=f'{_sn} years to avoid, and the best years to buy',
                            lede=f'Every {_model} model year: which ones owners and specialists recommend, which have documented problems, which carry recalls, and what they sell for now.',
                            og_image=_og, og_type='article', active='models', crumbs=_sub_crumbs('Years to avoid', 'years'), jsonld=_ld,
-                           title=fit_title(f'{_sn} Years to Avoid & Best Years to Buy', f'{_sn} Years to Avoid & Best Years', f'{_sn} Years to Avoid'),
-                           description=fit_desc(f'{_sn} ({_y}) years to avoid and the best years to buy, year by year: what changed, the problem years, recalls and what a good one costs.'), credits='')
+                           title=fit_title(*([f'{_sn} Years to Avoid ({_yav}) & Best Years ({_ybuy})', f'{_sn} Years to Avoid ({_yav}), Best ({_ybuy})'] if _yav and _ybuy else []),
+                                           *([f'{_sn} Years to Avoid ({_yav}) & Best Years'] if _yav else []), *([f'{_sn} Best Years ({_ybuy}) & Years to Avoid'] if _ybuy else []),
+                                           f'{_sn} Years to Avoid & Best Years to Buy', f'{_sn} Years to Avoid & Best Years', f'{_sn} Years to Avoid'),
+                           description=fit_desc((f'Avoid {yjoin(_avl, 2)}. ' if _avl else '') + (f'Best years: {yjoin(_byl, 2)}. ' if _byl else '') + f'{_sn} ({_y}) years to avoid and the best years to buy, year by year: what changed, the problem years, recalls and what a good one costs.'), credits='')
                 if has_tires:
                     _f = x['fitment']
                     _tq = next((f for f in page.get('faq', []) if TIRE_Q.search(f['q'])), None)
@@ -1358,14 +1370,30 @@ def main():
         _faqs.append({'q': 'Which new boxy SUVs still have a solid front axle?', 'a': 'Of the boxy 4x4s still in production that we cover: ' + ', '.join(_sfa_new) + '. Most new SUVs, boxy or not, use independent front suspension.'})
     if _cheap:
         _faqs.append({'q': 'What is the cheapest boxy 4x4 worth buying?', 'a': 'On driver-quality prices from our ' + _checked + ' checks, the most affordable used boxy 4x4s are ' + '; '.join(f"{r['name']} ({r['price']})" for r in _cheap) + '. Check the years to avoid and the problems page for each before you buy.'})
+    _byname = {r['name']: r for g_ in _bx.values() for r in g_}
+    def _pick(*names):
+        for n in names:
+            for k, r in _byname.items():
+                if n.lower() == k.lower(): return r
+        return None
+    _picks = []
+    for lab, names, why in [
+        ('Boxiest new SUV', ('W463A G-Wagon (2019+)',), 'The G-Class is still the squarest shape on sale, and it keeps three locking differentials.'),
+        ('New, with a solid front axle', ('Ineos Grenadier',), 'Body-on-frame, solid axles front and rear, and built to be fixed in the field.'),
+        ('New and sensible', ('Land Cruiser 250',), 'Toyota went back to a boxy shape for the 250, with a ladder frame and full-time 4WD.'),
+        ('Best used buy', ('100 Series Land Cruiser', '100 Series'), 'A V8 Land Cruiser that is still affordable, with known problems that are well documented.'),
+        ('Classic icon', ('Land Cruiser FJ40',), 'The original boxy Toyota. Buy the most solid one you can afford.')]:
+        r = _pick(*names)
+        if r: _picks.append({'label': lab, 'name': r['name'], 'href': r['href'], 'img': r['img'], 'why': why, 'price': r['price'], 'years': r['years'], 'years_href': r['years_href']})
+    _faqs.insert(0, {'q': 'What is the boxiest SUV you can buy?', 'a': 'New, the boxiest shapes on sale are the Mercedes G-Class, the Ineos Grenadier and the Jeep Wrangler, with the Toyota Land Cruiser 250 and Lexus GX 550 as the boxiest mainstream choices. Used, the Land Cruiser 60, 80 and 100 Series, the old Land Rover Defender 90/110 and the W463 G-Class are the classic square shapes. All ' + str(sum(len(v) for v in _bx.values())) + ' are compared in the table on this page.'})
     _faqs.append({'q': 'What makes an SUV "boxy"?', 'a': 'Upright pillars, flat glass, short overhangs and a square roofline: shapes set by function (headroom, visibility, a roof rack that actually fits) rather than a wind tunnel. Most also share a separate ladder frame and real low-range four-wheel drive.'})
     _total = sum(len(v) for v in _bx.values())
-    render('boxy_suvs.html', 'best/boxy-suvs.html', '../', groups=_groups, faqs=_faqs, total=_total, checked=_checked, active='best', og_type='article',
+    render('boxy_suvs.html', 'best/boxy-suvs.html', '../', groups=_groups, faqs=_faqs, total=_total, picks=_picks, checked=_checked, active='best', og_type='article',
            crumbs=[('Garage', 'garage/'), ("Buyer's guides", 'best/'), ('Boxy SUVs', 'best/boxy-suvs/')],
            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'Boxy SUVs: every boxy 4x4 you can buy, new and used', 'url': SITE_URL + 'best/boxy-suvs/'},
                    {'@context': 'https://schema.org', '@type': 'ItemList', 'name': 'Boxy SUVs', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': r['name'], 'url': SITE_URL + r['href'].replace('.html', '/')} for i, r in enumerate([r for g_ in _groups for r in g_['rows']])]},
                    {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in _faqs]}],
-           title="Boxy SUVs: Every Boxy 4x4 You Can Buy, New & Used",
+           title="Boxy SUVs: The Best Boxy 4x4s to Buy, New & Used",
            description=fit_desc(f'Every boxy SUV and 4x4, new and used: {_total} trucks from the Land Cruiser, Defender and G-Wagon to the Bronco, Scout and Jimny, with prices, solid-axle status and years to avoid.'), credits='')
     _gifts = jload(DATA / 'gifts.json') if (DATA / 'gifts.json').exists() else None
     if _gifts:  # holiday gift guide (Hank, Nov 6, 2026)

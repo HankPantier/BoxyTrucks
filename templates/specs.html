@@ -9,6 +9,10 @@
 </div></section>
 
 <div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
+  {% if quick_ans %}<section class="yr-verdict" id="quick-answers"><span class="eyebrow">Quick answers</span>
+    <div class="table-box"><table class="sp-table"><tbody>{% for q in quick_ans %}<tr><th scope="row">{{ q.label }}</th><td>{{ q.spec }}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="sub-intro" style="margin:0">Confirm against your owner's manual or VIN before you buy fluids. Details, intervals and parts are below.</p>
+  </section>{% endif %}
   {% if p.plate %}<section><h2 class="h-section">Spec sheet</h2>
     <div class="table-box"><table class="sp-table"><tbody>{% for r in p.plate %}<tr><th scope="row">{{ r.k }}</th><td>{{ r.v|lk }}</td></tr>{% endfor %}</tbody></table></div>
   </section>{% endif %}

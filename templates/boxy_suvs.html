@@ -8,6 +8,11 @@
   <div class="bx-jump">{% for grp in groups %}<a href="#{{ grp.id }}">{{ grp.title }} <span>{{ grp.rows|length }}</span></a>{% endfor %}<a href="{{ root }}which-4x4/index.html">Not sure? Take the 5-question quiz →</a></div>
 </div></section>
 <div class="wrap section" style="padding-top:40px;display:flex;flex-direction:column;gap:48px">
+  {% if picks %}<section id="short-answer" style="display:flex;flex-direction:column;gap:14px">
+    <h2 class="h-section">The short answer: the best boxy SUVs to buy</h2>
+    <div class="bx-picks">{% for k in picks %}<a class="bx-pick" href="{{ root }}{{ k.href }}">{% if k.img %}<img src="{{ root }}{{ k.img }}" alt="" loading="lazy" width="320" height="200">{% endif %}<span class="eyebrow brass">{{ k.label }}</span><strong>{{ k.name }}</strong><span class="note">{{ k.years }}{% if k.price %} · {{ k.price }}{% endif %}</span><span class="why">{{ k.why }}</span></a>{% endfor %}</div>
+    <p class="sub-intro" style="margin:0">Every other boxy SUV, new, used and classic, is in the tables below, with its years to avoid.</p>
+  </section>{% endif %}
   {% for grp in groups %}<section id="{{ grp.id }}" style="display:flex;flex-direction:column;gap:14px">
     <h2 class="h-section">{{ grp.title }}</h2>
     {% if grp.lead %}<p class="sub-intro" style="margin:0;max-width:760px">{{ grp.lead }}</p>{% endif %}

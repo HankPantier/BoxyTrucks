@@ -1070,3 +1070,12 @@ main section.rep-sec { contain-intrinsic-size: auto 56px; }
 .rep-grp[open] { padding-bottom: 18px; }
 .rp-know { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; font-size: 17px; line-height: 27px; }
 @media (max-width: 640px) { .table-box .sp-2col tr { display: grid; grid-template-columns: 1fr 1fr; column-gap: 12px; } .table-box .sp-2col td:first-child { grid-column: 1 / -1; } }
+
+/* boxy SUVs short-answer picks (Nov 12, 2026) */
+.bx-picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.bx-pick{display:flex;flex-direction:column;gap:6px;background:var(--paper);border:1px solid var(--hair);padding:0 0 14px;color:var(--ink);text-decoration:none}
+.bx-pick img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;margin-bottom:6px}
+.bx-pick > span,.bx-pick > strong{padding:0 14px}
+.bx-pick strong{font-size:18px;line-height:1.2}
+.bx-pick .why{font-family:var(--serif);font-size:15px;line-height:1.45;color:var(--body)}
+.bx-pick:hover strong{text-decoration:underline}

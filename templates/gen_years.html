@@ -3,13 +3,13 @@
 {% include "_gen_sub_head.html" %}
 <div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
   {% if answer %}<section class="yr-verdict"><span class="eyebrow">The short answer</span><div class="prose"><p>{{ answer|lk }}</p></div></section>{% endif %}
+  {% set nl_id = 'yr-top' %}{% include "_nl_inline.html" %}
 
   {% if summary %}<section><h2 class="h-section">At a glance</h2>
     <div class="yr-glance">{% for s in summary %}<div class="yr-g {{ s.flag }}"><span class="yr-pill {{ s.flag }}">{{ s.label }}</span><strong>{{ s.years }}</strong><span class="note">{{ s.why|striplk }}</span></div>{% endfor %}</div>
   </section>{% endif %}
 
   {% set bb_page = p %}{% set bb_years = g.years %}{% set bb_veh = sn %}{% set bb_service_href = gen_href ~ "#service" %}{% include "_buy_box.html" %}
-  {% include "_nl_inline.html" %}
   {% if timeline %}<section><h2 class="h-section">{{ sn }} year by year</h2>
     <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>YEAR</th><th>VERDICT</th><th>WHAT CHANGED</th></tr></thead>
     <tbody>{% for t in timeline %}<tr><td data-l="YEAR"><strong>{{ t.year }}</strong></td><td data-l="VERDICT">{% if t.flag in ('buy','avoid','recall') %}<span class="yr-pill {{ t.flag }}">{{ {'avoid':'Beware','recall':'Recall','buy':'Sweet spot'}[t.flag] }}</span>{% else %}<span class="note">—</span>{% endif %}</td><td data-l="WHAT CHANGED" class="note">{{ t.change|lk }}</td></tr>{% endfor %}</tbody></table></div>
