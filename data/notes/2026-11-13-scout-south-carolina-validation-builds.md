@@ -3,7 +3,7 @@ title: "Scout is welding real trucks in South Carolina. I love that. Your wait i
 seo_title: "Scout Traveler and Terra validation builds start in South Carolina"
 kicker: FACTORY NEWS
 date: 2026-11-13
-status: draft
+status: published
 dek: "Scout has started building Traveler and Terra validation vehicles at its $2 billion plant in Blythewood, South Carolina. None will be sold. Production is still 2027, deliveries still 2028, and 87% of reservation holders want the gas range extender."
 image: img/scout/scout-ii-lake-pleasant-trail.jpg
 image_alt: "A blue and white Scout II Traveltop on a desert dirt trail among cacti at Lake Pleasant Regional Park, Arizona"
