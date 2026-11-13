@@ -9,4 +9,4 @@
 - **Subject line format (Hank, Oct 30):** "Dispatch No. NN: <three short hooks>", e.g. "Dispatch No. 01: which year to buy, what breaks, what fits". Keep it numbered every issue.
 - **Format each month:** one new guide, one featured rig, one recall worth knowing.
 - **Reader deal for the next issue (Nov 4, 2026):** Eurowise code BOXYTRUCKS5, 5% off the G-Class parts Eurowise makes, through Jan 3, 2027 (unlimited uses; doesn't stack with their Black Friday sale). Link to boxytrucks.com/deals/ or shop.eurowise.com/pages/shop-by-vehicle. Include it in whichever Dispatch goes out next (No. 01 if it hasn't been sent yet, otherwise No. 02).
-- **Field Notes for the next issue:** Armada Patrol PRO-4X (Nov 9) and "Three old trucks, 2,000 miles, one breakdown" on Sam Newton's road-trip film (Nov 9, /field-notes/sam-newton-classic-road-trip/).
+- **Field Notes for the next issue:** Armada Patrol PRO-4X (Nov 9) and "Three old trucks, 2,000 miles, one breakdown" on Sam Newton's road-trip film (Nov 9, /field-notes/sam-newton-classic-road-trip/), and Scout welding real trucks in South Carolina (Nov 13, /field-notes/scout-south-carolina-validation-builds/).

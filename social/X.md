@@ -49,6 +49,7 @@
 | Nov 9, 2026 | Years Short: G 500 years to avoid (MP4, link in first reply 2119858681479074073) | https://x.com/boxytrucks/status/2119858567008366733 |
 | Nov 8, 2026 | n=15 "One desert, one truck" Patrol question (image), link to /models/nissan-patrol/ | https://x.com/boxytrucks/status/2119638300717986252 |
 | Nov 8, 2026 | CJ-5 tire Short (MP4), link to /models/jeep/cj-5/tires/ | https://x.com/boxytrucks/status/2119637318873030852 |
+| Nov 13, 2026 | Field Note: Scout welding real trucks in South Carolina (4 images, link reply 2121318091313537502) | https://x.com/boxytrucks/status/2121317966071390321 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious
