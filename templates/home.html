@@ -97,6 +97,11 @@
   <div class="grid fn-grid" style="--min:280px">{% for d in active_deals %}<a class="card fn-card" href="{{ root }}deals/index.html#{{ d.id }}"><span class="eyebrow">{% for f in d.families %}{% if f == '*' %}Every truck{% elif f in families %}{{ families[f].maker }} {{ families[f].name }}{% else %}{{ f }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span><h3>{{ d.discount }} at {{ d.shop }}</h3><p>{{ d.covers }} with code <strong class="mono">{{ d.code }}</strong>{% if d.end_h %}, through {{ d.end_h }}{% endif %}.</p><span class="go">Get the code →</span></a>{% endfor %}</div>
 </section>
 {% endif %}
+{% if latest_rig %}<section class="wrap section" style="padding-top:40px;padding-bottom:8px">
+  <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Show Us Your Rig</span><h2>Reader rig: {{ latest_rig.rig.name }}</h2></div><a class="inline-link" href="{{ root }}field-notes/show-us-your-rig/index.html">All reader rigs →</a></div>
+  <a class="rig-feature" href="{{ root }}field-notes/{{ latest_rig.slug }}/index.html"><img src="{{ root }}{{ latest_rig.image }}" alt="{{ latest_rig.image_alt }}" width="1600" height="1200" loading="lazy"><div><span class="eyebrow">{{ latest_rig.rig.truck }} · {{ latest_rig.rig.based_in }}</span><h3>{{ latest_rig.title }}</h3><p>{{ latest_rig.dek }}</p><span class="go">Read {{ latest_rig.rig.owner.split(' ')[0] }}’s story →</span></div></a>
+  <p class="rig-cta">Got a boxy 4x4 of your own? <a class="inline-link" href="{{ root }}submit/index.html">Show us your rig</a> and we’ll feature it, credited to you.</p>
+</section>{% endif %}
 {% if latest_notes %}<section class="wrap section" style="padding-top:40px;padding-bottom:40px">
   <div class="sec-head"><div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Boxy Trucks Field Notes</span><h2>4x4 news, with an opinion</h2></div><a class="inline-link" href="{{ root }}field-notes/index.html">All Field Notes →</a></div>
   <div class="grid fn-grid" style="--min:280px">{% for n in latest_notes %}<a class="card fn-card" href="{{ root }}field-notes/{{ n.slug }}/index.html"><span class="eyebrow">{{ n.date_h }}{% if n.kicker %} · {{ n.kicker }}{% endif %}</span><h3>{{ n.title }}</h3><p>{{ n.dek }}</p><span class="go">Read the note →</span></a>{% endfor %}</div>

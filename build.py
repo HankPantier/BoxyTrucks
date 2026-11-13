@@ -685,7 +685,8 @@ def main():
                   date_h=f'{_d:%B} {_d.day}, {_d.year}', rfc822=_d.strftime('%a, %d %b %Y 12:00:00 -0500'))
         NOTES.append(_n)
     NOTES.sort(key=lambda n: n['date'], reverse=True)
-    env.globals['latest_notes'] = NOTES[:3]
+    env.globals['latest_notes'] = [n for n in NOTES if n.get('category') != 'rig'][:3]
+    env.globals['latest_rig'] = next((n for n in NOTES if n.get('category') == 'rig'), None)
 
     # ---- Reader deals (data/deals.json): live only with a code and inside start..end ----
     _today = datetime.date.today().isoformat()
@@ -1078,6 +1079,12 @@ def main():
             render('note.html', f'field-notes/{n["slug"]}/index.html', '../../', active='notes', n=n, more=[m for m in NOTES if m is not n][:3],
                    title=fit_title(n.get('seo_title') or n['title'], n['title']), description=fit_desc(n.get('dek', '')), credits=n.get('image_credit', ''),
                    og_image=n.get('image'), og_type='article', jsonld=[_ld], crumbs=[('Field Notes', 'field-notes/'), (n['title'], f'field-notes/{n["slug"]}/')])
+        _rigs = [n for n in NOTES if n.get('category') == 'rig']
+        if _rigs:
+            render('notes_index.html', 'field-notes/show-us-your-rig/index.html', '../../', active='notes', notes=_rigs, fn_cat='rig',
+                   fn_h1='Show Us Your Rig', fn_lead=Markup('Readers’ boxy 4x4s, the builds and the trips, in their own words. Want yours here? <a class="inline-link" href="/submit/">Send us your rig</a>.'),
+                   title='Show Us Your Rig: readers’ boxy 4x4 builds — BoxyTrucks', description='Reader-submitted boxy 4x4s: the builds, the parts and the trips, in the owners’ own words. Send yours to be featured.',
+                   credits='', crumbs=[('Field Notes', 'field-notes/'), ('Show Us Your Rig', 'field-notes/show-us-your-rig/')])
         render('notes_index.html', 'field-notes/index.html', '../', active='notes', notes=NOTES,
                title='Boxy Trucks Field Notes: 4x4 news, with an opinion', description='Short takes from Hank on the boxy 4x4 news that matters to buyers and owners: concepts, recalls, new models and what they mean if you’re shopping.',
                credits='', jsonld=[{'@context': 'https://schema.org', '@type': 'Blog', 'name': 'Boxy Trucks Field Notes', 'url': SITE_URL + 'field-notes/', 'author': FN_AUTHOR, 'publisher': PUBLISHER,
