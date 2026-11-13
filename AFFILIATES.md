@@ -52,6 +52,12 @@
 - Shortlisted but not applied: Nilight (LED bars, 12%), Zoro (tools, 4%), Sportsman's Guide, Coleman.
 - When SimpleTire approves: add it to data/affiliates.json and point the tire size links at it.
 
+## CJ status, Nov 13, 2026 (weekly check)
+- CJ was signed out, so this check went through Gmail instead (CJ emails from the last 8 days, Trash included). Pending and Declined lists not viewable.
+- Only CJ email: the KSP Performance welcome (approved Nov 9). Already live: template in data/affiliates.json, linked from 4th/5th Gen 4Runner and FJ Cruiser mods, wrapped links confirmed on the built site.
+- Active on CJ: Eastwood, PartsGeek, TOPOAK Overland, Mavis Tire, KSP Performance.
+- Still pending (no email either way): SimpleTire, German Car Accessories, CJ Pony Parts, FinditParts, Valvoline, CanvasCamp.
+
 ## Tire size links (Oct 30)
 Every /models/{fam}/{gen}/tires/ page has a 'Shop {truck} tire sizes' block: each size on the page (factory, max-by-lift and sizes named in the notes) gets a Tire Rack size search and an Amazon size search (tag boxytrucks-20 added by affiliate_rewrite). 412 links on 97 pages. Tire Rack links are plain until the CJ application is approved; then the template in data/affiliates.json wraps them automatically (Skimlinks declined us Nov 2, 2026; reapply in about 3 months).
 
