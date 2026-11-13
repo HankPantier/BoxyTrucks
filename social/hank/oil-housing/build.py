@@ -1,6 +1,6 @@
 # Builds the G500 oil filter housing gasket Short from Hank's clips (Nov 13, 2026).
 # Usage: python3 social/hank/oil-housing/build.py <clips dir> <out.mp4>
-# Voice: Piper TTS (en_US-ryan-high) at $VOICE; facts only from data/g-class.json (repairs[1], baseline_service, owner_notes).
+# Voice: Piper TTS en_US-joe-medium (voice B, Hank's pick; see social/voice/README.md) at $VOICE; facts only from data/g-class.json (repairs[1], baseline_service, owner_notes).
 import json, os, subprocess, sys, wave
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
@@ -20,24 +20,24 @@ BRASS = (201, 168, 106)
 # (clip, start, max_len, eyebrow, on-screen title, voice line)
 SEG = [
  ('IMG_0625', 0.0, 7.6, "HANK'S 2007 G 500 · M113 V8", 'Its biggest leak: the oil filter housing',
-  "The biggest issue on Hank's 2007 G 500: the oil filter housing gasket. Here's the fix."),
+  "So this is the biggest issue on Hank's 2007 G 500. The oil filter housing gasket. Let's fix it."),
  ('IMG_0625', 7.6, 7.7, 'THE SYMPTOM', 'Oil pooling at the front of the V',
-  "If oil is pooling at the front of the V and running down onto the belt, start here."),
+  "If you've got oil pooling up front in the V, and it's running down onto the belt? Yeah. Start right here."),
  ('IMG_0626', 0.0, 6.0, 'STEP 1', 'Housing off. Clean both faces.',
-  "Pull the intake ducting, unbolt the housing, and clean both mating faces completely."),
+  "Pull the intake ducting off, unbolt the housing, and clean both of those mating faces. Really get them clean."),
  ('IMG_0628', 0.0, 8.0, 'STEP 2', 'New seals: filter housing and oil cooler',
-  "New seals in the housing and the oil cooler ports. Use genuine Mercedes or Elring."),
+  "New seals go in the housing and the oil cooler ports. Stick with genuine Mercedes or Elring."),
  ('IMG_0633', 0.0, 6.8, 'STEP 3', 'Torque it down, fresh filter',
-  "Torque it to the factory figures and fit a fresh filter. The cap takes a 74 millimeter, 14 flute wrench."),
+  "Torque it back down to the factory spec, and drop in a fresh filter. That cap takes a seventy-four millimeter, fourteen flute wrench."),
  ('IMG_0634', 0.0, 1.5, 'STEP 4', 'New drain plug and washer, fresh oil',
-  "New drain plug and washer, then fresh MB 229.5 oil. About eight and a half quarts with the filter."),
+  "New drain plug, new washer, and fresh MB 229.5 oil. You'll need about eight and a half quarts with the filter."),
 ]
-END_VOICE = "A simple, inexpensive fix. It just takes some time. Parts list and the full how to are on boxy trucks dot com."
+END_VOICE = "Honestly? It's a simple, inexpensive fix. It just takes some time. The parts list and the full how-to are up on boxy trucks dot com."
 
 def run(c): subprocess.run(c, check=True, capture_output=True)
 
 def tts(text, path):
-    subprocess.run(['python3', '-m', 'piper', '-m', VOICE, '--length-scale', '0.92', '-f', path], input=text.encode(), check=True, capture_output=True)
+    subprocess.run(['python3', '-m', 'piper', '-m', VOICE, '--length-scale', '1.0', '--noise-scale', '0.8', '--noise-w-scale', '1.0', '-f', path], input=text.encode(), check=True, capture_output=True)
     with wave.open(path) as w: return w.getnframes() / w.getframerate()
 
 def wrap(d, text, font, maxw):
