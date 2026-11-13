@@ -33,6 +33,7 @@
 | Nov 12, 2026 | Years Short: Nissan Patrol Y61 (MP4, link reply 2120935528447295582) | https://x.com/boxytrucks/status/2120935403762970946 |
 | Nov 13, 2026 | Reader rig #1: Clifford, Sarah Chambers' 2017 4Runner (4 images, link reply 2121360115140092120) | https://x.com/boxytrucks/status/2121359997108150487 |
 | Nov 13, 2026 | From Hank's garage: G 500 oil filter housing gasket fix (MP4, Hank's footage, voice B; link reply 2121304185488429421) | https://x.com/boxytrucks/status/2121303994077225413 |
+| Nov 13, 2026 | Evening Short: Ineos Grenadier Station Wagon tires (MP4, hook v2, link in first reply 2121386715281834410) | https://x.com/boxytrucks/status/2121386598893842682 |
 | Nov 13, 2026 | n=19 GX 470 vs 100 Series (4 images, link reply 2121302283845824910) | https://x.com/boxytrucks/status/2121302179097321634 |
 | Nov 13, 2026 | Years Short: Land Cruiser Prado 150 (MP4, link reply 2121300103113658559) | https://x.com/boxytrucks/status/2121299995399729498 |
 | Nov 12, 2026 | Evening Short: Range Rover Classic tires (MP4, hook v2, link in first reply 2121074354393932074) | https://x.com/boxytrucks/status/2121074251067179102 |
