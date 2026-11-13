@@ -251,7 +251,7 @@
    "time": "Half a day",
    "cost": "Parts plus a refill of gear oil",
    "symptoms": "Gear oil weeping where the CV axle enters the front differential; a puddle under the front of the truck.",
-   "fix": "Drain the front diff, support the truck and pull the wheel. Unplug and move the ABS sensor, separate the tie-rod end, remove the axle dust cap, retainer and 35 mm axle nut (4WD engaged and parking brake on to hold it). Remove the two lower control arm bolts, tap the axle out of the hub and pop the inner joint from the diff. Note the old seal's depth, pull it, clean the bore, oil the new seal and drive it in to the same depth (Trail4R used a 2 in PVC coupler). Reassemble: LCA bolts 118 ft-lb, axle nut 174 ft-lb, tie-rod castle nut 67 ft-lb, lugs to spec (Trail4R lists 85 ft-lb; a reader quoting the repair manual gives 76 ft-lb for alloy and 83 ft-lb for steel wheels) (check your manual), then refill.",
+   "fix": "Remove the skid plate and drain the front diff. Support the truck on jack stands and pull the wheel. Unplug and move the ABS sensor. Separate the tie-rod end with a ball-joint separator. Remove the axle dust cap, the retainer and the 35 mm axle nut, with 4WD engaged and the parking brake on to hold it. Remove the two lower control arm bolts. Tap the axle out of the hub and pop the inner joint out of the diff with a CV axle removal tool. Measure and photograph how deep the old seal sits, then pull it without scratching the bore. Clean the bore, coat the new seal and bore with gear oil, and drive the seal in square to the same depth (Trail4R used a 2 in PVC coupler). Check the CV clip is seated the right way, then slide the axle back into the diff. Clean the hub splines and add a light coat of anti-seize. Reassemble: lower control arm bolts 118 ft-lb, axle nut 174 ft-lb, tie-rod castle nut 67 ft-lb with a new cotter pin. Torque the lugs to spec (Trail4R lists 85 ft-lb; a reader quoting the repair manual gives 76 ft-lb for alloy and 83 ft-lb for steel wheels; check your manual). Refill with gear oil, let the truck sit overnight and check for leaks.",
    "tools": "19/21/35 mm sockets · breaker bar · seal puller · ball-joint separator · CV axle removal tool · seals: left 90311-47027; right 90311-47026 (2014+) or 90311-47013 (2010–13)",
    "parts": [
     {
@@ -273,6 +273,30 @@
      "name": "Crush washer, diff fill (Toyota 12157-10010)",
      "supplier": "ToyotaPartsDeal (Toyota OEM)",
      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~differential~filler~12157-10010.html"
+    }
+   ],
+   "know": [
+    "The right-side seal changed in 2014. Trail4R lists 90311-47013 (a larger seal) for 2010–13, 90311-47026 for 2014-on, and 90311-47027 for the left on all years.",
+    "Trail4R refilled with about 2 quarts of Toyota LT 75W-85 GL-5 and new drain and fill crush washers, so have those on hand.",
+    "The screwdriver and puller can damage the CV dust cover, hub grease cap and axle nut. Trail4R suggests having spares ready.",
+    "The classic sign, per Trail4R, is gear oil where the CV axle meets the diff housing and a puddle under the front of the truck."
+   ],
+   "mistakes": [
+    "Scratching the seal bore with the puller, which ruins the new seal.",
+    "Ordering the wrong right-side seal for the model year.",
+    "Driving the seal in crooked or to a different depth than the original.",
+    "Reusing the cotter pin on the tie-rod castle nut.",
+    "Refilling and driving off without letting it sit overnight to check for leaks."
+   ],
+   "cost_note": "DIY costs a seal, two crush washers and about 2 quarts of gear oil. YourMechanic's average for a 4Runner axle shaft seal is about $349 ($83 parts, $266 labor), and its front-seal estimates for 2004–07 4Runners run about $450–505, or $520–740 at shops and dealers.",
+   "refs": [
+    {
+     "name": "Trail4R: Front axle seal replacement on a 5th gen 4Runner",
+     "url": "https://trail4runner.com/2020/08/03/replace-front-cv-axle-seal-5th-gen-4runner/"
+    },
+    {
+     "name": "YourMechanic: Toyota 4Runner axle shaft seal replacement cost",
+     "url": "https://www.yourmechanic.com/estimates/toyota/4runner/axle-shaft-seal-replacement"
     }
    ]
   },

@@ -329,13 +329,46 @@
    "time": "≈ A day for both sides",
    "cost": "Seals, bearings and retainers; Cruiser Outfitters sells a complete kit",
    "symptoms": "Gear oil on the inside of the rear wheel or brakes, a low diff level, or a clunk in reverse after the diff has run low.",
-   "fix": "Drain the diff, remove the wheel and rear brake, unbolt the axle-shaft retainer and pull the shaft. Replace the inner seal in the housing. Once a seal has leaked, the bearing's grease has usually washed out, so IH8MUD members replace the bearing too, which means pressing it and its retainer collar off and on. If the seal is the same superseded part as on a 3rd-gen 4Runner, look up the 'retainer flip' method: the new seal sits further inboard. Refit with new gaskets and O-rings and refill the diff.",
+   "fix": "Check the diff level first, and check the rear U-joint before blaming the diff for a clunk. Drain the rear diff. Remove the wheel and the rear brake caliper and rotor; the Prado 90 has rear discs. Unplug and move the ABS sensor if fitted. Unbolt the axle-shaft retainer and pull the shaft with a slide hammer or axle puller. Pull the inner seal from the housing, clean the bore and fit the new seal. Press the old bearing and its retainer collar off the shaft; it takes a solid press. Press the new bearing and a new collar on, using the right collar for ABS or non-ABS trucks. If the inner seal is the superseded part shared with the 3rd-gen 4Runner, IH8MUD members flip the retainer so the seal lip runs on fresh surface, because the new seal sits further inboard. Refit the shaft with new gaskets and O-rings, refit the brake and ABS sensor, and do the other side the same way. Refill the diff and check for weeps after a drive.",
    "tools": "Slide hammer or axle puller · 20-ton press · seal driver · torque wrench · gear oil",
    "parts": [
     {
      "name": "Rear axle overhaul kit, major, 1990–2002 KZJ/RZJ/VZJ9x semi-float (RAKLJ7X9X)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/rear-axle-overhaul-kit-major-fits-4-1990-10-2002-lj-kzj7x-kdj-kzj-rzj-vzj9x-semi-float-rear-axle-applications-raklj7x9x/"
+    }
+   ],
+   "know": [
+    "A leaking inner seal washes the grease out of the wheel bearing, so IH8MUD owners advise against just slapping in a new seal. Do the bearing too, and do both sides.",
+    "The Prado 90 has rear discs and a different axle-shaft bolt pattern from the 4Runner, so check parts by VIN. Partsouq lists many Hilux and 4Runner parts under the same name that don't fit.",
+    "A clunk in reverse can come from low gear oil or a worn U-joint, not just the diff. Check both before ordering parts.",
+    "Kits differ. AllFour 4x4's Prado 95 kit covers one side with a bearing, seals, a gasket and two collars (ABS and non-ABS). One buyer said its inner seal was the wrong size for a 2001 KZJ95 and bought that seal from Toyota.",
+    "Cruiser Outfitters says its RAKLJ7X9X kit, with seals, retainers, clips and gaskets, has been used on many 7x and 9x Prado axles."
+   ],
+   "mistakes": [
+    "Replacing only the seal when gear oil has already washed out the bearing grease.",
+    "Ordering 4Runner parts by name without checking the Prado's VIN; the bolt pattern and some seals differ.",
+    "Trying to press the bearing collar on or off without a press rated for the job.",
+    "Mixing up the ABS and non-ABS collars.",
+    "Doing one side only and coming back for the other a few months later."
+   ],
+   "cost_note": "AllFour 4x4 sells a one-side Prado 95 bearing kit for A$220 including GST, so both sides run about A$440 in parts before any separate inner seals. A shop needs the axle pulled and the bearings pressed. YourMechanic has no Prado figures; for rear axle seals on a 1998–2000 4Runner it quotes about $2,000–2,100, or $2,480–3,830 at shops and dealers.",
+   "refs": [
+    {
+     "name": "IH8MUD: Rear inner axle seals (1996 KZJ95 Prado)",
+     "url": "https://forum.ih8mud.com/threads/rear-inner-axle-seals.1368122/"
+    },
+    {
+     "name": "AllFour 4x4: Rear wheel bearing kit for Prado 95 Series (1996–2002)",
+     "url": "https://www.allfourx4.com.au/Rear-Wheel-Bearing-Kit-suitable-for-Prado-95-Series-1996-2002-VZJ95-RZJ95-KZJ95-WBK13"
+    },
+    {
+     "name": "IH8MUD: Rear axle bearing replacement (semi-float Toyota axles)",
+     "url": "https://forum.ih8mud.com/threads/rear-axle-bearing-replacement.1230995/"
+    },
+    {
+     "name": "YourMechanic: Toyota 4Runner axle shaft seal replacement cost",
+     "url": "https://www.yourmechanic.com/estimates/toyota/4runner/axle-shaft-seal-replacement"
     }
    ]
   },

@@ -195,7 +195,7 @@
    "time": "≈ 45 minutes",
    "cost": "MotorTrend paid $156.79 and $173.90 for dealer 10k and 20k services, including a tire rotation",
    "symptoms": "The oil-life monitor is due, or the history is unknown.",
-   "fix": "Warm the engine, lift the truck safely and drain the oil. AMSOIL lists drain-plug torque at 20 ft-lb on the 3.0 Hurricane and 25 ft-lb on the 6.4. Fit the correct filter: AMSOIL lists WIX WL10255 for the standard-output 3.0, WIX 57045 for the high-output 3.0 and WIX 57060 for the 5.7 and 6.4. Refill with the correct grade: 0W-20 (MS-6395) for the 5.7 and the standard-output 3.0, or 0W-40 (MS-A0921) for the 6.4 and the high-output 3.0. Capacity is 7 qt for the V8s and 7.5 qt for the Hurricane. Check the level, then reset the oil-life monitor.",
+   "fix": "Idle a cold engine for 2 to 5 minutes, or let a hot one cool for 20 to 30 minutes, so the oil drains well without burning you. Park level, lift the truck safely and support it on jack stands or ramps. Remove the drain plug and let the oil drain completely. Clean the plug and refit it, torqued to 20 ft-lb on the 3.0 Hurricane or 25 ft-lb on the 6.4 (AMSOIL's figures). Remove the old filter and make sure its gasket came off with it. Fit the correct filter: AMSOIL lists WIX WL10255 for the standard-output 3.0, WIX 57045 for the high-output 3.0 and WIX 57060 for the 5.7 and 6.4. Oil the new gasket lightly, thread the filter on by hand until the gasket touches, then turn it about three quarters of a turn more, as Mopar advises. Refill with the grade for your engine: 0W-20 (MS-6395) for the 5.7 and the standard-output 3.0, or 0W-40 for the 6.4 and the high-output 3.0. Capacity is 7 qt for the V8s and 7.5 qt for the Hurricane. Start the engine, let the oil circulate, shut it off and check the level and for leaks. Reset the oil-life monitor: ignition ON, Vehicle Info, Oil Life, then hold OK until it reads 100%.",
    "tools": "Socket for the drain plug · filter wrench · torque wrench · drain pan · jack stands or ramps",
    "parts": [
     {
@@ -212,6 +212,39 @@
      "name": "Oil filter, 2022 Grand Wagoneer 6.4 Hemi",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/jeep,2022,grand+wagoneer,6.4l+v8,3450760,engine,oil+filter,5340"
+    }
+   ],
+   "know": [
+    "Know which engine you have. The 5.7 Hemi, 6.4 Hemi and 3.0 Hurricane (standard and high output) take different filters, grades and amounts.",
+    "The Hurricane's standard-output and high-output versions use different oil grades and different filters, per AMSOIL's lookups. Check the engine code before you buy.",
+    "Change it when the oil-life monitor asks, per Mopar's owner's manual maintenance plan, and do a baseline change if the history is unknown.",
+    "Mopar's own guide says the most common mistakes are the wrong oil or filter, leaving the old gasket on, overfilling and forgetting the oil-life reset.",
+    "Have a sealed container ready. Mopar says to take used oil and the filter to a parts store, dealer or recycling center."
+   ],
+   "mistakes": [
+    "Double-gasketing: the old filter's gasket stays stuck to the housing and the new filter seals on top of it, then leaks.",
+    "Using 0W-20 in a high-output Hurricane or 6.4, or the wrong filter for the engine.",
+    "Overtightening or cross-threading the drain plug.",
+    "Checking the level before the new oil has circulated, which leads to overfilling.",
+    "Forgetting to reset the oil-life monitor, so the next reminder comes at the wrong time."
+   ],
+   "cost_note": "DIY costs the oil (7 to 7.5 qt) and a filter. MotorTrend's long-term 2023 Wagoneer paid $156.79 and $173.90 for its dealer 10,000- and 20,000-mile services, which included a tire rotation.",
+   "refs": [
+    {
+     "name": "Mopar: How to change your vehicle's engine oil, step by step",
+     "url": "https://www.mopar.com/en-us/blog/how-to-change-your-vehicle-engine-oil-a-step-by-step-mopar-oil-change-guide.html"
+    },
+    {
+     "name": "CarCareKiosk: Oil and filter change, 2022 Grand Wagoneer 6.4L",
+     "url": "https://www.carcarekiosk.com/video/2022_Jeep_Grand_Wagoneer_Series_III_6.4L_V8/oil/change_oil_and_oil_filter"
+    },
+    {
+     "name": "AMSOIL: 2024 Jeep Wagoneer 3.0L Hurricane lubricant lookup",
+     "url": "https://www.amsoil.com/lookup/auto-and-light-truck/2024/jeep/wagoneer/3-0l-6-cyl-engine-code-p-efh-4-turbo/"
+    },
+    {
+     "name": "MotorTrend: 2023 Jeep Wagoneer yearlong review verdict",
+     "url": "https://www.motortrend.com/reviews/2023-jeep-wagoneer-yearlong-review-verdict"
     }
    ]
   },

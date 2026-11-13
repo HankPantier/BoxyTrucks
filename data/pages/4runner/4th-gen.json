@@ -196,13 +196,38 @@
    "time": "A short afternoon",
    "cost": "Gear oil ≈ $5–15 a quart plus crush washers",
    "symptoms": "Unknown service history, whining diffs, a 4WD system that's never been exercised.",
-   "fix": "Always break the fill plug loose first. Rear diff and transfer case use 24 mm plugs; the front diff needs a 10 mm hex after removing the 12 mm-bolted skid plates. Drain each, fit new washers, and refill until it drips from the fill hole. Toyota-Club's owner's-manual data calls for GL-5 75W-90 in the front diff and transfer case but GL-5 80W-90 in the rear (some owners run 75W-90 throughout); 4Runners.com quotes roughly 1.5 qt front, 1.5 qt transfer case and 3.2 qt rear. Cycle 4Hi and 4Lo afterwards.",
+   "fix": "Drive a few miles to warm the fluids, then park on level ground. Remove the 12 mm-bolted skid plates to reach the front diff, and drop the spare tire for room at the rear diff. Always break the fill plug loose first, so you know you can refill before you drain. Start with the front diff: remove the 10 mm hex drain plug and let it empty. Clean the plugs; the rear drain plug has a magnet that catches metal. Refit the front drain plug with a new washer at 48 ft-lb, fill until it runs out of the fill hole, and refit the fill plug at 29 ft-lb. Do the transfer case the same way with its 24 mm plugs at 27 ft-lb. Do the rear diff the same way with its 24 mm plugs at 36 ft-lb. Use GL-5 75W-90 in the front diff and transfer case. The 2005 owner's manual calls for SAE 90 in the rear (80W or 80W-90 below 0°F) and the same in the front on V8s; many owners run a synthetic 75W-90 throughout. Cycle 4Hi and 4Lo afterwards, and check for drips the next day.",
    "tools": "24 mm socket · 10 mm hex · 12 mm socket · fluid pump · GL-5 75W-90 and 80W-90 · washers 90430-18008 (t-case), 12157-10010 and 90430-24003 (diffs)",
    "parts": [
     {
      "name": "Gear oil & drain-plug gaskets — 2005 4Runner catalog",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,2005,4runner"
+    }
+   ],
+   "know": [
+    "Capacities from the 2005 owner's manual: front diff 1.5 L (V6) or 1.4 L (V8), rear diff 3.05 L (3.2 qt), transfer case 1.4 L (1.5 qt). Top4Runners bought 7 qt for all three and had none left.",
+    "The V6 and V8 front diffs differ. The manual lists 75W-90 for the V6 front diff, but SAE 90 (80W-90 below 0°F) for the V8 front and both rears.",
+    "Every plug takes a new metal gasket, and they're not all the same: 12157-10010 (rear plugs and front fill), 90430-24003 (front drain) and 90430-18008 (transfer case), per Top4Runners.",
+    "The rear plugs and front drain can be very tight. Top4Runners needed an air impact for them and a 3/4 in ratchet for the front fill.",
+    "Squeeze pouches such as Valvoline FlexFill are easier than a hand pump, Top4Runners found."
+   ],
+   "mistakes": [
+    "Draining before checking the fill plug will come out.",
+    "Reusing the old gaskets, or dropping one in the drain bucket (Top4Runners did, and had to buy another).",
+    "Assuming the V6 and V8 take the same gear oil grade in the front diff.",
+    "Under-filling: fill each one until it just runs out of the fill hole on level ground.",
+    "Skipping the check for drips the next day."
+   ],
+   "cost_note": "DIY costs about 7 quarts of GL-5 gear oil (roughly $5–15 a quart) plus six metal gaskets. Top4Runners used Valvoline FlexFill synthetic and needed no other parts.",
+   "refs": [
+    {
+     "name": "Top4Runners: 2007 4Runner synthetic fluid change (diffs and transfer case)",
+     "url": "https://www.top4runners.com/ja/2007/synthetic.html"
+    },
+    {
+     "name": "2005 Toyota 4Runner owner's manual: gear oil type and capacities (ManualOwl)",
+     "url": "https://www.manualowl.com/am/Toyota/2005-4Runner/Manual/5462?page=829"
     }
    ]
   },
