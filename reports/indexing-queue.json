@@ -245,50 +245,50 @@
  },
  {
   "url": "https://boxytrucks.com/models/g-class/w460/tires/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/g-class/500ge/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/g-class/europa/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/g-class/g55-amg/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/g-class/g550/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/g-class/w460/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/4runner/1st-gen/years/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
   "url": "https://boxytrucks.com/models/4runner/3rd-gen/years/",
-  "status": "todo",
-  "date": null,
+  "status": "indexed",
+  "date": "2026-11-14",
   "src": "gsc-discovered-2026-11-09"
  },
  {
@@ -1100,5 +1100,15 @@
   "status": "indexed",
   "date": "2026-11-09",
   "src": "gsc-discovered-2026-11-09"
+ },
+ {
+  "url": "https://boxytrucks.com/field-notes/reader-rig-clifford-4runner/",
+  "status": "requested",
+  "date": "2026-11-14"
+ },
+ {
+  "url": "https://boxytrucks.com/field-notes/show-us-your-rig/",
+  "status": "requested",
+  "date": "2026-11-14"
  }
 ]
