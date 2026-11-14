@@ -33,6 +33,7 @@
 | Nov 12, 2026 | Years Short: Nissan Patrol Y61 (MP4, link reply 2120935528447295582) | https://x.com/boxytrucks/status/2120935403762970946 |
 | Nov 13, 2026 | Reader rig #1: Clifford, Sarah Chambers' 2017 4Runner (4 images, link reply 2121360115140092120) | https://x.com/boxytrucks/status/2121359997108150487 |
 | Nov 13, 2026 | From Hank's garage: G 500 oil filter housing gasket fix (MP4, Hank's footage, voice B; link reply 2121304185488429421) | https://x.com/boxytrucks/status/2121303994077225413 |
+| Nov 14, 2026 | Evening Short: Nissan Patrol 60 tires (MP4, link reply 2121747277291376820) | https://x.com/boxytrucks/status/2121747153051611289 |
 | Nov 14, 2026 | Hank's G 500 on a fall back road (MP4, link reply 2121743739408531912) | https://x.com/boxytrucks/status/2121743621364007015 |
 | Nov 14, 2026 | Spec Sheet 01: Mercedes G 500 (image, link reply 2121729930236928363) | https://x.com/boxytrucks/status/2121729816550576135 |
 | Nov 14, 2026 | Years Short: Jeep Wrangler JK 2-door (MP4, link reply 2121669745539985534) | https://x.com/boxytrucks/status/2121669629789843838 |
