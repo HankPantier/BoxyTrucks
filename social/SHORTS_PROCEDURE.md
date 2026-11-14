@@ -48,3 +48,15 @@ testing new Shorts (Nov 10–11 uploads got 33–147 views against 300–540 for
   above the bottom ~540 px and left of the right-hand buttons (the Shorts overlay); brand moved to the top; the follow card is folded into the CTA (≈11 s total).
 - Tire titles now lead with the search phrase: "<truck> tire size: the biggest tire with no lift (<size>)". GX 470, Defender, early Bronco and CJ-5 retitled on YouTube.
 - First v2 Shorts: Patrol Y61 years (Nov 12, 12:37) and Range Rover Classic tires (Nov 12, 6:23). Compare their "stayed to watch" with the 19% baseline on Nov 14.
+- **Nov 14 check (YouTube Studio, since published):**
+  | Short | Views | Stayed to watch | Search | Shorts feed |
+  |---|---|---|---|---|
+  | Patrol Y61 years (v2, Nov 12) | 238 | 32.8% | 89.8% | 9.8% |
+  | Range Rover Classic tires (v2, Nov 12) | 69 | 50.0% | 70.0% | 27.1% |
+  | Prado 150 years (v2, Nov 13) | 111 | 29.0% | | |
+  | Grenadier SW tires (v2, Nov 13) | 170 | 20.8% | | |
+  | G500 oil housing (Hank's footage + voice, Nov 13) | 74 | 51.8% | | |
+  | Defender years (v1, Nov 11, for comparison) | 151 | 37.5% | | |
+  Retitled tire Shorts, traffic share: GX 470 (115 views) search 93.9% / feed 5.2%; Defender 90/110 (120) search 95.8% / feed 3.3%; early Bronco (85) search 62.6% / feed 35.2%; CJ-5 (310) feed 62.5% / search 36.9% (mostly feed views from before the retitle).
+  Read: stayed-to-watch is up from the 19% channel baseline on every v2 Short, but the feed is still barely testing them (under 30% of views); search is carrying views, and the search-first titles work. The real footage with voice held best (52%).
+  Next: open on a real-photo close-up (tire or trouble spot) instead of a wide shot, put a number in the first 1 s of the hook ("34 in, no lift?"), cut tire Shorts to ~8 s, and try voice B on generated Shorts.
