@@ -194,36 +194,41 @@
    "path": "suzuki/jimny-jb74/rust-proof-the-chassis-and-body-cavities",
    "impressions": 7,
    "clicks": 0,
-   "words": 447,
-   "status": "todo"
+   "words": 809,
+   "status": "done",
+   "done": "2026-11-15"
   },
   {
    "path": "pajero/pajero-gen1/timing-and-balance-shaft-chains",
    "impressions": 6,
    "clicks": 1,
    "words": 426,
-   "status": "todo"
+   "status": "todo",
+   "note": "2026-11-15: skipped, every 4G54-specific source failed to load (sigma-galant, mitsubishiforum, turbo-mopar, mightyram50, 4x4community); retry next run"
   },
   {
    "path": "nissan-patrol/y62/front-inner-cv-boot",
    "impressions": 6,
    "clicks": 1,
    "words": 327,
-   "status": "todo"
+   "status": "todo",
+   "note": "2026-11-15: skipped, only one Y62-specific source found (Patrolapart kit page); look for Armada/Y62 forum threads next run"
   },
   {
    "path": "land-cruiser/70-series/make-the-air-conditioning-work",
    "impressions": 6,
    "clicks": 1,
-   "words": 327,
-   "status": "todo"
+   "words": 701,
+   "status": "done",
+   "done": "2026-11-15"
   },
   {
    "path": "jeep/tj/cure-death-wobble-track-bar-ball-joints-and-tie",
    "impressions": 6,
    "clicks": 0,
-   "words": 465,
-   "status": "todo"
+   "words": 817,
+   "status": "done",
+   "done": "2026-11-15"
   },
   {
    "path": "jeep/wagoneer-ws/blank-screens-and-glitches-updates-and-the-battery",
