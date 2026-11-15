@@ -1,4 +1,14 @@
-# Daily X post (@boxytrucks)
+# X (@boxytrucks): weekly round-up only
+
+**Nov 14, 2026 (Hank): scale X back to one weekly round-up instead of 4–5 posts a day.** X had 1 follower, most posts got 1–4 views, and it sent 6 site visits in a week. No other routine posts to X any more (daily posts, Shorts, Spec Sheets, stacks and Field Notes all skip it). The only X post is the Friday round-up below.
+
+## Friday round-up
+1. Pick the week's 3–4 best posts by views from social/metrics/posts.json, social/shorts.json, social/shorts-years.json, social/specsheets/queue.json and social/hank/*/posted.json (Hank's own footage always makes the cut if there was any that week).
+2. Post one X post from @boxytrucks: the best video or image attached, and text like "This week on Boxy Trucks:" then one short line per item (truck + the hook number, e.g. "80 Series: 285/75R16 fits stock"). No link in the post. Keep it ≤280 characters.
+3. Reply to it right away with the links, one per line, most-viewed first, each the item's own page tagged `?utm_source=x&utm_medium=social&utm_campaign=roundup`. If they don't fit in one reply, chain a second reply.
+4. Log it in social/X.md (round-up row with both URLs) and in social/x-roundups.json, commit and push. Tell Hank only on failure.
+
+## Older notes (still apply to the round-up)
 
 Hank approved this on Oct 30, 2026: post on X daily, like Instagram. Use the same message as that day's Instagram post, reworded slightly for X (≤280 characters), and link to the matching page on the site.
 

@@ -16,7 +16,7 @@ allows, not just 2. Inspired by the "1993 Bronco / K5 / Ramcharger / Yukon" spec
 1. `git pull`. Take the next row in the list below whose status isn't `posted`; write its spec in `social/stacks/` if
    it doesn't exist and render: `node social/stacks/make_stack.js social/stacks/<slug>.json`. Look at the image.
 2. Post the JPG to all five platforms, verifying the account before each (stop on a wrong account, never switch):
-   Instagram @boxytrucks, X @boxytrucks, Pinterest boxytrucks (link = the compare page with utm_source=pinterest),
+   Instagram @boxytrucks, Pinterest boxytrucks (not X: weekly round-up only since Nov 14, 2026) (link = the compare page with utm_source=pinterest),
    TikTok @boxytrucks (photo post) and YouTube (Boxy Trucks channel) as a Community post if available, otherwise skip YouTube.
    Caption: the question in the title, one line per truck on who it suits (from the compare page verdict), "Which would
    you pick?", the link (or "link in bio" on Instagram), and photo credits.

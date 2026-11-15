@@ -1,7 +1,7 @@
 # Second daily post: the Short, on every platform
 
 Hank, Nov 5, 2026: post a second Short every day, on top of the regular daily post, because video is about 78% of our views.
-Hank, Nov 6, 2026: post multiple times a day on **every** platform. The Short goes to YouTube, TikTok, Instagram (as a Reel), X (as a video) and Pinterest (as a video pin), so each platform gets two posts a day. Every Short ends with a "Follow for a new truck every day" card.
+Hank, Nov 6, 2026: post multiple times a day on **every** platform. The Short goes to YouTube, TikTok, Instagram (as a Reel) and Pinterest (as a video pin). Not X: X is a weekly round-up only since Nov 14, 2026 (see X_POST_PROCEDURE.md). Every Short ends with a "Follow for a new truck every day" card.
 
 **Series:** "Biggest tire on a stock <truck>", generated from site data by `scripts/make_tire_shorts.py`:
 - hook, then the stock-height size, then one or two lifted sizes, then a call to action pointing to that truck's `/tires/` page (which has the Tire Rack, Mavis and Amazon size links);
@@ -16,7 +16,7 @@ Hank, Nov 6, 2026: post multiple times a day on **every** platform. The Short go
 ### Instagram, X and Pinterest (added Nov 6, 2026)
 After YouTube and TikTok, post the same `video` to the other three, verifying the account before each and stopping on a wrong one:
 - **Instagram** (`IG_POST_PROCEDURE.md`, the Reel steps): confirm **@boxytrucks**. Caption = `ig_caption`. Save `ig_url`, set `ig_status: "posted"`.
-- **X** (`X_POST_PROCEDURE.md`): confirm **@boxytrucks**. Attach the video, text = `x_text`. Save `x_url`, set `x_status: "posted"`.
+- **X**: skip (weekly round-up only since Nov 14, 2026). Set `x_status: "roundup"`.
 - **Pinterest** (`PINTEREST_PROCEDURE.md`): confirm **boxytrucks**. Video pin, title `pin_title`, description `pin_description`, link `pin_link`, board for that family. Save `pin_url`, set `pin_status: "posted"`.
 Space the five uploads over the evening if a platform rate-limits. A platform that fails gets skipped for that day and noted, never retried on another account.
 

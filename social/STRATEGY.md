@@ -51,7 +51,7 @@ Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop mak
 | Sat | Reel | Hank's footage first (G500, 4Runner, lockers, repairs); otherwise motion graphics |
 | Sun | Single image | A great off-road photo plus a question that invites comments |
 
-Every post also goes to X 30 minutes later (see `X_POST_PROCEDURE.md`). **Every day goes to ALL five channels: Instagram, X, Pinterest, YouTube and TikTok** (Hank, Nov 2 and Nov 4, 2026). Image-only days get a short video version for YouTube and TikTok: pins for every guide post (`PINTEREST_PROCEDURE.md`), plus every Reel as a Short (`YOUTUBE_PROCEDURE.md`) and a TikTok (`TIKTOK_PROCEDURE.md`). On X, carousels post as up to 4 images and Reels as the MP4.
+**X is a weekly round-up only (Hank, Nov 14, 2026)**: nothing posts to X day to day; one Friday post sums up the week (see `X_POST_PROCEDURE.md`). **Every day goes to the other four channels: Instagram, Pinterest, YouTube and TikTok** (Hank, Nov 2 and Nov 4, 2026). Image-only days get a short video version for YouTube and TikTok: pins for every guide post (`PINTEREST_PROCEDURE.md`), plus every Reel as a Short (`YOUTUBE_PROCEDURE.md`) and a TikTok (`TIKTOK_PROCEDURE.md`). On X, carousels post as up to 4 images and Reels as the MP4.
 
 ## Content pillars
 1. **Buy it right:** best years, years to avoid, what to check. This is the core, and it links to the guides.
@@ -98,11 +98,11 @@ In Instagram's insights, note each post's reach, saves, shares and profile visit
 ## Review, Nov 3, 2026 (first week)
 - **Working:** Hank's first-person posts (the G500 "mine's a 2007" post got the most interaction, plus our best comment), reach beyond followers (69% non-followers), and real comment conversations.
 - **Do more:** a weekly "From Hank's garage" post; Reels and carousels; Story link stickers for site visits.
-- **Cut:** mass follows (now ~10/day). **X on autopilot:** keep the automatic mirror of each post (1 follower, 3–15 views per post), but no extra time there; that time goes to Reddit and the forums (`FORUMS.md`). No empty "show us your rig" posts.
+- **Cut:** mass follows (now ~10/day). **X cut to a weekly round-up (Nov 14):** 1 follower, 1–4 views per post and 6 site visits a week didn't justify daily posts; that time goes to Reddit and the forums (`FORUMS.md`). No empty "show us your rig" posts.
 - Re-check against full per-post insights in the Monday scoreboard.
 
 ## Field Notes (Nov 3, 2026)
-Every published Field Note gets its own social push the same day: an IG carousel, an X post with the link, a Pinterest pin, and a YouTube Short and TikTok from the reel. It runs on top of the regular daily post (Hank OK'd multiple posts a day). See FIELD_NOTES.md.
+Every published Field Note gets its own social push the same day: an IG carousel, a Pinterest pin, and a YouTube Short and TikTok from the reel. It runs on top of the regular daily post (Hank OK'd multiple posts a day). See FIELD_NOTES.md.
 
 ## Waiting on partners
 - **Eurowise reader code (Nov 4, 2026):** the day the code arrives, make a social post for it (queue item `deal-eurowise`), add it to the site's deals spot and the next Dispatch. The code runs to Jan 4, 2027.

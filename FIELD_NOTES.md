@@ -42,7 +42,7 @@ Hank OK'd extra social posts on note days. Each one is on top of the regular dai
    - a reel spec in `social/reels/fn-<slug>.json` (about 15s; `node social/reels/make_reel.js …`).
 3. **Post:**
    - Instagram carousel, per IG_POST_PROCEDURE.md (verify @boxytrucks first);
-   - X with a direct link to the note (verify @boxytrucks);
+   - (no X post: X is a weekly round-up only since Nov 14, 2026; the note goes in Friday's round-up)
    - a Pinterest pin of slide 1 linking to the note;
    - the reel to YouTube Shorts (Boxy Trucks channel only) and TikTok (then switch it to Everyone).
 4. Log it in `social/queue.json` with `n: "fn-<slug>"`, and add it to the next Dispatch's candidate list in NEWSLETTER.md.
