@@ -6,7 +6,7 @@ data/pages/<family>/<gen>.json  a full guide for any other generation
 data/resources/<family>.json    YouTube / Instagram / forums / other references
 """
 import datetime
-import json
+import json, subprocess
 import os
 from collections import defaultdict
 import re
@@ -1471,7 +1471,87 @@ def main():
     gens_json = json.dumps({s: [{'slug': g['slug'], 'name': g['name'], 'years': g['years']} for g in fams[s]['generations']] for s in fams})
     _q = json.loads((ROOT / 'social' / 'queue.json').read_text()) if (ROOT / 'social' / 'queue.json').exists() else []
     _recent = [i for i in sorted(_q, key=lambda i: (i.get('posted') or '', i['n'] if isinstance(i.get('n'), int) else 0), reverse=True) if i.get('status') == 'posted' and i.get('link') and (SITE / i['link'] / 'index.html').exists()][:3]
-    render('links.html', 'links/index.html', '../', active='', recent=_recent, hide_newsletter=True, noindex=True,
+    # /links/ "what you just watched" grid (Hank, Nov 14, 2026: IG had 72 profile visits but 3 link taps, so make /links/ obviously
+    # "the guide for the truck you just watched"). Every posted item from every feed, newest first, with a thumbnail of the post itself.
+    def _links_feed():
+        def _items(path):
+            fp = ROOT / path
+            if not fp.exists():
+                return []
+            d = json.loads(fp.read_text())
+            return d['items'] if isinstance(d, dict) else d
+        def _rel(u):
+            u = (u or '').split('?')[0]
+            for pre in ('https://boxytrucks.com/', 'http://boxytrucks.com/', '/'):
+                if u.startswith(pre):
+                    u = u[len(pre):]
+            return u if (not u or u.endswith('/')) else u + '/'
+        def _photo(spec):
+            try:
+                return json.loads((ROOT / spec).read_text())['scenes'][0]['photo']
+            except Exception:
+                return None
+        out = []
+        for x in _items('social/shorts.json'):
+            if x.get('status') == 'posted':
+                out.append({'id': x['id'], 'date': x.get('posted', ''), 'kind': 'Tire sizes', 'title': f"{x['label']}: biggest tire that fits", 'href': _rel(x.get('link')), 'src': _photo(x.get('spec', ''))})
+        for x in _items('social/shorts-years.json'):
+            if x.get('status') == 'posted':
+                out.append({'id': x['id'], 'date': x.get('posted', ''), 'kind': 'Years to avoid', 'title': f"{x['label']}: years to avoid", 'href': _rel(x.get('link')), 'src': _photo(x.get('spec', ''))})
+        for x in _items('social/specsheets/queue.json'):
+            if x.get('status') == 'posted':
+                out.append({'id': x['id'], 'date': x.get('posted', ''), 'kind': 'Spec sheet', 'title': f"{x['label']} spec sheet", 'href': _rel(x.get('link')), 'src': x.get('image')})
+        for fp in sorted((ROOT / 'social' / 'hank').glob('*/posted.json')):
+            x = json.loads(fp.read_text())
+            if x.get('link'):
+                out.append({'id': x['id'], 'date': x.get('posted', ''), 'kind': "From Hank's garage", 'title': x.get('title', ''), 'href': _rel(x['link']), 'src': x.get('video'), 'hank': True, 'at': x.get('thumb_at', 2)})
+        for x in _items('social/queue.json'):
+            if x.get('status') == 'posted' and x.get('link'):
+                _cap = (x.get('caption') or '').strip()
+                _first = _cap.split('\n')[0].strip().rstrip('.') if _cap else ''
+                _note = next((n for n in NOTES if _rel(x['link']) == f"field-notes/{n['slug']}/"), None)
+                _hank = "From Hank's garage" in _cap
+                out.append({'id': f"q{x['n']}", 'date': x.get('posted', ''), 'kind': 'Field Note' if _note else ("From Hank's garage" if _hank else 'Buyer’s guide'),
+                            'title': x.get('title') or (_note or {}).get('title') or _first, 'href': _rel(x['link']), 'hank': _hank,
+                            'src': x.get('image') or (x.get('images') or [None])[0] or x.get('video')})
+        for n in NOTES:
+            if n.get('category') == 'rig' and n.get('image'):
+                out.append({'id': 'note-' + n['slug'], 'date': str(n.get('date', '')), 'kind': 'Reader rig', 'title': n.get('title', ''), 'href': f"field-notes/{n['slug']}/", 'src': 'site/' + n['image']})
+        seen, feed = set(), []
+        for it in sorted(out, key=lambda i: i['date'], reverse=True):
+            if not it['href'] or it['id'] in seen or not (SITE / it['href'] / 'index.html').exists():
+                continue
+            seen.add(it['id'])
+            feed.append(it)
+            if len(feed) == 24:
+                break
+        tdir = SITE / 'links' / 'thumbs'
+        tdir.mkdir(parents=True, exist_ok=True)
+        from PIL import Image
+        for it in feed:
+            dst = tdir / f"{it['id']}.jpg"
+            src = it.pop('src', None)
+            if not dst.exists() and src:
+                sp = ROOT / src
+                try:
+                    if sp.suffix.lower() in ('.mp4', '.mov'):
+                        subprocess.run(['ffmpeg', '-y', '-v', 'error', '-ss', str(it.get('at', 2)), '-i', str(sp), '-frames:v', '1', str(dst)], check=True)
+                        im = Image.open(dst)
+                    else:
+                        im = Image.open(sp)
+                    im = im.convert('RGB')
+                    w, h = im.size
+                    tw = min(w, int(h * 4 / 5))
+                    th = min(h, int(tw * 5 / 4))
+                    left, top = (w - tw) // 2, (h - th) // 2
+                    im.crop((left, top, left + tw, top + th)).resize((300, 375)).save(dst, quality=80)
+                except Exception as e:
+                    print('links thumb failed', it['id'], e)
+            it['thumb'] = f"links/thumbs/{it['id']}.jpg" if dst.exists() else None
+        return feed
+    _feed = _links_feed()
+    _guides = sorted([{'name': mlabel(fams[_f]['maker'], pages[_f][_g]['title']), 'href': f'models/{_f}/{_g}/'} for _f in fams for _g in pages.get(_f, {}) if pages[_f][_g] and (SITE / 'models' / _f / _g / 'index.html').exists()], key=lambda g: g['name'])
+    render('links.html', 'links/index.html', '../', active='', recent=_recent, feed=_feed, guides=_guides, hide_newsletter=True, noindex=True,
            title='BoxyTrucks Links', description='Links from the BoxyTrucks Instagram and X: the latest posts, the which-4x4 quiz, free inspection checklists and the newsletter.', credits='')
     render('submit.html', 'submit/index.html', '../', active='submit', crumbs=[('Show Us Your Rig', 'submit/')], title='Show Us Your Rig — BoxyTrucks', description='Show Us Your Rig: send photos and the story of your boxy 4x4 build for a feature on BoxyTrucks. Off-road shots preferred.', credits='Hasse Lossius via Unsplash', gens_json=gens_json, submit_email=SUBMIT_EMAIL, rig_endpoint=RIG_ENDPOINT, site_url=SITE_URL)
     render('privacy.html', 'about/privacy.html', '../', active='', title='Privacy — BoxyTrucks', description='What BoxyTrucks collects, why, and who processes it: Google Analytics, the submission form, affiliate cookies and GitHub hosting.', credits='', crumbs=[('Privacy', 'about/privacy.html')])

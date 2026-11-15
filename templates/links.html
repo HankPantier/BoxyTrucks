@@ -2,8 +2,25 @@
 {% block content %}
 <section class="band-night"><div class="wrap lk-wrap">
   <a class="brand lk-brand" href="{{ root }}index.html">{{ mark('#B0915A', 44) }}<span>BOXY TRUCKS</span></a>
-  <p class="serif lk-lede">Buyer’s guides to boxy 4x4s: best years, common problems, repairs and the biggest tire that fits.</p>
-  {# Every live reader deal from data/deals.json shows here automatically (Hank, Nov 5, 2026: Instagram bio link carries the codes). #}
+  {# Hank, Nov 14, 2026: IG had 72 profile visits but 3 link taps. Lead with the posts themselves, as a grid like the Instagram profile,
+     so a visitor taps the same picture they just watched and lands on that truck's guide. #}
+  <h1 class="lk-h">Just watched one of our videos?</h1>
+  <p class="lk-lede">Tap the same picture to get that truck’s full guide.</p>
+  <div class="lk-grid">
+    {% for p in feed %}<a class="lk-tile" href="{{ root }}{{ p.href }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links&amp;utm_content={{ p.id }}" data-track="links-grid">
+      {% if p.thumb %}<img src="{{ root }}{{ p.thumb }}" alt="" width="300" height="375" loading="{{ 'eager' if loop.index <= 6 else 'lazy' }}">{% else %}<span class="lk-noimg"></span>{% endif %}
+      <span class="lk-cap"><span class="lk-kind{% if p.hank %} lk-hank{% endif %}">{{ p.kind }}</span><span class="lk-title">{{ p.title }}</span></span>
+    </a>{% endfor %}
+  </div>
+
+  <div class="lk-find">
+    <label for="lk-q" class="lk-find-h">Not there? Find any truck</label>
+    <input id="lk-q" type="search" placeholder="Type a truck: 80 Series, G500, Bronco…" autocomplete="off" data-lk-q>
+    <ul class="lk-results" data-lk-results hidden>
+      {% for g in guides %}<li><a href="{{ root }}{{ g.href }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links-search" data-name="{{ g.name|lower }}">{{ g.name }}</a></li>{% endfor %}
+    </ul>
+  </div>
+
   {% for dl in active_deals %}<aside class="deal-inline lk-deal" aria-label="Reader deal">
     <div class="di-main"><span class="di-tag">Reader deal</span>
       <p class="di-h">{{ dl.discount }} {{ dl.covers }} at {{ dl.shop }}</p>
@@ -11,16 +28,16 @@
     <div class="di-act"><button type="button" class="bb-code di-code" data-copy="{{ dl.code }}" data-deal-copy="{{ dl.id }}" title="Tap to copy the code">{{ dl.code }}</button><span class="di-hint">Tap to copy</span>
       <a class="di-btn" href="{{ dl.url }}" target="_blank" rel="noopener sponsored" data-deal-click="{{ dl.id }}" data-track="links">Shop {{ dl.shop }} ↗</a></div>
   </aside>{% endfor %}
+
   <div class="lk-list">
-    {% for p in recent %}<a class="lk-btn lk-new" href="{{ root }}{{ p.link }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><span class="eyebrow brass">{% if loop.first %}Latest post{% else %}Recent post{% endif %}</span><strong>{{ p.title }}</strong></a>{% endfor %}
-    <a class="lk-btn lk-yt" href="https://www.youtube.com/@BoxyTrucks?sub_confirmation=1" target="_blank" rel="noopener" data-track="links-youtube"><span class="eyebrow brass">New Shorts every day</span><strong>Watch on YouTube ↗</strong></a>
     <a class="lk-btn" href="{{ root }}which-4x4/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Which 4x4 should I buy? Take the 5-question quiz</strong></a>
     <a class="lk-btn" href="{{ root }}inspection-checklists/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Free pre-purchase inspection checklists</strong></a>
+    <a class="lk-btn" href="{{ root }}tires/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Biggest tire that fits, every truck</strong></a>
     <a class="lk-btn" href="{{ root }}garage/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links#best-years"><strong>Best years to buy, every truck</strong></a>
-    <a class="lk-btn" href="{{ root }}best/boxy-suvs/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Every boxy 4x4 you can buy, new and used</strong></a>
     <a class="lk-btn" href="{{ root }}submit/index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links"><strong>Show us your rig: get featured</strong></a>
+    <a class="lk-btn lk-yt" href="https://www.youtube.com/@BoxyTrucks?sub_confirmation=1" target="_blank" rel="noopener" data-track="links-youtube"><span class="eyebrow brass">New Shorts every day</span><strong>Watch on YouTube ↗</strong></a>
   </div>
-  <p class="lk-follow">Follow along: <a href="https://www.instagram.com/boxytrucks/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@BoxyTrucks" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.tiktok.com/@boxytrucks" target="_blank" rel="noopener">TikTok</a> · <a href="https://x.com/boxytrucks" target="_blank" rel="noopener">X</a> · <a href="https://www.pinterest.com/boxytrucks/" target="_blank" rel="noopener">Pinterest</a></p>
+  <p class="lk-follow">Follow along: <a href="https://www.instagram.com/boxytrucks/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@BoxyTrucks" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.tiktok.com/@boxytrucks" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.pinterest.com/boxytrucks/" target="_blank" rel="noopener">Pinterest</a> · <a href="https://x.com/boxytrucks" target="_blank" rel="noopener">X</a></p>
   <form class="nl-form lk-nl" action="{{ newsletter.action }}" method="post" data-nl>
     <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
     <label for="lk-email" class="sr-only">Email address</label>
@@ -28,4 +45,11 @@
     <button class="btn light" type="submit">Subscribe</button>
   </form>
 </div></section>
+<script>
+(function(){var q=document.querySelector('[data-lk-q]'),ul=document.querySelector('[data-lk-results]');if(!q||!ul)return;
+var li=[].slice.call(ul.querySelectorAll('li'));
+q.addEventListener('input',function(){var v=q.value.trim().toLowerCase().replace(/[-\s]+/g,' ');var n=0;
+li.forEach(function(x){var t=x.firstChild.getAttribute('data-name').replace(/[-\s]+/g,' ');var m=v.length>1&&(t.indexOf(v)>-1||t.replace(/ /g,'').indexOf(v.replace(/ /g,''))>-1)&&n<8;x.hidden=!m;if(m)n++;});
+ul.hidden=n===0;});})();
+</script>
 {% endblock %}
