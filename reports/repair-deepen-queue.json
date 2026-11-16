@@ -204,7 +204,7 @@
    "clicks": 1,
    "words": 426,
    "status": "todo",
-   "note": "2026-11-15: skipped, every 4G54-specific source failed to load (sigma-galant, mitsubishiforum, turbo-mopar, mightyram50, 4x4community); retry next run"
+   "note": "2026-11-15: skipped, every 4G54-specific source failed to load (sigma-galant, mitsubishiforum, turbo-mopar, mightyram50, 4x4community); retry next run; 2026-11-16: retried, Pajero-specific sources still fail (tapatalk, mitsubishiforum, allpar, mitsubishi-forums robots); only a Chrysler-car 2.6 thread loaded. Park until a Pajero/Montero source is reachable."
   },
   {
    "path": "nissan-patrol/y62/front-inner-cv-boot",
@@ -212,7 +212,7 @@
    "clicks": 1,
    "words": 327,
    "status": "todo",
-   "note": "2026-11-15: skipped, only one Y62-specific source found (Patrolapart kit page); look for Armada/Y62 forum threads next run"
+   "note": "2026-11-15: skipped, only one Y62-specific source found (Patrolapart kit page); look for Armada/Y62 forum threads next run; 2026-11-16: retried, still no Y62/Armada-specific source; parked."
   },
   {
    "path": "land-cruiser/70-series/make-the-air-conditioning-work",
@@ -241,36 +241,41 @@
    "path": "4runner/5th-gen/propeller-shaft-greasing",
    "impressions": 6,
    "clicks": 0,
-   "words": 364,
-   "status": "todo"
+   "words": 749,
+   "status": "done",
+   "done": "2026-11-16"
   },
   {
    "path": "4runner/5th-gen/rear-hatch-window-won-t-close",
    "impressions": 6,
    "clicks": 0,
-   "words": 361,
-   "status": "todo"
+   "words": 689,
+   "status": "done",
+   "done": "2026-11-16"
   },
   {
    "path": "4runner/3rd-gen/lower-ball-joint-replacement",
    "impressions": 6,
    "clicks": 0,
-   "words": 444,
-   "status": "todo"
+   "words": 781,
+   "status": "done",
+   "done": "2026-11-16"
   },
   {
    "path": "nissan-patrol/y60/front-wheel-bearing-service",
    "impressions": 6,
    "clicks": 0,
-   "words": 438,
-   "status": "todo"
+   "words": 809,
+   "status": "done",
+   "done": "2026-11-16"
   },
   {
    "path": "range-rover/l322/bmw-m62-timing-chain-guides",
    "impressions": 6,
    "clicks": 0,
-   "words": 433,
-   "status": "todo"
+   "words": 839,
+   "status": "done",
+   "done": "2026-11-16"
   },
   {
    "path": "suzuki/jimny-jb74/diagnose-steering-wobble",

@@ -343,7 +343,7 @@
         "time": "≈ 2–3 hours per side",
         "cost": "Parts plus labor",
         "symptoms": "Rumble or growl that changes with speed, play at the wheel, or bearing grease slung onto the brake parts. It's also due whenever you rebuild the swivels.",
-        "fix": "Following a NissanPatrol.com.au how-to: support the front on stands and remove the wheel. Take off the free-wheeling hub, the CV circlip, the hub internals and the 'egg ring'. Unbolt the caliper and rest it on the swivel. Flatten the locking plate, undo the outer 54 mm bearing nut, remove the plate and the second 54 mm nut, then slide the hub and rotor off. Punch out the pressed-in races, remove the rear seal and bearings, then fit the new races, bearings and seal. Adjust bearing preload to the manual before locking the nuts. Don't rest the axle on the new seal during reassembly.",
+        "fix": "Following a NissanPatrol.com.au how-to: support the front on stands and remove the wheel. Take off the free-wheeling hub, the CV circlip, the hub internals and the 'egg ring'. Unbolt the caliper and rest it on the swivel. Flatten the locking plate, undo the outer 54 mm bearing nut, remove the plate and the second nut, then slide the hub and rotor off. Punch out the old races, remove the rear seal and bearings, clean the hub and spindle, and fit the new races, bearings (packed with a quality wheel-bearing grease) and seal. Set the preload per the workshop manual, rotating the hub as you tighten so the bearings seat, then fit the lock plate and outer nut and bend the tabs. Don't rest the axle on the new seal during reassembly. Clean and re-grease the free-wheeling hub before you refit it, then check for play and heat after a short drive.",
         "tools": "54 mm hub-nut socket (the only special tool) · punch and hammer · seal driver · high-temperature bearing grease · brake cleaner. Some owners fit the later GU-style hub nut system in place of the GQ lock nut.",
         "parts": [
           {
@@ -360,6 +360,32 @@
             "name": "Free-wheeling hub lock tab for wheel bearings, GQ / Maverick",
             "supplier": "Patrolapart",
             "url": "https://patrolapart.com.au/product/free-wheeling-hub-lock-tab-for-wheel-bearings-nissan-patrol-gq-ford-maverick"
+          }
+        ],
+        "know": [
+          "Check for play before you strip anything: jack the wheel up and rock the tyre at the top and bottom. If one side has play, check the other too (NissanPatrol.com.au).",
+          "Owners on NissanPatrol.com.au advise doing both sides at once, and checking the inner axle seals and swivels (kingpins) while the hub is apart.",
+          "Neglect gets expensive. One owner found the old grease thin and broken down, and another said ignoring the hubs cost him over a thousand dollars in stub axles and towing.",
+          "Owners disagree on how tight to set the bearings. The method one ExplorOz owner gives as correct is to seat the bearing with high torque (about 200 Nm) while turning the hub, then back right off and re-tension to a light setting before locking. Others just take out the end float. Use the factory workshop manual's figure.",
+          "The hub nut has six holes around the edge, so you need a pin-type tool (Nissan sells one) rather than a normal socket."
+        ],
+        "mistakes": [
+          "Doing one side only.",
+          "Over-tightening the bearings, or leaving end float. Use the manual's procedure, not a guess.",
+          "Tapping the seal in by its rubber lip; on the GQ the lip sits proud of the metal case.",
+          "Cheap no-name bearing and seal kits. An owner reported his eBay kit's seals leaked soon after.",
+          "Mistaking a dragging brake caliper for a hot bearing. A sticky caliper slide also makes the hub run hot.",
+          "Using marine grease and assuming it lasts the long service interval; owners disagree on whether it suits wheel bearings."
+        ],
+        "cost_note": "A quality bearing and seal kit per side, plus grease and a hub-nut tool (Nissan's was about $123 years ago, per an ExplorOz owner). A full swivel kit from Online Auto Parts was quoted at about AU$199 on NissanPatrol.com.au. Genuine inner axle seals run about $20 each.",
+        "refs": [
+          {
+            "name": "ExplorOz: Patrol GQ front wheel bearings",
+            "url": "https://www.exploroz.com/forum/2747/patrol-gq-fwb"
+          },
+          {
+            "name": "NissanPatrol.com.au: GQ front wheel bearings",
+            "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-15045.html?pda=1"
           }
         ]
       },
