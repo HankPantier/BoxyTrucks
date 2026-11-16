@@ -81,3 +81,8 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 |---|---|---|---|
 | Nov 5, 2026 | Field Note: Jeep Scrambler IFS (DfSXfOAHET8) | @dowlat21: "Very informative and cool account." | Replied (from @boxytrucks): thanks, check out the full site at boxytrucks.com |
 | Nov 6, 2026 | From Hank's garage (DfXcx8xHFCd) | @cwilsun: wishes he still had his 1963 Willys CJ3B, sold for tuition | Replied (from @boxytrucks): tuition is a good reason but a hard one to let go; great truck to remember, thanks for sharing |
+
+## 2026-11-15
+- Years Short Bronco 6th gen: YouTube https://youtube.com/shorts/A6jidU-VH1M (comment pinned), IG https://www.instagram.com/boxytrucks/reel/DfyLcHfOKzj/, Pinterest https://www.pinterest.com/pin/1128292512946354750/
+- Tire Short Scout II: YouTube https://youtube.com/shorts/RKfoK9GvBPQ (comment pinned), IG https://www.instagram.com/boxytrucks/reel/DfyMZPIuVx-/, Pinterest https://www.pinterest.com/pin/1128292512946355240/
+- Pins: GX470 problems, Jimny JB23 tires, H2 tires, Pajero gen1 problems, Delica Space Gear tires, Trooper 2 problems (plates blurred first on JB23, H2, Pajero, Trooper)
