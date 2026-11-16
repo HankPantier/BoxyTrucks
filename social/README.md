@@ -90,3 +90,4 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 
 ## 2026-11-16
 - IG n=21 Wrangler JL "Be careful with a 2018" (front plate blurred in site/img/jeep/jl-johnson-valley-boulders.jpg first; queued JL tire Short and JL pins cleared to re-render): https://www.instagram.com/boxytrucks/p/Dfz46Hzm1ut/ · Pinterest https://www.pinterest.com/pin/1128292512946400067/
+- Years Short LR3 (readable UK plates blurred in 3 source photos first; the queued LR3 tire Short, tires/problems pins and spec sheet were cleared to re-render): YouTube https://youtube.com/shorts/sQ8T2CW3_K8 (comment pinned), IG https://www.instagram.com/boxytrucks/reel/Dfz6swDu-JP/, Pinterest https://www.pinterest.com/pin/1128292512946401302/
