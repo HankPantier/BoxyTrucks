@@ -86,3 +86,4 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 - Years Short Bronco 6th gen: YouTube https://youtube.com/shorts/A6jidU-VH1M (comment pinned), IG https://www.instagram.com/boxytrucks/reel/DfyLcHfOKzj/, Pinterest https://www.pinterest.com/pin/1128292512946354750/
 - Tire Short Scout II: YouTube https://youtube.com/shorts/RKfoK9GvBPQ (comment pinned), IG https://www.instagram.com/boxytrucks/reel/DfyMZPIuVx-/, Pinterest https://www.pinterest.com/pin/1128292512946355240/
 - Pins: GX470 problems, Jimny JB23 tires, H2 tires, Pajero gen1 problems, Delica Space Gear tires, Trooper 2 problems (plates blurred first on JB23, H2, Pajero, Trooper)
+- IG carousel n=20 "33s with no lift" (plates on LC80, Bronco and 4Runner slides blurred, re-rendered): https://www.instagram.com/boxytrucks/p/DfyNo1onIvx/ · Pinterest slide 1 → /tires/: https://www.pinterest.com/pin/1128292512946355731/
