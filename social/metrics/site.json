@@ -246,5 +246,189 @@
   "value": 1,
   "period": "Nov 2–8",
   "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "search_clicks",
+  "label": "Search clicks",
+  "value": 94,
+  "period": "Nov 8–14",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "search_impressions",
+  "label": "Search impressions",
+  "value": 6940,
+  "period": "Nov 8–14",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "search_position",
+  "label": "Average position",
+  "value": 12.2,
+  "period": "Nov 8–14",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "pages_indexed",
+  "label": "Pages indexed",
+  "value": 1310,
+  "period": "as of Nov 16 (shown as 1.31K)",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "page_views",
+  "label": "Page views",
+  "value": 342,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "users",
+  "label": "Users",
+  "value": 212,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_instagram",
+  "label": "Sessions from Instagram",
+  "value": 13,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_x",
+  "label": "Sessions from X (t.co)",
+  "value": 6,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_pinterest",
+  "label": "Sessions from Pinterest",
+  "value": 0,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_youtube",
+  "label": "Sessions from YouTube",
+  "value": 2,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_tiktok",
+  "label": "Sessions from TikTok",
+  "value": 0,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_reddit",
+  "label": "Sessions from Reddit",
+  "value": 0,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_google",
+  "label": "Sessions from Google",
+  "value": 85,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "sessions_chatgpt",
+  "label": "Sessions from ChatGPT",
+  "value": 47,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "affiliate_clicks",
+  "label": "Affiliate clicks",
+  "value": 7,
+  "period": "Nov 9–15 (3 users)",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "newsletter_signups",
+  "label": "Newsletter sign-ups",
+  "value": 0,
+  "period": "Nov 9–15 (event not fired)",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "deal_clicks",
+  "label": "Deal clicks",
+  "value": 0,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "deal_code_copies",
+  "label": "Deal code copies",
+  "value": 0,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "form_submits",
+  "label": "Form submits",
+  "value": 0,
+  "period": "Nov 9–15 (5 form_start, 1 rig_submission)",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /repairs/range-rover/l405/5-0-supercharged-cooling-pipe-and-water-pump-refresh/",
+  "value": 3,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/grenadier/",
+  "value": 2,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/range-rover/classic/tires/",
+  "value": 1,
+  "period": "Nov 9–15",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-16",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /repairs/range-rover/l405/supercharger-coupler-isolator/",
+  "value": 1,
+  "period": "Nov 9–15",
+  "source": "GA4"
  }
 ]

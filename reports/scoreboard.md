@@ -8,6 +8,7 @@ Weekly progress toward a viable side hustle (Hank, Nov 3, 2026), judged on views
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Nov 2 (baseline) | 9 (Oct 22–31) | 375 | 14.9 | 73 | 611 (launch to Nov 2) | — | — | 23 | 1 | 0 | 0 | 0 | 1,411 |
 | Nov 9 | 50 (Nov 1–7) | 3,180 | 14.0 | 784 | 310 (Nov 2–8) | 176 | 11 | 43 | 1 | 0 | 1 | 1 | 5,651 |
+| Nov 16 | 94 (Nov 8–14) | 6,940 | 12.2 | ~1,310 | 342 (Nov 9–15) | 212 | 7 | 53 | 0 | 0 | 4 | 1 | 13,964 |
 
 ## Nov 9, 2026
 
@@ -37,3 +38,32 @@ Weekly progress toward a viable side hustle (Hank, Nov 3, 2026), judged on views
 **Mix change for next week:** Post more "biggest tire" Shorts (target 5, up from 4) and keep one "From Hank's garage" personal carousel. Drop the standalone question/poll singles (desert crossing 13 views, Wrangler or Bronco 38, Defender vs Grenadier vs G-Class 38) and the deal-code videos (TikTok 0). Why: fit/tires Shorts average 452 YouTube views vs 223 for buying-checklist Shorts, and singles average 43 IG views vs 78–81 for carousels and Reels. 4 tire Shorts and 3 garage/community posts back this, so it meets the 3-post bar.
 
 Notes: ChatGPT referrals (67 sessions, 5 key events) now beat Google, so the AI-visibility work is paying off. Pinterest still has no per-pin numbers (it needs a business account, Hank's call). Two old dashboard assets (the previous posts.json and followers.json) couldn't be deleted this run; nothing references them.
+
+## Nov 16, 2026
+
+**Site (Search Console Nov 8–14; GA4 Nov 9–15)**
+- Search: **94 clicks** (was 50, +88%), **6,940 impressions** (was 3,180, +118%), average position **12.2** (was 14.0), CTR 1.4%. Pages indexed: **~1,310** (Search Console shows 1.31K; was 784). Not indexed: 102 (75 "Discovered – not indexed", 14 "Crawled – not indexed", 7 canonical alternates, 3 noindex, 3 redirects).
+- Top queries: clicks are spread thin (lada niva generations, dodge 88, fluid capacities, wrangler ifs, jimny 2006, 88650-60g20: 1 click each). Biggest impressions without clicks: **boxy suvs 145**, g wagon years to avoid 16, k5 blazer 12.
+- GA4: **342 views** (was 310, +10%), **212 users** (was 176, +20%), 242 sessions, 42% engaged.
+- Sessions by source: google 85 (was 58), direct 81, chatgpt.com 47 (was 67), Instagram 13 (was 7), X/t.co 6 (was 20), Facebook 6, **YouTube 2 (first ever; 4m18s average, 1 key event)**, Gemini 1, TikTok 0, Pinterest 0, Reddit 0.
+- Key events: affiliate_click **7** (was 11; only 3 users), newsletter_signup 0, deal_click 0, deal_code_copy 0, form_submit 0 (5 form_start, 1 rig_submission), sponsor_click not present.
+- Affiliate clicks by page: Range Rover L405 5.0 supercharged cooling pipe + water pump refresh 3, /models/grenadier/ 2, Range Rover Classic tires 1, L405 supercharger coupler isolator 1. Repair pages produced 4 of 7 clicks again (5 of 11 last week); nothing from /deals/ or the gift guide.
+
+**Followers:** Instagram 53 (+10), X 0 (−1), Pinterest 0 (0; 728 monthly views, was 63), YouTube 4 (+3), TikTok 1 (0).
+
+**Views by platform (cumulative, all tracked posts):** YouTube 7,899 (was 3,519), Instagram 4,553 (was 1,110), TikTok 1,274 (was 917), X 238 (was 105). Total **13,964** (was 5,651). 79 new post rows this week (29 new posts across platforms, plus the 4th Gen and Defender checks Reels on Instagram/X). TikTok had no new posts after Nov 10 (paused after the silent upload drops).
+
+**Top 3 by views (single platform):** 80 Series tire Short on YouTube 866; **Hank's G 500 oil filter housing fix Reel on Instagram 735** (6× the 113 average of our other Reels); 3rd Gen 4Runner tire Short on YouTube 561.
+**Top 3 across platforms:** 80 Series tires 1,045; Hank's G 500 oil housing fix 882 (in 3 days); 3rd Gen 4Runner tires 787. Next: From Hank's garage 642, Hank's G 500 fall drive 618.
+**Bottom 3:** 33s with no lift carousel 15 (posted Nov 15, one day old); Spec sheet G 500 22; Bronco best-year single 22 (also: Defender/Grenadier/G-Class stack 25, GX 470 vs LC 100 carousel 28).
+
+**Top 3 by site visits** (Instagram profile visits + link taps, since there is no per-post attribution): From Hank's garage 9 profile visits (204 views, 2 shares); **Reader rig Clifford 3 profile visits + 2 follows** (172 views, 16 likes, the most likes of any post); Which G 500 to buy, Jeep IFS Field Note, Show us your rig, Eurowise code and Lexus best years 1–2 each. Platform level: Google 85 and ChatGPT 47 sessions still dwarf all social (21 sessions combined from IG, X, YouTube).
+**Bottom 3 by site visits:** all 17 Instagram tire/years Reels (1,869 views, 0 profile visits); TikTok (1,274 views lifetime, 0 sessions); X (238 views on 42 posts, sessions fell from 20 to 6).
+
+- **What worked:** Hank's own truck on video. The oil-housing fix Reel hit 735 IG views (our other Reels average 113) and the fall-drive Short 445 on YouTube; the 3 Hank video posts average 714 views across platforms vs 405 for the 11 tire Shorts. Real-reader content works too: the Clifford rig carousel got 172 views, 16 likes and 2 follows, while our own carousels averaged 50. Search keeps compounding (clicks +88%, 1,310 pages indexed).
+- **What didn't:** Static posts and X. New singles/carousels (Bronco best year, spec sheet, stack, GX vs 100, 33s) got 15–53 IG views each; X averages under 6 views per post and lost its one follower; affiliate clicks fell to 7 from 3 users, and nothing came from /deals/ or deal codes. Tire Shorts still lead on YouTube (276 average) but newer ones are lower (Scout 40, Range Rover Classic 95).
+- **Most important this week:** Film 2–3 more "Hank fixes it" clips on his own trucks (G 500 / 4Runner) and send each one to the matching /repairs/ page with an affiliate parts link in the description and pinned comment. It's the format that gets the most views, and repair pages are where the affiliate clicks happen (4 of 7). Check next Monday: GA4 sessions from youtube.com and ig, and affiliate clicks on /repairs/.
+
+**Mix change for next week:** More Hank real-footage Reels/Shorts (target 3, up from 2; pillar fix, families g-class and 4runner) and one more reader rig; fewer static IG singles and stacks/spec sheets (move them to Pinterest only) and stop separate per-post X posts in favour of the daily roundup. Why: Hank videos average 714 views across platforms over 3 posts vs 405 for tire Shorts and 47 for IG singles (11 posts) / 58 for carousels (13 posts), and X is under 6 views a post across 42 posts.
+
+Notes: the internal-traffic filter still can't be confirmed as Active from here, so direct (81 sessions, 17% engaged) may still include Hank's own visits. ChatGPT referrals dipped (67 → 47) while Google rose (58 → 85). Pinterest monthly views jumped to 728 but still no followers and no sessions; per-pin numbers need a business account (Hank's call). X followers read 0 on the profile today (was 1).
