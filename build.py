@@ -444,6 +444,46 @@ def _add_cab(o):
     return o
 
 
+def hank_videos():
+    """Hank's own posted videos keyed by the site page they link to ('repairs/.../' or 'models/.../').
+    Source: social/hank/*/posted.json (needs yt_url, link, video). Makes a 540x960 poster in site/img/hank-video/."""
+    import subprocess
+    out = {}
+    for fp in sorted((ROOT / 'social' / 'hank').glob('*/posted.json')):
+        x = jload(fp) or {}
+        m = re.search(r'(?:shorts/|v=|youtu\.be/)([A-Za-z0-9_-]{11})', x.get('yt_url', ''))
+        if not (m and x.get('link') and x.get('video')):
+            continue
+        yid, src = m.group(1), ROOT / x['video']
+        thumb = f"img/hank-video/{x['id']}.jpg"
+        tpath = ROOT / 'site' / thumb
+        dur = 0.0
+        if src.exists():
+            try:
+                dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(src)], capture_output=True, text=True).stdout.strip() or 0)
+            except Exception:
+                pass
+            if not tpath.exists():
+                tpath.parent.mkdir(parents=True, exist_ok=True)
+                subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-ss', str(x.get('thumb_at', 2)), '-i', str(src), '-frames:v', '1',
+                                '-vf', 'scale=540:960:force_original_aspect_ratio=increase,crop=540:960', '-q:v', '4', str(tpath)])
+        if not tpath.exists():
+            continue
+        secs = int(round(dur))
+        title = x.get('title') or "From Hank's garage"
+        link = x['link'].strip('/') + '/'
+        jl = {'@context': 'https://schema.org', '@type': 'VideoObject', 'name': title,
+              'description': x.get('description') or f"{title}. Filmed by Hank on his own truck for BoxyTrucks.",
+              'thumbnailUrl': [SITE_URL + thumb], 'uploadDate': (x.get('posted') or '2026-11-01') + 'T12:00:00-05:00',
+              'embedUrl': f'https://www.youtube.com/embed/{yid}', 'url': x['yt_url'],
+              'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}
+        if secs:
+            jl['duration'] = f'PT{secs // 60}M{secs % 60}S' if secs >= 60 else f'PT{secs}S'
+        out.setdefault(link, []).append({'yt_id': yid, 'url': x['yt_url'], 'title': title, 'thumb': thumb,
+                                         'alt': f"Video still: {title}", 'dur_label': f'{secs // 60}:{secs % 60:02d}' if secs else '', 'jsonld': jl})
+    return out
+
+
 def jload(p):
     try:
         return _add_cab(json.loads(Path(p).read_text()))
@@ -772,6 +812,7 @@ def main():
         env.globals['fname'] = fname
         env.globals['pg_fams'] = {'4runner','bronco','chevrolet','ramcharger','trooper','hummer','lexus','land-cruiser','jeep','g-class','range-rover','land-rover','suzuki'}  # Parts Geek (CJ) carries these US-market makes
         env.globals['OWNED_PHOTO'] = {'g-class/g500': ('g-class', 'hank-g500-front-woods.jpg', 'My 2007 G500.'), 'g-class/w463': ('g-class', 'hank-g500-front-woods.jpg', 'My 2007 G500.')}
+        env.globals['HANK_VIDEOS'] = hank_videos()
         env.globals['OWNED'] = {'land-cruiser/80-series': 'owned an 80 Series', 'g-class/g500': 'owns a 2007 G500', 'g-class/w463': 'owns a 2007 G500'}
         # "Watch on YouTube" CTA (Hank, Nov 6, 2026): link the truck's own posted Short when there is one, else the channel.
         _yt = {}

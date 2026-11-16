@@ -1,0 +1,11 @@
+{# Hank's own videos for this page (from social/hank/*/posted.json). Click-to-load YouTube facade + VideoObject schema. #}
+{% for v in vids or [] %}<figure class="hv">
+  <button type="button" class="hv-play" data-yt="{{ v.yt_id }}" aria-label="Play video: {{ v.title }}" data-track="hank-video">
+    <img src="{{ root }}{{ v.thumb }}" alt="{{ v.alt }}" width="540" height="960" loading="lazy">
+    <span class="hv-icon" aria-hidden="true"><svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.5 7.7c-.8-2.9-2.5-5.4-5.4-6.2C55.8.1 34 0 34 0S12.2.1 6.9 1.6c-3 .7-4.6 3.2-5.4 6.1C.1 13 0 24 0 24s.1 11 1.5 16.3c.8 2.9 2.5 5.4 5.4 6.2C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.6c3-.8 4.6-3.3 5.4-6.2C67.9 35 68 24 68 24s-.1-11-1.5-16.3z" fill="#B8913F"/><path d="M45 24 27 14v20" fill="#fff"/></svg></span>
+    <span class="hv-dur">{{ v.dur_label }}</span>
+  </button>
+  <figcaption>{{ v.title }} · <a class="inline-link" href="{{ v.url }}" target="_blank" rel="noopener">Watch on YouTube ↗</a></figcaption>
+</figure>
+<script type="application/ld+json">{{ v.jsonld|tojson }}</script>
+{% endfor %}{% if vids %}<script>document.querySelectorAll('.hv-play').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&playsinline=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.className='hv-frame';b.replaceWith(f);if(window.gtag)gtag('event','video_play',{video_id:b.dataset.yt});},{once:true});});</script>{% endif %}
