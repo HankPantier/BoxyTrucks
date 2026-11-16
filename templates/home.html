@@ -120,7 +120,7 @@
   <div class="grid" style="--min:240px">
     {% for f in fam_list[:6] %}{% set full = f.generations|selectattr('has_page')|list %}{% set g = full[0] if full else f.generations[0] %}
     <div class="sale"><span class="eyebrow brass">{{ f.maker }} · {{ g.years }}</span><span class="l">{{ mlabel(f.maker, g.name) }}</span>
-      <div class="links">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
+      <div class="links">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}{% if g.cab_url %}<a href="{{ g.cab_url }}" target="_blank" rel="noopener">Cars &amp; Bids ↗</a>{% endif %}</div>
     </div>{% endfor %}
   </div>
 </section>

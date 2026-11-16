@@ -191,7 +191,7 @@
         <div style="border-bottom:1px solid var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px"><span class="eyebrow">The one you’ll own someday</span><h2 style="font-size:34px">For sale now</h2></div>
         <div class="grid" style="--min:240px">{% for s in p.searches %}
           <div class="sale"><span class="eyebrow brass">{{ s.years }}</span><span class="l">{{ s.label }}</span>
-            <div class="links">{% if s.at_url %}<a href="{{ s.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if s.bat_url %}<a href="{{ s.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}</div>
+            <div class="links">{% if s.at_url %}<a href="{{ s.at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}{% if s.bat_url %}<a href="{{ s.bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}{% if s.cab_url %}<a href="{{ s.cab_url }}" target="_blank" rel="noopener">Cars &amp; Bids ↗</a>{% endif %}</div>
           </div>{% endfor %}</div>
       </section>
       {% endif %}
@@ -325,9 +325,10 @@
       {% if p.searches %}
       <div class="find">
         <span class="eyebrow brass">Find one</span>
-        <span class="serif">Every {{ p.title }} listed across the major marketplaces — plus Bring a Trailer auctions and results.</span>
+        <span class="serif">Every {{ p.title }} listed across the major marketplaces — plus Bring a Trailer and Cars &amp; Bids auctions and results.</span>
         {% if p.searches[0].at_url %}<a class="btn light" style="text-align:center" href="{{ p.searches[0].at_url }}" target="_blank" rel="noopener">AutoTempest ↗</a>{% endif %}
         {% if p.searches[0].bat_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ p.searches[0].bat_url }}" target="_blank" rel="noopener">Bring a Trailer ↗</a>{% endif %}
+        {% if p.searches[0].cab_url %}<a class="btn ghost-brass" style="text-align:center" href="{{ p.searches[0].cab_url }}" target="_blank" rel="noopener">Cars &amp; Bids ↗</a>{% endif %}
       </div>
       {% endif %}
       {% set sp = sponsor_for(fam.slug, g.slug if g is defined else None) %}{% include "_sponsor.html" %}

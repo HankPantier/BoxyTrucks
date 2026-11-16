@@ -393,9 +393,60 @@ def mlabel(maker, title):
     return title if str(title).lower().startswith(maker.lower()) else f'{maker} {title}'
 
 
+_CAB_MAKE = {'mercedesbenz': 'Mercedes-Benz', 'landrover': 'Land Rover', 'gmc': 'GMC', 'ineos': 'Ineos'}
+_CAB_MODEL = {'k5blazer': 'K5 Blazer', 'broncoii': 'Bronco II', 'h2sut': 'H2 SUT', 'scoutii': 'Scout II', 'trooperii': 'Trooper',
+              'cj5': 'CJ-5', 'cj7': 'CJ-7', 'cj8': 'CJ-8', 'grandcherokee': 'Grand Cherokee', 'grandwagoneer': 'Grand Wagoneer',
+              'grandwagoneerl': 'Grand Wagoneer L', 'wranglerunlimited': 'Wrangler Unlimited', 'defender110': 'Defender 110',
+              'defender130': 'Defender 130', 'defender90': 'Defender 90', 'rangerover': 'Range Rover', 'lr3': 'LR3', 'lr4': 'LR4',
+              'seriesi': 'Series I', 'seriesii': 'Series II', 'seriesiii': 'Series III', 'gx460': 'GX 460', 'gx470': 'GX 470',
+              'gx550': 'GX 550', 'lx450': 'LX 450', 'lx470': 'LX 470', 'lx570': 'LX 570', 'lx600': 'LX 600', 'gclass': 'G-Class',
+              'fjcruiser': 'FJ Cruiser', 'landcruiser': 'Land Cruiser', 'slx': 'SLX', 'h1': 'H1', 'h2': 'H2', '4runner': '4Runner'}
+_CAB_KEYWORD = {'g63': 'G63', '4x4': 'G550 4x4', '6x6': 'G63 6x6'}
+CAB_FIRST_YEAR = 1981  # Cars & Bids only lists 1981-and-newer cars
+
+
+def cab_url(at_url):
+    """Cars & Bids search (live auctions + past results) built from a generation's AutoTempest link."""
+    import urllib.parse as up
+    q = dict(up.parse_qsl(up.urlparse(at_url or '').query))
+    make, model, kw = q.get('make'), q.get('model'), q.get('keywords')
+    lo, hi = q.get('minyear'), q.get('maxyear')
+    if not (make or kw) or model == 'megacruiser' or (hi and int(hi) < CAB_FIRST_YEAR):
+        return None
+    words = [_CAB_MAKE.get(make, (make or '').title())]
+    if kw in _CAB_KEYWORD and model == 'gclass':
+        words = ['Mercedes', _CAB_KEYWORD[kw]]
+    elif model:
+        words.append(_CAB_MODEL.get(model, model.title()))
+    elif kw:
+        words.append(kw.title())
+    elif make == 'landrover':
+        words.append('Series')
+    params = {'q': ' '.join(w for w in words if w)}
+    if lo:
+        params['start_year'] = max(int(lo), CAB_FIRST_YEAR)
+    if hi:
+        params['end_year'] = hi
+    return 'https://carsandbids.com/search?' + up.urlencode(params)
+
+
+def _add_cab(o):
+    if isinstance(o, dict):
+        if o.get('at_url') and not o.get('cab_url'):
+            u = cab_url(o['at_url'])
+            if u:
+                o['cab_url'] = u
+        for v in o.values():
+            _add_cab(v)
+    elif isinstance(o, list):
+        for v in o:
+            _add_cab(v)
+    return o
+
+
 def jload(p):
     try:
-        return json.loads(Path(p).read_text())
+        return _add_cab(json.loads(Path(p).read_text()))
     except Exception as e:
         print('  ! could not read', p, e)
         return None
@@ -1130,7 +1181,7 @@ def main():
          'a': 'Nearly every repair, and every item in each guide\'s “After you buy it” service list, links to the parts you need at suppliers owners trust for that truck, usually with an Amazon search alongside. (Recall checks and a few dealer-only jobs have no parts links.) Use the part numbers, check fitment against your VIN, and when in doubt call the supplier.',
          'href': 'repairs/index.html', 'cta': 'BROWSE ALL REPAIRS'},
         {'model': 'BUYING', 'q': 'Can I buy a truck here?',
-         'a': 'No, we don\'t sell anything. Each guide to a truck you can buy links straight to live AutoTempest searches and Bring a Trailer listings for that generation, and the buying checks tell you what to look at before you hand over money.',
+         'a': 'No, we don\'t sell anything. Each guide to a truck you can buy links straight to live AutoTempest searches plus Bring a Trailer and Cars & Bids auctions for that generation, and the buying checks tell you what to look at before you hand over money.',
          'href': 'for-sale/index.html', 'cta': 'SEE WHAT\'S FOR SALE'},
         {'model': 'YOUR RIG', 'q': 'Can my truck be featured?',
          'a': 'Yes. Send your truck, the build list and your best off-pavement photos through Show Us Your Rig. The good ones become Featured Builds on the home page and their model page, always credited to you.',
@@ -1424,7 +1475,7 @@ def main():
         'checklists': ('Free printables', 'A model-specific checklist to take to the test drive, so nothing gets missed.'),
         'inspection': ('Before you pay', 'How a pre-purchase inspection works, what it should cover and the tools that help.'),
         'importing': ('25-year rule', 'Bringing a Defender, Land Cruiser or G-Wagen into the US: the rules, the paperwork and the traps.'),
-        'sale': ('Live listings', 'Boxy 4x4s for sale now, with links to AutoTempest and Bring a Trailer for every model.'),
+        'sale': ('Live listings', 'Boxy 4x4s for sale now, with links to AutoTempest, Bring a Trailer and Cars & Bids for every model.'),
         'repairs': ('804 guides', 'Step-by-step DIY repairs for the common failures on every truck: difficulty, time, tools and parts.'),
         'tires': ('Every truck', 'The biggest tire on a stock truck and at every lift height, with wheel specs and where to buy.'),
         'recalls': ('By VIN', 'Every safety recall for the trucks we cover, and how to check if yours was done.'),
@@ -1462,8 +1513,8 @@ def main():
            hub={'kind': 'mods', 'eyebrow': 'Mods & builders', 'title': 'Who builds them right', 'lead': 'Suspension, armor, racks, restorations and full builds — the suppliers and shops each platform’s owners actually trust.', 'groups': mod_groups, 'suppliers': suppliers, 'builders': BUILDERS})
     render('hub.html', 'resources/index.html', '../', crumbs=[('Resources', 'resources/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Resources', 'url': SITE_URL + 'resources/'}], active='resources', title='Resources — BoxyTrucks', description='The best YouTube channels, Instagram accounts, owner forums and reference sites for every boxy 4x4 we cover, sorted by model.', credits='',
            hub={'kind': 'resources', 'eyebrow': 'Resources', 'title': 'Channels, accounts, forums & references', 'lead': 'The YouTube channels, Instagram accounts, message boards and reference sources worth your time, filed by truck. Suggestions welcome.', 'groups': res_groups})
-    render('hub.html', 'for-sale/index.html', '../', crumbs=[('For sale', 'for-sale/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'For sale', 'url': SITE_URL + 'for-sale/'}], active='sale', title='For sale — BoxyTrucks', description='Find a boxy 4x4 for sale: ready-made AutoTempest and Bring a Trailer searches for every generation, from FJ40s to Grenadiers.', credits='',
-           hub={'kind': 'sale', 'eyebrow': 'The one you’ll own someday', 'title': 'For sale now', 'lead': 'Live AutoTempest searches across the major marketplaces, plus Bring a Trailer auctions and results, for every generation we cover.'})
+    render('hub.html', 'for-sale/index.html', '../', crumbs=[('For sale', 'for-sale/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'For sale', 'url': SITE_URL + 'for-sale/'}], active='sale', title='For sale — BoxyTrucks', description='Find a boxy 4x4 for sale: ready-made AutoTempest, Bring a Trailer and Cars & Bids searches for every generation, from FJ40s to Grenadiers.', credits='',
+           hub={'kind': 'sale', 'eyebrow': 'The one you’ll own someday', 'title': 'For sale now', 'lead': 'Live AutoTempest searches across the major marketplaces, plus Bring a Trailer and Cars & Bids auctions and results, for every generation we cover. (Cars & Bids lists 1981 and newer.)'})
     # keep old /watch/ URL working
     (SITE / 'watch').mkdir(exist_ok=True)
     (SITE / 'watch' / 'index.html').write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/resources/"><title>Resources — BoxyTrucks</title><a href="/resources/">Resources</a>')
@@ -1627,7 +1678,7 @@ def main():
                        ('Importing a 4x4 into the US', 'importing/index.html', 'import, 25-year rule, EPA exemption, duty, registration, JDM, legal'),
                        ('Mods & builders', 'mods/index.html', 'modifications, suppliers, builders, lift kits, armor, racks, restomods'),
                        ('Resources', 'resources/index.html', 'YouTube channels, Instagram accounts, forums, references'),
-                       ('For sale', 'for-sale/index.html', 'for sale, buy, AutoTempest, Bring a Trailer, listings, auctions'),
+                       ('For sale', 'for-sale/index.html', 'for sale, buy, AutoTempest, Bring a Trailer, Cars & Bids, listings, auctions'),
                        ('Show Us Your Rig', 'submit/index.html', 'submit your truck, build, photos, feature, corrections')]:
         add('Tool', _t, _u, 'BoxyTrucks', _x)
     for c in compares:
@@ -1728,7 +1779,7 @@ def main():
           f'- [TikTok @boxytrucks]({TIKTOK_URL}): short buying-guide videos',
           f'- [Mods & builders]({SITE_URL}mods/): suppliers and builders, by model',
           f'- [Resources]({SITE_URL}resources/): YouTube, Instagram, forums and references, by model',
-          f'- [For sale]({SITE_URL}for-sale/): AutoTempest and Bring a Trailer searches for every generation',
+          f'- [For sale]({SITE_URL}for-sale/): AutoTempest, Bring a Trailer and Cars & Bids searches for every generation',
           f'- [Disclaimer]({SITE_URL}about/disclaimer/)', f'- [Privacy]({SITE_URL}about/privacy/)',
           f'- [Affiliate disclosure]({SITE_URL}about/affiliate-disclosure/)', '']
     (SITE / 'llms.txt').write_text('\n'.join(L))

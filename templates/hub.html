@@ -91,8 +91,8 @@
   {% for f in fam_list %}
   <section id="{{ f.slug }}" style="margin-bottom:48px;scroll-margin-top:96px">
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">{{ mlabel(f.maker, f.name) }}</span><h2>{{ f.short }}</h2></div></div>
-    <div class="table-box"><table style="min-width:600px"><thead><tr><th>GENERATION</th><th>YEARS</th><th>AUTOTEMPEST</th><th>BRING A TRAILER</th></tr></thead><tbody>
-      {% for g in f.generations %}<tr><td data-l="GENERATION"><a href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a></td><td class="mono" data-l="YEARS">{{ g.years }}</td><td data-l="AUTOTEMPEST">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">Search ↗</a>{% endif %}</td><td data-l="BRING A TRAILER">{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td></tr>{% endfor %}
+    <div class="table-box"><table style="min-width:720px"><thead><tr><th>GENERATION</th><th>YEARS</th><th>AUTOTEMPEST</th><th>BRING A TRAILER</th><th>CARS &amp; BIDS</th></tr></thead><tbody>
+      {% for g in f.generations %}<tr><td data-l="GENERATION"><a href="{{ root }}models/{{ f.slug }}/{{ g.slug }}.html">{{ g.name }}</a></td><td class="mono" data-l="YEARS">{{ g.years }}</td><td data-l="AUTOTEMPEST">{% if g.at_url %}<a href="{{ g.at_url }}" target="_blank" rel="noopener">Search ↗</a>{% endif %}</td><td data-l="BRING A TRAILER">{% if g.bat_url %}<a href="{{ g.bat_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td><td data-l="CARS &amp; BIDS">{% if g.cab_url %}<a href="{{ g.cab_url }}" target="_blank" rel="noopener">Auctions &amp; results ↗</a>{% endif %}</td></tr>{% endfor %}
     </tbody></table></div>
   </section>
   {% endfor %}
