@@ -332,7 +332,7 @@
    "time": "≈ 30 minutes to an hour",
    "cost": "Free under warranty; a battery if it's weak",
    "symptoms": "A blank or unresponsive 10.1- or 12-inch center screen, a rear camera that doesn't show, Wi-Fi or remote functions dead, or warning messages after a short drive.",
-   "fix": "Check the battery first, because low voltage causes all kinds of module faults. Test it, then clean and tighten the terminals. Next, look for over-the-air radio updates in Uconnect settings. FCA also has a bulletin on how to install them. Bulletins for dealer flashes include TSB 08-039-22 for blank center screens, which FCA says must be done before the display is replaced, plus 08-202-22 for the power-steering module and 08-173-21 for the telematics box. Several camera faults are recalls rather than TSBs, so run the VIN.",
+   "fix": "Test the battery first and charge it fully. Clean and tighten both terminals. Note exactly which screen is dead: the center radio, the front passenger screen or the rear camera. Check Uconnect settings for an over-the-air update and install it with the engine running. Run the VIN at nhtsa.gov/recalls and at the Mopar owner site for open recalls. If the radio is still blank, ask the dealer to check the software level against bulletin 08-039-22 for the center screen or 08-204-22 for the passenger screen. Have the dealer keep a charger on the battery during any flash. Only consider a new display after the software is current and the battery tests good.",
    "tools": "Battery tester · terminal brush · a USB drive if an update calls for one",
    "parts": [
     {
@@ -344,6 +344,34 @@
      "name": "Battery, 2022 Wagoneer 5.7",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/jeep,2022,wagoneer,5.7l+v8,3450762,electrical,battery,2476"
+    }
+   ],
+   "know": [
+    "Low battery voltage is a known trigger. FCA bulletin 08-204-22 covers 2022 Wagoneer and Grand Wagoneer front passenger screens that stop working when the battery is low during cranking, and its repair calls for a battery charger holding 13.2–13.5 volts during the flash.",
+    "Bulletin 08-039-22 (Radio Enhancements, Rev. B) covers 2022 Wagoneer and Grand Wagoneer built on or before May 24, 2022. It lists a black or blank radio screen, radio lockups, navigation failures and wireless disconnects, and its fix is a software update to S24.18 from a USB drive. The rear camera usually still works with this fault.",
+    "The dealer update is a short job: FCA allows 0.5 hours to inspect the software level and update it.",
+    "Several camera and display faults on these trucks are recalls rather than bulletins, and recalls are free regardless of warranty, so run the VIN at NHTSA before paying for anything."
+   ],
+   "mistakes": [
+    "Replacing a screen before checking the battery and the software level.",
+    "Flashing a module on a weak battery. FCA's own procedure keeps a charger on the battery, and an interrupted flash can fail.",
+    "Plugging other USB devices in during a dealer update. The bulletin warns this may mean the radio needs replacing.",
+    "Paying for a fix that a recall covers for free.",
+    "Assuming one screen fault covers them all: the center radio, the passenger screen and the camera have different bulletins."
+   ],
+   "cost_note": "Bulletin and recall work is free under warranty, and FCA's labor allowance for the radio update is 0.5 hours, so out of warranty you'd pay roughly half an hour of dealer labor. A replacement battery is the main parts cost (see the parts list below for your engine).",
+   "refs": [
+    {
+     "name": "NHTSA: FCA bulletin 08-039-22 Rev. B, Radio Enhancements",
+     "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10229557-9999.pdf"
+    },
+    {
+     "name": "NHTSA: FCA bulletin 08-204-22, Front Passenger Display Module update",
+     "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10230535-9999.pdf"
+    },
+    {
+     "name": "CarComplaints: 2022 Wagoneer TSB 08-039-22",
+     "url": "https://www.carcomplaints.com/Jeep/Wagoneer/2022/tsbs/tsb-0803922revb.shtml"
     }
    ]
   },

@@ -197,7 +197,7 @@
    "time": "≈ 2–3 hours plus an alignment check",
    "cost": "JLWranglerForums members report dealer quotes of $1,500+ out of warranty",
    "symptoms": "Light, vague, loose steering and wandering on the highway, sometimes with play you can see at the pitman arm. One owner described it as 'super light, vague and loose' at nearly 100,000 miles.",
-   "fix": "Early JLs used an aluminum steering gear, and Quadratec says Jeep moved to cast-iron boxes. Owners on JLWranglerForums cite TSB 08-074-20 for the swap (we couldn't see the bulletin itself), who also note it won't cure death wobble by itself. DIY: disconnect the battery, mark and remove the pitman arm with a puller, unbolt the intermediate shaft, disconnect the pressure and return lines (catch the fluid), then unbolt the box from the frame. Fit the new box with new bolts, refill and bleed the system with the specified fluid, and center the steering wheel.",
+   "fix": "Check first: with the engine running, have a helper rock the steering wheel while you watch the pitman arm and the input shaft for play, and inspect the tie rod, drag link and track bar so you don't replace the box for a linkage fault. Disconnect the battery. Mark the pitman arm's position on the sector shaft and pull it off with a puller. Mark and unbolt the intermediate shaft. Disconnect the pressure and return lines and catch the fluid. Unbolt the box from the frame. Fit the new gear with new frame bolts and a new intermediate-shaft pinch bolt, as the bulletin specifies. Reconnect the lines and the pitman arm with the wheel centered. Refill with the electric-pump fluid the bulletin lists and bleed the system by turning lock to lock. Have a dealer check that the electric power-steering pump software is current, and run the vehicle configuration step the bulletin describes. Finish with an alignment check and a test drive.",
    "tools": "Pitman-arm puller · line wrenches · large sockets · torque wrench · drain pan · power steering fluid.",
    "parts": [
     {
@@ -214,6 +214,32 @@
      "name": "JL steering linkage",
      "supplier": "ExtremeTerrain",
      "url": "https://www.extremeterrain.com/wrangler-jeep-jl-steering-linkage-ball.html"
+    }
+   ],
+   "know": [
+    "TSB 08-074-20 Rev. B, \"Improved Steering Feel\" (September 2020), covers 2018–2020 Wrangler JL and 2020 Gladiator JT. Its symptoms are wander, a pull to one side that's worse in hot weather, and excess steering play.",
+    "The bulletin replaces the steering gear and the frame and I-shaft pinch bolts and updates the electric hydraulic power steering software. It says it does not fix a sustained shake or shimmy, so it isn't a death-wobble cure.",
+    "The gear differs by body: the bulletin lists 68507569AA for four-door JLs (14.2:1, not for the 3.0 diesel), 68507571AA for two-doors (16.14:1) and 68507576AA for the Gladiator. Make sure the right one goes in.",
+    "FCA's labor allowance is 1.9 hours.",
+    "One JLWranglerForums owner says a dealer refused the work on a lifted JL until it was returned to stock, so expect pushback on modified trucks."
+   ],
+   "mistakes": [
+    "Replacing the box before checking tie rods, the drag link and the track bar.",
+    "Reusing the old frame bolts or I-shaft pinch bolt when the bulletin calls for new ones.",
+    "Fitting the gear for the wrong body or engine.",
+    "Skipping the steering-pump software update and configuration step.",
+    "Expecting the new gear to cure death wobble, which the bulletin says it won't.",
+    "Not centering the wheel and checking alignment afterwards."
+   ],
+   "cost_note": "Under warranty it's covered. Out of warranty, JLWranglerForums members report dealer quotes of $1,500 or more; FCA allows 1.9 hours of labor, so the gear itself is most of the bill. Doing it yourself saves the labor but still needs a dealer for the software step.",
+   "refs": [
+    {
+     "name": "NHTSA: FCA TSB 08-074-20 Rev. B, Improved Steering Feel",
+     "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10181634-9999.pdf"
+    },
+    {
+     "name": "JLWranglerForums: steering issues cured by new steering gear per TSB 08-074-20",
+     "url": "https://www.jlwranglerforums.com/forum/threads/steering-issues-cured-by-installing-new-steering-gear-box-per-tsb-08-074-20.56822/post-1234523"
     }
    ]
   },

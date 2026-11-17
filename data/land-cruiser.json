@@ -545,7 +545,7 @@
     "time": "≈ 1–2 hours",
     "cost": "Seals from a parts store",
     "symptoms": "Power-steering fluid weeping around the top of the system. It's often blamed on hoses or the pump, but Unsealed 4X4 says the usual culprit is the rubber seals inside the reservoir.",
-    "fix": "Remove the reservoir, carefully pry open the crimped lip, replace the internal rubber seals and re-crimp the top. Refill with Toyota-spec fluid and bleed by turning lock to lock with the engine running. Only replace hoses or rebuild the pump if the leak comes back.",
+    "fix": "Confirm the leak is at the reservoir: clean it, run the engine, turn the wheel and watch the shoulder and bottom seam. Put a drip pan and towels underneath. Remove fluid from the reservoir with a syringe or turkey baster. Disconnect the hoses and remove the reservoir. Carefully pry open the crimped top, pull and clean the screen, and replace the internal rubber seal or gasket. Owners who reseal theirs apply RTV to the gasket, press the top back on in a vise and bend the tabs over. Fit new low-pressure hoses while it's apart if yours are old; warming a stiff hose end with a hair dryer helps it slide on. Refill with the specified fluid. Jack up the front and turn the wheels lock to lock several times to bleed out the air. Check for leaks again after a drive.",
     "tools": "Basic hand tools · small pry tool and crimping pliers · replacement reservoir seals · power-steering fluid.",
     "parts": [
      {
@@ -562,6 +562,30 @@
       "name": "Power steering gear seal kit, FJ80/FZJ80/LX450 1990–97",
       "supplier": "Cruiser Corps",
       "url": "https://www.cruisercorps.com/products/power-steering-gear-seal-kit-fj80-fzj80-lx450-1990-1997"
+     }
+    ],
+    "know": [
+     "Unsealed 4X4 says most 80 Series power-steering leaks are simply the reservoir, and owners often replace hoses and rebuild parts first before finding it.",
+     "On IH8MUD, owners report leaks at the reservoir's shoulder and at its bottom seam, which can look like a hose leak.",
+     "Diesel and petrol 80s use different reservoirs, so confirm the part number for your engine before ordering one.",
+     "The wrong fluid may damage the internal seal, so refill with the fluid your manual specifies."
+    ],
+    "mistakes": [
+     "Replacing hoses, the pump or the steering box before checking the reservoir.",
+     "Ordering a reservoir without confirming the diesel or petrol part number.",
+     "Mistaking a bottom-seam leak for a hose leak.",
+     "Using the wrong fluid, which can harm the seal.",
+     "Not bleeding the system after refilling."
+    ],
+    "cost_note": "Resealing costs a few dollars in seals or RTV from a parts store. One IH8MUD owner who replaced the whole reservoir with an unbranded part said it saved him about $100 over the Toyota part.",
+    "refs": [
+     {
+      "name": "Unsealed 4X4: Toyota LandCruiser 80 Series common problems and solutions",
+      "url": "https://unsealed4x4.com.au/toyota-landcruiser-80-series-common-problems-solutions/"
+     },
+     {
+      "name": "IH8MUD: 80 series power steering reservoir leak repair",
+      "url": "https://forum.ih8mud.com/threads/80-series-power-steering-reservoir-leak-repair.1247285"
      }
     ]
    },

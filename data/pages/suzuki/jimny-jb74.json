@@ -160,7 +160,7 @@
       "time": "≈ Half a day per side for kingpins",
       "cost": "Parts plus labor",
       "symptoms": "A shaking steering wheel around 45–50 mph, play when a raised front wheel is rocked top to bottom with the brakes held, or oil and grease weeping from the swivel balls.",
-      "fix": "Follow BigJimny's death-wobble order. Check tire balance first, then rock each front wheel with an assistant holding the brakes: play that remains points to the kingpin bearings, play that disappears points to the wheel bearings. Check tie-rod ends, radius-arm bushes and the hub face behind the brake disc for rust. If the kingpins are worn, rebuild them with Koyo bearings, a new halfshaft seal and waterproof grease.",
+      "fix": "Check tyre pressures with a good gauge first. Get the wheels balanced, and clean rust off the hub face behind each disc so the wheel sits square. If it shakes mainly when braking, check the front discs. Jack up the front axle and put it on stands. Have an assistant hold the brakes and rock each wheel at 12 and 6 o'clock. Play that stays with the brakes on points to the kingpin bearings, and play that disappears points to the wheel bearings. Check the tie-rod and drag-link ends, the panhard rod bushes and the chassis-end radius arm bushes. If the kingpins are worn, replace the bearings with quality ones (BigJimny recommends Koyo), fit a new axle tube seal if oil has reached the swivel, and pack them with waterproof grease. Get an alignment check afterwards.",
       "tools": "Jack and stands · torque wrench · tie-rod end puller · bearing drift.",
       "parts": [
         {
@@ -172,6 +172,36 @@
           "name": "Waterproof Grease",
           "supplier": "BigJimny",
           "url": "https://bigjimny.com/store/jimny-gen3/parts-service/bearings-and-seals/waterproof-grease"
+        }
+      ],
+      "know": [
+        "BigJimny's wiki puts the Jimny's wobble in the 60–80 km/h (about 37–50 mph) range and calls worn kingpin bearings the most common cause. It says 95% of its death-wobble advice applies to the Gen 4.",
+        "If it mainly shakes under braking, suspect the front discs first. In India, Maruti's service bulletin for the current Jimny replaces the kingpin assembly and, if worn, the front discs for a wobble under braking around 80 km/h, and only on trucks on stock tyres.",
+        "Tyre pressures matter. The wiki suggests 1.6 bar (23 psi) front and 1.8 bar (26 psi) rear and says 2 bar is too stiff.",
+        "Jimny kingpin shims add preload (the opposite of the older SJ), so fresh bearings can be shimmed if the wobble comes back later.",
+        "A steering damper only masks the wobble; BigJimny says it doesn't fix the cause."
+      ],
+      "mistakes": [
+        "Fitting a steering damper and calling it fixed.",
+        "Skipping balance and tyre pressures and going straight to parts.",
+        "Leaving rust on the hub face, so the wheel never sits flat.",
+        "Assuming every wobble is kingpins when it only happens under braking (check the discs).",
+        "Using sealant on the kingpins themselves, which BigJimny warns against.",
+        "Running oversize tyres without rebalancing; Maruti only covers stock-tyre trucks under its bulletin."
+      ],
+      "cost_note": "In India, Autocar India reports Maruti's estimate for the bulletin repair at about Rs 2,020 for the kingpin assembly and Rs 4,400 for a disc, free under warranty. Elsewhere, kingpin bearings and seals are a modest parts cost; most of the bill is labor, about half a day per side.",
+      "refs": [
+        {
+          "name": "BigJimny wiki: Death Wobble",
+          "url": "https://bigjimny.com/mediawiki/index.php/Death_Wobble"
+        },
+        {
+          "name": "BigJimny forum: the death wobble thread",
+          "url": "https://www.bigjimny.com/forum/7-jimny-technical/51883-the-death-wobble-thread"
+        },
+        {
+          "name": "Autocar India: Maruti service bulletin for Jimny steering vibration",
+          "url": "https://www.autocarindia.com/car-news-amp/maruti-issues-service-bulletin-for-jimny-steering-vibration-issue-433866"
         }
       ]
     },
