@@ -96,3 +96,18 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 - Tire Short K5 Blazer 1st gen (posted early at Hank's request, 5 pm): YouTube https://youtube.com/shorts/Ivpw2zNYE40 (comment pinned), IG https://www.instagram.com/boxytrucks/reel/Df06xJlusQ6/, Pinterest https://www.pinterest.com/pin/1128292512946434324/
 - Nov 17: years Short Patrol Y62 / Armada: YT https://youtube.com/shorts/NmEr8ngO880 (pinned comment) · IG https://www.instagram.com/boxytrucks/reel/Df2fYRkOss1/ · Pinterest https://www.pinterest.com/pin/1128292512946480382/ · X roundup · TikTok skipped
 - Nov 17: years-Short queue finished (9 posted; Prado 120 and XJ on hold). Midday routine not rescheduled; the hook test uses the slot Nov 18–20, and the Nov 22 review decides what fills it next.
+
+## Plan for Nov 18–28 (weekly planning, Nov 17)
+Mix shift from the Nov 16 scoreboard: Hank's own footage averaged 714 views across 3 posts vs 405 for tire Shorts and 47 for IG singles (11 posts), so no new static singles this week (every slot is a carousel or Reel) and the midday YouTube slot runs the hook test (Nov 18–20, incl. Hank's G 500 lockers footage). No new photos or clips in Hank's Mac folders, so Thursday's "From Hank's garage" uses his own stated history (the 60 Series he regrets selling).
+| n | Date | Format | Post |
+|---|---|---|---|
+| 23 | Nov 18 | Reel | FJ Cruiser checks (scheduled earlier) |
+| 25 | Nov 19 | Carousel | From Hank's garage: the one I regret selling (60 Series) |
+| 26 | Nov 20 | Carousel | Samurai vs Jimny: why the US can't import a JB74 until 2043 |
+| 24 | Nov 21 | Reel | 100 Series checks (scheduled earlier) |
+| 27 | Nov 22 | Reel | Jeep JK checks |
+| 28 | Nov 23 | Carousel | G-Wagon W463 years to avoid (Hank's G 500 photos) |
+| 29 | Nov 24 | Carousel | Wrangler every generation: years to buy and avoid |
+| 30 | Nov 25 | Reel | Bronco (2021–) checks |
+| 31 | Nov 28 | Reel | Prado 150 checks |
+Plates blurred in source this run: fj60-ingeegoodbee, jimny-jb74-grassy-hillside, jimny-jb74-iceland-fagradalsfjall, w463-300gd-bridge (no queued renders used them).
