@@ -111,3 +111,4 @@ Mix shift from the Nov 16 scoreboard: Hank's own footage averaged 714 views acro
 | 30 | Nov 25 | Reel | Bronco (2021–) checks |
 | 31 | Nov 28 | Reel | Prado 150 checks |
 Plates blurred in source this run: fj60-ingeegoodbee, jimny-jb74-grassy-hillside, jimny-jb74-iceland-fagradalsfjall, w463-300gd-bridge (no queued renders used them).
+- Nov 17: Spec Sheet 02 Land Cruiser 80 Series: IG https://www.instagram.com/boxytrucks/p/Df2_83iG1uF/ · Pinterest https://www.pinterest.com/pin/1128292512946501577/ · X roundup
