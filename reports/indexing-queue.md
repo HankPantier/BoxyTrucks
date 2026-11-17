@@ -6,3 +6,4 @@
 - Queue reordered: the GSC "Discovered - currently not indexed" pages come first (Y60 years first; it hit the quota).
 
 - 2026-11-17 11:18 ET: GSC shows 1,314 indexed / 102 not indexed. First request (y60/years) returned Quota Exceeded (quota window not yet reset from Nov 16); retry scheduled 13:31 ET.
+- 2026-11-17 13:32 ET retry: requested 7 (Patrol Y60 years/tires/problems, Y61 problems, /owning/, /importing/, /field-notes/); quota hit at /compare/fj-cruiser-vs-4runner-5th-gen/ (next up).

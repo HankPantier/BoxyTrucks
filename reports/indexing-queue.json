@@ -1,46 +1,49 @@
 [
  {
   "url": "https://boxytrucks.com/models/nissan-patrol/y60/years/",
-  "status": "todo",
-  "date": null,
+  "status": "requested",
+  "date": "2026-11-17",
   "src": "gsc-discovered-2026-11-09",
   "note": "GSC Discovered - currently not indexed (Nov 16); Nov 17 11:18 ET: Quota Exceeded on first request (rolling window), retry later today"
  },
  {
   "url": "https://boxytrucks.com/models/nissan-patrol/y60/tires/",
-  "status": "todo",
-  "date": null,
+  "status": "requested",
+  "date": "2026-11-17",
   "src": "gsc-discovered-2026-11-09",
   "note": "GSC Discovered - currently not indexed (Nov 16)"
  },
  {
   "url": "https://boxytrucks.com/models/nissan-patrol/y60/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "requested",
+  "date": "2026-11-17",
   "src": "gsc-discovered-2026-11-09",
   "note": "GSC Discovered - currently not indexed (Nov 16)"
  },
  {
   "url": "https://boxytrucks.com/models/nissan-patrol/y61/problems/",
-  "status": "todo",
-  "date": null,
+  "status": "requested",
+  "date": "2026-11-17",
   "src": "gsc-discovered-2026-11-09",
   "note": "GSC Discovered - currently not indexed (Nov 16)"
  },
  {
   "url": "https://boxytrucks.com/owning/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "GSC Discovered - currently not indexed (Nov 16)",
+  "date": "2026-11-17"
  },
  {
   "url": "https://boxytrucks.com/importing/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "GSC Discovered - currently not indexed (Nov 16)",
+  "date": "2026-11-17"
  },
  {
   "url": "https://boxytrucks.com/field-notes/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "GSC Discovered - currently not indexed (Nov 16)",
+  "date": "2026-11-17"
  },
  {
   "url": "https://boxytrucks.com/compare/fj-cruiser-vs-4runner-5th-gen/",
