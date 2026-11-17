@@ -14,7 +14,7 @@ Hank pre-approved the queued drafts (one post a day). The mix and the rules are 
 4. Skip filters and edits (Next, Next).
 5. Click the caption box and type the caption exactly. Don't press Escape, because it opens "Discard post?". If a hashtag or tag popup opens, click empty space in the side panel.
 6. Leave the AI label off: our media is real photos with text. Turn it on only if the item has `"ai": true`.
-7. Share, then wait for "Your post has been shared".
+7. Before Share, click empty space in the side panel (so the editor commits the caption) and check the counter shows the caption length. Share, then wait for "Your post has been shared". Open the post and confirm the caption is there; if it is missing (happened Nov 17), use ... → Edit, type it again, click empty space, then Done.
 8. In queue.json set `status: "posted"` and `posted: <date>`, add a row to the Posts table in `README.md`, then rebuild the site (`python3 build.py`) so /links/ lists the new post. Commit and push, and tell Hank in one line.
 9. Remind Hank in that line to share it to Stories from his phone. Web Instagram can't post Stories.
 10. If Chrome or the account isn't available, leave the item queued and tell Hank.
