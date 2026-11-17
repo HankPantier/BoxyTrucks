@@ -26,7 +26,7 @@ allows, not just 2. Inspired by the "1993 Bronco / K5 / Ramcharger / Yukon" spec
 | # | Stack | Trucks | Source | Status |
 |---|---|---|---|---|
 | 1 | defender-vs-grenadier-vs-g-class | Defender, Grenadier, G-Class | compare page | posted 2026-11-10: IG https://www.instagram.com/boxytrucks/p/DfkyzeTAeiu/ · X https://x.com/boxytrucks/status/2120256658249064752 (link reply https://x.com/boxytrucks/status/2120256823873634677) · Pinterest https://www.pinterest.com/pin/1128292512945945077/ · YouTube https://www.youtube.com/post/UgkxMptah-3MAxW0EphDl3CpMhpbdHwt8Q3g · TikTok not posted: two photo-post attempts redirected to Studio but never appeared (check for late duplicates) |
-| 2 | 80-series-vs-100-series | 80, 100 | compare page | ready (rendered Nov 6) |
+| 2 | 80-series-vs-100-series | 80, 100 | compare page | posted 2026-11-17: IG https://www.instagram.com/boxytrucks/p/Df20ZWBG9uS/ · Pinterest https://www.pinterest.com/pin/1128292512946493809/ · YouTube https://www.youtube.com/post/Ugkxx83v323-oKnflzaDUNAxYZgs8iyq4U0z · X not posted (Friday round-up only) · TikTok tt_status skipped (paused, Hank Nov 17) |
 | 3 | land-cruiser-250-vs-4runner-6th-gen + GX550 | LC 250, 4Runner, GX 550 | compare + gen data | todo |
 | 4 | jk-vs-jl + Bronco | JK, JL, Bronco | compare pages | todo |
 | 5 | gx470-vs-100-series + LX470 | GX 470, 100 Series, LX 470 | compare pages | todo |
