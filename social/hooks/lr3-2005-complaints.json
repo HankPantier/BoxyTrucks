@@ -1,0 +1,58 @@
+{
+ "pattern": "question",
+ "yt_title": "Why do 2005 LR3s get 12x the complaints of a 2008?",
+ "link": "https://boxytrucks.com/models/land-rover/lr3/years/",
+ "scenes": [
+  {
+   "kind": "photo",
+   "src": "site/img/land-rover/lr3-muddy-farm-track.jpg",
+   "fx": 0.28,
+   "pan": 120,
+   "credit": "txomcs / Pexels",
+   "eyebrow": "LAND ROVER LR3",
+   "caption": "Why do 2005 LR3s get 12× the complaints?",
+   "voice": "Why does a 2005 LR3 have twelve times the complaints of a 2008?"
+  },
+  {
+   "kind": "photo",
+   "src": "site/img/land-rover/lr3-moorland-road.jpg",
+   "fx": 0.5,
+   "pan": 100,
+   "rise": true,
+   "credit": "txomcs / Pexels",
+   "eyebrow": "NHTSA COMPLAINTS",
+   "caption": "2005: 96 complaints. 2008: just 8.",
+   "voice": "2005 was the LR3's first model year. It logged ninety-six NHTSA complaints and five recalls. The 2008 logged eight."
+  },
+  {
+   "kind": "photo",
+   "src": "site/img/land-rover/lr3-forest-track.jpg",
+   "fx": 0.62,
+   "pan": -110,
+   "credit": "txomcs / Pexels",
+   "eyebrow": "THE ONE TO BUY",
+   "caption": "2008–09 rate the most reliable",
+   "voice": "ReRev rates the 2008 and '09 the most reliable LR3s, and they log the fewest complaints."
+  },
+  {
+   "kind": "photo",
+   "src": "site/img/land-rover/lr3-moorland-overlook.jpg",
+   "fx": 0.5,
+   "pan": 110,
+   "credit": "txomcs / Pexels",
+   "eyebrow": "BUYING A 2005 ANYWAY?",
+   "caption": "Run the VIN. Check all five recalls.",
+   "voice": "Buying a 2005 anyway? Run the VIN, and make sure all five recalls were done."
+  }
+ ],
+ "end": {
+  "bg": "site/img/land-rover/lr3-moorland-overlook.jpg",
+  "lines": [
+   "Which LR3",
+   "year to buy?"
+  ],
+  "sub": "Every year, with the reasons and sources:",
+  "url": "boxytrucks.com/models/land-rover/lr3/years",
+  "voice": "Every LR3 year, with the reasons, is on boxy trucks dot com."
+ }
+}

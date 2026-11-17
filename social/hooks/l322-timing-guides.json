@@ -1,0 +1,17 @@
+{
+ "pattern": "price contrast",
+ "yt_title": "The $1,850 job hiding in a 2003–05 Range Rover",
+ "link": "https://boxytrucks.com/repairs/range-rover/l322/bmw-m62-timing-chain-guides/",
+ "scenes": [
+  {"kind": "photo", "src": "site/img/range-rover/l322-g4-spring-adventure.jpg", "fx": 0.83, "pan": 120, "credit": "Draco2008 · CC BY 2.0", "eyebrow": "2003–05 RANGE ROVER 4.4", "caption": "The $1,850 job hiding in this Range Rover",
+   "voice": "Shopping for a 2003 to 2005 Range Rover with the 4.4 V8? Listen for a rattle at start-up."},
+  {"kind": "photo", "src": "site/img/range-rover/l322-mountain-road.jpg", "fx": 0.6, "pan": 100, "rise": true, "credit": "txomcs", "eyebrow": "BMW M62 V8", "caption": "Plastic chain guides go brittle with age",
+   "voice": "Its BMW V8 uses plastic timing-chain guides. As the tensioner weakens, the chain slaps them until they break."},
+  {"kind": "photo", "src": "site/img/range-rover/l322-g4-spring-adventure.jpg", "fx": 0.7, "pan": -120, "credit": "Draco2008 · CC BY 2.0", "eyebrow": "THE BILL", "caption": "About $1,850 in parts. 26 hours of work.",
+   "voice": "A full kit runs about eighteen hundred and fifty dollars, and one owner logged twenty-six hours doing it with the engine in."},
+  {"kind": "photo", "src": "site/img/range-rover/l322-mountain-road.jpg", "fx": 0.45, "pan": 120, "credit": "txomcs", "eyebrow": "CHEAP INSURANCE", "caption": "A new tensioner early can save the guides",
+   "voice": "The cheap insurance? A new tensioner early can save the guides."}
+ ],
+ "end": {"bg": "site/img/range-rover/l322-g4-spring-adventure.jpg", "lines": ["Buying an", "L322?"], "sub": "The full job, the parts and the mistakes:", "url": "boxytrucks.com/models/range-rover/l322",
+         "voice": "The whole job, step by step, is on boxy trucks dot com."}
+}

@@ -1,0 +1,55 @@
+{
+ "pattern": "engineering quirk",
+ "yt_title": "Hank's G 500 has three locking diffs. Here's the catch.",
+ "link": "https://boxytrucks.com/models/g-class/g500/",
+ "scenes": [
+  {
+   "kind": "clip",
+   "src": "/mnt/user-data/uploads/BoxyTrucks/video/IMG_0644.mov",
+   "start": 0,
+   "max": 4.0,
+   "eyebrow": "HANK'S 2007 G 500",
+   "caption": "Most 4x4s have one locker, or none. This has three.",
+   "voice": "Lots of four by fours have one locking differential, or none. Hank's G 500 has three.",
+   "fit": true
+  },
+  {
+   "kind": "clip",
+   "src": "/mnt/user-data/uploads/BoxyTrucks/video/IMG_0645.mov",
+   "start": 0,
+   "max": 7.0,
+   "eyebrow": "FRONT · CENTER · REAR",
+   "caption": "Lock all three and every wheel is driven",
+   "voice": "Front, center and rear. Lock all three, and every wheel gets driven, even with one hanging in the air."
+  },
+  {
+   "kind": "clip",
+   "src": "/mnt/user-data/uploads/BoxyTrucks/video/IMG_0645.mov",
+   "start": 7.0,
+   "max": 7.0,
+   "eyebrow": "THE CATCH",
+   "caption": "On an old G, they often don't work",
+   "voice": "The catch? Lockers that were never used often don't work. Hank's still working through his."
+  },
+  {
+   "kind": "photo",
+   "src": "social/hooks/stills/g500-side.jpg",
+   "fx": 0.5,
+   "pan": 50,
+   "eyebrow": "BEFORE YOU BUY",
+   "caption": "Test every locker on the drive",
+   "voice": "The usual fix is finding a vacuum leak, then bleeding the hydraulic lines. So test every one before you buy.",
+   "fit": true
+  }
+ ],
+ "end": {
+  "bg": "social/hooks/stills/g500-side.jpg",
+  "lines": [
+   "Buying a",
+   "G 500?"
+  ],
+  "sub": "Every year, what to check, what it costs:",
+  "url": "boxytrucks.com/models/g-class/g500",
+  "voice": "How to check the lockers, and every G 500 year, is on boxy trucks dot com."
+ }
+}
