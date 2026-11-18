@@ -6,8 +6,14 @@
      so a visitor taps the same picture they just watched and lands on that truck's guide. #}
   <h1 class="lk-h">Just watched one of our videos?</h1>
   <p class="lk-lede">Tap the same picture to get that truck’s full guide.</p>
+  {# Site audit Nov 18, 2026: /links/ visits averaged 3 s. Most visitors come from the newest post, so give it one big card up top. #}
+  {% set top = feed[0] if feed else None %}
+  {% if top %}<a class="lk-top" href="{{ root }}{{ top.href }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links&amp;utm_content={{ top.id }}-top" data-track="links-top">
+    {% if top.thumb %}<img src="{{ root }}{{ top.thumb }}" alt="" width="300" height="375" loading="eager">{% endif %}
+    <span class="lk-top-body"><span class="lk-kind">Newest post</span><span class="lk-top-title">{{ top.title }}</span><span class="lk-top-go">Read the full guide →</span></span>
+  </a>{% endif %}
   <div class="lk-grid">
-    {% for p in feed %}<a class="lk-tile" href="{{ root }}{{ p.href }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links&amp;utm_content={{ p.id }}" data-track="links-grid">
+    {% for p in feed[1:] %}<a class="lk-tile" href="{{ root }}{{ p.href }}index.html?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=links&amp;utm_content={{ p.id }}" data-track="links-grid">
       {% if p.thumb %}<img src="{{ root }}{{ p.thumb }}" alt="" width="300" height="375" loading="{{ 'eager' if loop.index <= 6 else 'lazy' }}">{% else %}<span class="lk-noimg"></span>{% endif %}
       <span class="lk-cap"><span class="lk-kind{% if p.hank %} lk-hank{% endif %}">{{ p.kind }}</span><span class="lk-title">{{ p.title }}</span></span>
     </a>{% endfor %}

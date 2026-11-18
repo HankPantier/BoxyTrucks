@@ -64,6 +64,12 @@ def syears(y):
     return f'{a}–{b[2:]}' if a[:2] == b[:2] else f'{a}–{b}'
 
 
+DESC_OVERRIDE = {
+    'models/lexus/lx470/years.html': 'Best Lexus LX 470 years: 2003–05 (five-speed automatic, new dash). Cheaper runner-up: 2000–02. 2006–07 add VVT-i but a costly air-injection system.',
+    'models/unimog/unimog-u1300l/specs.html': 'Unimog U1300L (435) fluids: gearbox 75W-85 GL-4 to MB 235.4 (ex-Bundeswehr: 10W engine oil, MB 231.3); diffs GL-5 75W-90, about 2.5 L each.',
+}
+
+
 def fit_title(*cands, brand=True):
     """First candidate within 60 chars, with ' | BoxyTrucks' appended when that still fits."""
     for c in cands:
@@ -793,6 +799,9 @@ def main():
     env.globals['active_deals'] = DEALS
 
     def render(tpl, out, root, **ctx):
+        # Hand-written search snippets for pages that rank 6-7 with no clicks (site audit Nov 18, 2026): lead with the answer.
+        if out in DESC_OVERRIDE:
+            ctx['description'] = DESC_OVERRIDE[out]
         def lk(text):
             if text is None:
                 return ''
@@ -1112,7 +1121,7 @@ def main():
         render('best_years.html', f'models/{slug}/best-years.html', '../../', fam=fam, gens=gens, lead=lead, compares=fam_compares, active='models', rel_buy=_rel_buy, rel_avoid=_rel_avoid, short=_short,
                crumbs=[('Models', 'models/'), (label, f'models/{slug}/'), ('Best years', f'models/{slug}/best-years.html')],
                jsonld=([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': faq_ld}] if faq_ld else []),
-               title=fit_title(f'{fname(slug, True)} Years to Avoid (and the Best Years to Buy)', f'{fname(slug, True)} Years to Avoid (and the Best to Buy)', f'{fname(slug, True)} Years to Avoid & Best Years'),
+               title=({'g-class': 'G-Wagon Years to Avoid (2002–04) & Best Years (2005–08)'}.get(slug) or fit_title(f'{fname(slug, True)} Years to Avoid (and the Best Years to Buy)', f'{fname(slug, True)} Years to Avoid (and the Best to Buy)', f'{fname(slug, True)} Years to Avoid & Best Years')),
                description=fit_desc((f'Best {_short} years: ' + '; '.join(f'{t} {yjoin(ys, 2)}' for t, ys in _rel_buy[:3]) + '. ' if _rel_buy else '') + (f'Avoid: ' + '; '.join(f'{t} {yjoin(ys, 2)}' for t, ys in _rel_avoid[:2]) + '. ' if _rel_avoid else '') + f'{fname(slug)} years to avoid and the best to buy, with the problems and recalls behind each call.'),
                credits='')
         by_fam.append({'slug': slug, 'label': label})
@@ -1304,7 +1313,7 @@ def main():
                 render('repair.html', f'repairs/{slug}/{gs}/{r["slug"]}.html', '../../../', fam=fam, p=p, r=r, noindex=(f'{slug}/{gs}/{r["slug"]}' in REPAIR_NOINDEX), og_image=(f'img/{slug}/{p["hero_photo"]}' if p.get('hero_photo') else None), model=model, steps=steps, others=others,
                        gen_href=f'../../../models/{slug}/{gs}.html', fam_slug=slug, gen_slug=gs, active='repairs', has_specs=bool(p.get('plate') or (p.get('baseline_service') or {}).get('items')), og_type='article', part_search=suppliers_cfg.get(slug, []),
                        crumbs=[('Repair guides', 'repairs/'), (model, f'models/{slug}/{gs}/'), (rt, f'repairs/{slug}/{gs}/{r["slug"]}/')],
-                       jsonld=[howto], title=repair_title(slug, gs, rt, model),
+                       jsonld=[howto], title=(r.get('seo_title') or repair_title(slug, gs, rt, model)),
                        description=(f'{model}: ' + LINK_PLAIN(r.get('symptoms', '')))[:158], credits='')
                 n_repair_pages += 1
     print(f'  repair pages: {n_repair_pages}')
@@ -1492,7 +1501,7 @@ def main():
            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'Boxy SUVs: every boxy 4x4 you can buy, new and used', 'url': SITE_URL + 'best/boxy-suvs/'},
                    {'@context': 'https://schema.org', '@type': 'ItemList', 'name': 'Boxy SUVs', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': r['name'], 'url': SITE_URL + r['href'].replace('.html', '/')} for i, r in enumerate([r for g_ in _groups for r in g_['rows']])]},
                    {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['a']}} for f in _faqs]}],
-           title="Boxy SUVs: The Best Boxy 4x4s to Buy, New & Used",
+           title="Boxy SUVs: Every Boxy 4x4 You Can Buy, New & Used",
            description=fit_desc(f'Every boxy SUV and 4x4, new and used: {_total} trucks from the Land Cruiser, Defender and G-Wagon to the Bronco, Scout and Jimny, with prices, solid-axle status and years to avoid.'), credits='')
     _gifts = jload(DATA / 'gifts.json') if (DATA / 'gifts.json').exists() else None
     if _gifts:  # holiday gift guide (Hank, Nov 6, 2026)

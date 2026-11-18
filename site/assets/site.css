@@ -1114,6 +1114,12 @@ main section.rep-sec { contain-intrinsic-size: auto 56px; }
 .lk-kind{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#C9A86A}
 .lk-kind.lk-hank{color:#E3C98F;font-weight:600}
 .lk-title{font-size:12px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lk-top{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:14px;align-items:center;text-decoration:none;color:#F7F4EE;background:#1b1c1a;border:1px solid rgba(201,168,106,.55);padding:10px}
+.lk-top img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.lk-top-body{display:flex;flex-direction:column;gap:6px;min-width:0}
+.lk-top-title{font-size:18px;line-height:1.25;text-wrap:balance}
+.lk-top-go{display:inline-block;align-self:flex-start;background:#C9A86A;color:#0E0F0E;font-weight:600;font-size:15px;padding:10px 14px}
+.lk-top:hover .lk-top-go{background:#E3C98F}
 .lk-find{display:flex;flex-direction:column;gap:8px}
 .lk-find-h{font-size:15px;color:#D9D4C8;text-align:center}
 .lk-find input{width:100%;box-sizing:border-box;padding:14px 16px;font-size:16px;border:1px solid rgba(201,168,106,.55);background:#141513;color:#F7F4EE}
@@ -1133,3 +1139,13 @@ main section.rep-sec { contain-intrinsic-size: auto 56px; }
 .hv-dur { position: absolute; right: 8px; bottom: 8px; padding: 2px 6px; background: rgba(0,0,0,.75); color: #fff; font: 600 12px/1.4 var(--mono, monospace); letter-spacing: .04em; }
 .hv-frame { width: 100%; aspect-ratio: 9 / 16; border: 0; display: block; background: #000; }
 .hv figcaption { font-family: var(--serif); font-size: 15px; line-height: 22px; color: #EDE8DD; }
+
+/* Repair pages: parts box near the top (site audit Nov 18, 2026) */
+.rp-quickparts{display:flex;flex-direction:column;gap:8px;border:1px solid #D8CDB6;background:#FBF8F1;padding:14px 16px}
+.rp-qp{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.rp-qp .nm{min-width:0;flex:1 1 220px}
+.rp-qp-all{align-self:flex-start;font-size:14px}
+.rp-kits-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.rp-kits{border-collapse:collapse;min-width:760px;font-size:14px;line-height:1.4}
+.rp-kits th,.rp-kits td{border-top:1px solid #D8CDB6;padding:10px 8px;text-align:left;vertical-align:top}
+.rp-kits th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#765A18}

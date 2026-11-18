@@ -298,8 +298,67 @@
     {
      "name": "Trail-Gear FJ40 knuckle swap kit",
      "url": "https://trail-gear.com/axles/fj40-knuckle-swap.html"
+    },
+    {
+     "name": "JoeTLC: front disc brake conversion kit, FJ40/FJ45/FJ55",
+     "url": "https://www.joetlc.com/products/front-disc-brake-conversion-kit-for-toyota-land-cruiser-fj40-fj45-fj55-drums"
+    },
+    {
+     "name": "Yotamasters: Trail-Gear FJ40 knuckle swap kit",
+     "url": "https://yotamasters.com/shop/brakes/trail-gear-fj40-knuckle-swap-kit"
     }
-   ]
+   ],
+   "seo_title": "FJ40 Disc Brake Conversion Kits Compared + DIY Install",
+   "kits": {
+    "intro": "Five ways to put front discs on a 1960–1975 FJ40, FJ45 or FJ55, from a bolt-on bracket kit to a full knuckle swap. Prices are as listed by the seller; check fitment for your build month before you order.",
+    "rows": [
+     {
+      "kit": "JT Outfitters / JoeTLC bolt-on kit",
+      "route": "Bolt-on brackets on your knuckles",
+      "fits": "8/1970–9/1975 FJ40, FJ55",
+      "price": "$549.95 (rubber lines); $579.95 (stainless lines)",
+      "includes": "CNC caliper brackets, powder-coated backing plates, vented rotors, loaded calipers, hoses, hardware. No master cylinder.",
+      "watch": "May need the caliper tab and hub outer edge ground to clear. Earlier trucks need a dual-circuit system.",
+      "url": "https://www.joetlc.com/products/front-disc-brake-conversion-kit-for-toyota-land-cruiser-fj40-fj45-fj55-drums"
+     },
+     {
+      "kit": "Cruiser Corps kit A151",
+      "route": "Bolt-on brackets on your knuckles",
+      "fits": "Front, 8/1970–9/1975",
+      "price": "See the listing",
+      "includes": "Front disc conversion for drum-brake trucks; see the listing for the parts list.",
+      "watch": "Same hub-clearance and residual-valve checks as any bolt-on kit.",
+      "url": "https://www.cruisercorps.com/products/disc-brake-conversion-kit-fj40"
+     },
+     {
+      "kit": "Factory 1976-and-later knuckle swap",
+      "route": "Toyota disc knuckles and parts",
+      "fits": "Most original; pre-1969 trucks need fine-spline diff parts",
+      "price": "Adds up: rotors $89/pair, rebuilt calipers $189/pair, seal and bearing kit $179, proportioning valve $75 (Cruiserparts.net), plus the knuckle kit",
+      "includes": "Factory parts, so replacement parts are easy to find later.",
+      "watch": "Pre-July-1970 trucks also need a booster, adapter and dual master cylinder, and use 9 mm line fittings.",
+      "url": "https://www.cruiserparts.net/parts/parts/diskbrakes.html"
+     },
+     {
+      "kit": "1979–85 Hilux / 4Runner knuckle swap",
+      "route": "Mini-truck junkyard parts",
+      "fits": "Common IH8MUD swap",
+      "price": "About $800 in parts",
+      "includes": "Calipers, rotors and knuckle parts from a donor truck.",
+      "watch": "Used parts: rebuild the calipers and replace the bearings and seals.",
+      "url": "https://www.ih8mud.com/tech/minidisc1.php"
+     },
+     {
+      "kit": "Trail-Gear FJ40 knuckle swap kit",
+      "route": "Full aftermarket knuckle kit with high steer",
+      "fits": "1960–1983 FJ40, FJ45 (seals not for pre-1968 axles)",
+      "price": "From $2,799.99; about $4,595 as configured on Yotamasters",
+      "includes": "Loaded knuckles, 30-spline Birfields, rotors, calipers, pads, lines, hubs, high steer kit.",
+      "watch": "Needs welding (Trail-Gear recommends a certified welder) and a high-steer-compatible steering box, not included.",
+      "url": "https://yotamasters.com/shop/brakes/trail-gear-fj40-knuckle-swap-kit"
+     }
+    ]
+   }
   },
   {
    "title": "Lift and anti-inversion shackles",

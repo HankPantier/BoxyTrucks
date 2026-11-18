@@ -10,6 +10,10 @@
 <div class="wrap section" style="padding-top:40px"><div class="rp-grid">
   <article class="rp-main">
     <section><h2 class="h-section">Symptoms</h2><div class="prose"><p>{{ r.symptoms|lk }}</p></div></section>
+    {# Site audit Nov 18, 2026: repair pages earn most affiliate clicks, but the parts list sat at the bottom. Show the parts up top too. #}
+    {% if r.parts %}<aside class="rp-quickparts" aria-label="Parts for this job"><span class="eyebrow">Parts for this job</span>
+      {% for pt in r.parts[:3] %}{% set q = amz_q(pt, model) %}<div class="rp-qp"><span class="nm">{{ pt.name }}</span><span class="links">{% if q %}<a class="btn solid" href="https://www.amazon.com/s?k={{ q|urlencode }}" target="_blank" rel="noopener sponsored" data-track="repair-top-parts">Amazon ↗</a>{% else %}<a class="btn solid" href="{{ pt.url }}" target="_blank" rel="noopener" data-track="repair-top-parts">{{ pt.supplier or 'Buy' }} ↗</a>{% endif %}</span></div>{% endfor %}
+      <a class="inline-link rp-qp-all" href="#where-to-buy">{% if r.parts|length > 3 %}All {{ r.parts|length }} parts and suppliers ↓{% else %}More suppliers ↓{% endif %}</a></aside>{% endif %}
 
     {% set vids = HANK_VIDEOS.get('repairs/' ~ fam_slug ~ '/' ~ gen_slug ~ '/' ~ r.slug ~ '/') %}{% if r.owner_note or r.video or vids %}<aside class="own-note"><div class="own-head"><span class="eyebrow">From Hank’s garage</span><a class="own-who" href="{{ root }}about/index.html">Hank, BoxyTrucks founder →</a></div>{% include "_hank_video.html" %}{% if r.owner_note %}<div class="own-item"><p>{{ r.owner_note|lk }}</p></div>{% endif %}{% if r.video %}<div class="own-item"><p><a class="inline-link" href="{{ r.video.url }}" target="_blank" rel="noopener">{{ r.video.name }} ↗</a></p></div>{% endif %}</aside>{% endif %}
     {% if r.know %}<section><h2 class="h-section">Before you start</h2><ul class="rp-know">{% for k in r.know %}<li>{{ k|lk }}</li>{% endfor %}</ul></section>{% endif %}
@@ -24,7 +28,11 @@
       <ul class="rp-tools">{% for t in r.tools.split('·') if t.strip() %}<li>{{ t.strip() }}</li>{% endfor %}</ul>
     </section>{% endif %}
 
-    <section><h2 class="h-section">Where to buy the parts</h2>
+    {% if r.kits %}<section id="kits"><h2 class="h-section">Conversion kits compared</h2><p class="sub-intro">{{ r.kits.intro }}</p>
+      <div class="rp-kits-wrap"><table class="rp-kits"><thead><tr><th>Kit</th><th>Route</th><th>Fits</th><th>Price</th><th>What you get</th><th>Watch for</th></tr></thead><tbody>
+      {% for k in r.kits.rows %}<tr><td><a class="inline-link" href="{{ k.url }}" target="_blank" rel="noopener">{{ k.kit }} ↗</a></td><td>{{ k.route }}</td><td>{{ k.fits }}</td><td>{{ k.price }}</td><td>{{ k.includes }}</td><td>{{ k.watch }}</td></tr>{% endfor %}
+      </tbody></table></div></section>{% endif %}
+    <section id="where-to-buy"><h2 class="h-section">Where to buy the parts</h2>
       {% if r.parts %}<div class="rp-parts">{% for pt in r.parts %}{% set q = amz_q(pt, model) %}<div class="rp-part"><span class="nm">{{ pt.name }}</span><span class="links"><a class="btn solid" href="{{ pt.url }}" target="_blank" rel="noopener">{{ pt.supplier or 'Buy' }} ↗</a>{% if q %}<a class="btn" href="https://www.amazon.com/s?k={{ q|urlencode }}" target="_blank" rel="noopener sponsored">Amazon ↗</a>{% if fam_slug in pg_fams %}<a class="btn" href="https://www.partsgeek.com/ss/?ssq={{ q|urlencode }}" target="_blank" rel="noopener sponsored">Parts Geek ↗</a>{% endif %}{% endif %}</span></div>{% endfor %}</div>
       {% else %}{% for s in part_search %}<p><a class="inline-link" href="{{ s.search.replace('{q}', (r.title|striplk ~ ' ' ~ p.title)|replace(' ', '+')|urlencode|replace('%2B','+')) }}" target="_blank" rel="noopener">Search {{ s.name }} ↗</a></p>{% endfor %}{% endif %}
       <p class="sub-intro" style="margin-top:14px">Hunting a used or discontinued part? <a class="inline-link" href="https://www.ebay.com/sch/i.html?_nkw={{ (model ~ ' parts')|urlencode }}&amp;_sacat=6000" target="_blank" rel="noopener sponsored">Search eBay Motors for {{ model }} parts →</a></p>
