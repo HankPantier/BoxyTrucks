@@ -1558,7 +1558,7 @@ def main():
            hub={'kind': 'sale', 'eyebrow': 'The one you’ll own someday', 'title': 'For sale now', 'lead': 'Live AutoTempest searches across the major marketplaces, plus Bring a Trailer and Cars & Bids auctions and results, for every generation we cover. (Cars & Bids lists 1981 and newer.)'})
     # keep old /watch/ URL working
     (SITE / 'watch').mkdir(exist_ok=True)
-    (SITE / 'watch' / 'index.html').write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/resources/"><title>Resources — BoxyTrucks</title><a href="/resources/">Resources</a>')
+    (SITE / 'watch' / 'index.html').write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/resources/"><meta name="robots" content="noindex"><link rel="canonical" href="https://boxytrucks.com/resources/"><title>Moved to Resources — BoxyTrucks</title><a href="/resources/">Resources</a>')
 
     gens_json = json.dumps({s: [{'slug': g['slug'], 'name': g['name'], 'years': g['years']} for g in fams[s]['generations']] for s in fams})
     _q = json.loads((ROOT / 'social' / 'queue.json').read_text()) if (ROOT / 'social' / 'queue.json').exists() else []
