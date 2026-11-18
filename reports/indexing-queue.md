@@ -7,3 +7,4 @@
 
 - 2026-11-17 11:18 ET: GSC shows 1,314 indexed / 102 not indexed. First request (y60/years) returned Quota Exceeded (quota window not yet reset from Nov 16); retry scheduled 13:31 ET.
 - 2026-11-17 13:32 ET retry: requested 7 (Patrol Y60 years/tires/problems, Y61 problems, /owning/, /importing/, /field-notes/); quota hit at /compare/fj-cruiser-vs-4runner-5th-gen/ (next up).
+- 2026-11-18 12:20 ET: requested 11 (FJ Cruiser vs 5th Gen 4Runner, G550 vs LX570, 300 Series specs, Bronco II specs, Ramcharger 1st, Niva, Pinzgauer 710/712 + specs, Pinzgauer 716/718, Unimog 404, Unimog U1300L); quota hit at /models/unimog/unimog-404/specs/. Daily run moved to 13:37 ET.

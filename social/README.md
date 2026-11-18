@@ -113,3 +113,4 @@ Mix shift from the Nov 16 scoreboard: Hank's own footage averaged 714 views acro
 Plates blurred in source this run: fj60-ingeegoodbee, jimny-jb74-grassy-hillside, jimny-jb74-iceland-fagradalsfjall, w463-300gd-bridge (no queued renders used them).
 - Nov 17: Spec Sheet 02 Land Cruiser 80 Series: IG https://www.instagram.com/boxytrucks/p/Df2_83iG1uF/ · Pinterest https://www.pinterest.com/pin/1128292512946501577/ · X roundup
 - Nov 17: tire Short Suzuki SJ / Samurai: YT https://youtube.com/shorts/hihuHxNlAk8 (pinned comment) · IG https://www.instagram.com/boxytrucks/reel/Df3eyYpOjl4/ · Pinterest https://www.pinterest.com/pin/1128292512946514852/ · X roundup · TikTok skipped
+- Nov 18: IG Reel n=23 FJ Cruiser checks: https://www.instagram.com/boxytrucks/reel/Df5CUwMOt6q/ · Pinterest https://www.pinterest.com/pin/1128292512946556306/ · YouTube copy held until after the hook test · TikTok paused
