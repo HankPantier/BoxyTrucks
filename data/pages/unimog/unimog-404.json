@@ -189,6 +189,31 @@
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/hub-reduction-tool-set-404-hrtlset/"
     }
+   ],
+   "know": [
+    "Expedition Imports says a leaking hub reduction output seal usually shows as gear oil on the outside face of the wheel. It sells a German-made double-lip seal for about $24, against about $42 for the Mercedes-numbered one.",
+    "Original seals that have let grit in usually mean the bearings are worn too. One irate4x4 owner rebuilding his 404 portal boxes replaced every bearing and seal for that reason.",
+    "Engage the front diff lock before pulling the axle shaft, or the slider can drop into the housing.",
+    "The top taper bearings need correct shimming. The irate4x4 rebuild set them for a small amount of freeplay without the Mercedes fixture, and commenters argued that tapered bearings want preload, so follow the factory manual."
+   ],
+   "mistakes": [
+    "Seating the output seal at the wrong depth; check it against the manual so both lips run on the sealing surface.",
+    "Fitting new seals over a pitted or grooved shaft surface.",
+    "Reusing a gasket without sealant; the irate4x4 rebuild coated both faces with Curil T2.",
+    "Letting the diff-lock slider fall into the housing.",
+    "Skipping grease on the rear seal before sliding the input shaft through.",
+    "Guessing the bearing shims instead of following the manual or using the Mercedes fixture."
+   ],
+   "cost_note": "The seals are cheap: Expedition Imports lists the output seal at about $24 aftermarket or $42 Mercedes. Labor is the real cost, at about a day per side, and more if the bearings need replacing too.",
+   "refs": [
+    {
+     "name": "irate4x4: reassembly of Unimog 404 portal boxes",
+     "url": "https://irate4x4.com/threads/reassembly-of-unimog-404-portal-boxes.392320"
+    },
+    {
+     "name": "Expedition Imports: seal, hub reduction output (404)",
+     "url": "https://expedition-imports.com/4043370260A"
+    }
    ]
   },
   {

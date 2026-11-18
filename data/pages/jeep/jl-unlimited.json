@@ -295,8 +295,8 @@
    "diff": "2 / 5",
    "time": "≈ 1 hour for the filter",
    "cost": "Recall work free; a fuel filter for routine service",
-   "symptoms": "Stalling, hard starting or a diesel smell. Pickup Truck + SUV Talk lists recall 23V-263 for possible high-pressure fuel pump failure on some 2021–2023 EcoDiesels, where debris in the fuel system can cause a stall or a fuel leak.",
-   "fix": "Confirm the recall has been done. Then treat the fuel filter as a wear item, because the 3.0's high-pressure pump hates water and dirt. Relieve the pressure, change the filter, prime the system as the service manual describes, and check for leaks. Use only ultra-low-sulfur diesel; the owner's-manual sheet allows biodiesel up to B5, or B7 with shorter service intervals.",
+   "symptoms": "Stalling, a sudden loss of power, hard starting, a check-engine or electronic throttle control light, noise from the high-pressure pump or a diesel smell.",
+   "fix": "Run the VIN at nhtsa.gov/recalls to confirm 23V-263 has been done; it's free. For routine service, relieve the fuel pressure, change the filter, prime the system as the service manual describes and check for leaks. Use only ultra-low-sulfur diesel; the owner's manual allows biodiesel up to B5, or B7 with shorter service intervals. If the check-engine or throttle-control light comes on with pump noise or a fuel leak, stop and have it towed rather than driving it.",
    "tools": "Filter wrench · drain pan · rags · service manual for the priming procedure.",
    "parts": [
     {
@@ -309,6 +309,26 @@
      "supplier": "ExtremeTerrain",
      "url": "https://www.extremeterrain.com/wrangler-jeep-jl-gaskets-seals-filters.html"
     }
+   ],
+   "know": [
+    "Recall 23V-263 covers 2021–2023 Wrangler JL and Gladiator JT and 2022–2023 Ram 1500 with the 3.0L diesel: about 49,900 vehicles. The high-pressure fuel pump can fail early and send debris through the fuel system, which can cause a sudden loss of motive power.",
+    "The warning signs FCA lists: the check-engine light, the electronic throttle control light, a fuel leak at the pump, or excessive pump noise.",
+    "If the truck still runs, the remedy is a new high-pressure pump (1.2 hours on a JL). If the pump has already failed, the dealer replaces the pump, the in-tank module, the injectors, rails, lines and filter (5.0 hours). The JL remedy became available on October 3, 2023.",
+    "Because the 3.0 hates water and dirt, the fuel filter is a wear item to change on schedule, recall or not."
+   ],
+   "mistakes": [
+    "Buying a 2021–2023 diesel JL without proof the recall was done.",
+    "Driving on after the warning lights or pump noise appear; a failed pump spreads debris through the whole fuel system.",
+    "Skipping the fuel filter because the truck runs fine.",
+    "Not priming the system after a filter change.",
+    "Running fuel stronger than B7."
+   ],
+   "cost_note": "The recall work is free. Out of recall, the full contaminated-system repair FCA describes (pump, module, injectors, rails, lines and filter, 5.0 hours) is one of the most expensive fixes on the truck; a fuel filter is a small parts cost.",
+   "refs": [
+    {
+     "name": "NHTSA: recall 23V-263 remedy instructions (high-pressure fuel pump)",
+     "url": "https://static.nhtsa.gov/odi/rcl/2023/RCRIT-23V263-4916.pdf"
+    }
    ]
   },
   {
@@ -316,8 +336,8 @@
    "diff": "2 / 5",
    "time": "≈ 1–2 hours",
    "cost": "A Mopar hose and coolant",
-   "symptoms": "A dropping coolant level, a sweet smell, or crusty residue around the turbo coolant lines or the coolant bottle hoses on a 2.0 turbo (the 4xe uses the same 2.0 turbo engine). Pickup Truck + SUV Talk lists a TSB for turbo coolant return line leaks.",
-   "fix": "Pressure-test the cold system to find the leak. Drain enough coolant to get below the leak, replace the hose and its clips, refill with OAT coolant and bleed the loop. Remember the 2.0T has a separate intercooler loop, and that the 4xe also has high-voltage battery cooling. Leave anything orange-cabled to a trained technician. Check the dealer history too, since the TSB repair may already have been done.",
+   "symptoms": "A dropping coolant level, a sweet smell, or crusty residue around the coolant bottle, its hoses, the thermostat housing or the coolant inlet tube on a 2.0 turbo (the 4xe uses the same 2.0 turbo engine).",
+   "fix": "Run the VIN with a Jeep dealer or on the Mopar owner site for open campaigns, including ZD8. With the engine cold, clean the area so fresh residue stands out, then pressure-test the cooling system to find the leak. Check the reservoir seams and its lower hose, the thermostat housing bolts, the water pump inlet and the coolant inlet tube. Snug any loose fasteners: one owner reached the thermostat housing by removing the engine cover (two bolts, two tabs) and tightening its three bolts. Replace a split reservoir or a weeping hose and clamp, refill with Mopar OAT coolant and bleed the loop. On a 4xe, leave anything with orange cables to a trained technician.",
    "tools": "Cooling-system pressure tester · hose-clamp pliers · drain pan · Mopar OAT coolant.",
    "parts": [
     {
@@ -334,6 +354,34 @@
      "name": "Mopar 68163849AB pre-diluted OAT coolant",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/mopar/pre-diluted-anti-freeze-coolant-68163849AB"
+    }
+   ],
+   "know": [
+    "Jeep's own fix for one known leak: Customer Satisfaction Notification ZD8, \"Coolant Leak\", covers 2021–2022 JLs with the 2.0L (sales codes EC1, EC3, ECX). The coolant inlet tube fasteners can loosen and let coolant weep, then drip; the dealer cleans the threads, applies thread locker and torques them to 11 N·m (8 ft-lb). It's a 0.6-hour job.",
+    "On JLWranglerForums, owners chasing a dropping 2.0 coolant level most often find a split or seeping coolant reservoir, then loose water pump inlet or thermostat housing bolts, or the hose and clamp from the bottom of the tank.",
+    "Coolant loss can overheat the engine and, left alone, ruin it, so don't just keep topping it up.",
+    "The 2.0T has a separate intercooler coolant loop, and the 4xe adds high-voltage battery cooling; a low level in one tank doesn't always mean the main engine loop."
+   ],
+   "mistakes": [
+    "Topping up for months instead of finding the leak.",
+    "Not checking for the ZD8 campaign, which is free.",
+    "Replacing the hose when the reservoir seam or a loose housing bolt is the real leak.",
+    "Mixing coolant types; use the OAT coolant Mopar specifies.",
+    "Working on a 4xe's high-voltage cooling without training."
+   ],
+   "cost_note": "ZD8 is free at a dealer (0.6 hours of labor). A reservoir or hose and clamp is a modest parts cost; one forum owner bought a reservoir from RockAuto during a dealer back order and fitted it himself.",
+   "refs": [
+    {
+     "name": "NHTSA: FCA Customer Satisfaction Notification ZD8, Coolant Leak (2021–2022 JL 2.0L)",
+     "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10243094-9999.pdf"
+    },
+    {
+     "name": "JLWranglerForums: 2.0L coolant reservoir leaking",
+     "url": "https://jlwranglerforums.com/forum/threads/2-0l-coolant-reservoir-leaking.102278/"
+    },
+    {
+     "name": "JLWranglerForums: 2.0 coolant top-off frequency",
+     "url": "https://www.jlwranglerforums.com/forum/threads/2-0-coolant-top-off-frequency.92055/page-10"
     }
    ]
   },

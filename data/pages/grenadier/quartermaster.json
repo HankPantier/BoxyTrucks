@@ -222,6 +222,30 @@
      "supplier": "INEOS Grenadier service centre",
      "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier"
     }
+   ],
+   "know": [
+    "The filter sits in a frame behind the glovebox, between the glovebox and the firewall, reached from the passenger footwell. You don't need to remove the glovebox.",
+    "The OEM filter is INEOS #100326881 (made by Sivento), about 8.5 x 7.75 x 1 in, with activated charcoal and baking soda layers.",
+    "On The Grenadier Forum, one owner says a Microguard 3692 fits easily and costs about $18, but it's plain paper with no charcoal. Another tried an MAF0729 with fewer pleats than the OEM filter and planned to go back to OEM.",
+    "Retailers also list a Mann CUK25001 as compatible, but no owner in the forum thread confirmed it fits, so treat that listing with caution. Several owners say the job gets much quicker the second time.",
+    "Wet passenger footwells have their own INEOS bulletin (IATSB002996); owners trace them to condensation on uninsulated A/C pipes, and changing the cabin filter doesn't cure it."
+   ],
+   "mistakes": [
+    "Trusting a parts website's fitment list; the first owner in the forum thread found several that didn't fit.",
+    "Fitting the filter backwards; the airflow arrow points toward the cabin.",
+    "Running without a filter in cold weather; one owner got almost no cabin heat until he refitted it.",
+    "Fighting the bottom edge with bare fingers instead of a curved pick."
+   ],
+   "cost_note": "About $18 for a Microguard 3692 from a parts store, more for the OEM charcoal filter from an INEOS service centre. It's a do-it-yourself job with no labor cost.",
+   "refs": [
+    {
+     "name": "The Grenadier Forum: cabin air filter",
+     "url": "https://www.theineosforum.com/threads/cabin-air-filter.12416706"
+    },
+    {
+     "name": "The Grenadier Forum: footwell water ingress (cabin filter bulletin)",
+     "url": "https://www.theineosforum.com/threads/footwell-water-ingress-cabin-filter.12415588/latest"
+    }
    ]
   },
   {
