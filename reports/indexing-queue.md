@@ -12,4 +12,4 @@
 ## Nov 19, 2026 (13:4x ET)
 - Requested 11: Unimog 404 specs; Bronco II TTB front end; K5 NP208/NP241 reseal; Suburban rockers/floors; W461 windscreen leaks; Grenadier oil change; H1 hub seals; XJ floor pans; CJ-5 AMC 20 axle; CJ-5 ignition/HEI; JK ball joints. Quota Exceeded at SJ Wagoneer Quadra-Trac (next).
 - Marked 25 queued URLs skip-noindex (thin-repair noindex list): Google rejects requests for them.
-- Added 0 newly Discovered-not-indexed URLs from the Pages report (/buying/, two compare pages, Pinzgauer, Niva, Bronco II specs, full-size Bronco years, LC300 specs).
+- Pages report (Discovered - not indexed, first 10): all already in the queue.
