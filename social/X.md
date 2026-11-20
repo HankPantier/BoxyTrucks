@@ -90,3 +90,4 @@ From Oct 30, 2026, X gets a daily post that mirrors that day's Instagram post (H
 - After posting, new accounts see an "Unlock more on X" info modal. It's safe to close with the X.
 - No "sensitive" or AI-label toggle appeared on either post.
 - Don't press Escape in the composer: it opens "Save post?" (press Escape again to back out).
+| Nov 20, 2026 | Weekly round-up: G 500 oil housing (video), G 500 fall drive, JK years, Prado 150 years; links reply 2123916032838615507 (duplicate post 2123915836457144347, pending Hank) | https://x.com/boxytrucks/status/2123915546081329631 |
