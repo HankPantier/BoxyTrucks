@@ -4239,15 +4239,15 @@ Fix: Grease the propshaft joints and slip yokes at every service; G-luxe Travel 
 Tools: Grease gun with needle adapter · new flex discs and bolts · torque wrench · centre-drive-shaft bolt N000000006359 / nut N910113010003 as needed
 
 #### Cracked coil springs (front and rear)
-Difficulty 3 / 5 · time 1–2 hours per axle (estimate) · cost ≈ £120 per corner (Autocar)
-Symptoms: A loud thump over bumps, a corner sitting low, a visibly broken coil, often after a cold snap.
+Difficulty 3 / 5 · time 1–2 hours per axle (estimate) · cost Autocar: budget about £120 a corner
+Symptoms: Autocar says the coils can crack, especially in cold weather, and the usual sign is a loud thumping while driving. Uneven ride height is another clue.
 Fix: Support the chassis on stands and take the axle on a jack. Disconnect the shock and sway-bar link on that side, then lower the axle slowly until the spring comes free, watching the brake hoses, ABS wires and locker lines. Fit the new spring with its isolator, raise the axle, and refit the shock and link. Replace springs in axle pairs. G-luxe Travel has front and rear DIY videos on a G 500.
 Tools: Floor jack and stands · spring compressor if needed · matched springs · new shocks if tired · videos: G-luxe Travel
 
 #### 722.6 transmission service and conductor plate
 Difficulty 3 / 5 · time ≈ 2 hours (service) · cost Parts plus labor
 Symptoms: Harsh 2–3 shifts, flares, limp mode, speed-sensor codes such as P0715, ATF wicking up the harness.
-Fix: If the service history is unknown, service it now: drop the pan, replace the filter and pan gasket, replace the electrical connector sleeve (the usual oil-wicking point), refill with MB 236.14 ATF and set the level hot. If speed-sensor codes persist, a failing conductor plate is a common cause. For the later seven-speed (2007-on), Handsome Motors advises fluid changes every 40–50k miles.
+Fix: If the service history is unknown, service it now: drop the pan, replace the filter and pan gasket, replace the electrical connector sleeve (the usual oil-wicking point), refill with MB 236.14 ATF and set the level hot. If speed-sensor codes persist, a failing conductor plate is a common cause. For the later seven-speed (2007-on), Handsome Motors advises fluid changes every 40–50k miles. MB Medic's plug procedure: remove the Torx shield bolt, twist off the harness and clean any ATF off its pins, loosen the captive 7 mm center screw and pull the sleeve straight out, fit the new plug (current part 2035400253) with ATF on its O-rings, then check the level at about 80°C with a service dipstick and run the adaptation reset.
 Tools: ATF to MB 236.14 · filter and pan gasket · connector sleeve · dipstick tool and thermometer or scan tool for level setting
 
 #### Viscous fan clutch (M113 G 500)
@@ -4936,8 +4936,8 @@ Tools: Hand vacuum pump with gauge · assorted vacuum tees and line · replaceme
 
 #### Front axle seal leak
 Difficulty 3 / 5 · time A day · cost $600–1,500
-Symptoms: Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling to one side.
-Fix: Replace both front axle seals, not just the leaking side, and inspect the shafts for scoring. If oil has reached the brakes, replace the pads and resurface or replace the rotors.
+Symptoms: Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling to one side. Owners on MBWorld usually find it at the front knuckle, where the swivel ('swipe') seal or a cracked CV boot lets grease out.
+Fix: Replace both front axle seals, not just the leaking side, and inspect the shafts for scoring. If oil has reached the brakes, replace the pads and resurface or replace the rotors. To tell which it is, MBWorld member Floobydust pushes a clean dowel into the hub's grease fill hole: runny black grease points to a split boot, homogenized brown grease to water getting in. Check the diff oil too; if it's clean, the inner axle seal is probably fine.
 Tools: Axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated
 
 #### Steering damper & front-end wander
@@ -5228,8 +5228,8 @@ Tools: Hand vacuum pump with gauge · vacuum tees and line · connectors · diff
 
 #### Front axle seal leak
 Difficulty 3 / 5 · time A day · cost $600–1,500
-Symptoms: Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling.
-Fix: Replace both front axle seals and inspect the shafts. Replace contaminated pads and resurface or replace the rotors. Oil on brakes this big is not something to leave.
+Symptoms: Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling. Owners on MBWorld usually find it at the front knuckle, where the swivel ('swipe') seal or a cracked CV boot lets grease out.
+Fix: Replace both front axle seals and inspect the shafts. Replace contaminated pads and resurface or replace the rotors. Oil on brakes this big is not something to leave. To tell which it is, MBWorld member Floobydust pushes a clean dowel into the hub's grease fill hole: runny black grease points to a split boot, homogenized brown grease to water getting in. Check the diff oil too; if it's clean, the inner axle seal is probably fine.
 Tools: Axle seals (both sides) · seal driver · gear oil · pads and rotors if contaminated
 
 #### Steering damper & front-end wander
@@ -5440,7 +5440,7 @@ Tools: Map-controlled thermostat · radiator hose · MB-approved coolant (genuin
 #### Intake manifold swirl flaps (M273)
 Difficulty 3 / 5 · time Most of a day · cost Parts plus labor
 Symptoms: Check-engine light with P2004, P2005 or P2006; sometimes a lumpy idle or flat spot. The operating lever on the flap shaft breaks.
-Fix: Repair kits for the lever exist, but FCP Euro recommends replacing the complete manifold assembly because the flaps can also fail internally and send pieces into the cylinders. Remove the engine cover and air intake, disconnect the throttle body and sensors, unbolt the manifold, fit the new one with new gaskets, and clear the codes.
+Fix: Repair kits for the lever exist, but FCP Euro recommends replacing the complete manifold assembly because the flaps can also fail internally and send pieces into the cylinders. Remove the engine cover and air intake, disconnect the throttle body and sensors, unbolt the manifold, fit the new one with new gaskets, and clear the codes. MB Medic says the usual cause is the brittle plastic lever on the manifold's flap shaft; it covers both the M272 V6 and M273 V8, and recommends the lever repair kit (2721402401, or an aluminum lever) rather than a new manifold. Removing the manifold takes one to two hours; the lever's T30 Torx bolt strips easily, so use thread locker and torque it to 8 lb-ft.
 Tools: Intake manifold assembly (e.g. Pierburg) · manifold gaskets · Torx and hex sockets · torque wrench · scan tool
 
 #### Crankcase breather & oil-cooler seals (M273)
@@ -5463,8 +5463,8 @@ Tools: Hand vacuum pump with gauge · vacuum tees and line · replacement connec
 
 #### Front axle seal leak
 Difficulty 3 / 5 · time A day · cost $600–1,500
-Symptoms: Gear oil on the inner front wheels, a gear-oil smell, oil on a caliper or rotor, brakes pulling to one side.
-Fix: Replace both front axle seals even if only one is leaking, and check the shafts for scoring. If oil reached the brakes, replace the pads and resurface or replace the rotors — contaminated pads are a safety issue.
+Symptoms: Gear oil on the inner front wheels, a gear-oil smell, oil on a caliper or rotor, brakes pulling to one side. Owners on MBWorld usually find it at the front knuckle, where the swivel ('swipe') seal or a cracked CV boot lets grease out.
+Fix: Replace both front axle seals even if only one is leaking, and check the shafts for scoring. If oil reached the brakes, replace the pads and resurface or replace the rotors — contaminated pads are a safety issue. To tell which it is, MBWorld member Floobydust pushes a clean dowel into the hub's grease fill hole: runny black grease points to a split boot, homogenized brown grease to water getting in. Check the diff oil too; if it's clean, the inner axle seal is probably fine.
 Tools: Genuine axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated
 
 #### Steering damper & highway wander
@@ -5474,8 +5474,8 @@ Fix: Swap the steering damper for an OEM or upgraded unit (Bilstein B6 is a comm
 Tools: Steering damper · sockets and wrenches · tie-rod or drag-link ends if worn
 
 #### Cracked coil springs
-Difficulty 2 / 5 · time Half a day · cost Autocar: about £120 per corner
-Symptoms: A loud thump over bumps, uneven ride height — often discovered after cold weather.
+Difficulty 2 / 5 · time Half a day · cost Autocar: budget about £120 a corner
+Symptoms: Autocar says the coils can crack, especially in cold weather, and the usual sign is a loud thumping while driving. Uneven ride height is another clue.
 Fix: Replace springs in axle pairs. If a lift is on the cards, do it now with a matched spring-and-shock kit rather than buying stock springs twice.
 Tools: Springs (pairs) · jack and stands · spring compressor if your setup needs one · new shocks recommended
 
@@ -5701,8 +5701,8 @@ Tools: Scan tool for ATF temperature · fluid pump · torque wrench · new filte
 
 #### Front axle seal leak
 Difficulty 3 / 5 · time A day · cost $600–1,500
-Symptoms: Gear oil on the inner front wheels or the six-piston calipers, a gear-oil smell, brakes pulling.
-Fix: Replace both front axle seals and inspect the shafts for scoring. Replace contaminated pads and resurface or replace the rotors. au7o lists this leak for G 63s and rates it critical because the oil ends up on the brakes.
+Symptoms: Gear oil on the inner front wheels or the six-piston calipers, a gear-oil smell, brakes pulling. Owners on MBWorld usually find it at the front knuckle, where the swivel ('swipe') seal or a cracked CV boot lets grease out.
+Fix: Replace both front axle seals and inspect the shafts for scoring. Replace contaminated pads and resurface or replace the rotors. au7o lists this leak for G 63s and rates it critical because the oil ends up on the brakes. To tell which it is, MBWorld member Floobydust pushes a clean dowel into the hub's grease fill hole: runny black grease points to a split boot, homogenized brown grease to water getting in. Check the diff oil too; if it's clean, the inner axle seal is probably fine.
 Tools: Seal puller and driver · hub tools · GL-5 gear oil · brake parts if oil-soaked
 
 #### Pinion & transfer-case seal leaks
@@ -6404,13 +6404,13 @@ Tools: Lift kit · spring compressor · jack and stands · torque wrench · alig
 
 #### Diff locks fail, ESP/ABS warnings (recall 20V-090)
 Difficulty 1 / 5 · time Minutes to check. Dealer visit for the fix. · cost Free under recall
-Symptoms: A locker that won't engage or report its status, often with ESP and ABS switching off and warnings on the dash. On affected trucks, a resistor in the differential-locking module can interrupt communication between the control unit and the lock actuator.
+Symptoms: ESP and ABS warning lights, diff locks that won't engage, and in the worst case stability control or ABS switching off while driving.
 Fix: NHTSA recall 20V-090 covers about 6,300 2019–2020 G 550s and AMG G 63s. Dealers inspect the differential-locking modules and replace them as needed for free. Check the VIN, then test every lock on loose ground after the repair. If a lock still misbehaves on a truck that's had the recall done, have it diagnosed with XENTRY before replacing anything.
 Tools: VIN · Mercedes-Benz dealer · loose surface to test the locks
 
 #### Rear door won't latch or open (recalls 21V-353 and 24V-659)
 Difficulty 1 / 5 · time Dealer visit · cost Free under recall
-Symptoms: A rear door that looks shut but isn't fully latched, or one that won't open from inside.
+Symptoms: A rear door that looks shut but isn't fully latched, or a rear door that won't open from inside.
 Fix: Recall 21V-353 replaced the rear door latches on about 17,800 2019–2021 G 550s and G 63s. Recall 24V-659 then covered 2019–2023 trucks that had received a replacement latch, either in service or under the first recall, and replaced the right-rear latch again. A truck fixed under 21V-353 may still need the 24V-659 remedy. Check the VIN for both, and work every rear door from inside and outside on the test drive.
 Tools: VIN · Mercedes-Benz dealer
 

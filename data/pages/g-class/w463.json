@@ -271,14 +271,28 @@
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/center-drive-shaft-nut-n910113010003/"
     }
+   ],
+   "know": [
+    "Autocar says judder or shake can mean the propshaft is at the end of its life, and budgets at least £1,500 for a replacement shaft.",
+    "Check the flex discs and joints for play and cracking before condemning the shaft."
+   ],
+   "mistakes": [
+    "Refitting a shaft out of phase; mark both flanges.",
+    "Replacing the shaft when a cracked flex disc is the real cause."
+   ],
+   "refs": [
+    {
+     "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+     "url": "https://autocar.co.uk/node/104626"
+    }
    ]
   },
   {
    "title": "Cracked coil springs (front and rear)",
    "diff": "3 / 5",
    "time": "1–2 hours per axle (estimate)",
-   "cost": "≈ £120 per corner (Autocar)",
-   "symptoms": "A loud thump over bumps, a corner sitting low, a visibly broken coil, often after a cold snap.",
+   "cost": "Autocar: budget about £120 a corner",
+   "symptoms": "Autocar says the coils can crack, especially in cold weather, and the usual sign is a loud thumping while driving. Uneven ride height is another clue.",
    "fix": "Support the chassis on stands and take the axle on a jack. Disconnect the shock and sway-bar link on that side, then lower the axle slowly until the spring comes free, watching the brake hoses, ABS wires and locker lines. Fit the new spring with its isolator, raise the axle, and refit the shock and link. Replace springs in axle pairs. G-luxe Travel has front and rear DIY videos on a G 500.",
    "tools": "Floor jack and stands · spring compressor if needed · matched springs · new shocks if tired · videos: G-luxe Travel",
    "parts": [
@@ -302,6 +316,20 @@
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/shock-absorber-koni-raid-w460-461-463-rear-905384/"
     }
+   ],
+   "know": [
+    "Autocar budgets about £120 per corner for springs.",
+    "Replace springs in axle pairs so ride height stays even."
+   ],
+   "mistakes": [
+    "Replacing one spring at a time.",
+    "Using a cheap spring compressor on a heavy G spring."
+   ],
+   "refs": [
+    {
+     "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+     "url": "https://autocar.co.uk/node/104626"
+    }
    ]
   },
   {
@@ -310,7 +338,7 @@
    "time": "≈ 2 hours (service)",
    "cost": "Parts plus labor",
    "symptoms": "Harsh 2–3 shifts, flares, limp mode, speed-sensor codes such as P0715, ATF wicking up the harness.",
-   "fix": "If the service history is unknown, service it now: drop the pan, replace the filter and pan gasket, replace the electrical connector sleeve (the usual oil-wicking point), refill with MB 236.14 ATF and set the level hot. If speed-sensor codes persist, a failing conductor plate is a common cause. For the later seven-speed (2007-on), Handsome Motors advises fluid changes every 40–50k miles.",
+   "fix": "If the service history is unknown, service it now: drop the pan, replace the filter and pan gasket, replace the electrical connector sleeve (the usual oil-wicking point), refill with MB 236.14 ATF and set the level hot. If speed-sensor codes persist, a failing conductor plate is a common cause. For the later seven-speed (2007-on), Handsome Motors advises fluid changes every 40–50k miles. MB Medic's plug procedure: remove the Torx shield bolt, twist off the harness and clean any ATF off its pins, loosen the captive 7 mm center screw and pull the sleeve straight out, fit the new plug (current part 2035400253) with ATF on its O-rings, then check the level at about 80°C with a service dipstick and run the adaptation reset.",
    "tools": "ATF to MB 236.14 · filter and pan gasket · connector sleeve · dipstick tool and thermometer or scan tool for level setting",
    "parts": [
     {
@@ -332,6 +360,20 @@
      "name": "ATF MB 236.14",
      "supplier": "FCP Euro (search)",
      "url": "https://www.fcpeuro.com/search?q=atf+236.14"
+    }
+   ],
+   "know": [
+    "MB Medic calls a leaking connector sleeve one of the most common causes of slipping, harsh shifts and delayed engagement on the 722.6.",
+    "Most trucks have no permanent dipstick; the level check needs a service dipstick and the right fluid temperature."
+   ],
+   "mistakes": [
+    "Judging fluid temperature by driving time.",
+    "Reconnecting an oily harness."
+   ],
+   "refs": [
+    {
+     "name": "MB Medic: 722.6 transmission plug DIY",
+     "url": "https://www.mercedesmedic.com/722-6-transmission-plug-diy/"
     }
    ]
   },

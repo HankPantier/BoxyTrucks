@@ -256,20 +256,58 @@
    "diff": "1 / 5",
    "time": "Minutes to check. Dealer visit for the fix.",
    "cost": "Free under recall",
-   "symptoms": "A locker that won't engage or report its status, often with ESP and ABS switching off and warnings on the dash. On affected trucks, a resistor in the differential-locking module can interrupt communication between the control unit and the lock actuator.",
+   "symptoms": "ESP and ABS warning lights, diff locks that won't engage, and in the worst case stability control or ABS switching off while driving.",
    "fix": "NHTSA recall 20V-090 covers about 6,300 2019–2020 G 550s and AMG G 63s. Dealers inspect the differential-locking modules and replace them as needed for free. Check the VIN, then test every lock on loose ground after the repair. If a lock still misbehaves on a truck that's had the recall done, have it diagnosed with XENTRY before replacing anything.",
    "tools": "VIN · Mercedes-Benz dealer · loose surface to test the locks",
-   "parts": []
+   "parts": [],
+   "know": [
+    "The defect is a resistor in the differential locking module that can fail and cut communication with the lock actuator (NHTSA).",
+    "Affected trucks were built from December 7, 2017 to October 19, 2018; owner letters went out August 21, 2020.",
+    "The remedy is free: dealers inspect the modules and replace them as needed."
+   ],
+   "mistakes": [
+    "Ignoring ESP and ABS warnings as a 'locker problem'; they mean the safety systems may be off.",
+    "Replacing actuators before checking the recall."
+   ],
+   "refs": [
+    {
+     "name": "NHTSA recall 20V-090 (via Justia)",
+     "url": "https://auto-recalls.justia.com/mercedes-benz/g550/2019/20v090000"
+    }
+   ]
   },
   {
    "title": "Rear door won't latch or open (recalls 21V-353 and 24V-659)",
    "diff": "1 / 5",
    "time": "Dealer visit",
    "cost": "Free under recall",
-   "symptoms": "A rear door that looks shut but isn't fully latched, or one that won't open from inside.",
+   "symptoms": "A rear door that looks shut but isn't fully latched, or a rear door that won't open from inside.",
    "fix": "Recall 21V-353 replaced the rear door latches on about 17,800 2019–2021 G 550s and G 63s. Recall 24V-659 then covered 2019–2023 trucks that had received a replacement latch, either in service or under the first recall, and replaced the right-rear latch again. A truck fixed under 21V-353 may still need the 24V-659 remedy. Check the VIN for both, and work every rear door from inside and outside on the test drive.",
    "tools": "VIN · Mercedes-Benz dealer",
-   "parts": []
+   "parts": [],
+   "know": [
+    "24V-659 covers 2019–2023 G 550s and 2019–2022 G 63s built August 2, 2018 to December 6, 2022; owner letters went out October 11, 2024.",
+    "Trucks already repaired under 21V-353 still need the 24V-659 remedy (a new right-rear latch), per NHTSA.",
+    "Both remedies are free."
+   ],
+   "mistakes": [
+    "Assuming one recall sticker means both are done.",
+    "Skipping the inside-handle test on a test drive."
+   ],
+   "refs": [
+    {
+     "name": "NHTSA recall 24V-659 (via Justia)",
+     "url": "https://auto-recalls.justia.com/mercedes-benz/g550/2021/24v659000"
+    },
+    {
+     "name": "NHTSA Part 573 recall report 21V-353",
+     "url": "https://static.nhtsa.gov/odi/rcl/2021/RCLRPT-21V353-3395.PDF"
+    },
+    {
+     "name": "MBWorld: NHTSA safety recall 21V353, rear door latches",
+     "url": "https://mbworld.org/forums/g-class-w465-w463a/819218-nhtsa-safety-recall-21v353-rear-door-latches-3.html"
+    }
+   ]
   }
  ],
  "faq": [

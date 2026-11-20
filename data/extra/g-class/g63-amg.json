@@ -356,5 +356,99 @@
    "name": "g-class-experience.com — G-Class Experience",
    "url": "https://g-class-experience.com/en/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes-AMG G 63 (W463, 2012–2018) maintenance: Service A/B with oil every 10,000 mi or yearly, plugs every 40,000–50,000, 7G-TRONIC every 40,000, two coolant circuits, plus the M157's known items.",
+  "intro": "The G 63 follows Mercedes's alternating Service A and B. Its M157 twin-turbo V8 adds a low-temperature charge-air cooling circuit alongside the engine coolant, and shorter spark plug intervals than the old naturally aspirated V8s. The intervals below come from Mercedes's A/B contents and M157 specialist guidance.",
+  "schedule_note": "Service A/B contents from KBB's G-Class schedule; other intervals are specialist guidance (Euro Premium Parts) as quoted in our buyer's baseline. Follow the service indicator and your booklet.",
+  "schedule": [
+   {
+    "at": "Every 10,000 mi / 1 year (Service A / B)",
+    "items": [
+     "Engine oil and filter",
+     "Cabin filter yearly; brake fluid with Service B"
+    ]
+   },
+   {
+    "at": "About every 20,000 mi",
+    "items": [
+     "Air filters (sooner on dusty trails)"
+    ]
+   },
+   {
+    "at": "About every 40,000 mi",
+    "items": [
+     "7G-TRONIC fluid and filter (Euro Premium Parts)"
+    ]
+   },
+   {
+    "at": "About every 40,000–50,000 mi",
+    "items": [
+     "Spark plugs and coils"
+    ]
+   },
+   {
+    "at": "About every 4 years",
+    "items": [
+     "Engine (high-temperature) coolant; check the charge-air (low-temperature) circuit level and bleed it after any work"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid"
+    ]
+   }
+  ],
+  "severe": "Hard use, heat and towing are hard on the turbo coolant lines and the charge-air circuit; check levels more often. After water crossings, check the diffs, transfer case and knuckles.",
+  "age_items": [
+   {
+    "item": "Camshaft adjuster magnets",
+    "when": "Check the connectors for oil",
+    "why": "A known M157 leak."
+   },
+   {
+    "item": "Turbo coolant lines and water pump",
+    "when": "Look for coolant at every service",
+    "why": "Covered in the repair guides."
+   },
+   {
+    "item": "Front swivel seals and CV boots",
+    "when": "Check at every oil change",
+    "why": "Leaking swivel seals are common on older G's; top up the knuckle grease until they're done."
+   },
+   {
+    "item": "Steering damper",
+    "when": "If it's oily or the truck shakes at 60 mph",
+    "why": "Owners put damper life around 70,000–80,000 miles; check tire balance first."
+   },
+   {
+    "item": "Coil springs",
+    "when": "Listen for thumping after cold weather",
+    "why": "Autocar says they crack."
+   },
+   {
+    "item": "Diff lock vacuum lines",
+    "when": "Exercise the locks monthly",
+    "why": "Unused locks and old lines stop working."
+   }
+  ],
+  "sources": [
+   {
+    "name": "KBB: Mercedes-Benz G-Class maintenance schedule (Service A and B)",
+    "url": "https://www.kbb.com/mercedes-benz/g-class/2004/maintenance-schedules/"
+   },
+   {
+    "name": "Euro Premium Parts: M157 service guidance (in our buyer's baseline)"
+   },
+   {
+    "name": "MBWorld: W463 axle leaking grease thread",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/787412-w463-g63-axle-leaking-grease-any-help-normal-2.html"
+   },
+   {
+    "name": "MBWorld: Steering damper longevity",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
+   }
+  ]
+ }
 }

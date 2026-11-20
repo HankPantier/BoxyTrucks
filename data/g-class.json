@@ -497,8 +497,8 @@
     "diff": "3 / 5",
     "time": "A day",
     "cost": "$600–1,500",
-    "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling to one side.",
-    "fix": "Replace both front axle seals, not just the leaking side, and inspect the shafts for scoring. If oil has reached the brakes, replace the pads and resurface or replace the rotors.",
+    "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on the caliper or rotor, brakes pulling to one side. Owners on MBWorld usually find it at the front knuckle, where the swivel ('swipe') seal or a cracked CV boot lets grease out.",
+    "fix": "Replace both front axle seals, not just the leaking side, and inspect the shafts for scoring. If oil has reached the brakes, replace the pads and resurface or replace the rotors. To tell which it is, MBWorld member Floobydust pushes a clean dowel into the hub's grease fill hole: runny black grease points to a split boot, homogenized brown grease to water getting in. Check the diff oil too; if it's clean, the inner axle seal is probably fine.",
     "tools": "Axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated",
     "parts": [
      {
@@ -510,6 +510,21 @@
       "name": "Liqui Moly 75W-90 synthetic hypoid gear oil (1 L)",
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/products/gear-oil-liqui-moly-99991754600"
+     }
+    ],
+    "know": [
+     "Members say degraded swivel seals are par for the course on older G's; one owner topped up the grease every 1,000–2,000 miles and checked the boots at each oil change until he could do the job.",
+     "Mercedes often replaces the whole axle shaft rather than just a boot, and one member put a full axle job with all seals and boots at $2,000–5,000.",
+     "When refilling the grease, cycle the steering lock to lock."
+    ],
+    "mistakes": [
+     "Fitting split swivel seals, which a member says always fail down the road.",
+     "Ignoring the leak until water has got into the knuckle grease."
+    ],
+    "refs": [
+     {
+      "name": "MBWorld: W463 G63 axle leaking grease, normal?",
+      "url": "https://mbworld.org/forums/g-class-w460-w461-w463/787412-w463-g63-axle-leaking-grease-any-help-normal-2.html"
      }
     ]
    },
@@ -536,6 +551,21 @@
       "name": "Genuine Mercedes outer tie rod 002 460 16 48",
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/products/mercedes-steering-tie-rod-outer-g500-g55-amg-g550-g63-amg-mer-0024601648"
+     }
+    ],
+    "know": [
+     "An MBWorld member puts damper life at around 70,000–80,000 miles; others have replaced leaking ones under warranty at under 10,000.",
+     "A road-force tire balance (under 20 lb, one member suggests) often cures a 60 mph shake that gets blamed on the damper; the damper slows steering response, it doesn't fix vibration.",
+     "Tire pressure matters: one owner noticed the wobble less once the tires were warm and at the right pressure."
+    ],
+    "mistakes": [
+     "Fitting a stiffer damper to mask an out-of-balance tire or worn joints.",
+     "Ignoring an oily damper body, the sign it has started to leak."
+    ],
+    "refs": [
+     {
+      "name": "MBWorld: Steering damper longevity",
+      "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
      }
     ]
    },

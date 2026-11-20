@@ -183,7 +183,7 @@
    "time": "Most of a day",
    "cost": "Parts plus labor",
    "symptoms": "Check-engine light with P2004, P2005 or P2006; sometimes a lumpy idle or flat spot. The operating lever on the flap shaft breaks.",
-   "fix": "Repair kits for the lever exist, but FCP Euro recommends replacing the complete manifold assembly because the flaps can also fail internally and send pieces into the cylinders. Remove the engine cover and air intake, disconnect the throttle body and sensors, unbolt the manifold, fit the new one with new gaskets, and clear the codes.",
+   "fix": "Repair kits for the lever exist, but FCP Euro recommends replacing the complete manifold assembly because the flaps can also fail internally and send pieces into the cylinders. Remove the engine cover and air intake, disconnect the throttle body and sensors, unbolt the manifold, fit the new one with new gaskets, and clear the codes. MB Medic says the usual cause is the brittle plastic lever on the manifold's flap shaft; it covers both the M272 V6 and M273 V8, and recommends the lever repair kit (2721402401, or an aluminum lever) rather than a new manifold. Removing the manifold takes one to two hours; the lever's T30 Torx bolt strips easily, so use thread locker and torque it to 8 lb-ft.",
    "tools": "Intake manifold assembly (e.g. Pierburg) · manifold gaskets · Torx and hex sockets · torque wrench · scan tool",
    "parts": [
     {
@@ -195,6 +195,21 @@
      "name": "Elring intake manifold gasket 273 141 04 80",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-engine-intake-manifold-gasket-elring-2731410480"
+    }
+   ],
+   "know": [
+    "Codes: P2004 (bank 1 stuck open), P2005 (bank 2 stuck open), P2006 (stuck closed).",
+    "Replace the intake manifold gasket while it's off.",
+    "Carbon build-up near the valves speeds the lever's failure, MB Medic says."
+   ],
+   "mistakes": [
+    "Buying a whole manifold when the lever is the failed part.",
+    "Stripping the T30 lever bolt."
+   ],
+   "refs": [
+    {
+     "name": "MB Medic: Mercedes P2004 code, intake flap lever",
+     "url": "https://www.mercedesmedic.com/mercedes-p2004-code-throttle-lever-flap/"
     }
    ]
   },
@@ -271,8 +286,8 @@
    "diff": "3 / 5",
    "time": "A day",
    "cost": "$600–1,500",
-   "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on a caliper or rotor, brakes pulling to one side.",
-   "fix": "Replace both front axle seals even if only one is leaking, and check the shafts for scoring. If oil reached the brakes, replace the pads and resurface or replace the rotors — contaminated pads are a safety issue.",
+   "symptoms": "Gear oil on the inner front wheels, a gear-oil smell, oil on a caliper or rotor, brakes pulling to one side. Owners on MBWorld usually find it at the front knuckle, where the swivel ('swipe') seal or a cracked CV boot lets grease out.",
+   "fix": "Replace both front axle seals even if only one is leaking, and check the shafts for scoring. If oil reached the brakes, replace the pads and resurface or replace the rotors — contaminated pads are a safety issue. To tell which it is, MBWorld member Floobydust pushes a clean dowel into the hub's grease fill hole: runny black grease points to a split boot, homogenized brown grease to water getting in. Check the diff oil too; if it's clean, the inner axle seal is probably fine.",
    "tools": "Genuine axle seals (both sides) · seal driver · gear oil · brake pads and rotors if contaminated",
    "parts": [
     {
@@ -284,6 +299,21 @@
      "name": "Red Line 75W-90 GL-5 gear oil (listed for 2009–2014 G 550)",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/75w90-gear-oil-quart-oil-57904"
+    }
+   ],
+   "know": [
+    "Members say degraded swivel seals are par for the course on older G's; one owner topped up the grease every 1,000–2,000 miles and checked the boots at each oil change until he could do the job.",
+    "Mercedes often replaces the whole axle shaft rather than just a boot, and one member put a full axle job with all seals and boots at $2,000–5,000.",
+    "When refilling the grease, cycle the steering lock to lock."
+   ],
+   "mistakes": [
+    "Fitting split swivel seals, which a member says always fail down the road.",
+    "Ignoring the leak until water has got into the knuckle grease."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: W463 G63 axle leaking grease, normal?",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/787412-w463-g63-axle-leaking-grease-any-help-normal-2.html"
     }
    ]
   },
@@ -306,14 +336,29 @@
      "supplier": "Eurowise",
      "url": "https://shop.eurowise.com/products/ew463kss"
     }
+   ],
+   "know": [
+    "An MBWorld member puts damper life at around 70,000–80,000 miles; others have replaced leaking ones under warranty at under 10,000.",
+    "A road-force tire balance (under 20 lb, one member suggests) often cures a 60 mph shake that gets blamed on the damper; the damper slows steering response, it doesn't fix vibration.",
+    "Tire pressure matters: one owner noticed the wobble less once the tires were warm and at the right pressure."
+   ],
+   "mistakes": [
+    "Fitting a stiffer damper to mask an out-of-balance tire or worn joints.",
+    "Ignoring an oily damper body, the sign it has started to leak."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: Steering damper longevity",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
+    }
    ]
   },
   {
    "title": "Cracked coil springs",
    "diff": "2 / 5",
    "time": "Half a day",
-   "cost": "Autocar: about £120 per corner",
-   "symptoms": "A loud thump over bumps, uneven ride height — often discovered after cold weather.",
+   "cost": "Autocar: budget about £120 a corner",
+   "symptoms": "Autocar says the coils can crack, especially in cold weather, and the usual sign is a loud thumping while driving. Uneven ride height is another clue.",
    "fix": "Replace springs in axle pairs. If a lift is on the cards, do it now with a matched spring-and-shock kit rather than buying stock springs twice.",
    "tools": "Springs (pairs) · jack and stands · spring compressor if your setup needs one · new shocks recommended",
    "parts": [
@@ -326,6 +371,20 @@
      "name": "ARB Old Man Emu 50 mm lift springs for W463",
      "supplier": "Eurowise",
      "url": "https://shop.eurowise.com/products/ew463ome"
+    }
+   ],
+   "know": [
+    "Autocar budgets about £120 per corner for springs.",
+    "Replace springs in axle pairs so ride height stays even."
+   ],
+   "mistakes": [
+    "Replacing one spring at a time.",
+    "Using a cheap spring compressor on a heavy G spring."
+   ],
+   "refs": [
+    {
+     "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+     "url": "https://autocar.co.uk/node/104626"
     }
    ]
   }

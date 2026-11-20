@@ -540,5 +540,91 @@
    "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
    "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G-Class W463 (1990–2018) maintenance: Mercedes's Service A/B, 722.6 or 7G-TRONIC fluid every 40,000–60,000 mi, propshaft and front axle checks, plus links to each engine's own schedule.",
+  "intro": "The W463 spans nearly three decades and half a dozen engines, so each model page (G 500, G 55, G 550, G 63) carries its own detailed schedule. What every W463 shares: Mercedes's alternating Service A (oil) and Service B (oil, filters and brake fluid), a long-interval driveline the factory barely schedules, and the same front axle, steering and propshaft wear items.",
+  "schedule_note": "Service A/B contents from KBB's G-Class schedule; driveline intervals as owner and technician practice from our buyer's baseline. See the engine-specific G 500, G 55, G 550 and G 63 maintenance pages for model detail.",
+  "schedule": [
+   {
+    "at": "Service A (about every 10,000 mi or yearly, at the indicator)",
+    "items": [
+     "Engine oil and filter",
+     "Check and correct fluid levels"
+    ]
+   },
+   {
+    "at": "Service B (alternates with A)",
+    "items": [
+     "Oil and filter, cabin filter and engine air filter",
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Every 40,000–60,000 mi",
+    "items": [
+     "Automatic transmission fluid and filter (722.6 five-speed or 722.9 7G-TRONIC); check the 722.6's connector plug for leaks"
+    ]
+   },
+   {
+    "at": "Every service",
+    "items": [
+     "Grease and inspect the propshafts and flex discs",
+     "Check the front swivel seals and CV boots"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid and hoses"
+    ]
+   }
+  ],
+  "severe": "Off-road and wading: check the diffs, transfer case and knuckle grease for water afterwards, and change the air filters sooner in dust.",
+  "age_items": [
+   {
+    "item": "Front swivel seals and CV boots",
+    "when": "Check at every oil change",
+    "why": "Leaking swivel seals are common on older G's; top up the knuckle grease until they're done."
+   },
+   {
+    "item": "Steering damper",
+    "when": "If it's oily or the truck shakes at 60 mph",
+    "why": "Owners put damper life around 70,000–80,000 miles; check tire balance first."
+   },
+   {
+    "item": "Coil springs",
+    "when": "Listen for thumping after cold weather",
+    "why": "Autocar says they crack."
+   },
+   {
+    "item": "Diff lock vacuum lines",
+    "when": "Exercise the locks monthly",
+    "why": "Unused locks and old lines stop working."
+   },
+   {
+    "item": "Propshafts",
+    "when": "If it judders",
+    "why": "Autocar budgets at least £1,500 for a shaft."
+   }
+  ],
+  "sources": [
+   {
+    "name": "KBB: Mercedes-Benz G-Class maintenance schedule (Service A and B)",
+    "url": "https://www.kbb.com/mercedes-benz/g-class/2004/maintenance-schedules/"
+   },
+   {
+    "name": "Autocar: Used car buying guide, G-Class W463",
+    "url": "https://autocar.co.uk/node/104626"
+   },
+   {
+    "name": "MBWorld: W463 axle leaking grease thread",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/787412-w463-g63-axle-leaking-grease-any-help-normal-2.html"
+   },
+   {
+    "name": "MBWorld: Steering damper longevity",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
+   }
+  ]
+ }
 }

@@ -384,5 +384,107 @@
    "name": "Mercedes-Benz USA — 2016 G-Class Operator's Manual (PDF): wheel-bolt torque 96 lb-ft (130 Nm)",
    "url": "https://www.mbusa.com/vcm/MB/DigitalAssets/pdfmb/ownersmanual/MY16_G.pdf"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G 550 maintenance schedule from Mercedes's 2013 US booklet: oil every 10,000 mi or yearly, plugs and 7G-TRONIC at 40,000–60,000, transfer case and diffs every 50,000, brake fluid every 2 years, plus the M273 items.",
+  "intro": "Mercedes's 2013 US maintenance booklet for the M273 G 550 sets the oil change at 10,000 miles or a year, with the 7-speed automatic at 40,000 miles and the transfer case and diffs at 50,000. The 2016-on M176 twin-turbo G 550 uses longer metric intervals from the Canadian booklet. The M273's known jobs (thermostat, swirl flaps, breather and oil-cooler seals, tensioner) sit outside the A/B list.",
+  "schedule_note": "From Mercedes's 2013 US G 550 maintenance booklet (M273) and the 2016 Canadian booklet (M176), as quoted in our buyer's baseline. Follow the service indicator and your own booklet.",
+  "schedule": [
+   {
+    "at": "Every 10,000 mi / 1 year (Service A / B)",
+    "items": [
+     "Engine oil and filter",
+     "Cabin filter yearly",
+     "Check power steering fluid level"
+    ]
+   },
+   {
+    "at": "Every 2 years / 20,000 mi",
+    "items": [
+     "Brake fluid (the 2016 Canadian booklet says every year)"
+    ]
+   },
+   {
+    "at": "Every 40,000 mi / 4 years (M273)",
+    "items": [
+     "Air filters",
+     "7G-TRONIC oil and filter"
+    ]
+   },
+   {
+    "at": "Every 50,000 mi / 5 years (M273)",
+    "items": [
+     "Transfer case",
+     "Front and rear differentials"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi / 6 years (M273)",
+    "items": [
+     "Spark plugs",
+     "Thermostat",
+     "Belt tensioner and idlers"
+    ]
+   },
+   {
+    "at": "M176 (2016–2018)",
+    "items": [
+     "Air filter every 40,000 km / 2 years; plugs every 100,000 km / 5 years; transmission and transfer case every 120,000 km; diffs every 80,000 km / 4 years (Canadian booklet)"
+    ]
+   }
+  ],
+  "severe": "Change the air filters sooner in dust. After water crossings, check the diffs, transfer case and front knuckle grease for water.",
+  "age_items": [
+   {
+    "item": "Intake swirl flap lever (M273)",
+    "when": "If P2004–P2006 appear",
+    "why": "The plastic lever breaks; a lever kit fixes it."
+   },
+   {
+    "item": "Oil in the cam-magnet connectors (M273)",
+    "when": "Check at every service",
+    "why": "Oil wicks along the harness."
+   },
+   {
+    "item": "Front swivel seals and CV boots",
+    "when": "Check at every oil change",
+    "why": "Leaking swivel seals are common on older G's; top up the knuckle grease until they're done."
+   },
+   {
+    "item": "Steering damper",
+    "when": "If it's oily or the truck shakes at 60 mph",
+    "why": "Owners put damper life around 70,000–80,000 miles; check tire balance first."
+   },
+   {
+    "item": "Coil springs",
+    "when": "Listen for thumping after cold weather",
+    "why": "Autocar says they crack."
+   },
+   {
+    "item": "Diff lock vacuum lines",
+    "when": "Exercise the locks monthly",
+    "why": "Unused locks and old lines stop working."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Mercedes-Benz 2013 US G 550 maintenance booklet (in our buyer's baseline)"
+   },
+   {
+    "name": "Mercedes-Benz Canada 2016 G-Class maintenance booklet (in our buyer's baseline)"
+   },
+   {
+    "name": "MB Medic: P2004 intake flap lever",
+    "url": "https://www.mercedesmedic.com/mercedes-p2004-code-throttle-lever-flap/"
+   },
+   {
+    "name": "MBWorld: W463 axle leaking grease thread",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/787412-w463-g63-axle-leaking-grease-any-help-normal-2.html"
+   },
+   {
+    "name": "MBWorld: Steering damper longevity",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
+   }
+  ]
+ }
 }

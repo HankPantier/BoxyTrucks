@@ -401,5 +401,71 @@
    "name": "duPont Registry — Mercedes-Benz G-Class Experience",
    "url": "https://news.dupontregistry.com/blogs/g-class/mercedes-benz-g-class-experience"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "G-Class (2019 on) maintenance: Mercedes's ASSYST PLUS service indicator, Service A (oil and inspections) and Service B (adds brake fluid), electric steering with no fluid, an in-tank fuel filter, and the recall checks every used one needs.",
+  "intro": "The second-generation G-Class (W463A) runs on Mercedes's ASSYST PLUS service indicator, alternating a Service A and a Service B. One owner who does his own B service describes it as an A service plus a brake fluid flush. The steering is electric, so there's no power steering fluid, and the fuel filter lives inside the tank. Mercedes's longer-interval items vary by engine and model year, so check the booklet for your VIN.",
+  "schedule_note": "From the owner's manual guidance quoted in our buyer's baseline and an owner's DIY B-service notes on MBWorld (citing Mercedes WIS). Mercedes's published mileages for plugs, the 9G-TRONIC, transfer case and diffs aren't reproduced here; use your booklet.",
+  "schedule": [
+   {
+    "at": "When ASSYST PLUS calls for it (Service A)",
+    "items": [
+     "Engine oil and filter",
+     "Fluid level inspections"
+    ]
+   },
+   {
+    "at": "Alternate services (Service B)",
+    "items": [
+     "Everything in Service A",
+     "Brake fluid flush and replace"
+    ]
+   },
+   {
+    "at": "Every year",
+    "items": [
+     "Cabin air filter"
+    ]
+   },
+   {
+    "at": "Every service",
+    "items": [
+     "Check the door hinges",
+     "Check for open recalls and software updates"
+    ]
+   }
+  ],
+  "severe": "The owner's manual says to service more often for arduous use, such as mountain driving and poor road surfaces.",
+  "age_items": [
+   {
+    "item": "Recalls 20V-090, 21V-353 and 24V-659",
+    "when": "At purchase",
+    "why": "Diff lock module, and two rounds of rear door latch fixes."
+   },
+   {
+    "item": "Transfer case output seal",
+    "when": "Look for oil at every service",
+    "why": "A known leak point."
+   },
+   {
+    "item": "Fuel filter",
+    "when": "Not a routine item",
+    "why": "It's in the tank; avoid contaminated fuel and cans (MBWorld owner, citing WIS)."
+   }
+  ],
+  "sources": [
+   {
+    "name": "MBWorld: DIY scheduled B service notes (2019 G 550)",
+    "url": "https://mbworld.org/forums/g-class-w465-w463a/875135-diy-scheduled-b-service-notes.html"
+   },
+   {
+    "name": "NHTSA recall 20V-090 (via Justia)",
+    "url": "https://auto-recalls.justia.com/mercedes-benz/g550/2019/20v090000"
+   },
+   {
+    "name": "NHTSA recall 24V-659 (via Justia)",
+    "url": "https://auto-recalls.justia.com/mercedes-benz/g550/2021/24v659000"
+   }
+  ]
+ }
 }
