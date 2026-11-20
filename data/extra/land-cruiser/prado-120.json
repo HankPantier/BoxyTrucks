@@ -336,5 +336,97 @@
    "name": "IH8MUD — GX470 Prado Rebadge",
    "url": "https://forum.ih8mud.com/threads/gx470-prado-rebadge.1358905/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Prado 120 maintenance schedule: Toyota's diesel schedule (oil every 15,000 km, fuel filter and brake fluid every 30,000 km, 1KD timing belt at 150,000 km) plus the 1KD injector checks and age items.",
+  "intro": "Toyota New Zealand's diesel service schedule covers Prado diesels built from January 2005, so it applies to most 1KD-FTV 120s. It runs on a 15,000 km / 12-month service. For earlier trucks and petrol engines, the UK intervals Roughtrax publishes are shorter (oil every 6,000 miles), and we list both where they differ. The 1KD's injector seats need attention no schedule mentions.",
+  "schedule_note": "Main rows: Toyota New Zealand diesel service schedule (diesels built from January 2005). Where Roughtrax's UK sheet gives a different interval, it's noted. Check your own service book for your market.",
+  "schedule": [
+   {
+    "at": "Every 15,000 km / 12 months (Toyota NZ)",
+    "items": [
+     "Replace engine oil and filter (Roughtrax's UK sheet: every 6,000 mi / 12 months)",
+     "Inspect drive belts, air and cabin filters, hoses, exhaust, fuel lines and the water sediment accumulator",
+     "Check brakes, steering, suspension, tyres and drive shaft joints"
+    ]
+   },
+   {
+    "at": "Every 30,000 km / 2 years (Toyota NZ)",
+    "items": [
+     "Replace brake and clutch fluid",
+     "Replace the fuel filter (Roughtrax: every 12,000 mi / 12 months)",
+     "Differential oil (fluid table: every 30,000 km / 2 years)",
+     "Inspect transfer case fluid"
+    ]
+   },
+   {
+    "at": "Every 40,000 km (specialist advice, 1KD)",
+    "items": [
+     "Injector seat washers and the oil pickup check (Unsealed 4X4)"
+    ]
+   },
+   {
+    "at": "Every 90,000 km / 6 years (Toyota NZ)",
+    "items": [
+     "Automatic or manual transmission and transfer case oil (fluid table)"
+    ]
+   },
+   {
+    "at": "Around every 100,000 km (1KD)",
+    "items": [
+     "Test the injectors and replace them as needed (4X4 Australia; Australian Car Reviews)"
+    ]
+   },
+   {
+    "at": "150,000 km / 10 years (Toyota NZ)",
+    "items": [
+     "Replace the timing belt (1KD-FTV and 1KZ-TE; HD Automotive also quotes 150,000 km or 5 years for the 1KD)",
+     "Replace coolant, then every 75,000 km"
+    ]
+   }
+  ],
+  "severe": "Toyota NZ halves the oil interval for towing, full loads, long idling, short cold trips and dusty roads, and on dusty roads asks for the timing belt and pulleys to be inspected every 30,000 km. After water crossings, grease the propshaft joints within 24 hours and check the diff oil for water. Roughtrax's UK sheet greases the propshafts every 3,000 miles in severe use.",
+  "age_items": [
+   {
+    "item": "Rear door hinges",
+    "when": "Every service",
+    "why": "A dropping door is the first sign of the hinge-side cracking 120s are known for."
+   },
+   {
+    "item": "Dash top",
+    "when": "At purchase",
+    "why": "2003–2006 dashes crack, often across the airbag panel."
+   },
+   {
+    "item": "Rear air springs (Grande and top grades)",
+    "when": "Check the truck holds its height overnight",
+    "why": "Old bags leak and wear out the compressor."
+   },
+   {
+    "item": "Front lower ball joints and CV boots",
+    "when": "Every service",
+    "why": "Both wear on a heavy, hard-used truck."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota New Zealand diesel service schedule",
+    "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
+   },
+   {
+    "name": "Roughtrax 4x4: Prado 120 UK service intervals"
+   },
+   {
+    "name": "Unsealed 4X4 (1KD injector seats)"
+   },
+   {
+    "name": "ExplorOz: 120 Prados, cracks",
+    "url": "https://www.exploroz.com/forum/66153/120-prados---cracks"
+   },
+   {
+    "name": "ExplorOz: Prado 120 dashboard cracks",
+    "url": "https://www.exploroz.com/forum/84962/prado-120-dashboard-cracks"
+   }
+  ]
+ }
 }

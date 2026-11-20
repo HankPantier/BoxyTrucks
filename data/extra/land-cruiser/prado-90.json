@@ -334,5 +334,95 @@
    "name": "Cruise Moab",
    "url": "https://www.cruisemoab.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Prado 90 / 95 maintenance schedule: UK factory-based intervals for the KZJ90/95 (oil every 6,000 mi, fuel filter every 12,000 mi, 1KZ-TE timing belt at 60,000 mi or 100,000 km) plus cooling-system age items that save the head.",
+  "intro": "Toyota doesn't publish the 1996–2002 Prado's maintenance book online that we could find. The intervals below come from Roughtrax's KZJ90/95 data sheet, which follows the UK schedule, with HD Automotive's longer timing-belt figure noted where they differ. On a 1KZ-TE the cooling system matters more than any interval: heat cracks the head.",
+  "schedule_note": "Not reproduced from a Toyota book. Intervals from Roughtrax's UK KZJ90/95 data sheet unless noted; confirm against the service book for your market and engine.",
+  "schedule": [
+   {
+    "at": "Every 6,000 mi / 12 months",
+    "items": [
+     "Replace engine oil and filter (every 6 months in severe use) and the sump-plug washer",
+     "Inspect the air filter and airbox seals",
+     "Grease the propshaft U-joints and slip yokes",
+     "Inspect lower ball joints and CV boots (Australian Car Reviews)"
+    ]
+   },
+   {
+    "at": "Every 12,000 mi / 12 months",
+    "items": [
+     "Replace the diesel fuel filter; drain the water trap whenever its light comes on"
+    ]
+   },
+   {
+    "at": "Every 18,000 mi",
+    "items": [
+     "Replace brake fluid",
+     "Replace rear differential oil"
+    ]
+   },
+   {
+    "at": "Every 24,000 mi / 24 months",
+    "items": [
+     "Replace manual gearbox and transfer case oil",
+     "Replace clutch fluid"
+    ]
+   },
+   {
+    "at": "Every 36,000 mi / 36 months",
+    "items": [
+     "Replace coolant and inspect the radiator and hoses",
+     "Replace front differential oil"
+    ]
+   },
+   {
+    "at": "1KZ-TE: 60,000 mi / 60 months (Roughtrax) or 100,000 km / 5–6 years (HD Automotive)",
+    "items": [
+     "Replace the timing belt, tensioner and water pump"
+    ]
+   },
+   {
+    "at": "5VZ-FE V6: about 90,000 mi",
+    "items": [
+     "Replace the timing belt and water pump"
+    ]
+   }
+  ],
+  "severe": "Roughtrax halves the propshaft greasing interval to every 3,000 miles or 3 months in severe use, and oil changes go to every 6 months. In dust, check the air filter at every stop where you can. After water crossings, check the diff oils for water.",
+  "age_items": [
+   {
+    "item": "Radiator and the automatic's internal cooler",
+    "when": "At purchase",
+    "why": "A failed cooler mixes coolant into the ATF; look for pink, milky fluid."
+   },
+   {
+    "item": "Viscous fan hub and turbo coolant hoses (1KZ-TE)",
+    "when": "At purchase and with every coolant change",
+    "why": "Australian Car Reviews lists a failing fan hub, a blocked radiator and a seized wastegate actuator among the 1KZ-TE overheating causes that lead to a cracked head."
+   },
+   {
+    "item": "Lower ball joints",
+    "when": "If there's no record, replace them",
+    "why": "Worn joints can separate."
+   },
+   {
+    "item": "Sub tank switching (five-doors)",
+    "when": "At purchase",
+    "why": "Check the second tank actually feeds the engine."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Roughtrax 4x4: KZJ90/95 Prado data sheet"
+   },
+   {
+    "name": "HD Automotive: 1KZ-TE timing belt interval"
+   },
+   {
+    "name": "Australian Car Reviews: 1KZ-TE overheating and cracked heads (Hilux Mk6, same engine)",
+    "url": "https://www.australiancar.reviews/?p=47874"
+   }
+  ]
+ }
 }
