@@ -114,11 +114,21 @@
   },
   {
    "gen": "hummer/h1",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 1,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "Fuel shutoff solenoid guide still thin"
   },
   {
    "gen": "lexus/lx570",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 3,
+   "maintenance": true,
+   "note": "Water pump, starter and spark plug guides still thin"
   },
   {
    "gen": "chevrolet/k5-blazer-1st",

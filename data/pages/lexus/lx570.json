@@ -164,7 +164,7 @@
    "diff": "3 / 5",
    "time": "Parts plus labor. The FSM procedure is posted on IH8MUD.",
    "cost": "Parts plus labor. Some owners have had Toyota cover it out of warranty.",
-   "symptoms": "A wet line or pink crust along the top plastic tank next to the molded platform, slow coolant loss and a sweet smell after a drive. It's most often reported on 2008–2010 trucks.",
+   "symptoms": "A wet line or pink crust along the top plastic tank next to the molded platform, slow coolant loss and a sweet smell after a drive. It's most often reported on 2008–2010 trucks. Owners on IH8MUD describe the crack as a seam crack around the raised boss on the plastic top tank. Reported failures include 139,000 and 143,000 miles; one owner caught his at 166,000 from the wet line before it let go.",
    "fix": "Drain the coolant and follow the factory removal and installation steps posted in the IH8MUD radiator-replacement thread linked from the Common Failures FAQ. Fit the current (later) part number, then refill with Toyota pink long-life coolant and bleed the system. Check the water pump while the front of the engine is open.",
    "tools": "Basic metric sockets · drain pan · hose pliers · Toyota Super Long Life Coolant · new radiator (later part number)",
    "parts": [
@@ -177,6 +177,25 @@
      "name": "Radiators and hoses (2013 LX570 catalog)",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/lexus,2013,lx570"
+    }
+   ],
+   "know": [
+    "In an IH8MUD poll of 162 200-series owners, a cracked or leaking radiator was the most common repair (44%).",
+    "The radiator part number has been superseded several times; one member gives the Lexus number as 16400-50383 and says the supplier (T.RAD) never changed.",
+    "Some owners report Toyota covering a replacement after the warranty ended; ask."
+   ],
+   "mistakes": [
+    "Patching the tank with putty or epoxy; owners point out the plastic keeps cracking past any patch.",
+    "Ignoring a wet line at the boss; it's the warning before a sudden failure."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: 2008–2018 radiator failure and public service announcement",
+     "url": "https://forum.ih8mud.com/threads/2008-2010-radiator-failure-and-public-service-announcement.917447/"
+    },
+    {
+     "name": "IH8MUD poll: common 200-series repairs",
+     "url": "https://forum.ih8mud.com/threads/poll-which-common-repairs-have-been-completed-on-your-200-series-if-any.1257554/page-2"
     }
    ]
   },
@@ -211,7 +230,7 @@
    "diff": "4 / 5",
    "time": "A long weekend",
    "cost": "FIPG sealant and two union-pipe O-rings, plus a lot of labor if a shop does it",
-   "symptoms": "Pink coolant dripping from the top of the transmission hump at the back of the engine, with the water pump area dry.",
+   "symptoms": "Pink coolant dripping from the top of the transmission hump at the back of the engine, with the water pump area dry. Sometimes there's no drip at all: one owner's leak was found only because the coolant was low at a service. Under the cover, owners find coolant thick 'like molasses with chunks in it'.",
    "fix": "Remove the plastic intake runners and intake to expose the engine valley. Remove the aluminum heat-exchanger cover, clean both surfaces and reseal with grey FIPG. Replace the union pipe and both of its O-rings while you're in there. One IH8MUD member called it \"a PHH job on FZJs on steroids\": nothing technical, just a lot of hard-to-reach bolts.",
    "tools": "Long extensions · swivel sockets · gasket scraper · grey FIPG · union pipe O-rings · new intake gaskets",
    "parts": [
@@ -224,6 +243,22 @@
      "name": "3UR gaskets (search)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/search.php?search_query=3UR+gasket"
+    }
+   ],
+   "know": [
+    "IH8MUD members blame the FIPG sealant on the cover. The factory compound was grey; one member lists Toyota's 1282B (08826-00100), and a dealer said it's since been replaced, so confirm the current sealant.",
+    "Parts members replace at the same time: the intake manifold gaskets, PCV valve and its gasket, and the union pipe O-rings (one list gives 96761-35035).",
+    "One owner paid $1,430 at a shop including parts and coolant; another took about two days doing it himself."
+   ],
+   "mistakes": [
+    "Using ordinary black RTV; members warn it means doing the job again.",
+    "Losing track of the secondary air valves and their gaskets during teardown; bag and label them.",
+    "Refitting the union pipe after the cover; one member says fit the coolant pipe first, with plenty of coolant on the O-rings."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Heat exchanger valley leak",
+     "url": "https://forum.ih8mud.com/threads/kind-of-mystery-coolant-leak-back-of-engine-heat-exchanger-valley-leak.1004327/page-14"
     }
    ]
   },
@@ -245,6 +280,25 @@
      "name": "Driveshaft parts (search)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/search.php?search_query=200+series+driveshaft"
+    }
+   ],
+   "know": [
+    "One IH8MUD member with a 2008 says Toyota has a TSB for early 200-series trucks that replaces the rear driveshaft, and that it fixed his clunk.",
+    "The same member says pumping the slip yoke's zerk doesn't always get grease where it's needed; he separates the slip, cleans it and regreases the splines with a thick moly grease.",
+    "Lexus's schedule lubricates the drive shaft and re-torques its bolts every 15,000 miles (every 5,000 off-road or towing)."
+   ],
+   "mistakes": [
+    "Separating the slip without marking both halves; it must go back in the same phase.",
+    "Relying on the parking brake alone with both shafts off; chock the wheels too."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Clunk on acceleration",
+     "url": "https://forum.ih8mud.com/threads/clunk-on-acceleration.1133402/"
+    },
+    {
+     "name": "Lexus 2010 LX 570 Warranty and Services Guide",
+     "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-10LX570/pdf/10LX570.pdf"
     }
    ]
   },

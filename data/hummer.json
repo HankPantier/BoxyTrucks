@@ -429,13 +429,58 @@
     "time": "≈ 2–3 hours",
     "cost": "Plugs about $10–12 each in Flash Off-Road's report",
     "symptoms": "Hard cold starts that get worse as temperatures drop, or black smoke and a stall right after starting. Flash Off-Road's 1996 turbo diesel wouldn't start below 50°F when its plugs failed.",
-    "fix": "With the ignition on, the voltmeter should dip as the plugs draw current. Measure about 50–55 amps per bank and 13–14 amps per plug while they cycle (6.5 non-turbo procedure; military 24-volt trucks are different). Replace failed plugs; Flash Off-Road recommends the self-limiting AC 60G. Check the controller and alternator voltage too, because both can burn out plugs. They aren't a routine service item.",
+    "fix": "With the ignition on, the voltmeter should dip as the plugs draw current. Measure about 50–55 amps per bank and 13–14 amps per plug while they cycle (6.5 non-turbo procedure; military 24-volt trucks are different). Replace failed plugs; Flash Off-Road recommends the self-limiting AC 60G. Check the controller and alternator voltage too, because both can burn out plugs. They aren't a routine service item. DieselHub's 6.2/6.5 diagnostics give a resistance check too: measure each plug from its spade terminal to a good engine ground, with 0.8–1.8 ohms in spec. Each ACDelco 60G plug should draw about 6–10 amps at the start of a cycle, and the whole system about 40–50 amps at the battery's negative cable; below 40 amps, test plugs individually. The controller's large red input lug should show 12 volts even with the key off. A chattering relay almost always means a faulty controller.",
     "tools": "Multimeter with a DC amp clamp or in-line ammeter · deep sockets · anti-seize",
     "parts": [
      {
       "name": "Diesel glow plugs, 1998 H1 6.5 TD (catalog)",
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/hummer,1998,h1,6.5l+v8+diesel+turbocharged,1379426,ignition,diesel+glow+plug,7152"
+     }
+    ],
+    "know": [
+     "Replace all eight plugs at once if any is out of spec (DieselHub).",
+     "GM's replacement interval is 100,000 miles; DieselHub recommends no more than 60,000.",
+     "Use genuine ACDelco 60G plugs: DieselHub says aftermarket plugs are known to swell and can break off in the chamber."
+    ],
+    "mistakes": [
+     "Jump-starting a 6.5 except in an emergency; DieselHub says it frequently damages glow plug system parts.",
+     "Soldering a blown fusible link; splice it with heat shrink at the original gauge and length."
+    ],
+    "refs": [
+     {
+      "name": "DieselHub: 6.2L and 6.5L glow plug system diagnostics",
+      "url": "https://www.dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+     },
+     {
+      "name": "Flash Off-Road: GM diesel Hummer glow plug testing",
+      "url": "https://flashoffroad.com/Diesel/GlowPlug/DieselGlowplug.htm"
+     }
+    ]
+   },
+   {
+    "title": "Transfer case 'vampire': transmission fluid in the transfer case",
+    "diff": "3 / 5",
+    "time": "A few hours (estimate); the dealer campaign fitted a revised loop",
+    "cost": "A replacement cooler loop, fresh ATF and transfer case fluid",
+    "symptoms": "The transmission fluid level drops while the transfer case overfills. When you open the transfer case's top fill plug over a pan, ATF pours out, which Flash Off-Road calls the definitive symptom. Fluid can also be pushed up the vent lines into the air cleaner, or into the geared hubs and differentials.",
+    "fix": "On the H1, transmission fluid runs through a cooler loop inside the NVG 242 transfer case on its way to the oil cooler. Flash Off-Road explains that the loops cracked at the welds to their fittings, from vibration and from the loop turning when the lines were tightened. When one cracks, pressurized ATF is forced into the transfer case and the transmission is drained: the 'vampire'. AM General's campaign AMG R0101 fixed it with an anti-rotation angle and a support tab on the loop; a replaced loop carries a light blue band on one hose connection, though the band can fall off. If yours has failed, replace the loop, drain the transfer case and refill it to the correct level, refill the transmission, and check the hubs, diffs and air cleaner for ATF. In an emergency, Flash Off-Road's author drained the case, joined the two cooler lines to bypass the loop, topped up the transmission and drove over 100 miles to a dealer, but advises towing if you can.",
+    "tools": "Drain pans · fill pump · line wrenches · Dexron ATF · replacement cooler loop",
+    "parts": [],
+    "know": [
+     "Check the transfer case level at every service; an overfull case is the early warning.",
+     "Ignored, it can destroy the transmission and overheat the transfer case (Flash Off-Road).",
+     "Ask a Hummer specialist whether campaign R0101 was done on your VIN."
+    ],
+    "mistakes": [
+     "Topping up a low transmission without checking the transfer case.",
+     "Driving on with an overfull case, which pushes fluid into the hubs, diffs and air cleaner."
+    ],
+    "cost_note": "Flash Off-Road gives no prices.",
+    "refs": [
+     {
+      "name": "Flash Off-Road: The transfer case vampire",
+      "url": "https://flashoffroad.com/features/Tcase/Vampire/vampire.htm"
      }
     ]
    }

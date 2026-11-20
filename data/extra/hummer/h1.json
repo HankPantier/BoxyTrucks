@@ -460,5 +460,88 @@
    "name": "The Hummer Club Inc. — upcoming events",
    "url": "https://www.thehummerclubinc.com/Events/Events.aspx?M=U"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Hummer H1 maintenance schedule: AM General's 3,000-mile cycle with Group A, B and C inspections, fuel and air filters every 6,000 mi, coolant, transmission and transfer case every 12,000, plus the H1-only checks.",
+  "intro": "AM General's HUMMER Recommended Maintenance Schedule (#0574480) runs on a short 3,000-mile cycle with three inspection groups, A, B and C. It's demanding because the H1 is: 26 or so grease fittings, geared hubs, inboard brakes, CTIS and a transfer case that can drink the transmission's fluid. AM General says a truck over 24,000 miles that's behind on service should start at the 12,000-mile service.",
+  "schedule_note": "From AM General's HUMMER Recommended Maintenance Schedule (#0574480), as summarized in our buyer's baseline and Flash Off-Road's service articles. Fluids vary a lot by year; decode the VIN first (fourth digit engine, fifth transmission).",
+  "schedule": [
+   {
+    "at": "Every 3,000 mi (Group A)",
+    "items": [
+     "Replace engine oil and filter (diesel-rated oil)",
+     "Grease every chassis fitting, including the two steering column fittings behind the kick panel",
+     "Check diff and geared hub oil level and condition",
+     "Inspect steering and front end; check halfshaft bolts",
+     "Test CTIS inflate and deflate",
+     "Check the transfer case level (an overfull case means the 'vampire')"
+    ]
+   },
+   {
+    "at": "Every 6,000 mi",
+    "items": [
+     "Replace the fuel filter element; drain water as needed",
+     "Clean or replace the air filter",
+     "Inspect the serpentine belt and halfshaft boots"
+    ]
+   },
+   {
+    "at": "Every 12,000 mi",
+    "items": [
+     "Flush the coolant and check the thermostats",
+     "Service the automatic transmission (match the filter to your pan)",
+     "Service the transfer case (NVG 242)",
+     "Alignment check"
+    ]
+   },
+   {
+    "at": "Every 24,000 mi",
+    "items": [
+     "Check the batteries"
+    ]
+   },
+   {
+    "at": "After deep water",
+    "items": [
+     "Change the geared hub oil; milky oil means water got in"
+    ]
+   }
+  ],
+  "severe": "Off-road and water use is what the H1 schedule assumes. Flash Off-Road flushes the transmission more often than the book, and recommends synthetic Dexron in the transfer case. Never mix DOT 5 silicone brake fluid (1992–1998) with DOT 3 (1999 on, with ABS).",
+  "age_items": [
+   {
+    "item": "Transfer case cooler loop",
+    "when": "Every service",
+    "why": "A cracked loop drains the transmission into the transfer case (campaign R0101)."
+   },
+   {
+    "item": "Glow plugs (diesels)",
+    "when": "By 60,000 mi or when cold starts get hard",
+    "why": "DieselHub recommends replacing all eight by 60,000 miles."
+   },
+   {
+    "item": "Pump-mounted driver (6.5 TD)",
+    "when": "At purchase",
+    "why": "Heat kills the PMD; relocating it is the common fix."
+   },
+   {
+    "item": "Halfshaft bolts",
+    "when": "Every 3,000 mi",
+    "why": "Flash Off-Road gives 57 lb-ft with Nord-Lock washers."
+   }
+  ],
+  "sources": [
+   {
+    "name": "AM General: HUMMER Recommended Maintenance Schedule #0574480"
+   },
+   {
+    "name": "Flash Off-Road: The transfer case vampire",
+    "url": "https://flashoffroad.com/features/Tcase/Vampire/vampire.htm"
+   },
+   {
+    "name": "DieselHub: 6.2L and 6.5L glow plug system diagnostics",
+    "url": "https://www.dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+   }
+  ]
+ }
 }

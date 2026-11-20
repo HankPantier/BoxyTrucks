@@ -334,5 +334,103 @@
    "name": "Toyota Land Cruiser Association",
    "url": "https://tlca.org/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Lexus LX 570 maintenance schedule from Lexus's 2010 guide: oil every 5,000 mi, drive shaft lube every 15,000, filters and brake fluid every 30,000, AHC fluid at 60,000 and 120,000, coolant at 100,000, plugs at 120,000.",
+  "intro": "Lexus's 2010 Warranty and Services Guide for the LX 570 runs on a 5,000-mile / 6-month oil service, with the drive shafts lubricated every 15,000 miles and the bigger items every 30,000. Later model years moved to longer oil intervals on synthetic oil, so check the book for your year. The known 3UR-FE coolant leaks (radiator, water pump, valley) aren't on any schedule, so look for pink crust at every service.",
+  "schedule_note": "From the Lexus 2010 LX 570 Warranty and Services Guide. The guide says the transmission is sealed with no routine fluid service except when towing.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Replace engine oil and filter",
+     "Rotate tires",
+     "Inspect brake pads, calipers and rotors"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Lubricate the drive shafts and re-torque their bolts",
+     "Clean the cabin filter",
+     "Inspect coolant, exhaust, diff oil, rack and pinion, steering linkage, brake lines, axle boots and ball joints"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the engine air filter, cabin filter and brake fluid",
+     "Measure rotor thickness and runout",
+     "Inspect the AHC system, transfer case oil, fuel lines and the transmission for leaks"
+    ]
+   },
+   {
+    "at": "60,000 mi / 72 months",
+    "items": [
+     "Replace the AHC fluid",
+     "Inspect drive belts",
+     "Everything in the 30,000-mile service"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months",
+    "items": [
+     "First engine coolant replacement (then every 50,000 mi / 60 months)"
+    ]
+   },
+   {
+    "at": "120,000 mi / 144 months",
+    "items": [
+     "Replace spark plugs and the AHC fluid",
+     "Everything in the 30,000-mile service"
+    ]
+   }
+  ],
+  "severe": "Off-road: Lexus adds axle boot, ball joint, air filter and steering checks plus drive shaft lubrication at every 5,000-mile service, and replaces the transfer case oil every 30,000 miles. Towing: replace both diff oils at 15,000 miles, diffs and transfer case every 30,000, and the transmission fluid at 60,000 and 120,000. IH8MUD owners do the diffs and transfer case every 50,000 miles, or 30,000 if they tow or wheel.",
+  "age_items": [
+   {
+    "item": "Radiator top tank",
+    "when": "Look at the boss on the top tank at every oil change",
+    "why": "The most common 200-series repair in an IH8MUD owner poll."
+   },
+   {
+    "item": "Water pump",
+    "when": "Look for pink crust at the front of the engine",
+    "why": "The second most common repair in the same poll."
+   },
+   {
+    "item": "Valley coolant leak",
+    "when": "If coolant drops with no drip at the front",
+    "why": "It leaks under the intake onto the back of the engine."
+   },
+   {
+    "item": "Starter",
+    "when": "Consider replacing on high-mileage trucks",
+    "why": "Some owners carry a spare because of parts waits."
+   },
+   {
+    "item": "AHC",
+    "when": "Yearly",
+    "why": "Leaks and tired accumulators change the ride."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lexus 2010 LX 570 Warranty and Services Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-10LX570/pdf/10LX570.pdf"
+   },
+   {
+    "name": "IH8MUD poll: common 200-series repairs",
+    "url": "https://forum.ih8mud.com/threads/poll-which-common-repairs-have-been-completed-on-your-200-series-if-any.1257554/page-2"
+   },
+   {
+    "name": "IH8MUD: 2008–2018 radiator failure",
+    "url": "https://forum.ih8mud.com/threads/2008-2010-radiator-failure-and-public-service-announcement.917447/"
+   },
+   {
+    "name": "IH8MUD: Heat exchanger valley leak",
+    "url": "https://forum.ih8mud.com/threads/kind-of-mystery-coolant-leak-back-of-engine-heat-exchanger-valley-leak.1004327/page-14"
+   }
+  ]
+ }
 }
