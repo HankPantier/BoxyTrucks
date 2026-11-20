@@ -452,9 +452,11 @@
   },
   {
    "gen": "jeep/gladiator-jt",
-   "status": "todo",
+   "status": "done",
    "deepened": 3,
-   "note": "Deepened Pentastar housing, EcoDiesel pump, rear springs; no fetchable factory schedule yet"
+   "note": "Deepened Pentastar housing, EcoDiesel pump, rear springs; no fetchable factory schedule yet; maintenance from Jeep 2023 owner manual",
+   "date": "2026-11-20",
+   "maintenance": true
   },
   {
    "gen": "jeep/grand-cherokee-zj",
@@ -486,15 +488,19 @@
   },
   {
    "gen": "jeep/jl",
-   "status": "todo",
+   "status": "done",
    "deepened": 4,
-   "note": "Deepened Pentastar housing, 2.0T hoses, hub and ball joints; no fetchable factory schedule yet"
+   "note": "Deepened Pentastar housing, 2.0T hoses, hub and ball joints; no fetchable factory schedule yet; maintenance from Jeep 2021 owner manual",
+   "date": "2026-11-20",
+   "maintenance": true
   },
   {
    "gen": "jeep/jl-unlimited",
-   "status": "todo",
+   "status": "done",
    "deepened": 1,
-   "note": "Pentastar housing sourced; no fetchable factory schedule yet"
+   "note": "Pentastar housing sourced; no fetchable factory schedule yet; maintenance from Jeep 2021 owner manual",
+   "date": "2026-11-20",
+   "maintenance": true
   },
   {
    "gen": "jeep/sj-wagoneer",
@@ -511,7 +517,9 @@
   },
   {
    "gen": "jeep/wagoneer-ws",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Jeep 2025 Wagoneer handbook"
   },
   {
    "gen": "land-cruiser/100-series",
@@ -524,7 +532,9 @@
   },
   {
    "gen": "land-cruiser/250-series",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Toyota 2024 guide"
   },
   {
    "gen": "land-cruiser/fj25",
@@ -605,7 +615,9 @@
   },
   {
    "gen": "nissan-patrol/y62",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Nissan NZ Y62 schedule"
   },
   {
    "gen": "niva/niva",

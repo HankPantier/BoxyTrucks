@@ -305,5 +305,78 @@
    "name": "Toyota USA Newsroom — Recall of certain 2024–2025 Land Cruiser, Mirai, Lexus UX and GX (combination meter)",
    "url": "https://pressroom.toyota.com/toyota-recalls-certain-model-year2024-2025-toyota-land-cruiser-mirai-lexus-ux-and-gx-vehicles/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Toyota Land Cruiser 250 (2024–present) maintenance schedule from Toyota's 2024 Warranty & Maintenance Guide: service every 5,000 mi or 6 months, oil every 10,000 mi (5,000 on dirt roads), spark plugs every 40,000, cabin and engine air filters every 30,000, coolant first at 100,000 mi or 10 years.",
+  "intro": "Toyota's US guide for the 2024 Land Cruiser (the 250 Series, i-FORCE MAX hybrid) sets a visit every 5,000 miles or six months, with the oil changed every other visit. Toyota lists separate items for dirt and dusty roads and for towing or heavy loads. Most owners who take the truck off pavement should follow both.",
+  "schedule_note": "From Toyota's 2024 Land Cruiser Warranty & Maintenance Guide (US). Check the guide for your model year.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Rotate tires",
+     "Inspect and adjust all fluid levels; inspect wiper blades",
+     "Visually inspect brake linings and pads",
+     "Check the HV battery cooling intake filter (clean it every 20,000 mi)"
+    ]
+   },
+   {
+    "at": "Every 10,000 mi / 12 months",
+    "items": [
+     "Engine oil and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Inspect ball joints, brake lines, cabin filter, driveshaft boots, coolant, exhaust, differentials, steering gear and linkage"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the cabin air filter and engine air filter",
+     "Lubricate the propeller shaft and re-torque its bolt",
+     "Inspect transmission fluid, fuel lines, intercooler coolant, radiator, transfer case oil"
+    ]
+   },
+   {
+    "at": "Every 40,000 mi / 48 months",
+    "items": [
+     "Spark plugs"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months",
+    "items": [
+     "Engine/inverter coolant, first replacement; then every 50,000 mi / 60 months"
+    ]
+   },
+   {
+    "at": "150,000 mi / 180 months",
+    "items": [
+     "Intercooler coolant, first replacement; then every 50,000 mi / 60 months"
+    ]
+   }
+  ],
+  "severe": "Toyota's special-conditions items. Dirt or dusty roads: oil and filter every 5,000 miles; inspect ball joints, driveshaft boots, steering linkage and the air filter, lubricate the propeller shaft and re-torque its bolt at every 5,000-mile visit; replace the transfer case oil every 30,000. Towing, roof carriers or heavy loads: replace the front differential oil every 15,000 miles; replace the rear differential and transfer case oil every 30,000; replace the automatic transmission fluid every 60,000. Long idling or low-speed use (police, taxi, door-to-door delivery): automatic transmission fluid every 60,000.",
+  "age_items": [
+   {
+    "item": "Engine coolant",
+    "when": "10 years even at low miles",
+    "why": "Toyota's first replacement is 100,000 miles or 120 months, whichever comes first."
+   },
+   {
+    "item": "Propeller shaft grease",
+    "when": "Every 5,000 mi on dirt or salted roads",
+    "why": "Toyota includes salted roads in its dirt-road condition."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota: 2024 Land Cruiser Warranty & Maintenance Guide (US)",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-24LandCruiser/pdf/T-MMS-24LandCruiser.pdf"
+   }
+  ]
+ }
 }

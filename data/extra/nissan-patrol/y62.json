@@ -370,5 +370,79 @@
    "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
    "url": "https://nissanpatrolclub.org/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Nissan Patrol Y62 (2010–present, sold in the US as the 2017–2024 Armada) maintenance from Nissan's Y62 VK56VD service schedule: service every 10,000 km or 12 months; air filter, brake fluid and diff oil every 40,000 km; plugs at 100,000 km; coolant first at 160,000 km or 8 years.",
+  "intro": "Nissan's Y62 schedule for the 5.6 VK56VD V8 is one service every 10,000 km (about 6,200 miles) or 12 months, with the oil and filter replaced at every visit. The larger items land every 20,000 and 40,000 km. Nissan marks oil, filters, coolant, brake fluid, diff and transfer oil, drive belts and propeller-shaft grease for more frequent service under severe conditions, and off-road use counts.",
+  "schedule_note": "From Nissan New Zealand's Y62 Patrol (VK56VD) maintenance schedule for normal driving. Distances are Nissan's kilometres; miles are approximate. US Armada owners should check their own Nissan guide.",
+  "schedule": [
+   {
+    "at": "Every 10,000 km (6,200 mi) / 12 months",
+    "items": [
+     "Engine oil and filter",
+     "Inspect brakes, pads and rotors, lights, wipers, battery, PCV, cooling-system level"
+    ]
+   },
+   {
+    "at": "Every 20,000 km (12,400 mi) / 24 months",
+    "items": [
+     "Grease the propeller shafts",
+     "Inspect differential oil, power steering fluid and lines",
+     "Tension the body mountings"
+    ]
+   },
+   {
+    "at": "Every 30,000 km (18,600 mi) / 36 months",
+    "items": [
+     "Replace the air conditioner (cabin) filter",
+     "Inspect transfer gear oil, steering gear and linkage, drive shafts"
+    ]
+   },
+   {
+    "at": "Every 40,000 km (24,900 mi) / 48 months",
+    "items": [
+     "Replace the engine air filter",
+     "Replace brake fluid (Nissan's price list also gives 24 months or 40,000 km)",
+     "Replace differential gear oil, including the locking diff",
+     "Inspect drive belts, fuel lines and EVAP lines; check coolant mixture"
+    ]
+   },
+   {
+    "at": "100,000 km (62,000 mi) / 120 months",
+    "items": [
+     "Spark plugs (iridium); sooner if the gap exceeds 1.25 mm"
+    ]
+   },
+   {
+    "at": "160,000 km (99,000 mi) / 96 months",
+    "items": [
+     "Engine coolant, first replacement; then every 80,000 km or 48 months"
+    ]
+   }
+  ],
+  "severe": "Items Nissan marks with a diamond (engine oil and filter, coolant, air filter, brake fluid, drive belts, propeller-shaft greasing, transfer and differential oil, steering and drive-shaft parts) are to be done more often under severe conditions. Nissan says to re-grease the propeller shafts after they have been under water, and to reset the transfer controller after changing transfer fluid. The automatic transmission fluid and fuel filter are listed as maintenance-free.",
+  "age_items": [
+   {
+    "item": "Propeller shaft grease",
+    "when": "After every deep water crossing",
+    "why": "Nissan's note 7: re-grease after immersion."
+   },
+   {
+    "item": "Transfer fluid",
+    "when": "If changed",
+    "why": "Nissan's note 8: the transfer controller needs to be reset afterwards."
+   },
+   {
+    "item": "Brake fluid",
+    "when": "Every 24 months",
+    "why": "Nissan sets it at 24 months or 40,000 km, whichever is first."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Nissan New Zealand: Patrol Y62 capped price service and maintenance schedule",
+    "url": "https://www.nissan.co.nz/content/dam/Nissan/new-zealand/files/Owners/Servicing/capped-price-service/Y62%20-%20Patrol%20Capped%20Price%20Service.pdf"
+   }
+  ]
+ }
 }

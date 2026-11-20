@@ -456,5 +456,101 @@
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Gladiator JT (2020–present) maintenance schedule from Jeep's 2023 owner's manual: oil by the indicator, never past 10,000 mi or 12 months; cabin filter every 12,000 mi; air filter every 30,000; plugs at 100,000 (3.6); coolant at 10 years or 150,000; axle, transfer-case and manual-trans changes for off-road and towing.",
+  "intro": "The Gladiator runs on the oil-change indicator: Jeep says to change it within 500 miles of the message and never past 10,000 miles or 12 months. A mileage table sits on top. Its fluid changes for 'severe' use include off-road driving and frequent towing, which describes what most Gladiators do, so treat those rows as yours.",
+  "schedule_note": "From Jeep's 2023 Gladiator owner's manual (3.6 gasoline and 3.0 EcoDiesel schedules). Other model years are similar; check your own book.",
+  "schedule": [
+   {
+    "at": "When the oil-change indicator comes on (max 10,000 mi / 12 months)",
+    "items": [
+     "Engine oil and filter",
+     "Rotate tires at the first sign of irregular wear",
+     "Inspect battery, CV and U-joints, brakes and hoses, cooling system, exhaust",
+     "Inspect the air filter in dust or off-road; grease the door latches"
+    ]
+   },
+   {
+    "at": "Every 12,000 mi",
+    "items": [
+     "Replace the cabin air filter"
+    ]
+   },
+   {
+    "at": "Every 20,000 mi",
+    "items": [
+     "Inspect suspension, tie rod ends and brake linings; adjust the parking brake"
+    ]
+   },
+   {
+    "at": "20,000 / 60,000 / 100,000 / 140,000 mi",
+    "items": [
+     "Inspect front and rear axle fluid"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Replace the engine air filter"
+    ]
+   },
+   {
+    "at": "30,000 / 90,000 / 150,000 mi",
+    "items": [
+     "Inspect transfer case fluid"
+    ]
+   },
+   {
+    "at": "100,000 mi",
+    "items": [
+     "Spark plugs, 3.6L (mileage only)",
+     "Inspect and replace the PCV valve if necessary"
+    ]
+   },
+   {
+    "at": "10 years or 150,000 mi",
+    "items": [
+     "Flush and replace the engine coolant"
+    ]
+   },
+   {
+    "at": "3.0 EcoDiesel",
+    "items": [
+     "Oil and filter, fill the DEF tank and drain water from the fuel filter every oil change",
+     "Fuel filter every second oil change, not over 20,000 mi (every oil change, max 10,000 mi, in the states Jeep lists for fuel quality)",
+     "Axle fluid inspection every 20,000 mi",
+     "Air filter every 30,000 mi; accessory drive belt at 100,000 mi"
+    ]
+   }
+  ],
+  "severe": "Jeep's severe-use rows, which include off-road driving: change the front and rear axle fluid at 40,000, 80,000 and 120,000 miles (off-road, towing, police, taxi or fleet); change the manual transmission fluid every 30,000 miles (towing, plowing, heavy loads, off-road, desert or sustained high speeds above 90°F); change the transfer case fluid at 60,000 and 120,000 miles (police, taxi, fleet or frequent towing). On the diesel, biodiesel above B5 cuts the oil interval to 8,000 miles or 6 months.",
+  "age_items": [
+   {
+    "item": "Axle fluid after deep water",
+    "when": "After any crossing over the axle tubes",
+    "why": "Water in the gear oil can't wait for the 40,000-mile off-road change."
+   },
+   {
+    "item": "Pentastar oil filter housing (3.6)",
+    "when": "Look into the engine valley at every oil change",
+    "why": "80/20 Automotive: the plastic housing warps, cracks or leaks at its O-rings."
+   },
+   {
+    "item": "Spark plugs",
+    "when": "By miles only",
+    "why": "Jeep's footnote: the plug interval is mileage-based; years don't apply."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Jeep: 2023 Gladiator owner's manual, scheduled servicing (gasoline and diesel)",
+    "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2023/Gladiator/P139576_23_JT_OM_EN_USC_DIGITAL.pdf"
+   },
+   {
+    "name": "80/20 Automotive: Pentastar oil filter housing problem guide",
+    "url": "https://8020automotive.com/chrysler-3-2-and-3-6-pentastar-oil-filter-housing-problem-guide/"
+   }
+  ]
+ }
 }
