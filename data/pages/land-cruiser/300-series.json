@@ -248,6 +248,25 @@
      "supplier": "LexusPartsNow",
      "url": "https://www.lexuspartsnow.com/parts-list/2023-lexus-lx600/power_train_chassis/transmission_case_oil_pan_atm.html"
     }
+   ],
+   "know": [
+    "Owners on IH8MUD do it at about 20,000–30,000 miles even though Toyota calls the fluid lifetime fill.",
+    "One LX 700h owner's 20,000-mile exchange came back with reassuring wear-metal results.",
+    "The level check is temperature-based; without a scan tool to read fluid temperature, let a shop do it."
+   ],
+   "mistakes": [
+    "Topping up by guesswork; the 10-speed has no dipstick and the level must be set hot to the factory procedure.",
+    "Using a generic ATF instead of Toyota WS or a WS-compatible fluid."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Transmission fluid change",
+     "url": "https://forum.ih8mud.com/threads/transmission-fluid-change.1360402/"
+    },
+    {
+     "name": "IH8MUD: LX700h early diff, trans and oil change",
+     "url": "https://forum.ih8mud.com/threads/lx700h-early-diff-trans-oil-change.1385645/"
+    }
    ]
   },
   {
@@ -285,6 +304,19 @@
      "supplier": "LexusPartsNow",
      "url": "https://www.lexuspartsnow.com/parts-list/2023-lexus-lx600/body/cowl_panel_windshield_glass.html"
     }
+   ],
+   "know": [
+    "On US LX 600s there's also a Lexus bulletin (L-SB-0019-24) for a windshield edge-molding buzz above 55 mph; clear the cowl first, then ask a dealer.",
+    "Leaves collect near the hood hinge and in the wiper linkage well."
+   ],
+   "mistakes": [
+    "Booking a glass or molding repair before vacuuming out the cowl."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: 300/600/700 issues, problems and solutions",
+     "url": "https://forum.ih8mud.com/threads/300-600-700-issues-problems-and-solutions.1366321/"
+    }
    ]
   },
   {
@@ -300,6 +332,19 @@
      "name": "Carista EVO OBD2 scanner",
      "supplier": "Carista",
      "url": "https://carista.com/products/carista-evo-obd-scanner"
+    }
+   ],
+   "know": [
+    "Owners report it's worse in Sport and Sport+.",
+    "A transmission ECU recall (26V-094 on US 2025–26 LX 600s) changed shift software; check whether any campaign applies to your VIN."
+   ],
+   "mistakes": [
+    "Turning the pre-collision system off for good to cure the lag."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: 300/600/700 issues, problems and solutions",
+     "url": "https://forum.ih8mud.com/threads/300-600-700-issues-problems-and-solutions.1366321/"
     }
    ]
   },

@@ -432,5 +432,81 @@
    "name": "Rovers North blog — MAR 2025 (Rover Owners of Virginia Mid-Atlantic Rally)",
    "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Range Rover L405 maintenance: Land Rover's 12-month / 16,000-mile service, why owners halve it on the 5.0 SC and DPF diesels, plus ZF 8HP, transfer box and diff intervals and the air-suspension checks.",
+  "intro": "Land Rover's service sheets for the L405 call for a service every 12 months or 16,000 miles, and some later trucks were called in every two years. FullFatRR owners treat that as the absolute maximum: several run 8,000 miles or six months, especially on the supercharged V8 (to protect the timing chains) and on DPF diesels used for short trips (fuel dilution). The longer-interval items are owner and specialist practice.",
+  "schedule_note": "Service interval from Land Rover's service sheets as quoted by FullFatRR members. Driveline intervals from our buyer's baseline (Lucky8 and owner practice). Check the service book for your VIN and engine.",
+  "schedule": [
+   {
+    "at": "Every 12 months / 16,000 mi (Land Rover maximum)",
+    "items": [
+     "Engine oil and filter (diesels: only STJLR.03.5005-approved low-ash oil)",
+     "Inspect brakes, air suspension and fluid levels"
+    ]
+   },
+   {
+    "at": "Every 6 months / about 8,000 mi (owner practice)",
+    "items": [
+     "Engine oil and filter on a 5.0 SC or a short-trip diesel"
+    ]
+   },
+   {
+    "at": "Every year",
+    "items": [
+     "Cabin (pollen) filter",
+     "Load-test both batteries"
+    ]
+   },
+   {
+    "at": "Every 50,000–75,000 mi (Lucky8)",
+    "items": [
+     "ZF 8HP70 fluid and filter-pan (LR065238), sooner if you tow"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi (owner practice)",
+    "items": [
+     "Transfer box (TF 0753-spec fluid only)",
+     "Front and rear differentials (use the L405 fill figures, not the L322's)"
+    ]
+   }
+  ],
+  "severe": "Short trips are the L405's severe service: diesels dilute their oil when the DPF regenerates on short runs, and owners on FullFatRR have dropped to 4,000–8,000-mile oil changes. Dirt roads mean changing both air filter elements at every oil service.",
+  "age_items": [
+   {
+    "item": "Timing chains and supercharger coupler (5.0 SC)",
+    "when": "Listen at every cold start",
+    "why": "Chain rattle or cam-timing codes vs. an idle rattle from the coupler."
+   },
+   {
+    "item": "Cooling pipes under the supercharger (5.0 SC)",
+    "when": "If coolant drops with no visible leak",
+    "why": "The plastic pipes in the valley fail."
+   },
+   {
+    "item": "Air suspension",
+    "when": "Measure each corner after standing overnight",
+    "why": "Leaking struts and tired compressors."
+   },
+   {
+    "item": "Batteries",
+    "when": "Yearly",
+    "why": "Weak batteries cause phantom faults; register new ones with a scan tool."
+   }
+  ],
+  "sources": [
+   {
+    "name": "FullFatRR: L405 service interval thread",
+    "url": "https://www.fullfatrr.com/forum/topic64766.html"
+   },
+   {
+    "name": "FullFatRR: 5.0 supercharged timing chain thread",
+    "url": "https://www.fullfatrr.com/forum/topic56678.html"
+   },
+   {
+    "name": "Lucky8 (ZF 8HP service interval, in our buyer's baseline)"
+   }
+  ]
+ }
 }

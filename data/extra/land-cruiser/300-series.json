@@ -248,5 +248,83 @@
    }
   ],
   "note": "2026 range pricing from CarExpert (15 July 2026), which also lists the GXL at A$111,820 and the Sahara at A$140,310. Used values aren't tracked here."
+ },
+ "maintenance": {
+  "description": "LandCruiser 300 Series maintenance: Toyota Australia's 6-month / 10,000 km service, plus the earlier driveline fluid changes owners do on the 10-speed, transfer case and diffs, and the diesel DPF and petrol V35A recall checks.",
+  "intro": "Toyota Australia services the 300 every six months or 10,000 km (CarExpert, 2026). Toyota calls the 10-speed automatic's fluid lifetime fill and only inspects the diffs and transfer case under normal use, but owners on IH8MUD change all three far earlier and send oil samples for analysis. The 300 wasn't sold in the US; the LX 600 is its US cousin and has its own Lexus schedule.",
+  "schedule_note": "Service interval from Toyota Australia via CarExpert. Driveline intervals are owner practice from IH8MUD, stated as such. Other markets differ; check your service book.",
+  "schedule": [
+   {
+    "at": "Every 6 months / 10,000 km (Toyota Australia)",
+    "items": [
+     "Engine oil and filter (many owners shorten it and use oil analysis)",
+     "Inspect air and cabin filters, more often in dust",
+     "Grease the driveshafts whenever the skid plate is off"
+    ]
+   },
+   {
+    "at": "About 20,000–30,000 mi (owner practice)",
+    "items": [
+     "10-speed automatic drain-and-fill or staged exchange with Toyota WS"
+    ]
+   },
+   {
+    "at": "30,000–40,000 mi at most (owner practice)",
+    "items": [
+     "Transfer case fluid",
+     "Front diff about twice as often as the rear"
+    ]
+   },
+   {
+    "at": "Every 1,000–2,000 km of mostly short trips (diesel)",
+    "items": [
+     "A sustained highway run so the DPF can regenerate"
+    ]
+   }
+  ],
+  "severe": "Dust, towing and off-road use call for shorter oil and air filter intervals. Diesel 300s used mostly for short trips need regular highway runs for the DPF, and the exposed fuel filter benefits from a guard off-road.",
+  "age_items": [
+   {
+    "item": "V35A engine recalls (petrol)",
+    "when": "At purchase",
+    "why": "Debris can destroy the main bearings; check the VIN for 24V-381 and 25V-767 equivalents in your market."
+   },
+   {
+    "item": "DPF and EGR (diesel)",
+    "when": "Every service",
+    "why": "Short-trip trucks clog; see the DPF guide."
+   },
+   {
+    "item": "Rear hatch",
+    "when": "If it won't close",
+    "why": "A common nuisance covered in the repair guides."
+   }
+  ],
+  "sources": [
+   {
+    "name": "CarExpert (Toyota Australia 300 Series service interval, 2026)",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-toyota-landcruiser-300-performance-hybrid-review-quick-drive-1"
+   },
+   {
+    "name": "IH8MUD: Transmission fluid change",
+    "url": "https://forum.ih8mud.com/threads/transmission-fluid-change.1360402/"
+   },
+   {
+    "name": "IH8MUD: Transfer case fluid changed, changed spec",
+    "url": "https://forum.ih8mud.com/threads/transfer-case-fluid-changed-changed-spec.1375042/"
+   },
+   {
+    "name": "IH8MUD: LX700h early diff, trans and oil change",
+    "url": "https://forum.ih8mud.com/threads/lx700h-early-diff-trans-oil-change.1385645/"
+   },
+   {
+    "name": "Unsealed 4X4: Toyota LandCruiser 300 problems",
+    "url": "https://unsealed4x4.com.au/toyota-landcruiser-300-common-problems/"
+   },
+   {
+    "name": "Australian Car Reviews: Recalls and faults, 300-Series LandCruiser",
+    "url": "https://australiancar.reviews/recalls-faults-toyota-300-series-landcruiser-2021/"
+   }
+  ]
  }
 }

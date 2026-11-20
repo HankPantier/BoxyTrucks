@@ -222,7 +222,12 @@
   },
   {
    "gen": "range-rover/l405",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 2,
+   "maintenance": true,
+   "note": "Lift rods and aux battery guides still thin"
   },
   {
    "gen": "suzuki/jimny-jb74",
@@ -259,7 +264,11 @@
   },
   {
    "gen": "land-cruiser/300-series",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 3,
+   "maintenance": true
   },
   {
    "gen": "land-rover/defender-90-110",
