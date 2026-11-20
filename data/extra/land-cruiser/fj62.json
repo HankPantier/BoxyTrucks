@@ -258,5 +258,85 @@
    "name": "Visit Utah — Land Cruiser Heritage Museum",
    "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Toyota Land Cruiser FJ62 (1988–1990) maintenance schedule from Toyota's 1989 owner's manual: oil every 10,000 mi (5,000 under Schedule A), valve clearance every 15,000, plugs and air filter every 30,000, coolant at 60,000 then every 30,000, knuckle and propeller-shaft grease every 15,000 (7,500 under Schedule A).",
+  "intro": "Toyota gave the FJ62 two schedules. Schedule A is for towing, campers or roof carriers, dusty, rough, muddy or salted roads, repeated short trips below freezing, and long idling. Schedule B covers everything else. An FJ62 that sees trails belongs on Schedule A. Service is due at the mileage or the months, whichever comes first; low-mileage owners should go by the months.",
+  "schedule_note": "From Toyota's 1989 Land Cruiser (FJ62) owner's manual, scheduled maintenance, Schedule B (normal). Schedule A is summarized under severe use.",
+  "schedule": [
+   {
+    "at": "Every 10,000 mi / 12 months",
+    "items": [
+     "Engine oil and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Check and adjust valve clearance",
+     "Inspect brake linings, pads, lines and hoses",
+     "Inspect steering linkage and steering gear box",
+     "Inspect transfer case and differential oil",
+     "Grease the steering knuckles, chassis and propeller shafts",
+     "Inspect chassis and body bolts"
+    ]
+   },
+   {
+    "at": "Every 20,000 mi / 24 months",
+    "items": [
+     "Inspect the automatic transmission"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the air filter and spark plugs",
+     "Inspect drive belts, exhaust, fuel lines",
+     "Repack the wheel bearing grease"
+    ]
+   },
+   {
+    "at": "60,000 mi / 72 months",
+    "items": [
+     "Replace engine coolant and the fuel tank cap gasket"
+    ]
+   },
+   {
+    "at": "After 60,000 mi / 72 months",
+    "items": [
+     "Inspect drive belts every 10,000 mi / 12 months",
+     "Change coolant every 30,000 mi / 36 months"
+    ]
+   },
+   {
+    "at": "80,000 mi (outside California)",
+    "items": [
+     "Replace the oxygen sensor (initial)"
+    ]
+   }
+  ],
+  "severe": "Toyota's Schedule A: engine oil and filter every 5,000 miles or 6 months; inspect the air filter every 5,000 on dusty roads; grease the steering knuckles, chassis and propeller shafts every 7,500 miles; change the transfer case and differential oil every 15,000; change the automatic transmission fluid every 20,000; repack the wheel bearings every 30,000; check chassis and body bolts every 7,500 on rough or muddy roads. Toyota also says that after driving in sand, mud or water you should check the brakes, the transmission, transfer and differential oil, the wheel bearings and the air filter daily, and grease the propeller shafts daily.",
+  "age_items": [
+   {
+    "item": "Engine coolant",
+    "when": "Every 3 years on a truck past 72 months",
+    "why": "Toyota's note 2: after 60,000 miles or 72 months, change it every 30,000 miles or 36 months."
+   },
+   {
+    "item": "Drive belts",
+    "when": "Yearly on a truck past 72 months",
+    "why": "Toyota's note 1: after 60,000 miles or 72 months, inspect every 10,000 miles or 12 months."
+   },
+   {
+    "item": "Gear oils after water",
+    "when": "The same day",
+    "why": "Toyota calls for daily checks of transmission, transfer and differential oil after sand, mud or water."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota: 1989 Land Cruiser (FJ62) owner's manual, scheduled maintenance (Schedules A and B)"
+   }
+  ]
+ }
 }

@@ -428,7 +428,9 @@
   },
   {
    "gen": "grenadier/quartermaster",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance shared with the Station Wagon (Ineos + Auto Express)"
   },
   {
    "gen": "jeep/cherokee-xj",
@@ -550,7 +552,9 @@
   },
   {
    "gen": "land-cruiser/fj62",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Toyota 1989 FJ62 owner manual"
   },
   {
    "gen": "land-cruiser/mega-cruiser",

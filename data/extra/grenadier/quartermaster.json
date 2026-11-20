@@ -340,5 +340,77 @@
    "name": "Bring a Trailer — INEOS Grenadier results (incl. 2025 Quartermaster Trialmaster, sold $76,000, July 31, 2025)",
    "url": "https://bringatrailer.com/ineos/grenadier/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Ineos Grenadier Quartermaster maintenance schedule (shared with the Station Wagon): a service every 12 months or 12,000 miles in a Minor, Major, Intermediate, Major cycle, brake fluid every other year, coolant every four years, no cambelt.",
+  "intro": "The Quartermaster pickup uses the same BMW engines, drivetrain and service plan as the Station Wagon. Ineos sets a service every 12 months or 12,000 miles, whichever comes first, and advises more frequent checks for trucks that regularly tackle tough terrain. Auto Express reports the services run in a cycle of Minor, Major, Intermediate, Major, with brake fluid replaced every other year and coolant every four years. Both the BMW B58 petrol and B57 diesel use timing chains, so there's no cambelt.",
+  "schedule_note": "Interval from Ineos's own servicing page; service cycle, brake fluid and coolant intervals from Auto Express's used buyer's guide. Ineos doesn't publish the item list for each service online, so ask your service center what each visit covers. Off-road use is covered by the warranty if you stick to the factory service recommendations.",
+  "schedule": [
+   {
+    "at": "Year 1 / 12,000 mi",
+    "items": [
+     "Minor service"
+    ]
+   },
+   {
+    "at": "Year 2 / 24,000 mi",
+    "items": [
+     "Major service",
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Year 3 / 36,000 mi",
+    "items": [
+     "Intermediate service"
+    ]
+   },
+   {
+    "at": "Year 4 / 48,000 mi",
+    "items": [
+     "Major service",
+     "Brake fluid",
+     "Coolant"
+    ]
+   },
+   {
+    "at": "Optional, early",
+    "items": [
+     "A break-in oil change around 2,400 miles, which one owner had Ineos do at his own cost"
+    ]
+   }
+  ],
+  "severe": "Ineos advises more frequent checks if you regularly drive tough terrain. After deep water, have the diffs and transfer case checked for water and the Safari window and door seals checked for leaks.",
+  "age_items": [
+   {
+    "item": "Recalls and bulletins",
+    "when": "At purchase and every service",
+    "why": "Check the VIN for the steering ball-joint nut, door latch and switch panel recalls, and ask about the water-leak and door-button bulletins."
+   },
+   {
+    "item": "Safari windows and door seals",
+    "when": "After heavy rain or a car wash",
+    "why": "The best-known Grenadier leak points."
+   },
+   {
+    "item": "Body-on-frame alignment",
+    "when": "If tires rub on one side only",
+    "why": "Re-centering the body is covered in the repair guides."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Ineos Grenadier: Servicing your Grenadier",
+    "url": "https://ineosgrenadier.com/en/ca/servicing-your-grenadier"
+   },
+   {
+    "name": "Auto Express: Used Ineos Grenadier buyer's guide",
+    "url": "https://www.autoexpress.co.uk/ineos/grenadier/370881/used-ineos-grenadier-2022-date-buyers-guide-flawed-road-great-road"
+   },
+   {
+    "name": "John1911: Your first Grenadier annual service",
+    "url": "https://john1911.com/your-first-grenadier-annual-service/"
+   }
+  ]
+ }
 }
