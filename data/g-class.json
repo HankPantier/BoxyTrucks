@@ -543,8 +543,8 @@
     "title": "Cracked coil springs",
     "diff": "2 / 5",
     "time": "Half a day",
-    "cost": "Parts plus labor",
-    "symptoms": "A loud thump over bumps, uneven ride height, especially after cold weather.",
+    "cost": "Autocar: budget about £120 a corner",
+    "symptoms": "Autocar says the coils can crack, especially in cold weather, and the usual sign is a loud thumping while driving. Uneven ride height is another clue.",
     "fix": "Replace springs in axle pairs. If you’re lifting the truck anyway, this is the moment to fit a lift spring kit (2-inch kits are common for the W463) with matched shocks.",
     "tools": "Springs (pairs) · jack and stands · spring compressor if required by your setup · new shocks recommended",
     "parts": [
@@ -557,6 +557,20 @@
       "name": "ARB/OME coil springs for 50 mm lift, W463",
       "supplier": "GwagenParts.com",
       "url": "https://www.gwagenparts.com/product/dtd-spec-arb-springs-for-50mm-lift-with-front-bar-fits-mercedes-g-class-w463/"
+     }
+    ],
+    "know": [
+     "Autocar's budget is about £120 per corner for springs.",
+     "Some owners of later air-sprung variants convert to coils to avoid air-suspension costs (EuroAutoPro)."
+    ],
+    "mistakes": [
+     "Replacing one spring; do them in axle pairs so ride height stays even.",
+     "Compressing old springs with a cheap compressor; use a proper spring tool."
+    ],
+    "refs": [
+     {
+      "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+      "url": "https://autocar.co.uk/node/104626"
      }
     ]
    },
@@ -604,7 +618,7 @@
     "diff": "3 / 5",
     "time": "Half a day",
     "cost": "Autocar: £1,500+ for a shaft",
-    "symptoms": "Shake or judder under way, often worse under load.",
+    "symptoms": "Shake or judder under way, often worse under load. Autocar says judder can mean the propshaft is at the end of its life.",
     "fix": "Inspect the joints and couplings for play before condemning the shaft. A worn shaft is a remove-and-replace job; mark the orientation so it goes back phased correctly.",
     "tools": "Sockets and wrenches · paint marker · replacement shaft or joints",
     "parts": [
@@ -618,6 +632,20 @@
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/search?q=mercedes+flex+disc"
      }
+    ],
+    "know": [
+     "Autocar budgets at least £1,500 for a replacement shaft.",
+     "Autocar also reports a different fault on later diesels (G 280 CDI and G 300 CDI built 2016–2021, recalled) where the Cardan shaft hits the clamping body; it doesn't apply to the G 500 but shows up in searches."
+    ],
+    "mistakes": [
+     "Replacing the shaft before checking the joints and couplings for play.",
+     "Refitting out of phase; mark both flanges."
+    ],
+    "refs": [
+     {
+      "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+      "url": "https://autocar.co.uk/node/104626"
+     }
     ]
    },
    {
@@ -625,7 +653,7 @@
     "diff": "2–5 / 5",
     "time": "Ongoing",
     "cost": "$400–8,000",
-    "symptoms": "Bubbling at the tailgate’s lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.",
+    "symptoms": "Bubbling at the tailgate’s lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts. Autocar says to check the areas that rarely get cleaned, such as inside the wheel arches and around the rear bumper. EuroAutoPro adds the door sills and hinges, the spare tire mount and the frame and suspension mounts.",
     "fix": "Catch it early: blast and treat, or weld in repair panels before it spreads. Cavity-wax the doors and underbody, rinse off road salt after winter, and keep drain holes clear. Severe frame rust can often be fixed in sections rather than with a whole new frame.",
     "tools": "Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair",
     "parts": [
@@ -638,6 +666,49 @@
       "name": "Eastwood Rust Encapsulator + Internal Frame Coating Plus kit",
       "supplier": "Eastwood",
       "url": "https://www.eastwood.com/rust-encapsulator-internal-frame-coating-plus-combo-kit.html"
+     }
+    ],
+    "know": [
+     "A sagging headliner can mean water has got in, which Autocar warns can mean a pricey interior refit.",
+     "Dried door and window seals let water in and cause wind noise (EuroAutoPro)."
+    ],
+    "mistakes": [
+     "Painting over scale without treating it.",
+     "Blocking the drain holes with wax or underseal."
+    ],
+    "refs": [
+     {
+      "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+      "url": "https://autocar.co.uk/node/104626"
+     },
+     {
+      "name": "EuroAutoPro: Common problems of the G 500",
+      "url": "https://www.euroautopro.com.au/post/common-problems-of-mercedes-g-class-w463-g-500-updated"
+     }
+    ]
+   },
+   {
+    "title": "Transmission fluid leak at the electrical connector (722.6)",
+    "diff": "2 / 5",
+    "time": "1–2 hours (estimate)",
+    "cost": "A connector adapter seal and fresh ATF",
+    "symptoms": "ATF weeping from the round electrical connector on the side of the 5-speed automatic, a drip under the transmission, and in time harsh or delayed shifts or transmission fault codes. EuroAutoPro lists the degraded connector seal as a common G 500 fault that can lead to fluid loss and control-module faults.",
+    "fix": "The 722.6 transmission's wiring enters the case through a plug with an O-ring-sealed adapter (often called the pilot bushing). When the seal hardens, ATF leaks past it and can wick up the harness. Unplug the connector, release the adapter from the case, fit a new adapter or seals, clean any ATF out of the connector, and refit. Check the fluid level to the factory procedure afterward, since the 722.6 has no dipstick in the tube on many trucks and needs the correct temperature to check. If shifting has gone harsh, a fluid and filter service is the next step.",
+    "tools": "Small flat screwdriver or pick · new connector adapter with O-rings · ATF to MB spec · scan tool to read transmission codes",
+    "parts": [],
+    "know": [
+     "Catching the leak early keeps ATF out of the wiring, which EuroAutoPro links to control-module faults.",
+     "Harsh or delayed shifts can also come from old fluid, a worn valve body or solenoids."
+    ],
+    "mistakes": [
+     "Ignoring the weep and topping up; the fluid can travel up the harness.",
+     "Overfilling after the repair; use the factory check procedure."
+    ],
+    "cost_note": "The source gives no prices.",
+    "refs": [
+     {
+      "name": "EuroAutoPro: Common problems of the Mercedes G-Class W463 G 500",
+      "url": "https://www.euroautopro.com.au/post/common-problems-of-mercedes-g-class-w463-g-500-updated"
      }
     ]
    }

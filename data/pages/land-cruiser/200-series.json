@@ -171,8 +171,8 @@
    "title": "Replace a weeping water pump",
    "diff": "3 / 5",
    "time": "≈ A few hours",
-   "cost": "Pump and gasket plus coolant; one owner paid for 'a few hours of shop time'",
-   "symptoms": "Dried pink coolant trailing down the front of the engine from the water-pump weep hole, and a slowly dropping coolant level.",
+   "cost": "IH8MUD owners report about $700 (pump, belt and cap), $900 and about $1,100 at a dealer",
+   "symptoms": "Dried pink coolant trailing down the front of the engine from the water-pump weep hole, and a slowly dropping coolant level. IH8MUD owners report leaks from about 58,000 to 115,000 miles, and one at 25,000 that was covered under the powertrain warranty.",
    "fix": "Following the factory manual, drain the coolant, remove the fan, drive belt and anything else in front of the pump, then fit the new pump with a new gasket. Refill and bleed the cooling system. The build-thread owner also replaced the fan bracket, because its bearing had been sitting in leaking coolant.",
    "tools": "Basic metric sockets · belt tool · coolant catch tub · Aisin water pump and gasket · Toyota long-life coolant · fan bracket if contaminated.",
    "parts": [
@@ -195,6 +195,25 @@
      "name": "OEM water pump diagram & part numbers (2015 URJ200)",
      "supplier": "ToyotaPartsDeal",
      "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/engine_fuel_tool/water_pump.html"
+    }
+   ],
+   "know": [
+    "Leaking coolant can ruin the fan bracket bearing and the idler pulley bearings, so check them too (Kurt Williams of Cruiser Outfitters).",
+    "The 200 series and the 5.7 Tundra use the same pump and process.",
+    "Some owners replace the idler, tensioner, belt and thermostat at the same time."
+   ],
+   "mistakes": [
+    "Blaming the pump for a valley leak at the back of the engine.",
+    "Reusing old coolant if it has been contaminated."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Water pump leak common?",
+     "url": "https://forum.ih8mud.com/threads/water-pump-leak-common.866970/page-3"
+    },
+    {
+     "name": "IH8MUD poll: common 200-series repairs",
+     "url": "https://forum.ih8mud.com/threads/poll-which-common-repairs-have-been-completed-on-your-200-series-if-any.1257554/page-2"
     }
    ]
   },
@@ -273,6 +292,25 @@
      "name": "OEM propeller shaft & U-joint diagram",
      "supplier": "ToyotaPartsDeal",
      "url": "https://www.toyotapartsdeal.com/parts-list/2015-toyota-land_cruiser/power_train_chassis/propeller_shaft_universal_joint.html"
+    }
+   ],
+   "know": [
+    "Toyota's schedule lubricates the propeller shafts and re-torques their bolts every 15,000 miles, and every 5,000 on dirt roads or when towing.",
+    "One IH8MUD member says Toyota has a TSB for early 200s that replaces the rear driveshaft, and that it fixed his 2008.",
+    "The same member separates and regreases the slip yoke splines with a thick moly grease when the zerk doesn't reach."
+   ],
+   "mistakes": [
+    "Separating the slip without marking both halves for phasing.",
+    "Assuming the clunk is the transmission before greasing the shafts."
+   ],
+   "refs": [
+    {
+     "name": "Toyota 2014 Land Cruiser Warranty and Maintenance Guide",
+     "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-14LandCruiser/pdf/2014_Toyota_Land Cruiser_WMG_lr.pdf"
+    },
+    {
+     "name": "IH8MUD: Clunk on acceleration",
+     "url": "https://forum.ih8mud.com/threads/clunk-on-acceleration.1133402/"
     }
    ]
   },
@@ -367,6 +405,65 @@
      "name": "1VD-FTV engine gaskets and seals (search)",
      "supplier": "Supercheap Auto (AU)",
      "url": "https://www.supercheapauto.com.au/search?q=1vd-ftv"
+    }
+   ]
+  },
+  {
+   "title": "Replace a cracked radiator (5.7 V8)",
+   "diff": "3 / 5",
+   "time": "Most of a day (estimate)",
+   "cost": "A radiator plus coolant; some owners got Toyota to help out of warranty",
+   "symptoms": "A wet line or pink crust along the plastic top tank, at a seam crack around the raised boss, plus slow coolant loss. IH8MUD owners report failures at 139,000 and 143,000 miles; one spotted the wet line at 166,000 before it let go.",
+   "fix": "Drain the coolant, remove the upper shroud, fan and hoses, disconnect the transmission cooler lines where fitted, and lift the radiator out following the factory procedure. Fit the current part number, refill with Toyota pink Super Long Life coolant and bleed the system, then check for leaks once warm. Inspect the water pump while the front is open, because it's the second most common 200-series coolant repair.",
+   "tools": "Drain pan · metric sockets · hose pliers · Toyota SLLC coolant · factory manual",
+   "parts": [],
+   "know": [
+    "In an IH8MUD poll of 162 owners, a cracked or leaking radiator was the most common 200-series repair (44%).",
+    "The radiator has been superseded several times; one member says the supplier (T.RAD) never changed.",
+    "Owners call the boss on the top tank a built-in stress raiser."
+   ],
+   "mistakes": [
+    "Patching the plastic tank; owners say the crack keeps spreading past any repair.",
+    "Ignoring the wet line at the boss, which comes before a sudden failure."
+   ],
+   "cost_note": "The thread gives no prices; some owners report Toyota covering it after the warranty.",
+   "refs": [
+    {
+     "name": "IH8MUD: 2008–2018 radiator failure and public service announcement",
+     "url": "https://forum.ih8mud.com/threads/2008-2010-radiator-failure-and-public-service-announcement.917447/"
+    },
+    {
+     "name": "IH8MUD poll: common 200-series repairs",
+     "url": "https://forum.ih8mud.com/threads/poll-which-common-repairs-have-been-completed-on-your-200-series-if-any.1257554/page-2"
+    }
+   ]
+  },
+  {
+   "title": "Fix the valley coolant leak (5.7 V8)",
+   "diff": "4 / 5",
+   "time": "About two days DIY (one owner)",
+   "cost": "One owner paid $1,430 at a shop including parts",
+   "symptoms": "Coolant dripping off the back of the engine onto the transmission while the water pump area is dry, or simply a coolant level that drops with no visible drip. 12% of owners in an IH8MUD poll had done this repair.",
+   "fix": "The coolant passage cover in the valley under the intake manifold is sealed with FIPG, which fails with age. Drain the coolant, remove the intake and the secondary air valves, lift the valley cover, clean both surfaces completely and reseal with the specified compound. Owners replace the intake gaskets, PCV valve and its gasket, and the union pipe O-rings at the same time. Fit the coolant union pipe before the cover, with plenty of coolant on its O-rings, then reassemble, refill and bleed.",
+   "tools": "Factory manual · metric sockets and extensions · scraper and cleaner · Toyota FIPG compound · new gaskets and O-rings",
+   "parts": [],
+   "know": [
+    "Members list Toyota's 1282B compound (08826-00100); a dealer said it's since been replaced, so confirm the current sealant.",
+    "The same leak affects the LX 570 and the 5.7 Tundra."
+   ],
+   "mistakes": [
+    "Using black RTV, which members say leads to doing it again.",
+    "Losing track of the secondary air valves and gaskets; bag and label them."
+   ],
+   "cost_note": "$1,430 including parts and coolant (one owner, shop labor quoted $1,400, charged $1,280).",
+   "refs": [
+    {
+     "name": "IH8MUD: Heat exchanger valley leak",
+     "url": "https://forum.ih8mud.com/threads/kind-of-mystery-coolant-leak-back-of-engine-heat-exchanger-valley-leak.1004327/page-14"
+    },
+    {
+     "name": "IH8MUD poll: common 200-series repairs",
+     "url": "https://forum.ih8mud.com/threads/poll-which-common-repairs-have-been-completed-on-your-200-series-if-any.1257554/page-2"
     }
    ]
   }

@@ -321,5 +321,106 @@
    "name": "Toyota Pressroom — Legendary Toyota Land Cruiser receives significant enhancements for 2013",
    "url": "https://pressroom.toyota.com/?p=47092"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Cruiser 200 Series maintenance schedule from Toyota's guide: 0W-20 oil every 10,000 mi (5,000 for dirt or towing), propshaft lube every 15,000, filters every 30,000, coolant at 100,000, plugs at 120,000.",
+  "intro": "Toyota's 2014 Land Cruiser Warranty and Maintenance Guide sets a 10,000-mile / 12-month oil change on 0W-20, with the propeller shafts lubricated every 15,000 miles and filters every 30,000. Toyota only asks for diff, transfer case and transmission fluid changes under special conditions; most owners change them at purchase anyway. The 5.7's known coolant leaks aren't on the schedule, so look for pink crust every time the hood is up.",
+  "schedule_note": "US schedule for the 5.7 V8 from the Toyota 2014 Land Cruiser Warranty and Maintenance Guide. Other years and markets (4.7, 4.6, diesels) differ; check your book.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Rotate tires, inspect brakes and top up fluids",
+     "Oil change only under special operating conditions"
+    ]
+   },
+   {
+    "at": "Every 10,000 mi / 12 months",
+    "items": [
+     "Replace engine oil (0W-20) and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Clean the cabin filter",
+     "Lubricate the propeller shafts and re-torque their bolts",
+     "Inspect ball joints, boots, coolant, exhaust, diff oil, radiator and steering"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the cabin and engine air filters",
+     "Inspect transmission fluid, transfer case oil, fuel lines and brake thickness"
+    ]
+   },
+   {
+    "at": "60,000 mi / 72 months",
+    "items": [
+     "Everything in the 30,000-mile service",
+     "First drive belt inspection, then every 15,000 mi"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months",
+    "items": [
+     "First coolant replacement, then every 50,000 mi / 60 months"
+    ]
+   },
+   {
+    "at": "120,000 mi / 144 months",
+    "items": [
+     "Replace spark plugs",
+     "Everything in the 30,000-mile service"
+    ]
+   }
+  ],
+  "severe": "Toyota's special conditions: oil every 5,000 miles. Dirt or dusty roads add propshaft lubrication and ball-joint, boot and air filter checks at 5,000 miles and transfer case oil at 30,000, 60,000 and 120,000. Towing or heavy loads: diff oil at 15,000; diffs and transfer case at 30,000; transmission fluid, diffs and transfer case at 60,000 and 120,000. IH8MUD owners change the diffs and transfer case every 30,000–50,000 miles.",
+  "age_items": [
+   {
+    "item": "Radiator top tank",
+    "when": "Every oil change",
+    "why": "The most common 200-series repair in an IH8MUD poll."
+   },
+   {
+    "item": "Water pump",
+    "when": "Every oil change",
+    "why": "Leaks reported from about 25,000 to 115,000 miles."
+   },
+   {
+    "item": "Valley coolant leak",
+    "when": "If coolant drops with no drip at the front",
+    "why": "It leaks under the intake onto the back of the engine."
+   },
+   {
+    "item": "KDSS valves",
+    "when": "After any suspension work",
+    "why": "They must be closed again or the truck sits crooked."
+   },
+   {
+    "item": "Oil filter cap",
+    "when": "At every oil change",
+    "why": "The plastic cap can crack; many owners fit an aluminum one."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota 2014 Land Cruiser Warranty and Maintenance Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-14LandCruiser/pdf/2014_Toyota_Land Cruiser_WMG_lr.pdf"
+   },
+   {
+    "name": "IH8MUD poll: common 200-series repairs",
+    "url": "https://forum.ih8mud.com/threads/poll-which-common-repairs-have-been-completed-on-your-200-series-if-any.1257554/page-2"
+   },
+   {
+    "name": "IH8MUD: Water pump leak common?",
+    "url": "https://forum.ih8mud.com/threads/water-pump-leak-common.866970/page-3"
+   },
+   {
+    "name": "IH8MUD: 2008–2018 radiator failure",
+    "url": "https://forum.ih8mud.com/threads/2008-2010-radiator-failure-and-public-service-announcement.917447/"
+   }
+  ]
+ }
 }

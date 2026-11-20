@@ -374,5 +374,100 @@
    "name": "MPG Buddy (EPA data) — 2007 G500: Automatic 7-spd",
    "url": "https://mpgbuddy.com/cars/mercedes-benz/g500/2007"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G 500 (W463, 1998–2008) maintenance: Mercedes's alternating Service A and Service B, transfer case and diffs every 60,000 mi, 722.6 transmission service every 40,000–60,000, plus the M113 and G-specific checks.",
+  "intro": "Mercedes runs the W463 on its Flexible Service System: the dash indicator calls for an alternating Service A and Service B, typically about every 10,000 miles or once a year. Service A is an oil service; Service B adds the cabin and air filters and brake fluid. The longer-interval items (transmission, transfer case, diffs, plugs) aren't in the A/B lists, so owners and specialists set them, as below.",
+  "schedule_note": "Service A/B contents from KBB's G-Class maintenance schedule; transfer case, transmission and knuckle intervals as quoted in our buyer's baseline (owners citing Mercedes, technician practice and Europa's own interval). Check the maintenance booklet for your VIN.",
+  "schedule": [
+   {
+    "at": "Service A (about every 10,000 mi or yearly, at the indicator)",
+    "items": [
+     "Synthetic engine oil (MB-approved) and filter",
+     "Check and correct fluid levels",
+     "Multi-point inspection"
+    ]
+   },
+   {
+    "at": "Service B (alternates with A)",
+    "items": [
+     "Engine oil and filter",
+     "Cabin filter and engine air filter",
+     "Brake fluid",
+     "Check fluid levels and inspect"
+    ]
+   },
+   {
+    "at": "Every 40,000 mi",
+    "items": [
+     "Front knuckles, wheel bearings and CV boots (Europa's own interval)"
+    ]
+   },
+   {
+    "at": "Every 40,000–60,000 mi",
+    "items": [
+     "722.6 automatic transmission fluid and filter (common technician practice)"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi",
+    "items": [
+     "Transfer case and both differentials (Mercedes interval quoted by owners)"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid, if Service B hasn't come round"
+    ]
+   }
+  ],
+  "severe": "On dirt roads, change the air filter far more often than every second service. After water crossings, check the diff, transfer case and knuckle oil for water and check the sunroof drains are clear.",
+  "age_items": [
+   {
+    "item": "Oil filter housing gasket and valve cover gaskets (M113)",
+    "when": "Look for oil on top of the engine at every service",
+    "why": "The M113's best-known oil leaks."
+   },
+   {
+    "item": "Harmonic balancer",
+    "when": "Inspect at every service",
+    "why": "The rubber layer separates with age."
+   },
+   {
+    "item": "Diff lock lines and actuators",
+    "when": "Test all three locks yearly",
+    "why": "Vacuum and pneumatic lines age; locks that won't engage are common."
+   },
+   {
+    "item": "Transmission connector seal",
+    "when": "Look for ATF on the side of the transmission",
+    "why": "It degrades and leaks (EuroAutoPro)."
+   },
+   {
+    "item": "Coil springs",
+    "when": "Listen for thumping after cold weather",
+    "why": "Autocar says they crack."
+   },
+   {
+    "item": "Sunroof drains",
+    "when": "Yearly",
+    "why": "Blocked drains sag the headliner and soak the interior."
+   }
+  ],
+  "sources": [
+   {
+    "name": "KBB: Mercedes-Benz G-Class maintenance schedule (Service A and B)",
+    "url": "https://www.kbb.com/mercedes-benz/g-class/2004/maintenance-schedules/"
+   },
+   {
+    "name": "Autocar: Used car buying guide, G-Class W463",
+    "url": "https://autocar.co.uk/node/104626"
+   },
+   {
+    "name": "EuroAutoPro: Common problems of the G 500",
+    "url": "https://www.euroautopro.com.au/post/common-problems-of-mercedes-g-class-w463-g-500-updated"
+   }
+  ]
+ }
 }

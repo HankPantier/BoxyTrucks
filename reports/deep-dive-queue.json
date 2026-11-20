@@ -170,7 +170,12 @@
   },
   {
    "gen": "land-cruiser/200-series",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 2,
+   "deepened": 2,
+   "maintenance": true,
+   "note": "KDSS, oil cap, helper springs guides still thin"
   },
   {
    "gen": "land-cruiser/fj40",
@@ -202,7 +207,12 @@
   },
   {
    "gen": "g-class/g500",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 1,
+   "deepened": 3,
+   "maintenance": true,
+   "note": "Front axle seal and steering damper guides still thin"
   },
   {
    "gen": "range-rover/l322",

@@ -4947,8 +4947,8 @@ Fix: Swap the steering damper (OE Stabilus or an equivalent quality unit). Check
 Tools: Steering damper · basic sockets and wrenches · tie-rod or drag-link ends if worn
 
 #### Cracked coil springs
-Difficulty 2 / 5 · time Half a day · cost Parts plus labor
-Symptoms: A loud thump over bumps, uneven ride height, especially after cold weather.
+Difficulty 2 / 5 · time Half a day · cost Autocar: budget about £120 a corner
+Symptoms: Autocar says the coils can crack, especially in cold weather, and the usual sign is a loud thumping while driving. Uneven ride height is another clue.
 Fix: Replace springs in axle pairs. If you’re lifting the truck anyway, this is the moment to fit a lift spring kit (2-inch kits are common for the W463) with matched shocks.
 Tools: Springs (pairs) · jack and stands · spring compressor if required by your setup · new shocks recommended
 
@@ -4960,15 +4960,21 @@ Tools: Trimmer line or drain-cleaning wire · low-pressure air · towels and pat
 
 #### Propshaft judder
 Difficulty 3 / 5 · time Half a day · cost Autocar: £1,500+ for a shaft
-Symptoms: Shake or judder under way, often worse under load.
+Symptoms: Shake or judder under way, often worse under load. Autocar says judder can mean the propshaft is at the end of its life.
 Fix: Inspect the joints and couplings for play before condemning the shaft. A worn shaft is a remove-and-replace job; mark the orientation so it goes back phased correctly.
 Tools: Sockets and wrenches · paint marker · replacement shaft or joints
 
 #### Rust on the frame and body
 Difficulty 2–5 / 5 · time Ongoing · cost $400–8,000
-Symptoms: Bubbling at the tailgate’s lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.
+Symptoms: Bubbling at the tailgate’s lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts. Autocar says to check the areas that rarely get cleaned, such as inside the wheel arches and around the rear bumper. EuroAutoPro adds the door sills and hinges, the spare tire mount and the frame and suspension mounts.
 Fix: Catch it early: blast and treat, or weld in repair panels before it spreads. Cavity-wax the doors and underbody, rinse off road salt after winter, and keep drain holes clear. Severe frame rust can often be fixed in sections rather than with a whole new frame.
 Tools: Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair
+
+#### Transmission fluid leak at the electrical connector (722.6)
+Difficulty 2 / 5 · time 1–2 hours (estimate) · cost A connector adapter seal and fresh ATF
+Symptoms: ATF weeping from the round electrical connector on the side of the 5-speed automatic, a drip under the transmission, and in time harsh or delayed shifts or transmission fault codes. EuroAutoPro lists the degraded connector seal as a common G 500 fault that can lead to fluid loss and control-module faults.
+Fix: The 722.6 transmission's wiring enters the case through a plug with an O-ring-sealed adapter (often called the pilot bushing). When the seal hardens, ATF leaks past it and can wick up the harness. Unplug the connector, release the adapter from the case, fit a new adapter or seals, clean any ATF out of the connector, and refit. Check the fluid level to the factory procedure afterward, since the 722.6 has no dipstick in the tube on many trucks and needs the correct temperature to check. If shifting has gone harsh, a fluid and filter service is the next step.
+Tools: Small flat screwdriver or pick · new connector adapter with O-rings · ATF to MB spec · scan tool to read transmission codes
 
 ### Baseline service
 Assume nothing was done and reset every fluid and filter in the first month: on a 15–25-year-old G 500 the expensive failures (722.6 shifts, diff locks, front axle seals) usually trace back to old fluid, perished vacuum lines or a skipped knuckle service. Read the tags on the transfer case and axles before buying fluid — W463 drivetrains changed through the years.
@@ -15662,8 +15668,8 @@ The 200 is built on a new, stronger frame with independent front suspension and 
 
 ### Common repairs
 #### Replace a weeping water pump
-Difficulty 3 / 5 · time ≈ A few hours · cost Pump and gasket plus coolant; one owner paid for 'a few hours of shop time'
-Symptoms: Dried pink coolant trailing down the front of the engine from the water-pump weep hole, and a slowly dropping coolant level.
+Difficulty 3 / 5 · time ≈ A few hours · cost IH8MUD owners report about $700 (pump, belt and cap), $900 and about $1,100 at a dealer
+Symptoms: Dried pink coolant trailing down the front of the engine from the water-pump weep hole, and a slowly dropping coolant level. IH8MUD owners report leaks from about 58,000 to 115,000 miles, and one at 25,000 that was covered under the powertrain warranty.
 Fix: Following the factory manual, drain the coolant, remove the fan, drive belt and anything else in front of the pump, then fit the new pump with a new gasket. Refill and bleed the cooling system. The build-thread owner also replaced the fan bracket, because its bearing had been sitting in leaking coolant.
 Tools: Basic metric sockets · belt tool · coolant catch tub · Aisin water pump and gasket · Toyota long-life coolant · fan bracket if contaminated.
 
@@ -15708,6 +15714,18 @@ Difficulty 5 / 5 · time ≈ A long day or more · cost About A$4,000 in parts f
 Symptoms: Rough idle, smoke, poor fuel economy, sludge in the intake and DPF trouble, often caused by leaking injector seat washers.
 Fix: Unsealed's advice is to replace all eight injectors with updated seat washers rather than one at a time, because single replacements often failed again within months. Do it under warranty where possible. Out of warranty, many specialists will do it for less than a dealer.
 Tools: Workshop manual · injector puller · new injectors and updated washers (all eight) · a diagnostic tool to code the injectors.
+
+#### Replace a cracked radiator (5.7 V8)
+Difficulty 3 / 5 · time Most of a day (estimate) · cost A radiator plus coolant; some owners got Toyota to help out of warranty
+Symptoms: A wet line or pink crust along the plastic top tank, at a seam crack around the raised boss, plus slow coolant loss. IH8MUD owners report failures at 139,000 and 143,000 miles; one spotted the wet line at 166,000 before it let go.
+Fix: Drain the coolant, remove the upper shroud, fan and hoses, disconnect the transmission cooler lines where fitted, and lift the radiator out following the factory procedure. Fit the current part number, refill with Toyota pink Super Long Life coolant and bleed the system, then check for leaks once warm. Inspect the water pump while the front is open, because it's the second most common 200-series coolant repair.
+Tools: Drain pan · metric sockets · hose pliers · Toyota SLLC coolant · factory manual
+
+#### Fix the valley coolant leak (5.7 V8)
+Difficulty 4 / 5 · time About two days DIY (one owner) · cost One owner paid $1,430 at a shop including parts
+Symptoms: Coolant dripping off the back of the engine onto the transmission while the water pump area is dry, or simply a coolant level that drops with no visible drip. 12% of owners in an IH8MUD poll had done this repair.
+Fix: The coolant passage cover in the valley under the intake manifold is sealed with FIPG, which fails with age. Drain the coolant, remove the intake and the secondary air valves, lift the valley cover, clean both surfaces completely and reseal with the specified compound. Owners replace the intake gaskets, PCV valve and its gasket, and the union pipe O-rings at the same time. Fit the coolant union pipe before the cover, with plenty of coolant on its O-rings, then reassemble, refill and bleed.
+Tools: Factory manual · metric sockets and extensions · scraper and cleaner · Toyota FIPG compound · new gaskets and O-rings
 
 ### Baseline service
 Assume nothing was done. The 200 is easy to keep alive, but 'lifetime' fluids, dry U-joints and a weeping water pump are common on high-mileage trucks. Specs below are for the US 3UR-FE V8. Intervals come from Toyota's 2021 Warranty & Maintenance Guide; capacities come from AMSOIL's lookup for a 2020 truck (8-speed). Trucks from 2008–2015 have the 6-speed AB60F, and the 1VD diesel is different again, so check capacities against your manual.
