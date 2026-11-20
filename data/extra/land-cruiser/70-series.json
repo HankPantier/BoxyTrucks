@@ -289,5 +289,94 @@
    "name": "Toyota — Toyota re-introduces the Land Cruiser \"70\" in Japan (29 Nov 2023)",
    "url": "https://global.toyota/en/newsroom/toyota/40139890.html"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "LandCruiser 70 Series maintenance schedule: oil every 10,000 km or 6 months (5,000 km severe) on the V8 and 2.8, fuel filter at every oil change, diffs and transfer every 40,000 km, gearbox every 80,000 km, brake fluid every 2 years.",
+  "intro": "Toyota Australia services the 70 Series every 10,000 km or six months: its capped-price program covered six services over three years or 60,000 km. 70seriesstore's interval guide fills in the longer items. Severe use (towing, dust, sustained off-road work) halves everything, and on a 70 that's most of its life.",
+  "schedule_note": "Oil interval from Toyota's capped-price servicing program and 70seriesstore; longer intervals from 70seriesstore's guide, which doesn't separate Toyota's figures from its own. Older 1HZ trucks run shorter oil intervals. Check your service book.",
+  "schedule": [
+   {
+    "at": "Every 10,000 km / 6 months (V8 and 2.8)",
+    "items": [
+     "Engine oil and filter (5,000 km in severe service; 1HZ every 5,000 km)",
+     "Fuel filter (70seriesstore: the most-skipped item)",
+     "Inspect the air filter and the clean side of the airbox",
+     "Check the rear spring hangers and grease the chassis"
+    ]
+   },
+   {
+    "at": "Every 20,000–40,000 km",
+    "items": [
+     "Replace the air filter, sooner in dust"
+    ]
+   },
+   {
+    "at": "Every 40,000 km (20,000 severe)",
+    "items": [
+     "Front and rear differentials and transfer case (GL-5 75W-90 or 80W-90)"
+    ]
+   },
+   {
+    "at": "Every 80,000 km",
+    "items": [
+     "Gearbox oil: GL-4 75W-90 in the manual (not GL-5); Toyota WS in the automatic"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake and clutch fluid"
+    ]
+   },
+   {
+    "at": "Every 5 years",
+    "items": [
+     "Flush the coolant (Toyota red long-life) regardless of kilometres"
+    ]
+   },
+   {
+    "at": "Every 1,000–2,000 km (late-2016-on V8 with DPF)",
+    "items": [
+     "A spirited highway run so the DPF can regenerate (Unsealed)"
+    ]
+   }
+  ],
+  "severe": "70seriesstore says to halve every interval for heavy towing, sustained off-road use, dust, frequent short trips or lots of idling. After water crossings, check the diff breathers and look for milky oil.",
+  "age_items": [
+   {
+    "item": "Airbox seal (1VD V8)",
+    "when": "After every dusty trip",
+    "why": "Dust past the filter causes MAF faults and turbo wear."
+   },
+   {
+    "item": "Rear spring hangers",
+    "when": "Every service",
+    "why": "Overloaded trucks crack the hanger welds."
+   },
+   {
+    "item": "Front wheel bearings and swivel hubs",
+    "when": "Check for play every service",
+    "why": "Unsealed puts a bearing job at about $500 a side at a mechanic."
+   },
+   {
+    "item": "A-pillars (coastal trucks)",
+    "when": "At purchase",
+    "why": "Unsealed reports one owner paying nearly $15,000 to replace both."
+   }
+  ],
+  "sources": [
+   {
+    "name": "70seriesstore: What are the best 70 Series service intervals?",
+    "url": "https://70seriesstore.com/blogs/information/what-are-the-best-70-series-service-intervals"
+   },
+   {
+    "name": "CarAdvice: Toyota adds LandCruiser 70 Series to capped price servicing",
+    "url": "https://www.caradvice.com.au/news/toyota-adds-landcruiser-70-series-to-capped-price-servicing-program/"
+   },
+   {
+    "name": "Unsealed 4X4: Toyota LandCruiser 70 Series common problems",
+    "url": "https://unsealed4x4.com.au/toyota-landcruiser-70-series-common-problems/"
+   }
+  ]
+ }
 }

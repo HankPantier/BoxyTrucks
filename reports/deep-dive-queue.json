@@ -170,7 +170,12 @@
   },
   {
    "gen": "grenadier/station-wagon",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 1,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "Ineos does not publish per-service item lists; thin recall guides left as-is"
   },
   {
    "gen": "land-cruiser/200-series",
@@ -196,7 +201,11 @@
   },
   {
    "gen": "land-cruiser/70-series",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 5,
+   "maintenance": true
   },
   {
    "gen": "lexus/lx600",
