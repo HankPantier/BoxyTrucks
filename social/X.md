@@ -57,6 +57,7 @@
 | Nov 8, 2026 | n=15 "One desert, one truck" Patrol question (image), link to /models/nissan-patrol/ | https://x.com/boxytrucks/status/2119638300717986252 |
 | Nov 8, 2026 | CJ-5 tire Short (MP4), link to /models/jeep/cj-5/tires/ | https://x.com/boxytrucks/status/2119637318873030852 |
 | Nov 13, 2026 | Field Note: Scout welding real trucks in South Carolina (4 images, link reply 2121318091313537502) | https://x.com/boxytrucks/status/2121317966071390321 |
+| Nov 20, 2026 | Weekly round-up: G 500 oil housing (video), G 500 fall drive, JK years, Prado 150 years; links reply 2123916032838615507 (duplicate post 2123915836457144347, pending Hank) | https://x.com/boxytrucks/status/2123915546081329631 |
 
 ## Following (15, Oct 29, 2026)
 Jeep, Defender, LandRover (now "Land Rover Discovery"), RangeRover, INEOSGrenadier, Ford, MercedesBenz, Scout_Motors, Quadratec, Hagerty, Bringatrailer, carsandbids, BBC_TopGear, MotorTrend, Petrolicious
@@ -90,4 +91,3 @@ From Oct 30, 2026, X gets a daily post that mirrors that day's Instagram post (H
 - After posting, new accounts see an "Unlock more on X" info modal. It's safe to close with the X.
 - No "sensitive" or AI-label toggle appeared on either post.
 - Don't press Escape in the composer: it opens "Save post?" (press Escape again to back out).
-| Nov 20, 2026 | Weekly round-up: G 500 oil housing (video), G 500 fall drive, JK years, Prado 150 years; links reply 2123916032838615507 (duplicate post 2123915836457144347, pending Hank) | https://x.com/boxytrucks/status/2123915546081329631 |
