@@ -286,6 +286,23 @@
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/power-steering-reservoir-to-pump-return-hose-fits-08-1992-12-1997-fzj80-lx450-land-cruiser-applications-st44348fz/"
     }
+   ],
+   "know": [
+    "Unsealed 4X4 says most 80 Series and LX 450 power-steering leaks are simply the reservoir, and that people often replace hoses or rebuild the steering box first.",
+    "There are two rubber seals: one under the cap that clamps down when you tighten the lid, and one under the top plate, which was crimped on at the factory. Both can be replaced.",
+    "Do the work on the bench, gently prying the crimps open so the top lifts off without distorting the body."
+   ],
+   "mistakes": [
+    "Rebuilding the steering box or replacing hoses before checking the reservoir.",
+    "Bending the lip while prying the crimps.",
+    "Replacing only the cap seal and leaving the top-plate seal."
+   ],
+   "cost_note": "Two seals from a parts store; the most expensive mistake is the steering box you didn't need.",
+   "refs": [
+    {
+     "name": "Unsealed 4X4: Toyota LandCruiser 80 Series common problems and solutions",
+     "url": "https://unsealed4x4.com.au/toyota-landcruiser-80-series-common-problems-solutions/"
+    }
    ]
   },
   {
@@ -312,6 +329,24 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/lexus,1997,lx450"
     }
+   ],
+   "know": [
+    "Unsealed 4X4: many owners go from 8 mm to 10 mm studs, but that doesn't fix the likely cause, a slightly warped axle flange.",
+    "The flange warps when the shaft end is hammered to free the cone washers. It then no longer pulls up square, one stud takes most of the load and breaks, and the others follow.",
+    "Their tip: tap the stud ends with a brass drift, and if that fails, use a small flat screwdriver in the cone-washer slot with a light tap.",
+    "A machine shop can reface the flange square on a lathe, though some shafts are too far gone. Refacing plus 10 mm studs is the combination Unsealed 4X4 suggests for 35s."
+   ],
+   "mistakes": [
+    "Hitting the shaft end with a hammer to release the cone washers.",
+    "Fitting bigger studs to a warped flange and expecting them to survive.",
+    "Reusing a flange that won't sit flat."
+   ],
+   "cost_note": "Studs and cone washers are cheap; a machine-shop reface costs more, and a new shaft more still.",
+   "refs": [
+    {
+     "name": "Unsealed 4X4: Toyota LandCruiser 80 Series common problems and solutions",
+     "url": "https://unsealed4x4.com.au/toyota-landcruiser-80-series-common-problems-solutions/"
+    }
    ]
   },
   {
@@ -337,6 +372,24 @@
      "name": "Rear parking brake shoe strut, LH & RH, 8x/10x (PB476138X)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/rear-parking-brake-shoe-strut-lh-rh-fits-8x-10x-series-land-cruiser-applications-pb476138x/"
+    }
+   ],
+   "know": [
+    "Unsealed 4X4 lists four causes: poor adjustment, poor maintenance, worn dog bones in the drums and the design of the lever.",
+    "There are two adjustment points, at the rear drum and at the lever; adjust both.",
+    "Aftermarket dog bones are a little longer than Toyota's to give more shoe contact, and lever kits move the pivot to pull more cable. Results vary.",
+    "Their view: short of fitting a Nissan-style transmission brake on the transfer case, no fix lasts forever."
+   ],
+   "mistakes": [
+    "Adjusting only at the lever.",
+    "Adjusting worn-out linings metal to metal.",
+    "Expecting an aftermarket part to fix it permanently."
+   ],
+   "cost_note": "Adjustment is free; shoes, dog bones or a lever kit cost a little more each.",
+   "refs": [
+    {
+     "name": "Unsealed 4X4: Toyota LandCruiser 80 Series common problems and solutions",
+     "url": "https://unsealed4x4.com.au/toyota-landcruiser-80-series-common-problems-solutions/"
     }
    ]
   },

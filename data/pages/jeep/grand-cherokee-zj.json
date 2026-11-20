@@ -254,6 +254,23 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/jeep,1996,grand+cherokee"
     }
+   ],
+   "know": [
+    "OffroadXtreme's ZJ buyer's guide names the rear main seal, valve cover gaskets and oil pressure sending unit as the 5.2 and 5.9 V8's usual leaks, and warns that the rear main seal can be a multi-day repair.",
+    "The 4.0 six has its own list: rear main seal, oil pan gasket, valve cover gasket and oil filter adapter gasket.",
+    "Clean the engine before you diagnose; oil blows back in the airflow and a top leak can look like a rear main."
+   ],
+   "mistakes": [
+    "Assuming the rear main seal before checking the sender and valve covers.",
+    "Overtightening valve cover bolts and crushing the gasket.",
+    "Ignoring a flickering gauge; confirm real oil pressure with a mechanical gauge."
+   ],
+   "cost_note": "The sender and valve cover gaskets are cheap; the rear main seal is mostly labor.",
+   "refs": [
+    {
+     "name": "OffroadXtreme: Buyer's guide, ZJ Grand Cherokee",
+     "url": "https://www.offroadxtreme.com/news/buyers-guide-zj-grand-cherokee"
+    }
    ]
   },
   {
@@ -311,6 +328,21 @@
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/omix-ada/liftgate-panel-push-pin-zj-wj-11811.68"
     }
+   ],
+   "know": [
+    "OffroadXtreme lists a rear hatch stuck closed among the ZJ's common faults, and says rust at the bottom of the hatch can make it hard to open.",
+    "Lower doors and rocker panels rust too; heavy frame rust is the guide's reason to walk away from a ZJ."
+   ],
+   "mistakes": [
+    "Forcing the outside handle and breaking the rod or clip.",
+    "Fixing the latch and ignoring rust along the hatch bottom."
+   ],
+   "cost_note": "Usually clips, rods and lubricant; rust repair on the hatch costs more.",
+   "refs": [
+    {
+     "name": "OffroadXtreme: Buyer's guide, ZJ Grand Cherokee",
+     "url": "https://www.offroadxtreme.com/news/buyers-guide-zj-grand-cherokee"
+    }
    ]
   },
   {
@@ -341,6 +373,23 @@
      "name": "Cooling system parts for 1993–1998 Grand Cherokee ZJ",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/collections/1993-1998-grand-cherokee-zj-engine-and-fuel-system-cooling-system"
+    }
+   ],
+   "know": [
+    "OffroadXtreme lists an insufficient cooling system among the ZJ's common problems.",
+    "It also warns that factory axles can fail behind the 5.9's extra power, so a hot-running 5.9 ZJ is worth a full inspection, not just a radiator.",
+    "An old ZJ will have had decades of coolant top-ups, so flush and fill with the correct type rather than mixing."
+   ],
+   "mistakes": [
+    "Replacing the radiator without checking the fan clutch.",
+    "Mixing coolant types.",
+    "Skipping the pressure test and chasing the wrong leak."
+   ],
+   "cost_note": "A thermostat, hoses and coolant are cheap; a radiator or fan clutch adds more.",
+   "refs": [
+    {
+     "name": "OffroadXtreme: Buyer's guide, ZJ Grand Cherokee",
+     "url": "https://www.offroadxtreme.com/news/buyers-guide-zj-grand-cherokee"
     }
    ]
   },

@@ -458,7 +458,9 @@
   },
   {
    "gen": "jeep/grand-cherokee-zj",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 3,
+   "note": "OffroadXtreme sourced; no factory schedule yet"
   },
   {
    "gen": "jeep/grand-wagoneer",
@@ -500,7 +502,12 @@
   },
   {
    "gen": "jeep/tj-unlimited",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "Shares the TJ maintenance page content (Haynes)"
   },
   {
    "gen": "jeep/wagoneer-ws",
@@ -564,7 +571,12 @@
   },
   {
    "gen": "land-rover/lr4",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "Guides already full; maintenance from LR 2014MY check sheet + Rimmer Bros"
   },
   {
    "gen": "land-rover/series",
@@ -572,7 +584,12 @@
   },
   {
    "gen": "lexus/lx450",
-   "status": "todo"
+   "status": "done",
+   "deepened": 3,
+   "note": "Unsealed 4X4 sourced three guides; maintenance shared with the 80 Series (Toyota 1997 US guide)",
+   "date": "2026-11-20",
+   "added": 0,
+   "maintenance": true
   },
   {
    "gen": "nissan-patrol/160-mq",
@@ -624,7 +641,9 @@
   },
   {
    "gen": "range-rover/p38",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 2,
+   "note": "Heater O-ring and blend motor guides sourced from AULRO; 3 thin left"
   },
   {
    "gen": "scout/scout-80-800",

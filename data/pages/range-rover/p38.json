@@ -256,6 +256,29 @@
      "supplier": "Rovers North",
      "url": "https://roversnorth.com/search.aspx?q=p38+heater+matrix+o-ring"
     }
+   ],
+   "know": [
+    "On AULRO, p38driver reached the matrix pipes without removing the whole dash; the instrument cluster has to come out. He unplugged the cluster's main plug before disconnecting the airbag, having heard that a live cluster can set an SRS fault.",
+    "benji fitted Viton O-rings rather than the rubber originals and swapped the Phillips clamp screw for a bolt that's easier to reach next time.",
+    "benji's warning: don't do the clamp up too tight, or it'll break the heater core.",
+    "If the core itself leaks, the dash frame and ducting come out; benji did that in about 2.5 hours with the heater unit left in place, and found the wood trim strip easy to break."
+   ],
+   "mistakes": [
+    "Overtightening the pipe clamp and cracking the core.",
+    "Disconnecting the airbag with the cluster still plugged in.",
+    "Reusing the old rubber O-rings.",
+    "Breaking the wooden dash strip by forcing it."
+   ],
+   "cost_note": "A pair of O-rings costs very little; the expense is the time, or a new matrix if the core itself has failed.",
+   "refs": [
+    {
+     "name": "AULRO: P38 heater core O-rings thread",
+     "url": "https://www.aulro.com/afvb/archive/index.php/t-135699.html"
+    },
+    {
+     "name": "AULRO: P38 blend motors and heater O-rings thread",
+     "url": "https://www.aulro.com/afvb/archive/index.php/t-178939.html"
+    }
    ]
   },
   {
@@ -276,6 +299,29 @@
      "name": "Cabin pollen filter set LR030219 (P38)",
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/cabin-pollen-filter-set"
+    }
+   ],
+   "know": [
+    "On AULRO, Hoges had a persistent book symbol and open-circuit readings, yet his blend motors ran fine on a 9 V battery. After reassembly the symbol came back only on cold starts below about 17 °C, which he put down to the flap housing distorting and binding.",
+    "davidsonsm changed the motors at home and called it awkward but doable; he had to cut the ductwork and resealed it with Gorilla tape. redandy3575 bent the ducts out of the way instead.",
+    "A right-angle ratchet screwdriver helps in the tight spots (davidsonsm).",
+    "If the dash is coming out anyway, owners suggest doing the heater O-rings, the A/C evaporator and any blown dash bulbs at the same time."
+   ],
+   "mistakes": [
+    "Buying motors before testing the old ones on direct voltage.",
+    "Skipping the flap calibration after fitting new motors.",
+    "Leaving cut ducting unsealed, which robs airflow.",
+    "Not doing the heater O-rings while the dash is apart."
+   ],
+   "cost_note": "Relays and filters are cheap; blend motors cost more, and the labour is the dash work.",
+   "refs": [
+    {
+     "name": "AULRO: P38 blend motors and heater O-rings thread",
+     "url": "https://www.aulro.com/afvb/archive/index.php/t-178939.html"
+    },
+    {
+     "name": "AULRO: P38 heater core O-rings thread",
+     "url": "https://www.aulro.com/afvb/archive/index.php/t-135699.html"
     }
    ]
   },

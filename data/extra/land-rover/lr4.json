@@ -471,5 +471,89 @@
    "name": "Rovers North blog — ANARC News, Spring 2026",
    "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Rover LR4 (2010–2016) maintenance: annual or 15,000–16,000-mile services, with Land Rover's age-based items: brake fluid every 2 years, spark plugs every 6, transfer box every 5, coolant, transmission and axle oils every 10.",
+  "intro": "In North America the LR4 was serviced once a year or every 15,000–16,000 miles (Rimmer Bros). Many owners now change the oil far sooner; the overview's baseline table covers that. The items below are the ones Land Rover sets by age in its LR4 maintenance check sheet. They matter more than the mileage, because a 2010–2016 truck has passed most of them.",
+  "schedule_note": "Age-based items are from Land Rover's 2014-model-year Discovery/LR4 maintenance check sheet, written for arduous use. Check your book for normal-use intervals.",
+  "schedule": [
+   {
+    "at": "Every year / 15,000–16,000 mi (normal use)",
+    "items": [
+     "Engine oil and filter",
+     "Pollen filter and air cleaner as the service calls for",
+     "Inspect the ancillary belt, brakes, suspension and underbody"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Every 4 years",
+    "items": [
+     "Supercharger drive belt (3.0 supercharged V6)"
+    ]
+   },
+   {
+    "at": "Every 5 years",
+    "items": [
+     "Transfer box oil",
+     "Locking rear differential oil",
+     "Ancillary drive belts",
+     "Diesel camshaft timing belts and tensioners (non-US diesels)"
+    ]
+   },
+   {
+    "at": "Every 6 years",
+    "items": [
+     "Spark plugs",
+     "Flexible brake hoses (or 90,000 mi, whichever is sooner)"
+    ]
+   },
+   {
+    "at": "Every 10 years",
+    "items": [
+     "Engine coolant",
+     "Automatic gearbox fluid and filter",
+     "Front and rear axle oil",
+     "Petrol fuel tank filter"
+    ]
+   }
+  ],
+  "severe": "Land Rover's arduous-use sheet services the LR4 every 6 months or 8,000 miles, with an oil service in between every 3 months or 4,000 miles. After 50 continuous miles of wading, deep mud or abrasive grit, it adds an inspection and clean of the electric parking brake and the drive belt. Air-suspension trucks in hard use need the compressor inlet filter replaced more often, and the air cleaner needs checking more often in dust or after deep wading.",
+  "age_items": [
+   {
+    "item": "ZF transmission fluid",
+    "when": "Now if there's no record",
+    "why": "It's a 10-year item and every LR4 has reached it."
+   },
+   {
+    "item": "Transfer box and locking diff oil",
+    "when": "Now if there's no record",
+    "why": "Land Rover sets both at 5 years."
+   },
+   {
+    "item": "Spark plugs",
+    "when": "Now if there's no record",
+    "why": "Land Rover sets them at 6 years."
+   },
+   {
+    "item": "Brake hoses",
+    "when": "Every 6 years",
+    "why": "Rubber hoses are on an age limit."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Land Rover: Discovery/LR4 maintenance check sheet, 2014 model year, arduous use"
+   },
+   {
+    "name": "Rimmer Bros: Land Rover maintenance schedules by model",
+    "url": "https://rimmerbros.com/c/land-rover-maintenance-schedules-by-model"
+   }
+  ]
+ }
 }

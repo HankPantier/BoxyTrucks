@@ -283,5 +283,85 @@
    "name": "Four Wheel Trends — Largest tire on a stock Jeep Wrangler",
    "url": "https://fourwheeltrends.com/what-is-the-largest-tire-you-can-fit-on-a-stock-jeep-wrangler/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Wrangler Unlimited LJ (2004–2006) maintenance schedule from Haynes: oil every 7,500 mi, plugs, coolant, filters and every gear oil at 30,000 mi, automatic fluid at 12,000 in severe use, plus the OPDA and rust checks.",
+  "intro": "The Unlimited (LJ) is a long-wheelbase TJ and shares its maintenance. Jeep's TJ maintenance book isn't published online by Jeep, so these intervals are the ones in Haynes's Wrangler manual, which follows the factory schedule. Two TJ-specific jobs aren't on any schedule: the oil pump drive assembly (OPDA) on 2005–06 4.0s, and the rust check on the rear lower control-arm mounts.",
+  "schedule_note": "From Haynes's 1987–2017 Wrangler routine maintenance guidance, as listed in our buyer's baseline. Not the Jeep factory book.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 12 months",
+    "items": [
+     "Engine oil and filter",
+     "Grease the chassis and U-joints"
+    ]
+   },
+   {
+    "at": "Every 12,000 mi (severe use)",
+    "items": [
+     "Automatic transmission fluid and filter (30RH / 32RH / 42RLE)"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 24 months",
+    "items": [
+     "Air filter and PCV valve",
+     "Spark plugs",
+     "Coolant",
+     "Manual or automatic transmission fluid",
+     "Transfer case (NP231 / NV241OR)",
+     "Front and rear differentials"
+    ]
+   },
+   {
+    "at": "About every 2 years",
+    "items": [
+     "Brake and clutch fluid"
+    ]
+   },
+   {
+    "at": "After deep water",
+    "items": [
+     "Change the differentials (ExtremeTerrain)"
+    ]
+   }
+  ],
+  "severe": "Haynes's severe service (towing, short trips, dust, off-road) shortens the automatic transmission interval to 12,000 miles. Change the air filter sooner in dust, and inspect the steering and front end after any lift or hard trail day.",
+  "age_items": [
+   {
+    "item": "Oil pump drive assembly (2005–06 4.0)",
+    "when": "Now, unless there's a receipt",
+    "why": "A failing OPDA can take out the cam; it's covered in the repair guides."
+   },
+   {
+    "item": "Rear lower control-arm mounts",
+    "when": "Every winter",
+    "why": "They rust through on salted trucks."
+   },
+   {
+    "item": "Radiator end tanks",
+    "when": "At every oil change",
+    "why": "The plastic tanks leak at the seams."
+   },
+   {
+    "item": "Exhaust manifold",
+    "when": "Listen for a tick that doesn't fade when warm",
+    "why": "The 4.0's manifold cracks from heat cycling."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Haynes: Jeep Wrangler routine maintenance FAQ",
+    "url": "https://us.haynes.com/blogs/tips-tutorials/1987-2017-jeep-wrangler-and-wrangler-unlimited-routine-maintenance-faq"
+   },
+   {
+    "name": "ExtremeTerrain: Jeep Wrangler oils and fluids explained",
+    "url": "https://extremeterrain.com/jeep-wrangler-oils-fluids-explained.html"
+   },
+   {
+    "name": "Modern Jeeper: TJ/LJ exhaust manifold replacement",
+    "url": "https://modernjeeper.com/replacing-your-exhaust-manifold-header-on-a-tj-lj/"
+   }
+  ]
+ }
 }
