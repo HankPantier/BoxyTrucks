@@ -473,5 +473,94 @@
    "name": "Rovers North blog — MAR 2025",
    "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Rover Discovery Series II (1999–2004) maintenance schedule from Land Rover North America's schedule: service every 7,500 mi or 6 months; brake fluid, coolant, air filter, transfer box oil and transmission fluid every 30,000 mi or 24 months; serpentine belt at 45,000; plugs at 60,000.",
+  "intro": "Land Rover North America serviced the Discovery II every 6 months or 7,500 miles, whichever came first. Every other visit (12 months / 15,000 miles) adds a full underbody inspection and greasing the propshafts. The big fluid services fall every 24 months or 30,000 miles. Land Rover tells owners who use the truck extensively off-road or in severe conditions to follow the owner's manual instead, which shortens the intervals.",
+  "schedule_note": "From Land Rover North America's 1999–2002 Discovery Series II maintenance schedule (form LRNA 09/01), as reproduced by JC's British & 4x4. The 2003–2004 schedule (LRNA 09/2005) uses the same 6-month / 7,500-mile intervals.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 6 months",
+    "items": [
+     "Engine oil and filter",
+     "Inspect tires, brake pads, calipers and discs",
+     "Inspect wiper blades; add Land Rover fuel conditioner"
+    ]
+   },
+   {
+    "at": "7,500 mi (first service only)",
+    "items": [
+     "Change front and rear axle oil",
+     "Check trailer hitch bolts"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 12 months",
+    "items": [
+     "Lubricate drive shafts and U-joints",
+     "Inspect coolant hoses, radiator, serpentine belt, brake lines, steering rods and joints, shocks, suspension links, wheel speed and height sensor wiring, fuel and hydraulic lines, exhaust",
+     "Check power steering and ACE fluid; clean the battery terminals; body corrosion inspection"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 24 months",
+    "items": [
+     "Change brake fluid",
+     "Replace the air cleaner element",
+     "Change engine coolant",
+     "Change transfer gearbox oil and automatic transmission fluid",
+     "Replace the transmission fluid filter (once, at 30,000)",
+     "Check front and rear axle oil level"
+    ]
+   },
+   {
+    "at": "45,000 mi / 36 months",
+    "items": [
+     "Replace the serpentine drive belt",
+     "Inspect engine and transmission mounts"
+    ]
+   },
+   {
+    "at": "60,000 mi / 48 months",
+    "items": [
+     "Replace the spark plugs",
+     "Service the SLS (self-levelling suspension) filter, if fitted"
+    ]
+   },
+   {
+    "at": "Every 10 years",
+    "items": [
+     "Replace the SRS airbags (and seat belt pretensioners every 15 years, per the 2003–2004 schedule)"
+    ]
+   }
+  ],
+  "severe": "Land Rover's schedule says vehicles used extensively off-road or under severe conditions should follow the owner's manual service recommendations rather than this schedule. It doesn't list swivel housings or a fuel filter; the 2003–2004 schedule also adds a steering box free-play check.",
+  "age_items": [
+   {
+    "item": "Airbags",
+    "when": "Every 10 years",
+    "why": "Land Rover's schedule requires SRS airbag replacement every ten years, which every Discovery II has passed."
+   },
+   {
+    "item": "Transmission fluid filter",
+    "when": "Once, if no record",
+    "why": "Land Rover lists it as a one-time replacement at 30,000 miles."
+   },
+   {
+    "item": "Front and rear axle oil",
+    "when": "After deep water",
+    "why": "After the first service the schedule only checks the level, so contamination is up to you."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Land Rover North America: 1999–2002 Discovery Series II maintenance schedule (via JC's British & 4x4)",
+    "url": "https://jcsbritish4x4.kukui.com/Files/Documents/99-02-Discovery-II.pdf"
+   },
+   {
+    "name": "Land Rover North America: 2003–2004 Discovery Series II maintenance schedule (via JC's British & 4x4)",
+    "url": "https://jcsbritish4x4.kukui.com/Files/Documents/03-04-discovery-II.pdf"
+   }
+  ]
+ }
 }

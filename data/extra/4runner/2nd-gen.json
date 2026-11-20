@@ -202,5 +202,81 @@
    "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
    "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Toyota 4Runner second generation (1990–1995) maintenance schedule from Toyota's 1993 Pickup and 4Runner repair manual: oil every 7,500 mi or 12 months (3,750 under Schedule A), plugs and air filter every 30,000, coolant first at 45,000 then every 30,000, gear oils every 15,000 under Schedule A.",
+  "intro": "Toyota's maintenance chapter for the 1993 Pickup and 4Runner (22R-E four and 3VZ-E V6) has two schedules. Schedule A is for towing or campers, short trips below freezing, long idling, and dusty, rough, muddy or salted roads. Schedule B is for everything else. A 4Runner that goes off-road belongs on Schedule A. Toyota says to keep repeating the same intervals after 60,000 miles.",
+  "schedule_note": "From Toyota's 1993 Pickup and 4Runner repair manual, maintenance schedule (Schedule B shown). The 1990–1995 trucks share engines; check your own book for your year.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 12 months",
+    "items": [
+     "Engine oil and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 24 months",
+    "items": [
+     "Inspect steering linkage, ball joints and dust covers, drive shaft boots",
+     "Inspect transmission, transfer case and differential oil levels",
+     "Check the steering gear box for leaks",
+     "Grease the propeller shafts (4WD)",
+     "Inspect brake linings, pads and lines",
+     "Check chassis and body bolts; check idle speed after the first 7,500"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the air filter and spark plugs",
+     "Inspect fuel lines and exhaust",
+     "Check valve clearance (22R-E, also 36 months)",
+     "Repack front wheel bearings and thrust bush grease, 4WD (36 months; 48 for 2WD)"
+    ]
+   },
+   {
+    "at": "45,000 mi / 36 months",
+    "items": [
+     "Engine coolant, first replacement; then every 30,000 mi / 24 months"
+    ]
+   },
+   {
+    "at": "60,000 mi",
+    "items": [
+     "Check valve clearance (3VZ-E, or 72 months)",
+     "Replace the fuel tank cap gasket (72 months)",
+     "Inspect drive belts (first at 30,000 / 36 months, then 60,000; after that every 7,500 mi / 12 months)"
+    ]
+   },
+   {
+    "at": "80,000 mi (Fed. and Canada)",
+    "items": [
+     "Replace the oxygen sensor"
+    ]
+   }
+  ],
+  "severe": "Toyota's Schedule A: engine oil and filter every 3,750 miles or 6 months; inspect the air filter every 3,750 miles on dusty roads and replace it every 30,000; change the automatic or manual transmission, transfer case and differential oil every 15,000 miles or 24 months; grease the propeller shafts every 7,500 miles or 12 months; inspect brakes, steering linkage, ball joints and drive shaft boots every 7,500. On the 3VZ-E V6, Schedule A replaces the timing belt at 60,000 miles for trucks used with long idling or low-speed driving. Toyota says to re-grease the propeller shaft daily if it has been under water.",
+  "age_items": [
+   {
+    "item": "Propeller shaft grease",
+    "when": "After any water crossing",
+    "why": "Toyota: if the propeller shaft has been immersed, re-grease it daily."
+   },
+   {
+    "item": "Engine coolant",
+    "when": "Every 2 years after the first change",
+    "why": "Toyota's interval after the first change is 30,000 miles or 24 months."
+   },
+   {
+    "item": "Drive belts",
+    "when": "Yearly after 60,000 mi",
+    "why": "Toyota moves the belt inspection to every 7,500 miles or 12 months after the second period."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota: 1993 Pickup and 4Runner repair manual, maintenance schedule (Schedules A and B)"
+   }
+  ]
+ }
 }

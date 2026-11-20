@@ -313,7 +313,9 @@
   },
   {
    "gen": "4runner/2nd-gen",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Toyota 1993 Pickup/4Runner manual"
   },
   {
    "gen": "4runner/4th-gen",
@@ -574,9 +576,11 @@
   },
   {
    "gen": "land-rover/discovery-2",
-   "status": "todo",
+   "status": "done",
    "deepened": 1,
-   "note": "Three amigos guide sourced; no detailed factory schedule found yet"
+   "note": "Three amigos guide sourced; no detailed factory schedule found yet; maintenance from LRNA schedule",
+   "maintenance": true,
+   "date": "2026-11-20"
   },
   {
    "gen": "land-rover/lr3",
