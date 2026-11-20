@@ -291,6 +291,21 @@
      "supplier": "Bronco Graveyard",
      "url": "https://shop.broncograveyard.com/Ford-Motorcraft-Ignition-Spark-Plug-Wire-Set-V8/productinfo/18502/"
     }
+   ],
+   "know": [
+    "The Ranger Station's ohmmeter check: a good module reads below 800 ohms or above 975 ohms; between 800 and 975, replace it.",
+    "Look under the inspection cover for seeping or dried film, cracks around the mounting screws, halves that don't sit flush and brown discoloration at the harness end.",
+    "Use a name-brand module (Motorcraft or Wells) with a fresh, thin coat of dielectric grease on its metal back; the article puts parts at $15–50."
+   ],
+   "mistakes": [
+    "Fitting the module without heat-transfer grease on its back.",
+    "Ignoring cracked wiring near the module, which can mimic a failed one."
+   ],
+   "refs": [
+    {
+     "name": "The Ranger Station: Ford TFI ignition module",
+     "url": "https://therangerstation.com/tech_library/ford_tfi_ignition_module.shtml"
+    }
    ]
   },
   {

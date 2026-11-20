@@ -362,5 +362,89 @@
    "name": "Bronco Graveyard — manuals and media",
    "url": "https://shop.broncograveyard.com/MANUALSBOOKSMEDIA/departments/3032/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Full-size Ford Bronco (1978–1996) maintenance schedule: Haynes's F-series intervals for the same platform, with oil every 3,000 mi, chassis lube every 7,500, plugs, coolant and wheel bearings every 30,000, transmission and transfer case at 60,000, and a 1,000-mile severe schedule.",
+  "intro": "The full-size Bronco shares its chassis, engines and transmissions with the F-150 of the same years, so Haynes's 1988–1996 F-series routine maintenance schedule applies directly to the later trucks, and closely to the earlier ones. It's an old-school schedule: 3,000-mile oil changes and frequent chassis lube. Off-road use is Ford's severe schedule, which is far shorter.",
+  "schedule_note": "From Haynes's 1988–1996 Ford F-150/F-250/F-350 routine maintenance FAQ. Applies to 1988–96 Broncos; earlier trucks are similar but check a manual for your year and drivetrain.",
+  "schedule": [
+   {
+    "at": "Every 3,000 mi / 3 months",
+    "items": [
+     "Engine oil and filter",
+     "Check power steering and automatic transmission fluid levels"
+    ]
+   },
+   {
+    "at": "Every 7,500 mi / 6 months",
+    "items": [
+     "Lubricate the driveline, steering and chassis",
+     "Check the battery, hoses, belts and lug nut torque"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 12 months",
+    "items": [
+     "Replace the fuel filter",
+     "Check the cooling system, brakes and driveline fluid levels",
+     "Check the automatic transmission band adjustment (where applicable)",
+     "Rotate tires; inspect suspension, steering and exhaust"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 30 months",
+    "items": [
+     "Spark plugs; inspect wires, cap and rotor",
+     "Drain, flush and refill the cooling system",
+     "PCV valve and filter",
+     "Repack and adjust the wheel bearings and front hubs (4x4)"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi",
+    "items": [
+     "Manual transmission oil, transfer case oil and automatic transmission fluid"
+    ]
+   },
+   {
+    "at": "Every 100,000 mi",
+    "items": [
+     "Differential lubricant"
+    ]
+   }
+  ],
+  "severe": "Haynes's severe schedule covers dust, off-road, towing, hills, idling and water: lube the chassis, check the brakes and repack the wheel bearings every 1,000 miles; change the oil every 3,000 miles with a new air filter in dust; change the transmission and transfer case every 30,000 miles; and check the axles for water after any submersion.",
+  "age_items": [
+   {
+    "item": "TFI ignition module (1985–91 EFI)",
+    "when": "If it stalls hot",
+    "why": "Heat kills the distributor-mounted module."
+   },
+   {
+    "item": "E4OD automatic (1990–96)",
+    "when": "Service at purchase",
+    "why": "Fluid and filter keep it alive."
+   },
+   {
+    "item": "Tailgate window",
+    "when": "Run the glass both ways at purchase",
+    "why": "The motor and switches age; there's a repair guide below."
+   },
+   {
+    "item": "TTB front end",
+    "when": "Read the front tire wear",
+    "why": "Worn radius-arm bushings and knuckles show up as camber wear."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Haynes: 1988–1996 Ford F-150/F-250/F-350 routine maintenance FAQ (same platform as the 1988–96 Bronco)",
+    "url": "https://haynes.com/en-us/tips-tutorials/1988-1996-ford-f-150-f-250-f-350-pickup-truck-routine-maintenance-faq"
+   },
+   {
+    "name": "The Ranger Station: Ford TFI ignition module",
+    "url": "https://therangerstation.com/tech_library/ford_tfi_ignition_module.shtml"
+   }
+  ]
+ }
 }
