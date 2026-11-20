@@ -234,6 +234,20 @@
      "supplier": "ToyotaPartsDeal (Toyota OEM)",
      "url": "https://www.toyotapartsdeal.com/oem/toyota~gasket~for~transaxle~rear~cover~90430-a0003.html"
     }
+   ],
+   "refs": [
+    {
+     "name": "4Runner6G: 2025+ diff and transfer case fluid guide",
+     "url": "https://www.4runner6g.com/forum/threads/2025-4runner-diff-transfer-case-fluid-guide-part-numbers-torque-specs-prices.12616/"
+    }
+   ],
+   "know": [
+    "Toyota's normal schedule only inspects the transfer case; replacement comes under its special operating conditions.",
+    "Torque the plugs to 27 lb-ft with new washers, per the 4Runner6G guide."
+   ],
+   "mistakes": [
+    "Mixing up diff oil and transfer fluid.",
+    "Filling without checking the level 5 minutes later."
    ]
   },
   {
@@ -255,6 +269,28 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,2025,4runner,2.4l+l4+turbocharged,3458784,engine,oil+filter,5340"
     }
+   ],
+   "refs": [
+    {
+     "name": "4Runner6G: Oil capacity vs Grand Highlander",
+     "url": "https://www.4runner6g.com/forum/threads/4runner-engine-is-same-as-grand-highlander-but-takes-more-oil.10239/"
+    },
+    {
+     "name": "4Runner6G: Torque spec for oil filter installation",
+     "url": "https://www.4runner6g.com/forum/threads/torque-spec-for-oil-filter-installation.8150/"
+    },
+    {
+     "name": "Toyota 2026 4Runner Warranty and Maintenance Guide",
+     "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-264Runner/pdf/T-MMS-264Runner.pdf"
+    }
+   ],
+   "know": [
+    "Toyota's 2026 guide: every 10,000 miles or 12 months normally, every 5,000 miles or 6 months under special operating conditions.",
+    "The 4Runner holds more oil than the Grand Highlander's version of the same engine, owners note."
+   ],
+   "mistakes": [
+    "Overtightening the filter.",
+    "Forgetting to reset the maintenance reminder."
    ]
   },
   {
@@ -286,6 +322,24 @@
      "supplier": "ToyotaPartsDeal (Toyota OEM)",
      "url": "https://www.toyotapartsdeal.com/oem/toyota~filter~hv~battery~i~g92dj-34010.html"
     }
+   ],
+   "refs": [
+    {
+     "name": "4Runner6G: Cabin air filter replacement",
+     "url": "https://www.4runner6g.com/forum/threads/cabin-air-filter-replacement-part-number-diy-instructions-updated-with-correct-parts-confirmed-by-dealer.5898/"
+    },
+    {
+     "name": "4Runner6G: Hybrid battery filter replacement (G92DH-34010 / G92DJ-34010)",
+     "url": "https://www.4runner6g.com/forum/threads/hybrid-battery-filter-replacement-diy-writeup-part-number-g92dh-34010-g92dj-34010.5864/"
+    }
+   ],
+   "know": [
+    "Hybrid battery intake filters matter most on dusty roads; a clogged one can let the pack run hot.",
+    "Owners give the hybrid filter part numbers as G92DH-34010 and G92DJ-34010 (one per side)."
+   ],
+   "mistakes": [
+    "Fitting the cabin filter with the airflow arrows pointing the wrong way.",
+    "Breaking the trim cover clips; pry the lower outer corner first."
    ]
   },
   {
@@ -302,6 +356,20 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,2025,4runner,2.4l+l4+turbocharged,3458784,drivetrain,universal+joint,2392"
     }
+   ],
+   "refs": [
+    {
+     "name": "4Runner6G: Propeller shaft zerk fittings (4WD)",
+     "url": "https://www.4runner6g.com/forum/threads/drive-shaft-propellar-shaft-grease-zerk-fittings-4wd-trd-orp.5313/"
+    }
+   ],
+   "know": [
+    "The rear slip yoke is booted with no zerk; servicing it means dropping the shaft.",
+    "Toyota's 2026 schedule torques the propeller shaft bolts and inspects the boots at every interval."
+   ],
+   "mistakes": [
+    "Over-packing the front slip yoke.",
+    "Leaving excess grease to collect grit."
    ]
   },
   {
@@ -312,7 +380,19 @@
    "symptoms": "Water sloshing inside the liftgate or dripping from the inner panel with the gate open, after rain or a wash.",
    "fix": "Under the liftgate, find the small rubber plugs in the drain holes and pull them so water can escape — a 4Runner6G.com owner had water gush out. Leave the large centre plug in place; another owner points out it's an access hole, not a drain.",
    "tools": "Trim tool or small screwdriver",
-   "parts": []
+   "parts": [],
+   "refs": [
+    {
+     "name": "4Runner6G: Water in rear liftgate, unplug the weep holes",
+     "url": "https://www.4runner6g.com/forum/threads/water-in-rear-liftgate-unplug-the-weep-holes.4152/"
+    }
+   ],
+   "know": [
+    "The small rubber plugs are in the drain holes; the large center plug is an access hole, not a drain."
+   ],
+   "mistakes": [
+    "Pulling the large center plug and leaving it out."
+   ]
   }
  ],
  "faq": [
