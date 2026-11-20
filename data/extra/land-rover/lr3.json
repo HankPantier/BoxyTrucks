@@ -355,5 +355,97 @@
    "name": "Rovers North blog — ANARC news, spring 2026",
    "url": "https://blog.roversnorth.com/2026/03/anarc-news-spring-2026/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Rover LR3 (2005–2009) maintenance schedule from Land Rover's 2006–2009 service schedule: oil and service every 7,500 mi or 6 months (3,750 mi arduous), plugs at 90,000 (V6) or 105,000 (V8), transfer case at 75,000, transmission and coolant at 10 years.",
+  "intro": "Land Rover's North American LR3 schedule alternates two oil-and-filter services every 7,500 miles or 6 months. Every service includes a pollen filter, an air cleaner element, a full underside inspection and a check of the fault lamps with the dealer tool. The long-life fluids are where LR3s get neglected: the transmission, coolant and axle oils are on a 10-year clock, and most trucks have passed it.",
+  "schedule_note": "From Land Rover's 2006–2009 LR3 service schedule. The 2005 schedule is similar; check your book.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 6 months",
+    "items": [
+     "Engine oil and filter",
+     "Replace the pollen filter and air cleaner element",
+     "Rotate wheels; inspect brakes, tires, suspension, steering, exhaust and hoses",
+     "Check the tie rod torque (76 N·m / 56 lb-ft)",
+     "Inspect the serpentine belt; check fault lamps and road test"
+    ]
+   },
+   {
+    "at": "Every 3 years",
+    "items": [
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Every 6 years",
+    "items": [
+     "Flexible brake hoses"
+    ]
+   },
+   {
+    "at": "75,000 mi and 150,000 mi",
+    "items": [
+     "Transfer case oil",
+     "Locking rear differential oil (if fitted)"
+    ]
+   },
+   {
+    "at": "90,000 mi (4.0 V6) / 105,000 mi (4.4 V8)",
+    "items": [
+     "Spark plugs"
+    ]
+   },
+   {
+    "at": "105,000 mi (V6) / 150,000 mi (V8)",
+    "items": [
+     "Serpentine belt"
+    ]
+   },
+   {
+    "at": "Every 10 years",
+    "items": [
+     "Engine coolant",
+     "Automatic transmission fluid and filter",
+     "Front and rear axle oil"
+    ]
+   }
+  ],
+  "severe": "Land Rover's arduous-use rule halves the oil interval to 3,750 miles. Replace the air cleaner more often in dust or off-road. For the ZF 6HP26, the level can only be set at 30–35 °C fluid temperature (ZF).",
+  "age_items": [
+   {
+    "item": "ZF 6HP26 fluid and pan",
+    "when": "Now if the truck is past 10 years with no record",
+    "why": "The factory 10-year interval has passed on every LR3; ZF sells the pan, filter and fluid as a kit."
+   },
+   {
+    "item": "Engine coolant",
+    "when": "Now if there's no record",
+    "why": "Also on a 10-year interval in Land Rover's schedule."
+   },
+   {
+    "item": "Front and rear axle oil",
+    "when": "Now if there's no record",
+    "why": "Also a 10-year item; sooner after deep water."
+   },
+   {
+    "item": "Brake hoses",
+    "when": "Every 6 years",
+    "why": "Land Rover schedules flexible brake hose replacement on age, not mileage."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Land Rover: LR3 service schedule, 2006–2009 model years"
+   },
+   {
+    "name": "ZF: 6HP26 oil pan and filter kit instructions (via Rimmer Bros)",
+    "url": "https://rimmerbros.com/ItemFiles/Manuals/LR007474ZFKIT Fitting Instructions 2.pdf"
+   },
+   {
+    "name": "Rimmer Bros: Land Rover maintenance schedules by model",
+    "url": "https://rimmerbros.com/c/land-rover-maintenance-schedules-by-model"
+   }
+  ]
+ }
 }

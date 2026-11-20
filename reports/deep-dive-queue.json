@@ -452,7 +452,9 @@
   },
   {
    "gen": "jeep/gladiator-jt",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 3,
+   "note": "Deepened Pentastar housing, EcoDiesel pump, rear springs; no fetchable factory schedule yet"
   },
   {
    "gen": "jeep/grand-cherokee-zj",
@@ -464,19 +466,33 @@
   },
   {
    "gen": "jeep/jk",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 2,
+   "maintenance": true,
+   "note": "Clockspring recall and axle truss guides sourced; maintenance from 2010 and 2012 owner manuals"
   },
   {
    "gen": "jeep/jk-unlimited",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "Guides already full; maintenance from 2010 and 2012 owner manuals"
   },
   {
    "gen": "jeep/jl",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 4,
+   "note": "Deepened Pentastar housing, 2.0T hoses, hub and ball joints; no fetchable factory schedule yet"
   },
   {
    "gen": "jeep/jl-unlimited",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "Pentastar housing sourced; no fetchable factory schedule yet"
   },
   {
    "gen": "jeep/sj-wagoneer",
@@ -533,11 +549,18 @@
   },
   {
    "gen": "land-rover/discovery-2",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "Three amigos guide sourced; no detailed factory schedule found yet"
   },
   {
    "gen": "land-rover/lr3",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "ZF pan guide sourced; maintenance from Land Rover 2006–09 schedule"
   },
   {
    "gen": "land-rover/lr4",

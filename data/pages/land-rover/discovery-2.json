@@ -320,6 +320,28 @@
      "supplier": "LR Direct",
      "url": "https://www.lrdirect.com/tay100060-hub-assy-with-sensor-ds-td5-fro"
     }
+   ],
+   "know": [
+    "RoverParts names the two most common causes as a faulty shuttle valve (the SVS) or a failed ABS sensor, and only occasionally faulty or shorted wiring. Check those two first and test the wiring last.",
+    "A code reader that speaks to the ABS module (Nanocom, Hawkeye, iLand) tells you which wheel or valve the module is complaining about, and can clear the stored fault afterwards.",
+    "Play in a front wheel bearing changes the sensor gap and can bring the lights on; the bearing comes as part of the hub assembly."
+   ],
+   "mistakes": [
+    "Replacing all four sensors before reading the codes.",
+    "Ignoring the shuttle valve, which RoverParts lists alongside sensors as a leading cause.",
+    "Chasing wiring before ruling out the sensor and valve.",
+    "Under-torquing the hub nut after a hub swap."
+   ],
+   "cost_note": "A sensor is the cheap end; a front hub assembly is about £160–260 (discovery2.co.uk). A shuttle valve costs more, and the ABS modulator most of all.",
+   "refs": [
+    {
+     "name": "RoverParts: Discovery Series II warning light fixes",
+     "url": "https://roverparts.com/TechTips/discovery-2-warning-light-fixes.cfm"
+    },
+    {
+     "name": "RoverParts: shuttle valve replacement video, Discovery II",
+     "url": "https://www.roverparts.com/resources/videos/shuttle-valve-hydraulic-control-replacement-discovery-ii/"
+    }
    ]
   },
   {

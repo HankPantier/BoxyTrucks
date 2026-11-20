@@ -321,6 +321,24 @@
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/c/video/learn-how-install-clock-spring-wrangler-jk-quadratec-academy"
     }
+   ],
+   "know": [
+    "Recall 16V-290 covers some 2007–2010 Wranglers built from March 2, 2006 to August 13, 2010: 388,532 vehicles. Dust can get into the clockspring on Jeeps driven in very dusty conditions or with the top and doors off, which can turn on the airbag light and could stop the driver's airbag from deploying.",
+    "The recall remedy replaces the clockspring, the steering-wheel back cover and the column shroud with parts designed to keep dirt out of the clockspring tape. FCA said it would reimburse owners who had already paid for the repair.",
+    "On a 2011–2018 JK, the same symptoms just mean a worn clockspring; there's no recall to fall back on."
+   ],
+   "mistakes": [
+    "Paying for the repair on a 2007–2010 truck before checking the recall.",
+    "Working near the airbag without disconnecting the battery and waiting.",
+    "Spinning the new clockspring off center; it will tear when the wheel turns lock to lock.",
+    "Ignoring the airbag light; it means the airbag may not work."
+   ],
+   "cost_note": "Free if the recall applies. Otherwise one clockspring and an hour or two of careful work.",
+   "refs": [
+    {
+     "name": "NHTSA: recall 16V-290 defect report (2007–2010 Wrangler clockspring)",
+     "url": "https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V290-1316.PDF"
+    }
    ]
   },
   {
@@ -362,6 +380,25 @@
      "name": "JK axle truss and protection",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/collections/2007-2017-jeep-wrangler-jk-driveline-axle-truss-protection"
+    }
+   ],
+   "know": [
+    "4 Wheel Parts says the Dana 30 and the Rubicon's Dana 44 share fairly thin axle tubes that are known to bend, and the C's are light and can bend under hard use. Bent C's cause handling trouble and wear out ball joints and bearings.",
+    "Its tire rule of thumb: 35s are workable on a Dana 30 with a truss or sleeve, heavy-duty ball joints, chromoly shafts and gears; there's no reliable way to run 37s on a Dana 30 on hard trails; 37s on a Rubicon 44 need the same upgrades.",
+    "Trussing is easier before the tube bends. A truss locks in whatever shape the housing has, so check it's straight first.",
+    "Once the bill for Dana 30 upgrades adds up, an aftermarket 44 housing (Currie RockJock, G2 Core, Dynatrac ProRock) can make more sense."
+   ],
+   "mistakes": [
+    "Welding a truss onto an already bent housing.",
+    "Long continuous beads that warp the axle with heat; have a skilled welder do it.",
+    "Trussing a Dana 30 and then running 37s on it anyway.",
+    "Leaving the bare metal uncoated."
+   ],
+   "cost_note": "A truss or gusset kit is a few hundred dollars plus welding; a bent housing means a replacement housing, and an aftermarket 44 costs much more.",
+   "refs": [
+    {
+     "name": "4 Wheel Parts: How to make your Jeep JK axles survive",
+     "url": "https://www.4wheelparts.com/articles/how-to-make-your-jeep-jk-axles-survive"
     }
    ]
   }

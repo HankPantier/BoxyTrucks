@@ -197,7 +197,7 @@
    "time": "≈ 4–6 hours",
    "cost": "Housing plus gaskets, oil and coolant",
    "symptoms": "Oil, and sometimes coolant, pooling in the engine valley under the intake and running down the back of the block. The 3.6 Pentastar shares this housing with the JK and JL.",
-   "fix": "Remove the engine cover and air intake, then the upper intake manifold and lower intake runners to reach the valley. Disconnect the sensors on the housing, unbolt it, clean the valley thoroughly and fit the new housing with new seals. Refit the intake with new gaskets, refill oil and coolant, bleed the cooling system and check for leaks. Don't over-tighten the plastic filter cap.",
+   "fix": "Confirm the source first: clean the valley and the back of the engine, run it, and look with a flashlight under the intake. The job then follows the JK procedure owners have documented. Remove the engine cover and intake plumbing, unplug the injectors, coils, vacuum lines and brackets, and take off the upper and lower intake manifolds. Plug the intake ports with clean towels. Unplug the oil-pressure and temperature sensors and the coolant hose at the cooler, remove the housing's Torx bolts and lift it out. Move the sensors to the new housing with thread sealant, fit new gaskets and O-rings, and torque the bolts in sequence. Reassemble, refill the oil and coolant, bleed the cooling system and recheck for leaks. Torque the filter cap to 18 ft-lb; overtightening is a suspected contributor to cracking.",
    "tools": "Metric and Torx sockets · inch-pound torque wrench · hose pliers · shop towels to plug intake ports",
    "parts": [
     {
@@ -214,6 +214,25 @@
      "name": "Mopar 68163849AB pre-diluted OAT coolant",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/mopar/pre-diluted-anti-freeze-coolant-68163849AB"
+    }
+   ],
+   "know": [
+    "80/20 Automotive blames the plastic housing: heat cycles can warp or crack it, and on the trail a hit can chip it. Chrysler's own position for 2014-on engines is that the bottom O-rings, not warped or cracked plastic, cause the leaks.",
+    "The housing sits in the valley between the cylinder banks, under the intake, so oil can pool on top of the engine for a long time before anything reaches the ground. 80/20 suggests a flashlight look at the housing area at every oil change.",
+    "2011–2013 engines have a bypass valve in the housing tower; 2014-on housings dropped it and changed the cooler bolt pattern but stayed plastic. Aluminum replacements such as Dorman 926-876 and 926-959 don't fit the early bypass-valve housing, so check fitment for your year.",
+    "Chrysler's suggested first step is new O-rings; 80/20 recommends going to an all-aluminum housing if it leaks again."
+   ],
+   "mistakes": [
+    "Waiting for drips on the driveway; the oil collects in the valley first.",
+    "Buying a housing for the wrong year (2011–13 and 2014-on differ).",
+    "Leaving the intake ports open while you work; plug them so nothing drops into the engine.",
+    "Overtightening the filter cap (18 ft-lb is the figure owners quote)."
+   ],
+   "cost_note": "Mostly labor: the intake has to come off. Owners doing it themselves report about six hours the first time on a JK. Check whether any powertrain warranty still covers it before paying a shop.",
+   "refs": [
+    {
+     "name": "80/20 Automotive: Chrysler 3.2 and 3.6 Pentastar oil filter housing problem guide",
+     "url": "https://8020automotive.com/chrysler-3-2-and-3-6-pentastar-oil-filter-housing-problem-guide/"
     }
    ]
   },
@@ -248,9 +267,9 @@
    "diff": "2 / 5",
    "time": "≈ 1 hour for the filter",
    "cost": "Recall work free; a fuel filter for routine service",
-   "symptoms": "Stalling, hard starting or a diesel smell on a 2021–2023 EcoDiesel. NHTSA recalls 22V-767 and 23V-263 cover high-pressure fuel pumps that may fail and stall the engine.",
-   "fix": "Confirm both recalls are closed. Then treat the fuel filter as a wear item, because the high-pressure pump is sensitive to water and dirt. Relieve fuel pressure, replace the filter element and seals, prime the system as the service manual describes, and check for leaks. Drain water from the separator if the warning light comes on.",
-   "tools": "Filter wrench · drain pan · rags · service manual for priming",
+   "symptoms": "Stalling, a sudden loss of power, hard starting, a check-engine or electronic throttle control light, noise from the high-pressure pump or a diesel smell.",
+   "fix": "Run the VIN at nhtsa.gov/recalls to confirm 23V-263 has been done; it's free. For routine service, relieve the fuel pressure, change the filter, prime the system as the service manual describes and check for leaks. Use only ultra-low-sulfur diesel; the owner's manual allows biodiesel up to B5, or B7 with shorter service intervals. If the check-engine or throttle-control light comes on with pump noise or a fuel leak, stop and have it towed rather than driving it.",
+   "tools": "Filter wrench · drain pan · rags · service manual for the priming procedure.",
    "parts": [
     {
      "name": "Crown 68436631AA fuel filter, JL/JT 3.0L diesel",
@@ -261,6 +280,26 @@
      "name": "Crown 68293164AC air filter, JL/JT 3.0L",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/crown-automotive/air-filter-wrangler-jl-gladiator-jt-3.0l-68293164ac"
+    }
+   ],
+   "know": [
+    "Recall 23V-263 covers 2021–2023 Wrangler JL and Gladiator JT and 2022–2023 Ram 1500 with the 3.0L diesel: about 49,900 vehicles. The high-pressure fuel pump can fail early and send debris through the fuel system, which can cause a sudden loss of motive power.",
+    "The warning signs FCA lists: the check-engine light, the electronic throttle control light, a fuel leak at the pump, or excessive pump noise.",
+    "If the truck still runs, the remedy is a new high-pressure pump. If the pump has already failed, the dealer replaces the pump, the in-tank module, the injectors, rails, lines and filter (5.0 hours).",
+    "Because the 3.0 hates water and dirt, the fuel filter is a wear item to change on schedule, recall or not."
+   ],
+   "mistakes": [
+    "Buying a 2021–2023 diesel Gladiator without proof the recall was done.",
+    "Driving on after the warning lights or pump noise appear; a failed pump spreads debris through the whole fuel system.",
+    "Skipping the fuel filter because the truck runs fine.",
+    "Not priming the system after a filter change.",
+    "Running fuel stronger than B7."
+   ],
+   "cost_note": "The recall work is free. Out of recall, the full contaminated-system repair FCA describes (pump, module, injectors, rails, lines and filter, 5.0 hours) is one of the most expensive fixes on the truck; a fuel filter is a small parts cost.",
+   "refs": [
+    {
+     "name": "NHTSA: recall 23V-263 remedy instructions (high-pressure fuel pump)",
+     "url": "https://static.nhtsa.gov/odi/rcl/2023/RCRIT-23V263-4916.pdf"
     }
    ]
   },
@@ -339,6 +378,28 @@
      "name": "TeraFlex rear 3.5 in lifted coil springs, Gladiator JT",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/teraflex/lifted-front-coil-springs-gladiator-jt/rear-3.5-inch-1873100"
+    }
+   ],
+   "know": [
+    "AEV builds its Gladiator High Capacity coils for overland loads such as bed-rack and tent combinations or in-bed campers, for trucks carrying 400–700 lb over factory weight. They come as an engine-specific front and rear set and aren't for the Mojave.",
+    "Ironman 4x4 sells rear coils by load: a medium-load pair for 0–660 lb and a heavy-load pair for 660–1,320 lb (JEEP032C-GLADIATOR). One Rubicon owner reported 4.5 in of rear lift from the heavy pair, more than the listed 2 in, so an unloaded truck can sit high.",
+    "AEV's warning applies to every spring: stiffer coils don't raise the payload or the axle ratings. Stay under the door-sticker GVWR and rear axle rating."
+   ],
+   "mistakes": [
+    "Buying springs without weighing the loaded truck.",
+    "Choosing a heavy-load coil for a truck that's usually empty; it will ride high and harsh.",
+    "Treating stiffer springs as more payload.",
+    "Forgetting the driveshaft angle and headlight aim after the rear rises."
+   ],
+   "cost_note": "A pair of rear coils from these makers runs a few hundred dollars (Ironman lists its heavy pair at $225); a matched front and rear set or shocks costs more.",
+   "refs": [
+    {
+     "name": "AEV: High Capacity coil springs, Jeep Gladiator",
+     "url": "https://aev-conversions.com/products/high-capacity-coil-springs-jeep-gladiator"
+    },
+    {
+     "name": "Ironman 4x4: Gladiator rear coils, heavy load",
+     "url": "https://www.ironman4x4.com/products/rear-coil-springs-2-lift-heavy-load-660-1320-lbs-jeep-gladiator-2020-jeep032cgladiator"
     }
    ]
   }

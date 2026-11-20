@@ -328,7 +328,7 @@
    "time": "≈ 2–3 hours",
    "cost": "About the price of a service kit",
    "symptoms": "Judder, flare or harsh shifts, an unknown service history, or a weeping valve body sleeve.",
-   "fix": "The filter is built into the plastic pan, so you replace the pan. Drain, drop the pan, and replace the valve body sleeve (a common leak point) while it's open. Refill with ZF-spec fluid and follow the factory fill-and-level procedure with the fluid at the specified temperature. Workshop data quotes 9.5 litres for a dry fill; a pan change takes far less, so some owners repeat it to refresh more of the fluid.",
+   "fix": "Drive it to operating temperature, park level in P with the parking brake on. Drain the fluid, then loosen the pan bolts in the specified order so the pan doesn't warp, and drop it. Look at the old fluid and the magnet: a burnt smell or big chips means a transmission specialist, not a service. Replace the valve body sleeve while the pan is off. Fit the new pan (the filter is built in) with new bolts, started by hand and tightened crosswise from the center, and fit the drain plug with a new seal. Fill through the filler hole until fluid runs out, run the engine and work through the fill sequence for your variant, then set the level at 30–35 °C fluid temperature: close the plug when it's down to single drops. Workshop data quotes 9.5 litres for a dry fill; a pan change takes far less, so some owners repeat it to refresh more of the fluid.",
    "tools": "Sockets, fluid pump, scan tool or thermometer for the level check · pan LR007474 · sleeve TZV500010 · ATF TYK500050",
    "parts": [
     {
@@ -345,6 +345,26 @@
      "name": "TYK500050 ZF 6HP26 transmission fluid, 1 L",
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/land-rover-atf-6hp26-transmission-fluid-1l-tyk500050-new"
+    }
+   ],
+   "know": [
+    "ZF's instructions for the 6HP26 pan kit give the drain plug (M24×1) at 8 N·m and the filler plug (M18×1.5) at 35 N·m. Plastic pan bolts are 10 N·m; aluminum pans are 4 N·m plus 45°.",
+    "ZF checks the level only between 30 and 35 °C fluid temperature. Too cold and it reads low; too hot and it reads high. Don't let it pass 50 °C during the check.",
+    "ZF warns against additives, and against overfilling: excess fluid vents through the overflow when hot and can catch fire on the exhaust.",
+    "Land Rover's 2006–2009 LR3 schedule lists the automatic transmission fluid and filter at 10 years, which is why many trucks have never had it done."
+   ],
+   "mistakes": [
+    "Checking the level hot from a drive, or cold; it has to be 30–35 °C.",
+    "Starting the engine with the transmission empty.",
+    "Overtightening the plastic pan bolts.",
+    "Adding a friction modifier or other additive.",
+    "Skipping the valve body sleeve when the pan is already off."
+   ],
+   "cost_note": "A service kit with pan, sleeve and fluid; a scan tool or thermometer to read the fluid temperature is the one tool you can't skip.",
+   "refs": [
+    {
+     "name": "ZF: 6HP26 oil pan and filter kit instructions (via Rimmer Bros)",
+     "url": "https://rimmerbros.com/ItemFiles/Manuals/LR007474ZFKIT Fitting Instructions 2.pdf"
     }
    ]
   },

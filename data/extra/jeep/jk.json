@@ -466,5 +466,122 @@
    "name": "Quadratec — What are the differences in off-roading a Wrangler TJ, JK and JL",
    "url": "https://www.quadratec.com/c/blog/what-are-differences-roading-wrangler-tj-jk-jl"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Wrangler JK (2007–2018) maintenance schedule from Jeep's owner's manuals: 3.8 V6 oil every 6,000 mi (3,000 severe), 3.6 Pentastar oil by the indicator but never past 8,000 mi or 6 months, axle oil every 15,000 mi in severe use, coolant at 60 months.",
+  "intro": "The JK had two gasoline engines, and the schedule changed with them. The 2007–2011 3.8 V6 trucks run Jeep's two-column schedule: Schedule A for normal driving and Schedule B for severe use, which most Jeeps see. The 2012–2018 3.6 Pentastar trucks change oil when the dash says so, with a hard limit. Owners who go off-road should treat the severe column as their schedule, whatever the year.",
+  "schedule_note": "From Jeep's 2010 Wrangler owner's manual (3.8 V6) and 2012 Wrangler owner's manual (3.6). Later years are similar; check your book.",
+  "schedule": [
+   {
+    "at": "2007–2011 (3.8): every 6,000 mi / 6 months",
+    "items": [
+     "Engine oil and filter",
+     "Rotate tires"
+    ]
+   },
+   {
+    "at": "2012–2018 (3.6): when the oil-change indicator comes on",
+    "items": [
+     "Engine oil and filter; never more than 8,000 mi or 6 months",
+     "Change it sooner after extended off-road driving"
+    ]
+   },
+   {
+    "at": "Every oil change",
+    "items": [
+     "Inspect the exhaust and brake hoses",
+     "Check coolant level, hoses and clamps",
+     "After off-road driving, inspect the underside and check fasteners for looseness"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi (3.8)",
+    "items": [
+     "Inspect the engine air filter",
+     "Inspect and top up the manual transmission and transfer case fluid"
+    ]
+   },
+   {
+    "at": "60,000 mi or 60 months (3.8)",
+    "items": [
+     "Flush and replace the coolant (again at 102,000, 120,000 and 150,000 if not done)",
+     "Inspect the drive belt and PCV valve"
+    ]
+   },
+   {
+    "at": "64,000 mi (3.6)",
+    "items": [
+     "Replace the engine air filter and cabin filter",
+     "Inspect the brake linings, front suspension, tie rod ends and boots"
+    ]
+   },
+   {
+    "at": "72,000 mi (3.6)",
+    "items": [
+     "Inspect the CV joints, exhaust, and front and rear axle fluid"
+    ]
+   },
+   {
+    "at": "96,000 mi (3.8)",
+    "items": [
+     "Spark plugs and ignition cables"
+    ]
+   },
+   {
+    "at": "104,000 mi or 60 months (3.6)",
+    "items": [
+     "Flush and replace the coolant"
+    ]
+   },
+   {
+    "at": "120,000 mi (3.8)",
+    "items": [
+     "Drain and refill the transfer case"
+    ]
+   }
+  ],
+  "severe": "Jeep's Schedule B for the 3.8 (towing, off-road, dust, short trips): oil and filter every 3,000 miles or 3 months; drain and refill the front and rear axles every 15,000 miles; inspect the transfer case and air filter every 15,000; automatic transmission fluid and filters at 60,000 and 120,000; spark plugs at 99,000. The 2012 book changes the manual transmission fluid at 64,000 for off-road, desert, towing or plowing use, and the automatic and transfer case fluid for towing or fleet use. Clean and lube the soft-top zippers every 3,000 miles.",
+  "age_items": [
+   {
+    "item": "Pentastar oil filter housing (2012–2018)",
+    "when": "Look into the valley with a flashlight at every oil change",
+    "why": "80/20 Automotive: the plastic housing warps, cracks or leaks at its O-rings, and oil pools out of sight."
+   },
+   {
+    "item": "Clockspring (2007–2010)",
+    "when": "Check the VIN for recall 16V-290 now",
+    "why": "NHTSA: dust in the clockspring can disable the driver's airbag."
+   },
+   {
+    "item": "Front end",
+    "when": "Every oil change and after every lift install",
+    "why": "Track bar, tie rods, ball joints and bearings cause death wobble."
+   },
+   {
+    "item": "Front axle tubes and C's",
+    "when": "Once a year on trucks with 35s or bigger",
+    "why": "4 Wheel Parts: the JK's front tubes and C's are thin and known to bend."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Jeep: 2010 Wrangler owner's manual, maintenance schedules"
+   },
+   {
+    "name": "Jeep: 2012 Wrangler owner's manual, maintenance schedule"
+   },
+   {
+    "name": "80/20 Automotive: Pentastar oil filter housing problem guide",
+    "url": "https://8020automotive.com/chrysler-3-2-and-3-6-pentastar-oil-filter-housing-problem-guide/"
+   },
+   {
+    "name": "NHTSA: recall 16V-290",
+    "url": "https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V290-1316.PDF"
+   },
+   {
+    "name": "4 Wheel Parts: How to make your Jeep JK axles survive",
+    "url": "https://www.4wheelparts.com/articles/how-to-make-your-jeep-jk-axles-survive"
+   }
+  ]
+ }
 }

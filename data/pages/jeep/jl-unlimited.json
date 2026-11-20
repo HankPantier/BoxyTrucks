@@ -249,7 +249,7 @@
    "time": "≈ 4–6 hours",
    "cost": "Housing assembly plus gaskets, coolant and oil",
    "symptoms": "Oil, and sometimes coolant, pooling in the valley under the intake and running down the back of the engine. Pickup Truck + SUV Talk lists cracked Pentastar oil-filter housings and cooler adapters as a known JL issue.",
-   "fix": "The job follows the JK procedure. Remove the engine cover and intake plumbing, the upper and lower intake manifolds, and the cooler's sensors and bolts. Clean the valley, fit the new housing with new seals, then refill the oil and coolant and check for leaks. Torque the oil filter cap to 18 ft-lb; overtightening is a suspected contributor to cracking.",
+   "fix": "Confirm the source first: clean the valley and the back of the engine, run it, and look with a flashlight under the intake. The job then follows the JK procedure owners have documented. Remove the engine cover and intake plumbing, unplug the injectors, coils, vacuum lines and brackets, and take off the upper and lower intake manifolds. Plug the intake ports with clean towels. Unplug the oil-pressure and temperature sensors and the coolant hose at the cooler, remove the housing's Torx bolts and lift it out. Move the sensors to the new housing with thread sealant, fit new gaskets and O-rings, and torque the bolts in sequence. Reassemble, refill the oil and coolant, bleed the cooling system and recheck for leaks. Torque the filter cap to 18 ft-lb; overtightening is a suspected contributor to cracking.",
    "tools": "External-Torx and metric sockets · inch-pound torque wrench · hose pliers · shop towels to plug the intake ports.",
    "parts": [
     {
@@ -266,6 +266,25 @@
      "name": "JL gaskets, seals and filters",
      "supplier": "ExtremeTerrain",
      "url": "https://www.extremeterrain.com/wrangler-jeep-jl-gaskets-seals-filters.html"
+    }
+   ],
+   "know": [
+    "80/20 Automotive blames the plastic housing: heat cycles can warp or crack it, and on the trail a hit can chip it. Chrysler's own position for 2014-on engines is that the bottom O-rings, not warped or cracked plastic, cause the leaks.",
+    "The housing sits in the valley between the cylinder banks, under the intake, so oil can pool on top of the engine for a long time before anything reaches the ground. 80/20 suggests a flashlight look at the housing area at every oil change.",
+    "2011–2013 engines have a bypass valve in the housing tower; 2014-on housings dropped it and changed the cooler bolt pattern but stayed plastic. Aluminum replacements such as Dorman 926-876 and 926-959 don't fit the early bypass-valve housing, so check fitment for your year.",
+    "Chrysler's suggested first step is new O-rings; 80/20 recommends going to an all-aluminum housing if it leaks again."
+   ],
+   "mistakes": [
+    "Waiting for drips on the driveway; the oil collects in the valley first.",
+    "Buying a housing for the wrong year (2011–13 and 2014-on differ).",
+    "Leaving the intake ports open while you work; plug them so nothing drops into the engine.",
+    "Overtightening the filter cap (18 ft-lb is the figure owners quote)."
+   ],
+   "cost_note": "Mostly labor: the intake has to come off. Owners doing it themselves report about six hours the first time on a JK. Check whether any powertrain warranty still covers it before paying a shop.",
+   "refs": [
+    {
+     "name": "80/20 Automotive: Chrysler 3.2 and 3.6 Pentastar oil filter housing problem guide",
+     "url": "https://8020automotive.com/chrysler-3-2-and-3-6-pentastar-oil-filter-housing-problem-guide/"
     }
    ]
   },
