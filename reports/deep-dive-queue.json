@@ -548,11 +548,15 @@
   },
   {
    "gen": "land-rover/defender-l663",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 2,
+   "note": "Coolant loss and steering gaiter sourced; 3 thin left"
   },
   {
    "gen": "land-rover/discovery-1",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 2,
+   "note": "IACV and propshaft coupler sourced"
   },
   {
    "gen": "land-rover/discovery-2",
@@ -633,7 +637,9 @@
   },
   {
    "gen": "range-rover/classic",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "Viscous coupling sourced (AULRO)"
   },
   {
    "gen": "range-rover/l460",

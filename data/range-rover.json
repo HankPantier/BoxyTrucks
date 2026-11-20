@@ -310,6 +310,25 @@
       "supplier": "Atlantic British",
       "url": "https://www.roverparts.com/search/?q=viscous+coupling+borg+warner"
      }
+    ],
+    "know": [
+     "On a Range Rover the viscous coupling sits between the transfer box and the front driveshaft, so test at the front (PhilipA on AULRO).",
+     "Owners say they usually fail by locking, not slipping, so a drive-around test may not reveal a bad one (101RRS, BigJon).",
+     "PhilipA's quick test: neutral, handbrake off, and turn the front driveshaft with a big screwdriver in the UJ. It should turn very slowly with a lot of effort; easily means it's failed, not at all means it's seized.",
+     "A workshop-manual bench test quoted on AULRO applies 20 N·m to the flange for one minute and expects about 25–30° of rotation.",
+     "dungarover swapped his Borg Warner box for an LT230 with a center diff lock instead, which he found cheaper than a new coupling."
+    ],
+    "mistakes": [
+     "Testing at a rear wheel; the coupling drives the front.",
+     "Driving around with a propshaft removed to test it, which is hard on the coupling.",
+     "Throwing a new coupling at it before doing the screwdriver test."
+    ],
+    "cost_note": "A replacement coupling, or an LT230 swap, which one owner found cheaper.",
+    "refs": [
+     {
+      "name": "AULRO: Viscous coupling working? thread",
+      "url": "https://www.aulro.com/afvb/archive/index.php/t-27949.html"
+     }
     ]
    },
    {

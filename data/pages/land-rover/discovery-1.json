@@ -205,6 +205,23 @@
      "supplier": "LR Direct",
      "url": "https://www.lrdirect.com/tvf100010gb-prop-coupling-incl-bolts-o"
     }
+   ],
+   "know": [
+    "LR Parts describes the Discovery 1's rear rubber coupling (the doughnut) as very prone to failing, particularly off-road or on lifted trucks.",
+    "Its conversion kit LRC1377 (1994–1998) replaces the propshaft and the three-bolt diff flange so there's no doughnut to wear out.",
+    "The coupling bolts are M12 × 65 mm (FTC4043) with nyloc nuts; fit new fixings with a new coupling."
+   ],
+   "mistakes": [
+    "Reusing the old nuts and bolts.",
+    "Ignoring a split doughnut; it gets worse quickly and lets the prop flail.",
+    "Lifting the truck without checking the extra prop angle on the coupling."
+   ],
+   "cost_note": "A rubber coupling kit is the cheap fix; LR Parts lists the LRC1377 doughnut-delete kit at about £123 inc VAT.",
+   "refs": [
+    {
+     "name": "LR Parts: LRC1377 propshaft rubber doughnut removal kit, Discovery 1",
+     "url": "https://www.lrparts.net/lrc1377-propshaft-rubber-doughnut-removal-kit-for-discovery-1-fits-1994-1998.html"
+    }
    ]
   },
   {
@@ -225,6 +242,26 @@
      "name": "Stepper motor gasket, EFI V8, Discovery 1 / RRC",
      "supplier": "LR Direct",
      "url": "https://www.lrdirect.com/etc6660gaske-gasket-for-stepper-motor"
+    }
+   ],
+   "know": [
+    "The 14CUX's stepper has 180 positions. At ignition-off the ECU pulses it 200 times to drive it fully open and find home, then counts pulses from there, so a sticking stepper makes it lose its place and hunt (Rover V8 diagnostics note on gomog.com).",
+    "The same note says CO setting, air leaks and timing can mimic a sticking stepper; spray suspect joints briefly with ether and listen for the idle to change, especially the rubber pipe from the throttle body to the stepper housing.",
+    "Base idle is set at 525 ± 25 rpm on the throttle-body screw with the stepper hose disconnected and plugged.",
+    "Cleaning works if it's carbon: clean the cone and keyway with carb cleaner and clear the metering hole in the plenum. On refit, line the shaft slot up with the keyway and cycle the ignition (without starting) so the ECU pulls it home. Corrosion in the rear bearing means a new unit.",
+    "Cheap copies (about £20 against £70–90 for original) have been known to leak air around the body and to have a shaft about 4 mm too long; the shaft can be removed and cut to match."
+   ],
+   "mistakes": [
+    "Replacing the stepper before checking for vacuum leaks.",
+    "Fitting a cheap copy without comparing its shaft length to the original.",
+    "Setting base idle with the stepper still connected.",
+    "Probing the fuel-temperature thermistor with a meter for a long time; the test current can damage it."
+   ],
+   "cost_note": "A stepper is £70–90 original, about £20 for a copy; cleaning costs a can of carb cleaner.",
+   "refs": [
+    {
+     "name": "gomog.com: Rover V8 14CUX stepper motor notes",
+     "url": "https://gomog.com/allmorgan/StepperMotor.htm"
     }
    ]
   },

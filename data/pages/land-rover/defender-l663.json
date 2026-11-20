@@ -213,6 +213,22 @@
      "supplier": "LR Direct",
      "url": "https://www.lrdirect.com/catalogsearch/result/?q=LR033647"
     }
+   ],
+   "know": [
+    "Britpart sells the lower steering UJ gaiter on its own (DA3689) for the new Defender, Discovery 5, Range Rover L405 and Range Rover Sport L494.",
+    "A reviewer on that listing says Land Rover doesn't sell the boot separately, only the intermediate shaft at about £200, and calls a split boot a known issue on vehicles with this shaft.",
+    "The same reviewer fitted the boot by removing the shaft, lubricating the joint and boot, and stretching the boot over the joint, which a vice made easier."
+   ],
+   "mistakes": [
+    "Leaving a split boot to let water and grit into the joint.",
+    "Reusing the old bolts; a member quotes the manual as calling for new ones at 30 N·m."
+   ],
+   "cost_note": "A Britpart gaiter is about £39; a whole Land Rover intermediate shaft is about £200 (per one buyer).",
+   "refs": [
+    {
+     "name": "Maltings 4x4: Britpart DA3689 steering UJ gaiter (new Defender, Discovery 5)",
+     "url": "https://maltings4x4store.co.uk/steering-ujs/britpart-steering-uj-repair-gaiter-for-new-defender-range-rover-and-discovery-5-da3689"
+    }
    ]
   },
   {
@@ -270,6 +286,29 @@
      "name": "Defender 2020 turbo coolant pipe (search)",
      "supplier": "Rovers North",
      "url": "https://roversnorth.com/search.aspx?q=defender+2020+turbo+coolant+pipe"
+    }
+   ],
+   "know": [
+    "On LandRoverForums, jeriddles traced his P400's leak to the turbo coolant feed and return tubes: metal pipes with O-rings (LR121417, LR121762, LR135656 and LR124541 are the numbers named). Both share one 9 mm bolt and the return can't come out without the feed, so he advises replacing both.",
+    "A dealer told NativeTexan the turbo intercooler O-ring is the most common leak on P400s. His second leak was a crimped joint on the PCM coolant tube (LR132648) near the cowl.",
+    "Other fixes owners posted in the same poll: the charge-air-cooler outlet hose (LR147037), the upper radiator hose at its clamp (LR121446), and on a P300, a driver's-side auxiliary radiator leaking from its fins.",
+    "nashvegas had both turbo lines and their O-rings replaced under warranty within 18 months; POPTOPP's appeared at about 53,000 miles, out of warranty."
+   ],
+   "mistakes": [
+    "Topping up for months instead of pressure-testing.",
+    "Replacing only one turbo coolant line when you can't tell which leaks.",
+    "Missing the expansion tank's level-sensor seal, which Skyfall found leaking too.",
+    "Not claiming it under warranty while it's still covered."
+   ],
+   "cost_note": "Free under warranty for several owners; out of warranty it's the two turbo lines with O-rings plus labor, or a hose or auxiliary radiator.",
+   "refs": [
+    {
+     "name": "LandRoverForums: Turbocharger coolant leak (2020 Defender)",
+     "url": "https://landroverforums.com/forum/2020-defender-60/turbocharger-coolant-leak-121308/"
+    },
+    {
+     "name": "LandRoverForums: Low coolant poll, only fixes posted",
+     "url": "https://landroverforums.com/forum/2020-defender-60/low-coolant-poll-only-fixes-posted-117074/"
     }
    ]
   },
