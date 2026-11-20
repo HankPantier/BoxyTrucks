@@ -371,5 +371,85 @@
   {
    "name": "BigJimny — BigJimny Event 2026 tickets"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Suzuki Jimny JB74 / JB64 maintenance schedule from Suzuki's owner's manual: oil every 15,000 km / 12 months (7,500 severe), diff oil at the first service, plugs at 105,000 km, coolant at 150,000 km, brake fluid every 2 years.",
+  "intro": "Suzuki's owner's manual for the fourth-generation Jimny (transcribed by MaintenanceSchedule.com from a 2021 manual) runs on a 15,000 km / 12-month service outside Europe and 20,000 km in Europe on ACEA-spec oil. Severe use, which covers most off-road and dusty driving, roughly halves it. The one early job people miss is the first differential oil change.",
+  "schedule_note": "From Suzuki's 2021 owner's manual for the 4th-gen Jimny (K15B), as transcribed by MaintenanceSchedule.com. Non-Europe figures shown first; check your own handbook for your market.",
+  "schedule": [
+   {
+    "at": "Every 15,000 km / 12 months (Europe: 20,000 km on ACEA oil)",
+    "items": [
+     "Engine oil and filter",
+     "Inspect the air filter (at 15,000 km)"
+    ]
+   },
+   {
+    "at": "First service",
+    "items": [
+     "Replace the differential oil (then inspect)"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake and clutch fluid",
+     "Inspect gearbox and transfer oil and the automatic's fluid level",
+     "Inspect valve clearance"
+    ]
+   },
+   {
+    "at": "45,000 km and 90,000 km",
+    "items": [
+     "Replace the air filter (Europe: every 40,000 km / 2 years)"
+    ]
+   },
+   {
+    "at": "105,000 km / 7 years",
+    "items": [
+     "Spark plugs (NGK KR6A-10)"
+    ]
+   },
+   {
+    "at": "150,000 km / 8 years, then every 75,000 km / 4 years",
+    "items": [
+     "Coolant"
+    ]
+   },
+   {
+    "at": "165,000 km",
+    "items": [
+     "Automatic transmission fluid (ATF3317)"
+    ]
+   }
+  ],
+  "severe": "Suzuki's severe schedule: oil every 7,500 km / 6 months (10,000 km in Europe), air filter inspected every 2,500 km and replaced every 30,000 km, spark plugs every 10,000 km outside Europe, diff oil at 15,000 and 45,000 km, gearbox and transfer oil every 60,000 km, and automatic fluid every 30,000 km.",
+  "age_items": [
+   {
+    "item": "Kingpins and steering wobble",
+    "when": "Every service",
+    "why": "Wobble on the JB74 usually starts at the kingpins."
+   },
+   {
+    "item": "Rear wheel bearings",
+    "when": "Spin each wheel with the rear jacked up",
+    "why": "Mud and water past the backing plate shorten their life."
+   },
+   {
+    "item": "Chassis and cavities",
+    "when": "Before the first winter or beach trip",
+    "why": "Rust-proofing early is far cheaper than repairs."
+   }
+  ],
+  "sources": [
+   {
+    "name": "MaintenanceSchedule.com: Jimny 1.5 (4th gen) schedule, transcribed from Suzuki's 2021 owner's manual",
+    "url": "https://maintenanceschedule.com/suzuki-jimny-1-5l-4th-gen-2018/"
+   },
+   {
+    "name": "BigJimny wiki: Rear wheel bearing replacement (gen 3 procedure)",
+    "url": "https://bigjimny.com/mediawiki/index.php/Rear_Wheel_Bearing_Replacement"
+   }
+  ]
+ }
 }

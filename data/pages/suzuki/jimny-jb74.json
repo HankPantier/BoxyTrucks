@@ -297,6 +297,21 @@
           "supplier": "BigJimny",
           "url": "https://bigjimny.com/store/jimny-gen4/aircon/pollen-filter-anti-allergen-gen4"
         }
+      ],
+      "know": [
+        "Suzuki's manual sets oil at 15,000 km / 12 months outside Europe (20,000 km in Europe on ACEA oil), halved for severe use.",
+        "The manual has the diff oil replaced at the first interval and inspected after that, so a used truck's first service is the time to check whether it was done.",
+        "In severe use the manual asks for the air filter to be inspected every 2,500 km and replaced every 30,000 km."
+      ],
+      "mistakes": [
+        "Skipping the diff oil change the manual calls for at the first service.",
+        "Using non-genuine gearbox or transfer oil without shortening the change interval, as the manual requires."
+      ],
+      "refs": [
+        {
+          "name": "MaintenanceSchedule.com: Jimny 1.5 (4th gen) schedule, transcribed from Suzuki's 2021 owner's manual",
+          "url": "https://maintenanceschedule.com/suzuki-jimny-1-5l-4th-gen-2018/"
+        }
       ]
     },
     {
@@ -304,7 +319,7 @@
       "diff": "3 / 5",
       "time": "≈ Half a day per side",
       "cost": "Parts plus labor",
-      "symptoms": "A hum or rumble from the rear that changes with speed, or play at the rear wheel when you rock it.",
+      "symptoms": "A hum or rumble from the rear that changes with speed, or play at the rear wheel when you rock it. BigJimny adds grating when a jacked-up wheel is spun and oil or grease weeping from the back of the drum. In the worst case the wheel and axle shaft can come out together.",
       "fix": "Pull the axle shaft, press off the old bearing and retainer, press on the new ABS-type bearing and retainer and fit a new axle oil seal. BigJimny's rear wheel bearing guide covers the gen 3 procedure; check your gen 4 manual for differences.",
       "tools": "Slide hammer or puller · hydraulic press · new retainer ring.",
       "parts": [
@@ -317,6 +332,26 @@
           "name": "Rear Axle Oil Seal, Gen4",
           "supplier": "BigJimny",
           "url": "https://bigjimny.com/store/jimny-gen3/jimny-gen3/parts-service/jimny-gen3/parts-service/bearings-and-seals/rear-axle-oil-seal-gen4"
+        }
+      ],
+      "know": [
+        "Aftermarket kits sold for both the JB23 and the JB74 (ABS) bundle the bearing, retainer and seal.",
+        "BigJimny's procedure is written for the gen 3, but the kit fitment shows the parts are shared; confirm the details in your gen 4 manual.",
+        "The old retainer is cut off with an angle grinder, and the new bearing and retainer need a press. Mud and water past the backing plate are the main cause of early failure."
+      ],
+      "mistakes": [
+        "Buying a non-ABS kit; BigJimny says it won't fit an ABS truck.",
+        "Skimping on grease; BigJimny calls grease choice and application one of the most important parts of the job.",
+        "Trying to fit the retainer without a press."
+      ],
+      "refs": [
+        {
+          "name": "BigJimny wiki: Rear wheel bearing replacement (gen 3 procedure)",
+          "url": "https://bigjimny.com/mediawiki/index.php/Rear_Wheel_Bearing_Replacement"
+        },
+        {
+          "name": "Roadrunner Offroad: Rear wheel bearing kit, Jimny 1998+ JB23 / JB74 with ABS",
+          "url": "https://www.roadrunneroffroad.com.au/rear-wheel-bearing-kit-suzuki-jimny1998-jb23-jb74"
         }
       ]
     },
