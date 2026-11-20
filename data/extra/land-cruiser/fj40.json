@@ -263,5 +263,78 @@
    "name": "Toyota Pressroom — A Toyota global icon for nearly 70 years",
    "url": "https://pressroom.toyota.com/?p=57730"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "FJ40 Land Cruiser maintenance: a full purchase baseline on every fluid, then oil and chassis grease at every change, valve lash checks on the F and 2F, knuckle and wheel bearing service, and the checks that keep a 40-plus-year-old 40 on the road.",
+  "intro": "Toyota's FJ40 owner's manual schedules exist (an IH8MUD member has transcribed the 1972 one), but they aren't published online in a form we can quote, and most 40s have been rebuilt, swapped and modified since. So this page is a purchase baseline followed by the recurring jobs owners and specialists agree on. The F and 2F drive the camshaft by gears, so there's no timing belt or chain to schedule.",
+  "schedule_note": "Not reproduced from the Toyota book. Purchase baseline and recurring jobs from our buyer's guide (IH8MUD owners, Cruiser Corps). See the IH8MUD transcription of the 1972 owner's manual schedule if you want the factory figures.",
+  "schedule": [
+   {
+    "at": "At purchase",
+    "items": [
+     "Engine oil and filter (one IH8MUD owner warns the manual's capacity led him to overfill; check the dipstick)",
+     "Air filter, fuel filter and an ignition tune-up before judging the carburetor",
+     "Coolant and thermostat flush with proper ethylene-glycol coolant",
+     "Gearbox, transfer case and both diffs",
+     "Brake fluid flush and a check of every wheel cylinder",
+     "Repack the wheel bearings and check the knuckles"
+    ]
+   },
+   {
+    "at": "Every oil change",
+    "items": [
+     "Grease the spring pins and shackles, driveshaft U-joints and slip yokes",
+     "Check the steering box level through its fill plug"
+    ]
+   },
+   {
+    "at": "Periodically",
+    "items": [
+     "Check and adjust valve lash on the F / 2F (tight valves are the ones that burn)"
+    ]
+   },
+   {
+    "at": "With any front axle seal job",
+    "items": [
+     "Repack the knuckles and Birfields"
+    ]
+   }
+  ],
+  "severe": "After water crossings, check the diffs, gearbox and transfer case for water and grease the driveline. Gear oil mixed into the knuckle grease means the inner axle seals have failed.",
+  "age_items": [
+   {
+    "item": "Front knuckles",
+    "when": "Every service",
+    "why": "Weeping wiper seals or grease mixed with 90-weight mean a rebuild."
+   },
+   {
+    "item": "Floors and body tub",
+    "when": "Once a year",
+    "why": "Rust is the 40's biggest enemy."
+   },
+   {
+    "item": "Steering play",
+    "when": "Every service",
+    "why": "About 2 in at the wheel is the most Toyota allows, one owner says."
+   },
+   {
+    "item": "Drum brakes (pre-1976)",
+    "when": "Every service",
+    "why": "Weeping wheel cylinders; many owners convert to front discs."
+   }
+  ],
+  "sources": [
+   {
+    "name": "IH8MUD: 1972 FJ40 owner's manual schedule transcription",
+    "url": "https://forum.ih8mud.com/threads/1972-fj-40-owners-manual-schedule-excel-sheet.1370408/"
+   },
+   {
+    "name": "IH8MUD: Taking the play out of steering, FJ40",
+    "url": "https://forum.ih8mud.com/threads/taking-the-play-out-of-steering-fj40.1118193"
+   },
+   {
+    "name": "Cruiser Corps (power steering box and parts)"
+   }
+  ]
+ }
 }

@@ -188,7 +188,12 @@
   },
   {
    "gen": "land-cruiser/fj40",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "Carb and floor pan guides still thin; factory schedule not quotable online"
   },
   {
    "gen": "4runner/5th-gen",
@@ -209,7 +214,11 @@
   },
   {
    "gen": "lexus/lx600",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 5,
+   "maintenance": true
   },
   {
    "gen": "range-rover/l405",

@@ -329,5 +329,81 @@
    "name": "Toyota Land Cruiser Association",
    "url": "https://tlca.org/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Lexus LX 600 maintenance schedule from Lexus's 2023 guide: oil every 10,000 mi (5,000 off-road or towing), filters every 30,000, spark plugs every 40,000, AHC fluid and brake fluid at 60,000, two coolant circuits at 100,000.",
+  "intro": "The LX 600's twin-turbo V35A changes the maintenance picture from the old V8 LXs: spark plugs are due every 40,000 miles, and there are two coolant circuits, one for the engine and one for the water-to-air intercooler. Lexus's 2023 schedule runs on a 10,000-mile oil change, halved for off-road, towing or dusty use. Check the engine recall status before anything else.",
+  "schedule_note": "From the Lexus 2023 LX 600 Warranty and Services Guide, as summarized in our buyer's baseline, with specs from the LX 600 owner's manual (OM60V34U).",
+  "schedule": [
+   {
+    "at": "Every 10,000 mi / 12 months",
+    "items": [
+     "Engine oil and filter, with the filter-cap O-ring (every 5,000 mi / 6 months for off-road, towing or dusty use)"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Engine air filter (inspect more often off-road)",
+     "Cabin filter"
+    ]
+   },
+   {
+    "at": "40,000, 80,000 and 120,000 mi",
+    "items": [
+     "Spark plugs"
+    ]
+   },
+   {
+    "at": "60,000 mi",
+    "items": [
+     "AHC suspension fluid (inspect the AHC system and gas chambers at every major service)",
+     "Brake fluid",
+     "Automatic transmission fluid if you tow or carry heavy loads"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months, then every 50,000 mi",
+    "items": [
+     "Engine coolant and intercooler coolant"
+    ]
+   }
+  ],
+  "severe": "Off-road or towing: oil every 5,000 miles, diffs every 15,000, transfer case every 30,000, transmission fluid at 60,000. Grease the propeller shafts within 24 hours of any water crossing.",
+  "age_items": [
+   {
+    "item": "Engine recalls 24V-381 and 25V-767",
+    "when": "At purchase",
+    "why": "Debris can destroy the main bearings; get the inspection or replacement in writing."
+   },
+   {
+    "item": "Early gear oil change",
+    "when": "At purchase on a low-mileage truck",
+    "why": "Some owners change it early after debris reports in V35A Tundra diffs."
+   },
+   {
+    "item": "Front brakes",
+    "when": "If they squeal",
+    "why": "Bulletin L-SB-0036-24 covers pads, shims and rotors."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lexus 2023 LX 600 Warranty and Services Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-23X600/pdf/L-MMS-23X600.pdf"
+   },
+   {
+    "name": "Lexus LX 600 owner's manual (OM60V34U)",
+    "url": "https://assets.sia.toyota.com/publications/en/om-s/OM60V34U/pdf/OM60V34U.pdf"
+   },
+   {
+    "name": "NHTSA recall 24V-381 (via Justia)",
+    "url": "https://auto-recalls.justia.com/lexus/lx/2023/24v381000"
+   },
+   {
+    "name": "ClubLexus: Lexus LX TSB listing, 2024",
+    "url": "https://www.clublexus.com/forums/tsb_recall/tsbs/lexus/lx/2024"
+   }
+  ]
+ }
 }

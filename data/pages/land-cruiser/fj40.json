@@ -433,7 +433,7 @@
    "time": "≈ Half a day for a seal job",
    "cost": "Power-steering seal kit about $91; Saginaw conversion about $900",
    "symptoms": "Excessive play or backlash at the wheel after tie rods and the center arm have been checked, or fluid weeping from a factory power-steering box.",
-   "fix": "On 1979–84 trucks with factory power steering, rebuild the box with fresh seals and O-rings, replacing any worn internals. Manual-steering trucks often get a GM Saginaw power-steering conversion. Cruiser Corps recommends reading the full procedure first and having a qualified technician install it.",
+   "fix": "Find where the play is before buying parts. With the truck on the ground, have a helper rock the steering wheel while you watch each joint in turn: the column slip joint and the column-to-box coupling, the steering box input and output, the drag link ends, the center arm and the tie rods. Then repeat with the front wheels jacked up. IH8MUD members have found play in the column slip joint, in drag link ends (some take up wear with the 'two penny' trick at the end cups), and inside the box, where shims can stop the gears meshing; one owner of a 1968 manual box fixed it by moving the shims to the other side. On 1979–84 trucks with factory power steering, rebuild the box with fresh seals and O-rings, replacing any worn internals. Manual-steering trucks often get a GM Saginaw power-steering conversion. Cruiser Corps recommends reading the full procedure first and having a qualified technician install it.",
    "tools": "Pitman arm puller · seal kit 520-139 (1979–10/1984 FJ40/45) or conversion kit 524-117",
    "parts": [
     {
@@ -450,6 +450,21 @@
      "name": "Center arm rebuild kit (Japanese), FJ40/45/55 1969–84",
      "supplier": "Cruiser Corps",
      "url": "https://www.cruisercorps.com/products/center-arm-rebuild-kit-japanese-fj40-fj43-fj45-fj55-fj56-bj40-bj41-bj42-bj43-bj44-bj46-hj45-hj47-1969-1984"
+    }
+   ],
+   "know": [
+    "One IH8MUD owner says Toyota considers about 2 in of free play at the wheel the normal maximum; after rebuilding his knuckles, tie rods and center steering, his went from about 2.0 in to 1.5 in.",
+    "Australian-market trucks don't have the two-piece column, so the slip joint isn't a source of play on them.",
+    "Owners treat a power steering box teardown as the last resort; have it rebuilt professionally."
+   ],
+   "mistakes": [
+    "Cranking down the box adjuster to hide worn linkage; fix the joints first.",
+    "Skipping the knuckle bearing preload check, which affects steering feel too."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Taking the play out of steering, FJ40",
+     "url": "https://forum.ih8mud.com/threads/taking-the-play-out-of-steering-fj40.1118193"
     }
    ]
   },
