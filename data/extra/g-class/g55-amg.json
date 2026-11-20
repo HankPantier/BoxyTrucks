@@ -324,5 +324,91 @@
    "name": "duPont Registry — Mercedes-Benz G-Class Experience",
    "url": "https://news.dupontregistry.com/blogs/g-class/mercedes-benz-g-class-experience"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G 55 AMG maintenance: Mercedes's alternating Service A and B, the 722.6 transmission every 40,000–60,000 mi, transfer case and diffs every 60,000, plus the Kompressor intercooler pump and mounts.",
+  "intro": "The G 55 follows Mercedes's Flexible Service System like the G 500, alternating an oil-focused Service A with a Service B that adds filters and brake fluid. The supercharged V8 adds its own items: the intercooler circuit and its electric pump, and engine and transmission mounts that work harder than the G 500's. Longer intervals are owner and technician practice.",
+  "schedule_note": "Service A/B contents from KBB's G-Class schedule; driveline and pump intervals as in our buyer's baseline (owners citing Mercedes, technician practice, Victory Road Performance, Europa). Check the booklet for your VIN.",
+  "schedule": [
+   {
+    "at": "Service A (about every 10,000 mi or yearly, at the indicator)",
+    "items": [
+     "Synthetic oil (MB-approved) and filter",
+     "Check fluid levels and inspect"
+    ]
+   },
+   {
+    "at": "Service B (alternates with A)",
+    "items": [
+     "Oil and filter, cabin filter and air filters",
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Every 40,000 mi",
+    "items": [
+     "Front knuckles, wheel bearings and seals (Europa's interval)"
+    ]
+   },
+   {
+    "at": "Every 40,000–60,000 mi",
+    "items": [
+     "722.6 fluid and filter; check the 13-pin connector for leaks"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi",
+    "items": [
+     "Transfer case and both differentials"
+    ]
+   },
+   {
+    "at": "Once, if original (2005 on)",
+    "items": [
+     "Intercooler pump, then bleed the low-temperature circuit"
+    ]
+   }
+  ],
+  "severe": "Hot climates and stop-and-go traffic are hard on the intercooler circuit; check that the intercooler stays cool to the touch at operating temperature. On dirt roads change the air filters more often than every second service.",
+  "age_items": [
+   {
+    "item": "Intercooler pump",
+    "when": "If power fades after heat soak",
+    "why": "The original pumps fail often; Victory Road Performance treats them as a service item."
+   },
+   {
+    "item": "Engine and transmission mounts",
+    "when": "Inspect at every service",
+    "why": "Collapsed or leaking mounts let the engine move; replace them as a set."
+   },
+   {
+    "item": "Harmonic balancer",
+    "when": "Inspect at every service",
+    "why": "The rubber layer separates with age."
+   },
+   {
+    "item": "Coil springs and propshaft",
+    "when": "Listen for thumping or judder",
+    "why": "Autocar flags both on the W463."
+   }
+  ],
+  "sources": [
+   {
+    "name": "KBB: Mercedes-Benz G-Class maintenance schedule",
+    "url": "https://www.kbb.com/mercedes-benz/g-class/2004/maintenance-schedules/"
+   },
+   {
+    "name": "MBWorld: How to replace or upgrade your intercooler pump (CL55, same Kompressor V8 system)",
+    "url": "https://mbworld.org/forums/cl55-amg-cl65-amg-cl63-amg-c215-c216/476790-how-video-replace-upgrade-your-intercooler-pump-bosch-part-numbers.html"
+   },
+   {
+    "name": "MB Medic: 722.6 transmission plug DIY",
+    "url": "https://www.mercedesmedic.com/722-6-transmission-plug-diy/"
+   },
+   {
+    "name": "Autocar: Used car buying guide, Mercedes-Benz G-Class W463",
+    "url": "https://autocar.co.uk/node/104626"
+   }
+  ]
+ }
 }

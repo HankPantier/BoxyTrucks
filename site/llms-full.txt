@@ -4973,7 +4973,7 @@ Tools: Wire wheel or blaster · rust converter and primer · cavity wax · welde
 #### Transmission fluid leak at the electrical connector (722.6)
 Difficulty 2 / 5 · time 1–2 hours (estimate) · cost A connector adapter seal and fresh ATF
 Symptoms: ATF weeping from the round electrical connector on the side of the 5-speed automatic, a drip under the transmission, and in time harsh or delayed shifts or transmission fault codes. EuroAutoPro lists the degraded connector seal as a common G 500 fault that can lead to fluid loss and control-module faults.
-Fix: The 722.6 transmission's wiring enters the case through a plug with an O-ring-sealed adapter (often called the pilot bushing). When the seal hardens, ATF leaks past it and can wick up the harness. Unplug the connector, release the adapter from the case, fit a new adapter or seals, clean any ATF out of the connector, and refit. Check the fluid level to the factory procedure afterward, since the 722.6 has no dipstick in the tube on many trucks and needs the correct temperature to check. If shifting has gone harsh, a fluid and filter service is the next step.
+Fix: The 722.6 transmission's wiring enters the case through a plug with an O-ring-sealed adapter (often called the pilot bushing). When the seal hardens, ATF leaks past it and can wick up the harness. Unplug the connector, release the adapter from the case, fit a new adapter or seals, clean any ATF out of the connector, and refit. Check the fluid level to the factory procedure afterward, since the 722.6 has no dipstick in the tube on many trucks and needs the correct temperature to check. If shifting has gone harsh, a fluid and filter service is the next step. MB Medic gives the current plug as part 2035400253 (superseding 1402700250): remove the Torx shield bolt, twist off the harness and clean its pins, loosen the captive 7 mm center screw, pull the sleeve straight out, fit the new plug with ATF on its O-rings, then check the level at about 80°C with a service dipstick and run the adaptation reset.
 Tools: Small flat screwdriver or pick · new connector adapter with O-rings · ATF to MB spec · scan tool to read transmission codes
 
 ### Baseline service
@@ -5193,7 +5193,7 @@ Beneath the side pipes, the G 55 is still a W463. The body sits on a separate la
 #### Intercooler pump (Kompressor)
 Difficulty 2 / 5 · time 1–2 hours · cost Parts plus labor
 Symptoms: Power drops after heat soak, especially in traffic or at crawling speed; intake temperatures climb.
-Fix: Replace the electric intercooler circulation pump with the updated Bosch unit, then bleed the low-temperature circuit. Victory Road Performance recommends replacing it as routine maintenance because the original pump failed often. GwagenParts sells a higher-flow bolt-in pump for 2006–2010 G 55s.
+Fix: Replace the electric intercooler circulation pump with the updated Bosch unit, then bleed the low-temperature circuit. Victory Road Performance recommends replacing it as routine maintenance because the original pump failed often. GwagenParts sells a higher-flow bolt-in pump for 2006–2010 G 55s. On the same supercharged V8 in the CL55, MBWorld members describe the swap: raise the front, unplug the pump, remove its single 10 mm bolt, clamp the hoses close to the pump, swap the hoses to the new Bosch 0 392 022 010, and top up with MB 325.0 coolant. If you drained the circuit, fill the expansion tank and run the engine with the cap off and the heater on high for about 10 minutes, topping up, then recheck cold.
 Tools: Updated Bosch intercooler pump or upgrade pump · coolant · hose clamps · bleeding funnel
 
 #### Harmonic balancer (M113)
@@ -5217,7 +5217,7 @@ Tools: Spark plug socket and extensions · dielectric grease · plugs · wires �
 #### 722.6 service & 13-pin connector
 Difficulty 2 / 5 · time 2–3 hours · cost Parts plus labor
 Symptoms: Harsh or delayed shifts, limp mode, or ATF wicking into the wiring at the gearbox connector.
-Fix: Drop the pan, replace the filter and fluid, and check the 13-pin connector (203-540-02-53) for leaks. VRP says to check the conductor plate too in many cases. Use the correct Mercedes-spec ATF and fill by temperature.
+Fix: Drop the pan, replace the filter and fluid, and check the 13-pin connector (203-540-02-53) for leaks. VRP says to check the conductor plate too in many cases. Use the correct Mercedes-spec ATF and fill by temperature. MB Medic's plug procedure: remove the Torx bolt on the metal shield, twist and pull the harness connector and clean any ATF off its pins, loosen the captive 7 mm center screw and pull the sleeve straight out, fit the new plug (current part 2035400253) with its O-rings lubricated in ATF, then reconnect, check the level at about 80°C with the service dipstick, clear codes and run the adaptation reset.
 Tools: ATF · filter and pan gasket · 13-pin connector (203-540-02-53) · dipstick tool
 
 #### Diff locks won't engage

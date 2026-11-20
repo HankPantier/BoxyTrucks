@@ -162,7 +162,7 @@
    "time": "1–2 hours",
    "cost": "Parts plus labor",
    "symptoms": "Power drops after heat soak, especially in traffic or at crawling speed; intake temperatures climb.",
-   "fix": "Replace the electric intercooler circulation pump with the updated Bosch unit, then bleed the low-temperature circuit. Victory Road Performance recommends replacing it as routine maintenance because the original pump failed often. GwagenParts sells a higher-flow bolt-in pump for 2006–2010 G 55s.",
+   "fix": "Replace the electric intercooler circulation pump with the updated Bosch unit, then bleed the low-temperature circuit. Victory Road Performance recommends replacing it as routine maintenance because the original pump failed often. GwagenParts sells a higher-flow bolt-in pump for 2006–2010 G 55s. On the same supercharged V8 in the CL55, MBWorld members describe the swap: raise the front, unplug the pump, remove its single 10 mm bolt, clamp the hoses close to the pump, swap the hoses to the new Bosch 0 392 022 010, and top up with MB 325.0 coolant. If you drained the circuit, fill the expansion tank and run the engine with the cap off and the heater on high for about 10 minutes, topping up, then recheck cold.",
    "tools": "Updated Bosch intercooler pump or upgrade pump · coolant · hose clamps · bleeding funnel",
    "parts": [
     {
@@ -179,6 +179,21 @@
      "name": "VRP M113K split cooling kit",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-m113k-split-cooling-kit-vrp-speed-splitcoolingkit"
+    }
+   ],
+   "know": [
+    "A quick check from MBWorld: with the engine at operating temperature, the intercooler shouldn't feel warm.",
+    "The classic symptom is normal driving but lost power on hard pulls; one member says switching off for about 15 seconds temporarily brings it back.",
+    "The failed original in one member's car was a Bosch 0 392 022 003."
+   ],
+   "mistakes": [
+    "Using clamp tools that don't fit; one member wrapped needle-nose vise grips in fuel hose instead.",
+    "Leaving air in the circuit after a full drain."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: How to replace or upgrade your intercooler pump (CL55, same Kompressor V8 system)",
+     "url": "https://mbworld.org/forums/cl55-amg-cl65-amg-cl63-amg-c215-c216/476790-how-video-replace-upgrade-your-intercooler-pump-bosch-part-numbers.html"
     }
    ]
   },
@@ -277,7 +292,7 @@
    "time": "2–3 hours",
    "cost": "Parts plus labor",
    "symptoms": "Harsh or delayed shifts, limp mode, or ATF wicking into the wiring at the gearbox connector.",
-   "fix": "Drop the pan, replace the filter and fluid, and check the 13-pin connector (203-540-02-53) for leaks. VRP says to check the conductor plate too in many cases. Use the correct Mercedes-spec ATF and fill by temperature.",
+   "fix": "Drop the pan, replace the filter and fluid, and check the 13-pin connector (203-540-02-53) for leaks. VRP says to check the conductor plate too in many cases. Use the correct Mercedes-spec ATF and fill by temperature. MB Medic's plug procedure: remove the Torx bolt on the metal shield, twist and pull the harness connector and clean any ATF off its pins, loosen the captive 7 mm center screw and pull the sleeve straight out, fit the new plug (current part 2035400253) with its O-rings lubricated in ATF, then reconnect, check the level at about 80°C with the service dipstick, clear codes and run the adaptation reset.",
    "tools": "ATF · filter and pan gasket · 13-pin connector (203-540-02-53) · dipstick tool",
    "parts": [
     {
@@ -294,6 +309,20 @@
      "name": "722.6 conductor plate service kit",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-722-6-comprehensive-transmission-service-kit"
+    }
+   ],
+   "know": [
+    "MB Medic calls a leaking sleeve one of the most common causes of slipping, harsh shifts and delayed engagement, and says it's often misdiagnosed as a valve body or worn gearbox.",
+    "Most trucks have no permanent dipstick; the level check uses a service dipstick and the right fluid temperature."
+   ],
+   "mistakes": [
+    "Judging fluid temperature by driving time; MB Medic says to measure it.",
+    "Reconnecting an oily harness, which lets ATF wick toward the control unit."
+   ],
+   "refs": [
+    {
+     "name": "MB Medic: 722.6 transmission plug DIY",
+     "url": "https://www.mercedesmedic.com/722-6-transmission-plug-diy/"
     }
    ]
   },

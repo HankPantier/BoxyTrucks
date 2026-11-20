@@ -424,5 +424,78 @@
    "name": "Toyota — 2011 FJ Cruiser Warranty & Maintenance Guide",
    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-11FJCruiser/pdf/T-MMS-11FJCruiser.pdf"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Toyota FJ Cruiser maintenance schedule from Toyota's 2009 guide: oil every 5,000 mi, propshaft lube every 15,000, air filter every 30,000, valve clearance check at 60,000, coolant at 100,000, plus towing and dirt-road items.",
+  "intro": "Toyota's 2009 FJ Cruiser Scheduled Maintenance Guide runs on a 5,000-mile / 6-month oil service. The 4x4's propeller shafts get lubricated and re-torqued every 15,000 miles, and the diffs, transfer case and transmission are inspected rather than changed unless you tow. On a truck this age, the frame and the front axle actuator matter as much as the schedule.",
+  "schedule_note": "From Toyota's 2009 FJ Cruiser Scheduled Maintenance Guide (4WD items apply to 4WD trucks only). Other model years are similar; check your guide.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Replace engine oil and filter",
+     "Clean the cabin filter",
+     "Rotate tires and inspect the brakes"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Replace the cabin filter",
+     "Lubricate the propeller shafts (4WD)",
+     "Inspect coolant, front and rear diff oil and the steering box"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the engine air filter",
+     "Measure brake thickness and runout",
+     "Inspect transfer case oil, transmission fluid or oil, fuel lines and the fuel cap gasket"
+    ]
+   },
+   {
+    "at": "60,000 and 120,000 mi",
+    "items": [
+     "Everything in the 30,000-mile service",
+     "Inspect drive belts and valve clearance"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months, then every 50,000 mi / 60 months",
+    "items": [
+     "Replace engine coolant"
+    ]
+   }
+  ],
+  "severe": "Dirt or dusty roads: inspect the ball joints, boots, steering linkage and air filter, lubricate and re-torque the propshafts and tighten chassis and body bolts; Toyota asks for daily checks after sand, mud or water. Towing: replace the front and rear diff oil at 15,000, 30,000, 60,000, 90,000 and 120,000 miles, the transfer case at each 30,000, and the manual gearbox oil at 30,000 and 90,000 or automatic fluid at 60,000 and 120,000.",
+  "age_items": [
+   {
+    "item": "Rear frame sections",
+    "when": "Every winter in salt country",
+    "why": "FJ frames rot at the rear; repair sections are covered in the guides."
+   },
+   {
+    "item": "Front axle disconnect actuator (automatic 4x4s)",
+    "when": "Engage 4WD monthly",
+    "why": "Unused actuators fail."
+   },
+   {
+    "item": "Inner fender walls",
+    "when": "At purchase",
+    "why": "They crack; check and decide whether to live with it."
+   },
+   {
+    "item": "Rear driveshaft",
+    "when": "If it clunks on downshifts",
+    "why": "Greasing the slip yoke usually cures it."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota 2009 FJ Cruiser Scheduled Maintenance Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-09FJCruiser/pdf/09 FJCruiser SMG 127074 1st Print EN.pdf"
+   }
+  ]
+ }
 }

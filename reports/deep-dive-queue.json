@@ -158,7 +158,12 @@
   },
   {
    "gen": "g-class/g55-amg",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 2,
+   "maintenance": true,
+   "note": "Mounts, diff locks, axle seal, steering damper guides still thin"
   },
   {
    "gen": "jeep/tj",
@@ -290,7 +295,12 @@
   },
   {
    "gen": "land-cruiser/fj-cruiser",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "Guides already strong; wheel hub guide still thin"
   },
   {
    "gen": "4runner/1st-gen",

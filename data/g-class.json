@@ -693,7 +693,7 @@
     "time": "1–2 hours (estimate)",
     "cost": "A connector adapter seal and fresh ATF",
     "symptoms": "ATF weeping from the round electrical connector on the side of the 5-speed automatic, a drip under the transmission, and in time harsh or delayed shifts or transmission fault codes. EuroAutoPro lists the degraded connector seal as a common G 500 fault that can lead to fluid loss and control-module faults.",
-    "fix": "The 722.6 transmission's wiring enters the case through a plug with an O-ring-sealed adapter (often called the pilot bushing). When the seal hardens, ATF leaks past it and can wick up the harness. Unplug the connector, release the adapter from the case, fit a new adapter or seals, clean any ATF out of the connector, and refit. Check the fluid level to the factory procedure afterward, since the 722.6 has no dipstick in the tube on many trucks and needs the correct temperature to check. If shifting has gone harsh, a fluid and filter service is the next step.",
+    "fix": "The 722.6 transmission's wiring enters the case through a plug with an O-ring-sealed adapter (often called the pilot bushing). When the seal hardens, ATF leaks past it and can wick up the harness. Unplug the connector, release the adapter from the case, fit a new adapter or seals, clean any ATF out of the connector, and refit. Check the fluid level to the factory procedure afterward, since the 722.6 has no dipstick in the tube on many trucks and needs the correct temperature to check. If shifting has gone harsh, a fluid and filter service is the next step. MB Medic gives the current plug as part 2035400253 (superseding 1402700250): remove the Torx shield bolt, twist off the harness and clean its pins, loosen the captive 7 mm center screw, pull the sleeve straight out, fit the new plug with ATF on its O-rings, then check the level at about 80°C with a service dipstick and run the adaptation reset.",
     "tools": "Small flat screwdriver or pick · new connector adapter with O-rings · ATF to MB spec · scan tool to read transmission codes",
     "parts": [],
     "know": [
@@ -704,11 +704,15 @@
      "Ignoring the weep and topping up; the fluid can travel up the harness.",
      "Overfilling after the repair; use the factory check procedure."
     ],
-    "cost_note": "The source gives no prices.",
+    "cost_note": "MB Medic gives no price; the plug is an inexpensive part.",
     "refs": [
      {
       "name": "EuroAutoPro: Common problems of the Mercedes G-Class W463 G 500",
       "url": "https://www.euroautopro.com.au/post/common-problems-of-mercedes-g-class-w463-g-500-updated"
+     },
+     {
+      "name": "MB Medic: 722.6 transmission plug DIY",
+      "url": "https://www.mercedesmedic.com/722-6-transmission-plug-diy/"
      }
     ]
    }
