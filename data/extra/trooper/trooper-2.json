@@ -394,5 +394,86 @@
    "name": "NHTSA — owner complaints, 2000 Isuzu Trooper",
    "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=2000"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Isuzu Trooper (1991–2002) maintenance: a full purchase baseline, oil level checks at every fill-up on the 3.5, timing belt around 90,000 mi, gradual 4L30-E fluid changes every 10,000–15,000 mi, and the TOD checks.",
+  "intro": "Isuzu's Trooper maintenance book isn't published online that we could find, and Isuzu left the US market long ago, so this page doesn't invent a factory schedule. It's a purchase baseline plus the intervals owners report. The 3.5 V6's oil consumption makes one habit more important than any interval: check the oil at every fill-up.",
+  "schedule_note": "Not an Isuzu schedule. Purchase baseline from our buyer's guide; intervals are owner reports from the Edmunds and Bob Is The Oil Guy forums, stated as such.",
+  "schedule": [
+   {
+    "at": "At purchase",
+    "items": [
+     "Engine oil and filter, PCV valve (under the plastic intake cover), air and fuel filters",
+     "Coolant and thermostat flush",
+     "4L30-E pan drop and filter (no pressure flush on an unknown gearbox)",
+     "Transfer case and both differentials",
+     "Power steering and brake fluid",
+     "Timing belt, tensioner, idlers and water pump if there's no record"
+    ]
+   },
+   {
+    "at": "Every fill-up (3.5 V6)",
+    "items": [
+     "Check the oil level; several 3.5s ran dry without the oil light coming on"
+    ]
+   },
+   {
+    "at": "Every oil change",
+    "items": [
+     "Grease the U-joints and driveshafts",
+     "Inspect the air filter"
+    ]
+   },
+   {
+    "at": "Every 10,000–15,000 mi",
+    "items": [
+     "Drop the 4L30-E pan, clean the filter and refill what drained (an Edmunds owner's gradual-refresh method)"
+    ]
+   },
+   {
+    "at": "About 90,000 mi",
+    "items": [
+     "Timing belt (one 2000 owner says 90,000 is the recommendation; owners plan 75,000–100,000)",
+     "Spark plugs and coil boots with the belt"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid"
+    ]
+   }
+  ],
+  "severe": "Towing and dusty roads call for shorter oil and filter changes. After water, check the diffs and transfer case, and wash packed snow, ice and mud off the speed sensors, which can upset the TOD system.",
+  "age_items": [
+   {
+    "item": "TOD speed sensors and connectors",
+    "when": "If the TOD light flashes",
+    "why": "Read the codes before buying sensors."
+   },
+   {
+    "item": "Front axle actuator and hubs",
+    "when": "Cycle 4WD monthly",
+    "why": "Unused actuators seize."
+   },
+   {
+    "item": "Front CV boots",
+    "when": "Every service",
+    "why": "Torn boots ruin the joints."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Edmunds forums: Isuzu Trooper maintenance schedule",
+    "url": "https://forums.edmunds.com/discussion/comment/3663706"
+   },
+   {
+    "name": "Edmunds forums: Isuzu Trooper TOD and 4WD problems",
+    "url": "https://forums.edmunds.com/discussion/comment/3775888"
+   },
+   {
+    "name": "Bob Is The Oil Guy (Trooper owner reports, in our buyer's baseline)"
+   }
+  ]
+ }
 }

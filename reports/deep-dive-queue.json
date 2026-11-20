@@ -240,7 +240,12 @@
   },
   {
    "gen": "trooper/trooper-2",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "No Isuzu schedule online; 4L30-E, actuator, CV guides still thin"
   },
   {
    "gen": "g-class/g500",
@@ -253,7 +258,11 @@
   },
   {
    "gen": "range-rover/l322",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 3,
+   "maintenance": true
   },
   {
    "gen": "trooper/trooper-1",

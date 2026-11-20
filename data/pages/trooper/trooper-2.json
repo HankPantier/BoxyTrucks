@@ -296,7 +296,7 @@
    "time": "An hour or two",
    "cost": "One owner was quoted about $700 for front and rear sensors",
    "symptoms": "The TOD light flashes, the truck shudders or 4WD Auto stops working.",
-   "fix": "Start simple. Edmunds owners suggest cycling into 4L and back, pulling and refitting the TOD fuse, or disconnecting the battery to reset the computer. Then wash the underside, because packed snow and ice can upset the sensors. If the light comes back, check the wiring and connectors at the front and rear driveshaft speed sensors on the transfer case, and replace a faulty sensor.",
+   "fix": "Start simple. Edmunds owners suggest cycling into 4L and back, pulling and refitting the TOD fuse, or disconnecting the battery to reset the computer. Then wash the underside, because packed snow and ice can upset the sensors. If the light comes back, check the wiring and connectors at the front and rear driveshaft speed sensors on the transfer case, and replace a faulty sensor. To read the codes yourself, an Edmunds member describes grounding pin 8 of the diagnostic connector with the ignition on and counting the check-light flashes: code 14 points to the front speed sensor circuit, 24 to the rear, and 13 to a shorted reference. To clear them, ground pin 8 with the transfer lever in neutral and press the brake five times within five seconds; disconnecting the battery doesn't reset the TOD controller. Other owners traced theirs to front vacuum solenoids stuck open or closed, a loose vacuum hose at the front diff's diaphragm, corroded harnesses or fuse box, and loose plugs under the passenger side near the transmission.",
    "tools": "Multimeter · socket set · contact cleaner · a pressure washer for the underside.",
    "parts": [
     {
@@ -308,6 +308,21 @@
      "name": "Transfer case fluid",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/isuzu,1998,trooper,3.5l+v6,1315883,drivetrain,transfer+case+fluid,14226"
+    }
+   ],
+   "know": [
+    "Both speed sensors share a connector block on top of the transfer case.",
+    "4WD Low still works with a failed speed sensor, because it bypasses the TOD calculations.",
+    "Owner-reported costs: a $190 dealer diagnosis, dealer sensor quotes of about $600 each and $1,100–1,500 total, $200 for the vacuum solenoids, and one owner's $1,342 for two sensors and a solenoid."
+   ],
+   "mistakes": [
+    "Replacing sensors before reading the codes and checking the connectors.",
+    "Expecting a battery disconnect to clear the TOD codes."
+   ],
+   "refs": [
+    {
+     "name": "Edmunds forums: Isuzu Trooper TOD and 4WD problems",
+     "url": "https://forums.edmunds.com/discussion/comment/3775888"
     }
    ]
   },

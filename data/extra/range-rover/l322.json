@@ -376,5 +376,99 @@
   {
    "name": "Land Rover North America — 2006–2008 Range Rover maintenance schedule (LRNA, dated 7/26/2007)"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Range Rover L322 (2002–2012) maintenance schedule: Land Rover North America's 2006–08 intervals (oil every 7,500 mi, plugs at 105,000, transmission at 150,000), the 2012 European plan, and Atlantic British's 60,000-mile driveline advice.",
+  "intro": "The L322 had several official schedules over its life. Land Rover North America's 2006–08 schedule is the clearest: oil every 7,500 miles or six months, with long intervals for the driveline. Land Rover's 2012 European plan stretched oil to 15,000 miles. Specialist Atlantic British recommends changing the transmission, transfer case and diffs every 60,000 miles, far sooner than Land Rover's 150,000.",
+  "schedule_note": "Land Rover North America 2006–08 schedule and Land Rover owner guides, as quoted in our buyer's baseline; Atlantic British's specialist intervals noted. Trucks with the service indicator follow it. Check the book for your year and engine.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 6 months (LRNA 2006–08)",
+    "items": [
+     "Engine oil and filter (2012 European plan: 15,000 mi / 12 months; owners often do 10,000 or sooner)"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 12 months",
+    "items": [
+     "Cabin (pollen) filter"
+    ]
+   },
+   {
+    "at": "Every 3 years",
+    "items": [
+     "Brake fluid, regardless of distance"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi (Atlantic British)",
+    "items": [
+     "Automatic transmission fluid and filter",
+     "Transfer case",
+     "Front and rear differentials"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi / 48 months (LRNA)",
+    "items": [
+     "Engine air filter (far sooner on dusty roads)"
+    ]
+   },
+   {
+    "at": "105,000 mi (LRNA 2006–08)",
+    "items": [
+     "Spark plugs",
+     "Supercharger belt (supercharged trucks)"
+    ]
+   },
+   {
+    "at": "150,000 mi or 10 years (LRNA)",
+    "items": [
+     "Transmission fluid and filter (Land Rover's own interval)",
+     "Drive belts and the petrol fuel filter",
+     "Electronic rear diff (also at 75,000)"
+    ]
+   },
+   {
+    "at": "Every 10 years (petrols)",
+    "items": [
+     "Coolant (the older owner guide gives 4 years for diesels)"
+    ]
+   }
+  ],
+  "severe": "Land Rover says arduous use (dust, towing, off-road) needs more frequent servicing; change the air filter far sooner than 60,000 miles on dirt roads.",
+  "age_items": [
+   {
+    "item": "Air suspension",
+    "when": "Whenever a corner sits low after standing",
+    "why": "Leaking springs and tired compressors are the L322's best-known cost."
+   },
+   {
+    "item": "Timing chains (4.4 BMW and 5.0)",
+    "when": "Listen at every cold start",
+    "why": "Guides, tensioners and VANOS seals all cause cold-start rattles."
+   },
+   {
+    "item": "ZF six-speed",
+    "when": "Before 140,000 mi",
+    "why": "Land Rover Monthly says shift judder often appears around then."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Land Rover North America 2006–08 maintenance schedule (in our buyer's baseline)"
+   },
+   {
+    "name": "Atlantic British (specialist driveline intervals)"
+   },
+   {
+    "name": "Land Rover Monthly: Servicing a 'sealed for life' automatic gearbox (Oct 2018)",
+    "url": "https://www.pressreader.com/uk/land-rover-monthly/20181001/283858689135599"
+   },
+   {
+    "name": "Beisan Systems: M62TU VANOS seal repair",
+    "url": "https://beisansystems.com/?p=124"
+   }
+  ]
+ }
 }

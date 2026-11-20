@@ -278,6 +278,22 @@
           "supplier": "Rovers North",
           "url": "https://roversnorth.com/search.aspx?q=Range+Rover+L322+VANOS"
         }
+      ],
+      "know": [
+        "Beisan lists three stages of VANOS wear on the M62TU: a cold-start rattle first, then a diesel-like clatter at warm idle, then lost low-end torque.",
+        "Beisan's seal kit replaces the worn Teflon rod seals and O-rings in both VANOS units, plus O-rings for the chain tensioners; it also replaces the oil check valve at each head's feed hole (two needed).",
+        "The full job needs the BMW cam and crank locking tools and torque wrenches that work on left-hand threads."
+      ],
+      "mistakes": [
+        "Working on a warm engine; Beisan says it must be cold.",
+        "Removing the VANOS center shaft without marking it to the body first.",
+        "Closing the tailgate fully with the battery disconnected; the electronic latch won't reopen it without power."
+      ],
+      "refs": [
+        {
+          "name": "Beisan Systems: M62TU VANOS seal repair",
+          "url": "https://beisansystems.com/?p=124"
+        }
       ]
     },
     {
@@ -356,6 +372,20 @@
           "supplier": "Lucky8",
           "url": "https://lucky8llc.com/products/rock-oil-full-synthetic-transfer-case-fluid-1-liter"
         }
+      ],
+      "know": [
+        "Land Rover's schedule calls the fluid fill-for-life but renews it at 150,000 miles or ten years; Land Rover Monthly says judder on shifts often shows up around 140,000 miles, so service before then.",
+        "A plain drain-and-refill leaves old fluid in the box and doesn't change the integral filter; a machine exchange or a filter conversion kit avoids dropping the pan."
+      ],
+      "mistakes": [
+        "Waiting for symptoms on a 'sealed for life' box.",
+        "Refilling without the level-at-temperature procedure."
+      ],
+      "refs": [
+        {
+          "name": "Land Rover Monthly: Servicing a 'sealed for life' automatic gearbox (Oct 2018)",
+          "url": "https://www.pressreader.com/uk/land-rover-monthly/20181001/283858689135599"
+        }
       ]
     },
     {
@@ -381,6 +411,21 @@
           "name": "Primary drive belt 5.0 (LR064185) — replace while the front is apart",
           "supplier": "Lucky8",
           "url": "https://lucky8llc.com/products/primary-drive-serpentine-belt-5-0l"
+        }
+      ],
+      "know": [
+        "A FullFatRR member's 2010 L322 5.0 SC at 108,000 miles still had a near-normal cold idle; owners say the noise is easiest to hear standing at the front with the bonnet up.",
+        "A worn supercharger coupler makes a similar noise; check it first.",
+        "A member says fitting the latest parts should make the engine good for another 150,000-plus miles."
+      ],
+      "mistakes": [
+        "Stretching oil changes, which members link to chain wear.",
+        "Reusing old tensioners or guides."
+      ],
+      "refs": [
+        {
+          "name": "FullFatRR: 5.0 supercharged timing chain thread",
+          "url": "https://www.fullfatrr.com/forum/topic56678.html"
         }
       ]
     }
