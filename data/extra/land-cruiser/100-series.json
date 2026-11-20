@@ -321,5 +321,98 @@
    "name": "TLCA — Cruise Moab",
    "url": "https://tlca.org/calendar/cruise-moab/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Cruiser 100 Series maintenance schedule from Toyota's 2005 guide: oil every 5,000 mi, propshaft lube every 15,000, filters and wheel bearing grease every 30,000, timing belt at 90,000, coolant at 100,000, plugs at 120,000.",
+  "intro": "Toyota's 2005 Scheduled Maintenance Guide covers the 100 Series Land Cruiser on a 5,000-mile / 6-month oil service. Every 30,000 miles adds filters and greasing the drive shaft bushing, propeller shafts and wheel bearings. The 2UZ-FE V8's timing belt is due at 90,000 miles. Toyota's guide doesn't schedule the AHC fluid; the LX 470's Lexus schedule replaces it at 60,000 and 120,000.",
+  "schedule_note": "From Toyota's 2005 Scheduled Maintenance Guide (Land Cruiser items). Earlier and later years are similar; check your book.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Engine oil and filter",
+     "Rotate tires and inspect brakes"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Lubricate and re-torque the propeller shafts",
+     "Inspect ball joints, boots, coolant, exhaust, diff oil, radiator and steering"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Engine air filter and cabin filter",
+     "Grease the drive shaft bushing, propeller shafts and wheel bearings",
+     "Limited-slip diff oil (if fitted)",
+     "Inspect transmission fluid and transfer case oil"
+    ]
+   },
+   {
+    "at": "60,000 mi",
+    "items": [
+     "Everything in the 30,000-mile service",
+     "First drive belt inspection (then every 15,000 mi); inspect valve clearance"
+    ]
+   },
+   {
+    "at": "90,000 mi",
+    "items": [
+     "Timing belt (do the water pump and thermostat with it)"
+    ]
+   },
+   {
+    "at": "100,000 mi, then every 50,000 mi / 60 months",
+    "items": [
+     "Engine coolant"
+    ]
+   },
+   {
+    "at": "120,000 mi",
+    "items": [
+     "Spark plugs",
+     "Inspect valve clearance"
+    ]
+   }
+  ],
+  "severe": "Desert or dirt roads: inspect ball joints, boots, air filter and steering linkage and lubricate the propshafts every 5,000 miles. Salted roads: lubricate the propshafts every 5,000. Towing: front and rear diff oil every 15,000, and transmission fluid and transfer case oil at 60,000 and 120,000.",
+  "age_items": [
+   {
+    "item": "Brake booster pump and accumulator",
+    "when": "Time the pump on the first key-on of the day",
+    "why": "Over about 40 seconds suggests trouble (IH8MUD)."
+   },
+   {
+    "item": "Heater hose tees",
+    "when": "At purchase if still plastic",
+    "why": "They snap without warning."
+   },
+   {
+    "item": "AHC fluid (if fitted)",
+    "when": "Every 60,000 mi (Lexus LX 470 schedule)",
+    "why": "Toyota's guide doesn't list it."
+   },
+   {
+    "item": "Exhaust manifolds",
+    "when": "Listen for a cold-start tick",
+    "why": "About half of 2UZ owners in an IH8MUD poll had a crack."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota 2005 Scheduled Maintenance Guide (Land Cruiser)",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/05ToyAllMS_MS0005/pdf/51t1smt.pdf"
+   },
+   {
+    "name": "Lexus 2007 scheduled maintenance guide (LX 470 AHC interval)",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/07LexMS_MS0008f/pdf/07LexMS_MS0008f.pdf"
+   },
+   {
+    "name": "IH8MUD: Poll on total brake failure in 100 series",
+    "url": "https://forum.ih8mud.com/threads/poll-on-total-brake-failure-in-100-series.872498/page-26"
+   }
+  ]
+ }
 }

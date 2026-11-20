@@ -332,6 +332,72 @@
      "url": "https://cruiserteq.com/100-series-lx470-stock-light-load-replacement-suspension-1-5-lift-kit-w-torsion-bars-fits-1998-2007-100-series-lx470-applications-ome100stktor/"
     }
    ]
+  },
+  {
+   "title": "Brake booster pump and accumulator failure (ABS, VSC and brake lights with a buzzer)",
+   "diff": "3 / 5",
+   "time": "A few hours plus a full brake flush (estimate)",
+   "cost": "One owner's 2019-ish bill for a genuine pump assembly with an independent install: $1,480 all in",
+   "symptoms": "Warning signs before failure: the booster pump runs for a long time on the first key-on, cycles more often than it used to, or starts making a noise. Failure itself is sudden: a steady buzzer, ABS, TRAC and brake lights together, and a pedal that goes most of the way to the floor with little braking. IH8MUD owners in a 100 Series brake-failure poll report it on Land Cruisers and LX 470s from about 230,000 to 285,000 miles.",
+   "fix": "The 100 Series Land Cruiser (and LX 470) uses a hydraulic brake booster with an electric pump and accumulator instead of a vacuum booster. Do the run-time test that IH8MUD member 2001LC describes: top up the brake fluid, then time the pump on the first key-on of the day. Over about 40 seconds suggests a leak or air in the system. If it's failing, the options owners have used are the booster pump assembly alone (pump, accumulator and wiring; one owner paid $1,004 list for the part at a Lexus dealer), or a complete remanufactured booster and master cylinder assembly, which another owner says saved him about $4,000 over the dealer. Also check the pump's control wiring connector for corrosion, which was the whole fault on one member's truck. After the repair, flush the fluid thoroughly; one owner flushes, cycles the ABS a few times on a dirt surface, then flushes again.",
+   "tools": "Stopwatch · flare-nut wrenches · brake bleeding kit and plenty of fresh DOT 3 fluid · scan tool for ABS codes · factory repair manual",
+   "parts": [],
+   "know": [
+    "Most failures give some warning first: long pump run times, frequent cycling or noise.",
+    "2001LC says the master cylinder usually can't be rebuilt, but a plunger kit adds about $50 and 30 minutes.",
+    "Treat this as a safety item. If the buzzer and lights come on together, stop driving."
+   ],
+   "mistakes": [
+    "Overfilling the reservoir after the swap, which one shop did.",
+    "Using too little fluid on the flush; 2001LC says a proper flush takes far more than a single bottle.",
+    "Over-torquing old bleeders; 2001LC notes the factory spec is low (8 lb-ft)."
+   ],
+   "cost_note": "The $1,480 total was one owner's dealer list price for the pump ($1,004), expedited shipping, fluid, a $225 independent install and tax, plus $102 for the tow.",
+   "refs": [
+    {
+     "name": "IH8MUD: Poll on total brake failure in 100 series",
+     "url": "https://forum.ih8mud.com/threads/poll-on-total-brake-failure-in-100-series.872498/page-26"
+    }
+   ]
+  },
+  {
+   "title": "Cracked exhaust manifold (2UZ-FE tick)",
+   "diff": "4 / 5",
+   "time": "About 5–6 hours per side (one owner), including loosening the motor and transmission mounts",
+   "cost": "One owner paid about $250 for an OEM manifold, gasket and hardware",
+   "symptoms": "A tick from the engine bay that's loudest cold and fades as the manifold heats and expands.",
+   "fix": "CarSpec found the crack where the flange is welded to the first pipe of the manifold. The fix is a new manifold assembly. The engine mounts have to be released and the engine raised to reach the lower studs, and rusted fasteners are the main fight. Rule out loose spark plugs first. An IH8MUD poll of 2UZ owners found about half had a cracked manifold, most often around 150,000 to 200,000 miles, and the driver's side comes up most. Have new studs and nuts ready before you start; on one owner's job seven of the eight studs came out with the nuts. Some owners fit aftermarket headers (JBA was mentioned) instead of OEM.",
+   "tools": "Penetrating oil · stud extractor · engine support or jack · new gaskets and studs",
+   "parts": [
+    {
+     "name": "Exhaust manifold gasket, 1998–04/2005 2UZ-FE (EGEX50021)",
+     "supplier": "CruiserTeq",
+     "url": "https://cruiserteq.com/exhaust-manifold-gasket-fits-01-1998-04-2005-2uz-fe-engine-applications-egex50021/"
+    },
+    {
+     "name": "Exhaust manifolds and studs (2005 LX470 catalog)",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/lexus,2005,lx470"
+    }
+   ],
+   "know": [
+    "Driver's side is the usual crack, but passenger-side cracks happen too.",
+    "A seized stud can sometimes be saved by working it in and out (one owner needed about 20 cycles)."
+   ],
+   "mistakes": [
+    "Starting without spare studs.",
+    "Forcing a binding stud; work it back and forth instead."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Poll on total cracked headers for the 2UZ-FE",
+     "url": "https://forum.ih8mud.com/threads/poll-on-total-cracked-headers-for-the-2uzfe.1356106"
+    },
+    {
+     "name": "CarSpec: engine ticking / exhaust manifold leak",
+     "url": "https://carspecmn.com/toyota-sequoia-tundra-4runner-and-land-cruiser-lexus-gx470-and-lx470-engine-tickingexhaust-manifold-leak/"
+    }
+   ]
   }
  ],
  "faq": [

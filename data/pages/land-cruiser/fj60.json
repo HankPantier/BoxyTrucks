@@ -205,6 +205,21 @@
      "supplier": "Cruiser Corps",
      "url": "https://www.cruisercorps.com/products/spark-plug-wire-set-premium-reproduction"
     }
+   ],
+   "know": [
+    "An IH8MUD member quotes the spec as 114–149 psi with no more than 14 psi between cylinders; check it against the factory manual for your engine.",
+    "Readings should be within about 10% of each other.",
+    "Test warm, with a fully charged battery, all plugs out, throttle wide open and the coil's high-tension lead disconnected, and give every cylinder the same number of cranks."
+   ],
+   "mistakes": [
+    "Testing cold or with a weak battery, which reads low across the board.",
+    "Not keeping the plugs in order; their appearance helps explain an odd reading."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Compression test, how to and specs (FJ60)",
+     "url": "https://forum.ih8mud.com/threads/compression-test-how-too-specs.235092/"
+    }
    ]
   },
   {
