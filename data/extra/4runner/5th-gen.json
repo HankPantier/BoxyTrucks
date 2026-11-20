@@ -317,5 +317,103 @@
    "name": "Wikipedia — Kinetic Dynamic Suspension System",
    "url": "https://en.wikipedia.org/wiki/Kinetic_Dynamic_Suspension_System"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "5th-gen 4Runner (2010–2024) maintenance schedule: Toyota's 10,000-mile oil interval, propshaft greasing every 5,000 mi on dirt or when towing, transfer case at 30,000 in dust, diffs at 15,000 when loaded, belt inspection from 63,000.",
+  "intro": "Toyota sets a 10,000-mile oil change for the 5th-gen 4Runner on 0W-20, with most driveline fluid changes only required under special operating conditions. Trail4Runner's authors, who wheel their trucks, run oil at 5,000 miles and change every driveline fluid every 30,000. Both are listed so you can choose to suit how the truck is used.",
+  "schedule_note": "Toyota's intervals as quoted by Trail4Runner from the 5th-gen maintenance schedule, plus Trail4Runner's own practice where noted. Check the Warranty and Maintenance Guide for your model year.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi",
+    "items": [
+     "Grease the propeller shafts on dirt or dusty roads or when towing (Toyota)",
+     "Oil and filter on Trail4Runner's schedule"
+    ]
+   },
+   {
+    "at": "Every 10,000 mi",
+    "items": [
+     "Engine oil (0W-20) and filter (Toyota)",
+     "Check the air filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi",
+    "items": [
+     "Front and rear differentials when heavily loaded or with roof gear (Toyota)"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Transfer case on dirt or dusty roads (Toyota)",
+     "All driveline fluids (Trail4Runner)"
+    ]
+   },
+   {
+    "at": "Every 2 years or 60,000 mi",
+    "items": [
+     "Brake fluid (Toyota, per Trail4Runner)"
+    ]
+   },
+   {
+    "at": "63,000 mi, then every 18,000",
+    "items": [
+     "Inspect the serpentine belt (Toyota)"
+    ]
+   },
+   {
+    "at": "At least yearly",
+    "items": [
+     "Cabin air filter"
+    ]
+   }
+  ],
+  "severe": "Toyota's special conditions cover dirt and dusty roads, towing and heavy loads, and roof racks: propshaft grease every 5,000 miles, diffs every 15,000 when loaded, transfer case every 30,000 in dust. After water crossings, grease the propshafts and check the diffs for water.",
+  "age_items": [
+   {
+    "item": "Frame and underbody",
+    "when": "Every winter",
+    "why": "Salted trucks corrode under the bed and at the rear frame."
+   },
+   {
+    "item": "Front axle seals",
+    "when": "Check for gear oil on the inner CV",
+    "why": "A common leak covered in the repair guides."
+   },
+   {
+    "item": "KDSS (if fitted)",
+    "when": "After any suspension work",
+    "why": "Valves must be closed to the factory procedure."
+   },
+   {
+    "item": "Rear hatch window",
+    "when": "If it won't close",
+    "why": "Re-initialise and clean the tracks first."
+   },
+   {
+    "item": "PCV valve",
+    "when": "Around 60,000 mi",
+    "why": "No Toyota interval; a Trail4Runner author replaced his at 60,000."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Trail4Runner: Maintenance tips for the 5th-gen 4Runner",
+    "url": "https://trail4runner.com/2023/07/19/maintenance-tips-5th-gen-4runner/"
+   },
+   {
+    "name": "Trail4Runner: High-mileage preventative maintenance guide",
+    "url": "https://trail4runner.com/2024/06/14/high-mileage-preventative-maintenance-guide/"
+   },
+   {
+    "name": "Trail4Runner: Propeller shaft maintenance",
+    "url": "https://trail4runner.com/2021/03/03/propeller-shaft-maintenance-how-to-guide-5th-gen-4runner/"
+   },
+   {
+    "name": "Trail4Runner: 5th-gen oil change",
+    "url": "https://trail4runner.com/2018/06/11/5th-gen-4runner-oil-change/"
+   }
+  ]
+ }
 }
