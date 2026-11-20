@@ -37,6 +37,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 |---|---|---|
 | Oct 28, 2026 | "The biggest tire that fits stock": 8 trucks, CTA to boxytrucks.com/tires. Photo: Darina Rodionova / Unsplash (80 Series) | `posts/01-biggest-tire-stock.jpg` |
 | Oct 30, 2026 | "80 Series or 100 Series?" head-to-head, CTA to boxytrucks.com/compare. Photos: Darina Rodionova / Unsplash; Andries Oudshoorn, CC BY-SA 2.0 | `posts/03-80-vs-100.jpg` |
+| Nov 20, 2026 | Reader rig #2: Riverhouse Land Rover's 1997 Defender 110 300Tdi (dealer truck, for sale, unpaid and disclosed). 41 s Short from their two clips plus listing photos, voice B. YouTube P_dvV4U8Me4 with pinned comment, Instagram Reel Df-yGmfOEWV (collab invite to @riverhouselandrover), Pinterest 1128292512946736090; X in the weekly round-up; TikTok skipped, paused | `rigs/riverhouse-110/riverhouse-defender-110.mp4` |
 | Nov 1, 2026 | "Wrangler or Bronco?" (Oct 31 slot, posted a day late after an internet outage), CTA to boxytrucks.com/compare. Photos: BLM California (public domain); Thomas Tucker / Unsplash | `posts/04-jl-vs-bronco.jpg` |
 | Nov 1, 2026 | "Show us your rig" (posted at 3:45pm after a browser outage at the scheduled time), CTA to boxytrucks.com/submit. Photo: Hasse Lossius / Unsplash | `posts/05-show-us-your-rig.jpg` |
 | Nov 2, 2026 | "Defender, Grenadier or G-Class?" (12:50pm), link to /compare/defender-vs-grenadier-vs-g-class/. https://www.instagram.com/p/DfP4KseOe2f/ | `posts/06-defender-grenadier-g.jpg` |
