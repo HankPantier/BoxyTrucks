@@ -328,8 +328,8 @@
     "diff": "2 / 5",
     "time": "≈ 2–3 hours",
     "cost": "$14 OEM sheet, $21 Delrin; seal kit $35–40",
-    "symptoms": "Sloppy or stiff transfer case lever, trouble finding 4WD or low, a case that pops out of gear, and leaks at the output seals.",
-    "fix": "Drain the case. Remove the shifter boot and the top cover, replace the worn plastic shift sheet, check the shift-rail springs and detents, then reseal the cover and output seals with the seal kit. Refill with gear oil (Trail Tough recommends non-synthetic 80W-90 GL-5 in its rebuilt cases) and check that 2H, 4H and 4L all engage.",
+    "symptoms": "Sloppy or stiff transfer case lever, trouble finding 4WD or low, a case that gets stuck in neutral, and leaks at the output seals. Zukiworld explains why: the plastic sheet the shifter ball sits on breaks up, the ball settles and wobbles, and the lever loses the leverage it needs to move the shift forks far enough.",
+    "fix": "Drain the case. Remove the shifter boot and the top cover, replace the worn plastic shift sheet, check the shift-rail springs and detents, then reseal the cover and output seals with the seal kit. Refill with gear oil (Trail Tough recommends non-synthetic 80W-90 GL-5 in its rebuilt cases) and check that 2H, 4H and 4L all engage. Zukiworld's editor did the sheet itself on a bench in minutes with hand tools, and says it can be done in the truck: pull the boot and shifter, pick every piece of the old sheet out with a dental pick, clean the housing with cleaner sprayed on a towel (not into the case, so debris and solvent don't fall in), then seat the new sheet over its locating pins and refit the shifter.",
     "tools": "Socket set · seal puller and driver · gasket scraper · fluid pump",
     "parts": [
      {
@@ -351,6 +351,24 @@
       "name": "Factory transfer case vent",
       "supplier": "Trail Tough",
       "url": "https://trailtough.com/product/samurai-transfer-case-vent/"
+     }
+    ],
+    "know": [
+     "Low Range Off-Road sells the replacement sheet and a complete Samurai shifter fix kit.",
+     "A worn sheet is the usual reason a Samurai sticks in neutral; check it before blaming the case internals."
+    ],
+    "mistakes": [
+     "Leaving fragments of the old sheet in the housing, where they can drop into the case.",
+     "Spraying cleaner straight into the shifter opening."
+    ],
+    "refs": [
+     {
+      "name": "Zukiworld: Installation and repair of the transfer case shifter sheet",
+      "url": "https://www2.zukiworld.com/feature_installation-repair-of-transfer-case-shifter-sheet/"
+     },
+     {
+      "name": "Low Range Off-Road: Samurai complete shifter fix kit",
+      "url": "https://lowrangeoffroad.com/suzuki-samurai-complete-shifter-fix-kit.html"
      }
     ]
    },

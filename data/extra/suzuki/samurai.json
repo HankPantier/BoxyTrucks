@@ -281,5 +281,68 @@
    "name": "Factory Repair Manuals — Suzuki",
    "url": "https://www.factoryrepairmanuals.com/suzuki-service-manuals/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Suzuki Samurai / SJ maintenance: oil every 10,000 km (6,000 mi) or 6 months per Olyslager data, a full purchase baseline on every fluid and the timing belt, plus the Samurai-specific checks.",
+  "intro": "Suzuki's own Samurai maintenance book isn't published online that we could find. The one published interval we can attribute is the oil change in Olyslager's data (via Liqui Moly) for the 1990–98 Samurai. Everything else here is a purchase baseline: a 25-to-40-year-old Samurai should get every fluid, the timing belt and the ignition parts at once unless there are receipts.",
+  "schedule_note": "Not a Suzuki schedule. Oil interval from Olyslager / Liqui Moly; the rest is a purchase baseline from our buyer's guide. Check a factory service manual for capacities and specs.",
+  "schedule": [
+   {
+    "at": "Every 10,000 km (about 6,000 mi) / 6 months",
+    "items": [
+     "Engine oil and filter (5,000 km / 4 months in severe use)",
+     "Grease the U-joints and check the steering joint and spring bushings"
+    ]
+   },
+   {
+    "at": "At purchase",
+    "items": [
+     "Timing belt and tensioner unless documented (the G13A is non-interference, but a failure strands you)",
+     "Spark plugs, wires, cap and rotor; check the distributor O-ring for leaks",
+     "Air and fuel filters",
+     "Gearbox, transfer case, front and rear diff oil; check the knuckles for weeping",
+     "Brake fluid flush"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Coolant flush",
+     "Brake fluid flush"
+    ]
+   }
+  ],
+  "severe": "Olyslager halves the oil interval to 5,000 km or 4 months for severe use. After water crossings, check the knuckle and diff oil for water.",
+  "age_items": [
+   {
+    "item": "Transfer case mounts",
+    "when": "At purchase and every service",
+    "why": "They crack; reinforcing them is a common fix."
+   },
+   {
+    "item": "Transfer case shift sheet",
+    "when": "If the lever gets sloppy or sticks in neutral",
+    "why": "The plastic sheet breaks up with age."
+   },
+   {
+    "item": "Front knuckles",
+    "when": "Every service",
+    "why": "Weeping gear oil means kingpin bearings and seals are due."
+   },
+   {
+    "item": "Front locking hubs",
+    "when": "At purchase",
+    "why": "They must lock for 4WD to work."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Liqui Moly (Olyslager data): Suzuki Samurai 1990–98"
+   },
+   {
+    "name": "Zukiworld: Transfer case shifter sheet repair",
+    "url": "https://www2.zukiworld.com/feature_installation-repair-of-transfer-case-shifter-sheet/"
+   }
+  ]
+ }
 }

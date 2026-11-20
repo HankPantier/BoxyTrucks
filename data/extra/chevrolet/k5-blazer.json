@@ -320,5 +320,79 @@
    "name": "Diesel Hub — New Process NP241 specs",
    "url": "https://www.dieselhub.com/drivetrain/np241.html"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Square-body K5 Blazer (1973–1991) maintenance: a purchase baseline for every fluid, then the owner and specialist intervals for glow plugs, driveshafts, hubs and the frame at the steering box.",
+  "intro": "GM's maintenance schedules for the 1973–1991 K5 aren't published online by GM that we could find, and drivetrains changed every few years, so this page doesn't invent a schedule. Instead it sets out what to do at purchase on a truck that's 35 to 50 years old, then the few intervals specialists publish. Identify the engine, transmission, transfer case and axles first.",
+  "schedule_note": "Not a GM schedule. A purchase baseline plus attributed intervals; use the factory service manual for your year for capacities and specs.",
+  "schedule": [
+   {
+    "at": "At purchase",
+    "items": [
+     "Engine oil and filter, air filter and fuel filter",
+     "Coolant, thermostat, hoses and belts; check the heater core",
+     "Automatic transmission pan drop, new filter and refill",
+     "Transfer case (NP208 and NP241 take ATF, not gear oil) and both differentials",
+     "Repack the front wheel bearings and check the hubs",
+     "Brake fluid flush; on 1988–91 trucks, check recall 93V119 (front rotors)",
+     "Inspect the frame at the steering box for cracks"
+    ]
+   },
+   {
+    "at": "Every oil change",
+    "items": [
+     "Grease the driveshaft U-joints and slip yokes (lifted trucks wear them fast)",
+     "Check the steering box mounting and power steering fluid"
+    ]
+   },
+   {
+    "at": "6.2 diesel glow plugs",
+    "items": [
+     "GM's interval is 100,000 mi; DieselHub recommends replacing all eight by 60,000 mi"
+    ]
+   },
+   {
+    "at": "After deep water",
+    "items": [
+     "Change both differentials and repack the front wheel bearings"
+    ]
+   }
+  ],
+  "severe": "Diesels are sensitive to dust, so check the airbox seals as well as the filter. Lifted trucks run steep driveshaft angles and need the joints greased far more often.",
+  "age_items": [
+   {
+    "item": "Frame at the steering box",
+    "when": "Every service",
+    "why": "The K5's best-known weak spot; cracks start at the box bolts."
+   },
+   {
+    "item": "Automatic locking hubs (1981 on)",
+    "when": "At purchase",
+    "why": "They often seize; many owners convert to manual hubs."
+   },
+   {
+    "item": "Tailgate window",
+    "when": "Clean the connectors if it gets slow",
+    "why": "Corroded terminals and the safety switch cause most failures."
+   },
+   {
+    "item": "M1009 24-volt system",
+    "when": "At purchase",
+    "why": "Test both batteries and both alternators."
+   }
+  ],
+  "sources": [
+   {
+    "name": "DieselHub: 6.2L and 6.5L glow plug system diagnostics",
+    "url": "https://www.dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+   },
+   {
+    "name": "GMSquareBody: tailgate window troubleshooting",
+    "url": "https://www.gmsquarebody.com/goto/post?id=519326"
+   },
+   {
+    "name": "CK5 forums (owner reports in our buyer's baseline)"
+   }
+  ]
+ }
 }

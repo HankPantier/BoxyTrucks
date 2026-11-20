@@ -136,7 +136,12 @@
   },
   {
    "gen": "suzuki/samurai",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "No Suzuki schedule online; rear bearing, clutch, brakes guides still thin"
   },
   {
    "gen": "unimog/unimog-u1300l",
@@ -144,7 +149,12 @@
   },
   {
    "gen": "chevrolet/k5-blazer",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 1,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "No GM schedule online; purchase baseline page. Leaf spring guide still thin"
   },
   {
    "gen": "g-class/g55-amg",

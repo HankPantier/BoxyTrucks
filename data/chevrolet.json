@@ -419,7 +419,7 @@
     "time": "≈ 2–3 hours",
     "cost": "Parts only for DIY",
     "symptoms": "Hard cold starts, long cranking, white smoke until warm, or a wait light that misbehaves. On an M1009, a bad resistor pack or a mixed 12/24-volt conversion can cook new plugs.",
-    "fix": "Test each glow plug's resistance and check that power reaches each one during the glow cycle. Replace failed plugs (or all eight) and the controller or relay if it isn't cycling. On M1009s, confirm whether the truck still has the 24-volt starting system and the firewall resistor pack before you buy plugs. The plugs are 12-volt even on CUCVs, and the resistor pack drops 24 volts to 12.",
+    "fix": "Test each glow plug's resistance and check that power reaches each one during the glow cycle. Replace failed plugs (or all eight) and the controller or relay if it isn't cycling. On M1009s, confirm whether the truck still has the 24-volt starting system and the firewall resistor pack before you buy plugs. The plugs are 12-volt even on CUCVs, and the resistor pack drops 24 volts to 12. DieselHub's 6.2/6.5 diagnostics give the numbers: each plug should read 0.8–1.8 ohms from its terminal to engine ground, each ACDelco 60G should draw about 6–10 amps at the start of a cycle, and the whole system about 40–50 amps at the battery negative. Early 1982–84 6.2s use a separate relay with 8–10 second pre-glow; later trucks use a controller (4-pin on non-electronic engines). A chattering relay almost always means a bad controller.",
     "tools": "Multimeter · deep sockets and extensions · anti-seize",
     "parts": [
      {
@@ -431,6 +431,46 @@
       "name": "Diesel glow plug controller, 1987 Blazer 6.2L",
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/chevrolet,1987,blazer,6.2l+379cid+v8+diesel,1061503,ignition,diesel+glow+plug+controller,7156"
+     }
+    ],
+    "know": [
+     "Replace all eight plugs at once if any is out of spec.",
+     "GM's interval is 100,000 miles; DieselHub recommends no more than 60,000.",
+     "Use genuine ACDelco 60G plugs; DieselHub says aftermarket plugs can swell and break off in the chamber."
+    ],
+    "mistakes": [
+     "Jump-starting except in an emergency, which DieselHub says often damages the glow plug system.",
+     "Soldering fusible links instead of splicing them at the original gauge and length."
+    ],
+    "refs": [
+     {
+      "name": "DieselHub: 6.2L and 6.5L glow plug system diagnostics",
+      "url": "https://www.dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+     }
+    ]
+   },
+   {
+    "title": "Tailgate window won't go up or down",
+    "diff": "2 / 5",
+    "time": "An hour or two to diagnose (estimate)",
+    "cost": "Often just cleaned connectors; a switch, channel felt or motor if those have failed",
+    "symptoms": "The power rear window in the tailgate won't move from the key switch or the dash switch, moves only sometimes, or got stuck down after electrical work.",
+    "fix": "The tailgate window has a safety switch that stops the glass moving when the tailgate is open, and on a K5 the motor drives the regulator through a cable. Work through the easy causes first, as GMSquareBody members did: open the tailgate's inner panel and clean the connectors, since corroded terminals inside the tailgate were the whole fault on one 1988 truck. Check the safety switch: with the window up, unplug it and jumper its two wires with heavy wire and spade terminals to see whether the switch is the problem (fix or replace it afterwards rather than leaving it bypassed). Clean the contacts at the tailgate key lock cylinder, which one 1988 K5 owner had to redo. If the glass binds, replace the disintegrated glass-run channel felt. If power reaches the motor and it still won't run, the motor is the problem; members note the OEM tailgate motors are weak and rust inside.",
+    "tools": "Trim panel tool · multimeter · contact cleaner · spade terminals and wire · glass-run channel",
+    "parts": [],
+    "know": [
+     "Make sure you've found the tailgate safety switch, not the dome light switch; one member jumpered the wrong one.",
+     "The Suburban uses a different direct-drive motor; K5 parts aren't the same."
+    ],
+    "mistakes": [
+     "Leaving the safety switch permanently bypassed; it's there to stop the glass moving with the tailgate open.",
+     "Forcing a binding window, which strains the cable and motor."
+    ],
+    "cost_note": "The source gives no prices.",
+    "refs": [
+     {
+      "name": "GMSquareBody: Power rear window, Suburban tailgate and Blazer troubleshooting",
+      "url": "https://www.gmsquarebody.com/goto/post?id=519326"
      }
     ]
    }

@@ -1799,8 +1799,14 @@ Tools: Jack stands · bushing press or vise · penetrating oil · torque wrench
 #### 6.2 diesel glow plugs and controller
 Difficulty 2 / 5 · time ≈ 2–3 hours · cost Parts only for DIY
 Symptoms: Hard cold starts, long cranking, white smoke until warm, or a wait light that misbehaves. On an M1009, a bad resistor pack or a mixed 12/24-volt conversion can cook new plugs.
-Fix: Test each glow plug's resistance and check that power reaches each one during the glow cycle. Replace failed plugs (or all eight) and the controller or relay if it isn't cycling. On M1009s, confirm whether the truck still has the 24-volt starting system and the firewall resistor pack before you buy plugs. The plugs are 12-volt even on CUCVs, and the resistor pack drops 24 volts to 12.
+Fix: Test each glow plug's resistance and check that power reaches each one during the glow cycle. Replace failed plugs (or all eight) and the controller or relay if it isn't cycling. On M1009s, confirm whether the truck still has the 24-volt starting system and the firewall resistor pack before you buy plugs. The plugs are 12-volt even on CUCVs, and the resistor pack drops 24 volts to 12. DieselHub's 6.2/6.5 diagnostics give the numbers: each plug should read 0.8–1.8 ohms from its terminal to engine ground, each ACDelco 60G should draw about 6–10 amps at the start of a cycle, and the whole system about 40–50 amps at the battery negative. Early 1982–84 6.2s use a separate relay with 8–10 second pre-glow; later trucks use a controller (4-pin on non-electronic engines). A chattering relay almost always means a bad controller.
 Tools: Multimeter · deep sockets and extensions · anti-seize
+
+#### Tailgate window won't go up or down
+Difficulty 2 / 5 · time An hour or two to diagnose (estimate) · cost Often just cleaned connectors; a switch, channel felt or motor if those have failed
+Symptoms: The power rear window in the tailgate won't move from the key switch or the dash switch, moves only sometimes, or got stuck down after electrical work.
+Fix: The tailgate window has a safety switch that stops the glass moving when the tailgate is open, and on a K5 the motor drives the regulator through a cable. Work through the easy causes first, as GMSquareBody members did: open the tailgate's inner panel and clean the connectors, since corroded terminals inside the tailgate were the whole fault on one 1988 truck. Check the safety switch: with the window up, unplug it and jumper its two wires with heavy wire and spade terminals to see whether the switch is the problem (fix or replace it afterwards rather than leaving it bypassed). Clean the contacts at the tailgate key lock cylinder, which one 1988 K5 owner had to redo. If the glass binds, replace the disintegrated glass-run channel felt. If power reaches the motor and it still won't run, the motor is the problem; members note the OEM tailgate motors are weak and rust inside.
+Tools: Trim panel tool · multimeter · contact cleaner · spade terminals and wire · glass-run channel
 
 ### Baseline service
 Assume nothing has been done. These trucks are 35 to 50 years old, and most have had several owners and swaps. Before you buy fluids, identify the engine, transmission, transfer case and axles, since they changed every few years. Pull the steering box and look at the frame while you're under there. Capacities vary by drivetrain, so check them in the factory manual.
@@ -25573,8 +25579,8 @@ Tools: Jack and stands · welder and grinder · drill · socket set
 
 #### Replace the transfer case shift sheet and seals
 Difficulty 2 / 5 · time ≈ 2–3 hours · cost $14 OEM sheet, $21 Delrin; seal kit $35–40
-Symptoms: Sloppy or stiff transfer case lever, trouble finding 4WD or low, a case that pops out of gear, and leaks at the output seals.
-Fix: Drain the case. Remove the shifter boot and the top cover, replace the worn plastic shift sheet, check the shift-rail springs and detents, then reseal the cover and output seals with the seal kit. Refill with gear oil (Trail Tough recommends non-synthetic 80W-90 GL-5 in its rebuilt cases) and check that 2H, 4H and 4L all engage.
+Symptoms: Sloppy or stiff transfer case lever, trouble finding 4WD or low, a case that gets stuck in neutral, and leaks at the output seals. Zukiworld explains why: the plastic sheet the shifter ball sits on breaks up, the ball settles and wobbles, and the lever loses the leverage it needs to move the shift forks far enough.
+Fix: Drain the case. Remove the shifter boot and the top cover, replace the worn plastic shift sheet, check the shift-rail springs and detents, then reseal the cover and output seals with the seal kit. Refill with gear oil (Trail Tough recommends non-synthetic 80W-90 GL-5 in its rebuilt cases) and check that 2H, 4H and 4L all engage. Zukiworld's editor did the sheet itself on a bench in minutes with hand tools, and says it can be done in the truck: pull the boot and shifter, pick every piece of the old sheet out with a dental pick, clean the housing with cleaner sprayed on a towel (not into the case, so debris and solvent don't fall in), then seat the new sheet over its locating pins and refit the shifter.
 Tools: Socket set · seal puller and driver · gasket scraper · fluid pump
 
 #### Rear wheel bearing and axle seal
