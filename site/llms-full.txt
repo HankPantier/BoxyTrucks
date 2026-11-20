@@ -16112,14 +16112,14 @@ The 150 uses a ladder frame (Toyota's F2 platform) with independent front suspen
 ### Common repairs
 #### Timing belt (1KD-FTV 3.0 diesel)
 Difficulty 3 / 5 · time Most of a day · cost Parts plus labor
-Symptoms: None until it fails. Unsealed 4X4 and Auto Buyers Guide both put the change at 150,000 km, so a 1KD truck without a receipt is due.
-Fix: Replace the belt with its tensioner and idlers to the factory procedure. Unsealed 4X4's warning: a fragile coolant return fitting on the radiator sits right in the way and can't be replaced on its own. Break it and you're buying a radiator, so protect it before you start. The 2.8 1GD-FTV uses a chain and has no belt interval.
+Symptoms: None until it fails. Toyota New Zealand's diesel schedule replaces the timing belt at 150,000 km or 10 years (its service D, with the coolant), and Unsealed 4X4 and Auto Buyers Guide give the same 150,000 km. A 1KD without a receipt is due.
+Fix: Replace the belt with its tensioner and idlers to the factory procedure. Unsealed 4X4's warning: a fragile coolant return fitting on the radiator sits right in the way and can't be replaced on its own. Break it and you're buying a radiator, so protect it before you start. The 2.8 1GD-FTV uses a chain and has no belt interval. Toyota New Zealand adds two conditions to the schedule: on unsealed or dusty roads, inspect the belt and pulleys every 30,000 km and clear dust out of the belt cover; with frequent off-road use, count engine hours as well as kilometres (the schedule equates 150 hours to 7,500 km) and change the belt by the equivalent of 150,000 km. Replace the coolant at the same time, since the schedule pairs them.
 Tools: Factory repair manual (Toyota TIS) · crank pulley holder · timing belt kit for 1KD-FTV
 
 #### 1KD injector service and seat washers
 Difficulty 4 / 5 · time A day · cost Parts plus labor. Much less than a cracked piston.
-Symptoms: Knocking, a noisy idle, black smoke, poor economy and crankcase pressure, according to Unsealed 4X4.
-Fix: Have the injectors tested (back-leak or flow) and replace them and their sealing washers if they're out of spec. Toyota's guidance, as reported by Unsealed 4X4, was to service the injectors around every 100,000 km and to avoid tuning the 1KD. Don't keep driving a truck that knocks, because a failed seat washer can lead to a cracked piston.
+Symptoms: A loud knock you can hear with the windows down, especially cold, plus poor fuel economy, an erratic or rough idle and rough running under load at low revs (Australian Car Reviews). Unsealed 4X4 adds black smoke and crankcase pressure.
+Fix: Have a diesel specialist test the injectors: a scan-tool feedback (balance) test and a total volume or back-leak test, which Australian Car Reviews recommends at each service. Replace injectors that are out of spec together with their copper seat washers and seals, clean the injector bores, and torque the clamps to the factory figure. Toyota's guidance, as reported by both sources, is injector service around every 100,000 km and no tuning. Australian Car Reviews says 1KD injectors commonly fail around 120,000 to 140,000 km, though some go at 75,000 km and others last to 250,000 km. A truck that keeps knocking can go on to crack a piston, so don't put this off.
 Tools: Diesel specialist for testing · injector puller · new injector washers and seals · torque wrench
 
 #### DPF regeneration problems (1GD-FTV)
@@ -16136,21 +16136,33 @@ Tools: Basic metric tools · carbon cleaner and scrapers · new intake and EGR g
 
 #### Dusted MAF on the 2.8
 Difficulty 1 / 5 · time 30 minutes · cost Air filter, MAF cleaner
-Symptoms: Sudden power loss and limp mode with a 'see your dealer' message after fine dust, per Unsealed 4X4.
-Fix: Fit a fresh filter and check that it seals all round the airbox. Clean the MAF sensor with spray cleaner (Unsealed 4X4 mentions blowing past it with compressed air). In bulldust country, change the filter well before the book interval.
+Symptoms: Sudden power loss and limp mode with a vague dash warning, and stability and traction control switched off, after driving in fine dust (Australian Car Reviews; Unsealed 4X4).
+Fix: Toyota issued a service bulletin in March 2017: fine dust can get past the air filter and cling electrostatically to the MAF sensor, which then gives invalid readings and sends the 2.8 into limp-home mode. Australian Car Reviews says the bulletin describes a two-minute compressed-air clean of the sensor. Pull the MAF from the intake, blow it clean from a distance without touching the element, and refit. Then fit a fresh filter and check it seals all the way round the airbox; Unsealed 4X4 blames the filter seal for letting the dust past. In dusty conditions change or clean the filter far more often than the book says.
 Tools: Screwdriver · MAF sensor cleaner · new air filter
 
 #### Early brake booster and master cylinder (pre-2012)
 Difficulty 3 / 5 · time Half a day · cost Parts plus labor
-Symptoms: A spongy or very hard pedal with a hissing booster.
-Fix: Unsealed 4X4 says the common fix is to swap both the booster and master cylinder for the revised parts from a later Prado, then bleed the brakes.
+Symptoms: A spongy pedal or an unusually hard one, with a hiss from the booster when you brake. Unsealed 4X4 pins it on pre-2012 trucks.
+Fix: Unsealed 4X4 says Toyota upgraded the booster and master cylinder later in the run, and the usual fix is to fit both later-model parts together, then bleed the whole system. Check first that the hiss isn't a split vacuum hose or a tired vacuum pump on the diesel: Toyota New Zealand's schedule recommends replacing the brake booster vacuum pump at 195,000 km on Euro 5 Prados. Confirm the later part numbers for your VIN with a Toyota parts counter before ordering.
 Tools: Flare-nut wrenches · brake bleeding kit · DOT fluid
 
 #### Suspension bushes, shocks and rear air springs
 Difficulty 2 / 5 · time Half a day · cost Parts plus labor
 Symptoms: Clunks, a jiggly ride, uneven rebound, or a harsh rear end on air-sprung Kakadus.
-Fix: Replace worn shock and lower control-arm bushes. Tighten suspension bolts with the truck at ride height on its wheels, not hanging on a two-post hoist, which Unsealed 4X4 says is a common cause of early bush failure. Replace leaking rear air springs or convert the rear to coils.
+Fix: Replace worn shock and lower control-arm bushes. Tighten suspension bolts with the truck at ride height on its wheels, not hanging on a two-post hoist, which Unsealed 4X4 says is a common cause of early bush failure. Replace leaking rear air springs or convert the rear to coils. Unsealed 4X4 has seen lower shock and lower control-arm bushes wear out within 20,000 km of new shocks going in, usually because they were tightened with the truck hanging. Fit harder aftermarket bushes for hard off-road use, or softer ones for comfort, and treat the optional rear air springs as consumables.
 Tools: Floor jack and stands · metric sockets · torque wrench
+
+#### 1KD cracked piston diagnosis (2009–2015 3.0 diesel)
+Difficulty 5 / 5 · time Engine out or head off for the repair; an hour for diagnosis · cost Diagnosis is cheap; a cracked piston means an engine rebuild or replacement
+Symptoms: A sudden, strong knock, black smoke, power loss, running on three cylinders and heavy crankcase pressure (oil mist or blow-by from the oil filler or breather), per Australian Car Reviews. It's most common between 100,000 and 150,000 km.
+Fix: Toyota acknowledged the problem in Technical Service Bulletin EG-008T-0112 (September 2014). Australian Car Reviews traces it to a piston design change for the Euro IV 1KD; the earlier engines had a fibre-reinforced crown and didn't crack. If a 1KD starts knocking, stop driving it hard and get a diesel specialist to run injector balance and back-leak tests, a compression or cylinder leak-down test, and a crankcase pressure check. A failing injector or seat washer caught early is an injector job; a cracked piston shows as low compression and heavy blow-by on one cylinder, and the fix is pistons or an engine. Revised pistons and injectors came in from engine number 2361817 (January 2014), but Australian Car Reviews says revised engines can still crack, just less often.
+Tools: Diesel specialist with injector test gear · compression or leak-down tester · scan tool
+
+#### Front CV boot replacement (split boot kit or axle out)
+Difficulty 2 / 5 (split boot) · 3 / 5 (axle out) · time 1–3 hours per side (estimate) · cost A boot kit and grease, or a new CV axle if the joint is already noisy
+Symptoms: Grease flung around the inside of the front wheel or under the truck, and clicking from the front when turning, per Australian Car Reviews. A split boot lets in dirt and water, and the joint wears fast after that.
+Fix: The Prado 150 has four front CV joints, two inboard and two outboard. A normal boot replacement means removing the front driveshaft, cleaning out the old grease, fitting the new boot and repacking the joint with the grease supplied. Australian Car Reviews notes that Toyota sells a split boot kit that goes on without removing the driveshaft, which is the quicker roadside-style fix. If the joint already clicks, the boot alone won't save it; replace the axle.
+Tools: Floor jack and stands · sockets · boot clamp pliers · CV grease · split boot kit or new boots
 
 ### Baseline service
 Toyota Australia's owner's-manual site was offline while we researched this, so the fluid specs below come from Toyota Japan's own owner's manuals for the Japanese-market 150 (the 2011 petrol edition and the 2020 1GD-FTV edition), plus Penrite's lookup for Australian trucks. Japan never got the 1KD-FTV, and other markets can specify different grades, so check your own manual. The jobs that matter on a 150 depend on the engine: the 1KD-FTV needs its timing belt and injectors looked after, and the 1GD-FTV needs its DPF and intake kept healthy.
@@ -18946,7 +18958,7 @@ Fix: Drain the coolant, protect the radiator with cardboard and remove the fan, 
 Tools: ¾-in breaker bar · crank-pulley holder and puller · seal puller · thread locker · FIPG · drain pan · FSM
 
 #### Starter (or starter contacts) replacement
-Difficulty 4 / 5 · time Big job: the intake manifold has to come off · cost Parts plus labor (contacts kit or reman starter)
+Difficulty 4 / 5 · time About 4–6 hours the first time, 3 or less on a repeat (IH8MUD owners) · cost One owner was quoted $300 for the starter and $700 to install at a Toyota dealer; an independent quoted $168 for contacts
 Symptoms: Clicking or no-crank conditions that come and go and get worse until it won't start.
 Fix: The 2UZ's starter lives in the engine's V, under the intake manifold. Disconnect the battery, then remove the intake plumbing and intake manifold, with rags stuffed in the ports so nothing drops into the engine. Unbolt the starter and either rebuild the contacts and plunger or fit a new or reman unit. Owners often do this at the timing-belt halfway point, when the water pump and thermostat housing are out, because access is better.
 Tools: Long extensions · magnetic pickup · 22 mm wrench (fuel line) · new intake gaskets · rags
@@ -18958,16 +18970,28 @@ Fix: Blow out the plug wells before loosening anything. Remove the coils, check 
 Tools: Spark plug socket · extensions · torque wrench (in-lb and ft-lb) · compressed air · plugs · coil boots
 
 #### Exhaust manifold replacement
-Difficulty 4 / 5 · time Same-day job at a specialist shop · cost Parts plus labor (high, because the engine mounts must come out)
+Difficulty 4 / 5 · time About 5–6 hours per side (one owner), including loosening the motor and transmission mounts · cost One owner paid about $250 for an OEM manifold, gasket and hardware
 Symptoms: A tick from the engine bay that's loudest cold and fades as the manifold heats and expands.
-Fix: CarSpec found the crack where the flange is welded to the first pipe of the manifold. The fix is a new manifold assembly. The engine mounts have to be released and the engine raised to reach the lower studs, and rusted fasteners are the main fight. Rule out loose spark plugs first.
+Fix: CarSpec found the crack where the flange is welded to the first pipe of the manifold. The fix is a new manifold assembly. The engine mounts have to be released and the engine raised to reach the lower studs, and rusted fasteners are the main fight. Rule out loose spark plugs first. An IH8MUD poll of 2UZ owners found about half had a cracked manifold, most often around 150,000 to 200,000 miles, and the driver's side comes up most. Have new studs and nuts ready before you start; on one owner's job seven of the eight studs came out with the nuts. Some owners fit aftermarket headers (JBA was mentioned) instead of OEM.
 Tools: Penetrating oil · stud extractor · engine support or jack · new gaskets and studs
 
 #### Steering rack replacement
 Difficulty 4 / 5 · time A full day, with a friend · cost About $530 for a new OEM rack bought through a friend in 2013 (retail $700+), plus coolant, oil, power-steering fluid and an alignment
 Symptoms: Power-steering fluid leaking from the rack boots, play in the steering or a heavy feel.
-Fix: In the IH8MUD write-up, the oil filter housing comes off first to make room. It has coolant lines, so be ready to catch about half a quart of oil and half a gallon of coolant. Then unbolt the column coupler, both hard lines and the rack mounts, spin the rack off the tie-rod ends and work it out through the frame. Install the new rack centered, reconnect everything, refill and bleed, and get an alignment.
+Fix: In the IH8MUD write-up, the oil filter housing comes off first to make room. It has coolant lines, so be ready to catch about half a quart of oil and half a gallon of coolant. Then unbolt the column coupler, both hard lines and the rack mounts, spin the rack off the tie-rod ends and work it out through the frame. Install the new rack centered, reconnect everything, refill and bleed, and get an alignment. Alternatives to pulling the oil filter housing: unbolt the driver's side engine mount and raise the engine about an inch, and the rack slides out with the housing in place. Before installing, measure the boot-to-end length on both sides so the rack is centered, then set toe close to zero to drive to the alignment shop.
 Tools: Long extensions · universal joints · 17 mm line wrench · metric sockets · new oil-filter-housing gasket · rack bushings
+
+#### Brake booster pump and accumulator failure (ABS, VSC and brake lights with a buzzer)
+Difficulty 3 / 5 · time A few hours plus a full brake flush (estimate) · cost One owner's 2019-ish bill for a genuine pump assembly with an independent install: $1,480 all in
+Symptoms: Warning signs before failure: the booster pump runs for a long time on the first key-on, cycles more often than it used to, or starts making a noise. Failure itself is sudden: a steady buzzer, ABS, TRAC and brake lights together, and a pedal that goes most of the way to the floor with little braking. IH8MUD owners report it on LX 470s from about 230,000 to 285,000 miles.
+Fix: The LX 470 and 100 Series Land Cruiser use a hydraulic brake booster with an electric pump and accumulator instead of a vacuum booster. Do the run-time test that IH8MUD member 2001LC describes: top up the brake fluid, then time the pump on the first key-on of the day. Over about 40 seconds suggests a leak or air in the system. If it's failing, the options owners have used are the booster pump assembly alone (pump, accumulator and wiring; one owner paid $1,004 list for the part at a Lexus dealer), or a complete remanufactured booster and master cylinder assembly, which another owner says saved him about $4,000 over the dealer. Also check the pump's control wiring connector for corrosion, which was the whole fault on one member's truck. After the repair, flush the fluid thoroughly; one owner flushes, cycles the ABS a few times on a dirt surface, then flushes again.
+Tools: Stopwatch · flare-nut wrenches · brake bleeding kit and plenty of fresh DOT 3 fluid · scan tool for ABS codes · factory repair manual
+
+#### Replace the plastic heater hose tees
+Difficulty 2 / 5 · time An hour or two with the right pliers (estimate) · cost About $14 each for OEM plastic tees (one owner's figure), more for brass
+Symptoms: Usually none. IH8MUD owners report tees that looked fine with no leaks and then snapped as soon as the hose was moved, or crumbled when removed. When one breaks on the road you lose coolant fast, which risks overheating the 2UZ.
+Fix: The heater hoses that feed the rear heater are joined by plastic tees that sit in the heat and vibration of the engine bay. Drain enough coolant to drop the level below them, release the spring clamps (cable-operated hose clamp pliers make this much easier), and replace each tee. Options from the IH8MUD thread: new OEM plastic tees (87248-60460), or brass tees sold for this application by Cruiser Patch or made by Denso. Some owners delete the rear heater entirely with straight hoses. Refill and bleed the cooling system with Toyota pink coolant and check for leaks once it's warm.
+Tools: Cable-type hose clamp pliers · drain pan · Toyota Super Long Life coolant · replacement tees and clamps
 
 ### Baseline service
 Most LX 470s on the market are past at least one 90k service interval, so verify or do the timing belt first. Then flush the AHC fluid, which most owners have never done, and baseline every gear oil. Slee notes the major specs changed in 2003–2004 (five-speed, WS fluid, long-life coolant), so check which side of the line your truck falls on.

@@ -296,5 +296,115 @@
    "name": "Toyota Land Cruiser Association",
    "url": "https://tlca.org/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Lexus LX 470 maintenance schedule from Lexus's 2007 guide: oil every 5,000 mi, AHC fluid at 60,000 and 120,000, timing belt at 90,000, coolant at 100,000, plugs at 120,000, plus towing and off-road items.",
+  "intro": "Lexus published the LX 470's schedule in its 2007 Warranty and Services Guide, shared with the GX 470 and RX 350. It's built around a 5,000-mile / 6-month oil service, with the big items at 60,000 (AHC fluid), 90,000 (timing belt), 100,000 (coolant) and 120,000 miles (plugs, AHC fluid again). Every LX 470 is now at least 19 years old, so the age items below matter as much as the mileage.",
+  "schedule_note": "From the Lexus 2007 scheduled maintenance guide (LX 470 items). Lexus repeats the 5,000-mile service between the rows shown. Check your own book for earlier model years.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Replace engine oil and filter",
+     "Rotate tires",
+     "Clean the cabin (air conditioner) filter",
+     "Inspect brake pads and rotors"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Replace the cabin filter",
+     "Lubricate the drive shafts and re-torque their nuts and bolts",
+     "Inspect axle boots, ball joints, brake lines, coolant and exhaust"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the engine air filter and brake fluid",
+     "Repack the front wheel bearings and grease the axle shaft bushings",
+     "Inspect the Active Height Control (AHC) system, front diff oil, rack and pinion, steering linkage, fuel lines and the transmission for leaks",
+     "Measure brake pad thickness and rotor runout"
+    ]
+   },
+   {
+    "at": "60,000 mi / 72 months",
+    "items": [
+     "Replace the AHC fluid",
+     "Inspect drive belts and valve clearance",
+     "Everything in the 30,000-mile service"
+    ]
+   },
+   {
+    "at": "90,000 mi / 108 months",
+    "items": [
+     "Replace the timing belt",
+     "Inspect the AHC system and drive belt",
+     "Everything in the 30,000-mile service"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months",
+    "items": [
+     "First engine coolant replacement (then every 50,000 mi / 60 months)"
+    ]
+   },
+   {
+    "at": "120,000 mi / 144 months",
+    "items": [
+     "Replace spark plugs",
+     "Replace the AHC fluid again",
+     "Inspect valve clearance and drive belt",
+     "Everything in the 30,000-mile service"
+    ]
+   }
+  ],
+  "severe": "Off-road or dusty use: Lexus adds inspection of the axle boots, ball joints, air filter and steering linkage at every 5,000-mile service, plus lubricating the drive shafts and tightening chassis nuts and bolts. Towing: replace the front differential oil every 15,000 miles, front and rear diff and transfer case oil every 30,000, and transmission fluid at 60,000 and 120,000 miles.",
+  "age_items": [
+   {
+    "item": "Brake booster pump and accumulator",
+    "when": "Time the pump's run on the first key-on at every service",
+    "why": "Over about 40 seconds suggests a leak or air (IH8MUD); failure brings a buzzer, warning lights and a low pedal."
+   },
+   {
+    "item": "Heater hose tees",
+    "when": "At purchase if they're still the original plastic, or with the timing belt",
+    "why": "They crack with age and can snap without warning."
+   },
+   {
+    "item": "Starter contacts",
+    "when": "With the timing belt or any intake-off job",
+    "why": "The starter sits under the intake manifold, so doing it while the intake is off saves hours."
+   },
+   {
+    "item": "Exhaust manifolds",
+    "when": "Listen for a cold-start tick",
+    "why": "An IH8MUD poll found about half of 2UZ owners had a crack, mostly around 150,000–200,000 miles."
+   },
+   {
+    "item": "Spark plug tightness",
+    "when": "At every timing-belt service",
+    "why": "Loose plugs can mimic a manifold tick."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lexus 2007 scheduled maintenance guide (GX 470, LX 470, RX 350)",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/07LexMS_MS0008f/pdf/07LexMS_MS0008f.pdf"
+   },
+   {
+    "name": "IH8MUD: Poll on total brake failure in 100 series",
+    "url": "https://forum.ih8mud.com/threads/poll-on-total-brake-failure-in-100-series.872498/page-26"
+   },
+   {
+    "name": "IH8MUD: PSA, replace those heater tees",
+    "url": "https://forum.ih8mud.com/threads/psa-replace-those-heater-tees.1364155/"
+   },
+   {
+    "name": "IH8MUD: Poll on total cracked headers for the 2UZ-FE",
+    "url": "https://forum.ih8mud.com/threads/poll-on-total-cracked-headers-for-the-2uzfe.1356106"
+   }
+  ]
+ }
 }

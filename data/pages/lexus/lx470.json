@@ -233,8 +233,8 @@
   {
    "title": "Starter (or starter contacts) replacement",
    "diff": "4 / 5",
-   "time": "Big job: the intake manifold has to come off",
-   "cost": "Parts plus labor (contacts kit or reman starter)",
+   "time": "About 4–6 hours the first time, 3 or less on a repeat (IH8MUD owners)",
+   "cost": "One owner was quoted $300 for the starter and $700 to install at a Toyota dealer; an independent quoted $168 for contacts",
    "symptoms": "Clicking or no-crank conditions that come and go and get worse until it won't start.",
    "fix": "The 2UZ's starter lives in the engine's V, under the intake manifold. Disconnect the battery, then remove the intake plumbing and intake manifold, with rags stuffed in the ports so nothing drops into the engine. Unbolt the starter and either rebuild the contacts and plunger or fit a new or reman unit. Owners often do this at the timing-belt halfway point, when the water pump and thermostat housing are out, because access is better.",
    "tools": "Long extensions · magnetic pickup · 22 mm wrench (fuel line) · new intake gaskets · rags",
@@ -253,6 +253,22 @@
      "name": "Intake gaskets and starter parts (search)",
      "supplier": "Cruiser Corps",
      "url": "https://cruisercorps.com/search?q=starter"
+    }
+   ],
+   "know": [
+    "Ordering a complete starter rather than just contacts means you only pull the intake once, one IH8MUD member advises.",
+    "If you only do contacts, replace the plunger too.",
+    "The starter bolts are on the transmission side of the block, behind a wiring harness."
+   ],
+   "mistakes": [
+    "Breaking the fuel injector connector clips; there are four per side and they're brittle.",
+    "Doing it alone: owners recommend a helper to lift the intake manifold out.",
+    "Reusing old intake gaskets; one owner replaced them as insurance (no sealer needed)."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Procedure for replacing 100 series starter contacts",
+     "url": "https://forum.ih8mud.com/threads/procedure-for-replacing-100-series-98-and-up-starter-contacts.9117/page-3"
     }
    ]
   },
@@ -285,10 +301,10 @@
   {
    "title": "Exhaust manifold replacement",
    "diff": "4 / 5",
-   "time": "Same-day job at a specialist shop",
-   "cost": "Parts plus labor (high, because the engine mounts must come out)",
+   "time": "About 5–6 hours per side (one owner), including loosening the motor and transmission mounts",
+   "cost": "One owner paid about $250 for an OEM manifold, gasket and hardware",
    "symptoms": "A tick from the engine bay that's loudest cold and fades as the manifold heats and expands.",
-   "fix": "CarSpec found the crack where the flange is welded to the first pipe of the manifold. The fix is a new manifold assembly. The engine mounts have to be released and the engine raised to reach the lower studs, and rusted fasteners are the main fight. Rule out loose spark plugs first.",
+   "fix": "CarSpec found the crack where the flange is welded to the first pipe of the manifold. The fix is a new manifold assembly. The engine mounts have to be released and the engine raised to reach the lower studs, and rusted fasteners are the main fight. Rule out loose spark plugs first. An IH8MUD poll of 2UZ owners found about half had a cracked manifold, most often around 150,000 to 200,000 miles, and the driver's side comes up most. Have new studs and nuts ready before you start; on one owner's job seven of the eight studs came out with the nuts. Some owners fit aftermarket headers (JBA was mentioned) instead of OEM.",
    "tools": "Penetrating oil · stud extractor · engine support or jack · new gaskets and studs",
    "parts": [
     {
@@ -301,6 +317,24 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/lexus,2005,lx470"
     }
+   ],
+   "know": [
+    "Driver's side is the usual crack, but passenger-side cracks happen too.",
+    "A seized stud can sometimes be saved by working it in and out (one owner needed about 20 cycles)."
+   ],
+   "mistakes": [
+    "Starting without spare studs.",
+    "Forcing a binding stud; work it back and forth instead."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Poll on total cracked headers for the 2UZ-FE",
+     "url": "https://forum.ih8mud.com/threads/poll-on-total-cracked-headers-for-the-2uzfe.1356106"
+    },
+    {
+     "name": "CarSpec: engine ticking / exhaust manifold leak",
+     "url": "https://carspecmn.com/toyota-sequoia-tundra-4runner-and-land-cruiser-lexus-gx470-and-lx470-engine-tickingexhaust-manifold-leak/"
+    }
    ]
   },
   {
@@ -309,7 +343,7 @@
    "time": "A full day, with a friend",
    "cost": "About $530 for a new OEM rack bought through a friend in 2013 (retail $700+), plus coolant, oil, power-steering fluid and an alignment",
    "symptoms": "Power-steering fluid leaking from the rack boots, play in the steering or a heavy feel.",
-   "fix": "In the IH8MUD write-up, the oil filter housing comes off first to make room. It has coolant lines, so be ready to catch about half a quart of oil and half a gallon of coolant. Then unbolt the column coupler, both hard lines and the rack mounts, spin the rack off the tie-rod ends and work it out through the frame. Install the new rack centered, reconnect everything, refill and bleed, and get an alignment.",
+   "fix": "In the IH8MUD write-up, the oil filter housing comes off first to make room. It has coolant lines, so be ready to catch about half a quart of oil and half a gallon of coolant. Then unbolt the column coupler, both hard lines and the rack mounts, spin the rack off the tie-rod ends and work it out through the frame. Install the new rack centered, reconnect everything, refill and bleed, and get an alignment. Alternatives to pulling the oil filter housing: unbolt the driver's side engine mount and raise the engine about an inch, and the rack slides out with the housing in place. Before installing, measure the boot-to-end length on both sides so the rack is centered, then set toe close to zero to drive to the alignment shop.",
    "tools": "Long extensions · universal joints · 17 mm line wrench · metric sockets · new oil-filter-housing gasket · rack bushings",
    "parts": [
     {
@@ -331,6 +365,80 @@
      "name": "Steering rack inner boot clamp (ST62006)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/steering-rack-inner-boot-clamp-fits-100-series-lx470-applications-st62006/"
+    }
+   ],
+   "know": [
+    "Supplies for the job per the write-up: a gallon of coolant, half a quart of oil and two quarts of power-steering fluid.",
+    "Rebuilders such as CVJ Axles in Denver offered pressure-tested reman racks in the thread.",
+    "A reman rack from a hard-used, lifted truck may wear out early, one member warns."
+   ],
+   "mistakes": [
+    "Pinching the oil filter housing gasket on reassembly; the original poster's leaked after 450 miles.",
+    "A rusted column pinch bolt; soak it and have heat ready.",
+    "Letting the shop set positive camber; the writer asked for zero."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: How to replace your own steering rack",
+     "url": "https://forum.ih8mud.com/threads/how-to-replace-your-own-steering-rack.560104/"
+    }
+   ]
+  },
+  {
+   "title": "Brake booster pump and accumulator failure (ABS, VSC and brake lights with a buzzer)",
+   "diff": "3 / 5",
+   "time": "A few hours plus a full brake flush (estimate)",
+   "cost": "One owner's 2019-ish bill for a genuine pump assembly with an independent install: $1,480 all in",
+   "symptoms": "Warning signs before failure: the booster pump runs for a long time on the first key-on, cycles more often than it used to, or starts making a noise. Failure itself is sudden: a steady buzzer, ABS, TRAC and brake lights together, and a pedal that goes most of the way to the floor with little braking. IH8MUD owners report it on LX 470s from about 230,000 to 285,000 miles.",
+   "fix": "The LX 470 and 100 Series Land Cruiser use a hydraulic brake booster with an electric pump and accumulator instead of a vacuum booster. Do the run-time test that IH8MUD member 2001LC describes: top up the brake fluid, then time the pump on the first key-on of the day. Over about 40 seconds suggests a leak or air in the system. If it's failing, the options owners have used are the booster pump assembly alone (pump, accumulator and wiring; one owner paid $1,004 list for the part at a Lexus dealer), or a complete remanufactured booster and master cylinder assembly, which another owner says saved him about $4,000 over the dealer. Also check the pump's control wiring connector for corrosion, which was the whole fault on one member's truck. After the repair, flush the fluid thoroughly; one owner flushes, cycles the ABS a few times on a dirt surface, then flushes again.",
+   "tools": "Stopwatch · flare-nut wrenches · brake bleeding kit and plenty of fresh DOT 3 fluid · scan tool for ABS codes · factory repair manual",
+   "parts": [],
+   "know": [
+    "Most failures give some warning first: long pump run times, frequent cycling or noise.",
+    "2001LC says the master cylinder usually can't be rebuilt, but a plunger kit adds about $50 and 30 minutes.",
+    "Treat this as a safety item. If the buzzer and lights come on together, stop driving."
+   ],
+   "mistakes": [
+    "Overfilling the reservoir after the swap, which one shop did.",
+    "Using too little fluid on the flush; 2001LC says a proper flush takes far more than a single bottle.",
+    "Over-torquing old bleeders; 2001LC notes the factory spec is low (8 lb-ft)."
+   ],
+   "cost_note": "The $1,480 total was one owner's dealer list price for the pump ($1,004), expedited shipping, fluid, a $225 independent install and tax, plus $102 for the tow.",
+   "refs": [
+    {
+     "name": "IH8MUD: Poll on total brake failure in 100 series",
+     "url": "https://forum.ih8mud.com/threads/poll-on-total-brake-failure-in-100-series.872498/page-26"
+    }
+   ]
+  },
+  {
+   "title": "Replace the plastic heater hose tees",
+   "diff": "2 / 5",
+   "time": "An hour or two with the right pliers (estimate)",
+   "cost": "About $14 each for OEM plastic tees (one owner's figure), more for brass",
+   "symptoms": "Usually none. IH8MUD owners report tees that looked fine with no leaks and then snapped as soon as the hose was moved, or crumbled when removed. When one breaks on the road you lose coolant fast, which risks overheating the 2UZ.",
+   "fix": "The heater hoses that feed the rear heater are joined by plastic tees that sit in the heat and vibration of the engine bay. Drain enough coolant to drop the level below them, release the spring clamps (cable-operated hose clamp pliers make this much easier), and replace each tee. Options from the IH8MUD thread: new OEM plastic tees (87248-60460), or brass tees sold for this application by Cruiser Patch or made by Denso. Some owners delete the rear heater entirely with straight hoses. Refill and bleed the cooling system with Toyota pink coolant and check for leaks once it's warm.",
+   "tools": "Cable-type hose clamp pliers · drain pan · Toyota Super Long Life coolant · replacement tees and clamps",
+   "parts": [
+    {
+     "name": "Heater hose tee 87248-60460",
+     "supplier": "Lexus Genuine Parts",
+     "url": "https://parts.lexus.com/search?search_str=87248-60460"
+    }
+   ],
+   "know": [
+    "Failures are reported at very different ages; one owner replaced his at 46,000 miles, others found them brittle and brown at 142,000.",
+    "It's a common add-on to the timing belt job, since the coolant is out anyway."
+   ],
+   "mistakes": [
+    "Buying cheap aftermarket tees. One experienced IH8MUD member's advice: 'Don't buy the aftermarket tees. Just. Don't.'",
+    "Using hardware-store brass tees; the side branch is a smaller size that doesn't match US plumbing fittings."
+   ],
+   "cost_note": "Owners quote about $14 per OEM plastic tee or about $25 for a pair; no brass price is given in the source.",
+   "refs": [
+    {
+     "name": "IH8MUD: PSA, replace those heater tees",
+     "url": "https://forum.ih8mud.com/threads/psa-replace-those-heater-tees.1364155/"
     }
    ]
   }

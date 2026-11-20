@@ -173,14 +173,33 @@
    "diff": "3 / 5",
    "time": "Most of a day",
    "cost": "Parts plus labor",
-   "symptoms": "None until it fails. Unsealed 4X4 and Auto Buyers Guide both put the change at 150,000 km, so a 1KD truck without a receipt is due.",
-   "fix": "Replace the belt with its tensioner and idlers to the factory procedure. Unsealed 4X4's warning: a fragile coolant return fitting on the radiator sits right in the way and can't be replaced on its own. Break it and you're buying a radiator, so protect it before you start. The 2.8 1GD-FTV uses a chain and has no belt interval.",
+   "symptoms": "None until it fails. Toyota New Zealand's diesel schedule replaces the timing belt at 150,000 km or 10 years (its service D, with the coolant), and Unsealed 4X4 and Auto Buyers Guide give the same 150,000 km. A 1KD without a receipt is due.",
+   "fix": "Replace the belt with its tensioner and idlers to the factory procedure. Unsealed 4X4's warning: a fragile coolant return fitting on the radiator sits right in the way and can't be replaced on its own. Break it and you're buying a radiator, so protect it before you start. The 2.8 1GD-FTV uses a chain and has no belt interval. Toyota New Zealand adds two conditions to the schedule: on unsealed or dusty roads, inspect the belt and pulleys every 30,000 km and clear dust out of the belt cover; with frequent off-road use, count engine hours as well as kilometres (the schedule equates 150 hours to 7,500 km) and change the belt by the equivalent of 150,000 km. Replace the coolant at the same time, since the schedule pairs them.",
    "tools": "Factory repair manual (Toyota TIS) · crank pulley holder · timing belt kit for 1KD-FTV",
    "parts": [
     {
      "name": "150 Series / GX460 parts catalogue (check 1KD-FTV fitment)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/150-series/"
+    }
+   ],
+   "know": [
+    "Toyota NZ's schedule pairs the belt with the first coolant change (then coolant every 75,000 km).",
+    "The 2.8 1GD-FTV (2015 on) uses a timing chain, so this job only applies to the 3.0 1KD.",
+    "Dusty-road trucks need the belt cover checked every 30,000 km under Toyota NZ's severe schedule."
+   ],
+   "mistakes": [
+    "Snapping the radiator's coolant return fitting, which Unsealed 4X4 says can't be bought separately.",
+    "Going by kilometres alone on a truck that idles or crawls off-road a lot."
+   ],
+   "refs": [
+    {
+     "name": "Toyota New Zealand diesel service schedule",
+     "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
+    },
+    {
+     "name": "Unsealed 4X4: Toyota Prado 150 problems",
+     "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
     }
    ]
   },
@@ -189,14 +208,34 @@
    "diff": "4 / 5",
    "time": "A day",
    "cost": "Parts plus labor. Much less than a cracked piston.",
-   "symptoms": "Knocking, a noisy idle, black smoke, poor economy and crankcase pressure, according to Unsealed 4X4.",
-   "fix": "Have the injectors tested (back-leak or flow) and replace them and their sealing washers if they're out of spec. Toyota's guidance, as reported by Unsealed 4X4, was to service the injectors around every 100,000 km and to avoid tuning the 1KD. Don't keep driving a truck that knocks, because a failed seat washer can lead to a cracked piston.",
+   "symptoms": "A loud knock you can hear with the windows down, especially cold, plus poor fuel economy, an erratic or rough idle and rough running under load at low revs (Australian Car Reviews). Unsealed 4X4 adds black smoke and crankcase pressure.",
+   "fix": "Have a diesel specialist test the injectors: a scan-tool feedback (balance) test and a total volume or back-leak test, which Australian Car Reviews recommends at each service. Replace injectors that are out of spec together with their copper seat washers and seals, clean the injector bores, and torque the clamps to the factory figure. Toyota's guidance, as reported by both sources, is injector service around every 100,000 km and no tuning. Australian Car Reviews says 1KD injectors commonly fail around 120,000 to 140,000 km, though some go at 75,000 km and others last to 250,000 km. A truck that keeps knocking can go on to crack a piston, so don't put this off.",
    "tools": "Diesel specialist for testing · injector puller · new injector washers and seals · torque wrench",
    "parts": [
     {
      "name": "150 Series / GX460 parts catalogue (engine components)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/150-series/"
+    }
+   ],
+   "know": [
+    "The 1KD runs 30 to 160 MPa of rail pressure with several injections per stroke, which is why tolerances and fuel quality matter (Australian Car Reviews).",
+    "Revised injectors and pistons arrived from engine number 2361817 (January 2014).",
+    "See the cracked piston guide if the knock is sudden and comes with smoke and blow-by."
+   ],
+   "mistakes": [
+    "Reusing seat washers. They're the part that leaks.",
+    "Skipping the bore clean; carbon under a new washer stops it sealing.",
+    "Fitting injectors without coding them to the ECU where the procedure calls for it; follow the factory manual."
+   ],
+   "refs": [
+    {
+     "name": "Australian Car Reviews: Prado 150 problems and recalls",
+     "url": "https://www.australiancar.reviews/?p=47886"
+    },
+    {
+     "name": "Unsealed 4X4: Toyota Prado 150 problems",
+     "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
     }
    ]
   },
@@ -270,14 +309,37 @@
    "diff": "1 / 5",
    "time": "30 minutes",
    "cost": "Air filter, MAF cleaner",
-   "symptoms": "Sudden power loss and limp mode with a 'see your dealer' message after fine dust, per Unsealed 4X4.",
-   "fix": "Fit a fresh filter and check that it seals all round the airbox. Clean the MAF sensor with spray cleaner (Unsealed 4X4 mentions blowing past it with compressed air). In bulldust country, change the filter well before the book interval.",
+   "symptoms": "Sudden power loss and limp mode with a vague dash warning, and stability and traction control switched off, after driving in fine dust (Australian Car Reviews; Unsealed 4X4).",
+   "fix": "Toyota issued a service bulletin in March 2017: fine dust can get past the air filter and cling electrostatically to the MAF sensor, which then gives invalid readings and sends the 2.8 into limp-home mode. Australian Car Reviews says the bulletin describes a two-minute compressed-air clean of the sensor. Pull the MAF from the intake, blow it clean from a distance without touching the element, and refit. Then fit a fresh filter and check it seals all the way round the airbox; Unsealed 4X4 blames the filter seal for letting the dust past. In dusty conditions change or clean the filter far more often than the book says.",
    "tools": "Screwdriver · MAF sensor cleaner · new air filter",
    "parts": [
     {
      "name": "150 Series / GX460 parts catalogue (air filters)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/150-series/"
+    }
+   ],
+   "know": [
+    "Unsealed 4X4 mentions some mechanics smearing grease on the filter seal; it doesn't confirm that works.",
+    "Toyota NZ's severe schedule halves the air filter inspection interval on unsealed or dusty roads.",
+    "Limp mode from a dusty MAF also disables stability and traction control, so it's a safety problem on gravel."
+   ],
+   "mistakes": [
+    "Touching the MAF element or spraying carb cleaner on it; use compressed air or a MAF-safe cleaner only.",
+    "Refitting a filter that's been knocked out of place in its seat."
+   ],
+   "refs": [
+    {
+     "name": "Australian Car Reviews: Prado 150 problems and recalls",
+     "url": "https://www.australiancar.reviews/?p=47886"
+    },
+    {
+     "name": "Unsealed 4X4: Toyota Prado 150 problems",
+     "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+    },
+    {
+     "name": "Toyota New Zealand diesel service schedule",
+     "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
     }
    ]
   },
@@ -286,14 +348,32 @@
    "diff": "3 / 5",
    "time": "Half a day",
    "cost": "Parts plus labor",
-   "symptoms": "A spongy or very hard pedal with a hissing booster.",
-   "fix": "Unsealed 4X4 says the common fix is to swap both the booster and master cylinder for the revised parts from a later Prado, then bleed the brakes.",
+   "symptoms": "A spongy pedal or an unusually hard one, with a hiss from the booster when you brake. Unsealed 4X4 pins it on pre-2012 trucks.",
+   "fix": "Unsealed 4X4 says Toyota upgraded the booster and master cylinder later in the run, and the usual fix is to fit both later-model parts together, then bleed the whole system. Check first that the hiss isn't a split vacuum hose or a tired vacuum pump on the diesel: Toyota New Zealand's schedule recommends replacing the brake booster vacuum pump at 195,000 km on Euro 5 Prados. Confirm the later part numbers for your VIN with a Toyota parts counter before ordering.",
    "tools": "Flare-nut wrenches · brake bleeding kit · DOT fluid",
    "parts": [
     {
      "name": "150 Series / GX460 parts catalogue (brakes)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/150-series/"
+    }
+   ],
+   "know": [
+    "Toyota NZ's schedule replaces brake fluid every 30,000 km / 2 years (its service B).",
+    "A hard pedal points to the vacuum side (booster, hose, pump); a spongy one to air in the lines or the master cylinder."
+   ],
+   "mistakes": [
+    "Replacing only the master cylinder when the booster is the leak.",
+    "Letting the master cylinder run dry during the swap, which means a much longer bleed."
+   ],
+   "refs": [
+    {
+     "name": "Unsealed 4X4: Toyota Prado 150 problems",
+     "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+    },
+    {
+     "name": "Toyota New Zealand diesel service schedule",
+     "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
     }
    ]
   },
@@ -303,7 +383,7 @@
    "time": "Half a day",
    "cost": "Parts plus labor",
    "symptoms": "Clunks, a jiggly ride, uneven rebound, or a harsh rear end on air-sprung Kakadus.",
-   "fix": "Replace worn shock and lower control-arm bushes. Tighten suspension bolts with the truck at ride height on its wheels, not hanging on a two-post hoist, which Unsealed 4X4 says is a common cause of early bush failure. Replace leaking rear air springs or convert the rear to coils.",
+   "fix": "Replace worn shock and lower control-arm bushes. Tighten suspension bolts with the truck at ride height on its wheels, not hanging on a two-post hoist, which Unsealed 4X4 says is a common cause of early bush failure. Replace leaking rear air springs or convert the rear to coils. Unsealed 4X4 has seen lower shock and lower control-arm bushes wear out within 20,000 km of new shocks going in, usually because they were tightened with the truck hanging. Fit harder aftermarket bushes for hard off-road use, or softer ones for comfort, and treat the optional rear air springs as consumables.",
    "tools": "Floor jack and stands · metric sockets · torque wrench",
    "parts": [
     {
@@ -315,6 +395,83 @@
      "name": "150 Series / GX460 suspension parts",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/150-series/"
+    }
+   ],
+   "know": [
+    "Toyota NZ's severe schedule halves the suspension and bolt-tightness inspection interval on unsealed roads.",
+    "On KDSS trucks, follow the factory procedure for the KDSS valves when lifting or changing suspension."
+   ],
+   "mistakes": [
+    "Torquing control-arm and shock bolts with the wheels hanging; it pre-loads the rubber and kills it early.",
+    "Ignoring a leaking rear air spring until the compressor fails too."
+   ],
+   "refs": [
+    {
+     "name": "Unsealed 4X4: Toyota Prado 150 problems",
+     "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+    },
+    {
+     "name": "Toyota New Zealand diesel service schedule",
+     "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
+    }
+   ]
+  },
+  {
+   "title": "1KD cracked piston diagnosis (2009–2015 3.0 diesel)",
+   "diff": "5 / 5",
+   "time": "Engine out or head off for the repair; an hour for diagnosis",
+   "cost": "Diagnosis is cheap; a cracked piston means an engine rebuild or replacement",
+   "symptoms": "A sudden, strong knock, black smoke, power loss, running on three cylinders and heavy crankcase pressure (oil mist or blow-by from the oil filler or breather), per Australian Car Reviews. It's most common between 100,000 and 150,000 km.",
+   "fix": "Toyota acknowledged the problem in Technical Service Bulletin EG-008T-0112 (September 2014). Australian Car Reviews traces it to a piston design change for the Euro IV 1KD; the earlier engines had a fibre-reinforced crown and didn't crack. If a 1KD starts knocking, stop driving it hard and get a diesel specialist to run injector balance and back-leak tests, a compression or cylinder leak-down test, and a crankcase pressure check. A failing injector or seat washer caught early is an injector job; a cracked piston shows as low compression and heavy blow-by on one cylinder, and the fix is pistons or an engine. Revised pistons and injectors came in from engine number 2361817 (January 2014), but Australian Car Reviews says revised engines can still crack, just less often.",
+   "tools": "Diesel specialist with injector test gear · compression or leak-down tester · scan tool",
+   "parts": [],
+   "know": [
+    "Toyota's mitigations, as reported by both Unsealed 4X4 and Australian Car Reviews: no chip tuning, no extended heavy-load driving, and injector service every 100,000 km. They reduce the risk; they don't remove the design fault.",
+    "Unsealed 4X4 says it affected a very small percentage of Australian sales.",
+    "The engine number is stamped on the block; check it against 2361817 when you're buying."
+   ],
+   "mistakes": [
+    "Treating a new knock as 'just injectors' and towing on. A failing injector washer can lead to the piston failure itself.",
+    "Buying a tuned 1KD without asking what the tune does to fuelling."
+   ],
+   "cost_note": "Neither source gives a price; get a written quote from a diesel specialist before agreeing to a rebuild.",
+   "refs": [
+    {
+     "name": "Australian Car Reviews: Prado 150 problems and recalls",
+     "url": "https://www.australiancar.reviews/?p=47886"
+    },
+    {
+     "name": "Unsealed 4X4: Toyota Prado 150 problems",
+     "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+    }
+   ]
+  },
+  {
+   "title": "Front CV boot replacement (split boot kit or axle out)",
+   "diff": "2 / 5 (split boot) · 3 / 5 (axle out)",
+   "time": "1–3 hours per side (estimate)",
+   "cost": "A boot kit and grease, or a new CV axle if the joint is already noisy",
+   "symptoms": "Grease flung around the inside of the front wheel or under the truck, and clicking from the front when turning, per Australian Car Reviews. A split boot lets in dirt and water, and the joint wears fast after that.",
+   "fix": "The Prado 150 has four front CV joints, two inboard and two outboard. A normal boot replacement means removing the front driveshaft, cleaning out the old grease, fitting the new boot and repacking the joint with the grease supplied. Australian Car Reviews notes that Toyota sells a split boot kit that goes on without removing the driveshaft, which is the quicker roadside-style fix. If the joint already clicks, the boot alone won't save it; replace the axle.",
+   "tools": "Floor jack and stands · sockets · boot clamp pliers · CV grease · split boot kit or new boots",
+   "parts": [],
+   "know": [
+    "Check the boots at every service; Toyota New Zealand's schedule lists drive shaft joints in its every-service inspection.",
+    "Grease on the inside of the wheel is the earliest visible sign."
+   ],
+   "mistakes": [
+    "Reusing contaminated grease; clean the joint out completely.",
+    "Ignoring the inboard boots, which are harder to see."
+   ],
+   "cost_note": "No source gives prices; compare a split kit with a full axle quote.",
+   "refs": [
+    {
+     "name": "Australian Car Reviews: Prado 150 problems and recalls",
+     "url": "https://www.australiancar.reviews/?p=47886"
+    },
+    {
+     "name": "Toyota New Zealand diesel service schedule",
+     "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
     }
    ]
   }

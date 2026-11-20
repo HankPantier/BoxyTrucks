@@ -255,5 +255,105 @@
    "name": "The Drive — 25-year import rule (Dec 2019)",
    "url": "https://www.thedrive.com/news/31247/the-1995-toyota-mega-cruiser-king-of-off-roaders-is-legal-to-import-in-2020"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Prado 150 maintenance schedule: Toyota's diesel schedule with oil every 15,000 km, fuel filter and brake fluid every 30,000 km, timing belt at 150,000 km (1KD), plus dusty-road and towing intervals.",
+  "intro": "Toyota New Zealand publishes its diesel service schedule for the Prado, and it's the clearest factory schedule online for the 150. It's built on a 15,000 km / 12-month service with extra items every second, sixth and tenth year. Petrol Prados (2TR, 1GR, and the US-market GX 460's 1UR) follow their own petrol schedules, so check your book.",
+  "schedule_note": "Toyota New Zealand diesel service schedule for diesel Toyotas built from January 2005, which lists the Prado diesel. Whichever comes first, kilometres or years. Confirm with your dealer for your market and VIN.",
+  "schedule": [
+   {
+    "at": "Every 15,000 km / 12 months (A)",
+    "items": [
+     "Replace engine oil and oil filter",
+     "Inspect drive belts, air filter and cabin filter",
+     "Inspect hoses, exhaust, fuel lines and the water sediment accumulator",
+     "Check fluid levels, battery, brakes and pads, steering, suspension, tyres and drive shaft joints",
+     "Electronic health check and road test"
+    ]
+   },
+   {
+    "at": "Every 30,000 km / 2 years (B)",
+    "items": [
+     "Replace brake (and clutch) fluid",
+     "Replace the fuel filter (or sooner if the filter warning light comes on)",
+     "Inspect front and rear differential and transfer fluid",
+     "Fluid table: differential oil every 30,000 km / 2 years"
+    ]
+   },
+   {
+    "at": "Every 90,000 km / 6 years (C)",
+    "items": [
+     "Inspect manual or automatic transmission fluid",
+     "Fluid table: automatic or manual transmission and transfer oil every 90,000 km / 6 years"
+    ]
+   },
+   {
+    "at": "150,000 km / 10 years (D)",
+    "items": [
+     "Replace coolant (then every 75,000 km)",
+     "Replace the timing belt (1KD-FTV 3.0 only; the 2.8 uses a chain)"
+    ]
+   },
+   {
+    "at": "195,000 km",
+    "items": [
+     "Replace the brake booster vacuum pump (Euro 5 Prado, per Toyota NZ footnote)"
+    ]
+   },
+   {
+    "at": "Around every 100,000 km (1KD, specialist advice)",
+    "items": [
+     "Injector test and service (Toyota guidance as reported by Unsealed 4X4 and Australian Car Reviews)"
+    ]
+   },
+   {
+    "at": "Every 50,000–100,000 km (diesel, specialist advice)",
+    "items": [
+     "Clean the intake and EGR (Unsealed 4X4)",
+     "On the 2.8, ask for a manual DPF regeneration at services (Unsealed 4X4)"
+    ]
+   }
+  ],
+  "severe": "Toyota NZ's severe schedule: if you tow, carry full loads or work the truck hard, replace engine oil, brake fluid and transmission oil at half the interval and inspect the propeller shaft joints and diff and transfer oil at half the interval. Extended idling or slow driving, and short trips below freezing, halve the oil interval. On unsealed or dusty roads, halve the oil interval, inspect the timing belt and pulleys every 30,000 km, and halve the air filter, brakes and suspension checks. After water crossings, grease the propeller shaft joints within 24 hours and check the diff oil for water. For frequent off-road use, go by engine hours as well as kilometres.",
+  "age_items": [
+   {
+    "item": "Front CV boots",
+    "when": "Every service",
+    "why": "Split boots let in grit; grease on the inside of the wheel is the first sign."
+   },
+   {
+    "item": "Rear air springs (Kakadu / VX with air)",
+    "when": "Inspect at purchase and every service",
+    "why": "Unsealed 4X4 calls them consumables."
+   },
+   {
+    "item": "Radiator coolant return fitting (1KD)",
+    "when": "Whenever the timing belt is done",
+    "why": "It's fragile and can't be replaced separately."
+   },
+   {
+    "item": "Recalls",
+    "when": "At purchase",
+    "why": "Check the VIN for the 2013–15 low-pressure fuel pump campaign (VGG17/VGG05), the 2019 fuel inlet pipe campaign (UGG45) and the 2009–10 driver's airbag recall (Australian Car Reviews)."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota New Zealand diesel service schedule",
+    "url": "https://www.toyota.co.nz/globalassets/servicing/toyota_diesel_service_schedule.pdf"
+   },
+   {
+    "name": "Unsealed 4X4: Toyota Prado 150 problems",
+    "url": "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+   },
+   {
+    "name": "Australian Car Reviews: Prado 150 problems and recalls",
+    "url": "https://www.australiancar.reviews/?p=47886"
+   },
+   {
+    "name": "Auto Buyers Guide: Toyota Prado 150 Series buyer's guide",
+    "url": "https://www.autobuyersguide.com.au/blog/toyota-prado-150-series-buyers-guide"
+   }
+  ]
+ }
 }
