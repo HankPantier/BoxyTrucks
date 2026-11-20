@@ -271,5 +271,88 @@
    "name": "Toyota — 2002 4Runner owner's manual OM35787U (Toyota-hosted PDF)",
    "url": "https://assets.sia.toyota.com/publications/en/om-s/OM35787U/pdf/OM35787U.pdf"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "3rd-gen 4Runner (1996–2002) maintenance schedule: oil every 5,000 mi, timing belt, water pump and fuel filter every 90,000 mi on the 3.4 V6, plus fluid capacities and age items.",
+  "intro": "We couldn't find Toyota's 1996–2002 4Runner maintenance guide published online by Toyota, so this page doesn't pretend to reproduce it. Instead it gives the intervals owners and specialists work to on the 5VZ-FE 3.4 V6 and 3RZ-FE 2.7, using the capacities from Toyota's 1999–2002 owner's manuals. On a truck this old, do everything once at purchase and then follow these intervals.",
+  "schedule_note": "Not a factory schedule. Intervals below are the ones in our buyer's baseline, from Toyota's owner's manuals where they give a figure and from AdventureTaco's 5VZ-FE service write-ups. Check your owner's manual and confirm with a Toyota dealer for your VIN.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Timing belt, water pump, thermostat, idlers and tensioner (5VZ-FE)",
+     "Coolant (Toyota red Long Life), all three drive belts",
+     "Transmission, transfer case and both diffs",
+     "Brake fluid flush, PCV valve and grommet, fuel filter"
+    ]
+   },
+   {
+    "at": "Every 5,000 mi",
+    "items": [
+     "Engine oil and filter (5W-30, 5.5 US qt with filter)",
+     "Inspect the air filter; replace when dirty",
+     "Check the valve covers for seepage"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi (dusty country)",
+    "items": [
+     "Fuel filter, if you run in very dusty conditions"
+    ]
+   },
+   {
+    "at": "Every ≈90,000 mi",
+    "items": [
+     "Timing belt with water pump, idlers, tensioner, cam and crank seals and thermostat (5VZ-FE)",
+     "Coolant and all three drive belts with the belt",
+     "Fuel filter (Toyota 23300-62030)"
+    ]
+   },
+   {
+    "at": "After any deep water crossing",
+    "items": [
+     "Change both differentials and check the rear axle breather"
+    ]
+   }
+  ],
+  "severe": "Dusty trails clog the air filter fast, so check it at every oil change and change the fuel filter every 30,000 miles in very dusty country. The rear axle breather can pull water into a hot diff during a crossing, so change the diff oil afterwards and consider extending the breather.",
+  "age_items": [
+   {
+    "item": "Lower ball joints",
+    "when": "Inspect at purchase and every service",
+    "why": "The 2001–02 trucks were recalled (Safety Recall 50J); worn joints on any year can separate."
+   },
+   {
+    "item": "Frame and spare-tire crossmember",
+    "when": "Inspect underneath once a year in salt country",
+    "why": "The rear crossmember rots from the inside."
+   },
+   {
+    "item": "Knock sensor harness",
+    "when": "If P0325 or P0330 appears, or when the intake is off",
+    "why": "The sub-harness under the intake cracks with heat and age."
+   },
+   {
+    "item": "Rear hatch window regulator",
+    "when": "When the glass drops or won't rise",
+    "why": "A common 3rd-gen failure covered in the repair guides below."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota 4Runner owner's manuals, 1999–2002 (capacities)"
+   },
+   {
+    "name": "AdventureTaco: 5VZ-FE timing belt and water pump"
+   },
+   {
+    "name": "TacomaWorld: P0330 won't go away (5VZ-FE)",
+    "url": "https://www.tacomaworld.com/threads/p0330-wont-go-away.421187"
+   },
+   {
+    "name": "Rust Buster: RB8415 spare tire crossmember",
+    "url": "https://www.rustbuster.com/products/rust-buster-1996-2002-toyota-4runner-spare-tire-crossmember-rb8415"
+   }
+  ]
+ }
 }

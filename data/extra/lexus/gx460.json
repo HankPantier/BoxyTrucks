@@ -372,5 +372,105 @@
    "name": "NHTSA — Recall 16V-340",
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=16V340"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Lexus GX 460 maintenance schedule from Lexus's guide: 0W-20 oil every 10,000 mi (5,000 for towing or dirt), filters and brake fluid every 30,000, rear air fluid at 60,000, coolant at 100,000, plugs at 120,000.",
+  "intro": "Lexus's Warranty and Services Guide for the GX 460 sets a 10,000-mile / 12-month oil change on 0W-20, with a 5,000-mile check in between, and halves the oil interval for dirt roads, towing, short cold trips and long idling. The big items are brake fluid and filters every 30,000 miles, the height-control fluid at 60,000 and 120,000, coolant at 100,000 and plugs at 120,000.",
+  "schedule_note": "From the Lexus 2010 GX 460 Warranty and Services Guide. Later model years follow the same pattern; check your own book. 'Active height control' in the guide is the rear air suspension on equipped trucks.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Inspect and top up fluids",
+     "Rotate tires",
+     "Inspect brake pads, calipers and rotors"
+    ]
+   },
+   {
+    "at": "Every 10,000 mi / 12 months",
+    "items": [
+     "Replace engine oil (0W-20) and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Clean the cabin filter",
+     "Lubricate the drive shaft and re-torque its bolts",
+     "Replace the Smart Key battery",
+     "Inspect axle boots, ball joints, brake lines, coolant and exhaust"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the engine air filter, cabin filter and brake fluid",
+     "Measure rotor thickness and runout",
+     "Inspect the height control system, diff and transfer oil, rack and pinion, steering linkage, fuel lines and the transmission for leaks"
+    ]
+   },
+   {
+    "at": "60,000 mi / 72 months",
+    "items": [
+     "Replace the height control system fluid",
+     "Inspect drive belts",
+     "Everything in the 30,000-mile service"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months",
+    "items": [
+     "First engine coolant replacement (then every 50,000 mi / 60 months)"
+    ]
+   },
+   {
+    "at": "120,000 mi / 144 months",
+    "items": [
+     "Replace spark plugs and the height control fluid",
+     "Everything in the 30,000-mile service"
+    ]
+   }
+  ],
+  "severe": "Lexus's special operating conditions: change the oil and filter every 5,000 miles / 6 months. On dirt or dusty roads, also inspect the axle boots, ball joints, air filter and steering linkage, lubricate the drive shaft, and replace the transfer case oil every 30,000 miles. When towing or heavily loaded, replace both diff oils at 15,000 and 30,000 miles, the transfer case oil at 30,000, and the transmission fluid at 60,000 and 120,000.",
+  "age_items": [
+   {
+    "item": "Water pump",
+    "when": "Look for pink crust at every oil change",
+    "why": "ClubLexus owners report failures from about 38,000 miles."
+   },
+   {
+    "item": "Timing cover and valve covers",
+    "when": "Look for oil at the filter area and in the plug wells",
+    "why": "Both are known 1UR leaks; slow seeps can be monitored."
+   },
+   {
+    "item": "Coolant valley plate",
+    "when": "If coolant drops with no visible leak",
+    "why": "It leaks under the intake manifold."
+   },
+   {
+    "item": "Propeller shaft grease",
+    "when": "Within 24 hours of any water crossing",
+    "why": "Water washes out the grease in the joints."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lexus 2010 GX 460 Warranty and Services Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-10GX460/pdf/10GX460.pdf"
+   },
+   {
+    "name": "ClubLexus: Water pump leaks or failure",
+    "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-2023/816908-water-pump-leaks-or-failure-4.html"
+   },
+   {
+    "name": "ClubLexus: Timing cover oil leak",
+    "url": "https://clublexus.com/forums/gx-2nd-gen-2010-2023/871224-timing-cover-oil-leak-5.html"
+   },
+   {
+    "name": "ClubLexus: Known GX460 issues",
+    "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-present/892605-known-gx460-issues.html"
+   }
+  ]
+ }
 }

@@ -190,7 +190,7 @@
    "diff": "3 / 5",
    "time": "Half a day DIY",
    "cost": "One owner paid $688 labor at a dealer, plus about $125 for the pump",
-   "symptoms": "Seepage or crust at the water pump weep hole, often found at a routine service, and a coolant level that slowly drops. Owners have reported leaks from about 28k to 100k+ miles.",
+   "symptoms": "Pink crust (owners call it 'cotton candy') at the front of the engine or on the skid plates below, and a coolant reservoir that slowly drops. ClubLexus owners report failures at about 38,000, 42,000, 65,000 and 79,000 miles, and a leak at 145,000 on a 2011.",
    "fix": "Drain the coolant from the radiator petcock (driver's side, underneath). Remove the fan and shroud, then the drive belt. Unbolt the pump, clean the mating surface and fit the new pump with its gasket. Replace the belt while it's off. Refill with pink Toyota Super Long Life coolant, not red, and bleed the system.",
    "tools": "Basic metric sockets · slim 10 mm wrench for the fan nuts · water pump 16100-09525 · drive belt 90916-A2033 · about 2 gal Toyota SLLC (pink)",
    "parts": [
@@ -213,6 +213,21 @@
      "name": "Coolant, 2015 GX 460",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,cooling+system,coolant+/+antifreeze,11393"
+    }
+   ],
+   "know": [
+    "The weep hole is behind the pulley at about the 4 o'clock position, so it's hard to see without removing the pulley (ClubLexus member Ramacher).",
+    "Not every pink crust is the pump: one owner's leak turned out to be the coolant valley under the intake.",
+    "Aisin makes the OEM pump; one owner's genuine Toyota replacement still failed at 42,000 miles. Cheaper brands such as BERCK come with their own warranties."
+   ],
+   "mistakes": [
+    "Using red coolant; the 1UR takes pink Super Long Life.",
+    "Not bleeding the system after the refill."
+   ],
+   "refs": [
+    {
+     "name": "ClubLexus: Water pump leaks or failure",
+     "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-2023/816908-water-pump-leaks-or-failure-4.html"
     }
    ]
   },
@@ -272,9 +287,9 @@
    "title": "Timing cover oil leak",
    "diff": "5 / 5",
    "time": "≈ 10 hours dealer labor",
-   "cost": "$2,600–3,500 quoted by dealers (owner reports)",
-   "symptoms": "Oil residue around the oil filter area and bottom of the engine, traced to the driver-side timing cover.",
-   "fix": "Dealers drop the engine to reseal or replace the cover. One IH8MUD owner documented doing the valve covers, cam towers, coolant valley and timing cover together at home on a 177k-mile truck, working from the factory service manual and labeling every fastener. It's a big job. Some owners just monitor slow seeps and check levels at each oil change.",
+   "cost": "Dealer quotes reported on ClubLexus range from about $2,600 to $3,000 with a water pump, one negotiated to $1,200, up to $7,600 bundled with a head gasket and belts",
+   "symptoms": "Oil residue around the oil filter area and the bottom of the engine. CARspec places the usual leak where the block, cylinder head and timing chain cover meet, most often on the driver's side. ClubLexus owners report it from about 80,000 to 122,000 miles.",
+   "fix": "Dealers drop the engine to reseal or replace the cover. One IH8MUD owner documented doing the valve covers, cam towers, coolant valley and timing cover together at home on a 177k-mile truck, working from the factory service manual and labeling every fastener. It's a big job. Some owners just monitor slow seeps and check levels at each oil change. CARspec says the front bumper, radiator, accessories and most of the emissions components come off for access. Dealers disagree on the method: one told an owner the engine and transmission had to be dropped.",
    "tools": "Factory service manual · full metric socket set · FIPG · timing cover seal · head gasket set if doing cam towers · painter's tape and cups for fastener labeling",
    "parts": [
     {
@@ -291,6 +306,25 @@
      "name": "Engine oil (SAE 0W-20), 2015 GX 460",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/lexus,2015,gx460,4.6l+v8,3310217,engine,oil,12138"
+    }
+   ],
+   "know": [
+    "Do the water pump at the same time; it's behind the same parts.",
+    "Several owners with slow seeps and no oil consumption chose to monitor it, checking the oil level at every fill.",
+    "One 2014 CPO owner had it done under warranty; check what coverage your truck still has."
+   ],
+   "mistakes": [
+    "Accepting a quote without a second opinion; ClubLexus quotes vary several-fold.",
+    "Confusing a valve cover leak with the timing cover; one dealer's 'timing cover' job was a preventative valve cover reseal."
+   ],
+   "refs": [
+    {
+     "name": "ClubLexus: Timing cover oil leak",
+     "url": "https://clublexus.com/forums/gx-2nd-gen-2010-2023/871224-timing-cover-oil-leak-5.html"
+    },
+    {
+     "name": "CARspec: Toyota and Lexus V8 timing cover and manifold leaks",
+     "url": "https://carspecmn.com/toyota-sequoia-tundra-4runner-and-land-cruiser-lexus-gx470-and-lx470-engine-tickingexhaust-manifold-leak/"
     }
    ]
   },
@@ -333,6 +367,35 @@
      "name": "Crawl Control switch for trucks without AVS (84970-60090)",
      "supplier": "Lexus Genuine Parts",
      "url": "https://parts.lexus.com/search?search_str=84970-60090"
+    }
+   ]
+  },
+  {
+   "title": "Oil in the spark plug wells (valve cover and plug tube seals)",
+   "diff": "3 / 5",
+   "time": "Most of a day (estimate); the valve covers have to come off",
+   "cost": "Valve cover gaskets and plug tube seals, plus labor",
+   "symptoms": "Oil pooled in the spark plug wells when you pull a coil, sometimes with a misfire from an oil-soaked coil boot. ClubLexus members list it among the GX 460's known leaks, alongside the timing cover.",
+   "fix": "The plug wells are sealed from the valve cover by tube seals in the cover. When they harden, oil seeps into the wells. Remove the coils, then the intake components that block the valve covers, then the covers. Replace the valve cover gaskets and spark plug tube seals, clean the sealing surfaces and apply FIPG at the timing cover joints as the factory manual specifies, and refit. Clean any oil out of the wells and check the coil boots before reinstalling. One ClubLexus member suggests checking the PCV valve too, since crankcase pressure can push oil past tired seals.",
+   "tools": "Factory service manual · metric sockets and extensions · torque wrench · FIPG sealant · valve cover gasket set with plug tube seals · shop towels",
+   "parts": [],
+   "know": [
+    "A Lexus dealer told one owner the 'timing cover' quote was really a preventative valve cover reseal; ask exactly which seals a quote covers.",
+    "If the intake is off, it's the moment to inspect the coolant valley plate too."
+   ],
+   "mistakes": [
+    "Leaving oil in the plug wells; it degrades the coil boots.",
+    "Skipping the FIPG at the cover corners, where most reseals leak again."
+   ],
+   "cost_note": "No source gives a price for this job alone; get it quoted separately from the timing cover.",
+   "refs": [
+    {
+     "name": "ClubLexus: Known GX460 issues",
+     "url": "https://www.clublexus.com/forums/gx-2nd-gen-2010-present/892605-known-gx460-issues.html"
+    },
+    {
+     "name": "ClubLexus: Timing cover oil leak",
+     "url": "https://clublexus.com/forums/gx-2nd-gen-2010-2023/871224-timing-cover-oil-leak-5.html"
     }
    ]
   }
