@@ -88,11 +88,21 @@
   },
   {
    "gen": "jeep/yj",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "Existing guides already cover the known YJ weak points; added refs to the thin one"
   },
   {
    "gen": "hummer/h2",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "Factory mileage table not readable online; hub bearing guide still thin"
   },
   {
    "gen": "land-cruiser/80-series",

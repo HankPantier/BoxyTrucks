@@ -338,7 +338,7 @@
    "time": "≈ 1 hour",
    "cost": "A fitting and a coolant top-up",
    "symptoms": "Coolant running down the passenger side of the transmission bell housing while the passenger floor stays dry, and the engine running warm with the heater on.",
-   "fix": "Before you condemn the heater core, check the quick-connect fittings at the core. Slide a release tool of the right size up into the fitting to free the clips, twist the fitting off, fit the new one, push the hose on, refit the clip and top up the coolant.",
+   "fix": "Before you condemn the heater core, check the plastic quick-connect fittings where the heater hoses meet the core at the firewall. On GMTNation, an experienced member says these need no special tool: squeeze the two tabs and pull (the tool sold for this is for fuel lines). Replace a cracked or weeping fitting, push the hose on until it clicks, and top up and bleed the coolant with the correct Dex-Cool type. If you want to test the core itself, the same member suggests pressurizing it with low air pressure, 15 psi at most, and listening for leaks. Some owners on similar GM trucks have deleted the plastic fittings and clamped hose straight onto the core tubes.",
    "tools": "Quick-connect release tool set · coolant.",
    "parts": [
     {
@@ -350,6 +350,21 @@
      "name": "Heater hose (catalog, 2005 H2)",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/hummer,2005,h2,6.0l+v8,1431821,heat+%26+air+conditioning,heater+hose,6892"
+    }
+   ],
+   "know": [
+    "The core sits deep in the dash; GMTNation members describe replacing it as a very big job, so rule out the fittings first.",
+    "The H2 radiator has no drain petcock, one owner notes, so draining means pulling the lower radiator hose.",
+    "Old plastic fittings crack easily on removal; have spares on hand before you start."
+   ],
+   "mistakes": [
+    "Overtightening clamps directly on the aluminum core tubes, which can collapse them; use two narrow clamps instead of one wide one.",
+    "Using a fuel-line release tool and levering on the fitting."
+   ],
+   "refs": [
+    {
+     "name": "GMTNation: Plan to replace H2 heater core hoses",
+     "url": "https://gmtnation.com/forums/threads/plan-to-replace-h2-heater-core-hoses.23830/"
     }
    ]
   }

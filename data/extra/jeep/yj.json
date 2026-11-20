@@ -351,5 +351,87 @@
    "name": "4WD Mechanix — Identifying Jeep Wrangler manual transmissions and clutches",
    "url": "https://4wdmechanix.com/?p=6425"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Wrangler YJ (1987–1995) maintenance schedule from Haynes: oil every 7,500 mi (3,000 severe), plugs, coolant, filters and every gear oil at 30,000 mi, plus the vacuum disconnect, grounds and rust checks.",
+  "intro": "Jeep's own YJ maintenance book isn't published online, so the intervals below are the ones in Haynes's YJ manual, which follows the factory schedule. Most YJs are now 30-plus years old and worked hard, so service everything once at purchase. Three YJ habits matter more than any mileage: keep the vacuum disconnect healthy, keep the grounds clean and keep rust out of the frame and floors.",
+  "schedule_note": "From Haynes's Jeep Wrangler 1987–2017 manual as listed in our buyer's baseline. Not the Jeep factory book; check your owner's manual if you have it.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 12 months (3,000 mi in severe use)",
+    "items": [
+     "Replace engine oil and filter",
+     "Grease the chassis, U-joints and spring bushings"
+    ]
+   },
+   {
+    "at": "Every 12,000 mi (severe use)",
+    "items": [
+     "Automatic transmission fluid and filter"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 24 months",
+    "items": [
+     "Replace the air filter, PCV valve and fuel filter",
+     "Replace spark plugs, plus cap and rotor",
+     "Replace coolant",
+     "Replace manual gearbox, automatic transmission, transfer case and both differential oils"
+    ]
+   },
+   {
+    "at": "About every 2 years",
+    "items": [
+     "Replace brake and clutch hydraulic fluid"
+    ]
+   },
+   {
+    "at": "After deep water crossings",
+    "items": [
+     "Check and change the differential oils (ExtremeTerrain)"
+    ]
+   }
+  ],
+  "severe": "Haynes drops the oil interval to 3,000 miles and the automatic fluid to 12,000 miles in severe use: towing, short trips, dust, mud and off-road. Change the air filter sooner on dusty trails.",
+  "age_items": [
+   {
+    "item": "Vacuum front-axle disconnect",
+    "when": "At purchase and whenever 4WD is slow to engage",
+    "why": "Quadratec: a maze of small vacuum lines decides whether 4WD works, and they dry-rot."
+   },
+   {
+    "item": "Electrical grounds",
+    "when": "At purchase",
+    "why": "Firewall ground straps and battery terminals cause flickering lights and jumpy gauges; Quadratec calls it a ten-minute fix with sandpaper."
+   },
+   {
+    "item": "Frame, spring hangers and floors",
+    "when": "Once a year",
+    "why": "Quadratec: YJs are notorious for rust at the rear spring mounts, frame rails, crossmembers and the driver's floor."
+   },
+   {
+    "item": "Clutch slave cylinder (early YJs)",
+    "when": "Look for fluid under the bellhousing",
+    "why": "It's inside the bellhousing, so the gearbox has to come out."
+   },
+   {
+    "item": "Front end",
+    "when": "Every service",
+    "why": "Track bar, tie rods and ball joints wear and cause death wobble."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Haynes: Jeep Wrangler 1987–2017 repair manual"
+   },
+   {
+    "name": "Quadratec: Used Jeep Wrangler inspection checklist by generation",
+    "url": "https://www.quadratec.com/c/howto/used-jeep-wrangler-inspection-checklist-by-generation"
+   },
+   {
+    "name": "Quadratec: What is Jeep death wobble",
+    "url": "https://www.quadratec.com/c/reference/what-is-jeep-death-wobble-causes-symptoms-fix-prevention"
+   }
+  ]
+ }
 }

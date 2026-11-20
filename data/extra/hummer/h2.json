@@ -464,5 +464,83 @@
    "name": "The Hummer Club — Upcoming events",
    "url": "https://www.thehummerclubinc.com/Events/Events.aspx?M=U"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Hummer H2 maintenance schedule: GM's oil-life based Maintenance I and II services, coolant every 5 years or 150,000 mi, plus the 4-speed transmission, transfer case, diffs, Hydro-boost and air-suspension items owners prioritize.",
+  "intro": "GM didn't give the H2 a fixed oil interval. The oil-life monitor calls for a service, and the owner's manual alternates two services, Maintenance I and Maintenance II, with at least one a year. The fixed-mileage items (coolant, plugs, transmission) sit in the manual's 'Additional Required Services' table. We've listed what the manual pages we could read confirm, and marked the rest as owner practice.",
+  "schedule_note": "From the 2004 and 2005 H2 owner's manuals (GM). Where the manual page online didn't show an interval clearly, the item is marked 'check your manual'.",
+  "schedule": [
+   {
+    "at": "When the CHANGE ENGINE OIL light comes on, at least once a year (Maintenance I and II)",
+    "items": [
+     "Change engine oil and filter and reset the oil-life system",
+     "Lubricate chassis components (not the ball joints below 10°F, per the manual)",
+     "Inspect the engine air filter and replace if needed",
+     "Rotate tires and check pressures and wear",
+     "Inspect the brake system",
+     "Check coolant and washer fluid levels and look for leaks"
+    ]
+   },
+   {
+    "at": "Every 5 years or 150,000 mi",
+    "items": [
+     "Engine cooling system service (coolant change), whichever comes first"
+    ]
+   },
+   {
+    "at": "Every year",
+    "items": [
+     "Pressure-test the cooling system and cap (manual recommendation)"
+    ]
+   },
+   {
+    "at": "Per the manual's Additional Required Services table",
+    "items": [
+     "Spark plugs and wires, engine air filter replacement, transmission fluid and filter, transfer case fluid and accessory drive belt inspection (check your manual for the intervals for your year)"
+    ]
+   }
+  ],
+  "severe": "The manual has a severe-service transmission schedule for trucks that tow, climb hills or sit in hot stop-and-go traffic. Owners call the 4-speed the weak link and do a pan drop and filter change on that schedule rather than a flush. Change both differentials after any deep water crossing, and check that the transfer case vent hose isn't kinked.",
+  "age_items": [
+   {
+    "item": "Heater core quick-connects",
+    "when": "If coolant runs down the passenger side of the bell housing",
+    "why": "The plastic fittings crack with age; check them before blaming the core."
+   },
+   {
+    "item": "Power steering fluid",
+    "when": "Every oil change",
+    "why": "The pump also powers the Hydro-boost brakes, so a steering leak affects braking."
+   },
+   {
+    "item": "Rear air suspension",
+    "when": "Check the rear holds height overnight",
+    "why": "Leaks make the compressor run constantly and wear it out."
+   },
+   {
+    "item": "Front end",
+    "when": "Every service",
+    "why": "Tie rods, idler and pitman arms, lower ball joints and hub bearings carry a lot of weight on big tires."
+   },
+   {
+    "item": "Battery",
+    "when": "Test yearly",
+    "why": "Low voltage causes 4WD and locker faults on the H2."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Hummer 2004 H2 owner's manual, maintenance schedule",
+    "url": "https://www.manualsdir.com/manuals/772749/hummer-2004-h2.html?page=431"
+   },
+   {
+    "name": "Hummer 2005 H2 owner's manual, maintenance schedule",
+    "url": "https://www.manualowl.com/am/Hummer/2005-H2/Manual/691?page=431"
+   },
+   {
+    "name": "GMTNation: Plan to replace H2 heater core hoses",
+    "url": "https://gmtnation.com/forums/threads/plan-to-replace-h2-heater-core-hoses.23830/"
+   }
+  ]
+ }
 }
