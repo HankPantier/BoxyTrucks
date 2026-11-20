@@ -324,5 +324,105 @@
    "name": "4X4 Australia — Nissan Patrol buyers guide: every generation",
    "url": "https://www.4x4australia.com.au/reviews/nissan-patrol-history"
   }
- ]
+ ],
+ "maintenance": {
+  "intro": "What to service and when on a GU Patrol, from Nissan Europe's Y61 service manual schedule and Nissan Australia's oil spec, plus the age items that matter on a truck that's now 10 to 29 years old.",
+  "description": "Nissan Patrol Y61 (GU) maintenance schedule: oil every 10,000–15,000 km, ZD30 fuel filter every 45,000 km, RD28 timing belt at 80,000 km, coolant, brake fluid and hub grease.",
+  "schedule_note": "Intervals below are Nissan Europe's (Y61 service manual, MA section) unless noted; Australian, Middle Eastern and other markets used their own schedules, so check your service book. Whichever comes first, distance or time.",
+  "schedule": [
+   {
+    "at": "Every 10,000 km or 6 months",
+    "items": [
+     "RD28: engine oil and filter (Nissan Europe)",
+     "ZD30 in Australia: engine oil and filter, 10W-40 ACEA B3, at most every 10,000 km or 6 months (Nissan Australia, per JDM Buy & Sell)"
+    ]
+   },
+   {
+    "at": "Every 15,000 km or 12 months",
+    "items": [
+     "ZD30 and TB48: engine oil and filter (Nissan Europe; halve it for towing, dust or short trips)",
+     "Inspect the air filter and MAF sensor (more often in dust)",
+     "Drain the diesel water trap"
+    ]
+   },
+   {
+    "at": "Every 30,000 km",
+    "items": [
+     "ZD30: repack the front wheel bearings and hub grease (40,000 km on the 1998 RD28 schedule), and after water crossings"
+    ]
+   },
+   {
+    "at": "Every 40,000 km",
+    "items": [
+     "RD28: diesel fuel filter",
+     "Automatic: one owner cites Nissan at 40,000 km for ATF (check your book)"
+    ]
+   },
+   {
+    "at": "Every 45,000 km or 36 months",
+    "items": [
+     "ZD30: diesel fuel filter (every 22,500 km in dusty or extreme conditions)"
+    ]
+   },
+   {
+    "at": "80,000 km or 48 months",
+    "items": [
+     "RD28: timing belt (90,000 km for high-mileage use)"
+    ]
+   },
+   {
+    "at": "First at 90,000 km or 60 months, then every 60,000 km or 48 months",
+    "items": [
+     "Coolant: drain, flush and refill"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid"
+    ]
+   }
+  ],
+  "severe": "Nissan Europe halves the oil interval for severe use (towing, dust or short trips) and moves the ZD30 fuel filter to 22,500 km in dusty or extreme conditions. Repack the front hubs and check the diffs and transfer case for water after deep crossings. Many owners change ZD30 oil more often when towing, and fit an engine-saver setup (see the guide below).",
+  "age_items": [
+   {
+    "item": "Rear axle seals",
+    "when": "Check at every service",
+    "why": "A known GU leak; oil on the inside of the rear wheels or brakes means seals (ReDriven, via JDM Buy & Sell)."
+   },
+   {
+    "item": "Front radius arm bushes",
+    "when": "When steering wanders or after a lift",
+    "why": "Worn or wrong bushes change caster and steering feel."
+   },
+   {
+    "item": "Gearbox oil",
+    "when": "At purchase, and check its colour",
+    "why": "Coffee-coloured oil was a warning sign of fifth-gear failure on early boxes."
+   },
+   {
+    "item": "Cooling system and fan clutch",
+    "when": "At purchase and before towing season",
+    "why": "Every GU engine can overheat under load (ReDriven)."
+   },
+   {
+    "item": "Dash top",
+    "when": "Inspect",
+    "why": "Bubbling dashes are common; ask Nissan about goodwill."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Nissan Europe: Patrol GR Y61 Electronic Service Manual, MA (maintenance) section, 1998 edition and supplements I–IV"
+   },
+   {
+    "name": "JDM Buy & Sell: Nissan Patrol Y61 buyer's guide (Nissan Australia oil spec)",
+    "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y61/"
+   },
+   {
+    "name": "ReDriven: Nissan Patrol GU used review",
+    "url": "https://redriven.com/?p=1449"
+   }
+  ]
+ }
 }

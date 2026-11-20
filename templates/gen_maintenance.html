@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+{% set m = x.maintenance %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}models/index.html">Models</a><span>/</span><a href="{{ gen_href }}">{{ model }}</a><span>/</span><span>Maintenance schedule</span></nav>
+  <span class="eyebrow brass">Maintenance schedule · {{ g.years }}</span>
+  <h1 style="font-size:clamp(32px,4.6vw,56px);line-height:1.04;letter-spacing:-0.02em;text-wrap:balance;max-width:960px">{{ model }} maintenance schedule</h1>
+  <p class="serif" style="margin:0;max-width:760px;font-size:19px;line-height:29px;color:#D9D4C8">{{ m.intro|lk }}</p>
+  <div class="sp-actions"><button class="btn light" type="button" onclick="window.print()">Print this page</button><a class="btn ghost-brass" href="{{ gen_href }}">Read the full guide</a></div>
+</div></section>
+
+<div class="wrap section" style="padding-top:40px"><div class="sp-wrap">
+  {% if m.schedule %}<section id="schedule"><h2 class="h-section">Service schedule</h2>
+    {% if m.schedule_note %}<div class="prose"><p>{{ m.schedule_note|lk }}</p></div>{% endif %}
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>WHEN</th><th>WHAT TO DO</th></tr></thead>
+    <tbody>{% for s in m.schedule %}<tr><td data-l="WHEN"><strong>{{ s.at }}</strong></td><td data-l="WHAT TO DO"><ul class="mt-list">{% for i in s['items'] %}<li>{{ i|lk }}</li>{% endfor %}</ul></td></tr>{% endfor %}</tbody></table></div>
+  </section>{% endif %}
+
+  {% if m.severe %}<section id="severe"><h2 class="h-section">Severe service: towing, dust, water, short trips</h2>
+    <div class="prose"><p>{{ m.severe|lk }}</p></div>
+  </section>{% endif %}
+
+  {% if m.age_items %}<section id="age"><h2 class="h-section">Age items the schedule doesn't cover</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>ITEM</th><th>WHEN</th><th>WHY</th></tr></thead>
+    <tbody>{% for a in m.age_items %}<tr><td data-l="ITEM"><strong>{{ a.item }}</strong></td><td data-l="WHEN">{{ a.when|lk }}</td><td data-l="WHY" class="note">{{ a.why|lk }}</td></tr>{% endfor %}</tbody></table></div>
+  </section>{% endif %}
+
+  {% set svc = p.baseline_service %}{% if svc and svc.items %}<section id="fluids"><h2 class="h-section">Fluids and capacities</h2>
+    <div class="table-box"><table class="sp-table sp-wide"><thead><tr><th>ITEM</th><th>SPEC / CAPACITY</th><th>NOTES &amp; PARTS</th></tr></thead>
+    <tbody>{% for it in svc['items'] %}<tr><td data-l="ITEM"><strong>{{ it.item }}</strong></td><td data-l="SPEC / CAPACITY">{{ it.spec|lk }}</td><td data-l="NOTES &amp; PARTS" class="note">{{ it.note|lk }}{% if it.parts %}<span class="sp-parts">{% for pt in it.parts %}<a href="{{ pt.url }}" target="_blank" rel="noopener{% if 'amazon.' in pt.url %} sponsored{% endif %}">{{ pt.name }}{% if pt.supplier %} · {{ pt.supplier }}{% endif %} ↗</a>{% endfor %}</span>{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="sub-intro"><a class="inline-link" href="{{ root }}models/{{ fam.slug }}/{{ g.slug }}/specs.html">Full spec sheet, capacities and wheel specs →</a></p>
+  </section>{% endif %}
+
+  {% if p.repairs %}<section><h2 class="h-section">{{ p.title }} repair guides</h2>
+    <ul class="sp-reps">{% for r in p.repairs %}<li><a href="{{ root }}repairs/{{ fam.slug }}/{{ g.slug }}/{{ r.slug }}.html"><span>{{ r.title|striplk }}</span><span class="mono">DIFFICULTY {{ r.diff }}</span></a></li>{% endfor %}</ul>
+  </section>{% endif %}
+
+  {% if m.sources %}<section><h2 class="h-section">Sources</h2>
+    <ul class="mt-src">{% for s in m.sources %}<li>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }} ↗</a>{% else %}{{ s.name }}{% endif %}</li>{% endfor %}</ul>
+  </section>{% endif %}
+
+  <p class="sp-foot">Intervals here come from the sources listed; where the factory schedule isn't published online we say so. Always confirm against the owner's manual or service book for your VIN and market. See the <a href="{{ root }}about/disclaimer.html">disclaimer</a>.</p>
+</div></div>
+{% endblock %}

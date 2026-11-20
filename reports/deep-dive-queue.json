@@ -1,0 +1,433 @@
+{
+ "note": "Deep-dive order: generations by 28-day GSC impressions (Nov 20, 2026), then the rest. Per gen: research common problems (leaks, mechanical, electrical, interior, body), add missing repair guides, deepen thin noindexed guides, write x.maintenance schedule.",
+ "queue": [
+  {
+   "gen": "nissan-patrol/y61",
+   "status": "todo"
+  },
+  {
+   "gen": "nissan-patrol/y60",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/gx550",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/gx470",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/prado-150",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/lx470",
+   "status": "todo"
+  },
+  {
+   "gen": "4runner/3rd-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/gx460",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/prado-120",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/prado-90",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/yj",
+   "status": "todo"
+  },
+  {
+   "gen": "hummer/h2",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/80-series",
+   "status": "todo"
+  },
+  {
+   "gen": "hummer/h1",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/lx570",
+   "status": "todo"
+  },
+  {
+   "gen": "chevrolet/k5-blazer-1st",
+   "status": "todo"
+  },
+  {
+   "gen": "suzuki/samurai",
+   "status": "todo"
+  },
+  {
+   "gen": "unimog/unimog-u1300l",
+   "status": "todo"
+  },
+  {
+   "gen": "chevrolet/k5-blazer",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/g55-amg",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/tj",
+   "status": "todo"
+  },
+  {
+   "gen": "grenadier/station-wagon",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/200-series",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/fj40",
+   "status": "todo"
+  },
+  {
+   "gen": "4runner/5th-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/70-series",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/lx600",
+   "status": "todo"
+  },
+  {
+   "gen": "range-rover/l405",
+   "status": "todo"
+  },
+  {
+   "gen": "suzuki/jimny-jb74",
+   "status": "todo"
+  },
+  {
+   "gen": "trooper/trooper-2",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/g500",
+   "status": "todo"
+  },
+  {
+   "gen": "range-rover/l322",
+   "status": "todo"
+  },
+  {
+   "gen": "trooper/trooper-1",
+   "status": "todo"
+  },
+  {
+   "gen": "chevrolet/suburban-square",
+   "status": "todo"
+  },
+  {
+   "gen": "pajero/pajero-gen1",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/300-series",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/defender-90-110",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/fj-cruiser",
+   "status": "todo"
+  },
+  {
+   "gen": "4runner/1st-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "4runner/2nd-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "4runner/4th-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "4runner/6th-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "bronco/bronco-ii",
+   "status": "todo"
+  },
+  {
+   "gen": "bronco/early-bronco",
+   "status": "todo"
+  },
+  {
+   "gen": "bronco/full-size",
+   "status": "todo"
+  },
+  {
+   "gen": "bronco/sixth-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "delica/delica-l300",
+   "status": "todo"
+  },
+  {
+   "gen": "delica/delica-space-gear",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/4x4-squared",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/500ge",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/europa",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/g550",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/g63-6x6",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/g63-amg",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/second-gen",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/w460",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/w461",
+   "status": "todo"
+  },
+  {
+   "gen": "g-class/w463",
+   "status": "todo"
+  },
+  {
+   "gen": "grenadier/quartermaster",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/cherokee-xj",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/cj-5",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/cj-7",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/cj-8",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/comanche-mj",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/gladiator-jt",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/grand-cherokee-zj",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/grand-wagoneer",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/jk",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/jk-unlimited",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/jl",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/jl-unlimited",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/sj-wagoneer",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/tj-unlimited",
+   "status": "todo"
+  },
+  {
+   "gen": "jeep/wagoneer-ws",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/100-series",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/250-series",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/fj25",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/fj45-fj55",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/fj60",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/fj62",
+   "status": "todo"
+  },
+  {
+   "gen": "land-cruiser/mega-cruiser",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/defender-l663",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/discovery-1",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/discovery-2",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/lr3",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/lr4",
+   "status": "todo"
+  },
+  {
+   "gen": "land-rover/series",
+   "status": "todo"
+  },
+  {
+   "gen": "lexus/lx450",
+   "status": "todo"
+  },
+  {
+   "gen": "nissan-patrol/160-mq",
+   "status": "todo"
+  },
+  {
+   "gen": "nissan-patrol/patrol-60",
+   "status": "todo"
+  },
+  {
+   "gen": "nissan-patrol/y62",
+   "status": "todo"
+  },
+  {
+   "gen": "niva/niva",
+   "status": "todo"
+  },
+  {
+   "gen": "pajero/pajero-gen2",
+   "status": "todo"
+  },
+  {
+   "gen": "pajero/pajero-gen3",
+   "status": "todo"
+  },
+  {
+   "gen": "pinzgauer/pinzgauer-710-712",
+   "status": "todo"
+  },
+  {
+   "gen": "pinzgauer/pinzgauer-716-718",
+   "status": "todo"
+  },
+  {
+   "gen": "ramcharger/ramcharger-1st",
+   "status": "todo"
+  },
+  {
+   "gen": "ramcharger/ramcharger-2nd",
+   "status": "todo"
+  },
+  {
+   "gen": "range-rover/classic",
+   "status": "todo"
+  },
+  {
+   "gen": "range-rover/l460",
+   "status": "todo"
+  },
+  {
+   "gen": "range-rover/p38",
+   "status": "todo"
+  },
+  {
+   "gen": "scout/scout-80-800",
+   "status": "todo"
+  },
+  {
+   "gen": "scout/scout-ii",
+   "status": "todo"
+  },
+  {
+   "gen": "scout/scout-motors",
+   "status": "todo"
+  },
+  {
+   "gen": "suzuki/jimny-jb23",
+   "status": "todo"
+  },
+  {
+   "gen": "suzuki/lj-series",
+   "status": "todo"
+  },
+  {
+   "gen": "unimog/unimog-404",
+   "status": "todo"
+  }
+ ]
+}

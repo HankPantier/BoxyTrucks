@@ -393,6 +393,163 @@
      "url": "https://patrolapart.com.au/product/genuine-nissan-patrol-gq-gu-manual-free-wheeling-hub-assembly"
     }
    ]
+  },
+  {
+   "title": "ZD30 injection pump and injectors (VP44 and common rail)",
+   "diff": "4 / 5",
+   "time": "Specialist job: test first, then a day or more for the swap and ECU coding",
+   "cost": "Common rail: genuine injectors from $545 each or $2,095 a set, genuine high-pressure pump $1,873 (Willys Workshop, AUD, fitting extra). VP44 exchange pump: $4,900 AUD including a refundable core deposit (Denco Diesel)",
+   "symptoms": "Hard or slow starting (worst when cold), a rough or hunting idle, white, blue or black smoke, power loss under load, higher fuel use, diesel knock that gets worse as the engine warms, limp mode, cylinder fault codes P0201–P0204, or diesel in the engine oil (the level rises and the oil thins).",
+   "fix": "First work out which ZD30 you have. Nissan dates the Bosch VP44 electronic pump engine 2000–2006 (Di); later trucks are common rail (per JDM Buy & Sell, citing Nissan). Don't guess: have a diesel specialist test the injectors against spec and test the pump and injectors together, so you replace the cause rather than the symptom (Willys Workshop's advice). On a common-rail engine, replace only the injectors that fail testing if the rest are good, or the full set if mileage is high or several are marginal, and have new injectors coded to the ECU. On a Di, a failed VP44 is normally swapped for a reconditioned exchange unit (Denco lists Nissan part 16700-VG100 / Bosch 109342-4026), with the core returned for the deposit. If you find diesel in the oil, stop driving and change the oil after the fix.",
+   "tools": "Diesel specialist bench and flow test · scan tool for fault codes and injector coding · new fuel filter",
+   "parts": [
+    {
+     "name": "ZD30 VP44 exchange pump (16700-VG100, Bosch 109342-4026)",
+     "supplier": "Denco Diesel & Turbo",
+     "url": "https://www.dencodiesel.com/collections/nissan/products/16700-vg100-exchange-pump-nissan-3ltr-zd30-patrol-vp44"
+    },
+    {
+     "name": "ZD30 common-rail high-pressure pump (genuine)",
+     "supplier": "Willys Workshop",
+     "url": "https://willysworkshop.com.au/product/nissan-patrol-zd30-high-pressure-pump/"
+    }
+   ],
+   "know": [
+    "Nissan dates the VP44 Di engine 2000–2006; common rail came after (JDM Buy & Sell, from Nissan's documents). Parts and symptoms differ, so confirm which one you have.",
+    "Willys Workshop says well-serviced common-rail injectors typically last 150,000 to 200,000 km; there's no fixed replacement interval.",
+    "Water or dirty diesel getting past the filter is the usual killer. Fit a quality pre-filter and change the fuel filter on time (Nissan Europe's ZD30 interval is 45,000 km, 22,500 km in dust)."
+   ],
+   "mistakes": [
+    "Replacing all four injectors, or the pump, without testing both together first.",
+    "Skipping ECU injector coding after fitting common-rail injectors.",
+    "Driving on with diesel in the oil, which thins it on an engine already known for oiling problems."
+   ],
+   "cost_note": "Prices are Willys Workshop's genuine-parts list prices and Denco's exchange price in Australian dollars, before fitting and coding.",
+   "refs": [
+    {
+     "name": "Willys Workshop: ZD30 injectors and pump, symptoms and cost",
+     "url": "https://willysworkshop.com.au/blog/nissan-patrol-zd30-injectors-pump-cost-symptoms/"
+    },
+    {
+     "name": "Denco Diesel: VP44 exchange pump for the ZD30",
+     "url": "https://www.dencodiesel.com/collections/nissan/products/16700-vg100-exchange-pump-nissan-3ltr-zd30-patrol-vp44"
+    },
+    {
+     "name": "JDM Buy & Sell: Nissan Patrol Y61 buyer's guide",
+     "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y61/"
+    }
+   ]
+  },
+  {
+   "title": "Manual gearbox: fifth gear stops driving (stripped mainshaft spline)",
+   "diff": "4 / 5",
+   "time": "≈ 6 hours to drop the box for one owner, plus the rebuild",
+   "cost": "Owners report about $1,300 for mainshaft, 5th gear and a bearing kit (DIY), and $2,234 to $3,500 at a dealer out of warranty (AUD)",
+   "symptoms": "Fifth gear engages but there's no drive, just grinding or screeching; coffee-coloured gearbox oil, which one owner's Nissan service manager said meant fifth was about to let go.",
+   "fix": "The fault is the fifth-gear spline on the mainshaft stripping. On the NissanPatrol.com.au forum it's tied to early GU boxes: one member says early TD42 boxes had a shorter mainshaft spline and Nissan lengthened it, and owners on ExplorOz report it on early 3.0 and 4.2 trucks, with Nissan reportedly saying the problem ran from early 2000 to 2001. The box has to come out. One owner who did it himself removed the top linkage plate, slid the box back about 5 mm to clear the locating dowel and rotated it to get it out, taking about 6 hours. He fitted a new mainshaft, a new fifth gear and a full bearing and seal kit. While it's out, replace the spigot bearing and front oil seal, and don't hang the box on the clutch plate when refitting.",
+   "tools": "Transmission jack or a strong helper · axle stands · metric sockets and extensions · press and bearing pullers (or a gearbox shop) · bearing and seal kit",
+   "parts": [],
+   "know": [
+    "It's mostly early GU trucks (around 2000–2001 builds) per owners and Nissan's reported comments; a late box is far less likely to have it.",
+    "Drain the gearbox oil and look at it before you buy: milky or coffee-coloured oil or metal on the plug is a warning.",
+    "Several owners got warranty or goodwill help by contacting Nissan Australia directly rather than only the dealer."
+   ],
+   "mistakes": [
+    "Using fifth at low speed or under heavy load; one repairer advised not using fifth below about 80 km/h, and another owner says to use fourth when towing hard.",
+    "Refitting without replacing the spigot bearing and front seal while the box is out.",
+    "Hanging the gearbox's weight on the clutch plate during refitting."
+   ],
+   "cost_note": "Figures are owners' reports on NissanPatrol.com.au and ExplorOz in Australian dollars, from the early 2000s to 2010s; prices will be higher now.",
+   "refs": [
+    {
+     "name": "NissanPatrol.com.au forum: GU 5th gear (DIY rebuild)",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-3204.html"
+    },
+    {
+     "name": "ExplorOz: Patrol GU 5th gear failure (costs and warranty outcomes)",
+     "url": "https://www.exploroz.com/forum/25111/patrol-gu-5th-gear-failure"
+    },
+    {
+     "name": "NissanPatrol.com.au forum: GU 5th gear problem (spline length)",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-10568.html"
+    }
+   ]
+  },
+  {
+   "title": "Replace the front radius arm (castor) bushes",
+   "diff": "3 / 5",
+   "time": "Half a day with a press, longer if bolts are seized",
+   "cost": "Rubber front suspension bush kit about $154–192 AUD (Roadrunner Offroad); poly and caster-correction kits also sold",
+   "symptoms": "Wandering or vague steering, clunks over bumps, and steering that's light or won't return to centre after a lift (caster has dropped).",
+   "fix": "Support the chassis on stands with the wheels just on the ground to take spring preload off, and chock all four wheels. Put it in low range and first (or park) with the front hubs engaged to help hold the axle. You can do one arm at a time or both: one at a time keeps everything lined up, but you'll still need to loosen at least one bolt on the other arm so the diff can roll. Press out the old bushes and press in the new ones using the alignment arrows or tabs on the bushes; a simple jig made from old bolts on a length of RHS helps keep them square. If you've lifted the truck, use caster-correction bushes to bring the caster back. Lever the bolt holes into line with a big screwdriver, then torque everything with the truck's weight on the wheels.",
+   "tools": "Press or bush tool · jack and axle stands · wheel chocks · large sockets and breaker bar · torque wrench · pry bar",
+   "parts": [
+    {
+     "name": "Front suspension bush kit, rubber, GU Y61 (GUFSBK)",
+     "supplier": "Roadrunner Offroad",
+     "url": "https://www.roadrunneroffroad.com.au/gufsbk-gu-nissan-patrol-front-suspension-bush-kit"
+    },
+    {
+     "name": "Radius arm bushes for Nissan Patrol",
+     "supplier": "Nolathane",
+     "url": "https://nolathane.com/au/search/product/suspension-parts/suspension-bushes/radius-arm-bushes/radius-arm-bushes-for-nissan-patrol"
+    }
+   ],
+   "know": [
+    "Owners split on poly versus rubber: poly lasts longer but rides harsher; perforated rubber flexes more for a lifted truck driven hard off-road.",
+    "Caster bushes alone may not fix light steering after a lift; one owner suggests an adjustable steering arm or proper alignment as well.",
+    "Get a wheel alignment afterwards."
+   ],
+   "mistakes": [
+    "Pressing bushes in out of alignment (use the arrows or a jig).",
+    "Tightening the bushes with the axle hanging, which preloads the rubber.",
+    "Pulling both arms with no helper and letting the axle roll."
+   ],
+   "cost_note": "Kit price is Roadrunner Offroad's listed sale price in November 2026; workshop labour extra.",
+   "refs": [
+    {
+     "name": "NissanPatrol.com.au forum: help with radius arm bushes",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-11190.html"
+    },
+    {
+     "name": "Roadrunner Offroad: GU front suspension bush kit",
+     "url": "https://www.roadrunneroffroad.com.au/gufsbk-gu-nissan-patrol-front-suspension-bush-kit"
+    }
+   ]
+  },
+  {
+   "title": "Bubbling dashboard: replacement and goodwill",
+   "diff": "3 / 5",
+   "time": "A dealer job: the whole dash top comes out",
+   "cost": "One 2005 owner was offered a free dash under goodwill but charged $480 labour (CarsGuide)",
+   "symptoms": "Blisters, 'pimples' or bubbles in the top of the dash pad, getting worse in the sun.",
+   "fix": "It's a known GU fault. Nissan Japan extended the warranty to seven years on specified Japanese wagons built August 2004 to June 2007 (per JDM Buy & Sell); in Australia owners describe a hidden service campaign covering affected VIN ranges for about five to six years, with dealers sometimes helping after that. If your dash is bubbling, ask a Nissan dealer, and contact Nissan customer service directly, about goodwill. The usual outcome owners report is a free dash with you paying the labour. A dash mat (Sunland and others make GU-specific ones) hides minor bubbling and protects a replacement from sun.",
+   "tools": "Dealer job (dash removal)",
+   "parts": [
+    {
+     "name": "Sunland dashmat, Nissan Patrol GU Y61 (D3701)",
+     "supplier": "Autopro",
+     "url": "https://autopro.com.au/ap/Autopro-Category/Brands/Sunland/Sunland-Dashmat-To-Suit-Nissan-Patrol-GU-ll-lll-Y61-Black---D3701/p/PR01240"
+    }
+   ],
+   "know": [
+    "Some owners report replacement dashes bubbling again.",
+    "Keeping the truck under cover or using a sunshade slows it."
+   ],
+   "refs": [
+    {
+     "name": "CarsGuide: Nissan Patrol 2005 bubbled dash replacement",
+     "url": "https://www.carsguide.com.au/car-advice/q-and-a/bubbled-dash-nissan-patrol-7374"
+    },
+    {
+     "name": "NissanPatrol.com.au forum: bubbling dash",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-33004.html"
+    },
+    {
+     "name": "JDM Buy & Sell: Nissan Patrol Y61 buyer's guide",
+     "url": "https://www.jdmbuysell.com/learn/nissan/patrol/y61/"
+    }
+   ]
   }
  ],
  "faq": [

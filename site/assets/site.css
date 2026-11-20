@@ -1149,3 +1149,7 @@ main section.rep-sec { contain-intrinsic-size: auto 56px; }
 .rp-kits{border-collapse:collapse;min-width:760px;font-size:14px;line-height:1.4}
 .rp-kits th,.rp-kits td{border-top:1px solid #D8CDB6;padding:10px 8px;text-align:left;vertical-align:top}
 .rp-kits th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#765A18}
+
+/* Maintenance schedule page (Nov 20, 2026) */
+.mt-list{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.mt-src{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:15px}

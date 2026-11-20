@@ -1,6 +1,6 @@
 # BoxyTrucks: full model guides
 
-Source: https://boxytrucks.com/ · generated 2026-11-19
+Source: https://boxytrucks.com/ · generated 2026-11-20
 
 Verify every fluid, capacity and torque figure against the factory manual for the exact vehicle. Disclaimer: https://boxytrucks.com/about/disclaimer/
 
@@ -22986,6 +22986,30 @@ Difficulty 2 / 5 · time ≈ 1–2 hours · cost Parts plus labor
 Symptoms: Front drive drops out when you rock a stuck truck back and forth. CarsGuide notes this is a known trait of the auto hubs.
 Fix: With the axle on stands, remove the six Allen bolts holding each auto hub (as in the bearing service above), pull the hub assembly and fit the manual hub kit according to its instructions. Check the bearing preload while you're there. Run both hubs in LOCK whenever you're in 4WD.
 Tools: 8 mm Allen key · circlip pliers · grease
+
+#### ZD30 injection pump and injectors (VP44 and common rail)
+Difficulty 4 / 5 · time Specialist job: test first, then a day or more for the swap and ECU coding · cost Common rail: genuine injectors from $545 each or $2,095 a set, genuine high-pressure pump $1,873 (Willys Workshop, AUD, fitting extra). VP44 exchange pump: $4,900 AUD including a refundable core deposit (Denco Diesel)
+Symptoms: Hard or slow starting (worst when cold), a rough or hunting idle, white, blue or black smoke, power loss under load, higher fuel use, diesel knock that gets worse as the engine warms, limp mode, cylinder fault codes P0201–P0204, or diesel in the engine oil (the level rises and the oil thins).
+Fix: First work out which ZD30 you have. Nissan dates the Bosch VP44 electronic pump engine 2000–2006 (Di); later trucks are common rail (per JDM Buy & Sell, citing Nissan). Don't guess: have a diesel specialist test the injectors against spec and test the pump and injectors together, so you replace the cause rather than the symptom (Willys Workshop's advice). On a common-rail engine, replace only the injectors that fail testing if the rest are good, or the full set if mileage is high or several are marginal, and have new injectors coded to the ECU. On a Di, a failed VP44 is normally swapped for a reconditioned exchange unit (Denco lists Nissan part 16700-VG100 / Bosch 109342-4026), with the core returned for the deposit. If you find diesel in the oil, stop driving and change the oil after the fix.
+Tools: Diesel specialist bench and flow test · scan tool for fault codes and injector coding · new fuel filter
+
+#### Manual gearbox: fifth gear stops driving (stripped mainshaft spline)
+Difficulty 4 / 5 · time ≈ 6 hours to drop the box for one owner, plus the rebuild · cost Owners report about $1,300 for mainshaft, 5th gear and a bearing kit (DIY), and $2,234 to $3,500 at a dealer out of warranty (AUD)
+Symptoms: Fifth gear engages but there's no drive, just grinding or screeching; coffee-coloured gearbox oil, which one owner's Nissan service manager said meant fifth was about to let go.
+Fix: The fault is the fifth-gear spline on the mainshaft stripping. On the NissanPatrol.com.au forum it's tied to early GU boxes: one member says early TD42 boxes had a shorter mainshaft spline and Nissan lengthened it, and owners on ExplorOz report it on early 3.0 and 4.2 trucks, with Nissan reportedly saying the problem ran from early 2000 to 2001. The box has to come out. One owner who did it himself removed the top linkage plate, slid the box back about 5 mm to clear the locating dowel and rotated it to get it out, taking about 6 hours. He fitted a new mainshaft, a new fifth gear and a full bearing and seal kit. While it's out, replace the spigot bearing and front oil seal, and don't hang the box on the clutch plate when refitting.
+Tools: Transmission jack or a strong helper · axle stands · metric sockets and extensions · press and bearing pullers (or a gearbox shop) · bearing and seal kit
+
+#### Replace the front radius arm (castor) bushes
+Difficulty 3 / 5 · time Half a day with a press, longer if bolts are seized · cost Rubber front suspension bush kit about $154–192 AUD (Roadrunner Offroad); poly and caster-correction kits also sold
+Symptoms: Wandering or vague steering, clunks over bumps, and steering that's light or won't return to centre after a lift (caster has dropped).
+Fix: Support the chassis on stands with the wheels just on the ground to take spring preload off, and chock all four wheels. Put it in low range and first (or park) with the front hubs engaged to help hold the axle. You can do one arm at a time or both: one at a time keeps everything lined up, but you'll still need to loosen at least one bolt on the other arm so the diff can roll. Press out the old bushes and press in the new ones using the alignment arrows or tabs on the bushes; a simple jig made from old bolts on a length of RHS helps keep them square. If you've lifted the truck, use caster-correction bushes to bring the caster back. Lever the bolt holes into line with a big screwdriver, then torque everything with the truck's weight on the wheels.
+Tools: Press or bush tool · jack and axle stands · wheel chocks · large sockets and breaker bar · torque wrench · pry bar
+
+#### Bubbling dashboard: replacement and goodwill
+Difficulty 3 / 5 · time A dealer job: the whole dash top comes out · cost One 2005 owner was offered a free dash under goodwill but charged $480 labour (CarsGuide)
+Symptoms: Blisters, 'pimples' or bubbles in the top of the dash pad, getting worse in the sun.
+Fix: It's a known GU fault. Nissan Japan extended the warranty to seven years on specified Japanese wagons built August 2004 to June 2007 (per JDM Buy & Sell); in Australia owners describe a hidden service campaign covering affected VIN ranges for about five to six years, with dealers sometimes helping after that. If your dash is bubbling, ask a Nissan dealer, and contact Nissan customer service directly, about goodwill. The usual outcome owners report is a free dash with you paying the labour. A dash mat (Sunland and others make GU-specific ones) hides minor bubbling and protects a replacement from sun.
+Tools: Dealer job (dash removal)
 
 ### Baseline service
 Assume nothing has been done without receipts. On a GU, the job that matters most depends on the engine. A ZD30 needs proof of frequent oil changes and the revised oil level. A TD42 needs a cooling system that can cope with towing. Every GU needs the diff, transfer and hub servicing that bush trucks skip. Fluids and capacities below come from Nissan's Y61 service manual unless marked. Its maintenance schedules are the European ones, so check your own market's service book, and fill to the plug rather than by volume.

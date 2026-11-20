@@ -943,6 +943,7 @@ def main():
                 has_problems = len(page.get('buying_checks') or []) + len(page.get('repairs') or []) >= 5
                 has_years = bool(_bestq) or any(t.get('flag') in ('buy', 'avoid') for t in _tl)
                 has_tires = bool((x.get('fitment') or {}).get('max_tire'))
+                has_maint = bool((x.get('maintenance') or {}).get('schedule'))
                 # which FAQ answers have their home on a sub-page (used by the SPLIT pilot to link instead of repeating them)
                 _fh = {}
                 _gb = f'models/{slug}/{g["slug"]}/'
@@ -956,6 +957,7 @@ def main():
                         _fh[_f2['q']] = ('the problems page', _gb + 'problems.html')
                 has_lockers = bool(re.search(r'\blocker', json.dumps({k: page.get(k) for k in ('buying_checks', 'repairs', 'faq', 'engineering', 'plate')}), re.I))
                 tools = [(f'Specs, fluids & intervals', f'models/{slug}/{g["slug"]}/specs.html') if has_specs else None,
+                         ('Maintenance schedule', f'models/{slug}/{g["slug"]}/maintenance.html') if has_maint else None,
                          ('Common problems to check', f'models/{slug}/{g["slug"]}/problems.html') if has_problems else None,
                          ('Years to avoid & best years', f'models/{slug}/{g["slug"]}/years.html') if has_years else None,
                          ('Biggest tire at every lift', f'models/{slug}/{g["slug"]}/tires.html') if has_tires else None,
@@ -1006,6 +1008,16 @@ def main():
                            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_m} specs, fluids and service intervals', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/specs/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}] + ([{'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': _qa_ld}] if _qa_ld else []),
                            title=fit_title(f'{sname(slug, g) or _m} Specs, Fluid Capacities & Oil Type', f'{sname(slug, g) or _m} Specs & Fluid Capacities', f'{sname(slug, g) or _m} Specs'),
                            description=f'{_m} ({g.get("years", "")}) spec sheet, fluid capacities, oil grades, service intervals, wheel and tire sizes and parts numbers, on one printable page.'[:158], credits='')
+                if has_maint:
+                    _mm = mlabel(fam['maker'], page['title'])
+                    _sm = sname(slug, g) or _mm
+                    render('gen_maintenance.html', f'models/{slug}/{g["slug"]}/maintenance.html', '../../../', fam=fam, g=g, p=page, x=x, model=_mm,
+                           og_image=(f'img/{slug}/{page["hero_photo"]}' if page.get('hero_photo') else None),
+                           gen_href=f'../../../models/{slug}/{g["slug"]}.html', active='models', og_type='article',
+                           crumbs=[('Models', 'models/'), (f'{mlabel(fam["maker"], fam["name"])}', f'models/{slug}/'), (page['title'], f'models/{slug}/{g["slug"]}/'), ('Maintenance schedule', f'models/{slug}/{g["slug"]}/maintenance/')],
+                           jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'{_mm} maintenance schedule', 'url': SITE_URL + f'models/{slug}/{g["slug"]}/maintenance/', 'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL}}],
+                           title=fit_title(f'{_sm} Maintenance Schedule & Service Intervals', f'{_sm} Maintenance Schedule', f'{_sm} Service Intervals'),
+                           description=(x['maintenance'].get('description') or f'{_mm} ({g.get("years", "")}) maintenance schedule: what to service and when, severe-service intervals, age items, fluids and capacities.')[:158], credits='')
                 _sn = sname(slug, g) or mlabel(fam['maker'], page['title'])
                 _model = mlabel(fam['maker'], page['title'])
                 _gh = f'../../../models/{slug}/{g["slug"]}.html'
