@@ -252,7 +252,7 @@
    "diff": "2 / 5",
    "time": "An afternoon",
    "cost": "Aftermarket radiator ≈ $134 and trans cooler ≈ $39 (2014 prices quoted on 4Runners.com)",
-   "symptoms": "Coolant weeping from the bottom of the radiator — the driver's-side bottom is a common failure point on 4th gen V6s — or an old original radiator you don't trust with transmission cooling.",
+   "symptoms": "Coolant weeping from the bottom of the radiator — the driver's-side bottom is a common failure point on 4th gen V6s — or an old original radiator you don't trust with transmission cooling. The bigger risk is internal: the automatic's fluid cooler is inside the radiator, and when it fails coolant and ATF mix into a pink 'strawberry milkshake' in the overflow tank. ClubLexus owners report it on the shared GX 470 platform, and one says the transmission started shifting very poorly as soon as the fluids mixed.",
    "fix": "Remove the top trim and (optionally) the front bumper for access. Drain the radiator, unbolt the overflow tank, disconnect the transmission cooler lines on the driver's side (keep them upright), unbolt the fan shroud and the four radiator mounts, and lift it out. Mount an external cooler on the condenser, route the transmission lines through it, fit the new radiator, refill and bleed, then check transmission fluid level.",
    "tools": "Metric wrenches to 17 mm · hose-clamp pliers · drain pans · radiator · Hayden-type transmission cooler and hose",
    "parts": [
@@ -260,6 +260,21 @@
      "name": "Radiators & transmission coolers — 2004 4Runner catalog",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,2004,4runner"
+    }
+   ],
+   "know": [
+    "Check the coolant overflow tank for pink, milky fluid at every oil change; it's the earliest sign of an internal cooler leak.",
+    "If the fluids have mixed, owners replace the radiator, machine-flush the cooling system and flush the transmission fluid, and some still lose the transmission.",
+    "The external cooler means a radiator failure can no longer push coolant into the transmission."
+   ],
+   "mistakes": [
+    "Changing only the radiator after a milkshake and leaving contaminated ATF in the gearbox.",
+    "Filling the transmission by guesswork; one owner notes it has to be filled to the level-check procedure."
+   ],
+   "refs": [
+    {
+     "name": "ClubLexus: Radiator coolant and trans oil milkshake (GX 470 / 4th-gen 4Runner)",
+     "url": "https://clublexus.com/forums/gx-1st-gen-2003-2009/536604-radiator-coolant-trans-oil-mikeshake.html"
     }
    ]
   },
@@ -286,6 +301,21 @@
      "name": "Water pumps — 2005 4Runner catalog",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,2005,4runner"
+    }
+   ],
+   "know": [
+    "Toyota's 2004 schedule replaces the 2UZ-FE V8's timing belt at 90,000 miles; the V6 (1GR-FE) uses a chain.",
+    "The water pump is belt-driven, so it's always done with the belt.",
+    "The same job applies to the GX 470 and LX 470 with the 2UZ-FE."
+   ],
+   "mistakes": [
+    "Skipping the hydraulic tensioner and idlers to save money.",
+    "Not turning the crank two full turns by hand to check the marks before refitting the covers."
+   ],
+   "refs": [
+    {
+     "name": "Toyota 2004 4Runner Scheduled Maintenance Guide",
+     "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-044Runner/pdf/04u2smt.pdf"
     }
    ]
   },

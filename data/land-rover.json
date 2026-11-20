@@ -420,7 +420,7 @@
     "diff": "2 / 5",
     "time": "Short for the injector harness; much bigger if the main loom is contaminated",
     "cost": "Parts plus labor",
-    "symptoms": "Oil and dust on the ECU plug under the driver's seat, misfires or running issues.",
+    "symptoms": "Oil and dust on the ECU plug under the driver's seat, misfires or running issues. AULRO owners report that oil reaching the ECU plug can cause electrical interference badly enough that the Td5 will only idle.",
     "fix": "The injector harness lives inside the rocker cover; oil wicks out through the plug seal and along the main loom to the ECU. Remove the acoustic cover, unplug the barrel connector and check for oil. Replace the injector harness; if oil has reached the main engine loom, replace that too. Light contamination can be flushed with contact cleaner, but replacement is the real fix.",
     "tools": "Basic hand tools, contact cleaner · genuine injector harness",
     "parts": [
@@ -433,6 +433,21 @@
       "name": "Td5 injector harness and rocker cover gasket",
       "supplier": "Rovers North",
       "url": "https://roversnorth.com/search.aspx?q=td5+injector+harness"
+     }
+    ],
+    "know": [
+     "AULRO members explain that oil gets into the core of the wires and creeps along by capillary action, from worn O-rings in the connector near the head; one owner also blames a leaking rocker cover gasket.",
+     "One owner replaced the injector harness, rocker cover gasket and cam plug for about 800 (AUD) with genuine parts and specialist labour.",
+     "A new loom fixes the leak, but one member warns it may only reset the clock if the source isn't sealed."
+    ],
+    "mistakes": [
+     "Injecting sealant into the loom; members say it's been tried and oil eats most sealants.",
+     "Ignoring oil on the main harness, which is a far bigger job than the injector loom."
+    ],
+    "refs": [
+     {
+      "name": "AULRO: Motor oil seeps through cable into ECU (Td5)",
+      "url": "https://www.aulro.com/afvb/archive/index.php/t-121256.html"
      }
     ]
    },

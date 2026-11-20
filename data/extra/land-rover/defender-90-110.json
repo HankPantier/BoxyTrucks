@@ -486,5 +486,106 @@
    "name": "Haynes — Land Rover 90/110/Defender routine maintenance guide, diesel engines 1983–2007 (roadwheel nut torques)",
    "url": "https://haynes.com/en-gb/tips-tutorials/land-rover-90-110-defender-routine-maintenance-guide-diesel-engines-1983-2007"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Rover 90 / 110 / Defender diesel maintenance schedule from Haynes: oil every 6,000 mi, filters and gearbox at 12,000–24,000, axle, transfer and swivel oil at 24,000, timing belt at 60,000 mi or 5 years (Tdi), with Td5 differences.",
+  "intro": "Haynes's routine maintenance guide for the diesel 90, 110 and Defender (1983–2007) follows the factory schedule, and splits the Td5 from the earlier Tdi and naturally aspirated diesels. The Td5 has no timing belt but adds an oil centrifuge rotor. Both run on a 6,000-mile oil change, with weekly checks every 250 miles.",
+  "schedule_note": "From Haynes's Land Rover 90/110/Defender diesel routine maintenance guide (1983–2007). Shown as Tdi/earlier diesels vs Td5 where they differ. Puma (2.4/2.2 TDCi) Defenders from 2007 have their own schedule.",
+  "schedule": [
+   {
+    "at": "Every 250 mi",
+    "items": [
+     "Check engine oil, coolant, washer and brake/clutch fluid levels, tyres and battery"
+    ]
+   },
+   {
+    "at": "Every 6,000 mi",
+    "items": [
+     "Engine oil (and filter on non-Td5)",
+     "Check gearbox, transfer and axle oil levels (pre-1995)"
+    ]
+   },
+   {
+    "at": "Every 12,000 mi",
+    "items": [
+     "Non-Td5: main gearbox oil, fuel filter and air filter",
+     "Td5: renew the oil centrifuge rotor, drain the fuel sedimenter",
+     "Check transfer and axle oil levels"
+    ]
+   },
+   {
+    "at": "Every 18,000 mi / 18 months (non-Td5)",
+    "items": [
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Every 24,000 mi",
+    "items": [
+     "Transfer box oil, front and rear axle oil",
+     "Non-Td5: swivel housing oil; check injectors and turbo boost",
+     "Td5: fuel filter, air filter, main gearbox oil and brake fluid"
+    ]
+   },
+   {
+    "at": "Every 36,000 mi",
+    "items": [
+     "Non-Td5: check steering box oil, replace the servo air filter, brake seals and flexible hoses (or 3 years)",
+     "Td5: oil filter cartridge and coolant"
+    ]
+   },
+   {
+    "at": "Every 48,000 mi",
+    "items": [
+     "Clean the intercooler",
+     "Td5: brake hydraulic seals, servo filter and flexible hoses (or 48 months)"
+    ]
+   },
+   {
+    "at": "60,000 mi / 5 years (non-Td5)",
+    "items": [
+     "Timing belt (36,000 mi in harsh conditions)"
+    ]
+   },
+   {
+    "at": "Every 2 years (non-Td5)",
+    "items": [
+     "Coolant"
+    ]
+   }
+  ],
+  "severe": "Haynes brings the Tdi timing belt forward to 36,000 miles in harsh conditions. After wading, check the axles, swivels, gearbox and transfer box for water. Later trucks use one-shot grease in the swivels instead of oil.",
+  "age_items": [
+   {
+    "item": "Chassis outriggers and rear crossmember",
+    "when": "Once a year",
+    "why": "The classic Defender rot points."
+   },
+   {
+    "item": "Bulkhead footwells",
+    "when": "Once a year",
+    "why": "They rot from the inside, hidden under the mats."
+   },
+   {
+    "item": "Swivel housings",
+    "when": "Every service",
+    "why": "Weeping seals mean grease or oil on the inside of the wheel."
+   },
+   {
+    "item": "Td5 injector loom",
+    "when": "Look for oil at the ECU plug",
+    "why": "Oil wicks along the wiring to the ECU."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Haynes: Land Rover 90/110/Defender routine maintenance guide, diesel engines 1983–2007",
+    "url": "https://haynes.com/en-gb/tips-tutorials/land-rover-90-110-defender-routine-maintenance-guide-diesel-engines-1983-2007"
+   },
+   {
+    "name": "AULRO: Motor oil seeps through cable into ECU (Td5)",
+    "url": "https://www.aulro.com/afvb/archive/index.php/t-121256.html"
+   }
+  ]
+ }
 }

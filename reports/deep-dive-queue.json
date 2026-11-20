@@ -291,7 +291,12 @@
   },
   {
    "gen": "land-rover/defender-90-110",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "Swivel top-up, LT230 seal, outrigger and bulkhead guides still thin"
   },
   {
    "gen": "land-cruiser/fj-cruiser",
@@ -312,7 +317,12 @@
   },
   {
    "gen": "4runner/4th-gen",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 0,
+   "deepened": 2,
+   "maintenance": true,
+   "note": "Rear air, hub and VSC guides still thin"
   },
   {
    "gen": "4runner/6th-gen",

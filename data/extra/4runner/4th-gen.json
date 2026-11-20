@@ -274,5 +274,86 @@
    "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
    "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "4th-gen 4Runner (2003–2009) maintenance schedule from Toyota's 2004 guide: oil every 5,000 mi, propshaft lube every 15,000, air and cabin filters every 30,000, V8 timing belt at 90,000, coolant at 100,000, plus towing and dirt-road items.",
+  "intro": "Toyota's 2004 4Runner Scheduled Maintenance Guide runs on a 5,000-mile / 6-month oil change with the propeller shafts lubricated and re-torqued every 15,000 miles. The 4.7 V8 (2UZ-FE) needs a timing belt at 90,000 miles; the 4.0 V6 uses a chain. Diffs, transfer case and transmission are inspection items unless you tow. On a 2003–04 truck, check the radiator before anything else.",
+  "schedule_note": "From Toyota's 2004 4Runner Scheduled Maintenance Guide. Spark plug intervals differ between engines in the guide; check yours. Later 4th-gen years are similar.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Engine oil and filter",
+     "Rotate tires and inspect the brakes"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi",
+    "items": [
+     "Lubricate the propeller shafts and re-torque their bolts",
+     "Inspect ball joints, brake lines, boots, coolant, exhaust and front diff oil"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Engine air filter and cabin filter",
+     "Measure brake thickness and runout",
+     "Inspect transmission fluid"
+    ]
+   },
+   {
+    "at": "60,000 and 120,000 mi",
+    "items": [
+     "Everything in the 30,000-mile service",
+     "Inspect drive belts (then every 15,000 mi) and valve clearance"
+    ]
+   },
+   {
+    "at": "90,000 mi",
+    "items": [
+     "Timing belt (2UZ-FE V8), with the water pump"
+    ]
+   },
+   {
+    "at": "100,000 mi, then every 50,000 mi / 60 months",
+    "items": [
+     "Engine coolant"
+    ]
+   }
+  ],
+  "severe": "Desert or dirt roads: inspect ball joints, boots, air filter and steering linkage and lubricate the propshafts every 5,000 miles, and replace the air filter every 15,000. Salted roads: lubricate the propshafts every 5,000. Towing: front and rear diff oil every 15,000, transfer case every 30,000, and transmission fluid at 60,000 and 120,000.",
+  "age_items": [
+   {
+    "item": "Radiator and internal transmission cooler",
+    "when": "Check the overflow tank at every oil change",
+    "why": "A failed cooler mixes coolant into the ATF."
+   },
+   {
+    "item": "Rear air suspension (Limited)",
+    "when": "Check it holds height overnight",
+    "why": "Many owners convert to coils."
+   },
+   {
+    "item": "Front wheel bearings",
+    "when": "Every service",
+    "why": "A hum that rises with speed means a hub is due."
+   },
+   {
+    "item": "VSC / TRAC light",
+    "when": "If it comes on after alignment or battery work",
+    "why": "Often just needs a zero-point calibration."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota 2004 4Runner Scheduled Maintenance Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-044Runner/pdf/04u2smt.pdf"
+   },
+   {
+    "name": "ClubLexus: Radiator coolant and trans oil milkshake (GX 470 / 4th-gen 4Runner)",
+    "url": "https://clublexus.com/forums/gx-1st-gen-2003-2009/536604-radiator-coolant-trans-oil-mikeshake.html"
+   }
+  ]
+ }
 }
