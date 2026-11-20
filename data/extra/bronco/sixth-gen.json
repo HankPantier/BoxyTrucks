@@ -405,5 +405,95 @@
    "name": "Ford — 2021 Bronco Owner's Manual (PDF)",
    "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2021-Ford-Bronco-Owners-Manual-version-1B_om_EN-US_03_2021.pdf"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Ford Bronco (2021 on) maintenance schedule from Ford's 2021 owner's manual: oil by the oil-life monitor (never over 10,000 mi or a year, 5,000 off-road), cabin filter every 20,000, air filter every 30,000, plugs at 100,000, 10-speed at 100,000, axles and transfer case at 150,000.",
+  "intro": "Ford's 2021 Bronco owner's manual runs the oil change off the Intelligent Oil-Life Monitor, but never more than a year or 10,000 miles, and the off-road operation schedule sets it at 5,000 miles or six months. The long intervals are generous: axles and transfer case at 150,000 miles, coolant at 10 years. Most owners who wheel their Broncos change the driveline fluids far sooner, especially after water.",
+  "schedule_note": "From the 2021 Ford Bronco owner's manual, as quoted in our buyer's baseline. Later model years may differ; check your manual and the FordPass maintenance schedule for your VIN.",
+  "schedule": [
+   {
+    "at": "At the oil-life monitor (max 1 year / 10,000 mi)",
+    "items": [
+     "Engine oil and filter (Ford expects 7,500–10,000 mi normally, 5,000–7,500 towing or off-road, 3,000–5,000 at maximum load)"
+    ]
+   },
+   {
+    "at": "Every 5,000 mi / 6 months (off-road operation schedule)",
+    "items": [
+     "Engine oil and filter",
+     "Inspect the air filter frequently on dusty or off-road use"
+    ]
+   },
+   {
+    "at": "Every 20,000 mi",
+    "items": [
+     "Cabin air filter"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Engine air filter"
+    ]
+   },
+   {
+    "at": "Every 3 years",
+    "items": [
+     "Brake and clutch fluid"
+    ]
+   },
+   {
+    "at": "Every 100,000 mi",
+    "items": [
+     "Spark plugs (every 60,000 mi if you tow or idle a lot)",
+     "10-speed automatic fluid and filter"
+    ]
+   },
+   {
+    "at": "Every 150,000 mi, or sooner if leaking or submerged",
+    "items": [
+     "Transfer case",
+     "Front and rear axles"
+    ]
+   },
+   {
+    "at": "10 years / 200,000 mi, then every 5 years / 100,000 mi",
+    "items": [
+     "Engine coolant"
+    ]
+   }
+  ],
+  "severe": "Ford's off-road schedule sets oil at 5,000 miles or six months and asks for frequent air filter checks. Change the axles and transfer case after any water crossing deep enough to reach them, and more often on a towing truck or one on 35s.",
+  "age_items": [
+   {
+    "item": "Front suspension fasteners and recalls",
+    "when": "At purchase",
+    "why": "Four campaigns cover loose upper ball-joint nuts and lower control-arm bolts."
+   },
+   {
+    "item": "Rear shock reservoirs (Bilstein / HOSS 2.0)",
+    "when": "Every winter in salt country",
+    "why": "Owners report corrosion on the reservoirs."
+   },
+   {
+    "item": "Hardtop",
+    "when": "Inspect yearly",
+    "why": "Crazing, delamination and leaks are known complaints."
+   },
+   {
+    "item": "Fender flares",
+    "when": "After washes and trail days",
+    "why": "They work loose."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Ford: 2021 Bronco owner's manual, scheduled maintenance (in our buyer's baseline)"
+   },
+   {
+    "name": "NHTSA recall 25V-308 (via Justia)",
+    "url": "https://auto-recalls.justia.com/ford/bronco/2024/25v308000"
+   }
+  ]
+ }
 }
