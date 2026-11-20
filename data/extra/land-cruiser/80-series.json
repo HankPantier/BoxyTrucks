@@ -301,5 +301,91 @@
    "name": "IH8MUD — Birf repack (tech article, torque values)",
    "url": "https://www.ih8mud.com/tech/birf-repack.php"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Cruiser 80 Series maintenance schedule from Toyota's 1997 US guide: oil every 15,000 mi, knuckle and driveshaft grease, coolant, plugs and air filter every 30,000, valve clearance at 60,000, plus towing items.",
+  "intro": "Toyota's 1997 US maintenance guide for the Land Cruiser (FZJ80) was posted on IH8MUD, and it's the clearest factory schedule for the 80 we've found. It runs on 15,000-mile / 12-month services with the big items every 30,000. Most owners change oil far more often than 15,000 miles; the schedule is the minimum, not a target. Diesel 80s (1HZ, 1HD-T) follow their own markets' books.",
+  "schedule_note": "Toyota 1997 Land Cruiser maintenance schedule (US, 1FZ-FE petrol), as posted on IH8MUD. Earlier 3F-E trucks and diesels differ; check your book.",
+  "schedule": [
+   {
+    "at": "Every 15,000 mi / 12 months",
+    "items": [
+     "Replace engine oil and filter",
+     "Grease the steering knuckles",
+     "Lubricate the driveshafts and re-torque their bolts",
+     "Rotate tires",
+     "Inspect transmission and diff fluid, ball joints and boots, brakes, exhaust, steering box and linkage"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 24 months",
+    "items": [
+     "Replace the air filter and coolant",
+     "Replace spark plugs (non-platinum)",
+     "Repack the front wheel bearings and grease the driveshaft bushing",
+     "Inspect transmission, transfer and diff fluid, drive belts, fuel lines and the fuel cap gasket"
+    ]
+   },
+   {
+    "at": "60,000 mi / 48 months",
+    "items": [
+     "Everything in the 30,000-mile service",
+     "Inspect and adjust valve clearance",
+     "Inspect the drive belts"
+    ]
+   },
+   {
+    "at": "90,000 mi / 72 months",
+    "items": [
+     "Everything in the 30,000-mile service"
+    ]
+   },
+   {
+    "at": "120,000 mi / 96 months",
+    "items": [
+     "Everything in the 60,000-mile service, including valve clearance"
+    ]
+   }
+  ],
+  "severe": "Toyota's special conditions: on rough, muddy or salted roads, check the chassis and body nuts and bolts at each service. On dusty roads, inspect the air filter at every 15,000-mile service. When towing or carrying a camper or roof load, also replace the automatic transmission and diff fluid at 15,000 miles and the transmission, transfer and diff fluid at each 30,000-mile service. Slee's guide suggests the front diff about every 20,000 km with ARB Air Lockers.",
+  "age_items": [
+   {
+    "item": "Pesky heater hose and rear heater lines",
+    "when": "At purchase",
+    "why": "Both are known coolant-loss points on a 25-plus-year-old truck."
+   },
+   {
+    "item": "Frame at the steering box and Panhard mount",
+    "when": "Every service",
+    "why": "Cracks here cause wandering under braking."
+   },
+   {
+    "item": "Starter contacts",
+    "when": "When it clicks without cranking",
+    "why": "A well-known 80 Series failure."
+   },
+   {
+    "item": "Front knuckles and Birfields",
+    "when": "Pull the knuckle fill plug at purchase",
+    "why": "Water or milky grease means a rebuild is due."
+   }
+  ],
+  "sources": [
+   {
+    "name": "IH8MUD: 1997 maintenance schedule (Toyota)",
+    "url": "https://forum.ih8mud.com/threads/1997-maintenance-schedule.84134/"
+   },
+   {
+    "name": "IH8MUD: Heater lines cracked and leaked out all my coolant",
+    "url": "https://forum.ih8mud.com/threads/heater-lines-cracked-and-leaked-out-all-my-coolant.927094/"
+   },
+   {
+    "name": "IH8MUD: Chassis cracks at the steering box",
+    "url": "https://forum.ih8mud.com/threads/chassis-has-cracked-around-steering-box-and-front-panhard-mount-again.1243256"
+   },
+   {
+    "name": "Slee Offroad: 80 Series service guide"
+   }
+  ]
+ }
 }

@@ -655,8 +655,8 @@
     "title": "Reinforce the frame at the steering box",
     "diff": "4 / 5",
     "time": "≈ A day, with welding",
-    "cost": "Parts plus labor",
-    "symptoms": "Cracks in the frame around the steering-box mounts, a loose-feeling steering box, or wandering steering on a truck with big tires.",
+    "cost": "One IH8MUD member puts a plate at about $80 and the job at a day, under $700 total; another budgeted up to A$2,000 at a shop",
+    "symptoms": "Wandering and oversteer, especially under hard braking, a new noise or loose-feeling steering, and visible cracks or movement around the steering box and front Panhard rod mount. IH8MUD members say it's more common with big tires and hard wheeling but happens on stock road trucks too.",
     "fix": "Clean the frame around the steering box and inspect it closely. Have any cracks stopped and repaired, then weld on a fabricated reinforcement plate, which several 4x4 fabricators sell for the 80. While you're there, check the box mounting bolts and the upper Panhard-rod frame mount.",
     "tools": "Welder and grinder (or a fab shop) · reinforcement plate · torque wrench.",
     "parts": [
@@ -669,6 +669,21 @@
       "name": "Power steering gear seal kit, FJ80/FZJ80/LX450 1990–97 (while the box is out)",
       "supplier": "Cruiser Corps",
       "url": "https://www.cruisercorps.com/products/power-steering-gear-seal-kit-fj80-fzj80-lx450-1990-1997"
+     }
+    ],
+    "know": [
+     "One member says it's more of a problem on early 80s, because later trucks got internal frame reinforcement around the box mounts.",
+     "Rampt Customs in Australia sells plate kits; right-hand-drive kits may need mirroring for left-hand-drive trucks.",
+     "Some owners have the area plated before it cracks as preventive work."
+    ],
+    "mistakes": [
+     "Welding a crack without a plate; the original poster's 10-year-old repair cracked again because it wasn't plated.",
+     "Fishplating in a way that hides the area; one member chose a single triangulated T plate so future cracks stay visible."
+    ],
+    "refs": [
+     {
+      "name": "IH8MUD: Chassis has cracked around steering box and front panhard mount again",
+      "url": "https://forum.ih8mud.com/threads/chassis-has-cracked-around-steering-box-and-front-panhard-mount-again.1243256"
      }
     ]
    },
@@ -690,6 +705,65 @@
       "name": "DOT 3 brake fluid for the post-adjustment bleed (1995 4.5L)",
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/toyota,1995,land+cruiser,4.5l+l6,1276680,brake+&+wheel+hub,brake+fluid,11389"
+     }
+    ]
+   },
+   {
+    "title": "Check and adjust the valve clearances (1FZ-FE)",
+    "diff": "3 / 5 (check) · 4 / 5 (adjust)",
+    "time": "A leisurely Saturday to check (IH8MUD); longer if shims have to be ordered",
+    "cost": "A valve cover gasket set, plus shims if any are out of spec",
+    "symptoms": "Usually none. Toyota's 1997 schedule lists a valve clearance inspection at 60,000 miles / 48 months and again at 120,000. Most trucks for sale are well past that with no record of it. Ticking valvetrain noise or a dead miss can point to a tight or loose valve.",
+    "fix": "The 1FZ-FE uses shims over the buckets. Disconnect the battery, remove the plugs and valve cover, and set No. 1 cylinder to TDC on compression. Measure the valves the factory manual lists for that position with a feeler gauge and write every reading down, then turn the crank one full turn and measure the rest. For any valve out of spec, depress the bucket with the tappet tool, remove the shim, measure its thickness with a micrometer and work out the new one: new shim = old shim + (measured clearance − specified clearance). Toyotaman's 1FZ-FE guide lists 17 shim sizes from 2.500 to 3.300 mm in 0.050 mm steps. Take the specified clearances from the factory repair manual for your engine. Note that adjusting the No. 6 cylinder's valves means removing the camshafts.",
+    "tools": "Factory repair manual · feeler gauges · micrometer · valve tappet depressor tool · magnetic pick · valve cover gasket set",
+    "parts": [],
+    "know": [
+     "IH8MUD owners disagree on how often the 1FZ's valves go out of spec: one recalls very few, another a truck that needed nearly all of them changed. Checking is the only way to know.",
+     "Do the valve cover gasket and throttle body gasket while you're in there, and clean the throttle body and check the PCV, as IH8MUD members suggest.",
+     "Check first and order shims to suit, so the engine isn't left open waiting for parts."
+    ],
+    "mistakes": [
+     "Measuring without writing every valve down.",
+     "Guessing the clearance spec; take it from the factory manual for your engine."
+    ],
+    "cost_note": "No source gives a cost; shims are cheap, the time is the job.",
+    "refs": [
+     {
+      "name": "IH8MUD: 1997 maintenance schedule (Toyota)",
+      "url": "https://forum.ih8mud.com/threads/1997-maintenance-schedule.84134/"
+     },
+     {
+      "name": "IH8MUD: Adjusting valves, how many hours?",
+      "url": "https://forum.ih8mud.com/threads/adjusting-valves-how-many-hours.136849/"
+     },
+     {
+      "name": "Toyotaman: 1FZ-FE valve clearance check and adjustment",
+      "url": "https://www.toyotaman.ru/en/Land_Cruiser/J60_p/main/service/zazory-v-klapanah-na-dvigatele-1fz-fe"
+     }
+    ]
+   },
+   {
+    "title": "Rear heater lines: replace or bypass before they rust through",
+    "diff": "2 / 5 (bypass) · 3 / 5 (replace)",
+    "time": "An hour or two to bypass; most of a day to replace the lines (estimate)",
+    "cost": "Hose and clamps for a bypass; replacement lines and hoses to keep the rear heat",
+    "symptoms": "A sudden loss of coolant, often with no warning. IH8MUD members describe the steel pipes that run back to the rear heater core as the weak point: they run above the exhaust, rust from outside, and eventually crack.",
+    "fix": "Get under the truck and inspect the rear heater pipes along their run above the exhaust. If they're crusty, either replace them and their rubber hoses, or bypass the rear heater: join the supply and return at the engine bay with a straight length of heater hose, cut to fit, so coolant no longer goes to the back. Several IH8MUD members bypass it as preventive maintenance even when it works. Use good hose (one member suggests Gates Green) and constant-torque clamps such as Breeze stainless. Some owners fit a full silicone hose kit (HPS) covering the firewall hoses and the pesky heater hose at the same time. Refill and bleed the cooling system.",
+    "tools": "Hose cutter · clamps · drain pan · Toyota red long-life coolant · jack stands",
+    "parts": [],
+    "know": [
+     "Owners in cold climates rate the rear heater highly; others barely use it. Decide before you buy parts.",
+     "Check the pesky heater hose (PHH) on the driver's side of the block at the same time; members call it a bomb waiting to happen."
+    ],
+    "mistakes": [
+     "Leaving rusted lines in place after a scare; the next leak can empty the system.",
+     "Over-tightening worm clamps on silicone hose; use clamps with a liner."
+    ],
+    "cost_note": "The thread names no prices.",
+    "refs": [
+     {
+      "name": "IH8MUD: Heater lines cracked and leaked out all my coolant",
+      "url": "https://forum.ih8mud.com/threads/heater-lines-cracked-and-leaked-out-all-my-coolant.927094/"
      }
     ]
    }
