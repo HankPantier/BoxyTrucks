@@ -3,11 +3,20 @@
  "queue": [
   {
    "gen": "nissan-patrol/y61",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 4,
+   "deepened": 0,
+   "maintenance": true
   },
   {
    "gen": "nissan-patrol/y60",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-20",
+   "added": 1,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "No GQ factory schedule online; baseline + owner intervals"
   },
   {
    "gen": "lexus/gx550",

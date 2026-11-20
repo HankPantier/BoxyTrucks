@@ -245,5 +245,85 @@
    "name": "Nissan Patrol Four Wheel Drive Club of NSW and ACT",
    "url": "https://nissanpatrolclub.org/"
   }
- ]
+ ],
+ "maintenance": {
+  "intro": "Nissan's GQ service schedule isn't published online, so this page gives you the baseline to do on a truck that's now 29 to 39 years old, the intervals owners and specialists report, and the checks that catch the GQ's known faults early.",
+  "description": "Nissan Patrol Y60 (GQ) maintenance: what to service when you buy one, owner-reported intervals for TD42 tappets and RD28/RB30 timing belts, and the GQ's known weak spots.",
+  "schedule_note": "We couldn't find Nissan's factory GQ schedule online, so nothing here is a factory interval. The first row is a baseline to do at purchase; the rest are intervals owners and specialists report. Check the service book if you have it.",
+  "schedule": [
+   {
+    "at": "At purchase (no records)",
+    "items": [
+     "Engine oil and filter, fuel filter, air filter",
+     "Gearbox, transfer case, both diffs (rear is an LSD on many trucks: use LSD oil)",
+     "Coolant flush, hoses and belts if original or soft",
+     "Brake fluid flush; inspect pads, shoes and hoses",
+     "Inspect the swivel hubs and front wheel bearings; repack and reseal if there's oil or play",
+     "Automatic (RE4R03A): drain and fill if there's no record",
+     "Petrol: spark plugs, coil lead and distributor cap (Carsales says the coil leads corrode and crack the cap)"
+    ]
+   },
+   {
+    "at": "About every 20,000 km",
+    "items": [
+     "TD42: check and set the tappets (one forum member's interval; he sets 0.35 mm at ambient)"
+    ]
+   },
+   {
+    "at": "About 100,000 km",
+    "items": [
+     "RD28T and RB30: timing belt, tensioner and idler (ExplorOz owners' figure; TD42 and TB42 have gear-driven cams, no belt)"
+    ]
+   },
+   {
+    "at": "After every deep water crossing",
+    "items": [
+     "Front and rear diffs, transfer case and gearbox: check for water",
+     "Swivel hubs and front wheel bearings: repack"
+    ]
+   }
+  ],
+  "severe": "Towing, dust and sand work the TD42's cooling hardest: Carsales notes the TD42 ran hot even naturally aspirated, especially in soft beach sand. Keep the radiator, fan clutch and coolant in top condition, and change oil and filters more often than you would on a road car.",
+  "age_items": [
+   {
+    "item": "Rear axle seals",
+    "when": "Check at every service",
+    "why": "The GQ's most common fault per Carsales; oil on the backing plate or brakes means seals."
+   },
+   {
+    "item": "Panhard rod and radius arm bushes",
+    "when": "When the steering shimmies or wanders",
+    "why": "Worn bushes are a common cause of the 70–80 km/h shimmy."
+   },
+   {
+    "item": "Rear coil springs and body mounts",
+    "when": "Inspect, especially on towing trucks",
+    "why": "Owners report sagging springs and worn body mounts on hard-worked GQs."
+   },
+   {
+    "item": "Fuel tank",
+    "when": "Inspect around the drain plug",
+    "why": "Carsales reports cracked tanks around the drain plug on hard-worked Patrols."
+   },
+   {
+    "item": "Seats",
+    "when": "Check recliners and runners",
+    "why": "Carsales says broken recliner mechanisms and floor runners are common on worked trucks."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Carsales: buying a used Nissan Patrol 1988–2010",
+    "url": "https://www.carsales.com.au/editorial/details/buying-a-used-nissan-patrol-1988-2010-22866"
+   },
+   {
+    "name": "ExplorOz: problems with GQ series Patrols",
+    "url": "https://www.exploroz.com/forum/50064/problems-with-gq-series-patrols"
+   },
+   {
+    "name": "NissanPatrol.com.au forum: GQ servicing",
+    "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-10013.html"
+   }
+  ]
+ }
 }
