@@ -23,7 +23,7 @@ VOICE = [
  "So this is a nineteen ninety-seven Defender one-ten, in Arles Blue. Riverhouse Land Rover in the Netherlands sent it in.",
  "It's a matching-numbers truck out of southern Spain, and it still has the three hundred T D I. That's the simple, mechanical diesel most people want.",
  "Underneath, the axle ends were rebuilt with new hubs, bearings, brakes, shocks and springs.",
- "Inside? Nine seats, heated fronts, new air conditioning, and Apple CarPlay. In a Defender. Honestly? We'll allow it.",
+ "Inside? Nine seats, heated fronts, new air conditioning, and Apple CarPlay. In a Defender.",
  "It's old enough to import to the U S, and yes, it's for sale. The full story is up on boxy trucks dot com.",
 ]
 # (kind, sources, eyebrow, on-screen title); a clip source is (name, start seconds)

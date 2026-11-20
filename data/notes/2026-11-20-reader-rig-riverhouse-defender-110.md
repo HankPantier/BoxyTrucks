@@ -1,10 +1,10 @@
 ---
-title: "A 300Tdi Defender 110 with air conditioning and CarPlay. We'll allow it."
+title: "A 300Tdi Defender 110 with air conditioning and CarPlay"
 seo_title: "Reader rig: Riverhouse Land Rover's 1997 Defender 110 300Tdi Station Wagon in Arles Blue"
 kicker: SHOW US YOUR RIG
 category: rig
 date: 2026-11-20
-status: draft
+status: published
 dek: "Riverhouse Land Rover in the Netherlands sent us a 1997 Defender 110 Station Wagon they brought up from Córdoba, Spain: matching numbers, the 300Tdi, rebuilt axle ends, nine seats and a few modern comforts. It's a dealer's truck and it's for sale, so read it as a build worth studying."
 image: img/rigs/riverhouse-110/riverhouse-110-front-three-quarter.jpg
 image_alt: "A blue 1997 Land Rover Defender 110 Station Wagon with a cream roof and cream steel wheels on mud-terrain tires, parked on a leaf-covered lane"
