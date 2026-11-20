@@ -523,15 +523,35 @@
    {
     "title": "Front differential support upgrade (2003–early 2005)",
     "diff": "3 / 5",
-    "time": "≈ 2–3 hours (estimate)",
-    "cost": "Parts plus labor",
+    "time": "≈ 30 minutes once the skid plate is off (one owner); allow 1–2 hours",
+    "cost": "The revised support part (52380-60021)",
     "symptoms": "Usually nothing until it breaks. GXOR warns that the original passenger-side front differential support can fail catastrophically, which can take out nearby parts, the oil pan included, and the engine with it.",
-    "fix": "Lexus revised the passenger-side front differential support for 2006, and some 2005s got the new part at the factory. On a 2003 to early-2005 truck, get under the passenger side of the front diff and read the number on the support. The revised part is ordered as 52380-60021 but stamped 52391-60021. If yours is the old one, take the diff's weight on a jack, unbolt the old support, fit the revised one and torque the bolts to factory spec.",
+    "fix": "Lexus revised the passenger-side front differential support for 2006, and some 2005s got the new part at the factory. On a 2003 to early-2005 truck, read the number on the support under the passenger side of the front diff; the revised part is ordered as 52380-60021 but stamped 52391-60021. To swap it, the procedure owners follow on IH8MUD is: remove the factory skid plate (the hardest part), support the diff with a floor or bottle jack without lifting it, and loosen the three bolts (a 22 mm frame bolt and two 19 mm diff bolts). Remove the rear diff bolt, then the frame bolt while holding the 19 mm nut on top, then the center bolt. Note the large washers and which way they sit. Fit the new support with the center bolt first, then the front and back, snug all three, and torque them: the IH8MUD write-up gives 118 lb-ft for the diff bolts and 101 lb-ft for the frame bolt. Check those figures against your repair manual before you rely on them.",
     "tools": "Floor jack and stands · socket set · torque wrench · revised support 52380-60021 (stamped 52391-60021)",
     "parts": [
      {
       "name": "Support, front differential No. 2 (52380-60021)",
       "supplier": "Lexus Genuine Parts",
+      "url": "https://parts.lexus.com/search?search_str=52380-60021"
+     }
+    ],
+    "know": [
+     "IH8MUD members describe the old support as 'known to catastrophically fail', and call this mount a weak point on the 120 platform and the FJ Cruiser.",
+     "A loose support bolt can show up first as a clunk when shifting between drive and reverse.",
+     "The same support is shared with the 4th-gen 4Runner and FJ Cruiser of the same years, so their threads apply."
+    ],
+    "mistakes": [
+     "Under-torquing: one owner snugged the bolts to about 10 lb-ft and the clunk stayed until he torqued them properly.",
+     "Losing a washer: the top washer is easy to miss on reassembly.",
+     "One owner's rear bolt backed out later; he refitted it with threadlocker."
+    ],
+    "refs": [
+     {
+      "name": "IH8MUD: Differential support #2 replacement",
+      "url": "https://forum.ih8mud.com/threads/differential-support-2-replacement.1004171/"
+     },
+     {
+      "name": "Lexus Parts: front differential support 52380-60021",
       "url": "https://parts.lexus.com/search?search_str=52380-60021"
      }
     ]
@@ -559,6 +579,68 @@
       "name": "Intake manifold gasket, 2006 GX 470",
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/lexus,2006,gx470,4.7l+v8,1432805,engine,intake+manifold+gasket,5424"
+     }
+    ]
+   },
+   {
+    "title": "Driveshaft clunk when stopping or pulling away",
+    "diff": "1 / 5 (grease) · 2 / 5 (new shaft)",
+    "time": "≈ 30 minutes to grease; 1–2 hours to swap the shaft (estimate)",
+    "cost": "A grease gun and moly grease to start; a new propeller shaft if greasing doesn't hold",
+    "symptoms": "A single clunk from under the truck as you come to a stop or pull away, which ClubLexus owners describe as feeling like a bump from behind at or after stopping. It often fades after greasing and comes back months later.",
+    "fix": "Start with grease. Get under the truck and find the zerk fittings on the rear propeller shaft (the slip joint and U-joints) and on the front shaft's U-joints. Wipe each fitting, then pump moly grease in. One ClubLexus owner gave each fitting about 11 to 16 pumps, until the shaft just started to move; another says to stop when you feel resistance. If the clunk keeps returning, Lexus issued a TSB that replaces the propeller shaft; owners in the same thread quote the new shaft as part 37110-60A40. One owner says the new shaft cured it at once at 72,000 miles, but another says the clunk came back, so grease first and treat the new shaft as the last step.",
+    "tools": "Grease gun · moly grease · rag · jack stands if you need room · replacement zerk fittings",
+    "parts": [
+     {
+      "name": "Rear propeller shaft (37110-60A40, quoted by owners)",
+      "supplier": "Lexus Genuine Parts",
+      "url": "https://parts.lexus.com/search?search_str=37110-60A40"
+     }
+    ],
+    "know": [
+     "The ClubLexus thread is titled after a TSB, but the posts don't print the bulletin number. Ask a Lexus dealer to look it up against your VIN.",
+     "Several owners report that greasing alone kept the clunk away for about 15,000 miles; one greases it 'every third or fifth oil change or when the noise comes back'.",
+     "The same grease points need attention after deep water crossings (see the maintenance schedule)."
+    ],
+    "mistakes": [
+     "Cheap zerk fittings break. One owner snapped aftermarket ones and replaced them with genuine Toyota fittings.",
+     "Don't pay for a new shaft before you've greased the old one. One owner was quoted $1,500 at a dealer without being told grease might fix it."
+    ],
+    "cost_note": "The only price in the sources is one owner's $1,500 dealer quote; get your own quote before agreeing to a shaft.",
+    "refs": [
+     {
+      "name": "ClubLexus: Clunk fix with new TSB",
+      "url": "https://www.clublexus.com/forums/gx-1st-gen-2003-2009/212350-clunk-fix-with-new-tsb-56.html"
+     }
+    ]
+   },
+   {
+    "title": "Cracked dashboard top",
+    "diff": "1 / 5 (cover) · 4 / 5 (new dash pad)",
+    "time": "Minutes for a cover; 1–2 days at a dealer for a new dash (owner reports)",
+    "cost": "A dash cover, or a dash replacement quote from a dealer",
+    "symptoms": "Cracks spreading across the top of the dashboard, usually starting near the defroster vents or the passenger airbag seam. Owners in hot climates see it first, and some report melting and stickiness too.",
+    "fix": "Lexus ran a warranty enhancement for cracked and melted dashboards. ClubLexus owners say the program was called ZLD, and one owner's letter set the deadline at the later of March 31, 2017 or 10 years from the in-service date, so it has run out on every GX 470 now. Owners still suggest contacting Lexus through its customer care form in case of goodwill, but expect to pay. The cheap fix is a fitted dash cover over the cracks. The full fix is a new dash pad, which a dealer documents and installs; owners report it took one to two days, and parts were sometimes backordered.",
+    "tools": "Dash cover, or a dealer appointment",
+    "parts": [],
+    "know": [
+     "Covered 2005 and 2006 GX 470s are confirmed in the ClubLexus thread; check your VIN with Lexus for others.",
+     "One member says the ZLD letter allowed only one free repair, so a truck that already had a new dash under the program may not be covered again.",
+     "A replacement dash can crack again. One 2004 owner's 2016 dealer replacement had cracked again by 2019."
+    ],
+    "mistakes": [
+     "Don't glue or fill the cracks near the passenger airbag seam; the airbag has to deploy through that panel.",
+     "A seller who says 'Lexus will replace it free' is quoting an expired program."
+    ],
+    "cost_note": "The sources give no dealer price for a new dash; ask for a written quote.",
+    "refs": [
+     {
+      "name": "ClubLexus: Warranty enhancement, cracked dash replacement",
+      "url": "https://www.clublexus.com/forums/gx-1st-gen-2004-2009/768186-warranty-enhancement-cracked-dash-replacement-4.html"
+     },
+     {
+      "name": "ClubLexus: Replacement dash",
+      "url": "https://www.clublexus.com/forums/gx-1st-gen-2003-2009/914623-replacement-dash.html"
      }
     ]
    }

@@ -19670,9 +19670,9 @@ Fix: Loosen the axle nut with the wheel on the ground, then lift the truck. Sepa
 Tools: Large axle-nut socket · breaker bar · pry bar · joint separator · torque wrench · new axle nut and OEM axle
 
 #### Front differential support upgrade (2003–early 2005)
-Difficulty 3 / 5 · time ≈ 2–3 hours (estimate) · cost Parts plus labor
+Difficulty 3 / 5 · time ≈ 30 minutes once the skid plate is off (one owner); allow 1–2 hours · cost The revised support part (52380-60021)
 Symptoms: Usually nothing until it breaks. GXOR warns that the original passenger-side front differential support can fail catastrophically, which can take out nearby parts, the oil pan included, and the engine with it.
-Fix: Lexus revised the passenger-side front differential support for 2006, and some 2005s got the new part at the factory. On a 2003 to early-2005 truck, get under the passenger side of the front diff and read the number on the support. The revised part is ordered as 52380-60021 but stamped 52391-60021. If yours is the old one, take the diff's weight on a jack, unbolt the old support, fit the revised one and torque the bolts to factory spec.
+Fix: Lexus revised the passenger-side front differential support for 2006, and some 2005s got the new part at the factory. On a 2003 to early-2005 truck, read the number on the support under the passenger side of the front diff; the revised part is ordered as 52380-60021 but stamped 52391-60021. To swap it, the procedure owners follow on IH8MUD is: remove the factory skid plate (the hardest part), support the diff with a floor or bottle jack without lifting it, and loosen the three bolts (a 22 mm frame bolt and two 19 mm diff bolts). Remove the rear diff bolt, then the frame bolt while holding the 19 mm nut on top, then the center bolt. Note the large washers and which way they sit. Fit the new support with the center bolt first, then the front and back, snug all three, and torque them: the IH8MUD write-up gives 118 lb-ft for the diff bolts and 101 lb-ft for the frame bolt. Check those figures against your repair manual before you rely on them.
 Tools: Floor jack and stands · socket set · torque wrench · revised support 52380-60021 (stamped 52391-60021)
 
 #### Secondary air injection pump (2005–2009)
@@ -19680,6 +19680,18 @@ Difficulty 4 / 5 · time A long day. The intake manifold has to come off (GXOR).
 Symptoms: A 'vacuum cleaner' whine for about 30 seconds after a cold start that gets rougher as the pump fails. Owners report codes including P2440, P2442, P2445 and P2432, and one reported random limp mode. GXOR says a failed system usually affects only cold-start emissions, not driveability.
 Fix: Scan the codes first. The pump and its air switching valves sit under the intake manifold, so the manifold has to come off to reach them. GXOR lists two routes: repair with a Dorman OE-replacement pump, or delete with a Hewitt Technologies bypass kit. A delete may fail emissions inspection where you live. One ClubLexus owner's bypass worked for about a year before P2445 returned. Fit new intake gaskets on reassembly. One owner said the pump was covered by a 10-year/150,000-mile extension, which has long expired on most trucks.
 Tools: Scan tool · socket set with extensions · torque wrench · intake manifold gaskets · air pump and switching valves
+
+#### Driveshaft clunk when stopping or pulling away
+Difficulty 1 / 5 (grease) · 2 / 5 (new shaft) · time ≈ 30 minutes to grease; 1–2 hours to swap the shaft (estimate) · cost A grease gun and moly grease to start; a new propeller shaft if greasing doesn't hold
+Symptoms: A single clunk from under the truck as you come to a stop or pull away, which ClubLexus owners describe as feeling like a bump from behind at or after stopping. It often fades after greasing and comes back months later.
+Fix: Start with grease. Get under the truck and find the zerk fittings on the rear propeller shaft (the slip joint and U-joints) and on the front shaft's U-joints. Wipe each fitting, then pump moly grease in. One ClubLexus owner gave each fitting about 11 to 16 pumps, until the shaft just started to move; another says to stop when you feel resistance. If the clunk keeps returning, Lexus issued a TSB that replaces the propeller shaft; owners in the same thread quote the new shaft as part 37110-60A40. One owner says the new shaft cured it at once at 72,000 miles, but another says the clunk came back, so grease first and treat the new shaft as the last step.
+Tools: Grease gun · moly grease · rag · jack stands if you need room · replacement zerk fittings
+
+#### Cracked dashboard top
+Difficulty 1 / 5 (cover) · 4 / 5 (new dash pad) · time Minutes for a cover; 1–2 days at a dealer for a new dash (owner reports) · cost A dash cover, or a dash replacement quote from a dealer
+Symptoms: Cracks spreading across the top of the dashboard, usually starting near the defroster vents or the passenger airbag seam. Owners in hot climates see it first, and some report melting and stickiness too.
+Fix: Lexus ran a warranty enhancement for cracked and melted dashboards. ClubLexus owners say the program was called ZLD, and one owner's letter set the deadline at the later of March 31, 2017 or 10 years from the in-service date, so it has run out on every GX 470 now. Owners still suggest contacting Lexus through its customer care form in case of goodwill, but expect to pay. The cheap fix is a fitted dash cover over the cracks. The full fix is a new dash pad, which a dealer documents and installs; owners report it took one to two days, and parts were sometimes backordered.
+Tools: Dash cover, or a dealer appointment
 
 ### Baseline service
 Most GX 470s are well past the 90,000-mile timing-belt interval, so a used one should be treated as overdue until you see a receipt. Baseline every fluid as well. The 2005 factory repair manual (posted on GXOR) gives the specs below, and GXOR flags two GX-specific checks: the 2003–05 front differential support and the rear air springs.

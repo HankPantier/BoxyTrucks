@@ -307,5 +307,91 @@
    "name": "LandCruiserForum — Brakes squeal (L-SB-0036-24 discussion)",
    "url": "https://www.landcruiserforum.com/threads/brakes-squeal.1371/page-13"
   }
- ]
+ ],
+ "maintenance": {
+  "intro": "The GX 550's factory maintenance schedule, from Lexus's 2024 Warranty and Services Guide, laid out by mileage, with the severe-service intervals that apply if you tow, go off-road or drive on dusty roads.",
+  "description": "Lexus GX 550 maintenance schedule: oil every 10,000 mi (5,000 mi severe), filters at 30,000 mi, spark plugs every 40,000 mi, coolant at 100,000 mi, plus towing and off-road intervals.",
+  "schedule_note": "From Lexus's 2024 GX 550 Warranty and Services Guide; later model years have their own guides (linked below). Whichever comes first, miles or months.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi",
+    "items": [
+     "Rotate the tires, then register the wheel positions for TPMS",
+     "Off-road, towing or dusty use: engine oil and filter (every 5,000 mi / 6 months)"
+    ]
+   },
+   {
+    "at": "Every 10,000 mi or 12 months",
+    "items": [
+     "Engine oil and filter (normal use)"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi",
+    "items": [
+     "If you tow: front and rear differential oil"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Engine air filter (inspect more often off-road)",
+     "Cabin air filter",
+     "Brake fluid",
+     "Off-road or towing: transfer case oil"
+    ]
+   },
+   {
+    "at": "Every 40,000 mi",
+    "items": [
+     "Spark plugs (40k, 80k and 120k in the 2024 schedule)"
+    ]
+   },
+   {
+    "at": "Every 60,000 mi",
+    "items": [
+     "If you tow, carry heavy loads or idle a lot: 10-speed automatic fluid"
+    ]
+   },
+   {
+    "at": "First at 100,000 mi or 120 months, then every 50,000 mi or 60 months",
+    "items": [
+     "Engine and intercooler coolant"
+    ]
+   },
+   {
+    "at": "120,000 mi",
+    "items": [
+     "Vacuum pump vane and caps"
+    ]
+   }
+  ],
+  "severe": "Lexus's severe-service items apply to off-road driving, towing, dusty roads and lots of idling: oil every 5,000 miles or 6 months, differentials every 15,000 miles when towing, transfer case every 30,000 miles, and ATF every 60,000 miles. Grease the propeller shaft within 24 hours of any water crossing.",
+  "age_items": [
+   {
+    "item": "Engine recall 25LA07 (25V-767)",
+    "when": "Now, by VIN",
+    "why": "Early 2024 builds may have machining debris in the engine; dealers inspect and replace engines if needed, free."
+   },
+   {
+    "item": "12V battery",
+    "when": "Test at purchase",
+    "why": "Lots of electronics and short trips; see the battery guide."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lexus: 2024 GX 550 Warranty and Services Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-24GX550/pdf/L-MMS-24GX550.pdf"
+   },
+   {
+    "name": "Lexus: 2025 GX 550 Warranty and Services Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-25GX550/pdf/L-MMS-25GX550.pdf"
+   },
+   {
+    "name": "Lexus: 2026 GX 550 Warranty and Services Guide",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-26GX550/pdf/L-MMS-26GX550.pdf"
+   }
+  ]
+ }
 }

@@ -360,5 +360,108 @@
    "name": "Expedition Portal Forum — GX470: KDSS or not?",
    "url": "https://forum.expeditionportal.com/goto/post?id=1919289"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Lexus GX 470 maintenance schedule: oil every 5,000 mi, timing belt every 90,000 mi, coolant at 100,000 mi, plugs at 120,000 mi, plus the towing intervals and age items.",
+  "intro": "The GX 470's factory schedule is short and mostly about oil, filters and the 90,000-mile timing belt. The intervals below come from Lexus's 2008 Warranty and Services Guide. Every GX 470 is now old enough that the age items matter as much as the mileage: rubber, the rear air springs and the driveshaft grease points.",
+  "schedule_note": "From the Lexus 2008 Warranty and Services Guide for the GX 470 (earlier model years used the same 5,000-mile / 6-month rhythm). Where an item applies only when towing or on dusty roads, it's marked.",
+  "schedule": [
+   {
+    "at": "Every 5,000 mi / 6 months",
+    "items": [
+     "Replace engine oil and filter (5W-30, 6.5 US qt with filter)",
+     "Rotate tires",
+     "Inspect brake pads and rotors"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi",
+    "items": [
+     "Towing: replace front and rear differential oil"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Replace the engine air filter (inspect more often on dusty roads)",
+     "Replace the cabin air filter (or every 36 months)",
+     "Replace brake fluid",
+     "Towing: replace transfer case oil"
+    ]
+   },
+   {
+    "at": "60,000 mi",
+    "items": [
+     "Towing: replace automatic transmission fluid (GXOR says many owners change it anyway)"
+    ]
+   },
+   {
+    "at": "Every 90,000 mi / 108 months",
+    "items": [
+     "Replace the timing belt (most owners do the water pump, tensioner and idlers at the same time)"
+    ]
+   },
+   {
+    "at": "100,000 mi / 120 months, then every 50,000 mi",
+    "items": [
+     "Replace engine coolant (Toyota Super Long Life, 13.6 US qt)"
+    ]
+   },
+   {
+    "at": "120,000 mi",
+    "items": [
+     "Replace spark plugs (Denso SK20R11 or NGK IFR6A11)"
+    ]
+   }
+  ],
+  "severe": "Lexus adds items for trucks that tow, drive on dirt or dusty roads, or do mostly short trips: differential oil every 15,000 miles and transfer case oil every 30,000 miles when towing, ATF at 60,000 miles when towing, and more frequent air filter checks in dust. Grease the propeller shafts after any deep water crossing.",
+  "age_items": [
+   {
+    "item": "Driveshaft grease points",
+    "when": "Every few oil changes, or when the clunk returns",
+    "why": "Owners on ClubLexus cure the stop-and-go driveshaft clunk with moly grease; the driveshaft clunk guide is listed below."
+   },
+   {
+    "item": "Front differential support (2003–early 2005)",
+    "when": "Once, at purchase",
+    "why": "The original support can fail; check the stamped number and swap to 52380-60021 if needed."
+   },
+   {
+    "item": "Rear air springs",
+    "when": "Inspect at purchase and every service",
+    "why": "Original bags are now 15+ years old; leaks show as sagging overnight and a compressor that runs constantly."
+   },
+   {
+    "item": "Steering rack and power steering hoses",
+    "when": "Check for leaks at every oil change",
+    "why": "Rack leaks are one of the GX 470's best-known faults."
+   },
+   {
+    "item": "Brake fluid and coolant hoses",
+    "when": "If there's no record, at purchase",
+    "why": "Time ages them regardless of miles."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lexus 2008 Warranty and Services Guide, GX 470 maintenance schedule",
+    "url": "https://assets.sia.toyota.com/publications/en/omms-s/L-MMS-08GX470/pdf/L-MMS-08GX470.pdf"
+   },
+   {
+    "name": "Lexus GX 470 factory repair manual (2005), via GXOR"
+   },
+   {
+    "name": "GXOR maintenance wiki",
+    "url": "https://lexusgxor.com/wiki/general/maintenance"
+   },
+   {
+    "name": "ClubLexus: Clunk fix with new TSB",
+    "url": "https://www.clublexus.com/forums/gx-1st-gen-2003-2009/212350-clunk-fix-with-new-tsb-56.html"
+   },
+   {
+    "name": "IH8MUD: Differential support #2 replacement",
+    "url": "https://forum.ih8mud.com/threads/differential-support-2-replacement.1004171/"
+   }
+  ]
+ }
 }

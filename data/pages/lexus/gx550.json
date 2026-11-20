@@ -145,7 +145,31 @@
    "symptoms": "Possible engine knocking, rough running, a no-start or a loss of motive power. Many affected trucks show no symptoms.",
    "fix": "Enter the VIN at lexus.com/recall or nhtsa.gov/recalls. NHTSA's recall record now gives the remedy: dealers inspect the No. 1 main bearing using inspection software and drive data and replace the engine if necessary, free of charge. Owner letters were mailed August 28, 2026. If your truck is affected, get the inspection result, and any engine replacement, in writing and keep the records. Future buyers will ask.",
    "tools": "VIN · Lexus dealer",
-   "parts": []
+   "parts": [],
+   "know": [
+    "The defect is machining debris that may not have been cleared from the V35A during manufacture; if it lodges on the crankshaft main bearings under high load, the bearings can fail (CarExpert, quoting Lexus Australia).",
+    "In the US the recall covers about 3,800 GX 550s built late May 2023 to early April 2024 (an IH8MUD poster's figures from the filing) within roughly 127,000 Toyota and Lexus trucks; hybrids are excluded.",
+    "In Australia it covers GX 550s built 4 March to 3 April 2024; Lexus says the dealer inspection takes about two hours, the engine is replaced only if needed, and courtesy cars are provided (CarExpert, Sept 2026).",
+    "Buying used? Ask for the recall completion record and the inspection result."
+   ],
+   "mistakes": [
+    "Assuming no symptoms means no risk: many affected engines run normally until the bearing fails.",
+    "Buying an affected truck without written proof the inspection was done."
+   ],
+   "refs": [
+    {
+     "name": "NHTSA recall report 25V-767",
+     "url": "https://static.nhtsa.gov/odi/rcl/2025/RCLRPT-25V767-3307.pdf"
+    },
+    {
+     "name": "CarExpert: Lexus GX and LX fix announced, some engines to be replaced (Sept 2026)",
+     "url": "https://www.carexpert.com.au/car-news/lexus-gx-lx-fix-announced-for-potential-mechanical-failures-some-engines-to-be-replaced"
+    },
+    {
+     "name": "IH8MUD: recall 25LA07 (25LB07 interim notice) thread",
+     "url": "https://forum.ih8mud.com/threads/25la07-25lb07-interim-notice-engine-recall-updated-dec-18-2025.1371254/"
+    }
+   ]
   },
   {
    "title": "Fitting 33–35 in tires",
