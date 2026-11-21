@@ -227,6 +227,22 @@
      "supplier": "Yota1 Performance",
      "url": "https://209yota1.com/products/3vz-3-0-exhaust-crossover-delete-kit-1988-1995/"
     }
+   ],
+   "know": [
+    "209yota1, which sells a delete kit, blames the factory crossover pipe for a hot spot at cylinder #6 and calls that design the main cause of the 3VZ's notorious #6 head gasket failures; that's the seller's claim.",
+    "Its kit (about $95) includes a block-off plate for the driver's manifold, a flange for a new right-side downpipe, exhaust rings and nuts, but not the pipe itself, which you fabricate to join the exhaust before the O2 sensor.",
+    "It fits 1988–1995 4Runners and pickups and 1992–1995 T100s with the 3VZ-FE, and the seller says it's not for emissions-controlled vehicles in California."
+   ],
+   "mistakes": [
+    "Fitting it on a California-registered truck.",
+    "Joining the new pipe after the O2 sensor.",
+    "Assuming the delete fixes a head gasket that has already failed."
+   ],
+   "refs": [
+    {
+     "name": "209yota1: 3VZ 3.0L exhaust crossover delete kit, 1988–1995",
+     "url": "https://209yota1.com/products/3vz-3-0-exhaust-crossover-delete-kit-1988-1995/"
+    }
    ]
   },
   {
@@ -288,6 +304,24 @@
      "name": "22R/22R-E timing cover gasket set (1985–95)",
      "supplier": "LC Engineering",
      "url": "https://www.lceperformance.com/22r-re-ret-timing-chain-cover-gasket-set-85-95/"
+    }
+   ],
+   "know": [
+    "Brake & Front End's 22R timing chain article says the usual early sign is a light tick from the front cover that doesn't change much with engine speed, getting louder under acceleration as it worsens.",
+    "Once the long guide on the distributor side breaks, the chain can chew a groove in the front cover. If it reaches the water pump cavity, coolant ends up in the crankcase.",
+    "The article blames low oil pressure (from thin oil), sludge and overheating, and an oil-pump housing bolt of the wrong length that pins the tensioner plunger.",
+    "It replaces the chain, guides and tensioner as a kit, and the front cover too if it's grooved; the head doesn't need to come off."
+   ],
+   "mistakes": [
+    "Fitting a too-long bolt in the top center of the oil pump housing, which can blow out a blind hole or press on the tensioner.",
+    "Reusing a front cover that's grooved into the water passage.",
+    "Prying hard on the front cover and damaging the head gasket or pan seal.",
+    "Ignoring the tick until coolant shows up in the oil."
+   ],
+   "refs": [
+    {
+     "name": "Brake & Front End: Timing chain replacement on Toyota's 22R series engine",
+     "url": "https://www.brakeandfrontend.com/servicingsolutions-chain-reaction-timing-chain-replacement-on-toyota-x2019-s-22r-series-engine/"
     }
    ]
   },

@@ -321,9 +321,11 @@
   },
   {
    "gen": "4runner/2nd-gen",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from Toyota 1993 Pickup/4Runner manual"
+   "note": "; maintenance from Toyota 1993 Pickup/4Runner manual",
+   "deepened": 2,
+   "date": "2026-11-21"
   },
   {
    "gen": "4runner/4th-gen",
@@ -532,9 +534,11 @@
   },
   {
    "gen": "jeep/wagoneer-ws",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from Jeep 2025 Wagoneer handbook"
+   "note": "; maintenance from Jeep 2025 Wagoneer handbook",
+   "deepened": 1,
+   "date": "2026-11-21"
   },
   {
    "gen": "land-cruiser/100-series",
@@ -715,9 +719,11 @@
   },
   {
    "gen": "unimog/unimog-404",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from owner-compiled 404.1 schedule"
+   "note": "; maintenance from owner-compiled 404.1 schedule",
+   "deepened": 1,
+   "date": "2026-11-21"
   }
  ]
 }

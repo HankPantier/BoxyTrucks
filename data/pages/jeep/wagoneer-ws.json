@@ -324,6 +324,24 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/jeep,2022,wagoneer,5.7l+v8,3450762,brake+&+wheel+hub,brake+fluid,11389"
     }
+   ],
+   "know": [
+    "Jeep's 2025 Wagoneer handbook asks owners to check the brake pads, rotors, brake operation and fluid level once a month or before a long trip.",
+    "The maintenance plan inspects brake linings and pads every 20,000 miles.",
+    "The brake fluid is Mopar DOT 3 (SAE J1703).",
+    "The electric park brake has to be in service mode before the rear caliper pistons can be pushed back; use a scan tool or the method in the service information."
+   ],
+   "mistakes": [
+    "Forcing the rear pistons back with the park brake motors engaged.",
+    "Mixing a different fluid grade into the DOT 3 system.",
+    "Skipping the bed-in on a heavy towing truck.",
+    "Ignoring the monthly pad check the handbook asks for."
+   ],
+   "refs": [
+    {
+     "name": "Jeep: 2025 Wagoneer owner's handbook (maintenance plan and fluid specifications)",
+     "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2025/Wagoneer/103576_25_WS_OH_EN_USC_E3_DIGITAL.pdf"
+    }
    ]
   },
   {
