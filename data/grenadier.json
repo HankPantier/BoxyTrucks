@@ -385,7 +385,25 @@
       "supplier": "INEOS Grenadier service centre",
       "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier"
      }
-    ]
+    ],
+    "know": [
+     "NHTSA recall 23V-903 covers 61 2023–2024 Grenadier Station Wagons built from May 17 to December 4, 2023; Ineos estimated all 61 were affected.",
+     "Some trucks were assembled with non-locking steering rod ball joint nuts instead of locking ones. The nut can loosen and fall off, letting the ball joint separate from the knuckle, with loss of steering possible.",
+     "Warning signs Ineos lists: steering free play, excessive vibration and noise.",
+     "The remedy is free at an Ineos dealer: both steering rod ball joint nuts are replaced with oval lock nuts."
+    ],
+    "mistakes": [
+     "Driving on with new steering play or a clunk instead of checking the nuts.",
+     "Assuming a used truck in the build window has had the recall done; check the VIN.",
+     "Reusing a non-locking nut after any steering work."
+    ],
+    "refs": [
+     {
+      "name": "NHTSA: recall 23V-903 defect report (Grenadier steering rod ball joint nuts)",
+      "url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V903-8176.PDF"
+     }
+    ],
+    "cost_note": "Free at an Ineos dealer under the recall."
    },
    {
     "title": "Auxiliary switch panel wiring (recall 23V828)",

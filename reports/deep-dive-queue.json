@@ -23,7 +23,7 @@
    "status": "done",
    "date": "2026-11-20",
    "added": 0,
-   "deepened": 1,
+   "deepened": 2,
    "maintenance": true
   },
   {
@@ -180,7 +180,7 @@
    "status": "done",
    "date": "2026-11-20",
    "added": 1,
-   "deepened": 0,
+   "deepened": 1,
    "maintenance": true,
    "note": "Ineos does not publish per-service item lists; thin recall guides left as-is"
   },
@@ -547,9 +547,11 @@
   },
   {
    "gen": "land-cruiser/250-series",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from Toyota 2024 guide"
+   "note": "; maintenance from Toyota 2024 guide",
+   "deepened": 6,
+   "date": "2026-11-21"
   },
   {
    "gen": "land-cruiser/fj25",
@@ -561,7 +563,9 @@
   },
   {
    "gen": "land-cruiser/fj60",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Toyota 1986 LC maintenance manual"
   },
   {
    "gen": "land-cruiser/fj62",
@@ -636,7 +640,8 @@
    "gen": "nissan-patrol/y62",
    "status": "todo",
    "maintenance": true,
-   "note": "; maintenance from Nissan NZ Y62 schedule"
+   "note": "; maintenance from Nissan NZ Y62 schedule",
+   "deepened": 4
   },
   {
    "gen": "niva/niva",

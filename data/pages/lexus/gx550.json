@@ -345,7 +345,37 @@
    "symptoms": "The rearview camera freezes or goes blank in reverse on trucks with Panoramic View Monitor (25V-744, 2024–2025). The instrument cluster may not show some warnings or indicators (26V-341, 2024). The load-carrying-capacity modification label may show the wrong values (26V-179, 2024–2025).",
    "fix": "Run the VIN at nhtsa.gov/recalls or lexus.com/recall. NHTSA's records give the remedies. For 25V-744, dealers update the parking-assist software (Lexus 25LB06). For 26V-341, the combination-meter software is updated over the air (Lexus 26LA06/26LB06). For 26V-179, dealers replace the label (Lexus 26LA04/26LB04). Note that NHTSA's database lists the truck as model 'GX', so a search for 'GX 550' can come back empty. The Lexus schedule also checks for available over-the-air software updates at every service.",
    "tools": "VIN · Lexus dealer · cellular or Wi-Fi connection for the OTA update",
-   "parts": []
+   "parts": [],
+   "know": [
+    "NHTSA lists three recalls that touch the 2024 GX: 25V-744 (panoramic view monitor camera image), 26V-341 (instrument cluster combination meter) and 26V-179 (load-carrying-capacity modification label).",
+    "25V-744 is a large multi-brand Toyota campaign; motorverso's NHTSA summary puts it at 1,024,407 vehicles. 26V-341 covers 81,893 vehicles and 26V-179 covers 8,230.",
+    "The V35A engine debris recall, 25V-767 (126,691 vehicles), also appears against the 2024 GX on NHTSA's list; check whether your VIN is included.",
+    "NHTSA's database files the truck as model 'GX', so search by VIN rather than by 'GX 550'."
+   ],
+   "mistakes": [
+    "Searching by model name instead of VIN and concluding there's nothing open.",
+    "Ignoring a frozen camera image, which the remedy fixes with software.",
+    "Skipping a dealer visit because some updates arrive over the air; the label and camera remedies need the dealer."
+   ],
+   "refs": [
+    {
+     "name": "NHTSA: recall 25V-744 manufacturer notice",
+     "url": "https://static.nhtsa.gov/odi/rcl/2025/RCMN-25V744-4908.pdf"
+    },
+    {
+     "name": "NHTSA: recall 26V-341 manufacturer notice",
+     "url": "https://static.nhtsa.gov/odi/rcl/2026/RCMN-26V341-8013.pdf"
+    },
+    {
+     "name": "NHTSA: recall 26V-179 manufacturer notice",
+     "url": "https://static.nhtsa.gov/odi/rcl/2026/RCMN-26V179-2609.pdf"
+    },
+    {
+     "name": "Motorverso: 2024 Lexus GX recalls (NHTSA list)",
+     "url": "https://www.motorverso.com/recalls/lexus/gx/2024/"
+    }
+   ],
+   "cost_note": "Free at a Lexus dealer, or over the air for the cluster update."
   }
  ],
  "faq": [

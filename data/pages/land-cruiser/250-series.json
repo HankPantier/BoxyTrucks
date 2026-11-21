@@ -196,6 +196,28 @@
           "supplier": "Fumoto",
           "url": "https://www.fumotovalve.com/"
         }
+      ],
+      "know": [
+        "Owners in LandCruiserForum's oil-change thread report the 2.4 turbo hybrid takes about 5.9 quarts of 0W-20 with the filter; confirm it against your owner's manual.",
+        "Toyota's 2024 guide changes the oil every 10,000 miles, or every 5,000 on dirt and dusty roads.",
+        "The front skid plate has to come off; some owners found damaged bolt threads, so start them by hand on refit.",
+        "Many owners do a first change early, at about 1,000–1,500 miles."
+      ],
+      "mistakes": [
+        "Overfilling by pouring in a full 6 quarts without checking the dipstick.",
+        "Cross-threading the skid plate bolts.",
+        "Reusing the drain plug gasket.",
+        "Assuming the pan drains completely; check the level after filling."
+      ],
+      "refs": [
+        {
+          "name": "LandCruiserForum: Oil and filter change, easy peasy",
+          "url": "https://www.landcruiserforum.com/threads/oil-and-filter-change-easy-peasy.649"
+        },
+        {
+          "name": "LandCruiserForum: Oil changing the 2024 Land Cruiser",
+          "url": "https://www.landcruiserforum.com/threads/oil-changing-the-2024-land-cruiser.80/"
+        }
       ]
     },
     {
@@ -267,7 +289,24 @@
           "supplier": "RockAuto",
           "url": "https://www.rockauto.com/en/catalog/toyota,2024,land+cruiser,2.4l+l4+electric/gas+turbocharged,3455729,brake+&+wheel+hub,caliper+slide+pin+boot+/+bushing,11515"
         }
-      ]
+      ],
+      "know": [
+        "Toyota's fix is T-SB-0006-26, which replaced T-SB-0046-25; it changes the front pads and shims and adds revised anti-rattle springs.",
+        "Owners on the 4Runner6G forum, where the same brakes and TSB apply to the new 4Runner, report rotors aren't part of the repair.",
+        "One owner fixed it himself by fitting the revised anti-rattle springs on both pins and greasing the pad contact points, with no new pads or rotors."
+      ],
+      "mistakes": [
+        "Paying for rotors the TSB doesn't call for.",
+        "Skipping the grease on the pad contact points.",
+        "Accepting 'normal' from a dealer without citing the TSB number."
+      ],
+      "refs": [
+        {
+          "name": "4Runner6G: Front brake squeal fix, official TSB (T-SB-0046-25 / 0006-26)",
+          "url": "https://www.4runner6g.com/forum/threads/front-brake-squeal-noise-fix-official-tsb-brakes-fix-tsb-0046-25.5534/post-123974"
+        }
+      ],
+      "cost_note": "Free under warranty; the springs are cheap if you do it yourself."
     },
     {
       "title": "Clear the hybrid-battery cooling intakes",
@@ -282,6 +321,27 @@
           "name": "Trim panel removal tool set (search)",
           "supplier": "Summit Racing",
           "url": "https://www.summitracing.com/search?keyword=trim%20panel%20removal%20tool"
+        }
+      ],
+      "know": [
+        "On LandCruiserForum, owners describe the hybrid battery vents as grille-like openings on each side at the rear door opening; they look like speaker grilles.",
+        "One owner traced an unusual fan noise to a plastic bag sitting over an intake.",
+        "OsageCowboy's dealer saw a second Land Cruiser with the warning in the same week; the scan found no fault, and the dealer suspected the reminder had been set at 5,000 miles instead of 50,000.",
+        "Toyota's 2024 maintenance guide checks the HV battery cooling intake at every 5,000-mile visit and cleans it every 20,000."
+      ],
+      "mistakes": [
+        "Stacking bags and gear against the intake grilles.",
+        "Ignoring a fan warning on a high-mileage truck; check and clean the filter.",
+        "Pulling the filter apart yourself when the warning is new and the vents are clear; get a scan first."
+      ],
+      "refs": [
+        {
+          "name": "LandCruiserForum: Battery cooling fan maintenance warning",
+          "url": "https://www.landcruiserforum.com/threads/ugh-got-a-battery-cooling-fan-maintenance-warning.2622"
+        },
+        {
+          "name": "Toyota: 2024 Land Cruiser Warranty & Maintenance Guide",
+          "url": "https://assets.sia.toyota.com/publications/en/omms-s/T-MMS-24LandCruiser/pdf/T-MMS-24LandCruiser.pdf"
         }
       ]
     },
@@ -304,6 +364,27 @@
           "supplier": "ANCEL",
           "url": "https://www.ancel.com/collections/battery-monitor"
         }
+      ],
+      "know": [
+        "In LandCruiserForum's 'Dead battery issues' thread, the owner found his 250 dead, with the rear hatch unpowered and a string of fault messages after charging.",
+        "Repliers explain that the 12 V battery is charged from the traction battery only once the truck is in Ready, and that warning messages often follow low 12 V voltage (below about 12.6 V).",
+        "Owners' workarounds: jump from under the hood, keep a trickle charger on a parked truck, or carry a lithium jump pack. One replier had a battery replaced under warranty; another was given a free AGM battery after repeated flats.",
+        "One replier warns not to clear diagnostic codes with the engine running."
+      ],
+      "mistakes": [
+        "Leaving the truck in accessory mode or with doors open for long stops without going to Ready.",
+        "Assuming the hatch will open with a flat 12 V battery; know where the manual release is.",
+        "Clearing fault codes with the engine running."
+      ],
+      "refs": [
+        {
+          "name": "LandCruiserForum: Dead battery issues (LC 250)",
+          "url": "https://www.landcruiserforum.com/threads/dead-battery-issues.6383"
+        },
+        {
+          "name": "LandCruiserForum: Lithium battery jump box?",
+          "url": "https://www.landcruiserforum.com/threads/lithium-battery-jump-box.1140"
+        }
       ]
     },
     {
@@ -324,6 +405,27 @@
           "name": "LC250 / GX550 wheel & tire fitment guide (offsets that work)",
           "supplier": "ThreePiece.us",
           "url": "https://www.threepiece.us/blog/2024-land-cruiser-250-and-gx550-wheel-tire-fitment-guide/"
+        }
+      ],
+      "know": [
+        "Threepiece's 250 and GX 550 fitment guide gets 35s on by removing the mud flaps, crush brackets and canards, which bolt or clip on and can go back later.",
+        "Next it inverts and heat-forms the plastic fender liners; if that's not enough, radius the back of the front fenders or trim the front bumper.",
+        "Its 35-inch example on a stock-height 1958 used 17x8 +25 wheels, and it warns that near-zero offsets add a lot of poke.",
+        "On LandCruiserForum, owners in the 'Fitting 35s with no rubbing' thread compare how much trimming each setup needed."
+      ],
+      "mistakes": [
+        "Cutting metal before trying the removable parts and liner reshaping.",
+        "Choosing a low offset that pushes the tire into the fender at lock.",
+        "Skipping the alignment afterwards."
+      ],
+      "refs": [
+        {
+          "name": "Threepiece: 2024+ Land Cruiser 250 and GX 550 wheel and tire fitment guide",
+          "url": "https://threepiece.us/blog/2024-land-cruiser-250-and-gx550-wheel-tire-fitment-guide"
+        },
+        {
+          "name": "LandCruiserForum: Fitting 35s with no rubbing on compression",
+          "url": "https://landcruiserforum.com/threads/fitting-35s-with-no-rubbing-on-compression.2748"
         }
       ]
     },
@@ -356,6 +458,27 @@
           "name": "Adhesive felt pads (search)",
           "supplier": "Amazon",
           "url": "https://www.amazon.com/s?k=adhesive+felt+pads"
+        }
+      ],
+      "know": [
+        "LandCruiserForum's 'Side mirror vibration anyone?' thread is where owners compared notes: the driver side shakes at highway speed while the passenger side stays solid.",
+        "Dealers have tightened or replaced the whole assembly, sometimes twice, without curing it, so owners settled on shimming the play.",
+        "The working shim is thin plastic with peel-and-stick felt on both faces; one owner reported about a 90% reduction. A bare plastic shim rubbed the paint.",
+        "Torque News covered the complaint after owners said their dealer called it normal."
+      ],
+      "mistakes": [
+        "Using a bare plastic shim that scuffs the paint when the mirror folds.",
+        "Letting a dealer replace the assembly repeatedly without trying a shim.",
+        "Not reporting it under warranty first."
+      ],
+      "refs": [
+        {
+          "name": "LandCruiserForum: Side mirror vibration anyone?",
+          "url": "https://www.landcruiserforum.com/threads/side-mirror-vibration-anyone.669"
+        },
+        {
+          "name": "Torque News: Land Cruiser J250 owners report mirror issue, dealer calls it normal",
+          "url": "https://www.torquenews.com/17992/toyota-land-cruiser-j250-owners-report-annoying-new-issue-dealer-calls-it-normal"
         }
       ]
     }

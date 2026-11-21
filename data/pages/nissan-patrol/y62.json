@@ -204,6 +204,32 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133,transmission-automatic,transmission+fluid,11387"
     }
+   ],
+   "know": [
+    "Nissan's own Y62 schedule lists the automatic transmission fluid as maintenance-free, so many trucks never get it done; towing owners do it anyway.",
+    "On NissanPatrol.com.au, maxalby had his transmission fully serviced at 60,000 km and again at 100,000 km. His ScanGauge usually read transmission temperature in the mid-70s °C, peaking at 86 °C.",
+    "Another member pointed to a deeper pan, which adds fluid volume and helps keep the transmission cooler.",
+    "Patrolapart sells an RE7 filter and gasket kit for the Y62, the parts you need for the pan-off service."
+   ],
+   "mistakes": [
+    "Trusting 'maintenance-free' on a truck that tows heavily.",
+    "Using a generic fluid instead of Matic-S.",
+    "Setting the level without the temperature-based check procedure.",
+    "Reusing the pan gasket."
+   ],
+   "refs": [
+    {
+     "name": "NissanPatrol.com.au: Y62 transmission service and temperatures thread",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-55291.html"
+    },
+    {
+     "name": "Nissan NZ: Y62 Patrol maintenance schedule",
+     "url": "https://www.nissan.co.nz/content/dam/Nissan/new-zealand/files/Owners/Servicing/capped-price-service/Y62%20-%20Patrol%20Capped%20Price%20Service.pdf"
+    },
+    {
+     "name": "Patrolapart: RE7 filter and gasket kit, Y62",
+     "url": "https://patrolapart.com.au/product/re7-auto-transmission-filter-and-gasket-kit-for-nissan-patrol-y62"
+    }
    ]
   },
   {
@@ -224,6 +250,23 @@
      "name": "Transmission fluid cooler, 2018 Armada 5.6L",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133,transmission-automatic,fluid+cooler,2088"
+    }
+   ],
+   "know": [
+    "On NissanPatrol.com.au, lostentimenspace towed a van of about 3,400 kg for three years and said his transmission temperature roughly matched coolant temperature, unlike the LC200 he'd owned.",
+    "Melbourne Park points out the Y62 already has a cooler, and the thermostat that controls flow to it can fail, sending fluid past the factory cooler. Their kit includes a replacement thermostat, a cooler and a finned alloy pan.",
+    "Others fit one anyway for peace of mind, given the cost of a replacement automatic."
+   ],
+   "mistakes": [
+    "Fitting a cooler without first checking the factory cooler thermostat.",
+    "Running hoses near the fan or exhaust.",
+    "Not rechecking the fluid level after the extra cooler fills.",
+    "Buying a kit without reading your own temperatures first."
+   ],
+   "refs": [
+    {
+     "name": "NissanPatrol.com.au: Y62 auxiliary transmission cooler thread",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-55765.html"
     }
    ]
   },
@@ -293,7 +336,24 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133,brake+%26+wheel+hub,wheel+bearing+%26+hub,1636"
     }
-   ]
+   ],
+   "know": [
+    "Nissan's genuine Y62 front hub (402021LB0C) fits either side on 2012-on Y62s and comes as an assembly with the bearings pressed in and greased.",
+    "The ABS/speed sensor comes attached to the genuine hub and, per Patrolapart, can't be bought separately, so a damaged sensor means a hub.",
+    "Patrolapart listed the genuine hub at about A$1,026, which is why many owners look at aftermarket hub assemblies."
+   ],
+   "mistakes": [
+    "Damaging the attached ABS sensor during removal, which turns a sensor fix into a hub.",
+    "Not checking both sides; the same hub fits either.",
+    "Skipping the axle nut torque from the manual."
+   ],
+   "refs": [
+    {
+     "name": "Patrolapart: genuine Nissan Patrol Y62 front hub assembly",
+     "url": "https://patrolapart.com.au/product/genuine-nissan-patrol-y62-vk56-front-left-or-right-hub-assembly"
+    }
+   ],
+   "cost_note": "A genuine hub is about A$1,000; aftermarket assemblies cost less."
   },
   {
    "title": "Serpentine belt and tensioner",
@@ -349,6 +409,23 @@
      "name": "Genuine Nissan water pump gasket, Y62",
      "supplier": "Patrolapart",
      "url": "https://patrolapart.com.au/product/genuine-nissan-water-pump-gasket-nissan-patrol-y62"
+    }
+   ],
+   "know": [
+    "On NissanPatrol.com.au, a Y62 owner (hsbashraf) logged 89–90 °C on the highway, 90–95 °C in the dunes, and peaks near 98 °C in traffic before the fan cycled. Other members called those readings normal.",
+    "MudRunnerTD notes the dash gauge has a dead zone across normal temperatures, so use a scan gauge to see real numbers.",
+    "Plasnart says the VK56 fan roaring at startup is normal.",
+    "hsbashraf replaced a damaged thermostat with an OEM 82 °C unit."
+   ],
+   "mistakes": [
+    "Chasing 'overheating' from normal 90–98 °C readings.",
+    "Trusting the dash gauge's middle position as a temperature reading.",
+    "Fitting a pump without bleeding the cooling system properly."
+   ],
+   "refs": [
+    {
+     "name": "NissanPatrol.com.au: Y62 operating temps thread",
+     "url": "https://www.nissanpatrol.com.au/forums/archive/index.php/t-57199.html"
     }
    ]
   },

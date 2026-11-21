@@ -276,5 +276,68 @@
    "name": "Visit Utah — Land Cruiser Heritage Museum",
    "url": "https://www.visitutah.com/things-to-do/Motorized-Off-Road/Land-Cruiser-Heritage-Museum"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Toyota Land Cruiser FJ60 (1981–1987, 2F) maintenance schedule from Toyota's 1986 maintenance procedures manual: oil every 10,000 mi (5,000 severe), valves every 15,000, plugs and air filter every 30,000, coolant at 60,000 then every 30,000, knuckle and propshaft grease every 15,000 (7,500 severe).",
+  "intro": "Toyota's 1986 Land Cruiser maintenance manual gives the 2F-engined FJ60 a normal schedule and a severe one. The severe schedule is for towing or campers, dusty, rough, muddy or salted roads, short trips below freezing, and long idling, which is most of how FJ60s get used. After 60,000 miles, Toyota says to keep repeating the same intervals.",
+  "schedule_note": "From Toyota's 1986 Land Cruiser Maintenance Procedures Manual (US and Canada), 2F engine. Earlier FJ60s follow similar schedules; check your own book.",
+  "schedule": [
+   {
+    "at": "Every 10,000 mi / 12 months",
+    "items": [
+     "Engine oil and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 18 months",
+    "items": [
+     "Check and adjust valve clearance",
+     "Inspect brake linings, drums, pads, discs, lines and hoses",
+     "Inspect steering linkage, ball joints and dust covers",
+     "Inspect manual transmission, transfer, differential and steering-box oil",
+     "Grease the steering knuckles, chassis and propeller shafts",
+     "Check chassis and body bolts",
+     "Adjust idle and fast idle (first 15,000 only)"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the air filter and spark plugs",
+     "Inspect drive belts, exhaust, fuel lines",
+     "Repack the front wheel bearing grease"
+    ]
+   },
+   {
+    "at": "60,000 mi / 72 months",
+    "items": [
+     "Replace engine coolant and the fuel filler cap gasket",
+     "After this, inspect drive belts every 10,000 mi / 12 months and replace coolant every 30,000 mi / 36 months"
+    ]
+   }
+  ],
+  "severe": "Toyota's severe condition schedule: engine oil and filter about every 5,000 miles or 6 months; grease the steering knuckles, chassis and propeller shafts every 7,500 miles; change the manual transmission, transfer, differential and steering-box oil every 15,000 miles; inspect the air filter every 5,000 on dusty roads and replace it every 30,000; inspect brakes, steering linkage and ball joints every 7,500. If the truck has been immersed in water, Toyota says to re-grease it within 24 hours.",
+  "age_items": [
+   {
+    "item": "Knuckle and propshaft grease",
+    "when": "Within 24 hours of a water crossing",
+    "why": "Toyota's note 4: re-grease within 24 hours if the vehicle has been immersed."
+   },
+   {
+    "item": "Engine coolant",
+    "when": "Every 3 years on an older truck",
+    "why": "After 72 months, Toyota replaces it every 30,000 miles or 36 months."
+   },
+   {
+    "item": "Drive belts",
+    "when": "Yearly on an older truck",
+    "why": "After 72 months, Toyota inspects them every 10,000 miles or 12 months."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota: 1986 Land Cruiser Maintenance Procedures Manual (US and Canada), 2F engine schedules"
+   }
+  ]
+ }
 }
