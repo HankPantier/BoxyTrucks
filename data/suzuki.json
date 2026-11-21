@@ -396,6 +396,23 @@
       "supplier": "Trail Tough",
       "url": "https://trailtough.com/product/samurai-longfield-chromoly-rear-axles/"
      }
+    ],
+    "know": [
+     "Trail-Gear's instructions for its Samurai rear bearing kit (also 1990-95 Jimny JA11 and non-ABS JB23): drain the diff, pull the drum, disconnect and plug the brake line, remove the four backing-plate bolts, then slide-hammer the axle out.",
+     "To remove the old bearing, grind two flats on the bearing retainer (without touching the shaft), split it with a hammer and chisel over a wooden block, then pull the bearing.",
+     "Press the new bearing and retainer on with an arbor press in the orientation shown, drive in the new seal with the oil seal protector still in place, and grease the seal lip.",
+     "Torques per Trail-Gear: RTV on the housing flange, backing-plate nuts 13.5-20 ft-lb (18-28 N·m) with blue Loctite, brake line nut 10.5-13 ft-lb (14-18 N·m), axle nuts and lug nuts 36.5-57.5 ft-lb (50-80 N·m).",
+     "Bleed the rear brakes and refill the diff afterwards."
+    ],
+    "mistakes": [
+     "Grinding into the axle shaft while cutting off the old retainer.",
+     "Driving the new seal without the oil seal protector in place."
+    ],
+    "refs": [
+     {
+      "name": "Trail-Gear: Samurai/Jimny rear wheel bearing kit install instructions (303900-3)",
+      "url": "https://trail-gear.com/media/downloads/pdf/instructions/303900-3-INS.pdf"
+     }
     ]
    },
    {
@@ -447,6 +464,22 @@
       "name": "1.3 clutch cable",
       "supplier": "Trail Tough",
       "url": "https://trailtough.com/product/1-3-clutch-cable-japanese-aftermarket/"
+     }
+    ],
+    "know": [
+     "Suzuki's 1986-88 Samurai factory manual (clutch section): the transmission comes out first, then the six clutch cover bolts.",
+     "Replace the disc when rivet-head depth reaches the 0.5mm service limit (1.2mm new) or serration backlash exceeds 0.8mm; replace the cover if diaphragm rivets are loose or finger tips are worn.",
+     "Torques from the manual: flywheel bolts 57-65 N·m (41.5-47 lb-ft), clutch cover bolts 18-28 N·m (13.5-20 lb-ft), release arm bolt and nut 10-16 N·m (7.5-11.5 lb-ft).",
+     "Grease the release bearing retainer's inner surface, the fork end and the input shaft; align the two punch marks when refitting the release arm.",
+     "Set pedal height level with the brake pedal, then free travel to 20-30mm (0.8-1.1 in) with the cable nuts, leaving at least 5mm of cable end past the joint nut."
+    ],
+    "mistakes": [
+     "Fitting the disc without a centring tool.",
+     "Misaligning the release arm's punch marks."
+    ],
+    "refs": [
+     {
+      "name": "Suzuki: 1986-1988 Samurai factory service manual, Section 11 Clutch"
      }
     ]
    },
