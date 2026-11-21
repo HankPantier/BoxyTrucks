@@ -23,7 +23,7 @@
 
     {% if r.mistakes %}<section><h2 class="h-section">Common mistakes</h2><ul class="rp-know">{% for k in r.mistakes %}<li>{{ k|lk }}</li>{% endfor %}</ul></section>{% endif %}
     {% if r.cost_note %}<section><h2 class="h-section">What it costs</h2><div class="prose"><p>{{ r.cost_note|lk }}</p></div></section>{% endif %}
-    {% if r.refs %}<section><h2 class="h-section">{{ 'Sources' if r.refs|length > 1 else 'Reference' }}</h2><ul class="rp-tools">{% for rf in r.refs %}<li><a class="inline-link" href="{{ rf.url }}" target="_blank" rel="noopener">{{ rf.name }} ↗</a></li>{% endfor %}</ul></section>{% endif %}
+    {% if r.refs %}<section><h2 class="h-section">{{ 'Sources' if r.refs|length > 1 else 'Reference' }}</h2><ul class="rp-tools">{% for rf in r.refs %}<li>{% if rf.url %}<a class="inline-link" href="{{ rf.url }}" target="_blank" rel="noopener">{{ rf.name }} ↗</a>{% else %}{{ rf.name }}{% endif %}</li>{% endfor %}</ul></section>{% endif %}
     {% if r.tools %}<section><h2 class="h-section">Tools &amp; part numbers</h2>
       <ul class="rp-tools">{% for t in r.tools.split('·') if t.strip() %}<li>{{ t.strip() }}</li>{% endfor %}</ul>
     </section>{% endif %}
