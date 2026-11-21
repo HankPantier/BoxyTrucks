@@ -355,6 +355,24 @@
       "supplier": "Rovers North",
       "url": "https://roversnorth.com/search.aspx?q=range+rover+classic+coil+conversion"
      }
+    ],
+    "know": [
+     "Rovers North's RNK5105 instructions warn the air system runs at 145 psi: wear goggles and ear and hand protection, and depressurise before lifting.",
+     "To deactivate on 1993-94 trucks: switch off the rocker switch behind the front passenger seat, pull the 30-amp compressor fuse, and cut the white/green wire at terminal 86 of the delay relay after its splice. On 1995 trucks, switch off and unplug the 35-pin EAS ECU connector under the passenger seat.",
+     "Drain the air tank (left side) by opening its plug about two turns, then bleed each corner at the valve block on the right side: port 2 right rear, port 1 left rear, port 3 left front, port 4 right front.",
+     "At each corner: support the axle, unclip and remove the air spring, plug its line with a 1/4-inch rubber plug and tie it out of the way, fit the spring seat and coil, then turn the spring until the retainer touches both sides before tightening.",
+     "On the fronts, remove the heat shield and plastic fastener above the spring mount or the spring won't seat, and unbolt the brake line bracket (two 10mm nuts) for droop.",
+     "Torque the wheels to 85 ft-lb. Rovers North says the truck sits about an inch higher than standard; road-test for noises and re-torque the wheels after 15-25 miles."
+    ],
+    "mistakes": [
+     "Lifting the truck before deactivating and depressurising the system.",
+     "Leaving the front heat shield fastener in place, which stops the spring seating."
+    ],
+    "refs": [
+     {
+      "name": "Rovers North: RNK5105 coil spring conversion fitting instructions, Range Rover Classic 1993-95",
+      "url": "https://www.roversnorth.com/files/Graphics/instructions/RNK5105I.pdf"
+     }
     ]
    },
    {
@@ -428,6 +446,23 @@
       "url": "https://www.eastwood.com/search?q=weld+through+primer",
       "supplier": "Eastwood"
      }
+    ],
+    "know": [
+     "On LandyZone, member Autolycus says you can fit the official one-piece crossmember or the repair sections Paddock and others sell. Sections need enough sound metal left to weld to.",
+     "He notes the official one-piece route means stripping much more of the rear body, and the rear body must be propped so the tailgate opening keeps its shape.",
+     "Taking out the rear floor and fuel tank can reveal more rot, members warn.",
+     "Another Classic owner had a welder let in dozens of small plates around the lower rear frame without dismantling anything.",
+     "Buy new bolts, washers and mounting rubbers for the body mounts."
+    ],
+    "mistakes": [
+     "Cutting out the old crossmember without propping the rear body first.",
+     "Pricing the job before the floor and tank are out; that's when the rest of the rot shows."
+    ],
+    "refs": [
+     {
+      "name": "LandyZone: Range Rover Classic rear cross member info needed",
+      "url": "https://www.landyzone.co.uk/land-rover/range-rover-classic-rear-cross-member-info-needed.21788"
+     }
     ]
    },
    {
@@ -458,6 +493,21 @@
       "name": "Range Rover Classic radiator and hose set",
       "supplier": "Rovers North",
       "url": "https://roversnorth.com/search.aspx?q=range+rover+classic+radiator"
+     }
+    ],
+    "know": [
+     "On AULRO, a 1988 Classic owner's truck still ran hot at speed after a new thermostat, water pump and flushed radiator. Members pointed at internal radiator blockage: one found most cores blocked, another cured his with a re-core.",
+     "A worn viscous coupling plus a restricted radiator cooked one member's 3.9. A suggested check: at operating temperature, see whether a rolled-up newspaper can stop the fan.",
+     "Member MercGuy's flush: citric acid with the thermostat out, run at operating temperature for 15-30 minutes, then reverse-flush until clear, refill with the right mix and burp out the air.",
+     "MercGuy recommends an all-brass four-row core when re-coring, especially on LPG, which he says runs hotter."
+    ],
+    "mistakes": [
+     "Replacing the pump and thermostat but not checking the radiator core, which members found was the real restriction."
+    ],
+    "refs": [
+     {
+      "name": "AULRO: 1988 Range Rover overheating",
+      "url": "https://www.aulro.com/afvb/classic-range-rover/281633-1988-range-rover-overheating.html"
      }
     ]
    }

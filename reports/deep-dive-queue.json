@@ -636,7 +636,8 @@
   },
   {
    "gen": "land-rover/series",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 3
   },
   {
    "gen": "lexus/lx450",
@@ -702,7 +703,7 @@
   {
    "gen": "range-rover/classic",
    "status": "todo",
-   "deepened": 1,
+   "deepened": 4,
    "note": "Viscous coupling sourced (AULRO)"
   },
   {
