@@ -244,6 +244,24 @@
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/pinzgauer-parts/wheel-drive-group-04/"
     }
+   ],
+   "know": [
+    "On the Pinzgauer BBS, Paul C. describes a failure chain: locking tabs break off, fragments circulate in the gear oil and chew up the seals, then the loose bolts shear and can hole the backing plate.",
+    "He cites Steyr's fix: bolt D009330760 with retaining washers 7102342321 and 7102342311 (from SAV and EI), using the thicker washer, no tab washer, and Loctite; the bolts came pre-coated. Nomad measured the bolts at M8×1.25, 20 mm long. These reports are from a 710M; confirm the numbers fit your truck.",
+    "Owners warn against PVC as a drift because it shatters. Use metal pipe or a bearing driver set, and pull bearings out of the aluminum housings with a slide hammer and claw rather than levering on the casting.",
+    "One poster found failed axle bearings along with the wheel bearings and recommends replacing both together."
+   ],
+   "mistakes": [
+    "Reusing broken or worn tab washers.",
+    "Putting Loctite into oily bolt holes.",
+    "Driving bearings out with PVC or levering on the aluminum housing.",
+    "Replacing the seal but not the bearing behind it."
+   ],
+   "refs": [
+    {
+     "name": "Pinzgauer BBS (real4x4forums): Wheel bearing failure / seal replacement",
+     "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?p=62302"
+    }
    ]
   },
   {
@@ -327,6 +345,24 @@
      "name": "ZF 4HP22 parts search",
      "supplier": "Atlantic British",
      "url": "https://www.atlanticbritish.com/search?q=4HP22"
+    }
+   ],
+   "know": [
+    "On the Pinzgauer BBS, the most common 4HP22 fault named is sticking in first when cold, usually from contamination of the governor at the rear of the box, which sits ahead of the filter. That's why clean fluid matters so much on this box.",
+    "The same post lists the park pawl breaking if abused, and clutch packs occasionally letting go.",
+    "Check the breather at the top rear of the box; if it comes off, dirt and water can get in.",
+    "Mike (Project Gimpy 2) describes the Pinzgauer box as basically 4HP24 internals in a 4HP22 casing, and lists upgrades owners use: Teflon seal rings, a 4HP24 pump, or 4HP24 clutches."
+   ],
+   "mistakes": [
+    "Leaving old fluid in a box that sticks in first when cold.",
+    "Overlooking a disconnected breather.",
+    "Abusing park as a parking brake.",
+    "Assuming any 4HP22 swaps in directly; Range Rover boxes have different 1st and 2nd ratios (Tads)."
+   ],
+   "refs": [
+    {
+     "name": "Pinzgauer BBS (real4x4forums): ZF 4HP22 automatic transmission thread",
+     "url": "https://real4x4forums.com/PinzgauerBBS/viewtopic.php?p=37671"
     }
    ]
   }

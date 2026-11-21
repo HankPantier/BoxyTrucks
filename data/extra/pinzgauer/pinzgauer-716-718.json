@@ -315,5 +315,72 @@
    "name": "Real 4x4s — New (to me) 718M and oil consumption",
    "url": "https://www.real4x4forums.com/PinzgauerBBS/viewtopic.php?t=9110"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Pinzgauer 716/718 maintenance from the UK Ministry of Defence's Pinzgauer Vector schedule: services every 8,000 km or 6 months and 16,000 km or 12 months (RAF), cam and injection-pump belts every 64,000 km or 48 months, transfer, axle oil and brake fluid every 24 months, coolant every 36.",
+  "intro": "The best published maintenance schedule for the turbodiesel Pinzgauers is the British Army's, released under a Freedom of Information request. It covers the 6x6 Vector protected patrol vehicle, a 718-based truck with an automatic gearbox, and its preface applies it to 'Pinzgauer all variants'. Civilian 716s and 718s (D24T diesel) differ in engine and gearbox details, so treat the belt and fluid intervals as a guide and check your own manual; the age-based ones matter most on trucks that sit.",
+  "schedule_note": "From the UK MoD Pinzgauer Vector maintenance schedule (AESP 2320-D-503-601, released under FOI2021/04143). Service-level intervals are the RAF column; the Army column has no published figures.",
+  "schedule": [
+   {
+    "at": "First service",
+    "items": [
+     "After 1,000 km"
+    ]
+   },
+   {
+    "at": "Every 8,000 km (5,000 mi) / 6 months",
+    "items": [
+     "Service A: engine oil (7.0 L) and filter per the schedule; drain water from the fuel filter; check gearbox, transfer, axle, wheel-drive and steering-box oil levels"
+    ]
+   },
+   {
+    "at": "Every 16,000 km (10,000 mi) / 12 months",
+    "items": [
+     "Service B: as A, with further filter and inspection items"
+    ]
+   },
+   {
+    "at": "Every 24 months",
+    "items": [
+     "Replace transfer gearbox oil (1.8 L) and axle drive oil (2.0 L per drive)",
+     "Replace brake fluid",
+     "Replace the air-conditioning drier"
+    ]
+   },
+   {
+    "at": "Every 36 months",
+    "items": [
+     "Replace engine coolant (19.6 L)",
+     "Replace the EGR boost solenoid filter"
+    ]
+   },
+   {
+    "at": "Every 64,000 km (40,000 mi) / 48 months",
+    "items": [
+     "Replace the camshaft timing belt",
+     "Replace the injection pump belt",
+     "Replace the ribbed accessory (FEAD) belt"
+    ]
+   }
+  ],
+  "severe": "The MoD schedule pairs the service intervals with daily before-use and after-use checks plus a weekly check by the driver. It says to grease the power-steering joints and propshafts, and for trucks out of use more than four months to follow the Army's preservation procedure.",
+  "age_items": [
+   {
+    "item": "Cam and injection-pump belts",
+    "when": "Every 4 years even at low mileage",
+    "why": "The MoD replaces them at 64,000 km or 48 months, whichever comes first."
+   },
+   {
+    "item": "Brake fluid, transfer and axle oils",
+    "when": "Every 2 years",
+    "why": "All three are on a 24-month clock in the MoD schedule."
+   }
+  ],
+  "sources": [
+   {
+    "name": "UK Ministry of Defence: Pinzgauer Vector maintenance schedule (FOI2021/04143 release)",
+    "url": "https://assets.publishing.service.gov.uk/media/618bbb78e90e07043d677c10/Annex_A_FOI2021_04143-2320_D_503_601_1_7_20130416_D_N_Modified-REDACTED_FOR_RELEASE-OS.pdf"
+   }
+  ]
+ }
 }

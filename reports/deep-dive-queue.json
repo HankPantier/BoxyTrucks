@@ -444,7 +444,10 @@
   },
   {
    "gen": "jeep/cherokee-xj",
-   "status": "todo"
+   "status": "done",
+   "maintenance": true,
+   "note": "; maintenance from Jeep 2001 XJ service manual L&M section",
+   "date": "2026-11-20"
   },
   {
    "gen": "jeep/cj-5",
@@ -637,7 +640,9 @@
   },
   {
    "gen": "niva/niva",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from Niva maintenance manual"
   },
   {
    "gen": "pajero/pajero-gen2",
@@ -653,7 +658,9 @@
   },
   {
    "gen": "pinzgauer/pinzgauer-716-718",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from UK MoD Vector schedule (FOI)"
   },
   {
    "gen": "ramcharger/ramcharger-1st",

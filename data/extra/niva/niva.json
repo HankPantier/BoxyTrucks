@@ -467,5 +467,79 @@
    "name": "International Niva Club (niva-club.net)",
    "url": "https://www.niva-club.net/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Lada Niva (VAZ-2121 family) maintenance from the Niva maintenance manual: oil, valve clearance and timing chain tension every 10,000 km; plugs every 20,000; gear oils every 30,000; coolant every 3 years or 60,000 km.",
+  "intro": "The Niva's English-language maintenance manual runs everything on a 10,000 km (about 6,200-mile) cycle. Valve clearances and timing chain tension get checked at every service, which most modern trucks never need. Gear oils change every 30,000 km, and the front hub bearings are adjusted every 10,000 and regreased every 20,000.",
+  "schedule_note": "From the Lada Niva maintenance manual (English edition). Distances are the manual's kilometres; miles are approximate. Later fuel-injected Nivas may differ; check your book.",
+  "schedule": [
+   {
+    "at": "Every 500 km",
+    "items": [
+     "Check the engine oil level"
+    ]
+   },
+   {
+    "at": "First 2,000–3,000 km (new engine)",
+    "items": [
+     "First oil and filter change; first gearbox, transfer case and axle oil change"
+    ]
+   },
+   {
+    "at": "Every 10,000 km (6,200 mi)",
+    "items": [
+     "Engine oil and filter",
+     "Check and set valve clearances (0.15 mm cold) and timing chain tension",
+     "Clean and gap the spark plugs (0.5–0.6 mm)",
+     "Check gearbox, transfer case and axle oil levels, brake and clutch fluid",
+     "Grease the propeller shaft splines and U-joint crosses",
+     "Check and adjust front hub bearing clearance"
+    ]
+   },
+   {
+    "at": "Every 20,000 km (12,400 mi)",
+    "items": [
+     "Replace the spark plugs",
+     "Replace the front hub bearing grease"
+    ]
+   },
+   {
+    "at": "Every 30,000 km (18,600 mi)",
+    "items": [
+     "Change gearbox, transfer case, front and rear axle oil",
+     "Flush the lubricating system"
+    ]
+   },
+   {
+    "at": "Every 3 years or 60,000 km",
+    "items": [
+     "Flush and refill the cooling system"
+    ]
+   },
+   {
+    "at": "Every 5 years",
+    "items": [
+     "Replace brake fluid"
+    ]
+   }
+  ],
+  "severe": "The manual doesn't give a separate severe schedule. Its 10,000 km propshaft greasing and hub bearing checks are the ones to shorten if the truck spends time in water or mud.",
+  "age_items": [
+   {
+    "item": "Brake fluid",
+    "when": "Every 5 years",
+    "why": "The manual replaces it after five years regardless of mileage."
+   },
+   {
+    "item": "Coolant",
+    "when": "Every 3 years",
+    "why": "Three years or 60,000 km, whichever comes first."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Lada Niva maintenance manual (English edition), scheduled maintenance"
+   }
+  ]
+ }
 }

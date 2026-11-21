@@ -423,5 +423,70 @@
    "name": "NAXJA — 1984–2001 specs",
    "url": "https://naxja.org/threads/1984-2001-specs.1094213"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Cherokee XJ (1984–2001) maintenance schedule from Jeep's 2001 Cherokee service manual: Schedule A oil every 7,500 mi, Schedule B (severe) every 3,000 with axle oil and automatic fluid every 12,000; plugs every 30,000; steering and ball-joint grease on a fixed clock.",
+  "intro": "Jeep's factory Lubrication & Maintenance section for the 2001 Cherokee gives two schedules. Schedule A is for general driving on a 7,500-mile base. Schedule B is for severe use on a 3,000-mile base, with axle and transmission fluids changed far more often. Jeep's severe-use conditions include off-road driving, towing, dust and short trips, so most XJs that get used belong on Schedule B. Earlier XJs follow similar schedules; check the book for your year.",
+  "schedule_note": "From Jeep's 2001 Cherokee (XJ) service manual, Lubrication & Maintenance section.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi",
+    "items": [
+     "Engine oil and filter",
+     "Lubricate the steering linkage (4x4)",
+     "Check coolant hoses and clamps, brake hoses and manual-transmission fluid level"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi",
+    "items": [
+     "Lubricate the ball joints and steering linkage (all models)"
+    ]
+   },
+   {
+    "at": "Every 22,500 mi",
+    "items": [
+     "Inspect the brake linings"
+    ]
+   },
+   {
+    "at": "30,000 / 60,000 / 90,000 / 120,000 mi",
+    "items": [
+     "Replace spark plugs and the air filter",
+     "Drain and refill the automatic transmission and the transfer case",
+     "Inspect and adjust the drive belt"
+    ]
+   },
+   {
+    "at": "60,000 / 120,000 mi",
+    "items": [
+     "Replace the ignition cables"
+    ]
+   },
+   {
+    "at": "52,500 and 82,500 mi",
+    "items": [
+     "Flush and replace engine coolant; then every 24 months or 30,000 mi"
+    ]
+   }
+  ],
+  "severe": "Jeep's Schedule B: engine oil and filter every 3,000 miles; change the front and rear axle fluid every 12,000 miles; drain and refill the automatic transmission every 12,000; lubricate the steering linkage every 3,000 and the ball joints every 6,000; inspect the air filter every 15,000 and the brake linings every 12,000; check manual-transmission fluid every 6,000; coolant first at 51,000, then every 30,000.",
+  "age_items": [
+   {
+    "item": "Axle fluid",
+    "when": "Every 12,000 mi if you go off-road",
+    "why": "Schedule A never changes it; Schedule B does it every 12,000 miles."
+   },
+   {
+    "item": "Ball joints and steering linkage",
+    "when": "Every oil change under severe use",
+    "why": "Jeep greases the steering linkage every 3,000 miles on Schedule B."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Jeep: 2001 Cherokee (XJ) service manual, Lubrication & Maintenance (Schedules A and B)"
+   }
+  ]
+ }
 }
