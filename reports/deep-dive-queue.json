@@ -572,7 +572,8 @@
   },
   {
    "gen": "land-cruiser/fj45-fj55",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 2
   },
   {
    "gen": "land-cruiser/fj60",
@@ -691,7 +692,8 @@
    "gen": "pinzgauer/pinzgauer-716-718",
    "status": "todo",
    "maintenance": true,
-   "note": "; maintenance from UK MoD Vector schedule (FOI)"
+   "note": "; maintenance from UK MoD Vector schedule (FOI)",
+   "deepened": 1
   },
   {
    "gen": "ramcharger/ramcharger-1st",

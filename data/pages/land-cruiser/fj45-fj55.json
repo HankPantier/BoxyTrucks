@@ -210,6 +210,20 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,fuel+&+air,carburetor+repair+kit,5964"
     }
+   ],
+   "know": [
+    "Cruiser Corps matches Keyster kits by the carburetor's Toyota number (21100-xxxxx). Examples from its table: 21100-60086 takes kit 568-102 (August 1966), 21100-60150 takes 568-103 (1967-68), and 21100-60191 takes 568-105 (March-September 1969).",
+    "Late-1969 to early-1975 carbs (21100-60120, -60130, -60131, -60132, -60200) use the 568-101 kit family, lettered a to e.",
+    "1975 carbs (21100-61010 to -61100) use 568-109 and 568-110 variants; 1980-84 carbs (21100-61131, -61132) use 568-111."
+   ],
+   "mistakes": [
+    "Ordering a kit by year alone. Several carbs share a year but take different lettered kits, so read the number on yours."
+   ],
+   "refs": [
+    {
+     "name": "Cruiser Corps: Keyster carburetor rebuild kits (FJ40, FJ45, FJ55)",
+     "url": "https://cruisercorps.com/products/keyster-carburetor-rebuild-kits"
+    }
    ]
   },
   {
@@ -251,6 +265,20 @@
      "name": "DOT 3 brake fluid (1978 4.2L)",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,brake+&+wheel+hub,brake+fluid,11389"
+    }
+   ],
+   "know": [
+    "On IH8MUD, a 1965 FJ45 owner asked whether any disc kit exists for pre-1970 trucks. Member Skreddy said the early ball-and-claw axles make it much more difficult.",
+    "Skreddy's options: source a disc-brake axle, or a later drum axle with Birfields, then use FJ40 disc parts, a mini-truck conversion, FJ60 parts, or a kit adapting GM parts. His own 1970 FJ40 runs a mini-truck disc conversion with a non-boosted FJ80 master cylinder.",
+    "Member 71-CRUISER recommends swapping in the front axle from a 1976-or-later FJ40, which he says makes the job far easier."
+   ],
+   "mistakes": [
+    "Buying a bolt-on kit before checking whether your front axle is the early ball-and-claw type."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Brake conversion 1965 FJ45",
+     "url": "https://forum.ih8mud.com/threads/brake-conversion-1965-fj45.1278175/"
     }
    ]
   },
