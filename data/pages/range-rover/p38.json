@@ -235,6 +235,23 @@
      "supplier": "Rovers North",
      "url": "https://roversnorth.com/search.aspx?q=p38+rear+air+spring"
     }
+   ],
+   "know": [
+    "Land Rover's P38 manual warns the system runs at up to 10 bar (150 psi). Depressurise it before touching an air spring, and wear hand, eye and ear protection.",
+    "Rear spring removal per the manual: remove the wheel arch liner, support the chassis under the rear crossmember, depressurise, unclip the spring from the chassis (the clip sits under the arch between body and chassis) and from the axle, raise the chassis for clearance, then clean and disconnect the air pipe.",
+    "Seal the open pipe and the spring as soon as they're apart to keep dirt out.",
+    "Remove underbody wax from the mating surfaces before fitting the new spring.",
+    "The manual says the spring must be restrained by the suspension, with the dampers fitted, before it's inflated."
+   ],
+   "mistakes": [
+    "Inflating a spring that isn't restrained with the dampers in place.",
+    "Trying to dismantle an air spring; the manual says not to."
+   ],
+   "refs": [
+    {
+     "name": "Land Rover P38 workshop manual: Air spring, rear (removal)",
+     "url": "https://workshop-manuals.com/landrover/p38/64_rear_suspension_electronic_air_suspension/repair/air_spring_rear/"
+    }
    ]
   },
   {
@@ -344,6 +361,22 @@
      "supplier": "Rovers North",
      "url": "https://roversnorth.com/search.aspx?q=p38+xyz+switch"
     }
+   ],
+   "know": [
+    "The XYZ switch is the gear position and starter inhibitor switch on the ZF4HP22, 4HP24 and 4HP44 automatics. Laser Tools lists its alignment tool (6485, OEM LRT-44-011) for the P38, Range Rover Classic, Discovery 1 and 2, and V8 Defender.",
+    "Laser's procedure: turn the selector shaft fully clockwise to Park, then two clicks anticlockwise to Neutral.",
+    "Fit the switch on the shaft without tightening it, connect the plug, fit the tool's bracket to the shaft and its 4mm pin, then turn the switch until the pin drops into the hole in the switch body.",
+    "Tighten the switch screws to the factory torque, remove the tool, then refit the selector lever and torque it."
+   ],
+   "mistakes": [
+    "Tightening the switch before the pin locates, which sets it out of alignment.",
+    "Aligning it with the shaft in the wrong position; count the two detents back from Park to Neutral."
+   ],
+   "refs": [
+    {
+     "name": "Laser Tools: 6485 JLR automatic gearbox alignment tool instructions",
+     "url": "https://www.lasertools.co.uk/items/PDF/Products/6485_Instructions.pdf"
+    }
    ]
   },
   {
@@ -369,6 +402,27 @@
      "name": "Polybush P38 front radius arm-to-axle kit (Comfort)",
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/polybush-range-rover-p38-front-radius-arm-to-axle-bushing-kit-comfort"
+    }
+   ],
+   "know": [
+    "P38 front radius arm bushes per LandyZone member mystery: ANR3332 standard rubber, ANR3332PY polyurethane.",
+    "Mystery says the poly bushes wear better but ride stiffer and cost more.",
+    "Ed Evans's polybush guide for beam-axle Land Rovers: axle-end radius arm bushes come out fairly easily, while chassis-end bushes need a hydraulic press, or a garage to press them.",
+    "Lubricate bushes or bores with soapy water or tyre soap so they slide in.",
+    "Worn panhard rod bushes can make steering vague, Evans notes.",
+    "Polybush grades in that guide: red (Performance) firmest, blue (Comfort) closest to original, orange (Dynamic) a compromise for off-road use."
+   ],
+   "mistakes": [
+    "Expecting the same ride after poly bushes; Evans found his test truck a little more bumpy."
+   ],
+   "refs": [
+    {
+     "name": "LandyZone: Replacing P38 front radius arm bushes",
+     "url": "https://www.landyzone.co.uk/land-rover/reaplcing-p38-front-radius-arm-bushes-help-please.97943"
+    },
+    {
+     "name": "Ed Evans: How to fit Polybushes (Disco, Defender, Range Rover Classic and P38A)",
+     "url": "https://www.autoexpress.co.uk/land-rover/100780/how-to-fit-polybushes-disco-1-and-2-defender-and-range-rover-classic-and-p38a"
     }
    ]
   }

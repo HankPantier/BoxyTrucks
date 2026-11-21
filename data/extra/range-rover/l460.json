@@ -353,5 +353,65 @@
    "name": "NHTSA — recall 26V-678, rear camera drain holes",
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V678000"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Range Rover (L460) maintenance from Land Rover North America's flexible-service plan: four- and six-cylinder petrol models every 2 years or 21,000 miles; V8 models every year or 16,000 miles. Oil, pollen filter and brake fluid at the scheduled services.",
+  "intro": "The Range Rover (L460) uses Land Rover's Flexible Service: the truck tracks driving style and conditions and tells you when a service is due, so the message centre is the real guide. Land Rover North America's prepaid-plan brochure gives the nominal intervals: petrol i6 models every 2 years or 21,000 miles, and Range Rover V8 every year or 16,000 miles.",
+  "schedule_note": "From Jaguar Land Rover North America's 2022 Prepaid Scheduled Maintenance Plan brochure, which lists what each 2-, 3- and 4-year plan covers. The brochure gives plan contents, not a full factory check sheet; your retailer's Maintenance Check Sheet lists every operation.",
+  "schedule": [
+   {
+    "at": "Petrol i6: every 2 years / 21,000 mi",
+    "items": [
+     "Renew engine oil and filter",
+     "Renew pollen filter",
+     "Renew brake fluid",
+     "Replace exterior cabin air filter",
+     "Check and top off brake fluid, coolant and washer fluid; check battery; inspect brakes, tyres and for leaks"
+    ]
+   },
+   {
+    "at": "Petrol i6: within a 4-year plan",
+    "items": [
+     "Two oil services, two pollen filters, two brake fluid changes",
+     "One air cleaner element (if applicable)",
+     "One transmission oil change (if applicable)"
+    ]
+   },
+   {
+    "at": "Range Rover V8: every year / 16,000 mi",
+    "items": [
+     "Renew engine oil and filter",
+     "Check fluids, battery, brakes and tyres; inspect for leaks"
+    ]
+   },
+   {
+    "at": "Range Rover V8: within a 4-year plan",
+    "items": [
+     "Four oil services",
+     "Two pollen filters and two brake fluid changes (if applicable)",
+     "One air cleaner element (if applicable)",
+     "Two exterior cabin air filters"
+    ]
+   }
+  ],
+  "severe": "Land Rover's Flexible Service adjusts the interval to how the vehicle is driven, so trucks used hard may be called in sooner than the nominal figures. The brochure marks some items 'if applicable', which varies by engine.",
+  "age_items": [
+   {
+    "item": "Brake fluid",
+    "when": "Every 2 years",
+    "why": "Both plan types include a brake fluid change at the two-year points."
+   },
+   {
+    "item": "Service message",
+    "when": "Whenever it appears",
+    "why": "Flexible Service sets the due date from driving conditions, so follow the message centre over the nominal mileage."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Jaguar Land Rover North America: Land Rover Prepaid Scheduled Maintenance Plan brochure (2022)",
+    "url": "https://www.landroverusa.com/content/dam/lrdx/pdfs/us/22_01_387_LR_Maint_Plan_Bro_v8.pdf"
+   }
+  ]
+ }
 }

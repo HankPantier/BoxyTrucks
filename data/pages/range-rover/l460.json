@@ -279,6 +279,19 @@
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/oil-filter-with-o-ring-seal-cartridge-style"
     }
+   ],
+   "know": [
+    "Land Rover North America's maintenance plan brochure lists the new (5th-gen) Range Rover i6 on 2-year / 21,000-mile service intervals and the V8 on 1-year / 16,000-mile intervals.",
+    "A four-year prepaid plan covers two oil services on the i6 and four on the V8.",
+    "The L460 uses Flexible Service: the message centre sets the due date from driving style and conditions, so it may call for a service sooner than the nominal mileage.",
+    "Land Rover's plans use Castrol synthetic oil and genuine filters, per the brochure."
+   ],
+   "mistakes": [],
+   "refs": [
+    {
+     "name": "Jaguar Land Rover North America: Prepaid Scheduled Maintenance Plan brochure (2022)",
+     "url": "https://www.landroverusa.com/content/dam/lrdx/pdfs/us/22_01_387_LR_Maint_Plan_Bro_v8.pdf"
+    }
    ]
   },
   {
@@ -304,6 +317,24 @@
      "name": "Genuine towing module VPLYT0295",
      "supplier": "Lucky8",
      "url": "https://lucky8llc.com/products/towing-module-genuine"
+    }
+   ],
+   "know": [
+    "Land Rover's fitting instructions for the L460 towing system list the deployable towbar as VPLKT0327 and the North American towbar as VPLKT0326. The tow cover is ordered separately.",
+    "The towing electrics go in first, and the electrics kits differ between 5-seat and 7-seat trucks.",
+    "Land Rover's sequence: remove the rear bumper (two people), raise the truck on a lift, drop the rear exhaust, discard the bumper armature, route and clip the harness, then fit the beam (two people again).",
+    "Beam bolts per the instructions: A1 bolts to 80 Nm plus 150 degrees, A2 bolts (four) to 70 Nm plus 240 degrees, in the specified sequence.",
+    "Tools listed: trim tool, 10, 15 and 18mm sockets, a 50-200 Nm torque wrench, a lift and JLR-approved diagnostic equipment.",
+    "Finish by checking the trailer and vehicle lamps work together, and check the handbook for trailer and nose-weight limits."
+   ],
+   "mistakes": [
+    "Skipping the tightening sequence; Land Rover says to follow it exactly.",
+    "Removing the motor from a deployable towbar; Land Rover says to return the whole assembly or a warranty claim will be rejected."
+   ],
+   "refs": [
+    {
+     "name": "Land Rover accessory fitting instructions: Range Rover (L460) towing system",
+     "url": "https://accessories-instructions.landrover.com/enUSA/460/G2890007"
     }
    ]
   },
@@ -351,6 +382,20 @@
      "name": "Automotive trim-removal tool kit",
      "supplier": "Amazon",
      "url": "https://www.amazon.com/s?k=automotive+trim+removal+tool+kit"
+    }
+   ],
+   "know": [
+    "Recall 24V-947 covers 11,961 US 2022-2023 Range Rovers. Water can get into the rearview camera, so the image may not appear or may be distorted.",
+    "The remedy is a new rearview camera, fitted free by a dealer. Land Rover's own campaign number is N946.",
+    "NHTSA logged the recall on December 19, 2024; owner letters went out April 22, 2025."
+   ],
+   "mistakes": [
+    "Paying for a camera out of pocket before running the VIN for open recalls."
+   ],
+   "refs": [
+    {
+     "name": "Motorverso: Land Rover recall 24V947000",
+     "url": "https://www.motorverso.com/recalls/land-rover/24V947000/"
     }
    ]
   }

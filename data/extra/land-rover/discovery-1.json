@@ -391,5 +391,82 @@
    "name": "Rovers North blog — MAR 2025",
    "url": "https://blog.roversnorth.com/2025/11/mar-2025/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Land Rover Discovery (Series I) maintenance schedule from Land Rover North America's 1996–1997 schedule: service every 7,500 mi or 6 months; brake fluid, coolant, plugs, air filter, transfer, axle and transmission oils every 30,000 mi; fuel filter at 60,000.",
+  "intro": "Land Rover North America serviced the 1996–1997 Discovery every 6 months or 7,500 miles, whichever came first. Every other visit (12 months / 15,000 miles) adds greasing the propshafts and a full steering, suspension and fuel-line inspection. The big fluid services, plugs and air filter fall every 24 months or 30,000 miles. Land Rover tells owners who drive extensively off-road or in severe conditions to follow the owner's manual instead.",
+  "schedule_note": "From Land Rover North America's 1996–1997 Discovery maintenance schedule (form LRNA 01/2002), as reproduced by JC's British & 4x4. It covers US-market V8 trucks; earlier and non-US Discoverys, including the 200Tdi and 300Tdi diesels, had their own schedules.",
+  "schedule": [
+   {
+    "at": "Every 7,500 mi / 6 months",
+    "items": [
+     "Engine oil and filter",
+     "Inspect exhaust system and heat shields, tires, brake lines, pads, calipers and discs",
+     "Inspect coolant hoses and wiper blades; add 16 oz Land Rover fuel conditioner (LRN10500)"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 12 months",
+    "items": [
+     "Lubricate drive shafts and U-joints",
+     "Inspect steering rods, joints and dust covers, shocks, suspension links and mountings, wheel speed sensor wiring and fuel lines",
+     "Inspect radiator and A/C condenser; check power steering fluid",
+     "Check parking brake and seat belts; lubricate door locks, check straps, hood latch and fuel door hinges"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 24 months",
+    "items": [
+     "Change brake fluid and engine coolant",
+     "Replace spark plugs and the air cleaner element",
+     "Change transfer gearbox oil, front and rear axle oil, and transmission fluid",
+     "Clean and service the battery; inspect the serpentine belt",
+     "Replace the transmission fluid filter (at 30,000 only)"
+    ]
+   },
+   {
+    "at": "45,000 mi / 36 months",
+    "items": [
+     "Inspect engine and transmission mounts",
+     "Check the steering box and adjust if necessary"
+    ]
+   },
+   {
+    "at": "60,000 mi / 48 months",
+    "items": [
+     "Replace the fuel filter"
+    ]
+   },
+   {
+    "at": "Every 10 years",
+    "items": [
+     "Replace the SRS airbags"
+    ]
+   }
+  ],
+  "severe": "Land Rover's schedule says vehicles used extensively off-road or under severe conditions should follow the owner's manual service recommendations rather than this schedule. The sheet lists the serpentine belt, charcoal canister and oxygen sensors as replacement items but with no interval inside 60,000 miles.",
+  "age_items": [
+   {
+    "item": "Airbags",
+    "when": "Every 10 years",
+    "why": "Land Rover's schedule requires SRS airbag replacement every ten years, which every Discovery I has long passed."
+   },
+   {
+    "item": "Transmission fluid filter",
+    "when": "Once, if no record",
+    "why": "The schedule replaces it only once, at 30,000 miles."
+   },
+   {
+    "item": "Steering box",
+    "when": "Check now",
+    "why": "The schedule calls for a steering box check and adjustment at 45,000 miles."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Land Rover North America: 1996–1997 Discovery maintenance schedule (LRNA 01/2002), via JC's British & 4x4",
+    "url": "https://jcsbritish4x4.kukui.com/Files/Documents/96-97-Discovery-I.pdf"
+   }
+  ]
+ }
 }

@@ -592,14 +592,17 @@
   {
    "gen": "land-rover/defender-l663",
    "status": "todo",
-   "deepened": 2,
-   "note": "Coolant loss and steering gaiter sourced; 3 thin left"
+   "deepened": 3,
+   "note": "Coolant loss and steering gaiter sourced; 3 thin left; maintenance from JLRNA prepaid plan brochure",
+   "maintenance": true
   },
   {
    "gen": "land-rover/discovery-1",
-   "status": "todo",
-   "deepened": 2,
-   "note": "IACV and propshaft coupler sourced"
+   "status": "done",
+   "deepened": 4,
+   "note": "IACV and propshaft coupler sourced; maintenance from LRNA 96-97 schedule",
+   "maintenance": true,
+   "date": "2026-11-21"
   },
   {
    "gen": "land-rover/discovery-2",
@@ -699,12 +702,16 @@
   },
   {
    "gen": "range-rover/l460",
-   "status": "todo"
+   "status": "done",
+   "maintenance": true,
+   "note": "; maintenance from JLRNA prepaid plan brochure",
+   "deepened": 3,
+   "date": "2026-11-21"
   },
   {
    "gen": "range-rover/p38",
    "status": "todo",
-   "deepened": 2,
+   "deepened": 5,
    "note": "Heater O-ring and blend motor guides sourced from AULRO; 3 thin left"
   },
   {
