@@ -228,6 +228,27 @@
      "supplier": "BigJimny",
      "url": "https://bigjimny.com/store/jimny-gen3/jimny-gen3/parts-service/jimny-gen3/parts-service/steering-axles-bushes/radius-arm-bush-chassis-end"
     }
+   ],
+   "know": [
+    "BigJimny describes the wobble as a steering shake, usually at 60-80 km/h (35-45 mph), from resonance in the solid front axle.",
+    "BigJimny's check order: rule out brake-only shake (warped discs), tyre pressures, and collision damage; then lost balance weights, dirt or rust between wheel and hub, warped tyres or wheels, balancing, kingpin bearings, tie rod ends, wheel bearings, radius arm bushes, panhard bushes, steering box play, alignment and swivel seals.",
+    "Stock-size on-road pressures per BigJimny: 1.6 bar (23 psi) front, 1.8 bar (26 psi) rear. It says the usual 2.0 bar is too stiff for a Jimny.",
+    "The revised radius arm chassis bush is Suzuki 46213-76J00; the old 46213-65D01 is the one to get rid of. Panhard bush: Febest SZAB-041.",
+    "Kingpin bearings: Suzuki's supplier is Koyo; BigJimny also cites SKF 30302 J2.",
+    "If nothing is found, BigJimny's cheapest-first list: balance beads, kingpin bearings, front radius arm bushes (especially pre-2008), front wheel bearings, kingpins or shims, tie rod ends, then another alignment.",
+    "Ask for stud-centric balancing on steel wheels."
+   ],
+   "mistakes": [
+    "Treating a steering damper as the fix. BigJimny calls it a supplement only.",
+    "Skipping a professional alignment after new tie rod ends.",
+    "Over- or under-tightening the steering box adjuster, which wears it early.",
+    "Expecting mud-terrain or retreaded tyres to cure it; BigJimny says they make wobble harder to avoid."
+   ],
+   "refs": [
+    {
+     "name": "BigJimny wiki: Death Wobble",
+     "url": "https://bigjimny.com/mediawiki/index.php/Death_Wobble"
+    }
    ]
   },
   {
@@ -243,6 +264,23 @@
      "name": "Vacuum Hub Tool",
      "supplier": "BigJimny",
      "url": "https://bigjimny.com/store/jimny-gen3/vacuum-hub-tool"
+    }
+   ],
+   "know": [
+    "BigJimny member facade: when testing, the spigot that goes to the vacuum tank must be sealed, or the system never builds enough vacuum to work the hubs.",
+    "Syringe test: fit a large syringe to the hub spigots with rubber tube and watch whether the hub moves. facade warns not to blow in more than a few psi, because the seals aren't designed for it.",
+    "Air passes through the wheel bearing and its seal on the way to the hub, so a failed wheel bearing can stop the hubs working.",
+    "Causes found on that thread: a split hose on the radius arm where steel pipe meets rubber, rotten pipes on the front differential, and sticky VSV solenoids.",
+    "Member Podge renewed the diff lines with copper pipe and 10mm/4mm pneumatic tubing, and freed the solenoids by cleaning their springs, plugs and O-rings."
+   ],
+   "mistakes": [
+    "Packing grease into the air passages along the stub axle on reassembly, which blocks the vacuum path.",
+    "Blowing hard into the hub spigots to test them and damaging the seals."
+   ],
+   "refs": [
+    {
+     "name": "BigJimny forum: vacuum hubs thread",
+     "url": "https://www.bigjimny.com/forum/7-jimny-technical/54933-ive-a-pain-in-my-head-now-vacuum-hubs?start=6"
     }
    ]
   },
@@ -331,6 +369,28 @@
      "name": "Radius Arm Bolt",
      "supplier": "BigJimny",
      "url": "https://bigjimny.com/store/jimny-gen3/jimny-gen3/hardware-body/radius-arm-bolt"
+    }
+   ],
+   "know": [
+    "Genuine bush numbers per BigJimny: 46282-81A30 front arm to axle (two per arm), 46282-81A00 rear arm to axle (two per arm), 46213-76J00 arm to chassis front and rear (one per arm).",
+    "Aftermarket ADK equivalents: 88008 front axle end, 88006 rear axle end, 88007 chassis end.",
+    "BigJimny: axle mounts can wear oval and clunk when you let the clutch up, or corrode and tear away.",
+    "Jack the body, not the axle or arm, so the axle hangs free, then support it so it doesn't drop too far.",
+    "Old bushes press out, or drill and burn out the rubber and cut the steel sleeve with a hacksaw. A homemade puller of studding and big washers works for poly bushes.",
+    "Lightly chamfer the arm's edge with a file so a steel-cased bush starts straight; use a smear of copper grease.",
+    "Refit the arm at the body end first, then lift the axle end with a jack and lever the holes into line.",
+    "Spring lifts change castor. BigJimny says correction bushes suit 2-3 inch lifts and correction arms 3-4 inch lifts."
+   ],
+   "mistakes": [
+    "Fitting the obsolete chassis bush 46213-65D01, which BigJimny links to death wobble.",
+    "Buying cheap arms without provisions for the vacuum hub pipes (front) or handbrake and ABS cables (rear).",
+    "Using a press plate slightly too small for the bush lip, which damaged bushes in BigJimny's write-up.",
+    "Fitting bolts reversed or too long so they foul the shock."
+   ],
+   "refs": [
+    {
+     "name": "BigJimny wiki: Radius arms and bush replacement",
+     "url": "https://bigjimny.com/mediawiki/index.php/Radius_arms_and_bush_replacement"
     }
    ]
   },

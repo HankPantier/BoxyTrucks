@@ -299,6 +299,22 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133,brake+%26+wheel+hub,brake+pad,1684"
     }
+   ],
+   "know": [
+    "Genuine Nissan Y62 front pad kit: part D10606JF0A, per Patrol Apart. One box holds four pads plus shims and fitting hardware.",
+    "Patrol Apart lists that kit for LWB Y62s from 2012 on with the VK56VD V8 and automatic, and asks buyers to confirm fitment by VIN.",
+    "Rotors aren't in the pad kit. Patrol Apart pairs it with an RDA front rotor, RDA8258.",
+    "Patrol Apart's wear signs: squealing or grinding when braking, a brake warning light, or reduced braking."
+   ],
+   "mistakes": [
+    "Ordering the pad kit and expecting rotors in the box. They're sold separately.",
+    "Reusing old shims and hardware when the genuine kit includes new ones."
+   ],
+   "refs": [
+    {
+     "name": "Patrol Apart: Genuine Y62 front brake pads kit",
+     "url": "https://patrolapart.com.au/product/nissan-patrol-y62-genuine-front-brake-pads-kit"
+    }
    ]
   },
   {
@@ -378,6 +394,22 @@
      "name": "Belt tensioner, 2018 Armada 5.6L",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/nissan,2018,armada,5.6l+v8,3440133,belt+drive,belt+tensioner,11659"
+    }
+   ],
+   "know": [
+    "Genuine Y62 VK56 belt tensioner: Nissan part 119551LA0B, per Patrol Apart, which also lists an aftermarket alternative, 0290-Y62.",
+    "Patrol Apart describes it as a direct bolt-in replacement mounted on the front of the engine.",
+    "The tensioner keeps tension on the belt that drives the alternator, power steering pump and A/C compressor.",
+    "Patrol Apart links a worn or loose tensioner to squealing and rattling, and says a slack belt slips and wears out early."
+   ],
+   "mistakes": [
+    "Replacing only the belt when the tensioner is the noise. A tired tensioner lets the new belt go slack and wear early.",
+    "Ordering a tensioner without checking fitment by VIN; Patrol Apart lists it for LWB Y62s with the VK56VD."
+   ],
+   "refs": [
+    {
+     "name": "Patrol Apart: Genuine Y62 VK56 belt tensioner",
+     "url": "https://patrolapart.com.au/product/genuine-nissan-patrol-y62-vk56-56l-v8-petrol-auto-belt-tensioner"
     }
    ]
   },

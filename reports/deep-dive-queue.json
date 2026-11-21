@@ -180,7 +180,7 @@
    "status": "done",
    "date": "2026-11-20",
    "added": 1,
-   "deepened": 1,
+   "deepened": 2,
    "maintenance": true,
    "note": "Ineos does not publish per-service item lists; thin recall guides left as-is"
   },
@@ -440,9 +440,11 @@
   },
   {
    "gen": "grenadier/quartermaster",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance shared with the Station Wagon (Ineos + Auto Express)"
+   "note": "; maintenance shared with the Station Wagon (Ineos + Auto Express)",
+   "deepened": 5,
+   "date": "2026-11-21"
   },
   {
    "gen": "jeep/cherokee-xj",
@@ -646,10 +648,11 @@
   },
   {
    "gen": "nissan-patrol/y62",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
    "note": "; maintenance from Nissan NZ Y62 schedule",
-   "deepened": 4
+   "deepened": 6,
+   "date": "2026-11-21"
   },
   {
    "gen": "niva/niva",
@@ -717,7 +720,8 @@
    "gen": "suzuki/jimny-jb23",
    "status": "todo",
    "maintenance": true,
-   "note": "; maintenance from BigJimny wiki (Suzuki manual figures)"
+   "note": "; maintenance from BigJimny wiki (Suzuki manual figures)",
+   "deepened": 3
   },
   {
    "gen": "suzuki/lj-series",

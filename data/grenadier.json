@@ -271,6 +271,23 @@
       "supplier": "FCP Euro",
       "url": "https://www.fcpeuro.com/search?q=mahle+lx3985"
      }
+    ],
+    "know": [
+     "INEOS Forum member TheDocAUS's B57 diesel filter list: INEOS GRA-3B02-008230 (made by Mahle), Mahle LX3985/1, and BMW 1378635102, which he reports as an exact fit.",
+     "The genuine filter is 68mm thick including its seal. Some BMW filters share the shape but not the thickness.",
+     "Whether the same filter suits the B58 petrol was still unconfirmed in that thread; check your engine before ordering.",
+     "TheDocAUS's advice when unsure: use the INEOS filter."
+    ],
+    "mistakes": [
+     "Buying Ryco A2051. TheDocAUS tested one and found it the wrong shape, about 4mm too thick and in the wrong orientation.",
+     "Buying Wesfil WA5440, listed at 58mm thick against the OEM's 68mm.",
+     "Fitting a K&N; the thread leaves it off over reported problems with K&N filters on BMW engines."
+    ],
+    "refs": [
+     {
+      "name": "The INEOS Forum: INEOS air filter part numbers",
+      "url": "https://theineosforum.com/threads/ineos-air-filter-part-numbers.12415248"
+     }
     ]
    },
    {

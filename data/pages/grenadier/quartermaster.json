@@ -201,6 +201,23 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/search?q=mahle+lx3985"
     }
+   ],
+   "know": [
+    "INEOS Forum member TheDocAUS's B57 diesel filter list: INEOS GRA-3B02-008230 (made by Mahle), Mahle LX3985/1, and BMW 1378635102, which he reports as an exact fit.",
+    "The genuine filter is 68mm thick including its seal. Some BMW filters share the shape but not the thickness.",
+    "Whether the same filter suits the B58 petrol was still unconfirmed in that thread; check your engine before ordering.",
+    "TheDocAUS's advice when unsure: use the INEOS filter."
+   ],
+   "mistakes": [
+    "Buying Ryco A2051. TheDocAUS tested one and found it the wrong shape, about 4mm too thick and in the wrong orientation.",
+    "Buying Wesfil WA5440, listed at 58mm thick against the OEM's 68mm.",
+    "Fitting a K&N; the thread leaves it off over reported problems with K&N filters on BMW engines."
+   ],
+   "refs": [
+    {
+     "name": "The INEOS Forum: INEOS air filter part numbers",
+     "url": "https://theineosforum.com/threads/ineos-air-filter-part-numbers.12415248"
+    }
    ]
   },
   {
@@ -293,6 +310,21 @@
      "supplier": "Owl",
      "url": "https://owlvans.com/products/grenadier-suspension-trail-flo-and-quartermaster"
     }
+   ],
+   "know": [
+    "An INEOS Forum owner who traded a Station Wagon for a Quartermaster describes a slight jitter over bumps and road imperfections that the wagon doesn't have.",
+    "Another owner who drove a Quartermaster carrying a canopy and rooftop tent still noticed it slightly.",
+    "A member running standard-length adjustable Radflo shocks reports the ride has been very good on and off road.",
+    "Whether wagon-fit Koni Raid shocks suit the Quartermaster was asked but not confirmed on that thread."
+   ],
+   "mistakes": [
+    "Assuming wagon shocks fit the Quartermaster without confirming the part with the supplier."
+   ],
+   "refs": [
+    {
+     "name": "The INEOS Forum: Traded the wagon for a Quartermaster",
+     "url": "https://www.theineosforum.com/threads/traded-the-wagon-for-a-quartermaster.12421004/post-1333384139"
+    }
    ]
   },
   {
@@ -308,6 +340,19 @@
      "name": "INEOS roof-mounted spare wheel carrier and other factory accessories",
      "supplier": "INEOS Grenadier (official accessories)",
      "url": "https://ineosgrenadier.com/en/us/accessories"
+    }
+   ],
+   "know": [
+    "On the INEOS Forum, a member says about a 34-inch tyre is the largest that fits the stock bed location, and a 33 fits with room to spare. Test-fit before buying anything.",
+    "Options named on that thread: a kit that mounts the spare at the back of the bed against the cab wall, bolt-in bed spare mounts from J&L or BuiltRight, and a Rigd under-bed hitch mount if the tyre fits."
+   ],
+   "mistakes": [
+    "Buying a mount before checking your spare size against it; one member doubted the cab-wall kit takes a 285/75 R17."
+   ],
+   "refs": [
+    {
+     "name": "The INEOS Forum: Larger spare tire solution for QM",
+     "url": "https://www.theineosforum.com/threads/larger-spare-tire-solution-for-qm.12420119"
     }
    ]
   },
@@ -330,6 +375,21 @@
      "supplier": "DVA Mechanics",
      "url": "https://dvamechanics.com/products/l-track-tie-down-ring-with-anchor-mount-4-pack"
     }
+   ],
+   "know": [
+    "INEOS Forum member Major_B describes a four-rail layout: two on the bed floor and one on each side.",
+    "Per another member, the black plugs on the bed sides are the L-track attachment points. The tonneau cover uses screw holes in the pillars above them, so both can be fitted.",
+    "Major_B's dealer said the rails should have come with his Trialmaster and fitted them free. Ask your dealer before buying aftermarket.",
+    "A dealer install on one owner's truck meant removing the spare, fitting the track, then refitting the tyre."
+   ],
+   "mistakes": [
+    "Buying aftermarket floor rails that don't match the bolt positions. Major_B had to cut and drill his to fit."
+   ],
+   "refs": [
+    {
+     "name": "The INEOS Forum: Airline rails for Quartermaster bed",
+     "url": "https://www.theineosforum.com/threads/airline-rails-for-quartermaster-bed.12418868/"
+    }
    ]
   },
   {
@@ -345,6 +405,21 @@
      "name": "Heat-shield fastener (tighten the existing 10 mm bolt; replacements from an INEOS dealer)",
      "supplier": "INEOS Grenadier service centre",
      "url": "https://ineosgrenadier.com/en/us/servicing-your-grenadier"
+    }
+   ],
+   "know": [
+    "On the INEOS Forum, owners place the diesel's harshness around 1,700-2,000 rpm, especially under steady or gentle acceleration. Posters say the petrol doesn't have it.",
+    "Member Spjnr found a loose 10mm bolt on the heat shield between the airbox and firewall (driver's side on right-hand drive). Tightening it cut the harshness by about 90%.",
+    "Other rattles found on that thread: a rear exhaust heat shield touching (one owner added rubber at the contact point), and two heater pipes under the glovebox that vibrate with the fan on high.",
+    "Owners suggest the scuttle panel access cover to reach the heater pipe fittings."
+   ],
+   "mistakes": [
+    "Chasing driveline or mounts first. On that thread every reported fix was a loose shield, bolt or pipe."
+   ],
+   "refs": [
+    {
+     "name": "The INEOS Forum: Vibrations at certain rpm",
+     "url": "https://theineosforum.com/threads/vibrations-at-certain-rpm.12411991/post-1333187392"
     }
    ]
   }
