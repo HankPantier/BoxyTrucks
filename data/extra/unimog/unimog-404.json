@@ -397,5 +397,61 @@
    "name": "Rocky Mountain Moggers — home",
    "url": "https://www.rockymountainmoggers.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Unimog 404 (M 180 petrol six) maintenance schedule as compiled by owner Patrick Tufts: oil every 2,500 mi (filter every second change), valves every 5,000, gearbox and portal-axle oil changed every 10,000, with the grease points at every service.",
+  "intro": "This schedule comes from a 404.1 owner's compiled maintenance sheet, not a Mercedes document, and its author warns it hasn't been independently checked, so cross-check it against your manual. It's still the best published guide to how often a 404 wants attention: every 2,500 miles, with more items at 5,000 and 10,000. Off-road, the sheet sets the oil interval by fuel used instead of miles.",
+  "schedule_note": "From Patrick Tufts' Unimog 404.1 maintenance schedule (last updated August 1996). Check it against the Mercedes-Benz operating instructions for your truck.",
+  "schedule": [
+   {
+    "at": "Every 2,500 mi",
+    "items": [
+     "Engine oil (filter and seals every second change); prime oil pressure before starting after a change, or after standing more than 3 weeks",
+     "Clean the fuel filter; change the oil-bath air filter oil",
+     "Check spark plugs (gap 0.50 mm); check V-belt tension",
+     "Brakes: fluid level, drum adjustment, hoses and lines, pedal free play (10 mm), handbrake",
+     "Check gearbox, axle and portal (hub reduction) oil levels",
+     "Grease: transmission output ball housings, front swivel pins, front driveshaft U-joints, steering joints, handbrake and control shafts, clutch release shaft",
+     "Check chassis, mounts, suspension and axle bolts; clutch pedal free play (at least 35 mm)"
+    ]
+   },
+   {
+    "at": "Every 5,000 mi",
+    "items": [
+     "Check and adjust valve clearance (cold: inlet 0.10 mm, exhaust 0.20 mm)",
+     "Clean the fuel pump mesh filter; check distributor points (0.40 mm)",
+     "Check water pump and fan hub oil (EP90) and steering box oil",
+     "Clean and inspect brake drums and linings"
+    ]
+   },
+   {
+    "at": "Every 10,000 mi",
+    "items": [
+     "Drain and refill the gearbox and axles, including portals (EP80/90)",
+     "Replace spark plugs",
+     "Check cab and body mounts and the electrical connections",
+     "Clean and overhaul the carburetor"
+    ]
+   }
+  ],
+  "severe": "The sheet says off-road use should set the engine-oil interval by fuel used (265 US gallons) rather than miles, and to service the air filter weekly in very dusty conditions.",
+  "age_items": [
+   {
+    "item": "Oil pressure after storage",
+    "when": "Any time it has stood more than 3 weeks",
+    "why": "The sheet says to prime the oil pressure before starting."
+   },
+   {
+    "item": "Portal and axle oil after water",
+    "when": "After any deep crossing",
+    "why": "The portals and axles are checked every 2,500 miles; water in them can't wait."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Patrick Tufts: Unimog 404.1 maintenance schedule (owner-compiled)",
+    "url": "https://www.cs.brandeis.edu/~zippy/unimog-maint-sched.html"
+   }
+  ]
+ }
 }

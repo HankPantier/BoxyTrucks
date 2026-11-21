@@ -293,6 +293,28 @@
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/isuzu,1990,trooper,2.6l+l4,1177040,engine,crankshaft+seal,5604"
      }
+    ],
+    "know": [
+     "Gates' timing belt replacement guide lists the Trooper II's 2.3 (1986–87), 2.6 (1988–91) and 2.2 diesel (1984–87) cam belts at 60,000 miles, and marks all three as interference engines: a snapped belt can bend valves.",
+     "Gates' part numbers for those engines are T122 (2.3), T147 (2.6) and T075 (2.2 diesel), a quick way to check you've got the right belt.",
+     "Isuzu's workshop data for the 2.6 (4ZE1) says to check the tension pulley for wear and smooth rotation and to replace the tension spring if its set length or force is out of range."
+    ],
+    "mistakes": [
+     "Running an old belt with no record because the engine 'seems fine'.",
+     "Reusing a noisy or rough tension pulley.",
+     "Turning the engine with the belt off and the timing marks not lined up.",
+     "Skipping the tension spring check on the 2.6."
+    ],
+    "cost_note": "A belt (with tensioner, ideally) plus a few hours; much cheaper than a head job after a snapped belt.",
+    "refs": [
+     {
+      "name": "Gates: timing belt replacement guide (Isuzu Trooper II entries)",
+      "url": "https://www.maxiparts.com.au/Documents/Supplier/Gates/timingbeltreplacementguide.pdf"
+     },
+     {
+      "name": "Workshop manual data: Trooper II 2.6 (4ZE1) timing belt inspection",
+      "url": "https://workshop-manuals.com/isuzu/trooper_ii/l4-2559cc_2.6l_sohc_(4ze1)/maintenance/timing_belt/component_information/testing_and_inspection/page_407/"
+     }
     ]
    },
    {

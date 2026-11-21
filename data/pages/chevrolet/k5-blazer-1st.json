@@ -253,6 +253,24 @@
      "supplier": "Offroad Design",
      "url": "https://www.offroaddesign.com/gm-dana-44-and-corporate-10-bolt-spindle-seal-and-bearing-kit-all-years-per-side-two-kits-required-per-truck.html"
     }
+   ],
+   "know": [
+    "A Chilton's 1971–1978 truck manual procedure quoted on ck5.com: torque the inner nut to 50 ft-lb while turning the hub, back it off, re-torque to 35 ft-lb while turning, then back off up to 3/8 turn. Torque the outer lock nut to at least 50 ft-lb, for 0.001–0.010 in of end play.",
+    "Owners in the same thread disagree on the inner nut; one seats it and backs off 1/4 turn. Use your own shop manual's figure for your year and axle.",
+    "One poster suggests rechecking the adjustment after the first few miles."
+   ],
+   "mistakes": [
+    "Torquing the inner nut to the outer nut's 50 ft-lb and leaving it, which overloads the bearings.",
+    "Not spinning the hub while you seat the bearings.",
+    "Reusing pitted races with new bearings.",
+    "Skipping the spindle seal while the hub is off."
+   ],
+   "cost_note": "Bearings, races and seals per side are modest; a race driver and a torque wrench are the tools that matter.",
+   "refs": [
+    {
+     "name": "ck5.com: Wheel bearing adjustment, D44",
+     "url": "https://ck5.com/forums/threads/wheel-bearing-adjustment-d44.120339/"
+    }
    ]
   },
   {

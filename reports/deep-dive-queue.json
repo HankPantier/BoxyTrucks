@@ -132,7 +132,9 @@
   },
   {
    "gen": "chevrolet/k5-blazer-1st",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "; wheel bearings sourced (ck5.com / Chiltons)"
   },
   {
    "gen": "suzuki/samurai",
@@ -271,7 +273,9 @@
   },
   {
    "gen": "trooper/trooper-1",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "; timing belt sourced (Gates)"
   },
   {
    "gen": "chevrolet/suburban-square",
@@ -697,7 +701,9 @@
   },
   {
    "gen": "unimog/unimog-404",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from owner-compiled 404.1 schedule"
   }
  ]
 }
