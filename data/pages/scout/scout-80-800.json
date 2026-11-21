@@ -216,6 +216,21 @@
      "supplier": "Super Scout Specialists",
      "url": "https://www.superscoutspecialists.com/electric-wiper-conversion-kit-scout-80-800"
     }
+   ],
+   "know": [
+    "The Scout 800 electric conversion kit sold through IH Parts America's forum mounts below the windscreen and uses the factory wiper holes, with one motor driving both blades.",
+    "The seller lists a two-speed, self-parking 12V motor, brackets, bronze-bushed transmissions, linkage, escutcheons, and stainless arms and blades, designed to clear the stock gauges, radio, speaker and glovebox.",
+    "Member MattK called it about as easy a bolt-on as a Scout gets; he drilled one hole in the cowl for a support bracket.",
+    "Washer pump and delay switches were extra-cost options, and the washer reservoir and pumps are sold separately."
+   ],
+   "mistakes": [
+    "Relying on decade-old forum pricing; confirm the current kit and price with the seller."
+   ],
+   "refs": [
+    {
+     "name": "IH Parts America forum: Scout 800 wiper conversion kit",
+     "url": "https://forums.ihpartsamerica.com/threads/scout-800-wiper-conversion-kit.4953"
+    }
    ]
   },
   {
@@ -370,6 +385,25 @@
      "name": "V8 Holley distributor cap and rotor kit",
      "supplier": "Super Scout Specialists",
      "url": "https://www.superscoutspecialists.com/holley-points-or-electronic-distributor-cap-rotor-v8-scout-scout-ii-pickup-travelall"
+    }
+   ],
+   "know": [
+    "Super Scout Specialists sells separate Ignitor kits by distributor. Its curved-points kit is for the Ford/Holley-type distributor with no window in the cap, stamped 360742C91 (the listing also shows 360724C91, so check the stamp).",
+    "Straight-point Holley distributors (344730C91, 301574C91, 301573C91) and the Delco distributor on the 152 take different kits.",
+    "The kit doesn't include a distributor; it fits inside the one you have.",
+    "The Ignitor II version adds protection so it won't burn out if the key is left on."
+   ],
+   "mistakes": [
+    "Ordering by engine size alone instead of reading the distributor stamp and points type."
+   ],
+   "refs": [
+    {
+     "name": "Super Scout Specialists: Pertronix Ignitor kit, 4-cylinder curved points",
+     "url": "https://scoutparts.com/Pertronix_Ignitor_Kit_4_Cylinder_152ci_196_Curved_Points_360724C91_distributor_Scout_80_Scout_800/p14152"
+    },
+    {
+     "name": "Super Scout Specialists: Pertronix Ignitor kit, 152 straight points",
+     "url": "https://scoutparts.com/Pertronix_Ignitor_Kit_4_Cylinder_152ci_Straight_Points_For_distributor_IH_344730C91_and_301574C91_and_301573c91_Scout_80_Scout_800/p14151"
     }
    ]
   }
