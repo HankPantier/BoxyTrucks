@@ -374,7 +374,7 @@
    "gen": "delica/delica-l300",
    "status": "todo",
    "date": "2026-11-20",
-   "deepened": 1,
+   "deepened": 2,
    "note": "Valve cover guide deepened; no maintenance schedule source found yet; footwell leak guide still thin"
   },
   {
@@ -485,7 +485,8 @@
   },
   {
    "gen": "jeep/grand-wagoneer",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1
   },
   {
    "gen": "jeep/jk",
@@ -523,7 +524,8 @@
   },
   {
    "gen": "jeep/sj-wagoneer",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1
   },
   {
    "gen": "jeep/tj-unlimited",
@@ -668,7 +670,8 @@
   },
   {
    "gen": "pajero/pajero-gen3",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1
   },
   {
    "gen": "pinzgauer/pinzgauer-710-712",
@@ -710,7 +713,8 @@
   },
   {
    "gen": "scout/scout-ii",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1
   },
   {
    "gen": "scout/scout-motors",

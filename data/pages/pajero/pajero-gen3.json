@@ -254,6 +254,22 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/mitsubishi,2004,montero,3.8l+v6,1428342,electrical-switch+%26+relay"
     }
+   ],
+   "know": [
+    "On Expedition Portal, member Michael Brown says flashing front lights point to the front free-wheel clutch system: the clutch, solenoid and actuator.",
+    "Don't trust the lights alone. Check whether the front wheels actually engage.",
+    "Diagnosis path from that thread: check the actuator's position sensor switch for sticking, look behind the accordion boot at the front diff actuator for a missing joint pin, apply vacuum to move the actuator shaft both ways, and check the cup around the rod.",
+    "The confirmed fault on that truck: the rods at the front diff actuator weren't joined by a pin. A spring pin through the joint fixed it, and the transfer case cycled again.",
+    "Grease the rod near the diff, and replace the actuator if its internal valve won't respond to vacuum."
+   ],
+   "mistakes": [
+    "Leaving a torn actuator boot unsecured; clamp or zip-tie it until a new one goes on."
+   ],
+   "refs": [
+    {
+     "name": "Expedition Portal: Gen 3 transfer case lights flashing under engagement",
+     "url": "https://forum.expeditionportal.com/threads/gen-3-transfer-case-lights-flashing-under-engagement.150856/post-1965309"
+    }
    ]
   },
   {

@@ -379,6 +379,24 @@
       "supplier": "IH Parts America",
       "url": "https://www.ihpartsamerica.com/store/pnx-40011.html"
      }
+    ],
+    "know": [
+     "IH Parts America member Heath M's install on a 304 V8 Scout II: remove the points and condenser, feed the Pertronix leads through the distributor wall and seat the grommet, red to coil positive, black to negative, then fit the magnet ring.",
+     "Member Dealbreaker74: the Pertronix wants a full 12 volts all the time, while points run on the reduced voltage from the resistor wire.",
+     "Heath's resistor wire measured about 72 inches and roughly 1.8 ohms. Options from the thread: swap it for a 1.5-1.8 ohm firewall ballast resistor, use a confirmed switched 12V wire, or let the old wire trigger a relay that feeds the coil.",
+     "Re-time the engine after the install; a member notes the timing changes.",
+     "A low-resistance coil (Heath's Flamethrower II read about 0.6 ohm) should only be used with electronic ignition, not points.",
+     "Keep the old points and condenser in the glovebox as a roadside backup."
+    ],
+    "mistakes": [
+     "Cutting the coil feed before metering it. Heath cut the green wire and the engine wouldn't fire; members point out it may only be live while cranking.",
+     "Leaving the old double-coiled resistor wire overloaded; Heath had a wire burn in the bulkhead connector."
+    ],
+    "refs": [
+     {
+      "name": "IH Parts America forum: Pertronix Ignitor II installation",
+      "url": "https://forums.ihpartsamerica.com/goto/post?id=14865"
+     }
     ]
    },
    {
