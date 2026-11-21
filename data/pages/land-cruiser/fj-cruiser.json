@@ -277,6 +277,21 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,2011,fj+cruiser,4.0l+v6,1501578,brake+&+wheel+hub,wheel+bearing+&+hub,1636"
     }
+   ],
+   "know": [
+    "Toyota's 2007 FJ Cruiser repair manual (Front Axle Hub section) removes the brake caliper and disc, the speed sensor, the hub grease cap and nut (4WD), the stabiliser link, tie rod end and both ball joints, then taps the hub off the driveshaft with a plastic hammer.",
+    "The hub then unbolts from the knuckle (four bolts) with its dust cover; fit a new O-ring, greased with MP grease, on reassembly.",
+    "Torque the hub-to-knuckle bolts to 80 N·m (59 ft-lb) per the manual.",
+    "The bearing itself is pressed off and on the hub with Toyota special tools, and the manual fits a new knuckle oil seal on 4WD trucks."
+   ],
+   "mistakes": [
+    "Reusing the hub O-ring or knuckle oil seal; the manual calls for new ones.",
+    "Damaging the new oil seal when driving it in; the manual warns against it."
+   ],
+   "refs": [
+    {
+     "name": "Toyota: 2007 FJ Cruiser repair manual, Front Axle Hub (AH-7 to AH-10)"
+    }
    ]
   },
   {

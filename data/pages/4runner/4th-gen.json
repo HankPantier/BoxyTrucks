@@ -188,6 +188,22 @@
      "supplier": "Metal Tech 4x4",
      "url": "https://metaltech4x4.com/products/metal-tech-gx470-rear-coil-conversion-kit-stage-1"
     }
+   ],
+   "know": [
+    "Dobinsons' WA59-561K rear coil conversion is listed for the 4Runner, GX470 and GX460.",
+    "Its steps: support the body on stands so the axle droops, disconnect the sway bar links at the frame (12mm), unplug the shocks and remove them (17mm), release the air lines at their quick-release fittings, then pry out each air spring's clip with a long thin screwdriver.",
+    "Bolt the spring cups to the axle through the old air-spring mounts, fit the tail isolators with the pigtail facing out toward the brakes, add the upper isolators and bump stops, push the axle down and drop in the springs, then fit the new shocks.",
+    "To stop the air system working, Dobinsons says to pull the 'Air Sus 50A' and 'Air Sus Fuse #2' fuses behind the battery; some trucks also need the TEMS 20A fuse under the dash near the OBD port."
+   ],
+   "mistakes": [
+    "Fitting the spring tail isolators the wrong way round; the pigtail end faces outward.",
+    "Leaving the air system fused after removing the bags."
+   ],
+   "refs": [
+    {
+     "name": "Dobinsons: WA59-561K rear coil conversion installation instructions",
+     "url": "https://cdn.shopify.com/s/files/1/0029/2795/1981/files/gx460-470-wa59-561k-installation-instructions.pdf"
+    }
    ]
   },
   {
@@ -327,7 +343,22 @@
    "symptoms": "VSC, TRAC or TRAC OFF lights that stay on after a battery change, alignment, sensor work or a fluid service — with no actual fault.",
    "fix": "Park on a level surface with the wheels straight, and perform Toyota's yaw/deceleration sensor zero-point calibration by jumping the diagnostic connector terminals with a paper clip as shown in widely shared guides (4Runners.com members link a YouTube walkthrough). If the light persists, scan for real codes before chasing anything else.",
    "tools": "Paper clip · level ground · OBD-II scanner if it doesn't clear",
-   "parts": []
+   "parts": [],
+   "know": [
+    "A Toyota bulletin on zero-point calibration lists the 4Runner among 1998-2009 models it applies to.",
+    "Toyota says to do it after a wheel alignment is adjusted, or whenever chassis components have been removed, installed or replaced.",
+    "Toyota's procedure: disconnect the negative battery cable for more than two seconds (it calls this a necessary step), reconnect it, run the yaw-rate and/or steering-angle sensor zero-point calibration, then re-initialise windows, sunroof and other systems.",
+    "The bulletin calls for Techstream software 2.20.015 or later."
+   ],
+   "mistakes": [
+    "Skipping the battery disconnect; Toyota says momentarily disconnecting it is necessary for the calibration."
+   ],
+   "refs": [
+    {
+     "name": "Vehicle Service Pros: Toyota zero point calibration TSB",
+     "url": "https://www.vehicleservicepros.com/tsbs/article/53092346/toyota-zero-point-calibration-2014-10-06"
+    }
+   ]
   }
  ],
  "faq": [
