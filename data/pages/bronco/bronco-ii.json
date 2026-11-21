@@ -368,6 +368,71 @@
      "url": "https://www.rockauto.com/en/catalog/ford,1988,bronco+ii,2.9l+177cid+v6,1106176,body+%26+lamp+assembly,trunk+/+tailgate+seal,793"
     }
    ]
+  },
+  {
+   "title": "Rebush sagging door hinges",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours per door",
+   "cost": "Hinge pin and bushing kits",
+   "symptoms": "A door that drops when opened, has to be lifted to latch, or rocks up and down at the hinges.",
+   "fix": "Open the door fully and have someone lift the far end; if it rocks while the hinge body stays put, the pins or bushings are worn, per The Ranger Station's Mark_88. Mark the hinge position, unbolt the hinge from the door, drive out the old pin, fit new bushings and a new pin with its clip, then bolt the hinge back on to your marks. Bronco Graveyard sells a kit for the 1984–90 Bronco II (shared with the Ranger) that does one hinge.",
+   "tools": "Marker · punch or air hammer · hammer · sockets",
+   "parts": [
+    {
+     "name": "Bronco II / Ranger door hinge repair kit (one hinge), Ford D90Z-6522841-C",
+     "supplier": "Bronco Graveyard",
+     "url": "https://shop.broncograveyard.com/1983-1997-Ford-Bronco-II-and-Ranger-Door-Hinge-Repair-Kit/productinfo/94377"
+    }
+   ],
+   "know": [
+    "Bronco Graveyard's kit has one pin, one clip and two bushings, so a door with worn upper and lower hinges needs two.",
+    "Mark_88 notes the pins have two clip grooves so one pin design serves top and bottom; another member found the bottom pin shorter than the top, so check the fit.",
+    "The bushings usually wear before the pin, Mark_88 says.",
+    "Member BRUTUS_T_HOG has had to weld washers over hinge holes worn oval before a bushing would fit.",
+    "A NAPA pin-and-bushing kit, 675-5183, is also mentioned on the thread."
+   ],
+   "mistakes": [
+    "Blaming the hinges when the A-pillar is rotten; Mark_88 says rust there makes the hinge area feel mushy.",
+    "Removing the hinge without marking its position."
+   ],
+   "cost_note": "Bronco Graveyard listed the kit at $6.95 per hinge.",
+   "refs": [
+    {
+     "name": "Bronco Graveyard: Bronco II and Ranger door hinge repair kit",
+     "url": "https://shop.broncograveyard.com/1983-1997-Ford-Bronco-II-and-Ranger-Door-Hinge-Repair-Kit/productinfo/94377"
+    },
+    {
+     "name": "The Ranger Station: 1990 Ranger door sagging",
+     "url": "https://www.therangerstation.com/forums/goto/post?id=1172641"
+    }
+   ]
+  },
+  {
+   "title": "Replace the fuel pump (check which system you have)",
+   "diff": "3 / 5",
+   "time": "≈ 3–4 hours",
+   "cost": "An in-tank pump or assembly",
+   "symptoms": "Hard starting, stalling or loss of power under load, or no fuel pressure on an EFI 2.9.",
+   "fix": "Work out which pump arrangement the truck has before buying. On The Ranger Station, a member says earlier trucks used a low-pressure pump in the tank plus a high-pressure pump on the frame rail, and that Ford went to a single in-tank pump part way through 1989. Drop the tank, swap the pump on the sending unit, and clean or replace a gunked-up sender and float while it's out. Confirm the new pump's pressure rating matches your system.",
+   "tools": "Jack and stands · line disconnect tools · hand tools",
+   "parts": [],
+   "know": [
+    "Members say Ranger and Bronco II tanks differ, so complete tank assemblies don't interchange; one member believes the high-pressure in-tank pump itself is shared.",
+    "Airtex lists its E2059MN pump for the 1989 Bronco II 2.9, member deltabowhunter reports.",
+    "Member dirtcowboy's later-style pump was rated at 40 psi, against roughly 25–30 psi for the older in-tank pumps.",
+    "One owner fitted a junkyard Explorer pump into the Bronco II housing and it worked; another's E2078S pump ran but his fuel gauge stopped working."
+   ],
+   "mistakes": [
+    "Fitting a low-pressure pump on a single-pump truck; member 89Dog warns it may run but not make the pressure the engine needs.",
+    "Buying a part without confirming it matches your model year's tank and pump layout."
+   ],
+   "cost_note": "",
+   "refs": [
+    {
+     "name": "The Ranger Station: 1989 Bronco II fuel tank and pump, what will fit?",
+     "url": "https://www.therangerstation.com/forums/threads/1989-bronco-ii-fuel-tank-and-pump-what-will-fit.110025/post-1045115"
+    }
+   ]
   }
  ],
  "faq": [

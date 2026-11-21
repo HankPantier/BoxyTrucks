@@ -347,6 +347,37 @@
      "url": "https://ck5.com/forums/threads/1970-blazer-4wd-drum-to-discs-need-advice.270736/"
     }
    ]
+  },
+  {
+   "title": "Stop an NP205 speedometer-output leak",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour",
+   "cost": "A speedometer drive sleeve",
+   "symptoms": "Gear oil weeping from the transfer case where the speedometer cable attaches, and a low transfer case oil level.",
+   "fix": "A ck5.com tech write-up traces this leak on the NP203 and NP205 to the sleeve with the built-in seal on the speedometer output, which cracks with age and lets oil run out to the cable fitting. Remove the speedometer drive, check and remove the old sleeve (it's often loose), polish the shaft where the seal rides with 2000-grit emery cloth, fit the new sleeve, then refit the speedometer drive onto it. Degrease the area so you can see whether it stays dry, and top up the transfer case.",
+   "tools": "Hand tools · 2000-grit emery cloth · degreaser",
+   "parts": [
+    {
+     "name": "Speedometer drive sleeve, AC Delco 326561 (per ck5.com)",
+     "supplier": "GM / AC Delco",
+     "url": "https://ck5.com/forums/threads/tech-fix-your-leaking-np203-or-np205-case.269149/"
+    }
+   ],
+   "know": [
+    "The ck5.com write-up gives the part as AC Delco 326561, a sleeve with an integrated seal and oil scraper, not the speedometer gear or calibration box.",
+    "The author priced it at about $21.",
+    "A good fit gives a firm connection when the speedometer drive goes back on, the author says."
+   ],
+   "mistakes": [
+    "Fitting the new sleeve over a burred shaft, which can damage it; polish the seal area first."
+   ],
+   "cost_note": "The ck5.com author priced the sleeve at about $21; prices will have changed.",
+   "refs": [
+    {
+     "name": "ck5.com: Tech, fix your leaking NP203 or NP205 case",
+     "url": "https://ck5.com/forums/threads/tech-fix-your-leaking-np203-or-np205-case.269149/"
+    }
+   ]
   }
  ],
  "faq": [

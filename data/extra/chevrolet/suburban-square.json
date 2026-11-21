@@ -360,5 +360,53 @@
    "name": "Crawlpedia — Most common bolt patterns",
    "url": "https://crawlpedia.com/bolt_patterns.htm"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Chevrolet/GMC Suburban (1973–1991) maintenance: GM's factory schedule isn't online, so this is a purchase baseline for an unknown-history truck plus sourced 6.2 diesel glow plug advice.",
+  "intro": "We couldn't find GM's own maintenance schedule for the square-body Suburban online, so this page doesn't give factory intervals. Treat every Suburban of unknown history as due for everything below, then follow the owner's manual for your year if you have it. The one sourced interval here is for the 6.2 diesel's glow plugs.",
+  "schedule_note": "Purchase baseline only: GM's factory schedule for these trucks isn't published online. Glow plug figures from DieselHub.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter; air and fuel filters",
+     "Coolant, hoses, radiator and fan clutch",
+     "Automatic transmission pan drop and filter; transfer case and both differential oils",
+     "Repack the front wheel bearings and replace the spindle seals",
+     "Brake fluid flush; inspect lines and hoses",
+     "Ignition parts on gas engines; test the glow plug system on the 6.2 diesel",
+     "Inspect the steering box mount, spring bushings, U-joints and rear A/C lines"
+    ]
+   },
+   {
+    "at": "6.2 diesel: about every 60,000 mi",
+    "items": [
+     "Replace all eight glow plugs with ACDelco 60G (DieselHub's suggestion; GM's interval is 100,000)"
+    ]
+   }
+  ],
+  "severe": "No factory severe-service schedule is online for these trucks. Trucks that tow, wade or work off-road need their gear oils and wheel bearings checked more often.",
+  "age_items": [
+   {
+    "item": "Glow plugs (6.2 diesel)",
+    "when": "Replace as a set",
+    "why": "DieselHub says to replace all eight if any reads out of range, and to change them before they seize."
+   },
+   {
+    "item": "Rear A/C lines",
+    "when": "Inspect at purchase",
+    "why": "GMSquareBody owners report the long rear lines corroding under the truck."
+   }
+  ],
+  "sources": [
+   {
+    "name": "DieselHub: 6.2L and 6.5L GM diesel glow plug system diagnostics",
+    "url": "https://dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+   },
+   {
+    "name": "GMSquareBody: Suburban rear heat and A/C thread",
+    "url": "https://gmsquarebody.com/threads/suburban-rear-heat-ac-removal-installation-compatability.35068/post-947877"
+   }
+  ]
+ }
 }

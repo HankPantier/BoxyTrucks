@@ -197,5 +197,98 @@
    "name": "C4 Fabrication — C4 at Toyota Jamboree 2026",
    "url": "https://c4fabrication.com/blogs/news/c4-at-toyota-jamboree-2026"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Toyota 4Runner first generation (1984–1989) maintenance: no 1984–89 Toyota schedule is online, so this uses Toyota's 1993 Pickup and 4Runner schedule for the same 22R-E and 3VZ-E engines, plus a purchase baseline.",
+  "intro": "We couldn't find Toyota's own 1984–89 maintenance schedule online. The first-gen 4Runner shares its 22R-E four and (1988–89) 3VZ-E V6 with the later trucks, so the intervals below are from Toyota's 1993 Pickup and 4Runner repair manual and should be read as a guide: check your own owner's manual where you have it. Carbureted 1984 22R trucks and the 1986–87 22R-TE turbo aren't covered by that book. On any truck with no records, do the whole list at purchase. Toyota's Schedule A (severe use) fits any 4Runner that goes off-road.",
+  "schedule_note": "Intervals from Toyota's 1993 Pickup and 4Runner repair manual (Schedule B shown), which covers the same 22R-E and 3VZ-E engines but not the 1984–89 trucks specifically. Valve-clearance figures for the 22R-E from 22RE Performance.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, air filter, fuel filter, plugs, wires, cap and rotor",
+     "Coolant, brake fluid, transmission, transfer case and differential oils",
+     "Repack the front wheel bearings; inspect the timing chain (22R-E) or confirm the timing belt (3VZ-E)"
+    ]
+   },
+   {
+    "at": "Every 7,500 mi / 12 months",
+    "items": [
+     "Engine oil and filter"
+    ]
+   },
+   {
+    "at": "Every 15,000 mi / 24 months",
+    "items": [
+     "Inspect steering linkage, ball joints and dust covers, drive shaft boots",
+     "Inspect transmission, transfer case and differential oil levels",
+     "Check the steering gear box for leaks",
+     "Grease the propeller shafts (4WD)",
+     "Inspect brake linings, pads and lines",
+     "Check chassis and body bolts; check idle speed after the first 7,500"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi / 36 months",
+    "items": [
+     "Replace the air filter and spark plugs",
+     "Inspect fuel lines and exhaust",
+     "Check valve clearance (22R-E, also 36 months)",
+     "Repack front wheel bearings and thrust bush grease, 4WD (36 months; 48 for 2WD)"
+    ]
+   },
+   {
+    "at": "45,000 mi / 36 months",
+    "items": [
+     "Engine coolant, first replacement; then every 30,000 mi / 24 months"
+    ]
+   },
+   {
+    "at": "60,000 mi",
+    "items": [
+     "Check valve clearance (3VZ-E, or 72 months)",
+     "Replace the fuel tank cap gasket (72 months)",
+     "Inspect drive belts (first at 30,000 / 36 months, then 60,000; after that every 7,500 mi / 12 months)"
+    ]
+   },
+   {
+    "at": "80,000 mi (Fed. and Canada)",
+    "items": [
+     "Replace the oxygen sensor"
+    ]
+   }
+  ],
+  "severe": "Toyota's Schedule A: engine oil and filter every 3,750 miles or 6 months; inspect the air filter every 3,750 miles on dusty roads and replace it every 30,000; change the automatic or manual transmission, transfer case and differential oil every 15,000 miles or 24 months; grease the propeller shafts every 7,500 miles or 12 months; inspect brakes, steering linkage, ball joints and drive shaft boots every 7,500. On the 3VZ-E V6, Schedule A replaces the timing belt at 60,000 miles for trucks used with long idling or low-speed driving. Toyota says to re-grease the propeller shaft daily if it has been under water.",
+  "age_items": [
+   {
+    "item": "Propeller shaft grease",
+    "when": "After any water crossing",
+    "why": "Toyota: if the propeller shaft has been immersed, re-grease it daily."
+   },
+   {
+    "item": "Engine coolant",
+    "when": "Every 2 years after the first change",
+    "why": "Toyota's interval after the first change is 30,000 miles or 24 months."
+   },
+   {
+    "item": "Drive belts",
+    "when": "Yearly after 60,000 mi",
+    "why": "Toyota moves the belt inspection to every 7,500 miles or 12 months after the second period."
+   },
+   {
+    "item": "22R-E valve clearance",
+    "when": "Every 7,500–10,000 mi",
+    "why": "22RE Performance sets intake .007 in and exhaust .011 in cold at that interval."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Toyota: 1993 Pickup and 4Runner repair manual, maintenance schedule (Schedules A and B)"
+   },
+   {
+    "name": "22RE Performance: FAQ and diagnostic info",
+    "url": "https://jerry-super.squarespace.com/faq-diagnostic-info"
+   }
+  ]
+ }
 }

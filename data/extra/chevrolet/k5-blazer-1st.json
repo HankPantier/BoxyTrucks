@@ -266,5 +266,39 @@
    "name": "MotorTrend — Chevy K5 Blazer history",
    "url": "https://www.motortrend.com/vehicle-genres/chevy-k5-blazer-4x4-suv-history/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Chevrolet K5 Blazer (1969–1972) maintenance: GM's factory schedule isn't online, so this is a purchase baseline for an unknown-history truck.",
+  "intro": "We couldn't find GM's 1969–72 truck maintenance schedule online, so this page doesn't give factory intervals. A first-gen Blazer of unknown history needs everything below doing at purchase; after that, follow the owner's manual for your year if you have one.",
+  "schedule_note": "Purchase baseline only: GM's factory schedule for these trucks isn't published online.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter; air and fuel filters",
+     "Ignition: points or HEI, cap, rotor, plugs and wires",
+     "Coolant, hoses, radiator and thermostat",
+     "Transmission, transfer case and both differential oils",
+     "Repack the front wheel bearings and replace the spindle seals",
+     "Brake fluid flush; inspect every hose and steel line",
+     "Inspect the steering box mount, spring and shackle bushings, U-joints and top seals",
+     "Check the transfer case speedometer output for leaks"
+    ]
+   }
+  ],
+  "severe": "No factory severe-service schedule is online for these trucks. Change gear oils and repack the front bearings after deep water.",
+  "age_items": [
+   {
+    "item": "Transfer case speedometer sleeve",
+    "when": "If oil weeps at the cable",
+    "why": "A ck5.com write-up says the sleeve's built-in seal cracks with age on the NP203 and NP205."
+   }
+  ],
+  "sources": [
+   {
+    "name": "ck5.com: Tech, fix your leaking NP203 or NP205 case",
+    "url": "https://ck5.com/forums/threads/tech-fix-your-leaking-np203-or-np205-case.269149/"
+   }
+  ]
+ }
 }

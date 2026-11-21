@@ -134,7 +134,8 @@
    "gen": "chevrolet/k5-blazer-1st",
    "status": "todo",
    "deepened": 2,
-   "note": "; wheel bearings sourced (ck5.com / Chiltons)"
+   "note": "; wheel bearings sourced (ck5.com / Chiltons); maintenance (purchase baseline; no GM schedule online); +1 guide",
+   "maintenance": true
   },
   {
    "gen": "suzuki/samurai",
@@ -279,9 +280,11 @@
   },
   {
    "gen": "chevrolet/suburban-square",
-   "status": "todo",
+   "status": "done",
    "deepened": 4,
-   "note": "; frame-at-steering-box guide sourced (ck5.com)"
+   "note": "; frame-at-steering-box guide sourced (ck5.com); maintenance (purchase baseline; no GM schedule online); +2 guides",
+   "maintenance": true,
+   "date": "2026-11-20"
   },
   {
    "gen": "pajero/pajero-gen1",
@@ -315,9 +318,11 @@
   },
   {
    "gen": "4runner/1st-gen",
-   "status": "todo",
+   "status": "done",
    "deepened": 1,
-   "note": "; solid-axle guide sourced (Trail-Gear); no factory schedule found online"
+   "note": "; solid-axle guide sourced (Trail-Gear); no factory schedule found online; maintenance (1993 Toyota schedule for same engines, framed); +1 guide",
+   "maintenance": true,
+   "date": "2026-11-20"
   },
   {
    "gen": "4runner/2nd-gen",
@@ -346,7 +351,10 @@
   },
   {
    "gen": "bronco/bronco-ii",
-   "status": "todo"
+   "status": "done",
+   "maintenance": true,
+   "note": "; maintenance (purchase baseline; no Ford schedule online); +2 guides",
+   "date": "2026-11-20"
   },
   {
    "gen": "bronco/early-bronco",

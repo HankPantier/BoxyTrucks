@@ -410,6 +410,68 @@
      "url": "https://gmsquarebody.com/threads/dash-pad-help.46151"
     }
    ]
+  },
+  {
+   "title": "6.2 diesel hard starting: test the glow plug system",
+   "diff": "2 / 5",
+   "time": "≈ 1–3 hours",
+   "cost": "Glow plugs, a controller or relay",
+   "symptoms": "A 6.2 diesel that cranks long, smokes white or black while cranking, or won't start cold; glow plugs that cycle rapidly.",
+   "fix": "DieselHub says these symptoms usually mean fuel is reaching the cylinders but there isn't enough heat to light it. Measure current on the negative battery cable during pre-heat, then check each plug's resistance and the controller's input voltage, and look for corroded or melted connectors and burned fusible links. Replace failed plugs as a set of eight with genuine ACDelco 60G plugs.",
+   "tools": "Clamp ammeter · multimeter · deep sockets",
+   "parts": [
+    {
+     "name": "ACDelco 60G glow plugs (set of 8)",
+     "supplier": "ACDelco",
+     "url": "https://dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+    }
+   ],
+   "know": [
+    "DieselHub: 1982–84 trucks have a thermal controller plus a separate relay (ACDelco D1777); 1985-on combine them in one 4-pin unit. Controllers: ACDelco 212-317 for 1982–84, 212-367 for 1985-on.",
+    "Expect about 40–50 A total during pre-heat with ACDelco plugs, roughly 6–10 A per plug; under 40 A means check each plug.",
+    "Plug resistance should read 0.8–1.8 ohms; DieselHub says replace all eight if any is out.",
+    "The controller's large red input terminal should show about 12 V even with the key off; no voltage points to a broken wire or blown fusible link.",
+    "Rapid cycling is almost always a bad controller, DieselHub says. The inhibit switch is obsolete and can be bypassed by joining its two wires.",
+    "DieselHub suggests changing the plugs around 60,000 miles, sooner than GM's 100,000, to avoid seized plugs."
+   ],
+   "mistakes": [
+    "Fitting cheap aftermarket plugs; DieselHub warns they can swell or break off in the chamber.",
+    "Soldering fusible links; splice them with heat shrink using the same gauge and length.",
+    "Jump-starting, which DieselHub says often damages glow plug parts."
+   ],
+   "cost_note": "",
+   "refs": [
+    {
+     "name": "DieselHub: 6.2L and 6.5L GM diesel glow plug system diagnostics",
+     "url": "https://dieselhub.com/maintenance/6.2-6.5-diesel-glow-plug-diagnostics.html"
+    }
+   ]
+  },
+  {
+   "title": "Rear A/C lines and blower: repair or remove",
+   "diff": "3 / 5",
+   "time": "≈ half a day",
+   "cost": "Hoses or lines, refrigerant service",
+   "symptoms": "Rear air that blows weakly or not at all, a blown rear A/C line under the truck, or a rear blower held in with zip ties.",
+   "fix": "On GMSquareBody, Suburban owners report the long rear A/C lines corroding under the truck and the rear blower's plastic ducting and mounts breaking. Have the system evacuated before disconnecting anything. Lines can be replaced with new hard lines or with flexible hoses made up by a hydraulic hose shop. Owners who remove the rear unit say the tricky part is where the lines enter the cabin at the rear corner.",
+   "tools": "Hand tools · access to refrigerant recovery",
+   "parts": [],
+   "know": [
+    "Member bucket's new GM hard lines lasted about five years before one corroded through at a factory retaining clamp; he blamed road salt and galvanic corrosion.",
+    "He had a local hose shop make flexible rear lines instead, which he says worked on many 1980s and 90s conversion vans.",
+    "On the rear-A/C trucks discussed, the lines run up the passenger-side rear pillar behind a trim panel to the overhead unit, per member PrairieDrifter.",
+    "Member dd1990 suggests 120mm or 140mm 12V PC fans on the back of the rear evaporator when the factory blower is too weak or broken."
+   ],
+   "mistakes": [
+    "Disconnecting lines without having the refrigerant recovered first."
+   ],
+   "cost_note": "",
+   "refs": [
+    {
+     "name": "GMSquareBody: Suburban rear heat and A/C removal, installation, compatibility",
+     "url": "https://gmsquarebody.com/threads/suburban-rear-heat-ac-removal-installation-compatability.35068/post-947877"
+    }
+   ]
   }
  ],
  "faq": [
