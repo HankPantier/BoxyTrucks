@@ -243,6 +243,22 @@
      "supplier": "Summit Racing",
      "url": "https://www.summitracing.com/parts/rgg-1500143"
     }
+   ],
+   "know": [
+    "On Delica.ca, member jessef says most of the job is getting the axle out and back in; the boot itself takes about 15-20 minutes on the bench.",
+    "To pull the axle, move the hub out of the way by disconnecting the ball joints or the outer tie rod. On the driver's side four bolts hold the axle to the differential flange; the passenger side is held by a C-clip. Gear oil will drain when it comes out.",
+    "Member lopar warns the middle bolt of the upper ball joint runs through the knuckle and often seizes or snaps; replace loose ball joints while you're there.",
+    "Members split on boot versus whole axle. Complete aftermarket axles were cheap, but jessef says their quality varies and boots are consumables, so a boot is often the better repair unless the shaft is damaged.",
+    "One member reported a NAPA CVB764 inner boot didn't fit."
+   ],
+   "mistakes": [
+    "Forgetting the diff will drain gear oil when the axle comes out; have a pan and fresh oil ready."
+   ],
+   "refs": [
+    {
+     "name": "Delica.ca forum: Torn CV boot, replace boot or whole axle?",
+     "url": "https://delica.ca/forum/viewtopic.php?p=104503"
+    }
    ]
   },
   {
@@ -258,6 +274,22 @@
      "name": "EGR valve and gaskets for the 4M40",
      "supplier": "Megazip (genuine Mitsubishi catalogue, search by frame number)",
      "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear"
+    }
+   ],
+   "know": [
+    "A Delica.ca thread on diesel Delicas, including L400 Space Gears, covers why owners block the EGR: they report less smoke and smoother running, with fuel-economy gains hard to measure.",
+    "Member FalcoColumbarius found his EGR valve clogged with sludge, cleaned and polished it, then fitted a blanking plate after the engine ran hot, smoky and down on power.",
+    "An L400 owner on that thread noticed the difference in smoothness and smoke but called a one- or two-mpg gain hard to see.",
+    "Member jfarsang points out blocking the EGR raises NOx while other emissions drop; the EGR exists mainly for emissions.",
+    "Another member suggests simply unplugging the EGR vacuum hose as an alternative to a plate."
+   ],
+   "mistakes": [
+    "Expecting a big fuel-economy gain. Owners on the thread doubt the claimed figures."
+   ],
+   "refs": [
+    {
+     "name": "Delica.ca forum: Why should one put in an EGR blanking plate?",
+     "url": "https://delica.ca/forum/viewtopic.php?p=65593"
     }
    ]
   },

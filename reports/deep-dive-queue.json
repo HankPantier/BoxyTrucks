@@ -133,7 +133,7 @@
   {
    "gen": "chevrolet/k5-blazer-1st",
    "status": "todo",
-   "deepened": 1,
+   "deepened": 2,
    "note": "; wheel bearings sourced (ck5.com / Chiltons)"
   },
   {
@@ -280,7 +280,7 @@
   {
    "gen": "chevrolet/suburban-square",
    "status": "todo",
-   "deepened": 1,
+   "deepened": 4,
    "note": "; frame-at-steering-box guide sourced (ck5.com)"
   },
   {
@@ -379,7 +379,8 @@
   },
   {
    "gen": "delica/delica-space-gear",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 2
   },
   {
    "gen": "g-class/4x4-squared",

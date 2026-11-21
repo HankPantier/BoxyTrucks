@@ -289,6 +289,23 @@
      "supplier": "Offroad Design",
      "url": "https://www.offroaddesign.com/gm-dana-44-and-corporate-10-bolt-spindle-seal-and-bearing-kit-all-years-per-side-two-kits-required-per-truck.html"
     }
+   ],
+   "know": [
+    "A Chilton's 1971–1978 truck manual procedure quoted on ck5.com: torque the inner nut to 50 ft-lb while turning the hub, back it off, re-torque to 35 ft-lb while turning, then back off up to 3/8 turn. Torque the outer lock nut to at least 50 ft-lb, for 0.001–0.010 in of end play.",
+    "Owners in the same thread disagree on the inner nut; one seats it and backs off 1/4 turn. Use your own shop manual's figure for your year and axle.",
+    "One poster suggests rechecking the adjustment after the first few miles."
+   ],
+   "mistakes": [
+    "Torquing the inner nut to the outer nut's 50 ft-lb and leaving it, which overloads the bearings.",
+    "Not spinning the hub while you seat the bearings.",
+    "Reusing pitted races with new bearings.",
+    "Skipping the spindle seal while the hub is off."
+   ],
+   "refs": [
+    {
+     "name": "ck5.com: Wheel bearing adjustment, D44",
+     "url": "https://ck5.com/forums/threads/wheel-bearing-adjustment-d44.120339/"
+    }
    ]
   },
   {
@@ -331,6 +348,28 @@
      "supplier": "Offroad Design",
      "url": "https://www.offroaddesign.com/offroad-design-standard-spring-lift-kit-for-1973-1991-gm-chevy-trucks.html"
     }
+   ],
+   "know": [
+    "On GMSquareBody, member Bextreme04's method for old bushings: burn out the rubber, then cut or press out the metal sleeve.",
+    "Member TubeTruck cuts seized bolts off from inside the frame, drills out the rubber, then collapses the outer sleeve with a chisel or punch and knocks it out.",
+    "Size the bushing by measuring the spring eye's outside diameter with calipers and subtracting the leaf thickness. One member ordered 1 3/8-inch bushings when he needed 1 1/2-inch.",
+    "Member Raider L says poly bushings last two or three times as long as rubber, which dries and cracks. Offroad Design says any NLGI chassis grease suits its poly bushings.",
+    "Greasable bolts are the better hardware, member Grit dog says; silicone lube is only for assembly and doesn't last.",
+    "Member Curt reports new bushings noticeably improved the ride and ended the squeaks."
+   ],
+   "mistakes": [
+    "Ordering bushings without measuring the eye.",
+    "Ignoring a shifted spring. Raider L found one that had pushed a bushing out of its eye and was hitting the hanger."
+   ],
+   "refs": [
+    {
+     "name": "GMSquareBody: The leaf spring bushings need replacing",
+     "url": "https://www.gmsquarebody.com/goto/post?id=667780"
+    },
+    {
+     "name": "GMSquareBody: '75 K25 front leaf spring bushing replacement, bolts stuck",
+     "url": "https://gmsquarebody.com/threads/75-k25-front-leaf-spring-bushing-replacement-bolts-stuck.30926/page-2"
+    }
    ]
   },
   {
@@ -346,6 +385,29 @@
      "name": "73–87 Chevy/GMC truck dash pad (search)",
      "supplier": "Auto Metal Direct",
      "url": "https://www.autometaldirect.com/search?q=73-87+suburban+dash+pad"
+    }
+   ],
+   "know": [
+    "CJ Pony Parts' 1973-87 guide: the cluster bezel uses long Phillips screws with small integrated washers, while some lower dash screws have 1/4-inch hex heads. Keep them sorted.",
+    "The pad's top edge has no visible screws; metal clips slide into slots in the dash. Inspect the clips before reusing them.",
+    "Start the lower-edge screws loosely, check the fit along the whole front edge, then tighten. An awl finds screw holes hidden under new pad material.",
+    "Trim the new pad's clip openings and vent holes only as much as needed, with a wire wheel or rotary tool at low speed.",
+    "On GMSquareBody, member GTX63 strips old under-padding off the metal base with a heat gun to avoid lumps and gaps under the new pad, and warns against cheap eBay pads.",
+    "Member 75gmck25 found a Dashes Direct pad a very good fit after trimming moulding flash near the windscreen."
+   ],
+   "mistakes": [
+    "Overtightening screws and distorting the pad.",
+    "Breaking mounting studs or brittle trim on removal; have replacement trim ready.",
+    "Forcing the glovebox liner past its stop, which can crack it."
+   ],
+   "refs": [
+    {
+     "name": "CJ Pony Parts: 1973-1987 Chevy and GMC truck dash pad replacement",
+     "url": "https://www.cjponyparts.com/resources/1973-1987-chevy-gmc-truck-dash-pad-install"
+    },
+    {
+     "name": "GMSquareBody: Dash pad help",
+     "url": "https://gmsquarebody.com/threads/dash-pad-help.46151"
     }
    ]
   }
