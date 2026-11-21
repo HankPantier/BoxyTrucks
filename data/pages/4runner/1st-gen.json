@@ -285,6 +285,25 @@
      "supplier": "LC Engineering",
      "url": "https://www.lceperformance.com/longfield-27-spline-birfield-axle-kit-pickup-4runner/"
     }
+   ],
+   "know": [
+    "Trail-Gear's Toyota knuckle rebuild kit lists fitment for 1979–1995 Toyota pickups and 1985–1995 4Runners with the solid front axle, plus FJ40, FJ50 and FJ60 Land Cruisers; it doesn't fit IFS trucks or the FJ80.",
+    "The kit covers both knuckles: gaskets, felts, seals, washers, shims, inner axle seals, outer felt covers and trunnion bearings. One version adds wheel bearings.",
+    "Trail-Gear says rock crawlers will want to replace the outer felt covers each time the knuckles are serviced.",
+    "Trail-Gear's page doesn't give preload or shim figures, so set trunnion preload and wheel bearing preload from the factory manual."
+   ],
+   "mistakes": [
+    "Reassembling without new inner axle seals, which lets gear oil into the knuckle.",
+    "Guessing trunnion preload instead of following the manual.",
+    "Reusing hardened felts and wiper seals.",
+    "Ordering an FJ80 or IFS kit by mistake."
+   ],
+   "cost_note": "A knuckle kit for both sides is the main parts cost; bearings, birfield upgrades and a shop's labor add to it.",
+   "refs": [
+    {
+     "name": "Trail-Gear: Toyota knuckle rebuild kit (fitment and contents)",
+     "url": "https://trail-gear.com/toyota-knuckle-rebuild-kit.html"
+    }
    ]
   },
   {

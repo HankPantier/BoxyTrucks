@@ -275,7 +275,9 @@
   },
   {
    "gen": "chevrolet/suburban-square",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "; frame-at-steering-box guide sourced (ck5.com)"
   },
   {
    "gen": "pajero/pajero-gen1",
@@ -309,7 +311,9 @@
   },
   {
    "gen": "4runner/1st-gen",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 1,
+   "note": "; solid-axle guide sourced (Trail-Gear); no factory schedule found online"
   },
   {
    "gen": "4runner/2nd-gen",
