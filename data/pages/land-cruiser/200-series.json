@@ -267,6 +267,22 @@
      "supplier": "Summit Racing",
      "url": "https://www.summitracing.com/search?keyword=5mm%20hex%20bit%20socket"
     }
+   ],
+   "know": [
+    "Dobinsons' KDSS instructions for the 200 Series and LX: with all four wheels hanging, find the KDSS valve housing on the left chassis rail, ahead of the rear wheel.",
+    "Open each valve 2 to 2.5 full turns anticlockwise with a 5mm hex key, one at a time; the sway bar ends then move with little effort.",
+    "Fit the springs, set the truck back on level ground, then close both valves clockwise.",
+    "Dobinsons warns never to drive with the KDSS valves open; it makes the truck unsafe."
+   ],
+   "mistakes": [
+    "Closing the valves with the truck still in the air instead of on level ground.",
+    "Driving off with the valves still open."
+   ],
+   "refs": [
+    {
+     "name": "Dobinsons: FI-005 KDSS adjustment instructions",
+     "url": "https://cdn.shopify.com/s/files/1/0029/2795/1981/files/FI-005_KDSS_ADJUSTMENT_INSTRUCTIONS.pdf"
+    }
    ]
   },
   {
@@ -363,6 +379,22 @@
      "name": "Air Lift 21838 union tee (search)",
      "supplier": "Air Lift Company",
      "url": "https://www.airliftcompany.com/search?q=21838"
+    }
+   ],
+   "know": [
+    "On IH8MUD, 200-series owners fitted Firestone Coil-Rite helper bags inside the rear coils; member NCMTNS lists model F4164 at around $90.",
+    "Member linuxgod's install: pull the spring and its internal jounce stop, trim the jounce stop 3 or 4 rings depending on lift, fit the bag connector-up, refit the stop, and route the line through the stop's centre hole and up through the spring perch.",
+    "Firestone says to keep about 5 psi in the bags so they don't pinch and tear in compression. One owner tows at 5-10 psi; another ran 5 psi with no ride change and the rear about half to three-quarters of an inch higher.",
+    "Members mounted the fill valves under the tailgate cover on its bracket."
+   ],
+   "mistakes": [
+    "Not checking the bags hold air before a trip; one owner's shop-installed bag was leaking on a six-week trip.",
+    "Repeatedly removing and refitting the air lines; linuxgod says the fittings don't tolerate it well."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: LC 200 air bag suspension install",
+     "url": "https://forum.ih8mud.com/threads/lc-200-air-bag-suspension-install.966602/page-2"
     }
    ]
   },
