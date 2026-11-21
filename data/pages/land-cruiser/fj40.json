@@ -241,6 +241,20 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,1978,land+cruiser,4.2l+l6,1276387,fuel+&+air,carburetor+repair+kit,5964"
     }
+   ],
+   "know": [
+    "Cruiser Corps matches Keyster kits by the carburetor's Toyota number (21100-xxxxx). Examples from its table: 21100-60086 takes kit 568-102 (August 1966), 21100-60150 takes 568-103 (1967-68), and 21100-60191 takes 568-105 (March-September 1969).",
+    "Late-1969 to early-1975 carbs (21100-60120, -60130, -60131, -60132, -60200) use the 568-101 kit family, lettered a to e.",
+    "1975 carbs (21100-61010 to -61100) use 568-109 and 568-110 variants; 1980-84 carbs (21100-61131, -61132) use 568-111."
+   ],
+   "mistakes": [
+    "Ordering a kit by year alone. Several carbs share a year but take different lettered kits, so read the number on yours."
+   ],
+   "refs": [
+    {
+     "name": "Cruiser Corps: Keyster carburetor rebuild kits (FJ40, FJ45, FJ55)",
+     "url": "https://cruisercorps.com/products/keyster-carburetor-rebuild-kits"
+    }
    ]
   },
   {

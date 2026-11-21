@@ -321,6 +321,23 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/lexus,2013,lx570"
     }
+   ],
+   "know": [
+    "On IH8MUD's 200-series starter thread (shared 3UR V8), member Teddy says shops usually leave the exhaust manifold on and take the cats off. The factory manual says to remove the manifold too, but a broken stud makes that a huge headache.",
+    "Soak the fasteners with penetrating oil ahead of time, then remove the heat shields and cats, unplug the solenoid connector and release the plastic wiring retainer before unbolting the starter.",
+    "Have a new solenoid connector ready; member Bryanseye says the old one will likely be brittle and snap, and it did on Scott's truck.",
+    "Member Scott loosened the 19mm motor mount nut and raised the engine an inch or two to get the starter out over the frame. Teddy hadn't heard of needing to do that.",
+    "A lift makes it far easier. Members took two sessions and three days respectively doing it on the ground."
+   ],
+   "mistakes": [
+    "Pulling the exhaust manifold when you don't need to, and breaking a stud.",
+    "Forcing the brittle solenoid connector without a spare on hand."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: 200 starter",
+     "url": "https://forum.ih8mud.com/threads/200-starter.1382006/"
+    }
    ]
   },
   {
@@ -341,6 +358,23 @@
      "name": "Spark plug tube seal, 2UZ/3UR (VCC70010OEM)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/spark-plug-tube-seal-fits-2uz-3ur-applications-vcc70010oem/"
+    }
+   ],
+   "know": [
+    "On IH8MUD's 200-series plug thread (same 3UR V8 as the LX570), members list the OEM Denso iridium plug as Toyota 90919-01191, which cross-references to Denso SK20HR11.",
+    "Driver-side plugs are fully exposed. On the passenger side, member mark71 removed the air box, unbolted the black electrical box and moved the firewall harnesses to reach the rear plug.",
+    "Shortcut from member Mogwai: unbolt the coolant hose bracket nearest the firewall and disconnect three coolant hoses instead of moving the wiring; expect to lose about a cup of coolant.",
+    "Mogwai torqued the plugs to 15 lb-ft with a 3/8-inch wrench. Tools: a 5/8-inch plug socket with rubber insert, extensions and swivels.",
+    "Members report about an hour and a half for the job, with owners changing plugs between about 109,000 and 130,000 miles."
+   ],
+   "mistakes": [
+    "Overtorquing plugs in the aluminium heads; mark71 warns they're unforgiving.",
+    "Dropping the rubber seal between the coil and valve cover; one member spent half an hour fishing it out."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Changing the spark plugs (200 series, 3UR)",
+     "url": "https://forum.ih8mud.com/threads/changing-the-spark-plugs.912329/"
     }
    ]
   },

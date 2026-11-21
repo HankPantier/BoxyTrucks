@@ -172,7 +172,7 @@
    "time": "≈ 1–2 hours to replace a pair",
    "cost": "Free under recall 25V-025 on eligible trucks",
    "symptoms": "Rusty or swollen reservoir bodies on the rear shocks, a reservoir hanging by its hose, oil on the shock body, or a bouncy rear end.",
-   "fix": "Check the VIN first: Ford's remedy for 2021–24 Badlands and Sasquatch trucks built from September 23, 2020 to July 23, 2024 is free rear shock replacement (Ford campaign 25S01; owner letters went out in August 2025). On an out-of-scope or modified truck, support the axle on a jack, unbolt the upper and lower shock mounts and the reservoir clamp, fit the new shocks, and torque at ride height. Rinse road salt off the reservoirs in winter.",
+   "fix": "Check the VIN first: Ford's remedy for 2021–24 Badlands and Sasquatch trucks built from September 23, 2020 to July 23, 2024 is a free inspection under campaign 25S01 (owner letters went out in August 2025): dealers replace both rear shocks if the reservoir flanges are cracked or leaking, and otherwise seal the flanges and fit new reservoir clamps. On an out-of-scope or modified truck, support the axle on a jack, unbolt the upper and lower shock mounts and the reservoir clamp, fit the new shocks, and torque at ride height. Rinse road salt off the reservoirs in winter.",
    "tools": "Jack and stands · sockets · torque wrench.",
    "parts": [
     {
@@ -184,6 +184,22 @@
      "name": "Shocks and struts, 2022 Bronco",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/ford,2022,bronco"
+    }
+   ],
+   "know": [
+    "Ford safety recall 25S01 covers corrosion at the rear shock's external reservoir on certain 2021-2024 Broncos. Only trucks with the long-flange reservoir are affected; short-flange ones aren't.",
+    "The dealer inspects both rear shocks and flanges for cracks, broken welds and leaks. If any are found, Ford's support centre approves replacement of both rear shocks.",
+    "If there's no damage: the stone shields are discarded, the flanges cleaned with isopropyl alcohol or acetone (no grinding), a quarter-inch bead of Motorcraft TA-357 RTV run around every flange, and a new retention clamp/shield fitted, UP arrow up, bolts torqued to 7 lb-ft (10 Nm).",
+    "Ford's instructions are dated August 2025."
+   ],
+   "mistakes": [
+    "Grinding the rust off the flange; Ford's procedure says not to.",
+    "Not running the VIN for open recalls before buying aftermarket shocks."
+   ],
+   "refs": [
+    {
+     "name": "Ford safety recall 25S01 technical instructions (via Bronco6G)",
+     "url": "https://www.bronco6g.com/forum/attachments/25s01-technical-instructions-pdf.745913/"
     }
    ]
   },
@@ -205,6 +221,22 @@
      "name": "ExtremeTerrain — Bronco hard top accessories",
      "supplier": "ExtremeTerrain",
      "url": "https://www.extremeterrain.com/ford-bronco-hard-top-accessories.html"
+    }
+   ],
+   "know": [
+    "Recall 26V-299 covers about 16,200 2021-2022 Broncos with molded-in-color hardtops: 3-door tops built September 23, 2020 to January 13, 2022, and 5-door tops built September 23, 2020 to October 22, 2021.",
+    "Ford's filing says the outer roof skin can delaminate or crack, and in severe cases sections can detach while driving. Owners may notice spreading delamination or more wind noise.",
+    "Cause per the filing: the supplier, Webasto, hadn't optimised its process and equipment settings; fixes went in September 2021 (5-door) and December 2021 (3-door).",
+    "Remedy: dealers inspect and replace tops that show cracking or delamination, free, with tops made under the updated process. Affected parts are the left and right front panels, rear cap and, on 5-doors, the mid panel.",
+    "Trucks aren't built in VIN order, so check eligibility by VIN with Ford or a dealer. Remedy owner letters were scheduled for November 5, 2026."
+   ],
+   "mistakes": [
+    "Ignoring early delamination on an in-scope top; Ford's filing says it can progress to sections detaching."
+   ],
+   "refs": [
+    {
+     "name": "NHTSA: Ford recall 26V-299 defect report (Bronco MIC hardtops)",
+     "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V299-2713.pdf"
     }
    ]
   },
@@ -322,6 +354,20 @@
      "name": "ExtremeTerrain — Bronco fender flares",
      "supplier": "ExtremeTerrain",
      "url": "https://www.extremeterrain.com/ford-bronco-fender-flares.html"
+    }
+   ],
+   "know": [
+    "Ford recall 26S47 covers more than 36,000 2022-2026 Broncos whose fender flares can come loose.",
+    "Cause per the recall: the flare supplier didn't maintain the tooling for the attachment holes, so holes were too large or too small, leaving burrs and stray fibres that let flares work loose.",
+    "Remedy: dealers repair or replace the flares free. Interim owner letters went out from August 10 and 14, 2026, with second letters August 31 to September 4, 2026."
+   ],
+   "mistakes": [
+    "Re-gluing or screwing a flare on an in-scope truck before checking the VIN for the open recall."
+   ],
+   "refs": [
+    {
+     "name": "CarComplaints: Ford Bronco fender flare recall (26S47)",
+     "url": "https://m.carcomplaints.com/news/2026/recall-ford-bronco-fender-flares-can-detach.shtml"
     }
    ]
   },
