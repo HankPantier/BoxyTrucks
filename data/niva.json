@@ -375,6 +375,22 @@
       "supplier": "NIVA-LADA4x4 (Russia)",
       "url": "https://niva-lada4x4.ru/advanced_search_result.php?keywords=%D1%88%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BE%D0%BF%D0%BE%D1%80%D0%B0"
      }
+    ],
+    "know": [
+     "VAZbook's Niva (21213) suspension check fails a ball joint with a torn or loose boot, or a pin that turns freely or binds by hand.",
+     "The workshop test loads the joint to 196 N·m in each direction with a dial gauge; radial or axial play over 0.7 mm means replace it.",
+     "Front springs come in two length classes; class B springs are marked with black paint. Fit matching classes side to side."
+    ],
+    "mistakes": [
+     "Releasing the ball joint without supporting the lower arm, since the coil spring sits on it.",
+     "Mixing spring classes side to side.",
+     "Ignoring a torn boot because the joint still feels tight."
+    ],
+    "refs": [
+     {
+      "name": "VAZbook: Checking the Niva front suspension (21213)",
+      "url": "https://www.vazbook.ru/en/Niva/21213/chassis/suspension/proverka-tehnicheskogo-sostoyaniya-peredney-podveski"
+     }
     ]
    },
    {
@@ -416,6 +432,23 @@
       "name": "Denso spark plugs, Niva 1600 2121",
       "supplier": "SuperSpares",
       "url": "https://www.superspares.com.au/4-x-denso-spark-plugs-for-lada-niva-1600-2121-1.6l"
+     }
+    ],
+    "know": [
+     "VAZbook's procedure for the Solex-type 21073 carburettor sets the float so the gap to the gauge is no more than 1 mm.",
+     "With the choke flap closed, it sets the flap opening at 3.0 mm and the first-chamber throttle at 1.1 mm.",
+     "Idle is set warm (coolant 90–95 °C), after valves and ignition timing: 750–800 rpm with CO no more than 3%.",
+     "Check the second-chamber lock: with the choke closed the second throttle must stay shut, and open fully once the choke is open."
+    ],
+    "mistakes": [
+     "Adjusting idle before setting valve clearance and timing.",
+     "Forcing a choke flap that's jammed instead of freeing it first.",
+     "Leaving the mixture screw uncapped; fit a new plastic plug."
+    ],
+    "refs": [
+     {
+      "name": "VAZbook: Adjusting and checking the carburettor (VAZ-2121, 21073)",
+      "url": "https://www.vazbook.ru/en/Niva/2121/main/21219/regulirovka-i-proverka-karbyuratora"
      }
     ]
    }

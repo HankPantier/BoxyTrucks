@@ -235,6 +235,23 @@
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/rear-main-seal-fits-8-1987-8-1992-3f-3fe-6x-8x-applications-egs99005/"
     }
+   ],
+   "know": [
+    "On IH8MUD's FJ62 rear main thread, members agree the rear of the oil pan gasket is the most common culprit, and the rear main seal is often secondary.",
+    "One member's new pan gasket cut his leak by about nine tenths; another's stopped it completely.",
+    "Member gray: wash the front and rear of the pan thoroughly and watch where oil reappears. A rear main leak gets blown all along the back of the pan.",
+    "Member billmc: the firewall end of the valve cover gasket is easy to damage on install and sends oil down the back of the engine.",
+    "Pan job tips from the thread: drain the oil, clean the pan and pickup, straighten a warped flange, and use a one-piece gasket."
+   ],
+   "mistakes": [
+    "Prying hard on the pan-to-block joint, which can damage both surfaces.",
+    "If the transmission does come out, skipping the torque converter seal, or letting the converter's weight hang on it."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: FJ62 rear main",
+     "url": "https://forum.ih8mud.com/threads/fj62-rear-main.181249/"
+    }
    ]
   },
   {
@@ -266,6 +283,25 @@
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/red-i-moly-grease-14oz-tube-greasemoly/"
     }
+   ],
+   "know": [
+    "Knuckle bearing preload is set with shims. IH8MUD member Stumpalama says to adjust preload with the top shims, and that the bottom shims set knuckle height. Another member splits changes equally top and bottom by thickness. Follow the factory manual.",
+    "Always recheck preload with new bearings and races; one member had to change shims after fitting National bearings.",
+    "A fish-scale preload reading can look right even when one bearing is too tight and the other too loose, a member warns.",
+    "Note which shims came from the top and bottom of each knuckle. Thickness is printed on each shim; buy a full shim set if the originals are damaged.",
+    "Stumpalama prefers Koyo knuckle bearings and Marlin seals, and says he's never needed the expensive centering tool.",
+    "Spindle bushings are hard to remove; Stumpalama suggests smoothing a rough spot rather than replacing an undamaged bushing.",
+    "Members recommend Evapo-Rust for cleaning parts."
+   ],
+   "mistakes": [
+    "Removing shims without labeling top and bottom, then assuming the other side matches.",
+    "Treating forum preload numbers as the spec. Check the factory service manual for preload and torque before assembly."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: 1983 FJ60 front axle job questions",
+     "url": "https://forum.ih8mud.com/threads/1983-fj60-front-axle-job-questions.962564/page-3"
+    }
    ]
   },
   {
@@ -286,6 +322,27 @@
      "name": "OME SD24 steering damper, 6x/7x/8x",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/ome-steering-damper-fits-6x-7x-8x-series-applications-ome-sd24/"
+    }
+   ],
+   "know": [
+    "IH8MUD member wngrog's 2009 OME install on an FJ60: soak every bolt in penetrating oil for weeks beforehand. He hosed his three times over three weeks.",
+    "Tools on his list: four good jackstands, a floor jack, a torch or propane heat, 5 lb and 12 lb sledges, deep 10-21mm sockets, a 3-foot breaker bar, an impact wrench and a Sawzall.",
+    "Do one end at a time. A member recommends one spring at a time so the axle and pinion angle stay put.",
+    "Frozen fixed-end spring pins may need heat and an air chisel. Another member says pins and bushings can fuse so only heat will free them.",
+    "Pull the grease zerk from the driveshaft slip yoke before moving the axle, so the yoke slides more easily.",
+    "OME shackles go on one way only. Check orientation before tightening.",
+    "wngrog found 2-3 broken leaves in each old rear spring, and a member's shop install turned up another broken leaf.",
+    "Time: about 6 hours solo for wngrog; another member's shop took about 8."
+   ],
+   "mistakes": [
+    "Using heat near the steering box without an extinguisher. Old power steering fluid there caught fire on wngrog's truck.",
+    "Trusting the spring side markings without checking. Members on the thread disagreed about which letter goes on the driver's side, so confirm with OME.",
+    "Not checking brake-line slack at full droop. wngrog's stock lines barely straightened at full articulation."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: FJ-60 Old Man Emu install, my tips",
+     "url": "https://forum.ih8mud.com/threads/fj-60-old-man-emu-install-my-tips.280692/"
     }
    ]
   },
@@ -317,6 +374,25 @@
      "name": "Steering box housing seal, FJ60/FJ62 (ST32002)",
      "supplier": "CruiserTeq",
      "url": "https://cruiserteq.com/steering-box-housing-seal-fits-8-1980-12-1989-fj60-fj62-applications-st32002/"
+    }
+   ],
+   "know": [
+    "IH8MUD member cruiserbrett's pump rebuild parts: Toyota reseal kit 04446-30030, or Duralast seal kit 8760, plus bearing 90363-17004 (NTN TMB203).",
+    "The pump's shaft seal can't be pried out until the shaft and snap ring are removed, because its metal lip faces inward.",
+    "A reseal replaces the O-rings on the flow valve end plug, flare nut, rotor housing, rear rotor plate and reservoir.",
+    "Clean the reservoir screen during a rebuild; cruiserbrett found his full of gunk.",
+    "Vanes wear in one direction. Put them back the way they came out, rounded end facing away from the rotor center.",
+    "FJ60 and FJ62 pumps sit on opposite sides of the engine and don't interchange, per IH8MUD member CruiserHappy."
+   ],
+   "mistakes": [
+    "Pinching the large O-ring when joining the pump halves.",
+    "Installing the rotor with its dot facing the wrong way.",
+    "Letting the shaft seal lip fold over as it's pressed in; lube it with ATF first."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: FJ62 power steering pump rebuild",
+     "url": "https://forum.ih8mud.com/threads/fj62-power-steering-pump-rebuild.353899/"
     }
    ]
   },

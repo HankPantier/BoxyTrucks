@@ -272,6 +272,24 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,1985,land+cruiser,4.2l+l6,1276523,steering,center+/+drag+link,7276"
     }
+   ],
+   "know": [
+    "IH8MUD member Shipwreck's order of attack: start at the frame and work out to the tires. Check spring eye bushings, U-bolts, wheel bearings and lug nuts, then the steering linkage, then caster, balance and warped rotors.",
+    "On that thread Shipwreck notes death wobble is often a combination of several worn parts, not one.",
+    "Caster shims: on a stock spring setup, members say the thick end of the shim faces forward. A shackle reversal or spring-over changes that, so measure caster before choosing shims.",
+    "One member found loose steering arms on the knuckles; retorquing and realigning cured his wobble.",
+    "Bigger tires load the drag link and tie rods harder, so check those joints first on a truck with oversize tires.",
+    "Members report wheels not seating flush on the drums or hubs, and poor balance, as hidden causes. One cured a 34-inch-tire wobble with balancing beads."
+   ],
+   "mistakes": [
+    "Fitting a new steering damper and calling it fixed. On the IH8MUD thread, a damper and tie rod ends made the truck drivable but didn't stop the wobble until the knuckles were rebuilt.",
+    "Cranking knuckle bearing preload far past spec to mask play. One member suggested it and another called it questionable advice."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: Death to the wobble",
+     "url": "https://forum.ih8mud.com/threads/death-to-the-wobble.245850"
+    }
    ]
   },
   {
@@ -302,6 +320,30 @@
      "name": "Clutch pilot bearing (1985 4.2L)",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/toyota,1985,land+cruiser,4.2l+l6,1276523,transmission-manual,clutch+pilot+bearing,1964"
+    }
+   ],
+   "know": [
+    "Gear ratios per Off-Road.com: H55F 4.84 / 2.61 / 1.51 / 1.00 / 0.84, reverse 4.84. The H42 four-speed is 3.55 / 2.29 / 1.41 / 1.00, reverse 4.72.",
+    "Off-Road.com's cruising example: about 2,750 rpm at 75 mph in fifth versus 3,250 in fourth.",
+    "After April 1985 Toyota made the H42 and H55F the same length and changed the driveshafts to match, so the swap needs no driveline modifications. Earlier trucks need changes.",
+    "The H55F has no crossbar but the transfer case still has the hole for it. Plug it with a tapped bolt and thread locker.",
+    "The fifth-gear oiler nipple must go in; the article calls it critical to fifth gear's operation.",
+    "B-diesel input splines differ from the 2F petrol, so check a used box's origin before buying.",
+    "Do the clutch while it's apart: disc, pressure plate, pilot bearing, throw-out bearing, rear main seal if it weeps, and resurface the flywheel."
+   ],
+   "mistakes": [
+    "Forgetting the crossbar hole plug, which lets oil move between the transmission and transfer.",
+    "Buying the wrong socket for the output nut. The article lists both 32mm and 36mm, so check yours first.",
+    "Underestimating the pilot bearing. The author spent a full day getting it out."
+   ],
+   "refs": [
+    {
+     "name": "Off-Road.com: H55F transmission swap on an 08/85 FJ60",
+     "url": "https://off-road.com/trucks-4x4/tech/h55f-transmission-swap-on-a-0885-toyota-land-cruiser-fj60-19421.html"
+    },
+    {
+     "name": "IH8MUD: H55F tech",
+     "url": "https://www.ih8mud.com/tech/h55f.php"
     }
    ]
   },
@@ -359,6 +401,27 @@
      "name": "OME greaseable front anti-inversion shackle kit OMEGS2",
      "supplier": "Cruiser Corps",
      "url": "https://www.cruisercorps.com/products/front-shackle-greasable-omegs2"
+    }
+   ],
+   "know": [
+    "IH8MUD member wngrog's 2009 OME install on an FJ60: soak every bolt in penetrating oil for weeks beforehand. He hosed his three times over three weeks.",
+    "Tools on his list: four good jackstands, a floor jack, a torch or propane heat, 5 lb and 12 lb sledges, deep 10-21mm sockets, a 3-foot breaker bar, an impact wrench and a Sawzall.",
+    "Do one end at a time. A member recommends one spring at a time so the axle and pinion angle stay put.",
+    "Frozen fixed-end spring pins may need heat and an air chisel. Another member says pins and bushings can fuse so only heat will free them.",
+    "Pull the grease zerk from the driveshaft slip yoke before moving the axle, so the yoke slides more easily.",
+    "OME shackles go on one way only. Check orientation before tightening.",
+    "wngrog found 2-3 broken leaves in each old rear spring, and a member's shop install turned up another broken leaf.",
+    "Time: about 6 hours solo for wngrog; another member's shop took about 8."
+   ],
+   "mistakes": [
+    "Using heat near the steering box without an extinguisher. Old power steering fluid there caught fire on wngrog's truck.",
+    "Trusting the spring side markings without checking. Members on the thread disagreed about which letter goes on the driver's side, so confirm with OME.",
+    "Not checking brake-line slack at full droop. wngrog's stock lines barely straightened at full articulation."
+   ],
+   "refs": [
+    {
+     "name": "IH8MUD: FJ-60 Old Man Emu install, my tips",
+     "url": "https://forum.ih8mud.com/threads/fj-60-old-man-emu-install-my-tips.280692/"
     }
    ]
   }

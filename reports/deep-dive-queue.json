@@ -567,15 +567,19 @@
   },
   {
    "gen": "land-cruiser/fj60",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from Toyota 1986 LC maintenance manual"
+   "note": "; maintenance from Toyota 1986 LC maintenance manual",
+   "deepened": 3,
+   "date": "2026-11-21"
   },
   {
    "gen": "land-cruiser/fj62",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from Toyota 1989 FJ62 owner manual"
+   "note": "; maintenance from Toyota 1989 FJ62 owner manual",
+   "deepened": 4,
+   "date": "2026-11-21"
   },
   {
    "gen": "land-cruiser/mega-cruiser",
@@ -649,9 +653,11 @@
   },
   {
    "gen": "niva/niva",
-   "status": "todo",
+   "status": "done",
    "maintenance": true,
-   "note": "; maintenance from Niva maintenance manual"
+   "note": "; maintenance from Niva maintenance manual",
+   "deepened": 2,
+   "date": "2026-11-21"
   },
   {
    "gen": "pajero/pajero-gen2",
