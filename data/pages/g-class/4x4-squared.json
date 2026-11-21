@@ -236,6 +236,21 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-steering-damper-stabilus-4634630032"
     }
+   ],
+   "know": [
+    "An MBWorld member puts damper life at around 70,000–80,000 miles; others have replaced leaking ones under warranty at under 10,000.",
+    "A road-force tire balance (under 20 lb, one member suggests) often cures a 60 mph shake that gets blamed on the damper; the damper slows steering response, it doesn't fix vibration.",
+    "Tire pressure matters: one owner noticed the wobble less once the tires were warm and at the right pressure."
+   ],
+   "mistakes": [
+    "Fitting a stiffer damper to mask an out-of-balance tire or worn joints.",
+    "Ignoring an oily damper body, the sign it has started to leak."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: Steering damper longevity",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
+    }
    ]
   },
   {
@@ -246,7 +261,30 @@
    "symptoms": "Damp or sagging headliner, wet carpets, electrical gremlins.",
    "fix": "Clear all four sunroof drains, then check the headliner, fuse box and climate actuators for water damage.",
    "tools": "Trimmer line or drain-cleaning wire · low-pressure air · towels",
-   "parts": []
+   "parts": [],
+   "know": [
+    "The sunroof tray has a drain tube at each corner. On the W463 the front tubes run down the A-pillars and the rear ones down the back, and they exit low on the body. One MBWorld member says the front tubes end near the rocker panels.",
+    "Blocked drains aren't the only way water gets in. MBWorld owners also point at wiper-pivot seals, the windshield gasket, the roof antenna base, door seals and a hole in the right-side firewall under the battery box.",
+    "A tube can break or come off its spigot behind the headliner. That needs the headliner dropped, not just a clean.",
+    "Water that sits in the footwells reaches wiring and modules under the carpet, so dry the floor fully and check connectors as soon as you find it."
+   ],
+   "mistakes": [
+    "Blowing high-pressure air into the drains, which can knock the tube off inside the pillar.",
+    "Assuming it's the drains and missing a wiper-pivot, antenna or firewall leak.",
+    "Leaving wet carpet in place, where it soaks the wiring underneath.",
+    "Forcing a stiff wire down a tube and puncturing it."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: Passenger floor board soaking wet (W463)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/795544-passenger-floor-board-soaking-wet-help.html"
+    },
+    {
+     "name": "MBWorld: Roof leak, front right (W463)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/652553-roof-leak-front-right.html"
+    }
+   ],
+   "cost_note": "Clearing the drains costs nothing but time. Dropping the headliner to reattach a tube is a few hours of careful work. The expensive part is what water damages if it's left: wiring, modules and a stained headliner."
   },
   {
    "title": "Frame & body rust treatment",
@@ -272,7 +310,24 @@
    "symptoms": "A hard brake pedal that needs more effort than usual to stop the truck. The booster's vacuum hose can collapse.",
    "fix": "NHTSA recall 17V-817 covers 432 model-year 2017 G 550 and G 550 4×4² trucks. The brake-booster vacuum hose may collapse and raise braking effort, and dealers replace the hose as needed for free. Run the VIN at nhtsa.gov/recalls before you buy, and ask for the paperwork if it's been done. On a 6,694-lb truck, this is not one to put off.",
    "tools": "VIN · Mercedes-Benz dealer",
-   "parts": []
+   "parts": [],
+   "know": [
+    "Recall 17V-817 covers 2017 G 550 and G 550 4x4² models built from April 3 to May 31, 2017: 432 trucks in the US, 100 of them 4x4². Mercedes estimated 1% actually had the defect.",
+    "Daimler said the brake booster vacuum hose may not have been made to production specification and could delaminate and partly or fully collapse.",
+    "With less vacuum, the brakes need more pedal effort, which raises crash risk depending on traffic.",
+    "The remedy is free at a Mercedes-Benz dealer: they check the hose and replace it if needed."
+   ],
+   "mistakes": [
+    "Assuming a used 4x4² has had it done; check the VIN on NHTSA.",
+    "Living with a hard pedal instead of getting the hose checked."
+   ],
+   "cost_note": "Free at a dealer under the recall.",
+   "refs": [
+    {
+     "name": "NHTSA: recall 17V-817 defect report (G 550 and G 550 4x4² brake booster vacuum hose)",
+     "url": "https://static.nhtsa.gov/odi/rcl/2017/RCLRPT-17V817-2884.PDF"
+    }
+   ]
   },
   {
    "title": "Oil leaks from the crankcase vent oil separators (M176)",

@@ -176,7 +176,24 @@
    "symptoms": "On affected G 280 CDI and G 300 CDI trucks built from 4 April 2016 to 13 September 2021: power loss or drivetrain failure caused by the cardan shaft striking the clamping body.",
    "fix": "Give the VIN to a Mercedes-Benz dealer and ask whether the cardan-shaft recall is open. If it is, book it in before using the truck hard. Keep the paperwork, because buyers will ask.",
    "tools": "VIN · dealer recall lookup",
-   "parts": []
+   "parts": [],
+   "know": [
+    "The EU Safety Gate (Rapex) alert 42/2022, reference A12/01436/22, submitted by Germany, covers the G 280 CDI and G 300 CDI 4x4 (2850) built from 4 April 2016 to 13 September 2021: 101 vehicles worldwide. Mercedes' recall code is 2790012.",
+    "The defect: the front cardan shaft can hit the clamping body and damage it. Drive can be lost suddenly, and the automatic transmission and wheels can lock.",
+    "Mercedes asks owners to give their VIN to an authorised dealer or workshop to check whether the truck is affected or already repaired."
+   ],
+   "mistakes": [
+    "Assuming a grey-import or ex-fleet W461 has had it done.",
+    "Using the truck hard off-road before checking the VIN.",
+    "Losing the paperwork; a buyer will want proof."
+   ],
+   "cost_note": "Free at an authorised Mercedes-Benz workshop under the recall.",
+   "refs": [
+    {
+     "name": "Car-Recalls.eu: Mercedes-Benz G-Class (2016–2021) cardan shaft (Rapex 42/2022)",
+     "url": "https://car-recalls.eu/recall/mercedes-benz-g-class-2016-2021-cardan-shaft"
+    }
+   ]
   },
   {
    "title": "Front axle service (bearings, kingpins, swivel seals)",

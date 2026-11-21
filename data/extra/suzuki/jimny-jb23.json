@@ -350,5 +350,69 @@
   {
    "name": "BigJimny — BigJimny Event 2026 tickets"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Suzuki Jimny third generation (JB23/JB43, 1998–2018) maintenance from the BigJimny wiki's tables of Suzuki's manual figures: oil every 15,000 km or 12 months, coolant every 45,000 km or 3 years (petrol), brake fluid every 30,000 km or 2 years, air filter every 45,000 km.",
+  "intro": "The BigJimny wiki copies Suzuki's manual figures for each third-generation Jimny engine (G13BB and M13A petrol, K9K diesel) and puts its own 'practical' interval beside each one. Suzuki's book figures are long; the owners' practical figures are what most Jimny people use, especially for gear oils Suzuki lists as never needing a change. The 660 cc kei-car JB23 in Japan has its own book.",
+  "schedule_note": "From the BigJimny wiki 'Forecourt' tables (Suzuki manual figures, Jimny 3). The wiki asks owners to confirm the figures for their own engine and country.",
+  "schedule": [
+   {
+    "at": "Every 15,000 km (9,300 mi) / 12 months",
+    "items": [
+     "Engine oil and filter (all G13BB, M13A and K9K engines); BigJimny's practical figure for the M13A VVT is 10,000 km or 12 months"
+    ]
+   },
+   {
+    "at": "Every 30,000 km (18,600 mi) / 2 years",
+    "items": [
+     "Brake fluid (DOT 3)",
+     "Engine coolant on the diesel"
+    ]
+   },
+   {
+    "at": "Every 45,000 km (28,000 mi) / 3 years",
+    "items": [
+     "Engine air filter (practical: 25,000–30,000 km)",
+     "Engine coolant on most petrol engines"
+    ]
+   },
+   {
+    "at": "Every 150,000 km / 10 years",
+    "items": [
+     "Manual gearbox oil, 75W-90 GL-4 (practical: 50,000 km or 3 years)"
+    ]
+   },
+   {
+    "at": "165,000 km",
+    "items": [
+     "Automatic gearbox fluid (practical: 75,000 km or 4–5 years)"
+    ]
+   },
+   {
+    "at": "Not scheduled by Suzuki",
+    "items": [
+     "Front and rear differential oil, 80W-90 GL-5: BigJimny's practical figure is every 50,000 km or 3–5 years; the transfer case takes 75W-90 GL-4"
+    ]
+   }
+  ],
+  "severe": "BigJimny notes that shorter intervals apply under Suzuki's 'severe' conditions and points owners to the manual for them. Off-road water crossings are the obvious reason to change diff and transfer oil sooner than the practical figures.",
+  "age_items": [
+   {
+    "item": "Differential oil",
+    "when": "Every 3–5 years",
+    "why": "Suzuki lists it as never; BigJimny's practical figure is 50,000 km or 3–5 years."
+   },
+   {
+    "item": "Brake fluid",
+    "when": "Every 2 years",
+    "why": "Suzuki's figure is 30,000 km or 2 years."
+   }
+  ],
+  "sources": [
+   {
+    "name": "BigJimny wiki: Forecourt (Jimny 3 fluids and intervals from Suzuki manuals)",
+    "url": "https://bigjimny.com/mediawiki/index.php/Forecourt"
+   }
+  ]
+ }
 }

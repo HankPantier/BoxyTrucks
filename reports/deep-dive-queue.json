@@ -700,7 +700,9 @@
   },
   {
    "gen": "suzuki/jimny-jb23",
-   "status": "todo"
+   "status": "todo",
+   "maintenance": true,
+   "note": "; maintenance from BigJimny wiki (Suzuki manual figures)"
   },
   {
    "gen": "suzuki/lj-series",

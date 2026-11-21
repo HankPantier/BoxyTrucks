@@ -189,6 +189,21 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/75w90-gear-oil-quart-oil-57904"
     }
+   ],
+   "know": [
+    "Members say degraded swivel seals are par for the course on older G's; one owner topped up the grease every 1,000–2,000 miles and checked the boots at each oil change until he could do the job.",
+    "Mercedes often replaces the whole axle shaft rather than just a boot, and one member put a full axle job with all seals and boots at $2,000–5,000.",
+    "When refilling the grease, cycle the steering lock to lock."
+   ],
+   "mistakes": [
+    "Fitting split swivel seals, which a member says always fail down the road.",
+    "Ignoring the leak until water has got into the knuckle grease."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: W463 G63 axle leaking grease, normal?",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/787412-w463-g63-axle-leaking-grease-any-help-normal-2.html"
+    }
    ]
   },
   {
@@ -273,6 +288,21 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-drag-link-end-febi-feb-12975"
     }
+   ],
+   "know": [
+    "An MBWorld member puts damper life at around 70,000–80,000 miles; others have replaced leaking ones under warranty at under 10,000.",
+    "A road-force tire balance (under 20 lb, one member suggests) often cures a 60 mph shake that gets blamed on the damper; the damper slows steering response, it doesn't fix vibration.",
+    "Tire pressure matters: one owner noticed the wobble less once the tires were warm and at the right pressure."
+   ],
+   "mistakes": [
+    "Fitting a stiffer damper to mask an out-of-balance tire or worn joints.",
+    "Ignoring an oily damper body, the sign it has started to leak."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: Steering damper longevity",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/805421-steering-damper-longevity.html"
+    }
    ]
   },
   {
@@ -289,7 +319,30 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/search?q=mercedes+sunroof+drain+hose"
     }
-   ]
+   ],
+   "know": [
+    "The sunroof tray has a drain tube at each corner. On the W463 the front tubes run down the A-pillars and the rear ones down the back, and they exit low on the body. One MBWorld member says the front tubes end near the rocker panels.",
+    "Blocked drains aren't the only way water gets in. MBWorld owners also point at wiper-pivot seals, the windshield gasket, the roof antenna base, door seals and a hole in the right-side firewall under the battery box.",
+    "A tube can break or come off its spigot behind the headliner. That needs the headliner dropped, not just a clean.",
+    "Water that sits in the footwells reaches wiring and modules under the carpet, so dry the floor fully and check connectors as soon as you find it."
+   ],
+   "mistakes": [
+    "Blowing high-pressure air into the drains, which can knock the tube off inside the pillar.",
+    "Assuming it's the drains and missing a wiper-pivot, antenna or firewall leak.",
+    "Leaving wet carpet in place, where it soaks the wiring underneath.",
+    "Forcing a stiff wire down a tube and puncturing it."
+   ],
+   "refs": [
+    {
+     "name": "MBWorld: Passenger floor board soaking wet (W463)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/795544-passenger-floor-board-soaking-wet-help.html"
+    },
+    {
+     "name": "MBWorld: Roof leak, front right (W463)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/652553-roof-leak-front-right.html"
+    }
+   ],
+   "cost_note": "Clearing the drains costs nothing but time. Dropping the headliner to reattach a tube is a few hours of careful work. The expensive part is what water damages if it's left: wiring, modules and a stained headliner."
   },
   {
    "title": "Rust on the frame and body",
