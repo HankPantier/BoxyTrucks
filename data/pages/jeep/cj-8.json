@@ -302,6 +302,24 @@
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/jeep,1984,scrambler,4.2l+258cid+l6,1183968,ignition,spark+plug+wire,7224"
     }
+   ],
+   "know": [
+    "Jeep-CJ.com's HEI write-up uses a junkyard GM HEI from a 1976-82 GM 250 inline-six. The stock GM drive gear won't mesh with an AMC engine, so fit the gear from an AMC 304 or 360 V8.",
+    "Power the HEI from the heavy wire that carries a constant 12 volts while cranking and running. The coil feed runs through a resistor wire that drops to about 9.6 volts, too low for the HEI.",
+    "Set the engine at TDC on number one and mark where the old rotor points before pulling the old distributor. If the HEI won't seat, turn the oil pump shaft with a long screwdriver.",
+    "Firing order is 1-5-3-6-2-4, front to back. The write-up gaps plugs at .045 and uses 8mm wires.",
+    "CJs with the computer-controlled carburettor need the 'Nutter bypass' so the ECM no longer controls spark; earlier CJs bolt it straight on.",
+    "Many owners run around 8 degrees BTDC as a starting point; set it with a timing light."
+   ],
+   "mistakes": [
+    "Using the factory coil feed for the HEI.",
+    "Leaving the old coil in place where the HEI cap can hit it."
+   ],
+   "refs": [
+    {
+     "name": "Jeep-CJ.com: GM HEI distributor upgrade",
+     "url": "https://jeep-cj.com/bustedjeep/projects/hei.html"
+    }
    ]
   },
   {
@@ -322,6 +340,28 @@
      "name": "CJ OEM-replacement motor mounts",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/collections/1945-1986-cj-engine-and-fuel-system-motor-mounts-and-lifts-oem-replacement-motor-mounts"
+    }
+   ],
+   "know": [
+    "On Jeep-CJ.com, about an inch of side-to-side play at the bellcrank, with trouble getting into first, was traced to worn internal nylon bushings. A new bellcrank and bushings cured it.",
+    "Also check for wallowed-out rod holes and rod wear. A member suggests welding and re-drilling worn holes, or drilling them for heim joints.",
+    "The plastic cup on the pivot ball is the usual repeat failure. Members keep a spare bushing kit in the Jeep, grease it well, and one says dealer OEM plastic bushings last longer.",
+    "The bellcrank should sit level and perpendicular to the frame, with all retainer clips fitted. Its arms differ: member LG says the longer tab goes to the clutch pedal rod.",
+    "Bad motor mounts let the engine shift and can break the outer pivot.",
+    "Members who were tired of it fitted a hydraulic conversion, such as Novak's slave and bracket."
+   ],
+   "mistakes": [
+    "Fitting the bellcrank backwards; one member's grease fitting hit the frame and popped the linkage off.",
+    "Ordering the wrong clutch pedal rod; one owner received a CJ-5 part for a different model."
+   ],
+   "refs": [
+    {
+     "name": "Jeep-CJ.com: Bellcrank / Z-bar",
+     "url": "https://jeep-cj.com/community/threads/bellcrank-z-bar.24215"
+    },
+    {
+     "name": "Jeep-CJ.com: Clutch linkage woes",
+     "url": "https://jeep-cj.com/community/threads/clutch-linkage-woes.23380"
     }
    ]
   },
@@ -348,6 +388,24 @@
      "name": "CJ rear main seals",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/collections/1945-1986-cj-engine-and-fuel-system-engine-gaskets-and-hardware-rear-main-seals"
+    }
+   ],
+   "know": [
+    "IFSJA reproduces the 1973 Jeep service manual procedure for the 258, 304, 360 and 401: a two-piece neoprene single-lip seal, with upper and lower halves always replaced as a pair.",
+    "The job is done with the oil pan off: remove the rear main cap, discard the lower half, loosen the other main caps, then tap the upper half out with a brass drift.",
+    "Soap the new upper seal's back, oil its lip, and fit it with the lip facing the front of the engine.",
+    "Put Permatex No. 2 (or equivalent) on the lower seal's end tabs and the cap's chamfered edges, keeping it off the lip, then torque the cap to the manual's figure.",
+    "Refit the pan with new side gaskets and new front and rear pan seals."
+   ],
+   "mistakes": [
+    "Replacing only one half of the seal.",
+    "Getting sealer on the seal lip.",
+    "Fitting the upper seal backwards; the lip faces forward."
+   ],
+   "refs": [
+    {
+     "name": "IFSJA: Rear main seal replacement (1973 Jeep service manual)",
+     "url": "https://www.ifsja.org/tech/motors/rearmainseal.html"
     }
    ]
   },

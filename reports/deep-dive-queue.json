@@ -455,7 +455,8 @@
   },
   {
    "gen": "jeep/cj-5",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 2
   },
   {
    "gen": "jeep/cj-7",
@@ -463,11 +464,13 @@
   },
   {
    "gen": "jeep/cj-8",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 3
   },
   {
    "gen": "jeep/comanche-mj",
-   "status": "todo"
+   "status": "todo",
+   "deepened": 4
   },
   {
    "gen": "jeep/gladiator-jt",

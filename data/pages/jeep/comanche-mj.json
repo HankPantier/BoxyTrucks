@@ -214,6 +214,21 @@
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/crown-automotive/clutch-master-kit-1992-cherokee-xj-comanche-mj-4.0l-engine-XY1992S"
     }
+   ],
+   "know": [
+    "Comanche Club member 87manche had fluid leaking onto the fuse block, and noticed it first with cold weather.",
+    "Member DirtyComanche says rebuilding is fairly easy but often not worth it, because the bore is usually scratched and eats the new seals. He warns remanufactured units are bad for this too.",
+    "87manche bench-bled the new master, installed it, then pulled about 20 oz of fluid through the slave bleeder with an electric vacuum pump for about two minutes.",
+    "After the swap his clutch engaged much farther from the floor and shifted more smoothly."
+   ],
+   "mistakes": [
+    "Expecting the same pedal feel; 87manche had to relearn engagement after the new master moved the bite point."
+   ],
+   "refs": [
+    {
+     "name": "Comanche Club: Clutch master cylinder",
+     "url": "https://comancheclub.com/topic/194-clutch-master-cylinder"
+    }
    ]
   },
   {
@@ -261,6 +276,22 @@
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/crown-automotive/oil-filter-adapter-o-ring-jeep-cherokee-xj-and-comanche-mj-40l-engine"
     }
+   ],
+   "know": [
+    "Comanche Club member Tex06 found the original adapter O-ring leaking and flat.",
+    "There are three O-rings: a large one between adapter and block, a small one on the banjo bolt, and one on the far side of the housing. Tex06's $5 NAPA kit had only two; he found the third (an R-26) in a generic SAE O-ring kit.",
+    "The centre bolt is a banjo bolt with a 5/8-inch head, and Tex06 found it very tight.",
+    "Another member replaced all the O-rings and still had a small leak; oil-resistant RTV was suggested as a backup."
+   ],
+   "mistakes": [
+    "Blaming the rear main seal first. Tex06 suspected his before finding the adapter.",
+    "Buying a kit and assuming it has all three O-rings."
+   ],
+   "refs": [
+    {
+     "name": "Comanche Club: Oil filter adapter leak",
+     "url": "https://comancheclub.com/topic/68822-oil-filter-adapter-leak"
+    }
    ]
   },
   {
@@ -286,6 +317,21 @@
      "name": "Comanche water pump and cooling catalog",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/jeep,1990,comanche"
+    }
+   ],
+   "know": [
+    "Comanche Club member Drahcir495's burping method for the Renix closed system: pull the small hose at the thermostat housing, fill the overflow bottle with water and let it run out of the housing until the bubbles stop, then repeat with coolant until only coolant comes out, and refit the hose.",
+    "Another member backs the truck up a steep incline, removes the temperature sender at the rear driver-side corner of the head, and fills the bottle until no bubbles appear.",
+    "Leave the cap off overnight and squeeze the hoses to work air out, one member suggests, and warns any leak in this system can lead to catastrophic failure.",
+    "Members disagree on converting to an open system. Drahcir495 almost did, but says the closed system gives no trouble once properly burped and his XJ runs cool."
+   ],
+   "mistakes": [
+    "Refilling after a radiator change without burping it; Drahcir495 had to bleed air out afterwards."
+   ],
+   "refs": [
+    {
+     "name": "Comanche Club: Burping the Renix closed system",
+     "url": "https://comancheclub.com/topic/60683-burping-the-renix-closed-system"
     }
    ]
   },
@@ -333,6 +379,24 @@
      "name": "Yukon YCGD30 Dana 30 diff cover gasket",
      "supplier": "Quadratec",
      "url": "https://www.quadratec.com/p/yukon-gear-axle/differential-cover-gasket-dana-30-axle"
+    }
+   ],
+   "know": [
+    "CherokeeForum member 89Laredo's bypass write-up is for the two-piece passenger-side axle with the vacuum disconnect, the same CAD setup Comanches use. It locks the collar so the axle behaves like the later one-piece design.",
+    "His steps: jack up the passenger side, drain a little gear oil, remove the four 11mm bolts and the shift motor, move the shift fork past the C-clip groove and refit the clip, slide the collar into the locked position (turn the tyre to line up the splines), then refit the motor.",
+    "Check it worked: the front driveshaft should turn when you rotate the passenger tyre.",
+    "Top up the axle oil before driving and plug the vacuum lines.",
+    "A reply warns the clip alone may not hold the collar; packing the gap with washers stops it popping over and snapping the clip.",
+    "89Laredo says the job takes about an hour."
+   ],
+   "mistakes": [
+    "Losing the C-clip; 89Laredo calls removing it the hardest part because it can fly off.",
+    "Driving off without topping up the gear oil lost during the job."
+   ],
+   "refs": [
+    {
+     "name": "CherokeeForum: Free front axle CAD bypass (pre-91 write-up)",
+     "url": "https://www.cherokeeforum.com/f2/free-front-axle-cad-bypass-91-writeup-38589/"
     }
    ]
   },
