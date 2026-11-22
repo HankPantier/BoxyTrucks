@@ -247,13 +247,15 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/jeep/sj-wagoneer/cure-quadra-trac-stick-slip-and-chain-slap/",
-  "status": "todo",
-  "note": "Nov 19: Quota Exceeded; next in line."
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/jeep/tj-unlimited/stop-the-rear-main-seal-leak/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/land-cruiser/200-series/grease-the-driveshaft-u-joints/",
@@ -277,8 +279,9 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/land-rover/defender-l663/engine-oil-and-filter/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/land-rover/defender-l663/pm-sensor-for-p24c6-p24c7/",
@@ -287,8 +290,9 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/land-rover/series/leaf-spring-and-chassis-bush-replacement/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/nissan-patrol/patrol-60/reseal-the-p-series-six/",
@@ -297,13 +301,15 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/nissan-patrol/y60/cooling-system-refresh/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/nissan-patrol/y60/rd28t-timing-belt-service/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/nissan-patrol/y60/re-pin-dropping-front-doors/",
@@ -322,18 +328,21 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/niva/niva/timing-chain-tensioner-and-guide-replacement/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/pinzgauer/pinzgauer-710-712/free-a-stuck-clutch-or-replace-it/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/ramcharger/ramcharger-2nd/patch-rocker-and-floor-rust/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/range-rover/p38/blend-motor-diagnosis/",
@@ -342,8 +351,9 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/scout/scout-ii/rear-main-seal-on-an-ih-v8/",
-  "status": "todo",
-  "note": "GSC Discovered - currently not indexed (Nov 16)"
+  "status": "requested",
+  "note": "Indexing requested Nov 22",
+  "date": "2026-11-22"
  },
  {
   "url": "https://boxytrucks.com/repairs/suzuki/lj-series/transfer-case-reseal-and-mounts/",
@@ -750,57 +760,66 @@
  },
  {
   "url": "https://boxytrucks.com/models/jeep/cj-7/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/cj-8/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/comanche-mj/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/gladiator-jt/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/jk/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/jl/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/tj-unlimited/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/tj/tires/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/cherokee-xj/problems/",
-  "status": "todo",
-  "date": null,
-  "src": "gsc-discovered-2026-11-09"
+  "status": "indexed",
+  "date": "2026-11-22",
+  "src": "gsc-discovered-2026-11-09",
+  "note": "URL is on Google (checked Nov 22)"
  },
  {
   "url": "https://boxytrucks.com/models/jeep/cj-8/problems/",
