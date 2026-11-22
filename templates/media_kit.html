@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:72px;padding-bottom:56px;display:flex;flex-direction:column;gap:16px"><span class="eyebrow brass">Media kit · updated {{ mk.updated }}</span><h1 style="font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-0.02em;max-width:900px;text-wrap:balance">BoxyTrucks: buying guides, repairs and tire fitment for boxy 4x4s</h1>
+<p class="serif" style="margin:0;max-width:720px;font-size:20px;line-height:31px;color:#D9D4C8">A research site plus daily short video for people buying, fixing and fitting tires to Land Cruisers, G-Wagens, Defenders, Broncos, Jeeps, 4Runners and more. Every number on this page comes from Google Search Console, Google Analytics and the platforms' own counters, and it updates automatically each week.</p></div></section>
+<div class="wrap section"><div class="prose" style="max-width:860px">
+
+<h2>The site</h2>
+<div class="pt-stats">
+  <div><b>{{ mk.search_impressions }}</b><span>Google impressions a week ({{ mk.search_period }})</span></div>
+  <div><b>{{ mk.search_clicks }}</b><span>Google clicks a week{% if mk.search_growth %} ({{ mk.search_growth }} since {{ mk.first_week }}){% endif %}</span></div>
+  <div><b>{{ mk.pages_indexed }}</b><span>Pages indexed by Google</span></div>
+  <div><b>{{ mk.users }}</b><span>Readers a week ({{ mk.ga_period }})</span></div>
+</div>
+<div class="pt-stats">
+  <div><b>{{ n_gens }}</b><span>Generation guides</span></div>
+  <div><b>{{ n_repairs }}</b><span>DIY repair guides</span></div>
+  <div><b>{{ n_fams }}</b><span>Truck families</span></div>
+  <div><b>{{ n_shops }}</b><span>Parts suppliers linked</span></div>
+</div>
+{% if mk.sources %}<p>Where readers come from ({{ mk.ga_period }}): {% for s in mk.sources %}{{ s.name }} {{ s.value }}{% if not loop.last %} · {% endif %}{% endfor %} sessions. AI assistants such as ChatGPT already send readers to the guides.</p>{% endif %}
+
+<h2>Social</h2>
+<div class="pt-stats">
+  <div><b>{{ mk.social_views }}</b><span>Views across all posts to date</span></div>
+  {% for f in mk.followers %}<div><b>{{ f.followers }}</b><span>{{ f.name }} followers</span></div>{% endfor %}
+</div>
+<p>A new truck every day: tire-fitment Shorts and Reels, "5 things to check" buying videos, one-page spec sheets, reader rigs and real repair videos from Hank's own 2007 G 500. Channels: <a href="{{ ig }}" rel="noopener">Instagram</a>, <a href="{{ yt }}" rel="noopener">YouTube</a>, Pinterest.</p>
+{% if mk.platforms %}<p>Views by platform to date: {% for p in mk.platforms %}{{ p.name }} {{ p.views }}{% if not loop.last %} · {% endif %}{% endfor %}.</p>{% endif %}
+{% if mk.top %}<h3>Top posts</h3>
+<div style="overflow-x:auto"><table><thead><tr><th>Post</th><th>Platform</th><th>Views</th></tr></thead><tbody>{% for t in mk.top %}<tr><td>{% if t.url %}<a href="{{ t.url }}" rel="noopener">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</td><td>{{ t.platform }}</td><td>{{ t.views }}</td></tr>{% endfor %}</tbody></table></div>{% endif %}
+
+<h2>Who it reaches</h2>
+<p>Owners and serious shoppers in the middle of a decision: which year to buy, what breaks, what tire fits a stock truck, and where to buy the part. Repair and tire pages are where readers click through to suppliers.</p>
+
+<h2>Ways to work together</h2>
+<ul>
+<li><strong>Product in use.</strong> Your part or gear fitted and shown on a real truck in a Short or Reel, with a link in the description and a pinned comment. Clearly labelled as a paid partnership.</li>
+<li><strong>Sponsored fitment or buying video.</strong> A tire, wheel or gear brand attached to a "biggest tire on a stock…" or "5 things to check" video for the trucks your product fits.</li>
+<li><strong>Site sponsorship.</strong> A sponsor card on the guides and repair pages for the trucks you cover. See <a href="{{ root }}partner/index.html#packages">packages and prices</a>.</li>
+</ul>
+<p>Sponsors never change what a guide says, and every paid post is disclosed. See <a href="{{ root }}partner/index.html#independence">what sponsorship doesn't buy</a>.</p>
+
+<h2>Contact</h2>
+<p>Email <strong>{{ contact }}</strong> with your brand and the trucks your products fit.</p>
+<p class="muted" style="font-size:14px">Numbers as of {{ mk.updated }}. Search: Google Search Console. Readers and sessions: Google Analytics 4. Followers and views: each platform's own counts, checked weekly.</p>
+</div></div>
+{% endblock %}

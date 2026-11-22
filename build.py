@@ -1673,6 +1673,50 @@ def main():
     _nshops = len({_html_dom(pt.get('url', '')) for _fs in pages for _pg in pages[_fs].values() for r in ((_pg or {}).get('repairs') or []) for pt in (r.get('parts') or []) if pt.get('url')} - {''})
     render('partner.html', 'partner/index.html', '../', active='', crumbs=[('Partner with us', 'partner/')], sponsors=SPONSORS, n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps, n_shops=_nshops,
            title='Partner with BoxyTrucks — sponsorship for 4x4 specialists', description='Sponsorship packages for parts suppliers and specialists: put your shop on the guides and repair pages for the trucks you know best.', credits='')
+    def _media_kit():
+        md = ROOT / 'social' / 'metrics'
+        site_m = json.loads((md / 'site.json').read_text()) if (md / 'site.json').exists() else []
+        fol = json.loads((md / 'followers.json').read_text()) if (md / 'followers.json').exists() else []
+        posts = json.loads((md / 'posts.json').read_text()) if (md / 'posts.json').exists() else []
+        weeks = sorted({x['week'] for x in site_m})
+        mk = {}
+        if weeks:
+            lw = weeks[-1]
+            cur = {x['metric']: x for x in site_m if x['week'] == lw and x['metric'] != 'affiliate_clicks_page'}
+            def v(k):
+                return cur[k]['value'] if k in cur else None
+            fmt = lambda n: f"{n:,}" if isinstance(n, int) else (n if n is not None else '—')
+            mk.update(search_clicks=fmt(v('search_clicks')), search_impressions=fmt(v('search_impressions')),
+                      pages_indexed=fmt(v('pages_indexed')), users=fmt(v('users')),
+                      search_period=cur.get('search_clicks', {}).get('period', ''), ga_period=cur.get('users', {}).get('period', ''))
+            first = [x for x in site_m if x['metric'] == 'search_clicks' and x['week'] != weeks[0]]
+            first = first[0] if first else None
+            if first and v('search_clicks') and first['value'] and first['week'] != lw:
+                mk['search_growth'] = f"up from {first['value']:,}"
+                mk['first_week'] = datetime.date.fromisoformat(first['week']).strftime('%b %-d')
+            names = {'sessions_google': 'Google', 'sessions_chatgpt': 'ChatGPT', 'sessions_instagram': 'Instagram', 'sessions_youtube': 'YouTube', 'sessions_x': 'X', 'sessions_pinterest': 'Pinterest', 'sessions_reddit': 'Reddit'}
+            mk['sources'] = sorted([{'name': n, 'value': v(k)} for k, n in names.items() if v(k)], key=lambda s: -s['value'])
+            mk['updated'] = datetime.date.fromisoformat(lw).strftime('%B %-d, %Y')
+        fw = sorted({x['week'] for x in fol})
+        pn = {'instagram': 'Instagram', 'youtube': 'YouTube', 'pinterest': 'Pinterest', 'x': 'X', 'tiktok': 'TikTok'}
+        if fw:
+            mk['followers'] = [{'name': pn.get(x['platform'], x['platform']), 'followers': f"{x['followers']:,}"} for x in fol if x['week'] == fw[-1] and x['platform'] in ('instagram', 'youtube') ]
+        latest = {}
+        for x in posts:
+            k = (x.get('post_id'), x.get('platform'))
+            if k not in latest or x.get('snapshot', '') >= latest[k].get('snapshot', ''):
+                latest[k] = x
+        lp = list(latest.values())
+        mk['social_views'] = f"{sum(int(x.get('views') or 0) for x in lp):,}"
+        by = {}
+        for x in lp:
+            by[x.get('platform')] = by.get(x.get('platform'), 0) + int(x.get('views') or 0)
+        mk['platforms'] = [{'name': pn.get(k, k), 'views': f"{n:,}"} for k, n in sorted(by.items(), key=lambda t: -t[1]) if n]
+        mk['top'] = [{'title': x.get('title'), 'platform': x.get('platform_name') or pn.get(x.get('platform'), ''), 'views': f"{int(x.get('views') or 0):,}", 'url': x.get('url')} for x in sorted(lp, key=lambda x: -int(x.get('views') or 0))[:5]]
+        return mk
+    render('media_kit.html', 'media-kit/index.html', '../', active='', crumbs=[('Partner with us', 'partner/'), ('Media kit', 'media-kit/')], mk=_media_kit(),
+           n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps, n_shops=_nshops, contact=SPONSORS.get('contact', 'boxytrucks@gmail.com'), ig=INSTAGRAM_URL, yt=YOUTUBE_URL,
+           title='BoxyTrucks media kit: audience, reach and partnerships', description='BoxyTrucks media kit: Google search reach, readers, social views and followers, top posts, and ways for 4x4 brands to partner. Updated weekly.', credits='')
     render('about.html', 'about/index.html', '../', active='', title='About BoxyTrucks: how we research and make money', description='Who makes BoxyTrucks, how every guide is sourced, how best years are chosen, how we make money and how to send corrections.', credits='',
            crumbs=[('About', 'about/')], n_gens=_ngens, n_fams=len(fams), n_repairs=_nreps,
            jsonld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'name': 'About BoxyTrucks', 'url': SITE_URL + 'about/', 'mainEntity': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'email': 'boxytrucks@gmail.com', 'sameAs': [INSTAGRAM_URL, X_URL, YOUTUBE_URL, TIKTOK_URL], 'founder': dict(PERSON, description='Has owned two Jeep LJs, a 60 and an 80 Series Land Cruiser, an FJ Cruiser, four 4Runners and a 2007 Mercedes G500; building websites since 2001.', homeLocation={'@type': 'Place', 'name': 'Upstate South Carolina'})}}])
