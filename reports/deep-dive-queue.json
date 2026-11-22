@@ -132,10 +132,11 @@
   },
   {
    "gen": "chevrolet/k5-blazer-1st",
-   "status": "todo",
-   "deepened": 2,
-   "note": "; wheel bearings sourced (ck5.com / Chiltons); maintenance (purchase baseline; no GM schedule online); +1 guide",
-   "maintenance": true
+   "status": "done",
+   "deepened": 4,
+   "note": "; wheel bearings sourced (ck5.com / Chiltons); maintenance (purchase baseline; no GM schedule online); +1 guide; Nov 22: hardtop reseal + rust repair deepened (ck5.com, AMD, Ecklers, Brothers Trucks)",
+   "maintenance": true,
+   "date": "2026-11-22"
   },
   {
    "gen": "suzuki/samurai",
@@ -148,7 +149,12 @@
   },
   {
    "gen": "unimog/unimog-u1300l",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-22",
+   "added": 2,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "diff-lock reseal + correct oils guides; air dryer deepened; maintenance from 1982 operating instructions (partly illegible scan) + purchase baseline"
   },
   {
    "gen": "chevrolet/k5-blazer",
@@ -274,9 +280,12 @@
   },
   {
    "gen": "trooper/trooper-1",
-   "status": "todo",
-   "deepened": 1,
-   "note": "; timing belt sourced (Gates)"
+   "status": "done",
+   "deepened": 2,
+   "note": "; timing belt sourced (Gates); Nov 22: head gasket/cracked head guide; cooling refresh deepened; maintenance purchase baseline + Gates belt interval. Wheel studs, hubs, CV, hinges still thin (no reliable sources found)",
+   "date": "2026-11-22",
+   "added": 1,
+   "maintenance": true
   },
   {
    "gen": "chevrolet/suburban-square",

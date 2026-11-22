@@ -188,7 +188,7 @@
    "time": "≈ A weekend",
    "cost": "Seals plus adhesive",
    "symptoms": "Water on the floors after rain or a car wash, wind noise at speed, or rust starting under old seals.",
-   "fix": "Remove the old rubber and scrape the channels back to clean metal and fiberglass. Treat any surface rust you find. Fit new hardtop quarter-glass seals, door-opening weatherstrip and the liftgate seal with weatherstrip adhesive, working a short section at a time. Refit the top and check the fit at the bedsides before you tighten the bolts fully. Water-test with a hose.",
+   "fix": "Find the leak first: on ck5.com, owners say most top leaks come in at the front, where the top meets the cab, so start the hose test there and work back. Remove the old rubber and scrape the channels back to clean metal and fiberglass. Treat any surface rust you find. Fit the new door-opening weatherstrip, upper liftgate weatherstrip, tailgate-to-bed seals and hardtop quarter-glass seals with weatherstrip adhesive, a short section at a time. Refit the top in order: one ck5.com owner tightens the upper vertical cab bolts first to pull the top forward, then the side rails next to the cab, then all cab bolts and the remaining rails. Another simply does the cab bolts first, then the bed rails. Either way, check the fit at the bedsides before the bolts are fully tight. Water-test with a hose.",
    "tools": "Plastic scrapers · adhesive remover · weatherstrip adhesive · masking tape · garden hose",
    "parts": [
     {
@@ -205,6 +205,47 @@
      "name": "Hardtop and liftgate seals (search)",
      "supplier": "Auto Metal Direct",
      "url": "https://www.autometaldirect.com/search?q=69-72+blazer+hardtop+seal"
+    },
+    {
+     "name": "Upper liftgate weatherstrip, 69–72 Blazer/Jimmy",
+     "supplier": "Auto Metal Direct",
+     "url": "https://www.autometaldirect.com/upper-liftgate-weatherstrip---69-72-chevy-gmc-k5-blazer-jimmy"
+    },
+    {
+     "name": "Tailgate-to-bed seals, 69–72 Blazer/Jimmy",
+     "supplier": "Ecklers",
+     "url": "https://ecklers.com/1969-72-blazer-and-jimmy-tailgate-to-bed-seals-61-342801-1.html"
+    }
+   ],
+   "know": [
+    "Ck5.com owners report the main hardtop leak is at the front seam where the top meets the cab, and that some tops leak \"for no real apparent reason\" until the bolt-down is redone.",
+    "The factory put a small ball of tacky sealer where the map-light harness passes through; a ck5.com owner warns that leaving that gap open lets water in.",
+    "If the top hits the windshield-frame corner weatherstrip before it slides fully forward, ck5.com members pull it forward with the two horizontal bolts and down with the visor bolts rather than cutting the rubber. They add that if the bolt holes still don't line up, the body may have sagged and need reshimming.",
+    "Auto Metal Direct sells the lower rear hardtop-to-body seals for 1972 single-wall tops only, so check your year before ordering.",
+    "Ecklers lists its tailgate-to-bed seals for 1969–72 Blazer and 1970–72 Jimmy."
+   ],
+   "mistakes": [
+    "Cutting off the thick corner weatherstrip at the windshield frame to make the top fit. A ck5.com member notes that rubber keeps water out around the vent even when parked.",
+    "Tightening the bed-rail bolts before the cab bolts, which can leave a gap at the front seam.",
+    "Buying the cheapest seals: one ck5.com owner rated LMC's seal quality \"poor at best\" and preferred Sofseal or other suppliers."
+   ],
+   "cost_note": "No price is given here; seals are sold individually or in pairs by Auto Metal Direct, Ecklers and Brothers Trucks.",
+   "refs": [
+    {
+     "name": "ck5.com: Leaking hard tops",
+     "url": "https://ck5.com/forums/threads/leaking-hard-tops.265854/"
+    },
+    {
+     "name": "ck5.com: Hard top hits the weatherstrip on windshield frame (71 Blazer)",
+     "url": "https://ck5.com/forums/threads/hard-top-hits-the-weatherstrip-on-windshield-frame-71-blazer.289883/"
+    },
+    {
+     "name": "Auto Metal Direct: Lower rear hardtop-to-body seal (1972)",
+     "url": "https://www.autometaldirect.com/lower-rear-hardtop-to-body-seal---lh---72-chevy-gmc-k5-blazer-jimmy"
+    },
+    {
+     "name": "Ecklers: 1969–72 Blazer and Jimmy tailgate-to-bed seals",
+     "url": "https://ecklers.com/1969-72-blazer-and-jimmy-tailgate-to-bed-seals-61-342801-1.html"
     }
    ]
   },
@@ -213,8 +254,8 @@
    "diff": "4 / 5",
    "time": "≈ Several weekends",
    "cost": "Panels are cheap; welding time isn't",
-   "symptoms": "Soft or perforated floor pans, bubbling rockers and door bottoms, or rotten rear inner wheelhouses. These are the areas Velocity Restorations and The Drive flag.",
-   "fix": "Strip the interior and get the truck on stands with the doors shut, so the body doesn't move. Cut out one area at a time and leave sound metal to weld to. Trial-fit the reproduction panel, then plug- or butt-weld it in short stitches to avoid warping. Seam-seal and prime, and cavity-wax the rockers once they're closed up. For anything structural, measure the door gaps before and after.",
+   "symptoms": "Soft or perforated floor pans, bubbling rockers and door bottoms, or rotten rear inner wheelhouses. These are the areas Velocity Restorations and The Drive flag. On ck5.com, owners add the bed floor and bedsides, rocker boxes, the step between floor pan and cargo area, torsion boxes, cowl, firewall and the windshield header where the top bolts on.",
+   "fix": "Strip the interior and get the truck on stands with the doors shut, so the body doesn't move. Cut out the worst rust first and reassess what's left before buying panels. Brace the body before you cut into pillars, door frames or body supports. On ck5.com, owners suggest doing the floor pan and bedsides first, because they give you a solid reference for everything else; some go further and lift the body off, blast and coat the frame and fit new body mounts. Trial-fit each reproduction panel, then plug- or butt-weld it in short stitches to avoid warping. Replace the rocker box reinforcement with the rocker box if it has rotted: Brothers Trucks notes the two are commonly replaced together. Seam-seal and prime, and cavity-wax the rockers once they're closed up. Measure the door gaps before and after any structural work.",
    "tools": "MIG welder · cut-off wheel · spot-weld drill · clamps · seam sealer · weld-through primer",
    "parts": [
     {
@@ -231,6 +272,34 @@
      "name": "69–72 Blazer floor pans (search)",
      "supplier": "Auto Metal Direct",
      "url": "https://www.autometaldirect.com/search?q=69-72+blazer+floor+pan"
+    },
+    {
+     "name": "Rocker box reinforcement, driver side, 69–72 Blazer/Jimmy",
+     "supplier": "CJ Pony Parts",
+     "url": "https://www.cjponyparts.com/brothers-trucks-rocker-box-reinforcement-chevy-gmc/p/A1096-69/"
+    }
+   ],
+   "know": [
+    "Ck5.com owners say a large replacement section is usually better than several small patches.",
+    "\"Even the BEST reproduction sheetmetal won't fit perfectly,\" one ck5.com owner warns; expect to trim and rework panels.",
+    "One ck5.com owner found a supplier's rockers didn't match the factory bends at the front fender mount or the door opening, so trial-fit before you cut.",
+    "Brothers Trucks sells separate driver- and passenger-side rocker box reinforcements and rear floor supports for 1969–72 Blazer/Jimmy.",
+    "A ck5.com owner recommends a MIG welder with shielding gas over flux-core for cleaner sheet-metal welds."
+   ],
+   "mistakes": [
+    "Cutting into pillars or door frames without bracing the body first.",
+    "Starting a full rebuild on a badly rotted tub without pricing a cleaner donor body; a ck5.com owner suggests the donor can save time and money.",
+    "Welding in a rocker without trial-fitting it against the door opening and fender mount."
+   ],
+   "cost_note": "Panel prices vary by supplier; most of the cost is welding and fitting time.",
+   "refs": [
+    {
+     "name": "ck5.com: Where should I start (rust repair)",
+     "url": "https://ck5.com/forums/threads/where-should-i-start.337622/"
+    },
+    {
+     "name": "CJ Pony Parts: Brothers Trucks rocker box reinforcement, 69–72",
+     "url": "https://www.cjponyparts.com/brothers-trucks-rocker-box-reinforcement-chevy-gmc/p/A1096-69/"
     }
    ]
   },

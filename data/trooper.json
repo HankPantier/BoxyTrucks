@@ -346,6 +346,24 @@
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/isuzu,1990,trooper,2.6l+l4,1177040,cooling+system,water+pump,2208"
      }
+    ],
+    "know": [
+     "On the OHMO forum, an owner calls head gaskets a known weak point on the 2.6 and says cracked heads usually follow overheating after the gasket has already failed.",
+     "On Classic Motorsports, a member says the first-generation four-cylinder head gasket problems were fixed with later castings and gaskets."
+    ],
+    "mistakes": [
+     "Topping up a coolant leak for months: by the time it overheats, the head may already be cracked.",
+     "Refilling without bleeding the air out of the head."
+    ],
+    "refs": [
+     {
+      "name": "Oldsmobile/OHMO forum: Anyone familiar with 2.6L Troopers?",
+      "url": "https://ohmo.co/topic/239453-anyone-familiar-with-26l-troopers"
+     },
+     {
+      "name": "Classic Motorsports forum: Isuzu Trooper",
+      "url": "https://classicmotorsports.com/forum/off-topic-discussion/isuzu-trooper/14046/page1"
+     }
     ]
    },
    {
@@ -429,6 +447,46 @@
       "name": "Automatic transmission fluid",
       "supplier": "RockAuto",
       "url": "https://www.rockauto.com/en/catalog/isuzu,1990,trooper,2.6l+l4,1177040,transmission-automatic,transmission+fluid,11387"
+     }
+    ]
+   },
+   {
+    "title": "Replace a blown head gasket or cracked head (2.6)",
+    "diff": "4 / 5",
+    "time": "A weekend (estimate)",
+    "cost": "Gasket kit, or a reman head if it's cracked",
+    "symptoms": "Coolant loss with no visible leak, overheating, white exhaust smoke, milky oil, or a cooling system that pressurizes as soon as it warms up.",
+    "fix": "Confirm it first with a cooling-system pressure test and a compression or leak-down test. Drain the coolant and oil, remove the timing belt, intake and exhaust, and lift the head. Have the head checked for cracks and flatness before you order parts: on the OHMO forum, an owner who pulled a 2.6 head found cracks at cylinders 2 and 3. Another owner there lays out three outcomes: a new gasket, a decked head if it isn't cracked, or a replacement head if it is. Fit the new gasket and head bolts, tightening them in stages and in the sequence and to the torque in the factory service manual. Fit a new timing belt while it's apart, refill and bleed the cooling system, and recheck for leaks after the first heat cycle.",
+    "tools": "Pressure tester · compression gauge · torque wrench · straightedge and feeler gauges · factory service manual for bolt sequence and torque",
+    "parts": [
+     {
+      "name": "Engine parts incl. head gasket sets, 1990 Trooper 2.6",
+      "supplier": "RockAuto",
+      "url": "https://www.rockauto.com/en/catalog/isuzu,1990,trooper,2.6l+l4,1177040,engine"
+     }
+    ],
+    "know": [
+     "Owners on the OHMO forum in that thread found reman 2.6 heads for roughly $300–380 and timing belt/head gasket kits for $50–60; one estimated the whole job, with a radiator and timing kit, at about $1,000 or more. Prices will have moved.",
+     "One OHMO owner read that late-1990s heads had higher compression and cracked less, but hadn't confirmed they bolt on directly, so don't assume a later head fits.",
+     "Gates lists the 2.6 as an interference engine, so a belt that slips during the job can bend valves."
+    ],
+    "mistakes": [
+     "Fitting a new gasket on a head that hasn't been crack-checked and decked.",
+     "Skipping the radiator and thermostat after the repair; overheating is what cracks these heads."
+    ],
+    "cost_note": "Owner prices from the OHMO thread above; check current prices.",
+    "refs": [
+     {
+      "name": "Oldsmobile/OHMO forum: Anyone familiar with 2.6L Troopers?",
+      "url": "https://ohmo.co/topic/239453-anyone-familiar-with-26l-troopers"
+     },
+     {
+      "name": "Classic Motorsports forum: Isuzu Trooper",
+      "url": "https://classicmotorsports.com/forum/off-topic-discussion/isuzu-trooper/14046/page1"
+     },
+     {
+      "name": "Gates: timing belt replacement guide (Isuzu Trooper II entries)",
+      "url": "https://www.maxiparts.com.au/Documents/Supplier/Gates/timingbeltreplacementguide.pdf"
      }
     ]
    }

@@ -1544,13 +1544,13 @@ Tools: Drill and bits · socket set · torque wrench · wire brush · ORD instru
 #### Reseal the hardtop, liftgate and doors
 Difficulty 2 / 5 · time ≈ A weekend · cost Seals plus adhesive
 Symptoms: Water on the floors after rain or a car wash, wind noise at speed, or rust starting under old seals.
-Fix: Remove the old rubber and scrape the channels back to clean metal and fiberglass. Treat any surface rust you find. Fit new hardtop quarter-glass seals, door-opening weatherstrip and the liftgate seal with weatherstrip adhesive, working a short section at a time. Refit the top and check the fit at the bedsides before you tighten the bolts fully. Water-test with a hose.
+Fix: Find the leak first: on ck5.com, owners say most top leaks come in at the front, where the top meets the cab, so start the hose test there and work back. Remove the old rubber and scrape the channels back to clean metal and fiberglass. Treat any surface rust you find. Fit the new door-opening weatherstrip, upper liftgate weatherstrip, tailgate-to-bed seals and hardtop quarter-glass seals with weatherstrip adhesive, a short section at a time. Refit the top in order: one ck5.com owner tightens the upper vertical cab bolts first to pull the top forward, then the side rails next to the cab, then all cab bolts and the remaining rails. Another simply does the cab bolts first, then the bed rails. Either way, check the fit at the bedsides before the bolts are fully tight. Water-test with a hose.
 Tools: Plastic scrapers · adhesive remover · weatherstrip adhesive · masking tape · garden hose
 
 #### Cut out and replace rotten floors, rockers and wheelhouses
 Difficulty 4 / 5 · time ≈ Several weekends · cost Panels are cheap; welding time isn't
-Symptoms: Soft or perforated floor pans, bubbling rockers and door bottoms, or rotten rear inner wheelhouses. These are the areas Velocity Restorations and The Drive flag.
-Fix: Strip the interior and get the truck on stands with the doors shut, so the body doesn't move. Cut out one area at a time and leave sound metal to weld to. Trial-fit the reproduction panel, then plug- or butt-weld it in short stitches to avoid warping. Seam-seal and prime, and cavity-wax the rockers once they're closed up. For anything structural, measure the door gaps before and after.
+Symptoms: Soft or perforated floor pans, bubbling rockers and door bottoms, or rotten rear inner wheelhouses. These are the areas Velocity Restorations and The Drive flag. On ck5.com, owners add the bed floor and bedsides, rocker boxes, the step between floor pan and cargo area, torsion boxes, cowl, firewall and the windshield header where the top bolts on.
+Fix: Strip the interior and get the truck on stands with the doors shut, so the body doesn't move. Cut out the worst rust first and reassess what's left before buying panels. Brace the body before you cut into pillars, door frames or body supports. On ck5.com, owners suggest doing the floor pan and bedsides first, because they give you a solid reference for everything else; some go further and lift the body off, blast and coat the frame and fit new body mounts. Trial-fit each reproduction panel, then plug- or butt-weld it in short stitches to avoid warping. Replace the rocker box reinforcement with the rocker box if it has rotted: Brothers Trucks notes the two are commonly replaced together. Seam-seal and prime, and cavity-wax the rockers once they're closed up. Measure the door gaps before and after any structural work.
 Tools: MIG welder · cut-off wheel · spot-weld drill · clamps · seam sealer · weld-through primer
 
 #### Repack front wheel bearings and replace spindle seals
@@ -8366,6 +8366,12 @@ Difficulty 2 / 5 · time An hour or two · cost Parts plus labor
 Symptoms: Late or harsh shifts, a fluid smell or smoke from the exhaust manifold. On 1990–91 automatics, overfilled fluid could escape onto the exhaust (recall 90V167).
 Fix: Drop the pan, replace the filter and gasket, and refill with the specified fluid. Check the level exactly as the manual describes and do not overfill. Confirm with an Isuzu or Chevrolet dealer, or the NHTSA VIN lookup, that the recall work was done.
 Tools: Drain pan · socket set · torque wrench · funnel · Dexron-III-type ATF (Liqui Moly lookup; it lists ≈4.5 L for the 1990–92 2.6 automatic).
+
+#### Replace a blown head gasket or cracked head (2.6)
+Difficulty 4 / 5 · time A weekend (estimate) · cost Gasket kit, or a reman head if it's cracked
+Symptoms: Coolant loss with no visible leak, overheating, white exhaust smoke, milky oil, or a cooling system that pressurizes as soon as it warms up.
+Fix: Confirm it first with a cooling-system pressure test and a compression or leak-down test. Drain the coolant and oil, remove the timing belt, intake and exhaust, and lift the head. Have the head checked for cracks and flatness before you order parts: on the OHMO forum, an owner who pulled a 2.6 head found cracks at cylinders 2 and 3. Another owner there lays out three outcomes: a new gasket, a decked head if it isn't cracked, or a replacement head if it is. Fit the new gasket and head bolts, tightening them in stages and in the sequence and to the torque in the factory service manual. Fit a new timing belt while it's apart, refill and bleed the cooling system, and recheck for leaks after the first heat cycle.
+Tools: Pressure tester · compression gauge · torque wrench · straightedge and feeler gauges · factory service manual for bolt sequence and torque
 
 ### Baseline service
 Treat any first-generation Trooper as unserviced until receipts prove otherwise. These trucks are 35 to 40 years old, so the cheap fluids and rubber parts are what keep the engine and drivetrain alive. Isuzu's factory specs aren't widely published online. The fluid types and capacities below come from Liqui Moly's lookup, which uses European-market Isuzu data, so confirm viscosities and US figures in the owner's or service manual for your engine.
@@ -20796,7 +20802,7 @@ Tools: Wheel dolly or tire bar · piston spreader · brake cleaner · torque wre
 #### Service the air dryer and drain the air tanks
 Difficulty 1 / 5 · time ≈ 1 hour · cost Parts only
 Symptoms: Water spitting from tank drains, slow pressure build, sluggish locker or front-drive engagement, or a dryer that purges constantly.
-Fix: Drain the air system completely. Unscrew the desiccant cartridge from the dryer, oil the new seal lightly and spin the new canister on hand-tight. Open each tank drain until only dry air comes out, and replace any drain valve that leaks or sticks. Run the engine, check how quickly pressure builds, and confirm the governor cuts out and the lockers engage.
+Fix: Drain the air system completely. Unscrew the desiccant cartridge from the dryer, oil the new seal lightly and spin the new canister on hand-tight. Open each tank drain until only dry air comes out, and replace any drain valve that leaks or sticks. Run the engine, check how quickly pressure builds, and confirm the governor cuts out and the lockers engage. The 1982 Daimler-Benz operating instructions for the 435 cover draining condensate from the air tanks and checking the air compressor as routine jobs, and list a non-delivering compressor, a leaking system and loose air-line connections as the causes to check when air pressure won't build.
 Tools: Strap wrench · soapy water for leak checks
 
 #### Replace the clutch master cylinder
@@ -20822,6 +20828,18 @@ Difficulty 4 / 5 · time 1–2 days (estimate) · cost Parts plus labor
 Symptoms: Coolant loss with no visible leak, bubbles in the coolant, white exhaust smoke, or oil in the coolant.
 Fix: Drain the coolant and remove the intake, exhaust, injector lines and valve cover. Loosen the head bolts in the manual's sequence and lift the head. Have the head checked for flatness and cracks, then clean the deck. Fit the new gasket and new head bolts, which Expedition Imports strongly recommends, and torque them in stages to the 435 manual's sequence. Reset the valve clearances and refill and bleed the cooling system.
 Tools: Torque wrench and angle gauge · engine hoist or helper for the six-cylinder head · straight edge · 435 repair manual
+
+#### Reseal the air-operated diff lock pistons
+Difficulty 4 / 5 · time A day or more per axle (owner reports) · cost Seals are cheap; the labor is the job
+Symptoms: A differential lock that doesn't always engage, or air leaking from the axle when the locks are switched on.
+Fix: Support the frame and the axle securely on jack stands, then remove the wheel. On the U1300L owner's write-up, the front axle also needed the tie rod, stabilizer, the two brake lines at the differential, the shock, the spring and the air line removed; the rear also needs the rear stabilizer and parking brake disconnected. Unbolt the differential housing and roll the axle half out on a dolly. The air locker sits on the short (driver) side of the axle. Take out the locker piston, clean any rust off its sliding surface with emery cloth, and replace the O-ring at the top of the piston and the second O-ring in the axle tube. Reassemble in reverse, using jacks to line up the axle splines with the differential, and torque the housing bolts to the manual. Test the lock with air: an owner on another Unimog checks that the wheel locks and releases with a crisp thunk and holds pressure with no leakage.
+Tools: Jack stands (not blocks) · axle dolly · floor jacks · emery cloth · seal picks · 435 repair manual for torque values
+
+#### Refill the gearbox, axles and portals with the right oils
+Difficulty 1 / 5 · time Half a day (estimate) · cost Oil only
+Symptoms: Unknown service history, a gearbox that shifts stiffly, milky or metallic oil in a portal, or a portal that's low after sitting.
+Fix: Drain each portal into a clean, clear container and run a magnet through the oil: on Expedition Portal, an owner says small amounts of filings are normal but heavy magnetic sludge is not, and water in the portal oil means a seal or breather problem. Refill the portals and differentials with a GL-5 gear oil such as 75W-90. A BobIsTheOilGuy member, citing Mercedes sheet 231.3, says 75W-85 suits the gearbox of most Unimogs except ex-Bundeswehr 435s, where the manual specifies 10W engine oil; civilian gearboxes commonly run 80W-90 GL-4. Check which gearbox you have and what its plate or manual says before you fill it. Fill each unit to its level plug, not by volume alone, and recheck the portal levels after a short drive.
+Tools: Drain pans · clear jars · magnet · fill pump · large hex keys for the plugs
 
 ### Baseline service
 Most 435s in the US have spent years in a German army depot and then a container. Expect old fluids, aged tires and seals that have sat dry. Get the operator's manual for your engine first; Mercedes printed it in English. Then change every fluid before you drive it far, as one owner did before a 1,650 km trip home.

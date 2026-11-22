@@ -388,5 +388,71 @@
    "name": "Bring a Trailer — 1987 Unimog U1300L (sold March 2025)",
    "url": "https://bringatrailer.com/listing/1987-mercedes-benz-unimog-419/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Unimog U1300L (435) maintenance: what the 1982 Daimler-Benz operating instructions say, plus a purchase baseline and owner intervals.",
+  "intro": "Daimler-Benz's 1982 operating instructions for the 435 series (U 1300 L) do include a maintenance schedule, but the only copy we found online is a scan whose interval columns don't read reliably. So this page gives the jobs and intervals we could read clearly, a purchase baseline for a truck of unknown history, and clearly attributed owner advice. Use a legible manual for your truck's exact intervals.",
+  "schedule_note": "From the 1982 operating instructions where legible; the scan's other interval columns couldn't be read, so check a clean manual.",
+  "schedule": [
+   {
+    "at": "Daily, before driving",
+    "items": [
+     "Engine oil level",
+     "Coolant level"
+    ]
+   },
+   {
+    "at": "Weekly (daily in heavy dust)",
+    "items": [
+     "Clean the air cleaner element"
+    ]
+   },
+   {
+    "at": "Every 24 months",
+    "items": [
+     "Check coolant hoses and replace the antifreeze",
+     "Replace the air cleaner element (or after it has been cleaned five times)"
+    ]
+   },
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, fuel filters and air filter",
+     "Drain and inspect all four portals, both differentials and the gearbox; refill with the correct oils",
+     "Brake and clutch fluid flush",
+     "Coolant, hoses and antifreeze",
+     "Air dryer cartridge and tank drains; check the system holds pressure",
+     "Test both diff locks on air",
+     "Grease every chassis point on the lubrication chart"
+    ]
+   }
+  ],
+  "severe": "The operating instructions call for daily air-cleaner checks in severe dust. One owner on Reddit's r/unimog changes portal oil about every thousand miles, far more often than the per-oil-change interval other owners use.",
+  "age_items": [
+   {
+    "item": "Portal oil",
+    "when": "About every 1,000 miles (one owner's interval)",
+    "why": "An r/unimog owner says portals need frequent oil changes and the front ones should be checked for leaks while running."
+   },
+   {
+    "item": "Diff lock piston O-rings",
+    "when": "If a lock engages unreliably",
+    "why": "A U1300L owner found worn O-rings and a rusty piston behind front locks that didn't always work."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Daimler-Benz: Unimog 435 (U 1300 L, U 1700 L/38) Operating Instructions, edition 07.82 (RNZAOC copy)",
+    "url": "https://rnzaoc.com/wp-content/uploads/2021/08/unimog-435.pdf"
+   },
+   {
+    "name": "r/unimog: 1300L 1989 Doka, considering purchase",
+    "url": "https://reddit.birdcat.cafe/r/unimog/comments/1k6h88n/1300l_1989_doka_considering_purchase"
+   },
+   {
+    "name": "Repair of Air Lockers on Unimog 1300L (owner write-up)",
+    "url": "https://www.oocities.org/nharrison314@rogers.com/dansunimoglockerpage.html"
+   }
+  ]
+ }
 }

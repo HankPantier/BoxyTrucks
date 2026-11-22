@@ -325,7 +325,7 @@
     "time": "≈ 1 hour",
     "cost": "Parts only",
     "symptoms": "Water spitting from tank drains, slow pressure build, sluggish locker or front-drive engagement, or a dryer that purges constantly.",
-    "fix": "Drain the air system completely. Unscrew the desiccant cartridge from the dryer, oil the new seal lightly and spin the new canister on hand-tight. Open each tank drain until only dry air comes out, and replace any drain valve that leaks or sticks. Run the engine, check how quickly pressure builds, and confirm the governor cuts out and the lockers engage.",
+    "fix": "Drain the air system completely. Unscrew the desiccant cartridge from the dryer, oil the new seal lightly and spin the new canister on hand-tight. Open each tank drain until only dry air comes out, and replace any drain valve that leaks or sticks. Run the engine, check how quickly pressure builds, and confirm the governor cuts out and the lockers engage. The 1982 Daimler-Benz operating instructions for the 435 cover draining condensate from the air tanks and checking the air compressor as routine jobs, and list a non-delivering compressor, a leaking system and loose air-line connections as the causes to check when air pressure won't build.",
     "tools": "Strap wrench · soapy water for leak checks",
     "parts": [
      {
@@ -337,6 +337,23 @@
       "name": "Air tank drain valve",
       "supplier": "Expedition Imports",
       "url": "https://expedition-imports.com/drain-valve-air-tank-0004322107/"
+     }
+    ],
+    "know": [
+     "The 1982 operating instructions list three causes for air faults: no compressor delivery, a leaking system, or loose air-line connections.",
+     "On Reddit's r/unimog, an owner tells U1300L buyers to expect brake and air-system problems unless the work has already been done."
+    ],
+    "mistakes": [
+     "Assuming slow lockers are a locker fault before checking that the air system holds pressure."
+    ],
+    "refs": [
+     {
+      "name": "Daimler-Benz: Unimog 435 (U 1300 L, U 1700 L/38) Operating Instructions, edition 07.82 (RNZAOC copy)",
+      "url": "https://rnzaoc.com/wp-content/uploads/2021/08/unimog-435.pdf"
+     },
+     {
+      "name": "r/unimog: 1300L 1989 Doka, considering purchase",
+      "url": "https://reddit.birdcat.cafe/r/unimog/comments/1k6h88n/1300l_1989_doka_considering_purchase"
      }
     ]
    },
@@ -431,6 +448,73 @@
       "name": "Valve cover gasket OM366",
       "supplier": "Expedition Imports",
       "url": "https://expedition-imports.com/valve-cover-gasket-om366-3660160321/"
+     }
+    ]
+   },
+   {
+    "title": "Reseal the air-operated diff lock pistons",
+    "diff": "4 / 5",
+    "time": "A day or more per axle (owner reports)",
+    "cost": "Seals are cheap; the labor is the job",
+    "symptoms": "A differential lock that doesn't always engage, or air leaking from the axle when the locks are switched on.",
+    "fix": "Support the frame and the axle securely on jack stands, then remove the wheel. On the U1300L owner's write-up, the front axle also needed the tie rod, stabilizer, the two brake lines at the differential, the shock, the spring and the air line removed; the rear also needs the rear stabilizer and parking brake disconnected. Unbolt the differential housing and roll the axle half out on a dolly. The air locker sits on the short (driver) side of the axle. Take out the locker piston, clean any rust off its sliding surface with emery cloth, and replace the O-ring at the top of the piston and the second O-ring in the axle tube. Reassemble in reverse, using jacks to line up the axle splines with the differential, and torque the housing bolts to the manual. Test the lock with air: an owner on another Unimog checks that the wheel locks and releases with a crisp thunk and holds pressure with no leakage.",
+    "tools": "Jack stands (not blocks) · axle dolly · floor jacks · emery cloth · seal picks · 435 repair manual for torque values",
+    "parts": [],
+    "know": [
+     "The piston pushes the locker cogs to engage the differential; releasing the air lets a spring disengage them, according to the U1300L owner's write-up.",
+     "That owner put the O-rings at \"about $5 per axle\" and said labor, not parts, takes the time.",
+     "On a lighter Unimog, a Steel Soldiers member warns the return spring feels like it's under tension in the wrong direction and it's easy to go too far when relaxing it, and says not to lift in a way that pushes the diff housing up.",
+     "Expedition Imports sells a locker piston seal (4179970041) for 6-lug 406/416/419 axles; it doesn't list the 435, so match seals to your axle before ordering."
+    ],
+    "mistakes": [
+     "Splitting the wrong side of the axle: the U1300L owner first opened the side without the locker.",
+     "Using blocks instead of jack stands; the owner found blocks \"a little unstable\" under a heavy axle.",
+     "Rebuilding without a helper or dolly for the axle half."
+    ],
+    "cost_note": "No total price is quoted; the owner's seals cost about $5 per axle.",
+    "refs": [
+     {
+      "name": "Repair of Air Lockers on Unimog 1300L (owner write-up)",
+      "url": "https://www.oocities.org/nharrison314@rogers.com/dansunimoglockerpage.html"
+     },
+     {
+      "name": "Steel Soldiers: Replacing differential lock parts",
+      "url": "https://steelsoldiers.com/threads/replacing-differential-lock-parts.170580"
+     }
+    ]
+   },
+   {
+    "title": "Refill the gearbox, axles and portals with the right oils",
+    "diff": "1 / 5",
+    "time": "Half a day (estimate)",
+    "cost": "Oil only",
+    "symptoms": "Unknown service history, a gearbox that shifts stiffly, milky or metallic oil in a portal, or a portal that's low after sitting.",
+    "fix": "Drain each portal into a clean, clear container and run a magnet through the oil: on Expedition Portal, an owner says small amounts of filings are normal but heavy magnetic sludge is not, and water in the portal oil means a seal or breather problem. Refill the portals and differentials with a GL-5 gear oil such as 75W-90. A BobIsTheOilGuy member, citing Mercedes sheet 231.3, says 75W-85 suits the gearbox of most Unimogs except ex-Bundeswehr 435s, where the manual specifies 10W engine oil; civilian gearboxes commonly run 80W-90 GL-4. Check which gearbox you have and what its plate or manual says before you fill it. Fill each unit to its level plug, not by volume alone, and recheck the portal levels after a short drive.",
+    "tools": "Drain pans · clear jars · magnet · fill pump · large hex keys for the plugs",
+    "parts": [],
+    "know": [
+     "Mobil's listing quoted on BobIsTheOilGuy gives about 2.5 L per differential, 0.25–0.6 L per hub reduction and 10.5–13 L for the transmission on the U1300/1700. Fill to the plugs and confirm in your manual.",
+     "The same thread warns that a GL-4-only gearbox oil such as Castrol Syntrans is not suitable for the diffs or portals, which need GL-5.",
+     "On Reddit's r/unimog, an owner says to check that the portals, especially the front ones, don't leak oil while running."
+    ],
+    "mistakes": [
+     "Putting GL-4 gearbox oil in the portals or differentials.",
+     "Assuming a military 435 gearbox takes the same oil as a civilian one.",
+     "Refilling by volume without checking each level plug."
+    ],
+    "cost_note": "No price given; it's oil plus your time.",
+    "refs": [
+     {
+      "name": "BobIsTheOilGuy: 10W oil for Unimog transmission",
+      "url": "https://bobistheoilguy.com/forums/threads/10w-oil-for-unimog-transmission.173347/"
+     },
+     {
+      "name": "Expedition Portal: What to look for when looking at a U1750 Unimog",
+      "url": "https://forum.expeditionportal.com/goto/post?id=1956156"
+     },
+     {
+      "name": "r/unimog: 1300L 1989 Doka, considering purchase",
+      "url": "https://reddit.birdcat.cafe/r/unimog/comments/1k6h88n/1300l_1989_doka_considering_purchase"
      }
     ]
    }

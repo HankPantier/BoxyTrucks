@@ -285,5 +285,53 @@
    "name": "NHTSA — owner complaints, 1991 Isuzu Trooper",
    "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=isuzu&model=trooper&modelYear=1991"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Isuzu Trooper (1981–1991) maintenance: Isuzu's factory schedule isn't online, so this is a purchase baseline plus the timing-belt interval Gates publishes.",
+  "intro": "We couldn't find Isuzu's factory maintenance schedule for the first-generation Trooper online, so this page doesn't give factory intervals except where a parts maker publishes one. A Trooper of unknown history needs everything below at purchase; after that, follow the owner's manual for your engine.",
+  "schedule_note": "Purchase baseline only, plus Gates' published timing-belt interval.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, air and fuel filters, ignition",
+     "Timing belt and tensioner on the 2.3, 2.6 and 2.2 diesel if there's no receipt",
+     "Coolant, hoses, thermostat, radiator cap; pressure-test the system",
+     "Manual or automatic transmission fluid, transfer case and both differentials",
+     "Front hubs and wheel bearings",
+     "Brake fluid and hoses",
+     "Check every wheel stud"
+    ]
+   },
+   {
+    "at": "Every 60,000 miles",
+    "items": [
+     "Timing belt on the 2.3 (1986–87), 2.6 (1988–91) and 2.2 diesel (1984–87), per Gates"
+    ]
+   }
+  ],
+  "severe": "No factory severe-service schedule is online. Watch the temperature gauge closely: owners link cracked 2.6 heads to overheating.",
+  "age_items": [
+   {
+    "item": "Timing belt",
+    "when": "60,000 miles (Gates)",
+    "why": "Gates marks the 2.3, 2.6 and 2.2 diesel as interference engines, so a snapped belt can bend valves."
+   },
+   {
+    "item": "Head gasket (2.6)",
+    "when": "At the first sign of coolant loss",
+    "why": "An OHMO forum owner calls it a known weak point and says cracking usually follows overheating."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Gates: timing belt replacement guide (Isuzu Trooper II entries)",
+    "url": "https://www.maxiparts.com.au/Documents/Supplier/Gates/timingbeltreplacementguide.pdf"
+   },
+   {
+    "name": "Oldsmobile/OHMO forum: Anyone familiar with 2.6L Troopers?",
+    "url": "https://ohmo.co/topic/239453-anyone-familiar-with-26l-troopers"
+   }
+  ]
+ }
 }
