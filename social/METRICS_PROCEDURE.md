@@ -16,7 +16,7 @@ Hank, Nov 4, 2026: track views for everything and use them to judge what to do n
 - **TikTok**: tiktok.com/tiktokstudio/content lists views, likes and comments per post. Followers from tiktok.com/@boxytrucks.
 - **Pinterest**: per-pin numbers need a business account (Hank's call; it's an account change). Until then record followers only.
 - **Revenue** (Hank asked Nov 4, 2026; read only, never change settings):
-  - Amazon Associates: affiliate-program.amazon.com → Reports. Earnings for **tracking ID boxytrucks-20 only** (the account also holds pullabook-20, Hank's other site): Commissions tab grouped by Tracking ID, or Download Reports → Tracking ID summary. Month to date: earnings, clicks, items ordered.
+  - Amazon Associates: affiliate-program.amazon.com → Reports. Earnings for **tracking ID boxytrucks-20 only** (the account also holds pullabook-20, Hank's other site): Commissions tab grouped by Tracking ID, or Download Reports → Tracking ID summary. Month to date: earnings, clicks, items ordered. Quickest path (checked Nov 23, 2026): Reports → Earnings, set "Group By" to Tracking ID and read the **boxytrucks-20** row. The "Other" row is pullabook-20 and the home-page totals combine both, so never report those as BoxyTrucks. Baseline Oct 24–Nov 22: 12 clicks, 0 orders, $0.00. Always state the Amazon line in the weekly summary to Hank, even at $0.
   - CJ: members.cj.com → Reports → Performance (by advertiser), month to date: commissions, clicks, sales.
   - Sovrn Commerce: platform.sovrn.com → Commerce reports, month to date: estimated earnings, clicks.
   - eBay Partner Network: partner.ebay.com → Reports, campaign 5339233573, month to date: earnings, clicks.
