@@ -234,3 +234,16 @@ Thanks,
 Hank Pantier
 BoxyTrucks.com
 ```
+
+## Partnership outreach sent Nov 22, 2026 (Hank: "proceed with any open items")
+Sent from boxytrucks@gmail.com, subject "You're already in our repair guides: sponsorship idea" (YotaShop: "Creator sponsorship inquiry"), linking the media kit and /partner/:
+- Cruiser Corps: contact@cruisercorps.com (Land Cruiser FJ40/FJ60, Lexus LX pages)
+- Slee Off-Road: info@sleeoffroad.com (Lexus LX, GX)
+- Quadratec: info@quadratec.com (Jeep CJ, Wrangler, XJ, Comanche)
+- Lucky8: sales@lk8parts.com (their contact page has no message form; this is the address it lists)
+- YotaShop: sales@yotashop.com (with the details their sponsorship page asks for)
+Not sent:
+- Expedition Imports: their ticket form requires a phone number; not entered. Hank can submit it or call 707-643-6757.
+- CruiserTeq: site blocked for the browser and no published email found.
+- ARB: creator program needs an Impact.com account (Hank).
+Follow up in about a week if no reply.

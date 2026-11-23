@@ -91,3 +91,5 @@ From Oct 30, 2026, X gets a daily post that mirrors that day's Instagram post (H
 - After posting, new accounts see an "Unlock more on X" info modal. It's safe to close with the X.
 - No "sensitive" or AI-label toggle appeared on either post.
 - Don't press Escape in the composer: it opens "Save post?" (press Escape again to back out).
+
+- Nov 22, 2026: media kit post https://x.com/boxytrucks/status/2124597183836021210 (accidental duplicate 2124597334311145855 deleted, Hank approved).
