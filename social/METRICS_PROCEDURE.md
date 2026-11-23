@@ -34,3 +34,10 @@ Hank, Nov 4, 2026: track views for everything and use them to judge what to do n
 - Rank formats, truck families and topics by average views, and above all by **site visits and saves**. Views on new accounts are noisy, so a pattern needs at least 3 posts behind it.
 - Each week, make at least one deliberate shift toward what's working (e.g. more Reels if video keeps beating stills, more of the best family) and write it in the plan with the numbers that justify it.
 - After four weeks of data (from Nov 30, 2026), rebalance the weekly rhythm in STRATEGY.md and tell Hank what changed and why.
+
+## TikTok is required every week (Hank, Nov 23, 2026)
+TikTok is posting daily again, and Hank wants its numbers in every weekly update:
+- Add a posts.json row (platform tiktok) for every item with a `tt_url` in social/queue.json, shorts.json, shorts-years.json, hooks/*.json and hank/*/posted.json, and refresh views, likes, comments, shares and saves from TikTok Studio > Posts (scroll to load them all).
+- followers.json: TikTok followers from tiktok.com/@boxytrucks. site.json: sessions_tiktok from GA4.
+- In reports/scoreboard.md, give TikTok its own line every week: followers, views this week and lifetime, posts this week, the top TikTok post, and sessions to the site. Include TikTok in the top/bottom 3 and in the "Mix change" line.
+- Upload the refreshed files to the Scoreboard dashboard as usual so its TikTok series stays current. The media kit picks TikTok up from the same files on the next build.
