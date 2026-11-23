@@ -297,7 +297,12 @@
   },
   {
    "gen": "pajero/pajero-gen1",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-23",
+   "added": 3,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "No full factory schedule online; Mitsubishi EU oil/brake-fluid via Liqui Moly + Gates 4D56"
   },
   {
    "gen": "land-cruiser/300-series",
@@ -367,7 +372,12 @@
   },
   {
    "gen": "bronco/early-bronco",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-23",
+   "added": 2,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "No factory schedule online; 1967 owner manual Bronco items + baseline"
   },
   {
    "gen": "bronco/full-size",
@@ -389,15 +399,21 @@
   },
   {
    "gen": "delica/delica-l300",
-   "status": "todo",
-   "date": "2026-11-20",
-   "deepened": 2,
-   "note": "Valve cover guide deepened; no maintenance schedule source found yet; footwell leak guide still thin"
+   "status": "done",
+   "date": "2026-11-23",
+   "deepened": 1,
+   "note": "Deepened (not thin) timing-belt guide with Gates; no factory schedule online",
+   "added": 1,
+   "maintenance": true
   },
   {
    "gen": "delica/delica-space-gear",
-   "status": "todo",
-   "deepened": 2
+   "status": "done",
+   "deepened": 0,
+   "date": "2026-11-23",
+   "added": 3,
+   "maintenance": true,
+   "note": "No factory schedule online; Delica.ca owner intervals"
   },
   {
    "gen": "g-class/4x4-squared",

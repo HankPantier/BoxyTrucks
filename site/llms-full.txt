@@ -1,6 +1,6 @@
 # BoxyTrucks: full model guides
 
-Source: https://boxytrucks.com/ · generated 2026-11-22
+Source: https://boxytrucks.com/ · generated 2026-11-23
 
 Verify every fluid, capacity and torque figure against the factory manual for the exact vehicle. Disclaimer: https://boxytrucks.com/about/disclaimer/
 
@@ -2853,6 +2853,18 @@ Difficulty 2 / 5 · time ≈ Half a day · cost Parts plus your time
 Symptoms: Wipers that slow down or stop when you accelerate uphill, the classic vacuum-wiper failure, or a vacuum-wiper fuel pump blocking a power-steering pump.
 Fix: Ford switched from vacuum to electric wipers in mid-1969, and on the early trucks the vacuum supply runs through the fuel pump. Remove the vacuum motor and its lines, fit the electric motor and bracket on the windshield frame, connect the motor arm to the existing linkage and run the wiper harness to a switch. An electric-wiper cover finishes the job. Replace the fuel pump with a non-vacuum V8 pump while you're there, which also frees up the spot a power-steering pump needs.
 Tools: Screwdrivers and sockets · drill · wire strippers and crimpers · test light
+
+#### Find and stop water leaks: doors, windshield frame and cowl
+Difficulty 2 / 5 · time A weekend of testing and sealing · cost Seals and seam sealer
+Symptoms: Wet footwells or carpet after rain or a car wash. On ClassicBroncos, a freshly restored truck dumped water into both footwells when the windshield was sprayed, and other owners say 'All the early EB's leak' and that 'They leaked from the factory.'
+Fix: Find the leak before buying parts: with a helper inside, run a hose over one area at a time, starting low and working up. The usual entry points owners name are the doors (jim3326 says they're the worst, through the wing vent, window felt and top of the window frame), the seam between the cowl and the windshield base, and the joint where a hardtop meets the windshield frame. For the cowl seam, 72Sport stopped his passenger-side leak with more seam sealer, noting that Ford's overlapping seam acts like a rain gutter into the cab. For the hardtop joint, AC932 added 1/8-inch flat stock where the top meets the windshield and tightened the bolts hard, which cut his leak to a drip at the top front corner of each door. Replace hardened door, vent-window and tailgate seals.
+Tools: Garden hose and a helper · flashlight · seam sealer and black silicone · trim tools
+
+#### Running hot: gauge, radiator, fan and thermostat (302 V8)
+Difficulty 2 / 5 · time ≈ 1–4 hours · cost From a gauge to a radiator
+Symptoms: A high gauge reading in traffic or on slow trails, or boiling over.
+Fix: Verify the problem first: on Ford-Trucks, RCrawler says to get a working gauge before deciding there's a problem, and rdhanks suggests an aftermarket mechanical gauge. Torque1st calls 200–220 °F normal, with hoses too hot to hold. If it really runs hot, check the basics: rdhanks advises the proper thermostat and radiator cap and a cleaned radiator, and Broncojohn suggests a 195-degree thermostat. Check whether a V8 truck is running a six-cylinder radiator: FordCardinal fixed his overheating with a 390 radiator, while Broncojohn says a six-cylinder radiator is smaller and its hose connections are in the wrong place for a V8. For slow off-road driving, posters use a flex fan or an electric fan. If it's boiling over, rdhanks says to check for a blown head gasket.
+Tools: Mechanical temperature gauge or infrared thermometer · cooling-system pressure tester · basic hand tools
 
 ### Baseline service
 Assume nothing has been done, and assume plenty has been changed: most early Broncos have been modified, so check what engine, axles and transfer case you actually have before buying parts. The data plate on the glovebox door gives the factory engine, transmission and axle codes.
@@ -21100,6 +21112,12 @@ Symptoms: Not a fault, but the upgrade owners make most often for traction: the 
 Fix: LOKKA lists an automatic front locker for the 1987–94 L300. Growlerbearnz removes the front diff without disturbing the alignment by taking off the left knuckle and loosening the left rear-subframe nuts; he reckons the removal takes about an hour without seized bolts. Measure backlash and the tooth pattern before you strip it, and keep shims and bearing caps in order. Fit the locker, then check the inter-cam clearance (0.145–0.165 in, per his write-up). He lists part numbers for a 1991 P25W: shim kit MB185519, cross pin MB241909, drive-shaft seals MB290013 (two), side bearings MB092348 and cover gasket MB160579.
 Tools: Workshop manual · ball-joint separator · bearing puller · dial indicator · feeler gauges · M10 x 1.25 tap · red thread locker · gear oil.
 
+#### Rust: where L300s rot and when to walk away
+Difficulty 4 / 5 · time Inspection 1 hour; repair weeks · cost From a wire brush to a body shop
+Symptoms: Bubbles in the paint, fresh paint in odd places, damp carpet, or rust on the wheel arches. JDM Buy Sell quotes an owner saying all Delicas rust and that it can be 'terminal or very expensive to deal with'.
+Fix: Inspect from underneath and inside. Delica.ca members name the places to look: the windscreen pillars and roof gutter (Growlerbearnz says these often go first), the front floor pans under damp carpet, the chassis around the front suspension and bumper where black underbody paint can hide rust, the pinch-welded seams along the bottom sides, and the box sections behind the front door steps, under the side-door step and at the rear corners (Erich). Erich warns that any exterior bubble usually means something much bigger underneath. Fix footwell leaks first (see our leak guide), cut out and weld in new steel on anything structural, then seal and undercoat.
+Tools: Flashlight and pick · screwdriver for probing · welder and grinder (or a body shop) · cavity wax
+
 ### Baseline service
 Treat any imported Star Wagon as unserviced until you see receipts, and don't take an importer's 'fully serviced' at face value. GearJunkie notes that good importers do the timing belt, water pump, hoses, glow plugs and fluids. The capacities below come from Liqui Moly's lookup, which uses European data for the L300 2.5 TD 4WD (1987–94). Confirm them in the workshop manual for your frame number, because automatics, twin-tank vans and Japanese-market specs differ.
 - Engine oil & filter: Diesel-rated 15W-40 (among the grades Liqui Moly lists) · 4.9 L plus 0.7 L for the filter · Every 5,000 km (3,000 mi) or 6 months (That's Liqui Moly's normal interval, and the one veteran Delica.ca owners use. Some owners quote a larger total fill, so use the dipstick.)
@@ -21399,6 +21417,24 @@ Symptoms: Scaling on the frame rails, rear axle and driveshaft; bubbling around 
 Fix: Pressure-wash the underside and let it dry for a few days. Take off the side steps and bumper tube to wire-brush and paint the worst spots. A Winnipeg owner says a wire wheel is enough and grinding isn't needed. Then spray an inhibitor into every frame and drain hole, using a wand on a flexible extension. Remove the spare tire first, because one van that was undercoated with the spare left in place rusted behind the rear bumper. Redo it every year.
 Tools: Pressure washer · wire wheel · undercoating gun with extension wand · compressor at 70–90 psi · ramps and stands.
 
+#### 4M40 timing chain, guide and tensioner
+Difficulty 5 / 5 · time 1–2 days (estimate) · cost Chain, guides and tensioner
+Symptoms: A chuffing or rattling chain, or a new noise after other engine work. On Delica.ca, Woik's '95 L400 bent a valve after its timing drifted.
+Fix: Check the chain whenever the valve cover is off; jessef's Delica.ca checklist says a chuffing or loose chain risks breakage and 'engine catastrophe'. If it's worn, replace the chain, the guides and the tensioner together. In Woik's case the shop found the chain stretched about 1/2 inch against a new one and the guide's nylon insert worn through on the back, where the tensioner plunger presses; together they pushed the plunger to full travel so it couldn't hold tension. The same shop warned that the sprockets have a rubber insert that can break down and let the sprocket slip against its marks, so don't rely on the marks alone; check timing with the workshop manual's method.
+Tools: Workshop manual for the 4M40 · crank holder · torque wrench · compression gauge to check afterwards
+
+#### Cooling on the 4M40: expansion bottle, water pump and thermostat
+Difficulty 3 / 5 · time ≈ 3–6 hours (estimate) · cost Bottle, pump, thermostat and hoses
+Symptoms: Coolant loss, a crusty or cracked overflow bottle, or rising temperature. Cooling-system health matters on a 4M40 because overheating cracks heads.
+Fix: Inspect the plastic expansion bottle closely: jessef says it cracks from UV exposure and a failure can dump all the coolant. Replace it if it's brittle. If the water pump is weeping or the van has no records, do the pump and thermostat together, drain and refill the coolant, and fit new radiator hoses and drive belts at the same time, as jessef suggests. If the intercooler has to come off, Delicashop.com warns the radiator's top-tank inlet often gets broken, so work carefully.
+Tools: Drain pan · basic hand tools · cooling-system pressure tester · funnel for bleeding
+
+#### Sliding door won't close or latch
+Difficulty 2 / 5 · time ≈ 1 hour · cost Usually free: cleaning and adjustment
+Symptoms: The side door bounces back open, won't latch, or the self-closing catch doesn't pull it shut, often on cold days.
+Fix: Work through the causes Delica.ca owners found on L400s. Clean the electrical contacts on the B-pillar that operate the self-closing catch with steel wool or a Scotch-Brite pad (Big-Bird). Test the catch with a screwdriver: it should close around the tip; if it's gritty, clean it with brake cleaner, lubricate with lithium grease spray and cycle it. Check the spring-loaded contact on the door itself; glenn found his seized, freed it by wiggling and greased it. If the door sits low, del400 fixed his by raising the bottom of the door slightly and adjusting the bolt it rests on, about halfway down the frame. On cold days madmazda says working the inner handle back and forth a few times usually frees it.
+Tools: Screwdriver · brake cleaner · lithium grease spray · Scotch-Brite · socket set for adjustment
+
 ### Baseline service
 Most Space Gears arrive with Japanese service history that's hard to read or missing, so change everything. The figures below are from one owner's L400 owner's manual, posted on Delica Canada. Mitsubishi also put a maintenance label on the air-intake duct under the hood. Work out whether you have the 4M40 diesel or the 6G72 V6 before you order anything.
 - Engine oil & filter: 5W-30 (−30 to +40 °C) or 10W-30 · 4.5 L (3.0 V6) / 8.3 L (2.8 diesel) · Now, then per the manual (check your manual) (A Delica Canada member lists Baldwin B7121 (tall) and BD7028 (short) oil filters for the 4M40.)
@@ -21639,7 +21675,7 @@ Tools: Line wrenches · hose clamps · fuel-rated hose · fire extinguisher · a
 #### Set the front ride height at the torsion bars
 Difficulty 2 / 5 · time ≈ 1 hour plus an alignment · cost Free to adjust
 Symptoms: A nose-down stance, or one front corner lower than the other. Like every Pajero up to 1999, the first generation has double-wishbone front suspension on torsion bars.
-Fix: With the truck on level ground, measure the front ride height on both sides. Turn the torsion-bar adjusters evenly to raise the low side, settle the suspension and measure again. Clean and anti-seize the adjuster threads. Get an alignment afterwards. If the bars are badly sagged or you carry a heavy bar and winch, replace them rather than winding them up further.
+Fix: With the truck on level ground, measure the front ride height on both sides. Turn the torsion-bar adjusters evenly to raise the low side, settle the suspension and measure again. Clean and anti-seize the adjuster threads. Get an alignment afterwards. If the bars are badly sagged or you carry a heavy bar and winch, replace them rather than winding them up further. On ExplorOz, Oldplodder (QLD) says the NA-to-NL Pajeros all use torsion bars, that the front sags with age, and that the adjustment is the bolt at the rear of each bar with the front jacked up and both sides kept equal. He doesn't expect much lift from it: 'might be able to squeeze 5 to 10mm more'. He also says to check that the upper and lower arms sit the same distance from their bump stops.
 Tools: Jack and stands · tape measure · socket and long extension · anti-seize.
 
 #### Rear drum brakes and wheel cylinders
@@ -21665,6 +21701,24 @@ Difficulty 4 / 5 · time ≈ A weekend for surface rust; much longer if panels n
 Symptoms: Bubbling paint along the windshield surround, roof gutters and hood, and soft spots in the floors and rear arches. Bring a Trailer's 1989 Raider showed corrosion on the hood, windshield surround and roof. Its 1988 Montero Sport had corrosion and failing clearcoat.
 Fix: Pull the trim and seals around the problem area and probe with a pick until you reach sound metal. Surface rust can be wire-brushed or blasted back to bright steel, then primed and painted. Anything holed has to be cut out and patched: coat the joint faces with weld-through primer, weld the patch in short stitches to limit heat distortion, then seam-seal and paint. Finish by spraying a cavity coating inside the sills and rails, and refit windshield and gutter seals with fresh sealant so water can't get back in.
 Tools: Pick and wire brushes · angle grinder with flap and cutting discs · MIG welder · panel clamps · seam sealer · cavity-spray wand.
+
+#### Timing and balance-shaft belts (2.5 4D56 turbo-diesel)
+Difficulty 4 / 5 · time ≈ 1 day (estimate) · cost Belt kit, balancer belt and tensioner
+Symptoms: No symptoms until it fails, which is the problem. JDM Buy Sell notes the 4D56 is a timing-belt engine and gives no interval, so ask for the truck's own record; with no receipt, assume it's due.
+Fix: Lock the engine on its timing marks, remove the accessory drive, crank pulley and covers, and replace the camshaft belt and the separate balancer-shaft belt together. Gates recommends replacing the balancer-shaft belt every time you replace the camshaft belt, because debris from a failed balancer belt can get into the camshaft drive. Gates also recommends a new hydraulic tensioner with every belt change, even if the old one seems to work. Fit the pulleys and belt, pull the tensioner's locking pin, turn the crank two full turns and check that the tensioner rod sticks out within the 2.3–7.6 mm range Gates gives. Gates puts the tension-roller lever pivot bolt at 42–56 N·m: too loose and the bolt can fatigue and break, too tight and the washer can deform and jam the lever. Use the interval in your engine's service manual; Gates says the manufacturer's interval applies.
+Tools: Crank-pulley holder · timing-mark paint pen · torque wrench · the factory or workshop manual for your engine
+
+#### Front-end groan and wander: idler arm, sway-bar bushes and lower-arm bolts
+Difficulty 2 / 5 · time ≈ 2–4 hours plus an alignment · cost Idler arm and bushes
+Symptoms: Loose or vague steering, clunks over bumps, or a groan from the front end. Carsales names the idler-arm bushes and anti-sway-bar bushes as front-end wear spots and says loose lower control-arm bolts can cause a groaning noise.
+Fix: With the truck on stands and the wheels straight, have a helper rock the steering wheel while you watch the idler arm, the pitman arm and the tie-rod ends for movement. Check the anti-sway-bar bushes and end links for cracks and play. Check the lower control-arm bolts for tightness before replacing anything; Carsales links loose bolts to the groan. Replace worn idler-arm and sway-bar bushes, tighten the arm bolts to the manual's figure with the truck on its wheels, and finish with an alignment. While you're there, inspect the pitman-arm ball joint and its boot (see our pitman-arm guide): Mitsubishi warns that a corroded, worn joint can break.
+Tools: Jack and stands · pry bar · breaker bar and torque wrench · ball-joint separator
+
+#### Rear trailing-arm bolts and bushes (coil-spring rear, 1988 on)
+Difficulty 3 / 5 · time ≈ 3–5 hours (estimate) · cost Bush kit and bolts
+Symptoms: Clunks or a rear end that steers itself over bumps. Carsales says the coil-spring rear can suffer from loose trailing-arm bolts and bushes, and that off-road use often wears trailing-arm bushes on live-axle Pajeros.
+Fix: First confirm which rear you have: JDM Buy Sell says the rear used leaf springs until the 1988 update, then three-link coils. On a coil truck, support the axle, check every trailing-arm bolt for tightness, then lever each arm to look for torn or displaced rubber. Replace bushes in pairs, one arm at a time so the axle stays located, and torque the bolts to the manual's figure with the truck at ride height.
+Tools: Jack and stands · axle support · bush press or a large vice with sockets · torque wrench
 
 ### Baseline service
 These trucks are now 35–44 years old, so do everything. On the US 2.6 four that means oil, the timing chains if they rattle, a fresh fuel system and every gear oil, including the transfer case and the limited-slip rear if fitted. Capacities are AMSOIL's lookup figures for a US 1989 Montero 2.6; V6 and diesel trucks differ. The automatic-transmission figure and the oil and brake-fluid intervals come from Liqui Moly's lookup, which uses Mitsubishi's European data.

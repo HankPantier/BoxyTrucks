@@ -387,5 +387,74 @@
    "name": "Bronco Graveyard — shop manuals and technical diagrams",
    "url": "https://broncograveyard.com/rt-1273-technical-diagrams-archives.html"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Early Ford Bronco (1966–1977) maintenance: Ford's full schedule isn't online, so this is a purchase baseline plus the Bronco items from the 1967 owner's manual and owner advice.",
+  "intro": "We couldn't find Ford's maintenance schedule for the early Bronco online: the 1967 owner's manual we found refers to its schedule and lubrication charts but they aren't in the copy online. So this page is a purchase baseline, plus the Bronco-specific items the manual does give and attributed owner advice. Most early Broncos have been modified, so check what engine, transmission and axles you actually have first.",
+  "schedule_note": "Purchase baseline plus Bronco items from the 1967 owner's manual; no factory mileage intervals were available.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter; clean or replace the air cleaner (oil-bath units get fresh oil)",
+     "Plugs, cap, rotor, wires; set dwell and timing on points ignition",
+     "Coolant, thermostat, hoses, water pump and radiator cap",
+     "Transmission, Dana 20 transfer case and both differentials",
+     "Front wheel bearings, hub seals and locking-hub O-rings",
+     "Brake fluid, rubber hoses and rear axle lines",
+     "Fuel pump, filter and rubber fuel hose",
+     "C-bushings, radius-arm and track-bar bushings"
+    ]
+   },
+   {
+    "at": "After driving through water",
+    "items": [
+     "Drain and refill the front and rear axle lubricant (the 1967 manual says to do it daily during water operation)"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Coolant flush",
+     "Brake fluid flush"
+    ]
+   }
+  ],
+  "severe": "The 1967 owner's manual's only severe-use instruction for the Bronco is water: drain and refill both axles after operation in water. Slow off-road driving is when cooling problems show; see our overheating guide.",
+  "age_items": [
+   {
+    "item": "Thermostat and radiator cap",
+    "when": "At purchase",
+    "why": "Ford-Trucks posters fix running-hot trucks with the right thermostat (Broncojohn suggests 195 °F) and cap before anything bigger."
+   },
+   {
+    "item": "Door, vent-window and tailgate seals",
+    "when": "When hardened or leaking",
+    "why": "Owners on ClassicBroncos say early Broncos leak from the factory; old seals make it worse."
+   },
+   {
+    "item": "Wheel lug nuts",
+    "when": "After any wheel change",
+    "why": "The 1967 manual gives 55–85 ft-lb for lug nuts across its truck range."
+   }
+  ],
+  "sources": [
+   {
+    "name": "1967 Ford truck owner's manual (Bronco sections), ManualMachine",
+    "url": "https://manualmachine.com/ford/bronco1967/3853622-user-manual"
+   },
+   {
+    "name": "Ford-Trucks forum: Overheating '76 Bronco",
+    "url": "https://www.ford-trucks.com/forums/267517-overheating-76-bronco.html"
+   },
+   {
+    "name": "ClassicBroncos forum: Water leaking into the cab",
+    "url": "https://classicbroncos.com/forums/threads/water-leaking-into-the-cab.303345"
+   },
+   {
+    "name": "Wild Horses 4x4: How to stop your early Bronco from wandering",
+    "url": "https://www.wildhorses4x4.com/how-to-stop-your-early-bronco-from-wandering"
+   }
+  ]
+ }
 }

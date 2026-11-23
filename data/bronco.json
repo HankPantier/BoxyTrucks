@@ -488,6 +488,79 @@
       "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-V8-Fuel-Pump-289302351W/productinfo/10284/"
      }
     ]
+   },
+   {
+    "title": "Find and stop water leaks: doors, windshield frame and cowl",
+    "diff": "2 / 5",
+    "time": "A weekend of testing and sealing",
+    "cost": "Seals and seam sealer",
+    "symptoms": "Wet footwells or carpet after rain or a car wash. On ClassicBroncos, a freshly restored truck dumped water into both footwells when the windshield was sprayed, and other owners say 'All the early EB's leak' and that 'They leaked from the factory.'",
+    "fix": "Find the leak before buying parts: with a helper inside, run a hose over one area at a time, starting low and working up. The usual entry points owners name are the doors (jim3326 says they're the worst, through the wing vent, window felt and top of the window frame), the seam between the cowl and the windshield base, and the joint where a hardtop meets the windshield frame. For the cowl seam, 72Sport stopped his passenger-side leak with more seam sealer, noting that Ford's overlapping seam acts like a rain gutter into the cab. For the hardtop joint, AC932 added 1/8-inch flat stock where the top meets the windshield and tightened the bolts hard, which cut his leak to a drip at the top front corner of each door. Replace hardened door, vent-window and tailgate seals.",
+    "tools": "Garden hose and a helper · flashlight · seam sealer and black silicone · trim tools",
+    "parts": [
+     {
+      "name": "Weatherstrip kit, 1969–77 Bronco",
+      "supplier": "CJ Pony Parts",
+      "url": "https://www.cjponyparts.com/weatherstrip-kit-8-piece-bronco-1969-1977/p/WSKIT27/"
+     },
+     {
+      "name": "Weatherstrip kit, 1966–68 Bronco",
+      "supplier": "CJ Pony Parts",
+      "url": "https://www.cjponyparts.com/weatherstrip-kit-8-piece-bronco-1966-1968/p/WSKIT26/"
+     }
+    ],
+    "know": [
+     "jckkys found reproduction seals 'out of spec and not as flexible as the OE parts' and had to trim the liftgate window gaskets to fit.",
+     "One poster suggests treating the Bronco 'more as an umbrella than a sealed cabin'; another says his '74 and '77 didn't leak when new, so a perfect seal is possible but not typical.",
+     "A poster says Todd Z's Bronco history book reproduces Ford service bulletins on leak fixes."
+    ],
+    "mistakes": [
+     "Sealing everything at once, so you never learn which joint was leaking.",
+     "Assuming new reproduction seals will fit and seal without adjustment."
+    ],
+    "cost_note": "No prices in the thread.",
+    "refs": [
+     {
+      "name": "ClassicBroncos forum: Water leaking into the cab",
+      "url": "https://classicbroncos.com/forums/threads/water-leaking-into-the-cab.303345"
+     }
+    ]
+   },
+   {
+    "title": "Running hot: gauge, radiator, fan and thermostat (302 V8)",
+    "diff": "2 / 5",
+    "time": "≈ 1–4 hours",
+    "cost": "From a gauge to a radiator",
+    "symptoms": "A high gauge reading in traffic or on slow trails, or boiling over.",
+    "fix": "Verify the problem first: on Ford-Trucks, RCrawler says to get a working gauge before deciding there's a problem, and rdhanks suggests an aftermarket mechanical gauge. Torque1st calls 200–220 °F normal, with hoses too hot to hold. If it really runs hot, check the basics: rdhanks advises the proper thermostat and radiator cap and a cleaned radiator, and Broncojohn suggests a 195-degree thermostat. Check whether a V8 truck is running a six-cylinder radiator: FordCardinal fixed his overheating with a 390 radiator, while Broncojohn says a six-cylinder radiator is smaller and its hose connections are in the wrong place for a V8. For slow off-road driving, posters use a flex fan or an electric fan. If it's boiling over, rdhanks says to check for a blown head gasket.",
+    "tools": "Mechanical temperature gauge or infrared thermometer · cooling-system pressure tester · basic hand tools",
+    "parts": [
+     {
+      "name": "Aluminum high-efficiency radiator, 1966–77 Bronco V8",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-1977-Ford-Bronco-Aluminum-High-Efficiency-Radiator-V8/productinfo/10605/"
+     },
+     {
+      "name": "Radiator hose kit, 1966–77 Bronco V8",
+      "supplier": "Bronco Graveyard",
+      "url": "https://shop.broncograveyard.com/1966-77-Ford-Bronco-V8-Radiator-Hose-Kit/productinfo/10642K/"
+     }
+    ],
+    "know": [
+     "RCrawler claims an aluminum radiator gave 'upwards of a 25-30 deg temp drop'; that's one owner's claim, not a test.",
+     "Broncojohn says pulling the inner fenderwells helps because the engine bay 'doesn't breath very well'."
+    ],
+    "mistakes": [
+     "Replacing parts based on a dash gauge nobody has checked.",
+     "Fitting a six-cylinder radiator to a V8."
+    ],
+    "cost_note": "No prices in the thread.",
+    "refs": [
+     {
+      "name": "Ford-Trucks forum: Overheating '76 Bronco",
+      "url": "https://www.ford-trucks.com/forums/267517-overheating-76-bronco.html"
+     }
+    ]
    }
   ],
   "baseline_service": {

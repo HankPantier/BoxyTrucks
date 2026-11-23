@@ -241,7 +241,7 @@
    "time": "≈ 1 hour plus an alignment",
    "cost": "Free to adjust",
    "symptoms": "A nose-down stance, or one front corner lower than the other. Like every Pajero up to 1999, the first generation has double-wishbone front suspension on torsion bars.",
-   "fix": "With the truck on level ground, measure the front ride height on both sides. Turn the torsion-bar adjusters evenly to raise the low side, settle the suspension and measure again. Clean and anti-seize the adjuster threads. Get an alignment afterwards. If the bars are badly sagged or you carry a heavy bar and winch, replace them rather than winding them up further.",
+   "fix": "With the truck on level ground, measure the front ride height on both sides. Turn the torsion-bar adjusters evenly to raise the low side, settle the suspension and measure again. Clean and anti-seize the adjuster threads. Get an alignment afterwards. If the bars are badly sagged or you carry a heavy bar and winch, replace them rather than winding them up further. On ExplorOz, Oldplodder (QLD) says the NA-to-NL Pajeros all use torsion bars, that the front sags with age, and that the adjustment is the bolt at the rear of each bar with the front jacked up and both sides kept equal. He doesn't expect much lift from it: 'might be able to squeeze 5 to 10mm more'. He also says to check that the upper and lower arms sit the same distance from their bump stops.",
    "tools": "Jack and stands · tape measure · socket and long extension · anti-seize.",
    "parts": [
     {
@@ -253,6 +253,20 @@
      "name": "Suspension parts, 1989 Montero 3.0 V6",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,3.0l+v6,1207628,suspension"
+    }
+   ],
+   "know": [
+    "Winding the bars up is a way to restore sagged height, not a lift; for more clearance Oldplodder suggests bigger tyres.",
+    "Kiwi Kia warns in the same thread that raising the front may reduce stability and wear tyres faster."
+   ],
+   "mistakes": [
+    "Winding until the arms sit on the droop stops, which leaves no downward travel.",
+    "Skipping the alignment afterwards."
+   ],
+   "refs": [
+    {
+     "name": "ExplorOz forum: Pajero front end lift 2\"",
+     "url": "https://www.exploroz.com/forum/71233/pajero-front-end-lift-2"
     }
    ]
   },
@@ -342,6 +356,120 @@
      "name": "Body parts and seals, 1989 Montero 2.6",
      "supplier": "RockAuto",
      "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,2.6l+l4,1207617,body+&+lamp+assembly"
+    }
+   ]
+  },
+  {
+   "title": "Timing and balance-shaft belts (2.5 4D56 turbo-diesel)",
+   "diff": "4 / 5",
+   "time": "≈ 1 day (estimate)",
+   "cost": "Belt kit, balancer belt and tensioner",
+   "symptoms": "No symptoms until it fails, which is the problem. JDM Buy Sell notes the 4D56 is a timing-belt engine and gives no interval, so ask for the truck's own record; with no receipt, assume it's due.",
+   "fix": "Lock the engine on its timing marks, remove the accessory drive, crank pulley and covers, and replace the camshaft belt and the separate balancer-shaft belt together. Gates recommends replacing the balancer-shaft belt every time you replace the camshaft belt, because debris from a failed balancer belt can get into the camshaft drive. Gates also recommends a new hydraulic tensioner with every belt change, even if the old one seems to work. Fit the pulleys and belt, pull the tensioner's locking pin, turn the crank two full turns and check that the tensioner rod sticks out within the 2.3–7.6 mm range Gates gives. Gates puts the tension-roller lever pivot bolt at 42–56 N·m: too loose and the bolt can fatigue and break, too tight and the washer can deform and jam the lever. Use the interval in your engine's service manual; Gates says the manufacturer's interval applies.",
+   "tools": "Crank-pulley holder · timing-mark paint pen · torque wrench · the factory or workshop manual for your engine",
+   "parts": [
+    {
+     "name": "Timing belt kits, 1989 Pajero (NZ catalogue, filter by 4D56)",
+     "supplier": "Repco NZ",
+     "url": "https://www.repco.co.nz/parts-finder/1989-mitsubishi-pajero/timing-belt-kit"
+    },
+    {
+     "name": "Spares for Pajero I 2.5 TD (L049G/L149G)",
+     "supplier": "Autodoc",
+     "url": "https://www.autodoc.co.uk/spares/mitsubishi/pajero-shogun/pajero-i-l04-g-l14-g/33198-2-5-td-4wd-l049g-l149g"
+    }
+   ],
+   "know": [
+    "Gates' main warnings are the balancer belt, the hydraulic tensioner and the pivot-bolt torque; skipping any of them can cause early timing-drive failure and damage the valve gear.",
+    "JDM Buy Sell dates the 2.5 diesel from 1986 and the intercooled version from 1988, so check which engine you have before ordering parts."
+   ],
+   "mistakes": [
+    "Replacing only the camshaft belt and leaving an old balancer belt in place.",
+    "Reusing the hydraulic tensioner because it 'still works'."
+   ],
+   "cost_note": "No prices from these sources; get a quote or price a kit by engine code.",
+   "refs": [
+    {
+     "name": "Gates TechZone: Servicing the timing belt drive of a Mitsubishi 4D56 diesel engine",
+     "url": "https://www.gatestechzone.com/en/news/2019-11-mitsubishi-4d56"
+    },
+    {
+     "name": "JDM Buy Sell: Pajero L040 buyer's guide",
+     "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/"
+    }
+   ]
+  },
+  {
+   "title": "Front-end groan and wander: idler arm, sway-bar bushes and lower-arm bolts",
+   "diff": "2 / 5",
+   "time": "≈ 2–4 hours plus an alignment",
+   "cost": "Idler arm and bushes",
+   "symptoms": "Loose or vague steering, clunks over bumps, or a groan from the front end. Carsales names the idler-arm bushes and anti-sway-bar bushes as front-end wear spots and says loose lower control-arm bolts can cause a groaning noise.",
+   "fix": "With the truck on stands and the wheels straight, have a helper rock the steering wheel while you watch the idler arm, the pitman arm and the tie-rod ends for movement. Check the anti-sway-bar bushes and end links for cracks and play. Check the lower control-arm bolts for tightness before replacing anything; Carsales links loose bolts to the groan. Replace worn idler-arm and sway-bar bushes, tighten the arm bolts to the manual's figure with the truck on its wheels, and finish with an alignment. While you're there, inspect the pitman-arm ball joint and its boot (see our pitman-arm guide): Mitsubishi warns that a corroded, worn joint can break.",
+   "tools": "Jack and stands · pry bar · breaker bar and torque wrench · ball-joint separator",
+   "parts": [
+    {
+     "name": "Steering parts (idler arm, tie-rod ends), 1989 Montero 2.6",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,2.6l+l4,1207617,steering"
+    },
+    {
+     "name": "Suspension parts (sway-bar bushes, control-arm bushes), 1989 Montero 2.6",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,2.6l+l4,1207617,suspension"
+    }
+   ],
+   "know": [
+    "Carsales' list covers Pajeros from the 1987 ND on, which are first-generation trucks in Australia.",
+    "JDM Buy Sell says Mitsubishi recommends new steering ball-joint dust covers every five years, and a cracked cover means a new joint."
+   ],
+   "mistakes": [
+    "Throwing parts at a groan before checking the lower-arm bolts.",
+    "Tightening rubber-bushed bolts with the wheels hanging, which preloads the bushes."
+   ],
+   "cost_note": "Parts are cheap; the alignment is the main cost.",
+   "refs": [
+    {
+     "name": "Carsales: Buying a used Mitsubishi Pajero 1987–2010",
+     "url": "https://www.carsales.com.au/editorial/details/buying-a-used-mitsubishi-pajero-1987-2010-22865"
+    },
+    {
+     "name": "JDM Buy Sell: Pajero L040 buyer's guide",
+     "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/"
+    }
+   ]
+  },
+  {
+   "title": "Rear trailing-arm bolts and bushes (coil-spring rear, 1988 on)",
+   "diff": "3 / 5",
+   "time": "≈ 3–5 hours (estimate)",
+   "cost": "Bush kit and bolts",
+   "symptoms": "Clunks or a rear end that steers itself over bumps. Carsales says the coil-spring rear can suffer from loose trailing-arm bolts and bushes, and that off-road use often wears trailing-arm bushes on live-axle Pajeros.",
+   "fix": "First confirm which rear you have: JDM Buy Sell says the rear used leaf springs until the 1988 update, then three-link coils. On a coil truck, support the axle, check every trailing-arm bolt for tightness, then lever each arm to look for torn or displaced rubber. Replace bushes in pairs, one arm at a time so the axle stays located, and torque the bolts to the manual's figure with the truck at ride height.",
+   "tools": "Jack and stands · axle support · bush press or a large vice with sockets · torque wrench",
+   "parts": [
+    {
+     "name": "Suspension parts, 1989 Montero 2.6",
+     "supplier": "RockAuto",
+     "url": "https://www.rockauto.com/en/catalog/mitsubishi,1989,montero,2.6l+l4,1207617,suspension"
+    }
+   ],
+   "know": [
+    "Some grades had a three-link rear while others kept leaves, so JDM Buy Sell advises checking that the parts match the car."
+   ],
+   "mistakes": [
+    "Pulling both arms at once and losing the axle's position.",
+    "Torquing bush bolts with the axle hanging."
+   ],
+   "cost_note": "No prices in these sources.",
+   "refs": [
+    {
+     "name": "Carsales: Buying a used Mitsubishi Pajero 1987–2010",
+     "url": "https://www.carsales.com.au/editorial/details/buying-a-used-mitsubishi-pajero-1987-2010-22865"
+    },
+    {
+     "name": "JDM Buy Sell: Pajero L040 buyer's guide",
+     "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/"
     }
    ]
   }

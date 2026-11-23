@@ -263,6 +263,21 @@
       "supplier": "Megazip",
       "url": "https://www.megazip.net/parts/mitsubishi/delica_star_wagon/params/delica_star_wagon-gen_2"
      }
+    ],
+    "know": [
+     "Gates recommends a new balancer-shaft belt every time the camshaft belt is replaced, because a failed balancer belt can throw debris into the camshaft drive, and a new hydraulic tensioner each time too.",
+     "Gates gives the tension-roller lever pivot bolt as 42–56 N·m and says to check, after two crank turns, that the tensioner rod sticks out 2.3–7.6 mm.",
+     "On Delica.ca, Growlerbearnz says the belt 'should be changed every 90,000km'."
+    ],
+    "refs": [
+     {
+      "name": "Gates TechZone: Servicing the timing belt drive of a Mitsubishi 4D56 diesel engine",
+      "url": "https://www.gatestechzone.com/en/news/2019-11-mitsubishi-4d56"
+     },
+     {
+      "name": "Delica.ca forum: What to look for on an L300",
+      "url": "https://delica.ca/forum/viewtopic.php?p=135850"
+     }
     ]
    },
    {
@@ -435,6 +450,46 @@
       "name": "Front differential cover gasket MB160579",
       "supplier": "Megazip",
       "url": "https://www.megazip.net/search?q=MB160579"
+     }
+    ]
+   },
+   {
+    "title": "Rust: where L300s rot and when to walk away",
+    "diff": "4 / 5",
+    "time": "Inspection 1 hour; repair weeks",
+    "cost": "From a wire brush to a body shop",
+    "symptoms": "Bubbles in the paint, fresh paint in odd places, damp carpet, or rust on the wheel arches. JDM Buy Sell quotes an owner saying all Delicas rust and that it can be 'terminal or very expensive to deal with'.",
+    "fix": "Inspect from underneath and inside. Delica.ca members name the places to look: the windscreen pillars and roof gutter (Growlerbearnz says these often go first), the front floor pans under damp carpet, the chassis around the front suspension and bumper where black underbody paint can hide rust, the pinch-welded seams along the bottom sides, and the box sections behind the front door steps, under the side-door step and at the rear corners (Erich). Erich warns that any exterior bubble usually means something much bigger underneath. Fix footwell leaks first (see our leak guide), cut out and weld in new steel on anything structural, then seal and undercoat.",
+    "tools": "Flashlight and pick · screwdriver for probing · welder and grinder (or a body shop) · cavity wax",
+    "parts": [
+     {
+      "name": "Body panels and seals by frame number (Delica Star Wagon catalogue)",
+      "supplier": "Megazip",
+      "url": "https://www.megazip.net/parts/mitsubishi/delica_star_wagon/params/delica_star_wagon-gen_2"
+     }
+    ],
+    "know": [
+     "Erich says Delica panels are thin and rust quickly, and advises buying a rust-free van with mechanical problems rather than a rusty one, since mechanical fixes are easier and cheaper.",
+     "Growlerbearnz says wheel arches do rust but are 'usually one of the last things to go', so rusty arches suggest more elsewhere.",
+     "nvanadm says rust-free L300s are out there."
+    ],
+    "mistakes": [
+     "Trusting fresh paint on the lower body.",
+     "Buying on the condition of the interior when the floors haven't been checked."
+    ],
+    "cost_note": "No repair prices in these sources.",
+    "refs": [
+     {
+      "name": "Delica.ca forum: How much rust is too much?",
+      "url": "https://www.delica.ca/forum/viewtopic.php?p=126176"
+     },
+     {
+      "name": "Delica.ca forum: What to look for on an L300",
+      "url": "https://delica.ca/forum/viewtopic.php?p=135850"
+     },
+     {
+      "name": "JDM Buy Sell: Delica Star Wagon buyer's guide",
+      "url": "https://www.jdmbuysell.com/learn/mitsubishi/delica/star-wagon/"
      }
     ]
    }

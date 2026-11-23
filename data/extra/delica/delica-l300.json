@@ -443,5 +443,82 @@
    "name": "BC Overland Rally",
    "url": "https://bcoverlandrally.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Delica Star Wagon (L300 4WD, 1986–1999) maintenance: no factory schedule online, so a purchase baseline plus Liqui Moly's oil interval, Gates on the timing drive and Delica.ca owners' intervals.",
+  "intro": "We couldn't find Mitsubishi's factory schedule for the Star Wagon online. This page is a purchase baseline plus intervals from named sources: Liqui Moly's lookup for oil, Gates on the 4D56 timing drive, and long-time Delica.ca owners. Treat any imported van as unserviced until you see receipts.",
+  "schedule_note": "No factory schedule online; baseline plus attributed intervals.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Timing belt, balancer belt, hydraulic tensioner and water pump unless there's a receipt",
+     "Engine oil and filter, fuel filter, air filter",
+     "Coolant (it should be clean and brightly coloured; Growlerbearnz says avoid grey, rusty or sludgy coolant)",
+     "Gearbox, transfer case, both differentials and automatic fluid",
+     "Brake and clutch fluid",
+     "Glow plugs if starting is slow",
+     "A full rust inspection from underneath"
+    ]
+   },
+   {
+    "at": "Every 4,000–5,000 km (≈3,000 mi)",
+    "items": [
+     "Engine oil (Liqui Moly's normal interval is 5,000 km or 6 months; one Delica.ca owner changes his every 4,000–5,000 km)"
+    ]
+   },
+   {
+    "at": "About every 2 years",
+    "items": [
+     "Brake fluid, sooner if it's dark (Shaun Van Ramen on Delica.ca)"
+    ]
+   },
+   {
+    "at": "Every 90,000 km",
+    "items": [
+     "Timing belt, with the balancer belt and tensioner (Growlerbearnz on Delica.ca; Gates says always do the balancer belt and tensioner with it)"
+    ]
+   }
+  ],
+  "severe": "No factory severe-service figures are online. Check the front-end and subframe nuts at every oil change; loose ones cause the classic L300 clunk.",
+  "age_items": [
+   {
+    "item": "Timing drive",
+    "when": "No receipt: now",
+    "why": "Gates says a failed balancer belt can take out the camshaft drive, and timing-drive failure can damage the valve gear."
+   },
+   {
+    "item": "Body and chassis rust",
+    "when": "Every year, and before buying",
+    "why": "Delica.ca owners describe vans with 'terminal rot' hidden under fresh paint."
+   },
+   {
+    "item": "Sliding-window seals",
+    "when": "When they lift at the corners",
+    "why": "Growlerbearnz says they all do eventually, and Mitsubishi sells replacements."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Gates TechZone: Servicing the timing belt drive of a Mitsubishi 4D56 diesel engine",
+    "url": "https://www.gatestechzone.com/en/news/2019-11-mitsubishi-4d56"
+   },
+   {
+    "name": "Delica.ca forum: What to look for on an L300",
+    "url": "https://delica.ca/forum/viewtopic.php?p=135850"
+   },
+   {
+    "name": "Delica.ca forum: L300 4D56 maintenance intervals",
+    "url": "https://delica.ca/forum/viewtopic.php?p=103664"
+   },
+   {
+    "name": "Delica.ca forum: How much rust is too much?",
+    "url": "https://www.delica.ca/forum/viewtopic.php?p=126176"
+   },
+   {
+    "name": "JDM Buy Sell: Delica Star Wagon buyer's guide",
+    "url": "https://www.jdmbuysell.com/learn/mitsubishi/delica/star-wagon/"
+   }
+  ]
+ }
 }

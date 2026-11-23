@@ -302,5 +302,78 @@
    "name": "NHTSA — recalls by vehicle (Montero 1983–2000, Dodge Raider 1987–1989)",
    "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=MITSUBISHI&model=MONTERO&modelYear=1995"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "First-generation Pajero/Montero (1982–1991) maintenance: Mitsubishi's European intervals via Liqui Moly, Gates on the 4D56 timing drive, and a purchase baseline.",
+  "intro": "We couldn't find Mitsubishi's full factory schedule for the first-generation Pajero online. The oil and brake-fluid intervals below are Mitsubishi's European figures as published in Liqui Moly's lookup; the US Montero manual may differ, so check yours. Everything else is a purchase baseline for a truck that is now 35–44 years old.",
+  "schedule_note": "Mitsubishi's European oil and brake-fluid intervals (Liqui Moly lookup); everything else is a baseline.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, air and fuel filters, ignition parts on petrol engines",
+     "4D56 diesel: timing belt, balancer belt and hydraulic tensioner if there's no receipt",
+     "2.6 4G54: listen for timing and balance-shaft chain rattle; Carsales says the four-cylinders need their balance-shaft chain adjusted",
+     "Coolant, hoses and thermostat",
+     "Gearbox, transfer case and both differentials",
+     "Brake fluid; front hubs and wheel bearings",
+     "Steering: pitman-arm ball joint and boot, idler arm, tie-rod ends"
+    ]
+   },
+   {
+    "at": "Every 10,000 km (≈6,000 mi) or 6 months",
+    "items": [
+     "Engine oil and filter (5,000 km in severe use)"
+    ]
+   },
+   {
+    "at": "Every 2 years or 30,000 km",
+    "items": [
+     "Brake fluid"
+    ]
+   },
+   {
+    "at": "Every 5 years",
+    "items": [
+     "Steering ball-joint dust covers (Mitsubishi, via JDM Buy Sell)"
+    ]
+   }
+  ],
+  "severe": "Liqui Moly's lookup halves the oil interval to 5,000 km (≈3,000 mi) for severe use. Carsales warns that pre-1998 Pajeros converted to LPG are prone to valve-seat recession and valve failure, so treat an LPG truck's top end as suspect.",
+  "age_items": [
+   {
+    "item": "4D56 timing and balancer belts",
+    "when": "Per your engine's manual; now if there's no record",
+    "why": "Gates says a failed balancer belt can take out the timing drive and that the drive's failure can damage the valve gear."
+   },
+   {
+    "item": "Pitman-arm ball joint",
+    "when": "Inspect at every service; boot every 5 years",
+    "why": "Mitsubishi warns that corrosion and wear can break the joint, and steering is then lost (JDM Buy Sell)."
+   },
+   {
+    "item": "Front and rear bushes",
+    "when": "At purchase and after hard off-road use",
+    "why": "Carsales lists idler-arm, sway-bar and trailing-arm bushes and loose lower-arm bolts as wear points."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Liqui Moly oil lookup (Mitsubishi European data)",
+    "url": "https://openapi.liqui-moly.com/api/v2/oww/recommendation/101/DEU/ENG/1/f785ddd8d275c7b6/"
+   },
+   {
+    "name": "Gates TechZone: Servicing the timing belt drive of a Mitsubishi 4D56 diesel engine",
+    "url": "https://www.gatestechzone.com/en/news/2019-11-mitsubishi-4d56"
+   },
+   {
+    "name": "JDM Buy Sell: Pajero L040 buyer's guide",
+    "url": "https://www.jdmbuysell.com/learn/mitsubishi/pajero/l040/"
+   },
+   {
+    "name": "Carsales: Buying a used Mitsubishi Pajero 1987–2010",
+    "url": "https://www.carsales.com.au/editorial/details/buying-a-used-mitsubishi-pajero-1987-2010-22865"
+   }
+  ]
+ }
 }

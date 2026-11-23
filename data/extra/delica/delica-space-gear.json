@@ -337,5 +337,64 @@
    "name": "Megazip — Delica Space Gear genuine parts catalogue",
    "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Delica Space Gear (L400, 1994–2007) maintenance: no factory schedule online, so a purchase baseline plus Delica.ca owners' intervals for the 4M40.",
+  "intro": "We couldn't find Mitsubishi's factory maintenance schedule for the Space Gear online (Mitsubishi put a maintenance label on the air-intake duct under the hood, so check yours). This page is a purchase baseline, with replacement intervals and warnings from long-time Delica.ca owners. Work out whether you have the 4M40 diesel or the 6G72 V6 first.",
+  "schedule_note": "No factory schedule online; baseline plus attributed owner intervals.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, air and fuel filters",
+     "Coolant, plus the expansion bottle, water pump, thermostat, hoses and belts if there are no records",
+     "Glow plugs and their wiring and bus bar on the 4M40 (jessef says the wiring is prone to corrosion)",
+     "V6: timing belt if there's no receipt",
+     "4M40: listen to the timing chain with the valve cover off",
+     "Automatic (drain and fill twice), Super Select transfer case and both differentials",
+     "Power steering and brake fluid",
+     "Both batteries on cold-climate diesels",
+     "Frame rust check around the front subframe"
+    ]
+   },
+   {
+    "at": "Around 300,000 km (jessef's estimate; range 200,000–400,000 km)",
+    "items": [
+     "4M40 timing chain, guides and tensioner"
+    ]
+   }
+  ],
+  "severe": "No factory severe-service figures are online. Salted roads are the main threat: a Delica.ca member traced frame rot to battery acid, A/C leaks and unrinsed salt, and recommends coating the chassis.",
+  "age_items": [
+   {
+    "item": "Coolant expansion bottle",
+    "when": "When brittle, or at purchase",
+    "why": "jessef says UV cracks it and a failure can cause total coolant loss."
+   },
+   {
+    "item": "Injection pump main seal (4M40)",
+    "when": "At hard starting, white smoke or stalling",
+    "why": "jessef rates it a 4–6 hour job best left to a mechanic, because wrong timing leaves the engine running badly."
+   },
+   {
+    "item": "Timing chain and guides (4M40)",
+    "when": "When it chuffs or rattles",
+    "why": "A Delica.ca owner's stretched chain and worn guide let the timing drift until the valves hit the pistons."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Delica.ca forum: New to L400s? What to look for and/or replace on the 4M40",
+    "url": "https://www.delica.ca/forum/viewtopic.php?p=61297"
+   },
+   {
+    "name": "Delica.ca forum: 4M40 timing chain nightmare",
+    "url": "https://delica.ca/forum/viewtopic.php?p=141605"
+   },
+   {
+    "name": "Delica.ca forum: L400 rust common areas and how to repair it",
+    "url": "https://www.delica.ca/forum/viewtopic.php?p=77421"
+   }
+  ]
+ }
 }

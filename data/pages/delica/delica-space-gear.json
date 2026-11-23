@@ -355,6 +355,101 @@
      "supplier": "Eastwood"
     }
    ]
+  },
+  {
+   "title": "4M40 timing chain, guide and tensioner",
+   "diff": "5 / 5",
+   "time": "1–2 days (estimate)",
+   "cost": "Chain, guides and tensioner",
+   "symptoms": "A chuffing or rattling chain, or a new noise after other engine work. On Delica.ca, Woik's '95 L400 bent a valve after its timing drifted.",
+   "fix": "Check the chain whenever the valve cover is off; jessef's Delica.ca checklist says a chuffing or loose chain risks breakage and 'engine catastrophe'. If it's worn, replace the chain, the guides and the tensioner together. In Woik's case the shop found the chain stretched about 1/2 inch against a new one and the guide's nylon insert worn through on the back, where the tensioner plunger presses; together they pushed the plunger to full travel so it couldn't hold tension. The same shop warned that the sprockets have a rubber insert that can break down and let the sprocket slip against its marks, so don't rely on the marks alone; check timing with the workshop manual's method.",
+   "tools": "Workshop manual for the 4M40 · crank holder · torque wrench · compression gauge to check afterwards",
+   "parts": [
+    {
+     "name": "Timing chain, guides and tensioner for the 4M40",
+     "supplier": "Megazip (genuine Mitsubishi catalogue, search by frame number)",
+     "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear"
+    }
+   ],
+   "know": [
+    "jessef puts replacement at '2-400,000 km's', about 300,000 km on average, and rates it five stars for difficulty with $120–180 in parts (his figures, from an older post).",
+    "A bent valve means head work: Woik's van needed the head replaced twice before the timing parts were all renewed."
+   ],
+   "mistakes": [
+    "Replacing the chain but reusing worn guides or the tensioner.",
+    "Trusting the sprocket marks without checking timing another way."
+   ],
+   "cost_note": "Owner parts figures from Delica.ca; labour not given.",
+   "refs": [
+    {
+     "name": "Delica.ca forum: New to L400s? What to look for and/or replace on the 4M40",
+     "url": "https://www.delica.ca/forum/viewtopic.php?p=61297"
+    },
+    {
+     "name": "Delica.ca forum: 4M40 timing chain nightmare",
+     "url": "https://delica.ca/forum/viewtopic.php?p=141605"
+    }
+   ]
+  },
+  {
+   "title": "Cooling on the 4M40: expansion bottle, water pump and thermostat",
+   "diff": "3 / 5",
+   "time": "≈ 3–6 hours (estimate)",
+   "cost": "Bottle, pump, thermostat and hoses",
+   "symptoms": "Coolant loss, a crusty or cracked overflow bottle, or rising temperature. Cooling-system health matters on a 4M40 because overheating cracks heads.",
+   "fix": "Inspect the plastic expansion bottle closely: jessef says it cracks from UV exposure and a failure can dump all the coolant. Replace it if it's brittle. If the water pump is weeping or the van has no records, do the pump and thermostat together, drain and refill the coolant, and fit new radiator hoses and drive belts at the same time, as jessef suggests. If the intercooler has to come off, Delicashop.com warns the radiator's top-tank inlet often gets broken, so work carefully.",
+   "tools": "Drain pan · basic hand tools · cooling-system pressure tester · funnel for bleeding",
+   "parts": [
+    {
+     "name": "Expansion tank, water pump, thermostat and hoses for the 4M40",
+     "supplier": "Megazip (genuine Mitsubishi catalogue, search by frame number)",
+     "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear"
+    }
+   ],
+   "know": [
+    "jessef prices the expansion bottle at $130–150 and the pump-and-thermostat job at $90–200 in parts; Delicashop.com says an OEM bottle should cost no more than about $100 CA. These are older figures.",
+    "Cracked heads on the 4M40 usually follow overheating, so fix cooling faults before they become head work."
+   ],
+   "mistakes": [
+    "Ignoring a weeping bottle until it fails on a highway.",
+    "Doing the pump without new belts and hoses when they're already off."
+   ],
+   "cost_note": "Owner prices from Delica.ca, likely dated.",
+   "refs": [
+    {
+     "name": "Delica.ca forum: New to L400s? What to look for and/or replace on the 4M40",
+     "url": "https://www.delica.ca/forum/viewtopic.php?p=61297"
+    }
+   ]
+  },
+  {
+   "title": "Sliding door won't close or latch",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour",
+   "cost": "Usually free: cleaning and adjustment",
+   "symptoms": "The side door bounces back open, won't latch, or the self-closing catch doesn't pull it shut, often on cold days.",
+   "fix": "Work through the causes Delica.ca owners found on L400s. Clean the electrical contacts on the B-pillar that operate the self-closing catch with steel wool or a Scotch-Brite pad (Big-Bird). Test the catch with a screwdriver: it should close around the tip; if it's gritty, clean it with brake cleaner, lubricate with lithium grease spray and cycle it. Check the spring-loaded contact on the door itself; glenn found his seized, freed it by wiggling and greased it. If the door sits low, del400 fixed his by raising the bottom of the door slightly and adjusting the bolt it rests on, about halfway down the frame. On cold days madmazda says working the inner handle back and forth a few times usually frees it.",
+   "tools": "Screwdriver · brake cleaner · lithium grease spray · Scotch-Brite · socket set for adjustment",
+   "parts": [
+    {
+     "name": "Sliding-door latch, rollers and closer parts",
+     "supplier": "Megazip (genuine Mitsubishi catalogue, search by frame number)",
+     "url": "https://www.megazip.net/parts/mitsubishi/delica_space_gear"
+    }
+   ],
+   "know": [
+    "The original poster's van was a 1994 L400 LWB; other posters mention L400s and Space Gears."
+   ],
+   "mistakes": [
+    "Forcing the door on a frozen morning; Big-Bird suggests thawing it in a warm garage instead."
+   ],
+   "cost_note": "Usually no parts needed.",
+   "refs": [
+    {
+     "name": "Delica.ca forum: Sliding door won't close",
+     "url": "https://delica.ca/forum/viewtopic.php?p=111097"
+    }
+   ]
   }
  ],
  "baseline_service": {
