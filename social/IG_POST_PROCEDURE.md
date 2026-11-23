@@ -1,3 +1,5 @@
+> **Nov 23, 2026: TikTok is back on (Hank). Post every video to TikTok too; see TIKTOK_PROCEDURE.md.**
+
 # Daily Instagram post (@boxytrucks)
 
 Hank pre-approved the queued drafts (one post a day). The mix and the rules are in `STRATEGY.md`.

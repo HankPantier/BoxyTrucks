@@ -1,5 +1,7 @@
 # TikTok (@boxytrucks), on every Reel day
 
+**Nov 23, 2026 (Hank): "yes daily postings should include tiktok". TikTok is back ON.** This overrides every "TikTok paused / tt_status skipped" line in older scheduled-task prompts, STRATEGY.md and the other procedures: every Reel, tire Short, years Short, hook Short and Field Notes video goes to TikTok the same day, using the steps below. Keep it to the day's 1–3 videos (uploads silently drop after a burst of ~18).
+
 Hank's rule (Nov 2, 2026): every day we post anywhere else, we also post to Pinterest, YouTube and TikTok. TikTok is video-only, so it gets each Reel on its Instagram date. On single and carousel days, post the next Reel that isn't on TikTok yet; once all are up, skip the day.
 
 1. Open https://www.tiktok.com/profile and confirm the URL is **@boxytrucks**. If it's anything else, stop and tell Hank. Never switch accounts.

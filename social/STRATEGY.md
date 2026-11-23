@@ -1,3 +1,5 @@
+> **Nov 23, 2026: TikTok is back on (Hank). Post every video to TikTok too; see TIKTOK_PROCEDURE.md.**
+
 # BoxyTrucks social strategy (Instagram + X)
 
 Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop making them the only format. The goal is followers who come to the site, so every post earns a save, a share or a click.

@@ -1,3 +1,5 @@
+> **Nov 23, 2026: TikTok is back on (Hank). Post every video to TikTok too; see TIKTOK_PROCEDURE.md.**
+
 # YouTube Shorts (Boxy Trucks channel), on every posting day
 
 Hank's rule (Nov 2, 2026): **every day we post anywhere else, we also post to Pinterest and YouTube.**
