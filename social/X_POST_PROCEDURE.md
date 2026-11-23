@@ -8,6 +8,9 @@
 3. Reply to it right away with the links, one per line, most-viewed first, each the item's own page tagged `?utm_source=x&utm_medium=social&utm_campaign=roundup`. If they don't fit in one reply, chain a second reply.
 4. Log it in social/X.md (round-up row with both URLs) and in social/x-roundups.json, commit and push. Tell Hank only on failure.
 
+### Extra for the Nov 27, 2026 round-up (Hank, Nov 23)
+Add a "Worth watching" line for Speeed's "Are Old Trucks More Fun?" (youtube.com/watch?v=Hurf_yhss1U, posted Nov 20, 2026): a 1974 FJ40, a 1991 FJ80 and a 200 Series on a three-day Sierra Nevada trip, each camping in its own era's style. Toyota-sponsored. Credit Speeed. In the link reply, give the video link (no utm) plus our guides: /models/land-cruiser/fj40/, /models/land-cruiser/80-series/ and /models/land-cruiser/200-series/ (each with ?utm_source=x&utm_medium=social&utm_campaign=roundup). It doesn't count toward the 3–4 picks. Delete this block after posting.
+
 ## Older notes (still apply to the round-up)
 
 Hank approved this on Oct 30, 2026: post on X daily, like Instagram. Use the same message as that day's Instagram post, reworded slightly for X (≤280 characters), and link to the matching page on the site.
