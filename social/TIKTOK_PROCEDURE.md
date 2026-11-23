@@ -19,3 +19,9 @@ promotional posts. Rules from now on:
 - Keep codes and "% off" out of TikTok posts. Make the post useful first (a buying check, a fit, a fix) and mention a deal only in a comment.
 - If a post promotes a brand or a code, turn on **Content disclosure** (More options → "Disclose post content" → Your brand / Branded content) before posting, as TikTok's rules require.
 - The Eurowise post stays up (deleting is Hank's call).
+
+## Nov 23, 2026: TikTok resumed (Hank: "keep posting them")
+- Backlog upload from TikTok Studio worked again: 20 of the paused videos posted in ~25 minutes. New posts show "Content under review / Only me" and flip to Everyone on their own within a few minutes.
+- After about 18 uploads in a row, uploads started silently dropping again (Post clicked, nothing in Posts). It looks like a rate limit: space uploads out, at most ~5 per session.
+- Held (parked/show shots, not off-road): Lexus GX 470 tires, K5 Blazer tires, L322 timing guides. Bronco II years (for-sale lot shot) posted by accident; Hank to decide whether to keep it.
+- Remaining backlog: FJ Cruiser checks, Hummer H1 tires, G 500 three lockers, Pajero gen3 tires, Riverhouse 110, Delica L300 tires, LR3 2005 complaints, 100 Series checks, Pinzgauer tires, Jeep JK checks, Unimog 404 tires.

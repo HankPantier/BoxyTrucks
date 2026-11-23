@@ -129,13 +129,15 @@
   "posted": "2026-11-09",
   "yt_url": "https://youtube.com/shorts/1IFbazEzEzg",
   "yt_comment": "posted, pinned",
-  "tt_status": "failed: two uploads never appeared in TikTok Studio",
+  "tt_status": "posted",
   "ig_status": "posted",
   "ig_url": "https://www.instagram.com/boxytrucks/reel/Dfi9XEFuT9P/",
   "x_status": "posted",
   "x_url": "https://x.com/boxytrucks/status/2119998353094123718",
   "pin_status": "posted",
-  "pin_url": "https://www.pinterest.com/pin/1128292512945891638/"
+  "pin_url": "https://www.pinterest.com/pin/1128292512945891638/",
+  "tt_posted": "2026-11-23",
+  "tt_url": "https://www.tiktok.com/@boxytrucks/video/7711439242244689182"
  },
  {
   "id": "tires-g-class-g500",
@@ -233,7 +235,7 @@
   "x_status": "posted",
   "pin_url": "https://www.pinterest.com/pin/1128292512946038445/",
   "pin_status": "posted",
-  "tt_status": "failed: upload accepted, Post clicked, never appeared in TikTok Studio (5th silent drop)"
+  "tt_status": "held Nov 23: parked-on-street shots"
  },
  {
   "id": "tires-range-rover-classic",
@@ -269,7 +271,9 @@
   "x_status": "posted",
   "pin_url": "https://www.pinterest.com/pin/1128292512946118902/",
   "pin_status": "posted",
-  "tt_status": "skipped (TikTok paused until Hank checks the app)"
+  "tt_status": "posted",
+  "tt_posted": "2026-11-23",
+  "tt_url": "https://www.tiktok.com/@boxytrucks/video/7711443298795244830"
  },
  {
   "id": "tires-grenadier-station-wagon",
@@ -294,7 +298,7 @@
   "pin_link": "https://boxytrucks.com/models/grenadier/station-wagon/tires/?utm_source=pinterest&utm_medium=social",
   "status": "posted",
   "posted": "2026-11-13",
-  "tt_status": "skipped (TikTok paused until Hank checks the app)",
+  "tt_status": "posted",
   "yt_status": "posted",
   "yt_url": "https://youtube.com/shorts/dMEkGSVXT04",
   "yt_comment": "Grenadier Station Wagon tire facts, from the Boxy Trucks size guide:\n\n• Stock: LT265/70R17 or LT255/70R18. Bolt pattern 6x130, +55 mm offset, 84.1 mm center bore, M14x1.5 lugs.\n• Biggest with no lift: 285/75R17 (about 34 in). It's the INEOS Forum sweet spot, but it will probably need washers under the spare carrier to clear the small rear door. 285/70R17 fits without fuss, and DVA Mechanics lists 295/70R17 as stock or 40 mm lift.\n• 35s (315/70R17): plan on at least 2 in of lift (DVA), an aftermarket or offset spare carrier, and a spare that matches your road tyres, because the Grenadier runs a permanent 4WD centre diff.\n\nEvery size with fitment notes and wheel specs: https://boxytrucks.com/models/grenadier/station-wagon/tires/?utm_source=youtube&utm_medium=comment",
@@ -305,7 +309,9 @@
   "x_url": "https://x.com/boxytrucks/status/2121386598893842682",
   "x_reply_url": "https://x.com/boxytrucks/status/2121386715281834410",
   "pin_status": "posted",
-  "pin_url": "https://www.pinterest.com/pin/1128292512946184047/"
+  "pin_url": "https://www.pinterest.com/pin/1128292512946184047/",
+  "tt_posted": "2026-11-23",
+  "tt_url": "https://www.tiktok.com/@boxytrucks/video/7711444104890158367"
  },
  {
   "id": "tires-nissan-patrol-patrol-60",
@@ -341,8 +347,10 @@
   "x_reply_url": "https://x.com/boxytrucks/status/2121747277291376820",
   "pin_status": "posted",
   "pin_url": "https://www.pinterest.com/pin/1128292512946266815/",
-  "tt_status": "skipped (TikTok paused until Hank checks the app)",
-  "note": "Re-rendered Nov 14: front plates blurred in all three patrol60-* source photos first."
+  "tt_status": "posted",
+  "note": "Re-rendered Nov 14: front plates blurred in all three patrol60-* source photos first.",
+  "tt_posted": "2026-11-23",
+  "tt_url": "https://www.tiktok.com/@boxytrucks/video/7711445199871823134"
  },
  {
   "id": "tires-scout-scout-ii",
@@ -376,7 +384,9 @@
   "pin_status": "posted",
   "pin_url": "https://www.pinterest.com/pin/1128292512946355240/",
   "x_status": "roundup",
-  "tt_status": "skipped"
+  "tt_status": "posted",
+  "tt_posted": "2026-11-23",
+  "tt_url": "https://www.tiktok.com/@boxytrucks/video/7711446041677155614"
  },
  {
   "id": "tires-chevrolet-k5-blazer-1st",
@@ -410,7 +420,7 @@
   "pin_status": "posted",
   "pin_url": "https://www.pinterest.com/pin/1128292512946434324/",
   "x_status": "roundup",
-  "tt_status": "skipped"
+  "tt_status": "held Nov 23: parked-lot shots"
  },
  {
   "id": "tires-suzuki-samurai",
@@ -440,7 +450,9 @@
   "ig_url": "https://www.instagram.com/boxytrucks/reel/Df3eyYpOjl4/",
   "pin_url": "https://www.pinterest.com/pin/1128292512946514852/",
   "x_status": "roundup",
-  "tt_status": "skipped"
+  "tt_status": "posted",
+  "tt_posted": "2026-11-23",
+  "tt_url": "https://www.tiktok.com/@boxytrucks/video/7711446940017380638"
  },
  {
   "id": "tires-hummer-h1",
