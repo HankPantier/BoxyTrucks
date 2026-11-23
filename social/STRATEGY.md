@@ -34,6 +34,14 @@ Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop mak
 - **Monthly variant:** "From Hank's garage" filmed on his phone (a walkaround or a job on the G500 or 4Runner); Claude edits.
 - **Why it matters:** clickable links, watch hours toward the Partner Program (4,000 hours; long-form counts, Shorts don't), and a home for the Shorts traffic.
 
+## Numbered series (Hank, Nov 23, 2026: "i do like the numbered series")
+Borrowed from @the_landcruisers_official ("FROM JAPAN #026"). Every recurring format gets a running number so posts read as a collection worth following.
+- Number in the hook line of the caption, the Pinterest/YouTube title and, from the next render on, a small "#NN" badge on the cover image or first frame: e.g. "Years to avoid #07: 100 Series", "Spec Sheet #04: FJ62", "Biggest tire #12: Jimny JB74", "From Hank's garage #01".
+- Count continues from what has already posted in that series (count the posted items in its queue file); never renumber or skip.
+- Keep the running count in the queue item as `series` and `series_no` so the next draft can read it.
+- One-offs (Field Notes, media kit, holiday posts) stay unnumbered.
+- The weekly planning run sets this up first (Nov 24) and adds the badge to the spec sheet, tire Short and years Short templates.
+
 ## Why the mix changes
 - Single-image reach on Instagram is falling: down about 22% year over year, with engagement down about 46% (Metricool 2026 study).
 - Carousels get about 9x more saves than single images.
