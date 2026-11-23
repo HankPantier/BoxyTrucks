@@ -430,5 +430,229 @@
   "value": 1,
   "period": "Nov 9–15",
   "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "search_clicks",
+  "label": "Search clicks",
+  "value": 81,
+  "period": "Nov 15–21",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "search_impressions",
+  "label": "Search impressions",
+  "value": 6450,
+  "period": "Nov 15–21 (shown as 6.45K)",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "search_position",
+  "label": "Average search position",
+  "value": 11.3,
+  "period": "Nov 15–21",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "pages_indexed",
+  "label": "Pages indexed",
+  "value": 1330,
+  "period": "as of Nov 23 (shown as 1.33K)",
+  "source": "Search Console"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "page_views",
+  "label": "Page views",
+  "value": 536,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "users",
+  "label": "Users",
+  "value": 213,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_instagram",
+  "label": "Sessions from Instagram",
+  "value": 13,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_x",
+  "label": "Sessions from X",
+  "value": 0,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_pinterest",
+  "label": "Sessions from Pinterest",
+  "value": 0,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_youtube",
+  "label": "Sessions from YouTube",
+  "value": 2,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_tiktok",
+  "label": "Sessions from TikTok",
+  "value": 0,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_reddit",
+  "label": "Sessions from Reddit",
+  "value": 0,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_google",
+  "label": "Sessions from Google",
+  "value": 64,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "sessions_chatgpt",
+  "label": "Sessions from ChatGPT",
+  "value": 56,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks",
+  "label": "Affiliate clicks",
+  "value": 16,
+  "period": "Nov 16–22 (11 users)",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "newsletter_signups",
+  "label": "Newsletter signups",
+  "value": 1,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "deal_clicks",
+  "label": "Deal clicks",
+  "value": 0,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "deal_code_copies",
+  "label": "Deal code copies",
+  "value": 2,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "form_submits",
+  "label": "Form submits",
+  "value": 1,
+  "period": "Nov 16–22 (4 form_start)",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/jeep/cherokee-xj/years/",
+  "value": 4,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /repairs/land-rover/lr4/supercharger-off-cooling-refresh-and-isolator/",
+  "value": 3,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /deals/",
+  "value": 2,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /repairs/land-cruiser/fj60/replace-the-front-heater-core/",
+  "value": 2,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /tires/",
+  "value": 1,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/land-cruiser/fj45-fj55/",
+  "value": 1,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/land-rover/defender-90-110/tires/",
+  "value": 1,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/lexus/lx570/problems/",
+  "value": 1,
+  "period": "Nov 16–22",
+  "source": "GA4"
+ },
+ {
+  "week": "2026-11-23",
+  "metric": "affiliate_clicks_page",
+  "label": "Affiliate clicks: /models/lexus/gx460/tires/",
+  "value": 1,
+  "period": "Nov 16–22",
+  "source": "GA4"
  }
 ]

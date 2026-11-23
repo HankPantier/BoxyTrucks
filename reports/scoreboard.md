@@ -9,6 +9,7 @@ Weekly progress toward a viable side hustle (Hank, Nov 3, 2026), judged on views
 | Nov 2 (baseline) | 9 (Oct 22–31) | 375 | 14.9 | 73 | 611 (launch to Nov 2) | — | — | 23 | 1 | 0 | 0 | 0 | 1,411 |
 | Nov 9 | 50 (Nov 1–7) | 3,180 | 14.0 | 784 | 310 (Nov 2–8) | 176 | 11 | 43 | 1 | 0 | 1 | 1 | 5,651 |
 | Nov 16 | 94 (Nov 8–14) | 6,940 | 12.2 | ~1,310 | 342 (Nov 9–15) | 212 | 7 | 53 | 0 | 0 | 4 | 1 | 13,964 |
+| Nov 23 | 81 (Nov 15–21) | ~6,450 | 11.3 | ~1,330 | 536 (Nov 16–22) | 213 | 16 | 82 | 0 | 0 | 6 | 1 | 27,554 |
 
 ## Nov 9, 2026
 
@@ -67,3 +68,33 @@ Notes: ChatGPT referrals (67 sessions, 5 key events) now beat Google, so the AI-
 **Mix change for next week:** More Hank real-footage Reels/Shorts (target 3, up from 2; pillar fix, families g-class and 4runner) and one more reader rig; fewer static IG singles and stacks/spec sheets (move them to Pinterest only) and stop separate per-post X posts in favour of the daily roundup. Why: Hank videos average 714 views across platforms over 3 posts vs 405 for tire Shorts and 47 for IG singles (11 posts) / 58 for carousels (13 posts), and X is under 6 views a post across 42 posts.
 
 Notes: the internal-traffic filter still can't be confirmed as Active from here, so direct (81 sessions, 17% engaged) may still include Hank's own visits. ChatGPT referrals dipped (67 → 47) while Google rose (58 → 85). Pinterest monthly views jumped to 728 but still no followers and no sessions; per-pin numbers need a business account (Hank's call). X followers read 0 on the profile today (was 1).
+
+## Nov 23, 2026
+
+**Site (Search Console Nov 15–21; GA4 Nov 16–22)**
+- Search: **81 clicks** (was 94, −14%), **~6,450 impressions** (was 6,940, −7%), average position **11.3** (was 12.2, better), CTR 1.3%. Pages indexed: **~1,330** (shown as 1.33K; was 1,310). Not indexed: 83 (35 "Discovered – not indexed", 16 "Crawled – not indexed", whose validation shows Failed, 26 canonical alternates, 3 noindex, 3 redirects).
+- Top queries: boxy suvs 1 click / 22 impr., "brett berk", nissan patrol y61, best year of g wagon, used lexus lx, isuzu trooper 1981 (1 click each). Biggest impressions without a click: k5 truck 20.
+- GA4: **536 views** (was 342, +57%), **213 users** (was 212, flat), 236 sessions, 52% engaged. Most of the jump is one day: page_view spiked to 247 on Nov 20 (GA4 flagged it, US/Chrome), and /tires/ got 24 views from 3 users. That looks like one heavy visitor or Hank's own browsing, not new readers. Users are flat.
+- Sessions by source: direct 83, google 64 (was 85), **chatgpt.com 56** (was 47; 9 of the 18 key events), Instagram 13 (ig 12 + instagram.com 1; same as last week), Facebook 6, Perplexity 5, YouTube 2, DuckDuckGo 2, **X 0** (was 6), TikTok 0, Pinterest 0, Reddit 0.
+- Key events: **affiliate_click 16** (was 7; 11 users, was 3), **deal_code_copy 2** (first ever), **newsletter_signup 1** (first ever), deal_click 0, form_submit 1 (4 form_start), sponsor_click not present.
+- Affiliate clicks by page: Cherokee XJ years 4, LR4 supercharger-off cooling refresh 3, /deals/ 2, FJ60 front heater core 2, then 1 each for /tires/, FJ45/FJ55, Defender 90/110 tires, LX570 problems, GX460 tires. Placement: model/years pages 6, repair pages 5 (again a top earner), deals 2, tire pages 3, gift guide 0.
+
+**Followers:** Instagram **82 (+29)**, X 0 (0), Pinterest 0 (0; 1.6K monthly views, was 728), YouTube 6 (+2), TikTok 1 (0).
+
+**Views by platform (cumulative, all tracked posts):** Instagram **13,640** (was 4,553), YouTube 12,194 (was 7,899), TikTok 1,298 (was 1,274; still paused), X 422 (was 238; 73 of that is the pinned intro post, tracked for the first time). Total **27,554** (was 13,964). 42 new rows: 24 Instagram posts, 15 YouTube Shorts, 3 X posts.
+
+**Top 3 by views (single platform):** **Reader rig Riverhouse Defender 110 Reel on Instagram 4,218** (176 likes, 16 saves, 16 shares, 9 follows); **"Why 2005 LR3s get 12x the complaints" hook Reel on Instagram 2,140** (10 saves, 7 follows); 80 Series tire Short on YouTube 893 (still climbing).
+**Top 3 across platforms (new this week):** Riverhouse 110 rig 4,333; LR3 2005 complaints 2,206; Samurai tire Short 755 (618 YouTube). Next: LR3 years 628, Patrol Y62 years 479.
+**Bottom 3 (new this week):** Spec sheet 3rd Gen 4Runner 5 (2 days old); Wrangler JL 2018 single 13; 80 vs 100 stack 13 (also: X round-up 14, media-kit post 23, Jimny 2043 carousel 23).
+
+**Top 3 by site visits** (still no per-post attribution; Instagram profile visits, saves and follows): Riverhouse rig 16 saves + 9 follows; LR3 complaints hook 10 saves + 7 follows; Pinzgauer tire Reel 3 follows. Among stills, the Clifford rig carousel added 3 profile visits + 2 follows again (236 views). Platform level: ChatGPT 56 sessions with half of all key events; all social together sent ~21 sessions.
+**Bottom 3 by site visits:** X (0 sessions, 422 lifetime views), TikTok (0 sessions, paused), YouTube (2 sessions from 4,300 new views this week).
+
+- **What worked:** Real trucks, not templates. The two posts built on a real story (a reader's Defender 110 and the LR3 complaint data) got 6,358 IG views between them, 26 saves and 16 of the 29 new followers. Our other 14 new Reels averaged 161. Instagram followers rose 53 → 82 and Instagram views passed YouTube for the first time. The site turned more readers into clicks: 16 affiliate clicks from 11 users (was 7 from 3), the first newsletter signup and the first 2 deal-code copies.
+- **What didn't:** Static posts are near zero: the 4 new singles averaged 15 IG views and the 4 new carousels 23 (spec sheets 5–24, stack 13). X got 0 sessions and 0 followers from 75 posts. Search clicks slipped 94 → 81 even though position improved, and video views still don't reach the site (YouTube 2 sessions).
+- **Most important this week:** Get 2–3 more reader rigs posted as Reels (the rig-ask drafts from Nov 11–22 are the pipeline) and make one more "data hook" Reel in the LR3 style (a surprising number from our years/complaints pages). Then put the matching page in each caption's first line so the new followers have somewhere to click. Check next Monday: Instagram sessions in GA4 (13 now) and follows per Reel.
+
+**Mix change for next week:** More reader-rig Reels (target 3, up from 1) and data-hook Reels (target 2); stop posting spec sheets, stacks and single-image posts on Instagram (Pinterest only). Why: 2 rig Reels average 2,227 IG views and 3 hook Reels 884, against 117 for 17 tire Reels, 141 for 9 years Reels, 58 for 17 carousels and 44 for 15 singles. The rig format is just past the 3-post bar only if you count the Clifford carousel (242 across platforms, 2 follows), so treat it as a strong signal, not settled.
+
+Notes: X data was read while signed in as @boxytrucks. The browser was on Hank's @webhank account and the @boxytrucks timeline doesn't load fully from there, so this run switched accounts to read it and switched back afterwards. The Nov 20 GA4 spike may be internal traffic: the internal-traffic filter still can't be confirmed Active from here. YouTube Short views per video fell a little (new Shorts average 230, all-time 259) as volume went up. revenue.json was not refreshed by this run.
+
