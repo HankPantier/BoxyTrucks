@@ -13,3 +13,10 @@ date | community | thread URL | page linked or none | status
 - MBWorld: looking-purchase-preowned-g-need-advice 924541 (Feb, answered)
 - 4Runner6G: what-ai-has-to-say-about-limited-tire-sizes.11562 (Jul, vendor-adjacent)
 - Expedition Portal: current-market-suv-options 251164 (OP already bought), older-lc-or-newer-4runner 225515 (2021)
+
+## Checked and skipped (2026-11-23)
+No drafts this week: nothing fresh, open and unanswered could be confirmed.
+- IH8MUD: blown-head-gasket.1381830 (May–Jun, answered), head-gasket-job-by-a-noob.1383000 (Jul); looking-to-purchase-a-high-milage-08-lx570...1383512 and early-200-series-vs-late-100-series.1380715 could not be read (anti-bot page), so not suggested
+- 4Runner6G: any-regrets-buying-the-6th-gen-vs-5th-gen.10539 (May–Sep), price-and-what-trim-to-go-with.9934 (Apr), looking-for-ownership-feedbacks...11856 (Aug, quiet since), trd-pro-tire-options...11404 (Jul), largest-tire-size-on-stock-sr5-rims.10661 (Jun), one-piece-of-advice...8909 (Feb, sponsor-led)
+- Expedition Portal: need-advice.252069 (Aug, camper choice, not our topic), vehicle-advice-offroad-vehicle-with-low-horsepower...250382 (Feb, answered)
+- Could not load at all this run: Toyota-4Runner.org, ClubGWagen, MBWorld (site errors); Reddit search was refused by the search proxy
