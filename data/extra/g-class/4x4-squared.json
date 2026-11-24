@@ -317,5 +317,113 @@
    "name": "Wikipedia — Mercedes-AMG G 63 6x6",
    "url": "https://en.wikipedia.org/wiki/Mercedes-AMG_G_63_6x6"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G 500 / G 550 4x4² (2015–2018) maintenance: the M176 intervals from Mercedes Canada's 2016 G-Class booklet, an owner's 30,000 km portal-hub oil interval, and a purchase baseline.",
+  "intro": "We couldn't find a published maintenance schedule specific to the 4x4². Owners on MBWorld say it needs the same maintenance as a G 500/G 550 plus portal-hub oil, so the intervals below are the M176 figures from Mercedes Canada's 2016 G-Class booklet (as quoted in our G 550 baseline), with an owner's portal interval on top. Follow the service indicator and the booklet for your VIN.",
+  "schedule_note": "M176 intervals from Mercedes Canada's 2016 G-Class booklet (in our G 550 baseline); portal-hub interval is one owner's figure on MBWorld. Check your booklet.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter; air and cabin filters",
+     "Brake fluid",
+     "Check the oil in all four portal hubs, both diffs and the transfer case for level and water",
+     "Look for oil on every damper body",
+     "Test all three diff locks",
+     "Confirm recalls 17V-713 (ESP/cruise) and 17V-817 (brake booster hose) are done"
+    ]
+   },
+   {
+    "at": "At the service indicator (Service A / B, about yearly)",
+    "items": [
+     "Engine oil and filter",
+     "Cabin filter",
+     "Fluid-level and underbody inspection"
+    ]
+   },
+   {
+    "at": "Every year",
+    "items": [
+     "Brake fluid (the 2016 Canadian booklet says yearly)"
+    ]
+   },
+   {
+    "at": "Every 30,000 km (≈18,750 mi)",
+    "items": [
+     "Portal-hub oil (owner figure, MBWorld)"
+    ]
+   },
+   {
+    "at": "Every 40,000 km / 2 years",
+    "items": [
+     "Air filter"
+    ]
+   },
+   {
+    "at": "Every 80,000 km / 4 years",
+    "items": [
+     "Front and rear differentials"
+    ]
+   },
+   {
+    "at": "Every 100,000 km / 5 years",
+    "items": [
+     "Spark plugs"
+    ]
+   },
+   {
+    "at": "Every 120,000 km",
+    "items": [
+     "7G-TRONIC transmission oil and filter",
+     "Transfer case"
+    ]
+   }
+  ],
+  "severe": "PistonHeads gives a diff oil change every 40,000 km with heavy off-road use. After water crossings, check the portal hubs, diffs and transfer case for milky oil.",
+  "age_items": [
+   {
+    "item": "Adjustable dampers",
+    "when": "Look for oil at every service",
+    "why": "One MBWorld owner's rear damper leaked at about 14,000 miles, and his dealer quoted $3,500 for one side."
+   },
+   {
+    "item": "Portal hub seals",
+    "when": "Check for weeping at every service",
+    "why": "Another owner's only maintenance issue at about 33,000 miles was a portal axle leak."
+   },
+   {
+    "item": "Coil springs",
+    "when": "Inspect at every service and after hard off-road use",
+    "why": "PistonHeads says W463 springs break, especially at the rear."
+   },
+   {
+    "item": "Diff locks",
+    "when": "Exercise them monthly",
+    "why": "PistonHeads warns that G diffs can seize if they're rarely used."
+   },
+   {
+    "item": "Tyres",
+    "when": "Check the date codes",
+    "why": "Owners report slow tread wear, so the tyres may age out before they wear out."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Mercedes-Benz Canada 2016 G-Class maintenance booklet (in our G 550 buyer's baseline)"
+   },
+   {
+    "name": "MBWorld: G550 4x4 squared trade value & maintenance (owner thread)",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/860586-g550-4x4-squared-trade-value-maintenance.html"
+   },
+   {
+    "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+    "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+   },
+   {
+    "name": "DealerRater: Mercedes-Benz G 550 4x4 Squared recalls",
+    "url": "https://www.dealerrater.com/recalls/Mercedes_Benz/G-550-4x4-Squared"
+   }
+  ]
+ }
 }

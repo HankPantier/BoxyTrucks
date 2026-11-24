@@ -253,5 +253,89 @@
    "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
    "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes 500 GE (W463, 1993–1994) maintenance: no factory schedule is online, so this is a purchase baseline plus PistonHeads' diff and oil intervals and Classic & Sports Car's checks.",
+  "intro": "We couldn't find Mercedes's factory maintenance schedule for the 500 GE online, and these 1993–1994 trucks predate the Service A/B system later G's use. So this page is a purchase baseline for a 30-plus-year-old V8, with the intervals PistonHeads gives for W463 diff oil and engine oil. Check the service booklet if the truck still has it.",
+  "schedule_note": "No factory schedule online. Baseline, plus PistonHeads' W463 diff and oil intervals and Classic & Sports Car's checks.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, air filter, spark plugs and ignition parts",
+     "Coolant, thermostat and hoses; budget for a radiator if it's original (Classic & Sports Car)",
+     "Automatic transmission fluid and filter",
+     "Transfer case, both differentials and the front knuckle oil/grease",
+     "Brake fluid",
+     "Fuel filter; on a stored truck, check the fuel pumps and accumulator",
+     "Test all three diff locks and look for vacuum leaks"
+    ]
+   },
+   {
+    "at": "As often as every 6,000 mi",
+    "items": [
+     "Engine oil and filter (PistonHeads' 'extra care' interval for W463s)"
+    ]
+   },
+   {
+    "at": "Every 40,000 km (≈25,000 mi) off-road / 60,000 km (≈37,000 mi) on-road",
+    "items": [
+     "Front and rear differential oil (PistonHeads)"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid (common Mercedes practice; check your booklet)"
+    ]
+   }
+  ],
+  "severe": "PistonHeads' shorter 40,000 km diff interval applies to heavy off-road use. After water crossings, check the diffs, transfer case and front knuckles for water.",
+  "age_items": [
+   {
+    "item": "Radiator",
+    "when": "At purchase if original",
+    "why": "Classic & Sports Car says an old radiator will be clogged and that overheating and head warping are common G-Wagen faults."
+   },
+   {
+    "item": "Coil springs and dampers",
+    "when": "Inspect at every service",
+    "why": "PistonHeads says W463 springs break, especially at the rear."
+   },
+   {
+    "item": "Diff locks",
+    "when": "Exercise them monthly",
+    "why": "PistonHeads warns rarely used diffs can seize."
+   },
+   {
+    "item": "Vacuum lines",
+    "when": "If it starts or runs poorly",
+    "why": "Classic & Sports Car says poor starting or running is often caused by vacuum leaks."
+   },
+   {
+    "item": "Steering box",
+    "when": "Every service",
+    "why": "PistonHeads says G steering boxes are often damp, and Classic & Sports Car says to check for leaks."
+   },
+   {
+    "item": "Rust",
+    "when": "Yearly",
+    "why": "Rear body corners, inner wings, the rear door bottom and damper top mounts (Classic & Sports Car)."
+   }
+  ],
+  "sources": [
+   {
+    "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+    "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+   },
+   {
+    "name": "Classic & Sports Car: Buyer's guide, Mercedes-Benz G-Wagen",
+    "url": "https://classicandsportscar.com/node/55200"
+   },
+   {
+    "name": "MBWorld: Advice on G500 rear springs and shocks",
+    "url": "https://mbworld.org/forums/g-class-w460-w461-w463/471994-advice-g500-rear-springs-shocks.html"
+   }
+  ]
+ }
 }

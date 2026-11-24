@@ -417,15 +417,30 @@
   },
   {
    "gen": "g-class/4x4-squared",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-24",
+   "added": 3,
+   "deepened": 3,
+   "maintenance": true,
+   "note": "; maintenance from the M176 Canadian booklet plus an owner portal-hub interval"
   },
   {
    "gen": "g-class/500ge",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-24",
+   "added": 2,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "; no factory schedule online, baseline plus PistonHeads intervals"
   },
   {
    "gen": "g-class/europa",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-24",
+   "added": 2,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "; no factory schedule online, baseline plus PistonHeads and PeachParts"
   },
   {
    "gen": "g-class/g550",

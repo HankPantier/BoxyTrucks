@@ -1,6 +1,6 @@
 # BoxyTrucks: full model guides
 
-Source: https://boxytrucks.com/ · generated 2026-11-23
+Source: https://boxytrucks.com/ · generated 2026-11-24
 
 Verify every fluid, capacity and torque figure against the factory manual for the exact vehicle. Disclaimer: https://boxytrucks.com/about/disclaimer/
 
@@ -4546,7 +4546,7 @@ Tools: Line wrenches · fuel-safe catch pan · new pumps, accumulator and filter
 #### Diff locks won't engage
 Difficulty 2 / 5 · time An afternoon · cost Diagnosis-dependent
 Symptoms: The centre or rear lock won't engage, or engages and drops out. On W463s the fault is usually in the vacuum supply, not the differential.
-Fix: Check for vacuum where the lines meet the actuators, then work back through the reservoir, hoses and switchover valves, teeing in a gauge on each section. Owners regularly find split connectors or perished rubber fittings. Remember the 500 GE has no front lock, so there's nothing to fix there.
+Fix: Check for vacuum where the lines meet the actuators, then work back through the reservoir, hoses and switchover valves, teeing in a gauge on each section. Owners regularly find split connectors or perished rubber fittings. Remember the 500 GE has no front lock, so there's nothing to fix there. PistonHeads warns that G-Class diffs can seize if they're rarely used, so exercise the locks rather than leaving them for an emergency. PistonHeads gives a diff oil change every 40,000 km (≈25,000 mi) with heavy off-road use, or every 60,000 km (≈37,000 mi) on a mainly on-road truck.
 Tools: Hand vacuum pump with gauge · vacuum tees and line · replacement connectors
 
 #### Steering damper & front-end wander
@@ -4564,8 +4564,20 @@ Tools: Trimmer line or drain wire · low-pressure air · towels
 #### Rust on the frame and body
 Difficulty 2–5 / 5 · time Ongoing · cost $400–8,000 (W463 typical)
 Symptoms: Bubbling at the tailgate's lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.
-Fix: Catch it early: blast and treat, or weld in repair panels. Cavity-wax the doors and underbody and keep drain holes clear. On a car this rare, use original-spec panels and keep the paint code (DB3338) correct.
+Fix: Catch it early: blast and treat, or weld in repair panels. Cavity-wax the doors and underbody and keep drain holes clear. On a car this rare, use original-spec panels and keep the paint code (DB3338) correct. Classic & Sports Car's rust checklist for the G is the rear corners of the body including the inner wings, the bottom of the rear door, and the damper top mounts, visible in the wheel arch. PistonHeads adds the tailgate and the areas around the back lights, and says rust was a much bigger problem on pre-1991 trucks.
 Tools: Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair
+
+#### Overheating and a clogged radiator
+Difficulty 2 / 5 · time ≈ half a day (estimate) · cost Radiator, thermostat and hoses
+Symptoms: The gauge climbing in traffic or towing, coolant smells, or coolant loss. Classic & Sports Car says overheating and cylinder-head warping are common on G-Wagen engines and that overheating and head-gasket failure can affect most of them.
+Fix: Pressure-test the cooling system cold and look for leaks at the hoses, radiator tanks and water pump. Check the fan clutch or electric fan engages when hot. Classic & Sports Car says to budget for a new radiator if the old one is original, because it will be clogged, especially on iron-block/alloy-head engines. Replace the thermostat and hoses at the same time, flush the block, refill with the coolant your manual specifies and bleed the system. If the truck has already overheated badly, check for head-gasket failure (combustion gas in the coolant, white smoke, oil-coolant mixing) before spending on the radiator.
+Tools: Cooling-system pressure tester · drain pan · hose-clamp pliers · combustion-leak (block) tester
+
+#### Broken coil springs and tired dampers
+Difficulty 2 / 5 · time ≈ 2–4 hours per axle (estimate) · cost Springs and dampers, in axle pairs
+Symptoms: A clunk or noise when turning, the truck sitting lower on one corner, or a crashing ride. PistonHeads says W463 springs break, especially the rear ones and often after heavy off-road use, and that the standard ride is very firm.
+Fix: With the truck on stands and the axle supported, inspect each coil for a broken end turn; the break often hides at the top or bottom seat. On MBWorld, DUTCH says to "DEFINITELY, replace both springs" on an axle, not just the broken one, and that the factory shocks are Bilsteins. Replace the dampers at the same time if they're leaking or tired; PistonHeads says fitting Bilsteins eases the ride. Fit springs that match the truck's weight and any armour or winch, and check the ride height side to side afterwards.
+Tools: Jack and axle stands · axle support · spring compressor if your workshop manual calls for one · torque wrench
 
 ### Baseline service
 Treat a 500 GE as a recommissioning, not an oil change: most surviving examples have low miles and long storage, so rubber, fuel and fluids are old even when the odometer isn't. Parts for the M117 V8 and the 1993-era W463 chassis are model-specific — order by VIN and engine number, and keep the old parts for originality.
@@ -4741,9 +4753,9 @@ Fix: Strip the front hubs and knuckles, replace the CV boots and wheel bearings,
 Tools: Factory procedure · hub nut socket · dial indicator · CV boots · wheel bearings · grease · seals
 
 #### M104 head-gasket seep (I6 G 320)
-Difficulty 4 / 5 · time 2–3 days · cost ≈ $2,000 at a dealer (2002)
-Symptoms: Oil seeping at the right rear of the cylinder head, visible from underneath; oil smell after a run.
-Fix: Replace the head gasket and resurface the head if needed, with new head bolts and seals. Owners report the leak doesn't return after a proper repair. The same PeachParts owner still recommended a G 500 for long-term ownership.
+Difficulty 4 / 5 · time 2–3 days · cost $1,400–$1,600 at an independent shop (PeachParts estimate)
+Symptoms: Oil seeping at the cylinder head, often at the rear passenger-side corner. On PeachParts, Paul S. says the typical leak is at the "right rear corner (passenger side) of the head", while the PeachParts M104 article calls the front of the head, where the upper timing cover meets it, the most common leak. On 500E Board, gerryvz's 1995 G 320 head gasket failed at about 135,000 miles, "severely leaking coolant from the rear passenger corner of the cylinder head."
+Fix: Replace the head gasket and seals, and have the head checked and resurfaced if needed. The PeachParts article says the M104 bottom end and valve guides rarely wear out, so this is usually "just a head gasket", and that Mercedes reinforced the newer gasket design. Its outline: remove the head, intake and exhaust together; note the timing marks; set the intake cam with a 4 mm drift in the flange hole; remove the exhaust gear and hang the chain with wire, without breaking it; and take care with the ratcheting chain tensioner, which can overtighten the chain if it extends unrestrained. It gives Mercedes sealants 002 989 47 20 10 (sparingly, on vertical metal-to-metal surfaces) and 001 989 61 20 10 (a dab where the head, gasket and cover seal meet), and says not to put sealant on the U-seal. It doesn't give head-bolt torque or sequence, so use the factory manual. Afterwards, check the vacuum lines to the switchover valve, tighten the EGR pipe, adapt the throttle, and take an extended test drive. Paul S. estimates $1,400–$1,600 at an independent shop.
 Tools: Head gasket set · head bolts · torque wrench and angle gauge · access to a machine shop
 
 #### Harmonic balancer (V6 & V8)
@@ -4775,6 +4787,18 @@ Difficulty 2–5 / 5 · time Ongoing · cost $400–8,000 (W463 typical)
 Symptoms: Bubbling at the tailgate's lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.
 Fix: Blast and treat early, or weld in repair panels. Cavity-wax the doors and underbody and rinse off salt after winter. On a 25-year-old truck from a snowy state, inspect before you buy, not after.
 Tools: Wire wheel or blaster · rust converter and primer · cavity wax · welder
+
+#### Crumbling engine wiring harness (M104 G 320, 1993–95)
+Difficulty 3 / 5 · time ≈ 1 day to fit an engine harness (estimate) · cost Engine harness
+Symptoms: Check-engine lights, misfires or running faults that come and go, especially after work under the hood. On PeachParts, moderator Paul S. says that on 1993–1995 M104 motors "The insulation flakes off, causing shorts and all sorts of check engine light problems."
+Fix: Check the harness before anything else on a 1994–1995 G 320. Dalton on PeachParts suggests starting at the blue two-wire sensor on the thermostat housing: look for dry, brittle or cracked insulation, and if needed pull back the outer sheathing and cut a couple of inches open to see the wires. If the insulation crumbles, replace the engine harness rather than taping it. The PeachParts M104 head-gasket article also says to check the engine harness, body harness and throttle-actuator harness on 1993–'95 HFM engines, because removing the intake can ruin a harness that is already falling apart.
+Tools: Inspection light · scissors or a seam ripper for the sheathing · multimeter · trim tools
+
+#### Misfires from coil plug connectors (M104 G 320)
+Difficulty 1 / 5 · time ≈ 1 hour with plugs (estimate) · cost Coil connectors and spark plugs
+Symptoms: A misfire that's hard to pin down. The PeachParts M104 article links hard-to-diagnose misfires to the plug connectors on the three coils in 1993–'96 HFM engines.
+Fix: Replace the coil plug connectors when you replace the spark plugs; the PeachParts article gives the Mercedes number for the connector as 000 159 36 42 and calls it inexpensive. Inspect the coil wiring at the same time (see the harness guide). After the job, scan for codes and take an extended test drive.
+Tools: Spark-plug socket and extension · torque wrench · dielectric grease
 
 ### Baseline service
 Start by confirming exactly what you bought: a Europa truck can have the M103, M104 or M112 six or the M113 V8, a 4- or 5-speed automatic, and drivetrain fluids that changed through the 1990s. Then reset everything — these are trucks more than 25 years old, and service records rarely made the trip.
@@ -6192,7 +6216,7 @@ Tools: Filter and gasket kit · MB-approved ATF · fill adapter/pump · scan too
 #### Diff locks won’t engage
 Difficulty 2 / 5 · time An afternoon · cost Diagnosis-dependent
 Symptoms: A lock refuses to engage or drops out; indicator lights flash. On W463s the cause is usually actuation — vacuum or wiring — rather than the differential.
-Fix: Work the system from the actuator back: confirm vacuum or signal at each lock, then trace lines and connectors toward the source with a gauge or meter. Fix the leak, then exercise the locks regularly.
+Fix: Work the system from the actuator back: confirm vacuum or signal at each lock, then trace lines and connectors toward the source with a gauge or meter. Fix the leak, then exercise the locks regularly. PistonHeads warns that G-Class diffs can seize if they're rarely used, so exercise the locks rather than leaving them for an emergency. PistonHeads gives a diff oil change every 40,000 km (≈25,000 mi) with heavy off-road use, or every 60,000 km (≈37,000 mi) on a mainly on-road truck.
 Tools: Hand vacuum pump with gauge · multimeter · vacuum tees and line · replacement connectors
 
 #### Steering damper & wander
@@ -6210,7 +6234,7 @@ Tools: Trimmer line or drain-cleaning wire · low-pressure air · towels
 #### Frame & body rust treatment
 Difficulty 3 / 5 · time A weekend · cost $400–8,000 (severity-dependent)
 Symptoms: Bubbling at the tailgate lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.
-Fix: Wire-brush or blast back to sound metal, treat and paint, or cut in repair panels where needed. Inject cavity wax into doors and frame rails, keep drain paths clear and wash off road salt after winter.
+Fix: Wire-brush or blast back to sound metal, treat and paint, or cut in repair panels where needed. Inject cavity wax into doors and frame rails, keep drain paths clear and wash off road salt after winter. PistonHeads suggests checking the online MOT history first for "vehicle structure is corroded" comments, then inspecting the underside for rock damage and the tailgate and the areas around the back lights.
 Tools: Wire wheels or blaster · rust converter and primer · cavity wax with extension wand · welder for panel repairs
 
 #### Brake booster vacuum hose recall (17V-817)
@@ -6224,6 +6248,24 @@ Difficulty 4 / 5 · time Separators: a few hours. Rear main seal: transmission o
 Symptoms: Oil seeping from the valve covers or from where the engine meets the transmission, a burning-oil smell, and oil consumption between changes.
 Fix: Handsome Motors, which has owned more than 200 Gs, says the 2016–2018 G 550's M176 suffers rear main seal and valve cover gasket leaks triggered by a failed crankcase-vent oil separator. The 4×4² uses the same engine. Fix the cause first by replacing the left and right oil separators, which FCP Euro lists for the G 550 4×4², and then deal with any valve cover leaks. A rear main seal leak means removing the transmission. Handsome Motors also suggests 3,000–5,000-mile oil changes on these engines.
 Tools: Socket set · torque wrench · trim tools for the engine covers · new seals and gaskets
+
+#### Leaking adjustable dampers
+Difficulty 3 / 5 · time ≈ half a day per axle (estimate) · cost Dealer quote $3,500 for one rear side (one owner)
+Symptoms: Oil wetting the body of a shock, a bouncier ride, or a damper fault on the dash. On MBWorld, efathalla says the rear shock on his 2017 4x4² (about 14,000 miles) leaked, and the original poster in the same thread listed leaky shocks among his worries before buying.
+Fix: Clean the damper bodies and drive a few miles to see which one is weeping. A damper that's damp with road film but not dripping can be watched; one that is running oil or has lost damping needs replacing, ideally in axle pairs. The 4x4²'s adjustable dampers are specific to the truck, so get the part through a Mercedes dealer or a G specialist by VIN, and don't fit a standard G-Class shock. efathalla says the dealer quoted "$3500.00 for one side"; he skipped the repair and reported no problems for about a year afterwards, which tells you a slow weep isn't an emergency, not that it can be ignored for ever.
+Tools: Jack and axle stands · wheel chocks · torque wrench · the workshop manual for the damper connector and mounts
+
+#### Portal axle oil leaks and oil changes
+Difficulty 2 / 5 · time ≈ 1–2 hours for an oil change (estimate) · cost Gear oil and seals
+Symptoms: Oil weeping from a portal hub housing at one wheel, or oil flung onto the inside of the wheel. On MBWorld, ThreeGs says the only maintenance issue on his 2017 4x4² at about 33,000 miles was a fluid leak from a portal axle.
+Fix: Clean the hub housing and recheck after a drive to find the source: a weep from a drain or fill plug usually just needs a new sealing washer, while oil from the hub seal or the housing joint means a seal job. Check the oil level in every portal hub, not only the leaking one. For routine changes, datbananaguy says the 4x4² needs the same maintenance as a G 500/G 550 plus a portal axle oil change every 30,000 km (about 18,750 miles); that's an owner's figure, so confirm the interval and oil spec with a dealer or the maintenance booklet for your VIN.
+Tools: Drain pan · the correct fill-plug socket or hex · fluid pump · new plug washers
+
+#### Cruise-control recall 17V-713 (ESP software)
+Difficulty 1 / 5 · time Dealer software update · cost Free under the recall
+Symptoms: None in normal driving. DealerRater's recall list says a fault in the Electronic Stability Program while Distronic Plus is engaged may keep the engine from reducing power. The recall covers 2016–2017 G 550 4Matic, G 63 AMG and G 65 AMG vehicles.
+Fix: Run the VIN through a recall lookup or ask a Mercedes dealer whether campaign 17V-713 (Mercedes 2017110012) has been done. The remedy is a free reprogramming of the ESP control unit by dealers, which began on December 6, 2017. Ask for a printout showing it's complete before you buy.
+Tools: The VIN
 
 ### Baseline service
 The 4×4² shares its engine, gearbox and lockers with the 2016–2018 G 550, so the drivetrain basics are the same — but the portal axles add hub reduction gears that a regular G doesn’t have, and many shops have never serviced one. Baseline everything, and confirm portal-axle specs with a Mercedes dealer.

@@ -194,9 +194,9 @@
    "title": "M104 head-gasket seep (I6 G 320)",
    "diff": "4 / 5",
    "time": "2–3 days",
-   "cost": "≈ $2,000 at a dealer (2002)",
-   "symptoms": "Oil seeping at the right rear of the cylinder head, visible from underneath; oil smell after a run.",
-   "fix": "Replace the head gasket and resurface the head if needed, with new head bolts and seals. Owners report the leak doesn't return after a proper repair. The same PeachParts owner still recommended a G 500 for long-term ownership.",
+   "cost": "$1,400–$1,600 at an independent shop (PeachParts estimate)",
+   "symptoms": "Oil seeping at the cylinder head, often at the rear passenger-side corner. On PeachParts, Paul S. says the typical leak is at the \"right rear corner (passenger side) of the head\", while the PeachParts M104 article calls the front of the head, where the upper timing cover meets it, the most common leak. On 500E Board, gerryvz's 1995 G 320 head gasket failed at about 135,000 miles, \"severely leaking coolant from the rear passenger corner of the cylinder head.\"",
+   "fix": "Replace the head gasket and seals, and have the head checked and resurfaced if needed. The PeachParts article says the M104 bottom end and valve guides rarely wear out, so this is usually \"just a head gasket\", and that Mercedes reinforced the newer gasket design. Its outline: remove the head, intake and exhaust together; note the timing marks; set the intake cam with a 4 mm drift in the flange hole; remove the exhaust gear and hang the chain with wire, without breaking it; and take care with the ratcheting chain tensioner, which can overtighten the chain if it extends unrestrained. It gives Mercedes sealants 002 989 47 20 10 (sparingly, on vertical metal-to-metal surfaces) and 001 989 61 20 10 (a dab where the head, gasket and cover seal meet), and says not to put sealant on the U-seal. It doesn't give head-bolt torque or sequence, so use the factory manual. Afterwards, check the vacuum lines to the switchover valve, tighten the EGR pipe, adapt the throttle, and take an extended test drive. Paul S. estimates $1,400–$1,600 at an independent shop.",
    "tools": "Head gasket set · head bolts · torque wrench and angle gauge · access to a machine shop",
    "parts": [
     {
@@ -213,6 +213,30 @@
      "name": "Elring M104 head bolt set 104 990 00 12",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-cylinder-head-bolt-set-elring-1049900012"
+    }
+   ],
+   "know": [
+    "On 1993–'95 engines, check the wiring harnesses first: PeachParts warns that removing the intake can ruin a harness that is already falling apart.",
+    "PeachParts says the serpentine belt tensioner on engines through 1995 is \"rather pricey\" and often fails on reassembly, so quote it and the water pump into the job.",
+    "gerryvz paired his G 320 head job with a refresh of all the engine bay's soft parts (hoses and seals)."
+   ],
+   "mistakes": [
+    "Letting the ratcheting chain tensioner extend unrestrained.",
+    "Swapping the vacuum lines at the switchover valve on reassembly, which sets EGR or air-injection codes.",
+    "Leaving the EGR pipe loose; the PeachParts author calls this a costly unfunded repair in his shop."
+   ],
+   "refs": [
+    {
+     "name": "PeachParts Wiki: M104 head gasket",
+     "url": "https://peachparts.com/Wikka/M104HeadGasket"
+    },
+    {
+     "name": "PeachParts forum: 104.992 (1994) common issues",
+     "url": "https://www.peachparts.com/shopforum/tech-help/238953-104-992-1994-common-issues-compiled.html"
+    },
+    {
+     "name": "500E Board: My second M104 top-end rebuild, 1995 G320",
+     "url": "https://www.500eboard.co/forums/threads/my-second-m104-top-end-rebuild-1995-g320-g-wagen.20442"
     }
    ]
   },
@@ -376,6 +400,64 @@
     {
      "name": "EuroAutoPro: Common problems of the G 500",
      "url": "https://www.euroautopro.com.au/post/common-problems-of-mercedes-g-class-w463-g-500-updated"
+    }
+   ]
+  },
+  {
+   "title": "Crumbling engine wiring harness (M104 G 320, 1993–95)",
+   "diff": "3 / 5",
+   "time": "≈ 1 day to fit an engine harness (estimate)",
+   "cost": "Engine harness",
+   "symptoms": "Check-engine lights, misfires or running faults that come and go, especially after work under the hood. On PeachParts, moderator Paul S. says that on 1993–1995 M104 motors \"The insulation flakes off, causing shorts and all sorts of check engine light problems.\"",
+   "fix": "Check the harness before anything else on a 1994–1995 G 320. Dalton on PeachParts suggests starting at the blue two-wire sensor on the thermostat housing: look for dry, brittle or cracked insulation, and if needed pull back the outer sheathing and cut a couple of inches open to see the wires. If the insulation crumbles, replace the engine harness rather than taping it. The PeachParts M104 head-gasket article also says to check the engine harness, body harness and throttle-actuator harness on 1993–'95 HFM engines, because removing the intake can ruin a harness that is already falling apart.",
+   "tools": "Inspection light · scissors or a seam ripper for the sheathing · multimeter · trim tools",
+   "parts": [],
+   "know": [
+    "Do this check before any intake or head-gasket job, not after.",
+    "The later 1998–2001 V6 and V8 Europas use different engines (M112 and M113), so this applies to the M104 inline-six trucks."
+   ],
+   "mistakes": [
+    "Chasing sensors and codes on a truck whose harness is shorting.",
+    "Pulling the intake on a 1994–95 G 320 without checking the harness first."
+   ],
+   "cost_note": "No prices in these sources.",
+   "refs": [
+    {
+     "name": "PeachParts forum: 104.992 (1994) common issues",
+     "url": "https://www.peachparts.com/shopforum/tech-help/238953-104-992-1994-common-issues-compiled.html"
+    },
+    {
+     "name": "PeachParts Wiki: M104 head gasket",
+     "url": "https://peachparts.com/Wikka/M104HeadGasket"
+    }
+   ]
+  },
+  {
+   "title": "Misfires from coil plug connectors (M104 G 320)",
+   "diff": "1 / 5",
+   "time": "≈ 1 hour with plugs (estimate)",
+   "cost": "Coil connectors and spark plugs",
+   "symptoms": "A misfire that's hard to pin down. The PeachParts M104 article links hard-to-diagnose misfires to the plug connectors on the three coils in 1993–'96 HFM engines.",
+   "fix": "Replace the coil plug connectors when you replace the spark plugs; the PeachParts article gives the Mercedes number for the connector as 000 159 36 42 and calls it inexpensive. Inspect the coil wiring at the same time (see the harness guide). After the job, scan for codes and take an extended test drive.",
+   "tools": "Spark-plug socket and extension · torque wrench · dielectric grease",
+   "parts": [
+    {
+     "name": "Coil plug connector, Mercedes 000 159 36 42 (confirm for your engine number)",
+     "supplier": "Amazon search",
+     "url": "https://www.amazon.com/s?k=0001593642"
+    }
+   ],
+   "know": [
+    "The same article says swapped vacuum lines at the switchover valve can set EGR or secondary-air codes shortly after a short drive, so check those too if a light comes on after any intake work."
+   ],
+   "mistakes": [
+    "Fitting new plugs and leaving old connectors on them."
+   ],
+   "cost_note": "The PeachParts article calls the connectors inexpensive but gives no price.",
+   "refs": [
+    {
+     "name": "PeachParts Wiki: M104 head gasket",
+     "url": "https://peachparts.com/Wikka/M104HeadGasket"
     }
    ]
   }

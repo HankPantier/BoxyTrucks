@@ -204,6 +204,18 @@
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-auto-trans-fluid-001989780309"
     }
+   ],
+   "know": [
+    "PistonHeads says broken integrated speed sensors on the 7G-TRONIC (from 2003) cause random shifting or no shifting, so a truck that shifts erratically may need more than a fluid change."
+   ],
+   "mistakes": [
+    "Blaming old fluid for erratic shifts without scanning for speed-sensor faults."
+   ],
+   "refs": [
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    }
    ]
   },
   {
@@ -212,13 +224,26 @@
    "time": "An afternoon",
    "cost": "Diagnosis-dependent",
    "symptoms": "A lock refuses to engage or drops out; indicator lights flash. On W463s the cause is usually actuation — vacuum or wiring — rather than the differential.",
-   "fix": "Work the system from the actuator back: confirm vacuum or signal at each lock, then trace lines and connectors toward the source with a gauge or meter. Fix the leak, then exercise the locks regularly.",
+   "fix": "Work the system from the actuator back: confirm vacuum or signal at each lock, then trace lines and connectors toward the source with a gauge or meter. Fix the leak, then exercise the locks regularly. PistonHeads warns that G-Class diffs can seize if they're rarely used, so exercise the locks rather than leaving them for an emergency. PistonHeads gives a diff oil change every 40,000 km (≈25,000 mi) with heavy off-road use, or every 60,000 km (≈37,000 mi) on a mainly on-road truck.",
    "tools": "Hand vacuum pump with gauge · multimeter · vacuum tees and line · replacement connectors",
    "parts": [
     {
      "name": "Vacuum hoses listed for the G 550",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G550/Vacuum-Hose/"
+    }
+   ],
+   "know": [
+    "On the 4x4² the portal hubs carry their own oil; datbananaguy on MBWorld changes it every 30,000 km (owner figure)."
+   ],
+   "refs": [
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "MBWorld: G550 4x4 squared trade value & maintenance (owner thread)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/860586-g550-4x4-squared-trade-value-maintenance.html"
     }
    ]
   },
@@ -292,13 +317,27 @@
    "time": "A weekend",
    "cost": "$400–8,000 (severity-dependent)",
    "symptoms": "Bubbling at the tailgate lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.",
-   "fix": "Wire-brush or blast back to sound metal, treat and paint, or cut in repair panels where needed. Inject cavity wax into doors and frame rails, keep drain paths clear and wash off road salt after winter.",
+   "fix": "Wire-brush or blast back to sound metal, treat and paint, or cut in repair panels where needed. Inject cavity wax into doors and frame rails, keep drain paths clear and wash off road salt after winter. PistonHeads suggests checking the online MOT history first for \"vehicle structure is corroded\" comments, then inspecting the underside for rock damage and the tailgate and the areas around the back lights.",
    "tools": "Wire wheels or blaster · rust converter and primer · cavity wax with extension wand · welder for panel repairs",
    "parts": [
     {
      "name": "Eastwood Internal Frame Coating (cavity wax for frame rails)",
      "supplier": "Eastwood",
      "url": "https://www.eastwood.com/rust-solutions/treatment/internal-frame-coating.html"
+    }
+   ],
+   "know": [
+    "PistonHeads says rust was a much bigger problem on pre-1991 G's; on a 2015–2018 truck look hardest at rock damage underneath.",
+    "EuroAutoPro notes that rock chips can lead to rust around the wheel arches and lower panels."
+   ],
+   "refs": [
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "EuroAutoPro: Common problems of the G 500 4x4²",
+     "url": "https://www.euroautopro.com.au/post/common-problems-of-mercedes-g-class-w463-g-500-4x4"
     }
    ]
   },
@@ -357,6 +396,92 @@
      "name": "Valve cover gaskets listed for the G 550",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/Mercedes~Benz-parts/G550/Valve-Cover-Gasket/"
+    }
+   ]
+  },
+  {
+   "title": "Leaking adjustable dampers",
+   "diff": "3 / 5",
+   "time": "≈ half a day per axle (estimate)",
+   "cost": "Dealer quote $3,500 for one rear side (one owner)",
+   "symptoms": "Oil wetting the body of a shock, a bouncier ride, or a damper fault on the dash. On MBWorld, efathalla says the rear shock on his 2017 4x4² (about 14,000 miles) leaked, and the original poster in the same thread listed leaky shocks among his worries before buying.",
+   "fix": "Clean the damper bodies and drive a few miles to see which one is weeping. A damper that's damp with road film but not dripping can be watched; one that is running oil or has lost damping needs replacing, ideally in axle pairs. The 4x4²'s adjustable dampers are specific to the truck, so get the part through a Mercedes dealer or a G specialist by VIN, and don't fit a standard G-Class shock. efathalla says the dealer quoted \"$3500.00 for one side\"; he skipped the repair and reported no problems for about a year afterwards, which tells you a slow weep isn't an emergency, not that it can be ignored for ever.",
+   "tools": "Jack and axle stands · wheel chocks · torque wrench · the workshop manual for the damper connector and mounts",
+   "parts": [],
+   "know": [
+    "PistonHeads says W463 springs break, especially at the rear and after heavy off-road use, so check the springs while the damper is out.",
+    "The same MBWorld owner reported more wind noise than a standard G and about 11 mpg, so budget accordingly."
+   ],
+   "mistakes": [
+    "Fitting a standard G-Class shock to a 4x4².",
+    "Replacing one damper and leaving a tired one on the other side."
+   ],
+   "cost_note": "The only figure we found is the single-owner dealer quote above; independent shops may be cheaper.",
+   "refs": [
+    {
+     "name": "MBWorld: G550 4x4 squared trade value & maintenance (owner thread)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/860586-g550-4x4-squared-trade-value-maintenance.html"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    }
+   ]
+  },
+  {
+   "title": "Portal axle oil leaks and oil changes",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours for an oil change (estimate)",
+   "cost": "Gear oil and seals",
+   "symptoms": "Oil weeping from a portal hub housing at one wheel, or oil flung onto the inside of the wheel. On MBWorld, ThreeGs says the only maintenance issue on his 2017 4x4² at about 33,000 miles was a fluid leak from a portal axle.",
+   "fix": "Clean the hub housing and recheck after a drive to find the source: a weep from a drain or fill plug usually just needs a new sealing washer, while oil from the hub seal or the housing joint means a seal job. Check the oil level in every portal hub, not only the leaking one. For routine changes, datbananaguy says the 4x4² needs the same maintenance as a G 500/G 550 plus a portal axle oil change every 30,000 km (about 18,750 miles); that's an owner's figure, so confirm the interval and oil spec with a dealer or the maintenance booklet for your VIN.",
+   "tools": "Drain pan · the correct fill-plug socket or hex · fluid pump · new plug washers",
+   "parts": [],
+   "know": [
+    "After deep water, check the hub oil for a milky colour; water in the oil means a seal or vent problem.",
+    "PistonHeads gives a diff oil change every 40,000 km (≈25,000 mi) with heavy off-road use, or every 60,000 km (≈37,000 mi) on a mainly on-road truck."
+   ],
+   "mistakes": [
+    "Topping up one hub and not checking the other three.",
+    "Using an oil that isn't to the spec in the booklet for your VIN."
+   ],
+   "cost_note": "No prices in these sources.",
+   "refs": [
+    {
+     "name": "MBWorld: G550 4x4 squared trade value & maintenance (owner thread)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/860586-g550-4x4-squared-trade-value-maintenance.html"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    }
+   ]
+  },
+  {
+   "title": "Cruise-control recall 17V-713 (ESP software)",
+   "diff": "1 / 5",
+   "time": "Dealer software update",
+   "cost": "Free under the recall",
+   "symptoms": "None in normal driving. DealerRater's recall list says a fault in the Electronic Stability Program while Distronic Plus is engaged may keep the engine from reducing power. The recall covers 2016–2017 G 550 4Matic, G 63 AMG and G 65 AMG vehicles.",
+   "fix": "Run the VIN through a recall lookup or ask a Mercedes dealer whether campaign 17V-713 (Mercedes 2017110012) has been done. The remedy is a free reprogramming of the ESP control unit by dealers, which began on December 6, 2017. Ask for a printout showing it's complete before you buy.",
+   "tools": "The VIN",
+   "parts": [],
+   "know": [
+    "The 2017 4x4² also has the brake booster vacuum hose recall (17V-817); see our separate guide.",
+    "DealerRater also lists two 2021 eCall recalls for 2016–2021 Mercedes models, both fixed free by software or by activating the communication module."
+   ],
+   "mistakes": [
+    "Assuming an imported or grey-market truck has had its recalls done."
+   ],
+   "cost_note": "Recall work is free at a Mercedes dealer.",
+   "refs": [
+    {
+     "name": "DealerRater: Mercedes-Benz G 550 4x4 Squared recalls",
+     "url": "https://www.dealerrater.com/recalls/Mercedes_Benz/G-550-4x4-Squared"
+    },
+    {
+     "name": "CarComplaints: recall 17V-713, cruise control may not disengage",
+     "url": "https://www.carcomplaints.com/Mercedes-Benz/G550/2016/recalls/cruise-control-may-not-disengage-17v713000.shtml"
     }
    ]
   }

@@ -254,7 +254,7 @@
    "time": "An afternoon",
    "cost": "Diagnosis-dependent",
    "symptoms": "The centre or rear lock won't engage, or engages and drops out. On W463s the fault is usually in the vacuum supply, not the differential.",
-   "fix": "Check for vacuum where the lines meet the actuators, then work back through the reservoir, hoses and switchover valves, teeing in a gauge on each section. Owners regularly find split connectors or perished rubber fittings. Remember the 500 GE has no front lock, so there's nothing to fix there.",
+   "fix": "Check for vacuum where the lines meet the actuators, then work back through the reservoir, hoses and switchover valves, teeing in a gauge on each section. Owners regularly find split connectors or perished rubber fittings. Remember the 500 GE has no front lock, so there's nothing to fix there. PistonHeads warns that G-Class diffs can seize if they're rarely used, so exercise the locks rather than leaving them for an emergency. PistonHeads gives a diff oil change every 40,000 km (≈25,000 mi) with heavy off-road use, or every 60,000 km (≈37,000 mi) on a mainly on-road truck.",
    "tools": "Hand vacuum pump with gauge · vacuum tees and line · replacement connectors",
    "parts": [
     {
@@ -266,6 +266,22 @@
      "name": "Genuine Mercedes vacuum hose 000 158 14 35",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-vacuum-hose-0001581435"
+    }
+   ],
+   "know": [
+    "Classic & Sports Car says to confirm the transfer box and diff locks work without noise on a test drive."
+   ],
+   "mistakes": [
+    "Leaving the locks unused for years, then forcing them on a trail."
+   ],
+   "refs": [
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "Classic & Sports Car: Buyer's guide, Mercedes-Benz G-Wagen",
+     "url": "https://classicandsportscar.com/node/55200"
     }
    ]
   },
@@ -350,7 +366,7 @@
    "time": "Ongoing",
    "cost": "$400–8,000 (W463 typical)",
    "symptoms": "Bubbling at the tailgate's lower edge, door bottoms and sills; scale on the rear frame tubes and strut mounts.",
-   "fix": "Catch it early: blast and treat, or weld in repair panels. Cavity-wax the doors and underbody and keep drain holes clear. On a car this rare, use original-spec panels and keep the paint code (DB3338) correct.",
+   "fix": "Catch it early: blast and treat, or weld in repair panels. Cavity-wax the doors and underbody and keep drain holes clear. On a car this rare, use original-spec panels and keep the paint code (DB3338) correct. Classic & Sports Car's rust checklist for the G is the rear corners of the body including the inner wings, the bottom of the rear door, and the damper top mounts, visible in the wheel arch. PistonHeads adds the tailgate and the areas around the back lights, and says rust was a much bigger problem on pre-1991 trucks.",
    "tools": "Wire wheel or blaster · rust converter and primer · cavity wax · welder for panel repair",
    "parts": [
     {
@@ -362,6 +378,70 @@
      "name": "Eastwood Rust Encapsulator + Internal Frame Coating Plus kit",
      "supplier": "Eastwood",
      "url": "https://www.eastwood.com/rust-encapsulator-internal-frame-coating-plus-combo-kit.html"
+    }
+   ],
+   "refs": [
+    {
+     "name": "Classic & Sports Car: Buyer's guide, Mercedes-Benz G-Wagen",
+     "url": "https://classicandsportscar.com/node/55200"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    }
+   ]
+  },
+  {
+   "title": "Overheating and a clogged radiator",
+   "diff": "2 / 5",
+   "time": "≈ half a day (estimate)",
+   "cost": "Radiator, thermostat and hoses",
+   "symptoms": "The gauge climbing in traffic or towing, coolant smells, or coolant loss. Classic & Sports Car says overheating and cylinder-head warping are common on G-Wagen engines and that overheating and head-gasket failure can affect most of them.",
+   "fix": "Pressure-test the cooling system cold and look for leaks at the hoses, radiator tanks and water pump. Check the fan clutch or electric fan engages when hot. Classic & Sports Car says to budget for a new radiator if the old one is original, because it will be clogged, especially on iron-block/alloy-head engines. Replace the thermostat and hoses at the same time, flush the block, refill with the coolant your manual specifies and bleed the system. If the truck has already overheated badly, check for head-gasket failure (combustion gas in the coolant, white smoke, oil-coolant mixing) before spending on the radiator.",
+   "tools": "Cooling-system pressure tester · drain pan · hose-clamp pliers · combustion-leak (block) tester",
+   "parts": [],
+   "know": [
+    "Classic & Sports Car also lists coolant, oil and fuel leaks, timing-chain rattle and vacuum leaks among its engine checks.",
+    "The 500 GE is a rare, mostly imported truck, so find a source for the radiator before you take the old one out."
+   ],
+   "mistakes": [
+    "Fitting a new radiator to an engine that has already blown its head gasket.",
+    "Driving on after the gauge climbs: warped heads are the expensive outcome Classic & Sports Car warns about."
+   ],
+   "cost_note": "No prices in these sources.",
+   "refs": [
+    {
+     "name": "Classic & Sports Car: Buyer's guide, Mercedes-Benz G-Wagen",
+     "url": "https://classicandsportscar.com/node/55200"
+    }
+   ]
+  },
+  {
+   "title": "Broken coil springs and tired dampers",
+   "diff": "2 / 5",
+   "time": "≈ 2–4 hours per axle (estimate)",
+   "cost": "Springs and dampers, in axle pairs",
+   "symptoms": "A clunk or noise when turning, the truck sitting lower on one corner, or a crashing ride. PistonHeads says W463 springs break, especially the rear ones and often after heavy off-road use, and that the standard ride is very firm.",
+   "fix": "With the truck on stands and the axle supported, inspect each coil for a broken end turn; the break often hides at the top or bottom seat. On MBWorld, DUTCH says to \"DEFINITELY, replace both springs\" on an axle, not just the broken one, and that the factory shocks are Bilsteins. Replace the dampers at the same time if they're leaking or tired; PistonHeads says fitting Bilsteins eases the ride. Fit springs that match the truck's weight and any armour or winch, and check the ride height side to side afterwards.",
+   "tools": "Jack and axle stands · axle support · spring compressor if your workshop manual calls for one · torque wrench",
+   "parts": [],
+   "know": [
+    "On MBWorld, grane says the rear springs on his 2002 G 500 were replaced under warranty at about 20,000 miles and he later found a broken front spring.",
+    "Another MBWorld owner's dealer recommended replacing both front springs after one broke."
+   ],
+   "mistakes": [
+    "Replacing only the broken spring.",
+    "Lowering the axle without supporting it and stretching the brake hoses."
+   ],
+   "cost_note": "No prices in these sources.",
+   "refs": [
+    {
+     "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "MBWorld: Advice on G500 rear springs and shocks",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/471994-advice-g500-rear-springs-shocks.html"
     }
    ]
   }

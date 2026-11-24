@@ -292,5 +292,99 @@
    "name": "g-class-experience.com — G-Class Experience",
    "url": "https://g-class-experience.com/en/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Europa International G-Class (1993–2001) maintenance: no factory schedule is online for these imports, so this is a baseline plus PistonHeads' W463 intervals and the M104 jobs PeachParts flags.",
+  "intro": "The Europa International trucks were imported outside Mercedes-Benz USA, and we couldn't find a factory maintenance schedule for them online. This page is a purchase baseline with the W463 diff and engine-oil intervals PistonHeads gives, plus the M104 inline-six jobs PeachParts warns about. Later V8 Europas (M113) share their engine with the US G 500, whose page has the Service A/B detail.",
+  "schedule_note": "No factory schedule online. Baseline, plus PistonHeads' W463 intervals and PeachParts' M104 notes.",
+  "schedule": [
+   {
+    "at": "At purchase (unknown history)",
+    "items": [
+     "Engine oil and filter, air and fuel filters, spark plugs (and coil connectors on the M104)",
+     "Coolant, thermostat and hoses; drive belt and tensioner",
+     "Automatic transmission fluid and filter",
+     "Transfer case, both differentials and the front knuckles",
+     "Brake fluid",
+     "M104 G 320 (1994–95): inspect the engine wiring harness insulation",
+     "Test all three diff locks"
+    ]
+   },
+   {
+    "at": "As often as every 6,000 mi",
+    "items": [
+     "Engine oil and filter (PistonHeads' 'extra care' interval for W463s)"
+    ]
+   },
+   {
+    "at": "Every 40,000 mi",
+    "items": [
+     "Front knuckles, swivels and wheel bearings (the Europa interval in our buyer's baseline)"
+    ]
+   },
+   {
+    "at": "Every 40,000 km (≈25,000 mi) off-road / 60,000 km (≈37,000 mi) on-road",
+    "items": [
+     "Front and rear differential oil (PistonHeads)"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid (common Mercedes practice; check your booklet)"
+    ]
+   }
+  ],
+  "severe": "Use PistonHeads' 40,000 km diff interval for off-road use, and check the diffs, transfer case and knuckles for water after crossings.",
+  "age_items": [
+   {
+    "item": "M104 engine wiring harness (1993–95)",
+    "when": "At purchase and before any intake work",
+    "why": "PeachParts says the insulation flakes off and causes shorts and check-engine faults."
+   },
+   {
+    "item": "M104 head gasket",
+    "when": "Look for oil or coolant at the head at every service",
+    "why": "One 1995 G 320's gasket failed at about 135,000 miles (500E Board)."
+   },
+   {
+    "item": "Serpentine belt tensioner (M104 through 1995)",
+    "when": "When the belt is changed",
+    "why": "PeachParts says it's pricey and often fails on reassembly."
+   },
+   {
+    "item": "Battery drain and electrics",
+    "when": "If the battery goes flat while parked",
+    "why": "PistonHeads lists battery drain as a known issue on pre-2004 W463s."
+   },
+   {
+    "item": "Coil springs",
+    "when": "Every service",
+    "why": "PistonHeads says W463 springs break, especially at the rear."
+   },
+   {
+    "item": "Diff locks",
+    "when": "Exercise them monthly",
+    "why": "PistonHeads warns rarely used diffs can seize."
+   }
+  ],
+  "sources": [
+   {
+    "name": "PistonHeads: Mercedes G-Class (W463) PH used buying guide",
+    "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+   },
+   {
+    "name": "PeachParts Wiki: M104 head gasket",
+    "url": "https://peachparts.com/Wikka/M104HeadGasket"
+   },
+   {
+    "name": "PeachParts forum: 104.992 (1994) common issues",
+    "url": "https://www.peachparts.com/shopforum/tech-help/238953-104-992-1994-common-issues-compiled.html"
+   },
+   {
+    "name": "500E Board: My second M104 top-end rebuild, 1995 G320",
+    "url": "https://www.500eboard.co/forums/threads/my-second-m104-top-end-rebuild-1995-g320-g-wagen.20442"
+   }
+  ]
+ }
 }
