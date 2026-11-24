@@ -44,6 +44,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 | Nov 22, 2026 | "Jeep Wrangler JK: 5 things to check first" Reel (24 s; plate already blurred in the Lake Mead source). Instagram Reel DgDU8ovuGqv, YouTube Short DrKCUs9pUeQ with pinned comment, Pinterest 1128292512946880264; X in the weekly round-up; TikTok skipped, paused. Photos: Brady Cook, CC0; Andrew Cattoir, NPS; K4urram, CC BY-SA 4.0 | `posts/27-jeep-jk-checks.mp4` |
 | Nov 23, 2026 | "G-Wagon W463 years to avoid, and the one I bought" carousel (5 slides; slide 4 swapped from a parked-on-paving shot to the Schöckl forest-track photo, plates blurred in both Schöckl source images). Instagram DgF53VZnM8-, Pinterest 1128292512946955755; X in the weekly round-up; TikTok skipped, paused. Photos: Hank; Ben - PTM11, CC BY-SA 4.0; Bahnfrend, CC BY-SA 3.0 | `posts/28-g-wagon-years-1..5.jpg` |
 | Nov 23, 2026 | Evening tire Short: Lada Niva (VAZ-2121 / 4x4 Legend) (background SUV plate blurred in niva-mud-volcanoes-azerbaijan, video re-rendered). YouTube GHP89ED6uT4 with pinned comment, Instagram Reel DgGcSo7u6v4, Pinterest 1128292512946974945, TikTok 7711496744328072478; X in the weekly round-up. Photos: Игоревич, public domain; Jeylan Amiraliyeva / Pexels; Richard Mortel, CC BY 2.0 | `posts/shorts/tires-niva-niva.mp4` |
+| Nov 24, 2026 | "Jeep Wrangler best years: every generation" carousel (6 slides; plates checked, none readable). Instagram DgIegmPHJBB, Pinterest 1128292512947031202; X in the weekly round-up. Photos: Carlos Velez, Salem Jeepers, via BLM; John Johnson, BLM California; Mtxchevy; Brady Cook, CC0; BLM California | `posts/29-wrangler-years-every-gen-1..6.jpg` |
 | Nov 22, 2026 | Media kit "work with us" post (Hank's request): Instagram https://www.instagram.com/boxytrucks/p/DgDouVSG_ju/, X https://x.com/boxytrucks/status/2124597183836021210 (accidental duplicate 2124597334311145855 deleted Nov 22). Photo: Hank's own G 500 | `posts/mk/media-kit-post.jpg` |
 | Nov 22, 2026 | Evening tire Short: Mercedes Unimog 404 (eyebrow fixed). YouTube mMe35RykiGs with pinned comment, Instagram Reel DgD_V7puBL2, Pinterest 1128292512946902190; X in the weekly round-up; TikTok skipped, paused. Photos: McKay Savage, CC BY 2.0; Fvanweerdenburg, CC BY-SA 2.5 | `posts/shorts/tires-unimog-unimog-404.mp4` |
 | Nov 1, 2026 | "Wrangler or Bronco?" (Oct 31 slot, posted a day late after an internet outage), CTA to boxytrucks.com/compare. Photos: BLM California (public domain); Thomas Tucker / Unsplash | `posts/04-jl-vs-bronco.jpg` |
@@ -119,6 +120,7 @@ Mix shift from the Nov 16 scoreboard: Hank's own footage averaged 714 views acro
 | 24 | Nov 21 | Reel | 100 Series checks (scheduled earlier) |
 | 27 | Nov 22 | Reel | Jeep JK checks |
 | 28 | Nov 23 | Carousel | G-Wagon W463 years to avoid (Hank's G 500 photos) |
+| 29 | Nov 24 | Carousel | Jeep Wrangler best years, every generation |
 | 29 | Nov 24 | Carousel | Wrangler every generation: years to buy and avoid |
 | 30 | Nov 25 | Reel | Bronco (2021–) checks |
 | 31 | Nov 28 | Reel | Prado 150 checks |
