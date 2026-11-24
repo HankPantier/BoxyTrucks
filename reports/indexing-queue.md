@@ -24,3 +24,9 @@
 - Search Console: 1.33K indexed, 83 not indexed (unchanged from Nov 22: 35 Discovered, 16 Crawled-not-indexed, 26 alternate canonical, 3 noindex, 3 redirect).
 - Requested 11: 4th Gen 4Runner guide (crawled, not indexed since Oct 23); the four new maintenance pages (Pajero gen1, early Bronco, Delica L300, Space Gear); new repair guides: Pajero 4D56 timing belts, Pajero front-end groan, early Bronco water leaks, early Bronco running hot, L300 rust, Space Gear 4M40 timing chain. Quota Exceeded on the 12th (Pajero rear trailing-arm bushes; queued as todo).
 - Already on Google (marked indexed): CJ-8, Comanche, Grand Wagoneer, JK, JL, JL Unlimited, SJ Wagoneer and TJ Unlimited problems; Bronco II years and tires; early Bronco tires. Most of the old todo list is now indexed, so new deep-dive pages go first from now on.
+
+## Nov 24, 2026 (13:4x–14:2x ET)
+- Search Console: 1.33K indexed, 83 not indexed (unchanged: 35 Discovered, 16 Crawled-not-indexed, 26 alternate canonical, 3 noindex, 3 redirect).
+- Added the 15 pages from today's G-Class deep dive (3 maintenance pages, 7 new guides, 5 deepened and taken off noindex) to the top of the queue.
+- Requested 11 (all "URL is unknown to Google"): yesterday's 3 leftovers (Pajero rear trailing-arm bushes, Space Gear cooling, Space Gear sliding door); G 500 4x4², 500 GE and Europa maintenance pages; 4x4² dampers, portal-axle oil and recall 17V-713; 500 GE overheating and springs. Quota Exceeded on the 12th (Europa wiring harness; next).
+- Pages report: unchanged from Nov 23, nothing new to add.
