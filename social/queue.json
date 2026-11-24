@@ -878,7 +878,7 @@
  },
  {
   "n": 32,
-  "date": "2026-11-26",
+  "date": "2026-12-01",
   "format": "reel",
   "video": "social/hooks/fj-windshield.mp4",
   "source": "social/hooks/fj-windshield.json",
@@ -904,7 +904,7 @@
   "status": "queued",
   "x_status": "roundup",
   "ai_voice": true,
-  "note": "Thursday is the 'From Hank's garage' slot. If Hank sends new garage photos or clips by Wed Nov 25 9 pm ET, post From Hank's garage #04 instead (after his approval) and move this to Dec 1."
+  "note": "Moved from Nov 26 to Dec 1 on Nov 24: Thanksgiving post (Hank's request, using his G 500 photos) takes Thursday."
  },
  {
   "n": 33,
@@ -962,5 +962,34 @@
   "status": "queued",
   "x_status": "roundup",
   "ai_voice": true
+ },
+ {
+  "n": "thanksgiving-2026",
+  "date": "2026-11-26",
+  "format": "reel",
+  "video": "social/posts/thanksgiving-2026.mp4",
+  "spec": "social/reels/thanksgiving-2026.json",
+  "pillar": "community",
+  "family": "g-class",
+  "link": "",
+  "title": "Happy Thanksgiving from Boxy Trucks",
+  "caption": "Happy Thanksgiving from Boxy Trucks.\n\nThank you for riding along this year. Every follow, save, share and question has helped us build a free guide to boxy 4x4s: which years to buy, what breaks, what fits and how to fix it.\n\nIf it's helped you, here's how to help us grow:\n→ Follow @boxytrucks for a new truck every day\n→ Subscribe to Boxy Trucks on YouTube\n→ Share this with the friend who still talks about the truck they sold\n→ Get the free Boxy Dispatch and an inspection checklist at boxytrucks.com\n\nWhich truck are you thankful for this year? Tell us below.\n\nPhotos: Hank's 2007 G 500 · BoxyTrucks\n\n#thanksgiving #4x4 #offroad #gwagon",
+  "x_text": "Happy Thanksgiving from Boxy Trucks.\n\nThank you for riding along this year. If our guides have helped you, follow, subscribe and share them with a friend who loves boxy 4x4s.\n\nWhich truck are you thankful for?",
+  "x_reply": "Free guides to every boxy 4x4, and the Boxy Dispatch newsletter: https://boxytrucks.com/?utm_source=x&utm_medium=social&utm_campaign=thanksgiving#nl-h",
+  "yt_title": "Happy Thanksgiving from Boxy Trucks (and Hank's G 500)",
+  "yt_description": "Happy Thanksgiving from Boxy Trucks. Thank you for riding along this year: every view, comment and share has helped us build a free guide to boxy 4x4s, with the years to buy, what breaks, what fits and how to fix it.\n\nSubscribe for a new boxy truck every day, and share this with the friend who still talks about the truck they sold.\n\nFree guides and the Boxy Dispatch newsletter: https://boxytrucks.com/?utm_source=youtube&utm_medium=social&utm_campaign=thanksgiving#nl-h\n\nPhotos: Hank's 2007 G 500 · BoxyTrucks",
+  "yt_comment": "Thank you for watching, and happy Thanksgiving. That's Hank's 2007 G 500 in the photos. Which truck are you thankful for this year? If our guides have helped you, subscribing and sharing them is the best way to help us grow. Free guides and the Boxy Dispatch newsletter: https://boxytrucks.com/?utm_source=youtube&utm_medium=comment&utm_campaign=thanksgiving#nl-h",
+  "tt_description": "Happy Thanksgiving from Boxy Trucks. Thank you for riding along this year. Follow for a new boxy truck every day, and share this with the friend who still talks about the truck they sold. Which truck are you thankful for? ",
+  "tt_hashtags": [
+   "#thanksgiving",
+   "#4x4",
+   "#offroad"
+  ],
+  "pin_title": "Happy Thanksgiving from Boxy Trucks",
+  "pin_description": "Happy Thanksgiving from Boxy Trucks, and thank you for riding along this year. Free guides to boxy 4x4s: the years to buy, what breaks, what fits and how to fix it. Photos: Hank's 2007 G 500 · BoxyTrucks",
+  "pin_link": "https://boxytrucks.com/?utm_source=pinterest&utm_medium=social&utm_campaign=thanksgiving#nl-h",
+  "status": "queued",
+  "x_status": "queued (Hank, Nov 24: Thanksgiving post goes to all platforms, X included)",
+  "note": "Hank, Nov 24: 'Please add a Happy Thanksgiving from Boxy Trucks post to all on Thursday. Invite people to subscribe, follow, share. Thank them for their support.' One-off holiday post, unnumbered."
  }
 ]

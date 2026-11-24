@@ -1,0 +1,41 @@
+{
+ "out": "social/posts/thanksgiving-2026.mp4",
+ "url": "boxytrucks.com",
+ "credit": "Photos: Hank · BoxyTrucks",
+ "scenes": [
+  {
+   "photo": "site/img/g-class/hank-g500-three-quarter.jpg",
+   "pos": "50% 50%",
+   "dur": 3.4,
+   "hook": true,
+   "align": "top",
+   "eyebrow": "From Hank's garage",
+   "title": "Happy Thanksgiving from Boxy Trucks"
+  },
+  {
+   "photo": "site/img/g-class/hank-g500-front-woods.jpg",
+   "pos": "50% 50%",
+   "dur": 3.8,
+   "eyebrow": "Thank you",
+   "title": "For riding along.",
+   "body": "Every follow, save, share and question this year has helped build a free guide to boxy 4x4s."
+  },
+  {
+   "photo": "site/img/g-class/hank-g500-lights-rain.jpg",
+   "pos": "50% 50%",
+   "dur": 3.8,
+   "eyebrow": "Help us grow",
+   "title": "Follow. Subscribe. Share.",
+   "body": "Send this to the friend who still talks about the truck they sold."
+  },
+  {
+   "photo": "site/img/g-class/hank-g500-three-quarter.jpg",
+   "pos": "40% 50%",
+   "dur": 3.4,
+   "cta": true,
+   "eyebrow": "boxytrucks.com",
+   "title": "Have a great holiday.",
+   "body": "Which truck are you thankful for?"
+  }
+ ]
+}
