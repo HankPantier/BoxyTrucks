@@ -124,10 +124,27 @@ def queue():
     print(f'{len(rows)} years Shorts queued ({sum(r["status"] == "posted" for r in rows)} posted)')
 
 
+SERIES = 'Years to avoid'
+
+
 def render(n):
     rows = json.loads(QUEUE.read_text())
     todo = [r for r in rows if r['status'] not in ('posted', 'hold') and not (ROOT / r['video']).exists()][:n]
+    # Numbered series (STRATEGY.md, Hank Nov 23): the number continues from posted items plus any already-rendered queued ones.
+    n = sum(1 for r in rows if r['status'] == 'posted' or r.get('series_no'))
     for r in todo:
+        if not r.get('series_no'):
+            n += 1
+            r['series'], r['series_no'] = SERIES, n
+            for k in ('ig_caption', 'pin_title', 'tt_description'):
+                if not r.get(k): continue
+                r[k] = (f'{SERIES} #{n:02d}' + r[k][len(SERIES):]) if r[k].lower().startswith(SERIES.lower()) else f'{SERIES} #{n:02d}: ' + r[k]
+                r[k] = (r[k].replace(': the years to avoid, and the one to buy.', ', and the one to buy.')
+                        .replace(' years to avoid, and the best year to buy', ', and the best year to buy').replace(' years to avoid: ', ': avoid '))
+            if r.get('yt_title') and len(r['yt_title']) < 92: r['yt_title'] = f'#{n:02d} ' + r['yt_title']
+        spec = json.loads((ROOT / r['spec']).read_text()); spec['badge'] = f"#{r['series_no']:02d}"
+        (ROOT / r['spec']).write_text(json.dumps(spec, indent=1, ensure_ascii=False))
+        QUEUE.write_text(json.dumps(rows, indent=1, ensure_ascii=False))
         subprocess.run(['node', str(ROOT / 'social' / 'reels' / 'make_reel.js'), str(ROOT / r['spec'])], check=True)
         mb = (ROOT / r['video']).stat().st_size / 1e6
         print(f'{r["id"]}: {mb:.1f} MB' + ('  (OVER 10 MB: TikTok web upload will refuse)' if mb > 10 else ''))

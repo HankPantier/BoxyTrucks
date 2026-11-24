@@ -1,5 +1,8 @@
 # Spec Sheet series (twice a week)
 
+> **Nov 24, 2026 mix change (weekly planning, from the Nov 23 scoreboard): Instagram gets Reels only.** Spec sheets, spec stacks and single-image posts go to Pinterest only, not Instagram, because 15 singles averaged 44 IG views and 17 carousels 58, against 2,227 for the 2 reader-rig Reels, 884 for the 3 data-hook Reels, 141 for 9 years Reels and 117 for 17 tire Reels. Targets per week: 3 reader-rig Reels (when owners submit), 2 data-hook Reels ("By the numbers #NN": one surprising, sourced number from our pages, voice B), and years-to-avoid Reels. Carousels stay only for Hank's own trucks. For this format: post to Pinterest (and YouTube Community if the procedure says so); skip Instagram, and log ig_status "skipped (Reels only, Nov 24)".
+
+
 Hank, Nov 11, 2026: "I love this — not for always but for something different worked into the schedule."
 Inspired by the one-page build sheets on @the_landcruisers_official: a single 1080x1350 image with a hero photo, two detail tiles,
 a spec table, which years to buy or avoid, five things to check and either an owner note (Hank's own words) or the guide's short verdict.

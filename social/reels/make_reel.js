@@ -1,5 +1,5 @@
 // Usage: node social/reels/make_reel.js social/reels/<spec>.json  ->  social/posts/<out>.mp4
-// Spec: {out, fps, credit, scenes:[{photo, pos:"50% 50%", zoom:[1.05,1.18], dur, eyebrow, title, body, cta:true}]}
+// Spec: {out, fps, credit, badge:"#NN" (numbered series, optional), scenes:[{photo, pos:"50% 50%", zoom:[1.05,1.18], dur, eyebrow, title, body, cta:true}]}
 const fs = require('fs'), path = require('path'), { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -24,11 +24,12 @@ h1{font-size:104px;line-height:.98;letter-spacing:-.035em;font-weight:600;margin
 .url{display:none}
 .cr{position:absolute;left:80px;right:170px;bottom:470px;font-family:'IBM Plex Mono',monospace;font-size:19px;color:rgba(228,223,211,.62);z-index:3}
 .top .tx{top:250px;bottom:auto}.hook h1{font-size:128px;line-height:.95}.hook .ey{font-size:32px}.top .sh{background:linear-gradient(0deg,rgba(14,15,14,.85) 0%,rgba(14,15,14,0) 22%,rgba(14,15,14,0) 50%,rgba(14,15,14,.85) 75%,#0E0F0E 100%)}
-.bar{position:absolute;left:0;top:0;height:6px;background:#C9A86A}</style></head><body>
+.bar{position:absolute;left:0;top:0;height:6px;background:#C9A86A}
+.badge{position:absolute;right:80px;top:146px;z-index:3;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:32px;letter-spacing:.08em;color:#0E0F0E;background:#C9A86A;padding:8px 18px 6px}</style></head><body>
 ${scenes.map((s, i) => `<div class="sc${s.cta ? ' cta' : ''}${s.align === 'top' ? ' top' : ''}${s.hook ? ' hook' : ''}" id="s${i}"><div class="ph" style="background-image:url(${img(s.photo)});background-position:${s.pos || '50% 50%'};transform-origin:${s.origin || '50% 50%'}"></div><div class="sh"></div>
 <div class="tx">${s.eyebrow ? `<div class="ey">${esc(s.eyebrow)}</div>` : ''}${s.title ? `<h1>${esc(s.title)}</h1>` : ''}${s.body ? `<p class="bd">${esc(s.body)}</p>` : ''}</div></div>`).join('')}
 <div class="brand">${mark}<span>BOXY TRUCKS</span><span class="url">${esc(spec.url || 'boxytrucks.com')}</span></div>
-<div class="cr">${esc(spec.credit || '')}</div><div class="bar" id="bar"></div>
+<div class="cr">${esc(spec.credit || '')}</div><div class="bar" id="bar"></div>${spec.badge ? `<div class="badge">${esc(spec.badge)}</div>` : ''}
 <script>const S=${JSON.stringify(scenes.map(s => ({ start: s.start, dur: s.dur, zoom: s.zoom || [1.04, 1.16] })))},T=${total},F=${FADE};
 const ease=x=>x<0?0:x>1?1:1-Math.pow(1-x,3);
 window.render=t=>{S.forEach((s,i)=>{const el=document.getElementById('s'+i),l=t-s.start;

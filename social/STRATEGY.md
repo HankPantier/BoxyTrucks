@@ -50,6 +50,8 @@ Borrowed from @the_landcruisers_official ("FROM JAPAN #026"). Every recurring fo
 - Reels get more than 4x the interactions.
 - Reels are ranked mostly on watch time. Sends (shares) matter most for reaching non-followers. 30–60 seconds is the sweet spot.
 
+> **Nov 24, 2026 mix change (weekly planning, from the Nov 23 scoreboard): Instagram gets Reels only.** Spec sheets, spec stacks and single-image posts go to Pinterest only, not Instagram, because 15 singles averaged 44 IG views and 17 carousels 58, against 2,227 for the 2 reader-rig Reels, 884 for the 3 data-hook Reels, 141 for 9 years Reels and 117 for 17 tire Reels. Targets per week: 3 reader-rig Reels (when owners submit), 2 data-hook Reels ("By the numbers #NN": one surprising, sourced number from our pages, voice B), and years-to-avoid Reels. Carousels stay only for Hank's own trucks. This overrides the weekly rhythm table below until the Nov 30 rebalance.
+
 ## Weekly rhythm (7 posts: 3 singles, 2 carousels, 2 Reels)
 | Day | Format | What |
 |---|---|---|

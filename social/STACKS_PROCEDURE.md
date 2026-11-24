@@ -1,5 +1,8 @@
 # Weekly spec stack (Tuesdays, 3:41 pm ET)
 
+> **Nov 24, 2026 mix change (weekly planning, from the Nov 23 scoreboard): Instagram gets Reels only.** Spec sheets, spec stacks and single-image posts go to Pinterest only, not Instagram, because 15 singles averaged 44 IG views and 17 carousels 58, against 2,227 for the 2 reader-rig Reels, 884 for the 3 data-hook Reels, 141 for 9 years Reels and 117 for 17 tire Reels. Targets per week: 3 reader-rig Reels (when owners submit), 2 data-hook Reels ("By the numbers #NN": one surprising, sourced number from our pages, voice B), and years-to-avoid Reels. Carousels stay only for Hank's own trucks. For this format: post to Pinterest (and YouTube Community if the procedure says so); skip Instagram, and log ig_status "skipped (Reels only, Nov 24)".
+
+
 Hank, Nov 6, 2026: work comparison graphics in occasionally, a spec stack about weekly. Use 3–4 trucks when the data
 allows, not just 2. Inspired by the "1993 Bronco / K5 / Ramcharger / Yukon" spec-sheet posts, done our way.
 
