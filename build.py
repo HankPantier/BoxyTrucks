@@ -1636,6 +1636,13 @@ def main():
         PICKS = jload(_pf[0])
         for _p in PICKS['picks']:
             _p['href'] = _gen_link(_p['fam'], _p.get('gen'), 'problems')
+            _pg = pages.get(_p['fam'], {}).get(_p.get('gen') or '') or {}
+            _hf = _pg.get('hero_photo')
+            if _hf:
+                _ph = next((x for x in _pg.get('photos', []) if x.get('file') == _hf), {})
+                _p['photo'] = f"img/{_p['fam']}/{_hf}"
+                _p['photo_credit'] = _ph.get('credit', '')
+                _p['photo_alt'] = f"A {mlabel(fams[_p['fam']]['maker'], _pg.get('title', ''))} (example photo, not the truck for sale)"
             _e = datetime.datetime.fromisoformat(_p['ends'].replace('Z', '+00:00')).astimezone(datetime.timezone(datetime.timedelta(hours=-5)))
             _p['ends_h'] = f'{_e:%a %b} {_e.day}, {_e.strftime("%I:%M %p").lstrip("0")} ET'
         PICKS['bids_as_of_h'] = _dh(PICKS['bids_as_of'])

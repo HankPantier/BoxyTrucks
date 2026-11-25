@@ -1192,3 +1192,7 @@ main section.rep-sec { contain-intrinsic-size: auto 56px; }
 .fs-nr { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid currentColor; padding: 2px 6px; }
 .fs-ends { font-size: 12px; opacity: .7; }
 @media (max-width: 520px) { .mr-notable li { grid-template-columns: 1fr; gap: 2px; } }
+.fs-card { padding-top: 0; }
+.fs-ph { margin: 0 -18px 4px; position: relative; }
+.fs-ph img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; border-bottom: 1px solid var(--ink); }
+.fs-ph figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 10px 6px; font-size: 11px; line-height: 1.3; color: #F7F4EE; background: linear-gradient(transparent, rgba(0,0,0,.65)); }

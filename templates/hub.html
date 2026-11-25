@@ -91,6 +91,7 @@
     <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">This week's picks · {{ FS_PICKS.title }}</span><h2>Boxy trucks for sale this week</h2></div></div>
     <p class="sub-intro">{{ FS_PICKS.intro }}</p>
     <div class="fs-grid">{% for pk in FS_PICKS.picks %}<article class="fs-card">
+      {% if pk.photo %}<figure class="fs-ph"><img src="{{ root }}{{ pk.photo }}" alt="{{ pk.photo_alt }}" loading="lazy"><figcaption>Same model, not this truck{% if pk.photo_credit %} · {{ pk.photo_credit }}{% endif %}</figcaption></figure>{% endif %}
       <div class="fs-top"><span class="mono fs-bid">${{ '{:,}'.format(pk.bid) }} bid</span>{% if pk.no_reserve %}<span class="fs-nr">No reserve</span>{% endif %}</div>
       <h3><a href="{{ pk.url }}" target="_blank" rel="noopener" data-fs-click="{{ loop.index }}">{{ pk.title }} ↗</a></h3>
       <p class="fs-ends mono">Ends {{ pk.ends_h }}</p>

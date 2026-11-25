@@ -15,3 +15,8 @@ Bring a Trailer's own pages are the source. WebFetch can't reach them, so use Ch
 - **Weekly:** write `data/for-sale/YYYY-MM-DD.json` with 8 picks: title, url, bid, ends (UTC ISO), no_reserve, fam, gen, and a context line built only from the latest market report. The newest file shows on /for-sale/#picks.
 - Then build, check both pages at 400 px, commit and push. Put the picks in the next Dispatch draft (NEWSLETTER.md "For sale this week").
 - **Credit:** link to BaT and quote no listing text, only titles, prices and dates.
+
+## Photos on the picks (Hank, Nov 25, 2026)
+Each card shows our own licensed hero photo for that generation, captioned "Same model, not this truck · credit". We never use Bring a Trailer's listing photos. Before publishing, check every card's photo:
+- No readable plates. If one is readable, blur it in the source under site/img/ and delete its site/img/_r/ variants.
+- No parked, street or lot shots. If the generation only has parked photos (as with the GX 470 on Nov 25), swap that pick for a truck whose generation has an off-road photo.
