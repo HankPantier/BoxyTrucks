@@ -784,6 +784,19 @@ def main():
     NOTES.sort(key=lambda n: n['date'], reverse=True)
     env.globals['latest_notes'] = [n for n in NOTES if n.get('category') != 'rig'][:3]
     env.globals['latest_rig'] = next((n for n in NOTES if n.get('category') == 'rig'), None)
+    # Reader rigs on their generation pages (Hank, Nov 24, 2026): data/rigs/*.json -> "fam/gen" -> cards
+    READER_RIGS = {}
+    for _rf in sorted((DATA / 'rigs').glob('*.json')) if (DATA / 'rigs').exists() else []:
+        _r = jload(_rf) or {}
+        if _r.get('status') != 'published' or not _r.get('page_photos'):
+            continue
+        _note = next((n for n in NOTES if n.get('category') == 'rig' and n['slug'] == _r.get('note_slug')), None)
+        READER_RIGS.setdefault(f"{_r['family']}/{_r['gen']}", []).append({
+            'title': _r.get('page_title') or f"{_r.get('year', '')} {_r.get('truck_name', '')}".strip(),
+            'owner': _r.get('owner'), 'instagram': _r.get('instagram'), 'based_in': _r.get('based_in'),
+            'blurb': _r.get('page_blurb'), 'disclosure': _r.get('page_disclosure'),
+            'photos': _r['page_photos'], 'note_href': f"field-notes/{_note['slug']}/index.html" if _note else None})
+    env.globals['READER_RIGS'] = READER_RIGS
 
     # ---- Reader deals (data/deals.json): live only with a code and inside start..end ----
     _today = datetime.date.today().isoformat()

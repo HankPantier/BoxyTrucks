@@ -1,0 +1,15 @@
+{% set rr = READER_RIGS.get(fam.slug ~ '/' ~ gen_slug) if fam is defined else None %}{% if rr %}
+      <section class="reader-rigs" aria-label="Reader rigs">
+        <div class="rr-head"><span class="eyebrow">Reader rig{% if rr|length > 1 %}s{% endif %}</span>{% if latest_rig is defined %}<a class="inline-link" href="{{ root }}field-notes/show-us-your-rig/index.html">Show us your rig →</a>{% endif %}</div>
+        {% for r in rr %}<article class="rr-card">
+          <div class="rr-photos">{% for ph in r.photos[:3] %}<figure><img src="{{ root }}{{ ph.file }}" alt="{{ ph.alt }}" loading="lazy"></figure>{% endfor %}</div>
+          <div class="rr-body">
+            <h3>{{ r.title }}</h3>
+            <p class="rr-who">{{ r.owner }}{% if r.based_in %} · {{ r.based_in }}{% endif %}{% if r.instagram %} · <a class="inline-link" href="https://www.instagram.com/{{ r.instagram }}/" target="_blank" rel="noopener">@{{ r.instagram }} ↗</a>{% endif %}</p>
+            {% if r.blurb %}<p>{{ r.blurb }}</p>{% endif %}
+            {% if r.disclosure %}<p class="rr-disc">{{ r.disclosure }}</p>{% endif %}
+            {% if r.note_href %}<a class="btn solid" href="{{ root }}{{ r.note_href }}">Read the full build →</a>{% endif %}
+            <p class="rr-credit">Photos: {{ r.owner }}{% if r.instagram %} (@{{ r.instagram }}){% endif %}, used with permission</p>
+          </div>
+        </article>{% endfor %}
+      </section>{% endif %}

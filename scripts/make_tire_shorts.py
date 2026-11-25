@@ -75,7 +75,7 @@ def spec_for(fam, g, page, mt, photos):
     sc = [{'photo': ph(0), 'pos': focus, 'dur': 2.0, 'align': 'top', 'hook': True, 'eyebrow': 'No lift. No cutting.', 'title': f'Biggest tire on a stock {lab}?', 'zoom': [1.0, 1.18]},
           {'photo': ph(0), 'pos': focus, 'dur': 3.2, 'eyebrow': 'Stock height', 'title': mt[0]['size'], 'body': first_sentence(mt[0].get('note')), 'zoom': [1.02, 1.1]}]
     for i, t in enumerate(mt[1:3], start=1):
-        sc.append({'photo': ph(i), 'pos': '50% 55%', 'dur': 3.0, 'eyebrow': f'With a {t["lift"]} lift' if 'lift' not in str(t['lift']).lower() else str(t['lift']), 'title': t['size'], 'body': first_sentence(t.get('note')), 'zoom': [1.05, 1.15]})
+        sc.append({'photo': ph(i), 'pos': '50% 55%', 'dur': 3.0, 'eyebrow': ('With or without a lift' if str(t['lift']).strip().lower() == 'any' else f'With a {t["lift"]} lift' if 'lift' not in str(t['lift']).lower() else str(t['lift'])), 'title': t['size'], 'body': first_sentence(t.get('note')), 'zoom': [1.05, 1.15]})
     sc.append({'photo': ph(len(sc)), 'pos': '50% 50%', 'dur': 3.0, 'eyebrow': url, 'title': 'Every size, every lift.', 'body': 'Follow for a new truck every day.', 'cta': True, 'zoom': [1.04, 1.12]})
     # Hank, Nov 6, 2026: end every Short with a follow ask (works on YouTube, TikTok, IG, X and Pinterest alike).
     used = []
