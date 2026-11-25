@@ -289,7 +289,7 @@
    "time": "Half a day (estimate)",
    "cost": "Seal $12.50 (Expedition Imports)",
    "symptoms": "Fluid weeping from the bottom of the steering box, low power-steering fluid, vague steering.",
-   "fix": "The W461 uses the same LS2 steering box family as the W460 and W463. Replace the sector-shaft seal at the bottom of the box: disconnect the drag link and pull the pitman arm. Heavy play calls for the bearing set and a box rebuild.",
+   "fix": "The W461 uses the same LS2 steering box family as the W460 and W463. Replace the sector-shaft seal at the bottom of the box: disconnect the drag link and pull the pitman arm. Heavy play calls for the bearing set and a box rebuild. Before taking the box apart, check where the fluid is actually coming from. On a G 63 box, one MBWorld owner found the hoses and the top of the box dry; the leak was at a 19 mm nut over a pressure valve, held by a grooved locking plate under a 10 mm nut. Tightening that nut half a turn stopped a leak of about 1/3 quart per 10,000 miles.",
    "tools": "Sector-shaft seal 016 997 13 47 · steering box bearing set · pitman-arm puller",
    "parts": [
     {
@@ -301,6 +301,24 @@
      "name": "Steering box bearing set",
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/steering-box-bearing-set-stbxst/"
+    }
+   ],
+   "know": [
+    "PistonHeads says G-Class steering boxes are often damp.",
+    "The same MBWorld owner adjusted on-center play with the 6 mm Allen inside that 19 mm nut, counterclockwise in 1/8 to 1/4 turn steps, with the wheel-well liner removed. His box was a W463 G 63's, so check yours matches."
+   ],
+   "mistakes": [
+    "Over-tightening the adjuster: the owner believes it speeds wear on the box; go in 1/8-turn steps.",
+    "Replacing the sector seal when the leak is elsewhere."
+   ],
+   "refs": [
+    {
+     "name": "PistonHeads: Mercedes G-Class used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "MBWorld: G63 steering box adjustment and leak fix how-to",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/881291-g63-steering-box-adjustment-leak-fixes-howto.html"
     }
    ]
   },
@@ -379,6 +397,73 @@
      "name": "Floor drain kit (461 trucks)",
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/floor-drain-kit-4616800311kit/"
+    }
+   ]
+  },
+  {
+   "title": "Glow plugs and relay (OM602)",
+   "diff": "3 / 5",
+   "time": "The owner who wrote our source took most of a day",
+   "cost": "Plugs, a manifold gasket and about $30 for a reamer",
+   "symptoms": "Hard cold starts, or the glow light coming on after the engine has started, which points to a fault in the plugs, wiring or relay. Some dead plugs still let it start; with none working it won't.",
+   "fix": "Test the relay first: with the key at the glow position it should click on, then click off about 20–30 seconds later. A PeachParts owner's bypass test: five 12-gauge wires about a foot long, twisted together at one end and plugged into the relay socket one per plug; connect the twisted end to battery positive for 30 seconds, then start. If it starts, the relay or its wiring is at fault. To change the plugs, disconnect the battery, remove the intake manifold (photograph the wiring and fuel lines), ream carbon from each bore by hand with grease in the flutes, test each new plug before fitting, and use anti-seize on the threads. Get the plug torque from the manual; the author went by feel.",
+   "tools": "Torx and Allen bits for the manifold · 10 mm wrench · glow plug reamer · anti-seize · ¼-inch-drive extensions and swivels",
+   "parts": [],
+   "know": [
+    "The source is a W124 300D owner's write-up; the OM602 is the same engine family as the 290 GD's, but the manifold and access on a G may differ.",
+    "The OM602 car in the write-up has no 80 A fuse, just an auto-resetting circuit breaker.",
+    "You'll need a new intake manifold gasket."
+   ],
+   "mistakes": [
+    "Letting the glow plug nut turn the wire: the author lost about 3 hours; hold the wire still with a screwdriver.",
+    "Leaving a wire touching the manifold: it shorted the circuit so no plug got power.",
+    "Rushing reassembly: the author found it harder than removal."
+   ],
+   "cost_note": "About $30 for the reamer, per the source; plug prices not given.",
+   "refs": [
+    {
+     "name": "PeachParts wiki: OM602 glow plug replacement",
+     "url": "https://peachparts.com/wikka/OM602GlowPlug"
+    }
+   ]
+  },
+  {
+   "title": "Propeller shaft shudder and front driveshaft angle",
+   "diff": "3 / 5",
+   "time": "About 2 hours to remove and refit a shaft, one owner says",
+   "cost": "$325 for one shop rebuild; Eurowise's double-cardan shaft lists at $1,425",
+   "symptoms": "A heavy shudder, clunks when shifting, or knocking and vibration in the front driveline under acceleration on a lifted truck.",
+   "fix": "Look for torn boots and play in the shaft joints first. A G500 owner on MBWorld with a shudder on acceleration and clunks on shifts found a torn boot and lateral play in the shaft between gearbox and transfer case, had it rebuilt with new joints and boots for $325, and said it drove like new. On trucks lifted more than 4 inches, Eurowise says the front driveshaft binds from too much angle, causing knocking and vibration under acceleration. Its fix is a bolt-on double-cardan front driveshaft that fits W461 and W463.",
+   "tools": "Sockets and breaker bar · paint marker to keep the shaft in phase",
+   "parts": [
+    {
+     "name": "Double cardan front driveshaft conversion (W461/W463)",
+     "supplier": "Eurowise",
+     "url": "https://shop.eurowise.com/products/w463-double-cardan-front-driveshaft-conversion"
+    }
+   ],
+   "know": [
+    "Eurowise lists 1310-series U-joints (Spicer 5-153X) as the wear parts on its shaft, with grease fittings.",
+    "Mercedes puts a propeller shaft and U-joint inspection in every Service B on later G-Classes.",
+    "The MBWorld owner's truck was a 2003 G500 (W463)."
+   ],
+   "mistakes": [
+    "Chasing steering parts first: the MBWorld owner did, and it fixed the steering but not the shudder.",
+    "Lifting well past 4 inches on the stock front shaft."
+   ],
+   "cost_note": "$325 for one shaft rebuild (one US owner). Eurowise's conversion listed at $1,425 when we checked; it showed sold out.",
+   "refs": [
+    {
+     "name": "MBWorld: 2003 G500 vibration/shudder on acceleration (propeller shaft)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/762157-2003-g500-vibration-shudder-acceleration-propeller-shaft.html"
+    },
+    {
+     "name": "Eurowise: W463 double cardan front driveshaft conversion",
+     "url": "https://shop.eurowise.com/products/w463-double-cardan-front-driveshaft-conversion"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
     }
    ]
   }

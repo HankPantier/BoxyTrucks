@@ -261,5 +261,65 @@
    "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
    "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G-Class W460 maintenance: no factory schedule is published online, so this is a purchase baseline plus the checks Classic & Sports Car and PistonHeads point to.",
+  "intro": "We couldn't find a Mercedes maintenance schedule for the W460 online. Use your owner's manual or service book if the truck has one. Otherwise treat every fluid and wear item as unknown on the day you buy it, then keep to the manual from there. Classic & Sports Car's advice is the same: ask the seller when the engine, gearbox, transfer box and axle oils, coolant and brake fluid were last changed.",
+  "schedule_note": "No factory schedule found online. A purchase baseline, with intervals only where a named source gives one.",
+  "schedule": [
+   {
+    "at": "On the day you buy it",
+    "items": [
+     "Engine oil and filter; air filter; fuel filter(s)",
+     "Gearbox oil (manual) or ATF and filter (automatic)",
+     "Transfer case oil and both axle oils",
+     "Coolant, thermostat and a hard look at the radiator",
+     "Brake fluid and hoses; locker hydraulics",
+     "Steering box and power steering for leaks",
+     "Front axle: kingpins, swivel seals and wheel bearings",
+     "V-belts; propeller shaft boots and joints"
+    ]
+   },
+   {
+    "at": "Engine oil, thereafter",
+    "items": [
+     "PistonHeads says to change the oil regularly, as often as 6,000 miles for extra care"
+    ]
+   },
+   {
+    "at": "Every 2 years",
+    "items": [
+     "Brake fluid (our baseline service list)"
+    ]
+   }
+  ],
+  "severe": "PistonHeads quotes a later-G (W463) axle-oil interval of every 40,000 km for rough-terrain use and every 60,000 km mainly on-road. It isn't a W460 figure, but it shows how much harder use shortens the interval. Change axle oil after any deep water crossing.",
+  "age_items": [
+   {
+    "item": "Radiator",
+    "when": "If it's old or original",
+    "why": "Classic & Sports Car says it's likely clogged, and these engines warp heads when they overheat."
+   },
+   {
+    "item": "Vacuum shutoff and vacuum lines (diesels)",
+    "when": "If the engine is slow to stop",
+    "why": "A failed actuator means the key won't stop the engine (see the repair guide)."
+   },
+   {
+    "item": "Rust checks",
+    "when": "Every service",
+    "why": "Classic & Sports Car says rust takes hold in the rear body corners, inner wings, bottom of the rear door and the damper top mounts."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Classic & Sports Car: Mercedes-Benz G-Wagen buyer's guide",
+    "url": "https://classicandsportscar.com/node/55200"
+   },
+   {
+    "name": "PistonHeads: Mercedes G-Class used buying guide",
+    "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+   }
+  ]
+ }
 }

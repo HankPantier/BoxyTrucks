@@ -255,6 +255,28 @@
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/steering-shock-damper-w460-0004636032/"
     }
+   ],
+   "know": [
+    "PistonHeads says G-Class steering boxes are often damp.",
+    "On a later G 63 (W463) box, one MBWorld owner traced a slow leak (about 1/3 quart per 10,000 miles) to a 19 mm nut over a pressure valve, held by a locking plate under a 10 mm nut. Half a turn tighter stopped it. The W460 box may differ, so look before you assume."
+   ],
+   "mistakes": [
+    "Topping up for years instead of finding the leak.",
+    "Over-tightening the lash adjuster: the MBWorld owner says it wears the box faster; adjust in 1/8-turn steps."
+   ],
+   "refs": [
+    {
+     "name": "Classic & Sports Car: Mercedes-Benz G-Wagen buyer's guide",
+     "url": "https://classicandsportscar.com/node/55200"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "MBWorld: G63 steering box adjustment and leak fix how-to",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/881291-g63-steering-box-adjustment-leak-fixes-howto.html"
+    }
    ]
   },
   {
@@ -285,6 +307,20 @@
      "name": "Radiator cap 461 501 00 15",
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/radiator-cap-460-461-4615010015/"
+    }
+   ],
+   "know": [
+    "Classic & Sports Car says overheating and cylinder-head warping are common on these engines, and to budget for a radiator if the old one is original, since it's likely clogged.",
+    "It also flags coolant, oil and fuel leaks, timing-chain rattle and knocks as things to listen and look for."
+   ],
+   "mistakes": [
+    "Flushing an old radiator and hoping: it's likely clogged inside.",
+    "Driving on after a temperature spike: that's how heads warp."
+   ],
+   "refs": [
+    {
+     "name": "Classic & Sports Car: Mercedes-Benz G-Wagen buyer's guide",
+     "url": "https://classicandsportscar.com/node/55200"
     }
    ]
   },
@@ -409,6 +445,66 @@
      "name": "Body drain plug 460 997 11 81",
      "supplier": "Expedition Imports",
      "url": "https://expedition-imports.com/body-plug-drain-plug-4609971181/"
+    }
+   ]
+  },
+  {
+   "title": "Diesel won't shut off (vacuum shutoff, OM616/OM617)",
+   "diff": "2 / 5",
+   "time": "Under an hour, owners say",
+   "cost": "Actuator and seals",
+   "symptoms": "Turning the key off doesn't stop the engine. One PeachParts owner also had oil dripping from the ignition switch, which stopped once the actuator was replaced.",
+   "fix": "These diesels stop by vacuum: the key opens a valve that pulls on a shutoff actuator at the injection pump, which moves the fuel rack to stop. A failed actuator leaves the engine running. On PeachParts, owner Kris replaced it this way: remove the vacuum lines, remove the vacuum switch unit (two Allen bolts), then the four 10 mm bolts holding the plate, and take out the old unit. Fit new seals to the replacement, push the rod in while covering the vacuum port with a finger, install it, then release the port and confirm it locks into its track and can't rotate. Bolt everything back down. Another member suggests testing the new actuator with a hand vacuum pump before fitting it.",
+   "tools": "Hand vacuum pump · Allen keys · 10 mm socket · a piece of wood ready to block the intake",
+   "parts": [],
+   "know": [
+    "To stop an engine that won't shut off, a PeachParts member suggests blocking the intake with a piece of wood, or cutting the fuel supply, which is slower.",
+    "Kris disconnected the fuel lines during the swap as a precaution.",
+    "Use the same number of gaskets as the original, a member advises."
+   ],
+   "mistakes": [
+    "Not noting the hook's orientation before removing the old actuator. Members say a hook that misses its slot on the fuel rack can push it to full fuel and cause a runaway.",
+    "Not photographing the vacuum line routing first.",
+    "Fitting the new unit without a bench test."
+   ],
+   "cost_note": "Our sources give no price.",
+   "refs": [
+    {
+     "name": "PeachParts forum: replacing the vacuum shutoff on an OM617",
+     "url": "https://www.peachparts.com/shopforum/diesel-discussion/286071-replacing-vac-shutoff-617-a.html"
+    }
+   ]
+  },
+  {
+   "title": "Propeller shaft clunk and shudder (joints and boots)",
+   "diff": "3 / 5",
+   "time": "About 2 hours to remove and refit, one owner says",
+   "cost": "One owner paid $325 for a shop rebuild",
+   "symptoms": "A heavy shudder, especially on acceleration, and a clunk when shifting. PistonHeads lists propshaft failure, shown as a heavy shudder, as a G-Class check.",
+   "fix": "Check the propeller shafts for torn boots and play in the joints. On MBWorld, a G500 owner with this exact symptom found a torn boot and lateral play in the shaft between the gearbox and transfer case. He removed the shaft himself and had a local shop rebuild it with new joints and boots, and said it drove like new afterwards. Mark the shaft's orientation before removal so it goes back in phase.",
+   "tools": "Sockets and a breaker bar · paint marker · power tools help, the owner says",
+   "parts": [],
+   "know": [
+    "Mercedes puts a propeller shaft and universal joint inspection in every Service B on later G-Classes, a good habit on a W460 too.",
+    "The MBWorld owner's truck was a 2003 G500, not a W460; the diagnosis (boots, joint play) is the same idea."
+   ],
+   "mistakes": [
+    "Replacing steering parts first: the owner did, and it fixed the steering but not the shudder.",
+    "Refitting the shaft out of phase."
+   ],
+   "cost_note": "$325 for a shop rebuild of one shaft, from one owner in the US.",
+   "refs": [
+    {
+     "name": "MBWorld: 2003 G500 vibration/shudder on acceleration (propeller shaft)",
+     "url": "https://mbworld.org/forums/g-class-w460-w461-w463/762157-2003-g500-vibration-shudder-acceleration-propeller-shaft.html"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+    },
+    {
+     "name": "Mercedes-Benz Canada: MY2016 G-Class (463) service booklet",
+     "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
     }
    ]
   }

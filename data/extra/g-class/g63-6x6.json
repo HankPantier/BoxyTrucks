@@ -277,5 +277,98 @@
    "name": "g-class-experience.com — G-Class Experience",
    "url": "https://g-class-experience.com/en/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "G 63 AMG 6×6 maintenance: no separate 6×6 schedule is published online, so this uses Mercedes' MY2016 G-Class (engine 157) booklet plus Euro Premium Parts' tighter M157 intervals.",
+  "intro": "We couldn't find a published Mercedes schedule for the 6×6 itself. Its engine and gearbox are the regular G 63's M157 and 7G-TRONIC, so the base below is Mercedes' MY2016 G-Class booklet, which covers engine 157. That booklet doesn't cover the 6×6's third axle, portal hubs or tyre-inflation system; for those, see the repair guides and follow the paperwork that came with the truck.",
+  "schedule_note": "From the Mercedes-Benz Canada MY2016 G-Class (463) service booklet. Service A and B are called up by the ASSYST PLUS display, with time limits as shown.",
+  "schedule": [
+   {
+    "at": "Service A (first after 12 months at the latest, then at least every 24 months)",
+    "items": [
+     "Engine oil and filter",
+     "Fluid levels: brake, coolant, washer and differential lock",
+     "Lights, horn, wipers, seat belts and warning lamps",
+     "Tyre condition and pressures; brake pads and discs visual check; parking brake test",
+     "Remote key battery; reset ASSYST PLUS"
+    ]
+   },
+   {
+    "at": "Service B (first after 24 months at the latest, then at least every 24 months)",
+    "items": [
+     "Everything in Service A",
+     "Cabin air filter; tyre rotation; door lock lubrication; headlamp aim",
+     "Poly-V belt wear; power steering fluid; A/C refrigerant",
+     "Propeller shafts and universal joints; front axle joint grease; axle oil levels",
+     "Steering bolts, tie rods and steering arms; underbody leak check"
+    ]
+   },
+   {
+    "at": "Every year",
+    "items": [
+     "Brake fluid, including the differential-lock system"
+    ]
+   },
+   {
+    "at": "Once at 3,000 km, then every 80,000 km or 4 years",
+    "items": [
+     "Front and rear axle oil"
+    ]
+   },
+   {
+    "at": "Every 60,000 km or 4 years",
+    "items": [
+     "Engine air filter (engine 157)"
+    ]
+   },
+   {
+    "at": "Every 100,000 km or 5 years",
+    "items": [
+     "Spark plugs"
+    ]
+   },
+   {
+    "at": "Every 120,000 km",
+    "items": [
+     "Transfer case oil",
+     "Automatic transmission oil and filter"
+    ]
+   },
+   {
+    "at": "Every 200,000 km or 10 years",
+    "items": [
+     "Coolant (engine 157)",
+     "Fuel filter"
+    ]
+   }
+  ],
+  "severe": "Euro Premium Parts suggests tighter M157 intervals: oil and filter every 10,000 miles or yearly with MB 229.51 0W-40 or 5W-40, plugs every 40,000–50,000 miles, air filter every 20,000 miles, transmission fluid every 40,000 miles, and an inspection of the turbo oil lines, drive belt and tensioner every 60,000 miles. Mercedes says to change the cabin filter sooner in severe dust.",
+  "age_items": [
+   {
+    "item": "Turbo oil feed and return lines",
+    "when": "Inspect every 60,000 miles; replace both approaching 80,000",
+    "why": "Euro Premium Parts says the rubber sections crack with heat and age, risking oil starvation of the turbos."
+   },
+   {
+    "item": "Expansion tank, cap and hoses",
+    "when": "Roughly 80,000–130,000 miles, or at any sign of white residue",
+    "why": "Euro Premium Parts says the plastic parts deteriorate and leak under pressure cycling."
+   },
+   {
+    "item": "Intake valve cleaning",
+    "when": "Every 60,000–80,000 miles (Euro Premium Parts)",
+    "why": "Direct injection leaves carbon on the intake valves."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Mercedes-Benz Canada: MY2016 G-Class (463) service booklet",
+    "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
+   },
+   {
+    "name": "Euro Premium Parts: Mercedes-Benz M157 engine guide",
+    "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
+   }
+  ]
+ }
 }

@@ -291,5 +291,70 @@
    "name": "MB Passion — Unimog trifft G-Klasse 2.0 (5–6 September 2026)",
    "url": "https://mbpassion.de/2026/08/unimog-trifft-g-klasse-2-0-das-treffen-zweier-legenden-mit-stern-geht-in-die-zweite-runde/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Mercedes G-Class W461 maintenance: no W461 factory schedule is published online, so this is a purchase baseline plus Mercedes' later G-Class items and PistonHeads' intervals, clearly marked.",
+  "intro": "We couldn't find a Mercedes maintenance schedule for the W461 online. Many W461s were fleet and military trucks with their own service books, so ask for those first. Otherwise, baseline everything on the day you buy it. For reference we've added what Mercedes' MY2016 G-Class booklet checks at each Service B; it was written for the W463, but the driveline checks carry over well.",
+  "schedule_note": "No W461 factory schedule found online. Purchase baseline, with intervals only where a named source gives one; W463 items are labelled.",
+  "schedule": [
+   {
+    "at": "On the day you buy it",
+    "items": [
+     "Engine oil and filter; air filter; fuel filter and water separator",
+     "Glow plugs and relay if starting is slow (diesel)",
+     "Coolant",
+     "Automatic transmission fluid and filter, or manual gearbox oil",
+     "Transfer case and both axle oils",
+     "Brake fluid; locker hydraulics",
+     "Front axle: kingpins, swivels and bearings",
+     "Batteries and charging (24 V on many trucks)",
+     "Cardan shaft recall check on 2016–21 G 280/300 CDI"
+    ]
+   },
+   {
+    "at": "Every Service B on a W463 (Mercedes' MY2016 booklet), a good W461 habit",
+    "items": [
+     "Propeller shafts and universal joints",
+     "Front axle joint grease",
+     "Axle oil levels",
+     "Tie rods and steering arms for play",
+     "Underbody leak check"
+    ]
+   },
+   {
+    "at": "Engine oil, thereafter",
+    "items": [
+     "PistonHeads says to change the oil regularly, as often as 6,000 miles for extra care"
+    ]
+   }
+  ],
+  "severe": "PistonHeads gives a W463 axle-oil interval of every 40,000 km for rough-terrain use and every 60,000 km mainly on-road. It isn't a W461 figure, but most W461s work harder than most W463s, so lean to the shorter one. Change axle oil after deep water.",
+  "age_items": [
+   {
+    "item": "Propeller shaft boots and joints",
+    "when": "Every service, and at any shudder",
+    "why": "PistonHeads lists propshaft failure, felt as a heavy shudder."
+   },
+   {
+    "item": "Steering box",
+    "when": "Every service",
+    "why": "PistonHeads says G-Class steering boxes are often damp."
+   },
+   {
+    "item": "Brake vacuum pump (diesels)",
+    "when": "Past six-figure mileage",
+    "why": "PistonHeads says it can leak."
+   }
+  ],
+  "sources": [
+   {
+    "name": "PistonHeads: Mercedes G-Class used buying guide",
+    "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
+   },
+   {
+    "name": "Mercedes-Benz Canada: MY2016 G-Class (463) service booklet",
+    "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
+   }
+  ]
+ }
 }

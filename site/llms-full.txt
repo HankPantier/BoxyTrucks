@@ -3817,6 +3817,18 @@ Symptoms: Wet carpets, damp footwells, a musty smell, rust under the mats. Class
 Fix: Water-test with a hose and a helper inside to find the source. At the wiper spindles, replace the washers, nuts, seals and caps as a set. Clear the sunroof drains and check the plenum drains. A leak at the windscreen perimeter means taking the glass out to fit a new gasket. Inspect the frame for rust while it's out, because Handsome Motors lists the windshield gasket perimeter as a classic G rust spot. Dry the floor and replace missing body drain plugs.
 Tools: Hose · trim tools · wiper shaft washer kit 000 824 35 72 · windscreen gasket 463 671 02 20 · body drain plug 460 997 11 81 · rust converter and seam sealer
 
+#### Diesel won't shut off (vacuum shutoff, OM616/OM617)
+Difficulty 2 / 5 · time Under an hour, owners say · cost Actuator and seals
+Symptoms: Turning the key off doesn't stop the engine. One PeachParts owner also had oil dripping from the ignition switch, which stopped once the actuator was replaced.
+Fix: These diesels stop by vacuum: the key opens a valve that pulls on a shutoff actuator at the injection pump, which moves the fuel rack to stop. A failed actuator leaves the engine running. On PeachParts, owner Kris replaced it this way: remove the vacuum lines, remove the vacuum switch unit (two Allen bolts), then the four 10 mm bolts holding the plate, and take out the old unit. Fit new seals to the replacement, push the rod in while covering the vacuum port with a finger, install it, then release the port and confirm it locks into its track and can't rotate. Bolt everything back down. Another member suggests testing the new actuator with a hand vacuum pump before fitting it.
+Tools: Hand vacuum pump · Allen keys · 10 mm socket · a piece of wood ready to block the intake
+
+#### Propeller shaft clunk and shudder (joints and boots)
+Difficulty 3 / 5 · time About 2 hours to remove and refit, one owner says · cost One owner paid $325 for a shop rebuild
+Symptoms: A heavy shudder, especially on acceleration, and a clunk when shifting. PistonHeads lists propshaft failure, shown as a heavy shudder, as a G-Class check.
+Fix: Check the propeller shafts for torn boots and play in the joints. On MBWorld, a G500 owner with this exact symptom found a torn boot and lateral play in the shaft between the gearbox and transfer case. He removed the shaft himself and had a local shop rebuild it with new joints and boots, and said it drove like new afterwards. Mark the shaft's orientation before removal so it goes back in phase.
+Tools: Sockets and a breaker bar · paint marker · power tools help, the owner says
+
 ### Baseline service
 Assume nothing was done. Classic & Sports Car tells buyers to ask about oil changes for the engine, gearbox, transfer box and diffs, and most W460s are now 35 to 45 years old. Change every fluid, fix the cooling system and get the locker hydraulics working before the first trail trip. Factory capacities vary by engine and gearbox, so check the manual for your truck's numbers.
 - Engine oil & filter: Oil grade per manual for your engine (check your manual) · At purchase, then per manual (Filters differ by engine: 300 GD/240 GD, 280 GE, 230 GE and 230 G (M115) each have their own part.)
@@ -4041,7 +4053,7 @@ Tools: Koni Raid shocks (W460/461/463) or OE dampers · colour-coded W460-patter
 #### Steering box reseal
 Difficulty 3 / 5 · time Half a day (estimate) · cost Seal $12.50 (Expedition Imports)
 Symptoms: Fluid weeping from the bottom of the steering box, low power-steering fluid, vague steering.
-Fix: The W461 uses the same LS2 steering box family as the W460 and W463. Replace the sector-shaft seal at the bottom of the box: disconnect the drag link and pull the pitman arm. Heavy play calls for the bearing set and a box rebuild.
+Fix: The W461 uses the same LS2 steering box family as the W460 and W463. Replace the sector-shaft seal at the bottom of the box: disconnect the drag link and pull the pitman arm. Heavy play calls for the bearing set and a box rebuild. Before taking the box apart, check where the fluid is actually coming from. On a G 63 box, one MBWorld owner found the hoses and the top of the box dry; the leak was at a 19 mm nut over a pressure valve, held by a grooved locking plate under a 10 mm nut. Tightening that nut half a turn stopped a leak of about 1/3 quart per 10,000 miles.
 Tools: Sector-shaft seal 016 997 13 47 · steering box bearing set · pitman-arm puller
 
 #### No heat or fan (24-volt blower)
@@ -4061,6 +4073,18 @@ Difficulty 3 / 5 · time Most of a day for a windscreen reseal (estimate) · cos
 Symptoms: Wet footwells, rust bubbling around the windscreen frame, water tracking down the A-pillars. Handsome Motors names the windshield gasket perimeter as a classic G rust zone.
 Fix: Water-test with a hose and a helper. Reseal the wiper spindles with a new washer kit. If the leak is at the windscreen, the glass has to come out to fit a new gasket. Treat the frame properly while it's exposed, because rust there only spreads. Expedition Imports sells the floor drain kit that's common on 461 trucks and can be retrofitted to a 460, so make sure the floor drains are clear and fitted.
 Tools: Windscreen gasket 463 671 02 20 · wiper shaft washer kit 000 824 35 72 · floor drain kit · glass-removal cord and trim tools · rust converter and primer
+
+#### Glow plugs and relay (OM602)
+Difficulty 3 / 5 · time The owner who wrote our source took most of a day · cost Plugs, a manifold gasket and about $30 for a reamer
+Symptoms: Hard cold starts, or the glow light coming on after the engine has started, which points to a fault in the plugs, wiring or relay. Some dead plugs still let it start; with none working it won't.
+Fix: Test the relay first: with the key at the glow position it should click on, then click off about 20–30 seconds later. A PeachParts owner's bypass test: five 12-gauge wires about a foot long, twisted together at one end and plugged into the relay socket one per plug; connect the twisted end to battery positive for 30 seconds, then start. If it starts, the relay or its wiring is at fault. To change the plugs, disconnect the battery, remove the intake manifold (photograph the wiring and fuel lines), ream carbon from each bore by hand with grease in the flutes, test each new plug before fitting, and use anti-seize on the threads. Get the plug torque from the manual; the author went by feel.
+Tools: Torx and Allen bits for the manifold · 10 mm wrench · glow plug reamer · anti-seize · ¼-inch-drive extensions and swivels
+
+#### Propeller shaft shudder and front driveshaft angle
+Difficulty 3 / 5 · time About 2 hours to remove and refit a shaft, one owner says · cost $325 for one shop rebuild; Eurowise's double-cardan shaft lists at $1,425
+Symptoms: A heavy shudder, clunks when shifting, or knocking and vibration in the front driveline under acceleration on a lifted truck.
+Fix: Look for torn boots and play in the shaft joints first. A G500 owner on MBWorld with a shudder on acceleration and clunks on shifts found a torn boot and lateral play in the shaft between gearbox and transfer case, had it rebuilt with new joints and boots for $325, and said it drove like new. On trucks lifted more than 4 inches, Eurowise says the front driveshaft binds from too much angle, causing knocking and vibration under acceleration. Its fix is a bolt-on double-cardan front driveshaft that fits W461 and W463.
+Tools: Sockets and breaker bar · paint marker to keep the shaft in phase
 
 ### Baseline service
 Ex-fleet and ex-military W461s are often maintained by the book but stored for years, so refresh every fluid and rubber part. Military trucks run 24 V, and glow plugs, bulbs and blower motors must match the system. Specs vary by engine, from the 290 GD to the OM642 CDIs, so confirm capacities and fluid approvals for your VIN.
@@ -6009,7 +6033,7 @@ Tools: Pressure tester · line wrenches · MB 325.6 coolant
 #### Plugs, coils & cam magnets (M157)
 Difficulty 2 / 5 · time 3–4 hours · cost Parts plus labor
 Symptoms: Misfires, rough idle, oil in the cam-adjuster magnet connectors.
-Fix: Replace all eight plugs and check the coils, as on a G 63. If you find oil in the cam-magnet connectors, fit new magnets with sacrificial pigtails and clean the harness.
+Fix: Replace all eight plugs and check the coils, as on a G 63. If you find oil in the cam-magnet connectors, fit new magnets with sacrificial pigtails and clean the harness. Euro Premium Parts says plug electrodes wear fast in this high-compression direct-injection engine and the coils degrade with them, so replace all eight plugs and inspect the coils at the same time, using OEM or equivalent NGK plugs. Cam adjuster (phaser) wear shows as a rough idle, a rattle on cold start and cam-timing codes.
 Tools: Spark plug socket and extensions · torque wrench · contact cleaner
 
 #### 7G-TRONIC fluid & filter
@@ -6029,6 +6053,24 @@ Difficulty 2 / 5 · time An afternoon · cost Tyres plus labor
 Symptoms: Slow leaks at the bead ring, old tyres, mismatched sizes after a replacement.
 Fix: Deflate, remove the ring bolts in sequence, inspect the inner bead and O-ring, then refit with the bolts torqued evenly. Owners have fitted both 37×12.50R18 and 38×13.50R18 tyres. Recode the size and recalibrate the tyre-pressure gauges.
 Tools: Torque wrench · bead breaker · thread locker as specified
+
+#### Turbo oil feed and return lines (M157)
+Difficulty 3 / 5 · time Shop job; get a quote · cost Parts plus labor
+Symptoms: Euro Premium Parts lists rising oil consumption, blue exhaust smoke and oil seeping around the turbo housings.
+Fix: On the M157, the rubber sections of the turbo oil feed and return lines harden and crack with age and heat, Euro Premium Parts says. A failed line can starve the turbo bearings of oil, so it rates this one critical. Its advice is to replace both turbo oil lines before trouble, on any M157 approaching 80,000 miles, and to inspect them every 60,000 miles. Follow the workshop manual for the line routing and seals.
+Tools: Good light and mirror for the inspection · the workshop manual for the routing
+
+#### Coolant expansion tank, cap and hoses (M157)
+Difficulty 2 / 5 · time Shop job; get a quote · cost Parts plus labor
+Symptoms: Coolant loss, an overheating warning, or white residue around plastic fittings or the expansion tank.
+Fix: Euro Premium Parts says the M157's plastic expansion tank and hoses deteriorate, and pressure cycling makes the connections leak. Its fix is preventive: replace the expansion tank, the cap and the aging hoses together, then refill and bleed with the approved coolant.
+Tools: Cooling-system pressure tester · drain pan · approved coolant
+
+#### Oil consumption and cylinder scoring check (M157)
+Difficulty 2 / 5 to diagnose · time An hour for the tests · cost Test cost; repairs can mean a major engine job
+Symptoms: Topping up oil between services, blue smoke, rough running, and in bad cases low compression or internal noise.
+Fix: Euro Premium Parts says consumption under 1 quart per 1,000 miles is within tolerance; more than that warrants a compression test and a leak-down test. Causes it lists are piston-ring wear, valve-stem seals and cylinder scoring, where piston and bore make abnormal contact from poor lubrication, overheating, detonation or heavy-load wear. Mild scoring may only show as oil use. Severe scoring usually means major engine repair or a replacement engine, and it says some consumption cases were traced to scoring that needed a complete engine block.
+Tools: Compression tester · leak-down tester · borescope if available
 
 ### Baseline service
 Treat a 6×6 as a G 63 engine and gearbox on top of a fleet of differentials: three axles, six portal hubs, a transfer case with a through-drive, plus a compressor and air system. Mercedes and specialist service records matter more here than on any other G. Where a capacity isn't published, have a G specialist confirm it rather than guessing.

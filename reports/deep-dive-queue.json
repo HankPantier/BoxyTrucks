@@ -452,7 +452,12 @@
   },
   {
    "gen": "g-class/g63-6x6",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-25",
+   "added": 3,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "M157 turbo oil lines, expansion tank, oil consumption/scoring; plugs guide deepened (7G deepened, still noindex); maintenance from MY2016 G-Class booklet + Euro Premium Parts"
   },
   {
    "gen": "g-class/g63-amg",
@@ -473,12 +478,21 @@
   },
   {
    "gen": "g-class/w460",
-   "status": "todo",
-   "deepened": 1
+   "status": "done",
+   "deepened": 1,
+   "date": "2026-11-25",
+   "added": 2,
+   "maintenance": true,
+   "note": "OM616/617 vacuum shutoff, propshaft clunk/shudder; steering box deepened (cooling deepened, still noindex); maintenance as purchase baseline (no factory schedule online)"
   },
   {
    "gen": "g-class/w461",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-25",
+   "added": 2,
+   "deepened": 1,
+   "maintenance": true,
+   "note": "OM602 glow plugs/relay, propshaft shudder and lifted front shaft angle; steering box deepened; maintenance as purchase baseline + W463 Service B items"
   },
   {
    "gen": "g-class/w463",

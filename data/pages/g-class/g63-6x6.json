@@ -254,7 +254,7 @@
    "time": "3–4 hours",
    "cost": "Parts plus labor",
    "symptoms": "Misfires, rough idle, oil in the cam-adjuster magnet connectors.",
-   "fix": "Replace all eight plugs and check the coils, as on a G 63. If you find oil in the cam-magnet connectors, fit new magnets with sacrificial pigtails and clean the harness.",
+   "fix": "Replace all eight plugs and check the coils, as on a G 63. If you find oil in the cam-magnet connectors, fit new magnets with sacrificial pigtails and clean the harness. Euro Premium Parts says plug electrodes wear fast in this high-compression direct-injection engine and the coils degrade with them, so replace all eight plugs and inspect the coils at the same time, using OEM or equivalent NGK plugs. Cam adjuster (phaser) wear shows as a rough idle, a rattle on cold start and cam-timing codes.",
    "tools": "Spark plug socket and extensions · torque wrench · contact cleaner",
    "parts": [
     {
@@ -271,6 +271,25 @@
      "name": "Cam magnet + sacrificial pigtail harness-protection kit (M157/M278)",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-camshaft-solenoid-kit-genuine-mercedes-2761560790kt1"
+    }
+   ],
+   "know": [
+    "Plug interval: Mercedes' MY2016 G-Class booklet says every 100,000 km or 5 years. Euro Premium Parts says 40,000–50,000 miles. Go by your truck's records and symptoms.",
+    "Euro Premium Parts says cam adjusters wear faster with stretched oil changes, low-viscosity oil or sludge, and recommends MB 229.5 or 229.51 oil changed about every 10,000 miles.",
+    "It puts typical cam-adjuster wear at 60,000–100,000 miles."
+   ],
+   "mistakes": [
+    "Changing only the plug on the misfiring cylinder.",
+    "Ignoring oil in the cam-magnet connectors: it wicks into the harness."
+   ],
+   "refs": [
+    {
+     "name": "Euro Premium Parts: Mercedes-Benz M157 engine guide",
+     "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
+    },
+    {
+     "name": "Mercedes-Benz Canada: MY2016 G-Class (463) service booklet",
+     "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
     }
    ]
   },
@@ -292,6 +311,27 @@
      "name": "FUCHS ATF 7134 FE (MB 236.15), 1 L",
      "supplier": "FCP Euro",
      "url": "https://www.fcpeuro.com/products/mercedes-atf-fuchs-001989770309"
+    }
+   ],
+   "know": [
+    "Mercedes' MY2016 G-Class booklet lists automatic transmission oil and filter every 120,000 km. Euro Premium Parts suggests every 40,000 miles. Sources disagree, so check the paperwork.",
+    "PistonHeads says a failed integrated speed sensor in the 7G-TRONIC causes random shifting or no shifting."
+   ],
+   "mistakes": [
+    "Setting the level cold or without a scan tool reading temperature."
+   ],
+   "refs": [
+    {
+     "name": "Mercedes-Benz Canada: MY2016 G-Class (463) service booklet",
+     "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
+    },
+    {
+     "name": "Euro Premium Parts: Mercedes-Benz M157 engine guide",
+     "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
+    },
+    {
+     "name": "PistonHeads: Mercedes G-Class used buying guide",
+     "url": "https://www.pistonheads.com/news/ph-buying-guides/mercedes-g-class--ph-used-buying-guide/41562"
     }
    ]
   },
@@ -349,6 +389,86 @@
      "name": "GwagenParts.com search: beadlock",
      "supplier": "GwagenParts.com",
      "url": "https://www.gwagenparts.com/?s=beadlock&post_type=product"
+    }
+   ]
+  },
+  {
+   "title": "Turbo oil feed and return lines (M157)",
+   "diff": "3 / 5",
+   "time": "Shop job; get a quote",
+   "cost": "Parts plus labor",
+   "symptoms": "Euro Premium Parts lists rising oil consumption, blue exhaust smoke and oil seeping around the turbo housings.",
+   "fix": "On the M157, the rubber sections of the turbo oil feed and return lines harden and crack with age and heat, Euro Premium Parts says. A failed line can starve the turbo bearings of oil, so it rates this one critical. Its advice is to replace both turbo oil lines before trouble, on any M157 approaching 80,000 miles, and to inspect them every 60,000 miles. Follow the workshop manual for the line routing and seals.",
+   "tools": "Good light and mirror for the inspection · the workshop manual for the routing",
+   "parts": [],
+   "know": [
+    "Euro Premium Parts puts typical failures at 70,000–120,000 miles.",
+    "It treats the job as preventive: both lines, before one fails.",
+    "The 6×6 shares the G 63's M157 5.5 L biturbo V8, so M157 guidance applies."
+   ],
+   "mistakes": [
+    "Waiting for blue smoke: by then the turbo may already have run short of oil.",
+    "Replacing only the line that's visibly wet."
+   ],
+   "cost_note": "Our source gives no price. Get a quote for both lines together.",
+   "refs": [
+    {
+     "name": "Euro Premium Parts: Mercedes-Benz M157 engine guide",
+     "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
+    }
+   ]
+  },
+  {
+   "title": "Coolant expansion tank, cap and hoses (M157)",
+   "diff": "2 / 5",
+   "time": "Shop job; get a quote",
+   "cost": "Parts plus labor",
+   "symptoms": "Coolant loss, an overheating warning, or white residue around plastic fittings or the expansion tank.",
+   "fix": "Euro Premium Parts says the M157's plastic expansion tank and hoses deteriorate, and pressure cycling makes the connections leak. Its fix is preventive: replace the expansion tank, the cap and the aging hoses together, then refill and bleed with the approved coolant.",
+   "tools": "Cooling-system pressure tester · drain pan · approved coolant",
+   "parts": [],
+   "know": [
+    "Euro Premium Parts rates it moderate and puts it at roughly 80,000–130,000 miles.",
+    "Mercedes' MY2016 G-Class booklet lists the coolant for engine 157 every 200,000 km or 10 years. Euro Premium Parts suggests every 4 years or 60,000 miles. Check your truck's own service paperwork."
+   ],
+   "mistakes": [
+    "Replacing the tank and reusing a tired cap.",
+    "Ignoring dried white residue: it marks a slow leak."
+   ],
+   "cost_note": "Our source gives no price.",
+   "refs": [
+    {
+     "name": "Euro Premium Parts: Mercedes-Benz M157 engine guide",
+     "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
+    },
+    {
+     "name": "Mercedes-Benz Canada: MY2016 G-Class (463) service booklet",
+     "url": "https://www.mercedes-benz.ca/content/dam/mb-nafta/ca/owners/operators-manual/2016/service-booklets/MY16_SERVICE_BOOK_G-CLASS_463_ENG_6515869413_ED12016.pdf"
+    }
+   ]
+  },
+  {
+   "title": "Oil consumption and cylinder scoring check (M157)",
+   "diff": "2 / 5 to diagnose",
+   "time": "An hour for the tests",
+   "cost": "Test cost; repairs can mean a major engine job",
+   "symptoms": "Topping up oil between services, blue smoke, rough running, and in bad cases low compression or internal noise.",
+   "fix": "Euro Premium Parts says consumption under 1 quart per 1,000 miles is within tolerance; more than that warrants a compression test and a leak-down test. Causes it lists are piston-ring wear, valve-stem seals and cylinder scoring, where piston and bore make abnormal contact from poor lubrication, overheating, detonation or heavy-load wear. Mild scoring may only show as oil use. Severe scoring usually means major engine repair or a replacement engine, and it says some consumption cases were traced to scoring that needed a complete engine block.",
+   "tools": "Compression tester · leak-down tester · borescope if available",
+   "parts": [],
+   "know": [
+    "Euro Premium Parts rates scoring critical, usually from about 80,000 miles.",
+    "It recommends MB 229.5 or 229.51 oil, 0W-40 or 5W-40 full synthetic."
+   ],
+   "mistakes": [
+    "Buying a 6×6 without measuring oil use or running the two tests.",
+    "Treating blue smoke as a turbo-only problem; check the oil lines too."
+   ],
+   "cost_note": "Our source gives no price for engine work.",
+   "refs": [
+    {
+     "name": "Euro Premium Parts: Mercedes-Benz M157 engine guide",
+     "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m157-engine-guide-reliability-common-problems-tuning-potential"
     }
    ]
   }
