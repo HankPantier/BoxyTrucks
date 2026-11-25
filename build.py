@@ -858,6 +858,7 @@ def main():
         env.globals['YT_CHANNEL'] = 'https://www.youtube.com/@BoxyTrucks'
         env.globals['newsletter'] = NEWSLETTER
         env.globals['nl_truck'] = lambda fs, g: (sname(fs, g) if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')
+        env.globals['nl_cl'] = lambda fs, g: (f'/checklists/{fs}-{g["slug"]}.pdf' if fs and isinstance(g, dict) and g.get('slug') and (SITE / f'checklists/{fs}-{g["slug"]}.pdf').exists() else '')
         env.globals['amz_q'] = amz_q
         env.globals['inspect_kit'] = inspect_kit
         def sponsor_for(fam_slug, gen_slug=None):

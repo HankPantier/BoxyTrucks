@@ -3,9 +3,12 @@
 <section class="band-night"><div class="wrap" style="padding-top:96px;padding-bottom:72px;display:flex;flex-direction:column;gap:20px;max-width:900px">
   <span class="eyebrow brass">The Boxy Dispatch · confirmed</span>
   <h1 style="font-size:clamp(40px,5.4vw,72px);line-height:1;letter-spacing:-0.02em">You’re in.</h1>
-  <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">Once a month you’ll get one new guide, one featured rig and one recall worth knowing about. No spam, and you can unsubscribe from any email in one click.</p>
+  <p class="serif" style="margin:0;font-size:20px;line-height:31px;color:var(--on-dark)">The Boxy Dispatch brings you the best boxy trucks for sale this week, a featured reader rig, and the new guides and recalls worth knowing about. No spam, and you can unsubscribe from any email in one click.</p>
+  <p id="my-cl" hidden style="margin:8px 0 0"><a class="btn light" id="my-cl-a" href="#" target="_blank" rel="noopener">Download your checklist</a></p>
 </div></section>
+<script>try{var c=localStorage.getItem('nl_cl'),n=localStorage.getItem('nl_name');if(c&&/^\/checklists\/[a-z0-9-]+\.pdf$/.test(c)){var a=document.getElementById('my-cl-a');a.href=c;a.textContent='Download your '+(n||'')+' checklist (PDF)';document.getElementById('my-cl').hidden=false;}}catch(e){}</script>
 <div class="wrap section">
+  <p style="margin:0 0 40px"><a class="inline-link" href="{{ root }}for-sale/index.html#picks">See this week's best boxy trucks for sale →</a></p>
   {% if cl_groups %}<section id="checklists" style="margin-bottom:56px;max-width:960px"><h2 class="h-section">Your inspection checklists</h2>
     <p class="sub-intro">Printable PDFs, two pages each. Pick your truck:</p>
     {% for fam, items in cl_groups %}<div class="cl-fam"><span class="eyebrow">{{ fam }}</span><p>{% for c in items %}<a class="inline-link" href="{{ c.href }}" target="_blank" rel="noopener">{{ c.model }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p></div>{% endfor %}
@@ -16,7 +19,6 @@
     <a class="card garage-card" href="{{ root }}tires/index.html"><span class="eyebrow">Fit it</span><h2>Tire fitment</h2><p>The biggest tire that fits your truck at stock height and every common lift.</p><span class="go">Open the tire tool →</span></a>
     <a class="card garage-card" href="{{ root }}compare/index.html"><span class="eyebrow">Settle it</span><h2>Compare</h2><p>The head-to-heads buyers argue about, from 80 vs 100 Series to Wrangler vs Bronco.</p><span class="go">Open comparisons →</span></a>
     <a class="card garage-card" href="{{ instagram_url }}" target="_blank" rel="noopener"><span class="eyebrow">Follow along</span><h2>@boxytrucks</h2><p>A boxy truck a day on Instagram, plus reader builds. Tag us in yours.</p><span class="go">Open Instagram →</span></a>
-    <a class="card garage-card" href="{{ x_url }}" target="_blank" rel="noopener"><span class="eyebrow">Follow along</span><h2>@boxytrucks on X</h2><p>Buying tips, new guides and the odd hot take on which year to buy.</p><span class="go">Open X →</span></a>
   </div>
 </div>
 {% endblock %}

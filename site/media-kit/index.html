@@ -98,12 +98,14 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
 <div style="overflow-x:auto"><table><thead><tr><th>Post</th><th>Platform</th><th>Views</th></tr></thead><tbody><tr><td><a href="https://www.instagram.com/p/Df-yGmfOEWV/" rel="noopener">Reader rig: Riverhouse Defender 110</a></td><td>Instagram</td><td>4,218</td></tr><tr><td><a href="https://www.instagram.com/p/Df-OhvyOwDX/" rel="noopener">Why 2005 LR3s get 12x the complaints</a></td><td>Instagram</td><td>2,140</td></tr><tr><td><a href="https://youtube.com/shorts/dGxH2jIxq74" rel="noopener">Biggest tire, stock 80 Series</a></td><td>YouTube</td><td>893</td></tr><tr><td><a href="https://www.instagram.com/p/DfsO69qOcBs/" rel="noopener">Hank&#39;s G 500: oil filter housing fix</a></td><td>Instagram</td><td>739</td></tr><tr><td><a href="https://youtube.com/shorts/hihuHxNlAk8" rel="noopener">Biggest tire, stock Samurai</a></td><td>YouTube</td><td>618</td></tr></tbody></table></div>
 
 <h2>Who it reaches</h2>
-<p>Owners and serious shoppers in the middle of a decision: which year to buy, what breaks, what tire fits a stock truck, and where to buy the part. Repair and tire pages are where readers click through to suppliers.</p>
+<p><strong>People about to buy a truck, and owners keeping one running.</strong> Readers arrive on "years to avoid", "what to check", market prices and tire fitment pages, often days before they buy. That makes them valuable to dealers, importers, restoration builders, inspectors, shippers, insurers and parts shops. Repair and tire pages are where owners click through to suppliers.</p>
+<p><strong>Case study:</strong> our first reader-rig Reel, a dealer's 1997 Defender 110 for sale in the Netherlands, drew 4,333 views across platforms in a week, with 176 likes, 16 saves, 16 shares and 9 new followers on Instagram.</p>
 
 <h2>Ways to work together</h2>
 <ul>
 <li><strong>Product in use.</strong> Your part or gear fitted and shown on a real truck in a Short or Reel, with a link in the description and a pinned comment. Clearly labelled as a paid partnership.</li>
 <li><strong>Sponsored fitment or buying video.</strong> A tire, wheel or gear brand attached to a "biggest tire on a stock…" or "5 things to check" video for the trucks your product fits.</li>
+<li><strong>Featured Build ($250).</strong> Your truck or build as a Reel on Instagram, YouTube, TikTok and Pinterest (with you as a collaborator), a write-up linked from that truck's guide, and a spot in The Boxy Dispatch. Labeled as sponsored.</li>
 <li><strong>Site sponsorship.</strong> A sponsor card on the guides and repair pages for the trucks you cover. See <a href="/partner/#packages">packages and prices</a>.</li>
 </ul>
 <p>Sponsors never change what a guide says, and every paid post is disclosed. See <a href="/partner/#independence">what sponsorship doesn't buy</a>.</p>
@@ -119,8 +121,9 @@ btAfterLoad(function(){var s=document.createElement('script');s.async=true;s.src
   
   <div><span class="eyebrow brass">The Boxy Dispatch · free checklist</span>
   <h2 id="nl-h">Get a free inspection checklist for the truck you’re shopping.</h2>
-  <p class="nl-perk">Two printable pages of model-specific checks, yours the moment you sign up. Then once a month: one new guide, one featured rig, one recall worth knowing. No spam.</p></div>
-  <form class="nl-form" action="https://app.kit.com/forms/10110095/subscriptions" method="post" data-nl>
+  <p class="nl-perk">Two printable pages of model-specific checks, yours the moment you sign up. Then The Boxy Dispatch: the best boxy trucks for sale this week, a featured rig, and the new guides and recalls worth knowing. No spam.</p></div>
+  
+  <form class="nl-form" action="https://app.kit.com/forms/10110095/subscriptions" method="post" data-nl data-nl-cl="" data-nl-name="">
     <input type="hidden" name="fields[signup_page]" value="" data-nl-page>
     <label for="nl-email" class="sr-only">Email address</label>
     <input id="nl-email" type="email" name="email_address" required placeholder="you@example.com" autocomplete="email">
@@ -176,7 +179,7 @@ document.addEventListener('click',function(e){if(!mq.matches&&!drops.some(functi
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(!a)return;
 var h='';try{h=new URL(a.href).hostname.replace(/^www\./,'');}catch(x){}
 gtag('event','affiliate_click',{link_domain:h,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80),placement:a.getAttribute('data-track')||''});});
-document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){gtag('event','newsletter_signup');});});
+document.querySelectorAll('form[data-nl]').forEach(function(f){var pg=f.querySelector('[data-nl-page]');if(pg)pg.value=location.pathname;f.addEventListener('submit',function(){try{if(f.dataset.nlCl){localStorage.setItem('nl_cl',f.dataset.nlCl);localStorage.setItem('nl_name',f.dataset.nlName||'');}}catch(e){}gtag('event','newsletter_signup');});});
 })();
 </script>
 <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-labelledby="cb-title" hidden>
