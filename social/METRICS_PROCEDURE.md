@@ -41,3 +41,16 @@ TikTok is posting daily again, and Hank wants its numbers in every weekly update
 - followers.json: TikTok followers from tiktok.com/@boxytrucks. site.json: sessions_tiktok from GA4.
 - In reports/scoreboard.md, give TikTok its own line every week: followers, views this week and lifetime, posts this week, the top TikTok post, and sessions to the site. Include TikTok in the top/bottom 3 and in the "Mix change" line.
 - Upload the refreshed files to the Scoreboard dashboard as usual so its TikTok series stays current. The media kit picks TikTok up from the same files on the next build.
+
+## YouTube Research: outliers in our niche (Hank, Nov 25, 2026: make this part of the weekly evaluation)
+Every Monday, after the YouTube numbers, open YouTube Studio > Insights > Research for the **Boxy Trucks** channel (UCDYI1l32dLwGjMLcoQvodGQ). The Shorts / "Outliers in my niche" view is at
+https://studio.youtube.com/channel/UCDYI1l32dLwGjMLcoQvodGQ/analytics/hub_research?filter=%7B%22contentTypeFilter%22%3A%22CONTENT_TYPE_FILTER_SHORTS%22%2C%22landingPageFeedType%22%3A%22LANDING_PAGE_FEED_TYPE_CHANNEL_RELEVANT_OUTLIERS%22%7D
+This is read-only, so change nothing.
+1. Read the grid with get_page_text: title, channel, subscribers, the outlier multiple (e.g. "37x", ">100x"), views and age. Then click **Analyze title patterns** and read YouTube's pattern summary. Also check the "Recent uploads in my niche" tab.
+2. Keep only the outliers about trucks we cover or formats we can make: Land Cruiser, G-Class, Defender and Land Rover, Bronco, Jeep, 4Runner, Unimog, Pinzgauer, Patrol, Lexus, overlanding, buying or reliability, tires. Note the big general-auto outliers only for their *pattern*.
+3. Append a dated section to `social/youtube-research.md` with:
+   - the 5–10 relevant outliers, each with its multiple, views and the subscriber count of the channel behind it (small channels with big multiples are the most useful signal);
+   - the 2–4 patterns behind them (hook type, title form, on camera or not, length);
+   - how our own Shorts did this week against those patterns (from the YouTube rows above).
+4. Write **one "YouTube change for next week"** line: one or two concrete experiments, such as a title pattern to test, a format to try or something to stop. Each must have a way to measure it (views at 7 days compared with our current average for that format). Put the same line in the scoreboard section next to "Mix change for next week". The weekly planning run applies it, numbers the experiment Shorts, and next Monday's run reports whether it worked.
+5. Never copy another channel's video, footage, title wording or thumbnail. Take the pattern, then make it with our own data, photos and Hank's footage.
