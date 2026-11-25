@@ -1,5 +1,14 @@
 > **Nov 23, 2026: TikTok is back on (Hank). Post every video to TikTok too; see TIKTOK_PROCEDURE.md.**
 
+> **Nov 24, 2026 plan update (Hank: "modify our social media plan as per your suggestions"). This overrides older sections where they conflict.**
+> 1. **X is off.** No daily posts and no Friday round-up from Nov 27. The only exception is the Thanksgiving post Hank asked for on Nov 26. Reason: 75 X posts sent 0 site sessions and 0 followers. Keep the @boxytrucks account and its pinned post; don't delete anything.
+> 2. **Instagram mix: Reels only.** Each week: 3 reader-rig Reels (as owners submit; the rig-ask run feeds this), 2 "By the numbers" data-hook Reels, plus years and tire Reels on the other days. Spec sheets, stacks and single images go to Pinterest only.
+> 3. **"From Hank's garage" weekly clip.** Every Monday the planning run asks Hank for one 15–30 second phone clip of his own trucks (a job, a walkaround, a sound). That clip gets the Thursday slot. If none arrives, use a reader rig.
+> 4. **Collab every rig and shop post.** When a Reel features someone's truck or shop, add them with "Add collaborators" on the final Instagram screen before Share, so it posts to both feeds. Log `ig_collab` on the queue item.
+> 5. **First 15 minutes after each post.** Hank replies to the first comments from his phone. The daily follow run drafts replies for anything still unanswered (facts from the site only) and posts them as @boxytrucks.
+> 6. **Every caption names its page and has a short link.** Line 1 is the hook. Line 2 is `→ boxytrucks.com/r/<code>`. Add the code to `data/shortlinks.json` (`{"code": {"to": "/path/"}}`) before posting. Each `/r/<code>` redirects to the page with `utm_campaign=<code>`, so GA4 shows which post sent each visit. Use the same short link on that day's Story sticker and in the pinned YouTube comment, and replace "link in bio" with it.
+> 7. **TikTok and YouTube Shorts** get every Reel. TikTok captions use the short link as text, and YouTube Shorts stay as they are.
+
 # BoxyTrucks social strategy (Instagram + X)
 
 Adopted Nov 1, 2026 at Hank's request: keep the single-image posts, but stop making them the only format. The goal is followers who come to the site, so every post earns a save, a share or a click.

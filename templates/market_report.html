@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="band-night"><div class="wrap" style="padding-top:64px;padding-bottom:52px;display:flex;flex-direction:column;gap:16px">
+  <span class="eyebrow brass">Boxy market report · {{ r.title }}</span>
+  <h1 style="font-size:clamp(38px,5.2vw,64px);line-height:1;letter-spacing:-0.02em;max-width:880px;text-wrap:balance">What boxy 4x4s actually sold for: {{ r.title }}</h1>
+  <p class="fn-dek">{{ totals.listed }} {{ r.source }} that ended {{ r.window }}, sorted by generation. {{ totals.sold }} sold and {{ totals.listed - totals.sold }} didn't meet reserve.</p>
+</div></section>
+<div class="wrap section"><div class="mr-wrap">
+  <section class="mr-take"><h2 class="h-section">What the numbers say</h2>
+    <ul class="mr-bullets">{% for t in r.takeaways %}<li>{{ t|md_inline }}</li>{% endfor %}</ul>
+  </section>
+
+  <section><h2 class="h-section">Sale prices by generation</h2>
+    <p class="sub-intro">Median is the middle winning bid among trucks that sold. Click a truck for our buyer's guide: best years, what to check and what breaks.</p>
+    <div class="table-box"><table class="mr-table"><thead><tr><th>TRUCK</th><th>LISTED</th><th>SOLD</th><th>MEDIAN SALE</th><th>RANGE</th></tr></thead><tbody>
+    {% for gr in groups %}<tr{% if gr.sold < 5 %} class="thin"{% endif %}><td data-l="TRUCK">{% if gr.href %}<a href="{{ root }}{{ gr.href }}">{{ gr.label }}</a>{% else %}{{ gr.label }}{% endif %}</td><td class="mono" data-l="LISTED">{{ gr.listed }}</td><td class="mono" data-l="SOLD">{{ gr.sold }}{% if gr.listed %} ({{ (100 * gr.sold / gr.listed)|round|int }}%){% endif %}</td><td class="mono" data-l="MEDIAN"><strong>${{ '{:,}'.format(gr.median) }}</strong></td><td class="mono" data-l="RANGE">{% if gr.low != gr.high %}${{ '{:,}'.format(gr.low) }}–{{ '{:,}'.format(gr.high) }}{% else %}${{ '{:,}'.format(gr.low) }}{% endif %}</td></tr>{% endfor %}
+    </tbody></table></div>
+    <p class="mr-note">Rows in grey had fewer than five sales, so treat those as anecdotes, not market prices.</p>
+  </section>
+
+  <section><h2 class="h-section">The month's biggest sales</h2>
+    <ol class="mr-notable">{% for n in r.notable %}<li><span class="mono mr-price">${{ '{:,}'.format(n.price) }}</span><span><a class="inline-link" href="{{ n.url }}" target="_blank" rel="noopener">{{ n.title }} ↗</a> <span class="mr-date">{{ n.date_h }}</span>{% if n.href %} · <a class="inline-link" href="{{ root }}{{ n.href }}">our guide</a>{% endif %}</span></li>{% endfor %}</ol>
+  </section>
+
+  {% set nl_id = 'mr' %}{% include "_nl_inline.html" %}
+
+  <section class="mr-method"><h2 class="h-section">How we counted</h2>
+    <p>{{ r.method }}</p>
+    <p>Source: <a class="inline-link" href="{{ r.source_url }}" target="_blank" rel="noopener">Bring a Trailer auction results ↗</a>, collected {{ r.collected_h }}. Shopping now? See <a class="inline-link" href="{{ root }}for-sale/index.html">this week's picks and live searches for every generation</a>.</p>
+    <p class="mr-cite">Quoting these numbers? Please credit and link "BoxyTrucks market report" to this page.</p>
+  </section>
+</div></div>
+{% endblock %}

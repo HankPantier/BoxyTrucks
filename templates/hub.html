@@ -87,6 +87,19 @@
   </section>
   {% endfor %}
 {% elif hub.kind == 'sale' %}
+  {% if FS_PICKS %}<section id="picks" class="fs-picks" style="scroll-margin-top:96px">
+    <div class="sec-head"><div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">This week's picks · {{ FS_PICKS.title }}</span><h2>Boxy trucks for sale this week</h2></div></div>
+    <p class="sub-intro">{{ FS_PICKS.intro }}</p>
+    <div class="fs-grid">{% for pk in FS_PICKS.picks %}<article class="fs-card">
+      <div class="fs-top"><span class="mono fs-bid">${{ '{:,}'.format(pk.bid) }} bid</span>{% if pk.no_reserve %}<span class="fs-nr">No reserve</span>{% endif %}</div>
+      <h3><a href="{{ pk.url }}" target="_blank" rel="noopener" data-fs-click="{{ loop.index }}">{{ pk.title }} ↗</a></h3>
+      <p class="fs-ends mono">Ends {{ pk.ends_h }}</p>
+      <p>{{ pk.context }}</p>
+      {% if pk.href %}<a class="inline-link" href="{{ root }}{{ pk.href }}">What to check before you bid →</a>{% endif %}
+    </article>{% endfor %}</div>
+    <p class="mr-note">Bids as of {{ FS_PICKS.bids_as_of_h }}. We don't sell these trucks and nobody paid to be listed. Links go to Bring a Trailer.{% if LATEST_MARKET %} Prices come from our <a class="inline-link" href="{{ root }}market-report/{{ LATEST_MARKET.month }}/">{{ LATEST_MARKET.title }} market report</a>.{% endif %} New picks every week in <a class="inline-link" href="{{ root }}index.html#nl-h">The Boxy Dispatch</a>.</p>
+  </section>{% endif %}
+  <h2 class="h-section" style="margin:48px 0 16px">Live searches for every generation</h2>
   <nav class="chips" aria-label="Jump to" style="margin-bottom:40px">{% for f in fam_list %}<a class="chip" href="#{{ f.slug }}">{{ f.short }}</a>{% endfor %}</nav>
   {% for f in fam_list %}
   <section id="{{ f.slug }}" style="margin-bottom:48px;scroll-margin-top:96px">

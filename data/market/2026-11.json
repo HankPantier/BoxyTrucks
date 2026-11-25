@@ -1,0 +1,551 @@
+{
+ "month": "2026-11",
+ "title": "November 2026",
+ "window": "October 25 – November 24, 2026",
+ "source": "Bring a Trailer completed auctions",
+ "source_url": "https://bringatrailer.com/auctions/results/",
+ "collected": "2026-11-25",
+ "method": "Every Bring a Trailer auction that ended between October 25 and November 24, 2026 and matched a search for one of our trucks, sorted by generation from the listing title. Prices are the winning bid in US dollars as shown on BaT (BaT's buyer's fee is on top). \"No sale\" means the bidding didn't meet the reserve. Groups with fewer than five sales are a thin sample, so read them as anecdotes, not market prices. Cars & Bids is next.",
+ "groups": [
+  {
+   "fam": "g-class",
+   "gen": "g500",
+   "label": "G 500 and G 55 (W463, to 2008)",
+   "listed": 3,
+   "sold": 3,
+   "no_sale": 0,
+   "median": 26000,
+   "low": 20250,
+   "high": 32100
+  },
+  {
+   "fam": "g-class",
+   "gen": "g550",
+   "label": "G 550 (2009–18)",
+   "listed": 7,
+   "sold": 4,
+   "no_sale": 3,
+   "median": 66750,
+   "low": 35750,
+   "high": 103000
+  },
+  {
+   "fam": "g-class",
+   "gen": "4x4-squared",
+   "label": "G 550 4×4²",
+   "listed": 4,
+   "sold": 3,
+   "no_sale": 1,
+   "median": 144000,
+   "low": 135000,
+   "high": 157000
+  },
+  {
+   "fam": "g-class",
+   "gen": "second-gen",
+   "label": "G 550 (2019 on)",
+   "listed": 2,
+   "sold": 1,
+   "no_sale": 1,
+   "median": 74000,
+   "low": 74000,
+   "high": 74000
+  },
+  {
+   "fam": "g-class",
+   "gen": "g63-amg",
+   "label": "Mercedes-AMG G 63",
+   "listed": 12,
+   "sold": 6,
+   "no_sale": 6,
+   "median": 95250,
+   "low": 51015,
+   "high": 227000
+  },
+  {
+   "fam": "g-class",
+   "gen": "w460",
+   "label": "250GD, 300GD and 230GE (W460/W461)",
+   "listed": 5,
+   "sold": 2,
+   "no_sale": 3,
+   "median": 38277,
+   "low": 36555,
+   "high": 40000
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "fj40",
+   "label": "Land Cruiser 40 Series",
+   "listed": 23,
+   "sold": 15,
+   "no_sale": 8,
+   "median": 28500,
+   "low": 10000,
+   "high": 70500
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "fj60",
+   "label": "Land Cruiser 60 Series (FJ60/FJ62)",
+   "listed": 13,
+   "sold": 12,
+   "no_sale": 1,
+   "median": 32000,
+   "low": 8865,
+   "high": 39750
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "70-series",
+   "label": "Land Cruiser 70 Series",
+   "listed": 10,
+   "sold": 6,
+   "no_sale": 4,
+   "median": 16900,
+   "low": 3500,
+   "high": 37000
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "80-series",
+   "label": "Land Cruiser 80 Series",
+   "listed": 18,
+   "sold": 17,
+   "no_sale": 1,
+   "median": 26500,
+   "low": 2500,
+   "high": 95000
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "100-series",
+   "label": "Land Cruiser 100 Series",
+   "listed": 15,
+   "sold": 15,
+   "no_sale": 0,
+   "median": 22250,
+   "low": 9555,
+   "high": 65000
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "200-series",
+   "label": "Land Cruiser 200 Series",
+   "listed": 14,
+   "sold": 13,
+   "no_sale": 1,
+   "median": 100000,
+   "low": 26250,
+   "high": 156000
+  },
+  {
+   "fam": "land-cruiser",
+   "gen": "fj-cruiser",
+   "label": "FJ Cruiser",
+   "listed": 19,
+   "sold": 13,
+   "no_sale": 6,
+   "median": 23000,
+   "low": 10750,
+   "high": 68888
+  },
+  {
+   "fam": "lexus",
+   "gen": null,
+   "label": "Lexus LX 450 and LX 470",
+   "listed": 17,
+   "sold": 17,
+   "no_sale": 0,
+   "median": 26500,
+   "low": 5400,
+   "high": 82000
+  },
+  {
+   "fam": "lexus",
+   "gen": "gx470",
+   "label": "Lexus GX 470",
+   "listed": 6,
+   "sold": 4,
+   "no_sale": 2,
+   "median": 16625,
+   "low": 15555,
+   "high": 24750
+  },
+  {
+   "fam": "4runner",
+   "gen": "1st-gen",
+   "label": "4Runner 1st Gen",
+   "listed": 2,
+   "sold": 2,
+   "no_sale": 0,
+   "median": 32875,
+   "low": 18500,
+   "high": 47250
+  },
+  {
+   "fam": "4runner",
+   "gen": "3rd-gen",
+   "label": "4Runner 3rd Gen",
+   "listed": 11,
+   "sold": 9,
+   "no_sale": 2,
+   "median": 14750,
+   "low": 11500,
+   "high": 25000
+  },
+  {
+   "fam": "4runner",
+   "gen": "4th-gen",
+   "label": "4Runner 4th Gen",
+   "listed": 5,
+   "sold": 5,
+   "no_sale": 0,
+   "median": 18500,
+   "low": 12250,
+   "high": 28500
+  },
+  {
+   "fam": "land-rover",
+   "gen": "defender-90-110",
+   "label": "Defender 90/110/130 (to 2016)",
+   "listed": 33,
+   "sold": 16,
+   "no_sale": 17,
+   "median": 43250,
+   "low": 22500,
+   "high": 168000
+  },
+  {
+   "fam": "land-rover",
+   "gen": "defender-l663",
+   "label": "Defender (2020 on)",
+   "listed": 6,
+   "sold": 3,
+   "no_sale": 3,
+   "median": 37000,
+   "low": 26500,
+   "high": 39999
+  },
+  {
+   "fam": "land-rover",
+   "gen": "series",
+   "label": "Land Rover Series",
+   "listed": 3,
+   "sold": 3,
+   "no_sale": 0,
+   "median": 14000,
+   "low": 12500,
+   "high": 16500
+  },
+  {
+   "fam": "land-rover",
+   "gen": "discovery-1",
+   "label": "Discovery, LR3 and LR4",
+   "listed": 8,
+   "sold": 7,
+   "no_sale": 1,
+   "median": 11750,
+   "low": 5700,
+   "high": 19888
+  },
+  {
+   "fam": "range-rover",
+   "gen": "classic",
+   "label": "Range Rover Classic",
+   "listed": 2,
+   "sold": 2,
+   "no_sale": 0,
+   "median": 39625,
+   "low": 14750,
+   "high": 64500
+  },
+  {
+   "fam": "bronco",
+   "gen": "early-bronco",
+   "label": "Early Bronco (1966–77)",
+   "listed": 33,
+   "sold": 19,
+   "no_sale": 14,
+   "median": 72000,
+   "low": 8066,
+   "high": 240000
+  },
+  {
+   "fam": "bronco",
+   "gen": "full-size",
+   "label": "Full-size Bronco (1978–96)",
+   "listed": 17,
+   "sold": 12,
+   "no_sale": 5,
+   "median": 17925,
+   "low": 5500,
+   "high": 52000
+  },
+  {
+   "fam": "bronco",
+   "gen": "sixth-gen",
+   "label": "Bronco (2021 on)",
+   "listed": 7,
+   "sold": 4,
+   "no_sale": 3,
+   "median": 42050,
+   "low": 33500,
+   "high": 74500
+  },
+  {
+   "fam": "jeep",
+   "gen": "sj-wagoneer",
+   "label": "Wagoneer and Grand Wagoneer (SJ)",
+   "listed": 16,
+   "sold": 12,
+   "no_sale": 4,
+   "median": 22375,
+   "low": 5200,
+   "high": 42250
+  },
+  {
+   "fam": "jeep",
+   "gen": "cherokee-xj",
+   "label": "Cherokee XJ",
+   "listed": 9,
+   "sold": 8,
+   "no_sale": 1,
+   "median": 10225,
+   "low": 5600,
+   "high": 21000
+  },
+  {
+   "fam": "jeep",
+   "gen": null,
+   "label": "CJ-5, CJ-7 and CJ-8",
+   "listed": 22,
+   "sold": 16,
+   "no_sale": 6,
+   "median": 14975,
+   "low": 8000,
+   "high": 42500
+  },
+  {
+   "fam": "jeep",
+   "gen": "yj",
+   "label": "Wrangler YJ",
+   "listed": 7,
+   "sold": 6,
+   "no_sale": 1,
+   "median": 9762,
+   "low": 5150,
+   "high": 25251
+  },
+  {
+   "fam": "jeep",
+   "gen": "tj",
+   "label": "Wrangler TJ",
+   "listed": 20,
+   "sold": 15,
+   "no_sale": 5,
+   "median": 13500,
+   "low": 6600,
+   "high": 38500
+  },
+  {
+   "fam": "jeep",
+   "gen": "jk",
+   "label": "Wrangler JK",
+   "listed": 17,
+   "sold": 7,
+   "no_sale": 10,
+   "median": 14800,
+   "low": 5600,
+   "high": 20000
+  },
+  {
+   "fam": "scout",
+   "gen": null,
+   "label": "International Scout",
+   "listed": 11,
+   "sold": 6,
+   "no_sale": 5,
+   "median": 35000,
+   "low": 7200,
+   "high": 42000
+  },
+  {
+   "fam": "chevrolet",
+   "gen": null,
+   "label": "K5 Blazer and Jimmy",
+   "listed": 16,
+   "sold": 11,
+   "no_sale": 3,
+   "median": 30000,
+   "low": 3650,
+   "high": 110000
+  },
+  {
+   "fam": "unimog",
+   "gen": null,
+   "label": "Unimog",
+   "listed": 4,
+   "sold": 4,
+   "no_sale": 0,
+   "median": 31500,
+   "low": 20888,
+   "high": 116000
+  },
+  {
+   "fam": "hummer",
+   "gen": "h1",
+   "label": "Hummer H1",
+   "listed": 2,
+   "sold": 2,
+   "no_sale": 0,
+   "median": 43612,
+   "low": 42975,
+   "high": 44250
+  },
+  {
+   "fam": "pajero",
+   "gen": null,
+   "label": "Mitsubishi Montero and Pajero",
+   "listed": 4,
+   "sold": 4,
+   "no_sale": 0,
+   "median": 10984,
+   "low": 5200,
+   "high": 40250
+  },
+  {
+   "fam": "ramcharger",
+   "gen": null,
+   "label": "Dodge Ramcharger",
+   "listed": 2,
+   "sold": 2,
+   "no_sale": 0,
+   "median": 12500,
+   "low": 10000,
+   "high": 15000
+  },
+  {
+   "fam": "trooper",
+   "gen": null,
+   "label": "Isuzu Trooper",
+   "listed": 2,
+   "sold": 2,
+   "no_sale": 0,
+   "median": 7150,
+   "low": 4200,
+   "high": 10100
+  },
+  {
+   "fam": "suzuki",
+   "gen": null,
+   "label": "Suzuki Samurai and Jimny",
+   "listed": 3,
+   "sold": 3,
+   "no_sale": 0,
+   "median": 5600,
+   "low": 4500,
+   "high": 7600
+  },
+  {
+   "fam": "grenadier",
+   "gen": "station-wagon",
+   "label": "Ineos Grenadier",
+   "listed": 1,
+   "sold": 1,
+   "no_sale": 0,
+   "median": 69500,
+   "low": 69500,
+   "high": 69500
+  }
+ ],
+ "notable": [
+  {
+   "title": "Coyote-powered 1975 Ford Bronco by Velocity Restorations",
+   "price": 240000,
+   "date": "2026-11-02",
+   "url": "https://bringatrailer.com/listing/1975-ford-bronco-205/",
+   "fam": "bronco",
+   "gen": "early-bronco"
+  },
+  {
+   "title": "Armored 2026 Mercedes-AMG G 63",
+   "price": 227000,
+   "date": "2026-11-09",
+   "url": "https://bringatrailer.com/listing/2026-mercedes-benz-g63-amg-2-2/",
+   "fam": "g-class",
+   "gen": "g63-amg"
+  },
+  {
+   "title": "LS3-powered Arkonik 1993 Land Rover Defender 110",
+   "price": 168000,
+   "date": "2026-10-25",
+   "url": "https://bringatrailer.com/listing/1993-land-rover-defender-110-169/",
+   "fam": "land-rover",
+   "gen": "defender-90-110"
+  },
+  {
+   "title": "1,800-mile 2021 Toyota Land Cruiser Heritage Edition",
+   "price": 156000,
+   "date": "2026-11-14",
+   "url": "https://bringatrailer.com/listing/2021-toyota-land-cruiser-103/",
+   "fam": "land-cruiser",
+   "gen": "200-series"
+  },
+  {
+   "title": "1986 Mercedes-Benz Unimog U1200",
+   "price": 116000,
+   "date": "2026-11-18",
+   "url": "https://bringatrailer.com/listing/1986-mercedes-benz-unimog-u1200/",
+   "fam": "unimog",
+   "gen": null
+  },
+  {
+   "title": "6.0L-powered 1971 Chevrolet K5 Blazer",
+   "price": 110000,
+   "date": "2026-11-12",
+   "url": "https://bringatrailer.com/listing/1971-chevrolet-k5-blazer-85/",
+   "fam": "chevrolet",
+   "gen": "k5-blazer-1st"
+  },
+  {
+   "title": "1994 Toyota Land Cruiser FZJ80",
+   "price": 95000,
+   "date": "2026-11-02",
+   "url": "https://bringatrailer.com/listing/1994-toyota-land-cruiser-fzj80-160/",
+   "fam": "land-cruiser",
+   "gen": "80-series"
+  },
+  {
+   "title": "28k-mile 1997 Lexus LX 450",
+   "price": 82000,
+   "date": "2026-11-12",
+   "url": "https://bringatrailer.com/listing/1997-lexus-lx450-191/",
+   "fam": "lexus",
+   "gen": "lx450"
+  },
+  {
+   "title": "16k-mile 2014 Toyota FJ Cruiser Trail Teams Ultimate Edition",
+   "price": 68888,
+   "date": "2026-11-19",
+   "url": "https://bringatrailer.com/listing/2014-toyota-fj-cruiser-267/",
+   "fam": "land-cruiser",
+   "gen": "fj-cruiser"
+  },
+  {
+   "title": "25k-mile 2004 Toyota Land Cruiser (100 Series)",
+   "price": 65000,
+   "date": "2026-11-14",
+   "url": "https://bringatrailer.com/listing/2004-toyota-land-cruiser-105/",
+   "fam": "land-cruiser",
+   "gen": "100-series"
+  }
+ ],
+ "takeaways": [
+  "**The 80 and 100 Series are the easiest trucks to sell.** 17 of 18 80 Series sold (median $26,500), and all 15 100 Series sold (median $22,250). A 25k-mile 2004 100 Series brought $65,000.",
+  "**Half the classic Defenders didn't sell.** 33 Defender 90/110/130s were listed but only 16 met reserve. The median sale was $43,250, so sellers are asking for more than buyers will pay.",
+  "**Early Broncos are a restomod market.** 19 of 33 sold at a $72,000 median. A Coyote-swapped Velocity build made $240,000, the top price this month.",
+  "**The cheapest way into a G-Class is still an early W463.** Three G 500s sold for $20,250–32,100, against a $66,750 median for 2009–18 G 550s and $144,000 for the 4×4².",
+  "**Wrangler JK sellers are optimistic.** 10 of 17 didn't sell. The ones that did went for $5,600–20,000."
+ ]
+}

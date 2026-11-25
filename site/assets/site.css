@@ -1169,3 +1169,26 @@ main section.rep-sec { contain-intrinsic-size: auto 56px; }
 .rr-disc, .rr-credit { font-size: .8em; opacity: .7; }
 .rr-body .btn { align-self: flex-start; }
 @media (max-width: 720px) { .rr-card { grid-template-columns: 1fr; } .rr-photos { height: 300px; } }
+
+/* Market report + weekly for-sale picks (Nov 25, 2026) */
+.mr-wrap { display: flex; flex-direction: column; gap: 44px; max-width: 980px; }
+.mr-bullets { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; max-width: 72ch; }
+.mr-table { min-width: 620px; }
+.mr-table tr.thin td { opacity: .62; }
+.mr-note, .mr-cite { font-size: 13px; opacity: .75; margin: 10px 0 0; }
+.mr-notable { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.mr-notable li { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px; align-items: baseline; border-bottom: 1px solid var(--rule, rgba(0,0,0,.12)); padding-bottom: 10px; }
+.mr-price { font-weight: 600; }
+.mr-date { font-size: 13px; opacity: .7; }
+.mr-method p { max-width: 72ch; }
+.fs-picks { margin-bottom: 24px; }
+.fs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.fs-card { border: 1px solid var(--ink); padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.fs-card h3 { margin: 0; font-size: 18px; line-height: 1.25; text-wrap: balance; }
+.fs-card h3 a { text-decoration: none; color: inherit; }
+.fs-card p { margin: 0; }
+.fs-top { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.fs-bid { font-weight: 600; }
+.fs-nr { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid currentColor; padding: 2px 6px; }
+.fs-ends { font-size: 12px; opacity: .7; }
+@media (max-width: 520px) { .mr-notable li { grid-template-columns: 1fr; gap: 2px; } }

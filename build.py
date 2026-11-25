@@ -713,6 +713,11 @@ def redirect_stub(target_url):
             f'<body><a href="{target_url}">This page has moved.</a></body></html>')
 
 try:
+    SEO_OVERRIDES = json.loads((DATA / 'seo_overrides.json').read_text())
+except Exception:
+    SEO_OVERRIDES = {}
+
+try:
     REPAIR_NOINDEX = set(json.loads((DATA / 'repair_noindex.json').read_text()).get('paths', []))
 except Exception:
     REPAIR_NOINDEX = set()
@@ -825,6 +830,7 @@ def main():
                 return f'<a class="inline-link" href="{root}models/{fs}/{gs}.html">{t}</a>' if gen_exists(fs, gs) else t
             return Markup(LINK_RE.sub(rep, s))
         env.filters['lk'] = lk
+        env.filters['md_inline'] = lambda t: Markup(re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', str(Markup.escape(t or ''))))
         env.filters['striplk'] = lambda t: LINK_RE.sub(lambda m: m.group(3), str(t or ''))
         def mark(color, w=34, bg='#0E0F0E'):
             return Markup(f'<svg viewBox="0 0 64 64" width="{w}" aria-hidden="true"><path d="M1 1 H63 V63 H53 A13 13 0 0 0 27 63 H1 Z" fill="none" stroke="{color}" stroke-width="2.6"/><rect x="1" y="33" width="62" height="2.4" fill="{color}"/><circle cx="40" cy="63" r="9.5" fill="{color}"/><circle cx="40" cy="63" r="3.5" fill="{bg}"/></svg>')
@@ -870,6 +876,10 @@ def main():
                            mark=mark, mark2=lambda: mark('#141513', 18, '#F7F4EE'), nav=NAV, nav_fams=NAV_FAMS, garage_keys=GARAGE_KEYS, instagram_url=INSTAGRAM_URL, x_url=X_URL, youtube_url=YOUTUBE_URL, tiktok_url=TIKTOK_URL)
         path = pretty_path(out)
         canonical = SITE_URL + path
+        _ov = SEO_OVERRIDES.get(path)  # data/seo_overrides.json: hand-tuned titles for near-page-one pages (Nov 24, 2026)
+        if _ov:
+            if _ov.get('title'): ctx['title'] = _ov['title']
+            if _ov.get('description'): ctx['description'] = _ov['description']
         og_img = ctx.pop('og_image', None) or DEFAULT_OG_IMAGE
         ld = ctx.pop('jsonld', [])
         for _x in ld:
@@ -1588,6 +1598,48 @@ def main():
            hub={'kind': 'mods', 'eyebrow': 'Mods & builders', 'title': 'Who builds them right', 'lead': 'Suspension, armor, racks, restorations and full builds — the suppliers and shops each platform’s owners actually trust.', 'groups': mod_groups, 'suppliers': suppliers, 'builders': BUILDERS})
     render('hub.html', 'resources/index.html', '../', crumbs=[('Resources', 'resources/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Resources', 'url': SITE_URL + 'resources/'}], active='resources', title='Resources — BoxyTrucks', description='The best YouTube channels, Instagram accounts, owner forums and reference sites for every boxy 4x4 we cover, sorted by model.', credits='',
            hub={'kind': 'resources', 'eyebrow': 'Resources', 'title': 'Channels, accounts, forums & references', 'lead': 'The YouTube channels, Instagram accounts, message boards and reference sources worth your time, filed by truck. Suggestions welcome.', 'groups': res_groups})
+    # ---- Boxy market report (monthly, BaT results) and weekly for-sale picks (Hank, Nov 24, 2026) ----
+    def _gen_link(fs, gs, sub=None):
+        if gs and gen_exists(fs, gs):
+            if sub and (SITE / 'models' / fs / gs / f'{sub}.html').exists():
+                return f'models/{fs}/{gs}/{sub}.html'
+            return f'models/{fs}/{gs}.html'
+        return f'models/{fs}/index.html' if fs in fams else None
+    def _dh(d):
+        d = datetime.date.fromisoformat(str(d)[:10]); return f'{d:%B} {d.day}, {d.year}'
+    MARKET = []
+    for _mf in sorted((DATA / 'market').glob('*.json'), reverse=True) if (DATA / 'market').exists() else []:
+        _r = jload(_mf)
+        for _gr in _r['groups']:
+            _gr['href'] = _gen_link(_gr['fam'], _gr.get('gen'))
+        for _n in _r['notable']:
+            _n['href'] = _gen_link(_n['fam'], _n.get('gen')); _n['date_h'] = _dh(_n['date'])
+        _r['collected_h'] = _dh(_r['collected'])
+        _tot = {'listed': sum(g['listed'] for g in _r['groups']), 'sold': sum(g['sold'] for g in _r['groups'])}
+        _r['totals'] = _tot
+        MARKET.append(_r)
+        render('market_report.html', f'market-report/{_r["month"]}/index.html', '../../', r=_r, groups=_r['groups'], totals=_tot, active='sale',
+               crumbs=[('For sale', 'for-sale/'), ('Market report', f'market-report/{_r["month"]}/')], og_type='article',
+               jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': f'What boxy 4x4s actually sold for: {_r["title"]}', 'url': SITE_URL + f'market-report/{_r["month"]}/',
+                        'datePublished': _r['collected'], 'about': 'Used 4x4 auction prices'},
+                       {'@context': 'https://schema.org', '@type': 'Dataset', 'name': f'BoxyTrucks boxy 4x4 auction prices, {_r["title"]}', 'description': f'Median sale prices, sell-through and ranges for {_tot["listed"]} Bring a Trailer auctions of boxy 4x4s that ended {_r["window"]}.',
+                        'url': SITE_URL + f'market-report/{_r["month"]}/', 'creator': PUBLISHER, 'temporalCoverage': _r['window']}],
+               title=fit_title(f'Boxy 4x4 Auction Prices, {_r["title"]}: G-Wagen, Land Cruiser, Defender, Bronco', f'Boxy 4x4 Auction Prices: {_r["title"]}'),
+               description=fit_desc(f'What {_tot["listed"]} G-Wagens, Land Cruisers, Defenders, Broncos, Jeeps and more did on Bring a Trailer, {_r["window"]}: median sale price, sell-through and the top sales, by generation.'), credits='')
+    if MARKET:
+        (SITE / 'market-report').mkdir(exist_ok=True)
+        (SITE / 'market-report' / 'index.html').write_text(redirect_stub(f'/market-report/{MARKET[0]["month"]}/'))
+    PICKS = None
+    _pf = sorted((DATA / 'for-sale').glob('*.json'), reverse=True) if (DATA / 'for-sale').exists() else []
+    if _pf:
+        PICKS = jload(_pf[0])
+        for _p in PICKS['picks']:
+            _p['href'] = _gen_link(_p['fam'], _p.get('gen'), 'problems')
+            _e = datetime.datetime.fromisoformat(_p['ends'].replace('Z', '+00:00')).astimezone(datetime.timezone(datetime.timedelta(hours=-5)))
+            _p['ends_h'] = f'{_e:%a %b} {_e.day}, {_e.strftime("%I:%M %p").lstrip("0")} ET'
+        PICKS['bids_as_of_h'] = _dh(PICKS['bids_as_of'])
+    env.globals['FS_PICKS'] = PICKS
+    env.globals['LATEST_MARKET'] = MARKET[0] if MARKET else None
     render('hub.html', 'for-sale/index.html', '../', crumbs=[('For sale', 'for-sale/')], jsonld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'For sale', 'url': SITE_URL + 'for-sale/'}], active='sale', title='For sale — BoxyTrucks', description='Find a boxy 4x4 for sale: ready-made AutoTempest, Bring a Trailer and Cars & Bids searches for every generation, from FJ40s to Grenadiers.', credits='',
            hub={'kind': 'sale', 'eyebrow': 'The one you’ll own someday', 'title': 'For sale now', 'lead': 'Live AutoTempest searches across the major marketplaces, plus Bring a Trailer and Cars & Bids auctions and results, for every generation we cover. (Cars & Bids lists 1981 and newer.)'})
     # keep old /watch/ URL working
@@ -1849,7 +1901,15 @@ def main():
     today = date.today().isoformat()
     urls = sorted(set(SITEMAP))
     (SITE / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n' for u in urls) + '</urlset>\n')
-    (SITE / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /submit/thanks/\nDisallow: /newsletter/\nDisallow: /checklists/\n\nSitemap: {SITE_URL}sitemap.xml\n')
+    # ---- Short links for captions and Stories (Nov 24, 2026): boxytrucks.com/r/<code> -> page + UTM, one code per post ----
+    for _code, _sl in (jload(DATA / 'shortlinks.json') or {}).items():
+        _to = _sl['to'] if isinstance(_sl, dict) else _sl
+        _src = (_sl.get('src') if isinstance(_sl, dict) else None) or 'instagram'
+        _sep = '&' if '?' in _to else '?'
+        _dest = f"{_to}{_sep}utm_source={_src}&utm_medium=social&utm_campaign={_code}"
+        (SITE / 'r' / _code).mkdir(parents=True, exist_ok=True)
+        (SITE / 'r' / _code / 'index.html').write_text(redirect_stub(_dest))
+    (SITE / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /submit/thanks/\nDisallow: /newsletter/\nDisallow: /checklists/\nDisallow: /r/\n\nSitemap: {SITE_URL}sitemap.xml\n')
 
     # ---- llms.txt / llms-full.txt (regenerated from the data on every build, so CI keeps them current) ----
     def _t(x):
@@ -1878,6 +1938,23 @@ def main():
             if not p: continue
             L.append(f'- [{mlabel(fam["maker"], p["title"])} ({g.get("years", "")})]({gurl(slug, g["slug"])}): {_t(g["summary"])}')
         L.append('')
+    # Quick answers (Nov 24, 2026): the verdicts AI assistants get asked for most, with the page to cite
+    QA = ['## Quick answers: best years and biggest tires', '']
+    for slug in FAMILY_ORDER:
+        if slug not in fams: continue
+        fam = fams[slug]
+        for g in fam['generations']:
+            p = pages[slug].get(g['slug'])
+            if not p: continue
+            _nm = mlabel(fam['maker'], p['title'])
+            _bq = next((f for f in p.get('faq', []) if BEST_Q_EARLY.search(f['q'])), None)
+            _tq2 = next((f for f in p.get('faq', []) if TIRE_Q.search(f['q'])), None)
+            if _bq:
+                QA.append(f'- {_nm}, best years and years to avoid: {_t(_bq["a"])} ({gurl(slug, g["slug"])}years/)')
+            if _tq2:
+                QA.append(f'- {_nm}, biggest tire: {_t(_tq2["a"])} ({gurl(slug, g["slug"])}tires/)')
+    QA.append('')
+    L += QA
     L += ['## Site', '',
           f'- [Repair guides]({SITE_URL}repairs/): step-by-step DIY repairs, one page each, by model',
           f'- [Specs & fluids]({SITE_URL}models/land-cruiser/100-series/specs/): every generation has a printable specs, fluids and service page at /models/<family>/<generation>/specs/',

@@ -1,4 +1,6 @@
-# X (@boxytrucks): weekly round-up only
+# X (@boxytrucks): paused
+
+**Nov 24, 2026 (Hank approved the plan change): X is off, Friday round-up included.** 75 posts sent 0 site sessions and 0 followers. Don't post to X. The only exception is the Nov 26 Thanksgiving post Hank asked for. Keep the account and don't delete anything. The round-up steps below are kept in case Hank turns X back on.
 
 **Nov 14, 2026 (Hank): scale X back to one weekly round-up instead of 4–5 posts a day.** X had 1 follower, most posts got 1–4 views, and it sent 6 site visits in a week. No other routine posts to X any more (daily posts, Shorts, Spec Sheets, stacks and Field Notes all skip it). The only X post is the Friday round-up below.
 
