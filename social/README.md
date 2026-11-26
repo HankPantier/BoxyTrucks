@@ -140,3 +140,4 @@ Plates blurred in source this run: fj60-ingeegoodbee, jimny-jb74-grassy-hillside
 - Nov 25: Pins: LR3 problems, Patrol Y60 problems (plate blurred in y60-swat-snow first), Prado 90 problems, Wrangler LJ tires, Bronco 6th gen problems
 - Nov 25: Schöckl plate fix part 2: W463 checks replacement on YouTube https://youtube.com/shorts/9l2icNvfSeQ (comment pinned), Instagram https://www.instagram.com/boxytrucks/reel/DgLpldoObFo/, Pinterest 1128292512947129616; Eurowise deal replacement on Instagram https://www.instagram.com/boxytrucks/p/DgLqKrdHJMc/ and Pinterest 1128292512947129635. Old IG posts, X posts and pins still up (no deletion approved).
 - Nov 25: rig asks posted (Hank approved all 5): @fujicab, @bakalov.sys, @gary_babich, @brthr4x4, @bao.rnr
+- Nov 25 (evening): Nov 24 rig asks posted (Hank approved): @aaronukusic, @dansrides, @jeth_rover, @landrover_santana88, @jeppgram
