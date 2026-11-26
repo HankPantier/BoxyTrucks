@@ -3,7 +3,7 @@ title: "The 2027 4Runner is the same truck with heated seats and a bigger sticke
 seo_title: "2027 Toyota 4Runner pricing: SR5 tops $45,000, TRD Pro passes $70,000"
 kicker: PRICE CHANGE
 date: 2026-11-26
-status: draft
+status: published
 dek: "Toyota announced the 2027 4Runner on November 25. The base SR5 now starts at $43,490 before destination, or $45,085 with it, and the TRD Pro passes $70,000. What you get for the money is heated front seats on the SR5, power front seats on three more grades, a new paint color and puddle lamps. Mechanically, nothing changes."
 image: img/4runner/dune-convoy.jpg
 image_alt: "A line of lifted fifth-generation Toyota 4Runners on mud-terrain tires waiting on desert sand dunes"
