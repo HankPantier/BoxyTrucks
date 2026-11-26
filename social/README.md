@@ -142,3 +142,4 @@ Plates blurred in source this run: fj60-ingeegoodbee, jimny-jb74-grassy-hillside
 - Nov 25: rig asks posted (Hank approved all 5): @fujicab, @bakalov.sys, @gary_babich, @brthr4x4, @bao.rnr
 - Nov 25 (evening): Nov 24 rig asks posted (Hank approved): @aaronukusic, @dansrides, @jeth_rover, @landrover_santana88, @jeppgram
 - Nov 26: Thanksgiving Reel (Hank's G 500): IG https://www.instagram.com/boxytrucks/reel/DgNsKNyud8u/ · YT https://youtube.com/shorts/KybYmx_byaE (comment pinned) · Pinterest 1128292512947185731 · TikTok 7712540600851057950 · X skipped (browser signed in as @webhank)
+- Nov 26: TikTok backlog part 4: nothing left to post. GX470, K5 Blazer (1st gen) and Unimog 404 tire Shorts held from TikTok for parked/show/event photos; L322 hook already held. TikTok backlog is now clear apart from these.
