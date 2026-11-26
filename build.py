@@ -396,6 +396,8 @@ def repair_slug(title, used):
 
 
 def mlabel(maker, title):
+    if maker == 'International' and str(title).startswith('Scout Motors'):  # the new Scout is Volkswagen's, not International's
+        return title
     return title if str(title).lower().startswith(maker.lower()) else f'{maker} {title}'
 
 
@@ -1099,7 +1101,7 @@ def main():
                     render('gen_tires.html', f'models/{slug}/{g["slug"]}/tires.html', '../../../', fam=fam, g=g, p=page, f=_f, tmath=tire_math(_f.get('stock'), _f.get('max_tire')), shop_sizes=tire_sizes(*[t.get('size') for t in (_f.get('max_tire') or [])], *(_f.get('stock') or []), *[t.get('note') for t in (_f.get('max_tire') or [])]), answer=(_tq or {}).get('a'), regear=(_rq or {}).get('a'), mods=_mods,
                            sn=_sn, model=_model, gen_href=_gh, crumb='Biggest tire', eyebrow=f'Tire fitment · {_y}', sibs=[l[:2] for l in _sib('tires')],
                            h1=f'{_sn} biggest tire size: stock and lifted',
-                           lede=f'The biggest tire owners run on a {_model} at every lift height, with the trimming it takes, the wheel specs you need and the lift kits that get you there.',
+                           lede=(f'What Scout Motors has published about tires for the {_model}, and what the show trucks have run, until production specs arrive.' if g['slug'] == 'scout-motors' else f'The biggest tire owners run on a {_model} at every lift height, with the trimming it takes, the wheel specs you need and the lift kits that get you there.'),
                            og_image=_og, og_type='article', active='models', crumbs=_sub_crumbs('Biggest tire', 'tires'), jsonld=_ld,
                            title=fit_title(f'{_sn} Biggest Tire Size: Stock & Lifted', f'{_sn} Biggest Tire Size', f'{_sn} Tire Size'),
                            description=fit_desc(f'Biggest tire on a {_sn} ({_y}): {_top.get("lift", "stock")} {_top.get("size", "")}, plus what fits with a lift, bolt pattern, offset and the lift kits that work.'), credits='')
@@ -1830,7 +1832,7 @@ def main():
            jsonld=[{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'Get a used 4x4 inspected before you buy', 'url': SITE_URL + 'pre-purchase-inspection/', 'description': 'How to get a pre-purchase inspection on a used Land Cruiser, G-Wagen, Defender, Jeep or other boxy 4x4: specialists, mobile inspectors, VIN checks and what to check.'},
                    {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in _ins_faq]}],
            title='Pre-Purchase Inspection for a Used 4x4: How & Who | BoxyTrucks', description='How to get a used 4x4 inspected before you buy: specialists by truck, mobile inspectors, free VIN checks, the tools to bring and what to check.', credits='')
-    render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, cl_groups=cl_groups, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the monthly BoxyTrucks email.', credits='')
+    render('newsletter_welcome.html', 'newsletter/welcome.html', '../', noindex=True, cl_groups=cl_groups, track_event='newsletter_confirmed', hide_newsletter=True, title="You're in — BoxyTrucks", description='Welcome to The Boxy Dispatch, the weekly BoxyTrucks email.', credits='')
     render('submit_thanks.html', 'submit/thanks.html', '../', active='submit', noindex=True, track_event='rig_submission', hide_newsletter=True, title='Thanks — BoxyTrucks', description='Thanks for sending your rig to BoxyTrucks. We read every submission and will be in touch if we feature it.', credits='')
 
     render('404.html', '404.html', '', noindex=True, hide_newsletter=True, title='Not found — BoxyTrucks', description='That page took a wrong turn. Search the guides or pick a model family.', credits='')
