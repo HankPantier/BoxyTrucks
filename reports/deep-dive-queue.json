@@ -519,17 +519,30 @@
   },
   {
    "gen": "jeep/cj-5",
-   "status": "todo",
-   "deepened": 2
+   "status": "done",
+   "deepened": 0,
+   "date": "2026-11-26",
+   "added": 2,
+   "maintenance": true,
+   "note": "Dana 30 hubs/bearings (ported, 4 sources), fuel gauge/sender; maintenance from 1979 CJ-5 manual + 1981 TSM"
   },
   {
    "gen": "jeep/cj-7",
-   "status": "todo"
+   "status": "done",
+   "date": "2026-11-26",
+   "added": 2,
+   "deepened": 0,
+   "maintenance": true,
+   "note": "clutch bellcrank (ported), fuel gauge/sender; maintenance from 1981 TSM"
   },
   {
    "gen": "jeep/cj-8",
-   "status": "todo",
-   "deepened": 3
+   "status": "done",
+   "deepened": 1,
+   "date": "2026-11-26",
+   "added": 2,
+   "maintenance": true,
+   "note": "Dana 30 hubs/bearings, fuel gauge/sender; T-5 deepened (out of noindex); maintenance from 1981 TSM"
   },
   {
    "gen": "jeep/comanche-mj",

@@ -357,5 +357,81 @@
    "name": "Offroaders.com — Dana 44 rear axle (1986 CJ and Quadra-Trac exceptions)",
    "url": "https://www.offroaders.com/tech/jeep/axles-factory-rear-dana44.htm"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep CJ-7 maintenance from Jeep's 1981 factory schedule, plus a purchase baseline for a truck this old.",
+  "intro": "Treat every fluid and wear item as unknown on the day you buy a CJ, then keep to the factory schedule. The intervals below are from Jeep's 1981 Technical Service Manual (Chapter B), which covers the CJ range. A 1976–80 CJ-7 had its own year's schedule; follow its manual if you have it.",
+  "schedule_note": "From the 1981 Jeep Technical Service Manual, Chapter B maintenance schedules.",
+  "schedule": [
+   {
+    "at": "On the day you buy it",
+    "items": [
+     "Engine oil and filter; air filter",
+     "Fuel filter; plugs, cap, rotor and wires",
+     "Coolant, hoses and thermostat",
+     "Gearbox, transfer case and both axle oils",
+     "Repack the front wheel bearings",
+     "Brake and clutch fluid; grease every fitting"
+    ]
+   },
+   {
+    "at": "Engine oil and filter (258 six)",
+    "items": [
+     "First change at 5,000 mi, then every 7,500 mi or 7.5 months"
+    ]
+   },
+   {
+    "at": "Fuel filter",
+    "items": [
+     "At 12,500 mi, then every 15,000 mi"
+    ]
+   },
+   {
+    "at": "Coolant",
+    "items": [
+     "At 12,500 mi or 12.5 months, then at the start of each winter season, with a 50/50 mix"
+    ]
+   },
+   {
+    "at": "Every 25,000 mi",
+    "items": [
+     "Automatic transmission fluid and filter (every 10,000 mi in heavy-duty use)"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi",
+    "items": [
+     "Spark plugs, cap, rotor and wires",
+     "Repack the front wheel bearings (every 15,000 mi in heavy-duty or off-road use)"
+    ]
+   }
+  ],
+  "severe": "The 1981 schedule halves the front wheel bearing interval to 15,000 mi and cuts the automatic transmission service to 10,000 mi for heavy-duty or off-road use. Repack the bearings after any water crossing deep enough to cover the hubs. Many owners change the oil of an old carbureted six every 3,000–5,000 mi.",
+  "age_items": [
+   {
+    "item": "Fuel sender ground",
+    "when": "Whenever the tank is dropped",
+    "why": "Jeep-CJ.com members trace dead gauges to a missing or poor sender ground."
+   },
+   {
+    "item": "Clutch bellcrank bushings",
+    "when": "At any sloppy clutch",
+    "why": "The plastic bushings wear, and bad motor mounts can break the pivots."
+   },
+   {
+    "item": "Frame at the steering box",
+    "when": "Every service",
+    "why": "Cracks around the steering box mount are a known CJ weak spot."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Jeep — 1981 Jeep Technical Service Manual (Chapter B maintenance schedules)"
+   },
+   {
+    "name": "Jeep-CJ.com: Fuel sender quit working ('79 CJ-5)",
+    "url": "https://jeep-cj.com/community/threads/fuel-sender-quit-working.62049"
+   }
+  ]
+ }
 }

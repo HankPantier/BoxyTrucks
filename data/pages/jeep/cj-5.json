@@ -419,6 +419,113 @@
      "supplier": "Eastwood"
     }
    ]
+  },
+  {
+   "title": "Front wheel bearings and locking hubs (Dana 30, 1972–83)",
+   "diff": "2 / 5",
+   "time": "≈ 2–3 hours for both sides",
+   "cost": "Bearings, races and seals [price not sourced]",
+   "symptoms": "Play at the top and bottom of the tire, growling that changes when you turn, grease flung inside the rim, or hubs that won't engage. The stock five-bolt Warn hubs on 1981–83 trucks are weak.",
+   "fix": "Remove the hub, the outer nut, lock washer and inner nut, then pull the rotor and catch the outer bearing. Clean everything, replace bearings and races as pairs, and press the new races in square. Seals come in two sizes (2 1/8 in and 2 5/16 in), so measure the old one first. Pack the bearings fully and tighten the inner nut to 50 ft-lb while turning the rotor to seat them, as the manuals quoted in the Off-Road.com thread say. Then back it off (one owner backs off about 1/6 turn), fit the lock washer and torque the outer locknut to 50 ft-lb and bend the lock-washer lip over it (1981 Jeep factory service manual; the inner nut is set the same way there, 50 ft-lb then back off 1/6 turn), and check end play: the manuals quoted there specify 0.001–0.005 in with a dial indicator. If the six spindle bolts come out, replace the needle bearing inside the spindle too.",
+   "tools": "Hub/spindle-nut socket · torque wrench · bearing packer (optional) · race driver or long bolt · brake cleaner · high-quality wheel-bearing grease.",
+   "parts": [
+    {
+     "name": "Crown SET45 front outer wheel bearing kit, 76–86 CJ",
+     "supplier": "Quadratec (Crown Automotive)",
+     "url": "https://www.quadratec.com/p/crown-automotive/front-outer-wheel-bearing-kit-cj-sj-j-series-SET45"
+    },
+    {
+     "name": "Crown SET47 front inner wheel bearing set, 77–86 CJ",
+     "supplier": "Quadratec (Crown Automotive)",
+     "url": "https://www.quadratec.com/p/crown-automotive/front-inner-wheel-bearing-set-cj-series-SET47"
+    },
+    {
+     "name": "Yukon AK F-J01 front axle bearing & seal kit, 76–83 CJ-5/CJ-7 Dana 30",
+     "supplier": "Quadratec (Yukon)",
+     "url": "https://www.quadratec.com/p/yukon-gear--axle/axle-bearing-seal-kit-cj5-cj7-front-dana-30-axle-AKF-J01"
+    },
+    {
+     "name": "Mile Marker 470 stainless manual locking hubs, 81–86 CJ (5-bolt)",
+     "supplier": "Quadratec (Mile Marker)",
+     "url": "https://www.quadratec.com/p/mile-marker/stainless-steel-manual-locking-hub-set-cj-470"
+    }
+   ],
+   "know": [
+    "1976–86 CJs with the Dana 30, including later CJ-5s, have serviceable tapered front wheel bearings held by an inner adjusting nut, a tab washer and an outer locknut. Check which front axle an earlier CJ-5 has before ordering parts.",
+    "You need a spindle-nut socket (2-1/16 in). Older sockets have side slots; later ones use four prongs. Medium snap-ring pliers come off the hub.",
+    "Seals come in two sizes. The 2.313-in (2-5/16) spindle seal fits 1977–86 CJ-7s and 1977–83 CJ-5s; measure the old seal if you're not sure what you have.",
+    "Inside the locking hub, too much grease is a common reason it won't engage. Owners lube the hub internals lightly with oil instead.",
+    "If the six spindle bolts come out, the needle bearing inside the spindle is worth replacing while you're there.",
+    "The procedure here comes from CJ-7 write-ups; the Dana 30 hub, bearings and seals are shared with the CJ-5, as the Yukon kit's CJ-5/CJ-7 fitment shows."
+   ],
+   "mistakes": [
+    "Packing the locking hub full of grease, which stops it engaging.",
+    "Putting thread locker on the spindle nuts; Loctite only goes on the spindle bolts.",
+    "Reusing a spindle locknut that drags or feels like it's stripping as it goes on.",
+    "Mixing up inner and outer races and bearings instead of keeping each matched pair together.",
+    "Leaving rust or scoring on the spindle, which ruins the new seal."
+   ],
+   "cost_note": "Bearing and seal kits are cheap. A front hub seal for 1977–86 CJ-7s lists at about $5 at Somar Motor, and complete bearing-and-seal kits from Crown and Yukon run in the tens of dollars per side at Quadratec. A spindle-nut socket is about $10. Expect a full weekend per side on a seized, neglected axle.",
+   "refs": [
+    {
+     "name": "4WDrive (Suncruiser Media): Change front wheel bearings like a pro (1986 CJ-7 Dana 30)",
+     "url": "https://suncruisermedia.com/4WDrive/tech/change-front-wheel-bearings-like-pro"
+    },
+    {
+     "name": "Jeep-CJ.com: Manual hub service",
+     "url": "https://jeep-cj.com/community/threads/manual-hub-service.4197"
+    },
+    {
+     "name": "Jeep-CJ.com: Prevailing torque nuts, spindle and wheel bearing",
+     "url": "https://jeep-cj.com/community/threads/prevailing-torque-nuts-spindle-wheel-bearing.25014"
+    },
+    {
+     "name": "Jeep-CJ.com: Front axle service procedure",
+     "url": "https://jeep-cj.com/community/threads/front-axle-service-procedure.4259"
+    }
+   ]
+  },
+  {
+   "title": "Fuel gauge reads wrong or dead: sender, ground and gauge",
+   "diff": "2 / 5",
+   "time": "Under an hour to test; 2–3 hours to change the sender (Quadratec's estimate)",
+   "cost": "Sender kit about $43–48 at Quadratec (1981–86, 20-gal tank)",
+   "symptoms": "A gauge that reads empty, sticks at one level or quit after the tank was dropped. On Jeep-CJ.com, a '79 CJ-5 owner's gauge died right after he dropped the tank to replace hoses; another owner's new sender stopped at half a tank.",
+   "fix": "Start with the cheap checks: fuses, then power and ground at the gauge and at the sender. Jeep-CJ.com members say the sender ground is the usual culprit; one warns that a sender with no ground can 'burn up in about 2 seconds'. Run a dedicated ground wire to the sender from the battery or engine block rather than trusting frame and body grounds; the CJ-5 owner also added a jumper from the sender ground on the skid plate to the frame. Then test the sender with an ohmmeter between its wire and a good ground. If the sender reads correctly but grounding its wire does nothing at the gauge, the gauge itself is the likely failure. If the reading sticks, drop the tank and check the float.",
+   "tools": "Multimeter (ohms and volts) · test light · jack and stands to drop the tank · new ground wire and terminals",
+   "parts": [
+    {
+     "name": "Crown 5362090K fuel sending unit kit (20-gal tank; sender, filter sock, O-ring, lock ring)",
+     "supplier": "Quadratec",
+     "url": "https://quadratec.com/products/55107_0010.htm"
+    }
+   ],
+   "know": [
+    "Quadratec lists the Crown 5362090K kit for 20-gallon tanks on the 1981–83 CJ-5. It's plug-and-play with no wire splicing.",
+    "Quadratec gives the factory sender values as 76–86 ohms empty and 5–9 ohms full, and says the unit is non-linear like the original, so pair it with the factory gauge or an aftermarket gauge built for the OE signal.",
+    "Forum members quote different gauge ranges (10–70 and 10–73 ohms) for aftermarket gauges. Match the gauge to the sender you fit.",
+    "One member suggests cutting a removable access cover into the tank bottom for easier sender work later."
+   ],
+   "mistakes": [
+    "Reconnecting the sender without a solid ground: members say it can kill the sender or gauge.",
+    "Buying a gauge rated for a different ohm range from your sender.",
+    "Dropping the tank before checking fuses and grounds."
+   ],
+   "cost_note": "Quadratec listed the Crown 5362090K kit at $47.99 MSRP ($43.19 in cart) when we checked.",
+   "refs": [
+    {
+     "name": "Jeep-CJ.com: Fuel sender quit working ('79 CJ-5)",
+     "url": "https://jeep-cj.com/community/threads/fuel-sender-quit-working.62049"
+    },
+    {
+     "name": "Jeep-CJ.com: Gas gauge not working",
+     "url": "https://jeep-cj.com/community/threads/gas-gauge-not-working.18114"
+    },
+    {
+     "name": "Quadratec: Crown 5362090K fuel sending unit kit, 1981–86 CJ (20-gal tank)",
+     "url": "https://quadratec.com/products/55107_0010.htm"
+    }
+   ]
   }
  ],
  "faq": [

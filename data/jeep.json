@@ -678,6 +678,91 @@
       "url": "https://www.quadratec.com/p/yukon-gear-axle/80w90-conventional-gear-oil"
      }
     ]
+   },
+   {
+    "title": "Clutch bellcrank (Z-bar) rebuild",
+    "diff": "2 / 5",
+    "time": "≈ 2–3 hours",
+    "cost": "Bushings and a bellcrank are inexpensive",
+    "symptoms": "A sloppy clutch, trouble selecting first, or linkage that pops apart. Jeep-CJ.com members say the plastic bushings wear out, and that worn motor mounts can break the pivots.",
+    "fix": "Check the motor mounts first. Remove the bellcrank, replace the bushings and ball studs (or the bellcrank), grease it and reset the clutch free play. A forum fix replaces the worn bushing with a ground-to-fit solid rod with welded-in bolt pivots. Some owners convert to a hydraulic clutch when engine torque keeps pushing the linkage out of the throwout lever.",
+    "tools": "Wrenches · grease · bushings or bellcrank · motor mounts if worn",
+    "parts": [
+     {
+      "name": "CJ clutch bellcranks and bushings",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/collections/1945-1986-cj-driveline-clutch-clutch-bellcranks"
+     },
+     {
+      "name": "CJ OEM-replacement motor mounts",
+      "supplier": "Quadratec",
+      "url": "https://www.quadratec.com/collections/1945-1986-cj-engine-and-fuel-system-motor-mounts-and-lifts-oem-replacement-motor-mounts"
+     }
+    ],
+    "know": [
+     "On Jeep-CJ.com, about an inch of side-to-side play at the bellcrank, with trouble getting into first, was traced to worn internal nylon bushings. A new bellcrank and bushings cured it.",
+     "Also check for wallowed-out rod holes and rod wear. A member suggests welding and re-drilling worn holes, or drilling them for heim joints.",
+     "The plastic cup on the pivot ball is the usual repeat failure. Members keep a spare bushing kit in the Jeep, grease it well, and one says dealer OEM plastic bushings last longer.",
+     "The bellcrank should sit level and perpendicular to the frame, with all retainer clips fitted. Its arms differ: member LG says the longer tab goes to the clutch pedal rod.",
+     "Bad motor mounts let the engine shift and can break the outer pivot.",
+     "Members who were tired of it fitted a hydraulic conversion, such as Novak's slave and bracket."
+    ],
+    "mistakes": [
+     "Fitting the bellcrank backwards; one member's grease fitting hit the frame and popped the linkage off.",
+     "Ordering the wrong clutch pedal rod; one owner received a CJ-5 part for a different model."
+    ],
+    "refs": [
+     {
+      "name": "Jeep-CJ.com: Bellcrank / Z-bar",
+      "url": "https://jeep-cj.com/community/threads/bellcrank-z-bar.24215"
+     },
+     {
+      "name": "Jeep-CJ.com: Clutch linkage woes",
+      "url": "https://jeep-cj.com/community/threads/clutch-linkage-woes.23380"
+     }
+    ]
+   },
+   {
+    "title": "Fuel gauge reads wrong or dead: sender, ground and gauge",
+    "diff": "2 / 5",
+    "time": "Under an hour to test; 2–3 hours to change the sender (Quadratec's estimate)",
+    "cost": "Sender kit about $43–48 at Quadratec (1981–86, 20-gal tank)",
+    "symptoms": "A gauge that reads empty, sticks at one level or quit after the tank was dropped. On Jeep-CJ.com, a '79 CJ-5 owner's gauge died right after he dropped the tank to replace hoses; another owner's new sender stopped at half a tank.",
+    "fix": "Start with the cheap checks: fuses, then power and ground at the gauge and at the sender. Jeep-CJ.com members say the sender ground is the usual culprit; one warns that a sender with no ground can 'burn up in about 2 seconds'. Run a dedicated ground wire to the sender from the battery or engine block rather than trusting frame and body grounds; the CJ-5 owner also added a jumper from the sender ground on the skid plate to the frame. Then test the sender with an ohmmeter between its wire and a good ground. If the sender reads correctly but grounding its wire does nothing at the gauge, the gauge itself is the likely failure. If the reading sticks, drop the tank and check the float.",
+    "tools": "Multimeter (ohms and volts) · test light · jack and stands to drop the tank · new ground wire and terminals",
+    "parts": [
+     {
+      "name": "Crown 5362090K fuel sending unit kit (20-gal tank; sender, filter sock, O-ring, lock ring)",
+      "supplier": "Quadratec",
+      "url": "https://quadratec.com/products/55107_0010.htm"
+     }
+    ],
+    "know": [
+     "Quadratec lists the Crown 5362090K kit for 20-gallon tanks on the 1981–86 CJ-7. It's plug-and-play with no wire splicing.",
+     "Quadratec gives the factory sender values as 76–86 ohms empty and 5–9 ohms full, and says the unit is non-linear like the original, so pair it with the factory gauge or an aftermarket gauge built for the OE signal.",
+     "Forum members quote different gauge ranges (10–70 and 10–73 ohms) for aftermarket gauges. Match the gauge to the sender you fit.",
+     "One member suggests cutting a removable access cover into the tank bottom for easier sender work later."
+    ],
+    "mistakes": [
+     "Reconnecting the sender without a solid ground: members say it can kill the sender or gauge.",
+     "Buying a gauge rated for a different ohm range from your sender.",
+     "Dropping the tank before checking fuses and grounds."
+    ],
+    "cost_note": "Quadratec listed the Crown 5362090K kit at $47.99 MSRP ($43.19 in cart) when we checked.",
+    "refs": [
+     {
+      "name": "Jeep-CJ.com: Fuel sender quit working ('79 CJ-5)",
+      "url": "https://jeep-cj.com/community/threads/fuel-sender-quit-working.62049"
+     },
+     {
+      "name": "Jeep-CJ.com: Gas gauge not working",
+      "url": "https://jeep-cj.com/community/threads/gas-gauge-not-working.18114"
+     },
+     {
+      "name": "Quadratec: Crown 5362090K fuel sending unit kit, 1981–86 CJ (20-gal tank)",
+      "url": "https://quadratec.com/products/55107_0010.htm"
+     }
+    ]
    }
   ],
   "faq": [

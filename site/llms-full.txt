@@ -8977,6 +8977,18 @@ Symptoms: Soft or holed floors, rot along the rockers, rear corners and under th
 Fix: Cut back to clean metal, then fit, clamp and weld in the replacement pan. Jeep-CJ.com warns that patches welded over rust just become rust, so remove all of it. Replace the body-mount bushings while the floor is open, then seam-seal and paint underneath. If the tub is too far gone, Omix and others sell complete steel tubs for 1976–83 CJ-5s.
 Tools: Cut-off wheel · MIG welder · clamps · seam sealer · weld-through primer
 
+#### Front wheel bearings and locking hubs (Dana 30, 1972–83)
+Difficulty 2 / 5 · time ≈ 2–3 hours for both sides · cost Bearings, races and seals [price not sourced]
+Symptoms: Play at the top and bottom of the tire, growling that changes when you turn, grease flung inside the rim, or hubs that won't engage. The stock five-bolt Warn hubs on 1981–83 trucks are weak.
+Fix: Remove the hub, the outer nut, lock washer and inner nut, then pull the rotor and catch the outer bearing. Clean everything, replace bearings and races as pairs, and press the new races in square. Seals come in two sizes (2 1/8 in and 2 5/16 in), so measure the old one first. Pack the bearings fully and tighten the inner nut to 50 ft-lb while turning the rotor to seat them, as the manuals quoted in the Off-Road.com thread say. Then back it off (one owner backs off about 1/6 turn), fit the lock washer and torque the outer locknut to 50 ft-lb and bend the lock-washer lip over it (1981 Jeep factory service manual; the inner nut is set the same way there, 50 ft-lb then back off 1/6 turn), and check end play: the manuals quoted there specify 0.001–0.005 in with a dial indicator. If the six spindle bolts come out, replace the needle bearing inside the spindle too.
+Tools: Hub/spindle-nut socket · torque wrench · bearing packer (optional) · race driver or long bolt · brake cleaner · high-quality wheel-bearing grease.
+
+#### Fuel gauge reads wrong or dead: sender, ground and gauge
+Difficulty 2 / 5 · time Under an hour to test; 2–3 hours to change the sender (Quadratec's estimate) · cost Sender kit about $43–48 at Quadratec (1981–86, 20-gal tank)
+Symptoms: A gauge that reads empty, sticks at one level or quit after the tank was dropped. On Jeep-CJ.com, a '79 CJ-5 owner's gauge died right after he dropped the tank to replace hoses; another owner's new sender stopped at half a tank.
+Fix: Start with the cheap checks: fuses, then power and ground at the gauge and at the sender. Jeep-CJ.com members say the sender ground is the usual culprit; one warns that a sender with no ground can 'burn up in about 2 seconds'. Run a dedicated ground wire to the sender from the battery or engine block rather than trusting frame and body grounds; the CJ-5 owner also added a jumper from the sender ground on the skid plate to the frame. Then test the sender with an ohmmeter between its wire and a good ground. If the sender reads correctly but grounding its wire does nothing at the gauge, the gauge itself is the likely failure. If the reading sticks, drop the tank and check the float.
+Tools: Multimeter (ohms and volts) · test light · jack and stands to drop the tank · new ground wire and terminals
+
 ### Baseline service
 A CJ-5 is at least 40 years old and has probably had several owners, each with their own idea of maintenance. Change every fluid, grease every fitting and sort the ignition before you judge how it runs. Specs vary by era and engine; the capacities below are from ExtremeTerrain's CJ chart, which mostly covers AMC-era drivetrains. Check anything for a Willys or Kaiser truck against its manual.
 - Engine oil & filter: 5W-30 or 10W-30 · 4.2 L six: 6 qt · 5.0 L 304: 5 qt · 2.5 L four: 4 qt · F134 / V6 (check your manual) · Baseline now; then per your owner's manual (These are flat-tappet engines. New drain-plug washer every time.)
@@ -9201,6 +9213,18 @@ Symptoms: Gear oil on the skid plate, wet yokes or a drip from the rear output. 
 Fix: Drain the case and unbolt the driveshafts. Hold the yoke and remove the output nut, then pull the yoke. Pry the old seal out with a big screwdriver or small pry bar, and drive the new one in squarely with a seal driver or a large socket (one owner used a 1 1/2-inch socket), tapping gently so it doesn't distort. Inspect the yoke's seal surface and replace it if it's grooved. Many owners take the chance to switch from strap-style to U-bolt yokes. Refill with 80W-90 to the fill plug.
 Tools: Yoke holder or pipe wrench · large socket for the output nut · pry bar · seal driver or 1 1/2 in socket · 80W-90 gear oil.
 
+#### Clutch bellcrank (Z-bar) rebuild
+Difficulty 2 / 5 · time ≈ 2–3 hours · cost Bushings and a bellcrank are inexpensive
+Symptoms: A sloppy clutch, trouble selecting first, or linkage that pops apart. Jeep-CJ.com members say the plastic bushings wear out, and that worn motor mounts can break the pivots.
+Fix: Check the motor mounts first. Remove the bellcrank, replace the bushings and ball studs (or the bellcrank), grease it and reset the clutch free play. A forum fix replaces the worn bushing with a ground-to-fit solid rod with welded-in bolt pivots. Some owners convert to a hydraulic clutch when engine torque keeps pushing the linkage out of the throwout lever.
+Tools: Wrenches · grease · bushings or bellcrank · motor mounts if worn
+
+#### Fuel gauge reads wrong or dead: sender, ground and gauge
+Difficulty 2 / 5 · time Under an hour to test; 2–3 hours to change the sender (Quadratec's estimate) · cost Sender kit about $43–48 at Quadratec (1981–86, 20-gal tank)
+Symptoms: A gauge that reads empty, sticks at one level or quit after the tank was dropped. On Jeep-CJ.com, a '79 CJ-5 owner's gauge died right after he dropped the tank to replace hoses; another owner's new sender stopped at half a tank.
+Fix: Start with the cheap checks: fuses, then power and ground at the gauge and at the sender. Jeep-CJ.com members say the sender ground is the usual culprit; one warns that a sender with no ground can 'burn up in about 2 seconds'. Run a dedicated ground wire to the sender from the battery or engine block rather than trusting frame and body grounds; the CJ-5 owner also added a jumper from the sender ground on the skid plate to the frame. Then test the sender with an ohmmeter between its wire and a good ground. If the sender reads correctly but grounding its wire does nothing at the gauge, the gauge itself is the likely failure. If the reading sticks, drop the tank and check the float.
+Tools: Multimeter (ohms and volts) · test light · jack and stands to drop the tank · new ground wire and terminals
+
 ### Baseline service
 Assume a 40-year-old CJ-7 has had nothing done unless there are receipts, and remember that three owners ago someone probably swapped the gearbox, carb or axle. Identify what you actually have first (Dana 20, Dana 300 or Quadra-Trac; which transmission; narrow or wide track), because the fluids differ. Then change every fluid, repack the front bearings and grease every zerk.
 - Engine oil & filter (258 I6): About 6 qt including the filter, per a 1984 CJ-7 owner's manual quoted on JeepCJ.com · ExtremeTerrain lists 5W-30 or 10W-30 for CJ engines · Then every 7,500 mi or 7.5 months after a first change at 5,000 (1981 Jeep factory schedule). Many owners use 3,000–5,000 mi on an old carbureted six (Owners report 5 to 5.5 qt reaching FULL depending on the pan and filter, so fill to 5, run it, then top up on the dipstick. The 304 V8 takes 5 qt and the 2.5 four takes 4 qt (ExtremeTerrain). The MFK16 and MFK18 kits below are for 304 and 2.5L trucks, not the 258.)
@@ -9414,8 +9438,8 @@ Tools: Pitman arm puller · torque wrench · thread-locker · welder for frame r
 
 #### T-5 jumping out of gear: rebuild or swap
 Difficulty 4 / 5 · time ≈ A weekend · cost Parts plus labor; a swap adds adapters and driveshaft work
-Symptoms: On a 1985 CJ-7 thread, a T-5 behind the 258 popped out of first and third, grinding on downshifts.
-Fix: Jeep-CJ.com members' options: rebuild the T-5 with new bearings and synchros, or replace it. They call the T-176 the easiest swap, though the driveshafts must be modified for length. One owner fitted a Ford T-18 using an Advance Adapters kit, a replacement output shaft and four drilled-and-tapped bellhousing holes, and kept his driveshafts. Replace the clutch while the gearbox is out. The T-4 and T-5 take ATF+4 (2 qt), per ExtremeTerrain.
+Symptoms: On a 1985 CJ-7 thread, a T-5 behind the 258 popped out of first and third, grinding on downshifts. On the 4WD Mechanix forum, another CJ-7 owner's T-5 would only go into fourth after highway runs in fifth, and needed force to find any gear.
+Fix: Rule out the clutch first. On the 4WD Mechanix forum, Moses Ludel's advice for a T-5 that won't shift was to check the clutch is fully releasing: with the rear wheels off the ground and the clutch pressed, see whether the driveline still turns in each gear, and check for at least 1/8 in of clearance between the release bearing and the cover fingers. A dragging pilot bearing gives the same symptoms. If the gearbox itself is worn, the options Jeep-CJ.com members give are to rebuild the T-5 with new bearings and synchros, or replace it. They call the T-176 the easiest swap, though the driveshafts must be modified for length. One owner fitted a Ford T-18 using an Advance Adapters kit, a replacement output shaft and four drilled-and-tapped bellhousing holes, and kept his driveshafts. Replace the clutch while the gearbox is out. The T-4 and T-5 take ATF+4 (2 qt), per ExtremeTerrain.
 Tools: Transmission jack · snap-ring pliers · bearing puller · adapter kit if swapping
 
 #### Carter BBD rough idle (258)
@@ -9447,6 +9471,18 @@ Difficulty 4 / 5 · time ≈ A weekend per side; a full tub swap is a strip-down
 Symptoms: Soft floors, rot in the rear bed corners, wheel wells and rockers, and a tailgate rusting around its seal and hardware.
 Fix: Cut back to clean metal and weld in replacement panels. Jeep-CJ.com warns that patching over rust only creates more rust. Replace the body-mount bushings and tailgate seal while the truck is apart, then seam-seal and paint. If the tub is too far gone, Omix makes a complete steel tub kit for 1981–86 Scramblers.
 Tools: Cut-off wheel · MIG welder · clamps · seam sealer
+
+#### Front wheel bearings and locking hubs (Dana 30)
+Difficulty 2 / 5 · time ≈ 2–3 hours for both sides · cost Bearings, races and seals [price not sourced]
+Symptoms: Play at the top and bottom of the tire, growling that changes when you turn, grease flung inside the rim, or hubs that won't engage. The stock five-bolt Warn hubs on 1981–86 CJs are weak, and Quadra-Trac trucks have drive plates rather than hubs.
+Fix: Remove the hub, the outer nut, lock washer and inner nut, then pull the rotor and catch the outer bearing. Clean everything, replace bearings and races as pairs, and press the new races in square. Seals come in two sizes (2 1/8 in and 2 5/16 in), so measure the old one first. Pack the bearings fully and tighten the inner nut to 50 ft-lb while turning the rotor to seat them, as the manuals quoted in the Off-Road.com thread say. Then back it off (one owner backs off about 1/6 turn), fit the lock washer and torque the outer locknut to 50 ft-lb and bend the lock-washer lip over it (1981 Jeep factory service manual; the inner nut is set the same way there, 50 ft-lb then back off 1/6 turn), and check end play: the manuals quoted there specify 0.001–0.005 in with a dial indicator. If the six spindle bolts come out, replace the needle bearing inside the spindle too.
+Tools: Hub/spindle-nut socket · torque wrench · bearing packer (optional) · race driver or long bolt · brake cleaner · high-quality wheel-bearing grease.
+
+#### Fuel gauge reads wrong or dead: sender, ground and gauge
+Difficulty 2 / 5 · time Under an hour to test; 2–3 hours to change the sender (Quadratec's estimate) · cost Sender kit about $43–48 at Quadratec (1981–86, 20-gal tank)
+Symptoms: A gauge that reads empty, sticks at one level or quit after the tank was dropped. On Jeep-CJ.com, a '79 CJ-5 owner's gauge died right after he dropped the tank to replace hoses; another owner's new sender stopped at half a tank.
+Fix: Start with the cheap checks: fuses, then power and ground at the gauge and at the sender. Jeep-CJ.com members say the sender ground is the usual culprit; one warns that a sender with no ground can 'burn up in about 2 seconds'. Run a dedicated ground wire to the sender from the battery or engine block rather than trusting frame and body grounds; the CJ-5 owner also added a jumper from the sender ground on the skid plate to the frame. Then test the sender with an ohmmeter between its wire and a good ground. If the sender reads correctly but grounding its wire does nothing at the gauge, the gauge itself is the likely failure. If the reading sticks, drop the tank and check the float.
+Tools: Multimeter (ohms and volts) · test light · jack and stands to drop the tank · new ground wire and terminals
 
 ### Baseline service
 Scramblers are rare enough that most have been half-restored at least once, so trust nothing. Change every fluid, grease every fitting, check the ignition and carburetor, and look at the AMC 20 hubs. Capacities below are from ExtremeTerrain's CJ chart, which covers the 1981–86 drivetrains.

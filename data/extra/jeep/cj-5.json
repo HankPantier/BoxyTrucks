@@ -362,5 +362,78 @@
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep CJ-5 maintenance: the 1979 factory interval rules, Jeep's 1981 schedule for 1981–83 trucks, and a purchase baseline.",
+  "intro": "Baseline everything on the day you buy a CJ-5, then follow the schedule for its year. Jeep's 1979 CJ-5 manual sets the basic service interval at every 5 months or 5,000 miles under normal use, and every 3 months or 3,000 miles under heavy-duty use. It lists the air cleaner element at 30,000 miles and an automatic transmission check at 15 months or 15,000 miles. For 1981–83 trucks, the 1981 Technical Service Manual's intervals follow.",
+  "schedule_note": "1979 CJ-5 Technical & Service Manual (ManualsLib) and the 1981 Jeep Technical Service Manual, Chapter B.",
+  "schedule": [
+   {
+    "at": "On the day you buy it",
+    "items": [
+     "Engine oil and filter; air filter",
+     "Fuel filter; ignition tune-up",
+     "Coolant, hoses and thermostat",
+     "Gearbox, transfer case and both axle oils",
+     "Repack the front wheel bearings",
+     "Brake and clutch fluid; grease every fitting"
+    ]
+   },
+   {
+    "at": "Basic service, 1979 manual",
+    "items": [
+     "Every 5 months or 5,000 mi (normal use)",
+     "Every 3 months or 3,000 mi (heavy-duty use)",
+     "First 200 mi after any wheel change: retighten the wheel nuts"
+    ]
+   },
+   {
+    "at": "1979 manual, longer items",
+    "items": [
+     "Air cleaner element: 30,000 mi",
+     "Automatic transmission check: 15 months or 15,000 mi"
+    ]
+   },
+   {
+    "at": "1981–83 trucks (1981 manual)",
+    "items": [
+     "258 oil and filter: first at 5,000 mi, then every 7,500 mi or 7.5 months",
+     "Fuel filter: at 12,500 mi, then every 15,000 mi",
+     "Plugs, cap, rotor and wires: every 30,000 mi",
+     "Front wheel bearings: repack every 30,000 mi (15,000 mi heavy-duty or off-road)"
+    ]
+   }
+  ],
+  "severe": "Both manuals shorten intervals for heavy-duty use: the 1979 manual's basic interval drops to 3 months or 3,000 miles, and the 1981 manual halves the front wheel bearing repack to 15,000 mi. Repack after any deep water crossing.",
+  "age_items": [
+   {
+    "item": "Fuel sender ground",
+    "when": "Whenever the tank is dropped",
+    "why": "A '79 CJ-5 owner's gauge died after a tank job; members blame poor sender grounds."
+   },
+   {
+    "item": "Steering box mount",
+    "when": "Every service",
+    "why": "Cracks around the steering box mount are a known CJ weak spot."
+   },
+   {
+    "item": "Clutch bellcrank bushings",
+    "when": "At any sloppy clutch",
+    "why": "The plastic bushings wear, and bad motor mounts can break the pivots."
+   }
+  ],
+  "sources": [
+   {
+    "name": "ManualsLib: 1979 Jeep CJ-5 Technical & Service Manual, maintenance schedule",
+    "url": "https://www.manualslib.com/manual/971501/Jeep-1979-Cj-5.html?page=21"
+   },
+   {
+    "name": "Jeep — 1981 Jeep Technical Service Manual (Chapter B maintenance schedules)"
+   },
+   {
+    "name": "Jeep-CJ.com: Fuel sender quit working ('79 CJ-5)",
+    "url": "https://jeep-cj.com/community/threads/fuel-sender-quit-working.62049"
+   }
+  ]
+ }
 }
