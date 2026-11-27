@@ -1,78 +1,570 @@
 [
  {
-  "url": "https://boxytrucks.com/repairs/g-class/europa/crumbling-engine-wiring-harness/",
+  "url": "https://boxytrucks.com/models/4runner/1st-gen/maintenance/",
   "status": "todo",
-  "date": "2026-11-24",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/2nd-gen/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/3rd-gen/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/4th-gen/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/5th-gen/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/4runner/6th-gen/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/bronco-ii/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/bronco/sixth-gen/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/k5-blazer-1st/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/k5-blazer/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/chevrolet/suburban-square/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g55-amg/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g550/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/g63-amg/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/g-class/w463/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/grenadier/quartermaster/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/grenadier/station-wagon/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/hummer/h1/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/hummer/h2/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/cherokee-xj/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/gladiator-jt/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jk-unlimited/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jk/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jl-unlimited/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/jl/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/tj-unlimited/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/tj/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/jeep/yj/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/100-series/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/250-series/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/300-series/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/70-series/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/80-series/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj40/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/fj62/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/prado-120/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/prado-150/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-cruiser/prado-90/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/defender-90-110/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/defender-l663/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/discovery-1/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/discovery-2/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/lr3/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/land-rover/lr4/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/gx470/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/gx550/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx450/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx570/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/lexus/lx600/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/y60/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/nissan-patrol/y61/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/niva/niva/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/pinzgauer/pinzgauer-716-718/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/l322/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/range-rover/l405/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/jimny-jb23/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/jimny-jb74/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/suzuki/samurai/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/models/trooper/trooper-2/maintenance/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/bronco/bronco-ii/rebush-sagging-door-hinges/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/bronco/bronco-ii/replace-the-fuel-pump/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/chevrolet/k5-blazer-1st/stop-an-np205-speedometer-output-leak/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/chevrolet/k5-blazer/tailgate-window-won-t-go-up-or-down/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/chevrolet/suburban-square/6-2-diesel-hard-starting-test-the-glow-plug/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/grenadier/station-wagon/water-leaks-safari-windows-and-rear-door-latches/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/hummer/h1/transfer-case-vampire-transmission-fluid-in-the-transfer-case/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/100-series/brake-booster-pump-and-accumulator-failure/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/100-series/cracked-exhaust-manifold/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/200-series/replace-a-cracked-radiator/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/80-series/rear-heater-lines-replace-or-bypass-before-they-rust/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/prado-120/cracked-dashboard/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/prado-150/1kd-cracked-piston-diagnosis/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/land-cruiser/prado-150/front-cv-boot-replacement/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/lexus/gx460/oil-in-the-spark-plug-wells/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/lexus/gx470/cracked-dashboard-top/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/lexus/gx470/driveshaft-clunk-when-stopping-or-pulling-away/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/lexus/lx470/brake-booster-pump-and-accumulator-failure/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/lexus/lx470/replace-the-plastic-heater-hose-tees/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/nissan-patrol/y60/replace-leaking-rear-axle-seals-and-wheel-bearings/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/nissan-patrol/y61/bubbling-dashboard-replacement-and-goodwill/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/nissan-patrol/y61/manual-gearbox-fifth-gear-stops-driving/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/nissan-patrol/y61/replace-the-front-radius-arm-bushes/",
+  "status": "todo",
+  "date": "2026-11-27",
+  "note": "GSC Discovered - not indexed (Nov 27)"
+ },
+ {
+  "url": "https://boxytrucks.com/repairs/g-class/europa/crumbling-engine-wiring-harness/",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new page Nov 24; Quota Exceeded, request next run"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/europa/misfires-from-coil-plug-connectors/",
-  "status": "todo",
-  "date": "2026-11-24",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new or deepened page Nov 24"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/europa/m104-head-gasket-seep/",
-  "status": "todo",
-  "date": "2026-11-24",
+  "status": "indexed",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new or deepened page Nov 24"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/4x4-squared/seven-speed-fluid-and-filter-service/",
-  "status": "todo",
-  "date": "2026-11-24",
+  "status": "indexed",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new or deepened page Nov 24"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/4x4-squared/diff-locks-won-t-engage/",
-  "status": "todo",
-  "date": "2026-11-24",
+  "status": "indexed",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new or deepened page Nov 24"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/4x4-squared/frame-and-body-rust-treatment/",
-  "status": "todo",
-  "date": "2026-11-24",
+  "status": "indexed",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new or deepened page Nov 24"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/500ge/diff-locks-won-t-engage/",
-  "status": "todo",
-  "date": "2026-11-24",
+  "status": "indexed",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-24",
   "note": "new or deepened page Nov 24"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/g63-6x6/turbo-oil-feed-and-return-lines/",
-  "status": "todo",
-  "date": "2026-11-25",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-25",
   "note": "new or deepened page Nov 25"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/g63-6x6/coolant-expansion-tank-cap-and-hoses/",
-  "status": "todo",
-  "date": "2026-11-25",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-25",
   "note": "new or deepened page Nov 25"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/g63-6x6/oil-consumption-and-cylinder-scoring-check/",
-  "status": "todo",
-  "date": "2026-11-25",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-25",
   "note": "new or deepened page Nov 25"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/w460/diesel-won-t-shut-off/",
-  "status": "todo",
-  "date": "2026-11-25",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-25",
   "note": "new or deepened page Nov 25"
  },
@@ -85,15 +577,15 @@
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/w461/glow-plugs-and-relay/",
-  "status": "todo",
-  "date": "2026-11-25",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-25",
   "note": "new or deepened page Nov 25"
  },
  {
   "url": "https://boxytrucks.com/repairs/g-class/w461/propeller-shaft-shudder-and-front-driveshaft-angle/",
-  "status": "todo",
-  "date": "2026-11-25",
+  "status": "requested",
+  "date": "2026-11-27",
   "src": "deep-dive-2026-11-25",
   "note": "new or deepened page Nov 25"
  },

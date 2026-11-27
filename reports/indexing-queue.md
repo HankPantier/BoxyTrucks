@@ -30,3 +30,9 @@
 - Added the 15 pages from today's G-Class deep dive (3 maintenance pages, 7 new guides, 5 deepened and taken off noindex) to the top of the queue.
 - Requested 11 (all "URL is unknown to Google"): yesterday's 3 leftovers (Pajero rear trailing-arm bushes, Space Gear cooling, Space Gear sliding door); G 500 4x4², 500 GE and Europa maintenance pages; 4x4² dampers, portal-axle oil and recall 17V-713; 500 GE overheating and springs. Quota Exceeded on the 12th (Europa wiring harness; next).
 - Pages report: unchanged from Nov 23, nothing new to add.
+
+## Nov 27, 2026 (13:4x–14:3x ET)
+- Search Console: 1.39K indexed, 159 not indexed (106 Discovered, 21 Crawled-not-indexed with validation failed, 26 alternate canonical, 3 noindex, 3 redirect). Discovered jumped from 35 to 106, mostly the new maintenance pages.
+- Requested 8 URLs (9 requests): Europa wiring harness, Europa coil-plug misfires (requested twice by mistake), W460 diesel won't shut off, G 63 6×6 turbo oil lines, coolant tank, oil consumption, W461 propshaft angle, W461 glow plugs. Quota Exceeded on the 10th (W460 propshaft clunk, still todo).
+- Already on Google (marked indexed): Europa M104 head gasket; 4×4² seven-speed service, diff locks, frame rust; 500GE diff locks.
+- Pages report: added 82 Discovered URLs not in the queue to the top; 0 previously-indexed URLs reopened as todo; 17 are deliberately noindexed.
