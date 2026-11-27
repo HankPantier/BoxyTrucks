@@ -3,7 +3,7 @@ title: "An American-built Grenadier is good news. Don't wait for one."
 seo_title: "Ineos will build the Grenadier and Quartermaster in the US from 2028: what it means for buyers"
 kicker: NEWS
 date: 2026-11-27
-status: draft
+status: published
 dek: "Ineos says it will build the Grenadier and the Quartermaster pickup in the US from 2028. It hasn't picked a site yet. The US is about 70% of Grenadier sales, and tariffs have already added thousands to the sticker. Meanwhile Ineos is negotiating to sell its French plant to BYD and says French production would continue."
 image: img/grenadier/station-wagon-goodwood-mud.jpg
 image_alt: "A mud-splattered dark green Ineos Grenadier Station Wagon parked on grass at the 2024 Goodwood Festival of Speed"
