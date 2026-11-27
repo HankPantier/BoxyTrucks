@@ -1,0 +1,54 @@
+{
+ "out": "social/posts/fn07-ineos-us-production.mp4",
+ "url": "boxytrucks.com/field-notes",
+ "credit": "Photos: Calreyn88/Wikimedia Commons, CC BY-SA 4.0 \u00b7 Mario A. P./Flickr, CC BY-SA 2.0. French-built trucks shown.",
+ "scenes": [
+  {
+   "photo": "site/img/grenadier/station-wagon-goodwood-mud.jpg",
+   "pos": "50% 55%",
+   "dur": 3.6,
+   "eyebrow": "Field Notes \u00b7 Ineos",
+   "title": "The Grenadier is coming to America.",
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "photo": "site/img/grenadier/quartermaster-goodwood-front.jpg",
+   "pos": "50% 55%",
+   "dur": 3.8,
+   "eyebrow": "From 2028",
+   "title": "US plant. No site yet.",
+   "body": "70% of Grenadiers already sell here.",
+   "zoom": [
+    1.05,
+    1.16
+   ]
+  },
+  {
+   "photo": "site/img/grenadier/station-wagon-prototype-meadow.jpg",
+   "pos": "50% 55%",
+   "dur": 4,
+   "eyebrow": "Shopping now?",
+   "title": "Don't wait for 2028.",
+   "body": "Buy a 2026 with the new steering.",
+   "zoom": [
+    1.05,
+    1.16
+   ]
+  },
+  {
+   "photo": "site/img/grenadier/station-wagon-goodwood-mud.jpg",
+   "pos": "50% 45%",
+   "dur": 3.4,
+   "title": "Good news. Don't wait for it.",
+   "body": "Full take at boxytrucks.com/field-notes",
+   "cta": true,
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  }
+ ]
+}
