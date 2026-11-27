@@ -95,6 +95,7 @@ Once both accounts exist, connect them to a scheduler (Postiz, Buffer or Later).
 |---|---|---|---|
 | Nov 5, 2026 | Field Note: Jeep Scrambler IFS (DfSXfOAHET8) | @dowlat21: "Very informative and cool account." | Replied (from @boxytrucks): thanks, check out the full site at boxytrucks.com |
 | Nov 6, 2026 | From Hank's garage (DfXcx8xHFCd) | @cwilsun: wishes he still had his 1963 Willys CJ3B, sold for tuition | Replied (from @boxytrucks): tuition is a good reason but a hard one to let go; great truck to remember, thanks for sharing |
+| Nov 26, 2026 | Field Note: The 2027 4Runner is the same truck with heated seats and a bigger sticker (fn-2027-toyota-4runner-price, carousel 4 slides 4:5 + reel; photos swapped to avoid children and a readable plate). Instagram https://www.instagram.com/boxytrucks/p/DgOU5ganD-J/, Pinterest 1128292512947207439, YouTube CUB8lhQmNQo with pinned comment, TikTok 7712633290057944351 (Everyone); no X (round-up) | `posts/fn06-2027-4runner-price-1..4.jpg`, `posts/fn06-2027-4runner-price.mp4` |
 
 ## 2026-11-15
 - Years Short Bronco 6th gen: YouTube https://youtube.com/shorts/A6jidU-VH1M (comment pinned), IG https://www.instagram.com/boxytrucks/reel/DfyLcHfOKzj/, Pinterest https://www.pinterest.com/pin/1128292512946354750/
