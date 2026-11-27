@@ -394,5 +394,80 @@
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Comanche MJ maintenance: the Haynes Cherokee/Comanche schedule by mileage, its severe-service rules, and a purchase baseline.",
+  "intro": "Baseline everything the day you buy a Comanche, then work to a schedule. The intervals below are from the Haynes-style Cherokee/Comanche manual's Chapter 1 schedule, which says its intervals are loosely based on factory recommendations, with some shortened for owners who do their own work. Check your owner's manual for the factory figures for your year.",
+  "schedule_note": "Haynes-style Jeep Cherokee/Comanche manual, Chapter 1 maintenance schedule (ManualsLib).",
+  "schedule": [
+   {
+    "at": "On the day you buy it",
+    "items": [
+     "Engine oil and filter; air filter",
+     "Plugs, wires, cap and rotor",
+     "Coolant, hoses and thermostat",
+     "Gearbox, transfer case and both axle oils",
+     "Brake and clutch fluid"
+    ]
+   },
+   {
+    "at": "Every 250 mi or weekly",
+    "items": [
+     "Engine oil and coolant levels",
+     "Washer fluid, brake and clutch fluid levels",
+     "Tires and tire pressures"
+    ]
+   },
+   {
+    "at": "Every 3,000 mi or 3 months",
+    "items": [
+     "Automatic transmission fluid level",
+     "Power steering fluid level",
+     "Battery and cooling system",
+     "Underhood hoses and wiper blades"
+    ]
+   },
+   {
+    "at": "Every 7,500 mi or 12 months",
+    "items": [
+     "Change the engine oil and filter",
+     "Lubricate the chassis; inspect suspension, steering and exhaust",
+     "Check manual transmission, differential and transfer case (4WD) lube levels",
+     "Rotate the tires; check the brakes and fuel system",
+     "Check drivebelts, seatbelts, starter safety switch, spare tire and jack"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi or 24 months",
+    "items": [
+     "Replace the fuel filter, air filter and PCV filter",
+     "Change the automatic transmission fluid, manual transmission lubricant, differential lubricant and transfer case lubricant (4WD)",
+     "Repack the front wheel bearings (2WD)",
+     "Drain, flush and refill the cooling system",
+     "Replace the spark plugs; inspect plug wires, distributor cap and rotor",
+     "Check idle speed and ignition timing; inspect the PCV valve, evaporative system and EGR"
+    ]
+   },
+   {
+    "at": "60,000 mi",
+    "items": [
+     "Replace the plug wires, distributor cap and rotor"
+    ]
+   },
+   {
+    "at": "82,500 mi",
+    "items": [
+     "Replace the oxygen sensor and emissions timer (49-state models)"
+    ]
+   }
+  ],
+  "severe": "The Haynes schedule marks items affected by severe use (oil and filter, suspension and steering, exhaust, gear oils, brakes) and says to do them at 3,000-mile, 3-month intervals if you drive in dusty areas, tow a trailer, idle for long periods or drive at low speed, or make mostly short trips under four miles in freezing weather. It also calls for an automatic transmission fluid change every 12,000 miles under heavy use such as frequent trailer pulling.",
+  "age_items": [],
+  "sources": [
+   {
+    "name": "ManualsLib: Jeep Cherokee/Comanche maintenance schedule (Haynes-style manual, Chapter 1)",
+    "url": "https://www.manualslib.com/manual/3840980/Jeep-Comanche-1989.html?page=29"
+   }
+  ]
+ }
 }

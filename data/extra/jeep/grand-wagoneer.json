@@ -262,5 +262,48 @@
    "name": "Red Rock 4-Wheelers — Easter Jeep Safari",
    "url": "https://www.rr4w.com/"
   }
- ]
+ ],
+ "maintenance": {
+  "description": "Jeep Grand Wagoneer maintenance: Jeep's 1989 owner's-manual schedule, what it marks required, and a purchase baseline.",
+  "intro": "Baseline everything the day you buy a Grand Wagoneer, then follow Jeep's schedule. The intervals below are from the 1989 Grand Wagoneer owner's manual (except-California chart), which marks each job as Required or Recommended. Other years can differ, so check the manual for yours. The manual's list also covers the fuel filter, coolant flush, brake inspection, front wheel bearing lubrication, ignition wires, cap and rotor, PCV valve and filter, and emission vacuum hoses; their intervals aren't legible in the available scan, so they're left out here.",
+  "schedule_note": "Jeep 1989 Grand Wagoneer owner's manual, maintenance schedule (ManualsLib).",
+  "schedule": [
+   {
+    "at": "On the day you buy it",
+    "items": [
+     "Engine oil and filter; air and fuel filters",
+     "Plugs, wires, cap and rotor",
+     "Coolant, hoses and thermostat",
+     "Automatic transmission fluid and filter",
+     "Transfer case and both axle oils",
+     "Brake fluid; front wheel bearings"
+    ]
+   },
+   {
+    "at": "Every 7,500 mi",
+    "items": [
+     "Change the engine oil and filter (Required)",
+     "Check the exhaust; lubricate the propeller shafts and double cardan joints and inspect the seals; inspect and lubricate the steering linkage and ball joints (Recommended)",
+     "Check manual transmission, axle and transfer case fluid levels"
+    ]
+   },
+   {
+    "at": "Every 30,000 mi (again at 60,000)",
+    "items": [
+     "Replace the air cleaner filter (Required)",
+     "Replace the drive belts (Required)",
+     "Replace the automatic transmission fluid and filter (Recommended)",
+     "Replace the spark plugs (Recommended)",
+     "Replace manual transmission, axle and transfer case fluids"
+    ]
+   }
+  ],
+  "age_items": [],
+  "sources": [
+   {
+    "name": "ManualsLib: 1989 Jeep Grand Wagoneer owner's manual, maintenance schedule",
+    "url": "https://www.manualslib.com/manual/1014853/Jeep-Grand-Wagoneer-1989.html?page=132"
+   }
+  ]
+ }
 }
