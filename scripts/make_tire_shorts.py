@@ -139,7 +139,7 @@ SERIES = 'Biggest tire'
 
 def render(n):
     rows = json.loads(QUEUE.read_text())
-    todo = [r for r in rows if r['status'] != 'posted' and not (ROOT / r['video']).exists()][:n]
+    todo = [r for r in rows if r['status'] not in ('posted', 'held') and not (ROOT / r['video']).exists()][:n]
     (ROOT / 'social' / 'posts' / 'shorts').mkdir(parents=True, exist_ok=True)
     # Numbered series (STRATEGY.md, Hank Nov 23): the number continues from posted items plus any already-rendered queued ones.
     n = sum(1 for r in rows if r['status'] == 'posted' or r.get('series_no'))
