@@ -1,6 +1,6 @@
 # BoxyTrucks: full model guides
 
-Source: https://boxytrucks.com/ · generated 2026-11-27
+Source: https://boxytrucks.com/ · generated 2026-11-28
 
 Verify every fluid, capacity and torque figure against the factory manual for the exact vehicle. Disclaimer: https://boxytrucks.com/about/disclaimer/
 
@@ -9933,6 +9933,18 @@ Symptoms: The dash 2WD/4WD control does nothing, the truck stays in one mode, or
 Fix: Selec-Trac uses vacuum to shift between 2WD and 4WD. Check the vacuum lines from the engine to the reservoir, the dash switch and the transfer-case actuator for cracks or disconnected hoses, and test with a hand vacuum pump. On 1984–86 trucks, the transfer-case vacuum switch is a known replacement part. Fix any seal leaks at the yokes, then drain and refill the transfer case (Team Grand Wagoneer recommends a synthetic ATF-type fluid).
 Tools: Hand vacuum pump · vacuum hose · sockets · drain pan · fluid pump
 
+#### Fuel gauge stuck on full: test the sender circuit
+Difficulty 2 / 5 · time ≈ 1 hour to test; 2–3 hours if the sender comes out · cost Often nothing; wire, solder and dielectric grease
+Symptoms: With the ignition on, the fuel gauge reads full and sits against the top pin whatever is in the tank. IFSJA's write-up on a Grand Wagoneer traces this to an open circuit to the tank sender: a broken wire, a worn sender or a corroded ground.
+Fix: Tilt the rear seat forward, fold back the carpet and remove the round cover plate just forward of the left rear wheel arch (drill the rivets if you must). Clean around the sender. With the ignition on, disconnect the pink wire from the sender's center post and ground it: the gauge should drop to empty. If it doesn't, the break is in the pink wire, so trace it forward. If it does, the fault is at the tank: check the black ground wire's tab on the sender, then sand a fuel tube to bare metal and ground it. If the gauge now reads correctly, make the ground permanent with a soldered wire from a fuel tube to the body (safer with the sender out) or a hose clamp, and coat it with dielectric grease. If it still doesn't respond, remove the sender, check the float arm's wear and the resistance wire, repair, and reinstall with the O-ring seated.
+Tools: Drill (for rivets) · multimeter · jumper wire · sandpaper · soldering iron · dielectric grease · fire extinguisher
+
+#### Fix the power door locks
+Difficulty 2 / 5 · time ≈ 1–2 hours per door · cost A circuit breaker, switch or aftermarket lock actuator
+Symptoms: None of the locks work, there's no click when you press a switch, or one door's lock is slow or dead while the others work.
+Fix: Start at the 30-amp circuit breaker in the passenger-compartment fuse block. With the engine off, press each switch both ways and listen for a click. No click and no voltage at the switches: check the wiring from the fuse block. Voltage but no click: test the switch for continuity both ways and replace it if it fails. On later keyless-entry trucks, if the relay gets voltage but doesn't pass it on, check the relay case ground, then replace the relay. For a single dead door, pull the trim panel and check for voltage at the actuator while working the switch; if voltage is there, replace the actuator, and if not, look for a broken wire in the harness where it crosses into the door.
+Tools: Test light or multimeter · trim panel tools · drill and bits · crimp connectors · grinder or drill to remove rivets
+
 ### Baseline service
 A Grand Wagoneer is at least 35 years old. Treat every fluid, rubber part and ignition part as original unless there are receipts. Capacities below are marked for confirmation because we couldn't find a sourced factory fill table. The parts catalogs split by year: 1984–86 versus 1987–91 (filters, ignition modules), and York versus Sanden A/C compressors (1978–88 versus 1989–91).
 - Engine oil & filter: AMC 360 V8 · AMSOIL's 1989 lookup lists 5 qt with filter and 10W-30 or 10W-40 for most climates (check your manual) · Baseline now; then per your owner's manual (The filter changes by year: one for 1984–86, another for 1987–90, and a third for 1991. Order by model year.)
@@ -10369,6 +10381,18 @@ Difficulty 3 / 5 · time ≈ Half a day · cost Parts plus an alignment
 Symptoms: Violent front shake after a bump at speed, wandering and clunks. The MJ front end is the XJ's, with the same weak points: the track bar, tie-rod ends, drag link and steering box.
 Fix: With the engine running, have a helper turn the wheel back and forth while you watch the track-bar ends and bracket, the tie-rod and drag-link ends and the steering box for movement. Replace worn parts (an adjustable track bar re-centers a lifted axle), tighten everything at ride height, and check the unibody around the steering box for cracks. A steering stabilizer hides wobble; it doesn't cure it.
 Tools: Helper · pry bar · tie-rod puller · torque wrench · alignment afterward
+
+#### Heat and A/C stuck on defrost: find the vacuum leak
+Difficulty 2 / 5 · time ≈ 1–2 hours to find, minutes to fix · cost A few feet of vacuum hose or line
+Symptoms: Air comes only out of the windshield defrost vents whatever mode you pick. On these trucks the vent doors are vacuum-operated and fail to defrost when vacuum is lost, so a leak in the supply line is the usual cause. Comanche Club members also tie the same vacuum supply to the front axle disconnect and transfer-case switch.
+Fix: Trace the supply first: a thick hose from the intake manifold feeds a vacuum reservoir (canister) behind the passenger side of the front bumper, and a black plastic line from the canister runs back through the firewall to the dash controls. Check every connection at the back of the dash controller, then run your fingers along the black line, because leaks are often easier to feel than see. Comanche Club members found the same failure twice: a small hole worn in the black line under the coolant pressure-bottle tray, about three inches before the firewall, where it rubs on the bottle's hose crimp. Splice the hole with short lengths of tight-fitting small vacuum hose, or replace the whole run with new line, and reroute it so it can't chafe again.
+Tools: Flashlight · hand vacuum pump (optional) · small vacuum hose (about 3/32 in ID) · zip ties · tape for a temporary fix
+
+#### AW4 shifts erratically or floats between gears: check the TPS and range switch
+Difficulty 2 / 5 · time ≈ 1–2 hours · cost Often nothing; a TPS or range switch if cleaning fails
+Symptoms: The AW4 automatic seems to float between shifts, drops out of gear unless under load, shifts late or at random, or has little engine braking. NAXJA members trace many of these to the sensors the transmission computer reads, not to the transmission itself.
+Fix: Check the fluid level and condition first. Then test the throttle position sensor (TPS), which the engine and transmission computers share: with the connector on and the ignition on, measure input voltage between pins A and D and output between B and D, and sweep the throttle slowly to look for a dead spot. Clean the connector if voltage drops across it. Next, unplug and clean the neutral safety/gear selection switch on the passenger side of the transmission; it also tells the transmission computer which gear is selected. Check the transmission speed sensor connector too. Replace a part only if cleaning and adjustment don't fix it.
+Tools: Digital multimeter · back-probe pins · electrical contact cleaner · basic hand tools
 
 ### Baseline service
 A Comanche is at least 34 years old, and most have spent years as cheap work trucks, so assume nothing has been done. The drivetrain is the XJ's, so the capacities below come from the 2001 Cherokee owner's manual as quoted on NAXJA, for the parts the two share. Check your own truck's manual and the axle tags, especially for Dana 44 and Metric Ton rear axles.

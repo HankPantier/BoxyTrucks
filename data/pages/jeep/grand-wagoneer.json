@@ -397,6 +397,63 @@
      "url": "https://teamgrandwagoneer.com/100-synthetic-transfer-case-fluid-gw-1980-1991/"
     }
    ]
+  },
+  {
+   "title": "Fuel gauge stuck on full: test the sender circuit",
+   "diff": "2 / 5",
+   "time": "≈ 1 hour to test; 2–3 hours if the sender comes out",
+   "cost": "Often nothing; wire, solder and dielectric grease",
+   "symptoms": "With the ignition on, the fuel gauge reads full and sits against the top pin whatever is in the tank. IFSJA's write-up on a Grand Wagoneer traces this to an open circuit to the tank sender: a broken wire, a worn sender or a corroded ground.",
+   "fix": "Tilt the rear seat forward, fold back the carpet and remove the round cover plate just forward of the left rear wheel arch (drill the rivets if you must). Clean around the sender. With the ignition on, disconnect the pink wire from the sender's center post and ground it: the gauge should drop to empty. If it doesn't, the break is in the pink wire, so trace it forward. If it does, the fault is at the tank: check the black ground wire's tab on the sender, then sand a fuel tube to bare metal and ground it. If the gauge now reads correctly, make the ground permanent with a soldered wire from a fuel tube to the body (safer with the sender out) or a hose clamp, and coat it with dielectric grease. If it still doesn't respond, remove the sender, check the float arm's wear and the resistance wire, repair, and reinstall with the O-ring seated.",
+   "tools": "Drill (for rivets) · multimeter · jumper wire · sandpaper · soldering iron · dielectric grease · fire extinguisher",
+   "parts": [],
+   "know": [
+    "The IFSJA author used a U-shaped mild-steel tool with an 85 mm gap to turn the sender's large lock nut. Mark the fuel hoses before you disconnect them.",
+    "If the float arm's tip is badly worn, he soldered on a small piece of brass cut from a 3/32 in brass bolt.",
+    "A broken resistance wire can be soldered or rewired, at some cost to accuracy.",
+    "On reassembly, make sure the arm stays in contact with the resistance wire through its full travel."
+   ],
+   "mistakes": [
+    "Making sparks near the open tank. The author tests with a long jumper wire first and keeps an extinguisher at hand.",
+    "Reinstalling the sender without seating the rubber O-ring, which leaks fuel and fumes into the cabin."
+   ],
+   "refs": [
+    {
+     "name": "IFSJA: Fuel sender repair (Grand Wagoneer, 1998)",
+     "url": "https://ifsja.org/tech/fuel/fuelsender2.html"
+    }
+   ]
+  },
+  {
+   "title": "Fix the power door locks",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours per door",
+   "cost": "A circuit breaker, switch or aftermarket lock actuator",
+   "symptoms": "None of the locks work, there's no click when you press a switch, or one door's lock is slow or dead while the others work.",
+   "fix": "Start at the 30-amp circuit breaker in the passenger-compartment fuse block. With the engine off, press each switch both ways and listen for a click. No click and no voltage at the switches: check the wiring from the fuse block. Voltage but no click: test the switch for continuity both ways and replace it if it fails. On later keyless-entry trucks, if the relay gets voltage but doesn't pass it on, check the relay case ground, then replace the relay. For a single dead door, pull the trim panel and check for voltage at the actuator while working the switch; if voltage is there, replace the actuator, and if not, look for a broken wire in the harness where it crosses into the door.",
+   "tools": "Test light or multimeter · trim panel tools · drill and bits · crimp connectors · grinder or drill to remove rivets",
+   "parts": [],
+   "know": [
+    "IFSJA says wires commonly break in the harness section between the body and the door opening.",
+    "Earlier trucks wire the switches straight to the lock motors; later keyless-entry trucks add a relay.",
+    "On a 1987 Grand Wagoneer, IFSJA's Mike Ahlmann replaced a balky passenger actuator with a Harada DLA-01 two-wire aftermarket actuator (about $21 from a car-alarm shop). He ground off two rivets, crimped on bullet connectors, mounted the new unit with three screws and clamped its rod to the Jeep lock bar.",
+    "Swap the two actuator wires if the lock moves the wrong way.",
+    "His first door took about 2 hours including lubricating the window flex rack; he estimates about 1 hour per door after that."
+   ],
+   "mistakes": [
+    "Replacing actuators before checking the breaker, switch and door-jamb wiring.",
+    "Tightening the actuator rod clamp before setting the lock and actuator to the same (open) position."
+   ],
+   "refs": [
+    {
+     "name": "IFSJA: Power door lock and keyless entry system",
+     "url": "https://ifsja.org/tech/electrical/powerlocks.html"
+    },
+    {
+     "name": "IFSJA: Door lock actuator fix (1987 Grand Wagoneer)",
+     "url": "https://ifsja.org/tech/misc/doorlock.html"
+    }
+   ]
   }
  ],
  "baseline_service": {

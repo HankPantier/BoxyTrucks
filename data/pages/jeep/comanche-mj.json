@@ -425,6 +425,59 @@
      "url": "https://www.quadratec.com/p/crown-automotive/steering-box-seal-kit-jeep-cj-wrangler-yj-cherokee-xj-comanche-mj-and"
     }
    ]
+  },
+  {
+   "title": "Heat and A/C stuck on defrost: find the vacuum leak",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours to find, minutes to fix",
+   "cost": "A few feet of vacuum hose or line",
+   "symptoms": "Air comes only out of the windshield defrost vents whatever mode you pick. On these trucks the vent doors are vacuum-operated and fail to defrost when vacuum is lost, so a leak in the supply line is the usual cause. Comanche Club members also tie the same vacuum supply to the front axle disconnect and transfer-case switch.",
+   "fix": "Trace the supply first: a thick hose from the intake manifold feeds a vacuum reservoir (canister) behind the passenger side of the front bumper, and a black plastic line from the canister runs back through the firewall to the dash controls. Check every connection at the back of the dash controller, then run your fingers along the black line, because leaks are often easier to feel than see. Comanche Club members found the same failure twice: a small hole worn in the black line under the coolant pressure-bottle tray, about three inches before the firewall, where it rubs on the bottle's hose crimp. Splice the hole with short lengths of tight-fitting small vacuum hose, or replace the whole run with new line, and reroute it so it can't chafe again.",
+   "tools": "Flashlight · hand vacuum pump (optional) · small vacuum hose (about 3/32 in ID) · zip ties · tape for a temporary fix",
+   "parts": [],
+   "know": [
+    "The blue line hanging loose behind the dash is not your leak. Comanche Club member Stacks says it's the vent/breather for the transfer-case vacuum circuit, with a one-way valve on the end, and isn't meant to connect to anything.",
+    "Stacks lists the other colors: red feeds the transfer-case switch, green and yellow work the front axle disconnect, and white goes to the 4x4 light vacuum switch.",
+    "The black line should leave the firewall beside the pink heater-control-valve line and join the larger line to the canister, not run through the motor-mount bracket.",
+    "Member ParadiseMJ prefers replacing the whole line, because old lines often have more than one leak and corrosion under the battery tray is common."
+   ],
+   "mistakes": [
+    "Plugging the loose blue vent line into something because it looks unconnected.",
+    "Patching one hole and leaving a brittle 30-year-old line that cracks somewhere else."
+   ],
+   "refs": [
+    {
+     "name": "Comanche Club: HVAC selector vacuum leak",
+     "url": "https://comancheclub.com/topic/45621-hvac-selector-vacuum-leak"
+    }
+   ]
+  },
+  {
+   "title": "AW4 shifts erratically or floats between gears: check the TPS and range switch",
+   "diff": "2 / 5",
+   "time": "≈ 1–2 hours",
+   "cost": "Often nothing; a TPS or range switch if cleaning fails",
+   "symptoms": "The AW4 automatic seems to float between shifts, drops out of gear unless under load, shifts late or at random, or has little engine braking. NAXJA members trace many of these to the sensors the transmission computer reads, not to the transmission itself.",
+   "fix": "Check the fluid level and condition first. Then test the throttle position sensor (TPS), which the engine and transmission computers share: with the connector on and the ignition on, measure input voltage between pins A and D and output between B and D, and sweep the throttle slowly to look for a dead spot. Clean the connector if voltage drops across it. Next, unplug and clean the neutral safety/gear selection switch on the passenger side of the transmission; it also tells the transmission computer which gear is selected. Check the transmission speed sensor connector too. Replace a part only if cleaning and adjustment don't fix it.",
+   "tools": "Digital multimeter · back-probe pins · electrical contact cleaner · basic hand tools",
+   "parts": [],
+   "know": [
+    "NAXJA member 8Mud typically saw about 4.7 V in and close to 4.0 V out at the TPS. He prefers output at about 86% of input; he says the book calls for 82–83%.",
+    "8Mud found about 1 volt lost in a dirty connector, which cleaning fixed.",
+    "The original poster in that thread had been told by three mechanics he needed a rebuild. Cleaning, refitting and adjusting the TPS to spec cured it.",
+    "Don S (an ASE Master Tech) notes the 1987–90 Renix system has no self-diagnostics: no check engine light and no trouble codes to read.",
+    "With the speed sensor unplugged, 8Mud says the AW4 gave very little engine braking and sporadic downshifts."
+   ],
+   "mistakes": [
+    "Paying for a transmission rebuild before checking the TPS, range switch and grounds.",
+    "Adjusting the TPS without measuring input and output voltage."
+   ],
+   "refs": [
+    {
+     "name": "NAXJA: AW4 sensors (thread on a 1990 4.0 AW4)",
+     "url": "https://naxja.org/threads/aw4-sensors.46803/post-376931"
+    }
+   ]
   }
  ],
  "baseline_service": {
